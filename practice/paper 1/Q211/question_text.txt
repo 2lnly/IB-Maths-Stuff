@@ -1,0 +1,23 @@
+Here is the text extracted from the image:
+
+Do NOT write solutions on this page.
+
+12. [Maximum mark: 23]
+
+Consider a function f, defined by f(x) = x / (2-x) for 0 ≤ x ≤ 1.
+
+(a) Find an expression for (f ∘ f)(x). [3 marks]
+
+Let Fn(x) = x / (2n - (2n - 1)x), where 0 ≤ x ≤ 1.
+
+(b) Use mathematical induction to show that for any n ∈ ℤ⁺
+(f ∘ f ∘ ... ∘ f)(x) = Fn(x). [8 marks]
+       n times
+
+(c) Show that Fn(x) is an expression for the inverse of Fn. [6 marks]
+
+(d) (i) State Fn(0) and Fn(1).
+    (ii) Show that Fn(x) < x, given 0 < x < 1, n ∈ ℤ⁺.
+    (iii) For n ∈ ℤ⁺, let An be the area of the region enclosed by the graph of Fn⁻¹,
+         the x-axis and the line x = 1. Find the area Bn of the region enclosed by
+         Fn and Fn⁻¹ in terms of An. [6 marks]

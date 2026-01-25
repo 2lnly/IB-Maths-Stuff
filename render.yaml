@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ibmath-practice
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: cd web && gunicorn app:app
+    plan: free

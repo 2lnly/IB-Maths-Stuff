@@ -1,0 +1,104 @@
+Here is the text extracted from the image, including all mathematical notation, equations, and symbols, preserving the structure and formatting:
+
+- 4 -                                                                   2221-7113
+
+2.    [Maximum mark: 24]
+
+This question asks you to investigate and prove a geometric property involving the
+roots of the equation z^n = 1 where z ∈ ℂ for integers n, where n ≥ 2.
+
+The roots of the equation z^n = 1 where z ∈ ℂ are 1, ω, ω^2, ..., ω^(n-1), where ω = e^(2πi/n). Each
+root can be represented by a point P0, P1, P2, ..., Pn-1, respectively, on an Argand diagram.
+
+For example, the roots of the equation z^2 = 1 where z ∈ ℂ are 1 and ω. On an Argand
+diagram, the root 1 can be represented by a point P0 and the root ω can be represented by
+a point P1.
+
+Consider the case where n = 3.
+
+The roots of the equation z^3 = 1 where z ∈ ℂ are 1, ω and ω^2. On the following Argand
+diagram, the points P0, P1 and P2 lie on a circle of radius 1 unit with centre O(0, 0).
+
+Im
+    P1
+                     
+                           P0
+     
+Re
+                     
+                    P2
+
+(a)   (i)   Show that (ω - 1)(ω^2 + ω + 1) = ω^3 - 1.                              [2]
+
+     (ii)  Hence, deduce that ω^2 + ω + 1 = 0.                                    [2]
+
+(This question continues on the following page)
+
+(Question 2 continued)
+Line segments [P0P1] and [P1P2] are added to the Argand diagram in part (a) and are shown
+on the following Argand diagram.
+
+Im
+    P1
+                     
+                           P0
+                           
+                                  P2
+     
+Re
+
+P0P1 is the length of [P0P1] and P1P2 is the length of [P1P2].
+
+(b)   Show that P0P1 × P1P2 = 3.                                                 [3]
+
+Consider the case where n = 4.
+
+The roots of the equation z^4 = 1 where z ∈ ℂ are 1, ω, ω^2 and ω^3.
+
+(c)   By factorizing z^4 - 1, or otherwise, deduce that ω^3 + ω^2 + ω + 1 = 0.       [2]
+
+(This question continues on the following page)
+
+(Question 2 continued)
+On the following Argand diagram, the points P0, P1, P2 and P3 lie on a circle of radius 1 unit
+with centre O(0, 0). [P0P1], [P1P2] and [P2P3] are line segments.
+
+Im
+    P1
+                     
+                           P0
+                           
+                    P2     
+                           
+                                  P3
+     
+Re
+
+(d)   Show that P0P1 × P0P2 × P0P3 = 4.                                           [4]
+
+For the case where n = 5, the equation z^5 = 1 where z ∈ ℂ has roots 1, ω, ω^2, ω^3 and ω^4.
+
+It can be shown that P0P1 × P0P2 × P0P3 × P0P4 = 5.
+
+Now consider the general case for integer values of n, where n ≥ 2.
+
+The roots of the equation z^n = 1 where z ∈ ℂ are 1, ω, ω^2, ..., ω^(n-1). On an Argand diagram,
+these roots can be represented by the points P0, P1, P2, ..., Pn-1, respectively where
+[P0P1], [P1P2], ..., [Pn-2Pn-1] are line segments. The roots lie on a circle of radius 1 unit
+with centre O(0, 0).
+
+(e)   Suggest a value for P0P1 × P0P2 × ... × P0Pn-1.                                [1]
+
+P0P1 can be expressed as |1 - ω|.
+
+(f)   (i)   Write down expressions for P0P2 and P0P3 in terms of ω.                [2]
+    (ii)  Hence, write down an expression for P0Pn-1 in terms of n and ω.           [1]
+
+Consider z^n - 1 = (z - 1)(z^n-2 + z^n-2 + ... + z + 1) where z ∈ ℂ.
+
+(g)   (i)   Express z^n-1 + z^n-2 + ... + z + 1 as a product of linear factors over the set ℂ. [3]
+    (ii)  Hence, using the part (g)(i) and part (f) results, or otherwise, prove your
+          suggested result to part (e).                                            [4]
+
+References:
+© International Baccalaureate Organization 2021

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB math AAHL stuff</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #1a1638;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        .bg-shape {
+            position: fixed;
+            opacity: 0.12;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .bg-shape:nth-child(1) {
+            width: 300px;
+            height: 300px;
+            background: #9d8a4a;
+            border-radius: 50%;
+            top: 10%;
+            left: 10%;
+            animation: float 20s infinite ease-in-out;
+        }
+
+        .bg-shape:nth-child(2) {
+            width: 200px;
+            height: 200px;
+            background: #8f7d3a;
+            border-radius: 20%;
+            top: 60%;
+            right: 15%;
+            animation: float 15s infinite ease-in-out reverse;
+            transform: rotate(45deg);
+        }
+
+        .bg-shape:nth-child(3) {
+            width: 0;
+            height: 0;
+            border-left: 125px solid transparent;
+            border-right: 125px solid transparent;
+            border-bottom: 250px solid #a89d5a;
+            background: transparent;
+            bottom: 20%;
+            left: 20%;
+            animation: float 18s infinite ease-in-out;
+        }
+
+        .bg-shape:nth-child(4) {
+            width: 180px;
+            height: 180px;
+            background: #8a7d4a;
+            border-radius: 30px;
+            top: 30%;
+            right: 30%;
+            animation: float 22s infinite ease-in-out reverse;
+        }
+
+        .bg-shape:nth-child(5) {
+            width: 220px;
+            height: 140px;
+            background: #7a8d6a;
+            border-radius: 50%;
+            top: 45%;
+            left: 50%;
+            animation: float 17s infinite ease-in-out;
+        }
+
+        .bg-shape:nth-child(6) {
+            width: 160px;
+            height: 160px;
+            background: #8a7d6a;
+            clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+            bottom: 35%;
+            right: 20%;
+            animation: float 19s infinite ease-in-out reverse;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translate(0, 0) scale(1);
+            }
+            33% {
+                transform: translate(30px, -30px) scale(1.1);
+            }
+            66% {
+                transform: translate(-20px, 20px) scale(0.9);
+            }
+        }
+
+        .container, .header, .question-container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .container {
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            max-width: calc(1200px * 0.65);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .header h1 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .header .author {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        select, button {
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        select {
+            background: white;
+            color: #333;
+        }
+
+        button {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+        }
+
+        button:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .question-container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+            max-width: calc(1200px * 0.65);
+            margin-left: auto;
+            margin-right: auto;
+            transition: max-width 0.3s ease;
+        }
+
+        .question-container.wide {
+            max-width: calc((1200px * 0.65) * 2);
+        }
+
+        .question-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #eee;
+        }
+
+        .question-meta {
+            color: #666;
+        }
+
+        .question-meta span {
+            background: #f0f0f0;
+            padding: 5px 12px;
+            border-radius: 5px;
+            margin-right: 10px;
+            font-size: 14px;
+        }
+
+        .images-container {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .image-section {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 0;
+        }
+
+        .image-section h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .image-section > div {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            padding: 10px 0;
+        }
+
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            flex-shrink: 0;
+        }
+
+        .image-section > div:has(img:only-child) img {
+            width: 100%;
+        }
+
+        .actions {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn-show-answer {
+            background: #3b82f6;
+        }
+
+        .btn-show-answer:hover {
+            background: #2563eb;
+        }
+
+        .btn-chatgpt {
+            background: #3b82f6;
+        }
+
+        .btn-chatgpt:hover {
+            background: #2563eb;
+        }
+
+
+        .hidden {
+            display: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .no-question {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            select, button {
+                width: 100%;
+            }
+
+            .images-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+
+    <div class="container">
+        <div class="header">
+            <h1>IB math AAHL stuff</h1>
+            <div class="author">by: Xiao He</div>
+            <div class="controls">
+                <select id="paperSelect">
+                    <option value="">All Papers</option>
+                </select>
+                <select id="topicSelect">
+                    <option value="">All Topics</option>
+                </select>
+                <select id="subtopicSelect">
+                    <option value="">All Subtopics</option>
+                </select>
+                <button onclick="loadRandomQuestion()">Random Question</button>
+            </div>
+        </div>
+
+        <div id="questionContainer" class="question-container hidden">
+            <div class="question-info">
+                <div class="question-meta">
+                    <span id="paperInfo"></span>
+                    <span id="topicInfo"></span>
+                    <span id="subtopicInfo"></span>
+                </div>
+                <div class="question-id" style="color: #999; font-size: 14px;" id="questionId"></div>
+            </div>
+
+            <div class="images-container">
+                <div class="image-section">
+                    <div id="questionImages"></div>
+                </div>
+
+                <div class="image-section hidden" id="answerSection">
+                    <div id="answerImages"></div>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button class="btn-show-answer" onclick="showAnswer()">Show Answer</button>
+                <button class="btn-chatgpt" onclick="askChatGPT()">Ask ChatGPT</button>
+            </div>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            Loading question...
+        </div>
+
+        <div id="noQuestion" class="no-question hidden">
+            Click "Random Question" to start practicing!
+        </div>
+    </div>
+
+    <script>
+        let currentQuestion = null;
+        let allTopics = null;
+
+        function displayImages(container, imageSrcs) {
+            container.innerHTML = '';
+            imageSrcs.forEach(src => {
+                const img = document.createElement('img');
+                img.src = src;
+                container.appendChild(img);
+            });
+        }
+
+        // Load topics on page load
+        async function loadTopics() {
+            const response = await fetch('/api/topics');
+            allTopics = await response.json();
+
+            // Populate paper dropdown
+            const paperSelect = document.getElementById('paperSelect');
+            Object.keys(allTopics).forEach(paper => {
+                const option = document.createElement('option');
+                option.value = paper;
+                option.textContent = paper.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase());
+                paperSelect.appendChild(option);
+            });
+        }
+
+        // Update topic dropdown when paper changes
+        document.getElementById('paperSelect').addEventListener('change', function() {
+            const paper = this.value;
+            const topicSelect = document.getElementById('topicSelect');
+            const subtopicSelect = document.getElementById('subtopicSelect');
+
+            topicSelect.innerHTML = '<option value="">All Topics</option>';
+            subtopicSelect.innerHTML = '<option value="">All Subtopics</option>';
+
+            if (paper && allTopics[paper]) {
+                Object.keys(allTopics[paper]).forEach(topic => {
+                    const option = document.createElement('option');
+                    option.value = topic;
+                    option.textContent = topic.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                    topicSelect.appendChild(option);
+                });
+            }
+        });
+
+        // Update subtopic dropdown when topic changes
+        document.getElementById('topicSelect').addEventListener('change', function() {
+            const paper = document.getElementById('paperSelect').value;
+            const topic = this.value;
+            const subtopicSelect = document.getElementById('subtopicSelect');
+
+            subtopicSelect.innerHTML = '<option value="">All Subtopics</option>';
+
+            if (paper && topic && allTopics[paper] && allTopics[paper][topic]) {
+                allTopics[paper][topic].forEach(subtopic => {
+                    const option = document.createElement('option');
+                    option.value = subtopic;
+                    option.textContent = subtopic.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                    subtopicSelect.appendChild(option);
+                });
+            }
+        });
+
+        async function loadRandomQuestion() {
+            const paper = document.getElementById('paperSelect').value;
+            const topic = document.getElementById('topicSelect').value;
+            const subtopic = document.getElementById('subtopicSelect').value;
+
+            // Show loading
+            document.getElementById('questionContainer').classList.add('hidden');
+            document.getElementById('noQuestion').classList.add('hidden');
+            document.getElementById('loading').classList.remove('hidden');
+
+            // Build API URL
+            let url = '/api/random';
+            if (paper && topic && subtopic) {
+                url = `/api/question/${paper}/${topic}/${subtopic}/random`;
+            }
+
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                currentQuestion = data;
+                displayQuestion(data);
+            } catch (error) {
+                console.error('Error loading question:', error);
+                alert('Error loading question. Please try again.');
+            }
+
+            document.getElementById('loading').classList.add('hidden');
+        }
+
+        function displayQuestion(question) {
+            // Show container
+            const questionContainer = document.getElementById('questionContainer');
+            const answerSection = document.getElementById('answerSection');
+
+            questionContainer.classList.remove('hidden');
+            answerSection.classList.add('hidden');
+
+            // Reset wide class (only added when answer is shown)
+            questionContainer.classList.remove('wide');
+
+            // Update metadata
+            document.getElementById('paperInfo').textContent = question.paper;
+            document.getElementById('topicInfo').textContent = question.primary_topic.replace(/_/g, ' ');
+            document.getElementById('subtopicInfo').textContent = question.primary_subtopic.replace(/_/g, ' ');
+            document.getElementById('questionId').textContent = question.question_id;
+
+            // Display question images
+            const questionPath = question.path;
+            const pathParts = questionPath.split('/');
+            const paper = question.paper;
+            const questionNum = pathParts[pathParts.length - 1];
+
+            const questionImagesDiv = document.getElementById('questionImages');
+            questionImagesDiv.innerHTML = '';
+
+            // Find all question images (try up to 10 pages in parallel)
+            const maxPages = 10;
+            const imagePromises = [];
+
+            for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
+                const promise = new Promise((resolve) => {
+                    const img = new Image();
+                    img.src = `/api/image/${paper}/${questionNum}/question_p${pageNum}.png`;
+                    img.onload = () => resolve({page: pageNum, src: img.src});
+                    img.onerror = () => resolve(null);
+                });
+                imagePromises.push(promise);
+            }
+
+            Promise.all(imagePromises).then(results => {
+                const questionImages = results.filter(r => r !== null).sort((a, b) => a.page - b.page);
+                displayImages(questionImagesDiv, questionImages.map(i => i.src));
+            });
+        }
+
+        function showAnswer() {
+            const answerSection = document.getElementById('answerSection');
+            answerSection.classList.remove('hidden');
+
+            // Always expand when both question and answer are visible
+            document.getElementById('questionContainer').classList.add('wide');
+
+            const questionPath = currentQuestion.path;
+            const pathParts = questionPath.split('/');
+            const paper = currentQuestion.paper;
+            const questionNum = pathParts[pathParts.length - 1];
+
+            const answerImagesDiv = document.getElementById('answerImages');
+            answerImagesDiv.innerHTML = '';
+
+            // Load answer images (try up to 10 pages in parallel)
+            const maxPages = 10;
+            const imagePromises = [];
+
+            for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
+                const promise = new Promise((resolve) => {
+                    const img = new Image();
+                    img.src = `/api/image/${paper}/${questionNum}/answer_p${pageNum}.png`;
+                    img.onload = () => resolve({page: pageNum, src: img.src});
+                    img.onerror = () => resolve(null);
+                });
+                imagePromises.push(promise);
+            }
+
+            Promise.all(imagePromises).then(results => {
+                const answerImages = results.filter(r => r !== null).sort((a, b) => a.page - b.page);
+                displayImages(answerImagesDiv, answerImages.map(i => i.src));
+            });
+        }
+
+        async function askChatGPT() {
+            const questionPath = currentQuestion.path;
+            const pathParts = questionPath.split('/');
+            const paper = currentQuestion.paper;
+            const questionNum = pathParts[pathParts.length - 1];
+
+            // Fetch question text
+            const response = await fetch(`/api/text/${paper}/${questionNum}`);
+            const data = await response.json();
+
+            if (data.error) {
+                alert('Question text not found. Please make sure text extraction completed.');
+                return;
+            }
+
+            // Replace spaces with + signs for URL
+            const encodedText = data.text.replace(/ /g, '+');
+            const url = `https://chatgpt.com/?prompt=${encodedText}`;
+
+            window.open(url, '_blank');
+        }
+
+        // Initialize
+        loadTopics();
+        document.getElementById('noQuestion').classList.remove('hidden');
+    </script>
+</body>
+</html>

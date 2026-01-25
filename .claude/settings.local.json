@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(source ~/.bashrc)",
+      "Bash(conda activate:*)",
+      "Bash(python:*)"
+    ]
+  }
+}
