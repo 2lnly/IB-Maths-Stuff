@@ -107,6 +107,12 @@
             z-index: 1;
         }
 
+        #questionsWrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
         .container {
             margin: 0 auto;
         }
@@ -265,6 +271,169 @@
             background: #2563eb;
         }
 
+        .btn-gabriel {
+            background: #6b7280;
+        }
+
+        .btn-gabriel:hover {
+            background: #4b5563;
+        }
+
+        .btn-gabriel.active {
+            background: #10b981;
+        }
+
+        .btn-gabriel.active:hover {
+            background: #059669;
+        }
+
+        .btn-auth {
+            padding: 8px 16px;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .btn-auth:hover {
+            background: #2563eb;
+        }
+
+        .btn-logout {
+            padding: 8px 16px;
+            background: #ef4444;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+
+        .btn-logout:hover {
+            background: #dc2626;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.show {
+            display: flex;
+        }
+
+        .modal-content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .modal-content h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: 500;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #3b82f6;
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .modal-actions button {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .btn-primary {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2563eb;
+        }
+
+        .btn-secondary {
+            background: #6b7280;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #4b5563;
+        }
+
+        .switch-mode {
+            text-align: center;
+            margin-top: 15px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .switch-mode a {
+            color: #3b82f6;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .error-message {
+            background: #fee2e2;
+            color: #dc2626;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
 
         .hidden {
             display: none;
@@ -276,11 +445,6 @@
             color: #666;
         }
 
-        .no-question {
-            text-align: center;
-            padding: 40px;
-            color: #666;
-        }
 
         @media (max-width: 768px) {
             .controls {
@@ -306,10 +470,36 @@
     <div class="bg-shape"></div>
     <div class="bg-shape"></div>
 
+    <!-- Login/Register Modal -->
+    <div id="authModal" class="modal">
+        <div class="modal-content">
+            <h2 id="modalTitle">Login</h2>
+            <div id="errorMessage" class="error-message hidden"></div>
+            <div class="form-group">
+                <label for="usernameInput">Username</label>
+                <input type="text" id="usernameInput" placeholder="Enter username" maxlength="20">
+            </div>
+            <div class="modal-actions">
+                <button class="btn-primary" id="submitBtn" onclick="submitAuth()">Login</button>
+                <button class="btn-secondary" onclick="closeModal()">Cancel</button>
+            </div>
+            <div class="switch-mode">
+                <span id="switchText">Don't have an account? <a onclick="switchMode()">Register</a></span>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="header">
-            <h1>IB math AAHL stuff</h1>
-            <div class="author">by: Xiao He</div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                <div>
+                    <h1 style="margin: 0;">IB math AAHL stuff</h1>
+                    <div class="author">by: Xiao He</div>
+                </div>
+                <div id="authSection">
+                    <button onclick="showLoginModal()" class="btn-auth">Login</button>
+                </div>
+            </div>
             <div class="controls">
                 <select id="paperSelect">
                     <option value="">All Papers</option>
@@ -321,9 +511,11 @@
                     <option value="">All Subtopics</option>
                 </select>
                 <button onclick="loadRandomQuestion()">Random Question</button>
+                <button id="gabrielModeBtn" onclick="toggleGabrielMode()" class="btn-gabriel">Gabriel Mode: OFF</button>
             </div>
         </div>
 
+        <div id="questionsWrapper">
         <div id="questionContainer" class="question-container hidden">
             <div class="question-info">
                 <div class="question-meta">
@@ -349,19 +541,24 @@
                 <button class="btn-chatgpt" onclick="askChatGPT()">Ask ChatGPT</button>
             </div>
         </div>
+        </div>
 
         <div id="loading" class="loading hidden">
             Loading question...
         </div>
 
         <div id="noQuestion" class="no-question hidden">
-            Click "Random Question" to start practicing!
+            &nbsp;
         </div>
     </div>
 
     <script>
         let currentQuestion = null;
         let allTopics = null;
+        let gabrielMode = false;
+        let questionHistory = [];
+        let isLoginMode = true;
+        let currentUser = null;
 
         function displayImages(container, imageSrcs) {
             container.innerHTML = '';
@@ -370,6 +567,23 @@
                 img.src = src;
                 container.appendChild(img);
             });
+        }
+
+        function toggleGabrielMode() {
+            gabrielMode = !gabrielMode;
+            const btn = document.getElementById('gabrielModeBtn');
+            if (gabrielMode) {
+                btn.textContent = 'Gabriel Mode: ON';
+                btn.classList.add('active');
+            } else {
+                btn.textContent = 'Gabriel Mode: OFF';
+                btn.classList.remove('active');
+                // Clear all extra questions when turning off
+                questionHistory = [];
+                const wrapper = document.getElementById('questionsWrapper');
+                const containers = wrapper.querySelectorAll('.question-container:not(#questionContainer)');
+                containers.forEach(c => c.remove());
+            }
         }
 
         // Load topics on page load
@@ -429,6 +643,13 @@
             const topic = document.getElementById('topicSelect').value;
             const subtopic = document.getElementById('subtopicSelect').value;
 
+            // Clear all Gabriel mode questions when loading new question normally
+            if (!gabrielMode) {
+                const wrapper = document.getElementById('questionsWrapper');
+                const containers = wrapper.querySelectorAll('.question-container:not(#questionContainer)');
+                containers.forEach(c => c.remove());
+            }
+
             // Show loading
             document.getElementById('questionContainer').classList.add('hidden');
             document.getElementById('noQuestion').classList.add('hidden');
@@ -451,6 +672,85 @@
             }
 
             document.getElementById('loading').classList.add('hidden');
+        }
+
+        async function loadRandomQuestionGabrielMode() {
+            const paper = document.getElementById('paperSelect').value;
+            const topic = document.getElementById('topicSelect').value;
+            const subtopic = document.getElementById('subtopicSelect').value;
+
+            // Build API URL
+            let url = '/api/random';
+            if (paper && topic && subtopic) {
+                url = `/api/question/${paper}/${topic}/${subtopic}/random`;
+            }
+
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+
+                // Generate unique timestamp FIRST
+                const timestamp = Date.now();
+
+                // Create a new question container
+                const newContainer = document.createElement('div');
+                newContainer.className = 'question-container';
+                newContainer.style.marginTop = '30px';
+                newContainer.innerHTML = `
+                    <div class="question-info">
+                        <div class="question-meta">
+                            <span>${data.paper}</span>
+                            <span>${data.primary_topic.replace(/_/g, ' ')}</span>
+                            <span>${data.primary_subtopic.replace(/_/g, ' ')}</span>
+                        </div>
+                        <div class="question-id" style="color: #999; font-size: 14px;">${data.question_id}</div>
+                    </div>
+                    <div class="images-container">
+                        <div class="image-section">
+                            <div class="question-images-${timestamp}"></div>
+                        </div>
+                        <div class="image-section hidden answer-section-${timestamp}">
+                            <div class="answer-images-${timestamp}"></div>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <button class="btn-show-answer" onclick="showAnswerForContainer(this)">Show Answer</button>
+                        <button class="btn-chatgpt" onclick="askChatGPTForContainer(this, '${data.paper}', '${data.path}')">Ask ChatGPT</button>
+                    </div>
+                `;
+
+                document.getElementById('questionsWrapper').appendChild(newContainer);
+
+                // Load images for the new question
+                const questionPath = data.path;
+                const pathParts = questionPath.split('/');
+                const questionNum = pathParts[pathParts.length - 1];
+                const questionImagesDiv = newContainer.querySelector(`.question-images-${timestamp}`);
+
+                const maxPages = 10;
+                const imagePromises = [];
+
+                for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
+                    const promise = new Promise((resolve) => {
+                        const img = new Image();
+                        img.src = `/api/image/${data.paper}/${questionNum}/question_p${pageNum}.png`;
+                        img.onload = () => resolve({page: pageNum, src: img.src});
+                        img.onerror = () => resolve(null);
+                    });
+                    imagePromises.push(promise);
+                }
+
+                Promise.all(imagePromises).then(results => {
+                    const questionImages = results.filter(r => r !== null).sort((a, b) => a.page - b.page);
+                    displayImages(questionImagesDiv, questionImages.map(i => i.src));
+                });
+
+                // Store question data
+                newContainer.dataset.questionData = JSON.stringify(data);
+
+            } catch (error) {
+                console.error('Error loading question:', error);
+            }
         }
 
         function displayQuestion(question) {
@@ -531,6 +831,13 @@
             Promise.all(imagePromises).then(results => {
                 const answerImages = results.filter(r => r !== null).sort((a, b) => a.page - b.page);
                 displayImages(answerImagesDiv, answerImages.map(i => i.src));
+
+                // If Gabriel mode is on, load a new question below
+                if (gabrielMode) {
+                    setTimeout(() => {
+                        loadRandomQuestionGabrielMode();
+                    }, 500);
+                }
             });
         }
 
@@ -556,7 +863,183 @@
             window.open(url, '_blank');
         }
 
+        async function showAnswerForContainer(button) {
+            const container = button.closest('.question-container');
+            const data = JSON.parse(container.dataset.questionData);
+            const answerSection = container.querySelector('[class*="answer-section-"]');
+            const answerImagesDiv = container.querySelector('[class*="answer-images-"]');
+
+            answerSection.classList.remove('hidden');
+            container.classList.add('wide');
+
+            const questionPath = data.path;
+            const pathParts = questionPath.split('/');
+            const paper = data.paper;
+            const questionNum = pathParts[pathParts.length - 1];
+
+            answerImagesDiv.innerHTML = '';
+
+            const maxPages = 10;
+            const imagePromises = [];
+
+            for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
+                const promise = new Promise((resolve) => {
+                    const img = new Image();
+                    img.src = `/api/image/${paper}/${questionNum}/answer_p${pageNum}.png`;
+                    img.onload = () => resolve({page: pageNum, src: img.src});
+                    img.onerror = () => resolve(null);
+                });
+                imagePromises.push(promise);
+            }
+
+            Promise.all(imagePromises).then(results => {
+                const answerImages = results.filter(r => r !== null).sort((a, b) => a.page - b.page);
+                displayImages(answerImagesDiv, answerImages.map(i => i.src));
+
+                // Load new question in Gabriel mode
+                if (gabrielMode) {
+                    setTimeout(() => {
+                        loadRandomQuestionGabrielMode();
+                    }, 500);
+                }
+            });
+        }
+
+        async function askChatGPTForContainer(button, paper, path) {
+            const pathParts = path.split('/');
+            const questionNum = pathParts[pathParts.length - 1];
+
+            const response = await fetch(`/api/text/${paper}/${questionNum}`);
+            const data = await response.json();
+
+            if (data.error) {
+                alert('Question text not found. Please make sure text extraction completed.');
+                return;
+            }
+
+            const encodedText = data.text.replace(/ /g, '+');
+            const url = `https://chatgpt.com/?prompt=${encodedText}`;
+
+            window.open(url, '_blank');
+        }
+
+        // Auth functions
+        function showLoginModal() {
+            isLoginMode = true;
+            document.getElementById('modalTitle').textContent = 'Login';
+            document.getElementById('submitBtn').textContent = 'Login';
+            document.getElementById('switchText').innerHTML = 'Don\'t have an account? <a onclick="switchMode()">Register</a>';
+            document.getElementById('usernameInput').value = '';
+            document.getElementById('errorMessage').classList.add('hidden');
+            document.getElementById('authModal').classList.add('show');
+        }
+
+        function closeModal() {
+            document.getElementById('authModal').classList.remove('show');
+        }
+
+        function switchMode() {
+            isLoginMode = !isLoginMode;
+            if (isLoginMode) {
+                document.getElementById('modalTitle').textContent = 'Login';
+                document.getElementById('submitBtn').textContent = 'Login';
+                document.getElementById('switchText').innerHTML = 'Don\'t have an account? <a onclick="switchMode()">Register</a>';
+            } else {
+                document.getElementById('modalTitle').textContent = 'Register';
+                document.getElementById('submitBtn').textContent = 'Register';
+                document.getElementById('switchText').innerHTML = 'Already have an account? <a onclick="switchMode()">Login</a>';
+            }
+            document.getElementById('errorMessage').classList.add('hidden');
+        }
+
+        async function submitAuth() {
+            const username = document.getElementById('usernameInput').value.trim();
+            const errorDiv = document.getElementById('errorMessage');
+
+            if (!username) {
+                errorDiv.textContent = 'Please enter a username';
+                errorDiv.classList.remove('hidden');
+                return;
+            }
+
+            const endpoint = isLoginMode ? '/api/login' : '/api/register';
+
+            try {
+                const response = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    currentUser = data.username;
+                    updateAuthUI();
+                    closeModal();
+                } else {
+                    errorDiv.textContent = data.message;
+                    errorDiv.classList.remove('hidden');
+                }
+            } catch (error) {
+                errorDiv.textContent = 'Error connecting to server';
+                errorDiv.classList.remove('hidden');
+            }
+        }
+
+        async function logout() {
+            try {
+                await fetch('/api/logout', { method: 'POST' });
+                currentUser = null;
+                updateAuthUI();
+            } catch (error) {
+                console.error('Logout error:', error);
+            }
+        }
+
+        function updateAuthUI() {
+            const authSection = document.getElementById('authSection');
+            if (currentUser) {
+                authSection.innerHTML = `
+                    <div class="user-info">
+                        <span>👤 ${currentUser}</span>
+                        <button onclick="logout()" class="btn-logout">Logout</button>
+                    </div>
+                `;
+            } else {
+                authSection.innerHTML = '<button onclick="showLoginModal()" class="btn-auth">Login</button>';
+            }
+        }
+
+        async function checkAuthStatus() {
+            try {
+                const response = await fetch('/api/current-user');
+                const data = await response.json();
+                if (data.logged_in) {
+                    currentUser = data.username;
+                    updateAuthUI();
+                }
+            } catch (error) {
+                console.error('Auth check error:', error);
+            }
+        }
+
+        // Enter key to submit in modal
+        document.getElementById('usernameInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                submitAuth();
+            }
+        });
+
+        // Close modal on outside click
+        document.getElementById('authModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
         // Initialize
+        checkAuthStatus();
         loadTopics();
         document.getElementById('noQuestion').classList.remove('hidden');
     </script>

@@ -3,10 +3,12 @@
 import json
 import random
 from pathlib import Path
-from flask import Flask, jsonify, send_file, render_template
+from flask import Flask, jsonify, send_file, render_template, request, session
 from flask_cors import CORS
+from auth import create_user, check_user
 
 app = Flask(__name__)
+app.secret_key = 'your-secret-key-change-this-in-production-12345'
 CORS(app)
 
 # Load classification results
@@ -44,6 +46,51 @@ for key in TOPICS_INDEX.keys():
 def index():
     """Serve the main page."""
     return render_template('index.html')
+
+
+@app.route('/api/register', methods=['POST'])
+def register():
+    """Register a new user."""
+    data = request.json
+    username = data.get('username', '')
+
+    success, message = create_user(username)
+
+    if success:
+        session['username'] = username.strip().lower()
+        return jsonify({'success': True, 'message': message, 'username': session['username']})
+    else:
+        return jsonify({'success': False, 'message': message}), 400
+
+
+@app.route('/api/login', methods=['POST'])
+def login():
+    """Login an existing user."""
+    data = request.json
+    username = data.get('username', '').strip().lower()
+
+    if check_user(username):
+        session['username'] = username
+        return jsonify({'success': True, 'message': 'Logged in successfully', 'username': username})
+    else:
+        return jsonify({'success': False, 'message': 'Username not found'}), 404
+
+
+@app.route('/api/logout', methods=['POST'])
+def logout():
+    """Logout the current user."""
+    session.pop('username', None)
+    return jsonify({'success': True, 'message': 'Logged out successfully'})
+
+
+@app.route('/api/current-user')
+def current_user():
+    """Get the current logged-in user."""
+    username = session.get('username')
+    if username:
+        return jsonify({'logged_in': True, 'username': username})
+    else:
+        return jsonify({'logged_in': False})
 
 
 @app.route('/api/topics')
