@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB Physics HL stuff</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #1a1638;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        .bg-shape {
+            position: fixed;
+            opacity: 0.12;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .bg-shape:nth-child(1) {
+            width: 300px;
+            height: 300px;
+            background: #9d8a4a;
+            border-radius: 50%;
+            top: 10%;
+            left: 10%;
+            animation: float 20s infinite ease-in-out;
+        }
+
+        .bg-shape:nth-child(2) {
+            width: 200px;
+            height: 200px;
+            background: #8f7d3a;
+            border-radius: 20%;
+            top: 60%;
+            right: 15%;
+            animation: float 15s infinite ease-in-out reverse;
+            transform: rotate(45deg);
+        }
+
+        .bg-shape:nth-child(3) {
+            width: 0;
+            height: 0;
+            border-left: 125px solid transparent;
+            border-right: 125px solid transparent;
+            border-bottom: 250px solid #a89d5a;
+            background: transparent;
+            bottom: 20%;
+            left: 20%;
+            animation: float 18s infinite ease-in-out;
+        }
+
+        .bg-shape:nth-child(4) {
+            width: 180px;
+            height: 180px;
+            background: #8a7d4a;
+            border-radius: 30px;
+            top: 30%;
+            right: 30%;
+            animation: float 22s infinite ease-in-out reverse;
+        }
+
+        .bg-shape:nth-child(5) {
+            width: 220px;
+            height: 140px;
+            background: #7a8d6a;
+            border-radius: 50%;
+            top: 45%;
+            left: 50%;
+            animation: float 17s infinite ease-in-out;
+        }
+
+        .bg-shape:nth-child(6) {
+            width: 160px;
+            height: 160px;
+            background: #8a7d6a;
+            clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+            bottom: 35%;
+            right: 20%;
+            animation: float 19s infinite ease-in-out reverse;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translate(0, 0) scale(1);
+            }
+            33% {
+                transform: translate(30px, -30px) scale(1.1);
+            }
+            66% {
+                transform: translate(-20px, 20px) scale(0.9);
+            }
+        }
+
+        .container, .header, .question-container {
+            position: relative;
+            z-index: 1;
+        }
+
+        #questionsWrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .container {
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            max-width: calc(1200px * 0.65);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .header h1 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .header .author {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        select, button {
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        select {
+            background: white;
+            color: #333;
+        }
+
+        button {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+        }
+
+        button:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .question-container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+            max-width: calc(1200px * 0.65);
+            margin-left: auto;
+            margin-right: auto;
+            transition: max-width 0.3s ease;
+        }
+
+        .question-container.wide {
+            max-width: calc((1200px * 0.65) * 2);
+        }
+
+        .question-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #eee;
+        }
+
+        .question-meta {
+            color: #666;
+        }
+
+        .question-meta span {
+            background: #f0f0f0;
+            padding: 5px 12px;
+            border-radius: 5px;
+            margin-right: 10px;
+            font-size: 14px;
+        }
+
+        .images-container {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .image-section {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 0;
+        }
+
+        .image-section h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .image-section > div {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            padding: 10px 0;
+        }
+
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            flex-shrink: 0;
+        }
+
+        .image-section > div:has(img:only-child) img {
+            width: 100%;
+        }
+
+        .actions {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn-show-answer {
+            background: #3b82f6;
+        }
+
+        .btn-show-answer:hover {
+            background: #2563eb;
+        }
+
+        .btn-chatgpt {
+            background: #3b82f6;
+        }
+
+        .btn-chatgpt:hover {
+            background: #2563eb;
+        }
+
+        .btn-gabriel {
+            background: #6b7280;
+        }
+
+        .btn-gabriel:hover {
+            background: #4b5563;
+        }
+
+        .btn-gabriel.active {
+            background: #10b981;
+        }
+
+        .btn-gabriel.active:hover {
+            background: #059669;
+        }
+
+        .btn-auth {
+            padding: 8px 16px;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .btn-auth:hover {
+            background: #2563eb;
+        }
+
+        .btn-physics {
+            padding: 8px 16px;
+            background: #10b981;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-physics:hover {
+            background: #059669;
+        }
+
+        .btn-logout {
+            padding: 8px 16px;
+            background: #ef4444;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+
+        .btn-logout:hover {
+            background: #dc2626;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.show {
+            display: flex;
+        }
+
+        .modal-content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .modal-content h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: 500;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #3b82f6;
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .modal-actions button {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .btn-primary {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2563eb;
+        }
+
+        .btn-secondary {
+            background: #6b7280;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #4b5563;
+        }
+
+        .switch-mode {
+            text-align: center;
+            margin-top: 15px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .switch-mode a {
+            color: #3b82f6;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .error-message {
+            background: #fee2e2;
+            color: #dc2626;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .password-btn {
+            flex: 1;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            border: 3px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            color: #666;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .password-btn:hover {
+            border-color: #3b82f6;
+            transform: scale(1.05);
+        }
+
+        .password-btn.selected {
+            background: #3b82f6;
+            color: white;
+            border-color: #3b82f6;
+        }
+
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            select, button {
+                width: 100%;
+            }
+
+            .images-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+
+    <!-- Login/Register Modal -->
+    <div id="authModal" class="modal">
+        <div class="modal-content">
+            <h2 id="modalTitle">Login</h2>
+            <div id="errorMessage" class="error-message hidden"></div>
+            <div class="form-group">
+                <label for="usernameInput">Username</label>
+                <input type="text" id="usernameInput" placeholder="Enter username" maxlength="20">
+            </div>
+            <div class="form-group">
+                <label>Pick your password:</label>
+                <div style="display: flex; gap: 10px; margin-top: 10px;">
+                    <button type="button" class="password-btn" onclick="selectPassword('1234')" id="password1234">1234</button>
+                    <button type="button" class="password-btn" onclick="selectPassword('4321')" id="password4321">4321</button>
+                </div>
+                <input type="hidden" id="selectedPassword" value="">
+            </div>
+            <div class="modal-actions">
+                <button class="btn-primary" id="submitBtn" onclick="submitAuth()">Login</button>
+                <button class="btn-secondary" onclick="closeModal()">Cancel</button>
+            </div>
+            <div class="switch-mode">
+                <span id="switchText">Don't have an account? <a onclick="switchMode()">Register</a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                <div>
+                    <h1 style="margin: 0;">IB Physics HL stuff</h1>
+                    <div class="author">by: Xiao He</div>
+                </div>
+                <div id="authSection" style="display: flex; gap: 10px; align-items: center;">
+                    <a href="/" class="btn-physics">Math</a>
+                    <a href="/economics" class="btn-physics">Economics</a>
+                    <button onclick="showLoginModal()" class="btn-auth">Login</button>
+                </div>
+            </div>
+            <div class="controls">
+                <select id="paperSelect">
+                    <option value="">All Papers</option>
+                </select>
+                <select id="topicSelect">
+                    <option value="">All Topics</option>
+                </select>
+                <select id="subtopicSelect">
+                    <option value="">All Subtopics</option>
+                </select>
+                <button onclick="loadRandomQuestion()">Random Question</button>
+                <button id="gabrielModeBtn" onclick="toggleGabrielMode()" class="btn-gabriel">Gabriel Mode: OFF</button>
+            </div>
+        </div>
+
+        <div id="questionsWrapper">
+        <div id="questionContainer" class="question-container hidden">
+            <div class="question-info">
+                <div class="question-meta">
+                    <span id="paperInfo"></span>
+                    <span id="topicInfo"></span>
+                    <span id="subtopicInfo"></span>
+                </div>
+                <div class="question-id" style="color: #999; font-size: 14px;" id="questionId"></div>
+            </div>
+
+            <div class="images-container">
+                <div class="image-section">
+                    <div id="questionImages"></div>
+                </div>
+
+                <div class="image-section hidden" id="answerSection">
+                    <div id="answerImages"></div>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button class="btn-show-answer" onclick="showAnswer()">Show Answer</button>
+                <button class="btn-chatgpt" onclick="askChatGPT()">Ask ChatGPT</button>
+            </div>
+        </div>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            Loading question...
+        </div>
+
+        <div id="noQuestion" class="no-question hidden">
+            &nbsp;
+        </div>
+    </div>
+
+    <script>
+        let currentQuestion = null;
+        let allTopics = null;
+        let gabrielMode = false;
+        let questionHistory = [];
+        let isLoginMode = true;
+        let currentUser = null;
+
+        function displayImages(container, imageSrcs) {
+            container.innerHTML = '';
+            imageSrcs.forEach(src => {
+                const img = document.createElement('img');
+                img.src = src;
+                container.appendChild(img);
+            });
+        }
+
+        function toggleGabrielMode() {
+            gabrielMode = !gabrielMode;
+            const btn = document.getElementById('gabrielModeBtn');
+            if (gabrielMode) {
+                btn.textContent = 'Gabriel Mode: ON';
+                btn.classList.add('active');
+            } else {
+                btn.textContent = 'Gabriel Mode: OFF';
+                btn.classList.remove('active');
+                // Clear all extra questions when turning off
+                questionHistory = [];
+                const wrapper = document.getElementById('questionsWrapper');
+                const containers = wrapper.querySelectorAll('.question-container:not(#questionContainer)');
+                containers.forEach(c => c.remove());
+            }
+        }
+
+        // Load topics on page load
+        async function loadTopics() {
+            const response = await fetch('/api/physics/topics');
+            allTopics = await response.json();
+
+            // Populate paper dropdown
+            const paperSelect = document.getElementById('paperSelect');
+            Object.keys(allTopics).forEach(paper => {
+                const option = document.createElement('option');
+                option.value = paper;
+                option.textContent = paper.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase());
+                paperSelect.appendChild(option);
+            });
+        }
+
+        // Update topic dropdown when paper changes
+        document.getElementById('paperSelect').addEventListener('change', function() {
+            const paper = this.value;
+            const topicSelect = document.getElementById('topicSelect');
+            const subtopicSelect = document.getElementById('subtopicSelect');
+
+            topicSelect.innerHTML = '<option value="">All Topics</option>';
+            subtopicSelect.innerHTML = '<option value="">All Subtopics</option>';
+
+            if (paper && allTopics[paper]) {
+                Object.keys(allTopics[paper]).forEach(topic => {
+                    const option = document.createElement('option');
+                    option.value = topic;
+                    option.textContent = topic.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                    topicSelect.appendChild(option);
+                });
+            }
+        });
+
+        // Update subtopic dropdown when topic changes
+        document.getElementById('topicSelect').addEventListener('change', function() {
+            const paper = document.getElementById('paperSelect').value;
+            const topic = this.value;
+            const subtopicSelect = document.getElementById('subtopicSelect');
+
+            subtopicSelect.innerHTML = '<option value="">All Subtopics</option>';
+
+            if (paper && topic && allTopics[paper] && allTopics[paper][topic]) {
+                allTopics[paper][topic].forEach(subtopic => {
+                    const option = document.createElement('option');
+                    option.value = subtopic;
+                    option.textContent = subtopic.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                    subtopicSelect.appendChild(option);
+                });
+            }
+        });
+
+        async function loadRandomQuestion() {
+            const paper = document.getElementById('paperSelect').value;
+            const topic = document.getElementById('topicSelect').value;
+            const subtopic = document.getElementById('subtopicSelect').value;
+
+            // Clear all Gabriel mode questions when loading new question normally
+            if (!gabrielMode) {
+                const wrapper = document.getElementById('questionsWrapper');
+                const containers = wrapper.querySelectorAll('.question-container:not(#questionContainer)');
+                containers.forEach(c => c.remove());
+            }
+
+            // Show loading
+            document.getElementById('questionContainer').classList.add('hidden');
+            document.getElementById('noQuestion').classList.add('hidden');
+            document.getElementById('loading').classList.remove('hidden');
+
+            // Build API URL with filters
+            let url = '/api/physics/random';
+            if (paper || topic || subtopic) {
+                // Use filter endpoint if any filter is selected
+                const params = new URLSearchParams();
+                if (paper) params.append('paper', paper);
+                if (topic) params.append('topic', topic);
+                if (subtopic) params.append('subtopic', subtopic);
+                url = `/api/physics/question/filter?${params.toString()}`;
+            }
+
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                currentQuestion = data;
+                displayQuestion(data);
+            } catch (error) {
+                console.error('Error loading question:', error);
+                alert('Error loading question. Please try again.');
+            }
+
+            document.getElementById('loading').classList.add('hidden');
+        }
+
+        async function loadRandomQuestionGabrielMode() {
+            const paper = document.getElementById('paperSelect').value;
+            const topic = document.getElementById('topicSelect').value;
+            const subtopic = document.getElementById('subtopicSelect').value;
+
+            // Build API URL with filters
+            let url = '/api/physics/random';
+            if (paper || topic || subtopic) {
+                // Use filter endpoint if any filter is selected
+                const params = new URLSearchParams();
+                if (paper) params.append('paper', paper);
+                if (topic) params.append('topic', topic);
+                if (subtopic) params.append('subtopic', subtopic);
+                url = `/api/physics/question/filter?${params.toString()}`;
+            }
+
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+
+                // Generate unique timestamp FIRST
+                const timestamp = Date.now();
+
+                // Create a new question container
+                const newContainer = document.createElement('div');
+                newContainer.className = 'question-container';
+                newContainer.style.marginTop = '30px';
+                newContainer.innerHTML = `
+                    <div class="question-info">
+                        <div class="question-meta">
+                            <span>${data.paper}</span>
+                            <span>${data.primary_topic.replace(/_/g, ' ')}</span>
+                            <span>${data.primary_subtopic.replace(/_/g, ' ')}</span>
+                        </div>
+                        <div class="question-id" style="color: #999; font-size: 14px;">${data.question_id}</div>
+                    </div>
+                    <div class="images-container">
+                        <div class="image-section">
+                            <div class="question-images-${timestamp}"></div>
+                        </div>
+                        <div class="image-section hidden answer-section-${timestamp}">
+                            <div class="answer-images-${timestamp}"></div>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <button class="btn-show-answer" onclick="showAnswerForContainer(this)">Show Answer</button>
+                        <button class="btn-chatgpt" onclick="askChatGPTForContainer(this, '${data.paper}', '${data.path}')">Ask ChatGPT</button>
+                    </div>
+                `;
+
+                document.getElementById('questionsWrapper').appendChild(newContainer);
+
+                // Load images for the new question
+                const questionPath = data.path;
+                const pathParts = questionPath.split('/');
+                const questionNum = pathParts[pathParts.length - 1];
+                const questionImagesDiv = newContainer.querySelector(`.question-images-${timestamp}`);
+
+                const maxPages = 10;
+                const imagePromises = [];
+
+                for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
+                    const promise = new Promise((resolve) => {
+                        const img = new Image();
+                        img.src = `/api/physics/image/${data.paper}/${questionNum}/question_p${pageNum}.png`;
+                        img.onload = () => resolve({page: pageNum, src: img.src});
+                        img.onerror = () => resolve(null);
+                    });
+                    imagePromises.push(promise);
+                }
+
+                Promise.all(imagePromises).then(results => {
+                    const questionImages = results.filter(r => r !== null).sort((a, b) => a.page - b.page);
+                    displayImages(questionImagesDiv, questionImages.map(i => i.src));
+                });
+
+                // Store question data
+                newContainer.dataset.questionData = JSON.stringify(data);
+
+            } catch (error) {
+                console.error('Error loading question:', error);
+            }
+        }
+
+        function displayQuestion(question) {
+            // Show container
+            const questionContainer = document.getElementById('questionContainer');
+            const answerSection = document.getElementById('answerSection');
+
+            questionContainer.classList.remove('hidden');
+            answerSection.classList.add('hidden');
+
+            // Reset wide class (only added when answer is shown)
+            questionContainer.classList.remove('wide');
+
+            // Update metadata
+            document.getElementById('paperInfo').textContent = question.paper;
+            document.getElementById('topicInfo').textContent = question.primary_topic.replace(/_/g, ' ');
+            document.getElementById('subtopicInfo').textContent = question.primary_subtopic.replace(/_/g, ' ');
+            document.getElementById('questionId').textContent = question.question_id;
+
+            // Display question images
+            const questionPath = question.path;
+            const pathParts = questionPath.split('/');
+            const paper = question.paper;
+            const questionNum = pathParts[pathParts.length - 1];
+
+            const questionImagesDiv = document.getElementById('questionImages');
+            questionImagesDiv.innerHTML = '';
+
+            // Find all question images (try up to 10 pages in parallel)
+            const maxPages = 10;
+            const imagePromises = [];
+
+            for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
+                const promise = new Promise((resolve) => {
+                    const img = new Image();
+                    img.src = `/api/physics/image/${paper}/${questionNum}/question_p${pageNum}.png`;
+                    img.onload = () => resolve({page: pageNum, src: img.src});
+                    img.onerror = () => resolve(null);
+                });
+                imagePromises.push(promise);
+            }
+
+            Promise.all(imagePromises).then(results => {
+                const questionImages = results.filter(r => r !== null).sort((a, b) => a.page - b.page);
+                displayImages(questionImagesDiv, questionImages.map(i => i.src));
+            });
+        }
+
+        async function showAnswer() {
+            const answerSection = document.getElementById('answerSection');
+            answerSection.classList.remove('hidden');
+
+            // Always expand when both question and answer are visible
+            document.getElementById('questionContainer').classList.add('wide');
+
+            const questionPath = currentQuestion.path;
+            const pathParts = questionPath.split('/');
+            const paper = currentQuestion.paper;
+            const questionNum = pathParts[pathParts.length - 1];
+
+            const answerImagesDiv = document.getElementById('answerImages');
+            answerImagesDiv.innerHTML = '';
+
+            // Load answer images (try up to 10 pages in parallel)
+            const maxPages = 10;
+            const imagePromises = [];
+
+            for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
+                const promise = new Promise((resolve) => {
+                    const img = new Image();
+                    img.src = `/api/physics/image/${paper}/${questionNum}/answer_p${pageNum}.png`;
+                    img.onload = () => resolve({page: pageNum, src: img.src});
+                    img.onerror = () => resolve(null);
+                });
+                imagePromises.push(promise);
+            }
+
+            Promise.all(imagePromises).then(async results => {
+                const answerImages = results.filter(r => r !== null).sort((a, b) => a.page - b.page);
+
+                if (answerImages.length > 0) {
+                    // Show answer images
+                    displayImages(answerImagesDiv, answerImages.map(i => i.src));
+                } else {
+                    // No images found - try to load text answer (for Paper 1)
+                    try {
+                        const response = await fetch(`/api/physics/answer-text/${paper}/${questionNum}`);
+                        const data = await response.json();
+                        if (data.hasAnswer) {
+                            answerImagesDiv.innerHTML = `<div style="padding: 20px; background: #f9f9f9; border-radius: 8px; white-space: pre-wrap; font-family: monospace; line-height: 1.6;">${data.answer}</div>`;
+                        } else {
+                            answerImagesDiv.innerHTML = '<p style="padding: 20px; color: #666;">No answer available for this question.</p>';
+                        }
+                    } catch (error) {
+                        answerImagesDiv.innerHTML = '<p style="padding: 20px; color: #666;">No answer available for this question.</p>';
+                    }
+                }
+
+                // If Gabriel mode is on, load a new question below
+                if (gabrielMode) {
+                    setTimeout(() => {
+                        loadRandomQuestionGabrielMode();
+                    }, 500);
+                }
+            });
+        }
+
+        async function askChatGPT() {
+            const questionPath = currentQuestion.path;
+            const pathParts = questionPath.split('/');
+            const paper = currentQuestion.paper;
+            const questionNum = pathParts[pathParts.length - 1];
+
+            // Fetch question text
+            const response = await fetch(`/api/physics/text/${paper}/${questionNum}`);
+            const data = await response.json();
+
+            if (data.error) {
+                alert('Question text not found. Please make sure text extraction completed.');
+                return;
+            }
+
+            // Replace spaces with + signs for URL
+            const encodedText = data.text.replace(/ /g, '+');
+            const url = `https://chatgpt.com/?prompt=${encodedText}`;
+
+            window.open(url, '_blank');
+        }
+
+        async function showAnswerForContainer(button) {
+            const container = button.closest('.question-container');
+            const data = JSON.parse(container.dataset.questionData);
+            const answerSection = container.querySelector('[class*="answer-section-"]');
+            const answerImagesDiv = container.querySelector('[class*="answer-images-"]');
+
+            answerSection.classList.remove('hidden');
+            container.classList.add('wide');
+
+            const questionPath = data.path;
+            const pathParts = questionPath.split('/');
+            const paper = data.paper;
+            const questionNum = pathParts[pathParts.length - 1];
+
+            answerImagesDiv.innerHTML = '';
+
+            const maxPages = 10;
+            const imagePromises = [];
+
+            for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
+                const promise = new Promise((resolve) => {
+                    const img = new Image();
+                    img.src = `/api/physics/image/${paper}/${questionNum}/answer_p${pageNum}.png`;
+                    img.onload = () => resolve({page: pageNum, src: img.src});
+                    img.onerror = () => resolve(null);
+                });
+                imagePromises.push(promise);
+            }
+
+            Promise.all(imagePromises).then(results => {
+                const answerImages = results.filter(r => r !== null).sort((a, b) => a.page - b.page);
+                displayImages(answerImagesDiv, answerImages.map(i => i.src));
+
+                // Load new question in Gabriel mode
+                if (gabrielMode) {
+                    setTimeout(() => {
+                        loadRandomQuestionGabrielMode();
+                    }, 500);
+                }
+            });
+        }
+
+        async function askChatGPTForContainer(button, paper, path) {
+            const pathParts = path.split('/');
+            const questionNum = pathParts[pathParts.length - 1];
+
+            const response = await fetch(`/api/physics/text/${paper}/${questionNum}`);
+            const data = await response.json();
+
+            if (data.error) {
+                alert('Question text not found. Please make sure text extraction completed.');
+                return;
+            }
+
+            const encodedText = data.text.replace(/ /g, '+');
+            const url = `https://chatgpt.com/?prompt=${encodedText}`;
+
+            window.open(url, '_blank');
+        }
+
+        // Auth functions
+        function selectPassword(password) {
+            document.getElementById('selectedPassword').value = password;
+            document.getElementById('password1234').classList.remove('selected');
+            document.getElementById('password4321').classList.remove('selected');
+            document.getElementById('password' + password).classList.add('selected');
+        }
+
+        function showLoginModal() {
+            isLoginMode = true;
+            document.getElementById('modalTitle').textContent = 'Login';
+            document.getElementById('submitBtn').textContent = 'Login';
+            document.getElementById('switchText').innerHTML = 'Don\'t have an account? <a onclick="switchMode()">Register</a>';
+            document.getElementById('usernameInput').value = '';
+            document.getElementById('selectedPassword').value = '';
+            document.getElementById('password1234').classList.remove('selected');
+            document.getElementById('password4321').classList.remove('selected');
+            document.getElementById('errorMessage').classList.add('hidden');
+            document.getElementById('authModal').classList.add('show');
+        }
+
+        function closeModal() {
+            document.getElementById('authModal').classList.remove('show');
+        }
+
+        function switchMode() {
+            isLoginMode = !isLoginMode;
+            if (isLoginMode) {
+                document.getElementById('modalTitle').textContent = 'Login';
+                document.getElementById('submitBtn').textContent = 'Login';
+                document.getElementById('switchText').innerHTML = 'Don\'t have an account? <a onclick="switchMode()">Register</a>';
+            } else {
+                document.getElementById('modalTitle').textContent = 'Register';
+                document.getElementById('submitBtn').textContent = 'Register';
+                document.getElementById('switchText').innerHTML = 'Already have an account? <a onclick="switchMode()">Login</a>';
+            }
+            document.getElementById('selectedPassword').value = '';
+            document.getElementById('password1234').classList.remove('selected');
+            document.getElementById('password4321').classList.remove('selected');
+            document.getElementById('errorMessage').classList.add('hidden');
+        }
+
+        async function submitAuth() {
+            const username = document.getElementById('usernameInput').value.trim();
+            const password = document.getElementById('selectedPassword').value;
+            const errorDiv = document.getElementById('errorMessage');
+
+            if (!username) {
+                errorDiv.textContent = 'Please enter a username';
+                errorDiv.classList.remove('hidden');
+                return;
+            }
+
+            if (!password) {
+                errorDiv.textContent = 'Please select a password (1234 or 4321)';
+                errorDiv.classList.remove('hidden');
+                return;
+            }
+
+            const endpoint = isLoginMode ? '/api/login' : '/api/register';
+
+            try {
+                const response = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username, password })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    currentUser = data.username;
+                    updateAuthUI();
+                    closeModal();
+                } else {
+                    errorDiv.textContent = data.message;
+                    errorDiv.classList.remove('hidden');
+                }
+            } catch (error) {
+                errorDiv.textContent = 'Error connecting to server';
+                errorDiv.classList.remove('hidden');
+            }
+        }
+
+        async function logout() {
+            try {
+                await fetch('/api/logout', { method: 'POST' });
+                currentUser = null;
+                updateAuthUI();
+            } catch (error) {
+                console.error('Logout error:', error);
+            }
+        }
+
+        function updateAuthUI() {
+            const authSection = document.getElementById('authSection');
+            if (currentUser) {
+                authSection.innerHTML = `
+                    <a href="/" class="btn-physics">Math</a>
+                    <a href="/economics" class="btn-physics">Economics</a>
+                    <div class="user-info">
+                        <span>👤 ${currentUser}</span>
+                        <button onclick="logout()" class="btn-logout">Logout</button>
+                    </div>
+                `;
+            } else {
+                authSection.innerHTML = '<a href="/" class="btn-physics">Go to Math</a><button onclick="showLoginModal()" class="btn-auth">Login</button>';
+            }
+        }
+
+        async function checkAuthStatus() {
+            try {
+                const response = await fetch('/api/current-user');
+                const data = await response.json();
+                if (data.logged_in) {
+                    currentUser = data.username;
+                    updateAuthUI();
+                }
+            } catch (error) {
+                console.error('Auth check error:', error);
+            }
+        }
+
+        // Enter key to submit in modal
+        document.getElementById('usernameInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                submitAuth();
+            }
+        });
+
+        // Close modal on outside click
+        document.getElementById('authModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
+        // Initialize
+        checkAuthStatus();
+        loadTopics();
+        document.getElementById('noQuestion').classList.remove('hidden');
+    </script>
+</body>
+</html>

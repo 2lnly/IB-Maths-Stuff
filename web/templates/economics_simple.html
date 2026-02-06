@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB Economics SL Practice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2563eb;
+        }
+
+        .btn-secondary {
+            background: #10b981;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #059669;
+        }
+
+        .controls {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        select {
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+        }
+
+        .question-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .question-meta {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .question-meta span {
+            background: #f0f0f0;
+            padding: 5px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .question-text {
+            line-height: 1.8;
+            color: #333;
+            white-space: pre-wrap;
+            margin-bottom: 20px;
+        }
+
+        .question-part {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .part-label {
+            font-weight: bold;
+            color: #3b82f6;
+            margin-bottom: 10px;
+        }
+
+        .markscheme {
+            background: #f0fdf4;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #10b981;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .markscheme.show {
+            display: block;
+        }
+
+        .markscheme-text {
+            white-space: pre-wrap;
+            line-height: 1.6;
+            color: #374151;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>IB Economics SL Practice</h1>
+        <div class="nav-links">
+            <a href="/" class="btn btn-secondary">Math</a>
+            <a href="/physics" class="btn btn-secondary">Physics</a>
+        </div>
+    </header>
+
+    <div class="controls">
+        <select id="paperSelect">
+            <option value="">All Papers</option>
+            <option value="Paper 1">Paper 1</option>
+            <option value="Paper 2">Paper 2</option>
+        </select>
+        <select id="topicSelect">
+            <option value="">All Topics</option>
+        </select>
+        <button onclick="loadQuestion()" class="btn btn-primary">Random Question</button>
+        <button onclick="toggleAnswer()" class="btn btn-secondary" id="answerBtn" style="display: none;">Show Answer</button>
+        <button onclick="askChatGPT()" class="btn btn-primary" id="chatgptBtn" style="display: none;">Ask ChatGPT</button>
+    </div>
+
+    <div id="loading" class="loading hidden">Loading...</div>
+
+    <div id="noQuestion" class="question-container">
+        <p style="text-align: center; color: #666;">Click "Random Question" to start</p>
+    </div>
+
+    <div id="questionContainer" class="question-container hidden">
+        <div class="question-meta">
+            <span id="paperInfo"></span>
+            <span id="topicInfo"></span>
+            <span id="yearInfo"></span>
+            <span id="questionNum"></span>
+        </div>
+
+        <div id="questionContent"></div>
+
+        <div id="markscheme" class="markscheme">
+            <h3 style="color: #10b981; margin-bottom: 15px;">Markscheme</h3>
+            <div class="markscheme-text" id="markschemeContent"></div>
+        </div>
+    </div>
+
+    <script>
+        let currentQuestion = null;
+
+        // Update topic options based on paper selection
+        document.getElementById('paperSelect').addEventListener('change', function() {
+            const paper = this.value;
+            const topicSelect = document.getElementById('topicSelect');
+
+            topicSelect.innerHTML = '<option value="">All Topics</option>';
+
+            if (paper === 'Paper 1') {
+                topicSelect.innerHTML += '<option value="Microeconomics">Microeconomics</option>';
+                topicSelect.innerHTML += '<option value="Macroeconomics">Macroeconomics</option>';
+            } else if (paper === 'Paper 2') {
+                topicSelect.innerHTML += '<option value="Case Study">Case Study</option>';
+            }
+        });
+
+        async function loadQuestion() {
+            const paper = document.getElementById('paperSelect').value;
+            const topic = document.getElementById('topicSelect').value;
+
+            // Show loading
+            document.getElementById('loading').classList.remove('hidden');
+            document.getElementById('noQuestion').classList.add('hidden');
+            document.getElementById('questionContainer').classList.add('hidden');
+
+            // Build URL
+            let url = '/api/economics/random';
+            if (paper || topic) {
+                const params = new URLSearchParams();
+                if (paper) params.append('paper', paper);
+                if (topic) params.append('topic', topic);
+                url = `/api/economics/question/filter?${params.toString()}`;
+            }
+
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                currentQuestion = data;
+                displayQuestion(data);
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error loading question');
+            }
+
+            document.getElementById('loading').classList.add('hidden');
+        }
+
+        function displayQuestion(q) {
+            document.getElementById('questionContainer').classList.remove('hidden');
+            document.getElementById('answerBtn').style.display = 'inline-block';
+            document.getElementById('chatgptBtn').style.display = 'inline-block';
+
+            // Update meta
+            document.getElementById('paperInfo').textContent = q.paper;
+            document.getElementById('topicInfo').textContent = q.topic;
+            document.getElementById('yearInfo').textContent = `${q.year} ${q.session} ${q.tz}`;
+            document.getElementById('questionNum').textContent = q.question_num;
+
+            // Display question content
+            const content = document.getElementById('questionContent');
+            content.innerHTML = '';
+
+            if (q.paper === 'Paper 1') {
+                // Show parts (a) and (b)
+                if (q.part_a) {
+                    content.innerHTML += `
+                        <div class="question-part">
+                            <div class="part-label">(a) [10 marks]</div>
+                            <div class="question-text">${q.part_a}</div>
+                        </div>
+                    `;
+                }
+                if (q.part_b) {
+                    content.innerHTML += `
+                        <div class="question-part">
+                            <div class="part-label">(b) [15 marks]</div>
+                            <div class="question-text">${q.part_b}</div>
+                        </div>
+                    `;
+                }
+            } else {
+                // Paper 2 - case study
+                content.innerHTML = `<div class="question-text">${q.full_text}</div>`;
+            }
+
+            // Load markscheme
+            const markschemeContent = document.getElementById('markschemeContent');
+            if (q.markscheme) {
+                markschemeContent.textContent = q.markscheme;
+            } else {
+                markschemeContent.textContent = 'No markscheme available for this question.';
+            }
+
+            // Hide answer initially
+            document.getElementById('markscheme').classList.remove('show');
+            document.getElementById('answerBtn').textContent = 'Show Answer';
+        }
+
+        function toggleAnswer() {
+            const markscheme = document.getElementById('markscheme');
+            const btn = document.getElementById('answerBtn');
+
+            if (markscheme.classList.contains('show')) {
+                markscheme.classList.remove('show');
+                btn.textContent = 'Show Answer';
+            } else {
+                markscheme.classList.add('show');
+                btn.textContent = 'Hide Answer';
+            }
+        }
+
+        function askChatGPT() {
+            if (!currentQuestion) {
+                alert('Please load a question first');
+                return;
+            }
+
+            // Build the question text
+            let questionText = `IB Economics ${currentQuestion.paper} - ${currentQuestion.topic}\n`;
+            questionText += `${currentQuestion.year} ${currentQuestion.session} ${currentQuestion.tz}\n`;
+            questionText += `${currentQuestion.question_num}\n\n`;
+
+            if (currentQuestion.paper === 'Paper 1') {
+                if (currentQuestion.part_a) {
+                    questionText += `(a) [10 marks]\n${currentQuestion.part_a}\n\n`;
+                }
+                if (currentQuestion.part_b) {
+                    questionText += `(b) [15 marks]\n${currentQuestion.part_b}\n`;
+                }
+            } else {
+                questionText += currentQuestion.full_text;
+            }
+
+            // Encode for URL
+            const encodedText = encodeURIComponent(questionText);
+
+            // Open ChatGPT with the question
+            window.open(`https://chat.openai.com/?q=${encodedText}`, '_blank');
+        }
+    </script>
+</body>
+</html>

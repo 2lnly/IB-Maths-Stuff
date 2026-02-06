@@ -107,6 +107,15 @@
             z-index: 1;
         }
 
+        .header {
+            z-index: 100;
+        }
+
+        #historyPanel, #savedPanel {
+            position: relative;
+            z-index: 10;
+        }
+
         #questionsWrapper {
             display: flex;
             flex-direction: column;
@@ -301,6 +310,22 @@
             background: #2563eb;
         }
 
+        .btn-physics {
+            padding: 8px 16px;
+            background: #10b981;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-physics:hover {
+            background: #059669;
+        }
+
         .btn-logout {
             padding: 8px 16px;
             background: #ef4444;
@@ -445,6 +470,101 @@
             color: #666;
         }
 
+        .password-btn {
+            flex: 1;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            border: 3px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            color: #666;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .password-btn:hover {
+            border-color: #3b82f6;
+            transform: scale(1.05);
+        }
+
+        .password-btn.selected {
+            background: #3b82f6;
+            color: white;
+            border-color: #3b82f6;
+        }
+
+        /* Dropdown styles */
+        .history-dropdown {
+            position: relative;
+            display: inline-block;
+            z-index: 2000;
+        }
+
+        .history-btn {
+            padding: 8px 12px;
+            font-size: 14px;
+            font-weight: bold;
+            background: #6b7280;
+            color: white;
+            border: 2px solid #6b7280;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+            z-index: 2001;
+        }
+
+        .history-btn:hover {
+            background: #4b5563;
+            border-color: #4b5563;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: white;
+            min-width: 180px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            border-radius: 8px;
+            z-index: 2002;
+            overflow: hidden;
+        }
+
+        .dropdown-content button {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            border: none;
+            background: white;
+            text-align: left;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+
+        .dropdown-content button:hover {
+            background-color: #f3f4f6;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .dropdown-content button.danger {
+            color: #ef4444;
+            border-top: 1px solid #eee;
+        }
+
+        .dropdown-content button.danger:hover {
+            background-color: #fee2e2;
+        }
+
+        .history-dropdown:hover .dropdown-content {
+            display: block;
+        }
+
 
         @media (max-width: 768px) {
             .controls {
@@ -479,6 +599,14 @@
                 <label for="usernameInput">Username</label>
                 <input type="text" id="usernameInput" placeholder="Enter username" maxlength="20">
             </div>
+            <div class="form-group">
+                <label>Pick your password:</label>
+                <div style="display: flex; gap: 10px; margin-top: 10px;">
+                    <button type="button" class="password-btn" onclick="selectPassword('1234')" id="password1234">1234</button>
+                    <button type="button" class="password-btn" onclick="selectPassword('4321')" id="password4321">4321</button>
+                </div>
+                <input type="hidden" id="selectedPassword" value="">
+            </div>
             <div class="modal-actions">
                 <button class="btn-primary" id="submitBtn" onclick="submitAuth()">Login</button>
                 <button class="btn-secondary" onclick="closeModal()">Cancel</button>
@@ -496,7 +624,9 @@
                     <h1 style="margin: 0;">IB math AAHL stuff</h1>
                     <div class="author">by: Xiao He</div>
                 </div>
-                <div id="authSection">
+                <div id="authSection" style="display: flex; gap: 10px; align-items: center;">
+                    <a href="/physics" class="btn-physics">Physics</a>
+                    <a href="/economics" class="btn-physics">Economics</a>
                     <button onclick="showLoginModal()" class="btn-auth">Login</button>
                 </div>
             </div>
@@ -512,7 +642,28 @@
                 </select>
                 <button onclick="loadRandomQuestion()">Random Question</button>
                 <button id="gabrielModeBtn" onclick="toggleGabrielMode()" class="btn-gabriel">Gabriel Mode: OFF</button>
+                <div class="history-dropdown">
+                    <button class="history-btn">H</button>
+                    <div class="dropdown-content">
+                        <button onclick="showHistoryPanel()">📜 View History</button>
+                        <button onclick="showSavedPanel()">⭐ Saved Questions</button>
+                        <button onclick="closePanels()">❌ Close Panels</button>
+                        <button onclick="clearAllData()" class="danger">🗑️ Clear Data</button>
+                    </div>
+                </div>
             </div>
+        </div>
+
+        <!-- History Panel -->
+        <div id="historyPanel" class="question-container hidden" style="margin-bottom: 20px;">
+            <h2 style="margin-bottom: 15px;">Question History</h2>
+            <div id="historyList" style="max-height: 400px; overflow-y: auto;"></div>
+        </div>
+
+        <!-- Saved Questions Panel -->
+        <div id="savedPanel" class="question-container hidden" style="margin-bottom: 20px;">
+            <h2 style="margin-bottom: 15px;">Saved Questions</h2>
+            <div id="savedList" style="max-height: 400px; overflow-y: auto;"></div>
         </div>
 
         <div id="questionsWrapper">
@@ -539,6 +690,9 @@
             <div class="actions">
                 <button class="btn-show-answer" onclick="showAnswer()">Show Answer</button>
                 <button class="btn-chatgpt" onclick="askChatGPT()">Ask ChatGPT</button>
+                <button id="saveBtn" class="btn-gabriel" onclick="toggleSaveQuestion()" style="background: #f59e0b; display: none; font-size: 20px; padding: 8px 12px;">
+                    ☆
+                </button>
             </div>
         </div>
         </div>
@@ -655,10 +809,15 @@
             document.getElementById('noQuestion').classList.add('hidden');
             document.getElementById('loading').classList.remove('hidden');
 
-            // Build API URL
+            // Build API URL with filters
             let url = '/api/random';
-            if (paper && topic && subtopic) {
-                url = `/api/question/${paper}/${topic}/${subtopic}/random`;
+            if (paper || topic || subtopic) {
+                // Use filter endpoint if any filter is selected
+                const params = new URLSearchParams();
+                if (paper) params.append('paper', paper);
+                if (topic) params.append('topic', topic);
+                if (subtopic) params.append('subtopic', subtopic);
+                url = `/api/question/filter?${params.toString()}`;
             }
 
             try {
@@ -679,10 +838,15 @@
             const topic = document.getElementById('topicSelect').value;
             const subtopic = document.getElementById('subtopicSelect').value;
 
-            // Build API URL
+            // Build API URL with filters
             let url = '/api/random';
-            if (paper && topic && subtopic) {
-                url = `/api/question/${paper}/${topic}/${subtopic}/random`;
+            if (paper || topic || subtopic) {
+                // Use filter endpoint if any filter is selected
+                const params = new URLSearchParams();
+                if (paper) params.append('paper', paper);
+                if (topic) params.append('topic', topic);
+                if (subtopic) params.append('subtopic', subtopic);
+                url = `/api/question/filter?${params.toString()}`;
             }
 
             try {
@@ -797,6 +961,10 @@
                 const questionImages = results.filter(r => r !== null).sort((a, b) => a.page - b.page);
                 displayImages(questionImagesDiv, questionImages.map(i => i.src));
             });
+
+            // Track view and check if saved
+            trackQuestionView(question.question_id);
+            checkIfSaved(question.question_id);
         }
 
         function showAnswer() {
@@ -924,12 +1092,22 @@
         }
 
         // Auth functions
+        function selectPassword(password) {
+            document.getElementById('selectedPassword').value = password;
+            document.getElementById('password1234').classList.remove('selected');
+            document.getElementById('password4321').classList.remove('selected');
+            document.getElementById('password' + password).classList.add('selected');
+        }
+
         function showLoginModal() {
             isLoginMode = true;
             document.getElementById('modalTitle').textContent = 'Login';
             document.getElementById('submitBtn').textContent = 'Login';
             document.getElementById('switchText').innerHTML = 'Don\'t have an account? <a onclick="switchMode()">Register</a>';
             document.getElementById('usernameInput').value = '';
+            document.getElementById('selectedPassword').value = '';
+            document.getElementById('password1234').classList.remove('selected');
+            document.getElementById('password4321').classList.remove('selected');
             document.getElementById('errorMessage').classList.add('hidden');
             document.getElementById('authModal').classList.add('show');
         }
@@ -949,15 +1127,25 @@
                 document.getElementById('submitBtn').textContent = 'Register';
                 document.getElementById('switchText').innerHTML = 'Already have an account? <a onclick="switchMode()">Login</a>';
             }
+            document.getElementById('selectedPassword').value = '';
+            document.getElementById('password1234').classList.remove('selected');
+            document.getElementById('password4321').classList.remove('selected');
             document.getElementById('errorMessage').classList.add('hidden');
         }
 
         async function submitAuth() {
             const username = document.getElementById('usernameInput').value.trim();
+            const password = document.getElementById('selectedPassword').value;
             const errorDiv = document.getElementById('errorMessage');
 
             if (!username) {
                 errorDiv.textContent = 'Please enter a username';
+                errorDiv.classList.remove('hidden');
+                return;
+            }
+
+            if (!password) {
+                errorDiv.textContent = 'Please select a password (1234 or 4321)';
                 errorDiv.classList.remove('hidden');
                 return;
             }
@@ -968,7 +1156,7 @@
                 const response = await fetch(endpoint, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ username })
+                    body: JSON.stringify({ username, password })
                 });
 
                 const data = await response.json();
@@ -992,6 +1180,8 @@
                 await fetch('/api/logout', { method: 'POST' });
                 currentUser = null;
                 updateAuthUI();
+                // Hide save button on logout
+                document.getElementById('saveBtn').style.display = 'none';
             } catch (error) {
                 console.error('Logout error:', error);
             }
@@ -1001,13 +1191,15 @@
             const authSection = document.getElementById('authSection');
             if (currentUser) {
                 authSection.innerHTML = `
+                    <a href="/physics" class="btn-physics">Physics</a>
+                    <a href="/economics" class="btn-physics">Economics</a>
                     <div class="user-info">
                         <span>👤 ${currentUser}</span>
                         <button onclick="logout()" class="btn-logout">Logout</button>
                     </div>
                 `;
             } else {
-                authSection.innerHTML = '<button onclick="showLoginModal()" class="btn-auth">Login</button>';
+                authSection.innerHTML = '<a href="/physics" class="btn-physics">Physics</a><button onclick="showLoginModal()" class="btn-auth">Login</button>';
             }
         }
 
@@ -1022,6 +1214,246 @@
             } catch (error) {
                 console.error('Auth check error:', error);
             }
+        }
+
+        // ============ HISTORY AND SAVED QUESTIONS ============
+
+        async function trackQuestionView(questionId) {
+            if (!currentUser || !questionId) return;
+
+            try {
+                await fetch('/api/track-view', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        question_id: questionId,
+                        subject: 'math'
+                    })
+                });
+            } catch (error) {
+                console.error('Error tracking view:', error);
+            }
+        }
+
+        async function toggleSaveQuestion() {
+            if (!currentUser) {
+                alert('Please log in to save questions');
+                return;
+            }
+
+            if (!currentQuestion) return;
+
+            const saveBtn = document.getElementById('saveBtn');
+            const isSaved = saveBtn.textContent.trim() === '⭐';
+
+            try {
+                if (isSaved) {
+                    // Unsave
+                    await fetch('/api/save-question', {
+                        method: 'DELETE',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            question_id: currentQuestion.question_id,
+                            subject: 'math'
+                        })
+                    });
+                    saveBtn.textContent = '☆';
+                    saveBtn.style.background = '#6b7280';
+                } else {
+                    // Save
+                    await fetch('/api/save-question', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            question_id: currentQuestion.question_id,
+                            subject: 'math'
+                        })
+                    });
+                    saveBtn.textContent = '⭐';
+                    saveBtn.style.background = '#f59e0b';
+                }
+            } catch (error) {
+                console.error('Error saving/unsaving question:', error);
+                alert('Error saving question');
+            }
+        }
+
+        async function checkIfSaved(questionId) {
+            if (!currentUser || !questionId) {
+                document.getElementById('saveBtn').style.display = 'none';
+                return;
+            }
+
+            try {
+                const response = await fetch(`/api/is-saved?question_id=${questionId}&subject=math`);
+                const data = await response.json();
+                const saveBtn = document.getElementById('saveBtn');
+                saveBtn.style.display = 'inline-block';
+
+                if (data.saved) {
+                    saveBtn.textContent = '⭐';
+                    saveBtn.style.background = '#f59e0b';
+                } else {
+                    saveBtn.textContent = '☆';
+                    saveBtn.style.background = '#6b7280';
+                }
+            } catch (error) {
+                console.error('Error checking if saved:', error);
+            }
+        }
+
+        async function showHistoryPanel() {
+            const panel = document.getElementById('historyPanel');
+            const savedPanel = document.getElementById('savedPanel');
+            const questionsWrapper = document.getElementById('questionsWrapper');
+
+            // Toggle panels
+            if (!panel.classList.contains('hidden')) {
+                panel.classList.add('hidden');
+                return;
+            }
+
+            savedPanel.classList.add('hidden');
+            questionsWrapper.classList.add('hidden');
+            panel.classList.remove('hidden');
+
+            if (!currentUser) {
+                document.getElementById('historyList').innerHTML = '<p style="text-align: center; color: #666;">Please log in to view your history</p>';
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/history?subject=math&limit=50');
+                const data = await response.json();
+                const historyList = document.getElementById('historyList');
+
+                if (data.history.length === 0) {
+                    historyList.innerHTML = '<p style="text-align: center; color: #666;">No history yet</p>';
+                } else {
+                    historyList.innerHTML = data.history.map(item => `
+                        <div style="padding: 15px; border-bottom: 1px solid #eee; cursor: pointer;"
+                             onclick="loadQuestionById('${item.question_id}')">
+                            <div style="font-weight: bold; color: #333;">${item.question_id}</div>
+                            <div style="font-size: 14px; color: #666;">Viewed: ${new Date(item.viewed_at).toLocaleString()}</div>
+                        </div>
+                    `).join('');
+                }
+            } catch (error) {
+                console.error('Error loading history:', error);
+                document.getElementById('historyList').innerHTML = '<p style="text-align: center; color: #ef4444;">Error loading history</p>';
+            }
+        }
+
+        async function showSavedPanel() {
+            const panel = document.getElementById('savedPanel');
+            const historyPanel = document.getElementById('historyPanel');
+            const questionsWrapper = document.getElementById('questionsWrapper');
+
+            // Toggle panels
+            if (!panel.classList.contains('hidden')) {
+                panel.classList.add('hidden');
+                return;
+            }
+
+            historyPanel.classList.add('hidden');
+            questionsWrapper.classList.add('hidden');
+            panel.classList.remove('hidden');
+
+            if (!currentUser) {
+                document.getElementById('savedList').innerHTML = '<p style="text-align: center; color: #666;">Please log in to view saved questions</p>';
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/saved?subject=math');
+                const data = await response.json();
+                const savedList = document.getElementById('savedList');
+
+                if (data.saved.length === 0) {
+                    savedList.innerHTML = '<p style="text-align: center; color: #666;">No saved questions yet</p>';
+                } else {
+                    savedList.innerHTML = data.saved.map(item => `
+                        <div style="padding: 15px; border-bottom: 1px solid #eee; cursor: pointer;"
+                             onclick="loadQuestionById('${item.question_id}')">
+                            <div style="font-weight: bold; color: #333;">${item.question_id}</div>
+                            <div style="font-size: 14px; color: #666;">Saved: ${new Date(item.saved_at).toLocaleString()}</div>
+                            ${item.notes ? `<div style="font-size: 14px; color: #666; margin-top: 5px;">Notes: ${item.notes}</div>` : ''}
+                        </div>
+                    `).join('');
+                }
+            } catch (error) {
+                console.error('Error loading saved questions:', error);
+                document.getElementById('savedList').innerHTML = '<p style="text-align: center; color: #ef4444;">Error loading saved questions</p>';
+            }
+        }
+
+        async function loadQuestionById(questionId) {
+            // Hide panels and show question
+            document.getElementById('historyPanel').classList.add('hidden');
+            document.getElementById('savedPanel').classList.add('hidden');
+            document.getElementById('questionsWrapper').classList.remove('hidden');
+
+            // Load the question from API
+            try {
+                const response = await fetch(`/api/question/${questionId}`);
+                const data = await response.json();
+                if (data.error) {
+                    alert('Question not found');
+                    return;
+                }
+                currentQuestion = data;
+                displayQuestion(currentQuestion);
+            } catch (error) {
+                console.error('Error loading question:', error);
+                alert('Error loading question');
+            }
+        }
+
+        async function clearAllData() {
+            if (!currentUser) {
+                alert('Please log in first');
+                return;
+            }
+
+            if (!confirm('Are you sure you want to clear ALL your history and saved questions for Math? This cannot be undone!')) {
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/clear-all', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ subject: 'math' })
+                });
+
+                const data = await response.json();
+                if (data.success) {
+                    alert('All data cleared successfully!');
+                    // Refresh panels if open
+                    const historyPanel = document.getElementById('historyPanel');
+                    const savedPanel = document.getElementById('savedPanel');
+                    if (!historyPanel.classList.contains('hidden')) {
+                        showHistoryPanel();
+                        showHistoryPanel(); // Call twice to refresh
+                    }
+                    if (!savedPanel.classList.contains('hidden')) {
+                        showSavedPanel();
+                        showSavedPanel(); // Call twice to refresh
+                    }
+                } else {
+                    alert('Error clearing data: ' + data.message);
+                }
+            } catch (error) {
+                console.error('Error clearing data:', error);
+                alert('Error clearing data');
+            }
+        }
+
+        function closePanels() {
+            // Hide both panels and show the questions wrapper
+            document.getElementById('historyPanel').classList.add('hidden');
+            document.getElementById('savedPanel').classList.add('hidden');
+            document.getElementById('questionsWrapper').classList.remove('hidden');
         }
 
         // Enter key to submit in modal

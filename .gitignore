@@ -1,3 +1,4 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
@@ -12,13 +13,55 @@ venv/
 env/
 .env
 .venv
-*.log
-.DS_Store
-text_extraction_progress.json
+
+# IDE
+.vscode/
+.idea/
 *.swp
 *.swo
 *~
+
+# OS
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Keys and secrets
 key
 *.key
-web/users.db
+
+# Database (user data - should not be in git)
 *.db
+
+# Logs
+*.log
+text_extraction_progress.json
+
+# Source PDF files and archives - NOT needed for web app
+Math AA HL/
+Economics SL/
+Physics HL Organised/
+Physics HL Organised.zip
+Physics By Topic/
+
+# Build/processing artifacts - NOT needed for web app
+output/
+classifier/
+classification_results.json
+classification_progress.json
+extract_text.py
+extractor.py
+classify.py
+
+# Personal Claude settings
+.claude/settings.local.json
+
+# Keep only these for web app:
+# ✓ web/                           - Web application
+# ✓ practice/                      - Math question images
+# ✓ Physics Flattened/             - Physics question images
+# ✓ econ_organizer/                - Economics data
+# ✓ physics_organizer/             - Physics data
+# ✓ practice_classification_results.json
+# ✓ CLAUDE.md
+# ✓ README.md (if exists)
