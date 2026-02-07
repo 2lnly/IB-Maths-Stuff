@@ -1,18 +1,21 @@
-# Python
+# Data files (classification results)
+data/
+
+# Question images (large files)
+practice/
+Physics Flattened/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
+
+# Virtual environment
 venv/
 env/
-.env
-.venv
+ENV/
 
 # IDE
 .vscode/
@@ -21,47 +24,16 @@ env/
 *.swo
 *~
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
-__MACOSX/
-
-# Keys and secrets
-key
-*.key
-
-# Database (user data - should not be in git)
-*.db
 
 # Logs
 *.log
-text_extraction_progress.json
 
-# Source PDF files and archives - NOT needed for web app
-Math AA HL/
-Economics SL/
-Physics HL Organised/
-Physics HL Organised.zip
-Physics By Topic/
+# User data
+web/users.json
+web/user_data.json
 
-# Build/processing artifacts - NOT needed for web app
-output/
-classifier/
-classification_results.json
-classification_progress.json
-extract_text.py
-extractor.py
-classify.py
-
-# Personal Claude settings
-.claude/settings.local.json
-
-# Keep only these for web app:
-# ✓ web/                           - Web application
-# ✓ practice/                      - Math question images
-# ✓ Physics Flattened/             - Physics question images
-# ✓ econ_organizer/                - Economics data
-# ✓ physics_organizer/             - Physics data
-# ✓ practice_classification_results.json
-# ✓ CLAUDE.md
-# ✓ README.md (if exists)
+# Session files
+flask_session/

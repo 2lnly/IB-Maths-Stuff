@@ -1,13 +1,19 @@
 """User data management - history and saved questions."""
 
 import sqlite3
+import os
 from pathlib import Path
 from datetime import datetime
 
-DB_PATH = Path(__file__).parent / 'users.db'
+# Use persistent storage on Render, fallback to local for development
+DB_PATH = Path(os.environ.get('DB_PATH', '/data')) / 'users.db'
+if not DB_PATH.parent.exists():
+    DB_PATH = Path(__file__).parent / 'users.db'
 
 def init_user_data_tables():
     """Initialize tables for user history and saved questions."""
+    # Ensure the directory exists
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH, timeout=10)
     try:
         cursor = conn.cursor()

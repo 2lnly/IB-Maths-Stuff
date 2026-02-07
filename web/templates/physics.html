@@ -287,6 +287,122 @@
             background: #059669;
         }
 
+        .btn-save {
+            background: #6b7280;
+            font-size: 24px;
+            padding: 10px 20px;
+        }
+
+        .btn-save:hover {
+            background: #4b5563;
+        }
+
+        .btn-save.saved {
+            background: #f59e0b;
+        }
+
+        .history-dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .history-btn {
+            background: #6b7280;
+            color: white;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            border: 2px solid #6b7280;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .history-btn:hover {
+            background: #4b5563;
+            border-color: #4b5563;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(107, 114, 128, 0.4);
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .dropdown-content a {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f0f0f0;
+        }
+
+        .dropdown-content button {
+            width: 100%;
+            text-align: left;
+            background: none;
+            border: none;
+            color: #333;
+            padding: 12px 16px;
+            cursor: pointer;
+            transition: background 0.2s;
+            font-size: 14px;
+        }
+
+        .dropdown-content button:hover {
+            background-color: #f0f0f0;
+        }
+
+        .dropdown-content button.danger {
+            color: #ef4444;
+        }
+
+        .dropdown-content button.danger:hover {
+            background-color: #fee2e2;
+        }
+
+        .history-dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        #historyPanel, #savedPanel {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+            max-width: calc(1200px * 0.65);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .history-item, .saved-item {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .history-item:hover, .saved-item:hover {
+            background: #f9f9f9;
+        }
+
+        .history-item:last-child, .saved-item:last-child {
+            border-bottom: none;
+        }
+
         .btn-auth {
             padding: 8px 16px;
             background: #3b82f6;
@@ -562,7 +678,28 @@
                 </select>
                 <button onclick="loadRandomQuestion()">Random Question</button>
                 <button id="gabrielModeBtn" onclick="toggleGabrielMode()" class="btn-gabriel">Gabriel Mode: OFF</button>
+                <div class="history-dropdown">
+                    <button class="history-btn">H</button>
+                    <div class="dropdown-content">
+                        <button onclick="showHistoryPanel()">📜 View History</button>
+                        <button onclick="showSavedPanel()">⭐ Saved Questions</button>
+                        <button onclick="closePanels()">❌ Close Panels</button>
+                        <button onclick="clearAllData()" class="danger">🗑️ Clear Data</button>
+                    </div>
+                </div>
             </div>
+        </div>
+
+        <!-- History Panel -->
+        <div id="historyPanel" class="question-container hidden" style="margin-bottom: 20px;">
+            <h2>Question History</h2>
+            <div id="historyList" style="max-height: 400px; overflow-y: auto;"></div>
+        </div>
+
+        <!-- Saved Questions Panel -->
+        <div id="savedPanel" class="question-container hidden" style="margin-bottom: 20px;">
+            <h2>Saved Questions</h2>
+            <div id="savedList" style="max-height: 400px; overflow-y: auto;"></div>
         </div>
 
         <div id="questionsWrapper">
@@ -589,6 +726,7 @@
             <div class="actions">
                 <button class="btn-show-answer" onclick="showAnswer()">Show Answer</button>
                 <button class="btn-chatgpt" onclick="askChatGPT()">Ask ChatGPT</button>
+                <button id="saveBtn" class="btn-save" onclick="toggleSaveQuestion()" style="display: none;">☆</button>
             </div>
         </div>
         </div>
@@ -661,10 +799,17 @@
             subtopicSelect.innerHTML = '<option value="">All Subtopics</option>';
 
             if (paper && allTopics[paper]) {
-                Object.keys(allTopics[paper]).forEach(topic => {
+                // Sort topics by their letter code (A, B, C, D, E)
+                const sortedTopics = Object.keys(allTopics[paper]).sort((a, b) => {
+                    const codeA = a.split(':')[0].trim();
+                    const codeB = b.split(':')[0].trim();
+                    return codeA.localeCompare(codeB);
+                });
+
+                sortedTopics.forEach(topic => {
                     const option = document.createElement('option');
                     option.value = topic;
-                    option.textContent = topic.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                    option.textContent = topic;
                     topicSelect.appendChild(option);
                 });
             }
@@ -679,10 +824,28 @@
             subtopicSelect.innerHTML = '<option value="">All Subtopics</option>';
 
             if (paper && topic && allTopics[paper] && allTopics[paper][topic]) {
-                allTopics[paper][topic].forEach(subtopic => {
+                // Sort subtopics by their numeric code (A.1, A.2, B.1, etc.)
+                const sortedSubtopics = allTopics[paper][topic].sort((a, b) => {
+                    const codeA = a.split(':')[0].trim();
+                    const codeB = b.split(':')[0].trim();
+
+                    // Extract letter and number (e.g., "A.1" -> ["A", "1"])
+                    const [letterA, numA] = codeA.split('.');
+                    const [letterB, numB] = codeB.split('.');
+
+                    // Compare letters first
+                    if (letterA !== letterB) {
+                        return letterA.localeCompare(letterB);
+                    }
+
+                    // Then compare numbers
+                    return parseInt(numA) - parseInt(numB);
+                });
+
+                sortedSubtopics.forEach(subtopic => {
                     const option = document.createElement('option');
                     option.value = subtopic;
-                    option.textContent = subtopic.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                    option.textContent = subtopic;
                     subtopicSelect.appendChild(option);
                 });
             }
@@ -760,8 +923,8 @@
                     <div class="question-info">
                         <div class="question-meta">
                             <span>${data.paper}</span>
-                            <span>${data.primary_topic.replace(/_/g, ' ')}</span>
-                            <span>${data.primary_subtopic.replace(/_/g, ' ')}</span>
+                            <span>${data.topic_code}: ${data.primary_topic}</span>
+                            <span>${data.subtopic_code}: ${data.primary_subtopic}</span>
                         </div>
                         <div class="question-id" style="color: #999; font-size: 14px;">${data.question_id}</div>
                     </div>
@@ -824,11 +987,19 @@
             // Reset wide class (only added when answer is shown)
             questionContainer.classList.remove('wide');
 
-            // Update metadata
+            // Update metadata - use new IB structure
             document.getElementById('paperInfo').textContent = question.paper;
-            document.getElementById('topicInfo').textContent = question.primary_topic.replace(/_/g, ' ');
-            document.getElementById('subtopicInfo').textContent = question.primary_subtopic.replace(/_/g, ' ');
+            document.getElementById('topicInfo').textContent = `${question.topic_code}: ${question.primary_topic}`;
+            document.getElementById('subtopicInfo').textContent = `${question.subtopic_code}: ${question.primary_subtopic}`;
             document.getElementById('questionId').textContent = question.question_id;
+
+            // Track view and check if saved
+            if (currentUser) {
+                trackView(question.question_id);
+                checkIfSaved(question.question_id);
+            } else {
+                document.getElementById('saveBtn').style.display = 'none';
+            }
 
             // Display question images
             const questionPath = question.path;
@@ -1136,6 +1307,220 @@
                 closeModal();
             }
         });
+
+        // Save/History Functions
+        async function trackView(questionId) {
+            if (!currentUser || !questionId) return;
+
+            try {
+                await fetch('/api/track-view', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        question_id: questionId,
+                        subject: 'physics'
+                    })
+                });
+            } catch (error) {
+                console.error('Error tracking view:', error);
+            }
+        }
+
+        async function toggleSaveQuestion() {
+            if (!currentUser) {
+                alert('Please log in to save questions');
+                return;
+            }
+
+            const saveBtn = document.getElementById('saveBtn');
+            const isSaved = saveBtn.textContent.trim() === '⭐';
+
+            try {
+                if (isSaved) {
+                    // Unsave
+                    await fetch('/api/save-question', {
+                        method: 'DELETE',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            question_id: currentQuestion.question_id,
+                            subject: 'physics'
+                        })
+                    });
+                    saveBtn.textContent = '☆';
+                    saveBtn.classList.remove('saved');
+                } else {
+                    // Save
+                    await fetch('/api/save-question', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            question_id: currentQuestion.question_id,
+                            subject: 'physics'
+                        })
+                    });
+                    saveBtn.textContent = '⭐';
+                    saveBtn.classList.add('saved');
+                }
+            } catch (error) {
+                console.error('Error saving/unsaving question:', error);
+                alert('Error saving question');
+            }
+        }
+
+        async function checkIfSaved(questionId) {
+            if (!currentUser || !questionId) {
+                document.getElementById('saveBtn').style.display = 'none';
+                return;
+            }
+
+            try {
+                const response = await fetch(`/api/is-saved?question_id=${questionId}&subject=physics`);
+                const data = await response.json();
+                const saveBtn = document.getElementById('saveBtn');
+                saveBtn.style.display = 'inline-block';
+
+                if (data.saved) {
+                    saveBtn.textContent = '⭐';
+                    saveBtn.classList.add('saved');
+                } else {
+                    saveBtn.textContent = '☆';
+                    saveBtn.classList.remove('saved');
+                }
+            } catch (error) {
+                console.error('Error checking if saved:', error);
+            }
+        }
+
+        async function showHistoryPanel() {
+            const panel = document.getElementById('historyPanel');
+            const savedPanel = document.getElementById('savedPanel');
+
+            // Hide saved panel if open
+            savedPanel.classList.add('hidden');
+
+            // Show history panel
+            panel.classList.remove('hidden');
+
+            if (!currentUser) {
+                document.getElementById('historyList').innerHTML = '<p style="text-align: center; color: #666;">Please log in to view your history</p>';
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/history?subject=physics&limit=50');
+                const data = await response.json();
+                const historyList = document.getElementById('historyList');
+
+                if (data.history.length === 0) {
+                    historyList.innerHTML = '<p style="text-align: center; color: #666;">No history yet</p>';
+                } else {
+                    historyList.innerHTML = data.history.map(item => `
+                        <div class="history-item" onclick="loadQuestionById('${item.question_id}')">
+                            <strong>${item.question_id}</strong><br>
+                            <small style="color: #666;">${item.viewed_at}</small>
+                        </div>
+                    `).join('');
+                }
+            } catch (error) {
+                console.error('Error loading history:', error);
+                document.getElementById('historyList').innerHTML = '<p style="text-align: center; color: #ef4444;">Error loading history</p>';
+            }
+        }
+
+        async function showSavedPanel() {
+            const panel = document.getElementById('savedPanel');
+            const historyPanel = document.getElementById('historyPanel');
+
+            // Hide history panel if open
+            historyPanel.classList.add('hidden');
+
+            // Show saved panel
+            panel.classList.remove('hidden');
+
+            if (!currentUser) {
+                document.getElementById('savedList').innerHTML = '<p style="text-align: center; color: #666;">Please log in to view saved questions</p>';
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/saved?subject=physics');
+                const data = await response.json();
+                const savedList = document.getElementById('savedList');
+
+                if (data.saved.length === 0) {
+                    savedList.innerHTML = '<p style="text-align: center; color: #666;">No saved questions yet</p>';
+                } else {
+                    savedList.innerHTML = data.saved.map(item => `
+                        <div class="saved-item" onclick="loadQuestionById('${item.question_id}')">
+                            <strong>${item.question_id}</strong><br>
+                            ${item.notes ? `<p style="color: #666; margin-top: 5px;">${item.notes}</p>` : ''}
+                            <small style="color: #666;">Saved: ${item.saved_at}</small>
+                        </div>
+                    `).join('');
+                }
+            } catch (error) {
+                console.error('Error loading saved questions:', error);
+                document.getElementById('savedList').innerHTML = '<p style="text-align: center; color: #ef4444;">Error loading saved questions</p>';
+            }
+        }
+
+        function closePanels() {
+            document.getElementById('historyPanel').classList.add('hidden');
+            document.getElementById('savedPanel').classList.add('hidden');
+        }
+
+        async function clearAllData() {
+            if (!currentUser) {
+                alert('Please log in first');
+                return;
+            }
+
+            if (!confirm('Are you sure you want to clear ALL your physics history and saved questions? This cannot be undone!')) {
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/clear-all', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ subject: 'physics' })
+                });
+
+                const data = await response.json();
+                if (data.success) {
+                    alert('All data cleared successfully!');
+                    closePanels();
+                } else {
+                    alert('Error: ' + data.message);
+                }
+            } catch (error) {
+                console.error('Error clearing data:', error);
+                alert('Error clearing data');
+            }
+        }
+
+        async function loadQuestionById(questionId) {
+            // Hide history/saved panels
+            document.getElementById('historyPanel').classList.add('hidden');
+            document.getElementById('savedPanel').classList.add('hidden');
+
+            // Find question in PHYSICS_QUESTIONS (would need to be passed from backend)
+            // For now, just show loading
+            document.getElementById('questionContainer').classList.add('hidden');
+            document.getElementById('loading').classList.remove('hidden');
+
+            try {
+                const response = await fetch(`/api/physics/question/${questionId}`);
+                const data = await response.json();
+                currentQuestion = data;
+                displayQuestion(data);
+            } catch (error) {
+                console.error('Error loading question:', error);
+                alert('Error loading question. Please try again.');
+            }
+
+            document.getElementById('loading').classList.add('hidden');
+        }
 
         // Initialize
         checkAuthStatus();

@@ -5,3 +5,7 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: cd web && gunicorn app:app
     plan: free
+    disk:
+      name: ibmath-data
+      mountPath: /data
+      sizeGB: 1

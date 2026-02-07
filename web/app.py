@@ -25,7 +25,7 @@ app.config['SESSION_COOKIE_HTTPONLY'] = True
 app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
 
 # Load MATH classification results
-RESULTS_FILE = Path(__file__).parent.parent / "practice_classification_results.json"
+RESULTS_FILE = Path(__file__).parent.parent / "data" / "practice_classification_results.json"
 PRACTICE_DIR = Path(__file__).parent.parent / "practice"
 
 with open(RESULTS_FILE, 'r') as f:
@@ -55,37 +55,48 @@ for key in TOPICS_INDEX.keys():
         SUBTOPICS[paper][topic].append(subtopic)
 
 # Load PHYSICS classification results
-PHYSICS_RESULTS_FILE = Path(__file__).parent.parent / "physics_organizer" / "physics_classification_results.json"
+PHYSICS_RESULTS_FILE = Path(__file__).parent.parent / "data" / "physics_classification_results.json"
 PHYSICS_DIR = Path(__file__).parent.parent / "Physics Flattened"
 
 with open(PHYSICS_RESULTS_FILE, 'r') as f:
     PHYSICS_QUESTIONS = json.load(f)
 
-# Build topic/subtopic index for PHYSICS
+# Build topic/subtopic index for PHYSICS using IB structure codes
 PHYSICS_TOPICS_INDEX = {}
 for q_id, data in PHYSICS_QUESTIONS.items():
     paper = data.get('paper', 'unknown')
-    topic = data.get('primary_topic', 'unknown')
-    subtopic = data.get('primary_subtopic', 'unknown')
+    topic_code = data.get('topic_code', 'unknown')
+    subtopic_code = data.get('subtopic_code', 'unknown')
 
-    key = f"{paper}:{topic}:{subtopic}"
+    key = f"{paper}:{topic_code}:{subtopic_code}"
     if key not in PHYSICS_TOPICS_INDEX:
         PHYSICS_TOPICS_INDEX[key] = []
     PHYSICS_TOPICS_INDEX[key].append(q_id)
 
-# Build list of all subtopics for PHYSICS
+# Build list of all subtopics for PHYSICS with full names
 PHYSICS_SUBTOPICS = {}
-for key in PHYSICS_TOPICS_INDEX.keys():
-    paper, topic, subtopic = key.split(':')
+for q_id, data in PHYSICS_QUESTIONS.items():
+    paper = data.get('paper', 'unknown')
+    topic_code = data.get('topic_code', 'unknown')
+    topic_name = data.get('primary_topic', 'unknown')
+    subtopic_code = data.get('subtopic_code', 'unknown')
+    subtopic_name = data.get('primary_subtopic', 'unknown')
+
     if paper not in PHYSICS_SUBTOPICS:
         PHYSICS_SUBTOPICS[paper] = {}
-    if topic not in PHYSICS_SUBTOPICS[paper]:
-        PHYSICS_SUBTOPICS[paper][topic] = []
-    if subtopic not in PHYSICS_SUBTOPICS[paper][topic]:
-        PHYSICS_SUBTOPICS[paper][topic].append(subtopic)
+
+    # Use format: "A: Space, Time & Motion"
+    topic_key = f"{topic_code}: {topic_name}"
+    if topic_key not in PHYSICS_SUBTOPICS[paper]:
+        PHYSICS_SUBTOPICS[paper][topic_key] = []
+
+    # Use format: "A.1: Kinematics"
+    subtopic_key = f"{subtopic_code}: {subtopic_name}"
+    if subtopic_key not in PHYSICS_SUBTOPICS[paper][topic_key]:
+        PHYSICS_SUBTOPICS[paper][topic_key].append(subtopic_key)
 
 # Load ECONOMICS classification results
-ECON_RESULTS_FILE = Path(__file__).parent.parent / "econ_organizer" / "economics_classification_results.json"
+ECON_RESULTS_FILE = Path(__file__).parent.parent / "data" / "economics_classification_results.json"
 
 with open(ECON_RESULTS_FILE, 'r') as f:
     ECON_QUESTIONS = json.load(f)
@@ -402,6 +413,17 @@ def get_random_physics_question():
     })
 
 
+@app.route('/api/physics/question/<question_id>')
+def get_physics_question_by_id(question_id):
+    """Get a specific physics question by ID."""
+    if question_id in PHYSICS_QUESTIONS:
+        return jsonify({
+            'question_id': question_id,
+            **PHYSICS_QUESTIONS[question_id]
+        })
+    return jsonify({'error': 'Question not found'}), 404
+
+
 @app.route('/api/physics/question/<paper>/<topic>/<subtopic>/random')
 def get_random_physics_from_subtopic(paper, topic, subtopic):
     """Get a random physics question from a specific subtopic."""
@@ -420,8 +442,20 @@ def get_random_physics_from_subtopic(paper, topic, subtopic):
 def get_filtered_physics_question():
     """Get a random physics question filtered by paper, topic, and/or subtopic."""
     paper = request.args.get('paper')
-    topic = request.args.get('topic')
-    subtopic = request.args.get('subtopic')
+    topic = request.args.get('topic')  # Format: "A: Space, Time & Motion" or "A"
+    subtopic = request.args.get('subtopic')  # Format: "A.1: Kinematics" or "A.1"
+
+    # Extract codes from formatted strings
+    topic_code = None
+    subtopic_code = None
+
+    if topic:
+        # Extract code (e.g., "A" from "A: Space, Time & Motion")
+        topic_code = topic.split(':')[0].strip() if ':' in topic else topic.strip()
+
+    if subtopic:
+        # Extract code (e.g., "A.1" from "A.1: Kinematics")
+        subtopic_code = subtopic.split(':')[0].strip() if ':' in subtopic else subtopic.strip()
 
     # Filter questions based on provided parameters
     filtered_questions = []
@@ -431,9 +465,9 @@ def get_filtered_physics_question():
 
         if paper and data.get('paper') != paper:
             matches = False
-        if topic and data.get('primary_topic') != topic:
+        if topic_code and data.get('topic_code') != topic_code:
             matches = False
-        if subtopic and data.get('primary_subtopic') != subtopic:
+        if subtopic_code and data.get('subtopic_code') != subtopic_code:
             matches = False
 
         if matches:
