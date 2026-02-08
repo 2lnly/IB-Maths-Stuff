@@ -100,6 +100,57 @@ def init_database():
                     UNIQUE(user_id, question_id, subject)
                 )
             ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS question_time_tracking (
+                    id SERIAL PRIMARY KEY,
+                    user_id INTEGER NOT NULL,
+                    question_id TEXT NOT NULL,
+                    subject TEXT NOT NULL,
+                    total_seconds INTEGER DEFAULT 0,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+                    UNIQUE(user_id, question_id, subject)
+                )
+            ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS daily_usage (
+                    id SERIAL PRIMARY KEY,
+                    user_id INTEGER NOT NULL,
+                    date DATE NOT NULL,
+                    total_seconds INTEGER DEFAULT 0,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+                    UNIQUE(user_id, date)
+                )
+            ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS global_chat (
+                    id SERIAL PRIMARY KEY,
+                    user_id INTEGER NOT NULL,
+                    username TEXT NOT NULL,
+                    message TEXT NOT NULL,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+                )
+            ''')
+
+            cursor.execute('CREATE INDEX IF NOT EXISTS idx_chat_created ON global_chat(created_at DESC)')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS question_notes (
+                    id SERIAL PRIMARY KEY,
+                    user_id INTEGER NOT NULL,
+                    username TEXT NOT NULL,
+                    question_id TEXT NOT NULL,
+                    subject TEXT NOT NULL,
+                    note TEXT NOT NULL,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+                )
+            ''')
+
+            cursor.execute('CREATE INDEX IF NOT EXISTS idx_notes_question ON question_notes(question_id, subject)')
         else:
             # SQLite syntax
             cursor.execute('''
@@ -135,6 +186,57 @@ def init_database():
                     UNIQUE(user_id, question_id, subject)
                 )
             ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS question_time_tracking (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    user_id INTEGER NOT NULL,
+                    question_id TEXT NOT NULL,
+                    subject TEXT NOT NULL,
+                    total_seconds INTEGER DEFAULT 0,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+                    UNIQUE(user_id, question_id, subject)
+                )
+            ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS daily_usage (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    user_id INTEGER NOT NULL,
+                    date DATE NOT NULL,
+                    total_seconds INTEGER DEFAULT 0,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+                    UNIQUE(user_id, date)
+                )
+            ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS global_chat (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    user_id INTEGER NOT NULL,
+                    username TEXT NOT NULL,
+                    message TEXT NOT NULL,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+                )
+            ''')
+
+            cursor.execute('CREATE INDEX IF NOT EXISTS idx_chat_created ON global_chat(created_at DESC)')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS question_notes (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    user_id INTEGER NOT NULL,
+                    username TEXT NOT NULL,
+                    question_id TEXT NOT NULL,
+                    subject TEXT NOT NULL,
+                    note TEXT NOT NULL,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+                )
+            ''')
+
+            cursor.execute('CREATE INDEX IF NOT EXISTS idx_notes_question ON question_notes(question_id, subject)')
 
         conn.commit()
 

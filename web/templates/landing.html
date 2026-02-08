@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB Practice Hub - Master Your IB Exams</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #1a1638;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            text-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            animation: fadeInDown 1s ease;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            opacity: 0.95;
+            margin-bottom: 10px;
+            animation: fadeInUp 1s ease 0.2s backwards;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.85;
+            animation: fadeInUp 1s ease 0.4s backwards;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            position: relative;
+            overflow: hidden;
+            animation: fadeInUp 1s ease backwards;
+        }
+
+        .card:nth-child(1) { animation-delay: 0.3s; }
+        .card:nth-child(2) { animation-delay: 0.5s; }
+        .card:nth-child(3) { animation-delay: 0.7s; }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+        .card-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover .card-icon {
+            transform: scale(1.1) rotate(5deg);
+        }
+
+
+        .icon-physics {
+            display: inline-block;
+            transform: rotate(180deg);
+        }
+
+        .card:hover .icon-physics {
+            transform: rotate(180deg) scale(1.1) rotate(5deg);
+        }
+
+        .card h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #666;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            display: none;
+        }
+
+        .card-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .card-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+            opacity: 0.8;
+            margin-top: 60px;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Floating shapes */
+        .bg-shape {
+            position: fixed;
+            opacity: 0.12;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .bg-shape:nth-child(1) {
+            width: 300px;
+            height: 300px;
+            background: #9d8a4a;
+            border-radius: 50%;
+            top: 10%;
+            left: 10%;
+            animation: float 20s infinite ease-in-out;
+        }
+
+        .bg-shape:nth-child(2) {
+            width: 200px;
+            height: 200px;
+            background: #8f7d3a;
+            border-radius: 20%;
+            top: 60%;
+            right: 15%;
+            animation: float 15s infinite ease-in-out reverse;
+            transform: rotate(45deg);
+        }
+
+        .bg-shape:nth-child(3) {
+            width: 0;
+            height: 0;
+            border-left: 125px solid transparent;
+            border-right: 125px solid transparent;
+            border-bottom: 250px solid #a89d5a;
+            background: transparent;
+            bottom: 20%;
+            left: 20%;
+            animation: float 18s infinite ease-in-out;
+        }
+
+        .bg-shape:nth-child(4) {
+            width: 180px;
+            height: 180px;
+            background: #8a7d4a;
+            border-radius: 30px;
+            top: 30%;
+            right: 30%;
+            animation: float 22s infinite ease-in-out reverse;
+        }
+
+        .bg-shape:nth-child(5) {
+            width: 220px;
+            height: 140px;
+            background: #7a8d6a;
+            border-radius: 50%;
+            top: 45%;
+            left: 50%;
+            animation: float 17s infinite ease-in-out;
+        }
+
+        .bg-shape:nth-child(6) {
+            width: 160px;
+            height: 160px;
+            background: #8a7d6a;
+            clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+            bottom: 35%;
+            right: 20%;
+            animation: float 19s infinite ease-in-out reverse;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translate(0, 0) scale(1);
+            }
+            33% {
+                transform: translate(30px, -30px) scale(1.1);
+            }
+            66% {
+                transform: translate(-20px, 20px) scale(0.9);
+            }
+        }
+
+        .container, header, .cards-grid, footer {
+            position: relative;
+            z-index: 1;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1.2rem;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+
+    <div class="container">
+        <header>
+            <h1>IB revision stuff</h1>
+            <p>hello</p>
+        </header>
+
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon">π</div>
+                <h2>Mathematics AA HL</h2>
+                <a href="/math" class="card-btn">Go to Math</a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon icon-physics">🍎</div>
+                <h2>Physics HL</h2>
+                <a href="/physics" class="card-btn">Go to Physics</a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">💰</div>
+                <h2>Economics SL</h2>
+                <a href="/economics" class="card-btn">Go to Economics</a>
+            </div>
+        </div>
+
+        <footer>
+            <p>by: Xiao He</p>
+            <p style="margin-top: 15px;">
+                <a href="/documentation" style="color: white; text-decoration: none; opacity: 0.8; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">📚 Help & Documentation</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

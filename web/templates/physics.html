@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IB Physics HL stuff</title>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -309,20 +310,118 @@
         .history-btn {
             background: #6b7280;
             color: white;
-            padding: 12px 20px;
-            font-size: 16px;
+            padding: 0;
+            font-size: 14px;
             font-weight: 600;
-            border: 2px solid #6b7280;
-            border-radius: 8px;
+            border: 2px solid #d1d5db;
+            border-radius: 6px;
             cursor: pointer;
             transition: all 0.3s;
+            width: 40px;
+            height: 40px;
+            min-width: 40px;
+            min-height: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
         }
 
         .history-btn:hover {
             background: #4b5563;
-            border-color: #4b5563;
+            border-color: #d1d5db;
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(107, 114, 128, 0.4);
+        }
+
+        .history-btn.active {
+            background: #10b981;
+            border-color: #d1d5db;
+        }
+
+        .history-btn.active:hover {
+            background: #059669;
+            border-color: #d1d5db;
+        }
+
+        /* Dark mode styles */
+        body.dark-mode .header,
+        body.dark-mode .question-container,
+        body.dark-mode #historyPanel,
+        body.dark-mode #savedPanel,
+        body.dark-mode .timer-sidebar {
+            background: #1f2937;
+            color: #e5e7eb;
+        }
+
+        body.dark-mode .header h1,
+        body.dark-mode .question-container h3,
+        body.dark-mode .timer-label,
+        body.dark-mode .note-header,
+        body.dark-mode .note-content {
+            color: #e5e7eb;
+        }
+
+        body.dark-mode .question-meta span {
+            background: #4b5563;
+            color: #e5e7eb;
+        }
+
+        body.dark-mode .image-section {
+            background: #374151;
+        }
+
+        body.dark-mode .note-item,
+        body.dark-mode .chat-message {
+            background: #374151;
+        }
+
+        body.dark-mode .modal-content {
+            background: #1f2937;
+            color: #e5e7eb;
+        }
+
+        body.dark-mode #chatMessages {
+            border-color: #4b5563;
+            background: #111827;
+        }
+
+        body.dark-mode .note-input-area textarea,
+        body.dark-mode .chat-input-area input {
+            background: #374151;
+            border-color: #4b5563;
+            color: #e5e7eb;
+        }
+
+        body.dark-mode .history-btn {
+            border-color: #000000;
+        }
+
+        body.dark-mode .history-btn:hover {
+            border-color: #000000;
+        }
+
+        body.dark-mode .history-btn.active {
+            border-color: #000000;
+        }
+
+        body.dark-mode .history-btn.active:hover {
+            border-color: #000000;
+        }
+
+        body.dark-mode .user-info span {
+            color: #ef4444;
+        }
+
+        body.dark-mode select {
+            background: #374151;
+            color: #d1d5db;
+            border-color: #4b5563;
+        }
+
+        body.dark-mode select option {
+            background: #374151;
+            color: #d1d5db;
         }
 
         .dropdown-content {
@@ -582,6 +681,225 @@
             display: none;
         }
 
+        .timer-sidebar {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            z-index: 100;
+            min-width: 180px;
+        }
+
+        .timer-section {
+            margin-bottom: 15px;
+        }
+
+        .timer-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .timer-label {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        .timer-value {
+            font-size: 20px;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .notes-section {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
+        }
+
+        .notes-section h3 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .note-item {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .note-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .note-author {
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .note-content {
+            color: #333;
+            line-height: 1.5;
+            white-space: pre-wrap;
+        }
+
+        .note-input-area {
+            margin-top: 20px;
+        }
+
+        .note-input-area textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .note-input-area textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .note-input-area button {
+            margin-top: 10px;
+        }
+
+        .btn-more {
+            background: #8b5cf6;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 2px solid #8b5cf6;
+            border-radius: 8px;
+            cursor: pointer;
+            color: white;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-more:hover {
+            background: #7c3aed;
+            border-color: #7c3aed;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(139, 92, 246, 0.4);
+        }
+
+        #chatModal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            align-items: center;
+            justify-content: center;
+        }
+
+        #chatModal.show {
+            display: flex;
+        }
+
+        #chatModal .modal-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #chatModal h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        #chatMessages {
+            flex: 1;
+            overflow-y: auto;
+            border: 2px solid #eee;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            min-height: 300px;
+            max-height: 400px;
+        }
+
+        .chat-message {
+            margin-bottom: 12px;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 6px;
+        }
+
+        .chat-message-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+
+        .chat-username {
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .chat-timestamp {
+            color: #999;
+        }
+
+        .chat-text {
+            color: #333;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .chat-input-area {
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input-area input {
+            flex: 1;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .chat-input-area input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .chat-input-area button {
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .chat-input-area button:hover {
+            background: #5568d3;
+        }
+
         .loading {
             text-align: center;
             padding: 40px;
@@ -637,6 +955,18 @@
     <div class="bg-shape"></div>
     <div class="bg-shape"></div>
 
+    <!-- Timer Sidebar -->
+    <div class="timer-sidebar" id="timerSidebar" style="display: none;">
+        <div class="timer-section">
+            <div class="timer-label">Current Question</div>
+            <div class="timer-value" id="currentQuestionTimer">00:00</div>
+        </div>
+        <div class="timer-section">
+            <div class="timer-label">Today's Total</div>
+            <div class="timer-value" id="dailyTimer">00:00</div>
+        </div>
+    </div>
+
     <!-- Login/Register Modal -->
     <div id="authModal" class="modal">
         <div class="modal-content">
@@ -672,7 +1002,8 @@
                     <div class="author">by: Xiao He</div>
                 </div>
                 <div id="authSection" style="display: flex; gap: 10px; align-items: center;">
-                    <a href="/" class="btn-physics">Math</a>
+                    <a href="/" class="btn-physics">Home</a>
+                    <a href="/math" class="btn-physics">Math</a>
                     <a href="/economics" class="btn-physics">Economics</a>
                     <button onclick="showLoginModal()" class="btn-auth">Login</button>
                 </div>
@@ -689,8 +1020,17 @@
                 </select>
                 <button onclick="loadRandomQuestion()">Random Question</button>
                 <button id="gabrielModeBtn" onclick="toggleGabrielMode()" class="btn-gabriel">Gabriel Mode: OFF</button>
+                <button class="btn-more" onclick="openChatModal()">Chat</button>
+                <button id="timerToggleBtn" class="history-btn" onclick="toggleTimerSidebar()">s</button>
                 <div class="history-dropdown">
-                    <button class="history-btn">H</button>
+                    <button class="history-btn">m</button>
+                    <div class="dropdown-content">
+                        <button onclick="setTheme('light')">☀️ Light Mode</button>
+                        <button onclick="setTheme('dark')">🌙 Dark Mode</button>
+                    </div>
+                </div>
+                <div class="history-dropdown">
+                    <button class="history-btn">h</button>
                     <div class="dropdown-content">
                         <button onclick="showHistoryPanel()">📜 View History</button>
                         <button onclick="showSavedPanel()">⭐ Saved Questions</button>
@@ -698,6 +1038,19 @@
                         <button onclick="clearAllData()" class="danger">🗑️ Clear Data</button>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Global Chat Modal -->
+        <div id="chatModal">
+            <div class="modal-content">
+                <h2>Global Chat</h2>
+                <div id="chatMessages"></div>
+                <div class="chat-input-area">
+                    <input type="text" id="chatInput" placeholder="Type a message..." maxlength="500">
+                    <button onclick="sendChatMessage()">Send</button>
+                </div>
+                <button class="btn-secondary" onclick="closeChatModal()" style="margin-top: 10px;">Close</button>
             </div>
         </div>
 
@@ -738,6 +1091,19 @@
                 <button class="btn-show-answer" onclick="showAnswer()">Show Answer</button>
                 <button class="btn-chatgpt" onclick="askChatGPT()">Ask ChatGPT</button>
                 <button id="saveBtn" class="btn-save" onclick="toggleSaveQuestion()" style="display: none;">☆</button>
+            </div>
+
+            <!-- Community Notes Section -->
+            <div class="notes-section" id="notesSection" style="display: none;">
+                <h3>Community Notes</h3>
+                <div id="questionNotes"></div>
+                <div class="note-input-area" id="noteInputArea" style="display: none;">
+                    <textarea id="newNoteText" placeholder="Share your thoughts, solutions, or tips for this question..."></textarea>
+                    <button onclick="postNote()">Post Note</button>
+                </div>
+                <div id="noteLoginPrompt" style="text-align: center; padding: 20px; color: #666; display: none;">
+                    Please log in to view and add community notes
+                </div>
             </div>
         </div>
         </div>
@@ -1293,7 +1659,8 @@
             const authSection = document.getElementById('authSection');
             if (currentUser) {
                 authSection.innerHTML = `
-                    <a href="/" class="btn-physics">Math</a>
+                    <a href="/" class="btn-physics">Home</a>
+                    <a href="/math" class="btn-physics">Math</a>
                     <a href="/economics" class="btn-physics">Economics</a>
                     <div class="user-info">
                         <span>👤 ${currentUser}</span>
@@ -1301,7 +1668,7 @@
                     </div>
                 `;
             } else {
-                authSection.innerHTML = '<a href="/" class="btn-physics">Go to Math</a><button onclick="showLoginModal()" class="btn-auth">Login</button>';
+                authSection.innerHTML = '<a href="/" class="btn-physics">Home</a><a href="/math" class="btn-physics">Math</a><a href="/economics" class="btn-physics">Economics</a><button onclick="showLoginModal()" class="btn-auth">Login</button>';
             }
         }
 
@@ -1544,6 +1911,381 @@
             }
 
             document.getElementById('loading').classList.add('hidden');
+        }
+
+        // ============ TIMER SYSTEM ============
+        let currentQuestionTimerInterval = null;
+        let currentQuestionSeconds = 0;
+        let dailySeconds = 0;
+        let currentQuestionId = null;
+        let currentSubject = 'physics';
+        let lastSaveTime = Date.now();
+
+        function formatTime(seconds) {
+            const mins = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+        }
+
+        function startQuestionTimer(questionId) {
+            // Stop previous timer if running
+            stopQuestionTimer();
+
+            currentQuestionId = questionId;
+            currentQuestionSeconds = 0;
+            lastSaveTime = Date.now();
+
+            // Load existing time for this question
+            if (currentUser) {
+                fetch(`/api/time/question/${questionId}?subject=${currentSubject}`)
+                    .then(r => r.json())
+                    .then(data => {
+                        // Don't show the accumulated time, just start from 0 for current session
+                    })
+                    .catch(err => console.error('Error loading question time:', err));
+            }
+
+            // Start counting
+            currentQuestionTimerInterval = setInterval(() => {
+                currentQuestionSeconds++;
+                dailySeconds++;
+                document.getElementById('currentQuestionTimer').textContent = formatTime(currentQuestionSeconds);
+                document.getElementById('dailyTimer').textContent = formatTime(dailySeconds);
+
+                // Auto-save every 30 seconds
+                if (currentQuestionSeconds % 30 === 0) {
+                    saveTimers();
+                }
+            }, 1000);
+        }
+
+        function stopQuestionTimer() {
+            if (currentQuestionTimerInterval) {
+                clearInterval(currentQuestionTimerInterval);
+                currentQuestionTimerInterval = null;
+
+                // Save final time
+                saveTimers();
+
+                // Reset display
+                currentQuestionSeconds = 0;
+                document.getElementById('currentQuestionTimer').textContent = '00:00';
+            }
+        }
+
+        async function saveTimers() {
+            if (!currentUser || !currentQuestionId) return;
+
+            const secondsToSave = currentQuestionSeconds;
+            if (secondsToSave === 0) return;
+
+            try {
+                // Save question time
+                await fetch('/api/time/update-question', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        question_id: currentQuestionId,
+                        subject: currentSubject,
+                        seconds: secondsToSave
+                    })
+                });
+
+                // Save daily time
+                await fetch('/api/time/update-daily', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        seconds: secondsToSave
+                    })
+                });
+
+                // Reset counter after save
+                currentQuestionSeconds = 0;
+            } catch (error) {
+                console.error('Error saving timers:', error);
+            }
+        }
+
+        async function loadDailyTime() {
+            if (!currentUser) return;
+
+            try {
+                const response = await fetch('/api/time/daily');
+                const data = await response.json();
+                dailySeconds = data.time || 0;
+                document.getElementById('dailyTimer').textContent = formatTime(dailySeconds);
+            } catch (error) {
+                console.error('Error loading daily time:', error);
+            }
+        }
+
+        // Save timers when page unloads
+        window.addEventListener('beforeunload', () => {
+            if (currentQuestionSeconds > 0) {
+                saveTimers();
+            }
+        });
+
+        // Toggle timer sidebar visibility
+        function toggleTimerSidebar() {
+            const sidebar = document.getElementById('timerSidebar');
+            const toggleBtn = document.getElementById('timerToggleBtn');
+            if (sidebar.style.display === 'none' || sidebar.style.display === '') {
+                if (currentUser) {
+                    sidebar.style.display = 'block';
+                    toggleBtn.classList.add('active');
+                } else {
+                    alert('Please log in to use the timer');
+                }
+            } else {
+                sidebar.style.display = 'none';
+                toggleBtn.classList.remove('active');
+            }
+        }
+
+        // ============ COMMUNITY NOTES SYSTEM ============
+
+        async function loadNotes(questionId, subject) {
+            if (!currentUser) {
+                document.getElementById('notesSection').style.display = 'none';
+                return;
+            }
+
+            document.getElementById('notesSection').style.display = 'block';
+            document.getElementById('noteInputArea').style.display = 'block';
+            document.getElementById('noteLoginPrompt').style.display = 'none';
+
+            try {
+                const response = await fetch(`/api/notes/${subject}/${questionId}`);
+                const data = await response.json();
+                const notesDiv = document.getElementById('questionNotes');
+
+                if (data.notes && data.notes.length > 0) {
+                    notesDiv.innerHTML = data.notes.map(note => `
+                        <div class="note-item">
+                            <div class="note-header">
+                                <span class="note-author">${note.username}</span>
+                                <span class="note-date">${new Date(note.created_at).toLocaleString()}</span>
+                            </div>
+                            <div class="note-content">${escapeHtml(note.note)}</div>
+                        </div>
+                    `).join('');
+                } else {
+                    notesDiv.innerHTML = '<p style="text-align: center; color: #666; padding: 20px;">No notes yet. Be the first to add one!</p>';
+                }
+            } catch (error) {
+                console.error('Error loading notes:', error);
+                document.getElementById('questionNotes').innerHTML = '<p style="text-align: center; color: #ef4444;">Error loading notes</p>';
+            }
+        }
+
+        async function postNote() {
+            if (!currentUser) {
+                alert('Please log in to post notes');
+                return;
+            }
+
+            const noteText = document.getElementById('newNoteText').value.trim();
+            if (!noteText) {
+                alert('Please enter a note');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/notes/add', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        question_id: currentQuestion.question_id,
+                        subject: currentSubject,
+                        note: noteText
+                    })
+                });
+
+                const data = await response.json();
+                if (data.success) {
+                    document.getElementById('newNoteText').value = '';
+                    loadNotes(currentQuestion.question_id, currentSubject);
+                } else {
+                    alert('Error posting note: ' + data.message);
+                }
+            } catch (error) {
+                console.error('Error posting note:', error);
+                alert('Error posting note');
+            }
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // ============ GLOBAL CHAT SYSTEM ============
+
+        let socket = null;
+
+        function initializeSocket() {
+            if (!socket && currentUser) {
+                socket = io();
+
+                socket.on('new_message', (data) => {
+                    addChatMessage(data);
+                });
+
+                socket.on('error', (data) => {
+                    console.error('Socket error:', data.message);
+                    alert('Chat error: ' + data.message);
+                });
+            }
+        }
+
+        async function openChatModal() {
+            if (!currentUser) {
+                alert('Please log in to use chat');
+                return;
+            }
+
+            document.getElementById('chatModal').classList.add('show');
+
+            // Initialize socket if not already
+            initializeSocket();
+
+            // Load existing messages
+            try {
+                const response = await fetch('/api/chat/messages');
+                const data = await response.json();
+                const messagesDiv = document.getElementById('chatMessages');
+                messagesDiv.innerHTML = '';
+
+                if (data.messages && data.messages.length > 0) {
+                    data.messages.forEach(msg => addChatMessage(msg));
+                } else {
+                    messagesDiv.innerHTML = '<p style="text-align: center; color: #666;">No messages yet. Start the conversation!</p>';
+                }
+
+                // Scroll to bottom
+                messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            } catch (error) {
+                console.error('Error loading chat messages:', error);
+            }
+        }
+
+        function closeChatModal() {
+            document.getElementById('chatModal').classList.remove('show');
+        }
+
+        function addChatMessage(data) {
+            const messagesDiv = document.getElementById('chatMessages');
+
+            // Remove "no messages" placeholder if it exists
+            const placeholder = messagesDiv.querySelector('p');
+            if (placeholder) {
+                placeholder.remove();
+            }
+
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'chat-message';
+            messageDiv.innerHTML = `
+                <div class="chat-message-header">
+                    <span class="chat-username">${escapeHtml(data.username)}</span>
+                    <span class="chat-timestamp">${new Date(data.created_at).toLocaleString()}</span>
+                </div>
+                <div class="chat-text">${escapeHtml(data.message)}</div>
+            `;
+
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        function sendChatMessage() {
+            if (!currentUser) {
+                alert('Please log in to send messages');
+                return;
+            }
+
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+
+            if (!message) {
+                return;
+            }
+
+            // Send via socket
+            socket.emit('send_message', { message: message });
+            input.value = '';
+        }
+
+        // Enter key to send message
+        document.addEventListener('DOMContentLoaded', () => {
+            const chatInput = document.getElementById('chatInput');
+            if (chatInput) {
+                chatInput.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') {
+                        sendChatMessage();
+                    }
+                });
+            }
+        });
+
+        // Close modal on outside click
+        document.addEventListener('DOMContentLoaded', () => {
+            const chatModal = document.getElementById('chatModal');
+            if (chatModal) {
+                chatModal.addEventListener('click', (e) => {
+                    if (e.target === chatModal) {
+                        closeChatModal();
+                    }
+                });
+            }
+        });
+
+        // Update displayQuestion to load notes and start timer
+        const originalDisplayQuestion = displayQuestion;
+        displayQuestion = function(question) {
+            originalDisplayQuestion(question);
+            if (currentUser) {
+                document.getElementById('timerSidebar').style.display = 'block';
+                startQuestionTimer(question.question_id);
+                loadNotes(question.question_id, currentSubject);
+            }
+        };
+
+        // Update updateAuthUI to show/hide timer
+        const originalUpdateAuthUI = updateAuthUI;
+        updateAuthUI = function() {
+            originalUpdateAuthUI();
+            const timerToggleBtn = document.getElementById('timerToggleBtn');
+            if (currentUser) {
+                document.getElementById('timerSidebar').style.display = 'block';
+                timerToggleBtn.classList.add('active');
+                loadDailyTime();
+            } else {
+                document.getElementById('timerSidebar').style.display = 'none';
+                timerToggleBtn.classList.remove('active');
+                stopQuestionTimer();
+            }
+        };
+
+        // ============ THEME TOGGLE ============
+
+        function setTheme(theme) {
+            if (theme === 'dark') {
+                document.body.classList.add('dark-mode');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                document.body.classList.remove('dark-mode');
+                localStorage.setItem('theme', 'light');
+            }
+        }
+
+        // Load saved theme on page load (default to dark)
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light') {
+            document.body.classList.remove('dark-mode');
+        } else {
+            document.body.classList.add('dark-mode');
         }
 
         // Initialize

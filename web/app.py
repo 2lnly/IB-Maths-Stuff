@@ -6,16 +6,23 @@ from pathlib import Path
 from collections import defaultdict
 from flask import Flask, jsonify, send_file, render_template, request, session
 from flask_cors import CORS
+from flask_socketio import SocketIO, emit
 from auth import create_user, check_user
 from user_data import (
     track_question_view, save_question, unsave_question,
     is_question_saved, get_user_history, get_saved_questions,
     clear_all_user_data
 )
+from time_tracking import (
+    update_question_time, get_question_time,
+    update_daily_time, get_daily_time
+)
+from database import get_db_connection, execute_query, USE_POSTGRES
 
 app = Flask(__name__)
 app.secret_key = 'your-secret-key-change-this-in-production-12345'
 CORS(app)
+socketio = SocketIO(app, cors_allowed_origins="*")
 
 # Configure session to last longer and be more persistent
 from datetime import timedelta
@@ -116,9 +123,26 @@ for q_id, data in ECON_QUESTIONS.items():
 
 
 @app.route('/')
-def index():
-    """Serve the main page."""
+def landing():
+    """Serve the landing page."""
+    return render_template('landing.html')
+
+
+@app.route('/math')
+def math_page():
+    """Serve the math page."""
     return render_template('index.html')
+
+
+@app.route('/documentation')
+def documentation():
+    """Serve the documentation page."""
+    doc_file = Path(__file__).parent / 'documentation.txt'
+    content = ''
+    if doc_file.exists():
+        with open(doc_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+    return render_template('documentation.html', content=content)
 
 
 @app.route('/api/register', methods=['POST'])
@@ -282,6 +306,225 @@ def clear_all():
 
     success, message = clear_all_user_data(username, subject)
     return jsonify({'success': success, 'message': message})
+
+
+# ============ TIME TRACKING ROUTES ============
+
+@app.route('/api/time/update-question', methods=['POST'])
+def update_question_time_route():
+    """Update time spent on a question."""
+    username = session.get('username')
+    if not username:
+        return jsonify({'success': False, 'message': 'Not logged in'}), 401
+
+    data = request.json
+    question_id = data.get('question_id')
+    subject = data.get('subject')
+    seconds = data.get('seconds', 0)
+
+    if not question_id or not subject:
+        return jsonify({'success': False, 'message': 'Missing question_id or subject'}), 400
+
+    success, message = update_question_time(username, question_id, subject, seconds)
+    return jsonify({'success': success, 'message': message})
+
+
+@app.route('/api/time/question/<question_id>')
+def get_question_time_route(question_id):
+    """Get time spent on a question."""
+    username = session.get('username')
+    if not username:
+        return jsonify({'time': 0})
+
+    subject = request.args.get('subject')
+    if not subject:
+        return jsonify({'time': 0})
+
+    time = get_question_time(username, question_id, subject)
+    return jsonify({'time': time})
+
+
+@app.route('/api/time/update-daily', methods=['POST'])
+def update_daily_time_route():
+    """Update daily time spent."""
+    username = session.get('username')
+    if not username:
+        return jsonify({'success': False, 'message': 'Not logged in'}), 401
+
+    data = request.json
+    seconds = data.get('seconds', 0)
+
+    success, message = update_daily_time(username, seconds)
+    return jsonify({'success': success, 'message': message})
+
+
+@app.route('/api/time/daily')
+def get_daily_time_route():
+    """Get today's total time."""
+    username = session.get('username')
+    if not username:
+        return jsonify({'time': 0})
+
+    time = get_daily_time(username)
+    return jsonify({'time': time})
+
+
+# ============ QUESTION NOTES ROUTES ============
+
+@app.route('/api/notes/<subject>/<question_id>')
+def get_notes(subject, question_id):
+    """Get all notes for a question."""
+    try:
+        with get_db_connection() as conn:
+            cursor = conn.cursor()
+            execute_query(cursor, '''
+                SELECT username, note, created_at
+                FROM question_notes
+                WHERE question_id = %s AND subject = %s
+                ORDER BY created_at DESC
+            ''', (question_id, subject))
+
+            notes = []
+            for row in cursor.fetchall():
+                notes.append({
+                    'username': row[0],
+                    'note': row[1],
+                    'created_at': str(row[2])
+                })
+
+            return jsonify({'notes': notes})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/notes/add', methods=['POST'])
+def add_note():
+    """Add a note to a question."""
+    username = session.get('username')
+    if not username:
+        return jsonify({'success': False, 'message': 'Not logged in'}), 401
+
+    data = request.json
+    question_id = data.get('question_id')
+    subject = data.get('subject')
+    note = data.get('note', '').strip()
+
+    if not question_id or not subject or not note:
+        return jsonify({'success': False, 'message': 'Missing required fields'}), 400
+
+    try:
+        with get_db_connection() as conn:
+            cursor = conn.cursor()
+            # Get user_id
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            result = cursor.fetchone()
+            if not result:
+                return jsonify({'success': False, 'message': 'User not found'}), 404
+
+            user_id = result[0]
+
+            # Insert note
+            execute_query(cursor, '''
+                INSERT INTO question_notes (user_id, username, question_id, subject, note)
+                VALUES (%s, %s, %s, %s, %s)
+            ''', (user_id, username, question_id, subject, note))
+
+            conn.commit()
+            return jsonify({'success': True, 'message': 'Note added'})
+    except Exception as e:
+        return jsonify({'success': False, 'message': str(e)}), 500
+
+
+# ============ GLOBAL CHAT ROUTES ============
+
+@app.route('/api/chat/messages')
+def get_chat_messages():
+    """Get last 100 chat messages from the last 30 days."""
+    try:
+        with get_db_connection() as conn:
+            cursor = conn.cursor()
+            execute_query(cursor, '''
+                SELECT username, message, created_at
+                FROM global_chat
+                WHERE created_at >= NOW() - INTERVAL '30 days'
+                ORDER BY created_at DESC
+                LIMIT 100
+            ''' if USE_POSTGRES else '''
+                SELECT username, message, created_at
+                FROM global_chat
+                WHERE created_at >= datetime('now', '-30 days')
+                ORDER BY created_at DESC
+                LIMIT 100
+            ''', None)
+
+            messages = []
+            for row in cursor.fetchall():
+                messages.append({
+                    'username': row[0],
+                    'message': row[1],
+                    'created_at': str(row[2])
+                })
+
+            # Reverse to show oldest first
+            messages.reverse()
+            return jsonify({'messages': messages})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@socketio.on('send_message')
+def handle_send_message(data):
+    """Handle new chat message via WebSocket."""
+    username = session.get('username')
+    if not username:
+        emit('error', {'message': 'Not logged in'})
+        return
+
+    message = data.get('message', '').strip()
+    if not message:
+        emit('error', {'message': 'Message cannot be empty'})
+        return
+
+    try:
+        with get_db_connection() as conn:
+            cursor = conn.cursor()
+            # Get user_id
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            result = cursor.fetchone()
+            if not result:
+                emit('error', {'message': 'User not found'})
+                return
+
+            user_id = result[0]
+
+            # Insert message
+            execute_query(cursor, '''
+                INSERT INTO global_chat (user_id, username, message)
+                VALUES (%s, %s, %s)
+                RETURNING created_at
+            ''' if USE_POSTGRES else '''
+                INSERT INTO global_chat (user_id, username, message)
+                VALUES (%s, %s, %s)
+            ''', (user_id, username, message))
+
+            if USE_POSTGRES:
+                created_at = cursor.fetchone()[0]
+            else:
+                # For SQLite, get the timestamp
+                execute_query(cursor, 'SELECT created_at FROM global_chat WHERE id = last_insert_rowid()', None)
+                created_at = cursor.fetchone()[0]
+
+            conn.commit()
+
+            # Broadcast to all connected clients
+            socketio.emit('new_message', {
+                'username': username,
+                'message': message,
+                'created_at': str(created_at)
+            }, broadcast=True)
+
+    except Exception as e:
+        emit('error', {'message': str(e)})
 
 
 @app.route('/api/topics')
@@ -635,7 +878,8 @@ if __name__ == '__main__':
     is_production = 'PORT' in os.environ
     port = int(os.environ.get('PORT', 5000))
 
-    app.run(
+    socketio.run(
+        app,
         host='0.0.0.0' if is_production else '127.0.0.1',
         port=port,
         debug=not is_production
