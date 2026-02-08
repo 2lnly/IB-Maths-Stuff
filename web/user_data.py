@@ -1,14 +1,14 @@
 """User data management - history and saved questions."""
 
 from datetime import datetime
-from database import get_db_connection
+from database import get_db_connection, execute_query
 
 def get_user_id(username):
     """Get user ID from username."""
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute('SELECT id FROM users WHERE username = %s', (username,))
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
             result = cursor.fetchone()
             return result[0] if result else None
     except Exception:
@@ -24,7 +24,7 @@ def track_question_view(username, question_id, subject):
         with get_db_connection() as conn:
             cursor = conn.cursor()
             # Use INSERT ... ON CONFLICT for both databases
-            cursor.execute('''
+            execute_query(cursor, '''
                 INSERT INTO question_history (user_id, question_id, subject, viewed_at)
                 VALUES (%s, %s, %s, %s)
                 ON CONFLICT(user_id, question_id, subject)
@@ -43,7 +43,7 @@ def save_question(username, question_id, subject, notes=None):
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute('''
+            execute_query(cursor, '''
                 INSERT INTO saved_questions (user_id, question_id, subject, notes)
                 VALUES (%s, %s, %s, %s)
             ''', (user_id, question_id, subject, notes))
@@ -63,7 +63,7 @@ def unsave_question(username, question_id, subject):
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute('''
+            execute_query(cursor, '''
                 DELETE FROM saved_questions
                 WHERE user_id = %s AND question_id = %s AND subject = %s
             ''', (user_id, question_id, subject))
@@ -80,7 +80,7 @@ def is_question_saved(username, question_id, subject):
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute('''
+            execute_query(cursor, '''
                 SELECT id FROM saved_questions
                 WHERE user_id = %s AND question_id = %s AND subject = %s
             ''', (user_id, question_id, subject))
@@ -98,7 +98,7 @@ def get_user_history(username, subject=None, limit=50):
         with get_db_connection() as conn:
             cursor = conn.cursor()
             if subject:
-                cursor.execute('''
+                execute_query(cursor, '''
                     SELECT question_id, subject, viewed_at
                     FROM question_history
                     WHERE user_id = %s AND subject = %s
@@ -106,7 +106,7 @@ def get_user_history(username, subject=None, limit=50):
                     LIMIT %s
                 ''', (user_id, subject, limit))
             else:
-                cursor.execute('''
+                execute_query(cursor, '''
                     SELECT question_id, subject, viewed_at
                     FROM question_history
                     WHERE user_id = %s
@@ -136,14 +136,14 @@ def get_saved_questions(username, subject=None):
         with get_db_connection() as conn:
             cursor = conn.cursor()
             if subject:
-                cursor.execute('''
+                execute_query(cursor, '''
                     SELECT question_id, subject, notes, saved_at
                     FROM saved_questions
                     WHERE user_id = %s AND subject = %s
                     ORDER BY saved_at DESC
                 ''', (user_id, subject))
             else:
-                cursor.execute('''
+                execute_query(cursor, '''
                     SELECT question_id, subject, notes, saved_at
                     FROM saved_questions
                     WHERE user_id = %s
@@ -174,12 +174,12 @@ def clear_all_user_data(username, subject=None):
             cursor = conn.cursor()
             if subject:
                 # Clear only for specific subject
-                cursor.execute('DELETE FROM question_history WHERE user_id = %s AND subject = %s', (user_id, subject))
-                cursor.execute('DELETE FROM saved_questions WHERE user_id = %s AND subject = %s', (user_id, subject))
+                execute_query(cursor, 'DELETE FROM question_history WHERE user_id = %s AND subject = %s', (user_id, subject))
+                execute_query(cursor, 'DELETE FROM saved_questions WHERE user_id = %s AND subject = %s', (user_id, subject))
             else:
                 # Clear all subjects
-                cursor.execute('DELETE FROM question_history WHERE user_id = %s', (user_id,))
-                cursor.execute('DELETE FROM saved_questions WHERE user_id = %s', (user_id,))
+                execute_query(cursor, 'DELETE FROM question_history WHERE user_id = %s', (user_id,))
+                execute_query(cursor, 'DELETE FROM saved_questions WHERE user_id = %s', (user_id,))
             return True, "All data cleared"
     except Exception as e:
         return False, str(e)

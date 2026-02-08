@@ -11,7 +11,7 @@ USE_POSTGRES = DATABASE_URL is not None
 
 if USE_POSTGRES:
     import psycopg2
-    from psycopg2.extras import DictCursor
+    from psycopg2.extras import RealDictCursor
     # Fix Render's postgres:// URL to postgresql://
     if DATABASE_URL.startswith('postgres://'):
         DATABASE_URL = DATABASE_URL.replace('postgres://', 'postgresql://', 1)
@@ -19,12 +19,19 @@ if USE_POSTGRES:
 # SQLite path for local development
 DB_PATH = Path(__file__).parent / 'users.db'
 
+def convert_query(query):
+    """Convert PostgreSQL %s placeholders to SQLite ? placeholders if needed."""
+    if USE_POSTGRES:
+        return query
+    else:
+        # Convert %s to ? for SQLite
+        return query.replace('%s', '?')
+
 @contextmanager
 def get_db_connection():
     """Get a database connection (PostgreSQL in production, SQLite locally)."""
     if USE_POSTGRES:
         conn = psycopg2.connect(DATABASE_URL)
-        conn.cursor_factory = DictCursor
         try:
             yield conn
             conn.commit()
@@ -45,57 +52,91 @@ def get_db_connection():
         finally:
             conn.close()
 
+def execute_query(cursor, query, params=None):
+    """Execute a query with automatic placeholder conversion."""
+    converted_query = convert_query(query)
+    if params:
+        cursor.execute(converted_query, params)
+    else:
+        cursor.execute(converted_query)
+
 def init_database():
     """Initialize database tables for both SQLite and PostgreSQL."""
     with get_db_connection() as conn:
         cursor = conn.cursor()
 
-        # Users table
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS users (
-                id SERIAL PRIMARY KEY,
-                username TEXT UNIQUE NOT NULL,
-                password TEXT NOT NULL DEFAULT '1234',
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-            )
-        ''')
+        if USE_POSTGRES:
+            # PostgreSQL syntax
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS users (
+                    id SERIAL PRIMARY KEY,
+                    username TEXT UNIQUE NOT NULL,
+                    password TEXT NOT NULL DEFAULT '1234',
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+            ''')
 
-        # Question history table
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS question_history (
-                id SERIAL PRIMARY KEY,
-                user_id INTEGER NOT NULL,
-                question_id TEXT NOT NULL,
-                subject TEXT NOT NULL,
-                viewed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
-                UNIQUE(user_id, question_id, subject)
-            )
-        ''')
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS question_history (
+                    id SERIAL PRIMARY KEY,
+                    user_id INTEGER NOT NULL,
+                    question_id TEXT NOT NULL,
+                    subject TEXT NOT NULL,
+                    viewed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+                    UNIQUE(user_id, question_id, subject)
+                )
+            ''')
 
-        # Saved questions table
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS saved_questions (
-                id SERIAL PRIMARY KEY,
-                user_id INTEGER NOT NULL,
-                question_id TEXT NOT NULL,
-                subject TEXT NOT NULL,
-                notes TEXT,
-                saved_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
-                UNIQUE(user_id, question_id, subject)
-            )
-        ''')
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS saved_questions (
+                    id SERIAL PRIMARY KEY,
+                    user_id INTEGER NOT NULL,
+                    question_id TEXT NOT NULL,
+                    subject TEXT NOT NULL,
+                    notes TEXT,
+                    saved_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+                    UNIQUE(user_id, question_id, subject)
+                )
+            ''')
+        else:
+            # SQLite syntax
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS users (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    username TEXT UNIQUE NOT NULL,
+                    password TEXT NOT NULL DEFAULT '1234',
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+            ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS question_history (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    user_id INTEGER NOT NULL,
+                    question_id TEXT NOT NULL,
+                    subject TEXT NOT NULL,
+                    viewed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+                    UNIQUE(user_id, question_id, subject)
+                )
+            ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS saved_questions (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    user_id INTEGER NOT NULL,
+                    question_id TEXT NOT NULL,
+                    subject TEXT NOT NULL,
+                    notes TEXT,
+                    saved_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+                    UNIQUE(user_id, question_id, subject)
+                )
+            ''')
 
         conn.commit()
-
-def get_user_id(username):
-    """Get user ID from username."""
-    with get_db_connection() as conn:
-        cursor = conn.cursor()
-        cursor.execute('SELECT id FROM users WHERE username = ?', (username,))
-        result = cursor.fetchone()
-        return result[0] if result else None
 
 # Initialize database on import
 init_database()

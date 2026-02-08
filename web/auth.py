@@ -1,6 +1,6 @@
 """Simple username-based authentication system."""
 
-from database import get_db_connection
+from database import get_db_connection, execute_query
 
 def create_user(username, password):
     """Create a new user. Returns (success, message)."""
@@ -26,7 +26,7 @@ def create_user(username, password):
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute('INSERT INTO users (username, password) VALUES (%s, %s)', (username, password))
+            execute_query(cursor, 'INSERT INTO users (username, password) VALUES (%s, %s)', (username, password))
             return True, "Account created successfully"
     except Exception as e:
         error_msg = str(e).lower()
@@ -44,7 +44,7 @@ def check_user(username, password):
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute('SELECT id FROM users WHERE username = %s AND password = %s', (username, password))
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s AND password = %s', (username, password))
             result = cursor.fetchone()
             return result is not None
     except Exception:
