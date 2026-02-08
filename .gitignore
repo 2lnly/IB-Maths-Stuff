@@ -28,9 +28,11 @@ Thumbs.db
 # Logs
 *.log
 
-# User data
+# User data and databases
 web/users.json
 web/user_data.json
+web/users.db
+*.db
 
 # Session files
 flask_session/

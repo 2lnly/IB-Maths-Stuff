@@ -1,32 +1,6 @@
 """Simple username-based authentication system."""
 
-import sqlite3
-import os
-from pathlib import Path
-
-# Use persistent storage on Render, fallback to local for development
-DB_PATH = Path(os.environ.get('DB_PATH', '/data')) / 'users.db'
-if not DB_PATH.parent.exists():
-    DB_PATH = Path(__file__).parent / 'users.db'
-
-def init_db():
-    """Initialize the database."""
-    # Ensure the directory exists
-    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(DB_PATH, timeout=10)
-    try:
-        cursor = conn.cursor()
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS users (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                username TEXT UNIQUE NOT NULL,
-                password TEXT NOT NULL DEFAULT '1234',
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-            )
-        ''')
-        conn.commit()
-    finally:
-        conn.close()
+from database import get_db_connection
 
 def create_user(username, password):
     """Create a new user. Returns (success, message)."""
@@ -49,20 +23,16 @@ def create_user(username, password):
     if password not in ['1234', '4321']:
         return False, "Invalid password"
 
-    conn = None
     try:
-        conn = sqlite3.connect(DB_PATH, timeout=10)
-        cursor = conn.cursor()
-        cursor.execute('INSERT INTO users (username, password) VALUES (?, ?)', (username, password))
-        conn.commit()
-        return True, "Account created successfully"
-    except sqlite3.IntegrityError:
-        return False, "Username already taken"
+        with get_db_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute('INSERT INTO users (username, password) VALUES (%s, %s)', (username, password))
+            return True, "Account created successfully"
     except Exception as e:
+        error_msg = str(e).lower()
+        if 'unique' in error_msg or 'duplicate' in error_msg:
+            return False, "Username already taken"
         return False, f"Error creating account: {str(e)}"
-    finally:
-        if conn:
-            conn.close()
 
 def check_user(username, password):
     """Check if user exists with correct password. Returns True if valid."""
@@ -71,18 +41,11 @@ def check_user(username, password):
 
     username = username.strip().lower()
 
-    conn = None
     try:
-        conn = sqlite3.connect(DB_PATH, timeout=10)
-        cursor = conn.cursor()
-        cursor.execute('SELECT id FROM users WHERE username = ? AND password = ?', (username, password))
-        result = cursor.fetchone()
-        return result is not None
+        with get_db_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute('SELECT id FROM users WHERE username = %s AND password = %s', (username, password))
+            result = cursor.fetchone()
+            return result is not None
     except Exception:
         return False
-    finally:
-        if conn:
-            conn.close()
-
-# Initialize database on import
-init_db()
