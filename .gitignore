@@ -35,5 +35,17 @@ web/user_data.json
 # Session files
 flask_session/
 
+# Validation and relabeling scripts (one-time use)
+validate_incomplete_text.py
+validate_incomplete_text_parallel.py
+relabel_economics_topics.py
+test_validator.py
+verify_implementation.sh
+validation_output.log
+
+# Documentation (implementation details)
+VALIDATION_README.md
+IMPLEMENTATION_SUMMARY.md
+
 #claude
 CLAUDE.md
