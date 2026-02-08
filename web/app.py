@@ -554,7 +554,7 @@ def get_physics_answer_text(paper, question_num):
 @app.route('/economics')
 def economics_index():
     """Serve the economics page."""
-    return render_template('economics_simple.html')
+    return render_template('economics.html')
 
 
 @app.route('/api/economics/info')

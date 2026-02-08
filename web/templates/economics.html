@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IB Economics SL Practice</title>
+    <title>IB Economics SL stuff</title>
     <style>
         * {
             margin: 0;
@@ -30,7 +30,7 @@
         .bg-shape:nth-child(1) {
             width: 300px;
             height: 300px;
-            background: #9d8a4a;
+            background: #7b4a9d;
             border-radius: 50%;
             top: 10%;
             left: 10%;
@@ -40,7 +40,7 @@
         .bg-shape:nth-child(2) {
             width: 200px;
             height: 200px;
-            background: #8f7d3a;
+            background: #6a3a8f;
             border-radius: 20%;
             top: 60%;
             right: 15%;
@@ -53,7 +53,7 @@
             height: 0;
             border-left: 125px solid transparent;
             border-right: 125px solid transparent;
-            border-bottom: 250px solid #a89d5a;
+            border-bottom: 250px solid #8a5a9d;
             background: transparent;
             bottom: 20%;
             left: 20%;
@@ -63,7 +63,7 @@
         .bg-shape:nth-child(4) {
             width: 180px;
             height: 180px;
-            background: #8a7d4a;
+            background: #7a4a8a;
             border-radius: 30px;
             top: 30%;
             right: 30%;
@@ -73,7 +73,7 @@
         .bg-shape:nth-child(5) {
             width: 220px;
             height: 140px;
-            background: #7a8d6a;
+            background: #6a6a8d;
             border-radius: 50%;
             top: 45%;
             left: 50%;
@@ -83,7 +83,7 @@
         .bg-shape:nth-child(6) {
             width: 160px;
             height: 160px;
-            background: #8a7d6a;
+            background: #7a6a8a;
             clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
             bottom: 35%;
             right: 20%;
@@ -158,7 +158,7 @@
         select, button {
             padding: 12px 20px;
             font-size: 16px;
-            border: 2px solid #667eea;
+            border: 2px solid #8b5cf6;
             border-radius: 8px;
             cursor: pointer;
             transition: all 0.3s;
@@ -170,15 +170,15 @@
         }
 
         button {
-            background: #667eea;
+            background: #8b5cf6;
             color: white;
             font-weight: 600;
         }
 
         button:hover {
-            background: #5568d3;
+            background: #7c3aed;
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 5px 15px rgba(139, 92, 246, 0.4);
         }
 
         .question-container {
@@ -218,43 +218,50 @@
             font-size: 14px;
         }
 
-        .images-container {
-            display: flex;
-            flex-direction: row;
-            gap: 20px;
-            align-items: flex-start;
+        .question-content {
+            margin-top: 20px;
         }
 
-        .image-section {
+        .question-part {
+            margin-bottom: 25px;
+            padding: 20px;
             background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .part-label {
+            font-weight: bold;
+            color: #8b5cf6;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .question-text {
+            line-height: 1.8;
+            color: #333;
+            white-space: pre-wrap;
+        }
+
+        .markscheme-section {
+            margin-top: 20px;
+        }
+
+        .markscheme {
+            background: #f0fdf4;
             padding: 20px;
             border-radius: 10px;
-            flex: 1;
-            min-width: 0;
+            border-left: 4px solid #10b981;
         }
 
-        .image-section h3 {
+        .markscheme h3 {
+            color: #10b981;
             margin-bottom: 15px;
-            color: #333;
         }
 
-        .image-section > div {
-            display: flex;
-            gap: 10px;
-            overflow-x: auto;
-            padding: 10px 0;
-        }
-
-        .image-section img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            flex-shrink: 0;
-        }
-
-        .image-section > div:has(img:only-child) img {
-            width: 100%;
+        .markscheme-text {
+            white-space: pre-wrap;
+            line-height: 1.6;
+            color: #374151;
         }
 
         .actions {
@@ -621,25 +628,23 @@
         <div class="header">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
                 <div>
-                    <h1 style="margin: 0;">IB Economics SL Practice</h1>
+                    <h1 style="margin: 0;">IB Economics SL stuff</h1>
                     <div class="author">by: Xiao He</div>
                 </div>
                 <div id="authSection" style="display: flex; gap: 10px; align-items: center;">
-                    <a href="/" class="btn-physics">Go to Math | <a href="/physics" style="color: white; text-decoration: none;">Physics</a></a>
+                    <a href="/" class="btn-physics">Math</a>
+                    <a href="/physics" class="btn-physics">Physics</a>
                     <button onclick="showLoginModal()" class="btn-auth">Login</button>
                 </div>
             </div>
             <div class="controls">
-                <select id="questionTypeSelect">
-                    <option value="">All Question Types</option>
-                    <option value="10_marker">10 Markers</option>
-                    <option value="15_marker">15 Markers</option>
-                    <option value="case_study">Case Studies</option>
+                <select id="paperSelect">
+                    <option value="">All Papers</option>
+                    <option value="Paper 1">Paper 1</option>
+                    <option value="Paper 2">Paper 2</option>
                 </select>
                 <select id="topicSelect">
                     <option value="">All Topics</option>
-                    <option value="Microeconomics">Microeconomics</option>
-                    <option value="Macroeconomics">Macroeconomics</option>
                 </select>
                 <button onclick="loadRandomQuestion()">Random Question</button>
                 <button id="gabrielModeBtn" onclick="toggleGabrielMode()" class="btn-gabriel">Gabriel Mode: OFF</button>
@@ -673,27 +678,25 @@
                 <div class="question-meta">
                     <span id="paperInfo"></span>
                     <span id="topicInfo"></span>
-                    <span id="subtopicInfo"></span>
+                    <span id="yearInfo"></span>
+                    <span id="questionNum"></span>
                 </div>
                 <div class="question-id" style="color: #999; font-size: 14px;" id="questionId"></div>
             </div>
 
-            <div class="images-container">
-                <div class="image-section">
-                    <div id="questionImages"></div>
-                </div>
+            <div class="question-content" id="questionContent"></div>
 
-                <div class="image-section hidden" id="answerSection">
-                    <div id="answerImages"></div>
+            <div class="markscheme-section hidden" id="markschemeSection">
+                <div class="markscheme">
+                    <h3>Markscheme</h3>
+                    <div class="markscheme-text" id="markschemeContent"></div>
                 </div>
             </div>
 
             <div class="actions">
                 <button class="btn-show-answer" onclick="showAnswer()">Show Answer</button>
                 <button class="btn-chatgpt" onclick="askChatGPT()">Ask ChatGPT</button>
-                <button id="saveBtn" class="btn-gabriel" onclick="toggleSaveQuestion()" style="background: #f59e0b; display: none; font-size: 20px; padding: 8px 12px;">
-                    ☆
-                </button>
+                <button id="saveBtn" class="btn-save" onclick="toggleSaveQuestion()" style="display: none;">☆</button>
             </div>
         </div>
         </div>
@@ -709,20 +712,10 @@
 
     <script>
         let currentQuestion = null;
-        let allTopics = null;
         let gabrielMode = false;
         let questionHistory = [];
         let isLoginMode = true;
         let currentUser = null;
-
-        function displayImages(container, imageSrcs) {
-            container.innerHTML = '';
-            imageSrcs.forEach(src => {
-                const img = document.createElement('img');
-                img.src = src;
-                container.appendChild(img);
-            });
-        }
 
         function toggleGabrielMode() {
             gabrielMode = !gabrielMode;
@@ -741,10 +734,23 @@
             }
         }
 
-        // No need to load topics dynamically for economics - they're already in the HTML
+        // Update topic options based on paper selection
+        document.getElementById('paperSelect').addEventListener('change', function() {
+            const paper = this.value;
+            const topicSelect = document.getElementById('topicSelect');
+
+            topicSelect.innerHTML = '<option value="">All Topics</option>';
+
+            if (paper === 'Paper 1') {
+                topicSelect.innerHTML += '<option value="Microeconomics">Microeconomics</option>';
+                topicSelect.innerHTML += '<option value="Macroeconomics">Macroeconomics</option>';
+            } else if (paper === 'Paper 2') {
+                topicSelect.innerHTML += '<option value="Case Study">Case Study</option>';
+            }
+        });
 
         async function loadRandomQuestion() {
-            const questionType = document.getElementById('questionTypeSelect').value;
+            const paper = document.getElementById('paperSelect').value;
             const topic = document.getElementById('topicSelect').value;
 
             // Clear all Gabriel mode questions when loading new question normally
@@ -761,9 +767,9 @@
 
             // Build API URL with filters
             let url = '/api/economics/random';
-            if (questionType || topic) {
+            if (paper || topic) {
                 const params = new URLSearchParams();
-                if (questionType) params.append('type', questionType);
+                if (paper) params.append('paper', paper);
                 if (topic) params.append('topic', topic);
                 url = `/api/economics/question/filter?${params.toString()}`;
             }
@@ -782,14 +788,14 @@
         }
 
         async function loadRandomQuestionGabrielMode() {
-            const questionType = document.getElementById('questionTypeSelect').value;
+            const paper = document.getElementById('paperSelect').value;
             const topic = document.getElementById('topicSelect').value;
 
             // Build API URL with filters
             let url = '/api/economics/random';
-            if (questionType || topic) {
+            if (paper || topic) {
                 const params = new URLSearchParams();
-                if (questionType) params.append('type', questionType);
+                if (paper) params.append('paper', paper);
                 if (topic) params.append('topic', topic);
                 url = `/api/economics/question/filter?${params.toString()}`;
             }
@@ -805,56 +811,59 @@
                 const newContainer = document.createElement('div');
                 newContainer.className = 'question-container';
                 newContainer.style.marginTop = '30px';
-                newContainer.innerHTML = `
+
+                // Build question HTML
+                let questionHTML = `
                     <div class="question-info">
                         <div class="question-meta">
-                            <span>${data.type.replace(/_/g, ' ')}</span>
-                            ${data.topic ? `<span>${data.topic}</span>` : ''}
-                            <span>${data.marks} marks</span>
-                            <span>${data.year} ${data.session}</span>
+                            <span>${data.paper}</span>
+                            <span>${data.topic}</span>
+                            <span>${data.year} ${data.session} ${data.tz}</span>
+                            <span>${data.question_num}</span>
                         </div>
                         <div class="question-id" style="color: #999; font-size: 14px;">${data.question_id}</div>
                     </div>
-                    <div class="images-container">
-                        <div class="image-section">
-                            <div class="question-images-${timestamp}"></div>
-                        </div>
-                        <div class="image-section hidden answer-section-${timestamp}">
-                            <div class="answer-images-${timestamp}"></div>
+                    <div class="question-content-${timestamp}">
+                `;
+
+                if (data.paper === 'Paper 1') {
+                    if (data.part_a) {
+                        questionHTML += `
+                            <div class="question-part">
+                                <div class="part-label">(a) [10 marks]</div>
+                                <div class="question-text">${data.part_a}</div>
+                            </div>
+                        `;
+                    }
+                    if (data.part_b) {
+                        questionHTML += `
+                            <div class="question-part">
+                                <div class="part-label">(b) [15 marks]</div>
+                                <div class="question-text">${data.part_b}</div>
+                            </div>
+                        `;
+                    }
+                } else {
+                    questionHTML += `<div class="question-text">${data.full_text}</div>`;
+                }
+
+                questionHTML += `</div>`;
+
+                questionHTML += `
+                    <div class="markscheme-section hidden markscheme-section-${timestamp}">
+                        <div class="markscheme">
+                            <h3>Markscheme</h3>
+                            <div class="markscheme-text">${data.markscheme || 'No markscheme available'}</div>
                         </div>
                     </div>
                     <div class="actions">
-                        <button class="btn-show-answer" onclick="showAnswerForContainer(this)">Show Answer</button>
-                        <button class="btn-chatgpt" onclick="askChatGPTForContainer(this, '${data.paper}', '${data.path}')">Ask ChatGPT</button>
+                        <button class="btn-show-answer" onclick="showAnswerForContainer(this, ${timestamp})">Show Answer</button>
+                        <button class="btn-chatgpt" onclick="askChatGPTForContainer(this)">Ask ChatGPT</button>
                     </div>
                 `;
 
+                newContainer.innerHTML = questionHTML;
                 document.getElementById('questionsWrapper').appendChild(newContainer);
-
-                // Load images for the new question
-                const questionPath = data.path;
-                const pathParts = questionPath.split('/');
-                const questionNum = pathParts[pathParts.length - 1];
-                const questionImagesDiv = newContainer.querySelector(`.question-images-${timestamp}`);
-
-                const maxPages = 10;
-                const imagePromises = [];
-
-                for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
-                    const promise = new Promise((resolve) => {
-                        const img = new Image();
-                        const topicPath = data.topic ? data.topic.replace(/ /g, '_') : 'N_A';
-                        img.src = `/api/economics/image/${data.type}/${topicPath}/${data.question_id}/page-${pageNum}.png`;
-                        img.onload = () => resolve({page: pageNum, src: img.src});
-                        img.onerror = () => resolve(null);
-                    });
-                    imagePromises.push(promise);
-                }
-
-                Promise.all(imagePromises).then(results => {
-                    const questionImages = results.filter(r => r !== null).sort((a, b) => a.page - b.page);
-                    displayImages(questionImagesDiv, questionImages.map(i => i.src));
-                });
 
                 // Store question data
                 newContainer.dataset.questionData = JSON.stringify(data);
@@ -867,69 +876,76 @@
         function displayQuestion(question) {
             // Show container
             const questionContainer = document.getElementById('questionContainer');
-            const answerSection = document.getElementById('answerSection');
+            const markschemeSection = document.getElementById('markschemeSection');
 
             questionContainer.classList.remove('hidden');
-            answerSection.classList.add('hidden');
+            markschemeSection.classList.add('hidden');
 
             // Reset wide class (only added when answer is shown)
             questionContainer.classList.remove('wide');
 
             // Update metadata
-            document.getElementById('paperInfo').textContent = question.type.replace(/_/g, ' ');
-            document.getElementById('topicInfo').textContent = question.marks + ' marks';
-            document.getElementById('subtopicInfo').textContent = question.year + ' ' + question.session;
+            document.getElementById('paperInfo').textContent = question.paper;
+            document.getElementById('topicInfo').textContent = question.topic;
+            document.getElementById('yearInfo').textContent = `${question.year} ${question.session} ${question.tz}`;
+            document.getElementById('questionNum').textContent = question.question_num;
             document.getElementById('questionId').textContent = question.question_id;
 
-            // Display question images
-            const questionImagesDiv = document.getElementById('questionImages');
-            questionImagesDiv.innerHTML = '';
-
-            // Economics has images named page-1.png, page-2.png, etc.
-            const maxPages = 10;
-            const imagePromises = [];
-            const topicPath = question.topic ? question.topic.replace(/ /g, '_') : 'N_A';
-
-            for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
-                const promise = new Promise((resolve) => {
-                    const img = new Image();
-                    img.src = `/api/economics/image/${question.type}/${topicPath}/${question.question_id}/page-${pageNum}.png`;
-                    img.onload = () => resolve({page: pageNum, src: img.src});
-                    img.onerror = () => resolve(null);
-                });
-                imagePromises.push(promise);
+            // Track view and check if saved
+            if (currentUser) {
+                trackView(question.question_id);
+                checkIfSaved(question.question_id);
+            } else {
+                document.getElementById('saveBtn').style.display = 'none';
             }
 
-            Promise.all(imagePromises).then(results => {
-                const questionImages = results.filter(r => r !== null).sort((a, b) => a.page - b.page);
-                displayImages(questionImagesDiv, questionImages.map(i => i.src));
-            });
+            // Display question content
+            const content = document.getElementById('questionContent');
+            content.innerHTML = '';
 
-            // Track view and check if saved
-            trackQuestionView(question.question_id);
-            checkIfSaved(question.question_id);
+            if (question.paper === 'Paper 1') {
+                // Show parts (a) and (b)
+                if (question.part_a) {
+                    const partA = document.createElement('div');
+                    partA.className = 'question-part';
+                    partA.innerHTML = `
+                        <div class="part-label">(a) [10 marks]</div>
+                        <div class="question-text">${question.part_a}</div>
+                    `;
+                    content.appendChild(partA);
+                }
+                if (question.part_b) {
+                    const partB = document.createElement('div');
+                    partB.className = 'question-part';
+                    partB.innerHTML = `
+                        <div class="part-label">(b) [15 marks]</div>
+                        <div class="question-text">${question.part_b}</div>
+                    `;
+                    content.appendChild(partB);
+                }
+            } else {
+                // Paper 2 - case study
+                const fullText = document.createElement('div');
+                fullText.className = 'question-text';
+                fullText.textContent = question.full_text;
+                content.appendChild(fullText);
+            }
+
+            // Load markscheme
+            const markschemeContent = document.getElementById('markschemeContent');
+            if (question.markscheme) {
+                markschemeContent.textContent = question.markscheme;
+            } else {
+                markschemeContent.textContent = 'No markscheme available for this question.';
+            }
         }
 
-        async function showAnswer() {
-            const answerSection = document.getElementById('answerSection');
-            answerSection.classList.remove('hidden');
+        function showAnswer() {
+            const markschemeSection = document.getElementById('markschemeSection');
+            markschemeSection.classList.remove('hidden');
 
             // Always expand when both question and answer are visible
             document.getElementById('questionContainer').classList.add('wide');
-
-            const answerImagesDiv = document.getElementById('answerImages');
-            answerImagesDiv.innerHTML = '';
-
-            // Load answer images if they exist
-            if (currentQuestion.answer_images && currentQuestion.answer_images.length > 0) {
-                const topicPath = currentQuestion.topic ? currentQuestion.topic.replace(/ /g, '_') : 'N_A';
-                const answerImageUrls = currentQuestion.answer_images.map(imgName =>
-                    `/api/economics/image/${currentQuestion.type}/${topicPath}/${currentQuestion.question_id}/${imgName}`
-                );
-                displayImages(answerImagesDiv, answerImageUrls);
-            } else {
-                answerImagesDiv.innerHTML = '<p style="padding: 20px; color: #666;">No markscheme available for this question.</p>';
-            }
 
             // If Gabriel mode is on, load a new question below
             if (gabrielMode) {
@@ -939,83 +955,71 @@
             }
         }
 
-        async function askChatGPT() {
-            const questionPath = currentQuestion.path;
-            const pathParts = questionPath.split('/');
-            const paper = currentQuestion.paper;
-            const questionNum = pathParts[pathParts.length - 1];
-
-            // Fetch question text
-            const response = await fetch(`/api/economics/text/${paper}/${questionNum}`);
-            const data = await response.json();
-
-            if (data.error) {
-                alert('Question text not found. Please make sure text extraction completed.');
+        function askChatGPT() {
+            if (!currentQuestion) {
+                alert('Please load a question first');
                 return;
             }
 
+            // Build the question text
+            let questionText = `IB Economics ${currentQuestion.paper} - ${currentQuestion.topic}\n`;
+            questionText += `${currentQuestion.year} ${currentQuestion.session} ${currentQuestion.tz}\n`;
+            questionText += `${currentQuestion.question_num}\n\n`;
+
+            if (currentQuestion.paper === 'Paper 1') {
+                if (currentQuestion.part_a) {
+                    questionText += `(a) [10 marks]\n${currentQuestion.part_a}\n\n`;
+                }
+                if (currentQuestion.part_b) {
+                    questionText += `(b) [15 marks]\n${currentQuestion.part_b}\n`;
+                }
+            } else {
+                questionText += currentQuestion.full_text;
+            }
+
             // Replace spaces with + signs for URL
-            const encodedText = data.text.replace(/ /g, '+');
+            const encodedText = questionText.replace(/ /g, '+');
             const url = `https://chatgpt.com/?prompt=${encodedText}`;
 
             window.open(url, '_blank');
         }
 
-        async function showAnswerForContainer(button) {
+        function showAnswerForContainer(button, timestamp) {
             const container = button.closest('.question-container');
-            const data = JSON.parse(container.dataset.questionData);
-            const answerSection = container.querySelector('[class*="answer-section-"]');
-            const answerImagesDiv = container.querySelector('[class*="answer-images-"]');
+            const markschemeSection = container.querySelector(`.markscheme-section-${timestamp}`);
 
-            answerSection.classList.remove('hidden');
+            markschemeSection.classList.remove('hidden');
             container.classList.add('wide');
 
-            const questionPath = data.path;
-            const pathParts = questionPath.split('/');
-            const paper = data.paper;
-            const questionNum = pathParts[pathParts.length - 1];
-
-            answerImagesDiv.innerHTML = '';
-
-            const maxPages = 10;
-            const imagePromises = [];
-
-            for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
-                const promise = new Promise((resolve) => {
-                    const img = new Image();
-                    img.src = `/api/economics/image/${paper}/${questionNum}/answer_p${pageNum}.png`;
-                    img.onload = () => resolve({page: pageNum, src: img.src});
-                    img.onerror = () => resolve(null);
-                });
-                imagePromises.push(promise);
+            // Load new question in Gabriel mode
+            if (gabrielMode) {
+                setTimeout(() => {
+                    loadRandomQuestionGabrielMode();
+                }, 500);
             }
-
-            Promise.all(imagePromises).then(results => {
-                const answerImages = results.filter(r => r !== null).sort((a, b) => a.page - b.page);
-                displayImages(answerImagesDiv, answerImages.map(i => i.src));
-
-                // Load new question in Gabriel mode
-                if (gabrielMode) {
-                    setTimeout(() => {
-                        loadRandomQuestionGabrielMode();
-                    }, 500);
-                }
-            });
         }
 
-        async function askChatGPTForContainer(button, paper, path) {
-            const pathParts = path.split('/');
-            const questionNum = pathParts[pathParts.length - 1];
+        function askChatGPTForContainer(button) {
+            const container = button.closest('.question-container');
+            const data = JSON.parse(container.dataset.questionData);
 
-            const response = await fetch(`/api/economics/text/${paper}/${questionNum}`);
-            const data = await response.json();
+            // Build the question text
+            let questionText = `IB Economics ${data.paper} - ${data.topic}\n`;
+            questionText += `${data.year} ${data.session} ${data.tz}\n`;
+            questionText += `${data.question_num}\n\n`;
 
-            if (data.error) {
-                alert('Question text not found. Please make sure text extraction completed.');
-                return;
+            if (data.paper === 'Paper 1') {
+                if (data.part_a) {
+                    questionText += `(a) [10 marks]\n${data.part_a}\n\n`;
+                }
+                if (data.part_b) {
+                    questionText += `(b) [15 marks]\n${data.part_b}\n`;
+                }
+            } else {
+                questionText += data.full_text;
             }
 
-            const encodedText = data.text.replace(/ /g, '+');
+            const encodedText = questionText.replace(/ /g, '+');
             const url = `https://chatgpt.com/?prompt=${encodedText}`;
 
             window.open(url, '_blank');
@@ -1121,14 +1125,24 @@
             const authSection = document.getElementById('authSection');
             if (currentUser) {
                 authSection.innerHTML = `
-                    <a href="/" class="btn-physics">Go to Math | <a href="/physics" style="color: white; text-decoration: none;">Physics</a></a>
+                    <a href="/" class="btn-physics">Math</a>
+                    <a href="/physics" class="btn-physics">Physics</a>
                     <div class="user-info">
-                        <span>👤 ${currentUser}</span>
+                        <span>${currentUser}</span>
                         <button onclick="logout()" class="btn-logout">Logout</button>
                     </div>
                 `;
+                // Show save button if there's a current question
+                if (currentQuestion) {
+                    document.getElementById('saveBtn').style.display = 'inline-block';
+                }
             } else {
-                authSection.innerHTML = '<a href="/" class="btn-physics">Go to Math | <a href="/physics" style="color: white; text-decoration: none;">Physics</a></a><button onclick="showLoginModal()" class="btn-auth">Login</button>';
+                authSection.innerHTML = `
+                    <a href="/" class="btn-physics">Math</a>
+                    <a href="/physics" class="btn-physics">Physics</a>
+                    <button onclick="showLoginModal()" class="btn-auth">Login</button>
+                `;
+                document.getElementById('saveBtn').style.display = 'none';
             }
         }
 
@@ -1145,15 +1159,18 @@
             }
         }
 
-        // ============ HISTORY AND SAVED QUESTIONS ============
-
-        async function trackQuestionView(questionId) {
+        // Save/History Functions
+        async function trackView(questionId) {
             if (!currentUser || !questionId) return;
+
             try {
                 await fetch('/api/track-view', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ question_id: questionId, subject: 'economics' })
+                    body: JSON.stringify({
+                        question_id: questionId,
+                        subject: 'economics'
+                    })
                 });
             } catch (error) {
                 console.error('Error tracking view:', error);
@@ -1165,28 +1182,35 @@
                 alert('Please log in to save questions');
                 return;
             }
-            if (!currentQuestion) return;
 
             const saveBtn = document.getElementById('saveBtn');
             const isSaved = saveBtn.textContent.trim() === '⭐';
 
             try {
                 if (isSaved) {
+                    // Unsave
                     await fetch('/api/save-question', {
                         method: 'DELETE',
                         headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ question_id: currentQuestion.question_id, subject: 'economics' })
+                        body: JSON.stringify({
+                            question_id: currentQuestion.question_id,
+                            subject: 'economics'
+                        })
                     });
                     saveBtn.textContent = '☆';
-                    saveBtn.style.background = '#6b7280';
+                    saveBtn.classList.remove('saved');
                 } else {
+                    // Save
                     await fetch('/api/save-question', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ question_id: currentQuestion.question_id, subject: 'economics' })
+                        body: JSON.stringify({
+                            question_id: currentQuestion.question_id,
+                            subject: 'economics'
+                        })
                     });
                     saveBtn.textContent = '⭐';
-                    saveBtn.style.background = '#f59e0b';
+                    saveBtn.classList.add('saved');
                 }
             } catch (error) {
                 console.error('Error saving/unsaving question:', error);
@@ -1199,17 +1223,19 @@
                 document.getElementById('saveBtn').style.display = 'none';
                 return;
             }
+
             try {
                 const response = await fetch(`/api/is-saved?question_id=${questionId}&subject=economics`);
                 const data = await response.json();
                 const saveBtn = document.getElementById('saveBtn');
                 saveBtn.style.display = 'inline-block';
+
                 if (data.saved) {
                     saveBtn.textContent = '⭐';
-                    saveBtn.style.background = '#f59e0b';
+                    saveBtn.classList.add('saved');
                 } else {
                     saveBtn.textContent = '☆';
-                    saveBtn.style.background = '#6b7280';
+                    saveBtn.classList.remove('saved');
                 }
             } catch (error) {
                 console.error('Error checking if saved:', error);
@@ -1219,15 +1245,11 @@
         async function showHistoryPanel() {
             const panel = document.getElementById('historyPanel');
             const savedPanel = document.getElementById('savedPanel');
-            const questionsWrapper = document.getElementById('questionsWrapper');
 
-            if (!panel.classList.contains('hidden')) {
-                panel.classList.add('hidden');
-                return;
-            }
-
+            // Hide saved panel if open
             savedPanel.classList.add('hidden');
-            questionsWrapper.classList.add('hidden');
+
+            // Show history panel
             panel.classList.remove('hidden');
 
             if (!currentUser) {
@@ -1244,10 +1266,9 @@
                     historyList.innerHTML = '<p style="text-align: center; color: #666;">No history yet</p>';
                 } else {
                     historyList.innerHTML = data.history.map(item => `
-                        <div style="padding: 15px; border-bottom: 1px solid #eee; cursor: pointer;"
-                             onclick="loadQuestionById('${item.question_id}')">
-                            <div style="font-weight: bold; color: #333;">${item.question_id}</div>
-                            <div style="font-size: 14px; color: #666;">Viewed: ${new Date(item.viewed_at).toLocaleString()}</div>
+                        <div class="history-item" onclick="loadQuestionById('${item.question_id}')">
+                            <strong>${item.question_id}</strong><br>
+                            <small style="color: #666;">${item.viewed_at}</small>
                         </div>
                     `).join('');
                 }
@@ -1260,15 +1281,11 @@
         async function showSavedPanel() {
             const panel = document.getElementById('savedPanel');
             const historyPanel = document.getElementById('historyPanel');
-            const questionsWrapper = document.getElementById('questionsWrapper');
 
-            if (!panel.classList.contains('hidden')) {
-                panel.classList.add('hidden');
-                return;
-            }
-
+            // Hide history panel if open
             historyPanel.classList.add('hidden');
-            questionsWrapper.classList.add('hidden');
+
+            // Show saved panel
             panel.classList.remove('hidden');
 
             if (!currentUser) {
@@ -1285,11 +1302,10 @@
                     savedList.innerHTML = '<p style="text-align: center; color: #666;">No saved questions yet</p>';
                 } else {
                     savedList.innerHTML = data.saved.map(item => `
-                        <div style="padding: 15px; border-bottom: 1px solid #eee; cursor: pointer;"
-                             onclick="loadQuestionById('${item.question_id}')">
-                            <div style="font-weight: bold; color: #333;">${item.question_id}</div>
-                            <div style="font-size: 14px; color: #666;">Saved: ${new Date(item.saved_at).toLocaleString()}</div>
-                            ${item.notes ? `<div style="font-size: 14px; color: #666; margin-top: 5px;">Notes: ${item.notes}</div>` : ''}
+                        <div class="saved-item" onclick="loadQuestionById('${item.question_id}')">
+                            <strong>${item.question_id}</strong><br>
+                            ${item.notes ? `<p style="color: #666; margin-top: 5px;">${item.notes}</p>` : ''}
+                            <small style="color: #666;">Saved: ${item.saved_at}</small>
                         </div>
                     `).join('');
                 }
@@ -1299,13 +1315,18 @@
             }
         }
 
+        function closePanels() {
+            document.getElementById('historyPanel').classList.add('hidden');
+            document.getElementById('savedPanel').classList.add('hidden');
+        }
+
         async function clearAllData() {
             if (!currentUser) {
                 alert('Please log in first');
                 return;
             }
 
-            if (!confirm('Are you sure you want to clear ALL your history and saved questions for Economics? This cannot be undone!')) {
+            if (!confirm('Are you sure you want to clear ALL your economics history and saved questions? This cannot be undone!')) {
                 return;
             }
 
@@ -1319,19 +1340,9 @@
                 const data = await response.json();
                 if (data.success) {
                     alert('All data cleared successfully!');
-                    // Refresh panels if open
-                    const historyPanel = document.getElementById('historyPanel');
-                    const savedPanel = document.getElementById('savedPanel');
-                    if (!historyPanel.classList.contains('hidden')) {
-                        showHistoryPanel();
-                        showHistoryPanel(); // Call twice to refresh
-                    }
-                    if (!savedPanel.classList.contains('hidden')) {
-                        showSavedPanel();
-                        showSavedPanel(); // Call twice to refresh
-                    }
+                    closePanels();
                 } else {
-                    alert('Error clearing data: ' + data.message);
+                    alert('Error: ' + data.message);
                 }
             } catch (error) {
                 console.error('Error clearing data:', error);
@@ -1339,33 +1350,26 @@
             }
         }
 
-        function closePanels() {
-            // Hide both panels and show the questions wrapper
-            document.getElementById('historyPanel').classList.add('hidden');
-            document.getElementById('savedPanel').classList.add('hidden');
-            document.getElementById('questionsWrapper').classList.remove('hidden');
-        }
-
         async function loadQuestionById(questionId) {
-            // Hide panels and show question
+            // Hide history/saved panels
             document.getElementById('historyPanel').classList.add('hidden');
             document.getElementById('savedPanel').classList.add('hidden');
-            document.getElementById('questionsWrapper').classList.remove('hidden');
 
-            // Load the question from API
+            // Show loading
+            document.getElementById('questionContainer').classList.add('hidden');
+            document.getElementById('loading').classList.remove('hidden');
+
             try {
                 const response = await fetch(`/api/economics/question/${questionId}`);
                 const data = await response.json();
-                if (data.error) {
-                    alert('Question not found');
-                    return;
-                }
                 currentQuestion = data;
-                displayQuestion(currentQuestion);
+                displayQuestion(data);
             } catch (error) {
                 console.error('Error loading question:', error);
-                alert('Error loading question');
+                alert('Error loading question. Please try again.');
             }
+
+            document.getElementById('loading').classList.add('hidden');
         }
 
         // Enter key to submit in modal
@@ -1384,7 +1388,6 @@
 
         // Initialize
         checkAuthStatus();
-        // Topics are already populated in HTML, no need to load dynamically
         document.getElementById('noQuestion').classList.remove('hidden');
     </script>
 </body>

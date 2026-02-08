@@ -373,6 +373,17 @@
             background-color: #fee2e2;
         }
 
+        .text-incomplete-warning {
+            background: #fef2f2;
+            border-left: 2px solid #fca5a5;
+            padding: 8px 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #991b1b;
+            line-height: 1.4;
+        }
+
         .history-dropdown:hover .dropdown-content {
             display: block;
         }
@@ -1036,6 +1047,19 @@
 
             // Always expand when both question and answer are visible
             document.getElementById('questionContainer').classList.add('wide');
+
+            // Add small warning for incomplete text (only shown when answer is displayed)
+            const existingWarning = answerSection.querySelector('.text-incomplete-warning');
+            if (existingWarning) {
+                existingWarning.remove();
+            }
+
+            if (currentQuestion.text_incomplete) {
+                const warningDiv = document.createElement('div');
+                warningDiv.className = 'text-incomplete-warning';
+                warningDiv.textContent = '⚠️ Note: Answer is AI generated and can be wrong (like 2% of the time) as graphs were not given to the AI';
+                answerSection.insertBefore(warningDiv, answerSection.firstChild);
+            }
 
             const questionPath = currentQuestion.path;
             const pathParts = questionPath.split('/');
