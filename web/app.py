@@ -145,6 +145,31 @@ def documentation():
     return render_template('documentation.html', content=content)
 
 
+@app.route('/health')
+def health_check():
+    """Health check endpoint with memory stats."""
+    try:
+        import psutil
+        process = psutil.Process()
+        memory_mb = process.memory_info().rss / 1024 / 1024
+
+        # Test database connection
+        with get_db_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute('SELECT 1')
+
+        return jsonify({
+            'status': 'healthy',
+            'memory_mb': round(memory_mb, 2),
+            'database': 'connected'
+        })
+    except Exception as e:
+        return jsonify({
+            'status': 'unhealthy',
+            'error': str(e)
+        }), 500
+
+
 @app.route('/api/register', methods=['POST'])
 def register():
     """Register a new user."""

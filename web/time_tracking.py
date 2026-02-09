@@ -4,24 +4,20 @@ from datetime import date
 from database import get_db_connection, execute_query, USE_POSTGRES
 
 
-def get_user_id(username):
-    """Get user ID from username."""
-    with get_db_connection() as conn:
-        cursor = conn.cursor()
-        execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
-        result = cursor.fetchone()
-        return result[0] if result else None
-
-
 def update_question_time(username, question_id, subject, seconds):
     """Add time to a question's total tracked time."""
-    user_id = get_user_id(username)
-    if not user_id:
-        return False, 'User not found'
-
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
+
+            # Get user_id in the same connection
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            result = cursor.fetchone()
+            if not result:
+                return False, 'User not found'
+            user_id = result[0]
+
+            # Update time tracking
             if USE_POSTGRES:
                 execute_query(cursor, '''
                     INSERT INTO question_time_tracking (user_id, question_id, subject, total_seconds)
@@ -58,13 +54,18 @@ def update_question_time(username, question_id, subject, seconds):
 
 def get_question_time(username, question_id, subject):
     """Get total time spent on a question."""
-    user_id = get_user_id(username)
-    if not user_id:
-        return 0
-
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
+
+            # Get user_id in the same connection
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            result = cursor.fetchone()
+            if not result:
+                return 0
+            user_id = result[0]
+
+            # Get question time
             execute_query(cursor, '''
                 SELECT total_seconds FROM question_time_tracking
                 WHERE user_id = %s AND question_id = %s AND subject = %s
@@ -77,15 +78,20 @@ def get_question_time(username, question_id, subject):
 
 def update_daily_time(username, seconds):
     """Add time to today's total tracked time."""
-    user_id = get_user_id(username)
-    if not user_id:
-        return False, 'User not found'
-
     today = date.today()
 
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
+
+            # Get user_id in the same connection
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            result = cursor.fetchone()
+            if not result:
+                return False, 'User not found'
+            user_id = result[0]
+
+            # Update daily time
             if USE_POSTGRES:
                 execute_query(cursor, '''
                     INSERT INTO daily_usage (user_id, date, total_seconds)
@@ -122,15 +128,20 @@ def update_daily_time(username, seconds):
 
 def get_daily_time(username):
     """Get total time spent today."""
-    user_id = get_user_id(username)
-    if not user_id:
-        return 0
-
     today = date.today()
 
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
+
+            # Get user_id in the same connection
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            result = cursor.fetchone()
+            if not result:
+                return 0
+            user_id = result[0]
+
+            # Get daily time
             execute_query(cursor, '''
                 SELECT total_seconds FROM daily_usage
                 WHERE user_id = %s AND date = %s

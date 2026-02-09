@@ -3,27 +3,20 @@
 from datetime import datetime
 from database import get_db_connection, execute_query
 
-def get_user_id(username):
-    """Get user ID from username."""
-    try:
-        with get_db_connection() as conn:
-            cursor = conn.cursor()
-            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
-            result = cursor.fetchone()
-            return result[0] if result else None
-    except Exception:
-        return None
-
 def track_question_view(username, question_id, subject):
     """Track that a user viewed a question. Updates timestamp if already viewed."""
-    user_id = get_user_id(username)
-    if not user_id:
-        return False, "User not found"
-
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            # Use INSERT ... ON CONFLICT for both databases
+
+            # Get user_id in the same connection
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            result = cursor.fetchone()
+            if not result:
+                return False, "User not found"
+            user_id = result[0]
+
+            # Track view
             execute_query(cursor, '''
                 INSERT INTO question_history (user_id, question_id, subject, viewed_at)
                 VALUES (%s, %s, %s, %s)
@@ -36,13 +29,18 @@ def track_question_view(username, question_id, subject):
 
 def save_question(username, question_id, subject, notes=None):
     """Save a question for the user."""
-    user_id = get_user_id(username)
-    if not user_id:
-        return False, "User not found"
-
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
+
+            # Get user_id in the same connection
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            result = cursor.fetchone()
+            if not result:
+                return False, "User not found"
+            user_id = result[0]
+
+            # Save question
             execute_query(cursor, '''
                 INSERT INTO saved_questions (user_id, question_id, subject, notes)
                 VALUES (%s, %s, %s, %s)
@@ -56,13 +54,18 @@ def save_question(username, question_id, subject, notes=None):
 
 def unsave_question(username, question_id, subject):
     """Remove a saved question."""
-    user_id = get_user_id(username)
-    if not user_id:
-        return False, "User not found"
-
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
+
+            # Get user_id in the same connection
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            result = cursor.fetchone()
+            if not result:
+                return False, "User not found"
+            user_id = result[0]
+
+            # Delete saved question
             execute_query(cursor, '''
                 DELETE FROM saved_questions
                 WHERE user_id = %s AND question_id = %s AND subject = %s
@@ -73,13 +76,18 @@ def unsave_question(username, question_id, subject):
 
 def is_question_saved(username, question_id, subject):
     """Check if a question is saved by the user."""
-    user_id = get_user_id(username)
-    if not user_id:
-        return False
-
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
+
+            # Get user_id in the same connection
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            result = cursor.fetchone()
+            if not result:
+                return False
+            user_id = result[0]
+
+            # Check if saved
             execute_query(cursor, '''
                 SELECT id FROM saved_questions
                 WHERE user_id = %s AND question_id = %s AND subject = %s
@@ -90,13 +98,18 @@ def is_question_saved(username, question_id, subject):
 
 def get_user_history(username, subject=None, limit=50):
     """Get user's question history, optionally filtered by subject."""
-    user_id = get_user_id(username)
-    if not user_id:
-        return []
-
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
+
+            # Get user_id in the same connection
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            result = cursor.fetchone()
+            if not result:
+                return []
+            user_id = result[0]
+
+            # Get history
             if subject:
                 execute_query(cursor, '''
                     SELECT question_id, subject, viewed_at
@@ -128,13 +141,18 @@ def get_user_history(username, subject=None, limit=50):
 
 def get_saved_questions(username, subject=None):
     """Get user's saved questions, optionally filtered by subject."""
-    user_id = get_user_id(username)
-    if not user_id:
-        return []
-
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
+
+            # Get user_id in the same connection
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            result = cursor.fetchone()
+            if not result:
+                return []
+            user_id = result[0]
+
+            # Get saved questions
             if subject:
                 execute_query(cursor, '''
                     SELECT question_id, subject, notes, saved_at
@@ -165,13 +183,18 @@ def get_saved_questions(username, subject=None):
 
 def clear_all_user_data(username, subject=None):
     """Clear all history and saved questions for a user, optionally filtered by subject."""
-    user_id = get_user_id(username)
-    if not user_id:
-        return False, "User not found"
-
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
+
+            # Get user_id in the same connection
+            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            result = cursor.fetchone()
+            if not result:
+                return False, "User not found"
+            user_id = result[0]
+
+            # Clear data
             if subject:
                 # Clear only for specific subject
                 execute_query(cursor, 'DELETE FROM question_history WHERE user_id = %s AND subject = %s', (user_id, subject))

@@ -376,19 +376,27 @@
             background: #374151;
         }
 
+        body.dark-mode .chat-text {
+            color: #d1d5db;
+        }
+
+        body.dark-mode .chat-username {
+            color: #ef4444;
+        }
+
         body.dark-mode .modal-content {
-            background: #1f2937;
+            background: #1e1333;
             color: #e5e7eb;
         }
 
         body.dark-mode #chatMessages {
-            border-color: #4b5563;
-            background: #111827;
+            border-color: #3d2563;
+            background: #0f0a1f;
         }
 
         body.dark-mode .note-input-area textarea,
         body.dark-mode .chat-input-area input {
-            background: #374151;
+            background: #2a1a47;
             border-color: #4b5563;
             color: #e5e7eb;
         }
@@ -2128,7 +2136,15 @@
 
         function initializeSocket() {
             if (!socket && currentUser) {
-                socket = io();
+                // Configure Socket.IO to reduce connection spam
+                socket = io({
+                    reconnection: true,
+                    reconnectionDelay: 2000,
+                    reconnectionDelayMax: 10000,
+                    reconnectionAttempts: 5,
+                    timeout: 20000,
+                    transports: ['websocket', 'polling']
+                });
 
                 socket.on('new_message', (data) => {
                     addChatMessage(data);
@@ -2136,7 +2152,10 @@
 
                 socket.on('error', (data) => {
                     console.error('Socket error:', data.message);
-                    alert('Chat error: ' + data.message);
+                });
+
+                socket.on('connect_error', (error) => {
+                    console.error('Connection error:', error);
                 });
             }
         }
@@ -2185,12 +2204,25 @@
                 placeholder.remove();
             }
 
+            // Convert to Singapore/China time (UTC+8)
+            const utcDate = new Date(data.created_at);
+            const sgTime = new Date(utcDate.getTime() + (8 * 60 * 60 * 1000));
+            const timeStr = sgTime.toLocaleString('en-SG', {
+                timeZone: 'Asia/Singapore',
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+            });
+
             const messageDiv = document.createElement('div');
             messageDiv.className = 'chat-message';
             messageDiv.innerHTML = `
                 <div class="chat-message-header">
                     <span class="chat-username">${escapeHtml(data.username)}</span>
-                    <span class="chat-timestamp">${new Date(data.created_at).toLocaleString()}</span>
+                    <span class="chat-timestamp">${timeStr} SGT</span>
                 </div>
                 <div class="chat-text">${escapeHtml(data.message)}</div>
             `;
