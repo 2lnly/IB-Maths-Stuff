@@ -996,12 +996,8 @@
                 <input type="text" id="usernameInput" placeholder="Enter username" maxlength="20">
             </div>
             <div class="form-group">
-                <label>Pick your password:</label>
-                <div style="display: flex; gap: 10px; margin-top: 10px;">
-                    <button type="button" class="password-btn" onclick="selectPassword('1234')" id="password1234">1234</button>
-                    <button type="button" class="password-btn" onclick="selectPassword('4321')" id="password4321">4321</button>
-                </div>
-                <input type="hidden" id="selectedPassword" value="">
+                <label for="passwordInput">Password</label>
+                <input type="password" id="passwordInput" placeholder="Enter password (4-50 characters)" maxlength="50">
             </div>
             <div class="modal-actions">
                 <button class="btn-primary" id="submitBtn" onclick="submitAuth()">Login</button>
@@ -1581,22 +1577,13 @@
         }
 
         // Auth functions
-        function selectPassword(password) {
-            document.getElementById('selectedPassword').value = password;
-            document.getElementById('password1234').classList.remove('selected');
-            document.getElementById('password4321').classList.remove('selected');
-            document.getElementById('password' + password).classList.add('selected');
-        }
-
         function showLoginModal() {
             isLoginMode = true;
             document.getElementById('modalTitle').textContent = 'Login';
             document.getElementById('submitBtn').textContent = 'Login';
             document.getElementById('switchText').innerHTML = 'Don\'t have an account? <a onclick="switchMode()">Register</a>';
             document.getElementById('usernameInput').value = '';
-            document.getElementById('selectedPassword').value = '';
-            document.getElementById('password1234').classList.remove('selected');
-            document.getElementById('password4321').classList.remove('selected');
+            document.getElementById('passwordInput').value = '';
             document.getElementById('errorMessage').classList.add('hidden');
             document.getElementById('authModal').classList.add('show');
         }
@@ -1624,7 +1611,7 @@
 
         async function submitAuth() {
             const username = document.getElementById('usernameInput').value.trim();
-            const password = document.getElementById('selectedPassword').value;
+            const password = document.getElementById('passwordInput').value;
             const errorDiv = document.getElementById('errorMessage');
 
             if (!username) {
@@ -1634,7 +1621,7 @@
             }
 
             if (!password) {
-                errorDiv.textContent = 'Please select a password (1234 or 4321)';
+                errorDiv.textContent = 'Please enter a password';
                 errorDiv.classList.remove('hidden');
                 return;
             }
