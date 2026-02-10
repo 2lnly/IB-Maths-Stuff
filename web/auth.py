@@ -19,9 +19,18 @@ def create_user(username, password):
     if not username.replace('_', '').isalnum():
         return False, "Username can only contain letters, numbers, and underscores"
 
-    # Validate password (only 1234 or 4321 allowed)
-    if password not in ['1234', '4321']:
-        return False, "Invalid password"
+    # Validate password
+    if not password or len(password.strip()) == 0:
+        return False, "Password cannot be empty"
+
+    if len(password) < 4:
+        return False, "Password must be at least 4 characters"
+
+    if len(password) > 50:
+        return False, "Password must be less than 50 characters"
+
+    if password != password.strip():
+        return False, "Password cannot start or end with whitespace"
 
     try:
         with get_db_connection() as conn:

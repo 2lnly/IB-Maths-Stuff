@@ -469,16 +469,18 @@ def get_chat_messages():
         with get_db_connection() as conn:
             cursor = conn.cursor()
             execute_query(cursor, '''
-                SELECT username, message, created_at
-                FROM global_chat
+                SELECT gc.username, gc.message, gc.created_at, u.is_owner
+                FROM global_chat gc
+                LEFT JOIN users u ON gc.user_id = u.id
                 WHERE created_at >= NOW() - INTERVAL '30 days'
                 ORDER BY created_at DESC
                 LIMIT 100
             ''' if USE_POSTGRES else '''
-                SELECT username, message, created_at
-                FROM global_chat
-                WHERE created_at >= datetime('now', '-30 days')
-                ORDER BY created_at DESC
+                SELECT gc.username, gc.message, gc.created_at, u.is_owner
+                FROM global_chat gc
+                LEFT JOIN users u ON gc.user_id = u.id
+                WHERE gc.created_at >= datetime('now', '-30 days')
+                ORDER BY gc.created_at DESC
                 LIMIT 100
             ''', None)
 
@@ -487,7 +489,8 @@ def get_chat_messages():
                 messages.append({
                     'username': row[0],
                     'message': row[1],
-                    'created_at': str(row[2])
+                    'created_at': str(row[2]),
+                    'is_owner': bool(row[3]) if row[3] is not None else False
                 })
 
             # Reverse to show oldest first
@@ -513,14 +516,15 @@ def handle_send_message(data):
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            # Get user_id
-            execute_query(cursor, 'SELECT id FROM users WHERE username = %s', (username,))
+            # Get user_id and is_owner status
+            execute_query(cursor, 'SELECT id, is_owner FROM users WHERE username = %s', (username,))
             result = cursor.fetchone()
             if not result:
                 emit('error', {'message': 'User not found'})
                 return
 
             user_id = result[0]
+            is_owner = bool(result[1]) if result[1] is not None else False
 
             # Insert message
             execute_query(cursor, '''
@@ -545,7 +549,8 @@ def handle_send_message(data):
             socketio.emit('new_message', {
                 'username': username,
                 'message': message,
-                'created_at': str(created_at)
+                'created_at': str(created_at),
+                'is_owner': is_owner
             }, broadcast=True)
 
     except Exception as e:

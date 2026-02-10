@@ -859,6 +859,17 @@
             word-wrap: break-word;
         }
 
+        .chat-owner-badge {
+            background: #ef4444;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: bold;
+            margin-right: 8px;
+            text-transform: uppercase;
+        }
+
         .chat-input-area {
             display: flex;
             gap: 10px;
@@ -2142,9 +2153,10 @@
 
             const messageDiv = document.createElement('div');
             messageDiv.className = 'chat-message';
+            const ownerBadge = data.is_owner ? '<span class="chat-owner-badge">owner</span>' : '';
             messageDiv.innerHTML = `
                 <div class="chat-message-header">
-                    <span class="chat-username">${escapeHtml(data.username)}</span>
+                    ${ownerBadge}<span class="chat-username">${escapeHtml(data.username)}</span>
                     <span class="chat-timestamp">${timeStr} SGT</span>
                 </div>
                 <div class="chat-text">${escapeHtml(data.message)}</div>
