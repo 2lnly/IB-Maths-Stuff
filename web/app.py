@@ -472,8 +472,8 @@ def get_chat_messages():
                 SELECT gc.username, gc.message, gc.created_at, u.is_owner
                 FROM global_chat gc
                 LEFT JOIN users u ON gc.user_id = u.id
-                WHERE created_at >= NOW() - INTERVAL '30 days'
-                ORDER BY created_at DESC
+                WHERE gc.created_at >= NOW() - INTERVAL '30 days'
+                ORDER BY gc.created_at DESC
                 LIMIT 100
             ''' if USE_POSTGRES else '''
                 SELECT gc.username, gc.message, gc.created_at, u.is_owner
