@@ -47,20 +47,20 @@ def list_users(args):
 
             if USE_POSTGRES:
                 execute_query(cursor, """
-                    SELECT u.id, u.username, u.is_owner, u.created_at,
+                    SELECT u.id, u.username, u.password, u.is_owner, u.created_at,
                            COUNT(DISTINCT gc.id) as message_count
                     FROM users u
                     LEFT JOIN global_chat gc ON u.id = gc.user_id
-                    GROUP BY u.id, u.username, u.is_owner, u.created_at
+                    GROUP BY u.id, u.username, u.password, u.is_owner, u.created_at
                     ORDER BY u.created_at DESC
                 """, None)
             else:
                 execute_query(cursor, """
-                    SELECT u.id, u.username, u.is_owner, u.created_at,
+                    SELECT u.id, u.username, u.password, u.is_owner, u.created_at,
                            COUNT(DISTINCT gc.id) as message_count
                     FROM users u
                     LEFT JOIN global_chat gc ON u.id = gc.user_id
-                    GROUP BY u.id, u.username, u.is_owner, u.created_at
+                    GROUP BY u.id, u.username, u.password, u.is_owner, u.created_at
                     ORDER BY u.created_at DESC
                 """, None)
 
@@ -70,18 +70,19 @@ def list_users(args):
                 print_warning("No users found")
                 return
 
-            print(f"\n{Colors.BOLD}{'ID':<6} {'Username':<20} {'Owner':<8} {'Messages':<10} {'Joined':<20}{Colors.RESET}")
-            print("=" * 70)
+            print(f"\n{Colors.BOLD}{'ID':<6} {'Username':<20} {'Password':<20} {'Owner':<8} {'Messages':<10} {'Joined':<20}{Colors.RESET}")
+            print("=" * 90)
 
             for user in users:
                 user_id = user[0]
                 username = user[1]
-                is_owner = user[2]
-                created_at = user[3]
-                message_count = user[4]
+                password = user[2]
+                is_owner = user[3]
+                created_at = user[4]
+                message_count = user[5]
 
                 owner_badge = f"{Colors.RED}[OWNER]{Colors.RESET}" if is_owner else ""
-                print(f"{user_id:<6} {username:<20} {owner_badge:<20} {message_count:<10} {created_at}")
+                print(f"{user_id:<6} {username:<20} {password:<20} {owner_badge:<20} {message_count:<10} {created_at}")
 
             print(f"\nTotal users: {len(users)}")
 
