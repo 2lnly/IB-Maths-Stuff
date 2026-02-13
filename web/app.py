@@ -905,6 +905,12 @@ def get_filtered_economics_question():
 from unified_routes import register_unified_routes
 register_unified_routes(app)
 
+# Unified practice page route
+@app.route('/unified')
+def unified_practice():
+    """New unified practice interface."""
+    return render_template('unified_practice.html')
+
 
 if __name__ == '__main__':
     import os

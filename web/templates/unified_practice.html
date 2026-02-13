@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB Practice - Unified Platform</title>
+    <style>
+        /* ===== BLACK PROFESSIONAL THEME ===== */
+        :root {
+            /* Base colors */
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #1a1a1a;
+            --bg-tertiary: #2a2a2a;
+            --bg-hover: #333333;
+
+            /* Accent colors per subject */
+            --accent-math: #d4af37;
+            --accent-physics: #4a90e2;
+            --accent-economics: #9b59b6;
+            --accent-current: var(--accent-math);
+
+            /* Text colors */
+            --text-primary: #ffffff;
+            --text-secondary: #b3b3b3;
+            --text-muted: #666666;
+
+            /* Interactive */
+            --border-color: #333333;
+            --success: #10b981;
+            --error: #ef4444;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ===== ANIMATED BACKGROUND ===== */
+        .bg-lines {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .bg-line {
+            position: absolute;
+            width: 1px;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                transparent,
+                var(--accent-current) 50%,
+                transparent
+            );
+            opacity: 0.1;
+            animation: lineMove 15s infinite linear;
+        }
+
+        .bg-line:nth-child(1) { left: 10%; animation-delay: 0s; }
+        .bg-line:nth-child(2) { left: 30%; animation-delay: 2s; }
+        .bg-line:nth-child(3) { left: 50%; animation-delay: 4s; }
+        .bg-line:nth-child(4) { left: 70%; animation-delay: 6s; }
+        .bg-line:nth-child(5) { left: 90%; animation-delay: 8s; }
+
+        @keyframes lineMove {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100%); }
+        }
+
+        .geometric-shape {
+            position: fixed;
+            opacity: 0.03;
+            animation: rotate 30s infinite linear;
+            pointer-events: none;
+        }
+
+        .shape-hexagon {
+            width: 200px;
+            height: 200px;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            background: var(--accent-current);
+            top: 20%;
+            right: 10%;
+        }
+
+        .shape-triangle {
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-bottom: 173px solid var(--accent-current);
+            bottom: 15%;
+            left: 15%;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /* ===== MAIN LAYOUT ===== */
+        .app-container {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        .header {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-current);
+        }
+
+        .subject-tabs {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .subject-tab {
+            padding: 0.5rem 1.5rem;
+            background: transparent;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .subject-tab.active {
+            background: var(--accent-current);
+            color: var(--bg-primary);
+            border-color: var(--accent-current);
+        }
+
+        .user-info {
+            color: var(--text-secondary);
+        }
+
+        /* Main Content */
+        .main-content {
+            display: flex;
+            flex: 1;
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1800px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        /* Filters Panel */
+        .filters-panel {
+            width: 300px;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 1.5rem;
+            height: fit-content;
+            position: sticky;
+            top: 2rem;
+        }
+
+        .filters-panel h3 {
+            margin-bottom: 1.5rem;
+            color: var(--accent-current);
+        }
+
+        .filter-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .filter-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .filter-group select,
+        .filter-group input {
+            width: 100%;
+            padding: 0.5rem;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+        }
+
+        .checkbox-group {
+            max-height: 200px;
+            overflow-y: auto;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 0.5rem;
+            background: var(--bg-tertiary);
+        }
+
+        .checkbox-item {
+            padding: 0.3rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            width: auto;
+        }
+
+        .year-range {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .year-range input[type="number"] {
+            width: 80px;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 0.75rem;
+            background: var(--accent-current);
+            color: var(--bg-primary);
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 0.5rem;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background: var(--bg-tertiary);
+            color: var(--text-primary);
+        }
+
+        /* Question Display Area */
+        .question-area {
+            flex: 1;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 2rem;
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .question-meta {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .question-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .action-btn {
+            padding: 0.5rem 1rem;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .action-btn:hover {
+            background: var(--bg-hover);
+        }
+
+        .question-display {
+            margin-top: 2rem;
+        }
+
+        .question-image {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .question-text {
+            line-height: 1.6;
+            color: var(--text-primary);
+        }
+
+        .timer-display {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-current);
+            text-align: center;
+            padding: 1rem;
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        /* Side Panel */
+        .side-panel {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .panel-card {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+
+        .panel-card h4 {
+            margin-bottom: 1rem;
+            color: var(--accent-current);
+        }
+
+        .chat-messages {
+            height: 300px;
+            overflow-y: auto;
+            margin-bottom: 1rem;
+        }
+
+        .chat-message {
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+            background: var(--bg-tertiary);
+            border-radius: 6px;
+        }
+
+        .chat-message .username {
+            font-weight: 600;
+            color: var(--accent-current);
+        }
+
+        .chat-input {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .chat-input input {
+            flex: 1;
+            padding: 0.5rem;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-primary);
+        }
+
+        /* Utility */
+        .hidden {
+            display: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-tertiary);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--accent-current);
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-lines">
+        <div class="bg-line"></div>
+        <div class="bg-line"></div>
+        <div class="bg-line"></div>
+        <div class="bg-line"></div>
+        <div class="bg-line"></div>
+    </div>
+    <div class="geometric-shape shape-hexagon"></div>
+    <div class="geometric-shape shape-triangle"></div>
+
+    <!-- Main App Container -->
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">IB Practice Hub</div>
+
+            <div class="subject-tabs">
+                <button class="subject-tab active" data-subject="math">Mathematics AA HL</button>
+                <button class="subject-tab" data-subject="physics">Physics HL</button>
+                <button class="subject-tab" data-subject="economics">Economics SL</button>
+            </div>
+
+            <div class="user-info">
+                <span id="username">Guest</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Filters Panel -->
+            <aside class="filters-panel">
+                <h3>Filters</h3>
+
+                <!-- Paper Selection -->
+                <div class="filter-group">
+                    <label>Paper</label>
+                    <select id="paperSelect" multiple size="3">
+                        <option value="Paper1">Paper 1</option>
+                        <option value="Paper2">Paper 2</option>
+                        <option value="Paper3">Paper 3</option>
+                    </select>
+                </div>
+
+                <!-- Topics -->
+                <div class="filter-group">
+                    <label>Topics</label>
+                    <div class="checkbox-group" id="topicsCheckboxes">
+                        <!-- Dynamically populated -->
+                    </div>
+                </div>
+
+                <!-- Subtopics -->
+                <div class="filter-group" id="subtopicsGroup">
+                    <label>Subtopics</label>
+                    <div class="checkbox-group" id="subtopicsCheckboxes">
+                        <!-- Dynamically populated -->
+                    </div>
+                </div>
+
+                <!-- Year Range -->
+                <div class="filter-group">
+                    <label>Year Range</label>
+                    <div class="year-range">
+                        <input type="number" id="yearMin" placeholder="2010" min="2010" max="2025" value="2010">
+                        <span>to</span>
+                        <input type="number" id="yearMax" placeholder="2025" min="2010" max="2025" value="2025">
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <button class="btn" id="randomBtn">Random Question</button>
+                <button class="btn btn-secondary" id="browseBtn">Browse Mode</button>
+                <button class="btn btn-secondary" id="generateBtn">Generate Paper</button>
+            </aside>
+
+            <!-- Question Display Area -->
+            <section class="question-area">
+                <div class="question-header">
+                    <div class="question-meta">
+                        <span id="questionId">No question loaded</span>
+                    </div>
+                    <div class="question-actions">
+                        <button class="action-btn" id="showAnswerBtn">Show Answer</button>
+                        <button class="action-btn" id="saveBtn">Save</button>
+                        <button class="action-btn" id="notesBtn">Notes</button>
+                    </div>
+                </div>
+
+                <div class="timer-display" id="timer">00:00:00</div>
+
+                <div class="question-display" id="questionDisplay">
+                    <p class="loading">Select filters and click "Random Question" to start</p>
+                </div>
+
+                <div class="question-display hidden" id="answerDisplay">
+                    <!-- Answer will be displayed here -->
+                </div>
+            </section>
+
+            <!-- Side Panel (Chat & History) -->
+            <aside class="side-panel">
+                <!-- Global Chat -->
+                <div class="panel-card">
+                    <h4>Global Chat</h4>
+                    <div class="chat-messages" id="chatMessages">
+                        <!-- Messages load here -->
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" id="chatInput" placeholder="Type a message...">
+                        <button class="action-btn" id="sendChatBtn">Send</button>
+                    </div>
+                </div>
+
+                <!-- History & Saved -->
+                <div class="panel-card">
+                    <h4>Quick Access</h4>
+                    <button class="btn btn-secondary" id="historyBtn">History</button>
+                    <button class="btn btn-secondary" id="savedBtn">Saved Questions</button>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script>
+        // ===== APP STATE =====
+        const appState = {
+            currentSubject: 'math',
+            currentQuestion: null,
+            selectedPapers: [],
+            selectedTopics: [],
+            selectedSubtopics: [],
+            yearMin: 2010,
+            yearMax: 2025,
+            timerSeconds: 0,
+            timerInterval: null,
+        };
+
+        // ===== COLOR MANAGEMENT =====
+        const subjectColors = {
+            math: '#d4af37',
+            physics: '#4a90e2',
+            economics: '#9b59b6'
+        };
+
+        function updateThemeColor() {
+            document.documentElement.style.setProperty('--accent-current', subjectColors[appState.currentSubject]);
+        }
+
+        // ===== SUBJECT SWITCHER =====
+        document.querySelectorAll('.subject-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Update active tab
+                document.querySelectorAll('.subject-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+
+                // Update state
+                appState.currentSubject = tab.dataset.subject;
+                updateThemeColor();
+
+                // Reload subject data
+                loadSubjectInfo();
+            });
+        });
+
+        // ===== API CALLS =====
+        async function loadSubjectInfo() {
+            try {
+                const response = await fetch(`/api/subject/${appState.currentSubject}/info`);
+                const data = await response.json();
+
+                // Populate topics
+                populateTopics(data.topics);
+
+                // Update subject-specific UI
+                if (appState.currentSubject === 'economics') {
+                    document.getElementById('subtopicsGroup').style.display = 'none';
+                } else {
+                    document.getElementById('subtopicsGroup').style.display = 'block';
+                }
+            } catch (error) {
+                console.error('Error loading subject info:', error);
+            }
+        }
+
+        function populateTopics(topicsData) {
+            const topicsContainer = document.getElementById('topicsCheckboxes');
+            topicsContainer.innerHTML = '';
+
+            // Get all unique topics across papers
+            const allTopics = new Set();
+            Object.values(topicsData).forEach(paperTopics => {
+                Object.keys(paperTopics).forEach(topic => allTopics.add(topic));
+            });
+
+            allTopics.forEach(topic => {
+                const div = document.createElement('div');
+                div.className = 'checkbox-item';
+                div.innerHTML = `
+                    <input type="checkbox" id="topic-${topic}" value="${topic}">
+                    <label for="topic-${topic}">${topic.replace(/_/g, ' ')}</label>
+                `;
+                topicsContainer.appendChild(div);
+
+                // Add event listener
+                div.querySelector('input').addEventListener('change', updateSubtopics);
+            });
+        }
+
+        function updateSubtopics() {
+            // Get selected topics
+            const selectedTopics = Array.from(document.querySelectorAll('#topicsCheckboxes input:checked'))
+                .map(cb => cb.value);
+
+            // Load subtopics for selected topics
+            // (This would fetch from API or use cached data)
+        }
+
+        async function loadRandomQuestion() {
+            // Build filter params
+            const params = new URLSearchParams();
+
+            // Add selected papers
+            const selectedPapers = Array.from(document.querySelectorAll('#paperSelect option:checked'))
+                .map(opt => opt.value);
+            if (selectedPapers.length > 0) {
+                params.append('paper', selectedPapers[0]); // For now, use first selected
+            }
+
+            // Add year range
+            params.append('year_min', document.getElementById('yearMin').value);
+            params.append('year_max', document.getElementById('yearMax').value);
+
+            try {
+                const response = await fetch(`/api/subject/${appState.currentSubject}/random?${params}`);
+                const data = await response.json();
+
+                if (data.question) {
+                    displayQuestion(data.question);
+                }
+            } catch (error) {
+                console.error('Error loading question:', error);
+            }
+        }
+
+        async function displayQuestion(question) {
+            appState.currentQuestion = question;
+
+            // Update question ID display
+            document.getElementById('questionId').textContent = question.question_id;
+
+            // Get full display data
+            const response = await fetch(`/api/subject/${appState.currentSubject}/question/${question.question_id}`);
+            const displayData = await response.json();
+
+            const displayArea = document.getElementById('questionDisplay');
+            displayArea.innerHTML = '';
+
+            if (displayData.mode === 'image') {
+                // Display images
+                displayData.images.forEach(imgName => {
+                    const img = document.createElement('img');
+                    img.src = `/api/image/${appState.currentSubject}/${displayData.question_path.split('/').pop()}/${imgName}`;
+                    img.className = 'question-image';
+                    displayArea.appendChild(img);
+                });
+            } else {
+                // Display text
+                const textDiv = document.createElement('div');
+                textDiv.className = 'question-text';
+                textDiv.innerHTML = `
+                    <p><strong>Part A:</strong></p>
+                    <p>${displayData.text.part_a || displayData.text.full_text}</p>
+                    ${displayData.text.part_b ? `<p><strong>Part B:</strong></p><p>${displayData.text.part_b}</p>` : ''}
+                `;
+                displayArea.appendChild(textDiv);
+            }
+
+            // Start timer
+            startTimer();
+        }
+
+        // ===== TIMER =====
+        function startTimer() {
+            stopTimer();
+            appState.timerSeconds = 0;
+            updateTimerDisplay();
+
+            appState.timerInterval = setInterval(() => {
+                appState.timerSeconds++;
+                updateTimerDisplay();
+            }, 1000);
+        }
+
+        function stopTimer() {
+            if (appState.timerInterval) {
+                clearInterval(appState.timerInterval);
+                appState.timerInterval = null;
+            }
+        }
+
+        function updateTimerDisplay() {
+            const hours = Math.floor(appState.timerSeconds / 3600);
+            const minutes = Math.floor((appState.timerSeconds % 3600) / 60);
+            const seconds = appState.timerSeconds % 60;
+
+            document.getElementById('timer').textContent =
+                `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+        }
+
+        // ===== EVENT LISTENERS =====
+        document.getElementById('randomBtn').addEventListener('click', loadRandomQuestion);
+
+        // ===== INITIALIZATION =====
+        updateThemeColor();
+        loadSubjectInfo();
+
+        // Check if user is logged in
+        fetch('/api/check-auth')
+            .then(r => r.json())
+            .then(data => {
+                if (data.authenticated) {
+                    document.getElementById('username').textContent = data.username;
+                }
+            })
+            .catch(() => {});
+    </script>
+</body>
+</html>

@@ -3,9 +3,10 @@ Unified API routes for all subjects.
 Uses SubjectManager to provide a consistent interface across Math, Physics, and Economics.
 """
 
-from flask import jsonify, request, session
+from flask import jsonify, request, session, send_file
 from subject_manager import SubjectManager
 from database import get_db_connection, execute_query
+from pathlib import Path
 import json
 
 
@@ -356,5 +357,42 @@ def register_unified_routes(app):
 
                 return jsonify({'papers': papers})
 
+        except Exception as e:
+            return jsonify({'error': str(e)}), 500
+
+    @app.route('/api/check-auth')
+    def unified_check_auth():
+        """Check if user is authenticated."""
+        if 'username' in session:
+            return jsonify({
+                'authenticated': True,
+                'username': session['username']
+            })
+        return jsonify({'authenticated': False})
+
+    @app.route('/api/image/<subject>/<folder>/<image>')
+    def unified_serve_image(subject, folder, image):
+        """Serve question images for unified interface."""
+        try:
+            base_dir = Path('/home/xiaohe/stuff/claudable')
+
+            # Get subject base path
+            subject_paths = {
+                'math': 'practice',
+                'physics': 'Physics Flattened',
+                'economics': 'economics'
+            }
+
+            if subject not in subject_paths:
+                return jsonify({'error': 'Invalid subject'}), 400
+
+            # Construct image path
+            # folder is like "Paper_1/Q176_TZ1_2012_sequences"
+            image_path = base_dir / subject_paths[subject] / folder / image
+
+            if not image_path.exists():
+                return jsonify({'error': 'Image not found'}), 404
+
+            return send_file(str(image_path))
         except Exception as e:
             return jsonify({'error': str(e)}), 500
