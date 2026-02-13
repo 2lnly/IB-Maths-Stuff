@@ -587,8 +587,12 @@
                 // Update subject-specific UI
                 if (appState.currentSubject === 'economics') {
                     document.getElementById('subtopicsGroup').style.display = 'none';
+                    // Hide Paper 3 for economics
+                    document.querySelector('#paperSelect option[value="Paper3"]').style.display = 'none';
                 } else {
                     document.getElementById('subtopicsGroup').style.display = 'block';
+                    // Show Paper 3 for math/physics
+                    document.querySelector('#paperSelect option[value="Paper3"]').style.display = 'block';
                 }
             } catch (error) {
                 console.error('Error loading subject info:', error);
@@ -719,6 +723,47 @@
             document.getElementById('timer').textContent =
                 `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
         }
+
+        // ===== CHAT FUNCTIONALITY =====
+        const socket = io();
+
+        socket.on('receive_message', (data) => {
+            const messagesDiv = document.getElementById('chatMessages');
+            const messageEl = document.createElement('div');
+            messageEl.className = 'chat-message';
+            messageEl.innerHTML = `<span class="username">${data.username}:</span> ${data.message}`;
+            messagesDiv.appendChild(messageEl);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        });
+
+        document.getElementById('sendChatBtn').addEventListener('click', () => {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+            if (message) {
+                socket.emit('send_message', { message });
+                input.value = '';
+            }
+        });
+
+        document.getElementById('chatInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                document.getElementById('sendChatBtn').click();
+            }
+        });
+
+        // Load chat history
+        fetch('/api/chat/messages')
+            .then(r => r.json())
+            .then(data => {
+                const messagesDiv = document.getElementById('chatMessages');
+                data.messages.forEach(msg => {
+                    const messageEl = document.createElement('div');
+                    messageEl.className = 'chat-message';
+                    messageEl.innerHTML = `<span class="username">${msg.username}:</span> ${msg.message}`;
+                    messagesDiv.appendChild(messageEl);
+                });
+                messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            });
 
         // ===== EVENT LISTENERS =====
         document.getElementById('randomBtn').addEventListener('click', loadRandomQuestion);
