@@ -131,7 +131,8 @@ class MathAdapter(SubjectAdapter):
         if not question:
             return None
 
-        question_path = self.base_path / question['path']
+        # JSON path already includes the base folder, so use parent directory
+        question_path = self.base_path.parent / question['path']
 
         # Math uses images
         return {
