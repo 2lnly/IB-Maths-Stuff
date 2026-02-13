@@ -152,6 +152,32 @@ def init_database():
             ''')
 
             cursor.execute('CREATE INDEX IF NOT EXISTS idx_notes_question ON question_notes(question_id, subject)')
+
+            # New tables for unified interface
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS user_filter_presets (
+                    id SERIAL PRIMARY KEY,
+                    user_id INTEGER NOT NULL,
+                    preset_name VARCHAR(100) NOT NULL,
+                    subject VARCHAR(20) NOT NULL,
+                    filters JSONB NOT NULL,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+                )
+            ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS generated_papers (
+                    id SERIAL PRIMARY KEY,
+                    user_id INTEGER NOT NULL,
+                    paper_name VARCHAR(200) NOT NULL,
+                    subject VARCHAR(20) NOT NULL,
+                    filters JSONB,
+                    question_ids TEXT[],
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+                )
+            ''')
         else:
             # SQLite syntax
             cursor.execute('''
@@ -239,6 +265,32 @@ def init_database():
             ''')
 
             cursor.execute('CREATE INDEX IF NOT EXISTS idx_notes_question ON question_notes(question_id, subject)')
+
+            # New tables for unified interface
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS user_filter_presets (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    user_id INTEGER NOT NULL,
+                    preset_name TEXT NOT NULL,
+                    subject TEXT NOT NULL,
+                    filters TEXT NOT NULL,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+                )
+            ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS generated_papers (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    user_id INTEGER NOT NULL,
+                    paper_name TEXT NOT NULL,
+                    subject TEXT NOT NULL,
+                    filters TEXT,
+                    question_ids TEXT,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+                )
+            ''')
 
         conn.commit()
 

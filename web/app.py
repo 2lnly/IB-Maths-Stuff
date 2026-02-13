@@ -901,6 +901,10 @@ def get_filtered_economics_question():
 
 # Economics now uses text display, no image endpoint needed
 
+# Register unified routes for new interface
+from unified_routes import register_unified_routes
+register_unified_routes(app)
+
 
 if __name__ == '__main__':
     import os
