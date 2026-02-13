@@ -540,11 +540,14 @@ class SubjectManager:
         },
     }
 
-    def __init__(self, subject: str, base_dir: str = '/home/xiaohe/stuff/claudable'):
+    def __init__(self, subject: str, base_dir: str = None):
         if subject not in self.SUBJECTS:
             raise ValueError(f"Unknown subject: {subject}. Must be one of {list(self.SUBJECTS.keys())}")
 
         self.subject = subject
+        # Default base_dir is parent of web/ directory
+        if base_dir is None:
+            base_dir = Path(__file__).parent.parent
         self.base_dir = Path(base_dir)
         self.config = self.SUBJECTS[subject]
 
