@@ -144,6 +144,7 @@ class MathAdapter(SubjectAdapter):
                 'description': question.get('description'),
             },
             'question_path': str(question_path),
+            'relative_path': question['path'],  # Relative path for image URLs
             'images': self._get_question_images(question_path),
             'answer_images': self._get_answer_images(question_path),
         }
@@ -300,6 +301,7 @@ class PhysicsAdapter(SubjectAdapter):
                 'text_incomplete': question.get('text_incomplete', False),
             },
             'question_path': str(question_path),
+            'relative_path': str(question_path).replace('/home/xiaohe/stuff/claudable/Physics Flattened/', ''),  # Relative path for image URLs
             'images': self._get_question_images(question_path),
             'answer_images': self._get_answer_images(question_path),
         }
