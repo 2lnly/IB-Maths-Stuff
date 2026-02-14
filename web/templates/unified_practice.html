@@ -578,8 +578,15 @@
         // ===== API CALLS =====
         async function loadSubjectInfo() {
             try {
+                console.log('Loading subject info for:', appState.currentSubject);
                 const response = await fetch(`/api/subject/${appState.currentSubject}/info`);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
                 const data = await response.json();
+                console.log('Subject info loaded:', data);
 
                 // Populate topics
                 populateTopics(data.topics);
@@ -588,19 +595,29 @@
                 if (appState.currentSubject === 'economics') {
                     document.getElementById('subtopicsGroup').style.display = 'none';
                     // Hide Paper 3 for economics
-                    document.querySelector('#paperSelect option[value="Paper3"]').style.display = 'none';
+                    const paper3Option = document.querySelector('#paperSelect option[value="Paper3"]');
+                    if (paper3Option) paper3Option.style.display = 'none';
                 } else {
                     document.getElementById('subtopicsGroup').style.display = 'block';
                     // Show Paper 3 for math/physics
-                    document.querySelector('#paperSelect option[value="Paper3"]').style.display = 'block';
+                    const paper3Option = document.querySelector('#paperSelect option[value="Paper3"]');
+                    if (paper3Option) paper3Option.style.display = 'block';
                 }
             } catch (error) {
                 console.error('Error loading subject info:', error);
+                alert('Failed to load subject info. Check console for details.');
             }
         }
 
         function populateTopics(topicsData) {
+            console.log('Populating topics with data:', topicsData);
             const topicsContainer = document.getElementById('topicsCheckboxes');
+
+            if (!topicsContainer) {
+                console.error('Topics container not found!');
+                return;
+            }
+
             topicsContainer.innerHTML = '';
 
             // Get all unique topics across papers
@@ -608,6 +625,8 @@
             Object.values(topicsData).forEach(paperTopics => {
                 Object.keys(paperTopics).forEach(topic => allTopics.add(topic));
             });
+
+            console.log(`Found ${allTopics.size} unique topics`);
 
             allTopics.forEach(topic => {
                 const div = document.createElement('div');
@@ -633,29 +652,47 @@
         }
 
         async function loadRandomQuestion() {
+            console.log('Loading random question for:', appState.currentSubject);
+
             // Build filter params
             const params = new URLSearchParams();
 
-            // Add selected papers
+            // Add selected papers (support multiple)
             const selectedPapers = Array.from(document.querySelectorAll('#paperSelect option:checked'))
                 .map(opt => opt.value);
             if (selectedPapers.length > 0) {
-                params.append('paper', selectedPapers[0]); // For now, use first selected
+                params.append('papers', selectedPapers.join(','));
             }
 
             // Add year range
             params.append('year_min', document.getElementById('yearMin').value);
             params.append('year_max', document.getElementById('yearMax').value);
 
+            console.log('Filters:', params.toString());
+
             try {
-                const response = await fetch(`/api/subject/${appState.currentSubject}/random?${params}`);
+                const url = `/api/subject/${appState.currentSubject}/random?${params}`;
+                console.log('Fetching:', url);
+
+                const response = await fetch(url);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
                 const data = await response.json();
+                console.log('Question data received:', data);
 
                 if (data.question) {
-                    displayQuestion(data.question);
+                    await displayQuestion(data.question);
+                } else if (data.error) {
+                    alert('Error: ' + data.error);
+                } else {
+                    alert('No question returned from server');
                 }
             } catch (error) {
                 console.error('Error loading question:', error);
+                alert('Failed to load question. Check console for details.');
             }
         }
 

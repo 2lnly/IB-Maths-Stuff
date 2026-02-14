@@ -86,7 +86,7 @@ class MathAdapter(SubjectAdapter):
 
     def filter_questions(self, filters: Dict) -> List[Dict]:
         """Filter math questions."""
-        paper = filters.get('paper')
+        papers = filters.get('papers', [])
         topics = filters.get('topics', [])
         subtopics = filters.get('subtopics', [])
         year_min = filters.get('year_min')
@@ -96,8 +96,8 @@ class MathAdapter(SubjectAdapter):
         results = []
 
         for question_id, question in self.data.items():
-            # Paper filter
-            if paper and question.get('paper') != paper:
+            # Paper filter (support multiple papers)
+            if papers and question.get('paper') not in papers:
                 continue
 
             # Topics filter (if specified)
@@ -227,7 +227,7 @@ class PhysicsAdapter(SubjectAdapter):
 
     def filter_questions(self, filters: Dict) -> List[Dict]:
         """Filter physics questions."""
-        paper = filters.get('paper')
+        papers = filters.get('papers', [])
         topics = filters.get('topics', [])
         subtopics = filters.get('subtopics', [])
         year_min = filters.get('year_min')
@@ -237,8 +237,8 @@ class PhysicsAdapter(SubjectAdapter):
         results = []
 
         for question_id, question in self.data.items():
-            # Paper filter
-            if paper and question.get('paper') != paper:
+            # Paper filter (support multiple papers)
+            if papers and question.get('paper') not in papers:
                 continue
 
             # Topics filter
@@ -406,7 +406,7 @@ class EconomicsAdapter(SubjectAdapter):
 
     def filter_questions(self, filters: Dict) -> List[Dict]:
         """Filter economics questions."""
-        paper = filters.get('paper')
+        papers = filters.get('papers', [])
         topics = filters.get('topics', [])
         year_min = filters.get('year_min')
         year_max = filters.get('year_max')
@@ -415,8 +415,8 @@ class EconomicsAdapter(SubjectAdapter):
         results = []
 
         for question_id, question in self.data.items():
-            # Paper filter
-            if paper and question.get('paper') != paper:
+            # Paper filter (support multiple papers)
+            if papers and question.get('paper') not in papers:
                 continue
 
             # Topics filter

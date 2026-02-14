@@ -43,8 +43,11 @@ def register_unified_routes(app):
 
             # Parse filters from query params
             filters = {}
-            if request.args.get('paper'):
-                filters['paper'] = request.args.get('paper')
+            # Support both 'paper' (single) and 'papers' (multiple)
+            if request.args.get('papers'):
+                filters['papers'] = request.args.get('papers').split(',')
+            elif request.args.get('paper'):
+                filters['papers'] = [request.args.get('paper')]
             if request.args.get('topics'):
                 filters['topics'] = request.args.get('topics').split(',')
             if request.args.get('subtopics'):
@@ -74,8 +77,11 @@ def register_unified_routes(app):
 
             # Parse filters from query params
             filters = {}
-            if request.args.get('paper'):
-                filters['paper'] = request.args.get('paper')
+            # Support both 'paper' (single) and 'papers' (multiple)
+            if request.args.get('papers'):
+                filters['papers'] = request.args.get('papers').split(',')
+            elif request.args.get('paper'):
+                filters['papers'] = [request.args.get('paper')]
             if request.args.get('topics'):
                 filters['topics'] = request.args.get('topics').split(',')
             if request.args.get('subtopics'):
@@ -374,7 +380,8 @@ def register_unified_routes(app):
     def unified_serve_image(subject, folder, image):
         """Serve question images for unified interface."""
         try:
-            base_dir = Path('/home/xiaohe/stuff/claudable')
+            # Use parent of web directory (works both locally and on Render)
+            base_dir = Path(__file__).parent.parent
 
             # Get subject base path
             subject_paths = {
