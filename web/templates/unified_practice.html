@@ -713,7 +713,7 @@
                 // Display images
                 displayData.images.forEach(imgName => {
                     const img = document.createElement('img');
-                    img.src = `/api/image/${appState.currentSubject}/${displayData.relative_path}/${imgName}`;
+                    img.src = `/api/unified/image/${appState.currentSubject}/${displayData.relative_path}/${imgName}`;
                     img.className = 'question-image';
                     displayArea.appendChild(img);
                 });

@@ -376,7 +376,7 @@ def register_unified_routes(app):
             })
         return jsonify({'authenticated': False})
 
-    @app.route('/api/image/<subject>/<path:folder>/<image>')
+    @app.route('/api/unified/image/<subject>/<path:folder>/<image>')
     def unified_serve_image(subject, folder, image):
         """Serve question images for unified interface."""
         try:
