@@ -394,8 +394,8 @@ def register_unified_routes(app):
                 return jsonify({'error': 'Invalid subject'}), 400
 
             # Construct image path
-            # folder is like "Paper_1/Q176_TZ1_2012_sequences"
-            image_path = base_dir / subject_paths[subject] / folder / image
+            # folder already includes subject path: "practice/paper 1/Q503_2021_diff"
+            image_path = base_dir / folder / image
 
             if not image_path.exists():
                 return jsonify({'error': 'Image not found'}), 404
