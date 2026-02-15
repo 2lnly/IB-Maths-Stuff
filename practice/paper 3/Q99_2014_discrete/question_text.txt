@@ -1,0 +1,29 @@
+Here is the text extracted from the image, including all mathematical notation, equations, and symbols:
+
+4. [Maximum mark: 21]
+
+If X is a random variable that follows a Poisson distribution with mean λ > 0, then the probability generating function of X is G(t) = e^(λ(t-1)).
+
+(a) (i) Prove that E(X) = λ.
+    (ii) Prove that Var(X) = λ. [6]
+
+Y is a random variable, independent of X, that also follows a Poisson distribution with mean λ.
+
+(b) If S = 2X - Y find
+    (i) E(S);
+    (ii) Var(S). [3]
+
+Let T = (X + Y)/2.
+
+(c) (i) Show that T is an unbiased estimator for λ.
+    (ii) Show that T is a more efficient unbiased estimator of λ than S. [3]
+
+(d) Could either S or T model a Poisson distribution? Justify your answer. [1]
+
+(e) By consideration of the probability generating function, G_{X+Y}(t), of X + Y, prove that X + Y follows a Poisson distribution with mean 2 λ. [3]
+
+(f) Find
+    (i) G_{X+Y}(1);
+    (ii) G_{X+Y}(-1). [2]
+
+(g) Hence find the probability that X + Y is an even number. [3]
