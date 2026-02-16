@@ -341,6 +341,189 @@
             max-width: 100%;
             border-radius: 8px;
             margin-bottom: 1rem;
+            transition: filter 0.3s;
+        }
+
+        .question-image.inverted {
+            filter: invert(1) hue-rotate(180deg);
+        }
+
+        .question-metadata {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.5rem;
+        }
+
+        .question-metadata .meta-item {
+            display: inline-block;
+            margin-right: 1rem;
+            padding: 0.25rem 0.5rem;
+            background: var(--bg-secondary);
+            border-radius: 4px;
+        }
+
+        /* Modal styles */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--accent-current);
+        }
+
+        .modal-header h3 {
+            margin: 0;
+            color: var(--accent-current);
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        .modal-close:hover {
+            background: var(--bg-hover);
+        }
+
+        .modal-body {
+            color: var(--text-primary);
+        }
+
+        .history-item, .saved-item {
+            padding: 1rem;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            margin-bottom: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .history-item:hover, .saved-item:hover {
+            background: var(--bg-tertiary);
+            transform: translateX(5px);
+        }
+
+        .item-id {
+            font-weight: bold;
+            color: var(--accent-current);
+        }
+
+        .item-meta {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
+        .note-item {
+            padding: 1rem;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            margin-bottom: 0.75rem;
+        }
+
+        .note-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+
+        .note-author {
+            font-weight: bold;
+            color: var(--accent-current);
+        }
+
+        .note-date {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .note-text {
+            color: var(--text-primary);
+        }
+
+        .note-input-area {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .note-input-area textarea {
+            width: 100%;
+            min-height: 100px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.75rem;
+            color: var(--text-primary);
+            font-family: inherit;
+            resize: vertical;
+        }
+
+        .note-input-area textarea:focus {
+            outline: none;
+            border-color: var(--accent-current);
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .modal-actions button {
+            flex: 1;
+        }
+
+        /* Chat modal specific */
+        .chat-modal .modal-content {
+            max-width: 800px;
+        }
+
+        .empty-state {
+            text-align: center;
+            color: var(--text-secondary);
+            padding: 2rem;
         }
 
         .question-text {
@@ -527,11 +710,15 @@
                 <div class="question-header">
                     <div class="question-meta">
                         <span id="questionId">No question loaded</span>
+                        <div id="questionMetadata" class="question-metadata"></div>
                     </div>
                     <div class="question-actions">
                         <button class="action-btn" id="showAnswerBtn">Show Answer</button>
-                        <button class="action-btn" id="saveBtn">Save</button>
-                        <button class="action-btn" id="notesBtn">Notes</button>
+                        <button class="action-btn" id="invertColorsBtn" title="Invert image colors (better for dark theme)">
+                            🔄 Invert Colors
+                        </button>
+                        <button class="action-btn" id="saveBtn">💾 Save</button>
+                        <button class="action-btn" id="notesBtn">📝 Notes</button>
                     </div>
                 </div>
 
@@ -568,6 +755,64 @@
                 </div>
             </aside>
         </main>
+    </div>
+
+    <!-- Chat Modal -->
+    <div id="chatModal" class="modal-overlay chat-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Global Chat</h3>
+                <button class="modal-close" onclick="closeChatModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="chat-messages" id="modalChatMessages" style="max-height: 400px; overflow-y: auto; margin-bottom: 1rem;">
+                    <!-- Messages load here -->
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="modalChatInput" placeholder="Type a message..." style="flex: 1; padding: 0.75rem; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary);">
+                    <button class="action-btn" id="modalSendChatBtn" style="margin-left: 0.5rem;">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- History Modal -->
+    <div id="historyModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Question History</h3>
+                <button class="modal-close" onclick="closeHistoryModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="historyContent">
+                <p class="empty-state">Loading history...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Saved Questions Modal -->
+    <div id="savedModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Saved Questions</h3>
+                <button class="modal-close" onclick="closeSavedModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="savedContent">
+                <p class="empty-state">Loading saved questions...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notes Modal -->
+    <div id="notesModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Community Notes</h3>
+                <button class="modal-close" onclick="closeNotesModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="notesContent">
+                <p class="empty-state">Loading notes...</p>
+            </div>
+        </div>
     </div>
 
     <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
@@ -795,6 +1040,15 @@
             // Update question ID display
             document.getElementById('questionId').textContent = question.question_id;
 
+            // Display metadata
+            const metadataDiv = document.getElementById('questionMetadata');
+            metadataDiv.innerHTML = `
+                <span class="meta-item">📚 ${question.primary_topic || 'N/A'}</span>
+                <span class="meta-item">📖 ${question.primary_subtopic || 'N/A'}</span>
+                <span class="meta-item">📅 ${question.year || 'N/A'}</span>
+                <span class="meta-item">📄 ${question.paper || 'N/A'}</span>
+            `;
+
             // Get full display data
             const response = await fetch(`/api/subject/${appState.currentSubject}/question/${question.question_id}`);
             const displayData = await response.json();
@@ -806,11 +1060,11 @@
             displayArea.innerHTML = '';
 
             if (displayData.mode === 'image') {
-                // Display images
+                // Display images with inversion ON by default
                 displayData.images.forEach(imgName => {
                     const img = document.createElement('img');
                     img.src = `/api/unified/image/${appState.currentSubject}/${displayData.relative_path}/${imgName}`;
-                    img.className = 'question-image';
+                    img.className = 'question-image inverted'; // Default to inverted
                     displayArea.appendChild(img);
                 });
             } else {
@@ -824,6 +1078,9 @@
                 `;
                 displayArea.appendChild(textDiv);
             }
+
+            // Update save button state
+            checkIfSaved();
 
             // Start timer
             startTimer();
@@ -847,11 +1104,11 @@
             displayArea.appendChild(separator);
 
             if (data.mode === 'image' && data.answer_images && data.answer_images.length > 0) {
-                // Display answer images
+                // Display answer images with inversion ON by default
                 data.answer_images.forEach(imgName => {
                     const img = document.createElement('img');
                     img.src = `/api/unified/image/${appState.currentSubject}/${data.relative_path}/${imgName}`;
-                    img.className = 'question-image';
+                    img.className = 'question-image inverted'; // Default to inverted
                     displayArea.appendChild(img);
                 });
             } else if (data.text && data.text.markscheme) {
@@ -900,12 +1157,25 @@
         const socket = io();
 
         socket.on('receive_message', (data) => {
-            const messagesDiv = document.getElementById('chatMessages');
-            const messageEl = document.createElement('div');
-            messageEl.className = 'chat-message';
-            messageEl.innerHTML = `<span class="username">${data.username}:</span> ${data.message}`;
-            messagesDiv.appendChild(messageEl);
-            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            const messageHTML = `<span class="username">${data.username}:</span> ${data.message}`;
+
+            // Add to sidebar chat
+            const sidebarDiv = document.getElementById('chatMessages');
+            const sidebarMsg = document.createElement('div');
+            sidebarMsg.className = 'chat-message';
+            sidebarMsg.innerHTML = messageHTML;
+            sidebarDiv.appendChild(sidebarMsg);
+            sidebarDiv.scrollTop = sidebarDiv.scrollHeight;
+
+            // Add to modal chat if it exists
+            const modalDiv = document.getElementById('modalChatMessages');
+            if (modalDiv) {
+                const modalMsg = document.createElement('div');
+                modalMsg.className = 'chat-message';
+                modalMsg.innerHTML = messageHTML;
+                modalDiv.appendChild(modalMsg);
+                modalDiv.scrollTop = modalDiv.scrollHeight;
+            }
         });
 
         document.getElementById('sendChatBtn').addEventListener('click', () => {
@@ -937,34 +1207,306 @@
                 messagesDiv.scrollTop = messagesDiv.scrollHeight;
             });
 
+        // ===== IMAGE INVERSION =====
+        document.getElementById('invertColorsBtn').addEventListener('click', () => {
+            const images = document.querySelectorAll('.question-image');
+            images.forEach(img => img.classList.toggle('inverted'));
+        });
+
+        // ===== MODAL FUNCTIONS =====
+        function openChatModal() {
+            document.getElementById('chatModal').classList.add('active');
+            // Copy messages from sidebar to modal
+            const sidebarMessages = document.getElementById('chatMessages').innerHTML;
+            document.getElementById('modalChatMessages').innerHTML = sidebarMessages;
+            // Focus input
+            document.getElementById('modalChatInput').focus();
+        }
+
+        function closeChatModal() {
+            document.getElementById('chatModal').classList.remove('active');
+        }
+
+        async function openHistoryModal() {
+            document.getElementById('historyModal').classList.add('active');
+            const content = document.getElementById('historyContent');
+            content.innerHTML = '<p class="empty-state">Loading history...</p>';
+
+            try {
+                const response = await fetch(`/api/history?subject=${appState.currentSubject}&limit=50`);
+                const data = await response.json();
+
+                if (data.history.length === 0) {
+                    content.innerHTML = '<p class="empty-state">No history yet. Start practicing!</p>';
+                    return;
+                }
+
+                content.innerHTML = data.history.map(item => `
+                    <div class="history-item" onclick="loadQuestionById('${item.question_id}')">
+                        <div class="item-id">${item.question_id}</div>
+                        <div class="item-meta">
+                            ${item.topic || ''} ${item.subtopic ? '• ' + item.subtopic : ''} • ${item.year || ''}
+                            ${item.time_spent ? ' • ' + formatTime(item.time_spent) : ''}
+                        </div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                content.innerHTML = '<p class="empty-state">Error loading history</p>';
+            }
+        }
+
+        function closeHistoryModal() {
+            document.getElementById('historyModal').classList.remove('active');
+        }
+
+        async function openSavedModal() {
+            document.getElementById('savedModal').classList.add('active');
+            const content = document.getElementById('savedContent');
+            content.innerHTML = '<p class="empty-state">Loading saved questions...</p>';
+
+            try {
+                const response = await fetch(`/api/saved?subject=${appState.currentSubject}`);
+                const data = await response.json();
+
+                if (data.saved.length === 0) {
+                    content.innerHTML = '<p class="empty-state">No saved questions yet. Click Save on a question!</p>';
+                    return;
+                }
+
+                content.innerHTML = data.saved.map(item => `
+                    <div class="saved-item" onclick="loadQuestionById('${item.question_id}')">
+                        <div class="item-id">${item.question_id}</div>
+                        <div class="item-meta">
+                            ${item.topic || ''} ${item.subtopic ? '• ' + item.subtopic : ''} • ${item.year || ''}
+                        </div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                content.innerHTML = '<p class="empty-state">Error loading saved questions</p>';
+            }
+        }
+
+        function closeSavedModal() {
+            document.getElementById('savedModal').classList.remove('active');
+        }
+
+        async function openNotesModal() {
+            if (!appState.currentQuestion) {
+                alert('Load a question first!');
+                return;
+            }
+
+            document.getElementById('notesModal').classList.add('active');
+            const content = document.getElementById('notesContent');
+            content.innerHTML = '<p class="empty-state">Loading notes...</p>';
+
+            try {
+                const response = await fetch(`/api/notes/${appState.currentSubject}/${appState.currentQuestion.question_id}`);
+                const data = await response.json();
+
+                let notesHTML = '';
+                if (data.notes && data.notes.length > 0) {
+                    notesHTML = data.notes.map(note => `
+                        <div class="note-item">
+                            <div class="note-header">
+                                <span class="note-author">${note.username}</span>
+                                <span class="note-date">${new Date(note.created_at).toLocaleDateString()}</span>
+                            </div>
+                            <div class="note-text">${note.note}</div>
+                        </div>
+                    `).join('');
+                } else {
+                    notesHTML = '<p class="empty-state">No notes yet. Be the first to add one!</p>';
+                }
+
+                content.innerHTML = `
+                    ${notesHTML}
+                    <div class="note-input-area">
+                        <h4>Add a Note</h4>
+                        <textarea id="noteTextarea" placeholder="Share your thoughts, tips, or solutions..."></textarea>
+                        <div class="modal-actions">
+                            <button class="btn btn-secondary" onclick="closeNotesModal()">Cancel</button>
+                            <button class="btn btn-primary" onclick="submitNote()">Submit Note</button>
+                        </div>
+                    </div>
+                `;
+            } catch (error) {
+                content.innerHTML = '<p class="empty-state">Error loading notes</p>';
+            }
+        }
+
+        function closeNotesModal() {
+            document.getElementById('notesModal').classList.remove('active');
+        }
+
+        async function submitNote() {
+            const textarea = document.getElementById('noteTextarea');
+            const note = textarea.value.trim();
+
+            if (!note) {
+                alert('Please enter a note');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/notes/add', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({
+                        question_id: appState.currentQuestion.question_id,
+                        subject: appState.currentSubject,
+                        note: note
+                    })
+                });
+
+                const data = await response.json();
+                if (data.success) {
+                    closeNotesModal();
+                    alert('Note added successfully!');
+                } else {
+                    alert(data.message || 'Error adding note');
+                }
+            } catch (error) {
+                alert('Error adding note');
+            }
+        }
+
+        // ===== SAVE/UNSAVE QUESTION =====
+        let questionIsSaved = false;
+
+        async function checkIfSaved() {
+            if (!appState.currentQuestion) return;
+
+            try {
+                const response = await fetch(`/api/saved?subject=${appState.currentSubject}`);
+                const data = await response.json();
+                questionIsSaved = data.saved.some(item => item.question_id === appState.currentQuestion.question_id);
+
+                const saveBtn = document.getElementById('saveBtn');
+                saveBtn.textContent = questionIsSaved ? '✅ Saved' : '💾 Save';
+            } catch (error) {
+                console.error('Error checking saved status:', error);
+            }
+        }
+
+        async function toggleSaveQuestion() {
+            if (!appState.currentQuestion) {
+                alert('Load a question first!');
+                return;
+            }
+
+            try {
+                if (questionIsSaved) {
+                    // Unsave
+                    const response = await fetch('/api/save-question', {
+                        method: 'DELETE',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({
+                            question_id: appState.currentQuestion.question_id,
+                            subject: appState.currentSubject
+                        })
+                    });
+                    const data = await response.json();
+                    if (data.success) {
+                        questionIsSaved = false;
+                        document.getElementById('saveBtn').textContent = '💾 Save';
+                    }
+                } else {
+                    // Save
+                    const response = await fetch('/api/save-question', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({
+                            question_id: appState.currentQuestion.question_id,
+                            subject: appState.currentSubject
+                        })
+                    });
+                    const data = await response.json();
+                    if (data.success) {
+                        questionIsSaved = true;
+                        document.getElementById('saveBtn').textContent = '✅ Saved';
+                    }
+                }
+            } catch (error) {
+                alert('Error saving question');
+            }
+        }
+
+        // ===== LOAD QUESTION BY ID =====
+        async function loadQuestionById(questionId) {
+            try {
+                // Close any open modals
+                closeHistoryModal();
+                closeSavedModal();
+
+                // Find the question in current subject data
+                const response = await fetch(`/api/subject/${appState.currentSubject}/question/${questionId}`);
+                if (!response.ok) {
+                    throw new Error('Question not found');
+                }
+
+                // Create a question object
+                const displayData = await response.json();
+                const question = {
+                    question_id: questionId,
+                    primary_topic: displayData.topic || displayData.primary_topic,
+                    primary_subtopic: displayData.subtopic || displayData.primary_subtopic,
+                    year: displayData.year,
+                    paper: displayData.paper
+                };
+
+                await displayQuestion(question);
+            } catch (error) {
+                alert('Error loading question: ' + error.message);
+            }
+        }
+
+        // ===== UTILITY FUNCTIONS =====
+        function formatTime(seconds) {
+            const mins = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            return `${mins}:${String(secs).padStart(2, '0')}`;
+        }
+
         // ===== EVENT LISTENERS =====
         document.getElementById('randomBtn').addEventListener('click', loadRandomQuestion);
         document.getElementById('showAnswerBtn').addEventListener('click', showAnswer);
+        document.getElementById('historyBtn').addEventListener('click', openHistoryModal);
+        document.getElementById('savedBtn').addEventListener('click', openSavedModal);
+        document.getElementById('saveBtn').addEventListener('click', toggleSaveQuestion);
+        document.getElementById('notesBtn').addEventListener('click', openNotesModal);
 
-        document.getElementById('historyBtn').addEventListener('click', () => {
-            alert('History feature: Shows your recently viewed questions. Coming soon!');
-        });
-
-        document.getElementById('savedBtn').addEventListener('click', () => {
-            alert('Saved questions feature: View your bookmarked questions. Coming soon!');
-        });
-
-        document.getElementById('saveBtn').addEventListener('click', () => {
-            if (!appState.currentQuestion) {
-                alert('Load a question first!');
-                return;
+        // Chat modal events
+        document.getElementById('modalSendChatBtn').addEventListener('click', () => {
+            const input = document.getElementById('modalChatInput');
+            const message = input.value.trim();
+            if (message) {
+                socket.emit('send_message', { message });
+                input.value = '';
+                closeChatModal();
             }
-            alert(`Question ${appState.currentQuestion.question_id} saved! (Feature coming soon)`);
         });
 
-        document.getElementById('notesBtn').addEventListener('click', () => {
-            if (!appState.currentQuestion) {
-                alert('Load a question first!');
-                return;
+        document.getElementById('modalChatInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                document.getElementById('modalSendChatBtn').click();
             }
-            const notes = prompt('Enter your notes for this question:');
-            if (notes) {
-                alert('Notes saved! (Feature coming soon)');
+        });
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            // 't' key opens chat modal (only if not typing in an input)
+            if (e.key === 't' && !['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
+                e.preventDefault();
+                openChatModal();
+            }
+
+            // Escape key closes any open modal
+            if (e.key === 'Escape') {
+                closeChatModal();
+                closeHistoryModal();
+                closeSavedModal();
+                closeNotesModal();
             }
         });
 
