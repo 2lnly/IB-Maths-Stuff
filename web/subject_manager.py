@@ -138,11 +138,18 @@ class MathAdapter(SubjectAdapter):
         return {
             'mode': 'image',
             'question_id': question_id,
+            'year': question.get('year'),
+            'paper': question.get('paper'),
+            'topic': question.get('primary_topic'),
+            'subtopic': question.get('primary_subtopic'),
+            'session': question.get('session'),
             'metadata': {
                 'paper': question.get('paper'),
                 'topic': question.get('primary_topic'),
                 'subtopic': question.get('primary_subtopic'),
                 'description': question.get('description'),
+                'year': question.get('year'),
+                'session': question.get('session'),
             },
             'question_path': str(question_path),
             'relative_path': question['path'],  # Relative path for image URLs

@@ -531,15 +531,40 @@
             color: var(--text-primary);
         }
 
-        .timer-display {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--accent-current);
-            text-align: center;
+        .timer-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
             padding: 1rem;
             background: var(--bg-tertiary);
             border-radius: 8px;
             margin-bottom: 1rem;
+        }
+
+        .timer-display {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-current);
+        }
+
+        .timer-display.hidden {
+            visibility: hidden;
+        }
+
+        .timer-toggle {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 0.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: all 0.2s;
+        }
+
+        .timer-toggle:hover {
+            background: var(--bg-hover);
         }
 
         /* Side Panel */
@@ -722,7 +747,10 @@
                     </div>
                 </div>
 
-                <div class="timer-display" id="timer">00:00:00</div>
+                <div class="timer-container">
+                    <div class="timer-display" id="timer">00:00:00</div>
+                    <button class="timer-toggle" id="timerToggle" title="Hide timer">👁️</button>
+                </div>
 
                 <div class="question-display" id="questionDisplay">
                     <p class="loading">Select filters and click "Random Question" to start</p>
@@ -1213,6 +1241,24 @@
             images.forEach(img => img.classList.toggle('inverted'));
         });
 
+        // ===== TIMER TOGGLE =====
+        let timerVisible = true;
+        document.getElementById('timerToggle').addEventListener('click', () => {
+            const timer = document.getElementById('timer');
+            const toggleBtn = document.getElementById('timerToggle');
+            timerVisible = !timerVisible;
+
+            if (timerVisible) {
+                timer.classList.remove('hidden');
+                toggleBtn.textContent = '👁️';
+                toggleBtn.title = 'Hide timer';
+            } else {
+                timer.classList.add('hidden');
+                toggleBtn.textContent = '🚫';
+                toggleBtn.title = 'Show timer';
+            }
+        });
+
         // ===== MODAL FUNCTIONS =====
         function openChatModal() {
             document.getElementById('chatModal').classList.add('active');
@@ -1245,8 +1291,8 @@
                     <div class="history-item" onclick="loadQuestionById('${item.question_id}')">
                         <div class="item-id">${item.question_id}</div>
                         <div class="item-meta">
-                            ${item.topic || ''} ${item.subtopic ? '• ' + item.subtopic : ''} • ${item.year || ''}
-                            ${item.time_spent ? ' • ' + formatTime(item.time_spent) : ''}
+                            ${item.topic || ''} ${item.subtopic ? ' ' + item.subtopic : ''} ${item.year || ''}
+                            ${item.time_spent ? ' ' + formatTime(item.time_spent) : ''}
                         </div>
                     </div>
                 `).join('');
@@ -1277,7 +1323,7 @@
                     <div class="saved-item" onclick="loadQuestionById('${item.question_id}')">
                         <div class="item-id">${item.question_id}</div>
                         <div class="item-meta">
-                            ${item.topic || ''} ${item.subtopic ? '• ' + item.subtopic : ''} • ${item.year || ''}
+                            ${item.topic || ''} ${item.subtopic ? ' ' + item.subtopic : ''} ${item.year || ''}
                         </div>
                     </div>
                 `).join('');
@@ -1445,14 +1491,14 @@
                     throw new Error('Question not found');
                 }
 
-                // Create a question object
+                // Create a question object from the API response
                 const displayData = await response.json();
                 const question = {
                     question_id: questionId,
-                    primary_topic: displayData.topic || displayData.primary_topic,
-                    primary_subtopic: displayData.subtopic || displayData.primary_subtopic,
-                    year: displayData.year,
-                    paper: displayData.paper
+                    primary_topic: displayData.topic || displayData.primary_topic || displayData.metadata?.topic,
+                    primary_subtopic: displayData.subtopic || displayData.primary_subtopic || displayData.metadata?.subtopic,
+                    year: displayData.year || displayData.metadata?.year,
+                    paper: displayData.paper || displayData.metadata?.paper
                 };
 
                 await displayQuestion(question);
