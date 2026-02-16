@@ -539,6 +539,7 @@
         const appState = {
             currentSubject: 'math',
             currentQuestion: null,
+            topicsData: null, // Store full topics structure for filtering
             selectedPapers: [],
             selectedTopics: [],
             selectedSubtopics: [],
@@ -611,6 +612,10 @@
 
         function populateTopics(topicsData) {
             console.log('Populating topics with data:', topicsData);
+
+            // Store topics data in appState for later use
+            appState.topicsData = topicsData;
+
             const topicsContainer = document.getElementById('topicsCheckboxes');
 
             if (!topicsContainer) {
@@ -640,6 +645,9 @@
                 // Add event listener
                 div.querySelector('input').addEventListener('change', updateSubtopics);
             });
+
+            // Initialize empty subtopics
+            updateSubtopics();
         }
 
         function updateSubtopics() {
@@ -647,8 +655,38 @@
             const selectedTopics = Array.from(document.querySelectorAll('#topicsCheckboxes input:checked'))
                 .map(cb => cb.value);
 
-            // Load subtopics for selected topics
-            // (This would fetch from API or use cached data)
+            const subtopicsContainer = document.getElementById('subtopicsCheckboxes');
+            if (!subtopicsContainer) return;
+
+            subtopicsContainer.innerHTML = '';
+
+            // If no topics selected, show nothing
+            if (selectedTopics.length === 0 || !appState.topicsData) {
+                return;
+            }
+
+            // Get all subtopics for selected topics across all papers
+            const allSubtopics = new Set();
+            Object.values(appState.topicsData).forEach(paperTopics => {
+                selectedTopics.forEach(topic => {
+                    if (paperTopics[topic]) {
+                        paperTopics[topic].forEach(subtopic => allSubtopics.add(subtopic));
+                    }
+                });
+            });
+
+            // Populate subtopics checkboxes
+            allSubtopics.forEach(subtopic => {
+                const div = document.createElement('div');
+                div.className = 'checkbox-item';
+                div.innerHTML = `
+                    <input type="checkbox" id="subtopic-${subtopic}" value="${subtopic}">
+                    <label for="subtopic-${subtopic}">${subtopic.replace(/_/g, ' ')}</label>
+                `;
+                subtopicsContainer.appendChild(div);
+            });
+
+            console.log(`Found ${allSubtopics.size} subtopics for selected topics`);
         }
 
         async function loadRandomQuestion() {
@@ -662,6 +700,20 @@
                 .map(opt => opt.value);
             if (selectedPapers.length > 0) {
                 params.append('papers', selectedPapers.join(','));
+            }
+
+            // Add selected topics
+            const selectedTopics = Array.from(document.querySelectorAll('#topicsCheckboxes input:checked'))
+                .map(cb => cb.value);
+            if (selectedTopics.length > 0) {
+                params.append('topics', selectedTopics.join(','));
+            }
+
+            // Add selected subtopics
+            const selectedSubtopics = Array.from(document.querySelectorAll('#subtopicsCheckboxes input:checked'))
+                .map(cb => cb.value);
+            if (selectedSubtopics.length > 0) {
+                params.append('subtopics', selectedSubtopics.join(','));
             }
 
             // Add year range
