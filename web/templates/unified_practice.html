@@ -729,6 +729,10 @@
                 const response = await fetch(url);
 
                 if (!response.ok) {
+                    if (response.status === 404) {
+                        alert('No questions found matching your filters. Try:\n- Selecting different papers\n- Choosing fewer/different topics\n- Expanding year range');
+                        return;
+                    }
                     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                 }
 
@@ -758,6 +762,9 @@
             const response = await fetch(`/api/subject/${appState.currentSubject}/question/${question.question_id}`);
             const displayData = await response.json();
 
+            // Store display data for answer access
+            appState.currentQuestionData = displayData;
+
             const displayArea = document.getElementById('questionDisplay');
             displayArea.innerHTML = '';
 
@@ -783,6 +790,45 @@
 
             // Start timer
             startTimer();
+        }
+
+        function showAnswer() {
+            if (!appState.currentQuestionData) {
+                alert('Load a question first!');
+                return;
+            }
+
+            const displayArea = document.getElementById('questionDisplay');
+            const data = appState.currentQuestionData;
+
+            // Add separator
+            const separator = document.createElement('div');
+            separator.style.margin = '30px 0';
+            separator.style.borderTop = '3px solid var(--accent-current)';
+            separator.style.paddingTop = '20px';
+            separator.innerHTML = '<h3 style="color: var(--accent-current); margin-bottom: 15px;">ANSWER:</h3>';
+            displayArea.appendChild(separator);
+
+            if (data.mode === 'image' && data.answer_images && data.answer_images.length > 0) {
+                // Display answer images
+                data.answer_images.forEach(imgName => {
+                    const img = document.createElement('img');
+                    img.src = `/api/unified/image/${appState.currentSubject}/${data.relative_path}/${imgName}`;
+                    img.className = 'question-image';
+                    displayArea.appendChild(img);
+                });
+            } else if (data.text && data.text.markscheme) {
+                // Display text markscheme
+                const textDiv = document.createElement('div');
+                textDiv.className = 'question-text';
+                textDiv.style.backgroundColor = 'var(--bg-tertiary)';
+                textDiv.style.padding = '15px';
+                textDiv.style.borderRadius = '8px';
+                textDiv.innerHTML = `<pre style="white-space: pre-wrap;">${data.text.markscheme}</pre>`;
+                displayArea.appendChild(textDiv);
+            } else {
+                alert('No answer available for this question');
+            }
         }
 
         // ===== TIMER =====
@@ -856,6 +902,34 @@
 
         // ===== EVENT LISTENERS =====
         document.getElementById('randomBtn').addEventListener('click', loadRandomQuestion);
+        document.getElementById('showAnswerBtn').addEventListener('click', showAnswer);
+
+        document.getElementById('historyBtn').addEventListener('click', () => {
+            alert('History feature: Shows your recently viewed questions. Coming soon!');
+        });
+
+        document.getElementById('savedBtn').addEventListener('click', () => {
+            alert('Saved questions feature: View your bookmarked questions. Coming soon!');
+        });
+
+        document.getElementById('saveBtn').addEventListener('click', () => {
+            if (!appState.currentQuestion) {
+                alert('Load a question first!');
+                return;
+            }
+            alert(`Question ${appState.currentQuestion.question_id} saved! (Feature coming soon)`);
+        });
+
+        document.getElementById('notesBtn').addEventListener('click', () => {
+            if (!appState.currentQuestion) {
+                alert('Load a question first!');
+                return;
+            }
+            const notes = prompt('Enter your notes for this question:');
+            if (notes) {
+                alert('Notes saved! (Feature coming soon)');
+            }
+        });
 
         // ===== INITIALIZATION =====
         updateThemeColor();
