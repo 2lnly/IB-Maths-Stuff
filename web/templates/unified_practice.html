@@ -526,6 +526,109 @@
             padding: 2rem;
         }
 
+        /* Browse Mode */
+        .browse-container {
+            padding: 2rem;
+        }
+
+        .browse-breadcrumb {
+            margin-bottom: 1.5rem;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .browse-breadcrumb span {
+            cursor: pointer;
+            color: var(--accent-current);
+        }
+
+        .browse-breadcrumb span:hover {
+            text-decoration: underline;
+        }
+
+        .browse-items {
+            display: grid;
+            gap: 0.75rem;
+        }
+
+        .browse-item {
+            padding: 1rem;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .browse-item:hover {
+            background: var(--bg-tertiary);
+            transform: translateX(5px);
+        }
+
+        .browse-item-name {
+            font-weight: 500;
+        }
+
+        .browse-item-count {
+            color: var(--accent-current);
+            font-size: 0.9rem;
+        }
+
+        /* Generate Paper Mode */
+        .generate-container {
+            padding: 2rem;
+        }
+
+        .generate-controls {
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .generate-controls input {
+            padding: 0.5rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            color: var(--text-primary);
+            width: 150px;
+        }
+
+        .generated-paper {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .paper-question {
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent-current);
+        }
+
+        .paper-actions {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+        }
+
+        @media print {
+            .filters-panel, .side-panel, .timer-container, button, .generate-controls {
+                display: none !important;
+            }
+            .paper-question {
+                page-break-inside: avoid;
+            }
+        }
+
         .question-text {
             line-height: 1.6;
             color: var(--text-primary);
@@ -754,6 +857,22 @@
 
                 <div class="question-display" id="questionDisplay">
                     <p class="loading">Select filters and click "Random Question" to start</p>
+                </div>
+
+                <!-- Browse Mode Display -->
+                <div class="browse-container hidden" id="browseContainer">
+                    <div class="browse-breadcrumb" id="browseBreadcrumb"></div>
+                    <div class="browse-items" id="browseItems"></div>
+                </div>
+
+                <!-- Generate Paper Display -->
+                <div class="generate-container hidden" id="generateContainer">
+                    <div class="generate-controls">
+                        <p>Questions matching filters: <strong id="matchingCount">0</strong></p>
+                        <input type="number" id="paperQuestionsCount" min="1" max="50" value="10" placeholder="Number of questions">
+                        <button class="btn" id="generatePaperBtn">Generate Paper</button>
+                    </div>
+                    <div id="generatedPaper" class="generated-paper"></div>
                 </div>
 
                 <div class="question-display hidden" id="answerDisplay">
@@ -1514,8 +1633,272 @@
             return `${mins}:${String(secs).padStart(2, '0')}`;
         }
 
+        // ===== MODE SWITCHING =====
+        let currentMode = 'random'; // 'random', 'browse', 'generate'
+
+        function switchMode(mode) {
+            currentMode = mode;
+
+            // Hide all mode displays
+            document.getElementById('questionDisplay').classList.add('hidden');
+            document.getElementById('browseContainer').classList.add('hidden');
+            document.getElementById('generateContainer').classList.add('hidden');
+
+            // Show selected mode
+            if (mode === 'random') {
+                document.getElementById('questionDisplay').classList.remove('hidden');
+            } else if (mode === 'browse') {
+                document.getElementById('browseContainer').classList.remove('hidden');
+                enterBrowseMode();
+            } else if (mode === 'generate') {
+                document.getElementById('generateContainer').classList.remove('hidden');
+                enterGenerateMode();
+            }
+        }
+
+        // ===== BROWSE MODE =====
+        let browseState = {
+            level: 'topics',
+            selectedTopic: null,
+            selectedSubtopic: null,
+            selectedYear: null
+        };
+
+        async function enterBrowseMode() {
+            browseState = { level: 'topics', selectedTopic: null, selectedSubtopic: null, selectedYear: null };
+            await renderBrowseLevel();
+        }
+
+        async function renderBrowseLevel() {
+            const container = document.getElementById('browseItems');
+            const breadcrumb = document.getElementById('browseBreadcrumb');
+
+            // Update breadcrumb
+            let breadcrumbHTML = '<span onclick="browseReset()">Home</span>';
+            if (browseState.selectedTopic) {
+                breadcrumbHTML += ` > <span onclick="browseBackToTopics()">${browseState.selectedTopic}</span>`;
+            }
+            if (browseState.selectedSubtopic) {
+                breadcrumbHTML += ` > <span onclick="browseBackToSubtopics()">${browseState.selectedSubtopic}</span>`;
+            }
+            if (browseState.selectedYear) {
+                breadcrumbHTML += ` > ${browseState.selectedYear}`;
+            }
+            breadcrumb.innerHTML = breadcrumbHTML;
+
+            // Fetch browse data
+            let url = `/api/subject/${appState.currentSubject}/browse?level=${browseState.level}`;
+            if (browseState.selectedTopic) {
+                url += `&topics=${browseState.selectedTopic}`;
+            }
+            if (browseState.selectedSubtopic) {
+                url += `&subtopics=${browseState.selectedSubtopic}`;
+            }
+            if (browseState.selectedYear) {
+                url += `&year=${browseState.selectedYear}`;
+            }
+
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+
+                if (data.length === 0) {
+                    container.innerHTML = '<p class="empty-state">No items found</p>';
+                    return;
+                }
+
+                container.innerHTML = data.map(item => `
+                    <div class="browse-item" onclick="browseSelect('${item.name || item.question_id}')">
+                        <span class="browse-item-name">${item.name || item.question_id}</span>
+                        <span class="browse-item-count">${item.count !== undefined ? item.count + ' questions' : ''}</span>
+                    </div>
+                `).join('');
+            } catch (error) {
+                container.innerHTML = '<p class="empty-state">Error loading browse data</p>';
+            }
+        }
+
+        function browseSelect(name) {
+            if (browseState.level === 'topics') {
+                browseState.selectedTopic = name;
+                browseState.level = 'subtopics';
+            } else if (browseState.level === 'subtopics') {
+                browseState.selectedSubtopic = name;
+                browseState.level = 'years';
+            } else if (browseState.level === 'years') {
+                browseState.selectedYear = name;
+                browseState.level = 'questions';
+            } else if (browseState.level === 'questions') {
+                // Load the question
+                switchMode('random');
+                loadQuestionById(name);
+                return;
+            }
+            renderBrowseLevel();
+        }
+
+        function browseReset() {
+            browseState = { level: 'topics', selectedTopic: null, selectedSubtopic: null, selectedYear: null };
+            renderBrowseLevel();
+        }
+
+        function browseBackToTopics() {
+            browseState = { level: 'topics', selectedTopic: null, selectedSubtopic: null, selectedYear: null };
+            renderBrowseLevel();
+        }
+
+        function browseBackToSubtopics() {
+            browseState.level = 'subtopics';
+            browseState.selectedSubtopic = null;
+            browseState.selectedYear = null;
+            renderBrowseLevel();
+        }
+
+        // ===== GENERATE PAPER MODE =====
+        let generatedQuestions = [];
+
+        async function enterGenerateMode() {
+            // Get count of matching questions
+            await updateMatchingCount();
+        }
+
+        async function updateMatchingCount() {
+            try {
+                const params = new URLSearchParams();
+                const selectedPapers = Array.from(document.querySelectorAll('#papersCheckboxes input:checked'))
+                    .map(cb => cb.value);
+                if (selectedPapers.length > 0) {
+                    params.append('papers', selectedPapers.join(','));
+                }
+
+                const selectedTopics = Array.from(document.querySelectorAll('#topicsCheckboxes input:checked'))
+                    .map(cb => cb.value);
+                if (selectedTopics.length > 0) {
+                    params.append('topics', selectedTopics.join(','));
+                }
+
+                const selectedSubtopics = Array.from(document.querySelectorAll('#subtopicsCheckboxes input:checked'))
+                    .map(cb => cb.value);
+                if (selectedSubtopics.length > 0) {
+                    params.append('subtopics', selectedSubtopics.join(','));
+                }
+
+                params.append('year_min', document.getElementById('yearMin').value);
+                params.append('year_max', document.getElementById('yearMax').value);
+                params.append('limit', 999);
+
+                const response = await fetch(`/api/subject/${appState.currentSubject}/filter?${params.toString()}`);
+                const data = await response.json();
+
+                document.getElementById('matchingCount').textContent = data.questions ? data.questions.length : 0;
+            } catch (error) {
+                document.getElementById('matchingCount').textContent = '0';
+            }
+        }
+
+        async function generatePaper() {
+            const count = parseInt(document.getElementById('paperQuestionsCount').value);
+            if (!count || count < 1) {
+                alert('Please enter a valid number of questions');
+                return;
+            }
+
+            try {
+                const params = new URLSearchParams();
+                const selectedPapers = Array.from(document.querySelectorAll('#papersCheckboxes input:checked'))
+                    .map(cb => cb.value);
+                if (selectedPapers.length > 0) {
+                    params.append('papers', selectedPapers.join(','));
+                }
+
+                const selectedTopics = Array.from(document.querySelectorAll('#topicsCheckboxes input:checked'))
+                    .map(cb => cb.value);
+                if (selectedTopics.length > 0) {
+                    params.append('topics', selectedTopics.join(','));
+                }
+
+                const selectedSubtopics = Array.from(document.querySelectorAll('#subtopicsCheckboxes input:checked'))
+                    .map(cb => cb.value);
+                if (selectedSubtopics.length > 0) {
+                    params.append('subtopics', selectedSubtopics.join(','));
+                }
+
+                params.append('year_min', document.getElementById('yearMin').value);
+                params.append('year_max', document.getElementById('yearMax').value);
+                params.append('limit', count);
+
+                const response = await fetch(`/api/subject/${appState.currentSubject}/filter?${params.toString()}`);
+                const data = await response.json();
+
+                if (!data.questions || data.questions.length === 0) {
+                    alert('No questions found matching your filters');
+                    return;
+                }
+
+                generatedQuestions = data.questions;
+                await renderGeneratedPaper();
+            } catch (error) {
+                alert('Error generating paper: ' + error.message);
+            }
+        }
+
+        async function renderGeneratedPaper() {
+            const container = document.getElementById('generatedPaper');
+
+            let paperHTML = '<div class="paper-actions">';
+            paperHTML += '<button class="btn" onclick="window.print()">🖨️ Print</button>';
+            paperHTML += '<button class="btn btn-secondary" onclick="savePaperConfig()">💾 Save Configuration</button>';
+            paperHTML += '</div>';
+
+            paperHTML += '<h2>Generated Question Paper</h2>';
+            paperHTML += `<p style="color: var(--text-secondary);">${generatedQuestions.length} questions</p>`;
+
+            for (let i = 0; i < generatedQuestions.length; i++) {
+                const q = generatedQuestions[i];
+                paperHTML += `<div class="paper-question">`;
+                paperHTML += `<h3>Question ${i + 1}: ${q.question_id}</h3>`;
+                paperHTML += `<p style="color: var(--text-secondary); font-size: 0.9rem;">${q.primary_topic || ''} ${q.primary_subtopic || ''} • ${q.year || ''}</p>`;
+
+                // Load question images/text
+                try {
+                    const displayResponse = await fetch(`/api/subject/${appState.currentSubject}/question/${q.question_id}`);
+                    const displayData = await displayResponse.json();
+
+                    if (displayData.mode === 'image') {
+                        displayData.images.forEach(imgName => {
+                            paperHTML += `<img src="/api/unified/image/${appState.currentSubject}/${displayData.relative_path}/${imgName}" class="question-image inverted" style="max-width: 100%; margin: 1rem 0;">`;
+                        });
+                    } else {
+                        paperHTML += `<div style="padding: 1rem; background: var(--bg-primary); border-radius: 4px;">`;
+                        paperHTML += `<p>${displayData.text.part_a || displayData.text.full_text}</p>`;
+                        if (displayData.text.part_b) {
+                            paperHTML += `<p><strong>Part B:</strong> ${displayData.text.part_b}</p>`;
+                        }
+                        paperHTML += `</div>`;
+                    }
+                } catch (error) {
+                    paperHTML += `<p style="color: red;">Error loading question</p>`;
+                }
+
+                paperHTML += `</div>`;
+            }
+
+            container.innerHTML = paperHTML;
+        }
+
+        function savePaperConfig() {
+            alert('Paper configuration saved! (Feature coming soon - will save to database)');
+        }
+
         // ===== EVENT LISTENERS =====
-        document.getElementById('randomBtn').addEventListener('click', loadRandomQuestion);
+        document.getElementById('randomBtn').addEventListener('click', () => {
+            switchMode('random');
+            loadRandomQuestion();
+        });
+        document.getElementById('browseBtn').addEventListener('click', () => switchMode('browse'));
+        document.getElementById('generateBtn').addEventListener('click', () => switchMode('generate'));
+        document.getElementById('generatePaperBtn').addEventListener('click', generatePaper);
+
         document.getElementById('showAnswerBtn').addEventListener('click', showAnswer);
         document.getElementById('historyBtn').addEventListener('click', openHistoryModal);
         document.getElementById('savedBtn').addEventListener('click', openSavedModal);
