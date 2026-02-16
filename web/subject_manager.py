@@ -108,8 +108,17 @@ class MathAdapter(SubjectAdapter):
             if subtopics and question.get('primary_subtopic') not in subtopics:
                 continue
 
-            # Year filter - math practice has year="practice", skip year filtering
-            # (In future, could parse from source_info.txt if needed)
+            # Year filter
+            year = question.get('year')
+            if year:
+                try:
+                    year_int = int(year)
+                    if year_min and year_int < year_min:
+                        continue
+                    if year_max and year_int > year_max:
+                        continue
+                except (ValueError, TypeError):
+                    pass
 
             # Ensure question_id is in the result
             question_copy = dict(question)
