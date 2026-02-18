@@ -956,6 +956,10 @@
                             <span>Show/Hide Answer</span>
                         </div>
                         <div class="shortcut-item">
+                            <kbd>A</kbd>
+                            <span>Ask ChatGPT</span>
+                        </div>
+                        <div class="shortcut-item">
                             <kbd>H</kbd>
                             <span>History</span>
                         </div>
@@ -1352,6 +1356,62 @@
 
             // Start timer
             startTimer();
+        }
+
+        async function askChatGPT() {
+            if (!appState.currentQuestion || !appState.currentQuestionData) {
+                alert('Load a question first!');
+                return;
+            }
+
+            try {
+                let questionText = '';
+
+                if (appState.currentSubject === 'economics') {
+                    // Economics has text in the JSON
+                    const data = appState.currentQuestionData;
+                    if (data.text) {
+                        questionText = data.text.full_text || data.text.part_a || '';
+                        if (data.text.part_b) {
+                            questionText += '\n\nPart B: ' + data.text.part_b;
+                        }
+                    }
+                } else if (appState.currentSubject === 'math' || appState.currentSubject === 'physics') {
+                    // Math and physics need to fetch text from API
+                    const q = appState.currentQuestion;
+                    const pathParts = q.question_id.split('_');
+                    const paper = q.paper || pathParts[0];
+                    const questionNum = pathParts[pathParts.length - 1];
+
+                    const apiPath = appState.currentSubject === 'math'
+                        ? `/api/text/${paper}/${questionNum}`
+                        : `/api/physics/text/${paper}/${questionNum}`;
+
+                    const response = await fetch(apiPath);
+                    const data = await response.json();
+
+                    if (data.error) {
+                        alert('Question text not available. Using question ID instead.');
+                        questionText = `Question: ${q.question_id}`;
+                    } else {
+                        questionText = data.text;
+                    }
+                }
+
+                if (!questionText) {
+                    questionText = `Question: ${appState.currentQuestion.question_id}`;
+                }
+
+                // Open ChatGPT with the question
+                const encodedText = encodeURIComponent(questionText);
+                const url = `https://chatgpt.com/?q=${encodedText}`;
+                window.open(url, '_blank');
+            } catch (error) {
+                console.error('Error getting question text:', error);
+                // Fallback to opening ChatGPT with question ID
+                const url = `https://chatgpt.com/?q=${encodeURIComponent('Question: ' + appState.currentQuestion.question_id)}`;
+                window.open(url, '_blank');
+            }
         }
 
         function showAnswer() {
@@ -2100,6 +2160,14 @@
                 e.preventDefault();
                 if (appState.currentQuestion) {
                     showAnswer();
+                }
+            }
+
+            // 'a' key asks ChatGPT
+            if (e.key === 'a' || e.key === 'A') {
+                e.preventDefault();
+                if (appState.currentQuestion) {
+                    askChatGPT();
                 }
             }
 
