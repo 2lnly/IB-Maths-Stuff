@@ -620,6 +620,33 @@
             gap: 1rem;
         }
 
+        /* Color Selector */
+        .color-selector {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.5rem;
+            padding: 0.5rem 0;
+        }
+
+        .color-option {
+            width: 100%;
+            aspect-ratio: 1;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 3px solid transparent;
+        }
+
+        .color-option:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .color-option.active {
+            border-color: var(--text-primary);
+            box-shadow: 0 0 0 2px var(--bg-primary), 0 0 0 4px var(--accent-current);
+        }
+
         @media print {
             .filters-panel, .side-panel, .timer-container, button, .generate-controls {
                 display: none !important;
@@ -894,6 +921,21 @@
                     </div>
                 </div>
 
+                <!-- Theme Color Selector -->
+                <div class="panel-card">
+                    <h4>Theme Color</h4>
+                    <div class="color-selector">
+                        <div class="color-option" data-color="#d4af37" style="background: #d4af37;" title="Gold (Default)"></div>
+                        <div class="color-option" data-color="#4a90e2" style="background: #4a90e2;" title="Blue"></div>
+                        <div class="color-option" data-color="#2ecc71" style="background: #2ecc71;" title="Green"></div>
+                        <div class="color-option" data-color="#e74c3c" style="background: #e74c3c;" title="Red"></div>
+                        <div class="color-option" data-color="#9b59b6" style="background: #9b59b6;" title="Purple"></div>
+                        <div class="color-option" data-color="#f39c12" style="background: #f39c12;" title="Orange"></div>
+                        <div class="color-option" data-color="#1abc9c" style="background: #1abc9c;" title="Turquoise"></div>
+                        <div class="color-option" data-color="#e91e63" style="background: #e91e63;" title="Pink"></div>
+                    </div>
+                </div>
+
                 <!-- History & Saved -->
                 <div class="panel-card">
                     <h4>Rewind</h4>
@@ -985,9 +1027,35 @@
             economics: '#9b59b6'
         };
 
+        let customAccentColor = localStorage.getItem('accentColor') || null;
+
         function updateThemeColor() {
-            document.documentElement.style.setProperty('--accent-current', subjectColors[appState.currentSubject]);
+            const color = customAccentColor || subjectColors[appState.currentSubject];
+            document.documentElement.style.setProperty('--accent-current', color);
+
+            // Update active color indicator
+            document.querySelectorAll('.color-option').forEach(option => {
+                option.classList.remove('active');
+                if (option.dataset.color === color) {
+                    option.classList.add('active');
+                }
+            });
         }
+
+        function setCustomColor(color) {
+            customAccentColor = color;
+            localStorage.setItem('accentColor', color);
+            updateThemeColor();
+        }
+
+        // Color selector event listeners
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.color-option').forEach(option => {
+                option.addEventListener('click', () => {
+                    setCustomColor(option.dataset.color);
+                });
+            });
+        });
 
         // ===== SUBJECT SWITCHER =====
         document.querySelectorAll('.subject-tab').forEach(tab => {
