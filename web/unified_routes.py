@@ -58,15 +58,22 @@ def register_unified_routes(app):
                 filters['year_max'] = int(request.args.get('year_max'))
 
             # Get random question
+            print(f"[DEBUG] Getting random question for {subject} with filters: {filters}")
             question = manager.get_random_question(filters)
+            print(f"[DEBUG] Got question: {question.get('question_id') if question else None}")
 
             if not question:
+                print(f"[DEBUG] No questions found for {subject} with filters: {filters}")
                 return jsonify({'error': 'No questions found matching filters'}), 404
 
             return jsonify({'question': question})
         except ValueError as e:
+            print(f"[ERROR] ValueError in random endpoint: {e}")
             return jsonify({'error': str(e)}), 400
         except Exception as e:
+            print(f"[ERROR] Exception in random endpoint: {e}")
+            import traceback
+            traceback.print_exc()
             return jsonify({'error': str(e)}), 500
 
     @app.route('/api/subject/<subject>/filter')

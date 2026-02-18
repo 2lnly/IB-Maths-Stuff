@@ -1269,28 +1269,36 @@
                 console.log('Fetching:', url);
 
                 const response = await fetch(url);
+                console.log('Response status:', response.status, response.statusText);
 
                 if (!response.ok) {
+                    const errorText = await response.text();
+                    console.error('Error response:', errorText);
+
                     if (response.status === 404) {
                         alert('No questions found matching your filters. Try:\n- Selecting different papers\n- Choosing fewer/different topics\n- Expanding year range');
                         return;
                     }
-                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                    throw new Error(`HTTP ${response.status}: ${response.statusText} - ${errorText}`);
                 }
 
                 const data = await response.json();
                 console.log('Question data received:', data);
 
                 if (data.question) {
+                    console.log('Displaying question:', data.question.question_id);
                     await displayQuestion(data.question);
                 } else if (data.error) {
+                    console.error('Server returned error:', data.error);
                     alert('Error: ' + data.error);
                 } else {
+                    console.error('Unexpected response format:', data);
                     alert('No question returned from server');
                 }
             } catch (error) {
                 console.error('Error loading question:', error);
-                alert('Failed to load question. Check console for details.');
+                console.error('Error stack:', error.stack);
+                alert('Failed to load question: ' + error.message);
             }
         }
 
