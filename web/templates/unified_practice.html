@@ -1135,6 +1135,9 @@
                 const data = await response.json();
                 console.log('Subject info loaded:', data);
 
+                // Dynamically populate paper checkboxes based on actual paper names
+                populatePaperCheckboxes(data.papers || ['Paper 1', 'Paper 2', 'Paper 3']);
+
                 // Populate topics
                 populateTopics(data.topics);
 
@@ -1154,6 +1157,36 @@
                 console.error('Error loading subject info:', error);
                 alert('Failed to load subject info. Check console for details.');
             }
+        }
+
+        function populatePaperCheckboxes(papers) {
+            console.log('Populating paper checkboxes with:', papers);
+
+            const papersContainer = document.getElementById('papersCheckboxes');
+            if (!papersContainer) {
+                console.error('Papers container not found!');
+                return;
+            }
+
+            // Clear existing checkboxes
+            papersContainer.innerHTML = '';
+
+            // Generate checkbox for each paper
+            papers.forEach((paper, index) => {
+                const div = document.createElement('div');
+                div.className = 'checkbox-item';
+
+                // Create safe ID by replacing spaces with hyphens
+                const paperId = `paper-${paper.replace(/\s+/g, '-')}`;
+
+                div.innerHTML = `
+                    <input type="checkbox" id="${paperId}" value="${paper}" ${index === 0 ? 'checked' : ''}>
+                    <label for="${paperId}">${paper}</label>
+                `;
+                papersContainer.appendChild(div);
+            });
+
+            console.log(`Generated ${papers.length} paper checkboxes`);
         }
 
         function populateTopics(topicsData) {
