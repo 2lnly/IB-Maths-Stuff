@@ -1410,8 +1410,8 @@
                     <div class="history-item" onclick="loadQuestionById('${item.question_id}')">
                         <div class="item-id">${item.question_id}</div>
                         <div class="item-meta">
-                            ${item.topic || ''} ${item.subtopic ? ' ' + item.subtopic : ''} ${item.year || ''}
-                            ${item.time_spent ? ' ' + formatTime(item.time_spent) : ''}
+                            ${item.paper ? item.paper + ' • ' : ''}${item.topic || ''} ${item.subtopic ? ' ' + item.subtopic : ''} ${item.year ? ' • ' + item.year : ''}
+                            ${item.time_spent ? ' • ' + formatTime(item.time_spent) : ''}
                         </div>
                     </div>
                 `).join('');
@@ -1442,7 +1442,7 @@
                     <div class="saved-item" onclick="loadQuestionById('${item.question_id}')">
                         <div class="item-id">${item.question_id}</div>
                         <div class="item-meta">
-                            ${item.topic || ''} ${item.subtopic ? ' ' + item.subtopic : ''} ${item.year || ''}
+                            ${item.paper ? item.paper + ' • ' : ''}${item.topic || ''} ${item.subtopic ? ' ' + item.subtopic : ''} ${item.year ? ' • ' + item.year : ''}
                         </div>
                     </div>
                 `).join('');
