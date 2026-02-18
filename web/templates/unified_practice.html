@@ -620,6 +620,38 @@
             gap: 1rem;
         }
 
+        /* Shortcuts List */
+        .shortcuts-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            padding: 0.5rem 0;
+        }
+
+        .shortcut-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .shortcut-item kbd {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 0.25rem 0.5rem;
+            font-family: monospace;
+            font-weight: bold;
+            min-width: 2rem;
+            text-align: center;
+            color: var(--accent-current);
+            font-size: 0.9rem;
+        }
+
+        .shortcut-item span {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
         /* Color Selector */
         .color-selector {
             display: grid;
@@ -905,17 +937,32 @@
                 </div>
             </section>
 
-            <!-- Side Panel (Chat & History) -->
+            <!-- Side Panel -->
             <aside class="side-panel">
-                <!-- Global Chat -->
+                <!-- Keyboard Shortcuts -->
                 <div class="panel-card">
-                    <h4>Global Chat</h4>
-                    <div class="chat-messages" id="chatMessages">
-                        <!-- Messages load here -->
-                    </div>
-                    <div class="chat-input">
-                        <input type="text" id="chatInput" placeholder="Type a message...">
-                        <button class="action-btn" id="sendChatBtn">Send</button>
+                    <h4>Keyboard Shortcuts</h4>
+                    <div class="shortcuts-list">
+                        <div class="shortcut-item">
+                            <kbd>T</kbd>
+                            <span>Chat</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <kbd>N</kbd>
+                            <span>New Question</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <kbd>M</kbd>
+                            <span>Show/Hide Answer</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <kbd>H</kbd>
+                            <span>History</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <kbd>L</kbd>
+                            <span>Saved Questions</span>
+                        </div>
                     </div>
                 </div>
 
@@ -1391,34 +1438,7 @@
             }
         });
 
-        document.getElementById('sendChatBtn').addEventListener('click', () => {
-            const input = document.getElementById('chatInput');
-            const message = input.value.trim();
-            if (message) {
-                socket.emit('send_message', { message });
-                input.value = '';
-            }
-        });
-
-        document.getElementById('chatInput').addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                document.getElementById('sendChatBtn').click();
-            }
-        });
-
-        // Load chat history
-        fetch('/api/chat/messages')
-            .then(r => r.json())
-            .then(data => {
-                const messagesDiv = document.getElementById('chatMessages');
-                data.messages.forEach(msg => {
-                    const messageEl = document.createElement('div');
-                    messageEl.className = 'chat-message';
-                    messageEl.innerHTML = `<span class="username">${msg.username}:</span> ${msg.message}`;
-                    messagesDiv.appendChild(messageEl);
-                });
-                messagesDiv.scrollTop = messagesDiv.scrollHeight;
-            });
+        // Sidebar chat removed - chat now only available via modal (press 't' key)
 
         // ===== IMAGE INVERSION =====
         document.getElementById('invertColorsBtn').addEventListener('click', () => {
@@ -2048,10 +2068,43 @@
 
         // Keyboard shortcuts
         document.addEventListener('keydown', (e) => {
-            // 't' key opens chat modal (only if not typing in an input)
-            if (e.key === 't' && !['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
+            // Only trigger shortcuts if not typing in an input
+            if (['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
+                return;
+            }
+
+            // 't' key opens chat modal
+            if (e.key === 't' || e.key === 'T') {
                 e.preventDefault();
                 openChatModal();
+            }
+
+            // 'n' key loads new random question
+            if (e.key === 'n' || e.key === 'N') {
+                e.preventDefault();
+                if (currentMode === 'random') {
+                    loadRandomQuestion();
+                }
+            }
+
+            // 'm' key shows/hides answer
+            if (e.key === 'm' || e.key === 'M') {
+                e.preventDefault();
+                if (appState.currentQuestion) {
+                    showAnswer();
+                }
+            }
+
+            // 'h' key opens history
+            if (e.key === 'h' || e.key === 'H') {
+                e.preventDefault();
+                openHistoryModal();
+            }
+
+            // 'l' key opens saved questions
+            if (e.key === 'l' || e.key === 'L') {
+                e.preventDefault();
+                openSavedModal();
             }
 
             // Escape key closes any open modal
