@@ -970,6 +970,7 @@
                 </div>
                 <div id="authSection" style="display: flex; gap: 10px; align-items: center;">
                     <a href="/" class="btn-physics">Home</a>
+                    <a href="/unified" class="btn-physics">Unified Practice</a>
                     <a href="/physics" class="btn-physics">Physics</a>
                     <a href="/economics" class="btn-physics">Economics</a>
                     <button onclick="showLoginModal()" class="btn-auth">Login</button>
@@ -1563,6 +1564,7 @@
             if (currentUser) {
                 authSection.innerHTML = `
                     <a href="/" class="btn-physics">Home</a>
+                    <a href="/unified" class="btn-physics">Unified Practice</a>
                     <a href="/physics" class="btn-physics">Physics</a>
                     <a href="/economics" class="btn-physics">Economics</a>
                     <div class="user-info">
@@ -1571,7 +1573,7 @@
                     </div>
                 `;
             } else {
-                authSection.innerHTML = '<a href="/" class="btn-physics">Home</a><a href="/physics" class="btn-physics">Physics</a><a href="/economics" class="btn-physics">Economics</a><button onclick="showLoginModal()" class="btn-auth">Login</button>';
+                authSection.innerHTML = '<a href="/" class="btn-physics">Home</a><a href="/unified" class="btn-physics">Unified Practice</a><a href="/physics" class="btn-physics">Physics</a><a href="/economics" class="btn-physics">Economics</a><button onclick="showLoginModal()" class="btn-auth">Login</button>';
             }
         }
 
