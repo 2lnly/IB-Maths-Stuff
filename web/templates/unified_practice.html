@@ -896,7 +896,7 @@
 
                 <!-- History & Saved -->
                 <div class="panel-card">
-                    <h4>Quick Access</h4>
+                    <h4>Rewind</h4>
                     <button class="btn btn-secondary" id="historyBtn">History</button>
                     <button class="btn btn-secondary" id="savedBtn">Saved Questions</button>
                 </div>
@@ -1842,10 +1842,15 @@
             }
         }
 
+        let showPaperAnswers = false;
+        let paperDisplayData = [];
+
         async function renderGeneratedPaper() {
             const container = document.getElementById('generatedPaper');
+            paperDisplayData = [];
 
             let paperHTML = '<div class="paper-actions">';
+            paperHTML += '<button class="btn" onclick="togglePaperAnswers()">👁️ Show/Hide Answers</button>';
             paperHTML += '<button class="btn" onclick="window.print()">🖨️ Print</button>';
             paperHTML += '<button class="btn btn-secondary" onclick="savePaperConfig()">💾 Save Configuration</button>';
             paperHTML += '</div>';
@@ -1855,7 +1860,7 @@
 
             for (let i = 0; i < generatedQuestions.length; i++) {
                 const q = generatedQuestions[i];
-                paperHTML += `<div class="paper-question">`;
+                paperHTML += `<div class="paper-question" id="paper-q-${i}">`;
                 paperHTML += `<h3>Question ${i + 1}: ${q.question_id}</h3>`;
                 paperHTML += `<p style="color: var(--text-secondary); font-size: 0.9rem;">${q.primary_topic || ''} ${q.primary_subtopic || ''} • ${q.year || ''}</p>`;
 
@@ -1863,6 +1868,7 @@
                 try {
                     const displayResponse = await fetch(`/api/subject/${appState.currentSubject}/question/${q.question_id}`);
                     const displayData = await displayResponse.json();
+                    paperDisplayData.push(displayData);
 
                     if (displayData.mode === 'image') {
                         displayData.images.forEach(imgName => {
@@ -1876,6 +1882,25 @@
                         }
                         paperHTML += `</div>`;
                     }
+
+                    // Add answer section (hidden by default)
+                    paperHTML += `<div class="paper-answer hidden" id="paper-answer-${i}">`;
+                    paperHTML += `<div style="margin-top: 2rem; padding-top: 1rem; border-top: 3px solid var(--accent-current);">`;
+                    paperHTML += `<h4 style="color: var(--accent-current);">ANSWER:</h4>`;
+
+                    if (displayData.mode === 'image' && displayData.answer_images && displayData.answer_images.length > 0) {
+                        displayData.answer_images.forEach(imgName => {
+                            paperHTML += `<img src="/api/unified/image/${appState.currentSubject}/${displayData.relative_path}/${imgName}" class="question-image inverted" style="max-width: 100%; margin: 1rem 0;">`;
+                        });
+                    } else if (displayData.text && displayData.text.markscheme) {
+                        paperHTML += `<div style="padding: 1rem; background: var(--bg-tertiary); border-radius: 4px;">`;
+                        paperHTML += `<pre style="white-space: pre-wrap;">${displayData.text.markscheme}</pre>`;
+                        paperHTML += `</div>`;
+                    } else {
+                        paperHTML += `<p style="color: var(--text-secondary);">No answer available</p>`;
+                    }
+
+                    paperHTML += `</div></div>`;
                 } catch (error) {
                     paperHTML += `<p style="color: red;">Error loading question</p>`;
                 }
@@ -1884,6 +1909,21 @@
             }
 
             container.innerHTML = paperHTML;
+        }
+
+        function togglePaperAnswers() {
+            showPaperAnswers = !showPaperAnswers;
+
+            for (let i = 0; i < generatedQuestions.length; i++) {
+                const answerEl = document.getElementById(`paper-answer-${i}`);
+                if (answerEl) {
+                    if (showPaperAnswers) {
+                        answerEl.classList.remove('hidden');
+                    } else {
+                        answerEl.classList.add('hidden');
+                    }
+                }
+            }
         }
 
         function savePaperConfig() {
