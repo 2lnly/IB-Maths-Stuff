@@ -306,6 +306,11 @@ class PhysicsAdapter(SubjectAdapter):
         result = {
             'mode': 'image',  # Physics primarily uses images
             'question_id': question_id,
+            'year': question.get('year'),
+            'paper': question.get('paper'),
+            'topic': question.get('primary_topic'),
+            'subtopic': question.get('primary_subtopic'),
+            'session': question.get('session'),
             'metadata': {
                 'paper': question.get('paper'),
                 'topic': question.get('primary_topic'),
@@ -318,7 +323,7 @@ class PhysicsAdapter(SubjectAdapter):
                 'text_incomplete': question.get('text_incomplete', False),
             },
             'question_path': str(question_path),
-            'relative_path': str(question_path).replace('/home/xiaohe/stuff/claudable/Physics Flattened/', ''),  # Relative path for image URLs
+            'relative_path': question['path'],  # Use path from JSON directly (already relative)
             'images': self._get_question_images(question_path),
             'answer_images': self._get_answer_images(question_path),
         }
@@ -476,6 +481,11 @@ class EconomicsAdapter(SubjectAdapter):
         return {
             'mode': 'text',
             'question_id': question_id,
+            'year': question.get('year'),
+            'paper': question.get('paper'),
+            'topic': question.get('primary_topic', question.get('topic')),
+            'subtopic': None,  # Economics doesn't have subtopics
+            'session': question.get('session'),
             'metadata': {
                 'paper': question.get('paper'),
                 'topic': question.get('primary_topic', question.get('topic')),
@@ -489,6 +499,7 @@ class EconomicsAdapter(SubjectAdapter):
                 'part_a': question.get('part_a', ''),
                 'part_b': question.get('part_b', ''),
                 'full_text': question.get('full_text', ''),
+                'markscheme': question.get('markscheme', ''),
             },
             'answer_text': question.get('markscheme', ''),
         }

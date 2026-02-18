@@ -1935,18 +1935,31 @@
                 // Load question images/text
                 try {
                     const displayResponse = await fetch(`/api/subject/${appState.currentSubject}/question/${q.question_id}`);
+
+                    if (!displayResponse.ok) {
+                        throw new Error(`HTTP ${displayResponse.status}`);
+                    }
+
                     const displayData = await displayResponse.json();
                     paperDisplayData.push(displayData);
 
                     if (displayData.mode === 'image') {
-                        displayData.images.forEach(imgName => {
-                            paperHTML += `<img src="/api/unified/image/${appState.currentSubject}/${displayData.relative_path}/${imgName}" class="question-image inverted" style="max-width: 100%; margin: 1rem 0;">`;
-                        });
+                        if (displayData.images && displayData.images.length > 0) {
+                            displayData.images.forEach(imgName => {
+                                paperHTML += `<img src="/api/unified/image/${appState.currentSubject}/${displayData.relative_path}/${imgName}" class="question-image inverted" style="max-width: 100%; margin: 1rem 0;">`;
+                            });
+                        } else {
+                            paperHTML += `<p style="color: var(--text-secondary);">No images available</p>`;
+                        }
                     } else {
                         paperHTML += `<div style="padding: 1rem; background: var(--bg-primary); border-radius: 4px;">`;
-                        paperHTML += `<p>${displayData.text.part_a || displayData.text.full_text}</p>`;
-                        if (displayData.text.part_b) {
-                            paperHTML += `<p><strong>Part B:</strong> ${displayData.text.part_b}</p>`;
+                        if (displayData.text) {
+                            paperHTML += `<p>${displayData.text.part_a || displayData.text.full_text || 'No text available'}</p>`;
+                            if (displayData.text.part_b) {
+                                paperHTML += `<p><strong>Part B:</strong> ${displayData.text.part_b}</p>`;
+                            }
+                        } else {
+                            paperHTML += `<p>No content available</p>`;
                         }
                         paperHTML += `</div>`;
                     }
@@ -1960,6 +1973,10 @@
                         displayData.answer_images.forEach(imgName => {
                             paperHTML += `<img src="/api/unified/image/${appState.currentSubject}/${displayData.relative_path}/${imgName}" class="question-image inverted" style="max-width: 100%; margin: 1rem 0;">`;
                         });
+                    } else if (displayData.answer_text) {
+                        paperHTML += `<div style="padding: 1rem; background: var(--bg-tertiary); border-radius: 4px;">`;
+                        paperHTML += `<pre style="white-space: pre-wrap;">${displayData.answer_text}</pre>`;
+                        paperHTML += `</div>`;
                     } else if (displayData.text && displayData.text.markscheme) {
                         paperHTML += `<div style="padding: 1rem; background: var(--bg-tertiary); border-radius: 4px;">`;
                         paperHTML += `<pre style="white-space: pre-wrap;">${displayData.text.markscheme}</pre>`;
@@ -1970,7 +1987,8 @@
 
                     paperHTML += `</div></div>`;
                 } catch (error) {
-                    paperHTML += `<p style="color: red;">Error loading question</p>`;
+                    console.error(`Error loading question ${q.question_id}:`, error);
+                    paperHTML += `<p style="color: red;">Error loading question: ${error.message}</p>`;
                 }
 
                 paperHTML += `</div>`;
