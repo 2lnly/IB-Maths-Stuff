@@ -1,7 +1,9 @@
 """Flask web app for IB Math and Physics practice questions."""
 
 import json
+import os
 import random
+import base64
 from pathlib import Path
 from collections import defaultdict
 from flask import Flask, jsonify, send_file, render_template, request, session
@@ -124,14 +126,13 @@ for q_id, data in ECON_QUESTIONS.items():
 
 @app.route('/')
 def landing():
-    """Serve the landing page."""
-    return render_template('landing.html')
+    from flask import redirect
+    return redirect('/math')
 
 
 @app.route('/math')
 def math_page():
-    """Serve the math page."""
-    return render_template('index.html')
+    return render_template('question_bank.html')
 
 
 @app.route('/documentation')
@@ -666,17 +667,16 @@ def get_question_text(paper, question_num):
 
 @app.route('/physics')
 def physics_index():
-    """Serve the physics page."""
-    return render_template('physics.html')
+    return render_template('physics_question_bank.html')
 
 
-@app.route('/api/physics/topics')
+@app.route('/api/physics/topics-old')
 def get_physics_topics():
     """Get all available physics topics and subtopics."""
     return jsonify(PHYSICS_SUBTOPICS)
 
 
-@app.route('/api/physics/random')
+@app.route('/api/physics/random-old')
 def get_random_physics_question():
     """Get a random physics question from any subtopic."""
     q_id = random.choice(list(PHYSICS_QUESTIONS.keys()))
@@ -686,7 +686,7 @@ def get_random_physics_question():
     })
 
 
-@app.route('/api/physics/question/<question_id>')
+@app.route('/api/physics/question-old/<question_id>')
 def get_physics_question_by_id(question_id):
     """Get a specific physics question by ID."""
     if question_id in PHYSICS_QUESTIONS:
@@ -901,6 +901,597 @@ def get_filtered_economics_question():
 
 # Economics now uses text display, no image endpoint needed
 
+# ============ NEW MATH QUESTION BANK ROUTES ============
+
+# Load new question bank (question_bank.json from extraction + classification pipeline)
+QUESTION_BANK_FILE = Path(__file__).parent.parent / "data" / "question_bank.json"
+PRACTICE_NEW_DIR = Path(__file__).parent.parent / "practice_new"
+
+QUESTION_BANK = {}
+if QUESTION_BANK_FILE.exists():
+    with open(QUESTION_BANK_FILE) as f:
+        QUESTION_BANK = json.load(f)
+
+
+def _build_bank_index():
+    """Build in-memory indexes for fast filtering of the new question bank."""
+    index = {
+        'by_topic': defaultdict(list),
+        'by_subtopic': defaultdict(list),
+        'by_paper': defaultdict(list),
+        'by_year': defaultdict(list),
+        'by_difficulty': defaultdict(list),
+        'topics': {},  # topic_code -> {topic_name, subtopics: {code -> name}}
+    }
+    for q_id, q in QUESTION_BANK.items():
+        if not q.get('year'):
+            continue
+        paper = q.get('paper', '')
+        topic = q.get('topic_code')
+        subtopic = q.get('subtopic_code')
+        year = str(q.get('year', ''))
+        diff = str(q.get('difficulty', ''))
+
+        index['by_paper'][paper].append(q_id)
+        if year:
+            index['by_year'][year].append(q_id)
+        if topic:
+            index['by_topic'][topic].append(q_id)
+        if subtopic:
+            index['by_subtopic'][subtopic].append(q_id)
+        if diff:
+            index['by_difficulty'][diff].append(q_id)
+
+        # Build topic/subtopic tree
+        if topic and q.get('topic_name'):
+            if topic not in index['topics']:
+                index['topics'][topic] = {'name': q['topic_name'], 'subtopics': {}}
+            if subtopic and q.get('subtopic_name'):
+                index['topics'][topic]['subtopics'][subtopic] = q['subtopic_name']
+
+    return index
+
+
+BANK_INDEX = _build_bank_index()
+
+
+@app.route('/math2')
+def math_bank():
+    """New math question bank with dashboard UI."""
+    return render_template('question_bank.html')
+
+
+@app.route('/api/bank/topics')
+def bank_topics():
+    """Get the full IB topic taxonomy with question counts."""
+    result = {}
+    for topic_code, topic_data in sorted(BANK_INDEX['topics'].items()):
+        result[topic_code] = {
+            'name': topic_data['name'],
+            'count': len(BANK_INDEX['by_topic'].get(topic_code, [])),
+            'subtopics': {
+                code: {
+                    'name': name,
+                    'count': len(BANK_INDEX['by_subtopic'].get(code, [])),
+                }
+                for code, name in sorted(topic_data['subtopics'].items())
+            }
+        }
+    return jsonify(result)
+
+
+@app.route('/api/bank/stats')
+def bank_stats():
+    """Get summary stats for the dashboard."""
+    username = session.get('username')
+
+    total = len(QUESTION_BANK)
+    classified = sum(1 for q in QUESTION_BANK.values() if q.get('topic_code'))
+    has_answer = sum(1 for q in QUESTION_BANK.values() if q.get('has_answer'))
+
+    # Topic breakdown
+    from collections import Counter
+    topic_counts = Counter(
+        q.get('topic_name') for q in QUESTION_BANK.values()
+        if q.get('topic_name')
+    )
+    difficulty_counts = Counter(
+        q.get('difficulty') for q in QUESTION_BANK.values()
+        if q.get('difficulty')
+    )
+    year_counts = Counter(
+        q.get('year') for q in QUESTION_BANK.values()
+        if q.get('year')
+    )
+    paper_counts = Counter(
+        q.get('paper') for q in QUESTION_BANK.values()
+        if q.get('paper')
+    )
+
+    # User-specific stats
+    user_done = 0
+    user_by_topic = {}
+    if username:
+        history = get_user_history(username, 'math2', 10000)
+        user_done = len(history)
+        done_ids = {h['question_id'] for h in history}
+        # Count done per topic
+        for q_id in done_ids:
+            q = QUESTION_BANK.get(q_id, {})
+            topic = q.get('topic_name')
+            if topic:
+                user_by_topic[topic] = user_by_topic.get(topic, 0) + 1
+
+    return jsonify({
+        'total': total,
+        'classified': classified,
+        'has_answer': has_answer,
+        'topics': dict(topic_counts.most_common()),
+        'difficulty': {str(k): v for k, v in sorted(difficulty_counts.items()) if k},
+        'years': {str(k): v for k, v in sorted(year_counts.items()) if k},
+        'papers': dict(paper_counts),
+        'user_done': user_done,
+        'user_by_topic': user_by_topic,
+    })
+
+
+@app.route('/api/bank/questions')
+def bank_questions():
+    """Get filtered list of questions (for the question list view)."""
+    paper = request.args.get('paper')          # "Paper1", "Paper2", "Paper3"
+    topic = request.args.get('topic')          # topic_code e.g. "1"
+    subtopic = request.args.get('subtopic')    # subtopic_code e.g. "1.4"
+    year_min = request.args.get('year_min', type=int)
+    year_max = request.args.get('year_max', type=int)
+    diff_min = request.args.get('diff_min', type=int)
+    diff_max = request.args.get('diff_max', type=int)
+    marks_min = request.args.get('marks_min', type=int)
+    marks_max = request.args.get('marks_max', type=int)
+    curriculum = request.args.get('curriculum')  # "AA" or "pre-2021"
+    paper3_option = request.args.get('paper3_option')
+    limit = request.args.get('limit', 200, type=int)
+    offset = request.args.get('offset', 0, type=int)
+
+    results = []
+    for q_id, q in QUESTION_BANK.items():
+        if paper and q.get('paper') != paper:
+            continue
+        if topic and q.get('topic_code') != topic:
+            continue
+        if subtopic and q.get('subtopic_code') != subtopic:
+            continue
+        if year_min and (not q.get('year') or q['year'] < year_min):
+            continue
+        if year_max and (not q.get('year') or q['year'] > year_max):
+            continue
+        if diff_min and (not q.get('difficulty') or q['difficulty'] < diff_min):
+            continue
+        if diff_max and (not q.get('difficulty') or q['difficulty'] > diff_max):
+            continue
+        if marks_min and (not q.get('marks') or q['marks'] < marks_min):
+            continue
+        if marks_max and (not q.get('marks') or q['marks'] > marks_max):
+            continue
+        if curriculum and q.get('curriculum') != curriculum:
+            continue
+        if paper3_option and q.get('paper3_option') != paper3_option:
+            continue
+        results.append(q_id)
+
+    total_count = len(results)
+    # Sort by year desc, then question num
+    results.sort(key=lambda qid: (
+        -(QUESTION_BANK[qid].get('year') or 0),
+        QUESTION_BANK[qid].get('original_question_num') or 0
+    ))
+    page = results[offset:offset + limit]
+
+    return jsonify({
+        'total': total_count,
+        'questions': [
+            {
+                'question_id': qid,
+                'year': QUESTION_BANK[qid].get('year'),
+                'session': QUESTION_BANK[qid].get('session'),
+                'tz': QUESTION_BANK[qid].get('tz'),
+                'paper': QUESTION_BANK[qid].get('paper'),
+                'original_question_num': QUESTION_BANK[qid].get('original_question_num'),
+                'topic_code': QUESTION_BANK[qid].get('topic_code'),
+                'topic_name': QUESTION_BANK[qid].get('topic_name'),
+                'subtopic_code': QUESTION_BANK[qid].get('subtopic_code'),
+                'subtopic_name': QUESTION_BANK[qid].get('subtopic_name'),
+                'description': QUESTION_BANK[qid].get('description'),
+                'marks': QUESTION_BANK[qid].get('marks'),
+                'difficulty': QUESTION_BANK[qid].get('difficulty'),
+                'has_answer': QUESTION_BANK[qid].get('has_answer'),
+                'paper3_option': QUESTION_BANK[qid].get('paper3_option'),
+            }
+            for qid in page
+        ]
+    })
+
+
+@app.route('/api/bank/question/<question_id>')
+def bank_get_question(question_id):
+    """Get full data for a single question, including page counts."""
+    if question_id not in QUESTION_BANK:
+        return jsonify({'error': 'Question not found'}), 404
+    q = QUESTION_BANK[question_id]
+    q_dir = Path(__file__).parent.parent / q['path']
+    # Count question and answer image pages
+    question_pages = sum(1 for i in range(1, 20) if (q_dir / f'question_p{i}.png').exists())
+    answer_pages = sum(1 for i in range(1, 20) if (q_dir / f'answer_p{i}.png').exists())
+    return jsonify({'question_id': question_id, **q,
+                    'question_pages': question_pages,
+                    'answer_pages': answer_pages})
+
+
+@app.route('/api/bank/random')
+def bank_random():
+    """Get a random question matching filters."""
+    # Reuse filter logic from bank_questions but return single random result
+    paper = request.args.get('paper')
+    topic = request.args.get('topic')
+    subtopic = request.args.get('subtopic')
+    year_min = request.args.get('year_min', type=int)
+    year_max = request.args.get('year_max', type=int)
+    diff_min = request.args.get('diff_min', type=int)
+    diff_max = request.args.get('diff_max', type=int)
+
+    candidates = []
+    for q_id, q in QUESTION_BANK.items():
+        if not q.get('topic_code') or q.get('is_scan'):
+            continue
+        if paper and q.get('paper') != paper:
+            continue
+        if topic and q.get('topic_code') != topic:
+            continue
+        if subtopic and q.get('subtopic_code') != subtopic:
+            continue
+        if year_min and (not q.get('year') or q['year'] < year_min):
+            continue
+        if year_max and (not q.get('year') or q['year'] > year_max):
+            continue
+        if diff_min and (not q.get('difficulty') or q['difficulty'] < diff_min):
+            continue
+        if diff_max and (not q.get('difficulty') or q['difficulty'] > diff_max):
+            continue
+        candidates.append(q_id)
+
+    if not candidates:
+        return jsonify({'error': 'No questions match filters'}), 404
+
+    q_id = random.choice(candidates)
+    return jsonify({'question_id': q_id, **QUESTION_BANK[q_id]})
+
+
+@app.route('/api/bank/image/<question_id>/<image_name>')
+def bank_image(question_id, image_name):
+    """Serve a question or answer image from the new practice_new directory."""
+    if question_id not in QUESTION_BANK:
+        return jsonify({'error': 'Question not found'}), 404
+    q = QUESTION_BANK[question_id]
+    img_path = Path(__file__).parent.parent / q['path'] / image_name
+    if not img_path.exists():
+        return jsonify({'error': f'Image not found'}), 404
+    return send_file(img_path, mimetype='image/png')
+
+
+# ── Physics HL Question Bank ──
+PHYSICS_BANK_FILE = Path(__file__).parent.parent / "data" / "physics_question_bank.json"
+PHYSICS_PRACTICE_DIR = Path(__file__).parent.parent / "practice_physics"
+
+PHYSICS_BANK = {}
+if PHYSICS_BANK_FILE.exists():
+    with open(PHYSICS_BANK_FILE) as f:
+        PHYSICS_BANK = json.load(f)
+
+
+def _build_physics_index():
+    index = {
+        'by_topic': defaultdict(list),
+        'by_subtopic': defaultdict(list),
+        'by_paper': defaultdict(list),
+        'by_year': defaultdict(list),
+        'by_difficulty': defaultdict(list),
+        'topics': {},
+    }
+    for q_id, q in PHYSICS_BANK.items():
+        if not q.get('year'):
+            continue
+        paper = q.get('paper', '')
+        topic = q.get('topic_code')
+        subtopic = q.get('subtopic_code')
+        year = str(q.get('year', ''))
+        diff = str(q.get('difficulty', ''))
+        index['by_paper'][paper].append(q_id)
+        if year: index['by_year'][year].append(q_id)
+        if topic: index['by_topic'][topic].append(q_id)
+        if subtopic: index['by_subtopic'][subtopic].append(q_id)
+        if diff: index['by_difficulty'][diff].append(q_id)
+        if topic and q.get('topic_name'):
+            if topic not in index['topics']:
+                index['topics'][topic] = {'name': q['topic_name'], 'subtopics': {}}
+            if subtopic and q.get('subtopic_name'):
+                index['topics'][topic]['subtopics'][subtopic] = q['subtopic_name']
+    return index
+
+
+PHYSICS_INDEX = _build_physics_index()
+
+
+@app.route('/physics2')
+def physics_bank():
+    return render_template('physics_question_bank.html')
+
+
+@app.route('/api/physics/topics')
+def physics_topics():
+    result = {}
+    for topic_code, topic_data in sorted(PHYSICS_INDEX['topics'].items()):
+        result[topic_code] = {
+            'name': topic_data['name'],
+            'count': len(PHYSICS_INDEX['by_topic'].get(topic_code, [])),
+            'subtopics': {
+                code: {'name': name, 'count': len(PHYSICS_INDEX['by_subtopic'].get(code, []))}
+                for code, name in sorted(topic_data['subtopics'].items())
+            }
+        }
+    return jsonify(result)
+
+
+@app.route('/api/physics/stats')
+def physics_stats():
+    from collections import Counter
+    total = len(PHYSICS_BANK)
+    classified = sum(1 for q in PHYSICS_BANK.values() if q.get('topic_code'))
+    has_answer = sum(1 for q in PHYSICS_BANK.values() if q.get('has_answer'))
+    topic_counts = Counter(q.get('topic_name') for q in PHYSICS_BANK.values() if q.get('topic_name'))
+    difficulty_counts = Counter(q.get('difficulty') for q in PHYSICS_BANK.values() if q.get('difficulty'))
+    year_counts = Counter(q.get('year') for q in PHYSICS_BANK.values() if q.get('year'))
+    paper_counts = Counter(q.get('paper') for q in PHYSICS_BANK.values() if q.get('paper'))
+    return jsonify({
+        'total': total, 'classified': classified, 'has_answer': has_answer,
+        'topics': dict(topic_counts.most_common()),
+        'difficulty': {str(k): v for k, v in sorted(difficulty_counts.items()) if k},
+        'years': {str(k): v for k, v in sorted(year_counts.items()) if k},
+        'papers': dict(paper_counts),
+        'user_done': 0, 'user_by_topic': {},
+    })
+
+
+@app.route('/api/physics/questions')
+def physics_questions():
+    paper = request.args.get('paper')
+    topic = request.args.get('topic')
+    subtopic = request.args.get('subtopic')
+    year_min = request.args.get('year_min', type=int)
+    year_max = request.args.get('year_max', type=int)
+    diff_min = request.args.get('diff_min', type=int)
+    diff_max = request.args.get('diff_max', type=int)
+    curriculum = request.args.get('curriculum')
+    limit = request.args.get('limit', 200, type=int)
+    offset = request.args.get('offset', 0, type=int)
+
+    results = []
+    for q_id, q in PHYSICS_BANK.items():
+        if paper and q.get('paper') != paper: continue
+        if topic and q.get('topic_code') != topic: continue
+        if subtopic and q.get('subtopic_code') != subtopic: continue
+        if year_min and (not q.get('year') or q['year'] < year_min): continue
+        if year_max and (not q.get('year') or q['year'] > year_max): continue
+        if diff_min and (not q.get('difficulty') or q['difficulty'] < diff_min): continue
+        if diff_max and (not q.get('difficulty') or q['difficulty'] > diff_max): continue
+        if curriculum and q.get('curriculum') != curriculum: continue
+        results.append(q_id)
+
+    total_count = len(results)
+    results.sort(key=lambda qid: (-(PHYSICS_BANK[qid].get('year') or 0), PHYSICS_BANK[qid].get('original_question_num') or 0))
+    page = results[offset:offset + limit]
+
+    return jsonify({
+        'total': total_count,
+        'questions': [{
+            'question_id': qid,
+            'year': PHYSICS_BANK[qid].get('year'),
+            'session': PHYSICS_BANK[qid].get('session'),
+            'tz': PHYSICS_BANK[qid].get('tz'),
+            'paper': PHYSICS_BANK[qid].get('paper'),
+            'original_question_num': PHYSICS_BANK[qid].get('original_question_num'),
+            'topic_code': PHYSICS_BANK[qid].get('topic_code'),
+            'topic_name': PHYSICS_BANK[qid].get('topic_name'),
+            'subtopic_code': PHYSICS_BANK[qid].get('subtopic_code'),
+            'subtopic_name': PHYSICS_BANK[qid].get('subtopic_name'),
+            'description': PHYSICS_BANK[qid].get('description'),
+            'marks': PHYSICS_BANK[qid].get('marks'),
+            'difficulty': PHYSICS_BANK[qid].get('difficulty'),
+            'has_answer': PHYSICS_BANK[qid].get('has_answer'),
+            'is_scan': PHYSICS_BANK[qid].get('is_scan'),
+            'curriculum': PHYSICS_BANK[qid].get('curriculum'),
+        } for qid in page]
+    })
+
+
+@app.route('/api/physics/question/<question_id>')
+def physics_get_question(question_id):
+    if question_id not in PHYSICS_BANK:
+        return jsonify({'error': 'Question not found'}), 404
+    q = PHYSICS_BANK[question_id]
+    q_dir = Path(__file__).parent.parent / q['path']
+    question_pages = sum(1 for i in range(1, 20) if (q_dir / f'question_p{i}.png').exists())
+    answer_pages = sum(1 for i in range(1, 20) if (q_dir / f'answer_p{i}.png').exists())
+    return jsonify({'question_id': question_id, **q, 'question_pages': question_pages, 'answer_pages': answer_pages})
+
+
+@app.route('/api/physics/random')
+def physics_random():
+    paper = request.args.get('paper')
+    topic = request.args.get('topic')
+    subtopic = request.args.get('subtopic')
+    year_min = request.args.get('year_min', type=int)
+    year_max = request.args.get('year_max', type=int)
+    diff_min = request.args.get('diff_min', type=int)
+    diff_max = request.args.get('diff_max', type=int)
+    curriculum = request.args.get('curriculum')
+
+    candidates = []
+    for q_id, q in PHYSICS_BANK.items():
+        if not q.get('topic_code') or q.get('is_scan'): continue
+        if paper and q.get('paper') != paper: continue
+        if topic and q.get('topic_code') != topic: continue
+        if subtopic and q.get('subtopic_code') != subtopic: continue
+        if year_min and (not q.get('year') or q['year'] < year_min): continue
+        if year_max and (not q.get('year') or q['year'] > year_max): continue
+        if diff_min and (not q.get('difficulty') or q['difficulty'] < diff_min): continue
+        if diff_max and (not q.get('difficulty') or q['difficulty'] > diff_max): continue
+        if curriculum and q.get('curriculum') != curriculum: continue
+        candidates.append(q_id)
+
+    if not candidates:
+        return jsonify({'error': 'No questions match filters'}), 404
+    q_id = random.choice(candidates)
+    return jsonify({'question_id': q_id, **PHYSICS_BANK[q_id]})
+
+
+@app.route('/api/physics/image/<question_id>/<image_name>')
+def physics_image(question_id, image_name):
+    if question_id not in PHYSICS_BANK:
+        return jsonify({'error': 'Question not found'}), 404
+    q = PHYSICS_BANK[question_id]
+    img_path = Path(__file__).parent.parent / q['path'] / image_name
+    if not img_path.exists():
+        return jsonify({'error': 'Image not found'}), 404
+    return send_file(img_path, mimetype='image/png')
+
+
+# ── Built-in AI Chat ──
+import secrets
+import time
+from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
+
+CHAT_PASSWORD = os.environ.get('CHAT_PASSWORD', 'xht3i')
+_ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY', '')
+_CHAT_SIGNER = URLSafeTimedSerializer(app.secret_key, salt='chat-token-v1')
+_CHAT_TOKEN_MAX_AGE = 7 * 24 * 3600  # 7 days
+
+# Brute-force protection: track failed attempts per IP
+_auth_attempts = {}  # ip -> [timestamp, ...]
+_AUTH_MAX_ATTEMPTS = 5
+_AUTH_LOCKOUT_SECONDS = 15 * 60  # 15 minutes
+
+def _check_rate_limit(ip):
+    """Return (allowed, seconds_remaining). Cleans up old entries."""
+    now = time.time()
+    attempts = [t for t in _auth_attempts.get(ip, []) if now - t < _AUTH_LOCKOUT_SECONDS]
+    _auth_attempts[ip] = attempts
+    if len(attempts) >= _AUTH_MAX_ATTEMPTS:
+        remaining = int(_AUTH_LOCKOUT_SECONDS - (now - attempts[0]))
+        return False, remaining
+    return True, 0
+
+def _record_failed_attempt(ip):
+    _auth_attempts.setdefault(ip, []).append(time.time())
+
+def _clear_attempts(ip):
+    _auth_attempts.pop(ip, None)
+
+def _verify_chat_token(token):
+    """Returns True if token is valid and not expired."""
+    try:
+        _CHAT_SIGNER.loads(token, max_age=_CHAT_TOKEN_MAX_AGE)
+        return True
+    except (BadSignature, SignatureExpired):
+        return False
+
+@app.route('/api/chat/auth', methods=['POST'])
+def chat_auth():
+    """Exchange password for a signed token. Rate-limited."""
+    if not CHAT_PASSWORD:
+        return jsonify({'error': 'Chat not configured'}), 503
+    ip = request.remote_addr
+    allowed, remaining = _check_rate_limit(ip)
+    if not allowed:
+        return jsonify({'error': f'Too many attempts. Try again in {remaining//60+1} min.'}), 429
+    data = request.get_json() or {}
+    # Timing-safe comparison prevents timing attacks
+    if not secrets.compare_digest(data.get('password', ''), CHAT_PASSWORD):
+        _record_failed_attempt(ip)
+        allowed2, _ = _check_rate_limit(ip)
+        remaining_attempts = _AUTH_MAX_ATTEMPTS - len(_auth_attempts.get(ip, []))
+        if not allowed2:
+            return jsonify({'error': 'Too many wrong attempts. Locked out for 15 minutes.'}), 429
+        return jsonify({'error': f'Wrong password ({max(0,remaining_attempts)} attempts left)'}), 401
+    _clear_attempts(ip)
+    token = _CHAT_SIGNER.dumps({'v': 1})
+    return jsonify({'token': token})
+
+@app.route('/api/chat', methods=['POST'])
+def ai_chat():
+    data = request.get_json()
+    if not data:
+        return jsonify({'error': 'Invalid request'}), 400
+
+    # Token auth (never touches the raw password after initial login)
+    token = data.get('token', '')
+    if not token or not _verify_chat_token(token):
+        return jsonify({'error': 'Unauthorized'}), 401
+
+    if not _ANTHROPIC_API_KEY:
+        return jsonify({'error': 'ANTHROPIC_API_KEY not set on server'}), 503
+
+    messages = data.get('messages', [])
+    question_id = data.get('question_id')
+    subject = data.get('subject', 'math')
+
+    if not messages:
+        return jsonify({'error': 'No messages'}), 400
+
+    # Load question image once (attached to first user message)
+    img_b64 = None
+    if question_id:
+        bank = PHYSICS_BANK if subject == 'physics' else QUESTION_BANK
+        q = bank.get(question_id)
+        if q:
+            img_path = Path(__file__).parent.parent / q['path'] / 'question_p1.png'
+            if img_path.exists():
+                with open(img_path, 'rb') as f:
+                    img_b64 = base64.b64encode(f.read()).decode()
+
+    anthropic_messages = []
+    for i, msg in enumerate(messages):
+        role = msg.get('role')
+        content = msg.get('content', '')
+        if role == 'user' and i == 0 and img_b64:
+            anthropic_messages.append({
+                'role': 'user',
+                'content': [
+                    {'type': 'image', 'source': {'type': 'base64', 'media_type': 'image/png', 'data': img_b64}},
+                    {'type': 'text', 'text': content},
+                ]
+            })
+        else:
+            anthropic_messages.append({'role': role, 'content': content})
+
+    try:
+        import anthropic as _anthropic
+        client = _anthropic.Anthropic(api_key=_ANTHROPIC_API_KEY)
+        response = client.messages.create(
+            model='claude-sonnet-4-6',
+            max_tokens=1024,
+            system=(
+                'You are a helpful IB Physics/Math HL tutor. '
+                'The student has shared an exam question image. '
+                'Give clear, step-by-step explanations. '
+                'Be concise but thorough.'
+            ),
+            messages=anthropic_messages,
+        )
+        reply = response.content[0].text
+        return jsonify({'reply': reply})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
 # Register unified routes for new interface
 from unified_routes import register_unified_routes
 register_unified_routes(app)
@@ -922,5 +1513,6 @@ if __name__ == '__main__':
         app,
         host='0.0.0.0' if is_production else '127.0.0.1',
         port=port,
-        debug=not is_production
+        debug=not is_production,
+        allow_unsafe_werkzeug=True
     )

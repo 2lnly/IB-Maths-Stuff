@@ -50,3 +50,33 @@ CLAUDE.md
 
 # Backups
 backups/
+
+# Raw PDF source files (too large for git)
+Paper 1/
+Paper 2/
+Paper 3/
+Physics HL/
+
+# Extracted question/answer images (generated, too large for git)
+practice_new/
+practice_physics/
+
+# Intermediate processing checkpoints
+data/classification_checkpoint.json
+data/physics_classification_checkpoint.json
+
+# Backup data files
+data/*_backup_*.json
+
+# Secrets / environment config
+.env
+*.env
+config.py
+
+# Flask session data
+flask_session/
+
+# Migration scripts (one-time use)
+web/add_owner_column.py
+web/migrate_db.py
+fix_years_and_crop.py
