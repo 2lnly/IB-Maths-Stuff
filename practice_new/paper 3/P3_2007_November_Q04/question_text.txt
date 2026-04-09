@@ -1,0 +1,782 @@
+8807-7203
+4.	
+[Maximum mark:  14]
+	
+(a)	
+It was found that x  people in a sample of 225 supported a smoking ban in public 
+places.  If the 95 % confidence interval for the proportion of people supporting 
+the ban in the population from which the sample was taken is 0 2297 0 3481
+.
+, .
+[
+] 
+calculate the value of x .
+[4 marks]
+	
+(b)	
+A coin is thought to be biased.
+To test the coin for bias, Amanda suggests that it should be tossed three times. 
+If all three tosses are heads or all three tosses are tails, then we conclude that the 
+coin is biased.
+	
+	
+Roger suggests that it should be tossed eight times. If at least six tosses are heads 
+or at least six tosses are tails, then we conclude that the coin is biased.
+	
+	
+(i)	
+Determine which of the two methods has the smaller probability of making 
+a Type I error.
+	
+	
+(ii)	
+Determine the probability that Roger will make a Type II error when the 
+probability of a head is actually 0 6. .
+[10 marks]
++
+8807-7203
+–  –
+SECTION B
+Sets, relations and groups
+1.	
+[Maximum mark:  11]
+	
+For each n∈
++
+, a subset of +  is defined by S
+x
+n
+x
+n =
+∈
+{
+}
++
+
+ divides 
+.  
+	
+(a)	
+Express in simplest terms the membership of the following sets:
+	
+	
+(i)	
+S1 ;
+	
+	
+(ii)	
+S2′;
+	
+	
+(iii)	 S
+S
+2
+3
+∩
+;
+	
+	
+(iv)	
+S
+S
+6
+3
+\
+ .
+[7 marks]
+	
+(b)	
+Prove that A B
+B A
+A
+B
+A
+B
+\
+\
+\
+(
+)∪(
+) =
+∪
+(
+)
+∩
+(
+).
+[4 marks]
+2.	
+[Maximum mark:  12]
+	
+Two relations, M and N, are defined on  by:
+xMy  if and only if | |
+| |
+x
+y
+≤
+;
+xNy  if and only if x
+x
+y
+y
+2
+2
+2
+2
+−
+=
+−
+.
+	
+(a)	
+Determine whether M is an equivalence relation.
+[2 marks]
+	
+(b)	
+(i)	
+Prove that N is an equivalence relation.
+	
+	
+(ii)	
+Determine the equivalence classes of N.
+	
+	
+(iii)	 Find the equivalence class containing only one element. 
+[10 marks]
++
+8807-7203
+–  –
+3.	
+[Maximum mark:  15]
+	
+Let F x
+x
+x
+( )
+|
+|
+=
+−
+−
+2
+2 .
+	
+(a)	
+The function  f  is defined by
+f :]
+, ]
+,
+−∞
+→
+1
+ where f x
+F x
+( )
+( )
+=
+.
+Find the range of  f  and determine whether it is an injection.
+[5 marks]
+	
+(b)	
+The function g is defined by
+g :
+,
+,
+,
+1
+0
+∞
+[
+[ →
+∞
+[
+[  where g x
+F x
+( )
+( )
+=
+.
+Show that g has an inverse and find this inverse.
+[10 marks]
++
+8807-7203
+–  –
+4.	
+[Maximum mark:  22]
+	
+(a)	
+S  is the set of permutations P Q R T
+,
+,
+,
+{
+} where 
+P = 
+
+
+
+1
+2
+3
+4
+1
+2
+3
+4 , Q = 
+
+
+
+1
+2
+3
+4
+4
+1
+2
+3 , R = 
+
+
+
+1
+2
+3
+4
+3
+4
+1
+2 , T = 
+
+
+
+1
+2
+3
+4
+2
+3
+4
+1 .
+Complete a Cayley table for S  under the operation ∗ (composition of 
+permutations) and show that S , ∗
+(
+) is a cyclic group.
+[9 marks]
+	
+(b)	
+A binary operation ⊗ is defined on  by
+x
+y
+x
+y
+sxy
+⊗
+=
++
++
+ 
+where s is a fixed non-zero real number.
+	
+	
+(i)	
+Show that ⊗ is commutative and associative on .
+	
+	
+(ii)	
+Find the identity, and hence find the inverse, of the element x.  Show, however, 
+that one particular value of x has no inverse.  Call this value t.
+	
+	
+(iii)	 Determine whether or not \ ,t ⊗
+{
+}  is an Abelian group.
+Find a subset of  which forms a group of order two.
+[13 marks]
++
+8807-7203
+–  –
+SECTION C
+Series and differential equations
+1.	
+[Maximum mark:  19]
+	
+(a)	
+(i)	
+State the domain and range of the function f x
+x
+( )
+arcsin ( )
+=
+.
+	
+	
+(ii)	
+Determine the first two non-zero terms in the Maclaurin series for f x
+( ) .
+[8 marks]
+	
+(b)	
+Use the small angle approximation
+cos( )
+y
+y
+y
+≈−
++
+1
+2
+24
+2
+4
+to find a series for cos arcsin ( )
+x
+(
+)  up to and including the term in x4 .
+[4 marks]
+	
+(c)	
+(i)	
+Find the Maclaurin series for (
+)
+p
+qx
+r
++
+2
+ up to and including the term in x4
+where p, q, r ∈.
+	
+	
+(ii)	
+Find values of p, q, r such that your series in (c) (i) is identical to your 
+answer to (b).  Comment on this result.
+[7 marks]
+2.	
+[Maximum mark:  10]
+	
+(a)	
+Determine lim ln (
+)
+ln (
+)
+x
+a
+x
+a
+x
+→
++
+−
+
+
+
+
+0
+2
+2
+3
+, where a is a positive constant, not equal to 1.
+[3 marks]
+	
+(b)	
+Calculate lim ln (
+)
+ln (
+)
+x
+x
+x
+→
++
+−
+
+
+
+
+0
+2
+2
+1
+1
+ .
+[3 marks]
+	
+(c)	
+Show that lim
+cos
+cos
+x
+x
+x
+x
+x
+x
+→
+−
++
+−
++
+−
+=
+
+
+
+
+0
+2
+2
+2
+2
+1
+e
+e
+.
+[4 marks]
++
+8807-7203
+
+3.	
+[Maximum mark:  14]
+	
+(a)	
+A homogeneous differential equation has the form
+d
+d
+y
+x
+F
+y
+x
+=
+
+
+
+.
+Show that the substitution v
+y
+x
+=
+ leads to a differential equation which can be solved 
+by separation of variables.
+[3 marks]
+	
+(b)	
+Show that the linear change of variables X
+x
+Y
+y
+=
+−
+=
+−
+1
+2
+,
+, transforms 
+the equation
+d
+d
+y
+x
+x
+y
+x
+y
+=
++
+−
+−
+−
+3
+7
+3
+1  to a homogeneous form.
+Hence solve this equation. 
+[11 marks]
++
+8807-7203
+
+4.	
+[Maximum mark:  17]
+	
+(a)	
+(i)	
+By considering the graph of y
+x
+= 1  between x
+a
+=
+ and x
+a
+=
++1, show 
+that
+1
+1
+1
+1
+2
+1
+1
+1
+a
+a
+a
+a
+a
++ <
++
+
+
+
+<
++
++
+
+
+
+
+ln
+, for all  a > 0.
+ 
+	
+	
+(ii)	
+Deduce that
+1
+2
+2
+3
+4
+<
+<
+ln
+.
+	
+	
+(iii)	 Using (i) find p q
+,
+∈ such that p
+q
+<
+<
+ln3
+.
+[8 marks]
+	
+(b)	
+Given that Hn is the nth  partial sum of the harmonic series, show that
+H
+n
+H
+n
+n
+n
+−<
+<
+−
+−
+1
+1
+2
+1
+2
+ln
+, for n > 1.
+[5 marks]
+	
+(c)	
+If γ n
+n
+H
+n
+=
+−ln
+, prove that the terms of the sequence {
+:
+}
+γ n n ≥1  decrease as 
+n increases.
+[4 marks]
++
+8807-7203
+
+SECTION D
+Discrete mathematics
+1.	
+[Maximum mark:  15]
+	
+(a)	
+(i)	
+Find the base 8 representation of the decimal number 1001.
+	
+	
+(ii)	
+Prove that a number is divisible by 7 if and only if the sum of the digits in 
+its base 8 representation is also divisible by 7.
+	
+	
+(iii)	 Use the results from (i) and (ii) to show that the decimal number 1001 is 
+divisible by 7.
+[9 marks]
+	
+(b)	
+Solve the system of simultaneous congruences:
+x
+x
+≡
+≡
+4
+9
+3
+5
+(mod )
+(mod ).
+ 
+[6 marks]
+2.	
+[Maximum mark:  9]
+The weights of the edges of a graph are given in the following table:
+ 
+A
+B
+C
+D
+E
+F
+G
+H
+I
+A
+5
+2
+B
+5
+4
+3
+5
+6
+C
+4
+3
+D
+2
+3
+7
+6
+8
+E
+5
+7
+1
+3
+F
+6
+3
+1
+4
+4
+G
+6
+4
+H
+8
+3
+4
+4
+2
+I
+4
+2
+	
+(a)	
+Starting at A, use Prim’s algorithm to find a minimum spanning tree for this 
+graph.
+[7 marks]
+	
+(b)	
+Draw this minimum spanning tree and state its weight.
+[2 marks]
++
+8807-7203
+
+3.	
+[Maximum mark:  19]
+	
+A graph G has e edges and n vertices.
+	
+(a)	
+Show that the sum of the degrees of the vertices is twice the number of edges.
+[1 mark]
+	
+(b)	
+Deduce that G has an even number of vertices of odd degree.
+[4 marks]
+	
+(c)	
+(i)	
+Graph G is connected, planar and divides the plane into exactly four regions. 
+If (
+)
+n −1  vertices have degree three and exactly one vertex has degree d , 
+determine the possible values of ( ,
+)
+n d . 
+	
+	
+(ii)	
+For each possible ( ,
+)
+n d , draw a graph which satisfies the conditions 
+described in (c) (i).
+[14 marks]
+4.	
+[Maximum mark:  17]
+	
+(a)	
+Show that 10
+3 4
+5
+2
+n
+n
+n
++ ×
++
+∈
++
++
+,
+ is a multiple of 9.
+[8 marks]
+	
+(b)	
+(i)	
+Use Fermat’s Little Theorem to show that x
+a
+b
+p
+p
+≡
+−2 (mod
+)  is a solution 
+to the linear congruence ax
+b
+p
+≡
+(mod
+)  where p  is a prime number and
+a b
+,
+∈
++
+. 
+Hence solve 4
+3
+7
+x ≡(mod ) .
+	
+	
+(ii)	
+Find the last digit in the base 9 expansion of 5155.
+[9 marks]

@@ -1,0 +1,43 @@
+8814-7207
+5.	
+[Maximum mark:  13]
+ 
+Andy and Roger are playing tennis with the rule that if one of them wins a game when serving 
+then he carries on serving, and if he loses then the other player takes over the serve.
+The probability Andy wins a game when serving is 1
+2
+ and the probability he wins a game when 
+not serving is 1
+4
+.  Andy serves in the first game.  Let  un  denote the probability that Andy wins 
+the  nth  game.
+	
+(a)	
+State the value of  u1 .
+[1]
+	
+(b)	
+Show that  un  satisfies the recurrence relation
+u
+u
+n
+n
+=
++
+−
+1
+4
+1
+4
+1
+.
+[4]
+ 
+(c) 
+Solve this recurrence relation to find the probability that Andy wins the  nth  game.
+[6]
+ 
+(d) 
+After they have played many games, Pat comes to watch.  Use your answer from part (c) 
+to estimate the probability that Andy will win the game they are playing when Pat arrives.
+[2]

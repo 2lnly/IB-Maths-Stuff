@@ -1,0 +1,632 @@
+2207-7206
+5.	
+[Maximum mark:  10]
+	
+Let X
+X
+X
+1
+2
+20
+,
+, ... ,
+ be independent random variables each having a geometric 
+distribution with probability of success  p  equal to  0.6 .
+	
+Let Y
+X i
+i
+=
+=∑
+1
+20
+. 
+	
+(a)	
+Explain why the random variable Y has a negative binomial distribution.
+[2 marks]
+	
+(b)	
+Find the mean and variance of  Y .
+[4 marks]
+	
+(c)	
+Calculate P(
+)
+Y = 30 .
+[4 marks]
+2207-7206
+–  –
+SECTION B
+Sets, relations and groups
+1.	
+[Maximum mark:  10]
+	
+Let a b
+,
+∈
++
+ and define aRb
+a
+b
+⇔
+≡
+2
+2 (modulo 3).
+	
+(a)	
+Show that R is an equivalence relation.
+[6 marks]
+	
+(b)	
+Find all the equivalence classes.
+[4 marks]
+2.	
+[Maximum mark:  14]
+	
+Let ∗ be a binary operation defined on  as follows:
+a b
+a
+b
+∗
+=
++
+−1
+	
+(a)	
+Determine whether or not the operation ∗ is commutative.
+[2 marks]
+	
+(b)	
+Show that {
+, }
+∗ is a group.
+[12 marks]
+3.	
+[Maximum mark:  12]
+	
+The permutations p1  and p2  of the integers {1 , 2 , 3 , 4 , 5} are given by
+p
+p
+1
+2
+1
+2
+3
+4
+5
+3
+1
+2
+5
+4
+1
+2
+3
+4
+5
+2
+3
+4
+5
+1
+= 
+
+
+
+= 
+
+
+
+ ;  
+.
+	
+(a)	
+Find the order of p1 .
+[4 marks]
+	
+(b)	
+(i)	
+Find p p
+2
+1, the composite permutation p1  followed by p2 .
+	
+(ii)	
+Determine whether or not p1  and p2  commute under composition of 
+permutations.
+[4 marks]
+	
+(c)	
+Find (
+)
+p
+p
+1
+2
+2
+1
+−.
+[4 marks]
+2207-7206
+–  –
+4.	
+[Maximum mark:  18]
+	
+The set S contains the four elements  a, b, c, d .  The groups { ,
+}
+S 
+ and { ,
+}
+S ×  have 
+the following Cayley tables.
+a
+b
+c
+d
+a
+c
+d
+a
+b
+b
+d
+c
+b
+a
+c
+a
+b
+c
+d
+d
+b
+a
+d
+c
+  
+	
+(a)	
+For each group,
+	
+	
+(i)	
+state the identity,
+	
+	
+(ii)	
+find the order of each of the elements.
+[6 marks]
+	
+(b)	
+Write down all the proper subgroups of
+	
+	
+(i)	
+{ ,
+}
+S 
+;
+	
+	
+(ii)	
+{ ,
+}
+S × .
+[4 marks]
+	
+(c)	
+Solve the equation a
+x
+x
+d
+c
+(
+)
+×
+(
+)×
+=
+.
+[8 marks]
+5.	
+[Maximum mark:  6]
+	
+Let A and B be sets such that A
+B
+A
+B
+∩
+=
+∪
+.  Prove that A
+B
+=
+.
+[6 marks]
+     
+a
+b
+c
+d
+a
+c
+a
+d
+b
+b
+a
+b
+c
+d
+c
+d
+c
+b
+a
+d
+b
+d
+a
+c
+
+×
+2207-7206
+–  –
+SECTION C
+Series and differential equations
+1.	
+[Maximum mark:  10]
+	
+	
+(a)	
+Use l’Hôpital’s Rule to find
+	
+	
+(i)	
+x
+x
+x
+→
+−
+1
+2
+1
+lim ln
+;
+	
+	
+(ii)	
+x
+x
+x
+→
+−
+0
+2
+1
+lim
+tan
+cos .
+[8 marks]
+	
+(b)	
+Giving a reason, state whether the following argument is correct or incorrect.
+“Using l’Hôpital’s Rule, 
+x
+x
+x
+x
+x
+→
+→
+−
+−
+=
+=
+3
+2
+3
+3
+3
+1
+2
+1
+6
+lim
+lim
+.”
+[2 marks]
+2.	
+[Maximum mark:  8]
+	
+Given that the Maclaurin series for esin x  is a
+bx
+cx
+dx
++
++
++
++
+2
+3
+..., find the values of a, 
+b, c and d .
+[8 marks]
+3.	
+[Maximum mark:  12]
+	
+Consider the infinite series 
+1
+2
+1 n n
+n
+(
+)
++
+=
+∞
+∑
+.
+	
+(a)	
+Show that the series is convergent.
+[3 marks]
+	
+(b)	
+(i)	
+Express 
+1
+2
+n n
+(
+)
++
+ in partial fractions.
+	
+	
+(ii)	
+Hence find 
+1
+2
+1 n n
+n
+(
+)
++
+=
+∞
+∑
+.
+[9 marks]
+2207-7206
+–  –
+4.	
+[Maximum mark:  16]
+	
+(a)	
+Use integration by parts to show that
+sin cos
+(
+sin )
+sin
+sin
+x
+x
+x
+x
+C
+x
+x
+e
+d
+e
+−
+−
+∫
+= −
++
++
+1
+.
+[4 marks]
+	
+Consider the differential equation d
+d
+y
+x
+y
+x
+x
+x
+−
+=
+cos
+sin cos
+.
+	
+(b)	
+Find an integrating factor.
+[3 marks]
+	
+(c)	
+Solve the differential equation, given that y = −2  when x = 0 .  Give your 
+answer in the form y
+f x
+=
+( ) .
+[9 marks]
+5.	
+[Maximum mark:  14]
+	
+Find the interval of convergence of the series 
+sin π
+n
+x
+n
+n
+
+
+
+
+=
+∞
+∑
+1
+.
+[14 marks]
+2207-7206
+–  –
+SECTION D
+Discrete mathematics
+1.	
+[Maximum mark:  14]
+	
+The weights of the edges in a simple graph G are given in the following table.
+Vertices
+A
+B
+C
+D
+E
+F
+A
+-
+4
+6
+16
+15
+17
+B
+4
+-
+5
+17
+9
+16
+C
+6
+5
+-
+15
+8
+14
+D
+16
+17
+15
+-
+15
+7
+E
+15
+9
+8
+15
+-
+18
+F
+17
+16
+14
+7
+18
+-
+	
+(a)	
+Use Prim’s Algorithm, starting with vertex F, to find and draw the minimum 
+spanning tree for G.   Your solution should indicate the order in which the edges 
+are introduced.
+[12 marks]
+	
+(b)	
+Use your tree to find an upper bound for the travelling salesman problem for G.
+[2 marks]
+2.	
+[Maximum mark:  16]
+	
+(a)	
+Use the Euclidean algorithm to find the greatest common divisor of 43 and 73.
+[5 marks]
+	
+Consider the equation 43
+73
+7
+x
+y
++
+=
+, where x y
+,
+∈.
+	
+(b)	
+(i)	
+Find the general solution of this equation.
+	
+	
+(ii)	
+Find the solution which minimises | |
+| |
+x
+y
++
+.
+[11 marks]
+2207-7206
+
+3.	
+[Maximum mark:  13]
+Let H be the weighted graph drawn below.
+	
+	
+(a)	
+(i)	
+Name the two vertices of odd degree.
+	
+	
+(ii)	
+State the shortest path between these two vertices.
+	
+	
+(iii)	 Using the route inspection algorithm, or otherwise, find a walk, starting 
+and ending at A, of minimum total weight which includes every edge at 
+least once.
+	
+	
+(iv)	 Calculate the weight of this walk.
+[11 marks]
+	
+(b)	
+Write down a Hamiltonian cycle in H .
+[2 marks]
+4.	
+[Maximum mark:  9]
+Consider the equation x
+y
+12 1
+7
++ =
+, where x y
+,
+∈
++
+.
+Using Fermat’s little theorem, show that this equation has no solution.
+[9 marks]
+5.	
+[Maximum mark:  8]
+	
+Let K be a simple graph.  
+	
+(a)	
+Define the complement, 
+′
+K , of K .
+[1 mark]
+	
+(b)	
+Given that K has six vertices, show that K and 
+′
+K  cannot both contain an Eulerian 
+trail.
+[7 marks]

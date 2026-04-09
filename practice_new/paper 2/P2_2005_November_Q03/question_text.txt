@@ -1,0 +1,104 @@
+8805-7202
+3. 
+[Maximum mark: 17]
+ 
+(i) 
+In a game a player pays an entrance fee of $ n.  He then selects one number from 
+1, 2, 3, 4, 5, 6 and rolls three standard dice.
+If his chosen number appears on all three dice he wins four times his 
+entrance fee.
+If his number appears on exactly two of the dice he wins three times the 
+entrance fee.
+If his number appears on exactly one die he wins twice the entrance fee.
+If his number does not appear on any of the dice he wins nothing.
+ 
+ 
+(a) 
+Copy and complete the probability table below.
+[4 marks]
+Profit ($)
+−n
+n
+2n
+3n
+Probability
+75
+216
+ 
+ 
+(b) 
+Show that the player’s expected profit is $ −
+
+
+
+
+17
+216
+n .
+[2 marks]
+ 
+ 
+(c) 
+What should the entrance fee be so that the player’s expected loss per game 
+is 34 cents?
+[2 marks]
+ 
+(ii) 
+(a) 
+Use mathematical induction to prove that
+1
+2
+1 2
+1
+2
+1
+1 (
+)(
+)
+,
+r
+r
+n
+n
+n
+r
+n
+−
++
+=
++
+∈
+=
++
+∑
+¢ .
+[6 marks]
+ 
+ 
+(b) 
+Hence show that the sum of the first (
+)
+n +1  terms of the series 
+1
+3
+1
+15
+1
+35
+1
+63
++
++
++
++... is (
+)
+(
+)
+n
+n
++
++
+1
+2
+3 .
+[3 marks]

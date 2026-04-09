@@ -1,0 +1,82 @@
+1.	
+[Maximum mark: 25]
+In this question, you will be investigating the family of functions of the form  f (x) = xn e-x .
+Consider the family of functions  f n (x) = xn e-x , where  x ≥ 0  and  n ∈ + .
+When  n = 1 , the function  f 1 (x) = xe-x , where  x ≥ 0 .
+(a)	
+Sketch the graph of  y = f 1 (x) , stating the coordinates of the local maximum point.
+[4]
+(b)	
+Show that the area of the region bounded by the graph  y = f 1 (x) , the  x-axis and the 
+line  x = b , where  b > 0 , is given by e
+e
+b
+b
+b
+-
+-1 .
+[6]
+You may assume that the total area,  An , of the region between the graph  y = f n (x)  and the 
+x-axis can be written as A
+f
+x
+x
+n
+n
+=
+∞∫
+( )
+0
+d  and is given by lim
+( )
+b
+n
+b f
+x
+x
+→∞∫0
+d .
+(c)	
+(i)	
+Use l’Hôpital’s rule to find lim
+b
+b
+b
+b
+→∞
+−
+−
+e
+e
+1. You may assume that the condition for 
+applying l’Hôpital’s rule has been met.
+[2]
+(ii)	
+Hence write down the value of  A1 .
+[1]
+You are given that  A2 = 2  and  A3 = 6 .
+(d)	
+Use your graphic display calculator, and an appropriate value for the upper limit, 
+to determine the value of
+(i)	
+A4 ;
+[2]
+(ii)	
+A5 .
+[1]
+(e)	
+Suggest an expression for  An  in terms of  n , where  n ∈ + .
+[1]
+(f)	
+Use mathematical induction to prove your conjecture from part (e). You may assume 
+that, for any value of  m , lim
+x
+m
+x
+x
+→∞
+−=
+e
+0 .
+[8]
+– 4 –

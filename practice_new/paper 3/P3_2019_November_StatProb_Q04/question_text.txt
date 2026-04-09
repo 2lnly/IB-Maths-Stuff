@@ -1,0 +1,32 @@
+4.	
+[Maximum mark:  14]
+Consider the random variable  X , which follows a negative binomial distribution   
+X ~ NB (r , p) . The probability generating function for  X  is given by
+ G
+t
+p t
+qt
+X
+r r
+r
+( )
+(
+)
+
+
+1
+, where  q = 1 - p .
+(a)	
+Use this probability generating function to find and simplify  E (X ) .
+[5]
+Consider another independent random variable  Y , where  Y ~ NB (s , p) . 
+Let  W = X + Y .
+(b)	
+(i)	
+Find the probability generating function for  W .
+(ii)	
+Hence identify the distribution that  W  follows and state its parameters.
+(iii)	
+Given that  r = 2  and  s = 3 , calculate  P (X = 3 | W = 7) .
+[9]
+

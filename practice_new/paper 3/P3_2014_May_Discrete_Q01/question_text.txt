@@ -1,0 +1,55 @@
+2214-7207
+1.	
+[Maximum mark:  10]
+	
+The weighted graph  K , representing the travelling costs between five customers, has the 
+following adjacency table.
+A
+B
+C
+D
+E
+A
+0
+1
+6
+7
+4
+B
+1
+0
+9
+8
+10
+C
+6
+9
+0
+11
+3
+D
+7
+8
+11
+0
+12
+E
+4
+10
+3
+12
+0
+	
+(a)	
+Draw the graph  K .
+[2]
+	
+(b)	
+Starting from customer D, use the nearest-neighbour algorithm, to determine an upper 
+bound to the travelling salesman problem for  K .
+[4]
+	
+(c)	
+By removing customer A, use the method of vertex deletion, to determine a lower bound 
+to the travelling salesman problem for  K .
+[4]

@@ -1,0 +1,94 @@
+1.	
+[Maximum mark:  9]
+	
+The vertices of a graph  L  are A, B, C, D, E, F, G and H.  The weights of the edges 
+in  L  are given in the following table. 
+A
+B
+C
+D
+E
+F
+G
+H
+A
+–
+4
+–
+–
+1
+4
+1
+5
+B
+4
+–
+1
+–
+–
+1
+–
+13
+C
+–
+1
+–
+11
+2
+–
+–
+–
+D
+–
+–
+11
+–
+8
+3
+–
+7
+E
+1
+–
+2
+8
+–
+10
+–
+–
+F
+4
+1
+–
+3
+10
+–
+6
+–
+G
+1
+–
+–
+–
+–
+6
+–
+7
+H
+5
+13
+–
+7
+–
+–
+7
+–
+	
+(a)	
+Draw the graph  L .
+[2 marks]
+	
+(b)	
+Starting at A, use Prim’s algorithm to find a minimum spanning tree for  L , 
+clearly showing the order in which the edges are added.
+[7 marks]

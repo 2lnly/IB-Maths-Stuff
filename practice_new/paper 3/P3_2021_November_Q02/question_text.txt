@@ -1,0 +1,149 @@
+2.
+[Maximum mark: 30]
+In this question you will be exploring the strategies required to solve a system of
+linear differential equations.
+Consider the system of linear differential equations of the form:
+d
+d
+x
+x
+y
+t =
+-
+ and d
+d
+y
+ax
+y
+t =
++
+, 
+where  x , y , t ∈ +  and  a  is a parameter. 
+First consider the case where  a = 0 .
+(a)
+(i)	
+By solving the differential equation d
+d
+y
+y
+t =
+, show that  y = Aet   where  A  is 
+a constant.
+[3]
+(ii)
+Show that d
+e
+d
+t
+x
+x
+A
+t -
+= -
+.
+[1]
+(iii)
+Solve the differential equation in part (a)(ii) to find  x  as a function of  t .
+[4]
+Now consider the case where  a = -1 .
+(b)
+(i)	
+By differentiating d
+d
+y
+x
+y
+t = - +
+ with respect to  t , show that 
+2
+2
+d
+d
+2
+d
+d
+y
+y
+t
+t
+=
+.
+[3]
+(ii)
+By substituting
+d
+d
+y
+Y
+t
+=
+, show that  Y = Be2t  where  B  is a constant.
+[3]
+(iii)
+Hence find  y  as a function of  t .
+[2]
+(iv)	
+Hence show that 
+2e
+2
+t
+B
+x
+C
+= -
++
+, where  C  is a constant.
+[3]
+Now consider the case where  a = -4 . 
+(c)
+(i)	
+Show that 
+2
+2
+d
+d
+2
+3
+0
+d
+d
+y
+y
+y
+t
+t
+-
+-
+=
+.
+[3]
+From previous cases, we might conjecture that a solution to this differential equation 
+is  y = Feλt,  λ ∈   and  F  is a constant.
+(ii)
+Find the two values for  λ  that satisfy
+2
+2
+d
+d
+2
+3
+0
+d
+d
+y
+y
+y
+t
+t
+-
+-
+=
+.
+[4]
+Let the two values found in part (c)(ii) be  λ1  and  λ2 .
+(iii)
+Verify that  y = Feλ1t + Geλ2t  is a solution to the differential equation in (c)(i),
+where  G  is a constant.
+[4]
+References:
+© International Baccalaureate Organization 2021

@@ -1,0 +1,55 @@
+2.	
+[Maximum mark:  7]
+ 
+The complete graph  H  has the following cost adjacency matrix.
+A
+B
+C
+D
+E
+A
+–
+19
+17
+10
+15
+B
+19
+–
+11
+16
+13
+C
+17
+11
+–
+14
+13
+D
+10
+16
+14
+–
+18
+E
+15
+13
+13
+18
+–
+ 
+Consider the travelling salesman problem for  H .
+ 
+(a) 
+By first finding a minimum spanning tree on the subgraph of   H  formed 
+by deleting vertex A and all edges connected to A, find a lower bound for 
+this problem.
+[5 marks]
+ 
+(b) 
+Find the total weight of the cycle ADCBEA.
+[1 mark]
+ 
+(c) 
+What do you conclude from your results?
+[1 mark]

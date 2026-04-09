@@ -1,0 +1,41 @@
+2.	
+[Maximum mark: 12]
+Christine and her friends live in Winnipeg, Canada. The weighted graph shows the location of 
+their houses and the time, in minutes, to travel between each house.
+13
+21
+25
+15
+E
+24
+32
+21
+H
+10
+12
+25
+14
+B
+11
+A
+32
+17
+C
+D
+7
+F
+G
+Christine’s house is located at vertex C.
+(a)	
+(i)	
+Use Dijkstra’s algorithm to find the shortest time to travel from C to F, clearly 
+showing how the algorithm has been applied.
+(ii)	
+Hence write down the shortest path from C to F.
+[7]
+A new road is constructed that allows Christine to travel from H to A in  t  minutes.
+If Christine starts from home and uses this new road her minimum travel time to A 
+is reduced, but her minimum travel time to F remains the same.
+(b)	
+Find the possible values of  t .
+[5]

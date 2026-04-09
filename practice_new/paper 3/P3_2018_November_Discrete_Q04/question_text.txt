@@ -1,0 +1,46 @@
+4.	
+[Maximum mark: 17]
+Consider the graph G represented in the following diagram.
+C
+D
+E
+F
+A
+B
+I
+H
+6
+6
+6
+10
+8
+8
+5
+5
+7
+7
+11
+11
+10
+9
+7
+(a)	
+State, with a reason, whether or not G has an Eulerian circuit.
+[1]
+(b)	
+Use Kruskal’s algorithm to find a minimum spanning tree for G, stating its total weight.  
+Indicate clearly the order in which the edges are added.
+[4]
+The graph G is a plan of a holiday resort where each vertex represents a villa and the edges 
+represent the roads between villas.  The weights of the edges are the times, in minutes, 
+Mr José, the security guard, takes to walk along each of the roads.  Mr José is based at villa A.
+(c)	
+Use a suitable algorithm to show that the minimum time in which Mr José can get from 
+A to E is 13 minutes.
+[5]
+(d)	
+Find the minimum time it takes Mr José to patrol the resort if he has to walk along 
+every road at least once, starting and ending at A.  State clearly which roads need to 
+be repeated.
+[7]
+

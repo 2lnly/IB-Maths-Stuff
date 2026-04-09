@@ -1,0 +1,43 @@
+4.	
+[Maximum mark:  19]
+The simple, complete graph  κn(n > 2)  has vertices  A1 , A2 , A3 , … , An .  The weight of the 
+edge from  Ai  to  Aj  is given by the number  i + j .
+	
+(a)	
+(i)	
+Draw the graph  κ4  including the weights of all the edges.
+	
+	
+(ii)	
+Use the nearest-neighbour algorithm, starting at vertex  A1 , to find a Hamiltonian 
+cycle.
+	
+	
+(iii)	
+Hence, find an upper bound to the travelling salesman problem for this weighted 
+graph.
+[4]
+	
+(b)	
+Consider the graph  κ5 .  Use the deleted vertex algorithm, with  A5  as the deleted 
+vertex, to find a lower bound to the travelling salesman problem for this weighted 
+graph.
+[5]
+Consider the general graph  κn .
+	
+(c)	
+(i)	
+Use the nearest-neighbour algorithm, starting at vertex  A1 , to find a Hamiltonian 
+cycle.
+	
+	
+(ii)	
+Hence find and simplify an expression in  n , for an upper bound to the travelling 
+salesman problem for this weighted graph.
+[7]
+	
+(d)	
+By splitting the weight of the edge  AiAj  into two parts or otherwise, show that all 
+Hamiltonian cycles of  κn  have the same total weight, equal to the answer found in 
+(c)(ii).
+[3]

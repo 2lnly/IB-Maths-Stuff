@@ -1,0 +1,55 @@
+2210-7207
+2.	
+[Maximum mark:  9]
+	
+A graph  G  with vertices A, B, C, D, E has the following cost adjacency matrix.
+A
+B
+C
+D
+E
+A
+–
+12
+10
+17
+19
+B
+12
+–
+13
+20
+11
+C
+10
+13
+–
+16
+14
+D
+17
+20
+16
+–
+15
+E
+19
+11
+14
+15
+–
+	
+(a)	
+(i)	
+Use Kruskal’s algorithm to find and draw the minimum spanning tree for  G .
+	
+	
+(ii)	
+The graph  H  is formed from  G  by removing the vertex D and all the 
+edges connected to D.  Draw the minimum spanning tree for  H  and use it 
+to find a lower bound for the travelling salesman problem for  G .
+[7 marks]
+	
+(b)	
+Show that 80 is an upper bound for this travelling salesman problem.
+[2 marks]

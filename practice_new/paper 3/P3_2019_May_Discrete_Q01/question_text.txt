@@ -1,0 +1,84 @@
+1.	
+[Maximum mark:  14]
+In a housing complex a TV company is installing cables to five houses A, B, C, D and E.
+The possible routes for the cables are given by the following graph G where each vertex 
+represents a house and each edge represents a possible route for the cables. The weights of 
+the edges represent the cost, in thousands of dollars, of installing the cables between the houses.
+B
+C
+A
+E
+D
+13
+12
+11
+9
+9
+7
+4
+8
+6
+5
+The company wants to find the lowest installation cost that includes each house and returns 
+to the start.
+(a)	
+Starting at A, use the nearest-neighbour algorithm to find an upper bound for the 
+lowest installation cost.
+[3]
+(b)	
+By removing A, use the deleted vertex algorithm to find a lower bound for the lowest 
+installation cost.
+[5]
+(c)	
+(i)	
+State a route which produces the lower bound.
+(ii)	
+State why this is a solution to finding the lowest installation cost.
+[2]
+(This question continues on the following page)
+(Question 1 continued)
+In a second housing complex the design for installing cables between five houses P, Q, R, S 
+and T is given in the following adjacency table.
+P
+Q
+R
+S
+T
+P
+–
+1
+0
+0
+1
+Q
+1
+–
+1
+1
+0
+R
+0
+1
+–
+0
+1
+S
+0
+1
+0
+–
+1
+T
+1
+0
+1
+1
+–
+In the adjacency table 0 denotes no cable connecting the two houses and 1 denotes a cable 
+connecting the two houses.
+(d)	
+Draw a graph H to represent the second housing complex.
+[2]
+(e)	
+Explain why the graph H is bipartite.
+[2]

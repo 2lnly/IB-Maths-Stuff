@@ -1,0 +1,62 @@
+2.	
+[Maximum mark:  12]
+	
+The weights of the edges in the complete graph  G  are given in the following table.
+A
+B
+C
+D
+E
+F
+A
+–
+4
+9
+8
+14
+6
+B
+4
+–
+1
+14
+9
+3
+C
+9
+1
+–
+5
+12
+2
+D
+8
+14
+5
+–
+11
+12
+E
+14
+9
+12
+11
+–
+7
+F
+6
+3
+2
+12
+7
+–
+	
+(a)	
+Starting at  A , use the nearest neighbour algorithm to find an upper bound for the 
+travelling salesman problem for  G .
+[5]
+	
+(b)	
+By first deleting vertex  A , use the deleted vertex algorithm together with Kruskal’s 
+algorithm to find a lower bound for the travelling salesman problem for  G .
+[7]

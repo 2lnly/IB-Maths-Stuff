@@ -1,0 +1,23 @@
+3.	
+[Maximum mark:  13]
+A contagious virus affects the population of a small town with 5000 inhabitants.
+Let  In  denote the total number of people who have been infected by the end of the  nth  week.
+In the first week there were 10 cases of infection and by the end of the second week there 
+was a total of 22 cases.  A proposed model is that the number of cases is increasing in such 
+a way that the number of new cases in any week is 1.2 times the number of new cases in the 
+previous week.
+(a)	
+Show that  In  satisfies the recurrence relation  In+2 - 2.2In+1 + 1.2In = 0 .
+[2]
+(b)	
+State appropriate initial conditions.
+[1]
+(c)	
+Solve the recurrence relation to obtain an expression for  In  in terms of  n .
+[6]
+(d)	
+Hence find during which week the whole town will become infected.
+[2]
+(e)	
+State two limitations of the model.
+[2]

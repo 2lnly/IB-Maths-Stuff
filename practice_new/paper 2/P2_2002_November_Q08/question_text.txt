@@ -1,0 +1,118 @@
+[3 marks]
+8.
+[Maximum mark: 30]
+(i)
+(a)
+Explain how to use Euclid’s algorithm to obtain the greatest
+common divisor (gcd) of two positive integers a, b with b < a.
+[5 marks]
+(b)
+Let d be the gcd of 364 and 154.  Use Euclid’s algorithm to find d,
+and hence find integers x and y so that 
+.
+364
+154
+d
+x
+y
+=
++
+[5 marks]
+(ii)
+Solve the recurrence relation 
+, where
+2
+1
+2
+2
+0
+n
+n
+n
+y
+y
+y
++
++
+−
+−
+=
+.
+1
+2
+1,
+3, and
+y
+y
+n
++
+=
+=
+∈Z
+(iii)
+The floor plan of a certain building is shown below.  There are four
+rooms A, B, C, D and doorways are indicated between the rooms and to
+the exterior O.
+A
+B
+C
+D
+O
+[2 marks]
+(a)
+Draw a graph by associating a vertex with each room using the
+letters A, B, C, D, and O.  If there is a door between the two
+rooms, draw an edge joining the corresponding two vertices.
+[4 marks]
+(b)
+Does the graph in part (a) possess an Eulerian trail?  Give a reason
+for your answer.  What does your answer mean about the floor plan?
+[4 marks]
+(c)
+Does the graph in part (a) possess a Hamiltonian cycle?  Give a
+reason for your answer.  What does your answer mean about the
+floor plan?
+[2 marks]
+(iv)
+Let 
+, denote a tree T, with V being the set of the vertices and
+( ,
+)
+T
+V E
+=
+E the set of the edges.  Show that 
+, i.e. that the number of
+1
+V
+E
+=
++
+vertices is one more than the number of edges.
+(This question continues on the following page)
+882-237
+(Question 8 continued)
+[3 marks]
+(v)
+(a)
+Describe the depth-first search algorithm.
+(b)
+The diagram shows a graph M.
+P
+Q
+R
+S
+T
+U
+W
+X
+Y
+[2 marks]
+Use the depth-first algorithm to find and sketch a spanning tree for
+M, starting at vertex P.
+
+N02/510/H(2)
+882-237
+Analysis and Approximation
+
+N02/510/H(2)

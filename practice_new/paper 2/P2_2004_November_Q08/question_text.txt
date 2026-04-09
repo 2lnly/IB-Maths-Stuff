@@ -1,0 +1,265 @@
+8.
+[Maximum mark: 30]
+(i)
+Let G be a weighted graph with 6 vertices L, M, N, P, Q, and R.  The
+weight of the edges joining the vertices is given in the table below:
+–
+5
+4
+3
+7
+4
+R
+5
+–
+3
+4
+2
+1
+Q
+4
+3
+–
+2
+3
+5
+P
+3
+4
+2
+–
+4
+3
+N
+7
+2
+3
+4
+–
+4
+M
+4
+1
+5
+3
+4
+–
+L
+R
+Q
+P
+N
+M
+L
+For example the weight of the edge joining the vertices L and N is 3.
+[5 marks]
+(a)
+Use Prim’s algorithm to draw a minimum spanning tree starting at M.
+[1 mark]
+(b)
+What is the total weight of the tree?
+(ii)
+Let 
+ be two graphs whose adjacency matrices are represented
+1
+2
+and
+G
+G
+below.
+1
+G
+2
+G
+0
+2
+0
+1
+1
+0
+F
+2
+0
+2
+2
+0
+0
+E
+0
+2
+0
+1
+1
+2
+D
+1
+2
+1
+0
+1
+0
+C
+1
+0
+1
+1
+0
+2
+B
+0
+0
+2
+0
+2
+0
+A
+F
+E
+D
+C
+B
+A
+[2 marks]
+(a)
+Which one of them does not have an Eulerian trail?  Give a reason
+for your answer.
+[4 marks]
+(b)
+Find an Eulerian trail for the other graph.
+(This question continues on the following page)
+8804-7402
+0
+1
+0
+3
+0
+2
+f
+1
+0
+2
+1
+2
+1
+e
+0
+2
+0
+2
+3
+0
+d
+3
+1
+2
+0
+1
+3
+c
+0
+2
+3
+1
+0
+1
+b
+2
+1
+0
+3
+1
+0
+a
+f
+e
+d
+c
+b
+a
+(Question 8 continued)
+(iii)
+Let 
+ be a difference equation for all positive integers n.
+2
+1
+2
+2
+n
+n
+n
+x
+x
+x
++
++
+=
+−
+[2 marks]
+(a)
+Show that 
+ are the roots of the characteristic
+1
+and1
+i
+i
++
+−
+equation.
+[1 mark]
+(b)
+Hence write down the general solution to the difference equation.
+[8 marks]
+(c)
+If 
+, show that 
+ .
+1
+2
+1and
+2
+x
+x
+=
+=
+(
+)
+π
+2
+sin 4
+n
+n
+n
+x =
+(iv)
+Let p, q and 
+ with p and q relatively prime.
+r
++
+∈Z
+[7 marks]
+Show that 
+ if and only if
+(mod )
+(mod )
+r
+p
+q
+r
+q
+p
+≡
+≡
+and
+.
+(mod
+)
+r
+p
+q
+pq
+≡
++
+
+
+8804-7402
+Analysis and Approximation

@@ -1,0 +1,58 @@
+1.	
+[Maximum mark:  11]
+	
+Mathilde delivers books to five libraries, A, B, C, D and E.  She starts her deliveries at 
+library D and travels to each of the other libraries once, before returning to library D.  
+Mathilde wishes to keep her travelling distance to a minimum.
+The weighted graph H , representing the distances, measured in kilometres, between the 
+five libraries, has the following table.
+A
+B
+C
+D
+E
+A
+–
+18
+19
+16
+21
+B
+18
+–
+15
+22
+17
+C
+19
+15
+–
+20
+17
+D
+16
+22
+20
+–
+19
+E
+21
+17
+17
+19
+–
+	
+(a)	
+Draw the weighted graph H .
+[2]
+	
+(b)	
+Starting at library D use the nearest-neighbour algorithm, to find an upper bound for 
+Mathilde’s minimum travelling distance.  Indicate clearly the order in which the edges 
+are selected.
+[5]
+	
+(c)	
+By first removing library C, use the deleted vertex algorithm, to find a lower bound for 
+Mathilde’s minimum travelling distance.
+[4]

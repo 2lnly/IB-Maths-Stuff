@@ -1,0 +1,201 @@
+2.	
+[Maximum mark: 28]
+This question asks you to consider open-topped boxes formed by cutting square 
+corners from an  a × b  sheet of cardboard and folding the sides. In particular, you are 
+asked to investigate conditions for which the maximum volume of a box is an integer.
+A rectangular sheet of cardboard measures  a cm  by  b cm  where  a < b .
+A square of side length  x cm  is cut from each corner and the resulting sheet of cardboard is 
+then folded to form an open-topped box with a rectangular base.
+This is shown in the following diagrams.
+a cm
+b cm
+x cm
+x cm
+a − 2x 
+b − 2x
+The volume,  V cm3 , of a box is given by  V = x (a − 2x) (b − 2x)  where 0
+2
+≤
+≤
+x
+a .
+(a)	
+Write down the value of  V  when
+(i)	
+x = 0 ;
+[1]
+(ii)	
+x
+a
+= 2
+.
+[1]
+(b)	
+Show that  V = 4x3 − 2 (a + b) x2 + abx .
+[2]
+(c)	
+Show that the only solutions of d
+d
+V
+x = 0 are x
+a
+b
+a
+ab
+b
+
+
+
+
+
+(
+)
+2
+2
+6
+.
+[6]
+(This question continues on the following page)
+(Question 2 continued)
+In parts (d) and (e), the following three results are given.
+x
+a
+b
+a
+ab
+b
+
+
+
+
+
+(
+)
+2
+2
+6
+ lies outside the interval 0
+2
+≤
+≤
+x
+a .
+x
+a
+b
+a
+ab
+b
+
+
+
+
+
+(
+)
+2
+2
+6
+ lies inside the interval 0
+2
+≤
+≤
+x
+a .
+a
+ab
+b
+2
+2
+0
+
+
+
+.
+Let x
+a
+b
+a
+ab
+b
+m 
+
+
+
+
+(
+)
+2
+2
+6
+.
+(d)	
+Use d
+d
+2
+2
+V
+x
+ to show that there is a local maximum of  V  at  x = xm .
+[5]
+(e)	
+Use your answers to parts (a) and (d) to explain why  xm  will give the maximum volume, 
+Vm , of the box.
+[1]
+In parts (f) to (h), consider a method for generating sets of positive integer values for  xm  and 
+hence  Vm .
+Consider the case where  a = 2st − s2 ,  b = t2 − s2 , and  s , t ∈ + .
+(f)	
+Given that  a < b , show that  t > 2s .
+[2]
+It is given that 
+a
+ab
+b
+s
+st
+t
+2
+2
+2
+2
+
+
+
+
+
+. You are not required to show this result.
+(g)	
+By substituting for each of  a , b  and 
+a
+ab
+b
+2
+2
+
+
+ in terms of  s  and  t , show that 
+x
+s t
+s
+m 
+
+(
+)
+2
+.
+[3]
+(h)	
+(i)	
+Given that  a , b ∈ + , use  Vm = xm (a − 2xm) (b − 2xm)  to explain why  s  being even 
+implies that  Vm  is an integer.
+[2]
+(ii)	
+State another condition on  s  and a corresponding condition on  t , that implies that 
+both  xm  and  Vm  are integers.
+[1]
+(iii)	
+Hence, or otherwise, find an integer value of  xm  and the corresponding integer 
+value of  Vm .
+[4]
+

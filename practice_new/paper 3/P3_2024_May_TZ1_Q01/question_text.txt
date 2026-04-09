@@ -1,0 +1,129 @@
+1.	
+[Maximum mark: 27]
+This question considers two possible models for the occurrence of random events in 
+a computer game.
+In a new computer game, each time a player performs an action, there is a random chance 
+that the action will be boosted, meaning that it provides a benefit to the player.
+The designer of this computer game is considering two possible models for when to boost 
+an action. 
+In the first model, the probability that an action will be boosted is constant.
+(a)	
+Suppose the probability that an action will be boosted is  0.1 .
+(i)	
+Find the probability that the first boost occurs on the third action.
+[2]
+(ii)	
+Find the probability that at least one boost occurs in the first six actions.
+[3]
+(b)	
+Suppose the probability that an action will be boosted is  p , where  0 < p < 1 .
+(i)	
+Explain why the probability that the first boost occurs on the  xth  action 
+is  p (1 - p)x-1 .
+[1]
+Let  X  be the number of actions until the first boost occurs.
+(ii)	
+Hence, write down an expression, using sigma notation, for E ( X ) in terms 
+of  x  and  p .
+[1]
+Consider the sum of an infinite geometric sequence, with first term  a  and common 
+ratio  r (| r | < 1) , 
+a
+ar
+ar
+ar
+a
+r
+
+
+
+
+ 
+2
+3
+1
+...
+.
+(c)	
+(i)	
+By differentiating both sides of the above equation with respect to  r , find an 
+expression for 
+narn
+n
+
+
+
+
+1
+1
+ in terms of  a  and  r .
+[4]
+(ii)	
+Hence, show that E(
+)
+X
+p
+= 1 .
+[2]
+(This question continues on the following page)
+– 3 –
+
+(Question 1 continued)
+It can be shown that Var(
+)
+X
+p
+p
+ 
+1
+2
+.
+(d)	
+Find  E ( X )  and  Var ( X )  when  p = 0.1 .
+[2]
+In the designer’s second model, the initial probability that an action is boosted is  0.2 , and 
+each time an action occurs that is not boosted, the probability that the next action is boosted 
+increases by  0.2 . After an action has been boosted, the probability resets to  0.2  for the next 
+action. 
+(e)	
+Show that the probability that the first boost occurs on the third action is  0.288 .
+[2]
+Let  Y  be the number of actions until the first boost occurs.
+(f)	
+Explain why  Y ≤ 5 .
+[1]
+The following table shows the probability distribution of  Y .
+y
+1
+2
+3
+4
+5
+P (Y = y)
+0.2
+m
+0.288
+n
+0.0384
+(g)	
+(i)	
+Find the value of  m  and the value of  n .
+[2]
+(ii)	
+Show that  E (Y ) = 2.5104 . 
+[2]
+(iii)	
+Find  Var (Y ) .
+[2]
+(h)	
+(i)	
+Use the expression given in (c)(ii) to find the value of  p  for which  E (X ) = E (Y ) .
+[1]
+(ii)	
+Find  Var ( X )  for this value of  p . 
+[1]
+(iii)	
+Hence determine, with a reason, which model provides a more consistent 
+experience for the player with respect to boosted actions.
+[1]
+– 4 –

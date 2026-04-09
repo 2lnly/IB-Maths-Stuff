@@ -1,0 +1,437 @@
+8806-7203
+5.	
+[Maximum mark:  7]
+	
+The order of each of the elements of the group (
+, *)
+G
+ is either 1 or 2.  Show that G is 
+an Abelian group. 
+[7 marks]
+8806-7203
+–  –
+SECTION C
+Series and differential equations
+1.	
+[Maximum mark:  9]
+	
+Consider the series S
+n
+n
+=
+=
+∞
+∑
+1
+1
+!.
+	
+(a)	
+Use the ratio test to prove that this series is convergent.
+[4 marks]
+	
+(b)	
+Use a comparison test to show that S < 2 .
+[4 marks]
+	
+(c)	
+Write down the exact value of S.
+[1 mark]
+2.	
+[Maximum mark:  17]
+	
+(a)	
+Show that the polynomial approximation for ln x  in the interval [0.5 , 1.5] 
+obtained by taking the first three non-zero terms of the Taylor series about x =1 
+is given by
+ln x
+x
+x
+x
+≈
+−
++
+−
+3
+2
+3
+3
+2
+3
+11
+6 .
+[7 marks]
+	
+(b)	
+Given ln
+ln
+x x
+x
+x
+x
+C
+d
+∫
+=
+−
++
+, show by integrating the above series that another 
+	
+approximation to ln x  is given by
+ln x
+x
+x
+x
+x
+≈
+−
++
+−
+−
+3
+2
+12
+2
+3
+2
+5
+6
+1
+4 .
+[6 marks]
+	
+(c)	
+Which is the better approximation when x =1 5. ?
+[4 marks]
+8806-7203
+–  –
+3.	
+[Maximum mark:  19]
+	
+(a)	
+Show that d
+dx
+x
+x
+x
+x
+ln
+, | |
+1
+1
+2
+1
+1
+2
++
+−
+
+
+
+
+
+
+
+= −
+< .
+[3 marks]
+	
+(b)	
+Find the solution to the homogeneous differential equation
+x
+y
+x
+x
+xy
+y
+2
+2
+2
+d
+d =
++
+−
+, given that y = 1
+2  when x =1.
+Give your answer in the form y
+g x
+=
+( ) .
+[16 marks]
+4.	
+[Maximum mark:  15]
+	
+(a)	
+(i)	
+Find I
+x x
+x
+n
+n
+n
+=
++
+−∫
+d
+1
+2
+α
+, where α  is a positive constant and n is a positive
+ 	
+	
+	
+integer.
+	
+	
+(ii)	
+Determine lim
+n
+nI
+→∞
+.
+[6 marks]
+	
+(b)	
+Using l’Hôpital’s Rule find
+lim tan
+tan
+sin
+sin
+x
+x
+x
+x
+x
+→
+−
+−
+
+
+
+
+0
+β
+β
+β
+β
+,
+	
+	
+where β  is a non-zero constant different from ±1.
+[9 marks]
+8806-7203
+–  –
+SECTION D
+Discrete mathematics
+1.	
+[Maximum mark:  18]
+	
+Consider the following adjacency matrices for the graphs G1 and G2:
+	
+p
+q
+r
+s
+t
+p
+q
+r
+s
+t
+ 
+ 
+ 
+ 
+0
+1
+0
+1
+0
+1
+0
+2
+0
+1
+0
+2
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	
+P Q R S
+T
+P
+Q
+R
+S
+T
+ 
+ 
+ 
+ 
+0
+0
+0
+1
+1
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+1
+1
+1
+0
+0
+1
+0
+0
+0
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	
+G1  	
+G2
+	
+(a)	
+Draw the graphs of G1 and G2.
+[4 marks]
+	
+(b)	
+For each graph, giving a reason, determine whether or not it
+	
+	
+(i)	
+is simple;
+	
+	
+(ii)	
+is connected;
+	
+	
+(iii)	 is bipartite;
+	
+	
+(iv)	 is a tree;
+	
+	
+(v)	
+has an Eulerian trail, giving an example of a trail if one exists.
+[14 marks]
+2.	
+[Maximum mark:  10]
+	
+Solve the equation −
++
+=
+38
+26
+8
+x
+y
+, where x y
+,
+∈.
+[10 marks]
+8806-7203
+
+3.	
+[Maximum mark:  11]
+	
+The following diagram shows a graph H.
+	
+(a)	
+Use Kruskal’s algorithm to find a minimum spanning tree for H.
+[9 marks]
+	
+(b)	
+Write down the weight of the minimum spanning tree found.
+[2 marks]
+4.	
+[Maximum mark:  8]
+	
+(a)	
+Prove that a tree is a simple graph.
+[3 marks]
+	
+(b)	
+(i)	
+G is a complete bipartite graph and graph W is the complement of G. 
+Prove that W is not connected.
+	
+	
+(ii)	
+Show by giving an example that the converse is not true.
+[5 marks]
+5.	
+[Maximum mark:  13]
+Fermat’s theorem states that a prime number  p is a divisor of x
+x
+p −
+ and y
+y
+p −
+, 
+where x y
+,
+∈
++
+.  Show that if p x
+y
+p
+p
+p
++
+>
+,
+2  then p
+x
+y
+p
+p
+2
++
+.
+[13 marks]

@@ -1,0 +1,62 @@
+2.	
+[Maximum mark:  12]
+	
+The weights of the edges in the complete graph  G  are shown in the following table.
+A
+B
+C
+D
+E
+F
+A
+-
+14
+10
+8
+12
+9
+B
+14
+-
+9
+12
+10
+13
+C
+10
+9
+-
+7
+8
+13
+D
+8
+12
+7
+-
+9
+11
+E
+12
+10
+8
+9
+-
+11
+F
+9
+13
+13
+11
+11
+-
+	
+(a)	
+Starting at  A , use the nearest neighbour algorithm to find an upper bound for the 
+travelling salesman problem for  G .
+[5]
+	
+(b)	
+By first removing  A , use the deleted vertex algorithm to find a lower bound for the 
+travelling salesman problem for  G .
+[7]

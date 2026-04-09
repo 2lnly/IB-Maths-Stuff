@@ -1,0 +1,91 @@
+2.	
+[Maximum mark: 28]
+A polynomial is said to be palindromic if the sequence of its coefficients remains the 
+same in reverse. This question asks you to investigate some properties and solutions 
+of palindromic polynomial equations.
+In parts (a) and (b), consider quadratic equations of the form  ax2 + bx + a = 0 , where  a ≠ 0 .
+The sequence of coefficients, {a , b , a} , remains the same in reverse.
+The following table shows three palindromic quadratic equations and their sequence of coefficients.
+Palindromic quadratic equation
+Sequence of coefficients
+2x2 - 5x + 2 = 0
+{2 , -5 , 2}
+x2 + 4x + 1 = 0
+{1 , 4 , 1} 
+x2 + 1 = 0
+{1 , 0 , 1} 
+The quadratic equation  2x2 - 5x + 2 = 0  has roots  2  and 1
+2
+.
+These roots form a “reciprocal pair”, since one root is the reciprocal of the other.
+(a)	
+(i)	
+Determine the roots of  x2 + 4x + 1 = 0 .
+Give these roots in the form s
+t
+±
+, where  s ∈   and  t ∈ + .
+[3]
+(ii)	
+Hence, or otherwise, show that these roots form a reciprocal pair.
+[2]
+(b)	
+Show that the complex roots of  x2 + 1 = 0  form a reciprocal pair.
+[2]
+Let  p (x) = ax2 + bx + a , where  a ≠ 0 .
+(c)	
+Verify that p x
+x p x
+  
+
+
+
+
+2
+1  where  x ≠ 0 .
+[2]
+(This question continues on the following page)
+(Question 2 continued)
+In parts (d) and (e), you may assume the result that a polynomial,  p (x) , of degree  n  is 
+palindromic if and only if p x
+x p x
+n
+  
+
+
+
+
+1 .
+(d)	
+Use p x
+x p x
+n
+  
+
+
+
+
+1  to show that if  a ≠ 0  is a root of  p (x) = 0 , then 1
+a
+ is also a root.
+[2]
+Let  f (x) = p (x) q (x) , where  p  and  q  are palindromic polynomials of degree  n  and  m  respectively.
+(e)	
+Show that  f  is a palindromic polynomial.
+[4]
+Consider the palindromic polynomial  f (x) = x4 + 2x3 - x2 + 2x + 1 .
+This polynomial can be expressed in the form
+ f (x) = (x2 + ux + 1) (x2 + vx + 1) , where  u , v ∈   and  u < v .
+(f)	
+By forming and solving an appropriate system of equations in  u  and  v , determine the 
+value of  u  and the value of  v .
+[6]
+(g)	
+Hence, find all the exact complex and purely real roots of  x4 + 2x3 - x2 + 2x + 1 = 0 .
+[3]
+Consider the palindromic polynomial equation
+xn + a1xn − 1 + a2xn − 2 + ... + a2x2 + a1x + 1 = 0  , where  n  is odd.
+(h)	
+Show that  -1  is always a root of this equation.
+[4]
+

@@ -1,0 +1,54 @@
+1.	
+[Maximum mark:  14]
+8
+D
+G
+9
+T
+6
+8
+E
+6
+6
+5
+5
+7
+B
+7
+5
+3
+2
+A
+C
+1
+4
+F
+3
+4
+5
+S
+	
+In the graph given above, the numbers shown represent the distance along that edge.
+	
+(a)	
+Using Dijkstra’s algorithm, find the length of the shortest path from vertex  S  
+to vertex  T .  Write down this shortest path.
+[6 marks]
+	
+(b)	
+(i)	
+Does this graph have an Eulerian circuit?  Justify your answer.
+	
+	
+(ii)	
+Does this graph have an Eulerian trail?  Justify your answer.
+[4 marks]
+	
+(c)	
+The graph above is now to be considered with the edges representing roads 
+in a town and with the distances being the length of that road in kilometres. 
+Huan is a postman and he has to travel along every road in the town to deliver 
+letters to all the houses in that road.  He has to start at the sorting office at  S  
+and also finish his route at  S .  Find the shortest total distance of such a route. 
+Fully explain the reasoning behind your answer.
+[4 marks]

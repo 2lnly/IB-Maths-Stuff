@@ -1,0 +1,162 @@
+1.	
+[Maximum marks: 27]
+This question asks you to explore some properties of polygonal numbers and to 
+determine and prove interesting results involving these numbers.
+A polygonal number is an integer which can be represented as a series of dots arranged 
+in the shape of a regular polygon. Triangular numbers, square numbers and pentagonal 
+numbers are examples of polygonal numbers.
+For example, a triangular number is a number that can be arranged in the shape of an 
+equilateral triangle. The first five triangular numbers are  1, 3, 6, 10  and  15 .
+The following table illustrates the first five triangular, square and pentagonal numbers 
+respectively. In each case the first polygonal number is one represented by a single dot.
+Type of 
+polygonal 
+number
+Geometric representation
+Values
+Triangular 
+numbers
+…
+1, 3, 6, 10, 15, ...
+Square 
+numbers
+…
+1, 4, 9, 16, 25, ...
+Pentagonal 
+numbers
+…
+1, 5, 12, 22, 35, ...
+For an  r-sided regular polygon, where  r ∈ + ,  r ≥ 3, the  nth  polygonal number  Pr (n)  is given by
+2
+(
+2)
+(
+4)
+( )
+2
+r
+r
+n
+r
+n
+P n
+-
+-
+-
+=
+, where  n ∈ + .
+(This question continues on the following page)
+(Question 1 continued)
+Hence, for square numbers, P n
+n
+n
+n
+4
+2
+2
+4
+2
+4
+4
+2
+( ) =
+−
+(
+)
+−
+−
+(
+)
+=
+.
+(a)	
+(i)	
+For triangular numbers, verify that 
+3
+(
+1)
+( )
+2
+n n
+P n
++
+=
+.
+[2]
+(ii)	
+The number  351  is a triangular number. Determine which one it is.
+[2]
+(b)	
+(i)	
+Show that  P3 (n) + P3 (n + 1) ≡ (n + 1)2 .
+[2]
+(ii)	
+State, in words, what the identity given in part (b)(i) shows for two consecutive 
+triangular numbers.
+[1]
+(iii)	
+For  n = 4 , sketch a diagram clearly showing your answer to part (b)(ii).
+[1]
+(c)	
+Show that  8P3 (n) + 1  is the square of an odd number for all  n ∈ + .
+[3]
+The  nth  pentagonal number can be represented by the arithmetic series
+P5 (n) = 1 + 4 + 7 + ... + (3n - 2) .
+(d)	
+Hence show that 
+5
+(3
+1)
+( )
+2
+n
+n
+P n
+-
+=
+ for  n ∈ + .
+[3]
+(e)	
+By using a suitable table of values or otherwise, determine the smallest positive integer, 
+greater than  1, that is both a triangular number and a pentagonal number.
+[5]
+A polygonal number,  Pr (n) , can be represented by the series
+1
+1
+2
+1
++
+−
+−
+(
+)
+=∑
+(
+)(
+)
+m
+r
+m
+n
+ where  r ∈ + ,  r ≥ 3 .
+(f)	
+Use mathematical induction to prove that 
+2
+(
+2)
+(
+4)
+( )
+2
+r
+r
+n
+r
+n
+P n
+-
+-
+-
+=
+ where  n ∈ + .
+[8]

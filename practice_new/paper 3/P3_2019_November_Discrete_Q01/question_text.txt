@@ -1,0 +1,62 @@
+1.	
+[Maximum mark:  10]
+A driver needs to make deliveries to five shops  A , B , C , D  and  E . The driver starts and 
+finishes his journey at the warehouse  W . The driver wants to find the shortest route to 
+visit all the shops and return to the warehouse. The distances, in kilometres, between the 
+locations are given in the following table.
+A
+B
+C
+D
+E
+W
+A
+-
+11
+28
+15
+20
+40
+B
+11
+-
+25
+20
+32
+36
+C
+28
+25
+-
+16
+22
+39
+D
+15
+20
+16
+-
+12
+42
+E
+20
+32
+22
+12
+-
+41
+W
+40
+36
+39
+42
+41
+-
+(a)	
+By deleting  W , use the deleted vertex algorithm to find a lower bound for the length of 
+a route that visits every shop, starting and finishing at  W .
+[6]
+(b)	
+Starting from  W , use the nearest-neighbour algorithm to find a route which gives an 
+upper bound for this problem and calculate its length.
+[4]

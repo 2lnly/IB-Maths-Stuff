@@ -1,0 +1,58 @@
+3.	
+[Maximum mark:  16]
+	
+In a computer game, Fibi, a magic dragon, is climbing a very large staircase.  The steps are 
+labelled  0 , 1 , 2 , 3 … .
+She starts on step  0 .  If Fibi is on a particular step then she can either jump up one step or 
+fly up two steps.  Let  un  represent the number of different ways that Fibi can get to step  n .  
+When counting the number of different ways, the order of Fibi’s moves matters, for example 
+jump, fly, jump is considered different to jump, jump, fly.  Let  u0 = 1 .
+	
+(a)	
+Find the values of  u1 , u2 , u3 .
+[3]
+	
+(b)	
+Show that  un+2 = un+1 + un .
+[2]
+	
+(c)	
+(i)	
+Write down the auxiliary equation for this recurrence relation.
+	
+	
+(ii)	
+Hence find the solution to this recurrence relation, giving your answer in the form  
+un =Aα n + Bβ n  where  α  and  β  are to be determined exactly in surd form and  
+α > β .  The constants  A  and  B  do not have to be found at this stage.
+[5]
+	
+(d)	
+(i)	
+Given that A =
++
+
+
+
+
+
+
+1
+5
+1
+5
+2
+, use the value of  u0  to determine  B .
+	
+	
+(ii)	
+Hence find the explicit formula for  un .
+[3]
+	
+(e)	
+Find the value of  u20 .
+[1]
+	
+(f)	
+Find the smallest value of  n  for which  un > 100 000 .
+[2]

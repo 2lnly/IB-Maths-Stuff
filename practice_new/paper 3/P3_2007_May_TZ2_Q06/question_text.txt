@@ -1,0 +1,386 @@
+2207-7209
+6.	
+[Maximum mark:  8]
+	
+Prove for sets  A ,  B  and  C  that A
+B
+C
+A B
+A C
+×
+∪
+=
+×
+∪
+×
+(
+)
+(
+)
+(
+).
+[8 marks]
++
+2207-7209
+–  –
+SECTION C
+Series and differential equations
+1.	
+[Maximum mark:  9]
+	
+	
+Find
+	
+(a)	
+lim
+s
+s
+s
+s
+→
+−
++
+−
+
+
+
+
+
+
+4
+3
+4
+4
+[4 marks]
+	
+(b)	
+lim cos
+sin
+x
+x
+x
+x
+→
+−
+
+
+
+
+0
+1
+[5 marks]
+2.	
+[Maximum mark:  14]
+	
+(a)	
+Sketch on graph paper the slope field for the differential equation d
+d
+y
+x
+x
+y
+=
+−
+ at 
+	
+	
+the points ( ,
+)
+x y  where x∈{
+}
+0 1 2 3 4
+, ,
+,
+,
+ and y∈{
+}
+0 1 2 3 4
+, ,
+,
+,
+.  Use a scale 
+of  2 cm  for 1 unit on both axes.
+[3 marks]
+	
+(b)	
+On the slope field sketch the curve that passes through the point ( , )
+0 3 .
+[1 mark]
+	
+(c)	
+Solve the differential equation to find the equation of this curve.
+	
+	
+Give your answer in the form y
+f x
+=
+( ) .
+[10 marks]
+3.	
+[Maximum mark:  10]
+	
+(a)	
+Find constants A and B such that 
+1
+16
+8
+3
+4
+1
+4
+3
+2r
+r
+A
+r
+B
+r
++
+−
+=
+−+
++
+.
+[4 marks]
+	
+(b)	
+Find an expression for Sn , the nth partial sum of 
+1
+16
+8
+3
+2
+1
+r
+r
+r
++
+−
+
+
+
+
+=
+∞
+∑
+ .
+[4 marks]
+	
+(c)	
+Hence show that the series converges.
+[2 marks]
++
+2207-7209
+–  –
+4.	
+[Maximum mark:  7]
+	
+Find the values of  p  for which 
+1
+x
+x
+p
+1
+d
+∞∫
+ converges.
+[7 marks]
+5.	
+[Maximum mark:  20]
+	
+Consider the differential equation d
+d
+y
+x
+x
+y
++
+−
+=
+(
+)
+2
+1
+0  given that y = 2  when x = 0 .
+	
+(a)	
+(i)	
+Show that d
+d
+d
+d
+d
+d
+4
+4
+3
+3
+2
+2
+1 2
+6
+y
+x
+x
+y
+x
+y
+x
+=
+−
+−
+(
+)
+.
+(ii)	
+By finding the values of successive derivatives at x = 0  obtain a Maclaurin 
+series for  y  up to and including the x4  term.
+[10 marks]
+	
+(b)	
+A local maximum value of  y  occurs when x = 0 5. .  Use your series to calculate 
+an approximation to this maximum value.
+[2 marks]
+	
+(c)	
+Use Euler’s method with a step value of  0.1  to obtain a second approximation 
+for the maximum value of  y .  Set out your solution in tabular form.
+[6 marks]
+	
+(d)	
+How can each of the approximations found in (b) and (c) be made more 
+accurate?
+[2 marks]
++
+2207-7209
+–  –
+SECTION D
+Discrete mathematics
+1.	
+[Maximum mark:  6]
+	
+Show that (
+)
+(
+)(mod
+)
+x
+y
+x
+y
+p
+p
+p
+p
++
+≡
++
+ where x y
+,
+∈
++
+ and  p  is a prime number.
+[6 marks]
+2.	
+[Maximum mark:  17]
+	
+(a)	
+Use Euclid’s algorithm to find gcd(
+,
+)
+858 714  and hence write the gcd as a 
+linear combination of 858 and 714.
+[12 marks]
+	
+(b)	
+A lattice point ( ,
+)
+x y  is a point on the Cartesian plane where x y
+,
+∈.  Find all 
+the lattice points through which the line 5
+8
+1
+x
+y
++
+=  passes.
+[5 marks]
+3.	
+[Maximum mark:  15]
+	
+(a)	
+Draw the graph K3 3
+, .
+[3 marks]
+	
+(b)	
+Prove that K3 3
+,  is not planar.
+[6 marks]
+	
+(c)	
+With the usual notation, Euler’s formula v
+e
+f
+−+
+= 2  applies to connected planar 
+graphs.  Find a formula connecting  v ,  e  and  f  for a non-connected planar graph 
+that has x components.
+[6 marks]
++
+2207-7209
+–  –
+4.	
+[Maximum mark:  12]
+The weighted graph  G  is shown above.  Graph 
+′
+G  is produced by deleting vertex A 
+from  G .
+	
+(a)	
+Use Kruskal’s algorithm to find the minimum spanning tree of graph 
+′
+G  and 
+state its weight.
+[5 marks]
+	
+(b)	
+Hence find the weight of a lower bound for the Hamiltonian cycle in  G  beginning 
+at vertex A .
+[2 marks]
+	
+(c)	
+Prove for a complete graph with n vertices, that no more than (
+)!,
+n
+n
+−
+≥
+1
+2
+3 
+	
+	
+Hamiltonian cycles have to be examined to find the Hamiltonian cycle of least 
+weight.
+[4 marks]
+	
+(d)	
+How many cycles in G would have to be examined to find the one with the least 
+weight?
+[1 mark]
+5.	
+[Maximum mark:  10]
+	
+Prove that 42
+7
+(
+)
+n
+n
+−
+ where n∈
++
+.
+[10 marks]

@@ -1,0 +1,620 @@
+2206-7206
+5. 
+[Maximum mark:  17]
+ 
+The random variable X is thought to have a geometric distribution with probability 
+mass function
+P(
+)
+(
+)
+X
+x
+p
+p x
+=
+=
+−
+−
+1
+1 for x∈
++
+¢ ,
+where p is an unknown parameter.
+The value of X is recorded on 100 independent occasions with the following results.
+x
+Frequency
+1
+45
+2
+26
+3
+16
+4
+10
+5 or more
+3
+ 
+(a) 
+(i) 
+Calculate the mean of these data.
+ 
+(ii) 
+Deduce that the estimated value of p is 1
+2 .
+[4 marks]
+ 
+(b) 
+Calculate an appropriate value of χ 2 .  Test, at the 5 % significance level, 
+whether or not these data can be modelled by a geometric distribution. 
+[13 marks]
+2206-7206
+
+SECTION B
+Sets, relations and groups
+1. 
+[Maximum mark:  15]
+ 
+The function  f  is defined by
+f : ¡
+¡
+→
+ where f x
+x
+( )
+sin
+=
+−
+e
+1.
+ 
+(a) 
+Find the exact range, A , of  f .
+[3 marks]
+ 
+(b) 
+(i) 
+Explain why  f  is not an injection.
+ 
+(ii) 
+Giving a reason, state whether or not  f  is a surjection.
+[4 marks]
+ 
+(c) 
+The function g is now defined to be g
+k k
+A
+: [
+,
+]
+−
+→
+, where g x
+x
+( )
+sin
+=
+−
+e
+1 and 
+k > 0 .
+ 
+ 
+(i) 
+Find the maximum value of k for which g is an injection.
+ 
+For this value of k,
+ 
+ 
+(ii) 
+find an expression for g
+x
+−1 ( ) ;
+ 
+ 
+(iii) write down the domain of g −1.
+[8 marks]
+2. 
+[Maximum mark:  15]
+ 
+Let S ={ ,
+,
+,
+,
+,
+,
+}
+2 4 6 8 10 12 14 .  The relation R is defined on S such that for 
+a b
+S a Rb
+,
+,
+∈
+ if and only if a
+b
+2
+2
+≡
+ (modulo 6).
+ 
+(a) 
+Show that R is an equivalence relation.
+[6 marks]
+ 
+(b) 
+Find all the equivalence classes.
+[9 marks]
+3. 
+[Maximum mark:  7]
+ Consider the binary operation a divided by b defined on ¡+.  Determine whether or not 
+each of the four group axioms is satisfied. 
+[7 marks]
+2206-7206
+
+4. 
+[Maximum mark:  15]
+ 
+Consider the group G defined on the set S ={ ,
+,
+,
+,
+, }
+1 2 4 5 7 8  having the following 
+Cayley table.
+∗
+1
+2
+4
+5
+7
+8
+1
+1
+2
+4
+5
+7
+8
+2
+2
+4
+8
+1
+5
+7
+4
+4
+8
+7
+2
+1
+5
+5
+5
+1
+2
+7
+8
+4
+7
+7
+5
+1
+8
+4
+2
+8
+8
+7
+5
+4
+2
+1
+ 
+(a) 
+Explain what is meant by saying that this table is a Latin square.
+[1 mark]
+ 
+(b) 
+Solve the equation
+2
+7
+4
+∗∗
+=
+x
+ where x
+S
+∈.
+[4 marks]
+ 
+(c) 
+(i) 
+Show that G is cyclic and find the generators.
+ 
+ 
+(ii) 
+List the proper subgroups of G.
+[10 marks]
+5. 
+[Maximum mark:  8]
+ 
+Suppose that G is a group and H is a non-empty subset of G.  Show that if ab
+H
+−∈
+1
+ 
+whenever a b
+H
+,
+∈
+ then H is a subgroup of G.
+[8 marks]
+2206-7206
+
+SECTION C
+Series and differential equations
+1. 
+[Maximum mark:  9]
+ 
+Given that d
+d
+y
+x
+y
+xy
+=
++
++
+2
+1 and y =1 when x = 0 , use Euler’s method with interval 
+h = 0 5.  to find an approximate value of  y when x =1.
+[9 marks]
+2. 
+[Maximum mark:  12]
+ 
+(a) 
+Show that tan
+lnsec
+x x
+x
+C
+d
+∫
+=
++
+, where C is a constant.
+[2 marks]
+ 
+(b) 
+Hence find an integrating factor for solving the differential equation
+d
+d
+y
+x
+y
+x
+x
++
+=
+tan
+sec .
+[2 marks]
+ 
+(c) 
+Solve this differential equation given that y = 2  when x = 0.
+Give your answer in the form y
+f x
+=
+( ).
+[8 marks]
+3. 
+[Maximum mark:  9]
+ 
+Find the value of
+ 
+(a) 
+x
+x
+x
+→
++
+−
+0
+1
+1
+lim
+;
+[3 marks]
+ 
+(b) 
+x
+x
+x
+→0
+lim
+ln .
+[6 marks]
+2206-7206
+
+4. 
+[Maximum mark:  15]
+(a) 
+(i) 
+Given that 
+un
+n=
+∞
+∑
+1
+ is convergent, where un ≥0, prove that 
+un
+n
+2
+1
+=
+∞
+∑
+ is 
+also convergent.  
+ 
+(ii) 
+State, with a reason, whether or not the converse of this result is true.
+[5 marks]
+ 
+(b) 
+Use the integral test to determine the set of values of k for which the series 
+1
+2 n
+n k
+n
+(ln )
+=
+∞
+∑
+ 
+ 
+ 
+(i) 
+is convergent;
+ 
+ 
+(ii) 
+is divergent.
+[10 marks]
+5. 
+[Maximum mark:  15]
+ 
+Consider the function  f  defined by
+f x
+x
+( )
+arcsin
+=
+, for x ≤1.
+The derivatives of f x
+( )  satisfy the equation
+(
+)
+( )
+(
+)
+( )
+( )
+(
+)
+(
+)
+( )
+1
+2
+1
+0
+2
+2
+1
+2
+−
+−
++
+−
+=
++
++
+x
+f
+x
+n
+x f
+x
+n f
+x
+n
+n
+n
+, for n ≥1.
+The coefficient of xn in the Maclaurin series for f x
+( ) is denoted by an .  You may 
+assume that the series contains only odd powers of x.
+ 
+(a) 
+(i) 
+Show that, for n ≥1, (
+)(
+)
+n
+n
+a
+n a
+n
+n
++
++
+=
++
+1
+2
+2
+2
+.
+ 
+ 
+(ii) 
+Given that a1
+1
+= , find an expression for an  in terms of n, valid for odd 
+n ≥3.
+[7 marks]
+ 
+(b) 
+Find the radius of convergence of this Maclaurin series.
+[4 marks]
+ 
+(c) 
+Find an approximate value for π by putting x = 1
+2 and summing the first three 
+non-zero terms of this series.  Give your answer to four significant figures.
+[4 marks]
+2206-7206
+
+SECTION D
+Discrete mathematics
+1. 
+[Maximum mark:  9]
+ 
+(a) 
+Convert the number 95 from base 10 to base 6.
+[3 marks]
+ 
+(b) 
+Working in base 6, square your answer to part (a).
+[4 marks]
+ 
+(c) 
+Convert your answer to part (b) to a base 10 number.
+[2 marks]
+2. 
+[Maximum mark:  8]
+ 
+Consider the diophantine equation
+λx
+y
+−
+=
+2
+1, where λ ∈¢ .
+ 
+(a) 
+Explain briefly why this equation has no solution when λ = 4 .
+[2 marks]
+ 
+(b) 
+Find the general solution to this equation when λ = 3.
+[6 marks]
+3. 
+[Maximum mark:  16]
+ 
+(a) 
+Show that the sum of the degrees of all the vertices of a graph is even.
+[3 marks]
+ 
+(b) 
+There are nine men at a party.  By considering an appropriate graph, show that it 
+is impossible for each man to shake hands with exactly five other men.
+[4 marks]
+ 
+(c) 
+For a connected planar graph, prove Euler’s relation, v
+e
+f
+−+
+= 2 .
+[9 marks]
+2206-7206
+
+4. 
+[Maximum mark:  16]
+ 
+The graphs G
+G
+G
+1, 
+ and 
+2
+3 are illustrated below.
+ 
+(a) 
+Write down the adjacency matrix, AG , of G1 .  Evaluate AG
+2  and hence state the 
+number of paths of length 2 beginning and ending at C.
+[6 marks]
+ 
+(b)
+ 
+Determine whether or not G2 is bipartite.
+[4 marks]
+ 
+(c) 
+Explain briefly why G3  does not have an Eulerian circuit.  Redraw G3  and add 
+an edge so that the resulting graph does have an Eulerian circuit.  Write down an 
+Eulerian circuit.
+[6 marks]
+2206-7206
+
+5. 
+[Maximum mark:  11]
+ 
+The weights of the edges of a graph with vertices A, B, C, D and E are given in
+ 
+the following table.
+A
+B
+C
+D
+E
+A
+-
+10
+15
+11
+16
+B
+10
+-
+12
+19
+13
+C
+15
+12
+-
+18
+14
+D
+11
+19
+18
+-
+17
+E
+16
+13
+14
+17
+-
+ 
+(a) 
+Use any method to find an upper bound for the travelling salesman problem for 
+this graph.
+[2 marks]
+ 
+(b) 
+(i) 
+Use Kruskal’s algorithm to find and draw a minimum spanning tree for the 
+subgraph obtained by removing the vertex E from the graph.
+ 
+ 
+(ii) 
+State the total weight of this minimum spanning tree and hence find a 
+lower bound for the travelling salesman problem for this graph.
+[9 marks]

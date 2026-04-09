@@ -1,0 +1,76 @@
+7.	
+This question is about the transmission of digital signals.
+	
+A piece of music sung by a famous soprano is to be digitally recorded.  Part of the variation of 
+the output V of the microphone with time t is shown below.
+V / mV
+15
+10
+5
+0
+	0	
+2	
+4	
+6	
+8	
+10
+t / ms
+	
+A sound engineer samples the signal using an analogue-to-digital converter (ADC) that has 
+16 output levels.
+	
+(a)	
+State the number of bits required for each sample.
+[1]
+	
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+(Option F continues on the following page)
+52EP10
+(Option F, question 7 continued)
+	
+(b)	
+The system rounds down each analogue sample to the nearest mV before each digital 
+conversion (for example 0.8 mV becomes 0 mV and 15.1 mV becomes 15 mV).
+The level of the signal at t =2 ms is converted to the maximum digital output and the level 
+of the signal at t =8 ms is converted to a zero digital output.
+The signal is sampled at a rate of 1000 Hz starting at t =0.  Calculate the binary output for 
+the first two samples.
+[2]
+	
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+	
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+	
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+	
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+	
+(c)	
+With reference to sampling, suggest two reasons why the quality of the recording is poor.
+[2]
+	
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+	
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+	
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+	
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+	
+(d)	
+The full song is digitally recorded on a computer, where it occupies about 120 kilobytes 
+of memory (1 byte =8 bits).  The soprano then sends the song to a friend by email. 
+It takes 1.3 s for the file to reach the friend’s computer.  Calculate, in kbit s–1, the bit-rate 
+of this transmission.
+[2]
+	
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+	
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+	
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+	
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+(Option F continues on the following page)
+52EP11
+(Option F continued)
