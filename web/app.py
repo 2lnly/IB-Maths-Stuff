@@ -1039,8 +1039,8 @@ def bank_stats():
 def bank_questions():
     """Get filtered list of questions (for the question list view)."""
     paper = request.args.get('paper')          # "Paper1", "Paper2", "Paper3"
-    topic = request.args.get('topic')          # topic_code e.g. "1"
-    subtopic = request.args.get('subtopic')    # subtopic_code e.g. "1.4"
+    topics = request.args.getlist('topic')     # topic_codes e.g. ["1", "2"]
+    subtopics = request.args.getlist('subtopic')  # subtopic_codes e.g. ["1.4"]
     year_min = request.args.get('year_min', type=int)
     year_max = request.args.get('year_max', type=int)
     diff_min = request.args.get('diff_min', type=int)
@@ -1056,9 +1056,9 @@ def bank_questions():
     for q_id, q in QUESTION_BANK.items():
         if paper and q.get('paper') != paper:
             continue
-        if topic and q.get('topic_code') != topic:
+        if topics and q.get('topic_code') not in topics:
             continue
-        if subtopic and q.get('subtopic_code') != subtopic:
+        if subtopics and q.get('subtopic_code') not in subtopics:
             continue
         if year_min and (not q.get('year') or q['year'] < year_min):
             continue
@@ -1131,8 +1131,8 @@ def bank_random():
     """Get a random question matching filters."""
     # Reuse filter logic from bank_questions but return single random result
     paper = request.args.get('paper')
-    topic = request.args.get('topic')
-    subtopic = request.args.get('subtopic')
+    topics = request.args.getlist('topic')
+    subtopics = request.args.getlist('subtopic')
     year_min = request.args.get('year_min', type=int)
     year_max = request.args.get('year_max', type=int)
     diff_min = request.args.get('diff_min', type=int)
@@ -1144,9 +1144,9 @@ def bank_random():
             continue
         if paper and q.get('paper') != paper:
             continue
-        if topic and q.get('topic_code') != topic:
+        if topics and q.get('topic_code') not in topics:
             continue
-        if subtopic and q.get('subtopic_code') != subtopic:
+        if subtopics and q.get('subtopic_code') not in subtopics:
             continue
         if year_min and (not q.get('year') or q['year'] < year_min):
             continue

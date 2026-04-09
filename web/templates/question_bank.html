@@ -787,7 +787,10 @@
 
   <!-- Sidebar: topic tree -->
   <aside class="sidebar" id="sidebar">
-    <div class="sidebar-section-title">Filter by Topic</div>
+    <div class="sidebar-section-title" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer" onclick="toggleTopicFilter()">
+      <span>Filter by Topic</span>
+      <span id="topic-filter-arrow" style="font-size:10px;color:var(--text-muted)">▼</span>
+    </div>
     <div id="topic-tree"></div>
     <div class="sidebar-divider"></div>
     <div class="sidebar-section-title">Paper</div>
@@ -843,7 +846,7 @@
         border-radius:20px; padding:4px 10px; cursor:pointer;
         display:flex; align-items:center; gap:6px;
         font-size:15px; color:var(--text); transition:background .15s;
-      ">🌙</button>
+      ">Dark</button>
     </div>
 
   </aside>
@@ -870,8 +873,8 @@
         </div>
       </div>
       <button class="filter-reset" onclick="resetFilters()">Reset</button>
-      <button class="btn-random" onclick="openRandom()">⚡ Random</button>
-      <button class="filter-reset" id="btn-browse" onclick="showList()" style="display:none">☰ Browse list</button>
+      <button class="btn-random" onclick="openRandom()">Get</button>
+      <button class="filter-reset" id="btn-browse" onclick="showList()" style="display:none">Browse list</button>
     </div>
 
     <!-- Question list -->
@@ -901,7 +904,7 @@
           <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
             <button class="btn-gpt" onclick="askChatGPT()" title="Copy image and open ChatGPT">↗ ChatGPT</button>
             <button class="btn-ai" onclick="toggleAIChat()" title="Built-in AI chat">✦ Ask Claude</button>
-            <button class="q-panel-close" onclick="closeModal()">☰ Browse list</button>
+            <button class="q-panel-close" onclick="closeModal()">Browse list</button>
           </div>
         </div>
         <div class="q-panel-body" id="q-panel-body">
@@ -917,7 +920,7 @@
         </div>
         <div class="q-panel-actions">
           <button class="btn-save" id="save-btn" onclick="toggleSave()">☆ Save</button>
-          <button class="btn-next" onclick="openRandom()">Next Random →</button>
+          <button class="btn-next" onclick="openRandom()">Next →</button>
         </div>
 
       </div>
@@ -935,7 +938,7 @@
   <div class="ai-chat-pw-gate" id="ai-pw-gate">
     <div class="ai-chat-pw-inner">
       <div class="captcha-box" id="ai-captcha-box">
-        <div class="captcha-label">🤖 Are you human?</div>
+        <div class="captcha-label">Are you human?</div>
         <div class="captcha-question" id="ai-captcha-q"></div>
         <div class="captcha-options" id="ai-captcha-opts"></div>
         <div class="captcha-error" id="ai-captcha-err"></div>
@@ -951,7 +954,7 @@
     </div>
   </div>
   <div class="ai-chat-body" id="ai-chat-body" style="display:none">
-    <div class="ai-img-badge" id="ai-img-badge" style="display:none">📎 Question image attached</div>
+    <div class="ai-img-badge" id="ai-img-badge" style="display:none">Question image attached</div>
     <div class="ai-chat-msgs" id="ai-chat-msgs"></div>
     <div class="ai-chat-input-row">
       <textarea class="ai-chat-input" id="ai-chat-input" placeholder="Add additional info… e.g. explain part b only (or just press Enter)" rows="2" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendAIMessage();}"></textarea>
@@ -970,7 +973,7 @@
       <button class="auth-tab" onclick="switchAuthTab('register')">Register</button>
     </div>
     <div class="captcha-box" id="auth-captcha-box">
-      <div class="captcha-label">🤖 Are you human? Solve this first.</div>
+      <div class="captcha-label">Are you human? Solve this first.</div>
       <div class="captcha-question" id="auth-captcha-q"></div>
       <div class="captcha-options" id="auth-captcha-opts"></div>
       <div class="captcha-error" id="auth-captcha-err"></div>
@@ -1048,7 +1051,7 @@ function _renderCaptcha(qElId, optsElId, errElId, onSuccess) {
 let allQuestions = [];
 let displayedCount = 0;
 const PAGE_SIZE = 50;
-let filters = { topic: null, subtopic: null, paper: null, curriculum: null, yearMin: null, yearMax: null, diffs: new Set() };
+let filters = { topics: new Set(), subtopics: new Set(), paper: null, curriculum: null, yearMin: null, yearMax: null, diffs: new Set() };
 let totalFiltered = 0;
 let currentQuestion = null;
 let authTab = 'login';
@@ -1176,40 +1179,49 @@ async function loadTopics() {
 function selectTopic(code, e) {
   e.stopPropagation();
   const item = document.getElementById(`topic-${code}`);
-  const isOpen = item.classList.contains('open');
-
-  // Toggle open
   item.classList.toggle('open');
 
-  // Set filter
-  if (filters.topic === code && !filters.subtopic) {
-    filters.topic = null;
+  // Toggle this topic in the multi-select set
+  if (filters.topics.has(code)) {
+    filters.topics.delete(code);
     item.querySelector('.topic-header').classList.remove('active');
   } else {
-    document.querySelectorAll('.topic-header').forEach(h => h.classList.remove('active'));
-    document.querySelectorAll('.subtopic-item').forEach(h => h.classList.remove('active'));
-    filters.topic = code;
-    filters.subtopic = null;
+    filters.topics.add(code);
     item.querySelector('.topic-header').classList.add('active');
-    if (!isOpen) item.classList.add('open');
+    if (!item.classList.contains('open')) item.classList.add('open');
   }
   loadQuestions(true);
 }
 
 function selectSubtopic(topicCode, subtopicCode, e) {
   e.stopPropagation();
-  document.querySelectorAll('.topic-header').forEach(h => h.classList.remove('active'));
-  document.querySelectorAll('.subtopic-item').forEach(h => h.classList.remove('active'));
-
-  filters.topic = topicCode;
-  filters.subtopic = subtopicCode;
-
   if (subtopicCode) {
-    document.getElementById(`sub-${subtopicCode}`)?.classList.add('active');
+    if (filters.subtopics.has(subtopicCode)) {
+      filters.subtopics.delete(subtopicCode);
+      document.getElementById(`sub-${subtopicCode}`)?.classList.remove('active');
+    } else {
+      filters.subtopics.add(subtopicCode);
+      document.getElementById(`sub-${subtopicCode}`)?.classList.add('active');
+    }
   } else {
-    document.getElementById(`topic-${topicCode}`)?.querySelector('.topic-header').classList.add('active');
+    // "All" under a topic — toggle entire topic
+    if (filters.topics.has(topicCode)) {
+      filters.topics.delete(topicCode);
+      document.getElementById(`topic-${topicCode}`)?.querySelector('.topic-header').classList.remove('active');
+    } else {
+      filters.topics.add(topicCode);
+      document.getElementById(`topic-${topicCode}`)?.querySelector('.topic-header').classList.add('active');
+    }
   }
   loadQuestions(true);
+}
+
+function toggleTopicFilter() {
+  const tree = document.getElementById('topic-tree');
+  const arrow = document.getElementById('topic-filter-arrow');
+  const hidden = tree.style.display === 'none';
+  tree.style.display = hidden ? '' : 'none';
+  arrow.textContent = hidden ? '▼' : '▶';
 }
 
 // Sidebar paper & curriculum filters
@@ -1229,8 +1241,8 @@ document.querySelectorAll('input[name="curr-filter"]').forEach(el => {
 // ── Question list ──
 function buildParams(extra = {}) {
   const p = new URLSearchParams();
-  if (filters.topic) p.set('topic', filters.topic);
-  if (filters.subtopic) p.set('subtopic', filters.subtopic);
+  filters.topics.forEach(t => p.append('topic', t));
+  filters.subtopics.forEach(s => p.append('subtopic', s));
   if (filters.paper) p.set('paper', filters.paper);
   if (filters.curriculum) p.set('curriculum', filters.curriculum);
   const yMin = document.getElementById('year-min').value;
@@ -1335,7 +1347,7 @@ function toggleDiff(d) {
 });
 
 function resetFilters() {
-  filters = { topic: null, subtopic: null, paper: null, curriculum: null, yearMin: null, yearMax: null, diffs: new Set() };
+  filters = { topics: new Set(), subtopics: new Set(), paper: null, curriculum: null, yearMin: null, yearMax: null, diffs: new Set() };
   document.getElementById('year-min').value = '';
   document.getElementById('year-max').value = '';
   document.querySelectorAll('.diff-btn').forEach(b => b.classList.remove('active'));
@@ -1692,7 +1704,7 @@ setAccent(savedAccent);
 // ── Image invert toggle ──
 function applyImgInvert(on) {
   document.body.classList.toggle('img-inverted', on);
-  document.getElementById('theme-toggle').textContent = on ? '☀️' : '🌙';
+  document.getElementById('theme-toggle').textContent = on ? 'Light' : 'Dark';
   localStorage.setItem('imgInvert', on ? '1' : '0');
 }
 
