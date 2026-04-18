@@ -1263,8 +1263,8 @@ def physics_stats():
 @app.route('/api/physics/questions')
 def physics_questions():
     paper = request.args.get('paper')
-    topic = request.args.get('topic')
-    subtopic = request.args.get('subtopic')
+    topics = request.args.getlist('topic')
+    subtopics = request.args.getlist('subtopic')
     year_min = request.args.get('year_min', type=int)
     year_max = request.args.get('year_max', type=int)
     diff_min = request.args.get('diff_min', type=int)
@@ -1276,8 +1276,8 @@ def physics_questions():
     results = []
     for q_id, q in PHYSICS_BANK.items():
         if paper and q.get('paper') != paper: continue
-        if topic and q.get('topic_code') != topic: continue
-        if subtopic and q.get('subtopic_code') != subtopic: continue
+        if topics and q.get('topic_code') not in topics: continue
+        if subtopics and q.get('subtopic_code') not in subtopics: continue
         if year_min and (not q.get('year') or q['year'] < year_min): continue
         if year_max and (not q.get('year') or q['year'] > year_max): continue
         if diff_min and (not q.get('difficulty') or q['difficulty'] < diff_min): continue
@@ -1326,8 +1326,8 @@ def physics_get_question(question_id):
 @app.route('/api/physics/random')
 def physics_random():
     paper = request.args.get('paper')
-    topic = request.args.get('topic')
-    subtopic = request.args.get('subtopic')
+    topics = request.args.getlist('topic')
+    subtopics = request.args.getlist('subtopic')
     year_min = request.args.get('year_min', type=int)
     year_max = request.args.get('year_max', type=int)
     diff_min = request.args.get('diff_min', type=int)
@@ -1338,8 +1338,8 @@ def physics_random():
     for q_id, q in PHYSICS_BANK.items():
         if not q.get('topic_code') or q.get('is_scan'): continue
         if paper and q.get('paper') != paper: continue
-        if topic and q.get('topic_code') != topic: continue
-        if subtopic and q.get('subtopic_code') != subtopic: continue
+        if topics and q.get('topic_code') not in topics: continue
+        if subtopics and q.get('subtopic_code') not in subtopics: continue
         if year_min and (not q.get('year') or q['year'] < year_min): continue
         if year_max and (not q.get('year') or q['year'] > year_max): continue
         if diff_min and (not q.get('difficulty') or q['difficulty'] < diff_min): continue
