@@ -45,7 +45,7 @@
       gap: 16px;
       position: sticky;
       top: 0;
-      z-index: 100;
+      z-index: 260;
     }
     .hamburger {
       background: var(--surface2);
@@ -126,7 +126,10 @@
       padding: 12px 0;
       transition: transform .25s cubic-bezier(.4,0,.2,1);
     }
-    .sidebar.collapsed { display: none; }
+    /* Desktop-only collapse */
+    @media (min-width: 769px) {
+      .sidebar.collapsed { display: none; }
+    }
 
     /* Backdrop (mobile only when overlay is open) */
     .panel-backdrop {
@@ -650,20 +653,38 @@
       }
     }
 
+    /* Sidebar close button (X) inside the sidebar itself */
+    .sidebar-close {
+      display: none;
+      width: 100%;
+      padding: 10px 16px;
+      background: var(--surface2);
+      border: none;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+      font-size: 13px;
+      text-align: right;
+      cursor: pointer;
+    }
+    .sidebar-close:hover { background: var(--border); }
+
+    /* Hamburger always visible so the sidebar can be toggled anywhere */
+    .hamburger { display: flex; }
+
     /* Mobile sidebar overlay */
     @media (max-width: 768px) {
-      .hamburger { display: flex; }
       .sidebar {
         position: fixed;
         top: 52px;
         left: 0;
         bottom: 0;
-        z-index: 200;
+        z-index: 210;
         transform: translateX(-100%);
         box-shadow: 4px 0 16px rgba(0,0,0,.4);
       }
       .sidebar.open { transform: translateX(0); }
       .sidebar.collapsed { display: block; transform: translateX(-100%); }
+      .sidebar-close { display: block; }
       .layout { height: calc(100vh - 52px); }
       .q-panel-header > div { flex-wrap: wrap; }
     }
@@ -939,7 +960,7 @@
 <div class="history-panel" id="history-panel">
   <div class="history-panel-header">
     <span class="history-panel-title">Recent History</span>
-    <button class="ai-drawer-close" onclick="toggleHistoryPanel()">✕</button>
+    <button onclick="toggleHistoryPanel()" style="background:var(--surface2);border:1px solid var(--border);color:var(--text);width:32px;height:32px;border-radius:8px;cursor:pointer;font-size:16px;line-height:1;display:flex;align-items:center;justify-content:center;padding:0">✕</button>
   </div>
   <div class="history-panel-body">
     <div id="history-list-floating">
@@ -956,6 +977,7 @@
 
   <!-- Sidebar: topic tree -->
   <aside class="sidebar" id="sidebar">
+    <button class="sidebar-close" onclick="toggleSidebar()">✕ Close</button>
     <div class="sidebar-section-title" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer" onclick="toggleTopicFilter()">
       <span>Topics</span>
       <span id="topic-filter-arrow" style="font-size:10px;color:var(--text-muted)">▼</span>
@@ -1122,7 +1144,7 @@
   <div class="ai-drag-handle" id="ai-drag-handle" title="Drag to resize"></div>
   <div class="ai-drawer-header">
     <span class="ai-drawer-title">✦ Claude</span>
-    <button class="ai-drawer-close" onclick="toggleAIChat()">✕</button>
+    <button onclick="toggleAIChat()" style="background:var(--surface2);border:1px solid var(--border);color:var(--text);width:32px;height:32px;border-radius:8px;cursor:pointer;font-size:16px;line-height:1;display:flex;align-items:center;justify-content:center;padding:0">✕</button>
   </div>
   <div class="ai-chat-pw-gate" id="ai-pw-gate">
     <div class="ai-chat-pw-inner">
@@ -1283,15 +1305,46 @@ function relativeTime(isoStr) {
   return Math.floor(diff / 86400) + 'd ago';
 }
 
+// LocalStorage-backed history (works without login)
+const LOCAL_HISTORY_KEY = 'math_local_history';
+const LOCAL_HISTORY_MAX = 100;
+
+function getLocalHistory() {
+  try { return JSON.parse(localStorage.getItem(LOCAL_HISTORY_KEY) || '[]'); }
+  catch { return []; }
+}
+
+function addToLocalHistory(qid, q) {
+  if (!qid) return;
+  let h = getLocalHistory().filter(item => item.question_id !== qid);
+  h.unshift({
+    question_id: qid,
+    subject: 'math',
+    viewed_at: new Date().toISOString(),
+    year: q?.year,
+    session: q?.session,
+    tz: q?.tz,
+    paper: q?.paper,
+    original_question_num: q?.original_question_num,
+    topic_name: q?.topic_name,
+  });
+  h = h.slice(0, LOCAL_HISTORY_MAX);
+  try { localStorage.setItem(LOCAL_HISTORY_KEY, JSON.stringify(h)); } catch {}
+}
+
 async function loadHistory() {
-  const r = await fetch('/api/history?subject=math&limit=30');
-  const data = await r.json();
-  renderHistory(data.history || []);
+  if (currentUser) {
+    const r = await fetch('/api/history?subject=math&limit=30');
+    const data = await r.json();
+    renderHistory(data.history || []);
+  } else {
+    renderHistory(getLocalHistory().slice(0, 30));
+  }
 }
 
 function renderHistory(items) {
   const html = !items.length
-    ? '<div style="padding:8px 16px;font-size:12px;color:var(--text-muted)">No history yet</div>'
+    ? '<div style="padding:14px 16px;font-size:12px;color:var(--text-muted)">No history yet — open a question to start tracking.</div>'
     : items.map(item => {
         const paperNum = (item.paper || '').replace('Paper', '');
         const sessionStr = [item.session, item.tz].filter(Boolean).join(' ');
@@ -1314,10 +1367,13 @@ function renderHistory(items) {
 function toggleSidebar() {
   const sb = document.getElementById('sidebar');
   const bd = document.getElementById('panel-backdrop');
-  const isOpen = sb.classList.toggle('open');
-  // Backdrop only matters on mobile (CSS makes it overlay there)
   if (window.matchMedia('(max-width: 768px)').matches) {
+    // Mobile: slide in/out
+    const isOpen = sb.classList.toggle('open');
     bd.classList.toggle('show', isOpen);
+  } else {
+    // Desktop: show/hide via collapsed class
+    sb.classList.toggle('collapsed');
   }
 }
 
@@ -1352,23 +1408,31 @@ function toggleHistorySection() {
   document.getElementById('history-toggle-icon').textContent = historySectionOpen ? '▼' : '▶';
 }
 
-async function trackView(qId) {
-  try {
-    await fetch('/api/track-view', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({ question_id: qId, subject: 'math' })
-    });
-  } catch {}
+async function trackView(qId, q) {
+  // Always store locally so unsigned users still get history
+  addToLocalHistory(qId, q);
+  // Server-side tracking only when logged in
+  if (currentUser) {
+    try {
+      await fetch('/api/track-view', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ question_id: qId, subject: 'math' })
+      });
+    } catch {}
+  }
 }
 
 async function clearHistory() {
   if (!confirm('Clear all math history?')) return;
-  await fetch('/api/clear-all', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({ subject: 'math' })
-  });
+  try { localStorage.removeItem(LOCAL_HISTORY_KEY); } catch {}
+  if (currentUser) {
+    await fetch('/api/clear-all', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ subject: 'math' })
+    });
+  }
   renderHistory([]);
 }
 
@@ -1666,10 +1730,10 @@ function resetFilters() {
 
 // ── Question modal ──
 async function openQuestion(qId, evt) {
-  trackView(qId).then(() => loadHistory());
   const r = await fetch(`/api/bank/question/${qId}`);
   const q = await r.json();
   currentQuestion = q;
+  trackView(qId, q).then(() => loadHistory());
 
   const paperNum = q.paper?.replace('Paper', '');
   const sessionStr = [q.session, q.tz].filter(Boolean).join(' ');
@@ -1724,15 +1788,6 @@ async function openQuestion(qId, evt) {
   document.getElementById('content-split').style.display = 'none';
   document.getElementById('q-panel').classList.add('open');
   applyZoom();
-
-  // Track view
-  if (currentUser) {
-    fetch('/api/track-view', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ question_id: qId, subject: 'math2' })
-    });
-  }
 }
 
 function toggleAnswer() {
