@@ -948,8 +948,6 @@
   </div>
   <div class="topbar-right">
     <button class="topbar-history-btn" onclick="toggleHistoryPanel()" title="View history">History</button>
-    <span id="username-display"></span>
-    <button class="btn-sm" id="auth-btn" onclick="openAuth()">Sign in</button>
   </div>
 </nav>
 
@@ -1175,29 +1173,6 @@
 </div>
 </div>
 
-<!-- Auth modal -->
-<div class="auth-modal" id="auth-modal">
-  <div class="auth-box">
-    <h2 id="auth-title">Sign In</h2>
-    <div class="auth-tabs">
-      <button class="auth-tab active" onclick="switchAuthTab('login')">Login</button>
-      <button class="auth-tab" onclick="switchAuthTab('register')">Register</button>
-    </div>
-    <div class="captcha-box" id="auth-captcha-box">
-      <div class="captcha-label">Are you human? Solve this first.</div>
-      <div class="captcha-question" id="auth-captcha-q"></div>
-      <div class="captcha-options" id="auth-captcha-opts"></div>
-      <div class="captcha-error" id="auth-captcha-err"></div>
-    </div>
-    <div id="auth-fields" style="display:none">
-      <input type="text" class="auth-input" id="auth-username" placeholder="Username" autocomplete="username">
-      <input type="password" class="auth-input" id="auth-password" placeholder="Password" autocomplete="current-password">
-      <div class="auth-error" id="auth-error"></div>
-      <button class="btn-sm primary" style="width:100%;padding:9px" onclick="submitAuth()">Continue</button>
-    </div>
-    <button class="btn-sm" style="width:100%;margin-top:8px" onclick="closeAuth()">Cancel</button>
-  </div>
-</div>
 
 <script>
 // ── CAPTCHA ──
@@ -1288,7 +1263,7 @@ let stats = null;
 
 // ── Init ──
 async function init() {
-  await Promise.all([loadUser(), loadStats(), loadTopics()]);
+  await Promise.all([loadStats(), loadTopics()]);
   loadQuestions(true);
   loadHistory();
   await openRandom();
@@ -1333,13 +1308,7 @@ function addToLocalHistory(qid, q) {
 }
 
 async function loadHistory() {
-  if (currentUser) {
-    const r = await fetch('/api/history?subject=math&limit=30');
-    const data = await r.json();
-    renderHistory(data.history || []);
-  } else {
-    renderHistory(getLocalHistory().slice(0, 30));
-  }
+  renderHistory(getLocalHistory().slice(0, 30));
 }
 
 function renderHistory(items) {
@@ -1408,31 +1377,14 @@ function toggleHistorySection() {
   document.getElementById('history-toggle-icon').textContent = historySectionOpen ? '▼' : '▶';
 }
 
-async function trackView(qId, q) {
-  // Always store locally so unsigned users still get history
+function trackView(qId, q) {
   addToLocalHistory(qId, q);
-  // Server-side tracking only when logged in
-  if (currentUser) {
-    try {
-      await fetch('/api/track-view', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({ question_id: qId, subject: 'math' })
-      });
-    } catch {}
-  }
+  return Promise.resolve();
 }
 
-async function clearHistory() {
+function clearHistory() {
   if (!confirm('Clear all math history?')) return;
   try { localStorage.removeItem(LOCAL_HISTORY_KEY); } catch {}
-  if (currentUser) {
-    await fetch('/api/clear-all', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({ subject: 'math' })
-    });
-  }
   renderHistory([]);
 }
 
@@ -1443,70 +1395,7 @@ function showList() {
   document.getElementById('show-answer-btn').innerHTML = '<span>▼</span> Show Markscheme Answer';
 }
 
-// ── Auth ──
-async function loadUser() {
-  const r = await fetch('/api/current-user');
-  const d = await r.json();
-  if (d.logged_in) {
-    currentUser = d.username;
-    document.getElementById('username-display').textContent = d.username;
-    document.getElementById('auth-btn').textContent = 'Sign out';
-    document.getElementById('auth-btn').onclick = logout;
-  }
-}
-
-async function logout() {
-  await fetch('/api/logout', { method: 'POST' });
-  currentUser = null;
-  document.getElementById('username-display').textContent = '';
-  document.getElementById('auth-btn').textContent = 'Sign in';
-  document.getElementById('auth-btn').onclick = openAuth;
-}
-
-function openAuth() {
-  document.getElementById('auth-modal').classList.add('open');
-  // Reset captcha gate
-  document.getElementById('auth-captcha-box').style.display = '';
-  document.getElementById('auth-fields').style.display = 'none';
-  _renderCaptcha('auth-captcha-q', 'auth-captcha-opts', 'auth-captcha-err', () => {
-    document.getElementById('auth-captcha-box').style.display = 'none';
-    document.getElementById('auth-fields').style.display = '';
-    setTimeout(() => document.getElementById('auth-username').focus(), 50);
-  });
-}
-function closeAuth() { document.getElementById('auth-modal').classList.remove('open'); }
-
-function switchAuthTab(tab) {
-  authTab = tab;
-  document.querySelectorAll('.auth-tab').forEach((b, i) => b.classList.toggle('active', (i === 0) === (tab === 'login')));
-  document.getElementById('auth-title').textContent = tab === 'login' ? 'Sign In' : 'Create Account';
-}
-
-async function submitAuth() {
-  const username = document.getElementById('auth-username').value.trim();
-  const password = document.getElementById('auth-password').value;
-  const errEl = document.getElementById('auth-error');
-  errEl.style.display = 'none';
-
-  const url = authTab === 'login' ? '/api/login' : '/api/register';
-  const r = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ username, password })
-  });
-  const d = await r.json();
-  if (d.success) {
-    currentUser = d.username;
-    document.getElementById('username-display').textContent = d.username;
-    document.getElementById('auth-btn').textContent = 'Sign out';
-    document.getElementById('auth-btn').onclick = logout;
-    closeAuth();
-    loadStats();
-  } else {
-    errEl.textContent = d.message;
-    errEl.style.display = 'block';
-  }
-}
+// Auth removed — all user data lives in localStorage now.
 
 // ── Stats / Dashboard ──
 async function loadStats() {
@@ -1801,26 +1690,42 @@ function toggleAnswer() {
 
 function closeModal() { showList(); }
 
-async function updateSaveButton(qId) {
-  const btn = document.getElementById('save-btn');
-  if (!currentUser) { btn.textContent = '☆ Save'; btn.classList.remove('saved'); return; }
-  const r = await fetch(`/api/is-saved?question_id=${qId}&subject=math2`);
-  const d = await r.json();
-  btn.textContent = d.saved ? '★ Saved' : '☆ Save';
-  btn.classList.toggle('saved', d.saved);
+const LOCAL_SAVED_KEY = 'math_local_saved';
+
+function getLocalSaved() {
+  try { return JSON.parse(localStorage.getItem(LOCAL_SAVED_KEY) || '[]'); }
+  catch { return []; }
 }
 
-async function toggleSave() {
-  if (!currentUser) { openAuth(); return; }
+function isLocallySaved(qId) {
+  return getLocalSaved().some(item => item.question_id === qId);
+}
+
+function setLocalSaved(qId, saved, q) {
+  let list = getLocalSaved().filter(item => item.question_id !== qId);
+  if (saved) {
+    list.unshift({
+      question_id: qId,
+      subject: 'math',
+      saved_at: new Date().toISOString(),
+      year: q?.year, session: q?.session, tz: q?.tz, paper: q?.paper,
+      original_question_num: q?.original_question_num, topic_name: q?.topic_name,
+    });
+  }
+  try { localStorage.setItem(LOCAL_SAVED_KEY, JSON.stringify(list)); } catch {}
+}
+
+function updateSaveButton(qId) {
+  const btn = document.getElementById('save-btn');
+  const saved = isLocallySaved(qId);
+  btn.textContent = saved ? '★ Saved' : '☆ Save';
+  btn.classList.toggle('saved', saved);
+}
+
+function toggleSave() {
   if (!currentQuestion) return;
   const qId = currentQuestion.question_id;
-  const r = await fetch(`/api/is-saved?question_id=${qId}&subject=math2`);
-  const d = await r.json();
-  if (d.saved) {
-    await fetch('/api/save-question', { method: 'DELETE', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question_id: qId, subject: 'math2' }) });
-  } else {
-    await fetch('/api/save-question', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question_id: qId, subject: 'math2' }) });
-  }
+  setLocalSaved(qId, !isLocallySaved(qId), currentQuestion);
   updateSaveButton(qId);
 }
 

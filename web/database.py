@@ -10,10 +10,16 @@ DATABASE_URL = os.environ.get('DATABASE_URL')
 USE_POSTGRES = DATABASE_URL is not None
 
 if USE_POSTGRES:
-    import psycopg2
-    from psycopg2.extras import RealDictCursor
+    try:
+        import psycopg2
+        from psycopg2.extras import RealDictCursor
+    except ImportError:
+        print("[database] psycopg2 not installed; falling back to SQLite.")
+        USE_POSTGRES = False
+        DATABASE_URL = None
+
     # Fix Render's postgres:// URL to postgresql://
-    if DATABASE_URL.startswith('postgres://'):
+    if USE_POSTGRES and DATABASE_URL.startswith('postgres://'):
         DATABASE_URL = DATABASE_URL.replace('postgres://', 'postgresql://', 1)
 
 # SQLite path for local development
@@ -294,5 +300,12 @@ def init_database():
 
         conn.commit()
 
-# Initialize database on import
-init_database()
+# Initialize database on import.
+# If the DB is unreachable (e.g. expired Render Postgres, network failure)
+# we want the app to boot anyway in cookie/localStorage-only mode rather than
+# crashing at import time. Per-request DB calls still fail individually and
+# are handled inside each helper.
+try:
+    init_database()
+except Exception as e:
+    print(f"[database] init_database failed, continuing without DB: {e}")
