@@ -47,6 +47,33 @@
       top: 0;
       z-index: 100;
     }
+    .hamburger {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      width: 34px; height: 30px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      flex-shrink: 0;
+    }
+    .hamburger:hover { background: var(--border); }
+    .topbar-history-btn {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: background .15s;
+    }
+    .topbar-history-btn:hover { background: var(--border); }
+    .topbar-history-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
     .topbar-logo {
       font-weight: 700;
       font-size: 16px;
@@ -97,7 +124,19 @@
       overflow-y: auto;
       flex-shrink: 0;
       padding: 12px 0;
+      transition: transform .25s cubic-bezier(.4,0,.2,1);
     }
+    .sidebar.collapsed { display: none; }
+
+    /* Backdrop (mobile only when overlay is open) */
+    .panel-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.45);
+      z-index: 199;
+      display: none;
+    }
+    .panel-backdrop.show { display: block; }
     .sidebar-section-title {
       font-size: 10px;
       font-weight: 700;
@@ -181,6 +220,12 @@
     .q-panel-inner {
       max-width: 720px;
       margin: 0 auto;
+    }
+    #modal-q-imgs, #modal-a-imgs {
+      overflow-x: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     .q-panel-header {
       display: flex;
@@ -465,7 +510,33 @@
 
     body.img-inverted .question-img { filter: invert(1) hue-rotate(180deg); }
 
-    .question-img { max-width: 100%; border-radius: 6px; display: block; margin: 0 auto; }
+    .question-img { border-radius: 6px; display: block; max-width: none; transition: width .15s; flex-shrink: 0; }
+
+    .zoom-btns {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .zoom-btn {
+      width: 26px; height: 26px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--surface2);
+      color: var(--text);
+      font-size: 15px;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: background .1s;
+      line-height: 1;
+      padding: 0;
+    }
+    .zoom-btn:hover { background: var(--border); color: var(--accent); border-color: var(--accent); }
+    .zoom-level {
+      font-size: 11px;
+      color: var(--text-muted);
+      min-width: 34px;
+      text-align: center;
+    }
     .answer-section { margin-top: 14px; }
     .btn-show-answer {
       background: var(--surface2);
@@ -529,13 +600,94 @@
     }
     .btn-ai:hover { background: rgba(108,99,255,.12); }
     .btn-ai.active { background: rgba(108,99,255,.2); }
-    /* AI Chat Drawer */
+    /* AI Chat Panel — floating, always fully on screen */
     .ai-chat-panel {
-      flex-shrink: 0; width: 0; overflow: hidden; position: relative;
-      background: var(--surface); display: flex; flex-direction: column;
-      transition: width .25s cubic-bezier(.4,0,.2,1);
+      position: fixed;
+      top: 64px;
+      right: 16px;
+      bottom: 16px;
+      width: 380px;
+      max-width: calc(100vw - 32px);
+      max-height: calc(100vh - 80px);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 12px 32px rgba(0,0,0,.45);
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      z-index: 250;
     }
-    .ai-chat-panel.open { box-shadow: -1px 0 0 var(--border); }
+    .ai-chat-panel.open { display: flex; }
+    @media (max-width: 640px) {
+      .ai-chat-panel {
+        top: 60px;
+        right: 8px;
+        left: 8px;
+        bottom: 8px;
+        width: auto;
+        max-width: none;
+      }
+    }
+
+    /* History floating panel */
+    .history-panel {
+      position: fixed;
+      top: 64px;
+      right: 16px;
+      bottom: 16px;
+      width: 320px;
+      max-width: calc(100vw - 32px);
+      max-height: calc(100vh - 80px);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 12px 32px rgba(0,0,0,.45);
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      z-index: 240;
+    }
+    .history-panel.open { display: flex; }
+    .history-panel-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .history-panel-title { font-size: 14px; font-weight: 600; }
+    .history-panel-body { flex: 1; overflow-y: auto; padding: 4px 0; }
+    .history-panel-footer { padding: 8px 14px; border-top: 1px solid var(--border); flex-shrink: 0; }
+    @media (max-width: 640px) {
+      .history-panel {
+        top: 60px;
+        right: 8px;
+        left: 8px;
+        bottom: 8px;
+        width: auto;
+        max-width: none;
+      }
+    }
+
+    /* Mobile sidebar overlay */
+    @media (max-width: 768px) {
+      .hamburger { display: flex; }
+      .sidebar {
+        position: fixed;
+        top: 52px;
+        left: 0;
+        bottom: 0;
+        z-index: 200;
+        transform: translateX(-100%);
+        box-shadow: 4px 0 16px rgba(0,0,0,.4);
+      }
+      .sidebar.open { transform: translateX(0); }
+      .sidebar.collapsed { display: block; transform: translateX(-100%); }
+      .layout { height: calc(100vh - 52px); }
+      .q-panel-header > div { flex-wrap: wrap; }
+    }
     .ai-drawer-header { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid var(--border); flex-shrink: 0; }
     .ai-drawer-title { font-size: 14px; font-weight: 600; }
     .ai-drawer-close { background: none; border: none; color: var(--text-dim); font-size: 18px; cursor: pointer; padding: 2px 6px; border-radius: 4px; }
@@ -655,6 +807,33 @@
     }
     .auth-tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 
+    .concept-tag {
+      display: inline-flex;
+      align-items: center;
+      font-size: 11px;
+      padding: 2px 9px;
+      border-radius: 10px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      cursor: pointer;
+      transition: all .12s;
+    }
+    .concept-tag:hover { border-color: var(--accent2); color: var(--accent2); }
+    .concept-tag.active { background: rgba(78,205,196,.15); border-color: var(--accent2); color: var(--accent2); }
+
+    .tag-search-input {
+      width: 100%;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 5px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      outline: none;
+    }
+    .tag-search-input:focus { border-color: var(--accent); }
+
     .empty-state {
       text-align: center;
       padding: 60px 20px;
@@ -668,6 +847,22 @@
       color: var(--text-muted);
       font-size: 14px;
     }
+
+    .history-item {
+      padding: 7px 16px;
+      cursor: pointer;
+      border-bottom: 1px solid var(--border);
+      transition: background .1s;
+    }
+    .history-item:hover { background: var(--surface2); }
+    .history-item:last-child { border-bottom: none; }
+    .history-item-title { font-size: 12px; font-weight: 600; color: var(--text); }
+    .history-item-meta { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+    .history-clear-btn {
+      font-size: 11px; color: var(--text-muted); background: none; border: none;
+      cursor: pointer; padding: 0; text-decoration: underline;
+    }
+    .history-clear-btn:hover { color: var(--text-dim); }
   </style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 </head>
@@ -675,6 +870,7 @@
 
 <!-- Topbar -->
 <nav class="topbar">
+  <button class="hamburger" onclick="toggleSidebar()" title="Toggle menu">☰</button>
   <a class="topbar-logo" href="/">IB Question Bank</a>
   <div class="topbar-sep"></div>
   <div class="topbar-nav">
@@ -682,10 +878,30 @@
     <a href="/physics" class="active">Physics HL</a>
   </div>
   <div class="topbar-right">
+    <button class="topbar-history-btn" onclick="toggleHistoryPanel()" title="View history">History</button>
     <span id="username-display"></span>
     <button class="btn-sm" id="auth-btn" onclick="openAuth()">Sign in</button>
   </div>
 </nav>
+
+<!-- Mobile backdrop -->
+<div class="panel-backdrop" id="panel-backdrop" onclick="closeMobileOverlays()"></div>
+
+<!-- Floating History Panel -->
+<div class="history-panel" id="history-panel">
+  <div class="history-panel-header">
+    <span class="history-panel-title">Recent History</span>
+    <button class="ai-drawer-close" onclick="toggleHistoryPanel()">✕</button>
+  </div>
+  <div class="history-panel-body">
+    <div id="history-list-floating">
+      <div style="padding:14px;font-size:12px;color:var(--text-muted)">No history yet</div>
+    </div>
+  </div>
+  <div class="history-panel-footer">
+    <button class="history-clear-btn" onclick="clearHistory()">Clear history</button>
+  </div>
+</div>
 
 <!-- Main layout -->
 <div class="layout">
@@ -693,7 +909,7 @@
   <!-- Sidebar: topic tree -->
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-section-title" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer" onclick="toggleTopicFilter()">
-      <span>Filter by Topic</span>
+      <span>Topics</span>
       <span id="topic-filter-arrow" style="font-size:10px;color:var(--text-muted)">▼</span>
     </div>
     <div id="topic-tree"></div>
@@ -727,9 +943,21 @@
       </label>
     </div>
     <div class="sidebar-divider"></div>
+    <div class="sidebar-section-title" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer" onclick="toggleTagSection()">
+      <span>Concept Tags</span>
+      <span id="tag-section-arrow" style="font-size:10px;color:var(--text-muted)">▼</span>
+    </div>
+    <div id="tag-filter-section">
+      <div style="padding:4px 12px 6px;">
+        <input type="text" class="tag-search-input" id="tag-search-input" placeholder="Search tags…" oninput="filterTagList(this.value)">
+      </div>
+      <div id="tag-list" style="max-height:180px;overflow-y:auto;padding:0 8px 8px;"></div>
+    </div>
+
+    <div class="sidebar-divider"></div>
 
     <!-- Accent color picker -->
-    <div class="sidebar-section-title">Accent Color</div>
+    <div class="sidebar-section-title">Color</div>
     <div style="padding:6px 16px 10px; display:flex; flex-wrap:wrap; gap:8px;">
       <button class="accent-swatch" data-color="#6c63ff" title="Violet" style="background:#6c63ff"></button>
       <button class="accent-swatch" data-color="#3b82f6" title="Blue" style="background:#3b82f6"></button>
@@ -752,6 +980,22 @@
         display:flex; align-items:center; gap:6px;
         font-size:15px; color:var(--text); transition:background .15s;
       ">Dark</button>
+    </div>
+
+    <div class="sidebar-divider"></div>
+
+    <!-- Session history -->
+    <div class="sidebar-section-title" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer" onclick="toggleHistorySection()">
+      <span>History</span>
+      <span id="history-toggle-icon" style="font-size:10px;color:var(--text-muted)">▶</span>
+    </div>
+    <div id="history-section" style="display:none">
+      <div id="history-list">
+        <div style="padding:8px 16px;font-size:12px;color:var(--text-muted)">No history yet</div>
+      </div>
+      <div style="padding:4px 16px 10px">
+        <button class="history-clear-btn" onclick="clearHistory()">Clear history</button>
+      </div>
     </div>
 
   </aside>
@@ -778,8 +1022,12 @@
         </div>
       </div>
       <button class="filter-reset" onclick="resetFilters()">Reset</button>
+      <div class="zoom-btns">
+        <button class="zoom-btn" onclick="changeZoom(-20)">−</button>
+        <span class="zoom-level" id="zoom-label">100%</span>
+        <button class="zoom-btn" onclick="changeZoom(20)">+</button>
+      </div>
       <button class="btn-random" onclick="openRandom()">Get</button>
-      <button class="filter-reset" id="btn-browse" onclick="showList()" style="display:none">☰ Browse list</button>
     </div>
 
     <!-- Question list -->
@@ -805,11 +1053,12 @@
           <div class="q-panel-meta">
             <div class="q-panel-title" id="modal-title">Question</div>
             <div class="q-panel-subtitle" id="modal-subtitle"></div>
+            <div id="modal-concept-tags" style="display:none;flex-wrap:wrap;gap:4px;margin-top:6px;"></div>
           </div>
           <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
             <button class="btn-gpt" onclick="askChatGPT()" title="Copy image and open ChatGPT">↗ ChatGPT</button>
-            <button class="btn-ai" onclick="toggleAIChat()" title="Built-in AI chat">✦ Ask Claude</button>
-            <button class="q-panel-close" onclick="closeModal()">☰ Browse list</button>
+            <button class="btn-ai" onclick="toggleAIChat()" title="Built-in AI chat">✦ Claude</button>
+            <button class="q-panel-close" onclick="closeModal()">☰ List</button>
           </div>
         </div>
         <div class="q-panel-body" id="q-panel-body">
@@ -837,7 +1086,7 @@
   <div class="ai-chat-panel" id="ai-chat-panel">
   <div class="ai-drag-handle" id="ai-drag-handle" title="Drag to resize"></div>
   <div class="ai-drawer-header">
-    <span class="ai-drawer-title">✦ Ask Claude</span>
+    <span class="ai-drawer-title">✦ Claude</span>
     <button class="ai-drawer-close" onclick="toggleAIChat()">✕</button>
   </div>
   <div class="ai-chat-pw-gate" id="ai-pw-gate">
@@ -949,7 +1198,10 @@ function _renderCaptcha(qElId, optsElId, errElId, onSuccess) {
 let allQuestions = [];
 let displayedCount = 0;
 const PAGE_SIZE = 50;
-let filters = { topics: new Set(), subtopics: new Set(), paper: null, curriculum: null, yearMin: null, yearMax: null, diffs: new Set() };
+let filters = { topics: new Set(), subtopics: new Set(), paper: null, curriculum: null, yearMin: null, yearMax: null, diffs: new Set(), tags: new Set() };
+let allTags = [];
+let currentSort = 'year_desc';
+let zoomLevel = parseInt(localStorage.getItem('q_zoom') || '100');
 let totalFiltered = 0;
 let currentQuestion = null;
 let authTab = 'login';
@@ -958,15 +1210,130 @@ let stats = null;
 
 // ── Init ──
 async function init() {
-  await Promise.all([loadUser(), loadStats(), loadTopics()]);
-  loadQuestions(true);  // load in background for when user browses
+  await Promise.all([loadUser(), loadStats(), loadTopics(), loadTags()]);
+  loadQuestions(true);
+  loadHistory();
   await openRandom();
+}
+
+// ── History ──
+function relativeTime(isoStr) {
+  if (!isoStr) return '';
+  const d = new Date(typeof isoStr === 'string' && !isoStr.endsWith('Z') ? isoStr + 'Z' : isoStr);
+  const diff = (Date.now() - d.getTime()) / 1000;
+  if (diff < 60) return 'just now';
+  if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
+  if (diff < 86400) return Math.floor(diff / 3600) + 'h ago';
+  return Math.floor(diff / 86400) + 'd ago';
+}
+
+async function loadHistory() {
+  const r = await fetch('/api/history?subject=physics&limit=30');
+  const data = await r.json();
+  renderHistory(data.history || []);
+}
+
+function renderHistory(items) {
+  const html = !items.length
+    ? '<div style="padding:8px 16px;font-size:12px;color:var(--text-muted)">No history yet</div>'
+    : items.map(item => {
+        const paperNum = (item.paper || '').replace('Paper', '');
+        const sessionStr = [item.session, item.tz].filter(Boolean).join(' ');
+        const title = item.year
+          ? `${item.year} ${sessionStr} · P${paperNum} · Q${item.original_question_num || '?'}`
+          : item.question_id;
+        const meta = [item.topic_name, relativeTime(item.viewed_at)].filter(Boolean).join(' · ');
+        const qid = item.question_id.replace(/'/g, "\\'");
+        return `<div class="history-item" onclick="openQuestion('${qid}');closeMobileOverlays()">
+          <div class="history-item-title">${title}</div>
+          ${meta ? `<div class="history-item-meta">${meta}</div>` : ''}
+        </div>`;
+      }).join('');
+  const el = document.getElementById('history-list');
+  if (el) el.innerHTML = html;
+  const elFloat = document.getElementById('history-list-floating');
+  if (elFloat) elFloat.innerHTML = html;
+}
+
+let historySectionOpen = false;
+function toggleHistorySection() {
+  historySectionOpen = !historySectionOpen;
+  document.getElementById('history-section').style.display = historySectionOpen ? '' : 'none';
+  document.getElementById('history-toggle-icon').textContent = historySectionOpen ? '▼' : '▶';
+}
+
+function toggleSidebar() {
+  const sb = document.getElementById('sidebar');
+  const bd = document.getElementById('panel-backdrop');
+  const isOpen = sb.classList.toggle('open');
+  if (window.matchMedia('(max-width: 768px)').matches) {
+    bd.classList.toggle('show', isOpen);
+  }
+}
+
+function toggleHistoryPanel() {
+  const panel = document.getElementById('history-panel');
+  const bd = document.getElementById('panel-backdrop');
+  const isOpen = panel.classList.toggle('open');
+  document.querySelector('.topbar-history-btn').classList.toggle('active', isOpen);
+  if (isOpen) {
+    document.getElementById('ai-chat-panel').classList.remove('open');
+    document.querySelector('.btn-ai')?.classList.remove('active');
+    aiChatOpen = false;
+    loadHistory();
+  }
+  if (window.matchMedia('(max-width: 640px)').matches) {
+    bd.classList.toggle('show', isOpen);
+  }
+}
+
+function closeMobileOverlays() {
+  document.getElementById('sidebar')?.classList.remove('open');
+  document.getElementById('history-panel')?.classList.remove('open');
+  document.querySelector('.topbar-history-btn')?.classList.remove('active');
+  document.getElementById('panel-backdrop')?.classList.remove('show');
+}
+
+async function trackView(qId) {
+  try {
+    await fetch('/api/track-view', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ question_id: qId, subject: 'physics' })
+    });
+  } catch {}
+}
+
+async function clearHistory() {
+  if (!confirm('Clear all physics history?')) return;
+  await fetch('/api/clear-all', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ subject: 'physics' })
+  });
+  renderHistory([]);
+}
+
+function changeZoom(delta) {
+  zoomLevel = Math.max(20, zoomLevel + delta);
+  localStorage.setItem('q_zoom', zoomLevel);
+  applyZoom();
+}
+
+function applyZoom() {
+  const body = document.getElementById('q-panel-body');
+  const baseW = body ? (body.clientWidth || body.offsetWidth || 700) : 700;
+  const w = Math.round(baseW * zoomLevel / 100);
+  document.querySelectorAll('.question-img').forEach(img => {
+    img.style.width = w + 'px';
+  });
+  const lbl = document.getElementById('zoom-label');
+  if (lbl) lbl.textContent = zoomLevel + '%';
 }
 
 function showList() {
   document.getElementById('q-panel').classList.remove('open');
   document.getElementById('content-split').style.display = '';
-  document.getElementById('btn-browse').style.display = 'none';
   document.getElementById('answer-wrap').classList.remove('visible');
   document.getElementById('show-answer-btn').innerHTML = '<span>▼</span> Show Markscheme Answer';
 }
@@ -1144,6 +1511,68 @@ function toggleTopicFilter() {
   arrow.textContent = hidden ? '▼' : '▶';
 }
 
+// ── Concept Tags ──
+async function loadTags() {
+  const r = await fetch('/api/physics/tags');
+  allTags = await r.json();
+  renderTagList(allTags);
+}
+
+function renderTagList(tags, search = '') {
+  const list = document.getElementById('tag-list');
+  if (!list) return;
+  const filtered = search ? tags.filter(t => t.tag.toLowerCase().includes(search.toLowerCase())) : tags;
+  list.innerHTML = filtered.slice(0, 80).map(({tag, count}) => {
+    const isActive = filters.tags.has(tag);
+    const escaped = tag.replace(/&/g,'&amp;').replace(/"/g,'&quot;');
+    return `<div class="subtopic-item ${isActive ? 'active' : ''}" onclick="toggleTag(this)" data-tag="${escaped}">
+      <span style="flex:1;font-size:11px">${tag}</span>
+      <span class="subtopic-count">${count}</span>
+    </div>`;
+  }).join('');
+}
+
+function toggleTag(el) {
+  const tag = el.dataset.tag;
+  if (filters.tags.has(tag)) {
+    filters.tags.delete(tag);
+    el.classList.remove('active');
+  } else {
+    filters.tags.add(tag);
+    el.classList.add('active');
+  }
+  // Sync chips in question panel
+  document.querySelectorAll('#modal-concept-tags .concept-tag').forEach(chip => {
+    chip.classList.toggle('active', filters.tags.has(chip.dataset.tag));
+  });
+  loadQuestions(true);
+}
+
+function filterTagList(search) {
+  renderTagList(allTags, search);
+}
+
+function toggleTagSection() {
+  const section = document.getElementById('tag-filter-section');
+  const arrow = document.getElementById('tag-section-arrow');
+  const hidden = section.style.display === 'none';
+  section.style.display = hidden ? '' : 'none';
+  arrow.textContent = hidden ? '▼' : '▶';
+}
+
+function toggleTagFromChip(chip) {
+  const tag = chip.dataset.tag;
+  if (filters.tags.has(tag)) {
+    filters.tags.delete(tag);
+    chip.classList.remove('active');
+  } else {
+    filters.tags.add(tag);
+    chip.classList.add('active');
+  }
+  renderTagList(allTags, document.getElementById('tag-search-input')?.value || '');
+  loadQuestions(true);
+}
+
 // Sidebar paper & curriculum filters
 // Read initial DOM state (browser may restore radio selection on reload)
 const _paperEl = document.querySelector('input[name="paper-filter"]:checked');
@@ -1163,6 +1592,7 @@ function buildParams(extra = {}) {
   const p = new URLSearchParams();
   filters.topics.forEach(t => p.append('topic', t));
   filters.subtopics.forEach(s => p.append('subtopic', s));
+  filters.tags.forEach(t => p.append('tag', t));
   if (filters.paper) p.set('paper', filters.paper);
   if (filters.curriculum) p.set('curriculum', filters.curriculum);
   const yMin = document.getElementById('year-min').value;
@@ -1267,7 +1697,7 @@ function toggleDiff(d) {
 });
 
 function resetFilters() {
-  filters = { topics: new Set(), subtopics: new Set(), paper: null, curriculum: null, yearMin: null, yearMax: null, diffs: new Set() };
+  filters = { topics: new Set(), subtopics: new Set(), paper: null, curriculum: null, yearMin: null, yearMax: null, diffs: new Set(), tags: new Set() };
   document.getElementById('year-min').value = '';
   document.getElementById('year-max').value = '';
   document.querySelectorAll('.diff-btn').forEach(b => b.classList.remove('active'));
@@ -1275,12 +1705,16 @@ function resetFilters() {
   document.querySelectorAll('.subtopic-item').forEach(h => h.classList.remove('active'));
   document.querySelectorAll('input[name="paper-filter"]')[0].checked = true;
   document.querySelectorAll('input[name="curr-filter"]')[0].checked = true;
+  const tagSearch = document.getElementById('tag-search-input');
+  if (tagSearch) tagSearch.value = '';
+  renderTagList(allTags);
   syncTopicGroups();
   loadQuestions(true);
 }
 
 // ── Question modal ──
 async function openQuestion(qId, evt) {
+  trackView(qId).then(() => loadHistory());
   const r = await fetch(`/api/physics/question/${qId}`);
   const q = await r.json();
   currentQuestion = q;
@@ -1294,6 +1728,21 @@ async function openQuestion(qId, evt) {
   const subtopicStr = q.subtopic_name ? ` · ${q.subtopic_code} ${q.subtopic_name}` : '';
   const marksStr = q.marks ? ` · ${q.marks} marks` : '';
   document.getElementById('modal-subtitle').textContent = `${q.topic_name || 'Unclassified'}${subtopicStr}${marksStr}`;
+
+  // Concept tags
+  const tagsEl = document.getElementById('modal-concept-tags');
+  const conceptTags = q.concept_tags || [];
+  if (conceptTags.length > 0) {
+    tagsEl.innerHTML = conceptTags.map(tag => {
+      const escaped = tag.replace(/&/g,'&amp;').replace(/"/g,'&quot;');
+      const isActive = filters.tags.has(tag);
+      return `<span class="concept-tag ${isActive ? 'active' : ''}" data-tag="${escaped}" onclick="toggleTagFromChip(this)">${tag}</span>`;
+    }).join('');
+    tagsEl.style.display = 'flex';
+  } else {
+    tagsEl.innerHTML = '';
+    tagsEl.style.display = 'none';
+  }
 
   // Load question images (all pages)
   const qImgsEl = document.getElementById('modal-q-imgs');
@@ -1345,7 +1794,7 @@ async function openQuestion(qId, evt) {
   document.getElementById('q-panel-body').scrollTop = 0;
   document.getElementById('content-split').style.display = 'none';
   document.getElementById('q-panel').classList.add('open');
-  document.getElementById('btn-browse').style.display = '';
+  applyZoom();
 
   // Track view
   if (currentUser) {
@@ -1441,12 +1890,11 @@ function toggleAIChat() {
   panel.classList.toggle('open', aiChatOpen);
   document.querySelector('.btn-ai').classList.toggle('active', aiChatOpen);
   if (aiChatOpen) {
-    const saved = parseInt(localStorage.getItem('ai_drawer_width'));
-    panel.style.width = (saved && saved >= 300 && saved <= 700 ? saved : 380) + 'px';
-  } else {
-    panel.style.width = '0';
-  }
-  if (aiChatOpen) {
+    document.getElementById('history-panel').classList.remove('open');
+    document.querySelector('.topbar-history-btn')?.classList.remove('active');
+    if (window.matchMedia('(max-width: 640px)').matches) {
+      document.getElementById('panel-backdrop').classList.remove('show');
+    }
     if (aiUnlocked) {
       showAIChatBody();
     } else {
@@ -1539,29 +1987,46 @@ async function sendAIMessage() {
   sendBtn.disabled = true;
 
   const token = localStorage.getItem('ai_token');
-  if (!token) { aiUnlocked = false; toggleAIChat(); toggleAIChat(); return; }
+  if (!token) {
+    aiUnlocked = false;
+    sendBtn.textContent = '↑';
+    sendBtn.classList.remove('sending');
+    sendBtn.disabled = false;
+    appendAIMsg('assistant', '⚠ Not authenticated. Please re-open the chat.');
+    return;
+  }
 
   aiMessages.push({role: 'user', content: displayText});
   if (text) appendAIMsg('user', text);
   const thinking = appendAIMsg('assistant', '…', true);
 
-  const res = await fetch('/api/chat', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({
-      token,
-      messages: aiMessages,
-      question_id: currentQuestion?.question_id,
-      subject: 'physics'
-    })
-  });
+  let res, data;
+  try {
+    res = await fetch('/api/chat', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        token,
+        messages: aiMessages,
+        question_id: currentQuestion?.question_id,
+        subject: 'physics'
+      })
+    });
+    data = await res.json();
+  } catch (e) {
+    thinking.remove();
+    sendBtn.textContent = '↑';
+    sendBtn.classList.remove('sending');
+    sendBtn.disabled = false;
+    appendAIMsg('assistant', '⚠ Network error: ' + e.message);
+    return;
+  }
 
   thinking.remove();
   sendBtn.textContent = '↑';
   sendBtn.classList.remove('sending');
   sendBtn.disabled = false;
 
-  const data = await res.json();
   if (!res.ok) {
     if (res.status === 401) {
       localStorage.removeItem('ai_token');
@@ -1570,7 +2035,7 @@ async function sendAIMessage() {
       document.getElementById('ai-pw-gate').style.display = '';
       document.getElementById('ai-pw-error').textContent = 'Session expired — re-enter password';
     } else {
-      appendAIMsg('assistant', '⚠ ' + (data.error || 'Error'));
+      appendAIMsg('assistant', `⚠ ${res.status}: ${data.error || 'Server error'}`);
     }
     return;
   }
@@ -1604,9 +2069,12 @@ openQuestion = async function(id) {
 
 // ── Keyboard shortcuts ──
 document.addEventListener('keydown', e => {
+  if (e.target.matches('input, textarea')) return;
   if (e.key === 'Escape') closeModal();
-  if (e.key === 'r' && !e.target.matches('input, textarea')) openRandom();
-  if (e.key === 'g' && !e.target.matches('input, textarea')) askChatGPT();
+  if (e.key === 'r') openRandom();
+  if (e.key === 'g') askChatGPT();
+  if (e.key === '=' || e.key === '+') changeZoom(20);
+  if (e.key === '-') changeZoom(-20);
 });
 
 init();
@@ -1629,7 +2097,7 @@ setAccent(savedAccent);
 // ── Image invert toggle ──
 function applyImgInvert(on) {
   document.body.classList.toggle('img-inverted', on);
-  document.getElementById('theme-toggle').textContent = on ? 'Light' : 'Dark';
+  document.getElementById('theme-toggle').textContent = on ? 'Dark' : 'Light';
   localStorage.setItem('imgInvert', on ? '1' : '0');
 }
 
@@ -1687,12 +2155,23 @@ appendAIMsg = function(role, text, isThinking = false) {
 };
 
 (function() {
-  const DRAWER_MIN = 300, DRAWER_MAX = 700;
+  const DRAWER_MIN = 300, DRAWER_MAX = 720;
   const drawer = document.getElementById('ai-chat-panel');
   const handle = document.getElementById('ai-drag-handle');
   const STORAGE_KEY = 'ai_drawer_width';
+  if (!handle || !drawer) return;
+
+  // Restore saved width on desktop
+  if (!window.matchMedia('(max-width: 640px)').matches) {
+    const saved = parseInt(localStorage.getItem(STORAGE_KEY));
+    if (saved && saved >= DRAWER_MIN && saved <= DRAWER_MAX) {
+      drawer.style.width = saved + 'px';
+    }
+  }
+
   let startX, startW;
   handle.addEventListener('mousedown', e => {
+    if (window.matchMedia('(max-width: 640px)').matches) return;
     e.preventDefault();
     startX = e.clientX; startW = drawer.offsetWidth;
     handle.classList.add('dragging');
