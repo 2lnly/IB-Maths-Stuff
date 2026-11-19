@@ -1,0 +1,9 @@
+{
+  // Static site: Cloudflare runs `python3 build.py` (build command), then serves dist/.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ib-maths-stuff",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}

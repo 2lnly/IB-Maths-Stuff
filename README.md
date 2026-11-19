@@ -37,9 +37,11 @@ python3 pipeline/labels.py --apply-all && python3 pipeline/labels.py --stats
 python3 pipeline/relabel.py set <question_id> <subtopic> [...] --note "why"
 ```
 
-## Deploy (Cloudflare Pages, when wanted)
+## Deploy (Cloudflare Workers, static assets)
+
+Connected to GitHub: build command `python3 build.py`, deploy command `npx wrangler deploy`
+(`wrangler.jsonc` serves `dist/`). Every push to `main` redeploys. Manual deploy:
 
 ```bash
-python3 build.py --force
-npx wrangler pages deploy dist --project-name <name>
+python3 build.py --force && npx wrangler deploy
 ```
