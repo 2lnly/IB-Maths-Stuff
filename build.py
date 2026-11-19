@@ -269,7 +269,32 @@ def find_duplicates(cands, log):
     return out
 
 
+def webp_size(path):
+    """Read WebP dimensions from the header (VP8 / VP8L / VP8X) without Pillow."""
+    with open(path, "rb") as f:
+        h = f.read(30)
+    if len(h) < 30 or h[:4] != b"RIFF" or h[8:12] != b"WEBP":
+        return None
+    kind = h[12:16]
+    if kind == b"VP8 ":  # lossy: 14-bit width/height after the 3-byte start code
+        return [int.from_bytes(h[26:28], "little") & 0x3FFF, int.from_bytes(h[28:30], "little") & 0x3FFF]
+    if kind == b"VP8L":  # lossless: 14-bit (w-1), 14-bit (h-1) packed after signature byte 0x2f
+        b = int.from_bytes(h[21:25], "little")
+        return [(b & 0x3FFF) + 1, ((b >> 14) & 0x3FFF) + 1]
+    if kind == b"VP8X":  # extended: 24-bit (w-1), (h-1)
+        return [int.from_bytes(h[24:27], "little") + 1, int.from_bytes(h[27:30], "little") + 1]
+    return None
+
+
 def image_size(path):
+    # Header parsing first: the Cloudflare build image has no Pillow.
+    try:
+        if str(path).lower().endswith(".webp"):
+            size = webp_size(path)
+            if size:
+                return size
+    except OSError:
+        pass
     if Image is None:
         return None
     try:
