@@ -1,0 +1,31 @@
+{
+  "exam_id": "math-2012-N-P3-series-and-differential-equations",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.18"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 13]\nA differential equation is given by $\\frac{dy}{dx} = \\frac{y}{x}$, where $x > 0$ and $y > 0$.\n(a) Solve this differential equation by separating the variables, giving your answer in the form $y = f(x)$. [3 marks]\n(b) Solve the same differential equation by using the standard homogeneous substitution $y = vx$. [4 marks]\n(c) Solve the same differential equation by the use of an integrating factor. [5 marks]\n(d) If $y = 20$ when $x = 2$, find $y$ when $x = 5$. [1 mark]"
+    },
+    "2": {
+      "topics": ["5", "4"],
+      "subtopics": ["5.18", "4.4"],
+      "answer_status": "ok",
+      "add_flags": ["topic-uncertain"],
+      "note": "Parts (b)-(d) plot Euler approximations against h, draw line of best fit by eye and extrapolate to h=0; tagged 4.4 (line of best fit) as secondary.",
+      "text_clean": "2. [Maximum mark: 12]\nLet the differential equation $\\frac{dy}{dx} = \\sqrt{x+y}$, $(x + y \\ge 0)$ satisfying the initial conditions $y = 1$ when $x = 1$. Also let $y = c$ when $x = 2$.\n(a) Use Euler's method to find an approximation for the value of $c$, using a step length of $h = 0.1$. Give your answer to four decimal places. [6 marks]\nYou are told that if Euler's method is used with $h = 0.05$ then $c \\simeq 2.7921$, if it is used with $h = 0.01$ then $c \\simeq 2.8099$ and if it is used with $h = 0.005$ then $c \\simeq 2.8121$.\n(b) Plot on graph paper, with $h$ on the horizontal axis and the approximation for $c$ on the vertical axis, the four points (one of which you have calculated and three of which have been given). Use a scale of 1 cm = 0.01 on both axes. Take the horizontal axis from 0 to 0.12 and the vertical axis from 2.76 to 2.82. [3 marks]\n(c) Draw, by eye, the straight line that best fits these four points, using a ruler. [1 mark]\n(d) Use your graph to give the best possible estimate for $c$, giving your answer to three decimal places. [2 marks]"
+    },
+    "3": {
+      "topics": ["5"],
+      "subtopics": ["5.L5", "5.L1"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 17]\n(a) Prove that $\\lim_{H \\to \\infty} \\int_a^H \\frac{1}{x^2}\\,dx$ exists and find its value in terms of $a$ (where $a \\in \\mathbb{R}^+$). [3 marks]\n(b) Use the integral test to prove that $\\sum_{n=1}^{\\infty} \\frac{1}{n^2}$ converges. [3 marks]\nLet $\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = L$.\n(c) The diagram below shows the graph of $y = \\frac{1}{x^2}$.\n[Diagram: decreasing curve $y = 1/x^2$ with vertical lines at x = 1, 2, 3, k-1, k, k+1, k+2, k+3; diagram not to scale]\n(i) Shade suitable regions on a copy of the diagram above and show that $\\sum_{n=1}^{k} \\frac{1}{n^2} + \\int_{k+1}^{\\infty} \\frac{1}{x^2}\\,dx < L$.\n(ii) Similarly shade suitable regions on another copy of the diagram above and show that $L < \\sum_{n=1}^{k} \\frac{1}{n^2} + \\int_{k}^{\\infty} \\frac{1}{x^2}\\,dx$. [6 marks]\n(d) Hence show that $\\sum_{n=1}^{k} \\frac{1}{n^2} + \\frac{1}{k+1} < L < \\sum_{n=1}^{k} \\frac{1}{n^2} + \\frac{1}{k}$. [2 marks]\nYou are given that $L = \\frac{\\pi^2}{6}$.\n(e) By taking $k = 4$, use the upper bound and lower bound for $L$ to find an upper bound and lower bound for $\\pi$. Give your bounds to three significant figures. [3 marks]"
+    },
+    "4": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.L1", "5.13", "5.19", "1.11"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 18]\n(a) Use the limit comparison test to prove that $\\sum_{n=1}^{\\infty} \\frac{1}{n(n+1)}$ converges. [5 marks]\n(b) Express $\\frac{1}{n(n+1)}$ in partial fractions and hence find the value of $\\sum_{n=1}^{\\infty} \\frac{1}{n(n+1)}$. [4 marks]\n(c) Using the Maclaurin series for $\\ln(1+x)$, show that the Maclaurin series for $(1+x)\\ln(1+x)$ is $x + \\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} x^{n+1}}{n(n+1)}$. [3 marks]\n(d) Hence find $\\lim_{x \\to -1} (1+x)\\ln(1+x)$. [2 marks]\n(e) Write down $\\lim_{x \\to 0} x\\ln(x)$. [1 mark]\n(f) Hence find $\\lim_{x \\to 0} x^x$. [3 marks]"
+    }
+  }
+}

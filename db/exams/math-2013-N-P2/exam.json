@@ -1,0 +1,322 @@
+{
+ "exam_id": "math-2013-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2013,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2013 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2013 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); code N13/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2013-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\n1 1 1 2\nConsider the matrices A = 2 0 1 and B =− 2 . Find the matrix X such\n1 − 11 1\nthat AX = B .",
+   "ms_text": "1. AX = B\nEITHER\n− ⇒\nX = AB 1 (M1)\nOR\nattempting row reduction:\n1 1 1 2\neg 0 − 2 −− 16 (M1)\n0 − 2 0 − 1\nTHEN\n7\n2\n1\n⇒ X = A1A1A1\n2\n5\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nConsider the matrices $A = \\begin{pmatrix} 1 & 1 & 1 \\\\ 2 & 0 & 1 \\\\ 1 & -1 & 1 \\end{pmatrix}$ and $B = \\begin{pmatrix} 2 \\\\ -2 \\\\ 1 \\end{pmatrix}$. Find the matrix $X$ such that $AX = B$."
+  },
+  {
+   "id": "math-2013-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nThe fourth term in an arithmetic sequence is 34 and the tenth term is 76.\n(a) Find the first term and the common difference. [3]\n(b) The sum of the first n terms exceeds 5000. Find the least possible value of n. [4]",
+   "ms_text": "2. (a) METHOD 1\n34 = a + 3 d and 76 = a + 9 d (M1)\nd= 7 A1\na = 13 A1\nMETHOD 2\n= + 76 34 6d (M1)\nd= 7 A1\n= + 34 a 21\na = 13 A1\n[3 marks]\nn\n(b) ( 26 + 7 ( n − 1 ) ) > 5000 (M1)(A1)\n2\nn > 36.463... (A1)\nNote: Award M1A1A1 for using either an equation, a graphical approach\nor a numerical approach.\nn = 37 A1 N3\n[4 marks]\nTotal[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nThe fourth term in an arithmetic sequence is 34 and the tenth term is 76.\n(a) Find the first term and the common difference. [3]\n(b) The sum of the first $n$ terms exceeds 5000. Find the least possible value of $n$. [4]"
+  },
+  {
+   "id": "math-2013-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\ncos x Consider fx () = ln x − e , 0 < x ≤ 10 .\n(a) Sketch the graph of y = fx () , stating the coordinates of any maximum and minimum\npoints and points of intersection with the x-axis. [5]\n(b) Solve the inequality ln x ≤ ecos x , 0 < x≤ 10 . [2]",
+   "ms_text": "3. (a)\nA correct graph shape for 0 < x ≤ 10 . A1\nmaxima (3.78, 0.882) and ( 9.70, 1.89 ) A1\n− minimum (6.22, 0.885) A1\nx-axis intercepts (1.97,0) , (5.24,0) and (7.11,0) A2\nNote: Award A1 if two x-axis intercepts are correct.\n[5 marks]\n< ≤ (b) 0 x 1.97 A1\n5.24 ≤ x ≤ 7.11 A1\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.3",
+    "2.4",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nConsider $f(x) = \\ln x - e^{\\cos x}$, $0 < x \\le 10$.\n(a) Sketch the graph of $y = f(x)$, stating the coordinates of any maximum and minimum points and points of intersection with the $x$-axis. [5]\n(b) Solve the inequality $\\ln x \\le e^{\\cos x}$, $0 < x \\le 10$. [2]"
+  },
+  {
+   "id": "math-2013-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nThe duration of direct flights from London to Singapore in a particular year followed a normal\ndistribution with mean µ and standard deviation σ.\n92 % of flights took under 13 hours, while only 12 % of flights took under 12 hours 35 minutes.\nFind µ and σ to the nearest minute.",
+   "ms_text": "780 − μ 755 − μ\n4. P Z < = 0.92 and P Z < = 0.12 (M1)\nσ σ\nuse of inverse normal (M1)\n780 − μ − μ … and 755\n⇒ = 1.405 =− 1.174 (A1)\nσ σ\nsolving simultaneously (M1)\nNote: Award M1 for attempting to solve an incorrect pair of equations\neg, inverse normal not used.\nμ= 766.385\nσ= 9.6897\nμ=12 hrs 46 mins ( = 766 mins) A1\nσ=10 mins A1\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nThe duration of direct flights from London to Singapore in a particular year followed a normal distribution with mean $\\mu$ and standard deviation $\\sigma$.\n92% of flights took under 13 hours, while only 12% of flights took under 12 hours 35 minutes.\nFind $\\mu$ and $\\sigma$ to the nearest minute."
+  },
+  {
+   "id": "math-2013-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nAt the start of each week, Eric and Marina pick a night at random on which they will watch\na movie.\nIf they choose a Saturday night, the probability that they watch a French movie is 7 and if they\n9\nchoose any other night the probability that they watch a French movie is 4 .\n9\n(a) Find the probability that they watch a French movie. [3]\n(b) Given that last week they watched a French movie, find the probability that it was on a\nSaturday night. [2]",
+   "ms_text": "1 7 6 4\n5. (a) P() F = × + × (M1)(A1)\n7 9 7 9\nNote: Award M1 for the sum of two products.\n31\n= = (0.4920 ) A1\n63\n[3 marks]\n1 7\n×\n∩ P( S F ) 7 9\nUse of ( ) = = (b) P SF | to obtain P(| SF ) . M1\n31 P() F\n63\nNote: Award M1 only if the numerator results from the product of two\nprobabilities.\n7\n= (0.2258 = ) A1\n31\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\nAt the start of each week, Eric and Marina pick a night at random on which they will watch a movie.\nIf they choose a Saturday night, the probability that they watch a French movie is $\\frac{7}{9}$ and if they choose any other night the probability that they watch a French movie is $\\frac{4}{9}$.\n(a) Find the probability that they watch a French movie. [3]\n(b) Given that last week they watched a French movie, find the probability that it was on a Saturday night. [2]"
+  },
+  {
+   "id": "math-2013-N-P2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\na + i\nA complex number z is given by z =\n−, a ∈�.\na i\n(a) Determine the set of values of a such that\n(i) z is real;\n(ii) zis purely imaginary. [4]\n(b) Show that z is constant for all values of a. [2]",
+   "ms_text": "a + i a + i\n6. (a) × M1\na − i a + i\n2 −+ 2 − a 12i a a 1 2 a\n= = + i A1\n2 2 2 a + 1 a + 1 a + 1\n(i) z is real when a = 0 A1\n(ii) z is purely imaginary when a =± 1 A1\n2 a −+ 12i a 2 a\nNote: Award M1A0A1A0 for =+ 1 i leading to a = 0 in (i).\n2 − 2 − a 1 a 1\n[4 marks]\n(b) METHOD 1\n2\nattempting to find either z or z by expanding and simplifying\n2\n( 2 ) 2 a − 1 + 4 a 4 + 2 +\n2 a 2 a 1\neg z = = M1\n2 2\n( 2 + ) ( 2 + ) a 1 a 1\n2\n( 2 ) a + 1\n=\n2\n( 2 + ) a 1\n2\nz =⇒ 1 z = 1 A1\nMETHOD 2\na + i\nz = M1\na − i\n2 a + 1\nz = ⇒ z = 1 A1\n2 a + 1\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nA complex number $z$ is given by $z = \\frac{a + i}{a - i}$, $a \\in \\mathbb{R}$.\n(a) Determine the set of values of $a$ such that\n(i) $z$ is real;\n(ii) $z$ is purely imaginary. [4]\n(b) Show that $|z|$ is constant for all values of $a$. [2]"
+  },
+  {
+   "id": "math-2013-N-P2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nThe vectors a and b are such that a = (3cos θ + 6) i + 7 j and b = (cos θ − 2) i + (1sin) + θ j .\nGiven that a and b are perpendicular,\n(a) show that 3sin 2 θ − 7sin θ + 2 = 0 ; [3]\n(b) find the smallest possible positive value of θ. [3]",
+   "ms_text": "7. (a) attempting to form (3cos θ + 6)(cos θ − 2) + 7(1sin) + θ = 0 M1\n2 θ − + θ + = 3cos 12 7sin 7 0 A1\n( 2 ) 31sin − θ + 7sin θ − 5 = 0 M1\n2 3sin θ − 7sin θ + 2 = 0 AG\n[3 marks]\n(b) attempting to solve algebraically (including substitution) or\ngraphically for sinθ (M1)\n1\nsin θ= (A1)\n3\nθ= 0.340 ( = 19.5 ) A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.8",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nThe vectors $\\mathbf{a}$ and $\\mathbf{b}$ are such that $\\mathbf{a} = (3\\cos\\theta + 6)\\mathbf{i} + 7\\mathbf{j}$ and $\\mathbf{b} = (\\cos\\theta - 2)\\mathbf{i} + (1 + \\sin\\theta)\\mathbf{j}$.\nGiven that $\\mathbf{a}$ and $\\mathbf{b}$ are perpendicular,\n(a) show that $3\\sin^2\\theta - 7\\sin\\theta + 2 = 0$; [3]\n(b) find the smallest possible positive value of $\\theta$. [3]"
+  },
+  {
+   "id": "math-2013-N-P2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 5]\nThe diagram below shows a semi-circle of diameter 20 cm, centre O and two points A and B\nˆ such that AOB = θ , where θ is in radians.\ndiagram not to scale\nB A\nθ\nO\n(a) Show that the shaded area can be expressed as 50 θ − 50sin θ . [2]\n(b) Find the value of θ for which the shaded area is equal to half that of the unshaded area,\ngiving your answer correct to four significant figures. [3]",
+   "ms_text": "1 1\n8. (a) A = × 10 2 × θ − × 10 2 × sin θ M1A1\n2 2\nNote: Award M1 for use of area of segment = area of sector − area of triangle .\n= 50 θ − 50sin θ AG\n[2 marks]\n(b) METHOD 1\n2 π× 10\nunshaded area = − 50( θ − sin) θ\n2\n(or equivalent eg50 π− 50 θ + 50sin θ ) (M1)\n1\nθ − θ = π− θ + θ 50 50sin (50 50 50sin) (A1)\n2\n3 θ − 3sin θ −π= 0\n⇒ θ = 1.969 (rad) A1\nMETHOD 2\n2 1 π× 10\n50 θ − 50sin θ = (M1)(A1)\n3 2\n3 θ − 3sin θ −π= 0\n⇒ θ = 1.969 (rad) A1\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 5]\nThe diagram below shows a semi-circle of diameter 20 cm, centre O and two points A and B such that $\\hat{AOB} = \\theta$, where $\\theta$ is in radians.\n[Diagram: semi-circle with centre O on the diameter; chord AB with radii OA and OB forming angle $\\theta$ at O; the segment between chord AB and the arc is shaded; diagram not to scale]\n(a) Show that the shaded area can be expressed as $50\\theta - 50\\sin\\theta$. [2]\n(b) Find the value of $\\theta$ for which the shaded area is equal to half that of the unshaded area, giving your answer correct to four significant figures. [3]"
+  },
+  {
+   "id": "math-2013-N-P2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\n− 5 − 1\nA line 1L has equation r =− 3 + λ 2 .\n2 2\nA line L passing through the origin intersects 1L and is perpendicular to 1L.\n2\n(a) Find a vector equation of L. [5]\n2\n(b) Determine the shortest distance from the origin to 1L. [2]",
+   "ms_text": "9. (a) METHOD 1\n−− 5 λ\n→\nfor P on OP =−+ 3 2 λ 1L,\n2 + 2 λ\n−− 5 λ − 1\nrequire −+ 3 2 λ .2 = 0 M1\n2 + 2 λ 2\n+ λ −+ λ ++ λ = (or equivalent) A1 5 6 4 4 4 0\n1\nλ=− A1\n3\n14\n−\n3\n→ 11\n∴ OP =− A1\n3\n4\n3\n− 14\nL : r = μ − 11 A1\n2\n4\nNote: Do not award the final A1 if r = is not seen.\n[5 marks]\nMETHOD 2\n2 → →\nCalculating either OP or OP eg\n→\n2 2 2 OP = (5 −− λ ) +−+ (3 2) λ + (2 + 2) λ\nA1\n2 = 9 λ + 6 λ + 38\n2 →\nd → Solving either d = =\nOP 0 or OP 0 for λ. M1\ndλ dλ\n1\nλ=− A1\n3\n14\n−\n3\n→ 11\nOP =− A1\n3\n4\n3\n− 14\nL : r = μ − 11 A1\n2\n4\nNote: Do not award the final A1 if r = is not seen. [5 marks]\n(b) METHOD 1\n2 2 2 →\n14 11 4\nOP = − +− + (M1)\n3 3 3\n= ( = ) 6.08 37 A1\nMETHOD 2\n− 1 − 5\n2 ×− 3\n2 2\nshortest distance = (M1)\n− 1\n2\n2\n10 i + 8 j + 13 k\n=\n14 + + 4\n( ) = 6.08 = 37 A1\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.13",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nA line $L_1$ has equation $\\mathbf{r} = \\begin{pmatrix} -5 \\\\ -3 \\\\ 2 \\end{pmatrix} + \\lambda \\begin{pmatrix} -1 \\\\ 2 \\\\ 2 \\end{pmatrix}$.\nA line $L_2$ passing through the origin intersects $L_1$ and is perpendicular to $L_1$.\n(a) Find a vector equation of $L_2$. [5]\n(b) Determine the shortest distance from the origin to $L_1$. [2]"
+  },
+  {
+   "id": "math-2013-N-P2-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 7]\n2 d x − x + 4\nBy using the substitution x = 2tan u , show that ∫ = + C .\n2 2 + 4 x x x 4",
+   "ms_text": "10. EITHER\nd x 2\n2sec u A1 u=\nd\n2 2sec u d u\n(M1) ∫\n2 2 4tan u 4 + 4tan u\n2 2 2sec u d u d u 2sec u d u\n= ∫ ( = ∫ or =∫ ) A1\n2 4tan u × 2sec u 2 2\n+ 2 2 4sin u tan u 1 4tan u 4sec u\nOR\nx\nu =\narctan 2\nd u 2\n= A1\n2 d x x + 4\n2 4tan u + 4 d u\n∫ (M1)\n2 24tan × u\n2sec uu d\n∫ A1\n2 24tan × u\nTHEN\n1 sec d u u\n=∫\n2 4 tan u\n1 cos u 1coseccot d\n=∫ u u u = ∫ d u A1\n2 4 4 sin u\n1\n=− 1 cosec u ( + C ) =− ( + C ) A1\n4 4sin u\nx\nuse of either tan u or an appropriate trigonometric identity M1\n2\n2 + x x 4\neither sin u = or cosec u = (or equivalent) A1\nx 2 + 4 x\n2 − x +\n4 ( = + C ) AG\n4 x\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.15",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 7]\nBy using the substitution $x = 2\\tan u$, show that $\\int \\frac{dx}{x^2\\sqrt{x^2+4}} = \\frac{-\\sqrt{x^2+4}}{4x} + C$."
+  },
+  {
+   "id": "math-2013-N-P2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 18]\n(a) The number of cats visiting Helena’s garden each week follows a Poisson distribution\nwith mean λ= 0.6 .\nFind the probability that\n(i) in a particular week no cats will visit Helena’s garden;\n(ii) in a particular week at least three cats will visit Helena’s garden;\n(iii)over a four-week period no more than five cats in total will visit Helena’s garden;\n(iv)over a twelve-week period there will be exactly four weeks in which at least one cat\nwill visit Helena’s garden. [9]\n(b) A continuous random variable X has probability distribution function f given by\nfx () = k ln x 1 ≤ x ≤ 3\nfx () = 0 otherwise\n(i) Find the value of k to six decimal places.\n(ii) Find the value of E (X ) .\n(iii)State the mode ofX.\n(iv)Find the median of X. [9]",
+   "ms_text": "11. (a) (i) X ~ Po(0.6)\n( 0.6 ) P( X= 0) = 0.549 = e− A1\n(ii) P( X ≥ 3) =− 1P( X ≤ 2) (M1)(A1)\n2 0.6\n− 0.6 − 0.6 − 0.6 =−\n1 e + e × 0.6 + e ×\n2\n= 0.0231 A1\n(iii) (M1) Y ~ Po(2.4)\nY≤ = P( 5) 0.964 A1\n(iv) Z ~ B(12, 0.451...) (M1)(A1)\nNote: Award M1 for recognising binomial and A1 for using correct parameters.\nP( Z= 4) = 0.169 A1\n[9 marks]\n3\n(b) (i) k ∫ xx = 1 (M1) 1lnd\n( k × 1.2958... = 1)\nk = 0.771702 A1\n3\n(ii) E( X ) kx lnd xx (A1) =∫\n1\nattempting to evaluate their integral (M1)\n= 2.27 A1\n(iii) x = 3 A1\n(iv) mk lnd xx = 0.5 (M1) ∫\n1\nm kx [ln x − x ] = 0.5\n1\nattempting to solve for m (M1)\nm = 2.34 A1\n[9 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.L1",
+    "4.8",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 18]\n(a) The number of cats visiting Helena's garden each week follows a Poisson distribution with mean $\\lambda = 0.6$.\nFind the probability that\n(i) in a particular week no cats will visit Helena's garden;\n(ii) in a particular week at least three cats will visit Helena's garden;\n(iii) over a four-week period no more than five cats in total will visit Helena's garden;\n(iv) over a twelve-week period there will be exactly four weeks in which at least one cat will visit Helena's garden. [9]\n(b) A continuous random variable $X$ has probability distribution function $f$ given by\n$f(x) = k\\ln x$, $1 \\le x \\le 3$\n$f(x) = 0$, otherwise\n(i) Find the value of $k$ to six decimal places.\n(ii) Find the value of $E(X)$.\n(iii) State the mode of $X$.\n(iv) Find the median of $X$. [9]",
+   "review_note": "audit: pdf integrals carry marks: add 5.11 (4.14 kept primary: 9 marks vs Poisson 6)"
+  },
+  {
+   "id": "math-2013-N-P2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 20]\n1 (a) A particle P moves in a straight line with velocity v ms −. At time t = 0 , P is at\n1 the point O and has velocity 12ms−. Its acceleration at time t seconds is given by\nd v t −\n= 3cos ms 2 , ( t ≥ 0) .\nd t 4\n(i) Find an expression for the particle’s velocity v, in terms of t.\n(ii) Sketch a velocity/time graph for the particle for 0 ≤≤π , showing clearly where t 8\nthe curve meets the axes and any maximum or minimum points.\n(iii)Find the distance travelled by the particle before first coming to rest. [8]\n(b) Another particle Q moves in a straight line with displacement s metres and velocity\n1 = − ( 2 + ) − 2 ≤≤ v ms −. Its acceleration is given by a v 4ms , (0 t 1) . At time t = 0 , Q is\nat the point O and has velocity 2ms−. 1\nπ − 8 t\n(i) Show that the velocity v at time t is given by v = 2tan .\n4\n2 ( v + 4 )\nd v\n(ii) Show that = − .\nd s v\n(iii)Find the distance travelled by the particle before coming to rest. [12]",
+   "ms_text": "12. (a) (i) METHOD 1\nt\nv =∫ 3cos d t M1\n4\nt\n= + c A1\n12sin 4\nt\nt = 0, v = 12 ⇒ v = 12sin + 12 A1\n4\nMETHOD 2\nt t\nv − 12 =∫ 3cos d t M1A1\n0 4\nt\nv = 12sin + 12 A1\n4\n(ii)\nA1A1A1\nNote: Award A1 for shape and domain 0 ≤≤ t 8π .\nAward A1 for (0, 12) and (6, 0) π ( (18.8, 0). )\nAward A1 for (2, 24) π ( (6.28, 24). )\n(iii) METHOD 1\n6 t π\n12sin + 12d t M1 ∫\n0 4\n= 274 (m) ( = 72 π+ 48 (m) ) A1\nMETHOD 2\nt\ns = 12sin + 12 d t ∫\n4\nt\n=− 48cos + 12 t + c M1\n4\nWhen t = 0 , s = 0 and so c = 48 .\n( ) When t = 6π , s = 274 (m) = 72π + 48 (m) . A1\n[8 marks]\n(b) (i) METHOD 1\nd v\n( 2 ) v + 4 (A1)\nt=−\nd\nd v\n=− ∫ ∫ d t M1\n2 v + 4\nv 1 arctan =−+\nt c A1\n2 2\nEITHER\nπ\nt = 0, v = 2 ⇒ c = M1\n8\nv = π\narctan − 2 t A1\n2 4\nOR\n( ) v = 2tan2 c − 2 t A1\nπ\nt = 0, v = 2 ⇒ tan 2 c = 1 and so c = M1\n8\nTHEN\nπ\nv = 2tan − 2 t A1\n4\nπ− 8 t\nv = 2tan AG\n4\nMETHOD 2\ndv π − 8 t 2\n=− 4sec M1A1\ndt 4\nπ − 8 t dv 2\nSubstituting v = 2tan into ( v + 4 ) :\ndt=−\n4\ndv π − 8 t 2\n=− 4tan + 4\nM1 dt 4\nπ − 8 t 2\n=− 4tan + 1\n(A1) 4\nπ − 8 t 2\n=− 4sec A1\n4\nVerifying that v = 2 when t = 0 . A1\n(ii) METHOD 1\nd v\n( 2 + ) v v 4 A1\ns=−\nd\n2 ( v + 4 )\nd v\n⇒ =− AG\nd s v\nMETHOD 2\nd v d v d t\n= × A1\nd s d t d s\n( 2 )\nd v v + 4\n⇒ =− AG\nd s v\n(iii) METHOD 1\nπ\nWhen v = 0 , t = ( t = 0.392...) . (M1)A1\n8\nπ\nπ − 8 t\ns = 8 2tan d t (M1) ∫\n0 4\n1 ln 2 (m) s = 0.347 (m) s = A2\n2\nMETHOD 2\nv\n∫ 2d v =− ∫ d s M1\n4 + v\nEITHER\n1 ln 2 ( v + 4 ) =−+ (or equivalent) s c A1\n2\n1\nv = 2, s = 0 ⇒ c = ln8 M1\n2\n1 1 1 8 2\ns =− ln ( v + 4 ) + ln8 s = ln (A1)\n2 + 2 2 2 v 4\n1\n( ) v = 0 ⇒ s = ln 2 (m) s = 0.347 (m) A1\n2\nOR\n0 v\n− ∫ d v = s (or equivalent) M1A1\n2 4 + v 2\nNote: Award M1 for setting up a definite integral and\naward A1 for stating correct limits.\n1 ln 2 (m) s = 0.347 (m) s = A2\n2\n[12 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.18",
+    "5.15",
+    "5.11",
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 20]\n(a) A particle $P$ moves in a straight line with velocity $v$ m s$^{-1}$. At time $t = 0$, $P$ is at the point O and has velocity 12 m s$^{-1}$. Its acceleration at time $t$ seconds is given by $\\frac{dv}{dt} = 3\\cos\\frac{t}{4}$ m s$^{-2}$, $(t \\ge 0)$.\n(i) Find an expression for the particle's velocity $v$, in terms of $t$.\n(ii) Sketch a velocity/time graph for the particle for $0 \\le t \\le 8\\pi$, showing clearly where the curve meets the axes and any maximum or minimum points.\n(iii) Find the distance travelled by the particle before first coming to rest. [8]\n(b) Another particle $Q$ moves in a straight line with displacement $s$ metres and velocity $v$ m s$^{-1}$. Its acceleration is given by $a = -(v^2 + 4)$ m s$^{-2}$, $(0 \\le t \\le 1)$. At time $t = 0$, $Q$ is at the point O and has velocity 2 m s$^{-1}$.\n(i) Show that the velocity $v$ at time $t$ is given by $v = 2\\tan\\left(\\frac{\\pi - 8t}{4}\\right)$.\n(ii) Show that $\\frac{dv}{ds} = -\\frac{(v^2+4)}{v}$.\n(iii) Find the distance travelled by the particle before coming to rest. [12]"
+  },
+  {
+   "id": "math-2013-N-P2-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 22]\n1 x − x\nA function f is defined by fx () = ( e + e ) , x ∈�.\n2\n1 (a) (i) Explain why the inverse function f− does not exist.\n(ii) Show that the equation of the normal to the curve at the point P where x = ln3\nis given by 9 x + 12 y − 9ln3 − 20 = 0 .\n(iii)Find the x-coordinates of the points Q and R on the curve such that the tangents at\nQ and R pass through (0, 0) . [14]\n(b) The domain of f is now restricted to x ≥ 0 .\n− (i) Find an expression for f 1() x .\n(ii) Find the volume generated when the region bounded by the curve y = fx ()\nand the lines x = 0 and y = 5 is rotated through an angle of 2π radians about\nthe y-axis. [8]",
+   "ms_text": "13. (a) (i) either counterexample or sketch or\n= k >) intersects the graph of = recognising that y k ( 1 y fx () twice M1\nfunction is not 1–1 (does not obey horizontal line test) R1\nso f− does not exist 1 AG\n1\n( x − x ) (ii) f ′ () x = e − e (A1)\n2\n4\nf ′ = ( = ) (ln3) 1.33 (A1)\n3\n3\nm =− M1\n4\n5\nf (ln3) = ( = 1.67 ) A1\n3\nEITHER\n5\n− y\n3 3\n=− M1\nx − ln3 4\n20\n4 y − =− 3 x + 3ln3 A1\n3\nOR\n5 3 ln3\n=− + c M1\n3 4\n5 3 ln3\nc = +\n3 4\n3 5\n=− + + 3 ln3 y x A1\n4 3 4\n12 y =− 9 x + 20 + 9ln3\nTHEN\n9 x + 12 y − 9ln320 − = 0 AG\n(iii) The tangent at ( afa , () ) has equation y − fa () = fa ′ ()( x − a ) . (M1)\nfa ()\n′ = f () a (or equivalent) (A1)\na\na − a e + e\na − a e − e = (or equivalent) A1\na\nattempting to solve for a (M1)\na =± 1.20 A1A1\n[14 marks]\n− (b) (i)\n2 y = e x + e x\nx x 2e − 2e y += 1 0 M1A1\nNote: Award M1 for either attempting to rearrange orinterchanging\nxand y.\n2 2 y ± 4 y − 4\nx e = A1\n2\nx 2 e = y ± y − 1\n= ( ± 2 − ) x ln y y 1 A1\n− 1 = ( + 2 − )\nf () x ln x x 1 A1\nNote: Award A1 for correct notation and for stating the positive “branch”.\n2 5\n(ii) =π ( ( + 2 − ) ) (M1)(A1) V ∫ 1ln y y 1 d y\nd\nNote: Award M1 for attempting to use V =π∫ x 2d y .\nc\n3 = 37.1 units ( ) A1\n[8 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.4",
+    "2.5",
+    "5.17",
+    "2.14",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 22]\nA function $f$ is defined by $f(x) = \\frac{1}{2}(e^x + e^{-x})$, $x \\in \\mathbb{R}$.\n(a) (i) Explain why the inverse function $f^{-1}$ does not exist.\n(ii) Show that the equation of the normal to the curve at the point P where $x = \\ln 3$ is given by $9x + 12y - 9\\ln 3 - 20 = 0$.\n(iii) Find the $x$-coordinates of the points Q and R on the curve such that the tangents at Q and R pass through $(0, 0)$. [14]\n(b) The domain of $f$ is now restricted to $x \\ge 0$.\n(i) Find an expression for $f^{-1}(x)$.\n(ii) Find the volume generated when the region bounded by the curve $y = f(x)$ and the lines $x = 0$ and $y = 5$ is rotated through an angle of $2\\pi$ radians about the $y$-axis. [8]"
+  }
+ ],
+ "status": "done"
+}

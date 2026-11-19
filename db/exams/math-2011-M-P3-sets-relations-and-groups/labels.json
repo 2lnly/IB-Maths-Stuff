@@ -1,0 +1,36 @@
+{
+  "exam_id": "math-2011-M-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.6", "7.4", "7.5", "7.8"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 18]\nThe binary operator multiplication modulo 14, denoted by $*$, is defined on the set $S = \\{2, 4, 6, 8, 10, 12\\}$.\n(a) Copy and complete the following operation table. [4 marks]\n| $*$ | 2 | 4 | 6 | 8 | 10 | 12 |\n| 2 | | | | | | |\n| 4 | 8 | 2 | 10 | 4 | 12 | 6 |\n| 6 | | | | | | |\n| 8 | | | | | | |\n| 10 | 6 | 12 | 4 | 10 | 2 | 8 |\n| 12 | | | | | | |\n(b) (i) Show that $\\{S, *\\}$ is a group.\n(ii) Find the order of each element of $\\{S, *\\}$.\n(iii) Hence show that $\\{S, *\\}$ is cyclic and find all the generators. [11 marks]\n(c) The set $T$ is defined by $\\{x * x : x \\in S\\}$. Show that $\\{T, *\\}$ is a subgroup of $\\{S, *\\}$. [3 marks]"
+    },
+    "2": {
+      "topics": ["7"],
+      "subtopics": ["7.1"],
+      "qtype": "short",
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 7]\nThe universal set contains all the positive integers less than 30. The set $A$ contains all prime numbers less than 30 and the set $B$ contains all positive integers of the form $3 + 5n$ $(n \\in \\mathbb{N})$ that are less than 30. Determine the elements of\n(a) $A \\setminus B$; [4 marks]\n(b) $A \\Delta B$. [3 marks]"
+    },
+    "3": {
+      "topics": ["7"],
+      "subtopics": ["7.2"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 10]\nThe relation $R$ is defined for $a, b \\in \\mathbb{Z}^+$ such that $aRb$ if and only if $a^2 - b^2$ is divisible by 5.\n(a) Show that $R$ is an equivalence relation. [6 marks]\n(b) Identify the three equivalence classes. [4 marks]"
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.3"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 11]\nThe function $f : \\mathbb{R}^+ \\times \\mathbb{R}^+ \\to \\mathbb{R}^+ \\times \\mathbb{R}^+$ is defined by $f(x, y) = \\left(xy^2, \\frac{x}{y}\\right)$.\nShow that $f$ is a bijection. [11 marks]"
+    },
+    "5": {
+      "topics": ["7"],
+      "subtopics": ["7.5", "7.4", "7.9"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 14]\n(a) Given that $p$, $q$ and $r$ are elements of a group, prove the left-cancellation rule, i.e. $pq = pr \\Rightarrow q = r$.\nYour solution should indicate which group axiom is used at each stage of the proof. [4 marks]\n(b) Consider the group $G$, of order 4, which has distinct elements $a$, $b$ and $c$ and the identity element $e$.\n(i) Giving a reason in each case, explain why $ab$ cannot equal $a$ or $b$.\n(ii) Given that $c$ is self inverse, determine the two possible Cayley tables for $G$.\n(iii) Determine which one of the groups defined by your two Cayley tables is isomorphic to the group defined by the set $\\{1, -1, \\mathrm{i}, -\\mathrm{i}\\}$ under multiplication of complex numbers. Your solution should include a correspondence between $a, b, c, e$ and $1, -1, \\mathrm{i}, -\\mathrm{i}$. [10 marks]"
+    }
+  }
+}

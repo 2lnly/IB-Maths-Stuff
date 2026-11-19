@@ -1,0 +1,57 @@
+{
+ "exam_id": "math-2012-N-P3-statistics-and-probability",
+ "questions": {
+  "1": {
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.L10",
+    "1.10",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "add_flags": [],
+   "note": "Hypergeometric distribution (parts a-c) has no dedicated code; tagged 4.7 + 1.10 (combinations). | audit: A ~ Hyp(5,4,10) -> new 4.L10 (replaces stand-in 4.7/4.14)",
+   "text_clean": "1. [Maximum mark: 16]\nAnna has a box with 10 biscuits in it. 4 biscuits are chocolate and 6 are plain. Anna takes a biscuit from her box at random and eats it. She repeats this process until she has eaten 5 biscuits in total.\nLet $A$ be the number of chocolate biscuits that Anna eats.\n(a) State the distribution of $A$. [1 mark]\n(b) Find $\\mathrm{P}(A=3)$. [2 marks]\n(c) Find $\\mathrm{P}(A=5)$. [1 mark]\nBill also has a box with 10 biscuits in it. 4 biscuits are chocolate and 6 are plain. Bill takes a biscuit from his box at random, looks at it and replaces it in the box. He repeats this process until he has looked at 5 biscuits in total. Let $B$ be the number of chocolate biscuits that Bill takes and looks at.\n(d) State the distribution of $B$. [1 mark]\n(e) Find $\\mathrm{P}(B=3)$. [2 marks]\n(f) Find $\\mathrm{P}(B=5)$. [2 marks]\nLet $D=B-A$.\n(g) Calculate $\\mathrm{E}(D)$. [2 marks]\n(h) Calculate $\\mathrm{Var}(D)$, justifying the validity of your method. [5 marks]"
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.14",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "text_clean": "2. [Maximum mark: 11]\nThe $n$ independent random variables $X_1, X_2, \\ldots, X_n$ all have the distribution $\\mathrm{N}(\\mu, \\sigma^2)$.\n(a) Find the mean and the variance of\n(i) $X_1 + X_2$;\n(ii) $3X_1$;\n(iii) $X_1 + X_2 - X_3$;\n(iv) $\\bar{X} = \\dfrac{(X_1 + X_2 + \\ldots + X_n)}{n}$. [8 marks]\n(b) Find $\\mathrm{E}(X_1^2)$ in terms of $\\mu$ and $\\sigma$. [3 marks]"
+  },
+  "3": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L6",
+    "4.L5",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "text_clean": "3. [Maximum mark: 19]\n(a) The random variable $X$ represents the height of a wave on a particular surf beach. It is known that $X$ is normally distributed with unknown mean $\\mu$ (metres) and known variance $\\sigma^2 = \\frac{1}{4}$ (metres$^2$). Sally wishes to test the claim made in a surf guide that $\\mu = 3$ against the alternative that $\\mu < 3$. She measures the heights of 36 waves and calculates their sample mean $\\bar{x}$. She uses this value to test the claim at the 5 % level.\n(i) Find a simple inequality, of the form $\\bar{x} < A$, where $A$ is a number to be determined to 4 significant figures, so that Sally will reject the null hypothesis, that $\\mu = 3$, if and only if this inequality is satisfied.\n(ii) Define a Type I error.\n(iii) Define a Type II error.\n(iv) Write down the probability that Sally makes a Type I error.\n(v) The true value of $\\mu$ is 2.75. Calculate the probability that Sally makes a Type II error. [11 marks]\n(b) The random variable $Y$ represents the height of a wave on another surf beach. It is known that $Y$ is normally distributed with unknown mean $\\mu$ (metres) and unknown variance $\\sigma^2$ (metres$^2$). David wishes to test the claim made in a surf guide that $\\mu = 3$ against the alternative that $\\mu < 3$. He is also going to perform this test at the 5 % level. He measures the heights of 36 waves and finds that the sample mean, $\\bar{y} = 2.860$ and the unbiased estimate of the population variance, $s_{n-1}^2 = 0.25$.\n(i) State the name of the test that David should perform.\n(ii) State the conclusion of David's test, justifying your answer by giving the $p$-value.\n(iii) Using David's results, calculate the 90 % confidence interval for $\\mu$, giving your answers to 4 significant figures. [8 marks]"
+  },
+  "4": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L2"
+   ],
+   "answer_status": "ok",
+   "text_clean": "4. [Maximum mark: 14]\nJenny and her Dad frequently play a board game. Before she can start Jenny has to throw a “six” on an ordinary six-sided dice. Let the random variable $X$ denote the number of times Jenny has to throw the dice in total until she obtains her first “six”.\n(a) If the dice is fair, write down the distribution of $X$, including the value of any parameter(s). [1 mark]\n(b) Write down $\\mathrm{E}(X)$ for the distribution in part (a). [1 mark]\nJenny has played the game with her Dad 216 times and the table below gives the recorded values of $X$.\nValue of X | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | $\\geq 11$\nFrequency | 40 | 34 | 26 | 24 | 16 | 14 | 12 | 10 | 6 | 4 | 30\n(c) Use this data to test, at the 10 % significance level, the claim that the probability that the dice lands with a “six” uppermost is $\\frac{1}{6}$. Justify your conclusion. [8 marks]\nBefore Jenny's Dad can start, he has to throw two “sixes” using a fair, ordinary six-sided dice. Let the random variable $Y$ denote the total number of times Jenny's Dad has to throw the dice until he obtains his second “six”.\n(d) Write down the distribution of $Y$, including the value of any parameter(s). [1 mark]\n(e) Find the value of $y$ such that $\\mathrm{P}(Y=y) = \\frac{1}{36}$. [1 mark]\n(f) Find $\\mathrm{P}(Y \\leq 6)$. [2 marks]"
+  }
+ }
+}

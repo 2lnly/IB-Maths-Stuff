@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" data-theme="auto" data-invert="0">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Past paper question database</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="app.css?v=__BUILD_ID__">
+<script>
+try {
+  var p = JSON.parse(localStorage.getItem("qdb-prefs") || "{}");
+  if (p.theme === "light" || p.theme === "dark") document.documentElement.setAttribute("data-theme", p.theme);
+  if (p.invert) document.documentElement.setAttribute("data-invert", "1");
+} catch (e) {}
+</script>
+</head>
+<body>
+<a class="skip" id="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="title" href="#/questions">Past paper question database</a>
+  <nav class="nav" aria-label="Sections">
+    <a href="#/questions" data-nav="questions">Questions</a>
+    <a href="#/papers" data-nav="papers">Papers</a>
+    <a href="#/topics" data-nav="topics">Topics</a>
+    <a href="#/practice" data-nav="practice">Practice set</a>
+    <a href="#/help" data-nav="help">Help</a>
+  </nav>
+  <details class="display" id="display">
+    <summary>Display</summary>
+    <div class="menu">
+      <fieldset>
+        <legend>Theme</legend>
+        <label><input type="radio" name="theme" value="auto"> Follow system</label>
+        <label><input type="radio" name="theme" value="light"> Light</label>
+        <label><input type="radio" name="theme" value="dark"> Dark</label>
+      </fieldset>
+      <label><input type="checkbox" id="pref-invert"> Invert page images in dark theme</label>
+    </div>
+  </details>
+</header>
+<main id="main" tabindex="-1">
+  <p class="status">Loading&hellip;</p>
+</main>
+<noscript><p class="status">This catalogue needs JavaScript.</p></noscript>
+<script src="richtext.js?v=__BUILD_ID__"></script>
+<script src="app.js?v=__BUILD_ID__"></script>
+</body>
+</html>

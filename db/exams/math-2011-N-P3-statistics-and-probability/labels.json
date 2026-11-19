@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2011-N-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L4", "4.9", "4.6"],
+      "text_clean": "1. [Maximum mark: 15]\nThe weight of tea in Supermug tea bags has a normal distribution with mean 4.2 g and standard deviation 0.15 g. The weight of tea in Megamug tea bags has a normal distribution with mean 5.6 g and standard deviation 0.17 g.\n(a) Find the probability that a randomly chosen Supermug tea bag contains more than 3.9 g of tea. [2 marks]\n(b) Find the probability that, of two randomly chosen Megamug tea bags, one contains more than 5.4 g of tea and one contains less than 5.4 g of tea. [4 marks]\n(c) Find the probability that five randomly chosen Supermug tea bags contain a total of less than 20.5 g of tea. [4 marks]\n(d) Find the probability that the total weight of tea in seven randomly chosen Supermug tea bags is more than the total weight in five randomly chosen Megamug tea bags. [5 marks]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L6", "4.L5"],
+      "text_clean": "2. [Maximum mark: 7]\nNeil wants the opinion of teachers on a proposal to change the Mathematics HL curriculum. A questionnaire is sent to a large number of teachers asking for their opinions on the proposal. Of the 200 replies he receives, 160 are in favour of the proposal. Assume that these teachers are a random sample from the population.\n(a) Test, at the 5 % level, the hypothesis that the proportion of the population in favour of the proposal is 0.75 against the alternative that it is more than 0.75. [4 marks]\n(b) Find a 95 % confidence interval for the proportion of the population in favour of the proposal. [3 marks]"
+    },
+    "3": {
+      "topics": ["4", "5"],
+      "subtopics": ["4.L3", "4.14", "5.10"],
+      "text_clean": "3. [Maximum mark: 11]\nThe random variable $X$ represents the lifetime in hours of a battery. The lifetime may be assumed to be a continuous random variable $X$ with a probability density function given by $f(x) = \\lambda \\mathrm{e}^{-\\lambda x}$, where $x \\ge 0$.\n(a) Name this distribution and state its mean. [1 mark]\n(b) Find the cumulative distribution function, $F(x)$, of $X$. [3 marks]\n(c) Find the probability that the lifetime of a particular battery is more than twice the mean. [2 marks]\n(d) Find the median of $X$ in terms of $\\lambda$. [3 marks]\n(e) Find the probability that the lifetime of a particular battery lies between the median and the mean. [2 marks]"
+    },
+    "4": {
+      "topics": ["4", "2"],
+      "subtopics": ["4.L9", "4.8", "2.7"],
+      "text_clean": "4. [Maximum mark: 16]\nThe random variable $X$ is believed to be modelled by $\\mathrm{B}(5, 0.5)$. A random sample of size 100 is taken and the observed frequencies are given in the table below.\nValue of $X$ | 0 | 1 | 2 | 3 | 4 | 5\nObserved frequency | 2 | 15 | $s$ | $69-s$ | 12 | 2\nA $\\chi^2$ goodness of fit test is carried out on these data.\n(a) State the null and alternative hypotheses. [1 mark]\n(b) Evaluate the $\\chi^2$ statistic in the form $as^2 + bs + c$. [8 marks]\n(c) Find the range of values of $s$ that would result in the null hypothesis being accepted at the 10 % level. [7 marks]"
+    },
+    "5": {
+      "topics": ["4", "5"],
+      "subtopics": ["4.14", "5.11"],
+      "text_clean": "5. [Maximum mark: 11]\nThe continuous random variable $U$ has a uniform distribution on $[0, 1]$. The random variable $X$ is defined as follows:\n$X = 2U$ when $U \\le \\frac{3}{4}$\n$X = 4U$ when $U > \\frac{3}{4}$.\n(a) (i) Explain why $X$ cannot take values in the interval $\\frac{3}{2} < X \\le 3$.\n(ii) Find $\\mathrm{P}\\left(0 \\le X \\le \\frac{3}{2}\\right)$.\n(iii) Find $\\mathrm{P}(3 < X \\le 4)$. [6 marks]\n(b) Find the lower quartile of $X$. [3 marks]\n(c) Find $\\mathrm{E}(X)$. [2 marks]"
+    }
+  }
+}

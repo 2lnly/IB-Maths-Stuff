@@ -1,0 +1,197 @@
+{
+ "exam_id": "math-1997-N-P1",
+ "questions": {
+  "1": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "text_clean": "1. Find all the possible values of $k$ if $x = k$ is a solution of the equation\n$x^3 + kx^2 - x - k = 0$."
+  },
+  "2": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "text_clean": "2. Given an $m \\times n$ matrix $A$ and an $n \\times p$ matrix $B$, find the orders of the matrices $C$ and $D$ such that\n$2A(-4B + C) = 3D$."
+  },
+  "3": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6"
+   ],
+   "text_clean": "3. Independent events $A$ and $B$ are such that $p(A) = 0.2$ and $p(A \\cup B) = 0.6$. Find $p(B)$."
+  },
+  "4": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7"
+   ],
+   "text_clean": "4. (a) Given that $\\log_a b = \\frac{\\log_c b}{\\log_c a}$, find the real numbers $k$ and $m$ such that $\\log_9 x^3 = k\\log_3 x$ and $\\log_{27} 512 = m\\log_3 8$.\n(b) Find all values of $x$ for which $\\log_9 x^3 + \\log_3 x^{\\frac{1}{2}} = \\log_{27} 512$."
+  },
+  "5": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L8",
+    "5.6",
+    "5.4"
+   ],
+   "add_flags": [],
+   "note": "parametric differentiation (no direct AA code); tagged chain rule + tangents | audit: gradient/tangent of parametric curve -> new 5.L8",
+   "text_clean": "5. A curve is defined by $x = t^2 + \\sin 2t$ and $y = t + \\sin t$, where $t$ is a real parameter.\n(a) Find the gradient (slope) of the curve at the point where $t = 0$.\n(b) Find the equation of the tangent to the curve at the point where $t = 0$."
+  },
+  "6": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.7"
+   ],
+   "text_clean": "6. Given that $y = xe^{3x} + \\ln x$, find $\\frac{dy}{dx}$ and $\\frac{d^2y}{dx^2}$."
+  },
+  "7": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "text_clean": "7. Let $z = 3 + ik$ and $\\omega = k + 7i$, where $k \\in \\mathbb{R}$ and $i = \\sqrt{-1}$.\n(a) Express $\\frac{z}{\\omega}$ in the form $a + ib$ where $a, b \\in \\mathbb{R}$.\n(b) For what values of $k$ is $\\frac{z}{\\omega}$ a real number?"
+  },
+  "8": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "text_clean": "8. Consider the letters of the word MATHEMATICS.\n(a) How many different arrangements of all eleven letters can be found?\n(b) How many of these arrangements begin and end with the letter A?"
+  },
+  "9": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.8"
+   ],
+   "text_clean": "9. Solve the equation $5\\sin x - 12\\cos x = 6.5$ for $0^\\circ \\le x \\le 360^\\circ$."
+  },
+  "10": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "text_clean": "10. Find the positive integer value of $n$ such that the coefficients of $x^2$ in the binomial expansions of $(1 + x)^{2n}$ and $(1 + 15x^2)^n$ are equal."
+  },
+  "11": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.15"
+   ],
+   "text_clean": "11. Find $\\int \\frac{dx}{\\sqrt{6x - x^2 - 5}}$."
+  },
+  "12": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.16"
+   ],
+   "text_clean": "12. (a) Find the inverse of the matrix\n$A = \\begin{pmatrix} k & -1 \\\\ 1 & k \\end{pmatrix}$\nwhere $k \\in \\mathbb{R}$.\n(b) Hence, or otherwise, solve the simultaneous equations\n$kx - y = 2k$\n$x + ky = 1 - k^2$."
+  },
+  "13": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.15"
+   ],
+   "text_clean": "13. Find all values of $x$ for which $\\frac{1}{x - \\sqrt{x}} \\ge \\frac{4}{15}$."
+  },
+  "14": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.4",
+    "5.3"
+   ],
+   "text_clean": "14. Find the value(s) of $a$ if the line $9x - y = 14$ is a tangent to the curve $y = x^3 - 3x + a$ at the point on the curve where $x = a$."
+  },
+  "15": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.14"
+   ],
+   "text_clean": "15. A random variable, $X$, has probability density function, $f(x)$, where\n$f(x) = \\begin{cases} \\frac{1}{4}x, & 0 \\le x < 1 \\\\ \\frac{1}{4}, & 1 \\le x < 3 \\\\ \\frac{1}{12}(6 - x), & 3 \\le x \\le 6 \\\\ 0, & \\text{elsewhere.} \\end{cases}$\nFind the median value of $X$."
+  },
+  "16": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "text_clean": "16. The roots of the equation $x^2 + 5x + k = 0$, where $k$ is a constant, are $x = \\alpha$ and $x = \\beta$. Find in terms of $k$, a quadratic equation whose roots are $x = \\alpha^2$ and $x = \\beta^2$."
+  },
+  "17": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "3.4"
+   ],
+   "text_clean": "17. In the diagram, $PT$ is a fixed tangent to a circle, centre $O$, radius 12 cm, and $PQ$ is a chord of the circle.\n[Diagram: circle centre O with radii OQ and OP of 12 cm; chord PQ with the minor segment between chord PQ and the arc shaded; tangent PT at P]\nIf the angle $TPQ$ is increasing at the rate of $3^\\circ$ per second, find the rate, in $\\text{cm}^2\\,\\text{s}^{-1}$, at which the area of the shaded region is changing when the angle $TPQ$ is $30^\\circ$."
+  },
+  "18": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.13"
+   ],
+   "text_clean": "18. An alarm clock is used to wake a student for school. The probability that the alarm rings is $\\frac{4}{5}$. If the alarm rings, there is a probability of $\\frac{7}{8}$ that the student arrives at school on time; but, if the alarm does not ring, the probability that the student arrives at school on time is $\\frac{1}{10}$.\nFind\n(a) the probability that the student arrives at school on time on a given day;\n(b) the probability that, on a randomly chosen morning on which the student is late for school, the alarm did not ring."
+  },
+  "19": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "text_clean": "19. Find the locus of a point $P(x, y)$ in the complex plane, defined by the equation\n$|1 - iz| = |z + 1|$,\nwhere $z = x + iy$ and $i = \\sqrt{-1}$."
+  },
+  "20": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.7",
+    "5.8"
+   ],
+   "text_clean": "20. The graph of $f'(x)$, the derivative of the function $f(x)$, is shown. Given that $f(-1) = 5$, $f(0) = 0$, and $f(3) = -27$, sketch the graph of $y = f(x)$ on the same set of axes.\n[Graph: upward parabola $y = f'(x)$ crossing the x-axis at $x = -1$ and $x = 3$, y-intercept about $-9$, minimum about $-12$ at $x = 1$; y-axis from $-30$ to $15$]"
+  }
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "exam_id": "math-2016-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2016,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2016 November Examination Session/Mathematics_paper_2__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2016 November Examination Session/Mathematics_paper_2__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8816-7202; code N16/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2016-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nA random variable X has a probability distribution given in the following table.\nx 0.5 1.5 2.5 3.5 4.5 5.5\nP(X=x) 0.12 0.18 0.20 0.28 0.14 0.08\nDetermine the value of E(X 2) . (a) [2]\n(b) Find the value of Var (X ) . [3]",
+   "ms_text": "Section A\n( 2 ) = 2 ⋅ = = = 1. (a) E X ∑ x P( X x ) 10.37 ( 10.4 3 sf) (M1)A1\n[2 marks]\n(b) METHOD 1\nsd ( X ) = 1.44069… (M1)(A1)\nVar( X ) = 2.08( = 2.0756) A1\nMETHOD 2\n( = + + + + + ) E() X= 2.88 0.06 0.27 0.5 0.98 0.63 0.44 (A1)\n2\nuse of Var ( X ) = E ( X 2 ) − ( E ( X ) ) (M1)\n2\nNote: Award (M1) only if ( EX ( ) ) is used correctly.\n( X= − ) Var() 10.37 8.29\nVar() X = 2.08 ( = 2.0756) A1\nNote: Accept 2.11.\nMETHOD 3\n( = + + + + + ) E() X= 2.88 0.06 0.27 0.5 0.98 0.63 0.44 (A1)\n2\n= ( ( − ( ) ) ) use of Var( X ) E X E X (M1)\n( +…+ ) 0.679728 0.549152\nVar() X = 2.08 ( = 2.0756) A1\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nA random variable $X$ has a probability distribution given in the following table.\n$x$: 0.5 | 1.5 | 2.5 | 3.5 | 4.5 | 5.5\n$\\mathrm{P}(X=x)$: 0.12 | 0.18 | 0.20 | 0.28 | 0.14 | 0.08\n(a) Determine the value of $\\mathrm{E}(X^2)$. [2]\n(b) Find the value of $\\mathrm{Var}(X)$. [3]"
+  },
+  {
+   "id": "math-2016-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nFind the acute angle between the planes with equations x+y+z= 3 and 2x - z= 2 .",
+   "ms_text": "1 2\n2. n 1 and n 0 (A1)(A1)\n1 = 2 =\n− 1 1\nEITHER\nnn ⋅ nn ⋅\n1 2 1 2 θ = arccos cosθ = (M1)\nnn nn\n1 2 1 2\n2 + 0 − 1 2 + 0 − 1\n= θ = arccos cos (A1)\n35 35\n1 1\n= arccos cos θ =\n15 15\nOR\nn × n n × n\n1 2 1 2 θ = arcsin sin θ = (M1)\nnn nn\n1 2 1 2\n14 14\n= arcsin sin θ = (A1)\n35 35\n14 14\n= arcsin sin θ =\n15 15\nTHEN\n= 75.0( οor 1.31) A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nFind the acute angle between the planes with equations $x+y+z=3$ and $2x-z=2$."
+  },
+  {
+   "id": "math-2016-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nA discrete random variable X follows a Poisson distribution Po(µ) .\nµ µ\n(a) Show that P( X = x + 1 ) = × P ( X = x ) ,x ∈∞. [3]\nx + 1\n(b) Given that P(X= 2) = 0.241667 and P(X= 3) = 0.112777 , use part (a) to find the value\nof µ . [3]",
+   "ms_text": "3. (a) METHOD 1\nx 1 µ+\n− µ P( X = x + 1) = e\nA1\n( x + 1)!\nx µ µ\n− µ = × e\nM1A1\nx + 1 x !\nµ\n= × P( X = x ) AG\nx + 1\nMETHOD 2\nx µ µ µ\n− µ × P( X = x ) = × e\nA1\nx + 1 x + 1 x !\nx 1 µ+\n− µ = e\nM1A1\n( x + 1)!\n= P( X = x + 1) AG\nMETHOD 3\nx + 1 µ\n− µ e\nP( X = x + 1) ( x + 1)!\n= (M1)\nx\nP( X = x ) µ − µ\ne\nx !\nµ x + 1 x !\n= × A1\nx µ ( x + 1)!\nµ\n= A1\nx + 1\nµ\nand so P( X = x + 1) = × P( X = x ) AG\nx + 1\n[3 marks]\nµ µ\n= = ⋅ = = ⋅ (b) P( X 3) P( X 2) 0.112777 0.241667 A1\n3 3\nattempting to solve for µ (M1)\nµ= 1.40 A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nA discrete random variable $X$ follows a Poisson distribution $\\mathrm{Po}(\\mu)$.\n(a) Show that $\\mathrm{P}(X=x+1)=\\frac{\\mu}{x+1}\\times\\mathrm{P}(X=x)$, $x\\in\\mathbb{N}$. [3]\n(b) Given that $\\mathrm{P}(X=2)=0.241667$ and $\\mathrm{P}(X=3)=0.112777$, use part (a) to find the value of $\\mu$. [3]"
+  },
+  {
+   "id": "math-2016-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\n12\n3 2\nFind the constant term in the expansion of 4 x −\n. 2 x",
+   "ms_text": "4. attempting a valid method to obtain the required term in the expansion (M1)\nNote: Valid methods include an attempt to expand, noting the behaviour of the\npowers of x , use of the general binomial expansion term, use of a ratio etc.\nidentifying the correct term (A1)\n8 8\n12 3 3\n4 4 × 4 ×− = 4954 × ×−\nM1A1\n8 2 2\nNote: Accept 12\n.\n4\nNote: Award M1 for the product of a binomial coefficient, a power of 4 and either\n3 or 3\na power of − .\n2 2\n= 3247695 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nFind the constant term in the expansion of $\\left(4x^2-\\frac{3}{2x}\\right)^{12}$."
+  },
+  {
+   "id": "math-2016-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 9]\nConsider the function f defined by f (x) = 3x arccos(x) where -1 ≤ x ≤ 1 .\n(a) Sketch the graph of f indicating clearly any intercepts with the axes and the\ncoordinates of any local maximum or minimum points. [3]\n(b) State the range of f . [2]\nSolve the inequality |3x arccos(x)| > 1 . (c) [4]",
+   "ms_text": "5. (a)\ncorrect shape passing through the origin and correct domain A1\nNote: Endpoint coordinates are not required. The domain can be indicated by\n− and 1 marked on the - xaxis. 1\n( 0.652, 1.68 ) A1\ntwo correct intercepts (coordinates not required) A1\nNote: A graph passing through the origin is sufficient for ( 0, 0. )\n[3 marks]\n[ − ] ( [ − ] ) (b) 9.42, 1.68 or 3π, 1.68 A1A1\nNote: Award A1A0 for open or semi-open intervals with correct endpoints. Award A1A0\nfor closed intervals with one correct endpoint.\n[2 marks]\n(c) attempting to solve either 3arccos() x x > 1 (or equivalent) or 3arccos() x x = 1 (or\nequivalent) (eg. graphically)\n(M1)\nx = − 0.189, 0.254, 0.937 (A1)\n−≤ 1 x <− 0.189 or 0.254 < x < 0.937 A1A1\nNote: Award A0 for x < − 0.189 .\n[4 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.3",
+    "2.15",
+    "2.16",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 9]\nConsider the function $f$ defined by $f(x)=3x\\arccos(x)$ where $-1\\le x\\le 1$.\n(a) Sketch the graph of $f$ indicating clearly any intercepts with the axes and the coordinates of any local maximum or minimum points. [3]\n(b) State the range of $f$. [2]\n(c) Solve the inequality $|3x\\arccos(x)|>1$. [4]"
+  },
+  {
+   "id": "math-2016-N-P2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nAn earth satellite moves in a path that can be described by the curve 72.5x2+ 71.5y2= 1\nwhere x=x(t) and y = y(t) are in thousands of kilometres and t is time in seconds.\nx y Given that d\n× − when x= 3.2 × 10-3 , find the possible values of d 7 75 . 105 .\nt=\nd d t\nGive your answers in standard form.",
+   "ms_text": "6. METHOD 1\nsubstituting for x and attempting to solve for y (or vice versa) (M1)\ny=± () 0.11821 … (A1)\nEITHER\nd y d y 145 x\n145 x + 143 = 0 = − M1A1\nyx\nd d x 143 y\nOR\nd x d y\n145 x + 143 y = 0 M1A1\nd t d t\nTHEN\n− 3 1453.210 ( × )\ny d y attempting to find d\n= − × × − 5 ) )( 7.7510 (M1)\nd t d t 143 ( () ± 0.11821 …\nd y − 6\n=± 2.13 × 10 A1\nd t\nNote: Award all marks except the final A1 to candidates who do not consider ± .\nMETHOD 2\n2 172.5 − x\n() y =± M1A1\n71.5\nd y\n() 0.0274 … (M1)(A1)\nx=±\nd\nd y − 5\n=± () 0.0274 …× 7.75 × 10 (M1)\nd t\nd y − 6\n=± 2.13 × 10 A1\nd t\nNote: Award all marks except the final A1 to candidates who do not consider ± .\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nAn earth satellite moves in a path that can be described by the curve $72.5x^2+71.5y^2=1$ where $x=x(t)$ and $y=y(t)$ are in thousands of kilometres and $t$ is time in seconds.\nGiven that $\\frac{\\mathrm{d}x}{\\mathrm{d}t}=7.75\\times10^{-5}$ when $x=3.2\\times10^{-3}$, find the possible values of $\\frac{\\mathrm{d}y}{\\mathrm{d}t}$.\nGive your answers in standard form."
+  },
+  {
+   "id": "math-2016-N-P2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 8]\n�\nˆ In a triangle ABC, AB = 4 cm , BC = 3 cm and .\nBAC=9\n(a) Use the cosine rule to find the two possible values for AC . [5]\n(b) Find the difference between the areas of the two possible triangles ABC . [3]",
+   "ms_text": "7. (a) METHOD 1\nlet AC = x\n2 2 2 π\n= + − 3 x 4 x M1A1\n8cos 9\nattempting to solve for x (M1)\nx= 1.09, 6.43 A1A1\nMETHOD 2\nlet AC = x\nusing the sine rule to find a value of C M1\n2 2 2\n4 = x + 3 − 6cos152.869 x ( … ° ) ⇒ x = 1.09 (M1)A1\n2 2 2\n4 = x + 3 − 6cos27.131 x ( … ° ) ⇒ x = 6.43 (M1)A1\nMETHOD 3\nlet AC = x\nusing the sine rule to find a value of B and a value of C M1\nobtaining B = 132.869 … ° , 7.131 … and ° C = 27.131 … ° , 152.869 … ° A1\n( B = 2.319 … , 0.124 … and C = 0.473 … , 2.668 …)\nattempting to find a value of x using the cosine rule (M1)\nx= 1.09, 6.43 A1A1\nNote: Award M1A0(M1)A1A0 for one correct value of x\n[5 marks]\n1 π π and 1\n(b) ×× 46.428 …× sin ×× 41.088 …× sin (A1)\n2 9 2 9\n( 4.39747… and 0.744833…)\nlet D be the difference between the two areas\n1 π 1 π\nD= ×× 46.428 …× sin − ×× 41.088 …× sin (M1)\n2 9 2 9\n( D= 4.39747 …− 0.744833 … )\nA1\n[3 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 8]\nIn a triangle ABC, $\\mathrm{AB}=4\\text{ cm}$, $\\mathrm{BC}=3\\text{ cm}$ and $\\hat{\\mathrm{BAC}}=\\frac{\\pi}{9}$.\n(a) Use the cosine rule to find the two possible values for AC. [5]\n(b) Find the difference between the areas of the two possible triangles ABC. [3]"
+  },
+  {
+   "id": "math-2016-N-P2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\nA random variable X is normally distributed with mean µ and standard deviation σ ,\nsuch that P(X< 30.31) = 0.1180 and P(X> 42.52) = 0.3060 .\n(a) Find µ and σ . [6]\n(b) Find P(|X-µ| < 1.2σ) . [2]",
+   "ms_text": "8. (a) P( X< 42.52) = 0.6940 (M1)\n30.31 − µ 42.52 − µ\neither P Z < = 0.1180 or P Z < = 0.6940 (M1)\nσ σ\n30.31 − µ − 1\n(0.1180) (A1) = Φ144244\n3 σ\n− … 1.1850\n− µ 42.52\n− 1 (0.6940)\n= Φ144244 (A1) 3\nσ\n0.5072 …\nattempting to solve simultaneously (M1)\nµ = 38.9 and σ = 7.22 A1\n[6 marks]\n(b) P( µ − 1.2 σ < X < µ + 1.2) σ (or equivalent eg. 2P( µ < X < µ + 1.2) σ ) (M1)\n= 0.770 A1\nNote: Award (M1)A1 for P( − 1.2 < Z < 1.2) = 0.770 .\n[2 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\nA random variable $X$ is normally distributed with mean $\\mu$ and standard deviation $\\sigma$, such that $\\mathrm{P}(X<30.31)=0.1180$ and $\\mathrm{P}(X>42.52)=0.3060$.\n(a) Find $\\mu$ and $\\sigma$. [6]\n(b) Find $\\mathrm{P}(|X-\\mu|<1.2\\sigma)$. [2]"
+  },
+  {
+   "id": "math-2016-N-P2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\nThe diagram shows two circles with centres at the points A and B and radii 2r and r ,\nrespectively. The point B lies on the circle with centre A . The circles intersect at the\npoints C and D .\nD\nA B\nC\nLet α be the measure of the angle CAD and θ be the measure of the angle CBD in\nradians.\n(a) Find an expression for the shaded area in terms of α, θ and r . [3]\n1\n(b) Show that α=4 arcsin . [2]\n4\n(c) Hence find the value of r given that the shaded area is equal to 4 . [3]",
+   "ms_text": "1 2 2\n9. (a) A = 2( α − sin α ) r + ( θ − sin) θ r M1A1A1\n2\nα α 1\n= − 2 + θ 2 Note: Award M1A1A1 for alternative correct expressions eg. A 4 sin r r .\n2 2 2\n[3 marks]\n(b) METHOD 1\nconsider for example triangle ADMwhere M is the midpoint of BD M1\nα= 1\nA1\nsin4\n4\n1 α=\narcsin\n4 4\n1\nα= AG\n4arcsin 4\nMETHOD 2\nα 1\nattempting to use the cosine rule (to obtain − = ) M1\n1cos 2\n8\nα\n−\n1 α 1cos 2 α=\n(obtained from = ) A1\nsin4 sin4\n4 2\n1 α=\narcsin\n4 4\n1\nα= AG\n4arcsin 4\nMETHOD 3\nπ α α θ π α\n− = = − sin 2sin where\n2 4 2 2 2 4\nα α α\ncos = 4sin cos M1\n4 4 4\nNote: Award M1 either for use of the double angle formula or the conversion\nfrom sine to cosine.\n1 α\n= sin A1\n4 4\nα= 1\narcsin\n4 4\n1\nα= AG\n4arcsin 4\n[2 marks]\nα 1 1\nθ = π − = π − = = … (c) (from triangle ADM), 2arcsin 2arccos 2.6362 A1\n2 4 4\n1 2 2\nattempting to solve 2( α − sin α ) r + ( θ − sin) θ r = 4\n2\n1 α 1\nwith α= and θ = π − = 2arccos for r (M1)\n4arcsin 4\n2 4\nr = 1.69 A1\n[3 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nThe diagram shows two circles with centres at the points A and B and radii $2r$ and $r$, respectively. The point B lies on the circle with centre A. The circles intersect at the points C and D.\n[Diagram: large circle centre A, smaller circle centre B on its circumference; circles meet at C and D; radius AB drawn; lens-shaped region between the circles around B shaded]\nLet $\\alpha$ be the measure of the angle CAD and $\\theta$ be the measure of the angle CBD in radians.\n(a) Find an expression for the shaded area in terms of $\\alpha$, $\\theta$ and $r$. [3]\n(b) Show that $\\alpha=4\\arcsin\\frac{1}{4}$. [2]\n(c) Hence find the value of $r$ given that the shaded area is equal to 4. [3]"
+  },
+  {
+   "id": "math-2016-N-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 22]\nx 2 − e\nLet the function f be defined by fx () = , x ∈ D .\nx 2 e − 1\nDetermine D , the largest possible domain of f . (a) [2]\n(b) Show that the graph of f has three asymptotes and state their equations. [5]\nx 3e\n′ =− (c) Show that f () x 2. [3]\n( x ) 2 e − 1\n(d) Use your answers from parts (b) and (c) to justify that f has an inverse and state its\ndomain. [4]\nFind an expression for f -1(x) . (e) [4]\n(f) Consider the region R enclosed by the graph of y=f (x) and the axes.\nFind the volume of the solid obtained when R is rotated through 2π about the y-axis. [4]",
+   "ms_text": "(a) attempting to solve either 2e x − 1 = 0 or 2e x − 1 ≠ 0 for x 10. (M1)\nD = ϒ \\ { − ln 2 } (or equivalent eg x ≠− ln 2 ) A1\n{ } Note: Accept D= ϒ \\ − 0.693 or equivalent eg x ≠− 0.693 .\n[2 marks]\n(b) considering lim fx () (M1)\nx →− ln 2\n( ) x=− ln 2 x = − 0.693 A1\nconsidering one of lim fx () or lim fx () M1\n→−∞ →+∞ x x\nlim fx () =− 2 ⇒ y =− 2 A1\nx →−∞\n1 1\nlim fx () =− ⇒ y =− A1\nx →+∞ 2 2\n1\ny = − and 2 y = − stated without any justification. Note: Award A0A0 for\n2\n[5 marks]\nx x x x − e ( 2e − 1 ) − 2e ( 2 − e )\n(c) f ′ () x = M1A1A1\n2 x\n( 2e − 1 )\nx 3e\n=− AG\n2\n( x − ) 2e 1\n[3 marks]\n′ (d) f () x < 0 (for all x ∈ D ) ⇒ f is (strictly) decreasing R1\nNote: Award R1 for a statement such as f ′ () x ≠ 0 and so the graph of f has no\nturning points.\none branch is above the upper horizontal asymptote and the other branch is\nbelow the lower horizontal asymptote R1\nf has an inverse AG\n1\n−∞< x <−∪− 2 < x <∞ A2\n2\nNote: Award A2 if the domain of the inverse is seen in either part (d) or in part (e).\n[4 marks]\ny 2 − e\n(e) x = M1\ny 2e − 1\nNote: Award M1 for interchanging x and y (can be done at a later stage).\ny − =− y 2e x x 2 e\nM1\ny e(2 x + 1) = x + 2\nA1\nx + 2 −\n1 − f () x = ( f 1() x = ln ( x + 2 ) − ln2 ( x + 1 ) )\nA1\nln2\nx + 1\n[4 marks]\nb\nV π x 2 d y (f) use of =∫ (M1)\na\n2 1\ny + 2\n= π ∫ ln d y (A1)(A1)\n2 y + 1\n0\nNote: Award (A1) for the correct integrand and (A1) for the limits.\n= 0.331 A1\n[4 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.5",
+    "5.17",
+    "5.6",
+    "5.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 22]\nLet the function $f$ be defined by $f(x)=\\frac{2-\\mathrm{e}^x}{2\\mathrm{e}^x-1}$, $x\\in D$.\n(a) Determine $D$, the largest possible domain of $f$. [2]\n(b) Show that the graph of $f$ has three asymptotes and state their equations. [5]\n(c) Show that $f'(x)=-\\frac{3\\mathrm{e}^x}{(2\\mathrm{e}^x-1)^2}$. [3]\n(d) Use your answers from parts (b) and (c) to justify that $f$ has an inverse and state its domain. [4]\n(e) Find an expression for $f^{-1}(x)$. [4]\n(f) Consider the region $R$ enclosed by the graph of $y=f(x)$ and the axes. Find the volume of the solid obtained when $R$ is rotated through $2\\pi$ about the $y$-axis. [4]"
+  },
+  {
+   "id": "math-2016-N-P2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\nA Chocolate Shop advertises free gifts to customers that collect three vouchers.\nThe vouchers are placed at random into 10 % of all chocolate bars sold at this shop.\nKati buys some of these bars and she opens them one at a time to see if they contain a\nvoucher. Let P(X=n) be the probability that Kati obtains her third voucher on the nth bar\nopened.\n(It is assumed that the probability that a chocolate bar contains a voucher stays at 10 %\nthroughout the question.)\nShow that P(X= 3) = 0.001 and P(X = 4) = 0.0027 . (a) [3]\n2 n + an + b\nn − 3 It is given that P(X = n ) = × 0 9 . for n ≥3 , n ∈∞.\n2000\nFind the values of the constants a and b . (b) [5]\nP( X = n ) 0 9 .( n − 1 )\n= (c) Deduce that for n > 3 . [4]\nP ( X = n − 1 ) n − 3\n(d) (i) Hence show that X has two modes m1 and m2 .\n(ii) [5] State the values of m1 and m2 .\nKati’s mother goes to the shop and buys x chocolate bars. She takes the bars home for Kati\nto open.\n(e) Determine the minimum value of x such that the probability Kati receives at least one\nfree gift is greater than 0.5 . [3]",
+   "ms_text": "= 3 11. (a) P( X= 3) (0.1) A1\n= 0.001 AG\n= = ( ) + ( ) + ( ) P( X 4) P VVVV P VVVV P VVVV (M1)\n3 = 3 × (0.1) × 0.9\n(or equivalent) A1\n= 0.0027 AG\n[3 marks]\n(b) METHOD 1\nattempting to form equations in a and b M1\n9 + 3 a + b 1\n= (3 a + b = − 7) A1\n2000 1000\n16 + 4 a + b 9 27\n× = a + b = − (4 10) A1\n2000 10 10000\nattempting to solve simultaneously (M1)\n=− = a 3, b 2 A1\nMETHOD 2\nn − 1\n3 n − 3 P( X = n ) = × 0.1 × 0.9\nM1\n2\n( n − 1)( n − 2) n − 3\n= × 0.9 (M1)A1\n2000\n2 n − 3 n + 2\nn − 3 = × 0.9\nA1\n2000\na =− 3, b = 2 A1\n3\nNote: Condone the absence of 0.9n− in the determination of the values of a and b.\n[5 marks]\n(c) METHOD 1\nEITHER\n2 n − 3 n + 2\nn − 3 P( X = n ) = × 0.9\n(M1)\n2000\nOR\nn − 1\n3 n − 3 P( X = n ) = × 0.1 × 0.9\n(M1)\n2\nTHEN\n( n − 1)( n − 2)\n= × n − 3 0.9 A1\n2000\n( n − 2)( n − 3) n − 4\nP( X = n − 1) = × 0.9 A1\n2000\nP( X = n ) ( n − 1)( n − 2)\n= × 0.9 A1\nP( X = n − 1) ( n − 2)( n − 3)\n− 0.9( n 1)\n= AG\nn − 3\nMETHOD 2\n2 n − 3 n + 2\nn − 3 × 0.9\nP( X = n ) 2000\n= (M1)\n2 P( X = n − 1)\n( n − 1 ) − 3 ( n − 1 ) + 2\nn − 4 × 0.9\n2000\n( 2 ) 0.9 n − 3 n + 2\n= A1A1\n( 2 ) n − 5 n + 6\nNote: Award A1 for a correct numerator and A1 for a correct denominator.\n0.9( n − 1)( n − 2)\n= A1\n( n − 2)( n − 3)\n0.9( n − 1)\n= AG\nn − 3\n[4 marks]\n( ) 0.9 n − 1\n(d) (i) attempting to solve = 1 for n M1\nn − 3\nn = 21 A1\n( − ) 0.9 n 1\n<⇒ 1 n > 21 R1\nn − 3\n0.9 ( n − 1 )\n>⇒ 1 n < 21 R1\nn − 3\nX has two modes AG\nNote: Award R1R1 for a clearly labelled graphical representation of the two\nP( X = n )\ninequalities (using ).\nP( X = n − 1)\n(ii) the modes are 20 and 21 A1\n[5 marks]\n(e) METHOD 1\nY : B(, 0.1) x (A1)\nattempting to solve P( Y≥ 3) > 0.5 (or equivalent eg1 − P( Y ≤ 2) > 0.5 ) for x (M1)\nNote: Award (M1) for attempting to solve an equality (obtaining x = 26.4 ).\nx = 27 A1\nMETHOD 2\nx\n∑ P ( X = n ) > 0.5 (A1)\nn = 0\nattempting to solve for x (M1)\nx = 27 A1\n[3 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.L2",
+    "4.7",
+    "4.8",
+    "4.6",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 20]\nA Chocolate Shop advertises free gifts to customers that collect three vouchers. The vouchers are placed at random into 10% of all chocolate bars sold at this shop. Kati buys some of these bars and she opens them one at a time to see if they contain a voucher. Let $\\mathrm{P}(X=n)$ be the probability that Kati obtains her third voucher on the $n$th bar opened.\n(It is assumed that the probability that a chocolate bar contains a voucher stays at 10% throughout the question.)\n(a) Show that $\\mathrm{P}(X=3)=0.001$ and $\\mathrm{P}(X=4)=0.0027$. [3]\nIt is given that $\\mathrm{P}(X=n)=\\frac{n^2+an+b}{2000}\\times0.9^{n-3}$ for $n\\ge3$, $n\\in\\mathbb{N}$.\n(b) Find the values of the constants $a$ and $b$. [5]\n(c) Deduce that $\\frac{\\mathrm{P}(X=n)}{\\mathrm{P}(X=n-1)}=\\frac{0.9(n-1)}{n-3}$ for $n>3$. [4]\n(d) (i) Hence show that $X$ has two modes $m_1$ and $m_2$.\n(ii) State the values of $m_1$ and $m_2$. [5]\nKati's mother goes to the shop and buys $x$ chocolate bars. She takes the bars home for Kati to open.\n(e) Determine the minimum value of $x$ such that the probability Kati receives at least one free gift is greater than 0.5. [3]"
+  },
+  {
+   "id": "math-2016-N-P2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 18]\nOn the day of her birth, 1st January 1998, Mary’s grandparents invested $x in a savings\naccount. They continued to deposit $x on the first day of each month thereafter.\nThe account paid a fixed rate of 0.4 % interest per month. The interest was calculated on\nthe last day of each month and added to the account.\nLet $An be the amount in Mary’s account on the last day of the nth month, immediately after\nthe interest had been added.\n(a) Find an expression for A1 and show that A2= 1.0042x + 1.004x . [2]\n(b) (i) Write down a similar expression for A3 and A4 .\n(ii) Hence show that the amount in Mary’s account the day before she turned\n10 years old is given by 251(1.004120- 1)x . [6]\n(c) Write down an expression for An in terms of x on the day before Mary turned 18 years\nold showing clearly the value of n . [1]\n(d) Mary’s grandparents wished for the amount in her account to be at least $20 000 the\nday before she was 18 . Determine the minimum value of the monthly deposit $x\nrequired to achieve this. Give your answer correct to the nearest dollar. [4]\n(e) As soon as Mary was 18 she decided to invest $15 000 of this money in an account of\nthe same type earning 0.4 % interest per month. She withdraws $1000 every year on\nher birthday to buy herself a present. Determine how long it will take until there is no\nmoney in the account. [5]",
+   "ms_text": "(a) A = 1.004 x 12. A1\n1\nA = 1.004(1.004 x + x ) A1\n2\n2 = 1.004 x + 1.004 x\nAG\nNote: Accept an argument in words for example, first deposit has been in for two months\nand second deposit has been in for one month.\n[2 marks]\n( 2 ) 3 2 (b) (i) A = 1.0041.004 x + 1.004 x + x = 1.004 x + 1.004 x + 1.004 x (M1)A1\n3\n4 3 2 A = 1.004 x + 1.004 x + 1.004 x + 1.004 x A1\n4\n120 119 (ii) A = ( 1.004 + 1.004 +…+ 1.004 ) x (A1)\n120\n120 − 1.004\n= 11.004 × x M1A1\n1.004 − 1\n( 120 ) = 2511.004 − 1x AG\n[6 marks]\n216\n216 (c) A = 2511.004 ( − 1 ) x = x ∑ 1.004t A1\n216\nt = 1\n[1 mark]\n( 216 ) (d) 2511.004 − 1 x = 20000 ⇒ x = 58.22 … (A1)(M1)(A1)\n( 216 ) Note: Award (A1) for 2511.004 − 1 x > 20000 , (M1) for attempting to solve\nand (A1) for x> 58.22 ….\nx = 59 A1\nNote: Accept x = 58 . Accept x ≥ 59 .\n[4 marks]\n12\n(e) r = 1.004 (1.049 = … ) (M1)\nn r − 1\nn 15000 r − 1000 = 0 ⇒ n = 27.8 …\n(A1)(M1)(A1)\nr − 1\nNote: Award (A1) for the equation (with their value of r ), (M1) for attempting to solve\nfor n and (A1) for n = 27.8 ….\nn = 28 A1\nNote: Accept n = 27 .\n[5 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.4",
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 18]\nOn the day of her birth, 1st January 1998, Mary's grandparents invested \\$$x$ in a savings account. They continued to deposit \\$$x$ on the first day of each month thereafter. The account paid a fixed rate of 0.4% interest per month. The interest was calculated on the last day of each month and added to the account.\nLet \\$$A_n$ be the amount in Mary's account on the last day of the $n$th month, immediately after the interest had been added.\n(a) Find an expression for $A_1$ and show that $A_2=1.004^2x+1.004x$. [2]\n(b) (i) Write down a similar expression for $A_3$ and $A_4$.\n(ii) Hence show that the amount in Mary's account the day before she turned 10 years old is given by $251(1.004^{120}-1)x$. [6]\n(c) Write down an expression for $A_n$ in terms of $x$ on the day before Mary turned 18 years old showing clearly the value of $n$. [1]\n(d) Mary's grandparents wished for the amount in her account to be at least \\$20 000 the day before she was 18. Determine the minimum value of the monthly deposit \\$$x$ required to achieve this. Give your answer correct to the nearest dollar. [4]\n(e) As soon as Mary was 18 she decided to invest \\$15 000 of this money in an account of the same type earning 0.4% interest per month. She withdraws \\$1000 every year on her birthday to buy herself a present. Determine how long it will take until there is no money in the account. [5]",
+   "review_note": "audit: savings account with monthly deposits = financial GP (1.4) primary; matches 2017-N-P2-q12"
+  }
+ ],
+ "status": "done"
+}

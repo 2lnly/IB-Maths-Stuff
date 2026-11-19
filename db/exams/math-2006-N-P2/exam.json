@@ -1,0 +1,151 @@
+{
+ "exam_id": "math-2006-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2006,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2006 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2006 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8806-7202; code N06/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches expected total 120",
+ "qp_pages": 5,
+ "questions": [
+  {
+   "id": "math-2006-N-P2-q1",
+   "num": "1",
+   "section": null,
+   "marks": 24,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Total Mark: 24]\nPart A [Maximum mark: 13]\n∃ The following diagram shows a circle centre O, radius r. The angle AOB at the centre\nof the circle is θ radians. The chord AB divides the circle into a minor segment (the\nshaded region) and a major segment.\nShow that the area of the minor segment is 1 (a) 2r( θ − sin) θ . [4 marks]\n2\n(b) Find the area of the major segment. [3 marks]\n(c) Given that the ratio of the areas of the two segments is 2:3 , show that\n−4 π . sinθ = θ [4 marks]\n5\n(d) Hence find the value of θ . [2 marks]\nPart B [Maximum mark: 11]\n(a) Use mathematical induction to prove that\n+ ()(!) 11 + ()(!) 2 2 + ()(!) 33 + ...()(!) + n n = ( n + 1 )! − 1 where n∈\n′. [8 marks]\n(b) Find the minimum number of terms of the series for the sum to exceed 109. [3 marks]",
+   "ms_text": "1. Part A\n1 2\n(a) Area of sector OAB = A1 2rθ\n1 2\nArea of triangle OAB = sin θ A1\n2r\nShaded area = Area of sector CAB – Area of triangle OAB (M1)\n1 1\n= 2 θ − 2 θ r r sin A1\n2 2\n1 2\n= ( θ − sin) θ AG N0\n2r\n[4 marks]\n(b) Area of the major segment = area of circle – shaded area (M1)\n1 ⎛ ⎛ θ sin θ ⎞ ⎞ 2 2 2\n= π r − rθ ( − sin) θ = r π − + (M1)A1 N3 ⎜ ⎜ ⎟ ⎟\n2 ⎝ 2 2 ⎠ ⎝ ⎠\n[3 marks]\n(c) Given ratio of segments is 3:2\nMETHOD 1\n3 θ θ 2 2 ⎛ ⎞\nr ( θ − sin) θ = 2 r π − + sin M1A1 ⎜ ⎟\n2 ⎝ 2 2 ⎠\n⇒ 3 θ − 3sin θ =π − 4 2 θ + 2sin θ (A1)\n⇒ 5 θ − 5sin θ =π 4\n⇒ θ = θ −π 5sin 5 4 A1\nπ 4\n⇒ sin θ = θ − AG N0\n5\nMETHOD 2\n2 π 2 area of shaded region = M1\n5r\n1 2 2 2\n⇒ r ( θ − sin) θ = π r A1\n2 5\n⇒ 5( θ − sin) θ = 4π A1\n⇒ 5 θ − 5sin θ = 4π A1\n4\n⇒ sin θ = θ − π AG\n5\n[4 marks]\nθ= (d) 2.82 radians A2\n[2 marks]\nSub-total [13 marks]\nPart B\n(a) If n =, then (1)(1!) 1 = (11)!1 + − is true A1\nAssume true for n = k\n⇒ (1)(1!) + (2)(2!) + ... + ()(!) k k = ( k + 1)!1 − M1A1\nAdd the next term ( k + 1)( k + 1)! to both sides M1\n(1)(1!) + (2)(2!) + ... + ()(!) k k + ( k + 1)( k + 1)! = ( k + 1)!1 −+ ( k + 1)( k + 1)! A1\n= ( k + 1)![1 + k + 1]1 − A1\n= + − ( k 2)!1 A1\nTrue for k ⇒True for k + and since true for 1 n =, result proved by 1\nmathematical induction. R1\n[8 marks]\n(b) ( n + 1)!1 −> 1000000000 (M1)\n( n + 1)!1000000001 >\nfrom GDC minimum value of n = 12 A2 N3\n[3 marks]\nSub-total [11 marks]\nTotal [24 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "3.4",
+    "1.15",
+    "3.2",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Total Mark: 24]\nPart A [Maximum mark: 13]\nThe following diagram shows a circle centre O, radius $r$. The angle $\\hat{AOB}$ at the centre of the circle is $\\theta$ radians. The chord AB divides the circle into a minor segment (the shaded region) and a major segment.\n[Diagram: circle centre O with radii OA and OB of length r, angle theta at O; the minor segment cut off by chord AB is shaded]\n(a) Show that the area of the minor segment is $\\frac{1}{2}r^2(\\theta - \\sin\\theta)$. [4 marks]\n(b) Find the area of the major segment. [3 marks]\n(c) Given that the ratio of the areas of the two segments is $2:3$, show that $\\sin\\theta = \\theta - \\frac{4\\pi}{5}$. [4 marks]\n(d) Hence find the value of $\\theta$. [2 marks]\nPart B [Maximum mark: 11]\n(a) Use mathematical induction to prove that $(1)(1!) + (2)(2!) + (3)(3!) + \\dots + (n)(n!) = (n+1)! - 1$ where $n \\in \\mathbb{Z}^+$. [8 marks]\n(b) Find the minimum number of terms of the series for the sum to exceed $10^9$. [3 marks]"
+  },
+  {
+   "id": "math-2006-N-P2-q2",
+   "num": "2",
+   "section": null,
+   "marks": 22,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Total Mark: 22]\nPart A [Maximum mark: 12]\nA bag contains a very large number of ribbons. One quarter of the ribbons are yellow\nand the rest are blue. Ten ribbons are selected at random from the bag.\n(a) Find the expected number of yellow ribbons selected. [2 marks]\n(b) Find the probability that exactly six of these ribbons are yellow. [2 marks]\n(c) Find the probability that at least two of these ribbons are yellow. [3 marks]\n(d) Find the most likely number of yellow ribbons selected. [4 marks]\n(e) What assumption have you made about the probability of selecting a yellow\nribbon? [1 mark]\nPart B [Maximum mark: 10]\nThe continuous random variable X has probability density function\nx\n, for 0 ≤ x ≤ k\nfx () = 2 1 + x\n0 , otherwise.\n(a) Find the exact value of k. [5 marks]\n(b) Find the mode of X. [2 marks]\n(c) Calculate P(1 ≤ X ≤ 2 ) . [3 marks]",
+   "ms_text": "2. Part A\n(a) Let X be the number of yellow ribbons in the sample\n⎛ 1 ⎞\nX (M1)\n~ B10, 4 ⎜ ⎟\n⎝ ⎠\n⇒ E( X ) = 2.5 A1 N2\n[2 marks]\n6 4\n⎛ 10 ⎞⎛ 1 ⎞⎛ 3 ⎞\n(b) P( X = 6) = ⎜ (M1) ⎟⎜ ⎟⎜ ⎟\n6 ⎝ 4 ⎠⎝ 4 ⎠ ⎝ ⎠\n= 0.0162 A1 N2\n[2 marks]\n(c) P( X ≥ 2) =− 1 P( X ≤ 1) =− 1 ( P( X = 0) + P( X = 1) ) (M1)\n10 9\n⎛ 3 ⎞ ⎛ 1 ⎞⎛ 3 ⎞\n=− 1 ⎜ ⎟ − 10 ⎜ ⎟⎜ ⎟ (A1)\n⎝ 4 ⎠ ⎝ 4 ⎠⎝ 4 ⎠\n= 0.756 A1 N3\n[3 marks]\nx 10 − x\n⎛ 10 ⎞⎛ 1 ⎞⎛ 3 ⎞\n(d) P( X = x ) = ⎜ ⎟⎜ ⎟⎜ ⎟\nx ⎝ 4 ⎠⎝ 4 ⎠ ⎝ ⎠\nUsing GDC (or by substituting values of x into above) it is possible to\ncalculate relevant probabilities. (M1)\n= x P( X x )\n1 0.188\n2 0.282\n3 0.250 A2\nFrom these values the most likely number of yellow ribbons is 2. A1 N0\n[4 marks]\n(e) The probability that a ribbon is yellow remains constant. R1\n[1 mark]\nSub-total [12 marks]\nPart B\nk x\n(a) d x = 1 M1 ∫\n1 + x 2 0\nk\n⎡ ⎤ 1 ln(1\n+ x 2 ) = 1 M1\n⎢ ⎥\n⎣ 2 ⎦ 0\n1 ln(1 2 + k ) = 1 A1\n2\nln(1 + k 2 ) = 2\n2 2 1 + k = e A1\nk= 2 2e − 1\nk = 2e − 1 A1 N0\n[5 marks]\n(b) At the mode, fx is a maximum () R1\nThe mode is 1 A1 N1\n[2 marks]\n2 x\n(c) P(1 ≤ X ≤ 2) = ∫ d x (M1)\n2\n1 1 + x\n⎛ 1 ⎛ 5 ⎞ ⎞\n= 0.458 = ln A2 N3 ⎜ ⎜ ⎟ ⎟\n2 ⎝ 2 ⎠ ⎝ ⎠\n[3 marks]\nSub-total [10 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.14",
+    "5.10",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Total Mark: 22]\nPart A [Maximum mark: 12]\nA bag contains a very large number of ribbons. One quarter of the ribbons are yellow and the rest are blue. Ten ribbons are selected at random from the bag.\n(a) Find the expected number of yellow ribbons selected. [2 marks]\n(b) Find the probability that exactly six of these ribbons are yellow. [2 marks]\n(c) Find the probability that at least two of these ribbons are yellow. [3 marks]\n(d) Find the most likely number of yellow ribbons selected. [4 marks]\n(e) What assumption have you made about the probability of selecting a yellow ribbon? [1 mark]\nPart B [Maximum mark: 10]\nThe continuous random variable $X$ has probability density function\n$f(x) = \\begin{cases} \\frac{x}{1+x^2}, & \\text{for } 0 \\le x \\le k \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Find the exact value of $k$. [5 marks]\n(b) Find the mode of $X$. [2 marks]\n(c) Calculate $P(1 \\le X \\le 2)$. [3 marks]"
+  },
+  {
+   "id": "math-2006-N-P2-q3",
+   "num": "3",
+   "section": null,
+   "marks": 28,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Total Mark: 28]\nPart A [Maximum mark: 14]\n(a) The line l1 passes through the point A (0 , 1 , 2) and is perpendicular to the plane\nx − 4 y − 3 z = [2 marks] 0 . Find the Cartesian equations of l1.\n(b) The line l2 is parallel to l1 and passes through the point P (3 , – 8 , – 11) . Find the\nvector equation of the line l2. [2 marks]\n→\n(c) (i) The point Q is on the line l1 such that PQ is perpendicular to l1 and l2.\nFind the coordinates of Q.\n(ii) Hence find the distance between l1 and l2. [10 marks]\nPart B [Maximum mark: 14]\nConsider the system of equations\nx + 2 y + kz = 0\nx + 3 y + z = 3\nkx + 8 y + 5 z = 6\n(a) Find the set of values of k for which this system of equations has a unique\nsolution. [6 marks]\n(b) For each value of k that results in a non-unique solution, find the solution set. [8 marks]",
+   "ms_text": "3. Part A\n⎛ 1 ⎞\n⎜ ⎟\n(a) l =− 4 (M1) Direction vector of 1\n⎜ ⎟\n⎜ ⎟ −\n⎝ 3 ⎠\nx y − 1 z − 2\n⇒ Equations of line through point A are: = = A1 N2\n1 − 4 − 3\nNote: Accept any correct cartesian form.\n[2 marks]\n⎛ 1 ⎞\n⎜ ⎟\n(b) Direction vector of 2 l =− 4 (M1)\n⎜ ⎟\n⎜ ⎟ −\n3 ⎝ ⎠\n⎛ 3 ⎞ ⎛ 1 ⎞\n⎜ ⎟ ⎜ ⎟\n⇒ vector equation of 2l is r = − 8 + µ − 4 A1 N2 ⎜ ⎟ ⎜ ⎟\n⎜ ⎟ ⎜ ⎟\n⎝ − 11 ⎠ ⎝ − 3 ⎠\n⎛⎞ x\n⎜⎟\nNote: Accept only this form but allow y in place of r.\n⎜⎟\n⎜⎟\nz ⎝⎠\n[2 marks]\n(c) (i) λ − 4, 2 λ − 3) λ (A1) General point on 1l is (, 1\n→ → →\nPQ = OQ − OP\n⎛ λ ⎞ ⎛ 3 ⎞ ⎛ λ − 3 ⎞\n⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n= 14 − λ − − 8 = 9 − 4 λ M1A1\n⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n2 − 3 λ − 11 13 − 3 λ ⎝ ⎠ ⎝ ⎠ ⎝ ⎠\n→ →\n⇒ PQ i l = 0 (M1)\n1\n⎛ λ − 3 ⎞⎛ 1 ⎞\n⎜ ⎟⎜ ⎟\n⇒ 9 − 4 λ i − 4 = 0 A1\n⎜ ⎟⎜ ⎟\n⎜ ⎟⎜ ⎟\n13 − 3 λ − 3 ⎝ ⎠⎝ ⎠\n⇒ λ − 3 − 36 + 16 λ − 39 + 9 λ = 0\n⇒ 26 λ = 78 ⇒ λ = 3 A1\n⇒ Q = (3, − 11, − 7) A1 N0\n→\n(ii) d = PQ (M1)\n= 0 + 9 + 16 M1\n= 5 A1 N1\n[10 marks]\nSub-total [14 marks]\nPart B\n1 2 k\n(a) det = 1 3 1 = 1(15 − 8) − 2(5 − k ) + k (8 − 3) k M1A1\nk 8 5\n2 det = − 3 k + 10 k − 3 A1\nNow det = 0 ⇒ 3 k 2 − 10 k + 3 = 0\n⇒ (3 k − 1)( k − 3) = 0 (A1)\n1 or ⇒ k = k = 3 (A1)\n3\n1\nFor unique solution det ≠ 0 ⇒ k ∈ � , k ≠ or k ≠ 3 R1 N0\n3\nNote: Allow FT from previous line for R1.\n[6 marks]\n1\n(b) k = ⇒\n3\n1\nx + 2 y + z = 0 (1)\n3\n+ + = x 3 y z 3 (2)\n1\n+ 8 y + 5 z = 6 (3)\n3x\nAttempting to eliminate a variable M1\n3equation(1) × − equation(2) ⇒ 2 x + 3 y = − 3 A1\n15equation(2) × −× 3equation(3) ⇒ 14 x + 21 y = 27 ⇒ 2 x + 3 y = 9 A1\nwhich is a contradiction so no solution. A1 N0\nk = 3 ⇒\nx + 2 y + 3 z = 0 (1)\nx + 3 y + z = 3 (2)\n3 x + 8 y + 5 z = 6 (3)\nAttempting to eliminate a variable M1\ny − 3\nequation(2) − equation(1) ⇒ y − 2 z = 3 ⇒ z = A1\n2\nx + 6\n4 × equation(1) − equation(3) ⇒ x + 7 z = − 6 ⇒ z A1 =−\n7\nEITHER\nHence there is an infinite number of solutions in the line\nx + 6 y − 3\n= = z A1 N0\n− 7 2\nOR\nGeneral solution is (6 −− 7 λ , 3 + 2 λ , λ ) A1 N0\nNote: Other correct forms are possible.\n[8 marks]\nSub-total [14 marks]\nTotal [28 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.13",
+    "3.17",
+    "3.12",
+    "1.16",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Total Mark: 28]\nPart A [Maximum mark: 14]\n(a) The line $l_1$ passes through the point A$(0, 1, 2)$ and is perpendicular to the plane $x - 4y - 3z = 0$. Find the Cartesian equations of $l_1$. [2 marks]\n(b) The line $l_2$ is parallel to $l_1$ and passes through the point P$(3, -8, -11)$. Find the vector equation of the line $l_2$. [2 marks]\n(c) (i) The point Q is on the line $l_1$ such that $\\vec{PQ}$ is perpendicular to $l_1$ and $l_2$. Find the coordinates of Q.\n(ii) Hence find the distance between $l_1$ and $l_2$. [10 marks]\nPart B [Maximum mark: 14]\nConsider the system of equations\n$x + 2y + kz = 0$\n$x + 3y + z = 3$\n$kx + 8y + 5z = 6$\n(a) Find the set of values of $k$ for which this system of equations has a unique solution. [6 marks]\n(b) For each value of $k$ that results in a non-unique solution, find the solution set. [8 marks]"
+  },
+  {
+   "id": "math-2006-N-P2-q4",
+   "num": "4",
+   "section": null,
+   "marks": 26,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 26]\nln x\nThe function f is defined by fx () = 3, x ≥1.\nx\n(a) Find ′f () and x f ′′ () , simplifying your answers. x [6 marks]\n(b) (i) Find the exact value of the x-coordinate of the maximum point and justify\nthat this is a maximum.\n(ii) Solve f ′′ () x = 0 , and show that at this value of x, there is a point of\ninflexion on the graph of f .\n(iii) Sketch the graph of f , indicating the maximum point and the point of\ninflexion. [11 marks]\nThe region enclosed by the x-axis, the graph of f and the line x = 3 is denoted by R.\n(c) Find the volume of the solid of revolution obtained when R is rotated through\n360οabout the x-axis. [3 marks]\nShow that the area of R is 1 (d) ( − ln) 3 . [6 marks]\n184",
+   "ms_text": "4. (a) Using quotient rule (M1)\n1 3\n× − 2 x 3 x ln x\n′ x f () x = A1\n6 x\n13ln x −\n= A1 N2\n4 x\n3 4 3\n− × x − 4 x (1 − 3ln) x\nx\nf ′′ () x = M1A1\n8 x\n−+ 712ln x\n= A1 N2\n5 x\n[6 marks]\n′ = (b) (i) For a maximum, f () x 0 giving (M1)\n1\nln x =\n3\n1\nx = e 3 A1 N2\nEITHER\n1\n12 × − 7\n⎛ 1 ⎞\n3\nf ′′ e 3 = < 0 M1A1 ⎜ ⎟\n5\n⎝ ⎠\ne 3\n∴ maximum AG N0\nOR\n1\n< 3 ′ > for x e, f () x 0\n1\n3 for x > e, f ′ () x < 0 M1A1\n∴ maximum AG N0\n7\n′′ = ⇒ = (ii) f (0) 0 ln() x M1\n12\n7\nx = e 12 (1.79) A1\nf ′′ (1.5) = − 0.281 A1\nf ′′ (2) = 0.0412 A1\nNote: Accept any two sensible values either side of 1.79.\n∴ Change of sign ⇒ point of inflexion R1\n(iii)\nA1A1\nNote: Award A1 for shape, A1 for marking values which locate the\nmaximum point and point of inflexion correctly.\n[11 marks]\n3 2\n(c) Using V = ∫ 1π y d x (M1)\n2\n3 ⎛ ln x ⎞\n= π d x (A1) ∫ ⎜ ⎟\n1 3 ⎝ x ⎠\n= 0.0458 A1 N2\n[3 marks]\n3 ln x\n(d) Area A = ∫ d x A1\n3 1 x\nUsing integrating by parts (M1)\n3\n⎡ ln x ⎤ 1 3 1d\nA =− + ∫ x A1 ⎢\n2 ⎥ 3\n⎣ 2 x ⎦ 2 1 x 1\n3\nln3 1 ⎡ 1 ⎤\n= − − A1A1\n⎢ 2 ⎥\n18 4 ⎣ x ⎦\n1\nln3 1 ⎛ 1 ⎞ ⎛ ln3 2 ⎞\n= − − − = − + ⎜ 1 ⎟ ⎜ ⎟ A1\n18 4 ⎝ 9 ⎠ ⎝ 18 9 ⎠\n1(4 = − ln3) AG N0\n18\n[6 marks]\nTotal [26 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.6",
+    "5.7",
+    "5.16",
+    "5.17",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 26]\nThe function $f$ is defined by $f(x) = \\frac{\\ln x}{x^3}$, $x \\ge 1$.\n(a) Find $f'(x)$ and $f''(x)$, simplifying your answers. [6 marks]\n(b) (i) Find the exact value of the $x$-coordinate of the maximum point and justify that this is a maximum.\n(ii) Solve $f''(x) = 0$, and show that at this value of $x$, there is a point of inflexion on the graph of $f$.\n(iii) Sketch the graph of $f$, indicating the maximum point and the point of inflexion. [11 marks]\nThe region enclosed by the $x$-axis, the graph of $f$ and the line $x = 3$ is denoted by $R$.\n(c) Find the volume of the solid of revolution obtained when $R$ is rotated through $360^\\circ$ about the $x$-axis. [3 marks]\n(d) Show that the area of $R$ is $\\frac{1}{18}(4 - \\ln 3)$. [6 marks]"
+  },
+  {
+   "id": "math-2006-N-P2-q5",
+   "num": "5",
+   "section": null,
+   "marks": 20,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 20]\nLet y = cos θ + i sin θ .\ny Show that d\n(a) i y .\nθ=\nd\n[You may assume that for the purposes of differentiation and integration, i may\nbe treated in the same way as a real constant.] [3 marks]\n(b) Hence show, using integration, that y = eiθ. [5 marks]\n[2 marks] (c) Use this result to deduce de Moivre’s theorem.\n6 θ Given that sin 5 3\n(d) (i) = a cos θ + b cos θ + c cos θ , where sinθ≠0, use\nsin θ\nde Moivre’s theorem with n = 6 to find the values of the constants a, b\nand c.\n6 θ Hence deduce the value of lim sin\n(ii) . [10 marks]\nθ →0 sin θ",
+   "ms_text": "d y\nθ + θ 5. (a)\nθ= − sin icos A1\nd\nEITHER\nd y 2\nisin θ + icos θ A1 θ=\nd\n= i(cos θ + isin) θ A1\n= iy AG N0\nOR\n2 i y = i(cos θ + isin) θ (icos = θ + isin) θ A1\n= θ − θ icos sin A1\nd y\n= AG N0\nθ d\n[3 marks]\nd y\n(b) ∫ = i ∫ d θ M1A1\ny\nln y = i θ + c A1\nSubstituting (0, 1) 0 = 0 + c ⇒ c = 0 A1\n∴ ln y = i θ A1\nθ y = ie AG N0\n[5 marks]\n(c) cos n θ + isin n θ = en i θ M1\nn\n= ( ie θ ) A1\n= θ + isin)n θ (cos AG N0\nNote: Accept this proof in reverse.\n[2 marks]\n6 (d) (i) cos6 θ + isin6 θ = (cos θ + isin) θ M1\nExpanding rhs using the binomial theorem M1A1\n6 5 4 2 3 3 2 4 5 6 = cos θ + 6cos θ isin θ + 15cos θ (isin) θ + 20cos θ (isin) θ + 15cos θ (isin) θ + 6cos(isin) θ θ + (isin) θ\nEquating imaginary parts (M1)\nθ = 5 θ θ − 3 θ 3 θ + θ 5 θ sin6 6 cos sin 20 cos sin 6 cos sin A1\nθ sin6\n6 cos 5 θ − 20 cos 3 θ (1 − cos 2 θ ) + 6 cos(1 θ − cos 2 θ ) 2 A1 θ=\nsin\n5 3 = 32 cos θ − 32 cos θ + 6 cos θ ( a = 32, b = − 32, c = 6) A2 N0\nsin6 θ 5 3\n(ii) lim = lim (32 cos θ − 32 cos θ + 6 cos) θ M1\nθ → 0 sin θ θ → 0\n= 32 − 32 + 6\n= 6 A1 N0\n[10 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.9",
+    "1.13",
+    "5.18",
+    "3.6",
+    "5.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 20]\nLet $y = \\cos\\theta + \\mathrm{i}\\sin\\theta$.\n(a) Show that $\\frac{dy}{d\\theta} = \\mathrm{i}y$.\n[You may assume that for the purposes of differentiation and integration, i may be treated in the same way as a real constant.] [3 marks]\n(b) Hence show, using integration, that $y = \\mathrm{e}^{\\mathrm{i}\\theta}$. [5 marks]\n(c) Use this result to deduce de Moivre's theorem. [2 marks]\n(d) (i) Given that $\\frac{\\sin 6\\theta}{\\sin\\theta} = a\\cos^5\\theta + b\\cos^3\\theta + c\\cos\\theta$, where $\\sin\\theta \\ne 0$, use de Moivre's theorem with $n = 6$ to find the values of the constants $a$, $b$ and $c$.\n(ii) Hence deduce the value of $\\lim_{\\theta \\to 0} \\frac{\\sin 6\\theta}{\\sin\\theta}$. [10 marks]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,163 @@
+{
+ "exam_id": "math-2010-N-P1",
+ "questions": {
+  "1": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16",
+    "2.15"
+   ],
+   "text_clean": "1. [Maximum mark: 4]\nFind the set of values of $x$ for which $|x-1| > |2x-1|$.",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nConsider the matrix $\\begin{pmatrix} k & 1 & 1 \\\\ 0 & 2 & k-1 \\\\ k & 0 & k-2 \\end{pmatrix}$.\nFind all possible values of $k$ for which the matrix is singular.",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "text_clean": "3. [Maximum mark: 4]\nExpand and simplify $\\left(x^2 - \\frac{2}{x}\\right)^4$.",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.13",
+    "4.6"
+   ],
+   "text_clean": "4. [Maximum mark: 5]\nJenny goes to school by bus every day. When it is not raining, the probability that the bus is late is $\\frac{3}{20}$. When it is raining, the probability that the bus is late is $\\frac{7}{20}$. The probability that it rains on a particular day is $\\frac{9}{20}$. On one particular day the bus is late. Find the probability that it is not raining on that day.",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "text_clean": "5. [Maximum mark: 6]\nThe mean of the first ten terms of an arithmetic sequence is 6. The mean of the first twenty terms of the arithmetic sequence is 16. Find the value of the $15^{\\text{th}}$ term of the sequence.",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3",
+    "1.8"
+   ],
+   "text_clean": "6. [Maximum mark: 8]\nThe sum, $S_n$, of the first $n$ terms of a geometric sequence, whose $n^{\\text{th}}$ term is $u_n$, is given by\n$S_n = \\frac{7^n - a^n}{7^n}$, where $a > 0$.\n(a) Find an expression for $u_n$. [2 marks]\n(b) Find the first term and common ratio of the sequence. [4 marks]\n(c) Consider the sum to infinity of the sequence.\n(i) Determine the values of $a$ such that the sum to infinity exists.\n(ii) Find the sum to infinity when it exists. [2 marks]",
+   "answer_status": "ok",
+   "note": "ms crop fixed via overrides (previously included top of Q7 vectors)"
+  },
+  "7": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.17",
+    "3.14"
+   ],
+   "text_clean": "7. [Maximum mark: 8]\nConsider the plane with equation $4x - 2y - z = 1$ and the line given by the parametric equations\n$x = 3 - 2\\lambda$\n$y = (2k-1) + \\lambda$\n$z = -1 + k\\lambda$.\nGiven that the line is perpendicular to the plane, find\n(a) the value of $k$; [4 marks]\n(b) the coordinates of the point of intersection of the line and the plane. [4 marks]",
+   "answer_status": "ok",
+   "note": "ms crop fixed via overrides (top row of vectors was cut off)"
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.10"
+   ],
+   "text_clean": "8. [Maximum mark: 7]\nFind $y$ in terms of $x$, given that $(1+x^3)\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 2x^2 \\tan y$ and $y = \\frac{\\pi}{2}$ when $x = 0$.",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.2",
+    "3.9"
+   ],
+   "text_clean": "9. [Maximum mark: 8]\nConsider the function $f : x \\to \\sqrt{\\frac{\\pi}{4} - \\arccos x}$.\n(a) Find the largest possible domain of $f$. [4 marks]\n(b) Determine an expression for the inverse function, $f^{-1}$, and write down its domain. [4 marks]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.12"
+   ],
+   "text_clean": "10. [Maximum mark: 5]\nLet $\\alpha$ be the angle between the unit vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$, where $0 \\le \\alpha \\le \\pi$.\n(a) Express $|\\boldsymbol{a} - \\boldsymbol{b}|$ and $|\\boldsymbol{a} + \\boldsymbol{b}|$ in terms of $\\alpha$. [3 marks]\n(b) Hence determine the value of $\\cos\\alpha$ for which $|\\boldsymbol{a} + \\boldsymbol{b}| = 3|\\boldsymbol{a} - \\boldsymbol{b}|$. [2 marks]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.12",
+    "1.13",
+    "2.1"
+   ],
+   "text_clean": "11. [Maximum mark: 19]\nConsider the complex number $\\omega = \\frac{z+\\mathrm{i}}{z+2}$, where $z = x + \\mathrm{i}y$ and $\\mathrm{i} = \\sqrt{-1}$.\n(a) If $\\omega = \\mathrm{i}$, determine $z$ in the form $z = r\\,\\mathrm{cis}\\,\\theta$. [6 marks]\n(b) Prove that $\\omega = \\frac{(x^2 + 2x + y^2 + y) + \\mathrm{i}(x + 2y + 2)}{(x+2)^2 + y^2}$. [3 marks]\n(c) Hence show that when $\\mathrm{Re}(\\omega) = 1$ the points $(x, y)$ lie on a straight line, $l_1$, and write down its gradient. [4 marks]\n(d) Given $\\arg(z) = \\arg(\\omega) = \\frac{\\pi}{4}$, find $|z|$. [6 marks]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "1",
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "1.15",
+    "3.8",
+    "3.6",
+    "5.9",
+    "3.7",
+    "5.12"
+   ],
+   "text_clean": "12. [Maximum mark: 18]\n(a) A particle P moves in a straight line with displacement relative to origin given by\n$s = 2\\sin(\\pi t) + \\sin(2\\pi t)$, $t \\ge 0$,\nwhere $t$ is the time in seconds and the displacement is measured in centimetres.\n(i) Write down the period of the function $s$.\n(ii) Find expressions for the velocity, $v$, and the acceleration, $a$, of P.\n(iii) Determine all the solutions of the equation $v = 0$ for $0 \\le t \\le 4$. [10 marks]\n(b) Consider the function\n$f(x) = A\\sin(ax) + B\\sin(bx)$, $A, a, B, b, x \\in \\mathbb{R}$.\nUse mathematical induction to prove that the $(2n)^{\\text{th}}$ derivative of $f$ is given by $f^{(2n)}(x) = (-1)^n\\left(Aa^{2n}\\sin(ax) + Bb^{2n}\\sin(bx)\\right)$, for all $n \\in \\mathbb{Z}^+$. [8 marks]",
+   "answer_status": "ok"
+  },
+  "13": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.16",
+    "5.4",
+    "5.6",
+    "2.10",
+    "2.9"
+   ],
+   "text_clean": "13. [Maximum mark: 23]\nConsider the curve $y = x\\mathrm{e}^x$ and the line $y = kx$, $k \\in \\mathbb{R}$.\n(a) Let $k = 0$.\n(i) Show that the curve and the line intersect once.\n(ii) Find the angle between the tangent to the curve and the line at the point of intersection. [5 marks]\n(b) Let $k = 1$. Show that the line is a tangent to the curve. [3 marks]\n(c) (i) Find the values of $k$ for which the curve $y = x\\mathrm{e}^x$ and the line $y = kx$ meet in two distinct points.\n(ii) Write down the coordinates of the points of intersection.\n(iii) Write down an integral representing the area of the region $A$ enclosed by the curve and the line.\n(iv) Hence, given that $0 < k < 1$, show that $A < 1$. [15 marks]",
+   "answer_status": "ok"
+  }
+ }
+}

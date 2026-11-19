@@ -1,0 +1,125 @@
+{
+ "exam_id": "math-2019-M-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2019,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2019 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2019 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2219-7209; code M19/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches paper total 50",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2019-M-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 9]\nThe relation R is defined on ∞ by xRy ⇔x2+y2 ≡ 0 (mod 2) .\n(a) Show that R is an equivalence relation.\b [7]\n(b) Determine the equivalence classes.\b [2]",
+   "ms_text": "1. (a) xRx ⇒ x 2 + x 2 = 2 x 2 M1\nsince this is equal to ( ) 0mod2it is reflexive R1\n2 2 ( ) xRy ⇔ x + y ≡ 0mod2\n2 2 ⇒ y + x ≡ 0mod2 ( )\nM1\n⇒ yRx , hence symmetric R1\n2 2 2 2 xRy ⇔ x + y ≡ 0mod2 ( )( = 2 m )\nand yRz ⇔ y + z ≡ 0mod2 ( )( = 2 n ) M1\n2 2 2 2 2 2 2\nadding and recognising 2 y= 0mod2 ( ) ⇒ x + y + y + z = x + 0(mod2) + z\nM1\n2 2 ⇒ x + z = 2 m + 2 n = 2 ( m + n ) ≡ 0mod2 ( )\n⇒ xRz and hence transitive R1\n[7 marks]\n(b) one consists of even natural numbers and the other consists of odd\nnatural numbers A1A1\n[2 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 9]\nThe relation $R$ is defined on $\\mathbb{N}$ by $xRy \\Leftrightarrow x^2 + y^2 \\equiv 0 \\pmod{2}$.\n(a) Show that $R$ is an equivalence relation. [7]\n(b) Determine the equivalence classes. [2]"
+  },
+  {
+   "id": "math-2019-M-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 14]\nBinary operations ο and ∗ are defined on the set of complex numbers such that\nz1ο z2=A (z1+ z2 ) and z1∗ z2=Bz1z2 where A and B are real non-zero constants.\n(a) Determine the identity with respect to ∗ .\b [2]\n(b) Show that every element of the set of complex numbers, apart from z = 0 , has an\ninverse with respect to ∗ .\b [3]\n(c) Find the value of A for which the operation ο is associative.\b [4]\n(d) Show that ∗ is distributive over ο for all values of A and B.\b [5]",
+   "ms_text": "2. (a) z ∗= e Bz e ( = z ) (M1)\n1 1 1\n1\n⇒ e = A1\nB\n[2 marks]\n1 − 1\n(b) z ∗ z = M1\n1 1\nB\n1 −\n1 ⇒ Bz z =\n(A1)\n11\nB\n1 − 1\n⇒ z = A1\n1 2\nBz\n1\nz≠ which is a member of ≤ (provided 0 )\n1\nhence inverse exists for all ≤ (except z= 0 ) AG\n1\nNote: Candidates may use a + i b in place of 1z.\n[3 marks]\n(c) attempt to show that ( z ο z ) ο z = z ο ( z ο z ) (M1)\n1 2 3 1 2 3\nLHS = ( z ο z ) ο z = Az ( + z ) ο z\n1 2 3 1 2 3\n⇒ AAz ( + Az + z ) A1\n1 2 3\nRHS = z ο ( z ο z ) = z ο Az ( + z )\n1 2 3 1 2 3\n⇒ Az ( + Az + Az ) A1\n1 2 3\nLHS = RHS when A = 1 A1\nNote: If a candidate “guesses” A = 1 and then verifies the result works award M1A0A0A1.\n[4 marks]\nz ∗ ( z ο z ) = ( z ∗ z )( ο z ∗ z ) (d) attempt to show that M1\n1 2 3 1 2 1 3\n= ∗ ( ) = ∗ ( + ) LHS z z ο z z Az z (A1)\n1 2 3 1 2 3\n= ( + )( = + ) ABz z z ABz z ABz z or equivalent A1\n1 2 3 12 13\n( )( ) ( )( ) RHS = z ∗ z ο z ∗ z = Bz z ο Bz z A1\n1 2 1 3 12 13\n= ABz z ( + z z )\n12 13\n= ABz ( z + z )( = ABz z + ABz z ) or equivalent A1\n1 2 3 12 13\nhence ∗ is distributive over ο for all values of A and B AG\nNote: Any reasonable attempt at recognising the distributive property should be given M1.\nThis could include only one side being correct.\n[5 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 14]\nBinary operations $\\circ$ and $*$ are defined on the set of complex numbers such that $z_1 \\circ z_2 = A(z_1 + z_2)$ and $z_1 * z_2 = Bz_1z_2$ where $A$ and $B$ are real non-zero constants.\n(a) Determine the identity with respect to $*$. [2]\n(b) Show that every element of the set of complex numbers, apart from $z = 0$, has an inverse with respect to $*$. [3]\n(c) Find the value of $A$ for which the operation $\\circ$ is associative. [4]\n(d) Show that $*$ is distributive over $\\circ$ for all values of $A$ and $B$. [5]"
+  },
+  {
+   "id": "math-2019-M-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 9]\nA non-Abelian group, {G , ο } , has eight elements e , a , a2 , a3 , b , ab , a2b , a3­b , where e is\nthe identity. The binary operation is ο and, for example, a ο b is denoted by ab .\nThe element a has order 4, the element b has order 2 and ba =a3b .\n(a) Prove that\n(i) ba2= a2b ;\nba3= ab .\b (ii) [4]\n(b) The group {G , ο } has the following Cayley table. Find the elements P , Q , R , S , T , U ,\nV , W of the group.\ne a a2 a3 b ab a2b a3b ο\ne e a a2 a3 b ab a2b a3b\na a a2 a3 e ab a2b a3b b\na2 a2 a3 e a a2b a3b b ab\na3 a3 e a a2 a3b b ab a2b\nb b a3b a2b ab e a3 a2 a\nab ab b a3b a2b a e R U\na2b a2b ab b P a2 a S V\na3b a3b a2b ab Q a3 a2 T W\n[4]\n\b\nState why {G , ο } is not isomorphic to the group {{0 , 1 , 2 , 3 , 4 , 5 , 6 , 7}, +8} , (c)\nwhere +8 denotes addition modulo 8.\b [1]",
+   "ms_text": "2 = = 3 3. (a) (i) ba baa aba M1\n3 3 3 4 2 2 aba = aab = aab = eab M1\n= 2 ab AG\n3 2 3 2 (ii) ba = baa = aba M1\n3 3 3 3 3 3 4 2 2 = abaa = aaba = aaab = ( a ) ab = () e ab\nM1\n= ab AG\n[4 marks]\n3 (b) P = ab\nQ = b\n= 3 R a\nS = e\nT = a\n2 U = a\n= 3 V a\nW = e A4\nNote: Award A3 for 6 or 7 correct, A2 for 4 or 5 correct, A1 for 2 or 3 correct and A0 otherwise.\n[4 marks]\n(c) since one group is Abelian and the other is not then they are not isomorphic R1\nNote:Award R1 for any valid reason – for example “one group commutative”.\n[1 mark]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.4",
+    "7.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 9]\nA non-Abelian group, $\\{G, \\circ\\}$, has eight elements $e, a, a^2, a^3, b, ab, a^2b, a^3b$, where $e$ is the identity. The binary operation is $\\circ$ and, for example, $a \\circ b$ is denoted by $ab$.\nThe element $a$ has order 4, the element $b$ has order 2 and $ba = a^3b$.\n(a) Prove that\n(i) $ba^2 = a^2b$;\n(ii) $ba^3 = ab$. [4]\n(b) The group $\\{G, \\circ\\}$ has the following Cayley table. Find the elements $P, Q, R, S, T, U, V, W$ of the group. [4]\n[Table: Cayley table]\n$\\circ$ | $e$ | $a$ | $a^2$ | $a^3$ | $b$ | $ab$ | $a^2b$ | $a^3b$\n$e$ | $e$ | $a$ | $a^2$ | $a^3$ | $b$ | $ab$ | $a^2b$ | $a^3b$\n$a$ | $a$ | $a^2$ | $a^3$ | $e$ | $ab$ | $a^2b$ | $a^3b$ | $b$\n$a^2$ | $a^2$ | $a^3$ | $e$ | $a$ | $a^2b$ | $a^3b$ | $b$ | $ab$\n$a^3$ | $a^3$ | $e$ | $a$ | $a^2$ | $a^3b$ | $b$ | $ab$ | $a^2b$\n$b$ | $b$ | $a^3b$ | $a^2b$ | $ab$ | $e$ | $a^3$ | $a^2$ | $a$\n$ab$ | $ab$ | $b$ | $a^3b$ | $a^2b$ | $a$ | $e$ | $R$ | $U$\n$a^2b$ | $a^2b$ | $ab$ | $b$ | $P$ | $a^2$ | $a$ | $S$ | $V$\n$a^3b$ | $a^3b$ | $a^2b$ | $ab$ | $Q$ | $a^3$ | $a^2$ | $T$ | $W$\n(c) State why $\\{G, \\circ\\}$ is not isomorphic to the group $\\{\\{0, 1, 2, 3, 4, 5, 6, 7\\}, +_8\\}$, where $+_8$ denotes addition modulo 8. [1]"
+  },
+  {
+   "id": "math-2019-M-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\nLet S be the set of real numbers of the form a + b 5 where a , b ∈⁄, a2 cannot equal 5b2,\nand a , b are not simultaneously zero. Show that S is a group under the operation of\nmultiplication. Associativity may be assumed.\b [7]",
+   "ms_text": "closure: Consider ( )( ) 4. m + n 5 p + q 5 M1\n( ) = mp + 5 nq + 5 np + mq A1\nthis is of the form a + b 5 and since neither m + n 5 nor p + q 5 = 0 + 05 , the\nproduct cannot be zero\n2 2 2 2 2 2 2 2\n(also noting p ≠ 5 q : ( mp + 5 nq ) = 5 ( np + mq ) ⇒ ( m − 5 n )( p − 5 q ) = 0\n2 2 2 2 2 2\ntherefore ( mp + 5 nq ) = 5 ( np + mq ) iff ( m − 5 n ) = 0 or ( p − 5 q ) = 0\nhence closed) R1\n+ identity: 105 A1\n1\ninverse: Consider M1\na + b 5\na − b 5\n= (M1)\n( a + b 5 )( a − b 5 )\na b\n= − 5 A1\n2 2 2 2 a − 5 b a − 5 b\nacannot equal 2 5b,all elements 2 (since ,ab cannot simultaneously be zero and\nhave an inverse)\n(associativity can be assumed)\nhence S is a group under the operation of multiplication AG\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\nLet $S$ be the set of real numbers of the form $a + b\\sqrt{5}$ where $a, b \\in \\mathbb{Q}$, $a^2$ cannot equal $5b^2$, and $a, b$ are not simultaneously zero. Show that $S$ is a group under the operation of multiplication. Associativity may be assumed. [7]"
+  },
+  {
+   "id": "math-2019-M-P3-sets-relations-and-groups-q5",
+   "num": "5",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 11]\nConsider the function f : ϒ×ϒ→ϒ×ϒ defined by f (x , y) = (x+ y , x -y) .\n(a) Prove that the function f is a bijection.\b [9]\nConsider the function g : ′×′→′×′ defined by g (x , y) = (x+ y , x -y) .\n(b) Explain why the function g is not a bijection.\b [2]",
+   "ms_text": "5. (a) for bijection required to show injective and surjective (M1)\nsuppose fxy (,) = fuv (,) (M1)\n⇒ x + y = u + v () i , x − y = u − v () ii A1\n() i + ()2 ii x = 2 u ⇒ x = u , () i − ()2 ii y = 2 v ⇒ y = v (M1)A1\n(,) xy = (,) uv\nsince fxy (,) = fuv (,) ⇒ (,) xy = (,) uv ( ⇒ f is injective) R1\n= let fxy (,) (,) st (M1)\n⇒ x + y = sx , − y = t\ns + t s − t\n⇒ x = , y = A1\n2 2\ns t s t − are both real (\n+and2 ⇒ f is surjective) R1\n2\nhence f is a bijection AG\n[9 marks]\n(b) consider surjectivity (M1)\ns + t s − t\nsince x = , y = , do not necessarily belong to ′ (if ,st are both odd\n2 2\nor ,st are both even the expressions belong to ′but if sis even and tis\nodd or vice versa this is no longer true) R1\nhence the function g is not surjective and hence not a bijection AG\nNote: Accept using a counter example.\n[2 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 11]\nConsider the function $f: \\mathbb{R} \\times \\mathbb{R} \\to \\mathbb{R} \\times \\mathbb{R}$ defined by $f(x, y) = (x + y, x - y)$.\n(a) Prove that the function $f$ is a bijection. [9]\nConsider the function $g: \\mathbb{Z} \\times \\mathbb{Z} \\to \\mathbb{Z} \\times \\mathbb{Z}$ defined by $g(x, y) = (x + y, x - y)$.\n(b) Explain why the function $g$ is not a bijection. [2]"
+  }
+ ],
+ "status": "done"
+}

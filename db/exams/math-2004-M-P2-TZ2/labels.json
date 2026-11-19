@@ -1,0 +1,144 @@
+{
+ "exam_id": "math-2004-M-P2-TZ2",
+ "questions": {
+  "1": {
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.16",
+    "3.12"
+   ],
+   "text_clean": "1. [Maximum mark: 13]\nThe points $\\mathrm{A}(1,2)$ and $\\mathrm{B}(4,5)$ are mapped to $\\mathrm{A}'(2,3)$ and $\\mathrm{B}'(5,6)$ respectively by a linear transformation $\\boldsymbol{M}$.\n(a) (i) Find the matrix $\\boldsymbol{M}$ which represents this transformation.\n(ii) Find the image of $\\mathrm{A}'$ under $\\boldsymbol{M}$. [7 marks]\nThe point $\\mathrm{C}(1,3)$ is mapped to $\\mathrm{C}'(2,2)$ by a translation $\\boldsymbol{T}$.\n(b) Find the vector which represents $\\boldsymbol{T}$. [2 marks]\n(c) Find the image of $\\mathrm{D}(5,7)$ under the following transformations.\n(i) $\\boldsymbol{T}$ followed by $\\boldsymbol{M}$;\n(ii) $\\boldsymbol{M}$ followed by $\\boldsymbol{T}$. [4 marks]"
+  },
+  "2": {
+   "topics": [
+    "4",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.6",
+    "1.8",
+    "5.11"
+   ],
+   "text_clean": "2. [Maximum mark: 14]\n(i) Jack and Jill play a game, by throwing a die in turn. If the die shows a 1, 2, 3 or 4, the player who threw the die wins the game. If the die shows a 5 or 6, the other player has the next throw. Jack plays first and the game continues until there is a winner.\n(a) Write down the probability that Jack wins on his first throw. [1 mark]\n(b) Calculate the probability that Jill wins on her first throw. [2 marks]\n(c) Calculate the probability that Jack wins the game. [3 marks]\n(ii) Let $f(x)$ be the probability density function for a random variable $X$, where\n$f(x)=\\begin{cases} kx^2, & \\text{for } 0\\le x\\le 2\\\\ 0, & \\text{otherwise.}\\end{cases}$\n(a) Show that $k=\\frac{3}{8}$. [2 marks]\n(b) Calculate\n(i) $\\mathrm{E}(X)$;\n(ii) the median of $X$. [6 marks]"
+  },
+  "3": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.13",
+    "3.15",
+    "3.12"
+   ],
+   "text_clean": "3. [Maximum mark: 14]\n(a) Consider two unit vectors $\\boldsymbol{u}$ and $\\boldsymbol{v}$ in three-dimensional space. Prove that the vector $\\boldsymbol{u}+\\boldsymbol{v}$ bisects the angle between $\\boldsymbol{u}$ and $\\boldsymbol{v}$. [4 marks]\nConsider the points $\\mathrm{A}(2,5,4)$, $\\mathrm{B}(1,3,2)$ and $\\mathrm{C}(5,5,6)$. The line $l$ passes through B and bisects angle ABC.\n(b) Find an equation for $l$. [4 marks]\n(c) The line $l$ meets (AC) at the point D. Find the coordinates of D. [6 marks]"
+  },
+  "4": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.8",
+    "5.7",
+    "5.11",
+    "2.3"
+   ],
+   "text_clean": "4. [Maximum mark: 10]\nLet $f(x)=x\\cos x$, for $0\\le x\\le\\pi$. The curve of $f(x)$ has a local maximum at $x=a$ and a point of inflexion at $x=b$.\n(a) Sketch the graph of $f(x)$ indicating the approximate positions of $a$ and $b$. [2 marks]\n(b) Find the value of\n(i) $a$;\n(ii) $b$. [3 marks]\n(c) Use integration by parts to find an expression for $\\int x\\cos x\\,\\mathrm{d}x$. [3 marks]\n(d) Hence find the **exact** value of the area enclosed by the curve and the $x$-axis, for $0\\le x\\le\\frac{\\pi}{2}$. [2 marks]"
+  },
+  "5": {
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.9",
+    "3.6",
+    "1.15"
+   ],
+   "text_clean": "5. [Maximum mark: 19]\n(a) Show that $\\cos(A+B)+\\cos(A-B)=2\\cos A\\cos B$. [2 marks]\n(b) Let $T_n(x)=\\cos(n\\arccos x)$ where $x$ is a real number, $x\\in[-1,1]$ and $n$ is a positive integer.\n(i) Find $T_1(x)$.\n(ii) Show that $T_2(x)=2x^2-1$. [5 marks]\n(c) (i) Use the result in part (a) to show that $T_{n+1}(x)+T_{n-1}(x)=2xT_n(x)$.\n(ii) Hence or otherwise, prove by induction that $T_n(x)$ is a polynomial of degree $n$. [12 marks]"
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L9",
+    "4.L6",
+    "4.L1",
+    "4.8"
+   ],
+   "text_clean": "6. [Maximum mark: 30]\n(i) Charles knows from past experience that the number of letters per day delivered to his house by the postman follows a Poisson distribution with mean 3.\n(a) On a randomly chosen day, find the probability that two letters are delivered. [2 marks]\n(b) On another day, Charles sees the postman approaching his house so he knows that he is about to receive a delivery. Calculate the probability that he receives two letters on this day. [3 marks]\n(ii) The following is a random sample of 16 observations from a normal distribution with mean $\\mu$.\n16.9 15.0 15.8 18.7 20.9 19.9 18.6 22.1\n16.5 18.8 16.4 17.7 16.1 17.2 20.6 19.8\nCalculate a 95 % confidence interval for $\\mu$. [6 marks]\n(iii) Seven coins are thrown simultaneously 320 times. The results are shown in the table below.\nNumber of heads obtained | Frequency\n1 | 12\n2 | 43\n3 | 79\n4 | 86\n5 | 65\n6 | 29\n7 | 6\nThe null hypothesis $\\mathrm{H}_0$ is \"six of the coins are fair and the other coin has two heads\".\n(a) State, in words, the alternative hypothesis $\\mathrm{H}_1$. [2 marks]\n(b) Determine, at the 5 % significance level, whether analysis of the above data results in the acceptance or rejection of $\\mathrm{H}_0$. [7 marks]\n(iv) The heights, in cm, of men and women in a random sample were measured with the following results.\nHeights of men (cm) | 183 171 167 169 175 181 179 171 165\nHeights of women (cm) | 152 169 156 163 158 161 160 162\nIt is believed that the mean height of the men exceeds the mean height of the women by more than 10 cm. Use a one-tailed test at the 10 % level of significance to investigate whether this is true. You may assume that heights of men and women are normally distributed with the same variance. [10 marks]"
+  },
+  "7": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.5",
+    "7.2",
+    "7.6",
+    "7.8",
+    "7.7"
+   ],
+   "text_clean": "7. [Maximum mark: 30]\n(i) The relation $R$ is defined on the points $\\mathrm{P}(x,y)$ in the plane by\n$(x_1,y_1)R(x_2,y_2)$ if and only if $x_1+y_2=x_2+y_1$.\n(a) Show that $R$ is an equivalence relation. [4 marks]\n(b) Give a geometric description of the equivalence classes. [2 marks]\n(ii) The binary operation $*$ is defined for $x,y\\in\\mathbb{R}$ by\n$x*y=xy-x-y+2$.\n(a) Find the identity element of $*$. [2 marks]\n(b) Find the inverse of 3 under $*$. [2 marks]\n(c) (i) Show that $(x*y)*z=xyz-yz-zx-xy+x+y+z$.\n(ii) Determine whether or not $*$ is associative. [6 marks]\n(iii) Consider the set $S=\\{1,3,5,7,9,11,13,15\\}$ under the operation $\\otimes$, multiplication modulo 16.\n(a) Calculate\n(i) $3\\otimes5$;\n(ii) $3\\otimes7$;\n(iii) $9\\otimes11$. [3 marks]\n(b) (i) Copy and complete the operation table for $S$ under $\\otimes$.\n⊗ | 1 | 3 | 5 | 7 | 9 | 11 | 13 | 15\n1 | 1 | 3 | 5 | 7 | 9 | 11 | 13 | 15\n3 | 3 | 9 | | | | 1 | 7 | 13\n5 | 5 | | | 3 | 13 | 7 | 1 | 11\n7 | 7 | | 3 | | 15 | 13 | 11 | 9\n9 | 9 | | 13 | 15 | 1 | | 5 | 7\n11 | 11 | 1 | 7 | 13 | | | 15 | 5\n13 | 13 | 7 | 1 | 11 | 5 | 15 | 9 | 3\n15 | 15 | 13 | 11 | 9 | 7 | 5 | 3 | 1\n(ii) Assuming that $\\otimes$ is associative, show that $(S,\\otimes)$ is a group. [5 marks]\n(c) Find all elements of order\n(i) 2;\n(ii) 4. [4 marks]\n(d) Find a cyclic sub-group of order 4. [2 marks]"
+  },
+  "8": {
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8",
+    "6.10",
+    "6.7",
+    "1.15"
+   ],
+   "text_clean": "8. [Maximum mark: 30]\n(i) Find the general solution of the difference equation,\n$x_{n+2}=3x_{n+1}+28x_n$, $x_0=7$, $x_1=-6$, for $n=0,1,2,\\ldots$. [5 marks]\n(ii) (a) Define the following terms.\n(i) A bipartite graph.\n(ii) An isomorphism between two graphs, $M$ and $N$. [4 marks]\n(b) Prove that an isomorphism between two graphs maps a cycle of one graph into a cycle of the other graph. [3 marks]\n(c) The graphs $G$, $H$ and $J$ are drawn below.\n[Diagram: three graphs on 6 vertices each. G: hexagon-shaped arrangement of 6 vertices with crossing edges; H: trapezium-shaped graph with two inner vertices and crossing edges; J: rectangle with two inner vertices forming two triangles]\n(i) Giving a reason, determine whether or not $G$ is a bipartite graph.\n(ii) Giving a reason, determine whether or not there exists an isomorphism between graphs $G$ and $H$.\n(iii) Using the result in part (b), or otherwise, determine whether or not graph $H$ is isomorphic to graph $J$. [7 marks]\n(iii) The following diagram shows a weighted graph.\n[Diagram: weighted graph on vertices A, B, C, D, E, F with edge weights 11, 21, 25, 30, 31, 51, 62, 70, 85, 93, 98]\n(a) Use Kruskal's algorithm to find a minimal spanning tree for the graph. [4 marks]\n(b) Draw the minimal spanning tree and find its weight. [2 marks]\n(iv) (a) State the well-ordering principle. [2 marks]\n(b) Use the well-ordering principle to prove that, given any two positive integers $a$ and $b$, $(a<b)$, there exists a positive integer $n$ such that $na>b$. [3 marks]",
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "(iv) well-ordering principle proof by contradiction tagged 1.15; no exact taxonomy fit."
+  },
+  "9": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L6",
+    "5.L4",
+    "5.L7",
+    "5.11"
+   ],
+   "text_clean": "9. [Maximum mark: 30]\n(i) Determine whether the following series is convergent or divergent.\n$\\sum_{k=1}^{\\infty}\\cos\\left[\\frac{(k-1)\\pi}{2k}\\right]$ [5 marks]\n(ii) Let $f:x\\mapsto\\sin x$, $x\\in\\left[0,\\frac{\\pi}{2}\\right]$.\n(a) Let $A$ be the area enclosed by the graph of $f$, the $x$-axis and the line $x=\\frac{\\pi}{2}$. Find the value of $A$. [2 marks]\n(b) Using Simpson's Rule, find an approximation to $A$ with an error less than $10^{-4}$. [6 marks]\n(c) Check that the error is less than $10^{-4}$. [1 mark]\n(iii) (a) Use the mean value theorem to prove that, for all $x\\in\\left[0,\\frac{\\pi}{2}\\right]$, $\\sin x\\le x$. [2 marks]\n(b) Hence, or otherwise, prove that for all $x\\in\\left[0,\\frac{\\pi}{2}\\right]$, $\\sin x\\ge x-\\frac{x^3}{6}$. [4 marks]\n(iv) Let $S_n=\\sum_{k=1}^{n}\\frac{\\sin\\left(\\frac{k\\pi}{2}\\right)}{k+\\sin\\left(\\frac{k\\pi}{2}\\right)}$.\n(a) Show that, for $m\\in\\mathbb{Z}^+$, $S_{4m}=0$. [7 marks]\n(b) Show that $S_n\\to0$ as $n\\to\\infty$. [2 marks]\n(c) Hence, or otherwise, show that the series converges as $n\\to\\infty$, and find its limit. [1 mark]",
+   "note": "audit: series convergence (i)+(iv) ~15 marks primary; 5.L7 only in (iv)(b)"
+  },
+  "10": {
+   "topics": [
+    "8",
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "8.2",
+    "8.1",
+    "2.1",
+    "5.14"
+   ],
+   "text_clean": "10. [Maximum mark: 30]\n(i) The focus of the parabola $C$ is the point $\\mathrm{F}(a,b)$ and the equation of the directrix is $x=-a$.\n(a) (i) Find the equation of $C$ from first principles.\n(ii) Sketch $C$, marking the focus, directrix, axis of symmetry and vertex. [6 marks]\n(b) The point P with $x$-coordinate $\\frac{3a}{2}$ lies on the upper half of $C$. The tangent to $C$ at P intersects the axis of symmetry of $C$ at the point Q. The line through the vertex V of $C$ perpendicular to the tangent (PQ) intersects (PQ) at the point R. Prove that PR : RQ = 7 : 3. [12 marks]\n(c) The line through F parallel to (VR) intersects the line (PQ) at the point S. Find the coordinates of S. [4 marks]\n(ii) The diagram shows a square ABCD of side $a$. A circle, centre O, radius $r$, passes through the vertices A and B. The length of the tangent to the circle from D is $2a$.\n[Diagram: circle centre O through A and B; square ABCD of side a to the right of the circle; tangent from D touches the circle at T with DT = 2a]\nFind an expression for $r$ in terms of $a$. [8 marks]"
+  }
+ },
+ "exam_note": "Q1 ms crop extended via overrides to include the leading note box."
+}

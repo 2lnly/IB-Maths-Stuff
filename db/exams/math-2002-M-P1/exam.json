@@ -1,0 +1,507 @@
+{
+ "exam_id": "math-2002-M-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2002,
+ "session": "May",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2002 May Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2002 May Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); marks not printed; assumed 6 per question (modal markscheme value)",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2002-M-P1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. Consider the arithmetic series 2 + 5 + 8 + ....\n(a) Find an expression for Sn , the sum of the first nterms.\n(b) Find the value of nfor which Sn= 1365 .",
+   "ms_text": "n\n1. (a) S = ( 22 × + 3( n − 1) ) (M1)\nn\n2\nn\n= (3 n + 1) (A1) (C2)\n2\nn\n(b) + = ⇒ 2 + − = (M1)(A1) (3 n 1) 1365 3 n n 2730 0\n2\n− 91\n⇒ n = 30or n = (A1)\n3\nn = 30 (A1) (C4)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "1. Consider the arithmetic series $2 + 5 + 8 + \\dots$.\n(a) Find an expression for $S_n$, the sum of the first $n$ terms.\n(b) Find the value of $n$ for which $S_n = 1365$."
+  },
+  {
+   "id": "math-2002-M-P1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. A particle is projected along a straight line path.After tseconds, its velocity �metres per\n1\nsecond is given by � = .\n2 + 2t\n(a) Find the distance travelled in the first second.\n(b) Find an expression for the acceleration at time t .",
+   "ms_text": "1 d t\n2. (a) Distance = (M1)(A1) ∫\n2 0 2 + t\n1\n1 t 1 1 − 1\n= arctan or tan (A1)\n2 2 2 2\n0\n= 0.435 (A1) (C4)\nd v (b) Acceleration (M1)\n=\nd t\n− 2 t\n= (A1) (C2)\n+ 22 (2 t )\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.15",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "2. A particle is projected along a straight line path. After $t$ seconds, its velocity $v$ metres per second is given by $v = \\frac{1}{2+t^2}$.\n(a) Find the distance travelled in the first second.\n(b) Find an expression for the acceleration at time $t$."
+  },
+  {
+   "id": "math-2002-M-P1-q3",
+   "num": "3",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. (a) Express the complex number 8i in polar form.\n(b) The cube root of 8i which lies in the first quadrant is denoted by z .Express z\n(i)in polar form;\n(ii)in cartesian form.",
+   "ms_text": "=p 3. (a)\n8i = 8, arg 8i (or 1.57, 90\" ) (A1)(A1)\n2\nπ π\n8i = 8cos + i sin (C2)\n2 2\n=p\n(b) (i) z = 2, arg z (or 0.524, 30\" ) (A1)(A1)\n6\nπ π\nz = 2cos + i sin (C2)\n6 6\n(ii) z = 3 + i (or 1.73 + i) (A1)(A1) (C2)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "3. (a) Express the complex number $8\\mathrm{i}$ in polar form.\n(b) The cube root of $8\\mathrm{i}$ which lies in the first quadrant is denoted by $z$. Express $z$\n(i) in polar form;\n(ii) in cartesian form."
+  },
+  {
+   "id": "math-2002-M-P1-q4",
+   "num": "4",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. The matrix Ais given by\nÊ 2 1 k ˆ\nÁ ˜ A = 1 k – 1 .\nÁ ˜\n3 4 2 Ë ¯\nFind the values of kfor which Ais singular.",
+   "ms_text": "4. A = 2(2 k + 4) +− (5) + k (4 − 3) k (M1)(A1)\nA = 0 (M1)\n2 ⇒ 3 k − 8 k − 3 = 0 (A1)\n1\nk = 3, − (A1)(A1) (C6)\n3\nNote: Award (A2) for k = 3 with no working.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "4. The matrix $A$ is given by\n$A = \\begin{pmatrix} 2 & 1 & k \\\\ 1 & k & -1 \\\\ 3 & 4 & 2 \\end{pmatrix}$.\nFind the values of $k$ for which $A$ is singular."
+  },
+  {
+   "id": "math-2002-M-P1-q5",
+   "num": "5",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. Find the angle between the vectors v = i + j + 2kand w= 2i + 3j + k .Give your answer in\nradians.",
+   "ms_text": "5. vw ⋅ = 2 + 3 + 2 = 7 (A1)\nv = 6 (A1)\nw = 14 (A1)\nvw ⋅\nθ = arccos (M1)\nvw\n7\n= arccos (A1)\n614\n= 0.702 radians. (A1)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "5. Find the angle between the vectors $\\mathbf{v} = \\mathbf{i} + \\mathbf{j} + 2\\mathbf{k}$ and $\\mathbf{w} = 2\\mathbf{i} + 3\\mathbf{j} + \\mathbf{k}$. Give your answer in radians."
+  },
+  {
+   "id": "math-2002-M-P1-q6",
+   "num": "6",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "2\n6. (a) Use integration by parts to find x ln xx d . Ú\n.\n2\n(b) Evaluate 2Ú x ln x d x .\n1",
+   "ms_text": "3 3 x x 1\n2 6. (a)\n∫ x ln xx d = ln x − ∫ d x (M1)(A1)(A1)\n3 3 x\n3 3 x x\n= ln x − (Constant of integration not required.) (A1) (C4)\n3 9\n2 8 7 2\n= − (b) ∫ x ln xx d 1.07 or ln2 (A2) (C2)\n1 3 9\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "6. (a) Use integration by parts to find $\\int x^2 \\ln x \\, dx$.\n(b) Evaluate $\\int_1^2 x^2 \\ln x \\, dx$."
+  },
+  {
+   "id": "math-2002-M-P1-q7",
+   "num": "7",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "The probability that it rains during a summer’s day in a certain town is 0.2 .In this town, the 7.\nprobability that the daily maximum temperature exceeds 25 ∞C is 0.3 when it rains and 0.6 when\nit does not rain.Given that the maximum daily temperature exceeded 25 ∞C on a particular\nsummer’s day, find the probability that it rained on that day.",
+   "ms_text": "7.\n> 25 o(0.3)\nR(0.2)\n> 25 o(0.6)\nR (0.8) ′\n(M2)\n\" P( > 25) = 0.2 × 0.3 + 0.80.6 × = 0.54 (M1)(A1)\n0.06 1 \"\nP( R > 25) = = (or0.111) (M1)(A1) (C6)\n0.54 9\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.13"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "7. The probability that it rains during a summer's day in a certain town is 0.2. In this town, the probability that the daily maximum temperature exceeds 25 °C is 0.3 when it rains and 0.6 when it does not rain. Given that the maximum daily temperature exceeded 25 °C on a particular summer's day, find the probability that it rained on that day."
+  },
+  {
+   "id": "math-2002-M-P1-q8",
+   "num": "8",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. The vector equations of the lines L1and L2are given by\nL1 : r = i + j + k + l(i + 2j + 3k) ;\nL2 : r = i + 4 j + 5k + m(2i + j + 2k) .\nThe two lines intersect at the point P .Find the position vector of P .",
+   "ms_text": "8. Solve 1 + λ =+ 1 2,1 µ + 2 λ = 4 + µ ,13 + λ = 5 + 2 µ (M1)(A1)\nSolving, λ = 2, (or µ = 1) . (A1)\n3 i + 5 j + 7 k P has position vector . (A1)(A1)(A1) (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "8. The vector equations of the lines $L_1$ and $L_2$ are given by\n$L_1: \\mathbf{r} = \\mathbf{i} + \\mathbf{j} + \\mathbf{k} + \\lambda(\\mathbf{i} + 2\\mathbf{j} + 3\\mathbf{k})$;\n$L_2: \\mathbf{r} = \\mathbf{i} + 4\\mathbf{j} + 5\\mathbf{k} + \\mu(2\\mathbf{i} + \\mathbf{j} + 2\\mathbf{k})$.\nThe two lines intersect at the point P. Find the position vector of P."
+  },
+  {
+   "id": "math-2002-M-P1-q9",
+   "num": "9",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. When John throws a stone at a target, the probability that he hits the target is 0.4 .He throws\na stone 6 times.\n(a) Find the probability that he hits the target exactly 4 times.\n(b) Find the probability that he hits the target for the first time on his third throw.",
+   "ms_text": "6\n4 2 9. (a) Probability = × (0.4) × (0.6) (M1)(A1)\n4\n432\n= 0.138 accept or 0.13824 (A2) (C4)\n3125\n18 2\n(b) Probability = (0.6) × 0.4 = 0.144 (M1)(A1) (C2)\nor 125\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "9. When John throws a stone at a target, the probability that he hits the target is 0.4. He throws a stone 6 times.\n(a) Find the probability that he hits the target exactly 4 times.\n(b) Find the probability that he hits the target for the first time on his third throw."
+  },
+  {
+   "id": "math-2002-M-P1-q10",
+   "num": "10",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "The angleqsatisfies the equation tanq + cotq = 3 , where qis in degrees.Find all the possible 10.\nvalues of qlying in the interval ]0∞, 90∞[ .",
+   "ms_text": "10. METHOD 1\n1 2\ntan θ + = 3 ⇒ tan θ − 3tan θ += 1 0 (M1)\ntan θ\n3 ± 5\ntan θ = (A1)\n2\n= 0.382, 2.618 (A1)(A1)\nθ= \" \" (A1)(A1) (C6) 20.9, 69.1\nMETHOD 2\nsin θ cos θ 1\n+ = ⇒ = (M1)(A1) 3 3\nθ θ θ θ cos sin sincos\n1 3\n⇒ = (A1)\nsin 2 θ 2\n2\n⇒ sin 2 θ = (A1)\n3\n\" \" ⇒ θ = 20.9, 69.1 (A1)(A1) (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.9",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "10. The angle $\\theta$ satisfies the equation $\\tan\\theta + \\cot\\theta = 3$, where $\\theta$ is in degrees. Find all the possible values of $\\theta$ lying in the interval $]0°, 90°[$."
+  },
+  {
+   "id": "math-2002-M-P1-q11",
+   "num": "11",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. The weights of a certain species of bird are normally distributed with mean 0.8 kg and standard\ndeviation 0.12 kg.Find the probability that the weight of a randomly chosen bird of the species\nlies between 0.74 kg and 0.95 kg.",
+   "ms_text": "− − 0.95 0.8 0.74 0.8\n11. P(0.74 < X < 0.95) = Φ −Φ (M1)(A1)\n0.12 0.12\n= Φ (1.25) −Φ− (0.5) (A1)\n= 0.8944 −(1−0.6915) (A1)(A1)\n= 0.586 (A1) (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "11. The weights of a certain species of bird are normally distributed with mean 0.8 kg and standard deviation 0.12 kg. Find the probability that the weight of a randomly chosen bird of the species lies between 0.74 kg and 0.95 kg."
+  },
+  {
+   "id": "math-2002-M-P1-q12",
+   "num": "12",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "The function fis defined on the domain [0 , p] by f (q) = 4 cos q + 3 sin q . 12.\n<p\n(a) Express f (q) in the form R cos (q – a) where 0 < a .\n2\n(b) Hence, or otherwise, write down the value of qfor which f (q) takes its maximum value.",
+   "ms_text": "12. (a) f () θ = R coscos θ α + R sinsin θ α (M1)\nR cos α = 4, R sin α = 3 (M1)\n3\n= α = = R 5, arctan 0.644 (A1)(A1)\n4\nf () θ = 5cos( θ − 0.644) (C4)\n(b) f () θ is maximum when θ = α (M1)\nθ= 0.644 i.e. radians (A1) (C2)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "12. The function $f$ is defined on the domain $[0, \\pi]$ by $f(\\theta) = 4\\cos\\theta + 3\\sin\\theta$.\n(a) Express $f(\\theta)$ in the form $R\\cos(\\theta - \\alpha)$ where $0 < \\alpha < \\frac{\\pi}{2}$.\n(b) Hence, or otherwise, write down the value of $\\theta$ for which $f(\\theta)$ takes its maximum value."
+  },
+  {
+   "id": "math-2002-M-P1-q13",
+   "num": "13",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. The figure below shows part of the curve y= x3– 7x2+ 14x – 7 .The curve crosses the x-axis\nat the points A , B and C .\ny\n0 A B C x\n(a) Find the x-coordinate of A .\n(b) Find the x-coordinate of B .\n(c) Find the area of the shaded region.",
+   "ms_text": "13. (a) At A, x = 0.753 (G2) (C2)\n(b) At B, x = 2.45 (G2) (C2)\n2.45\n(c) Area yx = 1.78 (M1)(G1) (C2) ∫ 0.753d\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms"
+   ],
+   "text_clean": "13. The figure below shows part of the curve $y = x^3 - 7x^2 + 14x - 7$. The curve crosses the $x$-axis at the points A, B and C.\n[Diagram: cubic curve crossing the positive x-axis at A, B and C; the region between the curve and the x-axis from A to B (above the axis) is shaded]\n(a) Find the $x$-coordinate of A.\n(b) Find the $x$-coordinate of B.\n(c) Find the area of the shaded region.",
+   "review_note": "audit: area part carries most marks; as 2008-M-P2-TZ2-q3"
+  },
+  {
+   "id": "math-2002-M-P1-q14",
+   "num": "14",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "The 80 applicants for a Sports Science course were required to run 800 metres and their times 14.\nwere recorded.The results were used to produce the following cumulative frequency graph.\n80\n70\n60\n50\nCumulative frequency 40\n30\n20\n10\n< < <\n0 < < <\n120 130 140 150 160\nTime (seconds)\nEstimate\n(a) the median;\n(b) the interquartile range.",
+   "ms_text": "14. (a) Median = 135 (A2) (C2)\n(b) Q =130 , Q =141 (A1)(A1) 1 2\nIQ Range = 141130 − = 11 (M1)(A1) (C4)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.2",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms"
+   ],
+   "text_clean": "14. The 80 applicants for a Sports Science course were required to run 800 metres and their times were recorded. The results were used to produce the following cumulative frequency graph.\n[Graph: cumulative frequency (0 to 80) against time in seconds (120 to 160); S-shaped curve rising from 0 at 120 s to 80 at about 156 s, passing about 20 at 130 s and about 57 at 140 s]\nEstimate\n(a) the median;\n(b) the interquartile range."
+  },
+  {
+   "id": "math-2002-M-P1-q15",
+   "num": "15",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "2 x – 1\n15. The one–one function fis defined on the domain x > 0 by fx () = .\nx + 2\n(a) State the range, A , of f .\n(b) Obtain an expression for f–1(x) , for x Œ A .",
+   "ms_text": "1 , 2\n15. (a) A = − (A1)(A1) (C2)\n2\n2 x − 1\n(b) (A1) y =\nx + 2\n⇒ yx + 2 y = 2−1 x (M1)\n⇒ 2 y +1 = 2− x yx = x (2 − y ) (M1)\n1 + 2 y\n⇒ x =\n− 2 y\n+ − 1 1 2 x\n⇒ f () x = (A1) (C4)\n2 − x\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.2",
+    "2.13"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "15. The one–one function $f$ is defined on the domain $x > 0$ by $f(x) = \\frac{2x-1}{x+2}$.\n(a) State the range, $A$, of $f$.\n(b) Obtain an expression for $f^{-1}(x)$, for $x \\in A$."
+  },
+  {
+   "id": "math-2002-M-P1-q16",
+   "num": "16",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "16. Find the set of values of xfor which (ex– 2)(ex– 3) ≤2ex.",
+   "ms_text": "x x x x 16. 2e − 7e + 6 ≤ 0 ⇒ (e − 1)(e − 6) ≤ 0 (M1)(A1)\nx ⇒≤ 1 e ≤ 6 (A1)(A1)\n0 ≤ x ≤ ln6 (or 1.79) (A1)(A1) (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.15",
+    "2.9",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "16. Find the set of values of $x$ for which $(e^x - 2)(e^x - 3) \\le 2e^x$."
+  },
+  {
+   "id": "math-2002-M-P1-q17",
+   "num": "17",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "17. A curve has equation xy3+ 2x2y = 3 .Find the equation of the tangent to this curve at the\npoint (1, 1) .",
+   "ms_text": "d y d y 3 2 2\n17. y + 3 xy + 4 xy + 2 x = 0 (M1)(A1)\nd x d x\n3 d y − ( y + 4 xy )\n⇒ = (A1)\n2 2 d x 3 xy + 2 x\nd y\nAt (A1)\n(1,1), d x= −1\nEquation of tangent is y −= − 1 1( x − 1)or x + y = 2 (A2) (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "17. A curve has equation $xy^3 + 2x^2y = 3$. Find the equation of the tangent to this curve at the point $(1, 1)$."
+  },
+  {
+   "id": "math-2002-M-P1-q18",
+   "num": "18",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "18. A transformation Tof the plane is represented by the matrix\n2 3 ˆ T= Ê\n.\nËÁ ¯˜ 1 2\n(a) T transforms the point P to the point (8 , 5) .Find the coordinates of P.\n(b) Find the coordinates of all points which are transformed to themselves under T .",
+   "ms_text": "18. (a) 2 x + 3 y = 8and x + 2 y = 5 ⇒ x = 1, y = 2 (M1)(A1)(A1)\nP is (1, 2) (C3)\n(b) 2 x + 3 y = x and x + 2 y = y ⇒ x = y = 0 (M1)(A1)\n(0, 0) is transformed to itself. (A1) (C3)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "18. A transformation $T$ of the plane is represented by the matrix\n$T = \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix}$.\n(a) $T$ transforms the point P to the point $(8, 5)$. Find the coordinates of P.\n(b) Find the coordinates of all points which are transformed to themselves under $T$."
+  },
+  {
+   "id": "math-2002-M-P1-q19",
+   "num": "19",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "A rectangle is drawn so that its lower vertices are on the x-axis and its upper vertices are on 19.\nthe curve y = e–x2.The area of this rectangle is denoted by A .\n(a) Write down an expression for Ain terms of x .\n(b) Find the maximum value of A .",
+   "ms_text": "2 2\n= × − x = 2 − x 19. (a) A 2 x e x e (M1)(A1) (C2)\nd A 2 − x 2\n(b) = 2(1 − 2 x )e (A2)\nd x\nd A 1\n0when x = x= (A1)\nd 2\n− 1\n2\n= A 2e (or 0.858) (A1) (C4)\nmax\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "19. A rectangle is drawn so that its lower vertices are on the $x$-axis and its upper vertices are on the curve $y = e^{-x^2}$. The area of this rectangle is denoted by $A$.\n(a) Write down an expression for $A$ in terms of $x$.\n(b) Find the maximum value of $A$."
+  },
+  {
+   "id": "math-2002-M-P1-q20",
+   "num": "20",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "20. The diagram below shows the graph of y1 = f (x) , 0 ≤x ≤4 .\ny\nx 0 1 2 3 4\nx\nOn the axes below, sketch the graph of y ft () d t , marking clearly the points of inflexion. 2=Ú\n0\ny\nx 0 1 2 3 4",
+   "ms_text": "20.\ndenote pts of inflexion\ny\nx 0\n1 2 3 4\n(A2)(A2)(A2) (C6)\nNote: Award (A2) for the shape, and (A2) for each point of inflexion.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.7",
+    "5.L4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms",
+    "topic-uncertain"
+   ],
+   "text_clean": "20. The diagram below shows the graph of $y_1 = f(x)$, $0 \\le x \\le 4$.\n[Graph: curve starting at the origin, rising to a maximum at x = 1, crossing the x-axis at x = 2, falling to a minimum near x = 3, then rising towards x = 4]\nOn the axes below, sketch the graph of $y_2 = \\int_0^x f(t)\\,dt$, marking clearly the points of inflexion.\n[Blank axes: x from 0 to 4]",
+   "review_note": "Sketching accumulation function y2 = integral of f; FTC relationship (5.L4) plus f/f'/f'' behaviour (5.7)."
+  }
+ ],
+ "status": "done"
+}

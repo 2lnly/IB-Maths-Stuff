@@ -1,0 +1,349 @@
+{
+ "exam_id": "math-2014-M-P1-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2014,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2014 May Examination Session/Mathematics_paper_1_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2014 May Examination Session/Mathematics_paper_1_TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); code M14/5/MATHL/HP1/ENG/TZ2/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2014-M-P1-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\n2 11 2\nEvents A and B are such that P() A = , P() B = and P(|) AB= .\n5 20 11\n∩ (a) Find P( A B ) . [2]\n(b) Find P( A ∪ B ) . [2]\n(c) State with a reason whether or not events A and B are independent. [2]",
+   "ms_text": "1. (a) P( A ∩ B ) = P( AB | ) × PB ()\n2 11\nP( A ∩ B ) = × (M1)\n11 20\n1\n= A1\n10\n[2 marks]\n(b) P( A ∪ B ) = P() A + PB () − P( A ∩ B )\n2 11 1\n∪ = + − (M1) P( A B )\n5 20 10\n17\n= A1\n20\n[2 marks]\n(c) No – events A and B are not independent A1\nEITHER\nP( AB | ) ≠ P() A R1\n2 2 ⎛ ⎞\n≠ ⎜ ⎟\n⎝ 11 5 ⎠\nOR\nP() A × PB () ≠ P( A ∩ B )\n2 11 11 1\n× = ≠ R1\n5 20 50 10\nNote: The numbers are required to gain R1 in the ‘OR’ method only.\nNote: Do not award A1R0 in either method.\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nEvents $A$ and $B$ are such that $P(A)=\\frac{2}{5}$, $P(B)=\\frac{11}{20}$ and $P(A|B)=\\frac{2}{11}$.\n(a) Find $P(A\\cap B)$. [2]\n(b) Find $P(A\\cup B)$. [2]\n(c) State with a reason whether or not events $A$ and $B$ are independent. [2]"
+  },
+  {
+   "id": "math-2014-M-P1-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nx 1 3 x Solve the equation 8 −= 6 . Express your answer in terms of ln2 and ln3.",
+   "ms_text": "2. METHOD 1\n3( x 1) 3 x 2 −= (23) × M1\nNote: Award M1 for writing in terms of 2 and 3.\n3 x × − 3 = 3 x × 3 x 2 2 2 3\n2 −= 3 3x 3 A1\n( − 3 ) ( 3 ) ln2 = ln3x (M1)\n− 3ln2 = 3ln3 x A1\nln2\nx = − A1\nln3\nMETHOD 2\nx 1 3 x ln8 −= ln6 (M1)\n3 ( x − 1)ln2 = 3ln(23) x × M1A1\n3ln2 x − 3ln2 = 3ln2 x + 3ln3 x A1\nln2\nx = − A1\nln3\nMETHOD 3\nx 1 3 x ln8 −= ln6 (M1)\n− = A1 ( x 1)ln8 3ln6 x\nln8\nx = A1\nln8 − 3ln6\n3ln2\nx = M1\n3 ⎛ 2 ⎞\n⎜ ⎟ ln6 3\n⎝ ⎠\nln2\nx = − A1\nln3\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nSolve the equation $8^{x-1}=6^{3x}$. Express your answer in terms of $\\ln 2$ and $\\ln 3$."
+  },
+  {
+   "id": "math-2014-M-P1-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\n(a) Show that the following system of equations has an infinite number of solutions. [2]\nx + y + 2 z = − 2\n3 x − y + 14 z = 6\nx + 2 y = − 5\nThe system of equations represents three planes in space.\n(b) Find the parametric equations of the line of intersection of the three planes. [3]",
+   "ms_text": "3. (a) EITHER\n⎛ 1 1 2 − 2 ⎞ ⎛ 1 1 2 − 2 ⎞\n⎜ ⎟ ⎜ ⎟\nM1 3 − 1146 → 0 1 −− 2 3\n⎜ ⎟ ⎜ ⎟\n⎜ ⎟ ⎜ ⎟ 1 2 0 − 5 0 0 0 0\n⎝ ⎠ ⎝ ⎠\nrow of zeroes implies infinite solutions, (or equivalent). R1\nNote: Award M1 for any attempt at row reduction.\nOR\n1 1 2\n3 − 114 = 0 M1\n1 2 0\n1 1 2\n3 − 114 = 0 with one valid point R1\n1 2 0\nOR\nx + y + 2 z = − 2\n3 x − y + 14 z = 6\nx + 2 y = − 5 ⇒ x = −− 5 2 y\nsubstitute x = −− 5 2 y into the first two equations:\n−− 5 2 y + y + 2 z = − 2\nM1\n3(5 −− 2) y − y + 14 z = 6\n−+ y 2 z = 3\n− 7 y + 14 z = 21\nthe latter two equations are equivalent (by multiplying by 7) therefore an\ninfinite number of solutions. R1\nOR\nfor example, 7 × R − R gives 4 x + 8 y = − 20 M1\n1 2\nthis equation is a multiple of the third equation, therefore an infinite\nnumber of solutions. R1\n(b) let y = t M1\nthen = −− A1 x 5 2 t\nt + 3\nz = A1\n2\nOR\nlet x = t M1\n−− 5 t\nthen y = A1\n2\n1 − t\nz = A1\n4\nOR\nlet z = t M1\nthen x =− 1 4 t A1\ny = −+ 3 2 t A1\nOR\nattempt to find cross product of two normal vectors:\ni j k\neg: 1 1 2 = − 4 i + 2 j + k M1A1\n1 2 0\nx =− 1 4 t\ny = −+ 3 2 t\nz = t A1\n(or equivalent)\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.16",
+    "3.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\n(a) Show that the following system of equations has an infinite number of solutions. [2]\n$x+y+2z=-2$\n$3x-y+14z=6$\n$x+2y=-5$\nThe system of equations represents three planes in space.\n(b) Find the parametric equations of the line of intersection of the three planes. [3]"
+  },
+  {
+   "id": "math-2014-M-P1-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\n2 The roots of a quadratic equation 2 x + 4 x −= 1 0 are α and β .\nWithout solving the equation,\n2 2 (a) find the value of α + β ; [4]\n2 2 (b) find a quadratic equation with roots α and β. [2]",
+   "ms_text": "4. (a) using the formulae for the sum and product of roots:\nα + β = − 2 A1\n1\nαβ= − A1\n2\n2 2 2 α + β = ( α + β ) − 2 αβ M1\n⎛ 1 ⎞ 2\n=− (2) − 2 − ⎜ ⎟\n2 ⎝ ⎠\n= 5 A1\n[4 marks]\nNote: Award M0 for attempt to solve quadratic equation.\n2 2 2 2 2 2 2 (b) ( x − α )( x − β ) = x − ( α + β ) x + αβ M1\n2\n⎛ 1 ⎞ 2\n− +− = A1 x 5 x ⎜ ⎟ 0\n⎝ 2 ⎠\n1 2\nx − 5 x + = 0\n4\nNote: Final answer must be an equation. Accept alternative correct forms.\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nThe roots of a quadratic equation $2x^2+4x-1=0$ are $\\alpha$ and $\\beta$.\nWithout solving the equation,\n(a) find the value of $\\alpha^2+\\beta^2$; [4]\n(b) find a quadratic equation with roots $\\alpha^2$ and $\\beta^2$. [2]"
+  },
+  {
+   "id": "math-2014-M-P1-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nx\n(a) Sketch the graph of y = for 0 ≤ x ≤π . 8 [2]\ncos4\nx 1 =\n(b) Solve for 0 ≤ x ≤π . 8 [3]\ncos4\n2",
+   "ms_text": "5. (a)\nA1A1\nNote: Award A1 for correct shape and A1 for correct domain and range.\n[2 marks]\n⎛ x 1\n(b) ⎞= ⎜ ⎟\ncos4\n⎝ ⎠ 2\n4π\nx = A1\n3\nattempting to find any other solutions M1\nNote: Award (M1) if at least one of the other solutions is correct\n(in radians or degrees) or clear use of symmetry is seen.\n4 π 20 π\nx =π − 8 =\n3 3\n4 π 8 π\nx =π − 4 =\n3 3\n4 π 16 π\nx =π + 4 = A1\n3 3\nNote: Award A1 for all other three solutions correct and no extra solutions.\nNote: If working in degrees, then max A0M1A0.\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.7",
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\n(a) Sketch the graph of $y=\\left|\\cos\\left(\\frac{x}{4}\\right)\\right|$ for $0\\le x\\le 8\\pi$. [2]\n(b) Solve $\\left|\\cos\\left(\\frac{x}{4}\\right)\\right|=\\frac{1}{2}$ for $0\\le x\\le 8\\pi$. [3]"
+  },
+  {
+   "id": "math-2014-M-P1-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\n→ →\nPQRS is a rhombus. Given that PQ = a and QR = b ,\n→ →\n(a) express the vectors PR and QS in terms of a and b ; [2]\n(b) hence show that the diagonals in a rhombus intersect at right angles. [4]",
+   "ms_text": "→\n6. (a) PR = a + b A1\n→\nQS = b − a A1\n[2 marks]\n→ →\n(b) PRQS ⋅ = ( a + b )( ⋅ b − a ) M1\n2 2\n= b − a A1\nfor a rhombus a = b R1\n2 2\nhence b − a = 0 A1\nNote: Do not award the final A1 unless R1 is awarded.\nhence the diagonals intersect at right angles AG\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nPQRS is a rhombus. Given that $\\vec{PQ}=\\boldsymbol{a}$ and $\\vec{QR}=\\boldsymbol{b}$,\n(a) express the vectors $\\vec{PR}$ and $\\vec{QS}$ in terms of $\\boldsymbol{a}$ and $\\boldsymbol{b}$; [2]\n(b) hence show that the diagonals in a rhombus intersect at right angles. [4]"
+  },
+  {
+   "id": "math-2014-M-P1-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\n+ + Consider the complex numbers u = 2 3i and v = 3 2i .\n1 10 Given that 1\n(a) + = , express w in the form a + b i, ab , ∈ϒ. [4]\nu v w\ni (b) Find w∗ and express it in the form reθ. [3]",
+   "ms_text": "7. (a) METHOD 1\n1 1 2 − 3i 3 − 2i\n+ = + M1A1\n2 + 3i 3 + 2i 4 + 9 9 + 4\n10 5 − 5i\n= A1\nw 13\n130\nw =\n5 − 5i\n1305(1i) ×× +\n=\n50\nw = 1313i + A1\n[4 marks]\nMETHOD 2\n1 1 3 + 2i + 2 + 3i\n+ = M1A1\n2 + 3i 3 + 2i (2 + 3i)(3 + 2i)\n10 5 + 5i\n= A1\nw 13i\n13i\nw=\n10 5 + 5i\n130i (5 − 5i)\nw = ×\n(5 + 5i) (5 − 5i)\n650 + 650i\n=\n50\n= 1313i + A1\n[4 marks]\n(b) w∗= 1313i − A1\nπ π\n− i ⎛ − i ⎞\nz = 338 e 4 = 132 e 4 A1A1 ⎜ ⎟\n⎝ ⎠\n7 π\nNote: Accept θ = .\n4\nDo not accept answers for θ given in degrees.\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nConsider the complex numbers $u=2+3i$ and $v=3+2i$.\n(a) Given that $\\frac{1}{u}+\\frac{1}{v}=\\frac{10}{w}$, express $w$ in the form $a+bi$, $a,b\\in\\mathbb{R}$. [4]\n(b) Find $w^*$ and express it in the form $re^{i\\theta}$. [3]"
+  },
+  {
+   "id": "math-2014-M-P1-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nThe function f is defined by\n1 − 2, x x ≤ 2\nfx () =\n3 ( 2 x − 2) − 3, x > 2\n4\n(a) Determine whether or not f is continuous. [2]\nThe graph of the function g is obtained by applying the following transformations to the\ngraph of f:\na reflection in the y–axis followed by a translation by the vector 2\n.\n0\n(b) Find gx. () [4]",
+   "ms_text": "3 (2 2 8. (a) 12(2) − = − and 3 − 2) − 3 = − 3 A1\n4\nboth answers are the same, hencef is continuous (at x = 2 ) R1\nNote: R1 may be awarded for justification using a graph or referring\nto limits. Do not award A0R1.\n[2 marks]\n(b) reflection in the y-axis\n1 + 2, x x ≥− 2\n⎧⎪\nf ( − x ) = ⎨ (M1)\n3 ( 2 x + 2) − 3, x < − 2\n⎪⎩ 4\nNote: Award M1 for evidence of reflecting a graph in y-axis.\n⎛⎞ translation 2\n⎜⎟\n⎝⎠ 0\n2 x − 3, x ≥ 0\n⎧⎪\ngx () = ⎨ (M1)A1A1 3\n2 x − 3, x < 0\n⎪⎩ 4\nNote: Award (M1) for attempting to substitute ( x − 2) for x , or\ntranslating a graph along positive x-axis.\nAward A1 for the correct domains (this mark can be awarded\nindependent of the M1).\nAward A1 for the correct expressions.\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.11",
+    "5.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nThe function $f$ is defined by\n$f(x)=\\begin{cases}1-2x, & x\\le 2\\\\ \\frac{3}{4}(x-2)^2-3, & x>2\\end{cases}$\n(a) Determine whether or not $f$ is continuous. [2]\nThe graph of the function $g$ is obtained by applying the following transformations to the graph of $f$:\na reflection in the $y$-axis followed by a translation by the vector $\\begin{pmatrix}2\\\\0\\end{pmatrix}$.\n(b) Find $g(x)$. [4]"
+  },
+  {
+   "id": "math-2014-M-P1-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\nπ π\nx 2 x − < x < The first three terms of a geometric sequence are sin, sin2 x x and 4sincos , .\n2 2\n(a) Find the common ratio r . [1]\n(b) Find the set of values of x for which the geometric series x + x + x 2 x sin sin2 4sincos +Κ\nconverges. [3]\n1\nConsider x = arccos , x > 0 .\n4\n15\n(c) Show that the sum to infinity of this series is . [3]\n2",
+   "ms_text": "2 9. (a) sin, sin2 x x and 4sincos x x\n2sincos x x\nr = = 2cos x A1\nsin x\nx Note: Accept sin2\n.\nsin x\n[1 mark]\n(b) EITHER\nr <⇒ 1 2cos x < 1 M1\nOR\n−< 1 r <⇒−< 1 1 2cos x < 1 M1\nTHEN\n1 π π\n0 < cos x < for − < x <\n2 2 2\nπ π π π\n− < < − or < < A1A1 x x\n2 3 3 2\n[3 marks]\nsin x\n(c) S M1\n∞=−\n12cos x\n⎛ ⎛ 1 ⎞ ⎞\n⎜ ⎟ sinarccos4 ⎜ ⎟\n⎝ ⎠ ⎝ ⎠\nS∞ =\n⎛ ⎛ 1 ⎞ ⎞\n1 −\n2cosarccos4 ⎜ ⎜ ⎟ ⎟\n⎝ ⎝ ⎠ ⎠\n15\n4\n= A1A1\n1\n2\nNote: Award A1 for correct numerator and A1 for correct denominator.\n15\n= AG\n2\n[3 marks]\nTotal [7marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.8",
+    "1.8",
+    "3.9",
+    "3.6",
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nThe first three terms of a geometric sequence are $\\sin x$, $\\sin 2x$ and $4\\sin x\\cos^2 x$, $-\\frac{\\pi}{2}<x<\\frac{\\pi}{2}$.\n(a) Find the common ratio $r$. [1]\n(b) Find the set of values of $x$ for which the geometric series $\\sin x+\\sin 2x+4\\sin x\\cos^2 x+\\dots$ converges. [3]\nConsider $x=\\arccos\\left(\\frac{1}{4}\\right)$, $x>0$.\n(c) Show that the sum to infinity of this series is $\\frac{\\sqrt{15}}{2}$. [3]"
+  },
+  {
+   "id": "math-2014-M-P1-TZ2-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 7]\n2 a d x 1\n= θ = ( + π − ) Use the substitution x a sec to show that ∫ 33 6 .\n3 2 2 3 a 2 x x − a 24 a",
+   "ms_text": "10. x = a sec θ\nd x\na sec θ tan θ\nθ=\nd (A1)\nnew limits:\nπ π\n= ⇒ θ = = ⇒ θ = (A1) x a 2 and x 2 a\n4 3\nπ\na sectan θ θ\n3 ∫ d θ M1\nπ 3 3 2 2 2\n4 a sec θ a sec θ − a\nπ 2\ncos\n3 θθ = ∫ d A1\nπ 3\na\n4\n1 2\nusing cos θ = ( cos2 θ + 1 ) M1\n2\nπ\n1 ⎡ ⎤ 3 1 sin2\nθ + θ or equivalent A1\n3 ⎢ ⎥ 2 a 2 π\n⎣ ⎦\n4\n⎛ ⎞ 1 3 2 π π\n= ⎜ + −− 1 ⎟ or equivalent A1\n3 4 a 2 3 2\n⎝ ⎠\n1\n( ) = 33 + π − 6 AG\n3 24a\n[7 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 7]\nUse the substitution $x=a\\sec\\theta$ to show that $\\int_{a\\sqrt{2}}^{2a}\\frac{dx}{x^3\\sqrt{x^2-a^2}}=\\frac{1}{24a^3}\\left(3\\sqrt{3}+\\pi-6\\right)$."
+  },
+  {
+   "id": "math-2014-M-P1-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 12,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 12]\n(a) Mobile phone batteries are produced by two machines. Machine A produces 60% of the\ndaily output and machine B produces 40% . It is found by testing that on average 2% of\nbatteries produced by machine A are faulty and 1% of batteries produced by machine B\nare faulty.\n(i) Draw a tree diagram clearly showing the respective probabilities.\n(ii) A battery is selected at random. Find the probability that it is faulty.\n(iii) A battery is selected at random and found to be faulty. Find the probability that it\nwas produced by machine A. [6]\n(b) In a pack of seven transistors, three are found to be defective. Three transistors are\nselected from the pack at random without replacement. The discrete random variable X\nrepresents the number of defective transistors selected.\n(i) Find P( X= 2) .\n(ii) Copy and complete the following table:\nx 0 1 2 3\n= P( X x )\n(iii) Determine E( X. ) [6]",
+   "ms_text": "11. (a) (i)\nA1A1\nNote: Award A1 for a correctly labelled tree diagram and A1 for correct\nprobabilities.\n(ii) P() F= 0.60.02 × + 0.40.01 × (M1)\n= 0.016 A1\nP( A ∩ F )\n(iii) P( AF | ) =\nP() F\n0.60.02 × ⎛ 0.012 ⎞\n= = M1 ⎜ ⎟\n0.016 ⎝ 0.016 ⎠\n= 0.75 A1\n[6 marks]\n(b) (i) METHOD 1\n3 4 C × C\n2 1 P( X = 2) = (M1)\n7 C\n3\n12\n= A1\n35\nMETHOD 2\n3 2 4\n× × × 3 (M1)\n7 6 5\n12\n= A1\n35\n(ii)\nx 0 1 2 3\n4 18 12 1\nP( X = x ) 35 35 35 35\nA2\nNote: Award A1 if4 , 18 or 1 is obtained.\n35 35 35\n(iii) E( X ) = ∑ x P( X = x )\n4 18 12 1\nE( X= ) 0 × +× 1 +× 2 +× 3 M1\n35 35 35 35\n45 9 ⎛ ⎞\n= A1 = ⎜ ⎟\n35 ⎝ 7 ⎠\n[6 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.13",
+    "4.7",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 12]\n(a) Mobile phone batteries are produced by two machines. Machine A produces 60% of the daily output and machine B produces 40%. It is found by testing that on average 2% of batteries produced by machine A are faulty and 1% of batteries produced by machine B are faulty.\n(i) Draw a tree diagram clearly showing the respective probabilities.\n(ii) A battery is selected at random. Find the probability that it is faulty.\n(iii) A battery is selected at random and found to be faulty. Find the probability that it was produced by machine A. [6]\n(b) In a pack of seven transistors, three are found to be defective. Three transistors are selected from the pack at random without replacement. The discrete random variable $X$ represents the number of defective transistors selected.\n(i) Find $P(X=2)$.\n(ii) Copy and complete the following table:\n$x$ | 0 | 1 | 2 | 3\n$P(X=x)$ | | | |\n(iii) Determine $E(X)$. [6]"
+  },
+  {
+   "id": "math-2014-M-P1-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 18]\nGiven the points A(1, 0, 4), B(2, 3, − 1) and C(0, 1, − 2) ,\n(a) find the vector equation of the line [2] 1L passing through the points A and B .\nx − 1 y + 2 z − 1\nThe line L has Cartesian equation = .\n2 =−\n3 1 2\n(b) Show that L are skew lines. [5] 1L and\n2\nConsider the plane Π, parallel to both lines 1L and L. Point C lies in the plane Π.\n1 2 1\n(c) Find the Cartesian equation of the plane Π. [4]\n1\n3 k\nThe line 3L has vector equation r = 0 + λ 1 .\n1 − 1\nThe plane Π has Cartesian equation x + y = 12 .\n2\nThe angle between the line Π is 60ο. 3L and the plane\n2\n(d) (i) Find the value of k .\n(ii) Find the point of intersection P of the line Π. [7] 3L and the plane\n2",
+   "ms_text": "⎛ 1 ⎞ ⎛ − 1 ⎞\n→ → ⎜ ⎟ ⎜ ⎟\n12. (a) direction vector AB 3 or BA =− 3 A1 = ⎜\n⎟ ⎜ ⎟\n⎜ ⎟ ⎜ ⎟\n⎝ − 5 ⎠ ⎝ 5 ⎠\n⎛⎞ 1 ⎛ 1 ⎞ ⎛ 2 ⎞ ⎛ 1 ⎞\n⎜⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\nr = 0 + t 3 or r = 3 + t 3 or equivalent A1\n⎜⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n⎜⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n⎝⎠ 4 ⎝ − 5 ⎠ ⎝ − 1 ⎠ ⎝ − 5 ⎠\nNote: Do not award final A1 unless ‘ r =K ’ (or equivalent) seen.\nAllow FT on direction vector for final A1.\n[2 marks]\n(b) both lines expressed in parametric form:\n1L:\nx =+ 1 t\ny = 3 t\nz = 4 − 5 t\nL:\n2\nx =+ 1 3 s\ny = −+ 2 s M1A1\nz = − 2 s + 1\nNotes: Award M1 for an attempt to convert L from Cartesian to\n2\nparametric form.\nAward A1 for correct parametric equations for L. 1L and\n2\nAllow M1A1 at this stage if same parameter is used in both lines.\nattempt to solve simultaneously for x and y : M1\n1 +=+ t 13 s\n= −+ 3 t 2 s\n3 1\nt = − , s = − A1\n4 4\n31\nsubstituting both values back into z values respectively gives z =\n4\n3\nand z = so a contradiction R1\n2\ntherefore 1L and L are skew lines AG\n2\n[5 marks]\n(c) finding the cross product:\n⎛ 1 ⎞⎛ 3 ⎞\n⎜ ⎟⎜ ⎟\n× (M1) 3 1\n⎜ ⎟⎜ ⎟\n⎜ ⎟⎜ ⎟\n− 5 − 2 ⎝ ⎠⎝ ⎠\n= −− i 13 j − 8 k A1\nNote: Accept i + 13 j + 8 k\n− 1(0)13(1) − − 8(2) − = 3 (M1)\n⇒−− x 13 y − 8 z = or equivalent 3 A1\n[4 marks]\n⎛ k ⎞⎛⎞ 1\n⎜ ⎟⎜⎟\n1 ⋅ 1\n⎜ ⎟⎜⎟\n⎜ ⎟⎜⎟\n⎝ − 1 ⎠⎝⎠ 0\n(d) (i) ( cos θ = ) M1\n2 k ++× 11 11 +\nNote: Award M1 for an attempt to use angle between two vectors formula.\n3 k + 1\n= A1\n2 2 2( k + 2)\nobtaining the quadratic equation\n2 2 4( k + 1) = 6( k + 2) M1\n2 k − 4 k + 4 = 0\n2 ( k − 2) = 0\nk = 2 A1\nNote: Award M1A0M1A0 if cos60o is used ( k = 0 or k= − 4) .\n3 2 ⎛⎞ ⎛ ⎞\n⎜⎟ ⎜ ⎟\n(ii) r = 0 + λ 1\n⎜⎟ ⎜ ⎟\n⎜⎟ ⎜ ⎟\n⎝⎠ 1 ⎝ − 1 ⎠\nsubstituting into the equation of the plane Π:\n2\n+ λ + λ = M1 3 2 12\nλ= 3 A1\npoint P has the coordinates:\n(9, 3, − 2) A1\n9 ⎛ ⎞\n⎜ ⎟\nNotes: Accept 9 i + 3 j − 2 k and 3 .\n⎜ ⎟\n⎜ ⎟\n⎝ − 2 ⎠\nDo not allow FT if two values found for k.\n[7 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.15",
+    "3.17",
+    "3.16",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 18]\nGiven the points A$(1, 0, 4)$, B$(2, 3, -1)$ and C$(0, 1, -2)$,\n(a) find the vector equation of the line $L_1$ passing through the points A and B. [2]\nThe line $L_2$ has Cartesian equation $\\frac{x-1}{3}=\\frac{y+2}{1}=\\frac{z-1}{-2}$.\n(b) Show that $L_1$ and $L_2$ are skew lines. [5]\nConsider the plane $\\Pi_1$, parallel to both lines $L_1$ and $L_2$. Point C lies in the plane $\\Pi_1$.\n(c) Find the Cartesian equation of the plane $\\Pi_1$. [4]\nThe line $L_3$ has vector equation $\\boldsymbol{r}=\\begin{pmatrix}3\\\\0\\\\1\\end{pmatrix}+\\lambda\\begin{pmatrix}k\\\\1\\\\-1\\end{pmatrix}$.\nThe plane $\\Pi_2$ has Cartesian equation $x+y=12$.\nThe angle between the line $L_3$ and the plane $\\Pi_2$ is $60^\\circ$.\n(d) (i) Find the value of $k$.\n(ii) Find the point of intersection P of the line $L_3$ and the plane $\\Pi_2$. [7]"
+  },
+  {
+   "id": "math-2014-M-P1-TZ2-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 16]\nx + 1\nThe graph of the function fx () =\n2 + is shown below. x 1\ny\nA(1, 1) point of inflexion\n1\nx\n–5 –4 –3 –2 –1 1 2 3 4 5 6\n–1\n(a) Find f ′ () x . [2]\n(b) Hence find the x-coordinates of the points where the gradient of the graph of f is zero. [1]\npx ()\n(c) Find f ′′ () x expressing your answer in the form , where px is a polynomial ()\nx+ 2 3 ( 1)\nof degree 3. [3]\nThe point (1, 1) is a point of inflexion. There are two other points of inflexion.\nFind the x-coordinates of the other two points of inflexion. [4] (d)\nπ −\n(e) Find the area of the shaded region. Express your answer in the form ln b ,\na\nwhere a and b are integers. [6]",
+   "ms_text": "2 ⎛ ⎞ ( x + 1 ) − 2( xx + 1) 2\n− x − 2 x + 1\n13. (a) ′ ⎜ ⎟ M1A1 f () x = =\n2 2\n( 2 ) ⎜ ( 2 ) ⎟ x + 1 x + 1\n⎝ ⎠\n[2 marks]\n2 − x − 2 x + 1\n(b) = 0\n2 2\n( x + 1 )\nx = −± A1 1 2\n[1 mark]\n2 2 2 2 (2 − x − 2)( x + 1) − 2(2)( x x + 1)( − x − 2 x + 1)\n(c) ′′ = A1A1 f () x\n4\n( 2 ) x + 1\n2 2 Note: Award A1 for (2 − x − 2) ( x + 1 ) or equivalent.\n2 2 Note: Award A1 for − 2(2) x ( x + 1 )( − x − 2 x + 1 ) or equivalent.\n(2 − x − 2) ( x 2 + 1 ) − 4 x ( − x 2 − 2 x + 1 )\n=\n3 2\n( x + 1 )\n3 2 2 x + 6 x − 6 x − 2\n= A1\n2 3 ( x + 1 )\n⎛ 3 2 ⎞\n2 ( x + 3 x − 3 x − 1 )\n⎜ ⎟ =\n3 ⎜ 2 ⎟\n( x + 1 )\n⎝ ⎠\n[3 marks]\n(d) recognition that ( x − 1) is a factor (R1)\n( 2 )( 3 2 ) ( x − 1) x + bx + c = x + 3 x − 3 x − 1 M1\n2 ⇒ x + 4 x += 1 0 A1\nx = −± 2 3 A1\nNote: Allow long division / synthetic division.\n[4 marks]\n0 x +\n(e) 1 d M1 ∫ x\n2 − 1 x + 1\nx + 1 x 1\nd x = d x + d x M1 ∫ ∫ ∫\n2 2 2 x + 1 x + 1 x + 1\n1 ln ( 2 ) = x + 1 + arctan() x A1A1\n2\n0\n1 1 1 ⎡ 2 ⎤\n= ln ( x + 1 ) + arctan() x = ln1arctan0 + − ln2 − arctan(1) − M1\n⎢ ⎥\n⎣ 2 ⎦ 2 2 − 1\nπ\n= − ln 2 A1\n4\n[6 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.15",
+    "5.8",
+    "5.7",
+    "5.6",
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 16]\nThe graph of the function $f(x)=\\frac{x+1}{x^2+1}$ is shown below.\n[Graph: curve of $y=f(x)$ for $-5\\le x\\le 6$, crossing the x-axis at $x=-1$ and the y-axis at 1, with a maximum just right of the y-axis; point A(1, 1) marked as a point of inflexion; region between the curve and the x-axis from $x=-1$ to $x=0$ shaded]\n(a) Find $f'(x)$. [2]\n(b) Hence find the $x$-coordinates of the points where the gradient of the graph of $f$ is zero. [1]\n(c) Find $f''(x)$ expressing your answer in the form $\\frac{p(x)}{(x^2+1)^3}$, where $p(x)$ is a polynomial of degree 3. [3]\nThe point $(1, 1)$ is a point of inflexion. There are two other points of inflexion.\n(d) Find the $x$-coordinates of the other two points of inflexion. [4]\n(e) Find the area of the shaded region. Express your answer in the form $\\frac{\\pi}{a}-\\ln\\sqrt{b}$, where $a$ and $b$ are integers. [6]"
+  },
+  {
+   "id": "math-2014-M-P1-TZ2-q14",
+   "num": "14",
+   "section": "B",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14. [Maximum mark: 14]\nConsider the following functions:\nhx () = arctan() x , x∈ϒ\n1\n= gx () , x∈ϒ, x ≠ 0\nx\n(a) Sketch the graph of y = hx () . [2]\n(b) Find an expression for the composite function hgx ο () and state its domain. [2]\nGiven that fx () = hx () + hgx () , ο\n(c) (i) find f ′ () x in simplified form;\nπ\n(ii) show that fx () = for x > 0 . [7]\n2\nNigel states that f is an odd function and Tom argues that f is an even function.\n(d) (i) State who is correct and justify your answer.\n(ii) Hence find the value of fx for () x < 0 . [3]",
+   "ms_text": "14. (a)\nA1A1\nπ\nNote: A1 for correct shape, A1 for asymptotic behaviour at y = ± .\n2\n[2 marks]\n⎛ 1 ⎞\n(b) hgx o () = arctan ⎜ ⎟ A1\n⎝ x ⎠\ndomain of hg o is equal to the domain of g : x∈°, x ≠ 0 A1\n[2 marks]\n⎛ 1 ⎞\n(c) (i) fx () = arctan() x + arctan ⎜ ⎟\n⎝ x ⎠\n1 1 1\nf ′ () x = + ×− M1A1\n2 1 2 1 + x x\n1 +\nx 2\n1\n−\n2 1 x\nf ′ () x = + (A1)\n2 2 1 + x x + 1\n2 x\n1 1\n= −\n+ 2 + 2 1 x 1 x\n= 0 A1\n(ii) METHOD 1\nf is a constant R1\nwhen x > 0\nπ π\n= + M1A1 f (1)\n4 4\nπ\n= AG\n2\nMETHOD 2\nfrom diagram\n1\nθ= A1\narctan x\nα = arctan x A1\nπ\nθ + α = R1\n2\nπ\nhence fx () = AG\n2\nMETHOD 3\n⎛ ⎛ 1 ⎞ ⎞\ntan ( fx () ) = tanarctan() x + arctan M1 ⎜ ⎜ ⎟ ⎟\nx ⎝ ⎝ ⎠ ⎠\n1\nx +\nx\n= A1\n⎛ 1 ⎞\n1 −\nxx ⎜ ⎟\n⎝ ⎠\nπ\ndenominator = 0 , so fx () = (for x > 0 ) R1\n2\n[7 marks]\n(d) (i) Nigel is correct. A1\nMETHOD 1\narctan() x is an odd function and 1\nx is an odd function\ncomposition of two odd functions is an odd function and sum\nof two odd functions is an odd function R1\nMETHOD 2\n⎛ 1 ⎞ ⎛ 1 ⎞\nf ( − x ) = arctan( − x ) + arctan ⎜ − ⎟ = − arctan() x − arctan ⎜ ⎟ = − fx ()\n⎝ x ⎠ ⎝ x ⎠\ntherefore f is an odd function. R1\nπ\n(ii) fx () = − A1\n2\n[3 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.6",
+    "2.14",
+    "2.5",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "14. [Maximum mark: 14]\nConsider the following functions:\n$h(x)=\\arctan(x)$, $x\\in\\mathbb{R}$\n$g(x)=\\frac{1}{x}$, $x\\in\\mathbb{R}$, $x\\ne 0$\n(a) Sketch the graph of $y=h(x)$. [2]\n(b) Find an expression for the composite function $h\\circ g(x)$ and state its domain. [2]\nGiven that $f(x)=h(x)+h\\circ g(x)$,\n(c) (i) find $f'(x)$ in simplified form;\n(ii) show that $f(x)=\\frac{\\pi}{2}$ for $x>0$. [7]\nNigel states that $f$ is an odd function and Tom argues that $f$ is an even function.\n(d) (i) State who is correct and justify your answer.\n(ii) Hence find the value of $f(x)$ for $x<0$. [3]"
+  }
+ ],
+ "status": "done"
+}

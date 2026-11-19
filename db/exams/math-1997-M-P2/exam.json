@@ -1,0 +1,244 @@
+{
+ "exam_id": "math-1997-M-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 1997,
+ "session": "May",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/1997 May Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/1997 May Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "identity from filename only (no readable cover); session from path only; 1 duplicate copies (1 byte-identical size, 1 donated/scanned); question paper is a scan (no text layer); markscheme is a scan (no text layer); question paper OCR'd (scan); markscheme OCR'd (scan); marks sum matches paper total 120",
+ "qp_pages": 12,
+ "questions": [
+  {
+   "id": "math-1997-M-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 17]\n(a) Draw a diagram showing the region R bounded by the curve\ny =sin x, the x-axis and the linesx =0and x=k,0<k<m. [1 mark]\nCalculate the area of the region R [2 marks]\nCalculate thé volume of the solid obtained by rotating the region R\nthrough 360°-about the x-axis. [4 marks]\n(i) An accounting firm randomly selects three employees from ten applicants\nto attend a convention. Six of the applicants are men and four of them are\nwomen. Assume X is the number of women selected and that each\nselection is independent of the others. Find the expected value, E(X), and\nthe variance, Var(X) [4 marks]\n(i) On average, 10% of light bulbs manufactured by a company are defective.\nUse the normal approximation to the binomial distribution to determine\nthe probability that more than 12% of a random sample of 200 bulbs are\ndefective. [6 marks]",
+   "ms_text": "1. (a) y (A1)\n771/,\n0 3 b3\n(b) Area = fsinxdx =[-cosx]* =1-cosk (M1)(AD)\n{c) Volume required = “J‘: sin® xdx = ﬂLkl_:_?;sidx M1(Al)\nT sin2x)]*\nE[(x— 5 )il = Z(Zk —sin2k)\n(M1)(A1)\n0\n(ii) The random variable X has a hypergeometric distribution.\nE(X)=(—33-(64—)-=%=-§-=12 (MI)(AL)\n4(10-4)3(10-3) (24)(2) 14\nV = = = e—=\n10°(10-1) (100)(%) 25 036 MDAD\nR\n3 76 o\n14 2-\n1\nV(X)'25 056 S’IUJ)L \\,J\\& ,M’\\.z\nz 7% 4 2%\nS\nf #?\\.‘3 b 1 ' 20\n¢ . 5\nNe\n~n) Yy\nz N 0% ! > q\n(iii) Let X be the number ot defective bulbs, p be the probability of finding a defective\nbulb.\nX is a binomial random variable.\nsample size n =200\np=0.1\nE(X)=np=20\nStandard deviation of ¥ =(200)(0(09) = |7\n=424~ (MI1)(A2)\nWe want the probability that in a random sample of 200 bulbs more than 24, i.e. 25\nor more, are defective.\nUsing continuity correction, we want to find p(Y 2245) where Y is normally\ndistributed with mean 2.0 and standard deviation 4.24. Ml1)\nHence p(X >24) = p(Y 2245)\np(z > 2452_420) = p(z21061)\n0144 (3 significant figures)\n(MI1)(Al)",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.8",
+    "4.12",
+    "4.L10",
+    "5.17",
+    "5.11",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "1. [Maximum mark: 17]\n(i) (a) Draw a diagram showing the region $R$ bounded by the curve $y=\\sin x$, the $x$-axis and the lines $x=0$ and $x=k$, $0<k<\\pi$. [1 mark]\n(b) Calculate the area of the region $R$. [2 marks]\n(c) Calculate the volume of the solid obtained by rotating the region $R$ through $360^\\circ$ about the $x$-axis. [4 marks]\n(ii) An accounting firm randomly selects three employees from ten applicants to attend a convention. Six of the applicants are men and four of them are women. Assume $X$ is the number of women selected and that each selection is independent of the others. Find the expected value, $E(X)$, and the variance, $\\mathrm{Var}(X)$. [4 marks]\n(iii) On average, 10% of light bulbs manufactured by a company are defective. Use the normal approximation to the binomial distribution to determine the probability that more than 12% of a random sample of 200 bulbs are defective. [6 marks]",
+   "review_note": "(ii) is hypergeometric E/Var (no dedicated code; tagged 4.7/4.14). | audit: (ii) hypergeometric E/Var -> new 4.L10 (replaces stand-in 4.7/4.14)"
+  },
+  {
+   "id": "math-1997-M-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 18]\nA rubber ball is dropped from a height of 81 metres. Each time it strikes\nthe ground it rebounds two thirds of the distance through which it has\nfallen.\nFind the maximum height of the ball between the fifth bounce and the\nsixth bounce. [3 marks]\n(b) What is the total distance travelled by the ball from when it is dropped\nto the time it strikes the ground for the sixth time? [4 marks]\nAssume that the ball continues to bounce indefinitely. What is the total\ndistance travelled by the ball? [3 marks]\n(i) The sum of the first three numbers in an arithmetic sequence is 24 . If the\nfirst number is decreased by 1 and the second number is decreased by 2,\nthen the third number and the two new numbers are in geometric sequence.\nFind all possible sets of three numbers which are in the arithmetic\nsequence. [8 marks]",
+   "ms_text": "2. (i) The successive distance through which the ball falls form a geometric sequence with first\nterm 81 and the common ratio\n(a) The maximum height of the ball between the fifth and the sixth bounce is\n5\n(M2)(A1) (31)(2.) =§_2_ metre.\n3 3\n0.}\nThe total distance traveled by the ball from the time it is dropped until it strikes the\nground the sixth time is\n=-63ﬁ+%=%2=362% metres (M2)(A2)\nNote: Some candidates may calculate the total distance as follows:\n2 3 4\nTotal distance =81+2x {54+54(§) 5{%] +54{§) +54(§J\n2 5\n—g1+108 23 — =81+324(243—42)\n12 243\n3\n=81+281§= 362% metres Award (M2)(42)\n(c) If the ball continues to bounce indefinitely, then the distance traveled is\n81 54\n(M2)(A1) =1—_—-Z—+:2-=243+162=405 metres\n3\nNote: Some candidates may also mention distance traveled\n(2\n=81+108 1+-§+...)\n1\n=81+108) —7 |=81+324\n1..~_.\n3\n405 metres\nAward (M2)(41)\n(if) FIRST METHOD\nLet the three numbers in arithmetic progression be X, x +7, x +27 . Their sum is\nX+(x+r)+(x+2r)=3x+3r=24\nHence x+r=8 or r=8-x (M1)(Al)\nWe are also given that x ~1,x+r -2 and x +2r are in geometric progression. So\nX+r-2 x+2r\nx-1 x+r-2\nor (x+7r=2)2 =(x=1)(x+27).\n(M1)(A1)\nSubstituting x+r=8 and r =8—x , we get\n(8-2)* =(x-D{x+2(8-x)}\nor (x-1)(16~-x)=36\nor -x’ +17x-16=36\nor x*=17x+52=0\nHence, x=13 or 4 (M1)(A1)\nThe solutions are obtained by taking x=13,r =8-13=-5andx=4,r=4.\nSo there are two sets of solutions\nviz. 13,8,3and 4,8, 12 (RI)(R1)\nSECOND METHOD\nSince the three numbers are in arithmetic progression with sum equal to 24, let the numbers\nbe 8—x, 8, 8+x. (M1)(A1)\nFrom these we form the new numbers 7-x, 6, 8+ x which are in geometric progression.\nHence (7-x)8+x)=6° (MI)(A1)\nWe get +x-20=01ic. (x+5)(x—4)=0\nHence, x=~50rx=4 (M1)(A1)\nWhen x =4, the numbers are 4, 8, 12\nand when x = -5, the numbers are 13, 8, 3 (M1)(AD)",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.3",
+    "1.2",
+    "1.8",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "2. [Maximum mark: 18]\n(i) A rubber ball is dropped from a height of 81 metres. Each time it strikes the ground it rebounds two thirds of the distance through which it has fallen.\n(a) Find the maximum height of the ball between the fifth bounce and the sixth bounce. [3 marks]\n(b) What is the total distance travelled by the ball from when it is dropped to the time it strikes the ground for the sixth time? [4 marks]\n(c) Assume that the ball continues to bounce indefinitely. What is the total distance travelled by the ball? [3 marks]\n(ii) The sum of the first three numbers in an arithmetic sequence is 24. If the first number is decreased by 1 and the second number is decreased by 2, then the third number and the two new numbers are in geometric sequence. Find all possible sets of three numbers which are in the arithmetic sequence. [8 marks]"
+  },
+  {
+   "id": "math-1997-M-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 20]\n(a) The line L, is parallel to the vector » =3 i+ J+3k and passes through the\npoint (2, 3, 7). Find a vector equation of the line.\n[3 marks]\nThe equation of a plane, E, is given by 2x + 3y —4z+ 21 =0. Find the\npoint of intersection of the line L, and the plane E. [3 marks]\nFind the equation of a plane which passes through the point (1, 2, 3) and\nis parallel to the plane E\n[3 marks]\n(d) The parametric equations of another line L, are\nx=t,y=t,andz=—¢,—0<t<o,\nShow that\nL, is not parallel to L,;\n(i) L, does not intersect L,. [4 marks]\nLet O be the origin and P be the point (— 1, 2, 4).\n(1) Find a vector w which is parallel to the line L,.\n—9\n(i) Find the vector PO.\n(iii) Find the shortest distance d between the lines L, and L, by using the\nformula\n5 5\nd= PO-(vxw)\n[7 marks]\nxw]|",
+   "ms_text": "(2) Line L, passes through (2, 3, 7}nd is parallel to ¥ =37 + F+3k.\nHence the parametric equation of the line is\nF=xi+y+2k=Q7 +3] +7k)+ + ] +3k), —w<t<wo (M2)(A1)\n(b) x=2+3¢,y=3+t,z~7+3¢ is any puint on the line. To find the point of intersection of the\nline and the plane 2x+3y~4z+21=0. Substitute x=2+3t,y=3+1,z=7+3¢ in the\nequation of the plane and we get\n22+36)+3(3+1)-4(7+3t)+21=0\nor 4+9-28+(6+3-12)t4+21 = 0\nor -d=-6ort=2\n(MD(AD)\nHence the point of intersection is (8, 5, 13). (AD)\n(c) Let E, be the plane which passes through the point (1, 2, 3) and parallel to the plane\n2x+3y—4z+21=0. Normal to E, is 27 + 3] -4k . (M1)\nSince (1, 2, 3) lies on E,, the equation of the plane E, is\n2x-1)+3(y-2)-4(z-3)=0\n(M1)\nL, hasequation x=t,y=tandz=~f, —w<t<w.\nHence L, is parallel to the vector i + j\nSince L, is parallel to the vector 37 + J+3k, L, isnot parallel to L,. MD(RI1)\n(i) A point on the line L,is givenby x=s5,y=sandz=-s, —co<s<o If L\nintersects L, , then the equations\n2+3t=s M\n3+t=5 #))]\nT+3t=-s 3)\nwill hold.\n5 1\nFrom (2) and (3) 10+4¢ =0 ort=—-2-.Butfrom(l)and(2) 2t—1=00rt=-2-.\nThus the system of equations (1), (2) and (3) are inconsistent. Hence L, does not\nintersect L, . MI1)(RI)\nL, is parallel to the vector w=1i +j —k (AD)\nPO=T -2j -4k (1)\n(Al)\n(iii) Pxw={3 1 3|=—47+6j+2k (M1)(A1)\n11 -1\nx = |47 +2k|= /56\n(41)\nHence, d=l 0*(v_>'<w)‘=|(z—2]—-4k)-(—4i+6j+2k)|\nBxal | V56\n736 Vit HAD",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.14",
+    "3.18",
+    "3.15",
+    "3.17",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "3. [Maximum mark: 20]\n(a) The line $L_1$ is parallel to the vector $\\vec{v}=3\\vec{i}+\\vec{j}+3\\vec{k}$ and passes through the point $(2,3,7)$. Find a vector equation of the line. [3 marks]\n(b) The equation of a plane, $E$, is given by $2x+3y-4z+21=0$. Find the point of intersection of the line $L_1$ and the plane $E$. [3 marks]\n(c) Find the equation of a plane which passes through the point $(1,2,3)$ and is parallel to the plane $E$. [3 marks]\n(d) The parametric equations of another line $L_2$ are $x=t$, $y=t$, and $z=-t$, $-\\infty<t<\\infty$. Show that\n(i) $L_1$ is not parallel to $L_2$;\n(ii) $L_1$ does not intersect $L_2$. [4 marks]\n(e) Let $O$ be the origin and $P$ be the point $(-1,2,4)$.\n(i) Find a vector $\\vec{w}$ which is parallel to the line $L_2$.\n(ii) Find the vector $\\overrightarrow{PO}$.\n(iii) Find the shortest distance $d$ between the lines $L_1$ and $L_2$ by using the formula $d=\\left|\\dfrac{\\overrightarrow{PO}\\cdot(\\vec{v}\\times\\vec{w})}{|\\vec{v}\\times\\vec{w}|}\\right|$. [7 marks]"
+  },
+  {
+   "id": "math-1997-M-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 25,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 25]\n(M) Let 4=|2 7Y\n1 0\n(a) Calculate 42 and A43.\n[2 marks]\n(b) Conjecture a matrix for 4\", ne N*, in terms of 7.\n3 marks]\nUse mathematical induction to prove your conjecture in part (b). [5 marks]\n(ii) The diagram shows the graph of the function y = f(x), where\nax+b\nf(x)=\nex?+dx+e\nwith f(—%] =0,f£(0) = i— The lines x = —4, x = —1 and the x-axis are\nall asymptotes.\nAV\n1 N\nUsing the information given, find the values of a ,b,c,dand e. [4 marks]\n(b) Find the intervals for which f'(x) <0 [3 marks]\n(c) Using the values of a, b, ¢, d and e found in part (a), express f(x) in\npartial fractions. [3 marks]\n(d) Prove that (——;—,OJ is a point of inflexion.\n[3 marks]\n(e) Find the intervals for which f\"(x) >0 [2 marks]",
+   "ms_text": "4 0@ o= =[3 “2]\n(41) |1 0] 2 -1\ns [3 =2T2 -1] [4 -3\nA\n41) |2 0 3 =2\n1\nConjective: A\" = [n: 'il):l forallnelN (A3) If all the 4 entries are\ncorrect, -1 for each error.\n(c) Let P(n) be the statement that\n4= n+l -n\n-(n-1)\nP(1) is true because\nA= 2 -1\nSuppose P(k) is true for some k eN\".\n(M1)\nThen\nk+1 -k T2 -1 k+1 _ 4k\n=44 [k —(k—l)]:l o]\n[2k+2-k —(k+1)\n|2k-k-1) -k\n[(k+1)+1 —(k+1)\n(M1)(A1)\nk+1 —({(k+1D)-1)\nHence P(k+1) is true,\nBy mathematical induction P(n) is true forall n eN\"\n(RD\nGiven f(x)=—2=0\nex“+dx+e\nff‘L’/z) =2\n5 T\n5 ——2-a+b ‘SC\\_-Zb =C\nfl-=|=0 implies\n2 2 +£d+e 3\nHence S . / 3 i\nD=0 o S\nSince x =-1and x are asymptotes,\nox’ +dx+e=(x+1)(x+4)=x> +5x+4.\nHence\nc=l,d=5ande=4,\n3.\nAlso f (0)=Z implics\nb_5 orb=\"-\ne 4\nSince e=4,b=5,\nUsing in (1), we get\n5\n—5a+5=0 ora=2\nHence,\na=2,b=5,c=1,d=5ande=4\n(M3)(41)\nSince f'(x) <0 when f(x) is decreasing, we see from the given graph of f(x) that\nf(x) is decreasing when x < -4, -4 <x<-1andx>-1. Hence f'(x) <0 when\nx<—4, —4<x<~-1and x>-1. (AD)(AL)(AL)\n47\ni\nx=-l|\ne e = o e e e\nNote: Some candidates may calculate f'(x) and conclude\n2x% +10x+17\nS®=- (%2 +5x +4)? M1)\nSince 2x* +10x+17>0 forall x, (MI)\nf'(x) <0 for all values of x for which f(x) is defined viz.\nx<—4, ~4<x<-l, -1<x_ (R1)\ns A B _AGeDBaed\nf(x)—(x+4)(x+1)_x+4+x+l— x+4)(x+1)\n(4+B)x+(4+4B)=2x+5 M\nThus, on equating coefficients of like powers of x,\nA+B=2and A+4B=5 H\nFrom these two equations, we get, B=1and 4 =1 . Hence\nfoy=—— @) M2)(41)\nx+4 x+1\nfr@)==(x+4)7 (x+1)?\nand\n=2x+8)> +2(x+ D> e ?)\naof 5.1\nWhen x=—5,f (x)=2(-5f4j +2(—;,—+1)\nSince f'(¥) is ncgative throughout (—4, —1), f''(x) =0 when x = r—g , F'(x)\nchanges signat x = —% .Hence x = —% is a point of inflection. (M2)(R1)\n(e) f\"(x)>0 when 4 <x<—% and (A1)(Al)\nNote: Some candidates may write f''(x) >0 if\n(x+D(x+4)* +(x+1)*(x+4)>0\n(x+DE+H|(x+4)’ +(x+D’}>0\n1.€.\n(FHDx+4)(2x+5)(x* +5x+13)>0\nSince x? +5x+13>0 forallx,\nf\"\"(x)>0 when —4<Jc<—-E orx>-1\n2 (MI)(AI)",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "1.15",
+    "1.L1",
+    "1.11",
+    "5.7",
+    "5.6",
+    "5.2",
+    "2.13"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "4. [Maximum mark: 25]\n(i) Let $A=\\begin{pmatrix}2&-1\\\\1&0\\end{pmatrix}$.\n(a) Calculate $A^2$ and $A^3$. [2 marks]\n(b) Conjecture a matrix for $A^n$, $n\\in\\mathbb{N}^*$, in terms of $n$. [3 marks]\n(c) Use mathematical induction to prove your conjecture in part (b). [5 marks]\n(ii) The diagram shows the graph of the function $y=f(x)$, where $f(x)=\\dfrac{ax+b}{cx^2+dx+e}$ with $f\\left(-\\frac{5}{2}\\right)=0$, $f(0)=\\frac{5}{4}$. The lines $x=-4$, $x=-1$ and the $x$-axis are all asymptotes.\n[Graph: rational function with vertical asymptotes $x=-4$ and $x=-1$, horizontal asymptote the $x$-axis; crosses the $x$-axis at $(-\\frac{5}{2},0)$ and the $y$-axis at $(0,\\frac{5}{4})$; decreasing on each branch]\n(a) Using the information given, find the values of $a$, $b$, $c$, $d$ and $e$. [4 marks]\n(b) Find the intervals for which $f'(x)<0$. [3 marks]\n(c) Using the values of $a$, $b$, $c$, $d$ and $e$ found in part (a), express $f(x)$ in partial fractions. [3 marks]\n(d) Prove that $\\left(-\\frac{5}{2},0\\right)$ is a point of inflexion. [3 marks]\n(e) Find the intervals for which $f''(x)>0$. [2 marks]"
+  },
+  {
+   "id": "math-1997-M-P2-q5",
+   "num": "5",
+   "section": "B",
+   "marks": 40,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "S. [Maximum mark: 40]\n(1) Let R* be the set of real numbers excluding 0. A binary operation # on R*\nis defined by a#b = b|a|, where | a| is the absolute value of a\n(a) Is the set R* closed under this binary operation? Justify your answer. [2 marks]\n(b) Prove that # is\"an associative binary operation on R*.\n[2 marks]\nFind all nuriibers k in R* so that k#a = a\n[2 marks]\n(d) Let ae R*. Corresponding to each k obtained in part (c), find all\nnumbers m e R* so that atm =k\n[2 marks]\nDoes (R*, #) form a group? Justify your answer. [2 marks]\n(f) Consider (S,#) where S= {re R|x<0} and # is the binary\noperation defined above. Prove that (S, #) is a group. [3 marks]\n(i) Let (G, be a group.\n(a) Leta, b, c be elements of G. Prove thatif ae b = aec,thenb=c. [4 marks]\n(b) Prove that the group (G, e) has exactly one identity. [3 marks]\n(c) Prove that each element of the group (G, ) has exactly one inverse. [3 marks]\n(i) (a) Define a cyclic group and the term ‘generator’ of a cyclic group. [4 marks]\n(b) Let H be the set {a, b, c, d} and let = be the binary operation on H\nas given below.\na b c d\na a b c d\nb b c d a\nc c d a b\nd d a b c\nAssummg associativity of the binary operation * on H, prove that\nis a cyclic group. [5 marks]\n(c) Find the two generators of (H , %) [2 marks]\n(d) Find all proper subgroups of (H , *) [3 marks]\nCan the group (H, x) have a subgroup of order 3? Give a reason for\nyour answer. [3 marks]",
+   "ms_text": "5. () R\"=R-{0}anda#b=b|a|\n(a) Yes. R’ is closed under the binary operation # since a#b=>b|a|eR and when\na#0 |a|#0, then b0, o0 imply a#b=0 . Thus a#b eR’ (CI)(RI)\nbaj 40\nLet a,b,ceR\". Then (a#b)#c=(blal) #c=c|blall=c|bllal=a#(c|b])\n=a#(b#c). Hence # is an associative binary operation on R\" . (M1)(R1)\nIf kR’ such that k#a=a,then alk|=a.Hence |k|=1.Thus k=-1or1l.\n(MI1)(R1).\n(d) We want m so that a#m=1ora#m=-1.a#m=m|a| impliesm=li or —i\nal la]’\n(M1)(R1)\n(R\",#) can not be a group because in that case there is an element ¢ €R\" so that\na#e=e#a=a forcvery a€R’. But affe=aimpliesela|=a ore=l—a—[ which is\na\nnot a constant. So we do not have an identity in R” and hence (R\",#) isnot a\nErovp. E\\« wlx-J«%ﬂ\n(M1)(A1)\nS={xeR|x<0}anda#b=b|a|<0 foralla,beS.\nSo # is a closed binary operation. Also for all a, b,\n(a#b)#c:(b[al)#c=c|b|a||=c{b||a|=a#(c|b{)=a#(b#c),\nThus # is an associative binary operation on . (RI1)\n—1 is the identity, since forany a €S, a#e=ela|=a and e#a=alel=a.\nCorresponding to each a €5 there is _Il-f €S, sothat a #(—I—l-l] = [—I—lJ fa=-1.\na a a\n1\nHence —m is the inverse of a. (R1)\n(i) (2) 1 aeb=aecimpliesa™ e(aeb)=a'e(aec).\nBy associativity, we have\n(@'ea)eb = (@' ea)ec\nor esh = geoc\nor b=c, where e is the identity element of (G, ) . (M2)(42)\nLet e,€’ be two identities (if possible) in (G, o)\nFrom aee=g—-agae’ ,weget cme’, (M2)(R1)\nso identity is unique.\nRemark: Some candidates may attempt the problem as follows:\ne=¢e¢ =¢ impliese=¢e'\nAward (M2)(R1)\nSuppose, for some a there are two inverses viz. ¢! and 5. Then\naeal=e=qeb, By cancellation law g™ =5 . Hence each element of the group G\nhas exactly one inverse. ) (M2)(R1)\n(1ii) (2) A group (G, ) is said to be cyclic if there exists an element a €(G, o)\nsuch that G = {a\" |n eZ} . The element a is called a generator. (C2)(C2)\nBy the structure of the Cayley table given for (H, *), * is a closed binary operation\non H. a is the identity. Each element of H has an inverse as mentioned below:\nElement of H Inverse\na a\nb d\nc c\nd b\nSince * is given to be associative, (5, *) is a group. (M2)(A1)\n=a,b' =502 =¢,b° =dand b* =a\nThus (H,*) is a cyclic group with a generator b. (MI1)(AD)\nOne can, in a similar manner, show that d is a generator for the cyclic group (H,*),\nsince\nd'=d,d*=c,d*=bandd*=a.\nSo the two generators are b and 4. (M1)(A41)\nThe subgroups of (H,*) are {a}, {a,c} and H. (M2)\nThe proper subgroups of (H,3} are% /aﬂd {a,c}. & 5 (R1)\n(H,*) can not have any subgroup of order 3 because Lagrange’s theorem requires\nthat the order of a subgroup divides the order of a group and (#,+) is a group of\norder four. (M2)(R1)\nRemark: Some candidates may mention that by Lagrange’s theorem (/, *) can\nonly have subgroups of order 1, 2 or 4. Hence, (H,*) can not have\nany subgroup of order 3. (M2)(R1)\nGraph Theory",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.4",
+    "7.6",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Abstract Algebra",
+   "text_clean": "5. [Maximum mark: 40]\n(i) Let $\\mathbb{R}^*$ be the set of real numbers excluding 0. A binary operation $\\#$ on $\\mathbb{R}^*$ is defined by $a\\#b=b|a|$, where $|a|$ is the absolute value of $a$.\n(a) Is the set $\\mathbb{R}^*$ closed under this binary operation? Justify your answer. [2 marks]\n(b) Prove that $\\#$ is an associative binary operation on $\\mathbb{R}^*$. [2 marks]\n(c) Find all numbers $k$ in $\\mathbb{R}^*$ so that $k\\#a=a$. [2 marks]\n(d) Let $a\\in\\mathbb{R}^*$. Corresponding to each $k$ obtained in part (c), find all numbers $m\\in\\mathbb{R}^*$ so that $a\\#m=k$. [2 marks]\n(e) Does $(\\mathbb{R}^*,\\#)$ form a group? Justify your answer. [2 marks]\n(f) Consider $(S,\\#)$ where $S=\\{x\\in\\mathbb{R}\\mid x<0\\}$ and $\\#$ is the binary operation defined above. Prove that $(S,\\#)$ is a group. [3 marks]\n(ii) Let $(G,\\bullet)$ be a group.\n(a) Let $a,b,c$ be elements of $G$. Prove that if $a\\bullet b=a\\bullet c$, then $b=c$. [4 marks]\n(b) Prove that the group $(G,\\bullet)$ has exactly one identity. [3 marks]\n(c) Prove that each element of the group $(G,\\bullet)$ has exactly one inverse. [3 marks]\n(iii) (a) Define a cyclic group and the term 'generator' of a cyclic group. [4 marks]\n(b) Let $H$ be the set $\\{a,b,c,d\\}$ and let $*$ be the binary operation on $H$ as given below.\n* | a b c d\na | a b c d\nb | b c d a\nc | c d a b\nd | d a b c\nAssuming associativity of the binary operation $*$ on $H$, prove that $(H,*)$ is a cyclic group. [5 marks]\n(c) Find the two generators of $(H,*)$. [2 marks]\n(d) Find all proper subgroups of $(H,*)$. [3 marks]\n(e) Can the group $(H,*)$ have a subgroup of order 3? Give a reason for your answer. [3 marks]"
+  },
+  {
+   "id": "math-1997-M-P2-q6",
+   "num": "6",
+   "section": "B",
+   "marks": 40,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 40]\n(1) Consider the following graph.\n3\nWrite down the adjacency matrix of the graph above. [3 marks]\n(b) Write down the incidence matrix of the graph above.\n[3 marks]\nHow many ways are there to go from v, to v, traversing exactly four\nedges, not necessarily distinct?\n(Example: v, €1, V3, €, V3,8,V ,8,,) marks]\n(d) What is an Eulerian circuit? Does the above graph contain an\nEulerian circuit? Justify your answer. [3 marks]\n(e) What is a Hamiltonian circuit? Does the above graph contain a\nHamiltonian circuit? Justify your answer. [3 marks]\n(ii) In the graph below, the vertices represent towns in a mountainous region,\nand the numbers on the edges represent the costs (in hundreds of thousands\nof dollars) of building roads between the towns. Where there is no edge\nconnecting two vertices, a road connecting those two towns was judged not\nfeasible.\nBy using Prim’s algorithm for obtaining a minimal spanning tree, draw a\ngraph which represents the least expensive road network for the region\nstarting from the town 4. The network should be such that it is possible\nto travel between any two towns of the region, possibly passing through\nother towns on the way, using the roads of the network. [8 marks]\n(iii) (@) Prove that the sum of the degrees of vertices of a simple graph is'equal\nto twice the number of its edges. [3 marks]\n(b) Let each set of natural numbers {3, 3, 2,2, 2,2,2, 2, 1} and\n{2,2,2,2, 1, 1} represent the degrees of the vertices of a graph.\nEither draw a simple graph for each given degree sequence or explain\nwhy such a graph is not possible.\n(Note: A simple graph is a graph with no loops or multiple edges) [4 marks]\n(2) Define an isomorphism between two graphs. [3 marks]\n(b) Prove that if two graphs are isomorphic' and one of them has a cycle of\nlength k then the other graph must have a cycle of length k [3 marks]\nDetermine whether the following two graphs are isomorphic. Give a\nreason for your answer. [3 marks]",
+   "ms_text": "6. () (2 Adjacency matrix is given by\nViV, Vv\n0 2 1 0y\n2 1 1 0y\nA= MD(42) 1)(A2\n1 1 1 1y,\n0 0 1 O0jv,\nfor two mistakes.\nIncidence matrix is given by\n1\n1 1.1 0 0 0 Oly\n1 00 0 1 1 1ju\n00 0 0 0 0 Uy,\nfor two errors.\nTo determine the number of ways to go from v, to v, traversing exactly four edges,\nwe compute 4* and select the (1, 2) entry.\n44 46 40 12\n|46 62 50 14\n(M2)(42) “la0 50 42 12\n12 14 12 4\nSince (1, 2) entry is 46, there are 46 different ways to go from v, to v, in the\nrequired manner.\nLet G=(V, E) be an undirected graph or multigraph with no isolated points. G is\nsaid to have an Eulerian circuit if there is a circuit in G that traverses every edge of\nthe graph exactly once. (A2)\nThe above graph does not contain an Eulerian circuit because the vertex v, has\ndegree 3. (RD)\nNotetthat if G=(V,E) is an undirected connected graph with an Eulerian circuit\nthen every vertex has an even degree. (R1) 7\nNote: Some candidates may write the following:\nThe graph does not contain an Eulerian circuit since not all vertices have even\ndegree. Some may say that €; makes it impossible to have an Eulerian circuit.\nAward (R2)\n(e) If in a graph G there exists a closed circuit which passes exactly once through each\nvertex of G, then such a circuit is called a Hamiltonian circuit. (A2)\nSince no closed circuit contains v, the graph does not contain a Hamiltonian circuit.\n(RI)\n(if) Prim’s algorithm requires that we start at the vertex 4 and consider it as a tree and then look\nfor the shortest path that joins a vertex on this tree to any of the remaining vertices to obtain\na minimal spanning tree. We make choices, choose corresponding edges to be added and\nkeep track of the weights.\nChoice Edge Weight\n1 AH 3\n2 HR 1\n3 HC 2\n4 HD 2\n5 DE 4\n6 EF 2\n7 FG 8\n22 Total weight\n(M3)(43)\n~1 for each error.\nNote: Some candidates may only mention:\nStarting at 4 and using Prim’s algorittm AH + HB+ HC + HD + DE + EF + FG\nyields 3+1+2+2+4+2+8=22. Award (M3)(A3).\n-1 for each error.\nThe network looks like\n(42)\n(iii) (a) Each edge of a graph is incident on two vertices and thereby contributes two to the\nsum of the degree of the vertices.\nIf a graph has n edges then the sum of the degrees of the vertiqes is 2n. M2)(41)\n(b) The sum of the degrees in the degree sequence {3, 3,2,2,2,2,2,2, 1} is 19. Since it\nis an odd number there can not be any graph with the given degree sequence as the\ndegree of the vertices. (M1)(A41)\nOn the other hand the graph -y\n——eo—0o—0—0o—o\nA B C D E F\n(Al\ncorresponds to the degree sequénce {2,2,2,2,1, 1}. Note that degree of 4 = degree\nof F=1 and degree of B = degree of C = degree of D = degree of E. (A1)\niv)(a) Two graphs G, = (V,, E,), G, =(¥,, E,) are isomorphic if there is a one to one and\nonto map ¢:¥; — ¥, such that a, b €V, are adjacent if and only if ¢(@) and @(b) are\nadjacent. (43)\nRemark: Some candidates may write an isomorphism between two graphs is a one\nto one and onto mapping between vertices so that it preserves adjacency\nand incidence. = /=1 S : )\nLet G, =(V},E)) and G, = (¥, E,) be isomorphic with an isomorphism ¢ . Let\nV15 V2s--: Vi, Yy be acycle of length £in G, with v, €V}, 1<i<k . Then, by the\nisomorphism,\no), @(V2), ..., @(Ve), p(v1) (M2)(R1)\nis a cycle of length & since @(v;_;) is adjacent to p(v;), 2<i<k and @(v,) is\nadjacentto @(v,).\nIf Gand G’ were isomorphic and one of them has a cycle of length k then the other\nmust have a cycle of length k.\nv, v, .\n2 G’ has a cycle of length\nwhich is given by\nVy,V3,V6, Vg, V5,V M2)\n5 L4\nV7 G’ v8\nBut G has no cycle of length 5. So Gand G’ are not isomorphic. (R1)\nG\nStatistics",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.11",
+    "6.7",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Graphs and Trees",
+   "text_clean": "6. [Maximum mark: 40]\n(i) Consider the following graph.\n[Diagram: multigraph with vertices $v_1,v_2,v_3,v_4$; edges $e_2,e_3$ both join $v_1$ and $v_2$; $e_4$ is a loop at $v_2$; $e_1$ joins $v_1$ and $v_3$; $e_5$ joins $v_2$ and $v_3$; $e_6$ is a loop at $v_3$; $e_7$ joins $v_3$ and $v_4$]\n(a) Write down the adjacency matrix of the graph above. [3 marks]\n(b) Write down the incidence matrix of the graph above. [3 marks]\n(c) How many ways are there to go from $v_1$ to $v_2$ traversing exactly four edges, not necessarily distinct? (Example: $v_1,e_1,v_3,e_6,v_3,e_1,v_1,e_3,v_2$) [4 marks]\n(d) What is an Eulerian circuit? Does the above graph contain an Eulerian circuit? Justify your answer. [3 marks]\n(e) What is a Hamiltonian circuit? Does the above graph contain a Hamiltonian circuit? Justify your answer. [3 marks]\n(ii) In the graph below, the vertices represent towns in a mountainous region, and the numbers on the edges represent the costs (in hundreds of thousands of dollars) of building roads between the towns. Where there is no edge connecting two vertices, a road connecting those two towns was judged not feasible.\n[Diagram: weighted graph with vertices A, B, C, D, E, F, G, H; edges AB 4, AG 9, AH 3, HB 1, BC 5, HC 2, HD 2, CD 6, HF 7, GF 8, FE 2, ED 4]\nBy using Prim's algorithm for obtaining a minimal spanning tree, draw a graph which represents the least expensive road network for the region starting from the town A. The network should be such that it is possible to travel between any two towns of the region, possibly passing through other towns on the way, using the roads of the network. [8 marks]\n(iii) (a) Prove that the sum of the degrees of vertices of a simple graph is equal to twice the number of its edges. [3 marks]\n(b) Let each set of natural numbers $\\{3,3,2,2,2,2,2,2,1\\}$ and $\\{2,2,2,2,1,1\\}$ represent the degrees of the vertices of a graph. Either draw a simple graph for each given degree sequence or explain why such a graph is not possible. (Note: A simple graph is a graph with no loops or multiple edges) [4 marks]\n(iv) (a) Define an isomorphism between two graphs. [3 marks]\n(b) Prove that if two graphs are isomorphic and one of them has a cycle of length $k$ then the other graph must have a cycle of length $k$. [3 marks]\n(c) Determine whether the following two graphs are isomorphic. Give a reason for your answer. [3 marks]\n[Diagram: two 8-vertex 3-regular graphs. G: outer rectangle and inner rectangle with each inner corner joined to the corresponding outer corner. G': outer rectangle with inner vertices on left and right sides joined crosswise (an X between the inner vertices)]"
+  },
+  {
+   "id": "math-1997-M-P2-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 40,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 40]\nOn a weekday morning a certain telephone switchboard receives an average\nof twenty five calls during a five minute period. Find the probabilities that\n(a) the switchboard will receive at least one telephone call between 10.31\nand 10.32 next Thursday morning; [3 mafks ]\n(b) the switchboard will receive either two or three telephone calls between\n10.31 and 10.32 next Thursday morning. [3 marks]\n(ii) A mathematics course is taught by three instructors, X, Y and Z. The\ntable below gives the numbers of students failed by each instructor.\nNumbers of students\nX Y zZ Total\nPassed 50 47 56 153\nFailed 5 14 8 27\nTotal 55 61 64 180\nThe headteacher claims that the proportions of students failed by the three\ninstructors are the same. Test this claim carefully and give your\nconclusions for significance levels of both 10% and 5%. [14 marks]\n(ii) A certain company uses a machine to produce washers of thickness\n0.50 mm. To determine whether the machine is in proper working order, a\n-random sample of 10 washers is chosen which has a mean thickness of\n0.53 mm and a standard deviation of 0.03 mm.\nTest the claim of the machine supervisor that the machine is in proper\nworking order, using a significance level of 5%. [10 marks]\n(iv) A sample poll of 100 voters chosen at random from all voters in a given\ndistrict showed that 55% of them were in favour of a particular candidate.\n(a) Find 95% confidence limits for the proportion of voters in favour of\nthe candidate.\n(b) How large a sample of voters should be taken in order to be 95%\nconfident that the candidate will be elected if 55% of the sample are in\nfavour of the candidate? [10 marks]",
+   "ms_text": "7. (i) One unit of time is one minute. On a weekday morning a switch board receives 25 calls\nduring a five minute period so A, the number of calls per minute, is 5.\n(a) The probability that a switch board receives zero telephone calls between 10.31 and\n10.32 next Thursday morning is\n50\ne” = =¢” =000674\n0!\nSo the probability that the switch board receives at least one telephone call is\n1-e~*=0993. (M2)(Al)\nRemark: The answer may be given as 1-¢~\n(b) The probability that the switch board receives at least two or three telephone calls\nbetween 10.31 and 10.32 next Thursday morning is\n55 58 125\n—ter =7 24\nTINET 276\n=c™ [2—29] = %e\" 0225 (M2)(Al)\n(1) Let us set up the tollowing hypothesis:\nH,: Proportion of students failed by X, ¥ and Z are equal\nH,: Proportion of students failed by X, Y and Z are not equal (C1)(C1)\nIf H, were true, then the teachers would have failed 1—2810 =15% of students and would have\npassed 85% of students.\nHence the expected frequencies are given by the following table:\nEXPECTED FREQUENCIES\nX Y VA Total\nPassed 46.75 51.85 544 153 (M2)(42)\nFailed 8.25 9.15 9.6 27\nTotal 55 61 64 180\nv, the number of degrees of freedom is given by v=(2-1)}(3-1)=2.\n2 _ (50-4675) L@7-5 1.85)° 54.40)* 825)% L(14-91 5)? L8 9.60)”\n46.75 5185 54.40 825 915 9.60\n=484 (M2)(A42)\nAt 10% level of significance y* =4.61.\nSince 4.84 > 4.61, the critical value corresponding to a probability of 0.1, we reject the null\nhypothesis. (MI1)(R1)\nAt 5% level of significance y* =599. Since 4.84 <599 , we can not reject the null\nhypothesis. (M1)(R1)\n(iii)Let be the mean thickness of the washers.\nH,: #1=050 and the machine is in proper working order.\nH,: 41+ 050 and the machine is not in proper working order. (CI1)(C1)\nWe need a two tailed small sample test. Under H,,\nt= = J10-1=3 s/NN-1 [ 0.03 053—050) \\)/ q M2)A2) M2)(A2\nWe accept H, if ¢ is between —Zgy5 t0 £ 475 With 10 —1=9 degrees of freedom. Thus,\nwe accept H, if ¢ is between —2.26 and 2.26. M1A41)\nSince calculated ¢ value is 3, we reject H,. (MI1)(R1)\nSECOND METHOD\nH,:x =050, machine is in working order. (C2)\nH,: #0350, machine is faulty.\nSample size is 10. So estimate for population standard deviation is (\\/? ) 0.03.\nHence, means of sample size 10 have a #-distribution with standard deviation\nf 1 E x0.03 |——=001,\n(M2)(42)\n9 v10\nCritical values at 5% level under H, are\n050+ (2262)(001) (v=9)\ni.e. 05000226 M1)(Al)\nThe observed value is outside this interval, so we reject the claim. (MI1)(RI)\n@iv)(a) The 95% confidence limits are\nptz M (/v = sample s1ze)\nN\nwe have }‘@055, z =196 (for 95% confidence level) and N = 100.\nSo the confidence interval is given by\n055+ 1.96W/m\n100\nMDAD 2)(A1\n=055+0.098\nSo the confidence interval is [0.452, 0.648] (Al)\n(b) Let N be the required sample size. We want N to be such that\n050< p—z # (M1)(AD)\nwhere p =055 and z (for 95% confidence) = 1.96.\nSo we want\n50-p S ’1’5(1—1‘5)\n-z N\nThus VN > 3 ’0 50\\/13(1— 7). (MI)(AL)\nSubstitutc p =055,z =196 to get\n196 Y W&\" 0 045\n>(055~050) SX043)\nM1)\n=3803184.\nsample size required is at least 381. (R1)\nAnalysis and Approximation",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L7",
+    "4.L6",
+    "4.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Statistics",
+   "text_clean": "7. [Maximum mark: 40]\n(i) On a weekday morning a certain telephone switchboard receives an average of twenty five calls during a five minute period. Find the probabilities that\n(a) the switchboard will receive at least one telephone call between 10.31 and 10.32 next Thursday morning; [3 marks]\n(b) the switchboard will receive either two or three telephone calls between 10.31 and 10.32 next Thursday morning. [3 marks]\n(ii) A mathematics course is taught by three instructors, $X$, $Y$ and $Z$. The table below gives the numbers of students failed by each instructor.\nNumbers of students\n| X | Y | Z | Total\nPassed | 50 | 47 | 56 | 153\nFailed | 5 | 14 | 8 | 27\nTotal | 55 | 61 | 64 | 180\nThe headteacher claims that the proportions of students failed by the three instructors are the same. Test this claim carefully and give your conclusions for significance levels of both 10% and 5%. [14 marks]\n(iii) A certain company uses a machine to produce washers of thickness 0.50 mm. To determine whether the machine is in proper working order, a random sample of 10 washers is chosen which has a mean thickness of 0.53 mm and a standard deviation of 0.03 mm.\nTest the claim of the machine supervisor that the machine is in proper working order, using a significance level of 5%. [10 marks]\n(iv) A sample poll of 100 voters chosen at random from all voters in a given district showed that 55% of them were in favour of a particular candidate.\n(a) Find 95% confidence limits for the proportion of voters in favour of the candidate.\n(b) How large a sample of voters should be taken in order to be 95% confident that the candidate will be elected if 55% of the sample are in favour of the candidate? [10 marks]"
+  },
+  {
+   "id": "math-1997-M-P2-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 40,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 40]\n1\n(1) (a) Estimate the value of f dx by using the trapezium rule with\n0\n4 equal sub-intervals. [4 marks]\n(b) What is the maximum error of your estimate? [4 marks]\n(i) Giving appropriate reasons, determine whether the following series\nconverge or diverge. (Include the name of the test used to arrive at each\nanswer.)\nw 243) [4 marks]\nk=1\n10\nM\n[4 marks]\nklnk\n1l N\nk\n[4 marks]\nk=1\n-(This question continues on the following page)\n(i) (a) Let Zak be a series of non-negative terms and suppose that f(x) is a\nk=1\ncontinuous monotonic decreasing function for x =1 such that\nf(k) =aq, for all ke N*. Let S, denote the partial sum E a. for\nk=1\nne N*\nDeduce, with the aid of the diagram below, that\nGQ+a+..+a, le fAx<saq+a,+..+a,,.\n[4 marks]\n(b) Deduce further that\nfl S(x)dx < S, $fl Sf(x)dx\nUse this to show that the sum of the first ten thousand terms of the\n1\nseries 27(- is between 9.21 and 10.21 . [8 marks]\nk=1\n(iv) Suppose that f(x) is continuous on the interval 3 < x < 7 and differentiable\non the interval 3<x<7. Suppose further that f(3)= —16 and\n|f'(x)|s4dfor3<x<T7.\nUse the mean value theorem to find bounds for f(x) on the interval\n3sx=s7. [8 marks]",
+   "ms_text": "8. (i) (@ The interval {0, 1] is divided into four sub-intervals. The trapczium rule\n1\napproximation of .L dx is given by\n1-0 1 2 3\n{f ©)+2f (Z]”f (Z)+2f (Z]J'f (D}\n%{1 +2e!16 42l 426516 4 e} =149 (M2)(42)\nThe error E, in the trapezium rule approximation is given by\n3\nE = —%2—%2 f\"\"(c) where cis a point in [a, 5] and # is the number of sub\nIt\nintervals. In our case, n=4,2=0,b=1.\n[[4Y e\n*TTa2)s) (dx}° (AI)\nX=c\nWhere cis suchthat Q<e<1.\nIf f(x)= & SJ' (x)= 2xe* and f'(x)= 2e* + (2x)? = 2+ 4:«:2)9\"z\nHence, f''(c)=(2+4¢c” )c‘2\nSince f'’(c) is positive and increasing over [0, 1], 0< f\"'(c)<(2+4)e=6e.\nHence |E,|s————= _o0ss (M2)(41)\n(12)16) 32\nk+1\nsetu=k{1) Thenu, =5l\nu 1{k+1) 1\n1 = (1Y\n(R1) Since 0< 5— <1, the scries Zk(-z—) converges by ratio test.\nk=t\nRemark: Some candidates may use root test.\n10\n(b) Set f(x)= x22,\nxinx\nf(x) is positive and continuous on [2,®). Also f(x) decreasing with the fact that\n10\n10\nBy integral test the series Z-—k and the integral _L }—de converge or diverge\ntogether.\nSince,\no dx . R\nL ——=lim(lnlnx)y =o (M1)(A1)\nthe series diverges. (R1)\nIS an alternating series.\nk=1\nk\nLet us write it as Z(—l)\" u, where u, k=12,....\n241\nk=1\n+1)-2x 1-x° If we wrote u(x) = ,then u'(x) = =’\nforx=2.\nI +1)? (x* +1)?\nHence u(x) is a decreasing function and consequently %; is a decreasing sequence\nfor £=2,3,....\n=0 M2)(AD) Also lunu,, hm\nk41\nHence, by alternating series test, the series Z(—l)k is a convergent series.\npome K +1\n(R1)\n(i) (2)\n1 2 3 4 5. .. n\nf(x) is a decreasing function over [1,) . Further, we have f(n)=a,,n>1. Hence,\nf(x)z2aq; forxe[i-Li];, i22\nThus J' '_ 2 _['_l fx)dx > '['_l adx,\ni-1\nor a;_; = J:‘_lf(x)dx 2aq;, i22 (M1)(Al)\na2z J’ ; f(ydxz Z\":a,.\ni=2 i=2 i=2\nor a,+a2+...+a,,_,2J‘:f(x)dx2a2+a3+...+a,,\nor a,+...+a, sJ'l'}(x)dx <a+a,+...+a,, (MI)(A)\nFrom (a) (b)\nay+ay+..ta, +J'I\"f(x)dx\nand writing s, =q, +a, +...+a,, we have\ns, < j:f(x)dx+ a,\nAlso, from part (a),\nn\nL f(x)dx<a, +a,+..4+a,_ =5,\nHence,\nff(x)dx <s,,+a, =s,\nSince a, 20.\nThus\nL\" fx)dr<s, < L\"f(x)dx +a, (M2)(R1)\nIf we take f(x)=—\nX\nndx 1 qrdx\n—+1\n1 x Zn 1 x M1\nBut\nan—Inl=lnn (41)\n1 x\nHence\nn 1\nInn< ) —<inn+1 2,\nWhen 7=10000, Inz=92103 and we get\n100001\n921< Y —<1021\nn=1\n10000 1\nThus the sum of the series ), ~ is in the interval [9.21, 10.21] (M2)(AD)\nn=1\n(iv) By the mean value theorem for any x €(3,7) there is some c, 3 < ¢ < x, such that\nfD-13)\nM)\nBut |f'(x)|<4 . Hence,\nfx)-f (3)' 1f()<4 (41)\nx-3\nThus,\nF(3)<4lx-3|<16\n(MI)(A1)\nFrom this, we conclude that\nf)-16< (X)L f(3)+16\nSubstituting f(3)=-16, we get\n322 f(x)<0for3sx<7 (M2)(A2)",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L5",
+    "5.L6",
+    "5.L4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Analysis and Approximation",
+   "text_clean": "8. [Maximum mark: 40]\n(i) (a) Estimate the value of $\\int_0^1 e^{x^2}\\,dx$ by using the trapezium rule with 4 equal sub-intervals. [4 marks]\n(b) What is the maximum error of your estimate? [4 marks]\n(ii) Giving appropriate reasons, determine whether the following series converge or diverge. (Include the name of the test used to arrive at each answer.)\n(a) $\\sum_{k=1}^{\\infty} k\\left(\\frac{1}{2}\\right)^k$ [4 marks]\n(b) $\\sum_{k=2}^{\\infty} \\frac{10}{k\\ln k}$ [4 marks]\n(c) $\\sum_{k=1}^{\\infty} (-1)^k\\frac{k}{k^2+1}$ [4 marks]\n(iii) (a) Let $\\sum_{k=1}^{\\infty} a_k$ be a series of non-negative terms and suppose that $f(x)$ is a continuous monotonic decreasing function for $x\\ge 1$ such that $f(k)=a_k$ for all $k\\in\\mathbb{N}^*$. Let $S_n$ denote the partial sum $\\sum_{k=1}^{n} a_k$ for $n\\in\\mathbb{N}^*$.\nDeduce, with the aid of the diagram below, that $a_2+a_3+\\dots+a_n\\le\\int_1^n f(x)\\,dx\\le a_1+a_2+\\dots+a_{n-1}$. [4 marks]\n[Diagram: decreasing curve $f(x)$ with rectangles of heights $a_1,a_2,a_3,a_4,a_5,\\dots$ at $x=1,2,3,4,5,\\dots,n$]\n(b) Deduce further that $\\int_1^n f(x)\\,dx\\le S_n\\le\\int_1^n f(x)\\,dx+a_1$.\nUse this to show that the sum of the first ten thousand terms of the series $\\sum_{k=1}^{\\infty}\\frac{1}{k}$ is between 9.21 and 10.21. [8 marks]\n(iv) Suppose that $f(x)$ is continuous on the interval $3\\le x\\le 7$ and differentiable on the interval $3<x<7$. Suppose further that $f(3)=-16$ and $|f'(x)|\\le 4$ for $3<x<7$.\nUse the mean value theorem to find bounds for $f(x)$ on the interval $3\\le x\\le 7$. [8 marks]"
+  }
+ ],
+ "status": "done"
+}

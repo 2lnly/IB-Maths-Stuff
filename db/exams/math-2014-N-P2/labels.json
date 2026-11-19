@@ -1,0 +1,159 @@
+{
+ "exam_id": "math-2014-N-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.13"
+   ],
+   "text_clean": "1. [Maximum mark: 6]\nConsider the two planes\n$\\pi_1: 4x+2y-z=8$\n$\\pi_2: x+3y+3z=3$.\nFind the angle between $\\pi_1$ and $\\pi_2$, giving your answer correct to the nearest degree."
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.12"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nThe wingspans of a certain species of bird can be modelled by a normal distribution with mean 60.2 cm and standard deviation 2.4 cm.\nAccording to this model, 99% of wingspans are greater than $x$ cm.\n(a) Find the value of $x$. [2]\nIn a field experiment, a research team studies a large sample of these birds. The wingspans of each bird are measured correct to the nearest 0.1 cm.\n(b) Find the probability that a randomly selected bird has a wingspan measured as 60.2 cm. [3]"
+  },
+  "3": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "text_clean": "3. [Maximum mark: 6]\nConsider the data set $\\{2, x, y, 10, 17\\}$, $x, y \\in \\mathbb{Z}^+$ and $x<y$.\nThe mean of the data set is 8 and its variance is 27.6.\nFind the value of $x$ and the value of $y$."
+  },
+  "4": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14"
+   ],
+   "text_clean": "4. [Maximum mark: 5]\nTwo cyclists are at the same road intersection. One cyclist travels north at $20\\ \\text{km h}^{-1}$. The other cyclist travels west at $15\\ \\text{km h}^{-1}$.\nUse calculus to show that the rate at which the distance between the two cyclists changes is independent of time."
+  },
+  "5": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.17",
+    "3.18",
+    "3.16",
+    "3.14"
+   ],
+   "text_clean": "5. [Maximum mark: 8]\nThe lines $l_1$ and $l_2$ are defined as\n$l_1: \\frac{x-1}{3}=\\frac{y-5}{2}=\\frac{z-12}{-2}$\n$l_2: \\frac{x-1}{8}=\\frac{y-5}{11}=\\frac{z-12}{6}$.\nThe plane $\\pi$ contains both $l_1$ and $l_2$.\n(a) Find the Cartesian equation of $\\pi$. [4]\nThe line $l_3$ passing through the point $(4, 0, 8)$ is perpendicular to $\\pi$.\n(b) Find the coordinates of the point where $l_3$ meets $\\pi$. [4]"
+  },
+  "6": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12",
+    "2.7"
+   ],
+   "text_clean": "6. [Maximum mark: 6]\nConsider $p(x)=3x^3+ax+5a$, $a\\in\\mathbb{R}$.\nThe polynomial $p(x)$ leaves a remainder of $-7$ when divided by $(x-a)$.\nShow that only one value of $a$ satisfies the above condition and state its value."
+  },
+  "7": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2",
+    "1.3"
+   ],
+   "text_clean": "7. [Maximum mark: 9]\nThe seventh, third and first terms of an arithmetic sequence form the first three terms of a geometric sequence.\nThe arithmetic sequence has first term $a$ and non-zero common difference $d$.\n(a) Show that $d=\\frac{a}{2}$. [3]\nThe seventh term of the arithmetic sequence is 3. The sum of the first $n$ terms in the arithmetic sequence exceeds the sum of the first $n$ terms in the geometric sequence by at least 200.\n(b) Find the least value of $n$ for which this occurs. [6]"
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.11"
+   ],
+   "text_clean": "8. [Maximum mark: 7]\nA particle moves in a straight line such that its velocity, $v\\ \\text{m s}^{-1}$, at time $t$ seconds, is given by\n$v(t)=\\begin{cases}5-(t-2)^2, & 0\\le t\\le 4\\\\ 3-\\frac{t}{2}, & t>4\\end{cases}$.\n(a) Find the value of $t$ when the particle is instantaneously at rest. [2]\nThe particle returns to its initial position at $t=T$.\n(b) Find the value of $T$. [5]"
+  },
+  "9": {
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.15",
+    "3.2"
+   ],
+   "text_clean": "9. [Maximum mark: 8]\nCompactness is a measure of how compact an enclosed region is.\nThe compactness, $C$, of an enclosed region can be defined by $C=\\frac{4A}{\\pi d^2}$, where $A$ is the area of the region and $d$ is the maximum distance between any two points in the region.\nFor a circular region, $C=1$.\nConsider a regular polygon of $n$ sides constructed such that its vertices lie on the circumference of a circle of diameter $x$ units.\n(a) If $n>2$ and even, show that $C=\\frac{n}{2\\pi}\\sin\\frac{2\\pi}{n}$. [3]\nIf $n>1$ and odd, it can be shown that $C=\\frac{n\\sin\\frac{2\\pi}{n}}{\\pi\\left(1+\\cos\\frac{\\pi}{n}\\right)}$.\n(b) Find the regular polygon with the least number of sides for which the compactness is more than 0.99. [4]\n(c) Comment briefly on whether $C$ is a good measure of compactness. [1]",
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "(b) is a GDC search for least n satisfying an inequality; tagged 2.15"
+  },
+  "10": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.7",
+    "5.3",
+    "3.2"
+   ],
+   "text_clean": "10. [Maximum mark: 12]\nConsider the triangle PQR where $\\hat{QPR}=30^\\circ$, $PQ=(x+2)$ cm and $PR=(5-x)^2$ cm, where $-2<x<5$.\n(a) Show that the area, $A\\ \\text{cm}^2$, of the triangle is given by $A=\\frac{1}{4}(x^3-8x^2+5x+50)$. [2]\n(b) (i) State $\\frac{dA}{dx}$.\n(ii) Verify that $\\frac{dA}{dx}=0$ when $x=\\frac{1}{3}$. [3]\n(c) (i) Find $\\frac{d^2A}{dx^2}$ and hence justify that $x=\\frac{1}{3}$ gives the maximum area of triangle PQR.\n(ii) State the maximum area of triangle PQR.\n(iii) Find QR when the area of triangle PQR is a maximum. [7]"
+  },
+  "11": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1"
+   ],
+   "text_clean": "11. [Maximum mark: 10]\nThe number of complaints per day received by customer service at a department store follows a Poisson distribution with a mean of 0.6.\n(a) On a randomly chosen day, find the probability that\n(i) there are no complaints;\n(ii) there are at least three complaints. [3]\n(b) In a randomly chosen five-day week, find the probability that there are no complaints. [2]\n(c) On a randomly chosen day, find the most likely number of complaints received. Justify your answer. [3]\nThe department store introduces a new policy to improve customer service. The number of complaints received per day now follows a Poisson distribution with mean $\\lambda$.\nOn a randomly chosen day, the probability that there are no complaints is now 0.8.\n(d) Find the value of $\\lambda$. [2]"
+  },
+  "12": {
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.6",
+    "1.8"
+   ],
+   "text_clean": "12. [Maximum mark: 11]\nAva and Barry play a game with a bag containing one green marble and two red marbles. Each player in turn randomly selects a marble from the bag, notes its colour and replaces it. Ava wins the game if she selects a green marble. Barry wins the game if he selects a red marble. Ava starts the game.\nFind the probability that\n(a) Ava wins on her first turn; [1]\n(b) Barry wins on his first turn; [2]\n(c) Ava wins in one of her first three turns; [4]\n(d) Ava eventually wins. [4]"
+  },
+  "13": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.14",
+    "5.17",
+    "5.11",
+    "2.10"
+   ],
+   "text_clean": "13. [Maximum mark: 16]\nThe vertical cross-section of a container is shown in the following diagram.\n[Diagram: container cross-section on x-y axes (x from -20 to 20, y from 0 to 50); flat base on the x-axis, curved sides rising to a flat top at y = 48]\nThe curved sides of the cross-section are given by the equation $y=0.25x^2-16$. The horizontal cross-sections are circular. The depth of the container is 48 cm.\n(a) If the container is filled with water to a depth of $h$ cm, show that the volume, $V\\ \\text{cm}^3$, of the water is given by $V=4\\pi\\left(\\frac{h^2}{2}+16h\\right)$. [3]\nThe container, initially full of water, begins leaking from a small hole at a rate given by $\\frac{dV}{dt}=-\\frac{250\\sqrt{h}}{\\pi(h+16)}$ where $t$ is measured in seconds.\n(b) (i) Show that $\\frac{dh}{dt}=-\\frac{250\\sqrt{h}}{4\\pi^2(h+16)^2}$.\n(ii) State $\\frac{dt}{dh}$ and hence show that $t=\\frac{-4\\pi^2}{250}\\int\\left(h^{\\frac{3}{2}}+32h^{\\frac{1}{2}}+256h^{-\\frac{1}{2}}\\right)dh$.\n(iii) Find, correct to the nearest minute, the time taken for the container to become empty. (60 seconds = 1 minute) [10]\nOnce empty, water is pumped back into the container at a rate of $8.5\\ \\text{cm}^3\\text{s}^{-1}$. At the same time, water continues leaking from the container at a rate of $\\frac{250\\sqrt{h}}{\\pi(h+16)}\\ \\text{cm}^3\\text{s}^{-1}$.\n(c) Using an appropriate sketch graph, determine the depth at which the water ultimately stabilizes in the container. [3]"
+  },
+  "14": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.6",
+    "3.8",
+    "3.11"
+   ],
+   "text_clean": "14. [Maximum mark: 11]\nIn triangle ABC,\n$3\\sin B+4\\cos C=6$ and\n$4\\sin C+3\\cos B=1$.\n(a) Show that $\\sin(B+C)=\\frac{1}{2}$. [6]\nRobert conjectures that $\\hat{CAB}$ can have two possible values.\n(b) Show that Robert's conjecture is incorrect by proving that $\\hat{CAB}$ has only one possible value. [5]"
+  }
+ }
+}

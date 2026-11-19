@@ -1,0 +1,135 @@
+{
+ "exam_id": "math-2011-N-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2011,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2011 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2011 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8811-7210; code N11/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches expected total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2011-N-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 15]\nThe weight of tea in Supermug tea bags has a normal distribution with mean 4.2 g\nand standard deviation 0.15 g. The weight of tea in Megamug tea bags has a normal\ndistribution with mean 5.6 g and standard deviation 0.17 g.\n(a) Find the probability that a randomly chosen Supermug tea bag contains more\nthan 3.9 g of tea. [2 marks]\n(b) Find the probability that, of two randomly chosen Megamug tea bags,\none contains more than 5.4 g of tea and one contains less than 5.4 g of tea. [4 marks]\n(c) Find the probability that five randomly chosen Supermug tea bags contain a total\nof less than 20.5 g of tea. [4 marks]\n(d) Find the probability that the total weight of tea in seven randomly chosen\nSupermug tea bags is more than the total weight in five randomly chosen\nMegamug tea bags. [5 marks]",
+   "ms_text": "1. (a) let S be the weight of tea in a random Supermug tea bag\n2 S ∼ N(4.2, 0.15)\nP( S> 3.9) = 0.977 (M1)A1\n[2 marks]\n(b) let M be the weight of tea in a random Megamug tea bag\n2 M∼ N(5.6, 0.17)\nP( M> 5.4) = 0.880 … (A1)\nP( M< 5.4) =− 1 0.880 …= 0.119 … (A1)\nrequired probability = 2 × 0.880 …× 0.119 …= 0.211 M1A1\n[4 marks]\n(c) P( S + S + S + S + S < 20.5)\n1 2 3 4 5\nlet S + S + S + S + S = A (M1)\n1 2 3 4 5\nE() A = 5E() S\n= 21 A1\nVar() A = 5Var() S\n= 0.1125 A1\nA ∼ N(21, 0.1125)\nP( A < 20.5) = 0.0680 A1\n[4 marks]\n(d) P ( S + S + S + S + S + S + S − ( M + M + M + M + M ) > 0 ) 1 2 3 4 5 6 7 1 2 3 4 5\nlet S + S + S + S + S + S + S − ( M + M + M + M + M ) = B (M1)\n1 2 3 4 5 6 7 1 2 3 4 5\n= − E() B 7E() S 5E( M )\n= 1.4 A1\nNote: Above A1 is independent of first M1.\nVar() B = 7Var() S + 5Var( M ) (M1)\n= 0.302 A1\nP( B > 0) = 0.995 A1\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.9",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 15]\nThe weight of tea in Supermug tea bags has a normal distribution with mean 4.2 g and standard deviation 0.15 g. The weight of tea in Megamug tea bags has a normal distribution with mean 5.6 g and standard deviation 0.17 g.\n(a) Find the probability that a randomly chosen Supermug tea bag contains more than 3.9 g of tea. [2 marks]\n(b) Find the probability that, of two randomly chosen Megamug tea bags, one contains more than 5.4 g of tea and one contains less than 5.4 g of tea. [4 marks]\n(c) Find the probability that five randomly chosen Supermug tea bags contain a total of less than 20.5 g of tea. [4 marks]\n(d) Find the probability that the total weight of tea in seven randomly chosen Supermug tea bags is more than the total weight in five randomly chosen Megamug tea bags. [5 marks]"
+  },
+  {
+   "id": "math-2011-N-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nNeil wants the opinion of teachers on a proposal to change the Mathematics HL\ncurriculum. A questionnaire is sent to a large number of teachers asking for their\nopinions on the proposal. Of the 200 replies he receives, 160 are in favour of\nthe proposal. Assume that these teachers are a random sample from the population.\n(a) Test, at the 5 % level, the hypothesis that the proportion of the population in\nfavour of the proposal is 0.75 against the alternative that it is more than 0.75. [4 marks]\n(b) Find a 95 % confidence interval for the proportion of the population in favour of\nthe proposal. [3 marks]",
+   "ms_text": "2. (a) H: p = 0.75 , H: p > 0.75 A1\n0 1\none-tailed test\n0.750.25 ×\n∼ X N0.75, (M1)\n200\n− 4 X ∼ N(0.75, 9.37510) ×\nEITHER\np -value = 0.0512 A1\naccept null hypothesis because p -value > 0.05 R1\nOR\n0.8 − 0.75\nz = = 1.63 A1\n− 4 9.37510 ×\nz < R1 accept null hypothesis because 1.64\nNote: Accept alternative solutions using binomial distribution,\ngiving p-value of 0.0578.\nNote: Allow follow through on final reasoning mark.\n[4 marks]\n160 40\n×\n200 200\n(b) confidence interval = 0.8 ± 1.96 (M1)\n200\n= (0.745, 0.855) A1A1\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L6",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nNeil wants the opinion of teachers on a proposal to change the Mathematics HL curriculum. A questionnaire is sent to a large number of teachers asking for their opinions on the proposal. Of the 200 replies he receives, 160 are in favour of the proposal. Assume that these teachers are a random sample from the population.\n(a) Test, at the 5 % level, the hypothesis that the proportion of the population in favour of the proposal is 0.75 against the alternative that it is more than 0.75. [4 marks]\n(b) Find a 95 % confidence interval for the proportion of the population in favour of the proposal. [3 marks]"
+  },
+  {
+   "id": "math-2011-N-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 11]\nThe random variable X represents the lifetime in hours of a battery. The lifetime may\nbe assumed to be a continuous random variable X with a probability density function\n− λ x given by fx () = λ e , where x ≥0 .\n(a) Name this distribution and state its mean. [1 mark]\n[3 marks] (b) Find the cumulative distribution function, Fx (), of X .\n(c) Find the probability that the lifetime of a particular battery is more than twice\nthe mean. [2 marks]\n(d) Find the median of X in terms of λ . [3 marks]\n(e) Find the probability that the lifetime of a particular battery lies between the\nmedian and the mean. [2 marks]",
+   "ms_text": "exponential distribution with mean 1 3. (a) A1\nλ\n[1 mark]\n− λ t − λ t (b) ∫ λ e dt = − e (c) + A1\nx − λ t\n⇒ Fx () =− e (M1)\n0\n− λ xx =− 1e ( ≥ 0) A1\n[3 marks]\n2\n(c) 1 − M1\nFλ\n− 2 = e (0.135) = A1\n[2 marks]\n1\n(d) Fm= () (M1)\n2\n1 − λ m\n⇒ e = A1\n2\n1\n⇒− λ m =\nln 2\n⇒ 1 ln 2 m = A1\nλ\n[3 marks]\n1 ln 2\n(e) F − F M1\nλ λ\n1 − 1\n= − e (0.132) = A1\n2\n[2 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.L3",
+    "4.14",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 11]\nThe random variable $X$ represents the lifetime in hours of a battery. The lifetime may be assumed to be a continuous random variable $X$ with a probability density function given by $f(x) = \\lambda \\mathrm{e}^{-\\lambda x}$, where $x \\ge 0$.\n(a) Name this distribution and state its mean. [1 mark]\n(b) Find the cumulative distribution function, $F(x)$, of $X$. [3 marks]\n(c) Find the probability that the lifetime of a particular battery is more than twice the mean. [2 marks]\n(d) Find the median of $X$ in terms of $\\lambda$. [3 marks]\n(e) Find the probability that the lifetime of a particular battery lies between the median and the mean. [2 marks]"
+  },
+  {
+   "id": "math-2011-N-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 16]\nThe random variable X is believed to be modelled by B(,.) 50 5. A random sample of\nsize 100 is taken and the observed frequencies are given in the table below.\nValue of X 0 1 2 3 4 5\nObserved frequency 2 15 s 69 −s 12 2\nA χ2 goodness of fit test is carried out on these data.\n(a) State the null and alternative hypotheses. [1 mark]\n2 + (b) Evaluate the χ2 statistic in the form as bs +. c [8 marks]\n(c) Find the range of values of s that would result in the null hypothesis being\naccepted at the 10 % level. [7 marks]",
+   "ms_text": "1 1\n4. (a) H: X ∼ , H : X A1\n0 B5,2 1 does not follow B5,2\n[1 mark]\n(b) P( X= 0) = 0.03125\nP( X= 1) = 0.15625\nP( X= 2) = 0.3125\nP( X= 3) = 0.3125\nP( X= 4) = 0.15625\nP( X= 5) = 0.03125 (A3)\nNote: Award A2 for one error or premature rounding, A1 for two errors,\nand A0 otherwise.\nX O E\n0 2 3.125\n1 15 15.625\n2 s 31.25\n3 69 − s 31.25\n4 12 15.625 (M1)\n5 2 3.125 (A1)\nNote: Award method mark for any attempt to multiply the probability by 100.\ncombine classes: M1\nX O E\n0 or 1 17 18.75\n2 s 31.25\n3 69 – s 31.25\n4 or 5 14 18.75\n� � 2 2 2\nχ = 0.163 + 31.25 − 2 s + 0.032 s + 45.602 − 2.416 s + 0.032 s + 1.203 M1\ncalc\n8 552 29332 2 2\n= s − s + = 0.064 s − 4.42 s + 78.2 A1\n125 125 375\nNote:Award M1A0 if candidates do not combine classes, obtaining\nχ 2 = 0.064 s 2 − 4.42 s + 78.5 .\ncalc\n[8 marks]\n(c) ν= n −= 1 4 −= 1 3 (A1)\ncritical value = 6.25 A1\nsolving: 0.064 s 2 − 4.42 s + 78.2 < 6.25 M1A1\nNote: Accept use of=in above line.\n⇒ 26.3 < s < 42.8\n⇒ 27 ≤ s ≤ 42 A1A1A1\nNote: Award A1 for each correct endpoint and A1 for correct inequalities.\nOnly penalize one mark if end points are not integers but otherwise\ncorrect.\nNote:If candidates do not combine classes in part (b) award full FT marks for the\nsolution below:\nν= n −= 1 6 −= 1 5\ncritical value = 9.24\n2 solving: 0.064 s − 4.42 s + 78.5 < 9.24\nNote: Accept use of=in above line.\n⇒ 24.0 < s < 45.0\n⇒ 25 ≤ s ≤ 45(accept24 and44)\nNote: Award A1 for each correct endpoint and A1 for correct inequalities.\nOnly penalize one mark if endpoints are not integers but otherwise\ncorrect.\n[7 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "2"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.8",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 16]\nThe random variable $X$ is believed to be modelled by $\\mathrm{B}(5, 0.5)$. A random sample of size 100 is taken and the observed frequencies are given in the table below.\nValue of $X$ | 0 | 1 | 2 | 3 | 4 | 5\nObserved frequency | 2 | 15 | $s$ | $69-s$ | 12 | 2\nA $\\chi^2$ goodness of fit test is carried out on these data.\n(a) State the null and alternative hypotheses. [1 mark]\n(b) Evaluate the $\\chi^2$ statistic in the form $as^2 + bs + c$. [8 marks]\n(c) Find the range of values of $s$ that would result in the null hypothesis being accepted at the 10 % level. [7 marks]"
+  },
+  {
+   "id": "math-2011-N-P3-statistics-and-probability-q5",
+   "num": "5",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 11]\nThe continuous random variable U has a uniform distribution on [,] 01. The random\nvariable X is defined as follows:\nwhen U≤3 X = 2 U\n4\nwhen U>3 X = 4 U\n4.\nExplain why X cannot take values in the interval 3 (a) (i) < X ≤ 3 .\n2\n3\n(ii) Find P0 ≤ X ≤ .\n2\n(iii) Find P( 3 < X ≤ 4 ) . [6 marks]\n(b) Find the lower quartile of X . [3 marks]\n(c) Find E( X. ) [2 marks]",
+   "ms_text": "3\n5. (a) (i) X = 2 U ⇒ X ≤\n2\nX = 4 U ⇒ X > 3\n3\nX≤ X> M1A1 X is only defined when , 3\n2\nhence X cannot take values such that 3 < X ≤ 3 AG\n2\n(ii) EITHER\npdf is given by fu= () 1 (M1)\n3\n3\n4 P0 < X ≤\n∫ = 1d u (A1)\n0 2\n3 3\n= [] u 4 = A1\n0 4\nOR\n1\npdf is given by fx= () (M1)\n2\n3\n3 1\n2 P0 < X ≤\n∫ = d x (A1)\n0 2 2\n3\nx 2 3\n= = A1\n2 4 0\n3 1\n(iii) P(3 < X ≤ 4) =− 1 = A1\n4 4\n[6 marks]\n(b) EITHER\nQ 1\n1\n∫ 2 1d u = (M1)(A1)\n0 4\nQ 1 1\n⇒ [] u 2 =\n0 4\nQ 1\n⇒ 1 =\n2 4\n1\n⇒ Q = A1\n1\n2\nOR\nQ 1 1 1\n∫ d x = (M1)(A1)\n0 2 4\nQ 1\nx 1\n⇒ =\n2 4 0\nQ 1\n⇒ 1 =\n2 4\n1\n⇒ Q = A1\n1\n2\n[3 marks]\n(c) EITHER\n3 1\n4 E( X ) = ∫ 2d uu + ∫\n3 4d uu M1 0\n4\n3\n1 2\n4 2 = u + 2 u\n3 0\n4\n9 9 23\n= + 2 − = (=1.44) A1\n16 8 16\nOR\n3\nx 4 x\n2 E( X ) = ∫ d x + ∫ d x M1\n0 3 2 4\n3 4\n2 2 x 2 x\n= +\n4 8\n0 3\n9 16 9\n= + − = 23(=1.44) A1\n16 8 8 16\n[2 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 11]\nThe continuous random variable $U$ has a uniform distribution on $[0, 1]$. The random variable $X$ is defined as follows:\n$X = 2U$ when $U \\le \\frac{3}{4}$\n$X = 4U$ when $U > \\frac{3}{4}$.\n(a) (i) Explain why $X$ cannot take values in the interval $\\frac{3}{2} < X \\le 3$.\n(ii) Find $\\mathrm{P}\\left(0 \\le X \\le \\frac{3}{2}\\right)$.\n(iii) Find $\\mathrm{P}(3 < X \\le 4)$. [6 marks]\n(b) Find the lower quartile of $X$. [3 marks]\n(c) Find $\\mathrm{E}(X)$. [2 marks]"
+  }
+ ],
+ "status": "done"
+}

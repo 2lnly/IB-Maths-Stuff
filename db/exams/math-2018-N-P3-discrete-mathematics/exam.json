@@ -1,0 +1,106 @@
+{
+ "exam_id": "math-2018-N-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2018,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2018 November Examination Session/Mathematics_paper_3_Discrete_mathematics__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2018 November Examination Session/Mathematics_paper_3_Discrete_mathematics__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8818-7207; code N18/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 50",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2018-N-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 8]\n(a) Use the Euclidean algorithm to find the greatest common divisor of 77 and 105.\b [3]\n(b) Hence state a condition on c for the Diophantine equation 77x+ 105y=c to have\na solution.\b [1]\n(c) Find all the solutions of the Diophantine equation 11x+ 15y= 1 .\b [4]",
+   "ms_text": "1. (a)\n105 =1 × 77 + 28\n× + 77 =2 28 21\n28 =1 × 21 + 7\n21 =3 × 7\nM1A1\nNote: Award A1 for the first two correct lines.\ntherefore gcd(77, 105) = 7 A1\n[3 marks]\n(b) the equation has a solution when c is a multiple of 7 (or equivalent reason) A1\n[1 mark]\n(c) METHOD 1\nattempting to solve 11 x + 15 y = 1\n1 = 4 − 1 × 3 (M1)\n= 4 − 1 × (11 − 2 × 4)\n= 3 × 4 − 1 × 11 (A1)\n= 3 × (15 − 1 × 11) − 1 × 11\n= 3 × 15 − 4 × 11 (A1)\na solution is x =− 4, y = 3 (or equivalent eg x = 11, y =−) 8\nx =− 4 + 15 k y = 3 − 11 k (or equivalent) ( k∈′) and A1\nNote: Accept linear combination layout.\nMETHOD 2\n7 = 28 − 1 × 21 (M1)\n= 28 − 1 × (77 − 2 × 28)\n= 3 × 28 − 1 × 77 (A1)\n= 3 × (105 − 1 × 77) − 1 × 77\n= 3 × 105 − 4 × 77 (A1)\n7 = 3 × 105 − 4 × 77 ⇒ 3 × 15 − 4 × 11 = 1\n=− = = =−) a solution is x 4, y 3 (or equivalent eg x 11, y 8\n=− + = − (or equivalent) ( k∈′) x 4 15 k and y 3 11 k A1\nNote: Accept linear combination layout.\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.3",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 8]\n(a) Use the Euclidean algorithm to find the greatest common divisor of $77$ and $105$. [3]\n(b) Hence state a condition on $c$ for the Diophantine equation $77x + 105y = c$ to have a solution. [1]\n(c) Find all the solutions of the Diophantine equation $11x + 15y = 1$. [4]"
+  },
+  {
+   "id": "math-2018-N-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 12]\nLet N = (dn dn-1 … d1d0)5=dn×5n+dn-1× 5n-1+ … +d1× 5 +d0 be the representation of a\npositive integer N in base 5.\nLet a = (143)5 and b = (24)5 .\n(a) Expressing your answers in base 5, calculate\n(i) (a + b)5 ;\n(ii) (ab)5 .\b [5]\n(b) Show that (dn dn-1 … d1d0)5 is exactly divisible by 4 if and only if dn+ dn-1+ … + d1+d0\nis exactly divisible by 4.\b [5]\n(c) Show that (x12x)5 cannot be exactly divisible by 4.\b [2]",
+   "ms_text": "2. (a) (i) METHOD 1\nperforming base 5 addition\n1 4 3\n+ 2 4\n2 2 2\n(M1)\n( a + b ) = (222) A1\n5 5\nMETHOD 2\nconverting to base 10, adding and then converting to base 5\na = 48, b = 14 (M1)\na + b = 62\n= (222) A1\n5\n(ii) METHOD 1\nperforming base 5 multiplication\n1 4 3\n× 2 4\n1 2 3 2\n3 4 1 0\n1 0 1 4 2\n(M1)(A1)\nNote: Award A1 for two correct partial products.\n( ab ) = (10142) A1\n5 5\nMETHOD 2\nconverting to base 10, multiplying and then converting to base 5\nab = 672\n4 2 1 672 =× 15 +× 15 +× 45 + 2\n(M1)(A1)\n( ab ) = (10142) A1\n5 5\n[5 marks]\n(b) 5 ≡ 1mod4 ( ) A1\nn\nso 25 ≡…≡ 5 ≡ 1mod 4 ( ) R1\nn d × 5 +…+ d × 5 + d ≡ ( d + d +…+ d + d )( mod 4 )\nM1A1\nn 1 0 n n − 1 1 0 14444244443 14444244443\nLHS RHS\nLHS ≡ 0mod 4 ( ) if and only if RHS ≡ 0mod 4 ( ) R1\ntherefore LHS is divisible by 4 if and only if RHS is divisible by 4 AG\n[5 marks]\n(c) sum of digits = 2 x + 3 A1\nwhich is an odd integer R1\nso not divisible by 4 AG\n[2 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.2",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 12]\nLet $N = (d_n d_{n-1} \\ldots d_1 d_0)_5 = d_n \\times 5^n + d_{n-1} \\times 5^{n-1} + \\ldots + d_1 \\times 5 + d_0$ be the representation of a positive integer $N$ in base 5.\nLet $a = (143)_5$ and $b = (24)_5$.\n(a) Expressing your answers in base 5, calculate\n(i) $(a + b)_5$;\n(ii) $(ab)_5$. [5]\n(b) Show that $(d_n d_{n-1} \\ldots d_1 d_0)_5$ is exactly divisible by 4 if and only if $d_n + d_{n-1} + \\ldots + d_1 + d_0$ is exactly divisible by 4. [5]\n(c) Show that $(x12x)_5$ cannot be exactly divisible by 4. [2]"
+  },
+  {
+   "id": "math-2018-N-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 13]\nA contagious virus affects the population of a small town with 5000 inhabitants.\nLet In denote the total number of people who have been infected by the end of the nth week.\nIn the first week there were 10 cases of infection and by the end of the second week there\nwas a total of 22 cases. A proposed model is that the number of cases is increasing in such\na way that the number of new cases in any week is 1.2 times the number of new cases in the\nprevious week.\n(a) Show that In satisfies the recurrence relation In+2- 2.2In+1+ 1.2In= 0 .\b [2]\n(b) State appropriate initial conditions.\b [1]\n(c) Solve the recurrence relation to obtain an expression for In in terms of n .\b [6]\n(d) Hence find during which week the whole town will become infected.\b [2]\n(e) State two limitations of the model.\b [2]",
+   "ms_text": "I − I = 1.2 ( I − I ) 3. (a) M1A1\nn + 2 n + 1 n + 1 n\nI − 2.2 I + 1.2 I = 0\n+ + AG n 2 n 1 n\n[2 marks]\nI= 10 I= 22 (b) and A1\n1 2\nNote: Award A1 if I= 10 and I= 22 are stated in part (a) or (c).\n1 2\n[1 mark]\nλ 2 − λ + = (c) attempt to find the auxiliary equation 2.2 1.2 0 M1\nλ = 1, λ = 1.2 (A1)\nn n the general solution is = A (1) + B (1.2) M1\nnI\nusing given conditions (eg substituting n = 1,2 into nI) M1\nA + 1.2 B = 10 and A + 1.44 B = 22 A1\n=− = A 50, B 50\nnI=− 50 + 50(1.2)n A1\n[6 marks]\n(d) n= 25.313 Κ = 26 (weeks) (M1)A1\n[2 marks]\n(e) examples\nnI are not all integers\nnI eventually exceeds 5000\nassuming that the rate remains constant\nassuming people do not recover or get reinfected A1A1\nNote: Accept other comparable explanations.\n[2 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 13]\nA contagious virus affects the population of a small town with 5000 inhabitants.\nLet $I_n$ denote the total number of people who have been infected by the end of the $n^{th}$ week.\nIn the first week there were 10 cases of infection and by the end of the second week there was a total of 22 cases. A proposed model is that the number of cases is increasing in such a way that the number of new cases in any week is 1.2 times the number of new cases in the previous week.\n(a) Show that $I_n$ satisfies the recurrence relation $I_{n+2} - 2.2I_{n+1} + 1.2I_n = 0$. [2]\n(b) State appropriate initial conditions. [1]\n(c) Solve the recurrence relation to obtain an expression for $I_n$ in terms of $n$. [6]\n(d) Hence find during which week the whole town will become infected. [2]\n(e) State two limitations of the model. [2]"
+  },
+  {
+   "id": "math-2018-N-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 17]\nConsider the graph G represented in the following diagram.\nA\n6 6\nF B\n7\n8 5\nI\n7 10\n11 6\n9\nH\nE C\n10 8\n5\n7 11\nD\n(a) State, with a reason, whether or not G has an Eulerian circuit.\b [1]\n(b) Use Kruskal’s algorithm to find a minimum spanning tree for G, stating its total weight.\nIndicate clearly the order in which the edges are added.\b [4]\nThe graph G is a plan of a holiday resort where each vertex represents a villa and the edges\nrepresent the roads between villas. The weights of the edges are the times, in minutes,\nMr José, the security guard, takes to walk along each of the roads. Mr José is based at villa A.\n(c) Use a suitable algorithm to show that the minimum time in which Mr José can get from\nA to E is 13 minutes.\b [5]\n(d) Find the minimum time it takes Mr José to patrol the resort if he has to walk along\nevery road at least once, starting and ending at A. State clearly which roads need to\nbe repeated.\b [7]\n\b",
+   "ms_text": "4. (a) no because the graph has vertices (A,B,D,F ) of odd degree R1\n[1 mark]\n(b) the edges are added in the order\nBI 5\nDH 5 A1\nAB 6\nAF 6\nCI 6 A1\nCD 7\nEF 7 A1\ntotal weight= 42 A1\nNote: The orders of the edges with the same weight are interchangeable.\nAccept indication of correct edge order on a diagram. For 7 correct\nedges whose edge order is either incorrect or not indicated, award\nA1A0A0A1. For 6 correct edges whose edge order is either\nincorrect or not indicated, award A1A0A0A0.\n[4 marks]\n(c) clear indication of using Dijkstra for example M1\nA B C D E F H I Vertex (time)\n6(A) - - - 6(A) - 7(A) A(0) A1\nA1 16(B) - - 6(A) - 7(A) B(6)\n16(B) - 13(F) - 7(A) F(6) A1\n13(I) - 13(F) 16(I) I(7) A1\nE(13) AG\n[5 marks]\n(d) there are 4 vertices of odd degree (A, F, B and D) (A1)\nattempting to list at least 2 possible pairings of odd vertices M1\nA → F and B → D has minimum weight 6 + 17 = 23\nA → B and F → D has minimum weight 6 + 18 = 24\nA → D and F → B has minimum weight 20 + 12 = 32 A1A1\nNote: Award A1A0 for 2 pairs.\nminimum time is ( 116 + 23 = ) 139 (mins) (M1)A1\nroads repeated are AF, BC and CD A1\n[7 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.8",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 17]\nConsider the graph $G$ represented in the following diagram.\n[Diagram: weighted graph G with vertices A, B, C, D, E, F, H, I. Edges: AF 6, AB 6, AI 7, FI 8, BI 5, FE 7, BC 10, EI 11, IH 9, IC 6, EH 10, HC 8, HD 5, ED 11, CD 7]\n(a) State, with a reason, whether or not $G$ has an Eulerian circuit. [1]\n(b) Use Kruskal's algorithm to find a minimum spanning tree for $G$, stating its total weight. Indicate clearly the order in which the edges are added. [4]\nThe graph $G$ is a plan of a holiday resort where each vertex represents a villa and the edges represent the roads between villas. The weights of the edges are the times, in minutes, Mr José, the security guard, takes to walk along each of the roads. Mr José is based at villa A.\n(c) Use a suitable algorithm to show that the minimum time in which Mr José can get from A to E is 13 minutes. [5]\n(d) Find the minimum time it takes Mr José to patrol the resort if he has to walk along every road at least once, starting and ending at A. State clearly which roads need to be repeated. [7]"
+  }
+ ],
+ "status": "done"
+}

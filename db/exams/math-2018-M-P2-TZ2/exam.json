@@ -1,0 +1,270 @@
+{
+ "exam_id": "math-2018-M-P2-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2018,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2018 May Examination Session/Mathematics_paper_2__TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2018 May Examination Session/Mathematics_paper_2__TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2218-7206; code M18/5/MATHL/HP2/ENG/TZ2/XX; marks sum matches paper total 100",
+ "qp_pages": 12,
+ "questions": [
+  {
+   "id": "math-2018-M-P2-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\n2 + 7 i\nConsider the complex number z= .\n6 2 i +\n(a) Express z in the form a +ib , where a , b ∈⁄ . [2]\n(b) Find the exact value of the modulus of z . [2]\n(c) Find the argument of z , giving your answer to 4 decimal places. [2]",
+   "ms_text": "( 2 + 7i ) ( 6 − 2i )\n1. (a) z = × (M1)\n( 6 + 2i ) ( 6 − 2i )\n26 + 38i 1319i +\n= = = 0.65 + 0.95i A1\n40 20\n[2 marks]\n2 2 (b) attempt to use z = a + b (M1)\n53 530\n= = z or equivalent A1\n40 20\nNote: A1 is only awarded for the correct exact value.\n[2 marks]\n(c) EITHER\narg z = arg(2 + 7i) − arg(6 + 2i) (M1)\nOR\n19\n= arg z (M1)\narctan13\nTHEN\narg z = 0.9707 (radians) (=55.6197 degrees) A1\nNote: Only award the last A1 if 4 decimal places are given.\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nConsider the complex number $z = \\frac{2+7\\mathrm{i}}{6+2\\mathrm{i}}$.\n(a) Express $z$ in the form $a + \\mathrm{i}b$, where $a, b \\in \\mathbb{Q}$. [2]\n(b) Find the exact value of the modulus of $z$. [2]\n(c) Find the argument of $z$, giving your answer to 4 decimal places. [2]"
+  },
+  {
+   "id": "math-2018-M-P2-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nThe polynomial x4+ px3+ qx2+ rx +6 is exactly divisible by each of (x- 1) , (x- 2) and\n(x - 3) .\nFind the values of p , q and r .",
+   "ms_text": "2. METHOD 1\nsubstitute each of x = 1,2 and 3 into the quartic and equate to zero (M1)\np + q + r =− 7\n4 p + 2 q + r =− 11 or equivalent (A2)\n9 p + 3 q + r =− 29\nNote: Award A2 for all three equations correct, A1 for two correct.\nattempting to solve the system of equations (M1)\np =− 7, q = 17, r =− 17 A1\nNote: Only award M1 when some numerical values are found when solving algebraically or using GDC.\nMETHOD 2\nattempt to find fourth factor (M1)\n( x − 1) A1\n2\nattempt to expand ( x − 1)( x − 2)( x − 3) M1\n= 4 − 3 + 2 − + ( ) x 7 x 17 x 17 x 6 p =− 7, q = 17, r =− 17 A2\nNote: Award A2 for all three values correct, A1 for two correct.\nNote: Accept long / synthetic division.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nThe polynomial $x^4 + px^3 + qx^2 + rx + 6$ is exactly divisible by each of $(x-1)$, $(x-2)$ and $(x-3)$.\nFind the values of $p$, $q$ and $r$."
+  },
+  {
+   "id": "math-2018-M-P2-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nThe random variable X has a normal distribution with mean µ= 50 and variance σ2= 16 .\n(a) Sketch the probability density function for X , and shade the region representing\nP(µ - 2σ<X< µ +σ) . [2]\n(b) Find the value of P(µ - 2σ<X< µ +σ) . [2]\n(c) Find the value of k for which P(µ - kσ<X< µ + kσ) = 0.5 . [2]",
+   "ms_text": "3. (a)\nnormal curve centred on 50 A1\nvertical lines at x= 42 and x= 54, with shading in between A1\n[2 marks]\n( ) (b) P(42 < X < 54) =P(2 − < Z < 1) (M1)\n= 0.819 A1\n[2 marks]\n(c) P( μ − k σ < X < μ + k σ ) = 0.5 ⇒ P( X < μ + k σ ) = 0.75 (M1)\nk= 0.674 A1\nNote: Award M1A0 for k=− 0.674 .\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nThe random variable $X$ has a normal distribution with mean $\\mu = 50$ and variance $\\sigma^2 = 16$.\n(a) Sketch the probability density function for $X$, and shade the region representing $\\mathrm{P}(\\mu - 2\\sigma < X < \\mu + \\sigma)$. [2]\n(b) Find the value of $\\mathrm{P}(\\mu - 2\\sigma < X < \\mu + \\sigma)$. [2]\n(c) Find the value of $k$ for which $\\mathrm{P}(\\mu - k\\sigma < X < \\mu + k\\sigma) = 0.5$. [2]"
+  },
+  {
+   "id": "math-2018-M-P2-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 8]\nConsider the following diagram.\nA\nP\nM\nB C\nThe sides of the equilateral triangle ABC have lengths 1 m . The midpoint of [AB] is\ndenoted by P . The circular arc AB has centre, M , the midpoint of [CP] .\n(a) (i) Find AM .\nˆ (ii) Find AMP in radians. [5]\n(b) Find the area of the shaded region. [3]",
+   "ms_text": "4. (a) (i) METHOD 1\n3\nPC = or 0.8660 (M1)\n2\n1 3\nPM = PC = or 0.4330 (A1)\n2 4\n1 3\nAM = +\n4 16\n7 or 0.661 = (m) A1\n4\nNote: Award M1 for attempting to solve triangle AMP.\nMETHOD 2\nusing the cosine rule\n2\n3 3 2 2\nAM = 1 + −× 2 × cos30 ( ° ) M1A1\n4 4\n7\nAM = or 0.661 (m) A1\n4\n2\n( ˆ ) = (ii) tanAMP or equivalent (M1)\n3\n= 0.857 A1\n[5 marks]\n(b) EITHER\n1\n2 ˆ ˆ AM ( 2AMP − sin(2AMP) )\n(M1)A1\n2\nOR\n1 3 2\nˆ AM × 2AMP − (M1)A1\n2 8\n=0.158(m2) A1\nNote: Award M1 for attempting to calculate area of a sector minus area of a triangle.\n[3 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 8]\nConsider the following diagram.\n[Diagram: equilateral triangle ABC with P the midpoint of [AB], M the midpoint of [CP]; circular arc AB centred at M drawn outside side AB; the segment between arc AB and chord [AB] is shaded]\nThe sides of the equilateral triangle ABC have lengths 1 m. The midpoint of [AB] is denoted by P. The circular arc AB has centre, M, the midpoint of [CP].\n(a) (i) Find AM.\n(ii) Find $\\mathrm{A\\hat{M}P}$ in radians. [5]\n(b) Find the area of the shaded region. [3]"
+  },
+  {
+   "id": "math-2018-M-P2-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\n3 n + 1\n(a) Express the binomial coefficient [3]\nas a polynomial in n . 3 n − 2\nn + 1\nHence find the least value of n for which 3\n(b) [3]\n3 2 > 106. n −",
+   "ms_text": "3 n + 1 ( 3 n + 1! )\n=\n5. (a) (M1)\n( ) 3 n − 2 3 n − 2!3!\n( 3 n + 13 ) n ( 3 n − 1 )\n= A1\n3!\n9 1\n3 = n − n\nor equivalent A1\n2 2\n[3 marks]\n9 1\n3 − > 6\n(b) attempt to solve n n 10 (M1)\n2 2\nn> 60.57 Κ (A1)\nNote: Allow equality.\n⇒ n = 61 A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.10",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\n(a) Express the binomial coefficient $\\binom{3n+1}{3n-2}$ as a polynomial in $n$. [3]\n(b) Hence find the least value of $n$ for which $\\binom{3n+1}{3n-2} > 10^6$. [3]"
+  },
+  {
+   "id": "math-2018-M-P2-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nUse mathematical induction to prove that (1 - a)n> 1 -na for {n : n ∈′+, n ≥2} where\n0 <a< 1 .",
+   "ms_text": "− n >− + 6. let Pnbe the statement: (1 a ) 1 na for some n ∈ ′ , n ≥ 2, where 0 < a < 1\n2 2 n = 2: (1 − a ) = 1 − 2 a + a\nconsider the case M1\n2 > 1 − 2 a because a > 0\n. Therefore 2P is true R1\n= assume Pn is true for some n k\nk (1 − a ) >− 1 ka\nM1\nNote: Assumption of truth must be present. Following marks are not dependent on this M1.\nEITHER\nk + 1 k\nconsider (1 − a ) = (1 − a )(1 − a ) M1\n>− + + 2 1( k 1) a ka A1\n2 >− 1( k + 1) a ⇒ Pk is true (as ka > 0 ) R1\n+ 1\nOR\nmultiply both sides by (1 −a(which is positive) ) M1\nk + 1 (1 − a ) > (1 − ka )(1 − a )\n+\n(1 − a ) k 1 >− 1( k + 1) a + ka 2 A1\nk + 1 2 (1 − a ) >− 1 ( k + 1) a ⇒ P is true (as ka > 0 ) R1\nk + 1\nTHEN\nP is true and P is true ⇒ P is trueso P n≥ 2 (or equivalent) R1\n+ ntrue for all 2 k k 1\nNote: Only award the last R1 if at least four of the previous marks are gained including the A1.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nUse mathematical induction to prove that $(1-a)^n > 1 - na$ for $\\{n : n \\in \\mathbb{Z}^+, n \\ge 2\\}$ where $0 < a < 1$."
+  },
+  {
+   "id": "math-2018-M-P2-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 5]\nA point P moves in a straight line with velocity vms-1 given by v(t) = e-t- 8t2e-2t at time\nt seconds, where t ≥ 0 .\n(a) Determine the first time t1 at which P has zero velocity. [2]\n(b) (i) Find an expression for the acceleration of P at time t .\n(ii) Find the value of the acceleration of P at time t1 . [3]",
+   "ms_text": "7. (a) attempt to solve () vt= 0 for t or equivalent (M1)\nt= 0.441(s) A1\n1\n[2 marks]\nd v − t − 2 t 2 − 2 t\n(b) (i) a(t)= =− e − 16 e t + 16e t M1A1\nd t\nNote: Award M1 for attempting to differentiate using the product rule.\n− 2\n(ii) at () =− 2.28ms ( ) A1\n1\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 5]\nA point P moves in a straight line with velocity $v$ m s$^{-1}$ given by $v(t) = \\mathrm{e}^{-t} - 8t^2\\mathrm{e}^{-2t}$ at time $t$ seconds, where $t \\ge 0$.\n(a) Determine the first time $t_1$ at which P has zero velocity. [2]\n(b) (i) Find an expression for the acceleration of P at time $t$.\n(ii) Find the value of the acceleration of P at time $t_1$. [3]"
+  },
+  {
+   "id": "math-2018-M-P2-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nThe random variable X has a binomial distribution with parameters n and p .\nIt is given that E(X) = 3.5 .\n(a) Find the least possible value of n . [2]\nIt is further given that P(X ≤1) = 0.09478 correct to 4 significant figures.\n(b) Determine the value of n and the value of p . [5]",
+   "ms_text": "np= 8. (a) 3.5 (A1)\np ≤ 1 ⇒ n = 4 A1 least\n[2 marks]\nn n − 1\n(b) (1 − p ) + np (1 − p ) = 0.09478 M1A1\nattempt to solve above equation with np = 3.5 (M1)\n7\nn = 12, p = (= 0.292) A1A1\n24\nNote: Do not accept n as a decimal.\n[5 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nThe random variable $X$ has a binomial distribution with parameters $n$ and $p$.\nIt is given that $\\mathrm{E}(X) = 3.5$.\n(a) Find the least possible value of $n$. [2]\nIt is further given that $\\mathrm{P}(X \\le 1) = 0.09478$ correct to 4 significant figures.\n(b) Determine the value of $n$ and the value of $p$. [5]"
+  },
+  {
+   "id": "math-2018-M-P2-TZ2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 13]\nThe number of taxis arriving at Cardiff Central railway station can be modelled by a Poisson\ndistribution. During busy periods of the day, taxis arrive at a mean rate of 5.3 taxis every\n10 minutes. Let T represent a random 10 minute busy period.\n(a) (i) Find the probability that exactly 4 taxis arrive during T .\n(ii) Find the most likely number of taxis that would arrive during T .\n(iii) Given that more than 5 taxis arrive during T , find the probability that exactly\n7 taxis arrive during T . [7]\nDuring quiet periods of the day, taxis arrive at a mean rate of 1.3 taxis every 10 minutes.\n(b) Find the probability that during a period of 15 minutes, of which the first 10 minutes is\nbusy and the next 5 minutes is quiet, that exactly 2 taxis arrive. [6]",
+   "ms_text": "9. (a) (i) X ~Po(5.3)\n4\n− 5.35.3\nP( X = 4) = e (M1)\n4!\n=0.164 A1\n(ii) METHOD 1\nlisting probabilities (table or graph) M1\nmode X= 5 (with probability 0.174) A1\nNote: Award M0A0 for 5 (taxis) or mode =5 with no justification.\nMETHOD 2\nmode is the integer part of mean R1\nEX ( ) = 5.3 ⇒ mode = 5 A1\nNote: Do not allow R0A1.\n(iii) attempt at conditional probability (M1)\nP( X = 7) 0.1163...\nor equivalent = A1\nP( X ≥ 6) 0.4365...\n=0.267 A1\n[7 marks]\n(b) METHOD 1\nthe possible arrivals are (2,0), (1,1), (0,2) (A1)\nY ~Po(0.65) A1\nattempt to compute, using sum and product rule, (M1)\n0.070106 Κ × 0.52204 Κ + 0.026455 Κ × 0.33932 Κ + 0.0049916 Κ × 0.11028 Κ\n(A1)(A1)\nNote: Award A1 for one correct product and A1 for two other correct products.\n= 0.0461 A1\n[6 marks]\nMETHOD 2\nrecognising a sum of 2 independent Poisson variables egZ = X + Y R1\n1.3\nλ= 5.3 + A1\n2\nP( Z= 2) = 0.0461 (M1)A3\n[6 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.11",
+    "4.L4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 13]\nThe number of taxis arriving at Cardiff Central railway station can be modelled by a Poisson distribution. During busy periods of the day, taxis arrive at a mean rate of 5.3 taxis every 10 minutes. Let T represent a random 10 minute busy period.\n(a) (i) Find the probability that exactly 4 taxis arrive during T.\n(ii) Find the most likely number of taxis that would arrive during T.\n(iii) Given that more than 5 taxis arrive during T, find the probability that exactly 7 taxis arrive during T. [7]\nDuring quiet periods of the day, taxis arrive at a mean rate of 1.3 taxis every 10 minutes.\n(b) Find the probability that during a period of 15 minutes, of which the first 10 minutes is busy and the next 5 minutes is quiet, that exactly 2 taxis arrive. [6]"
+  },
+  {
+   "id": "math-2018-M-P2-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 18]\n� �\n= + − Consider the expression fx () tan x cot x .\n4 4\n5 � �\n(a) (i) Sketch the graph of y = f (x) for − ≤ x ≤ .\n8 8\n(ii) With reference to your graph, explain why f is a function on the given domain.\n(iii) Explain why f has no inverse on the given domain.\n3 � �\n(iv) Explain why f is not a function for − ≤ x ≤ . [5]\n4 4\nThe expression f (x) can be written as g(t) where t = tan x .\n2\n1 + t\n(b) Show that gt ()= . [3]\n1 − t\n(c) Sketch the graph of y = g(t) for t ≤ 0 . Give the coordinates of any intercepts and the\nequations of any asymptotes. [3]\n(d) Let α , β be the roots of g(t) = k , where 0 <k< 1 .\n(i) Find α and β in terms of k .\n(ii) Show that α+ β < - 2 . [7]",
+   "ms_text": "10. (a) (i)\nA1A1\nA1 for correct concavity, many to one graph, symmetrical about the midpoint of the\ndomain and with two axes intercepts.\nNote: Axes intercepts and scales not required.\nA1 for correct domain\nfor each value of x there is a unique value of (ii) fx () A1\nNote: Accept “passes the vertical line test” or equivalent.\n(iii) no inverse because the function fails the horizontal line test\nor equivalent R1\nNote: No FT if the graph is in degrees (one-to-one).\nπ 3π\n(iv) the expression is not valid at either of x = or − R1\n4 4\n[5 marks]\n(b) METHOD 1\nπ\ntan x +\n4\nfx () = M1\nπ\n− x\ntan4\nπ\ntan x +\ntan 4\nπ\n1 − tan x\ntan 4\n= M1A1\nπ\ntan − tan x\n4\nπ\n+ 1 tan tan x\n4\n2\n+ 1 t\n= AG\n1 − t\nMETHOD 2\nπ π π\nfx () = tan x + tan − + x (M1)\n4 2 4\nπ 2\n= tan x + A1\n4\n2\nπ\ntan x +\ntan 4\ngt () = A1\nπ\n1 − tan x\ntan 4\n2\n1 + t\n= AG\n− 1 t\n[3 marks]\n(c)\n≤ y= for t 0, correct concavity with two axes intercepts and with asymptote 1 A1\nt intercept at (−1, 0) A1\ny intercept at (0, 1) A1\n[3 marks]\n(d) (i) METHOD 1\n2 (1 + t )\nα , β satisfy = k M1\n2 (1 − t )\n2 2\n+ + = + − 1 t 2 t k (1 t 2) t A1\n2 ( k − 1) t − 2( k + 1) t + ( k − 1) = 0\nA1\nattempt at using quadratic formula M1\nk + 1 ± 2 k\nα , β = or equivalent A1\n− k 1\nMETHOD 2\n1 + t\nα , β satisfy =± () k M1\n1 − t\n+ = − t kt k 1 M1\nk − 1\nt = (or equivalent) A1\n+ k 1\nt − kt =− ( k + )1 M1\nk + 1\nt = (or equivalent) A1\nk − 1\nk − 1 k + 1\nso for eg, α = , β =\nk + 1 k − 1\n( k + 1) (1 + k )\n(ii) α + β = =− A1\n2 ( 2 (1\nk − 1) − k )\nsince 1 + k > 1 − k R1\nα + β <− 2 AG\nNote: Accept a valid graphical reasoning.\n[7 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.7",
+    "2.2",
+    "2.3",
+    "2.13",
+    "3.10",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 18]\nConsider the expression $f(x) = \\tan\\left(x + \\frac{\\pi}{4}\\right)\\cot\\left(\\frac{\\pi}{4} - x\\right)$.\n(a) (i) Sketch the graph of $y = f(x)$ for $-\\frac{5\\pi}{8} \\le x \\le \\frac{\\pi}{8}$.\n(ii) With reference to your graph, explain why $f$ is a function on the given domain.\n(iii) Explain why $f$ has no inverse on the given domain.\n(iv) Explain why $f$ is not a function for $-\\frac{3\\pi}{4} \\le x \\le \\frac{\\pi}{4}$. [5]\nThe expression $f(x)$ can be written as $g(t)$ where $t = \\tan x$.\n(b) Show that $g(t) = \\left(\\frac{1+t}{1-t}\\right)^2$. [3]\n(c) Sketch the graph of $y = g(t)$ for $t \\le 0$. Give the coordinates of any intercepts and the equations of any asymptotes. [3]\n(d) Let $\\alpha$, $\\beta$ be the roots of $g(t) = k$, where $0 < k < 1$.\n(i) Find $\\alpha$ and $\\beta$ in terms of $k$.\n(ii) Show that $\\alpha + \\beta < -2$. [7]"
+  },
+  {
+   "id": "math-2018-M-P2-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 19]\nA curve C is given by the implicit equation x + y -cos(xy) = 0 .\ny 1 + y sin( xy )\nShow that d =−\n(a) . [5]\nd x 1 + x sin( xy )\nThe curve xy=−�\n(b) intersects C at P and Q .\n2\n(i) Find the coordinates of P and Q .\n(ii) Given that the gradients of the tangents to C at P and Q are m1 and m2\nrespectively, show that m1× m2=1 . [7]\n(c) Find the coordinates of the three points on C , nearest the origin, where the tangent is\nparallel to the line y = - x . [7]",
+   "ms_text": "11. (a) attempt at implicit differentiation M1\nd y d y\n1 + + ( y + x )sin( xy ) = 0 A1M1A1\nd x d x\nNote: Award A1 for first two terms. Award M1 for an attempt at chain rule A1 for last term.\nd y\n+ =−− (1 x sin( xy )) 1 y sin( xy ) or equivalent A1\nd x\nd y 1 + y sin( xy )\n=− AG\n+ d x 1 x sin( xy )\n[5 marks]\n(b) (i) EITHER\nπ , cos\nwhen xy =− xy = 0 M1\n2\n⇒ x + y = 0 (A1)\nOR\nπ − π\n− − = x cos 0 or equivalent M1\n2 x 2\nπ\nx − = 0 (A1)\n2 x\nTHEN\nπ π 2\ntherefore x = x =± ( x =± 1.25 ) A1\n2 2\nπ π π π\nP , − ,Q − , or − − P (1.25, 1.25), Q (1.25, 1.25) A1\n2 2 2 2\nπ\n1 − ×− 1\n2\n(ii) m =− M1A1\n1\nπ\n1 + ×− 1\n2\nπ\n1 + ×− 1\n2\nm =− A1\n2\nπ\n1 − ×− 1\n2\nmm= 1 AG\n1 2\nNote: Award M1A0A0 if decimal approximations are used.\nNote: No FT applies.\n[7 marks]\nequate derivative to −1 (c) M1\n( y − x )sin( xy ) = 0 (A1)\ny = x , sin( xy ) = 0 R1\nin the first case, attempt to solve 2 x = cos ( x 2 ) M1\n(0.486,0.486) A1\n= ⇒ = + = in the second case, sin( xy ) 0 xy 0 and x y 1 (M1)\n(0,1), (1,0) A1\n[7 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4",
+    "2.10",
+    "3.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 19]\nA curve $C$ is given by the implicit equation $x + y - \\cos(xy) = 0$.\n(a) Show that $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = -\\left(\\frac{1 + y\\sin(xy)}{1 + x\\sin(xy)}\\right)$. [5]\n(b) The curve $xy = -\\frac{\\pi}{2}$ intersects $C$ at P and Q.\n(i) Find the coordinates of P and Q.\n(ii) Given that the gradients of the tangents to $C$ at P and Q are $m_1$ and $m_2$ respectively, show that $m_1 \\times m_2 = 1$. [7]\n(c) Find the coordinates of the three points on $C$, nearest the origin, where the tangent is parallel to the line $y = -x$. [7]"
+  }
+ ],
+ "status": "done"
+}

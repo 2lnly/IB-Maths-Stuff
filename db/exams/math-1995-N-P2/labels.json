@@ -1,0 +1,129 @@
+{
+ "exam_id": "math-1995-N-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "3",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.1",
+    "1.15",
+    "5.6",
+    "5.12"
+   ],
+   "answer_status": "ok",
+   "add_flags": [],
+   "note": "Markscheme on ms page 1 only (heading OCR missed; fixed via ms override). Final line of (ii)(b) (= hL/2 (2w - h cot θ), R3,C2) is cut at the bottom of the source scan/page body band. | fixed by segmenter update",
+   "text_clean": "1. [Maximum mark: 18]\n(i) For a function $y$, $\\frac{d^n y}{dx^n}$ represents the $n$th derivative of $y$ with respect to $x$.\n(a) If $y = e^x \\sin x$, show that $\\frac{d^4 y}{dx^4} = -4y$.\n(b) Hence, find the expression for $\\frac{d^8 y}{dx^8}$ in terms of $y$, and conjecture a formula for $\\frac{d^{4n} y}{dx^{4n}}$, $n \\in \\mathbb{N}^*$.\n(c) Use mathematical induction to prove your conjecture. [10 marks]\n(ii) A rectangular fish tank, of width $w$, length $l$ and height $h$ as shown, is full of water and is tipped along its length by an angle $\\theta$ to the horizontal.\n[Diagram: cuboid tank with length l, height h, width w; second view shows the end face tipped by angle θ to the horizontal, with sides w and h and a dashed water line]\n(a) If $\\tan\\theta < \\frac{h}{w}$, show that the volume of water spilled is $\\frac{w^2 l \\tan\\theta}{2}$.\n(b) Find an expression for the volume spilled when $\\tan\\theta > \\frac{h}{w}$. [8 marks]"
+  },
+  "2": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.15",
+    "3.16",
+    "3.17",
+    "3.13",
+    "3.12"
+   ],
+   "text_clean": "2. [Maximum mark: 20]\n(i) Consider the two lines $L_1$ and $L_2$.\n$L_1: \\frac{x-1}{2} = \\frac{y-3}{3} = \\frac{z-1}{2}$\n$L_2: \\frac{3-x}{4} = \\frac{2y-3}{3} = \\frac{z+1}{2}$\n(a) Write the vector equation of each line in the form $\\vec{r} = \\vec{r_0} + \\lambda\\vec{u}$.\n(b) Show that the two lines do not intersect, and state whether or not they are parallel.\n(c) Find, in the form $ax + by + cz = d$, the equation of a plane that is perpendicular to $L_2$ and intersects $L_1$.\n(d) Find a vector that is perpendicular to both lines.\n(e) Hence or otherwise, find the distance between $L_1$ and $L_2$. [12 marks]\n(ii) An aeroplane is flying in a straight line at an altitude of 5000 m. It passes over a point on the ground that is 6000 m due south of a radio beacon at ground level, and then over a point that is 8000 m due east of the beacon.\nBy taking a coordinate system whose origin is at the beacon, derive a vector in the direction of the flight path.\nHence, or otherwise, calculate how close the aeroplane gets to the beacon. [8 marks]"
+  },
+  "3": {
+   "topics": [
+    "4",
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.8",
+    "2.12",
+    "2.15",
+    "5.15"
+   ],
+   "text_clean": "3. [Maximum mark: 18]\n(i) A continuous probability distribution is defined as follows:\n$p(x) = \\begin{cases} 0, & x < 0, \\\\ \\frac{1}{1+x^2}, & 0 \\le x \\le k, \\\\ 0, & x > k. \\end{cases}$\nFind $k$, the mean $\\mu$, and the standard deviation $\\sigma$ of $p(x)$. [8 marks]\n(ii) Two versions of an electric heater are made, one with four heating components and one with two heating components. There is a probability $q$ that any component will fail when a heater is switched on, independent of the other components. Heaters will not operate if more than half of their components fail.\n(a) Deduce that the probability that the two component heater will operate is $1 - q^2$ and derive an expression for the probability that the four component heater will operate.\n(b) What values of $q$ makes the heaters equally reliable?\n(c) What values of $q$ will make the two component heater more reliable than the four component heater? [10 marks]"
+  },
+  "4": {
+   "topics": [
+    "5",
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.8",
+    "2.4",
+    "3.1"
+   ],
+   "answer_status": "ok",
+   "note": "ms crop fixed to start at the q4 heading on ms page 4; one closing sentence (\"and since this is positive, the point is a minimum\", no marks) at the very bottom of ms page 5 is excluded by the segmenter's scan body band.",
+   "text_clean": "4. [Maximum mark: 24]\n(i) (a) Sketch the region enclosed between the curves of $y = \\sqrt{x}$, $y = 6 - x$ and $y = c$, where $1 \\le c \\le 2$.\n(b) Find, in terms of $c$, the area of this region.\n(c) Verify that your answer to (b) is correct by considering the case when $c = 2$. [12 marks]\n(ii) A manufacturer of cans for soft drinks is asked to supply cans which hold 500 cm$^3$ (one half of a litre) of the drink. The cans, when full, are closed cylinders made from very thin sheet metal. For economic reasons the dimensions of the can are such that the amount of sheet metal used to make each can is a minimum.\n(a) Denoting the radius and the height of a can by $r$ cm and $h$ cm respectively, write down an expression for $A$, the area of sheet metal required to make one can.\n(b) Express $A$ in terms of $r$ only and deduce that your expression has no maximum value.\n(c) Show that the radius of the required can is $\\frac{10}{\\sqrt[3]{4\\pi}}$ cm, and find the height of the can. [12 marks]"
+  },
+  "5": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.7",
+    "7.5",
+    "7.4",
+    "7.9",
+    "1.L1"
+   ],
+   "add_flags": [],
+   "note": "ms crop loses the bottom line of ms page 6: the explicit isomorphism p1->I, p2->B, p3->D, p4->A, p5->E, p6->C (C3) and a 'Markers: see note' line, cut by the segmenter's scan body band. | fixed by segmenter update",
+   "text_clean": "5. [Maximum mark: 40]\n(a) Let $M$ be the set of $2 \\times 2$ matrices $\\{I, A, B, C, D, E\\}$ where $I$ is the identity matrix and the other matrices are:\n$A = \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$; $B = \\begin{pmatrix} 0 & 1 \\\\ -1 & -1 \\end{pmatrix}$; $C = \\begin{pmatrix} -1 & -1 \\\\ 0 & 1 \\end{pmatrix}$; $D = \\begin{pmatrix} -1 & -1 \\\\ 1 & 0 \\end{pmatrix}$; $E = \\begin{pmatrix} 1 & 0 \\\\ -1 & -1 \\end{pmatrix}$.\nGiven that matrix multiplication is associative show, by presenting the operation table, that $M$ is a group under matrix multiplication. (Use the letters $I, A, B, C, D$ and $E$ for the elements of the table.)\nShow by example that the group is not abelian. [12 marks]\n(b) Let $S_3$ be the set of all permutations of the elements of the set $\\{1, 2, 3\\}$.\nTwo of the elements of $S_3$ are thus:\n$p_1 = \\begin{pmatrix} 1 & 2 & 3 \\\\ 1 & 2 & 3 \\end{pmatrix}$; $p_2 = \\begin{pmatrix} 1 & 2 & 3 \\\\ 2 & 3 & 1 \\end{pmatrix}$.\nWrite down the remaining elements, denoting the elements by $p_i$, $i = 3, 4, \\ldots$\nGiven that $S_3$ is a group under the operation of composition, write down the group table. (Again, use letters $p_i$ for the elements.) [8 marks]\n(c) Explain what is meant by saying that two groups are isomorphic.\nShow, by finding an isomorphism, that the groups in (a) and (b) are isomorphic. [6 marks]\n(d) Let $S_n$ be the set of all permutations of the set $\\{1, 2, 3, \\ldots, n\\}$ where $n \\ge 3$.\nBy considering the two elements of $S_n$\n$s_1 = \\begin{pmatrix} 1 & 2 & 3 & \\ldots \\\\ 1 & 3 & 2 & \\ldots \\end{pmatrix}$ and $s_2 = \\begin{pmatrix} 1 & 2 & 3 & \\ldots \\\\ 3 & 2 & 1 & \\ldots \\end{pmatrix}$\nin which each number after 3 is unchanged, deduce that $S_n$ under the operation of composition is not abelian.\nHence verify that the group in (a) is not abelian. [6 marks]\n(e) Using either of the group tables in (a) and (b), find an example to suggest an expression for the inverse of $(x * y)$ in terms of the inverse of $x$ and $y$, where $x$ and $y$ are group elements and $*$ denotes the relevant operation.\nProve that your result is true for any group. [8 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.11",
+    "6.8",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "note": "ms crop fixed via override (was running into Q7's markscheme).",
+   "text_clean": "6. [Maximum mark: 40]\n(i) Nine intersections in the road system of an American city are connected by unpaved roads. The distances between the intersections, in kilometres, are given in the diagram below.\n[Diagram: 3x3 grid of intersections A B C / D E F / G H I with weighted edges AB=5, BC=4, AD=2, BD=3, BE=5, BF=6, CF=3, DE=7, EF=1, DG=6, DH=8, EH=3, FH=4, FI=4, GH=4, HI=2]\nWhat is the minimum length of road that should be paved so that there is a paved route between any two intersections? [10 marks]\n(ii) (a) Write down the adjacency matrix of the graph below.\n[Diagram: graph on v1, v2, v3, v4 with edges v1v2, v1v3, v2v4, v4v3 (crossing diagonals)]\nHence, or otherwise, calculate the number of ways of getting from $v_1$ to $v_4$ in the graph above using either 2 or 4 edges in the path.\n(b) State clearly a property of the adjacency matrix of a graph with $n$ vertices, that you possibly used to obtain your answer to (a).\nExplain how this property allows the number of edges in the shortest path between two vertices to be calculated. [10 marks]\n(iii) Draw a graph with incidence matrix $B$, given by\n$B = \\begin{pmatrix} 1 & 1 & 1 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 & 1 & 1 \\\\ 0 & 1 & 1 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 & 0 & 1 \\\\ 0 & 0 & 0 & 1 & 0 & 0 \\end{pmatrix}$,\nexplaining clearly the relationship between the matrix and the graph. [10 marks]\n(iv) The column totals of the adjacency matrix of a connected graph with no loops are:\n5 4 1 2 6 4 4 8 6 2\nDoes the graph have either an Eulerian path or a Hamiltonian circuit? Explain your answers.\nDeduce the number of edges in the graph, and the number of regions in any planar representation of the graph. [10 marks]"
+  },
+  "7": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L6",
+    "4.L4",
+    "4.L1",
+    "4.L5",
+    "4.L7"
+   ],
+   "answer_status": "ok",
+   "note": "ms crop fixed via override (two ms pages, previously split across q6/q7 crops); qp crop fixed to exclude the next option heading.",
+   "text_clean": "Statistics\n7. [Maximum mark: 40]\n(a) The number $X_1$ of a particular model of bicycle sold per week by a shop has a Poisson distribution with mean 5. Determine the probability of the following events:\n(i) none of the bicycles of that type are sold in a given week;\n(ii) more than ten such bicycles are sold in a given week.\nIf each bicycle is sold for \\$200, determine the mean and variance of the total weekly amount in sales on that model. (Results on means and variances for Poisson distributions may be stated without proof.)\nFor a second model of bicycle the number $X_2$ sold per week is Poisson with mean 3 and is independent of $X_1$. The cost of this second type of bicycle is \\$250. Determine the mean and the standard deviation for the total combined weekly sales of the two models. (Again, any results used to derive your answer must be clearly stated but need not be proved.) [13 marks]\n(b) A record was kept of the time taken for a particular mechanic, $A$, to service each bicycle before sale. In a sample of $n_A = 25$ bicycles the mean and standard deviation of the service times were 57.5 and 3.7 minutes respectively.\nOn the assumption that service times are normally distributed, explain how to obtain a 95% confidence interval for $\\mu_A$, the mean service time. Distributive results used in your answer should be clearly stated.\nCalculate the end points of the 95% confidence interval from the above data. Would your results lead to the assumption of a mean service time of 60 minutes when testing against a two-tailed alternative hypothesis at the 5% significance level? [12 marks]\n(c) For mechanic $B$ a sample of $n_B = 20$ service times had a mean and standard deviation of 61.7 and 3.1 minutes respectively.\nObtain a 95% confidence interval for $\\mu_A - \\mu_B$, the difference in mean service times for the two mechanics. Any assumptions made and distributive results used in your answer should be clearly stated.\nState, with reasons, whether or not you would accept that $\\mu_A$ is equal to $\\mu_B$. [15 marks]"
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L1",
+    "5.L7",
+    "5.L3"
+   ],
+   "answer_status": "ok",
+   "add_flags": [],
+   "note": "ms was missing (heading OCR'd as '3'); added via override (ms pages 12-13). The last lines of ms page 12 (end of (i)(b): 'diverges, so does sum 1/(2+sqrt n)', alternative comparison with p=1/2, R4 split at discretion) are cut by the segmenter's scan body band. | fixed by segmenter update",
+   "text_clean": "8. [Maximum mark: 40]\n(i) (a) State clearly the conditions for the integral test to be applied to the series $\\sum_{n=1}^{\\infty} a_n$.\nApply the integral test to the series $\\sum_{n=1}^{\\infty} \\frac{n}{n^2+1}$.\n(b) State clearly the values of $p > 0$ for which the series $\\sum_{n=1}^{\\infty} \\frac{1}{n^p}$ converges.\nSetting $p = \\frac{1}{2}$, what does the comparison tell you about the convergence or divergence of the series $\\sum_{n=1}^{\\infty} \\frac{1}{2+\\sqrt{n}}$?\nUse an alternative value of $p$, if necessary, to establish whether the series converges or diverges. [16 marks]\n(ii) (a) Write down the first two terms of the Taylor series for $f(x)$ about a point $x_n$, and denote the expression by $p(x)$. Let $x_{n+1}$ be a real number such that $p(x_{n+1}) = 0$.\nFind an expression for $x_{n+1}$ in terms of $x_n$ and so, by letting $n = 0, 1, 2, \\ldots$, derive the Newton–Raphson iterative method for solving $f(x) = 0$.\n(b) Show that when the result in (a) is applied to the equation $x^2 - c = 0$ it becomes\n$x_{n+1} = \\frac{1}{2}\\left\\{x_n + \\frac{c}{x_n}\\right\\}$, $n = 0, 1, 2, \\ldots$\nShow further that\n$x_{n+1} \\pm \\sqrt{c} = \\frac{1}{2x_n}(x_n \\pm \\sqrt{c})^2$\nfor $n = 0, 1, 2, \\ldots$\n(c) Deduce that\n$\\frac{x_{n+1} - \\sqrt{c}}{x_{n+1} + \\sqrt{c}} = \\left(\\frac{x_0 - \\sqrt{c}}{x_0 + \\sqrt{c}}\\right)^{2^{n+1}}$.\nHence show that for any $x_0 > 0$, the sequence of iterates converges to $\\sqrt{c}$. [24 marks]"
+  }
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "exam_id": "math-2015-M-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2015,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2015 May Examination Session/Mathematics_paper_3_Statistics_and_probability_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2015 May Examination Session/Mathematics_paper_3_Statistics_and_probability_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2215-7210; code M15/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2015-M-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 13]\nEngine oil is sold in cans of two capacities, large and small. The amount, in millilitres,\nin each can, is normally distributed according to Large ∼ N (5000 , 40) and\nSmall ∼ N (1000 , 25) .\n(a) A large can is selected at random. Find the probability that the can contains at least\n4995 millilitres of oil. [2]\n(b) A large can and a small can are selected at random. Find the probability that the large\ncan contains at least 30 millilitres more than five times the amount contained in the\nsmall can. [6]\n(c) A large can and five small cans are selected at random. Find the probability that the\nlarge can contains at least 30 millilitres less than the total amount contained in the\nsmall cans. [5]",
+   "ms_text": "1. (a) P( L ≥ 4995) = 0.785 (M1)A1\nNote: Accept any answer that rounds correctly to 0.79.\nAward M1A0 for 0.78.\nNote: Award M1A0 for any answer that rounds to 0.55 obtained by taking SD = 40.\n[2 marks]\nL : N(5000,40) S: N(1000,25) (b) we are given that and\nX = L − 5 S ( ± 30) consider ignore (M1)\nE( X ) = 0 (30 ± ) consistent with line above A1\nVar ( X ) = Var () L + 25Var () S = 40 + 625 = 665 (M1)A1\nX≥ X≥ − require P( 30) ( or P( 0) if 30 above ) (M1)\nobtain 0.122 A1\nNote: Accept any answer that rounds correctly to 2 significant figures.\n[6 marks]\n(c) consider Y = L − ( S + S + S + S + S )( ignore ± 30) (M1)\n1 2 3 4 5\nE() Y= 0 (30 ± ) consistent with line above A1\nVar() Y= 40 + 5 × 25 = 165 A1\nrequire P( Y ≤− 30) ( or P( Y ≤ 0) if + 30 above ) (M1)\nobtain 0.00976 A1\nNote: Accept any answer that rounds correctly to 2 significant figures.\nNote: Condone the notation Y=L−5S if the variance is correct.\n[5 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 13]\nEngine oil is sold in cans of two capacities, large and small. The amount, in millilitres, in each can, is normally distributed according to Large $\\sim \\mathrm{N}(5000, 40)$ and Small $\\sim \\mathrm{N}(1000, 25)$.\n(a) A large can is selected at random. Find the probability that the can contains at least $4995$ millilitres of oil. [2]\n(b) A large can and a small can are selected at random. Find the probability that the large can contains at least $30$ millilitres more than five times the amount contained in the small can. [6]\n(c) A large can and five small cans are selected at random. Find the probability that the large can contains at least $30$ millilitres less than the total amount contained in the small cans. [5]"
+  },
+  {
+   "id": "math-2015-M-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 12]\nEleven students who had under-performed in a philosophy practice examination were given\nextra tuition before their final examination. The differences between their final examination\nmarks and their practice examination marks were\n10 , −1 , 6 , 7 , −5 , −5 , 2 , −3 , 8 , 9 , −2 .\nAssume that these differences form a random sample from a normal distribution with mean µ\nand variance σ2.\n(a) Determine unbiased estimates of µ and σ2. [4]\n(b) (i) State suitable hypotheses to test the claim that extra tuition improves examination\nmarks.\n(ii) Calculate the p-value of the sample.\n(iii) Determine whether or not the above claim is supported at the 5 % significance\nlevel. [8]",
+   "ms_text": "2. (a) unbiased estimate of μis 2.36(36 … (26/11) ) (M1)A1\nσ is 2 = ( 2 ) unbiased estimate of 33.65(45 Κ ) 5.801 (1851/55) (M1)A1\nNote: Accept any answer that rounds correctly to 3 significant figures.\n2 Note: Award M1A0 for any unbiased estimate of σthat rounds to 5.80.\n[4 marks]\n(b) (i) H: μ = 0; H: μ > 0 A1A1\n0 1\nNote: Award A1A0 if an inappropriate symbol is used for the mean, eg, r, d .\n(ii) attempt to use t-test (M1)\nt=1.35 (A1)\nDF=10 (A1)\np-value =0.103 A1\nNote: Accept any answer that rounds correctly to 3 significant figures.\n(iii) 0.103 > 0.05 A1\nthere is insufficient evidence at the 5% level to support the\nclaim (that extra tuition improves examination marks)\nOR\nthe claim (that extra tuition improves examination marks) is not\nsupported at the 5% level (or equivalent statement) R1\nNote: Follow through the candidate’s p-value.\nNote: Do not award R1 for Accept H0 or Reject H1.\n[8 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 12]\nEleven students who had under-performed in a philosophy practice examination were given extra tuition before their final examination. The differences between their final examination marks and their practice examination marks were\n$10, -1, 6, 7, -5, -5, 2, -3, 8, 9, -2$.\nAssume that these differences form a random sample from a normal distribution with mean $\\mu$ and variance $\\sigma^2$.\n(a) Determine unbiased estimates of $\\mu$ and $\\sigma^2$. [4]\n(b) (i) State suitable hypotheses to test the claim that extra tuition improves examination marks.\n(ii) Calculate the $p$-value of the sample.\n(iii) Determine whether or not the above claim is supported at the $5\\%$ significance level. [8]"
+  },
+  {
+   "id": "math-2015-M-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 9]\nA manufacturer of stopwatches employs a large number of people to time the winner of\na 100 metre sprint. It is believed that if the true time of the winner is µ seconds,\nthe times recorded are normally distributed with mean µ seconds and standard deviation\n0.03 seconds.\nThe times, in seconds, recorded by six randomly chosen people are\n9.765 , 9.811 , 9.783 , 9.797 , 9.804 , 9.798 .\n(a) Calculate a 99 % confidence interval for µ . Give your answer correct to three decimal\nplaces. [4]\n(b) Interpret the result found in (a). [2]\n(c) Find the confidence level of the interval that corresponds to halving the width of the\n99 % confidence interval. Give your answer as a percentage to the nearest whole\nnumber. [3]",
+   "ms_text": "3. (a) the (unbiased) estimate of μ is 9.793 (A1)\n0.03\nthe 99% CI is 9.793 ± 2.576 (M1)(A1)\n6\n= [9.761, 9.825] A1\nNote: Accept 9.762 and 9.824.\n[4 marks]\n(b) if this process is carried out a large number of times A1\n(approximately) 99% of the intervals will contain μ A1\nn ≥ Note: Award A1A1 for a consideration of any specific large value of times ( 100) .\n[2 marks]\n(c) METHOD 1\nIf the interval is halved, 2.576 becomes 1.288 M1\nnormal tail probability corresponding to 1.288 =0.0988… A1\nconfidence level =80% A1\nMETHOD 2\nhalf width =0.5× 0.063 or 0.062 or 0.064=0.0315 or 0.031 or 0.032 M1\nz× 2 0.03\n= 0.0315 or 0.031 or 0.032\n6\ngiving z=1.285… or 1.265… or 1.306… A1\nconfidence level =80% or 79% or 81% A1\nNote: Follow through values from (a).\n[3 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L6",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 9]\nA manufacturer of stopwatches employs a large number of people to time the winner of a $100$ metre sprint. It is believed that if the true time of the winner is $\\mu$ seconds, the times recorded are normally distributed with mean $\\mu$ seconds and standard deviation $0.03$ seconds.\nThe times, in seconds, recorded by six randomly chosen people are\n$9.765, 9.811, 9.783, 9.797, 9.804, 9.798$.\n(a) Calculate a $99\\%$ confidence interval for $\\mu$. Give your answer correct to three decimal places. [4]\n(b) Interpret the result found in (a). [2]\n(c) Find the confidence level of the interval that corresponds to halving the width of the $99\\%$ confidence interval. Give your answer as a percentage to the nearest whole number. [3]"
+  },
+  {
+   "id": "math-2015-M-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "[Maximum mark: 15] 4.\nA random variable X has a population mean µ .\n(a) Explain briefly the meaning of\n(i) an estimator of µ ;\n(ii) an unbiased estimator of µ . [3]\n(b) A random sample X1 , X2 , X3 of three independent observations is taken from the\ndistribution of X .\nAn unbiased estimator of µ , µ ≠ 0 , is given by U =α X1+ β X2+ (α- β) X3 ,\nwhere α , β∈ϒ .\n(i) Find the value of α .\n1 2 2\n(ii) Show that Var ( U) = σ 2 β − β +\nwhere σ 2= Var(X ).\n2\n(iii) Find the value of β which gives the most efficient estimator of µ of this form.\n(iv) Write down an expression for this estimator and determine its variance.\n(v) Write down a more efficient estimator of µ than the one found in (iv), justifying\nyour answer. [12]",
+   "ms_text": "4. (a) (i) an estimator T is a formula (or statistic) that can be applied to the\nvalues in any sample, taken from X A1\nto estimate the value of μ A1\n= μ (ii) an estimator is unbiased if E() T A1\n[3 marks]\n(b) (i) using linearity and the definition of an unbiased estimator M1\nμ = αμ + βμ + ( α − βμ ) A1\n1\nobtain α= A1\n2\n(ii) attempt to compute Var () U using correct formula M1\n2\n1 1 2 2 2 2\nVar () U = σ + βσ + − β σ A1\n4 2\n1\n= σ 2 β 2 − β + Var () U 2 AG\n2\n(iii) attempt to minimise quadratic in β (or equivalent) (M1)\n1\nβ= A1\n4\n1 1 1\n(iv) () U = X + X + X A1\n1 2 3\n2 4 4\n3\n= σ 2 Var () U A1\n8\n1 1 1\n(v) X + X + X A1\n1 2 3\n3 3 3\n1 1 1 3 2\nX + X + X = σ A1\nVar3 1 2 3\n3 3 9\n<Var() U R1\n3 3 3 3\nλ λ = λ 2 < Note: Accept ∑ X if ∑ 1 and ∑ and follow through to the\ni i i i\n8 i = 1 i = 1 i = 1\nvariance if this is the case.\n[12 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "2"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.L4",
+    "2.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 15]\nA random variable $X$ has a population mean $\\mu$.\n(a) Explain briefly the meaning of\n(i) an estimator of $\\mu$;\n(ii) an unbiased estimator of $\\mu$. [3]\n(b) A random sample $X_1, X_2, X_3$ of three independent observations is taken from the distribution of $X$.\nAn unbiased estimator of $\\mu$, $\\mu \\neq 0$, is given by $U = \\alpha X_1 + \\beta X_2 + (\\alpha - \\beta) X_3$, where $\\alpha, \\beta \\in \\mathbb{R}$.\n(i) Find the value of $\\alpha$.\n(ii) Show that $\\mathrm{Var}(U) = \\sigma^2\\left(2\\beta^2 - \\beta + \\frac{1}{2}\\right)$ where $\\sigma^2 = \\mathrm{Var}(X)$.\n(iii) Find the value of $\\beta$ which gives the most efficient estimator of $\\mu$ of this form.\n(iv) Write down an expression for this estimator and determine its variance.\n(v) Write down a more efficient estimator of $\\mu$ than the one found in (iv), justifying your answer. [12]"
+  },
+  {
+   "id": "math-2015-M-P3-statistics-and-probability-q5",
+   "num": "5",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 11]\n(a) Determine the probability generating function for X ∼B(1 , p) . [4]\n(b) Explain why the probability generating function for B(n , p) is a polynomial of degree n . [2]\n(c) Two independent random variables X1 and X2 are such that X :B ( 1 , p ) and\n1 1\nX ( 1 , p ). Prove that if X1+X2 has a binomial distribution then p1=p2 . :B [5]\n2 2",
+   "ms_text": "5. (a) P( X = 0) =− 1 p ( = q ) ; P( X = 1) = p (M1)(A1)\n= = r G ( t ) ∑ P ( X r ) t (or writing out term by term) M1\nx\nr\n=q+ pt A1\n[4 marks]\n(b) METHOD 1\nPGF for Bnp is ( ( , ) q + pt )n R1\nwhich is a polynomial of degree n R1\nMETHOD 2\nin n independent trials, it is not possible to obtain more than\nn successes (or equivalent, eg,P(X>n) = 0) R1\nso ra= 0 for r > n R1\n[2 marks]\n= + (c) let Y X X\n1 2\nG () t = ( q + p t )( q + p t ) A1\nY 1 1 2 2\nG () t has degree two, so if Y is binomial then\nY\nY : B(2, p ) for some p R1\n2 ( q + pt ) = ( q + p t )( q + p t ) A1\n1 1 2 2\n2 22\nNote: The LHS could be seen as q + 2 pqt + pt .\nMETHOD 1\nq q\n1 = 2 by considering the roots of both sides, M1\np p\n1 2\n1 − p 1 − p\n1 2 = A1\np p\n1 2\nso p = p AG\n1 2\nMETHOD 2\nequating coefficients,\n= 2 = 2 − − = − 2 pp p , q q q or (1 p )(1 p ) (1 p ) M1\n1 2 1 2 1 2\nexpanding,\n+ = 2 − + 2 = p p 2 p so p , pare the roots of x 2 px p 0 A1\n1 2 1 2\nso p = p AG\n1 2\n[5 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L3",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 11]\n(a) Determine the probability generating function for $X \\sim \\mathrm{B}(1, p)$. [4]\n(b) Explain why the probability generating function for $\\mathrm{B}(n, p)$ is a polynomial of degree $n$. [2]\n(c) Two independent random variables $X_1$ and $X_2$ are such that $X_1 \\sim \\mathrm{B}(1, p_1)$ and $X_2 \\sim \\mathrm{B}(1, p_2)$. Prove that if $X_1 + X_2$ has a binomial distribution then $p_1 = p_2$. [5]"
+  }
+ ],
+ "status": "done"
+}

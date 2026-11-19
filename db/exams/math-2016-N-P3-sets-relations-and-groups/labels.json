@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2016-N-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.7", "7.6"],
+      "text_clean": "1. [Maximum mark: 13]\nLet $\\{G, \\circ\\}$ be the group of all permutations of $1, 2, 3, 4, 5, 6$ under the operation of composition of permutations.\n(a) (i) Write the permutation $\\alpha = \\begin{pmatrix} 1 & 2 & 3 & 4 & 5 & 6 \\\\ 3 & 4 & 6 & 2 & 1 & 5 \\end{pmatrix}$ as a composition of disjoint cycles.\n(ii) State the order of $\\alpha$. [3]\n(b) (i) Write the permutation $\\beta = \\begin{pmatrix} 1 & 2 & 3 & 4 & 5 & 6 \\\\ 6 & 4 & 3 & 5 & 1 & 2 \\end{pmatrix}$ as a composition of disjoint cycles.\n(ii) State the order of $\\beta$. [2]\n(c) Write the permutation $\\alpha \\circ \\beta$ as a composition of disjoint cycles. [2]\n(d) Write the permutation $\\beta \\circ \\alpha$ as a composition of disjoint cycles. [2]\n(e) State the order of $\\{G, \\circ\\}$. [2]\nConsider the following Venn diagram, where $A = \\{1, 2, 3, 4\\}$, $B = \\{3, 4, 5, 6\\}$.\n[Diagram: Venn diagram of two overlapping sets A and B; 1, 2 in A only; 3, 4 in $A \\cap B$; 5, 6 in B only]\n(f) Find the number of permutations in $\\{G, \\circ\\}$ which will result in $A$, $B$ and $A \\cap B$ remaining unchanged. [2]"
+    },
+    "2": {
+      "topics": ["7"],
+      "subtopics": ["7.5", "7.3", "7.9"],
+      "text_clean": "2. [Maximum mark: 21]\n(a) Let $A$ be the set $\\{x \\mid x \\in \\mathbb{R}, x \\neq 0\\}$. Let $B$ be the set $\\{x \\mid x \\in ]-1, +1[, x \\neq 0\\}$.\nA function $f: A \\to B$ is defined by $f(x) = \\frac{2}{\\pi}\\arctan(x)$.\n(i) Sketch the graph of $y = f(x)$ and hence justify whether or not $f$ is a bijection.\n(ii) Show that $A$ is a group under the binary operation of multiplication.\n(iii) Give a reason why $B$ is not a group under the binary operation of multiplication.\n(iv) Find an example to show that $f(a \\times b) = f(a) \\times f(b)$ is not satisfied for all $a, b \\in A$. [13]\n(b) Let $D$ be the set $\\{x \\mid x \\in \\mathbb{R}, x > 0\\}$.\nA function $g: \\mathbb{R} \\to D$ is defined by $g(x) = e^x$.\n(i) Sketch the graph of $y = g(x)$ and hence justify whether or not $g$ is a bijection.\n(ii) Show that $g(a + b) = g(a) \\times g(b)$ for all $a, b \\in \\mathbb{R}$.\n(iii) Given that $\\{\\mathbb{R}, +\\}$ and $\\{D, \\times\\}$ are both groups, explain whether or not they are isomorphic. [8]"
+    },
+    "3": {
+      "topics": ["7"],
+      "subtopics": ["7.6", "7.8"],
+      "text_clean": "3. [Maximum mark: 15]\nAn Abelian group, $\\{G, *\\}$, has 12 different elements which are of the form $a^i * b^j$ where $i \\in \\{1, 2, 3, 4\\}$ and $j \\in \\{1, 2, 3\\}$. The elements $a$ and $b$ satisfy $a^4 = e$ and $b^3 = e$ where $e$ is the identity.\n(a) State the possible orders of an element of $\\{G, *\\}$ and for each order give an example of an element of that order. [8]\nLet $\\{H, *\\}$ be the proper subgroup of $\\{G, *\\}$ having the maximum possible order.\n(b) (i) State a generator for $\\{H, *\\}$.\n(ii) Write down the elements of $\\{H, *\\}$.\n(iii) Write down the elements of the coset of $H$ containing $a$. [7]"
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.2"],
+      "text_clean": "4. [Maximum mark: 11]\nA relation $S$ is defined on $\\mathbb{R}$ by $aSb$ if and only if $ab > 0$.\n(a) Show that $S$ is\n(i) not reflexive;\n(ii) symmetric;\n(iii) transitive. [4]\nA relation $R$ is defined on a non-empty set $A$. $R$ is symmetric and transitive but not reflexive.\n(b) Explain why there exists an element $a \\in A$ that is not related to itself. [1]\n(c) Hence prove that there is at least one element of $A$ that is not related to any other element of $A$. [6]"
+    }
+  }
+}

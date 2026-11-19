@@ -1,0 +1,109 @@
+{
+ "exam_id": "math-2017-M-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2017,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2017 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2017 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2217-7209; code M17/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches paper total 50",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2017-M-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 10]\nThe set A contains all positive integers less than 20 that are congruent to 3 modulo 4.\nThe set B contains all the prime numbers less than 20.\n(a) (i) Write down all the elements of A and all the elements of B .\n(ii) Determine the symmetric difference, A∆B, of the sets A and B . [4]\n(b) The set C is defined as C= {7 , 9 , 13 , 19} .\n(i) Write down all the elements of A ∩ B, A ∩ C and B ∪ C .\n(ii) Hence by considering A ∩(B ∪ C) , verify that in this case the operation ∩ is\ndistributive over the operation ∪ . [6]",
+   "ms_text": "1. (a) (i) the elements of A are: 3, 7, 11, 15, 19 A1\nthe elements of B are2, 3, 5, 7, 11, 13, 17, 19 A1\nNote: Accept A= {3, 7, 11, 15, 19} and B= {2, 3, 5, 7, 11, 13, 17, 19}.\n(ii) attempt to determine AB \\ ∪ BA \\ or ( A ∪ B ) ∩ ( A ∩ Bʹ ) (M1)\nsymmetric difference ={2, 5, 13, 15, 17} A1\nNote: Allow (M1)A1FT.\n[4 marks]\n(b) (i) the elements of A B are 3, 7, 11 and 19 A1 ∩\nthe elements of A C are 7 and 19 A1 ∩\nthe elements of B ∪Care 2, 3, 5, 7, 9, 11, 13, 17 and19 A1\nNote: Accept A ∩ B = {3, 7, 11, 19} , A ∩ C = {7, 19} and\nB ∪C={2, 3, 5, 7, 9, 11, 13, 17, 19}.\n(ii) we need to show that\nA ( B C ) ( A B ) ( A C ) (M1) ∩ ∪ = ∩ ∪ ∩\nA1 A ∩ ( B ∪ C ) = {3, 7, 11, 19}\n( A ∩ B ) ∪ ( A ∩ C ) = {3, 7, 11, 19} A1\nhence showing the required result\nNote: Allow (M1)A1FTA1FT.\n[6 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 10]\nThe set $A$ contains all positive integers less than $20$ that are congruent to $3$ modulo $4$.\nThe set $B$ contains all the prime numbers less than $20$.\n(a) (i) Write down all the elements of $A$ and all the elements of $B$.\n(ii) Determine the symmetric difference, $A \\Delta B$, of the sets $A$ and $B$. [4]\n(b) The set $C$ is defined as $C = \\{7, 9, 13, 19\\}$.\n(i) Write down all the elements of $A \\cap B$, $A \\cap C$ and $B \\cup C$.\n(ii) Hence by considering $A \\cap (B \\cup C)$, verify that in this case the operation $\\cap$ is distributive over the operation $\\cup$. [6]"
+  },
+  {
+   "id": "math-2017-M-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 11]\nThe relation R is defined such that aRb if and only if 4a- 4b is divisible by 7 ,\nwherea , b ∈′+ .\n(a) (i) Show that R is an equivalence relation.\nDetermine the equivalence classes of R . (ii) [9]\nThe equivalence relation S is defined such that cSd if and only if 4c- 4d is divisible by 6 ,\nwhere c , d ∈′+ .\nDetermine the number of equivalence classes of S . (b) [2]",
+   "ms_text": "2. (a) (i) METHOD 1\na a reflexive: 4 4 0\nwhich is divisible by 7 (for all a∈¢) R1 − =\nso aRa therefore reflexive\na b symmetric: LetaRb so that 4\n− 4 is divisible by 7 M1\nb a a b it follows that 4\n− 4 = − ( 4 − 4 ) is also divisible by 7 A1\nit follows that bRa therefore symmetric\na b b c transitive: let aRb and bRc so that 4 4\nand 4 4 are divisible − −\nby 7 M1\na b b c it follows that 4 4 7 M\nand 4 4 7 N − = − =\na b b c a c\nso that ( 4 − 4 )( + 4 − 4 ) = 4 − 4 = 7( M + N ) A1\ntherefore aRb and bRc ⇒ aRc R1\nso that R is transitive\nNote: For transitivity, award A0 if the same variable is used to express the\nmultiples of 7; R1 is dependent on the M mark.\nsince R is reflexive, symmetric and transitive, it is an equivalence\nrelation AG\nMETHOD 2\nreflexive: 4a−4a≡0mod7 (for all a ∈′) R1\nso aRa therefore reflexive\nsymmetric: letaRb. Then 4a−4b≡0mod7 M1\n( )≡0mod7 it follows that 4b−4a≡−4a−4b A1\nit follows that bRa therefore symmetric\ntransitive: let aRb and bRc ,ie, 4a−4b≡0mod7 and 4b−4c≡0mod7 M1\nso that 4a−4c≡4a−4b ( )+4b −4c ( )≡0mod7 A1\ntherefore aRb and bRc ⇒ aRc R1\nso R is transitive\nNote: For transitivity, award A0 if mod 7 is omitted; R1 is dependent on the M mark.\nsince R is reflexive, symmetric and transitive, it is an equivalence\nrelation AG\n(ii) attempt to solve 4a≡4mod7 or 4a≡42≡2mod7 or 4a≡43≡1mod7 (M1)\nthe equivalence classes are\n{1, 4, 7, …, {2, 5, 8, } … and {3, 6, 9, } … } A2\nNote: Award (M1)A1for one or two correct equivalence classes.\n[9 marks]\n(b) starting with 1, we find that 2, 3, 4, … all belong to the same equivalence\nc c − 1 c − 1 c − 1 c\nclass or 4 − 4 ≡ 44 ( − 1 ) ≡ 42 ( − 12 )( − 1 ) ≡ 0mod6 or 4 ≡ 4mod6 (M1)\ntherefore there is one equivalence class A1\n[2 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "6"
+   ],
+   "subtopics": [
+    "7.2",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 11]\nThe relation $R$ is defined such that $aRb$ if and only if $4^a - 4^b$ is divisible by $7$, where $a, b \\in \\mathbb{Z}^+$.\n(a) (i) Show that $R$ is an equivalence relation.\n(ii) Determine the equivalence classes of $R$. [9]\nThe equivalence relation $S$ is defined such that $cSd$ if and only if $4^c - 4^d$ is divisible by $6$, where $c, d \\in \\mathbb{Z}^+$.\n(b) Determine the number of equivalence classes of $S$. [2]"
+  },
+  {
+   "id": "math-2017-M-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 13]\nThe function f : ϒ×ϒ→ϒ×ϒ is defined by f (x , y) =(2x3+y3 , x3+ 2y3) .\n(a) Show that f is a bijection. [12]\nHence write down the inverse function f -1(x , y) . (b) [1]",
+   "ms_text": "3. (a) for f to be a bijection it must be both an injection and a surjection R1\nNote: Award this R1 for stating this anywhere.\n= suppose that fab (,) fcd (, ) (M1)\nit follows that\n3 3 3 3 3 3 3 3 2 a + b = 2 c + d and a + 2 b = c + 2 d\nA1\nattempting to solve the two equations M1\n3 3 to obtain 3 a = 3 c\nNote: Award M1 only if a good attempt is made to solve the system.\n⇒a =cand thereforeb =d A1\nf is an injection because fab (,) = fcd (, ) ⇒ (,) ab = (, cd ) R1\nNote: Award this R1 for stating this anywhere providing that an attempt is\nmade to prove injectivity.\npq∈ ϒ × ϒ and let = let (, ) frs (,) (, pq ) (M1)\n3 3 3 3 then, p = 2 r + s and q = r + 2 s\nA1\nattempting to solve the two equations M1\np − q q − p 32 32\nr = and s = A1A1\n3 3\nf is a surjection because given (, pq∈ ) ϒ × ϒ, there exists\n(,) rs ∈ ϒ × ϒ such that (,) frs = (, pq ) R1\nNote: Award this R1 for stating this anywhere providing that an attempt is\nmade to prove surjectivity.\n[12 marks]\n− − 2 x y 2 y x\n( − 1 = ) 3 3 (b) f (, xy ) , A1\n3 3\nNote: A1 for correct expressions in x and y , allow FT only if the expression\nis deduced in part (a).\n[1 mark]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.3",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 13]\nThe function $f: \\mathbb{R} \\times \\mathbb{R} \\to \\mathbb{R} \\times \\mathbb{R}$ is defined by $f(x, y) = (2x^3 + y^3, x^3 + 2y^3)$.\n(a) Show that $f$ is a bijection. [12]\n(b) Hence write down the inverse function $f^{-1}(x, y)$. [1]"
+  },
+  {
+   "id": "math-2017-M-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 16]\nThe binary operation * is defined by\na * b =a + b -3 for a , b ∈′.\n(a) Show that {′ , *} is an Abelian group. [9]\n(b) Show that there is no element of order 2 . [2]\n(c) Find a proper subgroup of {′ , *} . [2]\nThe binary operation ο is defined by\na ο b = a + b +3 for a , b ∈′ .\nConsider the group {′ , ο} and the bijection f : ′→′ given by f (a) =a - 6 .\n(d) Show that the groups {′ , *} and {′ , ο} are isomorphic. [3]",
+   "ms_text": "4. (a) closure: {,} ′ ∗ is closed because a + b −∈′ 3 R1\nidentity: ae ∗ = a + e − 3 = a (M1)\ne= 3 A1\n− 1 − 1\ninverse: aa ∗ = a + a − 3 = 3 (M1)\n1 a −= 6 − a A1\nassociative: a ∗ ( bc ∗ ) = a ∗ ( b + c − 3) = a + b + c − 6 A1\n( ab ∗ ) ∗ c = ( a + b − 3) ∗ c = a + b + c − 6 A1\nassociative because a ∗ ( bc ∗ ) = ( ab ∗ ) ∗ c R1\nba ∗ = b + a − 3 = a + b − 3 = ab ∗ therefore commutative hence Abelian R1\nhence {,} ′ ∗ is an Abelian group AG\n[9 marks]\n(b) if a is of order 2 then aa ∗ = 2 a − 3 = 3 therefore a = 3 A1\nwhich is a contradiction\nsince e = 3 and has order 1 R1\nNote: R1 for recognising that the identity has order 1.\n[2 marks]\n(c) for example S=− {6, − 3, 0, 3, 6 Κ or } S= { Κ , − 1, 1, 3, 5, 7 Κ } A1R1\n{ } Note: R1 for deducing, justifying or verifying that S,* is indeed a proper subgroup.\n[2 marks]\n(d) we need to show that fab ( ∗ ) = fa () ο fb () R1\nfab ( ∗ ) = fa ( + b − 3) = a + b − 9 A1\nfa () ο fb () = ( a − 6)( ο b − 6) = a + b − 9 A1\nhence isomorphic AG\nNote:R1 for recognising that f preserves the operation; award R1A0A0 for an\nfab ( ο ) = fa () ∗ fb () . attempt to show that\n[3 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.9",
+    "7.6",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 16]\nThe binary operation $*$ is defined by\n$a * b = a + b - 3$ for $a, b \\in \\mathbb{Z}$.\n(a) Show that $\\{\\mathbb{Z}, *\\}$ is an Abelian group. [9]\n(b) Show that there is no element of order $2$. [2]\n(c) Find a proper subgroup of $\\{\\mathbb{Z}, *\\}$. [2]\nThe binary operation $\\circ$ is defined by\n$a \\circ b = a + b + 3$ for $a, b \\in \\mathbb{Z}$.\nConsider the group $\\{\\mathbb{Z}, \\circ\\}$ and the bijection $f: \\mathbb{Z} \\to \\mathbb{Z}$ given by $f(a) = a - 6$.\n(d) Show that the groups $\\{\\mathbb{Z}, *\\}$ and $\\{\\mathbb{Z}, \\circ\\}$ are isomorphic. [3]"
+  }
+ ],
+ "status": "done"
+}

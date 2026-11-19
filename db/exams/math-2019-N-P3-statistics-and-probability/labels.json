@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2019-N-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L8", "4.4"],
+      "text_clean": "1. [Maximum mark: 7]\nPeter, the Principal of a college, believes that there is an association between the score in a Mathematics test, $X$, and the time taken to run 500 m, $Y$ seconds, of his students.\nThe following paired data are collected.\nMathematics test score $X$ | 70 | 75 | 76 | 66 | 60 | 61\nTime taken to run 500 m $Y$ | 100 | 105 | 95 | 109 | 89 | 101\nIt can be assumed that $(X, Y)$ follow a bivariate normal distribution with product moment correlation coefficient $\\rho$.\n(a) (i) State suitable hypotheses $H_0$ and $H_1$ to test Peter's claim, using a two-tailed test.\n(ii) Carry out a suitable test at the 5% significance level. With reference to the $p$-value, state your conclusion in the context of Peter's claim. [5]\n(b) Peter uses the regression line of $y$ on $x$ as $y = 0.248x + 83.0$ and calculates that a student with a Mathematics test score of 73 will have a running time of 101 seconds. Comment on the validity of his calculation. [2]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L5", "4.L4", "4.L2", "4.7"],
+      "text_clean": "2. [Maximum mark: 15]\n(a) Three independent random variables $X_1, X_2, X_3$ are taken from a distribution with mean $\\mu$ and variance $\\sigma^2$. Three estimators are proposed for $\\mu$.\n$T_1 = \\frac{X_1 + X_2 + X_3}{3}$, $T_2 = \\frac{X_1 + 2X_2 + 3X_3}{3}$, $T_3 = \\frac{X_1 + 2X_2}{3}$\n(i) Show that one of these estimators for $\\mu$ is biased and show that the other two are unbiased.\n(ii) For the two unbiased estimators, determine, with a reason, which one is more efficient. [9]\n(b) Consider the random variable $Y$, which follows a negative binomial distribution $Y \\sim \\mathrm{NB}(4, p)$. A random sample is taken from this distribution and the mean is denoted by $\\bar{Y}$.\n(i) Find $\\mathrm{E}(\\bar{Y})$.\n(ii) Hence suggest an unbiased estimator for $\\frac{1}{p}$ in terms of $\\bar{Y}$. [2]\n(c) A discrete random variable $W$ has a probability distribution given by the following table.\n$w$ | 1 | 2\n$\\mathrm{P}(W = w)$ | 0.5 | 0.5\n(i) Calculate $\\mathrm{E}(W)$.\n(ii) Calculate $\\mathrm{E}\\left(\\frac{1}{W}\\right)$.\n(iii) Hence explain why your estimator for $\\frac{1}{p}$ in (b)(ii) does not directly suggest an unbiased estimator for $p$. [4]"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.12", "4.L5", "4.L6"],
+      "text_clean": "3. [Maximum mark: 14]\n(a) State the central limit theorem as applied to a random sample of size $n$, taken from a distribution with mean $\\mu$ and variance $\\sigma^2$. [2]\nA random variable $X$ has a distribution with mean $\\mu$ and variance 4. A random sample of size 100 is to be taken from the distribution of $X$.\n(b) Jack takes a random sample of size 100 and calculates that $\\bar{x} = 60.2$. Find an approximate 90% confidence interval for $\\mu$. [2]\n(c) Josie takes a different random sample of size 100 to test the null hypothesis that $\\mu = 60$ against the alternative hypothesis that $\\mu > 60$ at the 5% level.\n(i) Find the critical region for Josie's test, giving your answer correct to two decimal places.\n(ii) Write down the probability that Josie makes a Type I error.\n(iii) Given that the probability that Josie makes a Type II error is 0.25, find the value of $\\mu$, giving your answer correct to three significant figures. [10]"
+    },
+    "4": {
+      "topics": ["4", "5"],
+      "subtopics": ["4.L3", "4.L2", "4.11", "5.6"],
+      "text_clean": "4. [Maximum mark: 14]\nConsider the random variable $X$, which follows a negative binomial distribution $X \\sim \\mathrm{NB}(r, p)$. The probability generating function for $X$ is given by\n$G_X(t) = \\frac{p^r t^r}{(1 - qt)^r}$, where $q = 1 - p$.\n(a) Use this probability generating function to find and simplify $\\mathrm{E}(X)$. [5]\nConsider another independent random variable $Y$, where $Y \\sim \\mathrm{NB}(s, p)$.\nLet $W = X + Y$.\n(b) (i) Find the probability generating function for $W$.\n(ii) Hence identify the distribution that $W$ follows and state its parameters.\n(iii) Given that $r = 2$ and $s = 3$, calculate $\\mathrm{P}(X = 3 \\mid W = 7)$. [9]"
+    }
+  }
+}

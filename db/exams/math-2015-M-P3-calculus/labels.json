@@ -1,0 +1,35 @@
+{
+  "exam_id": "math-2015-M-P3-calculus",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.19", "5.6"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 7]\nThe function $f$ is defined by $f(x) = \\mathrm{e}^{-x}\\cos x + x - 1$.\nBy finding a suitable number of derivatives of $f$, determine the first non-zero term in its Maclaurin series."
+    },
+    "2": {
+      "topics": ["5"],
+      "subtopics": ["5.18", "5.L4", "5.6"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 8]\n(a) Show that $y = \\frac{1}{x}\\int f(x)\\,\\mathrm{d}x$ is a solution of the differential equation $x\\frac{\\mathrm{d}y}{\\mathrm{d}x} + y = f(x)$, $x > 0$. [3]\n(b) Hence solve $x\\frac{\\mathrm{d}y}{\\mathrm{d}x} + y = x^{-\\frac{1}{2}}$, $x > 0$, given that $y = 2$ when $x = 4$. [5]"
+    },
+    "3": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.L1", "5.L5", "1.7"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 17]\n(a) Show that the series $\\sum_{n=2}^{\\infty} \\frac{1}{n^2 \\ln n}$ converges. [3]\n(b) (i) Show that $\\ln(n) + \\ln\\left(1 + \\frac{1}{n}\\right) = \\ln(n+1)$.\n(ii) Using this result, show that an application of the ratio test fails to determine whether or not $\\sum_{n=2}^{\\infty} \\frac{1}{n \\ln n}$ converges. [6]\n(c) (i) State why the integral test can be used to determine the convergence or divergence of $\\sum_{n=2}^{\\infty} \\frac{1}{n \\ln n}$.\n(ii) Hence determine the convergence or divergence of $\\sum_{n=2}^{\\infty} \\frac{1}{n \\ln n}$. [8]"
+    },
+    "4": {
+      "topics": ["5"],
+      "subtopics": ["5.L5", "5.16", "5.13"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 12]\n(a) Use l'H\u00f4pital's rule to find $\\lim_{x \\to \\infty} x^2 \\mathrm{e}^{-x}$. [4]\n(b) Show that the improper integral $\\int_0^{\\infty} x^2 \\mathrm{e}^{-x}\\,\\mathrm{d}x$ converges, and state its value. [8]"
+    },
+    "5": {
+      "topics": ["5", "2"],
+      "subtopics": ["5.L4", "5.15", "2.3", "2.7"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 16]\n(a) The mean value theorem states that if $f$ is a continuous function on $[a, b]$ and differentiable on $]a, b[$ then $f'(c) = \\frac{f(b) - f(a)}{b - a}$ for some $c \\in\\, ]a, b[$.\n(i) Find the two possible values of $c$ for the function defined by $f(x) = x^3 + 3x^2 - 2$ on the interval $[-3, 1]$.\n(ii) Illustrate this result graphically. [7]\n(b) (i) The function $f$ is continuous on $[a, b]$, differentiable on $]a, b[$ and $f'(x) = 0$ for all $x \\in\\, ]a, b[$. Show that $f(x)$ is constant on $[a, b]$.\n(ii) Hence, prove that for $x \\in [0, 1]$, $2\\arccos x + \\arccos\\left(1 - 2x^2\\right) = \\pi$. [9]"
+    }
+  }
+}

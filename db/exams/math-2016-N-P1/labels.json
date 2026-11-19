@@ -1,0 +1,164 @@
+{
+ "exam_id": "math-2016-N-P1",
+ "questions": {
+  "1": {
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.16",
+    "3.18"
+   ],
+   "text_clean": "1. [Maximum mark: 5]\nFind the coordinates of the point of intersection of the planes defined by the equations $x+y+z=3$, $x-y+z=5$ and $x+y+2z=6$.",
+   "answer_status": "ok",
+   "note": "audit: intersection of three planes (3.18); matches 2016-M-P1-TZ2-q1, 2019-N-P1-q3"
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7"
+   ],
+   "text_clean": "2. [Maximum mark: 4]\nThe faces of a fair six-sided die are numbered $1, 2, 2, 4, 4, 6$. Let $X$ be the discrete random variable that models the score obtained when this die is rolled.\n(a) Complete the probability distribution table for $X$. [2]\n$x$ | | | |\n$\\mathrm{P}(X=x)$ | | | |\n(b) Find the expected value of $X$. [2]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.8"
+   ],
+   "text_clean": "3. [Maximum mark: 4]\nA rational function is defined by $f(x)=a+\\frac{b}{x-c}$ where the parameters $a, b, c\\in\\mathbb{Z}$ and $x\\in\\mathbb{R}\\setminus\\{c\\}$. The following diagram represents the graph of $y=f(x)$.\n[Graph: hyperbola with vertical asymptote $x=3$ and horizontal asymptote $y=1$ (dashed); curve passes through $(1, 0)$; x from −2 to 8, y from −4 to 6]\nUsing the information on the graph,\n(a) state the value of $a$ and the value of $c$; [2]\n(b) find the value of $b$. [2]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.17"
+   ],
+   "text_clean": "4. [Maximum mark: 5]\nConsider the vectors $\\boldsymbol{a}=\\boldsymbol{i}-3\\boldsymbol{j}-2\\boldsymbol{k}$, $\\boldsymbol{b}=-3\\boldsymbol{j}+2\\boldsymbol{k}$.\n(a) Find $\\boldsymbol{a}\\times\\boldsymbol{b}$. [2]\n(b) Hence find the Cartesian equation of the plane containing the vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$, and passing through the point $(1, 0, -1)$. [3]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12",
+    "2.7"
+   ],
+   "text_clean": "5. [Maximum mark: 6]\nThe quadratic equation $x^2-2kx+(k-1)=0$ has roots $\\alpha$ and $\\beta$ such that $\\alpha^2+\\beta^2=4$. Without solving the equation, find the possible values of the real number $k$.",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "text_clean": "6. [Maximum mark: 7]\nThe sum of the first $n$ terms of a sequence $\\{u_n\\}$ is given by $S_n=3n^2-2n$, where $n\\in\\mathbb{Z}^+$.\n(a) Write down the value of $u_1$. [1]\n(b) Find the value of $u_6$. [2]\n(c) Prove that $\\{u_n\\}$ is an arithmetic sequence, stating clearly its common difference. [4]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.7",
+    "2.10"
+   ],
+   "text_clean": "7. [Maximum mark: 5]\nSolve the equation $4^x+2^{x+2}=3$.",
+   "answer_status": "ok",
+   "note": "audit: hidden quadratic in 2^x then x=log2(..): 1.7 primary + 2.7; matches 2007-M-P1-TZ1-q19, 2007-N-P1-q15"
+  },
+  "8": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.14"
+   ],
+   "text_clean": "8. [Maximum mark: 6]\nConsider the lines $l_1$ and $l_2$ defined by\n$l_1: \\boldsymbol{r}=\\begin{pmatrix}-3\\\\-2\\\\a\\end{pmatrix}+\\beta\\begin{pmatrix}1\\\\4\\\\2\\end{pmatrix}$ and $l_2: \\frac{6-x}{3}=\\frac{y-2}{4}=1-z$ where $a$ is a constant.\nGiven that the lines $l_1$ and $l_2$ intersect at a point P,\n(a) find the value of $a$; [4]\n(b) determine the coordinates of the point of intersection P. [2]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4"
+   ],
+   "text_clean": "9. [Maximum mark: 9]\nA curve has equation $3x-2y^2\\mathrm{e}^{x-1}=2$.\n(a) Find an expression for $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ in terms of $x$ and $y$. [5]\n(b) Find the equations of the tangents to this curve at the points where the curve intersects the line $x=1$. [4]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.6"
+   ],
+   "text_clean": "10. [Maximum mark: 9]\nConsider two events $A$ and $B$ defined in the same sample space.\n(a) Show that $\\mathrm{P}(A\\cup B)=\\mathrm{P}(A)+\\mathrm{P}(A'\\cap B)$. [3]\n(b) Given that $\\mathrm{P}(A\\cup B)=\\frac{4}{9}$, $\\mathrm{P}(B\\mid A)=\\frac{1}{3}$ and $\\mathrm{P}(B\\mid A')=\\frac{1}{6}$,\n(i) show that $\\mathrm{P}(A)=\\frac{1}{3}$;\n(ii) hence find $\\mathrm{P}(B)$. [6]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.6",
+    "5.8",
+    "5.7",
+    "5.11",
+    "2.3"
+   ],
+   "text_clean": "11. [Maximum mark: 22]\nLet $y=\\mathrm{e}^x\\sin x$.\n(a) Find an expression for $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$. [2]\n(b) Show that $\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}=2\\mathrm{e}^x\\cos x$. [2]\nConsider the function $f$ defined by $f(x)=\\mathrm{e}^x\\sin x$, $0\\le x\\le\\pi$.\n(c) Show that the function $f$ has a local maximum value when $x=\\frac{3\\pi}{4}$. [2]\n(d) Find the $x$-coordinate of the point of inflexion of the graph of $f$. [2]\n(e) Sketch the graph of $f$, clearly indicating the position of the local maximum point, the point of inflexion and the axes intercepts. [3]\n(f) Find the area of the region enclosed by the graph of $f$ and the $x$-axis. [6]\nThe curvature at any point $(x, y)$ on a graph is defined as $\\kappa=\\frac{\\left|\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\\right|}{\\left(1+\\left(\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right)^2\\right)^{\\frac{3}{2}}}$.\n(g) Find the value of the curvature of the graph of $f$ at the local maximum point. [3]\n(h) Find the value $\\kappa$ for $x=\\frac{\\pi}{2}$ and comment on its meaning with respect to the shape of the graph. [2]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.12",
+    "1.14",
+    "2.7",
+    "2.15"
+   ],
+   "text_clean": "12. [Maximum mark: 19]\nLet $\\omega$ be one of the non-real solutions of the equation $z^3=1$.\n(a) Determine the value of\n(i) $1+\\omega+\\omega^2$;\n(ii) $1+\\omega^*+(\\omega^*)^2$. [4]\n(b) Show that $(\\omega-3\\omega^2)(\\omega^2-3\\omega)=13$. [4]\nConsider the complex numbers $p=1-3\\mathrm{i}$ and $q=x+(2x+1)\\mathrm{i}$, where $x\\in\\mathbb{R}$.\n(c) Find the values of $x$ that satisfy the equation $|p|=|q|$. [5]\n(d) Solve the inequality $\\mathrm{Re}(pq)+8<(\\mathrm{Im}(pq))^2$. [6]",
+   "answer_status": "ok"
+  },
+  "13": {
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.10",
+    "3.6",
+    "3.5",
+    "1.15"
+   ],
+   "text_clean": "13. [Maximum mark: 19]\n(a) Find the value of $\\sin\\frac{\\pi}{4}+\\sin\\frac{3\\pi}{4}+\\sin\\frac{5\\pi}{4}+\\sin\\frac{7\\pi}{4}+\\sin\\frac{9\\pi}{4}$. [2]\n(b) Show that $\\frac{1-\\cos 2x}{2\\sin x}\\equiv\\sin x$, $x\\ne k\\pi$ where $k\\in\\mathbb{Z}$. [2]\n(c) Use the principle of mathematical induction to prove that\n$\\sin x+\\sin 3x+\\ldots+\\sin(2n-1)x=\\frac{1-\\cos 2nx}{2\\sin x}$, $n\\in\\mathbb{Z}^+$, $x\\ne k\\pi$ where $k\\in\\mathbb{Z}$. [9]\n(d) Hence or otherwise solve the equation $\\sin x+\\sin 3x=\\cos x$ in the interval $0<x<\\pi$. [6]",
+   "answer_status": "ok",
+   "note": "qp crop trimmed via overrides to drop blank 'answers not marked' pages"
+  }
+ }
+}

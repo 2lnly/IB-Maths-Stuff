@@ -1,0 +1,111 @@
+{
+ "exam_id": "math-2009-M-P3-series-and-differential-equations",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2009,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Series and differential equations",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2009 May Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2009 May Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2209-7208; code M09/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2009-M-P3-series-and-differential-equations-q1",
+   "num": "1",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 11]\nFind\nx limtan\n(a) 2; [4 marks]\nx → 0 x + x\n2 2 1 − x + 2 x ln x\n(b) lim . [7 marks]\nx → 1 π x\n1 − sin\n2",
+   "ms_text": "tan x sec 2 x\n1. (a) lim = M1A1A1\n2 lim1 x → 0 x + x x → 0 + 2 x\ntan x 1\nlim = = 1 A1\nx → 0 x + x 2 1\n[4 marks]\n2 2 1 − x + 2 x ln x − 2 x + 2 x + 4ln x x\n= (b) lim lim M1A1A1\n→ π x → π π x x 1 x 1\n1sin − − cos\n2 2 2\n+ 4 4ln x\n= lim M1A1A1\nx → 1 π 2 π x\nsin\n4 2\n2 2 1 − x + 2 x ln x 4 16\n= = lim A1\n→ π x 2 2 x 1 π π\n1 −\nsin2\n4\n[7 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.6",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 11]\nFind\n(a) $\\lim_{x \\to 0} \\frac{\\tan x}{x + x^2}$; [4 marks]\n(b) $\\lim_{x \\to 1} \\frac{1 - x^2 + 2x^2 \\ln x}{1 - \\sin \\frac{\\pi x}{2}}$. [7 marks]"
+  },
+  {
+   "id": "math-2009-M-P3-series-and-differential-equations-q2",
+   "num": "2",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 17]\ny The variables x and y are related by d\n− y tan x = cos x .\nd x\n(a) Find the Maclaurin series for y up to and including the term in x2 given that\ny = −π when x = 0 . [7 marks]\n2\n(b) Solve the differential equation given that y = 0 when x = π. Give the solution\nin the form y = fx () . [10 marks]",
+   "ms_text": "y from d\n2. (a) y tan x + cos x , f ′ (0) = 1 A1 x=\nd\n2 d y d y\n= 2 + − now y sec x tan x sin x M1A1A1A1\n2 d x d x\nNote: Award A1 for each term on RHS.\nπ\n⇒ f ′′ (0) =− A1\n2\n2 π π x\n⇒ =− + − y x A1\n2 4\n[7 marks]\n(b) recognition of integrating factor (M1)\n−∫ tand xx\nintegrating factor is e\nlncos x = e (A1)\n= cos x (A1)\n2 ⇒ y cos x cos xx d M1\n=∫\n1\n⇒ y cos x = ∫ (1 + cos2)d x x A1\n2\nx sin2 x\n⇒ y cos x = + + k A1\n2 4\nπ\nwhen x =π , y = 0 ⇒ k =− M1A1\n2\nx sin2 x π\n⇒ y cos x = + − (A1)\n2 4 2\nx sin2 x π\n⇒ y = sec x + − A1\n2 4 2\n[10 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.19",
+    "5.15",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 17]\nThe variables $x$ and $y$ are related by $\\frac{\\mathrm{d}y}{\\mathrm{d}x} - y \\tan x = \\cos x$.\n(a) Find the Maclaurin series for $y$ up to and including the term in $x^2$ given that $y = -\\frac{\\pi}{2}$ when $x = 0$. [7 marks]\n(b) Solve the differential equation given that $y = 0$ when $x = \\pi$. Give the solution in the form $y = f(x)$. [10 marks]"
+  },
+  {
+   "id": "math-2009-M-P3-series-and-differential-equations-q3",
+   "num": "3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 12]\n∞\nsin 1 (a) Determine whether the series\n∑ is convergent or divergent. [5 marks]\nn n= 1\n∞ 1\n(b) Show that the series ∑ is convergent. [7 marks]\n2 2n (ln) n\nn =",
+   "ms_text": "∞ 1\n3. (a) comparing with the series A1 =∑\nn n 1\nusing the limit comparison test (M1)\n1\nsin\nsin x n\nlim = lim = 1 M1A1\nn →∞ 1 x → 0 x\nn\n∞ ∞ 1 1\nsince =∑ diverges, =∑ sin diverges A1\nn n n 1 n 1\n[5 marks]\n(b) using integral test (M1)\nlet u = ln x (M1)\nd u 1\n⇒ =\nd x x\n1 1 1 1\n∫ d x = ∫ d u =− =− A1\n2 2 x (ln) x u u ln x\na\n∞ 1 1\n⇒ = − ∫ d x lim\n2 2 →∞ x (ln) x a ln x\n2\n1 1\n= lim − + (M1)(A1)\na →∞ ln a ln 2\n1\nas a →∞− , → 0 (A1)\nln a\n∞ 1 1\n⇒ ∫ d x = A1\n2 2 x (ln) x ln2\nhence the series is convergent AG\n[7 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L5",
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 12]\n(a) Determine whether the series $\\sum_{n=1}^{\\infty} \\sin \\frac{1}{n}$ is convergent or divergent. [5 marks]\n(b) Show that the series $\\sum_{n=2}^{\\infty} \\frac{1}{n (\\ln n)^2}$ is convergent. [7 marks]"
+  },
+  {
+   "id": "math-2009-M-P3-series-and-differential-equations-q4",
+   "num": "4",
+   "section": null,
+   "marks": 20,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 20]\ny y 2 + x 2 Consider the differential equation d\n= for which y = − 1 when x = 1.\n2 d x 2 x\n(a) Use Euler’s method with a step length of 0.25 to find an estimate for the value\nof y when x = 2 . [7 marks]\n(b) (i) Solve the differential equation giving your answer in the form y = fx () .\n[13 marks] (ii) Find the value of y when x = 2 .",
+   "ms_text": "4. (a) Using an increment of 0.25 in the x-values A1\n+ n nx ny fx ( , y ) hfx ( , y ) y += y hfx ( , y )\nn n n n n 1 n n n\n− 0.75 0 1 − 1 1 0.25 (M1)A1\n1 1.25 − 0.75 0.68 0.17 − 0.58 A1\n2 1.5 − 0.58 0.574756 0.143689 − 0.4363... A1\n3 1.75 − 0.436311 0.531080 0.132770 − 0.3035... A1\nNote: The A1 marks are awarded for final column.\n⇒ y (2) ≈− 0.304 A1\n[7 marks]\n(b) (i) let y = vx M1\nd y d v\n⇒ = v + x (A1)\nd x d x\n2 2 + 2 d v vx x\n⇒ v + = (M1)\nxx\nd 2 x 2\n2 d v 1 − 2 v + v\n⇒ = (A1)\nxx\nd 2\n− 2 d v (1 v )\n⇒ = A1\nxx\nd 2\n2 1\n⇒ = ∫ d v ∫ d x M1\n2 (1 − v ) x\n− 1 ⇒ 2(1 − v ) = ln x + c A1A1\n2\n⇒ = ln x + c\ny\n1 −\nx\nwhen x = 1, y =−⇒ 1 c = 1 M1A1\n2 x\n⇒ = ln x + 1\nx − y\n2 x x ln x − x\n⇒ y = x − = M1A1\n1 + ln x 1 + ln x\n4\n(ii) when x = 2, y =− 0.362 accept2 − A1\n1 + ln 2\n[13 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 20]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{y^2 + x^2}{2x^2}$ for which $y = -1$ when $x = 1$.\n(a) Use Euler's method with a step length of 0.25 to find an estimate for the value of $y$ when $x = 2$. [7 marks]\n(b) (i) Solve the differential equation giving your answer in the form $y = f(x)$.\n(ii) Find the value of $y$ when $x = 2$. [13 marks]"
+  }
+ ],
+ "status": "done"
+}

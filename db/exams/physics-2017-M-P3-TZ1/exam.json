@@ -1,0 +1,388 @@
+{
+ "exam_id": "physics-2017-M-P3-TZ1",
+ "subject": "physics",
+ "syllabus": "physics-legacy",
+ "year": 2017,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "3",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Physics HL/Paper 3/2017_May_Physics__TZ1/2017_May_Physics_paper_3__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Physics HL/Paper 3/2017_May_Physics__TZ1/2017_May_Physics_paper_3__TZ1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2217-6509; code M17/4/PHYSI/HP3/ENG/TZ1/XX",
+ "questions": [
+  {
+   "id": "physics-2017-M-P3-TZ1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 10,
+   "qtype": "data",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1.  The equipment shown in the diagram was used by a student to investigate the variation with\nvolume, of the pressure p of air, at constant temperature.  The air was trapped in a tube of\nconstant cross-sectional area above a column of oil.\nscale\nair\nH\npressure\ngauge\noil\nto air\npump\nvalve\nThe pump forces oil to move up the tube decreasing the volume of the trapped air.\n(a)  The student measured the height H of the air column and the corresponding air\npressure p.  After each reduction in the volume the student waited for some time before\nmeasuring the pressure.  Outline why this was necessary.  [1]\n(b)  The following graph of p versus 1  H  was obtained.  Error bars were negligibly small.\n4\n3\np / 105 Pa  2\n1\n0\n0  1  2  3  4  5  6\n1  / m−1\nH\nThe equation of the line of best fit is  p  =  a  + b  H .\nDetermine the value of b including an appropriate unit.  [3]\n(c)  Outline how the results of this experiment are consistent with the ideal gas law at\nconstant temperature.  [2]\n(d)  The cross-sectional area of the tube is 1.3 × 10-3 m2 and the temperature of air is 300 K.\nEstimate the number of moles of air in the tube.  [2]\n(e)  The equation in (b) may be used to predict the pressure of the air at extremely large\nvalues of 1  .  Suggest why this will be an unreliable estimate of the pressure.  [2]\nH",
+   "ms_text": "1  a  in order to keep the temperature constant   Accept answers in terms of\nin order to allow the system to reach thermal equilibrium with the surroundings/OWTTE   pressure or volume changes\nonly if clearly related to  1 max\nreaching thermal equilibrium\nwith the surroundings.\nb  recognizes b as gradient   Award [2 max] if POT error\ncalculates b in range  4.7 10  ×  4  to  5.3 10  ×  4    in b.\nAllow any correct SI unit, eg  3\nPa m   kg s-2.\nc  V  ∝  H  thus ideal gas law gives  p  ∝  1  \nH  2\nso graph should be «a straight line through origin,» as observed \nd  n  =  bA  OR correct substitution of one point from the graph   Answer must be to 1 or 2 SF.\nRT  Award [2] for a bald correct\n5 10  ×  4  ×  1.3 10  ×  −  3  answer.  2\nn  =  =  0.026  ≈  0.03    Allow ECF from (b).\n8.31 300  ×\n1  e  very large 1\nH  means very small volumes / very high pressures \nat very small volumes the ideal gas does not apply\nOR  2\nat very small volumes some of the assumptions of the kinetic theory of gases do not hold ",
+   "mcq_answer": null,
+   "topics": [
+    "B",
+    "X"
+   ],
+   "subtopics": [
+    "B.3",
+    "X.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. The equipment shown in the diagram was used by a student to investigate the variation with volume, of the pressure $p$ of air, at constant temperature. The air was trapped in a tube of constant cross-sectional area above a column of oil.\n[Diagram: vertical tube with a scale; trapped air column of height H above oil; oil connected to a pressure gauge and, via a valve, to an air pump]\nThe pump forces oil to move up the tube decreasing the volume of the trapped air.\n(a) The student measured the height $H$ of the air column and the corresponding air pressure $p$. After each reduction in the volume the student waited for some time before measuring the pressure. Outline why this was necessary. [1]\n(b) The following graph of $p$ versus $\\frac{1}{H}$ was obtained. Error bars were negligibly small.\n[Graph: $p$ / $10^5$ Pa (0 to 4) against $\\frac{1}{H}$ / m$^{-1}$ (0 to 6); straight line from about (1.5, 0.75) to (5, 2.5)]\nThe equation of the line of best fit is $p = a + \\frac{b}{H}$.\nDetermine the value of $b$ including an appropriate unit. [3]\n(c) Outline how the results of this experiment are consistent with the ideal gas law at constant temperature. [2]\n(d) The cross-sectional area of the tube is $1.3 \\times 10^{-3}$ m$^2$ and the temperature of air is 300 K. Estimate the number of moles of air in the tube. [2]\n(e) The equation in (b) may be used to predict the pressure of the air at extremely large values of $\\frac{1}{H}$. Suggest why this will be an unreliable estimate of the pressure. [2]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 5,
+   "qtype": "data",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2.  (a)  In a simple pendulum experiment, a student measures the period T of the pendulum\nmany times and obtains an average value T = (2.540 ±0.005) s.  The length L of the\npendulum is measured to be L = (1.60 ±0.01) m.\n4π  2  L\nCalculate, using  g  =  2  , the value of the acceleration of free fall, including its\nT\nuncertainty.  State the value of the uncertainty to one significant figure.  [3]\n(b)  In a different experiment a student investigates the dependence of the period T of a\nsimple pendulum on the amplitude of oscillations θ.  The graph shows the variation of\nT  with θ, where T0 is the period for small amplitude oscillations.\nT  0\n1.10\n1.05\nT  1.00\nT0\n0.95\n0.90\n0  10  20  30  40  50  60\nθ  / °\nThe period may be considered to be independent of the amplitude θ as long as\nT  -  T  0  <  0.01  .  Determine the maximum value of θ for which the period is independent\nT  0\nof the amplitude.  [2]",
+   "ms_text": "2  a  g  =  4  π ×  2  1.60  =  9.7907    For the first marking point\n2.540  2  answer must be given to at\nleast 2 dp.\n∆  L  ∆  T    0.01  0.005    Accept calculations based on\n∆  g  =  g  (  L  +  2  ×  T  )  =  «  9.7907  ×    1.60  +  2  ×  2.540    =  »  0.0997  g  =  9.8908\n    max  3\nOR  g  min  =  9.6913  .\n1.0 %   g  max  −  g  min  =  0.099  ≈  0.1\n2\nhence  g  =  (9.8  ±  0.1) ms  «  −  2  »  OR  ∆  g  =  0.1 ms  «  −  2  »  \nb  T  1.01    Accept answer from interval\nT =  0  20 to 24.\n2\nθ  max  =  22  « »    ",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.1",
+    "C.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. (a) In a simple pendulum experiment, a student measures the period $T$ of the pendulum many times and obtains an average value $T = (2.540 \\pm 0.005)$ s. The length $L$ of the pendulum is measured to be $L = (1.60 \\pm 0.01)$ m.\nCalculate, using $g = \\frac{4\\pi^2 L}{T^2}$, the value of the acceleration of free fall, including its uncertainty. State the value of the uncertainty to one significant figure. [3]\n(b) In a different experiment a student investigates the dependence of the period $T$ of a simple pendulum on the amplitude of oscillations $\\theta$. The graph shows the variation of $\\frac{T}{T_0}$ with $\\theta$, where $T_0$ is the period for small amplitude oscillations.\n[Graph: $\\frac{T}{T_0}$ (0.90 to 1.10) against $\\theta$ / ° (0 to 60); curve rising from 1.00 at 0° to about 1.075 at 60°]\nThe period may be considered to be independent of the amplitude $\\theta$ as long as $\\frac{T - T_0}{T_0} < 0.01$. Determine the maximum value of $\\theta$ for which the period is independent of the amplitude. [2]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3.  A long current-carrying wire is at rest in the reference frame S of the laboratory.  A positively\ncharged particle P outside the wire moves with velocity v relative to S.  The electrons making\nup the current in the wire move with the same velocity v relative to S.\nP  v\n+\n−  v  −  v  −  v  −  v\ncurrent-carrying wire\n(a)  State what is meant by a reference frame.  [1]\n(b)  State and explain whether the force experienced by P is magnetic, electric or both\n(i)  in reference frame S.  [2]\n(ii)  in the rest frame of P.  [3]",
+   "ms_text": "3  a  a set of coordinate axes and clocks used to measure the position «in space/time of an object\nat a particular time»\nOR  1\na coordinate system to measure x,y,z,and t / OWTTE \nb  i  magnetic only \nthere is a current but no «net» charge «in the wire»   2\nb  ii  electric only \nP is stationary so experiences no magnetic force   3\nrelativistic contraction will increase the density of protons in the wire ",
+   "mcq_answer": null,
+   "topics": [
+    "A",
+    "D"
+   ],
+   "subtopics": [
+    "A.5",
+    "D.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. A long current-carrying wire is at rest in the reference frame S of the laboratory. A positively charged particle P outside the wire moves with velocity $v$ relative to S. The electrons making up the current in the wire move with the same velocity $v$ relative to S.\n[Diagram: positive charge P moving right with velocity v above a current-carrying wire in which electrons move right with velocity v]\n(a) State what is meant by a reference frame. [1]\n(b) State and explain whether the force experienced by P is magnetic, electric or both\n(i) in reference frame S. [2]\n(ii) in the rest frame of P. [3]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4.  An observer P sitting in a train moving at a speed v measures that his journey takes a\ntime ΔtP.  An observer Q at rest with respect to the ground measures that the journey takes a\ntime ΔtQ.\n(a)  State which of the two time intervals is a proper time.  [1]\n(b)  Calculate the speed v of the train for the ratio  Δ  t  P  =  0.30  .  [2]\nΔ  t  Q\n(c)  Later the train is travelling at a speed of 0.60c.  Observer P measures the length of the\ntrain to be 125 m.  The train enters a tunnel of length 100 m according to observer Q.\nShow that the length of the train according to observer Q is 100 m.  [2]\n(d)  According to Q there is an instant at which the train is completely within the tunnel.\nAt that instant two lights at the front and the back of the train are turned on\nsimultaneously according to Q.\n0.60c\nB  F\nQ\nThe spacetime diagram according to observer Q shows event B (back light turns on)\nand event F (front light turns on).\nct\nB  F  x\n(i)  Draw the time ct ′ and space x ′ axes for observer P’s reference frame on the\nspacetime diagram.  [1]\n(ii)  Deduce, using the spacetime diagram, which light was turned on first according\nto observer P.  [3]\n(iii)  Apply a Lorentz transformation to show that the time difference between events B\nand F according to observer P is 2.5 × 10-7 s.  [1]\n(iv)  Demonstrate that the spacetime interval between events B and F is invariant.  [2]\n(e)  A second train is moving at a velocity of -0.70c with respect to the ground.\n0.60c  −0.70c\nP\nCalculate the speed of the second train relative to observer P.  [2]",
+   "ms_text": "4  a  ΔtP / observer sitting in the train   1\nb  γ =  ∆  t  Q  =  «  =  1  » = 3.3 \n∆  t  P  0.30  2\nto give v = 0.95c \nc  γ = 1.25 \n«length of train according Q» = 125/1.25   2\n«giving 100 m»\nd  i  Award [1] for one gradient\ncorrect and another\napproximately correct.\n1\naxes drawn with correct gradients of 5  3  for ct′ and 0.6 for x′ \n4  d  ii\n3\nlines parallel to the x′ axis and passing through B and F \nintersections on the ct′ axis at B′ and F′ shown \nlight at the front of the train must have been turned on first \nd  iii  ∆=  t  ′  1.25  ×  0.6 100  ×    Allow ECF for gamma from\n3 10  ×  8  (c).\n1\n«  2.5 10  ×  −  7  s  »\nd  iv  according to P: (  3 10  ×  8  ×  2.5 10  ×  −  7  )  2  −  125  2  =  « »  −  10000  \n2\naccording to Q: (  3 10  ×  8  ×  0  )  2  −  100  2  =  « »  −  10000  \ne  u  ′ =  −  0.7  −  0.6  c \n1  +  0.7  ×  0.6  2\n= −  « »  0.92c  ",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. An observer P sitting in a train moving at a speed $v$ measures that his journey takes a time $\\Delta t_P$. An observer Q at rest with respect to the ground measures that the journey takes a time $\\Delta t_Q$.\n(a) State which of the two time intervals is a proper time. [1]\n(b) Calculate the speed $v$ of the train for the ratio $\\frac{\\Delta t_P}{\\Delta t_Q} = 0.30$. [2]\n(c) Later the train is travelling at a speed of 0.60c. Observer P measures the length of the train to be 125 m. The train enters a tunnel of length 100 m according to observer Q.\nShow that the length of the train according to observer Q is 100 m. [2]\n(d) According to Q there is an instant at which the train is completely within the tunnel. At that instant two lights at the front and the back of the train are turned on simultaneously according to Q.\n[Diagram: train moving right at 0.60c with lights B at the back and F at the front; observer Q standing on the ground]\nThe spacetime diagram according to observer Q shows event B (back light turns on) and event F (front light turns on).\n[Spacetime diagram: ct and x axes on a grid; events B and F on the x axis, symmetric about the origin]\n(i) Draw the time $ct'$ and space $x'$ axes for observer P's reference frame on the spacetime diagram. [1]\n(ii) Deduce, using the spacetime diagram, which light was turned on first according to observer P. [3]\n(iii) Apply a Lorentz transformation to show that the time difference between events B and F according to observer P is $2.5 \\times 10^{-7}$ s. [1]\n(iv) Demonstrate that the spacetime interval between events B and F is invariant. [2]\n(e) A second train is moving at a velocity of $-0.70$c with respect to the ground.\n[Diagram: train with observer P moving right at 0.60c; second train moving left at −0.70c]\nCalculate the speed of the second train relative to observer P. [2]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5.  A proton is accelerated from rest through a potential difference V to a speed of 0.86c.\n(a)  Calculate the potential difference V.  [3]\n(b)  The proton collides with an antiproton moving with the same speed in the opposite\ndirection.  As a result both particles are annihilated and two photons of equal energy\nare produced.\nDetermine the momentum of one of the photons.  [3]",
+   "ms_text": "5  a  γ = 1.96   Award [2 max] if Energy and\nE  =  (  γ  −  1  )  m c  2  =  900  «  MeV  »   Potential difference are not\nk  0  clearly distinguished, eg by  3\npd  ≈900 MV  «  »    the unit.\nb  energy of proton  =  γ  mc  2  =  1838 MeV  «  » \ntotal energy available = energy of proton + energy of antiproton = 1838 + 1838 = 3676  3\n«MeV» \nmomentum of a one photon = Total energy / 2c = 1838 «Me Vc–1» ",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. A proton is accelerated from rest through a potential difference $V$ to a speed of 0.86c.\n(a) Calculate the potential difference $V$. [3]\n(b) The proton collides with an antiproton moving with the same speed in the opposite direction. As a result both particles are annihilated and two photons of equal energy are produced.\nDetermine the momentum of one of the photons. [3]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6.  In an experiment a source of iron-57 emits gamma rays of energy 14.4 ke V.  A detector\nplaced 22.6 m vertically above the source measures the frequency of the gamma rays.\n(a)  Calculate the expected shift in frequency between the emitted and the detected\ngamma rays.  [2]\n(b)  Explain whether the detected frequency would be greater or less than the emitted\nfrequency.  [2]",
+   "ms_text": "6  a  f  =  «  E  =  »  14400 1.6 10  ×  ×  −  19  =  «  3.475 10 Hz  ×  18  »  \nh  6.63 10  ×  −  34\ng  × ∆×  h  f  2\n∆  f  =  «  2  ≈  »  8550  «  Hz  »  \nc\nb  «as the photon moves away from the Earth, » it has to spend energy to overcome the\ngravitational field   2\nsince E = h f, the detected frequency would be lower «than the emitted frequency» ",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. In an experiment a source of iron-57 emits gamma rays of energy 14.4 keV. A detector placed 22.6 m vertically above the source measures the frequency of the gamma rays.\n(a) Calculate the expected shift in frequency between the emitted and the detected gamma rays. [2]\n(b) Explain whether the detected frequency would be greater or less than the emitted frequency. [2]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7.  A horizontal rigid bar of length 2R is pivoted at its centre.  The bar is free to rotate in a\nhorizontal plane about a vertical axis through the pivot.  A point particle of mass M is attached\nto one end of the bar and a container is attached to the other end of the bar.\nA point particle of mass  M  moving with speed v at right angles to the rod collides with the\n3\ncontainer and gets stuck in the container.  The system then starts to rotate about the vertical\naxis.\nThe mass of the rod and the container can be neglected.\naxis\n2R  v\nM\npivot  3\nM\n(a)  (i)  Write down an expression, in terms of M, v and R, for the angular momentum of\nthe system about the vertical axis just before the collision.  [1]\n(ii)  Just after the collision the system begins to rotate about the vertical axis with\nangular velocity ω.  Show that the angular momentum of the system is equal\nto  4  MR  2  ω  .  [1]\n3\n(iii)  Hence, show that  ω = v  R.  [1]\n4\n(iv)  Determine in terms of M and v the energy lost during the collision.  [3]\n(b)  A torque of 0.010 N m brings the system to rest after a number of revolutions.  For this\ncase R = 0.50 m, M = 0.70 kg and v = 2.1 m s-1.\n(i)  Show that the angular deceleration of the system is 0.043 rad s-2.  [1]\n(ii)  Calculate the number of revolutions made by the system before it comes to rest.  [3]",
+   "ms_text": "7  a  i  M vR  \n3  1\na  ii  evidence of use of:  L  =  I  ω  =  (  MR  2  +  M  R  2  )  ω  \n3  1\na  iii  evidence of use of conservation of angular momentum,  MvR  =  4  MR ω  2  \n3  3  1\n«rearranging to get  ω =  v  »\n4  R\na  iv  initial KE  =  Mv  2  \n6\nMv  2\nfinal KE  =    3\n24\nMv  2\nenergy loss  =  \n8\n7  b  i  α  «  =  3  Γ  »  =  3  0.01    Working OR answer to at\n4  MR  2  4 0.7  ×  0.5  2  least 3 SF must be shown.  1\n«to giveα  =  0.04286 rads  −  2  »\nb  ii  θ  =  ω  i  2  «  from  ω  2  =  ω  2  +  2  αθ  » \n2  α  f  i\nv  2  2.1  2\nθ  «  =  32  R  2  α  =  32  ×  0.5  2  ×  0.043  »  =  12.8  OR  12.9  «  rad  »    3\nnumber of rotations  «  =  12.9  »  =  2.0 revolutions  \n2  π",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.4",
+    "A.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. A horizontal rigid bar of length $2R$ is pivoted at its centre. The bar is free to rotate in a horizontal plane about a vertical axis through the pivot. A point particle of mass $M$ is attached to one end of the bar and a container is attached to the other end of the bar.\nA point particle of mass $\\frac{M}{3}$ moving with speed $v$ at right angles to the rod collides with the container and gets stuck in the container. The system then starts to rotate about the vertical axis.\nThe mass of the rod and the container can be neglected.\n[Diagram: bar of length 2R pivoted at centre on a vertical axis in a horizontal plane; mass M at one end, container at the other end struck by mass M/3 moving with speed v]\n(a) (i) Write down an expression, in terms of $M$, $v$ and $R$, for the angular momentum of the system about the vertical axis just before the collision. [1]\n(ii) Just after the collision the system begins to rotate about the vertical axis with angular velocity $\\omega$. Show that the angular momentum of the system is equal to $\\frac{4}{3}MR^2\\omega$. [1]\n(iii) Hence, show that $\\omega = \\frac{v}{4R}$. [1]\n(iv) Determine in terms of $M$ and $v$ the energy lost during the collision. [3]\n(b) A torque of 0.010 N m brings the system to rest after a number of revolutions. For this case $R = 0.50$ m, $M = 0.70$ kg and $v = 2.1$ m s$^{-1}$.\n(i) Show that the angular deceleration of the system is 0.043 rad s$^{-2}$. [1]\n(ii) Calculate the number of revolutions made by the system before it comes to rest. [3]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8.  The P–V diagram of the Carnot cycle for a monatomic ideal gas is shown.\nP\nA\nB\nD\nC\nV\n(a)  State what is meant by an adiabatic process.  [1]\n(b)  Identify the two isothermal processes.  [1]\n(c)  The system consists of 0.150 mol of a gas initially at A.  The pressure at A is 512 k Pa\nand the volume is 1.20 × 10-3 m3.\n(i)  Determine the temperature of the gas at A.  [2]\n(ii)  The volume at B is 2.30 × 10-3 m3.  Determine the pressure at B.  [2]\n(d)  At C the volume is VC and the temperature is TC.\n5  2\n(i)  Show that  P V  B  B  3  =  nRT V .  C  C  3  [1]\n(ii)  The volume at C is 2.90 × 10-3 m3.  Calculate the temperature at C.  [2]\n(e)  State a reason why a Carnot cycle is of little use for a practical heat engine.  [1]",
+   "ms_text": "8  a  «a process in which there is» no thermal energy transferred between the system and the\nsurroundings   1\nb  A to B AND C to D   1\nc  i  T  =  PV    The first mark is for\nnR  rearranging.\n  512 10  ×  3  ×  1.20 10  ×  −  3    2\nT    =  0.150  ×  8.31    ≈  493  « »    K\n  \nc  ii  P  =  PV  a  A    The first mark is for\nB  V  B  rearranging.\n2\nP =  B  267 kPa  \nd  i  5  5  P V  =  nRT  It is essential to see these 2\n«B to C adiabatic so»  P V  B  B  3  =  P V  C  C  3  AND  C  C  C  «combining to get result»   relations to award the mark.\n1\nd  ii    5    −  2\n  P V  3    \nT  C  =     B  nR  B      V  C  3\n  \n  5    2\n  267 10  ×  3  ×  (2.30 10 )  ×  −  3  3    −  2\nT  C  =  «    0.150  ×  8.31    (2.90 10 )  ×  −  3  3  »  =  422 K  « »\n      \ne  the isothermal processes would have to be conducted very slowly / OWTTE   1",
+   "mcq_answer": null,
+   "topics": [
+    "B"
+   ],
+   "subtopics": [
+    "B.4",
+    "B.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. The P–V diagram of the Carnot cycle for a monatomic ideal gas is shown.\n[Diagram: P–V diagram of a Carnot cycle A→B→C→D→A; A to B and C to D are isothermals, B to C and D to A are steeper adiabatics]\n(a) State what is meant by an adiabatic process. [1]\n(b) Identify the two isothermal processes. [1]\n(c) The system consists of 0.150 mol of a gas initially at A. The pressure at A is 512 kPa and the volume is $1.20 \\times 10^{-3}$ m$^3$.\n(i) Determine the temperature of the gas at A. [2]\n(ii) The volume at B is $2.30 \\times 10^{-3}$ m$^3$. Determine the pressure at B. [2]\n(d) At C the volume is $V_C$ and the temperature is $T_C$.\n(i) Show that $P_B V_B^{\\frac{5}{3}} = nRT_C V_C^{\\frac{2}{3}}$. [1]\n(ii) The volume at C is $2.90 \\times 10^{-3}$ m$^3$. Calculate the temperature at C. [2]\n(e) State a reason why a Carnot cycle is of little use for a practical heat engine. [1]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9.  An air bubble has a radius of 0.25 mm and is travelling upwards at its terminal speed in a\nliquid of viscosity 1.0 × 10-3 Pa s.\nThe density of air is 1.2 kg m-3 and the density of the liquid is 1200 kg m-3.\nair\nbubble\n(a)  Explain the origin of the buoyancy force on the air bubble.  [2]\n(b)  With reference to the ratio of weight to buoyancy force, show that the weight of the\nair bubble can be neglected in this situation.  [2]\n(c)  Calculate the terminal speed.  [2]",
+   "ms_text": "9  a  ALTERNATIVE 1\npressure in a liquid increases with depth \nso pressure at bottom of bubble greater than pressure at top \nALTERNATIVE 2  2\nweight of liquid displaced \ngreater than weight of bubble \nb  weight    V  ρ  g  ρ  1.2    Award [1 max] if only mass of\n  =  a  =  a  =    =  10  −  3    the bubble is calculated and\nbuoyancy    V  ρ  l  g  ρ  l  1200    identified as negligible to  2\nsince the ratio is very small, the weight can be neglected   mass of liquid displaced.\nc  evidence of equating the buoyancy and the viscous force  «  ρ  4  π  r g  3  =  6  π  η  rv  »  \nl  3  t\n2 1200  ×  9.81 0.25 10  2\ntv  =  «  9  1 10  ×  −  3  (  ×  −  3  )  2  =  »  0.16  «  ms  −  1  » ",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. An air bubble has a radius of 0.25 mm and is travelling upwards at its terminal speed in a liquid of viscosity $1.0 \\times 10^{-3}$ Pa s.\nThe density of air is 1.2 kg m$^{-3}$ and the density of the liquid is 1200 kg m$^{-3}$.\n[Diagram: air bubble rising in a container of liquid]\n(a) Explain the origin of the buoyancy force on the air bubble. [2]\n(b) With reference to the ratio of weight to buoyancy force, show that the weight of the air bubble can be neglected in this situation. [2]\n(c) Calculate the terminal speed. [2]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10.  The graph below shows the displacement y of an oscillating system as a function of time t.\ny / cm  16\n12\n8\n4\n2  4  6  8  10  12  14  16  18  20\n−4  t / s\n−8\n−12\n−16\n(a)  State what is meant by damping.  [1]\n(b)  Calculate the Q factor for the system.  [1]\n(c)  The Q factor of the system increases.  State and explain the change to the graph.  [2]",
+   "ms_text": "10 a  the loss of energy in an oscillating system   1\nb  Q  =  2  π  16  2  ≈  11    Accept calculation based on\n16  2  −  10.3  2  any two correct values giving  1\nanswer from interval 10 to 13.\nc  the amplitude decreases at a slower rate \na higher Q factor would mean that less energy is lost per cycle   2",
+   "mcq_answer": null,
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. The graph below shows the displacement $y$ of an oscillating system as a function of time $t$.\n[Graph: $y$ / cm (−16 to 16) against $t$ / s (0 to 20); damped oscillation starting at 16 cm, period about 4 s, peaks about −12.4, 10, −8.2, 6.6, ... decreasing]\n(a) State what is meant by damping. [1]\n(b) Calculate the $Q$ factor for the system. [1]\n(c) The $Q$ factor of the system increases. State and explain the change to the graph. [2]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q11",
+   "num": "11",
+   "section": "C",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11.  (a)  The diagram is a partially-completed ray diagram for a compound microscope that\nconsists of two thin converging lenses.  The objective lens L1 has a focal length\nof 3.0 cm.  The object is placed 4.0 cm to the left of L1.  The final virtual image is formed\nat the near point of the observer, a distance of 24 cm from the eyepiece lens L2.\nobject  image in\nobjective\nobjective\nfinal\nimage\neyepiece\nL1  L2\n(not to scale)\n(i)  State what is meant by a virtual image.  [1]\n(ii)  Show that the image of the object formed by L1 is 12 cm to the right of L1.  [1]\n(iii)  The distance between the lenses is 18 cm.  Determine the focal length of L2.  [3]\n(iv)  On the diagram draw rays to locate the focal point of L2.  Label this point F.  [2]\n(b)  Two converging lenses are used to make an astronomical telescope.  The focal length\nof the objective is 85.0 cm and that of the eyepiece is 2.50 cm.  The telescope is used\nto form a final image of the Moon at infinity.\n(i)  Explain why, for the final image to form at infinity, the distance between the\nlenses must be 87.5 cm.  [2]\n(ii)  The angular diameter of the Moon at the naked eye is 7.8 × 10-3 rad.\nCalculate the angular diameter of the final image of the Moon.  [2]\n(c)  By reference to chromatic aberration, explain one advantage of a reflecting telescope\nover a refracting telescope.  [2]",
+   "ms_text": "11 a  i  an image formed by extensions of rays, not rays themselves\nOR  1\nan image that cannot be projected on a screen \na  ii  1  1  1  \nv =  3.0  −  4.0  1\n«  v =  12 cm  »\na  iii  u =  18  −  12  =  6.0 cm  «  »  Award [2 max] for answer of\n4.8 cm.\nv = −  24 cm  «  »   Minus sign required for MP2.\n3\n«  1  =  1  −  1  ⇒  »  f  =  8.0 cm  «  »  \nf  6.0  24\na  iv line parallel to principal axis from intermediate image meeting eyepiece lens at P \nline from arrow of final image to P intersecting principal axis at F \n2\n11 b  i  object is far away so intermediate image forms at focal plane of objective   No mark for simple addition of\nfor final image at infinity object must also be at focal point of eyepiece   focal lengths without  2\nexplanation.\n«hence 87.5 cm»\nb  ii  angular magnification  =  85.0  =  34  \n2.50  2\nangular diameter  34  ×  7.8 10  ×  −  3  =  0.2652  ≈  0.27 rad  «  » \nc  chromatic aberration is the dependence of refractive index on wavelength \nbut mirrors rely on reflection\nOR  2\nmirrors do not involve refraction \n«so do not suffer chromatic aberration»",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. (a) The diagram is a partially-completed ray diagram for a compound microscope that consists of two thin converging lenses. The objective lens L$_1$ has a focal length of 3.0 cm. The object is placed 4.0 cm to the left of L$_1$. The final virtual image is formed at the near point of the observer, a distance of 24 cm from the eyepiece lens L$_2$.\n[Diagram (not to scale): object, objective L1, inverted image in objective, eyepiece L2, final inverted virtual image to the left; rays drawn through the objective]\n(i) State what is meant by a virtual image. [1]\n(ii) Show that the image of the object formed by L$_1$ is 12 cm to the right of L$_1$. [1]\n(iii) The distance between the lenses is 18 cm. Determine the focal length of L$_2$. [3]\n(iv) On the diagram draw rays to locate the focal point of L$_2$. Label this point F. [2]\n(b) Two converging lenses are used to make an astronomical telescope. The focal length of the objective is 85.0 cm and that of the eyepiece is 2.50 cm. The telescope is used to form a final image of the Moon at infinity.\n(i) Explain why, for the final image to form at infinity, the distance between the lenses must be 87.5 cm. [2]\n(ii) The angular diameter of the Moon at the naked eye is $7.8 \\times 10^{-3}$ rad. Calculate the angular diameter of the final image of the Moon. [2]\n(c) By reference to chromatic aberration, explain one advantage of a reflecting telescope over a refracting telescope. [2]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q12",
+   "num": "12",
+   "section": "C",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12.  Communication signals are transmitted through optic fibres using infrared radiation.\n(a)  (i)  State two advantages of optic fibres over coaxial cables for these transmissions.  [2]\n(ii)  Suggest why infrared radiation rather than visible light is used in these\ntransmissions.  [1]\n(b)  A signal with an input power of 15 mW is transmitted along an optic fibre which has an\nattenuation per unit length of 0.30 dB km-1.  The power at the receiver is 2.4 mW.\nCalculate the length of the fibre.  [2]\n(c)  State and explain why it is an advantage for the core of an optic fibre to be\nextremely thin.  [2]",
+   "ms_text": "12 a  i  longer distance without amplification \nsignal cannot easily be interfered with \nless noise   2 max\nno cross talk \nhigher data transfer rate \na  ii  infrared radiation suffers lower attenuation   1\nb  loss =  2.4\n10log  15 «  = −  7.959 dB  » \n7.959  2\nlength  =  «  =  »  26.53  ≈  27 km  «  »\n0.30\nc  a thin core means that rays follow essentially the same path / OWTTE \nand so waveguide (modal) dispersion is minimal / OWTTE   2",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. Communication signals are transmitted through optic fibres using infrared radiation.\n(a) (i) State two advantages of optic fibres over coaxial cables for these transmissions. [2]\n(ii) Suggest why infrared radiation rather than visible light is used in these transmissions. [1]\n(b) A signal with an input power of 15 mW is transmitted along an optic fibre which has an attenuation per unit length of 0.30 dB km$^{-1}$. The power at the receiver is 2.4 mW.\nCalculate the length of the fibre. [2]\n(c) State and explain why it is an advantage for the core of an optic fibre to be extremely thin. [2]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q13",
+   "num": "13",
+   "section": "C",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13.  (a)  Outline why the fracture in a broken bone can be seen in a medical X-ray image.  [2]\n(b)  The diagram shows X-rays incident on tissue and bone.\nbone\ntissue\n0.054 m\nThe thicknesses of bone and tissue are both 0.054 m.\nThe intensity of X-rays transmitted through bone is Ib and the intensity transmitted\nthrough tissue is It.\nThe following data are available.\nMass absorption coefficient for bone = mass absorption\ncoefficient for tissue\t = 1.2 × 10-2 m2 kg-1\nDensity of bone  = 1.9 × 103 kg m-3\nDensity of tissue  = 1.1 × 103 kg m-3\nCalculate the ratio  I\nI .  b  t  [3]\n(c)  In the context of nuclear magnetic resonance (NMR) imaging explain the role of\n(i)  the large uniform magnetic field applied to the patient.  [1]\n(ii)  the radio-frequency signal emitted towards the patient.  [2]\n(iii)  the non-uniform magnetic field applied to the patient.  [2]",
+   "ms_text": "13 a  bone and tissue absorb different amounts of X-rays\nOR\nbone and tissue have different attenuation coefficients   2\nso boundaries and fractures are delineated in an image \nb  I  I  e  −  µ  b  x  (  )  x\nbone  =  0  −  µ  x  =  e  −  µ  b  −  µ  t  \nI  tissue  I  0  e  t\nI  bone  =  e  −  1.2 10  ×  −  2  ×  (1.9 1.1) 10  −  ×  3  ×  5.4 10  ×  −  2  \nI  3\ntissue\nI  bone  =  0.60  \nI  tissue\nc  i  to split the energy level of protons in the body\nOR  1\nto cause protons in the body to align with the field / precess at Larmor frequency\nc  ii  to force/excite protons that are in the spin up/parallel state \ninto a transition to the spin down/antiparallel state   2\nc  iii the emitted radio frequency signal has a frequency that depends on the magnetic field \nwith a gradient field different parts of the body have different frequencies and so can be  2\nidentified ",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. (a) Outline why the fracture in a broken bone can be seen in a medical X-ray image. [2]\n(b) The diagram shows X-rays incident on tissue and bone.\n[Diagram: blocks of bone and tissue side by side, each 0.054 m thick, with X-rays incident]\nThe thicknesses of bone and tissue are both 0.054 m.\nThe intensity of X-rays transmitted through bone is $I_b$ and the intensity transmitted through tissue is $I_t$.\nThe following data are available.\nMass absorption coefficient for bone = mass absorption coefficient for tissue = $1.2 \\times 10^{-2}$ m$^2$ kg$^{-1}$\nDensity of bone = $1.9 \\times 10^3$ kg m$^{-3}$\nDensity of tissue = $1.1 \\times 10^3$ kg m$^{-3}$\nCalculate the ratio $\\frac{I_b}{I_t}$. [3]\n(c) In the context of nuclear magnetic resonance (NMR) imaging explain the role of\n(i) the large uniform magnetic field applied to the patient. [1]\n(ii) the radio-frequency signal emitted towards the patient. [2]\n(iii) the non-uniform magnetic field applied to the patient. [2]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q14",
+   "num": "14",
+   "section": "D",
+   "marks": 11,
+   "qtype": "long",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14.  (a)  Theta 1 Orionis is a main sequence star.  The following data for Theta 1 Orionis\nare available.\nLuminosity  L\t = 4 × 105 L\nRadius  R\t= 13R\nApparent brightness  b\t = 4 × 10-11 b\nwhere L, R and b are the luminosity, radius and apparent brightness of the Sun.\n(i)  State what is meant by a main sequence star.  [1]\n(ii)  Show that the mass of Theta 1 Orionis is about 40 solar masses.  [1]\n(iii)  The surface temperature of the Sun is about 6000 K.  Estimate the surface\ntemperature of Theta 1 Orionis.  [2]\n(iv)  Determine the distance of Theta 1 Orionis in AU.  [2]\n(b)  Discuss how Theta 1 Orionis does not collapse under its own weight.  [2]\n(c)  The Sun and Theta 1 Orionis will eventually leave the main sequence.  Compare and\ncontrast the different stages in the evolution of the two stars.  [3]",
+   "ms_text": "14 a  i  stars fusing hydrogen «into helium»   1\na  ii  1  Accept reverse working.\nM  =  M    (4 10 )  ×  5  3.5  =  39.86  M  \n1\n«  M  ≈  40  M    »\na  iii  4 10  ×  5  =  13  2  ×  T  4    Accept use of substituted\n4  values into L = σ 4πR T  2  4.\n6000\n2\nT  ≈42000 K  « » \na  iv  4 10  ×  −  11  =  4 10  ×  5  ×  1AU  2    Accept use of correct values\nd  2  into  b  =  L  .\n4  π  d  2\nd  = ×  1 10  8  «  AU  »   2\nb  the gravitation «pressure» is balanced by radiation «pressure»   Award [1 max] if pressure\nthat is created by the production of energy due to fusion in the core / OWTTE   and force is inappropriately\nmixed in the answer.\nAward [1 max] for  2\nunexplained \"hydrostatic\nequilibrium is reached\".\n14 c  the Sun will evolve to become a red giant whereas Theta 1 Orionis will become a red super\ngiant \nthe Sun will explode as a planetary nebula whereas Theta 1 Orionis will explode as a  3\nsupernova \nthe Sun will end up as a white dwarf whereas Theta 1 Orionis as a neutron star/black hole ",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "14. (a) Theta 1 Orionis is a main sequence star. The following data for Theta 1 Orionis are available.\nLuminosity $L = 4 \\times 10^5 L_\\odot$\nRadius $R = 13 R_\\odot$\nApparent brightness $b = 4 \\times 10^{-11} b_\\odot$\nwhere $L_\\odot$, $R_\\odot$ and $b_\\odot$ are the luminosity, radius and apparent brightness of the Sun.\n(i) State what is meant by a main sequence star. [1]\n(ii) Show that the mass of Theta 1 Orionis is about 40 solar masses. [1]\n(iii) The surface temperature of the Sun is about 6000 K. Estimate the surface temperature of Theta 1 Orionis. [2]\n(iv) Determine the distance of Theta 1 Orionis in AU. [2]\n(b) Discuss how Theta 1 Orionis does not collapse under its own weight. [2]\n(c) The Sun and Theta 1 Orionis will eventually leave the main sequence. Compare and contrast the different stages in the evolution of the two stars. [3]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q15",
+   "num": "15",
+   "section": "D",
+   "marks": 9,
+   "qtype": "long",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "15.  (a)  (i)  State two characteristics of the cosmic microwave background (CMB) radiation.  [2]\n(ii)  The present temperature of the CMB is 2.8 K.  Calculate the peak wavelength of\nthe CMB.  [1]\n(b)  Describe how the CMB provides evidence for the Hot Big Bang model of the universe.  [2]\n(c)  A spectral line in the light received from a distant galaxy shows a redshift of z = 0.16.\n(i)  Determine the distance to this galaxy using a value for the Hubble constant\nof H0 = 68 km s-1 Mpc-1.  [2]\n(ii)  Estimate the size of the Universe relative to its present size when the light was\nemitted by the galaxy in (c).  [2]",
+   "ms_text": "15 a  i  black body radiation / 3 K   Do not accept: CMB provides\nevidence for the Big Bang\nhighly isotropic / uniform throughout  model.\n2\nOR\nfilling the universe \na  ii  «  λ  =  2.9 10  ×  −  3  »  ≈  1.0 mm  «  »  \n2.8  1\nb  the universe is expanding and so the wavelength of the CMB in the past was much smaller \nindicating a very high temperature at the beginning   2\nc  i  «  z  =  v  ⇒  »  v  =  0.16  ×  3 10  ×  5  «  =  0.48 10 kms  ×  5  −  1  »   Award [1 max] for POT error.\nc\nv  0.48 10  ×  5  2\n«  d  =  H  ⇒  v  =  68  =  706  »  ≈  710 Mpc  «  » \n0\nc  ii  z  =  R  −⇒  1  R  =  1.16  \nR  0  R  0\nR  2\nR =  0  0.86  ",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C",
+    "B"
+   ],
+   "subtopics": [
+    "X.12",
+    "C.5",
+    "B.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "15. (a) (i) State two characteristics of the cosmic microwave background (CMB) radiation. [2]\n(ii) The present temperature of the CMB is 2.8 K. Calculate the peak wavelength of the CMB. [1]\n(b) Describe how the CMB provides evidence for the Hot Big Bang model of the universe. [2]\n(c) A spectral line in the light received from a distant galaxy shows a redshift of z = 0.16.\n(i) Determine the distance to this galaxy using a value for the Hubble constant of H$_0$ = 68 km s$^{-1}$ Mpc$^{-1}$. [2]\n(ii) Estimate the size of the Universe relative to its present size when the light was emitted by the galaxy in (c). [2]",
+   "review_note": "audit: CMB peak wavelength via Wien earns a mark"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q16",
+   "num": "16",
+   "section": "D",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "16.  (a)  Outline, with reference to star formation, what is meant by the Jeans criterion.  [2]\n(b)  In the proton–proton cycle, four hydrogen nuclei fuse to produce one nucleus of helium\nreleasing a total of 4.3 × 10-12 J of energy.  The Sun will spend 1010 years on the\nmain sequence.  It may be assumed that during this time the Sun maintains a constant\nluminosity of 3.8 × 1026 W.\nShow that the total mass of hydrogen that is converted into helium while the Sun is on\nthe main sequence is 2 × 1029 kg.  [2]\n(c)  Massive stars that have left the main sequence have a layered structure with different\nchemical elements in different layers.  Discuss this structure by reference to the nuclear\nreactions taking place in such stars.  [2]",
+   "ms_text": "16 a  a star will form out of a cloud of gas \nwhen the gravitational potential energy of the cloud exceeds the total random kinetic energy of\nthe particles of the cloud  2\nOR\nthe mass exceeds a critical mass for a particular radius and temperature\nb  number of reactions is  10  10  ×  365  ×  24  ×  3600  ×  3.8 10  ×  26  =  2.79 10  ×  55  \n4.3 10−  ×  12\n2\nH mass used is  2.79 10  ×  55  ×  4 1.67 10  ×  ×  −  27  =  1.86 10  ×  29  «  kg  » \nc  nuclear fusion reactions produce ever heavier elements depending on the mass of the star /\ntemperature of the core  \nthe elements / nuclear reactions arrange themselves in layers, heaviest at the core lightest in  2\nthe envelope ",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "16. (a) Outline, with reference to star formation, what is meant by the Jeans criterion. [2]\n(b) In the proton–proton cycle, four hydrogen nuclei fuse to produce one nucleus of helium releasing a total of $4.3 \\times 10^{-12}$ J of energy. The Sun will spend $10^{10}$ years on the main sequence. It may be assumed that during this time the Sun maintains a constant luminosity of $3.8 \\times 10^{26}$ W.\nShow that the total mass of hydrogen that is converted into helium while the Sun is on the main sequence is $2 \\times 10^{29}$ kg. [2]\n(c) Massive stars that have left the main sequence have a layered structure with different chemical elements in different layers. Discuss this structure by reference to the nuclear reactions taking place in such stars. [2]"
+  },
+  {
+   "id": "physics-2017-M-P3-TZ1-q17",
+   "num": "17",
+   "section": "D",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "17.  (a)  The graph shows the variation with time t of the cosmic scale factor R in the flat model\nof the universe in which dark energy is ignored.\nR\nnow\nt\nOn the axes above draw a graph to show the variation of R with time, when dark\nenergy is present.  [1]\n(b)  Recent evidence from the Planck observatory suggests that the matter density of the\nuniverse is ρm = 0.32 ρc, where ρc ≈ 10-26 kg m-3 is the critical density.\n(i)  The density of the observable matter in the universe is only 0.05 ρc.  Suggest how\nthe remaining 0.27 ρc is accounted for.  [1]\n(ii)  The density of dark energy is ρΛc2 where ρΛ = ρc - ρm.  Calculate the amount of\ndark energy in 1 m3 of space.  [2]",
+   "ms_text": "17 a  curve starting earlier, touching at now and going off to infinity \n1\nb  i  there is dark matter that does not radiate / cannot be observed   Unexplained mention of \"dark\nmatter\" is not sufficient for the  1\nmark.\nb  ii  ρ  Λ =  0.68  ρ  c  =  0.68 10  ×  −  26  «  kgm  −  3  » \nenergy in 1 m3 is therefore  0.68 10  ×  −  26  ×  9 10  ×  16  ≈  6 10  ×  −  10  « »   J  2",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "17. (a) The graph shows the variation with time $t$ of the cosmic scale factor $R$ in the flat model of the universe in which dark energy is ignored.\n[Graph: R against t on a grid; concave-down curve starting on the t axis, with the point \"now\" marked]\nOn the axes above draw a graph to show the variation of $R$ with time, when dark energy is present. [1]\n(b) Recent evidence from the Planck observatory suggests that the matter density of the universe is $\\rho_m = 0.32\\rho_c$, where $\\rho_c \\approx 10^{-26}$ kg m$^{-3}$ is the critical density.\n(i) The density of the observable matter in the universe is only $0.05\\rho_c$. Suggest how the remaining $0.27\\rho_c$ is accounted for. [1]\n(ii) The density of dark energy is $\\rho_\\Lambda c^2$ where $\\rho_\\Lambda = \\rho_c - \\rho_m$. Calculate the amount of dark energy in 1 m$^3$ of space. [2]"
+  }
+ ],
+ "qp_pages": 32,
+ "status": "done"
+}

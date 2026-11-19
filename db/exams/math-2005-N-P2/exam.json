@@ -1,0 +1,277 @@
+{
+ "exam_id": "math-2005-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2005,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2005 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2005 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8805-7202; code N05/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches expected total 100",
+ "qp_pages": 11,
+ "questions": [
+  {
+   "id": "math-2005-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 12,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 12]\n2 x a bx + c\n(a) Given that ≡ + , calculate the value of a,\n2 2 ( 1 + x )( 1 + x ) ( 1 + x ) ( 1 + x )\nof b and of c. [5 marks]\n2 x\n(b) (i) Hence, find I = ∫ x\n2 ) d. ( 1 + x )( 1 + x\nIf I=π (ii)\n4 when x =1, calculate the value of the constant of integration\n[7 marks] giving your answer in the form p + q ln where pqr r , , ∈¡.",
+   "ms_text": "2 x a bx + c\n≡ + 1. (a)\n+ + 2 + + 2 (1 x )(1 x ) (1 x ) (1 x )\n2 2 x ≡ a (1 + x ) + ( bx + c )(1 + x ) (M1)(A1)\n1 = a + b , 0 = a + c , 0 = b + c\nSolving gives 1 = 2a\n1 1 1\na = ⇒ b = , c = − . (A1)(A1)(A1) (N2)\n2 2 2\n[5 marks]\n1 1 x − 1d\n(b) (i) I = ∫ + x\n2 2 (1 + x ) (1 + x )\n1 1 1 2 x 1 d x\n= ∫ d x + ∫ d x − ∫ (M1)\n2 2 2 (1 + x ) 4 (1 + x ) 2 (1 + x )\n1 1 1 2\n= ln1 + x + ln1 + x − arctan x + k (A1)(A1)(A1)\n2 4 2\nNote: Do not penalize the absence of k, or the absolute value signs.\nπ 1 1 π\n(ii) = ln 2 + ln 2 − + k (M1)(A1)\n4 2 4 8\n3 π= 3 ln 2\n+ k\n8 4\nπ 3 π − 3 3\n3 ln 2 = k (accept p = , q = − , r = 2 ) (A1) (N1)\n8 4 8 4\nNote: I is not unique. Accept equivalent expressions which may lead to\ndifferent values of p, q, r.\n[7 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.10",
+    "1.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 12]\n(a) Given that $\\frac{x^2}{(1+x)(1+x^2)} \\equiv \\frac{a}{(1+x)} + \\frac{bx+c}{(1+x^2)}$, calculate the value of $a$, of $b$ and of $c$. [5 marks]\n(b) (i) Hence, find $I = \\int \\frac{x^2}{(1+x)(1+x^2)}\\,dx$.\n(ii) If $I = \\frac{\\pi}{4}$ when $x = 1$, calculate the value of the constant of integration giving your answer in the form $p + q\\ln r$ where $p, q, r \\in \\mathbb{R}$. [7 marks]"
+  },
+  {
+   "id": "math-2005-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 16]\n− 1 − k 3\n(i) (a) Let M= 4 5 1 . Find det M. [2 marks]\n1 − 1 k\n(b) Find the values of k for which the following system of equations does not\nhave a unique solution.\n−− x ky + 3 z = − 1\nx + y + z = 4 5 2\nx − y + kz = 1 [3 marks]\n1 y 1 z − 5 The plane π contains the line x −= −=\n(ii) and the point (1, −2, 3).\n2 3 6\n(a) Show that the equation of π is 6 x + 2 y − 3 z = −. 7 [7 marks]\n(b) Calculate the distance of the plane π from the origin. [4 marks]",
+   "ms_text": "− 1 − k 3\n2. (i) (a) det M = 4 5 1 = − 1(5 k + 1) + k (4 k − 1) + 3(4 −− 5) (M1)\n1 − 1 k\n= − −+ 2 − − 5 k 1 4 k k 27\n2 = 4 k − 6 k − 28 (A1) (N1)\n[2 marks]\n(b) For there not to be a unique solution\n2 4 k − 6 k − 28 = 0 (M1)\n(2 k − 7)( k + 2) = 0\n7 , k = − 2 (A1)(A1) (N2)\n2\n[3 marks]\n⎛⎞ 1 ⎛ 1 ⎞ ⎛⎞ 0\n⎜⎟ ⎜ ⎟ ⎜⎟\n(ii) (a) A vector in the plane is 1 −− 2 = 3 (M1)(A1) (N1)\n⎜⎟ ⎜ ⎟ ⎜⎟\n⎜⎟ ⎜ ⎟ ⎜⎟\n5 3 2 ⎝⎠ ⎝ ⎠ ⎝⎠\n⎛⎞⎛⎞ 0 2 ⎛ 12 ⎞\n⎜⎟⎜⎟ ⎜ ⎟\nNormal vector to plane is 3 × 3 = 4 (M1)(A1) (N1)\n⎜⎟⎜⎟ ⎜ ⎟\n⎜⎟⎜⎟ ⎜ ⎟\n2 6 − 6 ⎝⎠⎝⎠ ⎝ ⎠\n⎛ 6 ⎞ ⎛ 1 ⎞⎛ 6 ⎞\n⎜ ⎟ ⎜ ⎟⎜ ⎟\nEquation of plane is r i 2 =− 2 i 2\n⎜ ⎟ ⎜ ⎟⎜ ⎟\n⎜ ⎟ ⎜ ⎟⎜ ⎟\n⎝ − 3 ⎠ ⎝ 3 ⎠⎝ − 3 ⎠\n⎛ 6 ⎞\n⎜\nr i 2 ⎟= 6 − 4 − 9 (M1)(A1)\n⎜ ⎟\n⎜ ⎟ −\n⎝ 3 ⎠\n⎛ 6 ⎞\n⎜ ⎟= −\nr i 2 7 (A1)\n⎜ ⎟\n⎜ ⎟ −\n3 ⎝ ⎠\n⇒ 6 x + 2 y − 3 z = − 7 (AG) (N0)\n[7 marks]\n(b) METHOD 1\nAny point P on normal from origin O to plane is (6, 2, k k − 3) k (M1)\n2 2 2 Distance OP = k 6 + 2 +− (3) = 7 k (A1)\nP lies on plane\n6(6) k + 2(2) k − 3(3) − k = − 7\n+ + = − 36 k 4 k 9 k 7\n1\nk = − (A1)\n7\n1\nDistance = 7 ×− = 1 (A1) (N2)\n7\nMETHOD 2\nax + by + cz + d\n= 0 0 0 Using distance (M1)\n2 2 2 a + b + c\n( x , y , z ) is (0, 0, 0)\n0 0 0\n− 7\ndistance = (A1)(A1)\n2 2 2 6 + 2 +− (3)\nNote: Award (A1) for the numerator, (A1) for the denominator.\n7\ndistance = = 1 (A1) (N2)\n49\n[4 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.17",
+    "3.16",
+    "3.18",
+    "1.L1",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 16]\n(i) (a) Let $M = \\begin{pmatrix} -1 & -k & 3 \\\\ 4 & 5 & 1 \\\\ 1 & -1 & k \\end{pmatrix}$. Find $\\det M$. [2 marks]\n(b) Find the values of $k$ for which the following system of equations does not have a unique solution.\n$-x - ky + 3z = -1$\n$4x + 5y + z = 2$\n$x - y + kz = 1$ [3 marks]\n(ii) The plane $\\pi$ contains the line $\\frac{x-1}{2} = \\frac{y-1}{3} = \\frac{z-5}{6}$ and the point $(1, -2, 3)$.\n(a) Show that the equation of $\\pi$ is $6x + 2y - 3z = -7$. [7 marks]\n(b) Calculate the distance of the plane $\\pi$ from the origin. [4 marks]"
+  },
+  {
+   "id": "math-2005-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 17]\n(i) In a game a player pays an entrance fee of $ n. He then selects one number from\n1, 2, 3, 4, 5, 6 and rolls three standard dice.\nIf his chosen number appears on all three dice he wins four times his\nentrance fee.\nIf his number appears on exactly two of the dice he wins three times the\nentrance fee.\nIf his number appears on exactly one die he wins twice the entrance fee.\nIf his number does not appear on any of the dice he wins nothing.\n(a) Copy and complete the probability table below. [4 marks]\nProfit ($) −n n 2n 3n\n75\nProbability\n216\n17\nShow that the player’s expected profit is $ − n. (b) [2 marks]\n216\n(c) What should the entrance fee be so that the player’s expected loss per game\nis 34 cents? [2 marks]\n(ii) (a) Use mathematical induction to prove that\nn 1 n\n+\n∑ = , n ∈ ¢. [6 marks]\n1( 2 r − 12 )( r + 1 ) 2 n + 1 r =\n(b) Hence show that the sum of the first ( n +1 terms of the series )\n1 1 1 1 n + 1 ) +... is (\n+ + + [3 marks]\n3.\n3 15 35 63 n + ( 2 )",
+   "ms_text": "3\n1 1 5 15 ⎛ 5 ⎞ 125\n3. (i) (a) P(3) n = = ;P(2) n =× 3 = ; P( − n ) = = (M1)\n3 ⎜ ⎟ 6 216 216 216\n⎝ 6 ⎠ 216\nProfit − n n 2n 3n\n125 75 15 1\nProbability (A1)(A1)(A1) (N3)\n216 216 216 216\n[4 marks]\n125 75 15 1\n(b) E( X ) =− ( n ) × + () n × + (2) n × + (3) n × (M1)(A1)\n216 216 216 216\n17 n\n= − (AG) (N0)\n216\n[2 marks]\n17 n\n(c) − = − 0.34 (M1)\n216\nn = 4.32 (accept $ 4.32) (A1) (N1)\n[2 marks]\nn 1 n\n(ii) (a) Let P() n be the proposition ∑ =\n(2 r − 1)(2 r + 1) (2 n + 1) r = 1\n1 1 1 1\nP(1) : ∑ = = so P(1) is true (M1)\n(2 r − 1)(2 r + 1) 3 2(1) + 1 1\nAssume that P() k is true\nk + 1 1 k 1\nP( k + 1) : ∑ = + (M1)(A1)\n(2 r − 1)(2 r + 1) (2 k + 1) (2 k + 1)(2 k + 3) 1\nk (2 k + 3) + 1\n= (A1)\n(2 k + 1)(2 k + 3)\n( k + 1)(2 k + 1)\n=\n(2 k + 1)(2 k + 3)\n( k + 1)\n= (A1)\n(2 k + 1) + 1\n+ Therefore P(1) is true and P() k ⇒ P( k + 1) so P() n is true ∀∈�. (R1) n\n[6 marks]\n1 1 n 1 Checking that 1\n(b) + + is the same as ∑ (M1)\n3 15 35 (2 r − 1)(2 r + 1) r = 1\n(e.g. substitute r = 1,2 )\nSum is therefore sum of ( n + 1) terms (M1)\n( n + 1)\ni.e. (A1)\n2( n + 1) + 1\nn + 1\n= (AG)\n2 n + 3\n[3 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "4"
+   ],
+   "subtopics": [
+    "1.15",
+    "4.7",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 17]\n(i) In a game a player pays an entrance fee of \\$$n$. He then selects one number from 1, 2, 3, 4, 5, 6 and rolls three standard dice.\nIf his chosen number appears on all three dice he wins four times his entrance fee.\nIf his number appears on exactly two of the dice he wins three times the entrance fee.\nIf his number appears on exactly one die he wins twice the entrance fee.\nIf his number does not appear on any of the dice he wins nothing.\n(a) Copy and complete the probability table below. [4 marks]\nProfit (\\$) | $-n$ | $n$ | $2n$ | $3n$\nProbability |  | $\\frac{75}{216}$ |  | \n(b) Show that the player's expected profit is \\$$\\left(-\\frac{17n}{216}\\right)$. [2 marks]\n(c) What should the entrance fee be so that the player's expected loss per game is 34 cents? [2 marks]\n(ii) (a) Use mathematical induction to prove that $\\sum_{r=1}^{n} \\frac{1}{(2r-1)(2r+1)} = \\frac{n}{2n+1}, n \\in \\mathbb{Z}^+$. [6 marks]\n(b) Hence show that the sum of the first $(n+1)$ terms of the series $\\frac{1}{3} + \\frac{1}{15} + \\frac{1}{35} + \\frac{1}{63} + \\dots$ is $\\frac{(n+1)}{(2n+3)}$. [3 marks]"
+  },
+  {
+   "id": "math-2005-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 10]\nn + (a) Write down the term in xr in the expansion of ( x + h ) , where 0 ≤ r ≤ nn , ∈\n¢. [1 mark]\n+ (b) Hence differentiate x n , n ∈\n¢, from first principles. [5 marks]\nn − n − n , n ∈ + (c) Starting from the result x × x = 1, deduce the derivative of x ¢. [4 marks]",
+   "ms_text": "⎛ n ⎞ ⎛ n ! ⎞\nth r nr − r nr − 4. (a) r term =\n⎜ ⎟ xh ⎜ xh ⎟ (A1) =!(\n⎝ n − r ⎠ ⎝ rn − r )! ⎠\n[1 mark]\nn n n d( x ) ⎛ ( x + h ) − x ⎞\n(b) = lim ⎜ ⎟ (M1)\nd x h → 0 h ⎝ ⎠\n⎛ ⎛⎞ n ⎛⎞ n ⎞\nn n − 1 n − 2 2 n n\n⎜ x + ⎜⎟ x h + ⎜⎟ x h + ... + h − x ⎟\n⎝⎠ 1 ⎝⎠ 2 ⎜ ⎟\n= lim (A1)\n⎜ ⎟ h → 0 h\n⎜ ⎟\n⎜ ⎟\n⎝ ⎠\n− ⎛\nn n − 1 nn ( 1) n − 2 2 n n ⎞ x + nx h + x h + ... + h − x\n⎜ ⎟\n2 = lim (A1)\n⎜ ⎟\nh → 0 h ⎜ ⎟\n⎝ ⎠\n⎛ nn ( − 1) ⎞\n= n − 1 + n − 2 + + n − 1 lim ⎜ nx x h ... h ⎟ (A1)\n→ h 0 ⎝ 2 ⎠\nNote: Accept first, second and last terms in the 3 lines above.\nn 1 = nx− (A1)\n[5 marks]\nn n (c) x × x− = 1\n− n n\nn d( x ) − n d( x ) x + x = 0 (M1)\nd x d x\n− n d( x )\nn − n n − 1 x + x × nx = 0 (A1)\nd x\n− n\nn d( x ) − 1 x + nx = 0 (A1)\nd x\n− n − 1 d( x ) − nx\n( − (1 + n ) ) = = − nx (A1)\nn d x x\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.12",
+    "5.6",
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 10]\n(a) Write down the term in $x^r$ in the expansion of $(x+h)^n$, where $0 \\le r \\le n, n \\in \\mathbb{Z}^+$. [1 mark]\n(b) Hence differentiate $x^n, n \\in \\mathbb{Z}^+$, from first principles. [5 marks]\n(c) Starting from the result $x^n \\times x^{-n} = 1$, deduce the derivative of $x^{-n}, n \\in \\mathbb{Z}^+$. [4 marks]"
+  },
+  {
+   "id": "math-2005-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 15]\n(i) The complex numbers z and z are z1 = 2 + i, z2 = 3 + i.\n1 2\n(a) Find zz 2, giving your answer in the form a + i, bab , ∈ ¡. [1 mark]\n1\n1\n(b) 5 , arctan The polar form of z1 may be written as\n. 2\n(i) Express the polar form of z , zz in a similar way.\n2 1 2\n1 1 Hence show that π\n(ii) = arctan + arctan . [5 marks]\n4 2 3\n(ii) A man PF is standing on horizontal ground at F at a distance x from the bottom of\na vertical wall GE. He looks at the picture AB on the wall. The angle BPA is θ .\nLet DA = a , DB = b , where angle PDE is a right angle. Find the value of x for\nwhich tanθ is a maximum, giving your answer in terms of a and b. Justify that\nthis value of x does give a maximum value of tanθ . [9 marks]",
+   "ms_text": "z= + and z= + 5. (i) (a) 2 i 3 i\n1 2\nzz= + + = + (A1) (2 i)(3 i) 5 5i\n1 2\n[1 mark]\n1\n= = = = (b) (i) z 10 , arg z arctan , zz 50 , arg zz arctan1 (M1)\n2 2 1 2 1 2\n3\n⎛ 1 ⎞\nz = 10 , arctan , zz = ( 50 , arctan1 ) (A1)(A1) (N3)\n2 ⎜ ⎟ 1 2\n⎝ 3 ⎠\n(ii) Also arg zz = arg z + arg z (M1)\n1 2 1 2\n1 1\narctan1 = arctan + arctan (A1)\n2 3\nπ= 1 1\narctan + arctan (AG) (N0)\n4 2 3\n[5 marks]\n(ii)\n� � Let BPD = α and APD = β then θ = α − β .\ntan α − tan β\ntan θ = tan( α − β ) (M1) =+\n1 tan α tan β\nb a\n−\n( b − ax ) x x\n= = (A1)\nab 2 x + ab\n1 +\n2 x\n2 2 d(tan) θ ( x + abb )( − a ) − ( b − a )2 x\n= (M1)\n2 2 d x ( x + ab )\n2 ( b − a )( ab − x )\n= (A1)\n2 2 ( x + ab )\n2 at maximum ( ab − x ) = 0 , b ≠ a\nx = ab (A1)\n2 θ ⎡ 2 + 2 − − − 2 2 + ⎤ d(tan) ( x ab )(2) x 4( xab x )( x ab )\n= ( b − a ) (M1) ⎢ ⎥\n2 2 + 4 d x\n⎣ ( x ab ) ⎦\n( b − a )\n= ⎡ − 3 − − + 3 ⎤\n⎣ 2 x 2 xab 4 xab 4 x ⎦ 3\n( x 2 + ab )\n( b − a )(2 x 3 − 6 xab )\n= (A1)\n3\n( 2 ) x + ab\n2 ( b − a ) ( − 4 abab ) d(tan) θ\nat x = ab , =\n2 3 3 d x 8 ab\n− − ( b a ) ab\n= (A1)\n2 ab 2 2\n2 d(tan)\nθ< =\nsince 0 at x ab this value is a maximum. (R1)\n2 d x\n[9 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.6",
+    "5.7",
+    "1.13",
+    "1.12",
+    "3.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 15]\n(i) The complex numbers $z_1$ and $z_2$ are $z_1 = 2 + i$, $z_2 = 3 + i$.\n(a) Find $z_1 z_2$, giving your answer in the form $a + ib, a, b \\in \\mathbb{R}$. [1 mark]\n(b) The polar form of $z_1$ may be written as $\\left(\\sqrt{5}, \\arctan\\frac{1}{2}\\right)$.\n(i) Express the polar form of $z_2$, $z_1 z_2$ in a similar way.\n(ii) Hence show that $\\frac{\\pi}{4} = \\arctan\\frac{1}{2} + \\arctan\\frac{1}{3}$. [5 marks]\n(ii) A man PF is standing on horizontal ground at F at a distance $x$ from the bottom of a vertical wall GE. He looks at the picture AB on the wall. The angle BPA is $\\theta$.\n[Diagram: man PF standing at F, distance x from G at the foot of vertical wall GE; points D, A, B, E up the wall with D level with P (PD horizontal); dashed sight lines PA and PB with angle theta between them; right angles at D and G]\nLet DA $= a$, DB $= b$, where angle PDE is a right angle. Find the value of $x$ for which $\\tan\\theta$ is a maximum, giving your answer in terms of $a$ and $b$. Justify that this value of $x$ does give a maximum value of $\\tan\\theta$. [9 marks]"
+  },
+  {
+   "id": "math-2005-N-P2-q6",
+   "num": "6",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 30]\n(i) Let X and Y be two independent variables with E( X= 5, Var( ) X= 3, E() ) Y= 4,\nVar() Y= 2. Find\n(a) E( 2X; )\n(b) Var( 2X; )\n(c) E( 3 X − 2 Y ) ;\nX − Y [4 marks] (d) Var( 3 2 ) .\n(ii) (a) Two samples are drawn from a normal population that has an unknown\nmean µ and unknown variance σ2.\nThe results of the first sample are given in the following table.\nx 9.1 9.2 9.3 9.4 9.5\nFrequency 12 16 19 23 15\nThe second sample of 72 items gave the following results\n2\n∑ x = 669 6 . and ∑ x = 6228 .\nUse the two samples to calculate an estimate for µ and for σ2. [7 marks]\n(b) Based on the combined sample data find a 95 % confidence interval for µ. [4 marks]\n(iii) (a) A sample of size n is drawn from a population which is normally distributed\nwith mean µ and variance σ2. Describe fully how the sample mean\nis distributed. [2 marks]\n(b) A machine shop manufactures steel rods for use in a car production plant.\nThe lengths in metres for a sample of 8 rods are given below.\n0.999, 1.001, 1.005, 1.011, 1.005, 1.001, 0.998, 1.004\nPrevious observations have shown that the machine settings gave rods with\nlengths that are normally distributed with standard deviation 0.0028 m.\nStating the type of test used, determine at the 1 % significance level if the\nmean length of the rods produced is 1.005 m. [7 marks]\n(iv) A six-sided die is thrown 300 times and the outcomes recorded in the\nfollowing table.\nScore 1 2 3 4 5 6\nFrequency 45 57 51 56 47 44\nPerform a suitable test at the 5 % significance level to determine if the die\nis fair. [6 marks]",
+   "ms_text": "6. (i) (a) E(2 X ) = 2E( X ) = 2(5) = 10 (A1)\n(b) Var(2 X ) = 4Var( X ) = 12 (A1)\n(c) E(3 X − 2) Y = 3E( X ) − 2E() Y = 3(5) − 2(4) = 7 (A1)\n(d) Var(3 X − 2) Y = 9 Var( X ) + 4 Var() Y = 9(3) + 4(2) = 35 (A1)\n[4 marks]\n(ii) (a) METHOD 1\n= = Sample 1 : Mean 9.315 9.32 (3 s.f.) (A1)\nVariance = 0.0171 (3 s.f.) (A1)\n669.6\nSample 2 : Mean = = 9.3 (A1)\n72\n6228\n= − 2 Variance (9.3) (A1)\n72\n= 0.01\n+ n x nx\nHence pooled estimate for population mean = 11 2 2\nn + n\n1 2\n+ 85(9.315) 72(9.3)\n=\n85 + 72\n= 9.31 (3 s.f.) (A1)\n2 + 2 n s ns\nHence pooled estimate for population variance = 11 22 (M1)\nn + n − 2\n1 2\n+ 85(0.0171) 72(0.01)\n= (A1)\n155\n= 0.0140 (3 s.f.)\n[7 marks]\nMETHOD 2\nSince the samples are drawn from the same population it is also possible\nto combine the two samples into one for an estimate of population mean\nand variance.\n∑ x= 791.8 and ∑ x= 669.6\n1 2\n⇒ ∑ x = 1461.4 (A1)\n1461.4\n⇒ x = = 9.31 (A1)\n157\n2 2 ∑ x= 7377.3 and ∑ x= 6228\n1 2\n2 ⇒ ∑ x = 13605.3 (A1)\n2\n∑ x 2 ⎛ ∑ x ⎞\nNow s 2 = −⎜\nn ⎜ ⎟ ⎟\nn n ⎝ ⎠\n13 605.3\n⇒ 2 = − 2 = ns (9.3083) 0.01388... (M1)(A1)\n157\nn 2 2\n⇒ s = s = 0.01396... = 0.0140 (3 s.f.) (M1)(A1)\nn − 1 n\nn − 1\n[7 marks]\nns\n± − 1 (b) Since population variance unknown confidence interval given by x t (R1)\nn\nDegrees of freedom are 155 (Method 1); 156 (Method 2)\nEITHER\nt = 1.975 (A1)\n0.01396\n± CI is 9.31 1.975 (A1)\n157\n= ]9.29, 9.33[ (A1)\nOR\nSince n large, use z = 1.96 (A1)\n0.01396\nCI is 9.31 ± 1.96 (A1)\n157\n= ]9.29, 9.33[ (A1)\n[4 marks]\n2 (iii) (a) X ∼ N(, µσ )\nEITHER\nThe sample mean is normally distributed (R1)\nσ 2\nwith mean µand variance (R1)\nn\nOR\n2 ⎛ σ ⎞\nX ∼ N µ , (R1)(R1) ⎜ ⎟\nn ⎝ ⎠\n[2 marks]\n(b) H: Mean, µ= 1.005 , H: µ≠ 1.005 (A1)\n0 2\nA two-tail z-test is appropriate since σ is given (R1)\nEITHER\nSample mean is 1.003 (A1)\n− µ − x 1.0031.005\n= = (M1) z\nσ 0.0028\nn 8\n= 2.02 (A1)\nCritical z value for 1 % test is 2.58 (A1)\nResult is not significant, mean is 1.005. (A1)\nOR\nz = − using gdc 2.02 (A2)\np = 0.0434 (A2)\nResult is not significant. Accept H, mean is 1.005. (A1)\n0\n[7 marks]\n(iv)\nScore 1 2 3 4 5 6\nFrequency 45 57 51 56 47 44\nH: Die is fair.\n0\nH: Die is not fair. (A1)\n1\nSince 300 throws expect 50 outcomes of each score (A1)\nObserved 45 57 51 56 47 44\nExpected 50 50 50 50 50 50\n− 2\n2 ( f f ) χ =∑ o e (M1)\nf\ne\n= 3.12 (A1)\n2 From table χ (critical value at 5 % level) with (degrees of freedom = 5)\nis 11.07 (A1)\n2 Since χ < 11.07\ncalc\nResult is not significant, die is fair. (R1)\n[6 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.L7",
+    "4.L9",
+    "4.L4",
+    "4.L6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics",
+   "text_clean": "6. [Maximum mark: 30]\n(i) Let $X$ and $Y$ be two independent variables with $E(X) = 5$, $Var(X) = 3$, $E(Y) = 4$, $Var(Y) = 2$. Find\n(a) $E(2X)$;\n(b) $Var(2X)$;\n(c) $E(3X - 2Y)$;\n(d) $Var(3X - 2Y)$. [4 marks]\n(ii) (a) Two samples are drawn from a normal population that has an unknown mean $\\mu$ and unknown variance $\\sigma^2$.\nThe results of the first sample are given in the following table.\n$x$ | 9.1 | 9.2 | 9.3 | 9.4 | 9.5\nFrequency | 12 | 16 | 19 | 23 | 15\nThe second sample of 72 items gave the following results\n$\\sum x = 669.6$ and $\\sum x^2 = 6228$.\nUse the two samples to calculate an estimate for $\\mu$ and for $\\sigma^2$. [7 marks]\n(b) Based on the combined sample data find a 95 % confidence interval for $\\mu$. [4 marks]\n(iii) (a) A sample of size $n$ is drawn from a population which is normally distributed with mean $\\mu$ and variance $\\sigma^2$. Describe fully how the sample mean is distributed. [2 marks]\n(b) A machine shop manufactures steel rods for use in a car production plant. The lengths in metres for a sample of 8 rods are given below.\n0.999, 1.001, 1.005, 1.011, 1.005, 1.001, 0.998, 1.004\nPrevious observations have shown that the machine settings gave rods with lengths that are normally distributed with standard deviation 0.0028 m.\nStating the type of test used, determine at the 1 % significance level if the mean length of the rods produced is 1.005 m. [7 marks]\n(iv) A six-sided die is thrown 300 times and the outcomes recorded in the following table.\nScore | 1 | 2 | 3 | 4 | 5 | 6\nFrequency | 45 | 57 | 51 | 56 | 47 | 44\nPerform a suitable test at the 5 % significance level to determine if the die is fair. [6 marks]"
+  },
+  {
+   "id": "math-2005-N-P2-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 30]\n(i) Use Venn diagrams to show that\n(a) A ∪ ( B ∩′′ = A ) A ∪′ B ; [2 marks]\n(b) ( ( A ∩ B ) ′∪ B )′ = ∅. [2 marks]\nx\nLet M be the set of all matrices of the form 1\n(ii)\nwhere x∈R . 0 1\n(a) Show that (M, +) is not a group. [1 mark]\n(b) Show that M forms an abelian group under matrix multiplication.\n(You may assume that matrix multiplication is associative). [5 marks]\n(iii) The set S ={, abcd , , } forms a group under each of two operations # and ∗, as\nshown in the following group tables.\na b c d # a b c d ∗\na a b c d a b a\nb b c d a b d b\nc c d a b c c\nd d a b c d a b d\n(a) Copy and complete the second table. [4 marks]\n(b) Solve the following equations for x.\n(bx c d (i) #)∗= .\n(ii) ( a ∗ (#) xb )∗= c b . [5 marks]\n(iv) Let max ( x , y ) be equal to the largest ofxand y. Define the relation\nR on the xy plane by\n(,) abRpq (, ) ⇔ max ( a , b )= max ( p , q ).\n(a) Show that the relation R is an equivalence relation. [6 marks]\n(b) (i) Find the equivalence classes.\n(ii) Hence describe the equivalence classes. [5 marks]",
+   "ms_text": "∪ ∩ A′′ 7. (i) (a) A ( B )\nand ⇒\nA B ∩ A′ A ∪ ( B ∩ A′′ )\n(M1)(A1)\nA ∪ B′\n∪ ∩ ′′ = ∪ ′ Hence A ( B A ) A B (AG)\n[2 marks]\nB′ (b) ( ( A ∩ B ) ′ ∪ ) = ∅\n⇒ (A1)\n( A ∩ B′ ) ( A ∩ B ) ′ ∪ B\neverything shaded (R1)\n⇒ ( ( A ∩ B ) ′ ∪ B′ ) = ∅ (AG)\n[2 marks]\n(ii) (a) ( M+ is not a group since ,)\n⎛ 1 x ⎞ ⎛ 1 x ⎞ ⎛ 2 2 x ⎞\n⎜ ⎟ + ⎜ ⎟ = ⎜ ⎟\n⎝ 0 1 ⎠ ⎝ 0 1 ⎠ ⎝ 0 2 ⎠\n⎛ 2 2 x ⎞∉\nM ⎜ ⎟\n0 2 ⎝ ⎠\nWe do not have closure. (R1)\nNote: Any counter example will do, x term not needed.\n[1 mark]\n(b) Under matrix product\n⎛ 1 x ⎞⎛ 1 y ⎞ ⎛ 1 x + y ⎞ ⎛ x + y and 1 ⎞∈\n= M ⇒ closure. (A1) ⎜ ⎟⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n0 1 0 1 0 1 0 1 ⎝ ⎠⎝ ⎠ ⎝ ⎠ ⎝ ⎠\n⎛ 1 y ⎞⎛ 1 x ⎞ ⎛ 1 y + x ⎞\n⎜ ⎟⎜ ⎟ = ⎜ ⎟ hence operation is commutative (A1)\n⎝ 0 1 ⎠⎝ 0 1 ⎠ ⎝ 0 1 ⎠\n⎛ 0 There is an identity element 1 ⎞∈\nM (A1) ⎜ ⎟\n0 1 ⎝ ⎠\n− 1\n⎛ 1 x ⎞ ⎛ 1 − x ⎞ Inverses exist since 1 x≠\n0 and = ∈ M (M1)(A1) ⎜ ⎟ ⎜ ⎟\n0 1 0 1 0 1 ⎝ ⎠ ⎝ ⎠\nHence M forms an abelian group. (AG)\n[5 marks]\na b c d (iii) (a)\na b c d a\nb c d a b\nc d a b c\nd a b c d (A4)\n(A\nNote: Award (A3) if one error, (A2) if 2 errors, (A1) if 3 errors, (A0) for\n4 or more errors in table.\n[4 marks]\n(b) (i) using inverse elements\n(#) bx ∗∗ ca = d ∗ a\n⇒ bx # = a (A1)\n⇒ d ## bx = d # a\n⇒ x = d (A1)\n∗ ∗∗ = ∗ (ii) a (#) xb ca ba\n⇒ a ∗ (#) xb = c (A1)\n⇒∗∗ ca (#) xb =∗ cc\n⇒ xb # = b (A1)\n⇒ xbd ## = bd #\n⇒ x = a (A1)\n[5 marks]\n( ) ( ) (iv) (a) (,) abRpq (, ) ⇒ max a , b = max p , q (M1)\n( ) ( ) max p , q = max a , b ⇒ (, pqRab ) (,)\n⇒R is symmetric (A1)\n(,) abRab (,) ⇒ max ( a , b ) = max ( a , b ) (M1)\nRis reflexive (A1)\n(,) abRxy (,) and (,) xyRpq (,) ⇒ (,) abRpq (, )\nsince max ( a , b ) = max ( x , y ) and max ( x , y ) = max ( p , q ) (M1)\n⇒ max ( a , b ) = max ( p , q )\nRis transitive. (A1)\n⇒ R is an equivalence relation. (AG)\n[6 marks]\n(b) (i) If max ( x , y ) = c\nThen x = c and y ≤ c\n⇒ x = ± c and − c ≤ y ≤ c (M1)(A1)\ny = c and x ≤ c or (M1)\n⇒ y = ± c and − c ≤ x ≤ c (A1)\n(ii) i.e. Concentric squares with a centre at (0, 0) (A1)\n[5 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.2",
+    "7.4",
+    "7.5",
+    "7.1",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, Relations and Groups",
+   "text_clean": "7. [Maximum mark: 30]\n(i) Use Venn diagrams to show that\n(a) $A \\cup (B \\cap A')' = A \\cup B'$; [2 marks]\n(b) $((A \\cap B)' \\cup B)' = \\varnothing$. [2 marks]\n(ii) Let $M$ be the set of all matrices of the form $\\begin{pmatrix} 1 & x \\\\ 0 & 1 \\end{pmatrix}$ where $x \\in \\mathbb{R}$.\n(a) Show that $(M, +)$ is not a group. [1 mark]\n(b) Show that $M$ forms an abelian group under matrix multiplication. (You may assume that matrix multiplication is associative). [5 marks]\n(iii) The set $S = \\{a, b, c, d\\}$ forms a group under each of two operations $\\#$ and $*$, as shown in the following group tables.\n$\\#$ | a | b | c | d\na | a | b | c | d\nb | b | c | d | a\nc | c | d | a | b\nd | d | a | b | c\n\n$*$ | a | b | c | d\na | b |  |  | a\nb |  | d |  | b\nc |  |  |  | c\nd | a | b |  | d\n(a) Copy and complete the second table. [4 marks]\n(b) Solve the following equations for $x$.\n(i) $(b \\# x) * c = d$.\n(ii) $(a * (x \\# b)) * c = b$. [5 marks]\n(iv) Let $\\max(|x|, |y|)$ be equal to the largest of $|x|$ and $|y|$. Define the relation $R$ on the $xy$ plane by\n$(a, b) R (p, q) \\Leftrightarrow \\max(|a|, |b|) = \\max(|p|, |q|)$.\n(a) Show that the relation $R$ is an equivalence relation. [6 marks]\n(b) (i) Find the equivalence classes.\n(ii) Hence describe the equivalence classes. [5 marks]"
+  },
+  {
+   "id": "math-2005-N-P2-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 30]\n(i) Using Euclid’s algorithm, show that 64 and 33 are relatively prime. [3 marks]\n(ii) Explain why Z is not well-ordered. [2 marks]\n(iii) Consider the following graph.\n(a) Show that this graph has\n(i) an Eulerian circuit;\n(ii) a Hamiltonian cycle. [3 marks]\n(b) The edge joining V2 and V6 is removed. Does the graph still have\nan Eulerian circuit and a Hamiltonian cycle? Give reasons for\nyour answers. [3 marks]\n(c) Replace the edge joining V2 and V6 , and remove the edge joining V1\nand V2 .\n(i) Find an Eulerian trail.\n(ii) Find a Hamiltonian path. [4 marks]\n(iv) The Fibonacci sequence is defined by the recurrence relation\nu = u + u 2, for n ≥2 and u = u =. 1\nn n − 1 n − 0 1\n(a) Write out the first eight terms of the sequence. [1 mark]\n(b) Solve the recurrence relation to obtain the formula\nn + 1 n + 1\n1 1 + 5 1 − 5\n= − , for n ≥0 . [8 marks] un\n5 2 2\n(c) (i) Hence show that un is also equal to the closest integer to\nn + 1\n1 1 + 5\n.\n2 5\n(ii) Given that un=102 334155, find the value of n. [6 marks]",
+   "ms_text": "8. (i) gcd(64, 33) = gcd(33, 64 mod33) (M1)\n= gcd(33, 31)\n= gcd(31, 33 mod31) (M1)\n= gcd(31, 2)\n= gcd(2, 31mod2)\n= gcd(2,1)\n= 1 (A1)\nhence 64 and 33 are relatively prime. (AG)\n[3 marks]\n(ii) � is not well ordered because it contains subsets (e.g. � itself) which do not\nhave a smallest element. (A2)\n[2 marks]\n(iii)\n(a) (i) EITHER\nEvery vertex has even degree ⇒ Eulerian circuit exists. (A1)\nOR\nCircuit containing all edges is\nV1, V2, V3, V4, V2, V6, V5, V4, V6, V1. (A1)\n(ii) A cycle containing all vertices is\nV1, V2, V3, V4, V5, V6, V1. (A2)\n[3 marks]\n(b) Removing edge V2 V6\nThere is no Eulerian circuit since V2 and V6 are now odd degree. (M1)(A1)\nThere is a Hamiltonian cycle still, same as above. (A1)\n[3 marks]\n(c) If we now replace edge V2 V6 and remove V1 V2\n(i) an Eulerian trail\nV2, V3, V4, V2, V6, V5, V4, V6, V1 (A2)\n(ii) a Hamiltonian path\nV2, V3, V4, V5, V6, V1 (A2)\nNote: Other solutions are possible.\n[4 marks]\n(iv) (a) u = u + u for n ≥ 2, u = u = 1\nn n − 1 n − 2 0 1\n⇒ 1, 1, 2, 3, 5, 8, 13, 21, … (A1)\n[1 mark]\n2 (b) r −−= r 1 0 is the characteristic equation. (A1)\n1 ± 1 + 4\n⇒ = r\n2\n+ − 1 5 1 5\n⇒ r = and r = (A1)(A1)\n1 2\n2 2\nn n ⇒ u = Ar () + Br () (M1)\nn 1 2\nNow n = 0 ⇒ u = 1 ⇒ 1 = A + B (1)\n0\nand n = 1 ⇒ u = 1 ⇒ 1 = Ar + Br (2) (A1)\n1 1 2\nSolving simultaneously for A and B\n=− from (1) B 1 A\nSubsititute in (2) ⇒= 1 Ar + (1 − Ar ) ⇒ 1 = Ar ( − r ) + r\n1 2 1 2 2\n⎛ 1 − 5 ⎞ ⎛ 1 + 5 ⎞\n1 −⎜ ⎟ ⎜ ⎟\n− 2 2 1 r ⎝ ⎠ ⎝ ⎠\nA = 2 = = (A1)\nr − r 5 5\n1 2\n⎛ 1 + 5 ⎞ ⎛ 1 + 5 ⎞ ⎛ −+ 1 5 ⎞\n⎜ ⎟ 5 − ⎜ ⎟ ⎜ ⎟\n2 2 2 ⎝ ⎠ ⎝ ⎠ ⎝ ⎠\nB =− 1 = = (A1)\n5 5 5\nn n\n⎛ + ⎞⎛ + ⎞ ⎛ −+ ⎞⎛ − ⎞ 1 1 5 1 5 1 1 5 1 5\nu = + (A1)\nn ⎜ ⎜ ⎟⎜ ⎟⎜ ⎟ ⎟ ⎜ ⎜ ⎟⎜ ⎟⎜ ⎟ ⎟\n2 2 2 2 5 ⎝ ⎠⎝ ⎠ 5 ⎝ ⎠⎝ ⎠\n⎡ n + 1 n + 1 ⎤ ⎛\n+ ⎞ ⎛ − ⎞ 1 1 5 1 5\n= ⎢ − ⎥ (AG) ⎜\n⎜ ⎟ ⎟ ⎜ ⎜ ⎟ ⎟ 2 2\n5 ⎢ ⎝ ⎠ ⎝ ⎠ ⎥\n⎣ ⎦\n[8 marks]\n−+ 1 5\n(c) (i) Since < 0.62 (A1)\n2\n+ n 1\n1 −+ 1 5\n< 0.5for n ≥ 0 (A1)\n5 2\n⇒the terms are getting smaller and smaller as n increases. (A1)\nn+ 1\n1 ⎛ 1 + 5 ⎞\n⇒ u is given by the closest integer to ⎜ ⎟ (AG) (N0)\nn ⎜ ⎟\n2 5 ⎝ ⎠\n(ii) u= 102 334155\nn\nn+ 1\n1 ⎛ 1 + 5 ⎞\n⇒ 102 334155 = ⎜ ⎟\n⎜ ⎟\n5 2 ⎝ ⎠\n⎛ + ⎞ 1 5\n⇒ ( n + 1)log = log ⎡ ( 102 334155 )( 5 ) ⎤ (M1)(A1) ⎜ ⎟\n⎜ 2 ⎟ ⎣ ⎦\n⎝ ⎠\n⇒ n += 1 40\n⇒ n = 39 (So 102 334155 is the 40th term of this sequence) (A1)\n[6 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.10",
+    "6.7",
+    "6.1",
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete Mathematics",
+   "text_clean": "8. [Maximum mark: 30]\n(i) Using Euclid's algorithm, show that 64 and 33 are relatively prime. [3 marks]\n(ii) Explain why $\\mathbb{Z}$ is not well-ordered. [2 marks]\n(iii) Consider the following graph.\n[Diagram: graph with vertices V1–V6; edges V1V2, V2V3, V1V6, V3V4, V2V6, V2V4, V5V6, V5V4, V6V4]\n(a) Show that this graph has\n(i) an Eulerian circuit;\n(ii) a Hamiltonian cycle. [3 marks]\n(b) The edge joining $V_2$ and $V_6$ is removed. Does the graph still have an Eulerian circuit and a Hamiltonian cycle? Give reasons for your answers. [3 marks]\n(c) Replace the edge joining $V_2$ and $V_6$, and remove the edge joining $V_1$ and $V_2$.\n(i) Find an Eulerian trail.\n(ii) Find a Hamiltonian path. [4 marks]\n(iv) The Fibonacci sequence is defined by the recurrence relation $u_n = u_{n-1} + u_{n-2}$, for $n \\ge 2$ and $u_0 = u_1 = 1$.\n(a) Write out the first eight terms of the sequence. [1 mark]\n(b) Solve the recurrence relation to obtain the formula $u_n = \\frac{1}{\\sqrt{5}}\\left(\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n+1} - \\left(\\frac{1-\\sqrt{5}}{2}\\right)^{n+1}\\right)$, for $n \\ge 0$. [8 marks]\n(c) (i) Hence show that $u_n$ is also equal to the closest integer to $\\frac{1}{\\sqrt{5}}\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n+1}$.\n(ii) Given that $u_n = 102\\,334\\,155$, find the value of $n$. [6 marks]"
+  },
+  {
+   "id": "math-2005-N-P2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 30]\n(i) (a) State the mean value theorem and illustrate it with the aid of a sketch. [2 marks]\n(b) Use the mean value theorem to prove that if f ′ () x = 0 for all x in a closed\ninterval then f is constant on that interval. [2 marks]\n5 (ii) (a) Find 2x 3 d x . [1 mark]\n∫\n0\n5 (b) Use Simpson’s Rule with four sub-intervals to approximate 2x 3 d x . [4 marks]\n∫\n0\n(c) What is the error in this approximation? [1 mark]\n(d) How many sub-intervals are necessary for the error to be less than\n0.0001? [5 marks]\n∞ 1\nn − 1 (iii) (a) (i) Prove that the alternating series given by\n∑ ( − 1 )\n( 2 n − 1 )! n = 1\nconverges.\n(ii) Approximate the series by finding the 4th partial sum. Give your\nanswer to six decimal places.\n(iii) What is the upper bound for the error in this approximation? [7 marks]\n(b) (i) Find the first four non-zero terms of the Maclaurin series for sin x.\n(ii) Deduce the nth term of this series.\n(iii) Use the ratio test to show that the series is convergent for all values\nof x.\n(iv) Use your series for sin x to find the first four non-zero terms of the\nMaclaurin series for cos x . [8 marks]",
+   "ms_text": "9. (i) (a) If a function f is continuous on a closed interval [,] ab and is\ndifferentiable on the open interval ],[ ab then there exists a number c in\n],[ ab such that\nfb () − fa ()\n′ ′ f () c = OR fb () − fa () = f ()( cb − a ) (A1)\nb − a\nThis can be illustrated with the following sketch.\n(A1)\n[2 marks]\n(b) If f ′ () x = 0 ⇒ f () p − fq () = 0 for all values of p and q in interval [a, b] (M1)\n⇒ f () p = fq () (A1)\nand f is constant on the interval (AG)\n[2 marks]\n2\n⎡ 6 ⎤ 2 3 x\n(ii) (a) 3 x 5 d x ∫ =⎢ ⎥\n0 ⎣ 6 ⎦\n0\n= 32 (A1)\n[1 mark]\n2 h 5\n≈ [ + + + + ] (b) ∫ 03 x d x y 4 y 2 y 4 y y (M1)\n0 1 2 3 4\n3\n2 − 0 1\nwhere h = =\n4 2\nUsing the following table of x, y values\nx y\n0 0\n0.5 0.09375\n1 3\n1.5 22.78125\n2 96 (A1)(A1)\nNote: Award (A1) for x-values, (A1) for y-values.\n2 1 5\n∫ 3 x d x ≈ [ 0 + 4(0.09375) + 2(3) + 4(22.78125) + 96 ]\n0 6\n= 32.25 (accept 32.3) (A1)\n[4 marks]\n(c) Error = 0.25 (A1)\n[1 mark]\n4 ( b − ah )\n(d) Error ≤ f (4) () c\n180\nNow fx () = 3 x 5\n′ 4 f () x = 15 x\n3 f ′′ () x = 60 x\n′′′ = 2 f () x 180 x\n4 () f x = 360 x (A1)\n(4) So over [0, 2] max f () x= 720 (A1)\n4\n2 ⎛ 2 ⎞\n⇒ ⎜ ⎟ (720) < 0.0001 (M1)\n180n ⎝ ⎠\n16\n⇒ < 1.2510 × − 5\n4 n\n⇒ n 4 > 1280 000\n⇒ n > 33.6 (M1)\n⇒error < 0.0001\n34 intervals needed (A1)\n[5 marks]\n1\n(iii) (a) (i) ∑ (1) − n − 1\n− (2 n 1)!\n1\nlim a = lim = 0 (A1)\nn n →∞\n(2 n − 1)! n →∞\n1\nNow is decreasing as n increases\n(2 n − 1)!\n⇒ a > a+ for n ≥ 1 (A1)\nn n 1\nSo by alternating series test (M1)\n− 1 ∑ (1) − n 1 is convergent. (accept ratio test) (AG)\n− (2 n 1)!\n1 1 1\n(ii) S=− 1 + − (M1)\n4\n3! 5! 7!\n1 1 1\n=− + − 1 (A1)\n6 120 5040\n= 0.841468 (6 d.p.)\n(iii) Error in nth partial sum is less than na+\n1\n⇒ S Error < a\n4 5\n1\n⇒ Error < (M1)\n9!\n⇒ Error < 0.00000276 (A1)\n[7 marks]\n(b) (i) fx () = sin x f (0) = 0\nf ′ () x = cos x f ′ (0) = 1\n′′ = − ′′ = f () x sin x f (0) 0\n′′′ ′′′ f () x = − cos x f (0) = − 1\n(4) (4) f () x = sin x f (0) = 0\n(5) = (5) = f () x cos x f (0) 1\n(6) (6) f () x = − sin x f (0) = 0\n(7) = − (7) = − f () x cos xf (0) 1\n3 5 7 x x x\n⇒ sin x = x − + − + ... (M1)(A1)\n3! 5! 7!\n2 n − 1 x\n(ii) n term given by th (1) − n − 1 (A1)(A1)\n− (2 n 1)!\n− x 2 n 1\n1 Note: Award (A1) for (1)n− − , (A1) for .\n(2 n − 1)!\n2 n + 1 a ⎛ x ⎞ ⎛ (2 n − 1)! ⎞\nn + 1 = (iii) lim lim\n⎜ ⎟⎜ ⎟ 2 n − 1\nn →∞ a n →∞ ⎝ (2 n + 1)! ⎠ ⎝ x ⎠\nn\nx 2\n=\nlim (2 n →∞\nn + 1)2 n\n= 0 (M1)(A1)\nseries converges for all x. (AG)\nd(sin) x\n(iv) Now cos x =\nd x\n⎛ 3 5 7 ⎞ x x x\nd x − + − + ... ⎜ ⎟\n⎝ 3! 5! 7! ⎠\n=\nd x\n2 4 6 x x x\n=− 1 + − + ... (M1)(A1)\n2! 4! 6!\n[8 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.19",
+    "5.L1",
+    "5.L4",
+    "5.L2",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Analysis and Approximation",
+   "text_clean": "9. [Maximum mark: 30]\n(i) (a) State the mean value theorem and illustrate it with the aid of a sketch. [2 marks]\n(b) Use the mean value theorem to prove that if $f'(x) = 0$ for all $x$ in a closed interval then $f$ is constant on that interval. [2 marks]\n(ii) (a) Find $\\int_0^2 3x^5\\,dx$. [1 mark]\n(b) Use Simpson's Rule with four sub-intervals to approximate $\\int_0^2 3x^5\\,dx$. [4 marks]\n(c) What is the error in this approximation? [1 mark]\n(d) How many sub-intervals are necessary for the error to be less than 0.0001? [5 marks]\n(iii) (a) (i) Prove that the alternating series given by $\\sum_{n=1}^{\\infty} (-1)^{n-1}\\frac{1}{(2n-1)!}$ converges.\n(ii) Approximate the series by finding the 4th partial sum. Give your answer to six decimal places.\n(iii) What is the upper bound for the error in this approximation? [7 marks]\n(b) (i) Find the first four non-zero terms of the Maclaurin series for $\\sin x$.\n(ii) Deduce the $n$th term of this series.\n(iii) Use the ratio test to show that the series is convergent for all values of $x$.\n(iv) Use your series for $\\sin x$ to find the first four non-zero terms of the Maclaurin series for $\\cos x$. [8 marks]"
+  },
+  {
+   "id": "math-2005-N-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 30]\n(i) Consider the triangle ABC, where C is a right angle. Let D be the point on [AB]\nsuch that (CD) is perpendicular to (AB).\n(a) Show that triangle ADC is similar to triangle CDB. [2 marks]\nHence show that CD= AD 2 × BD [2 marks] (b) .\n(ii) If S is the midpoint of the base [QR] of a triangle PQR, prove Apollonius’\ntheorem\n2 2 2 2 PQ + PR = 2( PS + QS ). [8 marks]\n1 3 =1\n2 , (iii) (a) In the xy plane a particle moves such that x = t − 6 t and y t\n2 2\nwhere t is time in seconds. Sketch the path of the particle over the interval\n0 ≤ t ≤ 4 . Indicate clearly on the sketch the direction of motion of\nthe particle. [5 marks]\n(b) Show that the equation of the tangent to the curve at t = t 1 can be expressed\n2 4 2 in the form − 4 t x + 6 yt ( − 4 ) = t + 12 t . [7 marks]\n1 1 1 1\n(iv) The harmonic mean of p and q is given by 2pq\n.\np + q\nLet the points C and D divide the line [AB] such that AC , as shown in\nCB=AD\nBD\nthe diagram below.\nShow that AB is the harmonic mean of AC and AD. [6 marks]",
+   "ms_text": "10. (i) (a)\nˆ � ˆ ˆ � ˆ ˆ � ˆ ˆ � ˆ CAD = 90 − ABC , BCD = 90 − ABC , or ACD = 90 − CAB , DBC = 90 − CAB\nˆ ˆ ˆ ˆ ˆ ˆ CAD = BCD or ACD = DBC or ADC = BDC ( = 90 �)\nSince two angles in ∆ ACD are equal to two angles in ∆ CDB (A1)(A1)\nNote: Award (A1) for noting one correct pair of equal angles and (A1) for a\nsecond pair and the statement.\n⇒∆ ADC is similar to ∆ BCD (AG)\n[2 marks]\n(b) Corresponding sides of ∆s are in equal proportion (M1)\nCD AD\n⇒ = (A1)\nBD CD\n2 ⇒ CD = ADBD × (AG)\n[2 marks]\n(ii)\nLet PSR ˆ = θ ⇒ PSQ ˆ = 180 � − θ (A1)\n2 2 2 SR + PS − PR\nUsing ∆ PRS we obtain cos θ = (M1)(A1)\n× × 2SR PS\n2 2 2 QS + PS − PQ\n� Using ∆ PQS we obtain cos(180 − θ ) = (A1)\n2QSPS × ×\n� Now cos(180 − θ ) = − cos θ (A1)\nQS 2 + PS 2 − PQ 2 SR 2 + PS 2 − PR 2\n− = (M1)\n2QSPS × × 2QSPS × ×\nQS 2 + SR 2 + 2PS 2 = PR 2 + PQ 2 (A1)\nSince SR = QS (A1)\nPQ 2 + PR 2 = 2(PS 2 + QS) 2 (AG)\n[8 marks]\n1 3\n(iii) (a) x = t − 6 t\n2\n1 2\ny = t\n2\nt x y\n1 −5.5 0.5\n2 −8 2\n3 −4.5 4.5\n4 8 8 (A1)(A1)\nNote: Award (A1) for x values, (A1) for y values.\n(A1)(A2)\nNote: Award (A2) for sketch, (A1) for direction of motion.\n[5 marks]\nd y d y d t\n= × (b) (M1)\nd x d t d x\nd y\nt d t\n= = (A1)(A1)\nd x 3 2\nt − 6\nd t 2\nt 1 1\n= = 1 = 3 − = 2 at t t m , x t 6and t y t\n1 3 1 1 1\n2 2 2 t − 6\n1\n2\nHence the equation of the tangent is given by\n1 t ⎛ ⎛ 1 ⎞ ⎞ 2\n1 3 y − t =\n⎜ x − ⎜ t − 6 t ⎟ ⎟ (M1)(A1) 1 1 1\n2 3 2 ⎝ ⎝ 2 ⎠ ⎠\nt − 6\n1\n2\n⎛ 1 ⎞⎛ 3 ⎞ ⎛ 1 ⎞ 2 2 3\n⎜ y − t ⎟⎜ t − 6 ⎟ = t ⎜ x − t + 6 t ⎟ 1 1 1 1 1\n⎝ 2 ⎠⎝ 2 ⎠ ⎝ 2 ⎠\n3 3 1 2\n− − 4 + 2 = − 4 + 2 yt 6 y t 3 t t x t 6 t (A1)\n1 1 1 1 1 1\n2 4 2\n3 1 2 4 2\nyt − t x − 6 y = t + 3 t\n1 1 1 1\n2 4\n2 − − = 4 + 2 6 yt 4 t x 24 y t 12 t (A1)\n1 1 1 1\n2 4 2 − 4 t x + 6( yt − 4) = t + 12 t (AG)\n1 1 1 1\n[7 marks]\nAD The points A, B, C and D are such that AC\n(iv) =\nCB BD\nA C B D\nLet AB = b , AC = c , AD = d\nc d\n= (M1)(A1)\nb − c d − b\ncd − bc = bd − cd (A1)\n= + 2cd bd bc (A1)\n2 cd = bc ( + d ) (A1)\n2cd\nb = (A1)\nc + d\nHence AB is the harmonic mean of AC and AD. (AG)\n[6 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "8",
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "8.1",
+    "5.L8",
+    "5.4",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Euclidean Geometry and Conic Sections",
+   "text_clean": "10. [Maximum mark: 30]\n(i) Consider the triangle ABC, where C is a right angle. Let D be the point on [AB] such that (CD) is perpendicular to (AB).\n(a) Show that triangle ADC is similar to triangle CDB. [2 marks]\n(b) Hence show that $CD^2 = AD \\times BD$. [2 marks]\n(ii) If S is the midpoint of the base [QR] of a triangle PQR, prove Apollonius' theorem $PQ^2 + PR^2 = 2(PS^2 + QS^2)$. [8 marks]\n(iii) (a) In the $xy$ plane a particle moves such that $x = \\frac{1}{2}t^3 - 6t$ and $y = \\frac{1}{2}t^2$, where $t$ is time in seconds. Sketch the path of the particle over the interval $0 \\le t \\le 4$. Indicate clearly on the sketch the direction of motion of the particle. [5 marks]\n(b) Show that the equation of the tangent to the curve at $t = t_1$ can be expressed in the form $-4t_1 x + 6y(t_1^2 - 4) = t_1^4 + 12t_1^2$. [7 marks]\n(iv) The harmonic mean of $p$ and $q$ is given by $\\frac{2pq}{p+q}$.\nLet the points C and D divide the line [AB] such that $\\frac{AC}{CB} = \\frac{AD}{BD}$, as shown in the diagram below.\n[Diagram: line segment with points A, C, B, D in that order; D lies beyond B]\nShow that AB is the harmonic mean of AC and AD. [6 marks]",
+   "review_note": "(iii) parametric curve sketch/tangent: tagged 8.3 (coordinate geometry/loci) + 5.4/5.6; no parametric-curve subtopic in taxonomy. | audit: no circle/locus (drop 8.3); (ii) Apollonius by cosine rule (3.2); (iii) parametric path + tangent -> new 5.L8"
+  }
+ ],
+ "status": "done"
+}

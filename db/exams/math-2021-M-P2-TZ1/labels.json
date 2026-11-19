@@ -1,0 +1,155 @@
+{
+ "exam_id": "math-2021-M-P2-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.4"
+   ],
+   "text_clean": "1. [Maximum mark: 7]\nThe following table shows the data collected from an experiment.\n$x$: 3.3, 6.9, 11.9, 13.4, 17.8, 19.6, 21.8, 25.3\n$y$: 6.3, 8.1, 8.4, 11.6, 10.3, 12.9, 13.1, 17.3\nThe data is also represented on the following scatter diagram.\n[Diagram: scatter diagram of the eight data points on a grid, x from 0 to 30, y from 0 to 25]\nThe relationship between $x$ and $y$ can be modelled by the regression line of $y$ on $x$ with equation $y = ax + b$, where $a, b \\in \\mathbb{R}$.\n(a) Write down the value of $a$ and the value of $b$. [2]\n(b) Use this model to predict the value of $y$ when $x = 18$. [2]\n(c) Write down the value of $\\bar{x}$ and the value of $\\bar{y}$. [1]\n(d) Draw the line of best fit on the scatter diagram. [2]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.11",
+    "4.5"
+   ],
+   "text_clean": "2. [Maximum mark: 6]\nA company produces bags of sugar whose masses, in grams, can be modelled by a normal distribution with mean $1000$ and standard deviation $3.5$. A bag of sugar is rejected for sale if its mass is less than $995$ grams.\n(a) Find the probability that a bag selected at random is rejected. [2]\n(b) Estimate the number of bags which will be rejected from a random sample of $100$ bags. [1]\n(c) Given that a bag is not rejected, find the probability that it has a mass greater than $1005$ grams. [3]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.7"
+   ],
+   "text_clean": "3. [Maximum mark: 5]\nA Ferris wheel with diameter $110$ metres rotates at a constant speed. The lowest point on the wheel is $10$ metres above the ground, as shown on the following diagram. P is a point on the wheel. The wheel starts moving with P at the lowest point and completes one revolution in $20$ minutes.\n[Diagram (not to scale): Ferris wheel of diameter 110 m on supports, lowest point 10 m above the ground, point P on the rim, arrow showing direction of rotation]\nThe height, $h$ metres, of P above the ground after $t$ minutes is given by $h(t) = a\\cos(bt) + c$, where $a, b, c \\in \\mathbb{R}$.\nFind the values of $a$, $b$ and $c$.",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.11"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\nA particle moves in a straight line. The velocity, $v\\ \\mathrm{m\\,s^{-1}}$, of the particle at time $t$ seconds is given by $v(t) = t\\sin t - 3$, for $0 \\le t \\le 10$.\nThe following diagram shows the graph of $v$.\n[Graph: v against t for 0 ≤ t ≤ 10; starts at v = −3, local max near t = 2 (v ≈ −1), min near t = 5 (v ≈ −8), crosses zero near t = 6.7, max near t = 8 (v ≈ 5), crosses zero near t = 9.1 and falls steeply]\n(a) Find the smallest value of $t$ for which the particle is at rest. [2]\n(b) Find the total distance travelled by the particle. [2]\n(c) Find the acceleration of the particle when $t = 7$. [2]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "text_clean": "5. [Maximum mark: 5]\nConsider the expansion of $(3 + x^2)^{n+1}$, where $n \\in \\mathbb{Z}^+$.\nGiven that the coefficient of $x^4$ is $20\\,412$, find the value of $n$.",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.17",
+    "3.18",
+    "1.16"
+   ],
+   "text_clean": "6. [Maximum mark: 5]\nConsider the planes $\\Pi_1$ and $\\Pi_2$ with the following equations.\n$\\Pi_1: 3x + 2y + z = 6$\n$\\Pi_2: x - 2y + z = 4$\n(a) Find a Cartesian equation of the plane $\\Pi_3$ which is perpendicular to $\\Pi_1$ and $\\Pi_2$ and passes through the origin $(0, 0, 0)$. [3]\n(b) Find the coordinates of the point where $\\Pi_1$, $\\Pi_2$ and $\\Pi_3$ intersect. [2]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "5",
+    "4"
+   ],
+   "subtopics": [
+    "5.16",
+    "4.14",
+    "5.11"
+   ],
+   "text_clean": "7. [Maximum mark: 7]\nA continuous random variable $X$ has the probability density function $f$ given by\n$f(x) = \\begin{cases} \\dfrac{x}{\\sqrt{(x^2+k)^3}} & 0 \\le x \\le 4 \\\\ 0 & \\text{otherwise} \\end{cases}$\nwhere $k \\in \\mathbb{R}^+$.\n(a) Show that $\\sqrt{16+k} - \\sqrt{k} = \\sqrt{k}\\sqrt{16+k}$. [5]\n(b) Find the value of $k$. [2]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13"
+   ],
+   "text_clean": "8. [Maximum mark: 7]\nConsider the complex numbers $z = 2\\left(\\cos\\frac{\\pi}{5} + \\mathrm{i}\\sin\\frac{\\pi}{5}\\right)$ and $w = 8\\left(\\cos\\frac{2k\\pi}{5} - \\mathrm{i}\\sin\\frac{2k\\pi}{5}\\right)$, where $k \\in \\mathbb{Z}^+$.\n(a) Find the modulus of $zw$. [1]\n(b) Find the argument of $zw$ in terms of $k$. [2]\nSuppose that $zw \\in \\mathbb{Z}$.\n(c) (i) Find the minimum value of $k$.\n(ii) For the value of $k$ found in part (i), find the value of $zw$. [4]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.15",
+    "3.9"
+   ],
+   "text_clean": "9. [Maximum mark: 7]\nTwo boats A and B travel due north.\nInitially, boat B is positioned $50$ metres due east of boat A.\nThe distances travelled by boat A and boat B, after $t$ seconds, are $x$ metres and $y$ metres respectively. The angle $\\theta$ is the radian measure of the bearing of boat B from boat A.\nThis information is shown on the following diagram.\n[Diagram (not to scale): boats A and B start 50 m apart on an east-west line and travel north x m and y m; θ is the angle at boat A between north and the line AB]\n(a) Show that $y = x + 50\\cot\\theta$. [1]\nAt time $T$, the following conditions are true.\nBoat B has travelled $10$ metres further than boat A.\nBoat B is travelling at double the speed of boat A.\nThe rate of change of the angle $\\theta$ is $-0.1$ radians per second.\n(b) Find the speed of boat A at time $T$. [6]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.4",
+    "5.6",
+    "2.4",
+    "2.5"
+   ],
+   "text_clean": "10. [Maximum mark: 15]\nConsider the function $f$ defined by $f(x) = 90\\mathrm{e}^{-0.5x}$ for $x \\in \\mathbb{R}^+$.\nThe graph of $f$ and the line $y = x$ intersect at point P.\n(a) Find the $x$-coordinate of P. [2]\nThe line $L$ has a gradient of $-1$ and is a tangent to the graph of $f$ at the point Q.\n(b) Find the exact coordinates of Q. [4]\n(c) Show that the equation of $L$ is $y = -x + 2\\ln 45 + 2$. [2]\nThe shaded region $A$ is enclosed by the graph of $f$ and the lines $y = x$ and $L$.\n[Diagram: graph of f, the line y = x meeting f at P, and line L tangent to f at Q; shaded region A bounded by f, y = x and L]\n(d) (i) Find the $x$-coordinate of the point where $L$ intersects the line $y = x$.\n(ii) Hence, find the area of $A$. [5]\nThe line $L$ is tangent to the graphs of both $f$ and the inverse function $f^{-1}$.\n[Diagram: graphs of f and f^{-1} with line L tangent to both; shaded region enclosed by f, f^{-1} and L]\n(e) Find the shaded area enclosed by the graphs of $f$ and $f^{-1}$ and the line $L$. [2]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.15",
+    "2.3",
+    "5.6",
+    "5.7",
+    "5.8"
+   ],
+   "text_clean": "11. [Maximum mark: 20]\nThe function $f$ is defined by $f(x) = \\dfrac{3x+2}{4x^2-1}$, for $x \\in \\mathbb{R}$, $x \\ne p$, $x \\ne q$.\n(a) Find the value of $p$ and the value of $q$. [2]\n(b) Find an expression for $f'(x)$. [3]\nThe graph of $y = f(x)$ has exactly one point of inflexion.\n(c) Find the $x$-coordinate of the point of inflexion. [2]\n(d) Sketch the graph of $y = f(x)$ for $-3 \\le x \\le 3$, showing the values of any axes intercepts, the coordinates of any local maxima and local minima, and giving the equations of any asymptotes. [5]\nThe function $g$ is defined by $g(x) = \\dfrac{4x^2-1}{3x+2}$, for $x \\in \\mathbb{R}$, $x \\ne -\\frac{2}{3}$.\n(e) Find the equations of all the asymptotes on the graph of $y = g(x)$. [4]\n(f) By considering the graph of $y = g(x) - f(x)$, or otherwise, solve $f(x) < g(x)$ for $x \\in \\mathbb{R}$. [4]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "5",
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15",
+    "1.11",
+    "5.8",
+    "2.10"
+   ],
+   "text_clean": "12. [Maximum mark: 20]\nThe function $f$ has a derivative given by $f'(x) = \\dfrac{1}{x(k-x)}$, $x \\in \\mathbb{R}$, $x \\ne 0$, $x \\ne k$ where $k$ is a positive constant.\n(a) The expression for $f'(x)$ can be written in the form $\\dfrac{a}{x} + \\dfrac{b}{k-x}$, where $a, b \\in \\mathbb{R}$. Find $a$ and $b$ in terms of $k$. [3]\n(b) Hence, find an expression for $f(x)$. [3]\nConsider $P$, the population of a colony of ants, which has an initial value of $1200$.\nThe rate of change of the population can be modelled by the differential equation $\\dfrac{\\mathrm{d}P}{\\mathrm{d}t} = \\dfrac{P(k-P)}{5k}$, where $t$ is the time measured in days, $t \\ge 0$, and $k$ is the upper bound for the population.\n(c) By solving the differential equation, show that $P = \\dfrac{1200k}{(k-1200)\\mathrm{e}^{-\\frac{t}{5}} + 1200}$. [8]\nAt $t = 10$ the population of the colony has doubled in size from its initial value.\n(d) Find the value of $k$, giving your answer correct to four significant figures. [3]\n(e) Find the value of $t$ when the rate of change of the population is at its maximum. [3]",
+   "answer_status": "ok"
+  }
+ }
+}

@@ -1,0 +1,171 @@
+{
+ "exam_id": "math-2010-M-P2-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.7",
+    "2.11"
+   ],
+   "text_clean": "1. [Maximum mark: 4]\nThe graph below shows $y = a\\cos(bx) + c$.\n[Graph: cosine curve on grid, x from -2 to 6, y from -4 to 4; maxima at y = 5 at x = 0, 3, 6; minima at y = -1]\nFind the value of $a$, the value of $b$ and the value of $c$.",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.16",
+    "1.L1"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nThe system of equations\n$2x - y + 3z = 2$\n$3x + y + 2z = -2$\n$-x + 2y + az = b$\nis known to have more than one solution. Find the value of $a$ and the value of $b$.",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.1"
+   ],
+   "text_clean": "3. [Maximum mark: 6]\nIn the right circular cone below, O is the centre of the base which has radius 6 cm. The points B and C are on the circumference of the base of the cone. The height AO of the cone is 8 cm and the angle $\\hat{BOC}$ is $60^\\circ$.\n[Diagram: right circular cone with apex A above base centre O; B and C on base circumference; diagram not to scale]\nCalculate the size of the angle $\\hat{BAC}$.",
+   "answer_status": "ok",
+   "note": "ms crop fixed via overrides (Q4's first line had leaked into Q3 ms)"
+  },
+  "4": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13"
+   ],
+   "text_clean": "4. [Maximum mark: 7]\n(a) Solve the equation $z^3 = -2 + 2\\mathrm{i}$, giving your answers in modulus-argument form. [6 marks]\n(b) Hence show that one of the solutions is $1 + \\mathrm{i}$ when written in Cartesian form. [1 mark]",
+   "answer_status": "ok",
+   "note": "ms crop fixed via overrides (first line was cut)"
+  },
+  "5": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "text_clean": "5. [Maximum mark: 6]\nLet $\\boldsymbol{A}$, $\\boldsymbol{B}$ and $\\boldsymbol{C}$ be non-singular $2\\times2$ matrices, $\\boldsymbol{I}$ the $2\\times2$ identity matrix and $k$ a scalar. The following statements are incorrect. For each statement, write down the correct version of the right hand side.\n(a) $(\\boldsymbol{A}+\\boldsymbol{B})^2 = \\boldsymbol{A}^2 + 2\\boldsymbol{AB} + \\boldsymbol{B}^2$ [2 marks]\n(b) $(\\boldsymbol{A}-k\\boldsymbol{I})^3 = \\boldsymbol{A}^3 - 3k\\boldsymbol{A}^2 + 3k^2\\boldsymbol{A} - k^3$ [2 marks]\n(c) $\\boldsymbol{CA} = \\boldsymbol{B} \\Rightarrow \\boldsymbol{C} = \\frac{\\boldsymbol{B}}{\\boldsymbol{A}}$ [2 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "text_clean": "6. [Maximum mark: 5]\nFind the sum of all three-digit natural numbers that are not exactly divisible by 3.",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "text_clean": "7. [Maximum mark: 7]\nThree Mathematics books, five English books, four Science books and a dictionary are to be placed on a student's shelf so that the books of each subject remain together.\n(a) In how many different ways can the books be arranged? [4 marks]\n(b) In how many of these will the dictionary be next to the Mathematics books? [3 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9",
+    "4.3"
+   ],
+   "text_clean": "8. [Maximum mark: 6]\nIn a factory producing glasses, the weights of glasses are known to have a mean of 160 grams. It is also known that the interquartile range of the weights of glasses is 28 grams. Assuming the weights of glasses to be normally distributed, find the standard deviation of the weights of glasses.",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.15",
+    "2.2"
+   ],
+   "text_clean": "9. [Maximum mark: 6]\nLet $f(x) = \\frac{4 - x^2}{4 - \\sqrt{x}}$.\n(a) State the largest possible domain for $f$. [2 marks]\n(b) Solve the inequality $f(x) \\ge 1$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.6",
+    "5.11",
+    "2.16"
+   ],
+   "text_clean": "10. [Maximum mark: 8]\nThe diagram below shows the graphs of $y = \\left|\\frac{3}{2}x - 3\\right|$, $y = 3$ and a quadratic function, that all intersect in the same two points.\n[Diagram: V-shaped graph of the modulus function with vertex on the x-axis, horizontal line y = 3, and an upward parabola with minimum -3, all meeting at (0, 3) and a second point on y = 3; region between the V-graph and the parabola shaded]\nGiven that the minimum value of the quadratic function is $-3$, find an expression for the area of the shaded region in the form $\\int_0^t (ax^2 + bx + c)\\,\\mathrm{d}x$, where the constants $a$, $b$, $c$ and $t$ are to be determined. (Note: The integral does not need to be evaluated.)",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.17",
+    "3.18",
+    "3.16",
+    "3.1",
+    "3.13",
+    "3.2"
+   ],
+   "text_clean": "11. [Maximum mark: 20]\nA plane $\\pi$ has vector equation $\\boldsymbol{r} = (-2\\boldsymbol{i} + 3\\boldsymbol{j} - 2\\boldsymbol{k}) + \\lambda(2\\boldsymbol{i} + 3\\boldsymbol{j} + 2\\boldsymbol{k}) + \\mu(6\\boldsymbol{i} - 3\\boldsymbol{j} + 2\\boldsymbol{k})$.\n(a) Show that the Cartesian equation of the plane $\\pi$ is $3x + 2y - 6z = 12$. [6 marks]\n(b) The plane $\\pi$ meets the $x$, $y$ and $z$ axes at A, B and C respectively. Find the coordinates of A, B and C. [3 marks]\n(c) Find the volume of the pyramid OABC. [3 marks]\n(d) Find the angle between the plane $\\pi$ and the $x$-axis. [4 marks]\n(e) Hence, or otherwise, find the distance from the origin to the plane $\\pi$. [2 marks]\n(f) Using your answers from (c) and (e), find the area of the triangle ABC. [2 marks]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.8"
+   ],
+   "text_clean": "12. [Maximum mark: 15]\nCasualties arrive at an accident unit with a mean rate of one every 10 minutes. Assume that the number of arrivals can be modelled by a Poisson distribution.\n(a) Find the probability that there are no arrivals in a given half hour period. [3 marks]\n(b) A nurse works for a two hour period. Find the probability that there are fewer than ten casualties during this period. [3 marks]\n(c) Six nurses work consecutive two hour periods between 8am and 8pm. Find the probability that no more than three nurses have to attend to less than ten casualties during their working period. [4 marks]\n(d) Calculate the time interval during which there is a 95 % chance of there being at least two casualties. [5 marks]",
+   "answer_status": "ok"
+  },
+  "13": {
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.2",
+    "5.8",
+    "5.6",
+    "3.11"
+   ],
+   "text_clean": "13. [Maximum mark: 11]\nPoints A, B and C are on the circumference of a circle, centre O and radius $r$. A trapezium OABC is formed such that AB is parallel to OC, and the angle $\\hat{AOC}$ is $\\theta$, $\\frac{\\pi}{2} \\le \\theta < \\pi$.\n[Diagram: circle centre O with points A, B, C on the circumference; trapezium OABC with AB parallel to OC; OA = r, angle AOC = θ; diagram not to scale]\n(a) Show that angle $\\hat{BOC}$ is $\\pi - \\theta$. [3 marks]\n(b) Show that the area, $T$, of the trapezium can be expressed as $T = \\frac{1}{2}r^2\\sin\\theta - \\frac{1}{2}r^2\\sin 2\\theta$. [3 marks]\n(c) (i) Show that when the area is maximum, the value of $\\theta$ satisfies $\\cos\\theta = 2\\cos 2\\theta$.\n(ii) Hence determine the maximum area of the trapezium when $r = 1$. (Note: It is not required to prove that it is a maximum.) [5 marks]",
+   "answer_status": "ok"
+  },
+  "14": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.9",
+    "5.11",
+    "5.15"
+   ],
+   "text_clean": "14. [Maximum mark: 14]\nA body is moving through a liquid so that its acceleration can be expressed as $\\left(-\\frac{v^2}{200} - 32\\right)\\,\\mathrm{m\\,s^{-2}}$, where $v\\,\\mathrm{m\\,s^{-1}}$ is the velocity of the body at time $t$ seconds.\nThe initial velocity of the body was known to be $40\\,\\mathrm{m\\,s^{-1}}$.\n(a) Show that the time taken, $T$ seconds, for the body to slow to $V\\,\\mathrm{m\\,s^{-1}}$ is given by $T = 200\\int_V^{40} \\frac{1}{v^2 + 80^2}\\,\\mathrm{d}v$. [4 marks]\n(b) (i) Explain why acceleration can be expressed as $v\\frac{\\mathrm{d}v}{\\mathrm{d}s}$, where $s$ is displacement, in metres, of the body at time $t$ seconds.\n(ii) Hence find a similar integral to that shown in part (a) for the distance, $S$ metres, travelled as the body slows to $V\\,\\mathrm{m\\,s^{-1}}$. [7 marks]\n(c) Hence, using parts (a) and (b), find the distance travelled and the time taken until the body momentarily comes to rest. [3 marks]",
+   "answer_status": "ok"
+  }
+ }
+}

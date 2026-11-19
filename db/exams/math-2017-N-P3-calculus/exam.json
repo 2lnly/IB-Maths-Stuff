@@ -1,0 +1,130 @@
+{
+ "exam_id": "math-2017-N-P3-calculus",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2017,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Calculus",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2017 November Examination Session/Mathematics_paper_3_Calculus__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2017 November Examination Session/Mathematics_paper_3_Calculus__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8817-7208; code N17/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches paper total 50",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2017-N-P3-calculus-q1",
+   "num": "1",
+   "section": null,
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nThe function f is defined by\n2 − < x\n2 , x 1\n= fx ()\nax + b , x ≥ 1\nwhere a and b are real constants.\nGiven that both f and its derivative are continuous at x = 1 , find the value of a and the\nvalue of b .",
+   "ms_text": "( 2 ) 1. considering continuity lim x − 2 =− 1 (M1)\n− x → 1\na + b =− 1 (A1)\nconsidering differentiability 2x = a when x = 1 (M1)\n⇒ a = 2 A1\nb=− 3 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nThe function $f$ is defined by\n$f(x) = \\begin{cases} x^2 - 2, & x < 1 \\\\ ax + b, & x \\ge 1 \\end{cases}$\nwhere $a$ and $b$ are real constants.\nGiven that both $f$ and its derivative are continuous at $x = 1$, find the value of $a$ and the value of $b$."
+  },
+  {
+   "id": "math-2017-N-P3-calculus-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\ny x\nConsider the differential equation d + y = x where y = 1 when x = 0 .\n2\nd x x + 1\n(a) Show that x2 + 1 is an integrating factor for this differential equation. [4]\n(b) Solve the differential equation giving your answer in the form y =f (x) . [6]",
+   "ms_text": "2. (a) METHOD 1\nx\n∫ d x 2\n= x+ 1 integrating factor e (M1)\nx 1\n= ( 2 + ) ∫ d x ln x 1 (M1)\n2 x + 1 2\n′ () f x\n= = () Note: Award M1 for use of u x2+1for example or ∫ d x ln f x .\nf () x\n2 1 ln ( x+ 1 )\nintegrating factor = 2e A1\nln ( x+ 2 1 )\n= e A1\nln 2 Note: Award A1 for e u where u = x +. 1\n2 = x + 1\nAG\nMETHOD 2\nd d y x\n( 2 ) 2 yx + 1 = x ++ 1 y M1A1\nd x d x 2 x + 1\nd y x 2\nx + + y M1A1\n1d 2\nx x + 1\n2\nNote: Award M1 for attempting to express in the form x+×(LHS of de). 1\nx+ 2 so 1 is an integrating factor for this differential equation AG\n[4 marks]\nd y x 2 2\nx + 1 + y = xx + 1 (b) (or equivalent) (M1)\n2 d x x + 1\nd\n( 2 ) 2 yx + 1 = xx + 1\nd x\n1\n2 2 2 yx + 1 =\n∫ xx + 1 d x y = ∫ xx + 1 d x A1\n2 x + 1\n3 1\n2 = ( + 1 ) 2 + C (M1)A1\n3x\nNote: Award M1 for using an appropriate substitution.\nNote: Condone the absence of C.\n2\nsubstituting x = 0, y = 1 ⇒ C = M1\n3\nNote: Award M1 for attempting to find their value of C .\n3\n( 2 ) 2 x + 1 + 2\n1 2\ny = ( x 2 + 1 ) + ( y = ) A1\n2 3 3 x 2 + 1 3 x + 1\n[6 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x} + \\frac{x}{x^2+1}y = x$ where $y = 1$ when $x = 0$.\n(a) Show that $\\sqrt{x^2+1}$ is an integrating factor for this differential equation. [4]\n(b) Solve the differential equation giving your answer in the form $y = f(x)$. [6]"
+  },
+  {
+   "id": "math-2017-N-P3-calculus-q3",
+   "num": "3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 12]\n∞ 1\n(a) Use the limit comparison test to show that the series ∑ is convergent. [3]\n2 n + 2\nn = 1\nn ∞\n( x - 3 )\nLet S = ∑ .\n2 +\n= n 2 n 1\n(b) Find the interval of convergence for S . [9]",
+   "ms_text": "1\n2 2 n + 2 n 2\n3. (a) lim = lim = lim1 − M1\n2 2 n →∞ 1 n →∞ n + 2 n →∞ n + 2\n2 n\n= 1 A1\n∞ 1\nsince converges (a p-series with p= 2 ) R1 =∑\n2 n\nn 1\n∞ 1\nby limit comparison test, ∑ also converges AG\n2 n + 2\nn = 1\nNotes: The R1is independent of the A1.\n[3 marks]\nn + 1 2 ( x − 3) n + 2\n(b) applying the ratio test × M1A1\nlim(\nn →∞ + 2 + − n n 1) 2 ( x 3)\n( 2 ) n + 2\n= x − 3 (as lim = 1 ) A1\nn →∞ + 2 + ( n 1) 2\nconverges if x− 3 < 1 (converges for 2 < x < 4 ) M1\nx= x= considering endpoints 2 and 4 M1\n∞ 1\nwhen x= 4 , series is ∑ , convergent from (a) A1\n2 +\n= n 2 n 1\nn ∞ (1) −\nwhen x= 2 , series is ∑ A1\n2 +\n= n 2 n 1\nEITHER\n∞ ∞ n 1 (1) −\n∑ is convergent therefore ∑ is (absolutely) convergent R1\n2 2 n + 2 n + 2\nn = 1 n = 1\nOR\n1 1\nis a decreasing sequence and lim = 0 so series converges\nn+ 2 n →∞ 2 + 2 n 2\nby the alternating series test R1\nTHEN\ninterval of convergence is 2 ≤ x ≤ 4 A1\nNote: The final A1 is dependent on previous A1s – ie, considering correct series\nwhen x = 2 and x = 4 and on the final R1.\n[9 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L2",
+    "5.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 12]\n(a) Use the limit comparison test to show that the series $\\sum_{n=1}^{\\infty} \\frac{1}{n^2+2}$ is convergent. [3]\nLet $S = \\sum_{n=1}^{\\infty} \\frac{(x-3)^n}{n^2+2}$.\n(b) Find the interval of convergence for $S$. [9]"
+  },
+  {
+   "id": "math-2017-N-P3-calculus-q4",
+   "num": "4",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 10]\nThe mean value theorem states that if f is a continuous function on [a , b] and differentiable\nfb () − fa\n′ () for some c ∈]a , b[ . on ]a , b[ then f () c =\nb − a\nThe function g , defined by gx () = x cos ( x ), satisfies the conditions of the mean value\ntheorem on the interval [0 , 5π] .\n(a) For a = 0 and b = 5π , use the mean value theorem to find all possible values of c for\nthe function g . [6]\n(b) Sketch the graph of y =g(x) on the interval [0 , 5π] and hence illustrate the\nmean value theorem for the function g . [4]",
+   "ms_text": "g (5π) − g (0)\n( ) 4. (a) =− 0.6809 …= cos 5π (gradient of chord) (A1)\n5π − 0\n( ) x sin x\ngx ′ () = cos ( x ) − (or equivalent) (M1)(A1)\n2\nNote: Award M1 to candidates who attempt to use the product and chain rules.\nc sin ( c )\nattempting to solve cos ( c ) − =− 0.6809 … for c (M1)\n2\nNotes: Award M1 to candidates who attempt to solve their gc ′ () =gradient of chord.\nDo not award M1 to candidates who just attempt to rearrange their equation.\nc= 2.26, 11.1 A1A1\nNote: Condone candidates working in terms of x.\n[6 marks]\n(b)\ncorrect graph: 2 turning points close to the endpoints, endpoints indicated\nand correct endpoint behaviour A1\nNotes: Endpoint coordinates are not required. Candidates do not need to\nindicate axes scales.\ncorrect chord A1\ntangents drawn at their values of c which are approximately parallel to the\nchord A1A1\nNotes: Award A1A0A1A0 to candidates who draw a correct graph, do not\ndraw a chord but draw 2 tangents at their values of c . Condone the\nabsence of their c −values stated on their sketch. However do not\naward marks for tangents if no c −values were found in (a).\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.L4",
+    "5.6",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 10]\nThe mean value theorem states that if $f$ is a continuous function on $[a, b]$ and differentiable on $]a, b[$ then $f'(c) = \\frac{f(b) - f(a)}{b - a}$ for some $c \\in ]a, b[$.\nThe function $g$, defined by $g(x) = x\\cos(\\sqrt{x})$, satisfies the conditions of the mean value theorem on the interval $[0, 5\\pi]$.\n(a) For $a = 0$ and $b = 5\\pi$, use the mean value theorem to find all possible values of $c$ for the function $g$. [6]\n(b) Sketch the graph of $y = g(x)$ on the interval $[0, 5\\pi]$ and hence illustrate the mean value theorem for the function $g$. [4]"
+  },
+  {
+   "id": "math-2017-N-P3-calculus-q5",
+   "num": "5",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 13]\nConsider the function f (x) = sin(p arcsin x),-1 < x < 1 and p∈ϒ .\n(a) Show that f '(0) = p . [2]\nThe function f and its derivatives satisfy\n(1 -x2)f (n + 2)(x) - (2n + 1) xf (n + 1)(x) +(p2- n2)f (n)(x) = 0 , n∈∞\nwhere f (n)(x) denotes the n th derivative of f (x) and f (0)(x) is f (x) .\n(b) Show that f (n + 2)(0) =(n2- p2)f (n)(0) . [1]\n(c) For p ∈ϒ\\ {±1 , ±3} , show that the Maclaurin series for f (x) , up to and including\nthe x5 term, is\n( 2 ) ( 2 ) ( 2 ) p 1 − p p 9 − p 1 − p\n3 5 px + x + x . [4]\n3 ! 5 !\np x\n(d) Hence or otherwise, find lim sin(arcsin) . [2]\nx →0 x\nIf p is an odd integer, prove that the Maclaurin series for f (x) is a polynomial of (e)\ndegree p . [4]",
+   "ms_text": "p cos( p arcsin) x\n5. (a) f ′ () x = (M1)A1\n2 1 − x\nNote: Award M1 for attempting to use the chain rule.\nf ′ (0) = p AG\n[2 marks]\n(b) EITHER\n( n + 2) ( 2 2 ) () n f (0) + p − n f (0) = 0 (or equivalent) A1\nOR\n2 ( n + 2) ( n + 1) 2 2 () n for eg,( 1 − x ) f () x = (2 n + 1) xf () x − ( p − n ) f () x A1\nNote: Award A1 for eg, ( − 2 ) ( n + 2) − + ( n + 1) =− ( 2 − 2 ) () n 1 x f () x (2 n 1) xf () x p n f () x .\nTHEN\n( n + 2) 2 2 () n f (0) = ( n − p ) f (0) AG\n[1 mark]\n(c) considering f and its derivatives at x= 0 (M1)\nf (0) = 0 and f ′ (0) = p from (a) A1\n(4)(0) f ′′ (0) = 0 , f = 0 A1\n(3) = ( − 2 ) (1) = ( − 2 ) f (0) 1 p f (0) 1 p p ,\n(5) 2 (3) 2 2 f (0) = ( 9 − p ) f (0) = ( 9 − p )( 1 − p ) p A1\n(3) 2 (1) Note: Only award the last A1 if either f (0) = ( 1 − p ) f (0) and\n(5) ( 2 ) (3) f (0) = 9 − p f (0) have been stated or the general Maclaurin\nseries has been stated and used.\n( 2 ) ( 2 )( 2 ) p 1 − p p 9 − p 1 − p\n3 5 px + x + x\nAG\n3! 5!\n[4 marks]\n(d) METHOD 1\n( 2 ) p 1 − p\n3 px + x +…\nsin(arcsin) p x 3!\nlim = lim M1\nx → 0 x x → 0 x\n= p A1\nMETHOD 2\nsin( p arcsin) x p cos( p arcsin) x\nby l’Hôpital’s rule lim = lim M1\nx → 0 x → 0 2 x 1 − x\n= p A1\n[2 marks]\n(e) the coefficients of all even powers of x are zero A1\nx for ( p odd) is non-zero (or equivalent eg, p the coefficient of\nthe coefficients of all odd powers of x up to p are non-zero) A1\n( p + 2) 2 2 () p p 2 f (0) = ( p − p ) f (0) = 0 and so the coefficient of x + is zero A1\nthe coefficients of all odd powers of x greater than p+ 2 are\nzero (or equivalent) A1\nso the Maclaurin series for fx is a polynomial of degree p () AG\n[4 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.15",
+    "5.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 13]\nConsider the function $f(x) = \\sin(p \\arcsin x)$, $-1 < x < 1$ and $p \\in \\mathbb{R}$.\n(a) Show that $f'(0) = p$. [2]\nThe function $f$ and its derivatives satisfy\n$(1 - x^2) f^{(n+2)}(x) - (2n+1) x f^{(n+1)}(x) + (p^2 - n^2) f^{(n)}(x) = 0$, $n \\in \\mathbb{N}$\nwhere $f^{(n)}(x)$ denotes the $n$th derivative of $f(x)$ and $f^{(0)}(x)$ is $f(x)$.\n(b) Show that $f^{(n+2)}(0) = (n^2 - p^2) f^{(n)}(0)$. [1]\n(c) For $p \\in \\mathbb{R} \\setminus \\{\\pm 1, \\pm 3\\}$, show that the Maclaurin series for $f(x)$, up to and including the $x^5$ term, is\n$px + \\frac{p(1-p^2)}{3!}x^3 + \\frac{p(9-p^2)(1-p^2)}{5!}x^5$. [4]\n(d) Hence or otherwise, find $\\lim_{x \\to 0} \\frac{\\sin(p \\arcsin x)}{x}$. [2]\n(e) If $p$ is an odd integer, prove that the Maclaurin series for $f(x)$ is a polynomial of degree $p$. [4]"
+  }
+ ],
+ "status": "done"
+}

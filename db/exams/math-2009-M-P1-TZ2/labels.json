@@ -1,0 +1,153 @@
+{
+ "exam_id": "math-2009-M-P1-TZ2",
+ "questions": {
+  "1": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "text_clean": "1. [Maximum mark: 5]\nWhen the function $q(x)=x^3+kx^2-7x+3$ is divided by $(x+1)$ the remainder is seven times the remainder that is found when the function is divided by $(x+2)$.\nFind the value of $k$.",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.2"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nThe test scores of a group of students are shown on the cumulative frequency graph below.\n[Graph: cumulative frequency curve; horizontal axis Test Scores 0 to 100, vertical axis Cumulative frequency 0 to 200; curve starts at (10, 0) and reaches 200 at a score of 100]\n(a) Estimate the median test score. [1 mark]\n(b) The top 10 % of students receive a grade A and the next best 20 % of students receive a grade B. Estimate\n(i) the minimum score required to obtain a grade A;\n(ii) the minimum score required to obtain a grade B. [4 marks]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "text_clean": "3. [Maximum mark: 6]\nA random variable has a probability density function given by\n$f(x)=\\begin{cases} kx(2-x), & 0\\le x\\le 2 \\\\ 0, & \\text{elsewhere.}\\end{cases}$\n(a) Show that $k=\\frac{3}{4}$. [4 marks]\n(b) Find $\\mathrm{E}(X)$. [2 marks]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.15",
+    "1.11",
+    "1.7"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\n(a) Show that $\\frac{3}{x+1}+\\frac{2}{x+3}=\\frac{5x+11}{x^2+4x+3}$. [2 marks]\n(b) Hence find the value of $k$ such that $\\int_0^2 \\frac{5x+11}{x^2+4x+3}\\,\\mathrm{d}x=\\ln k$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.17"
+   ],
+   "text_clean": "5. [Maximum mark: 8]\nConsider the part of the curve $4x^2+y^2=4$ shown in the diagram below.\n[Diagram: first-quadrant arc of the curve from (0, 2) on the y-axis to (1, 0) on the x-axis]\n(a) Find an expression for $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ in terms of $x$ and $y$. [3 marks]\n(b) Find the gradient of the tangent at the point $\\left(\\frac{2}{\\sqrt{5}},\\frac{2}{\\sqrt{5}}\\right)$. [1 mark]\n(c) A bowl is formed by rotating this curve through $2\\pi$ radians about the $x$-axis. Calculate the volume of this bowl. [4 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "text_clean": "6. [Maximum mark: 6]\nLet $\\boldsymbol{M}=\\begin{pmatrix} a & b \\\\ -b & a\\end{pmatrix}$ where $a$ and $b$ are non-zero real numbers.\n(a) Show that $\\boldsymbol{M}$ is non-singular. [2 marks]\n(b) Calculate $\\boldsymbol{M}^2$. [2 marks]\n(c) Show that $\\det(\\boldsymbol{M}^2)$ is positive. [2 marks]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.14",
+    "2.12"
+   ],
+   "text_clean": "7. [Maximum mark: 8]\nGiven that $z_1=2$ and $z_2=1+\\sqrt{3}\\mathrm{i}$ are roots of the cubic equation $z^3+bz^2+cz+d=0$ where $b, c, d\\in\\mathbb{R}$,\n(a) write down the third root, $z_3$, of the equation; [1 mark]\n(b) find the values of $b$, $c$ and $d$; [4 marks]\n(c) write $z_2$ and $z_3$ in the form $r\\mathrm{e}^{\\mathrm{i}\\theta}$. [3 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "text_clean": "8. [Maximum mark: 8]\nProve by mathematical induction $\\sum_{r=1}^{n} r(r!)=(n+1)!-1$, $n\\in\\mathbb{Z}^+$.",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.2",
+    "2.15"
+   ],
+   "text_clean": "9. [Maximum mark: 8]\nA triangle has sides of length $(n^2+n+1)$, $(2n+1)$ and $(n^2-1)$ where $n>1$.\n(a) Explain why the side $(n^2+n+1)$ must be the longest side of the triangle. [3 marks]\n(b) Show that the largest angle, $\\theta$, of the triangle is $120^\\circ$. [5 marks]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.15",
+    "3.14",
+    "3.16",
+    "3.17",
+    "3.12"
+   ],
+   "text_clean": "10. [Maximum mark: 22]\n(a) Show that a Cartesian equation of the line, $l_1$, containing points $\\mathrm{A}(1,-1,2)$ and $\\mathrm{B}(3,0,3)$ has the form $\\frac{x-1}{2}=\\frac{y+1}{1}=\\frac{z-2}{1}$. [2 marks]\n(b) An equation of a second line, $l_2$, has the form $\\frac{x-1}{1}=\\frac{y-2}{2}=\\frac{z-3}{1}$. Show that the lines $l_1$ and $l_2$ intersect, and find the coordinates of their point of intersection. [5 marks]\n(c) Given that direction vectors of $l_1$ and $l_2$ are $\\boldsymbol{d}_1$ and $\\boldsymbol{d}_2$ respectively, determine $\\boldsymbol{d}_1\\times\\boldsymbol{d}_2$. [3 marks]\n(d) Show that a Cartesian equation of the plane, $\\Pi$, that contains $l_1$ and $l_2$ is $-x-y+3z=6$. [3 marks]\n(e) Find a vector equation of the line $l_3$ which is perpendicular to the plane $\\Pi$ and passes through the point $\\mathrm{T}(3,1,-4)$. [2 marks]\n(f) (i) Find the point of intersection of the line $l_3$ and the plane $\\Pi$.\n(ii) Find the coordinates of $\\mathrm{T}'$, the reflection of the point T in the plane $\\Pi$.\n(iii) Hence find the magnitude of the vector $\\overrightarrow{\\mathrm{TT}'}$. [7 marks]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.4",
+    "2.5",
+    "2.4",
+    "2.3",
+    "2.2"
+   ],
+   "text_clean": "11. [Maximum mark: 16]\nA function is defined as $f(x)=k\\sqrt{x}$, with $k>0$ and $x\\ge 0$.\n(a) Sketch the graph of $y=f(x)$. [1 mark]\n(b) Show that $f$ is a one-to-one function. [1 mark]\n(c) Find the inverse function, $f^{-1}(x)$ and state its domain. [3 marks]\n(d) If the graphs of $y=f(x)$ and $y=f^{-1}(x)$ intersect at the point $(4, 4)$ find the value of $k$. [2 marks]\n(e) Consider the graphs of $y=f(x)$ and $y=f^{-1}(x)$ using the value of $k$ found in part (d).\n(i) Find the area enclosed by the two graphs.\n(ii) The line $x=c$ cuts the graphs of $y=f(x)$ and $y=f^{-1}(x)$ at the points P and Q respectively. Given that the tangent to $y=f(x)$ at point P is parallel to the tangent to $y=f^{-1}(x)$ at point Q find the value of $c$. [9 marks]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "1",
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "1.14",
+    "3.5",
+    "5.10",
+    "1.9",
+    "3.11"
+   ],
+   "text_clean": "12. [Maximum mark: 22]\nThe complex number $z$ is defined as $z=\\cos\\theta+\\mathrm{i}\\sin\\theta$.\n(a) State de Moivre's theorem. [1 mark]\n(b) Show that $z^n-\\frac{1}{z^n}=2\\mathrm{i}\\sin(n\\theta)$. [3 marks]\n(c) Use the binomial theorem to expand $\\left(z-\\frac{1}{z}\\right)^5$ giving your answer in simplified form. [3 marks]\n(d) Hence show that $16\\sin^5\\theta=\\sin 5\\theta-5\\sin 3\\theta+10\\sin\\theta$. [4 marks]\n(e) Check that your result in part (d) is true for $\\theta=\\frac{\\pi}{4}$. [4 marks]\n(f) Find $\\int_0^{\\frac{\\pi}{2}}\\sin^5\\theta\\,\\mathrm{d}\\theta$. [4 marks]\n(g) Hence, with reference to graphs of circular functions, find $\\int_0^{\\frac{\\pi}{2}}\\cos^5\\theta\\,\\mathrm{d}\\theta$, explaining your reasoning. [3 marks]",
+   "answer_status": "ok"
+  }
+ }
+}

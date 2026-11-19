@@ -1,0 +1,130 @@
+{
+ "exam_id": "math-2018-M-P3-calculus",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2018,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Calculus",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2018 May Examination Session/Mathematics_paper_3_Calculus__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2018 May Examination Session/Mathematics_paper_3_Calculus__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2218-7208; code M18/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches paper total 50",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2018-M-P3-calculus-q1",
+   "num": "1",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 10]\n(a) Given that n >ln n for n > 0 , use the comparison test to show that the series\n∞\n1\n∑ is divergent. [3]\nn + n = 0ln( 2 )\n∞ x n\n( 3 )\n∑ (b) Find the interval of convergence for . [7]\nln( n + 2 ) n = 0",
+   "ms_text": "1. (a) METHOD 1\nln( n + 2) < n + 2 (A1)\n1 1\n⇒ > n ≥ (for 0 ) A1\nln( n + 2) n + 2\n∞ ∞ 1 1\nNote: Award A0 for statements such as ∑ > ∑ .\nln( n + 2) n + 2 n = 0 n = 0\nHowever condone such a statement if the above A1 has already been awarded.\n∞ 1\n∑ (is a harmonic series which) diverges R1\nn + 2 n = 0\nNote: The R1 is independent of the A1s.\n1\nAward R0 for statements such as “ diverges”.\nn + 2\n∞ 1\nso ∑ diverges by the comparison test AG\nln( n + 2) n = 0\nMETHOD 2\n1 1\n> (for n ≥ 2 ) A1\nln n n\n∞ ∞ 1 1\nNote: Award A0 for statements such as ∑ > ∑ .\nln n n n = 2 n = 2\nHowever condone such a statement if the above A1 has already been awarded.\nn+ a correct statement linking n and 2 eg,\n∞ ∞ ∞ ∞ 1 1 1 1\n∑ = ∑ or ∑ = ∑ A1\nln( n + 2) ln n n + 2 n n = 0 n = 2 n = 0 n = 2\n∞ 1\nNote: Award A0 for =∑ .\nn n 0\n∞ 1\n(is a harmonic series which) diverges =∑\nn n 2\n∞ 1\n(which implies that diverges by the comparison test) R1 =∑\nln n n 2\nNote: The R1 is independent of the A1s.\n∞ 1\ndiverges and “1\nAward R0 for statements such as diverges”. =∑\nn n n 0\n∞ 1\nAward A1A0R1 for arguments based on . =∑\nn n 1\n∞ 1\nso ∑ diverges by the comparison test AG\n+\n= ln( n 2) n 0\nn + 1 (3) x ln( n + 2)\n(b) applying the ratio test × M1\nlimln( n →∞\nn + 3) (3) x n\nln( n + 2)\n= 3x (as lim = 1 ) A1\n→∞ n ln( n + 3)\nNote: Condone the absence of limits and modulus signs.\nNote: Award M1A0 for 3 nx. Subsequent marks can be awarded.\n1 1\nseries converges for − < x <\n3 3\n1 1\nconsidering x =− and x = M1\n3 3\nNote: Award M1 to candidates who consider one endpoint.\n∞ 1 1\nwhen x = , series is ∑ which is divergent (from (a)) A1\n3 ln ( n + 2 ) n = 0\n∞ 1\n∑ Note: Award this A1 if is not stated but reference to part (a) is.\nln ( n + 2 ) n = 0\nn ∞\n( ) 1 − 1\nwhen x =− , series is ∑ A1\n3 ln ( n + 2 ) n = 0\nn ∞\n( − ) 1\n∑ converges (conditionally) by the alternating series test R1\nln ( n + 2 ) n = 0\n(strictly alternating, u > u+ for n ≥ 0 and lim ( u ) = 0 )\nn n 1 n n →∞\n1 1\nso the interval of convergence of S is − ≤ x < A1\n3 3\nNote: The final A1 is dependent on previous A1s – ie, considering\n1 1\ncorrect series when x =− and x = and on the final R1.\n3 3\n1\nAward as above to candidates who firstly consider x =− and\n3\n1\nthen state conditional convergence implies divergence at x = .\n3\n[7 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L2",
+    "5.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 10]\n(a) Given that $n > \\ln n$ for $n > 0$, use the comparison test to show that the series $\\sum_{n=0}^{\\infty} \\frac{1}{\\ln(n+2)}$ is divergent. [3]\n(b) Find the interval of convergence for $\\sum_{n=0}^{\\infty} \\frac{(3x)^n}{\\ln(n+2)}$. [7]"
+  },
+  {
+   "id": "math-2018-M-P3-calculus-q2",
+   "num": "2",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nThe function f is defined by\nx − 2 + 1 x < 2\nfx ()=\n2 + ≥ ax bx x\n2\nwhere a and b are real constants.\nGiven that both f and its derivative are continuous at x= 2 , find the value of a and the\nvalue of b .",
+   "ms_text": "2. considering continuity at x = 2\nlim fx () = 1 and lim fx () = 4 a + 2 b (M1)\n− + x → 2 x → 2\n4 a + 2 b = 1 A1\nx = considering differentiability at 2\n− < 1 x 2\n′ f () x = (M1)\n2 ax + b x ≥ 2\n′ =− and ′ = + lim f () x 1 lim f () x 4 a b (M1)\n− + x → 2 x → 2\nNote: The above M1 is for attempting to find the left and right limit of their derived\nx = piecewise function at 2 .\n+ =− 4 a b 1 A1\n3\na =− and b = 2 A1\n4\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.12",
+    "5.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nThe function $f$ is defined by\n$f(x) = \\begin{cases} |x-2| + 1 & x < 2 \\\\ ax^2 + bx & x \\ge 2 \\end{cases}$\nwhere $a$ and $b$ are real constants.\nGiven that both $f$ and its derivative are continuous at $x = 2$, find the value of $a$ and the value of $b$."
+  },
+  {
+   "id": "math-2018-M-P3-calculus-q3",
+   "num": "3",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 11]\n∞\n1\n(a) Find the value of d. x [3] ∫\n3 4x\n∞ ∞ ∞\n1 1 1\n(b) Illustrate graphically the inequality ∑ < ∫ d x < ∑ . [4]\n3 3 3 n x n\nn = 5 n = 4 4\n∞\n1\n(c) Hence write down a lower bound for ∑ . [1]\n4n 3 n=\n∞\n1\n∑ (d) Find an upper bound for . [3]\n3 4n\nn=",
+   "ms_text": "∞ R\n1 1\n3. (a) ∫ d x = lim ∫ d x (A1)\n3 R →∞ 3 x x\n4 4\nNote: The above A1 for using a limit can be awarded at any stage.\nCondone the use of lim x→∞.\nDo not award this mark to candidates who use ∞ as the upper limit throughout.\nR ∞\n1 1 − 2 − 2\n= lim − x =− x M1\nR →∞ 2 2\n4 4\n1 2 − 2\n= lim − ( R− − 4 )\nR →∞ 2\n1\n= A1\n32\n[3 marks]\n(b)\nA1A1A1A1\nA1 for the curve\nA1 for rectangles starting at x = 4\nA1 for at least three upper rectangles\nA1 for at least three lower rectangles\nNote: Award A0A1 for two upper rectangles and two lower rectangles.\nsum of areas of the lower rectangles < the area under the curve < the sum\nof the areas of the upper rectangles so\n∞ ∞ ∞ 1 1 1\n∑ < ∫ d x < ∑ AG\n3 3 3 n x n\nn = 5 4 n = 4\n[4 marks]\na lower bound is1 (c) A1\n32\nNote: Allow FT from part (a).\n[1 mark]\n(d) METHOD 1\n∞ 1 1\n< ∑ (M1)\n3 n 32\nn = 5\n∞ 1 1 1 1\n+ ∑ < + (M1)\n3 64 n 32 64\nn = 5\n∞ 1 3\n∑ < , an upper bound A1\n3 n 64\nn = 4\nNote: Allow FT from part (a).\nMETHOD 2\nchanging the lower limit in the inequality in part (b) gives\n∞ ∞ ∞ 1 1 1\n∑ < ∫ d x < ∑ (A1)\n3 3 3 n x n\nn = 4 n = 3 3\nR ∞\n1 1 − 2\n∑ < lim − x (M1)\n3 n R →∞ 2\nn = 4 3\n∞ 1 1\n∑ < , an upper bound A1\n3 n 18\nn = 4\nNote: Condone candidates who do not use a limit.\n[3 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 11]\n(a) Find the value of $\\int_4^{\\infty} \\frac{1}{x^3}\\,dx$. [3]\n(b) Illustrate graphically the inequality $\\sum_{n=5}^{\\infty} \\frac{1}{n^3} < \\int_4^{\\infty} \\frac{1}{x^3}\\,dx < \\sum_{n=4}^{\\infty} \\frac{1}{n^3}$. [4]\n(c) Hence write down a lower bound for $\\sum_{n=4}^{\\infty} \\frac{1}{n^3}$. [1]\n(d) Find an upper bound for $\\sum_{n=4}^{\\infty} \\frac{1}{n^3}$. [3]"
+  },
+  {
+   "id": "math-2018-M-P3-calculus-q4",
+   "num": "4",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 11]\nThe function f is defined by f (x) = (arcsin x)2 , -1 ≤x≤ 1 .\n(a) Show that f '(0) = 0. [2]\nThe function f satisfies the equation (1 -x2) f\"(x) -xf '(x) - 2 = 0 .\n(b) By differentiating the above equation twice, show that\n(1 -x2) f(4)(x) - 5xf (3)(x) - 4 f \"(x) = 0\nwhere f (3)(x) and f (4)(x) denote the 3rd and 4th derivative of f (x) respectively. [4]\n(c) Hence show that the Maclaurin series for f (x) up to and including the term in x4 is\n1 2\n+ 4 x x . [3]\n3\nUse this series approximation for f (x) with x=1 (d) to find an approximate value for π2 . [2]\n2",
+   "ms_text": "2arcsin () x\n′ () = 4. (a) f x M1A1\n− 2 1 x\nNote: Award M1 for an attempt at chain rule differentiation.\n′ () = () Award M0A0 for f x 2arcsin x .\nf ′ () 0 = 0 AG\n[2 marks]\n3\n(b) differentiating gives ( 1 − x 2 ) f ()() x − 2 xf ′′ () x − f ′ () x − xf ′′ ()( x = 0 ) M1A1\ndifferentiating again gives ( 2 ) 4 3 3 1 − x f ()() x − 2 xf ()() x − 3 f ′′ () x − 3 xf ()() x − f ′′ ()( x = 0 )\nM1A1\nNote: Award M1 for an attempt at product rule differentiation of at least one\nproduct in each of the above two lines.\nDo not penalise candidates who use poor notation.\n( 2 ) 4 3 1 − x f ()() x − 5 xf ()() x − 4 f ′′ () x = 0 AG\n[4 marks]\n3 4\n(c) attempting to find one of f ′′ () 0 , f ()() 0 or f ()() 0 by substituting x = 0\ninto relevant differential equation(s) (M1)\nd 2arcsin () x\nNote: Condone f ′′ () 0 found by calculating at x = 0 .\n2 d x 1 − x\n( () f ′ () ) f 0 = 0, 0 = 0\n4 4 f ′′ ()\n0 = 2 and f ()() 0 − 4 f ′′ () 0 = 0 ⇒ f ()() 0 = 8 A1\n2 8 3 2 4\nf ()() 0 = 0 and so x + x A1\n2! 4!\nNote: Only award the above A1, for correct first differentiation in part (b) leading to\n()() 3 = ()() 3 = f 0 0 stated or f 0 0 seen from use of the general Maclaurin series.\n4\nSpecial Case: Award (M1)A0A1 if f ()() 0 = 8 is stated without justification or\nfound by working backwards from the general Maclaurin series.\n1\n() 4 2 4 so the Maclaurin series for fx up to and including the term in x is x + x\n3\nAG\n[3 marks]\n1 1 2 4\n(d) substituting x = into x + x M1\n2 3\nthe series approximation gives a value of 13\n48\n13 2\nso π ; 36 48×\n39\n; 9.75 ; A1\n4\nNote: Accept 9.76.\n[2 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.6",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 11]\nThe function $f$ is defined by $f(x) = (\\arcsin x)^2$, $-1 \\le x \\le 1$.\n(a) Show that $f'(0) = 0$. [2]\nThe function $f$ satisfies the equation $(1 - x^2) f''(x) - x f'(x) - 2 = 0$.\n(b) By differentiating the above equation twice, show that\n$(1 - x^2) f^{(4)}(x) - 5x f^{(3)}(x) - 4 f''(x) = 0$\nwhere $f^{(3)}(x)$ and $f^{(4)}(x)$ denote the 3rd and 4th derivative of $f(x)$ respectively. [4]\n(c) Hence show that the Maclaurin series for $f(x)$ up to and including the term in $x^4$ is $x^2 + \\frac{1}{3}x^4$. [3]\n(d) Use this series approximation for $f(x)$ with $x = \\frac{1}{2}$ to find an approximate value for $\\pi^2$. [2]"
+  },
+  {
+   "id": "math-2018-M-P3-calculus-q5",
+   "num": "5",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 12]\nd Consider the differential equation xy\n− y = xp + 1 where x ∈ϒ, x≠ 0 and p is a positive\nd x\ninteger, p > 1 .\n(a) Solve the differential equation given that y = - 1 when x = 1 . Give your answer in the\nform y = f (x) . [8]\ny\nShow that the x-coordinate(s) of the points on the curve y = f (x) where d (b) (i)\nx=0\nd\n1 1.\nsatisfy the equation x p−=\np\nDeduce the set of values for p such that there are two points on the curve (ii)\ny\ny = f (x) where d [4]\nx=0. Give a reason for your answer.\nd",
+   "ms_text": "5. (a) METHOD 1\nd y y p − 1 1\n− = x + (M1)\nd x x x\n1d x −∫\nintegrating factor = e x M1\n− ln x = e\n(A1)\n1\n= A1\nx\n1 d y y 1 p − 2\n− = x + (M1)\n2 2 x d x x x\nd y 1 = p − 2\nx +\n2 d x x x\ny 1 p − 1 1\n= x − + C A1\nx p − 1 x\nNote: Condone the absence of C .\n1 p\ny = x + Cx − 1\np − 1\n1\nsubstituting x =, 1 y =−⇒ 1 C =− M1\n− p 1\nNote: Award M1 for attempting to find their value of C .\n1 p\ny = ( x − x ) − 1 A1\n− p 1\n[8 marks]\nMETHOD 2\ny d v so that d\nput y = vx = v + x M1(A1)\nd x d x\nsubstituting, M1\nd v p\nxv + x − vx = x + 1 (A1)\nd x\nd v 1 p − 1\nx = x + M1\nd x x\nd v 1 p − 2\n= x +\n2 d x x\n1 1\n= p − 1 − + v x C A1\np − 1 x\nNote: Condone the absence of C .\n1 p\ny = x + Cx − 1\n− p 1\n1\nx =, 1 =−⇒ =− substituting y 1 C M1\np − 1\nNote: Award M1 for attempting to find their value of C .\n1\ny = ( x p − x ) − 1 A1\np − 1\n[8 marks]\n(b) (i) METHOD 1\ny y find d\nand solve d 0 for x\nx=\nd x d\nd y 1 p − 1\n= ( px − 1 ) M1\nd x p − 1\nd y p − 1\n= 0 ⇒ px −= 1 0 A1\nd x\npx−= p 1 1\nNote: Award a maximum of M1A0 if a candidate’s answerto part (a) is incorrect.\np 1 1\n−= x AG\np\nMETHOD 2\ny substitute d\n0 and their y into the differential equation and solve for x\nx=\nd\np − d y x x\n= 0 ⇒− += 1 x p + 1 M1\nd x p − 1\np p p x − x = x − px\nA1\npx−= p 1 1\nNote: Award a maximum of M1A0 if a candidate’s answerto part (a) is incorrect.\np 1 1\n−= x AG\np\n(ii) there are two solutions for x when p is odd (and p >) 1 A1\n1 p 1\nif p − is even there are two solutions (to 1 x −= )\np\np 1 1\nand if p − is odd there is only one solution (to 1 x −= ) R1\np\nNote: Only award the R1 if both cases are considered.\n[4 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.8",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 12]\nConsider the differential equation $x\\frac{dy}{dx} - y = x^p + 1$ where $x \\in \\mathbb{R}, x \\ne 0$ and $p$ is a positive integer, $p > 1$.\n(a) Solve the differential equation given that $y = -1$ when $x = 1$. Give your answer in the form $y = f(x)$. [8]\n(b) (i) Show that the $x$-coordinate(s) of the points on the curve $y = f(x)$ where $\\frac{dy}{dx} = 0$ satisfy the equation $x^{p-1} = \\frac{1}{p}$.\n(ii) Deduce the set of values for $p$ such that there are two points on the curve $y = f(x)$ where $\\frac{dy}{dx} = 0$. Give a reason for your answer. [4]"
+  }
+ ],
+ "status": "done"
+}

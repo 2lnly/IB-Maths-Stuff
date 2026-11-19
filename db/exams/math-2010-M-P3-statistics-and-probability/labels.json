@@ -1,0 +1,64 @@
+{
+ "exam_id": "math-2010-M-P3-statistics-and-probability",
+ "questions": {
+  "1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L6",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "text_clean": "1. [Maximum mark: 12]\nAnna cycles to her new school. She records the times taken for the first ten days with the following results (in minutes).\n12.4  13.7  12.5  13.4  13.8  12.3  14.0  12.8  12.6  13.5\nAssume that these times are a random sample from the $\\mathrm{N}(\\mu, \\sigma^2)$ distribution.\n(a) Determine unbiased estimates for $\\mu$ and $\\sigma^2$. [2 marks]\n(b) Calculate a 95 % confidence interval for $\\mu$. [3 marks]\n(c) Before Anna calculated the confidence interval she thought that the value of $\\mu$ would be 12.5. In order to check this, she sets up the null hypothesis $\\mathrm{H}_0 : \\mu = 12.5$.\n(i) Use the above data to calculate the value of an appropriate test statistic. Find the corresponding $p$-value using a two-tailed test.\n(ii) Interpret your $p$-value at the 1 % level of significance, justifying your conclusion. [7 marks]"
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L1",
+    "4.L4"
+   ],
+   "answer_status": "ok",
+   "text_clean": "2. [Maximum mark: 10]\nThe random variable $X$ has a Poisson distribution with mean $\\mu$. The value of $\\mu$ is known to be either 1 or 2 so the following hypotheses are set up.\n$\\mathrm{H}_0 : \\mu = 1;\\ \\mathrm{H}_1 : \\mu = 2$\nA random sample $x_1, x_2, \\ldots, x_{10}$ of 10 observations is taken from the distribution of $X$ and the following critical region is defined.\n$\\sum_{i=1}^{10} x_i \\geq 15$\nDetermine the probability of\n(a) a Type I error; [5 marks]\n(b) a Type II error. [5 marks]"
+  },
+  "3": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "text_clean": "3. [Maximum mark: 13]\nThe random variable $X$ is assumed to have probability density function $f$, where\n$f(x) = \\begin{cases} \\frac{x}{18}, & 0 \\leq x \\leq 6 \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Show that if the assumption is correct, then\n$\\mathrm{P}(a \\leq X \\leq b) = \\frac{b^2 - a^2}{36}$, for $0 \\leq a \\leq b \\leq 6$. [3 marks]\n(b) A random sample of 180 values of $X$ was obtained and the following table produced.\nInterval | [0, 1[ | [1, 2[ | [2, 3[ | [3, 4[ | [4, 5[ | [5, 6]\nFrequency | 8 | 18 | 24 | 37 | 44 | 49\nStating appropriate hypotheses, test the assumption at the 5 % level of significance using a $\\chi^2$ test. [10 marks]"
+  },
+  "4": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "text_clean": "4. [Maximum mark: 8]\nA shop sells apples, pears and peaches. The weights, in grams, of these three types of fruit may be assumed to be normally distributed with means and standard deviations as given in the following table.\nFruit | Mean | Standard Deviation\nApples | 115 | 5\nPears | 110 | 4\nPeaches | 105 | 3\nAlan buys 1 apple and 1 pear while Brian buys 1 peach. Calculate the probability that the combined weight of Alan's apple and pear is greater than twice the weight of Brian's peach."
+  },
+  "5": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L2",
+    "4.L10"
+   ],
+   "answer_status": "ok",
+   "add_flags": [],
+   "note": "(a) is the hypergeometric distribution (mean/variance), which has no dedicated taxonomy code; tagged 4.14/4.7. | audit: (a) hypergeometric mean/variance -> new 4.L10 (replaces stand-in 4.14/4.7)",
+   "text_clean": "5. [Maximum mark: 17]\n(a) A bag contains 20 coloured balls of which 12 are red and 8 are blue. A random sample of 6 of these balls is selected without replacement. Calculate the mean and the variance of the number of red balls in the sample. [7 marks]\n(b) The random variable $X$ has the negative binomial distribution $\\mathrm{NB}(5, p)$, where $p < 0.5$, and $\\mathrm{P}(X = 10) = 0.05$. By first finding the value of $p$, find the value of $\\mathrm{P}(X = 11)$. [10 marks]"
+  }
+ }
+}

@@ -1,0 +1,314 @@
+{
+ "exam_id": "math-2008-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2008,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_1_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_1_TZ1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2208-7207; code M08/5/MATHL/HP1/ENG/TZ1/XX; marks sum matches expected total 120",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2008-M-P1-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\n1 in the form a\nExpress where ab , ∈′.\n( 1 −i 33 ) b",
+   "ms_text": "1. METHOD 1\nπ\nr = 2, θ = − (A1)(A1)\n3\n− 3\n−⎛ ⎛ π ⎞ ⎛ π ⎞ ⎞ − 3 3\n∴ (1 − i3) = 2 cos − + isin − M1 ⎜ ⎜ ⎟ ⎜ ⎟ ⎟\n⎝ 3 ⎠ ⎝ 3 ⎠ ⎝ ⎠\n1 (cos = π + isin π) (M1)\n8\n1\n= − A1\n8\n[5 marks]\nMETHOD 2\n(1 − 3i)(1 − 3i)1 =− 23i − 3( = −− 2 23i) (M1)A1\n(2 −− 23i)(1 − 3i) = − 8 (M1)(A1)\n1 1\n∴ = − A1\n3 (1 − 3i) 8\n[5 marks]\nMETHOD 3\nAttempt at Binomial expansion M1\n3 2 3 (1 − 3i) =+ 1 3( − 3i)+3( − 3i) +− ( 3i) (A1)\n=− 1 33i − 9 + 33i (A1)\n= − 8 A1\n1 1\n∴ = − M1\n3 (1 − 3i) 8\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "Express $\\frac{1}{(1-\\mathrm{i}\\sqrt{3})^3}$ in the form $\\frac{a}{b}$ where $a, b \\in \\mathbb{Z}$. [5 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nα 2 α 0\nLet M be the matrix 0 α 1 .\n− 1 − 1 α\nFind all the values of α for which M is singular.",
+   "ms_text": "2. If M is singular, then det M = 0 R1\nα 1 0 1\nM = α − 2 α (M1)\n− 1 α − 1 α\n= αα 2 + − α = α 3 − α ( 1) 2 ( ) A1\n2 ⇒ αα ( − 1) = 0\n⇒ α = α = α = − 0, 1, 1 A1A1A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "Let $M$ be the matrix $\\begin{pmatrix} \\alpha & 2\\alpha & 0 \\\\ 0 & \\alpha & 1 \\\\ -1 & -1 & \\alpha \\end{pmatrix}$. Find all the values of $\\alpha$ for which $M$ is singular. [6 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nA circular disc is cut into twelve sectors whose areas are in an arithmetic sequence.\nThe angle of the largest sector is twice the angle of the smallest sector.\nFind the size of the angle of the smallest sector.",
+   "ms_text": "3. METHOD 1\nIf the areas are in arithmetic sequence, then so are the angles. (M1)\nn 12\n⇒ S = ( a + l ) ⇒ ( θ + 2) θ = 18 θ M1A1\nn\n2 2\n⇒ 18 θ =π 2 (A1)\nπ\nθ = (accept 20�) A1\n9\n[5 marks]\nMETHOD 2\na = 2 a (M1)\n12 1\n12 ( + = π 2 2 a ) r M1A1\n2a 1 1\nπ r 2\n3 a =\n1\n6\n2 3 π r\nrθ 2 = (A1)\n2 6\n2 π π\nθ = = (accept 20�) A1\n18 9\n[5 marks]\nMETHOD 3\nLet smallest angle = a , common difference = d\n+ = a 11 d 2 a (M1)\na = 11 d A1\n12 (2 S = a + 11) d =π 2 M1\nn\n2\n6(2 a + a ) =π 2 (A1)\n18 a =π 2\nπ\na = (accept 20�) A1\n9\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.2",
+    "3.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "A circular disc is cut into twelve sectors whose areas are in an arithmetic sequence. The angle of the largest sector is twice the angle of the smallest sector.\nFind the size of the angle of the smallest sector. [5 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nIn triangle ABC, AB = 9 cm , AC =12 cm , and B∃ is twice the size of C∃.\nFind the cosine of C∃.",
+   "ms_text": "9 12\n4. = (M1)\nsin C sin B\n9 12\n= A1\nsin C sin 2 C\n9 12\nUsing double angle formula = M1\nsin C 2sin C cos C\n⇒ 9(2sin C cos C ) = 12sin C\n⇒ 6sin C (3cos C − 2) = 0 or equivalent (A1)\nC ≠ (sin 0)\n2\n⇒ cos C = A1\n3\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "In triangle ABC, $\\mathrm{AB} = 9\\text{ cm}$, $\\mathrm{AC} = 12\\text{ cm}$, and $\\hat{B}$ is twice the size of $\\hat{C}$.\nFind the cosine of $\\hat{C}$. [5 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\n2\nIf fx () = x − 3 x 3 , x > 0 ,\n(a) find the x-coordinate of the point P where f ′ () x = 0; [2 marks]\n(b) determine whether P is a maximum or minimum point. [3 marks]",
+   "ms_text": "2\n5. (a) f ′ () x =− 1 A1\n1\n3 x\n1 2\n⇒− = ⇒ 3 = ⇒ = 1 0 x 2 x 8 A1\n1\n3 x\n2\n(b) f ′′ () x = A1\n4\n3 x 3\nf ′′ (8) > 0 ⇒ at x = 8, () has a minimum. fx M1A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.3",
+    "5.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "If $f(x) = x - 3x^{\\frac{2}{3}}$, $x > 0$,\n(a) find the $x$-coordinate of the point P where $f'(x) = 0$; [2 marks]\n(b) determine whether P is a maximum or minimum point. [3 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nFind the area between the curves y = 2 + x − x 2 and y = 2 − 3 x + x 2 .",
+   "ms_text": "2 2 6. 2 + x − x = 2 − 3 x + x M1\n2 ⇒ 2 x − 4 x = 0\n⇒ 2( xx − 2) = 0\n⇒ x = 0, x = 2 A1A1\nNote: Accept graphical solution.\nAward M1 for correct graph and A1A1 for correctly labelled roots.\n2\n( 2 2 ) ∴ A = ∫ (2 + x − x ) − (2 − 3 x + x )d x (M1)\n0\n2 2\n= x − 2 x )d x or equivalent A1 ∫ 0(4\n2\n⎡ 3 ⎤\n2 2 x = 2 x − A1\n⎢ ⎥\n3 ⎣ ⎦\n0\n8 ⎛ 2 ⎞\n= = 2 A1 ⎜ ⎟\n3 3 ⎝ ⎠\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "Find the area between the curves $y = 2 + x - x^2$ and $y = 2 - 3x + x^2$. [7 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nThe common ratio of the terms in a geometric series is 2x.\n(a) State the set of values of x for which the sum to infinity of the series exists. [2 marks]\n(b) If the first term of the series is 35, find the value of x for which the sum to\ninfinity is 40. [4 marks]",
+   "ms_text": "7. (a) 0 < 2 x < 1 (M1)\nx < 0 A1 N2\n35\n(b) 40 M1 r=\n1 −\n⇒ 40 − 40 × r = 35\n⇒− × = − 40 r 5 (A1)\n1\n⇒ r = 2 x = A1\n8\n1\n⇒ = = − x log ( 3) A1\n2\n8\nNote: The substitution r = 2x may be seen at any stage in the solution.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.8",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "The common ratio of the terms in a geometric series is $2^x$.\n(a) State the set of values of $x$ for which the sum to infinity of the series exists. [2 marks]\n(b) If the first term of the series is 35, find the value of $x$ for which the sum to infinity is 40. [4 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\nThe functions fand g are defined as:\nx 2 , x ≥0 fx () = e\n1\ngx () = , x ≠− 3.\nx + 3\n(a) Find hx () where hx () = g ο fx () . [2 marks]\n−1 () . (b) State the domain of h x [2 marks]\n−1 () . (c) Find h x [4 marks]",
+   "ms_text": "1\n8. (a) hx () = g � fx () = , ( x ≥ 0) (M1)A1\n2 x\n+ e 3\n1\n(b) 0 < x ≤ A1A1\n4\nNote: Award A1 for limits and A1 for correct inequality signs.\n1\n(c) y =\n2 x\ne + 3\nx 2 y e + 3 y = 1 M1\n2 1 − 3 y\nex = A1\ny\n1 − 3 y 2\nx = ln M1\ny\n− 1 3 y\nx = ± ln\ny\n− ⎛ ⎞ −\n1 1 3 x ⎛ 1 ⎞ ⇒ h () x = ln ⎜ = ln − 3 ⎟ A1\n⎜ ⎟ ⎜ ⎟\nx ⎝ ⎝ x ⎠ ⎠\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.2",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "The functions $f$ and $g$ are defined as:\n$f(x) = \\mathrm{e}^{x^2}$, $x \\ge 0$\n$g(x) = \\frac{1}{x+3}$, $x \\neq -3$.\n(a) Find $h(x)$ where $h(x) = g \\circ f(x)$. [2 marks]\n(b) State the domain of $h^{-1}(x)$. [2 marks]\n(c) Find $h^{-1}(x)$. [4 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\nThe random variable T has the probability density function\nπ π t\nft () = cos , 1 t 1.\n−≤≤\n4 2\nFind\n(a) P( T= 0; ) [2 marks]\n(b) the interquartile range. [5 marks]",
+   "ms_text": "0\n9. (a) Any consideration of fx ()d x (M1) ∫\n0\n0 A1 N2\n(b) METHOD 1\nLet the upper and lower quartiles be a and a −\nπ π\n1cos tt ∫ d = 0.25 M1\n4 a 2\n1\n⎡ π π t ⎤ 2 sin\n⇒ × = 0.25 A1\n⎢ ⎥\n⎣ 4 π 2 ⎦ a\n1\n⎡ π t ⎤ 1 sin\n⇒ = 0.25\n⎢ ⎥\n⎣ 2 2 ⎦ a\nπ ⎡ 1 a ⎤\n⇒ − 1 sin = 0.25 A1\n⎢ ⎥\n⎣ 2 2 2 ⎦\n1 π a 1\n⇒ sin =\n2 2 4\nπ a 1\n⇒ =\nsin2\n2\nπ a π\n=\n2 6\n1\na = A1\n3\nSince the function is symmetrical about t = 0 ,\n⎛ 1 ⎞ 2 interquartile range is 1\n−− ⎜ ⎟ = R1\n3 ⎝ 3 ⎠ 3\nMETHOD 2\nπ π π π a t a t\ncos d t = 0.5 = cos d t M1A1 ∫ ∫\n4 − a 2 2 0 2\n⎡ aπ ⎤\n⇒ sin = 0.5 A1\n⎢ ⎥\n⎣ 2 ⎦\naπ π\n⇒ =\n2 6\n1\n⇒ a = A1\n3\nThe interquartile range is 2 R1\n3\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.3",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "The random variable $T$ has the probability density function\n$f(t) = \\frac{\\pi}{4}\\cos\\left(\\frac{\\pi t}{2}\\right)$, $-1 \\le t \\le 1$.\nFind\n(a) $\\mathrm{P}(T = 0)$; [2 marks]\n(b) the interquartile range. [5 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 6]\nx\n=ln () and the lines x The region bounded by the curve y = 1 , x = ,e y = 0 is rotated\nx\nthrough 2π radians about the x-axis.\nFind the volume of the solid generated.",
+   "ms_text": "10. METHOD 1\n2\ne ⎛ ln x ⎞\nV = π d x M1 ∫ ⎜ ⎟\n1 ⎝ x ⎠\nIntegrating by parts:\nd v 1 2\nu = x = (M1)\n(ln),d\nx x 2\nd u 2ln 1\n= xv , = −\nd x x x\n⎛ 2 ⎞ (ln) x ln x\n⇒ V = π− + 2 d x A1 ⎜ ∫ ⎟\nx x 2 ⎝ ⎠\nd v 1\nu = x = (M1)\nln,d 2\nx x\nd u 1 1\n= , v = −\nd x x x\nln x ln x 1 ln x 1\n∴ ∫ d x = − + ∫ d x = − − A1\n2 2 x x x x x\ne\n⎡ 2 ⎤ (ln) x ⎛ ln x 1 ⎞\n∴ V = π− + 2 − − ⎢ ⎜ ⎟ ⎥\nx x x ⎣ ⎝ ⎠ ⎦\n1\n5 π\n=π − 2 A1\ne\n[6 marks]\nMETHOD 2\n2\ne ⎛ ln x ⎞\nV = π ∫ d x M1 ⎜ ⎟\n1 ⎝ x ⎠\nd x u\nLet ln x = u ⇒ x = e, = d u (M1)\nx\n2 2\n⎛ ln x ⎞ u − u 2 − u 2 − u\n∫ ⎜ ⎟ d x = ∫ d u = ∫ e u d u = − e u + 2e ∫ uu d A1\nu ⎝ x ⎠ e\n= − − u 2 + ( − − u + − u ) = − − u 2 − − u − − u e u 2 e u ∫ e d u e u 2e u 2e\n− 2 = − e uu ( + 2 u + 2) A1\n= =. When = = When x e, u 1 x 1, u 0 .\n1\n∴ Volume = π− ⎡ − 2 + + ⎤ e uu ( 2 u 2) M1\n⎣ ⎦ 0\n⎛ 5 π ⎞ − 1\n= π(− 5e + 2) ⎜ =π − 2 ⎟ A1\n⎝ e ⎠\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.17",
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "The region bounded by the curve $y = \\frac{\\ln(x)}{x}$ and the lines $x = 1$, $x = \\mathrm{e}$, $y = 0$ is rotated through $2\\pi$ radians about the $x$-axis.\nFind the volume of the solid generated. [6 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\nThe points A,B, C have position vectors i + j + 2 ki , + 2 j + 3 k , 3 i + k respectively\nand lie in the plane π .\n(a) Find\n(i) the area of the triangle ABC;\n(ii) the shortest distance from C to the line AB;\n(iii) the cartesian equation of the plane π . [14 marks]\nThe line L passes through the origin and is normal to the plane π , it intersects π at the\npoint D.\n(b) Find\n(i) the coordinates of the point D;\n(ii) the distance of π from the origin. [6 marks]",
+   "ms_text": "11. (a) (i) METHOD 1\n⎛⎞ 1 ⎛⎞ 1 ⎛⎞ 0\n→ ⎜⎟ ⎜⎟ ⎜⎟\nAB = b − a = 2 − 1 = 1 (A1)\n⎜⎟ ⎜⎟ ⎜⎟\n⎜⎟ ⎜⎟ ⎜⎟\n⎝⎠ 3 ⎝⎠ 2 ⎝⎠ 1\n⎛⎞ 3 ⎛⎞ 1 ⎛ 2 ⎞\n→ ⎜⎟ ⎜⎟ ⎜ ⎟\nAC = c − a = 0 − 1 =− 1 (A1)\n⎜⎟ ⎜⎟ ⎜ ⎟\n⎜⎟ ⎜⎟ ⎜ ⎟\n1 2 − 1 ⎝⎠ ⎝⎠ ⎝ ⎠\ni j k\n→ →\nABAC × = 0 1 1 M1\n2 − 1 − 1\n= i (11) −+ − j (0 − 2) + k (0 − 2) (A1)\n= 2 j − 2 k A1\n1 1\nArea of triangle ABC = 2 j − 2 k = 8( = 2) sq. units M1A1\n2 2\nNote: Allow FT on final A1.\nMETHOD 2\nAB = 2 ,BC = 12 ,AC = 6 A1A1A1\nUsing cosine rule, e.g. on C� M1\n6 + 12 − 2 22\ncos C = = A1\n272 3\n1\n∴ Area ∆ ABC = sin C M1\n2ab\n1 ⎛ 22 ⎞\n= 126 sinarccos ⎜ ⎟\n⎜ ⎟ 2 3\n⎝ ⎠\n⎛ 22 ⎞\n= 32 sinarccos ⎜ ⎟ ( = 2 ) A1\n⎜ ⎟ 3\n⎝ ⎠\nNote: Allow FT on final A1.\n(ii) AB = 2 A1\n1 1\n2 = AB × h = 2 × h , h equals the shortest distance (M1)\n2 2\n⇒ h = 2 A1\n(iii) METHOD 1\n⎛ 0 ⎞\n⎜\nπ has form r i 2 ⎟= d (M1)\n⎜ ⎟\n⎜ ⎟ −\n⎝ 2 ⎠\nSince (1, 1, 2) is on the plane\n⎛⎞⎛ 1 0 ⎞\n⎜⎟⎜ ⎟\nd = 1 i 2 = 2 − 4 = − 2 M1A1\n⎜⎟⎜ ⎟\n⎜⎟⎜ ⎟\n2 − 2 ⎝⎠⎝ ⎠\n⎛ 0 ⎞\n⎜ ⎟= −\nHence r i 2 2\n⎜ ⎟\n⎜ ⎟\n⎝ − 2 ⎠\n2 y − 2 z = − 2(or y − z = − 1) A1\nMETHOD 2\n⎛⎞ 1 ⎛⎞ 0 ⎛ 2 ⎞\n⎜⎟ ⎜⎟ ⎜ ⎟\nr = 1 + λ 1 + µ − 1 (M1)\n⎜⎟ ⎜⎟ ⎜ ⎟\n⎜⎟ ⎜⎟ ⎜ ⎟\n2 1 − 1 ⎝⎠ ⎝⎠ ⎝ ⎠\nx =+ 1 2 µ (i)\ny =+ 1 λ − µ (ii)\nz = 2 + λ − µ (iii) A1\nNote: Award A1 for all three correct, A0 otherwise.\nx − 1\nFrom (i) µ =\n2\n⎛ x − 1 ⎞\n=+ λ substitute in (ii) y 1 −⎜ ⎟\n⎝ 2 ⎠\n⎛ x − 1 ⎞\n⇒ λ = y −+ ⎜ 1 ⎟\n⎝ 2 ⎠\nsubstitute λ and µ in (iii) M1\n− − ⎛ x 1 ⎞ ⎛ x 1 ⎞\n⇒ z = 2 + y −+ 1 − ⎜ ⎟ ⎜ ⎟\n⎝ 2 ⎠ ⎝ 2 ⎠\n⇒ y − z = − 1 A1\n[14 marks]\n(b) (i) The equation of OD is\n⎛ 0 ⎞ ⎛ ⎛ 0 ⎞ ⎞\n⎜ ⎟ ⎜ ⎟ ⎜ ⎟\nr = λ 2 , or r = λ 1 M1\n⎜ ⎟ ⎜ ⎜ ⎟ ⎟\n⎜ ⎟ ⎜ ⎜ ⎟ ⎟ −\n2 − 1 ⎝ ⎠ ⎝ ⎝ ⎠ ⎠\nThis meets π where\n2 λ + 2 λ = − 1 (M1)\n1\nλ = − A1\n4\n⎛ 11 ⎞\nCoordinates of D are ⎜ 0, − , ⎟ A1\n⎝ 22 ⎠\n2 2 →\n⎛ 1 ⎞ ⎛ 1 ⎞ 1\n(ii) OD = 0 +− ⎜ ⎟ + ⎜ ⎟ = (M1)A1\n⎝ 2 ⎠ ⎝ 2 ⎠ 2\n[6 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.17",
+    "3.18",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "The points A, B, C have position vectors $\\boldsymbol{i}+\\boldsymbol{j}+2\\boldsymbol{k}$, $\\boldsymbol{i}+2\\boldsymbol{j}+3\\boldsymbol{k}$, $3\\boldsymbol{i}+\\boldsymbol{k}$ respectively and lie in the plane $\\pi$.\n(a) Find\n(i) the area of the triangle ABC;\n(ii) the shortest distance from C to the line AB;\n(iii) the cartesian equation of the plane $\\pi$. [14 marks]\nThe line $L$ passes through the origin and is normal to the plane $\\pi$, it intersects $\\pi$ at the point D.\n(b) Find\n(i) the coordinates of the point D;\n(ii) the distance of $\\pi$ from the origin. [6 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 27,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 27]\nx The function f is defined by fx () = x e2.\nn n n − 1 x + n It can be shown that f ()() x = ( 2 x + n 2 ) 2e for all n∈ ′, where f ()() represents x\nthe nth derivative of fx () .\nn (a) By considering f ()() for n =1 and n = 2 , show that there is one minimum x\npoint P on the graph of f, and find the coordinates of P. [7 marks]\n(b) Show that fhas a point of inflexion Q at x = −1. [5 marks]\n(c) Determine the intervals on the domain of f where f is\n(i) concave up;\n(ii) concave down. [2 marks]\n(d) Sketch f, clearly showing any intercepts, asymptotes and the points P and Q. [4 marks]\nn n n − 1 x (e) Use mathematical induction to prove that f ()() x = ( 2 x + n 2 ) 2e for all\n+ ()() represents the nth derivative of fx n n∈ ′, where f x () . [9 marks]",
+   "ms_text": "2 12. (a) f ′ () x = (1 + 2)ex x A1\nf ′ () x = 0 M1\n1 2 x\n⇒ (1 + 2)e x = 0 ⇒ x = − A1\n2\n2 21 − 2 x 2 x f ′′ () x = (2 x + 2 × 2 )e = (4 x + 4)e A1\n1 ⎞ 2 f⎛\n′′− ⎜ ⎟ = A1\n⎝ 2 ⎠ e\n2 1\n> ⇒ = − 0 at x , fx () has a minimum. R1\ne 2\n⎛ 1 1 ⎞\nP − , − A1 ⎜ ⎟\n⎝ 2 2e ⎠\n[7 marks]\n(b) f ′′ () x = 0 ⇒ 4 x + 4 = 0 ⇒ x = − 1 M1A1\nf⎛ 1 ⎞ 2 4 Using the 2nd derivative ′′− = and f ′′− (2) = − , M1A1\n⎜ ⎟ 4\n⎝ 2 ⎠ e e\nthe sign change indicates a point of inflexion. R1\n[5 marks]\n(c) (i) fx is concave up for () x > −. 1 A1\n(ii) fx is concave down for () x < −. 1 A1\n[2 marks]\n(d)\nA1A1A1A1\nNote: Award A1 for P and Q, with Q above P,\nA1 for asymptote at y = 0 ,\nA1 for (0, 0) ,\nA1 for shape.\n[4 marks]\n(e) Show true for n = 1 (M1)\n2 x 2 x f ′ () x = e + 2e x A1\n2 x 0 2 x = e(1 + 2) x = (2 x + 2)e\nAssume true for n = k , i.e. f () k x = (2 k x + k × 2 k − 1 )e 2 x , k ≥ 1 M1A1\nd\nConsider n = k +, i.e. an attempt to find 1 ( kf () x ) . M1\nd x\n( k + k 2 x 2 x k k − 1 f 1)() x = 2e + 2e(2 x + k × 2 ) A1\n= ( 2 k + 2(2 k x + k × 2 k − 1 )e ) 2 x\n= (2 × 2 k x + 2 k + k ×× 2 2 k − 1 )e 2 x\nk + 1 k k 2 x = (2 x + 2 + k × 2)e A1\nk + 1 k 2 x = ( 2 x + ( k + 1)2 ) e A1\nPn is true for k ⇒ () Pn is true for () k +, and since true 1\n+ for n =, result proved by mathematical induction 1 ∀∈� n R1\nNote: Only award R1 if a reasonable attempt is made to prove the ( k + 1) th step.\n[9 marks]\nTotal [27 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.7",
+    "1.15",
+    "2.3",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "The function $f$ is defined by $f(x) = x\\mathrm{e}^{2x}$.\nIt can be shown that $f^{(n)}(x) = (2^n x + n2^{n-1})\\mathrm{e}^{2x}$ for all $n \\in \\mathbb{Z}^+$, where $f^{(n)}(x)$ represents the $n^{\\text{th}}$ derivative of $f(x)$.\n(a) By considering $f^{(n)}(x)$ for $n = 1$ and $n = 2$, show that there is one minimum point P on the graph of $f$, and find the coordinates of P. [7 marks]\n(b) Show that $f$ has a point of inflexion Q at $x = -1$. [5 marks]\n(c) Determine the intervals on the domain of $f$ where $f$ is\n(i) concave up;\n(ii) concave down. [2 marks]\n(d) Sketch $f$, clearly showing any intercepts, asymptotes and the points P and Q. [4 marks]\n(e) Use mathematical induction to prove that $f^{(n)}(x) = (2^n x + n2^{n-1})\\mathrm{e}^{2x}$ for all $n \\in \\mathbb{Z}^+$, where $f^{(n)}(x)$ represents the $n^{\\text{th}}$ derivative of $f(x)$. [9 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 13]\nA gourmet chef is renowned for her spherical shaped soufflé. Once it is put in the oven,\nits volume increases at a rate proportional to its radius.\n(a) Show that the radius r cm of the soufflé, at time t minutes after it has been put in\nr k the oven, satisfies the differential equation d\n= , where k is a constant. [5 marks]\nd t r\n(b) Given that the radius of the soufflé is 8 cm when it goes in the oven, and 12 cm\nwhen it’s cooked 30 minutes later, find, to the nearest cm, its radius after\n15 minutes in the oven. [8 marks]",
+   "ms_text": "d V\n13. (a) cr A1 t=\nd\n4 3\nV = π r\n3\nd V d r\n=π 4 r 2 M1A1\nd t d t\n2d r\n⇒π = 4 r cr M1\nd t\nd r c\n⇒ = A1\nd t 4 π r\nk\n= AG\nr\n[5 marks]\nd r k\n= (b)\nd t r\n⇒ = ∫ rr d ∫ kt d M1\n2 r\n= kt + d A1\n2\nAn attempt to substitute either t = 0, r = 8 or t = 30, r = 12 M1\n= = When t 0, r 8\n⇒ d = 32 A1\n2 r\n⇒ = kt + 32\n2\nWhen t = 30, r = 12\n12 2\n⇒ = 30 k + 32\n2\n4\n⇒ k = A1\n3\n2 r 4\n∴ = t + 32\n2 3\n2\nWhen t = 15 , r= 415 + 32 M1\n2 3\n2 ⇒ r = 104 A1\nr ≈ 10 cm A1\nNote: Award M0 to incorrect methods using proportionality which give\nsolution r = 10 cm .\n[8 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "A gourmet chef is renowned for her spherical shaped soufflé. Once it is put in the oven, its volume increases at a rate proportional to its radius.\n(a) Show that the radius $r$ cm of the soufflé, at time $t$ minutes after it has been put in the oven, satisfies the differential equation $\\frac{\\mathrm{d}r}{\\mathrm{d}t} = \\frac{k}{r}$, where $k$ is a constant. [5 marks]\n(b) Given that the radius of the soufflé is 8 cm when it goes in the oven, and 12 cm when it's cooked 30 minutes later, find, to the nearest cm, its radius after 15 minutes in the oven. [8 marks]"
+  }
+ ],
+ "status": "done"
+}

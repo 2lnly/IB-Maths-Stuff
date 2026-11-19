@@ -1,0 +1,295 @@
+{
+ "exam_id": "math-2021-M-P1-TZ2",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2021,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2021 May Examination Session/Mathematics_analysis_and_approaches_paper_1__TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2021 May Examination Session/Mathematics_analysis_and_approaches_paper_1__TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2221-7111; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2021-M-P1-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nConsider two consecutive positive integers, n and n+1 .\nShow that the difference of their squares is equal to the sum of the two integers.",
+   "ms_text": "1. attempt to subtract squares of integers (M1)\n2 2\n( n + 1 ) − n\nEITHER\n2\ncorrect order of subtraction and correct expansion of ( n + 1 ) , seen anywhere A1A1\n2 2 = n + 2 n +− 1 n ( = 2 n + 1 )\nOR\ncorrect order of subtraction and correct factorization of difference of squares A1A1\n= ( n +− 1 n )( n ++ 1 n )( = 2 n + 1 )\nTHEN\n= n + n + 1 =RHS A1\nNote: Do not award final A1 unless all previous working is correct.\n+ which is the sum of n and n 1 AG\nNote: If expansion and order of subtraction are correct, award full marksfor\ncandidates who find the sum of the integers as2 n + 1 and then show that\nthe difference of the squares (subtracted in the correct order) is 2 n + 1 .\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nConsider two consecutive positive integers, $n$ and $n+1$.\nShow that the difference of their squares is equal to the sum of the two integers."
+  },
+  {
+   "id": "math-2021-M-P1-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nSolve the equation 2 cos2x+5 sinx=4 , 0≤x≤2π .",
+   "ms_text": "2 =− 2 2. (a) attempt to use cos x 1sin x M1\n2 − + = 2sin x 5sin x 2 0 A1\nEITHER\nattempting to factorise M1\n( − )( − ) 2sin x 1sin x 2 A1\nOR\nattempting to use the quadratic formula M1\n2 5 ± 5 −×× 422 5 ± 3\nsin x = = A1\n4 4\nTHEN\n1\n(A1) sin x =\n2\nπ5π\nA1A1 x = ,\n6 6\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nSolve the equation $2\\cos^2 x + 5\\sin x = 4$, $0 \\le x \\le 2\\pi$."
+  },
+  {
+   "id": "math-2021-M-P1-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nIn the expansion of (x+k)7, where k ∈ϒ , the coefficient of the term in x5 is 63 .\nFind the possible values of k .",
+   "ms_text": "3. EITHER\n7\nattempt to use the binomial expansion of ( x + k ) (M1)\n7 7 0 7 6 1 7 5 2 7 0 7 5 1 7 5 2 Cxk + C xk + Cxk + ... (or 7 Ckx + C kx + Ckx + ... )\n0 1 2 0 1 2\n5 2 2 5 identifying the correct term 7 Cxk (or7\nCkx) (A1)\n2 5\nOR\nr 7 r r 7 r attempt to use the general term 7 Cxk−(or7 C kx−) (M1)\nr r\nr = 2 (or r = 5 ) (A1)\nTHEN\n7 C= 21 (or 7 C= 21 ) (seen anywhere) (A1)\n2 5\n5 2 5 2 2 21 xk = 63 x (21 k= 63 , k= 3) A1\nk = ± 3 A1\nNote: If working shown, award M1A1A1A1A0 for k = 3 .\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nIn the expansion of $(x+k)^7$, where $k \\in \\mathbb{R}$, the coefficient of the term in $x^5$ is $63$.\nFind the possible values of $k$."
+  },
+  {
+   "id": "math-2021-M-P1-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 9]\nConsider the function f defined by f(x)=ln(x2-16) for x>4 .\nThe following diagram shows part of the graph of f which crosses the x-axis at point A, with\ncoordinates (a ,0 ). The line L is the tangent to the graph of f at the point B.\ny x= 4\nL\nf\nB\nx\nA(a, 0)\n(a) Find the exact value of a .\b [3]\nGiven that the gradient of L is 1 , find the x-coordinate of B.\b\n(b) [6]\n3",
+   "ms_text": "( 2 ) 4. (a) ln x− 16 = 0 (M1)\n0 2 e = x − 16 ( = 1 )\nx= 2 x = ± 17 OR 17 (A1)\na = 17 A1\n[3 marks]\n1\n(b) attempt to differentiate (must include 2x and/or ) (M1)\nx− 2 16\n2 x\nf ′ () x = A1\nx 2 − 16\n1\nsetting their derivative = M1\n3\n2 x 1\n=\n2 x − 16 3\n2 2 x − 16 = 6 x OR x − 6 x − 16 = 0 (or equivalent) A1\nvalid attempt to solvetheirquadratic (M1)\nx = 8 A1\nNote: Award A0 if the candidate’s final answer includes additional solutions\n(such as x = − 2, 8 ).\n[6 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.4",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 9]\nConsider the function $f$ defined by $f(x) = \\ln(x^2 - 16)$ for $x > 4$.\nThe following diagram shows part of the graph of $f$ which crosses the $x$-axis at point A, with coordinates $(a, 0)$. The line $L$ is the tangent to the graph of $f$ at the point B.\n[Diagram: graph of f with vertical asymptote x = 4, crossing the x-axis at A(a, 0); line L tangent to the curve at B]\n(a) Find the exact value of $a$. [3]\n(b) Given that the gradient of $L$ is $\\frac{1}{3}$, find the $x$-coordinate of B. [6]",
+   "review_note": "audit: chain rule on ln is SL 5.6, not 5.15"
+  },
+  {
+   "id": "math-2021-M-P1-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 4]\nGiven any two non-zero vectors, a and b , show that | a×b |2=| a |2| b |2-(a⋅b)2 .",
+   "ms_text": "5. METHOD 1\nab × = ab sinθ use of on the LHS (M1)\n2 2 2 2\nab × = a b sinθ A1\n2 2 2\n= a b ( 1cosθ − ) M1\n2 2 2 2 2 2 2 2\n= a b − a b cosθ OR = a b − ( ab cosθ ) A1\n2 2 2\n= a b − ( ab ⋅ ) AG\nMETHOD 2\nab ⋅= ab cosθ use of on the RHS (M1)\n2 2 2 2 2\n= a b − a b cosθ A1\n2 2 2\n= a b ( 1cosθ − ) M1\n2 2 2 2\n=a b sinθ OR ( =ab sinθ ) A1\n2\n= a × b AG\nNote: If candidates attempt this question using cartesian vectors, e.g\na b\n1 1\na = a and b = b ,\n2 2\na b\n3 3\naward full marks if fully developed solutions are seen.\nOtherwise award no marks.\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.13",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 4]\nGiven any two non-zero vectors, $\\boldsymbol{a}$ and $\\boldsymbol{b}$, show that $|\\boldsymbol{a} \\times \\boldsymbol{b}|^2 = |\\boldsymbol{a}|^2 |\\boldsymbol{b}|^2 - (\\boldsymbol{a} \\cdot \\boldsymbol{b})^2$."
+  },
+  {
+   "id": "math-2021-M-P1-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nThe following diagram shows triangle ABC, with AB = 10 , BC =x and AC=2x .\ndiagram not to scale\n10\nA B\nx\n2x\nC\n3\nˆ Given that cosC = , find the area of the triangle.\n4\npq where p ,q∈′+ .\nGive your answer in the form\n2",
+   "ms_text": "6. METHOD 1\nattempt to use the cosine rule to find the value of x (M1)\n3\n2 2 x 100 = x + 4 x − 2 ()( x 2 )\nA1\n4\n2 2 x= 100\nx= 2 x = ( = ) 50 OR 50 52 A1\nsinC(seen anywhere) ˆ attempt to find (M1)\n2\n3 2\nˆ 2 2 2 sin C + = 1\nor x+ 3 = 4 OR right triangle with side 3 and hypotenuse 4\n4\n7\nC = ˆ sin (A1)\n4\nˆ Note: The marks for finding sinCmay be awarded independently of the first three\nmarks for finding x .\n2 correct substitution into the area formula using their value of x (or x)\nˆ\nand their value of sinC (M1)\n1 7 1 7\nA = × × × A = × × × 52102 or 50 250\n2 4 2 4\n257\nA = A1\n2\nMETHOD 2\nattempt to find the height, h , of the triangle in terms of x (M1)\n2 2\n3 5 7 2 2 2 2\nh + x = x OR h + x = 10 OR h = x A1\n4 4 4\n2 equating their expressions for either h or h (M1)\n2 2\n25 7\n2 3 2 5 2 x − x = 10 − x OR 100 − x = x (or equivalent) A1\n4 4 16 4\n2 ( ) x= 50 OR x = 50 = 52 A1\n2 correct substitution into the area formula using their value of x (or x) (M1)\n1 7 1 7\n( ) A = × 250 × 50 OR A = 252 × 52\n2 4 2 4\n257\nA = A1\n2\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nThe following diagram shows triangle ABC, with AB $= 10$, BC $= x$ and AC $= 2x$.\n[Diagram: triangle ABC (not to scale) with AB = 10, BC = x, AC = 2x]\nGiven that $\\cos \\hat{C} = \\frac{3}{4}$, find the area of the triangle.\nGive your answer in the form $\\frac{p\\sqrt{q}}{2}$ where $p, q \\in \\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2021-M-P1-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 5]\nThe cubic equation x3-kx2+3k=0 where k>0 has roots α , β and α+β .\nGiven that ����k 2 , find the value of k .\n4",
+   "ms_text": "7. α + β + α + β = k (A1)\nk\nα + β =\n2\nαβα ( + β ) = − 3k (A1)\n2 3 k k k\n− = − − = − M1 3 k 3 k\n4 2 8\n3\nk\nattempting to solve − + 3 k = 0 (or equivalent) for k (M1)\n8\nk = 26 ( = 24 )( k > 0 ) A1\nNote: Award A0 for k= ± 26 ( ± 24 ) .\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 5]\nThe cubic equation $x^3 - kx^2 + 3k = 0$ where $k > 0$ has roots $\\alpha$, $\\beta$ and $\\alpha + \\beta$.\nGiven that $\\alpha\\beta = -\\frac{k^2}{4}$, find the value of $k$."
+  },
+  {
+   "id": "math-2021-M-P1-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\nThe lines l1 and l2 have the following vector equations where λ ,µ∈ϒ .\n� 3 � � 2 �\n� � � �\n2 2 l1 : r� � � �\n1\n�� �� �� ��\n� 1 2 � � � �\n� 2 � � 1 �\n� � � �\n0 � � � 1 l2 : r�\n2\n�� �� �� ��\n4 1\n� � � �\n(a) Show that l1 and l2 do not intersect.\b [3]\n(b) Find the minimum distance between l1 and l2 .\b [5]",
+   "ms_text": "8. (a) METHOD 1\nequal M1 setting at least two components of 1land 2l\n3 + 2 λ = 2 + μ 1 ()\n2 − 2 λ = − μ 2 ()\n−+ 1 2 λ = 4 + μ 3 ()\nattempt to solve two of the equations eg. adding () 1 and () 2 M1\ngives a contradiction (no solution), eg 5 = 2 R1\ndo not intersect AG so 1land 2l\nNote: For an error within the equations awardM0M1R0.\nNote: The contradiction must be correct to awardtheR1.\n[3 marks]\nMETHOD 2\n1land 2l are parallel, so 1land 2l are either identical or distinct. R1\nAttempt to subtract two position vectors from each line,\n3 2 1\ne.g. 2 − 0 = 2 M1\n− − 1 4 5\n3 1\n2 ≠ k − 1 A1\n− 1 1\n[3 marks]\n(b) METHOD 1\n2 1\n1land 2l are parallel (as − 2 is a multiple of − 1 )\n2 1\nlet A be ( 3,2,1 − ) on 1land let B be ( 2,0,4 ) on 2l\n→ − 1\nAttempt to find vector AB =− 2 (M1)\n5\n→\nv × AB\nDistance required is M1\nv\n1 − 1\n1\n− ×− = 1 2 (A1)\n3\n1 5\n3\n1\n= 6 A1\n3\n3\nminimum distance is 18 ( = 32 ) A1\n[5 marks]\nMETHOD 2\n2 1\n1land 2l are parallel (as − 2 is a multiple of − 1 )\n2 1\nlet A be a fixed point on 1leg ( 3,2,1 − ) and let B be a general point on 2l( 2 + μ , − μ ,4 + μ )\n→\nattempt to find vector AB (M1)\n− 1 1\n→\nAB =− 2 + μ − 1 ( μ ∈ ) A1\n5 1\n→\n2 2 2 2 )\nAB = ( −+ 1 μ ) +−− ( 2 μ ) + ( 5 + μ )( = 3 μ + 12 μ + 30 M1\nEITHER\n2\nd → =\nAB 0 ⇒ 6 μ + 12 = 0 ⇒ μ = − 2 A1\nd μ\nOR\n→\n2\n( ) μ= − AB = 3 μ + 2 + 18 to obtain 2 A1\nTHEN\n( ) minimum distance is 18 = 32 A1\n[5 marks]\nMETHOD 3\nlet A be ( 3,2,1 − ) on 1land let B be ( 2 + μ , − μ ,4 + μ ) on 2l (M1)\n(orlet A be ( ) and let B be ( ) 2,0,4 on 2l 3 + 2,2 λ − 2,1 λ −+ 2 λ on 1l)\n− λ + 1 1 2 1\n→ →\nAB =− 2 + μ − 1 ( μ ∈ ) (or AB =− 2 λ + 2 ) A1\n5 1 2 λ − 5\nμ − 1 1 2 λ + 1 1\n− μ − − = (or − λ + − = ) M1 2. 1 0 2 2. 1 0\nμ + 5 1 2 λ − 5 1\nμ= − 2 or λ= 1 A1\nminimum distance is 18 ( = 32 ) A1\n[5 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.16",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\nThe lines $l_1$ and $l_2$ have the following vector equations where $\\lambda, \\mu \\in \\mathbb{R}$.\n$l_1: \\boldsymbol{r}_1 = \\begin{pmatrix} 3 \\\\ 2 \\\\ -1 \\end{pmatrix} + \\lambda \\begin{pmatrix} 2 \\\\ -2 \\\\ 2 \\end{pmatrix}$\n$l_2: \\boldsymbol{r}_2 = \\begin{pmatrix} 2 \\\\ 0 \\\\ 4 \\end{pmatrix} + \\mu \\begin{pmatrix} 1 \\\\ -1 \\\\ 1 \\end{pmatrix}$\n(a) Show that $l_1$ and $l_2$ do not intersect. [3]\n(b) Find the minimum distance between $l_1$ and $l_2$. [5]"
+  },
+  {
+   "id": "math-2021-M-P1-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\nsincos x x\nBy using the substitution u=sinx , find d x . ∫\n2 − − sin x sin x 2",
+   "ms_text": "9. u = sin x ⇒ d u = cos d xx (or equivalent) A1\nu\n= ∫ d u A1\n2 u − u − 2\nattempt to use partial fractions M1\nu A B\n≡ + ⇒ u ≡ Au ( − 2 ) + Bu ( + 1 )\n( + )( − ) + − u 1 u 2 u 1 u 2\nValid attempt to solve for A and B (M1)\n1 2\nA = and B = A1\n3 3\nu 1 2\n≡ +\n( u + 1 )( u − 2 ) 3 ( u + 1 ) 3 ( u − 2 )\n1 2 1 2\n+ d u = ln u ++ 1 ln u − 2 ( + C ) ∫ (or equivalent) A1\n3 ( u + 1 ) 3 ( u − 2 ) 3 3\n+ Note: Condone the absence of C or lack of moduli here but not in the final answer.\n1 2\n= lnsin x + 1 + lnsin x − 2 + C A1\n3 3\nNote: Condone further simplification of the correct answer.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.16",
+    "1.11",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nBy using the substitution $u = \\sin x$, find $\\int \\frac{\\sin x \\cos x}{\\sin^2 x - \\sin x - 2} \\, dx$."
+  },
+  {
+   "id": "math-2021-M-P1-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 15]\nConsider the function f defined by f(x)=6+6 cosx , for 0≤x≤4π .\nThe following diagram shows the graph of y=f(x) .\ny\nf\nx\nA B\nThe graph of f touches the x-axis at points A and B, as shown. The shaded region is\nenclosed by the graph of y=f(x) and the x-axis, between the points A and B.\n(a) Find the x-coordinates of A and B.\b [3]\n(b) Show that the area of the shaded region is 12π .\b [5]\nThe right cone in the following diagram has a total surface area of 12π , equal to the shaded\narea in the previous diagram.\nThe cone has a base radius of 2, height h , and slant height l .\ndiagram not to scale\nl\nh\n2\n(c) Find the value of l .\b [3]\n(d) Hence, find the volume of the cone.\b [4]",
+   "ms_text": "10. (a) 6 + 6cos x = 0 (or setting their f ′ () x = 0 ) (M1)\ncos x = − 1 (or sin x = 0 )\nx = π, x = 3π A1A1\n[3 marks]\n3π\n(b) attempt to integrate ( ∫ 6 + 6cos xx ) d (M1)\nπ\n3π\n[ ] = 6 x + 6sin x A1A1\nπ\nsubstitute their limits into their integrated expression and subtract (M1)\n= ( 18π + 6sin3π )( − 6π + 6sin π )\n= ( 63π ( ) + 0 )( − 6π + 0 ) ( = 18π − 6π ) A1\narea12π = AG\n[5 marks]\n(c) attempt to substitute into the formula for surface area (including base) (M1)\n2 π2 ( ) + π2 ()() l = 12π (A1)\n4π + 2π l = 12π\n2π l = 8π\nl = 4 A1\n[3 marks]\n(d) valid attempt to find the height of the cone (M1)\n2\ne.g. 2 2 + h 2 = ( their l )\n( ) h = 12 = 23 (A1)\n1 2\nattempt to use V = π rh with their values substituted M1\n3\n1 π2 ( 2 )( ) 12\n3\n4π12 8π3 8π\nvolume = = = A1\n3 3 3\n[4 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.1",
+    "5.11",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 15]\nConsider the function $f$ defined by $f(x) = 6 + 6\\cos x$, for $0 \\le x \\le 4\\pi$.\nThe following diagram shows the graph of $y = f(x)$.\n[Graph: y = f(x) touching the x-axis at A and B; region between the curve and the x-axis from A to B shaded]\nThe graph of $f$ touches the $x$-axis at points A and B, as shown. The shaded region is enclosed by the graph of $y = f(x)$ and the $x$-axis, between the points A and B.\n(a) Find the $x$-coordinates of A and B. [3]\n(b) Show that the area of the shaded region is $12\\pi$. [5]\nThe right cone in the following diagram has a total surface area of $12\\pi$, equal to the shaded area in the previous diagram.\nThe cone has a base radius of 2, height $h$, and slant height $l$.\n[Diagram: right cone (not to scale) with base radius 2, height h, slant height l]\n(c) Find the value of $l$. [3]\n(d) Hence, find the volume of the cone. [4]"
+  },
+  {
+   "id": "math-2021-M-P1-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\nThe acceleration, ams-2, of a particle moving in a horizontal line at time t seconds, t≥0 , is\ngiven by a=-(1+v) where vms-1 is the particle’s velocity and v>-1.\nAt t=0 , the particle is at a fixed origin O and has initial velocity v0ms-1 .\n(a) By solving an appropriate differential equation, show that the particle’s velocity at time t\nis given by v (t )=(1+v0)e-t-1 .\b [6]\n(b) Initially at O, the particle moves in the positive direction until it reaches its maximum\ndisplacement from O. The particle then returns to O.\nLet s metres represent the particle’s displacement from O and smax its maximum\ndisplacement from O.\n(i) Show that the time T taken for the particle to reach smax satisfies the\nequation eT= 1 +v0 .\n(ii) By solving an appropriate differential equation and using the result from part\n(b) (i), find an expression for smax in terms of v0 .\b [7]\nLet v(T-k) represent the particle’s velocity k seconds before it reaches smax , where\nv(T-k)=(1+v0)e-(T-k)-1 .\n(c) By using the result to part (b) (i), show that v(T-k)=ek-1 .\b [2]\nSimilarly, let v(T+k) represent the particle’s velocity k seconds after it reaches smax .\n(d) Deduce a similar expression for v(T+k) in terms of k .\b [2]\n(e) Hence, show that v(T-k)+v(T+k)≥0 .\b [3]",
+   "ms_text": "d v\n11. (a) ( + ) (A1)\nt= − 1 v\nd\n1\n(or equivalent / use of integrating factor) M1 ∫ 1d t = ∫ d v\n−+\n1 v\nt = − ln1 ( + v )( + C ) A1\nEITHER\nattempt to find C with initial conditions t = 0, v = v M1\n0\nC = ln1 ( + v )\n0\n( ) ( ) t = ln1 + v − ln1 + v\n0\n1 + v 1 + v\n0 t 0 t = ln ⇒ e =\nA1\n+ + 1 v 1 v\nt ( + ) =+\ne1 v 1 v\n0\n−\n1 + v = ( 1 + v ) et A1\n0\n− t\nvt () = ( 1 + v ) e − 1 AG\n0\nOR\n1\n− = − ( + ) ⇒ tC − = t C ln1 v e\n( 1 + v )\nAttempt to findCwith initial conditions t = 0, v = v M1\n0\n1\ne −= C ⇒ C = ln1 ( + v )\n0 (\n1 + v )\n0\nt − ln(1 + v ) = − ln1 ( + v ) ⇒= t ln(1 + v ) − ln1 ( + v )\n0 0\n1 + v 1 + v\n0 t 0 t = ln ⇒ e =\nA1\n+ + 1 v 1 v\nt\ne1 ( + v ) =+ 1 v\n0\n−\n1 + v = ( 1 + v ) et A1\n0\n() ( ) − t vt = 1 + v e − 1 AG\n0\nOR\n( ) −+ tC t − C = − ln1 + v ⇒ e =+ 1 v A1\nt k e −−= 1 v\nAttempt to find k with initial conditions t = 0, v = v M1\n0\n=+ k 1 v\n0\n− t\ne ( 1 + v ) =+ 1 v A1\n0\n() ( ) − t vt = 1 + v e − 1 AG\n0\nNote: condone use of modulus within the ln function(s)\n[6 marks]\n(b) (i) recognition that when t = Tv , = 0 M1\n1\n( ) − T − T 1 + v e −= 1 0 ⇒ e A1\n0 =+\n1 v\n0\nT =+\ne 1 v AG\n0\nT v= − into vand showing that\nNote: Award M1A0 for substituting e 1 v = 0 . 0\n() () ( ( ( ) − t ) ) (ii) st = ∫ vt d t = ∫ 1 + v e − 1 d t (M1)\n0\n= − ( + ) − t − ( + ) 1 v e t D A1\n0\n( t = 0, s = 0 so) D =+ 1 v A1\n0\n− t\nst () = − ( 1 + v ) e −++ t 1 v\n0 0\ns T ( ) at , e =+ 1 v ⇒ T = ln1 + v\nmax 0 0\n− t Substituting into ()\nst ( = − ( 1 + v ) e −++ t 1 v ) M1\n0 0\n1\ns = − ( 1 + v ) − ln1 ( + v ) + v + 1 A1\nmax 0 0 0\n1 + v\n0\n( s = v − ln1 ( + v ) )\nmax 0 0\n[7 marks]\n(c) METHOD 1\n( − )( = + ) − T k − vT k 1 v ee 1 (M1)\n0\n1 k\n= ( 1 + v ) e − 1 A1\n0 +\n1 v\n0\n= k − e 1 AG\n[2 marks]\nMETHOD 2\n− ( Tk − )\nvT ( − k )( = 1 + v ) e − 1\n0\n− ( − ) Tk\n= Te e − 1 M1\nTTk −+ =\ne − 1 A1\n= k − e 1 AG\n[2 marks]\n(d) METHOD 1\n− T − k\nvT ( + k ) = ( 1 + v ) ee − 1 (A1)\n0\n− k =\ne − 1 A1\n[2 marks]\nMETHOD 2\n− ( Tk + )\nvT ( + k )( = 1 + v ) e − 1 (A1)\n0\n− ( Tk + )\n= Te e − 1\n−− = TTk −\ne 1\n− k =\ne − 1 A1\n[2 marks]\n(e) METHOD 1\nk − k\nvT ( − k ) + vT ( + k ) = e + e − 2 A1\nattempt to express as a square M1\n2 k k\n−\n2 2 = e − e ( ≥ 0 ) A1\nso ( ) ( ) vT − k + vT + k ≥ 0 AG\n[3 marks]\nMETHOD 2\nk − k\nvT ( − k ) + vT ( + k ) = e + e − 2 A1\nd\nAttempt to solve ( k + − k ) = ( ⇒ k = 0 ) M1 e e 0\nd k\nminimum value of 2, (when k = 0 ), hence e k + e − k ≥ 2 R1\nso ( − ) + ( + ) ≥ vT k vT k 0 AG\n[3 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.9",
+    "1.7",
+    "1.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 20]\nThe acceleration, $a$ m s$^{-2}$, of a particle moving in a horizontal line at time $t$ seconds, $t \\ge 0$, is given by $a = -(1+v)$ where $v$ m s$^{-1}$ is the particle's velocity and $v > -1$.\nAt $t = 0$, the particle is at a fixed origin O and has initial velocity $v_0$ m s$^{-1}$.\n(a) By solving an appropriate differential equation, show that the particle's velocity at time $t$ is given by $v(t) = (1+v_0)e^{-t} - 1$. [6]\n(b) Initially at O, the particle moves in the positive direction until it reaches its maximum displacement from O. The particle then returns to O.\nLet $s$ metres represent the particle's displacement from O and $s_{\\max}$ its maximum displacement from O.\n(i) Show that the time $T$ taken for the particle to reach $s_{\\max}$ satisfies the equation $e^T = 1 + v_0$.\n(ii) By solving an appropriate differential equation and using the result from part (b)(i), find an expression for $s_{\\max}$ in terms of $v_0$. [7]\nLet $v(T-k)$ represent the particle's velocity $k$ seconds before it reaches $s_{\\max}$, where\n$v(T-k) = (1+v_0)e^{-(T-k)} - 1$.\n(c) By using the result to part (b)(i), show that $v(T-k) = e^k - 1$. [2]\nSimilarly, let $v(T+k)$ represent the particle's velocity $k$ seconds after it reaches $s_{\\max}$.\n(d) Deduce a similar expression for $v(T+k)$ in terms of $k$. [2]\n(e) Hence, show that $v(T-k) + v(T+k) \\ge 0$. [3]"
+  },
+  {
+   "id": "math-2021-M-P1-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 19]\narctan2 1 � for x∈ϒ , with asymptotes The following diagram shows the graph of y � � x � ��\n4\nπ 3 π\nat y = − and y = .\n4 4\ny\n3π\ny =\n4\nx\nπ\ny = −\n4\nDescribe a sequence of transformations that transforms the graph of y=arctan x to the (a)\narctan2 � 1 �� � for x∈ϒ .\b graph of y � x � [3]\n4\np + q\n(b) Show that arctan p + arctan q ≡ where p ,q>0 and pq<1 .\b [4]\narctan1\n− pq\n� x �\n(c) Verify that arctan � 2 x � 1 �� arctan [3] ���� for x∈ϒ,x>0 .\b\n�� � 1 4 x\n(d) Using mathematical induction and the result from part (b), prove that\nn 1 n\n= ∑ arctan arctan for n∈′+ .\b [9]\n2 2 r n + 1\nr = 1\n\b",
+   "ms_text": "12. (a) EITHER\nhorizontal stretch/scaling with scale factor 1\n2\nNote: Do not allow ‘shrink’ or ‘compression’\nfollowed by a horizontal translation/shift 1 units to the left A2\n2\nNote: Do not allow ‘move’\nOR\nhorizontal translation/shift 1 unit to the left\nfollowed by horizontal stretch/scaling with scale factor 1 A2\n2\nTHEN\n0\nvertical translation/shift up by π (or translation through\nπ ) A1\n4\n4\n(may be seen anywhere)\n[3 marks]\nα= (b) let arctan p and β= arctan q M1\n= α p tan and q = tan β (A1)\np + q\ntan ( α + β ) = A1\n1 − pq\np + q\nα + β = arctan A1\n1 − pq\np + q\nso arctan p + arctan q ≡ where , pq > 0 and pq < 1 AG\narctan1 −\npq\n[4 marks]\n(c) METHOD 1\nπ\narctan1 (or equivalent) A1 4=\nx\n+ 1\nx x + 1\narctan + arctan1 = arctan A1\nx + 1 x\n1 − () 1\nx + 1\nx + x + 1\nx + 1\n= arctan A1\nx +− 1 x\n+ x 1\n= arctan2 ( x + 1 ) AG\n[3 marks]\nMETHOD 2\nπ\ntan 1 (or equivalent) A1 4=\nx π\narctan2 ( x + 1 ) − arctan = Consider\nx + 1 4\nx\n( ) tanarctan2 x + 1 − arctan\nx + 1\nx\n2 x +− 1\nx + 1\n= arctan A1\n( ) x 2 x + 1\n1 +\n+ x 1\n( 2 x + 1 )( x + 1 ) − x\n= arctan A1\n( ) x ++ 1 x 2 x + 1\n= arctan1 AG\n[3 marks]\nMETHOD 3\nx π\ntanarctan2 ( ( x + 1 ) ) = tanarctan +\nx + 1 4\nπ\ntan 1 (or equivalent) A1 4=\nLHS =2 x + 1 A1\nx\n+ 1\nx + 1\nRHS = ( = 2 x + 1 ) A1\nx\n1 −\nx + 1\n[3 marks]\nn 1 n\nlet () = + (d) Pn be the proposition that ∑ arctan arctan for n ∈\n2 2 r n + 1\nr = 1\nconsider () P1:\n1 1 1\nwhen n = 1 , ∑ arctan = arctan = RHS and so () P1 is true R1\n2\nr = 1 2 r 2\nk 1 k\n+ assume ()\nPk is true, ie. ∑ arctan = arctan ( k ∈ ) M1\n2 +\nr = 1 2 r k 1\nNote: Award M0 for statements such as “let n = k ”.\nNote: Subsequent marks after this M1 are independent of this mark and can be\nawarded.\nconsider ( P k + 1 ) :\nk + 1 1 k 1 1\n∑ arctan = ∑ arctan + arctan (M1)\n2 2 2 2 r 2 r\n2 ( k + 1 ) r = 1 r = 1\nk 1\n= + arctan arctan A1\n2\nk + 1 2 ( k + 1 )\nk 1\n+\n2 k + 1\n( ) 2 k + 1\n= arctan M1\nk 1\n1 −\n2 k + 1\n( ) 2 k + 1\n( )( 2 ) k + 12 k + 2 k + 1\n= arctan A1\n3\n2 ( k + 1 ) − k\nNote: Award A1 for correct numerator, with (k + 1) factored. Denominator does not\nneed to be simplified\n( + )( 2 + + ) k 12 k 2 k 1\n= arctan A1\n3 + 2 + + 2 k 6 k 5 k 2\nNote: Award A1 for denominator correctly expanded. Numerator does not need to\nbe simplified. These two A marks may be awarded in any order\n2 ( k + 12 )( k + 2 k + 1 )\nk + 1\n= arctan = arctan A1\n2 ( k + 2 )( 2 k + 2 k + 1 ) k + 2\nNote: The word ‘arctan’ must be present to be able to award the last three A marks\nP ( k + 1 ) is true whenever () Pk is true and () P1 is true, so\nPn () is true for n ∈ + R1\nNote: Award the final R1 mark provided at least four of the previous marks have\nbeen awarded.\nNote: To award the final R1, the truth of () Pk must be mentioned. ‘() Pkimplies\nP ( k + 1 ) ’ is insufficient to award the mark.\n[9 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "1.15",
+    "3.10",
+    "3.9",
+    "2.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 19]\nThe following diagram shows the graph of $y = \\arctan(2x+1) + \\frac{\\pi}{4}$ for $x \\in \\mathbb{R}$, with asymptotes at $y = -\\frac{\\pi}{4}$ and $y = \\frac{3\\pi}{4}$.\n[Graph: increasing curve between horizontal asymptotes y = -π/4 and y = 3π/4]\n(a) Describe a sequence of transformations that transforms the graph of $y = \\arctan x$ to the graph of $y = \\arctan(2x+1) + \\frac{\\pi}{4}$ for $x \\in \\mathbb{R}$. [3]\n(b) Show that $\\arctan p + \\arctan q \\equiv \\arctan\\left(\\frac{p+q}{1-pq}\\right)$ where $p, q > 0$ and $pq < 1$. [4]\n(c) Verify that $\\arctan(2x+1) = \\arctan\\left(\\frac{x}{x+1}\\right) + \\frac{\\pi}{4}$ for $x \\in \\mathbb{R}$, $x > 0$. [3]\n(d) Using mathematical induction and the result from part (b), prove that $\\sum_{r=1}^{n} \\arctan\\left(\\frac{1}{2r^2}\\right) = \\arctan\\left(\\frac{n}{n+1}\\right)$ for $n \\in \\mathbb{Z}^+$. [9]"
+  }
+ ],
+ "status": "done"
+}

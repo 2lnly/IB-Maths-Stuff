@@ -1,0 +1,29 @@
+{
+  "exam_id": "math-2016-N-P3-calculus",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.18", "5.15"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 11]\nConsider the differential equation $\\frac{dy}{dx} + \\left(\\frac{2x}{1+x^2}\\right)y = x^2$, given that $y = 2$ when $x = 0$.\n(a) Show that $1 + x^2$ is an integrating factor for this differential equation. [5]\n(b) Hence solve this differential equation. Give the answer in the form $y = f(x)$. [6]"
+    },
+    "2": {
+      "topics": ["5"],
+      "subtopics": ["5.19", "5.L2", "5.6"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 18]\n(a) By successive differentiation find the first four non-zero terms in the Maclaurin series for $f(x) = (x+1)\\ln(1+x) - x$. [11]\n(b) Deduce that, for $n \\ge 2$, the coefficient of $x^n$ in this series is $(-1)^n \\frac{1}{n(n-1)}$. [1]\n(c) By applying the ratio test, find the radius of convergence for this Maclaurin series. [6]"
+    },
+    "3": {
+      "topics": ["5", "3"],
+      "subtopics": ["5.13", "5.L1", "5.15", "3.2"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 15]\n(a) Using l'H\u00f4pital's rule, find $\\lim_{x \\to \\infty} \\left( \\frac{\\arcsin\\left(\\frac{1}{\\sqrt{(x+1)}}\\right)}{\\frac{1}{\\sqrt{x}}} \\right)$. [6]\nConsider the infinite spiral of right angle triangles as shown in the following diagram.\n[Diagram: spiral of right-angled triangles sharing a common vertex; first triangle has legs 1 and 1 with hypotenuse $a_1$ and central angle $\\theta_1$; each subsequent triangle has the previous hypotenuse as adjacent side, opposite side 1, hypotenuse $a_2$, $a_3$, ... and central angles $\\theta_2$, $\\theta_3$, ...]\nThe $n$th triangle in the spiral has central angle $\\theta_n$, hypotenuse of length $a_n$ and opposite side of length 1, as shown in the diagram. The first right angle triangle is isosceles with the two equal sides being of length 1.\n(b) (i) Find $a_1$ and $a_2$ and hence write down an expression for $a_n$.\n(ii) Show that $\\theta_n = \\arcsin\\frac{1}{\\sqrt{(n+1)}}$. [3]\nConsider the series $\\sum_{n=1}^{\\infty} \\theta_n$.\n(c) Using a suitable test, determine whether this series converges or diverges. [6]"
+    },
+    "4": {
+      "topics": ["5"],
+      "subtopics": ["5.L4", "5.L3", "5.6"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 16]\n(a) State the mean value theorem for a function that is continuous on the closed interval $[a, b]$ and differentiable on the open interval $]a, b[$. [2]\nLet $f(x)$ be a function whose first and second derivatives both exist on the closed interval $[0, h]$.\nLet $g(x) = f(h) - f(x) - (h-x)f'(x) - \\frac{(h-x)^2}{h^2}\\left(f(h) - f(0) - hf'(0)\\right)$.\n(b) (i) Find $g(0)$.\n(ii) Find $g(h)$.\n(iii) Apply the mean value theorem to the function $g(x)$ on the closed interval $[0, h]$ to show that there exists $c$ in the open interval $]0, h[$ such that $g'(c) = 0$.\n(iv) Find $g'(x)$.\n(v) Hence show that $-(h-c)f''(c) + \\frac{2(h-c)}{h^2}\\left(f(h) - f(0) - hf'(0)\\right) = 0$.\n(vi) Deduce that $f(h) = f(0) + hf'(0) + \\frac{h^2}{2}f''(c)$. [9]\n(c) Hence show that, for $h > 0$\n$1 - \\cos(h) \\le \\frac{h^2}{2}$. [5]"
+    }
+  }
+}

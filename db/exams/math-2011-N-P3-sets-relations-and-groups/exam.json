@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2011-N-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2011,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2011 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2011 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8811-7209; code N11/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches expected total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2011-N-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 20,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 20]\n(a) Consider the following Cayley table for the set G ={, 13579111315 , , , , , , }\nunder the operation ×16 , where ×16 denotes multiplication modulo 16.\n×16 1 3 5 7 9 11 13 15\n1 1 3 5 7 9 11 13 15\n3 3 a 15 5 11 b 7 c\n5 5 15 9 3 13 7 1 11\n7 7 d 3 1 e 13 f 9\n9 9 11 13 g 1 3 5 7\n11 11 h 7 13 3 9 i 5\n13 13 7 1 11 5 j 9 3\n15 15 13 11 9 7 5 3 1\n(i) Find the values of a , b , c , d , e , f , g , h , i and j .\n(ii) Given that ×16 is associative, show that the set G , together with the\noperation ×16, forms a group. [7 marks]\n(b) The Cayley table for the set H ={, ea , a , a , b , b , b , b 4 under the }\n1 2 3 1 2 3\noperation *, is shown below.\ne a1 a2 a3 b1 b2 b3 b4 *\ne e a1 a2 a3 b1 b2 b3 b4\na1 a1 a2 a3 e b4 b3 b1 b2\na2 a2 a3 e a1 b2 b1 b4 b3\na3 a3 a1 a2 b3 b4 b2 b1 e\nb1 b1 b3 b2 b4 e a2 a1 a3\nb2 b2 b4 b1 b3 a2 e a3 a1\nb3 b3 b2 b4 b1 a3 a1 e a2\nb4 b4 b1 b3 b2 a1 a3 a2 e\n(i) Given that * is associative, show that H together with the operation *\nforms a group.\n(ii) Find two subgroups of order 4. [8 marks]\n(c) Show that { G×16 and { , } H , *} are not isomorphic. [2 marks]\n(d) Show that { H is not cyclic. [3 marks] , *}",
+   "ms_text": "1. (a) (i) a = 9, b = 1, c = 13, d = 5, e = 15, f = 11, g = 15, h = 1, i = 15, j = 15 A3\nNote: Award A2 for one or two errors,\nA1 for three or four errors,\nA0 for five or more errors.\n(ii) since the Cayley table only contains elements of the set G, then it is closed A1\nthere is an identity element which is 1 A1\n{3, 11} and {5, 13} are inverse pairs and all other elements are self inverse A1\nhence every element has an inverse R1\nNote: Award A0R0 if no justification given for every element having an inverse.\nsince the set is closed, has an identity element, every element has an\ninverse and it is associative, it is a group AG\n[7 marks]\n(b) (i) since the Cayley table only contains elements of the set H, then it is closed A1\nthere is an identity element which is e A1\nA1 { a , a } form an inverse pair and all other elements are self inverse\n1 3\nhence every element has an inverse R1\nNote: Award A0R0 if no justification given for every element having an inverse.\nsince the set is closed, has an identity element, every element has an\ninverse and it is associative, it is a group AG\n(ii) any 2 of {, ea , a , a } , {, ea , b , b } , {, ea , b , b } A2A2\n1 2 3 2 1 2 2 3 4\n[8 marks]\n(c) the groups are not isomorphic because { H ,} * has one inverse pair\nwhereas {, G× } has two inverse pairs A2\n16\nNote: Accept any other valid reason:\ne.g. the fact that {, G× } is commutative and { H ,} is not.\n16 *\n[2 marks]\n(d) EITHER\na group is not cyclic if it has no generators R1\nfor the group to have a generator there must be an element in the group of\norder eight A1\nelement order\ne 1\n4 1a\n2a 2\n3a 4\n1b 2\n2b 2\n2 3b\n2 4b\nA1 since there is no element of order eight in the group, it is not cyclic\nOR\na group is not cyclic if it has no generators R1\nonly possibilities are a , a since all other elements are self inverse A1\n1 3\nthis is not possible since it is not possible to generate any of the “b” elements\nfrom the “a” elements – the elements a , a , a , a form a closed set A1\n1 2 3 4\n[3 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.8",
+    "7.4",
+    "7.6",
+    "7.9",
+    "7.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 20]\n(a) Consider the following Cayley table for the set $G = \\{1, 3, 5, 7, 9, 11, 13, 15\\}$ under the operation $\\times_{16}$, where $\\times_{16}$ denotes multiplication modulo 16.\n$\\times_{16}$ | 1 | 3 | 5 | 7 | 9 | 11 | 13 | 15\n1 | 1 | 3 | 5 | 7 | 9 | 11 | 13 | 15\n3 | 3 | $a$ | 15 | 5 | 11 | $b$ | 7 | $c$\n5 | 5 | 15 | 9 | 3 | 13 | 7 | 1 | 11\n7 | 7 | $d$ | 3 | 1 | $e$ | 13 | $f$ | 9\n9 | 9 | 11 | 13 | $g$ | 1 | 3 | 5 | 7\n11 | 11 | $h$ | 7 | 13 | 3 | 9 | $i$ | 5\n13 | 13 | 7 | 1 | 11 | 5 | $j$ | 9 | 3\n15 | 15 | 13 | 11 | 9 | 7 | 5 | 3 | 1\n(i) Find the values of $a, b, c, d, e, f, g, h, i$ and $j$.\n(ii) Given that $\\times_{16}$ is associative, show that the set $G$, together with the operation $\\times_{16}$, forms a group. [7 marks]\n(b) The Cayley table for the set $H = \\{e, a_1, a_2, a_3, b_1, b_2, b_3, b_4\\}$ under the operation $*$, is shown below.\n$*$ | $e$ | $a_1$ | $a_2$ | $a_3$ | $b_1$ | $b_2$ | $b_3$ | $b_4$\n$e$ | $e$ | $a_1$ | $a_2$ | $a_3$ | $b_1$ | $b_2$ | $b_3$ | $b_4$\n$a_1$ | $a_1$ | $a_2$ | $a_3$ | $e$ | $b_4$ | $b_3$ | $b_1$ | $b_2$\n$a_2$ | $a_2$ | $a_3$ | $e$ | $a_1$ | $b_2$ | $b_1$ | $b_4$ | $b_3$\n$a_3$ | $a_3$ | $e$ | $a_1$ | $a_2$ | $b_3$ | $b_4$ | $b_2$ | $b_1$\n$b_1$ | $b_1$ | $b_3$ | $b_2$ | $b_4$ | $e$ | $a_2$ | $a_1$ | $a_3$\n$b_2$ | $b_2$ | $b_4$ | $b_1$ | $b_3$ | $a_2$ | $e$ | $a_3$ | $a_1$\n$b_3$ | $b_3$ | $b_2$ | $b_4$ | $b_1$ | $a_3$ | $a_1$ | $e$ | $a_2$\n$b_4$ | $b_4$ | $b_1$ | $b_3$ | $b_2$ | $a_1$ | $a_3$ | $a_2$ | $e$\n(i) Given that $*$ is associative, show that $H$ together with the operation $*$ forms a group.\n(ii) Find two subgroups of order 4. [8 marks]\n(c) Show that $\\{G, \\times_{16}\\}$ and $\\{H, *\\}$ are not isomorphic. [2 marks]\n(d) Show that $\\{H, *\\}$ is not cyclic. [3 marks]"
+  },
+  {
+   "id": "math-2011-N-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\n(a) Determine, using Venn diagrams, whether the following statements are true.\n′ (i) A ′∪ B ′ = ( A ∪ B )\n(ii) ( AB \\ ) ∪ ( BA \\ ) = ( A ∪ B ) \\ ( A ∩ B ) [6 marks]\n(b) Prove, without using a Venn diagram, that AB \\ and BA \\ are disjoint sets. [4 marks]",
+   "ms_text": "2. (a) (i)\nA1\nA1\nsince the shaded regions are different, A ′ ∪ B ′ ≠ ( A ∪ B′ ) R1\n⇒ nottrue\n(ii)\nA1\nA1\n∪ = ∪ ∩ since the shaded regions are the same ( AB \\ ) ( BA \\ ) ( A B ) \\ ( A B ) R1\n⇒ true\n[6 marks]\n(b) AB \\ = A ∩ B ′ and BA \\ = B ∩ A ′ (A1)\nconsider A ∩ B ′ ∩ B ∩ A ′ M1\nnow A ∩ B ′ ∩ B ∩ A ′ = ∅ A1\nsince this is the empty set, they are disjoint R1\nNote: Accept alternative valid proofs.\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\n(a) Determine, using Venn diagrams, whether the following statements are true.\n(i) $A' \\cup B' = (A \\cup B)'$\n(ii) $(A \\setminus B) \\cup (B \\setminus A) = (A \\cup B) \\setminus (A \\cap B)$ [6 marks]\n(b) Prove, without using a Venn diagram, that $A \\setminus B$ and $B \\setminus A$ are disjoint sets. [4 marks]"
+  },
+  {
+   "id": "math-2011-N-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\na 0\n+ Show that the set, M, of matrices of the form , a∈\nϒ, forms a group under 1\n0\nmatrix multiplication. a",
+   "ms_text": "a 0 b 0\n+ 3.\nconsider the matrices 1 and 1 where a and b ∈� M1\n0 0\na b\na 0 b 0 ab 0\nnow 1 1 = 1 A1\n0 0 0\na b ab\n+ since ab belongs to �, M is closed under multiplication R1\n0\nthe group has an identity 1 which belongs to M A1\n0 1\na 0 1\n0\nthe inverse of any matrix 1 is a which belongs to M A1\n0\na 0 a\nA1 matrix multiplication is assumed to be associative\nsince it is closed, has an identity, has an inverse and is associative, M is a group\nunder matrix multiplication AG\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nShow that the set, $M$, of matrices of the form $\\begin{pmatrix} a & 0 \\\\ 0 & \\frac{1}{a} \\end{pmatrix}$, $a \\in \\mathbb{R}^+$, forms a group under matrix multiplication."
+  },
+  {
+   "id": "math-2011-N-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 14]\nThe group G has a subgroup H . The relation R is defined on G by xRy if and only\n1 if xy −∈ H , for xy , ∈ G .\n(a) Show that R is an equivalence relation. [8 marks]\n(b) The Cayley table for G is shown below.\n2 e a a2 b ab ab\n2 e e a a2 b ab ab\n2 a a a2 e ab ab b\n2 a2 a2 e a ab b ab\n2 b b ab ab e a2 a\n2 ab ab b ab a e a2\n2 2 ab ab ab b a2 a e\n2 The subgroup H is given as H ={, eab } .\n(i) Find the equivalence class with respect to R which contains ab .\n(ii) Another equivalence relation ρ is defined on G by xy ρ if and only\n− 1 if xy ∈ H , for xy , ∈ G . Find the equivalence class with respect to ρ\nwhich contains ab . [6 marks]",
+   "ms_text": "1 4. (a) xx −=∈ e H M1\n⇒ xRx\nhence R is reflexive A1\n1 if xRy then xy −∈ H\n⇒ − 1 − 1 ∈ ( xy ) H M1\n− 1 − 1 − 1 − 1 − 1\nnow ( xy )( xy ) = e and xyyx = e\n− 1 − 1 − 1 ⇒\n( xy ) = yx A1\n1 hence yx −∈ H ⇒ yRx\nhence R is symmetric A1\n− 1 − 1\nif xRyyRz , then xy ∈ H , yz ∈ H M1\n− 1 − 1 ⇒\n( xy )( yz ) ∈ H M1\n− 1 − 1 ⇒ xyyz\n( ) ∈ H\n⇒ − 1 xz ∈ H\nhence R is transitive A1\nhence R is an equivalence relation AG\n[8 marks]\n(b) (i) for the equivalence class, solving:\nEITHER\n− 1 − 1 2 xab\n( ) = e or xab ( )= ab (M1)\n{ aba ,} A2\nOR\n− 1 − 1 2 abx\n() = e or abx ()= ab (M1)\n{ aba ,} A2\n(ii) for the equivalence class, solving:\nEITHER\n− 1 − 1 2 x\n( ab ) = e or x ( ab ) = ab (M1)\n{ aba , 2 } A2\nOR\n− 1 = − 1 = 2\n( ab ) x e or ( ab ) x ab (M1)\n2 { aba , } A2\n[6 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 14]\nThe group $G$ has a subgroup $H$. The relation $R$ is defined on $G$ by $xRy$ if and only if $xy^{-1} \\in H$, for $x, y \\in G$.\n(a) Show that $R$ is an equivalence relation. [8 marks]\n(b) The Cayley table for $G$ is shown below.\n | $e$ | $a$ | $a^2$ | $b$ | $ab$ | $a^2b$\n$e$ | $e$ | $a$ | $a^2$ | $b$ | $ab$ | $a^2b$\n$a$ | $a$ | $a^2$ | $e$ | $ab$ | $a^2b$ | $b$\n$a^2$ | $a^2$ | $e$ | $a$ | $a^2b$ | $b$ | $ab$\n$b$ | $b$ | $a^2b$ | $ab$ | $e$ | $a^2$ | $a$\n$ab$ | $ab$ | $b$ | $a^2b$ | $a$ | $e$ | $a^2$\n$a^2b$ | $a^2b$ | $ab$ | $b$ | $a^2$ | $a$ | $e$\nThe subgroup $H$ is given as $H = \\{e, a^2b\\}$.\n(i) Find the equivalence class with respect to $R$ which contains $ab$.\n(ii) Another equivalence relation $\\rho$ is defined on $G$ by $x \\rho y$ if and only if $x^{-1}y \\in H$, for $x, y \\in G$. Find the equivalence class with respect to $\\rho$ which contains $ab$. [6 marks]"
+  },
+  {
+   "id": "math-2011-N-P3-sets-relations-and-groups-q5",
+   "num": "5",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 10]\nConsider the functions f : A → B and gB : → C .\n(a) Show that if both f and g are injective, then g ο f is also injective. [3 marks]\n(b) Show that if both f and g are surjective, then g ο f is also surjective. [4 marks]\n(c) Show, using a single counter example, that both of the converses to the results in\npart (a) and part (b) are false. [3 marks]",
+   "ms_text": "5. (a) let s and t be in A and s ≠ t M1\nsince f is injective fs () ≠ ft () A1\n� ≠ � since g is injective g fs () g ft () A1\nhence g � f is injective AG\n[3 marks]\n(b) let z be an element of C\n� we must find x in A such that g fx () = z M1\n= since g is surjective, there is an element y in B such that gy () z A1\nsince f is surjective, there is an element x in Asuch that fx () = y A1\nthus g � fx () = gy () = z R1\n� hence g f is surjective AG\n[4 marks]\n(c) converses: if g � f is injective then g and f are injective\nif g � f is surjective then g and f are surjective (A1)\nA2\nNote:There will be many alternative counter-examples.\n[3 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 10]\nConsider the functions $f: A \\to B$ and $g: B \\to C$.\n(a) Show that if both $f$ and $g$ are injective, then $g \\circ f$ is also injective. [3 marks]\n(b) Show that if both $f$ and $g$ are surjective, then $g \\circ f$ is also surjective. [4 marks]\n(c) Show, using a single counter example, that both of the converses to the results in part (a) and part (b) are false. [3 marks]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,316 @@
+{
+ "exam_id": "math-2015-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2015,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2015 November Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2015 November Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "4 duplicate copies (4 byte-identical size); paper number 8815-7201; code N15/5/MATHL/HP1/ENG/TZ0/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2015-N-P1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nThe following diagram shows a sector of a circle where AÔB =x radians and the length of\nthe arc AB =2\nx cm .\nGiven that the area of the sector is 16 cm2, find the length of the arc AB .\nB\n2\nO x\nA",
+   "ms_text": "2 2\n1. arc length = = rx ⇒ r = M1\n2 x x\n2\n1 2 2\n⇒ 16 = x = 16 M1\n2 3 2 x x\nNote: Award M1s for attempts at the use of arc-length and sector-area formulae.\n1\nx= A1\n2\narc length = 4(cm) A1\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nThe following diagram shows a sector of a circle where $\\hat{AOB} = x$ radians and the length of the arc $AB = \\frac{2}{x}$ cm.\nGiven that the area of the sector is $16\\text{ cm}^2$, find the length of the arc AB.\n[Diagram: sector OAB of a dashed circle, centre O, angle x at O, arc AB labelled 2/x]"
+  },
+  {
+   "id": "math-2015-N-P1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\nx sind xx Using integration by parts find ∫ .",
+   "ms_text": "2. attempt to integrate one factor and differentiate the other, leading to a sum of two\nterms M1\nx sin xx d x (cos) x cosd xx ∫ = − + ∫ (A1)(A1)\nx cos x sin x c = − + + A1\nNote: Only award final A1 if + c is seen.\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nUsing integration by parts find $\\int x\\sin x\\,dx$."
+  },
+  {
+   "id": "math-2015-N-P1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nWrite down and simplify the expansion of (2 + x)4 in ascending powers of x . (a) [3]\n(b) Hence find the exact value of (2.1)4. [3]",
+   "ms_text": "4 4 3 2 2 3 4 (2 x ) 2 42 x 62 x 42 x x\n3. (a) + = + ⋅ + ⋅ + ⋅ + M1(A1)\nNote: Award M1 for an expansion, by whatever method, giving five terms in any order.\n2 3 4\n= 16 + 32 x + 24 x + 8 x + x A1\nNote: Award M1A1A0 for correct expansion not given in ascending powers of x.\n[3 marks]\n(b) let x= 0.1 (in the binomial expansion) (M1)\n4 2.1\n= 16 + 3.2 + 0.24 + 0.008 + 0.0001 (A1)\n= 19.4481 A1\nNote: At most one of the marks can be implied.\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\n(a) Write down and simplify the expansion of $(2+x)^4$ in ascending powers of $x$. [3]\n(b) Hence find the exact value of $(2.1)^4$. [3]"
+  },
+  {
+   "id": "math-2015-N-P1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\n1,\nConsider the curve y = x ∈ , x ≠ 1 . ϒ\n1 − x\ny Find d\n(a) . [2]\nd x\n(b) Determine the equation of the normal to the curve at the point x= 3 in the form\nax + by + c =0 where a , b , c ∈ ′ . [4]",
+   "ms_text": "d y − 1 2\n4. (a) = (1 − x ) = (M1)A1\n2 d x (1\n− x )\n[2 marks]\n1\n(b) gradient of Tangent = (A1)\n4\ngradient of Normal =− 4 (M1)\n1\ny + =− 4( x − 3) or attempt to find c in y= mx + c M1\n2\n8 x + 2 y − 23 = 0 A1\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nConsider the curve $y = \\frac{1}{1-x}$, $x \\in \\mathbb{R}$, $x \\neq 1$.\n(a) Find $\\frac{dy}{dx}$. [2]\n(b) Determine the equation of the normal to the curve at the point $x = 3$ in the form $ax + by + c = 0$ where $a, b, c \\in \\mathbb{Z}$. [4]"
+  },
+  {
+   "id": "math-2015-N-P1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 4]\n2 e d x\nUse the substitution u =ln x to find the value of . ∫\ne x x ln",
+   "ms_text": "5. METHOD 1\n2 e d x\ne 2\n∫ [ ln (ln) x ] (M1)A1 x=\ne e x ln\n2\n= lnlne ( ) − ln(lne) (=ln 2 − ln1 ) (A1)\n= ln 2 A1\n[4 marks]\nMETHOD 2\nd u 1\nu = x = M1\nln,d\nx x\n2\ndu\n= ∫ A1\nu\n1\n2\n= [ lnu ] or equivalent in x(=ln 2 ln1 ) (A1) −\n1\n= ln 2 A1\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 4]\nUse the substitution $u = \\ln x$ to find the value of $\\int_{e}^{e^2} \\frac{dx}{x\\ln x}$."
+  },
+  {
+   "id": "math-2015-N-P1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nA box contains four red balls and two white balls. Darren and Marty play a game by each\ntaking it in turn to take a ball from the box, without replacement. The first player to take a\nwhite ball is the winner.\n(a) Darren plays first, find the probability that he wins. [4]\nThe game is now changed so that the ball chosen is replaced after each turn.\nDarren still plays first.\n(b) Show that the probability of Darren winning has not changed. [3]",
+   "ms_text": "6. (a) probability that Darren wins P( W ) + P( RRW ) + P( RRRRW ) (M1)\nNote: Only award M1 if three terms are seen or are implied by the following numerical\nequivalent.\nNote: Accept equivalent tree diagram for method mark.\n2 432 43212 1 1 1\n= + ⋅ ⋅ + ⋅ ⋅ ⋅⋅ = + + A2\n6 654 65432 3 5 15\nNote: A1 for two correct.\n3\n= A1\n5\n[4 marks]\n(b) METHOD 1\nthe probability that Darren wins is given by\nP ( W ) + P ( RRW ) + P( RRRRW ) + … (M1)\nNote: Accept equivalent tree diagram with correctly indicated path for method mark.\n1 221 22221\nP(Darren Wi n) = + ⋅ ⋅ + ⋅ ⋅ ⋅ ⋅ + …\n3 333 3 33 33\n2\n1 4 4\nor = 1 + + + … A1\n3 9 9\n1 1\n= A1\n4\n31 −\n9\n3\n= AG\n5\n[3 marks]\nMETHOD 2\nP (Darren wins) = P\n1 4\nP = + P M1A2\n3 9\n5 1\nP =\n9 3\n3\nAG\nP=5\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.6",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nA box contains four red balls and two white balls. Darren and Marty play a game by each taking it in turn to take a ball from the box, without replacement. The first player to take a white ball is the winner.\n(a) Darren plays first, find the probability that he wins. [4]\nThe game is now changed so that the ball chosen is replaced after each turn. Darren still plays first.\n(b) Show that the probability of Darren winning has not changed. [3]"
+  },
+  {
+   "id": "math-2015-N-P1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 8]\nA curve is defined by xy = y2+ 4 .\n(a) Show that there is no point where the tangent to the curve is horizontal. [4]\n(b) Find the coordinates of the points where the tangent to the curve is vertical. [4]",
+   "ms_text": "d y d y\n7. (a) x + y = 2 y M1A1\nd x d x\ny a horizontal tangent occurs if d\n0 so y= 0 M1\nx=\nd\nwe can see from the equation of the curve that this solution is not\npossible (0 = 4) and so there is not a horizontal tangent R1\n[4 marks]\nx d y y or equivalent with d\n(b) =\nd x 2 y − x d y\nthe tangent is vertical when 2y = x M1\n2 y 2 y 2 4 substitute into the equation to give = + M1\ny=± 2 A1\ncoordinates are (4, 2), (4, 2) − − A1\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 8]\nA curve is defined by $xy = y^2 + 4$.\n(a) Show that there is no point where the tangent to the curve is horizontal. [4]\n(b) Find the coordinates of the points where the tangent to the curve is vertical. [4]"
+  },
+  {
+   "id": "math-2015-N-P1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\nπ\n(a) Show that sin θ + cos θ . [1]\n=\n2\n(b) Consider f (x) = sin (ax) where a is a constant. Prove by mathematical induction that\nn π\nax+ f (n) (x) =ansin\nwhere n ∈′+and f (n) (x) represents the nthderivative 2\nof f (x) . [7]",
+   "ms_text": "π π π\n8. (a) sin θ + = sin θ cos + cos θ sin M1\n2 2 2\n= cosθ AG\nNote: Accept a transformation/graphical based approach.\n[1 mark]\n(b) consider n = 1 , f '() x a cos( ax ) M1 =\nπ\nsince sin ax + = cos ax then the proposition is true for n = 1 R1\n2\nk π () k k\nassume that the proposition is true for n = k so f () x = a sin ax + M1\n2\n() k d ( f () x )\nk π ( k\n+ 1) k f () x = = aa cos ax + M1\nd x 2\nk π π k\n+ 1 = a sin ax + + (using part (a)) A1\n2 2\n( k + 1)π k\n+ 1 = a sin ax + A1\n2\ngiven that the proposition is true for n = k then we have shown that the\nproposition is true for n = k + 1 . Since we have shown that the proposition\n+ is true for n = 1 then the proposition is true for all n ∈′ R1\nNote: Award final R1 only if all prior M and R marks have been awarded.\n[7 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "1.15",
+    "5.6",
+    "3.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\n(a) Show that $\\sin\\left(\\theta + \\frac{\\pi}{2}\\right) = \\cos\\theta$. [1]\n(b) Consider $f(x) = \\sin(ax)$ where $a$ is a constant. Prove by mathematical induction that $f^{(n)}(x) = a^n \\sin\\left(ax + \\frac{n\\pi}{2}\\right)$ where $n \\in \\mathbb{Z}^+$ and $f^{(n)}(x)$ represents the $n^{\\text{th}}$ derivative of $f(x)$. [7]"
+  },
+  {
+   "id": "math-2015-N-P1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\nSolve the equation sin 2x −cos 2x =1 + sin x− cos x for x ∈[−π , π] .",
+   "ms_text": "9. (sin2 x − sin) x − (cos2 x − cos) x = 1\nattempt to use both double-angle formulae, in whatever form M1\n2 (2sin x cos x\n− sin) x − (2cos x − 1 − cos) x = 1\n2\nor (2sin x cos x − sin) x − ( 2cos x − cos x ) = 0 for example A1\nNote: Allow any rearrangement of the above equations.\nsin(2cos x x − 1) − cos(2cos x x − 1) = 0\n(sin x − cos) (2cos x x − 1) = 0 (M1)\n1\ntan x = 1 and cos x = A1A1\n2\nNote: These A marks are dependent on the M mark awarded for factorisation.\n3π π π π\nx=− , − , , A2\n4 3 3 4\nNote: Award A1 for two correct answers, which could be for both tan or both\ncos solutions, for example.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.6",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nSolve the equation $\\sin 2x - \\cos 2x = 1 + \\sin x - \\cos x$ for $x \\in [-\\pi, \\pi]$."
+  },
+  {
+   "id": "math-2015-N-P1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 6]\nA given polynomial function is defined as f (x) =a0+a1x+ a2x2+ … + anxn . The roots of\nthe polynomial equation f (x) = 0 are consecutive terms of a geometric sequence with a\ncommon ratio of1 and first term 2 .\n2\nGiven that an−1=−63 and an=16 find\n(a) the degree of the polynomial; [4]\n(b) the value of a0 . [2]",
+   "ms_text": "63\n10. (a) the sum of the roots of the polynomial = (A1)\n16\nn\n1\n1 −\n2 63\n= 2 M1A1\n1 16\n1 −\n2\nNote: The formula for the sum of a geometric sequence must be equated to a value for\nthe M1 to be awarded.\nn n\n1 63 1 1\n1 − = ⇒ =\n2 64 2 64\nn= 6 A1\n[4 marks]\na 1 1 1 1\n0 (b) 2 × 1 × × × × , ( a = 16 ) M1\na= n\n2 4 8 16\nn\n1 1 1 1\na= 16 × 2 × 1 × × × ×\n0\n2 4 8 16\n− 1\na 2 5 = = A1\n0\n32\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 6]\nA given polynomial function is defined as $f(x) = a_0 + a_1x + a_2x^2 + \\ldots + a_nx^n$. The roots of the polynomial equation $f(x) = 0$ are consecutive terms of a geometric sequence with a common ratio of $\\frac{1}{2}$ and first term 2.\nGiven that $a_{n-1} = -63$ and $a_n = 16$ find\n(a) the degree of the polynomial; [4]\n(b) the value of $a_0$. [2]"
+  },
+  {
+   "id": "math-2015-N-P1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 17]\n(a) Solve the equation z3= 8i , z ∈≤ giving your answers in the form\nz = r (cos θ+ i sin θ) and in the form z = a + bi where a , b ∈ ϒ . [6]\n(b) . Consider the complex numbers z1= 1 + i and\n(i) Write z1 in the form r (cos θ+ isin θ ) .\n(ii) Calculate z1 z2 and write in the form z = a + bi where a , b ∈ ϒ .\n5π\n(iii) Hence find the value of in the form c + d 3 , where c , d ∈′ .\ntan 12\np\n(iv) Find the smallest value p >0 such that z ( ) is a positive real number. [11]\n2",
+   "ms_text": "π π 3\n11. (a) z = 8cos + 2π k + isin + 2π k (A1)\n2 2\nattempt the use of De Moivre’s Theorem in reverse M1\nπ π 5π 5π\nz = 2cos + isin ; 2cos + isin ;\n6 6 6 6\n9π 9π\n2cos + isin A2\n6 6\nNote: Accept cis form.\nz=± 3 + i, − 2i A2\nNote: Award A1 for two correct solutions in each of the two lines above.\n[6 marks]\nπ π\n(b) (i) z = 2cos + isin A1A1\n1\n4 4\n(ii) ( z= ( 3 + i ) )\n2\nz z= (1 + i) ( 3 + i ) M1\n12\n= ( 3 − 1 ) + i1 ( + 3 ) A1\nπ π π π\n(iii) z z = 22cos + + isin + M1A1\n12\n6 4 6 4\n5π 3 + 1\n= A1\ntan 12\n3 1 −\n2 3 = + M1A1\nNote: Award final M1 for an attempt to rationalise the fraction.\np π p p\n(iv) z = 2 cis (M1)\n2\n6\np z\nis a positive real number when p= 12 A1\n2\n[11 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13",
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 17]\n(a) Solve the equation $z^3 = 8\\mathrm{i}$, $z \\in \\mathbb{C}$ giving your answers in the form $z = r(\\cos\\theta + \\mathrm{i}\\sin\\theta)$ and in the form $z = a + b\\mathrm{i}$ where $a, b \\in \\mathbb{R}$. [6]\n(b) Consider the complex numbers $z_1 = 1 + \\mathrm{i}$ and $z_2 = 2\\left(\\cos\\left(\\frac{\\pi}{6}\\right) + \\mathrm{i}\\sin\\left(\\frac{\\pi}{6}\\right)\\right)$.\n(i) Write $z_1$ in the form $r(\\cos\\theta + \\mathrm{i}\\sin\\theta)$.\n(ii) Calculate $z_1z_2$ and write in the form $z = a + b\\mathrm{i}$ where $a, b \\in \\mathbb{R}$.\n(iii) Hence find the value of $\\tan\\frac{5\\pi}{12}$ in the form $c + d\\sqrt{3}$, where $c, d \\in \\mathbb{Z}$.\n(iv) Find the smallest value $p > 0$ such that $(z_2)^p$ is a positive real number. [11]"
+  },
+  {
+   "id": "math-2015-N-P1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 20]\nConsider the function defined by fx () = x 1 − x 2 on the domain −1 ≤x≤ 1 .\nShow that f is an odd function. (a) [2]\n(b) Find f ' (x) . [3]\nHence find the x-coordinates of any local maximum or minimum points. (c) [3]\n(d) Find the range of f . [3]\n(e) Sketch the graph of y = f (x) indicating clearly the coordinates of the x-intercepts and\nany local maximum or minimum points. [3]\n(f) Find the area of the region enclosed by the graph of y = f (x) and the x-axis for x ≥ 0 . [4]\n1 1 2 2\n(g) Show that ∫ x 1 − x d x > ∫ x 1 − x d x . [2]\n− 1 − 1",
+   "ms_text": "2\n12. (a) f ( − x ) =− ( x )1 −− ( x ) M1\n2\n=− x 1 − x\n=− fx () R1\nhence f is odd AG\n[2 marks]\n1 1 1\n− 2\n2 2 2 (b) f 'x () = x ⋅ ( 1 − x ) ⋅− 2 x + ( 1 − x ) M1A1A1\n2\n[3 marks]\n2 x\n1 2 x 2 2 −\n(c) f 'x () = 1 − x − = A1\n2 2 1\n− x 1 − x\nNote: This may be seen in part (b).\n⇒ 2 f 'x () = 0 1 − 2 x = 0 M1\n1\nx=± A1\n2\n[3 marks]\n1\n(d) y -coordinates of the Max Min Points are y=± M1A1\n2\n1 1\nso range of fx is () − , A1\n2 2\nNote: Allow FT from (c) if values of x, within the domain, are used.\n[3 marks]\n(e)\nShape: The graph of an odd function, on the given domain, s-shaped,\nwhere the max(min) is the right(left) of 0.5(-0.5) A1\nx-intercepts A1\nturning points A1\n[3 marks]\n1 2\n(f) area = ∫ x 1 − x d x (M1)\n0\nattempt at “backwards chain rule” or substitution M1\n1 1 2\n=− ∫ (2) − x 1 − x d x\n2 0\n1 3\n2 1 2\n2 = ( 1 − x ) ⋅− A1\n3 2\n0\n1 3\n11 2 2\n=− ( − x )\n3\n0\n1 1\n= 0 − − = A1\n3 3\n[4 marks]\n1 2\n(g) ∫ x 1 − x d x > 0 R1\n− 1\n1 2\n∫ x 1 − x d x = 0 R1\n− 1\n1 1 2 2\nso ∫ x 1 − x d x > ∫ x 1 − x d x = 0 AG\n− 1 − 1\n[2 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.6",
+    "5.8",
+    "5.16",
+    "2.2",
+    "2.3",
+    "2.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 20]\nConsider the function defined by $f(x) = x\\sqrt{1-x^2}$ on the domain $-1 \\le x \\le 1$.\n(a) Show that $f$ is an odd function. [2]\n(b) Find $f'(x)$. [3]\n(c) Hence find the $x$-coordinates of any local maximum or minimum points. [3]\n(d) Find the range of $f$. [3]\n(e) Sketch the graph of $y = f(x)$ indicating clearly the coordinates of the $x$-intercepts and any local maximum or minimum points. [3]\n(f) Find the area of the region enclosed by the graph of $y = f(x)$ and the $x$-axis for $x \\ge 0$. [4]\n(g) Show that $\\int_{-1}^{1} \\left|x\\sqrt{1-x^2}\\right| dx > \\left|\\int_{-1}^{1} x\\sqrt{1-x^2}\\,dx\\right|$. [2]"
+  },
+  {
+   "id": "math-2015-N-P1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 23,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 23]\nB\nP\nQ\nA\nR\nC\nConsider the triangle ABC . The points P , Q and R are the midpoints of the line\nsegments [AB] , [BC] and [AC] respectively.\n→ → →\n=a , OB =b and OC =c . Let OA\n→\nin terms of a , b and c . (a) Find BR [2]\n(b) (i) Find a vector equation of the line that passes through B and R in terms\nof a , b and c and a parameter λ .\n(ii) Find a vector equation of the line that passes through A and Q in terms\nof a , b and c and a parameter µ .\n→ 1\n(iii) Hence show that OG = a + b + c given that G is the point where )\n3 (\n[BR] and [AQ] intersect. [9]\n(c) Show that the line segment [CP] also includes the point G . [3]\nThe coordinates of the points A , B and C are (1 , 3 , 1) ,(3 , 7 , −5) and (2 , 2 , 1)\nrespectively.\nA point X is such that [GX] is perpendicular to the plane ABC .\n(d) Given that the tetrahedron ABCX has volume 12 units3 , find possible coordinates\nof X . [9]",
+   "ms_text": "→ → → → 1 →\n13. (a) BR = BA + AR ( = BA + AC ) (M1)\n2\n1\n= ( a − b ) + ( c − a )\n2\n1 1\n= a − b + c A1\n2 2\n[2 marks]\n1 1 λ λ\nr b a b c a ( 1 ) b + c (b) (i) = + λ − + = + − λ A1A1\nBR\n2 2 2 2\nNote: Award A1A0 if the r = is omitted in an otherwise correct expression/equation.\n→ 1 1\n(ii) AQ =− a + b + c (A1)\n2 2\n1 1 μ μ\nr = a + μ − a + b + c = (1 − μ ) a + b + c A1\nAQ\n2 2 2 2\n→ →\n(iii) when AQ and BP intersect we will have BR r = r (M1)\nAQ\nλ λ μ μ\na + (1 − λ ) b + c = (1 − μ ) a + b + c\n2 2 2 2\nattempt to equate the coefficients of the vectors , ab and c M1\n(A1)\nλ\n= 1 − μ\n2\nμ\n1 − λ =\n2\nλ μ\n=\n2 2\n2 2\nλ = or μ = A1\n3 3\nsubstituting parameters back into one of the equations M1\n→ 1 2 2 1 2 1\nOG = ⋅ a + 1 − b + ⋅ c = ( a + b +) c AG\n2 3 3 2 3 3\n[9 marks]\n→ 1 1\nCP a b c (c) = + − (M1)A1\n2 2\n1 1 2 β\nso we have that CP r = c + a + b − c and when β= the line\n2 2 3\npasses through\nthe point G(ie, with position vector1 ( a\n+ b +)) c R1\n3\nhence [AQ], [BR] and [CP] all intersect in G AG\n[3 marks]\n1 3 2 2\n→ 1\n(d) OG = 3 + 7 + 2 = 4 A1\n3\n1 − 5 1 − 1\nNote:This independent mark for the vector may be awarded wherever the\nvector is calculated.\n2 1 − 6\n→ →\nAB × AC = 4 ×− 1 =− 6 M1A1\n− 6 0 − 6\n1\n→\nGX 1 = α (M1)\n1\nvolume of Tetrahedron given by 1\nArea ABC × GX\n3×\n→ →\n11AB\n= × AC × GX = 12 (M1)(A1)\n32\nNote: Accept alternative methods, for example the use of a scalar triple product.\n1\n2 2 2 2 2 2\n= (6) − +− (6) +− (6) × α + α + α = 12 (A1)\n6\n1 63\n= α 3 = 12\n6\n⇒ α = 4 A1\nNote: Condone absence of absolute value.\n2 4\nthis gives us the position of X as 4 4 ±\n− 1 4\nX(6, 8, 3) or (2, 0, 5) − − A1\nNote: Award A1 for either result.\n[9 marks]\nTotal [23 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.16",
+    "3.12",
+    "3.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 23]\n[Diagram: triangle ABC with P midpoint of [AB], Q midpoint of [BC], R midpoint of [AC]; dashed line from B to R]\nConsider the triangle ABC. The points P, Q and R are the midpoints of the line segments [AB], [BC] and [AC] respectively.\nLet $\\vec{OA} = \\boldsymbol{a}$, $\\vec{OB} = \\boldsymbol{b}$ and $\\vec{OC} = \\boldsymbol{c}$.\n(a) Find $\\vec{BR}$ in terms of $\\boldsymbol{a}$, $\\boldsymbol{b}$ and $\\boldsymbol{c}$. [2]\n(b) (i) Find a vector equation of the line that passes through B and R in terms of $\\boldsymbol{a}$, $\\boldsymbol{b}$ and $\\boldsymbol{c}$ and a parameter $\\lambda$.\n(ii) Find a vector equation of the line that passes through A and Q in terms of $\\boldsymbol{a}$, $\\boldsymbol{b}$ and $\\boldsymbol{c}$ and a parameter $\\mu$.\n(iii) Hence show that $\\vec{OG} = \\frac{1}{3}(\\boldsymbol{a} + \\boldsymbol{b} + \\boldsymbol{c})$ given that G is the point where [BR] and [AQ] intersect. [9]\n(c) Show that the line segment [CP] also includes the point G. [3]\nThe coordinates of the points A, B and C are $(1, 3, 1)$, $(3, 7, -5)$ and $(2, 2, 1)$ respectively.\nA point X is such that [GX] is perpendicular to the plane ABC.\n(d) Given that the tetrahedron ABCX has volume $12\\text{ units}^3$, find possible coordinates of X. [9]",
+   "review_note": "qp crop trimmed via overrides.json to exclude trailing blank 'answers will not be marked' pages"
+  }
+ ],
+ "status": "done"
+}

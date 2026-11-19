@@ -1,0 +1,76 @@
+{
+ "exam_id": "math-2021-N-P3",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2021,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2021 November Examination Session/Mathematics_analysis_and_approaches_paper_3__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2021 November Examination Session/Mathematics_analysis_and_approaches_paper_3__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8821-7103; marks sum matches paper total 55",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2021-N-P3-q1",
+   "num": "1",
+   "section": null,
+   "marks": 25,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 25]\nIn this question you will explore some of the properties of special functions f and g\nand their relationship with the trigonometric functions, sine and cosine.\nz − z z − z e + e e − e\nFunctions f and g are defined as fz () = and gz () = , where z∈≤ .\n2 2\nConsider t and u , such that t , u∈ϒ .\n2 d u\n(a) Verify that u=f(t) satisfies the differential equation = u .\b [2]\n2 d t\nShow that (f(t))2+(g (t))2=f(2t) .\b (b) [3]\nUsing eiu=cosu+i sinu , find expressions, in terms of sin u and cosu , for (c)\n(i) f(i u) ;\b [3]\ng(i u) .\b (ii) [2]\n(d) Hence find, and simplify, an expression for (f(i u))2+(g (i u))2.\b [2]\nShow that (f(t))2-(g (t))2=(f(i u))2-(g (i u))2.\b (e) [4]\nThe functions cosx and sinx are known as circular functions as the general\npoint (cosθ , sin θ ) defines points on the unit circle with equation x2+y2=1 .\nThe functions f(x) and g (x) are known as hyperbolic functions, as the general\npoint (f(θ ) , g(θ )) defines points on a curve known as a hyperbola with\nequation x2-y2=1 . This hyperbola has two asymptotes.\n(f) Sketch the graph of x2-y2=1 , stating the coordinates of any axis intercepts and the\nequation of each asymptote.\b [4]\nThe hyperbola with equation x2-y2=1 can be rotated to coincide with the curve defined\nby xy=k , k∈ϒ .\n(g) Find the possible values of k .\b [5]",
+   "ms_text": "t − − t e e\n1. (a) ′ = A1 ft ()\n2\nt − t e + e\n′′ f () t = A1\n2\n= AG ft ()\n[2 marks]\n(b) METHOD 1\n2 2\n( ft () ) + ( gt () )\nsubstituting fand g M1\nt + − t 2 + t − − t 2 (e e) (e e)\n=\n4\nt 2 − t 2 t 2 − t 2 (e) + 2 + (e) + (e) −+ 2 (e)\n= (M1)\n4\nt 2 − t 2 2 t − 2 t (e ) + (e) e + e\n= = A1\n2 2\n= f (2) t AG\nMETHOD 2\n2 t − 2 t e + e\nf (2) t =\n2\nt 2 − t 2 (e ) + (e)\n= M1\n2\nt − t 2 t − t 2 (e + e) + (e − e)\n= M1A1\n4\n2 2\n= ( ft () ) + ( gt () ) AG\n[3 marks]\nNote: Accept combinations of METHODS 1 & 2 that meet at equivalent expressions.\nieu = + (c) (i) substituting cos u isin u into the expression for f (M1)\n− i u\nobtaining e = cos u − isin u (A1)\ncos u + isin u + cos u − isin u\nf (i) u =\n2\nNote: The M1 can be awarded for the use of sine and cosine being odd and even\nrespectively.\n2cos u\n=\n2\n= cosu A1\n[3 marks]\ncos u + isin u − cos u + isin u\n= (ii) gu (i)\n2\nsubstituting and attempt to simplify (M1)\n2isin u\n=\n2\n= isinu A1\n[2 marks]\n(d) METHOD 1\n2 2\n( f (i) u ) + ( gu (i) )\nsubstituting expressions found in part (c) (M1)\n2 2 = cos u − sin u (cos2) = u A1\nMETHOD 2\n2i u − 2i u e + e\nf (2i) u =\n2\ncos2 u + isin2 u + cos2 u − isin2 u\n= M1\n2\n= cos2u A1\nNote: Accept equivalent final answers that have been simplified removing all\n2\nimaginary parts eg 2cos u −etc 1\n[2 marks]\nt + − t 2 − t − − t 2\n2 2 (e e) (e e)\n(e) ( ) − ( ) = M1 ft () gt ()\n4\n2 t − 2 t 2 t − 2 t (e + e + 2) − (e + e − 2)\n= A1\n4\n4\n= = 1 A1\n4\nNote: Award A1 for a value of 1 obtained from either LHS or RHS of given\nexpression.\n2 2 2 2\n( f (i) u ) − ( gu (i) ) = cos u + sin u M1\n2 2 2 2 (\n( ) ( ) ( ) ( ) ) = 1 hence ft () − gt () = f (i) u − gu (i) AG\n2 2\nNote: Award full marks for showing that ( fz () ) − ( gz () ) = 1, ∀∈ z .\n[4 marks]\n(f)\nA1A1A1A1\nNote: Award A1 for correct curves in the upper quadrants, A1 for correct curves in\n− the lower quadrants , A1 for correct x-intercepts of (1, 0) and (1, 0) (condone\nx = − = = −. 1 and 1), A1 for y x and y x\n[4 marks]\n(g) attempt to rotate by 45 in either direction (M1)\n= Note: Evidence of an attempt to relate to a sketch ofxy k would be sufficient for\nthis (M1).\nattempting to rotate a particular point, eg(1, 0) (M1)\n1 1\n(1, 0)rotates to , ± (or similar) (A1)\n2 2\n1\nk = ± hence A1A1\n2\n[5 marks]\nTotal [25 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1",
+    "8",
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "2.9",
+    "2.4",
+    "1.13",
+    "8.2",
+    "3.6",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "topic-uncertain"
+   ],
+   "text_clean": "1. [Maximum mark: 25]\nIn this question you will explore some of the properties of special functions $f$ and $g$ and their relationship with the trigonometric functions, sine and cosine.\nFunctions $f$ and $g$ are defined as $f(z)=\\frac{e^{z}+e^{-z}}{2}$ and $g(z)=\\frac{e^{z}-e^{-z}}{2}$, where $z\\in\\mathbb{C}$.\nConsider $t$ and $u$, such that $t, u\\in\\mathbb{R}$.\n(a) Verify that $u=f(t)$ satisfies the differential equation $\\frac{d^2u}{dt^2}=u$. [2]\n(b) Show that $(f(t))^2+(g(t))^2=f(2t)$. [3]\n(c) Using $e^{iu}=\\cos u+i\\sin u$, find expressions, in terms of $\\sin u$ and $\\cos u$, for\n(i) $f(iu)$; [3]\n(ii) $g(iu)$. [2]\n(d) Hence find, and simplify, an expression for $(f(iu))^2+(g(iu))^2$. [2]\n(e) Show that $(f(t))^2-(g(t))^2=(f(iu))^2-(g(iu))^2$. [4]\nThe functions $\\cos x$ and $\\sin x$ are known as circular functions as the general point $(\\cos\\theta, \\sin\\theta)$ defines points on the unit circle with equation $x^2+y^2=1$.\nThe functions $f(x)$ and $g(x)$ are known as hyperbolic functions, as the general point $(f(\\theta), g(\\theta))$ defines points on a curve known as a hyperbola with equation $x^2-y^2=1$. This hyperbola has two asymptotes.\n(f) Sketch the graph of $x^2-y^2=1$, stating the coordinates of any axis intercepts and the equation of each asymptote. [4]\nThe hyperbola with equation $x^2-y^2=1$ can be rotated to coincide with the curve defined by $xy=k$, $k\\in\\mathbb{R}$.\n(g) Find the possible values of $k$. [5]",
+   "review_note": "Hyperbolic functions via exponentials (2.9), Euler form (1.13), hyperbola sketch/asymptotes (2.4) and rotation to xy=k (8.2, no AA code)."
+  },
+  {
+   "id": "math-2021-N-P3-q2",
+   "num": "2",
+   "section": null,
+   "marks": 30,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 30]\nIn this question you will be exploring the strategies required to solve a system of\nlinear differential equations.\nConsider the system of linear differential equations of the form:\nd x y and d\nx - y ax + y ,\nt= t=\nd d\nwhere x , y , t∈ϒ+ and a is a parameter.\nFirst consider the case where a=0 .\ny \u0007By solving the differential equationd\n(a) (i) y , show that y=Aet where A is\nt=\nd\na constant.\b [3]\nx Show thatd\n= - t (ii) x A e . [1]\nt-\nd\n(iii) Solve the differential equation in part (a)(ii) to find x as a function of t . [4]\nNow consider the case where a=-1 .\n2 y d y d y\n\u0007By differentiating d\n(b) (i) x y with respect to t , show that = 2 . [3]\nt= -+ 2\nd d t d t\nd y\n(ii) By substituting Y = , show that Y=Be2t where B is a constant.\b [3]\nd t\n(iii) Hence find y as a function of t . [2]\nB\nx = - 2e t + C , where C is a constant. (iv) Hence show that [3]\n2\nNow consider the case where a=-4 .\n2 d y d y\n(c) (i) \u0007Show that - 2 - 3 y = 0 . [3]\n2 d t d t\nFrom previous cases, we might conjecture that a solution to this differential equation\nis y=Feλt, λ ∈ϒ and F is a constant.\n2 d y d y\n(ii) Find the two values for λ that satisfy - 2 - 3 y = 0 . [4]\n2 d t d t\nLet the two values found in part (c)(ii) be λ1and λ2.\n(iii) Verify that y = Feλ1t + Geλ2t is a solution to the differential equation in (c)(i),\nwhere G is a constant. [4]",
+   "ms_text": "2. (a) (i) METHOD 1\nd y\n= y\ndt\nd y\ndt (M1) ∫ y= ∫\nln y =+ t c OR lny =+ t c A1A1\nNote: AwardA1 for ln y and A1for t and c.\ny = A et AG\nMETHOD 2\ny rearranging tod −\n− y = 0 AND multiplying by integrating factoret M1\ndt\ny et −= A A1A1\ny = A et AG\n[3 marks]\n= (ii) substituting y A et into differential equation in x M1\nd x t\n= x − A e\ndt\nd x t\n− x = − A e AG\ndt\n[1 mark]\n1d t −∫\n(iii) integrating factor(IF) is e (M1)\n− = et (A1)\n− d x −\ne t − x e t = − A\ndt\n−= − x et At + D (A1)\n( )et x =− At + D A1\nNote: The first constantmust be A, and the second can be any constant for the final\nA1 to be awarded. Accept a change of constant applied at the end.\n[4 marks]\n2 d y d x d y\n(b) (i) = − + A1\n2 d t d t d t\nEITHER\nd y\n= −+ x y + (M1)\nd t\nd y d y\n= + A1\nd t d t\nOR\n= −+ x y +−+ ( x y ) (M1)\n= 2 ( −+ x y ) A1\nTHEN\nd y\n= AG\n2 d\nt\n[3 marks]\nd Y\n(ii) 2 Y A1 t=\nd\nd Y\n∫ ∫ 2d t M1 Y=\nln Y = 2 t + c ORln Y = 2 t + c A1\nY = B 2et AG\n[3 marks]\nd y 2 t\n(iii) B e t=\nd\nt y\n=∫ B 2ed t M1\nB t\ny = 2e + C A1\n2\nNote: The first constantmust be B, and the second can be any constant for the final\nA1 to be awarded. Accept a change of constant applied at the end.\n[2 marks]\n(iv) METHOD 1\nd y y 2 t and their(iii) intod\nsubstituting B e x y M1(M1) t= t= −+\nd d\nB 2 t\n= −+ 2 t + B e x e C A1\n2\nB\nx = − 2e t + C AG\n2\nNote: Follow through from incorrect part (iii) cannot be awarded if it does not lead to\ntheAG.\nMETHOD 2\nd x B 2 t\nx − e − C\nt=\nd 2\nd x B 2 t\nx = − e − C\nt−\nd 2\n− t\nd(e) x B t − t\n= − e − C e M1\nd t 2\nB − t t − t\nx e =− ∫ e − C e d t\n2\nB − t\n= − t + − t + x e e C e D A1\n2\nB\n= − 2e t + + t x C D e\n2\nd y 2 t B 2 t t B 2 t\nx y ⇒ B e = e − C − D e + e + C ⇒ D = 0 M1\nt= −+\nd 2 2\nB t\nx = − 2e + C AG\n2\n[3 marks]\nd y\n(c) (i) 4 x + y t= −\nd\nd 2 y d x d y\n= − 4 + seen anywhere M1\n2 d t d t d t\nMETHOD 1\n2 d y d y\n= − − + 4( x y )\n2 d t d t\nattempt to eliminatex M1\n1 d y d y\n= − y − − y +\n44\nd t d t\nd y\n= 2 + 3 y A1\nd t\nd 2 y d y\n− 2 − 3 y = 0 AG\n2 d t d t\nMETHOD 2\nrewriting LHS in terms ofx and y M1\nd 2 y d y\n− 2 − 3 y =− ( 8 x + 5 y ) − 2 ( − 4 x + y ) − 3 y A1\n2 d t d t\n= 0 AG\n[3 marks]\n2 d y d y\nλ t 2 λ t\n(ii) = F λ e , = F λ e (A1)\nd t d t 2\nλ t λ t λ t F λ 2e − 2 F λ e − 3e F = 0 (M1)\n2 t λ − 2 λ − 3 = 0 (sincee λ≠ 0 ) A1\n1λand λare3and-1 (either order) A1\n2\n[4 marks]\n(iii) METHOD 1\nt t y = F 3e + G− e\n2 d y d y\n= 3 t − − t 3 t − t 3e F G e , = 9e F + G e (A1)(A1)\n2 d t d t\n2 d y d y\n3 t − t ( 3 t − t ) ( 3 t − t ) − 2 − 3 y = 9e F + G e − 23e F − G e − 3 F e + G e M1\n2 d t d t\n3 t − t 3 t − t 3 t − t = 9e F + G e − 6e F + 2e G − 3e F − 3e G A1\n= 0 AG\nMETHOD 2\nλ t λ t\ny = F e 1 + G e 2\n2 d y d y\nλ t λ t 2 λ t 2 λ t =\nF λ e 1 + G λ e 2 , = F λ e 1 + G λ e 2 (A1)(A1)\n1 2 2 1 2\nd t d t\n2 d y d y\n2 λ t 2 λ t λ t λ t λ t λ t − 2 − 3 y = F λ e 1 + G λ e 2 − 2 ( F λ e 1 + G λ e 2 ) − 3 ( F e 1 + G e 2 ) M1\n1 2 1 2 2\nd t d t\nλ 1 t ( 2 ) λ 2 t ( 2 ) =\nF e λ − 2 λ − 3 + G e λ − 2 λ − 3 A1\n= 0 AG\n[4 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.12",
+    "5.10",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 30]\nIn this question you will be exploring the strategies required to solve a system of linear differential equations.\nConsider the system of linear differential equations of the form:\n$\\frac{dx}{dt}=x-y$ and $\\frac{dy}{dt}=ax+y$,\nwhere $x, y, t\\in\\mathbb{R}^+$ and $a$ is a parameter.\nFirst consider the case where $a=0$.\n(a) (i) By solving the differential equation $\\frac{dy}{dt}=y$, show that $y=Ae^{t}$ where $A$ is a constant. [3]\n(ii) Show that $\\frac{dx}{dt}-x=-Ae^{t}$. [1]\n(iii) Solve the differential equation in part (a)(ii) to find $x$ as a function of $t$. [4]\nNow consider the case where $a=-1$.\n(b) (i) By differentiating $\\frac{dy}{dt}=-x+y$ with respect to $t$, show that $\\frac{d^2y}{dt^2}=2\\frac{dy}{dt}$. [3]\n(ii) By substituting $Y=\\frac{dy}{dt}$, show that $Y=Be^{2t}$ where $B$ is a constant. [3]\n(iii) Hence find $y$ as a function of $t$. [2]\n(iv) Hence show that $x=-\\frac{B}{2}e^{2t}+C$, where $C$ is a constant. [3]\nNow consider the case where $a=-4$.\n(c) (i) Show that $\\frac{d^2y}{dt^2}-2\\frac{dy}{dt}-3y=0$. [3]\nFrom previous cases, we might conjecture that a solution to this differential equation is $y=Fe^{\\lambda t}$, $\\lambda\\in\\mathbb{R}$ and $F$ is a constant.\n(ii) Find the two values for $\\lambda$ that satisfy $\\frac{d^2y}{dt^2}-2\\frac{dy}{dt}-3y=0$. [4]\nLet the two values found in part (c)(ii) be $\\lambda_1$ and $\\lambda_2$.\n(iii) Verify that $y=Fe^{\\lambda_1 t}+Ge^{\\lambda_2 t}$ is a solution to the differential equation in (c)(i), where $G$ is a constant. [4]"
+  }
+ ],
+ "status": "done"
+}

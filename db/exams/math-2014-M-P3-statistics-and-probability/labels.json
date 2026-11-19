@@ -1,0 +1,58 @@
+{
+ "exam_id": "math-2014-M-P3-statistics-and-probability",
+ "questions": {
+  "1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.L1",
+    "4.12",
+    "4.11"
+   ],
+   "text_clean": "1. [Maximum mark: 14]\nThe random variable $X$ has probability distribution $\\mathrm{Po}(8)$.\n(a) (i) Find $\\mathrm{P}(X=6)$.\n(ii) Find $\\mathrm{P}(X=6 \\mid 5 \\le X \\le 8)$. [5]\n(b) $\\bar{X}$ denotes the sample mean of $n>1$ independent observations from $X$.\n(i) Write down $\\mathrm{E}(\\bar{X})$ and $\\mathrm{Var}(\\bar{X})$.\n(ii) Hence, give a reason why $\\bar{X}$ is not a Poisson distribution. [3]\n(c) A random sample of 40 observations is taken from the distribution for $X$.\n(i) Find $\\mathrm{P}(7.1<\\bar{X}<8.5)$.\n(ii) Given that $\\mathrm{P}(|\\bar{X}-8| \\le k)=0.95$, find the value of $k$. [6]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L8",
+    "4.4",
+    "4.10"
+   ],
+   "text_clean": "2. [Maximum mark: 16]\nThe following table gives the average yield of olives per tree, in kg, and the rainfall, in cm, for nine separate regions of Greece. You may assume that these data are a random sample from a bivariate normal distribution, with correlation coefficient $\\rho$.\nRainfall ($x$): 11, 10, 15, 13, 7, 18, 22, 20, 28\nYield ($y$): 56, 53, 67, 61, 54, 78, 86, 88, 78\nA scientist wishes to use these data to determine whether there is a positive correlation between rainfall and yield.\n(a) State suitable hypotheses. [2]\n(b) Determine the product moment correlation coefficient for these data. [2]\n(c) Determine the associated $p$-value and comment on this value in the context of the question. [2]\n(d) Find the equation of the regression line of $y$ on $x$. [2]\n(e) Hence, estimate the yield per tree in a tenth region where the rainfall was 19 cm. [2]\n(f) Determine the angle between the regression line of $y$ on $x$ and that of $x$ on $y$. Give your answer to the nearest degree. [6]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.L5",
+    "5.11"
+   ],
+   "text_clean": "3. [Maximum mark: 14]\n(a) Consider the random variable $X$ for which $\\mathrm{E}(X)=a\\lambda+b$, where $a$ and $b$ are constants and $\\lambda$ is a parameter.\nShow that $\\frac{X-b}{a}$ is an unbiased estimator for $\\lambda$. [3]\n(b) The continuous random variable $Y$ has probability density function\n$f(y)=\\begin{cases}\\frac{2}{9}(3+y-\\lambda), & \\text{for } \\lambda-3 \\le y \\le \\lambda \\\\ 0, & \\text{otherwise}\\end{cases}$\nwhere $\\lambda$ is a parameter.\n(i) Verify that $f(y)$ is a probability density function for all values of $\\lambda$.\n(ii) Determine $\\mathrm{E}(Y)$.\n(iii) Write down an unbiased estimator for $\\lambda$. [11]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "4",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "4.L3",
+    "4.L2",
+    "1.8",
+    "5.6"
+   ],
+   "text_clean": "4. [Maximum mark: 16]\nConsider the random variable $X \\sim \\mathrm{Geo}(p)$.\n(a) State $\\mathrm{P}(X<4)$. [2]\n(b) Show that the probability generating function for $X$ is given by $G_X(t)=\\frac{pt}{1-qt}$, where $q=1-p$. [3]\nLet the random variable $Y=2X$.\n(c) (i) Show that the probability generating function for $Y$ is given by $G_Y(t)=G_X(t^2)$.\n(ii) By considering $G_Y'(1)$, show that $\\mathrm{E}(Y)=2\\mathrm{E}(X)$. [6]\nLet the random variable $W=2X+1$.\n(d) (i) Find the probability generating function for $W$ in terms of the probability generating function of $Y$.\n(ii) Hence, show that $\\mathrm{E}(W)=2\\mathrm{E}(X)+1$. [5]",
+   "answer_status": "ok"
+  }
+ }
+}

@@ -1,0 +1,298 @@
+{
+ "exam_id": "math-2008-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2008,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2008 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2008 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8808-7202; code N08/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches expected total 120",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2008-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 7]\n� In a triangle ABC, A� = 35 , BC = 4 cm and AC = 6 5. cm . Find the possible values\nof B� and the corresponding values of AB.",
+   "ms_text": "ο sin sin35\n1. B= M1\n6.5 4\n∃ ο B = 68.8 or 111ο A1A1\nC = ∃ 76.2or 33.8 ο ο (accept 34ο) A1\nAB BC\n=\nsin C sin A\nAB 4\n= (M1)\nο ο sin76.2 sin35\nAB = 6.77 cm A1\nAB 4\n=\nο ο sin33.8 sin35\nAB = 3.88 cm (accept 3.90) A1\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 7]\nIn a triangle ABC, $\\hat{A} = 35^\\circ$, BC $= 4$ cm and AC $= 6.5$ cm. Find the possible values of $\\hat{B}$ and the corresponding values of AB."
+  },
+  {
+   "id": "math-2008-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nA geometric sequence has a first term of 2 and a common ratio of 1.05. Find the value\nof the smallest term which is greater than 500.",
+   "ms_text": "× n− 1 > 2. 21.05 500 M1\nlog250\nn −> 1 M1\nlog 1.05\nn −> 1113.1675... A1\nn = 115 (A1)\nu = 521 A1 N5\n115\nNote: Accept graphical solution with appropriate sketch.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nA geometric sequence has a first term of 2 and a common ratio of 1.05. Find the value of the smallest term which is greater than 500."
+  },
+  {
+   "id": "math-2008-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nA continuous random variable X has a probability density function given by\n3 ( x + 1\n), for 1 ≤ x ≤ 3 ,\n60 fx () =\n0 , otherwise.\nFind\n(a) P(. 1 5 ≤ X ≤ 2 5 .) ; [2 marks]\n[2 marks] (b) E( X; )\n(c) the median of X . [3 marks]",
+   "ms_text": "3 2.5 ( x +\n1)d 3. (a)\n∫ x = 0.4625 (0.463) = M1A1\n1.5 60\n3 3 xx ( + 1)\n= = (b) E( X ) ∫ d x 2.31 M1A1\n1 60\n3 mx ( +\n1)d (c)\n∫ x = 0.5 M1\n1 60\nm\n+ 4 ( x 1)\n= 0.5 (A1)\n240\n1\nm = 2.41 A1\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nA continuous random variable $X$ has a probability density function given by\n$f(x) = \\begin{cases} \\frac{(x+1)^3}{60}, & \\text{for } 1 \\le x \\le 3, \\\\ 0, & \\text{otherwise.} \\end{cases}$\nFind\n(a) $\\mathrm{P}(1.5 \\le X \\le 2.5)$; [2 marks]\n(b) $\\mathrm{E}(X)$; [2 marks]\n(c) the median of $X$. [3 marks]"
+  },
+  {
+   "id": "math-2008-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nThe angle between the vector a =− i 2 j + 3 and the vector b k = 3 i − 2 j + m is 30ο. k\nFind the values of m.",
+   "ms_text": "4. ab γ = a b cosθ (M1)\n1 3\nab γ =− 2 γ − 2 = 7 + 3 m A1\n3 m\na = 14 b = 13 + m 2 A1\nθ= + 2 ο ab cos 1413 m cos30\n2 ο 7 + 3 m = 1413 + m cos30 A1\nm = 2.27, m = 25.7 A1A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nThe angle between the vector $\\boldsymbol{a} = \\boldsymbol{i} - 2\\boldsymbol{j} + 3\\boldsymbol{k}$ and the vector $\\boldsymbol{b} = 3\\boldsymbol{i} - 2\\boldsymbol{j} + m\\boldsymbol{k}$ is $30^\\circ$.\nFind the values of $m$."
+  },
+  {
+   "id": "math-2008-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\n(a) Find the set of values of k for which the following system of equations has\nno solution.\nx + 2 y − 3 z = k\n3 x + y + 2 z = 4\n5 x + 7 z = 5 [4 marks]\n(b) Describe the geometrical relationship of the three planes represented by this\nsystem of equations. [1 mark]",
+   "ms_text": "1 2 − 3 k\n5. (a) 3 1 2 4 M1\n5 0 7 5\nR − 2 R\n1 2\n− − − 5 0 7 k 8\n3 1 2 4 (A1)\n5 0 7 5\nR + R\n1 3\n0 0 0 k − 3\n3 1 2 4 (A1)\n5 0 7 5\nHence no solutions if k ∈ ϒ , k ≠ 3 A1\n(b) Two planes meet in a line and the third plane is parallel to that line. A1\n[5 mark]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.16",
+    "3.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\n(a) Find the set of values of $k$ for which the following system of equations has no solution.\n$x + 2y - 3z = k$\n$3x + y + 2z = 4$\n$5x + 7z = 5$ [4 marks]\n(b) Describe the geometrical relationship of the three planes represented by this system of equations. [1 mark]"
+  },
+  {
+   "id": "math-2008-N-P2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\n(a) Sketch the curve y = ln x − cos x − .0 1, 0 < x < 4 showing clearly the\ncoordinates of the points of intersection with the x-axis and the coordinates of\nany local maxima and minima. [5 marks]\n(b) Find the values of x for which ln x > cos x + 0 1, 0 . < x < 4 . [2 marks]",
+   "ms_text": "6. (a)\nA1\nNote:Award A1 for shape.\nx intercepts 0.354, 1.36, 2.59, 2.95 A2\nNote: Award A1for three correct,A0otherwise.\nπ\nmaximum = (1.57, 0.352) = , 0.352 A1\n2\nminimum = (1, − 0.640) and (2.77, − 0.0129) A1\n(b) 0 < x < 0.354,1.36 < x < 2.59,2.95 < x < 4 A2\nNote:Award A1 if two correct regions given.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16",
+    "2.4",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\n(a) Sketch the curve $y = |\\ln x| - |\\cos x| - 0.1$, $0 < x < 4$ showing clearly the coordinates of the points of intersection with the $x$-axis and the coordinates of any local maxima and minima. [5 marks]\n(b) Find the values of $x$ for which $|\\ln x| > |\\cos x| + 0.1$, $0 < x < 4$. [2 marks]"
+  },
+  {
+   "id": "math-2008-N-P2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 8]\n(a) Ahmed is typing Section A of a mathematics examination paper. The number\nof mistakes that he makes, X , can be modelled by a Poisson distribution with\nmean 3.2 . Find the probability that Ahmed makes exactly four mistakes. [1 mark]\n(b) His colleague, Levi, is typing Section B of this paper. The number of\nmistakes that he makes, Y , can be modelled by a Poisson distribution with\nmean m.\n(i) If E( Y2 ) = 5 5 . , find the value of m.\n(ii) Find the probability that Levi makes exactly three mistakes. [5 marks]\n(c) Given that X and Y are independent, find the probability that Ahmed makes\nexactly four mistakes and Levi makes exactly three mistakes. [2 marks]",
+   "ms_text": "7. (a) X: Po(3.2)\n− 3.2 4 e 3.2\nP( X = 4) =\n4!\n= 0.178 A1\n2 2 (b) (i) Var() Y = E( Y ) − E() Y (M1)\n2 m = 5.5 − m A1\nm = 1.90 (or m =− 2.90 which is invalid) A1\n(ii) Y: Po(1.90)\n− 1.90 3 e 1.90\nP( Y = 3) = (M1)\n3!\n= 0.171 A1\n(c) Required probability = 0.1710.178 × = 0.0304 (accept 0.0305) (M1)A1\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.14",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 8]\n(a) Ahmed is typing Section A of a mathematics examination paper. The number of mistakes that he makes, $X$, can be modelled by a Poisson distribution with mean 3.2. Find the probability that Ahmed makes exactly four mistakes. [1 mark]\n(b) His colleague, Levi, is typing Section B of this paper. The number of mistakes that he makes, $Y$, can be modelled by a Poisson distribution with mean $m$.\n(i) If $\\mathrm{E}(Y^2) = 5.5$, find the value of $m$.\n(ii) Find the probability that Levi makes exactly three mistakes. [5 marks]\n(c) Given that $X$ and $Y$ are independent, find the probability that Ahmed makes exactly four mistakes and Levi makes exactly three mistakes. [2 marks]"
+  },
+  {
+   "id": "math-2008-N-P2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\n1 y 2 − 2 x , show that d − y\nIf y = ln ( + e ) = ( e − 3 ) .\n31\nd x 3",
+   "ms_text": "1 − 2 x\n8. y = ln (1 + e )\n3\nEITHER\n2 e − 2 x −\nd y 3\n= M1A1\nd x 1\n(1 + e − 2 x )\n3\n− 2 x d y − 2e\n= A1\n− 2 x d x 1 + e\ny 1 − 2 x e = (1 + e ) M1\n3\n− 2 x y Now e = 3e − 1 A1\ny d y − 2(3e − 1)\n⇒ = A1\n+ y − d x 1 3e 1\n2(3e y =− − 1)\ny 3e\n2 (3 − y =− − e ) A1\n3\n2 (e − y = − 3) AG\n3\nOR\n1 −\ne y = (1 + e 2 x ) M1A1\n3\nd y 2 y − 2 x\ne =− e M1A1\nd x 3\n− Now e 2 x = 3e y − 1 (A1)\nd y 2\n⇒ y =− y − e (3e 1)\nd x 3\nd y 2 e − y y\n⇒ =− (3e − 1) (A1)\nd x 3\n2 (3 − y = −+ e ) (A1)\n3\n− = 2 (e y − 3) AG\n3\nNote: Only two of the three(A1)marks may be implied.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.6",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nIf $y = \\ln\\left(\\frac{1}{3}(1 + \\mathrm{e}^{-2x})\\right)$, show that $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{2}{3}(\\mathrm{e}^{-y} - 3)$."
+  },
+  {
+   "id": "math-2008-N-P2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\nThe population of mosquitoes in a specific area around a lake is controlled by pesticide.\nThe rate of decrease of the number of mosquitoes is proportional to the number of\nmosquitoes at any time t. Given that the population decreases from 500 000 to 400 000\nin a five year period, find the time it takes in years for the population of mosquitoes to\ndecrease by half.",
+   "ms_text": "9. Let the number of mosquitoes be y.\nd y\nky M1 t=−\nd\n1 d\n∫ y = ∫ − kt d M1\ny\nln y =− kt + c A1\n− + y = ektc\ny = A− ekt\nwhen t = 0, y = 500 000 ⇒ A = 500 000 A1\n− y = 500 000ekt\nwhen t = 5, y = 400 000\n400 000 = 500 000e − 5 k M1\n4 − 5 k\n= e\n5\n4\n− 5 k =\nln 5\n1 4\nk =− ln (0.0446) = A1\n5 5\n250 000 = 500 000ekt − M1\n1 − kt\n= e\n2\n1\n=− kt\nln 2\n5 1\nt = ln = 15.5 years A1\n4 2\nln 5\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nThe population of mosquitoes in a specific area around a lake is controlled by pesticide. The rate of decrease of the number of mosquitoes is proportional to the number of mosquitoes at any time $t$. Given that the population decreases from 500 000 to 400 000 in a five year period, find the time it takes in years for the population of mosquitoes to decrease by half."
+  },
+  {
+   "id": "math-2008-N-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10.[Maximum mark: 18]\n(a) Write the vector equations of the following lines in parametric form.\n3 2\nr1 = 2 + m − 1\n7 2\n1 4\n4 + n − 1 [2 marks] r2=\n2 1\n(b) Hence show that these two lines intersect and find the point of intersection, A. [5 marks]\n(c) Find the Cartesian equation of the plane ∏ that contains these two lines. [4 marks]\n− 8 3\n(d) Let B be the point of intersection of the plane ∏ and the line r = − 3 + λ 8 .\n0 2\nFind the coordinates of B. [4 marks]\n(e) If C is the mid-point of AB, find the vector equation of the line perpendicular to\nthe plane ∏ and passing through C. [3 marks]",
+   "ms_text": "10. (a) x = 3 + 2 m\ny = 2 − m\nz = 7 + 2 m A1\nx =+ 1 4 n\ny = 4 − n\nz = 2 + n A1\n[2 marks]\n(b) 3 + 2 m =+ 1 4 n ⇒ 2 m − 4 n =−(i) 2\n2 − m = 4 − n ⇒ m − n =−(ii) 2 M1\n7 + 2 m = 2 + n ⇒ 2 m − n =−(iii) 5\n(iii) − (ii) ⇒ m =− 3 A1\n⇒ n =− 1 A1\nSubstitute in (i), 6 −+ 4 =−. Hence lines intersect. 2 R1\nPoint of intersection A is (3, 5, 1) − A1\n[5 marks]\ni j k 1\n(c) 2 − 1 2 6 M1A1 =\n4 − 1 1 2\n1 3 1\nr γ 6 = 2 γ 6 (M1)\n2 7 2\n1\n= r γ 6 29\n2\nx + 6 y + 2 z = 29 A1\nNote: AwardM1A0if answer is not in Cartesian form.\n[4 marks]\n=−+ λ (d) x 8 3\ny =−+ 3 8 λ (M1)\n= λ z 2\nSubstitute in equation of plane.\n−+ 8 3 λ − 18 + 48 λ + 4 λ = 29 M1\n55 λ= 55\nλ= 1 A1\nCoordinates of B are (5, 5, 2) − A1\n[4 marks]\n3\n(e) Coordinates of C are − (A1)\n4, 5,2\n− 4\n1\n5\nr = + μ 6 M1A1\n3\n2\n2\nx\nNote: AwardM1A0unless candidate writes r = or y =\nz\n[3 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.15",
+    "3.18",
+    "3.17",
+    "3.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 18]\n(a) Write the vector equations of the following lines in parametric form.\n$\\boldsymbol{r}_1 = \\begin{pmatrix} 3 \\\\ 2 \\\\ 7 \\end{pmatrix} + m\\begin{pmatrix} 2 \\\\ -1 \\\\ 2 \\end{pmatrix}$\n$\\boldsymbol{r}_2 = \\begin{pmatrix} 1 \\\\ 4 \\\\ 2 \\end{pmatrix} + n\\begin{pmatrix} 4 \\\\ -1 \\\\ 1 \\end{pmatrix}$ [2 marks]\n(b) Hence show that these two lines intersect and find the point of intersection, A. [5 marks]\n(c) Find the Cartesian equation of the plane $\\Pi$ that contains these two lines. [4 marks]\n(d) Let B be the point of intersection of the plane $\\Pi$ and the line $\\boldsymbol{r} = \\begin{pmatrix} -8 \\\\ -3 \\\\ 0 \\end{pmatrix} + \\lambda\\begin{pmatrix} 3 \\\\ 8 \\\\ 2 \\end{pmatrix}$.\nFind the coordinates of B. [4 marks]\n(e) If C is the mid-point of AB, find the vector equation of the line perpendicular to the plane $\\Pi$ and passing through C. [3 marks]"
+  },
+  {
+   "id": "math-2008-N-P2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Total mark: 21]\nPart A [Maximum mark: 11]\n(a) A box of biscuits is considered to be underweight if it weighs less than\n228 grams. It is known that the weights of these boxes of biscuits are normally\ndistributed with a mean of 231 grams and a standard deviation of 1.5 grams.\nWhat is the probability that a box is underweight? [2 marks]\n(b) The manufacturer decides that the probability of a box being underweight should\nbe reduced to 0.002.\n(i) Bill’s suggestion is to increase the mean and leave the standard deviation\nunchanged. Find the value of the new mean.\n(ii) Sarah’s suggestion is to reduce the standard deviation and leave the mean\nunchanged. Find the value of the new standard deviation. [6 marks]\n(c) After the probability of a box being underweight has been reduced to 0.002,\na group of customers buys 100 boxes of biscuits. Find the probability that at\nleast two of the boxes are underweight. [3 marks]\nPart B [Maximum mark: 10]\nThere are six boys and five girls in a school tennis club. A team of two boys and two\ngirls will be selected to represent the school in a tennis competition.\n(a) In how many different ways can the team be selected? [3 marks]\n(b) Tim is the youngest boy in the club and Anna is the youngest girl. In how many\ndifferent ways can the team be selected if it must include both of them? [2 marks]\n(c) What is the probability that the team includes both Tim and Anna? [1 mark]\n(d) Fred is the oldest boy in the club. Given that Fred is selected for the team,\nwhat is the probability that the team includes Tim or Anna, but not both? [4 marks]",
+   "ms_text": "11. Part A\n2 (a) X: N(231, 1.5)\nX< = P( 228) 0.0228 (M1)A1\nNote: Accept 0.0227.\n[2 marks]\nμ 2 (b) (i) X : N(, 1.5)\nP( X< 228) = 0.002\n228 − μ\n=− 2.878... M1A1\n1.5\nμ= 232 grams A1 N3\n2 (ii) X : N(231, σ )\n228 − 231\n=− 2.878... M1A1\nσ\nσ= 1.04 grams A1 N3\n[6 marks]\n(c) X: B(100, 0.002) (M1)\nP( X≤ 1) = 0.982... (A1)\n≥ =− ≤ = P( X 2) 1 P( X 1) 0.0174 A1\n[3 marks]\nSub-total [11 marks]\nPart B\n×\nBoys can be chosen in 65 (a) = 15 ways (A1)\n2\n×\nGirls can be chosen in 54 = 10 ways (A1)\n2\nTotal = 1510 × = 150 ways A1\n[3 marks]\n=× = (b) Number of ways 5 4 20 (M1)A1\n[2 marks]\n20 2\n(c) = A1\n150 15\n[1 mark]\n(d) METHOD 1\n1 2\nP() T = ; P() A = A1\n5 5\n= × ′ + ′ × P( T or A but not both) P()P( T A ) P( T )P() A M1A1\n1 3 4 2 11\n= × + × = A1\n5 5 5 5 25\nMETHOD 2\n5\nNumber of selections including Fred =× 5 = 50 A1\n2\n4\nNumber of selections including Tim but not Anna = = 6 A1\n2\nNumber of selections including Anna but not Tim = 4 × 4 = 16\nNote: Both statements are needed to award A1.\n616 + 11\nP( T or A butnotboth) = = M1A1\n50 25\n[4 marks]\nSub-total [10 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.12",
+    "1.10",
+    "4.11",
+    "4.8",
+    "4.9",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Total mark: 21]\nPart A [Maximum mark: 11]\n(a) A box of biscuits is considered to be underweight if it weighs less than 228 grams. It is known that the weights of these boxes of biscuits are normally distributed with a mean of 231 grams and a standard deviation of 1.5 grams. What is the probability that a box is underweight? [2 marks]\n(b) The manufacturer decides that the probability of a box being underweight should be reduced to 0.002.\n(i) Bill's suggestion is to increase the mean and leave the standard deviation unchanged. Find the value of the new mean.\n(ii) Sarah's suggestion is to reduce the standard deviation and leave the mean unchanged. Find the value of the new standard deviation. [6 marks]\n(c) After the probability of a box being underweight has been reduced to 0.002, a group of customers buys 100 boxes of biscuits. Find the probability that at least two of the boxes are underweight. [3 marks]\nPart B [Maximum mark: 10]\nThere are six boys and five girls in a school tennis club. A team of two boys and two girls will be selected to represent the school in a tennis competition.\n(a) In how many different ways can the team be selected? [3 marks]\n(b) Tim is the youngest boy in the club and Anna is the youngest girl. In how many different ways can the team be selected if it must include both of them? [2 marks]\n(c) What is the probability that the team includes both Tim and Anna? [1 mark]\n(d) Fred is the oldest boy in the club. Given that Fred is selected for the team, what is the probability that the team includes Tim or Anna, but not both? [4 marks]"
+  },
+  {
+   "id": "math-2008-N-P2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12.[Maximum mark: 21]\nx\n2 The function f is defined by fx () = x 9 − x + 2 arcsin .\n3\n(a) Write down the largest possible domain, for each of the two terms of the\nfunction, f ,and hence state the largest possible domain, D , for f . [2 marks]\n(b) Find the volume generated when the region bounded by the curve y = fx () ,\nthe x-axis, the y-axis and the line x = 2 8. is rotated through 2π radians about\nthe x-axis. [3 marks]\n(c) Find ′f () in simplified form. x [5 marks]\n2 p 112 − x p\n2 [2 marks] (d) Hence show that\n−∫ d x = 2 p 9 − p + 4 arcsin , where p ∈ D .\np 2 3 9 − x\n(e) Find the value of p which maximises the value of the integral in (d). [2 marks]\n2 x ( 2 x − 25 )\n(f) (i) Show that f ′′ () x = .\n3\n2 ( 9 − x ) 2\n(ii) Hence justify that fx () has a point of inflexion at x = 0 , but not at\n25\nx = ± [7 marks]\n2.",
+   "ms_text": "2 x 12. (a) For x 9 − x , 3 −≤ x ≤ 3 , 3 −≤ x ≤ 3 A1\nand for 2arcsin3\n⇒ D is −≤ 3 x ≤ 3 A1\n[2 marks]\n2\n2.8 x 2\n(b) V =π ∫ x 9 − x + 2arcsin d x M1A1\n0 3\n= 181 A1\n[3 marks]\n2\n1 2 d y x\n3 = − 2 2 − +\n(c) (9 x ) M1A1\n1 2 d x\nx\n(9 − x 2 ) 2 1 −\n9\n1 2 x 2\n2 = (9 − x ) 2 − + A1\n1 1\n2 2 (9 − x ) 2 (9 − x ) 2\n2 2 9 − x − x + 2\n= A1\n1\n2 2 (9 − x )\n2 11 − 2 x\n= A1\n2 9 − x\n[5 marks]\np\n− 2 p 11 2 x x\n(d) d x = x 9 − x 2 + M1 ∫\n2arcsin 3 − p 2\n9 − x − p\np p\n= − 2 + + − 2 + p 9 p 2arcsin p 9 p 2arcsin A1\n3 3\np 2\n= 2 p 9 − p + 4arcsin AG\n3\n[2 marks]\n2 (e) 112 − p = 0 M1\n11\np = 2.35 A1\n2\nNote: AwardA0 for p =± 2.35 .\n[2 marks]\n1 1 −\n2 2 2 2 2 (9 − x )(4) − x + x (11 − 2 x )(9 − x )\n(f) (i) f ′′ () x = M1A1\n− 2 9 x\n2 2 − 4(9 x − x ) + x (11 − 2 x )\n= A1\n3\n2 2 (9 − x )\n3 3 − 36 x + 4 x + 11 x − 2 x\n= A1\n3\n2 2 (9 − x )\n2 x (2 x − 25)\n= AG\n3\n2 2 (9 − x )\n(ii) EITHER\nWhen 0 < x < 3 , f ′′ () x < 0 . When 3 −< x < 0 , f ′′ () x > 0 . A1\nOR\nf ′′ (0) = 0 A1\nTHEN\n′′ x = Hence f () x changes sign through 0 , giving a point of inflexion. R1\nEITHER\n25\nx =± is outside the domain of f. R1\n2\nOR\n25\n′′ x =± is not a root of f () x = 0 . R1\n2\n[7 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "5.7",
+    "5.15",
+    "5.17",
+    "5.11",
+    "5.8",
+    "2.2",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 21]\nThe function $f$ is defined by $f(x) = x\\sqrt{9 - x^2} + 2\\arcsin\\left(\\frac{x}{3}\\right)$.\n(a) Write down the largest possible domain, for each of the two terms of the function, $f$, and hence state the largest possible domain, $D$, for $f$. [2 marks]\n(b) Find the volume generated when the region bounded by the curve $y = f(x)$, the $x$-axis, the $y$-axis and the line $x = 2.8$ is rotated through $2\\pi$ radians about the $x$-axis. [3 marks]\n(c) Find $f'(x)$ in simplified form. [5 marks]\n(d) Hence show that $\\int_{-p}^{p} \\frac{11 - 2x^2}{\\sqrt{9 - x^2}}\\,\\mathrm{d}x = 2p\\sqrt{9 - p^2} + 4\\arcsin\\left(\\frac{p}{3}\\right)$, where $p \\in D$. [2 marks]\n(e) Find the value of $p$ which maximises the value of the integral in (d). [2 marks]\n(f) (i) Show that $f''(x) = \\frac{x(2x^2 - 25)}{(9 - x^2)^{\\frac{3}{2}}}$.\n(ii) Hence justify that $f(x)$ has a point of inflexion at $x = 0$, but not at $x = \\pm\\sqrt{\\frac{25}{2}}$. [7 marks]"
+  }
+ ],
+ "status": "done"
+}

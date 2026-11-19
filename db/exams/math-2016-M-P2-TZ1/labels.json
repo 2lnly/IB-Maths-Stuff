@@ -1,0 +1,166 @@
+{
+ "exam_id": "math-2016-M-P2-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16"
+   ],
+   "text_clean": "1. [Maximum mark: 4]\nThe points A and B have position vectors $\\vec{OA}=\\begin{pmatrix}1\\\\2\\\\-2\\end{pmatrix}$ and $\\vec{OB}=\\begin{pmatrix}1\\\\0\\\\2\\end{pmatrix}$.\n(a) Find $\\vec{OA}\\times\\vec{OB}$. [2]\n(b) Hence find the area of the triangle OAB. [2]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.6",
+    "2.5"
+   ],
+   "text_clean": "2. [Maximum mark: 4]\n(a) Express $x^2+4x-2$ in the form $(x+a)^2+b$ where $a, b\\in\\mathbb{Z}$. [2]\n(b) If $f(x)=x+2$ and $(g\\circ f)(x)=x^2+4x-2$ write down $g(x)$. [2]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.6"
+   ],
+   "text_clean": "3. [Maximum mark: 5]\nThe displacement, $s$, in metres, of a particle $t$ seconds after it passes through the origin is given by the expression $s=\\ln(2-e^{-t})$, $t\\geq 0$.\n(a) Find an expression for the velocity, $v$, of the particle at time $t$. [2]\n(b) Find an expression for the acceleration, $a$, of the particle at time $t$. [2]\n(c) Find the acceleration of the particle at time $t=0$. [1]",
+   "answer_status": "ok",
+   "note": "audit: pure kinematics; 5.9 primary as on equivalents"
+  },
+  "4": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\nThe diagram below shows a fenced triangular enclosure in the middle of a large grassy field. The points A and C are 3 m apart. A goat G is tied by a 5 m length of rope at point A on the outside edge of the enclosure.\nGiven that the corner of the enclosure at C forms an angle of $\\theta$ radians and the area of field that can be reached by the goat is $44\\text{ m}^2$, find the value of $\\theta$.\n[Diagram: shaded triangular enclosure with corner C (angle $\\theta$); A lies on side from C, CA = 3 m; goat G tied at A by a 5 m rope, outside the enclosure]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.14",
+    "2.2"
+   ],
+   "text_clean": "5. [Maximum mark: 7]\nThe function $f$ is given by $f(x)=\\dfrac{3x^2+10}{x^2-4}$, $x\\in\\mathbb{R}$, $x\\neq 2$, $x\\neq -2$.\n(a) Prove that $f$ is an even function. [2]\n(b) (i) Sketch the graph $y=f(x)$.\n(ii) Write down the range of $f$. [5]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9"
+   ],
+   "text_clean": "6. [Maximum mark: 6]\nThe heights of students in a single year group in a large school can be modelled by a normal distribution.\nIt is given that 40% of the students are shorter than 1.62 m and 25% are taller than 1.79 m.\nFind the mean and standard deviation of the heights of the students.",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.10"
+   ],
+   "text_clean": "7. [Maximum mark: 8]\nIt has been suggested that in rowing competitions the time, $T$ seconds taken to complete a 2000 m race can be modelled by an equation of the form $T=aN^b$, where $N$ is the number of rowers in the boat and $a$ and $b$ are constants for rowers of a similar standard.\nTo test this model the times for the finalists in all the 2000 m men's races at a recent Olympic games were recorded and the mean calculated.\nThe results are shown in the following table for $N=1$ and $N=2$.\nN | T (seconds)\n1 | 420.65\n2 | 390.94\n(a) Use these results to find estimates for the value of $a$ and the value of $b$. Give your answers to five significant figures. [4]\n(b) Use this model to estimate the mean time for the finalists in an Olympic race for boats with 8 rowers. Give your answer correct to two decimal places. [1]\nIt is now given that the mean time in the final for boats with 8 rowers was 342.08 seconds.\n(c) Calculate the error in your estimate as a percentage of the actual value. [1]\n(d) Comment on the likely validity of the model as $N$ increases beyond 8. [2]",
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "power model T=aN^b; solved with logs (1.7) / equation solving; percentage error and model validity have no exact AA code",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.7",
+    "2.12",
+    "2.6"
+   ],
+   "text_clean": "8. [Maximum mark: 5]\nWhen $x^2+4x-b$ is divided by $x-a$ the remainder is 2.\nGiven that $a, b\\in\\mathbb{R}$, find the smallest possible value for $b$.",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "1.14",
+    "1.12"
+   ],
+   "text_clean": "9. [Maximum mark: 7]\nTwo distinct roots for the equation $z^4-10z^3+az^2+bz+50=0$ are $c+i$ and $2+id$ where $a, b, c, d\\in\\mathbb{R}$, $d>0$.\n(a) Write down the other two roots in terms of $c$ and $d$. [1]\n(b) Find the value of $c$ and the value of $d$. [6]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.11"
+   ],
+   "text_clean": "10. [Maximum mark: 8]\nStudents sign up at a desk for an activity during the course of an afternoon. The arrival of each student is independent of the arrival of any other student and the number of students arriving per hour can be modelled as a Poisson distribution with a mean of $\\lambda$.\nThe desk is open for 4 hours. If exactly 5 people arrive to sign up for the activity during that time find the probability that exactly 3 of them arrived during the first hour.",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "2",
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.14",
+    "2.15",
+    "5.8",
+    "5.7",
+    "3.9"
+   ],
+   "text_clean": "11. [Maximum mark: 22]\nLet $f(x)=x^4+0.2x^3-5.8x^2-x+4$, $x\\in\\mathbb{R}$.\n(a) Find the solutions of $f(x)>0$. [3]\n(b) For the curve $y=f(x)$.\n(i) Find the coordinates of both local minimum points.\n(ii) Find the $x$-coordinates of the points of inflexion. [5]\nThe domain of $f$ is now restricted to $[0, a]$.\n(c) (i) Write down the largest value of $a$ for which $f$ has an inverse. Give your answer correct to 3 significant figures.\n(ii) For this value of $a$ sketch the graphs of $y=f(x)$ and $y=f^{-1}(x)$ on the same set of axes, showing clearly the coordinates of the end points of each curve.\n(iii) Solve $f^{-1}(x)=1$. [6]\nLet $g(x)=2\\sin(x-1)-3$, $-\\frac{\\pi}{2}+1\\leq x\\leq\\frac{\\pi}{2}+1$.\n(d) (i) Find an expression for $g^{-1}(x)$, stating the domain.\n(ii) Solve $(f^{-1}\\circ g)(x)<1$. [8]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4",
+    "2.4"
+   ],
+   "text_clean": "12. [Maximum mark: 16]\nConsider the curve, $C$ defined by the equation $y^2-2xy=5-e^x$. The point A lies on $C$ and has coordinates $(0, a)$, $a>0$.\n(a) Find the value of $a$. [2]\n(b) Show that $\\dfrac{dy}{dx}=\\dfrac{2y-e^x}{2(y-x)}$. [4]\n(c) Find the equation of the normal to $C$ at the point A. [3]\n(d) Find the coordinates of the second point at which the normal found in part (c) intersects $C$. [4]\n(e) Given that $v=y^3$, $y>0$, find $\\dfrac{dv}{dx}$ at $x=0$. [3]",
+   "answer_status": "ok"
+  },
+  "13": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.6",
+    "4.7"
+   ],
+   "text_clean": "13. [Maximum mark: 22]\nSix balls numbered 1, 2, 2, 3, 3, 3 are placed in a bag. Balls are taken one at a time from the bag at random and the number noted. Throughout the question a ball is always replaced before the next ball is taken.\n(a) A single ball is taken from the bag. Let $X$ denote the value shown on the ball. Find $E(X)$. [2]\n(b) Three balls are taken from the bag. Find the probability that\n(i) the total of the three numbers is 5;\n(ii) the median of the three numbers is 1. [6]\n(c) Ten balls are taken from the bag. Find the probability that less than four of the balls are numbered 2. [3]\n(d) Find the least number of balls that must be taken from the bag for the probability of taking out at least one ball numbered 2 to be greater than 0.95. [3]\n(e) Another bag also contains balls numbered 1, 2 or 3.\nEight balls are to be taken from this bag at random. It is calculated that the expected number of balls numbered 1 is 4.8, and the variance of the number of balls numbered 2 is 1.5.\nFind the least possible number of balls numbered 3 in this bag. [8]",
+   "answer_status": "ok",
+   "note": "qp crop override: removed trailing blank 'answers will not be marked' pages"
+  }
+ }
+}

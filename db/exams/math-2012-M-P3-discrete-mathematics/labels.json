@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2012-M-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.1", "6.4"],
+      "text_clean": "1. [Maximum mark: 15]\n(a) Use the Euclidean algorithm to express $\\gcd(123, 2347)$ in the form $123p + 2347q$, where $p, q \\in \\mathbb{Z}$. [8 marks]\n(b) Find the least positive solution of $123x \\equiv 1 \\pmod{2347}$. [3 marks]\n(c) Find the general solution of $123z \\equiv 5 \\pmod{2347}$. [3 marks]\n(d) State the solution set of $123y \\equiv 1 \\pmod{2346}$. [1 mark]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.8"],
+      "text_clean": "2. [Maximum mark: 7]\nThe cost adjacency matrix for the weighted graph $K$ is given below.\n| | A | B | C | D | E | F | G |\n| A | 0 | 5 | 2 | 0 | 0 | 0 | 0 |\n| B | 5 | 0 | 0 | 0 | 7 | 0 | 0 |\n| C | 2 | 0 | 0 | 4 | 4 | 0 | 0 |\n| D | 0 | 0 | 4 | 0 | 2 | 0 | 9 |\n| E | 0 | 7 | 4 | 2 | 0 | 4 | 3 |\n| F | 0 | 0 | 0 | 0 | 4 | 0 | 1 |\n| G | 0 | 0 | 0 | 9 | 3 | 1 | 0 |\nUse Prim's algorithm, starting at G, to draw two distinct minimal weight spanning trees for $K$."
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.11", "6.7", "6.6"],
+      "text_clean": "3. [Maximum mark: 8]\nThe graph $G$ has adjacency matrix $M$ given below.\n| | A | B | C | D | E | F |\n| A | 0 | 1 | 0 | 0 | 0 | 1 |\n| B | 1 | 0 | 1 | 0 | 1 | 0 |\n| C | 0 | 1 | 0 | 1 | 0 | 0 |\n| D | 0 | 0 | 1 | 0 | 1 | 0 |\n| E | 0 | 1 | 0 | 1 | 0 | 1 |\n| F | 1 | 0 | 0 | 0 | 1 | 0 |\n(a) Draw the graph $G$. [2 marks]\n(b) What information about $G$ is contained in the diagonal elements of $M^2$? [1 mark]\n(c) Find the number of walks of length 4 starting at A and ending at C. [2 marks]\n(d) List the trails of length 4 starting at A and ending at C. [3 marks]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.6"],
+      "text_clean": "4. [Maximum mark: 17]\n(a) Draw the complement of the following graph as a planar graph. [3 marks]\n[Diagram: graph on vertices A, B, C, D, E, F with edges AB, AC, BD, CD, AF, BE, CE, DF]\n(b) A simple graph $G$ has $v$ vertices and $e$ edges. The complement $G'$ of $G$ has $e'$ edges.\n(i) Prove that $e \\le \\frac{1}{2}v(v-1)$.\n(ii) Find an expression for $e + e'$ in terms of $v$.\n(iii) Given that $G'$ is isomorphic to $G$, prove that $v$ is of the form $4n$ or $4n+1$ for $n \\in \\mathbb{Z}^+$.\n(iv) Prove that there is a unique simple graph with 4 vertices which is isomorphic to its complement.\n(v) Prove that if $v \\ge 11$, then $G$ and $G'$ cannot both be planar. [14 marks]"
+    },
+    "5": {
+      "topics": ["6"],
+      "subtopics": ["6.4", "6.5"],
+      "text_clean": "5. [Maximum mark: 13]\n(a) Use the result $2003 = 6 \\times 333 + 5$ and Fermat's little theorem to show that $2^{2003} \\equiv 4 \\pmod{7}$. [3 marks]\n(b) Find $2^{2003} \\pmod{11}$ and $2^{2003} \\pmod{13}$. [3 marks]\n(c) Use the Chinese remainder theorem, or otherwise, to evaluate $2^{2003} \\pmod{1001}$, noting that $1001 = 7 \\times 11 \\times 13$. [7 marks]"
+    }
+  }
+}

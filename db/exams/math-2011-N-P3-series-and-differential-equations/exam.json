@@ -1,0 +1,158 @@
+{
+ "exam_id": "math-2011-N-P3-series-and-differential-equations",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2011,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Series and differential equations",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2011 November Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2011 November Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8811-7208; code N11/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2011-N-P3-series-and-differential-equations-q1",
+   "num": "1",
+   "section": null,
+   "marks": 5,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\n1 2\n− x\nFind lim . 4\n1\nx →\n2 cot π x",
+   "ms_text": "1. using l’Hôpital’s Rule (M1)\n1\n− x 2\n− 2 x 4\nlim = lim A1A1\n2 1 cot π x 1 −π cosec π x\nx → x →\n2 2\n− 1 1\n= = (M1)A1\nπ π\n−π 2\ncosec2\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nFind $\\lim_{x \\to \\frac{1}{2}} \\left( \\frac{\\left(\\frac{1}{4} - x^2\\right)}{\\cot \\pi x} \\right)$."
+  },
+  {
+   "id": "math-2011-N-P3-series-and-differential-equations-q2",
+   "num": "2",
+   "section": null,
+   "marks": 5,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nn − (a) Show that n !≥ 2 1, for n ≥1. [2 marks]\n∞ 1\n(b) Hence use the comparison test to determine whether the series ∑ converges\n1n ! n =\nor diverges. [3 marks]",
+   "ms_text": "2n − 1 2. (a) for n ≥, 1 n ! = nn ( − 1)( n − 2)...321 ××≥ 2 ×× 2 2...2 ××= 21 M1A1\n− 1 ⇒ n\n! ≥ 2n for n ≥ 1 AG\n[2 marks]\n− 1 1\n(b) n ! ≥ 2 n 1 ⇒ ≤ for n ≥ 1 A1\nn − 1 n ! 2\n∞ 1\n∑ is a positive converging geometric series R1\n− 1 2n\nn = 1\n∞ 1\n∑ R1 hence converges by the comparison test\nn = 1 n !\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L1",
+    "1.8",
+    "1.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\n(a) Show that $n! \\geq 2^{n-1}$, for $n \\geq 1$. [2 marks]\n(b) Hence use the comparison test to determine whether the series $\\sum_{n=1}^{\\infty} \\frac{1}{n!}$ converges or diverges. [3 marks]"
+  },
+  {
+   "id": "math-2011-N-P3-series-and-differential-equations-q3",
+   "num": "3",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 11]\n∞ n x\nn Consider the series\n∑ ( − 1 ) .\nn n × 2\nn = 1\n(a) Find the radius of convergence of the series. [7 marks]\n(b) Hence deduce the interval of convergence. [4 marks]",
+   "ms_text": "3. (a) using the ratio test (and absolute convergence implies convergence) (M1)\nn + 1 n + 1 (1) − x\nn + 1 u ( n + 1)2\nlim n + 1 = lim A1A1\nn →∞ n →∞ − n n u (1) x\nn\nn ()2 n\nNote: Award A1 for numerator, A1 for denominator.\n− n + 1 × n + 1 ×× n (1) x n 2\n=\nlim(1) n n + n n →∞ − ×\n( n + 1) × 2 1 × x\nn\n= (A1) x\nlim 2( n →∞\nn + 1)\nx\n= A1\n2\nx<\nfor convergence we require 1 M1\n2\n⇒ < x 2\nA1 hence radius of convergence is 2\n[7 marks]\n(b) we now need to consider what happens when x = ± 2 (M1)\n∞ (1)n −\nx = ∑ when 2 we have which is convergent (by the alternating series test) A1\nn = 1 n\n∞ 1\nwhen x = − we have 2 ∑ which is divergent A1\nn n = 1\nhence interval of convergence is ] − 2, 2] A1\n[4 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L2",
+    "5.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 11]\nConsider the series $\\sum_{n=1}^{\\infty} (-1)^n \\frac{x^n}{n \\times 2^n}$.\n(a) Find the radius of convergence of the series. [7 marks]\n(b) Hence deduce the interval of convergence. [4 marks]"
+  },
+  {
+   "id": "math-2011-N-P3-series-and-differential-equations-q4",
+   "num": "4",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 8]\n∞ 1\n(a) Using the integral test, show that ∑ is convergent. [4 marks]\n2 1n 4 + 1\nn =\n∞ 1 1 ∞ 1\n(b) (i) Show, by means of a diagram, that ∑ d. x\n+< ++ ∫\n4 n 2 1 41 × 2 1 1 4 x 2 + 1 n = 1\n∞ 1\n(ii) Hence find an upper bound for ∑ . [4 marks]\n2 1n 4 + 1\nn =",
+   "ms_text": "1 1\n4. (a) ∫ d x = arctan 2 x + k (M1)(A1)\n2 4 x + 1 2\nNote:Do not penalize the absence of “k +”.\n∞ 1 1 a\n∫ d x = limarctan 2 [ x ] (M1)\n2 1 1 4 x + 1 2 a →∞\n1arctan 2 ∞. Note: Accept[ x\n]1\n2\nπ =1\n− arctan 2 (0.232) = A1\n22\nhence the series converges AG\n[4 marks]\n(b) (i)\nA2\nThe shaded rectangles lie within the area below the graph so that\n∞ 1 ∞ 1\n∑ < x ∫ d . Adding the first term in the series,\n2 1 2\nn = 2 4 n + 1 4 x + 1\n∞ ∞ 1 1 1 1\n∑ < + ∫ d x . R1AG\n2 +, gives 2 2 2 41 × 1 4 n + 1 41 × + 1 1 4 x + 1\nn = 1\n1 1 π\n(ii) upper bound = + − arctan 2 (0.432) = A1\n5 22\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L5",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 8]\n(a) Using the integral test, show that $\\sum_{n=1}^{\\infty} \\frac{1}{4n^2+1}$ is convergent. [4 marks]\n(b) (i) Show, by means of a diagram, that $\\sum_{n=1}^{\\infty} \\frac{1}{4n^2+1} < \\frac{1}{4 \\times 1^2 + 1} + \\int_1^{\\infty} \\frac{1}{4x^2+1}\\,dx$.\n(ii) Hence find an upper bound for $\\sum_{n=1}^{\\infty} \\frac{1}{4n^2+1}$. [4 marks]"
+  },
+  {
+   "id": "math-2011-N-P3-series-and-differential-equations-q5",
+   "num": "5",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 16]\n− x − y + e y e\nln1 , show that d (a) Given that y = = − 1. [5 marks]\n2 d x 2\n(b) Hence, by repeated differentiation of the above differential equation, find the\nMaclaurin series for y as far as the term in x3, showing that two of the terms\nare zero. [11 marks]",
+   "ms_text": "5. (a) METHOD 1\n− x\n1 + e\ny = ln\n2\n− −\nd y − 2e x − e x\n= = M1A1\n− x − x\nd x 2(1 + e ) 1 + e\n− x +\ne now 1\n= e y M1\n2\n− x y ⇒+\n1 e = 2e\n− x y ⇒\ne = 2e − 1 (A1)\ny d y − 2e + 1\n⇒ = (A1)\ny d x 2e\nNote:Only one of the two above A1 marks may be implied.\n− y\nd y e\n⇒ = − 1 AG\nd x 2\ny Candidates may find d\nNote:\nxas a function of x and then work backwards from the given\nd\nanswer. Award full marks if done correctly\nMETHOD 2\n− x\n1 + e\ny = ln\n2\n− x\n1 + e\n⇒ y = e M1\n2\n− x y ⇒ e =\n2 e − 1\ny ⇒ x = − ln2 ( e − 1 ) A1\ndx 1\n⇒ y = − × 2 e M1 A1\ny dy 2 e − 1\ny dy 2 e − 1\n⇒ A1\n=− y\ndx 2 e\n− y dy\ne\n⇒ = − 1\ndx 2\nAG\n[5 marks]\n(b)\nMETHOD 1\nwhen x = 0, y = ln1 = 0 A1\nd y 1 1\nwhen x = 0, = −= − 1 A1\nd x 2 2\n2 − y d y e d y\n= − M1A1\nd x 2 2d x\n2 d y 1 1 1\nwhen x = = × = A1\n0,d 2\nx 2 2 4\n3 − y 2 − y 2 d y e d y e d y\n= − M1A1A1\n3 2 d x 2 d x 2d x\n3 d y 1 1 1 1\nwhen x = 0, = × − × = 0 A1\n3 d x 2 4 2 4\nf ′′ (0) f ′′′ (0) 2 3\ny = f (0) + f ′ (0) x + x + x\n2! 3!\n1 1 2 3\n⇒ y = 0 − x + x + 0 x +… (M1)A1\n2 8\nAG two of the above terms are zero\nMETHOD 2\nwhen x = 0, y = ln1 = 0 A1\nd y 1 1\nwhen x = 0, = −= − 1 A1\nd x 2 2\n2 − y − y − y 2 y − y d y − e dy − e e − e e\n= = − 1 = + M1A1\n2 d x 2 dx 2 2 4 2\n2 d y 1 1 1\nwhen x = = − + = A1\n0,d 2\nx 4 2 4\n− −\nd 3 y e 2 y e y dy\n= − M1A1A1\n3 d x 2 2 dx\n3 d y 1 1 1\nwhen x = 0, = − × − = 0 A1\n3 d x 2 2 2\n′′ ′′′ f (0)\n2 f (0) 3 y = f (0) + f ′ (0) x + x + x\n2! 3!\n1 1\n⇒ 2 3 y = 0 − x + x + 0 x +… (M1)A1\n2 8\ntwo of the above terms are zero AG\n[11 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.6",
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 16]\n(a) Given that $y = \\ln\\left(\\frac{1+e^{-x}}{2}\\right)$, show that $\\frac{dy}{dx} = \\frac{e^{-y}}{2} - 1$. [5 marks]\n(b) Hence, by repeated differentiation of the above differential equation, find the Maclaurin series for $y$ as far as the term in $x^3$, showing that two of the terms are zero. [11 marks]",
+   "review_note": "Markscheme image: at the page break in (b) Method 1, the line 'when x=0, d2y/dx2 = 1/2 x 1/2 = 1/4 A1' is partly clipped (denominators cut) by the segmenter's automatic footer trim (fraction bars near the page bottom treated as footer rules); overrides cannot extend past it. Method 2 shows the same value in full, so the markscheme is still usable. | fixed by segmenter update: the line noted above as missing is now in the crop"
+  },
+  {
+   "id": "math-2011-N-P3-series-and-differential-equations-q6",
+   "num": "6",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 15]\nThe real and imaginary parts of a complex number x + i are related by the differential y\nd y\nequation ( x + y ) + ( x − y ) = 0.\nd x\nBy solving the differential equation, given that y = 3 when x =1, show that the\nrelationship between the modulus r and the argument θ of the complex number\n− πθ .\nis r = 2 e 3",
+   "ms_text": "d y\n6. ( x + y ) + ( x − y ) = 0\nd x\n− d y y x\n⇒ =\nd x x + y\nlet y = vx M1\nd y d v\n= v + x A1\nd x d x\n− d v vx x\nv + = (A1)\nxx\nd x + vx\n2 2 d v v − 1 v −− 1 v − v −− 1 v\nx = − v = = A1\nd x v + 1 v + 1 1 + v\nv + 1 1\n∫ d v = − ∫ d x M1\n2 1 + v x\nv 1 1\n∫ d v + ∫ d v = − ∫ d x M1\n+ 2 + 2 1 v 1 v x\n⇒ 1 ln1 + 2 + = − + v arctan v ln x k A1A1\n2\n2 Notes: Award A1 for 1 ln1 + v , A1 for the other two terms.\n2\nDo not penalize missing kor missing modulus signs at this stage.\n2 y y\n⇒ 1 ln1 + + = − x + k M1 arctan ln\n2 2 x x\n⇒ 1 ln 4 + arctan 3 = − ln1 + k (M1)\n2\nπ\n⇒ k = ln 2 + A1\n3\n2 y y π\n⇒ 1 ln1 + + arctan = − ln x + ln 2 +\n2 2 x x 3\nattempt to combine logarithms M1\n2 2 1 y + x 1 π y\n⇒ 2 ln + ln x = ln 2 + − arctan\n2 2 x 2 3 x\nπ y\n1 ln 2 2 ⇒ y + x = ln 2 + − arctan (A1)\n2 3 x\nπ y\nln 2 + − arctan\n⇒ 2 2 3 x y + x = e (A1)\ny π−\narctan 2 2 ln 2\n⇒ y + x = e × e 3 x A1\nπ− θ\n⇒ 3 r = 2e AG\n[15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15",
+    "1.7",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 15]\nThe real and imaginary parts of a complex number $x + iy$ are related by the differential equation $(x+y)\\frac{dy}{dx} + (x-y) = 0$.\nBy solving the differential equation, given that $y = \\sqrt{3}$ when $x = 1$, show that the relationship between the modulus $r$ and the argument $\\theta$ of the complex number is $r = 2e^{\\frac{\\pi}{3} - \\theta}$."
+  }
+ ],
+ "status": "done"
+}

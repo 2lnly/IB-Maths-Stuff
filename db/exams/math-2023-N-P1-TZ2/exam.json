@@ -1,0 +1,292 @@
+{
+ "exam_id": "math-2023-N-P1-TZ2",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2023,
+ "session": "November",
+ "tz": "TZ2",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 1/N23 TZ2/Mathematics_analysis_and_approaches_paper_1__TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 1/N23 TZ2/Mathematics_analysis_and_approaches_paper_1__TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8823-7111; question paper text identical to math-2023-N-P1-TZ1 apart from paper number/code; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2023-N-P1-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nConsider the functions f (x)=x-3 and g(x)=x2+k2 , where k is a real constant.\n(a) Write down an expression for (g ο f )(x) .\b [2]\n(b) Given that (g ο f )(2)=10 , find the possible values of k . \b [3]",
+   "ms_text": "1. (a) attempt to form ( g ο f )() x (M1)\n2 (\n( )() ) ( ) 2 ( 2 2 ) g ο f x = x − 3 + k = x − 6 x + 9 + k A1\n[2 marks]\n(b) substituting x = 2 into their ( g ο f )() x and setting their expression = 10 (M1)\n2 2 2 2 (\n2 − 3 ) + k = 10 OR 2 − 62 () + 9 + k = 10\n2 k= 9\n(A1)\nk = ± 3 A1\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nConsider the functions $f(x)=x-3$ and $g(x)=x^2+k^2$, where $k$ is a real constant.\n(a) Write down an expression for $(g\\circ f)(x)$. [2]\n(b) Given that $(g\\circ f)(2)=10$, find the possible values of $k$. [3]"
+  },
+  {
+   "id": "math-2023-N-P1-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\nEvents A and B are such that P (A)=0.65, P (B)=0.75 and P (A∩B)=0.6 .\n(a) Find P (A∪B) .\b [2]\n(b) Hence, or otherwise, find P (A′∩B′).\b [2]",
+   "ms_text": "2. (a) ( P ( A ∪ B ) = ) 0.65 + 0.75 − 0.6 OR 0.05 + 0.6 + 0.15 (A1)\n= 0.8 A1\n[2 marks]\n′ ′ ( )′ ′ ′ (b) recognition that A ∩ B = A ∪ B OR A ∩ B =− 1 A ∪ B\n(region/value may be seen in a correctly shaded/labeled Venn diagram) (M1)\n( =− 10.8 )\n= 0.2 A1\nNote: For the final mark, 0.2 must be stated as the candidate’s answer, or\nlabeled as ( PA ′ ∩ B ′ ) in their Venn diagram. Just seeing an unlabeled 0.2\nin the correct region of their diagram earns M1A0.\n[2 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nEvents $A$ and $B$ are such that $P(A)=0.65$, $P(B)=0.75$ and $P(A\\cap B)=0.6$.\n(a) Find $P(A\\cup B)$. [2]\n(b) Hence, or otherwise, find $P(A'\\cap B')$. [2]"
+  },
+  {
+   "id": "math-2023-N-P1-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nThe sum of the first n terms of an arithmetic sequence is given by Sn=pn2-qn ,\nwhere p and q are positive constants.\nIt is given that S4=40 and S5=65 .\n(a) Find the value of p and the value of q .\b [5]\n(b) Find the value of u5 .\b [2]",
+   "ms_text": "3. (a) METHOD 1\nattempt to form at least one equation, using either 4S or 5S (M1)\n65 = 25 p − 5 q( 13 = 5 p − qand 40 ) = 16 p − 4 q( 10 = 4 p − q ) (A1)\np and q by substituting valid attempt to solve simultaneous linear equations in\nor eliminating one of the variables. (M1)\np = 3 , q = 2 A1A1\nNote: If candidate does not explicitly state their values of p and q, but gives\n2 S = 3 n − 2 n\n, award final two marks as A1A0.\nn\nMETHOD 2\nattempt to form at least one equation, using either 4S or 5S (M1)\n5\n65 = ( 2 u + 4 d( ) = + ) = ( + d( ) = + ) 26 2 u 4 dand 40 22 u 3 20 2 u 3 d (A1)\n1 1 1 1\n2\nvalid attempt to solve simultaneous linear equations in u 1 and d by substituting\nor eliminating one of the variables. (M1)\nu = 1 , d = 6 A1\n1\nn 2\nS = ( 2 + 6 ( n − 1 ) ) = 3 n − 2 n\nn\n2\np = 3 and q = 2 A1\nNote: If candidate does not explicitly state their values of p and q, do not award\nthe final mark.\n[5 marks]\nu = S − S OR substituting their values of u = u + 4 d (b) u 1 and d into\n5 5 4 5 1\n5\nOR substituting their value of 1u into 65 = ( + u ) (M1)\n2u 1 5\n5\n( u= ) 65 − 40 = ( + ) OR ( u= ) 1 +× 46 OR 65 1 u\n5 5 5\n2\n= 25 A1\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nThe sum of the first $n$ terms of an arithmetic sequence is given by $S_n=pn^2-qn$, where $p$ and $q$ are positive constants.\nIt is given that $S_4=40$ and $S_5=65$.\n(a) Find the value of $p$ and the value of $q$. [5]\n(b) Find the value of $u_5$. [2]"
+  },
+  {
+   "id": "math-2023-N-P1-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\n6cm , AC=10cm and cos BÂC=1 In the following triangle ABC , AB =\n.\n5\ndiagram not to scale\nB\n6cm\nA C\n10cm\nFind the area of triangle ABC .",
+   "ms_text": "4. METHOD 1\nEITHER\nattempt to use Pythagoras’ theorem in a right-angled triangle. (M1)\n( 5 2 − 1 2 = ) 24 (A1)\nOR\ncos 2 α + sin 2 α = 1 attempt to use the Pythagorean identity (M1)\n2\n1\n2 sinBAC ˆ 1\n=− (A1)\n5\nTHEN\n24\nˆ sinBAC = (may be seen in area formula)\nA1\n5\n1\nˆ\nattempt to use ‘Area = ab sin C (must include their calculated value of ' sin BAC ) (M1)\n2\n1 24\n= × 10 × 6 × (A1)\n2 5\n= 12 (cm2) A1\n[6 marks]\nMETHOD 2\nattempt to find perpendicular height of triangle BAC (M1)\nEITHER\nˆ height = 6 × sinBAC\n2 2 cos α + sin α = 1\nattempt to use the Pythagorean identity (M1)\n2\n1\nheight = 6 × 1 − (A1)\n5\n24 12\n= 6 × = A1\n5 5\nOR\n6\nadjacent = (A1)\n5\nattempt to use Pythagoras’ theorem in a right-angled triangle. (M1)\n6 12\nheight = 6 − = (may be seen in area formula) (A1)\n25 5\nTHEN\n1 base×height'\nattempt to use ‘Area = (must include their calculated value for height) (M1)\n2\n1 12\n= × 10 ×\n2 5\n= 12 (cm2) A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nIn the following triangle ABC, $AB=\\sqrt{6}$ cm, $AC=10$ cm and $\\cos B\\hat{A}C=\\frac{1}{5}$.\n[Diagram (not to scale): triangle ABC with AB = $\\sqrt{6}$ cm, AC = 10 cm, angle at A marked]\nFind the area of triangle ABC."
+  },
+  {
+   "id": "math-2023-N-P1-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nThe binomial expansion of (1+kx)n is given by 1+12x+28k2x2+ ... +knxn where n∈′+\nand k∈⁄ .\nFind the value of n and the value of k .",
+   "ms_text": "5. attempt to apply binomial expansion (M1)\nn\n( ) n n 2 2 1 + kx =+ 1 C kx + Ckx + Κ OR nC k= 12 OR nC= 28\n1 2 1 2\nnk = 12 (A1)\nnn ( − )1 n !\n= = 28 28 (A1)\nOR ( 2 n − 2!2! )\n2 n − n − 56 = 0 OR ( nn − )1 = 56\nvalid attempt to solve (M1)\n( n − 8 )( n + 7 ) = 0 OR ( 881 − ) = 56 OR finding correct value in Pascal’s triangle\n⇒ n = 8 A1\n3\n⇒ k = A1\n2\nNote: If candidate finds n = 8 with no working shown, award M1A0A0M1A1A0.\n3\nn = 8 k= If candidate finds and with no working shown, award\n2\nM1A0A0M1A1A1.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nThe binomial expansion of $(1+kx)^n$ is given by $1+12x+28k^2x^2+\\dots+k^nx^n$ where $n\\in\\mathbb{Z}^+$ and $k\\in\\mathbb{Q}$.\nFind the value of $n$ and the value of $k$."
+  },
+  {
+   "id": "math-2023-N-P1-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nProve by mathematical induction that 52n-23n is divisible by 17 for all n∈′+ .",
+   "ms_text": "2 3 6. base case n = 1 : 5 − 2 = 25 − 8 = 17 so true for n = 1 A1\nassume true for n = k ie 5 2 k − 2 3 k = 17 s for ∈ s ′ OR 5 2 k − 2 3 k is divisible by 17 M1\nNote: The assumption of truth must be clear. Do not award the M1 for statements\nsuch\nas “let n = k ’’ or “ n = k is true’’. Subsequent marks can still be awarded.\nEITHER\nconsider n = k + 1 : M1\n2 ( k + 1 ) 3 ( k + 1 )\n5 − 2\n( 2 ) 2 k ( 3 ) 3 k = 5 5 − 2 2 A1\n= ( 255 ) 2 k − () 82 3 k\n2 k 2 k 3 2 k 3 k 3 k = ( 175 ) + () 85 − () 82 k OR ( 255 ) − ( 252 ) + ( 172 )\nA1\n2 k 2 k 3 2 k 3 k 3 k = ( 175 ) + 85 ( − 2 k OR ) 255 ( − 2 )( + 172 )\n( ) 2 k ( ) ( )( ) 3 k = 175 + 817 s OR 2517 s + 172\n= 175 ( 2 k + 8 s ) OR 1725 ( s + 2 3 k ) which is divisible by 17 A1\nOR\n( 2 k 3 k ) 2 2 k + 2 3 k 5 − 2 × 5 = 5 − 252 × = 17 s × 25 M1\n2 k + 2 3 k 3 k = 5 −× 82 − 17 × 2 = 17 s × 25 A1\n= 2 k + 2 − 3 k + 3 − × 3 k = × 5 2 17 2 17 s 25\n2 ( k + 1 ) 3 ( k + 1 ) 3 k =\n5 − 2 − 172 × = 17 s × 25 A1\n2 ( k + 1 ) 3 ( k + 1 ) 3 k =\n5 − 2 = 17 s × 25172 + ×\n= + 2 ( k + 1 ) 3 ( k + 1 ) ( 3 k ) hence for n k 1 : 5 − 2 = 1725 s + 2 is divisible by 17 A1\nTHEN\nsince true for n = 1 , and true for n = k implies true for n = k + 1 ,\n+ therefore true for all n ∈\n′ R1\nNote: Only award R1 if 4 of the previous 6 marks have been awarded\n2 32k may be replaced by 25k and 8k throughout. Note: 5k and\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nProve by mathematical induction that $5^{2n}-2^{3n}$ is divisible by 17 for all $n\\in\\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2023-N-P1-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 5]\nIt is given that z=5+qi satisfies the equation z2+iz=-p+25i , where p , q∈ϒ .\nFind the value of p and the value of q .",
+   "ms_text": "7. METHOD 1\nattempt to substitute solution into given equation (M1)\n2\n( 5 + q i ) + i5 ( + q i ) = − p + 25i\n2 2 25 − q + 10i q − q + 5i + p − 25i = 0\nOR 25 − q + 10i q − q + 5i= − p + 25i A1\n2 25 − q + p − q + ( 10 q − 20i ) = 0\nattempt to equate real or imaginary parts: (M1)\n2\n− = 25 − q + p − q = 0 10 q 20 0 OR\nq = 2 , p = − 19 A1A1\nMETHOD 2\n2 z + i z + p − 25i = 0\n= − sum of roots = −, product of roots i p 25i M1\none root is ( 5 + q i ) so other root is ( −− 5 q i − i ) A1\n2 product( 5 + q i )( −− 5 q i − i ) = − 25 − 5i q − 5i − 5i q + q + q = p − 25i\nequating real and imaginary parts for product of roots (M1)\n2 Im: 25 − = − 10 q − 5 Re: p = − 25 + q + q\n= = − q 2 , p 19 A1A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 5]\nIt is given that $z=5+q\\mathrm{i}$ satisfies the equation $z^2+\\mathrm{i}z=-p+25\\mathrm{i}$, where $p, q\\in\\mathbb{R}$.\nFind the value of $p$ and the value of $q$."
+  },
+  {
+   "id": "math-2023-N-P1-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 9]\nFind x � ln x � 2d.\b x (a) � [6]\n4\n2 15\n� � � � �� 2 � (b) Hence, show that x � ln x d x 32 ln 2 16 ln 2 .\b [3]\n4\n1",
+   "ms_text": "8. (a) METHOD 1\nattempt to integrate by parts (M1)\n2\nu = ( ln x ) , d v = xx d (M1)\n2 2\nx ( ln x ) 2\n∫ x ( ln x ) d x = − ∫ x ln d x x A1\n2\nattempt to integrate ln x x by parts, with u = ln x (M1)\n2 ln x x x\n∫ x ln d x x = − ∫ d x A1\n2 2\n2 2 x ( ln x )\nx 2 ln x x 2\n( ln x ) d x = − − d x ∫x ∫\n2 2 2\n2 2\n( ln ) 2 2 x x x ln x x\n( ) = − + + c A1\n2 2 4\n[6 marks]\nMETHOD 2 ( knowingln d ∫ xx = x ln x − x )\nattempt to integrate by parts (M1)\n= ln x , d = lnd u x v xx (M1)\nx ln x ( ln x ) d x = x ln xx ( ln x − x ) − ( ln x + 1 )( x ln x − x ) d x A1 ∫ ∫\n2\n= ( − ) − ( ) + x ln xx ln x x ∫ x ln x d x ∫ xx d A1\n2 x\n2 I = x ln xx ( ln x − x ) + + c M1\n2\n2 2\n( ) 2 2 x ln x x ln x x\nI = − + ( + c ) A1\n2 2 4\n[6 marks]\nMETHOD 3 ( knowing ∫x ln d xx )\n2 ( ) 2 x ln x\nx\n∫x ln d= xx −\n2 4\nattempt to integrate by parts (M1)\nu = ln x , d v = x lnd xx (M1)\n2 2 x ( ln x ) 2 x ( ln x ) 2\nx 1 x\n( x ln x ) ln d xx = ln x − − − d x ∫ ∫ A1\n2 4 x 2 4\n2 x ( ln x ) 2 x ( ln x )\nx x\n= ln x − − − d x A1\n∫\n2 4 2 4\n2 x ( ln x ) 2 2 2 2\nx x ln x x x\n= ln x − − + + A1\n2 4 4 8 8\n2 2\n( ) 2 2 x ln x x ln x x\n= − + ( + c ) A1\n2 2 4\n[6 marks]\n(b) attempt to substitute limits into their integrated expression (M1)\n4 2\n2 ( ) 2 2 x ln x\nx ln x x 1\n( 2 ) − + = 8ln4 ( ) − 8ln4 + 4 −\n2 2 4 4\n1\nattempt to replace any ln 4 term with 2ln2 (M1)\n1\n( ) 2 ( ) = 82ln2 − 82ln2 + 4 − A1\n4\n15 2\n= 32ln2 ( ) − 16ln2 + AG\n4\n[3 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.11",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 9]\n(a) Find $\\int x(\\ln x)^2\\,dx$. [6]\n(b) Hence, show that $\\int_1^4 x(\\ln x)^2\\,dx=32(\\ln 2)^2-16\\ln 2+\\frac{15}{4}$. [3]"
+  },
+  {
+   "id": "math-2023-N-P1-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\n� � sin2 kx\n��� Consider the function fx , where x≠0 and k∈ϒ+ .\n2 x\n(a) Show that f is an even function.\b [2]\n(b) Given that lim fx ��� 16, find the value of k . \b [6]\n� x 0",
+   "ms_text": "2 sin ( − kx )\nf ( − x ) = 9. (a) M1\n2\n( − x )\n2\n( − sin ( kx ) )\n= A1\n2\n( − x )\n2 sin ( kx )\n= ( = fx () )\n2 x\nhence fx is even () AG\n[2 marks]\n(b) METHOD 1\n0\nNoting that lim ( fx () ) = (M1)\nx → 0 0\nattempt to differentiate numerator and denominator: M1\n2sin k kx cos kx k sin2 kx\nlim ( fx () ) = lim = lim A1\nx → 0 x → 0 2 x x → 0 2 x\n(evaluates to 0\n) and attempts to differentiate a second time: M1\n0\n2 ( 2 2 ) 2 2 k cos kx − sin kx\n2 k cos2 kx\n= lim = lim 2 = k A1\nx → 0 2 x → 0 2\n2 ( k = 16 ⇒ ) k = 4 A1\nlim Note: Award relevant marks, even if ‘ x→’ is not explicitly seen.\n0\nMETHOD 2\nattempt to express sinkx as a Maclaurin series ( ) M1\n( ) = ( + ) sin kx kx ...\n2 2 2 sin ( kx ) = kx ( + ... )\nA1\n2 2 2 sin ( kx ) kx ( + ... )\nlim = lim M1\n2 2 x → 0 x x → 0 x\n2 = lim ( k + termsin x )\nR1\nx → 0\nNote: This R1 is awarded independently of any other marks.\n2 = k A1\n2 ( k = 16 ⇒ ) k = 4 A1\nNote: Award relevant marks, even if ‘ lim x→’ is not explicitly seen.\n0\nMETHOD 3\nkx sin kx splitting function into sin\nand using limit of product = product of\nx x\nlimits (M1)\n2 sin ( kx )\nsin kx sin kx\nlim = lim × lim A1\nx → 0 x 2 x → 0 x x → 0 x\nEITHER\nusing L’ Hôpitals rule (M1)\nsin kx k cos kx\nlim = lim = k (A1)\nx → 0 x x → 0 1\nOR\nusing Maclaurin expansion for sinkx (M1)\n( ) = ( + ) sin kx kx ...\nsin kx kx + ...\nlim = lim = lim ( k + terms in x ) = k (A1)\nx → 0 x x → 0 x x → 0\nTHEN\n2 sin ( kx )\n2 hence lim = k × k = k\nA1\n2 x → 0 x\n2 k = 16 ⇒ k = 4 ( k > 0 )\nA1\nNote: Award relevant marks, even if ‘ lim x→’ is not explicitly seen.\n0\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.13",
+    "2.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nConsider the function $f(x)=\\frac{\\sin^2(kx)}{x^2}$, where $x\\neq 0$ and $k\\in\\mathbb{R}^+$.\n(a) Show that $f$ is an even function. [2]\n(b) Given that $\\lim_{x\\to 0} f(x)=16$, find the value of $k$. [6]"
+  },
+  {
+   "id": "math-2023-N-P1-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 15]\nThe functions f and g are defined by\n9\nf (x)=ln(2x-9), where x >\n2\ng(x)=2 ln x-ln d , where x>0 , d∈ϒ+ .\n(a) State the equation of the vertical asymptote to the graph of y=g (x) . \b [1]\nThe graphs of y= f (x) and y=g (x) intersect at two distinct points.\n\u0007Show that, at the points of intersection, x2-2dx+9d=0 . (b) (i)\n(ii) Hence show that d 2-9d>0.\n(iii) Find the range of possible values of d .\b [9]\nThe following diagram shows part of the graphs of y= f (x) and y=g (x) .\ny\nf\ng\nx\np q\nThe graphs intersect at x=p and x=q , where p<q .\n(c) In the case where d=10 , find the value of q-p . Express your answer in the form\nab , where a , b∈′+ . \b [5]",
+   "ms_text": "10. (a) x = 0 A1\n[1 mark]\n(b) (i) setting ln(2 x − 9) = 2ln x − ln d M1\nattempt to use power rule (M1)\n2 2ln x = ln x( seen anywhere )\nattempt to use product/quotient rule for logs (M1)\n2 2 x x\n2\nln(2 x − 9) = ln OR ln ln d OR ln(2 x − 9) d = ln x\n9=\nd 2 x −\n2 2 x x\n2\n= 2 x − 9 OR d OR (2 x − 9) d = x A1\n9=\nd 2 x −\n2 x − 2 dx + 9 d = 0\nAG\n− 2 −×× (ii) discriminant = (2) d 4 19 d (A1)\nrecognizing discriminant > 0 (M1)\n− 2 − ×× > 2 −× > 2 − > (2) d 419 d 0 OR (2) d 49 d 0 OR 4 d 36 d 0 A1\n2 d − 9 d > 0\nAG\n(iii) setting ( dd − 9 ) > 0 OR ( dd − 9) = 0 OR sketch graph\nd 2 > 9 d OR sign test OR (M1)\n+\nd < 0 or d> 9 , but d ∈ϒ\nd > 9 (or ] 9,∞) [ A1\n[9 marks]\n2\n(c) x− 20 x + 90 ( = 0 ) A1\nattempting to solve their 3 term quadratic equation (M1)\n2\n2 20 ± (20) − − 4190 × × (\n( ) ) x − 10 − 10 = 0 or ( x = )\n2\nx = 10 − 10 ( = p or ) x = 10 + 10 ( = q ) (A1)\nsubtracting their values of x (M1)\ndistance = 21 0 A1\n( a = 2, b = 10 )\nNote: Accept 140 OR 40 .\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.7",
+    "1.7",
+    "2.9",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 15]\nThe functions $f$ and $g$ are defined by\n$f(x)=\\ln(2x-9)$, where $x>\\frac{9}{2}$\n$g(x)=2\\ln x-\\ln d$, where $x>0$, $d\\in\\mathbb{R}^+$.\n(a) State the equation of the vertical asymptote to the graph of $y=g(x)$. [1]\nThe graphs of $y=f(x)$ and $y=g(x)$ intersect at two distinct points.\n(b) (i) Show that, at the points of intersection, $x^2-2dx+9d=0$.\n(ii) Hence show that $d^2-9d>0$.\n(iii) Find the range of possible values of $d$. [9]\nThe following diagram shows part of the graphs of $y=f(x)$ and $y=g(x)$.\n[Graph: increasing curves f and g intersecting at two points with x-coordinates p and q]\nThe graphs intersect at $x=p$ and $x=q$, where $p<q$.\n(c) In the case where $d=10$, find the value of $q-p$. Express your answer in the form $a\\sqrt{b}$, where $a, b\\in\\mathbb{Z}^+$. [5]"
+  },
+  {
+   "id": "math-2023-N-P1-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 21]\n� �\n5. Consider the function f (x) =ecos2x , where � � x �\n4 4\n(a) Find the coordinates of the points on the curve y= f (x) where the gradient is zero.\b [5]\n(b) Using the second derivative at each point found in part (a), show that the curve y= f (x)\nhas two local maximum points and one local minimum point.\b [4]\n(c) Sketch the curve of y= f (x) for 0≤x≤p , taking into consideration the relative values\nof the second derivative found in part (b). \b [3]\n(d) (i) Find the Maclaurin series for cos2x , up to and including the term in x4 .\n(ii) Hence, find the Maclaurin series for ecos2x-1 , up to and including the term in x4 .\n(iii) Hence, write down the Maclaurin series for f (x) , up to and including the term in x4 .\b[6]\n(e) Use the first two non-zero terms in the Maclaurin series for f (x) to show that\n1 10 / 149 e cos 2\n� � e xx d .\b [3]\n0 1500",
+   "ms_text": "′f () 11. (a) attempt to use chain rule to find x (M1)\ncos2 x f ′ () x =− ( 2sin2 x ) e ( = 0 )\nA1\n⇒ sin2 x = 0 (M1)\n2 x = 0,π,2π, ...\nπ\nx = 0, ,π,... A1\n2\nπ1\nCoordinates are ( 0,e, ) , ,π,e ( ) A1\n2e\nNote: Special case:For two correct coordinate pairs award (M1)A1(M1)A0A1.\nFor extra coordinate pairs award (M1)A1(M1)A1A0.\n[5 marks]\n(b) attempt to differentiate ′f () x using product rule (M1)\n′′ () ( )( ) cos2 x ( ) cos2 x f x =− 2sin2 x − 2sin2 x e − 4cos2 x e A1\nat x = 0 , f ′′ () x = − 4e < 0 so maximum AND\nat x = π , f ′′ () x = − 4e < 0 so maximum R1\nπ 4\nat x = , f ′′ () x = > 0 so minimum R1\n2 e\nNote:The values for the second derivative must be correct in order to award the R\nmarks.\n[4 marks]\n(c)\nA1A1A1\nNote: Award A1 for general shape, A1 for correct maxima( )( ) 0,e,π,eand minimum\npoint π1 ,\nand A1 for showing a higher rate of change of gradient at\n2e\nmaxima and a lower rate of change of gradient at the minimum point.\n[3 marks]\n2 4\n( 2 x ) ( 2 x )\n(d) (i) cos2 x =− 1 + + Λ (M1)\n2! 4!\n4 2 x\n2 cos2 x =− 12 x +\nΛ A1\n3\n(ii) METHOD 1\n2 3 4 x x x\nx e =+ 1 x + + + + ...\n2 6 24\nattempt to substitute series for cos2 x − 1 into series for ex (M1)\nNote: Award (M0)forsubstituting the Maclaurin series forcos2x into the Maclaurin\nseries for ex.\n2 4\n2 x 2\n− 2 x +\n4 2 x 3\ncos2 x − 1 2 e =+− 1 2 x + + + ...\nA1\n3 2\n4 2 x\n2 4 =− 12 x + + 2 x +\nΚ\n3\n4 8 x\n2 =− 12 x + +\nΚ A1\n3\nMETHOD 2\n4 4\n2 2 x 2 x − 2 x + 2\ncos2 x − 1 = 3 = − 2 x 3 e e e e\n4 2 x\n2 2\n3 attempt to find the Maclaurin series for e−x OR e (M1)\n4 2 x\n2 2 − 2 x 2 4\n3 4 e =− 12 x + 2 x + ... ; e =+ 1 x + ...\n3\n2 4\n2 x 2 − 2 x\n3 = ( − 2 + 4 + ) + 4 + e e 12 x 2 x ... 1 x ... A1\n3\n4 8 x\n2 =− 12 x + +\nΚ A1\n3\n4 4 8 x 8e x\n2 2 (iii) ( fx () ≈ ) e12 − x + +\nΚ =e − 2e x + + Κ A1\n3 3\n[6 marks]\n1 1\n10 10\ne cos2 xx d ≈ e ( 12 − 2 ) d (e) ∫ ∫ x x (M1)\n0 0\n1/10 3\n2 x\n= e x − A1\n3\n0\n1 2\n= − A1\ne10\n3000\n298e\n=\n3000\n149e\n= AG\n1500\nNote: If candidate follows through an incorrect expansion from part (d), award a\nmaximum of M1A1FTA0\n[3 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.19",
+    "5.7",
+    "5.6",
+    "5.11",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 21]\nConsider the function $f(x)=e^{\\cos 2x}$, where $-\\frac{\\pi}{4}\\le x\\le\\frac{5\\pi}{4}$.\n(a) Find the coordinates of the points on the curve $y=f(x)$ where the gradient is zero. [5]\n(b) Using the second derivative at each point found in part (a), show that the curve $y=f(x)$ has two local maximum points and one local minimum point. [4]\n(c) Sketch the curve of $y=f(x)$ for $0\\le x\\le\\pi$, taking into consideration the relative values of the second derivative found in part (b). [3]\n(d) (i) Find the Maclaurin series for $\\cos 2x$, up to and including the term in $x^4$.\n(ii) Hence, find the Maclaurin series for $e^{\\cos 2x-1}$, up to and including the term in $x^4$.\n(iii) Hence, write down the Maclaurin series for $f(x)$, up to and including the term in $x^4$. [6]\n(e) Use the first two non-zero terms in the Maclaurin series for $f(x)$ to show that $\\int_0^{1/10} e^{\\cos 2x}\\,dx\\approx\\frac{149e}{1500}$. [3]"
+  },
+  {
+   "id": "math-2023-N-P1-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 17]\n(a) Find the binomial expansion of (cosq+isinq)5 . Give your answer in the form a+bi\nwhere a and b are expressed in terms of sinq and cosq . \b [4]\n(b) By using De Moivre’s theorem and your answer to part (a), show\nthat sin 5q≡16sin5q-20sin3q+5sinq . \b [6]\n\u0007Hence, show that ��� and ��3 � are solutions of the\n(c) (i)\n5 5\nequation 16sin4q-20sin2q+5=0 .\n� 3 � 5\n(ii) Hence, show that sin sin � .\b [7]\n5 5 4\n\b",
+   "ms_text": "12. (a) attempt to expand using binomial theorem: (M1)\nNote: Award (M1) for seeing at least one term with a product of a binomial\ncoefficient, power of isinθand a power of cosθ.\n5\n( θ + θ ) = 5 θ + 5 4 θ θ + 5 2 3 θ 2 θ cos isin cos C icos sin C icos sin\n1 2\n5 3 2 3 5 4 4 5 5 + C icos θ sin θ + C icossin θ θ + isin θ\nA1 3 4\n( 5 3 2 4 ) ( 4 2 3 5 ) = cos θ − 10cos θ sin θ + 5cossin θ θ + i5cos θ sin θ − 10cos θ sin θ + sin θ A1A1\nNote: Award A1 for correct real part and A1 for correct imaginary part.\n[4 marks]\n5\n( θ + θ ) = θ + θ (b) cos isin cos5 isin5 (A1)\nequate imaginary parts: (M1)\nθ = 4 θ θ − 2 θ 3 θ + 5 θ sin5 5cos sin 10cos sin sin A1\n2 2 substitute cos θ =− 1sin θ (M1)\n2 2 3 2 5\nsin5 θ = 51sin ( − θ ) sin θ − 10sin θ ( 1sin − θ ) + sin θ A1\n2 4 3 2 5 sin5 θ = 51 ( − 2sin θ + sin θ ) sin θ − 10sin θ ( 1sin − θ ) + sin θ A1\n5 3 = 16sin θ − 20sin θ + 5sin θ AG\nNote: Some of this working may be seen in part (a). Allow for awarding marks in\npart (b).\n[6 marks]\n5 3 (c) (i) factorising 16sin θ − 20sin θ + 5sin θ M1\n4 2 ( sin5 θ = ) sin θ ( 16sin θ − 20sin θ + 5 )\nEITHER\nπ 3π\n= = sin5 0\nand sin5 0 R1\n5 5\nNote: The R1 is independent of the M1.\nOR\nsolving sin5 θ= 0\nπ θ=k\nwhere ∈ k ′ R1\n5\nNote: The R1 is independent of the M1.\nTHEN\nθ= 4 2 therefore either sin 0 OR 16sin θ − 20sin θ + 5 = 0\nπ 3π\nθ= θ= sin 0 and sin 0 (or only solution to sin 0 is 0 ) R1\n5≠ 5≠\ntherefore π3π 4 2 ,\nare solutions of 16sin θ − 20sin θ + 5 = 0 AG\n5 5\nNote: The final R1 is dependent on both previous marks.\n(ii) METHOD 1\nattempt to use quadratic formula: (M1)\n± 20 80\nsin 2 θ = A1\n32\n5 ± 5\n=\n8\n5 ± 5\nsin θ =\n8\nπ 3π 5 + 5 5 − 5\n⇒ sin sin = M1\n5 5 8 8\n20\n= A1\n64\n5\n= AG\n4\nMETHOD 2\nπ 2π 3π 4π\nroots of quartic are sin ,sin , sin ,sin A1\n5 5 5 5\n5\n± attempt to setproduct of roots equal to M1\n16\nπ 2π 3π 4π 5\nsin sin sin sin = A1\n5 5 5 5 16\nπ 4π 2π 3π\nrecognition that sin = sin and sin = sin\n5 5 5 5\nπ 3π 5 2 2\nsin sin = A1\n5 5 16\nπ 3π 5\nsin sin = AG\n5 5 4\nMETHOD 3\n4 2 2 Consider 16sin θ − 20sin θ + 5 = 0 as a quadratic in sinθ M1\nπ3π 2π 23π\n( θ= , are roots), so and sin are roots of the quadratic. A1\nsin5\n5 5 5\nConsider product of roots: M1\nπ 3π 5\n2 2 ⇒ sin sin =\nA1\n5 5 16\nπ 3π 5\nsin sin = AG\n5 5 4\n[7 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.9",
+    "3.6",
+    "3.8",
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 17]\n(a) Find the binomial expansion of $(\\cos\\theta+\\mathrm{i}\\sin\\theta)^5$. Give your answer in the form $a+b\\mathrm{i}$ where $a$ and $b$ are expressed in terms of $\\sin\\theta$ and $\\cos\\theta$. [4]\n(b) By using De Moivre's theorem and your answer to part (a), show that $\\sin 5\\theta\\equiv 16\\sin^5\\theta-20\\sin^3\\theta+5\\sin\\theta$. [6]\n(c) (i) Hence, show that $\\theta=\\frac{\\pi}{5}$ and $\\theta=\\frac{3\\pi}{5}$ are solutions of the equation $16\\sin^4\\theta-20\\sin^2\\theta+5=0$.\n(ii) Hence, show that $\\sin\\frac{\\pi}{5}\\sin\\frac{3\\pi}{5}=\\frac{\\sqrt{5}}{4}$. [7]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,42 @@
+{
+ "exam_id": "math-2021-N-P3",
+ "questions": {
+  "1": {
+   "topics": [
+    "2",
+    "1",
+    "8",
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "2.9",
+    "2.4",
+    "1.13",
+    "8.2",
+    "3.6",
+    "5.6"
+   ],
+   "text_clean": "1. [Maximum mark: 25]\nIn this question you will explore some of the properties of special functions $f$ and $g$ and their relationship with the trigonometric functions, sine and cosine.\nFunctions $f$ and $g$ are defined as $f(z)=\\frac{e^{z}+e^{-z}}{2}$ and $g(z)=\\frac{e^{z}-e^{-z}}{2}$, where $z\\in\\mathbb{C}$.\nConsider $t$ and $u$, such that $t, u\\in\\mathbb{R}$.\n(a) Verify that $u=f(t)$ satisfies the differential equation $\\frac{d^2u}{dt^2}=u$. [2]\n(b) Show that $(f(t))^2+(g(t))^2=f(2t)$. [3]\n(c) Using $e^{iu}=\\cos u+i\\sin u$, find expressions, in terms of $\\sin u$ and $\\cos u$, for\n(i) $f(iu)$; [3]\n(ii) $g(iu)$. [2]\n(d) Hence find, and simplify, an expression for $(f(iu))^2+(g(iu))^2$. [2]\n(e) Show that $(f(t))^2-(g(t))^2=(f(iu))^2-(g(iu))^2$. [4]\nThe functions $\\cos x$ and $\\sin x$ are known as circular functions as the general point $(\\cos\\theta, \\sin\\theta)$ defines points on the unit circle with equation $x^2+y^2=1$.\nThe functions $f(x)$ and $g(x)$ are known as hyperbolic functions, as the general point $(f(\\theta), g(\\theta))$ defines points on a curve known as a hyperbola with equation $x^2-y^2=1$. This hyperbola has two asymptotes.\n(f) Sketch the graph of $x^2-y^2=1$, stating the coordinates of any axis intercepts and the equation of each asymptote. [4]\nThe hyperbola with equation $x^2-y^2=1$ can be rotated to coincide with the curve defined by $xy=k$, $k\\in\\mathbb{R}$.\n(g) Find the possible values of $k$. [5]",
+   "answer_status": "ok",
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "Hyperbolic functions via exponentials (2.9), Euler form (1.13), hyperbola sketch/asymptotes (2.4) and rotation to xy=k (8.2, no AA code)."
+  },
+  "2": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.12",
+    "5.10",
+    "2.7"
+   ],
+   "text_clean": "2. [Maximum mark: 30]\nIn this question you will be exploring the strategies required to solve a system of linear differential equations.\nConsider the system of linear differential equations of the form:\n$\\frac{dx}{dt}=x-y$ and $\\frac{dy}{dt}=ax+y$,\nwhere $x, y, t\\in\\mathbb{R}^+$ and $a$ is a parameter.\nFirst consider the case where $a=0$.\n(a) (i) By solving the differential equation $\\frac{dy}{dt}=y$, show that $y=Ae^{t}$ where $A$ is a constant. [3]\n(ii) Show that $\\frac{dx}{dt}-x=-Ae^{t}$. [1]\n(iii) Solve the differential equation in part (a)(ii) to find $x$ as a function of $t$. [4]\nNow consider the case where $a=-1$.\n(b) (i) By differentiating $\\frac{dy}{dt}=-x+y$ with respect to $t$, show that $\\frac{d^2y}{dt^2}=2\\frac{dy}{dt}$. [3]\n(ii) By substituting $Y=\\frac{dy}{dt}$, show that $Y=Be^{2t}$ where $B$ is a constant. [3]\n(iii) Hence find $y$ as a function of $t$. [2]\n(iv) Hence show that $x=-\\frac{B}{2}e^{2t}+C$, where $C$ is a constant. [3]\nNow consider the case where $a=-4$.\n(c) (i) Show that $\\frac{d^2y}{dt^2}-2\\frac{dy}{dt}-3y=0$. [3]\nFrom previous cases, we might conjecture that a solution to this differential equation is $y=Fe^{\\lambda t}$, $\\lambda\\in\\mathbb{R}$ and $F$ is a constant.\n(ii) Find the two values for $\\lambda$ that satisfy $\\frac{d^2y}{dt^2}-2\\frac{dy}{dt}-3y=0$. [4]\nLet the two values found in part (c)(ii) be $\\lambda_1$ and $\\lambda_2$.\n(iii) Verify that $y=Fe^{\\lambda_1 t}+Ge^{\\lambda_2 t}$ is a solution to the differential equation in (c)(i), where $G$ is a constant. [4]",
+   "answer_status": "ok"
+  }
+ }
+}

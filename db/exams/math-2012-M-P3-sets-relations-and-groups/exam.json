@@ -1,0 +1,134 @@
+{
+ "exam_id": "math-2012-M-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2012,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2212-7209; code M12/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2012-M-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 17]\n(a) Associativity and commutativity are two of the five conditions for a set S with\n[2 marks] the binary operation * to be an Abelian group; state the other three conditions.\n(b) The Cayley table for the binary operation ⊙ defined on the set T ={, pqrst , , ,}\nis given below.\n⊙p q r s t\np s r t p q\nq t s p q r\nr q t s r p\ns p q r s t\nt r p q t s\n(i) Show that exactly three of the conditions for {, T⊙ to be an Abelian }\ngroup are satisfied, but that neither associativity nor commutativity are\nsatisfied.\n(ii) Find the proper subsets of T that are groups of order 2, and comment on\nyour result in the context of Lagrange’s theorem.\n(iii) Find the solutions of the equation ( p ⊙ x ) ⊙ x = x ⊙ p . [15 marks]",
+   "ms_text": "1. (a) closure, identity, inverse A2\nNote: Award A1 for two correct properties, A0 otherwise.\n[2 marks]\n(b) (i) closure: there are no extra elements in the table R1\nidentity: s is a (left and right) identity R1\ninverses: all elements are self-inverse R1\ncommutative: no, because the table is not symmetrical about the\nleading diagonal, or by counterexample R1\n= = associativity: for example, ( pqt ) rt p M1A1\nnot associative because pqt ( ) = pr =≠ t p R1\nNote: Award M1A1 for 1 complete example whether or not it shows\nnon-associativity.\n(ii) {, sp }, {,}, {,}, {,} sq sr st A2\nNote: Award A1 for 2 or 3 correct sets.\nas 2 does not divide 5, Lagrange’s theorem would have been\ncontradicted if Thad been a group R1\n(iii) any attempt at trying values (M1)\nthe solutions are q, r,sand t A1A1A1A1\nNote: Deduct A1 if p is included.\n[15 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.5",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 17]\n(a) Associativity and commutativity are two of the five conditions for a set $S$ with the binary operation $*$ to be an Abelian group; state the other three conditions. [2 marks]\n(b) The Cayley table for the binary operation $\\odot$ defined on the set $T = \\{p, q, r, s, t\\}$ is given below.\n[Table: Cayley table of $\\odot$]\n$\\odot$ | p | q | r | s | t\np | s | r | t | p | q\nq | t | s | p | q | r\nr | q | t | s | r | p\ns | p | q | r | s | t\nt | r | p | q | t | s\n(i) Show that exactly three of the conditions for $\\{T, \\odot\\}$ to be an Abelian group are satisfied, but that neither associativity nor commutativity are satisfied.\n(ii) Find the proper subsets of $T$ that are groups of order 2, and comment on your result in the context of Lagrange's theorem.\n(iii) Find the solutions of the equation $(p \\odot x) \\odot x = x \\odot p$. [15 marks]"
+  },
+  {
+   "id": "math-2012-M-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 8]\nThe elements of sets P and Q are taken from the universal set\n{, 12345678910. P ={, , , , , , , , , } 123 and Q ={, ,} 246810. , , , }\n(a) Given that R = ( P ∩ Q ′′ ), list the elements of R . [3 marks]\n(b) For a set S , let S* denote the set of all subsets of S ,\n(i) find P*;\n(ii) find nR ( *. ) [5 marks]",
+   "ms_text": "2. (a) P = { 1, 2, 3 }\nQ′= {1, 3, 5, 7, 9}\n∩ Q′ so P ={1, 3} (M1)(A1)\n∩ Q′ ′ = so ( P ) {2, 4, 5, 6, 7, 8, 9, 10} A1\n[3 marks]\n* (b) (i) P= { {1}, {2}, {3}, {1, 2}, {2, 3}, {3,1}, {1, 2, 3}, ∅ } A2\nNote: Award A1 if one error, A0 for two or more.\n* (ii) R contains: the empty set (1 element); sets containing one element\n(8 elements); sets containing two elements (M1)\n8 8 8 8\n= + + + (A1)\n0 1 2 8\n= 82(256) = A1\nNote:FT in (ii) applies if no empty set included in (i) and (ii).\n[5 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.1",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 8]\nThe elements of sets $P$ and $Q$ are taken from the universal set $\\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$. $P = \\{1, 2, 3\\}$ and $Q = \\{2, 4, 6, 8, 10\\}$.\n(a) Given that $R = (P \\cap Q')'$, list the elements of $R$. [3 marks]\n(b) For a set $S$, let $S^*$ denote the set of all subsets of $S$,\n(i) find $P^*$;\n(ii) find $n(R^*)$. [5 marks]"
+  },
+  {
+   "id": "math-2012-M-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 14]\nThe relation R is defined on the set � such that for ab , ∈�, aRb if and only if\n3 3 a ≡ b (mod). 7\n(a) Show that R is an equivalence relation. [6 marks]\n(b) Find the equivalence class containing 0. [2 marks]\nDenote the equivalence class containing n by Cn.\n(c) List the first six elements of C1. [3 marks]\n(d) Prove that C = C +7 for all n∈�. [3 marks]\nn n",
+   "ms_text": "3. (a) reflexive: a 3 − a 3 = 0 , ⇒ R is reflexive R1\n3 3 symmetric: if a ≡ b 3(mod7) , then b ≡ a 3(mod7) M1\n⇒R is symmetric R1\n3 3 3 3 transitive: a = b + 7 n and b = c + 7 m M1\nthen a 3 = c 3 + 7( n + m )\n3 ⇒ a ≡ c 3(mod7) R1\n⇒ R is transitive A1\nand is an equivalence relation AG\n3 3 Note: Allow arguments that use a − b ≡ 0 (mod7) etc.\n[6 marks]\n(b) {0, 7,14, 21, … } A2\n[2 marks]\n(c) {1, 2, 4, 8, 9,11} A3\nNote: Deduct 1 mark for each error or omission.\n[3 marks]\n3 3 2 3 (d) consider ( n + 7) = n + 21 n + 147 n + 343 = n + 7 N M1A1\n3 3 ⇒ n ≡ ( n + 7)(mod7) ⇒ n and n + 7 are in the same equivalence class R1\n[3 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "6"
+   ],
+   "subtopics": [
+    "7.2",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 14]\nThe relation $R$ is defined on the set $\\mathbb{N}$ such that for $a, b \\in \\mathbb{N}$, $aRb$ if and only if $a^3 \\equiv b^3 \\pmod 7$.\n(a) Show that $R$ is an equivalence relation. [6 marks]\n(b) Find the equivalence class containing 0. [2 marks]\nDenote the equivalence class containing $n$ by $C_n$.\n(c) List the first six elements of $C_1$. [3 marks]\n(d) Prove that $C_n = C_{n+7}$ for all $n \\in \\mathbb{N}$. [3 marks]"
+  },
+  {
+   "id": "math-2012-M-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\n(a) The function g : → � is defined by gn () = || n −1 for n∈�. Show that g is �\nneither surjective nor injective. [2 marks]\n(b) The set S is finite. If the function f : S → S is injective, show that f is\nsurjective. [2 marks]\n(c) Using the set �+ as both domain and codomain, give an example of an injective\nfunction that is not surjective. [3 marks]",
+   "ms_text": "4. (a) non-S: for example 2 − does not belong to the range of g R1\nnon-I: for example g (1) = g (1) − = 0 R1\nNote: Graphical arguments have to recognize that we are dealing with sets of\nintegers and not all real numbers\n[2 marks]\n(b) as f is injective ( nfS () ) = nS () A1\nR1\nNote: Accept alternative explanations.\nf is surjective AG\n[2 marks]\n(c) for example, () hn = n + 1 A1\nNote: Only award the A1 if the function works.\nI: n += 1 m +⇒ 1 n = m R1\nnon-S: 1 has no pre-image as R1\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\n(a) The function $g: \\mathbb{Z} \\to \\mathbb{Z}$ is defined by $g(n) = |n| - 1$ for $n \\in \\mathbb{Z}$. Show that $g$ is neither surjective nor injective. [2 marks]\n(b) The set $S$ is finite. If the function $f: S \\to S$ is injective, show that $f$ is surjective. [2 marks]\n(c) Using the set $\\mathbb{Z}^+$ as both domain and codomain, give an example of an injective function that is not surjective. [3 marks]"
+  },
+  {
+   "id": "math-2012-M-P3-sets-relations-and-groups-q5",
+   "num": "5",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 14]\nThe group G has a unique element, h , of order 2.\n(a) (i) Show that ghg−1 has order 2 for all g ∈ G .\n(ii) Deduce that gh = hg for all g ∈ G . [5 marks]\nConsider the group G under matrix multiplication consisting of four 22 × matrices,\n1 0\ncontaining a unique element, h , of order 2, where h =−\n1.\n0\n(b) (i) Show that G is cyclic.\n1 0\nGiven the identity e = (ii)\n1, find a pair of matrices representing the\n0\na b\nother two elements of G , where each element is of the form\n, c d\n[9 marks] a , b , c , d ∈�.",
+   "ms_text": "12 5. (a) (i) consider ( ghg− ) M1\n− 1 − 1 2 − 1 − 1 = ghgghg = ghg = gg = e A1\n1 ghg− cannot be order 1( = )e since h is order 2 R1\nghg− has order 2 1 so AG\n(ii) but h is the unique element of order 2 R1\n1 hence ghg −= h ⇒ gh = hg A1AG\n[5 marks]\n(b) (i) let g ≠ h or e , A1\nas a consequence of Lagrange’s theorem, g is of order 4, so G is cyclic R1\n(ii) applying gh = hg M1\nobtain b = c = 0 A1\nEITHER\n4 ⇒ a = d 4= 1 M1A1\na and d cannot both be real (M1)\nOR\n2 2 ⇒ a =− 1 and d = 1 (M1)A1A1\nTHEN\nchoose a = and i d =− (there are other choices) 1 (A1)\nthe two elements are\ni 0 − i 0\nand A1\n0 − 1 0 − 1\nOR\ni 0 − i 0\nand A1\n0 1 0 1\n[9 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.6",
+    "7.5",
+    "7.8",
+    "1.L1",
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 14]\nThe group $G$ has a unique element, $h$, of order 2.\n(a) (i) Show that $ghg^{-1}$ has order 2 for all $g \\in G$.\n(ii) Deduce that $gh = hg$ for all $g \\in G$. [5 marks]\nConsider the group $G$ under matrix multiplication consisting of four $2 \\times 2$ matrices, containing a unique element, $h$, of order 2, where $h = \\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix}$.\n(b) (i) Show that $G$ is cyclic.\n(ii) Given the identity $e = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$, find a pair of matrices representing the other two elements of $G$, where each element is of the form $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, $a, b, c, d \\in \\mathbb{C}$. [9 marks]"
+  }
+ ],
+ "status": "done"
+}

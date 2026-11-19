@@ -1,0 +1,145 @@
+{
+ "exam_id": "math-2003-M-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.6",
+    "5.8",
+    "5.7"
+   ],
+   "text_clean": "1. [Maximum mark: 12]\nThe function $f$ is defined by $f(x)=\\frac{x^2}{2^x}$, for $x>0$.\n(a) (i) Show that $f'(x)=\\frac{2x-x^2\\ln 2}{2^x}$.\n(ii) Obtain an expression for $f''(x)$, simplifying your answer as far as possible. [5 marks]\n(b) (i) Find the exact value of $x$ satisfying the equation $f'(x)=0$.\n(ii) Show that this value gives a maximum value for $f(x)$. [4 marks]\n(c) Find the $x$-coordinates of the two points of inflexion on the graph of $f$. [3 marks]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.16",
+    "1.L1"
+   ],
+   "text_clean": "2. [Maximum mark: 16]\n(i) The transformations $T_1, T_2, T_3$, in the plane are defined as follows:\n$T_1$: A rotation through $180^\\circ$ about the origin.\n$T_2$: A reflection in the line $y=x$.\n$T_3$: An anticlockwise rotation through $90^\\circ$ about the origin.\n(a) Write down the $2\\times 2$ matrices representing $T_1$, $T_2$ and $T_3$. [3 marks]\n(b) The transformation $T$ is defined as $T_1$ followed by $T_2$ followed by $T_3$.\n(i) Find the $2\\times 2$ matrix representing $T$.\n(ii) Give a full geometric description of the transformation $T$. [4 marks]\n(ii) The variables $x, y, z$ satisfy the simultaneous equations\n$x+2y+z=k$\n$2x+y+4z=6$\n$x-4y+5z=9$\nwhere $k$ is a constant.\n(a) (i) Show that these equations do not have a unique solution.\n(ii) Find the value of $k$ for which the equations are consistent (that is, they can be solved). [6 marks]\n(b) For this value of $k$, find the general solution of these equations. [3 marks]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.15",
+    "1.9",
+    "3.10"
+   ],
+   "text_clean": "3. [Maximum mark: 15]\n(a) Prove, using mathematical induction, that for a positive integer $n$, $(\\cos\\theta+\\mathrm{i}\\sin\\theta)^n=\\cos n\\theta+\\mathrm{i}\\sin n\\theta$ where $\\mathrm{i}^2=-1$. [5 marks]\n(b) The complex number $z$ is defined by $z=\\cos\\theta+\\mathrm{i}\\sin\\theta$.\n(i) Show that $\\frac{1}{z}=\\cos(-\\theta)+\\mathrm{i}\\sin(-\\theta)$.\n(ii) Deduce that $z^n+z^{-n}=2\\cos n\\theta$. [5 marks]\n(c) (i) Find the binomial expansion of $(z+z^{-1})^5$.\n(ii) Hence show that $\\cos^5\\theta=\\frac{1}{16}(a\\cos 5\\theta+b\\cos 3\\theta+c\\cos\\theta)$, where $a$, $b$, $c$ are positive integers to be found. [5 marks]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "text_clean": "4. [Maximum mark: 11]\nA business man spends $X$ hours on the telephone during the day. The probability density function of $X$ is given by\n$f(x)=\\begin{cases}\\frac{1}{12}(8x-x^3), & \\text{for } 0\\le x\\le 2\\\\ 0, & \\text{otherwise.}\\end{cases}$\n(a) (i) Write down an integral whose value is $\\mathrm{E}(X)$.\n(ii) Hence evaluate $\\mathrm{E}(X)$. [3 marks]\n(b) (i) Show that the median, $m$, of $X$ satisfies the equation $m^4-16m^2+24=0$.\n(ii) Hence evaluate $m$. [5 marks]\n(c) Evaluate the mode of $X$. [3 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "3",
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.8",
+    "5.15",
+    "2.2",
+    "2.14"
+   ],
+   "text_clean": "5. [Maximum mark: 16]\nThe function $f$ with domain $\\left[0,\\frac{\\pi}{2}\\right]$ is defined by $f(x)=\\cos x+\\sqrt{3}\\sin x$.\nThis function may also be expressed in the form $R\\cos(x-\\alpha)$ where $R>0$ and $0<\\alpha<\\frac{\\pi}{2}$.\n(a) Find the exact value of $R$ and of $\\alpha$. [3 marks]\n(b) (i) Find the range of the function $f$.\n(ii) State, giving a reason, whether or not the inverse function of $f$ exists. [5 marks]\n(c) Find the exact value of $x$ satisfying the equation $f(x)=\\sqrt{2}$. [3 marks]\n(d) Using the result $\\int\\sec x\\,\\mathrm{d}x=\\ln|\\sec x+\\tan x|+C$, where $C$ is a constant, show that $\\int_0^{\\frac{\\pi}{2}}\\frac{\\mathrm{d}x}{f(x)}=\\frac{1}{2}\\ln\\left(3+2\\sqrt{3}\\right)$. [5 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.L9",
+    "4.L6",
+    "4.L5",
+    "4.L4",
+    "4.11",
+    "4.L7"
+   ],
+   "text_clean": "6. [Maximum mark: 30]\n(i) Give all numerical answers to this part of the question correct to two decimal places.\nA radar records the speed, $v$ kilometres per hour, of cars on a road. The speed of these cars is normally distributed. The results for 1000 cars are recorded in the following table.\nSpeed | Number of cars\n$40\\le v<50$ | 9\n$50\\le v<60$ | 35\n$60\\le v<70$ | 93\n$70\\le v<80$ | 139\n$80\\le v<90$ | 261\n$90\\le v<100$ | 295\n$100\\le v<110$ | 131\n$110\\le v<120$ | 26\n$120\\le v<130$ | 11\n(a) For the cars on the road, calculate\n(i) an unbiased estimate of the mean speed;\n(ii) an unbiased estimate of the variance of the speed. [4 marks]\n(b) For the cars on the road, calculate\n(i) a 95% confidence interval for the mean speed;\n(ii) a 90% confidence interval for the mean speed. [4 marks]\n(c) Explain why one of the intervals found in part (b) is a subset of the other. [2 marks]\n(ii) Give all numerical answers to this part of the question correct to three significant figures.\nTwo typists were given a series of tests to complete. On average, Mr Brown made 2.7 mistakes per test while Mr Smith made 2.5 mistakes per test. Assume that the number of mistakes made by any typist follows a Poisson distribution.\n(a) Calculate the probability that, in a particular test,\n(i) Mr Brown made two mistakes;\n(ii) Mr Smith made three mistakes;\n(iii) Mr Brown made two mistakes and Mr Smith made three mistakes. [6 marks]\n(b) In another test, Mr Brown and Mr Smith made a combined total of five mistakes. Calculate the probability that Mr Brown made fewer mistakes than Mr Smith. [5 marks]\n(iii) A calculator generates a random sequence of digits. A sample of 200 digits is randomly selected from the first 100000 digits of the sequence. The following table gives the number of times each digit occurs in this sample.\ndigit | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9\nfrequency | 17 | 21 | 15 | 19 | 25 | 27 | 19 | 23 | 18 | 16\nIt is claimed that all digits have the same probability of appearing in the sequence.\n(a) Test this claim at the 5% level of significance. [7 marks]\n(b) Explain what is meant by the 5% level of significance. [2 marks]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.2",
+    "7.9",
+    "7.8",
+    "7.3",
+    "1.L1"
+   ],
+   "text_clean": "7. [Maximum mark: 30]\n(i) The set $\\mathbb{R}$ of all real numbers under addition is a group $(\\mathbb{R},+)$, and the set $\\mathbb{R}^+$ of all positive real numbers under multiplication is a group $(\\mathbb{R}^+,\\times)$. Let $f$ denote the mapping of $(\\mathbb{R},+)$ to $(\\mathbb{R}^+,\\times)$ given by $f(x)=3^x$.\n(a) Show that $f$ is an isomorphism of $(\\mathbb{R},+)$ onto $(\\mathbb{R}^+,\\times)$. [6 marks]\n(b) Find an expression for $f^{-1}$. [1 mark]\n(ii) Let $G=\\left\\{\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\right\\}$, where $a,b,c$ and $d\\in\\mathbb{R}$, and $ad-bc\\ne 0$.\n(a) Show that $(G,*)$ is a group, where $*$ denotes matrix multiplication. [6 marks]\n(b) Is this group Abelian? Give a reason for your answer. [3 marks]\nLet $(H,*)$ be any subgroup of $(G,*)$ and let $M$, $N$ be any elements of $G$.\nDefine the relation $R_H$ on $G$ as follows:\n$M R_H N \\Leftrightarrow$ there exists $L\\in H$ such that $M=L*N$.\n(c) Show that $R_H$ is an equivalence relation on $G$. [5 marks]\nLet $K$ denote the set of all the elements of $G$ with $ad-bc>0$.\n(d) Show that $(K,*)$ is a subgroup of $(G,*)$. [5 marks]\nLet $M$, $N$ be any 2 elements of $G$. Define the equivalence relation $R_K$ on $G$ as above, i.e.\n$M R_K N \\Leftrightarrow$ there exists $L\\in K$ such that $M=L*N$.\n(e) (i) Show that there are only two equivalence classes.\n(ii) Explain how to determine to which equivalence class a given element $M$ of $G$ belongs. [4 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.11",
+    "6.7",
+    "6.8",
+    "6.10",
+    "6.1",
+    "6.3",
+    "6.6"
+   ],
+   "text_clean": "8. [Maximum mark: 30]\n(i) (a) Using Euclid's algorithm, find integers $x$ and $y$ such that $17x+31y=1$. [3 marks]\n(b) Given that $17p+31q=1$, where $p,q\\in\\mathbb{Z}$ show that $|p|\\ge 11$ and $|q|\\ge 6$. [2 marks]\n(ii) Let $\\{y_n\\}$ be a sequence of real numbers defined as follows.\n$y_0=-1$, $y_{n+1}=2y_n+3$, for $n=0,1,2,\\ldots$\nSolve the recurrence equation for $y_n$. [6 marks]\n(iii) Consider the following matrix $M$.\n  | A | B | C | D | E\nA | 0 | 1 | 1 | 1 | 1\nB | 1 | 0 | 0 | 2 | 1\nC | 1 | 0 | 0 | 2 | 1\nD | 1 | 2 | 2 | 0 | 1\nE | 1 | 1 | 1 | 1 | 0\n(a) Draw a planar graph $G$ with 5 vertices A, B, C, D, E such that $M$ is its adjacency matrix. [7 marks]\n(b) Give a reason why $G$ has a Eulerian circuit. [3 marks]\n(c) Find a Eulerian circuit for $G$. [3 marks]\n(d) Find a spanning tree for $G$. [2 marks]\n(iv) Let $W$ be the set $\\{a,b,c,d,f,e,g\\}$.\nDraw a binary search tree to construct an index in alphabetical order for this set, taking the element $c$ as a root (i.e. starting with $c$). [4 marks]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L1",
+    "2.4"
+   ],
+   "text_clean": "9. [Maximum mark: 30]\nIn this question, where appropriate, give your answers to five decimal places.\n(i) (a) Let $f(x)=\\mathrm{e}^x$ and $g(x)=1+\\cos x$, for $x\\in[-3,2]$.\n(i) On the same diagram, sketch the graphs of $f(x)$ and $g(x)$.\n(ii) Mark clearly the points of intersection of the curves. [4 marks]\nConsider the equation $\\mathrm{e}^x=1+\\cos x$.\n(b) Using the Newton-Raphson method, solve the equation. [9 marks]\n(c) (i) Use fixed-point iteration, with $h(x)=\\mathrm{e}^x-1-\\cos x+x$, to find the negative solution of the equation.\n(ii) Explain why the method works in this case. [5 marks]\n(d) (i) Give an example to show that fixed-point iteration does not work to find the positive solution of the equation.\n(ii) Explain why fixed-point iteration does not work in this case. [5 marks]\n(ii) For positive integers $k$ and $n$ let\n$u_k=\\frac{1+2(-1)^k}{k+1}$ and $S_{2n}=\\sum_{k=1}^{2n}u_k$.\n(a) Show that $S_{2n}=\\sum_{k=1}^{n}\\frac{4k-1}{2k(2k+1)}$. [3 marks]\n(b) Hence or otherwise, determine whether the series $\\sum_{k=1}^{\\infty}u_k$ is convergent or not, justifying your answer. [4 marks]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "8",
+    "2"
+   ],
+   "subtopics": [
+    "8.1",
+    "8.2",
+    "2.7"
+   ],
+   "text_clean": "10. [Maximum mark: 30]\n(i) A conic section has equation $x^2+4y^2-4x-8y-24=0$.\n(a) Determine whether this conic is a parabola, an ellipse or a hyperbola. [3 marks]\n(b) The lines $\\ell_1$ and $\\ell_2$ are tangents to the conic in part (a), and are parallel to the line with equation $x-2y-12=0$. Find the equation of $\\ell_1$ and of $\\ell_2$. [8 marks]\n(ii) Let ABCD be a cyclic quadrilateral. The point E lies on [BD] so that $\\mathrm{B\\hat{A}E}=\\mathrm{C\\hat{A}D}$, as shown in the following diagram.\n[Diagram: cyclic quadrilateral ABCD inscribed in a circle, diagonal BD with point E on it, line AE extended, equal angles BAE and CAD marked at A]\nProve that $\\mathrm{AC}\\times\\mathrm{BD}=\\mathrm{AB}\\times\\mathrm{CD}+\\mathrm{BC}\\times\\mathrm{AD}$. [10 marks]\n(iii) Let Q be a point inside a triangle LMN. Let X, Y, Z be the feet of the perpendiculars from Q to [MN], [NL] and [LM] respectively. The line (MQ) is extended to meet [LN] at the point P.\n[Diagram: triangle LMN with interior point Q; perpendiculars QX to MN, QY to NL, QZ to LM with right angles marked; line MQ extended to P on LN]\nProve that $\\mathrm{L\\hat{Q}N}=\\mathrm{L\\hat{M}N}+\\mathrm{X\\hat{Y}Z}$. [9 marks]",
+   "answer_status": "ok"
+  }
+ }
+}

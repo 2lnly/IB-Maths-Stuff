@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2013-N-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"], "subtopics": ["6.8"], "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 7]\nThe following diagram shows a weighted graph.\n[Diagram: weighted graph with vertices A, B, C, D, E, F, G, H; edges AB 5, AG 2, AH 6, BC 4, BG 1, CD 10, CE 12, DE 5, GE 7, GF 3, EF 9, HF 11]\n(a) Use Kruskal's algorithm to find a minimum spanning tree, clearly showing the order in which the edges are added. [5]\n(b) Sketch the minimum spanning tree found, and write down its weight. [2]"
+    },
+    "2": {
+      "topics": ["6"], "subtopics": ["6.7", "6.6", "6.11"], "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 11]\nThe following figure shows the floor plan of a museum.\n[Diagram: floor plan of a museum with exhibition rooms numbered 1 to 13 connected by doorways, and an entrance foyer leading into room 1]\n(a) (i) Draw a graph $G$ that represents the plan of the museum where each exhibition room is represented by a vertex labelled with the exhibition room number and each door between exhibition rooms is represented by an edge. Do not consider the entrance foyer as a museum exhibition room.\n(ii) Write down the degrees of the vertices that represent each exhibition room.\n(iii) Virginia enters the museum through the entrance foyer. Use your answers to (i) and (ii) to justify why it is possible for her to visit the thirteen exhibition rooms going through each internal doorway exactly once. [4]\n(b) Let $G$ and $H$ be two graphs whose adjacency matrices are represented below.\nG: | A | B | C | D | E | F\nA | 0 | 2 | 0 | 2 | 0 | 0\nB | 2 | 0 | 1 | 1 | 0 | 1\nC | 0 | 1 | 0 | 1 | 2 | 1\nD | 2 | 1 | 1 | 0 | 2 | 0\nE | 0 | 0 | 2 | 2 | 0 | 2\nF | 0 | 1 | 1 | 0 | 2 | 0\nH: | P | Q | R | S | T | U\nP | 0 | 1 | 3 | 0 | 1 | 2\nQ | 1 | 0 | 1 | 3 | 2 | 0\nR | 3 | 1 | 0 | 2 | 1 | 3\nS | 0 | 3 | 2 | 0 | 2 | 0\nT | 1 | 2 | 1 | 2 | 0 | 1\nU | 2 | 0 | 3 | 0 | 1 | 0\nUsing the adjacency matrices,\n(i) find the number of edges of each graph;\n(ii) show that exactly one of the graphs has a Eulerian trail;\n(iii) show that neither of the graphs has a Eulerian circuit. [7]"
+    },
+    "3": {
+      "topics": ["6"], "subtopics": ["6.4", "6.2", "6.1"], "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 15]\nConsider an integer $a$ with $(n+1)$ digits written as $a = 10^n a_n + 10^{n-1} a_{n-1} + \\ldots + 10 a_1 + a_0$, where $0 \\le a_i \\le 9$ for $0 \\le i \\le n$, and $a_n \\ne 0$.\n(a) Show that $a \\equiv (a_n + a_{n-1} + \\ldots + a_0) \\pmod 9$. [3]\n(b) Hence find all pairs of values of the single digits $x$ and $y$ such that the number $a = 476x212y$ is a multiple of 45. [6]\n(c) (i) If $b = 34390$ in base 10, show that $b$ is 52151 written in base 9.\n(ii) Hence find $b^2$ in base 9, by performing all the calculations without changing base. [6]"
+    },
+    "4": {
+      "topics": ["6"], "subtopics": ["6.9", "6.8", "6.7"], "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 14]\nThe following diagram shows a weighted graph $G$ with vertices A, B, C, D and E.\n[Diagram: complete graph on A, B, C, D, E with edge weights AB 5, AC 6, AD 4, AE 9, BC 6, BD 8, BE 5, CD 7, CE 10, DE 8]\n(a) Show that graph $G$ is Hamiltonian. Find the total number of Hamiltonian cycles in $G$, giving reasons for your answer. [3]\n(b) State an upper bound for the travelling salesman problem for graph $G$. [1]\n(c) Use Prim's algorithm to draw a minimum spanning tree for the subgraph obtained by deleting C from $G$. [5]\n(d) Hence find a lower bound for the travelling salesman problem for $G$. [2]\n(e) Show that the lower bound found in (d) cannot be the length of an optimal solution for the travelling salesman problem for the graph $G$. [3]"
+    },
+    "5": {
+      "topics": ["6"], "subtopics": ["6.4", "6.1", "6.5"], "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 13]\n(a) Show that 30 is a factor of $n^5 - n$ for all $n \\in \\mathbb{N}$. [5]\n(b) (i) Show that $3^{3^m} \\equiv 3 \\pmod 4$ for all $m \\in \\mathbb{N}$.\n(ii) Hence show that there is exactly one pair $(m, n)$ where $m, n \\in \\mathbb{N}$, satisfying the equation $3^{3^m} = 2^{2^n} + 5^2$. [8]"
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+ "exam_id": "math-2000-M-P1",
+ "questions": {
+  "1": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.7"
+   ],
+   "text_clean": "1. (a) Sketch the graph of $f(x) = \\sin 3x + \\sin 6x$, $0 \\le x \\le 2\\pi$.\n(b) Write down the exact period of the function $f$."
+  },
+  "2": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "text_clean": "2. The transformation $T_1$ is represented by the matrix $\\begin{pmatrix} 0 & -1 \\\\ -1 & 0 \\end{pmatrix}$ and the transformation $T_2$ is represented by the matrix $\\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}$.\n(a) Calculate the matrix $(T_1 T_2)^{-1}$.\n(b) Describe the transformation represented by the matrix $(T_1 T_2)^{-1}$."
+  },
+  "3": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13"
+   ],
+   "text_clean": "3. Let $z_1 = a\\left(\\cos\\frac{\\pi}{4} + \\mathrm{i}\\sin\\frac{\\pi}{4}\\right)$ and $z_2 = b\\left(\\cos\\frac{\\pi}{3} + \\mathrm{i}\\sin\\frac{\\pi}{3}\\right)$.\nExpress $\\left(\\frac{z_1}{z_2}\\right)^3$ in the form $z = x + y\\mathrm{i}$."
+  },
+  "4": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3",
+    "4.L5"
+   ],
+   "text_clean": "4. A sample of 70 batteries was tested to see how long they last. The results were:\nTime (hours) | Number of batteries (frequency)\n$0 \\le t < 10$ | 2\n$10 \\le t < 20$ | 4\n$20 \\le t < 30$ | 8\n$30 \\le t < 40$ | 9\n$40 \\le t < 50$ | 12\n$50 \\le t < 60$ | 13\n$60 \\le t < 70$ | 8\n$70 \\le t < 80$ | 7\n$80 \\le t < 90$ | 6\n$90 \\le t \\le 100$ | 1\nTotal | 70\nFind\n(a) the sample standard deviation;\n(b) an unbiased estimate of the standard deviation of the population from which this sample is taken."
+  },
+  "5": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "text_clean": "5. Find the coefficient of $x^7$ in the expansion of $(2 + 3x)^{10}$, giving your answer as a whole number."
+  },
+  "6": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.16",
+    "1.L1"
+   ],
+   "text_clean": "6. The system of equations represented by the following matrix equation has an infinite number of solutions.\n$\\begin{pmatrix} 2 & -1 & -9 \\\\ 1 & 2 & 3 \\\\ 2 & 1 & -3 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = \\begin{pmatrix} 7 \\\\ 1 \\\\ k \\end{pmatrix}$\nFind the value of $k$."
+  },
+  "7": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.7"
+   ],
+   "text_clean": "7. In a game a player rolls a biased tetrahedral (four-faced) die. The probability of each possible score is shown below.\nScore | 1 | 2 | 3 | 4\nProbability | $\\frac{1}{5}$ | $\\frac{2}{5}$ | $\\frac{1}{10}$ | $x$\nFind the probability of a total score of six after two rolls."
+  },
+  "8": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.17"
+   ],
+   "text_clean": "8. Find a vector that is normal to the plane containing the lines $L_1$ and $L_2$, whose equations are:\n$L_1: \\mathbf{r} = \\mathbf{i} + \\mathbf{k} + \\lambda(2\\mathbf{i} + \\mathbf{j} - 2\\mathbf{k})$\n$L_2: \\mathbf{r} = 3\\mathbf{i} + 2\\mathbf{j} + 2\\mathbf{k} + \\mu(\\mathbf{j} + 3\\mathbf{k})$"
+  },
+  "9": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "text_clean": "9. The sum of the first $n$ terms of an arithmetic sequence is $S_n = 3n^2 - 2n$. Find the $n$th term $u_n$."
+  },
+  "10": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.13"
+   ],
+   "text_clean": "10. The plane $6x - 2y + z = 11$ contains the line $x - 1 = \\frac{y + 1}{2} = \\frac{z - 3}{l}$. Find $l$."
+  },
+  "11": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12",
+    "1.13"
+   ],
+   "text_clean": "11. The points $z_1 = -1 + 2\\mathrm{i}$ and $z_2 = 2 + 4\\mathrm{i}$ and the line segment $[z_1 z_2]$ are shown in the complex plane below.\n[Diagram: Argand diagram with axes from $-4$ to $4$, showing points $z_1$ at $(-1, 2)$ and $z_2$ at $(2, 4)$ joined by a line segment]\nLet $z_3 = -\\mathrm{i}z_1$ and $z_4 = -\\mathrm{i}z_2$.\n(a) Plot $z_3$ and $z_4$ on the complex plane and draw the line segment $[z_3 z_4]$.\n(b) Write down the transformation that maps the line segment $[z_1 z_2]$ onto the line segment $[z_3 z_4]$."
+  },
+  "12": {
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.7",
+    "1.8"
+   ],
+   "text_clean": "12. The probability distribution of a discrete random variable $X$ is given by\n$\\mathrm{P}(X = x) = k\\left(\\frac{2}{3}\\right)^x$, for $x = 0, 1, 2, \\ldots$\nFind the value of $k$."
+  },
+  "13": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.10"
+   ],
+   "text_clean": "13. The velocity, $v$, of an object, at a time $t$, is given by $v = k\\mathrm{e}^{-\\frac{t}{2}}$, where $t$ is in seconds and $v$ is in m s$^{-1}$. Find the distance travelled between $t = 0$ and $t = a$.",
+   "add_flags": [],
+   "note": "Markscheme crop omits the last line on ms page 9 (boxed 'Note: Award (C2) if k is omitted in the final answer.' and '[3 marks]'). The working and answer are complete. The cause is a segmenter bug: the note box at y~775pt (>0.9H) is treated as a footer drawing, so body_bot cuts it off, and an ms override cannot get past body_bot. | fixed by segmenter update",
+   "answer_status": "ok"
+  },
+  "14": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "text_clean": "14. Mr Blue, Mr Black, Mr Green, Mrs White, Mrs Yellow and Mrs Red sit around a circular table for a meeting. Mr Black and Mrs White must not sit together.\nCalculate the number of different ways these six people can sit at the table without Mr Black and Mrs White sitting together."
+  },
+  "15": {
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.13",
+    "5.8"
+   ],
+   "text_clean": "15. Find the coordinates of the point which is nearest to the origin on the line\n$L: x = 1 - \\lambda,\\ y = 2 - 3\\lambda,\\ z = 2$."
+  },
+  "16": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.10"
+   ],
+   "text_clean": "16. Given that $x > 0$, find the solution of the following system of equations:\n$\\frac{8x^3}{y} = 3$\n$xy - y = x^2 + \\frac{9}{4}$"
+  },
+  "17": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.8",
+    "3.7"
+   ],
+   "text_clean": "17. A rectangle is drawn so that its lower vertices are on the $x$-axis and its upper vertices are on the curve $y = \\sin x$, where $0 \\le x \\le \\pi$.\n(a) Write down an expression for the area of the rectangle.\n(b) Find the maximum area of the rectangle."
+  },
+  "18": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.11",
+    "2.10"
+   ],
+   "text_clean": "18. Find the values of $a > 0$, such that $\\int_a^{a^2} \\frac{1}{1 + x^2}\\,\\mathrm{d}x = 0.22$."
+  },
+  "19": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.7",
+    "5.6"
+   ],
+   "text_clean": "19. Let $f: x \\mapsto \\mathrm{e}^{\\sin x}$.\n(a) Find $f'(x)$.\nThere is a point of inflexion on the graph of $f$, for $0 < x < 1$.\n(b) Write down, but do not solve, an equation in terms of $x$, that would allow you to find the value of $x$ at this point of inflexion."
+  },
+  "20": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.7",
+    "5.8"
+   ],
+   "text_clean": "20. The diagram shows the graph of $y = f'(x)$.\n[Diagram: cubic-shaped curve $y = f'(x)$ with no scale, crossing the $x$-axis at a negative value, at the origin and at a positive value; local maximum between the first two roots and local minimum between the last two]\nIndicate, and label clearly, on the graph\n(a) the points where $y = f(x)$ has minimum points;\n(b) the points where $y = f(x)$ has maximum points;\n(c) the points where $y = f(x)$ has points of inflexion."
+  }
+ },
+ "exam_note": "Paper 1 (2000): 20 short questions of 3 marks each; marks are confirmed by the markscheme totals."
+}

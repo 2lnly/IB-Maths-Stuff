@@ -1,0 +1,297 @@
+{
+ "exam_id": "math-2025-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2025,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 1/M25 TZ1/Mathematics_analysis_and_approaches_paper_1_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 1/M25 TZ1/Mathematics_analysis_and_approaches_paper_1_TZ1_HL_markscheme.pdf",
+ "notes": "4 duplicate copies (2 byte-identical size, 2 donated/scanned); duplicate /home/xiaohe/stuff/IB PAST PAPERS - YEAR/2025 Examination Session/DONATED PAPERS M25/Maths/AAHL P1 Zone A.pdf: time zone TZ1 assigned via printed paper number 2225-7106 (filename zone A); duplicate /home/xiaohe/stuff/IB PAST PAPERS - YEAR/2025 Examination Session/DONATED PAPERS M25/NEW Asia TZA papers/Math AA HL Paper 1 TZA.pdf: time zone TZ1 assigned by distinctive-word overlap 1.00 (next TZ 0.15, 39 words) with Mathematics_analysis_and_approaches_paper_1_TZ1_HL.pdf; paper number 2225-7106; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2025-M-P1-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\n3 4 x\n� Consider the function fx () � 16 x , where x∈ϒ .\n3\nThe graph of y=f(x) has a local minimum point at (p,q) where p>0 .\nFind the value of p and the value of q .",
+   "ms_text": "2\n1. f '() x = 4 x − 16 A1\nsets their derivative equal to zero (M1)\n2 4 x− 16 = 0 , ( x = ±) 2\np = 2 (accept x = 2 ) A1\nsubstitutes their positivep into fx () (M1)\n() 3 42 32 64\ny = − 16(2) = − 32 = −\n3 3 3\n64 − 64\nq = − (accept y = ) A1\n3 3\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nConsider the function $f(x)=\\frac{4x^3}{3}-16x$, where $x\\in\\mathbb{R}$.\nThe graph of $y=f(x)$ has a local minimum point at $(p,q)$ where $p>0$.\nFind the value of $p$ and the value of $q$."
+  },
+  {
+   "id": "math-2025-M-P1-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nBob invests 1000 dinar in an account which pays a nominal annual interest rate of 4 %\ncompounded quarterly.\nThe amount of money in the account after one complete year can be written as 1000(1+k)4\nwhere k∈⁄ .\n(a) Write down the value of k .\b [1]\nExpand and simplify (1+x)4 .\b (b) [2]\n(c) Hence or otherwise, find the amount of money in the account after one complete year,\ngiving your answer correct to the nearest dinar.\b [4]",
+   "ms_text": "4 1\n2. (a) k = = = 0.01 A1\n400 100\n[1 mark]\n(b) attempt to find binomial coefficients or multiply out brackets (M1)\n2 2\ne.g.Pascal’s triangle down to correct row OR ( 1 + 2x + x ) OR substitute into\nbinomial expansion\n4\n( 1 + x )\n=+ 1 4 x + 6 x 2 + 4 x 3 + x 4 A1\n[2 marks]\n(c) METHOD 1\nrecognition that the expansion can be used with x replaced with k (M1)\n4\n1\n1 +\n100\n4 6\n=+ + + ( =+ + + ) 1 ... 1 0.04 0.0006 ... (A1)\n2 100 100\nmultiplies by 1000 (seen anywhere) (M1)\n4\n1\n10001 +\n100\n( ) = 1000 + 40 + 0.6 + ... = 1040.6...\n= 1041 (dinar) A1\nMETHOD 2\n4\nattempt to find the value of ( 1k + ) by hand (M1)\n4 2\n( 1.01 ) = ( 1.02011.01 )( ) = ( 1.0303011.01 )( )\n= 1.0406... (A1)\nmultiplies by 1000 (seen anywhere) (M1)\n4\n10001.01 ( )\n= 1040.6...\n= 1041 (dinar) A1\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9",
+    "1.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nBob invests 1000 dinar in an account which pays a nominal annual interest rate of $4\\%$ compounded quarterly.\nThe amount of money in the account after one complete year can be written as $1000(1+k)^4$ where $k\\in\\mathbb{Q}$.\n(a) Write down the value of $k$. [1]\n(b) Expand and simplify $(1+x)^4$. [2]\n(c) Hence or otherwise, find the amount of money in the account after one complete year, giving your answer correct to the nearest dinar. [4]"
+  },
+  {
+   "id": "math-2025-M-P1-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 4]\nFind the area completely enclosed by the curves y=ex , y=-ex , and the lines x=-1 and x=1 .",
+   "ms_text": "3. METHOD 1\ne x −− ( e x ) = 2e x attempt to set up integral or exand then double (M1)\n( x ( x ) ) ∫ e −− e d x OR 2ed ∫ xx\n1\n=∫ 2 ed xx\n− 1\n1\n= 2ex (A1)\n− 1\nattempt to substitute correct limits into their integrated function and subtract (M1)\n1 2\n2e − − 1 = 2e − , , 2 e 2 e− A1\ne e\nMETHOD 2\n1 1 1 1 x x x x\n∫ x e and ∫ x =− e (A1) 1ed = 1-ed\n− − 1 − − 1\nattempt to substitute correct limits into both their integrated functions and subtract (M1)\n1 1 1 1 e − e−\nand − e −− ( e− )\nsubtracts their two integrals in correct order (M1)\n1 − 1 ( 1 − 1 ) e − e −− e + e\n1 2 1\n= 2e − , 2e − , 2 e − 2 e− A1\ne e\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 4]\nFind the area completely enclosed by the curves $y=e^x$, $y=-e^x$, and the lines $x=-1$ and $x=1$."
+  },
+  {
+   "id": "math-2025-M-P1-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\n� � �3 BA=2 Consider events A and B such that P (') A P ( A B ) and P( ) .\n4 3\n(a) Find P(A∩B) .\b [3]\n(b) Show that events A and B are independent. \b [3]",
+   "ms_text": "1\n4. (a) P() A= (A1)\n4\nP( B ∩ A )\nattempt to use P( BA ) = (M1)\nP() A\n2 P( B ∩ A )\n=\n3 1\n4\n21\nP( A ∩ B ) =\n34\n2 1\n= = A1\n12 6\n[3 marks]\n(b) attempt to use P( A ∪ B ) = P() A + P() B − P( A ∩ B ) OR a Venn diagram, with\ntheir values of P() A and P( B ∩ A ) M1\n3 1 1\n= + P() B −\n4 4 6\n1 1\nP() B= +\n2 6\n4 2\n= = A1\n6 3\n1\nP( BA ) = P() B OR P()P() A B= so P( A ∩ B ) = P()P() A B (hence A and B are\n6\nindependent) R1\nNote: The R1 is dependent on all previous marks\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nConsider events $A$ and $B$ such that $P(A')=P(A\\cup B)=\\frac{3}{4}$ and $P(B|A)=\\frac{2}{3}$.\n(a) Find $P(A\\cap B)$. [3]\n(b) Show that events $A$ and $B$ are independent. [3]"
+  },
+  {
+   "id": "math-2025-M-P1-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 8]\nConsider a sequence of ten rectangular picture frames F1,F2,... , F9,F10 .\nPicture frame F1 has width 4cm and height 5cm .\nThe width and height of picture frame Fn , are each increased by 50 % to generate the width\nand height of the next picture frame Fn+1 , for n∈′+ , 1≤n≤9 .\nn � 1\n� � Show that the area of picture frame Fn is 209\n(a) (i) cm2 .\n�� 4 ��\n(ii) Hence, find the mean area of the ten picture frames, giving your answer in the\na �\n� 9 � �\nform p 1 [5] ��\n��� ��cm2 , where p∈⁄+ , a∈′+ .\b ��\n4\n� �\n(b) Find the median area of the ten picture frames, giving your answer in\n4\n� � the form q9\n[3]\n��cm2 , where q∈⁄+ .\b ��\n4",
+   "ms_text": "5. (a) (i) for a sequence of areas, uses two consecutive terms to find a common\nratio OR for sequences of both widths and heights uses two consecutive\nterms for both sequences to find both common ratios OR recognises that\nboth widths and heights are geometric sequences with common ratio 3\nM1\n2\nareas form a geometric sequence with first term 20 and common ratio 45\nA1\n20\nn − 1 n − 1\n3 3\nOR area of picture frame F is 4 × 5\nn\n2 2\n1 n−\n9\narea of F is AG\nn 204\nur ( n − 1 )\n1\n(ii) attempt to find the sum of the areas using S = (M1)\nn\nr − 1\n10\n9\n20 − 1\n10 4\n9\n= sum of areas 16 − 1 (A1)\n9 4\n− 1\n4\n10\n9\n20 − 1\n10 4\n1 1 9\nmean area = = 16 − 1\n9 10 10 4\n− 1\n4\n10 10\n16 9 8 9\n= − 1 = − 1 A1\n10 4 5 4\n8 , p = a = 10\n5\n[5 marks]\n(b) recognition that median is between 5th and 6th picture frame (M1)\n4 5\n9 9\n20 + 20\n4 4\nmedian area = (A1)\n2\n4\n9 9\n+ 20 1\n4 4\n=\n2\n4\n659\n= A1\n2 4\n65\nq =\n2\n[3 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "4"
+   ],
+   "subtopics": [
+    "1.3",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 8]\nConsider a sequence of ten rectangular picture frames $F_1, F_2, \\dots, F_9, F_{10}$.\nPicture frame $F_1$ has width 4 cm and height 5 cm.\nThe width and height of picture frame $F_n$, are each increased by $50\\%$ to generate the width and height of the next picture frame $F_{n+1}$, for $n\\in\\mathbb{Z}^+$, $1\\le n\\le 9$.\n(a) (i) Show that the area of picture frame $F_n$ is $20\\left(\\frac{9}{4}\\right)^{n-1}$ cm$^2$.\n(ii) Hence, find the mean area of the ten picture frames, giving your answer in the form $p\\left(\\left(\\frac{9}{4}\\right)^a-1\\right)$ cm$^2$, where $p\\in\\mathbb{Q}^+$, $a\\in\\mathbb{Z}^+$. [5]\n(b) Find the median area of the ten picture frames, giving your answer in the form $q\\left(\\frac{9}{4}\\right)^4$ cm$^2$, where $q\\in\\mathbb{Q}^+$. [3]",
+   "review_note": "ms crop fixed via overrides (trailing fragment of next question removed)"
+  },
+  {
+   "id": "math-2025-M-P1-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nThe line L1 has vector equation r=4i−k+λ(aj+k) , where a , l∈ϒ .\nThe line L2 has vector equation r=i−bk+m(i + 2 j+3k) , where b , m∈ϒ .\nThe lines L1 and L2 are perpendicular and intersect at a unique point.\nFind the value of a and the value of b .",
+   "ms_text": "0 1\n6. direction vectors are a j + k = a and i + 2 j + 3 k = 2 (A1)\n1 3\nrecognition that the scalar product of the direction vectors is 0 (M1)\n0 1\n= ( ) a\nγ 2 2 a + 3 = 0\n1 3\n3\na = − A1\n2\n3\nat point of intersection 4 =+ µ , and 1 −+ λ = −+ µ (A1) 1 − = 2 µ b 3\n2λ\nattempt to solve 3 equations in µ, λ and b , derived from the point of intersection, to\nfind µ, λ and b (M1)\nµ = 3, λ = − 4\nb = 14 A1\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.15",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nThe line $L_1$ has vector equation $\\mathbf{r}=4\\mathbf{i}-\\mathbf{k}+\\lambda(a\\mathbf{j}+\\mathbf{k})$, where $a,\\lambda\\in\\mathbb{R}$.\nThe line $L_2$ has vector equation $\\mathbf{r}=\\mathbf{i}-b\\mathbf{k}+\\mu(\\mathbf{i}+2\\mathbf{j}+3\\mathbf{k})$, where $b,\\mu\\in\\mathbb{R}$.\nThe lines $L_1$ and $L_2$ are perpendicular and intersect at a unique point.\nFind the value of $a$ and the value of $b$.",
+   "review_note": "ms crop fixed via overrides (boundary cut through first-line column vectors)"
+  },
+  {
+   "id": "math-2025-M-P1-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 5]\nConsider the complex number z=3i-1 .\n(a) Write the integer 3 in the form ea where a∈ϒ .\b [1]\n(b) Hence, giving your answers in the form pcos(lnq) where p , q∈⁄+ , find\n(i) Re(z) ;\n� � Re1\n(ii) [4]\n�� ��.\b z",
+   "ms_text": "( ) ln3 7. (a) 3 = e OR a = ln3 A1\n[1 mark]\n1 iln3\nOR ( ) = ln3 ( ) (b) (i) z = e Re() z e− cosln3 (A1)\n3\n1\n( ) = ( ) A1 Re() z cosln3\n3\n1 1 −\niln3 ( ( ( ) ( ) ) ) = ln3 ( ) (ii) = 3 e = 3cos − ln3 + isin − ln3 OR Re e cos − ln3\n(A1)\nz z\n1 =\nRe 3cos ( − ln3 )\nz\n1\n= 3cos(ln3) OR A1\n3cosln 3\n[4 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 5]\nConsider the complex number $z=3^{i-1}$.\n(a) Write the integer 3 in the form $e^a$ where $a\\in\\mathbb{R}$. [1]\n(b) Hence, giving your answers in the form $p\\cos(\\ln q)$ where $p,q\\in\\mathbb{Q}^+$, find\n(i) $\\mathrm{Re}(z)$;\n(ii) $\\mathrm{Re}\\left(\\frac{1}{z}\\right)$. [4]"
+  },
+  {
+   "id": "math-2025-M-P1-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nSeema claims that n>log2n for n∈′+ .\n(a) Show that 1+log2n≥log2(n+1) for n∈′+ .\b [2]\n(b) Use mathematical induction and the result from part (a) to prove that Seema’s claim\nis valid.\b [5]",
+   "ms_text": "8. (a) 1log + n = log2 + log n\n2 2 2\n= log(2) n A1\n2\n2 n ≥ n + OR 1 log(2) n ≥ log( n + 1) R1\n2 2\n(for n + logx is an increasing function) ∈′) (since\n2\n+ llog + n ≥ log( n + 1) (for n\n∈′) AG\n2 2\nNote: Do not award A0R1.\n[2 marks]\n(b) for n = 1\nlog1 = 0 and 1 > 0 OR LHS 1 =, RHS = log1 = 0 log2 > log1 OR R1\n2 2 2 2\n(so true for n =) 1\nassume true for n = k k > log k , ie M1\n2\nNote: Award M0 for statements such as “let n = k ”, “assume n = k is true”. The\nassumption of truth must be clear. “Assume Pk true” is accepted.\nThe following two marks after this M1 are independent of this mark and can be\nawarded.\nhence\n1 + k >+ 1log k (using assumption) M1\n2\n( ) ≥ log k + 1 (using result from part a)) A1\n2\nhence if true for n = k then true for n = k + 1 R1\n+\nand as true for n =, therefore true for all n 1 ∈′.\nNote: Only award the final R1 if the first three marks have been awarded.\n[5 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nSeema claims that $n>\\log_2 n$ for $n\\in\\mathbb{Z}^+$.\n(a) Show that $1+\\log_2 n\\ge\\log_2(n+1)$ for $n\\in\\mathbb{Z}^+$. [2]\n(b) Use mathematical induction and the result from part (a) to prove that Seema's claim is valid. [5]"
+  },
+  {
+   "id": "math-2025-M-P1-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\ny x � y Consider the homogeneous differential equation d\n� , where x>0 and y≠-x .\nd x x � y\nIt is given that y=0 when x=2 .\nBy using the substitution y=vx , show that the solution of the differential equation\nis x2−2xy−y2=4 .",
+   "ms_text": "d y d v\n9. y = vx = x + v\n, d\nx d x\nd v x − vx 1 − v\nx + v = =\nd + 1 + x x vx v\nd v 1 − v\nx += v (A1)\nd x 1 + v\n2 d v 1 − v 1 − 2 v − v\nx = − v =\nd x 1 + v 1 + v\nattempt to separate variables and form two integrals (M1)\n1 + v 1\nd v = d x ∫ ∫\n− − 2 1 2 v v x\n1d\n∫ x = ln x + c A1\nx\n1 + v\nuse of substitution or inspection to integrate or equivalent (M1)\n2 1 − 2 v − v\n2 d u u =− 1 2 v − v ⇒ = −− 2 2 v = − 2(1 + v )\nd v\n1 + v 1 2 1 ln 2\n∫ d v = − ln 1 − 2 v − v OR − v + 2 v − 1 = ln x + c A1 2\n1 − 2 v − v 2 2\n2 2 y y y y\n1 ln 1 1 ln − − 2 − − ln x = c OR − + 2 − 1 − ln x = c\n2 2 2 x x 2 x x\nEITHER\nto find a constant c attempt to substitute x = 2 and either y = 0 or v = 0 (M1)\nc = − ln2\n2 2 y y y y\n1 ln 1 1 ln − − 2 − − ln x = − ln2 OR − + 2 − 1 − ln x = − ln 2 A1\n2 2 2 x x 2 x x\nOR\n2 2 y y y\n2 2y 2 x 1 − − = A OR x + 2 − 1 = A A1\n2 2 x x x x\nattempt to substitute x = 2 either or v = 0 to find a constant A (M1) y = 0\nTHEN\n2 2 y y y y\n2 2 x 1 − 2 − = 4 OR x 1 − 2 − = 4 A1\n2 2 x x x x\nchecking boundary values confirms x 2 − 2 xy − y 2 = 4 AG\nNote:Condone absence of absolute value signs even if removed incorrectly until the\nfinal A1 mark where they must be seen or have been removed to form a correct\nequation.\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nConsider the homogeneous differential equation $\\frac{dy}{dx}=\\frac{x-y}{x+y}$, where $x>0$ and $y\\ne -x$.\nIt is given that $y=0$ when $x=2$.\nBy using the substitution $y=vx$, show that the solution of the differential equation is $x^2-2xy-y^2=4$."
+  },
+  {
+   "id": "math-2025-M-P1-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 18]\nThe function f is defined by f(x)=5(x+1)(x+3) , where x∈ϒ .\n(a) Write f(x) in the form a(x−h)2+k , where a , h , k∈′ .\b [4]\n(b) Sketch the graph of y=f(x) , showing the values of any intercepts with the axes and\nthe coordinates of the vertex.\b [4]\nSolve the inequality f(x)≤40 .\b (c) [4]\nThe function g is defined by g(x)=lnx , where x∈ϒ , x>0 .\n(d) (i) Write down an expression for (fοg)(x) .\n(ii) Solve the inequality (fοg)(x)≤40 .\b [3]\n(e) Find the domain of gοf .\b [3]",
+   "ms_text": "10. (a) METHOD 1\na = 5 (A1)\nattempt to use roots and symmetry to find h (M1)\n(1) − +− (3) − −− (3) OR half the distance between the roots (1)\nh = = (may be 1\n2 2\nseen on a diagram)\nh = −(accept 2 x = −) 2 (A1)\n2 2 fx () = 5( x −− ( 2) ) − 5 ( = 5( x + 2) − 5 )\nA1\n( a = 5, h = − 2, k = −) 5\nMETHOD 2\na = 5 (A1)\nattempt to expand\n( ) 2 OR ( ) 2 x + 1( x + 3) = x + 4 x + 3 5 x + 1( x + 3) = 5 x + 20 x + 15\nEITHER\nuses their expansion to attempt to complete the square to the form (M1)\n( + ) 2 + ,where q is half the coefficient of their x term px q r\n2 2 2 2 2\n= ( + ) − 2 + ( = ( + ) − ) 5 ( x + 2 ) − 2 + 3(5 = ( x + 2 ) − 5) x 2 2 3 x 2 1 OR (A1)\nOR\nuses their expansion to attempt to differentiate and sets equal to zero (M1)\nd y y OR d\n2 x + 4 = 0 10 x + 20 = 0\nx= x=\nd d\nh = −(accept 2 x = −) 2 (A1)\nOR\n− b\nuses their expansion to attempt to find axis of symmetry using h = (M1)\n2 a\n− 4 − 20\nh = OR h =\n2 10\nh = −(accept 2 x = −) 2 (A1)\nTHEN\n2 2 fx () = 5( x −− ( 2) ) − 5 ( = 5( x + 2) − 5 )\nA1\n( a = 5, h = − 2, k = −) 5\n[4 marks]\n(b)\nM1A1A1A1\naward M1 for a roughly symmetric curve which is concave up\naward A1 for x intercepts at 3 − and 1 −\naward A1 for y intercept at 15\naward A1 for vertex at (2,5) − −\n[4 marks]\n2\n(c) 5( x + 2) −≤ 5 40 OR ( 5 x + 1( ) x + 3) ≤ 40 OR ( x + 1( ) x + 3) ≤ 8 leading to\n2 2 2 ( x + 2) ≤ 9\nOR 5 x + 20 x − 25 ≤ 0 OR x + 4 x − 5 ≤ 0 (A1)\nvalid attempt to find the critical values for their quadratic inequality (M1)\nx + 2 = ± OR ( 3 x + 5 )( x − 1 ) = 0\nx = − 5, x = 1 (A1)\n−≤ 5 x ≤ 1 A1\nNote: Accept ( x∈− )[5,1] or equivalent.\n[4 marks]\n2 (d) (i) ( f\nο g )() x = 5ln ( x + 1(ln ) x + 3) OR 5(ln x + 2) − 5 OR\n2 5(ln) x + 20ln x + 15\nA1\n(ii) attempt to replace x with ln x using their solution to part (c) (M1)\n−≤ 5 ln x ≤ 1\n−≤ 5 ≤ e x e A1\nNote: Accept ( x ∈ ) [e,e] − 5 or equivalent.\n[3 marks]\n(e) ( g ο f )() x = ln ( fx () )\nrecognition that the domain requires fx> () 0 (M1)\n( x + 1( ) x + 3) > 0\nx < − 3, x > − 1 A1A1\nNote: award A1 for critical values and A1 for correct inequalities.\naccept ( x∈−∞− )( ,3) ∪−∞ or equivalent. (1, )\n[3 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.6",
+    "2.5",
+    "2.7",
+    "2.3",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 18]\nThe function $f$ is defined by $f(x)=5(x+1)(x+3)$, where $x\\in\\mathbb{R}$.\n(a) Write $f(x)$ in the form $a(x-h)^2+k$, where $a,h,k\\in\\mathbb{Z}$. [4]\n(b) Sketch the graph of $y=f(x)$, showing the values of any intercepts with the axes and the coordinates of the vertex. [4]\n(c) Solve the inequality $f(x)\\le 40$. [4]\nThe function $g$ is defined by $g(x)=\\ln x$, where $x\\in\\mathbb{R}$, $x>0$.\n(d) (i) Write down an expression for $(f\\circ g)(x)$.\n(ii) Solve the inequality $(f\\circ g)(x)\\le 40$. [3]\n(e) Find the domain of $g\\circ f$. [3]",
+   "review_note": "ms crop fixed via overrides (trailing fragment of next question removed)"
+  },
+  {
+   "id": "math-2025-M-P1-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 17]\nThe plane P1 has equation x+2y+z=0 and the plane P2 has equation x−y−2z=0 .\nThe acute angle between the planes P1 and P2 is q .\n(a) Show that q=60° .\b [6]\nA third plane P3 is perpendicular to both P1 and P2 .\nThe unique point of intersection of all three planes is the point R(5 , -5 , 5).\n(b) Find the Cartesian equation of P3 .\b [4]\nEach of the planes P1 and P2 contains a mirror.\nA ray of light is directed towards the mirror in P1 . The ray of light forms an angle of 45°\nwith P1 and meets it at the point P .\nThe ray of light is then reflected towards the mirror in P2 , and meets P2 at the point Q .\nThe points P and Q are contained in P3 .\nIt is given that PR=5cm.\nThis information is shown on the following diagram.\nΠ1\nP\n5 cm 45°\nR 45°\n60°\nray of light\nQ Π2\n2 � 6\n(c) (i) Using an appropriate compound angle identity, show that sin75 ο� .\n4\n� � (ii) Find QR, giving your answer in the form p q � 1cm where p , q∈′ .\b [7]",
+   "ms_text": "1 1\n(a) normals of Π and Π are 2 and − 1 11. (A1)\n1 2\n1 − 2\nattempt to use the scalar product for the angle between two vectors M1\n1 1 1 1\n2 − 1 = 2 − 1cos θ γ\n1 − 2 1 − 2\n−= 3 66 cosθ ( so −= 3 6cosθ ) A1A1\nNote: Award A1 for correct scalar product and A1 for correct magnitudes of normals\nand cosθ.\n1\ncos θ= − A1\n2\n1\nο θ= 120 ο OR cos180 ( − θ ) = A1\n2\nacute angle is 60ο AG\n[6 marks]\n(b) attempt to find vector product of their normal vectors M1\n1 1 −+ 4 1\n2 ×− 1 = 1 + 2\n1 − 2 −− 1 2\n− 3 − 1\n= 3 = 3 1 (A1)\n− 3 − 1\nequation of Π is 3 − x + 3 y − 3 z = d OR x −+ y − z = d or equivalent\n3\nattempt to substitute x = 5, y = − 5, z = 5 into their equation (M1)\nΠ is 3 − x + 3 y − 3 z = − 45 ( so − x + y − z = − 15 ) equation of A1\n3\n[4 marks]\nο ο (c) (i) attempt to use the identity for sin30 ( + 45 ) (M1)\nο ο ο ο ο ο sin30 ( + 45 ) = sin30 ( ) cos45 ( ) + cos30sin45 ( ) ( )\n1 2 3 2\n= + A1A1\n2 2 2 2\n+ 2 6\n= AG\n4\nNote:A1 for each term.AwardA1 A0for correct answers where the denominator has\n1 3\n= + not been rationalized such as .\n22 22\n(ii) let x = QR\nattempt to use the sine rule with the angles 75,45 ο ο (M1)\n5 x\n=\nο ο sin75 sin45\n20 20\nor equivalent A1 x = =\n2 ( 2 + 6 ) 21 ( + 3 )\nattempt to rationalise a denominator of the form ( + ) by multiplying a b\nnumerator and denominator by ( ± a − b ) or equivalent (M1)\n( − ) ( − ) 20 2 6 201 3\nx = =\n2 ( 2 + 6 )( 2 − 6 ) 21 ( + 3 )( 1 − 3 )\n( ) = = x = 5 3 − 1 (cm) ( p 5, q 3 ) A1\n[7 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.2",
+    "3.10",
+    "3.16",
+    "3.17"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 17]\nThe plane $\\Pi_1$ has equation $x+2y+z=0$ and the plane $\\Pi_2$ has equation $x-y-2z=0$.\nThe acute angle between the planes $\\Pi_1$ and $\\Pi_2$ is $\\theta$.\n(a) Show that $\\theta=60^\\circ$. [6]\nA third plane $\\Pi_3$ is perpendicular to both $\\Pi_1$ and $\\Pi_2$.\nThe unique point of intersection of all three planes is the point $R(5,-5,5)$.\n(b) Find the Cartesian equation of $\\Pi_3$. [4]\nEach of the planes $\\Pi_1$ and $\\Pi_2$ contains a mirror.\nA ray of light is directed towards the mirror in $\\Pi_1$. The ray of light forms an angle of $45^\\circ$ with $\\Pi_1$ and meets it at the point P.\nThe ray of light is then reflected towards the mirror in $\\Pi_2$, and meets $\\Pi_2$ at the point Q. The points P and Q are contained in $\\Pi_3$.\nIt is given that PR $=5$ cm.\nThis information is shown on the following diagram.\n[Diagram: two intersecting mirror planes $\\Pi_1$ and $\\Pi_2$ meeting along a line through R; P on $\\Pi_1$ with RP = 5 cm; incoming ray of light meets P at $45^\\circ$ to $\\Pi_1$ and reflects at $45^\\circ$ to Q on $\\Pi_2$; angle PRQ = $60^\\circ$]\n(c) (i) Using an appropriate compound angle identity, show that $\\sin 75^\\circ=\\frac{\\sqrt{2}+\\sqrt{6}}{4}$.\n(ii) Find QR, giving your answer in the form $p(\\sqrt{q}-1)$ cm where $p,q\\in\\mathbb{Z}$. [7]",
+   "review_note": "ms crop fixed via overrides (boundary cut through first-line column vectors)"
+  },
+  {
+   "id": "math-2025-M-P1-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 19]\nConsider the family of functions fn (x)=cosnx , where x∈ϒ and n∈∞ .\n(a) By writing cosnx as cosn-1xcosx , show that\n[4] ∫cosnx dx=cosn−1xsinx+(n −1)∫cosn−2x dx−(n− 1)∫cosnx dx for n>1 .\b\n1 n � 1\n� n � 1 � (b) Hence, show that � f () x d x cos x sin x � f () x d x for n>1 .\b [2]\nn n � 2\nn n\n(c) Hence, find an expression for ∫cos4x dx , giving your answer in\nthe form pcos3xsinx+qcosxsinx+rx+c where p , q , r∈⁄+ .\b [4]\n� �\nThe region R is enclosed by the graph of y=cos2x and the x-axis where � � x � , as\n2 2\nshown in the following diagram.\ny\n1\ny =cos2x\nR\nx\n0 π\n2 2\nThe region R is rotated by 2p radians around the x-axis to form a solid of revolution.\n(d) Find the volume of the solid.\b [4]\n(e) (i) Find the Maclaurin series of fn (x) up to the term in x2 .\n() x � nf 1 in terms of n .\b\n(ii) Hence or otherwise, find lim [5]\nx � 0 2 x\n\b",
+   "ms_text": "() x = cos n − 1 x cos x 12. (a) attempt to use integration by parts on nf M1\nd v\nn − 1 u = cos x , = cos x\nd x\nd u −\n= − ( n − 1)cos n 2 x sin, xv = sin x\nd x\n()d x x = cos n − 1 x sin x + ( n − 1)cos n − 2 x sin 2 xx d ∫ nf ∫ A1A1\nNote: A1 for each term with correct signs\nn − 1 n − 2 2 = cos x sin x + ( n − 1)cos x ( 1cos − x ) d x\nA1 ∫\nn − 1 n − 2 n = cos x sin x + ( n − 1)cos\n∫ xx d − ( n − 1)cos ∫ xx d AG\n[4 marks]\n(b) attempt to rearrange the equation given in part (a) to collect terms in nf ()d x x ∫\nn xx or cos\n∫ d M1\nn − 1\n∫ f ()d x x + ( n − 1) ∫ f ()d xx = cos x sin x + ( n − 1) ∫ f ()d xx OR n n n − 2\nn n n − 1 n − 2 cos xx d + ( n − 1)cos xx d = cos x sin x + ( n − 1)cos xx d\n∫ ∫ ∫\nn − 1 n\n∫ f ()d x x = cos x sin x + ( n − 1) ∫ f ()d xx OR n n − 2\nn = n − 1 + − n − 2 n\n∫ cos xx d cos x sin x ( n 1)cos ∫ xx d A1\n1 n − 1\nf ()d x x = cos n − 1 x sin x + f ()d x x AG ∫ ∫\n− n n 2\nn n\n[2 marks]\n(c) attempt to use equation from part (a) to reduce the power of cos x (M1)\n1 3 4 3 2\n∫ cos xx d = cos x sin x + ∫ cos xx d\n4 4\nEITHER\nattempt to use equation from part (a) again to reduce the power of cos x (M1)\n1 31 1\n4 3 cos xx d = cos x sin x + cossin x x + 1d x\n∫ ∫ (A1)\n4 42 2\nOR\n2 attempt to use double angle formula to rewrite cosx in terms of cos2x (M1)\n1 3 cos2 x + 1\n4 3 cos xx d = cos x sin x + d x\n∫ ∫ (A1)\n4 4 2\nTHEN\n1 3 3\n3 = cos x sin x + cossin x x + x + c\nA1\n4 8 8\n[4 marks]\n2 2\n(d) attempt to use the formula for volume of revolution using π and ( cosx ) (M1)\n2\n( 2 ) volume = ∫ πcos x d x\nπ\nπ\n2\n2 2 2 2\n= ∫ πcos ( x ) d x 2 volume OR 2πcos\n∫ ( x ) d x (A1)\nπ 0\n−\n2\nNote: Condone omissiondxfor theA1.\nattempt to substitute correct limits into their (c) and subtract (M1)\n1 π π 3 π π 3π 1 π π 3 π π 3 π 3 3\nπ cos sin + cos sin + − π cos − sin − + cos − sin − + −\n4 2 2 8 2 2 82 4 2 2 8 2 2 8 2\n3π 2\n= A1\n8\nNote: FT marks may be awarded for a final answer of r π 2 based on non-zero values\nof ,pq and r .\n[4 marks]\n(e) (i) METHOD 1\nattempt to raise Maclaurin expansion for cos x to the power of n (M1)\nn 2\nn x\n( ) f () x = cos x = 1 − + ...\nn\n2\n2 nx\n=− 1 + ... A2\n2\nMETHOD 2\nattempt to differentiate nf () x twice (M1)\nn − 1 n n − 2 2 f '() x = − n cos x sin, x f ''() x = − n cos x + nn ( − 1)cos x sin x\nA1\nn n\nf (0) = 1, f '(0) = 0, f ''(0) = − n\nn n n\n2 nx\nf () x=− 1 + ... A1\nn\n2\n(ii) METHOD 1\nattempt to use Maclaurin expansion for nf () x (M1)\n2 nx\n− + ...\nf ()1 x − 2 n\nn lim = lim = lim − + powers of x\n2 2 x → 0 x x → 0 x x → 0 2\nn\n= − A1\n2\nMETHOD 2\ncos()1 nx −\nattempt to use l’Hôpital’s rule twice on (M1)\n2 x\nn n − 1 n − 2 2 n cos()1 x − − n cos x sin x nn ( − 1)cos x sin x − n cos x\nlim = lim = lim\nx → 0 x 2 x → 0 2 x x → 0 2\nn\n= − A1\n2\nNote: Do not awardFT marks for an expression that does not involve n .\n[5 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.19",
+    "5.17",
+    "5.13",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 19]\nConsider the family of functions $f_n(x)=\\cos^n x$, where $x\\in\\mathbb{R}$ and $n\\in\\mathbb{N}$.\n(a) By writing $\\cos^n x$ as $\\cos^{n-1}x\\cos x$, show that\n$\\int\\cos^n x\\,dx=\\cos^{n-1}x\\sin x+(n-1)\\int\\cos^{n-2}x\\,dx-(n-1)\\int\\cos^n x\\,dx$ for $n>1$. [4]\n(b) Hence, show that $\\int f_n(x)\\,dx=\\frac{1}{n}\\cos^{n-1}x\\sin x+\\frac{n-1}{n}\\int f_{n-2}(x)\\,dx$ for $n>1$. [2]\n(c) Hence, find an expression for $\\int\\cos^4 x\\,dx$, giving your answer in the form $p\\cos^3x\\sin x+q\\cos x\\sin x+rx+c$ where $p,q,r\\in\\mathbb{Q}^+$. [4]\nThe region R is enclosed by the graph of $y=\\cos^2 x$ and the $x$-axis where $-\\frac{\\pi}{2}\\le x\\le\\frac{\\pi}{2}$, as shown in the following diagram.\n[Diagram: graph of $y=\\cos^2 x$ touching the $x$-axis at $x=-\\frac{\\pi}{2}$ and $x=\\frac{\\pi}{2}$ with maximum 1 at $x=0$; shaded region R between the curve and the $x$-axis]\nThe region R is rotated by $2\\pi$ radians around the $x$-axis to form a solid of revolution.\n(d) Find the volume of the solid. [4]\n(e) (i) Find the Maclaurin series of $f_n(x)$ up to the term in $x^2$.\n(ii) Hence or otherwise, find $\\lim_{x\\to 0}\\frac{f_n(x)-1}{x^2}$ in terms of $n$. [5]"
+  }
+ ],
+ "status": "done"
+}

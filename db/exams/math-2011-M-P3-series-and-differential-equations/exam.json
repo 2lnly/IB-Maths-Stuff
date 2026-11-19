@@ -1,0 +1,132 @@
+{
+ "exam_id": "math-2011-M-P3-series-and-differential-equations",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2011,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Series and differential equations",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2011 May Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2011 May Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2211-7208; code M11/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2011-M-P3-series-and-differential-equations-q1",
+   "num": "1",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 10]\nFind the first three terms of the Maclaurin series for ln ( 1+ ex. ) [6 marks] (a)\nx 2 ln ( 1 + e ) − x − ln 4\n(b) Hence, or otherwise, determine the value of lim . [4 marks]\nx → 0 2 x",
+   "ms_text": "1. (a) METHOD 1\nx fx () = ln(1 + e); f (0) = ln 2 A1\nx e 1\n′ ′ f () x = ; f (0) = A1\nx 1 + e 2\n1 1\nNote:Award A0 for f ′ () x ; f ′ (0) =\n=+\n1 ex 2\nx x 2 x e(1 + e) − e 1\nf ′′ () x = ; f ′′ (0) = M1A1\nx 2 (1 + e) 4\n1\n′′ ′ Note:Award M0A0 for f () if () x f x is used\n=+\n1 ex\n1 1\nln(1 + e) x = ln 2 + x + x 2 + ... M1A1\n2 8\n[6 marks]\nMETHOD 2\n1 x 2\nln(1 + e) = ln(11 ++ x + x +… ) M1A1\n2\n1 1\n= ln2 + ln(1 + x + x 2 +… ) A1\n2 4\n2\n1 1 −1 1 1\n= ln2 + x + x 2 +… x + x 2 +… +… A1\n2 4 2 2 4\n1 1 1 2 2\n= ln2 + x + x − x +… A1\n2 4 8\n1 1\n= ln2 + x + x 2 +… A1\n2 8\n[6 marks]\n(b) METHOD 1\n2 x\n2ln 2 + x + + x 3 terms & above − x − ln 4 x\n2ln(1 + e) − x − ln 4 4\nlim = lim M1A1\n2 2 x → 0 x x → 0 x\n1 1\n= lim + powers of x = M1A1\nx → 0 4 4\nNote: Accept + … as evidence of recognition of cubic and higher powers.\nNote: Award M1AOM1A0 for a solution which omits the cubic and higher powers.\n[4 marks]\nMETHOD 2\nusing l’Hôpital’s Rule\n+ x − − x ÷ + x − 2ln(1 e) x ln 4 2e (1 e) 1\nlim = lim M1A1\nx → 0 x 2 x → 0 2 x\nx x 2 2e ÷ (1 + e) 1\n= lim = M1A1\nx→ 0 2 4\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 10]\n(a) Find the first three terms of the Maclaurin series for $\\ln(1+\\mathrm{e}^x)$. [6 marks]\n(b) Hence, or otherwise, determine the value of $\\lim_{x\\to 0}\\frac{2\\ln(1+\\mathrm{e}^x)-x-\\ln 4}{x^2}$. [4 marks]"
+  },
+  {
+   "id": "math-2011-M-P3-series-and-differential-equations-q2",
+   "num": "2",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 8]\ny Consider the differential equation d\n2 2 where y =1 when x = 0 . = x + y\nd x\n(a) Use Euler’s method with step length 0.1 to find an approximate value of y\nwhen x = 0.4 . [7 marks]\n(b) Write down, giving a reason, whether your approximate value for y is greater\nthan or less than the actual value of y . [1 mark]",
+   "ms_text": "d y\n2. (a) use of y → y + (M1)\nhx\nd\nd y y hd\nx y\nd x d x\n0 1 1 0.1 A1\n0.1 1.1 1.22 0.122 A1\n0.2 1.222 1.533284 0.1533284 A1\n0.3 1.3753284 1.981528208 0.1981528208 A1\n0.4 1.573481221 (A1)\napproximate value of y = 1.57 A1\nNote: Accept values in the tables correct to 3 significant figures.\n[7 marks]\n(b) the approximate value is less than the actual value because it is assumed that\nd y\nx remains constant throughout each interval whereas it is actually an\nd\nincreasing function R1\n[1 mark]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 8]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x}=x^2+y^2$ where $y=1$ when $x=0$.\n(a) Use Euler's method with step length 0.1 to find an approximate value of $y$ when $x=0.4$. [7 marks]\n(b) Write down, giving a reason, whether your approximate value for $y$ is greater than or less than the actual value of $y$. [1 mark]"
+  },
+  {
+   "id": "math-2011-M-P3-series-and-differential-equations-q3",
+   "num": "3",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 11]\nSolve the differential equation\nd y 2 2 2\nx y + 3 xy + 2 x\nd=\nx\ngiven that y = −1 when x =1. Give your answer in the form y = fx () .",
+   "ms_text": "y d v so that d\n3. put y = vx = v + x M1\nd x d x\nsubstituting, M1\n2 2 2 2 d v vx + 3 vx + 2 x\nv + x = ( = v 2 + 3 v + 2) (A1)\n2 d x x\nd v 2\nx v + 2 v + 2 A1\nx=\nd\nd v d x\n∫ = ∫ M1\n2 v + 2 v + 2 x\nd v d x\n= (A1) ∫ ∫\n( v + 1) 2 + 1 x\narctan( v + 1) = ln x + c A1\nNote: Condone absence of c at this stage.\ny\narctan( 1) = ln x + c M1\nx+\nWhen x = 1, y = − 1 M1\nc = 0 A1\ny\n1 tanln x\nx+=\ny = x (tanln x –1) A1\n[11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 11]\nSolve the differential equation\n$x^2\\frac{\\mathrm{d}y}{\\mathrm{d}x}=y^2+3xy+2x^2$\ngiven that $y=-1$ when $x=1$. Give your answer in the form $y=f(x)$."
+  },
+  {
+   "id": "math-2011-M-P3-series-and-differential-equations-q4",
+   "num": "4",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 15]\n( n + 1 ) π − x\nThe integral In is defined by I = ∫ e | sin x | d x , for n∈∞. n\nn π\n1 −\n(a) = ( + eπ. ) [6 marks] Show that I0\n21\nn π (b) By letting y = x −π , show that I n = −e I\n0. [4 marks]\nn\n− x (c) Hence determine the exact value of\n∞∫ e | sin x | d x . [5 marks]\n0",
+   "ms_text": "π − x\n4. (a) I = ∫ sind xx M1\n0 0e\nπ − x\nNote: Award M1 for I = ∫ sin xx d\n0 0e\nAttempt at integration by parts, even if inappropriate modulus signs\nare present. M1\nπ π π π − x − x − x − x\n= − e cos x − ∫ e cosd xx or − e sin x + ∫ e cosd xx A1\n0 0 0 0\nπ π π π π − x − x − x − x − x − x\n= − e cos x − e sin x − ∫ e sind xx or − e sin x + e cos x − ∫ e sind xx A1\n0 0 0 0 0\n− π − π − − π = − e x cos x − e x sin x − I or − e x sin x + e x cos x − I M1\n0 0 0 0 0\nNote: Do not penalise absence of limits at this stage\n−π\n0I = e +− 1 I A1 0\n1 (1 −π I = + e ) AG\n0\n2\nNote: If modulus signs are used around cos x , award no accuracy marks but do\nnot penalise modulus signs around sin x .\n[6 marks]\n( n + π\n(b) I = ∫ 1)e − x sin x d x\nn n π\n= π M1 Attempt to use the substitution y x – n\n(putting y = x – n π, d y = d x and [ n π , ( n + 1) π→ ] [0, π) ]\nπ − ( yn +π )\nso nI = sin( y +π n )d y A1 ∫ 0e\nπ −π n − y\n= e ∫ e sin( y +π n )d y A1\n0\n−π n π − y = e e sin yy d A1\n∫\n0\n−π = enI AG\n0\n[4 marks]\n∞ ∞\n− x (c)\n∫ e sin x d x =∑ I M1 n\n0\nn = 0\n∞\n−π =∑ en I (A1)\n0\nn = 0\nthe ∑term is an infinite geometric series with common ratio e−π (M1)\ntherefore\nI ∞ − x\nsin x d x 0 (A1) ∫ 0e =−\n1 e −π\n−π π 1 + e e + 1\n= = A1\n−π π 2(1 − e ) 2(e − 1)\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.L5",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 15]\nThe integral $I_n$ is defined by $I_n=\\int_{n\\pi}^{(n+1)\\pi}\\mathrm{e}^{-x}|\\sin x|\\,\\mathrm{d}x$, for $n\\in\\mathbb{N}$.\n(a) Show that $I_0=\\frac{1}{2}(1+\\mathrm{e}^{-\\pi})$. [6 marks]\n(b) By letting $y=x-n\\pi$, show that $I_n=\\mathrm{e}^{-n\\pi}I_0$. [4 marks]\n(c) Hence determine the exact value of $\\int_0^{\\infty}\\mathrm{e}^{-x}|\\sin x|\\,\\mathrm{d}x$. [5 marks]"
+  },
+  {
+   "id": "math-2011-M-P3-series-and-differential-equations-q5",
+   "num": "5",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 16]\n∞ x n\nThe exponential series is given by ex = ∑ .\nn ! n = 0\n(a) Find the set of values of x for which the series is convergent. [4 marks]\n(b) (i) Show, by comparison with an appropriate geometric series, that\n2 x\nex −< 1 , for 0 < x < 2 .\n2 − x\nn\n2 n + 1 +\n(ii) Hence show that e < , for n∈ ′. [6 marks]\n2 n − 1\n(c) (i) Write down the first three terms of the Maclaurin series for 1− −ex and\nexplain why you are able to state that\n2\nx, for 0 1 − −ex > x − < x < 2 .\n2\nn 2\n2 n\nDeduce that e > , for n∈ + [4 marks] (ii) ′.\n2 2 n − 2 n + 1\n(d) Letting n =1000, use the results in parts (b) and (c) to calculate the value of e\ncorrect to as many decimal places as possible. [2 marks]",
+   "ms_text": "5. (a) using a ratio test,\nn + 1 x T x n !\nn + 1 = × = M1A1\nn T ( n + 1)! x n + 1\nn\nNote: Condone omission of modulus signs.\n→ 0 as n →∞ for all values of x R1\nthe series is therefore convergent for x∈ϒ A1\n[4 marks]\n2 3 x x\nx (b) (i) e −= 1 x + + +… M1\n2 23 ×\n2 3 x x\n< x + + +… x > A1 (for 0)\n2 2 × 2\nx\n= (for x < 2) A1\nx\n1 −\n2\n2 x\n= (for0 < x < 2) AG\n2 − x\n2 x 2 + x x\n(ii) e <+ 1 = A1\n2 − x 2 − x\n1\n2 + x x\ne < A1\n2 − x\n1 replacing x by 1\nn > and\nn (and noting that the result is true for\n2\n+ therefore ′) M1\nn\n2 n + 1\ne AG <\n− 2 n 1\n[6 marks]\n2 3 x x\n(c) (i) 1 − e − x = x − + +… A1\n2 6\nfor 0 < x < 2 , the series is alternating with decreasing terms so that the\nsum is greater than the sum of an even number of terms R1\ntherefore\n2 x\n− − x > − AG 1 e x\n2\nx 2 x\n(ii) e −<− 1 x +\n2\n1\ne x > M1\n2 x\n1 − x +\n2\n1\n2 x\ne A1 >\n− + 2 2 2 x x\n1 replacing x by 1\nn > and\nn (and noting that the result is true for\n2\n+ therefore ′)\n2 n 2 n\ne > AG\n2 2 n − 2 n + 1\n[4 marks]\n(d) from (b) and (c), e < 2.718282 … and e > 2.718281 … A1\nwe conclude thate = 2.71828 correct to 5 decimal places A1\n[2 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L2",
+    "5.19",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 16]\nThe exponential series is given by $\\mathrm{e}^x=\\sum_{n=0}^{\\infty}\\frac{x^n}{n!}$.\n(a) Find the set of values of $x$ for which the series is convergent. [4 marks]\n(b) (i) Show, by comparison with an appropriate geometric series, that $\\mathrm{e}^x-1<\\frac{2x}{2-x}$, for $0<x<2$.\n(ii) Hence show that $\\mathrm{e}<\\left(\\frac{2n+1}{2n-1}\\right)^n$, for $n\\in\\mathbb{Z}^+$. [6 marks]\n(c) (i) Write down the first three terms of the Maclaurin series for $1-\\mathrm{e}^{-x}$ and explain why you are able to state that $1-\\mathrm{e}^{-x}>x-\\frac{x^2}{2}$, for $0<x<2$.\n(ii) Deduce that $\\mathrm{e}>\\left(\\frac{2n^2}{2n^2-2n+1}\\right)^n$, for $n\\in\\mathbb{Z}^+$. [4 marks]\n(d) Letting $n=1000$, use the results in parts (b) and (c) to calculate the value of e correct to as many decimal places as possible. [2 marks]"
+  }
+ ],
+ "status": "done"
+}

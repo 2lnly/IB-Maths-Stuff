@@ -1,0 +1,293 @@
+{
+ "exam_id": "math-2017-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2017,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2017 November Examination Session/Mathematics_paper_2__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2017 November Examination Session/Mathematics_paper_2__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8817-7202; code N17/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches paper total 100",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2017-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nBoxes of mixed fruit are on sale at a local supermarket.\nBox A contains 2 bananas, 3 kiwifruit and 4 melons, and costs $6.58 .\nBox B contains 5 bananas, 2 kiwifruit and 8 melons and costs $12.32 .\nBox C contains 5 bananas and 4 kiwifruit and costs $3.00 .\nFind the cost of each type of fruit.",
+   "ms_text": "1. let b be the cost of one banana, k the cost of one kiwifruit, and m the cost of one melon\nattempt to set up three linear equations (M1)\n2 b + 3 k + 4 m = 658\n+ + = 5 b 2 k 8 m 1232\n5 b + 4 k = 300 (A1)\nattempt to solve three simultaneous equations (M1)\nb= 36 , k= 30 , m= 124\nbanana costs ($)0.36, kiwifruit costs ($)0.30, melon costs ($)1.24 A1\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nBoxes of mixed fruit are on sale at a local supermarket.\nBox A contains 2 bananas, 3 kiwifruit and 4 melons, and costs $\\$6.58$.\nBox B contains 5 bananas, 2 kiwifruit and 8 melons and costs $\\$12.32$.\nBox C contains 5 bananas and 4 kiwifruit and costs $\\$3.00$.\nFind the cost of each type of fruit."
+  },
+  {
+   "id": "math-2017-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nEvents A and B are such that P(A∪B) = 0.95, P(A∩B) = 0.6 and P(A|B) = 0.75 .\n(a) Find P(B) . [2]\n(b) Find P(A) . [2]\n(c) Hence show that events A' and B are independent. [2]",
+   "ms_text": "P( A ∩ B )\n2. (a) P(| AB ) =\nP() B\n0.6\n⇒ 0.75 = (M1)\nP() B\n0.6 B\n⇒ P() = = 0.8 A1\n0.75\n[2 marks]\n(b) P( A ∪ B ) = P( A ) + P( B ) − P( A ∩ B )\n⇒ 0.95 = P() A + 0.8 − 0.6 (M1)\n⇒ P( A ) = 0.75 A1\n[2 marks]\n(c) METHOD 1\nP( A ′∩ B ) 0.2\nP( A ′ | B ) = = = 0.25 A1\nP() B 0.8\nP( A ′ | B ) = P( A ′ ) R1\nhence A′ and B are independent AG\nNote: If there is evidence that the student has calculatedP( A ′∩ B ) = 0.2 by assuming\nindependence in the first place, award A0R0.\nMETHOD 2\nEITHER\nP( A ) = P( AB | ) A1\nOR\nP() A × P( B ) = 0.75 × 0.80 = 0.6 = P( A ∩ B ) A1\nTHEN\nA and B are independent R1\nhence A′ and B are independent AG\nMETHOD 3\nP( A ′× ) P() B = 0.25 × 0.80 = 0.2 A1\n′ × = ′ ∩ P( A ) P() B P( A B ) R1\nhence A′ and B are independent AG\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nEvents $A$ and $B$ are such that $\\mathrm{P}(A \\cup B) = 0.95$, $\\mathrm{P}(A \\cap B) = 0.6$ and $\\mathrm{P}(A \\mid B) = 0.75$.\n(a) Find $\\mathrm{P}(B)$. [2]\n(b) Find $\\mathrm{P}(A)$. [2]\n(c) Hence show that events $A'$ and $B$ are independent. [2]"
+  },
+  {
+   "id": "math-2017-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 4]\nThis diagram shows a metallic pendant made out of four equal sectors of a larger circle of\nradius OB = 9 cm and four equal sectors of a smaller circle of radius OA = 3 cm .\nThe angle BOC = 20û .\nB C\nA ο 20\nO\nFind the area of the pendant.",
+   "ms_text": "3. METHOD 1\narea = (four sector areas radius 9) + (four sector areas radius 3) (M1)\n1 π 1 7π 2 2\n= 4 9 + 4 3 (A1)(A1)\n2 9 2 18\n= 18π + 7π\n( 2 ) = 25π = 78.5cm A1\nMETHOD 2\narea =\n(area of circle radius 3) + (four sector areas radius 9) – (four sector areas radius 3) (M1)\n1 π 1 π 2 2 2\nπ3 + 4 9 − 4 3 (A1)(A1)\n2 9 2 9\nNote: Award A1 for the second term and A1 for the third term.\n= 9π + 18π − 2π\n= 25π ( = 78.5cm 2 ) A1\nNote: Accept working in degrees.\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 4]\nThis diagram shows a metallic pendant made out of four equal sectors of a larger circle of radius $\\mathrm{OB} = 9\\text{ cm}$ and four equal sectors of a smaller circle of radius $\\mathrm{OA} = 3\\text{ cm}$.\nThe angle $\\mathrm{BOC} = 20^\\circ$.\n[Diagram: cross-shaped pendant centred at O: four thin sectors of radius 9 cm (one is BOC with angle 20°) and between them four sectors of the small circle of radius 3 cm through A]\nFind the area of the pendant."
+  },
+  {
+   "id": "math-2017-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nIt is given that one in five cups of coffee contain more than 120 mg of caffeine.\nIt is also known that three in five cups contain more than 110 mg of caffeine.\nAssume that the caffeine content of coffee is modelled by a normal distribution.\nFind the mean and standard deviation of the caffeine content of coffee.",
+   "ms_text": "4. let X be the random variable “amount of caffeine content in coffee”\nP( X> 120) = 0.2 , P( X> 110) = 0.6 (M1)\n( ⇒ P( X < 120) = 0.8 , P( X< 110) = 0.4 )\nNote: Award M1 for at least one correct probability statement.\n− μ − μ 120\n= , 110 =− 0.84162... 0.253347... (M1)(A1)(A1)\nσ σ\nNote: Award M1 for attempt to find at least one appropriate z-value.\n120 − μ = 0.84162 σ , 110 − μ =− 0.253347 σ\nattempt to solve simultaneous equations (M1)\nμ= 112 , σ= 9.13 A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nIt is given that one in five cups of coffee contain more than $120\\text{ mg}$ of caffeine.\nIt is also known that three in five cups contain more than $110\\text{ mg}$ of caffeine.\nAssume that the caffeine content of coffee is modelled by a normal distribution.\nFind the mean and standard deviation of the caffeine content of coffee."
+  },
+  {
+   "id": "math-2017-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nBarry is at the top of a cliff, standing 80 m above sea level, and observes two yachts in the\nsea.\n“Seaview” (S ) is at an angle of depression of 25û .\n“Nauti Buoy” (N ) is at an angle of depression of 35û .\nThe following three dimensional diagram shows Barry and the two yachts at S and N .\nX lies at the foot of the cliff and angle SXN = 70û .\nB\nX\nS\nN\nFind, to 3 significant figures, the distance between the two yachts.",
+   "ms_text": "5. attempt to use tan, or sine rule, in triangle BXN or BXS (M1)\n80 ο\nNX = 80 tan 55 = = 114.25 (A1)\nο tan35\n80 ο\nSX = 80 tan 65 = = 171.56 (A1)\nο tan 25\nAttempt to use cosine rule M1\n2 2 2 ο SN = 171.56 + 114.25 − 2 × 171.56 × 114.25 cos 70 (A1)\nSN = 171m ( ) A1\nNote: Award final A1 only if the correct answer has been given to 3 significant figures.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.3",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nBarry is at the top of a cliff, standing $80\\text{ m}$ above sea level, and observes two yachts in the sea.\n\"Seaview\" $(S)$ is at an angle of depression of $25^\\circ$.\n\"Nauti Buoy\" $(N)$ is at an angle of depression of $35^\\circ$.\nThe following three dimensional diagram shows Barry and the two yachts at S and N.\nX lies at the foot of the cliff and angle $\\mathrm{SXN} = 70^\\circ$.\n[Diagram: vertical cliff BX with B at top; S and N on sea level joined to X and to B]\nFind, to 3 significant figures, the distance between the two yachts."
+  },
+  {
+   "id": "math-2017-N-P2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nThe number of bananas that Lucca eats during any particular day follows a Poisson\ndistribution with mean 0.2 .\n(a) Find the probability that Lucca eats at least one banana in a particular day. [2]\n(b) Find the expected number of weeks in the year in which Lucca eats no bananas. [4]",
+   "ms_text": "6. (a) let X be the number of bananas eaten in one day\nX: Po(0.2)\nP( X ≥ 1) = 1 − P( X = 0) (M1)\n= ( =− 1e− 0.2 ) 0.181 A1\n[2 marks]\n(b) EITHER\nlet Ybe the number of bananas eaten in one week\nY: Po(1.4) (A1)\n= = ( = − 1.4 ) P( Y 0) 0.246596 Κ e (A1)\nOR\nlet Zbe the number of days in one week at least one banana is eaten\nZ: B(7, 0.181...) (A1)\nZ= = P( 0) 0.246596 Κ (A1)\nTHEN\n52 × 0.246596 Κ (M1)\n1.4 = 12.8 ( = 52e− ) A1\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nThe number of bananas that Lucca eats during any particular day follows a Poisson distribution with mean $0.2$.\n(a) Find the probability that Lucca eats at least one banana in a particular day. [2]\n(b) Find the expected number of weeks in the year in which Lucca eats no bananas. [4]",
+   "review_note": "audit: expected number of weeks = 52 x P (4.5), as 2015-M-P2-TZ2-q4"
+  },
+  {
+   "id": "math-2017-N-P2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 5]\nIn the quadratic equation 7x2- 8x +p = 0, ( p ∈⁄) ,one root is three times the other root.\nFind the value of p .",
+   "ms_text": "7. METHOD 1\nlet roots be α and 3α (M1)\n8\nsum of roots (4) α= M1\n7\n2\n⇒ α = A1\n7\nEITHER\np\nproduct of roots ( 3 α 2 ) = M1\n7\n4\np = 21 α 2 = 21 ×\n49\nOR\n2\n2 2\n7 − 8 + p = 0 M1\n7 7\n4 16\n− + = p 0\n7 7\nTHEN\n12\n⇒ p = ( = 1.71 ) A1\n7\nMETHOD 2\n8 ± 64 − 28 p\nx = (M1)\n14\n8 + 64 − 28 p 8 − 64 − 28 p\n= 3 M1A1\n14 14\n8 + 64 − 28 p = 24 − 364 − 28 p ⇒ 64 − 28 p = 4 (M1)\n12\np = ( = 1.71 ) A1\n7\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 5]\nIn the quadratic equation $7x^2 - 8x + p = 0$, $(p \\in \\mathbb{Q})$, one root is three times the other root.\nFind the value of $p$."
+  },
+  {
+   "id": "math-2017-N-P2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nd x 1 2\nBy using the substitution x2= 2 sec θ , show that = c ∫ arc cos .\n2 +\nxx 4 − 4 4 x",
+   "ms_text": "8. EITHER\n2 x = 2 sec θ\nd x\n2 x 2sectan θ θ M1A1\nθ=\nd\nd x\n∫\nxx− 4 4\nsec θ tand θθ\n= ∫ M1A1\n2 2sec θ 4sec θ − 4\nOR\n1 1 −\n( ) ( ) x = 2sec θ 2 = 2cos θ 2\n1 3 d x 2 2 −\n= ( sec θ ) 2 tan θ = ( cos θ ) 2 sin θ M1A1\nd θ 2 2\nd x\n∫\n4 xx− 4\n1 3 −\n2sec ( θ ) 2 tand θθ 2cos ( θ ) 2 sind θθ\n= = M1A1 ∫ ∫\n1 1\n2 − 2 22sec ( θ ) 2 4sec θ − 4 22cos ( θ ) 2 4sec θ − 4\nTHEN\n1 tand θθ\n=∫ (M1)\n2 2tan θ\n1d\n=∫ θ\n4\nθ\n= + c A1\n4\n2\n2 x = 2sec θ ⇒ cos θ =\nM1\n2 x\nNote: This M1 may be seen anywhere, including a sketch of an appropriate triangle.\nθ 1 2\nso + c = arccos + c AG\n2 4 4 x\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "3.6",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nBy using the substitution $x^2 = 2\\sec\\theta$, show that $\\int \\frac{\\mathrm{d}x}{x\\sqrt{x^4 - 4}} = \\frac{1}{4}\\arccos\\left(\\frac{2}{x^2}\\right) + c$."
+  },
+  {
+   "id": "math-2017-N-P2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 6]\nTwelve students are to take an exam in advanced combinatorics.\nThe exam room is set out in three rows of four desks, with the invigilator at the front of the\nroom, as shown in the following diagram.\nINVIGILATOR\nDesk 1 Desk 2 Desk 3 Desk 4\nDesk 5 Desk 6 Desk 7 Desk 8\nDesk 9 Desk 10 Desk 11 Desk 12\n(a) Find the number of ways the twelve students may be arranged in the exam hall. [1]\nTwo of the students, Helen and Nicky, are suspected of cheating in a previous exam.\n(b) Find the number of ways the students may be arranged if Helen and Nicky must sit so\nthat one is directly behind the other (with no desk in between). For example Desk 5\nand Desk 9. [2]\n(c) Find the number of ways the students may be arranged if Helen and Nicky must not sit\nnext to each other in the same row. [3]",
+   "ms_text": "( = ) 9. (a) 12! 479001600 A1\n[1 mark]\n(b) METHOD 1\n8 × 2 = 16 ways of sitting Helen and Nicky, 10! ways of sitting everyone else (A1)\n16 × 10!\n= 58060800 A1\nMETHOD 2\n( ) 8 ×× 110! = 29030400 ways if Helen sits in the front or back row\n4 ×× 210! ( = 29030400 ) ways if Helen sits in the middle row (A1)\nNote: Award A1 for one correct value.\n229030400 ×\n= 58060800 A1\n[2 marks]\n(c) METHOD 1\n9 × 2 × 10! ( = 65318400 ) ways if Helen and Nicky sit next to each other (A1)\nattempt to subtract from total number of ways (M1)\n12! − 9 × 2 × 10!\n= 413683200 A1\nMETHOD 2\n× × ( = ) 6 1010! 217728000 ways if Helen sits in column 1 or 4 (A1)\n6 ×× 910! ( = 195955200 ) ways if Helen sits in column 2 or 3 (A1)\n217728000195955200 +\n= 413683200 A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 6]\nTwelve students are to take an exam in advanced combinatorics.\nThe exam room is set out in three rows of four desks, with the invigilator at the front of the room, as shown in the following diagram.\nINVIGILATOR\nDesk 1 | Desk 2 | Desk 3 | Desk 4\nDesk 5 | Desk 6 | Desk 7 | Desk 8\nDesk 9 | Desk 10 | Desk 11 | Desk 12\n(a) Find the number of ways the twelve students may be arranged in the exam hall. [1]\nTwo of the students, Helen and Nicky, are suspected of cheating in a previous exam.\n(b) Find the number of ways the students may be arranged if Helen and Nicky must sit so that one is directly behind the other (with no desk in between). For example Desk 5 and Desk 9. [2]\n(c) Find the number of ways the students may be arranged if Helen and Nicky must not sit next to each other in the same row. [3]"
+  },
+  {
+   "id": "math-2017-N-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 17]\nx\nConsider the function fx () = , 0 <x < π .\nsin x\n(a) (i) Show that the x-coordinate of the minimum point on the curve y =f (x) satisfies\nthe equation tan x = 2x .\n(ii) Determine the values of x for which f (x) is a decreasing function. [7]\n(b) Sketch the graph of y =f (x) showing clearly the minimum point and any asymptotic\nbehaviour. [3]\n(c) Find the coordinates of the point on the graph of f where the normal to the graph is\nparallel to the line y =-x . [4]\n� �\nConsider the region bounded by the curve y =f (x) , the x-axis and the lines x = , x = .\n6 3\n(d) This region is now rotated through 2π radians about the x-axis. Find the volume of\nrevolution. [3]",
+   "ms_text": "10. (a) (i) attempt to use quotient rule or product rule M1\n1\n1 −\n2 − sin x x x cos x\n2 1 x cos x\nf ′ () x = = − A1A1\n2 2 sin x\n2 x sin x sin x\n1 x cos x\nNote: Award A1 for or equivalent andA1 for − or\n2\n2 x sin x sin x\nequivalent.\nsetting f ′ () x = 0 M1\nsin x\n− x cos x = 0\n2 x\nsin x\n= x cos x or equivalent A1\n2 x\ntan x = 2 x AG\n(ii) x= 1.17\n0 < x ≤ 1.17 A1A1\nNote: Award A1 for 0<xandA1 for x≤1.17. Acceptx<1.17.\n[7 marks]\n(b)\nconcave up curve over correct domain with one minimum point above the x-axis.A1\napproaches x= 0 asymptotically A1\napproaches x= π asymptotically A1\nNote: For the final A1 an asymptote must be seen, and πmust be seen on the x-\naxis or in an equation.\n[3 marks]\n1\n1 − −\nsin x x 2 x cos x\n2\n(c) f ′ () x = = 1 (A1)\n2 sin x\nattempt to solve for x (M1)\nx= 1.96 A1\ny = f ( 1.96... )\n= 1.51 A1\n[4 marks]\nπ\nxx d\n3 (d) V =∫ π (M1)(A1)\nπ 2\nsin x\n6\nNote:M1is for an integral of the correct squared function (with or without limits and/or π).\n( ) = 2.68 = 0.852π A1\n[3 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.8",
+    "5.2",
+    "5.4",
+    "2.3",
+    "5.17"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 17]\nConsider the function $f(x) = \\frac{\\sqrt{x}}{\\sin x}$, $0 < x < \\pi$.\n(a) (i) Show that the $x$-coordinate of the minimum point on the curve $y = f(x)$ satisfies the equation $\\tan x = 2x$.\n(ii) Determine the values of $x$ for which $f(x)$ is a decreasing function. [7]\n(b) Sketch the graph of $y = f(x)$ showing clearly the minimum point and any asymptotic behaviour. [3]\n(c) Find the coordinates of the point on the graph of $f$ where the normal to the graph is parallel to the line $y = -x$. [4]\nConsider the region bounded by the curve $y = f(x)$, the $x$-axis and the lines $x = \\frac{\\pi}{6}$, $x = \\frac{\\pi}{3}$.\n(d) This region is now rotated through $2\\pi$ radians about the $x$-axis. Find the volume of revolution. [3]"
+  },
+  {
+   "id": "math-2017-N-P2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 18]\n= 2 + + − ≤ < �. Consider the function fx () 2 sin x 7 sin 2 x tan x 90 , x\n2\n(a) (i) Determine an expression for f '(x) in terms of x .\n�.\n(ii) Sketch a graph of y =f '(x) for 0 ≤ x <\n2\n(iii) Find the x-coordinate(s) of the point(s) of inflexion of the graph of y = f (x) ,\nlabelling these clearly on the graph of y =f '(x) . [8]\nLet u = tan x . (b)\n(i) Express sin x in terms of u .\nExpress sin 2x in terms of u . (ii)\n(iii) Hence show that f (x) = 0 can be expressed as u3- 7u2+ 15u - 9 = 0 . [7]\n(c) Solve the equation f (x) = 0 , giving your answers in the form arctan k where k ∈′ . [3]",
+   "ms_text": "′ () = + + 2 11. (a) (i) f x 4sincos x x 14cos2 x sec x (or equivalent) (M1)A1\n(ii)\nA1A1A1A1\nNote: Award A1 for correct behaviour at x = 0 , A1for correct domain and\nπ\ncorrect behaviour for x → , A1 for two clear intersections with x-axis\n2\nand minimum point, A1 for clear maximum point.\n(iii) x= 0.0736 A1\nx= 1.13 A1\n[8 marks]\n(b) (i) attempt to write sin x in terms of uonly (M1)\nu\nsin x = A1\n2 1 + u\n1\n(ii) cos x = (A1)\n2 1 + u\nu 1\nattempt to use sin 2 x = 2sincos x x = 2 (M1)\n2 2 1 + u 1 + u\n2 u\n= sin 2 x A1\n2 1 + u\n2 + + − = (iii) 2sin x 7sin 2 x tan x 9 0\n2 2 u 14 u\n+ + u − 9 ( = 0 ) M1\n1 + u 2 1 + u 2\n2 2 2 2 u + 14 u + u ( 1 + u ) − 91 ( + u )\n= 0 (or equivalent) A1\n2 1 + u\n3 2 u − 7 u + 15 u − 9 = 0 AG\n[7 marks]\n(c) u=or 1 u= 3 (M1)\nx= arctan(1) A1\nx= arctan(3) A1\nNote: Only accept answers given the required form.\n[3 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "3.6",
+    "5.7",
+    "5.15",
+    "2.3",
+    "2.12",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 18]\nConsider the function $f(x) = 2\\sin^2 x + 7\\sin 2x + \\tan x - 9$, $0 \\le x < \\frac{\\pi}{2}$.\n(a) (i) Determine an expression for $f'(x)$ in terms of $x$.\n(ii) Sketch a graph of $y = f'(x)$ for $0 \\le x < \\frac{\\pi}{2}$.\n(iii) Find the $x$-coordinate(s) of the point(s) of inflexion of the graph of $y = f(x)$, labelling these clearly on the graph of $y = f'(x)$. [8]\n(b) Let $u = \\tan x$.\n(i) Express $\\sin x$ in terms of $u$.\n(ii) Express $\\sin 2x$ in terms of $u$.\n(iii) Hence show that $f(x) = 0$ can be expressed as $u^3 - 7u^2 + 15u - 9 = 0$. [7]\n(c) Solve the equation $f(x) = 0$, giving your answers in the form $\\arctan k$ where $k \\in \\mathbb{Z}$. [3]"
+  },
+  {
+   "id": "math-2017-N-P2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 15]\nPhil takes out a bank loan of $150 000 to buy a house, at an annual interest rate of 3.5 % .\nThe interest is calculated at the end of each year and added to the amount outstanding.\n(a) Find the amount Phil would owe the bank after 20 years. Give your answer to the\nnearest dollar. [3]\nTo pay off the loan, Phil makes annual deposits of $P at the end of every year in a savings\naccount, paying an annual interest rate of 2 % . He makes his first deposit at the end of the\nfirst year after taking out the loan.\n( 20 ) 1 02 . − 1 P\n(b) Show that the total value of Phil’s savings after 20 years is . [3]\n( − ) 1 02 . 1\n(c) Given that Phil’s aim is to own the house after 20 years, find the value for P to the\nnearest dollar. [3]\nDavid visits a different bank and makes a single deposit of $Q , the annual interest rate being\n2.8 % .\nDavid wishes to withdraw $5000 at the end of each year for a period of n years. (d) (i)\nShow that an expression for the minimum value of Q is\n5000 5000 5000\n+ + … + n.\n2 1 028 . 1 028 . 1 028 .\n(ii) Hence or otherwise, find the minimum value of Q that would permit David to\nwithdraw annual amounts of $5000 indefinitely. Give your answer to the nearest\ndollar. [6]",
+   "ms_text": "× 20 12. (a) 150000 1.035 (M1)(A1)\n= $298468 A1\nNote: Only accept answers to the nearest dollar. Accept $298469.\n[3 marks]\n(b) attempt to look for a pattern by considering 1 year, 2 years etc (M1)\nrecognising a geometric series with first term Pand common ratio 1.02 (M1)\nEITHER\n+ +…+ 19 ( = ( + +…+ 19 ) ) P 1.02 P 1.02 P P 1 1.02 1.02 A1\nOR\nexplicitly identify 1u = P , r = 1.02 and n= 20 (may be seen as S). A1\n20\nTHEN\n( 20 ) 1.02 − 1 P\nS = AG\n20 ( )\n1.02 − 1\n[3 marks]\n24.297 Κ P= 298468 (c) (M1)(A1)\nP= 12284 A1\nNote: Accept answers which round to 12284.\n[3 marks]\n(d) (i) METHOD 1\n( n ) ( 2 3 n − 1 ) Q 1.028 = 50001 + 1.028 + 1.028 + 1.028 +…+ 1.028 M1A1\n2 3 n − 1 50001 ( + 1.028 + 1.028 + 1.028 +…+ 1.028 )\nQ = A1\n1.028 n\n5000 5000 5000\n= + +…+ AG\n2 1.028 1.028 1.028n\nMETHOD 2\nthe initial value of the first withdrawal is 5000 A1\n1.028\n5000\nthe initial value of the second withdrawal is R1\n2 1.028\n5000 5000\nthe investment required for these two withdrawals is + R1\n2 1.028 1.028\n5000 5000 5000\nQ = + +…+ AG\n2 1.028 1.028 1.028n\n5000\n1.028\n(ii) sum to infinity is (M1)(A1)\n1\n1 −\n1.028\n= … 178571.428\nso minimum amount is $178572 A1\nNote: Accept answers which round to $178571 or $178572.\n[6 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.4",
+    "1.3",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 15]\nPhil takes out a bank loan of $\\$150\\,000$ to buy a house, at an annual interest rate of $3.5\\%$. The interest is calculated at the end of each year and added to the amount outstanding.\n(a) Find the amount Phil would owe the bank after 20 years. Give your answer to the nearest dollar. [3]\nTo pay off the loan, Phil makes annual deposits of $\\$P$ at the end of every year in a savings account, paying an annual interest rate of $2\\%$. He makes his first deposit at the end of the first year after taking out the loan.\n(b) Show that the total value of Phil's savings after 20 years is $\\frac{(1.02^{20} - 1)P}{(1.02 - 1)}$. [3]\n(c) Given that Phil's aim is to own the house after 20 years, find the value for $P$ to the nearest dollar. [3]\nDavid visits a different bank and makes a single deposit of $\\$Q$, the annual interest rate being $2.8\\%$.\n(d) (i) David wishes to withdraw $\\$5000$ at the end of each year for a period of $n$ years. Show that an expression for the minimum value of $Q$ is $\\frac{5000}{1.028} + \\frac{5000}{1.028^2} + \\ldots + \\frac{5000}{1.028^n}$.\n(ii) Hence or otherwise, find the minimum value of $Q$ that would permit David to withdraw annual amounts of $\\$5000$ indefinitely. Give your answer to the nearest dollar. [6]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,130 @@
+{
+ "exam_id": "math-2010-M-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2010,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2010 May Examination Session/Mathematics_paper_3_Discrete_mathematics_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2010 May Examination Session/Mathematics_paper_3_Discrete_mathematics_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2210-7207; code M10/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2010-M-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 14]\n(a) (i) One version of Fermat’s little theorem states that, under certain conditions,\n1 a p−≡ 1(mod ) . p\nShow that this result is not valid when a = 4 , p = 9 and state which\ncondition is not satisfied.\n(ii) Given that 5 64≡n(mod), where 0 7 ≤ n ≤ 6 , find the value of n . [8 marks]\n(b) Find the general solution to the simultaneous congruences\nx ≡ 3 (mod) 4\n3 x ≡ 2 (mod) . 5 [6 marks]",
+   "ms_text": "1. (a) (i) 84 = 65536 ≡ 7(mod9) A1\nnot valid because 9 is not a prime number R1\nNote: The R1 is independent of the A1.\n(ii) using Fermat’s little theorem M1\n65 1(mod7) A1 ≡\ntherefore\n610 60 (5) = 5 ≡ 1(mod7) A1\nalso, 45 = 625 M1\n≡ 2(mod7) A1\ntherefore\n64 5 ≡× 12 ≡ 2(mod7) (so n = 2 ) A1\nNote: Accept alternative solutions not using Fermat.\n[8 marks]\n(b) EITHER\nsolutions to x ≡ 3(mod4) are\n3, 7, 11, 15, 19, 23, 27, … A1\nsolutions to 3 x ≡ 2(mod5) are\n4, 9, 14, 19 … (M1)A1\nso a solution is A1 x = 19\nusing the Chinese remainder theorem (or otherwise) (M1)\nthe general solution is x = 19 + 20( nn ∈′ ) A1\n( accept 19(mod20) )\nOR\nx = 3 + 4 t ⇒ 9 + 12 t ≡ 2(mod5) M1A1\n⇒ 2 t ≡ 3(mod5) A1\n⇒ 6 t ≡ 9(mod5)\n⇒≡ t 4(mod5) A1\nso t = 4 + 5and n x = 19 + 20( nn ∈′ ) M1A1\n( accept 19(mod20) )\nNote: Also accept solutions done by formula.\n[6 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.5",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 14]\n(a) (i) One version of Fermat's little theorem states that, under certain conditions,\n$a^{p-1} \\equiv 1 \\pmod{p}$.\nShow that this result is not valid when $a = 4$, $p = 9$ and state which condition is not satisfied.\n(ii) Given that $5^{64} \\equiv n \\pmod{7}$, where $0 \\le n \\le 6$, find the value of $n$. [8 marks]\n(b) Find the general solution to the simultaneous congruences\n$x \\equiv 3 \\pmod{4}$\n$3x \\equiv 2 \\pmod{5}$. [6 marks]"
+  },
+  {
+   "id": "math-2010-M-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 9]\nA graph G with vertices A, B, C, D, E has the following cost adjacency matrix.\nA B C D E\nA – 12 10 17 19\nB 12 – 13 20 11\nC 10 13 – 16 14\nD 17 20 16 – 15\nE 19 11 14 15 –\nUse Kruskal’s algorithm to find and draw the minimum spanning tree for G . (a) (i)\n(ii) The graph H is formed from G by removing the vertex D and all the\nedges connected to D. Draw the minimum spanning tree for H and use it\nto find a lower bound for the travelling salesman problem for G . [7 marks]\n(b) Show that 80 is an upper bound for this travelling salesman problem. [2 marks]",
+   "ms_text": "2. (a) (i) the edges are joined in the order\nAC\nBE\nAB\nED A2\nA1\nNote: Final A1 independent of the previous A2.\n(ii)\nA1\nthe weight of this spanning tree is 33 A1\nto find a lower bound for the travelling salesman problem, we add to that\nthe two smallest weights of edges to D, i.e. 15 + 16 , giving 64 M1A1\n[7 marks]\n(b) an upper bound is the weight of any Hamiltonian cycle, e.g. ABCDEA has\nweight 75 so 80 is certainly an upper bound M1A1\n[2 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8",
+    "6.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 9]\nA graph $G$ with vertices A, B, C, D, E has the following cost adjacency matrix.\n| A | B | C | D | E\nA | – | 12 | 10 | 17 | 19\nB | 12 | – | 13 | 20 | 11\nC | 10 | 13 | – | 16 | 14\nD | 17 | 20 | 16 | – | 15\nE | 19 | 11 | 14 | 15 | –\n(a) (i) Use Kruskal's algorithm to find and draw the minimum spanning tree for $G$.\n(ii) The graph $H$ is formed from $G$ by removing the vertex D and all the edges connected to D. Draw the minimum spanning tree for $H$ and use it to find a lower bound for the travelling salesman problem for $G$. [7 marks]\n(b) Show that 80 is an upper bound for this travelling salesman problem. [2 marks]"
+  },
+  {
+   "id": "math-2010-M-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 12]\nThe positive integer N is expressed in base 9 as ( aa ... a 09. )\nn n−1\n(a) Show that N is divisible by 3 if the least significant digit, a0 , is divisible by 3. [3 marks]\n(b) Show that N is divisible by 2 if the sum of its digits is even. [3 marks]\n(c) Without using a conversion to base 10, determine whether or not (46486583) 0\n9\nis divisible by 12. [6 marks]",
+   "ms_text": "3. (a) let N = aa ... a a = a × 9 n + a × 9 n − 1 + ... + a × 9 + a M1A1\nn n − 1 1 0 n n − 1 1 0\nall terms except the last are divisible by 3 and so therefore is their sum R1\nit follows that N is divisible by 3 if AG 0a is divisible by 3\n[3 marks]\n(b) EITHER\nconsider N in the form\nn\nn n − 1 N = a × (9 − 1) + a × (9 − 1) + ... + a (9 − 1) +∑ a M1A1\nn n − 1 1 i\ni = 0\nall terms except the last are even so therefore is their sum R1\nn\nit follows that N is even if =∑ a is even AG\ni\ni 0\nOR\nworking modulo 2,9 k≡ 1(mod2) M1A1\nn\nn n − 1 hence N = aa ... a a = a × 9 + a × 9 + ... + a × 9 + a ≡∑ a (mod2) R1\nn n − 1 1 0 n n − 1 1 0 i\ni = 0\nn\nit follows that N is even if a is even AG =∑\ni\ni 0\n[3 marks]\n(c) the number is divisible by 3 because the least significant digit is 3 R1\nit is divisible by 2 because the sum of the digits is 44 which is even R1\ndividing the number by 2 gives (232430286) M1A1\n9\nwhich is even because the sum of the digits is 30 which is even R1\nNis therefore divisible by a further 2 and is therefore divisible by 12 R1\nNote: Accept alternative valid solutions.\n[6 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.2",
+    "6.1",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 12]\nThe positive integer $N$ is expressed in base 9 as $(a_n a_{n-1} \\ldots a_0)_9$.\n(a) Show that $N$ is divisible by 3 if the least significant digit, $a_0$, is divisible by 3. [3 marks]\n(b) Show that $N$ is divisible by 2 if the sum of its digits is even. [3 marks]\n(c) Without using a conversion to base 10, determine whether or not $(464860583)_9$ is divisible by 12. [6 marks]"
+  },
+  {
+   "id": "math-2010-M-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 18,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 18]\n(a) Show that, for a connected planar graph,\nv + f − e = 2 . [7 marks]\n(b) Assuming that v ≥3, explain why, for a simple connected planar graph, 3 f ≤ 2 e\nand hence deduce that e ≤ 3 v − 6 . [4 marks]\n(c) The graph G and its complement G are simple connected graphs, each having ′\n12 vertices. Show that G and G cannot both be planar. ′ [7 marks]",
+   "ms_text": "4. (a) start with a graph consisting of just a single vertex M1\nfor this graph, v = 1, f = and 1 e = 0 , the relation is satisfied A1\nNote: Allow solutions that begin with 2 vertices and 1 edge.\nto extend the graph you either join an existing vertex to another existing vertex\nwhich increases e by 1 and f by 1 so that v + f – e remains equal to 2 M1A1\nor add a new vertex and a corresponding edge which increases e by 1 and v by 1\nso that v + f – e remains equal to 2 M1A1\ntherefore, however we build up the graph, the relation remains valid R1\n[7 marks]\n(b) since every face is bounded by at least 3 edges, the result follows by counting\nup the edges around each face R1\nthe factor 2 follows from the fact that every edge bounds (at most) 2 faces R1\nhence3 f ≤ 2 e AG\nfrom the Euler relation, 3 f = 6 + 3– 3 e v M1\nsubstitute in the inequality, 6 + 3 e − 3 v ≤ 2 e A1\nhence e ≤ 3 v − 6 AG\n[4 marks]\n(c) let G have e edges M1\nsince G and G′ have a total of 12 =\n66 edges A1\n2\nit follows that G′ has 66 – e edges A1\nfor planarity we require\ne ≤× 312 – 6 = 30 M1A1\n⇒ and 66 – e ≤ 30 e ≥ 36 A1\nthese two inequalities cannot both be met indicating that both graphs cannot\nbe planar R1\n[7 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.6",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 18]\n(a) Show that, for a connected planar graph,\n$v + f - e = 2$. [7 marks]\n(b) Assuming that $v \\ge 3$, explain why, for a simple connected planar graph, $3f \\le 2e$ and hence deduce that $e \\le 3v - 6$. [4 marks]\n(c) The graph $G$ and its complement $G'$ are simple connected graphs, each having 12 vertices. Show that $G$ and $G'$ cannot both be planar. [7 marks]"
+  },
+  {
+   "id": "math-2010-M-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\nGiven that abcd , , , ∈′, show that\n( a − ba )( − ca )( − db )( − cb )( − dc )( − d ) ≡0 (mod) 3.",
+   "ms_text": "5. EITHER\nwe work modulo 3 throughout\nthe values of , abcd can only be 0, 1, 2 , , R2\nsince there are 4 variables but only 3 possible values, at least 2 of the variables must\nbe equal (mod3) R2\ntherefore at least 1 of the differences must be 0(mod3) R2\nthe product is therefore 0(mod3) R1AG\nOR\nwe attempt to find values for the differences which do not give 0(mod3) for the product\nwe work modulo 3 throughout\nwe note first that none of the differences can be zero R1\na − b can therefore only be 1 or 2 R1\nsuppose it is 1, then b − can only be 1 c\nsince if it is 2, ( a − b ) + ( b − c ) ≡ 3 ≡ 0(mod3) R1\nc − d cannot now be 1 because if it is\n( a − b ) + ( b − c ) + ( c − d ) = a − d ≡ 3 ≡ 0(mod3) R1\nc − d cannot now be 2 because if it is\n( b − c ) + ( c − d ) = b − d ≡ 3 ≡ 0(mod3) R1\nwe cannot therefore find values of c and d to give the required result R1\na similar argument holds if we suppose a − b is 2, in which case b − c must be 2 and\nR1 we cannot find a value of c − d\nthe product is therefore 0(mod3) AG\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.12",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nGiven that $a, b, c, d \\in \\mathbb{Z}$, show that\n$(a-b)(a-c)(a-d)(b-c)(b-d)(c-d) \\equiv 0 \\pmod{3}$."
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,118 @@
+{
+ "exam_id": "math-1999-M-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.16",
+    "3.17",
+    "3.18",
+    "3.14"
+   ],
+   "note": "MS crop omits final boxed note 'Accept 0.836 (3 s.f.)' at page bottom (segmenter footer trim); marking content complete. | fixed by segmenter update: the line noted above as missing is now in the crop",
+   "text_clean": "1. [Maximum mark: 22]\nThe coordinates of the points P, Q, R and S are $(4, 1, -1)$, $(3, 3, 5)$, $(1, 0, 2c)$, and $(1, 1, 2)$, respectively.\n(a) Find the value of $c$ so that the vectors $\\overrightarrow{QR}$ and $\\overrightarrow{PR}$ are orthogonal. [7 marks]\nFor the remainder of the question, use the value of $c$ found in part (a) for the coordinate of the point R.\n(b) Evaluate $\\overrightarrow{PS} \\times \\overrightarrow{PR}$. [4 marks]\n(c) Find an equation of the line $l$ which passes through the point Q and is parallel to the vector $\\overrightarrow{PR}$. [3 marks]\n(d) Find an equation of the plane $\\pi$ which contains the line $l$ and passes through the point S. [4 marks]\n(e) Find the shortest distance between the point P and the plane $\\pi$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2",
+    "1.15",
+    "1.14"
+   ],
+   "text_clean": "2. [Maximum mark: 20]\n(i) The ratio of the fifth term to the twelfth term of a sequence in an arithmetic progression is $\\frac{6}{13}$. If each term of this sequence is positive, and the product of the first term and the third term is 32, find the sum of the first 100 terms of this sequence. [7 marks]\n(ii) Let $x$ and $y$ be real numbers, and $\\omega$ be one of the complex solutions of the equation $z^3 = 1$. Evaluate:\n(a) $1 + \\omega + \\omega^2$ [2 marks]\n(b) $(\\omega x + \\omega^2 y)(\\omega^2 x + \\omega y)$ [4 marks]\n(iii) Using mathematical induction, prove that the number $2^{2n} - 3n - 1$ is divisible by 9, for $n = 1, 2, \\ldots$. [7 marks]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.13",
+    "4.8",
+    "4.6"
+   ],
+   "note": "MS crop omits last line of final boxed note ('answer, accept the answer.') at page bottom (segmenter footer trim); marking content complete. | fixed by segmenter update: the line noted above as missing is now in the crop",
+   "text_clean": "3. [Maximum mark: 13]\n(i) A new blood test has been shown to be effective in the early detection of a disease. The probability that the blood test correctly identifies someone with this disease is 0.99, and the probability that the blood test correctly identifies someone without that disease is 0.95. The incidence of this disease in the general population is 0.0001.\nA doctor administered the blood test to a patient and the test result indicated that this patient had the disease. What is the probability that the patient has the disease? [6 marks]\n(ii) The quality control department of a company making computer chips knows that 2% of the chips are defective. Use the normal approximation to the binomial probability distribution, with a continuity correction, to find the probability that, in a batch containing 1000 chips, between 20 and 30 chips (inclusive) are defective. [7 marks]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.7",
+    "5.8",
+    "5.6",
+    "5.11",
+    "5.4",
+    "5.2",
+    "2.3"
+   ],
+   "text_clean": "4. [Maximum mark: 25]\n(i) Consider the function $f : x \\mapsto x - x^2$ for $-1 \\le x \\le k$, where $1 < k \\le 3$.\n(a) Sketch the graph of the function $f$. [3 marks]\n(b) Find the total finite area enclosed by the graph of $f$, the $x$-axis and the line $x = k$. [4 marks]\n(ii) Give exact answers in this part of the question.\nThe temperature $g(t)$ at time $t$ of a given point of a heated iron rod is given by\n$g(t) = \\frac{\\ln t}{\\sqrt{t}}$, where $t > 0$.\n(a) Find the interval where $g'(t) > 0$. [4 marks]\n(b) Find the interval where $g''(t) > 0$ and the interval where $g''(t) < 0$. [5 marks]\n(c) Find the value of $t$ where the graph of $g(t)$ has a point of inflexion. [3 marks]\n(d) Let $t^*$ be a value of $t$ for which $g'(t^*) = 0$ and $g''(t^*) < 0$. Find $t^*$. [3 marks]\n(e) Find the point where the normal to the graph of $g(t)$ at the point $(t^*, g(t^*))$ meets the $t$-axis. [3 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.9",
+    "7.7",
+    "7.6",
+    "7.8",
+    "1.L1"
+   ],
+   "text_clean": "5. [Maximum mark: 40]\n(i) Let $S$ be the group of permutations of $\\{1, 2, 3\\}$ under the composition of permutations.\n(a) What is the order of the group $S$? [2 marks]\n(b) Let $p_0, p_1, p_2$, be three elements of $S$, as follows:\n$p_0 = \\begin{pmatrix} 1 & 2 & 3 \\\\ 1 & 2 & 3 \\end{pmatrix}$, $p_1 = \\begin{pmatrix} 1 & 2 & 3 \\\\ 2 & 3 & 1 \\end{pmatrix}$, $p_2 = \\begin{pmatrix} 1 & 2 & 3 \\\\ 3 & 1 & 2 \\end{pmatrix}$.\nList the other elements of $S$ and show that $S$ is not an Abelian group. [4 marks]\n(c) Find a subgroup of $S$ of order 3. [2 marks]\n(ii) (a) Let $A$ be the set of all $2 \\times 2$ matrices of the form $\\begin{pmatrix} a & b \\\\ -b & a \\end{pmatrix}$, where $a$ and $b$ are real numbers, and $a^2 + b^2 \\ne 0$. Prove that $A$ is a group under matrix multiplication. [10 marks]\n(b) Show that the set: $M = \\left\\{ \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}, \\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}, \\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix}, \\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix} \\right\\}$ forms a group under matrix multiplication. [5 marks]\n(c) Can $M$ have a subgroup of order 3? Justify your answer. [2 marks]\n(iii) (a) Define an isomorphism between two groups $(G, \\circ)$ and $(H, \\bullet)$. [2 marks]\n(b) Let $e$ and $e'$ be the identity elements of groups $G$ and $H$ respectively. Let $f$ be an isomorphism between these two groups. Prove that $f(e) = e'$. [4 marks]\n(c) Prove that an isomorphism maps a finite cyclic group onto another finite cyclic group. [4 marks]\n(d) Consider $\\mathbb{Z}_4$, the additive group of integers modulo 4. Prove that $\\mathbb{Z}_4$ is cyclic. Is $\\mathbb{Z}_4$ isomorphic to $M$ in part (ii)(b) under matrix multiplication? Justify your answer. [5 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.11",
+    "6.6",
+    "6.7",
+    "6.8"
+   ],
+   "text_clean": "6. [Maximum mark: 40]\n(i) (a) Give a definition of the adjacency matrix of a directed graph $G$. [2 marks]\n(b) What is represented by the sum of the entries in the $i$th row of the adjacency matrix of $G$? [2 marks]\n(c) What is represented by the sum of the entries of the $j$th column of the adjacency matrix of $G$? [2 marks]\n(ii) (a) Draw a directed graph whose adjacency matrix $A$ is given by the following:\n$A = \\begin{pmatrix} 1 & 0 & 0 & 1 & 0 \\\\ 1 & 0 & 0 & 1 & 1 \\\\ 1 & 1 & 0 & 0 & 0 \\\\ 1 & 0 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 & 0 \\end{pmatrix}$ [3 marks]\n(b) How many paths of length 2 are there from vertex $v_2$ to vertex $v_4$? [2 marks]\n(iii) Let $\\kappa_n$ be the complete graph of order $n$ and $\\kappa_{m,n}$ be a bipartite graph of orders $m$ and $n$.\n(a) Explain the following, giving one example of each:\n(i) $\\kappa_5$, the complete graph of order 5, [3 marks]\n(ii) a bipartite graph $\\kappa_{3,3}$. [2 marks]\n(b) Show that $\\kappa_{3,3}$ has a Hamiltonian cycle, giving appropriate reasons. [3 marks]\n(iv) The following floor plan shows the ground level of a new home. Is it possible to enter the house through the front door and exit through the rear door, going through each internal doorway exactly once? Give a reason for your answer. [7 marks]\n[Diagram: floor plan of a house with nine rooms in a 3 by 3 arrangement, internal doorways between adjacent rooms, a front door at the top and a rear door at the bottom]\n(v) (a) Prove that if two graphs are isomorphic, they have the same degree sequence. [3 marks]\n(b) Are the following graphs isomorphic? Justify your answer. [3 marks]\n[Diagram: two graphs, each with six vertices drawn with crossing diagonals]\n(vi) Apply Prim's algorithm to the weighted graph given below to obtain the minimal spanning tree starting with the vertex $A$.\n[Diagram: weighted graph with vertices A, B, C, D, E, F, G and edges a: AB 7, b: AF 9, c: FD 16, d: FE 5, e: ED 3, f: DC 10, g: BC 6, h: AD 5, i: GB 5, j: GF 9, k: BD 13]\nFind the weight of the minimal spanning tree. [8 marks]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L9",
+    "4.L6",
+    "4.L1"
+   ],
+   "text_clean": "7. [Maximum mark: 40]\n(i) A supplier of copper wire looks for flaws before despatching it to customers. It is known that the number of flaws follow a Poisson probability distribution with a mean of 2.3 flaws per metre.\n(a) Determine the probability that there are exactly 2 flaws in 1 metre of the wire. [3 marks]\n(b) Determine the probability that there is at least one flaw in 2 metres of the wire. [3 marks]\n(ii) A market research company has been asked to find an estimate of the mean hourly wage rate for a group of skilled workers. It is known that the population standard deviation of the hourly wage of workers is \\$4.00. Using a confidence interval for the mean, determine how large a sample is required to yield a probability of 95% that the estimate of the mean hourly wage is within \\$0.25 of the actual mean. [10 marks]\n(iii) The administration of a certain university wants to examine whether there is a significant difference between the wages of humanities and science students employed within the university for temporary work. Random samples of wages are tabulated below:\nStudent type | Sample size | Weekly mean wage | Standard deviation\nScience | $n_1 = 100$ | \\$120.50 | \\$4.00\nHumanities | $n_2 = 200$ | \\$115.00 | \\$4.50\nTest, at the 2% level of significance, whether the sample shows a difference between the wages. [12 marks]\n(iv) A car manufacturer wants to know if there is a relationship between the cost of a new vehicle and the average number of complaints. The company checks its records of complaints and collects the following data from a random sample of 1000 vehicles.\nCosts | Number of complaints: 5 or less | 6 to 10 | 11 or more\n$\\ge$ \\$30 001 | 100 | 90 | 10\n\\$15 001–\\$30 000 | 150 | 260 | 50\n$\\le$ \\$15 000 | 50 | 250 | 40\nAt the 5% level of significance, is there a relationship between the cost of a new vehicle and the number of complaints? [12 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L1",
+    "5.L4"
+   ],
+   "text_clean": "8. [Maximum mark: 40]\n(i) (a) Show that there is zero of the function $f(x) = x^3 - 3x - 5$ in the interval $1 \\le x \\le 3$. [2 marks]\n(b) With the initial estimate $x_0 = 2$, use the Newton-Raphson method to find the solution of the equation $f(x) = 0$ in the interval $1 \\le x \\le 3$, accurate to $10^{-5}$. [6 marks]\n(ii) (a) Using the trapezium rule and Simpson's rule with 6 sub-intervals, evaluate the integral $\\int_0^1 g(x)\\,dx$, where $g(x)$ is given at seven points by the following table. [6 marks]\n$x$ | $x_0 = 0$ | $x_1 = \\frac{1}{6}$ | $x_2 = \\frac{2}{6}$ | $x_3 = \\frac{3}{6}$ | $x_4 = \\frac{4}{6}$ | $x_5 = \\frac{5}{6}$ | $x_6 = 1$\n$g(x)$ | 1 | 0.97260 | 0.89483 | 0.77880 | 0.64118 | 0.49935 | 0.36789\n(b) Find the error estimate for Simpson's rule in terms of $g^{(4)}(x)$. [2 marks]\n(c) When $|g^{(4)}(x)| \\le 6$, determine the number of subintervals required to use Simpson's rule to obtain a value for the above integral, which is correct to five decimal places. [6 marks]\n(iii) (a) State the mean value theorem. [2 marks]\n(b) A given function $h$ satisfies all the requirements of the mean value theorem for $0 \\le x \\le 7$. If $h(0) = -4$ and $|h'(x)| \\le 10$ use the mean value theorem to show that $h(x) \\ge -74$, for $0 \\le x \\le 7$. [4 marks]\n(iv) Test the convergence or divergence of the following infinite series, indicating the tests used to arrive at your conclusion:\n(a) $\\sum_{k=1}^{\\infty} \\frac{k+1}{3^k}$ [3 marks]\n(b) $\\sum_{k=2}^{\\infty} \\frac{1}{k(\\ln k)^3}$ [4 marks]\n(c) $\\sum_{k=1}^{\\infty} (-1)^{k+1} \\frac{k}{k^2+1}$ [5 marks]",
+   "answer_status": "ok"
+  }
+ },
+ "exam_note": "Section B (Q5-Q8) are alternative options; candidates answer one."
+}

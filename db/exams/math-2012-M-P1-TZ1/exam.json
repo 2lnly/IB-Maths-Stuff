@@ -1,0 +1,293 @@
+{
+ "exam_id": "math-2012-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2012,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_1_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_1_TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); code M12/5/MATHL/HP1/ENG/TZ1/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2012-M-P1-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nr ∞\n1\nFind the value of k if k 7 . ∑\n=\n3 r = 1",
+   "ms_text": "1 1\n1. u = k , r = (A1)(A1)\n1\n3 3\n1\nk\n3\n7 = M1\n1\n1 −\n3\nk = 14 A1\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4] Find the value of $k$ if $\\sum_{r=1}^{\\infty} k\\left(\\frac{1}{3}\\right)^r = 7$."
+  },
+  {
+   "id": "math-2012-M-P1-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 8]\nThe graphs of y = x +1 and y = x −3 are shown below.\ny\n6\n4\n2\nx –6 –4 –2 0 2 4 6\n–2\n–4\n–6\nLet fx () = x + 1 − x − 3.\n(a) Draw the graph of y = fx () on the blank grid below. [4 marks]\ny\n6\n4\n2\n–6 –4 –2 0 2 4 6 x\n–2\n–4\n–6\n(b) Hence state the value of\n(i) f( ′− 3; )\n(ii) ′f(.) 2 7;\n2\n(iii) −∫3 fx () d. x [4 marks]\n−",
+   "ms_text": "2. (a)\nM1A1A1A1\nNote: Award M1 for any of the three sections completely correct,\nA1 for each correct segment of the graph.\n[4 marks]\n(b) (i) 0 A1\n(ii) 2 A1\n(iii) finding area of rectangle (M1)\n− 4 A1\nNote: Award M1A0 for the answer 4.\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.16",
+    "5.1",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 8] The graphs of $y=|x+1|$ and $y=|x-3|$ are shown below.\n[Graph: V-shaped graphs of $y=|x+1|$ (vertex at (-1, 0)) and $y=|x-3|$ (vertex at (3, 0)) on a grid, $-6 \\le x \\le 6$, $-6 \\le y \\le 6$]\nLet $f(x)=|x+1|-|x-3|$.\n(a) Draw the graph of $y=f(x)$ on the blank grid below. [4 marks]\n[Blank grid: $-6 \\le x \\le 6$, $-6 \\le y \\le 6$]\n(b) Hence state the value of\n(i) $f'(-3)$;\n(ii) $f'(2.7)$;\n(iii) $\\int_{-3}^{-2} f(x)\\,dx$. [4 marks]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nIf z = a + a 3 i and z2 =−i, where a is a real constant, express z1 and z2 in the 1\n1\n6\nz\n1 form r cisθ, and hence find an expression for in terms of a and i.\nz\n2",
+   "ms_text": "π π\n3. z = a , z = 2 cis − M1A1A1\n1 2cis3 2\n4\nEITHER\n6 6 6\nz 2 a cis(0) π\n1 6 = = 8 a cis − M1A1A1\nz 6 π 2\n2\n2cis2\nOR\n6 6\nπ z 2 a 7\n1 = M1A1\ncis12\nz 2\n2\nπ\n6 = 8 a cis − A1\n2\nTHEN\n6 =− 8 a i A1\nNote: Accept equivalent angles, in radians or degrees.\n6 8 a\nAccept alternate answers without cis e.g. =\ni\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7] If $z_1 = a + a\\sqrt{3}\\,i$ and $z_2 = 1 - i$, where $a$ is a real constant, express $z_1$ and $z_2$ in the form $r\\,\\mathrm{cis}\\,\\theta$, and hence find an expression for $\\left(\\frac{z_1}{z_2}\\right)^6$ in terms of $a$ and i."
+  },
+  {
+   "id": "math-2012-M-P1-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nThe graph below shows y = fx () , where fx () = x + ln x .\n(a) On the graph below, sketch the curve y = f −1() . x [2 marks]\ny\nx\n(b) Find the coordinates of the point of intersection of the graph of y = fx () and\nthe graph of y = f −1() . x [4 marks]",
+   "ms_text": "4. (a)\nA1A1\nNote: Award A1 for correct asymptote with correct behaviour and A1 for shape.\n[2 marks]\n(b) intersect on y = x (M1)\nx + ln x = x ⇒ ln x = 0 (A1)\nintersect at (1, 1) A1A1\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6] The graph below shows $y=f(x)$, where $f(x)=x+\\ln x$.\n(a) On the graph below, sketch the curve $y=f^{-1}(x)$. [2 marks]\n[Graph: increasing curve $y=x+\\ln x$ with vertical asymptote along the $y$-axis, crossing the $x$-axis just right of the origin]\n(b) Find the coordinates of the point of intersection of the graph of $y=f(x)$ and the graph of $y=f^{-1}(x)$. [4 marks]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\nsin 3 x cos x 3.\nLet fx () = −\nsin x cos x\n(a) For what values of x does fx () not exist? [2 marks]\n3 x cos 3 x Simplify the expression sin\n(b) − . [5 marks]\nsin x cos x",
+   "ms_text": "5. (a) cos x = 0, sin x = 0 (M1)\nA1\n[2 marks]\n(b) EITHER\nsin3cos x x − cos3sin x x\nM1A1\nsincos x x\nsin(3 x − x )\n= A1A1\n1 sin 2 x\n2\n= 2 A1\nOR\nsin2cos x x + cos2sin x x cos2cos x x − sin2sin x x\n− M1\nsin x cos x\n2 2 3 2 2sincos x x + 2cos x sin x − sin x 2cos x − cos x − 2sin x cos x\n= − A1A1\nsin x cos x\n2 2 2 = 4cos x −− 12cos x ++ 12sin x A1\n= 2cos 2 x + 2sin 2 x\n= 2 A1\n[5 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.6",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7] Let $f(x)=\\frac{\\sin 3x}{\\sin x}-\\frac{\\cos 3x}{\\cos x}$.\n(a) For what values of $x$ does $f(x)$ not exist? [2 marks]\n(b) Simplify the expression $\\frac{\\sin 3x}{\\sin x}-\\frac{\\cos 3x}{\\cos x}$. [5 marks]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 8]\nk =1and y\nThe graph below shows the two curves y = , where k>1.\nx x\ny\nk\ny =\nx diagram not to\nscale\nA\nB\n=1 y\nx\nx\n1 1 6\n6\nFind the area of region A in terms of k . [3 marks] (a)\n(b) Find the area of region B in terms of k . [2 marks]\n(c) Find the ratio of the area of region A to the area of region B . [3 marks]",
+   "ms_text": "1 k\n− 1 d = − 1 6. (a) ∫ x ( k 1)[ln] x M1A1\n1 1\nx x 6\n6\nk 1 d or 1 kx\nNote: Award M1 for − x − d and A1 for (-1)ln k x ∫ ∫\nx x x x\nseen in part (a) or later in part (b).\n1\n= (1 − k A1\n)ln 6\n[3 marks]\n6 k 1 d 6\n(b) − x = ( k − 1)[ln] x (A1) ∫\n1 1\nx x\nNote: Award A1 for correct change of limits.\n= − ( k 1)ln6 A1\n[2 marks]\n1\n(c) (1 − k )ln = ( k − 1)ln6 A1\n6\n1\n( k − 1)ln6 = ( k − 1)ln6 A1\n2\nNote: This simplification could have occurred earlier, and marks should still be awarded.\nratio is 2 (or 2:1) A1\n[3 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.10",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 8] The graph below shows the two curves $y=\\frac{1}{x}$ and $y=\\frac{k}{x}$, where $k>1$.\n[Diagram (not to scale): curves $y=\\frac{k}{x}$ above $y=\\frac{1}{x}$; region A between the curves from $x=\\frac{1}{6}$ to $x=1$, region B between the curves from $x=1$ to $x=\\sqrt{6}$]\n(a) Find the area of region $A$ in terms of $k$. [3 marks]\n(b) Find the area of region $B$ in terms of $k$. [2 marks]\n(c) Find the ratio of the area of region $A$ to the area of region $B$. [3 marks]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nGiven that z is the complex number x + i and that z y + z = 6 − 2i , find the value of x\nand the value of y .",
+   "ms_text": "2 2 7. x + y + x + y i = 6 − 2i (A1)\nequating real and imaginary parts M1\ny =− 2 A1\nx 2 + 4 + x = 6 A1\nx 2 + 4 = (6 − x ) 2 M1\n8\n− 32 =− 12 x ⇒ x = A1\n3\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6] Given that $z$ is the complex number $x+iy$ and that $|z|+z=6-2i$, find the value of $x$ and the value of $y$."
+  },
+  {
+   "id": "math-2012-M-P1-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 5]\nSolve the equation 2 − log( x + 7 ) = log 2 x .\n3 1\n3",
+   "ms_text": "9 1 =\n8. log log M1M1A1\n3 3\nx + 7 2 x\nNote: Award M1 for changing to single base, M1 for incorporating the 2 into a log\nand A1 for a correct equation with maximum one log expression each side.\nx + 7 = 18 x M1\n7\nx = A1\n17\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 5] Solve the equation $2-\\log_3(x+7)=\\log_{\\frac{1}{3}} 2x$."
+  },
+  {
+   "id": "math-2012-M-P1-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 9]\n2 2 The curve C has equation 2 x + y = 18 . Determine the coordinates of the four points\non C at which the normal passes through the point (,) 10.",
+   "ms_text": "d y d y 2 x\n9. 4 x + 2 = 0 ⇒ =− M1A1\nyx\nd d x y\ny Note: Allow follow through on incorrect d\nx from this point.\nd\nb\ngradient of normal at (,)\nab is 2\na\nNote: No further A marks are available if a general point is\nnot used\nb b b\nequation of normal at (,) ab is y − b = ( x − a ) ⇒ y = x + M1A1\n2 a 2 a 2\nsubstituting (1, 0) M1\nb = 0 or a =− 1 A1A1\nfour points are (3, 0) ,(3, 0) − ,(1, 4) − ,(1, − − 4) A1A1\nNote: Award A1A0 for any two points correct.\n[9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 9] The curve $C$ has equation $2x^2+y^2=18$. Determine the coordinates of the four points on $C$ at which the normal passes through the point $(1, 0)$.",
+   "review_note": "Markscheme crop omits the final line 'Note: Award A1A0 for any two points correct.' and the '[9 marks]' total (segmenter treats the bottom band of MS page 9 as footer; override regions are clipped to body_bot). All mark-bearing lines are present. | fixed by segmenter update"
+  },
+  {
+   "id": "math-2012-M-P1-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 21]\n� In the triangle ABC, ABC = 90 �, AC = 2 and AB = BC +1.\n=1 (a) Show that cos A A� − sin A A� . [3 marks]\n2\n(b) By squaring both sides of the equation in part (a), solve the equation to find the\nangles in the triangle. [8 marks]\n(c) Apply Pythagoras’ theorem in the triangle ABC to find BC, and hence show that\n6 − 2\nsin A = A� . [6 marks]\n4\n(d) Hence, or otherwise, calculate the length of the perpendicular from B to [AC]. [4 marks]",
+   "ms_text": "BA\n10. (a) cos A = A1\n2\nBC\nsin A = A1\n2\nBA − BC\ncos A − sin A = R1\n2\n1\n= AG\n2\n[3 marks]\n1 2 2\n(b) cos A − 2cos A sin A + sin A = M1A1\n2\n1\n1 − 2sin A cos A = M1A1\n2\n1\nsin2 A = M1\n2\n2 A = 30 A1\nangles in the triangle are 15and 75 A1A1\nNote: Accept answers in radians.\n[8 marks]\n2 2 (c) BC + (BC1) + = 2 M1A1\n2 2BC + 2BC1 −= 0 A1\n−+ 2 12 3 − 1\nBC = = M1A1\n4 2\nBC 3 − 1\nsin A = = A1\n2 22\n− 6 2\n= AG\n4\n[6 marks]\n(d) EITHER\nh = ABsin A M1\n= (BC1)sin A + A1\n3 + 1 6 − 2 2\n= × = M1A1\n2 4 4\nOR\n1 1 AB BC . = AC h . M1\n2 2\n• A1\n2\n= 2 h M1\n4\n1\nh = A1\n22\n[4 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.6",
+    "3.8",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 21] In the triangle ABC, $\\hat{ABC}=90^\\circ$, $AC=\\sqrt{2}$ and $AB=BC+1$.\n(a) Show that $\\cos\\hat{A}-\\sin\\hat{A}=\\frac{1}{\\sqrt{2}}$. [3 marks]\n(b) By squaring both sides of the equation in part (a), solve the equation to find the angles in the triangle. [8 marks]\n(c) Apply Pythagoras' theorem in the triangle ABC to find BC, and hence show that $\\sin\\hat{A}=\\frac{\\sqrt{6}-\\sqrt{2}}{4}$. [6 marks]\n(d) Hence, or otherwise, calculate the length of the perpendicular from B to [AC]. [4 marks]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 17]\n−1 (a) A and U are square matrices, and X = U AU . Use mathematical induction to\nn −1 n + prove that X = U A U , for n∈ �. [7 marks]\n2 − 3 31\n(b) Let A = 2 and U=\n1.\n1 − 1\n(i) Find the matrix D such that AU = UD .\n(ii) Write down the matrix D2.\n1 0\nn= + (iii) Hence prove that A2\n�.\n0 1 , for n∈\nn 1 n + (iv) Using the result from part (iii), show that ( A ) −= A , for n∈ �. [10 marks]",
+   "ms_text": "11. (a) if n = 1\n1 − 1 1 X = UAU which is given, so true for n = 1 A1\nAssume true for n = k\nk − 1 k X = UA U M1\nNote: Only award M1 if the word “true” or equivalent appears.\n= + if n k 1\nk 1 k X += XX M1\n− 1 − 1 k =UAUUA U A1\n− 1 k − 1 k = UAIA U = UAA U (A1)\n=UAU − 1 k + 1 A1\nAs true for n =, and true for n 1 = k ⇒true for n = k +, then by the 1\nprinciple of mathematical induction the statement is true for all R1\nNote: Do not award R1 if both M marks have not been awarded in this part.\nFor R1 to be awarded evidence of implication should be seen in the statement.\n[7 marks]\n(b) (i) METHOD 1\nAU = UD ⇒ D = UAU − 1 M1\n1 1 − 1 − 1\nU = (A1)\n2 − 1 3\n1 1 − 1 2 − 3 31 1 0 − 1\nD = UAU = = M1A1\n2 − 1 3 1 − 2 11 0 − 1\nMETHOD 2\n− 2 3 31 31 a b\n= M1\n1 − 2 11 11 c d\n3 − 1 3 a + c 3 b + d\n= A1\n1 − 1 a + c b + d\nsolving simultaneously M1\na =, 1 c = 0 , b = 0 , d =− 1\n1 0\nD = A1\n0 − 1\n1 0\n2 (ii) D\n= A1\n0 1\n(iii) D 2 n = UAU − 1 2 n ⇒ A 2 n = UDU 2 n − 1 M1A1\n− 1 =UIU A1\n− 1 = UU = I AG\n2n n n (iv) A = I ⇒ AA = I M1\nn − 1 n ⇒ ( A ) = A R1AG\n[10 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 17]\n(a) $\\boldsymbol{A}$ and $\\boldsymbol{U}$ are square matrices, and $\\boldsymbol{X}=\\boldsymbol{U}^{-1}\\boldsymbol{A}\\boldsymbol{U}$. Use mathematical induction to prove that $\\boldsymbol{X}^n=\\boldsymbol{U}^{-1}\\boldsymbol{A}^n\\boldsymbol{U}$, for $n\\in\\mathbb{Z}^+$. [7 marks]\n(b) Let $\\boldsymbol{A}=\\begin{pmatrix}2 & -3\\\\ 1 & -2\\end{pmatrix}$ and $\\boldsymbol{U}=\\begin{pmatrix}3 & 1\\\\ 1 & 1\\end{pmatrix}$.\n(i) Find the matrix $\\boldsymbol{D}$ such that $\\boldsymbol{AU}=\\boldsymbol{UD}$.\n(ii) Write down the matrix $\\boldsymbol{D}^2$.\n(iii) Hence prove that $\\boldsymbol{A}^{2n}=\\begin{pmatrix}1 & 0\\\\ 0 & 1\\end{pmatrix}$, for $n\\in\\mathbb{Z}^+$.\n(iv) Using the result from part (iii), show that $(\\boldsymbol{A}^n)^{-1}=\\boldsymbol{A}^n$, for $n\\in\\mathbb{Z}^+$. [10 marks]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 22]\nx\nLet fx () = , 0 < x < 1 .\n1 − x\n1 3\n1 − −\n2 (a) Show that f ′ () x = x ( 1 − x ) 2 and deduce that f is an increasing function. [5 marks]\n2\n(b) Show that the curve y = fx ()has one point of inflexion, and find its coordinates. [6 marks]\n2 (c) Use the substitution x = sin2θ to show that\n∫ fx () d x = arcsin x − x − x + c . [11 marks]",
+   "ms_text": "12. (a) EITHER\nx (1 − x ) − x (1) −\nderivative of is M1A1\n2 1 − x (1 − x )\n1 −\n1 x 2 1\nf ′ () x = M1A1\n2 21 − x (1 − x )\n1 3 1 − −\n2 2 = (1 − x ) AG\n2x\nf ′ () x > 0 (for all 0 < x <) so the function is increasing 1 R1\nOR\n1\nx 2\nfx () =\n1\n( 1 − x ) 2\n1 1 1 1 − 1 1\n2 2 − ( 1 − x ) 2 x − x ( 1 − x ) 2 ( − 1 )\n2 2\nf ′ () x = M1A1\n1 − x\n1 1 1 −\n− 1 1 − 3 2\n( ) 2 ( ) = x 1 − x 2 + x 1 − x 2 A1\n2 2\n1 3 1 −\n− 2\n( )[ ] = 1 − x 2 1 − x + x M1\n2x\n1 3 1 − −\n= 2 (1 − x ) 2 AG\n2x\nf ′ () x > 0 (for all 0 < x <) so the function is increasing 1 R1\n[5 marks]\n1 3 1 − −\n′ = 2 − 2 (b) f () x x (1 x )\n2\n3 3 1 5 1 − − 3 − −\n⇒ f ′′ () x =− x 2 (1 − x ) 2 + x 2 (1 − x ) 2 M1A1\n4 4\n3 5 1 − −\n=− 2 (1 − x ) 2 [1 − 4] x\n4x\n1\nf ′′ () x = 0 ⇒ x = M1A1\n4\n1\n′′ f () x changes sign at x = hence there is a point of inflexion R1\n4\n1 1\nx = ⇒ y = A1\n4 3\n1 the coordinates are 1\n,\n4 3\n[6 marks]\nd x 2\n(c) x = sin θ ⇒ = 2sincos θ θ M1A1\nd θ\n2 x sin θ\nd x = 2sincosd θ θθ M1A1 ∫ ∫\n− − 2 θ 1 x 1sin\n2 θθ\n=∫ 2sin d A1\n= ∫ 1cos2d − θθ M1A1\n= θ − 1 sin2 θ + c A1\n2\nθ= arcsin x A1\n1 sin2 2 θ = sincos θ θ = x 1 − x = x − x M1A1\n2\nx 2\nhence ∫ d x = arcsin x − x − x + c AG\n1 − x\n[11 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.6",
+    "5.7",
+    "5.2",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 22] Let $f(x)=\\sqrt{\\frac{x}{1-x}}$, $0<x<1$.\n(a) Show that $f'(x)=\\frac{1}{2}x^{-\\frac{1}{2}}(1-x)^{-\\frac{3}{2}}$ and deduce that $f$ is an increasing function. [5 marks]\n(b) Show that the curve $y=f(x)$ has one point of inflexion, and find its coordinates. [6 marks]\n(c) Use the substitution $x=\\sin^2\\theta$ to show that $\\int f(x)\\,dx=\\arcsin\\sqrt{x}-\\sqrt{x-x^2}+c$. [11 marks]",
+   "review_note": "Question crop overridden to exclude the two blank 'Answers written on this page will not be marked' pages."
+  }
+ ],
+ "status": "done"
+}

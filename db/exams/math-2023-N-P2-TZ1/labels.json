@@ -1,0 +1,53 @@
+{
+  "exam_id": "math-2023-N-P2-TZ1",
+  "questions": {
+    "1": {
+      "topics": ["3"], "subtopics": ["3.2", "3.1", "3.13"],
+      "text_clean": "1. [Maximum mark: 6]\nThe following diagram shows a pyramid with vertex V and rectangular base OABC.\nPoint B has coordinates $(6, 8, 0)$, point C has coordinates $(6, 0, 0)$ and point V has coordinates $(3, 4, 9)$.\n[Diagram (not to scale): pyramid with apex V(3, 4, 9) above rectangular base OABC in the plane z = 0; O at origin, C(6, 0, 0) on the x-axis, A on the y-axis, B(6, 8, 0)]\n(a) Find BV. [2]\n(b) Find the size of $\\mathrm{B\\hat{V}C}$. [4]"
+    },
+    "2": {
+      "topics": ["2"], "subtopics": ["2.3", "2.11"],
+      "text_clean": "2. [Maximum mark: 5]\nConsider the function $f(x) = \\mathrm{e}^{x} - 3x - 4$.\n(a) On the following axes, sketch the graph of $f$ for $-4 \\le x \\le 3$. [3]\n[Grid: blank axes, x from -4 to 3, y from -5 to 10]\nThe function $g$ is defined by $g(x) = \\mathrm{e}^{2x} - 6x - 7$.\n(b) The graph of $g$ is obtained from the graph of $f$ by a horizontal stretch with scale factor $k$, followed by a vertical translation of $c$ units.\nFind the value of $k$ and the value of $c$. [2]"
+    },
+    "3": {
+      "topics": ["3"], "subtopics": ["3.4"],
+      "text_clean": "3. [Maximum mark: 7]\nA company is designing a new logo in the shape of a letter \u201cC\u201d.\n[Diagram: shaded letter C shape]\nThe letter \u201cC\u201d is formed between two circles with centre O.\nThe point A lies on the circumference of the inner circle with radius $r$ cm, where $r < 10$.\nThe point B lies on the circumference of the outer circle with radius 10 cm.\nThe reflex angle $\\mathrm{A\\hat{O}B}$ is 5.2 radians. The letter \u201cC\u201d is shown by the shaded area in the following diagram.\n[Diagram (not to scale): two concentric circles centre O; shaded region between them over reflex angle 5.2 at O; A on inner circle, B on outer circle at the ends of the gap]\n(a) Show that the area of the \u201cC\u201d is given by $260 - 2.6r^2$. [2]\nThe area of the \u201cC\u201d is $64\\ \\text{cm}^2$.\n(b) (i) Find the value of $r$.\n(ii) Find the perimeter of the \u201cC\u201d. [5]"
+    },
+    "4": {
+      "topics": ["5"], "subtopics": ["5.9"],
+      "text_clean": "4. [Maximum mark: 5]\nA particle moves along a straight line. Its displacement, $s$ metres, from a fixed point O after time $t$ seconds is given by $s(t) = 4.3\\sin\\left(\\sqrt{3t+5}\\right)$, where $0 \\le t \\le 10$.\nThe particle first comes to rest after $q$ seconds.\n(a) Find the value of $q$. [2]\n(b) Find the total distance that the particle travels in the first $q$ seconds. [3]"
+    },
+    "5": {
+      "topics": ["4", "2"], "subtopics": ["4.7", "2.10"],
+      "text_clean": "5. [Maximum mark: 5]\nThe following table shows the probability distribution of a discrete random variable $X$, where $a, k \\in \\mathbb{R}^+$.\n$x$: 1 | 2 | 3 | 4\n$\\mathrm{P}(X=x)$: $k$ | $k^2$ | $a$ | $k^3$\nGiven that $\\mathrm{E}(X) = 2.3$, find the value of $a$."
+    },
+    "6": {
+      "topics": ["4"], "subtopics": ["4.8", "4.14"],
+      "text_clean": "6. [Maximum mark: 5]\nThe random variable $X$ is such that $X \\sim B(25, p)$ and $\\mathrm{Var}(X) = 5.75$.\n(a) Find the possible values of $p$. [3]\nThe random variable $Y$ is such that $Y = 1 - 2X$.\n(b) Find $\\mathrm{Var}(Y)$. [2]"
+    },
+    "7": {
+      "topics": ["1"], "subtopics": ["1.10"],
+      "text_clean": "7. [Maximum mark: 6]\nA junior baseball team consists of six boys and three girls.\nThe team members are to be placed in a line to have their photograph taken.\n(a) In how many ways can the team members be placed if\n(i) there are no restrictions;\n(ii) the girls must be placed next to each other. [3]\n(b) Five members of the team are selected to attend a baseball summer camp. Find the number of possible selections that contain at least two girls. [3]"
+    },
+    "8": {
+      "topics": ["3", "5"], "subtopics": ["3.16", "3.12", "5.8"],
+      "text_clean": "8. [Maximum mark: 9]\nThree points are given by $\\mathrm{A}(0, p, 2)$, $\\mathrm{B}(1, 1, 1)$ and $\\mathrm{C}(p, 0, 4)$, where $p$ is a positive constant.\n(a) Show that $\\vec{AB} \\times \\vec{AC} = \\begin{pmatrix} 2-3p \\\\ -2-p \\\\ p^2-2p \\end{pmatrix}$. [4]\n(b) Hence, find the smallest possible value of $\\left|\\vec{AB} \\times \\vec{AC}\\right|^2$. [3]\n(c) Hence, find the smallest possible area of triangle ABC. [2]"
+    },
+    "9": {
+      "topics": ["5"], "subtopics": ["5.18"],
+      "text_clean": "9. [Maximum mark: 9]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{4-y}{10}$, where $y = 2$ when $x = 0$.\n(a) Use Euler\u2019s method with a step size of 0.1 to find an approximation for $y$ when $x = 0.5$. Give your answer correct to four significant figures. [3]\n(b) By solving the differential equation, show that $y = 4 - 2\\mathrm{e}^{-\\frac{x}{10}}$. [5]\n(c) Find the absolute value of the error in your approximation in part (a). [1]"
+    },
+    "10": {
+      "topics": ["4"], "subtopics": ["4.12", "4.8", "4.11", "4.9"],
+      "text_clean": "10. [Maximum mark: 16]\nA farmer is growing a field of wheat plants. The height, $H$ cm, of each plant can be modelled by a normal distribution with mean $\\mu$ and standard deviation $\\sigma$.\nIt is known that $\\mathrm{P}(H < 94.6) = 0.288$ and $\\mathrm{P}(H > 98.1) = 0.434$.\n(a) Find the probability that the height of a randomly selected plant is between 94.6 cm and 98.1 cm. [2]\n(b) Find the value of $\\mu$ and the value of $\\sigma$. [5]\nThe farmer measures 100 randomly selected plants. Any plant with a height greater than 98.1 cm is considered ready to harvest. Heights of plants are independent of each other.\n(c) (i) Find the probability that exactly 34 plants are ready to harvest.\n(ii) Given that fewer than 49 plants are ready to harvest, find the probability that exactly 34 plants are ready to harvest. [6]\nIn another field, the farmer is growing the same variety of wheat, but is using a different fertilizer. The heights of these plants, $F$ cm, are normally distributed with mean 98.6 and standard deviation $d$. The farmer finds the interquartile range to be 4.82 cm.\n(d) Find the value of $d$. [3]"
+    },
+    "11": {
+      "topics": ["2"], "subtopics": ["2.13", "2.3", "2.2", "2.15"],
+      "text_clean": "11. [Maximum mark: 19]\nConsider the function defined by $f(x) = \\frac{x^2 - 14x + 24}{2x + 6}$, where $x \\in \\mathbb{R}$, $x \\ne -3$.\n(a) State the equation of the vertical asymptote on the graph of $f$. [1]\n(b) Find the coordinates of the points where the graph of $f$ crosses the $x$-axis. [2]\nThe graph of $f$ also has an oblique asymptote of the form $y = ax + b$, where $a, b \\in \\mathbb{Q}$.\n(c) Find the value of $a$ and the value of $b$. [4]\n(d) Sketch the graph of $f$ for $-50 \\le x \\le 50$, showing clearly the asymptotes and any intersections with the axes. [4]\n(e) Find the range of $f$. [4]\n(f) Solve the inequality $f(x) > x$. [4]"
+    },
+    "12": {
+      "topics": ["3"], "subtopics": ["3.18", "3.15", "3.17", "3.12"],
+      "text_clean": "12. [Maximum mark: 18]\nLine $L$ is given by the vector equation $\\boldsymbol{r}_1 = \\begin{pmatrix} 1 \\\\ 2 \\\\ -3 \\end{pmatrix} + s\\begin{pmatrix} 2 \\\\ 3 \\\\ 6 \\end{pmatrix}$ where $s \\in \\mathbb{R}$.\nLine $M$ is given by the vector equation $\\boldsymbol{r}_2 = \\begin{pmatrix} 9 \\\\ 9 \\\\ 11 \\end{pmatrix} + t\\begin{pmatrix} 4 \\\\ 1 \\\\ 2 \\end{pmatrix}$ where $t \\in \\mathbb{R}$.\n(a) Show that lines $L$ and $M$ intersect at a point A and find the position vector of A. [5]\n(b) Verify that the lines $L$ and $M$ both lie in the plane $\\Pi$ given by $\\boldsymbol{r} \\cdot \\begin{pmatrix} 0 \\\\ 2 \\\\ -1 \\end{pmatrix} = 7$. [3]\nPoint B has position vector $\\begin{pmatrix} -3 \\\\ 12 \\\\ 2 \\end{pmatrix}$. A line through B perpendicular to $\\Pi$ intersects $\\Pi$ at point C.\n(c) (i) Find the position vector of C.\n(ii) Hence, find $\\left|\\vec{BC}\\right|$. [7]\n(d) Find the reflection of the point B in the plane $\\Pi$. [3]"
+    }
+  }
+}

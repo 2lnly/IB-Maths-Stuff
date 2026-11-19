@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2017-M-P3-calculus",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.13", "5.6"],
+      "text_clean": "1. [Maximum mark: 7]\nUse l'Hôpital's rule to determine the value of\n$$\\lim_{x \\to 0} \\frac{\\sin^2 x}{x\\ln(1+x)}.$$"
+    },
+    "2": {
+      "topics": ["5"],
+      "subtopics": ["5.19", "5.15"],
+      "text_clean": "2. [Maximum mark: 6]\nLet the Maclaurin series for $\\tan x$ be\n$$\\tan x = a_1 x + a_3 x^3 + a_5 x^5 + \\ldots$$\nwhere $a_1$, $a_3$ and $a_5$ are constants.\n(a) Find series for $\\sec^2 x$, in terms of $a_1$, $a_3$ and $a_5$, up to and including the $x^4$ term\n(i) by differentiating the above series for $\\tan x$;\n(ii) by using the relationship $\\sec^2 x = 1 + \\tan^2 x$. [3]\n(b) Hence, by comparing your two series, determine the values of $a_1$, $a_3$ and $a_5$. [3]"
+    },
+    "3": {
+      "topics": ["5"],
+      "subtopics": ["5.L1", "5.16", "5.L5"],
+      "text_clean": "3. [Maximum mark: 9]\nUse the integral test to determine whether the infinite series $\\sum_{n=2}^{\\infty} \\frac{1}{n\\sqrt{\\ln n}}$ is convergent or divergent."
+    },
+    "4": {
+      "topics": ["5"],
+      "subtopics": ["5.18", "5.10"],
+      "text_clean": "4. [Maximum mark: 13]\n(a) Consider the differential equation\n$$\\frac{dy}{dx} = f\\left(\\frac{y}{x}\\right), x > 0.$$\nUse the substitution $y = vx$ to show that the general solution of this differential equation is\n$$\\int \\frac{dv}{f(v) - v} = \\ln x + \\text{Constant}.$$ [3]\n(b) Hence, or otherwise, solve the differential equation\n$$\\frac{dy}{dx} = \\frac{x^2 + 3xy + y^2}{x^2}, x > 0,$$\ngiven that $y = 1$ when $x = 1$. Give your answer in the form $y = g(x)$. [10]"
+    },
+    "5": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.L5", "5.L7", "1.7"],
+      "text_clean": "5. [Maximum mark: 15]\nConsider the curve $y = \\frac{1}{x}, x > 0$.\n(a) By drawing a diagram and considering the area of a suitable region under the curve, show that for $r > 0$,\n$$\\frac{1}{r+1} < \\ln\\left(\\frac{r+1}{r}\\right) < \\frac{1}{r}.$$ [4]\n(b) Hence, given that $n$ is a positive integer greater than one, show that\n(i) $\\sum_{r=1}^{n} \\frac{1}{r} > \\ln(1+n)$;\n(ii) $\\sum_{r=1}^{n} \\frac{1}{r} < 1 + \\ln n$. [6]\nLet $U_n = \\sum_{r=1}^{n} \\frac{1}{r} - \\ln n$.\n(c) Hence, given that $n$ is a positive integer greater than one, show that\n(i) $U_n > 0$;\n(ii) $U_{n+1} < U_n$. [4]\n(d) Explain why these two results prove that $\\{U_n\\}$ is a convergent sequence. [1]"
+    }
+  }
+}

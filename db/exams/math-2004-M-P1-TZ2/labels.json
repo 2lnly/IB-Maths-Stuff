@@ -1,0 +1,230 @@
+{
+ "exam_id": "math-2004-M-P1-TZ2",
+ "questions": {
+  "1": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "text_clean": "1. The polynomial $x^2-4x+3$ is a factor of $x^3+(a-4)x^2+(3-4a)x+3$. Calculate the value of the constant $a$.",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.10"
+   ],
+   "text_clean": "2. Given that $\\frac{dy}{dx}=e^x-2x$ and $y=3$ when $x=0$, find an expression for $y$ in terms of $x$.",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.10",
+    "2.4"
+   ],
+   "text_clean": "3. For $-3\\le x\\le 3$, find the coordinates of the points of intersection of the curves $y=x\\sin x$ and $x+3y=1$.",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.2",
+    "1.3",
+    "2.7"
+   ],
+   "text_clean": "4. The three terms $a$, 1, $b$ are in arithmetic progression. The three terms 1, $a$, $b$ are in geometric progression. Find the value of $a$ and of $b$ given that $a\\ne b$.",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "text_clean": "5. The linear transformations $M$ and $S$ are represented by the matrices $M=\\begin{pmatrix}0&1\\\\-1&0\\end{pmatrix}$ and $S=\\begin{pmatrix}-1&0\\\\0&1\\end{pmatrix}$. Give a full geometric description of the single transformation represented by the matrix $SMS$.",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "text_clean": "6. Let the complex number $z$ be given by $z=1+\\frac{i}{i-\\sqrt{3}}$. Express $z$ in the form $a+bi$, giving the exact values of the real constants $a$, $b$.",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.12"
+   ],
+   "text_clean": "7. The following diagram shows the probability density function for the random variable $X$, which is normally distributed with mean 250 and standard deviation 50. [Diagram: normal curve $f(x)$ with region between $x=180$ and $x=280$ shaded; 250 marked at the centre] Find the probability represented by the shaded region.",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.14",
+    "2.7"
+   ],
+   "text_clean": "8. The point $P(1,p)$, where $p>0$, lies on the curve $2x^2y+3y^2=16$. (a) Calculate the value of $p$. (b) Calculate the gradient of the tangent to the curve at P.",
+   "answer_status": "ok",
+   "note": "audit: only gradient asked (no tangent eqn); quadratic for p; matches twin TZ1-q7"
+  },
+  "9": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.14"
+   ],
+   "text_clean": "9. The line $\\mathbf{r}=\\mathbf{i}+\\mathbf{k}+\\mu(\\mathbf{i}-\\mathbf{j}+2\\mathbf{k})$ and the plane $2x-y+z+2=0$ intersect at the point P. Find the coordinates of P.",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.16"
+   ],
+   "text_clean": "10. Let $f(x)=\\frac{k}{x-k}$, $x\\ne k$, $k>0$. (a) On the diagram below, sketch the graph of $f$. Label clearly any points of intersection with the axes, and any asymptotes. [Diagram: blank x-y axes with $k$ marked on the x-axis] (b) On the diagram below, sketch the graph of $\\frac{1}{f}$. Label clearly any points of intersection with the axes. [Diagram: blank x-y axes with $k$ marked on the x-axis]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5"
+   ],
+   "text_clean": "11. The function $f$ is defined by $f:x\\mapsto x^3$. Find an expression for $g(x)$ in terms of $x$ in each of the following cases (a) $(f\\circ g)(x)=x+1$; (b) $(g\\circ f)(x)=x+1$.",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.10",
+    "5.11",
+    "2.9"
+   ],
+   "text_clean": "12. (a) Find $\\int_0^m \\frac{dx}{2x+3}$, giving your answer in terms of $m$. (b) Given that $\\int_0^m \\frac{dx}{2x+3}=1$, calculate the value of $m$.",
+   "answer_status": "ok",
+   "note": "audit: integral of 1/(2x+3) is SL 5.10, not 5.15"
+  },
+  "13": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7"
+   ],
+   "text_clean": "13. The discrete random variable $X$ has the following probability distribution. $P(X=x)=\\frac{k}{x}$, $x=1,2,3,4$; $0$, otherwise. Calculate (a) the value of the constant $k$; (b) $E(X)$.",
+   "answer_status": "ok"
+  },
+  "14": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "text_clean": "14. Robert travels to work by train every weekday from Monday to Friday. The probability that he catches the 08.00 train on Monday is 0.66. The probability that he catches the 08.00 train on any other weekday is 0.75. A weekday is chosen at random. (a) Find the probability that he catches the train on that day. (b) Given that he catches the 08.00 train on that day, find the probability that the chosen day is Monday.",
+   "answer_status": "ok"
+  },
+  "15": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.16"
+   ],
+   "text_clean": "15. Given that $\\mathbf{a}=(\\mathbf{i}+2\\mathbf{j}+\\mathbf{k})\\times(-2\\mathbf{i}+3\\mathbf{k})$, (a) find $\\mathbf{a}$; (b) find the vector projection of $\\mathbf{a}$ onto the vector $-2\\mathbf{j}+\\mathbf{k}$.",
+   "answer_status": "ok"
+  },
+  "16": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16",
+    "2.15"
+   ],
+   "text_clean": "16. Solve the inequality $\\left|\\frac{x+9}{x-9}\\right|\\le 2$.",
+   "answer_status": "ok"
+  },
+  "17": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.7",
+    "1.7"
+   ],
+   "text_clean": "17. The function $f$ is defined by $f:x\\mapsto 3^x$. Find the solution of the equation $f''(x)=2$.",
+   "answer_status": "ok"
+  },
+  "18": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16"
+   ],
+   "text_clean": "18. Find $\\int \\frac{\\ln x}{\\sqrt{x}}\\,dx$.",
+   "answer_status": "ok"
+  },
+  "19": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "3.2"
+   ],
+   "text_clean": "19. The following diagram shows an isosceles triangle ABC with AB = 10 cm and AC = BC. The vertex C is moving in a direction perpendicular to (AB) with speed 2 cm per second. [Diagram: isosceles triangle ABC with dashed altitude from C perpendicular to AB; arrow upward at C] Calculate the rate of increase of the angle CAB at the moment the triangle is equilateral.",
+   "answer_status": "ok"
+  },
+  "20": {
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.8",
+    "3.4",
+    "3.2"
+   ],
+   "text_clean": "20. The diagram shows a sector AOB of a circle of radius 1 and centre O, where $\\hat{AOB}=\\theta$. The lines (AB$_1$), (A$_1$B$_2$), (A$_2$B$_3$) are perpendicular to OB. A$_1$B$_1$, A$_2$B$_2$ are all arcs of circles with centre O. [Diagram: sector AOB with angle $\\theta$ at O; points A, A$_1$, A$_2$ on OA; perpendiculars dropped to B$_1$, B$_2$, B$_3$ on OB; arcs A$_1$B$_1$, A$_2$B$_2$ centred at O] Calculate the sum to infinity of the arc lengths $AB+A_1B_1+A_2B_2+A_3B_3+\\dots$",
+   "answer_status": "ok"
+  }
+ }
+}

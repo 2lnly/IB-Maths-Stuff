@@ -1,0 +1,36 @@
+{
+  "exam_id": "math-2012-N-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.9", "6.7"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 14]\n[Diagram: weighted graph with vertices S, A, B, C, D, E, F, G, T. Edges: SA 4, SC 3, SF 5, AC 2, AD 3, AB 7, CD 5, CF 1, FD 4, FG 8, DB 5, DE 6, DG 5, BE 7, BT 6, ET 8, EG 6, GT 9]\nIn the graph given above, the numbers shown represent the distance along that edge.\n(a) Using Dijkstra's algorithm, find the length of the shortest path from vertex $S$ to vertex $T$. Write down this shortest path. [6 marks]\n(b) (i) Does this graph have an Eulerian circuit? Justify your answer.\n(ii) Does this graph have an Eulerian trail? Justify your answer. [4 marks]\n(c) The graph above is now to be considered with the edges representing roads in a town and with the distances being the length of that road in kilometres. Huan is a postman and he has to travel along every road in the town to deliver letters to all the houses in that road. He has to start at the sorting office at $S$ and also finish his route at $S$. Find the shortest total distance of such a route. Fully explain the reasoning behind your answer. [4 marks]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.8", "6.6"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 10]\n(a) Draw all the possible non-isomorphic simple graphs with three vertices. (No proofs are required.) [4 marks]\n(b) Draw all the possible non-isomorphic trees with six vertices. (No proofs are required.) [6 marks]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.1", "6.3", "6.4"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 18]\nLet the greatest common divisor of 861 and 957 be $h$.\n(a) Using the Euclidean algorithm, find $h$. [4 marks]\n(b) Hence find integers $A$ and $B$ such that $861A + 957B = h$. [3 marks]\n(c) Using part (b), solve $287w \\equiv 2 \\pmod{319}$, where $w \\in \\mathbb{N}$, $w < 319$. [5 marks]\n(d) Find the general solution to the diophantine equation $861x + 957y = 6$. [6 marks]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.5", "6.4"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 10]\n(a) State Fermat's little theorem. [2 marks]\n(b) Let $x \\in \\mathbb{N}$. If $x \\not\\equiv 0 \\pmod{5}$, $x \\not\\equiv 0 \\pmod{13}$ and $x^{12} \\equiv 4 \\pmod{11}$, find the remainder when $x^{12}$ is divided by 715. [8 marks]"
+    },
+    "5": {
+      "topics": ["6"],
+      "subtopics": ["6.6", "6.8"],
+      "qtype": "short",
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 8]\n$G$ is a simple connected graph with four vertices and its complement $\\overline{G}$ is also connected. Prove that $G$ and $\\overline{G}$ are isomorphic."
+    }
+  }
+}

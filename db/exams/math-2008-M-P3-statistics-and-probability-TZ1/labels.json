@@ -1,0 +1,35 @@
+{
+  "exam_id": "math-2008-M-P3-statistics-and-probability-TZ1",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.8"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 8]\nA coin was tossed 200 times and 115 of these tosses resulted in 'heads'. Use a two-tailed test with significance level 1 % to investigate whether or not the coin is biased."
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L9", "4.14"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 14]\nThe following frequency table summarises the lifetimes, $x$ hours, of 1000 electrical components of a certain type.\nLifetime (hours) | $0 \\le x < 100$ | $100 \\le x < 200$ | $200 \\le x < 300$ | $300 \\le x < 400$ | $400 \\le x < 500$ | $x \\ge 500$\nFrequency | 622 | 225 | 96 | 32 | 13 | 12\nStating your hypotheses, use an appropriate test to determine, at the 5 % significance level, whether or not these data can be modelled by an exponential distribution with mean 100 hours."
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L4", "4.9"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 14]\nA shop sells apples and pears. The weights, in grams, of the apples may be assumed to have a $\\mathrm{N}(200, 15^2)$ distribution and the weights of the pears, in grams, may be assumed to have a $\\mathrm{N}(120, 10^2)$ distribution.\n(a) Find the probability that the weight of a randomly chosen apple is more than double the weight of a randomly chosen pear. [8 marks]\n(b) A shopper buys 3 apples and 4 pears. Find the probability that the total weight is greater than 1000 grams. [6 marks]"
+    },
+    "4": {
+      "topics": ["4"],
+      "subtopics": ["4.L6", "4.L7", "4.L5"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 14]\nThe random variable $X$ is normally distributed with unknown mean $\\mu$ and unknown variance $\\sigma^2$. A random sample of 10 observations on $X$ was taken and the following 95 % confidence interval for $\\mu$ was correctly calculated as $[4.35, 4.53]$.\n(a) Calculate an unbiased estimate for\n(i) $\\mu$,\n(ii) $\\sigma^2$. [8 marks]\n(b) The value of $\\mu$ is thought to be 4.5, so the following hypotheses are defined.\n$\\mathrm{H}_0: \\mu = 4.5;\\ \\mathrm{H}_1: \\mu < 4.5$\n(i) Find the $p$-value of the observed sample mean.\n(ii) State your conclusion if the significance level is\n(a) 1 %,\n(b) 10 %. [6 marks]"
+    },
+    "5": {
+      "topics": ["4"],
+      "subtopics": ["4.L2", "4.7"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 10]\nAnna has a fair cubical die with the numbers 1, 2, 3, 4, 5, 6 respectively on the six faces. When she tosses it, the score is defined as the number on the uppermost face. One day, she decides to toss the die repeatedly until all the possible scores have occurred at least once.\n(a) Having thrown the die once, she lets $X_2$ denote the number of additional throws required to obtain a different number from the one obtained on the first throw. State the distribution of $X_2$ and hence find $\\mathrm{E}(X_2)$. [3 marks]\n(b) She then lets $X_3$ denote the number of additional throws required to obtain a different number from the two numbers already obtained. State the distribution of $X_3$ and hence find $\\mathrm{E}(X_3)$. [2 marks]\n(c) By continuing the process, show that the expected number of tosses needed to obtain all six possible scores is 14.7. [5 marks]"
+    }
+  }
+}

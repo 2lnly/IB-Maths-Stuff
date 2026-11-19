@@ -1,0 +1,35 @@
+{
+  "exam_id": "math-2008-N-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L9", "4.8"],
+      "text_clean": "1. [Maximum mark: 12]\nThe hens on a farm lay either white or brown eggs. The eggs are put into boxes of six. The farmer claims that the number of brown eggs in a box can be modelled by the binomial distribution, $\\mathrm{B}(6, p)$. By inspecting the contents of 150 boxes of eggs she obtains the following data.\nNumber of brown eggs | 0 | 1 | 2 | 3 | 4 | 5 | 6\nNumber of boxes | 7 | 32 | 35 | 50 | 22 | 4 | 0\n(a) Show that this data leads to an estimated value of $p = 0.4$. [1 mark]\n(b) Stating null and alternative hypotheses, carry out an appropriate test at the 5 % level to decide whether the farmer's claim can be justified. [11 marks]",
+      "answer_status": "ok"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L5"],
+      "text_clean": "2. [Maximum mark: 9]\nThe apple trees in a large orchard have, for several years, suffered from a disease for which the outward sign is a red discolouration on some leaves.\nThe fruit grower knows that the mean number of discoloured leaves per tree is 42.3. The fruit grower suspects that the disease is caused by an infection from a nearby group of cedar trees. He cuts down the cedar trees and, the following year, counts the number of discoloured leaves on a random sample of seven apple trees. The results are given in the table below.\nTree | A | B | C | D | E | F | G\nNumber of red leaves | 32 | 16 | 57 | 28 | 55 | 12 | 45\n(a) From these data calculate an unbiased estimate of the population variance. [3 marks]\n(b) Stating null and alternative hypotheses, carry out an appropriate test at the 10 % level to justify the cutting down of the cedar trees. [6 marks]",
+      "answer_status": "ok"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L2"],
+      "text_clean": "3. [Maximum mark: 12]\n(a) The heating in a residential school is to be increased on the third frosty day during the term. If the probability that a day will be frosty is 0.09, what is the probability that the heating is increased on the $25^{\\text{th}}$ day of the term? [5 marks]\n(b) On which day is the heating most likely to be increased? [7 marks]",
+      "answer_status": "ok"
+    },
+    "4": {
+      "topics": ["4", "5"],
+      "subtopics": ["4.14", "4.L5", "4.L4", "4.12", "5.11"],
+      "text_clean": "4. [Maximum mark: 15]\n(a) A random variable, $X$, has probability density function defined by\n$f(x) = \\begin{cases} 100, & \\text{for } -0.005 \\le x < 0.005 \\\\ 0, & \\text{otherwise.} \\end{cases}$\nDetermine $\\mathrm{E}(X)$ and $\\mathrm{Var}(X)$. [5 marks]\n(b) When a real number is rounded to two decimal places, an error is made. Show that this error can be modelled by the random variable $X$. [2 marks]\n(c) A list contains 20 real numbers, each of which has been given to two decimal places. The numbers are then added together.\n(i) Write down bounds for the resulting error in this sum.\n(ii) Using the central limit theorem, estimate to two decimal places the probability that the absolute value of the error exceeds 0.01.\n(iii) State clearly any assumptions you have made in your calculation. [8 marks]",
+      "answer_status": "ok"
+    },
+    "5": {
+      "topics": ["4"],
+      "subtopics": ["4.L1", "4.11"],
+      "text_clean": "5. [Maximum mark: 12]\nA drinks machine sells cans of Ecoglug and Glucofizz. The number of cans of Ecoglug and Glucofizz sold during a fixed period of time have Poisson distributions with means 8 per hour and 12 per hour, respectively.\n(a) Find the probability that in a given 15 minute period fewer than 3 cans of Ecoglug are sold. [2 marks]\n(b) Find the probability that in a given 30 minute period more than 12 cans of drinks are sold. [3 marks]\n(c) In a given 5 minute period, exactly 2 cans are sold. Find the probability that they are both Glucofizz. [7 marks]",
+      "answer_status": "ok"
+    }
+  }
+}

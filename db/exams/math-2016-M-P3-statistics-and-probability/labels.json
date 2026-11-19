@@ -1,0 +1,37 @@
+{
+  "exam_id": "math-2016-M-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L4", "4.12", "4.9"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 12]\nAdam does the crossword in the local newspaper every day. The time taken by Adam, $X$ minutes, to complete the crossword is modelled by the normal distribution $\\mathrm{N}(22, 5^2)$.\n(a) Given that, on a randomly chosen day, the probability that he completes the crossword in less than $a$ minutes is equal to $0.8$, find the value of $a$. [3]\n(b) Find the probability that the total time taken for him to complete five randomly chosen crosswords exceeds $120$ minutes. [3]\nBeatrice also does the crossword in the local newspaper every day. The time taken by Beatrice, $Y$ minutes, to complete the crossword is modelled by the normal distribution $\\mathrm{N}(40, 6^2)$.\n(c) Find the probability that, on a randomly chosen day, the time taken by Beatrice to complete the crossword is more than twice the time taken by Adam to complete the crossword. Assume that these two times are independent. [6]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L8", "4.L7"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 10]\nThe random variables $X, Y$ follow a bivariate normal distribution with product moment correlation coefficient $\\rho$.\n(a) State suitable hypotheses to investigate whether or not $X, Y$ are independent. [2]\nA random sample of $10$ observations on $X, Y$ was obtained and the value of $r$, the sample product moment correlation coefficient, was calculated to be $0.486$.\n(b) (i) Determine the $p$-value.\n(ii) State your conclusion at the $5\\%$ significance level. [7]\n(c) Explain why the equation of the regression line of $y$ on $x$ should not be used to predict the value of $y$ corresponding to $x = x_0$, where $x_0$ lies within the range of values of $x$ in the sample. [1]"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L5", "4.14"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 15]\nThe continuous random variable $X$ takes values in the interval $[0, \\theta]$ and\n$\\mathrm{E}(X) = \\frac{\\theta}{2}$ and $\\mathrm{Var}(X) = \\frac{\\theta^2}{24}$.\nTo estimate the unknown parameter $\\theta$, a random sample of size $n$ is obtained from the distribution of $X$. The sample mean is denoted by $\\bar{X}$ and $U = k\\bar{X}$ is an unbiased estimator for $\\theta$.\n(a) Find the value of $k$. [3]\n(b) (i) Calculate an unbiased estimate for $\\theta$, using the random sample,\n$8.3, 4.2, 6.5, 10.3, 2.7, 1.2, 3.3, 4.3$.\n(ii) Explain briefly why this is not a good estimate for $\\theta$. [4]\n(c) (i) Show that $\\mathrm{Var}(U) = \\frac{\\theta^2}{6n}$.\n(ii) Show that $U^2$ is not an unbiased estimator for $\\theta^2$.\n(iii) Find an unbiased estimator for $\\theta^2$ in terms of $U$ and $n$. [8]"
+    },
+    "4": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L5", "4.L6"],
+      "answer_status": "ok",
+      "note": "ms crop fixed via overrides (stray 'y+1' from Q5 ms removed)",
+      "text_clean": "4. [Maximum mark: 11]\nThe owner of a factory is asked to produce bricks of weight $2.2\\,\\mathrm{kg}$. The quality control manager wishes to test whether or not, on a particular day, the mean weight of bricks being produced is $2.2\\,\\mathrm{kg}$.\n(a) State hypotheses to enable the quality control manager to test the mean weight using a two-tailed test. [2]\nHe therefore collects a random sample of $20$ of these bricks and determines the weight, $x\\,\\mathrm{kg}$, of each brick. He produces the following summary statistics.\n$\\sum x = 42.0, \\sum x^2 = 89.2$\n(b) (i) Calculate unbiased estimates of the mean and the variance of the weights of the bricks being produced.\n(ii) Assuming that the weights of the bricks are normally distributed, determine the $p$-value of the above results and state the conclusion in context using a $5\\%$ significance level. [7]\n(c) The owner is more familiar with using confidence intervals. Determine a $95\\%$ confidence interval for the mean weight of bricks produced on that particular day. [2]"
+    },
+    "5": {
+      "topics": ["4", "5", "1"],
+      "subtopics": ["4.L3", "4.14", "5.11", "5.6", "1.8"],
+      "answer_status": "ok",
+      "note": "ms crop fixed via overrides (integral upper limit y+1 was cut off)",
+      "text_clean": "5. [Maximum mark: 12]\nThe continuous random variable $X$ has probability density function\n$f(x) = \\begin{cases} \\mathrm{e}^{-x} & x \\ge 0 \\\\ 0 & x < 0 \\end{cases}$.\nThe discrete random variable $Y$ is defined as the integer part of $X$, that is the largest integer less than or equal to $X$.\n(a) Show that the probability distribution of $Y$ is given by $\\mathrm{P}(Y = y) = \\mathrm{e}^{-y}(1 - \\mathrm{e}^{-1}), y \\in \\mathbb{N}$. [4]\n(b) (i) Show that $G(t)$, the probability generating function of $Y$, is given by\n$G(t) = \\frac{1 - \\mathrm{e}^{-1}}{1 - \\mathrm{e}^{-1}t}$.\n(ii) Hence determine the value of $E(Y)$ correct to three significant figures. [8]"
+    }
+  }
+}

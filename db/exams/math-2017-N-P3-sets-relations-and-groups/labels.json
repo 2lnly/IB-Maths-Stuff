@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2017-N-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.6", "7.8"],
+      "text_clean": "1. [Maximum mark: 11]\nConsider the group $\\{G, \\times_{18}\\}$ defined on the set $\\{1, 5, 7, 11, 13, 17\\}$ where $\\times_{18}$ denotes multiplication modulo 18. The group $\\{G, \\times_{18}\\}$ is shown in the following Cayley table.\n[Table: Cayley table of $\\times_{18}$]\n$\\times_{18}$ | 1 | 5 | 7 | 11 | 13 | 17\n1 | 1 | 5 | 7 | 11 | 13 | 17\n5 | 5 | 7 | 17 | 1 | 11 | 13\n7 | 7 | 17 | 13 | 5 | 1 | 11\n11 | 11 | 1 | 5 | 13 | 17 | 7\n13 | 13 | 11 | 1 | 17 | 7 | 5\n17 | 17 | 13 | 11 | 7 | 5 | 1\n(a) (i) Find the order of elements $5$, $7$ and $17$ in $\\{G, \\times_{18}\\}$.\n(ii) State whether or not $\\{G, \\times_{18}\\}$ is cyclic, justifying your answer. [6]\nThe subgroup of $\\{G, \\times_{18}\\}$ of order two is denoted by $\\{K, \\times_{18}\\}$.\n(b) Write down the elements in set $K$. [1]\n(c) Find the left cosets of $K$ in $\\{G, \\times_{18}\\}$. [4]"
+    },
+    "2": {
+      "topics": ["7"],
+      "subtopics": ["7.1"],
+      "text_clean": "2. [Maximum mark: 8]\n$A$, $B$ and $C$ are three subsets of a universal set.\n(a) Represent each of the following sets on a Venn diagram,\n(i) $A \\Delta B$, the symmetric difference of the sets $A$ and $B$;\n(ii) $A \\cap (B \\cup C)$. [2]\nConsider the sets $P = \\{1, 2, 3\\}$, $Q = \\{2, 3, 4\\}$ and $R = \\{1, 3, 5\\}$.\n(b) (i) For sets $P$, $Q$ and $R$, verify that $P \\cup (Q \\Delta R) \\neq (P \\cup Q) \\Delta (P \\cup R)$.\n(ii) In the context of the distributive law, describe what the result in part (b)(i) illustrates. [6]"
+    },
+    "3": {
+      "topics": ["7"],
+      "subtopics": ["7.2"],
+      "text_clean": "3. [Maximum mark: 9]\nThe relation $R$ is defined on $\\mathbb{R} \\times \\mathbb{R}$ such that $(x_1, y_1) R (x_2, y_2)$ if and only if $x_1 y_1 = x_2 y_2$.\n(a) Show that $R$ is an equivalence relation. [5]\n(b) Determine the equivalence class of $R$ containing the element $(1, 2)$ and illustrate this graphically. [4]"
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.4", "7.5"],
+      "text_clean": "4. [Maximum mark: 14]\nThe set $S$ is defined as the set of real numbers greater than $1$.\nThe binary operation $*$ is defined on $S$ by $x * y = (x-1)(y-1) + 1$ for all $x, y \\in S$.\n(a) Show that $x * y \\in S$ for all $x, y \\in S$. [2]\n(b) Show that the operation $*$ on the set $S$ is\n(i) commutative;\n(ii) associative. [7]\n(c) Show that $2$ is the identity element. [2]\nLet $a \\in S$.\n(d) Show that each element $a \\in S$ has an inverse. [3]"
+    },
+    "5": {
+      "topics": ["7"],
+      "subtopics": ["7.8", "7.9"],
+      "text_clean": "5. [Maximum mark: 8]\nLet $f: G \\to H$ be a homomorphism between groups $\\{G, *\\}$ and $\\{H, \\circ\\}$ with identities $e_G$ and $e_H$ respectively.\n(a) Prove that $f(e_G) = e_H$. [2]\n(b) Prove that $\\mathrm{Ker}(f)$ is a subgroup of $\\{G, *\\}$. [6]"
+    }
+  }
+}

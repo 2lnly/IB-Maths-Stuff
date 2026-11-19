@@ -1,0 +1,207 @@
+{
+ "exam_id": "math-2007-N-P3",
+ "questions": {
+  "A1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.12",
+    "4.9"
+   ],
+   "text_clean": "1. [Maximum mark: 11]\nJuan plays a quiz game. The scores he achieves on the separate topics may be modelled by independent normal distributions.\n(a) On the topic of sport, the scores have the distribution $\\mathrm{N}(75, 12^2)$.\nFind the probability that Juan scores less than 57 points on the topic of sport. [2 marks]\n(b) On the topic of literature, Juan's scores have a mean of 45, and 30 % of his scores are greater than 50.\nFind the standard deviation of his scores on the topic of literature. [3 marks]\n(c) Juan claims that he scores better in current affairs than in sport. He achieves the following scores on current affairs in 10 separate quizzes.\n91 84 75 92 88 71 83 90 85 78\nPerform a hypothesis test at the 5 % significance level to decide whether there is evidence to support his claim. [6 marks]",
+   "answer_status": "ok"
+  },
+  "A2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.8"
+   ],
+   "text_clean": "2. [Maximum mark: 20]\n(a) A horse breeder records the number of births for each of 100 horses during the past eight years. The results are summarized in the following table:\nNumber of births | 0 | 1 | 2 | 3 | 4 | 5 | 6\nFrequency | 1 | 5 | 26 | 37 | 18 | 12 | 1\nStating null and alternative hypotheses carry out an appropriate test at the 5 % significance level to decide whether the results can be modelled by $\\mathrm{B}(6, 0.5)$. [10 marks]\n(b) Without doing any further calculations, explain briefly how you would carry out a test, at the 5 % significance level, to decide if the data can be modelled by $\\mathrm{B}(6, p)$, where $p$ is unspecified. [2 marks]\n(c) A different horse breeder collected data on the time and outcome of births. The data are summarized in the following table:\nOutcome | Day | Night\nLive male | 68 | 42\nLive female | 103 | 57\nDead male | 8 | 18\nDead female | 6 | 12\nCarry out an appropriate test at the 5 % significance level to decide whether there is an association between time and outcome. [8 marks]",
+   "answer_status": "ok"
+  },
+  "A3": {
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.L1",
+    "4.L3",
+    "4.11",
+    "5.11"
+   ],
+   "text_clean": "3. [Maximum mark: 15]\n(a) The exponential distribution has the probability density function\n$f(x) = \\begin{cases} \\lambda e^{-\\lambda x}, & \\text{for } x \\ge 0 \\\\ 0, & \\text{for } x < 0. \\end{cases}$\nShow that the mean is greater than the median. [4 marks]\n(b) The time in seconds between arrivals of butterflies on a flowering bush can be modelled by an exponential distribution with parameter $\\lambda = 0.1$.\nA butterfly arrives on the bush.\n(i) Calculate the probability that no other butterfly arrives within 20 seconds.\n(ii) Given that no other butterfly has arrived within 20 seconds, calculate the probability that the next butterfly arrives within 50 seconds of the first. [6 marks]\n(c) The number of goals scored by a soccer team in a period of duration $t$ minutes follows a Poisson distribution with mean $\\frac{t}{36}$.\n(i) Write down the probability that no goals are scored during a period of duration $t$ minutes.\n(ii) The random variable $T$ is defined as the length of time, in minutes, between successive goals. Show that $T$ follows an exponential distribution. [5 marks]",
+   "answer_status": "ok"
+  },
+  "A4": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.8",
+    "4.L6"
+   ],
+   "text_clean": "4. [Maximum mark: 14]\n(a) It was found that $x$ people in a sample of 225 supported a smoking ban in public places. If the 95 % confidence interval for the proportion of people supporting the ban in the population from which the sample was taken is $[0.2297, 0.3481]$ calculate the value of $x$. [4 marks]\n(b) A coin is thought to be biased.\nTo test the coin for bias, Amanda suggests that it should be tossed three times. If all three tosses are heads or all three tosses are tails, then we conclude that the coin is biased.\nRoger suggests that it should be tossed eight times. If at least six tosses are heads or at least six tosses are tails, then we conclude that the coin is biased.\n(i) Determine which of the two methods has the smaller probability of making a Type I error.\n(ii) Determine the probability that Roger will make a Type II error when the probability of a head is actually 0.6. [10 marks]",
+   "answer_status": "ok"
+  },
+  "B1": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "text_clean": "1. [Maximum mark: 11]\nFor each $n \\in \\mathbb{Z}^+$, a subset of $\\mathbb{Z}^+$ is defined by $S_n = \\{x \\in \\mathbb{Z}^+ \\mid n \\text{ divides } x\\}$.\n(a) Express in simplest terms the membership of the following sets:\n(i) $S_1$;\n(ii) $S_2'$;\n(iii) $S_2 \\cap S_3$;\n(iv) $S_6 \\setminus S_3$. [7 marks]\n(b) Prove that $(A \\setminus B) \\cup (B \\setminus A) = (A \\cup B) \\setminus (A \\cap B)$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "B2": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "text_clean": "2. [Maximum mark: 12]\nTwo relations, $M$ and $N$, are defined on $\\mathbb{R}$ by:\n$xMy$ if and only if $|x| \\le |y|$;\n$xNy$ if and only if $x^2 - 2x = y^2 - 2y$.\n(a) Determine whether $M$ is an equivalence relation. [2 marks]\n(b) (i) Prove that $N$ is an equivalence relation.\n(ii) Determine the equivalence classes of $N$.\n(iii) Find the equivalence class containing only one element. [10 marks]",
+   "answer_status": "ok"
+  },
+  "B3": {
+   "topics": [
+    "7",
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "7.3",
+    "2.5",
+    "2.16",
+    "2.6",
+    "5.2"
+   ],
+   "text_clean": "3. [Maximum mark: 15]\nLet $F(x) = x^2 - |x-2|$.\n(a) The function $f$ is defined by\n$f: ]-\\infty, 1] \\to \\mathbb{R}$, where $f(x) = F(x)$.\nFind the range of $f$ and determine whether it is an injection. [5 marks]\n(b) The function $g$ is defined by\n$g: [1, \\infty[ \\to [0, \\infty[$, where $g(x) = F(x)$.\nShow that $g$ has an inverse and find this inverse. [10 marks]",
+   "answer_status": "ok",
+   "note": "Official markscheme for (b) contains typos (second branch repeats the first branch's inverse; should be $\\sqrt{x-9/4}+1/2$ on ]4,∞[); kept as official."
+  },
+  "B4": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.5",
+    "7.7",
+    "7.6",
+    "7.8"
+   ],
+   "text_clean": "4. [Maximum mark: 22]\n(a) $S$ is the set of permutations $\\{P, Q, R, T\\}$ where\n$P = \\begin{pmatrix}1&2&3&4\\\\1&2&3&4\\end{pmatrix}$, $Q = \\begin{pmatrix}1&2&3&4\\\\4&1&2&3\\end{pmatrix}$, $R = \\begin{pmatrix}1&2&3&4\\\\3&4&1&2\\end{pmatrix}$, $T = \\begin{pmatrix}1&2&3&4\\\\2&3&4&1\\end{pmatrix}$.\nComplete a Cayley table for $S$ under the operation $*$ (composition of permutations) and show that $(S, *)$ is a cyclic group. [9 marks]\n(b) A binary operation $\\otimes$ is defined on $\\mathbb{R}$ by\n$x \\otimes y = x + y + sxy$\nwhere $s$ is a fixed non-zero real number.\n(i) Show that $\\otimes$ is commutative and associative on $\\mathbb{R}$.\n(ii) Find the identity, and hence find the inverse, of the element $x$. Show, however, that one particular value of $x$ has no inverse. Call this value $t$.\n(iii) Determine whether or not $\\{\\mathbb{R} \\setminus t, \\otimes\\}$ is an Abelian group. Find a subset of $\\mathbb{R}$ which forms a group of order two. [13 marks]",
+   "answer_status": "ok"
+  },
+  "C1": {
+   "topics": [
+    "5",
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "5.19",
+    "1.10",
+    "3.9",
+    "5.15"
+   ],
+   "text_clean": "1. [Maximum mark: 19]\n(a) (i) State the domain and range of the function $f(x) = \\arcsin(x)$.\n(ii) Determine the first two non-zero terms in the Maclaurin series for $f(x)$. [8 marks]\n(b) Use the small angle approximation\n$\\cos(y) \\approx 1 - \\frac{y^2}{2} + \\frac{y^4}{24}$\nto find a series for $\\cos(\\arcsin(x))$ up to and including the term in $x^4$. [4 marks]\n(c) (i) Find the Maclaurin series for $(p + qx^2)^r$ up to and including the term in $x^4$ where $p, q, r \\in \\mathbb{R}$.\n(ii) Find values of $p, q, r$ such that your series in (c)(i) is identical to your answer to (b). Comment on this result. [7 marks]",
+   "answer_status": "ok"
+  },
+  "C2": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.13",
+    "1.7"
+   ],
+   "text_clean": "2. [Maximum mark: 10]\n(a) Determine $\\lim_{x \\to 0}\\left(\\frac{\\ln(a^2 + x^2)}{\\ln(a - x^3)}\\right)$, where $a$ is a positive constant, not equal to 1. [3 marks]\n(b) Calculate $\\lim_{x \\to 0}\\left(\\frac{\\ln(1 + x^2)}{\\ln(1 - x^2)}\\right)$. [3 marks]\n(c) Show that $\\lim_{x \\to 0}\\left(\\frac{2 + x^2 - 2\\cos x}{e^x + e^{-x} - 2\\cos x}\\right) = 1$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "C3": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15"
+   ],
+   "text_clean": "3. [Maximum mark: 14]\n(a) A homogeneous differential equation has the form\n$\\frac{dy}{dx} = F\\left(\\frac{y}{x}\\right)$.\nShow that the substitution $v = \\frac{y}{x}$ leads to a differential equation which can be solved by separation of variables. [3 marks]\n(b) Show that the linear change of variables $X = x - 1, Y = y - 2$, transforms the equation\n$\\frac{dy}{dx} = \\frac{x + 3y - 7}{3x - y - 1}$ to a homogeneous form.\nHence solve this equation. [11 marks]",
+   "answer_status": "ok"
+  },
+  "C4": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L5",
+    "5.15",
+    "5.L7"
+   ],
+   "text_clean": "4. [Maximum mark: 17]\n(a) (i) By considering the graph of $y = \\frac{1}{x}$ between $x = a$ and $x = a + 1$, show that\n$\\frac{1}{a+1} < \\ln\\left(\\frac{a+1}{a}\\right) < \\frac{1}{2}\\left(\\frac{1}{a} + \\frac{1}{a+1}\\right)$, for all $a > 0$.\n(ii) Deduce that\n$\\frac{1}{2} < \\ln 2 < \\frac{3}{4}$.\n(iii) Using (i) find $p, q \\in \\mathbb{Q}$ such that $p < \\ln 3 < q$. [8 marks]\n(b) Given that $H_n$ is the $n^{\\text{th}}$ partial sum of the harmonic series, show that\n$H_n - 1 < \\ln n < H_n - \\frac{1}{2} - \\frac{1}{2n}$, for $n > 1$. [5 marks]\n(c) If $\\gamma_n = H_n - \\ln n$, prove that the terms of the sequence $\\{\\gamma_n : n \\ge 1\\}$ decrease as $n$ increases. [4 marks]",
+   "answer_status": "ok",
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "Area/trapezium bounds on integral -> 5.L5; monotone sequence in (c) tagged 5.L7 as closest fit."
+  },
+  "D1": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.2",
+    "6.4",
+    "6.1"
+   ],
+   "text_clean": "1. [Maximum mark: 15]\n(a) (i) Find the base 8 representation of the decimal number 1001.\n(ii) Prove that a number is divisible by 7 if and only if the sum of the digits in its base 8 representation is also divisible by 7.\n(iii) Use the results from (i) and (ii) to show that the decimal number 1001 is divisible by 7. [9 marks]\n(b) Solve the system of simultaneous congruences:\n$x \\equiv 4 \\pmod{9}$\n$x \\equiv 3 \\pmod{5}$. [6 marks]",
+   "answer_status": "ok"
+  },
+  "D2": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8"
+   ],
+   "text_clean": "2. [Maximum mark: 9]\nThe weights of the edges of a graph are given in the following table:\n | A | B | C | D | E | F | G | H | I\nA | | 5 | | 2 | | | | |\nB | 5 | | 4 | 3 | 5 | 6 | | |\nC | | 4 | | | | 3 | | |\nD | 2 | 3 | | | 7 | | 6 | 8 |\nE | | 5 | | 7 | | 1 | | 3 |\nF | | 6 | 3 | | 1 | | | 4 | 4\nG | | | | 6 | | | | 4 |\nH | | | | 8 | 3 | 4 | 4 | | 2\nI | | | | | | 4 | | 2 |\n(a) Starting at A, use Prim's algorithm to find a minimum spanning tree for this graph. [7 marks]\n(b) Draw this minimum spanning tree and state its weight. [2 marks]",
+   "answer_status": "ok"
+  },
+  "D3": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6"
+   ],
+   "text_clean": "3. [Maximum mark: 19]\nA graph $G$ has $e$ edges and $n$ vertices.\n(a) Show that the sum of the degrees of the vertices is twice the number of edges. [1 mark]\n(b) Deduce that $G$ has an even number of vertices of odd degree. [4 marks]\n(c) (i) Graph $G$ is connected, planar and divides the plane into exactly four regions. If $(n-1)$ vertices have degree three and exactly one vertex has degree $d$, determine the possible values of $(n, d)$.\n(ii) For each possible $(n, d)$, draw a graph which satisfies the conditions described in (c)(i). [14 marks]",
+   "answer_status": "ok"
+  },
+  "D4": {
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.4",
+    "1.15",
+    "6.5",
+    "6.1",
+    "6.2"
+   ],
+   "text_clean": "4. [Maximum mark: 17]\n(a) Show that $10^n + 3 \\times 4^{n+2} + 5$, $n \\in \\mathbb{Z}^+$ is a multiple of 9. [8 marks]\n(b) (i) Use Fermat's Little Theorem to show that $x \\equiv a^{p-2}b \\pmod{p}$ is a solution to the linear congruence $ax \\equiv b \\pmod{p}$ where $p$ is a prime number and $a, b \\in \\mathbb{Z}^+$.\nHence solve $4x \\equiv 3 \\pmod{7}$.\n(ii) Find the last digit in the base 9 expansion of $5^{155}$. [9 marks]",
+   "answer_status": "ok"
+  }
+ }
+}

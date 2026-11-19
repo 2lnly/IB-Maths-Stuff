@@ -1,0 +1,292 @@
+{
+ "exam_id": "math-2023-M-P2-TZ2",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2023,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2023 May Examination Session/Mathematics_analysis_and_approaches_paper_2__TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2023 May Examination Session/Mathematics_analysis_and_approaches_paper_2__TZ2_HL_markscheme.pdf",
+ "notes": "4 duplicate copies (3 byte-identical size, 1 donated/scanned); duplicate /home/xiaohe/stuff/IB PAST PAPERS - YEAR/2023 Examination Session/DONATED PAPERS M23/Math_AAHL_P2_TZA&B.pdf: time zone TZ2 assigned via printed paper number 2223-7112 (filename zone A&B); paper number 2223-7112; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2023-M-P2-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nA botanist is conducting an experiment which studies the growth of plants.\nThe heights of the plants are measured on seven different days.\nThe following table shows the number of days, d , that the experiment has been running and\nthe average height, hcm , of the plants on each of those days.\nNumber of days (d) 2 5 13 24 33 37 42\nAverage height (h) 10 16 30 59 76 79 82\nThe value of Pearson’s product-moment correlation coefficient, r , for this data is 0.991 ,\ncorrect to three significant figures.\nThe regression line of h on d for this data can be written in the form h = ad + b . (a)\nFind the value of a and the value of b .\b [2]\n(b) Use your regression line to estimate the average height of the plants when the\nexperiment has been running for 20 days.\b [2]",
+   "ms_text": "1. (a) a = 1.93258... , b = 7.21662...\na = 1.93 , b = 7.22 A1A1\n[2 marks]\n(b) attempt to substitute d= 20 into their equation (M1)\nheight = 45.8683...\nheight = 45.9 (cm) A1\n[2 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nA botanist is conducting an experiment which studies the growth of plants.\nThe heights of the plants are measured on seven different days.\nThe following table shows the number of days, $d$, that the experiment has been running and the average height, $h$ cm, of the plants on each of those days.\nNumber of days ($d$) | 2 | 5 | 13 | 24 | 33 | 37 | 42\nAverage height ($h$) | 10 | 16 | 30 | 59 | 76 | 79 | 82\nThe value of Pearson's product-moment correlation coefficient, $r$, for this data is $0.991$, correct to three significant figures.\n(a) The regression line of $h$ on $d$ for this data can be written in the form $h = ad + b$.\nFind the value of $a$ and the value of $b$. [2]\n(b) Use your regression line to estimate the average height of the plants when the experiment has been running for $20$ days. [2]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nThe following diagram shows two buildings situated on level ground.\nFrom point P on the ground directly between the two buildings, the angle of elevation to the\ntop of each building is θ .\ndiagram not to scale\nA\n154m\nB\n150m\nh\n90m\nθ θ\nP\nThe distance from point P to point A at the top of the taller building is 150 metres.\nThe distance from point P to point B at the top of the shorter building is 90 metres.\nThe distance between A and B is 154 metres.\nFind the height, h , of the taller building.",
+   "ms_text": "2. METHOD 1\nattempt to substitute into cosine rule (M1)\n2 2 2 150 + 90 − 154\n2 2 2 ˆ ˆ 154 = 150 + 90 − 2150 ( )( 90cosAPB ) OR cosAPB =\n(A1)\n2150 ( )( 90 )\nˆ APB = 75.2286... ° OR 1.31298... radians\nˆ APB = 75.2 ° OR 1.31radians\n(A1)\nvalid approach to find θ (M1)\n180 °− APB ˆ 180 °− 75.2286... °\nθ = OR θ = ( = 52.3856... ) OR\n2 2\nπ1.31298... −\nθ = ( = 0.914302... )\n2\nvalid approach to express h in terms of θ (M1)\nh\nsinθ = OR h = 150sin52.3856... °\n150\nh = 118.820...\nh = 119 (m) A1\n[6 marks]\nMETHOD 2\nattempts to find either the distance between the buildings or the difference in height\nbetween the buildings in terms of θ (M1)\ndistance between the buildings is ( 150 + 90cosθ ) and the difference in height between\nthe buildings is ( 150 − 90sinθ ) (A1)\nuses Pythagoras and attempts to solve for θ (M1)\n2 2 2\n( 60sin θ ) + ( 240cos θ ) = 154\nθ= 0.914302... ( = 52.3856... ° ) (A1)\nh=\nsin0.914302... ( ) (M1)\n150\nh = 118.820...\nh = 119 (m) A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nThe following diagram shows two buildings situated on level ground.\nFrom point P on the ground directly between the two buildings, the angle of elevation to the top of each building is $\\theta$.\n[Diagram not to scale: taller building on the left with top A and height $h$, shorter building on the right with top B; P on the ground between them; PA = 150 m, PB = 90 m, AB = 154 m; angles of elevation $\\theta$ at P to A and to B]\nThe distance from point P to point A at the top of the taller building is $150$ metres.\nThe distance from point P to point B at the top of the shorter building is $90$ metres.\nThe distance between A and B is $154$ metres.\nFind the height, $h$, of the taller building. [6]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 8]\nThe weights, W grams, of bags of rice packaged in a factory can be modelled by a normal\ndistribution with mean 204 grams and standard deviation 5 grams.\n(a) A bag of rice is selected at random.\nFind the probability that it weighs more than 210 grams.\b [2]\nAccording to this model, 80 % of the bags of rice weigh between w grams and 210 grams.\n(b) Find the probability that a randomly selected bag of rice weighs less than w grams.\b [2]\n(c) Find the value of w .\b [2]\n(d) Ten bags of rice are selected at random.\nFind the probability that exactly one of the bags weighs less than w grams.\b [2]",
+   "ms_text": "3. (a) evidence of attempting to find correct area under normal curve (M1)\nP ( W> 210 ) OR sketch\n( ) P W> 210 = 0.115069...\nP ( W> 210 ) = 0.115 A1\n[2 marks]\nrecognizing ( < ) =− ( < < ) − ( > ) (b) P W w 1P w W 210 P W 210 (M1)\nP ( W < w ) =− 10.8 − 0.115069...\n( ) P W < w = 0.084930...\nP ( W < w ) = 0.0849 A1\n[2 marks]\n(c) evidence of attempting to use inverse normal function (M1)\nw = 197.136...\nw = 197 (grams) A1\n[2 marks]\n(d) recognition of binomial distribution (M1)\nX: B10,0.0849302... ( )\nP( X= 1) = 0.382076...\nP( X= 1) = 0.382 A1\n[2 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.12",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 8]\nThe weights, $W$ grams, of bags of rice packaged in a factory can be modelled by a normal distribution with mean $204$ grams and standard deviation $5$ grams.\n(a) A bag of rice is selected at random.\nFind the probability that it weighs more than $210$ grams. [2]\nAccording to this model, $80\\%$ of the bags of rice weigh between $w$ grams and $210$ grams.\n(b) Find the probability that a randomly selected bag of rice weighs less than $w$ grams. [2]\n(c) Find the value of $w$. [2]\n(d) Ten bags of rice are selected at random.\nFind the probability that exactly one of the bags weighs less than $w$ grams. [2]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\nThe expansion of (x+h)8 , where h∈⁄+ , can be written\nas x8+ax7+bx6+cx5+dx4+ ... +h8 , where a , b , c , d , ... ∈ϒ .\nGiven that the coefficients, a , b and d , are the first three terms of a geometric sequence,\nfind the value of h .",
+   "ms_text": "8\nattempt to use the binomial expansion of ( ) 4. x + h (M1)\n8 8 0 8 7 1 8 6 2 Cxh + C xh + Cxh + ...\n0 1 2\na = 8 h (accept 8 Ch ) A1\n1\n2 2 b = 28 h (accept 8 Ch)\nA1\n2\n4 4 d = 70 h (accept 8 Ch)\nA1\n4\nrecognition that there is a common ratio between their terms (M1)\n8 hr × = 28 h 2 28 h 2 × r = 70 h 4 8 hr × 2 = 70 h 4 OR OR\ncorrect equation in terms of h (A1)\n2 4 28 h 70 h\n= (or equivalent)\n2 8 h 28 h\nh = 1.4 A1\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9",
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\nThe expansion of $(x+h)^8$, where $h \\in \\mathbb{Q}^+$, can be written as $x^8 + ax^7 + bx^6 + cx^5 + dx^4 + \\dots + h^8$, where $a, b, c, d, \\dots \\in \\mathbb{R}$.\nGiven that the coefficients, $a$, $b$ and $d$, are the first three terms of a geometric sequence, find the value of $h$. [7]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nA particle moves in a straight line such that its velocity, vm s-1, at time t seconds is given\nt\n− t π\nby v t () = 4 e 3 cos − , for 0≤t≤4π . The graph of v is shown in the following diagram.\n2 4\nv(t)\nt\n4π\nLet t1 be the first time when the particle’s acceleration is zero.\n(a) Find the value of t1 .\b [2]\nLet t2 be the second time when the particle is instantaneously at rest.\n(b) Find the value of t2 .\b [2]\n(c) Find the distance travelled by the particle between t=t1 and t=t2 .\b [2]",
+   "ms_text": "recognize that acceleration is zero when () vt ′ = 0 5. (a) OR at a local maximum on the\ngraph of v (M1)\nt= 0.394791...\n1\n5\nt = 0.395 = (seconds) A1\n1 arctan12\n[2 marks]\n(b) recognition that v = 0 (M1)\nsketch OR t = 4.71238... OR t = 10.9955...\nt= 10.9955...\n2\n7π\nt = 11.0 = A1\n2\n2\n[2 marks]\nt 10.9955... 4.71238... 10.9955... 2\n(c) v d t OR v d t OR v d t + v d t ( = 6.53806...1.29313... + ) ∫ ∫ ∫ ∫\nt 1 0.394791... 0.394791... 4.71238...\n4.71238... 10.9955...\n( ( ) ) OR ∫ v d t − ∫ v d t = 6.53806... −− 1.29313... (A1)\n0.394791... 4.71238...\ndistance = 7.83118…\n= 7.83 (m) A1\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nA particle moves in a straight line such that its velocity, $v$ m s$^{-1}$, at time $t$ seconds is given by $v(t) = 4e^{-\\frac{t}{3}}\\cos\\left(\\frac{t}{2} - \\frac{\\pi}{4}\\right)$, for $0 \\le t \\le 4\\pi$. The graph of $v$ is shown in the following diagram.\n[Graph: $v(t)$ against $t$ for $0 \\le t \\le 4\\pi$; starts positive, falls through zero, small negative trough, then rises back towards zero near $4\\pi$]\nLet $t_1$ be the first time when the particle's acceleration is zero.\n(a) Find the value of $t_1$. [2]\nLet $t_2$ be the second time when the particle is instantaneously at rest.\n(b) Find the value of $t_2$. [2]\n(c) Find the distance travelled by the particle between $t = t_1$ and $t = t_2$. [2]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 8]\nConsider the two planes\nΠ1 : 2x-y+2z=6\nΠ2 : 4x+3y-z=2\nLet L be the line of intersection of Π1 and Π2 .\n0 1\nVerify that a vector equation of L is r = 2 + λ − 2 (a) , where l∈ϒ .\b [3]\n4 − 2\n(b) Find the coordinates of the point P on L that is nearest to the origin.\b [5]",
+   "ms_text": "6. (a) METHOD 1\nthe general point on L has coordinates ( λ ,2 − 2,4 λ − 2 λ )\nsubstitutes this general point into both Π and Π (M1)\n1 2\n( ) ( )( ) 2 λ − 2 − 2 λ + 24 − 2 λ = 2 λ − 2 + 2 λ +− 8 4 λ A1\n= 6 AG\n4 λ + 32 ( − 2 λ )( − 4 − 2 λ )( = 4 λ + 6 − 6 λ − 4 + 2 λ ) A1\n= 2 AG\n0 1\nso the vector equation of L can be written as r = 2 + λ − 2 AG\n4 − 2\nNote: Award(M1)A0A0for correct verification using a specific value of λ .\nMETHOD 2\nsubstitutes ( 0,2,4 into both ) Π and Π and shows that\n1 2\n0 − 2 + 8 = 6 and 0 + 6 − 4 = 2 A1\nhence ( 0,2,4 lies in both ) Π and Π AG\n1 2\nEITHER\n2 4\nattempts to find − 1 × 3 M1\n2 − 1\n− 5\n= 10 A1\n10\nOR\n1 2 1 4\n− − − attempts to find 2 γ 1 and 2 γ 3 M1\n− 2 2 − 2 − 1\n( ) and ( ) 2 + 2 − 4 = 0 4 − 6 + 2 = 0 A1\nTHEN\n1\n(so − 2 is perpendicular to both normal vectors)\n− 2\n0 1\nso the vector equation of L can be written as r = 2 + λ − 2 AG\n4 − 2\nNote: AwardM1for substituting x = 0 (or y = 2 or z = 4 ) into Π and Π and\n1 2\nsolving simultaneously, for example, solving −+ y 2 z = 6 and 3 y − z = 2 .\nAward A1 for y = 2 and z = 4 , for example.\nMETHOD 3\nattempts row reduction to obtain eg,\nz\n= − = − x + 2 and y z 2 (M1)\n2\nz\nsubstitutes x = λ into x + = 2 , solves for z and obtains z = 4 − 2 λ A1\n2\nsubstitutes z = 4 − 2 λ into y − z = −, solves for y and obtains 2 y = 2 − 2 λ A1\n0 1\n= + λ − so the vector equation of L can be written as r 2 2 AG\n4 − 2\nMETHOD 4\nattempts to solve 2 x − y + 2 z = 6 and 4 x + 3 y − z = 2 (M1)\nfor example, x = λ , y = 2 − 2, λ z = 4 − 2 λ A2\n0 1\nso the vector equation of L can be written as r = 2 + λ − 2 AG\n4 − 2\nNote: Only award marks for convincing use of a GDC.\n[3 marks]\n(b) EITHER\nthe position vector for point P nearest to the origin is perpendicular to the\ndirection of L\nλ 1\n2 − 2 λ ⋅− 2 = 0 (M1)\n4 − 2 λ − 2\nλ − 22 ( − 2 λ ) − 24 ( − 2 λ ) = 0 (A1)\n9 λ − 12 = 0 (A1)\nOR\nlet s be the distance from the origin to a point P on L , then\n2 2\ns 2 = λ 2 + ( 2 − 2 λ ) + ( 4 − 2 λ ) (A1)\n2 d s\nattempts to find λ such that ()\n= 0 (M1)\nd λ\n2\neither () d s\n= 18 λ − 24 ( = 0 ) or a graph of 2s versus λ (A1)\nd λ\n2 2\n= λ 2 + ( − λ ) + ( − λ ) Note: Award as above for use of s 2 2 4 2 .\nTHEN\n4\nλ = A1\n3\n4 24\nP , − , P(1.33,0.667,1.33 − ) A1 (\n3 33\n[5 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.18",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 8]\nConsider the two planes\n$\\Pi_1 : 2x - y + 2z = 6$\n$\\Pi_2 : 4x + 3y - z = 2$\nLet $L$ be the line of intersection of $\\Pi_1$ and $\\Pi_2$.\n(a) Verify that a vector equation of $L$ is $\\boldsymbol{r} = \\begin{pmatrix}0\\\\2\\\\4\\end{pmatrix} + \\lambda\\begin{pmatrix}1\\\\-2\\\\-2\\end{pmatrix}$, where $\\lambda \\in \\mathbb{R}$. [3]\n(b) Find the coordinates of the point P on $L$ that is nearest to the origin. [5]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 5]\nA function f is defined as f(x)=arctan(x-2) , where 2 ≤ x ≤ 2 + 3 .\nThe region bounded by the curve, the y-axis, the x-axis and the line y =π is rotated 360º\n3 about the y-axis to form a solid of revolution.\nFind the volume of the solid.",
+   "ms_text": "7. attempts to express x in terms of tan y (M1)\nx = tan y + 2 (A1)\nlet V be the volume of the solid\nb\n2 correctly uses V π x d y\n(M1) =∫\na\nb\n2\nV = π ( arctan( x − 2) ) dy Note:Award M0 for ∫\na\nπ\n3 1.0472...\n2 2\nV = π ∫ ( tan y + 2 ) d y = π ∫ ( tan y + 2 ) d y (A1)\n0 0\n= 24.0213...\n= 24.0 ( = π4ln2 ( + π + 3 ) ) A1\nNote: GDC in degrees gives13.3\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.17",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 5]\nA function $f$ is defined as $f(x) = \\arctan(x-2)$, where $2 \\le x \\le 2 + \\sqrt{3}$.\nThe region bounded by the curve, the $y$-axis, the $x$-axis and the line $y = \\frac{\\pi}{3}$ is rotated $360^\\circ$ about the $y$-axis to form a solid of revolution.\nFind the volume of the solid. [5]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\n2 x − 5\nA function g is defined by gx () = , where x∈ϒ , x ≠±3 .\nx 2 − 3\n(a) Determine the range of g .\b [4]\nA function h is defined by h(x)=g(| x |)cost , where x∈ϒ , x ≠±3 and t is a constant\nwhere π t π\n.\n2<≤\n(b) Find the set of values of x such that h(x)≤0 .\b [3]",
+   "ms_text": "8. (a) EITHER\nattempts to find the - ycoordinate of either the local minimum point or the local\nmaximum point (M1)\nOR\n2 2 attempts to find the discriminant of 2 x − 5 = yx ( − 3 )( yx − 2 x + (5 − 3) y = 0 )\n(M1)\n2 ∆= 4 − 4 y ( 5 − 3 y )( = 4 − 20 y + 12 y )\nTHEN\ny = 1.43425... (local min.) and y = 0.232408... (local max.) (A1)(A1)\n− 13 + 5 13 + 5\ngx≤ () 0.232 OR () gx≥ 1.43 (() gx ≤ OR () gx ≥ ) A1\n6 6\nNote: Accept other valid notations such as interval notation.\n[4 marks]\n2 x − 5\nfor π\n(b) ≥ 0 (since cos t < 0 <≤ t π ) (R1)\n2 − 3 2 x\nattempts to solve graphically or algebraically (M1)\n5 5\nx ≤− OR − 3 < x < 3 ( − 1.73 < x < 1.73 ) OR x ≥ A1\n2 2\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.16",
+    "2.15",
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nA function $g$ is defined by $g(x) = \\frac{2x-5}{x^2-3}$, where $x \\in \\mathbb{R}$, $x \\ne \\pm\\sqrt{3}$.\n(a) Determine the range of $g$. [4]\nA function $h$ is defined by $h(x) = g(|x|)\\cos t$, where $x \\in \\mathbb{R}$, $x \\ne \\pm\\sqrt{3}$ and $t$ is a constant where $\\frac{\\pi}{2} < t \\le \\pi$.\n(b) Find the set of values of $x$ such that $h(x) \\le 0$. [3]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 5]\nLet S be the set of 30 positive integers {1, 2, 3, ... , 28, 29, 30} .\nRaghu randomly selects three positive integers from S without replacement. He then adds\nthem together and determines whether the sum is divisible by 3 .\nDetermine the total number of selections Raghu can make to obtain a sum that is divisible\nby 3 .\nYou may assume that order is not important, for example,\n{1, 2, 3},{1, 3, 2},{2, 3, 1},{2, 1, 3},{3, 1, 2},{3, 2, 1} are all considered to be the\nsame selection.\b [5]",
+   "ms_text": "9. METHOD 1\n10 numbers of the form 3n , 10 numbers of the form ( 3 n − 1 ) and 10 numbers of the\nform ( 3 n − 2 ) ( may be seen anywhere) (M1)\nconsiders one of the following two cases of forming a sum divisible by 3 (M1)\ncase 1:\nchooses 3 numbers of the form 3n or chooses 3 numbers of the form ( 3 n − 1 ) or\nchooses 3 numbers of the form ( 3 n − 2 )\n10 10 10 10 C + C + C ( =× 3 C =× 3120 = 360 ) ways\nA1\n3 3 3 3\ncase 2:\nchooses 1 number of the form 3n and chooses 1 number of the form ( 3 n − 1 ) and\nchooses 1 number of the form ( 3 n − 2 )\n30 20 10\n3 C × C × C 10 10 10\n( 10 3 ) 1 1 1 C × C × C = ( C ) = 10 = 1000 ways OR ( = 1000 ) ways A1\n1 1 1 1\n3!\n10 10 10 10 ( ) total number of ways is 3 × C + C × C × C = 3601000 +\n3 1 1 1\n= 1360 A1\nMETHOD 2\ntotal number of ways of choosing 3 numbers (without restriction) is 30 4060 C= A1\n3\nattempts to find the total number of ways of choosing 3 numbers whose sum is not\ndivisible by 3 (M1)\nchooses 2 numbers from one group and chooses 1 number from another group\neg chooses 2 numbers of the form 3n and chooses 1 number of the form 3 n − 1\n10 10 3! × C × C = 2700\n(M1)A1\n2 1\n10 Note: Award (M1) for any integer multiple of 10 C × C .\n2 1\ntotal number of ways is 4060 − 2700\n= 1360 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 5]\nLet $S$ be the set of $30$ positive integers $\\{1, 2, 3, \\dots, 28, 29, 30\\}$.\nRaghu randomly selects three positive integers from $S$ without replacement. He then adds them together and determines whether the sum is divisible by $3$.\nDetermine the total number of selections Raghu can make to obtain a sum that is divisible by $3$.\nYou may assume that order is not important, for example, $\\{1,2,3\\}, \\{1,3,2\\}, \\{2,3,1\\}, \\{2,1,3\\}, \\{3,1,2\\}, \\{3,2,1\\}$ are all considered to be the same selection. [5]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 13]\nA weight suspended on a spring is pulled down and released, so that it moves up and down\nvertically.\nThe height, H metres, of the base of the weight above the ground can be modelled by the\nfunction H(t)=acos(7.8t)+b , for a , b∈ϒ and 0≤t≤10 , where t is the time in seconds\nafter the weight is released.\nH\nground\n(a) Find the period of the function.\b [2]\nThe weight is released when its base is at a minimum height of 1 metre above the ground,\nand it reaches a maximum height of 1.8 metres above the ground. The graph of H is shown\nin the following diagram.\nH\n2\n1.5\n1\n0.5\nt\n0 10\n(b) Find the value of\n(i) a ;\n(ii) b .\b [3]\n(c) Find the number of times that the weight reaches its maximum height in the first five\nseconds of its motion.\b [2]\n(d) Find the first time that the base of the weight reaches a height of 1.5 metres.\b [2]\nA camera is set to take a picture of the weight at a random time during the first five seconds\nof its motion.\n(e) Find the probability that the height of the base of the weight is greater than 1.5 metres\nat the time the picture is taken.\b [4]",
+   "ms_text": "2π\n10. (a) 7.8 = (M1)\nperiod\n2π\n0.805536...\n7.8=\n20π\nperiod = 0.806 = A1\n78\n[2 marks]\n(b) METHOD 1\nmaxmin −\n(i) amplitude = (M1)\n2\n1.81 −\n2\na = − 0.4 A1\n(ii) b = 1.4 A1\nMETHOD 2\nattempt to form two simultaneous equations in a and b (M1)\nπ =\nH (0) =⇒ 1 a + b =, 1 H 1.8 ⇒−+ a b = 1.8\n7.8\na = − 0.4, b = 1.4 A1A1\n[3 marks]\n(c) EITHER\n5\n< 1 6.207... 6 (A1)\nperiod= 2\nOR\nconsideration of number of maximums on graph in first 5 seconds (A1)\nOR\nmaximums when t = 0.403, 1.21, 2.01, 2.82, 3.62, 4.43 (A1)\nTHEN\n6 times A1\n[2 marks]\n(d) recognizing that Ht= () 1.5 (M1)\n− 0.4cos7.8 ( t ) + 1.4 = 1.5\n0.233779...\nt = 0.234 (seconds) A1\n[2 marks]\n(e) finding second time height is 1.5 metres (M1)\nt = 0.571757...\nin each period, height is greater than 1.5 metres for 0.337978… seconds (A1)\nNote:Award (M1)(A1) for total time 2.02787...seen.\nmultiplying their value by 6 and divide by 5 (M1)\n0.337978...6 × OR 2.02787...\n5 5\n= 0.405574...\nP(heightis greater than 1.5 m) = 0.406 A1\n[4 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "4"
+   ],
+   "subtopics": [
+    "3.7",
+    "3.8",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 13]\nA weight suspended on a spring is pulled down and released, so that it moves up and down vertically.\nThe height, $H$ metres, of the base of the weight above the ground can be modelled by the function $H(t) = a\\cos(7.8t) + b$, for $a, b \\in \\mathbb{R}$ and $0 \\le t \\le 10$, where $t$ is the time in seconds after the weight is released.\n[Diagram: weight hanging from a spring; $H$ is the height of its base above the ground]\n(a) Find the period of the function. [2]\nThe weight is released when its base is at a minimum height of $1$ metre above the ground, and it reaches a maximum height of $1.8$ metres above the ground. The graph of $H$ is shown in the following diagram.\n[Graph: $H$ against $t$ for $0 \\le t \\le 10$, oscillating between 1 and 1.8, starting at a minimum of 1; vertical axis marked 0.5, 1, 1.5, 2]\n(b) Find the value of\n(i) $a$;\n(ii) $b$. [3]\n(c) Find the number of times that the weight reaches its maximum height in the first five seconds of its motion. [2]\n(d) Find the first time that the base of the weight reaches a height of $1.5$ metres. [2]\nA camera is set to take a picture of the weight at a random time during the first five seconds of its motion.\n(e) Find the probability that the height of the base of the weight is greater than $1.5$ metres at the time the picture is taken. [4]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\nA game of chance involves drawing two balls at random out of a box without replacement.\nThe box initially contains r red balls and y yellow balls.\nLet P(YY ) represent the probability of drawing two yellow balls from the box without replacement.\n) =1 Consider a version of this game where it is known that PYY ( .\n3\n(a) Show that 2y2-2 (r+1)y+r-r2=0 .\b [4]\n( r + 1 ) + 3 r 2 + 1\n= (b) By solving the equation in part (a), show that y .\b [4]\n2\n) =1 (c) Find two pairs of values for r and y that satisfy the condition PYY ( .\b [4]\n3\nNow consider a similar game of chance that involves drawing three balls out of a box without\nreplacement. The box initially contains 10 red balls and y yellow balls.\nLet P(YYY ) represent the probability of drawing three yellow balls from the box without\nreplacement.\nFind an expression for P(YYY ) in terms of y .\b (d) [3]\nA yellow ball is added so that the box now contains 10 red balls and (y+1) yellow balls.\nThe probability of drawing three yellow balls from the box without replacement is now twice\nthe probability expressed in part (d).\n(e) Find the initial number of yellow balls in the box.\b [5]",
+   "ms_text": "11. (a) attempts to form a numerator involving a product of two terms involving y\nand a denominator involving a product of two terms involving r + y (M1)\nyy ( − 1 ) 1\n= A1\n( r + y )( r + y − 1 ) 3\nattempts to remove the fractions and expand the brackets (M1)\n2 − = 2 + − + 2 − 3 y 3 y y 2 ry y r r\nA1\n2 − − +− 2 = 2 y 2 ry 2 y r r 0\n2 − ( + ) +− 2 = 2 y 2 r 1 y r r 0\nAG\n[4 marks]\n(b) attempts to solve for y (M1)\n2\n( ) ( ) ( 2 ) 2 r + 1 ± 4 r + 1 − 8 r − r\ny = A1\n4\n2 2 ( r + 1 ) ± 12 r + 4\ny = A1\n4\n2 ( r + 1 ) ± 3 r + 1\ny =\n2\n2 r + 1 ) − 3 r + 1\n∈′) and ( +\n(since ,ry < 0 for r > 1 R1\n2\nNote: Award the R1 for stating that number of balls cannot be negative, or\nsimilar.\ny > 0 Note: Accept\n2 ( r + 1 ) + 3 r + 1\ny = so AG\n2\n[4 marks]\n(c) attempts to find a pair of positive integer values eg by using a table (M1)\nNote: AwardM0if numbers are not positive integers.\n1 red ball and 2 yellow balls ( r = and 1 y = 2 ) A1\n4 red balls and 6 yellow balls ( r = 4 and y = 6 ) A2\nNote: Award A1 for one solution and A2 for another.\n15 red balls and 21 yellow balls ( r = 15 and y = 21 ) is the next solution.\n[4 marks]\n(d) attempts to form a numerator involving a product of three terms involving y\nand a denominator involving a product of three terms that includes a ( ) y + 10\nterm (M1)\n( )( ) ( )( ) yy − 1 y − 2 yy − 1 y − 2\nP ( YYY ) = = A1A1\n( y + 10 )( y −+ 110 )( y − 210 + ) ( y + 10 )( y + 9 )( y + 8 )\nNote: Award A1 for a correct numerator and A1 for a correct denominator.\n[3 marks]\n( + )()( − ) ( + )()( − ) y 1 y y 1 y 1 y y 1\n( ) (e) Pnew YYY = = (A1)\n( y ++ 110 )( y + 10 )( y −+ 110 ) ( y + 11 )( y + 10 )( y + 9 )\nequates their answer for ( ) PnewYYYto 2× their answer for part (d) M1\n2 yy ( − 1 )( y − 2 ) ( y + 1 )()( y y − 1 )\n=\n( y + 10 )( y + 9 )( y + 8 ) ( y + 11 )( y + 10 )( y + 9 )\nattempts to solve for y (M1)\nNote: Award (M1) for attempting to write the above expression as\n( ) 2 y − 2 y + 1\n= .\ny + 8 y + 11\ny = 4 A2\n[5 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "2"
+   ],
+   "subtopics": [
+    "4.6",
+    "2.7",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 20]\nA game of chance involves drawing two balls at random out of a box without replacement. The box initially contains $r$ red balls and $y$ yellow balls.\nLet $P(YY)$ represent the probability of drawing two yellow balls from the box without replacement.\nConsider a version of this game where it is known that $P(YY) = \\frac{1}{3}$.\n(a) Show that $2y^2 - 2(r+1)y + r - r^2 = 0$. [4]\n(b) By solving the equation in part (a), show that $y = \\frac{(r+1) + \\sqrt{3r^2+1}}{2}$. [4]\n(c) Find two pairs of values for $r$ and $y$ that satisfy the condition $P(YY) = \\frac{1}{3}$. [4]\nNow consider a similar game of chance that involves drawing three balls out of a box without replacement. The box initially contains $10$ red balls and $y$ yellow balls.\nLet $P(YYY)$ represent the probability of drawing three yellow balls from the box without replacement.\n(d) Find an expression for $P(YYY)$ in terms of $y$. [3]\nA yellow ball is added so that the box now contains $10$ red balls and $(y+1)$ yellow balls. The probability of drawing three yellow balls from the box without replacement is now twice the probability expressed in part (d).\n(e) Find the initial number of yellow balls in the box. [5]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 21]\ny x 2 + 3 y 2\nConsider the differential equation d =\n, where x>0 , y>0 .\nd x xy\nIt is given that y=2 when x=1 .\n(a) Use Euler’s method with step length 0.1 to find an approximate value of y when x=1.1 .\b[2]\n4 9 x − 1\n= (b) By solving the differential equation, show that y x . [8]\n2\nFind the value of y when x=1.1 . (c) [1]\n9 x 4 − 1\nWith reference to the concavity of the graph of y = x (d) for 1≤x≤1.1 , explain\n2\nwhy the value of y found in part (c) is greater than the approximate value of y found in\npart (a). [2]\n4 9 x − 1\n3\nThe graph of y = x < x < 1 has a point of inflexion at the point P . for\n2 3\n(e) By sketching the graph of an appropriate derivative of y , determine\nthe x-coordinate of P . [2]\n2 4 2 2 4 y\n=− x + xy + 6 y It can be shown that d\n, where x>0 , y>0 .\n2 2 3 d x xy\n2 y\nUse this expression ford\n(f) to show that point P lies on the straight line y=mx\n2 d x\nwhere the exact value of m is to be determined.\b [6]",
+   "ms_text": "y = y +× h fxy ( , ) 12. (a) attempts to use (M1)\n1 0 0 0\n2 2 1 + 32 ()\ny = 2 + 0.1 ×\n1\n2\n= 2.65 A1\nNote: Award (M1)A0 for 2.35.\n[2 marks]\n(b) let y = vx M1\nd y d v\n= v + x (A1)\nd x d x\n2 2 2 d v x + 3 vx\nv + = (M1)\nxx 2\nd vx\n2 d v 1 + 2 v\n= A1\nxx\nd v\nattempt to separate variables x and v M1\nv 1\n∫ d v = ∫ d x\n2 2 v + 1 x\n1 ln2 2 ( v + 1 ) = ln x + C\nA1\n4\nNote: Condone the absence of C to this stage.\nEITHER\n2 1 2 y\nln + 1 = ln x + C\n2 4 x\n1\nwhen x =, 1 y = 2 ⇒ C = ln9 M1\n4\nNote: Award M1 for attempting to find their value of C .\n2 1 2 y 1\nln + 1 = ln x + ln9\n2 4 x 4\n1\n2 2 y 4\n+ 1 = 3 x\n2 x\nOR\n2 2 y\n=\nln ln ( 4 ) + ln x C\n2 x + 1\n2 2 y\n4 += 1 C x\n2 x\n= ⇒ = when x =, 1 y 2 C 9 M1\nTHEN\n2 2 y\n4 += 1 9 x\nA1\n2 x\n4 9 x − 1\ny = x AG\n2\n[8 marks]\n(c) y = 2.71422...\ny = 2.71 A1\n[1 mark]\n(d) EITHER\n4 9 x − 1\nthe graph of y = x is concave up (for 1 ≤ x ≤ 1.1 ) A1\n2\nOR\n2 d y\n≤ ≤ 0 (for 1 x 1.1 ) A1\nx> 2\nd\nNote: Allow positive curvature, opening upwards, increasing first derivative.\nTHEN\nhence the tangent drawn using Euler’s method gives an underestimate of the true\nvalue, so the value of y when x = 1.1 is greater than the approximate value\nfound in part (a) R1\nNote:Only award R1 if there is reference to tangent (in words or in a diagram).\n[2 marks]\n(e) EITHER\nNote: Award the first A mark for a correct graph seen in part (d).\ny correct graph of d\nA1\nd x\nOR\n2 d y\ncorrect graph of A1\nd 2 x\nTHEN\n0.655996... x =\n0.656 x = A1\n[2 marks]\n2 d y\n(f) 0 (seen anywhere) (A1)\nx= 2\nd\nNote: Award (A1) for equivalent answers (seen anywhere) such as\n4 2 2 4 − x + xy + 6 y\n4 2 2 4 = 0 or − x + xy + 6 y = 0 .\n2 3 xy\nEITHER\n4 2 2 4 divides − x + xy + 6 y ( = 0 ) through by 4y\n(M1)\n4 2 x x\n− + + 6 ( = 0 )\n4 2 y y\ny 1 1\nm = ⇒− + + 6 ( = 0 ) (M1)\n4 2 x m m\n4 2 6 m + m − 1 ( = 0 )\n( 2 )( 2 ) 3 m − 12 m + 1 = 0 A1\n1 1 2\nm = ± m = −\n3 2\nOR\n4 2 2 4 2 2 divides − x + xy + 6 y ( = 0 ) through by xy\n(M1)\nx 2 y 2\n− ++ 16 ( = 0 )\n2 2 y x\ny 1 2\nm = ⇒− ++ 16 m ( = 0 ) (M1)\nx m 2\n4 2 6 m + m − 1 ( = 0 )\n( 2 )( 2 ) 3 m − 12 m + 1 = 0 A1\n1 1 2\nm = ± m = −\n2 3\nOR\n− x 4 + xy 2 2 + 6 y 4 ( = 0 ) attempts to factorize (M1)\n2 2 2 2 − ( x − 3 y )( x + 2 y )( = 0 )\nA1\nattempts to solve their factorized equation (M1)\n1 1 2 2\n⇒ y = ± x y = − x\n3 2\nTHEN\n1 1\ny = x m = (and so ) A1\n3 3\nas x > 0, y > 0 (or equivalent reasoning/justification) R1\n1 1 1 2 2\nNote: Award R1 for y = x (and so m = ) as y ≠− x and x + 2 y = 0\n3 3 3\nfor x = 0 and y = 0 only.\n[6 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.7",
+    "5.8",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 21]\nConsider the differential equation $\\frac{dy}{dx} = \\frac{x^2 + 3y^2}{xy}$, where $x > 0$, $y > 0$.\nIt is given that $y = 2$ when $x = 1$.\n(a) Use Euler's method with step length $0.1$ to find an approximate value of $y$ when $x = 1.1$. [2]\n(b) By solving the differential equation, show that $y = x\\sqrt{\\frac{9x^4 - 1}{2}}$. [8]\n(c) Find the value of $y$ when $x = 1.1$. [1]\n(d) With reference to the concavity of the graph of $y = x\\sqrt{\\frac{9x^4-1}{2}}$ for $1 \\le x \\le 1.1$, explain why the value of $y$ found in part (c) is greater than the approximate value of $y$ found in part (a). [2]\nThe graph of $y = x\\sqrt{\\frac{9x^4-1}{2}}$ for $\\frac{\\sqrt{3}}{3} < x < 1$ has a point of inflexion at the point P.\n(e) By sketching the graph of an appropriate derivative of $y$, determine the $x$-coordinate of P. [2]\nIt can be shown that $\\frac{d^2y}{dx^2} = \\frac{-x^4 + x^2y^2 + 6y^4}{x^2y^3}$, where $x > 0$, $y > 0$.\n(f) Use this expression for $\\frac{d^2y}{dx^2}$ to show that point P lies on the straight line $y = mx$ where the exact value of $m$ is to be determined. [6]"
+  }
+ ],
+ "status": "done"
+}

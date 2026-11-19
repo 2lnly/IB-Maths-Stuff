@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2009-M-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L4", "4.9"],
+      "text_clean": "1. [Maximum mark: 11]\nAhmed and Brian live in the same house. Ahmed always walks to school and Brian always cycles to school. The times taken to travel to school may be assumed to be independent and normally distributed. The mean and the standard deviation for these times are shown in the table below.\n| | Mean (minutes) | Standard Deviation (minutes) |\n| Ahmed Walking | 30 | 3 |\n| Brian Cycling | 12 | 2 |\n(a) Find the probability that on a particular day Ahmed takes more than 35 minutes to walk to school. [2 marks]\n(b) Brian cycles to school on five successive mornings. Find the probability that the total time taken is less than 70 minutes. [4 marks]\n(c) Find the probability that, on a particular day, the time taken by Ahmed to walk to school is more than twice the time taken by Brian to cycle to school. [5 marks]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L6", "4.L5"],
+      "text_clean": "2. [Maximum mark: 13]\n(a) After a chemical spillage at sea, a scientist measures the amount, $x$ units, of the chemical in the water at 15 randomly chosen sites. The results are summarised in the form $\\sum x = 18$ and $\\sum x^2 = 28.94$. Before the spillage occurred the mean level of the chemical in the water was 1.1. Test at the 5 % significance level the hypothesis that there has been an increase in the amount of the chemical in the water. [8 marks]\n(b) Six months later the scientist returns and finds that the mean amount of the chemical in the water at the 15 randomly chosen sites is 1.18. Assuming that this sample came from a normal population with variance 0.0256, find a 90 % confidence interval for the mean level of the chemical. [5 marks]"
+    },
+    "3": {
+      "topics": ["4", "5"],
+      "subtopics": ["4.L9", "4.14", "4.L3", "5.11"],
+      "text_clean": "3. [Maximum mark: 22]\nThe January rainfall, in cm, in the town Alphaville is recorded every year. This rainfall may be assumed to be a continuous random variable $X$, with a probability density function given by\n$f(x) = \\lambda \\mathrm{e}^{-\\lambda x}, \\ 0 \\le x < \\infty$.\n(a) Show that $\\mathrm{P}(X \\ge x)$ is $\\mathrm{e}^{-\\lambda x}$. [3 marks]\n(b) (i) In a thirty year period a total of 270 cm of rain fell during January. Estimate a value for $\\lambda$.\n(ii) Using this value of $\\lambda$ estimate the probability that at least 40 cm of rain falls in Alphaville next January. Give your answer in the form $\\mathrm{e}^{-\\frac{a}{b}}$ where $a$ and $b$ are integers.\n(iii) If the probability that less than $d$ cm of rain will fall next January is 0.35, show that $d = 9\\ln\\frac{20}{13}$. [7 marks]\n(c) The January rainfall over the thirty year period is summarised in the table below.\n| Rainfall (cm) | Number of Januaries |\n| $x \\le 6$ | 18 |\n| $6 < x \\le 13$ | 9 |\n| $13 < x \\le 35$ | 2 |\n| $x > 35$ | 1 |\nPaul assumes that the data follows an exponential distribution with $\\lambda = 0.1$. Test this assumption at the 5 % level of significance. [12 marks]"
+    },
+    "4": {
+      "topics": ["4", "1"],
+      "subtopics": ["4.L2", "1.3", "4.6", "1.7"],
+      "text_clean": "4. [Maximum mark: 14]\nIn a game there are $n$ players, where $n > 2$. Each player has a disc, one side of which is red and one side blue. When thrown, the disc is equally likely to show red or blue. All players throw their discs simultaneously. A player wins if his disc shows a different colour from all the other discs. Players throw repeatedly until one player wins. Let $X$ be the number of throws each player makes, up to and including the one on which the game is won.\n(a) State the distribution of $X$. [1 mark]\n(b) Find $\\mathrm{P}(X = x)$ in terms of $n$ and $x$. [4 marks]\n(c) Find $\\mathrm{E}(X)$ in terms of $n$. [1 mark]\n(d) Given that $n = 7$, find the least number, $k$, such that $\\mathrm{P}(X \\le k) > 0.5$. [8 marks]"
+    }
+  }
+}

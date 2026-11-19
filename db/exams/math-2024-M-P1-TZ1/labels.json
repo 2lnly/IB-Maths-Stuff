@@ -1,0 +1,149 @@
+{
+ "exam_id": "math-2024-M-P1-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "text_clean": "1. [Maximum mark: 6]\nClaire rolls a six-sided die 16 times.\nThe scores obtained are shown in the following frequency table.\nScore | Frequency\n1 | $p$\n2 | $q$\n3 | 4\n4 | 2\n5 | 0\n6 | 3\nIt is given that the mean score is 3.\n(a) Find the value of $p$ and the value of $q$. [5]\nEach of Claire's scores is multiplied by 10 in order to determine the final score for a game she is playing.\n(b) Write down the mean final score. [1]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nIt is given that $\\log_{10} a = \\frac{1}{3}$, where $a > 0$.\nFind the value of\n(a) $\\log_{10}\\left(\\frac{1}{a}\\right)$; [2]\n(b) $\\log_{1000} a$. [3]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.4",
+    "2.7"
+   ],
+   "text_clean": "3. [Maximum mark: 8]\nPoints A and B lie on the circumference of a circle of radius $r$ cm with centre at O.\nThe sector OAB is shown on the following diagram. The angle $\\hat{AOB}$ is denoted as $\\theta$ and is measured in radians.\n[Diagram (not to scale): sector OAB with radii OA = OB = $r$ cm and angle $\\theta$ at O]\nThe perimeter of the sector is 10 cm and the area of the sector is 6.25 cm$^2$.\n(a) Show that $4r^2 - 20r + 25 = 0$. [4]\n(b) Hence, or otherwise, find the value of $r$ and the value of $\\theta$. [4]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.11",
+    "3.8",
+    "3.6"
+   ],
+   "text_clean": "4. [Maximum mark: 7]\nConsider the functions $f(x) = \\cos x$ and $g(x) = \\sin 2x$, where $0 \\le x \\le \\pi$.\nThe graph of $f$ intersects the graph of $g$ at the point A, the point B $\\left(\\frac{\\pi}{2}, 0\\right)$ and the point C as shown on the following diagram.\n[Graph: curves $y=f(x)$ and $y=g(x)$ for $0 \\le x \\le \\pi$, intersecting at A, B and C; shaded region R between the curves from B to C]\n(a) Find the $x$-coordinate of point A and the $x$-coordinate of point C. [3]\nThe shaded region R is enclosed by the graph of $f$ and the graph of $g$ between the points B and C.\n(b) Find the area of R. [4]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3"
+   ],
+   "text_clean": "5. [Maximum mark: 5]\nConsider a geometric sequence with first term 1 and common ratio 10.\n$S_n$ is the sum of the first $n$ terms of the sequence.\n(a) Find an expression for $S_n$ in the form $\\frac{a^n - 1}{b}$, where $a, b \\in \\mathbb{Z}^+$. [1]\n(b) Hence, show that $S_1 + S_2 + S_3 + \\ldots + S_n = \\frac{10(10^n - 1) - 9n}{81}$. [4]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.17",
+    "5.16"
+   ],
+   "text_clean": "6. [Maximum mark: 6]\nThe function $f$ is defined as $f(x) = \\sqrt{x \\sin(x^2)}$, where $0 \\le x \\le \\sqrt{\\pi}$.\nConsider the shaded region R enclosed by the graph of $f$, the $x$-axis and the line $x = \\frac{\\sqrt{\\pi}}{2}$, as shown in the following diagram.\n[Graph: $y=f(x)$ from 0 to $\\sqrt{\\pi}$; region R shaded between the curve and the $x$-axis from $x=0$ to $x=\\frac{\\sqrt{\\pi}}{2}$]\nThe shaded region R is rotated by $2\\pi$ radians about the $x$-axis to form a solid.\nShow that the volume of the solid is $\\frac{\\pi(2 - \\sqrt{2})}{4}$.",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15",
+    "1.10"
+   ],
+   "text_clean": "7. [Maximum mark: 7]\nUsing mathematical induction and the definition ${}^nC_r = \\frac{n!}{r!(n-r)!}$, prove that $\\sum_{r=1}^{n} {}^rC_1 = {}^{n+1}C_2$ for all $n \\in \\mathbb{Z}^+$.",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19"
+   ],
+   "text_clean": "8. [Maximum mark: 7]\n(a) Find the first two non-zero terms in the Maclaurin series of\n(i) $\\sin(x^2)$;\n(ii) $\\sin^2(x^2)$. [5]\n(b) Hence, or otherwise, find the first two non-zero terms in the Maclaurin series of $4x \\sin(x^2) \\cos(x^2)$. [2]",
+   "answer_status": "ok",
+   "note": "Markscheme crop omits the final 'Total [7 marks]' line (segmenter treats it as page footer); content complete. | fixed by segmenter update: the line noted above as missing is now in the crop"
+  },
+  "9": {
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.16",
+    "2.14",
+    "5.11"
+   ],
+   "text_clean": "9. [Maximum mark: 6]\nThe graph of $y = f(|x|)$ for $-6 \\le x \\le 6$ is shown in the following diagram.\n[Graph: $y=f(|x|)$, symmetric about the $y$-axis, through the origin, with small negative dips near the origin, maxima of about 2.5 near $x=\\pm 4$, falling below $-4$ at $x=\\pm 6$]\n(a) On the following axes, sketch the graph of $y = |f(|x|)|$ for $-6 \\le x \\le 6$. [2]\n[Blank axes: $-6 \\le x \\le 6$, $-4 \\le y \\le 4$]\nIt is given that $f$ is an odd function.\n(b) On the following axes, sketch the graph of $y = f(x)$ for $-6 \\le x \\le 6$. [2]\n[Blank axes: $-6 \\le x \\le 6$, $-4 \\le y \\le 4$]\nIt is also given that $\\int_0^4 f(|x|)\\,dx = 1.6$.\n(c) Write down the value of\n(i) $\\int_{-4}^{0} f(x)\\,dx$;\n(ii) $\\int_{-4}^{4} \\left(f(|x|) + f(x)\\right)dx$. [2]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.6",
+    "2.8",
+    "2.12",
+    "2.2"
+   ],
+   "text_clean": "10. [Maximum mark: 16]\nConsider the function $f(x) = \\frac{4x + 2}{x - 2}$, $x \\ne 2$.\n(a) Sketch the graph of $y = f(x)$. On your sketch, indicate the values of any axis intercepts and label any asymptotes with their equations. [5]\n(b) Write down the range of $f$. [1]\nConsider the function $g(x) = x^2 + bx + c$. The graph of $g$ has an axis of symmetry at $x = 2$.\nThe two roots of $g(x) = 0$ are $-\\frac{1}{2}$ and $p$, where $p \\in \\mathbb{Q}$.\n(c) Show that $p = \\frac{9}{2}$. [1]\n(d) Find the value of $b$ and the value of $c$. [3]\n(e) Find the $y$-coordinate of the vertex of the graph of $y = g(x)$. [2]\n(f) Find the product of the solutions of the equation $f(x) = g(x)$. [4]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "5",
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "5.15",
+    "2.12",
+    "1.11",
+    "5.13"
+   ],
+   "text_clean": "11. [Maximum mark: 17]\nConsider the polynomial $P(x) = 3x^3 + 5x^2 + x - 1$.\n(a) Show that $(x + 1)$ is a factor of $P(x)$. [2]\n(b) Hence, express $P(x)$ as a product of three linear factors. [3]\nNow consider the polynomial $Q(x) = (x + 1)(2x + 1)$.\n(c) Express $\\frac{1}{Q(x)}$ in the form $\\frac{A}{x+1} + \\frac{B}{2x+1}$, where $A, B \\in \\mathbb{Z}$. [3]\n(d) Hence, or otherwise, show that $\\frac{1}{(x+1)Q(x)} = \\frac{4}{2x+1} - \\frac{2}{x+1} - \\frac{1}{(x+1)^2}$. [2]\n(e) Hence, find $\\int \\frac{1}{(x+1)^2(2x+1)}\\,dx$. [4]\nConsider the function defined by $f(x) = \\frac{P(x)}{(x+1)Q(x)}$, where $x \\ne -1$, $x \\ne -\\frac{1}{2}$.\n(f) Find\n(i) $\\lim_{x \\to -1} f(x)$;\n(ii) $\\lim_{x \\to \\infty} f(x)$. [3]",
+   "answer_status": "ok",
+   "note": "Markscheme crop omits the final 'Total [17 marks]' line (segmenter treats it as page footer); content complete. | fixed by segmenter update: the line noted above as missing is now in the crop"
+  },
+  "12": {
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.12",
+    "1.13",
+    "3.2"
+   ],
+   "text_clean": "12. [Maximum mark: 20]\nConsider $\\phi = (a + bi)^3$, where $a, b \\in \\mathbb{R}$.\n(a) In terms of $a$ and $b$, find\n(i) the real part of $\\phi$;\n(ii) the imaginary part of $\\phi$. [3]\n(b) Hence, or otherwise, show that $(1 + \\sqrt{3}i)^3 = -8$. [2]\nThe roots of the equation $z^3 = -8$ are $u$, $v$ and $w$, where $u = 1 + \\sqrt{3}i$ and $v \\in \\mathbb{R}$.\n(c) Write down $v$ and $w$, giving your answers in Cartesian form. [2]\nOn an Argand diagram, $u$, $v$ and $w$ are represented by the points U, V and W respectively.\n(d) Find the area of the triangle UVW. [3]\nEach of the points U, V and W is rotated counter-clockwise (anticlockwise) about 0 through an angle of $\\frac{\\pi}{4}$ to form three new points U′, V′ and W′. These points represent the complex numbers $u'$, $v'$ and $w'$ respectively.\n(e) Find $u'$, $v'$ and $w'$, giving your answers in the form $re^{i\\theta}$, where $-\\pi < \\theta \\le \\pi$. [4]\n(f) Given that $u'$, $v'$ and $w'$ are the solutions of $z^3 = c + di$, where $c, d \\in \\mathbb{R}$, find the value of $c$ and the value of $d$. [3]\nIt is given that $u$, $v$, $w$, $u'$, $v'$ and $w'$ are all solutions of $z^n = \\alpha$ for some $\\alpha \\in \\mathbb{C}$, where $n \\in \\mathbb{N}$.\n(g) Find the smallest positive value of $n$. [3]",
+   "answer_status": "ok"
+  }
+ }
+}

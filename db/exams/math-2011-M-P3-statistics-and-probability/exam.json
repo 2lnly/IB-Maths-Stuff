@@ -1,0 +1,137 @@
+{
+ "exam_id": "math-2011-M-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2011,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2011 May Examination Session/Mathematics_paper_3_Statistics_and_probability_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2011 May Examination Session/Mathematics_paper_3_Statistics_and_probability_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2211-7210; code M11/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches expected total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2011-M-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 11]\nThe weights of the oranges produced by a farm may be assumed to be normally\ndistributed with mean 205 grams and standard deviation 10 grams.\n(a) Find the probability that a randomly chosen orange weighs more than 200 grams. [2 marks]\n(b) Five of these oranges are selected at random to be put into a bag. Find the\nprobability that the combined weight of the five oranges is less than 1 kilogram. [4 marks]\n(c) The farm also produces lemons whose weights may be assumed to be normally\ndistributed with mean 75 grams and standard deviation 3 grams. Find the\nprobability that the weight of a randomly chosen orange is more than three times\nthe weight of a randomly chosen lemon. [5 marks]",
+   "ms_text": "200 − 205\n1. (a) z = = − 0.5 (M1)\n10\nprobability = 0.691 (accept 0.692) A1\nNote: Award M1A0 for 0.309 or 0.308\n[2 marks]\n(b) let X be the total weight of the 5 oranges\nthen E( X=× ) 5 205 = 1025 (A1)\nVar( X=× ) 5100 = 500 (M1)(A1)\nP( X< 1000) = 0.132 A1\n[4 marks]\n(c) let Y = B – 3 C where B is the weight of a random orange and C the\nweight of a random lemon (M1)\nE() Y= 205 – 375 × = –20 (A1)\nVar() Y= 100 +× 99 = 181 (M1)(A1)\nP(Y > 0) = 0.0686 A1\n[5 marks]\nNote: Award A1 for 0.0681 obtained from tables\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.9",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 11]\nThe weights of the oranges produced by a farm may be assumed to be normally distributed with mean 205 grams and standard deviation 10 grams.\n(a) Find the probability that a randomly chosen orange weighs more than 200 grams. [2 marks]\n(b) Five of these oranges are selected at random to be put into a bag. Find the probability that the combined weight of the five oranges is less than 1 kilogram. [4 marks]\n(c) The farm also produces lemons whose weights may be assumed to be normally distributed with mean 75 grams and standard deviation 3 grams. Find the probability that the weight of a randomly chosen orange is more than three times the weight of a randomly chosen lemon. [5 marks]"
+  },
+  {
+   "id": "math-2011-M-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\nThe discrete random variable X has the distribution Geo() p. The value of p is\nbelieved to be 0.3. In order to test this belief a random sample of 100 values of X\nwas obtained, with the following results.\nValue of X 1 2 3 4 5 ≥6\nFrequency 35 18 16 11 10 10\n(a) State suitable hypotheses to test this belief. [1 mark]\n(b) Carry out a χ2-test at the 5 % significance level and, giving a reason,\n[9 marks] state your conclusion.",
+   "ms_text": "2. (a) H: p = 0.3 H: p ≠ 0.3 A1\n0 0\nX∼ Note: Accept H: Geo(0.3) versus H: X is not Geo(0.3)\n0 1\nX∼ but do not accept H: Geo versus H: X is not Geo\n0 1\n[1 mark]\n− 1 (b) the expected values are found using E( X ) = 100 × 0.30.7x × (M1)\nthe table of expected values is\nValue of X 1 2 3 4 5 ≥ 6\nFrequency 30 21 14.7 10.29 7.203 16.807\nA3\nNote: Award A3 for all correct, A2 for one error, A1 for two errors and A0\nfor three or more errors. Do not penalize expected values that are\ncorrect to 1 decimal place.\nEITHER\n2 2 35 10\n2 χ = + ... + − 100 = 5.27 (M1)A1\ncalc\n30 16.807\nNote: Accept answers which round to 5.26 or 5.27\nDF = 5 (A1)\ncritical value = 11.07 A1\naccept H, because 5.27 < 11.07 R1\n0\nNote: Allow FT on final R1.\nOR\n2 2 35 10\n2 χ = + ... + − 100 = 5.27 (M1)(A1)\ncalc\n30 16.807\nNote: Accept answers which round to 5.26 or 5.27\nDF = 5 (A1)\np -value = 0.384 A1\nNote: Accept any p-value that rounds to 0.384\naccept H, because p-value > 0.05 R1\n0\nNote: Allow FT on final R1.\n[9 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L2",
+    "4.L7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\nThe discrete random variable $X$ has the distribution $\\mathrm{Geo}(p)$. The value of $p$ is believed to be 0.3. In order to test this belief a random sample of 100 values of $X$ was obtained, with the following results.\nValue of $X$ | 1 | 2 | 3 | 4 | 5 | $\\ge 6$\nFrequency | 35 | 18 | 16 | 11 | 10 | 10\n(a) State suitable hypotheses to test this belief. [1 mark]\n(b) Carry out a $\\chi^2$-test at the 5 % significance level and, giving a reason, state your conclusion. [9 marks]"
+  },
+  {
+   "id": "math-2011-M-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 17]\nTen friends try a diet which is claimed to reduce weight. They each weigh themselves\nbefore starting the diet, and after a month on the diet, with the following results.\nFriend A B C D E F G H I J\nWeight before (kg) 68.4 70.9 74.7 65.4 59.4 69.0 73.9 62.6 68.3 58.2\nWeight after (kg) 66.2 67.4 70.4 65.9 55.2 69.2 71.4 59.9 68.2 58.9\n(a) Determine unbiased estimates of the mean and variance of the loss in weight\nachieved over the month by people using this diet. [5 marks]\n(b) (i) State suitable hypotheses for testing whether or not this diet causes a mean\nloss in weight.\n(ii) Determine the value of a suitable statistic for testing your hypotheses.\n(iii) Find the 1 % critical value for your statistic and state your conclusion. [6 marks]\n(c) One of the friends calculates a confidence interval for the mean loss in weight\nobtained by people using this diet for a month and he obtains [. 0 263 36. ,. ]\nFind the confidence level of this interval. [6 marks]",
+   "ms_text": "3. (a) the weight losses are\n2.2 3.5 4.3 –0.5 4.2 –0.2 2.5 2.7 0.1 –0.7 (M1)(A1)\n∑ = ∑ 2 = x 18.1, x 67.55\nUE of mean = 1.81 A1\n2 67.55 18.1\nUE of variance = − = 3.87 (M1)A1\n9 90\nNote: Accept weight losses as positive or negative. Accept unbiased\nestimate of mean as positive or negative.\nNote: Award M1A0 for 1.97 as UE of variance. [5 marks]\n(b) (i) H: µ = 0 versusH: µ > 0 A1\n0 d 1 d\nNote: Accept any symbol for µ\nd\n(ii) using t test (M1)\n1.81\nt = = 2.91 A1\n3.87\n10\n(iii) DF = 9 (A1)\nNote: Award this (A1) if the p-value is given as 0.00864\n1 % critical value = 2.82 A1\naccept H R1\n1\nNote: Allow FT on final R1.\n[6 marks]\n(c) the t value satisfies\n3.87\n2 t = 3.36 − 0.26 = 3.1 M1A1\n10\nso t = 2.49(158 … ) A1\nP( T > 2.49) = 0.0172 orP( T < 2.49) = 0.983 A1\nthe confidence level is therefore\n1– 2 × 0.017 or 2 × 0.983 –1 = 0.966(96.6 %) M1A1\n[6 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L6",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 17]\nTen friends try a diet which is claimed to reduce weight. They each weigh themselves before starting the diet, and after a month on the diet, with the following results.\nFriend | A | B | C | D | E | F | G | H | I | J\nWeight before (kg) | 68.4 | 70.9 | 74.7 | 65.4 | 59.4 | 69.0 | 73.9 | 62.6 | 68.3 | 58.2\nWeight after (kg) | 66.2 | 67.4 | 70.4 | 65.9 | 55.2 | 69.2 | 71.4 | 59.9 | 68.2 | 58.9\n(a) Determine unbiased estimates of the mean and variance of the loss in weight achieved over the month by people using this diet. [5 marks]\n(b) (i) State suitable hypotheses for testing whether or not this diet causes a mean loss in weight.\n(ii) Determine the value of a suitable statistic for testing your hypotheses.\n(iii) Find the 1 % critical value for your statistic and state your conclusion. [6 marks]\n(c) One of the friends calculates a confidence interval for the mean loss in weight obtained by people using this diet for a month and he obtains $[0.26, 3.36]$. Find the confidence level of this interval. [6 marks]"
+  },
+  {
+   "id": "math-2011-M-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 10]\nThe random variable X has a Poisson distribution with unknown mean µ . It is\nrequired to test the hypotheses\nH0 : µ = 3 against H1 : µ ≠3.\nLet S denote the sum of 10 randomly chosen values of X . The critical region is\ndefined as ( S ≤ 22 ) ∪ ( S ≥ 38. )\n(a) Calculate the significance level of the test. [5 marks]\n(b) Given that the value of µ is actually 2.5, determine the probability of a\nType II error. [5 marks]",
+   "ms_text": "4. (a) under H, S is Po(30) (A1)\n0\nEITHER\nP( S ≤ 22) = 0.080569 … A1\nP( S ≥ 38) = 0.089012 … A1\nsignificance level = 0.080569 …+ 0.089012 … (M1)\n= 0.170 A1\nOR\nP( S ≤ 22) = 0.080569 … A1\nS ≤ = … A1 P( 37) 0.910987\nsignificance level = 1–(0.910987 …+ ) 0.089012 … (M1)\n= 0.170 A1\nNote: Accept 17 % or 0.17.\nNote: Award 2 marks out of the final 4 marks for correct use of the Central\nLimit Theorem, giving 0.144 without a continuity correction and 0.171\nwith a continuity correction. Thefirst(A1) is independent.\n[5 marks]\n(b) S is now Po(25) (A1)\nP(Type II error) = P(accept H| µ = 2.5) (M1)\n0\n= P23 ≤ S ≤ 37 | S is Po(25) (M1) ( )\nNote: Only one of the above M1 marks can be implied.\n= 0.990789 … –0.317533 … (A1)\n= 0.673 A1\nNote: Award 2 marks out of the final 4 marksfor correct use of the Central\nLimit Theorem, giving 0.647 without a continuity correction and 0.685\nwith a continuity correction. Thefirst(A1)is independent.\n[5 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L1",
+    "4.L4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 10]\nThe random variable $X$ has a Poisson distribution with unknown mean $\\mu$. It is required to test the hypotheses\n$\\mathrm{H}_0: \\mu = 3$ against $\\mathrm{H}_1: \\mu \\ne 3$.\nLet $S$ denote the sum of 10 randomly chosen values of $X$. The critical region is defined as $(S \\le 22) \\cup (S \\ge 38)$.\n(a) Calculate the significance level of the test. [5 marks]\n(b) Given that the value of $\\mu$ is actually 2.5, determine the probability of a Type II error. [5 marks]"
+  },
+  {
+   "id": "math-2011-M-P3-statistics-and-probability-q5",
+   "num": "5",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 12]\n(a) The random variable X has the negative binomial distribution NB(, 3p. )\nLet fx () denote the probability that X takes the value x .\n(i) Write down an expression for fx () , and show that\np\n− + − + − − ln fx () = 3 ln ln ( x 1 ) ln ( x 2 ) x ln ( 1 p ) ln 2 .\n+ 1 − p\n(ii) State the domain of f .\n(iii) The domain of f is extended to ], 2∞. Show that [\nf ′ () x 1 1\n= + ln ( 1 − p ) . [7 marks]\n−+\nfx () x 1 x − 2\n(b) Jo has a biased coin which has a probability of 0.35 of showing heads\nwhen tossed. She tosses this coin successively and the 3rd head occurs on the\nYth toss. Use the result in part (a)(iii) to find the most likely value of Y . [5 marks]",
+   "ms_text": "− x 1\n3 x − 3 M1A1 5. (a) (i) fx () = p (1 − p )\n2\nx − 1\n3 x 3 Note: Award M1A0 for fx () = pq−\n2\ntaking logs, M1\nx − 1\n3 x − 3 ln fx () = ln p (1 − p )\n2\n( x − 1)( x − 2) 3 x − 3\n= ln × p (1 − p ) A1\n2\nNote: Award A1 for simplifying binomial coefficient, seen anywhere.\nx ( x − 1)( x − 2) (1 − p )\n3 = ln × p A1\n3 2 (1 − p )\n− 3 Note: Award A1 for correctly splitting (1 − p )x , seen anywhere.\np\n= 3ln + ln( x − 1) + ln( x − 2) + x ln(1 − p ) − ln 2 AG\n1 − p\n(ii) the domain is {3, 4, 5, … } A1\nNote: Do not accept x ≥ 3\n(iii) differentiating with respect to x , M1\nf ′ () x 1 1\n= + + ln(1 − p ) AG\nfx () x − 1 x − 2\n[7 marks]\n(b) setting f ′ () x = 0 and putting p = 0.35 ,\n1 1\n+ + ln0.65 = 0 M1A1\nx − 1 x − 2\nsolving, x = 6.195 … A1\nwe need to check x = 6 and 7\nf (6) = 0.1177 … and f (7) = 0.1148 … A1\nthe most likely value of Y is 6 A1\nNote: Award the final A1 for the correct conclusion even if the previous\nA1 was not awarded.\n[5 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "4.L2",
+    "1.7",
+    "5.6",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 12]\n(a) The random variable $X$ has the negative binomial distribution $\\mathrm{NB}(3, p)$. Let $f(x)$ denote the probability that $X$ takes the value $x$.\n(i) Write down an expression for $f(x)$, and show that\n$\\ln f(x) = 3\\ln\\left(\\frac{p}{1-p}\\right) + \\ln(x-1) + \\ln(x-2) + x\\ln(1-p) - \\ln 2$.\n(ii) State the domain of $f$.\n(iii) The domain of $f$ is extended to $]2, \\infty[$. Show that\n$\\frac{f'(x)}{f(x)} = \\frac{1}{x-1} + \\frac{1}{x-2} + \\ln(1-p)$. [7 marks]\n(b) Jo has a biased coin which has a probability of 0.35 of showing heads when tossed. She tosses this coin successively and the 3rd head occurs on the $Y$th toss. Use the result in part (a)(iii) to find the most likely value of $Y$. [5 marks]",
+   "review_note": "audit: only SL derivatives of ln used (5.6), not 5.15"
+  }
+ ],
+ "status": "done"
+}

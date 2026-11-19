@@ -1,0 +1,508 @@
+{
+ "exam_id": "math-2005-M-P1-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2005,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2005 May Examination Session/Mathematics_paper_1_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2005 May Examination Session/Mathematics_paper_1_TZ2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2205-7207; code M05/5/MATHL/HP1/ENG/TZ2/XX; marks not printed; assumed 6 per question (modal markscheme value)",
+ "qp_pages": 15,
+ "questions": [
+  {
+   "id": "math-2005-M-P1-TZ2-q1",
+   "num": "1",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "2 2\n1. The position vectors of points P and Q are − 3 and 2 respectively. The origin is at O. Find\n1 − 4\n$ (a) the angle POQ ;\n(b) the area of the triangle OPQ.",
+   "ms_text": "QUESTION 1\n→ →\nOPOQ ⋅ ˆ\n(a) cosPOQ = (M1)\n→ →\n⎜ OP ⎟⎜ OQ ⎟\n− 6 ⎛ 6 ⎞\n= = − (A1)(A1) ⎜ ⎟\n1424 ⎝ 336 ⎠\nNote: Award (A1) for scalar product, and (A1) for correct values of magnitudes.\nˆ POQ = 109 � (1.90 radians) (A1) (C4)\n(b) METHOD 1\n→ → 1\narea ∆ POQ = ⎜ POOQsin POQ ⎟⎜ ⎟ ˆ (M1)\n2\n= 8.66 (Accept 8.67) (A1) (C2)\nMETHOD 2\n→ → 1\narea ∆ POQ = ⎜ OP × OQ ⎟ (M1)\n2\n= 110 + + = ( = ) (A1) (C2) i 10 j 10 k 75 53\n2",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "1. The position vectors of points P and Q are $\\begin{pmatrix}2\\\\-3\\\\1\\end{pmatrix}$ and $\\begin{pmatrix}2\\\\2\\\\-4\\end{pmatrix}$ respectively. The origin is at O. Find\n(a) the angle $\\hat{POQ}$;\n(b) the area of the triangle OPQ.",
+   "review_note": "QP crop fixed via overrides (top row of column vectors was cut off)."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q2",
+   "num": "2",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "1\n2. Solve the equation e2 x − = 2.\nx + 2",
+   "ms_text": "QUESTION 2\n1\ne 2 x − = 2 ⇒ x = − 2.50, x = 0.440 (A2)(A2) (C2)(C2)\n+ x 2\n1 2 x\n− = −⇒ = − e 2 x 1.51 (A2) (C2)\nx + 2",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "2. Solve the equation $\\left|e^{2x} - \\frac{1}{x+2}\\right| = 2$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q3",
+   "num": "3",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. The table below shows the probability distribution of a discrete random variable X.\nx 0 1 2 3\nP(X=x) 0.2 a b 0.25\n(a) Given that E(X) = 1.55, find the value of a and of b.\n(b) Calculate Var(X).",
+   "ms_text": "QUESTION 3\n(a) 0.2 + a + b + 0.25 = 1 ( + = 0.55) a b (A1)\n= + + = E( X ) a 2 b 0.75 1.55 (M1)\n⇒ a + 2 b = 0.8 (A1)\na = 0.3 and b = 0.25 (A1) (C4)\n2 2 2 (b) Var( X ) = E( X ) − ( E( X ) ) = 0.3 +× 40.25 +× 90.251.55 − (M1)\n= 1.1475 = 1.15 (3 s.f.) (A1) (C2)",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "3. The table below shows the probability distribution of a discrete random variable $X$.\n$x$: 0 | 1 | 2 | 3\n$P(X=x)$: 0.2 | $a$ | $b$ | 0.25\n(a) Given that $E(X) = 1.55$, find the value of $a$ and of $b$.\n(b) Calculate $\\mathrm{Var}(X)$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q4",
+   "num": "4",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "2 3 2 0\n4. Given that A = − AB .\n2 and B = 3, find X if BX=A\n1 − 0 −",
+   "ms_text": "QUESTION 4\nMETHOD 1\n⎛ 2 3 ⎞ ⎛ 4 − 9 ⎞ ⎛ − 2 12 ⎞\nA − AB = − = (M1)(A1) ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n1 − 2 2 6 − 1 − 8 ⎝ ⎠ ⎝ ⎠ ⎝ ⎠\n⎛ − 2 12 ⎞\n− 1 − 1 X = B ( A − AB ) = B\n⎜ ⎟ (M1)\n⎝ − 1 − 8 ⎠\n⎛ − 3 0 ⎞⎛ − 2 12 ⎞ 1\n= − (A1) ⎜ ⎟⎜ ⎟\n0 2 − 1 − 8 6 ⎝ ⎠⎝ ⎠\n⎛ − 1 6 ⎞\n⎜ ⎟\n= ⎜ 1 8 (A2) (C6) ⎟\n⎜ ⎟\n⎝ 3 3 ⎠\nMETHOD 2\nAttempting to set up a matrix equation (M2)\n− X = B 1( A − AB ) (A2)\n⎛ − 1 6 ⎞\n⎜ ⎟\n= ⎜ 1 8 (from GDC) (A2) (C6) ⎟\n⎜ ⎟\n⎝ 3 3 ⎠",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "4. Given that $A = \\begin{pmatrix}2 & 3\\\\1 & -2\\end{pmatrix}$ and $B = \\begin{pmatrix}2 & 0\\\\0 & -3\\end{pmatrix}$, find $X$ if $BX = A - AB$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q5",
+   "num": "5",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "10\n2 5.\nConsider the 10 data items x . Given that = 1341 and the standard deviation is 6.9, , x , ... x =∑ xi\n1 2 10\ni 1\nfind the value of x .",
+   "ms_text": "QUESTION 5\n2 Var( X= ) 6.9 = 47.61 (M1)(A1)\n10\n2 ∑ x\ni\n= 2 − 2 2 = i = 1 − 2 Using Var( X ) E( X ) (E( X )) or s x (M1)\n10\n1341 2\n47.61 = − x (A1)\n10\nx= 2 86.49 (A1)\nx= ± 9.3 (Do not penalise the absence of the minus) (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "5. Consider the 10 data items $x_1, x_2, \\ldots, x_{10}$. Given that $\\sum_{i=1}^{10} x_i^2 = 1341$ and the standard deviation is 6.9, find the value of $\\bar{x}$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q6",
+   "num": "6",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "5 x +\n2 , x ≠0 . There is a point of inflexion on the graph of f at 6. The function f is given by fx () =\nx\nthe point P. Find the coordinates of P.",
+   "ms_text": "QUESTION 6\nMETHOD 1\n2\n′ 3 f () x = 4 x − (M1)(A1)\n2 x\n4 2\nf ′′ () x = 12 x + (A1)\n3 x\nf ′′ () x = 0 (M1)\n1\n⇒ x = − = − 0.803 and y = − 2.08 (accept 2.07 − ) (A1)(A1)\n5 3\n⎛ ⎞ ⎛ 1 5 ⎞\nThe point of inflexion is (0.803, − − 2.08)or − , − 5 3 (C5)(C1) ⎜ ⎜ ⎟ ⎟\n5\n⎝ ⎝ 3 3 ⎠ ⎠\nMETHOD 2\n2 3\nf ′ () x = 4 x − (M1)(A1)\n2 x\n′ x = − f () x has a maximum when 0.803 (M1)(A2) (C5)\ny = − 2.08 (accept 2.07 − ) (A1) (C1)",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.7",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "6. The function $f$ is given by $f(x) = \\frac{x^5 + 2}{x}$, $x \\neq 0$. There is a point of inflexion on the graph of $f$ at the point P. Find the coordinates of P."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q7",
+   "num": "7",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "3 2 7. Let Pz () = z + az + bz + c , where ab ,, and∈R . Two of the roots of Pz() c = 0 are − 2 and ( −+ 3 2 i. )\nFind the value of a, of b and of c.",
+   "ms_text": "QUESTION 7\nMETHOD 1\nIf z = −+ 3 2i is a root, then z = −− 3 2i is another. (A1)\n( ) ( ) Pz () = ( z + 2) z −−+ (3 2i) z −−− (3 2i) (M1)(A1)\n= + ( 2 + + + − + ) ( z 2) z (3 2i) z (3 2i) z 13\n= + 2 + + ( z 2)( z 6 z 13)\n3 2 = z + 8 z + 25 z + 26 (A1)(A1)(A1)\n= = = a 8 b 25 c 26 (C2)(C2)(C2)\nMETHOD 2\n0 = −+ 8 4 a − 2 b + c (A1)\n0 = 9 + 46i + a (512i) − + b (3 −+ 2i) + c (M1)\n−= 9 5 a − 3 b + c and 46 = 12 a − 2 b (A1)\nsolving system of three equations\na = 8 b = 25 c = 26 (A1)(A1)(A1)(C2)(C2)(C2)",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "7. Let $P(z) = z^3 + az^2 + bz + c$, where $a, b$, and $c \\in \\mathbb{R}$. Two of the roots of $P(z) = 0$ are $-2$ and $(-3 + 2i)$.\nFind the value of $a$, of $b$ and of $c$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q8",
+   "num": "8",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. A team of five students is to be chosen at random to take part in a debate. The team is to be chosen\nfrom a group of eight medical students and three law students. Find the probability that\n(a) only medical students are chosen;\n(b) all three law students are chosen.",
+   "ms_text": "QUESTION 8\n⎛⎞ 8\n⎜⎟\n5 ⎛ 87 ×××× 654 ⎞ ⎝⎠\n(a) P (only medical students) = = (M1)(A1) ⎜ ⎟\n⎛ 11 ⎞⎝ 1110987 × ××× ⎠\n⎜ ⎟\n5 ⎝ ⎠\n4(0.121) = = (A1) (C3)\n33\n(b) METHOD 1\n⎛⎞⎛⎞ 3 8\n⎜⎟⎜⎟\n3 2 ⎝⎠⎝⎠\nP (3 law students) = (M1)(A1)\n⎛ 11 ⎞\n⎜ ⎟\n5 ⎝ ⎠\n28 ⎛ 2 ⎞\n= = = ⎜ 0.0606 ⎟ (A1) (C3)\n462 ⎝ 33 ⎠\nMETHOD 2\n87 ×××× 321 ⎛⎞ 5\nP (3 law students) = ×⎜⎟ (M1)(A1)\n1110987 × ××× 3 ⎝⎠\n28 2 ⎛ ⎞\nP (3 law students) = = = 0.0606 (A1) (C3) ⎜ ⎟\n462 33 ⎝ ⎠",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "4"
+   ],
+   "subtopics": [
+    "1.10",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "8. A team of five students is to be chosen at random to take part in a debate. The team is to be chosen from a group of eight medical students and three law students. Find the probability that\n(a) only medical students are chosen;\n(b) all three law students are chosen."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q9",
+   "num": "9",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. The probability density function fx () of the continuous random variable X is defined on the interval\n[,] 0a by\n1\nx for 0 ≤ x ≤ 3 ,\n8\nfx () =\n27\nfor 3 < x ≤ a .\n2 8 x\nFind the value of a.",
+   "ms_text": "QUESTION 9\nUsing ∫ afx ()d x = 1 (M1)\n0\n3 1 9\n∫ xx = d (0.5625) = (M1)(A1)\n0 8 16\na 27 1 1 27 9 27d ⎛ ⎞\n∫ x = − + = − + (M1)(A1) 2 ⎜ ⎟\n3 8 x 8 ⎝ a 3 ⎠ 8 a 8\n27 9 7\n− + =\n8 a 8 16\n54( ⇒ a = = 4.91) (A1) (C6)\n11",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "9. The probability density function $f(x)$ of the continuous random variable $X$ is defined on the interval $[0, a]$ by\n$f(x) = \\begin{cases} \\frac{1}{8}x & \\text{for } 0 \\le x \\le 3, \\\\ \\frac{27}{8x^2} & \\text{for } 3 < x \\le a. \\end{cases}$\nFind the value of $a$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q10",
+   "num": "10",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "π , find an expression for cos2 x in terms of a and b. 10. Given that a sin 4 x + b sin 2 x = 0 , for 0 < x <\n2",
+   "ms_text": "QUESTION 10\n+ = 2sin 2cos2 a x x b sin 2 x 0 (M1)(A1)\nsin 2(2cos2 x a x + b ) = 0 (A1)\nb\ncos2 x = − (A1)\n2 a\nb 2\n2cos x −= − 1 (M1)\n2 a\n⎛ b ⎞ 1 1 b ⎛ 2 a − b ⎞\n⇒ cos 2 x = 1 − = − = (A1) (C6) ⎜ ⎟ ⎜ ⎟\n⎝ 2 a ⎠ 2 2 4 a ⎝ 4 a ⎠",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.6",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "10. Given that $a\\sin 4x + b\\sin 2x = 0$, for $0 < x < \\frac{\\pi}{2}$, find an expression for $\\cos^2 x$ in terms of $a$ and $b$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q11",
+   "num": "11",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. Given that z= 25 , find the complex number z that satisfies the equation\n25 15\n− =− 18 i.\nz z ∗",
+   "ms_text": "QUESTION 11\n* Let z = a + b i, so z = a − b i\n2 2 2\nz = a + b = 20 (A1)\n25 15\n− =− 18i\na + b i a − b i\n− − + 25( a b i)15( a b i)\n⇒ =− 18i (M1)(A1)\na 2 + b 2\n10 a\n=⇒ 1 a = 2 (A1)\n20\n40 b\n− = −⇒ = 8 b 4 (A1)\n20\nz = 2 + 4i (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "11. Given that $|z| = 2\\sqrt{5}$, find the complex number $z$ that satisfies the equation\n$\\frac{25}{z} - \\frac{15}{z^*} = 1 - 8i$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q12",
+   "num": "12",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "2 x + 4\n12. (a) Express as partial fractions .\n2 ( x + 4 )( x − 2 )\n2 x + 4\n(b) Hence or otherwise, find x\n∫( 2 ) d.\nx + 4 )( x − 2",
+   "ms_text": "QUESTION 12\n2 x + 4 Ax + B C\n(a) Let = + (M1)\n2 2 ( x + 4)( x − 2) x + 4 x − 2\n⇒ 2 x + 4 = ( Ax + B )( x − 2) + Cx ( 2 + 4)\ncomparing coefficients\nA + C = 0 − 2 A + B = 2 and − 2 B + 4 C = 4\n⎛ x 1 ⎞\n⇒ A = − 1 B = 0 and C = 1 − + (A1)(A1)(A1) (C4) ⎜ ⎟\n2 + −\n⎝ x 4 x 2 ⎠\n+ 2 x 4 x d x\n(b) d x =− d x + ∫ ∫ ∫\n( x 2 + 4)( x − 2) x 2 + 4 x − 2\n⎛ ⎞ Ax ( − 2)\n= − 1 ln 2 + + − + ⎜ = ⎟ x 4 ln x 2 C ln (A1)(A1) (C2)\n⎜ 2 ⎟ 2\nx + 4 ⎝ ⎠",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.11",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "12. (a) Express as partial fractions $\\frac{2x+4}{(x^2+4)(x-2)}$.\n(b) Hence or otherwise, find $\\int \\frac{2x+4}{(x^2+4)(x-2)}\\,dx$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q13",
+   "num": "13",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. An experiment is carried out in which the number n of bacteria in a liquid, is given by the formula\nn kt = 650 e, where t is the time in minutes after the beginning of the experiment and k is a constant.\nThe number of bacteria doubles every 20 minutes. Find\n(a) the exact value of k;\n(b) the rate at which the number of bacteria is increasing when t = 90 .",
+   "ms_text": "QUESTION 13\n20 k (a) 1300 = 650e (M1)(A1)\nln 2\nk = (A1) (C3)\n20\nd n kt\n(b) 650e k (M1)(A1) t=\nd\nd n\nwhen t = 90, = 509.734 = 510 to 3 s.f. (A1) (C3)\nd t",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.9",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "13. An experiment is carried out in which the number $n$ of bacteria in a liquid, is given by the formula $n = 650e^{kt}$, where $t$ is the time in minutes after the beginning of the experiment and $k$ is a constant. The number of bacteria doubles every 20 minutes. Find\n(a) the exact value of $k$;\n(b) the rate at which the number of bacteria is increasing when $t = 90$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q14",
+   "num": "14",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "2 x + 5 x + 5\n14. Let fx () = , x ≠− 2.\nx + 2\n(a) Find ′f (). x\n(b) Solve f ′ () x > 2.",
+   "ms_text": "QUESTION 14\nMETHOD 1\n+ + − 2 + + ( x 2)(2 x 5) ( x 5 x 5)\n(a) f ′ () x = (M1)(A1)\n( x + 2) 2\n2 x + 4 x + 5\n= (A1) (C3)\n2 ( x + 2)\n2 x + 4 x + 5\n(b) > 2\n+ 2 ( x 2)\n⇒ 2 + + > 2 + + x 4 x 5 2 x 8 x 8 (M1)(A1)\n⇒ x 2 + 4 x + 3 < 0\n⇒−< 3 x < − 1 (A1) (C3)\nMETHOD 2\n1\n(a) fx () = x +− 3 (A1)\nx + 2\n1\n′ f () x =+ 1 (M1)(A1) (C3)\n2 ( x + 2)\n1\n+ > (b) 1 2\n2 ( x + 2)\n2 ( x + 2) < 1 (M1)\n−< 1 x + 2 < 1 (A1)\n−< 3 x < − 1 (A1) (C3)",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.6",
+    "2.15",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "14. Let $f(x) = \\frac{x^2 + 5x + 5}{x + 2}$, $x \\neq -2$.\n(a) Find $f'(x)$.\n(b) Solve $f'(x) > 2$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q15",
+   "num": "15",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "k\n2 15. The normal to the curve y = + ln x , for x ≠ 0 , k ∈ ¡ at the point where x = 2 , has equation ,\nx\n3 x + 2 y = b , where b ∈ ¡ Find the exact value of k. .",
+   "ms_text": "QUESTION 15\nd y k 2\n= − + (M1)(A1)\n2 d x x x\n3\nWhen x = 2 , gradient of normal = − (A1)\n2\nd y 2\n⇒ = (A1)\nd x 3\nk 2 4\n⇒− += ⇒ = 1 k (M1)(A1) (C6)\n4 3 3",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.4",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "15. The normal to the curve $y = \\frac{k}{x} + \\ln x^2$, for $x \\neq 0$, $k \\in \\mathbb{R}$, at the point where $x = 2$, has equation $3x + 2y = b$, where $b \\in \\mathbb{R}$. Find the exact value of $k$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q16",
+   "num": "16",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "1 6\n16. Given that ( A ∪ B ) ′ = ∅ , P ( AB ′ )= and P( A ) =\n7, find P(B).\n3",
+   "ms_text": "QUESTION 16\nMETHOD 1\nA B\na b c\nc 1 b\n⇒ c = (A1)\nc=\nb + 3 2\n3\na + b + c = 1 ⇒ a + b = 1 (A1)\n2\n6\nalso a + b =\n7\n2 1 4\n⇒ = c = a = b ( not needed) (A1)(A1)\n7 7 7\n3\nP() B = b + c = (0.429) = (M1)(A1) (C6)\n7\nMETHOD 2\nP( A ′∩ B )\nP( AB ′ ) = (M1)\nP() B\n1 P() B = P( A ′ ∩ B ) (A1)\n3\nP( A ′∩ B ) + P() A = 1 (M1)(A1)\n1 6\nP() B+ = 1 (A1)\n3 7\n3\nP() B= (0.429) = (A1) (C6)\n7",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "16. Given that $(A \\cup B)' = \\varnothing$, $P(A'|B) = \\frac{1}{3}$ and $P(A) = \\frac{6}{7}$, find $P(B)$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q17",
+   "num": "17",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "$ $\n17. The triangle ABC has an obtuse angle at B,BC = 10 2 ., A = x and B = 2 x .\n(a) Find AC, in terms of cos x .\nGiven that the area of triangle ABC is 52.02 cos x , find angle C$. (b)",
+   "ms_text": "QUESTION 17\nsin x sin 2 x 10.2 sin 2 x\n(a) = ⇒ AC = (M1)(A1)\n10.2 AC sin x\n= 20.4 cos x (A1) (C3)\n1 1 ⎛ ⎞\n(b) Area ABC = ACBCsin × × C sin C = 52.02 cos x (M1) ⎜\n2ab ⎟\n2 ⎝ ⎠\n252.02 cos × x\n⇒ sin C = (0.5) = (A1)\n20.4 cos x × 10.2\nˆ � C = 30 (A1) (C3)",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "17. The triangle ABC has an obtuse angle at B, $BC = 10.2$, $\\hat{A} = x$ and $\\hat{B} = 2x$.\n(a) Find AC, in terms of $\\cos x$.\n(b) Given that the area of triangle ABC is $52.02\\cos x$, find angle $\\hat{C}$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q18",
+   "num": "18",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "2 18.\nThe sum of the first n terms of an arithmetic sequence un { } is given by the formula S n= 4 n − 2 n .\nThree terms of this sequence, u , u , and u , are consecutive terms in a geometric sequence.\n2 m 32\nFind m.",
+   "ms_text": "QUESTION 18\nu = 2( = S ) (A1)\n1 1\nu = S − u = 10 ⇒ d = 8 (A1)\n2 2 1\nu= 250 (A1)\n32\nu u\nu , u and u in geometric progression ⇒ m = 32 (M1)\n2 m 32\nu u\n2 m\n⇒ 2 = × = × ⇒ = u u u 10250 u 50 (A1)\nm 2 32 m\nu= − ( 50 not possible since d is positive)\nm\n= = + − ⇒ = u 50 2 8( m 1) m 7 (A1) (C6)\nm",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2",
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "18. The sum of the first $n$ terms of an arithmetic sequence $\\{u_n\\}$ is given by the formula $S_n = 4n^2 - 2n$. Three terms of this sequence, $u_2$, $u_m$, and $u_{32}$, are consecutive terms in a geometric sequence. Find $m$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q19",
+   "num": "19",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "19. The function f is defined for x > 2 by fx = x + x − − x 2 − . () ln ln( 2 ) ln( 4 )\nx\n(a) Express fx () in the form ln\n.\nx + a\n(b) Find an expression for f −1() . x",
+   "ms_text": "QUESTION 19\nxx ( − 2)\n= (a) fx () ln (M1)\n2 x − 4\nx\n= ln (Accept a = 2) (A1) (C2)\nx + 2\n⎛ y ⎞\n(b) For switching variables ⎜ x = ln ⎟ (M1)\n⎝ y + 2 ⎠\ny x\ne = (M1)\ny + 2\nx x x y e − y = y (e − 1) = − 2e (A1)\nx ⎛ x ⎞\n− 1 2e 2e 2 f () x = − = = (A1) (C4)\n⎜ − ⎟\ne x − 1 1e − x e x − 1 ⎝ ⎠",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.5",
+    "1.7",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "19. The function $f$ is defined for $x > 2$ by $f(x) = \\ln x + \\ln(x-2) - \\ln(x^2-4)$.\n(a) Express $f(x)$ in the form $\\ln\\left(\\frac{x}{x+a}\\right)$.\n(b) Find an expression for $f^{-1}(x)$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ2-q20",
+   "num": "20",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "20. Let y = log3, where z is a function of x. The diagram shows the straight line L, which represents the z\ngraph of y against x.\n(a) Using the graph or otherwise, estimate the value of x when z= 9.\n5\n(b) The line L passes through the point 1 , log\n3 . Its gradient is 2. Find an expression for z in\n9\nterms of x.",
+   "ms_text": "QUESTION 20\n(a) z = 9 ⇒ y = log z = 2 (A1)\n3\nx = 2.3 (A1) (C2)\n5\n(b) log z − log = 2( x − 1) (M1)(A1)\n3 3\n9\n⎛ 9 z ⎞=\nlog 2( x − 1) (A1)\n3 ⎜ ⎟\n5 ⎝ ⎠\n53 2( x − 1) ⎛ 59 x ⎞ z = = (A1) (C4)\n⎜ ⎟\n9 81 ⎝ ⎠",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.1",
+    "1.7",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms"
+   ],
+   "text_clean": "20. Let $y = \\log_3 z$, where $z$ is a function of $x$. The diagram shows the straight line $L$, which represents the graph of $y$ against $x$.\n[Graph: straight line L of y against x, x from -2 to 7, y from -4 to 10; L crosses the x-axis just above x = 1 and rises with gradient 2]\n(a) Using the graph or otherwise, estimate the value of $x$ when $z = 9$.\n(b) The line $L$ passes through the point $\\left(1, \\log_3 \\frac{5}{9}\\right)$. Its gradient is 2. Find an expression for $z$ in terms of $x$."
+  }
+ ],
+ "status": "done"
+}

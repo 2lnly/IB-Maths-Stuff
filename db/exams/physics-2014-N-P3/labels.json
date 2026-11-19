@@ -1,0 +1,281 @@
+{
+ "exam_id": "physics-2014-N-P3",
+ "questions": {
+  "1": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "1. This question is about the night sky.\n(a) Distinguish between a stellar cluster and a constellation. [2]\n(b) Describe the apparent motion of stars in the sky over a period of 24 hours. [1]"
+  },
+  "2": {
+   "topics": [
+    "E",
+    "B"
+   ],
+   "subtopics": [
+    "E.5",
+    "B.1"
+   ],
+   "text_clean": "2. This question is about stellar radiation and stellar types.\nAlnilam and Bellatrix are two stars in the constellation of Orion. The table gives information on each of these stars. $L_\\odot$ is the luminosity of the Sun and $R_\\odot$ is the radius of the Sun.\n| | Apparent magnitude | Absolute magnitude | Surface temperature | Luminosity | Radius |\n| Alnilam | +1.68 | −6.37 | 27 000 K | $275\\,000 L_\\odot$ | $24 R_\\odot$ |\n| Bellatrix | +1.62 | −2.37 | $T_B$ | $6400 L_\\odot$ | $6 R_\\odot$ |\n(a) (i) Explain how Alnilam has a similar apparent magnitude to Bellatrix but a smaller absolute magnitude. [2]\n(ii) Calculate the surface temperature $T_B$ of the star Bellatrix. [3]\n(b) Using a telescope based on Earth, an observer estimates the distance to Alnilam using the stellar parallax method.\n(i) Describe the stellar parallax method. [2]\n(ii) Determine whether the stellar parallax method can be used to estimate the distance of Alnilam from Earth. [3]",
+   "qtype": "long"
+  },
+  "3": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "text_clean": "3. This question is about cosmology.\nNewton assumed that the universe was infinite, uniform and static. The Big Bang model suggests space and time originated at one point around 14 billion years ago. At this time the temperature was very high.\n(a) Olbers suggested that if Newton was correct then the sky should never be dark. Explain Olbers' paradox quantitatively. [3]\n(b) In 1965, Penzias and Wilson discovered cosmic radiation with a wavelength that corresponded to a temperature of around 3 K. Outline how cosmic radiation in the microwave region is consistent with the Big Bang model. [2]\n(c) Suggest how the Big Bang model provides a resolution to Olbers' paradox. [2]"
+  },
+  "4": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "4. This question is about the Hertzsprung–Russell (HR) diagram and stellar evolution.\nThe star Phi-1 Orionis is a large star on the main sequence with a mass of approximately 18 solar masses.\n[Diagram: HR diagram, luminosity $L/L_{Sun}$ (0.0001 to 10000, log scale) against temperature / K (40000, 20000, 10000, 5000, 2500); main sequence curve, regions labelled super giants, giants, white dwarfs]\n(a) Calculate the luminosity of Phi-1 Orionis in terms of the luminosity of the Sun. Assume that $n = 3.5$ in the mass–luminosity relation. [2]\n(b) The Sun is expected to have a lifespan of around $10^{10}$ years. With reference to the equilibrium between radiation pressure and gravitational pressure, discuss why Phi-1 Orionis will use up its hydrogen at a faster rate than the Sun. [2]\n(c) (i) Using the HR diagram on page 6, draw the evolutionary path of Phi-1 Orionis as it leaves the main sequence. [1]\n(ii) Outline, with reference to the Oppenheimer–Volkoff limit, the fate of Phi-1 Orionis. [1]"
+  },
+  "5": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.12",
+    "C.5"
+   ],
+   "text_clean": "5. This question is about the Hubble constant.\nA recent estimate for the value of the Hubble constant is $70\\ \\text{km s}^{-1}\\,\\text{Mpc}^{-1}$.\n(a) Estimate, in seconds, the age of the universe. [2]\n(b) The wavelength of the lines in the absorption spectrum of hydrogen is 656.3 nm when measured on Earth. Analysis of light from a distant galaxy shows that the same line has a wavelength of 725.6 nm. Determine the recessional velocity of the distant galaxy. [2]"
+  },
+  "6": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "6. This question is about radio communication.\nA signal wave can modulate a carrier wave using either amplitude modulation (AM) or frequency modulation (FM).\n(a) (i) Distinguish between amplitude modulation and frequency modulation. [2]\n(ii) State why carrier waves are modulated. [1]\n(iii) Sketch the waveform that results when a signal wave modulates a carrier wave of higher frequency. Include at least one cycle of the amplitude modulation. [2]\n[Grid for sketch]\n(b) Identify one advantage and one disadvantage of AM radio communication compared to FM radio communication. [2]\nAdvantage:\nDisadvantage:"
+  },
+  "7": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "7. This question is about digital signals.\nGraph 1 shows the original waveform of a sound wave.\n[Graph 1: irregular analogue waveform against time]\nGraph 2 shows the voltage of this wave at the sampling points.\n[Graph 2: sampled voltage points, V / mV (0 to 8) against time / ms (0 to 12), one sample every 0.5 ms]\nThe input signal is converted into a 4-bit binary signal, according to the following rule.\n| Input signal / mV | 4-bit binary conversion |\n| $0 \\le V < 0.5$ | 0000 |\n| $0.5 \\le V < 1.0$ | 0001 |\n| $1.0 \\le V < 1.5$ | 0010 |\n| $1.5 \\le V < 2.0$ | 0011 |\n| ⋮ | ⋮ |\n| $7.5 \\le V < 8.0$ | 1111 |\n(a) Calculate the sampling frequency. [1]\n(b) Determine the 4-bit binary signal when $t = 4.5$ ms. [1]\n(c) State and explain one change to this system which will allow the output signal that was reconstructed from the binary signal to match the original analogue signal more closely. [2]"
+  },
+  "8": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.10",
+    "C.3"
+   ],
+   "text_clean": "8. This question is about optic fibres.\nAn optic fibre consists of a thin glass fibre surrounded by a cladding material. The refractive index of the glass is 1.62.\n(a) (i) Calculate the critical angle for this optic fibre. [1]\n(ii) The diagram shows a straight optic fibre. Sketch the passage of a ray of light through the fibre. [2]\n[Diagram: straight optic fibre (two parallel edges labelled \"edge of optic fibre\") with a ray incident on the end face]\n(b) The input power to the fibre is 150 mW. The attenuation per unit length of the glass fibre is $12.0\\ \\text{dB km}^{-1}$. When the light has travelled a distance $l$ its power has fallen to 3.00 mW, at which point amplification of the signal is required. Determine $l$. [2]\n(c) The variation with time $t$ of the input power to an optic fibre of length $l$ is shown in diagram 1. The variation with time $t$ of the output power from the optic fibre is shown in diagram 2. The output power in diagram 2 is not to the same scale as the input power on diagram 1.\n[Diagram 1: input power vs t, a narrow rectangular pulse. Diagram 2: output power vs t, a smaller, wider, noisy pulse later in time]\nThe output power is much smaller than the input power because energy is absorbed as the light passes along the optic fibre.\n(i) One difference between the shape of the input and output signals is that the output signal is noisier than the input signal. State and explain one other difference between the shape of the input signal and the output signal. [2]\n(ii) Describe how the output signal can be restored to its original shape. [2]",
+   "qtype": "long"
+  },
+  "9": {
+   "topics": [
+    "X",
+    "D"
+   ],
+   "subtopics": [
+    "X.14",
+    "D.1"
+   ],
+   "text_clean": "9. This question is about satellite communication.\n(a) State what is meant by a geostationary satellite. [2]\n(b) Discuss one advantage and one disadvantage of a polar-orbiting satellite compared to a geostationary satellite when it is used for mapping the Earth's surface. [2]\nAdvantage:\nDisadvantage:\n(c) A ground station on Earth transmits to a satellite on an up-link frequency. The satellite transmits back to Earth on a down-link frequency. Explain one reason why these two frequencies should not be the same. [1]"
+  },
+  "10": {
+   "topics": [
+    "X",
+    "B"
+   ],
+   "subtopics": [
+    "X.14",
+    "B.5"
+   ],
+   "text_clean": "10. This question is about an operational amplifier (op-amp).\nAn op-amp is used as a comparator in a circuit, as shown.\n[Circuit: between +15 V and −15 V rails, a thermistor in series with a 300 Ω resistor feeds the inverting input; a potentiometer X feeds the non-inverting input; output $V_{out}$ drives a heating element to −15 V]\nThe circuit is used to monitor the temperature in a greenhouse. The resistance of a thermistor decreases as its temperature increases.\n(a) Explain how the potential at the inverting input changes as the temperature decreases. [2]\n(b) Describe the purpose of component X in the circuit. [1]\nWhen the potential of the non-inverting input is set at 0 V, the heater switches on at a temperature of around 10 °C. The ideal temperature to grow plants in the greenhouse is 18 °C or greater. At 18 °C the resistance of the thermistor is 193 Ω.\n(c) Show that the potential at the non-inverting input should be set to around 3 V to ensure the heating element turns on when the temperature is less than 18 °C. [2]"
+  },
+  "11": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "text_clean": "11. This question is about convex lenses.\n(a) A convex (converging) lens is used to project an image onto a screen. The focal length of the lens is 10 cm. The object is placed at a distance of 15 cm from the centre of the lens on the principal axis.\n(i) Define principal axis. [1]\n(ii) Construct rays to locate the position of the image. [3]\n[Diagram: convex lens on principal axis with focal points f at 10 cm either side; object arrow 15 cm from the lens]\n(iii) Identify the nature of the image. [1]\n(b) Another object, as shown, is positioned so that the centre of the object lies on the principal axis of the lens. The object is normal to the principal axis. The lens has not been corrected for spherical aberration.\n[Diagram: square object divided into four squares by a central cross]\nThe diagram shows what would be seen on the screen if the lens produced no aberrations in the image.\n[Diagram: dashed square grid image]\n(i) The lens is covered with a wide aperture. Using the diagram, sketch the likely appearance of the image if the lens produces spherical aberrations. [2]\n(ii) Outline why reducing the size of the aperture will reduce the effects of spherical aberration. [2]",
+   "qtype": "long"
+  },
+  "12": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.4"
+   ],
+   "text_clean": "12. This question is about lasers.\n(a) Outline, in terms of the production of laser light, what is meant by\n(i) monochromatic. [1]\n(ii) population inversion. [1]\n(b) Lasers are widely used in medicine. Outline one use of lasers in this field. [2]"
+  },
+  "13": {
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.3"
+   ],
+   "text_clean": "13. This question is about the interference of sound waves.\nTwo loudspeakers, S1 and S2, each emit a musical note of frequency 2.5 kHz with identical signal amplitude. Point P lies on the line AB and is equidistant from S1 and S2. The speakers are placed 1.5 m apart from each other and 8.0 m from line AB. The speed of sound is $330\\ \\text{m s}^{-1}$.\n[Diagram: a source connected to speakers S1 and S2, 1.5 m apart, 8.0 m from line AB; P on AB opposite the midpoint of S1S2]\nA person walking in a straight line from A to B observes that the intensity of sound alternates between high and low.\n(a) With reference to interference, explain why the intensity of sound alternates along line AB. [3]\n(b) The sound has a maximum intensity at P. Calculate the distance along line AB to the next intensity maximum when S1 and S2 emit a musical note of frequency 2.5 kHz. [2]\n(c) S1 and S2 are moved so that they are now 3.0 m apart. They remain at the same distance from line AB. Discuss the changes, if any, in the rate at which the intensity of sound alternates when a person is walking along line AB at half the speed. [2]"
+  },
+  "14": {
+   "topics": [
+    "E",
+    "X"
+   ],
+   "subtopics": [
+    "E.2",
+    "E.1",
+    "X.4"
+   ],
+   "text_clean": "14. This question is about X-ray diffraction.\n(a) Electrons strike rhodium after acceleration through a potential difference. The X-ray spectrum emitted is shown.\n[Graph: X-ray intensity against wavelength / pm (0 to 200); continuous spectrum starting at about 20 pm with two characteristic peaks near 60 pm and 70 pm]\n(i) Calculate the potential difference through which the electrons were accelerated. [2]\n(ii) Explain the presence of the characteristic peaks of the spectrum. [2]\n(b) X-rays may be used to determine the structure of a crystal. A beam of X-rays of wavelength 200 pm is incident on the surface of a crystal. The separation $d$ of the atoms is $3.6\\times10^{-10}$ m.\n[Diagram: incident X-rays at glancing angle $\\theta$ scattering from two rows of atoms separated by $d$]\nCalculate the angle $\\theta$ for which the second order maximum of the diffraction pattern appears. [2]",
+   "note": "audit: Bragg X-ray crystal diffraction is X.4"
+  },
+  "15": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.4"
+   ],
+   "text_clean": "15. This question is about thin-film interference.\nA thin film of oil of constant thickness floats on the surface of water. The refractive indices $n$ of each material is shown on the diagram.\n[Diagram: layers air $n = 1.00$, oil $n = 1.40$, water $n = 1.33$]\n(a) Explain why the film of oil appears to show coloured fringes. [2]\n(b) When white light is normally incident on the surface of the oil, the film appears green to an observer. The wavelength of green light in air is 520 nm. Calculate the thickness of the film of oil. [2]"
+  },
+  "16": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "16. This question is about simultaneity.\nDaniela is standing in the middle of a train that is moving at a constant velocity relative to Jaime, who is standing on the platform. At the moment the train passes Jaime, two beams of light, X and Y, are emitted simultaneously from a device held by Daniela. Both beams are reflected by mirrors at the end of the train and then return to Daniela.\n[Diagram: train moving right at $v = 0.8c$ with mirrors at each end; Daniela in the middle emits X to the left and Y to the right; Jaime on the platform]\n(a) State and explain the order of arrival of X and Y at the mirrors according to Jaime. [3]\n(b) Outline whether the return of X and Y to Daniela are simultaneous according to Jaime. [2]"
+  },
+  "17": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "17. This question is about a light clock.\n(a) One of the postulates of special relativity refers to the speed of light. State the other postulate of special relativity. [1]\n(b) In a light clock, a beam of light is reflected between two parallel mirrors M1 and M2.\n[Diagram: light clock with mirrors M1 and M2 (\"tick\" at each), moving at velocity $v$ past a stationary observer]\nThe time interval between successive reflections at M2 according to an observer at rest relative to the light clock is $t$. This light clock is moving at velocity $v$ relative to the stationary observer.\n(i) Show that the time $t'$ between successive reflections at M2 in this light clock as measured by the stationary observer is $t' = \\dfrac{1}{\\sqrt{1-\\frac{v^2}{c^2}}}\\,t$. [3]\n(ii) Using the axis, sketch a graph to show how the ratio $\\frac{t'}{t}$ varies with $v$. You should add key values to your graph. [2]\n[Axes: $t'/t$ against $v$, from 0 to c]"
+  },
+  "18": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "18. This question is about muon decay.\nMuons are produced in the Earth's atmosphere at a height of around 10 km above the surface. They then travel at a speed of around 0.98c towards the Earth. The average time for a muon to decay is approximately 2.2 μs, according to observers at rest relative to the muon.\n(a) Deduce that few muons would be expected to arrive at the surface of the Earth if non-relativistic mechanics are assumed. [2]\n(b) Many muons are observed to reach the surface of the Earth.\n(i) Calculate the average decay time of a muon as observed by an observer on the surface of the Earth. [2]\n(ii) Explain, with a calculation, why many muons reach the surface of the Earth before they have decayed. [2]"
+  },
+  "19": {
+   "topics": [
+    "X",
+    "A",
+    "E"
+   ],
+   "subtopics": [
+    "X.7",
+    "A.5",
+    "E.2"
+   ],
+   "text_clean": "19. This question is about relativistic momentum and energy.\nAn electron and a positron travel towards each other in a straight line in a vacuum. A positron is a positively charged electron.\n[Diagram: electron moving right at 0.85c and positron moving left at 0.85c]\nThe speed of each particle, as measured by an observer in the laboratory, is 0.85c. The value of the Lorentz factor at this speed is approximately 1.9.\n(a) Calculate the speed of the positron as measured in the frame of reference of the electron. [2]\n(b) The electron and positron annihilate each other, creating two photons in the process. Each of the photons transfers the same quantity of energy.\n(i) Calculate the total energy in the reaction. [1]\n(ii) Outline why two photons must be released in this collision. [2]\n(iii) Determine the frequency of one of the photons. [2]",
+   "note": "(a) relativistic velocity addition A.5; (b) annihilation energy/momentum X.7; photon frequency E.2"
+  },
+  "20": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "20. This question is about black holes.\nA space probe is stationary in the gravitational field of a black hole.\n[Diagram: black hole with Schwarzschild radius marked, a space probe outside it emitting a light signal towards a distant space station]\nThe mass of the black hole is $4.5\\times10^{31}$ kg. The space probe is emitting a pulse of blue light at a time interval of 1.0 seconds as measured on the space probe. The light is received by an observer on a distant space station that is stationary with respect to the space probe.\n(a) Explain why the light reaching the space station will be red-shifted. [3]\n(b) The time between the pulses as measured by the observer on the distant space station is found to be 1.5 s. Calculate the distance of the space probe from the black hole. [3]"
+  },
+  "21": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "21. This question is about the ear and hearing.\nThe diagram shows parts of the human ear.\n[Diagram: human ear labelled malleus (hammer), incus (anvil), stapes (stirrup), cochlea, auditory canal, tympanic membrane (eardrum)]\n(a) Sound waves that pass from the auditory canal can be transmitted into the cochlea rather than being reflected at the boundary.\n(i) Using the diagram, label the position of the oval window. [1]\n(ii) Explain how the structure of the middle ear allows sound waves to be transmitted to the cochlear fluid. [2]\n(b) A construction worker is exposed to sound levels of 105 dB continuously over an eight hour period.\n(i) Show that the intensity of sound corresponding to noise of 105 dB is about $30\\ \\text{mW m}^{-2}$. [2]\n(ii) Noise-induced permanent hearing loss can occur when a person is exposed to sounds of an intensity level greater than 90 dB for extended periods of time. Calculate the fraction of power of the noise that needs to be prevented from entering the ear of the construction worker to prevent permanent hearing loss. [2]"
+  },
+  "22": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "22. This question is about medical imaging using X-rays.\n(a) The table shows the attenuation coefficient μ (mu) for different parts of the body.\n| $\\mu_{air}$ | $0\\ \\text{cm}^{-1}$ |\n| $\\mu_{muscle}$ | $0.180\\ \\text{cm}^{-1}$ |\n| $\\mu_{blood}$ | $0.178\\ \\text{cm}^{-1}$ |\n| $\\mu_{bone}$ | $0.48\\ \\text{cm}^{-1}$ |\n(i) Define attenuation coefficient. [1]\n(ii) Calculate the half-value thickness for blood. [2]\n(b) An X-ray scan is taken of a patient to examine the flow of blood through their arm. X-rays of intensity $I$ are incident on an equal thickness of blood and muscle. The intensity of the X-rays is measured after passing through the blood and muscle respectively.\n(i) Calculate the ratio $\\frac{I_{blood}}{I_{muscle}}$ for 1 cm of tissue. [2]\n(ii) Suggest why an X-ray scan does not allow for the differentiation between muscle and blood. [2]\n(c) A contrast medium containing iodine is injected into the patient. This increases the attenuation coefficient of blood so that the difference between the intensities of blood and muscle is greater than 2 %. The blood can now be observed on an X-ray scan. Determine the minimum increase in $\\mu_{blood}$ that will enable a sharper contrast to be observed between an equal thickness of muscle and blood. [3]\n(d) X-rays are a form of ionizing radiation. To reduce the danger to a patient, the intensity of X-rays are kept to a minimum. Describe how enhancement allows for low intensity X-rays to be used. [2]",
+   "qtype": "long"
+  },
+  "23": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.11",
+    "E.3"
+   ],
+   "text_clean": "23. This question is about the use of radioactive isotopes.\n(a) Radiologists working with radioactive sources wear a film badge. Discuss the function of a film badge. [3]\n(b) Patients suffering from prostate cancer can experience metastatic bones. As part of the cancer treatment, patients are injected with an isotope of strontium which is readily taken up by the bones.\nThe table shows the half-life and emission information for strontium-89 (Sr-89) and strontium-90 (Sr-90).\n| | Strontium-89 (Sr-89) | Strontium-90 (Sr-90) |\n| Physical half-life | 50.5 days | 29.1 years |\n| Biological half-life | 50 days | around 30 years |\n| Type of emission | low energy beta (β) particles with a range of 8.0 mm | high energy beta (β) particles |\nBeta particles have a quality factor of 1.\n(i) State the meaning of the term quality factor. [1]\n(ii) Using the information in the table, outline why Sr-89 is preferred to Sr-90 in the treatment of bone cancers. [2]\n(iii) Calculate the effective half-life of Sr-89 in a patient. [2]\n(iv) State, in terms of range, two reasons why Sr-89 is the more suitable choice of isotope to be used in the treatment of bone cancers. [2]\n(c) One of the side effects of the use of Sr-89 is the reduction of white blood cells in the body, leaving the patient prone to infections. Outline one ethical implication of the choice between using Sr-89 to treat bone cancer and not carrying out treatment. [1]",
+   "qtype": "long"
+  },
+  "24": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "24. This question is about fundamental interactions and elementary particles.\n(a) (i) Identify the type of fundamental interactions associated with the exchange particles in the table. [2]\n| Exchange particle | Fundamental interaction |\n| Photon | |\n| Pi meson, $\\pi^+$ | |\n(ii) State why $\\pi^+$ mesons are not considered to be elementary particles. [1]\n(b) The Feynman diagram represents the decay of a $\\pi^+$ meson into an anti-muon and a muon neutrino.\n[Feynman diagram: u and $\\bar{d}$ (forming $\\pi^+$) meet at a vertex, exchange particle (wavy line) to a vertex producing $\\mu^+$ and $\\nu_\\mu$]\n(i) Identify the exchange particle associated with this decay. [1]\n(ii) Deduce that this decay conserves baryon number. [2]\n(iii) $\\pi^+$ mesons have a mass of the order of magnitude of around $100\\ \\text{MeV c}^{-2}$. Show that the range of interactions of $\\pi^+$ mesons is around $10^{-15}$ m. [2]\n(iv) Describe why $\\pi^+$ mesons are thought to be responsible for the strong nuclear force. [1]",
+   "qtype": "long"
+  },
+  "25": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "25. This question is about particle accelerators.\n(a) In a large electron–positron collider, electrons are accelerated to very high speeds and collide with stationary positrons. This results in the release of π mesons as shown.\n$e^- + e^+ \\rightarrow \\pi^+ + \\pi^-$\nThe rest mass of π mesons is $105\\ \\text{MeV c}^{-2}$.\nDetermine the minimum energy given to the electrons for this reaction to take place. [2]\n(b) A synchrotron can be used to accelerate electrons and positrons so that they collide together at high speeds. A schematic diagram of a synchrotron is shown.\n[Diagram: synchrotron ring with electromagnets around it, an accelerating cavity and a particle injection point]\n(i) Outline the function of the electric field at the point of particle injection. [2]\n(ii) Describe why electromagnets are used in a synchrotron rather than permanent magnets. [2]\n(iii) The Tevatron was a large synchrotron with a ring circumference of 6.28 km. With reference to bremsstrahlung (braking) radiation, describe why the synchrotron ring needs to have such a large radius. [2]"
+  },
+  "26": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.2",
+    "E.2"
+   ],
+   "text_clean": "26. This question is about experimental evidence of quarks.\nElectrons are accelerated towards a fixed nucleus. The electrons can be scattered by nuclei and nucleons in different ways depending on the incident energy of the electron.\n(a) Outline how deep inelastic scattering is used in particle physics. [2]\n(b) (i) Calculate the accelerating potential required for deep inelastic scattering off a neutron with a diameter of $10^{-15}$ m. [3]\n(ii) A neutron is a particle with no charge and a spin of $\\frac{1}{2}$. Using this information, show that the quark content of a neutron is udd. [2]\n(c) The energy of electrons can be changed. Explain, with reference to the incident energies of the electrons, two other types of scattering which may be observed. [2]",
+   "qtype": "long"
+  },
+  "27": {
+   "topics": [
+    "X",
+    "B"
+   ],
+   "subtopics": [
+    "X.12",
+    "B.3"
+   ],
+   "text_clean": "27. This question is about cosmology and the early universe.\nAfter its formation the universe expanded rapidly, cooling as it did so.\n(a) At one stage in its development, the universe contained almost equal numbers of particles and antiparticles. Observation of the recent universe suggests that the antiparticles have largely disappeared. Suggest a mechanism for this observation. [2]\n(b) At a later stage nucleosynthesis occurs. Energies of 0.1 MeV are required for this process to predominate in the universe. Determine the temperature, in Kelvin, at which large-scale nucleosynthesis takes place. [2]"
+  }
+ },
+ "exam_note": "2009-syllabus P3 options E-J. MS crops for Q3,4,5,17,18,19 fixed via overrides (equation tops spilled across question boundaries)."
+}

@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2006-N-P2",
+  "questions": {
+    "1": {
+      "topics": ["3", "1", "2"],
+      "subtopics": ["3.4", "1.15", "3.2", "2.10"],
+      "text_clean": "1. [Total Mark: 24]\nPart A [Maximum mark: 13]\nThe following diagram shows a circle centre O, radius $r$. The angle $\\hat{AOB}$ at the centre of the circle is $\\theta$ radians. The chord AB divides the circle into a minor segment (the shaded region) and a major segment.\n[Diagram: circle centre O with radii OA and OB of length r, angle theta at O; the minor segment cut off by chord AB is shaded]\n(a) Show that the area of the minor segment is $\\frac{1}{2}r^2(\\theta - \\sin\\theta)$. [4 marks]\n(b) Find the area of the major segment. [3 marks]\n(c) Given that the ratio of the areas of the two segments is $2:3$, show that $\\sin\\theta = \\theta - \\frac{4\\pi}{5}$. [4 marks]\n(d) Hence find the value of $\\theta$. [2 marks]\nPart B [Maximum mark: 11]\n(a) Use mathematical induction to prove that $(1)(1!) + (2)(2!) + (3)(3!) + \\dots + (n)(n!) = (n+1)! - 1$ where $n \\in \\mathbb{Z}^+$. [8 marks]\n(b) Find the minimum number of terms of the series for the sum to exceed $10^9$. [3 marks]"
+    },
+    "2": {
+      "topics": ["4", "5"],
+      "subtopics": ["4.8", "4.14", "5.10", "5.11"],
+      "text_clean": "2. [Total Mark: 22]\nPart A [Maximum mark: 12]\nA bag contains a very large number of ribbons. One quarter of the ribbons are yellow and the rest are blue. Ten ribbons are selected at random from the bag.\n(a) Find the expected number of yellow ribbons selected. [2 marks]\n(b) Find the probability that exactly six of these ribbons are yellow. [2 marks]\n(c) Find the probability that at least two of these ribbons are yellow. [3 marks]\n(d) Find the most likely number of yellow ribbons selected. [4 marks]\n(e) What assumption have you made about the probability of selecting a yellow ribbon? [1 mark]\nPart B [Maximum mark: 10]\nThe continuous random variable $X$ has probability density function\n$f(x) = \\begin{cases} \\frac{x}{1+x^2}, & \\text{for } 0 \\le x \\le k \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Find the exact value of $k$. [5 marks]\n(b) Find the mode of $X$. [2 marks]\n(c) Calculate $P(1 \\le X \\le 2)$. [3 marks]"
+    },
+    "3": {
+      "topics": ["3", "1"],
+      "subtopics": ["3.14", "3.13", "3.17", "3.12", "1.16", "1.L1"],
+      "text_clean": "3. [Total Mark: 28]\nPart A [Maximum mark: 14]\n(a) The line $l_1$ passes through the point A$(0, 1, 2)$ and is perpendicular to the plane $x - 4y - 3z = 0$. Find the Cartesian equations of $l_1$. [2 marks]\n(b) The line $l_2$ is parallel to $l_1$ and passes through the point P$(3, -8, -11)$. Find the vector equation of the line $l_2$. [2 marks]\n(c) (i) The point Q is on the line $l_1$ such that $\\vec{PQ}$ is perpendicular to $l_1$ and $l_2$. Find the coordinates of Q.\n(ii) Hence find the distance between $l_1$ and $l_2$. [10 marks]\nPart B [Maximum mark: 14]\nConsider the system of equations\n$x + 2y + kz = 0$\n$x + 3y + z = 3$\n$kx + 8y + 5z = 6$\n(a) Find the set of values of $k$ for which this system of equations has a unique solution. [6 marks]\n(b) For each value of $k$ that results in a non-unique solution, find the solution set. [8 marks]"
+    },
+    "4": {
+      "topics": ["5", "2"],
+      "subtopics": ["5.8", "5.6", "5.7", "5.16", "5.17", "2.3"],
+      "text_clean": "4. [Maximum mark: 26]\nThe function $f$ is defined by $f(x) = \\frac{\\ln x}{x^3}$, $x \\ge 1$.\n(a) Find $f'(x)$ and $f''(x)$, simplifying your answers. [6 marks]\n(b) (i) Find the exact value of the $x$-coordinate of the maximum point and justify that this is a maximum.\n(ii) Solve $f''(x) = 0$, and show that at this value of $x$, there is a point of inflexion on the graph of $f$.\n(iii) Sketch the graph of $f$, indicating the maximum point and the point of inflexion. [11 marks]\nThe region enclosed by the $x$-axis, the graph of $f$ and the line $x = 3$ is denoted by $R$.\n(c) Find the volume of the solid of revolution obtained when $R$ is rotated through $360^\\circ$ about the $x$-axis. [3 marks]\n(d) Show that the area of $R$ is $\\frac{1}{18}(4 - \\ln 3)$. [6 marks]"
+    },
+    "5": {
+      "topics": ["1", "5", "3"],
+      "subtopics": ["1.14", "1.9", "1.13", "5.18", "3.6", "5.13"],
+      "text_clean": "5. [Maximum mark: 20]\nLet $y = \\cos\\theta + \\mathrm{i}\\sin\\theta$.\n(a) Show that $\\frac{dy}{d\\theta} = \\mathrm{i}y$.\n[You may assume that for the purposes of differentiation and integration, i may be treated in the same way as a real constant.] [3 marks]\n(b) Hence show, using integration, that $y = \\mathrm{e}^{\\mathrm{i}\\theta}$. [5 marks]\n(c) Use this result to deduce de Moivre's theorem. [2 marks]\n(d) (i) Given that $\\frac{\\sin 6\\theta}{\\sin\\theta} = a\\cos^5\\theta + b\\cos^3\\theta + c\\cos\\theta$, where $\\sin\\theta \\ne 0$, use de Moivre's theorem with $n = 6$ to find the values of the constants $a$, $b$ and $c$.\n(ii) Hence deduce the value of $\\lim_{\\theta \\to 0} \\frac{\\sin 6\\theta}{\\sin\\theta}$. [10 marks]"
+    }
+  }
+}

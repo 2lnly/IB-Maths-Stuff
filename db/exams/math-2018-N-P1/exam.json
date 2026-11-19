@@ -1,0 +1,282 @@
+{
+ "exam_id": "math-2018-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2018,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2018 November Examination Session/Mathematics_paper_1__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2018 November Examination Session/Mathematics_paper_1__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8818-7201; code N18/5/MATHL/HP1/ENG/TZ0/XX; marks sum matches paper total 100",
+ "qp_pages": 12,
+ "questions": [
+  {
+   "id": "math-2018-N-P1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\nConsider two events, A and B , such that P(A) = P(A' ∩ B) = 0.4 and P(A ∩ B) = 0.1 .\n(a) By drawing a Venn diagram, or otherwise, find P(A∪B) . [3]\n(b) Show that the events A and B are not independent. [3]",
+   "ms_text": "1. (a)\n(M1)\nNote: Award M1 for a Venn diagram with at least one probability in the correct region.\nEITHER\nP( A ∩ B′ ) = 0.3 (A1)\nP( A ∪ B ) = 0.3 + 0.4 + 0.1 = 0.8 A1\nOR\nP() B= 0.5 (A1)\nP( A ∪ B ) = 0.5 + 0.4 − 0.1 = 0.8 A1\n[3 marks]\n(b) METHOD 1\nP()P() A B= 0.4 × 0.5 M1\n= 0.2 A1\nstatement that their P()P() A B ≠ P( A ∩ B ) R1\nNote: Award R1 for correct reasoning from their value.\n⇒ AB , not independent AG\nMETHOD 2\nP( A ∩ B ) 0.1\nP(|) AB = = M1\nP() B 0.5\n= 0.2 A1\n≠ statement that their P(|) AB P() A R1\nNote: Award R1 for correct reasoning from their value.\n⇒ AB , not independent AG\nNote: Accept equivalent argument using P(|) BA= 0.25 .\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nConsider two events, $A$ and $B$, such that $\\mathrm{P}(A) = \\mathrm{P}(A' \\cap B) = 0.4$ and $\\mathrm{P}(A \\cap B) = 0.1$.\n(a) By drawing a Venn diagram, or otherwise, find $\\mathrm{P}(A \\cup B)$. [3]\n(b) Show that the events $A$ and $B$ are not independent. [3]"
+  },
+  {
+   "id": "math-2018-N-P1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nA team of four is to be chosen from a group of four boys and four girls.\n(a) Find the number of different possible teams that could be chosen. [3]\n(b) Find the number of different possible teams that could be chosen, given that the team\nmust include at least one girl and at least one boy. [2]",
+   "ms_text": "2. (a) METHOD 1\n8\n(A1)\n4\n=8! 4!4!=8 ×7 ×6 ×5\n(M1) 4 ×3 ×2 ×1=7 ×2 ×5\n= 70 A1\nMETHOD 2\nrecognition that they need to count the teams with 0 boys, 1 boy… 4 boys M1\n4 4 4 4 4 4\n1 + × + × + × + 1\n1 3 2 2 1 3\n=+ × + × + × + 1 (4 4) (6 6) (4 4)1 (A1)\n= 70 A1\n[3 marks]\n(b) EITHER\nrecognition that the answer is the total number of teams minus the number\nof teams with all girls or all boys (M1)\n− 70 2\nOR\nrecognition that the answer is the total of the number of teams with 1 boy,\n2 boys, 3 boys (M1)\n4 4 4 4 4 4\n× + × + × = (4 × 4) + (6 × 6) + (4 × 4)\n1 3 2 2 1 3\nTHEN\n= 68 A1\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nA team of four is to be chosen from a group of four boys and four girls.\n(a) Find the number of different possible teams that could be chosen. [3]\n(b) Find the number of different possible teams that could be chosen, given that the team must include at least one girl and at least one boy. [2]"
+  },
+  {
+   "id": "math-2018-N-P1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nπ where a <�\nConsider the function g(x) = 4 cos x+ 1, a ≤ x ≤ .\n2 2\nFor a = −�\n(a) , sketch the graph of y =g(x) . Indicate clearly the maximum and minimum\n2\nvalues of the function. [3]\n(b) Write down the least value of a such that g has an inverse. [1]\n(c) For the value of a found in part (b),\n(i) write down the domain of g-1 ;\n(ii) find an expression for g-1(x) . [3]",
+   "ms_text": "3. (a)\nconcave down and symmetrical over correct domain A1\nindication of maximum and minimum values of the function (correct range) A1A1\n[3 marks]\n(b) a = 0 A1\nNote: Award A1 for a = 0 only if consistent with their graph.\n[1 mark]\n(c) (i) 1 ≤ x ≤ 5 A1\nNote: Allow FT from their graph.\ny = 4cos x + 1 (ii)\nx = 4cos y + 1\n− x 1\n= cos y (M1)\n4\n− x 1\n⇒ = y arccos\n4\nx − 1 − 1\n⇒ g () x = arccos A1\n4\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.7",
+    "3.9",
+    "2.14",
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nConsider the function $g(x) = 4\\cos x + 1$, $a \\le x \\le \\frac{\\pi}{2}$ where $a < \\frac{\\pi}{2}$.\n(a) For $a = -\\frac{\\pi}{2}$, sketch the graph of $y = g(x)$. Indicate clearly the maximum and minimum values of the function. [3]\n(b) Write down the least value of $a$ such that $g$ has an inverse. [1]\n(c) For the value of $a$ found in part (b),\n(i) write down the domain of $g^{-1}$;\n(ii) find an expression for $g^{-1}(x)$. [3]"
+  },
+  {
+   "id": "math-2018-N-P1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\nConsider the following system of equations where a ∈ϒ .\n2x + 4y-z = 10\nx+ 2y+az = 5\n5x + 12y= 2a .\n(a) Find the value of a for which the system of equations does not have a unique solution. [2]\n(b) Find the solution of the system of equations when a = 2 . [5]",
+   "ms_text": "4. (a) an attempt at a valid method eg by inspection or\nrow reduction (M1)\n2 × R = R ⇒ 2 a =− 1\n2 1\n1\n⇒ a =− A1\n2\n[2 marks]\n(b) using elimination or row reduction to eliminate one variable (M1)\ncorrect pair of equations in 2 variables, such as\n5 x + 10 y = 25\nA1\n5 x + 12 y = 4\nNote: Award A1 for z=0 and one other equation in two variables.\nattempting to solve for these two variables (M1)\nx = 26, y =− 10.5, z = 0 A1A1\nNote: Award A1A0 for only two correct values, and A0A0 for only one.\nNote: Award marks in part (b) for equivalent steps seen in part (a).\n[5 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\nConsider the following system of equations where $a \\in \\mathbb{R}$.\n$2x + 4y - z = 10$\n$x + 2y + az = 5$\n$5x + 12y = 2a$.\n(a) Find the value of $a$ for which the system of equations does not have a unique solution. [2]\n(b) Find the solution of the system of equations when $a = 2$. [5]"
+  },
+  {
+   "id": "math-2018-N-P1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\n1 0\nThe vectors a and b are defined by a = 1 , b = − t , where t ∈ϒ .\nt 4 t\n(a) Find and simplify an expression for a γ b in terms of t . [2]\n(b) Hence or otherwise, find the values of t for which the angle between a and b is obtuse. [4]",
+   "ms_text": "5. (a) ab γ = (1 × 0) + (1 ×− t ) + ( t × 4) t (M1)\n=−t+4t2 A1\n[2 marks]\n(b) recognition that ab γ = ab cosθ (M1)\n2\nab γ < 0 or −+ t 4 t < 0 or cosθ<0 R1\nNote:Allow ≤ for R1.\nattempt to solve using sketch or sign diagram (M1)\n1\n<< 0 t A1\n4\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.13",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nThe vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$ are defined by $\\boldsymbol{a} = \\begin{pmatrix}1\\\\1\\\\t\\end{pmatrix}$, $\\boldsymbol{b} = \\begin{pmatrix}0\\\\-t\\\\4t\\end{pmatrix}$, where $t \\in \\mathbb{R}$.\n(a) Find and simplify an expression for $\\boldsymbol{a} \\bullet \\boldsymbol{b}$ in terms of $t$. [2]\n(b) Hence or otherwise, find the values of $t$ for which the angle between $\\boldsymbol{a}$ and $\\boldsymbol{b}$ is obtuse. [4]"
+  },
+  {
+   "id": "math-2018-N-P1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nn\nUse mathematical induction to prove that rr = n + − 1, for n ∈′+ . =∑ (!) ( 1 )!\nr 1",
+   "ms_text": "6. consider n= 1 . 1(1!) = 1 and2! − 1 = 1 therefore true for n= 1 R1\nNote: There must be evidence that n = 1 has been substituted into both expressions, or an expression\nsuch LHS=RHS=1 is used. “therefore true for n = 1” or an equivalent statement must be seen.\nk\n= = + − assume true for n k , (so that ∑ rr (!) ( k 1)! 1 ) M1\nr = 1\nNote: Assumption of truth must be present.\n= + consider n k 1\nk + 1 k\n∑ rr (!) = ∑ rr (!) + ( k + 1)( k + 1)! (M1)\nr = 1 r = 1\n= ( k + 1)! − 1 + ( k + 1)( k + 1)! A1\n= ( k + 2)( k + 1)! − 1\nM1\nNote:M1 is for factorising (k+1)!\n= ( k + 2)! − 1\n= ( + + ) − ( k 1) 1! 1\nso if true for n = k , then also true for n = k + 1 , and as true for n= 1 then true for\nall ( + ) n ∈′ R1\nNote: Only award final R1 if all three method marks have been awarded.\nAward R0 if the proof is developed from both LHS and RHS.\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nUse mathematical induction to prove that $\\sum_{r=1}^{n} r(r!) = (n+1)! - 1$, for $n \\in \\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2018-N-P1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nConsider the curves C1 and C2 defined as follows\nC1 : xy= 4 , x> 0\nC2 : y2-x2= 2 , x > 0\ny Using implicit differentiation, or otherwise, find d\n(a) [4] x for each curve in terms of x and y .\nd\nLet P(a , b) be the unique point where the curves C1 and C2 intersect.\n(b) Show that the tangent to C1 at P is perpendicular to the tangent to C2 at P . [2]",
+   "ms_text": "d y\n7. (a) C : y + x = 0 (M1)\n1\nd x\nNote:M1 is for use of both product rule and implicit differentiation.\nd y y\n⇒ =− A1\nd x x\n4\nNote: Accept − .\n2 x\nC2 :2ydy (M1)\ndx−2x =0\nd y x\n⇒ = A1\nd x y\nx\n± Note: Accept .\n+ 2 2 x\n[4 marks]\n(b) substituting a and b for x and y\nM1\nb a\nproduct of gradients at P is − =− 1 or equivalent reasoning R1\na b\nNote: The R1 is dependent on the previous M1.\nso tangents are perpendicular AG\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.14",
+    "2.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nConsider the curves $C_1$ and $C_2$ defined as follows\n$C_1: xy = 4,\\ x > 0$\n$C_2: y^2 - x^2 = 2,\\ x > 0$\n(a) Using implicit differentiation, or otherwise, find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ for each curve in terms of $x$ and $y$. [4]\nLet $\\mathrm{P}(a, b)$ be the unique point where the curves $C_1$ and $C_2$ intersect.\n(b) Show that the tangent to $C_1$ at P is perpendicular to the tangent to $C_2$ at P. [2]"
+  },
+  {
+   "id": "math-2018-N-P1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nConsider the equation z4+az3+ bz2+cz+d = 0 , where a , b , c , d ∈ϒ and z ∈≤ .\nTwo of the roots of the equation are log26 and i3 and the sum of all the roots is 3 + log23 .\nShow that 6a+d+ 12 = 0 .",
+   "ms_text": "8. − i3 is a root (A1)\n1\n3 + log3 − log6 = 3 + log = 3 − 1 = 2 is a root (A1)\n2 2 2\n2\n−= + ⇒ =− − sum of roots: a 3 log3 a 3 log3 M1\n2 2\n−is equal to the sum of the roots, do not award if minus is missing. Note: Award M1 for use of a\nNote: If expanding the factored form of the equation, award M1 for equating a to the coefficient of z3.\n− 4 ( )( ) product of roots: (1)d = 2(log6)i3 − i3 M1\n2\n= 6log6 A1\n2\nNote: Award M1A0 for d =−6log2 6.\n6 a + d + 12 =− 186log3 − + 6log612 +\n2 2\nEITHER\n=−+ 6 6log2 = 0 M1A1AG\n2\nNote:M1 is for a correct use of one of the log laws.\nOR\n=−− + + = 66log36log36log2 0 M1A1AG\n2 2 2\nNote:M1 is for a correct use of one of the log laws.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "1.7",
+    "1.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nConsider the equation $z^4 + az^3 + bz^2 + cz + d = 0$, where $a, b, c, d \\in \\mathbb{R}$ and $z \\in \\mathbb{C}$.\nTwo of the roots of the equation are $\\log_2 6$ and $\\mathrm{i}\\sqrt{3}$ and the sum of all the roots is $3 + \\log_2 3$.\nShow that $6a + d + 12 = 0$."
+  },
+  {
+   "id": "math-2018-N-P1-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 15]\nConsider a triangle OAB such that O has coordinates (0 , 0 , 0) , A has coordinates\n(0 , 1 , 2) and B has coordinates (2b , 0 , b - 1) where b < 0 .\n(a) Find, in terms of b , a Cartesian equation of the plane П containing this triangle. [5]\nLet M be the midpoint of the line segment [OB] .\n(b) Find, in terms of b , the equation of the line L which passes through M and is\nperpendicular to the plane П . [3]\n(c) Show that L does not intersect the y-axis for any negative value of b . [7]",
+   "ms_text": "9. (a) METHOD 1\n0 2 b\n= × n 1 0 (M1)\n2 b − 1\nb − 1\n= 4 b (M1)A1\n− 2 b\n(0, 0, 0) on Π so ( − + − = b 1) x 4 by 2 bz 0 (M1)A1\nMETHOD 2\n+ + = using equation of the form px qy rz 0 (M1)\n(0, 1,2)on Π⇒ q + 2 r = 0\n(2, 0, b b − 1) on Π⇒ 2 bp + rb ( − 1 ) = 0 (M1)A1\nNote: Award (M1)A1 for both equations seen.\nsolve for p, q, and r (M1)\n( b − 1) x + 4 by − 2 bz = 0 A1\n[5 marks]\nb − 1\n(b) Mhas coordinates b , 0, (A1)\n2\nb b − 1\nr = 0 + λ 4 b M1A1\nb − 1 − 2 b\n2\nNote: Award M1A0 if = r (or equivalent) is not seen.\nx −b\nNote: Allow equivalent forms such as b−1=y 4b=2z −b+1 .\n−4b\n[3 marks]\n(c) METHOD 1\nx = z = 0 (M1)\nNote: Award M1 for either x = 0 or z = 0 or both.\nb +λ(b−1) =0 andb−1\n−2λb =0 A1\n2\nattempt to eliminate λ M1\nb b − 1\n⇒− = (A1)\nb − 1 4 b\n2\n−4b2=b−1 ( ) A1\nEITHER\nconsideration of the signs of LHS and RHS (M1)\nthe LHS is negative and the RHS must be positive (or equivalent statement) R1\nOR\n− 2 = 2 − + 4 b b 2 b 1\n2 ⇒ 5 b − 2 b + 1 = 0\n2 −4 ×5 ×1 =−16<0\nΔ=−2 ( ) ( ) M1\n∴no real solutions R1\nTHEN\nso no point of intersection AG\nMETHOD 2\nx = z = 0 (M1)\nNote: Award M1 for either x= 0 or z= 0 or both.\nb +λ(b−1) =0 andb−1\n−2λb =0 A1\n2\nattempt to eliminate b M1\nλ 1\n⇒ (A1)\n1+λ=\n1−4λ\n−4λ2=1⇒λ2=−1\nA1\n4\nconsideration of the signs of LHS and RHS (M1)\nthere are no real solutions (or equivalent statement) R1\nso no point of intersection AG\n[7 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.16",
+    "3.17",
+    "3.14",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 15]\nConsider a triangle OAB such that O has coordinates $(0, 0, 0)$, A has coordinates $(0, 1, 2)$ and B has coordinates $(2b, 0, b-1)$ where $b < 0$.\n(a) Find, in terms of $b$, a Cartesian equation of the plane $\\Pi$ containing this triangle. [5]\nLet M be the midpoint of the line segment [OB].\n(b) Find, in terms of $b$, the equation of the line $L$ which passes through M and is perpendicular to the plane $\\Pi$. [3]\n(c) Show that $L$ does not intersect the $y$-axis for any negative value of $b$. [7]"
+  },
+  {
+   "id": "math-2018-N-P1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 19]\nx x\n2 e e x\n(a) Use integration by parts to show that e cos 2 xx d = sin 2 x + cos 2 x + cc , ∈ ϒ. [5] ∫\n5 5\nx x x\ne e e x 2\n(b) Hence, show that e ∫ cos xx d = sin 2 x + cos 2 x + + cc , ∈ϒ. [3]\n5 10 2\nThe function f is defined by f (x) = excos 2x , where 0 ≤ x ≤5 . The curve y = f (x) is shown\non the following graph which has local maximum points at A and C and touches the x-axis\nat B and D .\ny\nC\nA\nB D x\n0 5\n(c) Find the x-coordinates of A and of C , giving your answers in the form a + arctan b ,\nwhere a , b ∈ϒ . [6]\n(d) Find the area enclosed by the curve and the x-axis between B and D , as shaded on\nthe diagram. [5]",
+   "ms_text": "10. (a) METHOD 1\nd v x\nattempt at integration by parts with u = e, = cos2 x M1\nd x\nx x e e\nx\n∫ ecos2d xx = sin 2d xx − ∫ sin 2d xx A1\n2 2\nx x x e 1 e e\n= − − + sin 2 x cos2 x ∫ cos2 x M1A1\n2 2 2 2\nx x e e 1\nx = sin 2 x + cos2 x\n−∫ ecos2d xx\n2 4 4\nx x 5 e e\nx ∴\n∫ ecos2d xx = sin 2 x + cos2 x M1\n4 2 4\n2e x e x x\necos2d xx = sin 2 x + cos2( x + c ) AG ∫\n5 5\nMETHOD 2\nd v x\nattempt at integration by parts with u = cos2, x = e M1\nd x\n∫ excos2xdx =excos2x+2exsin2xdx ∫ A1\n= x + ( x x ) ecos2 x 2esin 2 x −∫ 2ecos2d xx M1A1\nx x x = ecos2 x + 2esin 2 x 4ecos2d xx\n−∫\n∴5ex cos2xdx ∫ =excos2x +2exsin2x M1\n2e x e x x\necos2d xx = sin 2 x + cos2( x + c ) AG ∫\n5 5\nMETHOD 3\nattempt at use of table M1\neg\ncos2x ex\n− 2sin 2x ex\n− 4cos2x A1A1 ex\nNote:A1 for first 2 lines correct, A1 for third line correct.\nx x x x\n∫ ecos2d xx = ecos2 x + 2esin 2 x − 4ecos2d ∫ xx M1\n∴ x == x + x 5ecos2d ∫ xx ecos2 x 2esin 2 x M1\nx x 2e e\nx\n∫ ecos2d xx = sin 2 x + cos2( x + c ) AG\n5 5\n[5 marks]\nx e\nx 2 (b)\n∫ ecos xx d = ∫ (cos2 x + 1)d x M1A1\n2\n12e x e x e x\n= sin 2 x + cos2 x + A1\n2 5 5 2\nx x x e e e\n= sin 2 x + cos2 x + ( + c ) AG\n5 10 2\nNote: Do not accept solutions where the RHS is differentiated.\n[3 marks]\nx 2 x f ′ () x = ecos x − 2esincos x x\n(c) M1A1\nNote: Award M1 for an attempt at both the product rule and the chain rule.\nx ecos(cos x x − 2sin) x = 0\n(M1)\n( ). Note: Award M1 for an attempt to factorise cosx or divide by cosxcosx ≠0\ndiscount cos x = 0 (as this would also be a zero of the function)\n⇒cos x −2sin x =0\n⇒tan x =1\n(M1)\n2\n1 1\n⇒ x = (at A) and x = π + (at C) A1A1\narctan2 arctan2\nNote: Award A1for each correct answer. If extra values are seen award A1A0.\n[6 marks]\nπ 3π\n(d) cos x = 0 ⇒ x = or A1\n2 2\nNote: The A1 may be awarded for work seen in part (c).\n3π\n3π\ne x e x e x 2 x 2\n2 ( ecos x ) d x = sin 2 x + cos2 x + M1 ∫\nπ\n5 10 2 π\n2\n2\n3π 3π π π 3π π\ne 2 e 2 e 2 e 2 2e 2 2e 2\n= − + − − + = − M1(A1)A1\n10 2 10 2 5 5\nNote: Award M1 for substitution of the end points and subtracting, (A1) for sin3π = sin π = 0 and\ncos3π = cos π =− and A1 for a completely correct answer. 1\n[5 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.11",
+    "5.8",
+    "5.6",
+    "3.6",
+    "3.8",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "10. [Maximum mark: 19]\n(a) Use integration by parts to show that $\\int \\mathrm{e}^x \\cos 2x\\,\\mathrm{d}x = \\frac{2\\mathrm{e}^x}{5}\\sin 2x + \\frac{\\mathrm{e}^x}{5}\\cos 2x + c$, $c \\in \\mathbb{R}$. [5]\n(b) Hence, show that $\\int \\mathrm{e}^x \\cos^2 x\\,\\mathrm{d}x = \\frac{\\mathrm{e}^x}{5}\\sin 2x + \\frac{\\mathrm{e}^x}{10}\\cos 2x + \\frac{\\mathrm{e}^x}{2} + c$, $c \\in \\mathbb{R}$. [3]\nThe function $f$ is defined by $f(x) = \\mathrm{e}^x \\cos^2 x$, where $0 \\le x \\le 5$. The curve $y = f(x)$ is shown on the following graph which has local maximum points at A and C and touches the $x$-axis at B and D.\n[Graph: y = f(x) for 0 ≤ x ≤ 5; small local maximum A, touches x-axis at B, large local maximum C, touches x-axis at D just before x = 5; region between curve and x-axis from B to D shaded]\n(c) Find the $x$-coordinates of A and of C, giving your answers in the form $a + \\arctan b$, where $a, b \\in \\mathbb{R}$. [6]\n(d) Find the area enclosed by the curve and the $x$-axis between B and D, as shaded on the diagram. [5]"
+  },
+  {
+   "id": "math-2018-N-P1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 16]\n� , expressing your Find the roots of z24= 1 which satisfy the condition 0 < arg()z <\n(a)\n2\nanswers in the form reiθ , where r , θ∈ϒ+ . [5]\n(b) Let S be the sum of the roots found in part (a).\n(i) Show that Re S = Im S .\na + b By writing � as � �\n(ii) − , find the value of cos � in the form ,\n12 4 6 12 c\nwhere a , b and c are integers to be determined.\n1\n( ) ( ) (iii) Hence, or otherwise, show that S= + 2 1 + 31( + )i. [11]\n21",
+   "ms_text": "24\n11. (a) ( r (cos θ + isin) θ ) = 1(cos0 + isin0)\nuse of De Moivre’s theorem (M1)\n24 r = 1 ⇒ r = 1\n(A1)\nπ n\nθ = ⇒ θ = ( ∈′ ) 24 2π n , n (A1)\n12\nπ\n0 < arg z < ⇒ n = 1,2, 3,4, 5\n2\nπi 2πi 3πi 4πi 5πi\nz= e 12 ore 12 ore 12 ore 12 ore 12 A2\nNote: Award A1 if additional roots are given or if three correct roots are given with\nno incorrect (or additional) roots.\n[5 marks]\nπ 2π 3π 4π 5π\n(b) (i) Re S= cos + cos + cos + cos + cos\n12 12 12 12 12\nπ 2π 3π 4π 5π\nIm S= sin + sin + sin + sin + sin A1\n12 12 12 12 12\nNote: Award A1 for both parts correct.\n5π π 4π 2π 3π 3π\nbut sin = cos , sin = cos , sin = cos ,\n12 12 12 12 12 12\n2π 4π π 5π\nsin = cos andsin = cos M1A1\n12 12 12 12\n⇒ = Re S Im S AG\nNote: Accept a geometrical method.\nπ π π π π π π\ncos = cos − = cos cos + sin sin (ii) M1A1\n12 4 6 4 6 4 6\n2 3 21\n= +\n2 2 22\n6 + 2\n= A1\n4\n5π π π π π π π\n= + = − (iii) cos cos cos cos sin sin (M1)\n12 6 4 6 4 6 4\n5π π π π\nNote: Allow alternative methods eg cos = sin = sin − .\n12 12 4 6\n3 2 1 2 6 − 2\n= − = (A1)\n2 2 22 4\nπ 2π 3π 4π 5π\nS= + + + + Re cos cos cos cos cos\n12 12 12 12 12\n2 + 6 3 2 1 6 − 2\nRe S = + + + + A1\n4 2 2 2 4\n1\n= ( 6 + 1 + 2 + 3 ) A1\n2\n11 ( )( ) = + 2 1 + 3\n2\nS =ReS()1+i ( ) since Re S = Im S , R1\n11 ( )( ) S= + 2 1 + 3(1 + i)\nAG\n2\n[11 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.11",
+    "3.5",
+    "1.14",
+    "1.13",
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 16]\n(a) Find the roots of $z^{24} = 1$ which satisfy the condition $0 < \\arg(z) < \\frac{\\pi}{2}$, expressing your answers in the form $r\\mathrm{e}^{\\mathrm{i}\\theta}$, where $r, \\theta \\in \\mathbb{R}^+$. [5]\n(b) Let $S$ be the sum of the roots found in part (a).\n(i) Show that $\\mathrm{Re}\\,S = \\mathrm{Im}\\,S$.\n(ii) By writing $\\frac{\\pi}{12}$ as $\\left(\\frac{\\pi}{4} - \\frac{\\pi}{6}\\right)$, find the value of $\\cos\\frac{\\pi}{12}$ in the form $\\frac{\\sqrt{a} + \\sqrt{b}}{c}$, where $a$, $b$ and $c$ are integers to be determined.\n(iii) Hence, or otherwise, show that $S = \\frac{1}{2}\\left(1 + \\sqrt{2}\\right)\\left(1 + \\sqrt{3}\\right)(1 + \\mathrm{i})$. [11]",
+   "review_note": "Primary topic 3: part (b) (11 marks) is trig compound-angle/complementary identities; (a) is roots of unity."
+  }
+ ],
+ "status": "done"
+}

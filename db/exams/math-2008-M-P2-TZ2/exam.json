@@ -1,0 +1,311 @@
+{
+ "exam_id": "math-2008-M-P2-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2008,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_2_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_2_TZ2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2208-7214; code M08/5/MATHL/HP2/ENG/TZ2/XX; marks sum matches expected total 120",
+ "qp_pages": 14,
+ "questions": [
+  {
+   "id": "math-2008-M-P2-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nConsider the data set { k − 2 , kk , + 1 , k + 4, where k ∈ϒ. }\n(a) Find the mean of this data set in terms of k. [3 marks]\nEach number in the above data set is now decreased by 3.\n(b) Find the mean of this new data set in terms of k. [2 marks]",
+   "ms_text": "4\nx\ni =∑\ni = 1 1. (a) Use of x (M1)\nn\n( k − 2) + k + ( k + 1) + ( k + 4)\nx = (A1)\n4\n4 k + 3 ⎛ 3 ⎞\nx = ⎜ = k + ⎟ A1 N3\n4 ⎝ 4 ⎠\n(b) Either attempting to find the new mean or subtracting 3 from theirx (M1)\n4 k + 3 ⎛ 4 k − 9 9 ⎞\nx = − 3 = , k − A1 N2 ⎜ ⎟\n4 ⎝ 4 4 ⎠\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nConsider the data set $\\{k-2,\\ k,\\ k+1,\\ k+4\\}$, where $k \\in \\mathbb{R}$.\n(a) Find the mean of this data set in terms of $k$. [3 marks]\nEach number in the above data set is now **decreased** by 3.\n(b) Find the mean of this **new** data set in terms of $k$. [2 marks]"
+  },
+  {
+   "id": "math-2008-M-P2-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nThe depth, ht() metres, of water at the entrance to a harbour at t hours after midnight\non a particular day is given by\nπ t\nht () = 8 + 4 sin , 0 ≤≤ t 24 .\n6\n(a) Find the maximum depth and the minimum depth of the water. [3 marks]\n(b) Find the values of t for which ht() ≥8. [3 marks]",
+   "ms_text": "π= ± or solving t\n2. (a) Either finding depths graphically, using sin 1 ht ′ () = 0 for t(M1)\n6\nht () = 12 (m), ht () = 4 (m) A1A1 N3\nmax min\nπ t\n(b) Attempting to solve 8 + 4sin = 8 algebraically or graphically (M1)\n6\nt ∈ [0, 6] ∪ [12, 18] ∪ {24} A1A1 N3\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.7",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nThe depth, $h(t)$ metres, of water at the entrance to a harbour at $t$ hours after midnight on a particular day is given by\n$$h(t) = 8 + 4\\sin\\left(\\frac{\\pi t}{6}\\right),\\quad 0 \\le t \\le 24.$$\n(a) Find the maximum depth and the minimum depth of the water. [3 marks]\n(b) Find the values of $t$ for which $h(t) \\ge 8$. [3 marks]"
+  },
+  {
+   "id": "math-2008-M-P2-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nx The curve y = −e − x + 1 intersects the x-axis at P.\n(a) Find the x-coordinate of P. [2 marks]\n[3 marks] (b) Find the area of the region completely enclosed by the curve and the coordinate axes.",
+   "ms_text": "x x 3. (a) Either solving e −− x += 1 0 for x , stating e −− x += 1 0 , stating\nP(, 0) x or using an appropriate sketch graph. M1\nx = 1.28 A1 N1\nNote: Accept P(1.28, 0) .\n1.278... − x\n(b) Area = ∫ (e − x + 1)d x M1A1\n0\n= 1.18 A1 N1\nNote: Award M1A0A1 if the dx is absent.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nThe curve $y = e^{-x} - x + 1$ intersects the $x$-axis at P.\n(a) Find the $x$-coordinate of P. [2 marks]\n(b) Find the area of the region completely enclosed by the curve and the coordinate axes. [3 marks]"
+  },
+  {
+   "id": "math-2008-M-P2-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nA continuous random variable X has probability density function\n2 12 x ( 1 − x ), for 0 ≤ x ≤ 1 ,\nfx () =\n0 , otherwise.\nFind the probability that X lies between the mean and the mode.",
+   "ms_text": "4. Attempting to find the mode graphically or by using f ′ () x = 12(2 x − 3) x (M1)\n2\nMode = A1\n3\n1\n= ∫ Use of E( X ) xfx ()d x (M1)\n0\n3\nX= E( ) A1\n5\n2 ⎛ ⎞ 1981\n3 fx ()d x = 0.117 = M1A1 N4 ∫\n3 ⎜ ⎟\n⎝ 16875 ⎠ 5\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nA continuous random variable $X$ has probability density function\n$$f(x) = \\begin{cases} 12x^2(1-x), & \\text{for } 0 \\le x \\le 1,\\\\ 0, & \\text{otherwise.} \\end{cases}$$\nFind the probability that $X$ lies between the mean and the mode."
+  },
+  {
+   "id": "math-2008-M-P2-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\n∃ ο Consider triangle ABC with BAC = 37 8 . , AB = 8 75 . and BC = 6.\nFind AC.",
+   "ms_text": "5. METHOD 1\n2 = 2 + 2 − × × × ˆ Attempting to use the cosine rule i.e. BC AB AC 2 AB AC cosBAC (M1)\n2 2 2 6 = 8.75 + AC − 28.75AC × × × cos37.8 � (or equivalent) A1\nAttempting to solve the quadratic in AC e.g. graphically, numerically or\nwith quadratic formula M1A1\nEvidence from a sketch graph or their quadratic formula ( AC = …)\nthat there are two values of AC to determine. (A1)\nAC = 9.60 orAC = 4.22 A1A1 N4\nNote: Award (M1)A1M1A1(A0)A1A0 for one correct value of AC.\n[7 marks]\nMETHOD 2\nBC AB\n= Attempting to use the sine rule i.e. (M1)\nˆ ˆ sin BAC sin ACB\n� 8.75sin37.8\nsin C = (0.8938...) = (A1)\n6\n� C = 63.3576... A1\n� C = 116.6423... �and B = 78.842... �or B = 25.5576... A1\nEITHER\nAC 6 AC 6\nAttempting to solve = or = M1\n� � � � sin78.842... sin37.8 sin 25.5576... sin37.8\nOR\nAttempting to solve AC 2 = 8.75 2 + 6 2 − 28.756cos25.5576... × ×× � or\n2 = 2 + 2 − × ×× � AC 8.75 6 28.756cos78.842... M1\nAC = 9.60 or AC = 4.22 A1A1 N4\nNote: Award (M1)(A1)A1A0M1A1A0 for one correct value of AC.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nConsider triangle ABC with $\\hat{BAC} = 37.8^\\circ$, $AB = 8.75$ and $BC = 6$.\nFind AC."
+  },
+  {
+   "id": "math-2008-M-P2-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nx 2 for x < 0 . Consider the curve with equation fx () = −e2\nFind the coordinates of the point of inflexion and justify that it is a point of inflexion.",
+   "ms_text": "6. METHOD 1\nEITHER\n= ′ Using the graph of y f () x (M1)\nA1\nThe maximum of f ′ () x occurs at x = − 0.5 . A1\nOR\n′′ Using the graph of y = f () x . (M1)\nA1\n′′ The zero of f () x occurs at x = − 0.5 . A1\nTHEN\nNote: Do not award this A1 for stating x = ± 0.5 as the final answer for x .\n− 0.5 f (0.5) − = 0.607 (e = ) A2\nNote: Do not award this A1 for also stating (0.5, 0.607) as a coordinate.\nEITHER\nCorrectly labelled graph of f ′ () for x x < 0 denoting the maximum f ′ () x R1\n(e.g. f ′− (0.6) = 1.17 and f ′− (0.4) = 1.16 stated) A1 N2\nOR\nCorrectly labelled graph of f ′′ () for x x < 0 denoting the maximum f ′ () x R1\n(e.g. f ′′− (0.6) = 0.857 and f ′′− (0.4) = − 1.05 stated) A1 N2\nOR\n1\nf ′ ′ (0.5) ≈ 1.21 . f () x < 1.21 just to the left of x = −\n2\n1\nand f ′ () x < 1.21 just to the right of x = − R1\n2\n(e.g. f ′− (0.6) = 1.17 and f ′− (0.4) = 1.16 stated) A1 N2\nOR\n1 1\nf ′′ () x > 0 just to the left of x = − and f ′′ () x < 0 just to the right of x = − R1\n2 2\nf ′′− = f ′′− = − (e.g. (0.6) 0.857 and (0.4) 1.05 stated) A1 N2\n[7 marks]\nMETHOD 2\n− 2 x 2 f ′ () x = − 4e x A1\n− 2 x 2 2 − 2 x 2 ( 2 − 2 x 2 ) f ′′ () x = − 4e + 16 x e = (16 x − 4)e A1\nAttempting to solve f ′′ () x = 0 (M1)\n1\nx = − A1\n2\n1\nNote: Do not award this A1 for stating x = ± as the final answer for x .\n2\n1 ⎞ 1 f⎛\n− = (0.607) = A1 ⎜ ⎟\n⎝ 2 ⎠ e\n⎛ 1 ⎞ Note: Do not award this A1 for also stating 1\n⎜ , ⎟ as a coordinate.\n⎝ 2 e ⎠\nEITHER\nCorrectly labelled graph of f ′ () for x x < 0 denoting the maximum f ′ () x R1\n(e.g. f ′− (0.6) = 1.17 and f ′− (0.4) = 1.16 stated) A1 N2\nOR\nCorrectly labelled graph of f ′′ () for x x < 0 denoting the maximum f ′ () x R1\n(e.g. f ′′− (0.6) = 0.857 and f ′′− (0.4) = − 1.05 stated) A1 N2\nOR\n1\nf ′ ≈ ′ < x = − (0.5) 1.21 . f () x 1.21 just to the left of\n2\n1\nand f ′ () x < 1.21 just to the right of x = − R1\n2\n(e.g. f ′− (0.6) = 1.17 and f ′− (0.4) = 1.16 stated) A1 N2\nOR\n1 1\nf ′′ () x > 0 just to the left of x = − and f ′′ () x < 0 just to the right of x = − R1\n2 2\n(e.g. f ′′− (0.6) = 0.857 and f ′′− (0.4) = − 1.05 stated) A1 N2\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nConsider the curve with equation $f(x) = e^{-2x^2}$ for $x < 0$.\nFind the coordinates of the point of inflexion and justify that it is a point of inflexion."
+  },
+  {
+   "id": "math-2008-M-P2-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nOver a one month period, Ava and Sven play a total of n games of tennis.\nThe probability that Ava wins any game is 0.4. The result of each game played is\nindependent of any other game played.\nLet X denote the number of games won by Ava over a one month period.\n(a) Find an expression for P( X= 2 in terms of n. ) [3 marks]\n(b) If the probability that Ava wins two games is 0.121 correct to three\ndecimal places, find the value of n. [3 marks]",
+   "ms_text": "7. (a) X ~ B(, 0.4) n (A1)\n⎛⎞ n\nx nx − Using P( X = x )\n= ⎜⎟ (0.4)(0.6) (M1)\nr ⎝⎠\n⎛⎞ n ⎛ nn ( − ⎞\n2 n − 2 = 1) (0.4)(0.6) 2 n − 2 P( X = 2)\n= ⎜⎟ (0.4)(0.6) ⎜ ⎟ A1 N3\n⎝⎠ 2 ⎝ 2 ⎠\n(b) P( X= 2) = 0.121 A1\nUsing an appropriate method (including trial and error) to solve their equation. (M1)\nn = 10 A1 N2\nNote: Do not award the last A1 if any other solution is given in their final answer.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nOver a one month period, Ava and Sven play a total of $n$ games of tennis.\nThe probability that Ava wins any game is 0.4. The result of each game played is independent of any other game played.\nLet $X$ denote the number of games won by Ava over a one month period.\n(a) Find an expression for $P(X = 2)$ in terms of $n$. [3 marks]\n(b) If the probability that Ava wins two games is 0.121 correct to three decimal places, find the value of $n$. [3 marks]"
+  },
+  {
+   "id": "math-2008-M-P2-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 5]\nThe graph of y = fx () for −≤ 2 x ≤ 8 is shown.\ny\n4\n2\nx\n–2 0 2 4 6 8\n–2\n– 4\n1\nOn the set of axes provided, sketch the graph of y =\n(), clearly showing any\nfx\nasymptotes and indicating the coordinates of any local maxima or minima.\ny\n4\n2\nx\n–2 0 2 4 6 8\n–2\n– 4",
+   "ms_text": "8.\nA1A1A1A1A1\nNotes: Award A1 for vertical asymptotes at x = −, 1 x = 2 and x = 5 .\n1 +\nA1 for x →−, 2 → 0\nfx ()\n1\nA1 for x → 8 , 1 fx→−\n()\n⎛ 1 ⎞\nA1 for local maximum at 0, − (branch containing local max. must be present) ⎜ ⎟\n2 ⎝ ⎠\nA1 for local minimum at (3, 1) (branch containing local min. must be present)\nIn each branch, correct asymptotic behaviour must be displayed to obtain the A1.\nDisregard any stated horizontal asymptotes such as y = 0 or y = −. 1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "8. [Maximum mark: 5]\nThe graph of $y = f(x)$ for $-2 \\le x \\le 8$ is shown.\n[Graph: on a grid with $-2 \\le x \\le 8$, $-4 \\le y \\le 4$, curve decreasing steeply from about $(-2, 5)$, crossing the $x$-axis at $x=-1$, minimum at $(0,-2)$, crossing the $x$-axis at $x=2$, local maximum at $(3,1)$, crossing at $x=5$, then decreasing to about $(8,-1)$]\nOn the set of axes provided, sketch the graph of $y = \\frac{1}{f(x)}$, clearly showing any asymptotes and indicating the coordinates of any local maxima or minima.\n[Blank grid: $-2 \\le x \\le 8$, $-4 \\le y \\le 4$]"
+  },
+  {
+   "id": "math-2008-M-P2-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\nz\nConsider w = where z = x + i, y ≠0 and z2 y +≠ 1 0 .\n2 z + 1\nGiven that Im w = 0, show that z=1.",
+   "ms_text": "9. METHOD 1\nx + y i\n= + = Substituting z x i y to obtain w (A1)\n2 ( x + y i) + 1\nx + y i\n= w A1\n2 2 x − y ++ 1 2 xy i\n2 2 Use of ( x − y +− 1 2 xy i) to make the denominator real. M1\n2 2 ( x + y i)( x − y +− 1 2 xy i)\n= A1\n2 2 2 2 2 ( x − y + 1) + 4 xy\n2 − 2 + − 2 yx ( y 1) 2 xy\nIm w = (A1)\n( x 2 − y 2 + 1) 2 + 4 xy 2 2\n2 2 y (1 − x − y )\n= A1\n2 2 2 2 2 ( x − y + 1) + 4 xy\n2 2 Im w = 0 ⇒− 1 x − y = 0 i.e. z= as 1 y ≠ 0 R1AG N0\n[7 marks]\nMETHOD 2\n2 + = wz ( 1) z (A1)\n2 2 wx ( − y ++ 1 2i xy ) = x + y i A1\nEquating real and imaginary parts\n2 2 wx ( − y + 1) = x and 2 wx = 1, y ≠ 0 M1A1\n2 1 x y 1\nSubstituting w = to give − + = x A1\n2 x 2 2 x 2 x\nx\n− 1( 2 − = y 1) or equivalent (A1)\n2 x 2\n2 2 x + y = 1,.. i e z = 1 as y ≠ 0 R1AG\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nConsider $w = \\frac{z}{z^2+1}$ where $z = x + iy$, $y \\ne 0$ and $z^2 + 1 \\ne 0$.\nGiven that $\\operatorname{Im} w = 0$, show that $|z| = 1$."
+  },
+  {
+   "id": "math-2008-M-P2-TZ2-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 6]\n2 Find the set of values of x for which 0 1 . x − 2 x + 3 < log x .\n10",
+   "ms_text": "2 − + = 10. Attempting to solve 0.1 x 2 x 3 log x numerically or graphically. (M1)\n10\nx = 1.52, 1.79 (A1)(A1)\nx = 17.6, 19.1 (A1)\n(1.52 < x < 1.79) ∪ (17.6 < x < 19.1) A1A1 N2\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.15",
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 6]\nFind the set of values of $x$ for which $\\left|0.1x^2 - 2x + 3\\right| < \\log_{10} x$."
+  },
+  {
+   "id": "math-2008-M-P2-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 21]\nThe distance travelled by students to attend Gauss College is modelled by a normal\ndistribution with mean 6 km and standard deviation 1.5 km.\n(a) (i) Find the probability that the distance travelled to Gauss College by a\nrandomly selected student is between 4.8 km and 7.5 km.\n(ii) 15 % of students travel less than d km to attend Gauss College. Find the\nvalue of d. [7 marks]\nAt Euler College, the distance travelled by students to attend their school is modelled\nby a normal distribution with mean µ km and standard deviation σ km.\n(b) If 10 % of students travel more than 8 km and 5 % of students travel less than\n2 km, find the value of µ and of σ. [6 marks]\nThe number of telephone calls, T, received by Euler College each minute can be\nmodelled by a Poisson distribution with a mean of 3.5.\n(c) (i) Find the probability that at least three telephone calls are received by Euler\nCollege in each of two successive one-minute intervals.\n(ii) Find the probability that Euler College receives 15 telephone calls during\na randomly selected five-minute interval. [8 marks]",
+   "ms_text": "11. (a) (i) P(4.8 < X < 7.5) = P(0.8 − < Z < 1) (M1)\n= 0.629 A1 N2\nNote: Accept P(4.8 ≤ X ≤ 7.5) = P(0.8 − ≤ Z ≤ 1) .\n(ii) Stating P( X < d ) = 0.15 or sketching an appropriately labelled diagram. A1\nd − 6\n= − 1.0364... (M1)(A1)\n1.5\nd=− (1.0364...)(1.5) + 6 (M1)\n= 4.45 (km) A1 N4\n[7 marks]\n(b) Stating bothP( X> 8) = 0.1 and P( X< 2) = 0.05 or sketching an\nappropriately labelled diagram. R1\nSetting up two equations in µ and σ (M1)\n8 = µ + (1.281...) σ and2 = µ − (1.644...) σ A1\nAttempting to solve for µ and σ (including by graphical means) (M1)\nσ= 2.05 (km) and µ = 5.37 (km) A1A1 N4\nNote: Accept µ = 5.36, 5.38 .\n[6 marks]\n(c) (i) Use of the Poisson distribution in an inequality. M1\nP( T ≥ 3) =− 1 P( T ≤ 2) (A1)\n= 0.679... A1\n2 Required probability is (0.679...) = 0.461 M1A1 N3\nNote: Allow FT for their value of P( T≥ 3) .\n(ii) τ ~ Po(17.5) A1\n− e 17.5 (17.5) 15\nP( τ = 15) = (M1)\n15!\n= 0.0849 A1 N2\n[8 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.L1",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 21]\nThe distance travelled by students to attend Gauss College is modelled by a normal distribution with mean 6 km and standard deviation 1.5 km.\n(a) (i) Find the probability that the distance travelled to Gauss College by a randomly selected student is between 4.8 km and 7.5 km.\n(ii) 15 % of students travel less than $d$ km to attend Gauss College. Find the value of $d$. [7 marks]\nAt Euler College, the distance travelled by students to attend their school is modelled by a normal distribution with mean $\\mu$ km and standard deviation $\\sigma$ km.\n(b) If 10 % of students travel more than 8 km and 5 % of students travel less than 2 km, find the value of $\\mu$ and of $\\sigma$. [6 marks]\nThe number of telephone calls, $T$, received by Euler College each minute can be modelled by a Poisson distribution with a mean of 3.5.\n(c) (i) Find the probability that at least three telephone calls are received by Euler College in **each** of two successive one-minute intervals.\n(ii) Find the probability that Euler College receives 15 telephone calls during a randomly selected five-minute interval. [8 marks]"
+  },
+  {
+   "id": "math-2008-M-P2-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 20]\na b\nLet M 2= M where M=\nd, bc ≠0 .\nc\n(a) (i) Show that a + d =1.\n(ii) Find an expression for bc in terms of a. [5 marks]\nHence show that M is a singular matrix. (b) [3 marks]\n(c) If all of the elements of M are positive, find the range of possible values for a. [3 marks]\n2 (d) Show that ( I − M ) = I − M where I is the identity matrix. [3 marks]\nn + (e) Prove by mathematical induction that ( I − M ) = I − M for n∈ ′. [6 marks]",
+   "ms_text": "2 12. (a) (i) Attempting to find M M1\n2 ⎛ a + bc ab + bd ⎞\n2 M = ⎜ A1\n⎟\nac + cd bc + d 2 ⎝ ⎠\nba ( + d ) = b or ( ca + d ) = c A1\nHence a + d = 1 (as b ≠ 0 or c ≠ 0 ) AG N0\n2 (ii) a + bc = a M1\n2 ⇒ bc = a − a ( = a (1 − a ) ) A1 N1\n[5 marks]\n(b) METHOD 1\nUsing det M = ad − bc M1\ndet M = ad − a (1 − a ) or det M = a (1 − a ) − a (1 − a ) (or equivalent) A1\n= 0 using a + d = or 1 d =− 1 a to simplify their expression R1\nHence M is a singular matrix AG N0\n[3 marks]\nMETHOD 2\nUsing bc = a (1 − a ) and a + d = to obtain bc 1 = ad M1A1\n= − − = = det M ad bc and ad bc 0 as bc ad R1\nHence M is a singular matrix AG N0\n[3 marks]\n(c) a (1 − a ) > 0 (M1)\n0 < a < 1 A1A1 N3\nNote: Award A1 for correct endpoints and A1 for correct inequality signs.\n[3 marks]\n(d) METHOD 1\nAttempting to expand ( I − M ) 2 M1\n2 2 ( I − M ) = I − 2 M + M A1\n= I − 2 M + M A1\n= − I M AG N0\n[3 marks]\nMETHOD 2\n2\n⎛ 1 − a − b ⎞\n2 Attempting to expand ( I − M )\n= ⎜ (or equivalent) M1 ⎟\n− c 1 − d ⎝ ⎠\n2 ⎛ (1 − a ) + bc − b (1 − a ) − b (1 − d ) ⎞\n2 ( I − M ) = ⎜\n⎟ (or equivalent) A1\n2 − c (1 − a ) − c (1 − d ) bc + (1 − d )\n⎝ ⎠\n2 Use of a + d = and 1 bc = a − a to show desired result. M1\n1 − a − b ⎛ ⎞\nHence ( I − M ) 2 AG N0 = ⎜ ⎟\n− − ⎝ c 1 d ⎠\n[3 marks]\n(e) (Let Pnbe ( () I − M )n = I − M)\n1 For n = 1: ( I − M ) = I − M , so P (1) istrue A1\nAssume Pk is true, i.e. ( () I − M )k = I − M M1\nConsider Pk + ( 1)\nk + 1 k ( I − M ) = ( I − M )( I − M ) M1\n= − − ( = − 2 ) ( I M )( I M ) ( I M ) A1\n= ( I − M ) A1\n+ Pk true implies () Pk + ( 1) true, P (1) true so Pn true () ∀∈� n R1 N0\n[6 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.15",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 20]\nLet $M^2 = M$ where $M = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, $bc \\ne 0$.\n(a) (i) Show that $a + d = 1$.\n(ii) Find an expression for $bc$ in terms of $a$. [5 marks]\n(b) **Hence** show that $M$ is a singular matrix. [3 marks]\n(c) If all of the elements of $M$ are positive, find the range of possible values for $a$. [3 marks]\n(d) Show that $(I - M)^2 = I - M$ where $I$ is the identity matrix. [3 marks]\n(e) Prove by mathematical induction that $(I - M)^n = I - M$ for $n \\in \\mathbb{Z}^+$. [6 marks]"
+  },
+  {
+   "id": "math-2008-M-P2-TZ2-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 19]\nA particle moves in a straight line in a positive direction from a fixed point O.\nThe velocity vm s−1, at time t seconds, where t ≥0, satisfies the differential equation\nd v v ( 1 + v 2 ) =−\n.\nd t 50\nThe particle starts from O with an initial velocity of 10 m s−1.\n(a) (i) Express as a definite integral, the time taken for the particle’s velocity to\ndecrease from 10 m s−1 to 5 m s−1.\n(ii) Hence calculate the time taken for the particle’s velocity to decrease from\n10 m s−1 to 5 m s−1. [5 marks]\n(b) (i) Show that, when v > 0 , the motion of this particle can also be described by\n2\nthe differential equation d v =− ( 1 + v ) where x metres is the displacement\nd x 50\nfrom O.\n(ii) Given that v =10 when x = 0 , solve the differential equation expressing x\nin terms of v.\nx\n10 − tan\n50\n(iii) Hence show that v = . [14 marks]\nx\n110 + tan\n50",
+   "ms_text": "13. (a) (i) EITHER\nAttempting to separate the variables (M1)\nd v d t\n= (A1)\n2 − v (1 + v ) 50\nOR\nt Inverting to obtain d\n(M1)\nd v\nd t − 50\n= (A1)\n2 d v v (1 + v )\nTHEN\n⎛ ⎞ 5 1 10 1\nt = − 50 d v = 50 d v A1 N3 ∫ ⎜ ∫ ⎟\n10 + 2 5 + 2 v (1 v ) ⎝ v (1 v ) ⎠\n⎛ 104 ⎞\n(ii) t = 0.732 (sec) ⎜ = 25ln (sec) ⎟ A2 N2\n⎝ 101 ⎠\n[5 marks]\nd v d v\n(b) (i) = v (M1)\nd t d x\nMust see division by v ( v > 0 ) A1\n2 d v − (1 + v )\n= AG N0\nd x 50\nx\n(ii) Either attempting to separate variables or inverting to obtain d (M1)\nd v\nd v 1\n∫ ∫ d x (or equivalent) A1 v= −\n2 1 + 50\nAttempting to integrate both sides M1\nx\narctan v = − + C A1A1\n50\nNote: Award A1 for a correct LHS and A1 for a correct RHS that must include C.\nWhen x = 0 , v = 10 and so C = arctan10 M1\n= − x 50(arctan10 arctan) v A1 N1\n(iii) Attempting to make arctanv the subject. M1\nx\narctan v = arctan10 − A1\n50\n⎛ x ⎞\nv = tanarctan10 − M1A1 ⎜ ⎟\n50 ⎝ ⎠\nUsing tan( A − B ) formula to obtain the desired form. M1\nx\n10 −\ntan 50\nv = AG N0\nx\n+\n110tan 50\n[14 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.9",
+    "5.15",
+    "3.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 19]\nA particle moves in a straight line in a positive direction from a fixed point O.\nThe velocity $v$ m s$^{-1}$, at time $t$ seconds, where $t \\ge 0$, satisfies the differential equation\n$$\\frac{dv}{dt} = \\frac{-v(1+v^2)}{50}.$$\nThe particle starts from O with an initial velocity of 10 m s$^{-1}$.\n(a) (i) Express as a definite integral, the time taken for the particle's velocity to decrease from 10 m s$^{-1}$ to 5 m s$^{-1}$.\n(ii) **Hence** calculate the time taken for the particle's velocity to decrease from 10 m s$^{-1}$ to 5 m s$^{-1}$. [5 marks]\n(b) (i) Show that, when $v > 0$, the motion of this particle can also be described by the differential equation $\\frac{dv}{dx} = \\frac{-(1+v^2)}{50}$ where $x$ metres is the displacement from O.\n(ii) Given that $v = 10$ when $x = 0$, solve the differential equation expressing $x$ in terms of $v$.\n(iii) **Hence** show that $v = \\dfrac{10 - \\tan\\frac{x}{50}}{1 + 10\\tan\\frac{x}{50}}$. [14 marks]"
+  }
+ ],
+ "status": "done",
+ "review_note": "Stage-2 review: q7/q8 markscheme boundary fixed via overrides (q8 graph top had leaked into q7 ms crop)."
+}

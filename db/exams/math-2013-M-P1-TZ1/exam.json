@@ -1,0 +1,320 @@
+{
+ "exam_id": "math-2013-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2013,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2013 May Examination Session/Mathematics_paper_1_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2013 May Examination Session/Mathematics_paper_1_TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); code M13/5/MATHL/HP1/ENG/TZ1/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2013-M-P1-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\n(a) If w = 2 + 2i , find the modulus and argument of w . [2 marks]\nπ π 5 5\n(b) Given z = cos + isin , find in its simplest form wz 4 6 . [4 marks]\n6 6",
+   "ms_text": "1. (a) modulus = 8 A1\n= π (accept 45) argument A1\n4\nNote: A0if extra values given. [2 marks]\n(b) METHOD 1\n4 6 π i 5i π wz = 64 e × e (A1)(A1)\nNote: Allow alternative notation.\n6πi = 64e (M1)\n= 64 A1\nMETHOD 2\n4 w=− 64 (M1)(A1)\nz=− 6 1 (A1)\n4 6 wz= 64 A1\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\n(a) If $w = 2 + 2\\mathrm{i}$, find the modulus and argument of $w$. [2 marks]\n(b) Given $z = \\cos\\left(\\frac{5\\pi}{6}\\right) + \\mathrm{i}\\sin\\left(\\frac{5\\pi}{6}\\right)$, find in its simplest form $w^4 z^6$. [4 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nConsider the points A(1, 2, 3) , B(1, 0, 5) and C(2, − 1, 4) .\n→ →\n× (a) Find AB AC . [4 marks]\n(b) Hence find the area of the triangle ABC. [2 marks]",
+   "ms_text": "1 1 0 2 1 1\n→ →\n2. (a) AB = 0 − 2 =− 2 , AC =− 1 − 2 =− 3 A1A1\n5 3 2 4 3 1\nNote: Award the above marks if the components are seen in the line below.\ni j k 4\n→ →\n× = − ABAC 0 2 2 = 2 (M1)A1\n1 − 3 1 2\n[4 marks]\n→ → 1\n(b) area = AB × AC (M1)\n2\n1 2 2 2 1\n= 4 + 2 + 2 = 24 ( = 6 ) A1\n2 2\nNote: Award M0A0 for attempts that do not involve the answer to (a).\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nConsider the points $\\mathrm{A}(1, 2, 3)$, $\\mathrm{B}(1, 0, 5)$ and $\\mathrm{C}(2, -1, 4)$.\n(a) Find $\\overrightarrow{\\mathrm{AB}} \\times \\overrightarrow{\\mathrm{AC}}$. [4 marks]\n(b) Hence find the area of the triangle ABC. [2 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\n1 2 4 − 3\n1 Given A\n= and B = , find the matrix X , such that AXA −= B .\n1 1 1 1",
+   "ms_text": "3. METHOD 1\n1 1 − 2 − 1 2 − 1\nA = = (M1)A1\n− 1 − 1 1 1 − 1\n− 1 2 4 − 3 1 2\nX = ABA − 1 M1 =\n− 1 1 1 1 1 1\n− 2 5 1 2 − 1 2 1 5 3 1\nor = (M1)A1\n3 − 4 1 1 1 − 1 2 3 − 1 2\n1 − 3 − 1\nNote: Accept the answer .\n− 1 1 − 2\nMETHOD 2\na b\nX =\nc d\n= AX BA M1\n1 2 a b 4 − 3 1 2\n=\n1 1 c d 1 1 1 1\n+ + a 2 c b 2 d 1 5\n= (M1)(A1)\na + c b + d 2 3\na + 2 c = 1\nb + 2 d = 5\na += c 2\nb + d = 3\na = 3, b = 1, c =− 1, d = 2 (M1)A1\n[5 marks]\nMETHOD 3\n1 − 2 − 1 2\n− 1 1 A = = (M1)A1\n1 − 1 1 1 − 1 −\na b\nX =\nc d\n− − 1 2 a b 1 2 4 3\n=\n− 1 1 c d 1 1 1 1\na = 3, b = 1, c =− 1, d = 2 (M1)(M1)A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nGiven $\\boldsymbol{A} = \\begin{pmatrix} 1 & 2 \\\\ 1 & 1 \\end{pmatrix}$ and $\\boldsymbol{B} = \\begin{pmatrix} 4 & -3 \\\\ 1 & 1 \\end{pmatrix}$, find the matrix $\\boldsymbol{X}$, such that $\\boldsymbol{A}\\boldsymbol{X}\\boldsymbol{A}^{-1} = \\boldsymbol{B}$."
+  },
+  {
+   "id": "math-2013-M-P1-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nThe probability density function of the random variable X is defined as\nπ\nsin, x 0 ≤ x ≤\nfx () = 2\n0, otherwise.\nFind E( X. )",
+   "ms_text": "π\n4. 2 x sind xx M1 ∫\n0\nπ π\n=− [ ] 2 2 x cos x +∫ cosd xx M1(A1)\n0 0\nNote: Condone the absence of limits or wrong limits to this point.\nπ\n[ ] =− x cos x + sin x 2 A1\n0\n= 1 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "4"
+   ],
+   "subtopics": [
+    "5.16",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nThe probability density function of the random variable $X$ is defined as\n$f(x) = \\begin{cases} \\sin x, & 0 \\le x \\le \\frac{\\pi}{2} \\\\ 0, & \\text{otherwise.} \\end{cases}$\nFind $\\mathrm{E}(X)$."
+  },
+  {
+   "id": "math-2013-M-P1-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nPaint is poured into a tray where it forms a circular pool with a uniform thickness of\n3 1 0.5 cm. If the paint is poured at a constant rate of 4cm s−, find the rate of increase of\nthe radius of the circle when the radius is 20 cm.",
+   "ms_text": "2 5. V = 0.5π r (A1)\nEITHER\ndV\nπ r A1 dr=\ndV\n4 (A1) dt=\napplying chain rule M1\ndV dr for example dr\n= ×\ndt dt dV\nOR\ndV dr\n=π r M1A1\ndt dt\ndV\n4 (A1) dt=\nTHEN\ndr 1\n= 4 × A1\ndt π r\ndr 4 1 − 1\nwhen r = 20 , = or (cm s) A1\ndt 20π 5π\nNote:Allow h instead of 0.5 up until the final A1.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nPaint is poured into a tray where it forms a circular pool with a uniform thickness of 0.5 cm. If the paint is poured at a constant rate of $4\\,\\text{cm}^3\\,\\text{s}^{-1}$, find the rate of increase of the radius of the circle when the radius is 20 cm."
+  },
+  {
+   "id": "math-2013-M-P1-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nThe matrix A is such that A 2= I, where I is the identity matrix. Use mathematical\nn n− 1 + induction to prove that ( A + I ) = 2 ( A + I, for all n∈ ) ′.",
+   "ms_text": "6. when n =, 1 ( A + I ) 1 = 2( 0 A + I (or 1( ) × A + I) ) A1\nso true for n = 1\nassume the statement is true for n = k M1\nk k − 1 ( A + I ) = 2 ( A + I )\nNote: Award M1 only if assumption of truth is clear.\n+ k + 1 = + k + ( A I ) ( A I )( A I )\nk− 1 = 2 ( A + I )( A + I ) M1\nk− 1 2 2 = 2 ( A + IA + AI + I ) M1\nk− 1 = 2 (2 A + 2) I A1\n= k + 2( A I )\n+ therefore if true for n = k then true for n = k +; as true for 1 n = so true for all ( 1 n ∈′ ) R1\nNote: Only award R1 if all three M marks have been awarded.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nThe matrix $\\boldsymbol{A}$ is such that $\\boldsymbol{A}^2 = \\boldsymbol{I}$, where $\\boldsymbol{I}$ is the identity matrix. Use mathematical induction to prove that $(\\boldsymbol{A} + \\boldsymbol{I})^n = 2^{n-1}(\\boldsymbol{A} + \\boldsymbol{I})$, for all $n \\in \\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2013-M-P1-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\n2 2 A curve is defined by the equation 8 y ln x − 2 x + 4 y = 7 . Find the equation of the\ntangent to the curve at the point where x = 1 and y > 0 .",
+   "ms_text": "1 d y d y\n8 y × + 8 ln x − 4 x + 8 y = 0 7. M1A1A1\nx d x d x\nNote: M1 for attempt at implicit differentiation. A1 for differentiating\n8ln y x , A1 for differentiating the rest.\n2\nwhen x =, 1 8 y × 0 − 21 ×+ 4 y = 7 (M1)\n9 2 3 (as\ny = ⇒ y = y > 0) A1\n4 2\n3 d y 2\nat =− A1\n1, 2\nd x 3\n3 2 13 2 (\ny − =− x − 1) or y =− x + A1\n2 3 3 6\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nA curve is defined by the equation $8y\\ln x - 2x^2 + 4y^2 = 7$. Find the equation of the tangent to the curve at the point where $x = 1$ and $y > 0$."
+  },
+  {
+   "id": "math-2013-M-P1-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\n1 1 1 1\nThe first terms of an arithmetic sequence are , , , ,\nx…\nlog x log x log x log\n2 8 32 128\nFind x if the sum of the first 20 terms of the sequence is equal to 100.",
+   "ms_text": "8. METHOD 1\n1 1\nd = − (M1)\nlog x log x\n8 2\nlog8 1\n= 2 − (M1)\nlog x log x\n2 2\nNote: Award this M1 for a correct change of base anywhere in the question.\n2\n= (A1)\nlogx\n2\n20 1 2\n2 × + 19 × M1\n2 log x log x\n2 2\n400\n= (A1)\nlogx\n2\n400\n= 100\nlogx\n2\n4 log x = 4 ⇒ x = 2 = 16 A1\n2\nMETHOD 2\n1\n20th term = A1\nlog x 39\n2\n20 1 1\n100 = + M1\n2 log x log x\n2 39 2\n39 20 1 log2\n2 100 = + M1(A1)\n2 log x log x\n2 2\nNote:Award this M1 for a correct change of base anywhere in the question.\n400\n100 = (A1)\nlogx\n2\n4 log x = 4 ⇒ x = 2 = 16 A1\n2\nMETHOD 3\n1 1 1 1\n+ + + +…\nlog x log x log x log x\n2 8 32 128\n1 log8 log32 log128\n2 2 2 + + + +… (M1)(A1)\nlog x log x log x log x\n2 2 2 2\nNote: Award this M1 for a correct change of base anywhere in the question.\n1\n= (13 +++… 5 ) A1\nlogx\n2\n1 20 (2\n= + 38) (M1)(A1)\nlog x 2\n2\n400\n100 =\nlogx\n2\n4 log x = 4 ⇒ x = 2 = 16 A1\n2\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nThe first terms of an arithmetic sequence are $\\frac{1}{\\log_2 x}, \\frac{1}{\\log_8 x}, \\frac{1}{\\log_{32} x}, \\frac{1}{\\log_{128} x}, \\ldots$\nFind $x$ if the sum of the first 20 terms of the sequence is equal to 100."
+  },
+  {
+   "id": "math-2013-M-P1-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 6]\nTwo events A and B are such that P( A ∪ B ) = 0 7 and P( . AB′= | ) 0.6 .\nFind P() B.",
+   "ms_text": "9. Note: Be aware that an unjustified assumption of independence will also lead to P(B) = 0.25 ,\nbut is an invalid method.\nMETHOD 1\nP( AB ′ ′ ) =− 1P( AB ′ ) =− 10.6 = 0.4 M1A1\nP( A ′ ∩ B ′ )\nP( AB ′ ′= )\nP( B ′ )\nP( A ′ ∩ B ′ ) = P( ( A ∪ B ) ′ ) =− 10.7 = 0.3 A1\n0.3\n0.4 = ⇒ P( B ′ ) = 0.75 (M1)A1\nP( B ′ )\nP() B= 0.25 A1\n(this method can be illustrated using a tree diagram)\n[6 marks]\nMETHOD 2\nP( ( A ∪ B′ ) ) =− 10.7 = 0.3 A1\nx\nP( AB ′= ) = 0.6 M1A1\n+ x 0.3\nx = 0.6 x + 0.18\n0.4 x = 0.18\nx = 0.45 A1\n∪ = + + P( A B ) x y z\nP() B = y + z = 0.7 − 0.45 (M1)\n= 0.25 A1\n[6 marks]\nMETHOD 3\nP( A ∩ B ′ )\n= 0.6 (or P( A ∩ B ′ ) = 0.6P( B ′ ) M1\nP( B ′ )\nP( A ∩ B ′ ) = P( A ∪ B ) − P() B M1A1\nP( B ′=− ) 1P() B\n0.7 − P() B = 0.6 − 0.6P() B M1(A1)\n0.1 = 0.4P() B\n1\nB= P() A1\n4\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 6]\nTwo events $A$ and $B$ are such that $\\mathrm{P}(A \\cup B) = 0.7$ and $\\mathrm{P}(A \\mid B') = 0.6$.\nFind $\\mathrm{P}(B)$."
+  },
+  {
+   "id": "math-2013-M-P1-TZ1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 7]\nx ≤ πx− 1 (a) Find all values of x for 0 1 .≤ 1 such that sin( ) = 0. [2 marks]\n1\nn − 2 − 1\n(b) Find ∫ π x sin( π x )d x , showing that it takes different integer values when\n1\nn + 1\nn is even and when n is odd. [3 marks]\n1 − 2 − 1\n(c) Evaluate ∫ π x sin( π x ) d. x [2 marks]\n0 1 .",
+   "ms_text": "π\n( − 1 ) 10. (a) sin π x = 0 =π , 2 (...) π (A1)\nx\n11111111 1\nx = 1, , , , , , , , , A1\n2345678910\n[2 marks]\n1\n(b) cos(π x− 1 ) n M1\n1\nn + 1\n= cos ( π n ) − cos ( π ( n + 1) ) A1\n= 2 when n is even and =− when n is odd 2 A1\n[3 marks]\n1 − −\n(c) π x 2 sin( π x 1 )d x = 2 + 2 + ... + 2 = 18 (M1)A1 ∫\n0.1\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.10",
+    "3.8",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 7]\n(a) Find all values of $x$ for $0.1 \\le x \\le 1$ such that $\\sin(\\pi x^{-1}) = 0$. [2 marks]\n(b) Find $\\int_{\\frac{1}{n+1}}^{\\frac{1}{n}} \\pi x^{-2} \\sin(\\pi x^{-1})\\,\\mathrm{d}x$, showing that it takes different integer values when $n$ is even and when $n$ is odd. [3 marks]\n(c) Evaluate $\\int_{0.1}^{1} \\left| \\pi x^{-2} \\sin(\\pi x^{-1}) \\right| \\mathrm{d}x$. [2 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 19]\nExpress cosπ (a) (i) x in the form a cos x − b sin x where ab , ∈ϒ.\n6+\n(ii) Hence solve 3 cos x − sin x = for 0 1 ≤ x ≤ 2 π. [7 marks]\n3 2 (b) Let px () = 2 x − x − 2 x + 1 .\n(i) Show that x =1 is a zero of p.\n3 − 2 − += (ii) Hence find all the solutions of 2 x x 2 x 1 0 .\nθ θ + 2 θ (iii) Express sin 2 cos sin in terms of sinθ .\nθ θ + 2 θ = for 0 ≤ θ ≤ 2 π. (iv) Hence solve sin 2 cos sin 1 [12 marks]",
+   "ms_text": "π π\n11. (a) (i) cos cos x − sin sin x M1\n6 6\n3 1\ncos x − sin x A1\n2 2\n3 1 1\n(ii) cos x − sin x = (M1)\n2 2 2\nπ 1\n+ x = M1\ncos6\n2\nπ π π\nor5 + x = (A1)(A1)\n6 3 3\nπ π\nor 3 x = A1\n6 2\n[7 marks]\n(b) (i) METHOD 1\nsubstitute x = 1 M1\np (1) = 0 A1\nhence x = is a zero 1 AG\nMETHOD 2\nCorrect result when dividing by x − 1 A1\nStatement that remainder is zero R1\nx = is a zero hence 1 AG\n(ii) x =is a root 1 A1\nvalid method, for example, dividing or comparing coefficients (M1)\n(may be seen in (b)(i))\n− and 1 other roots are 1 A1A1\n2\n2 (iii) 2sin θ coscos θ θ + sin θ M1\n( 2 ) 2 2sin θ 1sin − θ + sin θ (A1)\n3 2 ( 2sin θ − 2sin θ + sin θ )\n3 2 (iv) 2sin θ − 2sin θ + sin θ = 1 (A1)\n1\nsin θ=− 1, , 1 A1\n2\nπ 5 π\nθ = ,π3π , , A1A1\n6 6 2 2\nNote:Award A1for two correct solutions, A2for four correct solutions.\n[12 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.10",
+    "2.12",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 19]\n(a) (i) Express $\\cos\\left(\\frac{\\pi}{6} + x\\right)$ in the form $a\\cos x - b\\sin x$ where $a, b \\in \\mathbb{R}$.\n(ii) Hence solve $\\sqrt{3}\\cos x - \\sin x = 1$ for $0 \\le x \\le 2\\pi$. [7 marks]\n(b) Let $p(x) = 2x^3 - x^2 - 2x + 1$.\n(i) Show that $x = 1$ is a zero of $p$.\n(ii) Hence find all the solutions of $2x^3 - x^2 - 2x + 1 = 0$.\n(iii) Express $\\sin 2\\theta \\cos\\theta + \\sin^2\\theta$ in terms of $\\sin\\theta$.\n(iv) Hence solve $\\sin 2\\theta \\cos\\theta + \\sin^2\\theta = 1$ for $0 \\le \\theta \\le 2\\pi$. [12 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 19]\n2 (a) Express 4 2x − 4 x + in the form ax 5 ( − h ) + k where , ahk ∈⁄. , [2 marks]\n2 (b) The graph of y = x 2 is transformed onto the graph of y = 4 x − 4 x + 5 .\nDescribe a sequence of transformations that does this, making the order of\ntransformations clear. [3 marks]\n1\nThe function f is defined by fx () = .\n2 4 x − 4 x + 5\n(c) Sketch the graph of y = fx () . [2 marks]\n(d) Find the range of f . [2 marks]\n1 1\n(e) By using a suitable substitution show that ∫ fx ()d x = ∫ d u . [3 marks]\n2 4 u + 1\n3 5 . 1 π.\n(f) Prove that ∫ d x = [7 marks]\n2 1 4 x − 4 x + 5 16",
+   "ms_text": "2 12. (a) 4( x − 0.5) + 4 A1A1\nNote: A1 for two correct parameters, A2 for all three correct.\n[2 marks]\ntranslation 0.5\n(b) (allow “0.5 to the right”) A1\n0\nstretch parallel to y-axis, scale factor 4 (allow vertical stretch or similar) A1\ntranslation 0\n(allow “4 up”) A1\n4\nNote: All transformations must state magnitude and direction.\nNote: First two transformations can be in either order.\nIt could be a stretch followed by a single translation\nof0.5 . If the vertical translation is before the stretch it is 0\n.\n4 1\n[3 marks]\n(c)\ngeneral shape (including asymptote and single maximum in first quadrant), A1\n1 or maximum 11\nintercept , shown A1\n0, 5\n24\n[2 marks]\n1\n(d) 0 < fx () ≤ A1A1\n4\n1\nNote: A1 for ≤ , A1 for 0<.\n4\n[2 marks]\n1\n(e) let u = x − A1\n2\nd u\n1 (or d u = d x ) A1 x=\nd\n1 1\n= ∫ d x ∫ d x A1\n2 2 4 x − 4 x + 5\n1\n4 x − + 4\n2\n1 1 1\n= ∫ d u ∫ d u AG\n2 2 4 u + 4 4 u + 1\nNote:If following through an incorrect answer to part (a), do not award final\nA1 mark.\n[3 marks]\n3.5 1 1 3 1\n(f) ∫ d x = ∫ d u A1\n2 2 1 4 x − 4 x + 5 4 0.5 u + 1\nNote:A1 for correct change of limits. Award also if they do not change limits\nbut go back to x values when substituting the limit (even if there is an\nerror in the integral).\n1arctan() 3 [ u ] (M1)\n4 0.5\n1 1\narctan(3) − arctan A1\n4 2\nlet the integral = I\n1\ntan4 I = tanarctan(3) − M1\narctan2\n3 − 0.5 2.5\n= = 1 (M1)A1\n1 +× 30.5 2.5\nπ π\n4 I = ⇒ I = A1AG\n4 16\n[7 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "2.11",
+    "2.6",
+    "2.13",
+    "2.2",
+    "5.16",
+    "5.15",
+    "3.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 19]\n(a) Express $4x^2 - 4x + 5$ in the form $a(x-h)^2 + k$ where $a, h, k \\in \\mathbb{Q}$. [2 marks]\n(b) The graph of $y = x^2$ is transformed onto the graph of $y = 4x^2 - 4x + 5$. Describe a sequence of transformations that does this, making the order of transformations clear. [3 marks]\nThe function $f$ is defined by $f(x) = \\frac{1}{4x^2 - 4x + 5}$.\n(c) Sketch the graph of $y = f(x)$. [2 marks]\n(d) Find the range of $f$. [2 marks]\n(e) By using a suitable substitution show that $\\int f(x)\\,\\mathrm{d}x = \\frac{1}{4}\\int \\frac{1}{u^2 + 1}\\,\\mathrm{d}u$. [3 marks]\n(f) Prove that $\\int_{1}^{3.5} \\frac{1}{4x^2 - 4x + 5}\\,\\mathrm{d}x = \\frac{\\pi}{16}$. [7 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 22]\nOn Saturday, Alfred and Beatrice play 6 different games against each other. In each\ngame, one of the two wins. The probability that Alfred wins any one of these games is 2 .\n3\nShow that the probability that Alfred wins exactly 4 of the games is 80 (a) [3 marks]\n243 .\n(b) (i) Explain why the total number of possible outcomes for the results of the\n6 games is 64.\n6 (ii) By expanding ( 1 + x ) and choosing a suitable value for x , prove\n6 6 6 6 6 6 6\n= 64\n+ + + + + +6 .\n0 1 2 3 4 5\n(iii) State the meaning of this equality in the context of the 6 games played. [4 marks]\n(c) The following day Alfred and Beatrice play the 6 games again. Assume that the\nprobability that Alfred wins any one of these games is still 2 .\n3\n(i) Find an expression for the probability Alfred wins 4 games on the\nfirst day and 2 on the second day. Give your answer in the form\n2 s t\n6 2 1\nwhere the values of r, s and t are to be found.\nr 3 3\n(ii) Using your answer to (c) (i) and 6 similar expressions write down the\nprobability that Alfred wins a total of 6 games over the two days as the\nsum of 7 probabilities.\n2 2 2 2 2 2 2\n6 6 6 6 6 6 6\n(iii) Hence prove that 12 +\n= + + + + + [9 marks] .\n6 0 1 2 3 4 5 6\n(d) Alfred and Beatrice play n games. Let A denote the number of games Alfred wins.\nn na r\n= The expected value of A can be written as E() A ∑ .\nrrb n\nr = 0\n(i) Find the values of a and b.\n(ii) By differentiating the expansion of ( 1+ xn, prove that the expected )\nnumber of games Alfred wins is 2 n . [6 marks]\n3",
+   "ms_text": "2 B\n13. (a) (M1)\n6,3\n4 2 6\n2 1\n= p (4) A1\n4 3 3\n6 =\n15 A1\n4\n4 2 80\n= 15 × = AG\n6 243 3\n[3 marks]\n(b) (i) 2 outcomes for each of the 6 games or 2 6 = 64 R1\n6 6 6 6 6 6 6\n6 2 3 4 5 6 (ii) (1 + x ) = + x + x + x + x + x + x A1\n0 1 2 3 4 5 6\n2 3 4 5 6 Note: Accept n C notation or 1 + 6 x + 15 x + 20 x + 15 x + 6 x + x\nr\nsetting x =in both sides of the expression 1 R1\nNote: Do not award R1 if the right hand side is not in the correct form.\n6 6 6 6 6 6 6\n64 = + + + + + + AG\n0 1 2 3 4 5 6\n(iii) the total number of outcomes = number of ways Alfred can win\nno games, plus the number of ways he can win one game etc. R1\n[4 marks]\n(c) (i) Let P(,) xy be the probability that Alfred wins x games on the first day\nand y on the second.\n4 2 2 4 6\n2 1 6 2 1\nP(4, 2) = × × × × × M1A1\n4 3 3 2 3 3\n2 2 6 6 6 6\n6 2 1 6 2 1\nor A1\n2 3 3 4 3 3\nr = 2 or 4, s == t 6\n(ii) P(Total = 6) =\nP(0, 6) + P(1, 5) + P(2, 4) + P(3, 3) + P(4, 2) + P(5, 1) + P(6, 0) (M1)\n2 6 6 2 6 6 2 6 6\n6 2 1 6 2 1 6 2 1\n= + +…+ A2\n0 3 3 1 3 3 6 3 3\n6 2 2 2 2 2 2 2 2 6 6 6 6 6 6 6\n= + + + + + +\n12 3 0 1 2 3 4 5 6\nNote: Accept any valid sum of 7 probabilities.\n6\nuse of 6\n(iii) = (M1)\ni 6 − i\n(can be used either here or in (c)(ii))\n6 6 6 12\n2 1 2 12\nP(wins 6 out of 12) = × × = A1\n12 6 3 3 3 6\n6 2 2 2 2 2 2 2 6 2 6 6 6 6 6 6 6 2 12\n+ + + + + + = A1\n12 12 3 0 1 2 3 4 5 6 3 6\n2 2 2 2 2 2 2\n6 6 6 6 6 6 6 12\ntherefore + + + + + + = AG\n0 1 2 3 4 5 6 6\n[9 marks]\nn r nr − n r n 2 1 n 2\n(d) (i) E() A = ∑ r = ∑ r\nn r 3 3 r 3\nr = 0 r = 0\n( a = 2, b = 3) M1A1\nNote:M0A0 for a = 2 , b = 3 without any method.\nn n\nn − 1 r − 1 (ii) n (1 + x ) = ∑ rx A1A1\nr r = 1\n(sigma notation not necessary)\n(if sigma notation used also allow lower limit to be r = 0 )\nlet x = 2 M1\nn n\nn − 1 r − 1 n 3 = ∑ r 2\nr r = 1\nmultiply by 2 and divide by 3n (M1)\nn r n r 2 n n 2 n 2\n= = ∑ r ∑ AG\nn n 3 r 3 r 3\nr = 1 r = 0\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "4.8",
+    "1.10",
+    "1.9",
+    "4.7",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 22]\nOn Saturday, Alfred and Beatrice play 6 different games against each other. In each game, one of the two wins. The probability that Alfred wins any one of these games is $\\frac{2}{3}$.\n(a) Show that the probability that Alfred wins exactly 4 of the games is $\\frac{80}{243}$. [3 marks]\n(b) (i) Explain why the total number of possible outcomes for the results of the 6 games is 64.\n(ii) By expanding $(1+x)^6$ and choosing a suitable value for $x$, prove $64 = \\binom{6}{0} + \\binom{6}{1} + \\binom{6}{2} + \\binom{6}{3} + \\binom{6}{4} + \\binom{6}{5} + \\binom{6}{6}$.\n(iii) State the meaning of this equality in the context of the 6 games played. [4 marks]\n(c) The following day Alfred and Beatrice play the 6 games again. Assume that the probability that Alfred wins any one of these games is still $\\frac{2}{3}$.\n(i) Find an expression for the probability Alfred wins 4 games on the first day and 2 on the second day. Give your answer in the form $\\binom{6}{r}^2 \\left(\\frac{2}{3}\\right)^s \\left(\\frac{1}{3}\\right)^t$ where the values of $r$, $s$ and $t$ are to be found.\n(ii) Using your answer to (c)(i) and 6 similar expressions write down the probability that Alfred wins a total of 6 games over the two days as the sum of 7 probabilities.\n(iii) Hence prove that $\\binom{12}{6} = \\binom{6}{0}^2 + \\binom{6}{1}^2 + \\binom{6}{2}^2 + \\binom{6}{3}^2 + \\binom{6}{4}^2 + \\binom{6}{5}^2 + \\binom{6}{6}^2$. [9 marks]\n(d) Alfred and Beatrice play $n$ games. Let $A$ denote the number of games Alfred wins. The expected value of $A$ can be written as $\\mathrm{E}(A) = \\sum_{r=0}^{n} r\\binom{n}{r}\\frac{a^r}{b^n}$.\n(i) Find the values of $a$ and $b$.\n(ii) By differentiating the expansion of $(1+x)^n$, prove that the expected number of games Alfred wins is $\\frac{2n}{3}$. [6 marks]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,138 @@
+{
+ "exam_id": "math-2021-M-P2-TZ2",
+ "questions": {
+  "1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.4"
+   ],
+   "text_clean": "1. [Maximum mark: 6]\nAt a café, the waiting time between ordering and receiving a cup of coffee is dependent upon the number of customers who have already ordered their coffee and are waiting to receive it.\nSarah, a regular customer, visited the café on five consecutive days. The following table shows the number of customers, $x$, ahead of Sarah who have already ordered and are waiting to receive their coffee and Sarah's waiting time, $y$ minutes.\nNumber of customers ($x$) | 3 | 9 | 11 | 10 | 5\nSarah's waiting time ($y$) | 6 | 10 | 12 | 11 | 6\nThe relationship between $x$ and $y$ can be modelled by the regression line of $y$ on $x$ with equation $y = ax + b$.\n(a) (i) Find the value of $a$ and the value of $b$.\n(ii) Write down the value of Pearson's product-moment correlation coefficient, $r$. [3]\n(b) Interpret, in context, the value of $a$ found in part (a)(i). [1]\nOn another day, Sarah visits the café to order a coffee. Seven customers have already ordered their coffee and are waiting to receive it.\n(c) Use the result from part (a)(i) to estimate Sarah's waiting time to receive her coffee. [2]"
+  },
+  "2": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nAn arithmetic sequence has first term $60$ and common difference $-2.5$.\n(a) Given that the $k$th term of the sequence is zero, find the value of $k$. [2]\nLet $S_n$ denote the sum of the first $n$ terms of the sequence.\n(b) Find the maximum value of $S_n$. [3]"
+  },
+  "3": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "text_clean": "3. [Maximum mark: 8]\nAt a school, $70\\%$ of the students play a sport and $20\\%$ of the students are involved in theatre. $18\\%$ of the students do neither activity.\nA student is selected at random.\n(a) Find the probability that the student plays a sport and is involved in theatre. [2]\n(b) Find the probability that the student is involved in theatre, but does not play a sport. [2]\nAt the school $48\\%$ of the students are girls, and $25\\%$ of the girls are involved in theatre.\nA student is selected at random. Let $G$ be the event \"the student is a girl\" and let $T$ be the event \"the student is involved in theatre\".\n(c) Find $\\mathrm{P}(G \\cap T)$. [2]\n(d) Determine if the events $G$ and $T$ are independent. Justify your answer. [2]"
+  },
+  "4": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.6",
+    "2.5",
+    "2.15"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\nThe functions $f$ and $g$ are defined for $x \\in \\mathbb{R}$ by $f(x) = 6x^2 - 12x + 1$ and $g(x) = -x + c$, where $c \\in \\mathbb{R}$.\n(a) Find the range of $f$. [2]\n(b) Given that $(g \\circ f)(x) \\le 0$ for all $x \\in \\mathbb{R}$, determine the set of possible values for $c$. [4]"
+  },
+  "5": {
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.9",
+    "1.7"
+   ],
+   "text_clean": "5. [Maximum mark: 7]\nAll living plants contain an isotope of carbon called carbon-14. When a plant dies, the isotope decays so that the amount of carbon-14 present in the remains of the plant decreases. The time since the death of a plant can be determined by measuring the amount of carbon-14 still present in the remains.\nThe amount, $A$, of carbon-14 present in a plant $t$ years after its death can be modelled by $A = A_0 e^{-kt}$ where $t \\ge 0$ and $A_0$, $k$ are positive constants.\nAt the time of death, a plant is defined to have $100$ units of carbon-14.\n(a) Show that $A_0 = 100$. [1]\nThe time taken for half the original amount of carbon-14 to decay is known to be $5730$ years.\n(b) Show that $k = \\frac{\\ln 2}{5730}$. [3]\n(c) Find, correct to the nearest $10$ years, the time taken after the plant's death for $25\\%$ of the carbon-14 to decay. [3]"
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.14"
+   ],
+   "text_clean": "6. [Maximum mark: 6]\nA continuous random variable $X$ has the probability density function $f_n$ given by\n$f_n(x) = \\begin{cases} (n+1)x^n, & 0 \\le x \\le 1 \\\\ 0, & \\text{otherwise} \\end{cases}$\nwhere $n \\in \\mathbb{R}$, $n \\ge 0$.\n(a) Show that $\\mathrm{E}(X) = \\frac{n+1}{n+2}$. [2]\n(b) Show that $\\mathrm{Var}(X) = \\frac{n+1}{(n+2)^2(n+3)}$. [4]"
+  },
+  "7": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "text_clean": "7. [Maximum mark: 5]\nEight runners compete in a race where there are no tied finishes. Andrea and Jack are two of the eight competitors in this race.\nFind the total number of possible ways in which the eight runners can finish if Jack finishes\n(a) in the position immediately after Andrea; [2]\n(b) in any position after Andrea. [3]"
+  },
+  "8": {
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.12",
+    "3.6"
+   ],
+   "text_clean": "8. [Maximum mark: 5]\nConsider $z = \\cos\\theta + \\mathrm{i}\\sin\\theta$ where $z \\in \\mathbb{C}$, $z \\ne 1$.\nShow that $\\mathrm{Re}\\left(\\frac{1+z}{1-z}\\right) = 0$."
+  },
+  "9": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.13",
+    "1.10"
+   ],
+   "text_clean": "9. [Maximum mark: 8]\n(a) Write down the first three terms of the binomial expansion of $(1+t)^{-1}$ in ascending powers of $t$. [1]\n(b) By using the Maclaurin series for $\\cos x$ and the result from part (a), show that the Maclaurin series for $\\sec x$ up to and including the term in $x^4$ is $1 + \\frac{x^2}{2} + \\frac{5x^4}{24}$. [4]\n(c) By using the Maclaurin series for $\\arctan x$ and the result from part (b), find $\\lim_{x \\to 0}\\left(\\frac{x\\arctan 2x}{\\sec x - 1}\\right)$. [3]"
+  },
+  "10": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.8",
+    "4.12",
+    "4.11"
+   ],
+   "text_clean": "10. [Maximum mark: 15]\nThe flight times, $T$ minutes, between two cities can be modelled by a normal distribution with a mean of $75$ minutes and a standard deviation of $\\sigma$ minutes.\n(a) Given that $2\\%$ of the flight times are longer than $82$ minutes, find the value of $\\sigma$. [3]\n(b) Find the probability that a randomly selected flight will have a flight time of more than $80$ minutes. [2]\n(c) Given that a flight between the two cities takes longer than $80$ minutes, find the probability that it takes less than $82$ minutes. [4]\nOn a particular day, there are $64$ flights scheduled between these two cities.\n(d) Find the expected number of flights that will have a flight time of more than $80$ minutes. [3]\n(e) Find the probability that more than $6$ of the flights on this particular day will have a flight time of more than $80$ minutes. [3]"
+  },
+  "11": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.17",
+    "5.16",
+    "5.8",
+    "5.6",
+    "5.7"
+   ],
+   "text_clean": "11. [Maximum mark: 18]\nA function $f$ is defined by $f(x) = \\frac{k e^{\\frac{x}{2}}}{1 + e^x}$ where $x \\in \\mathbb{R}$, $x \\ge 0$ and $k \\in \\mathbb{R}^+$.\nThe region enclosed by the graph of $y = f(x)$, the $x$-axis, the $y$-axis and the line $x = \\ln 16$ is rotated $360°$ about the $x$-axis to form a solid of revolution.\n(a) Show that the volume of the solid formed is $\\frac{15k^2\\pi}{34}$ cubic units. [6]\nPedro wants to make a small bowl with a volume of $300\\text{ cm}^3$ based on the result from part (a). Pedro's design is shown in the following diagrams.\n[Diagram: left, graph of $y = f(x)$ decreasing from A on the y-axis to C above B at $x = \\ln 16$ on the x-axis, origin O; right, the bowl as a solid of revolution with top radius OA, base radius BC, vertical height $\\ln 16$]\nThe vertical height of the bowl, BO, is measured along the $x$-axis. The radius of the bowl's top is OA and the radius of the bowl's base is BC. All lengths are measured in cm.\n(b) Find the value of $k$ that satisfies the requirements of Pedro's design. [2]\n(c) Find\n(i) OA;\n(ii) BC. [4]\nFor design purposes, Pedro investigates how the cross-sectional radius of the bowl changes.\n(d) (i) By sketching the graph of a suitable derivative of $f$, find where the cross-sectional radius of the bowl is decreasing most rapidly.\n(ii) State the cross-sectional radius of the bowl at this point. [6]"
+  },
+  "12": {
+   "topics": [
+    "5",
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.2",
+    "2.5",
+    "2.14",
+    "3.9",
+    "5.13",
+    "2.3"
+   ],
+   "text_clean": "12. [Maximum mark: 21]\nA function $f$ is defined by $f(x) = \\arcsin\\left(\\frac{x^2-1}{x^2+1}\\right)$, $x \\in \\mathbb{R}$.\n(a) Show that $f$ is an even function. [1]\n(b) By considering limits, show that the graph of $y = f(x)$ has a horizontal asymptote and state its equation. [2]\n(c) (i) Show that $f'(x) = \\frac{2x}{\\sqrt{x^2}\\,(x^2+1)}$ for $x \\in \\mathbb{R}$, $x \\ne 0$.\n(ii) By using the expression for $f'(x)$ and the result $\\sqrt{x^2} = |x|$, show that $f$ is decreasing for $x < 0$. [9]\nA function $g$ is defined by $g(x) = \\arcsin\\left(\\frac{x^2-1}{x^2+1}\\right)$, $x \\in \\mathbb{R}$, $x \\ge 0$.\n(d) Find an expression for $g^{-1}(x)$, justifying your answer. [5]\n(e) State the domain of $g^{-1}$. [1]\n(f) Sketch the graph of $y = g^{-1}(x)$, clearly indicating any asymptotes with their equations and stating the values of any axes intercepts. [3]"
+  }
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "exam_id": "math-2001-N-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.13",
+    "3.14",
+    "3.17",
+    "1.16"
+   ],
+   "text_clean": "1. [Maximum mark: 13]\n(a) Solve the following system of linear equations\n$x + 3y - 2z = -6$\n$2x + y + 3z = 7$\n$3x - y + z = 6$. [3 marks]\n(b) Find the vector $\\mathbf{v} = (\\mathbf{i} + 3\\mathbf{j} - 2\\mathbf{k}) \\times (2\\mathbf{i} + \\mathbf{j} + 3\\mathbf{k})$. [3 marks]\n(c) If $\\mathbf{a} = \\mathbf{i} + 3\\mathbf{j} - 2\\mathbf{k}$, $\\mathbf{b} = 2\\mathbf{i} + \\mathbf{j} + 3\\mathbf{k}$ and $\\mathbf{u} = m\\mathbf{a} + n\\mathbf{b}$ where $m$, $n$ are scalars, and $\\mathbf{u} \\neq 0$, show that $\\mathbf{v}$ is perpendicular to $\\mathbf{u}$ for all $m$ and $n$. [3 marks]\n(d) The line $l$ lies in the plane $3x - y + z = 6$, passes through the point $(1, -1, 2)$ and is perpendicular to $\\mathbf{v}$. Find the equation of $l$. [4 marks]",
+   "note": "ms crop fixed via override (top row of matrix equation was cut off)",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.6",
+    "5.11",
+    "3.8"
+   ],
+   "text_clean": "2. [Maximum mark: 10]\n(i) Let $y = \\sin(kx) - kx\\cos(kx)$, where $k$ is a constant.\nShow that $\\frac{dy}{dx} = k^2 x \\sin(kx)$. [3 marks]\n(ii) A particle is moving along a straight line so that $t$ seconds after passing through a fixed point O on the line, its velocity $v(t)$ m s$^{-1}$ is given by $v(t) = t\\sin\\left(\\frac{\\pi}{3}t\\right)$.\n(a) Find the values of $t$ for which $v(t) = 0$, given that $0 \\le t \\le 6$. [3 marks]\n(b) (i) Write down a mathematical expression for the total distance travelled by the particle in the first six seconds after passing through O.\n(ii) Find this distance. [4 marks]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.1",
+    "2.13",
+    "2.3",
+    "5.8"
+   ],
+   "text_clean": "3. [Maximum mark: 13]\nThe line segment [AB] has length $l$, gradient $m$, $(0 < m < 1)$, and passes through the point $(0, 1)$. It meets the $x$-axis at A and the line $y = x$ at B, as shown in the diagram.\n[Diagram: axes with origin O; line $y=x$ through O; segment from A on the negative x-axis through (0, 1) to B on $y=x$]\n(a) Find the coordinates of A and B in terms of $m$. [4 marks]\n(b) Show that $l^2 = \\frac{m^2+1}{m^2(1-m)^2}$. [3 marks]\n(c) Sketch the graph of $y = \\frac{x^2+1}{x^2(1-x)^2}$, for $x \\neq 0$, $x \\neq 1$, indicating any asymptotes and the coordinates of any maximum or minimum points. [4 marks]\n(d) Find the value of $m$ for which $l$ is a minimum, and find this minimum value of $l$. [2 marks]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.15",
+    "1.L1",
+    "2.12"
+   ],
+   "text_clean": "4. [Maximum mark: 17]\n(i) Consider the sequence $\\{a_n\\} = \\{1, 1, 2, 3, 5, 8, 13, \\ldots\\}$ where $a_1 = a_2 = 1$ and $a_{n+1} = a_n + a_{n-1}$ for all integers $n \\ge 2$.\nGiven the matrix $Q = \\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix}$, use the principle of mathematical induction to prove that $Q^n = \\begin{pmatrix} a_{n+1} & a_n \\\\ a_n & a_{n-1} \\end{pmatrix}$ for all integers $n \\ge 2$. [7 marks]\n(ii) (a) Express $z^5 - 1$ as a product of two factors, one of which is linear. [2 marks]\n(b) Find the zeros of $z^5 - 1$, giving your answers in the form $r(\\cos\\theta + i\\sin\\theta)$ where $r > 0$ and $-\\pi < \\theta \\le \\pi$. [3 marks]\n(c) Express $z^4 + z^3 + z^2 + z + 1$ as a product of two real quadratic factors. [5 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.8",
+    "1.8"
+   ],
+   "text_clean": "5. [Maximum mark: 17]\nTwo women, Ann and Bridget, play a game in which they take it in turns to throw an unbiased six-sided die. The first woman to throw a '6' wins the game. Ann is the first to throw.\n(a) Find the probability that\n(i) Bridget wins on her first throw;\n(ii) Ann wins on her second throw;\n(iii) Ann wins on her $n^{\\text{th}}$ throw. [6 marks]\n(b) Let $p$ be the probability that Ann wins the game. Show that $p = \\frac{1}{6} + \\frac{25}{36}p$. [4 marks]\n(c) Find the probability that Bridget wins the game. [2 marks]\n(d) Suppose that the game is played six times. Find the probability that Ann wins more games than Bridget. [5 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L6",
+    "4.8",
+    "4.L4",
+    "4.L7",
+    "4.9",
+    "4.L5"
+   ],
+   "text_clean": "6. [Maximum mark: 30]\n(i) Roger uses public transport to go to school each morning. The time he waits each morning for the transport is normally distributed with a mean of 15 minutes and a standard deviation of 3 minutes.\n(a) On a specific morning, what is the probability that Roger waits more than 12 minutes? [3 marks]\n(b) During a particular week (Monday–Friday), what is the probability that\n(i) his total waiting time does not exceed 65 minutes? [3 marks]\n(ii) he waits less than 12 minutes on at least three days of the week? [4 marks]\n(iii) his average daily waiting time is more than 13 minutes? [3 marks]\n(ii) An airline is considering banning smoking on its short-distance flights, but is concerned about losing customers. They therefore decide to introduce a 'no-smoking' policy for a trial period of six months.\nRandom samples of 200 flights were chosen during the six months before the trial and during the six month trial period, and the number of passengers ($n$) on each flight was recorded. The results are given in the following table. (You may assume that the number of passengers per flight is normally distributed).\nnumber of passengers ($n$) | $71 \\le n \\le 75$ | $76 \\le n \\le 80$ | $81 \\le n \\le 85$ | $86 \\le n \\le 90$ | $91 \\le n \\le 95$ | $96 \\le n \\le 100$\nnumber of flights before trial | 0 | 15 | 47 | 52 | 64 | 22\nnumber of flights during trial | 2 | 20 | 50 | 74 | 43 | 11\n(a) Calculate a 95% confidence interval for the average reduction in the number of passengers after the introduction of the policy. [4 marks]\n(b) Is the new policy producing a reduction in the average number of passengers per flight? Use a 5% level of significance. [3 marks]\n(iii) In a computer assembly shop it is claimed that the quality of a part depends on the day it is produced. To test this claim, a random sample of 500 parts is selected, and each part is classified according to the day it was produced and its quality rating. The data is shown in the table below.\nQuality \\ Day Produced | Monday | Tuesday | Wednesday | Thursday | Friday\nSuperior | 44 | 74 | 79 | 72 | 31\nGood | 14 | 25 | 27 | 24 | 10\nAverage | 15 | 20 | 20 | 23 | 9\nMediocre | 3 | 5 | 5 | 0 | 0\nTest at the 5% level of significance whether the claim is valid. Write down your assumptions and mention any restrictions you may need to impose on the data. [10 marks]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.2",
+    "7.9",
+    "1.L1"
+   ],
+   "text_clean": "7. [Maximum mark: 30]\n(i) (a) Prove that the set of matrices of the form $\\begin{pmatrix} 1 & a & b \\\\ 0 & 1 & c \\\\ 0 & 0 & 1 \\end{pmatrix}$, where $a, b, c \\in \\mathbb{R}$, is a group under matrix multiplication. [7 marks]\n(b) Show that this group is Abelian if and only if there exists a real constant $k$ such that $c = ka$. [4 marks]\n(ii) Let $A = \\{a, b, c, d, e, f\\}$, and $R$ be a relation on $A$ defined by the matrix below.\n$\\begin{pmatrix} 1&0&1&0&1&0 \\\\ 0&1&0&1&0&0 \\\\ 1&0&1&0&1&0 \\\\ 0&1&0&1&0&0 \\\\ 1&0&1&0&1&0 \\\\ 0&0&0&0&0&1 \\end{pmatrix}$\n(Note that a '1' in the matrix signifies that the element in the corresponding row is related to the element in the corresponding column, for example $dRb$ because there is a '1' on the intersection of the $d$-row and the $b$-column).\n(a) Assuming that $R$ is transitive, verify that $R$ is an equivalence relation. [3 marks]\n(b) Give the partition of $A$ corresponding to $R$. [4 marks]\n(iii) (a) In any group, show that if the elements $x$, $y$, and $xy$ have order 2, then $xy = yx$. [5 marks]\n(b) Show that the inverse of each element in a group is unique. [3 marks]\n(c) Let $G$ be a group. Show that the correspondence $x \\leftrightarrow x^{-1}$ is an isomorphism from $G$ onto $G$ if and only if $G$ is abelian. [4 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.10",
+    "6.9"
+   ],
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "(i) sorting algorithm (merge/bubble sort, 5 marks) has no taxonomy code; left untagged",
+   "text_clean": "8. [Maximum mark: 30]\n(i) Use an appropriate sorting algorithm to sort $\\{4, 3, 2, 5, 1, 8, 7, 6\\}$ into ascending order. Show all the steps used by the algorithm. [5 marks]\n(ii) The diagram shows a weighted graph with vertices A, B, C, D, E and F.\n[Diagram: weighted graph with edges AB = 3, AC = 7, BC = 2, BD = 6, CD = 1, CE = 6, DE = 2, DF = 8, EF = 5]\nUse Dijkstra's Algorithm to find the length of the shortest path between the vertices A and F. Show all the steps used by the algorithm and draw the path. [6 marks]\n(iii) Let $a_n = pa_{n-1} + qa_{n-2}$, $n \\ge 2$, be a second-order difference equation with constant coefficients $p$ and $q$.\n(a) Show that if $r$ is a root of the characteristic polynomial and $k$ is any constant, then $a_n = kr^n$ satisfies the given difference equation for $n \\ge 2$. [5 marks]\n(b) Show that if $b_n$ and $c_n$ both satisfy the given difference equation for $n \\ge 2$, then $a_n = b_n + c_n$ also satisfies the given equation. [4 marks]\n(c) Use the results above to prove that if $r_1$ and $r_2$ are the zeros of the polynomial $x^2 - px - q$, where $r_1 \\neq r_2$, then the solution of the given difference equation is $a_n = k_1 r_1^n + k_2 r_2^n$. [4 marks]\n(d) Solve the difference equation $a_n = a_{n-1} + 6a_{n-2}$, $n \\ge 2$, with $a_0 = 1$, and $a_1 = 3$. [6 marks]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L3",
+    "5.L4",
+    "5.L1",
+    "5.15",
+    "5.8",
+    "5.13",
+    "3.7"
+   ],
+   "text_clean": "9. [Maximum mark: 30]\nConsider the function $f(x) = x^{\\frac{1}{x}}$, where $x \\in \\mathbb{R}^+$.\n(i) (a) Show that the derivative $f'(x) = f(x)\\left(\\frac{1 - \\ln x}{x^2}\\right)$. [3 marks]\n(b) Sketch the function $f(x)$, showing clearly the local maximum of the function and its horizontal asymptote. You may use the fact that $\\lim_{x\\to\\infty} \\frac{\\ln x}{x} = 0$. [5 marks]\n(c) Find the Taylor expansion of $f(x)$ about $x = e$, up to the second degree term, and show that this polynomial has the same maximum value as $f(x)$ itself. [5 marks]\n(ii) Determine whether the series $\\sum_{n=1}^{\\infty} \\left(\\frac{1}{n^{1+\\frac{1}{n}}}\\right)$ converges. [4 marks]\n(iii) Let $g(x) = x^m (x - 1)^n$, where $m$ and $n$ are positive integers. Show using Rolle's theorem that there is a number $c \\in \\,]0, 1[$ which divides the interval $[0, 1]$ in the ratio $m : n$. [5 marks]\n(iv) Let $h(x) = e^{\\cos x}$.\n(a) Show that the area $A$ enclosed by the curve $h(x)$, the $x$-axis, and the lines $x = -10\\pi$ and $x = 20\\pi$ is equal to $15\\int_0^{2\\pi} h(x)\\,dx$. [2 marks]\n(b) Find the number of sub-intervals required for the trapezium rule to yield an error less than 0.15 when evaluating $A$.\n(You may assume that the error in evaluating $\\int_a^b h(x)\\,dx$ by the trapezium rule with $n$ sub-intervals is of the form $\\frac{(b-a)^3}{12n^2} h''(c)$, where $a < c < b$.) [6 marks]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "8"
+   ],
+   "subtopics": [
+    "8.1"
+   ],
+   "text_clean": "10. [Maximum mark: 30]\nThe following diagram shows a circle, centre O and diameter [ED]. (CAX) and (FD) are tangents to the circle at A and D respectively. (AB) is perpendicular to (DE).\n[Diagram: circle centre O, diameter [ED] extended to C; tangent line X–A–F–C touching circle at A; tangent at D meets it at F; AB perpendicular to ED with B between O and D; angles $\\alpha$ at E, $\\beta, \\gamma, \\delta, \\theta$ at A, $\\mu, \\lambda$ at D]\nLet $\\hat{AEO} = \\alpha$, $\\hat{EAX} = \\beta$, $\\hat{EAB} = \\gamma$, $\\hat{BAD} = \\delta$, $\\hat{DAF} = \\theta$, $\\hat{BDA} = \\lambda$, $\\hat{ADF} = \\mu$. Also, $BD = p$, $EB = q$, where $q > p$.\n(a) Show that triangle AFD is isosceles. [2 marks]\n(b) Show that\n(i) (AD) bisects angle BAC;\n(ii) (AE) bisects angle BAX. [6 marks]\n(c) Show that {E, D, B, C} is a harmonic division. [4 marks]\n(d) Prove that $BC = \\frac{2pq}{q-p}$. [3 marks]\n(e) Prove that the circle with diameter [AO] is the nine-point circle of triangle AED. [8 marks]\n(f) The lines joining the points D and E to the centre of the nine-point circle intersect the lines (AE) and (AD) at P and Q respectively. Show that (PQ) is parallel to (DE). [7 marks]",
+   "answer_status": "ok"
+  }
+ }
+}

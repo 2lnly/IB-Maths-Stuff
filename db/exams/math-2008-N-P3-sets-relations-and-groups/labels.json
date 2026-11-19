@@ -1,0 +1,37 @@
+{
+  "exam_id": "math-2008-N-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.1"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 12]\n$A$, $B$, $C$ and $D$ are subsets of $\\mathbb{Z}$.\n$A=\\{m \\mid m \\text{ is a prime number less than } 15\\}$\n$B=\\{m \\mid m^4=8m\\}$\n$C=\\{m \\mid (m+1)(m-2)<0\\}$\n$D=\\{m \\mid m^2<2m+4\\}$\n(a) List the elements of each of these sets. [4 marks]\n(b) Determine, giving reasons, which of the following statements are true and which are false.\n(i) $n(D)=n(B)+n(B\\cup C)$\n(ii) $D\\setminus B\\subset A$\n(iii) $B\\cap A'=\\varnothing$\n(iv) $n(B\\Delta C)=2$ [8 marks]"
+    },
+    "2": {
+      "topics": ["7"],
+      "subtopics": ["7.4"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 10]\nA binary operation is defined on $\\{-1, 0, 1\\}$ by\n$A\\odot B=\\begin{cases}-1, & \\text{if } |A|<|B| \\\\ 0, & \\text{if } |A|=|B| \\\\ 1, & \\text{if } |A|>|B|.\\end{cases}$\n(a) Construct the Cayley table for this operation. [3 marks]\n(b) Giving reasons, determine whether the operation is\n(i) closed;\n(ii) commutative;\n(iii) associative. [7 marks]"
+    },
+    "3": {
+      "topics": ["7"],
+      "subtopics": ["7.3", "7.4"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 10]\nTwo functions, $F$ and $G$, are defined on $A=\\mathbb{R}\\setminus\\{0, 1\\}$ by\n$F(x)=\\frac{1}{x}$, $G(x)=1-x$, for all $x\\in A$.\n(a) Show that under the operation of composition of functions each function is its own inverse. [3 marks]\n(b) $F$ and $G$ together with four other functions form a closed set under the operation of composition of functions.\nFind these four functions. [7 marks]"
+    },
+    "4": {
+      "topics": ["7", "1"],
+      "subtopics": ["7.5", "1.13"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 13]\nDetermine, giving reasons, which of the following sets form groups under the operations given below. Where appropriate you may assume that multiplication is associative.\n(a) $\\mathbb{Z}$ under subtraction. [2 marks]\n(b) The set of complex numbers of modulus 1 under multiplication. [4 marks]\n(c) The set $\\{1, 2, 4, 6, 8\\}$ under multiplication modulo 10. [2 marks]\n(d) The set of rational numbers of the form\n$\\frac{3m+1}{3n+1}$, where $m, n\\in\\mathbb{Z}$\nunder multiplication. [5 marks]"
+    },
+    "5": {
+      "topics": ["7", "2"],
+      "subtopics": ["7.3", "2.16"],
+      "answer_status": "ok",
+      "add_flags": ["topic-uncertain"],
+      "note": "Composition/range of functions on Z x Z (7.3); (b) modulus equation (2.16); (c) integer solutions of m^2-n^2=p by factorisation (no specific subtopic).",
+      "text_clean": "5. [Maximum mark: 15]\nThree functions mapping $\\mathbb{Z}\\times\\mathbb{Z}\\to\\mathbb{Z}$ are defined by\n$f_1(m, n)=m-n+4$; $f_2(m, n)=|m|$; $f_3(m, n)=m^2-n^2$.\nTwo functions mapping $\\mathbb{Z}\\to\\mathbb{Z}\\times\\mathbb{Z}$ are defined by\n$g_1(k)=(2k, k)$; $g_2(k)=(k, |k|)$.\n(a) Find the range of\n(i) $f_1\\circ g_1$;\n(ii) $f_3\\circ g_2$. [4 marks]\n(b) Find all the solutions of $f_1\\circ g_2(k)=f_2\\circ g_1(k)$. [4 marks]\n(c) Find all the solutions of $f_3(m, n)=p$ in each of the cases $p=1$ and $p=2$. [7 marks]"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2015-M-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.4", "7.6", "7.5", "7.8", "7.7"],
+      "text_clean": "1. [Maximum mark: 13]\nConsider the set $S_3=\\{p, q, r, s, t, u\\}$ of permutations of the elements of the set $\\{1, 2, 3\\}$, defined by\n$p=\\begin{pmatrix}1&2&3\\\\1&2&3\\end{pmatrix}$, $q=\\begin{pmatrix}1&2&3\\\\1&3&2\\end{pmatrix}$, $r=\\begin{pmatrix}1&2&3\\\\3&2&1\\end{pmatrix}$,\n$s=\\begin{pmatrix}1&2&3\\\\2&1&3\\end{pmatrix}$, $t=\\begin{pmatrix}1&2&3\\\\2&3&1\\end{pmatrix}$, $u=\\begin{pmatrix}1&2&3\\\\3&1&2\\end{pmatrix}$.\nLet $\\circ$ denote composition of permutations, so $a\\circ b$ means $b$ followed by $a$. You may assume that $(S_3, \\circ)$ forms a group.\n(a) Complete the following Cayley table [5]\n[Table: Cayley table with rows/columns p, q, r, s, t, u; given entries:]\n$\\circ$ | p | q | r | s | t | u\np | | | | | |\nq | | | t | | | s\nr | | u | | t | s | q\ns | | t | u | | | r\nt | | s | q | r | |\nu | | r | s | q | |\n(b) (i) State the inverse of each element.\n(ii) Determine the order of each element. [6]\n(c) Write down the subgroups containing\n(i) $r$,\n(ii) $u$. [2]"
+    },
+    "2": {
+      "topics": ["7", "6"],
+      "subtopics": ["7.4", "7.8", "7.5", "6.4"],
+      "text_clean": "2. [Maximum mark: 10]\nThe binary operation $*$ is defined for $x, y \\in S=\\{0, 1, 2, 3, 4, 5, 6\\}$ by\n$x*y=(x^3y-xy)\\bmod 7$.\n(a) Find the element $e$ such that $e*y=y$, for all $y\\in S$. [2]\n(b) (i) Find the least solution of $x*x=e$.\n(ii) Deduce that $(S, *)$ is not a group. [5]\n(c) Determine whether or not $e$ is an identity element. [3]"
+    },
+    "3": {
+      "topics": ["7", "6"],
+      "subtopics": ["7.2", "6.4", "6.1"],
+      "text_clean": "3. [Maximum mark: 12]\nThe relation $R$ is defined on $\\mathbb{Z}$ by $xRy$ if and only if $x^2y\\equiv y \\bmod 6$.\n(a) Show that the product of three consecutive integers is divisible by 6. [2]\n(b) Hence prove that $R$ is reflexive. [3]\n(c) Find the set of all $y$ for which $5Ry$. [3]\n(d) Find the set of all $y$ for which $3Ry$. [2]\n(e) Using your answers for (c) and (d) show that $R$ is not symmetric. [2]"
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.3"],
+      "text_clean": "4. [Maximum mark: 9]\nLet $X$ and $Y$ be sets. The functions $f: X\\to Y$ and $g: Y\\to X$ are such that $g\\circ f$ is the identity function on $X$.\n(a) Prove that\n(i) $f$ is an injection,\n(ii) $g$ is a surjection. [6]\n(b) Given that $X=\\mathbb{R}^+\\cup\\{0\\}$ and $Y=\\mathbb{R}$, choose a suitable pair of functions $f$ and $g$ to show that $g$ is not necessarily a bijection. [3]"
+    },
+    "5": {
+      "topics": ["7"],
+      "subtopics": ["7.9", "7.5", "7.8"],
+      "text_clean": "5. [Maximum mark: 16]\nConsider the sets\n$G=\\left\\{\\frac{n}{6^i} \\mid n\\in\\mathbb{Z}, i\\in\\mathbb{N}\\right\\}$, $H=\\left\\{\\frac{m}{3^j} \\mid m\\in\\mathbb{Z}, j\\in\\mathbb{N}\\right\\}$.\n(a) Show that $(G, +)$ forms a group where $+$ denotes addition on $\\mathbb{Q}$. Associativity may be assumed. [5]\n(b) Assuming that $(H, +)$ forms a group, show that it is a proper subgroup of $(G, +)$. [4]\nThe mapping $\\phi: G\\to G$ is given by $\\phi(g)=g+g$, for $g\\in G$.\n(c) Prove that $\\phi$ is an isomorphism. [7]"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+ "exam_id": "math-1998-N-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.16",
+    "3.17",
+    "3.14"
+   ],
+   "text_clean": "1. [Maximum mark: 16]\nThe equations of two lines $L_1$ and $L_2$ are\n$L_1$: $\\vec r = \\vec i - 20\\vec j - 13\\vec k + t(7\\vec i + \\vec k)$, where $t$ is a scalar;\n$L_2$: $\\frac{x+30}{2} = \\frac{y+39}{1} = \\frac{2-3z}{2}$.\nThe equations of two planes $P_1$ and $P_2$ are\n$P_1$: $6x + 3y - 2z = 12$;\n$P_2$: $\\vec r = 22\\vec i + \\lambda(\\vec i + \\vec j) + \\mu(\\vec i - 2\\vec k)$, where $\\lambda$ and $\\mu$ are scalars.\n(a) Find the vector cross product $(\\vec i + \\vec j) \\times (\\vec i - 2\\vec k)$. [3 marks]\n(b) (i) Write down vectors $\\vec n_1, \\vec n_2$ which are normal to the planes $P_1$, $P_2$ respectively.\n(ii) Hence, or otherwise, find the acute angle between the planes correct to the nearest tenth of a degree. [5 marks]\n(c) Show that $L_2$ is normal to $P_1$. [3 marks]\n(d) (i) Find the coordinates of the point of intersection of $L_2$ and $P_1$.\n(ii) Hence, or otherwise, show that the two lines and the two planes all have a point in common. [5 marks]"
+  },
+  "2": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.8",
+    "2.3",
+    "2.12",
+    "5.17"
+   ],
+   "text_clean": "2. [Maximum mark: 24]\nConsider the polynomial $f(x) = x^3 - cx^2 - 4x + 4c$, where $-2 < c < 2$.\n(a) Show that $f(c) = 0$ for all values of $c$. [2 marks]\n(b) Express $f(x)$ as a product of three linear factors. [3 marks]\n(c) Draw a neat sketch of the graph of $y = f(x)$, clearly indicating the $x$-intercepts. [5 marks]\n(d) Show that the total area, $A$, enclosed by the curve $y = f(x)$ and the $x$-axis is given by\n$A = 8 + 4c^2 - \\frac{1}{6}c^4$. [5 marks]\n(e) Find the value of $c$, $-2 < c < 2$, for which $A$ is a minimum. [5 marks]\n(f) Calculate the volume generated when the region enclosed by the graph of $y = f(x)$ and the $x$-axis between $x = c$ and $x = 2$, for the value of $c$ found in part (e), is rotated through $360^\\circ$ about the $x$-axis. [4 marks]"
+  },
+  "3": {
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.13",
+    "4.7",
+    "1.10",
+    "1.2"
+   ],
+   "text_clean": "3. [Maximum mark: 24]\n(i) A packet of twelve light bulbs contains three defective bulbs. Two bulbs are selected at random from the packet.\n(a) Show that the probability that neither of these bulbs is defective is $\\frac{6}{11}$. [3 marks]\n(b) Calculate the probability that exactly one of the first two bulbs selected is defective. [4 marks]\nThe packet is either accepted or rejected according to the following process. If neither of the first two bulbs selected is defective, the packet is accepted. If both of the first two bulbs selected are defective, the packet is rejected. If exactly one of the first two bulbs selected is defective, a third bulb is selected from the packet. If this bulb is found to be defective, the packet is rejected; otherwise the packet is accepted.\n(c) Given that exactly one of the first two bulbs selected is defective, find the probability that the third bulb selected is non-defective. [2 marks]\n(d) Find the probability that the packet is finally accepted. [4 marks]\n(e) If the packet is finally accepted, find the probability that one of the first two bulbs selected was in fact defective. [4 marks]\n(ii) A discrete probability distribution is defined by\n$P(X = x) = kx$\nwhere $x = 1, 2, 3, \\ldots, n$, and $k$ is a constant.\n(a) Show that $k = \\frac{2}{n(n+1)}$. [3 marks]\n(b) Using the result $\\sum_{r=1}^{n} r^2 = \\frac{1}{6}n(n+1)(2n+1)$, find the mean of the distribution in terms of $n$. [4 marks]"
+  },
+  "4": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.L1",
+    "1.16"
+   ],
+   "text_clean": "4. [Maximum mark: 16]\n(a) Find all three solutions of the equation $z^3 = 1$, where $z$ is a complex number. [4 marks]\n(b) If $z = \\omega$ is the solution of the equation $z^3 = 1$ which has the smallest positive argument, show that $1 + \\omega + \\omega^2 = 0$. [3 marks]\n(c) Find the matrix product\n$\\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & \\omega & \\omega^2 \\\\ 1 & \\omega^2 & \\omega \\end{pmatrix}\\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & \\omega^2 & \\omega \\\\ 1 & \\omega & \\omega^2 \\end{pmatrix}$\ngiving your answer in its simplest numerical form (that is, not in terms of $\\omega$). [5 marks]\n(d) Solve the system of simultaneous equations\n$x + y + z = 3$\n$x + \\omega y + \\omega^2 z = -3$\n$x + \\omega^2 y + \\omega z = -3$\ngiving your answer in numerical form (that is, not in terms of $\\omega$). [4 marks]"
+  },
+  "5": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.9",
+    "7.4",
+    "7.6"
+   ],
+   "text_clean": "5. [Maximum mark: 40]\n(i) (a) Consider the set $S = \\{2, 4, 6, 8\\}$. If $m$ and $n$ are elements of $S$, then $m * n$ is defined as the smallest non-negative remainder when the product $mn$ is divided by 10.\nCopy and complete the following operation table.\n[Table: Cayley table for $*$ with rows and columns 2, 4, 6, 8; entries blank]\nExplain why $(S, *)$ is a group. (You may assume that $S$ is associative under $*$.) [6 marks]\n(b) Is $(S, *)$ cyclic? If so, name a generator. [3 marks]\n(ii) Consider the set $T$ of all real numbers excluding $-1$. Let $\\circ$ be an operation on members of $T$ defined by\n$a \\circ b = a + ab + b$.\n(a) Show that $T$ is closed under the operation $\\circ$.\nThat is, show that if $a \\neq -1$ and $b \\neq -1$, then $a + ab + b \\neq -1$. [5 marks]\n(b) Prove that $(T, \\circ)$ is a group, stating the identity element and giving the inverse of the element $a$. [10 marks]\n(c) Solve the equation\n$2 \\circ (x \\circ (-3)) = 5$\nwhere $x \\in T$. [6 marks]\n(iii) (a) Define what is meant by saying that two groups $(G, \\#)$ and $(H, \\bullet)$ are isomorphic. [4 marks]\n(b) Let $\\mathbb{R}^+$ denote the set of all positive real numbers. By considering the one-to-one correspondence $\\phi: \\mathbb{R} \\to \\mathbb{R}^+$ where $\\phi(x) = e^x$, show that the group of real numbers under addition is isomorphic to the group of positive real numbers under multiplication. [6 marks]"
+  },
+  "6": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.7",
+    "6.6",
+    "6.11"
+   ],
+   "text_clean": "6. [Maximum mark: 40]\n(i) Consider the graph $G$ given below, where $v_1, v_2, v_3, v_4, v_5$ are vertices connected by edges $e_1, e_2, e_3, e_4, e_5, e_6, e_7, e_8, e_9$.\n[Diagram: graph G; $e_1$ joins $v_1v_2$, $e_4$ joins $v_1v_3$, $e_2$ and $e_3$ are two curved edges joining $v_1v_4$, $e_6$ joins $v_2v_4$, $e_5$ joins $v_3v_4$, $e_7$ and $e_8$ are two edges joining $v_4v_5$, $e_9$ is a loop at $v_5$]\n(a) Write the adjacency matrix $A$ of the graph $G$ above with respect to the ordering of the vertices indicated. [4 marks]\n(b) Write the vertex-edge incidence matrix $B$ of the graph $G$ above with respect to the orderings of the vertices and edges indicated. [4 marks]\n(c) How many different walks of length 4 are there in $G$ which start at $v_4$ and end at $v_5$?\n[Note: $v_4, e_2, v_1, e_2, v_4, e_7, v_5, e_9, v_5$ is such a walk.] [4 marks]\n(ii) At a certain seaside resort, islands $A$ and $B$ are connected to each other and to the mainland $C$ by a system of four bridges as illustrated below.\n[Diagram: island A joined to mainland C by two bridges, island B joined to mainland C by one bridge, and A joined to B by one bridge]\n(a) The resort manager wishes to add new bridges to the system, as few as necessary, so that people will be able to walk from the mainland across each bridge exactly once and end up back on the mainland. How many new bridges must be built and which pairs of the land masses $A$, $B$ and $C$ will be connected by these new bridges? [4 marks]\n(b) Before the resort manager carries out the plan in part (a), the owner of a restaurant on island $B$ convinces him that it will be far better if people, starting from the mainland $C$, walk across each bridge exactly once and end up on island $B$, in need of refreshment. Which bridge, or bridges, as few as necessary, between which of the land masses, will make such a walk possible? [4 marks]\n(iii) (a) Explain what is meant by a complete bipartite graph, $\\kappa_{m,n}$. [3 marks]\n(b) Draw the graph of $\\kappa_{4,4}$. [3 marks]\n(iv) A simple graph is a graph with no loops or multiple edges. A sequence of non-negative integers is called graphic if there exists a simple graph whose vertices have precisely the terms of the sequence as the degrees of its vertices.\nDecide, stating your reasons, whether or not each of the following sequences is graphic:\n(a) $1, 2, 2, 3, 4, 5$; [3 marks]\n(b) $0, 4, 4, 5, 5$. [3 marks]\n(v) (a) In a certain group of eight people, each is acquainted with at least three of the others. Is it possible to seat these eight people around a large circular table so that no one is seated next to a stranger? Justify your answer with careful reasoning. [4 marks]\n(b) Repeat part (a) if each person is acquainted with at least four of the others. [4 marks]"
+  },
+  "7": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.3",
+    "4.L5",
+    "4.L7",
+    "4.L1",
+    "4.L6"
+   ],
+   "text_clean": "7. [Maximum mark: 40]\n(i) The number of trucks arriving at a warehouse to be unloaded is known to have a Poisson distribution. If, on average, three trucks arrive per hour to be unloaded, find the probability that exactly seven trucks will arrive between the hours of 09:00 and 11:00 on a given Monday. [4 marks]\n(ii) Suppose that it is known that a large can of a certain paint will cover, on average, 513.3 square metres of wall with a standard deviation of 31.5 square metres. Find the probability that the mean area of the wall covered by a sample of 40 such cans of paint will be between 510.0 square metres and 520.0 square metres. [6 marks]\n(iii) The number of patients per hour arriving at the emergency room of a hospital was determined over a 100-hour period from hospital records. The information gathered is given in the following table.\nNumber of patients | 12–14 | 15–17 | 18–20 | 21–23 | 24–26 | 27–29\nFrequency | 7 | 21 | 27 | 19 | 18 | 8\n(a) Find the mean and standard deviation of this sample. Give your answers correct to two decimal places. [6 marks]\n(b) Using the mean and standard deviation found in part (a), find a 95% confidence interval for the average number of patients arriving per hour at the emergency room. [4 marks]\n(c) Test at the 5% level of significance, whether the population mean $\\mu$, the average number of patients per hour arriving at the emergency room for treatment, is 20. [6 marks]\n(d) Copy and complete the following table.\n$x$ | $\\le 11$ | 12–14 | 15–17 | 18–20 | 21–23 | 24–26 | 27–29 | $\\ge 30$\nObserved frequencies, $f_o$ | 0 | 7 | 21 | 27 | 19 | 18 | 8 | 0\nExpected frequencies, $f_e$ | | | 19.2 | 26.2 | | | 5.6 | 2.2\nTest, at the 5% level of significance, whether the distribution is Poisson with a mean of 20 patients per hour. [14 marks]",
+   "note": "ms crop fixed via overrides (originally included Q8(i) markscheme)"
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L4",
+    "5.L1"
+   ],
+   "text_clean": "8. [Maximum mark: 40]\n(i) The discrete points $x_0, x_1, x_2, \\ldots, x_{2n}$, with $x_k = a + kh$ and $h = \\frac{b-a}{2n}$, divide the interval $a \\le x \\le b$ into $2n$ equal sub-intervals.\n(a) Using Simpson's rule, write down an estimate, $S_{2n}$, for the definite integral $\\int_a^b f(x)\\,dx$ based on these points, and an expression involving $h$ for the error $\\int_a^b f(x)\\,dx - S_{2n}$, given that $f$ is a function for which $f^{(4)}(x)$ exists on the interval $a \\le x \\le b$. [4 marks]\n(b) The following table lists some values of $x$ and $f(x) = \\frac{1}{x}$ for $2 \\le x \\le 7$.\n$x$ | 2 | 2.625 | 3.25 | 3.875 | 4.5 | 5.125 | 5.75 | 6.375 | 7\n$f(x)$ | 0.5 | 0.3810 | 0.3077 | 0.2581 | 0.2222 | 0.1951 | 0.1739 | 0.1569 | 0.1429\nUsing these values, find the Simpson's rule estimate, $S_8$, of the definite integral $\\int_2^7 \\frac{1}{x}\\,dx$, and show that this estimate is accurate to three decimal places. [5 marks]\n(c) Find an upper bound on the magnitude of the error when Simpson's rule with eight sub-intervals is used to approximate the integral $\\int_2^7 \\frac{1}{x}\\,dx$. [5 marks]\n(d) How many sub-intervals would be required to ensure that the approximation of $\\int_2^7 \\frac{1}{x}\\,dx$ by $S_{2n}$ is correct to four decimal places? [6 marks]\n(ii) Show that the ratio test cannot be used to establish the convergence or divergence of the series\n$1 + \\frac{1}{3} + \\frac{1}{5} + \\frac{1}{7} + \\cdots + \\frac{1}{2k-1} + \\cdots$.\nUse the integral test to determine whether the series converges or diverges. [9 marks]\n(iii) State the mean value theorem for the function $f(x)$ which is defined on the interval $a \\le x \\le b$. Apply the mean value theorem to the function $f(x) = \\arcsin x$ on the interval $0.5 \\le x \\le 0.6$ to show, without the use of a calculator, that\n$\\frac{\\pi}{6} + \\frac{\\sqrt{3}}{15} < \\arcsin 0.6 < \\frac{\\pi}{6} + \\frac{1}{8}$. [11 marks]",
+   "note": "ms crop fixed via overrides (originally missing part (i)); qp image right edge slightly clips '[11 marks]'"
+  }
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "exam_id": "math-2019-M-P3-calculus",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2019,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Calculus",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2019 May Examination Session/Mathematics_paper_3_Calculus__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2019 May Examination Session/Mathematics_paper_3_Calculus__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2219-7208; code M19/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches paper total 50",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2019-M-P3-calculus-q1",
+   "num": "1",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 7]\nA simple model to predict the population of the world is set up as follows. At time t years the\npopulation of the world is x , which can be assumed to be a continuous variable. The rate of\nincrease of x due to births is 0.056x and the rate of decrease of x due to deaths is 0.035x .\nx Show that d\n= 0 021 . x (a) .\b [1]\nd t\n(b) Find a prediction for the number of years it will take for the population of the world\nto double.\b [6]",
+   "ms_text": "d x\n1. (a) 0.056 x − 0.035 x A1 t=\nd\nd x\n0.021 x AG t=\nd\n[1 mark]\n(b) METHOD 1\nd x\n0.021 x t=\nd\nattempt to separate variables M1\n1 d x = 0.021d t A1\n∫ ∫\nx\nln x = 0.021 t ( + c ) A1\nEITHER\nx =Ae0.021t\n⇒2A =Ae0.021t A1\nNote: This A1 is independent of the following marks.\nOR\nt = 0, x = x ⇒ c = ln x\n0 0\n⇒ ln 2 x = 0.021 t + ln x A1\n0 0\nNote: This A1 is independent of the following marks.\nTHEN\n⇒ ln 2 = 0.021t (M1)\n⇒= t 33 years A1\nNote: If a candidate writes t =33.007, so t =34 then award the final A1.\n[6 marks]\nMETHOD 2\nd x\n0.021 x t=\nd\nattempt to separate variables M1\n2 A t 1 d\n∫ x = ∫ 0.021d u A1A1\nA x 0\nNote: Award A1 for correct integrals and A1 for correct limits seen anywhere.\nDo not penalize use of t in place of u.\n2 A t\n[ ln x ] = [ 0.021 u ] A1\nA 0\n⇒ ln 2 = 0.021t (M1)\n⇒= t 33 A1\n[6 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 7]\nA simple model to predict the population of the world is set up as follows. At time $t$ years the population of the world is $x$, which can be assumed to be a continuous variable. The rate of increase of $x$ due to births is $0.056x$ and the rate of decrease of $x$ due to deaths is $0.035x$.\n(a) Show that $\\frac{dx}{dt} = 0.021x$. [1]\n(b) Find a prediction for the number of years it will take for the population of the world to double. [6]"
+  },
+  {
+   "id": "math-2019-M-P3-calculus-q2",
+   "num": "2",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 9]\n1\n2 4 6\n(a) Show that 1 � x � x � x � ... , where | x | < 1 .\b [1] ��\n1 2 x\n1\n(b) Hence write down the first four non-zero terms of the power series for fx ���� 2.\b [2]\n1 4 x\n(c) Using the result in (b), find the first four non-zero terms of the power series for\ng (x) = arctan 2x .\b [6]",
+   "ms_text": "2 4 6 2. (a) S =− 1 x + x − x +Κ\n2 recognition of GP u = 1, r =− x M1\n1\n1\nS AG ∞=+\n2 1 x\nNote: Accept a correct algebraic method such as\n( 1+x2 )1−x2 +x4 −x6 +... ( )=1+x2 −x2 −x4 +x4 +...=1.\n1\nNote: Accept finding the Maclaurin series for only if the first four derivatives and\n2 (1 + x )\ntheir values at x =0 are shown.\nNote: Accept a correct argument based on using the Maclaurin series for arctan x.\n[1 mark]\n1 2 4 6\n(b) 1 x + x − x + Κ x=−\n+ 2 1\nattempt to substitute 2x (M1)\n1\nfx () = =− 14 x 2 + 16 x 4 − 64 x 6 + Κ A1\n2 1 + 4 x\nNote: Accept use of a GP with r =−4x2.\n[2 marks]\n(c) EITHER\n1 1\n∫ d x = arc tan 2 x ( + c ) M1A1\n2 1 + 4 x 2\nOR\nd 2\n( ) arctan 2 x M1A1\n=+ 2\nd x 14 x\nTHEN\n1 arctan 2 2 4 6 x ( + c ) = ( 14 − x + 16 x − 64 x + Κ ) d x\n(M1) ∫\n2\n3 5 7 4 x 16 x 64 x\n= − + − +Κ (A1) x\n3 5 7\nwhen x = 0 arctan 2 x = 0 ⇒ c = 0 R1\n−128x7 (\narctan2x )=2x −8x3 3+32x5 A1\n5 7\nNote: No accuracy marks should be lost due to absence of c.\n[6 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.15",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 9]\n(a) Show that $1 - x^2 + x^4 - x^6 + \\ldots = \\frac{1}{1+x^2}$, where $|x| < 1$. [1]\n(b) Hence write down the first four non-zero terms of the power series for $f(x) = \\frac{1}{1+4x^2}$. [2]\n(c) Using the result in (b), find the first four non-zero terms of the power series for $g(x) = \\arctan 2x$. [6]"
+  },
+  {
+   "id": "math-2019-M-P3-calculus-q3",
+   "num": "3",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 9]\n� n A � 8\nConsider the series � . n � 1\n32\nn � 1\n=1, use the comparison test to show that the series converges.\b\n(a) Given that A [4]\nn\n(b) Given that A = n , determine whether the series diverges or converges.\b [5]",
+   "ms_text": "3. (a) attempt to use the comparison test with any convergent series M1\n8n\nn32n+1<8n (A1)\n32n\n∞ ∞ 8n 8n\nNote: Award A0 for comparing series, eg, ∑ < ∑ . However, subsequent\nn32n+1 32n\nn=1 n=1\nmarks may still be awarded.\nn\n<8 A1\n9\n8\nNote: Award A1 for recognition of a geometric series with r = .\n9\nn ∞\n8\n∑ converges (as it is a geometric series with common ratio r< 1 ) R1\n9 n = 1\nn\nNote: Award R0 for a statement such as “8\nconverges”.\n9\nseries converges by comparison test AG\nNote: Award a maximum of M0A0A0R1, if the limit comparison test is used instead of the\ncomparison test.\n[4 marks]\n(b) attempt to use the ratio test M1\nn + 1 2 n + 1\na ( n + 18 ) 3\n+ n 1 = × A1\n2 n + 3 n a 3 n 8\nn\n8 ( n + 1 ) 8 1\n= = 1 + (M1)\n9 n 9 n\n8\n( ) → as n →∞ A1\n9\nsince 8 1\n9< series converges (by the ratio test) R1\nNote: Award R1 for comparing their limit to 1 and stating a consistent conclusion.\nAward R0 if their limit equals 1.\n[5 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L1",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 9]\nConsider the series $\\sum_{n=1}^{\\infty} \\frac{A \\times 8^n}{3^{2n+1}}$.\n(a) Given that $A = \\frac{1}{n}$, use the comparison test to show that the series converges. [4]\n(b) Given that $A = n$, determine whether the series diverges or converges. [5]"
+  },
+  {
+   "id": "math-2019-M-P3-calculus-q4",
+   "num": "4",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 9]\n� 3 x � 3 tan x � Using L’Hôpital’s rule, find limtan\n.\b [9]\nx � 0 �� sin 3 x � 3 sin x ��",
+   "ms_text": "tan 3 x − 3tan x\n4. lim\nx → 0 sin 3 x − 3sin x\n2 2 sec23x −sec2x 3sec3 x − 3sec x\n=lim lim M1A1A1\nx → 0 3cos3 x − 3cos x x→0 cos3x −cos x\nNote: Award M1for attempt at differentiation using l'Hopital's rule, A1 for numerator,\nA1 for denominator.\nMETHOD 1\nusing l’Hopital’s rule again\n18sec23xtan3x −6sec2xtan x 6sec23xtan3x −2sec2x tan x\n=lim =lim A1A1\nx→0 −9sin3x +3sin x x→0 −3sin3x +sin x\nEITHER\n108sec23xtan23x +54sec43x −12sec2xtan2x −6sec4x\n=lim A1A1\nx→0 −27cos3x +3cosx\nNote: Not all terms in numerator need to be written in final fraction. Award A1\nfor 54sec43x +...−6sec4x −.... However, if the terms are written, they\nmust be correct to award A1.\nattempt to substitute x = 0 M1\n48\n=−\n24\nOR\nd18sec3tan3 2 2 ( x x − 6sec x tan x ) = 48 (M1)A1\nx = 0 d x\nd\n( − 9sin3 x + 3sin x ) =− 24 A1\nd x x = 0\nTHEN\ntan 3 x − 3tan x =−\nlim 2 A1\nx → 0 sin 3 x − 3sin x\nMETHOD 2\n3 3\n−\n2 2 cos3 x cos x\n= M1\nlim3cos3 x → 0\nx − 3cos x\n2 2 cos x − cos3 x\n= A1\nlimcos3cos 2 2 x → 0\nx x ( cos3 x − cos x )\ncos x + cos3 x\n= lim M1A1\n2 2 x → 0 − cos3cos x x\nattempt to substitute x = 0 M1\n2\n=−\n1\n=− 2 A1\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.15",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 9]\nUsing L'Hôpital's rule, find $\\lim_{x \\to 0} \\left( \\frac{\\tan 3x - 3\\tan x}{\\sin 3x - 3\\sin x} \\right)$. [9]"
+  },
+  {
+   "id": "math-2019-M-P3-calculus-q5",
+   "num": "5",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 16]\nd\nxyy 2 2 Consider the differential equation 2 y � x , where x >0 .\nd�\nx\n(a) Solve the differential equation and show that a general solution is x2+ y2= cx where c\nis a positive constant.\b [11]\n(b) Prove that there are two horizontal tangents to the general solution curve and state\ntheir equations, in terms of c .\b [5]\n\b",
+   "ms_text": "2 − 2 d y y x\n= 5. (a)\nd x 2 xy\nlet y = vx M1\nd y d v\n= + v x (A1)\nd x d x\nv +xdv dx=v2x2 −x2 (M1)\n2vx2\nv +xdv dx=v2 −1\n(A1) 2v=v 2−1\n2v\nNote: Or equivalent attempt at simplification.\nxdv dx=−v2 −1 =−v\n2−1 A1\n2v 2v\n2 v d v 1\n=− (M1)\n+ 2 1 v d x x\n2 v 1\n∫ d v = ∫ − d x (A1)\n2 1 + v x\n2 ln1 ( + v ) =− ln x + ln c\nA1A1\nNote: Award A1 for LHS and A1 for RHS and a constant.\n2\ny\nln1+ M1\n=−ln x +lnc\nx\nv =y\nNote: Award M1 for substituting . May be seen at a later stage.\nx\n2\ny c\n1 + = A1\nx x\nNote: Award A1 for any correct equivalent equation without logarithms.\n2 2 x + y = cx\nAG\n[11 marks]\n(b) METHOD 1\n2 − 2 d y y x\n=\nd x 2 xy\ndy\n(for horizontal tangents) M1 dx=0\n( ) ⇒y2=x2 ⇒ y =± x\nEITHER\n2 2 2\nusing x + y = cx ⇒ 2 x = cx M1\nc 2\n2 x − cx = 0 ⇒ x = A1\n2\nNote:Award M1A1 for 2y2=±cy.\nOR\n2 2\nusing implicit differentiation of x + y = cx\nd y\n2 x + y = c M1\n2d\nx\n= − 2 Note: Accept differentiation of y cx x .\nd y c\n⇒ = 0 x A1\nx=\nd 2\nTHEN\nc c\ntangents at y = , y =− A1A1\n2 2\nhence there are two tangents AG\nMETHOD 2\nx 2 + y 2 = cx\n2 2\nc c\n− + 2 = x y M1A1\n2 4\nc c centre\n,0 A1\nthis is a circle radius 2\n2\nhence there are two tangents AG\nc c\ntangents at y = , y =− A1A1\n2 2\n[5 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.4",
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 16]\nConsider the differential equation $2xy\\frac{dy}{dx} = y^2 - x^2$, where $x > 0$.\n(a) Solve the differential equation and show that a general solution is $x^2 + y^2 = cx$ where $c$ is a positive constant. [11]\n(b) Prove that there are two horizontal tangents to the general solution curve and state their equations, in terms of $c$. [5]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,343 @@
+{
+ "exam_id": "math-2008-M-P2-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2008,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_2_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_2_TZ1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2208-7208; code M08/5/MATHL/HP2/ENG/TZ1/XX; marks sum matches expected total 120",
+ "qp_pages": 14,
+ "questions": [
+  {
+   "id": "math-2008-M-P2-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\n5 7 Determine the first three terms in the expansion of ( 12 − x )( 1 + x ) in ascending powers of x.",
+   "ms_text": "1. METHOD 1\n⎛⎞ 5 ⎛⎞ 7\nconstant term: (2) − x 0 x 0 = 1 A1 ⎜⎟ ⎜⎟\n⎝⎠ 0 ⎝⎠ 0\n⎛⎞ ⎛⎞ term in x: 7 5(2)\n⎜⎟ x + ⎜⎟ − x = − 3 x (M1)A1\n1 1 ⎝⎠ ⎝⎠\n⎛⎞ 7 ⎛⎞ 5 ⎛⎞⎛⎞ 7 5\nterm in 2x: x 2 + (2) − x 2 + x (2) − x = − 9 x 2 M1A1 N3 ⎜⎟ ⎜⎟ ⎜⎟⎜⎟\n2 2 1 1 ⎝⎠ ⎝⎠ ⎝⎠⎝⎠\n[5 marks]\nMETHOD 2\n2 ⎛ 54(2) × − x ⎞ ⎛ 7 × 6 ⎞\n5 7 2 (1 − 2)(1 x + x ) =\n⎜ 1 + 5(2) − x + + ... ⎟⎜ 1 + 7 x + x + ... M1M1 ⎟\n2! ⎝ 2 ⎠ ⎝ ⎠\n2 2 = (110 − x + 40 x + ...)(1 + 7 x + 21 x + ...)\n2 2 2 =+ 1 7 x + 21 x − 10 x − 70 x + 40 x + ...\n2 =− 1 3 x − 9 x + ... A1A1A1 N3\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nDetermine the first three terms in the expansion of $(1-2x)^5(1+x)^7$ in ascending powers of $x$."
+  },
+  {
+   "id": "math-2008-M-P2-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\n(a) Sketch the curve fx () = 13 + sin ( 2 x ) , for 0 ≤ x ≤ π . Write down on the graph\nthe values of the x and y intercepts. [4 marks]\ny\n4\n3\n2\n1\nx 0 1 2 3\n(b) By adding one suitable line to your sketch, find the number of solutions to the\nequation π fx () = 4 ( π − x ) . [2 marks]",
+   "ms_text": "2. (a)\nA1A1A1A1\nNote: Award A1 fory-intercept\nA1A1 forx-intercepts\nA1 forshape\n(b) correct line A1\n5 solutions A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.16",
+    "3.7",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "2. [Maximum mark: 6]\n(a) Sketch the curve $f(x)=|1+3\\sin(2x)|$, for $0 \\le x \\le \\pi$. Write down on the graph the values of the $x$ and $y$ intercepts. [4 marks]\n[Graph: blank axes, x from 0 to 3, y from 0 to 4]\n(b) By adding one suitable line to your sketch, find the number of solutions to the equation $\\pi f(x) = 4(\\pi - x)$. [2 marks]"
+  },
+  {
+   "id": "math-2008-M-P2-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\n4\nA ray of light coming from the point ( −132 is travelling in the direction of vector , , ) 1\nand meets the plane π : x + 3 y + 2 z − 24 = 0 . − 2\nFind the angle that the ray of light makes with the plane.",
+   "ms_text": "⎛⎞ 1\n⎜⎟\n3. The normal vector to the plane is 3 . (A1)\n⎜⎟\n⎜⎟\n2 ⎝⎠\nEITHER\nθ is the angle between the line and the normal to the plane.\n⎛ 4 ⎞⎛⎞ 1\n⎜ ⎟⎜⎟\n1 • 3\n⎜ ⎟⎜⎟\n⎜ ⎟⎜⎟ −\n2 2 ⎝ ⎠⎝⎠ 3 ⎛ 3 ⎞\ncos θ = = = (M1)A1A1 ⎜ ⎟\n14 21 14 21 ⎝ 76 ⎠\n� ⇒ θ = 79.9(1.394...) = A1\nThe required angle is 10.1(0.176) � = A1\nOR\nφ is the angle between the line and the plane.\n⎛ 4 ⎞⎛⎞ 1\n⎜ ⎟⎜⎟\n1 • 3\n⎜ ⎟⎜⎟\n⎜ ⎟⎜⎟ −\n⎝ 2 ⎠⎝⎠ 2 3\nφ = = sin (M1)A1A1\n14 21 14 21\n� φ = 10.1 (0.176) = A2\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nA ray of light coming from the point $(-1, 3, 2)$ is travelling in the direction of vector $\\begin{pmatrix}4\\\\1\\\\-2\\end{pmatrix}$ and meets the plane $\\pi: x+3y+2z-24=0$.\nFind the angle that the ray of light makes with the plane."
+  },
+  {
+   "id": "math-2008-M-P2-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nA company produces computer microchips, which have a life expectancy that\nfollows a normal distribution with a mean of 90 months and a standard deviation of\n3.7 months.\n(a) If a microchip is guaranteed for 84 months find the probability that it will fail\nbefore the guarantee ends. [2 marks]\n(b) The probability that a microchip does not fail before the end of the guarantee is\nrequired to be 99 %. For how many months should it be guaranteed? [2 marks]\n(c) A rival company produces microchips where the probability that they will fail\nafter 84 months is 0.88. Given that the life expectancy also follows a normal\ndistribution with standard deviation 3.7 months, find the mean. [2 marks]",
+   "ms_text": "≤ = ≤− = 4. (a) P( X 84) P( Z 1.62...) 0.0524 (M1)A1 N2\nNote: Accept 0.0526.\n(b) P( Z ≤ z ) = 0.01 ⇒ z = − 2.326... (M1)\nP( X ≤ x ) = P( Z ≤ z ) = 0.01 ⇒ z = − 2.326...\nx = 81.4 (accept 81) A1 N2\n(c) P( X ≤ 84) = 0.12 ⇒ z = − 1.1749... (M1)\nmean is 88.3 (accept 88) A1 N2\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nA company produces computer microchips, which have a life expectancy that follows a normal distribution with a mean of 90 months and a standard deviation of 3.7 months.\n(a) If a microchip is guaranteed for 84 months find the probability that it will fail before the guarantee ends. [2 marks]\n(b) The probability that a microchip does not fail before the end of the guarantee is required to be 99 %. For how many months should it be guaranteed? [2 marks]\n(c) A rival company produces microchips where the probability that they will fail after 84 months is 0.88. Given that the life expectancy also follows a normal distribution with standard deviation 3.7 months, find the mean. [2 marks]"
+  },
+  {
+   "id": "math-2008-M-P2-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nFind the vector equation of the line of intersection of the three planes represented by\nthe following system of equations.\n2 x − 7 y + 5 z = 1\n6 x + 3 y − z = − 1\n− 14 x − 23 y + 13 z = 5",
+   "ms_text": "5. METHOD 1\n(from GDC)\n⎛ 1 1 ⎞\n1 0 − ⎜ ⎟\n6 12\n⎜ ⎟\n⎜ 2 1 ⎟\n0 1 − − (M1)\n⎜ ⎟ 3 6\n⎜ ⎟\n⎜ 0 0 0 0 ⎟\n⎜ ⎟\n⎝ ⎠\n1 1\nx + λ = − A1\n6 12\n2 1\ny − λ = − A1\n3 6\n⎛ 1 1 ⎞ ⎛ 1 2 ⎞\nr =− i − j + λ − i + j + k A1A1A1 N3 ⎜ ⎟ ⎜ ⎟\n⎝ 12 6 ⎠ ⎝ 6 3 ⎠\n[6 marks]\nMETHOD 2\n(Elimination method either for equations or row reduction of matrix)\nEliminating one of the variables M1A1\nFinding a point on the line (M1)A1\nFinding the direction of the line M1\nThe vector equation of the line A1 N3\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.16",
+    "3.18",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nFind the vector equation of the line of intersection of the three planes represented by the following system of equations.\n$2x-7y+5z=1$\n$6x+3y-z=-1$\n$-14x-23y+13z=5$"
+  },
+  {
+   "id": "math-2008-M-P2-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\n3 Find the gradient of the tangent to the curve xy 2= cos( π y ) at the point ( −11. ,)",
+   "ms_text": "6. METHOD 1\n3d y d y 2 2\n+ = −π π 3 xy 2 xy sin( y ) A1A1A1\nd x d x\nd y\nAt (1, 1) − , 3 − 2 = 0 M1A1\nd x\nd y 3\nA1 x=\nd 2\n[6 marks]\nMETHOD 2\n3d y d y\n3 xy 2 2 + 2 xy = −π sin( π y ) A1A1A1\nd x d x\n2 2 d y 3 xy\nA1 =−π\n3 d x sin( π y ) − 2 xy\nd y 3(1)(1) − 2 2 3\nAt ( − = = M1A1\n1, 1), d 3\nx −π sin() π− 2(1)(1) − 2\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nFind the gradient of the tangent to the curve $x^3y^2=\\cos(\\pi y)$ at the point $(-1, 1)$."
+  },
+  {
+   "id": "math-2008-M-P2-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nA system of equations is given by\ncos x + cos y =1 2 .\nsin x + sin y =1 4 . .\n(a) For each equation express y in terms of x. [2 marks]\n(b) Hence solve the system for 0 < x < π , 0 < y < π . [4 marks]",
+   "ms_text": "7. (a) y = arccos(1.2 − cos) x A1\n= − y arcsin(1.4 sin) x A1\n(b) The solutions are\nx = 1.26, y = 0.464 A1A1\nx = 0.464, y = 1.26 A1A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.9",
+    "3.8",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nA system of equations is given by\n$\\cos x + \\cos y = 1.2$\n$\\sin x + \\sin y = 1.4$.\n(a) For each equation express $y$ in terms of $x$. [2 marks]\n(b) Hence solve the system for $0 < x < \\pi$, $0 < y < \\pi$. [4 marks]"
+  },
+  {
+   "id": "math-2008-M-P2-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nOnly two international airlines fly daily into an airport. UN Air has 70 flights a day and\nIS Air has 65 flights a day. Passengers flying with UN Air have an 18 % probability\nof losing their luggage and passengers flying with IS Air have a 23 % probability of\nlosing their luggage. You overhear someone in the airport complain about her luggage\nbeing lost.\nFind the probability that she travelled with IS Air.",
+   "ms_text": "8. METHOD 1\n(M1)\nLet P()I be the probability of flying IS Air, P() U be the probability flying UN Air\nand P() L be the probability of luggage lost.\nP( I ∩ L ) ⎛ P(|)P() LI I ⎞\nP(|) IL = orBayes' formula, P(|) IL = (M1) ⎜ ⎟\nP() L P(|)P() LI I + P(| LU )P() U ⎝ ⎠\n65\n×\n0.23135\n= A1A1A1\n70 65\n0.18 × + 0.23 ×\n135 135\n= 299(0.543, accept0.542) = A1\n551\n[6 marks]\nMETHOD 2\nExpected number of suitcases lost by UN Air is 0.1870 × = 12.6 M1A1\nExpected number of suitcases lost by IS Air is 0.2365 × = 14.95 A1\n14.95\nP(|) IL= M1A1\n+ 12.6 14.95\n= 0.543 A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.13",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nOnly two international airlines fly daily into an airport. UN Air has 70 flights a day and IS Air has 65 flights a day. Passengers flying with UN Air have an 18 % probability of losing their luggage and passengers flying with IS Air have a 23 % probability of losing their luggage. You overhear someone in the airport complain about her luggage being lost.\nFind the probability that she travelled with IS Air."
+  },
+  {
+   "id": "math-2008-M-P2-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 6]\nBy using an appropriate substitution find\ntan (ln) y\n∫ d yy , > 0 .\ny",
+   "ms_text": "1\n9. Let u = ln y ⇒ d u = d y A1(A1)\ny\ny tan(ln) d\n∫ y = ∫ tand uu A1\ny\nsin u\n= d u = − lncos u + c A1 ∫\ncos u\nEITHER\ny tan(ln) d\n= − + ∫ y lncos(ln) y c A1A1\ny\nOR\ny tan(ln) d\ny = lnsec(ln) y + c A1A1 ∫\ny\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 6]\nBy using an appropriate substitution find\n$\\int \\frac{\\tan(\\ln y)}{y}\\,dy$, $y>0$."
+  },
+  {
+   "id": "math-2008-M-P2-TZ1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 7]\n2where θ is an acute angle. Find, in its simplest form, the argument of sin ( θ + i1 ( − cos) θ )",
+   "ms_text": "2\n10. ( sin θ + i(1 − cos) θ ) = sin 2 θ − (1 − cos) θ 2 + i2sin θ (1 − cos) θ M1A1\nLet α be the required argument.\n2sin θ (1 − cos) θ\ntan α = M1\n2 θ − − θ 2 sin (1 cos)\nθ − θ 2sin (1 cos)\n= (M1)\n− 2 θ − − θ + 2 θ (1 cos ) (1 2cos cos )\nθ − θ 2sin (1 cos)\n= A1\nθ − θ 2cos(1 cos)\n= tanθ A1\nα = θ A1\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.12",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 7]\nFind, in its simplest form, the argument of $(\\sin\\theta + i(1-\\cos\\theta))^2$ where $\\theta$ is an acute angle."
+  },
+  {
+   "id": "math-2008-M-P2-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 13]\nThe lifts in the office buildings of a small city have occasional breakdowns.\nThe breakdowns at any given time are independent of one another and can be modelled\nusing a Poisson Distribution with mean 0.2 per day.\n(a) Determine the probability that there will be exactly four breakdowns during the\nmonth of June (June has 30 days). [3 marks]\n(b) Determine the probability that there are more than 3 breakdowns during the\nmonth of June. [2 marks]\n(c) Determine the probability that there are no breakdowns during the first five days\nof June. [2 marks]\n(d) Find the probability that the first breakdown in June occurs on June 3rd. [3 marks]\n(e) It costs 1850 Euros to service the lifts when they have breakdowns. Find the\nexpected cost of servicing lifts for the month of June. [1 mark]\n(f) Determine the probability that there will be no breakdowns in exactly 4 out of\nthe first 5 days in June. [2 marks]",
+   "ms_text": "11. (a) mean for 30 days: 30 × 0.2 = 6 . (A1)\n4 6\n− 6 P( X = 4) = e = 0.134 (M1)A1 N3\n4!\n[3 marks]\n− 6 (b) P( X > 3) =− 1 P( X ≤ 3) =− 1 e (1 + 6 + 18 + 36) = 0.849 (M1)A1 N2\n[2 marks]\n(c) EITHER\nmean for five days: 50.2 × = 1 (A1)\n− 1 P( X = 0) = e (0.368) = A1 N2\nOR\nmean for one day: 0.2 (A1)\n− 0.2 5 − 1 P( X = 0) = (e ) = e (0.368) = A1 N2\n[2 marks]\n− 0.2 − 0.2 − 0.2 (d) Required probability = e × e × (1 − e ) M1A1\n= 0.122 A1 N3\n[3 marks]\n(e) Expected cost is 18506 × = 11100 Euros A1\n[1 mark]\n− 0.2 (f) On any one day P( X = 0) = e\n⎛⎞ 5(e\n− 0.2 4 − 0.2 Therefore, )(1 − e ) = 0.407 M1A1 N2\n⎜⎟\n1 ⎝⎠\n[2 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.8",
+    "4.6",
+    "4.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 13]\nThe lifts in the office buildings of a small city have occasional breakdowns. The breakdowns at any given time are independent of one another and can be modelled using a Poisson Distribution with mean 0.2 per day.\n(a) Determine the probability that there will be exactly four breakdowns during the month of June (June has 30 days). [3 marks]\n(b) Determine the probability that there are more than 3 breakdowns during the month of June. [2 marks]\n(c) Determine the probability that there are no breakdowns during the first five days of June. [2 marks]\n(d) Find the probability that the first breakdown in June occurs on June 3rd. [3 marks]\n(e) It costs 1850 Euros to service the lifts when they have breakdowns. Find the expected cost of servicing lifts for the month of June. [1 mark]\n(f) Determine the probability that there will be no breakdowns in exactly 4 out of the first 5 days in June. [2 marks]"
+  },
+  {
+   "id": "math-2008-M-P2-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Total mark: 20]\nPart A [Maximum mark: 12]\nIn triangle ABC, BC = a , AC = b , AB = c and [BD] is perpendicular to [AC].\nB\nA C\nD\n(a) Show that CD = b − c cos A . [1 mark]\n(b) Hence, by using Pythagoras’ Theorem in the triangle BCD, prove the cosine rule\n[4 marks] for the triangle ABC.\n1 3\n∃ 2 [7 marks] (c) If ABC = 60ο, use the cosine rule to show that c = a ± b − a 2.\n2 4\nPart B [Maximum mark: 8]\nS\n35°\nP R\n40°\n20 m\nQ\nThe above three dimensional diagram shows the points P and Q which are respectively\nwest and south-west of the base R of a vertical flagpole RS on horizontal ground.\nThe angles of elevation of the top S of the flagpole from P and Q are respectively 35ο\nand 40ο, and PQ = 20 m .\nDetermine the height of the flagpole.",
+   "ms_text": "12. Part A\n(a) CD = AC − AD = b − c cos A R1AG\n[1 mark]\n(b) METHOD 1\n2 2 2 BC = BD + CD (M1)\n2 = 2 + − 2 a (sin c A ) ( b c cos) A (A1)\n2 2 2 2 2 = c sin A + b − 2 bc cos A + c cos A A1\n2 2 = b + c − 2 bc cos A A1\n[4 marks]\nMETHOD 2\n2 2 2 2 2 BD = AB − AD = BC − CD (M1)(A1)\n2 2 2 2 2 2 2 ⇒ c − c cos A = a − b + 2 bc cos A − c cos A A1\n2 2 2 ⇒ a = b + c − 2 bc cos A A1\n[4 marks]\n(c) METHOD 1\n2 2 2 � 2 2 2 b = a + c − 2 ac cos60 ⇒ b = a + c − ac (M1)A1\n2 2 2 ⇒ c − ac + a − b = 0 M1\n± − 2 − 2 − 2 a ( a ) 4( a b )\n⇒ = c (M1)A1\n2\n2 2 2 2 a ± 4 b − 3 a\na 4 b − 3 a\n= = ± (M1)A1\n2 2 4\n1 3 2 2\n= a ± b − a AG\n2 4\nNote: Candidates can only obtain a maximum of the first three marks if they\nverify that the answer given in the question satisfies the equation.\n[7 marks]\nMETHOD 2\nb 2 = a 2 + c 2 − 2 ac cos60 � ⇒ b 2 = a 2 + c 2 − ac (M1)A1\n2 − = 2 − 2 c ac b a (M1)\n2 2\n⎛ a ⎞ ⎛ a ⎞ 2\n− + = 2 − 2 + c ac ⎜ ⎟ b a ⎜ ⎟ M1A1\n⎝ 2 ⎠ ⎝ 2 ⎠\n2\n⎛ a ⎞ 3 2 2\nc − = b − a (A1) ⎜ ⎟\n⎝ 2 ⎠ 4\na 2 3 2\nc − = ± b − a A1\n2 4\n1 3\n⇒ c = a ± b 2 − a 2 AG\n2 4\n[7 marks]\nSub-Total [12 marks]\nPart B\n� � PR = h tan55, QR = h tan50where RS = h M1A1A1\nUse the cosine rule in triangle PQR. (M1)\n20 2 = h 2 tan55 2 � + h 2 tan50 2 � − 2tan55 h � h tan50cos45 � � A1\n400\nh= 2 (A1)\n2 � 2 � � � � tan55 + tan50 − 2tan55tan50cos45\n= 379.9... (A1)\nh = 19.5 (m) A1\n[8 marks]\nTotal[20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.3",
+    "2.7",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Total mark: 20]\nPart A [Maximum mark: 12]\nIn triangle ABC, $BC=a$, $AC=b$, $AB=c$ and [BD] is perpendicular to [AC].\n[Diagram: triangle ABC with base AC, D on AC, dashed perpendicular BD]\n(a) Show that $CD = b - c\\cos A$. [1 mark]\n(b) Hence, by using Pythagoras' Theorem in the triangle BCD, prove the cosine rule for the triangle ABC. [4 marks]\n(c) If $A\\hat{B}C = 60^\\circ$, use the cosine rule to show that $c = \\frac{1}{2}a \\pm \\sqrt{b^2 - \\frac{3}{4}a^2}$. [7 marks]\nPart B [Maximum mark: 8]\n[Diagram: 3D view of vertical flagpole RS; P and Q on the ground with angles of elevation 35° at P and 40° at Q; PQ = 20 m]\nThe above three dimensional diagram shows the points P and Q which are respectively west and south-west of the base R of a vertical flagpole RS on horizontal ground. The angles of elevation of the top S of the flagpole from P and Q are respectively $35^\\circ$ and $40^\\circ$, and $PQ = 20$ m.\nDetermine the height of the flagpole."
+  },
+  {
+   "id": "math-2008-M-P2-TZ1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 13]\n2 3 2 + A family of cubic functions is defined as f\nk() x = kx − kx + xk , ∈ ′.\n(a) Express in terms of k\n(i) f ′ () x and f ′′ () x ;\nk k\n(ii) the coordinates of the points of inflexion Pk on the graphs of fk . [6 marks]\n(b) Show that all Pk lie on a straight line and state its equation. [2 marks]\n(c) Show that for all values of k, the tangents to the graphs of fk at Pk are parallel,\nand find the equation of the tangent lines. [5 marks]",
+   "ms_text": "2 2 13. (a) (i)\nkf ′ () x = 3 kx − 2 kx + 1 A1\n2 ′′ () x = 6 kx − 2 k A1\nkf\n(ii) Setting f ′′ () x = 0 M1\n1 2\n⇒ 6 kx − 2 k = 0 ⇒ x = A1\n3 k\n3 2\n1 1 1 1 ⎛ ⎞ 2 ⎛ ⎞ ⎛ ⎞ ⎛ ⎞\nf = k − k + M1 ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n3 k 3 k 3 k 3 k ⎝ ⎠ ⎝ ⎠ ⎝ ⎠ ⎝ ⎠\n7\n= A1\n27k\n⎛ 1 7 ⎞\nHence, is , kP ⎜ ⎟\n⎝ 3 k 27 k ⎠\n[6 marks]\n7\n= (b) Equation of the straight line is y x A1\n9\nAs this equation is independent of k, all kPlie on this straight line R1\n[2 marks]\n(c) Gradient of tangent at kP:\n2\n⎛ 1 ⎞ ⎛ 1 ⎞ ⎛ 1 ⎞ 2 2\nf ′ ( P ) = f ′ ⎜ ⎟ = 3 k ⎜ ⎟ − 2 k ⎜ ⎟ += 1 M1A1\nk\n⎝ 3 k ⎠ ⎝ 3 k ⎠ ⎝ 3 k ⎠ 3\nAs the gradient is independent of k, the tangents are parallel. R1\n7 2 1 1\n= × + c ⇒ c = (A1)\n27 k 3 3 k 27 k\n2 1\nThe equation is y = x + A1\n3 27 k\n[5 marks]\nTotal[13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.7",
+    "5.8",
+    "5.4",
+    "2.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 13]\nA family of cubic functions is defined as $f_k(x) = k^2x^3 - kx^2 + x$, $k \\in \\mathbb{Z}^+$.\n(a) Express in terms of $k$\n(i) $f_k'(x)$ and $f_k''(x)$;\n(ii) the coordinates of the points of inflexion $P_k$ on the graphs of $f_k$. [6 marks]\n(b) Show that all $P_k$ lie on a straight line and state its equation. [2 marks]\n(c) Show that for all values of $k$, the tangents to the graphs of $f_k$ at $P_k$ are parallel, and find the equation of the tangent lines. [5 marks]"
+  },
+  {
+   "id": "math-2008-M-P2-TZ1-q14",
+   "num": "14",
+   "section": "B",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14. [Maximum mark: 14]\nz = ( 1 + i 3 ) m n and z = ( 1 − )i .\n1 2\n(a) Find the modulus and argument of z1 and z2 in terms of m and n, respectively. [6 marks]\n(b) Hence, find the smallest positive integers m and n such that z = z . [8 marks]\n1 2",
+   "ms_text": "14. (a) 1 + i3 = 2 or 1 − i = 2 (A1)\nπ π ⎛ 7 π ⎞\narg(1 + i3) = or arg(1 − i) = − ⎜ ⎟ (A1)\naccept4\n3 4 ⎝ ⎠\nz = 2m A1\n1\nn\nz = 2 A1\n2\nmπ\narg() z = m arctan 3 = A1\n1\n3\n⎛ 7 ⎞ n−π nπ\narg( z ) = n arctan(1) − = ⎜ accept ⎟ A1 N2\n2\n4 ⎝ 4 ⎠\n[6 marks]\nm n (b) 2 = 2 ⇒ n = 2 m (M1)A1\nπ −π\nm = n +π, where k is an integer 2 k M1A1\n3 4\nπ π\n⇒ + =π m n 2 k\n3 4\nπ π\n⇒ m + 2 m =π 2 k (M1)\n3 4\n5\nπ = 2π k\n6m\n12\n⇒ m = k A1\n5\nThe smallest value of k such that m is an integer is 5, hence\nm = 12 A1\nn = 24 . A1 N2\n[8 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "14. [Maximum mark: 14]\n$z_1 = (1+i\\sqrt{3})^m$ and $z_2 = (1-i)^n$.\n(a) Find the modulus and argument of $z_1$ and $z_2$ in terms of $m$ and $n$, respectively. [6 marks]\n(b) Hence, find the smallest positive integers $m$ and $n$ such that $z_1 = z_2$. [8 marks]"
+  }
+ ],
+ "status": "done"
+}

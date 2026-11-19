@@ -1,0 +1,129 @@
+{
+ "exam_id": "math-2012-N-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2012,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2012 November Examination Session/Mathematics_paper_3_Discrete_mathematics_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2012 November Examination Session/Mathematics_paper_3_Discrete_mathematics_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8812-7207; code N12/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2012-N-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 14]\nA 7 B\n4\n2 3 6 5\n7\n3 5\nS 6\n8 C\nD E T\n1 4 5 5\n6\n9\nF 8 G\nIn the graph given above, the numbers shown represent the distance along that edge.\n(a) Using Dijkstra’s algorithm, find the length of the shortest path from vertex S\nto vertex T . Write down this shortest path. [6 marks]\n(b) (i) Does this graph have an Eulerian circuit? Justify your answer.\n(ii) Does this graph have an Eulerian trail? Justify your answer. [4 marks]\n(c) The graph above is now to be considered with the edges representing roads\nin a town and with the distances being the length of that road in kilometres.\nHuan is a postman and he has to travel along every road in the town to deliver\nletters to all the houses in that road. He has to start at the sorting office at S\nand also finish his route at S . Find the shortest total distance of such a route.\nFully explain the reasoning behind your answer. [4 marks]",
+   "ms_text": "1. (a)\nfrom tabular method as shown above (or equivalent) M1A1A1\nNote: Award the first A1 for obtaining 3 as the shortest distance to C.\nAward the second A1 for obtaining the rest of the shortest distances.\nshortest path has length 17 A1\nbacktracking as shown above (or equivalent) (M1)\nshortest path is SABT A1\n[6 marks]\n(b) (i) no, as S and T have odd degree A1R1\nNote: Mentioning one vertex of odd degree is sufficient.\n(ii) yes, as only S and T have odd degree A1R1\nNote: In each case only award the A1 if the R1 has been given.\nAccept an actual trail in (b)(ii).\n[4 marks]\n(c) Huan has to travel along all the edges via an open Eulerian trail of length R1\n4 +++ 3 5 213 ++++ 5 4 + 7 +++ 8 5 6 + 7 + 6 + 6 ++ 8 9 = 94 A1\nand then back to S from T along the shortest path found in (a) of length 17 R1\nso shortest total distance is 9417 + = 111 A1\n[4 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 14]\n[Diagram: weighted graph with vertices S, A, B, C, D, E, F, G, T. Edges: SA 4, SC 3, SF 5, AC 2, AD 3, AB 7, CD 5, CF 1, FD 4, FG 8, DB 5, DE 6, DG 5, BE 7, BT 6, ET 8, EG 6, GT 9]\nIn the graph given above, the numbers shown represent the distance along that edge.\n(a) Using Dijkstra's algorithm, find the length of the shortest path from vertex $S$ to vertex $T$. Write down this shortest path. [6 marks]\n(b) (i) Does this graph have an Eulerian circuit? Justify your answer.\n(ii) Does this graph have an Eulerian trail? Justify your answer. [4 marks]\n(c) The graph above is now to be considered with the edges representing roads in a town and with the distances being the length of that road in kilometres. Huan is a postman and he has to travel along every road in the town to deliver letters to all the houses in that road. He has to start at the sorting office at $S$ and also finish his route at $S$. Find the shortest total distance of such a route. Fully explain the reasoning behind your answer. [4 marks]"
+  },
+  {
+   "id": "math-2012-N-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\n(a) Draw all the possible non-isomorphic simple graphs with three vertices.\n(No proofs are required.) [4 marks]\n(b) Draw all the possible non-isomorphic trees with six vertices. (No proofs\nare required.) [6 marks]",
+   "ms_text": "2. (a)\nA1A1A1A1\nNote: Award A1 for 1 correct graph, then A1 for each of the subsequent 3 graphs,\nprovided they are not repeated.\n[4 marks]\n(b)\nA1A1A1A1A1A1\nNote: Award A1 for 1 correct tree, then A1 for each of the subsequent 5 trees,\nprovided they are not repeated.\n[6 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8",
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\n(a) Draw all the possible non-isomorphic simple graphs with three vertices. (No proofs are required.) [4 marks]\n(b) Draw all the possible non-isomorphic trees with six vertices. (No proofs are required.) [6 marks]"
+  },
+  {
+   "id": "math-2012-N-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 18,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 18]\nLet the greatest common divisor of 861 and 957 be h .\n(a) Using the Euclidean algorithm, find h . [4 marks]\n(b) Hence find integers A and B such that 861 A + 957 B = h . [3 marks]\n(c) Using part (b), solve 287 w ≡ 2 (mod 319 ) , where w ∈ �, w < 319 . [5 marks]\n(d) Find the general solution to the diophantine equation 861 x + 957 y = 6 . [6 marks]",
+   "ms_text": "3. (a) METHOD 1\n861 957 [,] 10 [,] 01\n−× 1861 −861 − [,] 10\n96 [ − 11 ,]\n−× 896 −768 − 8 [ − 11 ,]\n93 [, 9 − 8 ]\n−× 193 −93 − [, 9 − 8 ]\n3 [ − 109 ,]\nby the above working on the left (or similar) M1A1A1\nNote: Award A1 for 96 and A1 for 93.\nh = 3 (since 3 divides 93) A1\n[4 marks]\nMETHOD 2\n957 = 86196 + M1A1\n=× + A1 861 896 93\n96 = 93 + 3\nso h = 3 (since 3 divides 93) A1\n[4 marks]\n(b) METHOD 1\nif method 1 was used for part (a)\nby the above working on the right (or equivalent) M1\n− 108619957 × +× = 3\nso A =− 10 and B = 9 A1A1\n[3 marks]\nMETHOD 2\n3 = 96 − 93\n= 96 − (861896) −× =× 996 − 861 M1\n=× 9(957 − 861) − 861\n=− 108619957 × +×\nso A =− 10 and B = 9 A1A1\n[3 marks]\n(c) from (b) 10287 − × +× 9319 = so 1 A1\n− 10287 × ≡ 1(mod319) A1\n287 w ≡ 2(mod319) ⇒− 10287 × w ≡− 102(mod319) × M1\n⇒ w ≡− 20(mod319) A1\nso w = 299 A1\n[5 marks]\n(d) from (b) 108619957 − × +× = 3 ⇒− 2086118957 × + × = 6 M1A1\n=− + so general solution is x 20 319 t A1A1\ny = 18 − 287( t t ∈′ ) A1A1\n[6 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1",
+    "6.3",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 18]\nLet the greatest common divisor of 861 and 957 be $h$.\n(a) Using the Euclidean algorithm, find $h$. [4 marks]\n(b) Hence find integers $A$ and $B$ such that $861A + 957B = h$. [3 marks]\n(c) Using part (b), solve $287w \\equiv 2 \\pmod{319}$, where $w \\in \\mathbb{N}$, $w < 319$. [5 marks]\n(d) Find the general solution to the diophantine equation $861x + 957y = 6$. [6 marks]"
+  },
+  {
+   "id": "math-2012-N-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 10]\n(a) State Fermat’s little theorem. [2 marks]\n) and x12 ≡ (b) Let x∈�. If x/≡0 (mod), x/≡0 5 (mod 13 4 (mod 11 ), find the\nremainder when x12 is divided by 715. [8 marks]",
+   "ms_text": "with a∈′) then 4. (a) if p is a prime (and a ≡/ 0(mod) p A1\np 1 a −≡ 1(mod) p A1\n[2 marks]\np Note: Accept a ≡ a (mod) p .\n4 (b) by Fermat x≡ 1(mod5) A1\n12 so x ≡ 1(mod5) A1\nby Fermat x 12 ≡ 1(mod13) A1\n12 ≡ so x 1(mod65) A1\n12 let x =+ 1 65 t , then 1 + 65 t ≡ 4(mod11) M1\nso −≡ t 3(mod11) ⇒≡− t 3(mod11)\n⇒≡ t 8(mod11) A1\n12 x =+ 1 65(811) + w = 521 + 715 w M1\nso remainder is 521 A1\nNote: For solutions that start by showing that x2 is congruent to 4 mod 11 award\nsuitable discretion marks being careful that the solutions are logical and\ncover all possibilities.\n[8 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.5",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 10]\n(a) State Fermat's little theorem. [2 marks]\n(b) Let $x \\in \\mathbb{N}$. If $x \\not\\equiv 0 \\pmod{5}$, $x \\not\\equiv 0 \\pmod{13}$ and $x^{12} \\equiv 4 \\pmod{11}$, find the remainder when $x^{12}$ is divided by 715. [8 marks]"
+  },
+  {
+   "id": "math-2012-N-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 8,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 8]\nG is a simple connected graph with four vertices and its complement Gis also\nconnected. Prove that G and G are isomorphic.",
+   "ms_text": "5. G must have at least 3 edges R1\nsince G is connected and so it must have a spanning tree as a subgraph and also V= 4\nsimilarly G must have at least 3 edges R1\nbut K has 6 edges so both G and G have exactly 3 edges R1\n4\nthere are two possibilities for G\ncase (i) case (ii)\nA1A1\nin case (ii) G is\nthis is not connected so case (ii) cannot happen R1\nin case (i) G is\nA1\nthis is isomorphic to\nA1\nso G and G are isomorphic AG\nNote: There are other equally valid proofs for example considering the possible degrees\nof the vertices.\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 8]\n$G$ is a simple connected graph with four vertices and its complement $\\overline{G}$ is also connected. Prove that $G$ and $\\overline{G}$ are isomorphic."
+  }
+ ],
+ "status": "done"
+}

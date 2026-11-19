@@ -1,0 +1,500 @@
+{
+ "exam_id": "math-2007-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2007,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2007 May Examination Session/Mathematics_paper_1_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2007 May Examination Session/Mathematics_paper_1_TZ1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2207-7204; code M07/5/MATHL/HP1/ENG/TZ1/XX; marks not printed; assumed 6 per question (modal markscheme value)",
+ "qp_pages": 21,
+ "questions": [
+  {
+   "id": "math-2007-M-P1-TZ1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. Triangle ABC has C∃= 42ο, Bc =1 74 . cm , and area 1 19 . cm2.\n(a) Find AC.\n(b) Find AB.",
+   "ms_text": "QUESTION 1\n1 °\n(a) 1.19 = (1.74)(sin 42)AC M1\n2\nAC = 2.044...\nAC = 2.04 (cm) A1 N1\n2 2 2 (b) AB = 2.044... + 1.74 − 2(1.74)(2.044...)cos42° M1A1\n2 AB = 1.919... (or 1.913...) (A1)\nAB = 1.39 (cm) (accept 1.38 cm or 1.40 cm) A1 N2",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "1. Triangle ABC has $\\hat{C}=42^\\circ$, $\\mathrm{BC}=1.74$ cm, and area $1.19\\ \\text{cm}^2$.\n(a) Find AC.\n(b) Find AB."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. The events A and B are such that P() A= 0 5, P() . B= 0 3, P( . A ∪ B ) = 0 6 . .\n(a) (i) Find the value of P(A ∩ B ) .\n(ii) Hence show that A and B are not independent.\n(b) Find the value of P( BA. | )",
+   "ms_text": "QUESTION 2\n(a) (i) Use of P( A ∪ B ) = P() A + P() B − P( A ∩ B ) M1\n0.6 = 0.5 + 0.3 − P( A ∩ B )\nP( A ∩ B ) = 0.2 A1 N1\n(ii) P()P() A B = 0.15 ≠ P( A ∩ B ) R1\nHence not independent AG\nP( B ∩ A )\n(b) Use of P(| BA ) = M1\nP() A\n0.2\n= (A1)\n0.5\n= 0.4 A1 N0",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "2. The events $A$ and $B$ are such that $P(A)=0.5$, $P(B)=0.3$, $P(A\\cup B)=0.6$.\n(a) (i) Find the value of $P(A\\cap B)$.\n(ii) Hence show that $A$ and $B$ are not independent.\n(b) Find the value of $P(B\\mid A)$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q3",
+   "num": "3",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. In an experiment, a trial is repeated n times. The trials are independent and the probability p\nof success in each trial is constant. Let X be the number of successes in the n trials.\nThe mean of X is 0.4 and the standard deviation is 0.6 .\n(a) Find p .\n(b) Find n .",
+   "ms_text": "QUESTION 3\n(a) X has a binomial distribution (M1)\n0.4 = np 0.36 = np (1 − p ) A1A1\nAttempting to solve. (M1)\np = 0.1 A1 N3\n(b) n = 4 A1 N1\nNote: Allow FT only on integer values of n for p between 0 and 1.",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "3. In an experiment, a trial is repeated $n$ times. The trials are independent and the probability $p$ of success in each trial is constant. Let $X$ be the number of successes in the $n$ trials. The mean of $X$ is 0.4 and the standard deviation is 0.6.\n(a) Find $p$.\n(b) Find $n$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q4",
+   "num": "4",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "3 x − 4\n4. The function f is defined as fx () = , x ≠− 2 .\nx + 2\n(a) Find an expression for f −1() . x\n(b) Write down the domain of f−1.",
+   "ms_text": "QUESTION 4\n(a) METHOD 1\n3 y − 4\nInterchanging x and y, x = M1\ny + 2\nyx + 2 x = 3 y − 4 (A1)\n− = − − simplifying yx ( 3) 2 x 4 (M1)\n+ 2 x 4\nexpressing y in terms of x, y = (A1)\n3 − x\n2 x + 4 − 1\n= f () x A1 N2\n3 − x\nMETHOD 2\n3 x − 4\ny =\nx + 2\nxy + 2 y = 3 x − 4 A1\nsimplifying ( xy − 3) = − 2 y − 4 (M1)\n2 y + 4\n= expressing y in terms of x, x (A1)\n3 − y\n+ 2 x 4\ninterchanging x and y, y = (M1)\n3 − x\n2 x + 4 − 1\n= f () x A1 N2\n3 − x\nNote: Only 2 of these marks can be implied.\n(b) Domain x ≠ 3 , ( x∈� not required) A1",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.13"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "4. The function $f$ is defined as $f(x)=\\frac{3x-4}{x+2}$, $x\\neq -2$.\n(a) Find an expression for $f^{-1}(x)$.\n(b) Write down the domain of $f^{-1}$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q5",
+   "num": "5",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "∃ 5. The diagram shows a circle centre O and radius 1, with AOB = θ , θ ≠ 0. The area of\n∆AOB is three times the shaded area.\nFind the value of θ.",
+   "ms_text": "QUESTION 5\nθ\nArea of sector = (A1)\n2\nsin θ\n= Area of triangle (A1)\n2\nsin θ ⎛ θ sin θ ⎞\n= 3 − M1A1 ⎜ ⎟\n2 ⎝ 2 2 ⎠\n3 θ = 4sin θ (A1)\nθ= 1.28 radians A1 N2\nNote: Accept 73.1�.",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms"
+   ],
+   "text_clean": "5. The diagram shows a circle centre O and radius 1, with $\\mathrm{A\\hat{O}B}=\\theta$, $\\theta\\neq 0$. The area of $\\Delta$AOB is three times the shaded area.\n[Diagram: circle centre O, radius 1; points A and B on the circle with angle $\\theta$ at O; triangle AOB drawn, the segment between chord AB and the arc AB is shaded]\nFind the value of $\\theta$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q6",
+   "num": "6",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. Let fx () = x ln x − x , x > 0 .\n(a) Find ′f (). x\n(b) Using integration by parts find (ln) x 2d x . ∫",
+   "ms_text": "QUESTION 6\n⎛ 1 ⎞\n(a) f ′ () x = ln x + − 1 (M1)\nxx ⎜ ⎟\n⎝ ⎠\n= ln x A1 N2\n(b) Using integration by parts\nMETHOD 1\n2 2 2\n∫ (ln)d x x = (ln) x i x − ∫ x i (ln)d x x A1A1\nx\n2 = x (ln) x\n−∫ 2(ln)d x x (A1)\n2 = x (ln) x − 2(ln x x − x ) + C A1\n2 ( = x (ln) x − 2ln x x + 2 x + C )\nMETHOD 2\n(ln)d x 2 x = x (ln) x 2 − x ln x − (ln x − 1)d x A1A1A1 ∫ ∫\n= x (ln) x 2 − x ln x − (ln x x − x − x ) + C A1\n( 2 ) = x (ln) x − 2ln x x + 2 x + C\nNote: Do not penalize the absence of + C .",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "6. Let $f(x)=x\\ln x-x$, $x>0$.\n(a) Find $f'(x)$.\n(b) Using integration by parts find $\\int(\\ln x)^2\\,dx$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q7",
+   "num": "7",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. The complex number z is defined by\n2 π 2 π π π\nz = 4 cos + i sin 43 cos + i sin .\n+\n3 3 6 6\n(a) Express z in the form reiθ, where r and θ have exact values.\n(b) Find the cube roots of z, expressing in the form reiθ, where rand θ have exact values.",
+   "ms_text": "QUESTION 7\n⎛ ⎞ ⎛ ⎞ 1 3 3 i\n(a) z = 4 ⎜ − + i ⎟ + 43 ⎜ + ⎟ A1A1\n⎜ ⎟ ⎜ ⎟ 2 2 2 2\n⎝ ⎠ ⎝ ⎠\n⎛ ⎞ 1 i3\n= 8 + = 4 + 4 i 3 ⎜ ⎟\n⎜ ⎟\n⎝ 2 2 ⎠\nr = 8 A1\nπ\n� θ = or60 A1\n3\n⎛ ⎛ π ⎞ ⎞\ni3 ⎜ ⎟\n⎜ = ⎝ ⎠ ⎟ z 8e N4\n⎜ ⎟\n⎝ ⎠\n⎛ π ⎞ 1 i\n⎜ 9 ⎟ i20 �\n(b) z 3 = 2e ⎝ ⎠ (2e = ) A1\n1 ⎛ 7 π ⎞ 1 ⎛ 13 π ⎞ i\n⎜ ⎟ i ⎜ ⎟ �\n3 ⎝ 9 ⎠ i140 �, 3 ⎝ 9 ⎠ i260 z = 2e (2e = ) z = 2e (2e = ) A1\nreθ. Both answers must be given for final A1. i Notes: Do not allow any form other than",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "7. The complex number $z$ is defined by\n$z=4\\left(\\cos\\frac{2\\pi}{3}+i\\sin\\frac{2\\pi}{3}\\right)+4\\sqrt{3}\\left(\\cos\\frac{\\pi}{6}+i\\sin\\frac{\\pi}{6}\\right)$.\n(a) Express $z$ in the form $re^{i\\theta}$, where $r$ and $\\theta$ have exact values.\n(b) Find the cube roots of $z$, expressing in the form $re^{i\\theta}$, where $r$ and $\\theta$ have exact values."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q8",
+   "num": "8",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. The function f is defined as fx () = sinln x x for x∈[.,.] 0 53 5.\n(a) Write down the x-intercepts.\n(b) The area above the x-axis is A and the total area below the x-axis is B. If A = kB ,\nfind k.",
+   "ms_text": "QUESTION 8\n(a) x -intercepts are x = 1 and x = π (accept 3.14) A1A1\n(b) Attempting to find the area of two regions M1\n1 3.5\nB = x xx + sinlnd x xx ∫ 0.5sinlnd ∫\nπ\n= − (0.09310... + 0.07736...)\nB = 0.1704... (A1)\nπ\n= = A ∫ sinlnd x xx 0.8809... (A1)\n1\n= × 0.8809 k 0.1704\nk= 5.17 A1 N2\nNotes: Accept values for A and B rounded to at least two decimal places.\nAccept only 5.17 for final A1.\nDo not penalize if a negative value of B is used to yield a negative value of .k",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "8. The function $f$ is defined as $f(x)=\\sin x\\ln x$ for $x\\in[0.5,3.5]$.\n(a) Write down the $x$-intercepts.\n(b) The area above the $x$-axis is $A$ and the **total** area below the $x$-axis is $B$. If $A=kB$, find $k$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q9",
+   "num": "9",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. A continuous random variable X has probability density function f defined by\ne x , for 0 ≤ x ≤ ln 2\nfx () =\n0 , otherwise.\nFind the exact value of E( X. )",
+   "ms_text": "QUESTION 9\nln 2 x\nE( X ) = ∫ x ed x M1A1\n0\nAttempting to use integration by parts (M1)\nx x x\n∫ x ed x = x e − ∫ ed x A1\nln 2\n( ) ⎡ x x ⎤ E X = x e − e A1\n⎣ ⎦ 0\n⎛ 4 ⎞\n= 2ln 2 − 1 = ln 4 − A1 N3 ⎜\n1, ln e ⎟\n⎝ ⎠\nNote: If no working shown, award N1 for the answer 0.386.",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "4"
+   ],
+   "subtopics": [
+    "5.16",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "9. A continuous random variable $X$ has probability density function $f$ defined by\n$f(x)=\\begin{cases}e^x, & \\text{for } 0\\le x\\le \\ln 2\\\\ 0, & \\text{otherwise.}\\end{cases}$\nFind the **exact** value of $E(X)$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q10",
+   "num": "10",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. Consider the vectors a , b , c , d\n2 1 3 µ\na = 3 , b = 2 , c = 1 , d=− 2 .\n− 1 5 λ 1\nLet s = ( abc γ ) + d , where s is perpendicular to a.\nFind an expression for λ in terms of µ.",
+   "ms_text": "QUESTION 10\n⎛ 2 ⎞⎛⎞ 1\n⎜ ⎟⎜⎟\nab i 3 i 2 = ⎜\n⎟⎜⎟\n⎜ ⎟⎜⎟ −\n⎝ 1 ⎠⎝⎠ 5\n= 3 (A1)\n⎛ 3 ⎞ ⎛ µ ⎞\n⎜ ⎟ ⎜ ⎟\ns = 31 +− 2 M1\n⎜ ⎟ ⎜ ⎟\n⎜ ⎟ ⎜ ⎟ λ\n⎝ ⎠ ⎝ 1 ⎠\nNote: Allow FT on i ab provided i ab is scalar.\n⎛ 9 + µ ⎞\n⎜ ⎟\ns 1 A1 = ⎜\n⎟\n⎜ ⎟\n3 λ + 1 ⎝ ⎠\n⎛ 9 + µ ⎞⎛ 2 ⎞\n⎜ ⎟⎜ ⎟\n= ⇒ = sa i 0 1 i 3 0 (M1)\n⎜ ⎟⎜ ⎟\n⎜ ⎟⎜ ⎟\n⎝ 3 λ + 1 ⎠⎝ − 1 ⎠\nNote: Allow FT for s.\n18 + 2 µ + 3 − 3 λ −= 1 0(20 + 2 µ = 3) λ A1\n20 + 2 µ\nλ = A1 N3\n3",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "10. Consider the vectors $\\boldsymbol{a},\\boldsymbol{b},\\boldsymbol{c},\\boldsymbol{d}$\n$\\boldsymbol{a}=\\begin{pmatrix}2\\\\3\\\\-1\\end{pmatrix}$, $\\boldsymbol{b}=\\begin{pmatrix}1\\\\2\\\\5\\end{pmatrix}$, $\\boldsymbol{c}=\\begin{pmatrix}3\\\\1\\\\\\lambda\\end{pmatrix}$, $\\boldsymbol{d}=\\begin{pmatrix}\\mu\\\\-2\\\\1\\end{pmatrix}$.\nLet $\\boldsymbol{s}=(\\boldsymbol{a}\\cdot\\boldsymbol{b})\\boldsymbol{c}+\\boldsymbol{d}$, where $\\boldsymbol{s}$ is perpendicular to $\\boldsymbol{a}$.\nFind an expression for $\\lambda$ in terms of $\\mu$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q11",
+   "num": "11",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "2 2 d y 2 − x\n= 11. Let y = x arcsin, xx ∈− ] 11. Show that , [\n2 3 . d x\n2 ( 1 − x ) 2",
+   "ms_text": "QUESTION 11\n= y x arcsin x\nd y x\n= arcsin x + M1A1\nd x 2 1 − x\n1 −\n( 2 ) 2 2 2 1 1 − x + x (1 − x )\nd ⎛ x ⎞=\n⎜ ⎟ M1A1\n2 dx\n1 − x 2 1 − x ⎝ ⎠\n1 −\n1 ( 1 − x 2 ) + x 2 (1 − x 2 ) 2 2\nd y 1\n= +\n2 2 − 2 d x\n1 − x 1 x\n2 1 1 x\n= + + A1\n1 1 3\n− 2 2 − 2 2 − 2 2 (1 x ) (1 x ) (1 x )\n2 2 x\n= +\n1 3\n− 2 2 − 2 2 (1 x ) (1 x )\n2 2 21 ( − x ) + x\n= A1\n3\n− 2 2 (1 x )\n2 2 − x\n= AG\n3\n− 2 2 (1 x )\nNote: The final A1A1 are for equivalent algebraic manipulations leading to AG.",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.6",
+    "5.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "11. Let $y=x\\arcsin x$, $x\\in\\,]-1,1[$. Show that $\\frac{d^2y}{dx^2}=\\frac{2-x^2}{(1-x^2)^{3/2}}$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q12",
+   "num": "12",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "2 12. The quadratic function Q is defined by Qx () = kx − ( k − 3 ) x + ( k − 8, k ∈ϒ. )\nDetermine the values of k for which Qx () = 0 has no real roots.",
+   "ms_text": "QUESTION 12\n2 2 Using b − 4 ac = ( k − 3) − 4( kk − 8) M1A1\n− 2 + + = 3 k 26 k 9 0\n1, ⇒ k = − k = 9 (A1)\n3\nUsing b 2 − 4 ac < 0 R1\n2 2 − 3 k + 26 k + 9 < 0 (3 k − 26 k − 9 > 0)\n1\nk < − or k > 9 A1A1 N2N2\n3\n1or Notes: Award A1A0 for ( k ≤− k ≥ 9 ).\n3\nAward A1FT A1FT for correct inequalities from incorrect values of k.\n1or If no working shown, award N3 ( k ≤− k ≥ 9 ).\n3",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "12. The quadratic function $Q$ is defined by $Q(x)=kx^2-(k-3)x+(k-8)$, $k\\in\\mathbb{R}$.\nDetermine the values of $k$ for which $Q(x)=0$ has no real roots."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q13",
+   "num": "13",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "1 6 x\nLet A = 13.\n3 and X= = k X , where k ∈ϒ, find the values of k y. Given that AX\n4\nfor which there is an infinity of solutions for X.",
+   "ms_text": "QUESTION 13\nMETHOD 1\n⎛ 1 6 ⎞⎛ x ⎞ ⎛ x + 6 y ⎞\n⎜ ⎟⎜ ⎟ = ⎜ ⎟ M1\n4 3 y 4 x + 3 y ⎝ ⎠⎝ ⎠ ⎝ ⎠\n⎧ x + 6 y = kx\nA1 ⇒⎨\n+ = ⎩ 4 x 3 y ky\n( k − 1) x\nGetting 1 variable x + 6 y = kx ⇒ y = M1\n6\nSubstituting correctly in other equation\n3( k − 1) x kk ( − 1) x\n4 x + = A1\n6 6\nFinding equation in k\n2 2 24 + 3( k − 1) = k − k (0 = k − 4 k − 21) A1\n= = − k 7or k 3 A1\nMETHOD 2\n⎛ 1 − k 6 ⎞⎛ x ⎞=\n0 M1A1 ⎜ ⎟⎜ ⎟\n4 3 − k y ⎝ ⎠⎝ ⎠\nDeterminant = 0 M1\n(1 − k )(3 − k ) − 24 = 0 A1\n2 3 − 4 k + k − 24 = 0\n2 k − 4 k − 21 = 0 A1\n( k − 7)( k + 3) = 0\nk = 7or k = − 3 A1\nNote: Award A2 if candidate finds only one value of k by any method.",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "13. Let $\\boldsymbol{A}=\\begin{pmatrix}1&6\\\\4&3\\end{pmatrix}$ and $\\boldsymbol{X}=\\begin{pmatrix}x\\\\y\\end{pmatrix}$. Given that $\\boldsymbol{AX}=k\\boldsymbol{X}$, where $k\\in\\mathbb{R}$, find the values of $k$ for which there is an infinity of solutions for $\\boldsymbol{X}$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q14",
+   "num": "14",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "∞\n14. An infinite geometric series is given by ∑ 24 ( − 3 xk ) .\nk = 1\n(a) Find the values of x for which the series has a finite sum.\n(b) When x =1 2., find the minimum number of terms needed to give a sum which is\ngreater than 1.328.",
+   "ms_text": "QUESTION 14\n(a) r = 4 − 3 x ⇒\n4 − 3 x < 1 M1\n−< 1 4 − 3 x < 1\n5\n1 < x < A1 N1\n3\n(b) x = 1.2\n⇒ = = a 0.8 r 0.4 (A1)\nn 0.8(1 − 0.4)\n= S A1\nn\n0.6\n− 0.4) n\nSo 0.8(1 > 1.328\n0.6\nSolving gives n > 6.02 (A1)\n7 terms are needed A1 N4\nNote: Generating terms of the series to find that 7 terms are needed is an alternative method.",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "14. An infinite geometric series is given by $\\sum_{k=1}^{\\infty}2(4-3x)^k$.\n(a) Find the values of $x$ for which the series has a finite sum.\n(b) When $x=1.2$, find the minimum number of terms needed to give a sum which is greater than 1.328."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q15",
+   "num": "15",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "xy for x ≥1, find d y 15. Given that e − y 2 ln x = e\nx at the point (1 , 1) .\nd",
+   "ms_text": "QUESTION 15\ne xy − y 2 ln x = 1\nDifferentiating implicitly (M1)\n2 ⎛ d y ⎞ ⎛ d y y ⎞\nxy e\n⎜ y + x ⎟ − ⎜ 2 y ln x + ⎟ = 0 A1A1\n⎝ d x ⎠ ⎝ d x x ⎠\n⎛ d y ⎞ ⎛ d y y 2 ⎞ xy\nNotes: Award A1 for e y + , A1 for − 2 y ln x + and 0. ⎜\nxx ⎟ ⎜ ⎟\n⎝ d ⎠ d x x ⎝ ⎠\nN.B. Incorrect manipulation of ecan lead to the correct final result. xy\nEITHER\n2 y d y\nCollecting terms e xy y − = (2ln y x − x xy (M1)\ne) d\nx x\n2 y\nxy y e −\nd y x\n= (A1)\nxy d x 2ln y x − x e\nd y 1 − e\nx = 1 y =⇒ 1 = A1\nd x e\nOR\nSubstituting x = 1 y = 1 (M1)\n⎛ d y ⎞ ⎛ d y ⎞\ne1 + − 2 ln11 + = 0 (A1) ⎜ ⎟ ⎜ ⎟\n⎝ d x ⎠ ⎝ d x ⎠\nd y 1 − e\n= A1\nd x e",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "15. Given that $e^{xy}-y^2\\ln x=e$ for $x\\ge 1$, find $\\frac{dy}{dx}$ at the point $(1,1)$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q16",
+   "num": "16",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "d y\n16. Solve the differential equation ( x 2 + 1 ) − xy = 0 where x > 0 , y > 0 , given that y =1\nd x\nwhen x =1.",
+   "ms_text": "QUESTION 16\nd y xx d\n= M1\n2 y x + 1\nd y\n∫ ln y A1 y=\nx 1 2\n∫ d x = ln( x + 1) A1\n2 x + 1 2\nEITHER\n1\nln y = ln( x 2 + 1) + ln C\n2\n2 ln y = ln C x + 1\n1 = C 2 for substituting x = 1, y = 1 M1\n1\nC = A1\n2\n2 x + 1\ny = A1\n2\nOR\n1 2\nln y = ln( x + 1) + A\n2\n1\nln1 = ln 2 + A for substituting x = 1, y = 1 M1\n2\n1 ln 2 A = − A1\n2\n1 1 ⎛ 1 ⎞ 2 2\nln y = ln( x + 1) − ln 2 ⎜ = ln( x + 1) − 0.347 ⎟ A1\n2 2 ⎝ 2 ⎠\n⎛ 2 ⎞ x + 1\n⎜ ln y = ln ⎟\n⎜ ⎟ 2\n⎝ ⎠\n⎛ x 2 + 1 ⎞\n⎜ y = ⎟\n⎜ 2 ⎟\n⎝ ⎠",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "16. Solve the differential equation $(x^2+1)\\frac{dy}{dx}-xy=0$ where $x>0$, $y>0$, given that $y=1$ when $x=1$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q17",
+   "num": "17",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "17. The functions f and g are defined by\nfx () = 2 x − 1,\nx\ngx () = , x ≠− 1.\nx + 1\nFind the values of x for which ( f ο g )() x ≤ ( g ο f )() x .",
+   "ms_text": "QUESTION 17\n⎛ x ⎞\n( f � g )() x = 2 − 1 (A1) ⎜ ⎟\n⎝ x + 1 ⎠\n2 x − 1\n( g � f )() x = (A1)\n2 x\nEITHER\n2 x 2 x − 1\n−≤ 1 M1\n+ x 1 2 x\nGetting 0 on one side (M1)\n2 x 13 − x ⎛ 1 − 3 x ⎞\n−− 1 ≤ 0 ≤ 0 ⎜ ⎟\nx + 1 2 x 2( xx + 1) ⎝ ⎠\n1\n−< 1 x < 0or x ≥ ` A1A1\n3\nOR\nFor attempting to graph ( f � g )() and ( x g � f )() x or ( f � g )() x − ( g � f )() x M1\nFor an accurate graph. A1\n1\n−< < ≥ 1 x 0or x ` A1A1\n3\nNotes: The inequality sign and the values of x must both be correct.\n1\n−1< < x ≥ Accept ( x 0 and ).\n3",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.15",
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "17. The functions $f$ and $g$ are defined by\n$f(x)=2x-1$,\n$g(x)=\\frac{x}{x+1}$, $x\\neq -1$.\nFind the values of $x$ for which $(f\\circ g)(x)\\le(g\\circ f)(x)$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q18",
+   "num": "18",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "18. The following table shows the values of two functions f and g and their first derivatives\nwhen x =1 and x = 0 .\nx fx () ′f () x gx () g ′ () x\n0 4 1 – 4 5\n1 – 2 3 –1 2\nfx ()\nFind the derivative of 3\n(a) () − when x = 0 .\ngx 1\n( ) when x =1. (b) Find the derivative of fgx () + 2 x",
+   "ms_text": "QUESTION 18\n3 f ′ () x [ gx () − 1 ] − 3() fxgx ′ ()\n(a) derivative = M1\n2 [\ngx () − 1 ]\n−− − 3(1)(4 1) 3(4)(5)\nwhen x = 0 ⇒ derivative = (A1)\n(4 −− 1) 2\n= − 3 A1 N0\n(b) derivative = f ′ ( gx () + 2 x )( gx ′ () + 2 ) M1\nwhen x = derivative 1 = f ′ (1 −+ 2)(2 + 2) (A1)\n= (3)(4)\n= 12 A1 N0",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "18. The following table shows the values of two functions $f$ and $g$ and their first derivatives when $x=1$ and $x=0$.\n$x$ | $f(x)$ | $f'(x)$ | $g(x)$ | $g'(x)$\n0 | 4 | 1 | $-4$ | 5\n1 | $-2$ | 3 | $-1$ | 2\n(a) Find the derivative of $\\frac{3f(x)}{g(x)-1}$ when $x=0$.\n(b) Find the derivative of $f(g(x)+2x)$ when $x=1$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q19",
+   "num": "19",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "2 x + 3 x + 1 19. The solution of 2 = 2 + can be expressed in the form a 3\n+ log2 b where ab , ∈Ζ.\nFind the value of a and of b .",
+   "ms_text": "QUESTION 19\n2 x + 3 x + 1 2 − 2 − 3 = 0\nLet p = 2x (M1)\n2 8 p − 2 p − 3 = 0 A1\n(2 p + 1)(4 p − 3) = 0\n1 3\np = − or p = A1\n2 4\n3\n2 x= A1\n4\nx = − log3 log4\n2 2\n= −+ = − = 2 log3 ( a 2, b 3 ) A1A1 N0\n2\nNote:Award no marks if candidates take logof each term, even though this gives the correct answer.\n2",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "19. The solution of $2^{2x+3}=2^{x+1}+3$ can be expressed in the form $a+\\log_2 b$ where $a,b\\in\\mathbb{Z}$.\nFind the value of $a$ and of $b$."
+  },
+  {
+   "id": "math-2007-M-P1-TZ1-q20",
+   "num": "20",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "20. The volume of a solid is given by\n4 3 2\nV = π r + π rh .\n3\nAt the time when the radius is 3 cm, the volume is 81π cm3, the radius is changing at a\n3 rate of 2 cm/min and the volume is changing at a rate of 204 π cm/min . Find the rate of\nchange of the height at this time.",
+   "ms_text": "QUESTION 20\n4 3 2\n81 π = π(3)+ π(3) h (M1)\n3\n81 π = 36 π + 9π h\nh = 5 (cm) A1\n4\n= π 3 + π 2 V r rh\n3\nAttempt to differentiate with respect to time. M1\nd V d r 2\n=π 4 r + A1\nd t d t\nd r 2 d h\n2 π rh + π r A1\nd t d t\n2d h\nπ = 4π(3) 2 +π(3)(5)(2) + π(3) 204 (2) 2\nd t\nd h\n204 π = 72 π + 60π + 9π\nd t\nd h\n72 π =π 9\nd t\nd h\n8 (cm/min) A1 N2 t=\nd",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "20. The volume of a solid is given by\n$V=\\frac{4}{3}\\pi r^3+\\pi r^2h$.\nAt the time when the radius is 3 cm, the volume is $81\\pi\\ \\text{cm}^3$, the radius is changing at a rate of 2 cm/min and the volume is changing at a rate of $204\\pi\\ \\text{cm}^3/\\text{min}$. Find the rate of change of the height at this time."
+  }
+ ],
+ "status": "done"
+}

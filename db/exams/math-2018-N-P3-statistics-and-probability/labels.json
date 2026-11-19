@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2018-N-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L4", "4.14", "4.L1"],
+      "text_clean": "1. [Maximum mark: 9]\nTwo independent random variables $X$ and $Y$ follow Poisson distributions.\nGiven that $\\mathrm{E}(X)=3$ and $\\mathrm{E}(Y)=4$, calculate\n(a) $\\mathrm{E}(2X+7Y)$; [2]\n(b) $\\mathrm{Var}(4X-3Y)$; [3]\n(c) $\\mathrm{E}(X^2-Y^2)$. [4]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L6", "4.L5"],
+      "text_clean": "2. [Maximum mark: 9]\nThe times $t$, in minutes, taken by a random sample of 75 workers of a company to travel to work can be summarized as follows\n$\\sum t = 2165$, $\\sum t^2 = 76475$.\nLet $T$ be the random variable that represents the time taken to travel to work by a worker of this company.\n(a) Find unbiased estimates of\n(i) the mean of $T$;\n(ii) the variance of $T$. [3]\n(b) Assuming that $T$ is normally distributed, find\n(i) the 90% confidence interval for the mean time taken to travel to work by the workers of this company;\n(ii) the 95% confidence interval for the mean time taken to travel to work by the workers of this company. [3]\nBefore seeing these results the managing director believed that the mean time was 26 minutes.\n(c) Explain whether your answers to part (b) support her belief. [3]"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L8", "4.L4", "4.9", "4.4"],
+      "text_clean": "3. [Maximum mark: 21]\n(a) Mr Sailor owns a fish farm and he claims that the weights of the fish in one of his lakes have a mean of 550 grams and standard deviation of 8 grams.\nAssume that the weights of the fish are normally distributed and that Mr Sailor's claim is true.\n(i) Find the probability that a fish from this lake will have a weight of more than 560 grams.\n(ii) The maximum weight a hand net can hold is 6 kg. Find the probability that a catch of 11 fish can be carried in the hand net. [6]\n(b) Kathy is suspicious of Mr Sailor's claim about the mean and standard deviation of the weights of the fish. She collects a random sample of fish from this lake whose weights are shown in the following table.\nFish | A | B | C | D | E | F | G | H\nWeight (g) | 545 | 554 | 548 | 551 | 558 | 541 | 543 | 549\nUsing these data, test at the 5% significance level the null hypothesis $H_0: \\mu = 550$ against the alternative hypothesis $H_1: \\mu < 550$, where $\\mu$ grams is the population mean weight.\n(i) State the distribution of your test statistic, including the parameter.\n(ii) Find the $p$-value for the test.\n(iii) State the conclusion of the test, justifying your answer. [6]\n(c) Kathy decides to use the same fish sample to test at the 5% significance level whether or not there is a positive association between the weights and the lengths of the fish in the lake. The following table shows the lengths of the fish in the sample. The lengths of the fish can be assumed to be normally distributed.\nFish | A | B | C | D | E | F | G | H\nLength (mm) | 351 | 365 | 355 | 353 | 357 | 349 | 348 | 354\n(i) State suitable hypotheses for the test.\n(ii) Find the product-moment correlation coefficient $r$.\n(iii) State the $p$-value and interpret it in this context. [6]\n(d) Use an appropriate regression line to estimate the weight of a fish with length 360 mm. [3]"
+    },
+    "4": {
+      "topics": ["4", "1", "5"],
+      "subtopics": ["4.L3", "4.L2", "1.8", "5.6"],
+      "text_clean": "4. [Maximum mark: 11]\nLet $X \\sim \\mathrm{Geo}(p)$.\n(a) Show that the probability generating function of $X$ is given by\n$G_X(t) = \\dfrac{pt}{1-qt}$ where $q = 1-p$. [3]\n(b) Hence prove that $\\mathrm{E}(X) = \\dfrac{1}{p}$. [4]\n(c) Find the probability generating function of the random variable $Y = 2X+3$. [4]"
+    }
+  }
+}

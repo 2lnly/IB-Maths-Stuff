@@ -1,0 +1,209 @@
+{
+ "exam_id": "math-2006-M-P3",
+ "questions": {
+  "A1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.8"
+   ],
+   "text_clean": "1. [Maximum mark: 8]\nA drug company claims that a new drug cures 75 % of patients suffering from a certain disease. However, a medical committee believes that less than 75 % are cured. To test the drug company's claim, a trial is carried out in which 100 patients suffering from the disease are given the new drug. It is found that 68 of these patients are cured.\n(a) State suitable hypotheses. [2 marks]\n(b) Find the $p$-value of your test. [4 marks]\n(c) State your conclusion using a significance level of\n(i) 10 %;\n(ii) 1 %. [2 marks]"
+  },
+  "A2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.L6"
+   ],
+   "text_clean": "2. [Maximum mark: 12]\nA scientific expedition discovers a large colony of birds. The weights $x$ kg of a random sample of 200 of these birds are measured and the following results obtained:\n$\\sum x = 224.4,\\ \\sum (x-\\bar{x})^2 = 5.823$\n(a) Calculate unbiased estimates of the mean $\\mu$ and the variance $\\sigma^2$ of the weights of these birds. [4 marks]\n(b) Find a 95 % confidence interval for $\\mu$. [6 marks]\n(c) State, with a reason, whether or not your answer requires the assumption that the weights are normally distributed. [2 marks]"
+  },
+  "A3": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7"
+   ],
+   "text_clean": "3. [Maximum mark: 9]\nSarah cycles to work and she believes that the mean time taken to complete her journey is 30 minutes. To test her belief, she records the times (in minutes) taken to complete her journey over a 10-day period as follows:\n30.1  32.3  33.6  29.8  28.9  30.6  31.1  30.2  32.1  29.4\nYou may assume that the journey times are normally distributed with mean $\\mu$ minutes.\n(a) State suitable hypotheses. [2 marks]\n(b) Test Sarah's belief, at the 5 % significance level. [5 marks]\n(c) Justify your choice of test. [2 marks]"
+  },
+  "A4": {
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.11",
+    "5.11"
+   ],
+   "text_clean": "4. [Maximum mark: 14]\nBuses arrive at a bus-stop $T$ minutes apart, where $T$ may be assumed to have an exponential distribution with probability density function\n$f(t) = \\frac{1}{10}e^{-\\frac{t}{10}}$ for $t \\ge 0$.\n(a) Show that\n(i) $P(T > t) = e^{-\\frac{t}{10}}$;\n(ii) $P(T \\le t+s \\mid T > t) = 1 - e^{-\\frac{s}{10}}$, where $s > 0$. [10 marks]\n(b) Bill arrives at the bus-stop five minutes after the previous bus arrived at the bus-stop. Find the probability that the next bus arrives within 10 minutes of his arrival at the bus-stop. [4 marks]"
+  },
+  "A5": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L2"
+   ],
+   "text_clean": "5. [Maximum mark: 17]\nThe random variable $X$ is thought to have a geometric distribution with probability mass function\n$P(X = x) = p(1-p)^{x-1}$ for $x \\in \\mathbb{Z}^+$,\nwhere $p$ is an unknown parameter.\nThe value of $X$ is recorded on 100 independent occasions with the following results.\nx | Frequency\n1 | 45\n2 | 26\n3 | 16\n4 | 10\n5 or more | 3\n(a) (i) Calculate the mean of these data.\n(ii) Deduce that the estimated value of $p$ is $\\frac{1}{2}$. [4 marks]\n(b) Calculate an appropriate value of $\\chi^2$. Test, at the 5 % significance level, whether or not these data can be modelled by a geometric distribution. [13 marks]"
+  },
+  "B1": {
+   "topics": [
+    "7",
+    "2"
+   ],
+   "subtopics": [
+    "7.3",
+    "2.2",
+    "2.14"
+   ],
+   "text_clean": "1. [Maximum mark: 15]\nThe function $f$ is defined by\n$f: \\mathbb{R} \\to \\mathbb{R}$ where $f(x) = e^{\\sin x} - 1$.\n(a) Find the exact range, $A$, of $f$. [3 marks]\n(b) (i) Explain why $f$ is not an injection.\n(ii) Giving a reason, state whether or not $f$ is a surjection. [4 marks]\n(c) The function $g$ is now defined to be $g: [-k, k] \\to A$, where $g(x) = e^{\\sin x} - 1$ and $k > 0$.\n(i) Find the maximum value of $k$ for which $g$ is an injection.\nFor this value of $k$,\n(ii) find an expression for $g^{-1}(x)$;\n(iii) write down the domain of $g^{-1}$. [8 marks]"
+  },
+  "B2": {
+   "topics": [
+    "7",
+    "6"
+   ],
+   "subtopics": [
+    "7.2",
+    "6.4"
+   ],
+   "text_clean": "2. [Maximum mark: 15]\nLet $S = \\{2, 4, 6, 8, 10, 12, 14\\}$. The relation $R$ is defined on $S$ such that for $a, b \\in S$, $aRb$ if and only if $a^2 \\equiv b^2$ (modulo 6).\n(a) Show that $R$ is an equivalence relation. [6 marks]\n(b) Find all the equivalence classes. [9 marks]"
+  },
+  "B3": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.4"
+   ],
+   "text_clean": "3. [Maximum mark: 7]\nConsider the binary operation $a$ divided by $b$ defined on $\\mathbb{R}^+$. Determine whether or not each of the four group axioms is satisfied. [7 marks]"
+  },
+  "B4": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.6",
+    "7.8",
+    "7.5",
+    "7.4"
+   ],
+   "text_clean": "4. [Maximum mark: 15]\nConsider the group $G$ defined on the set $S = \\{1, 2, 4, 5, 7, 8\\}$ having the following Cayley table.\n* | 1 | 2 | 4 | 5 | 7 | 8\n1 | 1 | 2 | 4 | 5 | 7 | 8\n2 | 2 | 4 | 8 | 1 | 5 | 7\n4 | 4 | 8 | 7 | 2 | 1 | 5\n5 | 5 | 1 | 2 | 7 | 8 | 4\n7 | 7 | 5 | 1 | 8 | 4 | 2\n8 | 8 | 7 | 5 | 4 | 2 | 1\n(a) Explain what is meant by saying that this table is a Latin square. [1 mark]\n(b) Solve the equation $2 * x * 7 = 4$ where $x \\in S$. [4 marks]\n(c) (i) Show that $G$ is cyclic and find the generators.\n(ii) List the proper subgroups of $G$. [10 marks]"
+  },
+  "B5": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.8",
+    "7.5"
+   ],
+   "text_clean": "5. [Maximum mark: 8]\nSuppose that $G$ is a group and $H$ is a non-empty subset of $G$. Show that if $ab^{-1} \\in H$ whenever $a, b \\in H$ then $H$ is a subgroup of $G$. [8 marks]"
+  },
+  "C1": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18"
+   ],
+   "text_clean": "1. [Maximum mark: 9]\nGiven that $\\frac{dy}{dx} = \\frac{y+2}{xy+1}$ and $y = 1$ when $x = 0$, use Euler's method with interval $h = 0.5$ to find an approximate value of $y$ when $x = 1$. [9 marks]"
+  },
+  "C2": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15"
+   ],
+   "text_clean": "2. [Maximum mark: 12]\n(a) Show that $\\int \\tan x\\,dx = \\ln \\sec x + C$, where $C$ is a constant. [2 marks]\n(b) Hence find an integrating factor for solving the differential equation\n$\\frac{dy}{dx} + y\\tan x = \\sec x$. [2 marks]\n(c) Solve this differential equation given that $y = 2$ when $x = 0$. Give your answer in the form $y = f(x)$. [8 marks]"
+  },
+  "C3": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13"
+   ],
+   "text_clean": "3. [Maximum mark: 9]\nFind the value of\n(a) $\\lim_{x \\to 0} \\frac{\\sqrt{1+x} - 1}{x}$; [3 marks]\n(b) $\\lim_{x \\to 0} x \\ln x$. [6 marks]"
+  },
+  "C4": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L5",
+    "5.16"
+   ],
+   "text_clean": "4. [Maximum mark: 15]\n(a) (i) Given that $\\sum_{n=1}^{\\infty} u_n$ is convergent, where $u_n \\ge 0$, prove that $\\sum_{n=1}^{\\infty} u_n^2$ is also convergent.\n(ii) State, with a reason, whether or not the converse of this result is true. [5 marks]\n(b) Use the integral test to determine the set of values of $k$ for which the series\n$\\sum_{n=2}^{\\infty} \\frac{1}{n(\\ln n)^k}$\n(i) is convergent;\n(ii) is divergent. [10 marks]"
+  },
+  "C5": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.L2"
+   ],
+   "text_clean": "5. [Maximum mark: 15]\nConsider the function $f$ defined by\n$f(x) = \\arcsin x$, for $|x| \\le 1$.\nThe derivatives of $f(x)$ satisfy the equation\n$(1-x^2) f^{(n+2)}(x) - (2n+1) x f^{(n+1)}(x) - n^2 f^{(n)}(x) = 0$, for $n \\ge 1$.\nThe coefficient of $x^n$ in the Maclaurin series for $f(x)$ is denoted by $a_n$. You may assume that the series contains only odd powers of $x$.\n(a) (i) Show that, for $n \\ge 1$, $(n+1)(n+2)a_{n+2} = n^2 a_n$.\n(ii) Given that $a_1 = 1$, find an expression for $a_n$ in terms of $n$, valid for odd $n \\ge 3$. [7 marks]\n(b) Find the radius of convergence of this Maclaurin series. [4 marks]\n(c) Find an approximate value for $\\pi$ by putting $x = \\frac{1}{2}$ and summing the first three non-zero terms of this series. Give your answer to four significant figures. [4 marks]"
+  },
+  "D1": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.2"
+   ],
+   "text_clean": "1. [Maximum mark: 9]\n(a) Convert the number 95 from base 10 to base 6. [3 marks]\n(b) Working in base 6, square your answer to part (a). [4 marks]\n(c) Convert your answer to part (b) to a base 10 number. [2 marks]"
+  },
+  "D2": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.3",
+    "6.1"
+   ],
+   "text_clean": "2. [Maximum mark: 8]\nConsider the diophantine equation\n$\\lambda x - 2y = 1$, where $\\lambda \\in \\mathbb{Z}$.\n(a) Explain briefly why this equation has no solution when $\\lambda = 4$. [2 marks]\n(b) Find the general solution to this equation when $\\lambda = 3$. [6 marks]"
+  },
+  "D3": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6"
+   ],
+   "text_clean": "3. [Maximum mark: 16]\n(a) Show that the sum of the degrees of all the vertices of a graph is even. [3 marks]\n(b) There are nine men at a party. By considering an appropriate graph, show that it is impossible for each man to shake hands with exactly five other men. [4 marks]\n(c) For a connected planar graph, prove Euler's relation, $v - e + f = 2$. [9 marks]"
+  },
+  "D4": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.11",
+    "6.7",
+    "6.6"
+   ],
+   "text_clean": "4. [Maximum mark: 16]\nThe graphs $G_1$, $G_2$ and $G_3$ are illustrated below.\n(a) [Diagram: Graph $G_1$ with vertices A, B, C; two edges between A and B, two edges between A and C, one edge between B and C]\nWrite down the adjacency matrix, $A_G$, of $G_1$. Evaluate $A_G^2$ and hence state the number of paths of length 2 beginning and ending at C. [6 marks]\n(b) [Diagram: Graph $G_2$ with vertices H, M, I, L, N, J, K; edges HM, HI, ML, IL, LN, IJ, LK, JK]\nDetermine whether or not $G_2$ is bipartite. [4 marks]\n(c) [Diagram: Graph $G_3$ with vertices P, Q, R, S, T, U; edges PQ, PU, QR, QU, QT, RS, RT, ST, UT]\nExplain briefly why $G_3$ does not have an Eulerian circuit. Redraw $G_3$ and add an edge so that the resulting graph does have an Eulerian circuit. Write down an Eulerian circuit. [6 marks]"
+  },
+  "D5": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.8"
+   ],
+   "text_clean": "5. [Maximum mark: 11]\nThe weights of the edges of a graph with vertices A, B, C, D and E are given in the following table.\n  | A | B | C | D | E\nA | - | 10 | 15 | 11 | 16\nB | 10 | - | 12 | 19 | 13\nC | 15 | 12 | - | 18 | 14\nD | 11 | 19 | 18 | - | 17\nE | 16 | 13 | 14 | 17 | -\n(a) Use any method to find an upper bound for the travelling salesman problem for this graph. [2 marks]\n(b) (i) Use Kruskal's algorithm to find and draw a minimum spanning tree for the subgraph obtained by removing the vertex E from the graph.\n(ii) State the total weight of this minimum spanning tree and hence find a lower bound for the travelling salesman problem for this graph. [9 marks]"
+  }
+ }
+}

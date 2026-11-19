@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2017-M-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L5"],
+      "text_clean": "1. [Maximum mark: 10]\nA farmer sells bags of potatoes which he states have a mean weight of $7\\text{ kg}$. An inspector, however, claims that the mean weight is less than $7\\text{ kg}$. In order to test this claim, the inspector takes a random sample of $12$ of these bags and determines the weight, $x\\text{ kg}$, of each bag. He finds that\n$\\sum x = 83.64;\\ \\sum x^2 = 583.05$.\nYou may assume that the weights of the bags of potatoes can be modelled by the normal distribution $\\mathrm{N}(\\mu, \\sigma^2)$.\n(a) State suitable hypotheses to test the inspector's claim. [1]\n(b) Find unbiased estimates of $\\mu$ and $\\sigma^2$. [3]\n(c) (i) Carry out an appropriate test and state the $p$-value obtained.\n(ii) Using a $10\\%$ significance level and justifying your answer, state your conclusion in context. [6]"
+    },
+    "2": {
+      "topics": ["4", "5"],
+      "subtopics": ["4.L3", "4.14", "4.L5", "4.9", "5.6"],
+      "text_clean": "2. [Maximum mark: 14]\nThe continuous random variable $X$ has cumulative distribution function $F$ given by\n$F(x) = \\begin{cases} 0, & x < 0 \\\\ x\\mathrm{e}^{x-1}, & 0 \\le x \\le 1 \\\\ 1, & x > 1 \\end{cases}$.\n(a) Determine\n(i) $P(0.25 \\le X \\le 0.75)$;\n(ii) the median of $X$. [4]\n(b) (i) Show that the probability density function $f$ of $X$ is given, for $0 \\le x \\le 1$, by $f(x) = (x+1)\\mathrm{e}^{x-1}$.\n(ii) Hence determine the mean and the variance of $X$. [6]\n(c) (i) State the central limit theorem.\n(ii) A random sample of $100$ observations is obtained from the distribution of $X$. If $\\bar{X}$ denotes the sample mean, use the central limit theorem to find an approximate value of $P(\\bar{X} > 0.65)$. Give your answer correct to two decimal places. [4]"
+    },
+    "3": {
+      "topics": ["4", "5", "1"],
+      "subtopics": ["4.L3", "5.6", "1.8"],
+      "text_clean": "3. [Maximum mark: 9]\nThe discrete random variable $X$ has the following probability distribution.\n$\\mathrm{P}(X = x) = \\begin{cases} pq^{\\frac{x}{2}} & \\text{for } x = 0, 2, 4, 6 \\ldots \\text{ where } p + q = 1,\\ 0 < p < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$\n(a) Show that the probability generating function for $X$ is given by $G(t) = \\dfrac{p}{1 - qt^2}$. [2]\n(b) Hence determine $\\mathrm{E}(X)$ in terms of $p$ and $q$. [4]\n(c) The random variable $Y$ is given by $Y = 2X + 1$. Find the probability generating function for $Y$. [3]"
+    },
+    "4": {
+      "topics": ["4", "5"],
+      "subtopics": ["4.L5", "4.L4", "5.8"],
+      "text_clean": "4. [Maximum mark: 10]\nThe random variables $X_1$ and $X_2$ are a random sample from $\\mathrm{N}(\\mu, 2\\sigma^2)$. The random variables $Y_1$, $Y_2$ and $Y_3$ are a random sample from $\\mathrm{N}(2\\mu, \\sigma^2)$.\nThe estimator $U$ is used to estimate $\\mu$ where $U = a(X_1 + X_2) + b(Y_1 + Y_2 + Y_3)$ and $a$, $b$ are constants.\n(a) Given that $U$ is unbiased, show that $2a + 6b = 1$. [3]\n(b) Show that $\\mathrm{Var}(U) = (39b^2 - 12b + 1)\\sigma^2$. [3]\n(c) Hence find\n(i) the value of $a$ and the value of $b$ which give the best unbiased estimator of this form, giving your answers as fractions.\n(ii) the variance of this best unbiased estimator. [4]"
+    },
+    "5": {
+      "topics": ["4"],
+      "subtopics": ["4.L8", "4.L7"],
+      "text_clean": "5. [Maximum mark: 7]\nA teacher decides to use the marks obtained by a random sample of $12$ students in Geography and History examinations to investigate whether or not there is a positive association between marks obtained by students in these two subjects. You may assume that the distribution of marks in the two subjects is bivariate normal.\n(a) State suitable hypotheses for this investigation. [1]\nHe gives the marks to Anne, one of his students, and asks her to use a calculator to carry out an appropriate test at the $5\\%$ significance level. Anne reports that the $p$-value is $0.177$.\n(b) State, in context, what conclusion should be drawn from this $p$-value. [1]\n(c) The teacher then asks Anne for the values of the $t$-statistic and the product moment correlation coefficient $r$ produced by the calculator but she has deleted these. Starting with the $p$-value, calculate these values of $t$ and $r$. [5]"
+    }
+  }
+}

@@ -1,0 +1,322 @@
+{
+ "exam_id": "math-2010-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2010,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2010 May Examination Session/Mathematics_paper_1_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2010 May Examination Session/Mathematics_paper_1_TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2210-7203; code M10/5/MATHL/HP1/ENG/TZ1/XX; marks sum matches expected total 120",
+ "qp_pages": 14,
+ "questions": [
+  {
+   "id": "math-2010-M-P1-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\n3 2 Given that Ax + Bx + x + 6 is exactly divisible by ( x + 1 )( x − 2, find the value of A )\nand the value of B .",
+   "ms_text": "1. using the factor theorem or long division M1\nA B 1 6 0 A B 5 A1\n8 A 4 B 2 6 0 2 A B 2 A1\n3 A 3 A 1 A1\nB 4 A1 N3\nNote:Award M1A0A0A1A1for using ( x 3) as the third factor, without justification\nthat the leading coefficient is 1.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nGiven that $Ax^3 + Bx^2 + x + 6$ is exactly divisible by $(x+1)(x-2)$, find the value of $A$ and the value of $B$.",
+   "review_note": "audit: 2-unknown factor/remainder; 1.16 incidental, as on equivalents"
+  },
+  {
+   "id": "math-2010-M-P1-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\nShown below are the graphs of y = fx () and y = gx () .\ny\ny = fx ()\n4\ny = gx ()\n2\nx\n–2 0 2 4\n–2\n–4\nIf ( f ο g )() x = 3, find all possible values of x .",
+   "ms_text": "2. gx () 0 or 3 (M1)(A1)\nx 1 or4 or 1 or2 A1A1\nNotes: Award A1A1 for all four correct values,\nA1A0 for two or three correct values,\nA0A0 for less than two correct values.\nAward M1 and corresponding A marks for correct attempt to\nfind expressions for f and g.\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nShown below are the graphs of $y = f(x)$ and $y = g(x)$.\n[Graph: two downward parabolas on a grid for $-2 \\le x \\le 5$; $y=f(x)$ passes through $(-1,0)$, $(0,3)$, $(4,0)$ with maximum about 4.8; $y=g(x)$ passes through $(-1,0)$, $(0,2)$, $(4,0)$ with maximum about 3.1; both meet at $x=-1$ and $x=4$]\nIf $(f \\circ g)(x) = 3$, find all possible values of $x$."
+  },
+  {
+   "id": "math-2010-M-P1-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\n(a) Show that the two planes\nπ1: x + 2 y − z = 1\nπ 2: x + z = −2\nare perpendicular. [3 marks]\n(b) Find the equation of the plane π3 that passes through the origin and is\n[4 marks] perpendicular to both π1 and π 2.",
+   "ms_text": "3. (a) for using normal vectors (M1)\n1 1\n2 0 11 0 M1A1\n1 1\nhence the two planes are perpendicular AG\n(b) METHOD 1\nEITHER\ni j k\n1 2 1 2 i 2 j 2 k M1A1\n1 0 1\nOR\na\nif b is normal to 3, then\nc\na 2 b c 0 and a c 0 M1\na solution is a 1 , b 1 , c 1 A1\nTHEN\n3 has equation x y z d (M1)\nas it goes through the origin, d 0 so 3 has equation x y z 0 A1\nNote: The final(M1)A1 are independent of previous working.\nMETHOD 2\n0 1 1\nr 0 s 2 t 0 A1(A1)A1A1\n0 1 1\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.17",
+    "3.16",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\n(a) Show that the two planes\n$\\pi_1: x + 2y - z = 1$\n$\\pi_2: x + z = -2$\nare perpendicular. [3 marks]\n(b) Find the equation of the plane $\\pi_3$ that passes through the origin and is perpendicular to both $\\pi_1$ and $\\pi_2$. [4 marks]"
+  },
+  {
+   "id": "math-2010-M-P1-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nx 1 x Solve the equation 4 −= 2 + 8 .",
+   "ms_text": "2 x 2 x 4. 2 2 8 (M1)\n1 2 2 x 2 x 8 (A1)\n4\n2 x x 2 4 2 32 0 A1\nx x (2 8)(2 4) 0 (M1)\nx 2 8 x 3 A1\nNotes: Do not award final A1 if more than 1 solution is given.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.10",
+    "2.7",
+    "1.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nSolve the equation $4^{x-1} = 2^x + 8$.",
+   "review_note": "audit: 2^x=8 via quadratic, no logs needed; matches 2024-M-P1-TZ2-q2"
+  },
+  {
+   "id": "math-2010-M-P1-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 8]\na + x\nThe graph of y = is drawn below.\nb + cx\ny\n10\n8\n6\n4\n2\nx –10 –8 –6 –4 –2 0 2 4 6 8 10\n–2\n–4\n–6\n–8\n–10\n(a) Find the value of a , the value of b and the value of c . [4 marks]\nb + cx\n(b) Using the values of a , b and c found in part (a), sketch the graph of y =\na + x\non the axes below, showing clearly all intercepts and asymptotes. [4 marks]\ny\nx",
+   "ms_text": "5. (a) an attempt to use either asymptotes or intercepts (M1)\n1\na 2, b 1, c A1A1A1\n2\n(b)\nA4\nNote: Award A1 for both asymptotes,\nA1 for both intercepts,\nA1, A1 for the shape of each branch, ignoring shape at ( x 2) .\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 8]\nThe graph of $y = \\dfrac{a+x}{b+cx}$ is drawn below.\n[Graph: rational function on axes $-10 \\le x \\le 10$, $-10 \\le y \\le 10$, with dashed vertical asymptote $x=-2$ and dashed horizontal asymptote $y=2$; curve crosses the x-axis at $x=2$ and the y-axis at $y=-2$]\n(a) Find the value of $a$, the value of $b$ and the value of $c$. [4 marks]\n(b) Using the values of $a$, $b$ and $c$ found in part (a), sketch the graph of $y = \\left|\\dfrac{b+cx}{a+x}\\right|$ on the axes below, showing clearly all intercepts and asymptotes. [4 marks]\n[Blank x-y axes for sketch]"
+  },
+  {
+   "id": "math-2010-M-P1-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 4]\n→ → →\nConsider the vectors OA = a , OB = b and OC = a + b. Show that if a = b then\n( a + b )( γ a − b ) = 0 . Comment on what this tells us about the parallelogram OACB.",
+   "ms_text": "6. ( a b )( a b ) aa ba ab bb M1\naa bb A1\n2 2\na b 0 since a b A1\nthe diagonals are perpendicular R1\nNote: Accept geometric proof, awarding M1 for recognizing OACB is a rhombus, R1\nfor a clear indication that ( a b ) and ( a bare the diagonals, A1 for stating )\nthat diagonals cross at right angles and A1 for “hence dot product\nis zero”.\nAccept solutions using components in 2 or 3 dimensions.\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 4]\nConsider the vectors $\\vec{OA} = \\boldsymbol{a}$, $\\vec{OB} = \\boldsymbol{b}$ and $\\vec{OC} = \\boldsymbol{a} + \\boldsymbol{b}$. Show that if $|\\boldsymbol{a}| = |\\boldsymbol{b}|$ then $(\\boldsymbol{a}+\\boldsymbol{b}) \\cdot (\\boldsymbol{a}-\\boldsymbol{b}) = 0$. Comment on what this tells us about the parallelogram OACB."
+  },
+  {
+   "id": "math-2010-M-P1-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\nTwo players, A and B, alternately throw a fair six-sided dice, with A starting, until one\nof them obtains a six. Find the probability that A obtains the first six.",
+   "ms_text": "1\n7. P(six in first throw) (A1)\n6\n25 1\nP(six in third throw) (M1)(A1)\n36 6\n2\n25 1\nP(six in fifth throw)\n36 6\n2\n1 25 1 25 1\nP(A obtains first six) ... (M1)\n6 36 6 36 6\nrecognizing that the common ratio is25 (A1)\n36\n1\n6\nP(A obtains first six) (by summing the infinite GP) M1\n25\n1\n36\n6\nA1\n11\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.6",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nTwo players, A and B, alternately throw a fair six-sided dice, with A starting, until one of them obtains a six. Find the probability that A obtains the first six.",
+   "review_note": "audit: setting up event probabilities ~4/7 marks; matches 2015-N-P1-q6, 2014-N-P2-q12"
+  },
+  {
+   "id": "math-2010-M-P1-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nThe region enclosed between the curves y = x e and y x = e x is rotated through 2π\nabout the x-axis. Find the volume of the solid obtained.",
+   "ms_text": "x 8. x e e x x 0 or 1 (A1)\n2 d attempt to find y x M1\n1\nV π e 2 xx d\n1 0\n1\n1 2 2\nπ e x\n2\n0\n2 πe\nA1\n2\n1\nV π x e 2 x d x\n2 0\n1\n1 1 1\nπ x e 2 x e 2 x d x M1A1\n0 2 2\n0\nNote: Award M1 for attempt to integrate by parts.\n2 1 πe 1\n2 x π e\n2 4\n0\nfinding difference of volumes M1\nvolume V V\n1 2\n1\n1 2 x\nπ e\n4\n0\n1 π(e 2 1) A1\n4\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.17",
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nThe region enclosed between the curves $y = \\sqrt{x}\\,e^x$ and $y = e\\sqrt{x}$ is rotated through $2\\pi$ about the $x$-axis. Find the volume of the solid obtained."
+  },
+  {
+   "id": "math-2010-M-P1-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\nGiven that α>1, use the substitution u =1 to show that (a)\nx\nα 1 1 1\nd x = d. u [5 marks] ∫ ∫ 1\n2 2 1 1 + x 1 + u\nα\n1\n(b) Hence show that arctan α + arctan = π . [2 marks]\nα 2",
+   "ms_text": "1 1\n9. (a) u d u d x M1\n2 x x\nd u\nd x A1\nu 2\n1 1 1 d u\nd x A1M1A1\n2 2 2 1 1 x 1 u\n1\n1\nu\nNote: Award A1 for correct integrand and M1A1 for correct limits.\n1 1\nd u (upon interchanging the two limits) AG 1\n2 1 u\n1\n(b) arctan x arctan u A1\n1 1\nπ π 1\narctan arctan A1\n4 4\n1 π\narctan arctan AG\n2\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.15",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\n(a) Given that $\\alpha > 1$, use the substitution $u = \\dfrac{1}{x}$ to show that\n$\\displaystyle\\int_1^{\\alpha} \\frac{1}{1+x^2}\\,dx = \\int_{\\frac{1}{\\alpha}}^{1} \\frac{1}{1+u^2}\\,du$. [5 marks]\n(b) Hence show that $\\arctan\\alpha + \\arctan\\dfrac{1}{\\alpha} = \\dfrac{\\pi}{2}$. [2 marks]"
+  },
+  {
+   "id": "math-2010-M-P1-TZ1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 6]\nThe ten numbers x , x ,..., x have a mean of 10 and a standard deviation of 3.\n1 2 10\n10\nFind the value of ( xi − 122 ) . =∑\ni 1",
+   "ms_text": "10. EITHER\nlet y x 12\ni i\nx 10 y 2 M1A1\n3 A1\nx y\n10\n2 y\ni\ni 1 y 2 9 M1A1\n10\n10\n2 y 10(9 4) 130 A1\ni\ni 1\nOR\n10 10 10 10\n2 2 ( x 12) x 24 x 144 1 M1A1\ni i i\ni 1 i 1 i 1 i 1\n10\nx 10 x 100 A1\ni\ni 1\n10\nx 2\ni\ni 1 2 3 , x 9 (M1)\nx 10\n10\nx 2 10(9100) A1\ni\ni 1\n10\n2 ( x 12) 1090 24001440 130 A1\ni\ni 1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 6]\nThe ten numbers $x_1, x_2, \\ldots, x_{10}$ have a mean of 10 and a standard deviation of 3.\nFind the value of $\\displaystyle\\sum_{i=1}^{10} (x_i - 12)^2$."
+  },
+  {
+   "id": "math-2010-M-P1-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\n2 x − 5 x + 4\nConsider fx () =\n2 4. x + 5 x +\n(a) Find the equations of all asymptotes of the graph of f . [4 marks]\n(b) Find the coordinates of the points where the graph of f meets the x and y axes. [2 marks]\n(c) Find the coordinates of\n(i) the maximum point and justify your answer;\n(ii) the minimum point and justify your answer. [10 marks]\n(d) Sketch the graph of f , clearly showing all the features found above. [3 marks]\n(e) Hence, write down the number of points of inflexion of the graph of f . [1 mark]",
+   "ms_text": "2 11. (a) x 5 x 4 0 x 1 or x 4 (M1)\nso vertical asymptotes are x 1 and x 4 A1\nas x then y 1 so horizontal asymptote is y 1 (M1)A1\n[4 marks]\n2 (b) x 5 x 4 0 x 1 or x 4 A1\nx 0 y 1 A1\nso intercepts are (1, 0) , (4, 0) and (0, 1)\n[2 marks]\n2 2 ( x 5 x 4)(2 x 5) ( x 5 x 4)(2 x 5)\n(c) (i) f () x M1A1A1\n2 2 ( x 5 x 4)\n2 10 x 40 10( x 2)( x 2)\nA1\n2 2 2 2 ( x 5 x 4) ( x 5 x 4)\nf () x 0 x 2 M1\n1\nso the points under consideration are (2, 9) and 2, A1A1\n9\nlooking at the sign either side of the points (or attempt to find f () x) M1\ne.g.if x 2 then ( x 2)( x 2) 0 and if x 2 then ( x 2)( x 2) 0 ,\ntherefore (2, 9) is a maximum A1\n(ii) e.g.if x 2 then ( x 2)( x 2) 0 and if x 2 then ( x 2)( x 2) 0 ,\n1\ntherefore 2, A1\n9 is a minimum\nNote: Candidates may find the minimum first.\n[10 marks]\n(d)\nA3\nNote: Award A1 for each branch consistent with and including the features found in previous parts.\n[3 marks]\n(e) one A1\n[1 mark]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.6",
+    "2.13",
+    "2.3",
+    "2.4",
+    "5.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 20]\nConsider $f(x) = \\dfrac{x^2 - 5x + 4}{x^2 + 5x + 4}$.\n(a) Find the equations of all asymptotes of the graph of $f$. [4 marks]\n(b) Find the coordinates of the points where the graph of $f$ meets the $x$ and $y$ axes. [2 marks]\n(c) Find the coordinates of\n(i) the maximum point and justify your answer;\n(ii) the minimum point and justify your answer. [10 marks]\n(d) Sketch the graph of $f$, clearly showing all the features found above. [3 marks]\n(e) Hence, write down the number of points of inflexion of the graph of $f$. [1 mark]"
+  },
+  {
+   "id": "math-2010-M-P1-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 20]\nA continuous random variable X has probability density function\n0 , x < 0\nfx () =\n− ax a e , x ≥ 0 .\n1\nIt is known that P( X< 1 ) =− 1 .\n2\nShow that a =1 (a) ln 2 . [6 marks]\n2\n(b) Find the median of X . [5 marks]\n(c) Calculate the probability that X< 3 given that X>1. [9 marks]",
+   "ms_text": "1 1 ax\n12. (a) a e d x 1 M1A1\n0 2\n1 1 ax\ne 1 M1A1\n0 2\n1\ne a 11 A1\n2\nNote: Accept 0einstead of 1.\n1 a\ne\n2\na e 2\n1 1\na ln 2 2 2 accept a ln2 A1\n1 ln2 a AG\n2\n[6 marks]\nM ax 1\n(b) a e d x M1A1\n0 2\nM 1 ax\ne A1\n0 2\n1 Ma\ne 1\n2\n1 Ma\ne A1\n2\nMa ln2\nln2\nM 2 A1\na\n[5 marks]\n3 ax\n(c) P(1 X 3) a e d x M1A1\n1\n3 a a e e A1\nP(1 X 3)\nP( X 3 X 1) M1A1\nP( X 1)\n3 a a e e\nA1\n1 P( X 1)\n3 a a e e\nA1\n1\n2\n3 a a 2 (e e )\n3 1\n2 2 2 2 2 A1\n1\nA1\n2\n1\nNote: Award full marks for P( X 3/ X 1) P( X 2) or quoting\n2\nproperties of exponential distribution.\n[9 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.11",
+    "5.10",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 20]\nA continuous random variable $X$ has probability density function\n$f(x) = \\begin{cases} 0, & x < 0 \\\\ a e^{-ax}, & x \\ge 0. \\end{cases}$\nIt is known that $P(X < 1) = 1 - \\dfrac{1}{\\sqrt{2}}$.\n(a) Show that $a = \\dfrac{1}{2}\\ln 2$. [6 marks]\n(b) Find the median of $X$. [5 marks]\n(c) Calculate the probability that $X < 3$ given that $X > 1$. [9 marks]"
+  },
+  {
+   "id": "math-2010-M-P1-TZ1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 20]\n(a) Show that sin 2 nx = sin( ( 2 n + 1 ) x ) cos x − cos( ( 2 n + 1 ) x ) sin x . [2 marks]\n(b) Hence prove, by induction, that\nsin 2 nx\ncos x + cos 3 x + cos 5 x + ... + cos( ( 2 n − 1 ) x ) = ,\n2 sin x\n+ for all n∈ ′, sin x ≠0 . [12 marks]\n1\n(c) Solve the equation cos x + cos 3 x = x < π . [6 marks]\n2, 0 <",
+   "ms_text": "13. (a) sin(2 n 1) x cos x cos(2 n 1) x sin x sin(2 n 1) x x M1A1\nsin 2nx AG\n[2 marks]\n(b) if n 1 M1\nLHS cos x\nsin2 x 2sincos x x\nRHS cos x M1\n2sin x 2sin x\nsoLHS RHSand the statement is true for n 1 R1\nassume true for n k M1\nNote: Only award M1 if the word true appears.\nDo not award M1 for „let n k ‟ only.\nSubsequent marks are independent of this M1.\nsin2 kx\nso cos x cos3 x cos5 x ... cos(2 k 1) x\n2sin x\nif n k 1 then\ncos x cos3 x cos5 x ... cos(2 k 1) x cos(2 k 1) x M1\nsin2 kx\ncos(2 k 1) x A1\n2sin x\nsin2 kx 2cos(2 k 1) x sin x\nM1\n2sin x\nsin(2 k 1) x cos x cos(2 k 1) x sin x 2cos(2 k 1) x sin x\nM1\n2sin x\nsin(2 k 1) x cos x cos(2 k 1) x sin x\nA1\n2sin x\nsin(2 k 2) x\nM1\n2sin x\nsin2( k 1) x\nA1\n2sin x\nso if true for n k , then also true for n k 1\nas true for n 1 then true for all n R1\nNote: Final R1 is independent of previous work.\n[12 marks]\nsin 4 x 1\n(c) M1A1\n2sin x 2\nsin 4 x sin x\n4 x x x 0 but this is impossible\n4 x x x A1\n5\n2\n4 x 2 x x A1\n3\n3\n4 x 3 x x A1\n5\nfor not including any answers outside the domain R1\n3 Note: Award the first M1A1 for correctly obtaining 8cos x 4cos x 1 0\nor equivalent and subsequent marks as appropriate including the\n11 5\nanswers arccos , .\n2 4\n[6 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.15",
+    "3.10",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 20]\n(a) Show that $\\sin 2nx = \\sin((2n+1)x)\\cos x - \\cos((2n+1)x)\\sin x$. [2 marks]\n(b) Hence prove, by induction, that\n$\\cos x + \\cos 3x + \\cos 5x + \\ldots + \\cos((2n-1)x) = \\dfrac{\\sin 2nx}{2\\sin x}$,\nfor all $n \\in \\mathbb{Z}^+$, $\\sin x \\ne 0$. [12 marks]\n(c) Solve the equation $\\cos x + \\cos 3x = \\dfrac{1}{2}$, $0 < x < \\pi$. [6 marks]"
+  }
+ ],
+ "status": "done"
+}

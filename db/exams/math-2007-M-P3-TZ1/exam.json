@@ -1,0 +1,486 @@
+{
+ "exam_id": "math-2007-M-P3-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2007,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "3",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2007 May Examination Session/Mathematics_paper_3_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2007 May Examination Session/Mathematics_paper_3_TZ1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2207-7206; code M07/5/MATHL/HP3/ENG/TZ1/XX; each option section sums to 60",
+ "qp_pages": 10,
+ "questions": [
+  {
+   "id": "math-2007-M-P3-TZ1-qA1",
+   "num": "A1",
+   "section": null,
+   "marks": 18,
+   "qtype": "long",
+   "image": "qA1.webp",
+   "ms_image": "qA1_ms.webp",
+   "text": "1. [Maximum mark: 18]\nA zoologist believes that the number of eggs laid in the Spring by female birds of a\ncertain breed follows a Poisson law. She observes 100 birds during this period and she\nproduces the following table.\nNumber of eggs laid Frequency\n0 10\n1 19\n2 34\n3 23\n4 10\n5 4\n(a) Calculate the mean number of eggs laid by these birds. [2 marks]\n(b) The zoologist wishes to determine whether or not a Poisson law provides a\nsuitable model.\n(i) Write down appropriate hypotheses.\n(ii) Carry out a test at the 1 % significance level, and state your conclusion. [16 marks]",
+   "ms_text": "119 234 ... 54\n1. (a) Mean (M1)\n100\n2.16 A1 N2\n[2 marks]\n(b) (i) H: Poisson law provides a suitable model A1\n0\nH: Poisson law does not provide a suitable model A1\n1\n(ii) The expected frequencies are\nNumber of eggs Observed frequency Expected frequency\n0 10 11.533 A1\n1 19 24.910 A1\n2 34 26.903 A1\n3 23 19.370 A1\nA1 4 10 10.460\n5 or more 4 6.824 A1\nNote: Accept expected frequencies rounded to a minimum of three significant figures.\n2 2\n2 (1011.533) (4 6.824) ... (M1)(A2)\n11.533 6.824\n5.35 (accept 5.33 and 5.34) A2\n4 (6 cells – 2 restrictions) A1\nNote: If candidates have combined rows allow FT on their value of .\n2 Critical value 13.277 A1\nBecause5.3513.277,the Poisson law does provide a suitable model. R1 N0\n[16 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L1",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "1. [Maximum mark: 18]\nA zoologist believes that the number of eggs laid in the Spring by female birds of a certain breed follows a Poisson law. She observes 100 birds during this period and she produces the following table.\nNumber of eggs laid | Frequency\n0 | 10\n1 | 19\n2 | 34\n3 | 23\n4 | 10\n5 | 4\n(a) Calculate the mean number of eggs laid by these birds. [2 marks]\n(b) The zoologist wishes to determine whether or not a Poisson law provides a suitable model.\n(i) Write down appropriate hypotheses.\n(ii) Carry out a test at the 1 % significance level, and state your conclusion. [16 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qA2",
+   "num": "A2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "qA2.webp",
+   "ms_image": "qA2_ms.webp",
+   "text": "2. [Maximum mark: 12]\nThe ten children in a class were each given two puzzles and the times taken, in seconds,\nto solve them were recorded as follows.\nChild A B C D E F G H I J\nPuzzle 1 66.3 71.9 62.8 69.8 64.6 74.9 68.8 72.6 70.4 74.2\nPuzzle 2 64.8 71.6 59.9 68.1 66.0 72.4 67.7 70.9 69.8 74.6\nIt is claimed that, on average, a child takes the same time to solve each puzzle.\nTreating the data as matched pairs, use a two-tailed test at the 5 % significance level to\ndetermine whether or not this claim is justified. [12 marks]",
+   "ms_text": "2. H: Mean difference 0 ; H: Mean difference 0\n0 1\nFinding the differences. M1\n1.5 0.3 2.9 1.7 –1.4 2.5 1.1 1.7 0.6 –0.4 A2\nEITHER\nd 10.5 OR d 1.05 (A1)\n2\nd 26.47 (A1)\n2 26.47 10.5\n2\nns 1.71611... (M1)(A1) 1\n9 90\n10.5\n10\nt 2.53(464...) (M1)A1\n1.71611...\n10\nDegrees of freedom 9 A1\nCritical value 2.262 A1\n2.53 2.262 so the claim is not justified. (allow FT on their values) R1 N0\nOR\np-value 0.0320(accept 0.03) A8\n0.0320 0.05so the claim is not justified. (allow FT on their values) R1 N0\n[12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "2. [Maximum mark: 12]\nThe ten children in a class were each given two puzzles and the times taken, in seconds, to solve them were recorded as follows.\nChild | A | B | C | D | E | F | G | H | I | J\nPuzzle 1 | 66.3 | 71.9 | 62.8 | 69.8 | 64.6 | 74.9 | 68.8 | 72.6 | 70.4 | 74.2\nPuzzle 2 | 64.8 | 71.6 | 59.9 | 68.1 | 66.0 | 72.4 | 67.7 | 70.9 | 69.8 | 74.6\nIt is claimed that, on average, a child takes the same time to solve each puzzle. Treating the data as matched pairs, use a two-tailed test at the 5 % significance level to determine whether or not this claim is justified. [12 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qA3",
+   "num": "A3",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "qA3.webp",
+   "ms_image": "qA3_ms.webp",
+   "text": "3. [Maximum mark: 9]\nThe daily rainfall in a holiday resort follows a normal distribution with mean µmm\nand standard deviation σmm. The rainfall each day is independent of the rainfall on\nother days.\nOn a randomly chosen day, there is a probability of 0.05 that the rainfall is greater\nthan 10.2mm.\nIn a randomly chosen 7-day week, there is a probability of 0.025 that the mean daily\nrainfall is less than 6.1 mm.\nFind the value of µ and of σ. [9 marks]",
+   "ms_text": "10.2\n3. P Z 0.05 (M1)\n10.2 1.6449 A1\nStandard Error of X (A1)\n7\n6.1\nP Z 0.025 M1\n7\n6.1 1.96 A1\n7\n1.96\n10.2 6.1 1.6449 (M1)\n7\n1.72 A1 N0\n10.21.64491.718 ... (M1)\n7.37 A1 N0\n[9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.L5",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "3. [Maximum mark: 9]\nThe daily rainfall in a holiday resort follows a normal distribution with mean $\\mu$ mm and standard deviation $\\sigma$ mm. The rainfall each day is independent of the rainfall on other days.\nOn a randomly chosen day, there is a probability of 0.05 that the rainfall is greater than 10.2 mm.\nIn a randomly chosen 7-day week, there is a probability of 0.025 that the **mean** daily rainfall is less than 6.1 mm.\nFind the value of $\\mu$ and of $\\sigma$. [9 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qA4",
+   "num": "A4",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "qA4.webp",
+   "ms_image": "qA4_ms.webp",
+   "text": "4. [Maximum mark: 11]\nAn urn contains 15 marbles, b of which are blue and ( 15−b are red. Peter knows that )\nthe value of b is either 5 or 9 but he does not know which. He therefore sets up the\nhypotheses\nH : b = 5 , H : b = 9 .\n0 1\nTo choose which hypothesis to accept, he selects 3 marbles at random without\nreplacement. Let X denote the number of blue marbles selected. He decides to accept\nH1 if X≥2 and to accept H0 otherwise.\n(a) State the name given to the region X≥2 . [1 mark]\n(b) Find the probability of making\n(i) a Type I error;\n(ii) a Type II error. [10 marks]",
+   "ms_text": "4. (a) Critical (region) A1\n[1 mark]\n(b) (i) P(Type I error) P( X 2| b 5) (M1)(A1)\n5 10 5 10\n543 5410 3 0 2 1\n3 or (A1)(A1)\n151413 151413 15 15\n3 3\n22\n0.242 A1\n91\n(ii) P(Type II error) P( X 2| b 9) (M1)(A1)\n6 9 6 9\n654 659 3 0 2 1\n3 or (A1)(A1)\n151413 151413 15 15\n3 3\n31\n0.341 A1\n91\n[10 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.6",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "4. [Maximum mark: 11]\nAn urn contains 15 marbles, $b$ of which are blue and $(15-b)$ are red. Peter knows that the value of $b$ is either 5 or 9 but he does not know which. He therefore sets up the hypotheses\n$\\mathrm{H}_0: b=5$, $\\mathrm{H}_1: b=9$.\nTo choose which hypothesis to accept, he selects 3 marbles at random without replacement. Let $X$ denote the number of blue marbles selected. He decides to accept $\\mathrm{H}_1$ if $X\\ge 2$ and to accept $\\mathrm{H}_0$ otherwise.\n(a) State the name given to the region $X\\ge 2$. [1 mark]\n(b) Find the probability of making\n(i) a Type I error;\n(ii) a Type II error. [10 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qA5",
+   "num": "A5",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "qA5.webp",
+   "ms_image": "qA5_ms.webp",
+   "text": "5. [Maximum mark: 10]\nLet X , X , ... , X be independent random variables each having a geometric\n1 2 20\ndistribution with probability of success p equal to 0.6 .\n20\nLet Y = X i . =∑\ni 1\n(a) Explain why the random variable Y has a negative binomial distribution. [2 marks]\n(b) Find the mean and variance of Y . [4 marks]\n(c) Calculate P( Y= 30. ) [4 marks]",
+   "ms_text": "5. (a) X is the number of trials up to the 1st success\n1\nX is the number of subsequent trials up to the 2nd success R1\n2\nX is the number of subsequent trials up to the 20th success\n20\n20\nX is the total number of trials up to the 20th success and\ni\ni 1\ntherefore has a negative binomial distribution. R1\n[2 marks]\n20 100\n(b) Mean 33.3 (M1)A1\n0.6 3\n200.4 200\nVariance 22.2 (M1)A1\n2 0.6 9\n[4 marks]\n29\n20 10 (c) P( Y 30) 0.6 0.4 M1(A2)\n19\n0.0768 A1 N2\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "5. [Maximum mark: 10]\nLet $X_1, X_2, \\ldots, X_{20}$ be independent random variables each having a geometric distribution with probability of success $p$ equal to 0.6.\nLet $Y=\\sum_{i=1}^{20} X_i$.\n(a) Explain why the random variable $Y$ has a negative binomial distribution. [2 marks]\n(b) Find the mean and variance of $Y$. [4 marks]\n(c) Calculate $\\mathrm{P}(Y=30)$. [4 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qB1",
+   "num": "B1",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "qB1.webp",
+   "ms_image": "qB1_ms.webp",
+   "text": "1. [Maximum mark: 10]\n+ 2 2 (modulo 3). Let ab , ∈\n′ and define aRb ⇔ a ≡ b\n(a) Show that R is an equivalence relation. [6 marks]\n(b) Find all the equivalence classes. [4 marks]",
+   "ms_text": "1. (a) Reflexive: aRa because a 2 a 2(modulo 3) A1\nSymmetric: aRb⇒ 2 2 a b divisible by 3\nb 2 a⇒ 2 divisible by 3 bRa M1A1\n2 2 Transitive: aRb⇒ a b 3, ( m m ′ ) M1\n2 2 bRc b c 3, ( n n ′ ) A1\n2 2 a c 3( m n ) aRc A1\n[6 marks]\n(b) The equivalence classes are\n3 n 2 ;3 n 1; n ′ A2\n3; n n ′ A2\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "6"
+   ],
+   "subtopics": [
+    "7.2",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "1. [Maximum mark: 10]\nLet $a, b\\in\\mathbb{Z}^+$ and define $aRb \\Leftrightarrow a^2\\equiv b^2$ (modulo 3).\n(a) Show that $R$ is an equivalence relation. [6 marks]\n(b) Find all the equivalence classes. [4 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qB2",
+   "num": "B2",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "qB2.webp",
+   "ms_image": "qB2_ms.webp",
+   "text": "2. [Maximum mark: 14]\nLet ∗ be a binary operation defined on ϒ as follows:\nab ∗ = a + b −1\n(a) Determine whether or not the operation ∗ is commutative. [2 marks]\n(b) Show that { ϒ∗ is a group. ,} [12 marks]",
+   "ms_text": "2. (a) ab a b 1 ; ba b a 1 A1\nThese are equal, therefore the operation is commutative. R1\n[2 marks]\n(b) Closure: , ab ϒ ab a b 1 ϒ R1\nIdentity: For an identity e we require\nae a e 1 a so e 1 ϒ M1A1\nInverse: For an inverse of a we require\n1 1 aa a a 11 M1A1\n1 so a 2 a ( ϒ ) A1\nAssociativity:\na ( bc ) a ( b c 1) M1\na b c 2 A1\n( ab ) c ( a b 1) c M1\na b c 2 A1\nThese are equal, therefore the operation is associative. A1\nThe four conditions are satisfied so { ϒ ,} is a group. R1\n[12 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "2. [Maximum mark: 14]\nLet $*$ be a binary operation defined on $\\mathbb{R}$ as follows:\n$a*b=a+b-1$\n(a) Determine whether or not the operation $*$ is commutative. [2 marks]\n(b) Show that $\\{\\mathbb{R}, *\\}$ is a group. [12 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qB3",
+   "num": "B3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "qB3.webp",
+   "ms_image": "qB3_ms.webp",
+   "text": "3. [Maximum mark: 12]\nThe permutations p1 and p2 of the integers {1 , 2 , 3 , 4 , 5} are given by\n1 2 3 4 5 1 2 3 4 5\n= = . p\n; p\n1 2\n3 1 2 5 4 2 3 4 5 1\n(a) [4 marks] Find the order of p1 .\n(b) (i) Find pp 1, the composite permutation p1 followed by p2.\n2\n(ii) Determine whether or not p1 and p2 commute under composition of\npermutations. [4 marks]\n2 1 (c) Find ( p p ) −. [4 marks]\n1 2",
+   "ms_text": "1 2 3 4 5\n2 3. (a) p A1\n1 2 3 1 4 5\n1 2 3 4 5\n3 p A1\n1 1 2 3 5 4\nThis shows that the first 3 elements cycle with order 3 and\nthe last 2 with order 2. The order of 1p is therefore 6. R2\n[4 marks]\n1 2 3 4 5\n(b) (i) pp A2\n2 1\n4 2 3 1 5\n(ii) Attempting to find pp (as many terms as needed, e.g.1 1) M1\n1 2\n1 2 3 4 5\n1 2 5 4 3\nThey do not commute. R1\n[4 marks]\n1 2 3 4 5\n2 (c) pp A2\n1 2 3 1 4 5 2\n1 2 3 4 5\n2 1 ( pp ) A2\n1 2\n2 5 1 3 4\n[4 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.7",
+    "7.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "3. [Maximum mark: 12]\nThe permutations $p_1$ and $p_2$ of the integers $\\{1,2,3,4,5\\}$ are given by\n$p_1=\\begin{pmatrix}1&2&3&4&5\\\\3&1&2&5&4\\end{pmatrix}$; $p_2=\\begin{pmatrix}1&2&3&4&5\\\\2&3&4&5&1\\end{pmatrix}$.\n(a) Find the order of $p_1$. [4 marks]\n(b) (i) Find $p_2p_1$, the composite permutation $p_1$ followed by $p_2$.\n(ii) Determine whether or not $p_1$ and $p_2$ commute under composition of permutations. [4 marks]\n(c) Find $(p_1^2p_2)^{-1}$. [4 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qB4",
+   "num": "B4",
+   "section": null,
+   "marks": 18,
+   "qtype": "long",
+   "image": "qB4.webp",
+   "ms_image": "qB4_ms.webp",
+   "text": "4. [Maximum mark: 18]\nS× have The set S contains the four elements a, b, c, d . The groups {, Sο } and {, }\nthe following Cayley tables.\nο a b c d × a b c d\na c d a b a c a d b\nb d c b a b a b c d\nc a b c d c d c b a\nd b a d c d b d a c\n(a) For each group,\n(i) state the identity,\n(ii) find the order of each of the elements. [6 marks]\n(b) Write down all the proper subgroups of\n(i) {, Sο } ;\n(ii) {, S×. } [4 marks]\n(c) Solve the equation a ( ο( x × x ) )× d = c . [8 marks]",
+   "ms_text": "4. (a) (i) c is the identity of ο A1\nb is the identity of A1\n2 2 2 (ii) For ο, a b d c (M1)\nSo a, b, d have order 2, c order 1 A1\nFor , c 2 ba , 4 d 4 b (M1)\nSo a, d have order 4, c has order 2, b has order 1 A1\n[6 marks]\n(b) (i) {,};{,};{, ac bc cd } A1A1A1\n(ii) {,} bc A1\n[4 marks]\n(c) Post-multiply by the inverse of d under , i.e.a (M1)\n[ a ο ( xx )] d a ca (A1)\na ο ( xx ) d A1\nPre-multiply by the inverse of a under ο, i.e.a (M1)\naa ο ο ( xx ) ad ο (A1)\nxx b A1\nc A1A1 We now see by inspection that x b or x\n[8 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.6",
+    "7.8",
+    "7.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "4. [Maximum mark: 18]\nThe set $S$ contains the four elements $a, b, c, d$. The groups $\\{S,\\circ\\}$ and $\\{S,\\times\\}$ have the following Cayley tables.\n$\\circ$ | a | b | c | d\na | c | d | a | b\nb | d | c | b | a\nc | a | b | c | d\nd | b | a | d | c\n\n$\\times$ | a | b | c | d\na | c | a | d | b\nb | a | b | c | d\nc | d | c | b | a\nd | b | d | a | c\n(a) For each group,\n(i) state the identity,\n(ii) find the order of each of the elements. [6 marks]\n(b) Write down all the proper subgroups of\n(i) $\\{S,\\circ\\}$;\n(ii) $\\{S,\\times\\}$. [4 marks]\n(c) Solve the equation $(a\\circ(x\\times x))\\times d=c$. [8 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qB5",
+   "num": "B5",
+   "section": null,
+   "marks": 6,
+   "qtype": "long",
+   "image": "qB5.webp",
+   "ms_image": "qB5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nLet A and B be sets such that A ∩ B = A ∪ B . Prove that A = B . [6 marks]",
+   "ms_text": "5. Let x A M1\nThen x A B A B A1\nSo x B and A B A1\nLet x B M1\nThen x A B A B\nSo x A and B A A1\nSince A B and B A (or stated in words), it follows that A B. R1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "5. [Maximum mark: 6]\nLet $A$ and $B$ be sets such that $A\\cap B=A\\cup B$. Prove that $A=B$. [6 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qC1",
+   "num": "C1",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "qC1.webp",
+   "ms_image": "qC1_ms.webp",
+   "text": "1. [Maximum mark: 10]\n(a) Use l’Hôpital’s Rule to find\n2 x\nlimln\n(i) ;\nx → 1 x − 1\n2 x tan\n(ii) lim [8 marks]\ncos.\nx → 0 1 − x\n(b) Giving a reason, state whether the following argument is correct or incorrect.\nx − 3 1 1\n“Using l’Hôpital’s Rule, lim = lim = .” [2 marks]\n2\nx → 3 x − 3 x → 3 2 x 6",
+   "ms_text": "2\n2 ln x\nx\n1. (a) (i) lim lim M1A1\nx 1 x 1 x 1 1\n2 A1 N0\n2 2 tan x 2tansec x x\n(ii) lim lim M1A1\nx 0 1cos x x 0 sin x\nEITHER\n4 2 2 2sec x 4tan x sec x\nlim M1A1\nx 0 cos x\n2 A1 N0\nOR\n3 x M1A1\nlim 02sec\nx\n2 A1\n[8 marks]\n(b) The argument is incorrect because the denominator is not zero when x 3 . R2\n[2 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "1. [Maximum mark: 10]\n(a) Use l'Hôpital's Rule to find\n(i) $\\lim_{x\\to 1}\\frac{\\ln x^2}{x-1}$;\n(ii) $\\lim_{x\\to 0}\\frac{\\tan^2 x}{1-\\cos x}$. [8 marks]\n(b) Giving a reason, state whether the following argument is correct or incorrect.\n\"Using l'Hôpital's Rule, $\\lim_{x\\to 3}\\frac{x-3}{x^2-3}=\\lim_{x\\to 3}\\frac{1}{2x}=\\frac{1}{6}$.\" [2 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qC2",
+   "num": "C2",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "qC2.webp",
+   "ms_image": "qC2_ms.webp",
+   "text": "2. [Maximum mark: 8]\n2 3 Given that the Maclaurin series for esin x is a + bx + cx + dx + ..., find the values of a,\nb, c and d . [8 marks]",
+   "ms_text": "2. METHOD 1\nsin x fx () e , f (0) 1 A1\nsin x f () x (cos)e x\nf (0) 1 A1\nsin x 2 sin x f () x (sin)e x (cos x )e M1\nf (0) 1 A1\nsin x sin x 3 sin x sin x f () x (cos)e x (sincos)e x x (cos x )e 2(sincos)e x x M1\nf (0) 0 A1\n1\na 1, b 1, c , d 0 A2 N0\n2\n[8 marks]\nMETHOD 2\n2 3 sin x sin x\nsin x e 1sin x ... (M1)(A1)\n2 6\n2 3\nx 3 1 x 3 1 x 3\n1 ( x ...) x ... x ... ... M1A1\n6 2 6 6 6\n3 2 3 x x x\n1 x ... M1A1\n6 2 6\nx 2 3\n1 x 0 x ... A2 N0\n2\n1\n( a 1, b 1, c , d 0)\n2\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "2. [Maximum mark: 8]\nGiven that the Maclaurin series for $\\mathrm{e}^{\\sin x}$ is $a+bx+cx^2+dx^3+\\ldots$, find the values of $a$, $b$, $c$ and $d$. [8 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qC3",
+   "num": "C3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "qC3.webp",
+   "ms_image": "qC3_ms.webp",
+   "text": "3. [Maximum mark: 12]\n∞ 1\nConsider the infinite series ∑ .\n1nn ( + 2 ) n =\n(a) Show that the series is convergent. [3 marks]\n1\n(b) (i) Express in partial fractions.\nnn ( + 2 )\n∞ 1\n∑ (ii) Hence find . [9 marks]\n1nn ( + 2 ) n =",
+   "ms_text": "3. (a) EITHER\n1 1\nM1A1\nn which is convergent\nnn ( 2) 2 n 1 n 1\nThe given series is therefore convergent using the comparison test. R1\n[3 marks]\nOR\n1 1 n\nlim ÷2 lim 1 M1A1\nn nn ( 2) n n n 2\nThe given series is therefore convergent using the limit comparison test. R1\n[3 marks]\n1 A B An ( 2) Bn\n(b) (i) Let (M1)\nnn ( 2) n n 2 nn ( 2)\nSubstituting values for n\n1\nA (A1)\n2\n1\nB (A1)\n2\n1 1 1\nA1\nnn ( 2) 2 n 2( n 2)\n(ii) Using partial fractions\n1 1 1 1 1 1 1 1 1 1\n1 2 2 2 2 2 2 2 2 2 2\n... M1A1\nnn ( 2) 1 3 2 4 3 5 4 6 5 7 n 1\nRecognizing the cancellation (in the telescoping series) (e.g. crossing out).R1\n1 1 1 3\nA2\nnn ( 2) 2 4 4 n 1\n[9 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L1",
+    "1.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "3. [Maximum mark: 12]\nConsider the infinite series $\\sum_{n=1}^{\\infty}\\frac{1}{n(n+2)}$.\n(a) Show that the series is convergent. [3 marks]\n(b) (i) Express $\\frac{1}{n(n+2)}$ in partial fractions.\n(ii) Hence find $\\sum_{n=1}^{\\infty}\\frac{1}{n(n+2)}$. [9 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qC4",
+   "num": "C4",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "qC4.webp",
+   "ms_image": "qC4_ms.webp",
+   "text": "4. [Maximum mark: 16]\n(a) Use integration by parts to show that\n− sin x − sin x\n∫ sincos x x e d x = − e ( 1 + sin) x + C . [4 marks]\ny Consider the differential equation d\n− y cos x = sincos x x .\nd x\n(b) Find an integrating factor. [3 marks]\n(c) Solve the differential equation, given that y = −2 when x = 0 . Give your\nanswer in the form y = fx () . [9 marks]",
+   "ms_text": "4. (a) I sincose x x sin x d x\nFor a reasonable attempt at integration by parts. (M1)\nu sin x v e sin x\nsin x d u cosd xx d v cose x d x (A1)\nI sine x sin x cose x sin x d x A1A1\nsine x sin x e sin x C AG\n[4 marks]\ncosd xx\n(b) IF e (M1)(A1)\ne sin x A1\n[3 marks]\nd y sin x sin x sin x\n(c) e y cose x sincose x x M1A1\nd x\nsin x sin x e y sincose x x d x M1A1\nsin x sin x sin x e y sine x e C A1\nSubstituting x 0 and y 2 (M1)\n2 01C\n1C (A1)\nsin x sin x sin x so e y sine x e 1 A1\nsin x y sin x 1e A1\n[9 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "4. [Maximum mark: 16]\n(a) Use integration by parts to show that\n$\\int \\sin x\\cos x\\,\\mathrm{e}^{-\\sin x}\\,\\mathrm{d}x=-\\mathrm{e}^{-\\sin x}(1+\\sin x)+C$. [4 marks]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x}-y\\cos x=\\sin x\\cos x$.\n(b) Find an integrating factor. [3 marks]\n(c) Solve the differential equation, given that $y=-2$ when $x=0$. Give your answer in the form $y=f(x)$. [9 marks]",
+   "review_note": "Markscheme crop omits its first line '4. (a) I = ∫ sin x cos x e^{-sin x} dx' (restated integral, no marks): seg_math treats a small embedded equation image at y≈74-82 on ms page 15 as a header logo, so body_top clips it and overrides cannot bypass it. All marking content present. | fixed by segmenter update: the line noted above as missing is now in the crop"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qC5",
+   "num": "C5",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "qC5.webp",
+   "ms_image": "qC5_ms.webp",
+   "text": "5. [Maximum mark: 14]\n∞\nsinπ n Find the interval of convergence of the series\n∑ x . [14 marks]\nn n = 1",
+   "ms_text": "5. Using the ratio test (M1)\nn 1 sin x\nu n 1\nn 1\nlim lim A1\nn u n n\nsin x n\nn\nsin\nn 1\nx A1 lim\nn\nsin\nn\n| x | A1\nThe series is convergent for x 1 . A1\nWhen x 1 , the series is sin M1\nn n 1\n1\nUsing the limit comparison test with the divergent series M1\nn n 1\nsin\nn\nlim A1\nn 1\nn\nThe series is divergent. R1\nn When x 1 , the series is (1)sin M1\nn n 1\nThe series is alternating (after the first term). R1\nThe general term is decreasing in magnitude and tending to zero as n . R1\nThe series is convergent. R1\nThe interval of convergence of the original series is 1 x 1 . A1\n[14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L2",
+    "5.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "5. [Maximum mark: 14]\nFind the interval of convergence of the series $\\sum_{n=1}^{\\infty}\\sin\\left(\\frac{\\pi}{n}\\right)x^n$. [14 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qD1",
+   "num": "D1",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "qD1.webp",
+   "ms_image": "qD1_ms.webp",
+   "text": "1. [Maximum mark: 14]\nThe weights of the edges in a simple graph G are given in the following table.\nVertices A B C D E F\nA - 4 6 16 15 17\nB 4 - 5 17 9 16\nC 6 5 - 15 8 14\nD 16 17 15 - 15 7\nE 15 9 8 15 - 18\nF 17 16 14 7 18 -\n(a) Use Prim’s Algorithm, starting with vertex F, to find and draw the minimum\nspanning tree for G. Your solution should indicate the order in which the edges\nare introduced. [12 marks]\n(b) Use your tree to find an upper bound for the travelling salesman problem for G. [2 marks]",
+   "ms_text": "1. (a) The edges are introduced in the following order:\nFD, FC, CB, BA, CE A2A2A2A2A2\nD F\nC B\nA2\nE A\n[12 marks]\n(b) UB Twice weight of minimal spanning tree 238 76 A2\n[2 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8",
+    "6.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "1. [Maximum mark: 14]\nThe weights of the edges in a simple graph $G$ are given in the following table.\nVertices | A | B | C | D | E | F\nA | - | 4 | 6 | 16 | 15 | 17\nB | 4 | - | 5 | 17 | 9 | 16\nC | 6 | 5 | - | 15 | 8 | 14\nD | 16 | 17 | 15 | - | 15 | 7\nE | 15 | 9 | 8 | 15 | - | 18\nF | 17 | 16 | 14 | 7 | 18 | -\n(a) Use Prim's Algorithm, starting with vertex F, to find and draw the minimum spanning tree for $G$. Your solution should indicate the order in which the edges are introduced. [12 marks]\n(b) Use your tree to find an upper bound for the travelling salesman problem for $G$. [2 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qD2",
+   "num": "D2",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "qD2.webp",
+   "ms_image": "qD2_ms.webp",
+   "text": "2. [Maximum mark: 16]\n(a) Use the Euclidean algorithm to find the greatest common divisor of 43 and 73. [5 marks]\nConsider the equation 43 x + 73 y = 7 , where xy , ∈′.\n(b) (i) Find the general solution of this equation.\n(ii) Find the solution which minimises || x + || y . [11 marks]",
+   "ms_text": "2. (a) Using Euclid’s Algorithm,\n73 4330 A1\n43 3013 A1\n30 2134 A1\n13 341 A1\nThe gcd is therefore 1 R1\n[5 marks]\n(b) (i) Working backwards, (M1)\n11334\n13 3(30 213) (A1)\n713330\n7(4330) 330 (A1)\n7431030\n74310(73 43) (A1)\n10731743 A1\nTherefore,\n7174371073 7 M1A1\nThe general solution is therefore\nx 119 73, k y 70 43 k , (where k ′) M1A1\n(ii) A graphical approach or trying successive values, gives k 2 M1\nand (, xy ) (27, 16) A1 N1\n[11 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.3",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "2. [Maximum mark: 16]\n(a) Use the Euclidean algorithm to find the greatest common divisor of 43 and 73. [5 marks]\nConsider the equation $43x+73y=7$, where $x, y\\in\\mathbb{Z}$.\n(b) (i) Find the general solution of this equation.\n(ii) Find the solution which minimises $|x|+|y|$. [11 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qD3",
+   "num": "D3",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "qD3.webp",
+   "ms_image": "qD3_ms.webp",
+   "text": "3. [Maximum mark: 13]\nLet H be the weighted graph drawn below.\n(a) (i) Name the two vertices of odd degree.\n(ii) State the shortest path between these two vertices.\n(iii) Using the route inspection algorithm, or otherwise, find a walk, starting\nand ending at A, of minimum total weight which includes every edge at\nleast once.\n(iv) Calculate the weight of this walk. [11 marks]\n(b) Write down a Hamiltonian cycle in H . [2 marks]",
+   "ms_text": "3. (a) (i) The two vertices of odd degree are E and D. A1A1\n(ii) The shortest path between them is EBD. (M1)A1\n(iii) Each of the edges EB, BD will be traversed twice. (R2)\nOne such path is ABEFGCBDBEGDFCA. A3\n(iv) Total weight sum of all weights + two repeated edges M1\n32 4 36 A1 N2\n[11 marks]\n(b) One such cycle is ABEFDGCA. A2\n[2 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.6",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "3. [Maximum mark: 13]\nLet $H$ be the weighted graph drawn below.\n[Diagram: weighted graph H with vertices A, B, C, D, E, F, G; edges AB=4, AC=1, BC=3, BD=1, BE=3, CF=6, CG=2, DF=4, DG=2, EF=1, EG=3, FG=2]\n(a) (i) Name the two vertices of odd degree.\n(ii) State the shortest path between these two vertices.\n(iii) Using the route inspection algorithm, or otherwise, find a walk, starting and ending at A, of minimum total weight which includes every edge at least once.\n(iv) Calculate the weight of this walk. [11 marks]\n(b) Write down a Hamiltonian cycle in $H$. [2 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qD4",
+   "num": "D4",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "qD4.webp",
+   "ms_image": "qD4_ms.webp",
+   "text": "4. [Maximum mark: 9]\nConsider the equation x 121 += 7 y , where xy , ∈ + ′.\nUsing Fermat’s little theorem, show that this equation has no solution. [9 marks]",
+   "ms_text": "4. By Fermat’s little theorem\nx 6 1(mod 7) so x 12 1(mod 7) A1A1\n12 x 1 2(mod 7) and cannot therefore equal 7y. A1A1\nThe above only applies when x is not a multiple of 7. R1\nSuppose now that x is a multiple of 7. Then, M1\n12 x 0(mod 7) A1\n12 so x 11(mod 7) and cannot therefore equal 7y. A1\nThus, in all cases, the equation has no solution. R1\n[9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.5",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "4. [Maximum mark: 9]\nConsider the equation $x^{12}+1=7y$, where $x, y\\in\\mathbb{Z}^+$.\nUsing Fermat's little theorem, show that this equation has no solution. [9 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ1-qD5",
+   "num": "D5",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "qD5.webp",
+   "ms_image": "qD5_ms.webp",
+   "text": "5. [Maximum mark: 8]\nLet K be a simple graph.\n(a) Define the complement, K, of K . ′ [1 mark]\n(b) Given that K has six vertices, show that K and K cannot both contain an Eulerian ′\n[7 marks] trail.",
+   "ms_text": "5. (a) K is a graph (with the same number of vertices as K) which has an edge\nbetween any two vertices if and only if K does not. A1\n[1 mark]\n(b) The complete graph on 6 vertices is regular of degree 5. (A1)\nThe degree of a vertex in K + the degree of a vertex in K 5 A1\nSo if the degree of the vertex in K is even, it is odd in K, and vice versa. R1\nIf K has m vertices of odd degree then Khas 6 m vertices of odd degree. R1\nA graph has an Eulerian trail if and only if the number of vertices of\nodd degree is 2. (A1)\nAt least one of m and 6 mis greater than 2. R1\nTherefore they cannot both contain an Eulerian trail. R1\n[7 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "5. [Maximum mark: 8]\nLet $K$ be a simple graph.\n(a) Define the complement, $K'$, of $K$. [1 mark]\n(b) Given that $K$ has six vertices, show that $K$ and $K'$ cannot both contain an Eulerian trail. [7 marks]"
+  }
+ ],
+ "status": "done"
+}

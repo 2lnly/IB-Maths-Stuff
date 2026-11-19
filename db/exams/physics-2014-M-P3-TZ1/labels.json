@@ -1,0 +1,281 @@
+{
+ "exam_id": "physics-2014-M-P3-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "1. This question is about comets.\nOutline the nature of a comet. [2]",
+   "add_flags": [],
+   "note": "Option E (astrophysics) solar-system object; filed under E.5 as nearest stellar/astrophysics code | audit: solar-system content is E.5 under Option D/E mapping (audit)"
+  },
+  "2": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "2. This question is about the life history of stars.\n(a) Outline, with reference to pressure, how a star on the main sequence maintains its stability. [3]\n(b) A star with a mass equal to that of the Sun moves off the main sequence. Outline the main processes of nucleosynthesis that occur in the core of this star before and after this change. [2]\n(c) Compare the fate of the star in (b) with that of a star of much greater mass. [3]"
+  },
+  "3": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "3. This question is about stellar distances.\nSirius A is a main sequence star of temperature 9900 K, absolute magnitude +1.42 and apparent magnitude –1.47.\n(a) Show that Sirius A is about 3 pc from Earth. [3]\n(b) The apparent brightness of Sirius A is $1.2\\times10^{-7}$ W m$^{-2}$. Use the result in (a) to determine the luminosity of Sirius A. [2]\n(c) The luminosity of the Sun is $3.8\\times10^{26}$ W. Determine the mass of Sirius A relative to the mass of the Sun. (Assume that $n=3.5$ in the mass–luminosity relation.) [2]\n(d) State and outline another technique that will allow astronomers to confirm the distance estimate in (a). [4]",
+   "qtype": "long"
+  },
+  "4": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "text_clean": "4. This question is about the structure of the universe.\n(a) (i) State, in terms of the arrangement of galaxies, the present large-scale distribution of mass in the universe. [1]\n(ii) State how the separation of distant galaxies is changing with time. [1]\n(b) State and explain the observational evidence for your answer to (a)(ii). [3]"
+  },
+  "5": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "text_clean": "5. This question is about Newton's model of the universe.\nThe diagram below shows a part of a series of thin spherical shells of equal thickness with the Earth at their centre.\n[Diagram: sector of a uniformly star-filled universe with two thin concentric spherical shells A and B centred on the location of Earth]\nExplain quantitatively, with reference to the assumptions Newton made in his model of the universe, how Olbers' paradox arises. [4]"
+  },
+  "6": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "6. This question is about radio communication.\nA signal wave is used to modulate a carrier wave. The amplitude of the carrier wave is 2 mV. The graph below shows how the amplitude $V$ of the modulated wave varies with time $t$.\n[Graph: V / mV (–3 to 3) against t / ms (0 to 2.0); carrier oscillation whose amplitude varies between about 1 mV and 3 mV with period 1.0 ms]\n(a) State what type of modulation has been applied to the carrier wave. [1]\n(b) Using the graph opposite, estimate\n(i) the frequency of the carrier wave. [1]\n(ii) the amplitude of the signal wave. [1]\n(iii) the frequency of the signal wave. [1]\n(c) On the axes below, sketch the power spectrum of the modulated wave. [3]\n[Blank axes: power / arbitrary units against frequency / kHz]"
+  },
+  "7": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14",
+    "X.13"
+   ],
+   "text_clean": "7. This question is about the transmission of digital signals.\nA piece of music sung by a famous soprano is to be digitally recorded. Part of the variation of the output $V$ of the microphone with time $t$ is shown below.\n[Graph: V / mV (0 to 15) against t / ms (0 to 10); starts near 10 mV, peaks at about 15 mV at t = 2 ms, dips to about 5 mV, local max about 6 mV at 6 ms, minimum near 0 at 8 ms, rises to about 4 mV at 10 ms]\nA sound engineer samples the signal using an analogue-to-digital converter (ADC) that has 16 output levels.\n(a) State the number of bits required for each sample. [1]\n(b) The system rounds down each analogue sample to the nearest mV before each digital conversion (for example 0.8 mV becomes 0 mV and 15.1 mV becomes 15 mV).\nThe level of the signal at $t=2$ ms is converted to the maximum digital output and the level of the signal at $t=8$ ms is converted to a zero digital output.\nThe signal is sampled at a rate of 1000 Hz starting at $t=0$. Calculate the binary output for the first two samples. [2]\n(c) With reference to sampling, suggest two reasons why the quality of the recording is poor. [2]\n(d) The full song is digitally recorded on a computer, where it occupies about 120 kilobytes of memory (1 byte = 8 bits). The soprano then sends the song to a friend by email. It takes 1.3 s for the file to reach the friend's computer. Calculate, in kbit s$^{-1}$, the bit-rate of this transmission. [2]"
+  },
+  "8": {
+   "topics": [
+    "X",
+    "D"
+   ],
+   "subtopics": [
+    "X.14",
+    "D.1"
+   ],
+   "text_clean": "8. This question is about satellite communication.\nThe diagram below shows two communications satellites, A and B.\n[Diagram: Earth with satellite A on a polar orbit passing over the poles and satellite B on an equatorial orbit (not to scale)]\n(a) Identify the type of orbit of each satellite. [2]\nA: ........\nB: ........\n(b) Suggest whether type A or type B satellites are more suitable for unbroken communication. [2]\n(c) Explain why satellites require more than one frequency for two-way communication with a ground station. [2]"
+  },
+  "9": {
+   "topics": [
+    "X",
+    "B"
+   ],
+   "subtopics": [
+    "X.14",
+    "B.5"
+   ],
+   "text_clean": "9. This question is about the operational amplifier (op-amp).\nA non-ideal op-amp has a supply voltage of ±12 V and an open-loop gain of $10^6$. In the diagram, the non-inverting and inverting inputs are $V_+$ and $V_-$ respectively, and $V_{OUT}$ is the output voltage.\n[Diagram: op-amp with inputs V– and V+, output V_OUT, supply rails +12 V and –12 V]\n(a) State the value of the resistance between the inverting and non-inverting input of an op-amp. [1]\n(b) In the table below, calculate the missing entries for the circuit in (a). The first row has been completed for you. [2]\n$V_+ - V_-$ | $V_{OUT}$\n0 μV | 0 V\n8 μV | \n–15 μV | \n(c) On the axes below, sketch the variation of the output voltage $V_{OUT}$ with the input voltage $(V_+ - V_-)$. [3]\n[Blank axes: V_OUT / V from –15 to 15 against (V+ – V–) / μV from –15 to 15]\n(d) Two resistors, $R_1$ and $R_2$, and a light emitting diode (LED) are added to the circuit in (a) as shown below.\n[Diagram: R1 (10 kΩ) and R2 form a potential divider between +12 V and –12 V feeding V–; V+ is the input; output V_OUT drives an LED to 0 V]\n(i) State the name of this configuration for the op-amp. [1]\n(ii) The circuit in (d) is designed so that the LED turns on when $V_+$ is greater than 6 V. The resistance $R_1 = 10$ kΩ. Determine the value of resistance $R_2$, assuming that the op-amp is ideal. [3]",
+   "qtype": "long"
+  },
+  "10": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "text_clean": "10. This question is about a compound microscope.\nThe diagram below shows two thin converging lenses in a compound microscope. The focal length of the objective lens is $f_o$. The object O is placed at a distance $u$ from the objective lens.\n[Diagram on grid (scale 2.5 cm): object O left of objective lens, focal points marked at distance f_o either side, eyepiece lens to the right; near point N marked at far left on the principal axis]\n(a) (i) On the diagram above, construct a ray diagram to locate the position of the image formed by the objective lens. Label this image I. [2]\n(ii) Outline whether the image I is real. [1]\n(b) The compound microscope in (a) is in normal adjustment so that the final image is formed at the near point of an unaided eye. The position of the near point of the eye is located at N.\n(i) Define near point. [1]\n(ii) Deduce that the focal length of the eyepiece is around 10.7 cm. [3]\n(iii) Estimate the total linear magnification of the microscope. [2]",
+   "qtype": "long"
+  },
+  "11": {
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.3",
+    "C.2"
+   ],
+   "text_clean": "11. This question is about the nature and properties of electromagnetic waves.\n(a) Electromagnetic waves propagating in a medium suffer dispersion. Describe what is meant by dispersion. [2]\n(b) A charge moves backwards and forwards along a wire, as shown in the diagram below.\n[Diagram: a charge on a straight wire with a double-headed arrow showing oscillation]\nOutline, with reference to the motion of the charge, why electromagnetic radiation is produced by the moving charge. [2]"
+  },
+  "12": {
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.3"
+   ],
+   "text_clean": "12. This question is about interference.\n(a) Two radio stations, A and B, broadcast two coherent signals. The separation $d$ between A and B is much less than the distance $D$ from the stations to the receiver R. Point P is at the same distance from A and B.\n[Diagram: stations A and B separated by d; line L at distance D, perpendicular to the line to P; receiver R on line L]\nThe graph shows how the intensity of the radio signal varies with position as the receiver is moved along line L. The position of the receiver is zero when the receiver is at P.\n[Graph: intensity of radio signal against position of receiver / $\\times10^3$ m from –6 to 6; minima (zero) at 0, ±3, ±6; maxima at ±1.5, ±4.5]\n(i) Deduce that the two sources A and B are 180° out-of-phase. [3]\n(ii) The wavelength of the radio signal is 40 m. Calculate the ratio $\\frac{D}{d}$. [2]\n(b) The receiver R then moves along a different line M which is at 90° to line L.\n[Diagram: line M passes through P perpendicular to L, along the perpendicular bisector between stations A and B; receiver R on M]\nDiscuss the variation of the intensity of the radio signal with position as the receiver is moved along line M. [2]"
+  },
+  "13": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.4"
+   ],
+   "text_clean": "13. This question is about thin-film interference.\nA thin air wedge consists of two flat glass plates that form an angle $\\theta$ of $1.0\\times10^{-3}$ rad.\n[Diagram: light incident vertically on an air wedge between two glass plates at angle θ (not to scale)]\nWhen illuminated with monochromatic light from above, the fringe pattern below is observed in the reflected light. The distance $D$ between two consecutive fringes is 0.30 mm.\n[Diagram: equally spaced dark fringes, spacing D (not to scale)]\n(a) Calculate the wavelength of the light. [2]\n(b) The upper glass plate is now replaced with a curved glass plate. The dotted line represents the upper glass plate used in (a).\n[Diagram: curved upper plate lying below the dotted original straight plate, curving upward to the right]\nSketch the new fringe pattern in the space below. The fringe pattern of (a) is given for comparison. [2]\n[Box with original equally spaced fringe pattern above an empty space]"
+  },
+  "14": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.2",
+    "E.1"
+   ],
+   "text_clean": "14. This question is about X-ray spectra.\nThe graph shows the spectrum obtained when accelerated electrons collide with a molybdenum target in an X-ray tube.\n[Graph: intensity against wavelength / $\\times10^{-11}$ m (0 to 14); continuous spectrum starting at about 2.5, broad hump, two sharp characteristic peaks near 7 and 8, tailing off by about 13]\n(a) Using the graph, calculate the accelerating potential difference of the X-ray tube. [2]\n(b) State and explain one way in which the intensity of the X-ray beam may be controlled. [2]\n(c) Explain the origins of the characteristic X-ray spectrum. [2]",
+   "add_flags": [],
+   "note": "2009 Option G X-ray spectra: cutoff wavelength (photon energy) E.2, characteristic lines E.1, X-ray tube intensity X.11 | audit: Option G X-ray tube spectrum, not medical; X.11 dropped"
+  },
+  "15": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "15. This question is about relativistic kinematics.\n(a) State what is meant by an inertial frame of reference. [2]\n(b) A spaceship travels from space station Alpha to space station Zebra at a constant speed of 0.90c relative to the space stations. The distance from Alpha to Zebra is 10 ly according to space station observers. At this speed $\\gamma = 2.3$.\n[Diagram: spaceship moving at 0.90c from Alpha towards Zebra, separation 10 ly]\nCalculate the time taken to travel between Alpha and Zebra in the frame of reference of an observer\n(i) on the Alpha space station. [1]\n(ii) on the spaceship. [2]\n(c) Explain which of the time measurements in (b)(i) and (b)(ii) is a proper time interval. [2]\n(d) The spaceship arrives at Zebra and enters an airlock at constant speed. O is an observer at rest relative to the airlock. Two lamps P and Q emit a flash simultaneously according to the observer S in the spaceship. At that instant, O and S are opposite each other and midway between the lamps.\n[Diagram: airlock with lamp P on the left and lamp Q on the right; spaceship containing S moving right; O at rest in the airlock opposite S]\nDiscuss whether the lamps flash simultaneously according to observer O. [3]",
+   "qtype": "long"
+  },
+  "16": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "16. This question is about relativistic dynamics.\nA proton is accelerated from rest through a potential difference of 2.5 GV. Determine the momentum of the proton after acceleration. [4]"
+  },
+  "17": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "17. This question is about the Michelson-Morley experiment.\nThe diagram shows some features of the apparatus used in the Michelson-Morley experiment.\n[Diagram: moveable mirror at top, light source at left, telescope at bottom; centre and right empty]\n(a) Draw and label the two missing components in the arrangement used by Michelson and Morley. [2]\n(b) Outline how Michelson and Morley used the apparatus in an attempt to detect the presence of an absolute frame of reference. [3]\n(c) Discuss the result and conclusion that Michelson and Morley obtained using this apparatus. [2]",
+   "note": "audit: Michelson-Morley; interference only descriptive; matches other MM questions"
+  },
+  "18": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.7",
+    "C.5"
+   ],
+   "text_clean": "18. This question is about general relativity.\n(a) State the principle of equivalence. [1]\n(b) An observer in a spaceship moving at constant speed measures the frequency $f_0$ of light emitted by a source. The spaceship now accelerates to the right.\n[Diagram: spaceship with light source towards the rear and observer towards the front; acceleration to the right]\nThe observed frequency changes to $f$.\n(i) Outline why, during the acceleration, $f$ is less than $f_0$. [2]\n(ii) Explain how the result outlined in (b)(i) leads to the deduction that time dilates near a planet. [3]"
+  },
+  "19": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "19. This question is about evidence that supports general relativity.\nThe astronomical photograph taken from Earth shows four separate images of a single distant quasar that appear to surround a galaxy. The galaxy is closer to Earth than the quasar.\n[Photograph: four bright images of a quasar arranged in a cross around a central galaxy (Einstein cross)]\n[Source: www.hubblesite.org/newscenter/archive/releases/1990/20/image/a/]\nOutline how one image of the quasar is formed. You may draw on the diagram below that shows the arrangement of the Earth, the galaxy and the quasar to support your answer. [3]\n[Diagram: Earth, galaxy and quasar on a dashed straight line, galaxy between Earth and quasar]\n[Source: adapted from www.sciencephoto.com/media/332699/enlarge]"
+  },
+  "20": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "20. This question is about the ear and hearing.\n(a) State the range of audible frequencies for a person with normal hearing. [1]\n(b) Distinguish between intensity of sound and sound intensity level. [2]\n(c) A survey on traffic noise was conducted to measure the sound intensity levels in a street during the day. The graphs for low-frequency noise and high-frequency noise are shown below.\n[Graph: intensity level / dB (70 to 95) against time of day (0:00 to 0:00); low-frequency curve between 80 and 93 dB (85 dB at 09:00); high-frequency dashed curve between 70 and 82 dB (75 dB at 09:00)]\nDetermine the total intensity of sound of noise at 09:00. [3]\n(d) Describe the effects on hearing due to long-term exposure to noise. [2]"
+  },
+  "21": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "21. This question is about X-rays.\n(a) Define attenuation coefficient. [1]\n(b) The graph below shows the variation of attenuation coefficient $\\mu$ with photon energy $E$ for X-rays in an absorbing medium.\n[Graph: μ / m$^{-1}$ (0 to 50) against E / MeV on a log scale from 0.01 to 100; μ falls from 50 near 0.03 MeV to 30 at 0.1 MeV, 20 at 1 MeV, levelling at about 15 above 10 MeV]\nA beam of X-rays is incident on a sample of the medium with intensity $I_0$. Using the graph,\n(i) determine how far X-rays with energy equal to 0.1 MeV travel inside the sample before their intensity reduces to $0.1I_0$. [4]\n(ii) predict whether X-rays of energy 10 MeV are more penetrating than X-rays of energy 0.1 MeV in this medium. [2]\n(c) Outline how the use of intensifying screens improves the contrast in an X-ray image. [2]\n(d) State one advantage and one disadvantage of conducting a computed tomography (CT) X-ray scan compared with taking a single X-ray image. [2]\nadvantage: ........\ndisadvantage: ........",
+   "qtype": "long"
+  },
+  "22": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.11",
+    "E.3"
+   ],
+   "text_clean": "22. This question is about radiation in medicine.\n(a) Distinguish between absorbed dose and dose equivalent. [2]\n(b) The following data refer to a patient of mass 75 kg exposed to radiation.\nabsorbed energy | 0.65 J\ndose equivalent | 55 mSv\nType of radiation | Quality factor\nX-rays | 1\nProtons | 2\nNeutrons | 3–10\nAlpha particles | 20\nUsing the data above, suggest the likely nature of the radiation used. [3]\n(c) Two isotopes of a radioactive nuclide are used in cancer therapy. Isotope X has a physical half-life of 0.7 days and isotope Y has a physical half-life of 7 days. Both X and Y have a biological half-life of 4 days.\n(i) Distinguish between physical half-life and biological half-life. [2]\n(ii) Calculate the effective half-life for isotope X. [2]\n(iii) Using the information in (c), suggest which isotope is likely to be better for cancer treatment. [2]",
+   "qtype": "long"
+  },
+  "23": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "23. This question is about fundamental interactions.\nThe Feynman diagram shows the decay of a K$^+$ meson into three other particles.\n[Feynman diagram: K$^+$ (u, $\\bar{s}$); $\\bar{s}$ emits wavy exchange particle B producing u and $\\bar{d}$ ($\\pi^+$ with the original u); further u-$\\bar{d}$ pair forms second $\\pi^+$; curly line C (gluon) creates d and $\\bar{u}$ forming particle A]\n(a) Identify particle A. [1]\n(b) (i) Identify the interaction whose exchange particle is represented by B. [1]\n(ii) Identify the exchange particle labelled C. [1]\n(c) Outline, with reference to the conservation of strangeness, whether the decay process shown in the Feynman diagram is possible. [2]"
+  },
+  "24": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "24. This question is about mesons.\nThe $\\pi^0$ meson has a mass of about 135 MeV c$^{-2}$.\n(a) The $\\pi^0$ meson is considered to be the exchange particle of the strong interaction. Show that the range of the strong interaction is approximately equal to the diameter of a proton. [2]\n(b) Energy is supplied to a meson in order to separate the quark from the antiquark. With reference to quark confinement, predict the likely outcome of this experiment. [2]"
+  },
+  "25": {
+   "topics": [
+    "X",
+    "D"
+   ],
+   "subtopics": [
+    "X.2",
+    "X.7",
+    "D.3"
+   ],
+   "text_clean": "25. This question is about particle accelerators.\nThe diagram shows part of a linear accelerator used to produce high-energy protons.\n[Diagram: proton source, a row of four cylindrical anodes of increasing length, a.c. power supply between two rails with the first anode connected to the lower rail, particle beam emerging]\n(a) Draw suitable power supply connections to the anodes to complete the diagram. The first anode connection has already been drawn for you. [1]\n(b) (i) Outline how the protons are accelerated. [3]\n(ii) Explain why the length of the anodes in the machine is not constant. [3]\n(c) A particle and its antiparticle ($\\Lambda^0$ and $\\bar{\\Lambda}^0$) can be produced in an accelerator when a proton and anti-proton pair collide in the following reaction.\n$p + \\bar{p} \\to \\Lambda^0 + \\bar{\\Lambda}^0$\nThe minimum energy required to produce the $\\Lambda$ pair is 2230 MeV.\n(i) Show that the minimum kinetic energy of a proton required to produce the $\\Lambda$ pair in a collision with a stationary antiproton is about 770 MeV. [2]\n(ii) In a synchrotron, the same collision takes place with proton and antiproton beams moving in opposite directions. Explain, using a calculation, the advantage that synchrotrons have over linear accelerators for production of the $\\Lambda$ pairs. [2]",
+   "qtype": "long"
+  },
+  "26": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "26. This question is about the standard model.\nThe Feynman diagrams show two electroweak interactions between electrons. The particle represented by the wavy line is a photon.\n[Feynman diagrams: two e–e scattering diagrams, one with a dotted-line exchange particle, one with a wavy-line photon; time axis upward]\n(a) State\n(i) the name of the exchange particle represented by the dotted line. [1]\n(ii) one difference between the two exchange particles. [1]\n(b) Outline how the observation of the interaction represented by the diagram with the dotted line provides evidence for the standard model. [2]\n(c) String theory provides an alternative explanation for the behaviour of particles. State two differences between string theory and the standard model. [2]\n1 ........\n2 ........"
+  },
+  "27": {
+   "topics": [
+    "X",
+    "E",
+    "B"
+   ],
+   "subtopics": [
+    "X.12",
+    "E.2",
+    "B.3"
+   ],
+   "text_clean": "27. This question is about particle-antiparticle production in the early universe.\nIt is suggested that about 100 s after the Big Bang the temperature of the universe was $10^9$ K.\n(a) State the value of the ratio\n$\\frac{\\text{temperature of the universe } 10^{-43}\\text{ s after the Big Bang}}{\\text{temperature of the universe 100 s after the Big Bang}}$. [1]\n(b) Determine whether electron–positron pair production on a large-scale was likely in the universe 100 s after the Big Bang. [3]",
+   "add_flags": [
+    "topic-uncertain"
+   ]
+  }
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "exam_id": "math-2012-N-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2012,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2012 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2012 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8812-7209; code N12/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches paper total 60",
+ "qp_pages": 5,
+ "questions": [
+  {
+   "id": "math-2012-N-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 19]\nAll of the relations in this question are defined on �\\{} 0.\n(a) Decide, giving a proof or a counter-example, whether xRy ⇔ x + y > 7 is\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [4 marks]\n(b) Decide, giving a proof or a counter-example, whether xRy ⇔−< 2 x − y < 2 is\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [4 marks]\n(c) Decide, giving a proof or a counter-example, whether xRy ⇔ xy > 0 is\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [4 marks]\nx\n(d) Decide, giving a proof or a counter-example, whether xRy ⇔ ∈� is\ny\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [4 marks]\n(e) One of the relations from parts (a), (b), (c) and (d) is an equivalence relation.\nFor this relation, state what the equivalence classes are. [3 marks]",
+   "ms_text": "1. (a) (i) not reflexive e.g.11 += 2 R1\n(ii) symmetric since x y y x R1 + = +\n(iii) e.g.111 7,112 7 but 1 2 3 , so not transitive M1A1 + > + > + =\n[4 marks]\n(b) (i) reflexive since x x 0 R1 − =\n(ii) symmetric since x y y x R1 − = −\n(iii) e.g. 1R2, 2R3 but 13 − = −, so not transitive 2 M1A1\n[4 marks]\n2 (c) (i) reflexive since\nx> 0 R1\n(ii) symmetric since xy = yx R1\n2 2 (iii) xy > 0 and yz\n>⇒ 0 xyz >⇒ 0 xz > since 0 y> 0 , so transitive M1A1\n[4 marks]\nx\n(d) (i) reflexive since 1 R1\nx=\nnot symmetric e.g.2 but 1 (ii) 2 0.5 R1\n1= 2=\nx\n(iii) ∈′ and y M1A1 z∈′⇒xy yz=x\nz∈′, so transitive\ny\n[4 marks]\nNote: For each R1 mark the correct decision and a valid reason must be given.\n(e) only (c) is an equivalence relation (A1)\nthe equivalence classes are\n{1, 2, 3, } 2, 3, } A1A1 … and {1, − − − …\n[3 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 19]\nAll of the relations in this question are defined on $\\mathbb{Z}\\setminus\\{0\\}$.\n(a) Decide, giving a proof or a counter-example, whether $xRy \\Leftrightarrow x+y>7$ is\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [4 marks]\n(b) Decide, giving a proof or a counter-example, whether $xRy \\Leftrightarrow -2<x-y<2$ is\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [4 marks]\n(c) Decide, giving a proof or a counter-example, whether $xRy \\Leftrightarrow xy>0$ is\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [4 marks]\n(d) Decide, giving a proof or a counter-example, whether $xRy \\Leftrightarrow \\frac{x}{y}\\in\\mathbb{Z}$ is\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [4 marks]\n(e) One of the relations from parts (a), (b), (c) and (d) is an equivalence relation. For this relation, state what the equivalence classes are. [3 marks]"
+  },
+  {
+   "id": "math-2012-N-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 9]\nx\n× matrices defined as follows: A = Let A be the set of 21 xy , ∈ �. A function\ny\nx 1 2 x\nf is defined from A to A by f = .\ny 3 4 y\n5\n(a) Evaluate f . [1 mark]\n6\n(b) Prove that f is an injection. [2 marks]\n(c) Prove that f is a surjection. [2 marks]\nx\n− 1 (d) Find f .\n[2 marks]\ny\nx 1 2 x\n= Another function g is defined from A to A by g .\ny 3 6 y\n(e) Is g a bijection? Justify your answer. [2 marks]",
+   "ms_text": "⎛⎞ 5 ⎞ ⎛ 17 ⎞ f⎛\n2. (a) = A1 ⎜\n⎜⎟ ⎟ ⎜ ⎟\n6 39\n⎝ ⎝⎠ ⎠ ⎝ ⎠\n[1 mark]\n⎛ 1 2 ⎞ − 1\n(b) let M = ⎜ , det M = − 2 so M exists M1\n⎟\n3 4\n⎝ ⎠\na c a c a c ⎛ ⎛⎞ ⎞ ⎛ ⎛⎞ ⎞ ⎛⎞ ⎛ ⎞ ⎛⎞ ⎛ ⎞\n− 1 − 1 f\n⎜ ⎟ = f ⎜ ⎟ ⇒ M = M ⇒ MM = MM ⎜⎟ ⎜⎟ ⎜⎟ ⎜ ⎟ ⎜⎟ ⎜ ⎟\nb d b d b d\n⎝ ⎝⎠ ⎠ ⎝ ⎝⎠ ⎠ ⎝⎠ ⎝ ⎠ ⎝⎠ ⎝ ⎠\na c ⎛⎞ ⎛ ⎞\nR1 ⇒\n⎜⎟ = ⎜ ⎟\nb d\n⎝⎠ ⎝ ⎠\nthus f is an injection AG\n[2 marks]\na x for any x ⎛ ⎞ we have to find an a ⎛ ⎞ ⎛ ⎛⎞ ⎞ ⎛⎞\n(c) so that f ⎜ ⎟ =\n⎜ ⎟ ⎜ ⎟ ⎜⎟ ⎜⎟\ny b b y\n⎝ ⎠ ⎝ ⎠ ⎝ ⎝⎠ ⎠ ⎝⎠\n2 1 ⎛ ⎛ − ⎞ ⎞\n− 1 ⎜ ⎜ ⎟ ⎟ M exists\n= M1 3 − 1\n⎜ ⎜ ⎟ ⎟\n⎜ ⎜ ⎟ ⎟\n2 2 ⎝ ⎝ ⎠ ⎠\n⎛ ⎛ − 2 x + y ⎞ ⎞\na x a x ⎛⎞ ⎛ ⎞ ⎛⎞\n1 ⎛ ⎞ ⎜ ⎟ M M − ⎜ ⎟ R1\n⎜⎟ = ⎜ ⎟ ⇒ ⎜⎟ = ⎜ ⎟ = 3 1\nb y b y ⎜ ⎜ ⎟ ⎟\n⎝⎠ ⎝ ⎠ ⎝⎠ ⎝ ⎠ ⎜ x − y ⎟ ⎜ ⎟\n⎝ ⎝ 2 2 ⎠ ⎠\nthus f is a surjection AG\n[2 marks]\n2 x y ⎛ − + ⎞\n⎛ ⎛ x ⎞ ⎞\n− 1 ⎜ ⎟ (d) f\n= 3 1 (M1)A1 ⎜ ⎜ ⎟ ⎟\ny ⎜ x − y ⎟\n⎝ ⎝ ⎠ ⎠ ⎜ ⎟\n2 2 ⎝ ⎠\nNote: Allow answer in matrix form.\n[2 marks]\n⎛ 1 2 ⎞=\n(e) det 0 M1\n⎜ ⎟\n3 6\n⎝ ⎠\nso this matrix does not have an inverse, g does not have an inverse function\nand so g is not a bijection A1\nNote: Finding counterexample showing that g is not injective (or alternatively,\nnot surjective) is acceptable.\n[2 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.3",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 9]\nLet $A$ be the set of $2\\times 1$ matrices defined as follows: $A=\\left\\{\\begin{pmatrix}x\\\\y\\end{pmatrix} \\middle| x, y\\in\\mathbb{R}\\right\\}$. A function $f$ is defined from $A$ to $A$ by $f\\left(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\right)=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix}$.\n(a) Evaluate $f\\left(\\begin{pmatrix}5\\\\6\\end{pmatrix}\\right)$. [1 mark]\n(b) Prove that $f$ is an injection. [2 marks]\n(c) Prove that $f$ is a surjection. [2 marks]\n(d) Find $f^{-1}\\left(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\right)$. [2 marks]\nAnother function $g$ is defined from $A$ to $A$ by $g\\left(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\right)=\\begin{pmatrix}1&2\\\\3&6\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix}$.\n(e) Is $g$ a bijection? Justify your answer. [2 marks]"
+  },
+  {
+   "id": "math-2012-N-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 15]\nLet A ={,}. ab\n(a) Write down all four subsets of A . [1 mark]\nLet the set of all these subsets be denoted by PA (). The binary operation symmetric\ndifference, ∆, is defined on PA () by XY ∆ = ( XY \\ ) ∪ ( Y \\ X ) where XY , ∈ PA () .\n(b) Construct the Cayley table for PA () under ∆. [3 marks]\n(c) Prove that {(), PA ∆ is a group. You are allowed to assume that ∆ is associative. } [3 marks]\nLet �4 ={,, 0123 ,} and +4 denote addition modulo 4.\n(d) Is {(), PA ∆ isomorphic to { } �4 , + } ? Justify your answer. [2 marks]\n4\nLet S be any non-empty set. Let PS () be the set of all subsets of S . For the following\nparts, you are allowed to assume that ∆, ∪ and ∩ are associative.\n(e) (i) State the identity element for {(), PS ∆. }\n(ii) Write down X−1 for X ∈ PS ().\n(iii) Hence prove that {(), PS ∆ is a group. } [4 marks]\n(f) Explain why {(), PS ∪ is not a group. } [1 mark]\n(g) Explain why {(), PS ∩ is not a group. } [1 mark]",
+   "ms_text": "3. (a) ∅ , {}, {}, {,} a b ab A1\n[1 mark]\n(b)\nΔ ∅ {} a {} b {,} ab\n∅ ∅ {} a {} b {,} ab\n{} a {} a ∅ {,} ab {} b\n{} b {} b {,} ab {} a ∅\n{,} ab {,} ab {} b {} a ∅\nA3\nNote: Award A2 for one error, A1 for two errors, A0 for more than two errors.\n[3 marks]\n(c) closure is seen from the table above A1\n∅ is the identity A1\neach element is self-inverse A1\nNote: Showing each element has an inverse is sufficient.\nassociativity is assumed so we have a group AG\n[3 marks]\n(d) not isomorphic as in the above group all elements are self-inverse\nwhereas in (′4 , +4) there is an element of order 4 (e.g. 1) R2\n[2 marks]\n(e) (i) A1 ∅ is the identity\n1 (ii) X\n−= X A1\n(iii) if X and Y are subsets of S then XY Δ (the set of elements that belong\nto X or Y but not both) is also a subset of S, hence closure is proved R1\n{(), PS Δ is a group because it is closed, has an identity, all elements }\nhave inverses (and Δ is associative) R1AG\n[4 marks]\n(f) not a group because although the identity is ∅, if X≠∅ it is impossible to\nfind a set Y such that X ∪ Y = ∅, so there are elements without an inverse R1AG\n[1 mark]\n(g) not a group because although the identity is S, ifX S it is impossible to ≠\nfind a set Y such that X ∩ Y = S , so there are elements without an inverse R1AG\n[1 mark]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.4",
+    "7.9",
+    "7.1",
+    "7.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 15]\nLet $A=\\{a, b\\}$.\n(a) Write down all four subsets of $A$. [1 mark]\nLet the set of all these subsets be denoted by $P(A)$. The binary operation symmetric difference, $\\Delta$, is defined on $P(A)$ by $X\\Delta Y=(X\\setminus Y)\\cup(Y\\setminus X)$ where $X, Y\\in P(A)$.\n(b) Construct the Cayley table for $P(A)$ under $\\Delta$. [3 marks]\n(c) Prove that $\\{P(A), \\Delta\\}$ is a group. You are allowed to assume that $\\Delta$ is associative. [3 marks]\nLet $\\mathbb{Z}_4=\\{0, 1, 2, 3\\}$ and $+_4$ denote addition modulo 4.\n(d) Is $\\{P(A), \\Delta\\}$ isomorphic to $\\{\\mathbb{Z}_4, +_4\\}$? Justify your answer. [2 marks]\nLet $S$ be any non-empty set. Let $P(S)$ be the set of all subsets of $S$. For the following parts, you are allowed to assume that $\\Delta$, $\\cup$ and $\\cap$ are associative.\n(e) (i) State the identity element for $\\{P(S), \\Delta\\}$.\n(ii) Write down $X^{-1}$ for $X\\in P(S)$.\n(iii) Hence prove that $\\{P(S), \\Delta\\}$ is a group. [4 marks]\n(f) Explain why $\\{P(S), \\cup\\}$ is not a group. [1 mark]\n(g) Explain why $\\{P(S), \\cap\\}$ is not a group. [1 mark]"
+  },
+  {
+   "id": "math-2012-N-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 17]\nLet c be a positive, real constant. Let G be the set { x ∈ − c < x < c } . The binary �\nx + y\ny = . operation * is defined on the set G by x *\nxy\n1 +\nc 2\n3 c Simplify c\n(a) . [2 marks] *\n2 4\n(b) State the identity element for G under *. [1 mark]\n(c) For x ∈ G [1 mark] find an expression for x−1 (the inverse of x under *).\n(d) [2 marks] Show that the binary operation * is commutative on G .\n(e) Show that the binary operation * is associative on G . [4 marks]\n(f) (i) If xy , ∈ G explain why ( c − x )( c − y ) > 0.\nxy\n(ii) Hence show that x + y < c + . [2 marks]\nc\nxy\nYou are also told that −− c < x + y .\nc\n(g) Show that G is closed under *. [2 marks]\n(h) G is an Abelian group. [2 marks] Explain why {, *}\n(i) G as c →∞. [1 mark] State what happens to the group {, *}",
+   "ms_text": "c 3 c\n+\nc 3 c 2 4\n4. (a) * = M1\n2 4 13\n1 + ⋅\n24\n5 c\n10 c 4\n= = A1\n11 11\n8\n[2 marks]\n(b) identity is 0 A1\n[1 mark]\n(c) inverse is –x A1\n[1 mark]\ny x\nx* y =x + y + (d) , yx\n∗ = M1\nyx\n1+xy 1 +\n2\nc2 c\n(since ordinary addition and multiplication are commutative)\nx y y x so * is commutative R1 ∗ = ∗\nNote: Accept arguments using symmetry.\n[2 marks]\n⎛ x + y ⎞+\nz\n⎜ xy ⎟\n⎜ 1 + ⎟\nx y 2 + ⎝ c ⎠\n(e) ( x * y ) * z = z = M1 *\nxy x + y z ⎛ ⎞\n1 + 1\n2 + ⎜ xy ⎟ 2 c\nc\n1 ⎜ +\n2 ⎟ c\n⎝ ⎠\nxyz ⎛ ⎞\nx + y + z +\n⎜ 2 ⎟\nc ⎝ ⎠\nxy xyz ⎛ ⎞ ⎛ ⎞\n1 + x + y + z +\n⎜ 2 ⎟ ⎜ 2 ⎟\nc c ⎝ ⎠ ⎝ ⎠\n= = A1\n⎛ xy xz yz ⎞ ⎛ ⎛ xy + xz + yz ⎞ ⎞\n1\n⎜ + + + ⎟ 1 +\nc 2 c 2 c 2 ⎜ ⎜ 2 ⎟ ⎟ ⎝ ⎠ ⎝ c ⎠\n⎝ ⎠\n⎛ xy ⎞\n1 +\n⎜ 2 ⎟\n⎝ c ⎠\n⎛ y + z ⎞\nx + ⎜\nyz ⎟\n⎜ 1 + ⎟\ny z 2 ⎛ + ⎞ ⎝ c ⎠\nx ∗ ( y ∗ z ) = x ∗ =\n⎜ ⎟ yz x y + z\n⎛ ⎞\n⎜ 1 + ⎟ 1 + 2 2\n⎜ yz ⎟ ⎝ c ⎠ c\n1 ⎜ +\n2 ⎟ c\n⎝ ⎠\nxyz ⎛ ⎞\nx + + y + z\n⎜ 2 ⎟\nc ⎝ ⎠\nyz xyz ⎛ ⎞ ⎛ ⎞\n1 + x + y + z +\n⎜ 2 ⎟ ⎜ 2 ⎟\nc c ⎝ ⎠ ⎝ ⎠\n= = A1\n⎛ yz xy xz ⎞ ⎛ ⎛ xy + xz + yz ⎞ ⎞\n1\n⎜ + + + ⎟ 1 +\nc 2 c 2 c 2 ⎜ ⎜ 2 ⎟ ⎟ ⎝ ⎠ ⎝ c ⎠\n⎝ ⎠\n⎛ yz ⎞\n1 +\n⎜ 2 ⎟\n⎝ c ⎠\nsince both expressions are the same ∗ is associative R1\nNote: After the initial M1A1, correct arguments using symmetry also gain full marks.\n[4 marks]\n(f) (i) c > x and c > y ⇒− c x > 0 and c − y >⇒ 0 ( c − xc )( − y ) > 0 R1AG\nxy 2 2\n(ii) c − cx − cy + xy > 0 ⇒ c + xy > cx + cy ⇒ c + > x + y (as c > 0 )\nc\nxy\nso x y c M1AG + < +\nc\n[2 marks]\nxy xy\n(g) if ,xy G then c x y c ∈ −− < + < +\nc c\nxy xy x + y ⎛ ⎞ ⎛ ⎞\nthus − c 1 + < x + y < c 1 + and −< c < c M1\n⎜ 2 ⎟ ⎜ 2 ⎟\nc c xy ⎝ ⎠ ⎝ ⎠\n1 +\nc 2\nxy\n(as ) so c x y c A1 1 + > 0 −< ∗ <\n2 c\nproving that G is closed under ∗ AG\n[2 marks]\n(h) as {,} G is closed, is associative, has an identity and all elements *\nhave an inverse R1\nit is a group AG\nR1 as ∗ is commutative\nit is an Abelian group AG\n[2 marks]\n(i) as c →∞, {G, ∗}→{ϒ, +} A1\n[1 mark]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 17]\nLet $c$ be a positive, real constant. Let $G$ be the set $\\{x\\in\\mathbb{R} \\mid -c<x<c\\}$. The binary operation $*$ is defined on the set $G$ by $x*y=\\frac{x+y}{1+\\frac{xy}{c^2}}$.\n(a) Simplify $\\frac{c}{2}*\\frac{3c}{4}$. [2 marks]\n(b) State the identity element for $G$ under $*$. [1 mark]\n(c) For $x\\in G$ find an expression for $x^{-1}$ (the inverse of $x$ under $*$). [1 mark]\n(d) Show that the binary operation $*$ is commutative on $G$. [2 marks]\n(e) Show that the binary operation $*$ is associative on $G$. [4 marks]\n(f) (i) If $x, y\\in G$ explain why $(c-x)(c-y)>0$.\n(ii) Hence show that $x+y<c+\\frac{xy}{c}$. [2 marks]\nYou are also told that $-c-\\frac{xy}{c}<x+y$.\n(g) Show that $G$ is closed under $*$. [2 marks]\n(h) Explain why $\\{G, *\\}$ is an Abelian group. [2 marks]\n(i) State what happens to the group $\\{G, *\\}$ as $c\\to\\infty$. [1 mark]"
+  }
+ ],
+ "status": "done"
+}

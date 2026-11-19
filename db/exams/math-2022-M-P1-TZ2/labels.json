@@ -1,0 +1,147 @@
+{
+ "exam_id": "math-2022-M-P1-TZ2",
+ "questions": {
+  "1": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "text_clean": "1. [Maximum mark: 5]\nThe $n^{\\text{th}}$ term of an arithmetic sequence is given by $u_n = 15 - 3n$.\n(a) State the value of the first term, $u_1$. [1]\n(b) Given that the $n^{\\text{th}}$ term of this sequence is $-33$, find the value of $n$. [2]\n(c) Find the common difference, $d$. [2]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.6"
+   ],
+   "text_clean": "2. [Maximum mark: 6]\nConsider any three consecutive integers, $n-1$, $n$ and $n+1$.\n(a) Prove that the sum of these three integers is always divisible by $3$. [2]\n(b) Prove that the sum of the squares of these three integers is never divisible by $3$. [4]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.16",
+    "2.15"
+   ],
+   "text_clean": "3. [Maximum mark: 8]\nA function $f$ is defined by $f(x) = \\frac{2x-1}{x+1}$, where $x \\in \\mathbb{R}$, $x \\neq -1$.\n(a) The graph of $y=f(x)$ has a vertical asymptote and a horizontal asymptote.\nWrite down the equation of\n(i) the vertical asymptote;\n(ii) the horizontal asymptote. [2]\n(b) On the set of axes below, sketch the graph of $y=f(x)$.\nOn your sketch, clearly indicate the asymptotes and the position of any points of intersection with the axes. [3]\n[Diagram: blank grid with x-axis and y-axis from -6 to 6]\n(c) Hence, solve the inequality $0 < \\frac{2x-1}{x+1} < 2$. [1]\n(d) Solve the inequality $0 < \\frac{2|x|-1}{|x|+1} < 2$. [2]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.5"
+   ],
+   "text_clean": "4. [Maximum mark: 5]\nFind the least positive value of $x$ for which $\\cos\\left(\\frac{x}{2} + \\frac{\\pi}{3}\\right) = \\frac{1}{\\sqrt{2}}$.",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.9",
+    "2.7"
+   ],
+   "text_clean": "5. [Maximum mark: 7]\nConsider the binomial expansion $(x+1)^7 = x^7 + ax^6 + bx^5 + 35x^4 + \\dots + 1$ where $x \\neq 0$ and $a, b \\in \\mathbb{Z}^+$.\n(a) Show that $b = 21$. [2]\nThe third term in the expansion is the mean of the second term and the fourth term in the expansion.\n(b) Find the possible values of $x$. [5]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.6",
+    "2.14"
+   ],
+   "text_clean": "6. [Maximum mark: 8]\nA function $f$ is defined by $f(x) = x\\sqrt{1-x^2}$ where $-1 \\le x \\le 1$.\nThe graph of $y=f(x)$ is shown below.\n[Graph: odd curve through the origin from (-1,0) to (1,0), minimum in the third quadrant and maximum in the first quadrant]\n(a) Show that $f$ is an odd function. [2]\nThe range of $f$ is $a \\le y \\le b$, where $a, b \\in \\mathbb{R}$.\n(b) Find the value of $a$ and the value of $b$. [6]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.15",
+    "5.11"
+   ],
+   "text_clean": "7. [Maximum mark: 6]\nBy using the substitution $u = \\sec x$ or otherwise, find an expression for $\\int_0^{\\frac{\\pi}{3}} \\sec^n x \\tan x \\, dx$ in terms of $n$, where $n$ is a non-zero real number.",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.14"
+   ],
+   "text_clean": "8. [Maximum mark: 6]\nA continuous random variable $X$ has the probability density function\n$f(x) = \\begin{cases} \\frac{2}{(b-a)(c-a)}(x-a), & a \\le x \\le c \\\\ \\frac{2}{(b-a)(b-c)}(b-x), & c < x \\le b \\\\ 0, & \\text{otherwise} \\end{cases}$.\nThe following diagram shows the graph of $y=f(x)$ for $a \\le x \\le b$.\n[Graph: triangle rising linearly from (a,0) to a peak at x = c, then falling to (b,0)]\nGiven that $c \\ge \\frac{a+b}{2}$, find an expression for the median of $X$ in terms of $a$, $b$ and $c$.",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "text_clean": "9. [Maximum mark: 5]\nProve by contradiction that the equation $2x^3 + 6x + 1 = 0$ has no integer roots.",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7",
+    "4.6",
+    "4.5"
+   ],
+   "text_clean": "10. [Maximum mark: 16]\nA biased four-sided die with faces labelled $1$, $2$, $3$ and $4$ is rolled and the result recorded. Let $X$ be the result obtained when the die is rolled. The probability distribution for $X$ is given in the following table where $p$ and $q$ are constants.\n$x$: 1 | 2 | 3 | 4\n$\\mathrm{P}(X=x)$: $p$ | 0.3 | $q$ | 0.1\nFor this probability distribution, it is known that $\\mathrm{E}(X) = 2$.\n(a) Show that $p = 0.4$ and $q = 0.2$. [5]\n(b) Find $\\mathrm{P}(X > 2)$. [2]\nNicky plays a game with this four-sided die. In this game she is allowed a maximum of five rolls. Her score is calculated by adding the results of each roll. Nicky wins the game if her score is at least ten.\nAfter three rolls of the die, Nicky has a score of four.\n(c) Assuming that rolls of the die are independent, find the probability that Nicky wins the game. [5]\nDavid has two pairs of unbiased four-sided dice, a yellow pair and a red pair.\nBoth yellow dice have faces labelled $1$, $2$, $3$ and $4$. Let $S$ represent the sum obtained by rolling the two yellow dice. The probability distribution for $S$ is shown below.\n$s$: 2 | 3 | 4 | 5 | 6 | 7 | 8\n$\\mathrm{P}(S=s)$: $\\frac{1}{16}$ | $\\frac{2}{16}$ | $\\frac{3}{16}$ | $\\frac{4}{16}$ | $\\frac{3}{16}$ | $\\frac{2}{16}$ | $\\frac{1}{16}$\nThe first red die has faces labelled $1$, $2$, $2$ and $3$. The second red die has faces labelled $1$, $a$, $a$ and $b$, where $a < b$ and $a, b \\in \\mathbb{Z}^+$. The probability distribution for the sum obtained by rolling the red pair is the same as the distribution for the sum obtained by rolling the yellow pair.\n(d) Determine the value of $b$. [2]\n(e) Find the value of $a$, providing evidence for your answer. [2]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.13",
+    "2.14",
+    "2.4",
+    "2.7",
+    "3.9"
+   ],
+   "text_clean": "11. [Maximum mark: 20]\nA function $f$ is defined by $f(x) = \\frac{1}{x^2 - 2x - 3}$, where $x \\in \\mathbb{R}$, $x \\neq -1$, $x \\neq 3$.\n(a) Sketch the curve $y = f(x)$, clearly indicating any asymptotes with their equations. State the coordinates of any local maximum or minimum points and any points of intersection with the coordinate axes. [6]\nA function $g$ is defined by $g(x) = \\frac{1}{x^2 - 2x - 3}$, where $x \\in \\mathbb{R}$, $x > 3$.\n(b) The inverse of $g$ is $g^{-1}$.\n(i) Show that $g^{-1}(x) = 1 + \\frac{\\sqrt{4x^2 + x}}{x}$.\n(ii) State the domain of $g^{-1}$. [7]\nA function $h$ is defined by $h(x) = \\arctan\\frac{x}{2}$, where $x \\in \\mathbb{R}$.\n(c) Given that $(h \\circ g)(a) = \\frac{\\pi}{4}$, find the value of $a$.\nGive your answer in the form $p + \\frac{q}{2}\\sqrt{r}$, where $p, q, r \\in \\mathbb{Z}^+$. [7]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.13",
+    "2.12",
+    "1.14",
+    "1.12"
+   ],
+   "text_clean": "12. [Maximum mark: 18]\nIn the following Argand diagram, the points $Z_1$, $O$ and $Z_2$ are the vertices of triangle $Z_1OZ_2$ described anticlockwise.\n[Diagram: Argand diagram with triangle O, Z1, Z2; Z1 at angle alpha and Z2 at angle theta measured from the positive real axis, alpha > theta]\nThe point $Z_1$ represents the complex number $z_1 = r_1 e^{i\\alpha}$, where $r_1 > 0$. The point $Z_2$ represents the complex number $z_2 = r_2 e^{i\\theta}$, where $r_2 > 0$.\nAngles $\\alpha$, $\\theta$ are measured anticlockwise from the positive direction of the real axis such that $0 \\le \\alpha, \\theta < 2\\pi$ and $0 < \\alpha - \\theta < \\pi$.\n(a) Show that $z_1 z_2^* = r_1 r_2 e^{i(\\alpha - \\theta)}$ where $z_2^*$ is the complex conjugate of $z_2$. [2]\n(b) Given that $\\mathrm{Re}(z_1 z_2^*) = 0$, show that $Z_1OZ_2$ is a right-angled triangle. [2]\nIn parts (c), (d) and (e), consider the case where $Z_1OZ_2$ is an equilateral triangle.\n(c) (i) Express $z_1$ in terms of $z_2$.\n(ii) Hence show that $z_1^2 + z_2^2 = z_1 z_2$. [6]\nLet $z_1$ and $z_2$ be the distinct roots of the equation $z^2 + az + b = 0$ where $z \\in \\mathbb{C}$ and $a, b \\in \\mathbb{R}$.\n(d) Use the result from part (c)(ii) to show that $a^2 - 3b = 0$. [5]\nConsider the equation $z^2 + az + 12 = 0$, where $z \\in \\mathbb{C}$ and $a \\in \\mathbb{R}$.\n(e) Given that $0 < \\alpha - \\theta < \\pi$, deduce that only one equilateral triangle $Z_1OZ_2$ can be formed from the point $O$ and the roots of this equation. [3]",
+   "answer_status": "ok"
+  }
+ }
+}

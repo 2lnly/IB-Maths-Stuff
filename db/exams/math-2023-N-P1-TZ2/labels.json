@@ -1,0 +1,147 @@
+{
+ "exam_id": "math-2023-N-P1-TZ2",
+ "questions": {
+  "1": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5"
+   ],
+   "text_clean": "1. [Maximum mark: 5]\nConsider the functions $f(x)=x-3$ and $g(x)=x^2+k^2$, where $k$ is a real constant.\n(a) Write down an expression for $(g\\circ f)(x)$. [2]\n(b) Given that $(g\\circ f)(2)=10$, find the possible values of $k$. [3]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6"
+   ],
+   "text_clean": "2. [Maximum mark: 4]\nEvents $A$ and $B$ are such that $P(A)=0.65$, $P(B)=0.75$ and $P(A\\cap B)=0.6$.\n(a) Find $P(A\\cup B)$. [2]\n(b) Hence, or otherwise, find $P(A'\\cap B')$. [2]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "text_clean": "3. [Maximum mark: 7]\nThe sum of the first $n$ terms of an arithmetic sequence is given by $S_n=pn^2-qn$, where $p$ and $q$ are positive constants.\nIt is given that $S_4=40$ and $S_5=65$.\n(a) Find the value of $p$ and the value of $q$. [5]\n(b) Find the value of $u_5$. [2]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.6"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\nIn the following triangle ABC, $AB=\\sqrt{6}$ cm, $AC=10$ cm and $\\cos B\\hat{A}C=\\frac{1}{5}$.\n[Diagram (not to scale): triangle ABC with AB = $\\sqrt{6}$ cm, AC = 10 cm, angle at A marked]\nFind the area of triangle ABC.",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "text_clean": "5. [Maximum mark: 6]\nThe binomial expansion of $(1+kx)^n$ is given by $1+12x+28k^2x^2+\\dots+k^nx^n$ where $n\\in\\mathbb{Z}^+$ and $k\\in\\mathbb{Q}$.\nFind the value of $n$ and the value of $k$.",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "text_clean": "6. [Maximum mark: 7]\nProve by mathematical induction that $5^{2n}-2^{3n}$ is divisible by 17 for all $n\\in\\mathbb{Z}^+$.",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "text_clean": "7. [Maximum mark: 5]\nIt is given that $z=5+q\\mathrm{i}$ satisfies the equation $z^2+\\mathrm{i}z=-p+25\\mathrm{i}$, where $p, q\\in\\mathbb{R}$.\nFind the value of $p$ and the value of $q$.",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.11",
+    "1.7"
+   ],
+   "text_clean": "8. [Maximum mark: 9]\n(a) Find $\\int x(\\ln x)^2\\,dx$. [6]\n(b) Hence, show that $\\int_1^4 x(\\ln x)^2\\,dx=32(\\ln 2)^2-16\\ln 2+\\frac{15}{4}$. [3]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.13",
+    "2.14"
+   ],
+   "text_clean": "9. [Maximum mark: 8]\nConsider the function $f(x)=\\frac{\\sin^2(kx)}{x^2}$, where $x\\neq 0$ and $k\\in\\mathbb{R}^+$.\n(a) Show that $f$ is an even function. [2]\n(b) Given that $\\lim_{x\\to 0} f(x)=16$, find the value of $k$. [6]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.7",
+    "1.7",
+    "2.9",
+    "2.4"
+   ],
+   "text_clean": "10. [Maximum mark: 15]\nThe functions $f$ and $g$ are defined by\n$f(x)=\\ln(2x-9)$, where $x>\\frac{9}{2}$\n$g(x)=2\\ln x-\\ln d$, where $x>0$, $d\\in\\mathbb{R}^+$.\n(a) State the equation of the vertical asymptote to the graph of $y=g(x)$. [1]\nThe graphs of $y=f(x)$ and $y=g(x)$ intersect at two distinct points.\n(b) (i) Show that, at the points of intersection, $x^2-2dx+9d=0$.\n(ii) Hence show that $d^2-9d>0$.\n(iii) Find the range of possible values of $d$. [9]\nThe following diagram shows part of the graphs of $y=f(x)$ and $y=g(x)$.\n[Graph: increasing curves f and g intersecting at two points with x-coordinates p and q]\nThe graphs intersect at $x=p$ and $x=q$, where $p<q$.\n(c) In the case where $d=10$, find the value of $q-p$. Express your answer in the form $a\\sqrt{b}$, where $a, b\\in\\mathbb{Z}^+$. [5]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.19",
+    "5.7",
+    "5.6",
+    "5.11",
+    "3.8"
+   ],
+   "text_clean": "11. [Maximum mark: 21]\nConsider the function $f(x)=e^{\\cos 2x}$, where $-\\frac{\\pi}{4}\\le x\\le\\frac{5\\pi}{4}$.\n(a) Find the coordinates of the points on the curve $y=f(x)$ where the gradient is zero. [5]\n(b) Using the second derivative at each point found in part (a), show that the curve $y=f(x)$ has two local maximum points and one local minimum point. [4]\n(c) Sketch the curve of $y=f(x)$ for $0\\le x\\le\\pi$, taking into consideration the relative values of the second derivative found in part (b). [3]\n(d) (i) Find the Maclaurin series for $\\cos 2x$, up to and including the term in $x^4$.\n(ii) Hence, find the Maclaurin series for $e^{\\cos 2x-1}$, up to and including the term in $x^4$.\n(iii) Hence, write down the Maclaurin series for $f(x)$, up to and including the term in $x^4$. [6]\n(e) Use the first two non-zero terms in the Maclaurin series for $f(x)$ to show that $\\int_0^{1/10} e^{\\cos 2x}\\,dx\\approx\\frac{149e}{1500}$. [3]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "1",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.9",
+    "3.6",
+    "3.8",
+    "2.12"
+   ],
+   "text_clean": "12. [Maximum mark: 17]\n(a) Find the binomial expansion of $(\\cos\\theta+\\mathrm{i}\\sin\\theta)^5$. Give your answer in the form $a+b\\mathrm{i}$ where $a$ and $b$ are expressed in terms of $\\sin\\theta$ and $\\cos\\theta$. [4]\n(b) By using De Moivre's theorem and your answer to part (a), show that $\\sin 5\\theta\\equiv 16\\sin^5\\theta-20\\sin^3\\theta+5\\sin\\theta$. [6]\n(c) (i) Hence, show that $\\theta=\\frac{\\pi}{5}$ and $\\theta=\\frac{3\\pi}{5}$ are solutions of the equation $16\\sin^4\\theta-20\\sin^2\\theta+5=0$.\n(ii) Hence, show that $\\sin\\frac{\\pi}{5}\\sin\\frac{3\\pi}{5}=\\frac{\\sqrt{5}}{4}$. [7]",
+   "answer_status": "ok"
+  }
+ }
+}

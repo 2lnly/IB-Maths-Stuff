@@ -1,0 +1,128 @@
+{
+ "exam_id": "math-2011-M-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2011,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2011 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2011 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2211-7209; code M11/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2011-M-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 18,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 18]\nThe binary operator multiplication modulo 14, denoted by *, is defined on the set\nS={, 24681012. , , , , }\n(a) Copy and complete the following operation table.\n2 4 6 8 10 12 *\n2\n4 8 2 10 4 12 6\n6\n8\n10 6 12 4 10 2 8\n12 [4 marks]\n(b) (i) S is a group. Show that {, *}\n(ii) S . Find the order of each element of {, *}\n[11 marks] (iii) Hence show that {, *} S is cyclic and find all the generators.\n(c) The set T is defined by {*: xxx ∈ S } . Show that {, *} T is a subgroup of {, *} S . [3 marks]",
+   "ms_text": "1. (a)\n2 4 6 8 10 12 *\n4 8 12 2 6 10 2\n4 8 2 10 4 12 6\n6 12 10 8 6 4 2\n8 2 4 6 8 10 12\n10 6 12 4 10 2 8\n12 10 6 2 12 8 4\nA4\nNote: Award A4 for all correct, A3 for one error, A2 for two errors, A1 for three\nerrors and A0 for four or more errors.\n[4 marks]\n(b) (i) closure: there are no new elements in the table A1\nidentity: 8 is the identity element A1\ninverse: every element has an inverse because there is an 8\nin every row and column A1\nassociativity: (modulo) multiplication is associative A1\ntherefore {,} S is a group AG *\n(ii) the orders of the elements are as follows\nelement order\n2 3\n4 3\n6 2\n8 1\n10 6\n12 6\nA4\nNote: Award A4 for all correct, A3 for one error, A2 for two errors,\nA1 for three errors and A0 for four or more errors.\n(iii) EITHER\nthe group is cyclic because there are elements of order 6 R1\nOR\nthe group is cyclic because there are generators R1\nTHEN\n10 and 12 are the generators A1A1\n[11 marks]\n(c) looking at the Cayley table, we see that\nT� {2, 4, 8} A1\nthis is a subgroup because it contains the identity element 8,\nno new elements are formed and 2 and 4 form an inverse pair R2\nNote:Award R1 for any two conditions\n[3 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.6",
+    "7.4",
+    "7.5",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 18]\nThe binary operator multiplication modulo 14, denoted by $*$, is defined on the set $S = \\{2, 4, 6, 8, 10, 12\\}$.\n(a) Copy and complete the following operation table. [4 marks]\n| $*$ | 2 | 4 | 6 | 8 | 10 | 12 |\n| 2 | | | | | | |\n| 4 | 8 | 2 | 10 | 4 | 12 | 6 |\n| 6 | | | | | | |\n| 8 | | | | | | |\n| 10 | 6 | 12 | 4 | 10 | 2 | 8 |\n| 12 | | | | | | |\n(b) (i) Show that $\\{S, *\\}$ is a group.\n(ii) Find the order of each element of $\\{S, *\\}$.\n(iii) Hence show that $\\{S, *\\}$ is cyclic and find all the generators. [11 marks]\n(c) The set $T$ is defined by $\\{x * x : x \\in S\\}$. Show that $\\{T, *\\}$ is a subgroup of $\\{S, *\\}$. [3 marks]"
+  },
+  {
+   "id": "math-2011-M-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 7,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nThe universal set contains all the positive integers less than 30. The set A contains\nall prime numbers less than 30 and the set B contains all positive integers of the form\n3 + 5 nn ( ∈ ) ∞ that are less than 30. Determine the elements of\n(a) AB \\ ; [4 marks]\nAB ∆ [3 marks] (b) .",
+   "ms_text": "2. (a) A � {2, 3, 5, 7, 11, 13, 17, 19, 23, 29} (A1)\nB � {3, 8, 13, 18, 23, 28} (A1)\nNote: FT on their A and B\nAB \\ � {elements in A that are not in B } (M1)\n� {2, 5, 7, 11, 17, 19, 29} A1\n[4 marks]\n(b) BA � \\ {8, 18, 28} (A1)\nAB � � ( AB \\ ) � ( BA \\ ) (M1)\n� {2, 5, 7, 8, 11, 17, 18, 19, 28, 29} A1\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nThe universal set contains all the positive integers less than 30. The set $A$ contains all prime numbers less than 30 and the set $B$ contains all positive integers of the form $3 + 5n$ $(n \\in \\mathbb{N})$ that are less than 30. Determine the elements of\n(a) $A \\setminus B$; [4 marks]\n(b) $A \\Delta B$. [3 marks]"
+  },
+  {
+   "id": "math-2011-M-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 10]\n+ 2 2 The relation R is defined for ab , ∈ ′such that aRb if and only if a − b is divisible\nby 5.\n(a) Show that R is an equivalence relation. [6 marks]\n(b) Identify the three equivalence classes. [4 marks]",
+   "ms_text": "2 2 3. (a) reflexive: aRa because a � a � 0 (which is divisible by 5) A1\n2 2 symmetric: let aRb so that a � b � 5 M M1\n2 2 it follows that b � a �� 5 M which is divisible by 5 so bRa A1\n2 2 2 2 transitive: let aRb and bRc so that a � b � 5 M and b � c � 5 N M1\n2 2 2 2 a � b � b � c � 5 M � 5 N A1\n2 2 a � c � 5 M � 5 N which is divisible by 5 so aRc A1\n�R is an equivalence relation AG\n[6 marks]\n(b) the equivalence classes are\n{1, 4, 6, 9, � } A2\n{2, 3, 7, 8, � } A1\n{5, 10, � } A1\nNote:Do not award any marks for classes containing fewer elements than shown above.\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 10]\nThe relation $R$ is defined for $a, b \\in \\mathbb{Z}^+$ such that $aRb$ if and only if $a^2 - b^2$ is divisible by 5.\n(a) Show that $R$ is an equivalence relation. [6 marks]\n(b) Identify the three equivalence classes. [4 marks]"
+  },
+  {
+   "id": "math-2011-M-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 11]\nx + + + + = 2\nThe function f: ϒ × ϒ → ϒ × ϒ is defined by fxy (, ) xy , .\ny\nShow that f is a bijection.",
+   "ms_text": "4. for f to be a bijection it must be both an injection and a surjection R1\nNote:Award this R1 for stating this anywhere.\ninjection:\nlet fab (,) � fcd (, ) so that (M1)\nc 2 2 and a\nab � cd � A1\nb d\ndividing the equations,\nb 3 d 3 so b d A1 � �\nsubstituting,\na c A1 �\nit follows that f is an injection because fab (,) � fcd (, ) � (,) ab � (, cd ) R1\nsurjection:\n� �\nlet fab (,) � (, cd ) where (, cd ) � � � � (M1)\na 2\nthen c � ab and d � A1\nb\ndividing,\nc c 3\nb � so b � 3 A1\nd d\nsubstituting,\n3c\na � d � A1\nd\nit follows that f is a surjection because\n� � � �\ngiven (, cd ) � � � �, there exists (,) ab � � � � such that fab (,) � (, cd ) R1\ntherefore f is a bijection AG\n[11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 11]\nThe function $f : \\mathbb{R}^+ \\times \\mathbb{R}^+ \\to \\mathbb{R}^+ \\times \\mathbb{R}^+$ is defined by $f(x, y) = \\left(xy^2, \\frac{x}{y}\\right)$.\nShow that $f$ is a bijection. [11 marks]"
+  },
+  {
+   "id": "math-2011-M-P3-sets-relations-and-groups-q5",
+   "num": "5",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 14]\n(a) Given that p , q and r are elements of a group, prove the left-cancellation rule,\ni.e.pq = pr ⇒ q = r .\nYour solution should indicate which group axiom is used at each stage of\nthe proof. [4 marks]\n(b) Consider the group G , of order 4, which has distinct elements a , b and c and\nthe identity element e .\n(i) Giving a reason in each case, explain why ab cannot equal a or b .\n(ii) Given that c is self inverse, determine the two possible Cayley tables for G .\n(iii) Determine which one of the groups defined by your two Cayley tables\nis isomorphic to the group defined by the set {, 1 − 1 ,, i − i under }\nmultiplication of complex numbers. Your solution should include a\ncorrespondence between abce , , , and 1 , − 1 ,, i − i. [10 marks]",
+   "ms_text": "5. (a) pq � pr\n� �\n1 1 p ( pq ) � p ( pr ) , every element has an inverse A1\n( ppq 1 ) ( ppr 1 ) , Associativity A1 �\n�\nNote:Brackets in lines 2 and 3 must be seen.\n1 eq � erpp , �, the identity e A1\nq � rea , � a for all elements a of the group A1\n[4 marks]\n(b) (i) let ab � a so b � e which is a contradiction R1\nlet ab � b so a � e which is a contradiction R1\ntherefore ab cannot equal either a or b AG\n(ii) the two possible Cayley tables are\ntable 1\ne a b c\ne e a b c\na a c e b\nb b e c a\nc c b a e\nA2\ntable 2\ne a b c\ne e a b c\na a e c b\nb b c e a\nc c b a e\nA2\n(iii) the group defined by table 1 is isomorphic to the given group R1\nbecause\nEITHER\nboth contain one self-inverse element (other than the identity) R1\nOR\nboth contain an inverse pair R1\nOR\nboth are cyclic R1\nTHEN\nthe correspondence is e � 1, c � –1, a � i, b � –i\n(or vice versa for the last two) A2\nNote: Award the final A2 only if the correct group table has been identified.\n[10 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.4",
+    "7.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 14]\n(a) Given that $p$, $q$ and $r$ are elements of a group, prove the left-cancellation rule, i.e. $pq = pr \\Rightarrow q = r$.\nYour solution should indicate which group axiom is used at each stage of the proof. [4 marks]\n(b) Consider the group $G$, of order 4, which has distinct elements $a$, $b$ and $c$ and the identity element $e$.\n(i) Giving a reason in each case, explain why $ab$ cannot equal $a$ or $b$.\n(ii) Given that $c$ is self inverse, determine the two possible Cayley tables for $G$.\n(iii) Determine which one of the groups defined by your two Cayley tables is isomorphic to the group defined by the set $\\{1, -1, \\mathrm{i}, -\\mathrm{i}\\}$ under multiplication of complex numbers. Your solution should include a correspondence between $a, b, c, e$ and $1, -1, \\mathrm{i}, -\\mathrm{i}$. [10 marks]"
+  }
+ ],
+ "status": "done"
+}

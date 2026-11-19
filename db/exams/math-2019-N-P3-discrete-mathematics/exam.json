@@ -1,0 +1,127 @@
+{
+ "exam_id": "math-2019-N-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2019,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2019 November Examination Session/Mathematics_paper_3_Discrete_mathematics__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2019 November Examination Session/Mathematics_paper_3_Discrete_mathematics__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8819-7207; code N19/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 50",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2019-N-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 10]\nA driver needs to make deliveries to five shops A , B , C , D and E . The driver starts and\nfinishes his journey at the warehouse W . The driver wants to find the shortest route to\nvisit all the shops and return to the warehouse. The distances, in kilometres, between the\nlocations are given in the following table.\nA B C D E W\nA - 11 28 15 20 40\nB 11 - 25 20 32 36\nC 28 25 - 16 22 39\nD 15 20 16 - 12 42\nE 20 32 22 12 - 41\nW 40 36 39 42 41 -\n(a) By deleting W , use the deleted vertex algorithm to find a lower bound for the length of\na route that visits every shop, starting and finishing at W .\b [6]\nStarting from W , use the nearest-neighbour algorithm to find a route which gives an (b)\nupper bound for this problem and calculate its length.\b [4]",
+   "ms_text": "1. (a) deleting W and its adjacent edges, the minimal spanning tree is\nEdge Weight\nAB 11 A1\nDE 12 A1\nAD 15 A1\nCD 16 A1\nNote: Award the A1’s for either the edges or their weights.\n= 54 the minimum spanning tree has weight\nNote:Accept a correct drawing of the minimal spanning tree.\nadding in the weights of 2 deleted edges of least weight WB and WC (M1)\nlower bound = 54 + 36 + 39\n= 129 A1\n[6 marks]\n(b) attempt at the nearest-neighbour algorithm M1\nWB\nBA\nAD\nDE\nEC\nCW A1\nNote: Award M1 for a route that begins with WB and then BA .\nupper bound = 36111512 + + + + 22 + 39 = 135 (M1)A1\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 10]\nA driver needs to make deliveries to five shops $A$, $B$, $C$, $D$ and $E$. The driver starts and finishes his journey at the warehouse $W$. The driver wants to find the shortest route to visit all the shops and return to the warehouse. The distances, in kilometres, between the locations are given in the following table.\n[Table: distances]\n| | A | B | C | D | E | W |\n| A | - | 11 | 28 | 15 | 20 | 40 |\n| B | 11 | - | 25 | 20 | 32 | 36 |\n| C | 28 | 25 | - | 16 | 22 | 39 |\n| D | 15 | 20 | 16 | - | 12 | 42 |\n| E | 20 | 32 | 22 | 12 | - | 41 |\n| W | 40 | 36 | 39 | 42 | 41 | - |\n(a) By deleting $W$, use the deleted vertex algorithm to find a lower bound for the length of a route that visits every shop, starting and finishing at $W$. [6]\n(b) Starting from $W$, use the nearest-neighbour algorithm to find a route which gives an upper bound for this problem and calculate its length. [4]"
+  },
+  {
+   "id": "math-2019-N-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 15]\n(a) (i) State Fermat’s little theorem.\n(ii) Find the remainder when 151207 is divided by 13.\b [7]\nIn parts (b) and (c), (abc…)n denotes the number abc… written in base n , where n ∈′+ .\nFor example, (359)n= 3n2+ 5n+ 9 .\n(b) Convert (7A2)16 to base 5 , where (A)16= (10)10 .\b [4]\n(c) Consider the equation (1251)n+ (30)n= (504)n+ (504)n .\nFind the value of n .\b [4]",
+   "ms_text": "2. (a) (i) EITHER\na p ≡ a (mod p ) A1\nwhere p is prime A1\nOR\np −≡ 1 a 1(mod p )\nA1\nwhere p is prime and pdoes not dividea(or equivalent statement) A1\n1207 1207\n(ii) 15 ≡ 2 ( mod13 )\n12 2 ≡ 1(mod13)\n(M1)(A1)\n100\n2 1207 = ( 2 12 ) 2 7 (M1)\n1207 7 2 ( ≡ 2 ) ≡ 11mod13 ( )\n(M1)A1\nthe remainder is 11\nNote: Award as above for using 15 instead of 2.\n[7 marks]\n( 72 A ) = 716 × 2 + 1016 × + 2 (b) M1\n16\n= 1954 A1\nEITHER\n51954\n390 4 r\n78 0 r\n15 3 r\nM1\n3 0 r\n0 r 3\nOR\n= × 4 + × 3 + × 2 + × 1 + 1954 3 5 0 5 3 5 0 5 4 M1\nTHEN\n( 72 A ) = ( 30304 ) A1\n16 5\n[4 marks]\n(c) the equation can be written as\n3 2 2 n + 2 n + 5 n ++ 13 n = 25 ( n + 4 )\nM1A1\n⇒ 3 − 2 + − = n 8 n 8 n 7 0 (M1)\nNote: The (M1) isfor an attempt to solve the original equation.\nn = 7 A1\n[4 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.2",
+    "6.5",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 15]\n(a) (i) State Fermat's little theorem.\n(ii) Find the remainder when $15^{1207}$ is divided by $13$. [7]\nIn parts (b) and (c), $(abc\\ldots)_n$ denotes the number $abc\\ldots$ written in base $n$, where $n \\in \\mathbb{Z}^+$. For example, $(359)_n = 3n^2 + 5n + 9$.\n(b) Convert $(7A2)_{16}$ to base $5$, where $(A)_{16} = (10)_{10}$. [4]\n(c) Consider the equation $(1251)_n + (30)_n = (504)_n + (504)_n$.\nFind the value of $n$. [4]"
+  },
+  {
+   "id": "math-2019-N-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nA linear recurrence relation is defined by\nun= aun-1+b , where a , b ∈ϒ .\nThe first two terms are u1= 25 and u2= 16 .\n= 10 , show that a =2 (a) Given that lim u .\b [4]\nn n →∞ 5\n(b) Hence find the value of u3 .\b [2]",
+   "ms_text": "3. METHOD 1\nn (a) solution is of the form u = Aa + C\nM1\nn\nC = 10 (since the limit is 10) A1\nsubstituting n =and 1 n = 2 into uwith C=10 (M1)\nn\n2 15 = Aa and 6 = Aa\nA1\n2\n⇒ a = AG\n5\n[4 marks]\n75\n(b) A = (may be seen in part (a)) A1\n2\nn\n752\nu = + 10\nn\n2 5\n62\n⇒ u = ( = 12.4 ) A1\n3\n5\n[2 marks]\nMETHOD 2\n(a) 16 = 25a + b A1\nlim u = lim u− = 10 (M1)\nn n 1 n →∞ n →∞\n10 = 10a + b A1\nsolving their two equations simultaneously M1\n= 6 15a\n2\n⇒ a = AG\n5\n[4 marks]\n(b) b = 6 (may be seen in part (a)) A1\n216 ( ) + u= 6\n3\n5\n62\n= ( = 12.4 ) A1\n5\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nA linear recurrence relation is defined by\n$u_n = au_{n-1} + b$, where $a, b \\in \\mathbb{R}$.\nThe first two terms are $u_1 = 25$ and $u_2 = 16$.\n(a) Given that $\\lim_{n \\to \\infty} u_n = 10$, show that $a = \\frac{2}{5}$. [4]\n(b) Hence find the value of $u_3$. [2]"
+  },
+  {
+   "id": "math-2019-N-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 14]\nG is a simple, connected graph with eight vertices. (a)\n(i) Write down the minimum number of edges in G .\n(ii) Find the maximum number of edges in G .\n(iii) Find the maximum number of edges in G , given that G contains an\nEulerian circuit.\b [5]\n(b) H is a connected, planar graph, with v vertices, e edges and f faces. Every face in H\nis bounded by exactly k edges.\n(i) Explain why 2e=k f .\nFind the value of f when v = 9 and k = 3 . (ii)\n(iii) Find the possible values of f when v = 13 .\b [9]",
+   "ms_text": "4. (a) (i) 7(a tree) A1\n×\n87 7 ( ) (ii) + 6 ++ 5 4 ++ 3 21 + (a complete graph)\n(M1)\n2\n= 28 A1\n86 ×\n(iii) (since every vertex must be of degree 6) (M1)\n2\n= 24 A1\n[5 marks]\n(b) (i) counting the edges around every face gives kfedges A1\nbut as every edge is counted in 2 faces R1\n⇒ kf = 2 e AG\n(ii) using v −+ e f = 2 with v = 9 M1\nEITHER\nsubstituting 2 e = 3 f into () 29 − 2 e + 2 f = 4 (M1)\nOR\n3 f\nsubstituting e = into 9 −+ e f = 2 (M1)\n2\nTHEN\n18 − f = 4\nf= 14 A1\n(iii) 2 v − kf + 2 f = 4 (or equivalent) M1\nwhen v = 13\n( k − 2 ) f = 22 or ( 2 − kf ) = − 22 A1\nEITHER\n( k − 2 ) f =× 1 2 × 11 M1\nOR\n22\n= substituting at least two of k= 13,4,3 into f (or equivalent) M1\nk − 2\nTHEN\nf= 2,11,22 (since f>) 1 A1\n[9 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 14]\n(a) $G$ is a simple, connected graph with eight vertices.\n(i) Write down the minimum number of edges in $G$.\n(ii) Find the maximum number of edges in $G$.\n(iii) Find the maximum number of edges in $G$, given that $G$ contains an Eulerian circuit. [5]\n(b) $H$ is a connected, planar graph, with $v$ vertices, $e$ edges and $f$ faces. Every face in $H$ is bounded by exactly $k$ edges.\n(i) Explain why $2e = kf$.\n(ii) Find the value of $f$ when $v = 9$ and $k = 3$.\n(iii) Find the possible values of $f$ when $v = 13$. [9]"
+  },
+  {
+   "id": "math-2019-N-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nTen points are placed anywhere inside or on the perimeter of a square of side length 1.\nUse the pigeon-hole principle to prove that at least two of these points have a distance\n2\nbetween them that is less than or equal to 3.\n\b",
+   "ms_text": "divide the square into 9 equal squares (of side length 1\n5. ) M1A1\n3\nNote: Award M1 for an attempt to divide the square into 9 parts.\nby the pigeon-hole principle, at least 2 points must be inside or on the perimeter\nof one of the smaller squares R1\nthe maximum distance between two points of a small square is\n2 2\n1 1\n+ M1A1\n3 3\n2\n= AG\n3\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\nTen points are placed anywhere inside or on the perimeter of a square of side length $1$.\nUse the pigeon-hole principle to prove that at least two of these points have a distance between them that is less than or equal to $\\frac{\\sqrt{2}}{3}$."
+  }
+ ],
+ "status": "done"
+}

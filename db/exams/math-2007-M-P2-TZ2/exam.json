@@ -1,0 +1,139 @@
+{
+ "exam_id": "math-2007-M-P2-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2007,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2007 May Examination Session/Mathematics_paper_2_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2007 May Examination Session/Mathematics_paper_2_TZ2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2207-7208; code M07/5/MATHL/HP2/ENG/TZ2/XX; marks sum matches expected total 120",
+ "qp_pages": 6,
+ "questions": [
+  {
+   "id": "math-2007-M-P2-TZ2-q1",
+   "num": "1",
+   "section": null,
+   "marks": 27,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 27]\nConsider the vectors a =− i j + k , b =+ i 2 j + 4 and c k = 2 i − 5 j − k .\n(a) Given that c = m a + n where mn b , ∈′, find the value of m and of n.\n[5 marks]\n(b) Find a unit vector, u, normal to both a and b. [5 marks]\n(c) The plane π1 contains the point A (1 , –1 , 1) and is normal to b. The plane\nintersects the x , y and z axes at the points L, M and N respectively.\n(i) Find a Cartesian equation of π1.\n(ii) Write down the coordinates of L, M and N. [5 marks]\n(d) The line through the origin, O, normal to π1 meets π1 at the point P.\n(i) Find the coordinates of P.\n(ii) Hence find the distance of π1 from the origin. [7 marks]\n(e) The plane π 2 has equation x + 2 y + 4 z = 4. Calculate the angle between π 2 and a\nline parallel to a . [5 marks]",
+   "ms_text": "= + 1. (a) Substituting for , and ab c into c m a n b (M1)\nForming any 2 of the following equations A1A1\nm + n = 2 Eq(1)\n− m + 2 n = − 5 Eq(2)\nm + 4 n = − 1 Eq(3)\nNote: Accept equations in vector form.\nSolving for m and n (M1)\nm = 3 and n = − 1 A1 N3\n[5 marks]\n(b) METHOD 1\ni j k\na × b = 1 − 1 1 (M1)(A1)\n1 2 4\n= − 6 i − 3 j + 3 k A1\nAttempting to find a × b ( = 54 = 36 ) (M1)\n1 ⎛ 1 ⎞\nu = (6 − i − 3 j + 3) k = (2 − i − j + k ) A1 N3 ⎜ ⎟\n54 6 ⎝ ⎠\n× = + − = 1(6 + − Note: Award as above for b a 6 i 3 j 3 k and u i 3 j 3) k.\n54\nMETHOD 2\nStating 2 equations derived from i au and i bu where u = x i + y j + z k . A1\nx − y + z = 0 Eq(1)\nx + 2 y + 4 z = 0 Eq(2)\nAttempting to solve the above system of equations (M1)\nSolution sets include\nx = − 2 z and y = − z A1\nx − x\nOR y = and z = A1\n2 2\nORz = − y and x = 2 y A1\nNote: Accept any correct numerical solution such as x = 2, y = 1, z = −. 1\n2 + 2 + 2 = (i.e. = Using x y z 1 u 1 ) to find values for x, y and z. (M1)\n= 1(2 + − = 1(2 − − + Either u i j k or ) u i j k ) A1 N3\n6 6\nNote: Ignore any additional answers, even if incorrect.\n[5 marks]\n(c) (i) METHOD 1\nEquation of π is of the form x + 2 y + 4 z = d (M1)\n1\nSubstituting (1, − 1, 1)( ⇒ d = 3) M1\n⇒ x + 2 y + 4 z = 3 A1 N3\nMETHOD 2\niri ( + 2 j + 4) k = d (M1)\nEvaluate the scalar product ai i ( + 2 j + 4)( k = 3) M1\n⇒ x + 2 y + 4 z = 3 A1 N3\n⎛ 3 ⎞ ⎛ 3 ⎞\n(ii) L(3, 0, 0) , M0, , 0 and (M1)A1 ⎜ ⎟\nN0, 0,4 ⎜ ⎟\n⎝ 2 ⎠ ⎝ ⎠\n[5 marks]\n(d) (i) P has coordinates (, xyz ,) = (, 2, 4) λ λ λ (A1)\nSubstituting the coordinates of P into the equation of π (M1)\n1\nλ + 4 λ + 16 λ = 3 A1\n1\nλ = (A1)\n7\n124 ⎛ ⎞\nP , , A1 N3 ⎜ ⎟\n777 ⎝ ⎠\n11 2 2 2 (ii) Distance = + 2 + 4 M1\n7\n21\n= or equivalent (= 0.655) A1 N2\n7\nNote:Award M0A0 for any other method.\n[7 marks]\n(e) (Given θ is the angle between π and a line and α is the angle\n2\n⎛ π ⎞\nbetween the normal and a line) cos α = cos − θ = sin θ (R1) ⎜ ⎟\n⎝ 2 ⎠\nab i ab i\nUsing the scalar product e.g.sinθ= M1\nb or cosα=\na a b\n( i − j + k )( i i + 2 j + 4) k\n(sin) θ = (A1)\ni − j + k i + 2 j + 4 k\n1\n= (or equivalent) (A1)\n7\n⎛ ⎞ � 1\nθ= 0.388 (22.2) = = arcsin A1 N2 ⎜ ⎟\n⎝ 7 ⎠\n[5 marks]\nTotal [27 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.12",
+    "3.16",
+    "3.17",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 27]\nConsider the vectors $\\boldsymbol{a} = \\boldsymbol{i} - \\boldsymbol{j} + \\boldsymbol{k}$, $\\boldsymbol{b} = \\boldsymbol{i} + 2\\boldsymbol{j} + 4\\boldsymbol{k}$ and $\\boldsymbol{c} = 2\\boldsymbol{i} - 5\\boldsymbol{j} - \\boldsymbol{k}$.\n(a) Given that $\\boldsymbol{c} = m\\boldsymbol{a} + n\\boldsymbol{b}$ where $m, n \\in \\mathbb{Z}$, find the value of $m$ and of $n$. [5 marks]\n(b) Find a unit vector, $\\boldsymbol{u}$, normal to both $\\boldsymbol{a}$ and $\\boldsymbol{b}$. [5 marks]\n(c) The plane $\\pi_1$ contains the point A$(1, -1, 1)$ and is normal to $\\boldsymbol{b}$. The plane intersects the $x$, $y$ and $z$ axes at the points L, M and N respectively.\n(i) Find a Cartesian equation of $\\pi_1$.\n(ii) Write down the coordinates of L, M and N. [5 marks]\n(d) The line through the origin, O, normal to $\\pi_1$ meets $\\pi_1$ at the point P.\n(i) Find the coordinates of P.\n(ii) Hence find the distance of $\\pi_1$ from the origin. [7 marks]\n(e) The plane $\\pi_2$ has equation $x + 2y + 4z = 4$. Calculate the angle between $\\pi_2$ and a line parallel to $\\boldsymbol{a}$. [5 marks]"
+  },
+  {
+   "id": "math-2007-M-P2-TZ2-q2",
+   "num": "2",
+   "section": null,
+   "marks": 21,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Total Mark: 21]\nPart A [Maximum mark: 11]\nThe times taken for buses travelling between two towns are normally distributed with\na mean of 35 minutes and standard deviation of 7 minutes.\n(a) Find the probability that a randomly chosen bus completes the journey in less\nthan 40 minutes. [2 marks]\n(b) 90 % of buses complete the journey in less than t minutes. Find the value of t . [5 marks]\n(c) A random sample of 10 buses had their travel time between the two towns\nrecorded. Find the probability that exactly 6 of these buses complete the journey\nin less than 40 minutes. [4 marks]\nPart B [Maximum mark: 10]\nThe number of bus accidents that occur in a given period of time has a Poisson\ndistribution with a mean of 0.6 accidents per day.\n(a) Find the probability that at least two accidents occur on a randomly chosen day. [4 marks]\n(b) Find the most likely number of accidents occurring on a randomly chosen day.\nJustify your answer. [3 marks]\n(c) Find the probability that no accidents occur during a randomly chosen seven-day\nweek. [3 marks]",
+   "ms_text": "2. Part A\n⎛ 5 ⎞\n(a) P( T < 40) = P Z < (M1) ⎜ ⎟\n⎝ 7 ⎠\n= 0.762 A1 N2\nNote: Accept 0.761 from tables.\n[2 marks]\n(b) Stating P( T < t ) = 0.90 or sketching a labelled diagram A1\nt − 35\n= 1.2815... (M1)(A1)\n7\nt = (1.2815...)(7) + 35 (M1)\n= 44.0 (min) A1 N4\n[5 marks]\n(c) Recognizing binomial distribution with correct parameters\nor stating X∼ B(10,0.762...) (A1)(A1)\n⎛ 10 ⎞\n6 4 P( X = 6) = × (0.762...) × (0.237...) (M1)\n⎜ ⎟\n6 ⎝ ⎠\n= 0.131 A1\nNotes: Accept 0.132 or 0.133.\nAward FT for their value of p from (a) but they must have n = 10 .\n[4 marks]\nPart B\n(a) P( X ≥ 2) =− 1 [ P( X = 0) + P( X = 1) ] (M1)(A1)\n= 0.122 A2\n[4 marks]\n(b) EITHER\nx 0.6\n− 0.6 Using P( X = x ) = e × to generate a decreasing sequence of at least three numbers\nx !\nM1A1\nOR\nSketching an appropriate graph of P( X = x ) against x M1A1\nOR\n− 0.6 Finding P( X = 0) = e and stating that P( X= 0) > 0.5 M1A1\nOR\nµ\nUsing P( X = x ) = P( X = x − 1) × where µ < 1 M1A1\nx\nHence P( X = x ) is maximised when x = 0 and so the most likely number\nof accidents is zero. R1 N0\n[3 marks]\nQuestion 2 Part B continued\n(c) METHOD 1\nY∼ P(4.2) o (A1)\n− 4.2 P( Y = 0) = e ( = 0.0150 ) M1A1 N1\nMETHOD 2\n= = − 0.6 = P( X 0) e ( 0.5488...) (A1)\n− 0.6 7 7 P( Y = 0) = (e ) ( = (0.5488...) ) (binomial approach) M1\n− 4.2 = e ( = 0.0150 ) A1 N1\n[3 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.12",
+    "4.8",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Total Mark: 21]\nPart A [Maximum mark: 11]\nThe times taken for buses travelling between two towns are normally distributed with a mean of 35 minutes and standard deviation of 7 minutes.\n(a) Find the probability that a randomly chosen bus completes the journey in less than 40 minutes. [2 marks]\n(b) 90 % of buses complete the journey in less than $t$ minutes. Find the value of $t$. [5 marks]\n(c) A random sample of 10 buses had their travel time between the two towns recorded. Find the probability that exactly 6 of these buses complete the journey in less than 40 minutes. [4 marks]\nPart B [Maximum mark: 10]\nThe number of bus accidents that occur in a given period of time has a Poisson distribution with a mean of 0.6 accidents per day.\n(a) Find the probability that at least two accidents occur on a randomly chosen day. [4 marks]\n(b) Find the most likely number of accidents occurring on a randomly chosen day. Justify your answer. [3 marks]\n(c) Find the probability that no accidents occur during a randomly chosen seven-day week. [3 marks]"
+  },
+  {
+   "id": "math-2007-M-P2-TZ2-q3",
+   "num": "3",
+   "section": null,
+   "marks": 22,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 22]\n3 1\nLet A =\n3.\n4\n(a) Find the values of λ for which the matrix ( A −λ I ) is singular. [5 marks]\n0 0\n2 + ∈′ and O = Let A m A + n I = O where mn ,\n0.\n0\n(b) (i) Find the value of m and of n.\n1\n(ii) Hence show that I = A ( 6 I − A ) .\n5\n(iii) Use the result from part (b) (ii) to explain why A is non-singular. [12 marks]\n(c) Use the valuesfrom part (b) (i) to express A4 in the form pA + q where I\npq , ∈′. [5 marks]",
+   "ms_text": "⎛ 3 − λ 1 ⎞\n3. (a) A − λ I = ⎜ A1 ⎟\n4 3 − λ ⎝ ⎠\nIf A − λ I is singular then det( A − λ I ) = 0 (R1)\ndet( A − λ I ) = (3 − λ ) 2 − 4 ( = λ 2 − 6 λ + 5) (A1)\n− λ 2 − = or equivalent for λ Attempting to solve (3 ) 4 0 M1\nλ = 1, 5 A1 N2\nNote: Candidates need both values of λ for the final A1.\n[5 marks]\n2\n⎛ 3 1 ⎞ ⎛ 3 1 ⎞ ⎛ 1 0 ⎞ ⎛ 0 0 ⎞\n(b) (i) + m + n = A1 ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n4 3 4 3 0 1 0 0 ⎝ ⎠ ⎝ ⎠ ⎝ ⎠ ⎝ ⎠\n2\n⎛ 3 1 ⎞ ⎛ 13 6 ⎞\n= (A1) ⎜ ⎟ ⎜ ⎟\n⎝ 4 3 ⎠ ⎝ 24 13 ⎠\nForming any two independent equations M1\n(e.g.6 + m = 0 , 13 + 3 m + n = 0 or equivalent)\nNote: Accept equations in matrix form.\nSolving these two equations (M1)\nm = − and 6 n = 5 A1 N2\n2 (ii) A − 6 A + 5 I = O (M1)\n= − 2 5 I 6 A A A1\n= A (6 I − A ) A1A1\nNote: Award A1 for A and A1 for (6 I − A. )\n1\n= − I A (6 I A ) AG N0\n5\nSpecial Case: Award M1A0A0A0 only for candidates following alternative methods.\n(iii) METHOD 1\n1 1\n= − = × − I A (6 I A ) A (6 I A ) M1\n5 5\nHence by definition 1 (6 I − A is the inverse of A. ) R1\n5\nHence A exists and so A is non-singular − 1 R1 N0\nMETHOD 2\nAs det I = 1 ( ≠ 0) , then R1\n1 1\ndet A (6 I − A ) = det A × det(6 I − A )( ≠ 0) M1\n5 5\n⇒ det A ≠ 0 and so A is non-singular. R1 N0\n[12 marks]\n(c) METHOD 1\n2 A = 6 A − 5 I (A1)\n4 2 A = (6 A − 5) I M1\n2 2 = 36 A − 60 AI + 25 I A1\n= 36(6 A − 5) I − 60 A + 25 I M1\n= 156 A − 155 I( p = 156, q = − 155) A1 N0\nMETHOD 2\nA 2 = 6 A − 5 I (A1)\n3 2 2 A = 6 A − 5 A where A = 6 A − 5 I M1\n= 31 A − 30 I A1\n4 2 2 A = 31 A − 30 A where A = 6 A − 5 I M1\n= − = = − A1 N0 156 A 155 I( p 156, q 155)\n4 Note:Do not accept methods that evaluate A directly from A.\n[5 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 22]\nLet $\\boldsymbol{A} = \\begin{pmatrix} 3 & 1 \\\\ 4 & 3 \\end{pmatrix}$.\n(a) Find the values of $\\lambda$ for which the matrix $(\\boldsymbol{A} - \\lambda\\boldsymbol{I})$ is singular. [5 marks]\nLet $\\boldsymbol{A}^2 + m\\boldsymbol{A} + n\\boldsymbol{I} = \\boldsymbol{O}$ where $m, n \\in \\mathbb{Z}$ and $\\boldsymbol{O} = \\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$.\n(b) (i) Find the value of $m$ and of $n$.\n(ii) Hence show that $\\boldsymbol{I} = \\frac{1}{5}\\boldsymbol{A}(6\\boldsymbol{I} - \\boldsymbol{A})$.\n(iii) Use the result from part (b) (ii) to explain why $\\boldsymbol{A}$ is non-singular. [12 marks]\n(c) Use the values from part (b)(i) to express $\\boldsymbol{A}^4$ in the form $p\\boldsymbol{A} + q\\boldsymbol{I}$ where $p, q \\in \\mathbb{Z}$. [5 marks]"
+  },
+  {
+   "id": "math-2007-M-P2-TZ2-q4",
+   "num": "4",
+   "section": null,
+   "marks": 22,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 22]\nA television screen, BC, of height one metre, is built into a wall. The bottom of the\ntelevision screen at B is one metre above an observer’s eye level. The angles of\n∃ ∃ elevation ( AOc,AOB ) from the observer’s eye at O to the top and bottom of the\ntelevision screen are α and β radians respectively. The horizontal distance from the\nobserver’s eye to the wall containing the television screen is x metres. The observer’s\n∃ angle of vision ( BOc ) is θ radians, as shown below.\nθ\nβ α\n2 1\n(a) (i) Show that θ= arctan − arctan\nx.\nx\n(ii) Hence, or otherwise, find the exact value of x for which θ is a maximum\nand justify that this value of x gives the maximum value of θ .\n(iii) Find the maximum value of θ . [17 marks]\n(b) Find where the observer should stand so that the angle of vision is 15ο. [5 marks]",
+   "ms_text": "4. (a) (i)\nθ\nα β\nAttempting to express α and β in terms of arctan (M1)\n2 1\nα= and β= A1A1\narctan x arctan x\nθ = α − β A1\n2 1\nθ= arctan − arctan AG N0\nx x\n(ii) METHOD 1\n⎛ 2 ⎞ ⎛ 1 ⎞\nAttempting to differentiate either or . M1\narctanx ⎜ ⎟ arctanx ⎜ ⎟\n⎝ ⎠ ⎝ ⎠\n2\n−\n⎛ ⎞ 2 − d ⎛ 2 ⎞= x ⎛ 2 ⎞\narctan = A1A1 ⎜ ⎜ ⎟ ⎟ ⎜ ⎟\nd x x 2 x 2 + 4 ⎝ ⎝ ⎠ ⎠ ⎛ 2 ⎝ ⎠\n⎞+\n⎜ ⎟ 1\n⎝ x ⎠\n1\n−\nd ⎛ ⎛ 1 ⎞ x 2 ⎛ − 1 ⎞ ⎞=\n= A1 ⎜ arctan ⎜ ⎟ ⎟ ⎜ ⎟\n2 2 d x\n⎝ ⎝ x ⎠ ⎠ ⎛ 1 ⎝ x + 1 ⎠ ⎞+\n⎜ ⎟ 1\n⎝ x ⎠\n2 d 2 1 ⎛ 2 − x ⎞\nθ= −\nSimplifying, + ⎜ = ⎟ A1\n2 2 2 2 d x x + 4 x + 1 ( x + 4)( x + 1)\n⎝ ⎠\nFor a maximum d θ= 0 (R1)\ndx\n2 2 x + 4 = 2( x + 1) (or equivalent) A1\nx = 2 (as x > 0 ) A1 N1\nEITHER\nJustifying the maximum using appropriately chosen x-values M1\ne.g. when x =, and when 1 x = 2 ,\nCorrect gradients calculated for chosen values. A1\n1 1 x =, d θ= , d θ= −\ne.g. 1 and x = 2\nd x 10 d x 20\nShowing that d θ> and d θ< 0 for x < 2 0 for x > 2 R1\nd x d x\n⇒ x = 2 is a maximum. AG N0\nNote: Award M1A1R1 for a clearly labelled sketch of either θ or d θagainst x.\ndx\nOR\nAttempting to find a second derivative. M1\n2 4 2 d 4 x 2 x ⎛ 2( xx − 4 x − 14) ⎞\nθ= −\n⎜ = ⎟ 2 2 2 2 2 2 2 2 2\nd x ( x + 4) ( x + 1) ( x + 1)( x + 4) ⎝ ⎠\n2 d\nθ= − 2(\nWhen x = 2 , = − 0.157) . A1\n2 d x 9\nd 2 θ<\nSince 0 for x = 2 , R1\nd x 2\nthen x = 2 is a maximum. AG N0\nQuestion 4 (a) (ii) continued\nMETHOD 2\nπ\nGiven that 0 < θ < , θ will be a maximum when\n2\ntanθ is a maximum. R1\ntan α − tan β\nθ to get tanθ in terms of x. Using tan (M1)\n=+\n1 tan α tan β\n2 1\n−\n⎛ x ⎞\nθ = x x = tan ⎜ ⎟ A1\n2 2\n⎛ 2 ⎞ ⎝ x + 2 ⎠\n1 + ⎜ ⎟\n⎝ x ⎠\nd ( x 2 + 2) − x (2) x ⎛ 2 − x 2 ⎞\n(tan) θ = = M1A1\n2 2 ⎜ 2 2 ⎟ d x ( x + 2) ( x + 2)\n⎝ ⎠\nFor a maximum d(tan) θ= 0 (R1)\ndx\n2 2 − x = 0 A1\nx = 2 (as x > 0 ) A1 N1\nEITHER\nJustifying the maximum using appropriately chosen x-values M1\n1 1\ne.g. when x =, d 1 (tan) θ= and when x = 2 , d (tan) θ= − A1\nd x 9 d x 18\nSince d(tan) θ> < and d(tan) θ< > 0 for x 2 0 for x 2 R1\nd x d x\nthen x = 2 is a maximum. AG N0\nNote: Award M1A1R1 for a clearly labelled sketch of either tanθ or d(tan) θagainst x.\ndx\nOR\nAttempting to find a second derivative. M1\n2 2 d 2( xx − 6)\nθ = (tan)\n2 2 3 d x ( x + 2)\nd 2 2\nWhen x = 2 , (tan) θ= − (0.177) − A1\n2 d x 8\n2 d\nθ< = Since (tan) 0 for x 2 , R1\n2 d x\nx = then 2 is a maximum. AG N0\n(iii) METHOD 1\n2 1\nSubstituting x = 2 into θ= arctan − arctan (M1)\nx x\n2 1\nθ= arctan − arctan ( = 0.340 radians). A1 N2\n2 2\nMETHOD 2\nx\nSubstituting x = 2 into θ= arctan (M1)\n2 + x 2\n2\nθ= ( = 0.340 radians). A1 N2\narctan4\n[17 marks]\n(b) METHOD 1\n2 1 ⎛ π ⎞ �\nAttempting to solve arctan − arctan = 15 = for x M1 ⎜ ⎟\nx x ⎝ 12 ⎠\nx = 0.649, 3.08 (m) A2A2 N4\nMETHOD 2\nx\nAttempting to solve = tan15 � (or equivalent) for x M1\n2 x + 2\nx = 0.649, 3.08 (m) A2A2 N4\n[5 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.15",
+    "3.9",
+    "3.2",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 22]\nA television screen, BC, of height one metre, is built into a wall. The bottom of the television screen at B is one metre above an observer's eye level. The angles of elevation ($\\hat{AOC}$, $\\hat{AOB}$) from the observer's eye at O to the top and bottom of the television screen are $\\alpha$ and $\\beta$ radians respectively. The horizontal distance from the observer's eye to the wall containing the television screen is $x$ metres. The observer's angle of vision ($\\hat{BOC}$) is $\\theta$ radians, as shown below.\n[Diagram: right angle at A on a vertical wall; B is 1 m above A and C is 1 m above B (screen BC); O is x m horizontally from A; lines OB and OC make angles beta and alpha with OA; theta is the angle BOC]\n(a) (i) Show that $\\theta = \\arctan\\frac{2}{x} - \\arctan\\frac{1}{x}$.\n(ii) Hence, or otherwise, find the exact value of $x$ for which $\\theta$ is a maximum and justify that this value of $x$ gives the maximum value of $\\theta$.\n(iii) Find the maximum value of $\\theta$. [17 marks]\n(b) Find where the observer should stand so that the angle of vision is $15^\\circ$. [5 marks]"
+  },
+  {
+   "id": "math-2007-M-P2-TZ2-q5",
+   "num": "5",
+   "section": null,
+   "marks": 28,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 28]\nLet u =+ 1 3i and v =+ 1i where i2 = −. 1\n3 1 3 − 1 Show that u ++\n(a) (i) i .\nv=\n2 2\n(ii) By expressing both u and v in modulus-argument form show that\nu π π\n2 cos + i sin .\nv=\n12 12\n(iii) Hence find the exact value of tanπ + b 3 where ab ,\n∈′. [15 marks]\n12 in the form a\n+ (b) Use mathematical induction to prove that for n∈\n′,\nn n π n\n( )= n π. 1 + 3 i 2 cos + i sin [7 marks]\n3 3\n2 v + u\n(c) Let z = .\n2 v − u\nShow that Re z = 0. [6 marks]",
+   "ms_text": "5. (a) (i) Using v∗ where v∗=− 1i (M1)\nu (1+3i)(1 − i)\n= A1\nv (1 + i)(1 − i)\n−+ + 1 i 3i 3\n= A1A1\n2\nNote: Award A1 for a correct numerator and A1 for a correct denominator.\n+ − u 3 1 3\n1i = + AG N0\nv 2 2\nπ ⎛ π π ⎞ ⎛ ⎞\n(ii) u= 2 and arg u = u = 2cos + isin A1A1 ⎜ ⎜ ⎟ ⎟\n3 3 3 ⎝ ⎝ ⎠ ⎠\nπ ⎛ ⎛ π π ⎞ ⎞\nv= 2 and arg v = ⎜ v = 2cos ⎜ + isin ⎟ ⎟ A1A1\n4 ⎝ ⎝ 4 4 ⎠ ⎠\n⎛ π π π π ⎞ u 2 ⎛ ⎞ ⎛ ⎞\n= cos − + isin − M1A1 ⎜ ⎜ ⎟ ⎜ ⎟ ⎟\nv 3 4 3 4 2 ⎝ ⎝ ⎠ ⎝ ⎠ ⎠\nu ⎛ π π ⎞\n= + 2cos ⎜ isin ⎟ AG N0\nv ⎝ 12 12 ⎠\n(iii) METHOD 1\n3 − 1\nUsing argu π= 2 arctan (M1)(A1)\nv to form\n12 3 + 1\n2\nπ 3 − 1\n= A1\ntan12\n3 + 1\n− 2 (3 1)\n= M1\n(3 + 1)(3 − 1)\n= 2 − 3 A1 N0\nMETHOD 2\nπ π + − ⎛ ⎞ 3 1 3 1\n2cos + isin = + i (M1) ⎜ ⎟\n12 12 2 2 ⎝ ⎠\nπ 3 + 1 π 3 − 1\n= = and (A1)\ncos12 sin12\n22 22\nπ 3 − 1\n= A1\ntan12\n3 + 1\n2 (3 − 1)\n= M1\n(3 + 1)(3 − 1)\n= 2 − 3 A1 N0\nNote:Please check that 2 has been considered in either line 1 or line 2.\n[15 marks]\n⎛ n π n π ⎞ n n\n(b) (Let P() n be (1 + 3i) = 2 cos + isin ) ⎜ ⎟\n⎝ 3 3 ⎠\n⎛ ⎞ ⎛ π π ⎞ 1 3\nn =: 1 + = + =+ For 1 2 ⎜ cos isin ⎟ 2 ⎜ i ⎟ 1 3i , so P(1) is true A1\n⎜ ⎟\n⎝ 3 3 ⎠ 2 2 ⎝ ⎠\nAssume P() k is true, M1\nk π k π k k ⎛ ⎞\n(1 + 3i) = 2 cos + isin (A1) ⎜ ⎟\n3 3 ⎝ ⎠\nConsider P( k + 1)\n(1 + 3i) k + 1 = (1 + 3i)(1 k + 3i) M1\n⎛ k π k π ⎞⎛ π π ⎞\n= 2 k cos + isin 2cos + isin A1 ⎜ ⎟⎜ ⎟\n⎝ 3 3 ⎠⎝ 3 3 ⎠\n⎛ ( k + 1) π ( k + 1) π ⎞\n= 2 k + 1 cos + isin A1 ⎜ ⎟\n⎝ 3 3 ⎠\n+ P() k true implies P( k + 1) true, P(1) true so P() ntrue ∀∈�. n R1 N0\n[7 marks]\n(c) METHOD 1\n2 v + u = (2 + 1) + (2 + 3)i (M1)(A1)\n2 v − u = (2 − 1) + (2 − 3)i (A1)\n2 v + u (2 + 1) + (2 + 3)i (2 − 1) − (2 − 3)i\n= × M1\n− − + − − − − 2 v u (2 1) (2 3)i (2 1) (2 3)i\n⎛ 2 v + u ⎞ (2 + 1)(2 − 1) + (2 + 3)(2 − 3)\nRe ⎜ ⎟ = (A1)\n⎜ ⎟\n− − 2 + − 2 ⎝ 2 v u ⎠ (2 1) (2 3)\n2 −+ 1 (2 − 3)\n= A1\n2 2 (2 − 1) + (2 − 3)\n= 0 AG N0\nNote: If the candidate explains that to show that Re z = 0 , it is only necessary to consider\n⎡ ⎤ ⎡ ⎤ (2 + 1) + (2 + 3)i × (2 − 1) − (2 − 3)i\n⎣ ⎦ ⎣ ⎦ then award as above.\n[6 marks]\nMETHOD 2\n⎡ ⎛ π π ⎞ ⎛ π π ⎞ ⎤\n2 v + u = 2 ⎜ cos + cos ⎟ + isin ⎜ + sin ⎟ (M1)(A1) ⎢ ⎥\n⎣ ⎝ 4 3 ⎠ ⎝ 4 3 ⎠ ⎦\n⎡ π π π π ⎤ ⎛ ⎞ ⎛ ⎞\n2 v − u = 2 cos − cos + isin − sin (A1) ⎢ ⎜ ⎟ ⎜ ⎟ ⎥\n⎣ ⎝ 4 3 ⎠ ⎝ 4 3 ⎠ ⎦\n⎛ π π ⎞ ⎛ π π ⎞ ⎛ π π ⎞ ⎛ π π ⎞\ncos + cos + isin + sin cos − cos − isin − sin ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n2 v + u ⎝ 4 3 ⎠ ⎝ 4 3 ⎠ ⎝ 4 3 ⎠ ⎝ 4 3 ⎠\n= × M1\n− ⎛ π π ⎞ ⎛ π π ⎞ ⎛ π π ⎞ ⎛ π π ⎞ 2 v u\n⎜ cos − cos ⎟ + isin ⎜ − sin ⎟ ⎜ cos − cos ⎟ − isin ⎜ − sin ⎟\n⎝ 4 3 ⎠ ⎝ 4 3 ⎠ ⎝ 4 3 ⎠ ⎝ 4 3 ⎠\nπ π π π 2 2 2 2\ncos − cos + sin − sin ⎛\n2 v + u ⎞ 4 3 4 3\nRe ⎜ ⎟ = (A1)\n⎜ ⎟ 2 2\n2 v − u ⎛ π π ⎞ ⎛ π π ⎞ ⎝ ⎠\ncos − cos + sin − sin ⎜ ⎟ ⎜ ⎟\n⎝ 4 3 ⎠ ⎝ 4 3 ⎠\nπ π ⎛ π π ⎞ 2 2 2 2\ncos + sin − ⎜ cos + sin ⎟\n4 4 ⎝ 3 3 ⎠\n= A1\n2 2\n⎛ π π ⎞ ⎛ π π ⎞\n⎜ cos − cos ⎟ + ⎜ sin − sin ⎟\n⎝ 4 3 ⎠ ⎝ 4 3 ⎠\n= 0 AG N0\nz = Note: If the candidate explains that to show that Re 0 , it is only necessary to consider\n⎡ π π π π ⎤ ⎡ π π π π ⎤ ⎛ ⎞ ⎛ ⎞ ⎛ ⎞ ⎛ ⎞\ncos + cos + isin + sin × cos − cos − isin − sin then award ⎢ ⎜ ⎟ ⎜ ⎟ ⎥ ⎢ ⎜ ⎟ ⎜ ⎟ ⎥\n4 3 4 3 4 3 4 3 ⎣ ⎝ ⎠ ⎝ ⎠ ⎦ ⎣ ⎝ ⎠ ⎝ ⎠ ⎦\nas above.\n[6 marks]\nMETHOD 3\nu\n2 +\n+ 2 v u v\n= (M1)(A1)\nu 2 v − u\n2 −\nv\n⎛ 3 + 1 ⎞ 3 − 1\n⎜ 2 + ⎟ + i\n2 2 ⎝ ⎠\n= A1\n⎛ ⎞ 3 + 1 3 − 1\n2 − − i ⎜ ⎟\n2 2 ⎝ ⎠\n⎛ ⎞ ⎛ ⎞ 3 + 1 3 − 1 3 + 1 3 − 1\n+ + − + ⎜ 2 ⎟ i ⎜ 2 ⎟ i\n⎝ 2 ⎠ 2 ⎝ 2 ⎠ 2\n= × M1\n⎛ 3 + 1 ⎞ 3 − 1 ⎛ 3 + 1 ⎞ 3 − 1\n⎜ 2 − ⎟ − i ⎜ 2 − ⎟ + i\n2 2 2 2 ⎝ ⎠ ⎝ ⎠\n2 2\n( 3 + 1 ) ( 3 − 1 ) ⎛\n2 v + u ⎞\nRe ⎜ ⎟ = 2 − − A1\n⎜ ⎟\n2 v − u 4 4 ⎝ ⎠\n⎛ 31 ++ 23 + 31 +− 23 ⎞\n= 2 −⎜ ⎟ A1\n⎜ ⎟ 4\n⎝ ⎠\n= 0 AG N0\n[6 marks]\nMETHOD 4\nu\n2 +\n2 v + u v\n= (M1)(A1)\nu 2 v − u\n2 −\nv\n⎛ π π ⎞\n2 + 2cos + isin ⎜ ⎟\n⎝ 12 12 ⎠\n= A1\n⎛ π π ⎞\n2 − 2cos ⎜ + isin ⎟\n⎝ 12 12 ⎠\n⎛ π π ⎞ ⎛ π ⎞ π\n+ + − + 21 ⎜ cos isin ⎟ ⎜ 1 cos ⎟ isin\n⎝ 12 12 ⎠ ⎝ 12 ⎠ 12\n= × M1\n⎛ π π ⎞ ⎛ π ⎞ π\n21 − cos − isin 1 − cos + isin ⎜ ⎟ ⎜ ⎟\n⎝ 12 12 ⎠ ⎝ 12 ⎠ 12\n⎛ ⎞ 2 v + u π π\n=− 2 − 2 Re ⎜ ⎟ 1 cos sin A1\n⎜ ⎟\n⎝ 2 v − u ⎠ 12 12\n⎛ 2 π 2 π ⎞\n=− 1 cos + sin A1 ⎜ ⎟\n12 12 ⎝ ⎠\n= 0 AG N0\n[6 marks]\nTotal [28 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.15",
+    "1.12",
+    "1.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 28]\nLet $u = 1 + \\sqrt{3}\\,\\mathrm{i}$ and $v = 1 + \\mathrm{i}$ where $\\mathrm{i}^2 = -1$.\n(a) (i) Show that $\\frac{u}{v} = \\frac{\\sqrt{3}+1}{2} + \\frac{\\sqrt{3}-1}{2}\\mathrm{i}$.\n(ii) By expressing both $u$ and $v$ in modulus-argument form show that $\\frac{u}{v} = \\sqrt{2}\\left(\\cos\\frac{\\pi}{12} + \\mathrm{i}\\sin\\frac{\\pi}{12}\\right)$.\n(iii) Hence find the exact value of $\\tan\\frac{\\pi}{12}$ in the form $a + b\\sqrt{3}$ where $a, b \\in \\mathbb{Z}$. [15 marks]\n(b) Use mathematical induction to prove that for $n \\in \\mathbb{Z}^+$, $\\left(1 + \\sqrt{3}\\,\\mathrm{i}\\right)^n = 2^n\\left(\\cos\\frac{n\\pi}{3} + \\mathrm{i}\\sin\\frac{n\\pi}{3}\\right)$. [7 marks]\n(c) Let $z = \\frac{\\sqrt{2}v + u}{\\sqrt{2}v - u}$.\nShow that $\\mathrm{Re}\\, z = 0$. [6 marks]"
+  }
+ ],
+ "status": "done"
+}

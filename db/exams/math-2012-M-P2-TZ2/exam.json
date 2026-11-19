@@ -1,0 +1,290 @@
+{
+ "exam_id": "math-2012-M-P2-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2012,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_2_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_2_TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); code M12/5/MATHL/HP2/ENG/TZ2/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2012-M-P2-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 7]\nThe sum of the first 16 terms of an arithmetic sequence is 212 and the fifth term is 8.\n(a) Find the first term and the common difference. [4 marks]\n(b) Find the smallest value of n such that the sum of the first n terms is greater\nthan 600. [3 marks]",
+   "ms_text": "n\n1. (a) S = [2 a + ( n − 1)] d\nn\n2\n16\n212 = (2 a + 15)(16 d = a + 120) d A1\n2\nnth term is a + ( n − 1) d\n= + 8 a 4 d A1\nsolving simultaneously: (M1)\nd = 1.5, a = 2 A1\n[4 marks]\nn\n(b) [41.5( + n − 1)] > 600 (M1)\n2\n2 ⇒ 3 n + 5 n − 2400 > 0 (A1)\n⇒ n > 27.4 … , ( n <− 29.1 … )\nNote: Do not penalize improper use of inequalities.\n⇒ n = 28 A1\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 7]\nThe sum of the first 16 terms of an arithmetic sequence is 212 and the fifth term is 8.\n(a) Find the first term and the common difference. [4 marks]\n(b) Find the smallest value of $n$ such that the sum of the first $n$ terms is greater than 600. [3 marks]"
+  },
+  {
+   "id": "math-2012-M-P2-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nThe random variable X has the distribution B( 30p. Given that E( , ) X=10, find )\n(a) the value of p ; [1 mark]\n(b) P( X=10; ) [2 marks]\n(c) P( X≥15. ) [2 marks]",
+   "ms_text": "2. (a) E( X ) = np\n⇒ 10 = 30p\n1\n⇒ p = A1\n3\n[1 mark]\n10 20 30\n1 2\n(b) P( X = 10) = = 0.153 (M1)A1\n10 3 3\n[2 marks]\n(c) P( X ≥ 15) =− 1P( X ≤ 14) (M1)\n=− 10.9565 …= 0.0435 A1\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nThe random variable $X$ has the distribution $\\mathrm{B}(30, p)$. Given that $\\mathrm{E}(X) = 10$, find\n(a) the value of $p$; [1 mark]\n(b) $\\mathrm{P}(X = 10)$; [2 marks]\n(c) $\\mathrm{P}(X \\geq 15)$. [2 marks]"
+  },
+  {
+   "id": "math-2012-M-P2-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 8]\n� Consider a triangle ABC with BAC = 45 7. �, AB = 9 63 . cm and BC = 7 5. cm .\n(a) By drawing a diagram, show why there are two triangles consistent with\nthis information. [2 marks]\n(b) Find the possible values of AC. [6 marks]",
+   "ms_text": "3. (a)\nA2\nNote: Accept 2 separate triangles. The diagram(s) should show that one\ntriangle has an acute angle and the other triangle has an obtuse angle.\nThe values 9.63, 7.5 and 45.7 and/or the letters, A, B C′ and C should be\ncorrectly marked on the diagram(s).\n[2 marks]\n(b) METHOD 1\nsin45.7 sin C\n= M1\n7.5 9.63\n⇒ ˆ = … … C 66.77 , 113.2 (A1)(A1)\nˆ ⇒ B = 67.52 … , 21.07 … (A1)\nb 7.5\n⇒ b = 9.68(cm), b = 3.77(cm) A1A1\nB=\nsin sin45.7\nNote: If only the acute value of ˆC is found, award M1(A1)(A0)(A0)A1A0.\nMETHOD 2\n2 2 2 ° 7.5 = 9.63 + b −× 29.63 × b cos45.7 M1A1\n2 b − 13.45 …+ b 36.48 …= 0\n2 13.45 …± 13.45 …−× 436.48 …\nb = (M1)(A1)\n2\nAC = 9.68(cm) , AC = 3.77(cm) A1A1\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 8]\nConsider a triangle ABC with $\\hat{BAC} = 45.7^\\circ$, $\\mathrm{AB} = 9.63$ cm and $\\mathrm{BC} = 7.5$ cm.\n(a) By drawing a diagram, show why there are two triangles consistent with this information. [2 marks]\n(b) Find the possible values of AC. [6 marks]"
+  },
+  {
+   "id": "math-2012-M-P2-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nFifteen boys and ten girls sit in a single line.\n(a) In how many ways can they be seated in a single line so that the boys and girls\nare in two separate groups? [3 marks]\n(b) Two boys and three girls are selected to go the theatre. In how many ways can\nthis selection be made? [3 marks]",
+   "ms_text": "4. (a) number of arrangements of boys is 15! and number of arrangements of girls\nis 10! (A1)\n18 total number of arrangements is 15!10!2(9.4910) × × = × M1A1\nNote: If 2 is omitted, award (A1)M1A0.\n[3 marks]\nnumber of ways of choosing two boys is 15 (b) and the number of ways of\n2\nchoosing three girls is 10 (A1)\n3\nnumber of ways of choosing two boys and three girls is\n15 10\n× = 12600 M1A1\n2 3\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nFifteen boys and ten girls sit in a single line.\n(a) In how many ways can they be seated in a single line so that the boys and girls are in two separate groups? [3 marks]\n(b) Two boys and three girls are selected to go the theatre. In how many ways can this selection be made? [3 marks]"
+  },
+  {
+   "id": "math-2012-M-P2-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nThe random variable X has the distribution Po() m.\nGiven that P ( X = 5 ) = P ( X = 3 ) + P ( X = 4, find )\n(a) the value of m ; [3 marks]\n(b) X> 2. [2 marks] P( )",
+   "ms_text": "5. (a) P( X = 5) = P( X = 3) + P( X = 4)\n− m 5 − m 3 − m 4 e m e m e m\n= + M1(A1)\n5! 3! 4!\n2 m − 5 m − 20 = 0\n5 + 105\n⇒ m = = (7.62) A1\n2\n[3 marks]\n> =− ≤ (b) P( X 2) 1P( X 2) (M1)\n=− 10.018 …\n= 0.982 A1\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\nThe random variable $X$ has the distribution $\\mathrm{Po}(m)$.\nGiven that $\\mathrm{P}(X = 5) = \\mathrm{P}(X = 3) + \\mathrm{P}(X = 4)$, find\n(a) the value of $m$; [3 marks]\n(b) $\\mathrm{P}(X > 2)$. [2 marks]"
+  },
+  {
+   "id": "math-2012-M-P2-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 8]\ncos x\n(a) Sketch the curve y = , −≤ 4 x ≤ 4 showing clearly the coordinates of the\n2 x\n+ 1\nx-intercepts, any maximum points and any minimum points. [4 marks]\n(b) Write down the gradient of the curve at x =1. [1 mark]\n(c) Find the equation of the normal to the curve at x =1. [3 marks]",
+   "ms_text": "6. (a)\nA1A1A1A1\nNote: Award A1 for correct shape. Do not penalise if too large a domain is used,\nA1 for correct x-intercepts,\nA1 for correct coordinates of two minimum points,\nA1 for correct coordinates of maximum point.\nAccept answers which correctly indicate the position of the intercepts,\nmaximum point and minimum points.\n[4 marks]\n(b) gradient at x =is 0.786 1 − A1\n[1 mark]\n− 1\n= … (c) gradient of normal is (1.272 ) (A1)\n− 0.786\nwhen x = 1, y = 0.3820... (A1)\nEquation of normal is y − 0.382 = 1.27 ( x − 1 ) A1\n( ) ⇒ y = 1.27 x − 0.890\n[3 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.4",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 8]\n(a) Sketch the curve $y = \\frac{\\cos x}{\\sqrt{x^2+1}}$, $-4 \\leq x \\leq 4$ showing clearly the coordinates of the $x$-intercepts, any maximum points and any minimum points. [4 marks]\n(b) Write down the gradient of the curve at $x = 1$. [1 mark]\n(c) Find the equation of the normal to the curve at $x = 1$. [3 marks]"
+  },
+  {
+   "id": "math-2012-M-P2-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 5]\nThe probability density function of a continuous random variable X is given by\n1\nfx 4, 0 ʺ x ʺ a .\n() =+\n1 x\n(a) Find the value of a . [3 marks]\n(b) Find the mean of X . [2 marks]",
+   "ms_text": "a 1\n7. (a) ∫ d x = 1 M2\n4 0 1 + x\na = 1.40 A1\n[3 marks]\na x\n(b) E( X ) = d x M1 ∫\n0 + 4 1 x\n1 arctan( 2 = a )\n2\n= 0.548 A1\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 5]\nThe probability density function of a continuous random variable $X$ is given by\n$f(x) = \\frac{1}{1+x^4}$, $0 \\leq x \\leq a$.\n(a) Find the value of $a$. [3 marks]\n(b) Find the mean of $X$. [2 marks]"
+  },
+  {
+   "id": "math-2012-M-P2-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\nEach time a ball bounces, it reaches 95 % of the height reached on the previous bounce.\nInitially, it is dropped from a height of 4 metres.\n(a) What height does the ball reach after its fourth bounce? [2 marks]\n(b) How many times does the ball bounce before it no longer reaches a height of\n1 metre? [3 marks]\n(c) What is the total distance travelled by the ball? [3 marks]",
+   "ms_text": "8. (a) height =× 40.95 4 (A1)\n= 3.26 (metres) A1\n[2 marks]\nn (b) 40.95 × < 1 (M1)\n0.95 n< 0.25\nln0.25\n⇒ n > (A1)\nln0.95\n⇒ n > 27.0\nNote: Do not penalize improper use of inequalities.\n⇒ n = 28 A1\nNote: If candidates have used n − rather than n throughout penalise in part 1\n(a) and treat as follow through in parts (b) and (c).\n[3 marks]\n(c) METHOD 1\nrecognition of geometric series with sum to infinity, first term of\n40.95 × and common ratio 0.95 M1\nrecognition of the need to double this series and to add 4 M1\n40.95 × +\ntotal distance travelled is 2 4 = 156 (metres) A1\n1 − 0.95\n[3 marks]\nNote: If candidates have used n − rather than n throughout penalise in part 1\n(a) and treat as follow through in parts (b) and (c).\nMETHOD 2\nrecognition of a geometric series with sum to infinity, first term of 4 and\ncommon ratio 0.95 M1\nrecognition of the need to double this series and to subtract 4 M1\n4 −\ntotal distance travelled is 2 4 = 156 (metres) A1\n− 10.95\n[3 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\nEach time a ball bounces, it reaches 95 % of the height reached on the previous bounce. Initially, it is dropped from a height of 4 metres.\n(a) What height does the ball reach after its fourth bounce? [2 marks]\n(b) How many times does the ball bounce before it no longer reaches a height of 1 metre? [3 marks]\n(c) What is the total distance travelled by the ball? [3 marks]"
+  },
+  {
+   "id": "math-2012-M-P2-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\nTwo discs, one of radius 8 cm and one of radius 5 cm, are placed such that they\ntouch each other. A piece of string is wrapped around the discs. This is shown in the\ndiagram below.\n5cm\n8cm\n13cm\ndiagram not to\nscale\nCalculate the length of string needed to go around the discs.",
+   "ms_text": "9.\n= = 2 − 2 = … AC BD 13 3 12.64 (A1)\n3\ncos α = ⇒ α = 1.337...76.65... . ( ) (M1)(A1)\n13\nattempt to find either arc length AB or arc length CD (M1)\narc length AB = 5( π−× 20.232 …(13.37 ) = … ) (A1)\narc length CD = 8(π +× 20.232 …(28.85 ) = … ) (A1)\nlength of string = 13.37 …+ 28.85 …+ 2(12.64 … ) (M1)\n= 67.5 (cm) A1\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nTwo discs, one of radius 8 cm and one of radius 5 cm, are placed such that they touch each other. A piece of string is wrapped around the discs. This is shown in the diagram below.\n[Diagram: two touching circles of radii 5 cm and 8 cm, centres 13 cm apart, with a string wrapped around both forming two common external tangents; right angles marked where radii meet the upper tangent; diagram not to scale]\nCalculate the length of string needed to go around the discs."
+  },
+  {
+   "id": "math-2012-M-P2-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 14]\nA market stall sells apples, pears and plums.\n(a) The weights of the apples are normally distributed with a mean of 200 grams and\na standard deviation of 25 grams.\n(i) Given that there are 450 apples on the stall, what is the expected number\nof apples with a weight of more than 225 grams?\n(ii) Given that 70 % of the apples weigh less than m grams, find the value\nof m . [5 marks]\n(b) The weights of the pears are normally distributed with a mean of ∝ grams\nand a standard deviation of σ grams. Given that 8 % of these pears have a\nweight of more than 270 grams and 15 % have a weight less than 250 grams,\nfind ∝ and σ. [6 marks]\n(c) The weights of the plums are normally distributed with a mean of 80 grams and\na standard deviation of 4 grams. 5 plums are chosen at random. What is the\nprobability that exactly 3 of them weigh more than 82 grams? [3 marks]",
+   "ms_text": "SECTION B\n10. (a) (i) P( X> 225) = 0.158 … (M1)(A1)\nexpected number = 4500.158 × …= 71.4 A1\n(ii) P( X < m ) = 0.7 (M1)\n⇒ m = 213 (grams) A1\n[5 marks]\n270 − μ\n= … (b) 1.40 (M1)A1\nσ\n250 − μ\n=− 1.03 … A1\nσ\nNote:These could be seen in graphical form.\nsolving simultaneously (M1)\nμ = σ = 258, 8.19 A1A1\n[6 marks]\n(c)\nP( X> 82) = 0.3085 … A1\nrecognition of the use of binomial distribution. (M1)\nP( X= 3) = 0.140 A1\n[3 marks]\n.\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 14]\nA market stall sells apples, pears and plums.\n(a) The weights of the apples are normally distributed with a mean of 200 grams and a standard deviation of 25 grams.\n(i) Given that there are 450 apples on the stall, what is the expected number of apples with a weight of more than 225 grams?\n(ii) Given that 70 % of the apples weigh less than $m$ grams, find the value of $m$. [5 marks]\n(b) The weights of the pears are normally distributed with a mean of $\\mu$ grams and a standard deviation of $\\sigma$ grams. Given that 8 % of these pears have a weight of more than 270 grams and 15 % have a weight less than 250 grams, find $\\mu$ and $\\sigma$. [6 marks]\n(c) The weights of the plums are normally distributed with a mean of 80 grams and a standard deviation of 4 grams. 5 plums are chosen at random. What is the probability that exactly 3 of them weigh more than 82 grams? [3 marks]"
+  },
+  {
+   "id": "math-2012-M-P2-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 24,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 24]\n(a) Find the values of k for which the following system of equations has no solutions\nand the value of k for the system to have an infinite number of solutions.\nx − 3 y + z = 3\nx + 5 y − 2 z = 1\n16 y − 6 z = k\n[5 marks]\n(b) Given that the system of equations can be solved, find the solutions in the form of\na vector equation of a line, r = a + λ, where the components of b are integers. b [7 marks]\n− 4 y − 6 z − 2 The plane ÷ is parallel to both the line in part (b) and the line x\n(c) = = .\n3 − 2 0\nGiven that ÷ contains the point (, 120, show that the Cartesian equation ,)\n[5 marks]\nof ÷ is 16 x + 24 y − 11 z = 64 .\n(d) The z-axis meets the plane ÷ at the point P. Find the coordinates of P. [2 marks]\n− 2 y + 5 z Find the angle between the line x\n(e) = = and the plane ÷. [5 marks]\n3 4 2",
+   "ms_text": "1 − 3 1 3\n11. (a) in augmented matrix form 1 5 − 2 1\n0 16 − 6 k\nattempt to find a line of zeros (M1)\n1 − 3 1 3\nr − r 0 8 − 3 − 2 (A1)\n2 1\n0 16 − 6 k\n1 − 3 1 3\nr − 2 r 0 8 − 3 − 2 (A1)\n3 2\n0 0 0 k + 4\nthere is an infinite number of solutions when k =− 4 R1\nthere is no solution when\nR1\nNote: Approaches other than using the augmented matrix are acceptable.\n[5 marks]\n1 − 3 1 3\n(b) using 0 8 − 3 − 2 and letting z = λ (M1)\n0 0 0 k + 4\n8 y − 3 λ =− 2\n3 λ− 2\n⇒ y = (A1)\n8\nx − 3 y + z = 3\nλ − 9 6\n⇒ x − + λ = 3 (M1)\n8\n⇒ 8 x − 9 λ + 6 + 8 λ = 24\n+ λ 18\n⇒ x = (A1)\n8\n18 1\n8 8\nx\n2 3\n⇒ y =− + λ (M1)(A1)\n8 8\nz\n0 1\n9\n4\n1\n1\nr =− + λ 3 A1\n4\n8\n0\nNote: Accept equivalent answers.\n[7 marks]\n3\n(c) recognition that − 2 is parallel to the plane (A1)\n0\ni j k\ndirection normal of the plane is given by 1 3 8 (M1)\n− 3 2 0\n= 16 i + 24 j − 11 k A1\n+ − = Cartesian equation of the plane is given by 16 x 24 y 11 z d and a point\nwhich fits this equation is (1, 2, 0) (M1)\n⇒ 16 + 48 = d\nd = 64 A1\nhence Cartesian equation of plane is 16 x + 24 y − 11 z = 64 AG\nNote: Accept alternative methods using dot product.\n[5 marks]\n(d) the plane crosses the z-axis when x = y = 0 (M1)\n64\ncoordinates of P are 0, 0, − A1\n11\n64\nz =− Note: Award A1 for stating .\n11\n0\nNote: Accept. 0\n64\n−\n11\n[2 marks]\n(e) recognition that the angle between the line and the direction normal is given by:\n3 16\n= θ where θ is the angle between the line and 4 24 29953cos\n− 2 11\nthe normal vector M1A1\n⇒ 122 = 29953cosθ (A1)\n⇒ θ = 42.8 (0.747 radians) (A1)\nhence the angle between the line and the plane is\n− = 90 42.8 47.2 (0.824 radians) A1\n[5 marks]\nNote: Accept use of the formula . a b = ab sinθ .\nTotal [24 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.16",
+    "3.18",
+    "3.17",
+    "3.16",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 24]\n(a) Find the values of $k$ for which the following system of equations has no solutions and the value of $k$ for the system to have an infinite number of solutions.\n$x - 3y + z = 3$\n$x + 5y - 2z = 1$\n$16y - 6z = k$ [5 marks]\n(b) Given that the system of equations can be solved, find the solutions in the form of a vector equation of a line, $\\boldsymbol{r} = \\boldsymbol{a} + \\lambda\\boldsymbol{b}$, where the components of $\\boldsymbol{b}$ are integers. [7 marks]\n(c) The plane $\\Pi$ is parallel to both the line in part (b) and the line $\\frac{x-4}{3} = \\frac{y-6}{-2} = \\frac{z-2}{0}$. Given that $\\Pi$ contains the point $(1, 2, 0)$, show that the Cartesian equation of $\\Pi$ is $16x + 24y - 11z = 64$. [5 marks]\n(d) The $z$-axis meets the plane $\\Pi$ at the point P. Find the coordinates of P. [2 marks]\n(e) Find the angle between the line $\\frac{x-2}{3} = \\frac{y+5}{4} = \\frac{z}{2}$ and the plane $\\Pi$. [5 marks]"
+  },
+  {
+   "id": "math-2012-M-P2-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 22]\nA particle moves in a straight line with velocity v metres per second. At any time\n3 v π , the velocity is given by the differential equation d 2\nt seconds, 0 ≤< t + v += 1 0 .\nd t 4\nIt is also given that v =1 when t = 0.\n(a) Find an expression for v in terms of t . [7 marks]\n(b) Sketch the graph of v against t , clearly showing the coordinates of any intercepts,\nand the equations of any asymptotes. [3 marks]\n(c) (i) Write down the time T at which the velocity is zero.\n(ii) Find the distance travelled in the interval [, 0T. ] [3 marks]\n(d) Find an expression for s , the displacement, in terms of t , given that s = 0\nwhen t = 0. [5 marks]\n1 2\nHence, or otherwise, show that s (e) = ln . [4 marks]\n2 2 1\n+ v",
+   "ms_text": "d v 2\n12. (a) v − 1 t=−\nd\nattempt to separate the variables M1\n1\nd v =− 1d t A1 ∫ ∫\n+ 2 1 v\narctanv =−+ t k A1A1\nNote: Do not penalize the lack of constant at this stage.\nwhen t = 0, v = 1 M1\nπ\n⇒ k = arctan1 = = ( 45 ) A1\n4\nπ\n⇒ v = − t A1\ntan4\n[7 marks]\n(b)\nA1A1A1\nNote: Award A1 for general shape,\nA1 for asymptote,\nA1 for correct t and v intercept.\nNote: Do not penalise if a larger domain is used.\n[3 marks]\nπ\n(c) (i) T = A1\n4\nπ π\n4 (ii) area under curve = ∫\n0tan − t d t (M1)\n4\n1\n= 0.347 = ln2 A1\n2\n[3 marks]\nπ\n(d) v = − t\ntan4\nπ\ns = tan − t d t M1 ∫\n4\nπ\n− t\nsin4\n∫ d t (M1)\nπ\n− t\ncos4\nπ\n= − + t k A1\nlncos4\nwhen t = 0, s = 0\nπ\nk =− A1\nlncos 4\nπ π π\ns = lncos − t − lncos = ln 2 cos − t A1\n4 4 4\n[5 marks]\n(e) METHOD 1\nπ−=\nt arctan v M1\n4\nπ\nt = − arctan v\n4\nπ π\ns = ln 2 cos − + arctan v\n4 4\ns = ln 2cos(arctan) v M1A1\n1\ns = ln 2 cosarccos A1\n2 1 + v\n2\n= ln\n2 1 + v\n1 2\n= ln AG\n2 1 + v 2\nMETHOD 2\nπ π\ns = lncos − t − lncos\n4 4\nπ π\n=− lnsec − t − lncos M1\n4 4\nπ π\n=− + 2 − − ln1 tan t lncos M1\n4 4\nπ\n2 =− ln1 + v − A1\nlncos 4\n1\n= ln + ln 2 A1\n+ 2 1 v\n1 2\n= ln AG\n2 2 1v +\nMETHOD 3\ndv 2\nv v − 1 M1 ds=−\nv\ndv =− 1 ds M1 ∫ ∫\nv 2 + 1\n1 ln( 2 + =−+ v 1) s k A1\n2\nwhen s = 0 , t = 0 ⇒ v = 1\n1 ln2 ⇒ k = A1\n2\n1 2\n⇒ = AG s ln\n2 2 1 + v\n[4 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15",
+    "5.9",
+    "5.11",
+    "3.9",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 22]\nA particle moves in a straight line with velocity $v$ metres per second. At any time $t$ seconds, $0 \\leq t < \\frac{3\\pi}{4}$, the velocity is given by the differential equation $\\frac{dv}{dt} + v^2 + 1 = 0$. It is also given that $v = 1$ when $t = 0$.\n(a) Find an expression for $v$ in terms of $t$. [7 marks]\n(b) Sketch the graph of $v$ against $t$, clearly showing the coordinates of any intercepts, and the equations of any asymptotes. [3 marks]\n(c) (i) Write down the time $T$ at which the velocity is zero.\n(ii) Find the distance travelled in the interval $[0, T]$. [3 marks]\n(d) Find an expression for $s$, the displacement, in terms of $t$, given that $s = 0$ when $t = 0$. [5 marks]\n(e) Hence, or otherwise, show that $s = \\frac{1}{2}\\ln\\frac{2}{1+v^2}$. [4 marks]"
+  }
+ ],
+ "status": "done"
+}

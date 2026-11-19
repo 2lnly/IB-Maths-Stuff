@@ -1,0 +1,506 @@
+{
+ "exam_id": "math-2003-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2003,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2003 November Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2003 November Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); marks not printed; assumed 6 per question (modal markscheme value)",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2003-N-P1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. Consider the points A(1, 2, −4),Β(1 , 5, 0) and C (6 , 5, −12 ) . Find the area of ∆ABC.",
+   "ms_text": "QUESTION 1\nMETHOD 1\n0 5\n→ →\nBA =−3 , BC = 0 . (A1)(A1)\n−4 −12\nNote: Award (A1), (A1) for any two correct vectors used to find area.\ni j k\n→ →\nBA × BC = 0 − 3 − 4 (M1)\n− 5 0 12\n= 36 i − 20 j + 15 k (A1)\n→ → 1\n1BABC 2 2 2 Area = % = 36 + 20+15 (M1)\n2 2\n11921 =\n2\n= 21.9 (A1) (C6)\nMETHOD 2\n0 5\n→ →\nBA =−3 , BC = 0 . (A1)(A1)\n−4 −12\n→ →\n= 5 = 13 (A1)(A1) B A BC\n1 48 − 1\nArea = ×× 513sincos (M1)\n2 65\n= 21. 9 (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "Consider the points $A(1, 2, -4)$, $B(1, 5, 0)$ and $C(6, 5, -12)$. Find the area of $\\triangle ABC$."
+  },
+  {
+   "id": "math-2003-N-P1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. The cumulative frequency curve below indicates the amount of time 250 students spend eating\nlunch.\n(a) Estimate the number of students who spend between 20 and 40 minutes eating lunch.\n(b) If 20 % of the students spend more than x minutes eating lunch, estimate the value of x.\n260\n240\n220\n200\n180\n160\n140 Cumulative frequency\n120\n100\n80\n60\n40\n20\n0 40 10 20 30 50 60 70 80\nTime eating lunch, minutes",
+   "ms_text": "QUESTION 2\n(a) 28 spent less than 20 minutes (A1)\n184 spent less than 40 minutes (A1)\n156 spent between 20 and 40 minutes (A1) (C3)\n(b) 80 % spent less than x minutes (M1)\n80 % of 250 = 200 (M1)\nx = 44 minutes (A1) (C3)",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms"
+   ],
+   "text_clean": "The cumulative frequency curve below indicates the amount of time 250 students spend eating lunch.\n(a) Estimate the number of students who spend between 20 and 40 minutes eating lunch.\n(b) If 20 % of the students spend more than $x$ minutes eating lunch, estimate the value of $x$.\n[Graph: cumulative frequency curve (0 to 260) against time eating lunch in minutes (10 to 80); curve starts at 10 minutes, rises steeply around 30 minutes and levels off at 250 by 80 minutes]"
+  },
+  {
+   "id": "math-2003-N-P1-q3",
+   "num": "3",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. The matrices A, B, C and X are all non-singular 3 % 3 matrices.\n−1 = Given that\nAXB C , express X in terms of the other matrices.",
+   "ms_text": "QUESTION 3\n−1 AAXB = Α C (M1)(A1)\nIXBB −1 = ACB −1 (M1)(A1)\n−1 X = ACB (M1)(A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "The matrices $A$, $B$, $C$ and $X$ are all non-singular $3 \\times 3$ matrices.\nGiven that $A^{-1}XB = C$, express $X$ in terms of the other matrices."
+  },
+  {
+   "id": "math-2003-N-P1-q4",
+   "num": "4",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. A continuous random variable, X, has probability density function\nπ\nfx () = sin,0 x ≤ x\n≤2 .\nFind the median of X.",
+   "ms_text": "QUESTION 4\nmedian = m\nm 1\n(M1)(A1) ∫ xx\n0sind =2\n1 m\n[ − cos x ]0 (A1)\n=2\n1\n− cosm (M1)\n+1=2\n1\ncosm (A1) =2\nπ\nm = (1.05) = (A1) (C6)\n3",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "A continuous random variable, $X$, has probability density function\n$f(x) = \\sin x, \\; 0 \\le x \\le \\frac{\\pi}{2}$.\nFind the median of $X$."
+  },
+  {
+   "id": "math-2003-N-P1-q5",
+   "num": "5",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. Consider the equation 2( p + i) q = q − i p −2(1− i) , where p and q are both real numbers. Find\np and q.",
+   "ms_text": "QUESTION 5\n2( p + i) q = q − i p −21− ( i )\n2p = q −2 (M1)(A1)\n2q = − p + 2 (M1)(A1)\np = − 0.4, q = 1.2 (A1)(A1) (C6)\nNote: Award (C3) for 1 correct answer with no working.",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "Consider the equation $2(p + \\mathrm{i}q) = q - \\mathrm{i}p - 2(1 - \\mathrm{i})$, where $p$ and $q$ are both real numbers. Find $p$ and $q$."
+  },
+  {
+   "id": "math-2003-N-P1-q6",
+   "num": "6",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. The diagram shows the graph of fx () .\n1\n(a) On the same diagram, sketch the graph of , indicating clearly any asymptotes.\nfx ()\ny\n2\n1\n–2 –1 0 1 2 x\n–1\n–2\n(b) On the diagram write down the coordinates of the local maximum point, the local\n1\nminimum point, the x-intercepts and the y-intercept of .\nfx ()",
+   "ms_text": "QUESTION 6\n(a) (C3)\n(b) (C3)\n(A1)(A2)(A3)\nNotes: (a) Award (A1) for the asymptote x= 2, (A1) for a correct shape and (A1) for asymptote\ny= 1.\n1\n(b) Award (A1) for each point (1, 0),0, − − , (1, 0) .\n2",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "The diagram shows the graph of $f(x)$.\n(a) On the same diagram, sketch the graph of $\\frac{1}{f(x)}$, indicating clearly any asymptotes.\n[Graph: $y = f(x)$ on a grid, x from about $-4$ to $4$, y from $-3$ to $3$; vertical asymptotes $x = -1$ and $x = 1$, horizontal asymptote $y = 1$; left branch increases from just above $y = 1$ towards $+\\infty$ as $x \\to -1^-$; middle branch is an arch below the x-axis with maximum $(0, -2)$, going to $-\\infty$ at $x = \\pm 1$; right branch rises from $-\\infty$ at $x = 1^+$, crosses the x-axis at $x = 2$ and approaches $y = 1$]\n(b) On the diagram write down the coordinates of the local maximum point, the local minimum point, the $x$-intercepts and the $y$-intercept of $\\frac{1}{f(x)}$.",
+   "review_note": "Markscheme crop loses the last line of the Notes box ('(b) Award (A1) for each point (-1, 0), (0, -1/2), (1, 0)'): seg_math classifies the fraction denominator '2' at y~780 on ms page 6 as a footer, and footers are excluded even for override regions, so overrides cannot recover it. Main markscheme graph and (C3)(C3) are present. | fixed by segmenter update"
+  },
+  {
+   "id": "math-2003-N-P1-q7",
+   "num": "7",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. Find the angle between the plane 3x −2+ 4=12 y z and the z-axis. Give your answer to the\nnearest degree.",
+   "ms_text": "QUESTION 7\n0\nz-axis has direction vector 0 (A1)\n1\nLet � equal the angle between the line and the normal to the plane.\n0 3\n0⋅−2\n1 4\ncos θ = (M1)\n2 2 13 2 + 2+ 4\n4\ncos θ= (A1)\n29\n� θ= 42 (A1)\n� The angle between the line and the plane is (90 − θ ) . (M1)\nThe angle is 48� . (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "Find the angle between the plane $3x - 2y + 4z = 12$ and the $z$-axis. Give your answer to the nearest degree."
+  },
+  {
+   "id": "math-2003-N-P1-q8",
+   "num": "8",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. Consider the function ft () = 3sec 2 t + 5 t .\n(a) Find f ′ () t .\n(b) Find the exact values of\n(i) fπ () ;\n(ii) f ′π () .",
+   "ms_text": "QUESTION 8\n(a) METHOD 1\n2 ft () = 3sec t + 5 t\n() − 2 ft = 3(cos) t + 5 t\n− 3 f ′ () t = − 6(cos)(sin) t − t + 5 (M1)(A1)\n6sin t\n= + 5 (C2)\ncos 3 t\nMETHOD 2\nf ′ () t =× 32sec(sectan) t t t + 5 (M1)(A1)\n= 2 + = 2 + + 6sec t tan t 5(6tan t 6tan t 5) (C2)\n3\nπ) = + 5π (b) f ( (M1)\n2 ( cos π)\n= 3+ 5π (A1) (C2)\n6 sin π\nf ′π) = ( + 5 (M1)\n3 ( cos π)\n= 5 (A1) (C2)",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.6",
+    "3.5"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "Consider the function $f(t) = 3\\sec^2 t + 5t$.\n(a) Find $f'(t)$.\n(b) Find the exact values of\n(i) $f(\\pi)$;\n(ii) $f'(\\pi)$."
+  },
+  {
+   "id": "math-2003-N-P1-q9",
+   "num": "9",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. The first four terms of an arithmetic sequence are 2, a − b ,2 a + b + 7 and a −3 b , where\na and b are constants. Find a and b.",
+   "ms_text": "QUESTION 9\n(2 a + b + 7) −(− a b ) = (− a b ) − 2 (M1)(M1)\n(−3 a b ) −(2+ a b + 7) = (2+ a b + 7) −(− a b ) (M1)\n0 = 2 a + 6 b + 14 (A1)\nb = −3 (A1) (C3)\na = 2 (A1) (C3)",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "The first four terms of an arithmetic sequence are $2$, $a - b$, $2a + b + 7$ and $a - 3b$, where $a$ and $b$ are constants. Find $a$ and $b$."
+  },
+  {
+   "id": "math-2003-N-P1-q10",
+   "num": "10",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "1\n3 2 10. Solve log 100 − x .\n16 =2",
+   "ms_text": "QUESTION 10\n1\n3 2 16 2 = 100 − x (M2)\n3 2 4 = 100 − x (A1)\n2 64 = 100 − x (M1)\n2 x= 36\nx = ±6 (A1)(A1) (C6)\nNote: Award (C1) if only x= 6 is given without working.",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "Solve $\\log_{16} \\sqrt[3]{100 - x^2} = \\frac{1}{2}$."
+  },
+  {
+   "id": "math-2003-N-P1-q11",
+   "num": "11",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. Calculate the area enclosed by the curves y = ln x and y = e x − e, x > 0 .",
+   "ms_text": "QUESTION 11\nx y = e − e\ny = ln x\nCurves intersect at x = 0.233 (G1)\nand x =1 (G1)\n1 x\nArea = ∫ (ln x − e + e)d x (M1)(A1)\n0.233\n= 0.201 (G2) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "Calculate the area enclosed by the curves $y = \\ln x$ and $y = \\mathrm{e}^x - \\mathrm{e}$, $x > 0$."
+  },
+  {
+   "id": "math-2003-N-P1-q12",
+   "num": "12",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. On a television channel the news is shown at the same time each day. The probability that\nAlice watches the news on a given day is 0.4 . Calculate the probability that on five\nconsecutive days, she watches the news on at most three days.",
+   "ms_text": "QUESTION 12\nMETHOD 1\nX is Binomial\nn = 5 p = 0.4 (A1)(A1)\nP( X ≤ 3) =1− P( X = 4) − P( X = 5) (M1)\n=1−0.0768 −0.01024 (A1)(A1)\n= 0.91296 … (0.913 to 3s.f.) (A1) (C6)\nMETHOD 2\nP( X ≤ 3) = P( X = 0) + P( X = 1) + P( X = 2) + PX ( = 3) (M1)\n= 0.07776 + 0.2592 + 0.3456 + 0.2304 (A2)\n= … (A1) (C6) 0.91296 (0.913 to 3s.f.)",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "On a television channel the news is shown at the same time each day. The probability that Alice watches the news on a given day is 0.4. Calculate the probability that on five consecutive days, she watches the news on at most three days."
+  },
+  {
+   "id": "math-2003-N-P1-q13",
+   "num": "13",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. Consider the equation (1 + 2 kx ) 2 −10+ x k −2 = 0, k ∈R . Find the set of values of k for which\nthe equation has real roots.",
+   "ms_text": "QUESTION 13\nMETHOD 1\n100 −4(1+ 2 k )( k −2) ≥0 (M1)(A1)\n(M2) –3\n4.5\n−3 ≤ k ≤ 4.5(accept −3 < k < 4.5) (G2) (C6)\nMETHOD 2\n100 −4(1+ 2 k )( k −2) ≥0 (M1)(A1)\n100 −4(2 k 2 −3−2≥0 k )\n2 −8 k +12+108 ≥0 k\n8 k 2 −12−108 ≤0 k (M1)\n(2k −9) (+ 3) ≤0 k (A1)\n+ + –\n(M1)\n–3 4.5\n−3 ≤ ≤ −3 < < k 4.5(accept k 4.5) (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.7",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "Consider the equation $(1 + 2k)x^2 - 10x + k - 2 = 0$, $k \\in \\mathbb{R}$. Find the set of values of $k$ for which the equation has real roots."
+  },
+  {
+   "id": "math-2003-N-P1-q14",
+   "num": "14",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "x 3\n14. Let fx () = sinarcsin − arccos , for −4 ≤ x ≤4 .\n4 5\n(a) On the grid below, sketch the graph of fx () .\ny\n2\n1\n–5 –4 –3 –2 –1 0 1 2 3 4 5 x\n–1\n–2\n(b) On the sketch, clearly indicate the coordinates of the x-intercept, the y-intercept, the\nminimum point and the endpoints of the curve of fx () .\n1\n(c) Solve fx () . = −2",
+   "ms_text": "QUESTION 14\ny\n(a) (b)\n3\n2\n1\n(4, 0.6)\n0 x –5 –4 –3 –2 –1 1 2 3 4 5\n(3.2, 0)\n(–4, –0.6)\n–1 (0, –0.8)\n(–2.4, –1)\n–2\n–3\n(A5)\nNote: Award (A1) for each of the points shown.\nπ\nx = 1.57 do not (c)\naccept 2 (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.9",
+    "2.3",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms"
+   ],
+   "text_clean": "Let $f(x) = \\sin\\left(\\arcsin\\frac{x}{4} - \\arccos\\frac{3}{5}\\right)$, for $-4 \\le x \\le 4$.\n(a) On the grid below, sketch the graph of $f(x)$.\n[Blank grid: x from $-5$ to $5$, y from $-2$ to $2$]\n(b) On the sketch, clearly indicate the coordinates of the $x$-intercept, the $y$-intercept, the minimum point and the endpoints of the curve of $f(x)$.\n(c) Solve $f(x) = -\\frac{1}{2}$."
+  },
+  {
+   "id": "math-2003-N-P1-q15",
+   "num": "15",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "15. Consider the equation 2 xy 2 = xy 2 + 3 .\n(a) Find when y x = 1and y < 0 .\nd y\n(b) Find when x = 1and y < 0 .\nd x",
+   "ms_text": "QUESTION 15\n2 2 2 xy = xy + 3\n2 (a) x =⇒ 1 2 y − y − 3 = 0 (M1)\ny = 3 or y = − 1\n2\ny < 0 ⇒ y = −1 (A1) (C2)\nd y d y 2 2\n(b) 2 y + 4 xy = 2 xy + x (M1)(M1)(A1)\nd x d x\n2 d y 2 xy − 2 y\n=\n2 d x 4 xy − x\nd y 4\n(1, −1) ⇒ (A1) (C4) =5\nd x",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.14",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "Consider the equation $2xy^2 = x^2 y + 3$.\n(a) Find $y$ when $x = 1$ and $y < 0$.\n(b) Find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ when $x = 1$ and $y < 0$."
+  },
+  {
+   "id": "math-2003-N-P1-q16",
+   "num": "16",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "3 x 16. Let y = esin( π x ) .\nd y\n(a) .\nFindd\nx\nd y\n(b) Find the smallest positive value of x for which 0 .\nx=\nd",
+   "ms_text": "QUESTION 16\nx y = 3esin( π x )\nd y 3 x 3 x\n(a) esin( π x ) + π e cos( π x ) (M1)(A1)(A1) (C3)\nx= 3\nd\n3 x (b) 0 = e ( 3sin( π x ) + π cos( π x ) )\nπ\ntan( π x ) (M1) = −3\nπ x = − 0.80845 + π (M1)\nx = 0.7426 … (0.743 to 3 s.f.) (A1) (C3)",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.6",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "Let $y = \\mathrm{e}^{3x} \\sin(\\pi x)$.\n(a) Find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$.\n(b) Find the smallest positive value of $x$ for which $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 0$."
+  },
+  {
+   "id": "math-2003-N-P1-q17",
+   "num": "17",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "x + 4 x −2\n17. Let fx () = , x ≠−1 and gx () = , x ≠ 4 .\nx +1 x −4\nFind the set of values of x such that fx () ≤ gx () .",
+   "ms_text": "QUESTION 17\nMETHOD 1\nGraph of fx () − gx ()\n(M3)\n–1 4 14\nx < − 1 or4 < x ≤ 14 (G1)(G1)(G1) (C6)\nNote: Each value and inequality sign must be correct.\nMETHOD 2\nx + 4 x −2\n− ≤ 0 (M1)\nx +1 x −4\n2 2 x −16 − x + x\n+ 2 ≤\n0\n(+1)(−4) x x\nx −14\n≤ 0 (A1)\n(+1)(−4) x x\nCritical value of x =14 (A1)\n– + – +\n–1 4 14\nx < − 1or 4 < x ≤ 14 (A1)(A1)(A1) (C6)\n2 2 Note: Award (M0)(A0) for x − 16 ≤ x − x − 2\nx ≤ 14",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.15",
+    "2.13"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "Let $f(x) = \\frac{x + 4}{x + 1}$, $x \\ne -1$ and $g(x) = \\frac{x - 2}{x - 4}$, $x \\ne 4$.\nFind the set of values of $x$ such that $f(x) \\le g(x)$.",
+   "review_note": "Markscheme crop omits the final Note box ('Award (M0)(A0) for x^2-16 <= -x^2 + x + 2 ... x <= 14', i.e. no credit for cross-multiplying): seg_math classifies the '14' at y~781 on ms page 11 as a footer and excludes it even for override regions. Both full methods and (C6) are present. | fixed by segmenter update"
+  },
+  {
+   "id": "math-2003-N-P1-q18",
+   "num": "18",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "18. A committee of four children is chosen from eight children. The two oldest children cannot\nboth be chosen. Find the number of ways the committee may be chosen.",
+   "ms_text": "QUESTION 18\nMETHOD 1\nConsider the group as two groups – one group of the two oldest\nand one group of the rest (M2)\nEither one of the two oldest is chosen or neither is chosen (M1)\nThen the number of ways to choose the committee is\n6 2 6 2\n+ (M1)(M1)\n3 1 4 0\n= 4015 +\n= 55 ways (A1) (C6)\nMETHOD 2\nThe number of ways to choose a committee of 4 minus the number\nof ways to have both the oldest e (M3)\n8 6\n− (M1)(M1)\n4 2\n= 7015 −\n= 55 ways (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "A committee of four children is chosen from eight children. The two oldest children cannot both be chosen. Find the number of ways the committee may be chosen."
+  },
+  {
+   "id": "math-2003-N-P1-q19",
+   "num": "19",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "3\n+1 19. Solve 25x ( ) , giving the answer in the form a + log b ,where , ab ∈Z .\n=1+ 5 5 x",
+   "ms_text": "QUESTION 19\n3\nx +1 25 ( )\n=1+ 5 x\n3\n105 ( x ) (M1)\n=1+ 5 x\n105 ( 2 x ) = 5 x + 3 (M1)\n( 2 x ) x 105 −5−3 = 0\nx x ( 5(5) −3 )( 2(5 ) +1= 0 ) (M1)\n3\n5 x= (A1)\n5\n3\nx = (M1)\nlog5 5\nx = −1+ log3 (A1) (C6)\n5",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "Solve $2\\left(5^{x+1}\\right) = 1 + \\frac{3}{5^x}$, giving the answer in the form $a + \\log_5 b$, where $a, b \\in \\mathbb{Z}$."
+  },
+  {
+   "id": "math-2003-N-P1-q20",
+   "num": "20",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "20. An airplane is flying at a constant speed at a constant altitude of 3 km in a straight line that\nwill take it directly over an observer at ground level. At a given instant the observer notes that\n1 1\nthe angle θ π radians and is increasing at radians per second. Find the speed, in\nis3\n60\nkilometres per hour, at which the airplane is moving towards the observer.\nAirplane\nx\n3 km\nθ\n– – – – – – – – – – – – – – – – –\nObserver",
+   "ms_text": "QUESTION 20\n3\ntan θ=\nx\nd θ − 3d x 2\nsec θ = (M1)\n2 d t x d t\nπ\n2 2 when θ = , x = 3andsec θ = 4 (A1)(A1)\n3\n2 2 d x − x sec θ d θ\n(M1) =\nd t 3 d t\nd x − 3(4) 1\n=\nd t 3 60\nd x 1kms − 1\n= −\nd t 15\nd x − 1\n= − 240 kmh (A1)\nd t\n1 The aeroplane is moving towards him at 240 kmh− (A1) (C6)\nNote: Award (C5) if the answer is given as − 240 kmh− 1 .",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.15",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "An airplane is flying at a constant speed at a constant altitude of 3 km in a straight line that will take it directly over an observer at ground level. At a given instant the observer notes that the angle $\\theta$ is $\\frac{1}{3}\\pi$ radians and is increasing at $\\frac{1}{60}$ radians per second. Find the speed, in kilometres per hour, at which the airplane is moving towards the observer.\n[Diagram: right-angled triangle; vertical side 3 km above the observer, horizontal distance $x$ from the point directly above the observer to the airplane, angle of elevation $\\theta$ at the observer; arrow shows airplane moving towards the observer]"
+  }
+ ],
+ "status": "done"
+}

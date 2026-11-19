@@ -1,0 +1,112 @@
+{
+ "exam_id": "math-2019-M-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2019,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2019 May Examination Session/Mathematics_paper_3_Statistics_and_probability__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2019 May Examination Session/Mathematics_paper_3_Statistics_and_probability__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2219-7210; code M19/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches paper total 50",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2019-M-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 16]\nThe continuous random variable X has a probability density function given by\nkx 0 ≤ x < 1\n2 1 2\nfx () = kx ≤ x ≤ .\n0 otherwise\nShow that k=6 (a) .\b [4]\n17\n(b) Find the cumulative distribution function of X .\b [6]\n(c) Find the median, m , of X .\b [3]\n(d) Find P (| X - m | < 0.75) .\b [3]",
+   "ms_text": "1 2\n1. (a) kxx d + kx 2 d x M1 ∫ ∫\n0 1\n1 2 2 3\nx x\n= k + k (A1)\n2 3\n0 1\n1 8 1 k\n= + − A1\n2 3 3\nput expression equal to 1 M1\n6\nk = AG\n17\n[4 marks]\n2 x 6 3 x\n(b) ∫ tt = d (A1)\n0 17 17\n2 3 x\nFx () = , 0 ≤ x < 1 A1\n17\nx 6 2 x 3 2 2\nt d t = − A1 ∫\n1 17 17 17\n3 2 x 2\n() = − + () ,1 ≤ x ≤ 2 Fx F 1 M1\n17 17\n3 2 x 1\n= + A1\n17 17\nFx () = 0 , x < 0 and Fx () = 1 , x > 2 A1\nNote: Condone the use of x as the variable of integration.\nNote: Accept the use of k in lines 1 and 3.\nNote: Allow either weak or strong inequalities.\n[6 marks]\n(c) recognition that the median lies between 1 and 2 (M1)\n2 1\n3 Fm () = 0.5 ⇒ 0.5 = m +\n(M1)\n17 17\n⇒ m = 1.55 A1\nNote:FT their F(x) from (b) if possible.\n[3 marks]\n(d) P ( − 0.75 ≤ X − 1.55 ≤ 0.75 )\n= P0.8 ( ≤ X ≤ 2.3 ) (M1)\n= F ( 2.3 ) − F ( 0.8 ) (M1)\n3\n1− 2 ( .0 8036 ...)\n17\n= 0.886 A1\nNote: Accept all answers that round to 0.89.\nNote:FT their m from (c).\n[3 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.L3",
+    "4.14",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 16]\nThe continuous random variable $X$ has a probability density function given by\n$f(x)=\\begin{cases} kx & 0\\le x<1 \\\\ kx^2 & 1\\le x\\le 2 \\\\ 0 & \\text{otherwise} \\end{cases}$.\n(a) Show that $k=\\frac{6}{17}$. [4]\n(b) Find the cumulative distribution function of $X$. [6]\n(c) Find the median, $m$, of $X$. [3]\n(d) Find $\\mathrm{P}(|X-m|<0.75)$. [3]"
+  },
+  {
+   "id": "math-2019-M-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 12]\nEmployees answer the telephone in a customer relations department. The time taken for an\nemployee to deal with a customer is a random variable which can be modelled by a normal\ndistribution with mean 150 seconds and standard deviation 45 seconds.\n(a) Find the probability that the time taken for a randomly chosen customer to be dealt with\nby an employee is greater than 180 seconds.\b [2]\n(b) Find the probability that the time taken by an employee to deal with a queue of three\ncustomers is less than nine minutes.\b [4]\nAt the start of the day, one employee, Amanda, has a queue of four customers. A second\nemployee, Brian, has a queue of three customers. You may assume they work independently.\n(c) Find the probability that Amanda’s queue will be dealt with before Brian’s queue.\b [6]",
+   "ms_text": "2.\nNote: In question 2, accept answers that round correctly to 2 significant figures.\n( 2 ) (a) X: N150,45\nP ( X> 180 ) = 0.252 (M1)A1\n[2 marks]\n(b) required to find P( X + X + X < 540)\n1 2 3\n= + + let S X X X\n1 2 3\nE() S= 450 (A1)\nVar() S = 3Var( X ) (M1)\n2 ( ) =× 345 ⇒ σ = 453 (= 6075)\n(A1)\nP( S < 540) = 0.876 A1\nNote: In (b) and (c) condone incorrect notation, eg,3X for X1 + X2 + X3.\n[4 marks]\n(c) let Y = ( X + X + X + X )( − X + X + X ) (M1)\n1 2 3 4 5 6 7\nE () Y = E ( X ) = 150 (A1)\nVar () Y = 4Var ( X ) + 3Var ( X ) ( = 7Var ( X ) ) (M1)\n= 14175 (A1)\nrequired to find P(Y < 0) (M1)\n= 0.104 A1\n[6 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 12]\nEmployees answer the telephone in a customer relations department. The time taken for an employee to deal with a customer is a random variable which can be modelled by a normal distribution with mean 150 seconds and standard deviation 45 seconds.\n(a) Find the probability that the time taken for a randomly chosen customer to be dealt with by an employee is greater than 180 seconds. [2]\n(b) Find the probability that the time taken by an employee to deal with a queue of three customers is less than nine minutes. [4]\nAt the start of the day, one employee, Amanda, has a queue of four customers. A second employee, Brian, has a queue of three customers. You may assume they work independently.\n(c) Find the probability that Amanda's queue will be dealt with before Brian's queue. [6]"
+  },
+  {
+   "id": "math-2019-M-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 10]\nIn a large population of hens, the weight of a hen is normally distributed with mean µ kg\nand standard deviation σ kg. A random sample of 100 hens is taken from the population.\nThe mean weight for the sample is denoted by X.\n(a) State the distribution of X giving its mean and variance.\b [1]\n2\nThe sample values are summarized by ∑ x =199 8. and ∑ x = 407 8. where x kg is the\nweight of a hen.\n(b) Find an unbiased estimate for µ .\b [1]\n(c) Find an unbiased estimate for σ 2 .\b [2]\n(d) Find a 90 % confidence interval for µ .\b [3]\n(e) It is found that σ = 0.27 . It is decided to test, at the 1 % level of significance, the null\nhypothesis µ = 1.95 against the alternative hypothesis µ > 1.95 .\n(i) Find the p-value for the test.\n(ii) Write down the conclusion reached.\b [3]",
+   "ms_text": "2 σ\n3. (a) X : N μ A1\n,100\nNote: Accept n in place of 100.\n[1 mark]\n∑ x 199.8\n(b) μ= ˆ = = 1.998 A1\nn 100\nNote:Accept 2.00, 2.0 and 2.\n[1 mark]\n2 ∑ x\n2 n 2 100 407.8 2 (c) s = − x = − 1.998 (M1)\nn − 1\nn − 1 n 99 100\n= 0.086864\n2 unbiased estimate for σ is 0.0869 A1\nNote: Accept any answer which rounds to 0.087.\n[2 marks]\n0.0869\n± (d) 90% confidence interval is 1.9981.660 (M1)\n100\n= ( 1.95,2.05 ) A1A1\nNote:FT their σfrom (c).\nNote: Condone the use of the z-value 1.645 since n is large.\nNote: Accept any values that round to 1.95 and 2.05.\n[3 marks]\n(e) (i) p-value is 0.0377 A2\nNote: Award A1 for the 2-tail value 0.0754.\nNote: Award A2 for 0.0377 and A1 for any other value that rounds to 0.038.\nNote:FT their estimated mean from (b), note that 2 gives p= 0.032(0).\n(ii) accept the null hypothesis A1\nNote:FT their p-value.\n[3 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.L6",
+    "4.L7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 10]\nIn a large population of hens, the weight of a hen is normally distributed with mean $\\mu$ kg and standard deviation $\\sigma$ kg. A random sample of 100 hens is taken from the population. The mean weight for the sample is denoted by $\\bar{X}$.\n(a) State the distribution of $\\bar{X}$ giving its mean and variance. [1]\nThe sample values are summarized by $\\sum x=199.8$ and $\\sum x^2=407.8$ where $x$ kg is the weight of a hen.\n(b) Find an unbiased estimate for $\\mu$. [1]\n(c) Find an unbiased estimate for $\\sigma^2$. [2]\n(d) Find a 90% confidence interval for $\\mu$. [3]\n(e) It is found that $\\sigma=0.27$. It is decided to test, at the 1% level of significance, the null hypothesis $\\mu=1.95$ against the alternative hypothesis $\\mu>1.95$.\n(i) Find the $p$-value for the test.\n(ii) Write down the conclusion reached. [3]"
+  },
+  {
+   "id": "math-2019-M-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 12]\nIt is given that X , Y , Z are random variables and c is a constant.\n(a) Show that Cov (X+ c , Y ) = Cov (X , Y ) .\b [3]\n(b) Show that Cov (X+ Y , Z ) = Cov (X , Z ) + Cov (Y , Z ) .\b [3]\nIt is given that S and T are two independent normal variables with mean 0 and variance 1.\n(c) Using the results from (a) and (b), find the value of Cov (1 +S , S + ST2 ) .\b [6]\n\b",
+   "ms_text": "4. (a) METHOD 1\nCov ( X + cY , ) = E ( [ X + cY ] ) − E ( X + c )() E Y M1\n= E ( XY + cY ) − E ( X )() E Y − c E () Y A1\n= E ( XY ) + E ( cY ) − E ( X )() E Y − c E () Y\n= E ( XY ) + c E () Y − E ( X )() E Y − c E () Y A1\n= Cov ( XY , ) AG\nMETHOD 2\nCov(X + c,Y) = E[(X + c – E(X + c))(Y – E(Y))] M1\n= E[(X + c – E(X) – E(c))(Y – E(Y))] A1\n= E[(X + c – E(X) – c)(Y – E(Y))] A1\n= Cov(X,Y) AG\n[3 marks]\n(b) METHOD 1\n( ) ( [ ] ) ( )() Cov X + YZ , = E X + YZ − E X + Y E Z M1\n= E ( XZ + YZ ) − ( E ( X ) + E () Y )() E Z A1\n= E ( XZ ) + E ( YZ ) − E ( X )() E Z − E ()() Y E Z A1\n= Cov ( XZ , ) + Cov ( YZ , ) AG\nMETHOD2\nCov(X + Y,Z) = E[(X + Y – E(X + Y))(Z – E(Z))] M1\n= E[(X + Y – E(X) – E(Y))(Z – E(Z))]\n= E[(X – E(X) + Y – E(Y))(Z – E(Z))] A1\n= E[(X – E(X))(Z – E(Z))] + E[(Y – E(Y))(Z – E(Z))] A1\n= Cov(X,Z) + Cov(Y,Z) AG\n[3 marks]\n2 (c) Cov1 ( + SS , + ST )\n2 = Cov ( SS , + ST ) (from a) M1\n( ) ( 2 ) = Cov SS , + Cov SST , (from b) M1\nMETHOD 1\n2 2 2 = Var () S + E ( ST ) − E ()( S E ST ) A1\n= () + ( 2 )( 2 ) − ()( 2 ) Var S E S E T E S E ST A1\n()( 2 ) = Var () S + Var () S Var () T − E S E ST (A1)\n=+− 110\n= 2 A1\nMETHOD 2\n= Var(S) + E[(S – E(S))(ST2 – E(ST2))] A1\n= Var(S) + E(S × ST2) A1\n=Var(S) + Var(S)Var(T) (A1)\n= 1 + 1 + 0\n= 2 A1\n[6 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L8",
+    "4.L4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "topic-uncertain"
+   ],
+   "text_clean": "4. [Maximum mark: 12]\nIt is given that $X$, $Y$, $Z$ are random variables and $c$ is a constant.\n(a) Show that $\\mathrm{Cov}(X+c, Y)=\\mathrm{Cov}(X, Y)$. [3]\n(b) Show that $\\mathrm{Cov}(X+Y, Z)=\\mathrm{Cov}(X, Z)+\\mathrm{Cov}(Y, Z)$. [3]\nIt is given that $S$ and $T$ are two independent normal variables with mean 0 and variance 1.\n(c) Using the results from (a) and (b), find the value of $\\mathrm{Cov}(1+S, S+ST^2)$. [6]",
+   "review_note": "Covariance properties: no dedicated code; tagged as bivariate (4.L8, where covariance sat in the legacy stats option) plus expectation algebra of independent RVs (4.L4)."
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,290 @@
+{
+ "exam_id": "math-2021-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2021,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2021 May Examination Session/Mathematics_analysis_and_approaches_paper_1__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2021 May Examination Session/Mathematics_analysis_and_approaches_paper_1__TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2221-7106; marks sum matches paper total 110",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2021-M-P1-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nThe graph of y= f(x) for -4 ≤ x≤ 6 is shown in the following diagram.\ny\n8\n6\n4\n2\nx\n−4 −2 0 2 4 6\n−2\n−4\n−6\n(a) Write down the value of\nf(2) ; (i)\n(ii) (fοf)(2) .\b [2]\n1\n= (b) Let gx () fx ()1 + for -4 ≤ x≤ 6 . On the axes above, sketch the graph of g .\b [3]\n2",
+   "ms_text": "1. (a) (i) f () 2 = 6 A1\n(ii) ( f f )() 2 = − 2 A1\n[2 marks]\n(b)\nM1A1A1\nNote: Award M1 for an attempt to apply any vertical stretch or vertical translation,\nA1 for a correct horizontal line segment between −4 and 0\n(located roughly at y = 3 ),\nA1 for a correct concave down parabola including max point at (2,4) and for\ncorrect end points at (0,3) and (6,0) (within circles). Points do not need to be\nlabelled.\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.11",
+    "2.5",
+    "2.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nThe graph of $y=f(x)$ for $-4 \\le x \\le 6$ is shown in the following diagram.\n[Graph: on a grid with $x$ from $-4$ to $6$ and $y$ from $-6$ to $8$, $y=f(x)$ is a horizontal segment at $y=4$ from $x=-4$ to $x=0$, then a concave-down parabola from $(0,4)$ up to a maximum at $(2,6)$, crossing the $x$-axis near $x=5.5$ and ending at $(6,-2)$]\n(a) Write down the value of\n(i) $f(2)$;\n(ii) $(f \\circ f)(2)$. [2]\n(b) Let $g(x)=\\frac{1}{2}f(x)+1$ for $-4 \\le x \\le 6$. On the axes above, sketch the graph of $g$. [3]"
+  },
+  {
+   "id": "math-2021-M-P1-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nConsider an arithmetic sequence where u8=S8=8 . Find the value of the first term, u1, and\nthe value of the common difference, d .",
+   "ms_text": "2 METHOD 1 (finding 1ufirst, from S8)\n( u+ ) = 4 8 8 (A1)\n1\nu= − 6 A1\n1\nu + 7 d = 8 OR ( 42 u + 7 d ) = 8 (may be seen with their value of (A1)\n1 1 1u)\nattempt to substitute their 1u (M1)\nd= 2 A1\nMETHOD 2 (solving simultaneously)\nu + 7 d = 8 (A1)\n1\n= − 4 ( u+ 8 ) = 8 OR ( 42 u + 7 d ) = 8 OR u 3 d (A1)\n1 1 1\nattempt to solve linear or simultaneous equations (M1)\nu = − 6, d = 2 A1A1\n1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nConsider an arithmetic sequence where $u_8 = S_8 = 8$. Find the value of the first term, $u_1$, and the value of the common difference, $d$."
+  },
+  {
+   "id": "math-2021-M-P1-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nA research student weighed lizard eggs in grams and recorded the results. The following\nbox and whisker diagram shows a summary of the results where L and U are the lower\nand upper quartiles respectively.\ndiagram not to scale\n10 40 75 L U\nThe interquartile range is 20 grams and there are no outliers in the results.\n(a) Find the minimum possible value of U .\b [3]\n(b) Hence, find the minimum possible value of L .\b [2]",
+   "ms_text": "3. (a) attempt to use definition of outlier\n1.520Q × + (M1)\n3\n1.520 × + U ≥ 75 ( ⇒ U ≥ 45 , accept U> 45 ) OR 1.520 × + Q = 75 A1 3\nminimum value of U= 45 A1\n[3 marks]\n(b) attempt to use interquartile range (M1)\nU − L = 20 L ≥ 25 L > 25 (may be seen in part (a)) OR (accept )\nminimum value of L = 25 A1\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.1",
+    "4.3",
+    "4.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nA research student weighed lizard eggs in grams and recorded the results. The following box and whisker diagram shows a summary of the results where $L$ and $U$ are the lower and upper quartiles respectively.\n[Box and whisker diagram (not to scale): minimum 10, lower quartile $L$, median 40, upper quartile $U$, maximum 75]\nThe interquartile range is 20 grams and there are no outliers in the results.\n(a) Find the minimum possible value of $U$. [3]\n(b) Hence, find the minimum possible value of $L$. [2]"
+  },
+  {
+   "id": "math-2021-M-P1-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\nConsider the functions f(x)=-(x-h)2+2k and g (x)=ex-2+k where h ,k∈ϒ .\n(a) Find f′(x) .\b [1]\nThe graphs of f and g have a common tangent at x=3 .\ne + 6\n(b) Show that h = .\b [3]\n2\n2e\n(c) Hence, show that k= e + .\b [3]\n4",
+   "ms_text": "′ () = − ( − ) 4. (a) f x 2 x h A1\n[1 mark]\n− 2 32 −\n(b) g ′ () x = ex OR g ′ () 3 = e (may be seen anywhere) A1\nNote: The derivative of g must be explicitly seen, either in terms of x or 3.\nrecognizing f ′ () 3 = g ′ () 3 (M1)\n32 − − 23 ( − h ) = e ( = e )\ne\n−+ 6 2 h = e OR 3 − h = − A1\n2\nNote: The final A1 is dependent on one of the previous marks being awarded.\ne + 6\nh = AG\n2\n[3 marks]\n(c) f () 3 = g () 3 (M1)\n2 32 −\n− ( 3 − h ) + 2 k = e + k\ncorrect equation in k\nEITHER\n2\ne + 6 32 −\n− 3 − + 2 k = e + k A1\n2\n2 2\n6 −− e 6 − e\nk =+ e = e + A1\n2 2\nOR\n2\ne + 6\n= + − A1 k e 3\n2\n2e + 12e + 36\nk = e + 9 − 3e18 − + A1\n4\nTHEN\n2e\nk= e + AG\n4\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.4",
+    "5.6",
+    "5.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\nConsider the functions $f(x)=-(x-h)^2+2k$ and $g(x)=\\mathrm{e}^{x-2}+k$ where $h, k \\in \\mathbb{R}$.\n(a) Find $f'(x)$. [1]\nThe graphs of $f$ and $g$ have a common tangent at $x=3$.\n(b) Show that $h=\\frac{\\mathrm{e}+6}{2}$. [3]\n(c) Hence, show that $k=\\mathrm{e}+\\frac{\\mathrm{e}^2}{4}$. [3]"
+  },
+  {
+   "id": "math-2021-M-P1-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 8]\n(a) Show that sin2x +cos2x -1=2sinx (cosx -sinx) .\b [2]\n(b) Hence or otherwise, solve sin2x+cos2x-1+cosx-sinx=0 for 0<x<2π .\b [6]",
+   "ms_text": "5. (a)\nNote: Do not award the final A1 for proofs which work from both sides to find a\n2 common expression other than 2sincos x x − 2sin x .\nMETHOD 1 (LHS to RHS)\nattempt to use double angle formula for sin2x or cos2x M1\nLHS=2sincos x x + cos2 x − OR 1\n2 sin 2 x +− 12sin x − 1 OR\n2 2sincos x x +− 12sin x − 1\n2 = 2sincos x x − 2sin x A1\nsin 2 x + cos2 x −= 1 2sin(cos x x − sin) x =RHS AG\nMETHOD 2 (RHS to LHS)\n2 RHS = 2sincos x x − 2sin x\nattempt to use double angle formula forsin2x or cos2x M1\n2 = sin 2 x +− 1 2sin x − 1 A1\n= sin2 x + cos2 x −=LHS 1 AG\n[2 marks]\n(b) attempt to factorise M1\n(cos x − sin)2sin x ( x + 1 ) = 0 A1\nsin x 1\nrecognition of cos x = sin x ⇒ = tan x = 1 OR sin x = − (M1)\ncos x 2\none correct reference angle seen anywhere, accept degrees (A1)\nπ π7π\n4ORπ (accept − , )\n6 6 6\nNote: This (M1)(A1) is independent of the previous M1A1.\n7π11ππ5π\nx = , , , A2\n6 6 4 4\nNote: Award A1 for any two correct (radian) answers.\nAward A1A0 if additional values given with the four correct (radian)\nanswers. Award A1A0 for four correct answers given in degrees.\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 8]\n(a) Show that $\\sin 2x + \\cos 2x - 1 = 2\\sin x(\\cos x - \\sin x)$. [2]\n(b) Hence or otherwise, solve $\\sin 2x + \\cos 2x - 1 + \\cos x - \\sin x = 0$ for $0 < x < 2\\pi$. [6]"
+  },
+  {
+   "id": "math-2021-M-P1-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 4]\n3 �\nIt is given that cosec��3 , where � � � � . Find the exact value of cotθ .\n2 2 2",
+   "ms_text": "6. METHOD 1\nattempt to use a right angled triangle M1\ncorrect placement of all three values and θ seen in the triangle (A1)\nθ< θ> puts θin the second quadrant) cot 0 (sincecosec 0 R1\n5\ncot θ= − A1\n2\n5\nNote: Award M1A1R0A0 for cot θ= seen as the final answer\n2\nTheR1should be awarded independently for a negative valueonlygiven as a final\nanswer.\n[4 marks]\nMETHOD 2\n2 2 Attempt to use 1cot + θ = cosec θ M1\n9\n1 + cot 2 θ =\n4\n5\ncot 2 θ= (A1)\n4\n5\nθ= ± cot\n2\ncot θ< 0 (sincecosec θ> 0 puts θin the second quadrant) R1\n5\ncot θ= − A1\n2\n5\nθ= Note: Award M1A1R0A0 for cot seen as the final answer\n2\nTheR1should be awarded independently for a negative valueonlygiven as a final\nanswer.\nMETHOD 3\n2\nsin θ=\n3\n2 2 attempt to use sin θ + cos θ = 1 M1\n4 2\n+ cos θ = 1\n9\n5 2\ncos θ= (A1)\n9\n5\ncos θ= ±\n3\ncos θ< 0 (sincecosec θ> 0 puts θin the second quadrant) R1\n5\ncos θ= −\n3\n5\nθ= − cot A1\n2\n5\ncot θ= Note: Award M1A1R0A0 for seen as the final answer\n2\nTheR1should be awarded independently for a negative valueonlygiven as a final\nanswer.",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.9",
+    "3.6",
+    "3.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 4]\nIt is given that $\\operatorname{cosec}\\theta = \\frac{3}{2}$, where $\\frac{\\pi}{2} < \\theta < \\frac{3\\pi}{2}$. Find the exact value of $\\cot\\theta$."
+  },
+  {
+   "id": "math-2021-M-P1-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 8]\nConsider the quartic equation z4+4z3+8z2+80z+400=0,z∈≤ .\nTwo of the roots of this equation are a+bi and b+ai , where a ,b∈′ .\nFind the possible values of a .",
+   "ms_text": "7. METHOD 1\n− − other two roots are a b i and b a i A1\nsum of roots = −and product of roots 4 = 400 A1\nattempt to set sum of four roots equal to 4 − or 4 OR\nattempt to set product of four roots equal to 400 M1\na + b i+ a − b i+ b + a i +− b a i = − 4\n2 a + 2= b − 4 ( ⇒ a + b = − 2 ) A1\n( a + b i ) ( a − b i )( b + a i )( b − a i=400 )\n2 2 2\n( a + b ) =400 A1\n2 2\na + b =20\nattempt to solve simultaneous equations (M1)\na = 2 a = − 4 or A1A1\n[8 marks]\nMETHOD 2\nother two roots are a − b i and b − a i A1\n( z − ( a + b i ) ) ( z − ( a − b i ) ) ( z − ( b + a i ) ) ( z − ( b − a i ) )( = 0 ) A1\n( − 2 + 2 )( − 2 + 2 )( = ) ( z a ) b ( z b ) a 0\n2 2 2 2 2 2 ( z − 2 az + a + b )( z − 2 bz + b + a )( = 0 ) A1\nAttempt to equate coefficient of 3zand constant with the given quartic equation M1\n2 2 2 − 2 a − 2 b = 4 and ( a + b ) = 400\nA1\nattempt to solve simultaneous equations (M1)\na = 2 or a = − 4 A1A1\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.12",
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 8]\nConsider the quartic equation $z^4+4z^3+8z^2+80z+400=0$, $z \\in \\mathbb{C}$.\nTwo of the roots of this equation are $a+b\\mathrm{i}$ and $b+a\\mathrm{i}$, where $a, b \\in \\mathbb{Z}$.\nFind the possible values of $a$."
+  },
+  {
+   "id": "math-2021-M-P1-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 5]\narctan 2 x\nlim Use l’Hôpital’s rule to find .\nx → 0 tan3 x",
+   "ms_text": "8. attempt to differentiate numerator and denominator M1\narctan 2 x\nlim\nx → 0 tan3 x\n2\n2 1 + 4 x\n= A1A1\nlim3sec3 2 x → 0\nx\nNote: A1 for numerator and A1 for denominator. Do not condone absence of limits.\nx = 0 attempt to substitute (M1)\n2\n= A1\n3\nNote: Award a maximum of M1A1A0M1A1 for absence of limits.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 5]\nUse l'Hôpital's rule to find $\\lim_{x \\to 0}\\left(\\frac{\\arctan 2x}{\\tan 3x}\\right)$."
+  },
+  {
+   "id": "math-2021-M-P1-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\nA farmer has six sheep pens, arranged in a grid with three rows and two columns as shown\nin the following diagram.\nFive sheep called Amber, Brownie, Curly, Daisy and Eden are to be placed in the pens. Each\npen is large enough to hold all of the sheep. Amber and Brownie are known to fight.\nFind the number of ways of placing the sheep in the pens in each of the following cases:\n(a) Each pen is large enough to contain five sheep. Amber and Brownie must not be\nplaced in the same pen.\b [4]\n(b) Each pen may only contain one sheep. Amber and Brownie must not be placed in pens\nwhich share a boundary.\b [4]",
+   "ms_text": "9. (a) METHOD 1\nB has one less pen to select (M1)\nEITHER\nA and B can be placed in 65 × ways (A1)\nC, D, E have 6 choices each (A1)\nOR\nA (or B), C, D, E have 6 choices each (A1)\nB (or A) has only 5 choices (A1)\nTHEN\n4 56 × ( = 6480 )\nA1\nMETHOD 2\ntotal number of ways = 56 (A1)\nnumber of ways with Amber and Brownie together = 46 (A1)\nattempt to subtract (may be seen in words) (M1)\n5 4 6 − 6\n4 =× 56 ( = 6480 )\nA1\n[4 marks]\n(b) METHOD 1\ntotal number of ways = 6! ( = 720 ) (A1)\nnumber of ways with Amber and Brownie sharing a boundary\n=×× 274! ( = 336 ) (A1)\nattempt to subtract (may be seen in words) (M1)\n720336 − = 384 A1\nMETHOD 2\ncase 1:number of ways of placing A in corner pen\n34321 ××××\nFour corners total no of ways is 4 × ( 34321 ×××× ) = 124! × ( = 288 ) (A1)\ncase 2:number of ways of placing A in the middle pen\n24321 ××××\ntwo middle pens so 2 × ( 24321 ×××× ) =× 44! ( = 96 ) (A1)\nattempt to add (may be seen in words) (M1)\n= + total no of ways 28896\n= 164! × ( = 384 ) A1\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nA farmer has six sheep pens, arranged in a grid with three rows and two columns as shown in the following diagram.\n[Diagram: a 3 by 2 grid of six rectangular pens]\nFive sheep called Amber, Brownie, Curly, Daisy and Eden are to be placed in the pens. Each pen is large enough to hold all of the sheep. Amber and Brownie are known to fight.\nFind the number of ways of placing the sheep in the pens in each of the following cases:\n(a) Each pen is large enough to contain five sheep. Amber and Brownie must not be placed in the same pen. [4]\n(b) Each pen may only contain one sheep. Amber and Brownie must not be placed in pens which share a boundary. [4]"
+  },
+  {
+   "id": "math-2021-M-P1-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 16]\nA biased four-sided die, A, is rolled. Let X be the score obtained when die A is rolled. The\nprobability distribution for X is given in the following table.\nx 1 2 3 4\n1\nP (X=x) p p p\n2p\n(a) Find the value of p .\b [2]\n(b) Hence, find the value of E (X ) .\b [2]\nA second biased four-sided die, B, is rolled. Let Y be the score obtained when die B is rolled.\nThe probability distribution for Y is given in the following table.\ny 1 2 3 4\nP (Y=y) q q q r\n(c) (i) \u0007State the range of possible values of r .\n(ii) Hence, find the range of possible values of q .\b [3]\n(d) Hence, find the range of possible values for E (Y ) .\b [3]\nAgnes and Barbara play a game using these dice. Agnes rolls die A once and Barbara rolls\ndie B once. The probability that Agnes’ score is less than Barbara’s score is 1\n.\n2\n(e) Find the value of E (Y ) .\b [6]",
+   "ms_text": "10. (a) recognising probabilities sum to 1 (M1)\n1\np + p + p + p = 1\n2\n2\np = A1\n7\n[2 marks]\n(b) valid attempt to find E( X ) (M1)\n1\n× +× +× +× ( = ) 1 p 2 p 3 p 4 p 8 p\n2\n16\nE( X= ) A1\n7\n[2 marks]\n≤≤ (c) (i) 0 r 1 A1\n(M1) (ii) Attempt to find a value of q\n1\n≤− ≤OR r = 0 ⇒ q = OR =⇒ = 0 13 q 1 r 1 q 0\n3\n1\n0 ≤ q ≤ A1\n3\n[3 marks]\n(d) E() Y =×+×+×+× 1 q 2 q 3 q 4 r ( = 2 + 2 r OR 4 − 6 q ) (A1)\none correct boundary value A1\n1 1 1\n× +× +× +× ( = ) 1 2 3 40 2 OR\n3 3 3\n10 ×+×+×+× 20 30 41 ( = 4 ) OR\n2 + 2(0) ( = 2 ) OR\n2 + 2(1) ( = 4 ) OR\n1\n4 − 6(0) ( = 4 ) 4 − 6 ( = 2 ) OR\n3\n2 ≤ E() Y ≤ 4 A1\n[3 marks]\n(e) METHOD 1\nevidence of choosing at least four correct outcomes from\n1&2, 1&3, 1&4, 2&3, 2&4, 3&4 (M1)\n6 6\nq + r OR 3 pq + 3 pr OR pq + pq + p ( 13 − q ) + pq + p ( 13 − q ) + p ( 13 − q ) (A1)\n7 7\nsolving for either q or r M1\n− r 1 6 1\nOR 61 1\n+− = + r = + ( − ) = ( q 13) q OR 3 pq 3 p 13 q\n7 2 7 3 2 2\n1 − r 1 +\n3 p 3 pr = OR\n3 2\nEITHER two correct values\n5 3\nq = and r = A1A1\n24 8\nOR one correct value\n5 3\nq = OR r = A1\n24 8\nsubstituting their value for q or r A1\n5 3\n4 − 6 OR 2 + 2\n24 8\nTHEN\n11\nE() Y= A1\n4\n[6 marks]\nMETHOD 2 (solving for E() Y)\nevidence of choosing at least four correct outcomes from\n1&2, 1&3, 1&4, 2&3, 2&4, 3&4 (M1)\n6 6\nq + r OR 3 pq + 3 pr OR pq + pq + p ( 13 − q ) + pq + p ( 13 − q ) + p ( 13 − q ) (A1)\n7 7\nrearranging to make q the subject M1\n4 − E() Y\nq =\n6\n1\n3 pq + 3 p ( 13 − q ) = M1\n2\n6 4 − E() Y 6 4 − E() Y 1\n× + 13 − = A1\n7 6 7 6 2\n( Y− ) 2E()1 1\n=\n7 2\n11\nE() Y= A1\n4\n[6 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 16]\nA biased four-sided die, A, is rolled. Let $X$ be the score obtained when die A is rolled. The probability distribution for $X$ is given in the following table.\n$x$ | 1 | 2 | 3 | 4\n$\\mathrm{P}(X=x)$ | $p$ | $p$ | $p$ | $\\frac{1}{2}p$\n(a) Find the value of $p$. [2]\n(b) Hence, find the value of $\\mathrm{E}(X)$. [2]\nA second biased four-sided die, B, is rolled. Let $Y$ be the score obtained when die B is rolled. The probability distribution for $Y$ is given in the following table.\n$y$ | 1 | 2 | 3 | 4\n$\\mathrm{P}(Y=y)$ | $q$ | $q$ | $q$ | $r$\n(c) (i) State the range of possible values of $r$.\n(ii) Hence, find the range of possible values of $q$. [3]\n(d) Hence, find the range of possible values for $\\mathrm{E}(Y)$. [3]\nAgnes and Barbara play a game using these dice. Agnes rolls die A once and Barbara rolls die B once. The probability that Agnes' score is less than Barbara's score is $\\frac{1}{2}$.\n(e) Find the value of $\\mathrm{E}(Y)$. [6]"
+  },
+  {
+   "id": "math-2021-M-P1-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 19]\nx 1 +=\nConsider the line L1 defined by the Cartesian equation y = 3 − z .\n2\n(a) (i) \u0007Show that the point (-1,0,3) lies on L1 .\n(ii) Find a vector equation of L1 .\b [4]\n0 a\nr = 1 + t 1 Consider a second line L2 defined by the vector equation ,\n2 − 1\nwhere t∈ϒ and a∈ϒ .\n(b) Find the possible values of a when the acute angle between L1 and L2 is 45°.\b [8]\nIt is given that the lines L1 and L2 have a unique point of intersection, A, when a ≠k .\n(c) Find the value of k , and find the coordinates of the point A in terms of a .\b [7]",
+   "ms_text": "11 −+=\n11. (a) (i) 0 = 3 − 3 A1\n2\nthe point ( ) − 1,0,3 lies on 1L . AG\n(ii) attempt to set equal to a parameter or rearrange cartesian form (M1)\nx 1 x + 1 y − 0 z − 3 +=\ny = 3 − z = λ ⇒ x = 2 λ − 1, y = λ , z = 3 − λ OR = =−\n2 2 1 1\n2\ncorrect direction vector 1 or equivalent seen in vector form (A1)\n− 1\n− 1 2\nr = 0 + λ 1 ( or equivalent ) A1\n3 − 1\nNote: Award A0 if r = is omitted.\n[4 marks]\n(b) attempt to use the scalar product formula (M1)\n2 a\n=± 2 1 1 () 6 a + 2 cos45\n(A1)(A1)\n− 1 − 1\nNote: Award A1 for LHS and A1 for RHS\n() 2 ± 6 a + 22\n( 2 ) 2 a + 2 = ⇒ 2 a + 2 =± () 3 a + 2 A1A1\n2\nNote: Award A1 for LHS and A1 for RHS\n2 2 4 a + 8 a + 4 = 3 a + 6\na 2 + 8 a − 2 = 0 A1\nattempt to solve their quadratic M1\n−± + −± 8 648 8 72\n= = ( = −± ) a 4 32 A1\n2 2\n[8 marks]\n(c) METHOD 1\nattempt to equate the parametric forms of 1L and 2L (M1)\n2 λ −= 1 ta\nλ =+ 1 t A1\n− 3 λ = 2 − t\nattempt to solve equations by eliminating λ or t (M1)\n( ) ( ) ( ) 2 + 2 t −= 1 ta ⇒= 1 ta − 2 or 2 λ −= 1 λ − 1 a ⇒ a −= 1 λ a − 2\nSolutions exist unless a − 2 = 0\nk = 2 A1\nNote: This A1 is independent of the following marks.\n1 a − 1\nt = or λ = A1\na − 2 a − 2\na 1 1 a a − 12 a − 5\n,1 + , 2 − A has coordinates = , , A2\na − 2 a − 2 a − 2 a − 2 a − 2 a − 2\nNote: Award A1 for any two correct coordinates seen or final answer in vector\nform.\nMETHOD 2\nno unique point of intersection implies direction vectors of 1Land 2Lparallel\nk = 2 A1\nNote: This A1 is independent of the following marks.\n1L and 2L attempt to equate the parametric forms of (M1)\n2 λ −= 1 ta\nλ =+ 1 t A1\n− 3 λ = 2 − t\nattempt to solve equations by eliminating λ or t (M1)\n2 + 2 t −= 1 ta ⇒= 1 ta ( − 2 ) 2 λ −= 1 ( λ − 1 ) a ⇒ a −= 1 λ ( a − 2 ) or\n1 a − 1\nt = or λ = A1\n− − a 2 a 2\na 1 1 a a − 12 a − 5\nA has coordinates ,1 + , 2 − = , , A2\na − 2 a − 2 a − 2 a − 2 a − 2 a − 2\nNote: Award A1 for any two correct coordinates seen or final answer in vector\nform.\n[7 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.15",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 19]\nConsider the line $L_1$ defined by the Cartesian equation $\\frac{x+1}{2} = y = 3 - z$.\n(a) (i) Show that the point $(-1, 0, 3)$ lies on $L_1$.\n(ii) Find a vector equation of $L_1$. [4]\nConsider a second line $L_2$ defined by the vector equation $\\boldsymbol{r} = \\begin{pmatrix}0\\\\1\\\\2\\end{pmatrix} + t\\begin{pmatrix}a\\\\1\\\\-1\\end{pmatrix}$, where $t \\in \\mathbb{R}$ and $a \\in \\mathbb{R}$.\n(b) Find the possible values of $a$ when the acute angle between $L_1$ and $L_2$ is $45^\\circ$. [8]\nIt is given that the lines $L_1$ and $L_2$ have a unique point of intersection, A, when $a \\ne k$.\n(c) Find the value of $k$, and find the coordinates of the point A in terms of $a$. [7]"
+  },
+  {
+   "id": "math-2021-M-P1-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 20]\nLet fx () = 1 + x for x>-1 .\n1\n′′ = − (a) Show that f () x .\b [3]\n+ 3 4(1 x )\nn � 1 1 1 � 2\nn � 3 � ! ��\nn � � � n\nUse mathematical induction to prove that f () x �� 1 � x ) 2 (b) )!(\n�� 4 �� ( 2 n �\nfor n∈′,n≥2 .\b [9]\nLet g (x)=emx,m∈⁄ .\nConsider the function h defined by h (x)=f(x)×g(x) for x>-1 .\nIt is given that the x2 term in the Maclaurin series for h (x) has a coefficient of 7\n.\n4\n(c) Find the possible values of m .\b [8]\n\b",
+   "ms_text": "12. (a) attempt to use the chain rule M1\n1\n11 − f ′ () x = ( + x ) 2 A1\n2\n1 3 −\nf ′′ () x = − ( 1 + x ) 2 A1\n4\n1\n= − AG\n3 4(1 + x )\n1\n′ Note: Award M1A0A0 for f () x = or equivalent seen\n1 + x\n[3 marks]\n(b) let n = 2\n1\n1 1 12 −\n1! (1 f ′′ () x =− = − + x\n) 2 R1\n+ 3 4 0! 4(1 x )\nNote: Award R0 for not starting at n = 2 . Award subsequent marks as\nappropriate.\n− k 1 ( − ) 1\n1 2 k 3! − k\nassume true for n = k () k 2 , (so f () x =− (1 + x ) ) M1\n4 ( k − 2)!\n= = Note: Do not award M1 for statements such as “let n k ” or “n k is true”.\nSubsequent marks can still be awarded.\nconsider n = k + 1\n() k\nd ( f () x )\n( k + 1 )\nLHS = f () x = M1\ndx\nk − 1 1\n1 ( 2 k − 3! ) 1 −− k 1\n=− − k (1 + x ) 2 (or equivalent) A1\n4 ( k − 2)! 2\nEITHER\nk 1\n1 ( 2 k − 1! ) −− k 1 ( k + 1)\nRHS = f () x =− (1 + x ) 2 (or equivalent) A1\n4 ( k − 1)!\nk 1\n1 ( 2 k − 1(2 ) k − 2)(2 k − 3)! −− k 1\n=− (1 + x ) 2 A1\n4 ( k − 1)( k − 2)!\nNote: Award A1 for ( 2 k − 1! ) ( 2 k − 1(2 ) k − 2)(2 k − 3)! 22 ( k − 1(2 ) k − 3)!\n= =\n( k − 1)! ( k − 1)( k − 2)! ( k − 2)!\nk − 1 1\n1 1 ( 2 k − 1(2 ) k − 2)(2 k − 3)! −− k 1\n=− − (1 + x ) 2 A1\n4 4 ( k − 1)( k − 2)!\nk − 1 (\n2 k − 1(2 ) k − 3)! 1 1 1 −− k 1\n=− − + 2 (1 x )\n2 4 ( k − 2)!\n1\nNote: Award A1 for leading coefficient of − .\n4\nk − 1 1\n1 1 (2 k − −− k 1 3)!(1\n2 = − k − + x ) A1\n2 4 ( k − 2)!\nOR\nNote: The following A marks can be awarded in any order.\nk − 1 ( ) 1\n1 2 k − 3! 1 − 2 k −− k 1\n2 =− (1 + x )\n4 ( k − 2)! 2\nk − 1 ( )( ) 1\n1 1 2 k − 1 2 k − 3! −− k 1\n2 =− − (1 + x ) A1\n2 4 ( k − 2)!\nNote: Award A1 for isolating ( 2 k − 1 ) correctly.\nk − 1 ( ) 1\n1 1 2 k − 1! −− k 1\n2 =− − (1 + x ) A1\n2 4 (2 k − 2)( k − 2)!\nNote: Award A1 for multiplying top and bottom by ( k − 1 ) or ( 2 k − 1 ) .\nk − 1 (\n2 k − 1! ) 1 1 1 −− k 1\n=− − (1 + x ) 2 A1\n4 4 ( k − 1)( k − 2)!\n1\nNote: Award A1 for leading coefficient of − .\n4\nk ( − ) 1\n1 2 k 1! −− k 1\n2 =− (1 + x ) A1\n4 ( k − 1)!\n( k + 1 ) − 1 ( ) 1\n1 2 ( k + 1 ) − 3! − ( k + 1 )\n=− (1 + x ) 2 = RHS\n4 ( ( k + 1 ) − 2)!\nTHEN\nsince true for n = 2 , and true for n = k + if true for n 1 = k , the statement is\ntrue for all n ∈ , n ≥ 2 by mathematical induction R1\nNote: To obtain the final R1, at least four of the previous marks must have been\nawarded.\n[9 marks]\n(c) METHOD 1\nhx () = 1 + x emx\nusing product rule to find hx ′ () (M1)\n1 mx mx\nhx ′ () = 1 + x m e + e A1\n+ 21 x\n1 1 1 mx mx mx mx\nhx ′′ () = m 1 + x m e + e + m e − e A1\n21 + x 21 + x 3 4 ( 1 + x )\n′′ () substituting x = 0 into h x M1\n1 1 1 1\n2 2 h ′′ (0) = m + m + m − = m + m −\nA1\n2 2 4 4\n2 x\nhx () = h () 0 + xh ′ () 0 + h ′′ () 0 + ...\n2!\ncoefficient to 7 equating 2x M1\n4\n′′ () h 0 7 7\n= ⇒ ′′ () = h 0\n2! 4 2\n2 4 m + 4 m − 15 = 0\nA1\n( + )( − ) = 2 m 5 2 m 3 0\n5 3\nm = − or m = A1\n2 2\n[8 marks]\nMETHOD 2\nEITHER\n() f ′ () f ′′ () attempt to find f 0 , 0 , 0 (M1)\n1\nf () x = ( 1 + x ) 2 f () 0 = 1\n1 − 1\n′ () = 11 ( + ) f ′ () = f x x 2 0\n2 2\n1 3 1 −\nf ′′ () x = − ( 1 + x ) 2 f ′′ () 0 = −\n4 4\n1 1\n() 2 fx =+ 1 x − x +… A1\n2 8\nOR\nattempt to apply binomial theorem for rational exponents (M1)\n1 1\n−\n1 1 2 2\n() = ( + ) =+ + 2 +… fx 1 x 2 1 x x\n2 2!\n1 1 2\nfx () =+ 1 x − x +… A1\n2 8\nTHEN\n2 m\n2 gx () =+ 1 mx + x +… (A1)\n2\n1 1 m 2 2 2\nhx () = 1 + x − x +… 1 + mx + x +… (M1)\n2 8 2\n2 m m 1\n2x + − coefficient of is A1\n2 2 8\nattempt to set equal to 7 and solve M1\n4\nm 2 m 1 7\n+ − =\n2 2 8 4\n2 + − = 4 m 4 m 15 0\nA1\n( )( ) 2 m + 5 2 m − 3 = 0\n5 3\nm = − or m = A1\n2 2\n[8 marks]\nMETHOD 3\ngx ′ () = m emx and g ′′ () x = m 2emx (A1)\n2 x\n() = () + ′ () + ′′ () + hx h 0 xh 0 h 0 ...\n2!\nequating 2x coefficient to 7 M1\n4\nh ′′ () 0 7 7\n= ⇒ h ′′ () 0 =\n2! 4 2\nusing product rule to find hx ′ () and h ′′ () x (M1)\n′ () = () ′ () + ′ ()() hx fxgx f xgx\nh ′′ () x = fxg () ′′ () x + 2 f ′ () xgx ′ () + f ′′ ()() xgx A1\nx = 0 h ′′ () x substituting into M1\n′′ () () ′′ () ′ () ′ () () ′′ () h 0 = f 0 g 0 + 2 g 0 f 0 + g 0 f 0\n1 1 1\n2 2 =× 1 m + 2 m × +×− 1 = m + m −\nA1\n2 4 4\n2 4 m + 4 m − 15 = 0\nA1\n( )( ) 2 m + 5 2 m − 3 = 0\n5 3\nm = − or m = A1\n2 2\n[8 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.6",
+    "5.12",
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 20]\nLet $f(x)=\\sqrt{1+x}$ for $x>-1$.\n(a) Show that $f''(x) = -\\frac{1}{4\\sqrt{(1+x)^3}}$. [3]\n(b) Use mathematical induction to prove that $f^{(n)}(x) = \\left(-\\frac{1}{4}\\right)^{n-1}\\frac{(2n-3)!}{(n-2)!}(1+x)^{\\frac{1}{2}-n}$ for $n \\in \\mathbb{Z}, n \\ge 2$. [9]\nLet $g(x)=\\mathrm{e}^{mx}$, $m \\in \\mathbb{Q}$.\nConsider the function $h$ defined by $h(x)=f(x)\\times g(x)$ for $x>-1$.\nIt is given that the $x^2$ term in the Maclaurin series for $h(x)$ has a coefficient of $\\frac{7}{4}$.\n(c) Find the possible values of $m$. [8]"
+  }
+ ],
+ "status": "done"
+}

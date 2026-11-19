@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2013-M-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.3", "6.1", "6.4"],
+      "text_clean": "1. [Maximum mark: 15]\n(a) Using the Euclidean algorithm, show that $\\gcd(99, 332) = 1$. [4 marks]\n(b) (i) Find the general solution to the diophantine equation $332x - 99y = 1$.\n(ii) Hence, or otherwise, find the smallest positive integer satisfying the congruence $17z \\equiv 1 \\pmod{57}$. [11 marks]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.9", "6.7"],
+      "text_clean": "2. [Maximum mark: 12]\nThe diagram shows a weighted graph with vertices A, B, C, D, E, F, G. The weight of each edge is marked on the diagram.\n[Diagram: weighted graph with edges AB = 3, AG = 2, BC = 7, BG = 5, BF = 4, CF = 2, CE = 1, CD = 6, DE = 4, GF = 6, FE = 5]\n(a) (i) Explain briefly why the graph contains an Eulerian trail but not an Eulerian circuit.\n(ii) Write down an Eulerian trail. [4 marks]\n(b) (i) Use Dijkstra's algorithm to find the path of minimum total weight joining A to D.\n(ii) State the minimum total weight. [8 marks]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.2"],
+      "text_clean": "3. [Maximum mark: 10]\nWhen numbers are written in base $n$, $33^2 = 1331$.\n(a) By writing down an appropriate polynomial equation, determine the value of $n$. [4 marks]\n(b) Rewrite the above equation with numbers in base 7. [6 marks]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.6", "6.11"],
+      "text_clean": "4. [Maximum mark: 15]\nThe graph $G$ has the following adjacency matrix.\n[Adjacency matrix, rows/columns A B C D E]\nA: 0 1 0 1 1\nB: 1 0 0 0 0\nC: 0 0 0 1 0\nD: 1 0 1 0 1\nE: 1 0 0 1 0\n(a) Determine the number of walks of length five beginning and ending at E. [3 marks]\n(b) Show that $G$ and its complement $G'$ have the same number of edges. [3 marks]\n(c) (i) Writing the vertices in the order B, D, A, C, E, determine the adjacency matrix of $G'$.\n(ii) Deduce that $G$ and $G'$ are isomorphic. [5 marks]\n(d) The graph $H$ has 6 vertices. Show that $H$ and $H'$, the complement of $H$, cannot be isomorphic. [4 marks]"
+    },
+    "5": {
+      "topics": ["6", "1"],
+      "subtopics": ["6.5", "6.4", "1.2"],
+      "text_clean": "5. [Maximum mark: 8]\nThe positive integer $p$ is an odd prime number.\n(a) Show that $\\sum_{k=1}^{p} k^p \\equiv 0 \\pmod{p}$. [4 marks]\n(b) Given that $\\sum_{k=1}^{p} k^{p-1} \\equiv n \\pmod{p}$ where $0 \\le n \\le p-1$, find the value of $n$. [4 marks]"
+    }
+  }
+}

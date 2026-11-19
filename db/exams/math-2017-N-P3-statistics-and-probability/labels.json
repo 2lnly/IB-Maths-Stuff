@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2017-N-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L3", "4.14"],
+      "text_clean": "1. [Maximum mark: 7]\nA continuous random variable $T$ has a probability density function defined by\n$f(t)=\\begin{cases}\\frac{t(4-t^2)}{4}, & 0\\le t\\le 2\\\\ 0, & \\text{otherwise}\\end{cases}$.\n(a) Find the cumulative distribution function $F(t)$, for $0\\le t\\le 2$. [3]\n(b) (i) Sketch the graph of $F(t)$ for $0\\le t\\le 2$, clearly indicating the coordinates of the endpoints.\n(ii) Given that $\\mathrm{P}(T<a)=0.75$, find the value of $a$. [4]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L5"],
+      "text_clean": "2. [Maximum mark: 8]\nAnne is a farmer who grows and sells pumpkins. Interested in the weights of pumpkins produced, she records the weights of eight pumpkins and obtains the following results in kilograms.\n7.7  7.5  8.4  8.8  7.3  9.0  7.8  7.6\nAssume that these weights form a random sample from a $\\mathrm{N}(\\mu,\\sigma^2)$ distribution.\n(a) Determine unbiased estimates for $\\mu$ and $\\sigma^2$. [3]\n(b) Anne claims that the mean pumpkin weight is 7.5 kilograms. In order to test this claim, she sets up the null hypothesis $\\mathrm{H}_0:\\mu=7.5$.\n(i) Use a two-tailed test to determine the $p$-value for the above results.\n(ii) Interpret your $p$-value at the 5% level of significance, justifying your conclusion. [5]"
+    },
+    "3": {
+      "topics": ["4", "5"],
+      "subtopics": ["4.L5", "4.L4", "5.8"],
+      "text_clean": "3. [Maximum mark: 12]\nA random variable $X$ is distributed with mean $\\mu$ and variance $\\sigma^2$. Two independent random samples of sizes $n_1$ and $n_2$ are taken from the distribution of $X$. The sample means are $\\overline{X_1}$ and $\\overline{X_2}$ respectively.\n(a) Show that $U=a\\overline{X_1}+(1-a)\\overline{X_2}$, $a\\in\\mathbb{R}$, is an unbiased estimator of $\\mu$. [3]\n(b) (i) Show that $\\mathrm{Var}(U)=a^2\\frac{\\sigma^2}{n_1}+(1-a)^2\\frac{\\sigma^2}{n_2}$.\n(ii) Find, in terms of $n_1$ and $n_2$, an expression for $a$ which gives the most efficient estimator of this form.\n(iii) Hence find an expression for the most efficient estimator and interpret the result. [9]"
+    },
+    "4": {
+      "topics": ["4"],
+      "subtopics": ["4.L8", "4.L7"],
+      "text_clean": "4. [Maximum mark: 8]\nThe random variables $U$, $V$ follow a bivariate normal distribution with product moment correlation coefficient $\\rho$.\n(a) State suitable hypotheses to investigate whether or not $U$, $V$ are independent. [2]\nA random sample of 12 observations on $U$, $V$ is obtained to determine whether there is a correlation between $U$ and $V$. The sample product moment correlation coefficient is denoted by $r$. A test to determine whether or not $U$, $V$ are independent is carried out at the 1% level of significance.\n(b) Find the least value of $|r|$ for which the test concludes that $\\rho\\ne 0$. [6]"
+    },
+    "5": {
+      "topics": ["4"],
+      "subtopics": ["4.L3", "4.L1", "4.11", "4.8"],
+      "text_clean": "5. [Maximum mark: 15]\nThe random variable $X$ follows a Poisson distribution with mean $\\lambda$. The probability generating function of $X$ is given by $G_X(t)=\\mathrm{e}^{\\lambda(t-1)}$.\n(a) (i) Find expressions for $G'_X(t)$ and $G''_X(t)$.\n(ii) Hence show that $\\mathrm{Var}(X)=\\lambda$. [5]\nThe random variable $Y$, independent of $X$, follows a Poisson distribution with mean $\\mu$.\n(b) By considering the probability generating function, $G_{X+Y}(t)$, of $X+Y$, show that $X+Y$ follows a Poisson distribution with mean $\\lambda+\\mu$. [3]\n(c) (i) Show that $\\mathrm{P}(X=x\\mid X+Y=n)=\\binom{n}{x}\\left(\\frac{\\lambda}{\\lambda+\\mu}\\right)^x\\left(1-\\frac{\\lambda}{\\lambda+\\mu}\\right)^{n-x}$, where $n$, $x$ are non-negative integers and $n\\ge x$.\n(ii) Identify the probability distribution given in part (c)(i) and state its parameters. [7]"
+    }
+  }
+}

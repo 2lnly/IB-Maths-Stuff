@@ -1,0 +1,31 @@
+{
+  "exam_id": "math-2016-M-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.4", "7.5", "7.8", "7.6", "7.7"],
+      "text_clean": "1. [Maximum mark: 19]\nThe following Cayley table for the binary operation multiplication modulo $9$, denoted by $*$, is defined on the set $S = \\{1, 2, 4, 5, 7, 8\\}$.\n[Table, partially completed:]\n$*$ | 1 | 2 | 4 | 5 | 7 | 8\n1 | 1 | 2 | 4 | 5 | 7 | 8\n2 | 2 | 4 | 8 | 1 | 5 | 7\n4 | 4 | 8 |  |  |  | \n5 | 5 | 1 |  |  |  | \n7 | 7 | 5 |  |  |  | \n8 | 8 | 7 |  |  |  | \n(a) Copy and complete the table. [3]\n(b) Show that $\\{S, *\\}$ is an Abelian group. [5]\n(c) Determine the orders of all the elements of $\\{S, *\\}$. [3]\n(d) (i) Find the two proper subgroups of $\\{S, *\\}$.\n(ii) Find the coset of each of these subgroups with respect to the element $5$. [4]\n(e) Solve the equation $2 * x * 4 * x * 4 = 2$. [4]"
+    },
+    "2": {
+      "topics": ["7"],
+      "subtopics": ["7.2"],
+      "text_clean": "2. [Maximum mark: 12]\nThe relation $R$ is defined on $\\mathbb{Z}^+$ such that $aRb$ if and only if $b^n - a^n \\equiv 0 \\pmod{p}$ where $n, p$ are fixed positive integers greater than $1$.\n(a) Show that $R$ is an equivalence relation. [7]\n(b) Given that $n = 2$ and $p = 7$, determine the first four members of each of the four equivalence classes of $R$. [5]"
+    },
+    "3": {
+      "topics": ["7"],
+      "subtopics": ["7.9", "7.5"],
+      "qtype": "short",
+      "text_clean": "3. [Maximum mark: 7]\nThe group $\\{G, *\\}$ is Abelian and the bijection $f: G \\to G$ is defined by $f(x) = x^{-1}$, $x \\in G$.\nShow that $f$ is an isomorphism."
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.3"],
+      "text_clean": "4. [Maximum mark: 13]\nThe function $f$ is defined by $f: \\mathbb{R}^+ \\times \\mathbb{R}^+ \\to \\mathbb{R}^+ \\times \\mathbb{R}^+$ where $f(x, y) = \\left(\\sqrt{xy}, \\frac{x}{y}\\right)$.\n(a) Prove that $f$ is an injection. [5]\n(b) (i) Prove that $f$ is a surjection.\n(ii) Hence, or otherwise, write down the inverse function $f^{-1}$. [8]"
+    },
+    "5": {
+      "topics": ["7"],
+      "subtopics": ["7.8", "7.5"],
+      "text_clean": "5. [Maximum mark: 9]\nThe group $\\{G, *\\}$ is defined on the set $G$ with binary operation $*$. $H$ is a subset of $G$ defined by $H = \\{x : x \\in G,\\ a * x * a^{-1} = x \\text{ for all } a \\in G\\}$. Prove that $\\{H, *\\}$ is a subgroup of $\\{G, *\\}$."
+    }
+  }
+}

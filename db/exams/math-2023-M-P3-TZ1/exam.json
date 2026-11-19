@@ -1,0 +1,73 @@
+{
+ "exam_id": "math-2023-M-P3-TZ1",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2023,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "3",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2023 May Examination Session/Mathematics_analysis_and_approaches_paper_3__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2023 May Examination Session/Mathematics_analysis_and_approaches_paper_3__TZ1_HL_markscheme.pdf",
+ "notes": "3 duplicate copies (3 byte-identical size); paper number 2223-7108; marks sum matches paper total 55",
+ "qp_pages": 6,
+ "questions": [
+  {
+   "id": "math-2023-M-P3-TZ1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 25,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 25]\nIn this question, you will be investigating the family of functions of the formf(x)=xne-x.\nConsider the family of functions f n(x)=xne-x , where x≥0 and n∈′+ .\nWhen n=1 , the function f 1(x)=xe-x , where x≥0 .\n(a) Sketch the graph of y=f 1(x) , stating the coordinates of the local maximum point.\b [4]\n(b) Show that the area of the region bounded by the graph y=f 1(x) , the x-axis and the\nb - b\nline x=b , where b>0 , is given by e -1 .\b\n[6]\nb e\nYou may assume that the total area, An , of the region between the graph y=f n(x) and the\nbf x-axis can be written as A = ∞∫ f () x d and is given by lim x →∞∫0 () x d. x\nn n n 0 b\nb e − b −\n1. You may assume that the condition for\n(c) (i) \u0007Use l’Hôpital’s rule to find lim\nb b →∞ e\napplying l’Hôpital’s rule has been met.\b [2]\n(ii) Hence write down the value of A1 .\b [1]\nYou are given that A2=2 and A3=6 .\n(d) Use your graphic display calculator, and an appropriate value for the upper limit,\nto determine the value of\n(i) A4 ;\b [2]\n(ii) A5 .\b [1]\n(e) Suggest an expression for An in terms of n , where n∈′+ .\b [1]\n(f) Use mathematical induction to prove your conjecture from part (e). You may assume\nm x that, for any value of m , lim x e −= 0 .\b\n[8]\nx →∞",
+   "ms_text": "1. (a)\n1\nA1 for ( 1, 0.368 or ) labelled at local maximum (accept correct coordinates\n1,e\nwritten away from the graph)\nA1 for graph clearly starting at, or passing through,the origin\nA1 for correct domain\nA1 for correct shape i.e.: single maximum, and asymptotic behaviour (equation not\nrequired) (or point of inflexion)\n[4 marks]\nb − x\n(b) ∫ x e d x (A1)\n0\nNote: Award (A1) for correct integrand and limits (which can be seen later in the\nquestion)\nUse of integration by parts\nb b − x − x\n=− x e + ∫ e d x A1A1\n0 0\nNote: Award A1 for each part (including the correct sign with each)\n− x b − x b =− x e − e\nA1\n0 0\nNote: Award A1 for correct second term.\nCondone absence of limits to this point\nattempt to substitute limits M1\n− b − b = − b e − e + 1\nA1\nb e − b − 1\n= AG\nb e\n[6 marks]\ne b − − 1 e b − 1 b\nlim = lim (c) (i) A1\nb b b →∞ e b →∞ e\nNote: Award A1 for correct quotient. Condone absence of limit.\nb e\n= lim = 1 A1\nb →∞ e b\n[2 marks]\n∞ −\n( x e x d x = ) 1 (ii)\n∫ A1\n0\n[1 mark]\n(d) (i) correct integral (M1)\nNote: Award M1 for correct integrand with limits from 0 to a larger number.\n24 A1\n[2 marks]\n(ii) 120 A1\nNote: The M1 can be awarded if either part (d)(i) or part (d)(ii) is correct.\n[1 mark]\n(e) A = n ! A1\nn\n[1 mark]\n(f)\nNote: Accept starting at n = 0 , throughout this proof.\nn = 1\nA = 1 and 1!1 = M1A1\n1\nNote: Award M1 for considering the case where n =, and A1 if it is clear that 1\nA = 1 and 1!1 = have been considered. both\n1\nso true for n = 1\n∞\n= k − x assume true for n k , ( kA = ∫ x e d x = k) ! M1\n0\nNote: Award M0 for statements such as “let n = k ”.\nNote: Subsequent marks after this M1 are independent of this mark and can be\nawarded.\nwhen n = k + 1\nattempt to integrate by parts M1\nNote: To obtain the M1, a minimum of an expression +/- an integral must be\nseen.\n∞ ∞ ∞ k + 1 − x k + 1 − x k − x\nx e d x =− x e + ( k + 1) x e d x A1 ∫ ∫\n0 0 0\n∞ k − x\n( k +∫ 1) x e d x simplified to ( k + 1)! k seen A1\n0\n= 0 + ( k + 1)! k\nNote: Condone omission of the zero.\n= ( k + 1)! A1\n= = + = Hence if true for n k then also true for n k 1 . As true for n 1 so true for\n∈ + n ′. R1\nNote: Award the final R1 mark provided at least four of the previous marks are\ngained.\n[8 marks]\nTotal [25 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.11",
+    "5.13",
+    "1.15",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 25]\nIn this question, you will be investigating the family of functions of the form $f(x)=x^n e^{-x}$.\nConsider the family of functions $f_n(x)=x^n e^{-x}$, where $x \\ge 0$ and $n \\in \\mathbb{Z}^+$.\nWhen $n=1$, the function $f_1(x)=xe^{-x}$, where $x \\ge 0$.\n(a) Sketch the graph of $y=f_1(x)$, stating the coordinates of the local maximum point. [4]\n(b) Show that the area of the region bounded by the graph $y=f_1(x)$, the $x$-axis and the line $x=b$, where $b>0$, is given by $\\frac{e^b-b-1}{e^b}$. [6]\nYou may assume that the total area, $A_n$, of the region between the graph $y=f_n(x)$ and the $x$-axis can be written as $A_n=\\int_0^\\infty f_n(x)\\,dx$ and is given by $\\lim_{b\\to\\infty}\\int_0^b f_n(x)\\,dx$.\n(c) (i) Use l'Hôpital's rule to find $\\lim_{b\\to\\infty}\\frac{e^b-b-1}{e^b}$. You may assume that the condition for applying l'Hôpital's rule has been met. [2]\n(ii) Hence write down the value of $A_1$. [1]\nYou are given that $A_2=2$ and $A_3=6$.\n(d) Use your graphic display calculator, and an appropriate value for the upper limit, to determine the value of\n(i) $A_4$; [2]\n(ii) $A_5$. [1]\n(e) Suggest an expression for $A_n$ in terms of $n$, where $n \\in \\mathbb{Z}^+$. [1]\n(f) Use mathematical induction to prove your conjecture from part (e). You may assume that, for any value of $m$, $\\lim_{x\\to\\infty} x^m e^{-x}=0$. [8]"
+  },
+  {
+   "id": "math-2023-M-P3-TZ1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 30,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 30]\nIn this question, you will investigate the maximum product of positive real numbers\nwith a given sum.\nConsider the two numbers x1 , x2∈ϒ+ , such that x1+x2=12 .\n(a) Find the product of x1 and x2 as a function, f , of x1 only.\b [2]\n(b) (i) \u0007Find the value of x1 for which the function is maximum.\b [1]\n(ii) Hence show that the maximum product of x1 and x2 is 36 .\b [1]\nConsider Mn(S) to be the maximum product of n positive real numbers with a sum of S ,\nwhere n∈′+ and S∈ϒ+ .\n2\nS\n() = For n=2 , the maximum product can be expressed as M S\n2 .\n2\n2\nS\n(c) Verify that M () = S [1]\n2 is true for S=12 .\b\n2\nConsider n positive real numbers, x1 , x2 , ... , xn .\n1\nThe geometric mean is defined as ( x × x × ... × ) n . It is given that the geometric mean is xn\n1 2\n1\n( x + x + ... + x )\n1 2 n always less than or equal to the arithmetic mean, so ( x × x × ... × x ) n ≤ .\n1 2 n\nn\n(d) (i) \u0007Show that the geometric mean and arithmetic mean are equal\nwhen x1=x2= ... =xn .\b [2]\nn\nS\n() = (ii) Use this result to prove that M S [4]\nn .\b\nn\n(e) Hence determine the value of\n(i) M3(12) ;\b [1]\n(ii) M4(12) ;\b [1]\n(iii) M5(12) .\b [1]\nFor n∈′+ , let P(S) denote the maximum value of Mn(S) across all possible values of n .\nWrite down the value of P(12) and the value of n at which it occurs.\b (f) [2]\n(g) Determine the value of P(20) and the value of n at which it occurs.\b [3]\nS\nConsider the function g , defined by ln ( gx () ) = x ln\n, where x∈ϒ+ .\nx\nA sketch of the graph of y=g(x) is shown in the following diagram. Point A is the maximum\npoint on this graph.\ny\nA\ny = g(x)\nx\n0\n(h) Find, in terms of S , the x-coordinate of point A . [6]\n(i) Verify that g(x)=Mx(S) , when x∈′+ . [2]\n(j) Use your answer to part (h) to find the largest possible product of positive numbers\nwhose sum is 100. Give your answer in the form a×10k , where 1≤a<10 and k∈′+ .\b [3]",
+   "ms_text": "2. (a) x = 12 − x (M1)\n2 1\nfx () = x (12 − x ) A1\n1 1\n[2 marks]\n( x = )6 (b) (i) A1\n1\nNote: Award the A1 if 6 seen in part (ii).\n[1 mark]\n2 (ii) f (6) OR 6OR graph with maximum at (6, 36) M1\n= 36 AG\n[1 mark]\n2\n12\n(c) M (12) = = 36 which is the maximum product (from (b)(ii)) A1\n2\n2\nNote: Both the 36AND a link to part (b), which may be simply seeing the word\n“maximum” must be seen to award the A1.\n[1 mark]\n(d) (i) let all ixbe labelled as x (or x1 or xn etc.) (M1)\nNote: Do not accept use of a specific number forx or n.\n1 nx\nn ( x )= n x and = x\nA1\nn\n[2 marks]\n(ii) x + x + ... + x = S (A1)\n1 2 n\n1\nS\n( x × x × ... × x ) n ≤ M1\n1 2 n\nn\nNote: Award M1 for use of the inequality, which may be seen as an equality.\nn\nS\nx × x × ... × x (as both sides are positive) M1\n1 2 n ≤\nn\nix are equal (to S LHS and RHS are equal when all values of ) R1\nn\nn\nS\nM () S AG\nn =\nn\n[4 marks]\n3\n(e) (i) M 3(12) = 4 = 64 A1\n[1 mark]\n= 4 = (ii) M 4(12) 3 81 A1\n[1 mark]\nM = 2.4 5 = 79.6 ( 79.6262... ) (iii) 5(12) A1\n[1 mark]\n(f) considering M (12) for higher values of n\nn\nP (12) = 81 A1\nn = 4\nA1\nNote: Award A0A0 for P (12) = 82.6 and n = 4.41 .\n[2 marks]\nn\nConsideration of graph or table of 20\n(g) including values either side of 7 (M1)\nn\nn = 7 Maximum occurs when A1\n7\n20 =\n1550(1554.260...) P (20) = A1\n7\nNote: Award (M1)A0A1 for n = 7.36 and P (20) = 1570 .\n[3 marks]\n(h) EITHER\n= ( − ) ln(()) gx x ln() S ln x M1\nattempt to use implicit differentiation and product rule M1M1\ngx ′ () 1\n= ln S − ln x − x A1\ngx () x\nOR\nattempt to use implicit differentiation, product rule and chain rule M1M1M1\n′ gx () S x − S\n= + × ln x A1\n2 gx () x S x\nOR\nS\nx ln\nattempt to make equation explicit to () x gx = e M1\nattempt to use product rule and chain rule M1M1\nS\nx ln x S\n− 2 g ′ () x = e x x × ×− ( Sx ) + ln\nS x\nS\nx ln S\n= e x ln − 1 A1\nx\nTHEN\nS\ngx ′ () = ln − 1 gx ()\nx\ngx () ≠ 0\nS\ngx ′ () = 0 ⇒ ln −= 1 0 M1\nx\n=S\nx (0.368, 0.36789...) S S A1\ne\n[6 marks]\nx\nS S\nln ln (i) ln ( gx () ) = x ⇒ ln ( gx () ) =\nM1\nx x\nx\nS\ngx () = A1\nx\n+ = M () S for x\n∈′ AG x\n[2 marks]\n100\n(j) 36.8 M1\ne=\n36 37\n100 100\n15 15 = 9.3996...10 ×\nAND = 9.47406...10 × R1\n36 37\n9.4710 × 15 (9.47406...10) × 15 largest possible product is A1\nNote: Award A1 independently of the R1 (but not independently of the M1).\n[3 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.8",
+    "1.6",
+    "1.7",
+    "2.6",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 30]\nIn this question, you will investigate the maximum product of positive real numbers with a given sum.\nConsider the two numbers $x_1, x_2 \\in \\mathbb{R}^+$, such that $x_1+x_2=12$.\n(a) Find the product of $x_1$ and $x_2$ as a function, $f$, of $x_1$ only. [2]\n(b) (i) Find the value of $x_1$ for which the function is maximum. [1]\n(ii) Hence show that the maximum product of $x_1$ and $x_2$ is $36$. [1]\nConsider $M_n(S)$ to be the maximum product of $n$ positive real numbers with a sum of $S$, where $n \\in \\mathbb{Z}^+$ and $S \\in \\mathbb{R}^+$.\nFor $n=2$, the maximum product can be expressed as $M_2(S)=\\left(\\frac{S}{2}\\right)^2$.\n(c) Verify that $M_2(S)=\\left(\\frac{S}{2}\\right)^2$ is true for $S=12$. [1]\nConsider $n$ positive real numbers, $x_1, x_2, \\ldots, x_n$.\nThe geometric mean is defined as $(x_1\\times x_2\\times\\ldots\\times x_n)^{\\frac{1}{n}}$. It is given that the geometric mean is always less than or equal to the arithmetic mean, so $(x_1\\times x_2\\times\\ldots\\times x_n)^{\\frac{1}{n}} \\le \\frac{(x_1+x_2+\\ldots+x_n)}{n}$.\n(d) (i) Show that the geometric mean and arithmetic mean are equal when $x_1=x_2=\\ldots=x_n$. [2]\n(ii) Use this result to prove that $M_n(S)=\\left(\\frac{S}{n}\\right)^n$. [4]\n(e) Hence determine the value of\n(i) $M_3(12)$; [1]\n(ii) $M_4(12)$; [1]\n(iii) $M_5(12)$. [1]\nFor $n \\in \\mathbb{Z}^+$, let $P(S)$ denote the maximum value of $M_n(S)$ across all possible values of $n$.\n(f) Write down the value of $P(12)$ and the value of $n$ at which it occurs. [2]\n(g) Determine the value of $P(20)$ and the value of $n$ at which it occurs. [3]\nConsider the function $g$, defined by $\\ln(g(x))=x\\ln\\left(\\frac{S}{x}\\right)$, where $x \\in \\mathbb{R}^+$.\nA sketch of the graph of $y=g(x)$ is shown in the following diagram. Point A is the maximum point on this graph.\n[Diagram: graph of y = g(x) for x > 0, rising from near the origin to a single maximum at point A, then decreasing and approaching the x-axis asymptotically]\n(h) Find, in terms of $S$, the $x$-coordinate of point A. [6]\n(i) Verify that $g(x)=M_x(S)$, when $x \\in \\mathbb{Z}^+$. [2]\n(j) Use your answer to part (h) to find the largest possible product of positive numbers whose sum is 100. Give your answer in the form $a\\times10^k$, where $1\\le a<10$ and $k \\in \\mathbb{Z}^+$. [3]"
+  }
+ ],
+ "status": "done"
+}

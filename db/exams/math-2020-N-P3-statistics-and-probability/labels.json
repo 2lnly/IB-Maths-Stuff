@@ -1,0 +1,29 @@
+{
+  "exam_id": "math-2020-N-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L2", "4.8"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 8]\nPeter, Dan and Eva decide to observe the colour of each car as it enters their school. The colours of the cars are assumed to be independent of one another.\nThe probability that a car entering their school is red is $\\frac{1}{12}$.\n(a) Peter observes $20$ cars. Find the probability that at least three of these cars are red. [2]\n(b) Dan observes cars until a red one enters. Find the probability that he observes at least six cars. [2]\n(c) Eva observes cars until three red cars enter.\n(i) Find the probability that Eva observes exactly $20$ cars.\n(ii) Find the expected number of cars that Eva observes. [4]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L3"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 8]\nA discrete random variable $X$ has a probability generating function given by $G_X(t) = \\frac{2+t}{3}$.\n(a) Write down the value of $\\mathrm{P}(X=1)$. [1]\nA discrete random variable $Y$ has a probability generating function given by\n$G_Y(t) = \\frac{kt+1}{k^2-t^2}$, where $k>0$.\n(b) Show that $k=2$. [3]\n(c) Given that $X$ and $Y$ are independent, find\n(i) $G_{X+Y}(t)$, the probability generating function for $X+Y$;\n(ii) $\\mathrm{E}(X+Y)$. [4]"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L4", "4.L7", "4.L6", "4.L5", "4.9"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 15]\nA shop sells carrots and broccoli. The weights of carrots can be modelled by a normal distribution with variance $25$ grams$^2$ and the weights of broccoli can be modelled by a normal distribution with variance $80$ grams$^2$. The shopkeeper claims that the mean weight of carrots is $130$ grams and the mean weight of broccoli is $400$ grams.\n(a) Assuming that the shopkeeper's claim is correct, find the probability that the weight of six randomly chosen carrots is more than two times the weight of one randomly chosen broccoli. [6]\nDong Wook decides to investigate the shopkeeper's claim that the mean weight of carrots is $130$ grams. He plans to take a random sample of $n$ carrots in order to calculate a $98\\%$ confidence interval for the population mean weight.\n(b) Find the least value of $n$ required to ensure that the width of the confidence interval is less than $2$ grams. [3]\nAnjali thinks the mean weight, $\\mu$ grams, of the broccoli is less than $400$ grams. She decides to perform a hypothesis test, using a random sample of size $8$. Her hypotheses are\n$H_0: \\mu = 400$; $H_1: \\mu < 400$.\nShe decides to reject $H_0$ if the sample mean is less than $395$ grams.\n(c) Find the significance level for this test. [3]\n(d) Given that the weights of the broccoli actually follow a normal distribution with mean $392$ grams and variance $80$ grams$^2$, find the probability of Anjali making a Type II error. [3]"
+    },
+    "4": {
+      "topics": ["4"],
+      "subtopics": ["4.L5", "4.14", "4.7", "4.8"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 19]\nA discrete random variable $X$ has a probability distribution given by\n$x$ | $0$ | $1$ | $2$\n$\\mathrm{P}(X=x)$ | $p$ | $3p$ | $1-4p$\nwhere $0 < p < \\frac{1}{4}$.\n(a) Find an expression for $\\mathrm{E}(X)$, in terms of $p$. [2]\n(b) Show that $\\mathrm{Var}(X) = p(7-25p)$. [3]\nChristine and Sarah want to estimate the value of $p$. They take a random sample of $n$ observations of $X$.\n(c) Christine calculates the sample mean, $\\overline{X}$, and proposes $C = \\frac{2-\\overline{X}}{5}$ as an estimator for $p$.\n(i) Show that $C$ is an unbiased estimator for $p$.\n(ii) Find $\\mathrm{Var}(C)$. [5]\n(d) Sarah counts the number of zeros, $Y$, in the sample of size $n$. She proposes $S = \\frac{Y}{n}$ as an estimator for $p$.\n(i) Write down the distribution for $Y$.\n(ii) Show that $S$ is an unbiased estimator for $p$.\n(iii) Show that $\\mathrm{Var}(S) = \\frac{p(1-p)}{n}$. [5]\n(e) (i) Sketch a graph of the ratio $\\frac{\\mathrm{Var}(C)}{\\mathrm{Var}(S)}$ for $0 < p < \\frac{1}{4}$, indicating clearly the scale on the $y$-axis.\n(ii) Hence determine, with a reason, which of $C$ or $S$ is the more efficient estimator. [4]"
+    }
+  }
+}

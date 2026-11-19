@@ -1,0 +1,321 @@
+{
+ "exam_id": "math-2011-M-P2-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2011,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2011 May Examination Session/Mathematics_paper_2_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2011 May Examination Session/Mathematics_paper_2_TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2211-7206; code M11/5/MATHL/HP2/ENG/TZ2/XX; marks sum matches expected total 120",
+ "qp_pages": 14,
+ "questions": [
+  {
+   "id": "math-2011-M-P2-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\n� The points P and Q lie on a circle, with centre O and radius 8 cm, such that POQ = 59�.\nP\n59ο\nO\n8 cm\nQ\ndiagram\nnot to scale\nFind the area of the shaded segment of the circle contained between the arc PQ and the\nchord [PQ].",
+   "ms_text": "1 2 �\n1. area of triangle POQ = 8sin59 M1\n2\n= 27.43 (A1)\n259\narea of sector = π8 M1\n360\n= 32.95 (A1)\n= area between arc and chord 32.95 – 27.43\n2 = 5.52(cm) A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nThe points P and Q lie on a circle, with centre O and radius 8 cm, such that $\\hat{POQ} = 59^\\circ$.\n[Diagram: circle centre O, radius OQ = 8 cm, angle POQ = 59°, the segment between arc PQ and chord [PQ] shaded; diagram not to scale]\nFind the area of the shaded segment of the circle contained between the arc PQ and the chord [PQ]."
+  },
+  {
+   "id": "math-2011-M-P2-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nIn the arithmetic series with nth term un , it is given that u4 = 7 and u9 = 22 .\nFind the minimum value of n so that u + u + u + ... + un > 10 000 .\n1 2 3",
+   "ms_text": "2. u = u + 3 d = 7 , u = u + 8 d = 22 A1A1\n4 1 9 1\nNote: 5d=15 gains both above marks\nu= −, 2 d= 3 A1\n1\nn\nS = ( − 4 + ( n − 1)3 ) > 10 000 M1\nn\n2\nn = 83 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nIn the arithmetic series with $n^{\\text{th}}$ term $u_n$, it is given that $u_4 = 7$ and $u_9 = 22$. Find the minimum value of $n$ so that $u_1 + u_2 + u_3 + \\ldots + u_n > 10\\,000$."
+  },
+  {
+   "id": "math-2011-M-P2-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nA skydiver jumps from a stationary balloon at a height of 2000 m above the ground.\n− 0 2 . t Her velocity, vms−1, t seconds after jumping, is given by v = 501 ( − e ) .\n(a) Find her acceleration 10 seconds after jumping. [3 marks]\n(b) How far above the ground is she 10 seconds after jumping? [3 marks]",
+   "ms_text": "− 0.2 t 3. (a) a = 10e (M1)(A1)\n− 2 10e−) 2 at t = 10 , a = 1.35 (ms) (accept A1\n(b) METHOD 1\n10 − 0.2 t\nd = ∫ − e )d t (M1) 050(1\n= 283.83... A1\nso distance above ground = 1720 (m) (3 sf)accept 1716 (m) ( ) A1\nMETHOD 2\n− 0.2 t − 0.2 t s =\n∫ 50(1 − e )d t = 50 t + 250 e ( + c ) M1\nTaking s = 0 when t = 0 gives c = − 250 M1\nSo when t = 10, s = 283.3 ...\nso distance above ground = 1720 (m)(3 sf ) ( accept 1716 (m) ) A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nA skydiver jumps from a stationary balloon at a height of 2000 m above the ground. Her velocity, $v$ m s$^{-1}$, $t$ seconds after jumping, is given by $v = 50(1 - e^{-0.2t})$.\n(a) Find her acceleration 10 seconds after jumping. [3 marks]\n(b) How far above the ground is she 10 seconds after jumping? [3 marks]"
+  },
+  {
+   "id": "math-2011-M-P2-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\ncos 2 θ sin θ\n, for 0 < θ < 2 π .\nConsider the matrix A =−\nsin 2 θ cos θ\n(a) Show that det A = cos θ . [3 marks]\n(b) Find the values of θ for which det A2= sin θ. [3 marks]",
+   "ms_text": "4. (a) det A = cos2cos θ θ + sin 2sin θ θ M1A1\n= cos(2 θ − θ ) A1\nNote: Allow use of double angle formulae if they lead to the correct answer\n= cosθ AG\n2 (b) cos θ = sin θ A1\nθ= 0.666, 2.48 A1A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.10",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nConsider the matrix $A = \\begin{pmatrix} \\cos 2\\theta & \\sin\\theta \\\\ -\\sin 2\\theta & \\cos\\theta \\end{pmatrix}$, for $0 < \\theta < 2\\pi$.\n(a) Show that $\\det A = \\cos\\theta$. [3 marks]\n(b) Find the values of $\\theta$ for which $\\det A^2 = \\sin\\theta$. [3 marks]"
+  },
+  {
+   "id": "math-2011-M-P2-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\n8 x\nSketch the graph of fx () = x + . Clearly mark the coordinates of the two\n2 x − 9\nmaximum points and the two minimum points. Clearly mark and state the equations\nof the vertical asymptotes and the oblique asymptote.",
+   "ms_text": "5.\nM1A1A1A1A1A1A1\nNote: Award A1 for both vertical asymptotes correct,\nM1 for recognizing that there are two turning points near the origin,\nA1 for both turning points near the origin correct, (only this A mark is dependent on the M mark)\nA1 for the other pair of turning points correct,\nA1 for correct positioning of the oblique asymptote,\nA1 for correct equation of the oblique asymptote,\nA1 for correct asymptotic behaviour in all sections.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.4",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nSketch the graph of $f(x) = x + \\dfrac{8x}{x^2 - 9}$. Clearly mark the coordinates of the two maximum points and the two minimum points. Clearly mark and state the equations of the vertical asymptotes and the oblique asymptote."
+  },
+  {
+   "id": "math-2011-M-P2-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nThe fish in a lake have weights that are normally distributed with a mean of 1.3 kg and\na standard deviation of 0.2 kg.\n(a) Determine the probability that a fish which is caught weighs less than 1.4 kg. [1 mark]\n(b) John catches 6 fish. Calculate the probability that at least 4 of the fish weigh\nmore than 1.4 kg. [3 marks]\n(c) Determine the probability that a fish which is caught weighs less than 1 kg,\ngiven that it weighs less than 1.4 kg. [2 marks]",
+   "ms_text": "6. (a) P( x < 1.4) = 0.691(accept0.692) A1\n(b) METHOD 1\nY∼ B(6, 0.3085...) (M1)\nP( Y ≥ 4) =− 1 P( Y ≤ 3) (M1)\n= 0.0775 (accept 0.0778 if 3sf approximation from (a) used) A1\nMETHOD 2\nX∼ B(6, 0.6914...) (M1)\nX≤ P( 2) (M1)\n= 0.0775 (accept 0.0778 if 3sf approximation from (a) used) A1\nP( x < 1)\n(c) P( x < 1| x < 1.4) = M1\nP( x < 1.4)\n0.06680...\n=\n0.6914...\n= 0.0966(accept0.0967) A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.11",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nThe fish in a lake have weights that are normally distributed with a mean of 1.3 kg and a standard deviation of 0.2 kg.\n(a) Determine the probability that a fish which is caught weighs less than 1.4 kg. [1 mark]\n(b) John catches 6 fish. Calculate the probability that at least 4 of the fish weigh more than 1.4 kg. [3 marks]\n(c) Determine the probability that a fish which is caught weighs less than 1 kg, given that it weighs less than 1.4 kg. [2 marks]"
+  },
+  {
+   "id": "math-2011-M-P2-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 5]\n1\n3 Consider the functions fx () = x + 1 and gx () = . The graphs of y = fx () and\nx 3 + 1\ny = gx () meet at the point (,) 01 and one other point, P.\n(a) Find the coordinates of P. [1 mark]\n(b) Calculate the size of the acute angle between the tangents to the two graphs at\nthe point P. [4 marks]",
+   "ms_text": "3 1 7. (a) x += 1\nx 3 + 1\n3 (1.26, − − 1)\n( =− ( 2 , − 1 ) ) A1\n2\n× 3 (b) f ′− (1.259...) = 4.762... ( 3 2 ) A1\n2\ng′− (1.259...) = − 4.762... (– 3 × 2 3 ) A1\n1\nrequired angle = M1\n2arctan4.762...\n(accept 23.7�) = 0.414 A1\nNote: Accept alternative methods including finding the obtuse angle first.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.4",
+    "5.6",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 5]\nConsider the functions $f(x) = x^3 + 1$ and $g(x) = \\dfrac{1}{x^3 + 1}$. The graphs of $y = f(x)$ and $y = g(x)$ meet at the point $(0, 1)$ and one other point, P.\n(a) Find the coordinates of P. [1 mark]\n(b) Calculate the size of the acute angle between the tangents to the two graphs at the point P. [4 marks]"
+  },
+  {
+   "id": "math-2011-M-P2-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nThe vertices of an equilateral triangle, with perimeter P and area A , lie on a circle\nwith radius r . Find an expression for P A in the form k +\n′. r, where k ∈",
+   "ms_text": "8. let the length of one side of the triangle be x\nconsider the triangle consisting of a side of the triangle and two radii\nEITHER\n2 2 2 2 � x = r + r − 2 r cos120 M1\n2 = 3r\nOR\n�\nx = 2cos30 r M1\nTHEN\nx = r 3 A1\nso perimeter = 33 r A1\nnow consider the area of the triangle\n1 2 �\narea =× 3 sin120 M1\n2r\n3 2\n=× 3 A1\n4r\nP 33 r\n=\nA 33 2\nr\n4\n4\n= A1\nr\nNote: Accept alternative methods\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nThe vertices of an equilateral triangle, with perimeter $P$ and area $A$, lie on a circle with radius $r$. Find an expression for $\\dfrac{P}{A}$ in the form $\\dfrac{k}{r}$, where $k \\in \\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2011-M-P2-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 6]\n1 A rocket is rising vertically at a speed of 300 ms− when it is 800 m directly above\nthe launch site. Calculate the rate of change of the distance between the rocket and\nan observer, who is 600 m from the launch site and on the same horizontal level as the\nlaunch site.\nrocket\ndiagram\nnot to scale\n600 m launch observer\nsite",
+   "ms_text": "9. let x = distance from observer to rocket\nlet h = the height of the rocket above the ground\nMETHOD 1\nd h\n= 300 when h 800 A1\nt=\nd\n1\n2 2 x = h + 360 000 = ( h + 360 000) 2 M1\nd x h\n= A1\nd h 2 h + 360 000\nwhen h = 800\nd x d x d h\n= × M1\nd t d h d t\n300 h\n= A1\n2 h + 360 000\n− 1 = 240 (ms) A1\n[6 marks]\nMETHOD 2\n2 2 2 h + 600 = x M1\nd x\n2 h = A1\n2d xh\nd x h\n=\nd h x\n800 4\n= = A1\n1000 5\nd h\n300 A1\nt=\nd\nd x d x d h\n= × M1\nd t d h d t\n4\n= × 300\n5\n− 1 = 240 (ms) A1\n[6 marks]\nMETHOD 3\n2 = 600 2 + 2 M1 x h\nd x d h\n2 x = 2 h A1A1\nd t d t\nwhen h = 800, x = 1000\nd x 800 d h\n= × M1A1\nd t 1000 d t\n= 240 ms− 1 A1\nMETHOD 4\n1\n2 2 2\n(600 + 800) = 1000 Distance between the observer and the rocket = M1A1\nComponent of the velocity in the line of sight = sin θ× 300\n(where θ = angle of elevation) M1A1\n800\nsinθ = A1\n1000\nms−) 1 component = 240( A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 6]\nA rocket is rising vertically at a speed of 300 m s$^{-1}$ when it is 800 m directly above the launch site. Calculate the rate of change of the distance between the rocket and an observer, who is 600 m from the launch site and on the same horizontal level as the launch site.\n[Diagram: right-angled triangle with rocket vertically above the launch site, observer 600 m horizontally from the launch site, line from observer to rocket; diagram not to scale]"
+  },
+  {
+   "id": "math-2011-M-P2-TZ2-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 8]\n1 1 1\n2 2 2 The point P, with coordinates (, pq, lies on the graph of x ) + y = a , a > 0 .\nThe tangent to the curve at P cuts the axes at (, 0m and (,) ) n0. Show that m + n = a .",
+   "ms_text": "1 1 1\n10. x 2 + y 2 = a 2\n1 1\n1 − 1 − d y\n2 2 x + y = 0 M1\n2 2 d x\n1\nd y 2 x y\n= − = − A1\n1 d x x\n2 y\n1\n2 d y a\n=− Note: Accept 1 from making y the subject of the equation, and all correct subsequent working\n1 d x\n2 x\ntherefore the gradient at the point P is given by\nd y q\n= − A1\nd x p\nq\nequation of tangent is y − q = − ( x − p ) M1\np\nq\n( y = − x + q + q p )\np\nq p\n= = + = + x -intercept: y 0, n p q p p A1\nq\n= = + y -intercept: x 0, m q p q A1\nn + m = q p + p + q p + q M1\n= 2q p + p + q\n2\n= + ( p q ) A1\n= a AG\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4",
+    "2.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 8]\nThe point P, with coordinates $(p, q)$, lies on the graph of $x^{\\frac{1}{2}} + y^{\\frac{1}{2}} = a^{\\frac{1}{2}}$, $a > 0$.\nThe tangent to the curve at P cuts the axes at $(0, m)$ and $(n, 0)$. Show that $m + n = a$."
+  },
+  {
+   "id": "math-2011-M-P2-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 17]\n− − The points P( 12 , , 3, Q( ) −210, R (, ,,) 051 and S form a parallelogram, where S ,)\nis diagonally opposite Q.\n(a) Find the coordinates of S. [2 marks]\n− 13\n→ →\n(b) The vector product PQ × PS = 7 . Find the value of m . [2 marks]\nm\n(c) Hence calculate the area of parallelogram PQRS. [2 marks]\n[3 marks] (d) Find the Cartesian equation of the plane, ∏1, containing the parallelogram PQRS.\n(e) Write down the vector equation of the line through the origin (, 000 that is ,)\nperpendicular to the plane ∏1. [1 mark]\n(f) Hence find the point on the plane that is closest to the origin. [3 marks]\n(g) A second plane, ∏2 , has equation x − 2 y + z = 3. Calculate the angle between\n[4 marks] the two planes.",
+   "ms_text": "− 1 0 − x\n→ →\n11. (a) PQ =− 1, SR = 5 − y (M1)\n3 1 − z\npoint S = (1, 6, − 2) A1\n[2 marks]\n− 1 2\n→ →\n(b) PQ = − 1 PS = 4 A1\n3 1\n− 13\n→ →\nPQ × PS 7 =\n− 2\nm = − 2 A1\n[2 marks]\n→ →\n2 2 2 (c) area of parallelogram PQRS = PQ × PS = (13) − + 7 +− (2) M1\n= 222 = 14.9 A1\n[2 marks]\n− + − = (d) equation of plane is 13 x 7 y 2 z d M1A1\nsubstituting any of the points given gives d= 33\n− 13 x + 7 y − 2 z = 33 A1\n[3 marks]\n0 − 13\n(e) equation of line is r = 0 + λ 7 A1\n0 − 2\nNote: To get the A1 must have r = or equivalent.\n[1 mark]\n(f) 169 λ + 49 λ + 4 λ = 33 M1\n33\nλ = (0.149...) = A1\n222\n14377 11\nclosest point is − , , − ( =− (1.93, 1.04, − 0.297) ) A1\n74 74 37\n[3 marks]\n(g) angle between planes is the same as the angle between the normals (R1)\n− 131 ×+ 7 × −− 2 21 ×\ncos θ = M1A1\n222 × 6\nθ= 143 � (accept θ= 37.4 � or 2.49 radians or 0.652 radians) A1\n[4 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.16",
+    "3.17",
+    "3.12",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 17]\nThe points $P(-1, 2, -3)$, $Q(-2, 1, 0)$, $R(0, 5, 1)$ and S form a parallelogram, where S is diagonally opposite Q.\n(a) Find the coordinates of S. [2 marks]\n(b) The vector product $\\overrightarrow{PQ} \\times \\overrightarrow{PS} = \\begin{pmatrix} -13 \\\\ 7 \\\\ m \\end{pmatrix}$. Find the value of $m$. [2 marks]\n(c) Hence calculate the area of parallelogram PQRS. [2 marks]\n(d) Find the Cartesian equation of the plane, $\\Pi_1$, containing the parallelogram PQRS. [3 marks]\n(e) Write down the vector equation of the line through the origin $(0, 0, 0)$ that is perpendicular to the plane $\\Pi_1$. [1 mark]\n(f) Hence find the point on the plane that is closest to the origin. [3 marks]\n(g) A second plane, $\\Pi_2$, has equation $x - 2y + z = 3$. Calculate the angle between the two planes. [4 marks]"
+  },
+  {
+   "id": "math-2011-M-P2-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 18]\nThe number of accidents that occur at a large factory can be modelled by a Poisson\ndistribution with a mean of 0.5 accidents per month.\n(a) Find the probability that no accidents occur in a given month. [1 mark]\n(b) Find the probability that no accidents occur in a given 6 month period. [2 marks]\n(c) Find the length of time, in complete months, for which the probability that at\nleast 1 accident occurs is greater than 0.99. [6 marks]\n(d) To encourage safety the factory pays a bonus of $1000 into a fund for workers if\nno accidents occur in any given month, a bonus of $500 if 1 or 2 accidents occur\nand no bonus if more than 2 accidents occur in the month.\n(i) Calculate the expected amount that the company will pay in bonuses\neach month.\n(ii) Find the probability that in a given 3 month period the company pays a\ntotal of exactly $2000 in bonuses. [9 marks]",
+   "ms_text": "12. (a) P( x = 0) = 0.607 A1\n[1 mark]\n(b) EITHER\nUsing X∼ Po(3) (M1)\nOR\n6\nUsing (0.6065...) (M1)\nTHEN\nP( X= 0) = 0.0498 A1\n[2 marks]\n(c) X ∼ Po(0.5) t (M1)\nP( x ≥ 1) =− 1 P( x = 0) (M1)\nP( x = 0) < 0.01 A1\n− 0.5 t e < 0.01 A1\n− 0.5 t < ln(0.01) (M1)\nt > 9.21 months\ntherefore 10 months A1N4\nNote: Full marks can be awarded for answers obtained directly from GDC if a\nsystematic method is used and clearly shown.\n[6 marks]\n(d) (i) P(1 or 2 accidents) = 0.37908… A1\nE() B= 1000 × 0.60653... + 500 × 0.37908... M1A1\n= $796(accept$797 or $796.07) A1\n(ii) P(2000) = P(1000, 1000, 0) + P(1000, 0, 1000) + P(0, 1000, 1000) +\nP(1000, 500, 500) + P(500, 1000, 500) + P(500, 500, 1000) (M1)(A1)\nNote: Award M1 for noting that 2000 can be written both as 21000 × +× 10\nand 2 × 500 +× 11000 .\n= 2 + 2 3(0.6065...)(0.01437...) 3(0.3790...)(0.6065...) M1A1\n= 0.277(accept0.278) A1\n[9 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.7",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 18]\nThe number of accidents that occur at a large factory can be modelled by a Poisson distribution with a mean of 0.5 accidents per month.\n(a) Find the probability that no accidents occur in a given month. [1 mark]\n(b) Find the probability that no accidents occur in a given 6 month period. [2 marks]\n(c) Find the length of time, in complete months, for which the probability that at least 1 accident occurs is greater than 0.99. [6 marks]\n(d) To encourage safety the factory pays a bonus of \\$1000 into a fund for workers if no accidents occur in any given month, a bonus of \\$500 if 1 or 2 accidents occur and no bonus if more than 2 accidents occur in the month.\n(i) Calculate the expected amount that the company will pay in bonuses each month.\n(ii) Find the probability that in a given 3 month period the company pays a total of exactly \\$2000 in bonuses. [9 marks]"
+  },
+  {
+   "id": "math-2011-M-P2-TZ2-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 25,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Total mark: 25]\nPart A [Maximum mark: 8]\n+ Prove by mathematical induction that, for n∈\n′,\n2 3 n − 1\n1 n + 2\n+ 21 31 41 + 1 ... n = 4 −\n+ + n−1. +\n2 2 2 2 2\nPart B [Maximum mark: 17]\n1 2 x 2 x\n(a) Using integration by parts, show that e sin xx d = e (sin 2 x − cos) x + C . [6 marks] ∫\n5\ny Solve the differential equation d\n2 x (b) = 1 − y e 2sin, given that y = 0 when x = 0, x\nx d\nwriting your answer in the form y = fx () . [5 marks]\n(c) (i) Sketch the graph of y = fx () , found in part (b), for 0 ≤ x ≤ 1 5 ..\nDetermine the coordinates of the point P, the first positive intercept\non the x-axis, and mark it on your sketch.\n(ii) The region bounded by the graph of y = fx () and the x-axis, between the\norigin and P, is rotated 360ο about the x-axis to form a solid of revolution.\nCalculate the volume of this solid. [6 marks]",
+   "ms_text": "13. Part A\n2 3 n − 1\n1 1 1 1 n + 2\nprove that 1 + 2 + 3 + 4 + ... + n = 4 −\nn − 1 2 2 2 2 2\nfor n = 1\n1 + 2\nLHS = 1, RHS = 4 − = 4 − 3 = 1\n0 2\nso true for n = 1 R1\n= assume true for n k M1\n− 2 3 k 1\n1 1 1 1 k + 2\n+ + + + + = − so 1 2 3 4 ... k 4\nk − 1 2 2 2 2 2\nnow for n = k + 1\n2 3 k − 1 k\n1 1 1 1 1\nLHS: 1 + 2 + 3 + 4 + ... + k + ( k + 1) A1\n2 2 2 2 2\nk\nk + 2 1\n= 4 − + ( k + 1) M1A1\nk − 1 2 2\n2( k + 2) k + 1\n= − + 4 (or equivalent) A1\nk k 2 2\n( k + 1) + 2 k + 3\n= 4 − (accept 4 − ) A1\n( + 1)1 − 2k 2k\nTherefore if it is true for n = k it is true for n = k +. It has been shown to 1\n∈�). + be true for n = so it is true for all n ( 1 R1\nNote: To obtain the final R mark, a reasonable attempt at induction must have\nbeen made.\n[8 marks]\nPart B\n(a) METHOD 1\n2 x 2 x 2 x ∫ e sind xx = − cose x + ∫ 2e cosd xx M1A1A1\n2 x 2 x 2 x = − cose x + 2e sin x −∫ 4e sind xx A1A1\n2 x = − 2 x + 2 x 5e ∫ sind xx cose x 2e sin x M1\n1 2 x 2 x\n∫ e sind xx = e(2sin x − cos) x + C AG\n5\nMETHOD 2\n2 x 2 x sine x e\n2 x ∫ sine x d x = − ∫ cos x d x M1A1A1\n2 2\n2 x 2 x 2 x sine x e e\n= − cos x −∫ sin x d x A1A1\n2 4 4\n2 x 2 x 5 e sin x cose x\n2 x ∫ e sind xx = − M1\n4 2 4\n1 2 x 2 x\n∫ e sind xx = e(2sin x − cos) x + C AG\n5\n[6 marks]\nd y 2 x\n(b) ∫ = ∫ e sind xx M1A1\n2 1 − y\n1 2 x\narcsin y = e (2sin x − cos)( x + C ) A1\n5\n1\nwhen x = 0, y = 0 ⇒ C = M1\n5\n1 1 2 x\ny = sin e(2sin x − cos) x + A1\n5 5\n[5 marks]\n(c) (i)\nA1\nP is (1.16,0) A1\nNote: Award A1 for 1.16 seen anywhere, A1 for complete sketch.\nNote: Allow FT on their answer from (b)\n1.162... 2\n(ii) V = ∫ π y d x M1A1\n0\n= 1.05 A2\nNote: Allow FT on their answers from (b) and (c)(i).\n[6 marks]\nTotal [25 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.18",
+    "5.17",
+    "5.15",
+    "1.15",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Total mark: 25]\nPart A [Maximum mark: 8]\nProve by mathematical induction that, for $n \\in \\mathbb{Z}^+$,\n$1 + 2\\left(\\frac{1}{2}\\right) + 3\\left(\\frac{1}{2}\\right)^2 + 4\\left(\\frac{1}{2}\\right)^3 + \\ldots + n\\left(\\frac{1}{2}\\right)^{n-1} = 4 - \\dfrac{n+2}{2^{n-1}}$.\nPart B [Maximum mark: 17]\n(a) Using integration by parts, show that $\\int e^{2x}\\sin x\\,dx = \\frac{1}{5}e^{2x}(2\\sin x - \\cos x) + C$. [6 marks]\n(b) Solve the differential equation $\\dfrac{dy}{dx} = \\sqrt{1 - y^2}\\,e^{2x}\\sin x$, given that $y = 0$ when $x = 0$, writing your answer in the form $y = f(x)$. [5 marks]\n(c) (i) Sketch the graph of $y = f(x)$, found in part (b), for $0 \\le x \\le 1.5$. Determine the coordinates of the point P, the first positive intercept on the x-axis, and mark it on your sketch.\n(ii) The region bounded by the graph of $y = f(x)$ and the x-axis, between the origin and P, is rotated $360^\\circ$ about the x-axis to form a solid of revolution. Calculate the volume of this solid. [6 marks]",
+   "review_note": "Part A induction (8 marks) is 1.15; Part B (17 marks) calculus drives primary topic 5."
+  }
+ ],
+ "status": "done"
+}

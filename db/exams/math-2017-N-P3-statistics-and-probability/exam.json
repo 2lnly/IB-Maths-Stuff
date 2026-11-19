@@ -1,0 +1,132 @@
+{
+ "exam_id": "math-2017-N-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2017,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2017 November Examination Session/Mathematics_paper_3_Statistics_and_probability__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2017 November Examination Session/Mathematics_paper_3_Statistics_and_probability__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8817-7210; code N17/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches paper total 50",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2017-N-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 7]\nA continuous random variable T has a probability density function defined by\n2 t ( 4 − t )\n, 0 ≤≤ t 2\nft () = .\n4\n0 , otherwise\n(a) Find the cumulative distribution function F(t) , for 0 ≤ t ≤ 2 . [3]\n(b) (i) Sketch the graph of F(t) for 0 ≤ t ≤ 2 , clearly indicating the coordinates of the\nendpoints.\n(ii) Given that P(T<a) = 0.75 , find the value of a . [4]",
+   "ms_text": "t ( 2 ) 3 tx 4 − x\nx\n1. (a) Ft () = x − d x = d x M1 ∫ ∫\n4 4\n0 0\nt t t\n2 4 x 2 ( 8 − x 2 ) 2 2 x x − ( 4 − x )\n= − = = A1\n2 16 16 16\n0 0 0\n2 2 2 4 t ( 8 − t )\n( 4 − 2t ) 2 t t\n= − = = 1 − A1\n2 16 16 16\nNote: Condone integration involving t only.\n( 2 ) t 4 − t 2 4\nt t\nNote: Award M1A0A0 for integration without limits eg, d t = − or equivalent. ∫\n4 2 16\nNote: But allow integration + C then showing C = 0 or even integration without C if\nF (0) = 0 or F (2) = is confirmed. 1\n[3 marks]\n(b) (i)\ncorrect shape including correct concavity A1\nclearly indicating starts at origin and ends at (2,1) A1\nNote: Condone the absence of (0,0) .\nNote: Accept 2 on the x-axis and 1 on the y-axis correctly placed.\n2 4 a a\n(ii) attempt to solve − = 0.75 (or equivalent) for a (M1)\n2 16\na= ( = ) 1.41 2 A1\nNote: Accept any answer that rounds to 1.4.\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L3",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 7]\nA continuous random variable $T$ has a probability density function defined by\n$f(t)=\\begin{cases}\\frac{t(4-t^2)}{4}, & 0\\le t\\le 2\\\\ 0, & \\text{otherwise}\\end{cases}$.\n(a) Find the cumulative distribution function $F(t)$, for $0\\le t\\le 2$. [3]\n(b) (i) Sketch the graph of $F(t)$ for $0\\le t\\le 2$, clearly indicating the coordinates of the endpoints.\n(ii) Given that $\\mathrm{P}(T<a)=0.75$, find the value of $a$. [4]"
+  },
+  {
+   "id": "math-2017-N-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 8]\nAnne is a farmer who grows and sells pumpkins. Interested in the weights of pumpkins\nproduced, she records the weights of eight pumpkins and obtains the following results in\nkilograms.\n7.7 7.5 8.4 8.8 7.3 9.0 7.8 7.6\nAssume that these weights form a random sample from a N(µ , σ 2) distribution.\n(a) Determine unbiased estimates for µ and σ 2 . [3]\n(b) Anne claims that the mean pumpkin weight is 7.5 kilograms. In order to test this claim,\nshe sets up the null hypothesis H0 : µ= 7.5 .\n(i) Use a two-tailed test to determine the p-value for the above results.\n(ii) Interpret your p-value at the 5 % level of significance, justifying your conclusion. [5]",
+   "ms_text": "2. (a) UE of μ is 8.01 ( = 8.0125) A1\n2 UE of σ is 0.404 (M1)A1\nNote: Accept answers that round correctly to 2 sf.\nNote: Condone incorrect notation, ie, μ instead of UE of μ and 2 σ instead of\n2 UE of σ.\nNote: M0 for squaring 0.594… giving 0.354, M1A0 for failing to square 0.635…\n[3 marks]\n(b) (i) attempting to use the t -test (M1)\np -value is 0.0566 A2\nNote: Accept any answer that rounds correctly to 2 sf.\n(ii) 0.0566 > 0.05 R1\nwe accept the null hypothesis (mean pumpkin weight is 7.5kg) A1\nNote: Apply follow through on the candidate’s p -value.\nNote: Do not award A1if R1 is not awarded.\n[5 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 8]\nAnne is a farmer who grows and sells pumpkins. Interested in the weights of pumpkins produced, she records the weights of eight pumpkins and obtains the following results in kilograms.\n7.7  7.5  8.4  8.8  7.3  9.0  7.8  7.6\nAssume that these weights form a random sample from a $\\mathrm{N}(\\mu,\\sigma^2)$ distribution.\n(a) Determine unbiased estimates for $\\mu$ and $\\sigma^2$. [3]\n(b) Anne claims that the mean pumpkin weight is 7.5 kilograms. In order to test this claim, she sets up the null hypothesis $\\mathrm{H}_0:\\mu=7.5$.\n(i) Use a two-tailed test to determine the $p$-value for the above results.\n(ii) Interpret your $p$-value at the 5% level of significance, justifying your conclusion. [5]"
+  },
+  {
+   "id": "math-2017-N-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 12]\nA random variable X is distributed with mean µ and variance σ 2 . Two independent random\nsamples of sizes n1 and n2 are taken from the distribution of X . The sample means\nare —\nX 1 and — X 2 respectively.\nShow that U = a— 1+ (1 -a)—\n(a) X X 2 , a ∈ϒ , is an unbiased estimator of µ . [3]\nσ 2 σ 2\n2 2 (b) (i) Show that Var() U = a + ( 1 − a ) .\nn n\n1 2\n(ii) Find, in terms of n1 and n2 , an expression for a which gives the most efficient\nestimator of this form.\n(iii) Hence find an expression for the most efficient estimator and interpret the result. [9]",
+   "ms_text": "3. (a) E( U ) = E ( aX + (1 − aX ) ) = a E ( X ) + (1 − a )E ( X ) (M1)\n1 2 1 2\nEX ( ) = μ and ( EX ) = μ\n1 2\nEU ( ) = a μ + (1 − a ) μ (or equivalent) A1\n= μ A1\nhence U is an unbiased estimator of μ AG\n[3 marks]\n(b) (i) Var( U ) = Var ( aX + (1 − aX ) )\n1 2\n2 2 = a Var ( X ) + (1 − a )Var ( X ) M1\n1 2\n2 2 σ σ\n( ) ( ) stating that VarX = and VarX = A1\n1 2\nn n\n1 2\n2 2 σ σ\n2 2 ⇒ Var U = a + (1 − a ) AG\nn n\n1 2\nNote:Line 3 or equivalent must be seen somewhere.\n(ii) let Var( U ) = V\nEITHER\n2 2 d V σ σ\n= − − 2 a 2(1 a ) M1\nd a n n\n1 2\nV attempting to solve d\n0 for a R1 a=\nd\nNote: Award M1 for obtaining a in terms of 1n, 2nand σ.\nOR\nforming a quadratic in a\n2 2 2 2 σ σ σ σ\n2 M1 V = + a − 2 a +\nn n n n\n1 2 2 2\nattempting to find the axis of symmetry of V R1\nTHEN\n2 2 σ\nn\n2 a = (A1)\n1 1\nσ 2 + 2\nn n\n1 2\nn\na = 1 A1\nn + n\n1 2\nsubstituting a into U (iii) (M1)\nnX + nX\n= 1 1 2 2 U A1\nn + n\n1 2\nNote: Do not FT an incorrect a for A1, the M1 may however be awarded.\nthis is an expression for the mean of the combined samples\nOR this is a weighted mean of the two sample means R1\n[9 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.L4",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 12]\nA random variable $X$ is distributed with mean $\\mu$ and variance $\\sigma^2$. Two independent random samples of sizes $n_1$ and $n_2$ are taken from the distribution of $X$. The sample means are $\\overline{X_1}$ and $\\overline{X_2}$ respectively.\n(a) Show that $U=a\\overline{X_1}+(1-a)\\overline{X_2}$, $a\\in\\mathbb{R}$, is an unbiased estimator of $\\mu$. [3]\n(b) (i) Show that $\\mathrm{Var}(U)=a^2\\frac{\\sigma^2}{n_1}+(1-a)^2\\frac{\\sigma^2}{n_2}$.\n(ii) Find, in terms of $n_1$ and $n_2$, an expression for $a$ which gives the most efficient estimator of this form.\n(iii) Hence find an expression for the most efficient estimator and interpret the result. [9]"
+  },
+  {
+   "id": "math-2017-N-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 8]\nThe random variables U , V follow a bivariate normal distribution with product moment\ncorrelation coefficient ρ .\n(a) State suitable hypotheses to investigate whether or not U , V are independent. [2]\nA random sample of 12 observations on U , V is obtained to determine whether there is\na correlation between U and V . The sample product moment correlation coefficient is\ndenoted by r . A test to determine whether or not U , V are independent is carried out at\nthe 1 % level of significance.\n(b) Find the least value of |r| for which the test concludes that ρ≠0 . [6]",
+   "ms_text": "H: ρ= 0 H: ρ≠ 0 4. (a) ; A1A1\n0 1\n[2 marks]\n(b) ν= 10 (A1)\nt = 3.16927 … (M1)(A1)\n0.005\nwe reject H: ρ= 0 if t> 3.16927 … (R1)\n0\n10\nattempting to solve r > 3.16927 … for r M1\n2 1 − r\nNote: Allow = instead of >.\n(least value of r is) 0.708 (3 sf) A1\nNote: Award A1M1A0R1M1A0 to candidates who use a one-tailed test. Award\nA0M1A0R1M1A0 to candidates who use an incorrect number of degrees of\nfreedom or both a one-tailed test and incorrect degrees of freedom.\nNote: Possible errors are\n10DF 1-tail, t = 2.763…, least value = 0.658\n11DF 2-tail, t = 3.105…, least value = 0.684\n11DF 1-tail, t = 2.718…, least value = 0.634.\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L8",
+    "4.L7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 8]\nThe random variables $U$, $V$ follow a bivariate normal distribution with product moment correlation coefficient $\\rho$.\n(a) State suitable hypotheses to investigate whether or not $U$, $V$ are independent. [2]\nA random sample of 12 observations on $U$, $V$ is obtained to determine whether there is a correlation between $U$ and $V$. The sample product moment correlation coefficient is denoted by $r$. A test to determine whether or not $U$, $V$ are independent is carried out at the 1% level of significance.\n(b) Find the least value of $|r|$ for which the test concludes that $\\rho\\ne 0$. [6]"
+  },
+  {
+   "id": "math-2017-N-P3-statistics-and-probability-q5",
+   "num": "5",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 15]\nThe random variable X follows a Poisson distribution with mean λ . The probability\ngenerating function of X is given by GX (t) = eλ(t - 1) .\n(a) (i) Find expressions for G'X(t) and G\"X(t) .\n(ii) Hence show that Var(X ) = λ . [5]\nThe random variable Y , independent of X , follows a Poisson distribution with mean µ .\n(b) By considering the probability generating function, GX + Y (t) , of X + Y , show that X + Y\nfollows a Poisson distribution with mean λ+µ . [3]\nx nx −\nn λ λ\n=\n(c) (i) Show that P(X = xX | + Y = n ) 1 − , where n , x are\nx λ + µ λ + µ\nnon-negative integers and n ≥ x.\n(ii) Identify the probability distribution given in part (c)(i) and state its parameters. [7]",
+   "ms_text": "λ ( t − 1)\n5. (a) (i) G ′ () t = λ e A1\nX\n2 λ ( t − 1) G ′′ () t = λ e A1\nX\n2\n(ii) Var() X = G ′′ (1) + G ′ (1) − ( G ′ (1) ) (M1)\nX X X\n2 G ′ (1) = λ and G ′′ (1) = λ (A1)\nX X\n2 2 Var( X ) = λ + λ − λ\nA1\n= λ AG\n[5 marks]\nλ ( t − 1) μ ( t − 1)\nG ( ) t = e × e (b) M1\nX + Y\nNote: The M1 is for knowing to multiply pgfs.\n( λ + μ )( t − 1) =\ne A1\nwhich is the pgf for a Poisson distribution with mean λ + μ R1AG\nNote: Line 3 identifying the Poisson pgf must be seen.\n[3 marks]\nP( X = x ∩ Y = n − x )\n(c) (i) P( X = xX | + Y = n ) = (M1)\n+ = P( X Y n )\n− λ − μ − e λ x e μ n x n !\n= (or equivalent) M1A1\n− ( λ + μ ) n x ! ( n − x )! e ( λ + μ )\nx nx − n λμ\n= A1\nx λ + μ n ( )\nx n − x\nn λ μ\n= A1\nx λ + μ λ + μ\nx n − x\nn λ λ\nleading to P( X = xX | + Y = n ) = 1 − AG\nx λ + μ λ + μ\nλ\n(ii) B n , A1A1\nλ + μ\nNote: Award A1 for stating binomial and A1 for stating correct parameters.\n[7 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L3",
+    "4.L1",
+    "4.11",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 15]\nThe random variable $X$ follows a Poisson distribution with mean $\\lambda$. The probability generating function of $X$ is given by $G_X(t)=\\mathrm{e}^{\\lambda(t-1)}$.\n(a) (i) Find expressions for $G'_X(t)$ and $G''_X(t)$.\n(ii) Hence show that $\\mathrm{Var}(X)=\\lambda$. [5]\nThe random variable $Y$, independent of $X$, follows a Poisson distribution with mean $\\mu$.\n(b) By considering the probability generating function, $G_{X+Y}(t)$, of $X+Y$, show that $X+Y$ follows a Poisson distribution with mean $\\lambda+\\mu$. [3]\n(c) (i) Show that $\\mathrm{P}(X=x\\mid X+Y=n)=\\binom{n}{x}\\left(\\frac{\\lambda}{\\lambda+\\mu}\\right)^x\\left(1-\\frac{\\lambda}{\\lambda+\\mu}\\right)^{n-x}$, where $n$, $x$ are non-negative integers and $n\\ge x$.\n(ii) Identify the probability distribution given in part (c)(i) and state its parameters. [7]"
+  }
+ ],
+ "status": "done"
+}

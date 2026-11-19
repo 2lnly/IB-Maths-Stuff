@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2016-M-P3-calculus",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.19", "5.L3", "5.13", "5.6"],
+      "text_clean": "1. [Maximum mark: 17]\nThe function $f$ is defined by $f(x)=\\mathrm{e}^x\\sin x$, $x\\in\\mathbb{R}$.\n(a) By finding a suitable number of derivatives of $f$, determine the Maclaurin series for $f(x)$ as far as the term in $x^3$. [7]\n(b) Hence, or otherwise, determine the exact value of $\\lim_{x\\to 0}\\frac{\\mathrm{e}^x\\sin x - x - x^2}{x^3}$. [3]\n(c) The Maclaurin series is to be used to find an approximate value for $f(0.5)$.\n(i) Use the Lagrange form of the error term to find an upper bound for the absolute value of the error in this approximation.\n(ii) Deduce from the Lagrange error term whether the approximation will be greater than or less than the actual value of $f(0.5)$. [7]"
+    },
+    "2": {
+      "topics": ["5"],
+      "subtopics": ["5.L4", "5.6"],
+      "text_clean": "2. [Maximum mark: 7]\nA function $f$ is given by $f(x)=\\int_0^x \\ln(2+\\sin t)\\,\\mathrm{d}t$.\n(a) Write down $f'(x)$. [1]\n(b) By differentiating $f(x^2)$, obtain an expression for the derivative of $\\int_0^{x^2} \\ln(2+\\sin t)\\,\\mathrm{d}t$ with respect to $x$. [3]\n(c) Hence obtain an expression for the derivative of $\\int_x^{x^2} \\ln(2+\\sin t)\\,\\mathrm{d}t$ with respect to $x$. [3]"
+    },
+    "3": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.L4", "1.7"],
+      "text_clean": "3. [Maximum mark: 9]\n(a) Given that $f(x)=\\ln x$, use the mean value theorem to show that, for $0<a<b$, $\\frac{b-a}{b}<\\ln\\frac{b}{a}<\\frac{b-a}{a}$. [7]\n(b) Hence show that $\\ln(1.2)$ lies between $\\frac{1}{m}$ and $\\frac{1}{n}$, where $m$, $n$ are consecutive positive integers to be determined. [2]"
+    },
+    "4": {
+      "topics": ["5"],
+      "subtopics": ["5.18", "5.6", "5.10"],
+      "text_clean": "4. [Maximum mark: 13]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x}=\\frac{x}{y}-xy$ where $y>0$ and $y=2$ when $x=0$.\n(a) Show that putting $z=y^2$ transforms the differential equation into $\\frac{\\mathrm{d}z}{\\mathrm{d}x}+2xz=2x$. [4]\n(b) By solving this differential equation in $z$, obtain an expression for $y$ in terms of $x$. [9]"
+    },
+    "5": {
+      "topics": ["5"],
+      "subtopics": ["5.L1", "5.16", "5.L5"],
+      "text_clean": "5. [Maximum mark: 14]\nConsider the infinite series $S=\\sum_{n=0}^{\\infty} u_n$ where $u_n=\\int_{n\\pi}^{(n+1)\\pi}\\frac{\\sin t}{t}\\,\\mathrm{d}t$.\n(a) Explain why the series is alternating. [1]\n(b) (i) Use the substitution $T=t-\\pi$ in the expression for $u_{n+1}$ to show that $|u_{n+1}|<|u_n|$.\n(ii) Show that the series is convergent. [9]\n(c) Show that $S<1.65$. [4]"
+    }
+  }
+}

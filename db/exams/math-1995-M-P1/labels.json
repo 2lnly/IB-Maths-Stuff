@@ -1,0 +1,26 @@
+{
+  "exam_id": "math-1995-M-P1",
+  "exam_note": "Scanned 1995 paper; no markscheme available. Marks per question not printed (segmenter default 4 kept).",
+  "questions": {
+    "1": {"topics": ["1"], "subtopics": ["1.12"], "text_clean": "1. Given the complex numbers $z_1 = 3 + i$ and $z_2 = 2 - i$, find\n(a) $z_1 z_2$;\n(b) $\\frac{z_1}{z_2}$."},
+    "2": {"topics": ["1"], "subtopics": ["1.7", "1.16"], "text_clean": "2. Calculate $x$ and $y$ exactly, as rational numbers, if\n$5^{3x} \\times 25^{y} = \\frac{1}{5}$\nand $7^{x} \\times 49^{2y} = 1$."},
+    "3": {"topics": ["1", "2"], "subtopics": ["1.L1", "2.7"], "text_clean": "3. Find the value of $x$ such that\n$\\begin{vmatrix} x & 6 \\\\ x & x \\end{vmatrix} = \\begin{vmatrix} 2 & 1 & 3 \\\\ 1 & 2 & 3 \\\\ 3 & 1 & 1 \\end{vmatrix}$."},
+    "4": {"topics": ["3"], "subtopics": ["3.9", "3.10"], "text_clean": "4. Find the value of $x$ satisfying\n$\\arccos x + \\arccos(\\sqrt{15}x) = \\frac{\\pi}{2}$."},
+    "5": {"topics": ["2"], "subtopics": ["2.4", "2.7"], "text_clean": "5. Find the possible values of the number $c$ if the line $y = cx$ passes through a point of intersection of the circle\n$x^2 + y^2 = 5$\nand the line $y + 7x = 15$."},
+    "6": {"topics": ["1"], "subtopics": ["1.L1"], "text_clean": "6. Given the two sets of equations,\n$y_1 = 3x_1 + 2x_2 - x_3$, $y_2 = 2x_1 + x_2 + 5x_3$, $y_3 = 4x_1 - 2x_2 + x_3$\n$x_1 = 2z_1 + z_2 - 3z_3$, $x_2 = 4z_1 - z_2 + z_3$, $x_3 = z_1 - 6z_2 + 7z_3$\nuse matrix methods to obtain three equations that express $y_1$, $y_2$ and $y_3$ directly in terms of $z_1$, $z_2$ and $z_3$."},
+    "7": {"topics": ["5"], "subtopics": ["5.6", "5.7"], "text_clean": "7. Find $\\frac{d^2y}{dx^2}$ if $y = \\frac{1}{\\sqrt[3]{x^3 + 2}}$."},
+    "8": {"topics": ["4"], "subtopics": ["4.5"], "text_clean": "8. Two dice are rolled. The score is the smaller of the two numbers that appear; if the same number appears on both dice, then the score is that number.\nWhat is the probability that the score is 3?"},
+    "9": {"topics": ["3"], "subtopics": ["3.13"], "text_clean": "9. Find, by considering the cube formed by the vectors $\\vec{i}$, $\\vec{j}$ and $\\vec{k}$, the acute angle between two diagonals of a cube."},
+    "10": {"topics": ["1"], "subtopics": ["1.12"], "text_clean": "10. Write down any two conjugate complex numbers $z_1$ and $z_2$, neither lying on the real or imaginary axes of the complex plane, that satisfy $z_1 z_2 = 10$."},
+    "11": {"topics": ["5", "1"], "subtopics": ["5.15", "1.11"], "text_clean": "11. Evaluate $\\int \\frac{dx}{x(x-1)^2}$."},
+    "12": {"topics": ["5", "3"], "subtopics": ["5.14", "3.2"], "text_clean": "12. A parallelogram has sides of length 8 cm and 15 cm and the angle $\\theta$ at one of the vertices is decreasing at the rate of $\\frac{\\pi}{60}$ radians per minute. What is the rate at which the area of the parallelogram is changing when $\\theta = \\frac{\\pi}{6}$?"},
+    "13": {"topics": ["5"], "subtopics": ["5.18"], "text_clean": "13. By first finding an integrating factor, solve the differential equation\n$\\frac{dy}{dx} - \\frac{y}{x} = x^2$."},
+    "14": {"topics": ["1"], "subtopics": ["1.9"], "text_clean": "14. The constant terms in the expansions of\n$\\left(px^3 + \\frac{q}{x^3}\\right)^8$ and $\\left(px^2 + \\frac{q}{x^2}\\right)^4$\nare equal, and $p$ and $q$ are both greater than zero. Express $p$ in terms of $q$."},
+    "15": {"topics": ["1"], "subtopics": ["1.13"], "text_clean": "15. Find $|e^{iz}|$ if $z = 6e^{i\\pi/3}$."},
+    "16": {"topics": ["5", "2"], "subtopics": ["5.7", "2.14"], "text_clean": "16. Sketch on the axes below, the graph of an even function $f(x)$ for $-5 < x < 5$ such that\n1. $f(0) = 0$ and $f(3) = 1$;\n2. $f'(x) > 0$ for $x > 0$; and\n3. $f''(x) > 0$ when $0 < x < 3$ and $f''(x) < 0$ when $x > 3$.\n[Diagram: blank axes, x from -5 to 5 marked at -5, -3, 0, 3, 5; y marked at 1 and 2]"},
+    "17": {"topics": ["3"], "subtopics": ["3.2"], "text_clean": "17. A triangle $ABC$ has sides whose lengths are $AB = 5$ cm, $BC = 6$ cm and $CA = 9$ cm. Find the angles of the triangle."},
+    "18": {"topics": ["5"], "subtopics": ["5.6", "5.7"], "add_flags": ["topic-uncertain"], "text_clean": "18. Find the values of $\\varepsilon$ in order that the function $x = a\\cos(\\omega t + \\varepsilon)$ satisfies the differential equation\n$\\frac{d^2x}{dt^2} = -\\omega^2 x$."},
+    "19": {"topics": ["4", "1"], "subtopics": ["4.5", "1.2"], "text_clean": "19. Each odd number from 1 to $3n$, where $n \\in \\mathbb{N}$ and $n$ is odd, is written on a disc and the discs are placed in a box.\n(a) How many discs are there in the box?\n(b) What is the probability, in terms of $n$, that a disc drawn at random from the box has a number that is divisible by 3?"},
+    "20": {"topics": ["2"], "subtopics": ["2.16"], "text_clean": "20. The graphs given below are those of the same function $f(x)$ for $a \\le x \\le b$.\nSketch, on the given axes, the graphs of\n(a) $|f(x)|$;\n(b) $\\frac{1}{f(x)}$.\nIndicate clearly the positions of any asymptotes.\n[Diagram: two identical copies of the graph of a cubic-like f(x) on [a, b], labelled (a) and (b); it crosses the x-axis three times (once between a and 0, once at positive x, once just before b), with a local maximum just left of the y-axis and a local minimum at positive x]"}
+  }
+}

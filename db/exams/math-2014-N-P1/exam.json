@@ -1,0 +1,313 @@
+{
+ "exam_id": "math-2014-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2014,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2014 November Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2014 November Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); code N14/5/MATHL/HP1/ENG/TZ0/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2014-N-P1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\n() =1, The function f is defined by fx x ≠ 0 .\nx\nThe graph of the function y = gx () is obtained by applying the following transformations to\nthe graph of y = fx () :\n3\na translation by the vector −\n0;\na translation by the vector 0\n.\n1\n(a) Find an expression for gx () . [2]\n(b) State the equations of the asymptotes of the graph of g . [2]",
+   "ms_text": "1\n1. (a) gx () = + 1 A1A1\nx + 3\nx + in the denominator and A1 for the “1 +”. Note: Award A1 for 3\n[2 marks]\n(b) x =− 3 A1\ny = 1 A1\n[2 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.11",
+    "2.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nThe function $f$ is defined by $f(x)=\\frac{1}{x}$, $x \\neq 0$.\nThe graph of the function $y=g(x)$ is obtained by applying the following transformations to the graph of $y=f(x)$:\na translation by the vector $\\begin{pmatrix}-3\\\\0\\end{pmatrix}$;\na translation by the vector $\\begin{pmatrix}0\\\\1\\end{pmatrix}$.\n(a) Find an expression for $g(x)$. [2]\n(b) State the equations of the asymptotes of the graph of $g$. [2]"
+  },
+  {
+   "id": "math-2014-N-P1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nThe quadratic equation 2 2x − 8 x += 1 0 has roots α and β .\n(a) Without solving the equation, find the value of\n(i) α + β ;\n(ii) αβ. [2]\n2 ∈′ has roots 2 and 2 Another quadratic equation x + px + q = 0 , pq , .\nα β\n(b) Find the value of p and the value of q . [4]",
+   "ms_text": "2. (a) using the formulae for the sum and product of roots:\n(i) α + β = 4 A1\n1\nαβ= (ii) A1\n2\nNote: Award A0A0 if the above results are obtained by solving the original\nequation (except for the purpose of checking).\n[2 marks]\n(b) METHOD 1\n2 2 2 2\nrequired quadratic is of the form x 2 − + x (M1) +\nα β α β\n4\nq =\nαβ\nq = 8 A1\n2 2\np =− +\nα β\n2( α + β )\n=− M1\nαβ\n× 24\n=−\n1\n2\np =− 16 A1\nNote: Accept the use of exact roots\nMETHOD 2\nreplacing x with 2 M1\nx\n2\n2 2\n2 − 8 += 1 0\nx x\n8 16\n− += 1 0 (A1)\n2 x x\n2 x − 16 x + 8 = 0\np =− 16 and q = 8 A1A1\nNote: Award A1A0 for x 2 − 16 x + 8 = 0 ie, if p =− 16 and q = 8\nare not explicitly stated.\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nThe quadratic equation $2x^2-8x+1=0$ has roots $\\alpha$ and $\\beta$.\n(a) Without solving the equation, find the value of\n(i) $\\alpha+\\beta$;\n(ii) $\\alpha\\beta$. [2]\nAnother quadratic equation $x^2+px+q=0$, $p, q \\in \\mathbb{Z}$ has roots $\\frac{2}{\\alpha}$ and $\\frac{2}{\\beta}$.\n(b) Find the value of $p$ and the value of $q$. [4]"
+  },
+  {
+   "id": "math-2014-N-P1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\n1 + s\n→\nA point P, relative to an origin O, has position vector OP = 3 + 2 s , s∈ϒ.\n1 − s\n→\nFind the minimum length of OP .",
+   "ms_text": "3. METHOD 1\n→\n2 2 2 2 OP = (1 + s ) + (3 + 2) s + (1 − s ) ( = 6 s + 12 s + 11 ) A1\nNote: Award A1 if the square of the distance is found.\nEITHER\n→ 2\ndOP ( ) attempt to differentiate: = 12 s + 12 M1\nd s\n→ 2\ndOP = attempting to solve 0 for s (M1)\nds\ns =− 1 (A1)\nOR\n→ + d 6 s 6\nattempt to differentiate: OP = M1\n2 d s 6 s + 12 s + 11\n→\nattempting to solve dOP = 0 for s (M1)\nds\ns =− 1 (A1)\nOR\n2 →\n= + 2 + attempt at completing the square: OP 6( s 1) 5 M1\nminimum value (M1)\noccurs at s=− 1 (A1)\nTHEN\n→\nthe minimum length of OP is 5 A1\nMETHOD 2\n1\n→ →\nthe length of OP is a minimum when OP is perpendicular to 2 (R1)\n− 1\n1 + s 1\n3 + 2 s γ 2 = 0 A1\n1 − s − 1\nattempting to solve 1 ++ s 6 + 4 s −+ 1 s = 0 (6 s + 6 = 0) for s (M1)\ns =− 1 (A1)\n→\nOP = 5 A1\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.12",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nA point P, relative to an origin O, has position vector $\\vec{OP}=\\begin{pmatrix}1+s\\\\3+2s\\\\1-s\\end{pmatrix}$, $s \\in \\mathbb{R}$.\nFind the minimum length of $\\vec{OP}$."
+  },
+  {
+   "id": "math-2014-N-P1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\nEvents A and B are such that P() A= 0 2 and P() . B= 0 5. .\n(a) Determine the value of P( A ∪ B ) when\n(i) A and B are mutually exclusive;\n(ii) A and B are independent. [4]\n(b) Determine the range of possible values of P(|) AB. [3]",
+   "ms_text": "4. (a) (i) use of P( A ∪ B ) = P() A + P() B (M1)\nP( A ∪ B ) = 0.2 + 0.5\n= 0.7 A1\n(ii) use of P( A ∪ B ) = P() A + P() B − P()P() A B (M1)\nP( A ∪ B ) = 0.2 + 0.5 − 0.1\n= 0.6 A1\n[4 marks]\n∩ P( A B )\n(b) P( AB | ) =\nP() B\nP( AB is a maximum when P( | ) A ∩ B ) = P() A\nP( AB is a minimum when P( | ) A ∩ B ) = 0\n0 ≤ P( AB | ) ≤ 0.4 A1A1A1\nNote: A1 for each endpoint and A1 for the correct inequalities.\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\nEvents $A$ and $B$ are such that $P(A)=0.2$ and $P(B)=0.5$.\n(a) Determine the value of $P(A \\cup B)$ when\n(i) $A$ and $B$ are mutually exclusive;\n(ii) $A$ and $B$ are independent. [4]\n(b) Determine the range of possible values of $P(A|B)$. [3]"
+  },
+  {
+   "id": "math-2014-N-P1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nA tranquilizer is injected into a muscle from which it enters the bloodstream.\nThe concentration C in mg l−1, of tranquilizer in the bloodstream can be modelled by the\n2 t\nfunction Ct () = 2, t ≥0 where t is the number of minutes after the injection.\n3 + t\nFind the maximum concentration of tranquilizer in the bloodstream.",
+   "ms_text": "5. use of the quotient rule or the product rule M1\n( 2 ) 2 2 3 + t × 2 − 2 t × 2 t\n6 − 2 t 2 4 t\nCt ′ () = = or − A1A1\n2 2 2 2 + 2 2 2 ( 3 + t ) ( 3 + t ) 3 t ( 3 + t )\nNote: Award A1 for a correct numerator and A1 for a correct denominator\nin the quotient rule, and A1 for each correct term in the product rule.\nattempting to solve Ct ′ () = 0 for t (M1)\nt=± 3 (minutes) A1\n3\n( ) ( 1 ) C 3 = mgl− or equivalent. A1\n3\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nA tranquilizer is injected into a muscle from which it enters the bloodstream.\nThe concentration $C$ in $\\text{mg l}^{-1}$, of tranquilizer in the bloodstream can be modelled by the function $C(t)=\\frac{2t}{3+t^2}$, $t \\geq 0$ where $t$ is the number of minutes after the injection.\nFind the maximum concentration of tranquilizer in the bloodstream."
+  },
+  {
+   "id": "math-2014-N-P1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nx\nBy using the substitution u =+ 1 x , find ∫ d. x\n1+ x",
+   "ms_text": "d u 1\n6. = A1\nd x 2 x\nd x = 2( u − 1)d u\nNote: Award the A1 for any correct relationship between dx and du.\n2 x ( u − 1)\n= ∫ d x 2 ∫ d u (M1)A1\n1 + x u\nNote: Award the M1 for an attempt at substitution resulting in an integral only\ninvolving u.\n1\n= 2 ∫ u − 2 + d u (A1)\nu\n2 = u − 4 u + 2ln( u + C ) A1\n= x − 2 x −+ 3 2ln1 ( + x ) ( + C ) A1\nNote: Award the A1 for a correct expression in x, but not necessarily fully\nexpanded/simplified.\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nBy using the substitution $u=1+\\sqrt{x}$, find $\\int \\frac{\\sqrt{x}}{1+\\sqrt{x}}\\,dx$."
+  },
+  {
+   "id": "math-2014-N-P1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nConsider two functions f and g and their derivatives ′f and ′ g. The following table shows\nthe values for the two functions and their derivatives at x= 1 , 2 and 3.\nx 1 2 3\nfx () 3 1 1\n′f () x 1 4 2\ngx () 2 1 4\ng ′ () x 4 2 3\nGiven that px () = fxgx () () and hx () = g ο fx () , find\n′p() (a) 3; [2]\n(b) ′h() 2. [4]",
+   "ms_text": "′ = ′ + ′ 7. (a) p (3) f (3)(3) g g (3) f (3) (M1)\nNote: Award M1 if the derivative is in terms of x or 3.\n=×+× 24 31\n= 11 A1\n[2 marks]\n(b) hx ′ () = g ′ ( fx () ) f ′ () x (M1)(A1)\n′ ′ ′ h (2) = g (1) f (2) A1\n= 44 ×\n= 16 A1\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nConsider two functions $f$ and $g$ and their derivatives $f'$ and $g'$. The following table shows the values for the two functions and their derivatives at $x=1$, 2 and 3.\n$x$ | 1 | 2 | 3\n$f(x)$ | 3 | 1 | 1\n$f'(x)$ | 1 | 4 | 2\n$g(x)$ | 2 | 1 | 4\n$g'(x)$ | 4 | 2 | 3\nGiven that $p(x)=f(x)g(x)$ and $h(x)=g \\circ f(x)$, find\n(a) $p'(3)$; [2]\n(b) $h'(2)$. [4]"
+  },
+  {
+   "id": "math-2014-N-P1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\n+ Use mathematical induction to prove that ( 2 n )! ≥ 2 n (!) n 2 , n∈\n′.",
+   "ms_text": "+ ≥ n 2 ∈′\n8. let P() n be the proposition that (2)! n 2(!) n , n\nconsider P(1) :\n2\n= 121! () = 2! 2 and 2 so P(1) is true R1\n≥ k 2 ∈′ + assume P() k is true ie (2)! k 2(!) k , k M1\n= Note: Do not award M1 for statements such as “let n k ”.\nconsider P( k + 1) :\n( 2( k + 1)! ) = (2 k + 2)(2 k + 1)(2)! k M1\n2 ( 2( k + 1)! ) ≥ (2 k + 2)(2 k + 1)(!)2k k A1\n2 = 2( k + 1)(2 k + 1)(!)2k k\n+ >\n2 k 1 ( k + 1)( k + 1)(!) k 2 since 2 k +> 1 k + 1 R1\n+ 2 =\n2 k 1 ( ( k + 1)! ) A1\n+\nP( k + 1) is true whenever P() k is true and P(1) is true, so P() n is true for n ∈′R1\nNote: To obtain the final R1, four of the previous marks must have been awarded.\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nUse mathematical induction to prove that $(2n)! \\geq 2^n (n!)^2$, $n \\in \\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2014-N-P1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 6]\nA continuous random variable T has probability density function fdefined by\n2 − t , 1 ≤≤ t 3\nft () =\n0 , otherwise .\n(a) Sketch the graph of y = ft (). [2]\n(b) Find the interquartile range of T . [4]",
+   "ms_text": "9. (a)\n2 − t correct for [1,2] A1\n2 − t correct for [2, 3] A1\n[2 marks]\n(b) EITHER\nlet 1q be the lower quartile and let 3q be the upper quartile\nlet d = 2 − q ( = q − 2 ) and so IQR = 2d by symmetry\n1 3\n1 1 2\nuse of area formulae to obtain d=\n2 4\n(or equivalent) M1A1\n1\nd= or the value of at least one q. A1\n2\nOR\nlet 1q be the lower quartile\nq 1\n1\n− = consider ∫ (2 tdt ) M1A1\n4\n1\n1\nobtain q= 2 − A1\n1\n2\nTHEN\nIQR = 2 A1\nNote: Only accept this final answer for the A1.\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "2"
+   ],
+   "subtopics": [
+    "4.14",
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 6]\nA continuous random variable $T$ has probability density function $f$ defined by\n$f(t)=\\begin{cases}|2-t|, & 1 \\leq t \\leq 3\\\\ 0, & \\text{otherwise}\\end{cases}$\n(a) Sketch the graph of $y=f(t)$. [2]\n(b) Find the interquartile range of $T$. [4]"
+  },
+  {
+   "id": "math-2014-N-P1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 7]\nA set of positive integers {1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9} is used to form a pack of nine cards.\nEach card displays one positive integer without repetition from this set. Grace wishes to select\nfour cards at random from this pack of nine cards.\n(a) Find the number of selections Grace could make if the largest integer drawn among the\nfour cards is either a 5, a 6 or a 7. [3]\n(b) Find the number of selections Grace could make if at least two of the four integers drawn\nare even. [4]",
+   "ms_text": "10. (a) use of the addition principle with 3 terms (M1)\n5 6 to obtain 4 C + C + C ( = 4 + 10 + 20) A1\n3 3 3\nnumber of possible selections is 34 A1\n[3 marks]\n(b) EITHER\nrecognition of three cases: (2 odd and 2 even or 1 odd and 3 even or 0\nodd and 4 even) (M1)\n5 4 5 4 5 4 ( C × C ) + ( C × C ) + ( C × C ) ( = 60 + 20 + 1) (M1)A1\n2 2 1 3 0 4\nOR\nrecognition to subtract the sum of 4 odd and 3 odd and 1 even from\nthe total (M1)\n9 5 ( 5 4 ) C − C − C × C (126 = −− 5 40) (M1)A1\n4 4 3 1\nTHEN\nnumber of possible selections is 81 A1\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 7]\nA set of positive integers $\\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$ is used to form a pack of nine cards. Each card displays one positive integer without repetition from this set. Grace wishes to select four cards at random from this pack of nine cards.\n(a) Find the number of selections Grace could make if the largest integer drawn among the four cards is either a 5, a 6 or a 7. [3]\n(b) Find the number of selections Grace could make if at least two of the four integers drawn are even. [4]"
+  },
+  {
+   "id": "math-2014-N-P1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 23,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 23]\nx + The function f is defined as fx () = e3 1, x∈ϒ.\n(a) (i) Find f −1() . x\n(ii) State the domain of f−1. [4]\n+ The function g is defined as gx\n() = ln x , x∈ ϒ.\nThe graph of y = gx () and the graph of y = f −1() intersect at the point P. x\n(b) Find the coordinates of P. [5]\nThe graph of y = gx () intersects the x-axis at the point Q.\n(c) Show that the equation of the tangent T to the graph of y = gx () at the point Q\nis y = x −1. [3]\nA region R is bounded by the graphs of y = gx () , the tangent T and the line x = e .\n(d) Find the area of the region R . [5]\n+ (e) (i) Show that gx () ≤ x −1, x∈\nϒ.\nin part (e)(i), show that x −≤ 1 + (ii) By replacing x with 1 gx () , x∈ [6]\nϒ.\nx x",
+   "ms_text": "3 + 1 11. (a) (i) x = ey M1\nNote: The M1 is for switching variables and can be awarded at any stage.\nFurther marks do not rely on this mark being awarded.\ntaking the natural logarithm of both sides and attempting to transpose M1\n1 − 1\n( f () x ) = (ln x − 1) A1\n3\n+\n(ii) x ∈ϒor equivalent, for example x> 0 . A1\n[4 marks]\n1 1 1\n(b) ln x = (ln x − 1) ⇒ ln x − ln x =− (or equivalent) M1A1\n3 3 3\n1\nln x =− (or equivalent) A1\n2\n1 −\n2 x = e A1\n1 −\n1\n2 coordinates of P are e , − A1\n2\n[5 marks]\n(c) coordinates of Q are (1, 0) seen anywhere A1\nd y 1\n= M1\nd x x\ny at Q, d\n1 A1 x=\nd\nAG\ny = x – 1\n[3 marks]\n(d) let the required area be A\ne e\nA = ∫ x − 1d x − ∫ lnd xx M1\n1 1\nNote: The M1 is for a difference of integrals. Condone absence of limits here.\nattempting to use integration by parts to find lnd ∫ xx (M1)\ne 2\nx e\n= − x − [ln x x − x ] A1A1\n1\n2\n1\n2 x\nNote: Award A1 for − x and A1 for ln x x − x .\n2\nNote: The second M1 and second A1 are independent of the first M1 and the first A1.\n2e 1 2e − 2e1 −\n= −− e = A1\n2 2 2\n[5 marks]\n(e) (i) METHOD 1\nconsider for example () hx = x −− 1ln x\n1\nh (1) = 0 and hx ′ () = 1 − (A1)\nx\nas hx ′ () ≥ 0 for x ≥, then () 1 hx≥ 0 for x ≥ 1 R1\nas hx ′ () ≤ 0 for 0 < x ≤, then () 1 hx≥ 0 for 0 < x ≤ 1 R1\n+\nso gx () ≤ x −, x 1 ∈ϒ AG\nMETHOD 2\n1\ng ′′ () x =− A1\nx 2\n+\ng ′′ () x < 0 (concave down) for x ∈ϒ R1\nthe graph of y = gx () is below its tangent ( y = x − at 1 x =) 1 R1\n+\nso gx () ≤ x −, x 1 ∈ϒ AG\nNote: The reasoning may be supported by drawn graphical arguments.\nMETHOD 3\nclear correct graphs of y = x − and ln x for 1 x> 0 A1A1\nstatement to the effect that the graph of ln x is below the graph of\nits tangent at x= 1 R1AG\n− 1 1 1 x\nreplacing x by 1 ≤ − = (ii) ln 1 M1\nxto obtain\nx x x\n1 1 − x\n− ln x ≤ − 1 = (A1)\nx x\n− 1 x 1\n≥− = ln x 1 A1\nx x\nx 1 −≤ +\nso gx () , x ∈ϒ AG\nx\n[6 marks]\nTotal [23 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.2",
+    "5.11",
+    "5.16",
+    "5.4",
+    "2.5",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 23]\nThe function $f$ is defined as $f(x)=e^{3x+1}$, $x \\in \\mathbb{R}$.\n(a) (i) Find $f^{-1}(x)$.\n(ii) State the domain of $f^{-1}$. [4]\nThe function $g$ is defined as $g(x)=\\ln x$, $x \\in \\mathbb{R}^+$.\nThe graph of $y=g(x)$ and the graph of $y=f^{-1}(x)$ intersect at the point P.\n(b) Find the coordinates of P. [5]\nThe graph of $y=g(x)$ intersects the $x$-axis at the point Q.\n(c) Show that the equation of the tangent $T$ to the graph of $y=g(x)$ at the point Q is $y=x-1$. [3]\nA region $R$ is bounded by the graphs of $y=g(x)$, the tangent $T$ and the line $x=e$.\n(d) Find the area of the region $R$. [5]\n(e) (i) Show that $g(x) \\leq x-1$, $x \\in \\mathbb{R}^+$.\n(ii) By replacing $x$ with $\\frac{1}{x}$ in part (e)(i), show that $\\frac{x-1}{x} \\leq g(x)$, $x \\in \\mathbb{R}^+$. [6]"
+  },
+  {
+   "id": "math-2014-N-P1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 14]\nThe position vectors of the points A, B and C are a , b and c respectively, relative to an\norigin O. The following diagram shows the triangle ABC and points M, R, S and T.\ndiagram not to scale A\nR\nM\nT\nS\nC B\nM is the midpoint of [AC].\n→ →\n=1\nR is a point on [AB] such that AR AB .\n3\n→ →\n=2\nS is a point on [AC] such that AS AC .\n3\n→ →\n=2\nT is a point on [RS] such that RT RS .\n3\n→\n(a) (i) Express AM in terms of a and c .\n→ 1 1\n(ii) Hence show that BM = a − b + c . [4]\n2 2\n→\n(b) (i) Express RA in terms of a and b .\n→ 2 2 4\n(ii) Show that RT = − a − b + c . [5]\n9 9 9\n(c) Prove that T lies on [BM]. [5]",
+   "ms_text": "→ 1 →\n12. (a) (i) AM = AC (M1)\n2\n1 ( = c − a ) A1\n2\n→ → →\n(ii) BM = BAAM + M1\n1 ( = a − b + c − a ) A1\n2\n→ 1 1\nBM = a − b + c AG\n2 2\n[4 marks]\n→ 1 →\n(b) (i) RA = BA\n3\n1 ( = a − b ) A1\n3\n→ 2 →\n(ii) RT = RS\n3\n→ →\n2RA = + AS (M1)\n3\n21 2\n= ( a − b ) + ( c − a ) or equivalent. A1A1\n33 3\n2 4\n= − + − ( a b ) ( c a ) A1\n9 9\n→ 2 2 4\nRT =− a − b + c AG\n9 9 9\n[5 marks]\n→ → →\n(c) BT = BR + RT\n→ →\n2 BART = + (M1)\n3\n2 2 2 2 4\n= a − b − a − b + c A1\n3 3 9 9 9\n→ 81 1\nBT = a − b + c A1\n92 2\n→ → → 8 →\npoint B is common to BT and BM and BT = BM R1R1\n9\nso T lies on [BM] AG\n[5 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 14]\nThe position vectors of the points A, B and C are $\\boldsymbol{a}$, $\\boldsymbol{b}$ and $\\boldsymbol{c}$ respectively, relative to an origin O. The following diagram shows the triangle ABC and points M, R, S and T.\n[Diagram (not to scale): triangle ABC with A at top, C bottom left, B bottom right; M and S on [AC] with M nearer A; R on [AB]; segment [RS] with point T on it]\nM is the midpoint of [AC].\nR is a point on [AB] such that $\\vec{AR}=\\frac{1}{3}\\vec{AB}$.\nS is a point on [AC] such that $\\vec{AS}=\\frac{2}{3}\\vec{AC}$.\nT is a point on [RS] such that $\\vec{RT}=\\frac{2}{3}\\vec{RS}$.\n(a) (i) Express $\\vec{AM}$ in terms of $\\boldsymbol{a}$ and $\\boldsymbol{c}$.\n(ii) Hence show that $\\vec{BM}=\\frac{1}{2}\\boldsymbol{a}-\\boldsymbol{b}+\\frac{1}{2}\\boldsymbol{c}$. [4]\n(b) (i) Express $\\vec{RA}$ in terms of $\\boldsymbol{a}$ and $\\boldsymbol{b}$.\n(ii) Show that $\\vec{RT}=-\\frac{2}{9}\\boldsymbol{a}-\\frac{2}{9}\\boldsymbol{b}+\\frac{4}{9}\\boldsymbol{c}$. [5]\n(c) Prove that T lies on [BM]. [5]"
+  },
+  {
+   "id": "math-2014-N-P1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 23,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 23]\n2 cos n θ n n\n(a) (i) Show that ( 1 + i tan) θ + ( 1 − i tan) θ = , cosθ≠0 .\nn cos θ\n3 π is a root of the equation ( 4 4\n(ii) Hence verify that 1 + z ) + ( 1 − z ) = 0 , z ∈≤.\ni tan8\n(iii) State another root of the equation ( 1 + z ) 4 + ( 1 − z ) 4 = 0 [10] , z ∈≤.\nθ 2 tan\nto show that tanπ (b) (i) Use the double angle identity tan 2 θ = 2 −. 1\n=− 2\n1 tan θ 8\n4 2 (ii) Show that cos 4 x = 8 cos x − 8 cos x +. 1\nπ\n2 cos 4 x\n8 (iii) Hence find the value of ∫ d. x [13]\n2 0 cos x",
+   "ms_text": "13. (a) (i) METHOD 1\nsin θ sin θ n n n n\n(1 + i tan) θ + (1 − i tan) θ = (1 + i ) + (1 − i ) M1\nθ θ cos cos\nn n\ncos θ + i sin θ cos θ − i sin θ\n= + A1\ncos θ cos θ\nby de Moivre’s theorem (M1)\nn\ncos θ + i sin θ n θ + i sin n θ = cos\nA1\ncos θ cosn θ\nrecognition that cos θ − i sin θ is the complex conjugate\nof cos θ + i sin θ (R1)\nuse of the fact that the operation of complex conjugation commutes\nwith the operation of raising to an integer power:\nn\ncos θ − i sin θ n θ − i sin n θ = cos\nA1\ncos θ cosn θ\nnθ\nn n =2cos (1 + i tan) θ + (1 − i tan) θ AG\ncosn θ\nMETHOD 2\nn n n n (1 + i tan) θ + (1 − i tan) θ =(1 + i tan) θ + (1 + i tan ( − θ )) (M1)\nn n (cos θ + i sin) θ ( cos( − θ ) + i sin ( − θ ) )\n= + M1A1\nn θ n θ cos cos\nNote: Award M1 for converting to cosine and sine terms.\nuse of de Moivre’s theorem (M1)\n1\n= ( θ + θ + − θ + − θ ) A1 cos n isin n cos( n ) isin ( n )\ncosn θ\n2cos nθ\n= as cos( − n θ ) = cos n θ and sin ( − n θ ) =− sin n θ R1AG\ncosn θ\n3π\n2cos4 × 4 4\n3π 3π 8\n(ii) 1 + i tan + 1 − i tan = (A1)\n8 8 3π 4\ncos\n8\n3π\n2cos2\n= A1\n3π 4\ncos\n8\n3π\n= 0 as cos 0 R1\n2=\nNote: The above working could involve theta and the solution of cos(4) θ= 0 .\n3π\nso AG\ni tan8 is a root of the equation\n3π π π\n(iii) either − or − or A1\ni tan8 i tan 8 i tan 8\n5π 7π\nNote: Accept\ni tan8 or i tan8.\nAccept ( ) or ( ) or( ) − 1 + 2i 1 − 2i −+ 1 2i .\n[10 marks]\nπ\n2tan\nπ 8\n(b) (i) tan = (M1)\n4 π\n1 − 2\ntan8\n2π π\ntan + 2tan −= 1 0 A1\n8 8\nπ\nlet t =\ntan 8\n2 attempting to solve t + 2 t −= 1 0 for t M1\nt =−± 1 2 A1\nπ\n8 is a first quadrant angle and tan is positive in this quadrant, so\nπ\ntan 0 R1 8>\nπ\ntan 2 − 1 AG 8=\n2 (ii) cos4 x = 2cos2 x − 1 A1\n2\n= ( 2 − ) − 22cos x 1 1 M1\n4 2 = 24cos ( x − 4cos x + 1 ) − 1 A1\n4 2 = 8cos x − 8cos x + 1 AG\nNote: Accept equivalent complex number derivation.\nπ π 4 − 2 +\n2cos4 x 8cos x 8cos x 1\n8 = 8 (iii) ∫ d x 2 ∫ d x\n2 2 0 cos x 0 cos x\nπ\n8 2 2 = 2 ∫ 8cos x −+ 8 sec xx d M1\n0\nNote: The M1 is for an integrand involving no fractions.\n1 2\nuse of cos x = (cos2 x + 1) M1\n2\nπ\n2 = 2 8 4cos2 x − 4 + sec xx d A1\n∫\n0\nπ\n= [ 4sin 2 x − 8 x + 2tan x ] 8 A1\n0\n= 42 − π − 2 (or equivalent) A1\n[13 marks]\nTotal [23 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3",
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13",
+    "3.10",
+    "3.6",
+    "5.11",
+    "5.15",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 23]\n(a) (i) Show that $(1+i\\tan\\theta)^n+(1-i\\tan\\theta)^n=\\frac{2\\cos n\\theta}{\\cos^n\\theta}$, $\\cos\\theta \\neq 0$.\n(ii) Hence verify that $i\\tan\\frac{3\\pi}{8}$ is a root of the equation $(1+z)^4+(1-z)^4=0$, $z \\in \\mathbb{C}$.\n(iii) State another root of the equation $(1+z)^4+(1-z)^4=0$, $z \\in \\mathbb{C}$. [10]\n(b) (i) Use the double angle identity $\\tan 2\\theta=\\frac{2\\tan\\theta}{1-\\tan^2\\theta}$ to show that $\\tan\\frac{\\pi}{8}=\\sqrt{2}-1$.\n(ii) Show that $\\cos 4x=8\\cos^4 x-8\\cos^2 x+1$.\n(iii) Hence find the value of $\\int_0^{\\frac{\\pi}{8}} \\frac{2\\cos 4x}{\\cos^2 x}\\,dx$. [13]"
+  }
+ ],
+ "status": "done"
+}

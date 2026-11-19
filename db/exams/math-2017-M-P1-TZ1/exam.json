@@ -1,0 +1,295 @@
+{
+ "exam_id": "math-2017-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2017,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2017 May Examination Session/Mathematics_paper_1__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2017 May Examination Session/Mathematics_paper_1__TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2217-7203; code M17/5/MATHL/HP1/ENG/TZ1/XX; marks sum matches paper total 100",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2017-M-P1-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nFind the solution of log2x - log2 5 = 2 + log2 3 .",
+   "ms_text": "1. log x− log5 = 2 + log3\n2 2 2\ncollecting at least two log terms (M1)\nx= + x= eg log 2 log3 or log 2\n2 2 2\n5 15\nobtaining a correct equation without logs (M1)\n2 x=\n12 x= 2 eg OR (A1)\n5 15\nx = 60 A1\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nFind the solution of $\\log_2 x - \\log_2 5 = 2 + \\log_2 3$."
+  },
+  {
+   "id": "math-2017-M-P1-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nz\n1 Consider the complex numbers z1 = 1 + 3 i , z2= 1 + i and w = .\nz\n2\n(a) By expressing z1 and z2 in modulus-argument form write down\n(i) the modulus of w ;\nthe argument of w . (ii) [4]\n(b) Find the smallest positive integer value of n , such that wn is a real number. [2]",
+   "ms_text": "π π\n2. (a) z = 2cis and z = 2cis A1A1\n1 2\n3 4\nNote: Award A1A0 for correct moduli and arguments found, but not written in mod-arg form.\nw= (i) 2 A1\nπ\n(ii) arg w= A1\n12\nNotes: Allow FT from incorrect answers for 1z and 2z in modulus-argument form.\n[4 marks]\n(b) EITHER\nπ n =\nsin 0 (M1)\n12\nOR\n( n ) arg w = π (M1)\nn π\n= π\n12\nTHEN\n∴ n = 12 A1\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nConsider the complex numbers $z_1 = 1 + \\sqrt{3}\\,\\mathrm{i}$, $z_2 = 1 + \\mathrm{i}$ and $w = \\frac{z_1}{z_2}$.\n(a) By expressing $z_1$ and $z_2$ in modulus-argument form write down\n(i) the modulus of $w$;\n(ii) the argument of $w$. [4]\n(b) Find the smallest positive integer value of $n$, such that $w^n$ is a real number. [2]"
+  },
+  {
+   "id": "math-2017-M-P1-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nSolve the equation sec2x+ 2 tan x= 0 , 0 ≤ x ≤ 2π .",
+   "ms_text": "3. METHOD 1\n2 2 sec x = tan x + 1\nuse of M1\n2 tan x + 2tan x + 1 = 0\n2 (tan x + 1) = 0\n(M1)\ntan x=− 1 A1\n3π 7π\nx= , A1A1\n4 4\nMETHOD 2\n1 2sin x\n+ = 0 M1\ncos 2 x cos x\n+ = 1 2sincos x x 0\nx=− sin 2 1 M1A1\n3 π 7 π\n2 x = ,\n2 2\n3π 7π\nx= , A1A1\n4 4\nNote: Award A1A0 if extra solutions given or if solutions given in degrees (or both).\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nSolve the equation $\\sec^2 x + 2\\tan x = 0$, $0 \\le x \\le 2\\pi$."
+  },
+  {
+   "id": "math-2017-M-P1-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nThree girls and four boys are seated randomly on a straight bench. Find the probability that\nthe girls sit together and the boys sit together.",
+   "ms_text": "4. METHOD 1\ntotal number of arrangements 7! (A1)\nnumber of ways for girls and boys to sit together =3! × × 4! 2 (M1)(A1)\nNote: Award M1A0 if the 2 is missing.\n3! × 4! × 2\nprobability = M1\n7!\nNote: Award M1 for attempting to write as a probability.\n2 × 3 × 4! × 2\n7 × 6 × 5 × 4!\n2\n= A1\n35\nNote: Award A0 if not fully simplified.\nMETHOD 2\n3 2 1 4 3 2 1\n× × + × × × (M1)A1A1\n7 6 5 7 6 5 4\n2 1 3 2 1 Note: Accept 3 or 4\n× × × 2 × × × × 2 .\n7 6 5 7 6 5 4\n2\n= (M1)A1\n35\nNote: Award A0 if not fully simplified.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "4"
+   ],
+   "subtopics": [
+    "1.10",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nThree girls and four boys are seated randomly on a straight bench. Find the probability that the girls sit together and the boys sit together."
+  },
+  {
+   "id": "math-2017-M-P1-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\n→ →\nABCD is a parallelogram, where AB =− i + 2 j + 3 and AD k = 4 i − j − 2 k .\n(a) Find the area of the parallelogram ABCD. [3]\n(b) By using a suitable scalar product of two vectors, determine whether AB∃ C is acute or\nobtuse. [4]",
+   "ms_text": "→ →\n5. (a) AB × AD =− i + 10 j − 7 k M1A1\n→ →\n2 2 2 = AB × AD = 1 + 10 + 7\narea\n( ) = 56 150 A1\n[3 marks]\n(b) METHOD 1\n→ →\nABAD ⋅ =− 4 − 2 − 6 M1A1\n=− 12\nconsidering the sign of the answer\n→ →\nˆ ABAD ⋅ < 0 , therefore angle DAB is obtuse M1\nˆ (as it is a parallelogram), ABC is acute A1\n[4 marks]\nMETHOD 2\n→ →\nBABC ⋅ =+ 4 + 2 + 6 M1A1\n= 12\nconsidering the sign of the answer M1\n→ →\nˆ BABC ⋅ > 0 ⇒ ABC is acute A1\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nABCD is a parallelogram, where $\\vec{AB} = -\\boldsymbol{i} + 2\\boldsymbol{j} + 3\\boldsymbol{k}$ and $\\vec{AD} = 4\\boldsymbol{i} - \\boldsymbol{j} - 2\\boldsymbol{k}$.\n(a) Find the area of the parallelogram ABCD. [3]\n(b) By using a suitable scalar product of two vectors, determine whether $\\hat{ABC}$ is acute or obtuse. [4]"
+  },
+  {
+   "id": "math-2017-M-P1-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 5]\nConsider the graphs of y =| x | and y =- | x | +b , where b ∈′+ .\n(a) Sketch the graphs on the same set of axes. [2]\n(b) Given that the graphs enclose a region of area 18 square units, find the value of b . [3]",
+   "ms_text": "6. (a)\ngraphs sketched correctly (condone missing b) A1A1\n[2 marks]\n2\nb=\n(b) 18 (M1)A1\n2\nb= 6 A1\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 5]\nConsider the graphs of $y = |x|$ and $y = -|x| + b$, where $b \\in \\mathbb{Z}^+$.\n(a) Sketch the graphs on the same set of axes. [2]\n(b) Given that the graphs enclose a region of area 18 square units, find the value of $b$. [3]"
+  },
+  {
+   "id": "math-2017-M-P1-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\nAn arithmetic sequence u1 , u2 , u3… has u1= 1 and common difference d ≠0 . Given that\nu2 , u3and u6 are the first three terms of a geometric sequence\n(a) find the value of d . [4]\nGiven that uN=-15\nN\n(b) determine the value of u . [3] =∑\nr\nr 1",
+   "ms_text": "= + − 7. (a) use of nu u ( n 1) d M1\n1\n+ 2 = + + (1 2) d (1 d )(1 5) d (or equivalent) M1A1\nd=− 2 A1\n[4 marks]\n(b) 1 + (N − 1) ×− 2 =− 15\nN= 9 (A1)\n9\n9(2 ∑ u = + 8 ×− 2)\n(M1)\nr\nr = 1 2\n=− 63 A1\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2",
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nAn arithmetic sequence $u_1, u_2, u_3, \\ldots$ has $u_1 = 1$ and common difference $d \\ne 0$. Given that $u_2$, $u_3$ and $u_6$ are the first three terms of a geometric sequence\n(a) find the value of $d$. [4]\nGiven that $u_N = -15$\n(b) determine the value of $\\sum_{r=1}^{N} u_r$. [3]"
+  },
+  {
+   "id": "math-2017-M-P1-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nUse the method of mathematical induction to prove that 4n+ 15n - 1 is divisible by\n9 for n ∈′+ .",
+   "ms_text": "n + −\n8. let Pn be the proposition that 4 () 15 n 1 is divisible by 9\nshowing true for n= 1 A1\nn= 14 + 15 × 1 − 1 = 18 ie for 1 ,\nwhich is divisible by 9, therefore P (1) is true\nk + − = ( ∈′ + )\nassume Pk is true so () 4 15 k 1 9, A A M1\nNote: Only award M1 if “truth assumed” or equivalent.\nk 1 4 ++ 15( k + 1) − 1\nconsider\nk = 4 × 4 + 15 k + 14\n= 4(9 A − 15 k + 1) + 15 k + 14 M1\n= 4 × 9 A − 45 k + 18 A1\n= 9(4 A − 5 k + 2) which is divisible by 9 R1\nNote: Award R1 for either the expression or the statement above.\nsince P (1) is true and Pk true implies ( () Pk+ 1) is true, therefore (by the principle\n+\nPn is true for n ∈′ of mathematical induction) () R1\nNote: Only award the final R1 if the 2 M1s have been awarded.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nUse the method of mathematical induction to prove that $4^n + 15n - 1$ is divisible by 9 for $n \\in \\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2017-M-P1-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 5]\nFind arcsind ∫ xx .",
+   "ms_text": "9. attempt at integration by parts with u = arcsin x and v′= 1 M1\nx\narcsin x d x = x arcsin x − d x A1A1 ∫ ∫\n2 1 − x\nx\nNote: Award A1 for x arcsin x and A1 for − x . ∫ 2d\n1 − x\nx 2\nu = 1 − x solving ∫ 2d x by substitution with or inspection (M1)\n− 1 x\nA1 2\n∫arcsinxdx = x arcsin x + 1 – x+ c\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 5]\nFind $\\int \\arcsin x \\, \\mathrm{d}x$."
+  },
+  {
+   "id": "math-2017-M-P1-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 15]\nThe continuous random variable X has a probability density function given by\nπ x\nk sin , ≤ x ≤\nfx () = 6\notherwise\n0 , otherwise.\n(a) Find the value of k . [4]\n(b) By considering the graph of f write down\n(i) the mean of X ;\n(ii) the median of X ;\n(iii) the mode of X . [3]\n1\n(c) (i) Show that P ( 0 ≤ X ≤ 2 ) = .\n4\n(ii) Hence state the interquartile range of X . [6]\nCalculate P(X ≤4 | X ≥ 3) . (d) [2]",
+   "ms_text": "10. (a) attempt to equate integral to 1 (may appear later) M1\n6\nπ x\nk ∫ sin d x = 1\n6\n0\ncorrect integral A1\n6\n6 π x k\n− cos = 1\nπ 6\n0\nsubstituting limits M1\n6 1\n− − − = (1 1)\nπ k\nπ\nk= A1\n12\n[4 marks]\n(b) (i) mean =3 A1\n(ii) median =3 A1\n(iii) mode =3 A1\nNote: Award A1A0A0 for three equal answers in (0, 6).\n[3 marks]\n2\nπ π x\n(c) (i) ∫ sin d x M1\n12 6\n0\n2\n= π 6 π x\n− cos A1\n12 π 6\n0\nNote: Accept without theπ at this stage if it is added later.\n12\nπ 6 π\n− cos − 1 M1\n12 π 3\n1\n= AG\n4\n(ii) from (c)(i) Q= 2 (A1)\n1\nas the graph is symmetrical about the middle value x = 3 ⇒ Q = 4 (A1)\n3\nso interquartile range is\n4 − 2 A1\n= 2\n[6 marks]\nP (3 ≤ X ≤ 4)\n(d) PX ( ≤ 4 X ≥ 3) =\nPX ( ≥ 3)\n1\n4\n= (M1)\n1\n2\n1\n= A1\n2\n[2 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 15]\nThe continuous random variable $X$ has a probability density function given by\n$f(x) = \\begin{cases} k\\sin\\left(\\frac{\\pi x}{6}\\right), & 0 \\le x \\le 6 \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Find the value of $k$. [4]\n(b) By considering the graph of $f$ write down\n(i) the mean of $X$;\n(ii) the median of $X$;\n(iii) the mode of $X$. [3]\n(c) (i) Show that $P(0 \\le X \\le 2) = \\frac{1}{4}$.\n(ii) Hence state the interquartile range of $X$. [6]\n(d) Calculate $P(X \\le 4 \\mid X \\ge 3)$. [2]"
+  },
+  {
+   "id": "math-2017-M-P1-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 17]\n(a) (i) Express x2+ 3x+ 2 in the form (x + h)2+ k.\n(ii) Factorize x2+ 3x+ 2 . [2]\n1\nConsider the function fx () = , x ∈ ϒ , x ≠− 2, x ≠− 1 .\nx 2 + 3 x + 2\n(b) Sketch the graph of f (x) , indicating on it the equations of the asymptotes,\nthe coordinates of the y-intercept and the local maximum. [5]\n1 1 1\n− = (c) Show that . [1]\nx + 1 x + 2 x 2 + 3 x + 2\n1\nHence find the value of p if fx ()d x = ln() p (d) ∫ . [4]\n0\n(e) Sketch the graph of y = f(| x |) . [2]\n(f) Determine the area of the region enclosed between the graph of y = f(| x |) , the x-axis\nand the lines with equations x = -1 and x = 1 . [3]",
+   "ms_text": "2\n3 1 2\n11. (a) (i) x + 3 x + 2 = x + − A1\n2 4\n2\n(ii) x + 3 x + 2 = ( x + 2)( x + 1) A1\n[2 marks]\n(b)\nA1 for the shape\nA1 for the equationy=0\nA1 for asymptotes x=–2 and x= –1\n3\nA1 for coordinates 4\n− , −\n2\n1\nA1y-intercept 0 ,\n2\n[5 marks]\n1 1 ( x + 2) − ( x + 1)\n(c) − = M1\nx + 1 x + 2 ( x + 1)( x + 2)\n1\n= AG\n2 x + 3 x + 2\n[1 mark]\n1\n1 1\n(d) ∫ − d\n2x\nx + 1 x +\n0\n1\n= [ + − + ] ln( x 1) ln( x 2) A1\n0\n= ln 2 − ln3 − ln1 + ln 2 M1\n4\n= M1A1\nln3\n4\n∴ p =\n3\n[4 marks]\n(e)\nsymmetry about the y-axis M1\ncorrect shape A1\nNote: Allow FT from part (b).\n[2 marks]\n1\n(f) 2 fx ()d x (M1)(A1) ∫\n0\n4\n= A1\n2ln3\nNote: Do not award FT from part (e).\n[3 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.16",
+    "2.6",
+    "5.11",
+    "5.15",
+    "1.11",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 17]\n(a) (i) Express $x^2 + 3x + 2$ in the form $(x + h)^2 + k$.\n(ii) Factorize $x^2 + 3x + 2$. [2]\nConsider the function $f(x) = \\frac{1}{x^2 + 3x + 2}$, $x \\in \\mathbb{R}$, $x \\ne -2$, $x \\ne -1$.\n(b) Sketch the graph of $f(x)$, indicating on it the equations of the asymptotes, the coordinates of the $y$-intercept and the local maximum. [5]\n(c) Show that $\\frac{1}{x+1} - \\frac{1}{x+2} = \\frac{1}{x^2 + 3x + 2}$. [1]\n(d) Hence find the value of $p$ if $\\int_0^1 f(x)\\,\\mathrm{d}x = \\ln(p)$. [4]\n(e) Sketch the graph of $y = f(|x|)$. [2]\n(f) Determine the area of the region enclosed between the graph of $y = f(|x|)$, the $x$-axis and the lines with equations $x = -1$ and $x = 1$. [3]"
+  },
+  {
+   "id": "math-2017-M-P1-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 18]\nConsider the polynomial P(z) =z5- 10z2+ 15z - 6 , z ∈≤ .\n(a) Write down the sum and the product of the roots of P(z) = 0 . [2]\n(b) Show that (z - 1) is a factor of P(z) . [2]\nThe polynomial can be written in the form P(z) = (z - 1)3(z2+ bz + c) .\n(c) Find the value of b and the value of c . [5]\n(d) Hence find the complex roots of P(z) = 0 . [3]\nConsider the function q(x) =x5- 10x2+ 15x- 6 , x ∈ϒ .\n(e) (i) Show that the graph of y =q(x) is concave up for x > 1 .\n(ii) Sketch the graph of y =q(x) showing clearly any intercepts with the axes. [6]",
+   "ms_text": "12. (a) sum =0 A1\nproduct =6 A1\n[2 marks]\n(b) P (1) = 1 − 10 + 15 − 6 = 0 M1A1\n⇒ ( z − 1) is a factor of Pz () AG\nNote: Accept use of division to show remainder is zero.\n[2 marks]\n(c) METHOD 1\n3 ( 2 ) 5 2 ( z − 1) z + bz + c = z − 10 z + 15 z − 6 (M1)\nc= by inspection 6 A1\n3 2 2 5 2 ( z − 3 z + 3 z − 1 )( z + bz + 6 ) = z − 10 z + 15 z − 6 (M1)(A1)\nb = 3 A1\nMETHOD 2\nαβ are two roots of the quadratic ,\nb =−α+β ( ), c =αβ (A1)\nfrom part (a) 1 + 1 + 1 +α+β= 0 (M1)\n⇒ b = 3 A1\n1 × 1 × 1 ×αβ= 6 (M1)\n⇒ = c 6 A1\nNote: Award FT if b= –7 following through from their sum =10.\nMETHOD 3\n5 2 4 3 2 ( z − 10 z + 15 z − 6 )( ÷ z − 1 ) = z + z + z − 9 z + 6 (M1)A1\nNote: This may have been seen in part (b).\n4 3 2 3 2 z + z + z − 9 z + 6 ÷ ( z − 1 ) = z + 2 z + 3 z − 6\n(M1)\n3 2 2 z + 2 z + 3 z − 6 ÷ ( z − 1 ) = z + 3 z + 6\nA1A1\n[5 marks]\n2\n(d) z + 3 z + 6 = 0 M1\n− 3 ± 9 − 46 ⋅\nz = M1\n2\n− 3 ± − 15\n=\n2\n3 i15\nz =− ± A1\n2 2\n(or z =) 1\nNotes:Award the second M1 for an attempt to use the quadratic formula\nor to complete the square.\nDo not award FT from (c).\n[3 marks]\n2\nd y 3\n(e) (i) = 20 x − 20 M1A1\n2\nd x\n3\nx> for 1 , 20 x− 20 > 0 ⇒ concave up R1AG\n(ii)\nx-intercept at (1, 0) A1\ny-intercept at (0, −6) A1\nstationary point of inflexion at (1, 0) with correct curvature either side A1\n[6 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "2.3",
+    "5.7",
+    "5.8",
+    "1.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 18]\nConsider the polynomial $P(z) = z^5 - 10z^2 + 15z - 6$, $z \\in \\mathbb{C}$.\n(a) Write down the sum and the product of the roots of $P(z) = 0$. [2]\n(b) Show that $(z - 1)$ is a factor of $P(z)$. [2]\nThe polynomial can be written in the form $P(z) = (z - 1)^3(z^2 + bz + c)$.\n(c) Find the value of $b$ and the value of $c$. [5]\n(d) Hence find the complex roots of $P(z) = 0$. [3]\nConsider the function $q(x) = x^5 - 10x^2 + 15x - 6$, $x \\in \\mathbb{R}$.\n(e) (i) Show that the graph of $y = q(x)$ is concave up for $x > 1$.\n(ii) Sketch the graph of $y = q(x)$ showing clearly any intercepts with the axes. [6]",
+   "review_note": "QP crop trimmed via overrides.json to exclude the blank 'Answers written on this page will not be marked' pages."
+  }
+ ],
+ "status": "done"
+}

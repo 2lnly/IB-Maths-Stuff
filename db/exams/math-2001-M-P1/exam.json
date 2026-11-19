@@ -1,0 +1,523 @@
+{
+ "exam_id": "math-2001-M-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2001,
+ "session": "May",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2001 May Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2001 May Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size, 1 donated/scanned); question paper is a scan (no text layer); question paper OCR'd (scan); marks not printed; assumed 3 per question (modal markscheme value)",
+ "qp_pages": 15,
+ "questions": [
+  {
+   "id": "math-2001-M-P1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. Let f(5)=1 (1 - LS] Find jf(z) dr.\n213",
+   "ms_text": "− 5\n1 1 1 t 3\n1. t 3 1 − d t = t 3 1 − d t ∫\n5 ∫\n3 2 2 t\n− 4 3\n1 t\n= t 3 − d t ∫ (M1)\n2\n3 4 3 − 1\n= t 3 + t 3 + C (M1)(A1) (C3)\n4 2\nDo not penalise for the absence of +C. Note:\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.10",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "1. Let $f(t) = t^{\\frac{1}{3}}\\left(1 - \\dfrac{1}{2t^{\\frac{5}{3}}}\\right)$. Find $\\int f(t)\\,\\mathrm{d}t$."
+  },
+  {
+   "id": "math-2001-M-P1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "T T\n2. Solve 2sin x =tan x , where <x< 5",
+   "ms_text": "2. 2sin x = tan x\n⇒ 2sincos x x − sin x = 0\n⇒ sin(2cos x x − 1) = 0 (M1)\n1\n⇒ sin x = 0,cos x =\n2\nπ\n⇒ x = 0, x = ± or ± 1.05 (3 s. f.) (A1)(A1) (C3)\n3\nOR\nπ\nx = 0, x = ± ( or ± 1.05 (3s.f.) ) (G1)(G1)(G1) (C3)\n3\n! Note: Award (G2) for x = 0, ± 60 .\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "2. Solve $2\\sin x = \\tan x$, where $-\\dfrac{\\pi}{2} < x < \\dfrac{\\pi}{2}$."
+  },
+  {
+   "id": "math-2001-M-P1-q3",
+   "num": "3",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. Give a full geometric description of the transformation represented by the matrix wnlwuw| wnm|hw|w",
+   "ms_text": "3. The matrix is of the form\ncos2 θ sin2 θ\n, which represents reflection in y = x tan θ (M1)\nsin 2 θ − cos2 θ\n4\ntherefore cos2 θ = , 2 θ > 0 (M1)\n5\n! θ= 18.4\nor θ = 0.322 (radians)\nThe matrix represents reflection in the line\n1 !\ny = x (or y = 0.333, or x y = x tan18.4, or y = x tan0.322) (A1) (C3)\n3\nOR\nThe matrix is of the form\ncos2 θ sin2 θ\n, which represents reflection in y = x tan θ (M1)\nsin 2 θ − cos2 θ\nθ 3 2tan 3\ntan2 θ = , 2 θ > 0 ⇒ = therefore , (M1)\n4 1 − tan 2 θ 4\n1\n2 3tan θ + 8tan θ − 3 = 0 , ⇒ tan θ =\n3\nThe matrix represents reflection in the line\n1 !\ny = x (or y = 0.333, or x y = x tan18.4, or y = x tan0.322) (A1) (C3)\n3\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.L1",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "3. Give a full geometric description of the transformation represented by the matrix $\\begin{pmatrix} \\frac{4}{5} & \\frac{3}{5} \\\\ \\frac{3}{5} & -\\frac{4}{5} \\end{pmatrix}$.",
+   "review_note": "qp crop fixed via overrides (top row of matrix was cut off)"
+  },
+  {
+   "id": "math-2001-M-P1-q4",
+   "num": "4",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. Find the gradient of the tangent to the curve 3x? + 4y?> =7 at the point where x=1and y>0.",
+   "ms_text": "2 2 4. 3 x + 4 y = 7\nWhen x = 1, y = 1 (since y > 0 ) (M1)\nd d y d y 3 x 2 2\n(3 x + 4 y = 7) ⇒ 6 x + 8 y = 0 ⇒ = − (A1)\nd x d x d x 4 y\n3\nThe gradient where x = 1 and y = 1is − (A1) (C3)\n4\nOR\n2 2 3 x + 4 y = 7\n2 7 − 3 x\n⇒ y = , since y > 0 (M1)\n4\nd y 3 x\n= −\n1 (A1)\nd x 2 2(7 − 3) x\n3\n= − , when x = 1 (A1) (C3)\n4\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "4. Find the gradient of the tangent to the curve $3x^2 + 4y^2 = 7$ at the point where $x = 1$ and $y > 0$."
+  },
+  {
+   "id": "math-2001-M-P1-q5",
+   "num": "5",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. Let f:x+— —1—2—2. Find\nx\n(a) the set of real values of x for which fis real and finite\n(b) the range of 1.",
+   "ms_text": "fx () 5. (a) For the set of values of x for which is real and finite,\n1\n− 2 ≥ 0, x ≠ 0 (M1)\n2 x\n2 1 , x ≤ x ≠ 0\n2\n1\n− ≤ x ≤ 1, x ≠ 0 (A1) (C2)\n2 2\n(b) y ≥ 0 (A1) (C1)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.2",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "5. Let $f: x \\mapsto \\sqrt{\\dfrac{1}{x^2} - 2}$. Find\n(a) the set of real values of $x$ for which $f$ is real and finite;\n(b) the range of $f$."
+  },
+  {
+   "id": "math-2001-M-P1-q6",
+   "num": "6",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. A machine produces packets of sugar. The weights in grams of thirty packets chosen at\nrandom are shown below.\nWeight (g) 296 | 29.7 | 29.8| 299 30.0 | 30.1 | 30.2 | 30.3\nFrequency 2 3 4 5 7 5 3 1\nFind unbiased estimates of\n(a) the mean of the population from which this sample is taken;\n(b) the variance of the population from which this sample is taken.",
+   "ms_text": "6. (a) The unbiased estimate of the population mean is 29.9. (G1) (C1)\n(b) The unbiased estimate of the population variance is 0.0336. (G2) (C2)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "6. A machine produces packets of sugar. The weights in grams of thirty packets chosen at random are shown below.\nWeight (g) | 29.6 | 29.7 | 29.8 | 29.9 | 30.0 | 30.1 | 30.2 | 30.3\nFrequency | 2 | 3 | 4 | 5 | 7 | 5 | 3 | 1\nFind unbiased estimates of\n(a) the mean of the population from which this sample is taken;\n(b) the variance of the population from which this sample is taken."
+  },
+  {
+   "id": "math-2001-M-P1-q7",
+   "num": "7",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. The nth term, u, , of a geometric sequence is given by u, =3(4)\"\"!, n e Z*.\n(a) Find the common ratio r.\n(b) Hence, or otherwise, find S , the sum of the first » terms of this sequence.",
+   "ms_text": "u 192\n2 7. (a) r = = = 4 (A1) (C1)\nu 48\n1\nOR\nn + 2 u 3(4)\nn + 1 r = = = 4 (A1) (C1)\nn + 1 u 3(4)\nn\nn n ur\n1( − 1) 48(4 − 1)\nS = = (b)\nn (M1)\n( r − 1) 3\nn = 16(4 − 1) (A1) (C2)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "7. The $n$th term, $u_n$, of a geometric sequence is given by $u_n = 3(4)^{n+1}$, $n \\in \\mathbb{Z}^+$.\n(a) Find the common ratio $r$.\n(b) Hence, or otherwise, find $S_n$, the sum of the first $n$ terms of this sequence."
+  },
+  {
+   "id": "math-2001-M-P1-q8",
+   "num": "8",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. Let f:xl—)smx ,T<Xx <3n. Find the area enclosed by the graph of f and the x-axis.",
+   "ms_text": "8. x-intercepts are = π, 2π, 3π . (A1)\n2π sin x 3π sin x\nArea required (M1) = ∫ d x + ∫ d x\nπ x 2π x\n= 0.4338 + 0.2566\n2 = 0.690 units\n(G1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "8. Let $f: x \\mapsto \\dfrac{\\sin x}{x}$, $\\pi \\le x \\le 3\\pi$. Find the area enclosed by the graph of $f$ and the $x$-axis."
+  },
+  {
+   "id": "math-2001-M-P1-q9",
+   "num": "9",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. Find the equation of the line of intersection of the two planes —4x+y+z=-2 and\n3x-y+2z=-1.",
+   "ms_text": "9. For the line of intersection:\n− 4 x + y + z = − 2\n3 x − y + 2 z = − 1\n(M1)\n− x + 3 z = − 3\n− 8 x + 2 y + 2 z = − 4\n3 x − y + 2 z = − 1\n(M1)\n11 x − 3 y = 3\n3 y + 3\nThe equation of the line of intersection is x = = 3 z + 3 (or equivalent) (A1) (C3)\n11\nOR\ny + z = − 2\nLet x = 0 ⇒−+\ny 2 z = − 1\n⇒ 3 z = − 3, z = − 1, y = − 1\n⇒ (0, − 1, − 1) (M1)\n− 4 x + y = − 2\nLet z = 0 ⇒\n− = − 3 x y 1\n⇒−= − x 3, x = 3, y = 10\n⇒ (3,10, 0) (M1)\n0 3\nThe equation of the line of intersection is r =− 1 + λ 11 (or equivalent) (A1) (C3)\n− 1 1\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.18",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "9. Find the equation of the line of intersection of the two planes $-4x + y + z = -2$ and $3x - y + 2z = -1$."
+  },
+  {
+   "id": "math-2001-M-P1-q10",
+   "num": "10",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. (z+2i)is a factor of 223 —3z2+ 8z-12. Find the other two factors.",
+   "ms_text": "10. If ( z + 2i) is a factor then ( z − 2i) is also a factor. (A1)\n+ − = 2 + ( z 2i)( z 2i) ( z 4)\n3 2 2 The other factor is (2 z − 3 z + 8 z − 12) ÷ ( z + 4) = (2 z − 3) (M1)(A1)\nThe other two factors are ( z − 2i)and(2 z − 3) . (C1)(C2)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "10. $(z + 2\\mathrm{i})$ is a factor of $2z^3 - 3z^2 + 8z - 12$. Find the other two factors."
+  },
+  {
+   "id": "math-2001-M-P1-q11",
+   "num": "11",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. Given that P(X) = %, P(Y|X)= —i— and P(Y| X') = %, find\nP(Y');\n(b)) PX'LUY').",
+   "ms_text": "Y 11.\n2\n5\n2 X\nY′\n3 3\n5 1\n1 4\nY\nX ′ 3\n3\n4\nY′\n2 3 1 3\n(a) P( Y′= ) × + × (M1)\n3 5 3 4\n13\n= (A1) (C2)\n20\n4\n′ ∪ ′ =− ∩ =− (b) P( X Y ) 1 P( X Y )\n115\n11\n= (A1) (C1)\n15\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "11. Given that $\\mathrm{P}(X) = \\dfrac{2}{3}$, $\\mathrm{P}(Y\\,|\\,X) = \\dfrac{2}{5}$ and $\\mathrm{P}(Y\\,|\\,X') = \\dfrac{1}{4}$, find\n(a) $\\mathrm{P}(Y')$;\n(b) $\\mathrm{P}(X' \\cup Y')$."
+  },
+  {
+   "id": "math-2001-M-P1-q12",
+   "num": "12",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. Find an equation of the plane containing the two lines\n+1 2-y z+2 x—1=——Z=z—2andx\n2 3 5",
+   "ms_text": "12. Let d and d be the direction vectors of the two lines. Then the normal to the plane is\n1 2\ni j k\nd × d = 1 − 2 1 (M1)\n1 2\n3 − 3 5\n= − 7 i − 2 j + 3 k (or equivalent) (A1)\nThen equation of the plane is for the form 7 − x − 2 y + 3 z = c or r. (7 − i − 2 j + 3) k = c\nUsing the point (1, 1, 2) which is in the plane gives the equation of the plane\n1 1 3\n− 7 x − 2 y + 3 z = − 3or r. (7 − i − 2 j + 3) k = − 3 or r = 1 + λ − 2 + µ − 3 (or equivalent)\n2 1 5\n(A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.17",
+    "3.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "12. Find an equation of the plane containing the two lines\n$x - 1 = \\dfrac{1 - y}{2} = z - 2$ and $\\dfrac{x + 1}{3} = \\dfrac{2 - y}{3} = \\dfrac{z + 2}{5}$."
+  },
+  {
+   "id": "math-2001-M-P1-q13",
+   "num": "13",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. Z is the standardised normal random variable with mean 0 and variance 1. Find the value of\na such that P(| Z|<a)=0.75.",
+   "ms_text": "13.\n0.75\n1−Φ ( )a\n–a a\nFrom the diagram\n1 − 21 ( −Φ () a ) = 0.75 (M1)\n2 Φ () a = 1.75 (A1)\na = 1.15 (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "13. $Z$ is the standardised normal random variable with mean 0 and variance 1. Find the value of $a$ such that $P(|Z| \\le a) = 0.75$."
+  },
+  {
+   "id": "math-2001-M-P1-q14",
+   "num": "14",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14. Given that z= (b + 1)?, where b is real and positive, find the exact value of » when arg z = 60°",
+   "ms_text": "π 2 !\n14. arg ( b + i) = 60\n3\nπ !\n⇒ arg ( b + i) = 30, since b > 0 (M1)\n6\n1 π !\n= tan30or tan (A1)\nb 6\nb = 3 (A1) (C3)\nOR\nπ 2 !\narg ( b + i) = 60\n3\nπ 2 !\n⇒ arg ( b −+ 1 2i) b = 60 (M1)\n3\n2 b\n= 3 (A1)\n2 ( b − 1)\n3 b 2 − 2 b − 3 = 0\n( 3 b + 1 )( b − 3 ) = 0\nb = 3, since > 0 (A1) (C3)\nOR\nb = 1.73 (3 s.f.) (M0)(G2) (C2)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "14. Given that $z = (b + \\mathrm{i})^2$, where $b$ is real and positive, find the **exact** value of $b$ when $\\arg z = 60^\\circ$."
+  },
+  {
+   "id": "math-2001-M-P1-q15",
+   "num": "15",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "15. X is a binomial random variable, where the number of trials is 5 and the probability of success\nof each trial is p . Find the values of pif P(X=4)=0.12.",
+   "ms_text": "15. If X ~ Bin (5, p) and P( X= 4) = 0.12 then\n5\n4 (1 − p ) = 0.12 (M1)\n4p\n5 p 5 − 5 p 4 + 0.12 = 0 (A1)\np = 0.459 (3 s.f ) or 0.973 (3 s.f) (G1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "15. $X$ is a binomial random variable, where the number of trials is 5 and the probability of success of each trial is $p$. Find the values of $p$ if $\\mathrm{P}(X = 4) = 0.12$."
+  },
+  {
+   "id": "math-2001-M-P1-q16",
+   "num": "16",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "d\n16. Find the general solution of the differential equation —(—5— =kx(5—-x), where 0 <5, and k\n1S a constant.",
+   "ms_text": "d x\n16. Given kx (5 − x ) t=\nd\n1 d x\nthen t= k (M1)\nx (5 − x )d\n1 1\n∫ + d = ∫ kt d (A1) )x\n5 x 5(5 − x\n1\n1 1 x 5 x kt 5 kt\nln x − ln(5 − x ) = kt + C or = A e or = A e (A1) (C3)\n5 5 5 − x 5 − x\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.18",
+    "1.11",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "16. Find the general solution of the differential equation $\\dfrac{\\mathrm{d}x}{\\mathrm{d}t} = kx(5 - x)$, where $0 < x < 5$, and $k$ is a constant."
+  },
+  {
+   "id": "math-2001-M-P1-q17",
+   "num": "17",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "17. An astronaut on the moon throws a ball vertically upwards. The height, s metres, of the ball,\nafter ¢ seconds, is given by the equation s= 407+ 0.5ar%>, where a is a constant. If the ball\nreaches its maximum height when 7 =25, find the value of a.",
+   "ms_text": "d s 2\n17. Given s = 40 t + 0.5 at , then the maximum height is reached when 0 (M1) t=\nd\nat + 40 = 0 (M1)\n− 40\na = = − 1.6 (units not required) (A1) (C3)\n25\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "17. An astronaut on the moon throws a ball vertically upwards. The height, $s$ metres, of the ball, after $t$ seconds, is given by the equation $s = 40t + 0.5at^2$, where $a$ is a constant. If the ball reaches its maximum height when $t = 25$, find the value of $a$."
+  },
+  {
+   "id": "math-2001-M-P1-q18",
+   "num": "18",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "18. The equation kx?> - 3x + (k + 2) =0 has two distinct real roots. Find the set of possible values\nof k.",
+   "ms_text": "2 18. For kx − 3 x + ( k + 2) = 0 to have two distinct real roots then\nk≠ 0 (A1)\nand 9 − 4( kk + 2) > 0 (M1)\n2 4 k + 8 k − 9 < 0\n− 2.803 < k < 0.803 (A1)\nSet of values of k is − 2.80 < k < 0.803, k ≠ 0 (C2)(C1)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "18. The equation $kx^2 - 3x + (k + 2) = 0$ has two distinct real roots. Find the set of possible values of $k$."
+  },
+  {
+   "id": "math-2001-M-P1-q19",
+   "num": "19",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "19. The diagram shows the graph of the functions y, and y,\nJ’4k\n7 /,J’2\nN s\n0\nX\n-2\nY1\nOn the same axes sketch the graph of 2 Indicate clearly where the x-intercepts and\nasymptotes occur.",
+   "ms_text": "19.\n(A1)(A1)(A1) (C3)\nNote: Award (A1) for the shape of the graph (all 3 sections),\n( v and v ) (A1) for both asymptotes\n1 2 , (A1) for the x-intercept I.\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr",
+    "topic-uncertain"
+   ],
+   "text_clean": "19. The diagram shows the graph of the functions $y_1$ and $y_2$.\n[Graph: $y_1$ (solid) decreasing from about 1.7 at $x=0$, crossing the $x$-axis and going steeply negative; $y_2$ (dashed) U-shaped from about 2.3 at $x=0$, crossing the $x$-axis twice with a minimum near $-1.3$; $y_1$ and $y_2$ share an $x$-intercept; $y$-axis marked $-2$, $0$, $2$]\nOn the same axes sketch the graph of $\\dfrac{y_1}{y_2}$. Indicate clearly where the $x$-intercepts and asymptotes occur.",
+   "review_note": "audit: sketch y1/y2 (rational function) primary 2.13, as 2010-N-P2-q8"
+  },
+  {
+   "id": "math-2001-M-P1-q20",
+   "num": "20",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "20. The function f'is given by f: x > el*sinm) x>0\n(a) Find f'(x).\nLet x, be the value of x where the (n+ 1) maximum or minimum point occurs, n € IN.\n(i.e. x, is the value of x where the first maximum or minimum occurs, x, is the value of x where\nthe second maximum or minimum occurs, etc).\n(b) Find x, in terms of n",
+   "ms_text": "′ (1sin + π x ) 20. (a) f () x = π cos( π x )e (A1) (C1)\n(b) For maximum or minimum points, f ′ () x = 0\ncos π= x 0 (M1)\n2 k + 1\nπ= x π\n2\n2 n + 1\nx = then\nn (A1) (C2)\n2\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.8",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "20. The function $f$ is given by $f: x \\mapsto \\mathrm{e}^{(1 + \\sin \\pi x)}$, $x \\ge 0$.\n(a) Find $f'(x)$.\nLet $x_n$ be the value of $x$ where the $(n + 1)^{\\text{th}}$ maximum or minimum point occurs, $n \\in \\mathbb{N}$. (i.e. $x_0$ is the value of $x$ where the first maximum or minimum occurs, $x_1$ is the value of $x$ where the second maximum or minimum occurs, etc).\n(b) Find $x_n$ in terms of $n$."
+  }
+ ],
+ "status": "done"
+}

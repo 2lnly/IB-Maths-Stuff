@@ -1,0 +1,291 @@
+{
+ "exam_id": "math-2022-M-P2-TZ1",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2022,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2022 May Examination Session/Mathematics_analysis_and_approaches_paper_2__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2022 May Examination Session/Mathematics_analysis_and_approaches_paper_2__TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2222-7107; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2022-M-P2-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nThe number of hours spent exercising each week by a group of students is shown in the\nfollowing table.\nExercising time Number of\n(in hours) students\n2 5\n3 1\n4 4\n5 3\nx 6\nThe median is 4.5 hours.\n(a) Find the value of x .\b [2]\n(b) Find the standard deviation.\b [2]",
+   "ms_text": "1. (a) EITHER\nrecognising that half the total frequency is 10 (may be seen in an ordered list or\nindicated on the frequency table) (A1)\nOR\n++ =+ 514 3 x (A1)\nOR\n∑ f= 20 (A1)\nTHEN\nx = 7 A1\n[2 marks]\n(b) METHOD 1\n1.58429…\n1.58 A2\nMETHOD 2\nEITHER\n2 2 2 2 2 5(2 × − 4.3) + 1(3 × − 4.3) + 4(4 × − 4.3) +× 3(5 − 4.3) + 7(6 × − 4.3)\n2 σ = (2.51) = (A1)\n20\nOR\n52 × 2 + 1 × 3 2 + 4 × 4 2 + 3 × 5 2 + 7 × 6 2 2 2\nσ = − 4.3 (2.51 = ) (A1)\n20\nTHEN\nσ= = 2.51 1.58429...\n= 1.58 A1\n[2 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nThe number of hours spent exercising each week by a group of students is shown in the following table.\nExercising time (in hours) | Number of students\n2 | 5\n3 | 1\n4 | 4\n5 | 3\n6 | $x$\nThe median is $4.5$ hours.\n(a) Find the value of $x$. [2]\n(b) Find the standard deviation. [2]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nA company is designing a new logo. The logo is created by removing two equal segments\nfrom a rectangle, as shown in the following diagram.\ndiagram not to scale\nThe rectangle measures 5 cm by 4 cm . The points A and B lie on a circle, with centre O\nand radius 2 cm , such that AÔB=θ , where 0<θ<π . This information is shown in the\nfollowing diagram.\ndiagram not to scale\n4\nA\n2\nO θ 5\nB\n(a) Find the area of one of the shaded segments in terms of θ .\b [3]\n(b) Given that the area of the logo is 13.4 cm2 , find the value of θ .\b [3]",
+   "ms_text": "2. (a) valid approach to find area of segment by finding area of sector – area of triangle (M1)\n1 1 2 2\nr θ− r sin θ\n2 2\n1 1 2 2\n(2) θ− (2)sin θ (A1)\n2 2\narea = 2 θ − 2sin θ A1\n[3 marks]\n(b) EITHER\narea of logo = area of rectangle – area of segments (M1)\n×−× θ − θ = 5 4 2(2 2sin) 13.4 (A1)\nOR\n2013.4 −\narea of one segment = ( = 3.3 ) (M1)\n2\n2 θ − 2sin θ = 3.3 (A1)\nTHEN\nθ= 2.35672...\nθ= 2.36 (do not accept an answer in degrees) A1\nNote: Award (M1)(A1)A0 if there is more than one solution.\nAward (M1)(A1FT)A0 if the candidate works in degrees and obtains a\nfinal answer of 135.030…\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nA company is designing a new logo. The logo is created by removing two equal segments from a rectangle, as shown in the following diagram.\n[Diagram: shaded rectangle with two circular segments removed from its left and right sides; not to scale]\nThe rectangle measures $5\\text{ cm}$ by $4\\text{ cm}$. The points A and B lie on a circle, with centre O and radius $2\\text{ cm}$, such that $A\\hat{O}B=\\theta$, where $0<\\theta<\\pi$. This information is shown in the following diagram.\n[Diagram: rectangle 4 wide by 5 high; points A and B on left side, O outside to the left with OA = 2 and angle $\\theta$ at O; shaded segments between chord AB and arc on each side; not to scale]\n(a) Find the area of one of the shaded segments in terms of $\\theta$. [3]\n(b) Given that the area of the logo is $13.4\\text{ cm}^2$, find the value of $\\theta$. [3]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nA discrete random variable, X , has the following probability distribution:\nx 0 1 2 3\nP(X=x) 0.41 k- 0.28 0.46 0.29 - 2k2\nShow that 2k2-k+0.12=0 .\b (a) [1]\n(b) Find the value of k , giving a reason for your answer.\b [3]\nHence, find E(X ) .\b (c) [2]",
+   "ms_text": "0.41 + k − 0.28 + 0.46 + 0.29 − 2 k 2 = 1 k − 2 k 2 + 0.01 = 0.13 3. (a) OR (or equivalent) A1\n2 − + = 2 k k 0.12 0 AG\n[1 mark]\n(b) one of 0.2 OR 0.3 (M1)\nk = 0.3 A1\nreasoning to reject k = 0.2 eg P(1) = k − 0.28 ≥ 0 therefore k ≠ 0.2 R1\n[3 marks]\n(c) attempting to use the expected value formula (M1)\n2 E( X ) = 0 × 0.411(0.30.28) +× − +× 20.46 + 3(0.29 × −× 20.3)\n= 1.27 A1\nNote: Award M1A0 if additional values are given.\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "2"
+   ],
+   "subtopics": [
+    "4.7",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nA discrete random variable, $X$, has the following probability distribution:\n$x$ | 0 | 1 | 2 | 3\n$\\mathrm{P}(X=x)$ | 0.41 | $k-0.28$ | 0.46 | $0.29-2k^2$\n(a) Show that $2k^2-k+0.12=0$. [1]\n(b) Find the value of $k$, giving a reason for your answer. [3]\n(c) Hence, find $\\mathrm{E}(X)$. [2]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\nA particle moves along a straight line so that its velocity, vms-1 , after t seconds is given\nby v(t)=esin t+4 sint for 0≤t≤6 .\n(a) Find the value of t when the particle is at rest.\b [2]\n(b) Find the acceleration of the particle when it changes direction.\b [3]\n(c) Find the total distance travelled by the particle.\b [2]",
+   "ms_text": "4. (a) recognizing at rest v = 0 (M1)\nt = 3.34692...\nt = 3.35 (seconds) A1\nNote: Award (M1)A0 for any other solution to v = 0 eg t = − 0.205 or t = 6.08 .\n[2 marks]\n(b) recognizing particle changes direction when v = 0 OR when t = 3.34692... (M1)\na = − 4.71439...\na = − -2 4.71(ms) A2\n[3 marks]\n6\n(c) distance travelled = ∫ vt d OR\n0\n3.34... 6\n( e sin() t + 4sin()d t ) t − ( e sin() t + 4sin()d(14.3104... t ) t = + 6.44300...) ∫ ∫ (A1)\n0 3.34...\n= 20.7534...\n= 20.8 (metres) A1\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\nA particle moves along a straight line so that its velocity, $v\\text{ m s}^{-1}$, after $t$ seconds is given by $v(t)=\\mathrm{e}^{\\sin t}+4\\sin t$ for $0\\le t\\le 6$.\n(a) Find the value of $t$ when the particle is at rest. [2]\n(b) Find the acceleration of the particle when it changes direction. [3]\n(c) Find the total distance travelled by the particle. [2]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nLet A and B be two independent events such that P(A∩B′)=0.16 and P(A′∩B)=0.36 .\n(a) Given that P(A∩B)=x , find the value of x .\b [4]\n(b) Find P(A′|B′) .\b [2]",
+   "ms_text": "5. (a) METHOD 1\nEITHER\n= + = + one of P() A x 0.16 ORP() B x 0.36 A1\nOR\nA1\nTHEN\n∩ × attempt to equate their P( A B ) with their expression for P ()P A ( B ) M1\nP( A ∩ B ) = P()P() A × B ⇒ x = ( x + 0.16)( × x + 0.36) A1\nx = 0.24 A1\nMETHOD 2\nattempt to form at least one equation inP() Aand P() B using independence M1\n( P( A ∩ B ′ ) = P()P( A × B ′ ) ⇒ ) P() A × ( 1P() − B ) = 0.16 OR\n( P(' A ∩ B ) = P(')P() A × B ⇒ )( 1P() − A ) × P() B = 0.36\nP() A= 0.4 AND P() B= 0.6 A1\nP( A ∩ B ) = P()P() A × B = 0.40. × 6 (A1)\nx = 0.24 A1\n[4 marks]\n(b) METHOD 1\nrecognising P( AB ′ | ′ ) = P( A ′ ) (M1)\n=− 10.16 − 0.24\n= 0.6 A1\nMETHOD 2\nP() B= 0.36 + 0.24 ( = 0.6 )\nP( A ′ ∩ B ′ ) 0.24\nP( AB ′ | ′= ) = (A1)\nP( B ′ ) 0.4\n= 0.6 A1\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nLet $A$ and $B$ be two independent events such that $\\mathrm{P}(A\\cap B')=0.16$ and $\\mathrm{P}(A'\\cap B)=0.36$.\n(a) Given that $\\mathrm{P}(A\\cap B)=x$, find the value of $x$. [4]\n(b) Find $\\mathrm{P}(A'|B')$. [2]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\n1 x\nConsider the function fx= () 2 - , x∈ϒ .\nx 2\n(a) Show that f is an odd function.\b [2]\nx - 1\nThe function g is given by gx () = , where x∈ϒ , x≠-1 , x≠3 .\n2 x - 2 x - 3\n(b) Solve the inequality f(x)≥g(x) .\b [4]",
+   "ms_text": "6. (a) attempt to replace x with x − M1\n− 1\nf ( − x ) = 2 x −\n− x\n2\nEITHER\n1 x\n= − 2 = − fx () A1\nx 2\nOR\n1 x\n= − 2 − ( = − fx () ) A1\nx 2\nNote: Award M1A0 for a graphical approach including evidence that either the\ngraph is invariant after rotation by 180°about the origin or the graph is\ninvariant after a reflection in the y -axis and then in the x -axis (or vice\nversa).\nso f is an odd function AG\n[2 marks]\n(b) attempt to find at least one intersection point (M1)\nx = − 1.26686..., x = 0.177935..., x = 3.06167...\nx = − 1.27, x = 0.178, x = 3.06\n− 1.27 ≤ x <−, 1 A1\n0.178 ≤ x < 3 , A1\nx ≥ 3.06 A1\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.15",
+    "2.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nConsider the function $f(x)=2^x-\\frac{1}{2^x}$, $x\\in\\mathbb{R}$.\n(a) Show that $f$ is an odd function. [2]\nThe function $g$ is given by $g(x)=\\frac{x-1}{x^2-2x-3}$, where $x\\in\\mathbb{R}$, $x\\ne-1$, $x\\ne3$.\n(b) Solve the inequality $f(x)\\ge g(x)$. [4]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 9]\n12\nConsider the vectors a and b such that a = and | b |=15 .\n- 5\n(a) Find the possible range of values for | a + b | .\b [2]\nConsider the vector p such that p=a+b .\nGiven that | a + b | is a minimum, find p .\b (b) [2]\nx\nConsider the vector q such that q = , where x , y∈ϒ+ .\ny\n(c) Find q such that |q| = |b| and q is perpendicular to a .\b [5]",
+   "ms_text": "2 2 7. (a) a = 12 +− (5) ( = 13 ) (A1)\n2 ≤ a + b ≤ 28 (accept min 2 and max 28) A1\nNote: Award (A1)A0 for 2 and 28 seen with no indication that they are the\nendpoints of an interval.\n[2 marks]\n(b) recognition that p or b is a negative multiple of a (M1)\n15 15 12\np = − 2 aOR ˆ b = − a= −\n13 13 − 5\n2 12 − 1.85\np = − = A1\n− 13 5 0.769\n[2 marks]\n(c) METHOD 1\nqis perpendicular to 12\n− 5\n5\n⇒qis in the direction (M1)\n12\n5\nk\nq = (A1)\n12\n2 2 ( q = ) (5) k + (12) k = 15 (M1)\n15\nk = (A1)\n13\n75\n5 5.77 15 13\n= = q = A1\n13 12 180 13.8\n13\n[5 marks]\nMETHOD 2\nqis perpendicular to 12\n− 5\nattempt to set scalar product q.a = 0 OR product of gradients = − 1 (M1)\n12 x − 5 y = 0 (A1)\n( = ) 2 + 2 = q x y 15\nattempt to solve simultaneously to find a quadratic in x or in y (M1)\n2 2\n12 x 5 y 2 2 + 2 2\nx + = 15 OR y = 15\n5 12\n75\n13 5.77\nq = = A1A1\n180 13.8\n13\n75\nNote: Award A1 independently for each value. Accept values given as x =\n13\n180\nand y = or equivalent.\n13\n[5 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.12",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 9]\nConsider the vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$ such that $\\boldsymbol{a}=\\begin{pmatrix}12\\\\-5\\end{pmatrix}$ and $|\\boldsymbol{b}|=15$.\n(a) Find the possible range of values for $|\\boldsymbol{a}+\\boldsymbol{b}|$. [2]\nConsider the vector $\\boldsymbol{p}$ such that $\\boldsymbol{p}=\\boldsymbol{a}+\\boldsymbol{b}$.\n(b) Given that $|\\boldsymbol{a}+\\boldsymbol{b}|$ is a minimum, find $\\boldsymbol{p}$. [2]\nConsider the vector $\\boldsymbol{q}$ such that $\\boldsymbol{q}=\\begin{pmatrix}x\\\\y\\end{pmatrix}$, where $x,y\\in\\mathbb{R}^+$.\n(c) Find $\\boldsymbol{q}$ such that $|\\boldsymbol{q}|=|\\boldsymbol{b}|$ and $\\boldsymbol{q}$ is perpendicular to $\\boldsymbol{a}$. [5]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 4]\nConsider the equation kx2-(k+3)x+2k+9=0 , where k∈ϒ .\n(a) Write down an expression for the product of the roots, in terms of k .\b [1]\n(b) Hence or otherwise, determine the values of k such that the equation has one positive\nand one negative real root.\b [3]",
+   "ms_text": "2 k + 9\n8. (a) product of roots = A1\nk\n[1 mark]\n(b) recognition that the product of the roots will be negative (M1)\n2 k + 9\n< 0\nk\n9\ncritical values k = 0, − seen (A1)\n2\n9\n− < k < 0 A1\n2\n[3 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 4]\nConsider the equation $kx^2-(k+3)x+2k+9=0$, where $k\\in\\mathbb{R}$.\n(a) Write down an expression for the product of the roots, in terms of $k$. [1]\n(b) Hence or otherwise, determine the values of $k$ such that the equation has one positive and one negative real root. [3]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\nMary, three female friends, and her brother, Peter, attend the theatre. In the theatre there is\na row of 10 empty seats. For the first half of the show, they decide to sit next to each other in\nthis row.\n(a) Find the number of ways these five people can be seated in this row.\b [3]\nFor the second half of the show, they return to the same row of 10 empty seats. The four girls\ndecide to sit at least one seat apart from Peter. The four girls do not have to sit next to each other.\n(b) Find the number of ways these five people can now be seated in this row.\b [4]",
+   "ms_text": "9. (a) 65! × (A1)(A1)\n= 720 ( accept 6!) A1\n[3 marks]\n(b) METHOD 1\n8 (Peter apart from girls, in an end seat) P= ( 1680 ) OR\n4\n7 (Peter apart from girls, not in end seat) P= ( 840 ) (A1)\n4\ncase 1: Peter at either end\n8 8 2 × P ( = 3360 ) OR 2 × C × 4! ( = 3360 ) (A1)\n4 4\ncase 2: Peter not at the end\n7 ( ) 7 ( ) 8 × P = 6720 OR 8 × C × 4! = 6720 (A1)\n4 4\nTotal number of ways = 3360 + 6720\n= 10080 A1\nMETHOD 2\n× 8 ( = ) (Peter next to girl, in an end seat) 4 P 1344 OR\n3\n7 ( ) (Peter next to one girl, not in end seat) 24 ×× P = 1680 OR\n3\n7 ( ) (Peter next to two girls, not in end seat) 43 ×× P = 504 (A1)\n2\ncase 1: Peter at either end\n8 24 ×× P ( = 2688 ) (A1)\n3\ncase 2: Peter not at the end\n( 7 7 )( 824 ×× P +×× 43 P = 17472 ) (A1)\n3 2\n10 Total number of ways = P − ( 268817472 + )\n5\n= 10080 A1\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nMary, three female friends, and her brother, Peter, attend the theatre. In the theatre there is a row of 10 empty seats. For the first half of the show, they decide to sit next to each other in this row.\n(a) Find the number of ways these five people can be seated in this row. [3]\nFor the second half of the show, they return to the same row of 10 empty seats. The four girls decide to sit at least one seat apart from Peter. The four girls do not have to sit next to each other.\n(b) Find the number of ways these five people can now be seated in this row. [4]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 20]\n() = 2 Consider the function fx x − 1 , where 1≤x≤2 .\n(a) Sketch the curve y=f(x) , clearly indicating the coordinates of the endpoints. \b [2]\n1 2\n(b) (i) \u0007Show that the inverse function of f is given by f −() = x x + 1.\n(ii) State the domain and range of f-1 .\b [5]\nThe curve y=f(x) is rotated 2π about the y-axis to form a solid of revolution that is used to\nmodel a water container.\n(c) (i) \u0007Show that the volume, Vm3, of water in the container when it is filled to a height\nπ1 3\nof h metres is given by V = h + h .\n3\n(ii) Hence, determine the maximum volume of the container.\b [5]\nAt t=0 , the container is empty. Water is then added to the container at a constant rate\nof 0.4m3s-1.\n(d) Find the time it takes to fill the container to its maximum volume.\b [2]\n(e) Find the rate of change of the height of the water when the container is filled to half its\nmaximum volume.\b [6]",
+   "ms_text": "10. (a)\ncorrect shape (concave down) within the given domain 1 ≤ x ≤ 2 A1\n( 1,0 and ( ) 2,3 ) ( = ( 2,1.73 ) ) A1\nNote: The coordinates of endpoints may be seen on the graph or marked on the\naxes.\n(b) (i) interchanging x and y (seen anywhere) M1\n2 x = y − 1\n2 2 x = y − 1 A1\n2 y = x + 1 A1\n−\nf 1 () x = x 2 + 1 AG\n(ii) 0 ≤ x ≤ 3 OR domain 0,3 = ( [ 0,1.73 ] ) A1\n− 1\n1 ≤ y ≤ 2 OR 1 ≤ f () x ≤ 2 OR range [ 1,2 ] A1\n[5 marks]\n2 (c) (i) attempt to substitute x = y + 1 into the correct volume formula (M1)\nh h 2\n( 2 ) ( 2 ) V = π ∫ y + 1 d y = π ∫ y + 1 d y A1\n0 0\nh\n1\n= y 3 + y A1\nπ3\n0\n1 3\n= + h AG\nπ3h\nNote: Award marks as appropriate for correct work using a different variable e.g.\nh 2\nπ ( x 2 + 1 ) d x ∫\n0\n(ii) attempt to substitute h = 3 ( = 1.732... ) into V (M1)\nV= 10.8828...\nV= (m3) ( = ) 10.9 23π (m3) A1\n[5 marks]\n(d) METHOD 1\n10.8828... 23π\ntime = = (M1)\n0.4 0.4\n= 27.207...\n= ( = )() 27.2 53π s A1\n[2 marks]\n(e) attempt to find the height of the tank when V= 5.4414... ( = 3π ) (M1)\n1 3\n( ) π + h = 5.4414... = 3π\n3h\nh = 1.1818... (A1)\n1 3\nattempt to use the chain rule or differentiate V = h + h with respect to t (M1)\nπ3\nd h d h d V 1 d V d V 2 d h\n= × = × = π ( h + 1 ) OR (A1)\n2 d t d V d t π( h + 1) d t d t d t\nV attempt to substitute theirhandd\n0.4 (M1) t=\nd\nd h 0.4\n= 0.053124...\nt= 2\nd π1.1818... ( + 1 )\n= 0.0531 (m s-1) A1\n[6 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.17",
+    "5.14",
+    "2.5",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 20]\nConsider the function $f(x)=\\sqrt{x^2-1}$, where $1\\le x\\le 2$.\n(a) Sketch the curve $y=f(x)$, clearly indicating the coordinates of the endpoints. [2]\n(b) (i) Show that the inverse function of $f$ is given by $f^{-1}(x)=\\sqrt{x^2+1}$.\n(ii) State the domain and range of $f^{-1}$. [5]\nThe curve $y=f(x)$ is rotated $2\\pi$ about the $y$-axis to form a solid of revolution that is used to model a water container.\n(c) (i) Show that the volume, $V\\text{ m}^3$, of water in the container when it is filled to a height of $h$ metres is given by $V=\\pi\\left(\\frac{1}{3}h^3+h\\right)$.\n(ii) Hence, determine the maximum volume of the container. [5]\nAt $t=0$, the container is empty. Water is then added to the container at a constant rate of $0.4\\text{ m}^3\\text{ s}^{-1}$.\n(d) Find the time it takes to fill the container to its maximum volume. [2]\n(e) Find the rate of change of the height of the water when the container is filled to half its maximum volume. [6]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 16]\nA bakery makes two types of muffins: chocolate muffins and banana muffins.\nThe weights, C grams, of the chocolate muffins are normally distributed with a mean of 62 g\nand standard deviation of 2.9 g .\n(a) Find the probability that a randomly selected chocolate muffin weighs less than 61 g .\b [2]\n(b) In a random selection of 12 chocolate muffins, find the probability that exactly 5 weigh\nless than 61 g .\b [2]\nThe weights, B grams, of the banana muffins are normally distributed with a mean of 68 g\nand standard deviation of 3.4 g .\nEach day 60% of the muffins made are chocolate.\nOn a particular day, a muffin is randomly selected from all those made at the bakery.\n(c) (i) \u0007Find the probability that the randomly selected muffin weighs less than 61 g .\n(ii) Given that a randomly selected muffin weighs less than 61 g , find the probability\nthat it is chocolate.\b [7]\nThe machine that makes the chocolate muffins is adjusted so that the mean weight of the\nchocolate muffins remains the same but their standard deviation changes to σg . The\nmachine that makes the banana muffins is not adjusted. The probability that the weight of a\nrandomly selected muffin from these machines is less than 61 g is now 0.157 .\nFind the value of σ .\b (d) [5]",
+   "ms_text": "11. (a) P( C < 61) (M1)\n= 0.365112...\n= 0.365 A1\n[2 marks]\n(b) recognition of binomial eg X B(12,0.365...) (M1)\nP( X= 5) = 0.213666...\n= 0.214 A1\n[2 marks]\n(c) (i) Let CM represent ‘chocolate muffin’ and BM represent ‘banana muffin’\nP( B < 61) = 0.0197555... (A1)\nEITHER\n× < + × < P ( C M ) P( C 6 1| CM ) P ( BM ) P( B 6| 1 B M ) (or equivalent in words) (M1)\nOR\ntree diagram showing two ways to have a muffin weigh < 61 (M1)\nTHEN\n× + × (0.6 0.365...) (0.4 0.0197... ) (A1)\n= 0.226969...\n= 0.227 A1\n(ii) recognizing conditional probability (M1)\nNote: Recognition must be shown in context either in words or symbols, not just\nP ( AB. | )\n× 0.6 0.365112.. .\n(A1)\n0.22 6969.. .\n= 0.965183...\n= 0.965 A1\n[7 marks]\n(d) METHOD 1\nP ( CM ) × P( C < 61| CM ) + P( BM ) × P( B < 61| BM ) = 0. 1 5 7 (M1)\n( 0.6 × P( C < 61) ) + (0.4 × 0.0197555...) = 0.157\nP( C < 61) = 0.248496... (A1)\nattempt to solve for σusing GDC (M1)\nNote: Award (M1) for a graph or table of values to show their ( C < ) P 61 with a\nvariable standard deviation.\nσ= 1.47225...\nσ= 1.47 (g) A2\nMETHOD 2\nP ( CM ) × P( C < 61| CM ) + P( BM ) × P( B < 61| BM ) = 0. 1 5 7 (M1)\n( 0.6 × P( C < 61) ) + (0.4 × 0.0197555...) = 0.157\nP( C < 61) = 0.248496... (A1)\nuse of inverse normal to find z score of their P( C < 61) (M1)\nz = − 0.679229...\ncorrect substitution (A1)\n6162 −\n= − 0.679229...\nσ\nσ= 1.47225...\nσ= 1.47 (g) A1\n[5 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.12",
+    "4.6",
+    "4.11",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 16]\nA bakery makes two types of muffins: chocolate muffins and banana muffins.\nThe weights, $C$ grams, of the chocolate muffins are normally distributed with a mean of $62\\text{ g}$ and standard deviation of $2.9\\text{ g}$.\n(a) Find the probability that a randomly selected chocolate muffin weighs less than $61\\text{ g}$. [2]\n(b) In a random selection of 12 chocolate muffins, find the probability that exactly 5 weigh less than $61\\text{ g}$. [2]\nThe weights, $B$ grams, of the banana muffins are normally distributed with a mean of $68\\text{ g}$ and standard deviation of $3.4\\text{ g}$.\nEach day $60\\%$ of the muffins made are chocolate.\nOn a particular day, a muffin is randomly selected from all those made at the bakery.\n(c) (i) Find the probability that the randomly selected muffin weighs less than $61\\text{ g}$.\n(ii) Given that a randomly selected muffin weighs less than $61\\text{ g}$, find the probability that it is chocolate. [7]\nThe machine that makes the chocolate muffins is adjusted so that the mean weight of the chocolate muffins remains the same but their standard deviation changes to $\\sigma\\text{ g}$. The machine that makes the banana muffins is not adjusted. The probability that the weight of a randomly selected muffin from these machines is less than $61\\text{ g}$ is now $0.157$.\n(d) Find the value of $\\sigma$. [5]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 19]\nd y 2 2 2\nConsider the differential equation x y − 2 x for x>0 and y>2x . It is given that y=3\nx=\nd when x=1 .\n(a) Use Euler’s method, with a step length of 0.1 , to find an approximate value of y\nwhen x=1.5 .\b [4]\nd v\nUse the substitution y=vx to show that x v 2 −− v (b) 2 .\b [3]\nx=\nd\n4 8 x + x\n= (c) (i) \u0007By solving the differential equation, show that y .\n3 4 − x\n(ii) Find the actual value of y when x=1.5 .\n4 8 x + x\n(iii) Using the graph of y = , suggest a reason why the approximation given\n− x 3 4\nby Euler’s method in part (a) is not a good estimate to the actual value of y\nat x=1.5 .\b [12]\n\b",
+   "ms_text": "12. (a) attempt to use Euler’s method (M1)\n2 2 d y d y y − 2 x\nx = x + 0.1; y = y + × , where =\nn + 1 n n + 1 n 0.1d 2\nx d x x\ncorrect intermediate y -values (A1)(A1)\n3.7,4.63140...,5.92098...,7.79542...\nNote: A1 for any two correct y -values seen\ny = 10.6958...\ny = 10.7 A1\nNote: For the final A1, the value 10.7 must be the last value in a table or a list, or\nbe given as a final answer, not just embedded in a table which has further\nlines.\n[4 marks]\nd y d v\n= ⇒ = + (b) y vx v x (A1)\nd x d x\ny d v replacing y with vx and d\nv + with M1\nxx\nd x d\nd y d v 2\n= 2 − 2 ⇒ 2 + = 2 2 − 2 x y 2 x x v x vx 2 x A1\nd x d x\nd v 2\nv + x = v − 2 (since x > 0 )\nd x\nd v 2\nx v −− v 2 AG x=\nd\n[3 marks]\n(c) (i) attempt to separate variables v and x (M1)\nd v d x\n∫ = ∫\nv 2 −− v 2 x\nd v d x\n∫ = ∫ (A1)\n( v − 2)( v + 1) x\nattempt to express in partial fraction form M1\n1 A B\n≡ +\n( v − 2)( v + 1) v − 2 v + 1\n1 1 1 1\n= − A1\n( v − 2)( v + 1) 3 v − 2 v + 1\n1 1 1 d x\n∫ − d v = ∫\n3 v − 2 v + 1 x\n1ln ( − − + ) = ( + ) v 2 ln v 1 ln x c\nA1\n3\nNote: Condone absence of modulus signs throughout.\nEITHER\nattempt to find c using x = 1, y = 3, v = 3 M1\n1 1\nc = ln\n3 4\n1 1 1\n( ) ln v − 2 − ln v + 1 = ln x + ln\n3 3 4\nexpressing both sides as a single logarithm (M1)\n3\nv − 2 x\nln = ln\n+ v 1 4\nOR\nexpressing both sides as a single logarithm (M1)\nv − 2 3\n( ) ln = ln A x\nv + 1\nattempt to find A using x = 1, y = 3, v = 3 M1\n1\nA =\n4\nTHEN\nv − 2 1 3\n= x (since x > 0 )\nv + 1 4\ny\nv = substitute (seen anywhere) M1\nx\ny\n− 2\n1 x 3\n= x (since y > 2 x )\ny 4\n+ 1\nx\ny − 2 x 1 3\n⇒ = x\ny + x 4\nattempt to make y the subject M1\n3 4 xy x\ny − = 2 x + A1\n4 4\n4 8 x + x\n= y AG\n3 4 − x\n= (ii) actual value at (1.5) y 27.3 A1\n(iii) gradient changes rapidly (during the interval considered) OR\n3 4 the curve has a vertical asymptote at x = ( = 1.5874... ) R1\n[12 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15",
+    "1.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 19]\nConsider the differential equation $x^2\\frac{\\mathrm{d}y}{\\mathrm{d}x}=y^2-2x^2$ for $x>0$ and $y>2x$. It is given that $y=3$ when $x=1$.\n(a) Use Euler's method, with a step length of $0.1$, to find an approximate value of $y$ when $x=1.5$. [4]\n(b) Use the substitution $y=vx$ to show that $x\\frac{\\mathrm{d}v}{\\mathrm{d}x}=v^2-v-2$. [3]\n(c) (i) By solving the differential equation, show that $y=\\frac{8x+x^4}{4-x^3}$.\n(ii) Find the actual value of $y$ when $x=1.5$.\n(iii) Using the graph of $y=\\frac{8x+x^4}{4-x^3}$, suggest a reason why the approximation given by Euler's method in part (a) is not a good estimate to the actual value of $y$ at $x=1.5$. [12]"
+  }
+ ],
+ "status": "done"
+}

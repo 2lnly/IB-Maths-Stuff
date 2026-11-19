@@ -1,0 +1,158 @@
+{
+ "exam_id": "math-2000-M-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.6",
+    "2.10"
+   ],
+   "text_clean": "1. [Maximum mark: 10]\nThe area of the triangle shown below is $2.21\\text{ cm}^2$. The length of the shortest side is $x$ cm and the other two sides are $3x$ cm and $(x+3)$ cm.\n[Diagram: triangle with sides $x$, $3x$ and $x+3$; angle $\\theta$ is between the sides $x$ and $3x$]\n(a) Using the formula for the area of the triangle, write down an expression for $\\sin\\theta$ in terms of $x$. [2 marks]\n(b) Using the cosine rule, write down and simplify an expression for $\\cos\\theta$ in terms of $x$. [2 marks]\n(c) (i) Using your answers to parts (a) and (b), show that, $\\left(\\frac{3x^2-2x-3}{2x^2}\\right)^2 = 1-\\left(\\frac{4.42}{3x^2}\\right)^2$ [1 mark]\n(ii) Hence find\n(a) the possible values of $x$; [2 marks]\n(b) the corresponding values of $\\theta$, in radians, using your answer to part (b) above. [3 marks]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "2",
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "2.11",
+    "2.12",
+    "5.3",
+    "1.16"
+   ],
+   "text_clean": "2. [Maximum mark: 14]\nThe diagram below shows the graphs of $y=-x^3+3x^2$ and $y=g(x)$, where $g(x)$ is a polynomial of degree 3.\n[Diagram: graph of $y=-x^3+3x^2$ (solid) with local maximum A, and dashed graph of $y=g(x)$ touching the x-axis at $x=-2$ and crossing the y-axis at A' below the origin]\n(a) If $g(-2)=0$, $g(0)=-4$, $g'(-2)=0$, and $g'(0)=0$ show that $g(x)=x^3+3x^2-4$. [6 marks]\nThe graph of $y=-x^3+3x^2$ is reflected in the y-axis, then translated using the vector $\\begin{pmatrix}-1\\\\-1\\end{pmatrix}$ to give the graph of $y=h(x)$.\n(b) Write $h(x)$ in the form $h(x)=ax^3+bx^2+cx+d$. [5 marks]\nThe graph of $y=x^3+3x^2-4$ is obtained by applying a composition of two transformations to the graph of $y=-x^3+3x^2$.\n(c) State the two transformations whose composition maps the graph of $y=-x^3+3x^2$ onto the graph of $y=x^3+3x^2-4$ and also maps point A onto point A'. [3 marks]",
+   "answer_status": "ok",
+   "note": "Question prints g'(0)=(0); read as g'(0)=0."
+  },
+  "3": {
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.3",
+    "2.10",
+    "2.16",
+    "2.9",
+    "5.6",
+    "5.8",
+    "5.11"
+   ],
+   "text_clean": "3. [Maximum mark: 16]\nLet $f(x)=\\ln|x^5-3x^2|$, $-0.5<x<2$, $x\\neq a$, $x\\neq b$; ($a$, $b$ are values of $x$ for which $f(x)$ is not defined).\n(a) (i) Sketch the graph of $f(x)$, indicating on your sketch the number of zeros of $f(x)$. Show also the position of any asymptotes. [2 marks]\n(ii) Find all the zeros of $f(x)$, (that is, solve $f(x)=0$). [3 marks]\n(b) Find the exact values of $a$ and $b$. [3 marks]\n(c) Find $f'(x)$, and indicate clearly where $f'(x)$ is not defined. [3 marks]\n(d) Find the exact value of the x-coordinate of the local maximum of $f(x)$, for $0<x<1.5$. (You may assume that there is no point of inflexion.) [3 marks]\n(e) Write down the definite integral that represents the area of the region enclosed by $f(x)$ and the x-axis. (Do not evaluate the integral.) [2 marks]",
+   "answer_status": "ok",
+   "note": "audit: d/dx ln|x^5-3x^2| is SL 5.6, not 5.15"
+  },
+  "4": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9"
+   ],
+   "text_clean": "4. [Maximum mark: 12]\nA machine is set to produce bags of salt, whose weights are distributed normally, with a mean of 110 g and standard deviation of 1.142 g. If the weight of a bag of salt is less than 108 g, the bag is rejected. With these settings, 4% of the bags are rejected.\nThe settings of the machine are altered and it is found that 7% of the bags are rejected.\n(a) (i) If the mean has not changed, find the new standard deviation, correct to three decimal places. [4 marks]\nThe machine is adjusted to operate with this new value of the standard deviation.\n(ii) Find the value, correct to two decimal places, at which the mean should be set so that only 4% of the bags are rejected. [4 marks]\n(b) With the new settings from part (a), it is found that 80% of the bags of salt have a weight which lies between $A$ g and $B$ g, where $A$ and $B$ are symmetric about the mean. Find the values of $A$ and $B$, giving your answers correct to two decimal places. [4 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "5",
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "5.12",
+    "1.15",
+    "3.10",
+    "5.6"
+   ],
+   "text_clean": "5. [Maximum mark: 18]\n(i) Differentiate from first principles $f(x)=\\cos x$. [8 marks]\n(ii) Prove by mathematical induction that $\\frac{d}{dx}(x^n)=nx^{n-1}$, for all positive integer values of $n$. [10 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L5",
+    "4.L7",
+    "4.8",
+    "4.9"
+   ],
+   "text_clean": "6. [Maximum mark: 30]\nA computer manufacturing company buys large quantities of hard discs from several suppliers. Hard disc quality is checked by a process called RTT which gives results on a continuous scale from 0 to 100. Based on previous experience the company assumes that the results are normally distributed with a mean of 68 and standard deviation of 3.\nShipments arrive from suppliers on a daily basis. A sample of 10 hard discs is taken from each shipment at random and tested. If the mean of the sample is more than 67, the shipment is accepted, otherwise it is rejected.\n(a) What is the probability that a hard disc selected at random has a result less than 67? [2 marks]\n(b) Find the probability that a shipment is rejected. [4 marks]\n(c) There is a \\$1000 penalty each day that a shipment is rejected. A particular supplier's hard discs have a mean of 67.5 and a standard deviation of 2.8.\n(i) What is the probability that this supplier's shipment is accepted? [3 marks]\n(ii) What is the expected penalty per 6-day week for this supplier? [6 marks]\n(d) The company's own production of hard discs has a mean of 68 and a standard deviation of 3. However, to keep the production within the acceptable limits, the company samples 10 hard discs every hour and examines whether the sample is accepted or rejected. During a particular hour, the following results were recorded for a sample that was randomly chosen for testing:\n68.1747, 68.0473, 66.3189, 66.2735, 66.957, 66.9738, 66.1438, 67.0744, 66.1875, 67.8804\nAt the 5% level of significance determine whether the sample meets the company's standard for acceptance. [7 marks]\n(e) Every week, the company randomly selects the test results of 1000 hard discs and checks if these results come from a normal distribution (with a mean of 68 and standard deviation of 3) or not. The following table gives the results, $R$, for one such test.\nResults | Frequency\n$56\\le R<59$ | 5\n$59\\le R<62$ | 17\n$62\\le R<65$ | 146\n$65\\le R<68$ | 333\n$68\\le R<71$ | 360\n$71\\le R<74$ | 113\n$R\\ge 74$ | 26\nCheck, at the 5% level of significance, whether the above data comes from a normal population with a mean of 68 and standard deviation of 3. [8 marks]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.4",
+    "7.9",
+    "7.6",
+    "7.2",
+    "7.1",
+    "7.3",
+    "1.15"
+   ],
+   "text_clean": "7. [Maximum mark: 30]\n(i) Let $X$ and $Y$ be two non-empty sets.\n(a) Define the operation $X\\bullet Y$ by $X\\bullet Y=(X\\cap Y)\\cup(X'\\cap Y')$. Prove that $(X\\bullet Y)'=(X\\cup Y)\\cap(X'\\cup Y')$. [3 marks]\n(b) Let $f:\\mathbb{N}\\to\\mathbb{N}$ be defined by $f(n)=n+1$, for all $n\\in\\mathbb{N}$. Determine if $f$ is an injection, a surjection, or a bijection. Give reasons for your answer. [3 marks]\n(c) Let $h:X\\to Y$, and let $R$ be an equivalence relation on $Y$. $y_1 R y_2$ denotes that two elements $y_1$ and $y_2$ of $Y$ are related.\nDefine a relation $S$ on $X$ by the following:\nFor all $a, b\\in X$, $a S b$ if and only if $h(a) R h(b)$.\nDetermine if $S$ is an equivalence relation on $X$. [4 marks]\n(ii) (a) Let $f_1, f_2, f_3, f_4$ be functions defined on $\\mathbb{Q}-\\{0\\}$, the set of rational numbers excluding zero, such that $f_1(z)=z$, $f_2(z)=-z$, $f_3(z)=\\frac{1}{z}$, and $f_4(z)=-\\frac{1}{z}$, where $z\\in\\mathbb{Q}-\\{0\\}$.\nLet $T=\\{f_1,f_2,f_3,f_4\\}$. Define $\\circ$ as the composition of functions i.e. $(f_1\\circ f_2)(z)=f_1(f_2(z))$. Prove that $(T,\\circ)$ is an Abelian group. [6 marks]\n(b) Let $G=\\{1,3,5,7\\}$ and $(G,\\diamond)$ be the multiplicative group under the binary operation $\\diamond$, multiplication modulo 8. Prove that the two groups $(T,\\circ)$ and $(G,\\diamond)$ are isomorphic. [5 marks]\n(iii) Let $a$, $b$ and $p$ be elements of a group $(H,*)$ with an identity element $e$.\n(a) If element $a$ has order $n$ and element $a^{-1}$ has order $m$, then prove that $m=n$. [5 marks]\n(b) If $b=p^{-1}*a*p$, prove, by mathematical induction, that $b^m=p^{-1}*a^m*p$, where $m=1,2,\\ldots$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.12",
+    "6.10",
+    "6.8",
+    "6.11",
+    "6.7",
+    "6.6",
+    "1.15"
+   ],
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "(iv) well-ordering principle (7 marks) has no taxonomy code; tagged 1.15 (proof by contradiction used in markscheme).",
+   "text_clean": "8. [Maximum marks: 30]\n(i) A chemical manufacturer has to transport six chemical products from a factory to a processing plant by rail. Some of the products cannot be taken in the same railroad car because of the possibility of their mixing together and creating a violent reaction if an accident happens. The six products are labelled as $A$, $B$, $C$, $D$, $E$, and $F$. It is known that $A$ cannot be kept in the same railroad car as $B$, $C$, or $D$; $B$ cannot be kept in the same railroad car as $C$ or $E$; $C$ cannot be kept with $D$; and $E$ cannot be kept with $F$.\n(a) Draw a graph where each vertex represents a product and the edges join pairs of products which cannot be in the same railroad car. [2 marks]\n(b) Find the chromatic number of this graph and show a possible arrangement for transporting the six products. [4 marks]\n(ii) Let $G$ be the graph given below:\n[Diagram: weighted graph with vertices A, B, C, D, E, U; edges AB=9, AD=3, DB=11, DU=9, DE=13, BU=8, BC=8, UC=5, UE=6, CE=3]\n(a) Has $G$ got an Eulerian circuit? Give a reason for your answer. [2 marks]\n(b) What is the adjacency matrix of the graph $G$? Determine how many walks of length 2 are there from vertex $A$ to vertex $C$. [4 marks]\n(c) Use Kruskal's algorithm to find the minimum spanning tree for graph $G$. [5 marks]\n(iii) Find the solution of the difference equation $y_{n+2}=y_{n+1}+y_n$, $y_0=4$, and $y_1=3$. [6 marks]\n(iv) (a) State the well-ordering principle for the set of positive integers. [2 marks]\n(b) Extend this notion to any set where elements can be ordered. [2 marks]\n(c) By giving reasons, carefully, establish whether $\\mathbb{Z}$, the set of integers, is well-ordered. [3 marks]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L4",
+    "5.L2",
+    "5.19",
+    "5.L1"
+   ],
+   "text_clean": "9. [Maximum mark: 30]\n(i) Let $f(x)=x^7+5x+1$, $-2\\le x\\le 2$.\n(a) Use the Newton-Raphson method with an initial value $x_0=-0.5$ to obtain a real root (zero) of $f$ correct to 8 decimal places. Explain how your result for the third iteration has been obtained. [4 marks]\n(b) Apply fixed point iteration with $x_0=-0.5$ to calculate three iterates to find a solution of $f(x)=0$. From your calculation, determine if the fixed point iteration will give a real root (zero) of $f$. Give a reason for your answer. [4 marks]\n(c) Using Rolle's theorem prove that the equation $f(x)=0$ has exactly one real root. [4 marks]\n(ii) (a) Find the Maclaurin series of the function $g(x)=\\sin x^2$ using the series expansion of $\\sin x$, i.e. $\\sin x=\\sum_{n=0}^{\\infty}(-1)^n\\frac{x^{2n+1}}{(2n+1)!}$. [1 mark]\n(b) Using the Maclaurin series of $g(x)=\\sin x^2$ evaluate the definite integral $\\int_0^1 \\sin x^2\\,dx$ correct to four decimal places. [5 marks]\n(iii) (a) Use the ratio test to calculate the radius of convergence of the power series $\\sum_{n=1}^{\\infty}\\frac{(x-5)^n}{n^{3/2}}$. [3 marks]\n(b) Using your result from part (a), determine all points $x$ where the power series given in (a) converges. [5 marks]\n(iv) Using the mean value theorem prove that $|\\sin x\\cos x-\\sin y\\cos y|\\le|x-y|$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "8",
+    "5"
+   ],
+   "subtopics": [
+    "8.1",
+    "8.2",
+    "5.14"
+   ],
+   "text_clean": "10. [Maximum mark: 30]\n(i) Let $e_1$ and $e_2$ be the eccentricities of the hyperbolas $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$ and $\\frac{y^2}{b^2}-\\frac{x^2}{a^2}=1$, respectively. Prove that $\\frac{1}{e_1^2}+\\frac{1}{e_2^2}=1$ [3 marks]\n(ii) Let $F_1$ and $F_2$ be the foci of the hyperbola $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$ and P be any point on the hyperbola with coordinates $(x_0, y_0)$.\n(a) Let (PM) be the tangent to the hyperbola at P, with M being on the x-axis between $F_1$ and $F_2$. Find the coordinates of the point M. [4 marks]\n(b) Find the lengths $PF_1$, $PF_2$, $MF_1$, $MF_2$ in terms of $a$, $x_0$ and $e$. [5 marks]\n(c) Using an appropriate theorem from euclidean geometry, prove that [PM] is the angle bisector of $F_1\\hat{P}F_2$, stating which theorem you are using. [4 marks]\n(iii) If ABCD is a cyclic quadrilateral, then prove Ptolemy's theorem: $AB\\times CD+BC\\times DA=AC\\times BD$ [5 marks]\n(iv) In a triangle ABC, $A\\hat{C}B>A\\hat{B}C$. Let M and N be points on [AC] and [AB], respectively, such that [CN] and [BM] are the angle bisectors of $A\\hat{C}B$ and $A\\hat{B}C$ respectively. Let M' be the point on [BM] which is nearer to the point M and is such that $M'\\hat{C}N=\\frac{1}{2}(A\\hat{B}C)$.\n(a) Prove that BNM'C is a cyclic quadrilateral. [4 marks]\n(b) Prove that $BM'>CN$. [5 marks]",
+   "answer_status": "ok"
+  }
+ }
+}

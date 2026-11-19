@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2017-M-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.1"],
+      "text_clean": "1. [Maximum mark: 10]\nThe set $A$ contains all positive integers less than $20$ that are congruent to $3$ modulo $4$.\nThe set $B$ contains all the prime numbers less than $20$.\n(a) (i) Write down all the elements of $A$ and all the elements of $B$.\n(ii) Determine the symmetric difference, $A \\Delta B$, of the sets $A$ and $B$. [4]\n(b) The set $C$ is defined as $C = \\{7, 9, 13, 19\\}$.\n(i) Write down all the elements of $A \\cap B$, $A \\cap C$ and $B \\cup C$.\n(ii) Hence by considering $A \\cap (B \\cup C)$, verify that in this case the operation $\\cap$ is distributive over the operation $\\cup$. [6]"
+    },
+    "2": {
+      "topics": ["7", "6"],
+      "subtopics": ["7.2", "6.4"],
+      "text_clean": "2. [Maximum mark: 11]\nThe relation $R$ is defined such that $aRb$ if and only if $4^a - 4^b$ is divisible by $7$, where $a, b \\in \\mathbb{Z}^+$.\n(a) (i) Show that $R$ is an equivalence relation.\n(ii) Determine the equivalence classes of $R$. [9]\nThe equivalence relation $S$ is defined such that $cSd$ if and only if $4^c - 4^d$ is divisible by $6$, where $c, d \\in \\mathbb{Z}^+$.\n(b) Determine the number of equivalence classes of $S$. [2]"
+    },
+    "3": {
+      "topics": ["7", "1"],
+      "subtopics": ["7.3", "1.16"],
+      "text_clean": "3. [Maximum mark: 13]\nThe function $f: \\mathbb{R} \\times \\mathbb{R} \\to \\mathbb{R} \\times \\mathbb{R}$ is defined by $f(x, y) = (2x^3 + y^3, x^3 + 2y^3)$.\n(a) Show that $f$ is a bijection. [12]\n(b) Hence write down the inverse function $f^{-1}(x, y)$. [1]"
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.5", "7.9", "7.6", "7.8"],
+      "text_clean": "4. [Maximum mark: 16]\nThe binary operation $*$ is defined by\n$a * b = a + b - 3$ for $a, b \\in \\mathbb{Z}$.\n(a) Show that $\\{\\mathbb{Z}, *\\}$ is an Abelian group. [9]\n(b) Show that there is no element of order $2$. [2]\n(c) Find a proper subgroup of $\\{\\mathbb{Z}, *\\}$. [2]\nThe binary operation $\\circ$ is defined by\n$a \\circ b = a + b + 3$ for $a, b \\in \\mathbb{Z}$.\nConsider the group $\\{\\mathbb{Z}, \\circ\\}$ and the bijection $f: \\mathbb{Z} \\to \\mathbb{Z}$ given by $f(a) = a - 6$.\n(d) Show that the groups $\\{\\mathbb{Z}, *\\}$ and $\\{\\mathbb{Z}, \\circ\\}$ are isomorphic. [3]"
+    }
+  }
+}

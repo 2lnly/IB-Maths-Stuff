@@ -1,0 +1,35 @@
+{
+  "exam_id": "math-2019-M-P3-calculus",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.18"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 7]\nA simple model to predict the population of the world is set up as follows. At time $t$ years the population of the world is $x$, which can be assumed to be a continuous variable. The rate of increase of $x$ due to births is $0.056x$ and the rate of decrease of $x$ due to deaths is $0.035x$.\n(a) Show that $\\frac{dx}{dt} = 0.021x$. [1]\n(b) Find a prediction for the number of years it will take for the population of the world to double. [6]"
+    },
+    "2": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.19", "5.15", "1.8"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 9]\n(a) Show that $1 - x^2 + x^4 - x^6 + \\ldots = \\frac{1}{1+x^2}$, where $|x| < 1$. [1]\n(b) Hence write down the first four non-zero terms of the power series for $f(x) = \\frac{1}{1+4x^2}$. [2]\n(c) Using the result in (b), find the first four non-zero terms of the power series for $g(x) = \\arctan 2x$. [6]"
+    },
+    "3": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.L1", "1.8"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 9]\nConsider the series $\\sum_{n=1}^{\\infty} \\frac{A \\times 8^n}{3^{2n+1}}$.\n(a) Given that $A = \\frac{1}{n}$, use the comparison test to show that the series converges. [4]\n(b) Given that $A = n$, determine whether the series diverges or converges. [5]"
+    },
+    "4": {
+      "topics": ["5"],
+      "subtopics": ["5.13", "5.15", "5.6"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 9]\nUsing L'Hôpital's rule, find $\\lim_{x \\to 0} \\left( \\frac{\\tan 3x - 3\\tan x}{\\sin 3x - 3\\sin x} \\right)$. [9]"
+    },
+    "5": {
+      "topics": ["5"],
+      "subtopics": ["5.18", "5.4", "5.14"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 16]\nConsider the differential equation $2xy\\frac{dy}{dx} = y^2 - x^2$, where $x > 0$.\n(a) Solve the differential equation and show that a general solution is $x^2 + y^2 = cx$ where $c$ is a positive constant. [11]\n(b) Prove that there are two horizontal tangents to the general solution curve and state their equations, in terms of $c$. [5]"
+    }
+  }
+}

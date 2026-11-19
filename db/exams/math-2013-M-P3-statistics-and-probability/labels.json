@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2013-M-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L5", "4.L6"],
+      "text_clean": "1. [Maximum mark: 10]\nThe random variable $X$ is normally distributed with unknown mean $\\mu$ and unknown variance $\\sigma^2$. A random sample of 20 observations on $X$ gave the following results.\n$\\sum x = 280, \\sum x^2 = 3977.57$\n(a) Find unbiased estimates of $\\mu$ and $\\sigma^2$. [3 marks]\n(b) Determine a 95 % confidence interval for $\\mu$. [3 marks]\n(c) Given the hypotheses\n$\\mathrm{H}_0: \\mu = 15;\\ \\mathrm{H}_1: \\mu \\neq 15$,\nfind the $p$-value of the above results and state your conclusion at the 1 % significance level. [4 marks]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L9", "4.L1"],
+      "text_clean": "2. [Maximum mark: 12]\nA hockey team played 60 matches last season. The manager believes that the number of goals scored by the team in a match could be modelled by a Poisson distribution and he produces the following table based on the season's results.\nNumber of goals | 0 | 1 | 2 | 3 | 4 | 5\nFrequency | 8 | 9 | 17 | 14 | 7 | 5\n(a) State suitable hypotheses to test the manager's belief. [1 mark]\n(b) The manager decides to carry out an appropriate $\\chi^2$ goodness of fit test.\n(i) Construct a table of appropriate expected frequencies correct to four decimal places.\n(ii) Determine the value of $\\chi^2_{calc}$ and the corresponding $p$-value.\n(iii) State whether or not your analysis supports the manager's belief. [11 marks]"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L1"],
+      "text_clean": "3. [Maximum mark: 9]\nThe number of machine breakdowns occurring in a day in a certain factory may be assumed to follow a Poisson distribution with mean $\\mu$. The value of $\\mu$ is known, from past experience, to be 1.2. In an attempt to reduce the value of $\\mu$, all the machines are fitted with new control units. To investigate whether or not this reduces the value of $\\mu$, the total number of breakdowns, $x$, occurring during a 30-day period following the installation of these new units is recorded.\n(a) State suitable hypotheses for this investigation. [1 mark]\n(b) It is decided to define the critical region by $x \\le 25$.\n(i) Calculate the significance level.\n(ii) Assuming that the value of $\\mu$ was actually reduced to 0.75, determine the probability of a Type II error. [8 marks]"
+    },
+    "4": {
+      "topics": ["4"],
+      "subtopics": ["4.L5", "4.L3", "4.14"],
+      "text_clean": "4. [Maximum mark: 14]\nThe continuous random variable $X$ has probability density function $f$ given by\n$f(x) = \\begin{cases} \\frac{3x^2+2x}{10}, & \\text{for } 1 \\le x \\le 2 \\\\ 0, & \\text{otherwise} \\end{cases}$\n(a) (i) Determine an expression for $F(x)$, valid for $1 \\le x \\le 2$, where $F$ denotes the cumulative distribution function of $X$.\n(ii) Hence, or otherwise, determine the median of $X$. [6 marks]\n(b) (i) State the central limit theorem.\n(ii) A random sample of 150 observations is taken from the distribution of $X$ and $\\bar{X}$ denotes the sample mean. Use the central limit theorem to find, approximately, the probability that $\\bar{X}$ is greater than 1.6. [8 marks]"
+    },
+    "5": {
+      "topics": ["4", "1"],
+      "subtopics": ["4.L2", "4.8", "1.10"],
+      "text_clean": "5. [Maximum mark: 15]\nWhen Ben shoots an arrow, he hits the target with probability 0.4. Successive shots are independent.\n(a) Find the probability that\n(i) he hits the target exactly 4 times in his first 8 shots;\n(ii) he hits the target for the 4th time with his 8th shot. [6 marks]\n(b) Ben hits the target for the 10th time with his $X$th shot.\n(i) Determine the expected value of the random variable $X$.\n(ii) Write down an expression for $\\mathrm{P}(X = x)$ and show that\n$\\frac{\\mathrm{P}(X = x)}{\\mathrm{P}(X = x-1)} = \\frac{3(x-1)}{5(x-10)}$.\n(iii) Hence, or otherwise, find the most likely value of $X$. [9 marks]"
+    }
+  }
+}

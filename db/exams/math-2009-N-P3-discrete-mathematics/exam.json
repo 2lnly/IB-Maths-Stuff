@@ -1,0 +1,132 @@
+{
+ "exam_id": "math-2009-N-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2009,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2009 November Examination Session/Mathematics_paper_3_Discrete_mathematics_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2009 November Examination Session/Mathematics_paper_3_Discrete_mathematics_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8809-7207; code N09/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2009-N-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 9]\nAn arithmetic sequence has first term 2 and common difference 4. Another arithmetic\nsequence has first term 7 and common difference 5. Find the set of all numbers which\nare members of both sequences.",
+   "ms_text": "1. the mth term of the first sequence 2 4( m 1) (M1)(A1)\nthe nth term of the second sequence 7 5( n 1) (A1)\nEITHER\nequating these, M1\n5 n 4 m 4\n5 n 4( m 1) (A1)\n4 and 5 are coprime (M1)\n4n so n 4 s or 5( m 1) so m 5 s 1 , s (A1)A1\nthus the common terms are of the form{2 20; ss } A1\nOR\nthe numbers of both sequences are\n2, 6, 10, 14, 18, 22\n7, 12, 17, 22 A1\nso 22 is common A1\nidentify the next common number as 42 (M1)A1\nthe general solution is {2 20; ss } (M1)A1\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.3",
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 9]\nAn arithmetic sequence has first term 2 and common difference 4. Another arithmetic sequence has first term 7 and common difference 5. Find the set of all numbers which are members of both sequences."
+  },
+  {
+   "id": "math-2009-N-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 16]\nThe diagram below shows the weighted graph G .\nB 5 C\n1 8\n7 6\n3 4 A\nD\n2 7\nF 9 E\n(a) (i) What feature of the graph enables you to deduce that G contains an\nEulerian circuit?\n(ii) Find an Eulerian circuit. [3 marks]\n(b) (i) Find the number of distinct walks of length 4 beginning and ending at F.\n(ii) Determine which of these walks has the minimum weight.\n(iii) Determine which of these walks has the maximum weight. [7 marks]\n(c) Use Kruskal’s Algorithm to find the minimum spanning tree for G , showing the\norder in which the edges are added. [6 marks]",
+   "ms_text": "2. (a) (i) all the vertices have even degree A1\n(ii) for example ABCDECFBEFA A2\n[3 marks]\n(b) (i) the adjacency matrix is\n0 1 0 0 0 1\n1 0 1 0 1 1\n0 1 0 1 1 1\nA (M1)(A1)\n0 0 1 0 1 0\n0 1 1 1 0 1\n1 1 1 0 1 0\nattempting to find A 4 (M1)\n14 17 22 8 22 17\n17 38 32 22 32 37\n22 32 38 17 37 32\n4 A\n8 22 17 14 17 22\n22 32 37 17 38 32\n17 37 32 22 32 38\nthe required number of walks is the (F, F) element in Awhich is 38 4 A2\n(ii) FABAF (6) A1\n(iii) FEFEF (36) A1\n[7 marks]\n(c) the edges are included in the order shown\nM1A1A1A1A1A1\nNote: Award each A1 for the edge added in the correct order. Award no further marks\nafter the first error.\n[6 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.11",
+    "6.8",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 16]\nThe diagram below shows the weighted graph $G$.\n[Diagram: weighted graph on vertices A, B, C, D, E, F with edges AB = 1, AF = 2, BF = 3, CE = 4, BC = 5, CF = 6, BE = 7, ED = 7, CD = 8, FE = 9]\n(a) (i) What feature of the graph enables you to deduce that $G$ contains an Eulerian circuit?\n(ii) Find an Eulerian circuit. [3 marks]\n(b) (i) Find the number of distinct walks of length 4 beginning and ending at F.\n(ii) Determine which of these walks has the minimum weight.\n(iii) Determine which of these walks has the maximum weight. [7 marks]\n(c) Use Kruskal's Algorithm to find the minimum spanning tree for $G$, showing the order in which the edges are added. [6 marks]"
+  },
+  {
+   "id": "math-2009-N-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 11]\n′ (a) The planar graph G and its complement G are both simple and connected.\nGiven that G has 6 vertices and 10 edges, show that G is a tree. ′ [5 marks]\n(b) Consider the following graphs.\nP B Q\nC\nA U D\nR\nF E T S\nGraph 1Graph 2\n(i) Give a reason why these two graphs are not isomorphic.\n(ii) Show, however, that an isomorphism can be produced by removing the\nedge UQ in Graph 2 and replacing it by a different edge. In addition to\nstating the new edge, your solution should indicate the bijection between\nthe two graphs. [6 marks]",
+   "ms_text": "3. (a) the complete graph with 6 vertices has 15 edges so G has\n6 vertices and 5 edges M1A1\nthe number of faces in G, f 2 e v 1 M1A1\nit is therefore a tree because f 1 R1\nNote: Accept it is a tree because v e 1 .\n[5 marks]\n(b) (i) They are not isomorphic because, for example, in Graph 1 the vertex\nof degree 1 is adjacent to a vertex of degree 3; in Graph 2 the vertex of\ndegree 1 is adjacent to a vertex of degree 4. R2\n(ii) remove UQ and insert RT A2\nthe bijection is\nA, B, C, D, E, F → S, Q, R, P, U, T A2\n[6 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 11]\n(a) The planar graph $G$ and its complement $G'$ are both simple and connected. Given that $G$ has 6 vertices and 10 edges, show that $G'$ is a tree. [5 marks]\n(b) Consider the following graphs.\n[Diagram: Graph 1 with vertices A, B, C, D, E, F and edges AB, BC, AC, AF, CF, CE, FE, ED; Graph 2 with vertices P, Q, R, S, T, U and edges PU, UT, TS, UQ, UR, QR, QS, RS]\n(i) Give a reason why these two graphs are not isomorphic.\n(ii) Show, however, that an isomorphism can be produced by removing the edge UQ in Graph 2 and replacing it by a different edge. In addition to stating the new edge, your solution should indicate the bijection between the two graphs. [6 marks]"
+  },
+  {
+   "id": "math-2009-N-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 16]\n(a) Show that a positive integer, written in base 10, is divisible by 9 if the sum of\nits digits is divisible by 9. [7 marks]\n(b) The representation of the positive integer N in base p is denoted by ( N ) p.\n( ) If ( 5126 7 ) = ( aa ... a a ) [9 marks]\n, find a0 . 7 n n − 1 1 0 7",
+   "ms_text": "4. (a) consider the decimal number A aa ... a M1\nn n 1 0\nA a 10 n a 10 n 1 ... a 10 a M1\nn n 1 1 0\nn n 1 a (10 1) a (10 1) ... a (101) a a ... a M1A1\nn n 1 1 n n 1 0\na 99...9( digits) n a 99...9( n 1 digits) ...9 a a a ... a A1\nn n 1 1 n n 1 0\nall the numbers of the form 99…9 are divisible by 9 (to give 11…1), R1\nn\nhence A is divisible by 9 if R1 ais divisible by 9\ni\ni 0\nNote: A method that uses the fact that 10 t 1(mod9) is equally valid.\n[7 marks]\n(b) by Fermat’s Little Theorem 65 1(mod7) M1A1\n(126) (4914 6) (69) M1A1\n7 10 10\n(126) (1163) (3) 5 7 5 10 5 10 (mod7) M1A1\n5 (3) 10 (125) (177 6) 6(mod7) M1A1\n10 10\nhence a 6 A1\n0\n[9 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.5",
+    "6.1",
+    "6.4",
+    "6.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 16]\n(a) Show that a positive integer, written in base 10, is divisible by 9 if the sum of its digits is divisible by 9. [7 marks]\n(b) The representation of the positive integer $N$ in base $p$ is denoted by $(N)_p$. If $(5^{(126)_7})_7 = (a_n a_{n-1} \\ldots a_1 a_0)_7$, find $a_0$. [9 marks]"
+  },
+  {
+   "id": "math-2009-N-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 8]\nShow that a graph is bipartite if and only if it contains only cycles of even length.",
+   "ms_text": "5. Suppose the graph is bipartite so that the vertices belong to one of two disjoint\nsets M, N. M1\nThen consider any vertex V in M. To generate a cycle returning to V, we must\ngo to a vertex in N, then to a vertex in M, then to a vertex in N, then to a vertex\nin M, etc. R1\nTo return to V, therefore, which belongs to M, an even number of steps will be\nrequired. R1\nNow suppose the graph contains only cycles of even length. M1\nStarting at any vertex V, define the set M as containing those vertices accessible\nfrom V in an even number of steps and the set N as containing those vertices\naccessible from V in an odd number of steps. R1\nSuppose that the vertex X belongs to both M and N. Then consider the closed\nwalk from V to X one way and back to V the other way. This closed walk will\nbe of odd length. This closed walk can be contracted to a cycle which will also\nbe of odd length, giving a contradiction to the initial assumption. R1\nThere can therefore be no vertices common to M and N which shows that the\nvertices can be divided into two disjoint sets and the graph is bipartite. R1\nConsider any edge joining P to vertex Q. Then either P M in which case\nQ N or vice versa. In either case an edge always joins a vertex in M to a\nvertex in N so the graph is bipartite. R1\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 8]\nShow that a graph is bipartite if and only if it contains only cycles of even length."
+  }
+ ],
+ "status": "done"
+}

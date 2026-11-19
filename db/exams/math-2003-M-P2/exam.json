@@ -1,0 +1,273 @@
+{
+ "exam_id": "math-2003-M-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2003,
+ "session": "May",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2003 May Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2003 May Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); marks sum matches expected total 100",
+ "qp_pages": 11,
+ "questions": [
+  {
+   "id": "math-2003-M-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 12,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 12]\n2 x\nThe function f is defined by fx= () , for x> 0.\n2x\n(a) (i) Show that\n2 2 x − x ln 2\n′ = f () x .\n2x\n(ii) Obtain an expression for f ′′ () x , simplifying your answer as far as\npossible. [5 marks]\n(b) (i) Find the exact value of x satisfying the equation f ′ () x = 0 .\n(ii) Show that this value gives a maximum value for fx () . [4 marks]\n(c) Find the x-coordinates of the two points of inflexion on the graph of f. [3 marks]",
+   "ms_text": "x 2 x 2 x ⋅ 2 − x 2ln2\n1. (a) (i) f ′ () x = (M1)(A1)\n2 x 2\n2 2 x − x ln2\n= (AG)\n2x\nx − − x − 2 2[2 2ln2] x 2ln2[2 x x ln2]\n(ii) f ′′ () x = (M1)(A1)\n2 2 x\n2 2 x (ln2) − 4ln2 x + 2\n= (A1)\n2x\nNote: Award the second (A1) for some form of simplification,\nx ln2(ln2 x − 4) + 2\ne.g. accept .\n2x\n[5 marks]\n2\n− 2 = = (b) (i) 2 x x ln2 0giving x (M1)(A1)\nln2\nAward (M1)(A0) for x= 2.89. Note:\n(ii) With this value of x,\n4 −+ 8 2\nf ′′ () x = < 0 (M1)(A1)\n+ ve number\nTherefore, a maximum. (AG)\n[4 marks]\nf ′′ (c) Points of inflexion satisfy (0) = 0 , i.e.\n2 2 x (ln2) − 4ln2 x + 2 = 0 (M1)\n2 4ln2 ± 8(ln 2)\n⇒ x = (A1)\n2 2(ln2)\n2 ± 2(0.845, 4.93)\n= = (A1)\nln2\nOR\nx = (M1)(G1)(G1) 0.845, 4.93\n[3 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.6",
+    "5.8",
+    "5.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 12]\nThe function $f$ is defined by $f(x)=\\frac{x^2}{2^x}$, for $x>0$.\n(a) (i) Show that $f'(x)=\\frac{2x-x^2\\ln 2}{2^x}$.\n(ii) Obtain an expression for $f''(x)$, simplifying your answer as far as possible. [5 marks]\n(b) (i) Find the exact value of $x$ satisfying the equation $f'(x)=0$.\n(ii) Show that this value gives a maximum value for $f(x)$. [4 marks]\n(c) Find the $x$-coordinates of the two points of inflexion on the graph of $f$. [3 marks]"
+  },
+  {
+   "id": "math-2003-M-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 16]\n(i) The transformations TTT , , , in the plane are defined as follows:\n1 2 3\nT 1: A rotation through 180� about the origin.\nT 2: A reflection in the line y=x.\n90� T 3: An anticlockwise rotation through about the origin.\n× (a) Write down the 2 2 matrices representing TT , and T . [3 marks]\n1 2 3\n(b) The transformation T is defined as 1T followed by T followed by T .\n2 3\n(i) Find the × matrix representing T. 2 2\n(ii) Give a full geometric description of the transformation T. [4 marks]\n(ii) The variables x, y, z satisfy the simultaneous equations\nx + 2 y + z = k\n2 x + y + 4 z = 6\nx − 4 y + 5 z = 9\nwhere k is a constant.\n(a) (i) Show that these equations do not have a unique solution.\n(ii) Find the value of k for which the equations are consistent\n(that is, they can be solved). [6 marks]\n(b) For this value of k, find the general solution of these equations. [3 marks]",
+   "ms_text": "− 1 0 0 1 0 − 1\n2. (i) (a) T = ; T = ; T =\n1 2 3 (A1)(A1)(A1)\n0 − 1 1 0 1 0\n[3 marks]\n0 − 1 0 1 − 1 0 1 0\n(b) (i) T = = (M1)(A1)\n1 0 1 0 0 − 1 0 − 1\n(ii) This is a reflection in the x-axis. (A1)(A1)\nNote: Award (M1)(A0)(A1)ft(A1)ft for correctly multiplying the wrong\n− 1 0\nway round – this gives which is a reflection in the y-axis.\n0 1\n[4 marks]\n(ii) (a) (i) Using row reduction,\nx + 2 y + z = k (M1)\n− 3 y + 2 z = 6 − 2 k (A1)\n6 y − 4 z = k − 9 (A1)\nx + 2 y + z = k\n− 3 y + 2 z = 6 − 2 k\n0 z = 3 − 3 k\nNot a unique solution because the coefficient of z in the third\nequation is zero.\n(ii) In order for the system to have a solution, (R1)\n3 – 3k= 0, (M1)\nconsistent for k= 1. (A1)\nOR\n(i) Consider\n1 2 1\n2 1 4 =× 121 −×+×− 261 9 (M1)\n− 1 4 5\n= 0 (A1)\nThe zero value confirms that the equations do not have a unique solution. (R1)\n(ii) Consider\n1 2 k\n= 2 1 4 9 − 9 k\n(M1)(A1)\n1 − 4 5\nConsistent when this determinant is zero, i.e.k= 1. (R1)\n[6 marks]\n(2 λ − 4) (117) − λ\n(b) The general solution is z = λ , y = , x = . (M1)(A1)(A1)\n3 3\n[3 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.16",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 16]\n(i) The transformations $T_1, T_2, T_3$, in the plane are defined as follows:\n$T_1$: A rotation through $180^\\circ$ about the origin.\n$T_2$: A reflection in the line $y=x$.\n$T_3$: An anticlockwise rotation through $90^\\circ$ about the origin.\n(a) Write down the $2\\times 2$ matrices representing $T_1$, $T_2$ and $T_3$. [3 marks]\n(b) The transformation $T$ is defined as $T_1$ followed by $T_2$ followed by $T_3$.\n(i) Find the $2\\times 2$ matrix representing $T$.\n(ii) Give a full geometric description of the transformation $T$. [4 marks]\n(ii) The variables $x, y, z$ satisfy the simultaneous equations\n$x+2y+z=k$\n$2x+y+4z=6$\n$x-4y+5z=9$\nwhere $k$ is a constant.\n(a) (i) Show that these equations do not have a unique solution.\n(ii) Find the value of $k$ for which the equations are consistent (that is, they can be solved). [6 marks]\n(b) For this value of $k$, find the general solution of these equations. [3 marks]"
+  },
+  {
+   "id": "math-2003-M-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 15]\n(a) Prove, using mathematical induction, that for a positive integer n,\nn 2 (cos θ + isin) θ = cos n θ + isin n θ where i = − 1 .\n[5 marks]\n(b) The complex number z is defined by z = cos θ + isin θ .\n1\n(i) Show that = cos( − θ ) + isin( − θ ) .\nz\nn − n (ii) Deduce that z + z = 2cos nθ . [5 marks]\n+ z− 15 (c) (i) Find the binomial expansion of ( z ) .\n1 5\n(ii) Hence show that cos θ = (cos5 θ + b cos3 θ + c cos) θ ,\n16a\nwhere a, b, c are positive integers to be found. [5 marks]",
+   "ms_text": "3. (a) The result is true for n= 1, since\nLHS = cos θ + isin θ\n= θ + θ and RHS cos isin (R1)\nLet the proposition be true for n=k. (M1)\nk + 1 Consider (cos θ + isin) θ = (cos k θ + isin k θ )(cos θ + isin) θ (M1)\n= cos k θ cos θ − sin k θ sin θ + i(sin k θ cos θ + cos k θ sin) θ\n= cos( k + 1) θ + isin( k + 1) θ (A1)\nTherefore, true for n = k ⇒ true for n = k + 1 and the proposition is proved by\ninduction. (R1)\n[5 marks]\n1 1 (cos θ − isin) θ\n(b) (i) = × (M1)\nz (cos θ + isin) θ (cos θ − isin) θ\n= (cos θ − isin) θ (A1)\n= cos( − θ ) + isin( − θ ) (AG)\nOR\n1 − 1\n= z (M1)\nz\n1 z −= cos( − θ ) + isin( − θ ) , by de Moivre’s theorem (accept the cis notation). (A1)(AG)\nNote: Award (M0)(A0) to candidates who use the result of part (a) with no\nconsideration that in this part, n< 0.\n− n − 1 n (ii) z = ( z ) = cos( − n θ ) + isin( − n θ )\n(A1)\nn − n z + z = cos n θ + isin n θ + cos( − n θ ) + isin( − n θ ) (M1)\n= cos n θ + isin n θ + cos( n θ ) − isin( n θ ) (A1)\n= 2cosnθ (AG)\n[5 marks]\n− 15 5 3 − 1 − 3 − 5 (c) (i) ( z + z ) = z + 5 z + 10 z + 10 z + 5 z + z\n(M1)(A1)\n5 (ii) (2cos) θ = 2cos5 θ + 10cos3 θ + 20cos θ (M1)(A1)\n1 5\ngiving a = 1, b = 5 and c = 10 (or cos θ = (cos5 θ + 5cos3 θ + 10cos) θ ). (A1)\n16\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.15",
+    "1.9",
+    "3.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 15]\n(a) Prove, using mathematical induction, that for a positive integer $n$, $(\\cos\\theta+\\mathrm{i}\\sin\\theta)^n=\\cos n\\theta+\\mathrm{i}\\sin n\\theta$ where $\\mathrm{i}^2=-1$. [5 marks]\n(b) The complex number $z$ is defined by $z=\\cos\\theta+\\mathrm{i}\\sin\\theta$.\n(i) Show that $\\frac{1}{z}=\\cos(-\\theta)+\\mathrm{i}\\sin(-\\theta)$.\n(ii) Deduce that $z^n+z^{-n}=2\\cos n\\theta$. [5 marks]\n(c) (i) Find the binomial expansion of $(z+z^{-1})^5$.\n(ii) Hence show that $\\cos^5\\theta=\\frac{1}{16}(a\\cos 5\\theta+b\\cos 3\\theta+c\\cos\\theta)$, where $a$, $b$, $c$ are positive integers to be found. [5 marks]"
+  },
+  {
+   "id": "math-2003-M-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 11,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 11]\nA business man spends X hours on the telephone during the day. The\nprobability density function of X is given by\n1(8 3 x − x ),for 0 ≤ x ≤ 2\nfx () = 12\n0, otherwise.\n(a) (i) Write down an integral whose value is E( X ) .\n(ii) Hence evaluate E( X ) . [3 marks]\n(b) (i) Show that the median, m, of X satisfies the equation\nm 4 − 16 m 2 + 24 = 0 .\n(ii) Hence evaluate m. [5 marks]\n(c) Evaluate the mode of X. [3 marks]",
+   "ms_text": "1 2 3\n4. (a) (i) ∫ x (8 x − x )d x = E( X ) (M1)(A1)\n12 0\n1\nNote: Award (M1) for − 3 , and (A1) for the correct limits. ∫ (8 x x )d x\n12x\n2\n1 8 x 5 3\n(ii) E( X ) = x −\n123 5\n0\n56\n= = 1.24 (A1)\n45\nOR\nE( X= ) 1.24 (G1)\n[3 marks]\n(b) (i) The median satisfies\n1 m 1 3\n∫ (8 x − x )d x = (M1)\n12 0 2\nm 4\nx\n4 x 2 − = 6 (A1)\n4\n0\nm 4 2\n4 m − − 0 = 6 (A1)\n4\n4 2 m − 16 m + 24 = 0 (AG)\n± − 16 256 96\n(ii) m 2 = (M1)\n2\nm = 8 − 40(1.29) = (A1)\nOR\nm = 1.29 (G2)\nNote: Award (M1)(A0) or (G1) if other values in addition to 1.29 are given.\n[5 marks]\n(c) For the mode, we require the value of x which maximises fx () . (M1)\n2 8 f ′ () x = 0 ⇒ 8 − 3 x = 0 ⇒ x = = 1.63 (M1)(A1)\n3\nOR\nx= 1.63 (G2)\n[3 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 11]\nA business man spends $X$ hours on the telephone during the day. The probability density function of $X$ is given by\n$f(x)=\\begin{cases}\\frac{1}{12}(8x-x^3), & \\text{for } 0\\le x\\le 2\\\\ 0, & \\text{otherwise.}\\end{cases}$\n(a) (i) Write down an integral whose value is $\\mathrm{E}(X)$.\n(ii) Hence evaluate $\\mathrm{E}(X)$. [3 marks]\n(b) (i) Show that the median, $m$, of $X$ satisfies the equation $m^4-16m^2+24=0$.\n(ii) Hence evaluate $m$. [5 marks]\n(c) Evaluate the mode of $X$. [3 marks]"
+  },
+  {
+   "id": "math-2003-M-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 16]\nπ\nThe function f with domain is defined by fx () = cos x + 3sin x .\n0,2\nThis function may also be expressed in the form R cos( x − α ) where R > 0 and\nπ\n0 < α < .\n2\n(a) Find the exact value of R and of α. [3 marks]\n(b) (i) Find the range of the function f.\n(ii) State, giving a reason, whether or not the inverse function of f\nexists. [5 marks]\n(c) Find the exact value of x satisfying the equation fx= () 2 . [3 marks]\n(d) Using the result\n∫ secd xx = lnsec x + tan x + C , where C is a constant,\nshow that\nπ\nd x\n2 1 ln3 ( ) ∫ + 23 . [5 marks]\nfx=\n0 () 2",
+   "ms_text": "+ = α + α (M1) 5. (a) cos x 3sin x R cos cos x R sin sin x\n⇒ R cos α = 1, R sin α = 3\nπ\n⇒ = α = R 2, (A1)(A1)\n3\nNote: Award (M1)(A1)(A0) if degrees used instead of radians.\n[3 marks]\nπ\n(b) (i) Since fx () = 2cos x − ,\n3\nπ\nf = 2when x = ; f = 1 (when x = 0)\nmax min (A1)(A1)\n3\nRange is [1, 2] (A1)\n(ii) Inverse does not exist because f is not 1:1 . (R2)\nNote: Award (R2) for a correct answer with a valid reason.\nAward (R1) for a correct answer with an attempt at a valid reason,\ne.g. horizontal line test.\nAward (R0) for just saying inverse does not exist, without any reason.\n[5 marks]\n(c) π 2\n= ⇒ − = fx () 2 cos x (M1)\n3 2\nπ π\nx − = ± (A1)\n3 4\nπ\nx = (A1)\n12\nOR\nfx= () 2\n(M1)\nx = 0.262 (G1)\nπ\n⇒ x = (A1)\n12\n[3 marks]\nπ 1 π\n2 (d) I = ∫ sec x − d x (M1)\n2 0 3\nπ\n1 π π 2\n(A1) = lnsec x − + tan x −\n2 3 3\n0\n2 1\n+\n1 3 3\n= ln (A1)(A1)\n2 2 − 3\n1 3(2 + 3) 1\n= ln = ln3 ( + 23 ) . (M1)(AG)\n2 (2 − 3)(2 + 3) 2\nNote: Award zero marks for any work using GDC.\n[5 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.8",
+    "5.15",
+    "2.2",
+    "2.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 16]\nThe function $f$ with domain $\\left[0,\\frac{\\pi}{2}\\right]$ is defined by $f(x)=\\cos x+\\sqrt{3}\\sin x$.\nThis function may also be expressed in the form $R\\cos(x-\\alpha)$ where $R>0$ and $0<\\alpha<\\frac{\\pi}{2}$.\n(a) Find the exact value of $R$ and of $\\alpha$. [3 marks]\n(b) (i) Find the range of the function $f$.\n(ii) State, giving a reason, whether or not the inverse function of $f$ exists. [5 marks]\n(c) Find the exact value of $x$ satisfying the equation $f(x)=\\sqrt{2}$. [3 marks]\n(d) Using the result $\\int\\sec x\\,\\mathrm{d}x=\\ln|\\sec x+\\tan x|+C$, where $C$ is a constant, show that $\\int_0^{\\frac{\\pi}{2}}\\frac{\\mathrm{d}x}{f(x)}=\\frac{1}{2}\\ln\\left(3+2\\sqrt{3}\\right)$. [5 marks]"
+  },
+  {
+   "id": "math-2003-M-P2-q6",
+   "num": "6",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 30]\n(i) Give all numerical answers to this part of the question correct to two\ndecimal places.\nA radar records the speed, v kilometres per hour, of cars on a road. The\nspeed of these cars is normally distributed. The results for 1000 cars are\nrecorded in the following table.\nSpeed Number of cars\n≤ < 40 v 50 9\n≤ < 50 v 60 35\n≤ < 60 v 70 93\n70 ≤ v < 80 139\n80 ≤ v < 90 261\n90 ≤ v < 100 295\n100 ≤ v < 110 131\n110 ≤ v < 120 26\n120 ≤ v < 130 11\n(a) For the cars on the road, calculate\n(i) an unbiased estimate of the mean speed;\n(ii) an unbiased estimate of the variance of the speed. [4 marks]\n(b) For the cars on the road, calculate\n(i) a 95 % confidence interval for the mean speed;\n(ii) a 90 % confidence interval for the mean speed. [4 marks]\n(c) Explain why one of the intervals found in part (b) is a subset of\nthe other. [2 marks]\n(ii) Give all numerical answers to this part of the question correct to three\nsignificant figures.\nTwo typists were given a series of tests to complete. On average,\nMr Brown made 2.7 mistakes per test while Mr Smith made 2.5 mistakes\nper test. Assume that the number of mistakes made by any typist follows\na Poisson distribution.\n(a) Calculate the probability that, in a particular test,\n(i) Mr Brown made two mistakes;\n(ii) Mr Smith made three mistakes;\n(iii) Mr Brown made two mistakes and Mr Smith made three\nmistakes. [6 marks]\n(b) In another test, Mr Brown and Mr Smith made a combined total of\nfive mistakes. Calculate the probability that Mr Brown made\nfewer mistakes than Mr Smith. [5 marks]\n(iii) A calculator generates a random sequence of digits. A sample of 200\ndigits is randomly selected from the first 100000 digits of the sequence.\nThe following table gives the number of times each digit occurs in this\nsample.\ndigit 0 1 2 3 4 5 6 7 8 9\nfrequency 17 21 15 19 25 27 19 23 18 16\nIt is claimed that all digits have the same probability of appearing in the\nsequence.\n(a) Test this claim at the 5 % level of significance. [7 marks]\n(b) Explain what is meant by the 5 % level of significance. [2 marks]",
+   "ms_text": "6. Note: Do not penalize candidates who give answers to more than the required accuracy.\n1\n(i) (a) (i) v= (459 ×+ 5535 × + 6593 × + 75139 × + 8526195295 × + ×\n1000\n+ 105131115 × + × 26 + 12511) × (M1)\n= 87.13(2 d.p.) (A1)\nNote: Award (M1)(A0) for candidates dividing by 999 to get = 87.22.\nOR\nv= 87.13 (G2)\n1 2 2 2 2\n(ii) s = (87.13 − 45) × 9 + (87.13 − 55) × 35 + (87.13 − 65) × 93\n999\n+ (87.13 − 75) 2 × 139 + (87.13 − 85) 2 × 261 + (87.13 − 95) 2 × 295\n2 2 2 + (87.13105) − × 131 + (87.13115) − × 26 + (87.13125) − × 11\n(M1)\n= 215.58 (2 d.p.) (A1)\nOR\n2 s= 215.58 (G2)\nNote: Award (M1)(A0) for finding the standard deviation 14.68 instead\nof the variance.\n[4 marks]\n(b) Note: Do not penalize candidates who use z-values rather than t-values.\n(i) The confidence interval is given by\nt × s t × s z × s\n0.025, 999 0.025, 999 0.025 v − , v + or v ±\n. (M1)\nn n n\nHence the confidence interval is [86.22, 88.04] . (A1)\nOR\nConfidence interval is [86.22, 88.04] . (G2)\n(ii) The confidence interval is given by\ns s z × s\n0.05 v − t × , v + t × or v ±\n. (M1) 0.05, 999 0.05, 999\nn n n\nHence the confidence interval is [86.37, 87.89] . (A1)\nOR\nConfidence interval is [86.37, 87.89] . (G2)\n[4 marks]\n(c) Greater confidence implies less accuracy. (R1)\nHence the confidence interval at the 95 % level contains the confidence level at\nthe 90 % level since they are symmetric about the same point, () v . (R1)\nNote: Award (R0)(R1) for a convincing diagram, showing some understanding of the\nquestion.\n[2 marks]\n(ii) B ∼ P(2.7), S ∼ P(2.5)\n− 2.7 2 e (2.7)\n= = = (a) (i) P( B 2) 0.245 (M1)(A1)\n2\n− 2.5 3 e (2.5)\n(ii) P( S = 3) = = 0.214 (M1)(A1)\n6\n(iii) The two events are independent.\n(M1)\n( = ∩ = ) = = × = P( B 2) ( S 3) P( B 2) P( S 3)\n= × 0.2140.245\n= 0.0524 (A1)\n[6 marks]\n− 5.2 5 e (5.2)\n(b) P( B + S = 5) = ≈ 0.175 (A1)\n120\n− 2.7 2 − 2.5 3 e (2.7) e (2.5)\nP( ( B = 2) ∩ ( S = 3) ) = × ≈ 0.2450.214 × = 0.0524\n2 6\n− 2.7 1 − 2.5 4 e (2.7) e (2.55)\nP( ( B = 1) ∩ ( S = 4) ) = × ≈ 0.1810.133 × = 0.0242 (A1)\n1 24\n− 2.7 0 − 2.5 5 e (2.7) e (2.5)\nP( ( B = 0) ∩ ( S = 5) ) = × ≈ 0.0670.067 × = 0.0045 (A1)\n1 120\n0.0524 + 0.0242 + 0.0045 0.0811\n< = = P( B S ) (M1)\n0.175 0.175\n= 0.464 (or 0.463) (A1)\n[5 marks]\n(iii) (a) H: The sequence contains equal numbers of each digit.\n0 (A1)\nH:\n1 The sequence does not contain equal numbers of each digit. (A1)\n++ ++ + ++ + + (91 251 25 4919 416)\nχ 2 = = 7 (M1)(A1)\ncalc\n20\nThe number of degrees of freedom is 9. (A1)\nχ 2 = 16.919\n0.95, 9 (A1)\n2 χ < 16.919 . Hence H is accepted.\n(A1) calc 0\n[7 marks]\n(b) The probability of rejecting H when it is true\n0 (A1)\nis 0.05. (A1)\nNote: Award (A1)(A1) for “the probability of a type I error is 0.05.”\n[2 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.L9",
+    "4.L6",
+    "4.L5",
+    "4.L4",
+    "4.11",
+    "4.L7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics",
+   "text_clean": "6. [Maximum mark: 30]\n(i) Give all numerical answers to this part of the question correct to two decimal places.\nA radar records the speed, $v$ kilometres per hour, of cars on a road. The speed of these cars is normally distributed. The results for 1000 cars are recorded in the following table.\nSpeed | Number of cars\n$40\\le v<50$ | 9\n$50\\le v<60$ | 35\n$60\\le v<70$ | 93\n$70\\le v<80$ | 139\n$80\\le v<90$ | 261\n$90\\le v<100$ | 295\n$100\\le v<110$ | 131\n$110\\le v<120$ | 26\n$120\\le v<130$ | 11\n(a) For the cars on the road, calculate\n(i) an unbiased estimate of the mean speed;\n(ii) an unbiased estimate of the variance of the speed. [4 marks]\n(b) For the cars on the road, calculate\n(i) a 95% confidence interval for the mean speed;\n(ii) a 90% confidence interval for the mean speed. [4 marks]\n(c) Explain why one of the intervals found in part (b) is a subset of the other. [2 marks]\n(ii) Give all numerical answers to this part of the question correct to three significant figures.\nTwo typists were given a series of tests to complete. On average, Mr Brown made 2.7 mistakes per test while Mr Smith made 2.5 mistakes per test. Assume that the number of mistakes made by any typist follows a Poisson distribution.\n(a) Calculate the probability that, in a particular test,\n(i) Mr Brown made two mistakes;\n(ii) Mr Smith made three mistakes;\n(iii) Mr Brown made two mistakes and Mr Smith made three mistakes. [6 marks]\n(b) In another test, Mr Brown and Mr Smith made a combined total of five mistakes. Calculate the probability that Mr Brown made fewer mistakes than Mr Smith. [5 marks]\n(iii) A calculator generates a random sequence of digits. A sample of 200 digits is randomly selected from the first 100000 digits of the sequence. The following table gives the number of times each digit occurs in this sample.\ndigit | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9\nfrequency | 17 | 21 | 15 | 19 | 25 | 27 | 19 | 23 | 18 | 16\nIt is claimed that all digits have the same probability of appearing in the sequence.\n(a) Test this claim at the 5% level of significance. [7 marks]\n(b) Explain what is meant by the 5% level of significance. [2 marks]"
+  },
+  {
+   "id": "math-2003-M-P2-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 30]\n(i) The set R of all real numbers under addition is a group ( R ,) + , and the\n+\nset R of all positive real numbers under multiplication is a group\n( R +× ,) . Let f denote the mapping of ( R ,) + to ( R +× ,) given by\nfx= () 3x .\n(a) Show that f is an isomorphism of ( R ,) + onto ( R +× ,) . [6 marks]\n1 (b) Find an expression for f− .\n[1 mark]\na b\n(ii) Let G = , where,, abc and d ∈ R , and ad − bc ≠ 0 .\nc d\nG∗ (a) Show that ( ,) is a group, where denotes matrix multiplication. * [6 marks]\n(b) Is this group Abelian? Give a reason for your answer. [3 marks]\nLet ( H∗ ,) be any subgroup of ( G∗ ,) and let M, N be any elements of G.\nDefine the relation R on G as follows:\nH\nM R N ⇔ there exists L ∈ H such that M = L ∗ N .\nH\n(c) Show that R is an equivalence relation on G. [5 marks]\nH\nLet K denote the set of all the elements of G with ad − bc > 0 .\n(d) Show that ( K∗ ,) is a subgroup of ( G∗ ,) . [5 marks]\nLet M, N be any 2 elements of G. Define the equivalence relation R\nK\non G as above, i.e.\nM R N ⇔ L ∈ K such that M = L ∗ N there exists .\nK\n(e) (i) Show that there are only two equivalence classes.\n(ii) Explain how to determine to which equivalence class a\ngiven element M of G belongs. [4 marks]",
+   "ms_text": "x y 7. (i) (a) f is injective since fx () = fy () ⇔ 3 = 3 ⇔ x = y (M1)(R1)\n+ ∈\nR = ∈ R = f is surjective since if z , x log() z and z fx () (M1)(R1)\n3\n+ For every xy , in ( R ,) ,\n( xy + ) x y fx ( + y ) = 3 = 33 = fx () × fy () (M1)(A1)\n[6 marks]\n− 1 (b) f () z = log() z\n(A1) 3\n[1 mark]\n(ii) (a) MN is a matrix (A1)\nMN = M N ⇒ MN ≠ 0 and MN ∈ G (A1)\nMatrix multiplication is associative. (A1)\nIdentity is , I I =≠ 1 0 I ∈ G (A1)\n− 1 − 1 ( − 1 ) M ∈ G ⇒ M exists, and M ∈ G as M ≠ 0\n(A1)(A1)\n( G∗ ,) thus is a group. (AG)\n[6 marks]\n(b) G is not Abelian. (A1)\nCounter example to show that AB ≠ BA . (A1)(A1)\n1 1 0 2 1 e.g.1\n=\n0 1 1 1 1 1\n1 0 1 1 1 1\n=\n1 1 0 1 1 2\nNote: Do not award (A2) to candidates who give the reason, “matrix multiplication\nis not commutative”.\nAward (A1)(A0) to candidates who use an argument with general matrices.\n[3 marks]\n(c) For all M ∈ G , M R M since H contains the identity element I.\nH\nHence R is reflexive. (A1)\nN ∈ G and M R N L ∈ H such that M = L ∗ N If M and then there exists and\nH\n− 1 therefore N = L ∗ M . (M1)\n1 Since L −∈ H (A1)\nit follows that N R M and therefore that R is symmetric. H H\n∈ ∈ If M, N and P G and M R N and NRP then there exist UV , H such that\nH\nM = U ∗ N and N = V ∗ P .\nHence M = UV ∗ ∗ P . (M1)\n∗ ∈ Since UV H , (A1)\nit follows that M R P so thatR is transitive.\nH\nTherefore R is an equivalence relation.\nH (AG)\n[5 marks]\n(d) MN , ∈ K ⇒ M > 0, N > 0 ⇒ MN > 0 (M1)\n⇒ K is closed under ∗ (A1)\nIdentity: I =⇒ 1 I ∈ K (A1)\nInverse: M ∈ K ⇒ M > 0\n1 − 1 − 1\nM = ⇒ M > 0 (M1)\nM\nM −∈ 1 K (A1) i.e.\nso ( K∗ ,) is a subgroup of ( G∗ ,) . (AG)\nNote: Other correct methods do exist.\n[5 marks]\n(e) (i) Let MN , ∈ G . Then M R N if and only if the determinants of M and\nK\nof N have the same sign. (A1)(A1)\nTherefore there can be only two equivalent classes: one containing all\nthe elements of G with positive determinants and the other containing all\nthe elements of G with negative determinants. (A1)(AG)\n(ii) Given an element M of G, it belongs to one or other equivalence class\ndepending on the sign of the determinant. (R1)\n[4 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.2",
+    "7.9",
+    "7.8",
+    "7.3",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, Relations and Groups",
+   "text_clean": "7. [Maximum mark: 30]\n(i) The set $\\mathbb{R}$ of all real numbers under addition is a group $(\\mathbb{R},+)$, and the set $\\mathbb{R}^+$ of all positive real numbers under multiplication is a group $(\\mathbb{R}^+,\\times)$. Let $f$ denote the mapping of $(\\mathbb{R},+)$ to $(\\mathbb{R}^+,\\times)$ given by $f(x)=3^x$.\n(a) Show that $f$ is an isomorphism of $(\\mathbb{R},+)$ onto $(\\mathbb{R}^+,\\times)$. [6 marks]\n(b) Find an expression for $f^{-1}$. [1 mark]\n(ii) Let $G=\\left\\{\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\right\\}$, where $a,b,c$ and $d\\in\\mathbb{R}$, and $ad-bc\\ne 0$.\n(a) Show that $(G,*)$ is a group, where $*$ denotes matrix multiplication. [6 marks]\n(b) Is this group Abelian? Give a reason for your answer. [3 marks]\nLet $(H,*)$ be any subgroup of $(G,*)$ and let $M$, $N$ be any elements of $G$.\nDefine the relation $R_H$ on $G$ as follows:\n$M R_H N \\Leftrightarrow$ there exists $L\\in H$ such that $M=L*N$.\n(c) Show that $R_H$ is an equivalence relation on $G$. [5 marks]\nLet $K$ denote the set of all the elements of $G$ with $ad-bc>0$.\n(d) Show that $(K,*)$ is a subgroup of $(G,*)$. [5 marks]\nLet $M$, $N$ be any 2 elements of $G$. Define the equivalence relation $R_K$ on $G$ as above, i.e.\n$M R_K N \\Leftrightarrow$ there exists $L\\in K$ such that $M=L*N$.\n(e) (i) Show that there are only two equivalence classes.\n(ii) Explain how to determine to which equivalence class a given element $M$ of $G$ belongs. [4 marks]"
+  },
+  {
+   "id": "math-2003-M-P2-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 30]\n(i) (a) Using Euclid’s algorithm, find integers x and y such that 17 x + 31 y = 1 . [3 marks]\n(b) Given that 17 p + 31 q = 1 , where pq∈Z , show that\np ≥ 11and q ≥ 6 . [2 marks]\n(ii) Let { ny } be a sequence of real numbers defined as follows.\ny = − 1, y = 2 y + 3,for n = 0,1, 2, …\n0 n + 1 n\nSolve the recurrence equation for ny . [6 marks]\n(iii) Consider the following matrix M.\nA B C D E\nA 0 1 1 1 1\nB 1 0 0 2 1\nC 1 0 0 2 1\nD 1 2 2 0 1\nE 1 1 1 1 0\n(a) Draw a planar graph G with 5 vertices A, B, C, D, E such that M\nis its adjacency matrix. [7 marks]\n(b) Give a reason why G has a Eulerian circuit. [3 marks]\n(c) Find a Eulerian circuit for G. [3 marks]\n(d) Find a spanning tree for G. [2 marks]\n(iv) Let W be the set {,,, abcd , feg ,,} .\nDraw a binary search tree to construct an index in alphabetical order for\nthis set, taking the element c as a root (i.e. starting with c). [4 marks]",
+   "ms_text": "8. (i) (a) 31 =× 117 + 14,17 =× 114 + 3,14 = 4 ×+ 3 2, 3 =× 12 + 1 (M1)\nHence: 1 = 312 −× = 31(14 −× −× 43) =×− 5314\n=× −× − =× −× 5(17 114)14 517 614\n=× 517 −× 6(31117) −× = 1117 × −× 631\nHence x = 11and y = − 6 . (A1)(A1)\n[3 marks]\n17 (b) From the hypothesis we see that × ( p − 11) + 31( × q + 6) = 0 .\nTherefore, since 31 is prime, it divides p – 11 and this is not possible for p< 11 . (R1)(AG)\nq + Similarly, since 17 is prime, it divides 6 and this is not possible for q< 6 . (R1)(AG)\n[2 marks]\n(ii) The fixed point λ of the relation is given by:\nλ = 2 λ + 3so that λ = − 3 (M1)(A1)\nSetting x = y + 3 the relation becomes: n n\nx = 2; x = 2 x for n = 0,1, 2, … + (M1)(A1)\n0 n 1 n\nn n + 1 n + 1 Hence x = 2 × 2 = 2 and y = 2 − 3 (M1)(A1)\nn n\n[6 marks]\n(iii) Note: There are many correct diagrams in all parts of (iii).\n(a) E\nA B\nC D\n(A5)(A2)\nNotes: Award (A1) for each correct degree of a vertex.\nAward (A2) for a correct graph, with correct planarity.\n[7 marks]\n(b) The order of every vertex is equal to the sum of the numbers in the\ncorresponding row (or column) of the adjacency table. (M1)(A1)\nTherefore the order of every vertex is even so that the graph must have an\nEulerian circuit. (A1)\n[3 marks]\n(c) A → E → B → A → C → D → B → D → C → E → D → A (M1)(A2)\nNote: Award (M1) for showing knowledge of what a Eulerian circuit is,\n(A2) for all edges, (A1) if only one edge is missed.\n[3 marks]\n(d) E\nB A\n(A2) C D\n[2 marks]\n(iv) c\na\nd\nb\nf\ne\ng (A4)\nNotes: Award (A4) for a completely correct answer.\nAward (A3) if there is 1 error, (A2) if there are 2 errors,\n(A1) if there are 3 errors, (A0) if there are more than 3 errors.\n[4 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.11",
+    "6.7",
+    "6.8",
+    "6.10",
+    "6.1",
+    "6.3",
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete Mathematics",
+   "text_clean": "8. [Maximum mark: 30]\n(i) (a) Using Euclid's algorithm, find integers $x$ and $y$ such that $17x+31y=1$. [3 marks]\n(b) Given that $17p+31q=1$, where $p,q\\in\\mathbb{Z}$ show that $|p|\\ge 11$ and $|q|\\ge 6$. [2 marks]\n(ii) Let $\\{y_n\\}$ be a sequence of real numbers defined as follows.\n$y_0=-1$, $y_{n+1}=2y_n+3$, for $n=0,1,2,\\ldots$\nSolve the recurrence equation for $y_n$. [6 marks]\n(iii) Consider the following matrix $M$.\n  | A | B | C | D | E\nA | 0 | 1 | 1 | 1 | 1\nB | 1 | 0 | 0 | 2 | 1\nC | 1 | 0 | 0 | 2 | 1\nD | 1 | 2 | 2 | 0 | 1\nE | 1 | 1 | 1 | 1 | 0\n(a) Draw a planar graph $G$ with 5 vertices A, B, C, D, E such that $M$ is its adjacency matrix. [7 marks]\n(b) Give a reason why $G$ has a Eulerian circuit. [3 marks]\n(c) Find a Eulerian circuit for $G$. [3 marks]\n(d) Find a spanning tree for $G$. [2 marks]\n(iv) Let $W$ be the set $\\{a,b,c,d,f,e,g\\}$.\nDraw a binary search tree to construct an index in alphabetical order for this set, taking the element $c$ as a root (i.e. starting with $c$). [4 marks]"
+  },
+  {
+   "id": "math-2003-M-P2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 30]\nIn this question, where appropriate, give your answers to five decimal places.\nx (i) (a) Let fx () = eand gx () =+ 1 cos, for x x ∈− [3, 2] .\n(i) On the same diagram, sketch the graphs of fx () and gx () .\n(ii) Mark clearly the points of intersection of the curves. [4 marks]\nx Consider the equation e =+ 1 cos x .\n(b) Using the Newton-Raphson method, solve the equation. [9 marks]\n= x −− + (c) (i) Use fixed-point iteration, with hx () e 1 cos x x , to\nfind the negative solution of the equation.\n(ii) Explain why the method works in this case. [5 marks]\n(d) (i) Give an example to show that fixed-point iteration does not\nwork to find the positive solution of the equation.\n(ii) Explain why fixed-point iteration does not work in this case. [5 marks]\n(ii) For positive integers k and n let\nk 2 n 1 + −\n2(1)and u = S = ∑ u .\nk 2 n k\nk + 1 k = 1\nn 4 k − 1\n(a) Show that S = ∑ .\n2 n [3 marks]\n2(2 k k + 1) k = 1\n∞\n(b) Hence or otherwise, determine whether the series u is =∑\nk\nk 1\nconvergent or not, justifying your answer. [4 marks]",
+   "ms_text": "9. (i) (a)\nR (A1)(A1) (i)\n(0, 2)\n(0, 1)\nL\n(ii)\n(A1)(A1)\n(2, 0) (–3, 0) 0\nNotes: The graphs and points of intersection do not need to be perfect.\n(i) Award (A1) for each correct graph.\n(ii) Award (A1) for each correct point of intersection.\n(L is approx. (2.8, 0.06) − and R is approx. (0.6,1.8) ).\n[4 marks]\nNote: For parts (b), (c) and (d), if candidates choose a different starting point ( x ) , 0\nwhich leads to the correct answer, award marks as indicated. There is no\nneed to check the calculations/iterations.\n(b) The Newton-Raphson method relies on defining a sequence { nx } such that\ne x n − cos x − 1\nn x = − + x ; n = 0,1, …\n(M1) n + 1 x n\ne n + sin x\nn\nNegative solution:\nnx + ≠ Choose\n0x in such a way that for every n, e sin nx 0 , e.g. x= − 2 . 0\nx= − 2 (M1)\n0\nx= − 2.579508809 (G1)\n1\nx= − 2.750227876\n2\nx= − 2.787065714\n3\nx= − 2.789123109\n4\nx= − 2.789129646\n5\nx= − 2.789129646 (A1)\n6\n⇒ = − (5 d.p.) x 2.78913 (A1)\nPositive solution:\nnx x= Choose 0x in such a way that for every n, e + sin nx ≠ 0 , e.g. 0.5 .\n0\nx= 0.5 (M1)\n0\nx= 0.6075401801 (G1)\n1\nx= 0.60136792\n2\nx= 0.601346768\n3\nx= 0.6013467677\n4\nx= 0.6013467677 (A1)\n5\n⇒ x = 0.60135 (5 d.p.) (A1)\n[9 marks]\n(c) (i) The fixed point method relies on finding a starting point 0x for the\nsequence = , e.g. for the negative { x } where x += hx ( ), n 0,1, 2\nn n 1 n\nx= − (M1) solution, chose 2 .\n0\nx= − 2\n0\nx= − 2.244851788 (G1)\n1\nx= − 2.592811137\n2\nx= − 2.664840917\n3\nx= − 2.70674027\n4\nx= − 2.733053978\n5\n……\n− converges to 2.789129646 (seen after approximately 30 iterations)\nx = − 2.78913 (5 d.p.) (A1)\n(ii) When x = − 2.789129, hx () < 1 (A1)(R1)\n(i.e. fixed-point method works due to the fact that around the value\nx = − , hx () = e x + sin x + 1 < 1 ). 2.789129\n[5 marks]\n(d) (i) For the positive solution, chose x= 0.5 . Then 0\nx= 0.5\n0\nx= 0.271138708649 (G1)\n1\nx= − 0.3808708649\n2\nx= − 1.625946009\n3\nx= − 2.374098796\n4\n……\nconverges to − 2.789129646 (seen after approximately 63 iterations) (M1)\nThe sequence does not converge to the positive solution. (A1)\nNote: Award (M1)(A1) for an appropriate example of this behaviour\ni.e. such that is close enough to the solution and therefore 0x\nshould – if the method worked – generate a sequence converging\nto the solution – but in fact, does not.\nx = 0.601, hx () > 1 (ii) When , i.e. fixed-point method cannot work (or (M1)\nequivalent). (R1)\n[5 marks]\n2 n n\n(ii) (a) S = ∑ u = ∑ ( u + u )\n2 n k 2 k − 1 2 k (A1)\nk = 1 k = 1\nn 3 1\n= ∑ − (A1)\n2 k + 1 2 k k = 1\nn 4 k − 1\n= ∑ (A1)\n2(2 k k + 1) k = 1\n[3 marks]\n(b) (By limit comparison test)\n4 k − 1 1\nlim : = 1 (M1)(A1)\nk →∞ 2(2 k k + 1) k\n∞ 1\nis divergent. =∑ (A1)\nk k 1\nTherefore S →∞ as n →∞ , hence the given series is divergent. (A1) 2 n\nNotes: The series is alternating and its general term converges to 0 but is not\ndecreasing in absolute value so that no conclusion is possible using\nthis criterion.\nAward (R1) to candidates who observed this but did not otherwise get\nfull marks on this question.\n[4 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L1",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Analysis and Approximation",
+   "text_clean": "9. [Maximum mark: 30]\nIn this question, where appropriate, give your answers to five decimal places.\n(i) (a) Let $f(x)=\\mathrm{e}^x$ and $g(x)=1+\\cos x$, for $x\\in[-3,2]$.\n(i) On the same diagram, sketch the graphs of $f(x)$ and $g(x)$.\n(ii) Mark clearly the points of intersection of the curves. [4 marks]\nConsider the equation $\\mathrm{e}^x=1+\\cos x$.\n(b) Using the Newton-Raphson method, solve the equation. [9 marks]\n(c) (i) Use fixed-point iteration, with $h(x)=\\mathrm{e}^x-1-\\cos x+x$, to find the negative solution of the equation.\n(ii) Explain why the method works in this case. [5 marks]\n(d) (i) Give an example to show that fixed-point iteration does not work to find the positive solution of the equation.\n(ii) Explain why fixed-point iteration does not work in this case. [5 marks]\n(ii) For positive integers $k$ and $n$ let\n$u_k=\\frac{1+2(-1)^k}{k+1}$ and $S_{2n}=\\sum_{k=1}^{2n}u_k$.\n(a) Show that $S_{2n}=\\sum_{k=1}^{n}\\frac{4k-1}{2k(2k+1)}$. [3 marks]\n(b) Hence or otherwise, determine whether the series $\\sum_{k=1}^{\\infty}u_k$ is convergent or not, justifying your answer. [4 marks]"
+  },
+  {
+   "id": "math-2003-M-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 30]\n(i) A conic section has equation 2 + 2 − − − = . x 4 y 4 x 8 y 24 0\n(a) Determine whether this conic is a parabola, an ellipse or a hyperbola. [3 marks]\n(b) The lines � and � are tangents to the conic in part (a), and are\n1 2\nparallel to the line with equation x − y − = . Find the 2 12 0\nequation of � and of � . [8 marks]\n1 2\n(ii) Let ABCD be a cyclic quadrilateral. The point E lies on [BD] so that\nˆ = ˆ BAE CAD , as shown in the following diagram.\nB\nE\nC\nA D\nProve that AC × BD = ABCD × + BC × AD . [10 marks]\n(iii) Let Q be a point inside a triangle LMN. Let X, Y, Z be the feet of the\nperpendiculars from Q to [MN], [NL] and [LM] respectively. The line\n(MQ) is extended to meet [LN] at the point P.\nL\nZ\nY\nP\nQ\nN M\nX\nˆ Prove that LQN = LMN ˆ + XYZ ˆ .\n[9 marks]",
+   "ms_text": "2 2 2 2 10. (i) (a) x + 4 y − 4 x − 8 y − 24 = 0 can be written as ( x − 2) + 4( y − 1) = 32 (M1)\n− 2 − 2 ( x 2) ( y 1)\nand also as + = 1 . (A1)\n2 2 (32) (8)\nHence the conic is an ellipse. (A1)\n[3 marks]\n1\n(b) The gradient of the given line is . (A1)\n2\nx\nHence the equation of the tangents to the ellipse can be written as y = + c (M1)\n2\n⇒ 2 + − + 2 − − = 2 x (4 c 8) x (4 c 8 c 24) 0 . (M1)\nThe values of c corresponding to the desired tangent to the conic are those for\nwhich the quadratic equation in x has two equal roots. In other words, the (M1)\nvalues of c for which the discriminant (4 c − 8) 2 − 8(4 c 2 − 8 c − 24) = 0 . (M1)\nThis gives c = ± 4 . (A1)\nHence the desired tangent lines are defined by the two equations:\nx\ny = + 4 (A1)\n2\nx\nand y = − 4 . (A1)\n2\nNote: There are other possible correct methods.\n[8 marks]\n(ii) Consider ∆ BAE and ∆ CAD .\nˆ = ˆ BAE CAD\nˆ = ˆ (A1) ABE ACD (they both span AD)\nHence ∆ BAE and ∆ CAD are similar. (A1)\nBE Therefore BA\n= (A1)\nCA CD\nAnd hence BA × CD = CA × BE � (A1)\nConsider ∆ ABC and ∆ ADE .\nˆ ˆ (A1) BAC = EAD (being the sum of two equal angles)\nˆ ˆ (A1) ADE = BCA (they both span AB)\nHence ∆ BAC and ∆ EAD are similar. (A1)\nCA Therefore BC\n= (A1)\nDE AD\nAnd hence AD × BC = DE × CA �\nAdding � and � (M1)\n× + × = × + × ABCD AD BC CA BE DE CA (A1)\n= CA × (BE + DE) = CA × BD = AC × BD (AG)\nNote: Award a maximum of [3 marks] to candidates who merely say that this is proved\nbecause it is Ptolemy’s theorem.\n[10 marks]\nL\nZ\nY\nP Q\nM N\nX\nˆ ˆ ˆ (iii) Then LQP = QLM + LMQ �\nsince LQP ˆ is the exterior angle of ∆ LMQ . (M1)(A1)\nThe quadrilateral LYQZ is cyclic\nπ\nQYL ˆ = LZQ ˆ = (M1)(A1) since �\n2\nThus QLM ˆ = QLZ ˆ = QYZ ˆ . (A1)\nˆ ˆ ˆ From � it follows that LQP = QYZ + LMQ . (A1)\nSimilarly PQN ˆ = XYQ ˆ + QMN ˆ � (A1)\nAdding � and �\nˆ ˆ ˆ LQN = LQP + PQN (A1)\n= ˆ + ˆ + ˆ + ˆ (QMN LMQ) (XYQ QYZ) (A1)\nˆ ˆ ˆ i.e. LQN = LMN + XYZ (AG)\n[9 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "8",
+    "2"
+   ],
+   "subtopics": [
+    "8.1",
+    "8.2",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Euclidean Geometry and Conic Sections",
+   "text_clean": "10. [Maximum mark: 30]\n(i) A conic section has equation $x^2+4y^2-4x-8y-24=0$.\n(a) Determine whether this conic is a parabola, an ellipse or a hyperbola. [3 marks]\n(b) The lines $\\ell_1$ and $\\ell_2$ are tangents to the conic in part (a), and are parallel to the line with equation $x-2y-12=0$. Find the equation of $\\ell_1$ and of $\\ell_2$. [8 marks]\n(ii) Let ABCD be a cyclic quadrilateral. The point E lies on [BD] so that $\\mathrm{B\\hat{A}E}=\\mathrm{C\\hat{A}D}$, as shown in the following diagram.\n[Diagram: cyclic quadrilateral ABCD inscribed in a circle, diagonal BD with point E on it, line AE extended, equal angles BAE and CAD marked at A]\nProve that $\\mathrm{AC}\\times\\mathrm{BD}=\\mathrm{AB}\\times\\mathrm{CD}+\\mathrm{BC}\\times\\mathrm{AD}$. [10 marks]\n(iii) Let Q be a point inside a triangle LMN. Let X, Y, Z be the feet of the perpendiculars from Q to [MN], [NL] and [LM] respectively. The line (MQ) is extended to meet [LN] at the point P.\n[Diagram: triangle LMN with interior point Q; perpendiculars QX to MN, QY to NL, QZ to LM with right angles marked; line MQ extended to P on LN]\nProve that $\\mathrm{L\\hat{Q}N}=\\mathrm{L\\hat{M}N}+\\mathrm{X\\hat{Y}Z}$. [9 marks]"
+  }
+ ],
+ "status": "done"
+}

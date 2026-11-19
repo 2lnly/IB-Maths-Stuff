@@ -1,0 +1,200 @@
+{
+ "exam_id": "math-2002-N-P1",
+ "questions": {
+  "1": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "text_clean": "1. When the polynomial $x^4 + ax + 3$ is divided by $(x-1)$, the remainder is 8. Find the value of $a$."
+  },
+  "2": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.11"
+   ],
+   "text_clean": "2. The graph of the function $f(x) = 2x^3 - 3x^2 + x + 1$ is translated to its image, $g(x)$, by the vector $\\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$. Write $g(x)$ in the form $g(x) = ax^3 + bx^2 + cx + d$."
+  },
+  "3": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "text_clean": "3. Find the coefficient of $x^3$ in the binomial expansion of $\\left(1 - \\frac{1}{2}x\\right)^8$."
+  },
+  "4": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13"
+   ],
+   "text_clean": "4. Find the equations of all the asymptotes of the graph of $y = \\frac{x^2 - 5x - 4}{x^2 - 5x + 4}$."
+  },
+  "5": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.5"
+   ],
+   "text_clean": "5. An integer is chosen at random from the first one thousand positive integers. Find the probability that the integer chosen is\n(a) a multiple of 4;\n(b) a multiple of both 4 and 6."
+  },
+  "6": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2",
+    "1.7"
+   ],
+   "text_clean": "6. Find $\\sum_{r=1}^{50} \\ln(2^r)$, giving the answer in the form $a \\ln 2$, where $a \\in \\mathbb{Q}$."
+  },
+  "7": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.7",
+    "2.2"
+   ],
+   "text_clean": "7. The functions $f(x)$ and $g(x)$ are given by $f(x) = \\sqrt{x-2}$ and $g(x) = x^2 + x$.\nThe function $(f \\circ g)(x)$ is defined for $x \\in \\mathbb{R}$, except for the interval $]a, b[$.\n(a) Calculate the value of $a$ and of $b$.\n(b) Find the range of $f \\circ g$."
+  },
+  "8": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "text_clean": "8. Consider the six numbers, 2, 3, 6, 9, $a$ and $b$. The mean of the numbers is 6 and the variance is 10. Find the value of $a$ and of $b$, if $a < b$."
+  },
+  "9": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.15",
+    "2.12"
+   ],
+   "text_clean": "9. Solve the inequality $x^2 - 4 + \\frac{3}{x} < 0$."
+  },
+  "10": {
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.18",
+    "1.16"
+   ],
+   "text_clean": "10. Find an equation for the line of intersection of the following two planes.\n$x + 2y - 3z = 2$\n$2x + 3y - 5z = 3$"
+  },
+  "11": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.11"
+   ],
+   "text_clean": "11. A particle moves in a straight line with velocity, in metres per second, at time $t$ seconds, given by\n$v(t) = 6t^2 - 6t,\\ t \\ge 0$\nCalculate the total distance travelled by the particle in the first two seconds of motion."
+  },
+  "12": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "text_clean": "12. Triangle ABC has AB = 8 cm, BC = 6 cm and $\\hat{BAC} = 20^\\circ$. Find the smallest possible area of $\\triangle$ABC."
+  },
+  "13": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.10"
+   ],
+   "text_clean": "13. Find $\\int (\\theta \\cos\\theta - \\theta)\\,d\\theta$."
+  },
+  "14": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.7",
+    "5.6"
+   ],
+   "text_clean": "14. Find the $x$-coordinate of the point of inflexion on the graph of $y = x e^x$, $-3 \\le x \\le 1$."
+  },
+  "15": {
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "text_clean": "15. The probability density function $f(x)$, of a continuous random variable $X$ is defined by\n$f(x) = \\begin{cases} \\frac{1}{4}x(4 - x^2), & 0 \\le x \\le 2 \\\\ 0, & \\text{otherwise.} \\end{cases}$\nCalculate the median value of $X$."
+  },
+  "16": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14"
+   ],
+   "text_clean": "16. Air is pumped into a spherical ball which expands at a rate of $8\\ \\text{cm}^3$ per second ($8\\ \\text{cm}^3\\text{s}^{-1}$). Find the exact rate of increase of the radius of the ball when the radius is 2 cm."
+  },
+  "17": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.8"
+   ],
+   "text_clean": "17. The point $B(a, b)$ is on the curve $f(x) = x^2$ such that B is the point which is closest to $A(6, 0)$. Calculate the value of $a$.",
+   "note": "Markscheme crop omits the final '[6 marks]' line: segmenter treats the vector box drawn around '[6 marks]' at the page bottom (MS page 11, y~786) as a barcode/footer and sets body_bot above it, so overrides cannot reach it. All marking content (M1)(A1)(G3)(G1)(C6) is present. | fixed by segmenter update: the line noted above as missing is now in the crop",
+   "answer_status": "ok"
+  },
+  "18": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13"
+   ],
+   "text_clean": "18. Given two non-zero vectors $\\mathbf{a}$ and $\\mathbf{b}$ such that $|\\mathbf{a} + \\mathbf{b}| = |\\mathbf{a} - \\mathbf{b}|$, find the value of $\\mathbf{a} \\cdot \\mathbf{b}$."
+  },
+  "19": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "text_clean": "19. The transformation $\\boldsymbol{M}$ represents a reflection in the line $y = x\\sqrt{3}$. The transformation $\\boldsymbol{R}$ represents a rotation through $\\frac{\\pi}{6}$ radians anticlockwise about the origin. Give a full geometric description of the single transformation which is equivalent to $\\boldsymbol{M}$ followed by $\\boldsymbol{R}$."
+  },
+  "20": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.4"
+   ],
+   "text_clean": "20. The tangent to the curve $y = f(x)$ at the point $P(x, y)$ meets the $x$-axis at $Q(x-1, 0)$. The curve meets the $y$-axis at $R(0, 2)$. Find the equation of the curve."
+  }
+ }
+}

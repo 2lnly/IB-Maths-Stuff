@@ -1,0 +1,29 @@
+{
+  "exam_id": "math-2019-N-P3-calculus",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.12", "5.6"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 7]\nThe function $f$ is defined by $f(x)=\\begin{cases}\\dfrac{x-3}{x-5}, & x<3\\\\ \\ln(x-2), & x\\ge 3\\end{cases}$.\n(a) Show that $f$ is continuous at $x=3$. [3]\n(b) Show that $f$ is not differentiable at $x=3$. [4]"
+    },
+    "2": {
+      "topics": ["5"],
+      "subtopics": ["5.L1"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 10]\nDetermine whether each of the following infinite series converges or diverges.\n(a) $\\sum_{n=1}^{\\infty}\\dfrac{3n}{2n^2+5}$ [4]\n(b) $\\sum_{n=1}^{\\infty}\\dfrac{(2n)!}{3^n(n!)^2}$ [6]"
+    },
+    "3": {
+      "topics": ["5"],
+      "subtopics": ["5.19", "5.15", "5.13"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 11]\nThe function $f$ is defined by $f(x)=\\arcsin(2x)$, where $-\\frac{1}{2}\\le x\\le\\frac{1}{2}$.\n(a) By finding a suitable number of derivatives of $f$, find the first two non-zero terms in the Maclaurin series for $f$. [8]\n(b) Hence or otherwise, find $\\lim_{x\\to 0}\\dfrac{\\arcsin(2x)-2x}{(2x)^3}$. [3]"
+    },
+    "4": {
+      "topics": ["5", "2"],
+      "subtopics": ["5.18", "5.15", "5.7", "2.6"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 22]\nConsider the differential equation $\\dfrac{dy}{dx}=\\dfrac{4x^2+y^2-xy}{x^2}$, with $y=2$ when $x=1$.\n(a) Use Euler's method, with step length $h=0.1$, to find an approximate value of $y$ when $x=1.4$. [5]\n(b) Sketch the isoclines for $\\dfrac{dy}{dx}=4$. [3]\n(c) (i) Express $m^2-2m+4$ in the form $(m-a)^2+b$, where $a,b\\in\\mathbb{Z}$.\n(ii) Solve the differential equation, for $x>0$, giving your answer in the form $y=f(x)$.\n(iii) Sketch the graph of $y=f(x)$ for $1\\le x\\le 1.4$.\n(iv) With reference to the curvature of your sketch in part (c)(iii), and without further calculation, explain whether you conjecture $f(1.4)$ will be less than, equal to, or greater than your answer in part (a). [14]"
+    }
+  }
+}

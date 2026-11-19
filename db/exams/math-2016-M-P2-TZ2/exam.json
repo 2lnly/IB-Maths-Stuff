@@ -1,0 +1,300 @@
+{
+ "exam_id": "math-2016-M-P2-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2016,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2016 May Examination Session/Mathematics_paper_2__TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2016 May Examination Session/Mathematics_paper_2__TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2216-7206; code M16/5/MATHL/HP2/ENG/TZ2/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2016-M-P2-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nABCD is a quadrilateral where AB = 6.5, BC = 9.1 , CD = 10.4 , DA = 7.8 and CD∃ A = 90û .\nFind AB∃ C , giving your answer correct to the nearest degree.",
+   "ms_text": "2 2 2\n1. AC 7.8 10.4 (M1) = +\nAC 13 = (A1)\n2 2 2 6.5\n+ 9.1 − 13\nˆ\nuse of cosine rule eg, cosABC ( ) = M1\n2(6.5)(9.1)\nˆ ο ABC = 111.804 …= (1.95134 … ) (A1)\nο\n= 112 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nABCD is a quadrilateral where $\\mathrm{AB} = 6.5$, $\\mathrm{BC} = 9.1$, $\\mathrm{CD} = 10.4$, $\\mathrm{DA} = 7.8$ and $\\mathrm{C\\hat{D}A} = 90^\\circ$.\nFind $\\mathrm{A\\hat{B}C}$, giving your answer correct to the nearest degree."
+  },
+  {
+   "id": "math-2016-M-P2-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nA random variable X is normally distributed with mean 3 and variance 22 .\n(a) Find P(0 ≤X ≤2) . [2]\n(b) Find P( | X | > 1) . [3]\n(c) If P(X >c) = 0.44 , find the value of c . [2]",
+   "ms_text": "2. (a) P(0 ≤ X ≤ 2) = 0.242 (M1)A1\n[2 marks]\n(b) METHOD 1\nP(| X | > 1) = P( X <− 1) + P( X > 1) (M1)\n= 0.02275 … + 0.84134 … (A1)\n= 0.864 A1\nMETHOD 2\nP(| X | > 1) = 1 − P(1 −< X < 1) (M1)\n= 1 − 0.13590 … (A1)\n= 0.864 A1\n[3 marks]\n(c) c= 3.30 (M1)A1\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nA random variable $X$ is normally distributed with mean $3$ and variance $2^2$.\n(a) Find $\\mathrm{P}(0 \\le X \\le 2)$. [2]\n(b) Find $\\mathrm{P}(|X| > 1)$. [3]\n(c) If $\\mathrm{P}(X > c) = 0.44$, find the value of $c$. [2]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nSolve the simultaneous equations\nlny\nx=2\nln x 2 + ln y 3 = 7 .",
+   "ms_text": "3. METHOD 1\ny\nln 2 ⇒− ln x + ln y = 2 A1\nx=\n2 3 ln x\n+ ln y = 7 ⇒ 2ln x + 3ln y = 7 (M1)A1\n1 11\nattempting to solve for x and y (to obtain ln x= and ln y = ) (M1)\n5 5\n1\nx= 5e (1.22) = A1\n11\n5 y= e ( = 9.03) A1\nMETHOD 2\ny 2\nln 2 ⇒ y = e x A1\nx=\n2 6 3 ln x ln e x 7\n(M1)A1 + =\nattempting to solve for x (M1)\n1\nx= 5e ( = 1.22) A1\n11\n5 y = e\n( 9.03) A1 =\nMETHOD 3\ny 2\nln 2 ⇒ y = e x A1\nx=\n2 3 ⇒ 2 3 ln x\n+ ln y = 7 ln ( xy ) = 7 A1\n2 3 xy= 7e\n(M1)\n2 3 6 5 7\nsubstituting y 2e x into xy= 7e (to obtain e x= e ) M1 =\n1\nx= 5e (1.22) = A1\n11\n5 y = e\n( = 9.03) A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nSolve the simultaneous equations\n$\\ln \\frac{y}{x} = 2$\n$\\ln x^2 + \\ln y^3 = 7$."
+  },
+  {
+   "id": "math-2016-M-P2-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nThe sum of the second and third terms of a geometric sequence is 96 .\nThe sum to infinity of this sequence is 500 .\nFind the possible values for the common ratio, r .",
+   "ms_text": "2\n4. ar + ar = 96 A1\n3 a 1\n− r ) Note: Award A1 for any valid equation involving a and r , eg, (\n− a = 96 .\n1 − r\na\n500 A1\nr=\n1 −\nEITHER\n2 attempting to eliminate a to obtain 500 r ( 1 − r ) = 96 (or equivalent in\nunsimplified form) (M1)\nOR\n96\nattempting to obtain a = and a = 500(1 − r ) (M1)\n2 r\n+ r\nTHEN\nattempting to solve for r (M1)\n1 97 − 1\nr = 0.2 = or r = 0.885 = A1A1\n10 5\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.3",
+    "1.8",
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nThe sum of the second and third terms of a geometric sequence is $96$.\nThe sum to infinity of this sequence is $500$.\nFind the possible values for the common ratio, $r$."
+  },
+  {
+   "id": "math-2016-M-P2-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\n1 - x\nThe function f is defined as fx ()= ,-1 <x ≤ 1 .\n1 + x\nFind the inverse function, f -1 stating its domain and range.",
+   "ms_text": "1 − y\n5. x M1 =\n1 + y\nNote: Award M1 for interchanging x and y (can be done at a later stage).\n1 − y\n2 x\n=\n1 + y\n2 2 x\n+ xy = 1 − y M1\nNote: Award M1 for attempting to make y the subject.\n2 2 y ( 1 + x ) = 1 − x (A1)\n2 1\n− x − 1\nf () x = , x ≥ 0 A1A1\n2 1\n+ x\n− 1() Note: Award A1 only if f x is seen. Award A1 for the domain.\n1 − 1\nthe range of f− is −< 1 f () x ≤ 1 A1\nNote: Accept correct alternative notation eg. 1 −< y ≤. 1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nThe function $f$ is defined as $f(x) = \\sqrt{\\frac{1-x}{1+x}}$, $-1 < x \\le 1$.\nFind the inverse function, $f^{-1}$ stating its domain and range."
+  },
+  {
+   "id": "math-2016-M-P2-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 8]\nA company produces rectangular sheets of glass of area 5 square metres. During\nmanufacturing these glass sheets flaws occur at the rate of 0.5 per 5 square metres. It is\nassumed that the number of flaws per glass sheet follows a Poisson distribution.\n(a) Find the probability that a randomly chosen glass sheet contains at least one flaw. [3]\nGlass sheets with no flaws earn a profit of $5 . Glass sheets with at least one flaw incur a\nloss of $3 .\nFind the expected profit, P dollars, per glass sheet. (b) [3]\nThis company also produces larger glass sheets of area 20 square metres. The rate of\noccurrence of flaws remains at 0.5 per 5 square metres.\nA larger glass sheet is chosen at random.\n(c) Find the probability that it contains no flaws. [2]",
+   "ms_text": "6. (a) X: Po(0.5) (A1)\nP( X 1) 0.393 ( 1e − 0.5 ) ≥ = =− (M1)A1\n[3 marks]\n(b) P( X= 0) = 0.607 … (A1)\nE() P= (0.607 … × 5) − (0.393 … × 3) (M1)\nthe expected profit is $1.85 per glass sheet A1\n[3 marks]\n(c) Y: Po(2) (M1)\n( − 2 ) P( Y = 0) = 0.135 = e A1\n[2 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 8]\nA company produces rectangular sheets of glass of area $5$ square metres. During manufacturing these glass sheets flaws occur at the rate of $0.5$ per $5$ square metres. It is assumed that the number of flaws per glass sheet follows a Poisson distribution.\n(a) Find the probability that a randomly chosen glass sheet contains at least one flaw. [3]\nGlass sheets with no flaws earn a profit of \\$5. Glass sheets with at least one flaw incur a loss of \\$3.\n(b) Find the expected profit, $P$ dollars, per glass sheet. [3]\nThis company also produces larger glass sheets of area $20$ square metres. The rate of occurrence of flaws remains at $0.5$ per $5$ square metres.\nA larger glass sheet is chosen at random.\n(c) Find the probability that it contains no flaws. [2]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 8]\nConsider the curve with equation x3+y3= 4xy .\n2 y 4 y - 3 x\nUse implicit differentiation to show that d\n(a) = . [3]\nd x 3 y 2 - 4 x\nThe tangent to this curve is parallel to the x-axis at the point where x =k , k > 0 .\n(b) Find the value of k . [5]",
+   "ms_text": "2d y d y 2\n7. (a) 3 x + 3 y = 4 y + x M1A1\nd x d x\nd y 2 2\n( 3 y − 4 x ) = 4 y − 3 x A1\nd x\n2 d y 4 y 3 x\n−\n= AG\n2 d x 3 y\n− 4 x\n[3 marks]\nd y 2\n(b) 0 ⇒ 4 y − 3 x = 0 (M1)\nx=\nd\n3 2 3 3\nsubstituting x = k and y = k into x + y = 4 xy M1\n4\n27 3 6 3\nk + k = 3 k A1\n64\n27 3 6 3\nattempting to solve k + k = 3 k for k (M1)\n64\n4\n3 k = 1.68 = 2 A1\n3\n3 2 3 3\nNote: Condone substituting y = x into x + y = 4 xy and solving for x .\n4\n[5 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 8]\nConsider the curve with equation $x^3 + y^3 = 4xy$.\n(a) Use implicit differentiation to show that $\\frac{dy}{dx} = \\frac{4y - 3x^2}{3y^2 - 4x}$. [3]\nThe tangent to this curve is parallel to the $x$-axis at the point where $x = k$, $k > 0$.\n(b) Find the value of $k$. [5]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nA particle moves such that its velocity v ms-1 is related to its displacement sm , by the\nequation v(s) = arctan(sin s),0 ≤s≤ 1 . The particle’s acceleration is ams-2.\n(a) Find the particle’s acceleration in terms of s . [4]\n(b) Using an appropriate sketch graph, find the particle’s displacement when its\nacceleration is 0.25ms-2. [2]",
+   "ms_text": "d v cos s\n8. (a) = M1A1\n2 d s sin s\n+ 1\nd v\na = (M1)\nvs\nd\narctan(sin)cos s s\na = A1\n2 sin s\n+ 1\n[4 marks]\n(b) EITHER\n(M1)\nOR\n(M1)\nTHEN\ns= 0.296, 0.918 (m) A1\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.15",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nA particle moves such that its velocity $v\\,\\mathrm{m\\,s^{-1}}$ is related to its displacement $s\\,\\mathrm{m}$, by the equation $v(s) = \\arctan(\\sin s)$, $0 \\le s \\le 1$. The particle's acceleration is $a\\,\\mathrm{m\\,s^{-2}}$.\n(a) Find the particle's acceleration in terms of $s$. [4]\n(b) Using an appropriate sketch graph, find the particle's displacement when its acceleration is $0.25\\,\\mathrm{m\\,s^{-2}}$. [2]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\n→ →\nOACB is a parallelogram with OA =a and OB =b , where a and b are non-zero vectors.\n(a) Show that\n→ 2 2 2\n(i) OC = a + 2 ab ⋅ + b;\n→ 2 2 2\n(ii) AB = a − 2 ab ⋅ + b . [4]\n→ →\n= (b) Given that OC AB , prove that OACB is a rectangle. [4]",
+   "ms_text": "9. (a) (i) METHOD 1\n→ → →\n2\nOC = OC OC ⋅\n= ( a + b )( ⋅ a + b ) A1\n= aa ⋅ + ab ⋅ + ba ⋅ + bb ⋅ A1\n2 2\n= a + 2 ab ⋅ + b AG\nMETHOD 2\n→ → → → → 2 2 2\nˆ OC = OA + OB − 2 OAOBcosOAC ( ) A1\n→ →\n( ˆ ) OAOB cosOAC = − ( ab ⋅ ) A1\n→\n2 2 2 OC\n= a + 2 ab ⋅ + b AG\n(ii) METHOD 1\n→ → → 2\nAB ABAB = ⋅\n= ( b − a )( ⋅ b − a ) A1\n= bb ⋅ − ba ⋅ − ab ⋅ + aa ⋅ A1\n2 2\n= a − 2 ab ⋅ + b AG\nMETHOD 2\n→ → → → → 2 2 2\nˆ AB = AC + BC − 2 ACBC cosACB ( ) A1\n→ →\nˆ ACBC cosACB ( ) = ab ⋅ A1\n→\n2 2 2\nAB = a − 2 ab ⋅ + b AG\n[4 marks]\n→ → → →\n2 2 2 2 2 2\n⇒ ⇒ (b) OC = AB OC = AB a + 2 ab ⋅ + b = a − 2 ab ⋅ + b R1(M1)\n→ → → → 2 2 2 2 2 2\nNote: Award R1 for OC = AB ⇒ OC = AB and (M1) for a + 2 ab ⋅ + b = a − 2 ab ⋅ + b.\nab ⋅ = 0 A1\nhence OACB is a rectangle (a and b both non-zero)\nwith adjacent sides at right angles R1\nNote: Award R1(M1)A0R1 if the dot product has not been used.\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nOACB is a parallelogram with $\\vec{OA} = \\boldsymbol{a}$ and $\\vec{OB} = \\boldsymbol{b}$, where $\\boldsymbol{a}$ and $\\boldsymbol{b}$ are non-zero vectors.\n(a) Show that\n(i) $|\\vec{OC}|^2 = |\\boldsymbol{a}|^2 + 2\\boldsymbol{a}\\cdot\\boldsymbol{b} + |\\boldsymbol{b}|^2$;\n(ii) $|\\vec{AB}|^2 = |\\boldsymbol{a}|^2 - 2\\boldsymbol{a}\\cdot\\boldsymbol{b} + |\\boldsymbol{b}|^2$. [4]\n(b) Given that $|\\vec{OC}| = |\\vec{AB}|$, prove that OACB is a rectangle. [4]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 15]\nA continuous random variable T has probability density function f defined by\nt sin 2 t\nπ , 0 ≤ t ≤\nft () = π\n0 , otherwise\n(a) Sketch the graph of y =f (t) . [2]\n(b) Use your sketch to find the mode of T . [1]\n(c) Find the mean of T . [2]\n(d) Find the variance of T . [3]\n(e) Find the probability that T lies between the mean and the mode. [2]\nT\nϖ . ft ()d t where 0 ≤ T ≤\n(f) (i) Find ∫\n2\n0\nϖ .\n(ii) [5]\nHence verify that the lower quartile of T is 2",
+   "ms_text": "10.\nπ andπ\n(a) two enclosed regions ( 0 ≤ t ≤ ≤ t ≤ π ) bounded by the curve and\n2 2\nthe t-axis A1\nπ\n0 t correct non-symmetrical shape for ≤ ≤ and\n2\nπ\n< mode of T < π clearly apparent A1\n2\n[2 marks]\n(b) mode = 2.46 A1\n[1 mark]\nπ\n1 2\n(c) E() T =∫ t sin 2d t t (M1)\nπ\n0\n= 2.04 A1\n[2 marks]\n(d) EITHER\nπ t sin 2 t\n2 Var() T\n= ∫ ( t − 2.03788 … ) d t (M1)(A1)\nπ\n0\nOR\nπ t sin 2 t\n2 2 Var() T\n= t d t − (2.03788 … ) (M1)(A1) ∫\nπ\n0\nTHEN\nVar() T= 0.516 A1\n[3 marks]\n2.456590 …\n1\n(e) ∫ t sin 2d t t = 0.285 (M1)A1\nπ\n2.03788 …\n[2 marks]\n(f) (i) attempting integration by parts (M1)\n1 cos2 (u\n= t , d u = d t , d v = sin 2 d t t and v =− t )\n2\nT\n1 1 1 T 1\nt − cos2 t − ∫ − cos2 t d t A1\nπ 2 π 0 2\n0\nNote: Award A1 if the limits are not included.\nsin 2 T T cos2 T\nA1 = −\n4π 2π\nπ cos π\nsin π 1 2\n(ii) − = A1\n4π 2π 4\nπ 1 (or equivalent), then the lower quartile of T is π\nas P0 ≤ T ≤ = R1AG\n2 4 2\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.16",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 15]\nA continuous random variable $T$ has probability density function $f$ defined by\n$f(t) = \\begin{cases} \\frac{t|\\sin 2t|}{\\pi}, & 0 \\le t \\le \\pi \\\\ 0, & \\text{otherwise} \\end{cases}$\n(a) Sketch the graph of $y = f(t)$. [2]\n(b) Use your sketch to find the mode of $T$. [1]\n(c) Find the mean of $T$. [2]\n(d) Find the variance of $T$. [3]\n(e) Find the probability that $T$ lies between the mean and the mode. [2]\n(f) (i) Find $\\int_0^T f(t)\\,dt$ where $0 \\le T \\le \\frac{\\pi}{2}$.\n(ii) Hence verify that the lower quartile of $T$ is $\\frac{\\pi}{2}$. [5]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 22]\nPoints A ,B and T lie on a line on an indoor soccer field. The goal, [AB] , is 2 metres wide.\nA player situated at point P kicks a ball at the goal. [PT] is perpendicular to (AB) and is\n6 metres from a parallel line through the centre of [AB] . Let PT be x metres and\nlet α = AP∃ B measured in degrees. Assume that the ball travels along the floor.\n2 m\nA B T\nα\nx m\n6 m P\n(a) Find the value of α when x= 10 . [4]\n2 x\n(b) Show that tanα= . [4]\nx 2 + 35\nThe maximum for tan α gives the maximum for α .\nFind d\n(c) (i) α. )\ndx(tan\nHence or otherwise find the value of α such that d α=0. )\n(ii) dx(tan\n2\nFind d α and hence show that the value of α never exceeds 10û .\n(iii) (tan ) [11]\nd 2x\n(d) Find the set of values of x for which α ≥ 7û . [3]",
+   "ms_text": "11. (a) EITHER\n7 5 ο ο\nα= arctan − arctan ( = 34.992 …− 26.5651 … ) (M1)(A1)(A1)\n10 10\nˆ ˆ ˆ ˆ Note: Award (M1) for α= APT − BPT , (A1) for a correct APT and (A1) for a correct BPT .\nOR\n10 ο ο\nα= arctan 2 − ( = 63.434 …− 55.008 … ) (M1)(A1)(A1)\narctan7\nˆ ˆ ˆ ˆ Note: Award (M1) for α= PBT − PAT , (A1) for a correct PBT and (A1) for a correct PAT .\nOR\n125 + 149 − 4\nα = arccos (M1)(A1)(A1)\n2 × 125 × 149\nNote: Award (M1) for use of cosine rule, (A1) for a correct numerator and (A1)\nfor a correct denominator.\nTHEN\nο\n= 8.43 A1\n[4 marks]\n(b) EITHER\n7 5\n−\nx x\ntan α = M1A1A1\n7 5\n1 +\nx x\nNote: Award M1 for use of tan( A − B ) , A1 for a correct numerator and A1 for a correct\ndenominator.\n2\nx\nM1 =\n35\n1 +\nx 2\nOR\nx x\n−\n5 7\ntan α = M1A1A1\nx x\n1 +\n5 7\nNote: Award M1 for use of tan(A− B), A1 for a correct numerator and A1 for a\ncorrect denominator.\n2 x\n35\n= M1\nx 2\n1 +\n35\nOR\n2 x\n+ 35\ncos α = M1A1\n( x 2 25 )( x 2 49 ) + +\nNote: Award M1 for either use of the cosine rule or use of cos( A − B ) .\n2 x\nsin α= A1\n2 2 ( x\n+ 25 )( x + 49 )\n2 x\n2 2 ( x\n+ 25 )( x + 49 )\ntan α = M1\n2 x\n+ 35\n2 2 ( x\n+ 25 )( x + 49 )\nTHEN\n2 x\ntan α= AG\n2 x\n+ 35\n[4 marks]\n2 2 ( x\n+ 35 ) − (2)(2) x x 2 d 70 − 2 x\n(c) (i) (tan α ) = = M1A1A1\n2 2 d x 2 2\n( x + 35 ) ( x + 35 )\nNote: Award M1 for attempting product or quotient rule differentiation,\nA1 for a correct numerator and A1 for a correct denominator.\n(ii) METHOD 1\nEITHER\nd(tan ⇒ 2\nα= ) 0 70 − 2 x = 0 (M1)\nd x\nx= 35(m) ( = 5.9161 … (m) ) A1\n1\ntan α= ( = 0.16903 … ) (A1)\n35\nOR\nattempting to locate the stationary point on the graph of\n2 x\ntan α= (M1)\n2 x\n+ 35\nx= 5.9161 … (m) ( = 35m ( ) ) A1\n1\ntan α = 0.16903 …= (A1)\n35\nTHEN\nο\nα= 9.59 A1\nMETHOD 2\nEITHER\n2 2 x d\nα 70 − 2 x\n⇒ α = arctan = M1\n2 2 x\n+ 35 d x 2 2 ( x + 35 ) + 4 x\nd\nα= ⇒ 0 x = 35(m) ( = 5.9161 … (m) ) A1\nd x\nOR\nattempting to locate the stationary point on the graph of\n2 x\nα = arctan (M1)\nx 2 35 +\nx= 5.9161 … (m) ( = 35m ( ) ) A1\nTHEN\n1\nα = 0.1674 …= arctan (A1)\n35\nο\n= 9.59 A1\n2\n2 2 2 2 2 d ( x + 35 )( − 4 x )()( − 2 2 x )( x + 35 )( 70 − 2 x ) 4 xx ( − 105 )\n(iii) (tan α ) = =\n2 2 4 2 3 d x\n( x + 35 ) ( x + 35 )\nM1A1\n2 d\nsubstituting x= 35 ( = 5.9161 … into ) (tan α ) M1\n2 dx\n2 d\n(tan α< ) 0 ( =− 0.004829 …and so ) α= 9.59 ο is the maximum\n2 dx\nvalue of α R1\nαnever exceeds 10ο AG\n[11 marks]\n2 x ο\n(d) attempting to solve ≥ tan 7 (M1)\n2 x\n+ 35\n2 x\nNote: Award (M1) for attempting to solve tan 7 ο. =\n2 x\n+ 35\nx= 2.55 and x= 13.7 (A1)\n2.55 ≤ x ≤ 13.7 (m) A1\n[3 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.7",
+    "5.6",
+    "3.10",
+    "3.2",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 22]\nPoints A, B and T lie on a line on an indoor soccer field. The goal, [AB], is $2$ metres wide. A player situated at point P kicks a ball at the goal. [PT] is perpendicular to (AB) and is $6$ metres from a parallel line through the centre of [AB]. Let PT be $x$ metres and let $\\alpha = \\mathrm{A\\hat{P}B}$ measured in degrees. Assume that the ball travels along the floor.\n[Diagram: goal AB (2 m wide) on a line through A, B, T; dashed line through the centre of AB perpendicular to it; P at distance x m below T with PT perpendicular to the line; horizontal distance 6 m from the dashed centre line to P; angle alpha at P between PA and PB]\n(a) Find the value of $\\alpha$ when $x = 10$. [4]\n(b) Show that $\\tan\\alpha = \\frac{2x}{x^2 + 35}$. [4]\nThe maximum for $\\tan\\alpha$ gives the maximum for $\\alpha$.\n(c) (i) Find $\\frac{d}{dx}(\\tan\\alpha)$.\n(ii) Hence or otherwise find the value of $\\alpha$ such that $\\frac{d}{dx}(\\tan\\alpha) = 0$.\n(iii) Find $\\frac{d^2}{dx^2}(\\tan\\alpha)$ and hence show that the value of $\\alpha$ never exceeds $10^\\circ$. [11]\n(d) Find the set of values of $x$ for which $\\alpha \\ge 7^\\circ$. [3]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 23,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 23]\nThe functions f and g are defined by\nx - x e + e\nfx ()= , x ∈ϒ\n2\nx - x e - e\ngx ()= , x ∈ϒ\n2\nx 1 e\n(a) (i) Show that = .\n4 fx () - 2 gx () e 2 x + 3\nln3\n1\n(ii) Use the substitution u = ex to find ∫ d . Give your answer in the\n2()x\n4() fx − gx\n0\nπ a\nform where a , b ∈′+ . [9]\nb\nLet h(x) =nf (x) +g(x) where n ∈ϒ,n> 1 .\n(b) (i) By forming a quadratic equation in ex , solve the equation h(x) =k , where k ∈ϒ+ .\n(ii) Hence or otherwise show that the equation h(x) =k has two real solutions\n2 provided that k > n -\n1 and k ∈ϒ+ . [8]\ngx ()\nLet tx () = .\nfx ()\n]- [ 2 2 =[ fx () gx () ]\n(c) (i) Show that ′ tx () for x ∈ϒ .\n2\n[ fx () ]\n(ii) Hence show that t'(x) > 0 for x ∈ϒ . [6]",
+   "ms_text": "1\n12. (a) (i) (M1)\nx − x x − x e\n+ e e − e\n4 − 2\n2 2\n1\n= (A1)\nx − x x − x 2e (\n+ e ) − ( e − e )\n1\nA1 =\nx − x e\n+ 3e\nx e\n= AG\n2 x e\n+ 3\nx ⇒ x\n(ii) u = e d u = ed x A1\nx e 1\nd x = d u M1 ∫ ∫\n2 x 2 e\n+ 3 u + 3\n(when x= 0 , u= 1 and when x= ln3 , u= 3 )\n3 3\n1 1 u\n∫ d u arctan M1A1\n2 = u\n+ 3 3 3\n1 1\nln3\nx 1 e\n= arctan\n3 3\n0\nπ3 π3\n= − (M1)\n9 18\nπ3\n= A1\n18\n[9 marks]\n2 x x (b) (i) ( n\n+ 1)e − 2e k + ( n − 1) = 0 M1A1\n2 2 2 k\n± 4 k − 4 ( n − 1 )\nx e\n= M1\n2( n 1) +\n2 2 k\n± k − n + 1\nx = ln M1A1\nn 1 +\n2 2 (ii) for two real solutions, we require k\n> k − n + 1 R1\n2 2\nand we also require k − n + 1 > 0 R1\n2 2 k\n> n − 1 A1\n⇒ 2 + k > n − 1 ( k ∈ϒ) AG\n[8 marks]\n(c) (i) METHOD 1\nx − x e\n− e\ntx () =\ne x e − x +\n2 2 x − x x − x\n( e + e ) − ( e − e )\ntx ′ () = M1A1\n2 x − x\n( e + e )\n2 2 x − x x − x\ne + e e − e\n−\n2 2\ntx ′ () = A1\n2 x − x\ne + e\n2\n2 2\n[ fx () ] − [ gx () ]\n= AG\n2\n[ fx () ]\nMETHOD 2\nfxgx () ′ () − gxf () ′ () x\ntx ′ () = M1A1\n2\n[ fx () ]\ngx ′ () = fx () and f ′ () x = gx () A1\n2 2\n[ fx () ] [ gx () ] −\n= AG\n2\n[ fx () ]\nMETHOD 3\nx − x x − x − 1 tx ()\n= ( e − e )( e + e )\n2\n( x − x ) e − e\ntx ′ () =− 1 M1A1\n2 x − x\n( e + e )\n2\n[ gx () ]\n=− 1 A1\n2\n[ fx () ]\n2 2\n[ fx () ] − [ gx () ]\n= AG\n2\n[ fx () ]\nMETHOD 4\ngx ′ () gxf () ′ () x\ntx ′ () = − M1A1\n2 fx ()\n[ fx () ]\n2\n[ gx () ]\n′ ′ gx () = fx () and f () x = gx () gives tx ′ ()1 =− A1\n2\n[ fx () ]\n2 2\n[ fx () ] − [ gx () ]\n= AG\n2\n[ fx () ]\n(ii) METHOD 1\n2 2\n[ fx () ] > [ gx () ] (or equivalent) M1A1\n2\n[ fx () ] > 0 R1\nhence() tx ′ > 0 , x∈ϒ AG\nx − x x − x e\n+ e e − e\nNote: Award as above for use of either fx () = and gx () =\n2 2\nx − x x − x or e\n+ e and e − e .\nMETHOD 2\n2 2\n[ fx () ] − [ gx () ] = 1 (or equivalent) M1A1\n2\n[ fx () ] > 0 R1\nhence () tx ′ > 0 , x∈ϒ AG\nx x x x e e − e e −\n+ −\nNote: Award as above for use of either fx () = and gx () =\n2 2\nx − x x − x or e\n+ e and e − e .\nMETHOD 3\n4\ntx ′ () =\n2 x − x\n( e + e )\n2 x − x\n( e + e ) > 0 M1A1\n4\n> 0 R1\n2 x − x\n( e + e )\nhence () tx ′ > 0 , x∈ϒ AG\n[6 marks]\nTotal [23 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.15",
+    "5.6",
+    "2.7",
+    "1.7",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 23]\nThe functions $f$ and $g$ are defined by\n$f(x) = \\frac{e^x + e^{-x}}{2}$, $x \\in \\mathbb{R}$\n$g(x) = \\frac{e^x - e^{-x}}{2}$, $x \\in \\mathbb{R}$\n(a) (i) Show that $\\frac{1}{4f(x) - 2g(x)} = \\frac{e^x}{e^{2x} + 3}$.\n(ii) Use the substitution $u = e^x$ to find $\\int_0^{\\ln 3} \\frac{1}{4f(x) - 2g(x)}\\,dx$. Give your answer in the form $\\frac{\\pi\\sqrt{a}}{b}$ where $a, b \\in \\mathbb{Z}^+$. [9]\nLet $h(x) = nf(x) + g(x)$ where $n \\in \\mathbb{R}$, $n > 1$.\n(b) (i) By forming a quadratic equation in $e^x$, solve the equation $h(x) = k$, where $k \\in \\mathbb{R}^+$.\n(ii) Hence or otherwise show that the equation $h(x) = k$ has two real solutions provided that $k > \\sqrt{n^2 - 1}$ and $k \\in \\mathbb{R}^+$. [8]\nLet $t(x) = \\frac{g(x)}{f(x)}$.\n(c) (i) Show that $t'(x) = \\frac{[f(x)]^2 - [g(x)]^2}{[f(x)]^2}$ for $x \\in \\mathbb{R}$.\n(ii) Hence show that $t'(x) > 0$ for $x \\in \\mathbb{R}$. [6]"
+  }
+ ],
+ "status": "done"
+}

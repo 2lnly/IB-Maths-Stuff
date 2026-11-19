@@ -1,0 +1,31 @@
+{
+  "exam_id": "math-2015-N-P3-calculus",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.12"],
+      "qtype": "short",
+      "text_clean": "1. [Maximum mark: 5]\nThe function $f:\\mathbb{R}\\to\\mathbb{R}$ is defined as $f:x\\to\\begin{cases}1, & x<0\\\\ 1-x, & x\\ge 0\\end{cases}$.\nBy considering limits, prove that $f$ is\n(a) continuous at $x=0$; [2]\n(b) not differentiable at $x=0$. [3]"
+    },
+    "2": {
+      "topics": ["5"],
+      "subtopics": ["5.19", "5.6"],
+      "text_clean": "2. [Maximum mark: 10]\nLet $f(x)=\\mathrm{e}^x\\sin x$.\n(a) Show that $f''(x)=2(f'(x)-f(x))$. [4]\n(b) By further differentiation of the result in part (a), find the Maclaurin expansion of $f(x)$, as far as the term in $x^5$. [6]"
+    },
+    "3": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.L1", "1.15", "1.8"],
+      "text_clean": "3. [Maximum mark: 11]\n(a) Prove by induction that $n!>3^n$, for $n\\ge 7$, $n\\in\\mathbb{Z}$. [5]\n(b) Hence use the comparison test to prove that the series $\\sum_{r=1}^{\\infty}\\frac{2^r}{r!}$ converges. [6]"
+    },
+    "4": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.L5", "5.15", "5.11", "1.3"],
+      "text_clean": "4. [Maximum mark: 14]\nConsider the function $f(x)=\\frac{1}{1+x^2}$, $x\\in\\mathbb{R}$.\n(a) Illustrate graphically the inequality, $\\frac{1}{5}\\sum_{r=1}^{5}f\\left(\\frac{r}{5}\\right)<\\int_0^1 f(x)\\,\\mathrm{d}x<\\frac{1}{5}\\sum_{r=0}^{4}f\\left(\\frac{r}{5}\\right)$. [3]\n(b) Use the inequality in part (a) to find a lower and upper bound for $\\pi$. [5]\n(c) Show that $\\sum_{r=0}^{n-1}(-1)^r x^{2r}=\\frac{1+(-1)^{n-1}x^{2n}}{1+x^2}$. [2]\n(d) Hence show that $\\pi=4\\left(\\sum_{r=0}^{n-1}\\frac{(-1)^r}{2r+1}-(-1)^{n-1}\\int_0^1\\frac{x^{2n}}{1+x^2}\\,\\mathrm{d}x\\right)$. [4]"
+    },
+    "5": {
+      "topics": ["5"],
+      "subtopics": ["5.18", "5.16", "5.4"],
+      "text_clean": "5. [Maximum mark: 20]\nThe curves $y=f(x)$ and $y=g(x)$ both pass through the point $(1,0)$ and are defined by the differential equations $\\frac{\\mathrm{d}y}{\\mathrm{d}x}=x-y^2$ and $\\frac{\\mathrm{d}y}{\\mathrm{d}x}=y-x^2$ respectively.\n(a) Show that the tangent to the curve $y=f(x)$ at the point $(1,0)$ is normal to the curve $y=g(x)$ at the point $(1,0)$. [2]\n(b) Find $g(x)$. [6]\n(c) Use Euler's method with steps of $0.2$ to estimate $f(2)$ to 5 decimal places. [5]\n(d) Explain why $y=f(x)$ cannot cross the isocline $x-y^2=0$, for $x>1$. [3]\n(e) (i) Sketch the isoclines $x-y^2=-2, 0, 1$.\n(ii) On the same set of axes, sketch the graph of $f$. [4]"
+    }
+  }
+}

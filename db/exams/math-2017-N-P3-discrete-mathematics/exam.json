@@ -1,0 +1,130 @@
+{
+ "exam_id": "math-2017-N-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2017,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2017 November Examination Session/Mathematics_paper_3_Discrete_mathematics__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2017 November Examination Session/Mathematics_paper_3_Discrete_mathematics__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8817-7207; code N17/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 50",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2017-N-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 11]\nMathilde delivers books to five libraries, A, B, C, D and E. She starts her deliveries at\nlibrary D and travels to each of the other libraries once, before returning to library D.\nMathilde wishes to keep her travelling distance to a minimum.\nThe weighted graph H , representing the distances, measured in kilometres, between the\nfive libraries, has the following table.\nA B C D E\nA – 18 19 16 21\nB 18 15 22 17 –\nC 19 15 – 20 17\nD 16 22 20 – 19\nE 21 17 17 19 –\n(a) Draw the weighted graph H . [2]\n(b) Starting at library D use the nearest-neighbour algorithm, to find an upper bound for\nMathilde’s minimum travelling distance. Indicate clearly the order in which the edges\nare selected. [5]\n(c) By first removing library C, use the deleted vertex algorithm, to find a lower bound for\nMathilde’s minimum travelling distance. [4]",
+   "ms_text": "1. (a)\ncomplete graph on 5 vertices A1\nweights correctly marked on graph A1\n[2 marks]\n(b) clear indication that the nearest-neighbour algorithm has been applied M1\nDA (or 16) A1\nAB (or 18) then BC (or 15) A1\nCE (or 17) then ED (or 19) A1\nUB=85 A1\n[5 marks]\n(c) an attempt to find the minimum spanning tree (M1)\nDA (16) then BE (17) then AB (18) (total 51) A1\nreconnect C with the two edges of least weight, namely CB (15) and CE (17) M1\nLB=83 A1\n[4 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.8",
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "Mathilde delivers books to five libraries, A, B, C, D and E. She starts her deliveries at library D and travels to each of the other libraries once, before returning to library D. Mathilde wishes to keep her travelling distance to a minimum.\nThe weighted graph $H$, representing the distances, measured in kilometres, between the five libraries, has the following table.\n| | A | B | C | D | E |\n| A | – | 18 | 19 | 16 | 21 |\n| B | 18 | – | 15 | 22 | 17 |\n| C | 19 | 15 | – | 20 | 17 |\n| D | 16 | 22 | 20 | – | 19 |\n| E | 21 | 17 | 17 | 19 | – |\n(a) Draw the weighted graph $H$. [2]\n(b) Starting at library D use the nearest-neighbour algorithm, to find an upper bound for Mathilde's minimum travelling distance. Indicate clearly the order in which the edges are selected. [5]\n(c) By first removing library C, use the deleted vertex algorithm, to find a lower bound for Mathilde's minimum travelling distance. [4]"
+  },
+  {
+   "id": "math-2017-N-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\nConsider the recurrence relation\nun= 5un-1-6un-2 , u0= 0 and u1= 1 .\n(a) Find an expression for un in terms of n . [6]\n(b) For every prime number p > 3 , show that p |up-1 . [4]",
+   "ms_text": "2\n2. (a) the auxiliary equation is λ − 5 λ + 6 = 0 M1\n⇒ λ = 2, 3 (A1)\nthe general solution is u = A × 2 n + B × 3 n A1\nn\nimposing initial conditions (substituting n = 0, 1 ) M1\nA + B = 0 and 2 A + 3 B = 1 A1\nthe solution is A =− 1, B = 1\nn n so that u= 3 − 2 A1\nn\n[6 marks]\np − 1 p − 1 (b) u −= 3 − 2\np 1\np> 3 , therefore 3 or 2 are not divisible by p R1\n− − p 1 ≡ ≡ p 1 p>\nhence by FLT, 3 1 2 (mod) p for 3 M1A1\nu −≡ 0(mod p ) A1\np 1\np> 3 pu− for every prime number | AG\np 1\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.10",
+    "6.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "Consider the recurrence relation\n$u_n = 5u_{n-1} - 6u_{n-2}$, $u_0 = 0$ and $u_1 = 1$.\n(a) Find an expression for $u_n$ in terms of $n$. [6]\n(b) For every prime number $p > 3$, show that $p \\mid u_{p-1}$. [4]"
+  },
+  {
+   "id": "math-2017-N-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 11]\n(a) (i) Draw the complete bipartite graph κ3,3 .\n(ii) Prove that κ3,3 is not planar. [5]\nA connected graph G has v vertices. Prove, using Euler’s relation, that a spanning (b)\ntree for G has v - 1 edges. [2]\nConsider κn , a complete graph with n vertices, n ≥2 . Let T be a fixed spanning tree of κn .\n(c) If an edge E is chosen at random from the edges of κn , show that the probability that\nE belongs to T is equal to 2\n. [4]\nn",
+   "ms_text": "3. (a) (i)\nA1\n(ii) assume κ is planar\n3,3\nκ has no cycles of length 3 R1\n3,3\nuse of e ≤ 2 v − 4 M1\ne = 9 v = 6 and A1\n≤/ hence inequality not satisfied9 8 R1\nso κ is not planar AG\n3,3\n≤ − e = v = Note: use of e 3 v 6 with 9 and 6 and concluding that this inequality does\nnot show whether κ is planar or not just gains R1.\n3,3\n[5 marks]\n(b) a spanning tree (is planar and) has one face A1\nEuler’s relation is v − e + f = 2\nv − e + 1 = 2 M1\n⇒ e = v − 1 AG\n[2 marks]\nn nn − (\n1)edges (c) edges (A1)\nκ has 2 n\n2\nn − 1\nP( E belongs to ) T = M1A1\nnn ( − 1)\n2\nclear evidence of simplification of the above expression M1\n2\n= AG\nn\n[4 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "4"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "(a) (i) Draw the complete bipartite graph $\\kappa_{3,3}$.\n(ii) Prove that $\\kappa_{3,3}$ is not planar. [5]\n(b) A connected graph $G$ has $v$ vertices. Prove, using Euler's relation, that a spanning tree for $G$ has $v-1$ edges. [2]\nConsider $\\kappa_n$, a complete graph with $n$ vertices, $n \\ge 2$. Let $T$ be a fixed spanning tree of $\\kappa_n$.\n(c) If an edge $E$ is chosen at random from the edges of $\\kappa_n$, show that the probability that $E$ belongs to $T$ is equal to $\\frac{2}{n}$. [4]"
+  },
+  {
+   "id": "math-2017-N-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 9]\nConsider the system of linear congruences\nx ≡2(mod 5)\nx ≡5(mod 8)\nx ≡1(mod 3).\n(a) With reference to the integers 5, 8 and 3, state why the Chinese remainder theorem\nguarantees a unique solution modulo 120 to this system of linear congruences. [2]\n(b) Hence or otherwise, find the general solution to the above system of linear\ncongruences. [7]",
+   "ms_text": "4. (a) 5,8 and 3 are pairwise relatively prime (or equivalent) R1\n120 is the product of 5,8 and 3 R1\n[2 marks]\n(b) METHOD 1\nx = 2 + 5, tt ∈′ and 2 + 5 t ≡ 5(mod8) M1\n5 t ≡ 3(mod8) ⇒ 5 t ≡ 35(mod8) (M1)\nt = 7 + 8, uu ∈′ (A1)\nx = 2 + 5(7 + 8) u ⇒ x = 37 + 40 u (A1)\n37 + 40 u ≡ 1(mod3) ⇒ u ≡ 0(mod3) (A1)\nu = 3, vv ∈′ (A1)\nx = 37 + 40(3) v\n= + x ≡ x 37 120 v ( 37(mod120) ) A1\n[7 marks]\nMETHOD 2\nattempting systematic listing of possibilities M1\nsolutions to x≡ 2(mod5) are x= 2,7, 12, … , 37, … (A1)\nsolutions to x≡ 5(mod8) are x= 5, 13,21, … , 37, … (A1)\nx≡ 1(mod3) x= … … solutions to are 1,4,7, , 37, (A1)\nx = a solution is 37 (A1)\nusing the Chinese remainder theorem (M1)\nx = 37 + 120 v ( x ≡ 37(mod120) ) A1\n[7 marks]\nMETHOD 3\nM, i= 1, 2, 3 attempting to find\ni\nM= 8 × 3 = 24 , M= 5 × 3 = 15 and M= 5 × 8 = 40 M1\n1 2 3\nusing Mx ≡ 1mod ( m ) , i= 1, 2, 3 to obtain\ni i i\n24 x≡ 1(mod5) , 15 x≡ 1(mod8) and 40 x≡ 1(mod3) M1\n1 2 3\nx≡ x≡ x≡ 4(mod5) , 7(mod8) and 1(mod3) (A1)(A1)(A1)\n1 2 3\nuse of x ≡ a x M + axM + ax M M ) gives 3(mod\n11 1 2 2 2 3 3\nx≡ × × + × × + × × (2 4 24 5 7 15 1 1 40)(mod120) (M1)\nx≡ 757(mod120) ( ≡ 37(mod120) ) ( x = 37 + 120, vv ∈′ ) A1\n[7 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "Consider the system of linear congruences\n$x \\equiv 2 \\pmod{5}$\n$x \\equiv 5 \\pmod{8}$\n$x \\equiv 1 \\pmod{3}$.\n(a) With reference to the integers 5, 8 and 3, state why the Chinese remainder theorem guarantees a unique solution modulo 120 to this system of linear congruences. [2]\n(b) Hence or otherwise, find the general solution to the above system of linear congruences. [7]"
+  },
+  {
+   "id": "math-2017-N-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 9]\n(a) Convert the decimal number 1071 to base 12. [3]\n(b) Write the decimal number 1071 as a product of its prime factors. [1]\nThe decimal number 1071 is equal to a060 in base b , where a > 0 .\n(c) (i) Using your answers to part (a) and (b), prove that there is only one possible value\nfor b and state this value.\n(ii) Hence state the value of a . [5]",
+   "ms_text": "5. (a) EITHER\nusing a list of relevant powers of 12: 1, 12, 144 (M1)\n= × 2 + × 1 + × 0 1071 7 12 5 12 3 12 (A1)\nOR\nattempted repeated division by 12 (M1)\n1071 ÷ 12 = 89rem3 ; 8912 ÷ = 7rem5 (A1)\nTHEN\n1071 = 753 A1\n12\n[3 marks]\n(b) 1071 = 3 × 3 × 7 × 17 A1\n[1 mark]\n(c) (i) in base ba060 ends in a zero and so b is a factor of 1071 R1\nb < from part (a) 12 as a060 has four digits and so the possibilities are\nb = 3 , b = 7 or b= 9 R1\nb = 3 stating valid reasons to exclude both eg, there is a digit of 6\nb = 9 1071 = (1420) and eg, R1\n9\nb = 7 A1\nNote: The A mark is independent of the R marks.\n(ii) 1071 = (3060) ⇒ a = 3 A1\n7\n[5 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.2",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "(a) Convert the decimal number 1071 to base 12. [3]\n(b) Write the decimal number 1071 as a product of its prime factors. [1]\nThe decimal number 1071 is equal to $a060$ in base $b$, where $a > 0$.\n(c) (i) Using your answers to part (a) and (b), prove that there is only one possible value for $b$ and state this value.\n(ii) Hence state the value of $a$. [5]"
+  }
+ ],
+ "status": "done"
+}

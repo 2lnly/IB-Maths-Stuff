@@ -1,0 +1,231 @@
+{
+ "exam_id": "math-2005-N-P1",
+ "questions": {
+  "1": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "text_clean": "1. In triangle ABC, $\\hat{ABC}=31^\\circ$, AC $=3$ cm and BC $=5$ cm. Calculate the possible lengths of the side [AB].",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3",
+    "4.L5"
+   ],
+   "text_clean": "2. A random sample drawn from a large population contains the following data\n$6.2,\\ 7.8,\\ 12.1,\\ 9.7,\\ 5.2,\\ 14.8,\\ 16.2,\\ 3.7$.\nCalculate an unbiased estimate of\n(a) the population mean;\n(b) the population variance.",
+   "answer_status": "ok",
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "unbiased estimate of variance (s_{n-1}^2) tagged 4.L5 alongside 4.3"
+  },
+  "3": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "text_clean": "3. When the polynomial $P(x)=4x^3+px^2+qx+1$ is divided by $(x-1)$ the remainder is $-2$. When $P(x)$ is divided by $(2x-1)$ the remainder is $\\frac{13}{4}$. Find the value of $p$ and of $q$.",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.8",
+    "2.1"
+   ],
+   "text_clean": "4. The curve $y=\\frac{x^3}{3}-x^2-3x+4$ has a local maximum point at P and a local minimum point at Q. Determine the equation of the straight line passing through P and Q, in the form $ax+by+c=0$, where $a,b,c\\in\\mathbb{R}$.",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.L1",
+    "3.5"
+   ],
+   "text_clean": "5. The triangle OAB has vertices at the points $O(0,0)$, $A(2,\\sqrt{3})$ and $B(\\sqrt{3},2)$. The triangle is rotated $\\frac{\\pi}{3}$ radians about the origin, so that the image of A is A$'$ and the image of B is B$'$. Find the **exact** coordinates of\n(a) A$'$;\n(b) B$'$.",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "text_clean": "6. The two complex numbers $z_1=\\frac{a}{1+i}$ and $z_2=\\frac{b}{1-2i}$ where $a,b\\in\\mathbb{R}$, are such that $z_1+z_2=3$. Calculate the value of $a$ and of $b$.",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16"
+   ],
+   "text_clean": "7. Find $\\int e^x\\cos x\\,dx$.",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7"
+   ],
+   "text_clean": "8. Find $\\sum_{n=1}^{15} a_n^2$ where $a_n=\\ln x^n$.",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.7",
+    "5.3",
+    "1.16"
+   ],
+   "text_clean": "9. Let $f$ be a cubic polynomial function. Given that $f(0)=2$, $f'(0)=-3$, $f(1)=f'(1)$ and $f''(-1)=6$, find $f(x)$.",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "text_clean": "10. Box A contains 6 red balls and 2 green balls. Box B contains 4 red balls and 3 green balls. A fair cubical die with faces numbered 1, 2, 3, 4, 5, 6 is thrown. If an even number is obtained, a ball is selected from box A; if an odd number is obtained, a ball is selected from box B.\n(a) Calculate the probability that the ball selected was red.\n(b) Given that the ball selected was red, calculate the probability that it came from box B.",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.12"
+   ],
+   "text_clean": "11. The parallelogram ABCD has vertices $A(3,2,0)$, $B(7,-1,-1)$, $C(10,-3,0)$ and $D(6,0,1)$. Calculate the area of the parallelogram.",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12"
+   ],
+   "text_clean": "12. A random variable $X$ is normally distributed with mean $\\mu$ and variance $\\sigma^2$. If $P(X>6.2)=0.9474$ and $P(X<9.8)=0.6368$, calculate the value of $\\mu$ and of $\\sigma$.",
+   "answer_status": "ok"
+  },
+  "13": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5"
+   ],
+   "text_clean": "13. Let $f$ and $g$ be two functions. Given that $(f\\circ g)(x)=\\frac{x+1}{2}$ and $g(x)=2x-1$, find $f(x-3)$.",
+   "answer_status": "ok"
+  },
+  "14": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.L1",
+    "2.1"
+   ],
+   "text_clean": "14. Let $M=\\begin{pmatrix}1&3\\\\-1&-1\\end{pmatrix}$.\n(a) Write down the inverse of the matrix $M$.\n(b) A straight line $L_1$ is transformed into another straight line $L_2$ by $M$. The line $L_2$ has equation $y=3x-1$. Find the equation of $L_1$.",
+   "answer_status": "ok"
+  },
+  "15": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.7"
+   ],
+   "text_clean": "15. A circle has equation $x^2+(y-2)^2=1$. The line with equation $y=kx$, where $k\\in\\mathbb{R}$, is a tangent to the circle. Find all possible values of $k$.",
+   "answer_status": "ok"
+  },
+  "16": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "3.4"
+   ],
+   "text_clean": "16. The following diagram shows the points A and B on the circumference of a circle, centre O, and radius 4 cm, where $\\hat{AOB}=\\theta$. Points A and B are moving on the circumference so that $\\theta$ is increasing at a constant rate.\n[Diagram: circle centre O with radii OA and OB forming angle $\\theta$ at O; the minor segment between chord AB and the arc is shaded]\nGiven that the rate of change of the length of the minor arc AB is numerically equal to the rate of change of the area of the shaded segment, find the acute value of $\\theta$.",
+   "answer_status": "ok"
+  },
+  "17": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.7"
+   ],
+   "text_clean": "17. Given that the maximum value of $\\frac{1}{4\\sin\\theta+3\\cos\\theta+k}$ is 2, for $0^\\circ\\le\\theta\\le360^\\circ$, find the value of $k$.",
+   "answer_status": "ok"
+  },
+  "18": {
+   "topics": [
+    "4",
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "4.5",
+    "1.10",
+    "2.7"
+   ],
+   "text_clean": "18. There are 25 disks in a bag. Some of them are black and the rest are white. Two are simultaneously selected at random. Given that the probability of selecting two disks of the same colour is equal to the probability of selecting two disks of different colour, how many black disks are there in the bag?",
+   "answer_status": "ok"
+  },
+  "19": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.15",
+    "2.2"
+   ],
+   "text_clean": "19. Find the largest set of values of $x$ such that the function $f$ given by $f(x)=\\sqrt{\\frac{8x-4}{x-3}}$ takes real values.",
+   "answer_status": "ok",
+   "note": "audit: domain question solved by rational inequality; add 2.2 as on 2004-N-P1-q7 etc."
+  },
+  "20": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.13"
+   ],
+   "text_clean": "20. The line $\\frac{x-1}{1}=\\frac{y-2}{2}=\\frac{z+1}{2}$ is reflected in the plane $x+y+z=1$. Calculate the angle between the line and its reflection. Give your answer in **radians**.",
+   "answer_status": "ok"
+  }
+ }
+}

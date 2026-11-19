@@ -1,0 +1,311 @@
+{
+ "exam_id": "math-2015-M-P2-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2015,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2015 May Examination Session/Mathematics_paper_2_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2015 May Examination Session/Mathematics_paper_2_TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2215-7204; code M15/5/MATHL/HP2/ENG/TZ1/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2015-M-P2-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nThe region R is enclosed by the graph of y= e–x2, the x-axis and the lines x = –1 and x= 1 .\nFind the volume of the solid of revolution that is formed when R is rotated through 2π about\nthe x-axis.",
+   "ms_text": "2\n( ) ( ) 1. 1∫ πe−x2 dx 1∫ πe−2x2dx or 1∫ 2πe−2x2dx (M1)(A1)(A1)\n−1 −1 0\nNote: Award M1 for integral involving the function given; A1 for\n2\ncorrect limits; A1 for π and e−x2 ( )\n= 3.758249... = 3.76 A1\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.17"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nThe region $R$ is enclosed by the graph of $y=\\mathrm{e}^{-x^2}$, the $x$-axis and the lines $x=-1$ and $x=1$. Find the volume of the solid of revolution that is formed when $R$ is rotated through $2\\pi$ about the $x$-axis."
+  },
+  {
+   "id": "math-2015-M-P2-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\nThe finishing times in a marathon race follow a normal distribution with mean 210 minutes\nand standard deviation 22 minutes.\n(a) Find the probability that a runner finishes the race in under three hours. [2]\nThe fastest 90 % of the finishers receive a certificate.\n(b) Find the time, below which a competitor has to complete the race, in order to gain\na certificate. [2]",
+   "ms_text": "2 2. (a) X N ( 210, 22 )\n( ) P X< 180 = 0.0863 (M1)A1\n[2 marks]\n(b) P ( X < T ) = 0.9 ⇒ T = 238 (mins) (M1)A1\n[2 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nThe finishing times in a marathon race follow a normal distribution with mean $210$ minutes and standard deviation $22$ minutes.\n(a) Find the probability that a runner finishes the race in under three hours. [2]\nThe fastest $90\\%$ of the finishers receive a certificate.\n(b) Find the time, below which a competitor has to complete the race, in order to gain a certificate. [2]"
+  },
+  {
+   "id": "math-2015-M-P2-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nA mosaic is going to be created by randomly selecting 1000 small tiles, each of which is\neither black or white. The probability that a tile is white is 0.1. Let the random variable W be\nthe number of white tiles.\n(a) State the distribution of W , including the values of any parameters. [2]\n(b) Write down the mean of W . [1]\n(c) Find P (W > 89) . [2]",
+   "ms_text": "k 1000 k −)\n3. (a) W ~ B(1000, 0.1) (accept C 10000.1 ( )( 0.9 ) A1A1\nk\nNote: First A1 is for recognizing the binomial, second A1 for\nboth parameters if stated explicitly in this part of the\nquestion.\n[2 marks]\nμ= (10000.1) × = 100 (b) A1\n[1 mark]\nP(W>89) =P(W≥90) =1−P(W≤89) ( ) (c) (M1)\n=0.867 A1\nNotes: Award M0A0 for 0.889\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nA mosaic is going to be created by randomly selecting $1000$ small tiles, each of which is either black or white. The probability that a tile is white is $0.1$. Let the random variable $W$ be the number of white tiles.\n(a) State the distribution of $W$, including the values of any parameters. [2]\n(b) Write down the mean of $W$. [1]\n(c) Find $\\mathrm{P}(W>89)$. [2]"
+  },
+  {
+   "id": "math-2015-M-P2-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nA triangle ABC has Â= 50ο , AB = 7 cm and BC = 6 cm . Find the area of the triangle given\nthat it is smaller than 10 cm2.",
+   "ms_text": "4.\nMETHOD 1\n6 7 7sin50\n= ⇒ sin C = (M1)\nsin50 sin C 6\nC = 63.344... (A1)\nor C = 116.655... (A1)\nB = 13.344... (or B = 66.656... ) (A1)\n1 (or1\narea = ××× 67sin13.344... 67sin 66.656... ) (M1) 2×××\n2\n4.846... (or = 19.281... )\nso answer is 4.85 (cm2) A1\nMETHOD 2\n2 2 2 6 = 7 + b −× 27cos50 b (M1)(A1)\n2 b − 14cos5013 b + = 0 or equivalent method to solve the above equation (M1)\nb = 7.1912821... or b = 1.807744... (A1)\n1\narea = ×× 71.8077...sin50 = 4.846... (M1)\n2\n(or1 = 77.1912821...sin50 19.281...\n) 2××\nso answer is 4.85 (cm2) A1\nMETHOD 3\nDiagram showing triangles ACB and ADB (M1)\n( )=5.3623... (cm) h =7sin50 (M1)\nα=arcsinh (M1)\n6=63.3442...\nAC =AD −CD =7cos50 −6cosα=1.8077... (cm) (M1)\narea=1 (M1)\n2×1.8077...×5.3623...\n=4.85 (cm2) A1\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nA triangle ABC has $\\hat{A}=50^\\circ$, $\\mathrm{AB}=7\\text{ cm}$ and $\\mathrm{BC}=6\\text{ cm}$. Find the area of the triangle given that it is smaller than $10\\text{ cm}^2$."
+  },
+  {
+   "id": "math-2015-M-P2-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nA bicycle inner tube can be considered as a joined up cylinder of fixed length 200 cm\nand radius rcm . The radius r increases as the inner tube is pumped up. Air is being\npumped into the inner tube so that the volume of air in the tube increases at a constant rate\nof 30 cm3 s–1. Find the rate at which the radius of the inner tube is increasing when r= 2 cm .",
+   "ms_text": "= 2 5. V 200π r (A1)\nNote: Allow V = π hr 2 if value of h is substituted later in the question.\nEITHER\nd V d r\n= 2002 π r M1A1\nd t d t\nNote: Award M1 for an attempt at implicit differentiation.\nd r\nat r = 2 we have 30 = π M1\n2004 d\nt\nOR\ndV\ndr dt\nM1 dt=\ndV\ndr\nd V\n400 π r M1 r=\nd\nV we have d\nr = 2 800 π A1\nr=\nd\nTHEN\nd r 30 3\n= = = 0 0119 . (cms–1) A1\nd t 800 π 80 π\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\nA bicycle inner tube can be considered as a joined up cylinder of fixed length $200\\text{ cm}$ and radius $r\\text{ cm}$. The radius $r$ increases as the inner tube is pumped up. Air is being pumped into the inner tube so that the volume of air in the tube increases at a constant rate of $30\\text{ cm}^3\\text{ s}^{-1}$. Find the rate at which the radius of the inner tube is increasing when $r=2\\text{ cm}$."
+  },
+  {
+   "id": "math-2015-M-P2-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 4]\nA function f is defined by f (x) =x3+ ex+ 1 , x ∈ ϒ. By considering f ′(x) determine\nwhether f is a one-to-one or a many-to-one function.",
+   "ms_text": "′ = 2 + 6. f () x 3 x ex A1\nNote: Accept labelled diagram showing the graph y = ′f x() above the x-axis;\ndo not accept unlabelled graphs nor graph of y =fx().\nEITHER\nthis is always > 0 R1\nso the function is (strictly) increasing R1\nand thus 1–1 A1\nOR\nthis is always > 0 (accept ≠ 0) R1\nso there are no turning points R1\nand thus 1–1 A1\nNote: A1 is dependent on the first R1.\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.2",
+    "2.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 4]\nA function $f$ is defined by $f(x)=x^3+\\mathrm{e}^x+1$, $x\\in\\mathbb{R}$. By considering $f'(x)$ determine whether $f$ is a one-to-one or a many-to-one function."
+  },
+  {
+   "id": "math-2015-M-P2-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\nThe random variable X follows a Poisson distribution with mean m≠ 0 .\n(a) Given that 2P (X= 4) = P (X= 5) , show that m= 10 . [3]\n(b) Given that X≤ 11 ,find the probability that X= 6 . [4]",
+   "ms_text": "− m 4 − m 5\ne m e m\n= 7. (a) 2 M1A1\n4! 5!\n2 m\n= or other simplification M1\n4! 5!\nNote: accept a labelled graph showing clearly the solution to the\nequation. Do not accept simple verification that m =10 is a solution.\n⇒ m = 10 AG\n[3 marks]\nP( X = 6)\n= ≤ = (b) P( X 6 | X 11) (M1) (A1)\nP( X ≤ 11)\n0.063055...\n= (A1)\n0.696776...\n= 0.0905 A1\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nThe random variable $X$ follows a Poisson distribution with mean $m\\neq 0$.\n(a) Given that $2\\mathrm{P}(X=4)=\\mathrm{P}(X=5)$, show that $m=10$. [3]\n(b) Given that $X\\le 11$, find the probability that $X=6$. [4]",
+   "review_note": "ms crop fixed via overrides (Q7 ms previously included top of Q8 ms)."
+  },
+  {
+   "id": "math-2015-M-P2-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\n2 4\nLet v = 3 and w = λ .\n5 10\n(a) Find the value of λ for v and w to be parallel. [2]\n(b) Find the value of λ for v and w to be perpendicular. [2]\n(c) Find the two values of λ if the angle between v and w is 10ο. [4]",
+   "ms_text": "4 2\nλ 8. (a) require = s 3 (M1)\n10 5\n⇒ = ⇒ = ⇒ λ = 4 2 s s 2 6 A1\nNote: Accept cross product solution.\n[2 marks]\n− 58\n(b) require vw • = 24 ×+× 3 λ +× 510 = 0 ⇒ 3 λ =− 58 ⇒ λ = (–19.3) M1A1\n3\n[2 marks]\n2 2 2 2 2 2 ο (c) v • w = 24 ×+× 3 λ +× 510 = 2 + 3 + 5 × 4 + λ + 10 × cos10 (M1 )(A1)\n58 +3λ= 38 × 116 +λ2×cos10ο\nλ= 3 73 . or 8 76 . A1A1\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\nLet $\\boldsymbol{v}=\\begin{pmatrix}2\\\\3\\\\5\\end{pmatrix}$ and $\\boldsymbol{w}=\\begin{pmatrix}4\\\\\\lambda\\\\10\\end{pmatrix}$.\n(a) Find the value of $\\lambda$ for $\\boldsymbol{v}$ and $\\boldsymbol{w}$ to be parallel. [2]\n(b) Find the value of $\\lambda$ for $\\boldsymbol{v}$ and $\\boldsymbol{w}$ to be perpendicular. [2]\n(c) Find the two values of $\\lambda$ if the angle between $\\boldsymbol{v}$ and $\\boldsymbol{w}$ is $10^\\circ$. [4]",
+   "review_note": "ms crop fixed via overrides (Q7 ms previously included top of Q8 ms)."
+  },
+  {
+   "id": "math-2015-M-P2-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\nx e cosln( x x + e )\nFind the equation of the normal to the curve y = at the point where x= 0 .\n5\n( 17 ) x + 1\nIn your answer give the value of the gradient, of the normal, to three decimal places.",
+   "ms_text": "9. x = 0 ⇒ y = 1 (A1)\ny ′ (0) = 1 367879 . … (M1)(A1)\n′y0()=e +1 =1+1 Note: The exact answer is .\ne e\n− 1\nso gradient of normal is ( =− 0.731058 Κ ) (M1)(A1)\n1.367879 Κ\nequation of normal is y =− 0.731058 Κ x + c (M1)\ngives y =− 0 731 . x + 1 A1\ne\nNote: The exact answer is y =− e +1x +1.\nAccept y −=− 1 0.731058 Κ ( x − 0 )\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.4",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nFind the equation of the normal to the curve $y=\\dfrac{\\mathrm{e}^x\\cos x\\ln(x+\\mathrm{e})}{\\left(x^{17}+1\\right)^5}$ at the point where $x=0$.\nIn your answer give the value of the gradient, of the normal, to three decimal places."
+  },
+  {
+   "id": "math-2015-M-P2-TZ1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 10,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 10]\nA function f is defined by f (x) = (x + 1) (x – 1) (x – 5) , x ∈ ϒ .\n< (a) Find the values of x for which fx () fx () . [3]\nA function g is defined by g (x) =x2+x – 6 , x ∈ ϒ.\n1\n(b) Find the values of x for which gx () < . [7]\ngx ()",
+   "ms_text": "10. (a)\nfx= − as roots of () 0 are 1, 1, 5 (M1)\nsolution is −∞,−1 ] [∪1,5 ] [ ( x <− or 1 1 < x < 5 ) A1A1\nNote:Award A1A0 for closed intervals.\n[3 marks]\n(b) METHOD 1\n1\n(graphs of gx and () )\ngx ()\ngx= roots of () 0 are –3and 2 (M1)(A1)\nNotes: Award M1 if quadratic graph is drawn or two roots\nobtained.\nRoots may be indicated anywhere eg asymptotes on graph\nor in inequalities below.\nthe intersections of the graphs gx and of 1 () / gx ()\nare 3.19, − − 2.79,1.79, 2.19 (M1)(A1)\nNote: Award A1 for at least one of the values above seen\nanywhere.\n] [∪−2.79,1.79 ] [∪2,2.19 ] [ solution is −3.19,−3\n(3 19 − . < x <− or 2 79 3 − . < x < 1 79 . or 2 < x < 2 19 . ) A1A1A1\nNote:Award A1A1A0 for closed intervals.\nMETHOD 2\n1\n(graph of gx () − )\ngx ()\nx =− and 3 x = 2 asymptotes at (M1)(A1)\nNote: May be indicated on the graph.\nroots of graph are 3 19, − . − 2 79, 1 79, 2 19 . . . (M1)(A1)\nNote: Award A1 for at least one of the values above seen\nanywhere.\nsolution is (when graph is negative)\n] −3.19,−3 [∪−2.79,1.79 ] [∪2,2.19 ] [\n(3 19 − . < x <− or2 79 3 − . < x < 1 79 . or 2 < x < 2 19 . ) A1A1A1\nNote: Award A1A1A0 for closed intervals.\n[7 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.15",
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 10]\nA function $f$ is defined by $f(x)=(x+1)(x-1)(x-5)$, $x\\in\\mathbb{R}$.\n(a) Find the values of $x$ for which $f(x)<|f(x)|$. [3]\nA function $g$ is defined by $g(x)=x^2+x-6$, $x\\in\\mathbb{R}$.\n(b) Find the values of $x$ for which $g(x)<\\dfrac{1}{g(x)}$. [7]",
+   "review_note": "Section A question (10 marks); qtype set to short per section rule."
+  },
+  {
+   "id": "math-2015-M-P2-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\nThe probability density function of a continuous random variable X is given by\n0, x < 0\nsin x\n, 0 ≤ x ≤ π\nfx () = 4 .\nax ( − π ), π < x ≤ 2 π\n0,2 π < x\n(a) Sketch the graph of y=f (x) . [2]\n(b) Find P (X≤ π) . [2]\nShow that a =1\n(c) . [3]\n2 π\n(d) Write down the median of X . [1]\n(e) Calculate the mean of X . [3]\n(f) Calculate the variance of X . [3]\nπ 3 π\n≤ ≤ (g) X . [2]\nFind P2\n2\nπ 3\nGiven that π ≤ X ≤ find the probability that π≤ X≤ 2π. [4]\n(h)\n2 2",
+   "ms_text": "11. (a)\nAward A1 for sine curve from 0 to π, award A1 for straight line from π to 2π A1A1\n[2 marks]\nπ sin 1\nxx\n(b) d = (M1)A1 ∫\n0 4 2\n[2 marks]\n(c) METHOD 1\n1 2 π\nrequire + ax ( −π )d x = 1 (M1) ∫\nπ 2\n2π 2 π\n2 1 x\n⇒1 2+a(x −π)2 =1 (or + a −π x = 1\n) A1\n2 2 2\nπ π\n2 1\naπ ⇒ =\nA1\n2 2\n1\n⇒ a AG\n=π 2\nNote: Must obtain the exact value. Do not accept answers\nobtained with calculator.\nMETHOD 2\n0.5 + area of triangle =1 R1\n= 1π × a π=0.5 area of triangle M1A1\n2\nNote: Award M1 for correct use of area formula = 0.5, A1 for π a.\n1\na= AG\nπ 2\n[3 marks]\n(d) median isπ A1\n[1 mark]\nπ sin x 2 π x −π\n(e) μ = x ⋅ d x + x d x (M1)(A1) ∫ ∫ ⋅π\n0 π 2 4\nπ 5 π 13\n= 3.40339... = 3.40 (or + = π ) A1\n4 6 12\n[3 marks]\n(f) For μ = 3.40339...\nEITHER\nx2⋅sin x x2⋅x −π σ2= π∫ dx + 2π∫ −μ2\n(M1)(A1)\n0 π π2dx 4\nOR\n2 ⋅sin x 2 ⋅x −π ( ) ( )\nσ2= π∫ x −μ dx + 2π∫ x −μ (M1)(A1)\nπ2dx 0\n4 π\nTHEN\n= 3.866277... = 3.87 A1\n[3 marks]\n3π\nx −π π sin\nxx + =0.375 (or 1\n(g) ∫ π d 2∫ 4+1 8=3 ) (M1)A1\nπ2dx\n4 π 8\n2\n[2 marks]\nπ 3\nP π≤ X ≤\nπ 3 π 2\n(h) P π≤ X ≤π 2 ≤ X ≤ = (M1)(A1)\nπ 3 π 2 2\n≤ X ≤\nP2\n2\n3π\n(x −π) 1\ndx 2∫\nπ 8 π2 =0.125\n= (or = from diagram areas) (M1)\n0.375 0.375 3\n8\n=1\nA1\n3(0.333)\n[4 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 20]\nThe probability density function of a continuous random variable $X$ is given by\n$f(x)=\\begin{cases}0, & x<0\\\\ \\dfrac{\\sin x}{4}, & 0\\le x\\le\\pi\\\\ a(x-\\pi), & \\pi<x\\le 2\\pi\\\\ 0, & 2\\pi<x\\end{cases}$.\n(a) Sketch the graph of $y=f(x)$. [2]\n(b) Find $\\mathrm{P}(X\\le\\pi)$. [2]\n(c) Show that $a=\\dfrac{1}{\\pi^2}$. [3]\n(d) Write down the median of $X$. [1]\n(e) Calculate the mean of $X$. [3]\n(f) Calculate the variance of $X$. [3]\n(g) Find $\\mathrm{P}\\left(\\dfrac{\\pi}{2}\\le X\\le\\dfrac{3\\pi}{2}\\right)$. [2]\n(h) Given that $\\dfrac{\\pi}{2}\\le X\\le\\dfrac{3\\pi}{2}$ find the probability that $\\pi\\le X\\le 2\\pi$. [4]"
+  },
+  {
+   "id": "math-2015-M-P2-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 19]\n(a) (i) Use the binomial theorem to expand (cos θ+ i sin θ)5.\n(ii) Hence use De Moivre’s theorem to prove\nsin 5θ= 5cos4θ sin θ – 10cos2θ sin3θ + sin5θ.\n(iii) State a similar expression for cos 5θ in terms of cos θ and sin θ . [6]\nLet z=r (cos α+ isin α) , where α is measured in degrees, be the solution of z5 – 1 = 0 which\nhas the smallest positive argument.\n(b) Find the value of r and the value of α. [4]\n(c) Using (a) (ii) and your answer from (b) show that 16sin4α – 20sin2α+ 5 = 0 . [4]\na + b c\n(d) Hence express sin72οin the form where a , b , c , d∈ ′ . [5]\nd",
+   "ms_text": "θ + θ 5 12. (a) (i) (cos isin)\n5 4 2 3 2 = cos θ + 5icos θ sin θ + 10icos θ sin θ +\n3 2 θ 3 θ + 4 θ 4 θ + 5 5 θ 10icos sin 5icossin isin A1A1\n5 4 3 2 (cos = θ + 5icos θ sin θ − 10cos θ sin θ −\n2 θ 3 θ + θ 4 θ + 5 θ 10icos sin 5cos sin isin )\nNote: Award first A1 for correct binomial coefficients.\nθ 5 = θ =cos5θ+isin5θ (ii) (cis) cis5 M1\n=cos 5θ+5icos 4θsinθ−10cos 3θsin 2θ−10icos 2θsin 3θ+\n4 5 5cos θ sin θ + isin θ A1\nNote:Previous line may be seen in (i)\nequating imaginary terms M1\nsin5 θ = 5cos 4 θ sin θ − 10cos 2 θ sin 3 θ + sin 5 θ AG\n(iii) equating real terms\n5 3 2 4 cos5 θ = cos θ − 10cos θ sin θ + 5cossin θ θ A1\n[6 marks]\n5 5 (b) (cis r α ) =⇒ 1 r cis5 α = 1cis0 M1\n5 =⇒ = r 1 r 1 A1\n5α=0 ±360k , k ∈′⇒α=72k (M1)\nο α= 72\nA1\nNote:Award M1A0 if final answer is given in radians.\n[4 marks]\n(c) use of sin (572) × = 0 OR the imaginary part of 1 is 0 (M1)\n4 2 3 5 0 = 5cos α sin α − 10cos α sin α + sin α A1\n2\nα≠ ⇒ = ( − 2 α ) − ( − 2 α ) 2 α + 4 α sin 0 0 51sin 101sin sin sin M1\n2 Note: Award M1 for replacing cosα.\n= ( − 2 α + 4 α ) − 2 α + 4 α + 4 α 0 512sin sin 10sin 10sin sin A1\nNote: Award A1 for any correct simplification.\n4 2 so 16sin α − 20sin α + 5 = 0 AG\n[4 marks]\n20 ± 400 − 320 2\n(d) sin α = M1A1\n32\n20 ± 80\nsin α =±\n32\n± 10 ± 25\nsin α = A1\n4\nNote: Award A1 regardless of signs. Accept equivalent forms\nwith integral denominator, simplification may be seen later.\n3\n> = as 72 > 60, sin 72 0.866 Κ so we have to take both positive\n2\nsigns (or equivalent argument) R1\nNote:Allow verification of correct signs with calculator if clearly\nstated\n10 + 25\nsin 72 = A1\n4\n[5 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.9",
+    "3.6",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 19]\n(a) (i) Use the binomial theorem to expand $(\\cos\\theta+\\mathrm{i}\\sin\\theta)^5$.\n(ii) Hence use De Moivre's theorem to prove $\\sin 5\\theta=5\\cos^4\\theta\\sin\\theta-10\\cos^2\\theta\\sin^3\\theta+\\sin^5\\theta$.\n(iii) State a similar expression for $\\cos 5\\theta$ in terms of $\\cos\\theta$ and $\\sin\\theta$. [6]\nLet $z=r(\\cos\\alpha+\\mathrm{i}\\sin\\alpha)$, where $\\alpha$ is measured in degrees, be the solution of $z^5-1=0$ which has the smallest positive argument.\n(b) Find the value of $r$ and the value of $\\alpha$. [4]\n(c) Using (a) (ii) and your answer from (b) show that $16\\sin^4\\alpha-20\\sin^2\\alpha+5=0$. [4]\n(d) Hence express $\\sin 72^\\circ$ in the form $\\dfrac{\\sqrt{a+b\\sqrt{c}}}{d}$ where $a,b,c,d\\in\\mathbb{Z}$. [5]"
+  },
+  {
+   "id": "math-2015-M-P2-TZ1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 21]\nRichard, a marine soldier, steps out of a stationary helicopter, 1000 m above the ground,\nat time t= 0 . Let his height, in metres, above the ground be given by s (t). For the first\n10 seconds his velocity, v (t)ms–1, is given by v (t) = –10t .\n(a) (i) Find his acceleration a (t) for t < 10 .\n(ii) Calculate v (10) .\n(iii) Show that s (10) = 500 . [6]\nAt t= 10 his parachute opens and his acceleration a (t) is subsequently given by\na (t) = –10 – 5v , t ≥ 10 .\nt t Given that d =1, write down d\n(b) in terms of v . [1]\nv d v d d v\nd t\nYou are told that Richard’s acceleration, a (t) = – 10 – 5v , is always positive, for t ≥ 10 .\n1 98\n(c) Hence show that t = 10 + ln . [5]\n−− 5 2 v\nHence find an expression for the velocity, v , for t ≥ 10 . (d) [2]\n(e) Find an expression for his height, s , above the ground for t ≥ 10 . [5]\n(f) Find the value of t when Richard lands on the ground. [2]",
+   "ms_text": "d v\n13. (a) (i) at () = =− 10 (ms–2) A1\nd t\n(ii) t = 10 ⇒ v =− 100 (ms–1) A1\n2 (iii) s =− 10d tt =− 5 t ( + c ) M1A1\n∫\ns = 1000 for t = 0 ⇒ c = 1000 (M1)\n2 s =− 5 t + 1000 A1\nat t = 10, s = 500 (m) AG\nNote: Accept use of definite integrals.\n[6 marks]\nd t 1\n(b) A1 =−\nd v ( 10 − 5 v )\n[1 mark]\n(c) METHOD 1\n1 1\nt = ∫ d v =− ln(10 − − 5)( v + c ) M1A1\n− 10 − 5 v 5\nNote: Accept equivalent forms using modulus signs.\nt = 10, v =− 100\n1\n10 =− ln(490) + c M1\n5\n1\nc = 10 + ln(490) A1\n5\n1 1\n= + − − − t 10 ln 490 ln(10 5) v A1\n5 5\nNote: Accept equivalent forms using modulus signs.\n1 98\nt = 10 + ln AG\n−− 5 2 v\nNote: Accept use of definite integrals.\nMETHOD 2\n1 1 1 1\nt = ∫ d v =− ∫ d v =− ln2 + v ( + c ) M1A1\n− 10 − 5 v 5 2 + v 5\nNote: Accept equivalent forms.\nt = 10, v =− 100\n10 =−1\nM1 5ln−98+c\n( ) is seen do not award further A marks. Note:If ln−98\n1\nc = 10 + ln98 A1\n5\n1 1\nt = 10 + ln98 − ln2 + v A1\n5 5\nNote: Accept equivalent forms.\n1 98\nt = 10 + ln AG\n−− 5 2 v\nNote: Accept use of definite integrals.\n[5 marks]\n98\n(d) 5( t − 10) =\nln (2 −−\nv )\n2 + v − 5( t − 10)\n=− e (M1)\n98\n− −\nv =−− 2 98e 5( t 10) A1\n[2 marks]\nd s − 5( t − 10)\n(e) =−− 2 98e\nd t\n98 − 5( t − 10)\ns =− 2 t + e ( + k ) M1A1\n5\n98\nat t = 10, s = 500 ⇒ 500 =− 20 + + k ⇒ k = 500.4 M1A1\n5\n98\n=− + − 5( t − 10) + s 2 t e 500.4 A1\n5\nNote: Accept use of definite integrals.\n[5 marks]\n(f) t = 250 for s = 0 (M1)A1\n[2 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.18",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 21]\nRichard, a marine soldier, steps out of a stationary helicopter, $1000\\text{ m}$ above the ground, at time $t=0$. Let his height, in metres, above the ground be given by $s(t)$. For the first $10$ seconds his velocity, $v(t)\\text{ m s}^{-1}$, is given by $v(t)=-10t$.\n(a) (i) Find his acceleration $a(t)$ for $t<10$.\n(ii) Calculate $v(10)$.\n(iii) Show that $s(10)=500$. [6]\nAt $t=10$ his parachute opens and his acceleration $a(t)$ is subsequently given by $a(t)=-10-5v$, $t\\ge 10$.\n(b) Given that $\\dfrac{\\mathrm{d}t}{\\mathrm{d}v}=\\dfrac{1}{\\frac{\\mathrm{d}v}{\\mathrm{d}t}}$, write down $\\dfrac{\\mathrm{d}t}{\\mathrm{d}v}$ in terms of $v$. [1]\nYou are told that Richard's acceleration, $a(t)=-10-5v$, is always positive, for $t\\ge 10$.\n(c) Hence show that $t=10+\\dfrac{1}{5}\\ln\\left(\\dfrac{98}{-2-v}\\right)$. [5]\n(d) Hence find an expression for the velocity, $v$, for $t\\ge 10$. [2]\n(e) Find an expression for his height, $s$, above the ground for $t\\ge 10$. [5]\n(f) Find the value of $t$ when Richard lands on the ground. [2]"
+  }
+ ],
+ "status": "done"
+}

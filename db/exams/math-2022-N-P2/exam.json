@@ -1,0 +1,296 @@
+{
+ "exam_id": "math-2022-N-P2",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2022,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2022 November Examination Session/Mathematics_analysis_and_approaches_paper_2__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2022 November Examination Session/Mathematics_analysis_and_approaches_paper_2__HL_markscheme.pdf",
+ "notes": "3 duplicate copies (2 byte-identical size, 1 donated/scanned); paper number 8822-7102; marks sum matches paper total 110",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2022-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nThe following table shows the Mathematics test scores (x) and the Science test scores (y)\nfor a group of eight students.\nMathematics\n64 68 72 75 80 82 85 86\nscores (x)\nScience\n67 72 77 76 84 83 89 91\nscores (y)\nThe regression line of y on x for this data can be written in the form y=ax+b .\nFind the value of a and the value of b .\b (a) [2]\n(b) Write down the value of the Pearson’s product-moment correlation coefficient, r .\b [1]\n(c) Use the equation of your regression line to predict the Science test score for a\nstudent who has a score of 78 on the Mathematics test. Express your answer to the\nnearest integer.\b [2]",
+   "ms_text": "1. (a) 1.01206…, 2.45230…\na =1.01 , b = 2.45 (1.01x + 2.45) A1A1\n[2 marks]\n(b) 0.981464…\nr = 0.981 A1\nNote: A common error is to enter the data incorrectly into the GDC, and obtain the\nanswers a = 1.01700..., b = 2.09814... and r = 0.980888... Some candidates\nmay write the 3 sf answers, ie. a = 1.02, b = 2.10 and r = 0.981 or 2 sf\nanswers, ie. a = 1.0, b = 2.1 and r = 0.98 . In these cases award A0A0 for\npart (a) and A0 for part (b). Even though some values round to an accepted\nanswer, they come from incorrect working.\n[1 mark]\n(c) correct substitution of 78 into their regression equation (M1)\n81.3930… , 81.23 from 3 sf answer\n81 A1\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nThe following table shows the Mathematics test scores $(x)$ and the Science test scores $(y)$ for a group of eight students.\nMathematics scores $(x)$: 64 | 68 | 72 | 75 | 80 | 82 | 85 | 86\nScience scores $(y)$: 67 | 72 | 77 | 76 | 84 | 83 | 89 | 91\nThe regression line of $y$ on $x$ for this data can be written in the form $y = ax + b$.\n(a) Find the value of $a$ and the value of $b$. [2]\n(b) Write down the value of the Pearson's product-moment correlation coefficient, $r$. [1]\n(c) Use the equation of your regression line to predict the Science test score for a student who has a score of 78 on the Mathematics test. Express your answer to the nearest integer. [2]"
+  },
+  {
+   "id": "math-2022-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nThe function f is defined as f(x)=ln (xex+1)-x4 , for 0≤x≤2 . The graph of f is shown\nin the following diagram.\ny\n2\nA\nB x\n0\n1 2\nf\n−14\nThe graph of f has a local maximum at point A . The graph intersects the x-axis at the origin\nand at point B .\n(a) Find the coordinates of A .\b [2]\n(b) Find the x-coordinate of B .\b [1]\n(c) Find the total area enclosed by the graph of f , the x-axis and the line x=2 .\b [3]",
+   "ms_text": "( 0.708519...,0.639580... ) 2. (a)\n( 0.709,0.640 ( ) = = x 0.709, y 0.640 ) A1A1\n[2 marks]\n(b) 1.09885...\nx = 1.10 (accept ( 1.10,0) ) A1\n[1 mark]\n(c) METHOD 1\n2\n∫ () (A1) 0fxdx\n4.61117...\narea = 4.61 A2\nMETHOD 2\n2 2\n−∫ () OR ∫ () OR 4.17527… (A1) 1.09885...fxdx 1.09885...fxdx\n1.09885... 2\n∫ fxdx () − ∫ fxdx () OR 0.435901… + 4.17527… (A1)\n0 1.09885...\n4.61117...\narea = 4.61 A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.4",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nThe function $f$ is defined as $f(x) = \\ln(x\\mathrm{e}^x + 1) - x^4$, for $0 \\le x \\le 2$. The graph of $f$ is shown in the following diagram.\n[Graph: curve of f from the origin rising to a local maximum A near x = 0.7, crossing the x-axis at B just after x = 1, then falling steeply to about y = -14 at x = 2]\nThe graph of $f$ has a local maximum at point A. The graph intersects the $x$-axis at the origin and at point B.\n(a) Find the coordinates of A. [2]\n(b) Find the $x$-coordinate of B. [1]\n(c) Find the total area enclosed by the graph of $f$, the $x$-axis and the line $x = 2$. [3]"
+  },
+  {
+   "id": "math-2022-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nA geometric sequence has a first term of 50 and a fourth term of 86.4 .\nThe sum of the first n terms of the sequence is Sn .\nFind the smallest value of n such that Sn>33 500 .",
+   "ms_text": "86.4 = 50r 3 3. (A1)\n386.4\nr = 1.2 = seen anywhere (A1)\n50\n( n ) 501.2 − 1\nn > 33500OR2501.2 ( − 1 ) = 33500\n(A1)\n0.2\nattempt to solve their geometric S inequality or equation (M1)\nn\nsketch OR n > 26.9045, n = 26.9 OR S = 28368.8 OR S = 34092.6 OR algebraic\n26 27\nmanipulation involving logarithms\nn = 27 (accept n ≥ 27 ) A1\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nA geometric sequence has a first term of 50 and a fourth term of 86.4.\nThe sum of the first $n$ terms of the sequence is $S_n$.\nFind the smallest value of $n$ such that $S_n > 33\\,500$."
+  },
+  {
+   "id": "math-2022-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\nThe population of a town t years after 1 January 2014 can be modelled by the function\nP(t )=15 000ek t , where k<0 and t≥0 .\nIt is known that between 1 January 2014 and 1 January 2022 the population decreased by 11 % .\nUse this model to estimate the population of this town on 1 January 2041.",
+   "ms_text": "4. recognition that initial population is 15000 (seen anywhere) (A1)\nP () 0 = 15000 OR 0.1115000 × OR 0.8915000 ×\npopulation after 11% decrease is 150000.89 × ( = 13350 ) (A1)\nrecognizing that t = 8 on 1 January 2022 (seen anywhere) (A1)\nsubstitution of their value of t for 1 January 2022 and their value of () P 8 into the\nmodel (M1)\n8 8 150000.89 × = 15000ek OR 13350 = 15000ek\nln0.89(0.014566) k = −\n(A1)\n8\nsubstitution of t = 20412014( − = 27) and their value fork into the model (M1)\n0.0145...27 × P (27) = 15000 e−\n10122.3…\nP (27) = 10100 (10122) A1\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.9",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\nThe population of a town $t$ years after 1 January 2014 can be modelled by the function\n$P(t) = 15\\,000\\mathrm{e}^{kt}$, where $k < 0$ and $t \\ge 0$.\nIt is known that between 1 January 2014 and 1 January 2022 the population decreased by 11%.\nUse this model to estimate the population of this town on 1 January 2041."
+  },
+  {
+   "id": "math-2022-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\n9\n( + 1 )\nConsider the expansion of ax , where a≠0 . The coefficient of the term in x4 is 8 5\na.\n2 21 x 7\nFind the value of a .",
+   "ms_text": "5.\nNote: Do not award any marks if there is clear evidence of adding instead of\n9 − r r multiplying, for example 9 C + ( ax ) + (1) .\nr\nvalid approach for expansion (must be the product of a binomial coefficient with n = 9\nand a power of ax ) (M1)\n9 9 − r r 9 r 9 − r 9 0 9 9 1 8 Cax ( ) (1) OR C ( ax )(1) OR Cax ( )(1) + Cax ( )(1) + ...\nr 9 − r 0 1\nrecognizing that the term in 6x is needed (M1)\n6 Term in x\n4 = kx OR r = 6 OR r = 3 OR 9 − r = 6\n21 2 x\ncorrect term or coefficient in binomial expansion (seen anywhere) (A1)\n9 6 3 9 6 6 6 6 6 Cax ( )(1)OR Cax OR 84 ( ax ) (1)OR 84 a\n6 3\nEITHER\ncorrect term in 4xor coefficient (may be seen in equation) (A1)\n9\nCax OR 6 6 4 6 4 6 4 ax OR 4 a\n21\n8 8 5 4 5\nSet their term in 4xor coefficient of 4xequal to\n7axor 7a (do not accept other\npowers of x) (M1)\n9 8 8\nCax 3 6 4 = 5 4 6 = 5 ax OR 4 a a\n21 7 7\nOR\ncorrect term in 6xor coefficient of 6x (may be seen in equation) (A1)\n6 6 6 84 ax OR 84 a\n5 6 5 Set their term in 6xor coefficient of 6xequal to 24axor 24a\n(do not accept other powers of x) (M1)\n6 6 5 6 84 ax = 24 ax OR 84 a = 24\nTHEN\n2\na = ≈ 0.2860.285714... ( ) A1\n7\n2\na = and a = 0 . Note: Award A0 for the final mark for\n7\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nConsider the expansion of $\\dfrac{(ax+1)^9}{21x^2}$, where $a \\ne 0$. The coefficient of the term in $x^4$ is $\\dfrac{8}{7}a^5$.\nFind the value of $a$."
+  },
+  {
+   "id": "math-2022-N-P2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 8]\nThe continuous random variable X has a probability density function given by\nax x ≤ x ≤ b e, 0\n() = fx\n0 , otherwise\nwhere a , b∈ϒ+ .\n(a) Find an expression for a in terms of b .\b [5]\n(b) In the case where a=b=1 , find the median of X .\b [3]",
+   "ms_text": "b\nx 6. (a) ax ed x = 1 (seen anywhere)\nM1 ∫\n0\nattempt to use integration by parts (either way around) (M1)\nb\nb x x\nax e − ∫ a ed x ( = 1 ) (A1)\n0\n0\nx b x b ax e − a e ( = 1 )\nA1\n0 0\nNote: Condone incorrect or absent limits up to this point.\nb b ab e − a e + a = 1\n1\na = A1\nb b b e − e + 1\n[5 marks]\nm\n1 x\n(b) ∫ x ed x = (M1)\n2\n0\nm m 1 x x\nx e − e =\n0 0 2\n1 m m\nm e − e += 1 (A1)\n2\nm = 0.768039...\nm = 0.768 A1\n[3 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 8]\nThe continuous random variable $X$ has a probability density function given by\n$f(x) = \\begin{cases} ax\\mathrm{e}^x, & 0 \\le x \\le b \\\\ 0, & \\text{otherwise} \\end{cases}$\nwhere $a, b \\in \\mathbb{R}^+$.\n(a) Find an expression for $a$ in terms of $b$. [5]\n(b) In the case where $a = b = 1$, find the median of $X$. [3]"
+  },
+  {
+   "id": "math-2022-N-P2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\n1 1\nConsider the vectors u=i+j and v = cos i sin j + , where n∈′+ .\nn n\nLet θ be the angle between u and v .\n(a) Find an expression for cosθ in terms of n .\b [3]\n(b) Find the exact value of the limit approached by θ as n→∞ .\b [3]",
+   "ms_text": "7. (a) METHOD 1\nattempt to use scalar product or formula for angle between two vectors (M1)\n1 1\nu.v = cos + sin (seen anywhere) (A1)\nn n\n1 1 1 1\ncos + sin cos + sin\nn n n n\ncos θ = = A1\n1 1 2 2 2\n2 cos + sin\nn n\nMETHOD 2\nattempt to use an Argand diagram showing two complex numbers in the first\nquadrant with the angle between them marked as θ (M1)\nπ 1\narg () u = (accept 45ο or arctan(1) ) and arg () v = (A1)\n4 n\nπ 1\ncos θ= − A1\ncos4\nn\nuse of1\n(b) 0 as n →∞ (M1)\nn→\nEITHER\n( cos θ→ )1 (A1)\n2\nOR\n( → ) v i (A1)\nTHEN\nthe limit isπ\nA1\n4\nNote: Accept 45°. Do not accept rounded values such as 0.785.\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.13",
+    "5.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nConsider the vectors $\\boldsymbol{u} = \\boldsymbol{i} + \\boldsymbol{j}$ and $\\boldsymbol{v} = \\left(\\cos\\frac{1}{n}\\right)\\boldsymbol{i} + \\left(\\sin\\frac{1}{n}\\right)\\boldsymbol{j}$, where $n \\in \\mathbb{Z}^+$.\nLet $\\theta$ be the angle between $\\boldsymbol{u}$ and $\\boldsymbol{v}$.\n(a) Find an expression for $\\cos\\theta$ in terms of $n$. [3]\n(b) Find the exact value of the limit approached by $\\theta$ as $n \\to \\infty$. [3]"
+  },
+  {
+   "id": "math-2022-N-P2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nThe following diagram shows liquid in a round-bottomed glass flask, which is made of a\nsphere and a cylindrical neck.\nInitially, the flask is empty. Liquid is poured into the flask at a rate of 2cm3s-1 . You may\nassume that the liquid does not reach the cylindrical neck.\nThe volume Vcm3 and the height hcm of the liquid in the flask satisfy the equation\n1 2 3\nV = 5 π h − π h .\n3\nFind the rate of change of the height of the liquid in the flask at the instant when the volume\nof the liquid is 200cm3 .",
+   "ms_text": "8. EITHER\nd V\n= 10π h − π h 2 (A1)\nd h\nV Note: This A1may be implied by the value d\n76.5616... .\nh=\nd\nh V V attempt to use chain rule to find a relationship between d , d and d\n(M1)\nd t d t d h\nd h d h d V 1 d V\n= × = ×\nd t d V d t d V d t\nd h\nOR\n1 2 3\nattempt to differentiate V = 5π h − π h throughout with respect to t (M1)\n3\nd V d h d h 2\n= 10π h − π h (A1)\nd t d t d t\nTHEN\nd h d h 2\n( 10π h − π h 2 ) = 2 = OR (A1)\n2 d t d t 10π h − π h\nNote: Award this A1if the correct expression is seen with their h already\nsubstituted.\n1 2 3\nattempt to solve 200 = 5π h − π h (M1)\n3\nh = 4.20648... (A1)\nNote: This (M1)(A1)can be awarded independently of all previous marks, and may\nV be implied by the value d\n76.5616...\nh=\nd\nIgnore extra values of h -3.24 and 14.0.\nd h\n0.0261227...\nt=\nd\nd h − 1\n= 0.0261cms ( ) A1\nd t\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.14",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nThe following diagram shows liquid in a round-bottomed glass flask, which is made of a sphere and a cylindrical neck.\n[Diagram: spherical flask with a cylindrical neck, partly filled with liquid]\nInitially, the flask is empty. Liquid is poured into the flask at a rate of $2\\,\\text{cm}^3\\,\\text{s}^{-1}$. You may assume that the liquid does not reach the cylindrical neck.\nThe volume $V\\,\\text{cm}^3$ and the height $h\\,\\text{cm}$ of the liquid in the flask satisfy the equation\n$V = 5\\pi h^2 - \\frac{1}{3}\\pi h^3$.\nFind the rate of change of the height of the liquid in the flask at the instant when the volume of the liquid is $200\\,\\text{cm}^3$."
+  },
+  {
+   "id": "math-2022-N-P2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\nConsider a quadrilateral ABCD such that AB =2 , BC=4 , CD=6 and DA=8 , as shown\nin the following diagram. Let α=AB̂C and β=AD̂C .\ndiagram not to scale\nB\nA\n2 α\n4 C\n8\n6\nβ\nD\n(a) (i) \u0007Find AC in terms of α .\n(ii) Find AC in terms of β .\nHence or otherwise, find an expression for α in terms of β .\b (iii) [4]\n(b) Find the maximum area of the quadrilateral ABCD.\b [4]",
+   "ms_text": "9. (a) (i) attempt to use the cosine rule (M1)\nAC = 2 2 + 4 2 − 2(2)(4)cos α ( = 2016cos − α = 25 − 4cos α ) A1\n2 2 ( ) (ii) AC = 6 + 8 − 2(6)(8)cos β = 100 − 96cos β = 225 − 24cos β\nA1\n(iii) 5 − 4cos α = 25 − 24cos β\nα = arccos6cos ( β − 5 ) A1\n[4 marks]\n1\n(b) attempt to find the sum of two triangle areas using A = ab sin C (M1)\n2\nNote: Do not award this M1if the triangle is assumed to be right angled.\n1 1\nArea = () 8sin α + ( 48sin ) β (A1)\n2 2\nattempt to express the area in terms of one variable only (M1)\n2\n( ) = 41 − ( 6cos β − 5 ) + 24sin β or 4sinarccos6cos ( β − 5 ) + 24sin β OR\n2\n5 + cos α 5 + cos α\n4sin α + 241 − or 4sin α + 24sinarccos\n6 6\nMax area = 19.5959…\n= 19.6 A1\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.9",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nConsider a quadrilateral ABCD such that AB $= 2$, BC $= 4$, CD $= 6$ and DA $= 8$, as shown in the following diagram. Let $\\alpha = \\mathrm{A\\hat{B}C}$ and $\\beta = \\mathrm{A\\hat{D}C}$.\n[Diagram (not to scale): quadrilateral ABCD with AB = 2, BC = 4, CD = 6, DA = 8; angle alpha at B, angle beta at D]\n(a) (i) Find AC in terms of $\\alpha$.\n(ii) Find AC in terms of $\\beta$.\n(iii) Hence or otherwise, find an expression for $\\alpha$ in terms of $\\beta$. [4]\n(b) Find the maximum area of the quadrilateral ABCD. [4]"
+  },
+  {
+   "id": "math-2022-N-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 16]\nThe time worked, T , in hours per week by employees of a large company is normally\ndistributed with a mean of 42 and standard deviation 10.7 .\n(a) Find the probability that an employee selected at random works more than 40 hours\nper week. \b [2]\n(b) A group of four employees is selected at random. Each employee is asked in turn\nwhether they work more than 40 hours per week. Find the probability that the fourth\nemployee is the only one in the group who works more than 40 hours per week.\b [3]\nA large group of employees work more than 40 hours per week. (c)\n(i) An employee is selected at random from this large group.\nFind the probability that this employee works less than 55 hours per week.\n(ii) Ten employees are selected at random from this large group.\nFind the probability that exactly five of them work less than 55 hours per week.\b [7]\nIt is known that P(a≤T≤b)=0.904 and that P(T>b)=2P(T<a) , where a and b are\nnumbers of hours worked per week. An employee who works fewer than a hours per week is\nconsidered to be a part-time employee.\n(d) Find the maximum time, in hours per week, that an employee can work and still be\nconsidered part-time.\b [4]",
+   "ms_text": "10.\nNote: Do not penalize for inclusion or non-inclusion of endpointsfor probabilities\nusing a normal distribution. For example, for ( < > ) P T 55| T 40 accept\n( ≤ > ) , ( ≤ ≥ ) P T 55| T 40 P T 55| T 40 , etc.\n(a) recognising to find P( T> 40) (M1)\nP( T> 40) = 0.574136...\nP( T> 40) = 0.574 A1\n[2 marks]\n(b) attempt to multiply four independent probabilities using their P( T> 40) and\nP( T< 40) (M1)\n3 3 3\n( 1 − p ) ⋅ p OR ( 10.574136... − ) ⋅ 0.574136... OR ( 0.425863... ) ⋅ 0.574136... (A1)\n0.0443430...\n0.0443 , 0.0444 from 3 sf values A1\n[3 marks]\n(c) (i) recognizing conditional probability (M1)\nP ( T < 55| T > 40 )\nNote: Award (M1) for an expression or description in context. Accept\nP ( T > 40| T < 55 ) but do not accept just ( P AB. | )\n< < P(40 T 55)\n(A1)\nP( T > 40)\n0.461944...\n(A1)\n0.574136...\n( ) P T < 55| T > 40 = 0.804590...\n= 0.805 A1\n(ii) recognizing binomial probability (M1)\nX : B(, np )\nn = 10 and p = 0.804 589. . . (A1)\n0.0242111...,0.0240188...using p = 0.805\nP( X= 5) = 0.0242 A1\n[7 marks]\nLet P( T < a ) = x (d)\nrecognition that probabilities sum to 1 (seen anywhere) (M1)\nEITHER\nexpressingthe three regions in one variable (M1)\n1\nx + 0.904 + 2ORP x ( T < a ) + 0.904 + 2P ( T < a ) OR P ( T > b ) + 0.904 + P ( T > b )\n2\nOR x and 2x correctly indicated on labelled bell diagram\n1\nP ( T < a ) + 0.904 + 2P ( T < a ) = 1 OR P ( T > b ) + 0.904 + P ( T > b ) =(or 1\n2\nequivalent) (A1)\nOR\nexpressing either P( T < a ) or P( T > b ) only in terms of P( a ≤ T ≤ b ) (M1)\n1 2\n( < = )( − ≤ ≤ ) ( > = ) ⋅ ( − ≤ ≤ ) P( T a ) 1P( a T b ) OR P( T b ) 1P( a T b )\n3 3\n2 110.904\nx = ( − )( = 0.032 ) OR P( T > b ) = ( 10.904 − )( = 0.064 ) (A1)\n3 3\nTHEN\nP( T < a ) = 0.032\na = 22.18167...\na = 22.2 (accept 22.1) A1\n[4 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.11",
+    "4.12",
+    "4.8",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 16]\nThe time worked, $T$, in hours per week by employees of a large company is normally distributed with a mean of 42 and standard deviation 10.7.\n(a) Find the probability that an employee selected at random works more than 40 hours per week. [2]\n(b) A group of four employees is selected at random. Each employee is asked in turn whether they work more than 40 hours per week. Find the probability that the fourth employee is the only one in the group who works more than 40 hours per week. [3]\n(c) A large group of employees work more than 40 hours per week.\n(i) An employee is selected at random from this large group. Find the probability that this employee works less than 55 hours per week.\n(ii) Ten employees are selected at random from this large group. Find the probability that exactly five of them work less than 55 hours per week. [7]\nIt is known that $\\mathrm{P}(a \\le T \\le b) = 0.904$ and that $\\mathrm{P}(T > b) = 2\\mathrm{P}(T < a)$, where $a$ and $b$ are numbers of hours worked per week. An employee who works fewer than $a$ hours per week is considered to be a part-time employee.\n(d) Find the maximum time, in hours per week, that an employee can work and still be considered part-time. [4]"
+  },
+  {
+   "id": "math-2022-N-P2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 15]\nThe function f is defined by f(x)=e2x(3x-4) , where x∈ϒ .\n(a) Find f′(x) .\b [3]\n(b) Hence or otherwise, find the coordinates of the point on the graph of y=f(x) where\nthe tangent is parallel to the line y=x .\b [3]\nThe region enclosed by the curve y=f(x) , the x-axis and the y-axis is rotated through\n2π radians about the x-axis to form a solid of revolution.\n(c) Find the volume of this solid. \b [4]\nConsider a function g such that g (0)=1 and g′(0)=2 .\n(d) Find the value of\n(i) (fοg )(0) ;\n(ii) (fοg )′(0) .\b [5]",
+   "ms_text": "11. (a) attempt to use product rule (M1)\n2 x 2 x ( 2 x ) f ′ () x = 3e + 2e ( 3 x − 4 ) = e ( 6 x − 5 ) A2\n2 x 2 x 2 Note: Award A1 for 2 out of 3 of 3e, 6e x and − 8ex seen or implied.\n[3 marks]\n(b) f ′ () x = 1 (M1)\nx = 0.86299...\nx = 0.863 A1\ny = − 7.92719...\n7.93 y = − A1\n( 0.863,7.93 − )\n[3 marks]\n41.33 (c) x -intercept is at ( )\n(A1)\n3\nattempt to use formula for volume of revolution (M1)\n2\nNote: Award (M1) for an integral involving π and ( () ) . Condone use of 2π and fx\nincorrect or absent limits.\n4\n3 2\n( 2 x ) π ∫ e ( 3 x − 4 ) d x (A1)\n0\nNote: This (A1) can be awarded if the dx is omitted.\n= 164.849...\n= 165 A1\n[4 marks]\n(d) (i) attempt to compose functions in the correct order (M1)\n( f ο g )() 0 = fg ( (0) ) = f (1)\n= − 7.38905...\n= − 7.39 ( = − e 2 ) A1\n(ii) attempt to use the chain rule (M1)\n′ (\nf ο g )() 0 = f ′ ( g () 0 ) g ′ () 0\nNote: For this (M1)to be awarded, multiplication of two derivatives should be seen\nor implied.\n= 2 f ′ ()( 1 = 27.38905... × ) (A1)\n= 14.7781...\n( 2 ) = 14.8 = 2e A1\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.17",
+    "5.4",
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 15]\nThe function $f$ is defined by $f(x) = \\mathrm{e}^{2x}(3x - 4)$, where $x \\in \\mathbb{R}$.\n(a) Find $f'(x)$. [3]\n(b) Hence or otherwise, find the coordinates of the point on the graph of $y = f(x)$ where the tangent is parallel to the line $y = x$. [3]\nThe region enclosed by the curve $y = f(x)$, the $x$-axis and the $y$-axis is rotated through $2\\pi$ radians about the $x$-axis to form a solid of revolution.\n(c) Find the volume of this solid. [4]\nConsider a function $g$ such that $g(0) = 1$ and $g'(0) = 2$.\n(d) Find the value of\n(i) $(f \\circ g)(0)$;\n(ii) $(f \\circ g)'(0)$. [5]"
+  },
+  {
+   "id": "math-2022-N-P2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 22]\nConsider the points A (1 , 2 , 3) , B (k,-2,1) and C (5 , 0 , 2) , where k∈ϒ .\n→ →\n(a) Write down AB and AC .\b [2]\n(b) Given that the points A , B and C lie on a straight line, show that k=9 .\b [1]\n(c) For k=9 , let L1 be the line passing through A , B and C .\n(i) Find a vector equation of the line L1 .\n1 y\nLine L2 has the equation x −= (ii) =− 1 z . Show that the lines L1 and L2\n2 3\nare skew.\b [10]\n(d) For k≠9 , let Π be the plane containing A , B and C .\nFind the Cartesian equation of the plane Π . (i)\n(ii) Find the coordinates of the point on the plane Π which is closest to the origin\n(0 , 0 , 0).\b [9]\n\b",
+   "ms_text": "12.\nk − 1 4\n→ →\n(a) A B = − 4 , AC =− 2 A1A1\n− 2 − 1\n[2 marks]\n(b) METHOD 1\nk −= 1 24 × M1\nk = 9 AG\nMETHOD 2\nin order by yor z-ordinate, the points are (k , −2, 1), (5, 0, 2) (1, 2, 3)\nk − 5 = 51 − M1\nk = 9 AG\n[1 mark]\n(c) (i) attempt to set up a vector equation using a point, a parameter and a\ndirection vector (M1)\n1 4\nr = 2 + λ − 2 (or equivalent) A1\n3 − 1\nNote: “r = ” or equivalent must be seen for A1.\n(ii) METHOD 1\npoint on line 1L has coordinates ( 1 + 4,2 λ − 2,3 λ − λ )\nattempt to use a different parameter for 2L (M1)\n1 2\nx 1 y −=\n=− 1 z = µ or r = 0 + µ 3\n2 3\n1 − 1\npoint on line 2L has coordinates ( 1 + 2,3,1 µ µ − µ ) (A1)\n1 2\nNote: This A1 may be implied by r = 0 + µ 3 .\n1 − 1\n1 + 4 λ =+ 1 2 µ\n2 − 2 λ = 3 µ\n3 − λ =− 1 µ\nany two of the above equations A1\nattempt to solve two simultaneous equations with two parameters (M1)\nλ = 0.25 , µ = 0.5 or λ = 1.6 , µ = − 0.4 or λ = −, 2 µ = − 4 eg A1\nsubstitute into third equation or solve a different pair of simultaneous\nequations M1\nobtain contradiction eg3 − 0.25 ≠− 10.5 or 1 + 4(1.6) ≠+ 1 2(0.4) − or\n2 − 2 ( − 2 ) ≠ 3(4) − (so the lines do not intersect) R1\nNote: Do not award this R1 if it is based on incorrect values.\nlines are not parallel R1\nso lines are skew AG\nMETHOD 2\npoint on line 1L has coordinates ( 1 + 4,2 λ − 2,3 λ − λ )\nattempt to use the equation of 2L to generate at least two equations in λ (M1)\nif the two lines intersect,\n( 1 + 4 λ ) − 1 2 − 2 λ 2 − 2 λ\n= ⇒ 2 λ =\n2 3 3\n( 1 + 4 λ ) 1\n−=−\n1 ( 3 − λ )( ⇒ 2 λ = λ − 2 )\n2\n2 − 2 λ 2 − 2 λ\n=− 1 ( 3 − λ ) ⇒ = λ − 2\n3 3\nany two of the above equations A1A1\nattempt to solve at least one equation in λ (M1)\n1 8\none of λ = , λ = −, 2 λ = seen A1\n4 5\nsubstitute into second equation or solve second equation M1\n1 1 1 ≠\nobtain contradiction eg λ = ≠− or 2 2 − 2 (so the lines do not\n4 4 4\nintersect) R1\nNote: Do not award this R1 if it is based on incorrect values.\nlines are not parallel R1\nso lines are skew AG\nMETHOD 3\nattempt to use a find Cartesian equation for 1L (M1)\nx − 1 y − 2 z − 3\n= A1\n=−\n4 − 2 1\nattempt to isolate one variable in both equations (M1)\n1 − x y − 2 1 − x − y\nL : z = + 3 = + 3 L : z = += 1 + OR 1\n1 2\n4 2 2 3\n1 x 3( x − 1) =−\nL : y + 2 = 2 ( z − 3 ) + 2 L : y = = 3( 1 − z ) OR\n1 2\n2 2\n2 y\nL : x =− 12( y − 2) =− 14( z − 3) L : x = + 1 =− 12 ( z − 1) A1\n1 2\n3\nattempt to solve for each of the other two variables (M1)\n− x 1 − x − y y − 2 e.g. 1\n+= 1 + 3 and += 1 + 3\n2 4 3 2\nx = −, 7 y = − 1.2 OR x = 2 , z = 1.4 OR y = 1.5 , z = 5 A1\nobtain contradiction eg z = 5 ≠ 1.4 OR y = 1.5 ≠− 1.2 OR x = 2 ≠− 7\n(so the lines do not intersect) R1\nNote: Do not award this R1 if it is based on incorrect values.\nlines are not parallel R1\nso lines are skew AG\n[10 marks]\n(d) (i) METHOD 1\n→ → →\nattempt to find cross product of two of AB, AC and BC or their opposites M1\n0 0\n→ →\neg AB × AC = k − 9 = ( k − 9 ) 1 A1\n18 − 2 k − 2\nattempt to substitute their cross product and a point into the equation of a\nplane (M1)\n( k − 9 ) y + 29 ( − kz ) = 2 ( k − 9 ) + 69 ( − k )\n( k − 9 ) y + 29 ( − kz ) = 36 − 4 k ( ⇒ y − 2 z = − 4 since k ≠ 9 ) A1\nMETHOD 2\nattempt to find vector equation of Π and write , and xy z in parametric\nform M1\n1 k − 1 4\nr = 2 + λ − 4 + µ − 2 ⇒ x =+ 1 λ ( k − 1) + 4 µ , y = 2 − 4 λ − 2 µ ,\n3 − 2 − 1\nz = 3 − 2 λ − µ or equivalent A1\nattempt to eliminate both parameters to work towards Cartesian form M1\n( k − 9 ) y + 29 ( − kz ) = 36 − 4 k ( ⇒ y − 2 z = − 4 since k ≠ 9 ) A1\n(ii) METHOD 1\nattempt to find the equation of the line through (0, 0, 0) perpendicular\nto the plane (M1)\nEITHER\n0\n( r = ) t 1 (A1)\n− 2\nattempt to find the point where the line and plane intersect (M1)\nt + 4 t + 4 = 0\n4\nt = − (A1)\n5\nOR\n0\n( r = ) tk ( − 9) 1 (A1)\n− 2\nattempt to find the point where the line and plane intersect (M1)\n2 2 tk ( − 9) + 4( tk − 9) + 4( k − 9) = 0\n4\nt = − (A1)\n5 ( k − 9 )\nTHEN\nso the point on the plane closest to the origin is (0 , 0.8 − , 1.6) A1\nMETHOD 2\nchoose a point on the plane ( p , q , r )\nq − 2 r + 4 = 0 OR ( qk − 9) − 2( rk − 9) + 4( k − 9) = 0 ⇒ q = 2 r − 4\n2\ndistance to the origin is p 2 + ( 2 r − 4 ) + r 2 (A1)\nsince p is independent of r, distance is minimised when p = 0 (R1)\n2 2\nattempt to find the value of r for which their( 2 r − 4 ) + r is minimised (M1)\nr = 1.6 (A1)\nso the point on the plane closest to the origin is (0 ,0.8 − , 1.6) A1\nMETHOD 3\nattempt to find a vector from the origin to the closest point on the plane (M1)\nEITHER\n0\n( r = ) t 1 (A1)\n− 2\n4 4 45\n= = = distance to the origin (A1)\n2 2 5 5\n1 + ( − 2 )\n4\nt = ±\n5\n4\ncheck in equation of plane y − 2 z = − to get 4 t = − (R1)\n5\nOR\n0\n( )( ) r = tk − 9 1 (A1)\n− 2\n4 4 45\ndistance to the origin = = = (A1)\n2 5\n1 2 + ( − 2 ) 5\n4\nt = ±\n( ) 5 k − 9\n4\ncheck in equation of plane y − 2 z = − to get 4 t = − (R1)\n5 ( − 9 ) k\nTHEN\nso the point on the plane closest to the origin is (0 ,0.8 − , 1.6) A1\n[9 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.17",
+    "3.18",
+    "3.16",
+    "3.14",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 22]\nConsider the points A$(1, 2, 3)$, B$(k, -2, 1)$ and C$(5, 0, 2)$, where $k \\in \\mathbb{R}$.\n(a) Write down $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$. [2]\n(b) Given that the points A, B and C lie on a straight line, show that $k = 9$. [1]\n(c) For $k = 9$, let $L_1$ be the line passing through A, B and C.\n(i) Find a vector equation of the line $L_1$.\n(ii) Line $L_2$ has the equation $\\frac{x-1}{2} = \\frac{y}{3} = 1 - z$. Show that the lines $L_1$ and $L_2$ are skew. [10]\n(d) For $k \\ne 9$, let $\\Pi$ be the plane containing A, B and C.\n(i) Find the Cartesian equation of the plane $\\Pi$.\n(ii) Find the coordinates of the point on the plane $\\Pi$ which is closest to the origin $(0, 0, 0)$. [9]"
+  }
+ ],
+ "status": "done"
+}

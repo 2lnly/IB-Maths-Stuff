@@ -1,0 +1,275 @@
+{
+ "exam_id": "math-2018-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2018,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2018 May Examination Session/Mathematics_paper_1__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2018 May Examination Session/Mathematics_paper_1__TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2218-7203; code M18/5/MATHL/HP1/ENG/TZ1/XX; marks sum matches paper total 100",
+ "qp_pages": 12,
+ "questions": [
+  {
+   "id": "math-2018-M-P1-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nLet f (x) =x4+px3+ qx+ 5 where p , q are constants.\nThe remainder when f (x) is divided by (x + 1) is 7, and the remainder when f (x) is divided\nby (x - 2) is 1. Find the value of p and the value of q .",
+   "ms_text": "1. attempt to substitute x �� or 1 x � 2 or to divide polynomials (M1)\n1 � p � q � 5 � 7 , 16 � 8 p � 2 q � 5 � 1 or equivalent A1A1\nattempt to solve their two equations M1\np��, 3 q � 2 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nLet $f(x)=x^4+px^3+qx+5$ where $p$, $q$ are constants.\nThe remainder when $f(x)$ is divided by $(x+1)$ is 7, and the remainder when $f(x)$ is divided by $(x-2)$ is 1. Find the value of $p$ and the value of $q$.",
+   "review_note": "audit: 2-unknown remainder theorem; 1.16 incidental, as on equivalents"
+  },
+  {
+   "id": "math-2018-M-P1-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nLet y = sin2θ , 0 ≤ θ ≤ π .\ny Find d\n(a) . [2]\nd θ\ny\nHence find the values of θ for which d (b) y [5]\nθ= 2. d",
+   "ms_text": "2. (a) attempt at chain rule or product rule (M1)\nd y\n2sin � cos � A1 ��\nd\n[2 marks]\n2\n(b) 2sincos � � � 2sin �\nsin �� 0 (A1)\n�� 0,π A1\nobtaining cos � � sin � (M1)\ntan �� 1 (M1)\nπ\n�� A1\n4\n[5 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.8",
+    "5.6",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nLet $y=\\sin^2\\theta$, $0\\le\\theta\\le\\pi$.\n(a) Find $\\frac{\\mathrm{d}y}{\\mathrm{d}\\theta}$. [2]\n(b) Hence find the values of $\\theta$ for which $\\frac{\\mathrm{d}y}{\\mathrm{d}\\theta}=2y$. [5]"
+  },
+  {
+   "id": "math-2018-M-P1-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nTwo unbiased tetrahedral (four-sided) dice with faces labelled 1 , 2 , 3 , 4 are thrown and\nthe scores recorded. Let the random variable T be the maximum of these two scores.\nThe probability distribution of T is given in the following table.\nt 1 2 3 4\n1 7\nP(T=t) a b\n16 16\n(a) Find the value of a and the value of b . [3]\nFind the expected value of T . (b) [2]",
+   "ms_text": "3 5\n3. (a) a� and b� (M1)A1A1\n16 16\n[3 marks]\nNote: Award M1 for consideration of the possible outcomes when rolling the two dice.\nE(T) �1 �6 �15 �28 �25 � �\n(b) 8�3.125 (M1)A1\n16\nNote: Allow follow through from part (a) even if probabilities do not add up to 1.\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nTwo unbiased tetrahedral (four-sided) dice with faces labelled 1, 2, 3, 4 are thrown and the scores recorded. Let the random variable $T$ be the maximum of these two scores.\nThe probability distribution of $T$ is given in the following table.\n$t$ | 1 | 2 | 3 | 4\n$\\mathrm{P}(T=t)$ | $\\frac{1}{16}$ | $a$ | $b$ | $\\frac{7}{16}$\n(a) Find the value of $a$ and the value of $b$. [3]\n(b) Find the expected value of $T$. [2]"
+  },
+  {
+   "id": "math-2018-M-P1-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\n2 2\n10 12 Given that −∫ fx ()d= x and ∫ fx ()d= x , find\n2 0\n0\n(a) −∫ ( fx () + 2 ) d; x [4]\n2\n0\n( 2 ) (b) −∫ fx + d. x [2]\n2",
+   "ms_text": "0\n4. (a) � fxx � 1012 � �� 2 (M1)(A1) 2()d\n�\n0 0\nx � � 2 � � 4 � 22d x� A1\n2 �\n0\n� � � � � fx () 2d x 2 A1\n� 2\n[4 marks]\n0 2\nfx ( � 2)d x � fxx ()d (b) � � (M1)\n� 2 0\n� 12 A1\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nGiven that $\\int_{-2}^{2} f(x)\\,\\mathrm{d}x=10$ and $\\int_{0}^{2} f(x)\\,\\mathrm{d}x=12$, find\n(a) $\\int_{-2}^{0}\\left(f(x)+2\\right)\\mathrm{d}x$; [4]\n(b) $\\int_{-2}^{0} f(x+2)\\,\\mathrm{d}x$. [2]"
+  },
+  {
+   "id": "math-2018-M-P1-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nSolve (ln x)2- (ln 2)(ln x) < 2(ln 2)2 .",
+   "ms_text": "2 � � 2 � � �\n5. (ln) x (ln2)(ln) x 2(ln2) 0\nEITHER\n2 2 ln 2 � (ln 2) � 8(ln 2)\nln x � M1\n2\n� ln 2 3ln 2\n� A1\n2\nOR\n(ln x � 2ln2)(ln x � ln2) � � 0 � M1A1\nTHEN\nln x � 2ln2 or ln2 � A1\n1\n� x � 4 or x � (M1)A1\n2\nNote:(M1) is for an appropriate use of a log law in either case, dependent on the previous\nM1 being awarded, A1 for both correct answers.\nsolution is 1 � x � 4 A1\n2\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.7",
+    "1.7",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nSolve $(\\ln x)^2-(\\ln 2)(\\ln x)<2(\\ln 2)^2$."
+  },
+  {
+   "id": "math-2018-M-P1-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nUse the principle of mathematical induction to prove that\n2 3 n − 1\n1 n + 2\n+ 21 31 41 1\nΚ + n = 4 − , where n ∈′+ .\n+ + + n − 1 2 2 2 2 2",
+   "ms_text": "6. if n� 1\n3\nLHS � 1 ; RHS � 4 � � 4 � 3 � 1 M1\n0 2\nhence true for n� 1\nassume true for n � k M1\nNote: Assumption of truth must be present. Following marks are not dependent on the first\ntwo M1 marks.\n2 3 k � 1\n� 1 � � 1 � � 1 � � 1 � k � 2\nso 1 � 2 � 3 � 4 � � � k � 4 � � � � � � � � �\nk � 1\n� 2 � � 2 � � 2 � � 2 � 2\nif n � k � 1\n2 3 k � 1 k\n� 1 � � 1 � � 1 � � 1 � � 1 �\n� � � � � � � 1 2 � � 3 � � 4 � � � k � � ( k 1) � �\n� 2 � � 2 � � 2 � � 2 � � 2 �\nk\nk � 2 � 1 �\n� � � � 4 ( k 1) � � M1A1\nk � 1 2\n� 2 �\nfinding a common denominator for the two fractions M1\n2 � k � 2 � k � 1\n� 4 � �\nk k 2 2\n2 � k � 2 �� � k � 1 �\n� � � k � 1 � � 2 � k 3\n� 4 � � 4 � � 4 � A1\n� �\n2k k � k � 1 � � 1 2\n� 2 �\nhence if true for n � k then also true for n � k �, as true for 1 n � 1 , so true (for\n� all n ��) R1\nNote: Award the final R1 only if the first four marks have been awarded.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nUse the principle of mathematical induction to prove that\n$1+2\\left(\\frac{1}{2}\\right)+3\\left(\\frac{1}{2}\\right)^2+4\\left(\\frac{1}{2}\\right)^3+\\dots+n\\left(\\frac{1}{2}\\right)^{n-1}=4-\\frac{n+2}{2^{n-1}}$, where $n\\in\\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2018-M-P1-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 9]\nx\nLet y = . arccos2\ny Find d\n(a) . [2]\nd x\n1\narccosx\n(b) Find ∫ d. x [7]\n0 2",
+   "ms_text": "� � � x � d y 1 1\n7. (a) y � � � � �� � �� � M1A1\narccos2\n� � d x 2 � 2 � x � � 4 x �\n21 �� �\n� 2 �\nNote:M1 is for use of the chain rule.\n[2 marks]\n(b) attempt at integration by parts M1\nx d u 1 � �\nu � � �� � �\narccos2 2\n� � d x 4 � x\nd v\n1 � v � x (A1) x�\nd\n1 1 1 � x � � � x � � x\n� arccos � � d x � x arccos � � � � d x A1 � �\n0 � 2 � � � 2 � � 0 � 2 0 4 x\nusing integration by substitution or inspection (M1)\n1 1 1\n� � x � � � �\n2 x arccos �� � 4 � x � 2\n� � � � � � A1\n� � 2 � � � �\n0 0\n1\nNote: Award A1 for � � � 2 � 2 4 x or equivalent.\nNote: Condone lack of limits to this point.\nattempt to substitute limits into their integral M1\nπ\n� � 3 � 2 A1\n3\n[7 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 9]\nLet $y=\\arccos\\left(\\frac{x}{2}\\right)$.\n(a) Find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$. [2]\n(b) Find $\\int_0^1 \\arccos\\left(\\frac{x}{2}\\right)\\mathrm{d}x$. [7]"
+  },
+  {
+   "id": "math-2018-M-P1-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 5]\nÀπ. Let a = sin b ,0 < b <\n2\nFind, in terms of b , the solutions of sin 2x =-a ,0 ≤ x ≤π .",
+   "ms_text": "8. sin2 x �� sin b\nEITHER\n� � � � � � sin2 x � sin � b or sin2 x � sinπ � b or sin2 x � sin2π � b … (M1)(A1)\nNote: Award M1forany one of the above,A1for having final two.\nOR\n(M1)(A1)\nNote: Award M1 for one of the angles shown with b clearly labelled, A1 for both angles shown. Do not\naward A1 if an angle is shown in the second quadrant and subsequent A1 marks not awarded.\nTHEN\n2 x � π � b or 2 x � 2π � b (A1)(A1)\nπ b b\nx� � , x � π � A1\n2 2 2\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 5]\nLet $a=\\sin b$, $0<b<\\frac{\\pi}{2}$.\nFind, in terms of $b$, the solutions of $\\sin 2x=-a$, $0\\le x\\le\\pi$."
+  },
+  {
+   "id": "math-2018-M-P1-TZ1-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 17]\n5 2\n− 3 x\nLet fx ()= , x ∈ϒ, x ≠0 .\n3 2\nx\n(a) The graph of y = f (x) has a local maximum at A . Find the coordinates of A . [5]\n(b) (i) Show that there is exactly one point of inflexion, B , on the graph of y =f (x) .\n(ii) The coordinates of B can be expressed in the form B(2a, b ×2-3a) ,\nwhere a, b ∈⁄. Find the value of a and the value of b . [8]\nSketch the graph of y = f (x) showing clearly the position of the points A and B . (c) [4]",
+   "ms_text": "9. (a) attempt to differentiate (M1)\n� 4\nfx � () �� 3 x � 3 x A1\nNote: Award M1 for using quotient or product rule award A1 if correct derivative seen even in\nunsimplified form, for example .\n3\n� � 3 x � 0 M1\n4 x\n5 � x ��� 1 x �� 1 A1\n� 5 �\nA � 1, � A1 � �\n2 � �\n[5 marks]\n(b) (i) M1\n� � f(x) �12x�5�3�0 �� A1\nNote: Award A1 for correct derivative seen even if not simplified.\n2 � �\n5 � x � 4\n� � 2 5 � A1\n� �\nhence (at most) one point of inflexion R1\nNote: This mark is independent of the two A1 marks above. If they have shown\nor stated their equation has only one solution this mark can be awarded.\n2 � �\n5 f �� () x changes sign at x � 4 � 2 5 R1\n� �\n� �\nso exactly one point of inflexion\n2\n� 2 �\nx� 5 � 5 (ii) 42 � � a � � A1\n� 5 �\n2 2 6 � �\n2 �� 32 �\nf 2 5 � ��� 52 5 � � b �� 5 � (M1)A1 � �\n6\n� �\n� 5 22\n[8 marks]\nNote: Award M1 for the substitution of their value for x into f (x).\n(c)\nA1A1A1A1\nA1for shape for x � 0\nx � 0 A1 for shape for\nA1 for maximum at A\nA1 for POI at B.\nNote: Only award last two A1s if A and B are placed in the correct\nquadrants, allowing for follow through.\n[4 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.7",
+    "2.3",
+    "1.7",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 17]\nLet $f(x)=\\frac{2-3x^5}{2x^3}$, $x\\in\\mathbb{R}$, $x\\ne 0$.\n(a) The graph of $y=f(x)$ has a local maximum at A. Find the coordinates of A. [5]\n(b) (i) Show that there is exactly one point of inflexion, B, on the graph of $y=f(x)$.\n(ii) The coordinates of B can be expressed in the form $\\mathrm{B}(2^a, b\\times 2^{-3a})$, where $a, b\\in\\mathbb{Q}$. Find the value of $a$ and the value of $b$. [8]\n(c) Sketch the graph of $y=f(x)$ showing clearly the position of the points A and B. [4]"
+  },
+  {
+   "id": "math-2018-M-P1-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 19]\nThe following figure shows a square based pyramid with vertices at O(0 , 0 , 0) , A(1 , 0 , 0) ,\nB(1 , 1 , 0) , C(0, 1, 0) and D(0 , 0 , 1) .\nz\n1 D\nO\nC\ny\n1\n1\nA\nx\nB\n(a) Find the Cartesian equation of the plane П1 , passing through the points A , B and D . [3]\nThe Cartesian equation of the plane П2 , passing through the points B , C and D , is y + z = 1 .\n(b) Find the angle between the faces ABD and BCD . [4]\nThe plane П3 passes through O and is normal to the line BD .\n(c) Find the Cartesian equation of П3 . [3]\nП3 cuts AD and BD at the points P and Q respectively.\n(d) Show that P is the midpoint of AD . [4]\n(e) Find the area of the triangle OPQ . [5]",
+   "ms_text": "10. (a) recognising normal to plane or attempting to find cross product of two\nvectors lying in the plane (M1)\n�� 0 � � 1 � �� 1\n� � �� � � ��\nfor example, AB � AD � 1 � 0 � 0 (A1) �� � � ��\n�� � � ��\n�� 0 � 1 � �� 1\nΠxz : �� 1 A1\n1\n[3 marks]\n(b) EITHER\n���� 1 0\n����\n0 � 1 �� 1 22 cos � M1A1\n����\n����\n1 1 ����\nOR\n���� 1 0\n����\n0 � 1 � 3 � 22 sin � M1A1\n����\n����\n���� 1 1\nNote:M1 is for an attempt to find the scalar or vector product of the two normal vectors.\n� π � �\n� � � 60 � A1 � �\n� 3 �\n� 2π � �\nangle between faces is 120 � A1 � �\n� 3 �\n[4 marks]\n1 � � � �\n�1\n� � � �\n� �\n(c) DB 1 � �1 (A1) �� � or BD\n� �\n� � � �\n� � 1 � 1 � �\nΠ : x ��� yz k (M1)\n3\nΠ : x ��� yz 0 A1\n3\n[3 marks]\n(d) METHOD 1\n�� 0 � 1 �\n�� � �\nline AD: � r � � 0 � � 0 M1A1 �� � �\n�� � �\n1 � 1 �� � �\nintersects Π when � � (1 � � ) � 0 M1 3\n1\nso �� A1\n2\nhence P is the midpoint of AD AG\nMETHOD 2\nmidpoint of AD is (0.5, 0, 0.5) (M1)A1\nsubstitute into M1\nA1\nhence P is the midpoint of AD AG\n[4 marks]\n(e) METHOD 1\n1\nOP � ˆ � �, ˆ � � , OPQ 90 OQP 60 A1A1A1\n2\n1\nPQ � A1\n6\n1 1 3\narea � � � A1\n212 43 12\nMETHOD 2\n� �� 1 � 1 �\n�� � �\nBD: � r � � 1 � � � 1 line\n�� � �\n�� � �\n0 1 �� � �\n2\n� � � (A1)\n3\n�� 1\n��\n3\n��\n� 1\n��\nOQ ��� A1\n3\n��\n2\n��\n��\n�� 3\n� �\n1OP � � OQ\narea M1\n2\n� 1 �\n� �\n2\n� � �\nOP �� 0 � A1\n� �\n1\n� �\n� 2 �\nNote: This A1 is dependent on M1.\n3\n� area A1\n12\n[5 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.17",
+    "3.18",
+    "3.16",
+    "3.14",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 19]\nThe following figure shows a square based pyramid with vertices at O(0, 0, 0), A(1, 0, 0), B(1, 1, 0), C(0, 1, 0) and D(0, 0, 1).\n[Diagram: square based pyramid OABC with apex D on the z-axis; axes x, y, z with A at 1 on x-axis, C at 1 on y-axis, D at 1 on z-axis]\n(a) Find the Cartesian equation of the plane $\\Pi_1$, passing through the points A, B and D. [3]\nThe Cartesian equation of the plane $\\Pi_2$, passing through the points B, C and D, is $y+z=1$.\n(b) Find the angle between the faces ABD and BCD. [4]\nThe plane $\\Pi_3$ passes through O and is normal to the line BD.\n(c) Find the Cartesian equation of $\\Pi_3$. [3]\n$\\Pi_3$ cuts AD and BD at the points P and Q respectively.\n(d) Show that P is the midpoint of AD. [4]\n(e) Find the area of the triangle OPQ. [5]"
+  },
+  {
+   "id": "math-2018-M-P1-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 14]\nÀ π À π\nConsider w= 2 cos + i sin .\n3 3\n(a) (i) Express w2 and w3 in modulus-argument form.\n(ii) Sketch on an Argand diagram the points represented by w0 , w1 , w2 and w3 . [5]\nThese four points form the vertices of a quadrilateral, Q.\nShow that the area of the quadrilateral Q is 213 (b) . [3]\n2\nÀ À π\nLet z = 2cos + i sin π, n ∈′+ . The points represented on an Argand diagram by\nn n\nz0 , z1 , z2 , … , zn form the vertices of a polygon Pn .\n( n − 1sin Àπ, ) (c) Show that the area of the polygon Pn can be expressed in the form ab\nn\nwhere a , b ∈ϒ . [6]",
+   "ms_text": "2π � �\nw 2 � 4 cis ; w 3 � 8cis(π) 11. (a) (i) � � (M1)A1A1\n� 3 �\nNote: Accept Euler form.\nNote:M1 can be awarded for either both correct moduli or both correct arguments.\nNote: Allow multiplication of correct Cartesian form for M1, final answers must be in\nmodulus-argument form.\n(ii)\nA1A1\n[5 marks]\n1\n(b) use of area � M1 sin C\n2ab\n1 π 1 π 1 π\n�� 1 2 � sin � � 2 � 4 � sin � � 4 � 8 � sin A1A1\n2 3 2 3 2 3\nπ\nNote: Award A1 for C� , A1 for correct moduli.\n3\n213\n� AG\n2\nNote: Other methods of splitting the area may receive full marks.\n[3 marks]\n1 π 1 π 1 π 1 � π\n(c) � 2 0 � 2 1 � sin � � 2 1 � 2 2 � sin � � 2 2 � 2 3 � sin � � � � 2 n 1 � 2 n � sin\n2 n 2 n 2 n 2 n\nM1A1\nNote: Award M1 for powers of 2, A1 for any correct expression including\nboth the first and last term.\nπ 0 2 4 2 � 2\n� sin � � 2 � 2 � 2 � � � 2n �\nn\nidentifying a geometric series with common ratio 22 (4) � (M1)A1\n2 n 12 � π\n� � sin M1\n� 14 n\nNote: Award M1 for use of formula for sum of geometric series.\n1 n π\n� � 4 � 1sin � A1\n3 n\n[6 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.3",
+    "1.14",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 14]\nConsider $w=2\\left(\\cos\\frac{\\pi}{3}+\\mathrm{i}\\sin\\frac{\\pi}{3}\\right)$.\n(a) (i) Express $w^2$ and $w^3$ in modulus-argument form.\n(ii) Sketch on an Argand diagram the points represented by $w^0$, $w^1$, $w^2$ and $w^3$. [5]\nThese four points form the vertices of a quadrilateral, $Q$.\n(b) Show that the area of the quadrilateral $Q$ is $\\frac{21\\sqrt{3}}{2}$. [3]\nLet $z=2\\left(\\cos\\frac{\\pi}{n}+\\mathrm{i}\\sin\\frac{\\pi}{n}\\right)$, $n\\in\\mathbb{Z}^+$. The points represented on an Argand diagram by $z^0, z^1, z^2, \\dots, z^n$ form the vertices of a polygon $P_n$.\n(c) Show that the area of the polygon $P_n$ can be expressed in the form $a\\left(b^n-1\\right)\\sin\\frac{\\pi}{n}$, where $a, b\\in\\mathbb{R}$. [6]"
+  }
+ ],
+ "status": "done"
+}

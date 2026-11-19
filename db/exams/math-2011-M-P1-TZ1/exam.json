@@ -1,0 +1,317 @@
+{
+ "exam_id": "math-2011-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2011,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2011 May Examination Session/Mathematics_paper_1_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2011 May Examination Session/Mathematics_paper_1_TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2211-7203; code M11/5/MATHL/HP1/ENG/TZ1/XX; marks sum matches expected total 120",
+ "qp_pages": 15,
+ "questions": [
+  {
+   "id": "math-2011-M-P1-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 7]\nEvents A and B are such that P() A= 0 3 and P() . B= 0 4. .\n(a) Find the value of P( A ∪ B ) when\n(i) A and B are mutually exclusive;\n(ii) A and B are independent. [4 marks]\n(b) Given that P( A ∪ B ) = 0 6 , find P( . AB. | ) [3 marks]",
+   "ms_text": "1. (a) (i) P( A ∪ B ) = P() A + P() B = 0.7 A1\n(ii) P( A ∪ B ) = P() A + P() B − P( A ∩ B ) (M1)\n= P() A + P() B − P()P() A B (M1)\n= 0.3 + 0.4 − 0.12 = 0.58 A1\n(b) P( A ∩ B ) = P() A + P() B − P( A ∪ B )\n= 0.3 + 0.4 − 0.6 = 0.1 A1\nP( A ∩ B )\nP( AB | ) = (M1)\nP() B\n0.1\n= = 0.25 A1\n0.4\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 7]\nEvents $A$ and $B$ are such that $\\mathrm{P}(A) = 0.3$ and $\\mathrm{P}(B) = 0.4$.\n(a) Find the value of $\\mathrm{P}(A \\cup B)$ when\n(i) $A$ and $B$ are mutually exclusive;\n(ii) $A$ and $B$ are independent. [4 marks]\n(b) Given that $\\mathrm{P}(A \\cup B) = 0.6$, find $\\mathrm{P}(A \\mid B)$. [3 marks]"
+  },
+  {
+   "id": "math-2011-M-P1-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\nz\nb Given that = 2 − i, z ∈ ≤, find z in the form a + i.\nz + 2",
+   "ms_text": "2. METHOD 1\nz = (2 − i)( z + 2) M1\n= 2 z + 4 − i z − 2i\nz (1 − i) = −+ 4 2i\n−+ 4 2i\nz = A1\n1 − i\n−+ 4 2i 1 + i\nz = × M1\n1 − i 1 + i\n= −− 3 i A1\nMETHOD 2\n= + let z a i b\na + i b\n= 2 − i M1\na + ib + 2\n+ = − + + a i b (2 i)( ( a 2) i b )\n+ = + + − + + a i b 2( a 2) 2i b i( a 2) b\na + i b = 2 a + b + 4 + (2 b − a − 2)i\nattempt to equate real and imaginary parts M1\na = 2 a + b + 4( ⇒ a + b + 4 = 0)\nand b = 2 b − a − 2( ⇒−+ a b − 2 = 0) A1\nNote: Award Al for two correct equations.\nb = − 1; a = − 3 A1\nz = −− 3 i\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nGiven that $\\frac{z}{z+2} = 2 - \\mathrm{i}$, $z \\in \\mathbb{C}$, find $z$ in the form $a + \\mathrm{i}b$."
+  },
+  {
+   "id": "math-2011-M-P1-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nand a sum to infinity of 81 A geometric sequence u , u , u , ... has u1 = 27 .\n1 2 3\n2\n(a) Find the common ratio of the geometric sequence. [2 marks]\nAn arithmetic sequence v , v , v , ... is such that v = u and v = u .\n1 2 3 2 2 4 4\nN\n(b) Find the greatest value of N such that vn > 0 . [5 marks] =∑\nn 1",
+   "ms_text": "3. (a) u= 27\n1\n81 27\n= M1\n− 2 1 r\n1\nr = A1\n3\n(b) v= 9\n2\nv= 1\n4\n2 d = −⇒ 8 d = − 4 (A1)\nv= 13 (A1)\n1\nN\n( 213 × − 4( N − 1) ) > 0 (accept equality) M1\n2\nN\n(30 − 4 N ) > 0\n2\n− > N (15 2 N ) 0\nN < 7.5 (M1)\nN= 7 A1\nNote: 13 + 9 + 5 +− 1 3 − 7 − 11 > 0 ⇒ N = 7 or equivalentreceives full marks.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nA geometric sequence $u_1, u_2, u_3, \\ldots$ has $u_1 = 27$ and a sum to infinity of $\\frac{81}{2}$.\n(a) Find the common ratio of the geometric sequence. [2 marks]\nAn arithmetic sequence $v_1, v_2, v_3, \\ldots$ is such that $v_2 = u_2$ and $v_4 = u_4$.\n(b) Find the greatest value of $N$ such that $\\sum_{n=1}^{N} v_n > 0$. [5 marks]"
+  },
+  {
+   "id": "math-2011-M-P1-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nThe diagram below shows a circle with centre O. The points A, B, C lie on the\ncircumference of the circle and [ AC is a diameter. ]\nB\nA C\nO\n→ →\nLet OA = a and OB = b .\n→ →\n(a) Write down expressions for AB and CB in terms of the vectors a and b . [2 marks]\n∃ (b) Hence prove that angle ABC is a right angle. [3 marks]",
+   "ms_text": "→\n4. (a) AB = b − a A1\n→\nCB = a + b\nA1\n→ →\n(b) ABCB i = ( b − a )( i b + a ) M1\n2 2\n= b − a A1\n= 0 since b = a R1\nNote:Only award the A1 and R1 if working indicates that they understand\nthat they are working with vectors.\n→ → �\nso AB is perpendicular to CB i.e.ABC is a right angle AG\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nThe diagram below shows a circle with centre O. The points A, B, C lie on the circumference of the circle and [AC] is a diameter.\n[Diagram: circle with centre O; A and C at opposite ends of a horizontal diameter (OC dashed); B on the upper-left arc joined to O]\nLet $\\overrightarrow{\\mathrm{OA}} = \\boldsymbol{a}$ and $\\overrightarrow{\\mathrm{OB}} = \\boldsymbol{b}$.\n(a) Write down expressions for $\\overrightarrow{\\mathrm{AB}}$ and $\\overrightarrow{\\mathrm{CB}}$ in terms of the vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$. [2 marks]\n(b) Hence prove that angle $\\mathrm{A\\hat{B}C}$ is a right angle. [3 marks]"
+  },
+  {
+   "id": "math-2011-M-P1-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nsin 2 θ\n(a) Show that = tan θ . [2 marks]\nθ 1 + cos 2\nHence find the value of cotπ (b) + b 2 , where ab ,\n∈′. [3 marks]\n8 in the form a",
+   "ms_text": "sin 2 θ 2sin θ cos θ\n5. (a) = M1\n+ θ + 2 θ − 1 cos2 1 2cos 1\nNote: Award M1 for use of double angle formulae.\n2sin θ cos θ\n= A1\n2 2cos θ\nθ sin\n=\ncos θ\n= tanθ AG\nπ\nsin 4\nπ =\n(b) (M1)\ntan 8 π\n1 +\ncos 4\nπ\n1 +\ncos 4\nπ = M1\ncot 8 π\nsin 4\n2\n1 +\n2 =\n2\n2\n=+ 1 2 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.6",
+    "3.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\n(a) Show that $\\frac{\\sin 2\\theta}{1 + \\cos 2\\theta} = \\tan\\theta$. [2 marks]\n(b) Hence find the value of $\\cot\\frac{\\pi}{8}$ in the form $a + b\\sqrt{2}$, where $a, b \\in \\mathbb{Z}$. [3 marks]"
+  },
+  {
+   "id": "math-2011-M-P1-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 5]\nIn a population of rabbits, 1 % are known to have a particular disease. A test is\ndeveloped for the disease that gives a positive result for a rabbit that does have the\ndisease in 99 % of cases. It is also known that the test gives a positive result for a rabbit\nthat does not have the disease in 0.1 % of cases. A rabbit is chosen at random from\nthe population.\n(a) Find the probability that the rabbit tests positive for the disease. [2 marks]\n(b) Given that the rabbit tests positive for the disease, show that the probability that\nthe rabbit does not have the disease is less than 10 %. [3 marks]",
+   "ms_text": "6. R is ‘rabbit with the disease’\nP is ‘rabbit testing positive for the disease’\n0.99\nP\n0.01\nR P′\n0.01\n0.001\nP\nR′\n0.99\nP′\n0.999\n= ∩ + ′ ∩ (a) P() P P( R P ) P( R P )\n= 0.010.99 × + 0.990.001 × M1\n= 0.01089( = 0.0109 ) A1\nNote: Award M1 for a correct tree diagram with correct probability values shown.\n× 0.00099 0.0010.99\n(b) P( R ′ | P ) = = M1 A1\n0.0010.99 × + 0.010.99 × 0.01089\n0.00099 0.001\n< = 10 % (or other valid argument) R1\n0.01089 0.01\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.13",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 5]\nIn a population of rabbits, 1 % are known to have a particular disease. A test is developed for the disease that gives a positive result for a rabbit that does have the disease in 99 % of cases. It is also known that the test gives a positive result for a rabbit that does not have the disease in 0.1 % of cases. A rabbit is chosen at random from the population.\n(a) Find the probability that the rabbit tests positive for the disease. [2 marks]\n(b) Given that the rabbit tests positive for the disease, show that the probability that the rabbit does not have the disease is less than 10 %. [3 marks]"
+  },
+  {
+   "id": "math-2011-M-P1-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nFind the area enclosed by the curve y = arctan x , the x-axis and the line x = 3 .",
+   "ms_text": "7. METHOD 1\n3\narea = ∫ arctand xx A1\n0\nattempting to integrate by parts M1\n3 1 3\n= [ x arctan x ] − ∫ x d x A1A1\n2 0 0 1 + x\n3\n1 3 2\n= [ x arctan x ] − ln(1 + x ) A1\n0 2\n0\nNote:Award A1 even if limits are absent.\nπ\n= − 1 ln 4 A1\n3 2\nπ 3\n= − ln 2\n3\nMETHOD 2\nπ π\n3\narea = −∫ 3 tand yy M1A1A1\n0 3\nπ π\n3\n= + [lncos y ] 3 M1A1\n0\n3\nπ 3 1 π 3\n= + ln = − ln 2 A1\n3 2 3\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.15",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nFind the area enclosed by the curve $y = \\arctan x$, the $x$-axis and the line $x = \\sqrt{3}$."
+  },
+  {
+   "id": "math-2011-M-P1-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nConsider the functions given below.\nfx () = 2 x + 3\n1\ngx () = , x ≠ 0\nx\n(a) (i) Find ( g ο f )() x and write down the domain of the function.\n(ii) Find ( f ο g )() x and write down the domain of the function. [2 marks]\n(b) Find the coordinates of the point where the graph of y = fx () and the graph\n− 1 ο of y = ( g f\nο g )() x intersect. [4 marks]",
+   "ms_text": "1 3\n8. (a) (i) ( g � f )() x = , x ≠− (or equivalent) A1\n+ 2 x 3 2\n2\n� (ii) ( f g )() x = + 3, x ≠ 0 (or equivalent) A1\nx\n(b) EITHER\n− 1 fx\n() = ( g � f � g )() x ⇒ ( g � f )() x = ( f � g )() x (M1)\n1 2\n= + 3 A1\n2 x + 3 x\nOR\n1 − 1\n( g � f � g )() x =\nA1 2\n+ 3\nx\n1\n2 x + 3 = M1\n2\n+ 3\nx\nTHEN\n2 6 x + 12 x + 6 = 0 (or equivalent) A1\nx = − 1, y = (coordinates are (1, 1) 1 − ) A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nConsider the functions given below.\n$f(x) = 2x + 3$\n$g(x) = \\frac{1}{x}, \\ x \\neq 0$\n(a) (i) Find $(g \\circ f)(x)$ and write down the domain of the function.\n(ii) Find $(f \\circ g)(x)$ and write down the domain of the function. [2 marks]\n(b) Find the coordinates of the point where the graph of $y = f(x)$ and the graph of $y = (g^{-1} \\circ f \\circ g)(x)$ intersect. [4 marks]"
+  },
+  {
+   "id": "math-2011-M-P1-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\nxy + ) Show that the points (,) 00 and ( 2 π ,− 2 π ) on the curve e( = cos( xy ) have a\ncommon tangent.",
+   "ms_text": "9. M1 attempt at implicit differentiation\nd y d y ( x + y )\ne 1 + = − sin( xy ) x + y A1A1\nd x d x\nlet x = 0, y = 0 M1\nd y 0\ne 1 + = 0\nd x\nd y\nA1 1\nx= −\nd\n= π = − π let x 2, y 2\nd y d y 0\n+ = − −π + = e 1 sin(2) x y 0\nd x d x\nsod y 1 A1\nx= −\nd\nsince both points lie on the line y = − this is a common tangent x R1\nNote: y = − must be seen for the final R1. It is not sufficient to note that the gradients x\nare equal.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nShow that the points $(0, 0)$ and $\\left(\\sqrt{2\\pi}, -\\sqrt{2\\pi}\\right)$ on the curve $\\mathrm{e}^{(x+y)} = \\cos(xy)$ have a common tangent."
+  },
+  {
+   "id": "math-2011-M-P1-TZ1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 8]\nThe diagram below shows the graph of the function y = fx () , defined for all x∈ϒ,\nwhere b > a > 0 .\ny\nb\na x –a\n1\nConsider the function gx () = .\nfx ( − a ) − b\n(a) Find the largest possible domain of the function g . [2 marks]\nOn the axes below, sketch the graph of y = gx (b) () . On the graph, indicate any\nasymptotes and local maxima or minima, and write down their equations and\ncoordinates. [6 marks]\ny\nb\n–a a x",
+   "ms_text": "− ≠ 10. (a) fx ( a ) b (M1)\nx ≠ 0 and x ≠ 2 a (or equivalent) A1\n(b) vertical asymptotes x = 0, x = 2 a A1\nhorizontal asymptote y = 0 A1\nNote:Equations must be seen to award these marks.\n1\nmaximum a , − A1A1\nb\nNote:Award A1 for correct x-coordinate and A1 for correct y-coordinate.\none branch correct shape A1\nother 2 branches correct shape A1\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16",
+    "2.11",
+    "2.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "10. [Maximum mark: 8]\nThe diagram below shows the graph of the function $y = f(x)$, defined for all $x \\in \\mathbb{R}$, where $b > a > 0$.\n[Graph: U-shaped curve $y = f(x)$ with minimum at the origin, passing through $(-a, b)$ and $(a, b)$, shown with dashed lines]\nConsider the function $g(x) = \\frac{1}{f(x-a) - b}$.\n(a) Find the largest possible domain of the function $g$. [2 marks]\n(b) On the axes below, sketch the graph of $y = g(x)$. On the graph, indicate any asymptotes and local maxima or minima, and write down their equations and coordinates. [6 marks]\n[Blank axes with $-a$ and $a$ marked on the $x$-axis and $b$ on the $y$-axis]"
+  },
+  {
+   "id": "math-2011-M-P1-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 19]\nThe points A(, 121, B( ,) −314, C(, ,, ) 5 − 12 , ) and D(, 537 are the vertices of , )\na tetrahedron.\n→ →\n(a) Find the vectors AB and AC . [2 marks]\n(b) Find the Cartesian equation of the plane ∏ that contains the face ABC. [4 marks]\n(c) Find the vector equation of the line that passes through D and is perpendicular\nto ∏. Hence, or otherwise, calculate the shortest distance to D from ∏. [5 marks]\n(d) (i) Calculate the area of the triangle ABC.\n(ii) Calculate the volume of the tetrahedron ABCD. [4 marks]\n(e) Determine which of the vertices B or D is closer to its opposite face. [4 marks]",
+   "ms_text": "− 4 4\n→ →\n11. (a) AB =− 1 , AC =− 3 A1A1\n3 1\nNote:Accept row vectors.\n[2 marks]\ni j k 8\n→ →\n(b) ABAC × =− 4 − 1 3 = 16 M1A1\n4 − 3 1 16\n1 1 1 1\ni i normal n = 2 so r 2 = 2 2 (M1)\n2 2 1 2\nx + 2 y + 2 z = 7 A1\nNote: If attempt to solve by a system of equations:\nAward A1 for 3 correct equations, A1 for eliminating a variable and A2 for\nthe correct answer.\n[4 marks]\n5 1\n= + λ (c) r 3 2 (or equivalent) A1\n7 2\n+ λ + + λ + + λ = 1(5 ) 2(3 2) 2(7 2) 7 M1\n9 λ = − 18\nλ = − 2 A1\n8\n1\nNote: λ = − 16 is used. if\n4\n16\n2 2 2 distance = 21 + 2 + 2 (M1)\n= 6 A1\n[5 marks]\n1 → → 1 2 2 2\n(d) (i) area = ABAC × = 8 + 16 + 16 (M1)\n2 2\n(accept 1 = 12 576 ) A1\n2\n(ii) EITHER\n1\nvolume = × areaheight × (M1)\n3\n1\n= × 12 × 6 = 24 A1\n3\nOR\n→ → →\nvolume =1AD(ABAC) i × M1\n6\n=24 A1\n[4 marks]\n→ →\n× = 2 + 2 + 2 (e) ABAC 8 16 16\ni j k\n→ →\nACAD × = 4 − 3 1 M1\n4 1 6\n=− 19 i − 20 j + 16 k A1\nEITHER\n1 1 2 2 2 2 2 2\n19 + 20 + 16 > 8 + 16 + 16 M1\n2 2\ntherefore since area of ACD bigger than area ABC implies that B is closer to\nopposite face than D R1\nOR\n144\ncorrect calculation of second distance as A1\n2 2 2 19 + 20 + 16\nwhich is smaller than 6 R1\nNote:Only award final R1 in each case if the calculations are correct.\n[4 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.17",
+    "3.18",
+    "3.14",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 19]\nThe points $\\mathrm{A}(1, 2, 1)$, $\\mathrm{B}(-3, 1, 4)$, $\\mathrm{C}(5, -1, 2)$ and $\\mathrm{D}(5, 3, 7)$ are the vertices of a tetrahedron.\n(a) Find the vectors $\\overrightarrow{\\mathrm{AB}}$ and $\\overrightarrow{\\mathrm{AC}}$. [2 marks]\n(b) Find the Cartesian equation of the plane $\\Pi$ that contains the face ABC. [4 marks]\n(c) Find the vector equation of the line that passes through D and is perpendicular to $\\Pi$. Hence, or otherwise, calculate the shortest distance to D from $\\Pi$. [5 marks]\n(d) (i) Calculate the area of the triangle ABC.\n(ii) Calculate the volume of the tetrahedron ABCD. [4 marks]\n(e) Determine which of the vertices B or D is closer to its opposite face. [4 marks]"
+  },
+  {
+   "id": "math-2011-M-P1-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 19]\nln x\n< x < 2 Consider the function fx () = , 0 e.\nx\n(a) (i) Solve the equation f ′ () x = 0.\n(ii) Hence show the graph of f has a local maximum.\n(iii) Write down the range of the function f . [5 marks]\n(b) Show that there is a point of inflexion on the graph and determine its coordinates. [5 marks]\n(c) Sketch the graph of y = fx () , indicating clearly the asymptote, x-intercept and\nthe local maximum. [3 marks]\nln x ln x\n(d) Now consider the functions gx () = and hx () = , where 0 e. 2 < x <\nx x\n(i) Sketch the graph of y = gx () .\n(ii) Write down the range of g .\n(iii) Find the values of x such that hx () > gx () . [6 marks]",
+   "ms_text": "1\n− x ln x\n′ x 12. (a) (i) f () x = M1A1\n2 x\n1 − ln x\n=\n2 x\nso f ′ () x = 0 when ln x = 1,.. i ex = e A1\n(ii) f ′ () x > 0 when x < e and f ′ () x < 0 when x > e R1\nhence local maximum AG\nNote:Accept argument using correct second derivative.\n1\n(iii) y ≤ A1\ne\n[5 marks]\n2 −− 1 x (1 − ln)2 x x\nx ′′ =\nM1 (b) f () x\n4 x\n−− x 2 x + 2ln x x\n=\n4 x\n−+ 3 2ln x\n= A1\n3 x\nNote:May be seen in part (a).\n′′ f () x = 0 (M1)\n−+ 3 2ln x = 0\n3\nx = e 2\n3 3\nsince f ′′ () x < 0 when x < e 2 and f ′′ () x > 0 when x > e 2 R1\n3\n3\n2 then point of inflexion e, A1\n3\n2e 2\n[5 marks]\n(c)\nA1A1A1\nNote: Award A1 for the maximum and intercept, A1 for a vertical asymptote\nand A1 for shape (including turning concave up).\n[3 marks]\n(d) (i)\nA1A1\nNote: Award A1 for each correct branch.\n(ii) all real values A1\n(iii)\n(M1)(A1)\nNote: Award (M1)(A1) for sketching the graph of h, ignoring any graph of g.\n− 2e < x < − 1 (accept x < −) 1 A1\n[6 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.7",
+    "5.6",
+    "2.3",
+    "2.16",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 19]\nConsider the function $f(x) = \\frac{\\ln x}{x}$, $0 < x < \\mathrm{e}^2$.\n(a) (i) Solve the equation $f'(x) = 0$.\n(ii) Hence show the graph of $f$ has a local maximum.\n(iii) Write down the range of the function $f$. [5 marks]\n(b) Show that there is a point of inflexion on the graph and determine its coordinates. [5 marks]\n(c) Sketch the graph of $y = f(x)$, indicating clearly the asymptote, $x$-intercept and the local maximum. [3 marks]\n(d) Now consider the functions $g(x) = \\frac{\\ln|x|}{x}$ and $h(x) = \\frac{\\ln|x|}{|x|}$, where $0 < |x| < \\mathrm{e}^2$.\n(i) Sketch the graph of $y = g(x)$.\n(ii) Write down the range of $g$.\n(iii) Find the values of $x$ such that $h(x) > g(x)$. [6 marks]"
+  },
+  {
+   "id": "math-2011-M-P1-TZ1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 22]\n(a) Write down the expansion of (cos θ + i sin) θ 3 in the form a + i, where a and b b\nare in terms of sinθ and cosθ. [2 marks]\nHence show that cos 3 θ = 4 cos 3 θ − 3 cos θ [3 marks] (b) .\nθ 5 θ 3 θ θ (c) Similarly show that cos 5 = 16 cos − 20 cos + 5 cos . [3 marks]\nπ π\n(d) Hence solve the equation cos 5 θ + cos 3 θ + cos θ = 0 , where θ ∈− , . [6 marks]\n2 2\n(e) By considering the solutions of the equation cos5 θ= 0 , show that\n5 + 5 cosπ and state the value of cos7π\n= [8 marks]\n10.\n10 8",
+   "ms_text": "3 3 2 2 3 13. (a) (cos θ + isin) θ = cos θ + 3cos θ (isin) θ + 3cos(isin) θ θ + (isin) θ (M1)\n3 2 2 3 = cos θ − 3cossin θ θ + i(3cos θ sin θ − sin θ ) A1\n[2 marks]\n(b) from De Moivre’s theorem\n3 (cos θ + isin) θ = cos3 θ + isin3 θ (M1)\n3 2 2 3 cos3 θ + isin3 θ = (cos θ − 3cossin θ θ ) + i(3cos θ sin θ − sin θ )\nequating real parts M1\n3 2 cos3 θ = cos θ − 3cossin θ θ\n3 2 = cos θ − 3cos(1 θ − cos θ ) A1\n3 3 = cos θ − 3cos θ + 3cos θ\n3 = 4cos θ − 3cos θ AG\nNote: Do not award marks if part (a) is not used.\n[3 marks]\n5 (c) (cos θ + isin) θ =\n5 θ + 4 θ θ + 3 θ θ 2 + 2 θ θ 3 + θ θ 4 + θ 5 cos 5cos (isin) 10cos (isin) 10cos (isin) 5cos(isin) (isin)\n(A1)\nfrom De Moivre’s theorem\n5 3 2 4 cos5 θ = cos θ − 10cos θ sin θ + 5cossin θ θ M1\n5 3 2 2 2 = cos θ − 10cos θ (1 − cos θ ) + 5cos(1 θ − cos θ ) A1\n5 3 5 3 5 = cos θ − 10cos θ + 10cos θ + 5cos θ − 10cos θ + 5cos θ\n∴ θ = 5 θ − 3 θ + θ cos5 16cos 20cos 5cos AG\nNote:If compound angles used in (b) and (c), then marks can be allocated in (c) only.\n[3 marks]\n(d) θ + θ + θ cos5 cos3 cos\n5 3 3 = (16cos θ − 20cos θ + 5cos) θ + (4cos θ − 3cos) θ + cos θ = 0 M1\n16cos 5 θ − 16cos 3 θ + 3cos θ = 0 A1\n4 2 cos(16cos θ θ − 16cos θ + 3) = 0\n2 2 cos(4cos θ θ − 3)(4cos θ − 1) = 0 A1\n3 1\n∴ θ = ± ± cos 0; ; A1\n2 2\nπ π π\n∴ θ = ± ; ± ; ± A2\n6 3 2\n[6 marks]\n(e) cos5 θ= 0\nπ π π π 3 5 7\n5 θ = ... ; ; ; ; ... (M1)\n2 2 2 2\nπ π π π 3 5 7\nθ = ... ; ; ; ; ... (M1)\n10 1010 10\nNote:These marks can be awarded for verifications later in the question.\n5 3 now consider 16cos θ − 20cos θ + 5cos θ = 0\nM1\n4 2 cos(16cos θ θ − 20cos θ + 5) = 0\n± − 20 400 4(16)(5)\n2 θ = θ = cos ; cos 0 A1\n32\n20 ± 400 − 4(16)(5)\ncos θ = ±\n32\n20 + 400 − 4(16)(5) π=\nsince max value of cosine ⇒ angle closest to zero\ncos10\n32\nR1\nπ 4.5 + 425 − 4(5) 5 + 5\n= = A1\ncos10\n4.8 8\n7 π 5 − 5\n= − A1A1\ncos 10\n8\n[8 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.8",
+    "1.14",
+    "1.9",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 22]\n(a) Write down the expansion of $(\\cos\\theta + \\mathrm{i}\\sin\\theta)^3$ in the form $a + \\mathrm{i}b$, where $a$ and $b$ are in terms of $\\sin\\theta$ and $\\cos\\theta$. [2 marks]\n(b) Hence show that $\\cos 3\\theta = 4\\cos^3\\theta - 3\\cos\\theta$. [3 marks]\n(c) Similarly show that $\\cos 5\\theta = 16\\cos^5\\theta - 20\\cos^3\\theta + 5\\cos\\theta$. [3 marks]\n(d) Hence solve the equation $\\cos 5\\theta + \\cos 3\\theta + \\cos\\theta = 0$, where $\\theta \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$. [6 marks]\n(e) By considering the solutions of the equation $\\cos 5\\theta = 0$, show that $\\cos\\frac{\\pi}{10} = \\sqrt{\\frac{5+\\sqrt{5}}{8}}$ and state the value of $\\cos\\frac{7\\pi}{10}$. [8 marks]"
+  }
+ ],
+ "status": "done"
+}

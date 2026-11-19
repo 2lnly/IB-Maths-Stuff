@@ -1,0 +1,195 @@
+{
+ "exam_id": "math-2006-N-P3",
+ "questions": {
+  "A1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7"
+   ],
+   "text_clean": "1. [Maximum mark: 11]\nDoctor Tosco claims to have found a diet that will reduce a person's weight, on average, by 5 kg in a month. Doctor Crocci claims that the average weight loss is less than this. Ten people use this diet for a month. Their weights before and after are shown below.\nPerson | A | B | C | D | E | F | G | H | I | J\nWeight before (kg) | 82.6 | 78.8 | 83.1 | 69.9 | 74.2 | 79.5 | 80.3 | 76.2 | 77.8 | 84.1\nWeight after (kg) | 75.8 | 74.1 | 79.2 | 65.6 | 72.2 | 73.6 | 76.7 | 72.9 | 75.0 | 79.9\n(a) State suitable hypotheses to test the doctors' claims. [2 marks]\n(b) Use an appropriate test to analyse these data. State your conclusion at\n(i) the 1 % significance level;\n(ii) the 10 % significance level. [8 marks]\n(c) What assumption do you have to make about the data? [1 mark]"
+  },
+  "A2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L6",
+    "4.12",
+    "4.L5"
+   ],
+   "text_clean": "2. [Maximum mark: 12]\nThe random variable $X$ is normally distributed with mean $\\mu$ and standard deviation 2.5. A random sample of 25 observations of $X$ gave the result\n$\\sum x = 315$.\n(a) Find a 90 % confidence interval for $\\mu$. [6 marks]\n(b) It is believed that $\\mathrm{P}(X \\le 14) = 0.55$. Determine whether or not this is consistent with your confidence interval for $\\mu$. [6 marks]"
+  },
+  "A3": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.7"
+   ],
+   "text_clean": "3. [Maximum mark: 14]\nA toy manufacturer makes a cubical die with the numbers 1, 2, 3, 4, 5, 6 respectively marked on the six faces. The manufacturer claims that, when it is thrown, the probability distribution of the score $X$ obtained is given by\n$\\mathrm{P}(X = x) = \\frac{x}{21}$ for $x = 1, 2, 3, 4, 5, 6$.\nTo check this claim, Pierre throws the die 420 times with the following results.\nx | Frequency\n1 | 25\n2 | 46\n3 | 64\n4 | 82\n5 | 99\n6 | 104\nState suitable hypotheses and using an appropriate test determine whether or not the manufacturer's claim can be accepted at the 5 % significance level. [14 marks]"
+  },
+  "A4": {
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.L2",
+    "4.8",
+    "1.10"
+   ],
+   "text_clean": "4. [Maximum mark: 23]\nA chocolate manufacturer puts gift vouchers at random into 15 % of all chocolate bars produced. A customer must collect five vouchers to qualify for a gift.\n(a) Barry goes into a shop and buys 20 of these bars. Find the probability that he qualifies for a gift. [3 marks]\n(b) John goes into a shop and buys $n$ of these bars. Find the smallest value of $n$ for which the probability of qualifying for a gift exceeds $\\frac{1}{2}$. [4 marks]\n(c) Martina goes into a shop and buys these bars one at a time: she opens them to see if they contain a voucher. She obtains her 5th voucher on the $X$th bar bought.\n(i) Write down an expression for $\\mathrm{P}(X = x)$, valid for $x \\ge 5$.\n(ii) Calculate $\\mathrm{E}(X)$.\n(iii) Show that $\\frac{\\mathrm{P}(X = x)}{\\mathrm{P}(X = x-1)} = \\frac{0.85(x-1)}{x-5}$.\n(iv) Show that if $\\mathrm{P}(X = x) > \\mathrm{P}(X = x-1)$ then $x < \\frac{83}{3}$. Deduce the most probable value of $X$. [16 marks]"
+  },
+  "B1": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "text_clean": "1. [Maximum mark: 9]\nLet $A$ and $B$ be subsets of the set $U$ and let $C = A \\cap B$, $D = A' \\cup B$ and $E = A \\cup B$.\n(a) Draw separate Venn diagrams to represent the sets $C$, $D$ and $E$. [3 marks]\n(b) Using de Morgan's laws, show that $A = D' \\cup C$. [3 marks]\n(c) Prove that $B = D \\cap E$. [3 marks]"
+  },
+  "B2": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.6",
+    "7.9",
+    "7.7"
+   ],
+   "text_clean": "2. [Maximum mark: 11]\nConsider the following groups of order 4:\n$G = (\\{1, 3, 5, 7\\}, \\bullet)$ where $\\bullet$ is multiplication modulo 8.\n$H = (\\{3, 6, 9, 12\\}, *)$ where $*$ is multiplication modulo 15.\n(a) (i) Copy and complete the Cayley table for $G$.\n• | 1 | 3 | 5 | 7\n1 |  |  |  | \n3 |  |  | 7 | \n5 | 5 |  |  | \n7 |  |  |  | 1\n(ii) Draw the Cayley table for $H$. [6 marks]\n(b) Determine whether or not they are isomorphic, giving appropriate reasons. [5 marks]"
+  },
+  "B3": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "text_clean": "3. [Maximum mark: 17]\nConsider the relations $R_1$, $R_2$, $R_3$ and $R_4$, represented by the following tables\nR1: | a | b | c\na |  | 1 | 1\nb | 1 | 1 | 1\nc | 1 | 1 | 1\nR2: | A | B | C\nA | 1 |  | 1\nB | 1 | 1 | \nC | 1 |  | 1\nR3: | d | e | f | g\nd | 1 |  | 1 | 1\ne |  | 1 | 1 | \nf | 1 | 1 | 1 | 1\ng | 1 |  | 1 | 1\nR4: | D | E | F | G\nD | 1 |  | 1 | \nE |  | 1 |  | 1\nF | 1 |  | 1 | \nG |  | 1 |  | 1\n(Note that a \"1\" in the table means that the element in that row is related to the element in that column, e.g. in $R_2$, $B$ is related to $A$, but $A$ is not related to $B$.)\n(a) For each relation, determine whether or not it is an equivalence relation. In each case, justify your answer. [15 marks]\n(b) For those which are equivalence relations, describe the corresponding equivalence classes. [2 marks]"
+  },
+  "B4": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.3",
+    "1.16"
+   ],
+   "text_clean": "4. [Maximum mark: 16]\nConsider the following functions.\n$f: \\mathbb{R}^+ \\to \\mathbb{R}^+$ where $f(x) = x^2 + 3x + 2$\n$g: \\mathbb{R} \\times \\mathbb{R} \\to \\mathbb{R} \\times \\mathbb{R}$ where $g(x, y) = (3x + 2y, 2x + y)$\n$h: \\mathbb{R}^+ \\times \\mathbb{R}^+ \\to \\mathbb{R}^+ \\times \\mathbb{R}^+$ where $h(x, y) = (x + y, xy)$\n(a) Explain why $f$ is not surjective. [2 marks]\n(b) Explain why $g$ has an inverse, and find $g^{-1}$. [9 marks]\n(c) Determine, with reasons, whether $h$ is\n(i) injective;\n(ii) surjective. [5 marks]"
+  },
+  "B5": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.6"
+   ],
+   "text_clean": "5. [Maximum mark: 7]\nThe order of each of the elements of the group $(G, *)$ is either 1 or 2. Show that $G$ is an Abelian group. [7 marks]"
+  },
+  "C1": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L1",
+    "1.8",
+    "5.19"
+   ],
+   "text_clean": "1. [Maximum mark: 9]\nConsider the series $S = \\sum_{n=1}^{\\infty} \\frac{1}{n!}$.\n(a) Use the ratio test to prove that this series is convergent. [4 marks]\n(b) Use a comparison test to show that $S < 2$. [4 marks]\n(c) Write down the exact value of $S$. [1 mark]"
+  },
+  "C2": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L3",
+    "5.10"
+   ],
+   "text_clean": "2. [Maximum mark: 17]\n(a) Show that the polynomial approximation for $\\ln x$ in the interval $[0.5, 1.5]$ obtained by taking the first three non-zero terms of the Taylor series about $x = 1$ is given by\n$\\ln x \\approx \\frac{x^3}{3} - \\frac{3x^2}{2} + 3x - \\frac{11}{6}$. [7 marks]\n(b) Given $\\int \\ln x \\, \\mathrm{d}x = x \\ln x - x + C$, show by integrating the above series that another approximation to $\\ln x$ is given by\n$\\ln x \\approx \\frac{x^3}{12} - \\frac{x^2}{2} + \\frac{3x}{2} - \\frac{5}{6} - \\frac{1}{4x}$. [6 marks]\n(c) Which is the better approximation when $x = 1.5$? [4 marks]"
+  },
+  "C3": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15"
+   ],
+   "text_clean": "3. [Maximum mark: 19]\n(a) Show that $\\frac{\\mathrm{d}}{\\mathrm{d}x}\\left(\\ln\\left(\\frac{1+x}{1-x}\\right)\\right) = \\frac{2}{1-x^2}$, $|x| < 1$. [3 marks]\n(b) Find the solution to the homogeneous differential equation\n$x^2 \\frac{\\mathrm{d}y}{\\mathrm{d}x} = x^2 + xy - y^2$, given that $y = \\frac{1}{2}$ when $x = 1$.\nGive your answer in the form $y = g(x)$. [16 marks]"
+  },
+  "C4": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.15",
+    "5.10"
+   ],
+   "text_clean": "4. [Maximum mark: 15]\n(a) (i) Find $I_n = \\int_{-n}^{\\alpha n} \\frac{x \\, \\mathrm{d}x}{1 + x^2}$, where $\\alpha$ is a positive constant and $n$ is a positive integer.\n(ii) Determine $\\lim_{n \\to \\infty} I_n$. [6 marks]\n(b) Using l'Hôpital's Rule find\n$\\lim_{x \\to 0}\\left(\\frac{\\tan \\beta x - \\beta \\tan x}{\\sin \\beta x - \\beta \\sin x}\\right)$,\nwhere $\\beta$ is a non-zero constant different from $\\pm 1$. [9 marks]"
+  },
+  "D1": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.7",
+    "6.8",
+    "6.11"
+   ],
+   "text_clean": "1. [Maximum mark: 18]\nConsider the following adjacency matrices for the graphs $G_1$ and $G_2$:\nG1: | p | q | r | s | t\np | 0 | 1 | 0 | 1 | 0\nq | 1 | 0 | 2 | 0 | 1\nr | 0 | 2 | 0 | 1 | 0\ns | 1 | 0 | 1 | 0 | 1\nt | 0 | 1 | 0 | 1 | 0\nG2: | P | Q | R | S | T\nP | 0 | 0 | 0 | 1 | 1\nQ | 0 | 0 | 0 | 1 | 0\nR | 0 | 0 | 0 | 1 | 0\nS | 1 | 1 | 1 | 0 | 0\nT | 1 | 0 | 0 | 0 | 0\n(a) Draw the graphs of $G_1$ and $G_2$. [4 marks]\n(b) For each graph, giving a reason, determine whether or not it\n(i) is simple;\n(ii) is connected;\n(iii) is bipartite;\n(iv) is a tree;\n(v) has an Eulerian trail, giving an example of a trail if one exists. [14 marks]"
+  },
+  "D2": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.3",
+    "6.1"
+   ],
+   "text_clean": "2. [Maximum mark: 10]\nSolve the equation $-38x + 26y = 8$, where $x, y \\in \\mathbb{Z}$. [10 marks]"
+  },
+  "D3": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8"
+   ],
+   "text_clean": "3. [Maximum mark: 11]\nThe following diagram shows a graph $H$.\n[Diagram: weighted graph H with vertices A, B, C, D, E, F, G; edges AB 4, AG 12, AE 9, BG 1, BC 5, GC 5, GF 7, GE 8, CF 6, EF 1, ED 2, DF 3]\n(a) Use Kruskal's algorithm to find a minimum spanning tree for $H$. [9 marks]\n(b) Write down the weight of the minimum spanning tree found. [2 marks]"
+  },
+  "D4": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8"
+   ],
+   "text_clean": "4. [Maximum mark: 8]\n(a) Prove that a tree is a simple graph. [3 marks]\n(b) (i) $G$ is a complete bipartite graph and graph $W$ is the complement of $G$. Prove that $W$ is not connected.\n(ii) Show by giving an example that the converse is not true. [5 marks]"
+  },
+  "D5": {
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.5",
+    "1.9",
+    "6.1"
+   ],
+   "text_clean": "5. [Maximum mark: 13]\nFermat's theorem states that a prime number $p$ is a divisor of $x^p - x$ and $y^p - y$, where $x, y \\in \\mathbb{Z}^+$. Show that if $p \\mid x^p + y^p$, $p > 2$ then $p^2 \\mid x^p + y^p$. [13 marks]"
+  }
+ },
+ "exam_note": "D1 markscheme crop extended upward to include vertex Q of G2 drawing (override)."
+}

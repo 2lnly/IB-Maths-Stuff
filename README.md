@@ -1,27 +1,45 @@
-# IB Revision Stuff
+# IB past-paper question database
 
-Practice questions for IB Mathematics AA HL, Physics HL, and Economics SL.
+Every question from IB Mathematics HL / Analysis & Approaches HL (1995–2025), Physics HL (2010–2025)
+and Economics SL (2010–2025) past papers, cut out of the original PDFs, matched to its markscheme,
+classified by topic, and browsable as a static website (no server, no accounts).
 
-**Website:** [llxht.com](https://llxht.com)
+- 501 papers, 6,146 questions, 10,363 question/markscheme images
+- Every question tagged with all topics/subtopics it examines (one taxonomy per subject applied to
+  all years), transcribed to searchable text (LaTeX for maths), and visually checked
+- Original papers can be reconstructed in order; repeats across time zones are detected
 
-## Features
+## Layout
 
-- **Timer System**: Track time spent on questions and daily usage
-- **Community Notes**: Share insights and solutions with other students
-- **Global Chat**: Real-time chat with fellow IB students
-- **Dark Mode**: Eye-friendly interface (default)
-- **Question Bank**: Thousands of past paper questions
-- **Save & Review**: Bookmark difficult questions
+| Path | What |
+|---|---|
+| `db/SCHEMA.md` | Data contract — read this first |
+| `db/catalog.json` | Every exam paper + its source PDFs (built by `pipeline/catalog.py`) |
+| `db/taxonomy.json`, `db/CLASSIFY.md` | Topic taxonomy and classification rules |
+| `db/exams/<exam_id>/` | `exam.json` (generated), images, `labels.json` (topics/transcriptions/review — hand/agent-made, **irreplaceable**), `overrides.json` (manual crop fixes) |
+| `pipeline/segment.py` | Cuts PDFs into questions (`seg_math.py`, `seg_physics.py`, `seg_economics.py`) |
+| `pipeline/labels.py`, `pipeline/relabel.py` | Validate/merge labels; safe relabelling helpers |
+| `pipeline/show.py` | Compact views of exams, taxonomy, audits |
+| `site/` | The website (vanilla JS, KaTeX vendored) |
+| `build.py` | Builds `dist/` from `db/` + `site/` |
 
-## Running Locally
+Source PDFs live outside the repo (`~/stuff/IB PAST PAPERS - YEAR/`, `~/stuff/Math AA HL/`).
+
+## Common tasks
 
 ```bash
-cd web
-python app.py
+python3 build.py --force                      # build dist/
+cd dist && python3 -m http.server 8000        # preview at http://localhost:8000
+
+python3 pipeline/segment.py --exam-id math-2015-M-P1-TZ1   # re-cut one exam (keeps its labels)
+python3 pipeline/segment.py --all --subject physics         # re-cut a subject
+python3 pipeline/labels.py --apply-all && python3 pipeline/labels.py --stats
+python3 pipeline/relabel.py set <question_id> <subtopic> [...] --note "why"
 ```
 
-Visit `http://localhost:5000`
+## Deploy (Cloudflare Pages, when wanted)
 
----
-
-by: Xiao He
+```bash
+python3 build.py --force
+npx wrangler pages deploy dist --project-name <name>
+```

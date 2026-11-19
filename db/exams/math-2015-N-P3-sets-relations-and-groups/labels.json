@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2015-N-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"], "subtopics": ["7.1"], "qtype": "short",
+      "text_clean": "1. [Maximum mark: 5]\nGiven the sets $A$ and $B$, use the properties of sets to prove that $A \\cup (B' \\cup A)' = A \\cup B$, justifying each step of the proof."
+    },
+    "2": {
+      "topics": ["7"], "subtopics": ["7.2", "7.3"],
+      "text_clean": "2. [Maximum mark: 14]\nThe function $f: \\mathbb{R} \\to \\mathbb{R}$ is defined as $f: x \\to \\begin{cases} 1, & x \\ge 0 \\\\ -1, & x < 0 \\end{cases}$.\n(a) Prove that $f$ is\n(i) not injective;\n(ii) not surjective. [4]\nThe relation $R$ is defined for $a, b \\in \\mathbb{R}$ so that $aRb$ if and only if $f(a) \\times f(b) = 1$.\n(b) Show that $R$ is an equivalence relation. [8]\n(c) State the equivalence classes of $R$. [2]"
+    },
+    "3": {
+      "topics": ["7"], "subtopics": ["7.7", "7.6"],
+      "text_clean": "3. [Maximum mark: 10]\nThe set of all permutations of the elements $1, 2, \\ldots 10$ is denoted by $H$ and the binary operation $\\circ$ represents the composition of permutations.\nThe permutation $p = (1\\,2\\,3\\,4\\,5\\,6)(7\\,8\\,9\\,10)$ generates the subgroup $\\{G, \\circ\\}$ of the group $\\{H, \\circ\\}$.\n(a) Find the order of $\\{G, \\circ\\}$. [2]\n(b) State the identity element in $\\{G, \\circ\\}$. [1]\n(c) Find\n(i) $p \\circ p$;\n(ii) the inverse of $p \\circ p$. [4]\n(d) (i) Find the maximum possible order of an element in $\\{H, \\circ\\}$.\n(ii) Give an example of an element with this order. [3]"
+    },
+    "4": {
+      "topics": ["7"], "subtopics": ["7.5", "7.4", "7.6", "7.8"],
+      "text_clean": "4. [Maximum mark: 18]\nThe binary operation $*$ is defined on the set $T = \\{0, 2, 3, 4, 5, 6\\}$ by $a * b = (a + b - ab) \\pmod 7$, $a, b \\in T$.\n(a) Copy and complete the following Cayley table for $\\{T, *\\}$. [4]\n[Table: Cayley table, partially filled]\n* | 0 | 2 | 3 | 4 | 5 | 6\n0 | 0 | 2 | 3 | 4 | 5 | 6\n2 | 2 | 0 | 6 | 5 | 4 | 3\n3 | 3 | 6 | | | |\n4 | 4 | 5 | | | |\n5 | 5 | 4 | | | |\n6 | 6 | 3 | | | |\n(b) Prove that $\\{T, *\\}$ forms an Abelian group. [7]\n(c) Find the order of each element in $T$. [4]\n(d) Given that $\\{H, *\\}$ is the subgroup of $\\{T, *\\}$ of order 2, partition $T$ into the left cosets with respect to $H$. [3]"
+    },
+    "5": {
+      "topics": ["7"], "subtopics": ["7.9", "7.8"],
+      "text_clean": "5. [Maximum mark: 13]\nA group $\\{D, \\times_3\\}$ is defined so that $D = \\{1, 2\\}$ and $\\times_3$ is multiplication modulo 3.\nA function $f: \\mathbb{Z} \\to D$ is defined as $f: x \\mapsto \\begin{cases} 1, & x \\text{ is even} \\\\ 2, & x \\text{ is odd} \\end{cases}$.\n(a) Prove that the function $f$ is a homomorphism from the group $\\{\\mathbb{Z}, +\\}$ to $\\{D, \\times_3\\}$. [6]\n(b) Find the kernel of $f$. [3]\n(c) Prove that $\\{\\mathrm{Ker}(f), +\\}$ is a subgroup of $\\{\\mathbb{Z}, +\\}$. [4]"
+    }
+  }
+}

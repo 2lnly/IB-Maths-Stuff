@@ -1,0 +1,112 @@
+{
+ "exam_id": "math-2008-N-P3-series-and-differential-equations",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2008,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Series and differential equations",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2008 November Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2008 November Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8808-7204; code N08/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2008-N-P3-series-and-differential-equations-q1",
+   "num": "1",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 12]\n(a) Show that the solution of the homogeneous differential equation\nd y y\n= + 1 , x > 0 ,\nd x x\ngiven that y = 0 when x = e , is y = x x − )1. [5 marks] (ln\n(b) (i) Determine the first three derivatives of the function fx () = x (ln x −1 ).\n(ii) Hence find the first three non-zero terms of the Taylor series for fx ()\nabout x =1. [7 marks]",
+   "ms_text": "1. (a) EITHER\n= use the substitution y vx\nd v x\n+ v = v + 1 M1A1\nd x\nd x\n= ∫ d v ∫\nx\nby integration\ny\nv = = ln x + c A1\nx\nOR\nthe equation can be rearranged as first order linear\nd y 1\n− y = 1 M1\nd x x\nthe integrating factor I is\n− 1 d ∫ x − ln x 1\ne x = e = A1\nx\nmultiplying by I gives\nd ⎛ 1 1 ⎞=\ny ⎜ ⎟\nd x ⎝ x ⎠ x\n1\ny = ln x + c A1\nx\nTHEN\nthe condition gives c = − 1 M1A1\nso the solution is y = x (ln x − 1) AG\n[5 marks]\n′ = −+= (b) (i) f () x ln x 11 ln x A1\n1\nf ′′ () x = A1\nx\n1\n′′′ = − f () x A1\n2 x\n(ii) the Taylor series about x = starts 1\n2 3 ( x − 1) ( x − 1)\n≈ + ′ − + ′′ + ′′′ fx () f (1) f (1)( x 1) f (1) f (1) (M1)\n2! 3!\n2 3 ( x − 1) ( x − 1)\n= −+ 1 − A1A1A1\n2! 3!\n[7 marks]\nTotal: [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L3",
+    "5.18",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 12]\n(a) Show that the solution of the homogeneous differential equation\n$$\\frac{dy}{dx} = \\frac{y}{x} + 1, \\quad x > 0,$$\ngiven that $y = 0$ when $x = e$, is $y = x(\\ln x - 1)$. [5 marks]\n(b) (i) Determine the first three derivatives of the function $f(x) = x(\\ln x - 1)$.\n(ii) Hence find the first three non-zero terms of the Taylor series for $f(x)$ about $x = 1$. [7 marks]"
+  },
+  {
+   "id": "math-2008-N-P3-series-and-differential-equations-q2",
+   "num": "2",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 19]\n1\n(a) (i) Show that ∞∫ d x , p ≠ 0 is convergent if p > −1 and find its\n1xx ( + p )\nvalue in terms of p.\n(ii) Hence show that the following series is convergent.\n1 1 1\n+ + Λ [8 marks]\n+×\n10 5 × . 21 5 × . 32 5 .\n(b) Determine, for each of the following series, whether it is convergent or divergent.\n∞ 1\n(i) ∑ sin\nnn ( + 3 ) n = 1\n1 1 1 1\n(ii) [11 marks] + + + +Λ\n2 6 12 20",
+   "ms_text": "2. (a) (i) the integrand is non-singular on the domain if p > − 1\nwith the latter assumed, consider\nR 1 1 R 1 1\n∫ d x = ∫ − d x M1A1\n1 xx ( + p ) p 1 x x + p\nR\n⎡ ⎛ x ⎞ ⎤\n1ln =\n⎢ ⎥ , p ≠ 0 A1 ⎜ ⎟\np x + p ⎣ ⎝ ⎠ ⎦\n1\nthis evaluates to\n⎛ ⎞ 1 R 1\nln − ln , p ≠ 0 M1 ⎜ ⎟\n+ + p ⎝ R p 1 p ⎠\n→ 1 ln(1 + p ) A1\np\nR\nbecause 1 as R → ∞ R1 p→\n+ R\nhence the integral is convergent AG\n∞ 1\n(ii) the given series is ∑ fn (), fn () = M1\n)\nnn ( − 0.5 n = 1\nthe integral test and p = − 0.5 in (i) establishes the convergence of the series R1\n[8 marks]\n(b) (i) as we have a series of positive terms we can apply the\ncomparison test, limit form\n∞ 1\ncomparing with M1 =∑\nn 2 n 1\n⎛ ⎞ 1\nsin ⎜ ⎟\n+ ⎝ nn ( 3)\nlim ⎠= 1 M1A1\nn →∞ 1\n2 n\nas sinθ ≈ θ for smallθ R1\n2 n\nand → 1 R1\nnn ( + 3)\n(so as the limit (of 1) is finite and non-zero, both series exhibit the same behavior)\n∞ 1\nconverges, so this series converges R1 =∑\n2 n\nn 1\n(ii) the general term is\n1\nA1\nnn + ( 1)\n1 1\n> M1\nnn ( + 1) ( n + 1)( n + 1)\n1 1\n= A1\n( n + 1)( n + 1) n + 1\nthe harmonic series diverges R1\nso by the comparison test so does the given series R1\n[11 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L5",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 19]\n(a) (i) Show that $\\int_1^{\\infty} \\frac{1}{x(x+p)}\\,dx$, $p \\neq 0$ is convergent if $p > -1$ and find its value in terms of $p$.\n(ii) Hence show that the following series is convergent.\n$$\\frac{1}{1 \\times 0.5} + \\frac{1}{2 \\times 1.5} + \\frac{1}{3 \\times 2.5} + \\cdots$$ [8 marks]\n(b) Determine, for each of the following series, whether it is convergent or divergent.\n(i) $\\sum_{n=1}^{\\infty} \\sin\\left(\\frac{1}{n(n+3)}\\right)$\n(ii) $\\sqrt{\\frac{1}{2}} + \\sqrt{\\frac{1}{6}} + \\sqrt{\\frac{1}{12}} + \\sqrt{\\frac{1}{20}} + \\cdots$ [11 marks]"
+  },
+  {
+   "id": "math-2008-N-P3-series-and-differential-equations-q3",
+   "num": "3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 12]\n1 ax () =+\nThe function fx can be expanded as a power series in x, within its radius\n1 + bx ∞\nn of convergence R, in the form fx () ≡+ 1 cx .\n∑\nn\nn = 1\n=− b n − 1 ( a − b (a) (i) Show that c ( ) ).\nn\n(ii) State the value of R. [5 marks]\n(b) Determine the values of a and b for which the expansion of fx () agrees with\nthat of ex up to and including the term in x2. [4 marks]\n1\n3 . (c) Hence find a rational approximation to e [3 marks]",
+   "ms_text": "3. (a) (i) fx () = (1 + ax )(1 + bx− ) 1\nn n n = (1 + ax )(1 − bx + ...(1) − bx + ... M1A1\nit follows that\nn n n − 1 n − 1\nnc =− (1) b +− (1) a b M1A1\n− =− ( b ) n 1 ( a − b ) AG\n1\n(ii) R = A1\nb\n[5 marks]\n(b) to agree up to quadratic terms requires\n1 2\n1 = −+ b a = b − ab M1A1A1\n,2\n1\nfrom which a = −= b A1\n2\n[4 marks]\n1 + 0.5 x x\n(c) e ≈ A1\n1 − 0.5 x\n1\nputting x = M1\n3\n⎛ 1 ⎞\n1 + 1 ⎜ ⎟\n7 ⎝ 6 ⎠\ne 3 ≈ = A1\n⎛ 1 ⎞ 5\n⎜ 1 − ⎟\n⎝ 6 ⎠\n[3 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L2",
+    "5.19",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 12]\nThe function $f(x) = \\frac{1+ax}{1+bx}$ can be expanded as a power series in $x$, within its radius of convergence R, in the form $f(x) \\equiv 1 + \\sum_{n=1}^{\\infty} c_n x^n$.\n(a) (i) Show that $c_n = (-b)^{n-1}(a-b)$.\n(ii) State the value of R. [5 marks]\n(b) Determine the values of $a$ and $b$ for which the expansion of $f(x)$ agrees with that of $e^x$ up to and including the term in $x^2$. [4 marks]\n(c) Hence find a rational approximation to $e^{\\frac{1}{3}}$. [3 marks]"
+  },
+  {
+   "id": "math-2008-N-P3-series-and-differential-equations-q4",
+   "num": "4",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 17]\n(a) Show that the solution of the differential equation\nd y\n= coscos2, x y\nd x\ngiven that y =π whenx = π, is y = arctan ( 1 + sin) x .\n[5 marks]\n4\n(b) Determine the value of the constant a for which the following limit exists\n1 + sin) x − a lim arctan (\n2 π\nπ x →\n2 x −\n2\nand evaluate that limit. [12 marks]",
+   "ms_text": "4. (a) this separable equation has general solution\n2\n∫ sec yy d = ∫ cosd xx (M1)(A1)\ntan y = sin x + c A1\nthe condition gives\nπ =\ntan sin π + c ⇒ c = 1 M1\n4\n=+ the solution is tan y 1 sin x A1\ny = arctan(1 + sin) x AG\n[5 marks]\n⎛ π ⎞\n(b) the limit cannot exist unless a = arctan1 ⎜ + sin ⎟ = arctan 2 R1A1\n⎝ 2 ⎠\nin that case the limit can be evaluated using l’Hopital’s rule (twice)\nlimit is\n′ (\narctan(1 + sin) x ) ′ y\nlim = lim\nπ ⎛ π ⎞ π ⎛ π ⎞\nx → x → M1A1\n2 2 x − 2 2 x − ⎜ ⎟ ⎜ ⎟\n⎝ 2 ⎠ ⎝ 2 ⎠\nwhere y is the solution of the differential equation\nthe numerator has zero limit (from the factor cos x in the differential equation) R1\nso required limit is\ny ′′\nM1A1\nlim2 π\nx →\n2\nfinally,\ny ′′ = − sincos x 2 y − 2coscossin x y y × y ′ () x M1A1\nyπ ⎛ 1\nsince cos ⎞= A1 ⎜ ⎟\n⎝ 2 ⎠ 5\nπ\n1at y ′′ = − x A1\n=2\n5\n1\nthe required limit is − A1\n10\n[12 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.18",
+    "5.15",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 17]\n(a) Show that the solution of the differential equation\n$$\\frac{dy}{dx} = \\cos x \\cos^2 y,$$\ngiven that $y = \\frac{\\pi}{4}$ when $x = \\pi$, is $y = \\arctan(1 + \\sin x)$. [5 marks]\n(b) Determine the value of the constant $a$ for which the following limit exists\n$$\\lim_{x \\to \\frac{\\pi}{2}} \\frac{\\arctan(1 + \\sin x) - a}{\\left(x - \\frac{\\pi}{2}\\right)^2}$$\nand evaluate that limit. [12 marks]"
+  }
+ ],
+ "status": "done"
+}

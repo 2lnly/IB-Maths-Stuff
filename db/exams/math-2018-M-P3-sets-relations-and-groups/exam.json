@@ -1,0 +1,130 @@
+{
+ "exam_id": "math-2018-M-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2018,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2018 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2018 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2218-7209; code M18/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches paper total 50",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2018-M-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 13]\nThe binary operation multiplication modulo 10, denoted by ×10 , is defined on the set\nT = {2 , 4 , 6 , 8} and represented in the following Cayley table.\n×10 2 4 6 8\n2 4 8 2 6\n4 8 6 4 2\n6 2 4 6 8\n8 6 2 8 4\n(a) Show that {T , ×10} is a group. (You may assume associativity.) [4]\n(b) By making reference to the Cayley table, explain why T is Abelian. [1]\n(c) (i) Find the order of each element of {T , ×10} .\n(ii) Hence show that {T , ×10} is cyclic and write down all its generators. [6]\nThe binary operation multiplication modulo 10, denoted by ×10 , is defined on the set\nV = {1 , 3 , 5 , 7 , 9} .\n(d) Show that {V , ×10} is not a group. [2]",
+   "ms_text": "1. (a) closure: there are no new elements in the table A1\nidentity: 6 is the identity element A1\ninverse: every element has an inverse because there is a 6\n− 1 = − 1 = − 1 = − 1 =\nin every row and column ( 2 8,4 4, 6 6, 8 2 ) A1\nwe are given that (modulo) multiplication is associative R1\nso { T× , } is a group AG\n10\n[4 marks]\n(b) the Cayley table is symmetric (about the main diagonal) R1\nso T is Abelian AG\n[1 mark]\n(c) (i) considering powers of elements (M1)\nelements order\n2 4\n4 2\n6 1\n8 4\nA2\nNote: Award A2 for all correct and A1 for one error.\n(ii) EITHER\n{ T× } , is cyclic because there is an element of order 4 R1\n10\nNote: Accept “there are elements of order 4”.\nOR\n{ T× } , is cyclic because there is a generator R1\n10\nNote: Accept “because there are generators”.\nTHEN\n2 and 8 are generators A1A1\n[6 marks]\n(d) EITHER\nconsidering singular elements (M1)\n× =, aV ∈ 5 has no inverse ( 5 a 1 has no solution) R1\n10\nOR\nconsidering Cayley table for { V× , }\n10\n× 1 3 5 7 9\n10\n1 1 3 5 7 9\n3 3 9 5 1 7\n5 5 5 5 5 5\n7 7 1 5 9 3\n9 9 7 5 3 1\n(M1)\nthe Cayley table is not a Latin square (or equivalent) R1\nOR\nconsidering cancellation law\neg, 5 × 9 = 5 × 1 = 5 M1\n10 10\nif { } V× , is a group the cancellation law gives 9 = 1 R1\n10\nOR\nconsidering order of subgroups\neg,{1, 9} is a subgroup M1\nit is not possible to have a subgroup of order 2 for a group of\norder 5 (Lagrange’s theorem) R1\nTHEN\nso { V× , } is not a group AG\n10\n[2 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.6",
+    "7.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 13]\nThe binary operation multiplication modulo $10$, denoted by $\\times_{10}$, is defined on the set $T=\\{2,4,6,8\\}$ and represented in the following Cayley table.\n[Table: Cayley table]\n$\\times_{10}$ | 2 | 4 | 6 | 8\n2 | 4 | 8 | 2 | 6\n4 | 8 | 6 | 4 | 2\n6 | 2 | 4 | 6 | 8\n8 | 6 | 2 | 8 | 4\n(a) Show that $\\{T,\\times_{10}\\}$ is a group. (You may assume associativity.) [4]\n(b) By making reference to the Cayley table, explain why $T$ is Abelian. [1]\n(c) (i) Find the order of each element of $\\{T,\\times_{10}\\}$.\n(ii) Hence show that $\\{T,\\times_{10}\\}$ is cyclic and write down all its generators. [6]\nThe binary operation multiplication modulo $10$, denoted by $\\times_{10}$, is defined on the set $V=\\{1,3,5,7,9\\}$.\n(d) Show that $\\{V,\\times_{10}\\}$ is not a group. [2]"
+  },
+  {
+   "id": "math-2018-M-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 8]\nConsider the sets A = {1 , 3 , 5 , 7 , 9}, B = {2 , 3 , 5 , 7 , 11} and C = {1 , 3 , 7 , 15 , 31} . (a)\n(i) Find (A ∪ B) ∩ (A ∪ C) .\nVerify that A \\ C ≠ C \\ A . (ii) [5]\nLet S be a set containing n elements where n ∈∞ .\n(b) Show that S has 2n subsets. [3]",
+   "ms_text": "2. (a) (i) EITHER\n( A ∪ B ) ∩ ( A ∪ C ) = { 1,2, 3, 5, 7, 9, 11 } ∩ { 1, 3, 5, 7, 9, 15, 31 } M1A1\nOR\nA ∪ ( B ∩ C ) = { 1, 3, 5, 7, 9 } ∪ { 3, 7 } M1A1\nOR\nB ∩ C is contained within A (M1)A1\nTHEN\n= { 1, 3, 5, 7, 9 }( = A ) A1\nNote: Accept a Venn diagram representation.\n(ii) AC = \\ { 5, 9 } A1\nCA = \\ { 15, 31 } A1\nso AC \\ ≠ CA \\ AG\nNote: Accept a Venn diagram representation.\n[5 marks]\n(b) METHOD 1\nif S=∅then n = 0 and the number of subsets of S is given by 0 = 2 1 A1\nif n > 0\nfor every subset of S , there are 2 possibilities for each element x ∈ S\neither x will be in the subset or it will not R1\nso for all n elements there are ( 22...2 ×× × = ) 2n different choices\nin forming a subset of S R1\nso S has 2n subsets AG\nNote: If candidates attempt induction, award A1 for case n = 0 , R1 for setting up the induction\nmethod (assume Pkand consider () Pk + ( 1 ) ) and R1 for showing how the Pktrue ()\nimplies Pk + ( 1 ) true).\nMETHOD 2\nn n\n∑ is the number of subsets of S (of all possible sizes from 0 to n ) R1\nk k = 0\nn n\nn\n( + ) = ()( k nk − ) 11 ∑ 1 1 M1\nk k = 0\nn n\nn ( 2 = ∑ = number of subsets of ) S\nA1\nk k = 0\nso S has 2n subsets AG\n[3 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.1",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 8]\n(a) Consider the sets $A=\\{1,3,5,7,9\\}$, $B=\\{2,3,5,7,11\\}$ and $C=\\{1,3,7,15,31\\}$.\n(i) Find $(A\\cup B)\\cap(A\\cup C)$.\n(ii) Verify that $A\\setminus C\\neq C\\setminus A$. [5]\nLet $S$ be a set containing $n$ elements where $n\\in\\mathbb{N}$.\n(b) Show that $S$ has $2^n$ subsets. [3]",
+   "review_note": "audit: (b) 2^n subsets by counting/binomial sum (1.10)"
+  },
+  {
+   "id": "math-2018-M-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 8]\nThe relation R is defined such that xRy if and only if | x | + | y | = | x + y | for x , y ∈ϒ .\n(a) Show that R is\n(i) reflexive;\n(ii) symmetric. [4]\n(b) Show, by means of an example, that R is not transitive. [4]",
+   "ms_text": "3. (a) (i) (for x∈ϒ), x + x = 2 x A1\nand x + x = 2 x = 2 x A1\nhence xRx\nso R is reflexive AG\nNote: Award A1 for correct verification of identity for x > 0 ; A1 for correct\nverification for x ≤ 0 .\n(ii) if x Ry ⇒ x + y = x + y\nx + y = y + x A1\nx + y = y + x A1\nhence yRx\nso R is symmetric AG\n[4 marks]\n(b) recognising a condition where transitivity does not hold (M1)\n(eg, x > 0, y = 0 and z< 0 )\nfor example, 10 R and 0(1) R− A1\nhowever 1 +−≠ 1 1 +− 1 A1\nR− so 1(1) (for example) is not true R1\nhence R is not transitive AG\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 8]\nThe relation $R$ is defined such that $xRy$ if and only if $|x|+|y|=|x+y|$ for $x,y\\in\\mathbb{R}$.\n(a) Show that $R$ is\n(i) reflexive;\n(ii) symmetric. [4]\n(b) Show, by means of an example, that $R$ is not transitive. [4]"
+  },
+  {
+   "id": "math-2018-M-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 12]\nThe set of all permutations of the list of the integers 1 , 2 , 3 , 4 is a group, S4 , under the\noperation of function composition.\n(a) Determine the order of S4 . [2]\n1 2 3 4 1 2 3 4\n= =\nIn the group S4 let p1\nand p2 . 2 3 1 4 2 1 3 4\n(b) Find the proper subgroup H of order 6 containing p1,p2 and their compositions.\nExpress each element of H in cycle form. [5]\nLet f : S4→S4 be defined by f ( p) =p ο p for p ∈ S4 .\n(c) Using p1 and p2 , explain why f is not a homomorphism. [5]",
+   "ms_text": "4. (a) number of possible permutations is 4 × 3 × 2 × 1 (M1)\n= = 24( 4!) A1\n[2 marks]\n(b) attempting to find one of p ο p , p ο p or p ο p M1\n2 1 1 1 1 2\n1 p ο p= (132) or equivalent (eg, p−= (132) ) A1\n1 1 1\np= p= p ο (13) or equivalent (eg, p ο p ο (13) ) A1\n1 2 2 1 1\np ο p= (23) or equivalent (eg, p ο p ο p= (23) ) A1\n2 1 1 1 2\nNote: Award A1A0A0 for one correct permutation in any form;\nA1A1A0 for two correct permutations in any form.\ne = (1) , p= (123) and p= (12) A1\n1 2\nNote: Condone omission of identity in cycle form as long as it is clear it is considered\none of the elements of H.\n[5 marks]\n(c) METHOD 1\nif f is a homomorphism f ( p ο p ) = f ( p ) ο f ( p )\n1 2 1 2\nattempting to express one of f ( p ο p ) or f ( p ) ο f ( p ) in terms of 1p and 2p\n1 2 1 2\nM1\n( ο ) = ο ο ο f p p p p p p A1\n1 2 1 2 1 2\n( ) ( ) = f p ο f p p ο p ο p ο p A1\n1 2 1 1 2 2\n⇒ ο = ο p p p p A1\n2 1 1 2\nbut p ο p ≠ p ο p R1\n1 2 2 1\nso f is not a homomorphism AG\nNote: Award R1 only if M1 is awarded.\nNote: Award marks only if 1p and 2p are used; cycle form is not required.\nMETHOD 2\n( ) = ( ) ( ) if f is a homomorphism f p ο p f p ο f p\n1 2 1 2\n( ) ( ) ( ) attempting to find one of f p ο p or f p ο f p M1\n1 2 1 2\n( ) f p ο p = e A1\n1 2\nf ( p ) ο f ( p ) = ( 132 ) (M1)A1\n1 2\nso f ( p ο p ) ≠ f ( p ) ο f ( p ) R1\n1 2 1 2\nso f is not a homomorphism AG\nNote: Award R1 only if both M1s are awarded.\nNote: Award marks only if 1p and 2p are used; cycle form is not required.\n[5 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.7",
+    "7.9",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 12]\nThe set of all permutations of the list of the integers $1,2,3,4$ is a group, $S_4$, under the operation of function composition.\n(a) Determine the order of $S_4$. [2]\nIn the group $S_4$ let $p_1=\\begin{pmatrix}1&2&3&4\\\\2&3&1&4\\end{pmatrix}$ and $p_2=\\begin{pmatrix}1&2&3&4\\\\2&1&3&4\\end{pmatrix}$.\n(b) Find the proper subgroup $H$ of order 6 containing $p_1, p_2$ and their compositions. Express each element of $H$ in cycle form. [5]\nLet $f:S_4\\to S_4$ be defined by $f(p)=p\\circ p$ for $p\\in S_4$.\n(c) Using $p_1$ and $p_2$, explain why $f$ is not a homomorphism. [5]"
+  },
+  {
+   "id": "math-2018-M-P3-sets-relations-and-groups-q5",
+   "num": "5",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 9]\nThe function f : ′→′ is defined by f (n) =n + (-1)n .\n(a) Prove that f ο f is the identity function. [6]\n(b) Show that\n(i) f is injective;\n(ii) f is surjective. [3]",
+   "ms_text": "5. (a) METHOD 1\nn n n +− (1)\n( f ο f ) () n = n +− (1) +− (1) M1A1\nn n n (1) −\n= n +− (1) +− (1) ×− (1) (A1)\nn\nconsidering ( − 1 ) for even and odd n M1\nn n ± 1\nif n is odd, ( − 1 ) =− and if n is even, ( 1 − 1 ) = 1 and so ( − 1 ) =− 1 A1\nn n\n= n +− (1) −− (1) A1\n= n and so f ο f is the identity function AG\nMETHOD 2\nn n n +− (1)\n( ) f ο f () n = n +− (1) +− (1) M1A1\nn n n (1) −\n= n +− (1) +− (1) ×− (1) (A1)\nn n (1) −\n= +− × +− n (1) 1 (1) M1\n± 1\n( ) − 1 =− 1 R1\nn (1) −\n1(1) +− = 0 A1\n( )() f ο f n = n and so f ο f is the identity function AG\nMETHOD 3\nn\n( ) = ( +− ) f ο f () n fn (1) M1\nconsidering even and odd n M1\nif n is even, fn () = n + which is odd 1 A1\nso ( f ο f ) () n = fn ( + 1 ) = ( n + 1 ) −= 1 n A1\nif n is odd, fn () = n − which is even 1 A1\nso ( f ο f ) () n = fn ( − 1 ) = ( n − 1 ) += 1 n A1\n( f ο f )() n = n in both cases\nhence f ο f is the identity function AG\n[6 marks]\n(b) (i) suppose fn () = fm () M1\napplying f to both sides ⇒ n = m R1\nhence f is injective AG\n(ii) m = fn () has solution n = fm () R1\nhence surjective AG\n[3 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 9]\nThe function $f:\\mathbb{Z}\\to\\mathbb{Z}$ is defined by $f(n)=n+(-1)^n$.\n(a) Prove that $f\\circ f$ is the identity function. [6]\n(b) Show that\n(i) $f$ is injective;\n(ii) $f$ is surjective. [3]"
+  }
+ ],
+ "status": "done"
+}

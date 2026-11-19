@@ -1,0 +1,300 @@
+{
+ "exam_id": "math-2025-M-P2-TZ1",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2025,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 2/M25 TZ1/Mathematics_analysis_and_approaches_paper_2_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 2/M25 TZ1/Mathematics_analysis_and_approaches_paper_2_TZ1_HL_markscheme.pdf",
+ "notes": "4 duplicate copies (2 byte-identical size, 2 donated/scanned); duplicate /home/xiaohe/stuff/IB PAST PAPERS - YEAR/2025 Examination Session/DONATED PAPERS M25/Maths/AAHL P2 Zone A.pdf: time zone TZ1 assigned via printed paper number 2225-7107 (filename zone A); duplicate /home/xiaohe/stuff/IB PAST PAPERS - YEAR/2025 Examination Session/DONATED PAPERS M25/NEW Asia TZA papers/Math AA HL Paper 2 TZA.pdf: time zone TZ1 assigned by distinctive-word overlap 1.00 (next TZ 0.22, 41 words) with Mathematics_analysis_and_approaches_paper_2_TZ1_HL.pdf; paper number 2225-7107; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2025-M-P2-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\n⌢\n� The points A and B lie on a circle, with centre O and radius 19.5cm , such that BOA = 210.\nA piece of paper is cut into the shape of the sector BOA .\nA hollow cone with no base is constructed from the sector by joining the points A and B .\nThe sector forms the curved surface of the cone.\nThis is shown in the following diagrams.\nO\nB\n210˚\n19.5cm 19.5cm\nO\nA, B\n19.5cm\nA\nFind\n(a) the area of the sector BOA ;\b [3]\n(b) the radius of the cone.\b [3]",
+   "ms_text": "1. (a) EITHER\n210π 7π\n210ο = = = 3.66519... radians (A1)\n180 6\nattempt to use radian formula for area of sector (M1)\n1 2 7π\n( ) area = 19.5\n2 6\nOR\nattempt to use degree formula for area of sector (M1)\n2\n= 210 π19.5 ( ) area (A1)\n360\nTHEN\n3549π\n= = area 696.844...\n16\n3549π\n= 697 = (cm2) A1\n16\n[3 marks]\n(b) EITHER\n7π 210 91π\narc length = 19.5 OR = ( 2π19.5 ( ) ) = = 71.4712... (A1)\n6 360 4\nattempt to set 2πr equal to arc length (M1)\n2π r = 71.4712...\nOR\nattempt to set πrl equal to their area from (a) (M1)\n19.5π r = 696.844... (A1)\nTHEN\n91\nr = 11.4 = = 11.375 (cm) A1\n8\n[3 marks]\nTotal[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nThe points A and B lie on a circle, with centre O and radius $19.5\\text{ cm}$, such that $\\hat{BOA} = 210^\\circ$.\nA piece of paper is cut into the shape of the sector BOA.\nA hollow cone with no base is constructed from the sector by joining the points A and B. The sector forms the curved surface of the cone.\nThis is shown in the following diagrams.\n[Diagram: major sector BOA with reflex angle 210° at O and radii OA = OB = 19.5 cm; the cone formed, with apex O, slant height 19.5 cm and A, B joined on the base circle]\nFind\n(a) the area of the sector BOA; [3]\n(b) the radius of the cone. [3]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\n� 2 n � 1 �\n�, n∈′ and a , b∈ϒ . Consider the function f(x)=atan(2x)+b , where x �\n4\nWrite down the period of f.\b (a) [1]\n� � � � �\nThe graph of y=f(x) passes through the points , 5 �� and � , 7\n�� �� ��. 12 3\n(b) Find the value of a and the value of b .\b [3]",
+   "ms_text": "π\n2. (a) period is ( 1.57079... = 1.57 ) A1\n2=\n[1 mark]\nπ, π ,\n(b) attempt to substitute x = fx () = 5 and x = fx () = 7 to obtain two equations (M1)\n12 3\nNote: accept work where x values have been converted into degrees\nπ 2π a + +\n⇒ + = − + = a tan b = 5 and a tan b = 7 b 5 and a 3 b 7\n6 3 3\n3\na = − ( = − 0.866025... = − 0.866 ) A1\n2\n11\nb = ( = 5.5 ) A1\n2\nNote: These A1 marks may be awarded independently.\n[3 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.7",
+    "3.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nConsider the function $f(x) = a\\tan(2x) + b$, where $x \\neq \\frac{(2n+1)\\pi}{4}$, $n \\in \\mathbb{Z}$ and $a, b \\in \\mathbb{R}$.\n(a) Write down the period of $f$. [1]\nThe graph of $y = f(x)$ passes through the points $\\left(\\frac{\\pi}{12}, 5\\right)$ and $\\left(\\frac{\\pi}{3}, 7\\right)$.\n(b) Find the value of $a$ and the value of $b$. [3]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nP A population, P , has a rate of change modelled by d � 0 0145 . t\n�� 104000 e , where t is the time\nd t\nmeasured in years since the start of 2022 .\nAt the start of 2022 , the population was 6.78×106 .\nBased on this model, find the predicted population at the start of 2026 .",
+   "ms_text": "3. METHOD 1\nattempt to find change in population using a definite integral (M1)\nt = 4 at the start of 2026 (seen anywhere) (A1)\n4 − 0.0145\n∫ − 104000e tt d (A1)\n0\n= − 404165.8... (A1)\nattempt to add initial population to their change in population from a definite integral (M1)\n6\npopulation at the start of 2026 = 6.7810 × − 404165.8...\n= 6375834.1...\n= ( = × 6 ) 6380000 6.3810 A1\nMETHOD 2\nattempt to find population using an indefinite integral (M1)\n− 0.0145 t P =\n−∫ 104000e d t\n− 0.0145 t − 104000e\n( − 0.0145 t ) + c = 7172413.7...e + c (A1)\n− 0.0145\n= 0, = 6.7810 × 6 attempt to substitute t P into equation with c. (M1)\n6 6.7810 × = 7172413.7... + c ⇒ c = − 392413.7...\n− 0.0145 t P = 7172413.7...e − 392413.7...\n(A1)\nt = 4 at the start of 2026 (seen anywhere) (A1)\n7172413.7...e − 0.0145(4) − 392413.7... population at the start of 2026\n= 6375834.1...\n6 = 6380000 ( = 6.3810 × )\nA1\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nA population, $P$, has a rate of change modelled by $\\frac{dP}{dt} = -104000e^{-0.0145t}$, where $t$ is the time measured in years since the start of 2022.\nAt the start of 2022, the population was $6.78 \\times 10^6$.\nBased on this model, find the predicted population at the start of 2026."
+  },
+  {
+   "id": "math-2025-M-P2-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 8]\nIn a study, measurements for arm span, Acm , and foot length, Fcm , are taken from a large\ngroup of adults.\nFor this group, the regression line of F on A is found to be F=0.335A-32.6 , and\nthe regression line of A on F is found to be A=2.89F+99.3 . Each regression line passes\nthrough the mean point.\n(a) By using an appropriate regression line, find an estimate of the arm span for an adult\nwith a foot length of 19.8cm . \b [2]\n(b) For this group of adults, find the mean arm span and the mean foot length. \b [3]\nThe heights, Hcm , of adults in the group can be modelled by a normal distribution with mean\n163cm and standard deviation scm .\nIt is found that 88 % of the group have a height between 153cm and 173cm .\n(c) Find the value of s .\b [3]",
+   "ms_text": "4. (a) attempt to substitute F= 19.8 into the regression line for A on F (M1)\n( ) + A = 2.8919.8 99.3\n= 156.522 (cm)\narm span = 157 (cm) A1\nNote: Award M0A0 for choosing the wrong regression line to get A = 156.417... so\nA = 156 .\n[2 marks]\n(b) recognition that the lines intersect at the mean point (may be seen on a sketch) (M1)\nF + 32.6 A − 99.3\n2.89 F + 99.3 = OR 0.335 A − 32.6 =\n0.335 2.89\n159.686... or 20.8948...\nthe mean arm span = 160 (cm), the mean foot length = 20.9 (cm) A1A1\n[3 marks]\n(c) METHOD 1\nrecognition of symmetry of interval around mean (may be seen on a sketch) (M1)\nPH< ( 153) = 0.06 OR PH< ( 173) = 0.94 OR equivalent\n− − 153163\nOR 173163 = − 1.55477... = 1.55477...\n(A1)\nσ σ\nσ= 6.43181...\nσ= 6.43 (cm) A1\nMETHOD 2\nattempt to find σ by equating an appropriate correct normal CDF function to 0.88(or e.g.\n0.06or 0.94) (M1)\nσ= 6.43181...\nσ= 6.43 (cm) A2\nNote: Accept use of calculator notation eg normcdf (153,173,163, σ= ) 0.88\n[3 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.10",
+    "4.4",
+    "4.12",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 8]\nIn a study, measurements for arm span, $A$ cm, and foot length, $F$ cm, are taken from a large group of adults.\nFor this group, the regression line of $F$ on $A$ is found to be $F = 0.335A - 32.6$, and the regression line of $A$ on $F$ is found to be $A = 2.89F + 99.3$. Each regression line passes through the mean point.\n(a) By using an appropriate regression line, find an estimate of the arm span for an adult with a foot length of 19.8 cm. [2]\n(b) For this group of adults, find the mean arm span and the mean foot length. [3]\nThe heights, $H$ cm, of adults in the group can be modelled by a normal distribution with mean 163 cm and standard deviation $\\sigma$ cm.\nIt is found that 88% of the group have a height between 153 cm and 173 cm.\n(c) Find the value of $\\sigma$. [3]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\n� � x �\nConsider the function hx () � 15 cos 15 , where 0≤x≤50 .\n�� ��� 50\nThe tangent, Tk , to the curve y=h(x) at the point (k , h(k)) is shown on the following diagram.\ny\n30\n(k, h(k))\nTk\ny=h(x)\nx\n0 50\n(a) Find the gradient of Tk in terms of k .\b [3]\nConsider the case where the angle between Tk and the x-axis is p radians.\n8\n(b) Find the possible values of k .\b [3]",
+   "ms_text": "5. (a) recognition of the need to differentiate (M1)\nπ π x 15π π x 3π π x\nhx '() = − 15sin = − sin = − sin A1A1\n50 50 50 50 10 50\n15π π k 3π π k\nhk '() = − sin = − sin\n50 50 10 50\nπ k\n− and A1 for factor of π Note: Award A1 for .\n15sin50\n50\nAward A1A0 for a correct expression with additional terms or additional\nfactors.\n[3 marks]\nπ 7π\n(b) recognition that gradient of tangent = − OR tan (M1)\ntan8\n8\nπ 7π\nNote: Accept OR − tan for the (M1)\ntan8\n8\nπ 7π\nsetting their '() hk equal to − OR tan = − ( 0.414213... ) (A1)\ntan8\n8\n15π π k π 15π π k 7π\n− sin = − tan OR − sin = tan\n50 50 8 50 50 8\nk= 7.24211... , k= 42.7578...\nk= 7.24 , k= 42.8 A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.4",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nConsider the function $h(x) = 15\\cos\\left(\\frac{\\pi x}{50}\\right) + 15$, where $0 \\le x \\le 50$.\nThe tangent, $T_k$, to the curve $y = h(x)$ at the point $(k, h(k))$ is shown on the following diagram.\n[Graph: decreasing curve y = h(x) from (0, 30) to (50, 0), with tangent line T_k touching it at (k, h(k))]\n(a) Find the gradient of $T_k$ in terms of $k$. [3]\nConsider the case where the angle between $T_k$ and the $x$-axis is $\\frac{\\pi}{8}$ radians.\n(b) Find the possible values of $k$. [3]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nConsider the function f(x)=4cot x+sinx , where 0<x<p .\n(a) (i) Write f(x) in terms of sinx and cosx .\n(ii) Hence or otherwise, sketch the graph of y=f(x) , showing the value of\nthe x-intercept.\b [3]\n(b) Find the value of f-1(2) .\b [1]\nIt is given that seca=1.5 , where 0<a<p .\n(c) Find the value of f(a) .\b [3]",
+   "ms_text": "x\n)4cos\n6. (a) (i) ( fx () = + sin x A1\nsin x\n(ii)\ncorrect domain and curvature A1\nNote: The correct domain may be implied by a single branch of the function.\nCondone the absence of π on the x -axis.\nAward A0 if the graph is not a function.\ncorrect x -intercept at x = 1.80911... = 1.81 A1\nNote: Accept coordinates (1.81,0) . This mark is independent of the first A1.\n[3 marks]\n(b) f− 1(2) = 1.31837...\n= 1.32 A1\n[1 mark]\n(c) METHOD 1\nEITHER\n1\nrecognition that sec x = (M1)\ncos x\n2\ncos α= ( = 0.666666... )\n3\n2\nα= arccos ( = 0.841068... ) (A1)\n3\nOR\n( ) α= arcsec1.5 = 0.841068... (A2)\nTHEN\nf () α= f (0.841068...) = 4.32306...\n295\n= 4.32 = A1\n15\nMETHOD 2\n1\nrecognition that sec x = (M1)\ncos x\n2 5 2\ncos α = ,sin α = cot x = (A1)\n3 3 5\n2\n4\n3 5 2 5\nfα () = + = 4 +\n5 3 5 3\n3\n295\n= ( = 4.32306... = 4.32 ) A1\n15\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.9",
+    "2.3",
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nConsider the function $f(x) = 4\\cot x + \\sin x$, where $0 < x < \\pi$.\n(a) (i) Write $f(x)$ in terms of $\\sin x$ and $\\cos x$.\n(ii) Hence or otherwise, sketch the graph of $y = f(x)$, showing the value of the $x$-intercept. [3]\n(b) Find the value of $f^{-1}(2)$. [1]\nIt is given that $\\sec\\alpha = 1.5$, where $0 < \\alpha < \\pi$.\n(c) Find the value of $f(\\alpha)$. [3]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 5]\nAt 09:00 a helicopter is located at a point (10 , 3 , 0.5) relative to a point O on horizontal\nground. The x-direction is due east, the y-direction is due north and the z-direction is\nvertically upwards.\nAll distances are measured in kilometres.\nThe helicopter is flying at a constant height.\n� 10 � � 10 �\n� � � �\nThe helicopter’s position relative to the point O is given by r � 3 � 4 t � 25 , where t\n�� �� �� �� represents the time in hours since 09:00 .\n� 0 5 . � � 0 �\n(a) Find the speed of the helicopter.\b [2]\nAt 10:00 the helicopter begins to descend.\nDuring descent the helicopter’s vertical height decreases at a constant rate of 16kmh-1 and\nits horizontal velocity remains unchanged.\nThe angle of descent, b , is defined as the angle between the helicopter’s direction of travel\nand the horizontal.\n(b) Find b , giving your answer in degrees.\b [3]",
+   "ms_text": "7. (a) recognition that the speed is the magnitude of the velocity (M1)\n2 2 speed = 410 +− (25)\n= 107.703...\n= 108 ( = 2029) (km/h) A1\n[2 marks]\n(b) METHOD 1\nattempt to use right-angled triangle with the horizontal speed found in (a) (M1)\n16 4\ntan β = = (A1)\n2029 529\nο β= 8.44984 ()\n() ο β= 8.45 A1\nNote: Award M1A1A0 for answer of 0.147 radians.\nMETHOD 2\n10 10\nattempt to find angle between − 25 and − 25 (M1)\n− 4 0\n10 10\n− 25 γ − 25\n− 4 0 725\nOR cos β = = = 0.989144...\n2 2 2 2 2 10 +− (25) +− (4) 10 +− (25) 741725\n10 10 − 100\n− 25 ×− 25 − 40\n− 4 0 0 4\nsin β = = = = 0.146943... (A1)\n2 2 2 2 2 741725 741 10 +− (25) +− (4) 10 +− (25)\nο β= 8.44984 ()\nο β= 8.45 A1\nMETHOD 3\n10\nattempt to find angle between − 25 and a plane parallel to z = 0 (M1)\n− 4\n10 0\n− 25 γ 0\n− 4 1 4\nsin β = = = 0.146943... (A1)\n2 2 2 10 +− (25) +− (4) 741\nο Note: This could also be written as cos90 ( − β ) = ...\n() ο β= 8.44984\nβ= 8.45 ο A1\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.12",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 5]\nAt 09:00 a helicopter is located at a point $(10, 3, 0.5)$ relative to a point O on horizontal ground. The $x$-direction is due east, the $y$-direction is due north and the $z$-direction is vertically upwards.\nAll distances are measured in kilometres.\nThe helicopter is flying at a constant height.\nThe helicopter's position relative to the point O is given by $\\boldsymbol{r} = \\begin{pmatrix}10\\\\3\\\\0.5\\end{pmatrix} + 4t\\begin{pmatrix}10\\\\-25\\\\0\\end{pmatrix}$, where $t$ represents the time in hours since 09:00.\n(a) Find the speed of the helicopter. [2]\nAt 10:00 the helicopter begins to descend.\nDuring descent the helicopter's vertical height decreases at a constant rate of $16\\text{ km h}^{-1}$ and its horizontal velocity remains unchanged.\nThe angle of descent, $\\beta$, is defined as the angle between the helicopter's direction of travel and the horizontal.\n(b) Find $\\beta$, giving your answer in degrees. [3]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nConsider the functions f , g and h defined as follows for t∈ϒ .\nf(t )=sin(2t+1)\ng(t )=sin(2t+3)\nh(t)=f(t)+g(t)\nShow that h(t )=Im(e2ti(ei+e3i)) .\b (a) [2]\n(b) Write ei+e3i in the form reiq , where r>0 and -p<q≤p .\b [2]\n(c) Hence or otherwise, write h(t ) in the form psin (2t+q) , where p>0 and 0<q<2p .\b [3]",
+   "ms_text": "(a) ( 2 ti ( i 3 i ) ) 8. Ime e + e\n( ( 2 t + 1 ) i ( 2 t + 3 ) i ) A1 = Ime + e\nNote: This A1 is for clearly showing that the powers are added.\nAccept alternative notation for the step of adding the arguments e.g.\n(cos(2) t + i sin(2))(cos(1) t + i sin(1)) = cos(2 t + 1) + i sin(2 t + 1)\n= sin2 ( t + 1 ) + sin2 ( t + 3 ) A1\n= ht () AG\nNote: Accept argument in reverse\n[2 marks]\ni 3 i 2 i\n(b) e + e = 1.08060...e\n2 1.08ei\nA1A1\nNote: Award A1for modulus A1 for argument\nr = 1.08 ( = 2cos(1) ) , θ= 2\n[2 marks]\n(c) METHOD 1\nattempt to use their answers to part (a) and (b) to write () ht as the imaginary part of a\nθ number in the form ei r\n(M1)\n2 ti 2 i ht= () Ime ( ( 1.08060...e ) )\n( ) ( 2 t + 2 i )\n= Im1.08060...e (A1)\nht () = 1.08060...sin(2 t + 2)\n= 1.08sin(2 t + 2) ( = 2cos(1)sin(2 t + 2) ) A1\nMETHOD 2\nConsidering the graph of () ht\namplitude = 1.08060...\np = 1.08 ( = 2cos(1) ) (A1)\nattempt to consider the horizontal shift of the graph of h (M1)\nfirst negative zero of graph is 1 −\n( ) ht () = 1.08060...sin(2( t + 1)) = 1.08060...sin(2 t + 2)\n= 1.08sin(2 t + 2) ( = 2cos(1)sin(2 t + 2) ) A1\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.13",
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nConsider the functions $f$, $g$ and $h$ defined as follows for $t \\in \\mathbb{R}$.\n$f(t) = \\sin(2t+1)$\n$g(t) = \\sin(2t+3)$\n$h(t) = f(t) + g(t)$\n(a) Show that $h(t) = \\mathrm{Im}\\left(e^{2ti}(e^{i} + e^{3i})\\right)$. [2]\n(b) Write $e^{i} + e^{3i}$ in the form $re^{i\\theta}$, where $r > 0$ and $-\\pi < \\theta \\le \\pi$. [2]\n(c) Hence or otherwise, write $h(t)$ in the form $p\\sin(2t+q)$, where $p > 0$ and $0 < q < 2\\pi$. [3]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 6]\ny x Consider the differential equation d 2\n� .\n2 d x x � y\nThe solution curve passes through the point (1,0) .\nUse Euler’s method with a step value of 0.25 to estimate the value of y when x=2 .\b (a) [3]\nPart of the solution curve is shown in the following diagram.\ny\nx\n0 1\n(b) (i) \u0007Determine whether your answer to part (a) is an overestimate or an\nunderestimate, justifying your answer.\n(ii) Justify why the use of Euler’s method starting at (1,0) does not lead to an\nestimate of the negative value of y when x=2 .\b [3]",
+   "ms_text": "9. (a) attempt to use Euler’s method with a step of 0.25 (M1)\n2 x\n( = + ) = + n x x 0.25, y y 0.25\nn + 1 n n + 1 n 2\nx + y\nn n\n( y = 0 )\n0\n= 0.5 y\n1 (A1)\ny = 0.803030...\n2\ny = 1.04868...\n3\nNote: Award (A1) for at least two correct intermediate values given to 3sf.\nIf x = 2, y = 1.26152...\ny = 1.26 A1\n[3 marks]\n(b) (i) The estimate will be an overestimate A1\nbecause the tangents to the curve lie above the curve (the curve is concave\ndown). R1\n(ii) The gradient of the curve (at (1,0) ) is positive (so the method works in the\ndirection of the upper part of the curve). R1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 6]\nConsider the differential equation $\\frac{dy}{dx} = \\frac{2x}{x^2 + y}$.\nThe solution curve passes through the point $(1, 0)$.\n(a) Use Euler's method with a step value of 0.25 to estimate the value of $y$ when $x = 2$. [3]\nPart of the solution curve is shown in the following diagram.\n[Graph: solution curve through (1, 0); upper branch rising and concave down for y > 0, lower branch curving down for y < 0]\n(b) (i) Determine whether your answer to part (a) is an overestimate or an underestimate, justifying your answer.\n(ii) Justify why the use of Euler's method starting at $(1, 0)$ does not lead to an estimate of the negative value of $y$ when $x = 2$. [3]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 16]\nRectangular playing cards are stacked in the shape of a pyramid with n rows, where n≥1 .\nSome cards are placed horizontally and some cards are stacked at an angle of 60° to\nthe horizontal.\nThe following diagrams represent pyramid stacks for n=1 , n=2 and n=3 .\nn= 1 n= 2 n= 3\nLet tn represent the number of cards used to create a pyramid stack with n rows.\n(a) Write down t3 .\b [1]\n(b) Find t4 .\b [2]\nn ( 3 n � 1 )\n(c) Show that t n� .\b [3]\n2\nThere are 52 cards in a full pack of playing cards.\n(d) A complete pyramid stack is created using playing cards taken from 14 full packs.\nFind the maximum number of rows in this stack.\b [3]\n(e) A complete pyramid stack is created using playing cards taken from full packs with no\ncards left over. Find the minimum number of rows in this stack.\b [2]\nThe long edge of each playing card measures 88mm as illustrated in the following diagram.\n88mm\n(f) Find the minimum number of cards needed to create a complete pyramid stack with a\nvertical height of more than 2 metres. The thickness of the cards may be ignored.\b [5]",
+   "ms_text": "10. (a) 15 A1\n[1 mark]\n(b) attempt to add 11 cards onto a stack with 3 rows OR attempt to consider all 4 rows (M1)\nvalid diagram with 4 rows OR 4 t= 1511 + OR 4 t= 2 +++ 5 811\n= 26 A1\n[2 marks]\n(c) METHOD 1\nrecognition that ntis a sum of an arithmetic sequence (M1)\n+++ + nt= 2 5 811...\nattempt to use formula for the sum of n terms of an arithmetic sequence M1\nn\nt = ( 22 () + 3( n − 1) ) A1\nn\n2\nn\n( ) t = 3 n + 1 AG\nn\n2\nMETHOD 2\nattempt to split ntinto the total number of stacked and horizontal cards (M1)\nn n\n( ) ( ) stacked 2 + 4 + 6 + ... = 4 + 2( n − 1) = 2 n + 2 A1\n2 2\nn n\nhorizontal 0 ++ 1 2 + ... = ( 0 + 1( − 1) ) = ( − 1 ) n n A1\n2 2\nn n n n\nt = ( 4 + 2( n − 1) ) + ( 0 + 1( n − 1) ) = ( 2 n + 2 ) + ( n − 1 )\nn\n2 2 2 2\nn\nt = ( 3 n + 1 ) AG\nn\n2\nMETHOD 3\nrecognition that a stack with n rows is made up of complete triangles with the bottom row\nof horizontal cards removed and that the numbers of complete triangle cards form an\narithmetic sequence (M1)\n( ) = + ++ + + − nt = 3 + 6 + 912 + + ... + 3 n − n OR nt 3(12 3 4 ... n ) n\nattempt to use formula for the sum of n terms of an arithmetic sequence M1\nn n\n= ( () + − ) − =× ( + ) − t 23 3( n 1) n OR t 3 1 n n A1\nn n\n2 2\nn\nt = ( 3 n + 1 ) AG\nn\n2\n[3 marks]\nn (3 n + 1)\n≤ 14(52) ( = 728 ) (d) attempt to solve (M1)\n2\nNote: Accept an attempt to solve an equation for (M1).\n21.8642... OR n = 21, t = 672 and n = 22, t = 737 (A1)\nn n\nmax number of rows is 21 A1\n[3 marks]\n(e) EITHER\nattempt to solve by listing at least six values of nt (M1)\n2,7,15,26,40,57...\nOR\n1(3 n n + 1)\n2\nrecognition that must be an integer (M1)\n52\n1(3 n + 1) = 52 where is an integer k ( k )\n2n\nTHEN\nmin number of rows is 13 A1\nNote: Award (M1)A0for an answer of 5 packs.\nAward M0A0 for any answer resulting from solving 1(3 n + 1) = 52\n.\n2n\n[2 marks]\n(f) EITHER\nattempt to use Pythagoras’s Theorem or trigonometry to find the height of an equilateral\ntriangle with sides 88mm (M1)\n2 2\nheight= 88 − 44 OR 88sin60οOR 88cos30οOR 44tan60οOR\n44\n443 ( = 76.2102... ) (A1)\ntan30οOR\nattempt to solve 44 n 3 > 2000 OR their perpendicular height × n > 2000 (M1)\nNote: Accept an attempt to solve an equation for (M1).\nOR\nattempt to use trigonometry to find the side of an equilateral triangle with height 2000mm\n(M1)\n4000\nside= 2000 ( )\nsin 60οOR 2000 = 2309.40... (A1)\ncos30οOR\n3\nattempt to solve 88 n > 2309.40... OR 88 n > their side (M1)\nNote: Accept an attempt to solve an equation for (M1).\nTHEN\nn > 26.2431...\nso min number of rows is 27 (A1)\nt = 1107 A1\n27\n[5 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "1.2",
+    "2.7",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 16]\nRectangular playing cards are stacked in the shape of a pyramid with $n$ rows, where $n \\ge 1$.\nSome cards are placed horizontally and some cards are stacked at an angle of $60^\\circ$ to the horizontal.\nThe following diagrams represent pyramid stacks for $n = 1$, $n = 2$ and $n = 3$.\n[Diagram: card pyramids; n = 1 uses 2 leaning cards, n = 2 uses 7 cards, n = 3 uses 15 cards, with horizontal cards between rows]\nLet $t_n$ represent the number of cards used to create a pyramid stack with $n$ rows.\n(a) Write down $t_3$. [1]\n(b) Find $t_4$. [2]\n(c) Show that $t_n = \\frac{n(3n+1)}{2}$. [3]\nThere are 52 cards in a full pack of playing cards.\n(d) A complete pyramid stack is created using playing cards taken from 14 full packs. Find the maximum number of rows in this stack. [3]\n(e) A complete pyramid stack is created using playing cards taken from full packs with no cards left over. Find the minimum number of rows in this stack. [2]\nThe long edge of each playing card measures 88 mm as illustrated in the following diagram.\n[Diagram: two cards leaning against each other, long edge labelled 88 mm]\n(f) Find the minimum number of cards needed to create a complete pyramid stack with a vertical height of more than 2 metres. The thickness of the cards may be ignored. [5]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 19]\nIn a marathon race, the random variable T represents the time, in hours, taken for a runner\nto complete the race. No runner completes the race in less than 2.25 hours, and no runner\ncompletes it in more than 7.5 hours.\nThe probability density function for T is modelled by f , defined by\n� 4 � 4 � � � �\n� cos � t � 2 25 . � , 2 25 . �� t 4 5 . �\n211 �� �� �� ��\n9\n�\n�� 4 � � � � �\nft � � � t � � �� t () � cos 4 5 . , 4 5 . 7 5 .\n211 �� �� �� ��\n3 �\n� 0 , otherwise.\n�\n� �\nThe graph of f has a maximum point at t=4.5 as shown in the following diagram:\ny\n0.4\ny=f(t)\nt\n2.25 4.5 7.5\n4 5 .\n(a) (i) Find the value of ft () d t . ∫\n2 25 .\nWrite down the mode of T . (ii)\n(iii) Determine which is greater, the mode of T or the median of T , justifying\nyour answer.\b [4]\nThe runners who finish the race in 3.5 hours or less are considered to be fast runners.\n(b) Find the probability that a runner chosen at random is a fast runner.\b [2]\n(c) Find the probability that a fast runner chosen at random finishes the race in 3 hours\nor less.\b [3]\n(d) Find the lower quartile of T .\b [3]\nEach runner’s time is converted to a score which is calculated as a-bt , where t represents\ntheir time in hours, and a , b>0 .\nConsider the random variable P which represents the score of a runner. It is given\nthat E(P )=100 and the maximum possible score is 150 .\n(e) Use E(T )=4.723 to determine the value of a and the value of b , giving your answers\nto the nearest integer.\b [5]\n(f) Given also that Var(T)=0.906 , find Var(P) .\b [2]",
+   "ms_text": "4.5\n4 4π\n11. (a) (i) 1 − cos ( t − 2.25 ) d t ∫\n21 9\n2.25\n3\n= ( = 0.428571... = 0.429 ) A1\n7\n(ii) mode of T= 4.5 A1\n(iii) the median is greater A1\nOR P( T> 4.5) > 0.5 OR ( P T < 4.5 ) < P ( T > 4.5 ) = P( T< 4.5) < 0.5 OR median 4.69 R1\nNote: Accept reference to areas rather than probabilities.\n[4 marks]\n(b) recognition of the need to integrate f (M1)\n3.5\n∫ ft ()d t\n2.25\n= … 0.103749\n= 0.104 A1\n[2 marks]\n(c) attempt to use formula for conditional probability in context (M1)\nP( T≤ 3) T ≤ 3) OR P( OR P(very fast)\n(accept strict inequality signs)\nP(fast) P( T ≤ 3.5) P(fast)\n0.0247152...\n= (A1)\n0.103749...\n= 0.238220...\n= 0.238 A1\n[3 marks]\nq\n(d) recognition that the lower quartile q is the value such that ft ()d t = 0.25 ∫ (M1)\n2.25\nq\n4 4π\n1cos − ( t − 2.25 ) d t = 0.25 ∫ (A1)\n21 9\n2.25\nNote: Condone the absence of dt for this A1.\nq\n4 9 4π\nt − sin ( t − 2.25 ) = 0.25\n21 4π 9\n2.25\nq = 4.01290...\nq = 4.01 A1\n[3 marks]\n(e) attempt to find the expected value for a transformed linear variable (M1)\nE () P = E ( a − bT ) = a − b E () T\n− = a 4.723 b 100 (A1)\nrecognition that max score is achieved with fastest time t = 2.25 (M1)\nmaximum score a − 2.25 b = 150 (A1)\na = 195.491..., b = 20.2183...\na = 195 , b = 20 A1\nNote: these values must be given to the nearest integer for the A1 to be awarded.\n[5 marks]\n(f) attempt to find variance for a transformed linear variable (M1)\n2 Var () P = Var ( a − bT ) = b Var () T\n2 0.90620.2183... ( ) = 370.356...\nVar () P= 370 A1\nNote: accept any answer which rounds to any value between 362and 370inclusive\nbased on use of less accurate values of b .\n[2 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.11",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 19]\nIn a marathon race, the random variable $T$ represents the time, in hours, taken for a runner to complete the race. No runner completes the race in less than 2.25 hours, and no runner completes it in more than 7.5 hours.\nThe probability density function for $T$ is modelled by $f$, defined by\n$f(t) = \\begin{cases} \\frac{4}{21}\\left(1 - \\cos\\left(\\frac{4\\pi}{9}(t-2.25)\\right)\\right), & 2.25 \\le t < 4.5 \\\\ \\frac{4}{21}\\left(1 + \\cos\\left(\\frac{\\pi}{3}(t-4.5)\\right)\\right), & 4.5 \\le t \\le 7.5 \\\\ 0, & \\text{otherwise.} \\end{cases}$\nThe graph of $f$ has a maximum point at $t = 4.5$ as shown in the following diagram:\n[Graph: y = f(t), zero until t = 2.25, rising to a maximum of about 0.4 at t = 4.5, falling to zero at t = 7.5]\n(a) (i) Find the value of $\\int_{2.25}^{4.5} f(t)\\,dt$.\n(ii) Write down the mode of $T$.\n(iii) Determine which is greater, the mode of $T$ or the median of $T$, justifying your answer. [4]\nThe runners who finish the race in 3.5 hours or less are considered to be fast runners.\n(b) Find the probability that a runner chosen at random is a fast runner. [2]\n(c) Find the probability that a fast runner chosen at random finishes the race in 3 hours or less. [3]\n(d) Find the lower quartile of $T$. [3]\nEach runner's time is converted to a score which is calculated as $a - bt$, where $t$ represents their time in hours, and $a, b > 0$.\nConsider the random variable $P$ which represents the score of a runner. It is given that $E(P) = 100$ and the maximum possible score is 150.\n(e) Use $E(T) = 4.723$ to determine the value of $a$ and the value of $b$, giving your answers to the nearest integer. [5]\n(f) Given also that $\\mathrm{Var}(T) = 0.906$, find $\\mathrm{Var}(P)$. [2]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 20]\nn r\n2\nConsider the family of functions fn defined by f () � x �� 2 x � , where x∈ϒ and n∈∞ .\nn ��\nr 0\n(a) Show that fn is an even function for all values of n .\b [3]\n(b) (i) Show that f3(x)=1-2x2+4x4-8x6 .\n(ii) Write down a similar expression for f4(x) in ascending powers of x .\b [2]\nConsider the function fx () � lim f () x defined over the domain -k<x<k where k>0 .\nn n ��\nThe largest possible value of k is K .\n(c) (i) Find the value of K , giving your answer in exact form.\n1\n(ii) Express f(x) as a rational function in the form , where a and b are\n2 a + bx\nconstants to be determined.\b [5]\nThe function g is defined as g(x)=f(x) for 0≤x<K .\n(d) (i) Justify that g-1 exists.\n(ii) Find g-1(x) , giving its domain.\b [6]\nThe region R is completely enclosed by the curves y=g(x) , y=g-1(x) and\nthe x- and y-axes, as shown on the following diagram.\ny\ny = g(x)\nR\ny = g−1(x)\nx\n(e) Find the area of R .\b [4]\n\b",
+   "ms_text": "12. (a) attempt to replace x with x − M1\nn r\n( 2 ) 2 2 f ( − x ) = ∑ − 2 ( − x ) OR − 2 ( − x ) = − 2 x (seen anywhere) A1\nn\nr = 0\nf ( − x ) = f () x A1\nn n\nso nf is even for all values of n AG\n[3 marks]\n2 3 2 2 2\n(b) (i) f 3() x =− 12 x +− ( 2 x ) +− ( 2 x ) A1\n2 4 6 =− 12 x + 4 x − 8 x\nAG\n2 4 6 8\n(ii) =− 12 x + 4 x − 8 x + 16 x A1\n[2 marks]\n2 (c) (i) recognition of geometric series with common ratio − 2x (M1)\n1\n2 2 converges for − 2 x < 1 ⇒ x <\n(A1)\n2\n1 1 2 2\n− < x < ⇒− < x <\n2 2 2 2\n1 2\nlargest K = = A1\n2 2\n2\n(ii) use of formula for S∞ of a geometric series with first term 1, common ratio − 2x (M1)\n1\nfx () =\n2 1 −− ( 2 x )\n1\n( fx () = ) A1\n2 1 + 2 x\na = 1, b = 2\n[5 marks]\n(d) (i) g is a one-to-one function (A1)\nsince g is a (strictly) decreasing function OR g has no points of zero gradient\n(turning points) R1\nattempt to rearrange and swop x and y(at any stage) (ii) (M1)\n1\n2 x = ⇒ x + 2 xy = 1\n2 12 + y\n1 − x 2\n= (A1) y\n2 x\n1 − x\ny = ±\n2 x\n1 − x −\n1 g () x =\nA1\n2 x\n− 1\ng () x Note: Award A0 if is missing.\n1\nAward FT A1marks only if f is of the correct form fx () =\n2 a + bx\n(domain) 1 < x ≤ 1 A1\n2\nNote: This A1 can be awarded independently.\n[6 marks]\n(e)\nNote: Throughout part (e), do not award A1 marks as FT from part (d)\nMETHOD 1\nx = 0.5897545107... curves intersect at (A1)\nattempt to add the areas to the left and to the right of the point of intersection (M1)\n0.589... 1 0.589... 1\n1 1 − x −\n1 gx ()d x + g ()d x x = d x + d x\n∫ ∫ ∫ ∫\n1 + 2 2 2 x x\n0 0.589... 0 0.589...\n= 0.491548... + 0.143738... (A1)\nNote: Award A1 for one correct value seen, dependent on (M1)\n= 0.635286...\n= Area of R 0.635 A1\nMETHOD 2\ncurves intersect at x = 0.5897545107... (A1)\nand y = x attempt to find the area between y = gx () to the left of the point of\nintersection (M1)\n0.589... 0.589... 0.589...\n1\n∫ gx ()d x − ∫ xx d = ∫ − x d x 2\n1 + 2 x\n0 0 0\n= 0.317643... (A1)\n20.3176432617... ( ) = 0.635286...\nArea of R = 0.635 A1\nMETHOD 3\ncurves intersect at x = 0.5897545107... A1\n−\nattempt to find the area under y = g 1() x and y = x to the right of the point of\nintersection and the area of a square of side x = 0.589... (M1)\n1 1 −\n− 1 x 0.589... 2 + 2 g 1 ()d x x = 0.589... 2 + 2 d x\n∫ ∫\n2 x\n0.589... 0.589...\n= 0.347810... + 20.143738... ( ) A1\nNote: Award A1 for 0.143..seen, dependent on (M1)\n= 0.635286...\nArea of R = 0.635 A1\n[4 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "2.5",
+    "1.8",
+    "2.14",
+    "5.11",
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 20]\nConsider the family of functions $f_n$ defined by $f_n(x) = \\sum_{r=0}^{n}\\left(-2x^2\\right)^r$, where $x \\in \\mathbb{R}$ and $n \\in \\mathbb{N}$.\n(a) Show that $f_n$ is an even function for all values of $n$. [3]\n(b) (i) Show that $f_3(x) = 1 - 2x^2 + 4x^4 - 8x^6$.\n(ii) Write down a similar expression for $f_4(x)$ in ascending powers of $x$. [2]\nConsider the function $f(x) = \\lim_{n\\to\\infty} f_n(x)$ defined over the domain $-k < x < k$ where $k > 0$.\nThe largest possible value of $k$ is $K$.\n(c) (i) Find the value of $K$, giving your answer in exact form.\n(ii) Express $f(x)$ as a rational function in the form $\\frac{1}{a + bx^2}$, where $a$ and $b$ are constants to be determined. [5]\nThe function $g$ is defined as $g(x) = f(x)$ for $0 \\le x < K$.\n(d) (i) Justify that $g^{-1}$ exists.\n(ii) Find $g^{-1}(x)$, giving its domain. [6]\nThe region $R$ is completely enclosed by the curves $y = g(x)$, $y = g^{-1}(x)$ and the $x$- and $y$-axes, as shown on the following diagram.\n[Diagram: shaded region R in the first quadrant bounded by the y-axis, the x-axis, the decreasing curve y = g(x) from the y-axis and y = g^{-1}(x) down to the x-axis, the two curves meeting at a point]\n(e) Find the area of $R$. [4]"
+  }
+ ],
+ "status": "done"
+}

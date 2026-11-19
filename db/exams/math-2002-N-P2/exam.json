@@ -1,0 +1,272 @@
+{
+ "exam_id": "math-2002-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2002,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2002 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2002 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); marks sum matches expected total 100",
+ "qp_pages": 11,
+ "questions": [
+  {
+   "id": "math-2002-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 16]\n(i) A sequence {} is defined by u = 1, u = 2, u = 3 u − 2 u where n ∈ Z + . nu\n0 1 n + 1 n n − 1\n(a) Find u , u , u . [3 marks]\n2 3 4\n(b) (i) Express nu in terms of n.\n(ii) Verify that your answer to part (b)(i) satisfies the equation\n= − . [3 marks] u 3 u 2 u\nn + 1 n n − 1\n2 − 1\n(ii) The matrix Mis defined as M = .\n1 0\n(a) Find M 2 , M 3 and M 4 . [3 marks]\n(b) (i) State a conjecture for n , i.e. express M n in terms of M\n+ n , where n ∈Z .\n(ii) Prove this conjecture using mathematical induction. [7 marks]",
+   "ms_text": "1. (i) (a) u = 3(2) − 2(1) u = 3(4) − 2(2) u = 3(8) − 2(4)\n2 3 4\nu= 4 u= 8 u= 16 (A1)(A1)(A1)\n2 3 4\n[3 marks]\n(b) (i) Conjecture is u= 2n (C1)\nn\nn n − 1 (ii) 3( u ) − 2( u ) = 3(2) − 2(2 ) (M1)\nn n − 1\nn n = 3(2) − 2\nn = 2(2)\n= 2n+ 1 (A1)\n= u+ (AG)\nn 1\n[3 marks]\n3 − 2\n(ii) (a) 2 M = (A1)\n2 − 1\n4 − 3\n3 M\n= (A1)\n3 − 2\n5 − 4\n4 M\n= (A1)\n4 − 3\n[3 marks]\nn + 1 − n\nn + (b) M = for n ∈ Z\n(C1)\nn 1 − n\nn + 1 − n\nn Let P(n) be the statement M\n=\nn 1 − n\n11 + − 1\n1 M\n= (M1)\n1 11 −\n2 − 1\n= (AG)\n1 0\nTherefore, P(1) is true.\nk + 1 − k\nAssume P(k) is true, i.e. M k = (M1)\n− k 1 k\nk 1 k M += M ⋅ M\nk + 1 − k 2 − 1\n= (M1)\nk 1 − k 1 0\n2 k + 2 − k −− k 1\n= (A1)\n2 k +− 1 k − k\n( k + 1) + 1 − ( k + 1)\n= (A1)\n+ − + k 1 1( k 1)\nTherefore, the truth of P(k) implies the truth of P(k+ 1).\nSo by the induction hypothesis\n+ − n 1 n +\nn = ∈ Z . M , n\n(R1)\nn 1 − n\n[7 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "6"
+   ],
+   "subtopics": [
+    "1.15",
+    "6.10",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 16]\n(i) A sequence $\\{u_n\\}$ is defined by $u_0=1, u_1=2, u_{n+1}=3u_n-2u_{n-1}$ where $n\\in\\mathbb{Z}^+$.\n(a) Find $u_2, u_3, u_4$. [3 marks]\n(b) (i) Express $u_n$ in terms of $n$.\n(ii) Verify that your answer to part (b)(i) satisfies the equation $u_{n+1}=3u_n-2u_{n-1}$. [3 marks]\n(ii) The matrix $M$ is defined as $M=\\begin{pmatrix}2&-1\\\\1&0\\end{pmatrix}$.\n(a) Find $M^2$, $M^3$ and $M^4$. [3 marks]\n(b) (i) State a conjecture for $M^n$, i.e. express $M^n$ in terms of $n$, where $n\\in\\mathbb{Z}^+$.\n(ii) Prove this conjecture using mathematical induction. [7 marks]",
+   "review_note": "Pre-2006 Section A core question; recurrence part tagged 6.10 (solved by pattern/verification)."
+  },
+  {
+   "id": "math-2002-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 11,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 11]\n2 3\nπ π π π\ncos − isin cos + isin\n4 4 3 3\nConsider the complex number z = .\n4\nπ π\ncos − isin\n24 24\n(a) (i) Find the modulus of z.\n(ii) Find the argument of z, giving your answer in radians. [4 marks]\n3 1 (b) Using De Moivre’s theorem, show that z is a cube root of one, i.e. z = . [2 marks]\n+ + 2 , expressing your answer in the form a+bi, (c) Simplify (1 2)(2 z z )\nwhere a and b are exact real numbers. [5 marks]",
+   "ms_text": "2 3\nπ π π π\ncos − isin cos + isin\n4 4 3 3\n2. z =\n4\nπ π\ncos − isin\n24 24\n(a) (i) z= 1 (A1)\n2 3\n− π − π π π\ncos + isin cos + isin\n4 4 3 3\n(ii) z = (M1)\n4\n− − π π\ncos + isin\n24 24\n− π π − π\narg z = 2 + 3 − 4 (M1)\n4 3 24\n− π π\n= + + π\n2 6\n2π\n= (A1)\n3\nOR\n2π\nz = arg or 2.09 radians (G3)\n3\n[4 marks]\n3\n2π 2π 3\n(b) z = 1cos + isin (M1)\n3 3\n= cos2π + isin2π (M1)\n=+ 1 0i\n= 1 (AG)\n[2 marks]\n2 2 3 (c) (1 + 2)(2 z + z ) = 2 + z + 4 z + 2 z\n2 3 = 2 + z + 4 z + 2(since z = 1) (M1)\n2 = 4 + z + 4 z\nOR\n2 = 4 + z + 4 z\n4π 4π 2π 2π\n4 + cos + i sin + 4cos + 4sin i (M1)(A1)\n3 3 3 3\n3 33 i\n+ (A1)(A1)\n2 2\n2 =+ 1 z + z + 3 + 3 z\n= + + + 2 = 3 3 z (since1 z z 0) (M1)\n2π 2π\n= + + 3 3cos isin (M1)\n3 3\n1 i3\n= 3 + 3 − + (A1)\n2 2\n3 33 i\n= + (A1)\n2 2\n[5 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 11]\nConsider the complex number $z=\\dfrac{\\left(\\cos\\frac{\\pi}{4}-\\mathrm{i}\\sin\\frac{\\pi}{4}\\right)^2\\left(\\cos\\frac{\\pi}{3}+\\mathrm{i}\\sin\\frac{\\pi}{3}\\right)^3}{\\left(\\cos\\frac{\\pi}{24}-\\mathrm{i}\\sin\\frac{\\pi}{24}\\right)^4}$.\n(a) (i) Find the modulus of $z$.\n(ii) Find the argument of $z$, giving your answer in radians. [4 marks]\n(b) Using De Moivre's theorem, show that $z$ is a cube root of one, i.e. $z=\\sqrt[3]{1}$. [2 marks]\n(c) Simplify $(1+2z)(2+z^2)$, expressing your answer in the form $a+b\\mathrm{i}$, where $a$ and $b$ are exact real numbers. [5 marks]"
+  },
+  {
+   "id": "math-2002-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 14]\n(a) On the same axes sketch the graphs of the functions fx () and gx () , where\n2 fx () = 4 − (1 − x ),for − 2 ≤ x ≤ 4 ,\ngx () = ln ( x + 3) − 2,for − 3 ≤ x ≤ 5 . [2 marks]\n(b) (i) Write down the equation of any vertical asymptotes.\n(ii) State the x-intercept and y-intercept of gx () . [3 marks]\n(c) Find the values of x for which fx () = gx () . [2 marks]\n(d) Let A be the region where fx () ≥ gx () and x ≥ 0 .\n(i) On your graph shade the region A.\n(ii) Write down an integral that represents the area of A.\n(iii) Evaluate this integral. [4 marks]\n(e) In the region A find the maximum vertical distance between fx () and gx () . [3 marks]",
+   "ms_text": "3. (a) (A1)(A1)\n[(d) (A1)] (i) A\nNote: Award (A1) for showing the basic shape of fx () .\nAward (A1) for showing both the vertical asymptote and the basic shape of gx () .\n[2 marks]\n(b) (i) x = − 3 is the vertical asymptote. (A1)\n2 (ii) x-intercept: x= 4.39 (e = − 3) (G1)\ny-intercept: y= –0.901 (ln3 = − 2) (G1)\n[3 marks]\n(c) fx () = gx ()\n= − = x 1.34or x 3.05 (G1)(G1)\n[2 marks]\n(d) (i) See graph\n3.05 2\n(ii) Area of A = ( 4 − (1 − x ) )( − ln( x + 3) − 2d ) x (M1)(A1) ∫\n0\n(iii) Area of A= 10.6 (G1)\n[4 marks]\n(e) y = fx () − gx ()\n= + − 2 − + y 5 2 x x ln( x 3)\nd y 1\n= 2 − 2 x − (M1)\n+ d x x 3\ny Maximum occurs when d\n0 x=\nd\n1\n2 − 2 x =\nx + 3\n− − 2 = 5 4 x 2 x 0\nx= 0.871 (A1)\ny= 4.63 (A1)\nOR\nVertical distance is the difference fx () − gx () . (M1)\nMaximum of fx () − gx () occurs at x= 0.871. (G1)\nThe maximum value is 4.63. (G1)\n[3 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.4",
+    "5.11",
+    "5.8",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 14]\n(a) On the same axes sketch the graphs of the functions $f(x)$ and $g(x)$, where\n$f(x)=4-(1-x)^2$, for $-2\\le x\\le 4$,\n$g(x)=\\ln(x+3)-2$, for $-3\\le x\\le 5$. [2 marks]\n(b) (i) Write down the equation of any vertical asymptotes.\n(ii) State the $x$-intercept and $y$-intercept of $g(x)$. [3 marks]\n(c) Find the values of $x$ for which $f(x)=g(x)$. [2 marks]\n(d) Let $A$ be the region where $f(x)\\ge g(x)$ and $x\\ge 0$.\n(i) On your graph shade the region $A$.\n(ii) Write down an integral that represents the area of $A$.\n(iii) Evaluate this integral. [4 marks]\n(e) In the region $A$ find the maximum vertical distance between $f(x)$ and $g(x)$. [3 marks]"
+  },
+  {
+   "id": "math-2002-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 14]\n(i) Consider the points A(1, 3, − 17) and B(6, − 7, 8) which lie on the line l.\n(a) Find an equation of line l, giving the answer in parametric form. [4 marks]\n→\n(b) The point P is on l such that OP is perpendicular to l.\nFind the coordinates of P. [3 marks]\n2 2 d y 3 y + x\n(ii) Consider the differential equation = , for x > 0 .\nd x 2 xy\n2 d v 3 v + 1\n(a) Use the substitution y=vx to show that v + = .\nxx\nd 2 v [3 marks]\nHence find the solution of the differential equation, given that y= 2 (b)\nwhen x= 1. [4 marks]",
+   "ms_text": "5\n→\n4. (i) (a) AB =− 10 . Direction vector of line is 1:2:5 − .\n25 (Accept any multiple of 1:2:5 − ) (M1)\nTherefore the equation of l in parametric form is\nx = λ + 1, y = − 2 λ + 3, z = 5 λ − 17 (A1)(A1)(A1)\n= λ + = − λ − = λ + (or x 6, y 2 7, z 5 8 , or any equivalent parametric form)\n[4 marks]\n(b) P on ⇒ can be written as ( p + 1, − 2 p + 3, 5 p − 17) . � P\np + 1 1\n→\n⊥ ⇒− + ⋅− = OP � 2 p 3 2 0 (M1)\n5 p − 17 5\np ++ 1 4 p − 6 + 25 p − 85 = 0 (A1)\np = ⇒ = 30 90 p 3\nTherefore P is (4, − − 3, 2) (A1)\n[3 marks]\nd y d v\n= ⇒ = + (ii) (a) y vx v x (M1)\nd x d x\nd y (3 y 2 + x 2 ) ÷ x 2\nConsider = (M1)\n2 d x 2 xy ÷ x\n2 3 y\n+ 1\n2 y\n= x = ⇒ = y vx v\n2 y x\nx\n2 3 v + 1\n= (A1)\n2 v\nd y d v 3 v 2 + 1\nTherefore = v + x = (AG)\nd x d x 2 v\n[3 marks]\n2 2 d v 3 v + 1 d v v + 1\n(b) x = − v , =\nxx\nd x 2 v d 2 v\nd x 2 v\n= d v (M1) ∫ ∫\nx v 2 + 1\n2 ln x + ln C = ln( v + 1) (A1)\ny = 2, x =⇒ 1 ln C = ln5 (A1)\n2 y\nln x + ln5 = ln + 1 (A1)\n2 x\n2 y\n5 x = + 1 or5 x 3 = y 2 + x 2 or y = x 5 x − 1 (or or any equivalent form.)\n2 x\nNote: Do not penalize if the answer is given as y = ± x 5 x − 1 .\n[4 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.13",
+    "5.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 14]\n(i) Consider the points $A(1,3,-17)$ and $B(6,-7,8)$ which lie on the line $l$.\n(a) Find an equation of line $l$, giving the answer in parametric form. [4 marks]\n(b) The point P is on $l$ such that $\\vec{OP}$ is perpendicular to $l$. Find the coordinates of P. [3 marks]\n(ii) Consider the differential equation $\\dfrac{dy}{dx}=\\dfrac{3y^2+x^2}{2xy}$, for $x>0$.\n(a) Use the substitution $y=vx$ to show that $v+x\\dfrac{dv}{dx}=\\dfrac{3v^2+1}{2v}$. [3 marks]\n(b) Hence find the solution of the differential equation, given that $y=2$ when $x=1$. [4 marks]"
+  },
+  {
+   "id": "math-2002-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 15]\n(a) At a building site the probability, P() A , that all materials arrive on time is\n0.85. The probability, P() B , that the building will be completed on\ntime is 0.60. The probability that the materials arrive on time and that\nthe building is completed on time is 0.55.\n(i) Show that events A and B are not independent.\n(ii) All the materials arrive on time. Find the probability that the\nbuilding will not be completed on time. [5 marks]\n(b) There was a team of ten people working on the building, including three\nelectricians and two plumbers. The architect called a meeting with five\nof the team, and randomly selected people to attend. Calculate the\nprobability that exactly two electricians and one plumber were called to\nthe meeting. [2 marks]\n(c) The number of hours a week the people in the team work is normally\ndistributed with a mean of 42 hours. 10 % of the team work 48 hours\nor more a week. Find the probability that both plumbers work more\nthan 40 hours in a given week. [8 marks]",
+   "ms_text": "5. (a) (i) To be independent P( A ∩ B ) = P() A × P() B (R1)\nP() A × P() B = (0.85)(0.60)\n= 0.51 (A1)\nbut P( A ∩ B ) = 0.55\nP( A ∩ B ) ≠ P() A × P() B\nHence A and B are not independent. (AG)\n(ii)\nB A\n0.30 0.55 0.05\n0.10\nP( B ′∩ A )\nP ( BA ′ ) = (M1)\nP() A\n0.30\n= (M1)\n0.85\n6\n= (= 0.353) (A1)\n17\n[5 marks]\n3 2 5\n2 1 2\n(b) Probability of 2 electricians and 1 plumber = (M1)\n10\n5\n60 5\n= = = 0.238 (A1)\n252 21\nOR\n5! 3 2 2 5 4\nProbability of 2 electricians and 1 plumber = (M1)\n2!2!10 9 8 7 6\n5(0.238) = = (A1)\n21\n[2 marks]\nX= number of hours worked. (c)\n2 X ∼ N(42, σ )\nP( X≥ 48) = 0.10 (AG)\nP( X< 48) = 0.90 (M1)\nΦ () z = 0.90\nz = 1.28 (A1)\n( z = 1.28155)\n(Answers given to more than 3 significant figures will be accepted.)\nX − µ 48 − 42\n= ⇒ = z 1.28 (M1)\nσ σ\n⇒ σ = 4.69 (Accept σ= 4.68 ) (A1)\n40 − 42\n> = > P( X 40) P Z (M1)\n4.69\n= 0.665 (A1)\nOR\nP( X> 40) = 0.665 (G2)\nTherefore, the probability that one plumber works more than 40 hours per week is\n0.665.\nThe probability that both plumbers work more than 40 hours per week\n= (0.665) 2 (M1)\n= 0.443 (Accept 0.442 or 0.444) (A1)\n[8 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9",
+    "4.11",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 15]\n(a) At a building site the probability, $P(A)$, that all materials arrive on time is 0.85. The probability, $P(B)$, that the building will be completed on time is 0.60. The probability that the materials arrive on time and that the building is completed on time is 0.55.\n(i) Show that events $A$ and $B$ are not independent.\n(ii) All the materials arrive on time. Find the probability that the building will not be completed on time. [5 marks]\n(b) There was a team of ten people working on the building, including three electricians and two plumbers. The architect called a meeting with five of the team, and randomly selected people to attend. Calculate the probability that exactly two electricians and one plumber were called to the meeting. [2 marks]\n(c) The number of hours a week the people in the team work is normally distributed with a mean of 42 hours. 10% of the team work 48 hours or more a week. Find the probability that both plumbers work more than 40 hours in a given week. [8 marks]"
+  },
+  {
+   "id": "math-2002-N-P2-q6",
+   "num": "6",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 30]\nGive your answers to four significant figures.\n(i) A machine produces cloth with some minor faults. The number of\nfaults per metre is a random variable following a Poisson distribution\nwith a mean 3. Calculate the probability that a metre of the cloth\ncontains five or more faults. [4 marks]\n(ii) The following is a random sample of 16 measurements of the density of\naluminium. Assume that the measurements are normally distributed.\n2.704 2.709 2.711 2.706\n2.708 2.705 2.709 2.701\n2.705 2.707 2.710 2.700\n2.703 2.699 2.702 2.701\nConstruct a 95 % confidence interval for the density of aluminium,\nshowing all steps clearly. [6 marks]\n(iii) A die is thrown 120 times with the following results.\nscore 1 2 3 4 5 6\nfrequency 27 12 16 25 26 14\n(a) Showing all steps clearly, test whether the die is fair\n(i) at the 5 % level of significance.\n(ii) at the 1% level of significance. [7 marks]\n(b) Explain what is meant by “level of significance” in part (a). [3 marks]\n(iv) A sociologist wants to know whether the percentage of sons taking up\nthe profession of their father is the same in every profession. She decides\nto investigate the situation in each of four professions. She obtained the\nfollowing data.\n63 out of 136 sons of male medical doctors became doctors\n42 out of 118 sons of male engineers became engineers\n35 out of 96 sons of male lawyers became lawyers\n68 out of 150 sons of male businessmen became businessmen\nAt the 5 % level of significance what should her conclusion be? [10 marks]",
+   "ms_text": "6. Note: Accept answers to an accuracy of at least 4 significant figures – do not apply AP.\n(i) P( X= 0) = 0.04979 , P( X= 1) = 0.14936 , P( X= 2) = 0.22404 ,\nX= = X= = P( 3) 0.22404 , P( 4) 0.16803 (M1)\nSum = 0.81526 (A1)\nOR\nP( X≤ 4) = 0.8153 (accept 0.8152) (G2)\nX≥ =− = Hence, P( 5) 1 0.8153 0.1847 (accept 0.1848) (M1)(A1)\nOR\nP( X ≥ 5) =− 1 P( X ≤ 4) = 0.1847 (G4)\n[4 marks]\n(ii) The variance is unknown so the t-distribution must be used. (C1)\nx = 2.705 and s = 0.003657 (A1)(A1)\nn\nHence the confidence interval is given by:\ns s\nn n x − t , x + t\n(M1) 0.975;15 0.975;15\n15 15\nOR\n0.003777 using ns−=\n1\ns s\nx − t n − 1 , x + t n − 1\n0.975;15 0.975;15\n16 16\nSince 0.975;15 t = 2.131this gives[2.703, 2.707] (A1)(A1)\nNote: Award (G3) for the correct interval, without explanation.\n[6 marks]\n(iii) (a) The data can be described by the following table\nscore 1 2 3 4 5 6\nobserved 27 12 16 25 26 14\nexpected 20 20 20 20 20 20 (A1)\nH: the die is fair.\n0\n(C1)\nH: the die is not fair.\n1\n(20 − 27) 2 (12 − 20) 2 (16 − 20) 2 (25 − 20) 2 (26 − 20) 2 (14 − 20) 2 2\nχ = + + + + +\ncalc\n20 20 20 20 20 20\n= 11.3 (A1)\n2 (i) χ = 11.07\n(A1) 0.95; 5\nHence, since 11.3 > 11.07 at the 5 % level we must accept H . (R1)\n1\n2 (ii) χ = 15.086\n(A1) 0.99; 5\nHence, since 11.3 < 15.086, at the 1% level, there is not enough evidence\nto conclude that the die is not fair (and hence we accept H ). (R1)\n0\n[7 marks]\n2 2 (b) Let α denote the significance level. If χ is greater than χ then it\ncalc α , n − 1\nmeans that the probability of obtaining the results obtained is less than α if\nH is correct.\n0 (R3)\nNote: Award (R3) for any correct explanation. Use discretion to award (R2) or (R1).\n[3 marks]\n(iv) The data can be described by the following table\nDoctors Engineers Lawyers Businessmen total\ntook up 63 42 35 68 208\ndid not take up 73 76 61 82 292\n(A3) total 136 118 96 150 500\nNote: Award (A3) for all correct bold entries, (A2) for 3 correct,\n(A1) for 2 correct, (A0) otherwise.\nH: the percentage is the same in all 4 professions (or equivalent).\n0 (C1)\nH: the percentage is not the same in all 4 professions.\n1 (C1)\nNote: Do not accept H: all professions have a different percentage.\n1\nMETHOD 1\np = 0.179 (G3)\n0.179 > 0.05 so accept H (A1)(R1)\n0\nMETHOD 2\n2 2 2 2 2 (63 − 56.6) (42 − 49.1) (35 − 39.9) (68 − 62.4) (73 − 79.4)\n2 χ = + + + +\ncalc\n56.6 49 39.9 62.4 79.4\n2 2 2 (76 − 68.9) (6156.1) − (82 − 87.6)\n+ + + (M1)\n68.9 56.1 87.6\n= 4.888 (sensitive to time of rounding) (A1)\nOR\n2 χ = 4.907 (G2)\ncalc\n2 χ = 7.815\n(A1) 0.95; 3\nSince 4.888 < 7.815, H is accepted (A1)(R1)\n0\n[10 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L6",
+    "4.L1",
+    "4.L7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics",
+   "text_clean": "6. [Maximum mark: 30]\nGive your answers to four significant figures.\n(i) A machine produces cloth with some minor faults. The number of faults per metre is a random variable following a Poisson distribution with a mean 3. Calculate the probability that a metre of the cloth contains five or more faults. [4 marks]\n(ii) The following is a random sample of 16 measurements of the density of aluminium. Assume that the measurements are normally distributed.\n2.704 2.709 2.711 2.706\n2.708 2.705 2.709 2.701\n2.705 2.707 2.710 2.700\n2.703 2.699 2.702 2.701\nConstruct a 95% confidence interval for the density of aluminium, showing all steps clearly. [6 marks]\n(iii) A die is thrown 120 times with the following results.\nscore | 1 | 2 | 3 | 4 | 5 | 6\nfrequency | 27 | 12 | 16 | 25 | 26 | 14\n(a) Showing all steps clearly, test whether the die is fair\n(i) at the 5% level of significance.\n(ii) at the 1% level of significance. [7 marks]\n(b) Explain what is meant by \"level of significance\" in part (a). [3 marks]\n(iv) A sociologist wants to know whether the percentage of sons taking up the profession of their father is the same in every profession. She decides to investigate the situation in each of four professions. She obtained the following data.\n63 out of 136 sons of male medical doctors became doctors\n42 out of 118 sons of male engineers became engineers\n35 out of 96 sons of male lawyers became lawyers\n68 out of 150 sons of male businessmen became businessmen\nAt the 5% level of significance what should her conclusion be? [10 marks]"
+  },
+  {
+   "id": "math-2002-N-P2-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 30]\n( Z ,) + (i) Let denote the group whose elements are 0, 1, 2, 3, with the\n4\n( G∗ ,) operation of addition of integers modulo 4. Let denote another\nΦ group of order four whose elements are a, b, c, d. Let be an\nisomorphism of ( Z ,) + onto ( G∗ ,) defined as follows:\n4\nΦ (0) = b , Φ (1) = d , Φ (2) = a , Φ (3) = c .\n(a) Write down the group table for ( Z ,) + . [1 mark]\n4\n(b) Hence write down the group table for ( G∗ ,) . [4 marks]\n(ii) Let Y be the set {1, 2, 3, 4, 5, 6, 7, 8, 9,10} .\n2 2 Define the relation R on Y by aRb ⇔ a − b ≡ 0(mod5), where ab , ∈ Y .\n(a) Show that R is an equivalence relation. [4 marks]\n(b) (i) What is meant by “the equivalence class containing a”?\n(ii) Write down all the equivalence classes. [5 marks]\n(iii) Let X be a set containing n elements (where n is a positive integer).\n2n Show that the set of all subsets of X contains elements. [6 marks]\n(iv) Let (,) S! be the group of all permutations of four elements a, b, c, d.\nThe permutation that maps a onto c, b onto d, c onto a and d onto b is\na b c d\nrepresented by .\nc d a b\na b c d\nThe identity element is represented by .\na b c d\nNote that AB denotes the permutation obtained when permutation B is\nfollowed by permutation A.\na b c d\n(a) Find the inverse of the permutation . [1 mark]\nc a d b\n(b) Find a subgroup of S of order 2. [2 marks]\n(c) Find a subgroup of S of order 4, showing that it is a subgroup of S. [7 marks]",
+   "ms_text": "7. (i) (a) + 0 1 2 3\n0 0 1 2 3\n1 1 2 3 0\n2 2 3 0 1\n(A1) 3 3 0 1 2\n[1 mark]\n(b) ∗ a b c d ∗ b d a c\na b a d c b b d a c\nOR d d a c b b a b c d\nc d c a b a a c b d (A4)\nd c d b a c c b d a\nNotes: There are many other correct solutions, with a different ordering of the rows\nand columns possible.\nAward (A4) if all entries are correct, (A3) if all but 1 entry are correct,\n(A2) if all but 2 entries are correct, (A1) if all but 3 entries are correct.\n[4 marks]\n(ii) (a) 2 − 2 = ≡ aRa since a a 0 0(mod5) (A1)\n2 2 2 2 aRb ⇒ bRa since a − b = 0(mod5) ⇒ b − a ≡ 0(mod5) (A1)\n2 2 2 2 aRb and bRc ⇒ aRc since a − b ≡ 0(mod5) and b − c ≡ 0(mod5)\n2 2 2 2 2 2 ⇒ a − c = a − b + b − c ≡ 0(mod5) (A2)\nHence R is an equivalence relation. (AG)\n[4 marks]\n(b) (i) It is the set of all the elements b of Y such that bRa. (or equivalent) (C2)\n(ii) {5,10} (A1)\n{1, 4, 6, 9} (A1)\n{2, 3, 7, 8} (A1)\n[5 marks]\nn\n(iii) There is empty subset. (A1)\n0\nn\nThere are subsets with 1 element. (A1)\n1\nn\nThere are subsets with 2 elements.\n2\nn\nThere are subsets with k elements. (A1)\nk\nn n n\n+ + … + (M1)(A1)\nSo in total there are 0\n1 n\n= + n = n (11) 2 subsets. (A1)(AG)\nOR\nSince each of the n elements in set X can be either included in the subset or\nnot, there are 2n possible subsets. (A6)\n[6 marks]\na b c d\n(iv) (a) (A1)\nb d a c\n[1 mark]\na b c d a b c d\n(b) ; (A2)\na b c d b a c d\nNote: There are many correct answers for the second permutation.\n[2 marks]\na b c d\n(c)\na b c d\na b c d a b c d a b c d\n; ; (A1)(A1)(A1)\nb c d a c d a b d a b c\nLet p, q, r, s be the four permutations in the subgroup. Closure is shown by\nthe group table, i.e. (M1)\np q r s\np p q r s\nq q r s p\nr r s p q\ns s p q r (A1)\nInverse: each element has an inverse, (M1)\n− − − − i.e. p 1 = pq , 1 = sr , 1 = rs , 1 = q .\n(A1)\nNote: There are other possible answers.\n[7 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.7",
+    "7.2",
+    "7.8",
+    "7.9",
+    "7.4",
+    "7.1",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, Relations and Groups",
+   "text_clean": "7. [Maximum mark: 30]\n(i) Let $(\\mathbb{Z}_4,+)$ denote the group whose elements are 0, 1, 2, 3, with the operation of addition of integers modulo 4. Let $(G,*)$ denote another group of order four whose elements are $a, b, c, d$. Let $\\Phi$ be an isomorphism of $(\\mathbb{Z}_4,+)$ onto $(G,*)$ defined as follows: $\\Phi(0)=b, \\Phi(1)=d, \\Phi(2)=a, \\Phi(3)=c$.\n(a) Write down the group table for $(\\mathbb{Z}_4,+)$. [1 mark]\n(b) Hence write down the group table for $(G,*)$. [4 marks]\n(ii) Let $Y$ be the set $\\{1,2,3,4,5,6,7,8,9,10\\}$. Define the relation $R$ on $Y$ by $aRb \\Leftrightarrow a^2-b^2\\equiv 0 \\pmod 5$, where $a,b\\in Y$.\n(a) Show that $R$ is an equivalence relation. [4 marks]\n(b) (i) What is meant by \"the equivalence class containing $a$\"?\n(ii) Write down all the equivalence classes. [5 marks]\n(iii) Let $X$ be a set containing $n$ elements (where $n$ is a positive integer). Show that the set of all subsets of $X$ contains $2^n$ elements. [6 marks]\n(iv) Let $(S,\\circ)$ be the group of all permutations of four elements $a, b, c, d$. The permutation that maps $a$ onto $c$, $b$ onto $d$, $c$ onto $a$ and $d$ onto $b$ is represented by $\\begin{pmatrix}a&b&c&d\\\\c&d&a&b\\end{pmatrix}$.\nThe identity element is represented by $\\begin{pmatrix}a&b&c&d\\\\a&b&c&d\\end{pmatrix}$.\nNote that $AB$ denotes the permutation obtained when permutation $B$ is followed by permutation $A$.\n(a) Find the inverse of the permutation $\\begin{pmatrix}a&b&c&d\\\\c&a&d&b\\end{pmatrix}$. [1 mark]\n(b) Find a subgroup of $S$ of order 2. [2 marks]\n(c) Find a subgroup of $S$ of order 4, showing that it is a subgroup of $S$. [7 marks]"
+  },
+  {
+   "id": "math-2002-N-P2-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 30]\n(i) (a) Explain how to use Euclid’s algorithm to obtain the greatest\ncommon divisor (gcd) of two positive integers a, b with b<a. [3 marks]\n(b) Let d be the gcd of 364 and 154. Use Euclid’s algorithm to find d,\n= + and hence find integers x and y so that d 364 x 154 y . [5 marks]\n(ii) Solve the recurrence relation y − 2 y − 2 y = 0 , where\n+ + n 2 n 1 n\n+ y = 1, y = 3, and n ∈Z\n.\n1 2 [5 marks]\n(iii) The floor plan of a certain building is shown below. There are four\nrooms A, B, C, D and doorways are indicated between the rooms and to\nthe exterior O.\nA B\nO\nD C\n(a) Draw a graph by associating a vertex with each room using the\nletters A, B, C, D, and O. If there is a door between the two\nrooms, draw an edge joining the corresponding two vertices. [2 marks]\n(b) Does the graph in part (a) possess an Eulerian trail? Give a reason\nfor your answer. What does your answer mean about the floor plan? [4 marks]\n(c) Does the graph in part (a) possess a Hamiltonian cycle? Give a\nreason for your answer. What does your answer mean about the\nfloor plan? [4 marks]\n(iv) Let T = (, VE ) , denote a tree T, with V being the set of the vertices and\nE the set of the edges. Show that V = E + 1 , i.e. that the number of\nvertices is one more than the number of edges. [2 marks]\n(v) (a) Describe the depth-first search algorithm. [3 marks]\n(b) The diagram shows a graph M.\nP Q R S\nU T\nW X Y\nUse the depth-first algorithm to find and sketch a spanning tree for\nM, starting at vertex P. [2 marks]",
+   "ms_text": "8. (i) (a) A finite sequence is defined as follows: y = ay ; = b ;\n0 1\nfor n ≥ 0, y+ is the remainder of the division of y by y+ . (R1)\nn 2 n n 1\nAfter a finite number of steps, the sequence reaches 0. (R1)\nThen if m is the smallest integer such that y += 0, y is the gcd of a and b.\nm 1 m (R1)\nNote: Award (R3) for correct alternative explanations.\n[3 marks]\n(b) = × + 364 2154 56\n154 = 256 × + 42\n56 =× 142 + 14\n42 =× 314 + 0 (A1)\nHence d= 14 (A1)\n14 = 56 − 42\n= 56 − (154 −× 256) =× 356154 − (M1)\n=× 3(364 −× 2154)154 − =× 3364 −× 7154\nHence x = 3 and y = − 7 . (A1)(A1)\n[5 marks]\nλ 2 − λ − = + − (ii) The characteristic equation is 2 2 0 and its roots are 1 3 and1 3 . (A1)\nn n Hence\nny = C (1 + 3) + C (1 − 3) (A1) 1 2\nwhere C and C are constants to be determined by the initial conditions:\n1 2\n+ + − = C C 3( C C ) 1\n1 2 1 2\n4( C + C ) + 23( C − C ) = 3 (A1)\n1 2 1 2\n+ − 3(1 3) 3(1 3)\nHence C = ; C = − (A1)\n1 2\n12 12\n3(1 n + 1 n + 1 n + 1 n + 1 so that y = ( + 3) − (1 − 3) ) ( or y = 0.1442.73 ( −− (0.732) ) ) (A1)\nn n\n12\nNote: Award final (A1) for an answer left in the following form\n3 + 3 n 3 − 3 n\n( ) ( ) ny = 1 + 3 + 1 + 3\n12 12\n[5 marks]\n(iii) (a) C (5)\nA (4) D (4)\nB (3)\n(A2) O (8)\n[2 marks]\n(b) Yes. The graph has exactly two vertices (B and C) with odd degree. (A1)(R1)\nIt means that there is a path (starting at B or C) that will go once and only once\nthrough every door. (C2)\n[4 marks]\n(c) Yes. O → D → A → C → B → O is a Hamiltonian cycle. (A1)(R1)\nIt means that there is a path (starting anywhere) that will go once and only\nonce through every room before returning to its starting point. (C2)\n[4 marks]\n(iv) To every vertex (except the first) there corresponds one and only one edge. (R2)\n[2 marks]\n(v) (a) Starting from a given vertex, choose some edge incident to that vertex and (C1)\n(C1) repeat the procedure from the new vertex reached by the chosen edge until\nno more new edges are available and then backtrack until an untried edge (C1)\nis available and proceed as before.\n[3 marks]\nS\n(b) P → T → W → X → Y → U → R � (A1)\n� Q\nP Q R S\nT U (A1)\nW Y X\nNote: There are other correct answers.\n[2 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1",
+    "6.7",
+    "6.8",
+    "6.10",
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete Mathematics",
+   "text_clean": "8. [Maximum mark: 30]\n(i) (a) Explain how to use Euclid's algorithm to obtain the greatest common divisor (gcd) of two positive integers $a$, $b$ with $b<a$. [3 marks]\n(b) Let $d$ be the gcd of 364 and 154. Use Euclid's algorithm to find $d$, and hence find integers $x$ and $y$ so that $d=364x+154y$. [5 marks]\n(ii) Solve the recurrence relation $y_{n+2}-2y_{n+1}-2y_n=0$, where $y_1=1$, $y_2=3$, and $n\\in\\mathbb{Z}^+$. [5 marks]\n(iii) The floor plan of a certain building is shown below. There are four rooms A, B, C, D and doorways are indicated between the rooms and to the exterior O.\n[Diagram: floor plan with rooms A and B on top, D and C below, exterior O on the right; gaps in walls mark doorways between rooms and to the outside]\n(a) Draw a graph by associating a vertex with each room using the letters A, B, C, D, and O. If there is a door between the two rooms, draw an edge joining the corresponding two vertices. [2 marks]\n(b) Does the graph in part (a) possess an Eulerian trail? Give a reason for your answer. What does your answer mean about the floor plan? [4 marks]\n(c) Does the graph in part (a) possess a Hamiltonian cycle? Give a reason for your answer. What does your answer mean about the floor plan? [4 marks]\n(iv) Let $T=(V,E)$, denote a tree $T$, with $V$ being the set of the vertices and $E$ the set of the edges. Show that $|V|=|E|+1$, i.e. that the number of vertices is one more than the number of edges. [2 marks]\n(v) (a) Describe the depth-first search algorithm. [3 marks]\n(b) The diagram shows a graph $M$.\n[Diagram: graph M with vertices P, Q, R, S (top row), T, U (middle), W, X, Y (bottom); edges PQ, QR, RS (top line), PT, QU, RU, TU, TW, TX, UX, UY, WX, XY]\nUse the depth-first algorithm to find and sketch a spanning tree for $M$, starting at vertex P. [2 marks]"
+  },
+  {
+   "id": "math-2002-N-P2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 30]\n(i) Consider the equation tan x −= 1 0 .\nπ\n(a) Show that it has solutions x = + k π , where k is any integer. [1 mark]\n4\n(b) The Newton-Raphson method is to be used to find an appropriate\nsolution of the equation, starting with x= 1.\n(i) State two conditions that allow you to conclude that the\nπ\nsequence converges to .\n4\nHence or otherwise, find π correct to 5 decimal places. (ii) [8 marks]\nπ\n(ii) Let fx () = 2 + cos, xx ∈ .\n0,2\n(a) Show that f (4)() x is bounded above by 1, where f (4)() x\ndenotes the fourth derivative of f with respect to x. [1 mark]\nπ\nLet A denote the area enclosed by the graph of fx () , the axes and x = .\n2\nA =+ 1 π (b) Show that . [2 marks]\n(c) (i) Use Simpson’s rule with 10 subdivisions to calculate an\napproximate value of A. Give your answer in the form k π ,\n+\nwhere k ∈R , and k is correct to six decimal places.\n(ii) Given that π ≤ 4 , prove the following inequality.\n4\n4 4 1\n+ − 1 π k π ≤ .\n20 2 180\nHence find an upper and lower bound for π. (iii)\n(iv) Hence, as accurately as possible, give an approximation of π. [11 marks]\n(iii) Consider the sequence of partial sums { S } given by\nn\nn\n1 , S = ∑ n = 1, 2, …\nn\nk k = 1\n1\n(a) Show that for all positive integers n, S ≥ S + . [2 marks]\n2 n n\n2\n(b) Hence prove that the sequence { S } is not convergent. [5 marks]\nn",
+   "ms_text": "π π\n9. (i) (a) tan + k π = tan = 1 since tan has period π. (A1)\n4 4\n[1 mark]\nππ\n(b) (i) In the interval , (which contains 1) f ≥ 0and f ′′ > 0 so that the\n42\nsequence decreases to the only solution of the equation in that interval,\nπ\nnamely . (R2)\n4\nNote: Award (R2) if convergence is shown by a convincing sketch.\nfx ( )\n(ii) x = 1; x = x − n\n1 n + 1 n (C1) ′\nf ( x )\nn\n= = − − In this case we get: x 1; x x cos x (sin x cos x ) (C1)\n1 n + 1 n n n n\nx= Hence: 1\n1\nx= 0.8372778683\n2\nx= 0.7881802928\n3\nx= 0.785405918\n4\nx= 0.7853981635\n5\nx= 0.7853981634 (A2)\n6\n≈ ≈ Therefore π 4 x 3.14159 . (M1)(A1)\n6\n[8 marks]\nπ\n(ii) Let fx () = 2 + cos x on the interval . 0,2\n(a) f (4)() x = cos x ≤ 1 everywhere. (A1)\n[1 mark]\nπ\n(b) A = 2 + cos)d x x (M1)(A1) ∫ 0(2\n=+ 1 π (AG)\nNote: Evidence of integration required for (A1) to be awarded.\n[2 marks]\n(c) (i) y = 3, y = 2\n0 10\n5\n∑ y −= 13.19622(661) (A1)\n2 k 1\n1\n4\n∑ y = 10.65687(5764) (A1)\n2 k\n1\nHence from Simpson’s rule we get:\nπ\nA ≈ (5 + 210.656875764 × + ×\n413.19622661) 60 (M1)\n= 1.318310966π\n⇒ k = 1.318311 (A1)\nOR\nA = 1.318310966π (G3)\n⇒ k = 1.318311 (A1)\nOR\nk = 1.318311 (G4)\n4\n4 4 1\n(ii) 1 + π − k π = 1 + π − 1.318311π ≤ (M1)(AG)\n20 2 180\n− 6 (iii) 1 + π − k π ≤ 1810 ×\n(A1)\n− 6 − 6 ⇒− 11810 × ≤ 0.318310966π ≤+ 11810 ×\nthat is 3.141526146 < π < 3.141637847 (A1)(A1)\nOR\nAccuracy in the bounds may vary in candidates’ solutions, for example\n− 1 + π − k π ≤ 1.7810 × 5\n(A1)\n− 5 − 5 11.7810 − × ≤ 0.318311π ≤+ 11.7810 ×\n3.14153 ≤ π ≤ 3.14164 (A1)(A1)\nThis result leads to the correct approximation needed in part (iv)\n= (iv) π 3.142 (A3)\n[11 marks]\n2 n 2 n 2 n 1 1 1 1\n(iii) (a) S = ∑ = S + ∑ ≥ S + ∑ = S + (M1)(A1)(AG)\n2 n n n n\nk k 2 k 2 k = 1 kn =+ 1 kn =+ 1\n[2 marks]\n(b) The sequence S is increasing and it follows from (a) that\nn\n1\nS ≥ S + (A1) n ( n − 1)\n2 2 2\n1 1\nsimilarly ≥ + ≥ + S\n( n − 1) S ( n − 2) , S ( n − 2) S ( n − 3) 2 2 2 2\n2 2\n1 1 1\n⇒ S ≥ S + ≥ S + + ≥… (M1)\n2 n 2 ( n − 1) 2 ( n − 2) 2 2 2\n1 2 n\ni.e. S ≥ S + ≥ S + ≥…≥ S +\nn ( n − 1) ( n − 2) 1 2 2\n2 2 2 2\n+ n 2 n\nS =⇒ 1 S + =\n1 1\n2 2\n2 + n\n⇒ ≥ S\nn , (A1) 2\n2\nso that there are elements of the sequence that are arbitrarily large and therefore the\nsequence cannot converge. (C1)(R1)\n[5 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L1",
+    "5.11",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Analysis and Approximation",
+   "text_clean": "9. [Maximum mark: 30]\n(i) Consider the equation $\\tan x-1=0$.\n(a) Show that it has solutions $x=\\frac{\\pi}{4}+k\\pi$, where $k$ is any integer. [1 mark]\n(b) The Newton-Raphson method is to be used to find an appropriate solution of the equation, starting with $x=1$.\n(i) State two conditions that allow you to conclude that the sequence converges to $\\frac{\\pi}{4}$.\n(ii) Hence or otherwise, find $\\pi$ correct to 5 decimal places. [8 marks]\n(ii) Let $f(x)=2+\\cos x$, $x\\in\\left[0,\\frac{\\pi}{2}\\right]$.\n(a) Show that $|f^{(4)}(x)|$ is bounded above by 1, where $f^{(4)}(x)$ denotes the fourth derivative of $f$ with respect to $x$. [1 mark]\nLet $A$ denote the area enclosed by the graph of $f(x)$, the axes and $x=\\frac{\\pi}{2}$.\n(b) Show that $A=1+\\pi$. [2 marks]\n(c) (i) Use Simpson's rule with 10 subdivisions to calculate an approximate value of $A$. Give your answer in the form $k\\pi$, where $k\\in\\mathbb{R}^+$, and $k$ is correct to six decimal places.\n(ii) Given that $\\pi\\le 4$, prove the following inequality. $|1+\\pi-k\\pi|\\le\\left(\\frac{4}{20}\\right)^4\\left(\\frac{4}{2}\\right)\\left(\\frac{1}{180}\\right)$.\n(iii) Hence find an upper and lower bound for $\\pi$.\n(iv) Hence, as accurately as possible, give an approximation of $\\pi$. [11 marks]\n(iii) Consider the sequence of partial sums $\\{S_n\\}$ given by $S_n=\\sum_{k=1}^{n}\\frac{1}{k}$, $n=1,2,\\dots$\n(a) Show that for all positive integers $n$, $S_{2n}\\ge S_n+\\frac{1}{2}$. [2 marks]\n(b) Hence prove that the sequence $\\{S_n\\}$ is not convergent. [5 marks]"
+  },
+  {
+   "id": "math-2002-N-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 30]\n2 (i) The equation of a conic is given by 4 x − 9 x + y − 5 = 0 .\n(a) Which conic section is described by this equation? Justify your\nanswer. [3 marks]\n(b) Let y = mx + c be the equation of a tangent to the conic. Find a\nrelation between m and c. [5 marks]\n(ii) (a) State Ceva’s theorem and its converse (or corollary). [4 marks]\n(b) Using Ceva’s theorem prove that the internal bisectors of the\nangles of a triangle are concurrent. [5 marks]\n(iii) The parametric equations of an ellipse with foci Fand Fare x = a cos θ\n1 2\n+ = θ ∈\nR > and y b sin where ab , and a b . The following diagram\nshows the tangent # to the ellipse at the point P. The line (PN) is\nperpendicular to # and meets the x-axis at N.\ny\nP\n#\nb\na\nF1 N F2 x\nGive your answers to parts (a), (b) and (c) in terms of !.\n(a) Find the coordinates of the point N. [5 marks]\n(b) Find PFand PF . [3 marks]\n1 2\n(c) Find NFand NF .\n1 2 [2 marks]\nˆ (d) Prove that (PN) bisects the angle FPF .\n[3 marks] 1 2",
+   "ms_text": "10. (i) (a) The conic section is a parabola. (A1)\n= 2 + + It is so because the expression may be written in the form y ax bx c . (R2)\n[3 marks]\n(b) The gradient of the tangent to the parabola at a point (x, y) is given by\nd y\n= = − m 9 8 x (M1)(A1)\nd x\nHence, since the point is on the parabola y = 5 + 9 x − 4 x 2 and since it is on the\nline we must have y = (9 − 8) xx + c .Therefore: (M1)\nc = 4 x 2 + 5 (A1)\n2\n9 − m\n= 4 + 5 (or m 2 − 18 m − 16 c + 161 = 0) (A1)\n8\n[5 marks]\n(ii) (a) Ceva’s Theorem: If three concurrent lines are drawn through the vertices A,\nB, C of a triangle ABC to meet the opposite sides at D, E, F, respectively, then\nBD CE AF\n× × = + 1 (C2)\nDC EA FB\nConverse (Corollary): If D, E, F are points on [BC], [CA], [AB],\nBD CE AF\nrespectively such that × × = + , then [AD], [BE] and [CF] are 1\nDC EA FB\nconcurrent. (C2)\n[4 marks]\nAM CA\n(b) If (CM) is a bisector of BCA ˆ then = . (A1)\nMB BC\nBN AB\nCAB ˆ = (A1) Similarly, if (AN) is a bisector of then .\nNC CA\nCP BC\nˆ = Finally, if (BP) is a bisector of ABC then . (A1)\nPA AB\nAM BN CP\nHence × × = 1 (A1)\nMB NC PA\nand in view of the converse of Ceva’s theorem the three bisectors are\nconcurrent. (M1)\n[5 marks]\n(iii) (a) Let (n, 0) be the coordinates of the point N.\nd x d y\n= − θ = θ a sin, b cos (A1)\nd θ d θ\na (tan) θ\nHence the gradient of the line orthogonal to � at the point (x, y) is\nb\n( x − na )(tan) θ\nso that the equation of the line is given by y = . (M1)(A1)\nb\nSince (cos,sin) a θ b θ is on that line we get:\n(cos a θ − n )(tan) a θ\nb sin θ = (A1)\nb\n2 2 2 2 ( a − b )cos θ ( a − b )cos θ\n⇒ n = ⇒ N , 0 (A1)\na a\n[5 marks]\n(b) Since FO = OF = c = a 2 − b 2 , (properties of ellipse) (M1)\n1 2\n2 2 2 2 2 (PF ) = b sin θ + (cos a θ + c ) = ( a + c cos) θ\n1\nso that PF = a + c cos θ = a + c cos θ (A1) 1\n(PF ) 2 = b 2 sin 2 θ + (cos a θ − c ) 2 = ( a − c cos) θ 2\n2\nso that PF = a − c cos θ = a − c cos θ (A1)\n2\n[3 marks]\n2 c c\nNF = cos θ + c = ( a + c cos) θ (c) (A1)\n1\na a\n2 c c\nNF = cos θ − c = ( a − c cos) θ (A1)\n2\na a\n[2 marks]\nNF a + c cos θ PF\n(d) 1 = = 1 (M1)(A1)\n− θ NF a c cos PF\n2 2\nˆ Hence using the bisector theorem, it follows that (PN) bisects the angle FPF . (A1)\n1 2\n[3 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "8",
+    "5"
+   ],
+   "subtopics": [
+    "8.2",
+    "8.1",
+    "5.L8",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Euclidean Geometry and Conic Sections",
+   "text_clean": "10. [Maximum mark: 30]\n(i) The equation of a conic is given by $4x^2-9x+y-5=0$.\n(a) Which conic section is described by this equation? Justify your answer. [3 marks]\n(b) Let $y=mx+c$ be the equation of a tangent to the conic. Find a relation between $m$ and $c$. [5 marks]\n(ii) (a) State Ceva's theorem and its converse (or corollary). [4 marks]\n(b) Using Ceva's theorem prove that the internal bisectors of the angles of a triangle are concurrent. [5 marks]\n(iii) The parametric equations of an ellipse with foci $F_1$ and $F_2$ are $x=a\\cos\\theta$ and $y=b\\sin\\theta$ where $a,b\\in\\mathbb{R}^+$ and $a>b$. The following diagram shows the tangent $\\ell$ to the ellipse at the point P. The line (PN) is perpendicular to $\\ell$ and meets the $x$-axis at N.\n[Diagram: ellipse centred at origin with semi-axes a and b; foci F1, F2 on x-axis; tangent line l at P in second quadrant; PN perpendicular to l meeting x-axis at N; segments PF1 and PF2 drawn]\nGive your answers to parts (a), (b) and (c) in terms of $\\theta$.\n(a) Find the coordinates of the point N. [5 marks]\n(b) Find $PF_1$ and $PF_2$. [3 marks]\n(c) Find $NF_1$ and $NF_2$. [2 marks]\n(d) Prove that (PN) bisects the angle $F_1\\hat{P}F_2$. [3 marks]",
+   "review_note": "audit: (iii)(a) normal to parametric ellipse via dx/dtheta, dy/dtheta -> new 5.L8"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2012-M-P3-series-and-differential-equations",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2012,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Series and differential equations",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2212-7208; code M12/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches paper total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2012-M-P3-series-and-differential-equations-q1",
+   "num": "1",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\nx −− x x e 1 cos\nUse L’Hôpital’s Rule to find lim .\n2 x → 0 sin x",
+   "ms_text": "1. apply l’Hôpital’s Rule to a 0 / 0 type limit\nx x e −− 1 x cos x e − cos x + x sin x\nlim = lim M1A1\nx → 0 2 x → 0 sin x 2sincos x x\nnoting this is also a 0 / 0 type limit, apply l’Hôpital’s Rule again (M1)\ne x + sin x + x cos x + sin x\nobtain lim A1\nx → 0 2cos2 x\nx = substitution of 0 (M1)\n= 0.5 A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nUse L'Hôpital's Rule to find $\\lim_{x \\to 0} \\frac{e^x - 1 - x\\cos x}{\\sin^2 x}$."
+  },
+  {
+   "id": "math-2012-M-P3-series-and-differential-equations-q2",
+   "num": "2",
+   "section": null,
+   "marks": 21,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 21]\ny y 2 Consider the differential equation d\n, where x > −1 and y =1 when x = 0 .\n=+\nd x 1 x\n(a) Use Euler’s method, with a step length of 0.1, to find an approximate value of y\nwhen x = 0 5.. [7 marks]\n2 3 2 y 2 y − y\nShow that d (b) (i) = .\n2 2 d x ( 1 + x )\n(ii) Hence find the Maclaurin series for y , up to and including the term in x2. [8 marks]\n(c) (i) Solve the differential equation.\n(ii) Find the value of a for which y →∞ as x → a . [6 marks]",
+   "ms_text": "2. (a) attempt the first step of\ny += y + (0.1)( fx , y ) with y = 1, x = 0 (M1)\nn 1 n n n 0 0\ny= 1.1 A1\n1\n2 1.1\ny= 1.1 + (0.1) = 1.21 (M1)A1\n2\n1.1\ny= (A1) 1.332(0)\n3\ny= 1.4685 (A1)\n4\ny= 1.62 A1\n5\n[7 marks]\n(b) (i) recognition of both quotient rule and implicit differentiation M1\nd y 2\n2 (1 + x )2 y − y × 1 d y\nd x =\nA1A1\n2 2 d x (1 + x )\nNote: Award A1 for first term in numerator, A1 for everything else correct.\n2 y\n2 (1 + x )2 y − y × 1\n1 + x =\nM1A1\n2 (1 + x )\n2 y 3 − y 2\n= AG\n2 (1 + x )\n2 2 d y x d y\n= + + +… (ii) attempt to use y y (0) (0) (0) (M1)\nxx 2\nd 2! d x\n2 x\n=+ 1 x + A1A1\n2\ndy dy 2\nNote: Award A1 for correct evaluation of y (0), (0), (0) , A1 for\n2 dx dx\ncorrect series.\n[8 marks]\n1 1\n(c) (i) separating the variables ∫ d y = ∫ d x M1\n2 y 1 + x\n1\nobtain − = ln(1 + x ) + () c A1\ny\nimpose initial condition 1 −= ln1 + c M1\n1\nobtain y A1 =−\n+ 1 ln(1 x )\n(ii) y →∞ if ln(1 + x ) →, so 1 a = e1 − (M1)A1\nNote: To award A1 must see either x →− or e 1 a = e −. Do not 1\n= −. accept x e 1\n[6 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.14",
+    "5.19",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 21]\nConsider the differential equation $\\frac{dy}{dx} = \\frac{y^2}{1+x}$, where $x > -1$ and $y = 1$ when $x = 0$.\n(a) Use Euler's method, with a step length of 0.1, to find an approximate value of $y$ when $x = 0.5$. [7 marks]\n(b) (i) Show that $\\frac{d^2y}{dx^2} = \\frac{2y^3 - y^2}{(1+x)^2}$.\n(ii) Hence find the Maclaurin series for $y$, up to and including the term in $x^2$. [8 marks]\n(c) (i) Solve the differential equation.\n(ii) Find the value of $a$ for which $y \\to \\infty$ as $x \\to a$. [6 marks]"
+  },
+  {
+   "id": "math-2012-M-P3-series-and-differential-equations-q3",
+   "num": "3",
+   "section": null,
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nd Find the general solution of the differential equation ty\ncos t − 2, for t > 0. y\nd=\nt",
+   "ms_text": "3. recognise equation as first order linear and attempt to find the IF M1\n2d ∫ t\n2 IF = e t = t A1\n2 solution yt t cosd tt M1A1\n=∫\nusing integration by parts with the correct choice of u and v (M1)\n∫ t cosd tt = t sin t + cos( t + C ) A1\nsin t cos t + C\nobtain y = + A1\nt t 2\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.16",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nFind the general solution of the differential equation $t\\frac{dy}{dt} = \\cos t - 2y$, for $t > 0$."
+  },
+  {
+   "id": "math-2012-M-P3-series-and-differential-equations-q4",
+   "num": "4",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 15]\n3 n + 2 +\nThe sequence { un is defined by u } n= �.\n1, for n∈\n2 n −\n(a) Show that the sequence converges to a limit L , the value of which should\nbe stated. [3 marks]\n(b) Find the least value of the integer N such that | u L | < ε , for all n > N where n−\n(i) ε= 0 1.;\n(ii) ε= 0 00001 . . [4 marks]\n1 For each of the sequences u\nn { } (c) , − 1n ) u , determine whether\n2 and ( n\nn 2 u −\nn\nor not it converges. [6 marks]\n∞\n(d) Prove that the series ∑ ( u − L ) diverges. [2 marks]\nn\n= n 1",
+   "ms_text": "2\n3 +\nA n or 3\n4. (a) u = + M1\nn 1\n2 2 n − 1\n− 2\nn\n1\nusing lim = 0 (M1)\nn →∞ n\n3\nobtain lim u = = L A1 N1\nn n →∞\n2\n[3 marks]\n7\n(b) u − L = (A1)\nn\n2(2 n − 1)\n1 7\n| nu − L | < ε ⇒ n > 1 + (M1)\n2 2 ε\n(i) ε= 0.1 ⇒ N = 18 A1\n(ii) ε= 0.00001 ⇒ N = 175000 A1\n[4 marks]\nand 1 (c) u → L 0 M1\nn n→\nu\nn ⇒ → ( L × 0) = 0 , hence converges A1\nn\n1\n2 u − 2 → 2 L − 2 =⇒ 1 → 1 , hence converges M1A1\nn −\n2 u 2\nn\nNote: To award A1 the value of the limit and a statement of convergence must\nbe clearly seen for each sequence.\n(1)n − u does not converge A1\nn\nThe sequence alternates (or equivalent wording) between values close to ± L R1\n[6 marks]\n7\n− > (d) nu L (re: harmonic sequence) M1\n4 n\n∞\n⇒ ∑ ( u − L ) diverges by the comparison theorem R1\nn\nn = 1\nNote: Accept alternative methods.\n[2 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L7",
+    "5.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 15]\nThe sequence $\\{u_n\\}$ is defined by $u_n = \\frac{3n+2}{2n-1}$, for $n \\in \\mathbb{Z}^+$.\n(a) Show that the sequence converges to a limit $L$, the value of which should be stated. [3 marks]\n(b) Find the least value of the integer $N$ such that $|u_n - L| < \\varepsilon$, for all $n > N$ where\n(i) $\\varepsilon = 0.1$;\n(ii) $\\varepsilon = 0.00001$. [4 marks]\n(c) For each of the sequences $\\left\\{\\frac{u_n}{n}\\right\\}$, $\\left\\{\\frac{1}{2u_n - 2}\\right\\}$ and $\\left\\{(-1)^n u_n\\right\\}$, determine whether or not it converges. [6 marks]\n(d) Prove that the series $\\sum_{n=1}^{\\infty} (u_n - L)$ diverges. [2 marks]"
+  },
+  {
+   "id": "math-2012-M-P3-series-and-differential-equations-q5",
+   "num": "5",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 11]\nd x\n(a) Find the set of values of k for which the improper integral ∞∫ converges. [6 marks]\n2 x (ln)k x\nr ∞ (1) −\n(b) Show that the series ∑ is convergent but not absolutely convergent. [5 marks]\n= r ln r r 2",
+   "ms_text": "5. (a) consider the limit as R →∞ of the (proper) integral\nR d x\n∫ (M1)\nk 2 x (ln) x\n1\nsubstitute u = ln, d= x u d x (M1)\nx\nln R\nln R 1 1 1\nobtain ∫ d u =− A1\nk k 1 ln2 u k − 1 u−\nln2\nNote: Ignore incorrect limits or omission of limits at this stage.\nln R or [ ]\nln u if k = 1 A1\nln 2\nNote: Ignore incorrect limits or omission of limits at this stage.\nbecause ln R (and lnln R ) →∞ as R →∞ (M1)\nconverges in the limit if k > 1 A1\n[6 marks]\n→ as r →∞ (b) C: terms 0 A1\nu < u for all r A1\nr + 1 r\nconvergence by alternating series test R1\n1 AC: (ln) x x− is positive and decreasing on [2, ∞ ) A1\nnot absolutely convergent by integral test using part (a) for k = 1 R1\n[5 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L5",
+    "5.L1",
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 11]\n(a) Find the set of values of $k$ for which the improper integral $\\int_2^{\\infty} \\frac{dx}{x(\\ln x)^k}$ converges. [6 marks]\n(b) Show that the series $\\sum_{r=2}^{\\infty} \\frac{(-1)^r}{r \\ln r}$ is convergent but not absolutely convergent. [5 marks]"
+  }
+ ],
+ "status": "done"
+}

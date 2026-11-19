@@ -1,0 +1,320 @@
+{
+ "exam_id": "math-2016-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2016,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2016 November Examination Session/Mathematics_paper_1__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2016 November Examination Session/Mathematics_paper_1__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8816-7201; code N16/5/MATHL/HP1/ENG/TZ0/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2016-N-P1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nFind the coordinates of the point of intersection of the planes defined by the equations\nx + y + z =3 , x- y + z =5 and x + y +2z= 6 .",
+   "ms_text": "1. METHOD 1\nfor eliminating one variable from two equations (M1)\n� � � � � � x y z 3\n�\neg, � 2 x � 2 z � 8 A1A1\n�\n� �\n� 2 x 3 z 11\nfor finding correctly one coordinate\n� �\nx �y �z �3 �\n��\n� � eg,� � 2x �2z�8 A1\n�\nz�3\n�\n�\nfor finding correctly the other two coordinates A1\n� � x 1\n�\n� � y �� 1\n�\n� � z 3\nthe intersection point has coordinates (1, � 1, 3)\nMETHOD 2\nfor eliminating two variables from two equations or using row reduction (M1)\n� � �\nx �y �z�3 � � 1 1 13\n�� � �\neg, � �2y�2 or 0 � 2 02 A1A1 � �\n� � �\nz�3 � 0 0 13 �\n�\n�\nfor finding correctly the other coordinates A1A1\n� x � 1 � 1 0 01 �\n� � �\n� �� � � y 1 or 0 1 0 1\n� �\n� � �\n( z � 3) 0 0 13 � � �\nthe intersection point has coordinates (1, � 1, 3)\nMETHOD 3\n1 1 1\n1 � 1 1 �� 2 (A1)\n1 1 2\nattempt to use Cramer’s rule M1\n3 1 1\n5 � 1 1\n6 1 2 � 2\nx � � � 1 A1\n� 2 � 2\n1 3 1\n1 5 1\n1 6 2 2\ny � � �� 1 A1\n� � 2 2\n1 1 3\n1 � 1 5\n1 1 6 � 6\n� � � z 3 A1\n� 2 � 2\nNote: Award M1 only if candidate attempts to determine at least one of the variables\nusing this method.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.16",
+    "3.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nFind the coordinates of the point of intersection of the planes defined by the equations $x+y+z=3$, $x-y+z=5$ and $x+y+2z=6$.",
+   "review_note": "audit: intersection of three planes (3.18); matches 2016-M-P1-TZ2-q1, 2019-N-P1-q3"
+  },
+  {
+   "id": "math-2016-N-P1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\nThe faces of a fair six-sided die are numbered 1 , 2 , 2 , 4 , 4 , 6 . Let X be the discrete\nrandom variable that models the score obtained when this die is rolled.\n(a) Complete the probability distribution table for X . [2]\nx\nP(X = x)\nFind the expected value of X . (b) [2]",
+   "ms_text": "2. (a)\nx 1 2 4 6\nP( X � x ) 1 1 1 1\nA1A1\n6 3 3 6\nNote: Award A1 for each correct row.\n[2 marks]\nE(X) �1 �1\n(b) 6�2 �1 3�4 �1 3�6 �1 (M1)\n6\n19 � 1 �\n� � 3 A1 � �\n6 � 6 �\nNote: If the probabilities in (a) are not values between 0 and 1 or lead to E(X ) �6\naward M1A0 to correct method using the incorrect probabilities; otherwise\nallow FT marks.\n[2 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nThe faces of a fair six-sided die are numbered $1, 2, 2, 4, 4, 6$. Let $X$ be the discrete random variable that models the score obtained when this die is rolled.\n(a) Complete the probability distribution table for $X$. [2]\n$x$ | | | |\n$\\mathrm{P}(X=x)$ | | | |\n(b) Find the expected value of $X$. [2]"
+  },
+  {
+   "id": "math-2016-N-P1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 4]\nb\nA rational function is defined by fx ()= a + where the parameters a , b , c∈′ and\nx - c\nx∈ϒ\\ {c} . The following diagram represents the graph of y =f (x) .\ny\n6\n5\n4\n3\n2\n1\nx\n(1, 0)\n0\n–2 –1 1 2 3 4 5 6 7 8\n–1\n–2\n–3\n–4\nUsing the information on the graph,\n(a) state the value of a and the value of c ; [2]\nfind the value of b . (b) [2]",
+   "ms_text": "3. (a) a� 1 A1\nc� 3 A1\n[2 marks]\n(b) use the coordinates of (1, 0) on the graph M1\nb\nf (1) � 0 � 1 � � 0 � b � 2 A1\n1 � 3\n[2 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 4]\nA rational function is defined by $f(x)=a+\\frac{b}{x-c}$ where the parameters $a, b, c\\in\\mathbb{Z}$ and $x\\in\\mathbb{R}\\setminus\\{c\\}$. The following diagram represents the graph of $y=f(x)$.\n[Graph: hyperbola with vertical asymptote $x=3$ and horizontal asymptote $y=1$ (dashed); curve passes through $(1, 0)$; x from −2 to 8, y from −4 to 6]\nUsing the information on the graph,\n(a) state the value of $a$ and the value of $c$; [2]\n(b) find the value of $b$. [2]"
+  },
+  {
+   "id": "math-2016-N-P1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nConsider the vectors a =i - 3j- 2k , b = - 3j + 2k .\n(a) Find a × b . [2]\nHence find the Cartesian equation of the plane containing the vectors a and b, and (b)\npassing through the point (1 , 0 , -1) . [3]",
+   "ms_text": "4. (a) a � b = � 12 i � 2 j � 3 k (M1)A1\n[2 marks]\n(b) METHOD 1\n� 12 x � 2 y � 3 z � d M1\n�12 �1 �2 �0 �3 (�1) �d (M1)\n�d��9 A1\n� 12 x � 2 y � 3 z �� 9 (or 12 x � 2 y � 3 z � 9 )\nMETHOD 2\n� x �� � 12 � � 1 �� � 12 �\n� �� � � �� �\ny � � 2 � 0 � � 2 M1A1\n� �� � � �� �\n� �� � � �� �\n� z �� � 3 � � � 1 �� � 3 �\n� 12 x � 2 y � 3 z �� 9 (or 12 x � 2 y � 3 z � 9 ) A1\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.17"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nConsider the vectors $\\boldsymbol{a}=\\boldsymbol{i}-3\\boldsymbol{j}-2\\boldsymbol{k}$, $\\boldsymbol{b}=-3\\boldsymbol{j}+2\\boldsymbol{k}$.\n(a) Find $\\boldsymbol{a}\\times\\boldsymbol{b}$. [2]\n(b) Hence find the Cartesian equation of the plane containing the vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$, and passing through the point $(1, 0, -1)$. [3]"
+  },
+  {
+   "id": "math-2016-N-P1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nThe quadratic equation x2- 2kx+ (k- 1) = 0 has roots α and β such that α2+β 2= 4 .\nWithout solving the equation, find the possible values of the real number k .",
+   "ms_text": "5. � � � � 2k A1\n��� k � 1 A1\n� � � 2 � 2 � � 2 � � 2 � �� � 2 ( ) 4 k 2 4 k (M1)\n�\nk � 1\n2 2 2 � � � � 4 k � 2 k � 2\n2 2 2 � � � � 4 � 4 k � 2 k � 2 � 0 A1\nattempt to solve quadratic (M1)\n1\nk� 1, � A1\n2\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nThe quadratic equation $x^2-2kx+(k-1)=0$ has roots $\\alpha$ and $\\beta$ such that $\\alpha^2+\\beta^2=4$. Without solving the equation, find the possible values of the real number $k$."
+  },
+  {
+   "id": "math-2016-N-P1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nThe sum of the first n terms of a sequence {un} is given by Sn = 3n2- 2n , where n ∈′+ .\n(a) Write down the value of u1 . [1]\n(b) Find the value of u6 . [2]\n(c) Prove that {un} is an arithmetic sequence, stating clearly its common difference. [4]",
+   "ms_text": "6. (a) u� 1 A1\n1\n[1 mark]\n(b) u � S � S � 31 M1A1\n6 6 5\n[2 marks]\n(c) u � S � S M1\nn n n � 1\n2 2 � � 3 n � 2 n � � � 3( n � 1) � 2( n � 1) �\n� � 2 � � � � 2 � � � � � 3 n 2 n 3 n 6 n 3 2 n 2\n� 6 n � 5 A1\nd �un�1 �un R1\n� 6 n � 6 �� 5 6 n � 5\n�6(n �1)�5 � ��(6n �5)\n� 6 (constant) A1\nNotes: Award R1 only if candidate provides a clear argument that proves that the difference\nbetween ANY two consecutive terms of the sequence is constant. Do not accept examples\ninvolving particular terms of the sequence nor circular reasoning arguments (eg use of\nformulas of APs to prove that it is an AP). Last A1 is independent of R1.\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nThe sum of the first $n$ terms of a sequence $\\{u_n\\}$ is given by $S_n=3n^2-2n$, where $n\\in\\mathbb{Z}^+$.\n(a) Write down the value of $u_1$. [1]\n(b) Find the value of $u_6$. [2]\n(c) Prove that $\\{u_n\\}$ is an arithmetic sequence, stating clearly its common difference. [4]"
+  },
+  {
+   "id": "math-2016-N-P1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 5]\nSolve the equation 4x+ 2x + 2= 3 .",
+   "ms_text": "7. attempt to form a quadratic in 2x M1\n2\n� x � x 2 � 42 � � 3 � 0 A1\n� � � 4 16 12\nx � � 2 � �� 2 � 7 M1\n2\nx �� 2 2 � 7 (as 2 �� 7 � 0 ) R1\n� � � � ln�2 �\n7\n� �x � � � x �log2�2 � 7 A1\n� ln2 �\n� �\n� �. Note: Award R0 A1 if final answer is x �log2�2 � 7\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.7",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 5]\nSolve the equation $4^x+2^{x+2}=3$.",
+   "review_note": "audit: hidden quadratic in 2^x then x=log2(..): 1.7 primary + 2.7; matches 2007-M-P1-TZ1-q19, 2007-N-P1-q15"
+  },
+  {
+   "id": "math-2016-N-P1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nConsider the lines l1 and l2 defined by\n- 3 1\n6 - x y - 2\nl : r= - 2 + β 4 and l : = = 1 - z where a is a constant.\n1 2\n3 4\na 2\nGiven that the lines l1 and l2 intersect at a point P ,\nfind the value of a ; (a) [4]\n(b) determine the coordinates of the point of intersection P . [2]",
+   "ms_text": "8. (a) METHOD 1\n� � 3 � �� 1 � x ��� 3 �\n� � �� �\nl : r �� 2 � � 4 � � y ��� 2 4 � M1\n1 � � ��\n� � �� �\na 2 z � a � 2 � � � �� �\n6 ��� � 3 � � � �� 2 4 � � � 2 4 �\n� � 4 � � � � 3 M1A1\n3 4 3\n��� � � � 6 3\n� � �� 1 a � 2 � � 2 ��� 5 a � a �� 7 A1\n3\nMETHOD 2\n� �� 3 � � 6 � 3 �\n��\n2 � 4 � � 4 � � 2 M1 �\n�\n� a � 2 � � 1 � �\nattempt to solve M1\n�� 2 �� 3 , A1\na � 1 � � � 2 � �� 7 A1\n[4 marks]\n� � � � �3 1\n�\n� � � �\n(b) OP � �2 �3� 4 (M1)\n�� �� �� ��\n�7 2\n� � � �\n� � 0\n� �\n� 10 A1\n�� ��\n�1\n� �\n� P0, 10, � � 1 �\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nConsider the lines $l_1$ and $l_2$ defined by\n$l_1: \\boldsymbol{r}=\\begin{pmatrix}-3\\\\-2\\\\a\\end{pmatrix}+\\beta\\begin{pmatrix}1\\\\4\\\\2\\end{pmatrix}$ and $l_2: \\frac{6-x}{3}=\\frac{y-2}{4}=1-z$ where $a$ is a constant.\nGiven that the lines $l_1$ and $l_2$ intersect at a point P,\n(a) find the value of $a$; [4]\n(b) determine the coordinates of the point of intersection P. [2]"
+  },
+  {
+   "id": "math-2016-N-P1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 9]\nA curve has equation 3x- 2y2ex - 1= 2 .\ny Find an expression for d\n(a) in terms of x and y . [5]\nd x\n(b) Find the equations of the tangents to this curve at the points where the curve intersects\nthe line x = 1 . [4]",
+   "ms_text": "9. (a) attempt to differentiate implicitly M1\n� d y � 2 x � 1\n3 � � 4 y � 2 y � e � 0 A1A1A1\n� d x �\nNote: Award A1 for correctly differentiating each term.\n1 � x 2 d y 3e � � 2 y\n� A1\nd x 4 y\nNote: This final answer may be expressed in a number of different ways.\n[5 marks]\n1 1 2 2\n(b) 3 � 2 y � 2 � y � � y �� A1\n2 2\n1\n3 � 2 �\nd y 2 2\n� �� M1\nd x 1 2\n�\n42\n� � 1 1\n2 ( at\n� 1, � the tangent is y � � x � 1) and A1\n� �\n2 � � 2 2\n� 1 � 1\n2 ( at 1, � the tangent is y � �� x � 1) A1\n� �\n� �\n2 2 2 � �\n2\nNote: These equations simplify to y �� x .\n2\nNote: Award A0M1A1A0 if just the positive value of y is considered and just\none tangent is found.\n[4 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 9]\nA curve has equation $3x-2y^2\\mathrm{e}^{x-1}=2$.\n(a) Find an expression for $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ in terms of $x$ and $y$. [5]\n(b) Find the equations of the tangents to this curve at the points where the curve intersects the line $x=1$. [4]"
+  },
+  {
+   "id": "math-2016-N-P1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 9]\nConsider two events A and B defined in the same sample space.\n(a) Show that P(A ∪ B) = P(A) + P(A' ∩ B) . [3]\n4 )=1 ′=1\n(b) Given that P(A ∪ B ) = , P(B | A and P( B | A ) ,\n9 3 6\nshow that P(A)=1\n(i) ;\n3\n(ii) hence find P(B) . [6]",
+   "ms_text": "10 (a) METHOD 1\nP( A � B ) � P() A � P() B � P( A � B ) M1\n� � P() A � P( A � B ) � P( A � B ) � P( A � B ) M1A1\n� � P() A � P( A � B ) AG\nMETHOD 2\n� � � � � P( A B ) P() A P() B P( A B ) M1\n� P() A � P() B � P( A B )P() � B M1\n� P() A � � 1 � P( AB ) � � P() B\n� � � � P() A P( AB )P() B A1\n� P() A � P( A � � B ) AG\n[3 marks]\n(b) (i) use P( A � B ) � P() A � P( A � � B ) and P( A � � B ) � P( B | A � )P( A � ) (M1)\n4 1\n� P() A � � 1 � P() A � A1\n9 6\n8 � 18P() A � 31 � � P() A � M1\n1\nP() A� AG\n3\n(ii) METHOD 1\n� � � � � P() B P( A B ) P( A B ) M1\n� � � � P( B | A )P() A P( B | A )P() A M1\n1 1 1 2 2\n� � � � � A1\n3 3 6 3 9\nMETHOD 2\n1 1 1\nP( A � B ) � P( BA | )P() A � P( A � B ) � � � M1\n3 3 9\nP() B � P( A � B ) � P( A � B ) � P() A M1\n4 1 1 2\nP() B� � � � A1\n9 9 3 9\n[6 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 9]\nConsider two events $A$ and $B$ defined in the same sample space.\n(a) Show that $\\mathrm{P}(A\\cup B)=\\mathrm{P}(A)+\\mathrm{P}(A'\\cap B)$. [3]\n(b) Given that $\\mathrm{P}(A\\cup B)=\\frac{4}{9}$, $\\mathrm{P}(B\\mid A)=\\frac{1}{3}$ and $\\mathrm{P}(B\\mid A')=\\frac{1}{6}$,\n(i) show that $\\mathrm{P}(A)=\\frac{1}{3}$;\n(ii) hence find $\\mathrm{P}(B)$. [6]"
+  },
+  {
+   "id": "math-2016-N-P1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 22]\nLet y = exsin x .\ny Find an expression for d\n(a) . [2]\nd x\n2 y\nShow that d\n(b) [2] x= 2excos x .\n2 d\nConsider the function f defined by f (x) = exsin x , 0 ≤ x ≤π.\nÀ Show that the function f has a local maximum value when x=3\n3π.\n(c) [2]\n4\n(d) Find the x-coordinate of the point of inflexion of the graph of f . [2]\n(e) Sketch the graph of f , clearly indicating the position of the local maximum point,\nthe point of inflexion and the axes intercepts. [3]\n(f) Find the area of the region enclosed by the graph of f and the x-axis. [6]\n2 d y\n2 d x\nThe curvature at any point (x , y) on a graph is defined as κ= .\n3\n2 2\nd y\n1 +\nd x\n(g) Find the value of the curvature of the graph of f at the local maximum point. [3]\nFind the value κ for x=À π and comment on its meaning with respect to the shape of\n(h)\n2\nthe graph. [2]",
+   "ms_text": "d y x x x\n11. (a) esin x � ecos x � � e(sin x � cos) x � M1A1 x�\nd\n[2 marks]\nd 2 y x x\n(b) � e(sin x � cos) x � e(cos x � sin) x M1A1\n2 d x\nx � 2ecos x AG\n[2 marks]\n3π\nd y � 3π 3π �\n4 (c) � e sin � cos � 0 R1\n� �\nd x � 4 4 �\n2 3π d y 3π\n4 � 2e cos � 0 R1\n2 d x 4\n3π\nx� hence maximum at AG\n4\n[2 marks]\n2 d y\n� � x � (d) 0 2ecos x 0 M1\n2 d x\nπ\n� x � A1\n2\nNote: Award M1A0 if extra zeros are seen.\n[2 marks]\n(e)\ncorrect shape and correct domain A1\n3π π\nmax at x� , point of inflexion at x� A1\n4 2\nzeros at x� 0 and x� π A1\nNote: Penalize incorrect domain with firstA mark; allow FT from (d) on extra\npoints of inflexion.\n[3 marks]\n(f) EITHER\nπ π π\nx � � x � � x\n� esin x d x esin x � ecosd xx M1A1 � �\n0\n0 0\nπ π π �\nπ � x x x x\n� esin x d x � � esin x � � � � ecos x � � � esin x d x � A1 � � � �\n0 0 � �\n0 0\nOR\n� � �\nx �� � x � � x\n� esin xx d ecos x � ecosd xx M1A1 � �\n0\n0 0\n� � � �\n� � x x x x\n� esin xx d �� � ecos x � � � � esin x � � � esin xx d � A1 � � � �\n0 0 � �\n0 0\nTHEN\nπ\n1 x x π x π\nesin x d x � � � esin x � � � ecos x � � M1A1 �\n� � � � 0 0\n2\n0\nπ\n1 x\n� π � � esin x d x� e � 1 A1\n2\n0\n[6 marks]\nd y\n(g) 0 (A1) x�\nd\n2 3π 3π d y 3π\n� 2e 4 cos �� 2e 4 (A1)\nd x 2 4\n3π\n� 4 2e\n3π\n� � � 2e 4 A1\n1\n[3 marks]\n(h) �� 0 A1\nthe graph is approximated by a straight line R1\n[2 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.6",
+    "5.8",
+    "5.7",
+    "5.11",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 22]\nLet $y=\\mathrm{e}^x\\sin x$.\n(a) Find an expression for $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$. [2]\n(b) Show that $\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}=2\\mathrm{e}^x\\cos x$. [2]\nConsider the function $f$ defined by $f(x)=\\mathrm{e}^x\\sin x$, $0\\le x\\le\\pi$.\n(c) Show that the function $f$ has a local maximum value when $x=\\frac{3\\pi}{4}$. [2]\n(d) Find the $x$-coordinate of the point of inflexion of the graph of $f$. [2]\n(e) Sketch the graph of $f$, clearly indicating the position of the local maximum point, the point of inflexion and the axes intercepts. [3]\n(f) Find the area of the region enclosed by the graph of $f$ and the $x$-axis. [6]\nThe curvature at any point $(x, y)$ on a graph is defined as $\\kappa=\\frac{\\left|\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\\right|}{\\left(1+\\left(\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right)^2\\right)^{\\frac{3}{2}}}$.\n(g) Find the value of the curvature of the graph of $f$ at the local maximum point. [3]\n(h) Find the value $\\kappa$ for $x=\\frac{\\pi}{2}$ and comment on its meaning with respect to the shape of the graph. [2]"
+  },
+  {
+   "id": "math-2016-N-P1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 19]\nLet ω be one of the non-real solutions of the equation z3= 1 .\n(a) Determine the value of\n(i) 1 +ω +ω2;\n(ii) 1 +ω* + (ω*)2. [4]\n(b) Show that (ω- 3ω2)(ω2- 3ω)= 13 . [4]\nConsider the complex numbers p= 1 - 3i and q=x+ (2x+ 1)i , where x ∈ϒ .\n(c) Find the values of x that satisfy the equation |p |=|q| . [5]\n(d) Solve the inequality Re( pq) + 8 <(Im( pq))2 . [6]",
+   "ms_text": "12. (a) (i) METHOD 1\n3 1 � �\n2 1 � � � � � � 0 A1\n� � 1\nas �� 1 R1\nMETHOD 2\n�� 1 3i\n3 solutions of 1 � � � 0 are � � 1, � � A1\n2\nverification that the sum of these roots is 0 R1\n2 *\n� * � (ii) 1 � � � � � 0 A2\n[4 marks]\n� � � � 2 �� � 2 � � � �� � 4 � � 3 � � 2 (b) 3 3 3 10 3 M1A1\nEITHER\n2 2 3 �� 3 � ( � � � � 1) � 13 � M1\n2 �� 3 � � 0 � 13 � 1 A1\nOR\n2 2 �� 3 � � 10 � 3 � �� 3( � � � � 1) � 13 M1\n�� 3 � 0 � 13 A1\nOR\n�� 1 3i\n� � substitution by in any form M1\n2\nnumerical values of each term seen A1\nTHEN\n� 13 AG\n[4 marks]\n(c) p � q � 1 2 � 3 2 � x 2 � (2 x � 1) 2 (M1)(A1)\n5 x 2 � 4 x � 9 � 0 A1\n(5 x � 9)( x � 1) � 0 (M1)\n9\nx � 1, x �� A1\n5\n[5 marks]\n� � (d) pq � (1 � 3i) x +(2+ 1)i x � (7 x � 3) � (1 � x )i M1A1\n2 2\nRe( pq ) � 8 � � Im( pq ) � � (7 x � 3) � 8 � (1 � x ) M1\n2 � x � 9 x � 10 � 0 A1\n� ( x � 1)( x � 10) � 0 M1\nx �� 1, x � 10 A1\n[6 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.12",
+    "1.14",
+    "2.7",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 19]\nLet $\\omega$ be one of the non-real solutions of the equation $z^3=1$.\n(a) Determine the value of\n(i) $1+\\omega+\\omega^2$;\n(ii) $1+\\omega^*+(\\omega^*)^2$. [4]\n(b) Show that $(\\omega-3\\omega^2)(\\omega^2-3\\omega)=13$. [4]\nConsider the complex numbers $p=1-3\\mathrm{i}$ and $q=x+(2x+1)\\mathrm{i}$, where $x\\in\\mathbb{R}$.\n(c) Find the values of $x$ that satisfy the equation $|p|=|q|$. [5]\n(d) Solve the inequality $\\mathrm{Re}(pq)+8<(\\mathrm{Im}(pq))^2$. [6]"
+  },
+  {
+   "id": "math-2016-N-P1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 19]\nÀ π 3À π 5À π 7À π 9À\nπ.\n(a) Find the value of sin + sin + sin + sin + sin [2]\n4 4 4 4 4\n- cos 2 x\nShow that 1\n(b) ≡ sin, xx ≠ kπ where k∈′ . [2]\n2 sin x\n(c) Use the principle of mathematical induction to prove that\n1 - cos 2 nx\n+ +⊃+ - = ∈ + sin x sin 3 x sin ( 2 n 1 ) x , n ′,x ≠ kπ where k ∈′ . [9]\n2 sin x\n(d) Hence or otherwise solve the equation sin x+ sin 3x= cos x in the interval 0 <x < π . [6]",
+   "ms_text": "π 3π 5π 7π 9π 2 2 2 2 2 2\n� � � � � � � � � � 13. (a) sin sin sin sin sin\n4 4 4 4 4 2 2 2 2 2 2\n(M1)A1\nNote: Award M1 for 5 equal terms with � or � signs.\n[2 marks]\n2 1 � � 1 � 2sin x �\n1 � cos2 x\n� (b) M1\n2sin x 2sin x\n2 2sin x\n� A1\n2sin x\n� sin x AG\n[2 marks]\n1 � cos2 nx\nP(): sin n x � sin3 x ��� sin(2 n � 1) x � (c) let\n2sin x\nif n� 1\n� x\nP(1):1cos2 � sin x\nwhich is true (as proved in part (b)) R1\n2sin x\n1 � cos2 kx\nassume P(k) true, sin x � sin3 x ��� sin(2 k � 1) x � M1\n2sin x\nNotes: Only award M1 if the words “assume” and “true” appear. Do not award M1 for\n“let n�k” only. Subsequent marks are independent of this M1.\nconsider P( k� 1) :\n� � 1 cos2( k 1) x\nP( k � 1):sin x � sin3 x ��� sin(2 k � 1) x � sin(2 k � 1) x �\n2sin x\nLHS � sin x � sin3 x ��� sin (2 k � 1) x � sin (2 k � 1) x M1\n1 � cos2 kx\n� � sin(2 k � 1) x A1\n2sin x\n1 � cos2 kx � 2sinsin(2 x k � 1) x\n�\n2sin x\n2 1 � cos2 kx � 2sin x cos x sin 2 kx � 2sin x cos2 kx\n� M1\n2sin x\n� � � � 2 � � � 1 1 2sin x cos2 kx sin 2 x sin 2 kx\n� M1\n2sin x\n1 � � cos2 x cos2 kx � sin 2 x sin 2 kx �\n� A1\n2sin x\n1 � cos2 � kx � 2 x �\n� A1\n2sin x\n1 � cos2( k � 1) x\n�\n2sin x\nso if true for n�k, then also true for n�k�1\n� as true for n�1 then true for all n ��\nR1\nNote: Accept answers using transformation formula for product of sines if steps are\nshown clearly.\nNote: Award R1 only if candidate is awarded at least 5 marks in the previous steps.\n[9 marks]\n(d) EITHER\nsin x �sin3x �cosx �1 �cos4x\n�cosx M1\n2sin x\n� 1 � cos4 x � 2sin x cos x , (sin x� 0 ) A1\n2 � 1 � � 1 � 2sin2 x � � sin 2 x M1\n� sin 2(2sin 2 x x � 1) � 0 M1\n1\n� sin 2 x � 0 or sin 2 x� A1\n2\nπ 5π\n2 x � π,2 x � and 2 x �\n6 6\nOR\nsin x �sin3x �cosx �2sin2xcosx �cosx M1A1\n� � � � � x� 2sin2 x 1cos x 0 , (sin 0 ) M1A1\n�sin2x �1\nor cosx �0 A1\n2\n� � � 5\n2 x � , 2 x � and x �\n6 6 2\nTHEN\nπ π 5π\n� x� x� x� , and A1\n2 12 12\nNote: Do not award the final A1 if extra solutions are seen.\n[6 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.10",
+    "3.6",
+    "3.5",
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 19]\n(a) Find the value of $\\sin\\frac{\\pi}{4}+\\sin\\frac{3\\pi}{4}+\\sin\\frac{5\\pi}{4}+\\sin\\frac{7\\pi}{4}+\\sin\\frac{9\\pi}{4}$. [2]\n(b) Show that $\\frac{1-\\cos 2x}{2\\sin x}\\equiv\\sin x$, $x\\ne k\\pi$ where $k\\in\\mathbb{Z}$. [2]\n(c) Use the principle of mathematical induction to prove that\n$\\sin x+\\sin 3x+\\ldots+\\sin(2n-1)x=\\frac{1-\\cos 2nx}{2\\sin x}$, $n\\in\\mathbb{Z}^+$, $x\\ne k\\pi$ where $k\\in\\mathbb{Z}$. [9]\n(d) Hence or otherwise solve the equation $\\sin x+\\sin 3x=\\cos x$ in the interval $0<x<\\pi$. [6]",
+   "review_note": "qp crop trimmed via overrides to drop blank 'answers not marked' pages"
+  }
+ ],
+ "status": "done"
+}

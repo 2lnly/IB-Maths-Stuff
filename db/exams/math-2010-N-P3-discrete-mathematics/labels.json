@@ -1,0 +1,35 @@
+{
+  "exam_id": "math-2010-N-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.6"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 12]\n(a) (i) Write down the degree of each vertex for the following two graphs.\n[Diagram: Graph G with vertices A, B, C, D, E; edges AB, BC, AC, CD, DE (triangle ABC with a path C-D-E)]\n[Diagram: Graph H with vertices A, B, C, D, E; edges AB, BC, CD, DA, DE (square ABCD with a pendant edge D-E)]\n(ii) Are graphs $G$ and $H$ isomorphic? Justify your answer. [4 marks]\n(b) (i) A graph is simple, planar and connected. Write down the inequality connecting $v$ and $e$, and give the condition on $v$ for this inequality to hold.\n(ii) Sketch a simple, connected, planar graph with $v = 2$ where the inequality from part (b)(i) is not true.\n(iii) Sketch a simple, connected, planar graph with $v = 1$ where the inequality from part (b)(i) is not true.\n(iv) Given a connected, planar graph with $v$ vertices, $v^2$ edges and 8 faces, find $v$. Sketch a graph that fulfils all of these conditions. [8 marks]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.4"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 11]\n(a) Find the general solution for the following system of congruences.\n$N \\equiv 3 \\pmod{11}$\n$N \\equiv 4 \\pmod{9}$\n$N \\equiv 0 \\pmod{7}$ [9 marks]\n(b) Find all values of $N$ such that $2000 \\le N \\le 4000$. [2 marks]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.8"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 12]\nConsider the following weighted graph.\n[Diagram: weighted graph with vertices A, B, C, D, E, F, G; edges AB 8, AC 8, AD 7, BC 9, BF 10, CF 8, CE 4, CD 1, DE 3, DG 4, EF 6, EG 2, FG 7]\n(a) (i) Use Kruskal's algorithm to find the minimum spanning tree. Indicate the order in which you select the edges and draw the final spanning tree.\n(ii) Write down the total weight of this minimum spanning tree. [8 marks]\n(b) Sketch a spanning tree of maximum total weight and write down its weight. [4 marks]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.5", "6.2", "6.4"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 11]\n(a) Write down Fermat's little theorem. [2 marks]\n(b) In base 5 the representation of a natural number $X$ is $(k00013(5-k))_5$. This means that $X = k \\times 5^6 + 1 \\times 5^2 + 3 \\times 5 + (5-k)$.\nIn base 7 the representation of $X$ is $(a_n a_{n-1} \\ldots a_2 a_1 a_0)_7$.\nFind $a_0$. [5 marks]\n(c) Given that $k = 2$, find $X$ in base 7. [4 marks]"
+    },
+    "5": {
+      "topics": ["6"],
+      "subtopics": ["6.6", "6.12", "6.1"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 14]\n(a) A graph has $n$ vertices with degrees $1, 2, 3, \\ldots, n$. Prove that $n \\equiv 0 \\pmod 4$ or $n \\equiv 3 \\pmod 4$. [6 marks]\n(b) Let $G$ be a simple graph with $n$ vertices, $n \\ge 2$. Prove, by contradiction, that at least two of the vertices of $G$ must have the same degree. [8 marks]"
+    }
+  }
+}

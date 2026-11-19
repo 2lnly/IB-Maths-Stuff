@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2016-N-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.4", "6.2"],
+      "text_clean": "1. [Maximum mark: 17]\nIn this question the notation $(a_n a_{n-1} \\ldots a_2 a_1 a_0)_b$ is used to represent a number in base $b$, that has unit digit of $a_0$. For example $(2234)_5$ represents $2 \\times 5^3 + 2 \\times 5^2 + 3 \\times 5 + 4 = 319$ and it has a unit digit of $4$.\n(a) Let $x$ be the cube root of the base 7 number $(503231)_7$.\n(i) By converting the base 7 number to base 10, find the value of $x$, in base 10.\n(ii) Express $x$ as a base 5 number. [7]\n(b) Let $y$ be the base 9 number $(a_n a_{n-1} \\ldots a_1 a_0)_9$. Show that $y$ is exactly divisible by 8 if and only if the sum of its digits, $\\sum_{i=0}^{n} a_i$, is also exactly divisible by 8. [7]\n(c) Using the method from part (b), find the unit digit when the base 9 number $(321321321)_9$ is written as a base 8 number. [3]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.6", "6.8"],
+      "text_clean": "2. [Maximum mark: 8]\nIn this question no graphs are required to be drawn. Use the handshaking lemma and other results about graphs to explain why,\n(a) a graph cannot exist with a degree sequence of $1, 2, 3, 4, 5, 6, 7, 8, 9$; [2]\n(b) a simple, connected, planar graph cannot exist with a degree sequence of $4, 4, 4, 4, 5, 5$; [3]\n(c) a tree cannot exist with a degree sequence of $1, 1, 2, 2, 3, 3$. [3]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.10"],
+      "text_clean": "3. [Maximum mark: 16]\nIn a computer game, Fibi, a magic dragon, is climbing a very large staircase. The steps are labelled $0, 1, 2, 3, \\ldots$.\nShe starts on step $0$. If Fibi is on a particular step then she can either jump up one step or fly up two steps. Let $u_n$ represent the number of different ways that Fibi can get to step $n$. When counting the number of different ways, the order of Fibi's moves matters, for example jump, fly, jump is considered different to jump, jump, fly. Let $u_0 = 1$.\n(a) Find the values of $u_1, u_2, u_3$. [3]\n(b) Show that $u_{n+2} = u_{n+1} + u_n$. [2]\n(c) (i) Write down the auxiliary equation for this recurrence relation.\n(ii) Hence find the solution to this recurrence relation, giving your answer in the form $u_n = A\\alpha^n + B\\beta^n$ where $\\alpha$ and $\\beta$ are to be determined exactly in surd form and $\\alpha > \\beta$. The constants $A$ and $B$ do not have to be found at this stage. [5]\n(d) (i) Given that $A = \\frac{1}{\\sqrt{5}}\\left(\\frac{1+\\sqrt{5}}{2}\\right)$, use the value of $u_0$ to determine $B$.\n(ii) Hence find the explicit formula for $u_n$. [3]\n(e) Find the value of $u_{20}$. [1]\n(f) Find the smallest value of $n$ for which $u_n > 100\\,000$. [2]"
+    },
+    "4": {
+      "topics": ["6", "1"],
+      "subtopics": ["6.9", "6.7", "6.8", "1.2"],
+      "text_clean": "4. [Maximum mark: 19]\nThe simple, complete graph $\\kappa_n$ $(n > 2)$ has vertices $A_1, A_2, A_3, \\ldots, A_n$. The weight of the edge from $A_i$ to $A_j$ is given by the number $i + j$.\n(a) (i) Draw the graph $\\kappa_4$ including the weights of all the edges.\n(ii) Use the nearest-neighbour algorithm, starting at vertex $A_1$, to find a Hamiltonian cycle.\n(iii) Hence, find an upper bound to the travelling salesman problem for this weighted graph. [4]\n(b) Consider the graph $\\kappa_5$. Use the deleted vertex algorithm, with $A_5$ as the deleted vertex, to find a lower bound to the travelling salesman problem for this weighted graph. [5]\nConsider the general graph $\\kappa_n$.\n(c) (i) Use the nearest-neighbour algorithm, starting at vertex $A_1$, to find a Hamiltonian cycle.\n(ii) Hence find and simplify an expression in $n$, for an upper bound to the travelling salesman problem for this weighted graph. [7]\n(d) By splitting the weight of the edge $A_iA_j$ into two parts or otherwise, show that all Hamiltonian cycles of $\\kappa_n$ have the same total weight, equal to the answer found in (c)(ii). [3]"
+    }
+  }
+}

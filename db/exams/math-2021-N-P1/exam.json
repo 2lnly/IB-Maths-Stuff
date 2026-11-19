@@ -1,0 +1,289 @@
+{
+ "exam_id": "math-2021-N-P1",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2021,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2021 November Examination Session/Mathematics_analysis_and_approaches_paper_1__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2021 November Examination Session/Mathematics_analysis_and_approaches_paper_1__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8821-7101; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2021-N-P1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\ny π π\nGiven that d 3 = cos x -\nx = , find y in terms of x . and y=2 when\nd x 4 4",
+   "ms_text": "1. METHOD 1\nπ\nrecognition that y = ∫ cos x − d x (M1)\n4\nπ\ny = sin x − ( + c ) (A1)\n4\nx and y values into their integrated expression including c substitute both (M1)\nπ\n2 = + c\nsin 2\nc = 1\nπ\ny = sin x − + 1 A1\n4\n[4 marks]\nMETHOD 2\ny x\nπ\n∫ d y = ∫ cos x − d x (M1)(A1)\n4\n3π 2\n4\nπ π\ny − 2 = sin x − − sin A1\n4 2\nπ\ny = sin x − + 1 A1\n4\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nGiven that $\\frac{dy}{dx} = \\cos\\left(x - \\frac{\\pi}{4}\\right)$ and $y = 2$ when $x = \\frac{3\\pi}{4}$, find $y$ in terms of $x$."
+  },
+  {
+   "id": "math-2021-N-P1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 9]\n2 x + 4\nThe function f is defined by fx () = , where x∈ϒ , x≠3 .\n− 3 x\n(a) Write down the equation of\n(i) the vertical asymptote of the graph of f ;\n(ii) the horizontal asymptote of the graph of f .\b [2]\nFind the coordinates where the graph of f crosses (b)\n(i) the x-axis;\n(ii) the y-axis.\b [2]\n(c) Sketch the graph of f on the axes below.\b [1]\ny\n15\n10\n5\nx\n−15 −10 −5 0 5 10 15\n−5\n−10\n−15\nax + 4\n() = The function g is defined by gx , where x∈ϒ , x≠3 and a∈ϒ .\n3 − x\n(d) Given that g (x)=g-1(x) , determine the value of a .\b [4]",
+   "ms_text": "2. (a) (i) x = 3 A1\n(ii) y = − 2 A1\n[2 marks]\n( ) (b) (i) − 2,0 (accept x = −) 2 A1\n4 4 4\n(ii) (accept y = and f () 0 = ) A1\n0, 3\n3 3\n[2 marks]\n(c)\nA1\nNote: Award A1 for completely correct shape: two branches in correct\nquadrants with asymptotic behaviour.\n[1 mark]\ncontinue…\n(d) METHOD 1\nax + 4\n( () ) gx = y =\n3 − x\nattempt to find x in terms of y (M1)\nOR exchangex and y and attempt to findyin terms ofx\n3 y − xy = ax + 4 A1\nax + xy = 3 y − 4\nxa ( + y ) = 3 y − 4\n− 3 y 4\nx =\ny + a\n3 x − 4 − 1\ng () x = A1\n+ x a\nNote: Condone use ofy =\n−\ngx () ≡ g 1 () x\nax + 4 3 x − 4\n≡\n3 − x x + a\n⇒ a = − 3 A1\n[4 marks]\ncontinue…\nMETHOD 2\nax + 4\n() gx =\n3 − x\n( () ) attempt to find an expression for ggx and equate to x (M1)\nax + 4 +\na 4\n3 − x\n() ggx = = x A1\nax + 4\n3 −\n3 − x\n( + ) + ( − ) aax 4 43 x\n= x\n( 9 − 3 x )( − ax + 4 )\naax ( + 4 ) + 43 ( − x )\n= x\n5 − ( 3 + ax )\n( + ) + ( − ) = ( − ( + ) ) aax 4 43 x x 5 3 ax A1\n2 equating coefficients of x (or similar)\na = − 3 A1\n[4 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.14",
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 9]\nThe function $f$ is defined by $f(x) = \\frac{2x+4}{3-x}$, where $x \\in \\mathbb{R}$, $x \\neq 3$.\n(a) Write down the equation of\n(i) the vertical asymptote of the graph of $f$;\n(ii) the horizontal asymptote of the graph of $f$. [2]\n(b) Find the coordinates where the graph of $f$ crosses\n(i) the $x$-axis;\n(ii) the $y$-axis. [2]\n(c) Sketch the graph of $f$ on the axes below. [1]\n[Diagram: blank axes, $x$ from $-15$ to $15$, $y$ from $-15$ to $15$]\nThe function $g$ is defined by $g(x) = \\frac{ax+4}{3-x}$, where $x \\in \\mathbb{R}$, $x \\neq 3$ and $a \\in \\mathbb{R}$.\n(d) Given that $g(x) = g^{-1}(x)$, determine the value of $a$. [4]"
+  },
+  {
+   "id": "math-2021-N-P1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\n1 3\nSolve the equation log x = + log ( 4 x ), where x>0 .\n3 3\n2 log 3\n2",
+   "ms_text": "3. attempt to use change the base (M1)\nlog2 3\nlog x = 3 + log ( 4 x )\n3 3\n2\nattempt to use the power rule (M1)\n3 log x = log 2 + log ( 4 x )\n3 3 3\nattempt to use product or quotient rule for logs, ln a + ln b = ln ab (M1)\n( 3 ) log x = log 42 x\n3 3\nNote: The M marks are for attempting to use the relevant log rule and may be\napplied in any order and at any time during the attempt seen.\n3 x = 42 x\n6 x = 32 x\n5 1 x= (A1)\n32\n1\nx = A1\n2\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nSolve the equation $\\log_3 \\sqrt{x} = \\frac{1}{2\\log_2 3} + \\log_3(4x^3)$, where $x > 0$."
+  },
+  {
+   "id": "math-2021-N-P1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nBox 1 contains 5 red balls and 2 white balls.\nBox 2 contains 4 red balls and 3 white balls.\n(a) A box is chosen at random and a ball is drawn. Find the probability that the ball is red.\b [3]\nLet A be the event that “box 1 is chosen” and let R be the event that “a red ball is drawn”.\n(b) Determine whether events A and R are independent.\b [2]",
+   "ms_text": "valid approach to find () 4. (a) PR (M1)\ntree diagram (must include probabilty of picking box) with correct required probabilities\nOR ( P R ∩ B ) + P ( R ∩ B ) OR ( P RB | )( P B ) + P ( RB | )( P B )\n1 2 1 1 2 2\n51 41\n⋅ + ⋅ (A1)\n72 72\n9\n() P R= A1\n14\n[3 marks]\n1 5 9 1 events A and R are not independent, since9 OR 5 OR 5\n(b) ⋅ ≠ ≠ ≠\n142 14 7 14 9 2\nOR an explanation e.g. different number of red balls in each box A2\nNote: Both conclusion and reasoning are required. Do not split the A2.\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nBox 1 contains 5 red balls and 2 white balls.\nBox 2 contains 4 red balls and 3 white balls.\n(a) A box is chosen at random and a ball is drawn. Find the probability that the ball is red. [3]\nLet $A$ be the event that \"box 1 is chosen\" and let $R$ be the event that \"a red ball is drawn\".\n(b) Determine whether events $A$ and $R$ are independent. [2]"
+  },
+  {
+   "id": "math-2021-N-P1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\nThe function f is defined for all x∈ϒ . The line with equation y=6x-1 is the tangent to\nthe graph of f at x=4 .\n(a) Write down the value of f ′(4) .\b [1]\n(b) Find f (4) .\b [1]\nThe function g is defined for all x∈ϒ where g (x)=x2-3x and h (x)=f(g (x)) .\n(c) Find h (4).\b [2]\n(d) Hence find the equation of the tangent to the graph of h at x=4 .\b [3]",
+   "ms_text": "5. (a) f ′ (4) = 6 A1\n[1 mark]\n(b) f (4) =×−= 641 23 A1\n[1 mark]\n(c) h (4) = fg ( (4) ) (M1)\n2 h (4) = f (4 −× 34) = f (4)\n= h (4) 23 A1\n[2 marks]\n(d) attempt to use chain rule to find h′ (M1)\n′ 2 2\nf ′ ( gx () ) × gx ′ () OR( x − 3 x ) × f ′ ( x − 3 x )\n2 h ′ (4) = ( 24 ×− 3 ) f ′ ( 4 −× 34 ) A1\n= 30\ny − 23 = 30 ( x − 4 ) y = 30 x − 97 OR A1\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.4",
+    "5.6",
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nThe function $f$ is defined for all $x \\in \\mathbb{R}$. The line with equation $y = 6x - 1$ is the tangent to the graph of $f$ at $x = 4$.\n(a) Write down the value of $f'(4)$. [1]\n(b) Find $f(4)$. [1]\nThe function $g$ is defined for all $x \\in \\mathbb{R}$ where $g(x) = x^2 - 3x$ and $h(x) = f(g(x))$.\n(c) Find $h(4)$. [2]\n(d) Hence find the equation of the tangent to the graph of $h$ at $x = 4$. [3]"
+  },
+  {
+   "id": "math-2021-N-P1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\n2 6 2 x - 5 x - 3\n(a) Show that 2 x -- 3 = , x∈ϒ , x≠1 . \b [2]\nx - 1 x - 1\n6 for 0≤θ≤π , θ≠π\n(b) Hence or otherwise, solve the equation 2 sin 2 θ −− 3 0 .\b [5] −=\nθ sin 2 1 4",
+   "ms_text": "6. (a) METHOD 1\nattempt to write all LHS terms over a common denominator of x − 1 (M1)\n6 2 xx ( − 1 ) − 3 ( x − 1 ) − 6 2 x − 3 )( x − 1 ) 6 OR(\n2 x −− 3 = −\nx − 1 x − 1 x − 1 x − 1\n2 2 2 x − 2 x − 3 x +− 3 6\n2 x − 5 x + 3 6\n= OR − A1\nx − 1 x − 1 x − 1\n2 2 x − 5 x − 3\n= AG\nx − 1\n[2 marks]\nMETHOD 2\nattempt to use algebraic division on RHS (M1)\ncorrectly obtains quotient of 2 x − 3 and remainder − 6 A1\n6\n= 2 x −− 3 as required. AG\nx − 1\n[2 marks]\ncontinue…\n2 θ − θ − 2sin2 5sin2 3\n(b) consider the equation = 0 (M1)\nsin2 θ − 1\n2 ⇒ 2sin2 θ − 5sin2 θ − 3 = 0\nEITHER\nattempt to factorise in the form ( θ + )( θ + ) 2sin2 a sin2 b (M1)\nNote: Accept any variable in place ofsin2θ.\n( )( ) 2sin2 θ + 1sin2 θ − 3 = 0\nOR\nattempt to substitute into quadratic formula (M1)\n5 ± 49\nsin2 θ =\n4\nTHEN\n1\nθ= − θ= sin2 or sin2 3 (A1)\n2\n1\nNote: Award A1 for sin2 θ= − only.\n2\none of 7π OR 11π (accept 210 or 330)\n(A1)\n6 6\n7π11π\nθ= , (must be in radians) A1\n1212\nNote: Award A0 if additional answers given.\n[5 marks]\nTotal[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.8",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\n(a) Show that $2x - 3 - \\frac{6}{x-1} = \\frac{2x^2 - 5x - 3}{x-1}$, $x \\in \\mathbb{R}$, $x \\neq 1$. [2]\n(b) Hence or otherwise, solve the equation $2\\sin 2\\theta - 3 - \\frac{6}{\\sin 2\\theta - 1} = 0$ for $0 \\le \\theta \\le \\pi$, $\\theta \\neq \\frac{\\pi}{4}$. [5]"
+  },
+  {
+   "id": "math-2021-N-P1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\nThe equation 3px2+2px+1=p has two real, distinct roots.\n(a) Find the possible values for p .\b [5]\n(b) Consider the case when p=4 . The roots of the equation can be expressed in\na ± 13\nx = , where a∈′ . Find the value of a .\b the form [2]\n6",
+   "ms_text": "2 − ( > ) 7. (a) attempt to use discriminant b 4 ac 0 M1\n2\n( ) ( )( )( ) 2 p − 43 p 1 − p > 0\n16 p 2 − 12 p ( > 0 ) (A1)\np ( 4 p − 3 )( > 0 )\n3\nattempt to find critical values p = 0, p = M1\n4\nrecognition that discriminant > 0 (M1)\n3\np < 0 or p > A1\n4\nNote: Condone ‘or’ replaced with ‘and’, a comma, or no separator\n[5 marks]\n2\n(b) p = 4 ⇒ 12 x + 8 x −= 3 0\n2 −± b b − 4 ac\nvalid attempt to use x = (or equivalent) M1\n2 a\n−± 8 208\nx =\n24\n−± 2 13\nx =\n6\na = − 2 A1\n[2 marks]\nTotal[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nThe equation $3px^2 + 2px + 1 = p$ has two real, distinct roots.\n(a) Find the possible values for $p$. [5]\n(b) Consider the case when $p = 4$. The roots of the equation can be expressed in the form $x = \\frac{a \\pm \\sqrt{13}}{6}$, where $a \\in \\mathbb{Z}$. Find the value of $a$. [2]"
+  },
+  {
+   "id": "math-2021-N-P1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nd y ln2 x y 1 2,\nSolve the differential equation = - x > 0 , given that y=4 at x = .\n2 d x x x 2\nGive your answer in the form y=f(x) .",
+   "ms_text": "d y 2 y ln2 x\n8. + = (M1)\n2 d x x x\nattempt to find integrating factor (M1)\n∫ 2d x\nx 2ln x 2 e = e = x (A1)\n2 d y\nx 2 xy = ln2 x x +\nd\nd\n( 2 ) xy = ln2 x\nd x\nxy 2 = ∫ ln 2 d xx\nattempt to use integration by parts (M1)\n2 xy = x ln2 x − x ( + c ) A1\nln2 x 1 c\ny = − +\n2 x x x\n1 , substituting x = y = 4 into an integrated equation involving c M1\n2\n4 = 0 −+ 2 4c\n3\n⇒ = c\n2\nln2 x 1 3\n= − + y A1\n2 x x 2 x\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nSolve the differential equation $\\frac{dy}{dx} = \\frac{\\ln 2x}{x^2} - \\frac{2y}{x}$, $x > 0$, given that $y = 4$ at $x = \\frac{1}{2}$.\nGive your answer in the form $y = f(x)$."
+  },
+  {
+   "id": "math-2021-N-P1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\n1\n- 1 - x Consider the expression where a∈⁄ , a≠ 0 .\n1 + ax\nThe binomial expansion of this expression, in ascending powers of x , as far as the term in x2\nis 4bx+bx2 , where b∈⁄ .\n(a) Find the value of a and the value of b .\b [6]\nState the restriction which must be placed on x for this expansion to be valid.\b (b) [1]",
+   "ms_text": "9. (a) attempt to expand binomial with negative fractional power (M1)\n1 2 2 1\n− ax 3 ax\n= ( + ) 1 ax 2 =− 1 + + A1\n1 + ax 2 8\n1 2 x x\n( ) 1 − x = 1 − x 2 =− 1 − + ... A1\n2 8\n( 1 − a ) 2 + 1 3 a 1\n2 − 1 − x = x + x + ...\n1 + ax 2 8\nattempt to equate coefficients of x or 2x (M1)\n2\n1 − a 3 a 1 +=\nx: = 4 b ; 2x : b\n2 8\nattempt to solve simultaneously (M1)\n1 1\na = − , b = A1\n3 6\n[6 marks]\n(b) x< 1 A1\n[1 mark]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nConsider the expression $\\frac{1}{\\sqrt{1+ax}} - \\sqrt{1-x}$ where $a \\in \\mathbb{Q}$, $a \\neq 0$.\nThe binomial expansion of this expression, in ascending powers of $x$, as far as the term in $x^2$ is $4bx + bx^2$, where $b \\in \\mathbb{Q}$.\n(a) Find the value of $a$ and the value of $b$. [6]\n(b) State the restriction which must be placed on $x$ for this expansion to be valid. [1]"
+  },
+  {
+   "id": "math-2021-N-P1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 16]\nA particle P moves along the x-axis. The velocity of P is vm s-1 at time t seconds,\nwhere v (t)=4+4t-3t2 for 0≤t≤3 . When t=0 , P is at the origin O .\n(a) (i) \u0007Find the value of t when P reaches its maximum velocity.\nShow that the distance of P from O at this time is 88\n(ii) metres.\b [7]\n27\nSketch a graph of v against t , clearly showing any points of intersection (b)\nwith the axes.\b [4]\n(c) Find the total distance travelled by P .\b [5]",
+   "ms_text": "b\nv′= 10. (a) (i) valid approach to find turning point ( 0 , − , average of roots) (M1)\n2 a\n2\n− + 2\n4 3\n4 − 6 t = 0 OR − OR\n( − ) 2 3 2\n2\nt = (s) A1\n3\n(ii) attempt to integrate v (M1)\n( 2 ) 2 3 ( ) ∫ v d t = ∫ 4 + 4 t − 3 t d t = 4 t + 2 t − t + c A1A1\n+ 2 − Note: AwardA1for 4 t 2 t ,A1for 3t .\nattempt to substitute their t into their solution for the integral (M1)\n2 3\n2 2 2\ndistance = 4 + 2 −\n3 3 3\n8 8 8\n= + − (or equivalent) A1\n3 9 27\n88\n= (m) AG\n27\n[7 marks]\ncontinue…\n(b)\n2 valid approach to solve 4 + 4 t − 3 t = 0 (may be seen in part (a)) (M1)\n−± + 4 16 48\n( − )( + ) 2 t 2 3 t OR\n− 6\nt = correct x- intercept on the graph at 2 A1\nNote: The following two A marks may only be awarded if the shape is a\nconcave down parabola. These two marks are independent of each\nother and the (M1).\ncorrect domain from 0 to 3 starting at( 0,4 ) A1\nNote: The 3 must be clearly indicated.\n2\nvertex in approximately correct place for t = and v > 4 A1\n3\n[4 marks]\ncontinue…\n3\n2 (c) recognising to integrate between 0 and 2, or 2 and 3 OR\n∫ 4 + 4 t − 3 t d t (M1)\n0\n2\n2 ( 4 + 4 t − 3 t ) d t\n∫\n0\n= 8 A1\n3\n( 4 + 4 t − 3 t 2 ) d t ∫\n2\n= − 5 A1\nvalid approach to sum the two areas (seen anywhere) (M1)\n2 3 2 3\n∫ vt d − ∫ vt d OR ∫ vt d + ∫ vt d\n0 2 0 2\ntotal distance travelled 13 = (m) A1\n[5 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.11",
+    "2.6",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 16]\nA particle $P$ moves along the $x$-axis. The velocity of $P$ is $v\\ \\text{m s}^{-1}$ at time $t$ seconds, where $v(t) = 4 + 4t - 3t^2$ for $0 \\le t \\le 3$. When $t = 0$, $P$ is at the origin O.\n(a) (i) Find the value of $t$ when $P$ reaches its maximum velocity.\n(ii) Show that the distance of $P$ from O at this time is $\\frac{88}{27}$ metres. [7]\n(b) Sketch a graph of $v$ against $t$, clearly showing any points of intersection with the axes. [4]\n(c) Find the total distance travelled by $P$. [5]"
+  },
+  {
+   "id": "math-2021-N-P1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 14]\nn\nProve by mathematical induction that d 2 x 2 x\n(a) ( x e )= x + 2 nx + nn ( − 1 ) e for n∈′+ .\b [7]\nn d x\n(b) Hence or otherwise, determine the Maclaurin series of f(x)=x2ex in ascending powers\nof x , up to and including the term in x4 .\b [3]\n3 2 x 2\n( x e − x )\n(c) Hence or otherwise, determine the value of lim .\b [4] 9\nx → 0 x",
+   "ms_text": "11. (a) For n = 1\nd 2 x 2 x x x 2\nLHS: ( x e ) = x e + 2e x ( = e ( x + 2 x ) ) A1\nd x\n( 2 () ( ) ) x ( x ( 2 ) ) RHS: x + 21 x + 1 11e − = e x + 2 x A1\nn = so true for 1\nd k 2 x 2 x\nnow assume true for n = k ; i.e. ( e ) = x + 2 kx + kk ( − 1 ) e M1 kx\nd x\n= Note: Do not award M1 for statements such as ‘’let n k ’’. Subsequent\nmarks can still be awarded.\nattempt to differentiate the RHS M1\nk + 1 d d\n( 2 x ) = ( 2 + + ( − ) x ) x e x 2 kx kk 1 e\nk + 1 d x d x\n= ( + ) x + ( 2 + + ( − ) ) x 2 x 2 k e x 2 kx kk 1e A1\n2 ( ) ( ) = x + 2 k + 1 x + kk + 1 ex A1\nso true for n = k implies true for n = k + 1\nn = = true ⇒ = + therefore 1 true and n k n k 1 true\n+\ntherefore, true for all n ∈ R1\nNote: Award R1 only if three of the previous four marks have been\nawarded\n[7 marks]\ncontinue…\n(b) METHOD 1\nn d\n( 2 x ) = 2 + + ( − ) x attempt to use nx e x 2 nx nn 1 e (M1)\nd x\nd n 2 x\nNote: For x = 0 , ( x e ) nn ( − 1 ) may be seen. ==\nn | x 0 d x\n4\nf () 0 = 0, f ′ () 0 = 0, f ′′ () 0 = 2, f ′′′ () 0 = 6, f ()() 0 = 12\n2 3 4 x x x\n() () ′ () ′′ () ′′′ () ()() 4 use of fx = f 0 + xf 0 + f 0 + f 0 + f 0 + (M1)\n2! 3! 4!\n1 2 3 4\n⇒ fx () ≈ x + x + x A1\n2\n[3 marks]\nMETHOD 2\n2x×Maclaurin series of ex ’ ‘ (M1)\n2 x\nx 21 + x + + (A1)\n2!\n1 2 3 4\n⇒ fx () ≈ x + x + x A1\n2\n[3 marks]\ncontinue…\n(c) METHOD 1\n3\nx 2 ex − x 2 ) 1 into (\n2 x 2 3 4 attempt to substitute x e ≈ x + x + x M1\n9 2 x\n3\n1 2 3 4 2\n3 x + x + x ( + ) − x\n( 2 x − 2 ) x e x\n2\n≈ (A1)\n9 9 x x\nEITHER\n3\n1 3\n+ 4 + x x\n2\n= A1\n9 x\n9 x ( + higher order terms )\n=\n9 x\nOR\n3\n1 3 4\nx + x ( + ... )\n2\nA1\n3 x\n3\n1\n1 + ( + ... )\n2 x\nTHEN\n= 1 ( + higher order terms)\n3 2 x 2\n( x e − x )\n= So lim 1 A1\n9\nx → 0 x\n[4 marks]\ncontinue…\nMETHOD 2\n3 2 x 2 3\n( x e − x ) 2 x 2\nx e − x\n= lim lim M1\n9 3 x → 0 x x → 0 x\n3 x\ne − 1\n= lim (A1)\nx → 0 x\nattempt to use L'Hôpital's rule M1\n3 x\ne − 0\n= lim\nx→ 0 1\n3\nlimex =\nx→ 0\n= 1 A1\n[4 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.15",
+    "5.13",
+    "5.19",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 14]\n(a) Prove by mathematical induction that $\\frac{d^n}{dx^n}(x^2 e^x) = [x^2 + 2nx + n(n-1)]e^x$ for $n \\in \\mathbb{Z}^+$. [7]\n(b) Hence or otherwise, determine the Maclaurin series of $f(x) = x^2 e^x$ in ascending powers of $x$, up to and including the term in $x^4$. [3]\n(c) Hence or otherwise, determine the value of $\\lim_{x \\to 0}\\left[\\frac{(x^2 e^x - x^2)^3}{x^9}\\right]$. [4]"
+  },
+  {
+   "id": "math-2021-N-P1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 22]\nConsider the equation (z-1)3=i , z∈≤ . The roots of this equation are w1 , w2 and w3,\nwhere Im(w2)>0 and Im(w3)<0 .\niπ\n(a) (i) \u0007Verify that ω1 =+ e 1 6 is a root of this equation.\n(ii) Find w2 and w3, expressing these in the form a+eiθ, where a∈ϒ and θ>0 .\b [6]\nThe roots w1 , w2 and w3 are represented by the points A, B and C respectively on an\nArgand diagram.\n(b) Plot the points A, B and C on an Argand diagram. [4]\n(c) Find AC. [3]\nConsider the equation (z-1)3=iz3 , z∈≤ .\n1\n(d) By using de Moivre’s theorem, show that α= [3] iπ is a root of this equation.\b\n1 − e 6\n(e) Determine the value of Re(a) . [6]",
+   "ms_text": "π 3\ni6\n12. (a) (i) 1e + − 1\n3 π\ni6\n= e A1\nπ\ni2\n= e A1\nπ π\n= cos + isin\n2 2\n= i AG\nNote: Candidates who solve the equation correctly can be awarded the\nabove two marks. The working for part (i) may be seen in part (ii).\nπ\n3 i + 2π k\n( ) 2 (ii) z − 1 = e (M1)\nπ4π k +\ni6\n−= 6 z 1 e (M1)\n5π\n( ) i6 k = 1 ⇒ ω =+ 1e A1\n2\n9π\n( ) i6 k = 2 ⇒ ω =+ 1e A1\n3\n[6 marks]\ncontinue…\n(b) EITHER\nπ 5π 9π\ni6 i6 i6\nattempt to express e, e , e in Cartesian form and translate 1 unit in the\npositive direction of the real axis (M1)\nOR\nattempt to express wwand , win Cartesian form (M1)\n1 2 3\nTHEN\nNote: To award A marks, it is not necessary to see A,B or C, the iw, or\nthe solid lines\nA1A1A1\n[4 marks]\ncontinue…\n(c) valid attempt to find ω − ω (or ω − ω ) M1\n1 3 3 1\n3 1 3 3 π π π\nω − ω = 1 + + i − ( 1i − ) = + i OR cos + isin + isin\n1 3\n2 2 2 2 6 6 2\n3\n+ 3i valid attempt to find M1\n2 2\n3 9\n= +\n4 4\n= AC 3 A1\n[3 marks]\ncontinue…\n(d) METHOD 1\n3\nz − 1 3 3\n( z − 1 ) = i z ⇒ = i M1\nz\n3\n− π z 1 i2\n= e\nA1\nz\nα π −= 1 i6\ne A1\nα\nNote: This step to change from z to α may occur at any point in MS.\nπ\ni6\nα −= 1 α e\nπ\ni6\nα − α e = 1\nπ\nα i6\n1e − = 1\n1\nα= AG\nπ\ni6\n1e −\ncontinue…\nMETHOD 2\n3\nz − 1 3 3\n( z − 1 ) = i z ⇒ = i M1\nz\n3 π\n1 i2\n− = 1 e A1\nz\nπ\n1 i6\n1 − = e A1\nz\nNote: This step to change from z to α may occur at any point in MS.\nπ\n1 i6\n1e − =\nα\n1\nα= AG\nπ\ni6\n1e −\ncontinue…\nMETHOD 3\n3\n1 3\nLHS= ( z − 1) = − 1\nπ\ni\n1e − 6\n3 π\ni6\ne\n= π\ni\n6 1e −\ni i\n= = M1A1\n3 π\n5 33 33 5\ni6\n1e − − + i −\n2 2 2 2\nNote: Award M1 for applying de Moivre’s theorem (may be seen in\nmodulus- argument form.)\n3\n1 3\nRHS= i z i =\nπ\ni\n6 1e −\ni\n= A1\n3 π\ni6\n1e −\n− 3 = 3 ( z 1) i z AG\ncontinue…\nMETHOD 4\n3 3 ( z − 1) = i z\n3 2 3 z − 3 z + 3 z −= 1 i z\n3 2 ( 1 − i ) z − 3 z + 3 z −= 1 0\n(M1)\n3 2\n1 1 1\n(1i) − − 3 + 3 − 1\nπ π π\ni i i\n1e − 6 1e − 6 1e − 6\n2 3 π π π\ni i i\n6 6 6 = (1i) − − 3 1e − + 3 1e − − 1e − (A1)\nπ π π π π π\ni i i i i i\n= − − − 6 + − 6 + 3 − − 6 + 3 − 2 A1 (1i) 3 1e 3 12e e 13e 3 e e\n= 0 AG\nNote: If the candidate does not interpret their conclusion, award\n(M1)(A1)A0 as appropriate.\n[3 marks]\ncontinue…\n(e) METHOD 1\n1 1\n= M1\nπ π π\ni6 − +\n1e − 1 cos isin\n6 6\n2\n= A1\n− − 2 3 i\nattempt to use conjugate to rationalise M1\n− + 4 23 2i\n= A1\n2\n( ) 2 − 3 + 1\n4 − 23 + 2i\n= A1\n− 8 43\n1 1\n= + i\n2 4 − 23\n1\n() ⇒ Re α = A1\n2\nNote: Their final imaginary part does not have to be correct in order for the\nfinal three A marks to be awarded\n[6 marks]\ncontinue…\nMETHOD 2\n1 1\n= M1\nπ π π\ni6 −\n1e − 1 cos +isin\n6 6\nattempt to use conjugate to rationalise M1\nπ π\n1cos − + isin\n1 6 6\n= × A1\nπ π π π\n− − − + 1cos isin 1cos isin\n6 6 6 6\nπ π\n− + 1cos isin\n6 6\n= A1\n2\nπ π 2\n1cos − + sin\n6 6\nπ π\n1cos − + isin\n6 6\n=\nπ 2 π 2 π\n12cos − + cos + sin\n6 6 6\nπ π\n1cos − + isin\n6 6\n= A1\nπ\n2 −\n2cos 6\nπ\nisin\n1 6\n= +\n2 π\n− 2\n2cos 6\n1\n⇒ () α = Re A1\n2\nNote: Their final imaginary part does not have to be correct in order for the\nfinal three A marks to be awarded\n[6 marks]\ncontinue…\nMETHOD 3\nπ −\ni12\ne\nattempt to multiply through by − M1\n− π i12\ne\nπ −\ni12\n1 e\n= − A1\nπ π π\ni i − i\n1e − 6 e 12 − e 12\nattempting to re-write in r-cis form M1\nπ π\ncos − + isin −\n12 12\n= − A1\nπ π π π\n+ − − + − cos isin cos isin\n12 12 12 12\nπ π\ncos − isin\n12 12 = −\nA1\nπ\n2isin12\n1 1 π 1 1 π\n= − cot = + icot\n2 2i 12 2 2 12\n1\n⇒ Re () α = A1\n2\n[6 marks]\ncontinue…\nMETHOD 4\nπ −\ni6\n1e −\nattempt to multiply through by M1\nπ −\ni6\n1e −\nπ −\ni6\n1 1e −\n= A1\nπ π π\ni − i i\n1e − 6 1e − 6 − e 6 + 1\nattempting to re-write in r-cis form M1\nπ π\n1cos − − isin\n= 6 6 A1\nπ\n2 −\n2cos 6\nattempt to re-write in Cartesian form M1\n3 1 2 − 3 1\n− − 1 i\n2 2 2 2 = = +\ni\n2 − 3 2 − 3 2 − 3\n1\n⇒ Re( α= ) A1\n2\nNote: Their final imaginary part does not have to be correct in order for the\nfinal A mark to be awarded\n[6 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13",
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 22]\nConsider the equation $(z-1)^3 = i$, $z \\in \\mathbb{C}$. The roots of this equation are $\\omega_1$, $\\omega_2$ and $\\omega_3$, where $\\text{Im}(\\omega_2) > 0$ and $\\text{Im}(\\omega_3) < 0$.\n(a) (i) Verify that $\\omega_1 = 1 + e^{i\\frac{\\pi}{6}}$ is a root of this equation.\n(ii) Find $\\omega_2$ and $\\omega_3$, expressing these in the form $a + e^{i\\theta}$, where $a \\in \\mathbb{R}$ and $\\theta > 0$. [6]\nThe roots $\\omega_1$, $\\omega_2$ and $\\omega_3$ are represented by the points A, B and C respectively on an Argand diagram.\n(b) Plot the points A, B and C on an Argand diagram. [4]\n(c) Find AC. [3]\nConsider the equation $(z-1)^3 = iz^3$, $z \\in \\mathbb{C}$.\n(d) By using de Moivre's theorem, show that $\\alpha = \\frac{1}{1 - e^{i\\frac{\\pi}{6}}}$ is a root of this equation. [3]\n(e) Determine the value of $\\text{Re}(\\alpha)$. [6]"
+  }
+ ],
+ "status": "done"
+}

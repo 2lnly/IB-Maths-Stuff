@@ -1,0 +1,312 @@
+{
+ "exam_id": "math-2012-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2012,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2012 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2012 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); code N12/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2012-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nFind the sum of all the multiples of 3 between 100 and 500.",
+   "ms_text": "1. METHOD 1\n102 + 105 +…+ 498 (M1)\nso number of terms 133 (A1) =\nEITHER\n133(2102 (M1)\n= × + 132 × 3)\n2\n39900 A1 =\nOR\n133\n(102 498) (M1) = + ×\n2\n39900 A1 =\nOR\n166\n3 n (M1)\n=∑\nn 34\n= 39900 A1\nMETHOD 2\n500 ÷ 3 = 166.666... and100 ÷ 3 = 33.333...\n166 33\n102 + 105 +…+ 498 = 3 n − 3 n ∑ ∑ (M1)\nn = 1 n = 1\n166\n∑ 3 n = 41583 (A1)\nn = 1\n33\n3 n 1683 (A1) ∑ =\nn 1 =\nthe sum is 39 900 A1\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nFind the sum of all the multiples of 3 between 100 and 500."
+  },
+  {
+   "id": "math-2012-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\n2 Show that the quadratic equation x − (5 − kx ) − ( k + 2) = 0 has two distinct real roots\nfor all real values of k .",
+   "ms_text": "2 2.\nΔ = (5 − k ) + 4( k + 2) M1A1\n2\n= k − 6 k + 33 (A1)\n2\n= ( k − 3) + 24 which is positive for all k R1\nNote: Accept analytical, graphical or other correct methods. In all cases only award\nR1 if a reason is given in words or graphically. Award M1A1A0R1 if mistakes\nare made in the simplification but the argument given is correct.\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nShow that the quadratic equation $x^2-(5-k)x-(k+2)=0$ has two distinct real roots for all real values of $k$."
+  },
+  {
+   "id": "math-2012-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nln x ln(5 − x )\nConsider the matrix A = , where 0 < x < 5 . Find the value of x for\n2 3\nwhich A is singular.",
+   "ms_text": "3. det A = 3ln x − 2ln(5 − x ) (M1)(A1)\nA singular ⇒ det A = 0 (M1)\nattempt to solve 3ln x − 2ln(5 − x ) = 0 (eg graph sketch) (M1)\nx = 2.0547... A1\nx = 2.05 (3sf)\nNote: Award the last M1 just in the cases where there is evidence that a correct method has\nbeen attempted.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.L1",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nConsider the matrix $\\boldsymbol{A}=\\begin{pmatrix}\\ln x & \\ln(5-x)\\\\ 2 & 3\\end{pmatrix}$, where $0<x<5$. Find the value of $x$ for which $\\boldsymbol{A}$ is singular."
+  },
+  {
+   "id": "math-2012-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nA set of 15 observations has mean 11.5 and variance 9.3. One observation of 22.1 is\nconsidered unreliable and is removed. Find the mean and variance of the remaining\n14 observations.",
+   "ms_text": "15\nx ∑\ni 15\ni = 1 4.\n= 11.5 ⇒ ∑ x = 172.5 (A1) i\n15 i\n= 1\n172.5 − 22.1\nnew mean (M1) =\n14\n= 10.7428 …= 10.7 (3sf) A1\n15\n2 x\n∑ i\ni 1 2 =\n− 11.5 = 9.3 (M1)\n15\n15\n2\n⇒ ∑ x = 2123.25\ni\ni = 1\n2 2123.25\n− 22.1 2\nnew variance = − (10.7428 … ) (M1)\n14\n= 1.37 (3sf) A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nA set of 15 observations has mean 11.5 and variance 9.3. One observation of 22.1 is considered unreliable and is removed. Find the mean and variance of the remaining 14 observations."
+  },
+  {
+   "id": "math-2012-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nA metal rod 1 metre long is cut into 10 pieces, the lengths of which form a\ngeometric sequence. The length of the longest piece is 8 times the length of the\nshortest piece. Find, to the nearest millimetre, the length of the shortest piece.",
+   "ms_text": "9 5. the pieces have lengths aar , ,\n… , ar (M1)\n9 9 8a\n= ar (or 8 = r ) A1\n9 8 r = = 1.259922 … A1\n10 10 r 1\n⎛ r 1 ⎞ −\n= 1 or −= 1000 M1 ar ⎜ ar ⎟\n1 1 −\n⎝ − ⎠\nr − 1 ⎛ r − 1 ⎞\na = = 0.0286 … or a = = 28.6 … (A1)\n10 ⎜ 10 ⎟ r\n− 1 ⎝ r − 1 ⎠\n29mm (accept 0.029 m or any correct answer regardless the units) A1 a =\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nA metal rod 1 metre long is cut into 10 pieces, the lengths of which form a geometric sequence. The length of the longest piece is 8 times the length of the shortest piece. Find, to the nearest millimetre, the length of the shortest piece."
+  },
+  {
+   "id": "math-2012-N-P2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nA particle moves along a straight line so that after t seconds its displacement s , in metres,\nsatisfies the equation s 2 + s − 2 t = 0 . Find, in terms of s , expressions for its velocity and its\nacceleration.",
+   "ms_text": "d s d s\n6. 2 + − 2 = 0 M1A1\nst\nd d t\nd s 2\nv = = A1\nd t 2 s 1 +\nEITHER\nd v dd vs\na (M1) = =\nd t dd s t\nd v − 4\n(A1) =\n2 d s (2 s\n+ 1)\n4 d s −\na =\n2 (2 s 1)d t\n+\nOR\n2 2 2\n⎛ d s d s d s\n2 ⎞+ 2 s 0 (M1) + =\n⎜ ⎟ 2 2\n⎝ d t ⎠ d t d t\n2\n\" %\n−2ds\nd2s #$ dt &'\n(A1) =\ndt2 2s+1\na{\nTHEN\n− 8\na A1 =\n3 (2 s\n+ 1)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nA particle moves along a straight line so that after $t$ seconds its displacement $s$, in metres, satisfies the equation $s^2+s-2t=0$. Find, in terms of $s$, expressions for its velocity and its acceleration."
+  },
+  {
+   "id": "math-2012-N-P2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 8]\nKathy plays a computer game in which she has to find the path through a maze within a\ncertain time. The first time she attempts the game, the probability of success is known\nto be 0.75. In subsequent attempts, if Kathy is successful, the difficulty increases and\nthe probability of success is half the probability of success on the previous attempt.\nHowever, if she is unsuccessful, the probability of success remains the same. Kathy\nplays the game three times consecutively.\n(a) Find the probability that she is successful in all three games. [2 marks]\n(b) Assuming that she is successful in the first game, find the probability that she is\nsuccessful in exactly two games. [6 marks]",
+   "ms_text": "⎛ 3 3 27 ⎞\n7. (a) P(WWW) 0.750.3750.1875 0.0527 (3sf) 3 (M1)A1 = × × = × × =\n⎜ ⎟\n⎝ 4 8 16 512 ⎠\n[2 marks]\n(b)\n(M1)(A1)\nNote: Award M1 for any reasonable attempt to use a tree diagram showing that\nthree games were played (do not award M1 for tree diagrams that only\nshow the first two games) and A1 for the highlighted probabilities.\nP(WWL, WLW)\nP(wins 2 gameswins first game) = (M1)\nP(wins first game)\n0.750.3750.8125 0.750.6250.375 × × + × ×\n(A1)(A1) =\n0.75\n⎛ 69 ⎞\n0.539 (3sf) A1 =\nor 128 ⎜ ⎟\n⎝ ⎠\nNote: Candidates may use the tree diagram to obtain the answer without\nusing the conditional probability formula, ie,\nP(wins 2 gameswins first game) = 0.3750.8125 × + 0.6250.375 × = 0.539 .\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 8]\nKathy plays a computer game in which she has to find the path through a maze within a certain time. The first time she attempts the game, the probability of success is known to be 0.75. In subsequent attempts, if Kathy is successful, the difficulty increases and the probability of success is half the probability of success on the previous attempt. However, if she is unsuccessful, the probability of success remains the same. Kathy plays the game three times consecutively.\n(a) Find the probability that she is successful in all three games. [2 marks]\n(b) Assuming that she is successful in the first game, find the probability that she is successful in exactly two games. [6 marks]"
+  },
+  {
+   "id": "math-2012-N-P2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nx 3\nBy using the substitution x = sin t , find x . ∫ 2d\n1 − x",
+   "ms_text": "8. x = sin, d t x = cosd tt\n3 3 x sin t\nd x = cos d t t M1\n∫ ∫ 2 2\n1 − x 1sin − t\n3 sin tt d (A1)\n=∫\n2 sin t sind tt\n=∫\n2 1cos t sind tt M1A1\n= ( − ) ∫\n2\n= sind tt − cos t sind tt ∫ ∫\ncos 3 t\ncos t C A1A1 = − + +\n3\n1 3 2 2\n1 x 1 x C A1 = − − + ( − ) +\n3\n⎛ ⎛ 1 ⎞ ⎞\n1 x 2 1 (1 x 2 ) C = − − − − +\n⎜ ⎜ ⎟ ⎟\n⎝ 3 ⎠ ⎝ ⎠\n⎛ 11 2 2 ⎞\n= − − x (2 + x ) + C ⎜ ⎟\n3 ⎝ ⎠\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nBy using the substitution $x=\\sin t$, find $\\int \\frac{x^3}{\\sqrt{1-x^2}}\\,\\mathrm{d}x$."
+  },
+  {
+   "id": "math-2012-N-P2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\n3 2 Find the area of the region enclosed by the curves y = x and x = y −. 3",
+   "ms_text": "9.\nintersection points A1A1\nNote: Only either the x-coordinate or the y-coordinate is needed.\nEITHER\n2 x\n= y −⇒ 3 y = ± x + 3 accept y = x + 3 (M1) ( )\n− 1.111 … 1.2739 … 3\nA 2 x 3d x x 3 x d x (M1)A1A1 =\n∫ + + ∫ + −\n− 3 − 1.111 …\n= 3.4595... + 3.8841...\n= 7.34 (3sf) A1\nOR\n3 y\n= x ⇒ x = 3 y (M1)\n2.067 …\nA 3 y y 2 3d y (M1)A1 = − ( − )\n∫ 1.374\n− …\n= 7.34 (3sf) A2\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nFind the area of the region enclosed by the curves $y=x^3$ and $x=y^2-3$."
+  },
+  {
+   "id": "math-2012-N-P2-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 7]\n2* Let ω = cos θ + isin θ . Find, in terms of θ, the modulus and argument of (1 − ω ) .",
+   "ms_text": "10. METHOD 1\n* 2* *\n(1 − ω ) = (1cis 2) − θ = ( (1cos2) − θ − isin2 θ ) M1A1\n= (1cos2) − θ + isin2 θ A1\n2* 2 2 ⎛ 2 2 2 ⎞ (1 ) (1 cos2) sin2 (2sin ) 2sincos M1\n− ω = − θ + θ ⎜ = θ + ( θ θ ) ⎟\n⎝ ⎠\nA1 = 2sinθ\n2* arg(1\n− ω ) = α ⇒ tan α = cot () θ M1 ( )\nπ\nA1 α = − θ\n2\ntherefore:\nmodulus is 2 sinθ and argument is π − or π − θ θ ± π\n2 2\nNote: Accept modulus is 2sinθ and argument is π − θ\n2\nMETHOD 2\nEITHER\n* 2* *\n(1 − ω ) = (1cis 2) − θ = ( (1cos2) − θ − isin2 θ ) M1A1\n= (1cos2) − θ + isin2 θ A1\n2 11 2sin 2isincos M1\n= ( −+ θ ) + θ θ\nOR\n* 2* 2\n(1 − ω ) = ( 1(cos − θ + i sin) θ ) M1A1\n* 2 2\n= ( 1cos − θ + sin θ − 2isincos θ θ ) A1\n2\n= 2sin θ + 2isincos θ θ M1\nTHEN\n= 2sin(sin θ θ + icos) θ (M1)\n⎛ ⎛ π ⎞ ⎛ π ⎞ ⎞\n2sin cos isin A1A1 = θ\n⎜ ⎜ − θ ⎟ + ⎜ − θ ⎟ ⎟ 2 2\n⎝ ⎝ ⎠ ⎝ ⎠ ⎠\n⎛ π ⎞\n2sin = θ\ncis2 ⎜ − θ ⎟\n⎝ ⎠\ntherefore:\nπ − or π − modulus is 2 sinθ and argument is θ θ ± π\n2 2\nπ − Note: Accept modulus is 2sinθ and argument is θ .\n2\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.12",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 7]\nLet $\\omega=\\cos\\theta+\\mathrm{i}\\sin\\theta$. Find, in terms of $\\theta$, the modulus and argument of $(1-\\omega^2)^*$."
+  },
+  {
+   "id": "math-2012-N-P2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 18]\nThe number of visitors that arrive at a museum every minute can be modelled by a\nPoisson distribution with mean 2.2.\n(a) If the museum is open 6 hours daily, find the expected number of visitors in\n1 day. [2 marks]\n(b) Find the probability that the number of visitors arriving during an hour\nexceeds 100. [3 marks]\n(c) Find the probability that the number of visitors in each of the 6 hours the museum\nis open exceeds 100. [2 marks]\nThe ages of the visitors to the museum can be modelled by a normal distribution\n2 with mean µ and variance σ. The records show that 29 % of the visitors are under\n35 years of age and 23 % are at least 55 years of age.\n(d) Find the values of µ and σ. [6 marks]\n(e) One day, 100 visitors under 35 years of age come to the museum. Estimate the\nnumber of visitors under 50 years of age that were at the museum on that day. [5 marks]",
+   "ms_text": "11. (a) 2.2660 792 (M1)A1 ×× =\n[2 marks]\n(b) V:Po(2.2×60) (M1)\nP( V> 100) = 0.998 (M1)A1\n[3 marks]\n6 (c) (0.997801 ) 0.987 (M1)A1\n…=\n[2 marks]\n(d) A :N(µ, σ2)\nP( A< 35) = 0.29 and P( A > 55) = 0.23 ⇒ P( A < 55) = 0.77\n35 − µ 55 − µ ⎛ ⎞ ⎛ ⎞\nP Z < = 0.29 and P Z < = 0.77 (M1)\n⎜ ⎟ ⎜ ⎟\nσ σ ⎝ ⎠ ⎝ ⎠\nuse of inverse normal (M1)\n35 − µ − µ\n… and 55\n= − 0.55338 = 0.738846 … (A1)\nσ σ\nsolving simultaneously (M1)\n43.564... and 15.477... A1A1 µ = σ=\n43.6 and 15.5 (3sf) µ = σ=\n[6 marks]\n(e) 0.29 n = 100 ⇒ n = 344.82 … (M1)(A1)\nP( A< 50) = 0.66121 … (A1)\nexpected number of visitors under 50 = 228 (M1)A1\n[5 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.L1",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 18]\nThe number of visitors that arrive at a museum every minute can be modelled by a Poisson distribution with mean 2.2.\n(a) If the museum is open 6 hours daily, find the expected number of visitors in 1 day. [2 marks]\n(b) Find the probability that the number of visitors arriving during an hour exceeds 100. [3 marks]\n(c) Find the probability that the number of visitors in each of the 6 hours the museum is open exceeds 100. [2 marks]\nThe ages of the visitors to the museum can be modelled by a normal distribution with mean $\\mu$ and variance $\\sigma^2$. The records show that 29 % of the visitors are under 35 years of age and 23 % are at least 55 years of age.\n(d) Find the values of $\\mu$ and $\\sigma$. [6 marks]\n(e) One day, 100 visitors under 35 years of age come to the museum. Estimate the number of visitors under 50 years of age that were at the museum on that day. [5 marks]"
+  },
+  {
+   "id": "math-2012-N-P2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 18]\nThe diagram shows the plan of an art gallery a metres wide. [AB] represents a doorway,\nleading to an exit corridor b metres wide. In order to remove a painting from the\nart gallery, CD (denoted by L ) is measured for various values of α , as represented in\nthe diagram.\nC\na\nα\nA B\nD\nb\na b\n= + (a) If α is the angle between [CD] and the wall, show that L ,\nsin α cos α\nπ\n0 < α < . [3 marks]\n2\n(b) If a = 5 and b =, find the maximum length of a painting that can be removed 1\n[4 marks] through this doorway.\nLet a = 3 k and b = k .\nFind d L (c) . [3 marks]\nd α\n(d) Find, in terms of k , the maximum length of a painting that can be removed from\nthe gallery through this doorway. [6 marks]\n(e) Find the minimum value of k if a painting 8 metres long is to be removed through\nthis doorway. [2 marks]",
+   "ms_text": "12. (a) L = CA + AD M1\na a\nsin α = ⇒ CA = A1\nCA sin α\nb b\ncos AD A1 α = ⇒ =\nAD cos α\na b\nL = + AG\nsin α cos α\n[3 marks]\n5 1\n(b) a 5 and b 1 L = =⇒ = +\nsin α cos α\nMETHOD 1\n(M1)\nminimum from graph ⇒ L = 7.77 (M1)A1\nminimum of L gives the max length of the painting R1\n[4 marks]\nMETHOD 2\nd L − 5cos α sin α\n= + (M1) 2 2\nd α sin α cos α\nd L sin 3 α\n0 5 tan 3 5 ( 1.0416 ) (M1) = ⇒ = ⇒ α = α = …\nd cos 3 α α\nminimum of L gives the max length of the painting R1\nmaximum length = 7.77 A1\n[4 marks]\nd L − 3cos k α k sin α\n(c) (or equivalent) M1A1A1 = +\n2 2 d\nα sin α cos α\n[3 marks]\n3 3 d L\n− 3cos k α + k sin α\n(d) = (A1)\n2 2 d\nα sin α cos α\nd L sin 3 3 k α\n0 tan 3 3 ( 0.96454 ) M1A1 = ⇒ = ⇒ α = α = …\n3 d\nα cos α k\n1\n3 3 tan\nα = 3 ⇒ = 1 + 9 (1.755…) (A1)\ncos α\n1 1 3 9 +\nand (1.216 ) (A1) = …\nsin 3 α 3\n⎛ 3 ⎞ 1 + 9\nL 3 k k 1 3 9 ( L 5.405598 k ) A1 N4 = ⎜ ⎟ + + = …\n3 ⎜ 3 ⎟\n⎝ ⎠\n[6 marks]\n(e) L ≤ 8 ⇒ k ≥ 1.48 M1A1\nthe minimum value is 1.48\n[2 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.15",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 18]\nThe diagram shows the plan of an art gallery $a$ metres wide. [AB] represents a doorway, leading to an exit corridor $b$ metres wide. In order to remove a painting from the art gallery, CD (denoted by $L$) is measured for various values of $\\alpha$, as represented in the diagram.\n[Diagram: rectangular gallery of width $a$; doorway AB in the bottom wall leads to a corridor of width $b$ going downwards; segment CD runs from C on the top wall through A to D on the far corridor wall; $\\alpha$ is the angle at A between CD and the wall]\n(a) If $\\alpha$ is the angle between [CD] and the wall, show that $L=\\frac{a}{\\sin\\alpha}+\\frac{b}{\\cos\\alpha}$, $0<\\alpha<\\frac{\\pi}{2}$. [3 marks]\n(b) If $a=5$ and $b=1$, find the maximum length of a painting that can be removed through this doorway. [4 marks]\nLet $a=3k$ and $b=k$.\n(c) Find $\\frac{\\mathrm{d}L}{\\mathrm{d}\\alpha}$. [3 marks]\n(d) Find, in terms of $k$, the maximum length of a painting that can be removed from the gallery through this doorway. [6 marks]\n(e) Find the minimum value of $k$ if a painting 8 metres long is to be removed through this doorway. [2 marks]"
+  },
+  {
+   "id": "math-2012-N-P2-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 24,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 24]\nConsider the planes π 1: x − 2 y − 3 z = 2 and π 2: 2x − y − z = k .\n(a) Find the angle between the planes π and π. [4 marks]\n1 2\n(b) The planes π and π intersect in the line 1L. Show that the vector equation of\n1 2\n0 1\n1L is r = 2 − 3 k + t 5 . [5 marks]\n2 k − 2 − 3\n(c) The line − x = y + 3 = 2 − 2 z . The lines 2L has Cartesian equation 5 1L and 2L\nintersect at a point X. Find the coordinates of X. [5 marks]\n(d) Determine a Cartesian equation of the plane π containing both lines 1L and 2L . [5 marks]\n3\n(e) Let Y be a point on 1L and Z be a point on 2L such that XY is perpendicular\nto YZ and the area of the triangle XYZ is 3. Find the perimeter of the\ntriangle XYZ. [5 marks]",
+   "ms_text": "13. Note: Accept alternative notation for vectors (eg , , abc). ,, abc or ( )\n⎛ 1 ⎞ ⎛ 2 ⎞\n⎜ ⎟ ⎜ ⎟\n(a) n =− 2 and m =− 1 (A1)\n⎜ ⎟ ⎜ ⎟\n⎜ ⎟ ⎜ ⎟ − 3\n− 1 ⎝ ⎠ ⎝ ⎠\ncosθ =nim (M1)\nnm\n2 2 3 7 + +\ncos θ = = A1\n1 4 94 11 146 + + ++\n40.2 ° (0.702 rad) A1 θ =\n[4 marks]\n(b) METHOD 1\neliminate z from x 2 y 3 z 2 and 2x y z k − − = − − =\ny (2 3) k − −\n5 x y 3 k 2 x M1A1 − = − ⇒ =\n5\neliminate y from x 2 y 3 z 2 and 2x y z k − − = − − =\nz (2 k 2) − −\n3 x z 2 k 2 x A1 + = − ⇒ =\n3 −\nx =, t y = (2 − 3) k + 5 t and z = (2 k − 2) − 3 t A1A1\n⎛ 0 ⎞ ⎛ 1 ⎞\n⎜ ⎟ ⎜ ⎟\nr = 2 − 3 k + t 5 AG\n⎜ ⎟ ⎜ ⎟\n⎜ 2 k 2 ⎟ ⎜ 3 ⎟\n⎝ − ⎠ ⎝ − ⎠\n[5 marks]\nMETHOD 2\n⎛ 1 ⎞ ⎛ 2 ⎞ ⎛ − 1 ⎞ ⎛ 1 ⎞\n⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n− 2 × − 1 = − 5 ⇒ direction is 5 M1A1\n⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n⎜ 3 ⎟ ⎜ 1 ⎟ ⎜ 3 ⎟ ⎜ 3 ⎟\n⎝ − ⎠ ⎝ − ⎠ ⎝ ⎠ ⎝ − ⎠\nLet x = 0\n0 2 y 3 z 2 and 20 y z k (M1) − − = ×− − =\nsolve simultaneously (M1)\ny 23 k and z = 2 k − 2 A1 = −\n0 1 ⎛ ⎞ ⎛ ⎞\n⎜ ⎟ ⎜ ⎟\ntherefore r 2 3 k t 5 AG = − +\n⎜ ⎟ ⎜ ⎟\n⎜ ⎟ ⎜ ⎟ 2 k − 2 − 3\n⎝ ⎠ ⎝ ⎠\n[5 marks]\nMETHOD 3\nsubstitute x =, t y = (2 − 3) k + 5 t and z = (2 k − 2) − 3 t into π and π M1\n1 2\nfor π 1:– 2(2 t − 3 k + 5) – 3(2 t k − 2 − 3) t = 2 A1\nfor π 2: 2– (2 t − 3 k + 5 ) – (2 t k − 2 − 3 ) t = k A1\nthe planes have a unique line of intersection R2\n0 1 ⎛ ⎞ ⎛ ⎞\n⎜ ⎟ ⎜ ⎟\ntherefore the line is r 2 3 k t 5 AG = − +\n⎜ ⎟ ⎜ ⎟\n⎜ ⎟ ⎜ ⎟ 2 k − 2 − 3\n⎝ ⎠ ⎝ ⎠\n[5 marks]\n(c) 5 −= t (2 − 3 k + 5 ) t += 3 2 − 2(2 k −− 2 3 ) t M1A1\nNote: AwardM1A1ifcandidates use vector or parametric equations of L\n2\n0 1 5 − 2 t = 5 − 2 s ⎛ ⎞ ⎛ ⎞ ⎛ ⎞ ⎛ ⎞ ⎧\n⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎪\neg 2 3 k t 5 3 s 2 or 2 3 k 5 t 3 2 s − + =− + ⇒ ⎨ − + = −+\n⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎪ 2 k − 2 − 3 1 − 1 2 k − 2 − 3 t =+ 1 s\n⎝ ⎠ ⎝ ⎠ ⎝ ⎠ ⎝ ⎠ ⎩\nsolve simultaneously M1\nk = 2, t = ( 1 s = 2 ) A1\nA1 intersection point (1, 1, − 1)\n[5 marks]\n\" % 2\nυρ $ '\n(d) l2 = $ −2 ' A1\n$ ' 1\n# &\n# & i j k\n−1 ρ υρ\n% (\nl1 ×l2 = 1 5 −3 = −7 (M1)A1 % (\n% ( 2 −2 1 −12\n$ '\n\" % \" % \" % 1 1 1\n$ ' $ ' $ '\nr⋅ 7 = 1 ⋅ 7 (M1) $ ' $ ' $ '\n$ ' $ ' $ ' 12 −1 12\n# & # & # &\nx +7y +12z = −4 A1\n[5 marks]\n\" % \" % 1 2\nρ $ ' υρ $ '\n(e) Let θ be the angle between the lines l1 = $ 5 ' and l2 = $ −2 ' .\n$ −3 ' $ 1 '\n# & # &\n210 3 − −\no cos 0.902334 (51.699 ) (M1)\nθ = ⇒ θ = … …\n359\nas the triangle XYZ has a right angle at Y,\nXZ = a ⇒ YZ = a sin and XY θ = a cos θ (M1)\n2 sincos a\nθ θ\narea = 3 ⇒ = 3 (M1)\n2\na = 3.5122 (A1) …\nperimeter = a + a sin θ + a cos θ = 8.44537 …= 8.45 A1\nNote: If candidates attempt to find coordinates of Y and Z award M1 for\nexpression of vector YZ in terms of two parameters, M1 for attempt\nto use perpendicular condition to determine relation between parameters,\nM1 for attempt to use the area to find the parameters and A2 for\nfinal answer.\n[5 marks]\nTotal [24 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.17",
+    "3.15",
+    "3.16",
+    "3.13",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 24]\nConsider the planes $\\pi_1: x-2y-3z=2$ and $\\pi_2: 2x-y-z=k$.\n(a) Find the angle between the planes $\\pi_1$ and $\\pi_2$. [4 marks]\n(b) The planes $\\pi_1$ and $\\pi_2$ intersect in the line $L_1$. Show that the vector equation of $L_1$ is $\\boldsymbol{r}=\\begin{pmatrix}0\\\\2-3k\\\\2k-2\\end{pmatrix}+t\\begin{pmatrix}1\\\\5\\\\-3\\end{pmatrix}$. [5 marks]\n(c) The line $L_2$ has Cartesian equation $5-x=y+3=2-2z$. The lines $L_1$ and $L_2$ intersect at a point X. Find the coordinates of X. [5 marks]\n(d) Determine a Cartesian equation of the plane $\\pi_3$ containing both lines $L_1$ and $L_2$. [5 marks]\n(e) Let Y be a point on $L_1$ and Z be a point on $L_2$ such that XY is perpendicular to YZ and the area of the triangle XYZ is 3. Find the perimeter of the triangle XYZ. [5 marks]"
+  }
+ ],
+ "status": "done"
+}

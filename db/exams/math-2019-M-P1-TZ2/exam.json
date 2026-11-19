@@ -1,0 +1,279 @@
+{
+ "exam_id": "math-2019-M-P1-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2019,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2019 May Examination Session/Mathematics_paper_1__TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2019 May Examination Session/Mathematics_paper_1__TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2219-7205; code M19/5/MATHL/HP1/ENG/TZ2/XX; marks sum matches paper total 100",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2019-M-P1-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nIn an arithmetic sequence, the sum of the 3rd and 8th terms is 1.\nGiven that the sum of the first seven terms is 35, determine the first term and the common\ndifference.",
+   "ms_text": "1. attempting to form two equations involving 1uand d M1\n72 ( u + 2 d )( + u + 7 d ) = and [ 1 u + 6 d ] = 35\n1 1 1\n2\n2 u + 9 d = 1\n1\n14 u + 42 d = 70 ( 2 u + 6 d = 10 ) A1\n1 1\nNote: Award A1 for any two correct equations\nattempting to solve their equations: M1\nu= 14 , d=− 3 A1\n1\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nIn an arithmetic sequence, the sum of the 3rd and 8th terms is 1.\nGiven that the sum of the first seven terms is 35, determine the first term and the common difference."
+  },
+  {
+   "id": "math-2019-M-P1-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nThree points in three-dimensional space have coordinates A (0 , 0 , 2) , B (0 , 2 , 0) and\nC (3 , 1 , 0) .\n(a) Find the vector\n→\nAB (i) ;\n→\n(ii) AC .\b [2]\n(b) Hence or otherwise, find the area of the triangle ABC .\b [4]",
+   "ms_text": "0\n→\n2. (a) (i) AB 2 A1 =\n− 2\n3\n→\n(ii) AC = 1 A1\n− 2\nNote: Accept row vectors or equivalent.\n[2 marks]\n(b) METHOD 1\n→ →\nattempt at vector product using AB and AC. (M1)\n± ( 2 i + 6 j + 6 k ) A1\n→ →\nattempt to use area =1AB × AC M1\n2\n76\n( ) = = 19 A1\n2\n[4 marks]\nMETHOD 2\n→ → → →\nattempt to use ABAC γ = ABAC cosθ M1\n0 3\n2 2 = 2\n+ 2 +− ( ) 2 + 2 +− ( ) θ 2 . 1 0 2 2 3 1 2 cos\n− 2 − 2\n6 = 814 cosθ A1\n6 6\ncos θ= =\n814 112\n→ →\n= 1ABAC sin θ attempt to use area M1\n2\n1 36 1 76\n= 8141 − = 814\n2 112 2 112\n76\n( ) = = 19 A1\n2\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nThree points in three-dimensional space have coordinates $\\mathrm{A}(0, 0, 2)$, $\\mathrm{B}(0, 2, 0)$ and $\\mathrm{C}(3, 1, 0)$.\n(a) Find the vector\n(i) $\\overrightarrow{\\mathrm{AB}}$;\n(ii) $\\overrightarrow{\\mathrm{AC}}$. [2]\n(b) Hence or otherwise, find the area of the triangle ABC. [4]"
+  },
+  {
+   "id": "math-2019-M-P1-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nConsider the function f (x) =x4- 6x2- 2x+ 4 , x∈ϒ .\nThe graph of f is translated two units to the left to form the function g(x) .\nExpress g(x) in the form ax4+bx3+cx2+dx+e where a , b , c , d , e ∈′ .",
+   "ms_text": "4 2\n= + ( = ( + ) − ( + ) − + + ) 3. gx () fx ( 2) x 2 6 x 2 2( x 2) 4 M1\n4\nattempt to expand ( x + 2 ) M1\n4 4 3 2 2 3 4\n( x + 2 ) = x + 42 ( x ) + 62 ( x ) + 42 ( x ) + 2 (A1)\n= x 4 + 8 x 3 + 24 x 2 + 32 x + 16 A1\n= 4 + 3 + 2 + + − ( 2 + + ) − − + gx () x 8 x 24 x 32 x 16 6 x 4 x 4 2 x 4 4\n4 3 2 = x + 8 x + 18 x + 6 x − 8 A1\n4 3 2 Note: For correct expansion of fx ( − 2) = x − 8 x + 18 x − 10 x award max M0M1(A1)A0A1.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.9",
+    "2.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nConsider the function $f(x) = x^4 - 6x^2 - 2x + 4$, $x \\in \\mathbb{R}$.\nThe graph of $f$ is translated two units to the left to form the function $g(x)$.\nExpress $g(x)$ in the form $ax^4 + bx^3 + cx^2 + dx + e$ where $a, b, c, d, e \\in \\mathbb{Z}$."
+  },
+  {
+   "id": "math-2019-M-P1-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\n3 cos x d x\nUsing the substitution u = sin x , find ∫ .\nsin x",
+   "ms_text": "4. u = sin x ⇒ d u = cosd xx (A1)\nvalid attempt to write integral in terms of u and du M1\n( 2 )\ncos 3 x d x 1 − u d u\n= A1 ∫ ∫\nsin x u\n1 3 −\n2\n= u 2 − u d u ∫\n5\n1 2\n2 u\n= 2 − ( + ) 2 u c (A1)\n5\n5\n2 ( sin x )\n= 2sin x − ( + c ) or equivalent A1\n5\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nUsing the substitution $u = \\sin x$, find $\\int \\frac{\\cos^3 x \\, dx}{\\sqrt{\\sin x}}$."
+  },
+  {
+   "id": "math-2019-M-P1-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 8]\nx − 4\n(a) Sketch the graph of y = , stating the equations of any asymptotes and the\n2 − 5 x\ncoordinates of any points of intersection with the axes.\b [5]\ny\n5\n4\n3\n2\n1\nx\n0 1 2 3 4 5 6 −2 −1\n−1\n−2\n−3\n−4\n−5\nx − 4\n(b) Consider the function f : x → .\n2 5 x −\nWrite down\n(i) the largest possible domain of f ;\n(ii) the corresponding range of f .\b [3]",
+   "ms_text": "5. (a)\ncorrect shape: two branches in correct quadrants with asymptotic behaviour A1\n4\ncrosses at (4,0) and A1A1\n0,5\n5 1\nx = y = asymptotes at and A1A1\n2 2\n[5 marks]\n5 ,\n(b) (i) x < x ≥ 4 A1A1\n2\n1\n(ii) fx () ≥ 0,() fx ≠ ( fx∈ϒ () ) A1\n2\nNote: Follow through from their graph, as long as it is a rectangular hyperbola.\nNote: Allow range expressed in terms of y .\n[3 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.15",
+    "2.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "5. [Maximum mark: 8]\n(a) Sketch the graph of $y = \\frac{x-4}{2x-5}$, stating the equations of any asymptotes and the coordinates of any points of intersection with the axes. [5]\n[Grid: blank axes, x from -2 to 6, y from -5 to 5]\n(b) Consider the function $f : x \\to \\sqrt{\\frac{x-4}{2x-5}}$.\nWrite down\n(i) the largest possible domain of $f$;\n(ii) the corresponding range of $f$. [3]"
+  },
+  {
+   "id": "math-2019-M-P1-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nxy tan�\nThe curve C is given by the equation y = x .\n4\ny 2 + � At the point (1 , 1) , show that d\n(a) .\b [5]\nx=\nd 2 − �\n(b) Hence find the equation of the normal to C at the point (1 , 1) .\b [2]",
+   "ms_text": "6. (a) attempt to differentiate implicitly M1\nd y π xy π d y π π xy\n2 = x sec x + y + tan\nA1A1\nd x 4 4 d x 4 4\nNote: Award A1 for each term.\ny\n= = into their equation for d attempt to substitute x 1, y 1 M1\nd x\nd y π d y π\n= + + 1\nd x 2 d x 2\nd y π π\n1 − = + 1 A1\nd x 2 2\n+ d y 2 π\n= AG\nd x 2 − π\n[5 marks]\n− 1\n= (b) attempt to use gradient of normal (M1)\nd y\nd x\nπ − 2\n=\nπ + 2\n− − π 2 π 2 4\n−= ( − ) = + so equation of normal is y 1 x 1 or y x A1\nπ + 2 π + 2 π + 2\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.15",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nThe curve $C$ is given by the equation $y = x\\tan\\left(\\frac{\\pi xy}{4}\\right)$.\n(a) At the point $(1, 1)$, show that $\\frac{dy}{dx} = \\frac{2+\\pi}{2-\\pi}$. [5]\n(b) Hence find the equation of the normal to $C$ at the point $(1, 1)$. [2]"
+  },
+  {
+   "id": "math-2019-M-P1-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\nSolve the simultaneous equations\nlog2 6x= 1 + 2 log2y\n1 + log6x= log6(15y - 25) .",
+   "ms_text": "7. use of at least one “log rule” applied correctly for the first equation M1\nlog6 x = log2 + 2log y\n2 2 2\n= + 2 log2 logy\n2 2\n= log ( 2y 2 )\n2\n2 ⇒ 6 x = 2 y\nA1\nuse of at least one “log rule” applied correctly for the second equation M1\n( − ) =+ log15 y 25 1log x\n6 6\n= + log6 logx\n6 6\n= log6x\n6\n⇒ 15 y − 25 = 6 x A1\nattempt to eliminate x (or y) from their two equations M1\n2 2 y = 15 y − 25\n2 2 y − 15 y + 25 = 0\n( − )( − ) = 2 y 5 y 5 0\n25 5\nx = , y = , A1\n12 2\n25\nor x = , y = 5 A1\n3\nNote:,xy values do not have to be “paired” to gain either of the final two A marks.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nSolve the simultaneous equations\n$\\log_2 6x = 1 + 2\\log_2 y$\n$1 + \\log_6 x = \\log_6(15y - 25)$."
+  },
+  {
+   "id": "math-2019-M-P1-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\nA right circular cone of radius r is inscribed in a sphere with centre O and radius R as shown\nin the following diagram. The perpendicular height of the cone is h , X denotes the centre of\nits base and B a point where the cone touches the sphere.\nh\nO\nR\nX r B\n�\nShow that the volume of the cone may be expressed by V = ( Rh 2 − h 3.\b ) (a) [4]\n32\n(b) Given that there is one inscribed cone having a maximum volume, show that the\n3\nvolume of this cone is 32 �R.\b\n[4]\n81",
+   "ms_text": "8. (a) attempt to use Pythagoras in triangle OXB M1\n2\n⇒ 2 = 2 − ( − ) r R h R A1\n2 π rh\nsubstitution of their 2r into formula for volume of cone V= M1\n3\nπ hR 2 2\n= ( − ( h − R ) )\n3\nπ hR\n( 2 ( 2 2 ) ) = − h + R − 2 hR A1\n3\nNote: This A mark is independent and may be seen anywhere for the correct\n2\nexpansion of ( − ) h R .\nπ h 2\n= ( 2 hR − h )\n3\nπ2 ( 2 3 ) = Rh − h\nAG\n3\n[4 marks]\nV at max,d\n(b) 0 R1 h=\nd\nd V π4 2\n( Rh − 3 h )\nh=\nd 3\n⇒ = 2 4 Rh 3 h\n4 R\n⇒ h = (since h ≠ 0) A1\n3\nEITHER\nπ2 2 3 V = ( Rh − h )\nfrom part (a)\nmax\n3\n2 3\nπ 4 R 4 R\n= 2 R − A1\n3 3 3\n2 3 π 16 R 64 R\n= 2 R − A1\n3 9 27\nOR\n2\n2 2 4 R r = R − − R\n3\n2\nR 8 R 2 2 2\nr = R − = A1\n9 9\n2 π r 4 R\n⇒ V =\nmax\n3 3\n2 4π R 8 R\n= A1\n9 9\nTHEN\n3 32π R\n= AG\n81\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.1",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\nA right circular cone of radius $r$ is inscribed in a sphere with centre O and radius $R$ as shown in the following diagram. The perpendicular height of the cone is $h$, X denotes the centre of its base and B a point where the cone touches the sphere.\n[Diagram: cone inscribed in a sphere; apex at top of sphere, height h from apex to X (centre of base), O on the axis, R drawn from O to B on the rim of the base, r from X to B, right angle at X]\n(a) Show that the volume of the cone may be expressed by $V = \\frac{\\pi}{3}(2Rh^2 - h^3)$. [4]\n(b) Given that there is one inscribed cone having a maximum volume, show that the volume of this cone is $\\frac{32\\pi R^3}{81}$. [4]"
+  },
+  {
+   "id": "math-2019-M-P1-TZ2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 17]\nConsider the functions f and g defined on the domain 0 <x< 2π by\nf (x) = 3 cos 2x and g(x) = 4 - 11 cosx .\nThe following diagram shows the graphs of y =f (x) and y = g(x) .\ny\nA\nB\nx\n(a) Find the x-coordinates of the points of intersection of the two graphs.\b [6]\n(b) Find the exact area of the shaded region, giving your answer in the form pπ+ q3 ,\nwhere p , q∈⁄ .\b [5]\nAt the points A and B on the diagram, the gradients of the two graphs are equal.\n(c) Determine the y-coordinate of A on the graph of g .\b [6]",
+   "ms_text": "9. (a) 3cos2 x = 411cos − x\nattempt to form a quadratic in cos x M1\n2 32cos ( x − 1 ) = 411cos − x\nA1\n( 6cos 2 x + 11cos x − 7 = 0 )\nvalid attempt to solve their quadratic M1\n(3cos x + 7)(2cos x − 1) = 0\n1\ncos x = A1\n2\nπ5π\nx = , A1A1\n3 3\nNote: Ignore any “extra” solutions.\n[6 marks]\n5π\n3\n(b) consider () ± (411cos − x − 3cos2)d x x M1 ∫\nπ\n3\n5π\n3 3\n=± () 4 x − 11sin x − sin 2 x A1\n2 π\n3\nNote: Ignore lack of or incorrect limits at this stage.\nattempt to substitute their limits into their integral M1\n20π 5π 3 10π 4π π 3 2π\n= − − − − − 11sin sin 11sin sin\n3 3 2 3 3 3 2 3\n16π 113 33 113 33\n= + + + +\n3 2 4 2 4\n16π 253\n= + A1A1\n3 2\n[5 marks]\n(c) attempt to differentiate both functions and equate M1\n− = 6sin 2 x 11sin x A1\nattempt to solve for x M1\n+ = 11sin x 12sin x cos x 0\nsin(1112cos) x + x = 0\n11\ncos x =− ( or sin x = 0 ) A1\n12\n11\n⇒ y = 411 − − M1\n12\n169 1\n= = y 14 A1\n12 12\n[6 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.6",
+    "5.11",
+    "5.6",
+    "3.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 17]\nConsider the functions $f$ and $g$ defined on the domain $0 < x < 2\\pi$ by $f(x) = 3\\cos 2x$ and $g(x) = 4 - 11\\cos x$.\nThe following diagram shows the graphs of $y = f(x)$ and $y = g(x)$.\n[Diagram: graphs of y = f(x) and y = g(x); the region enclosed between the two curves between their intersection points is shaded; point A on g and point B on f at the same x-value]\n(a) Find the $x$-coordinates of the points of intersection of the two graphs. [6]\n(b) Find the exact area of the shaded region, giving your answer in the form $p\\pi + q\\sqrt{3}$, where $p, q \\in \\mathbb{Q}$. [5]\nAt the points A and B on the diagram, the gradients of the two graphs are equal.\n(c) Determine the $y$-coordinate of A on the graph of $g$. [6]"
+  },
+  {
+   "id": "math-2019-M-P1-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 16]\nThe random variable X has probability density function f given by\nk ( � − arcsin x ) 0 ≤ x ≤ 1\nfx () = , where k is a positive constant.\n0 otherwise\n(a) State the mode of X .\b [1]\n(b) (i) Find arcsin d ∫ x x .\n2\nHence show that k= (ii) .\b [6]\n2 + �\n2\nx 1 x = − + 2\n(c) Given that y arcsin x arcsin x 1 − x , show that\n2 4 4\nd y\n(i) = x arcsin x ;\nd x\n3 �\n(ii) E ( X ) = .\b [9]\n4 ( � + 2 )",
+   "ms_text": "10. (a) mode is0 A1\n[1 mark]\n(b) (i) attempt at integration by parts (M1)\nd u 1\n= ,d v = d x\n2 d x 1 − x\nxx d\n= x arcsin x − ∫ A1\n2 1 − x\n2 = x arcsin x + 1 − x ( + c )\nA1\n1 1\n( − ) = − − − 2 (ii) ∫ π arcsin x d x π x x arcsin x 1 x A1\n0\n0\nπ π\n= π − − 0 − ( 0 −− 01 ) = + 1\n2 2\nπ + 2\n= A1\n2\n1\n( ) ∫ k π − arcsin x d x = 1 (M1)\n0\nNote: This line can be seen (or implied) anywhere.\nNote: Do not allow FTA marks from bi to bii.\nπ + 2 =\nk 1\n2\n2\n⇒ k = AG\n2 + π\n[6 marks]\n(c) (i) attempt to use product rule to differentiate M1\nd y x 2 1 x 2 1 − x 2\n= x arcsin x + − − + A2\n2 2 2 d x 21 − x 41 − x 41 − x 4\nNote: Award A2 for all terms correct, A1 for 4 correct terms.\n2 2 2 2 x 1 x 1 − x\n= x arcsin x + − − + A1\n2 2 2 2 41 − x 41 − x 41 − x 41 − x\nNote: Award A1 for equivalent combination of correct terms over a\ncommon denominator.\n= x arcsin x AG\n1\n(ii) E ( X ) = kx ( π − arcsin x ) d x M1 ∫\n0\n1\n= k ∫ ( π x − x arcsin x ) d x\n0\n1 2 2\nπ x x 1 x 2\n= k − arcsin x + arcsin x − 1 − x A1A1\n2 2 4 4\n0\nNote: Award A1 for first term, A1 for next 3 terms.\nπ π π k\n= − + − (0) A1\n2 4 8\n2 3π\n= A1\n2 + π 8\n3π\n= AG\n( ) 4π + 2\n[9 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.16",
+    "5.15",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 16]\nThe random variable $X$ has probability density function $f$ given by\n$f(x) = \\begin{cases} k(\\pi - \\arcsin x) & 0 \\le x \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$, where $k$ is a positive constant.\n(a) State the mode of $X$. [1]\n(b) (i) Find $\\int \\arcsin x \\, dx$.\n(ii) Hence show that $k = \\frac{2}{2+\\pi}$. [6]\n(c) Given that $y = \\left(\\frac{x^2}{2}\\right)\\arcsin x - \\left(\\frac{1}{4}\\right)\\arcsin x + \\left(\\frac{x}{4}\\right)\\sqrt{1-x^2}$, show that\n(i) $\\frac{dy}{dx} = x\\arcsin x$;\n(ii) $\\mathrm{E}(X) = \\frac{3\\pi}{4(\\pi+2)}$. [9]"
+  },
+  {
+   "id": "math-2019-M-P1-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 17]\nConsider the functions f and g defined by f (x) = ln |x| , x∈ϒ \\ {0} and g(x) = ln |x + k| ,\nx∈ϒ \\ {-k} , where k ∈ϒ, k > 2 .\n(a) Describe the transformation by which f (x) is transformed to g(x) .\b [1]\nState the range of g .\b (b) [1]\n(c) Sketch the graphs of y = f (x) and y =g(x) on the same axes, clearly stating the points\nof intersection with any axes.\b [6]\nThe graphs of f and g intersect at the point P .\nFind the coordinates of P .\b (d) [2]\nThe tangent to y = f (x) at P passes through the origin (0 , 0) .\n(e) Determine the value of k .\b [7]\n\b",
+   "ms_text": "11. (a) translation k units to the left (or equivalent) A1\n[1 mark]\nrange is ( gx∈ϒ () ) (b) A1\n[1 mark]\n(c)\ncorrect shape of y = fx () A1\ntheir fx translated k units to left (possibly shown by x () =− k marked\nonx-axis) A1\n=− asymptote included and marked as x k A1\nfx intersects x-axis at () x =− 1, x = 1 A1\ngx intersects x-axis at () x =−− k 1, x =−+ k 1 A1\ngx intersects y-axis at () y = ln k A1\nNote: Do not penalise candidates if their graphs “cross” as x →±∞.\nNote: Do not award FT marks from the candidate’s part (a) to part (c).\n[6 marks]\n(d) at Pln ( x + k ) = ln ( − x )\nattempt to solve x + k =− (or equivalent) x (M1)\nk k k\nx =− ⇒ y = (or y = ) A1\nln2 ln2\n2\nk k k k\nP − ,ln (or P − ,ln )\n2 2 2 2\n[2 marks]\n(e) attempt to differentiate ln( − x ) or lnx (M1)\nd y 1\n= A1\nd x x\ny − 2 at P, d\n= A1\nd x k\ny d y\nrecognition that tangent passes through origin ⇒ = (M1)\nx d x\nk\nln\n2 − 2 =\nA1\nk k\n−\n2\nk =\nln 1 (A1)\n2\n⇒ k = 2e A1\n[7 marks]\nNote: For candidates who explicitly differentiate ln() x(rather than ln( − x )\nor lnx, award M0A0A1M1A1A1A1.\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.16",
+    "2.11",
+    "2.9",
+    "2.10",
+    "5.4",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 17]\nConsider the functions $f$ and $g$ defined by $f(x) = \\ln|x|$, $x \\in \\mathbb{R} \\setminus \\{0\\}$ and $g(x) = \\ln|x + k|$, $x \\in \\mathbb{R} \\setminus \\{-k\\}$, where $k \\in \\mathbb{R}$, $k > 2$.\n(a) Describe the transformation by which $f(x)$ is transformed to $g(x)$. [1]\n(b) State the range of $g$. [1]\n(c) Sketch the graphs of $y = f(x)$ and $y = g(x)$ on the same axes, clearly stating the points of intersection with any axes. [6]\nThe graphs of $f$ and $g$ intersect at the point P.\n(d) Find the coordinates of P. [2]\nThe tangent to $y = f(x)$ at P passes through the origin $(0, 0)$.\n(e) Determine the value of $k$. [7]"
+  }
+ ],
+ "status": "done"
+}

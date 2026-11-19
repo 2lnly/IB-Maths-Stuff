@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2014-M-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.9", "6.8", "6.6"],
+      "text_clean": "1. [Maximum mark: 10]\nThe weighted graph $K$, representing the travelling costs between five customers, has the following adjacency table.\n| | A | B | C | D | E |\n| A | 0 | 1 | 6 | 7 | 4 |\n| B | 1 | 0 | 9 | 8 | 10 |\n| C | 6 | 9 | 0 | 11 | 3 |\n| D | 7 | 8 | 11 | 0 | 12 |\n| E | 4 | 10 | 3 | 12 | 0 |\n(a) Draw the graph $K$. [2]\n(b) Starting from customer D, use the nearest-neighbour algorithm, to determine an upper bound to the travelling salesman problem for $K$. [4]\n(c) By removing customer A, use the method of vertex deletion, to determine a lower bound to the travelling salesman problem for $K$. [4]"
+    },
+    "2": {
+      "topics": ["6", "1"],
+      "subtopics": ["6.1", "6.4", "6.2", "6.12", "1.15"],
+      "text_clean": "2. [Maximum mark: 23]\n(a) Consider the integers $a = 871$ and $b = 1157$, given in base 10.\n(i) Express $a$ and $b$ in base 13.\n(ii) Hence show that $\\gcd(a, b) = 13$. [7]\n(b) A list $L$ contains $n+1$ distinct positive integers. Prove that at least two members of $L$ leave the same remainder on division by $n$. [4]\n(c) Consider the simultaneous equations\n$4x + y + 5z = a$\n$2x + z = b$\n$3x + 2y + 4z = c$\nwhere $x, y, z \\in \\mathbb{Z}$.\n(i) Show that 7 divides $2a + b - c$.\n(ii) Given that $a = 3$, $b = 0$ and $c = -1$, find the solution to the system of equations modulo 2. [6]\n(d) Consider the set $P$ of numbers of the form $n^2 - n + 41$, $n \\in \\mathbb{N}$.\n(i) Prove that all elements of $P$ are odd.\n(ii) List the first six elements of $P$ for $n = 0, 1, 2, 3, 4, 5$.\n(iii) Show that not all elements of $P$ are prime. [6]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.8", "6.6", "6.12"],
+      "text_clean": "3. [Maximum mark: 10]\n(a) Draw a spanning tree for\n(i) the complete graph, $K_4$;\n(ii) the complete bipartite graph, $K_{4,4}$. [2]\n(b) Prove that a simple connected graph with $n$ vertices, where $n > 1$, must have two vertices of the same degree. [3]\n(c) Prove that every simple connected graph has at least one spanning tree. [5]"
+    },
+    "4": {
+      "topics": ["6", "1"],
+      "subtopics": ["6.10", "1.14", "1.13"],
+      "text_clean": "4. [Maximum mark: 17]\n(a) (i) Write down the general solution of the recurrence relation $u_n + 2u_{n-1} = 0$, $n \\ge 1$.\n(ii) Find a particular solution of the recurrence relation $u_n + 2u_{n-1} = 3n - 2$, $n \\ge 1$, in the form $u_n = An + B$, where $A, B \\in \\mathbb{Z}$.\n(iii) Hence, find the solution to $u_n + 2u_{n-1} = 3n - 2$, $n \\ge 1$ where $u_1 = 7$. [10]\n(b) Find the solution of the recurrence relation $u_n = 2u_{n-1} - 2u_{n-2}$, $n \\ge 2$, where $u_0 = 2$, $u_1 = 2$. Express your solution in the form $2^{f(n)}\\cos(g(n)\\pi)$, where the functions $f$ and $g$ map $\\mathbb{N}$ to $\\mathbb{R}$. [7]"
+    }
+  }
+}

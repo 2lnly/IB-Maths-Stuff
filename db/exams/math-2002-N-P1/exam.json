@@ -1,0 +1,492 @@
+{
+ "exam_id": "math-2002-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2002,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2002 November Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2002 November Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); marks not printed; assumed 6 per question (modal markscheme value)",
+ "qp_pages": 11,
+ "questions": [
+  {
+   "id": "math-2002-N-P1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "4 1. When the polynomial x + ax + 3 is divided by ( x − 1) , the remainder is 8. Find the value of a.",
+   "ms_text": "4 1. fx () = x + ax + 3\nf (1) = 8 (M1)(A1)\n1 + a + 3 = 8 (M1)(A1)\na = 4 (A2) (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "1. When the polynomial $x^4 + ax + 3$ is divided by $(x-1)$, the remainder is 8. Find the value of $a$."
+  },
+  {
+   "id": "math-2002-N-P1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "3 2 2. The graph of the function fx () = 2 x − 3 x + x + 1 is translated to its image, gx () , by the\n1\n3 2 vector . Write gx () in the form gx () = ax + bx + cx + d .\n− 1",
+   "ms_text": "2. gx () = fx ( − 1)1 − (M1)(M1)\n3 2 = 2( x − 1) − 3( x − 1) + ( x − 1) +− 11 (M1)(A1)\n3 2 = 2 x − 9 x + 13 x − 6 (A1)(A1) (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "2. The graph of the function $f(x) = 2x^3 - 3x^2 + x + 1$ is translated to its image, $g(x)$, by the vector $\\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$. Write $g(x)$ in the form $g(x) = ax^3 + bx^2 + cx + d$."
+  },
+  {
+   "id": "math-2002-N-P1-q3",
+   "num": "3",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "8\n1\n3. Find the coefficient of 3x in the binomial expansion of 1 − .\n2x",
+   "ms_text": "3\n− 8 1\n3\n3. The coefficient of x (M2)(A2) is3\n2\nThe coefficient of x 3 is − 7 (A2) (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "3. Find the coefficient of $x^3$ in the binomial expansion of $\\left(1 - \\frac{1}{2}x\\right)^8$."
+  },
+  {
+   "id": "math-2002-N-P1-q4",
+   "num": "4",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "2 x − 5 x − 4\n4. Find the equations of all the asymptotes of the graph of y = .\n2 x − 5 x + 4",
+   "ms_text": "8\n4. y =− 1 (M1)(A1)\nx 2 − 5 x + 4\n8\n=− 1 (A1)\n( x − 4)( x − 1)\nAsymptotes are y = 1, (A1) (C2)\nx = 4, x = 1 . (A1)(A1) (C2)(C2)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "4. Find the equations of all the asymptotes of the graph of $y = \\frac{x^2 - 5x - 4}{x^2 - 5x + 4}$."
+  },
+  {
+   "id": "math-2002-N-P1-q5",
+   "num": "5",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. An integer is chosen at random from the first one thousand positive integers. Find the\nprobability that the integer chosen is\n(a) a multiple of 4;\n(b) a multiple of both 4 and 6.",
+   "ms_text": "5. (a) The number of multiples of 4 is 250. (M1)\nRequired probability = 0.25. (A1) (C2)\n(b) The number of multiples of 4 and 6 is (M1)\nthe number of multiples of 12 (A1)\n= 83. (A1)\nRequired probability = 0.083 (A1) (C4)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "5. An integer is chosen at random from the first one thousand positive integers. Find the probability that the integer chosen is\n(a) a multiple of 4;\n(b) a multiple of both 4 and 6."
+  },
+  {
+   "id": "math-2002-N-P1-q6",
+   "num": "6",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "50\n6. Find ln(2) r , giving the answer in the form a∈Q . r=∑ a ln 2, where\n1",
+   "ms_text": "50 50\n6. ∑ ln(2) r = ∑ r (ln 2) (M1)\nr = 1 r = 1\n50\n= (ln2) ∑ r (M1)(A1)\nr = 1\n50\n= (ln2) 51 (M1)(A1)\n2\n= 1275ln2 (A1) (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "6. Find $\\sum_{r=1}^{50} \\ln(2^r)$, giving the answer in the form $a \\ln 2$, where $a \\in \\mathbb{Q}$."
+  },
+  {
+   "id": "math-2002-N-P1-q7",
+   "num": "7",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "2 7. The functions fx () and gx () are given by fx () = x − 2 and gx () = x + x .\nThe function ( f ! g )() x is defined for x∈R , except for the interval ] ab , [ .\n(a) Calculate the value of a and of b.\n(b) Find the range of f ! g .",
+   "ms_text": "7. (a)\nMETHOD 1\n2 y = x + x − 2\n–2 1\n2 2 fgx ( () ) = fx ( + x ) = x + x − 2 (M1)(A1)\n2 ⇒ x + x − 2 ≥ 0 (M1)\n⇒ x ≤− 2, x ≥ 1\na= –2, b= 1 (A1)(A1) (C5)\nMETHOD 2\n( ) 2 fgx () = x + x − 2 (M1)(A1)\n= + − ( x 2)( x 1)\n⇒ ( x + 2)( x − 1) ≥ 0 (M1)\n⇒ a= –2, b= 1 (A1)(A1) (C5)\n(b) range is y ≥ 0 (A1) (C1)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.7",
+    "2.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "7. The functions $f(x)$ and $g(x)$ are given by $f(x) = \\sqrt{x-2}$ and $g(x) = x^2 + x$.\nThe function $(f \\circ g)(x)$ is defined for $x \\in \\mathbb{R}$, except for the interval $]a, b[$.\n(a) Calculate the value of $a$ and of $b$.\n(b) Find the range of $f \\circ g$."
+  },
+  {
+   "id": "math-2002-N-P1-q8",
+   "num": "8",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. Consider the six numbers, 2, 3, 6, 9, a and b. The mean of the numbers is 6 and the variance\nis 10. Find the value of a and of b, if a<b.",
+   "ms_text": "2 + 3 + 6 + 9 + a + b\n8. x = (M1)\n6\n20 + a + b\n= = 6\n6\n⇒ a + b = 16 (A1)\n6\n2 ( x − 6)\n=∑ i\ni = 1 variance\n6\n2 + 2 + 2 + 2 + − 2 + − 2 4 3 0 3 ( a 6) ( b 6)\n= = 10 (M1)\n6\n2 2 ⇒ ( a − 6) + ( b − 6) = 26\n2 2 ⇒ ( a − 6) + (10 − a ) = 26 (M1)\nTherefore a= 5, b= 11 (A1)(A1) (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "8. Consider the six numbers, 2, 3, 6, 9, $a$ and $b$. The mean of the numbers is 6 and the variance is 10. Find the value of $a$ and of $b$, if $a < b$."
+  },
+  {
+   "id": "math-2002-N-P1-q9",
+   "num": "9",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "3 2\n9. Solve the inequality x − 4 + < 0 .\nx",
+   "ms_text": "9. METHOD 1\n–2.3 1 1.3 (M2)\n3 2\nx − 4 + < 0\nx\n⇒− < < < < (G2)(G2) (C6) 2.30 x 0or1 x 1.30\nMETHOD 2\n3\nx 2 − 4 + < 0\nx\n3 x − 4 x + 3\n⇒ < 0 (M1)\nx\n2 ( x − 1)( x + x − 3)\n⇒ < 0 (M1)\nx\n1\n( ) Critical values: 1, 1 13, 0 (A2)\n2−±\n+ – + – +\n0 1 1\n− 11 ( + ) ( ) 13 13 − 1\n2 2\n1 1\n⇒ − ( 13 + 1 ) < x < 0or1 < x < ( 13 − 1 ) (A1)(A1) (C6)\n2 2\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.15",
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "9. Solve the inequality $x^2 - 4 + \\frac{3}{x} < 0$."
+  },
+  {
+   "id": "math-2002-N-P1-q10",
+   "num": "10",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. Find an equation for the line of intersection of the following two planes.\nx + 2 y − 3 z = 2\n2 x + 3 y − 5 z = 3",
+   "ms_text": "10. METHOD 1\nR:\n1 1 2 –3 2\nR: 2 3 –5 3\n2\nR: 1 2 –3 2\n1\nR − 2R: 0 –1 1 –1 (M2)(A1)\n2 1\nLet z = t , then y =+ t 1and x = t .\nTherefore the line of intersection is x = ty , =+ t 1, z = t (or equivalent). (A1)(A1)(A1) (C6)\nMETHOD 2\nLet z = 0 ⇒ x + 2 y = 2\n+ = 2 x 3 y 3 (M1)\n⇒ x = 0, y = 1 (A1)\nThe direction vector of the line of intersection is\ni j k\n1 2 − 3 (M1)\n2 3 − 5\n= −− i j − k (A1)\n0 1\n= + Therefore the line of intersection is r 1 t 1 (or equivalent) (A2) (C6)\n0 1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.18",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "10. Find an equation for the line of intersection of the following two planes.\n$x + 2y - 3z = 2$\n$2x + 3y - 5z = 3$"
+  },
+  {
+   "id": "math-2002-N-P1-q11",
+   "num": "11",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. A particle moves in a straight line with velocity, in metres per second, at time t seconds, given by\n= 2 − ≥ vt () 6 t 6, t t 0\nCalculate the total distance travelled by the particle in the first two seconds of motion.",
+   "ms_text": "2 11. vt () = 6 t − 6 t = 6( tt − 1)\n+ – +\nvt ()\n0 1\nMETHOD 1\n1 2 2 2\nDistance travelled = − ∫ (6 t − 6)d t t + ∫ (6 t − 6)d t t (M1)(M1)\n0 1\n= 1 + 5 (G1)(G1)\n= 6 m. (G2) (C6)\nMETHOD 2\n1 2 2 2\nDistance travelled = − ∫ (6 t − 6)d t t + ∫ (6 t − 6)d t t (M1)(M1)\n0 1\n1 2 3 2 3 2\n= − 2 t − 3 t + 2 t − 3 t (A1)(A1)\n0 1\n= −− + − (1) 2(7) 3(3)\n= 6 m . (A2) (C6)\nNote: Award (G1)(or (A1)) if the units are missing.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "11. A particle moves in a straight line with velocity, in metres per second, at time $t$ seconds, given by\n$v(t) = 6t^2 - 6t,\\ t \\ge 0$\nCalculate the total distance travelled by the particle in the first two seconds of motion."
+  },
+  {
+   "id": "math-2002-N-P1-q12",
+   "num": "12",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "Triangle ABC has AB = 8 cm, BC = 6 cm and ˆ = ! 12. BAC 20 . Find the smallest possible area\nof ∆ABC.",
+   "ms_text": "12. METHOD 1\nC '\nC\n6\n6\no 20\nA 8 B\nsin C sin20\n= ⇒ sin C = 0.4560 (M1)(A1)\n8 6\nˆC (From diagram) smallest triangle when is obtuse,\nˆ � ˆ � i.e. C = 152.9 ⇒ CBA = 7.13 �(or 7.1 ) (A1)(A1)\n1\nArea ∆ ABC = (8)(6)(sin7.13)(or sin7.1 ) � � (M1)\n2\n2 Area ∆ ABC = 2.98 (cm) (accept 2.97) (A1) (C6)\nMETHOD 2\nC '\nC\n6\n6\no 20\nA 8 B\nLet AC =x\n2 2 2 � By the cosine rule 6 = 8 + x − (2)(8)()cos20 x (M1)(A1)\n2 ⇒ 0 = x − 15.035 x + 28\n15.035 − (15.035) 2 − 112\nx = (A1)\n2\n= 2.178 (A1)\n1 1 � �\nArea = ABACsin(20) × = (8)(2.178)sin20 (M1)\n2 2\n2 = 2.98 (cm) (A1) (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "12. Triangle ABC has AB = 8 cm, BC = 6 cm and $\\hat{BAC} = 20^\\circ$. Find the smallest possible area of $\\triangle$ABC."
+  },
+  {
+   "id": "math-2002-N-P1-q13",
+   "num": "13",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. Find ∫ (cos θ θ − θ )d θ .",
+   "ms_text": "13. Using integration by parts u = θ v = sin θ (M1)\nd u = d θ d v = cosd θθ\n⇒ θ θθ = θ θ − θθ ∫ cosd sin ∫ sind (M1)(A1)\n⇒ ∫ θ cosd θθ = θ sin θ + cos θ (A1)\n2 θ\n⇒ θ θ − θ θ = θ θ + θ − + Therefore, ∫ (cos )d sin cos c (A2) (C6)\n2\n2 θ\nNote: Award (C5) for θ sin θ + cos θ − , i.e. penalize omission of + c by [1 mark].\n2\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "13. Find $\\int (\\theta \\cos\\theta - \\theta)\\,d\\theta$."
+  },
+  {
+   "id": "math-2002-N-P1-q14",
+   "num": "14",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "x 14. Find the x-coordinate of the point of inflexion on the graph of y = x e, − 3 ≤ x ≤ 1 .",
+   "ms_text": "14. METHOD 1\ny = x ex\nd y x x\nx e + e (M1)(A1) x=\nd\n2 d y\nx x x e + 2e (M1)(A1)\nx=\nd 2\n= e( xx + 2) (A1)\nTherefore the x-coordinate of the point of inflexion is x = − 2 (A1) (C6)\nMETHOD 2\nSketching y = f ′ () x\ny\n′ f () x\n1\n(G4)\n–3 –2 –1 0 x\nf ′ () x has a minimum when x = − 2 (G1)\nThus, fx () has point of inflexion when x = − 2 (G1)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.7",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "14. Find the $x$-coordinate of the point of inflexion on the graph of $y = x e^x$, $-3 \\le x \\le 1$."
+  },
+  {
+   "id": "math-2002-N-P1-q15",
+   "num": "15",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "15. The probability density function fx () , of a continuous random variable X is defined by\n1(4 2 x − x ),0 ≤ x ≤ 2\nfx () = 4\n0, otherwise.\nCalculate the median value of X.",
+   "ms_text": "15. Let m be the median.\nm 1(4 2\nThen ∫ x − x )d x = 0.5 . (M1)\n0 4\nm 3\n⇒ ∫ 0(4 x − x )d x = 2 (A1)\nm\n1\n⇒ 2 x 2 − x 4 = 2 (M1)\n4\n0\n1\n⇒ 2 m 2 − m 4 = 2\n4\n4 2 ⇒ m − 8 m + 8 = 0 (A1)\nm = 1.08 (G2)\nOR\n8 ± 64 − 32 8 ± 32\nm 2 = = = 4 ± 8 ( 4 ± 22 ) (M1)\n2 2\n) ⇒ m = 4 − 8 ( 4 − 22 (A1) (C6)\n4 − 2 + = Note: Award (C5) if other solutions to the equation m 8 m 8 0 appear\nin the answer box.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "15. The probability density function $f(x)$, of a continuous random variable $X$ is defined by\n$f(x) = \\begin{cases} \\frac{1}{4}x(4 - x^2), & 0 \\le x \\le 2 \\\\ 0, & \\text{otherwise.} \\end{cases}$\nCalculate the median value of $X$."
+  },
+  {
+   "id": "math-2002-N-P1-q16",
+   "num": "16",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "3 3 − 1 16. Air is pumped into a spherical ball which expands at a rate of 8 cm per second (8 cms) .\nFind the exact rate of increase of the radius of the ball when the radius is 2 cm.",
+   "ms_text": "d V\n16. = 3 − 1 , V = 4 π r 3 8(cms)\nd t 3\nd V 2\n⇒ = 4π r (M1)(A1)\nd r\nd V d V d r d r d V d V\n= × ⇒ = ÷ (M1)\nd t d r d t d t d t d r\nd r 2\nWhen r = 2, = 8 ÷ (4π × 2) (M1)(A1)\nd t\n1(cms) − 1 = (do not accept 0.159) (A1) (C6)\n2 π\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "16. Air is pumped into a spherical ball which expands at a rate of $8\\ \\text{cm}^3$ per second ($8\\ \\text{cm}^3\\text{s}^{-1}$). Find the exact rate of increase of the radius of the ball when the radius is 2 cm."
+  },
+  {
+   "id": "math-2002-N-P1-q17",
+   "num": "17",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "B(,) ab fx () = x 2 A(6, 0) 17. The point is on the curve such that B is the point which is closest to .\nCalculate the value of a.",
+   "ms_text": "17. y\n= 2 y x\nB(,) ab\n0 x A(6, 0)\n2 b = a\n2 = − 2 + 4 AB ( a 6) a (M1)(A1)\n2 4 Minimum value of ( x − 6) + x occurs at x= 1.33 (G3)\n⇒ a = 1.33 (G1) (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "17. The point $B(a, b)$ is on the curve $f(x) = x^2$ such that B is the point which is closest to $A(6, 0)$. Calculate the value of $a$.",
+   "review_note": "Markscheme crop omits the final '[6 marks]' line: segmenter treats the vector box drawn around '[6 marks]' at the page bottom (MS page 11, y~786) as a barcode/footer and sets body_bot above it, so overrides cannot reach it. All marking content (M1)(A1)(G3)(G1)(C6) is present. | fixed by segmenter update: the line noted above as missing is now in the crop"
+  },
+  {
+   "id": "math-2002-N-P1-q18",
+   "num": "18",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "18. Given two non-zero vectors a and b such that a + b = a − b , find the value of ab ⋅ .",
+   "ms_text": "18. METHOD 1\nLet a+b and a – b be diagonals of a parallelogram ABCD with sides AB and AD\nequal to a and b respectively. (M1)\nB C\na – b\na + b\na\n(M1)\nA b D\nIf a + b = a − b then the diagonals AC and BD are equal in length. (M1)(A1)\nTherefore ABCD is a rectangle and ab ⋅ = 0 . (R1)(A1) (C6)\nMETHOD 2\na + b = a − b\n2 2\n⇒ a + b = a − b (M1)\n⇒ ( a + b )( ⋅ a + b ) = ( a − b )( ⋅ a − b ) (M1)(A1)\n2 2 2 2\n⇒ a + 2 ab ⋅+ b = a − 2 ab ⋅+ b (A1)\n⇒ 4 ab ⋅ = 0 (A1)\n⇒ ab ⋅ = 0 (A1) (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "18. Given two non-zero vectors $\\mathbf{a}$ and $\\mathbf{b}$ such that $|\\mathbf{a} + \\mathbf{b}| = |\\mathbf{a} - \\mathbf{b}|$, find the value of $\\mathbf{a} \\cdot \\mathbf{b}$."
+  },
+  {
+   "id": "math-2002-N-P1-q19",
+   "num": "19",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "19. The transformation M represents a reflection in the line y = x 3 . The transformation R\nπ\nrepresents a rotation through radians anticlockwise about the origin. Give a full geometric\n6\ndescription of the single transformation which is equivalent to M followed by R.",
+   "ms_text": "1 3\n−\nπ 2 2\n19. Matrix representing a reflection in y = x 3 = x is M (A1)\ntan 3 =\n3 1\n2 2\n3 1\n−\nπ 2 2\nMatrix representing an anticlockwise rotation about 0 through is R (A1)\n=\n6 1 3\n2 2\n3 1 1 3\n− −\n2 2 2 2\nRM (M1) =\n1 3 3 1\n2 2 2 2\n3 1\n−\n2 2\n(A1) =\n1 3\n2 2\n5π 5 π\ncos sin\n6 6\n=\n5 π 5 π\nsin − cos\n6 6\n5 π\nThis is the matrix representing a reflection in y = x tan (A1)(A1) (C6)\n12\nNotes: Candidates may use diagrams/geometry.\nAward (M1)(A1) for a correct representation of M,\n(M1)(A1) for a correct representation of R,\n(A1)(A1) for the correct answer.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "19. The transformation $\\boldsymbol{M}$ represents a reflection in the line $y = x\\sqrt{3}$. The transformation $\\boldsymbol{R}$ represents a rotation through $\\frac{\\pi}{6}$ radians anticlockwise about the origin. Give a full geometric description of the single transformation which is equivalent to $\\boldsymbol{M}$ followed by $\\boldsymbol{R}$."
+  },
+  {
+   "id": "math-2002-N-P1-q20",
+   "num": "20",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "20. The tangent to the curve y = fx () at the point P(,) xy meets the x-axis at Q( x − 1, 0) . The\ncurve meets the y-axis at R (0, 2) . Find the equation of the curve.",
+   "ms_text": "20.\ny\nR (0, 2)\n0 Q ( x − 1, 0) x x\nFrom the diagram,\nd y y\n(M1)(A1) x=\nd 1\nd y\n⇒ = d x (M1) ∫ ∫\ny\n⇒ ln y = x + c (A1)\n⇒ = xc + = x y e A e . (A1)\nlies on the curve and so A= 2. But R (0, 2) (A1)\nThus y = 2ex (C6)\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "20. The tangent to the curve $y = f(x)$ at the point $P(x, y)$ meets the $x$-axis at $Q(x-1, 0)$. The curve meets the $y$-axis at $R(0, 2)$. Find the equation of the curve."
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,496 @@
+{
+ "exam_id": "math-2006-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2006,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2006 November Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2006 November Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8806-7201; code N06/5/MATHL/HP1/ENG/TZ0/XX; marks not printed; assumed 6 per question (modal markscheme value)",
+ "qp_pages": 21,
+ "questions": [
+  {
+   "id": "math-2006-N-P1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1 2 1\n1. (a) Find the inverse of the matrix . 1 1 2\n2 1 4\n(b) Hence solve the system of equations\nx + 2 y + z = 0\nx + y + 2 z = 7\n2 x + y + 4 z = 17",
+   "ms_text": "QUESTION 1\n− 1\n⎛ 1 2 1 ⎞ ⎛ 2 − 7 3 ⎞\n⎜ ⎟ ⎜ ⎟\n(a) 1 1 2 = 0 2 − 1 A2 N2 ⎜ ⎟ ⎜ ⎟\n⎜ ⎟ ⎜ ⎟\n2 1 4 − 1 3 − 1 ⎝ ⎠ ⎝ ⎠\n− 1 (b) In matrix form Ax = B or x = AB M1\nx = 2, y = − 3, z = 4 A1A1A1 N0",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "1. (a) Find the inverse of the matrix $\\begin{pmatrix}1&2&1\\\\1&1&2\\\\2&1&4\\end{pmatrix}$.\n(b) **Hence** solve the system of equations\n$x+2y+z=0$\n$x+y+2z=7$\n$2x+y+4z=17$"
+  },
+  {
+   "id": "math-2006-N-P1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "3\n2. Express ( 3 − 2 ) in the form a 3 + b , where ab , ∈′.",
+   "ms_text": "QUESTION 2\n3 3 2 1 2 3\n( 3 − 2 ) = ( 3 ) + 3 ( 3 )( − 2 ) + 3 ( 3 )( − 2 ) +− ( 2 ) M1A1\n= 33 +− (18) + 123 − 8 (M1)A1\n153 26 (accept a 15 , b 26 ) A1A1 N3 = − = = −",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "2. Express $(\\sqrt{3}-2)^3$ in the form $a\\sqrt{3}+b$, where $a, b\\in\\mathbb{Z}$."
+  },
+  {
+   "id": "math-2006-N-P1-q3",
+   "num": "3",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "Let f be the function defined for x > −1 3. () = ln ( 3 x + 1. )\n3 by fx\n(a) Find ′f () . x\n(b) Find the equation of the normal to the curve y = fx () at the point where x = 2 .\nGive your answer in the form y = ax + b where ab , ∈ϒ.",
+   "ms_text": "QUESTION 3\n1 ⎛ 3 ⎞\n(a) f ′ () x 3 M1A1 N2 = × ⎜ = ⎟\n3 x + 1 ⎝ 3 x + 1 ⎠\n3\n(b) Hence when x = 2 , gradient of tangent = (A1)\n7\n7\n⇒ gradient of normal is − (A1)\n3\n7\ny − ln7 = − ( x − 2) M1\n3\n7 14\ny = − x + + ln7 A1 N4\n3 3\n(accept y = − 2.33 x + 6.61 )",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.4",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "3. Let $f$ be the function defined for $x>-\\frac{1}{3}$ by $f(x)=\\ln(3x+1)$.\n(a) Find $f'(x)$.\n(b) Find the equation of the normal to the curve $y=f(x)$ at the point where $x=2$. Give your answer in the form $y=ax+b$ where $a, b\\in\\mathbb{R}$."
+  },
+  {
+   "id": "math-2006-N-P1-q4",
+   "num": "4",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. Bag 1 contains 4 red cubes and 5 blue cubes. Bag 2 contains 7 red cubes and 2 blue cubes.\nTwo cubes are drawn at random, the first from Bag 1 and the second from Bag 2.\n(a) Find the probability that the cubes are of the same colour.\n(b) Given that the cubes selected are of different colours, find the probability that the red\ncube was selected from Bag 1.",
+   "ms_text": "QUESTION 4\n(a) P(same colour) = P( R ∩ R ) + P( B ∩ B )\n⎛ 4 ⎞⎛ 7 ⎞ ⎛ 5 ⎞⎛ 2 ⎞\n= ⎜ ⎟⎜ ⎟ + ⎜ ⎟⎜ ⎟ (M1)\n⎝ 9 ⎠⎝ 9 ⎠ ⎝ 9 ⎠⎝ 9 ⎠\n⎛ 28 ⎞ ⎛ 10 ⎞ 38\n= + = (0.469) = A1 N2 ⎜ ⎟ ⎜ ⎟\n⎝ 81 ⎠ ⎝ 81 ⎠ 81\nP( R and then B )\n(b) P(first red|different) (M1) =\nP( R and then B ) P( B and then R ) +\nNote: Accept correct tree diagram for selections.\n⎛ ⎞ ⎛ 4 ⎞⎛ 2 ⎞ ⎛ 4 ⎞⎛ 2 ⎞ ⎛ 8 ⎞\n⎜ ⎟⎜ ⎟ ⎜ ⎜ ⎟⎜ ⎟ ⎜ ⎟ ⎟\n⎝ 9 ⎠⎝ 9 ⎠ ⎝ 9 ⎠⎝ 9 ⎠ ⎝ 81 ⎠ ⎜ ⎟ A1\n= = =\n4 2 5 7 ⎛ ⎞⎛ ⎞ ⎛ ⎞⎛ ⎞ ⎜ ⎛ 38 ⎞ ⎛ 43 ⎞ ⎟\n+ 1 ⎜ ⎟⎜ ⎟ ⎜ ⎟⎜ ⎟ ⎜ −⎜ ⎟ ⎜ ⎟ ⎟\n⎝ 9 ⎠⎝ 9 ⎠ ⎝ 9 ⎠⎝ 9 ⎠ ⎝ ⎝ 81 ⎠ ⎝ 81 ⎠ ⎠ A1\n8\n= ( = 0.186 ) A1 N1\n43",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "4. Bag 1 contains 4 red cubes and 5 blue cubes. Bag 2 contains 7 red cubes and 2 blue cubes. Two cubes are drawn at random, the first from Bag 1 and the second from Bag 2.\n(a) Find the probability that the cubes are of the same colour.\n(b) Given that the cubes selected are of different colours, find the probability that the red cube was selected from Bag 1."
+  },
+  {
+   "id": "math-2006-N-P1-q5",
+   "num": "5",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. The sum to infinity of a geometric series is 32. The sum of the first four terms is 30 and all\nthe terms are positive.\nFind the difference between the sum to infinity and the sum of the first eight terms.",
+   "ms_text": "QUESTION 5\n4 a a (1 − r )\nS 32 and S 30 (M1)\n∞ = = 4 = = 1 r 1 r\n− −\n⇒ a = 32(1 − r ) M1\n⇒ 32(1 − r 4 ) = 30\n⇒ r = 0.5 and a = 16 A1A1\n8 ⎛ 1 − 0.5 ⎞\n⇒ S − S = 32 − ⎜ ⎟ M1\n∞ 8 161\n⎝ − 0.5 ⎠\nNote: Allow FT on incorrect a / r.\n1\n= 0.125 = A1 N2\n8",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.8",
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "5. The sum to infinity of a geometric series is 32. The sum of the first four terms is 30 and all the terms are positive.\nFind the difference between the sum to infinity and the sum of the first eight terms."
+  },
+  {
+   "id": "math-2006-N-P1-q6",
+   "num": "6",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "π π\n6. Solve tan22 θ=, in the interval − 1 θ . ≤ ≤\n2 2",
+   "ms_text": "QUESTION 6\nEITHER\ntan2 2 1 θ=\n⇒ tan 2 1 A1 θ = ±\nπ π 3,\nθ = ± ± A1\n4 4\n3 π π\n⇒ θ = ± , ± or 1.18, ± ± 0.393 A1A1A1A1 N4\n8 8\nOR\nA1A1\n3 π π\nθ = ± , ± or1.18, ± ± 0.393 A1A1A1A1\n8 8",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "6. Solve $\\tan^2 2\\theta=1$, in the interval $-\\frac{\\pi}{2}\\le\\theta\\le\\frac{\\pi}{2}$."
+  },
+  {
+   "id": "math-2006-N-P1-q7",
+   "num": "7",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. The random variable X follows a Poisson distribution. Given that P( X≤ 1 ) = 0 2 , find .\n(a) the mean of the distribution;\n(b) P( X≤2. )",
+   "ms_text": "QUESTION 7\n(a) P( X≤ 1) = 0.2\nP( X = 0) + P( X = 1) = 0.2 (M1)\n⇒ e − λ + e − λλ = 0.2\n⇒ e − λ (1 + λ ) = 0.2 A1\n⇒ λ = 2.99 A2 N2\n(b) P( X≤ 2) = 0.424 (accept 0.425) A2 N2",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "7. The random variable $X$ follows a Poisson distribution. Given that $\\mathrm{P}(X\\le 1)=0.2$, find\n(a) the mean of the distribution;\n(b) $\\mathrm{P}(X\\le 2)$."
+  },
+  {
+   "id": "math-2006-N-P1-q8",
+   "num": "8",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. A sum of $100 is invested.\n(a) If the interest is compounded annually at a rate of 5 % per year, find the total\nvalue V of the investment after 20 years.\nIf the interest is compounded monthly at a rate of 5\n(b) 12 % per month, find the\nminimum number of months for the value of the investment to exceed V.",
+   "ms_text": "QUESTION 8\n20 (a) V= 100(1 + 0.05) (M1)\nV= $265 (accept $265.33) A1 N2\nn\n⎛ 5 ⎞\n(b) 1001 ⎜ + ⎟ > 265 (M1)\n⎝ 1200 ⎠\n⎛ 5 ⎞\nn ln1 + > ln(2.65) M1A1 ⎜ ⎟\n⎝ 1200 ⎠\n⇒ n = 235 A1 N2",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.4",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "8. A sum of \\$100 is invested.\n(a) If the interest is compounded annually at a rate of 5 % per year, find the total value $V$ of the investment after 20 years.\n(b) If the interest is compounded monthly at a rate of $\\frac{5}{12}$ % per month, find the minimum number of months for the value of the investment to exceed $V$."
+  },
+  {
+   "id": "math-2006-N-P1-q9",
+   "num": "9",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. A certain type of vegetable has a weight which follows a normal distribution with mean\n450 grams and a standard deviation 50 grams.\n(a) In a load of 2000 of these vegetables, calculate the expected number with a weight\ngreater than 525 grams.\n(b) Find the upper quartile of the distribution.",
+   "ms_text": "QUESTION 9\n⎛ 525 − 450 ⎞\n(a) P(weight 525 grams) P z > = ⎜ > ⎟\n50 ⎝ ⎠\n= P( z > 1.5) (M1)\n0.0668 A1 =\nExpected number ≥ 525 grams = (2000)(0.0668)\n= 134 A1 N2\n(b) Φ () z = 0.75 ⇒ z = 0.6745 (A1)\nQ= 450 + 50 × 0.6745 A1\n3\nQ= 484 A1 N2\n3",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "9. A certain type of vegetable has a weight which follows a normal distribution with mean 450 grams and a standard deviation 50 grams.\n(a) In a load of 2000 of these vegetables, calculate the expected number with a weight greater than 525 grams.\n(b) Find the upper quartile of the distribution."
+  },
+  {
+   "id": "math-2006-N-P1-q10",
+   "num": "10",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. Let z1 and z2 be complex numbers. Solve the simultaneous equations\n2 z + 3 z = 7 , z + i z = 4 + 4 i\n1 2 1 2\nGive your answers in the form z = a +i , where a, b∈′. b",
+   "ms_text": "QUESTION 10\nSolving simultaneously (M1)\n2 z + 3 z = 7\n1 2\n2 z 2i z 8 8i\n1 + 2 = +\nz 2(2i − 3) =+ 1 8i (A1)\n1 + 8i\nz = =− 1 2i M1A1\n2 2i\n− 3\n7 − 3(1 − 2i)\nz or 4 4i i(1 2i) M1\n1 = + − − 2\n= 2 + 3i A1 N4",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "10. Let $z_1$ and $z_2$ be complex numbers. Solve the simultaneous equations\n$2z_1+3z_2=7,\\quad z_1+\\mathrm{i}z_2=4+4\\mathrm{i}$\nGive your answers in the form $z=a+b\\mathrm{i}$, where $a, b\\in\\mathbb{Z}$."
+  },
+  {
+   "id": "math-2006-N-P1-q11",
+   "num": "11",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. The lines L1 and L2 have parametric equations\nL : x =+ 1 2 λ , y =+ 13 λ , z =− 1 λ\n1\nL : x = 2 − µ , y = 3 + 4 µ , z = 4 + 2 µ\n2\nFind the angle between L1 and L2 .",
+   "ms_text": "QUESTION 11\nThe direction vectors of 1L and L are\n2\n⎛ 2 ⎞ ⎛ − 1 ⎞\n⎜ ⎟ ⎜ ⎟\nL 3, L 4 A1A1\n1 = ⎜ ⎟ 2 = ⎜ ⎟\n⎜ ⎟ ⎜ ⎟\n− 1 2 ⎝ ⎠ ⎝ ⎠\nNote: Allow FT on incorrect vectors.\nLL= i 8 A1\n1 2\n| L | = 14,| L | = 21 A1\n1 2\n8\ncos θ= (A1)\n1421\n� θ= 1.09 radians (62.2) A1",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "11. The lines $L_1$ and $L_2$ have parametric equations\n$L_1: x=1+2\\lambda,\\ y=1+3\\lambda,\\ z=1-\\lambda$\n$L_2: x=2-\\mu,\\ y=3+4\\mu,\\ z=4+2\\mu$\nFind the angle between $L_1$ and $L_2$."
+  },
+  {
+   "id": "math-2006-N-P1-q12",
+   "num": "12",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. The graph below represents y = a sin ( x + b ) + c , where a, b, and c are constants.\n3 π ,\n2\n4\nFind values for a, b and c.",
+   "ms_text": "QUESTION 12\nSince range goes from − 4 to 2 ⇒ a = 3 (M1)A1\nπ , π ⇒ b = − (M1)A1\nSince curve is shifted right by 4\n4\nSince curve has been shifted in vertical by one unit down ⇒ c = − 1 (M1)A1\nπ\na = 3 b = − c = − 1 N2N2N2\n4",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.7",
+    "2.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms"
+   ],
+   "text_clean": "12. The graph below represents $y=a\\sin(x+b)+c$, where $a$, $b$, and $c$ are constants.\n[Graph: sinusoidal curve for $-2\\pi\\le x\\le 2\\pi$ with maximum value 2 and minimum value $-4$; maximum point labelled $\\left(\\frac{3\\pi}{4}, 2\\right)$; y-axis marked from $-4$ to 4]\nFind values for $a$, $b$ and $c$."
+  },
+  {
+   "id": "math-2006-N-P1-q13",
+   "num": "13",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. Let P be the point (1, 0, – 2) and Π be the plane x + y − 2 z + 3 = 0 . Let ′ P be the reflection\nof P in the plane Π . Find the coordinates of the point ′ P .",
+   "ms_text": "QUESTION 13\nGeneral point on line is (1 + λλ , , − 2 − 2) λ (M1)(A1)\nIntersection of line and plane\n1 + λ + λ − 2(2 −− 2) λ + 3 = 0\n− 4\n⇒ λ = M1A1\n3\nNote: Allow FT on incorrect λ .\n⎛ − 4 ⎞\n⇒ at P ′ λ = 2 M1 ⎜ ⎟\n⎝ 3 ⎠\n⎛ − 5 − 810 ⎞\n⇒ P is ′ ⎜ , , ⎟ A1 N3\n⎝ 3 3 3 ⎠",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "13. Let P be the point $(1, 0, -2)$ and $\\Pi$ be the plane $x+y-2z+3=0$. Let P$'$ be the reflection of P in the plane $\\Pi$. Find the coordinates of the point P$'$."
+  },
+  {
+   "id": "math-2006-N-P1-q14",
+   "num": "14",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "p\n14. Solve the equation 9 , expressing your answers in the form 5 q , where log x = 25 log 5\n5 x\npq , ∈′.",
+   "ms_text": "QUESTION 14\n9log x = 25log5\n5 x\n25\n⇒ 9log x = M1A1\n5 log x\n5\n25 2\n⇒ (log x ) = M1\n5 9\n± 5\n⇒ log x A1\n5 = 3\n5 − 5\n3 3 ⇒ x = 5 or x = 5 (accept p = ± 5, q = 3 ) A1A1 N0",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "14. Solve the equation $9\\log_5 x=25\\log_x 5$, expressing your answers in the form $5^{\\frac{p}{q}}$, where $p, q\\in\\mathbb{Z}$."
+  },
+  {
+   "id": "math-2006-N-P1-q15",
+   "num": "15",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "15. Consider the curves C1, C2 with equations\nC : y = x 2 + kx + k , where k < 0 is a constant\n1\n2 C : y = − x + 2 x − 4 .\n2\nBoth curves pass through the point P and the tangent at P to one of the curves is also a\ntangent at P to the other curve.\n(a) Find the value of k.\n(b) Find the coordinates of P.",
+   "ms_text": "QUESTION 15\n(a) EITHER\n2 2 At the point where curves touch x + kx + k = − x + 2 x − 4\n⇒ 2 2 x + ( k − 2) x + k + 4 = 0 A1\nSince curves only touch this equation has only one solution for x\n⇒∆= 2 b − 4 ac = 0 M1\n⇒ 2 ( k − 2) − 4(2)( k + 4) = 0\n⇒ 2 k − 12 k − 28 = 0 A1\n⇒ k = − 2 A1 N2\nOR\nAt the point P,\n2 2 x + kx + k = − x + 2 x − 4\n2 2 x + ( k − 2) x + k + 4 = 0 A1\nand\n2 x + k = − 2 x + 2\n4 x = 2 − k A1\nEliminating x,\n2 (2 − k ) ( k − 2)(2 − k )\n2 + + k + 4 = 0\n16 4\n2 k − 12 k − 28 = 0 A1\nk = − 2 A1 N2\n(b) When k = − 2\n2 M1 2 x − 4 x + 2 = 0\nx = 1, y = − 3 A1 N1",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.7",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "15. Consider the curves $C_1$, $C_2$ with equations\n$C_1: y=x^2+kx+k$, where $k<0$ is a constant\n$C_2: y=-x^2+2x-4$.\nBoth curves pass through the point P and the tangent at P to one of the curves is also a tangent at P to the other curve.\n(a) Find the value of $k$.\n(b) Find the coordinates of P."
+  },
+  {
+   "id": "math-2006-N-P1-q16",
+   "num": "16",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "ο 16. In the triangle ABC, A∃ = 30, a = 5 and c = 7 . Find the difference in area between the two\npossible triangles for ABC.",
+   "ms_text": "QUESTION 16\n� sin sin30\nC=\n7 5\n� 7sin30\n⇒ sin C = M1A1\n5\n� C = 44.4 A1\n� or C = 135.6 A1\n� � ⇒ B = 105.6 or 14.4 A1\n1\n⇒ Difference in area ABC ∆ = (sin B − sin B )\n2ac 1 2\n= 1 (5)(7)(sin105.6 � − sin14.4) �\n2\n2 = 12.5 cm A1 N2\nNote: There are several ways of solving this problem which require the acute value of C\nto be found. Award M1A1A1 for this and then A1A1A1 for what follows.",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "16. In the triangle ABC, $\\hat{A}=30^\\circ$, $a=5$ and $c=7$. Find the difference in area between the two possible triangles for ABC."
+  },
+  {
+   "id": "math-2006-N-P1-q17",
+   "num": "17",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "17. Solve the differential equation\n2d y\n( x + 2 ) = 4 xy ( x > − 2 )\nd x\ngiven that y =1 when x = −1.",
+   "ms_text": "QUESTION 17\n1 4 x\n∫ d y = ∫ d x M1 2\ny ( x + 2)\n⇒ Let u = x + 2 x = u − 2\nd u = d x M1\n4( u − 2)\nln y = ∫ d u\n2 u\n4 8du\n= ∫ − A1\n2 u u\nln y = 4 ln u + 8 u− 1 + c A1\n8\nln y = 4 ln( x + 2) + + c A1\nx + 2\n(1, 1) − ⇒ c = − 8 A1\n8\n⇒ ln y = 4 ln( x + 2) + − 8 N0\nx + 2",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "17. Solve the differential equation\n$(x+2)^2\\frac{\\mathrm{d}y}{\\mathrm{d}x}=4xy\\quad(x>-2)$\ngiven that $y=1$ when $x=-1$."
+  },
+  {
+   "id": "math-2006-N-P1-q18",
+   "num": "18",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "18. The region enclosed by the curves y 2= kx and x 2= ky , where k> 0 , is denoted by R.\nGiven that the area of R is 12, find the value of k.",
+   "ms_text": "QUESTION 18\nCurves meet at (0, 0) and (, kk ) (A1)\n1 1 2 k ⎛ x ⎞\n2 2 Area = ∫ ⎜ kx − ⎟ d x = 12 M1A1\n0 ⎝ k ⎠\nk 1 3 3\n⎡ 2 x ⎤\n⇒ 2 2 ⎢ k x − ⎥ = 12 A1\n⎣ 3 3 k ⎦ 0\n⎡ 2 ⎤ 2\n2 k ⇒ k − = 12 A1\n⎢ ⎥\n3 3 ⎣ ⎦\n2 k\n⇒ = 12\n3\n⇒ k = 6 A1 N0",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "18. The region enclosed by the curves $y^2=kx$ and $x^2=ky$, where $k>0$, is denoted by $R$. Given that the area of $R$ is 12, find the value of $k$."
+  },
+  {
+   "id": "math-2006-N-P1-q19",
+   "num": "19",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "19. The radius and height of a cylinder are both equal to x cm . The curved surface area of the\ncylinder is increasing at a constant rate of 10 cm2/sec . When x = 2 , find the rate of change of\n(a) the radius of the cylinder,\n(b) the volume of the cylinder.",
+   "ms_text": "QUESTION 19\n2 (a) A =π 2 x (M1)\nd A d x\n=π 4 x A1\nd t d t\nd x 10\nA1\nt= d 4 π× 2\n5\n= (0.398) A1\n4 π\n(b) V = π x 3\nd V d x 2\n=π 3 x M1\nd t d t\n5 2\n=π× 3 2\n×π 4\n= 15 A1",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "19. The radius and height of a cylinder are both equal to $x$ cm. The curved surface area of the cylinder is increasing at a constant rate of 10 cm$^2$/sec. When $x=2$, find the rate of change of\n(a) the radius of the cylinder,\n(b) the volume of the cylinder."
+  },
+  {
+   "id": "math-2006-N-P1-q20",
+   "num": "20",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "∃ ∃ ∃ ∃ ∃ ∃ ∃ ∃ ∃ 20. Let ABC , , be the angles of a triangle. Show that tan A + tan B + tan C = tan A tan B tan C\n.",
+   "ms_text": "QUESTION 20\nˆ ˆ ˆ A + B + C = π M1\n⇒ A ˆ B ˆ π C ˆ A1 + = −\nˆ ˆ ˆ ⇒ tan( A + B ) = tan(π − C ) M1\nˆ ˆ tan A + tan B\n⇒ ˆ = − tan C A1A1\nˆ ˆ 1 − tan A tan B\nˆ ˆ ˆ ˆ ˆ ˆ ⇒ tan A + tan B = − tan C + tan A tan B tan C A1\n⇒ tan A ˆ + tan B ˆ + tan C ˆ = tan A ˆ tan B ˆ tan C ˆ AG N0",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "20. Let $\\hat{A}$, $\\hat{B}$, $\\hat{C}$ be the angles of a triangle. Show that $\\tan\\hat{A}+\\tan\\hat{B}+\\tan\\hat{C}=\\tan\\hat{A}\\tan\\hat{B}\\tan\\hat{C}$."
+  }
+ ],
+ "status": "done",
+ "review_note": "Marks not printed on paper; 6 per question confirmed by markscheme mark counts. Q1 qp crop fixed via override (matrix top row was cut)."
+}

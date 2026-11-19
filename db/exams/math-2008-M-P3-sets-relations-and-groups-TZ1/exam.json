@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2008-M-P3-sets-relations-and-groups-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2008,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_TZ1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2208-7211; code M08/5/MATHL/HP3/ENG/TZ1/SG; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2008-M-P3-sets-relations-and-groups-TZ1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 12]\nThe binary operation * is defined for a, b∈′+ by\nab = a + b −2 . *\n(a) Determine whether or not * is\n(i) closed,\n(ii) commutative,\n(iii) associative. [7 marks]\n(b) (i) Find the identity element.\n(ii) [5 marks] Find the set of positive integers having an inverse under *.",
+   "ms_text": "1. (a) (i) It is not closed because\n+ 11 = 0 ∉�. R2\n*\n(ii) ab = a + b − 2 *\nba = b + a − 2 = ab M1 * *\nIt is commutative. A1\n(iii) It is not associative. A1\nConsider (11)5 and 1(15) * * * * .\n+ The first is undefined because 11\n* ∉�.\nThe second equals 3. R2\nNotes: Award A1R2 for stating that non-closure implies non-associative.\nAward A1R1 to candidates who show that a * ( bc * ) = ( ab * ) * c = a + b + c − 4\nand therefore conclude that it is associative, ignoring the non-closure.\n[7 marks]\n(b) (i) The identity e satisfies\nae * = a + e − 2 = a M1\n+ e = 2 (and 2 ∈�) A1\n1 1 (ii) aa − = a + a − − 2 = 2 M1\n*\n1 a + a− = 4 A1\nSo the only elements having an inverse are 1, 2 and 3. A1\nNote: Due to commutativity there is no need to check two sidedness of identity and inverse.\n[5 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 12]\nThe binary operation $*$ is defined for $a, b \\in \\mathbb{Z}^+$ by\n$$a * b = a + b - 2.$$\n(a) Determine whether or not $*$ is\n(i) closed,\n(ii) commutative,\n(iii) associative. [7 marks]\n(b) (i) Find the identity element.\n(ii) Find the set of positive integers having an inverse under $*$. [5 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-sets-relations-and-groups-TZ1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\nThe function f is defined by\n− x 1 e\n=− fx () , x ∈\nϒ.\n− x 1 + e\n(a) Find the range of f . [2 marks]\n(b) Prove that f is an injection. [3 marks]\n(c) Taking the codomain of f to be equal to the range of f ,find an expression for\nf x [5 marks] −1() .",
+   "ms_text": "2. (a) ]1, 1[ − A1A1\nNote: Award A1 for the values –1, 1 and A1 for the open interval.\n[2 marks]\n(b) EITHER\n− e − x 1 − e − y Let 1\n= M1\n− x − y 1 + e 1 + e\n1 − e − x + e − y − e − ( x + y ) =+ 1 e − x − e − y − e − ( xy + ) A1\n− x − y e = e\nx = y A1\nTherefore f is an injection AG\nOR\nConsider\ne − x (1 + e − x ) + e − x (1 − e − x )\nf ′ () x = M1\n− x 2 (1 + e )\n− x 2e\n= A1\n− x 2 (1 + e )\n0 for all x. A1 >\nTherefore f is an injection. AG\nNote:Award M1A1A0 for a graphical solution.\n[3 marks]\n1 e − x −\n(c) Let y M1\n=+ − x 1 e\n− x − x A1 y (1 + e ) =− 1 e\n− x e (1 + y ) =− 1 y A1\n1 − y − x\ne\n=+ 1 y\n⎛ 1 + y ⎞\nx = ⎜ ⎟ A1\nln1\n⎝ − y ⎠\n⎛ 1 + x ⎞ − 1\nf () x = ⎜ ⎟ A1\nln1\n⎝ − x ⎠\n[5 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "2"
+   ],
+   "subtopics": [
+    "7.3",
+    "2.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\nThe function $f$ is defined by\n$$f(x) = \\frac{1 - \\mathrm{e}^{-x}}{1 + \\mathrm{e}^{-x}}, \\quad x \\in \\mathbb{R}.$$\n(a) Find the range of $f$. [2 marks]\n(b) Prove that $f$ is an injection. [3 marks]\n(c) Taking the codomain of $f$ to be equal to the range of $f$, find an expression for $f^{-1}(x)$. [5 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-sets-relations-and-groups-TZ1-q3",
+   "num": "3",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 17]\n(a) Find the six roots of the equation z6 −= 1 0 , giving your answers in the form\n+ r cisθ , r ∈\nϒ , 0 ≤ θ < 2π. [4 marks]\n(b) (i) Show that these six roots form a group G under multiplication of complex\nnumbers.\n(ii) Show that G is cyclic and find all the generators.\n(iii) Give an example of another group that is isomorphic to G, stating clearly\nthe corresponding elements in the two groups. [13 marks]",
+   "ms_text": "6 3. (a) z == 1 cis2 n π (M1)\nThe six roots are\nπ 2π 4π 5π\nA3 cis0 (1), cis , cis , cis π (−1), cis , cis\n3 3 3 3\nNote:Award A2 for 4 or 5 correct roots, A1 for 2 or 3 correct roots.\n[4 marks]\nm π n π\n(b) (i) Closure: Consider any two roots cis , cis M1 3.\n3\nm π n π π\ncis × cis = cis( m + n )(mod6) ∈ G A1\n3 3 3\nNote: Award M1A1 for a correct Cayley table showing closure.\nIdentity: The identity is 1. A1\nInverse: The inverse of cismπ (6 − m ) cis π ∈ G . A2\n3 is\n3\nAssociative: This follows from the associativity of multiplication. R1\nThe 4 group axioms are satisfied. R1\nπ ⎛ 5π ⎞\n(ii) Successive powers of cis orcis ⎜ ⎟\n3 ⎝ 3 ⎠\ngenerate the group which is therefore cyclic. R2\n5π ⎛ π ⎞\nThe (only) other generator is cis ⎜ orcis ⎟ . A1\n3 ⎝ 3 ⎠\nNote: Award A0 for any additional answers.\n(iii) The group of the integers 0, 1, 2, 3, 4, 5 under addition modulo 6. R2\nThe correspondence is\nπ cism\nm → R1\n3\nNote: Accept any other cyclic group of order 6.\n[13 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "1.14",
+    "7.6",
+    "7.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 17]\n(a) Find the six roots of the equation $z^6 - 1 = 0$, giving your answers in the form $r\\,\\mathrm{cis}\\,\\theta$, $r \\in \\mathbb{R}^+$, $0 \\le \\theta < 2\\pi$. [4 marks]\n(b) (i) Show that these six roots form a group $G$ under multiplication of complex numbers.\n(ii) Show that $G$ is cyclic and find all the generators.\n(iii) Give an example of another group that is isomorphic to $G$, stating clearly the corresponding elements in the two groups. [13 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-sets-relations-and-groups-TZ1-q4",
+   "num": "4",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 9]\nThe relation R is defined on ordered pairs by\n+ (,) abRcd (, ) ifandonly if ad = bc where abcd , , , ∈\nϒ.\n(a) Show that R is an equivalence relation. [6 marks]\n(b) Describe, geometrically, the equivalence classes. [3 marks]",
+   "ms_text": "4. (a) Reflexive: (,) abRab because (,) ab = ba R1\nSymmetric: (,) abRcd (, ) ⇒ ad = bc ⇒ cb = da ⇒ (, cdRab ) (,) M1A1\nTransitive: (,) abRcd (, ) ⇒ ad = bc M1\n(, cdRef ) (, ) ⇒ cf de =\nTherefore\nad bc\n= so af = be A1\nde cf\nIt follows that (,) R1 abRe (, f )\n[6 marks]\na c\n(b) (,) abRcd (, ) ⇒ = (M1)\nb d\nEquivalence classes are therefore points lying, in the first quadrant,\non straight lines through the origin. A2\nNotes: Accept a correct sketch.\nAward A1 if “in the first quadrant” is omitted.\nDo not penalise candidates who fail to exclude the origin.\n[3 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 9]\nThe relation $R$ is defined on ordered pairs by\n$(a, b)\\,R\\,(c, d)$ if and only if $ad = bc$ where $a, b, c, d \\in \\mathbb{R}^+$.\n(a) Show that $R$ is an equivalence relation. [6 marks]\n(b) Describe, geometrically, the equivalence classes. [3 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-sets-relations-and-groups-TZ1-q5",
+   "num": "5",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 12]\nk + Let p = 2 + 1, k ∈\n′ be a prime number and let G be the group of integers\n12 , ,...,p − under multiplication defined modulo p. 1\n1 2 k and then the elements 2 k + 1 k + 2 By first considering the elements 2 , 2 , ..., 2 , 2 , ...,\nshow that the order of the element 2 is 2k.\nn Deduce that k = 2for n∈∞.",
+   "ms_text": "5. The identity is 1. (R1)\nConsider\n1 2 3 2, 2, 2,..., 2k\nk 2 = p − 1 R1\nTherefore all the above powers of two are different R1\nNow consider\nk 1 2 +≡ 2 p − 2(mod ) p = p − 2 M1A1\nk 2 2 +≡ 2 p − 4(mod ) p = p − 4 A1\nk 3 2 += p − 8\netc.\n2 k − 1 k − 1 2 = p − 2\n2 k k 2 = p − 2 A1\n= 1 A1\nand this is the first power of 2 equal to 1. R2\nThe order of 2 is therefore 2k. AG\nUsing Lagrange’s Theorem, it follows that 2k is a factor of 2k,\nthe order of the group, in which case k must be as given. R2\n[12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.6",
+    "7.7",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 12]\nLet $p = 2^k + 1$, $k \\in \\mathbb{Z}^+$ be a prime number and let $G$ be the group of integers $1, 2, \\ldots, p-1$ under multiplication defined modulo $p$.\nBy first considering the elements $2^1, 2^2, \\ldots, 2^k$ and then the elements $2^{k+1}, 2^{k+2}, \\ldots$, show that the order of the element 2 is $2k$.\nDeduce that $k = 2^n$ for $n \\in \\mathbb{N}$."
+  }
+ ],
+ "status": "done"
+}

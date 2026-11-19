@@ -1,0 +1,146 @@
+{
+ "exam_id": "math-2000-N-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.4",
+    "5.15",
+    "2.4",
+    "2.3"
+   ],
+   "text_clean": "1. [Maximum mark: 14]\n(a) Sketch and label the curves $y = x^2$ for $-2 \\le x \\le 2$, and $y = -\\frac{1}{2}\\ln x$ for $0 < x \\le 2$. [2 marks]\n(b) Find the $x$-coordinate of P, the point of intersection of the two curves. [2 marks]\n(c) If the tangents to the curves at P meet the $y$-axis at Q and R, calculate the area of the triangle PQR. [6 marks]\n(d) Prove that the two tangents at the points where $x = a$, $a > 0$, on each curve are always perpendicular. [4 marks]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.10",
+    "5.18",
+    "5.3"
+   ],
+   "text_clean": "2. [Maximum mark: 10]\nA uniform rod of length $l$ metres is placed with its ends on two supports A, B at the same horizontal level.\n[Diagram: rod AB of length $l$ metres sagging below the horizontal [AB]; sag $y(x)$ metres at distance $x$ metres from A]\nIf $y(x)$ metres is the amount of sag (ie the distance below [AB]) at a distance $x$ metres from support A, then it is known that\n$\\frac{d^2y}{dx^2} = \\frac{1}{125l^3}(x^2 - lx)$.\n(a) (i) Let $z = \\frac{1}{125l^3}\\left(\\frac{x^3}{3} - \\frac{lx^2}{2}\\right) + \\frac{1}{1500}$. Show that $\\frac{dz}{dx} = \\frac{1}{125l^3}(x^2 - lx)$.\n(ii) Given that $\\frac{dw}{dx} = z$ and $w(0) = 0$, find $w(x)$.\n(iii) Show that $w$ satisfies $\\frac{d^2w}{dx^2} = \\frac{1}{125l^3}(x^2 - lx)$, and that $w(l) = w(0) = 0$. [8 marks]\n(b) Find the sag at the centre of a rod of length 2.4 metres. [2 marks]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.14",
+    "4.6",
+    "1.7"
+   ],
+   "text_clean": "3. [Maximum mark: 16]\n(i) A satellite relies on solar cells for its power and will operate provided that at least one of the cells is working. Cells fail independently of each other, and the probability that an individual cell fails within one year is 0.8.\n(a) For a satellite with ten solar cells, find the probability that all ten cells fail within one year. [2 marks]\n(b) For a satellite with ten solar cells, find the probability that the satellite is still operating at the end of one year. [2 marks]\n(c) For a satellite with $n$ solar cells, write down the probability that the satellite is still operating at the end of one year. Hence, find the smallest number of solar cells required so that the probability of the satellite still operating at the end of one year is at least 0.95. [5 marks]\n(ii) The lifetime of a particular component of a solar cell is $Y$ years, where $Y$ is a continuous random variable with probability density function\n$f(y) = \\begin{cases} 0 & \\text{when } y < 0 \\\\ 0.5e^{-y/2} & \\text{when } y \\ge 0. \\end{cases}$\n(a) Find the probability, correct to four significant figures, that a given component fails within six months. [3 marks]\nEach solar cell has three components which work independently and the cell will continue to run if at least two of the components continue to work.\n(b) Find the probability that a solar cell fails within six months. [4 marks]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.16",
+    "3.16",
+    "3.18",
+    "3.13"
+   ],
+   "text_clean": "4. [Maximum mark: 13]\n(i) (a) Given matrices $\\boldsymbol{A}, \\boldsymbol{B}, \\boldsymbol{C}$ for which $\\boldsymbol{AB} = \\boldsymbol{C}$ and $\\det \\boldsymbol{A} \\ne 0$, express $\\boldsymbol{B}$ in terms of $\\boldsymbol{A}$ and $\\boldsymbol{C}$. [2 marks]\n(b) Let $\\boldsymbol{A} = \\begin{pmatrix} 1 & 2 & 3 \\\\ 2 & -1 & 2 \\\\ 3 & -3 & 2 \\end{pmatrix}$, $\\boldsymbol{D} = \\begin{pmatrix} -4 & 13 & -7 \\\\ -2 & 7 & -4 \\\\ 3 & -9 & 5 \\end{pmatrix}$ and $\\boldsymbol{C} = \\begin{pmatrix} 5 \\\\ 7 \\\\ 10 \\end{pmatrix}$.\n(i) Find the matrix $\\boldsymbol{DA}$;\n(ii) Find $\\boldsymbol{B}$ if $\\boldsymbol{AB} = \\boldsymbol{C}$. [3 marks]\n(c) Find the coordinates of the point of intersection of the planes $x + 2y + 3z = 5$, $2x - y + 2z = 7$ and $3x - 3y + 2z = 10$. [2 marks]\n(ii) (a) If $\\boldsymbol{u} = \\boldsymbol{i} + 2\\boldsymbol{j} + 3\\boldsymbol{k}$ and $\\boldsymbol{v} = 2\\boldsymbol{i} - \\boldsymbol{j} + 2\\boldsymbol{k}$, show that $\\boldsymbol{u} \\times \\boldsymbol{v} = 7\\boldsymbol{i} + 4\\boldsymbol{j} - 5\\boldsymbol{k}$. [2 marks]\n(b) Let $\\boldsymbol{w} = \\lambda\\boldsymbol{u} + \\mu\\boldsymbol{v}$ where $\\lambda$ and $\\mu$ are scalars. Show that $\\boldsymbol{w}$ is perpendicular to the line of intersection of the planes $x + 2y + 3z = 5$ and $2x - y + 2z = 7$ for all values of $\\lambda$ and $\\mu$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "5",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.8",
+    "5.11",
+    "3.8",
+    "2.13",
+    "2.3"
+   ],
+   "text_clean": "5. [Maximum mark: 17]\n(a) Let $y = \\frac{a + b\\sin x}{b + a\\sin x}$, where $0 < a < b$.\n(i) Show that $\\frac{dy}{dx} = \\frac{(b^2 - a^2)\\cos x}{(b + a\\sin x)^2}$. [4 marks]\n(ii) Find the maximum and minimum values of $y$. [4 marks]\n(iii) Show that the graph of $y = \\frac{a + b\\sin x}{b + a\\sin x}$, $0 < a < b$ cannot have a vertical asymptote. [2 marks]\n(b) For the graph of $y = \\frac{4 + 5\\sin x}{5 + 4\\sin x}$ for $0 \\le x \\le 2\\pi$,\n(i) write down the $y$-intercept;\n(ii) find the $x$-intercepts $m$ and $n$, (where $m < n$) correct to four significant figures;\n(iii) sketch the graph. [5 marks]\n(c) The area enclosed by the graph of $y = \\frac{4 + 5\\sin x}{5 + 4\\sin x}$ and the $x$-axis from $x = 0$ to $x = n$ is denoted by $A$. Write down, but do not evaluate, an expression for the area $A$. [2 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L7",
+    "4.L5",
+    "4.9"
+   ],
+   "text_clean": "6. [Maximum mark: 30]\n(i) The distribution of lengths of rods produced by a machine is normal with mean 100 cm and standard deviation 15 cm.\n(a) What is the probability that a randomly chosen rod has a length of 105 cm or more? [2 marks]\n(b) What is the probability that the average length of a randomly chosen set of 60 rods of this type is 105 cm or more? [3 marks]\n(ii) In a study to check whether nicotine and alcohol consumption may be related, a survey of 452 women was conducted. The data below gives the alcohol consumption against the nicotine intake per day.\nAlcohol (cl/day) | Nicotine (milligrams/day): None | 1–15 | 16 or more\nNone | 105 | 7 | 11\n0.30–3.00 | 58 | 5 | 13\n3.10–30.00 | 84 | 37 | 42\nmore than 30 | 57 | 16 | 17\nInvestigate whether the consumption of nicotine and alcohol are related to each other. Use a 5% level of significance in your analysis and explain all your steps and conclusions. [9 marks]\n(iii) Scientists have developed a type of corn whose protein quality may help chickens gain weight faster than the present type used. To test this new type, 20 one-day-old chicks were fed a ration that contained the new corn while another control group of 20 chicks was fed the ordinary corn. The data below gives the weight gains in grams, for each group after three weeks.\nOrdinary corn (Group A): 380 321 366 356 | 283 349 402 462 | 356 410 329 399 | 350 384 316 272 | 345 455 360 431\nNew corn (Group B): 361 447 401 375 | 434 403 393 426 | 406 318 467 407 | 427 420 470 392 | 430 339 410 326\n(a) The scientists wish to investigate the claim that Group B gain weight faster than Group A. Test this claim at the 5% level of significance, noting which hypothesis test you are using. You may assume that the weight gain for each group is normally distributed, with the same variance, and independent from each other. [6 marks]\n(b) The data from the two samples above are combined to form a single set of data. The following frequency table gives the observed frequencies for the combined sample. The data has been divided into five intervals.\nWeight gain | Observed\n271–310 | 2\n311–350 | 9\n351–390 | 8\n391–430 | 15\n431–470 | 6\nTest, at the 5% level, whether the combined data can be considered to be a sample from a normal population with a mean of 380. [10 marks]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.8",
+    "7.6",
+    "7.1",
+    "7.9",
+    "1.L1"
+   ],
+   "text_clean": "7. [Maximum mark: 30]\n(i) $A - B$ is the set of all elements that belong to $A$ but not to $B$.\n(a) Use Venn diagrams to verify that $(A - B) \\cup (B - A) = (A \\cup B) - (A \\cap B)$. [2 marks]\n(b) Use De Morgan's laws to prove that $(A - B) \\cup (B - A) = (A \\cup B) - (A \\cap B)$. [4 marks]\n(ii) Show that the set $H = \\left\\{ \\begin{pmatrix} a & b \\\\ 0 & 1 \\end{pmatrix} \\mid a = \\pm 1, \\text{ and } b \\in \\mathbb{Z} \\right\\}$ forms a group under matrix multiplication. (You may assume that matrix multiplication is associative). [6 marks]\n(iii) (a) State Lagrange's theorem.\n(b) Let $(G, \\circ)$ be a group of order 24 with identity element $e$. Let $a \\in G$, and suppose that $a^{12} \\ne e$ and $a^8 \\ne e$. Prove that $(G, \\circ)$ is a cyclic group with generator $a$. [7 marks]\n(iv) Let $S = \\{ x \\mid x = a + b\\sqrt{2};\\ a, b \\in \\mathbb{Q},\\ a^2 - 2b^2 \\ne 0 \\}$\n(a) Prove that $S$ is a group under multiplication, $\\times$, of numbers.\n(b) For $x = a + b\\sqrt{2}$, define $f(x) = a - b\\sqrt{2}$. Prove that $f$ is an isomorphism from $(S, \\times)$ onto $(S, \\times)$. [11 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.4",
+    "6.6",
+    "6.10",
+    "6.1"
+   ],
+   "text_clean": "8. [Maximum mark: 30]\n(i) Given the difference equation $c_{n+2} = -8c_{n+1} - 16c_n$, $c_1 = -1$, $c_2 = 8$, $n \\in \\mathbb{Z}^+$\n(a) write down the first five terms in the sequence; [2 marks]\n(b) write down the characteristic polynomial and find its solutions; [2 marks]\n(c) hence, find the solution to the difference equation. [4 marks]\n(ii) (a) Use the Euclidean algorithm to prove that for $n \\in \\mathbb{N}$, $(8n + 3)$ and $(5n + 2)$ are relatively prime. [4 marks]\n(b) Any integer $a$ with $(n + 1)$ digits can be written as $a = 10^n r_n + 10^{n-1} r_{n-1} + \\dots + 10r_1 + r_0$, where $0 \\le r_i \\le 9$ for $0 \\le i \\le n$, and $r_n \\ne 0$.\n(i) Show that $a \\equiv (r_0 + r_1 + \\dots + r_n) \\bmod 3$. [3 marks]\n(ii) Hence or otherwise, find all values of the single digit $x$ such that the number $a = 137486x225$ is a multiple of 3. [6 marks]\n(iii) Let $G = (V, E)$ be a connected planar graph with $v$ vertices and $e$ edges, in which each cycle has a length of at least $c$.\n(a) Use Euler's theorem and the fact that the degree of each face is the length of the cycle enclosing it to prove that $e \\le \\frac{c}{c-2}(v - 2)$. [5 marks]\n(b) Find the minimum cycle length in a $\\kappa_{3,3}$ graph and use it to prove that the graph is not planar. [4 marks]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.19",
+    "5.6",
+    "5.8",
+    "2.12",
+    "2.3"
+   ],
+   "text_clean": "9. [Maximum mark: 30]\nLet $f$ be the function $f(x) = (x^2 - 1)e^{kx}$, $k, x \\in \\mathbb{R}$, and $k \\ne 0$.\n(a) (i) Prove that $f(x)$ has exactly two zeros. [2 marks]\n(ii) Prove that $f'(x)$ can have only two zeros, and prove that the product of these two zeros is $-1$. [5 marks]\n(b) (i) For $k = 2$, sketch the graph of $f(x)$, label its $x$ and $y$-intercepts, and give the exact coordinates of its local minimum and maximum points. [4 marks]\n(ii) Starting with $x_0 = 1$, use the Newton-Raphson method to find the $x$-coordinate of the point of intersection of $f(x) = (x^2 - 1)e^{2x}$ and $g(x) = e$. Give your answer correct to five decimal places. [6 marks]\n(iii) Find the Maclaurin series expansion for $e^{kx}$, as far as the term in $x^3$. [4 marks]\n(iv) Hence, find the expansion for $f(x) = (x^2 - 1)e^{2x}$, as far as the term in $x^3$. [3 marks]\n(c) Use the trapezium rule with four equal intervals to estimate the area enclosed between the graphs of $f(x) = (x^2 - 1)e^{kx}$ and $h(x) = e^{kx}$. [6 marks]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "8"
+   ],
+   "subtopics": [
+    "8.1",
+    "8.3"
+   ],
+   "text_clean": "10. [Maximum mark: 30]\n(i) An octagon ABCDEFGH is inscribed in a circle, centre O, as shown.\n[Diagram: octagon ABCDEFGH inscribed in a circle centre O; chords EB, EA, DA, DB, OB drawn; I is the intersection of EB and DA; J and K are feet of perpendiculars from O to [DE] and [AB]. Figure is not to scale]\nK and J are the feet of the perpendiculars from O to the sides [AB] and [DE] respectively.\nLet AB = BC = GH = HA = 3 units, and CD = DE = EF = FG = 2 units.\n(a) Show that E, O, and A are collinear. [2 marks]\n(b) Show that $OK = \\frac{1}{2}EB$ and $OJ = \\frac{1}{2}AD$. [4 marks]\n(c) Prove that $\\triangle DCB$ is congruent to $\\triangle DIB$. [4 marks]\n(d) Prove that $\\triangle IBA$ and $\\triangle DIE$ are both isosceles right-angled triangles. [3 marks]\n(e) Show that $AI = 3\\sqrt{2}$ and $EI = 2\\sqrt{2}$. [2 marks]\n(f) Express the area of the octagon as $r + s\\sqrt{2}$ where $r$ and $s$ are integers. [5 marks]\n(ii) Consider the points P(−3, 9) and Q(1, 3) in the coordinate plane.\n(a) Find the equation of the circle with diameter [PQ]. [3 marks]\n(b) Show that the locus of points M, such that MP = 3 MQ, is a circle. Find its centre and radius. [4 marks]\n(c) Let R and S be the points of intersection of (PQ) with the new circle found in part (b). Show that the points P, Q, R, and S are in a harmonic ratio. [3 marks]",
+   "answer_status": "ok"
+  }
+ }
+}

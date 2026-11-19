@@ -1,0 +1,126 @@
+{
+ "exam_id": "math-2017-N-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2017,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2017 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2017 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8817-7209; code N17/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches paper total 50",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2017-N-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 11]\nConsider the group {G , ×18} defined on the set {1 , 5 , 7 , 11 , 13 , 17} where ×18 denotes\nmultiplication modulo 18. The group {G , ×18} is shown in the following Cayley table.\n×18 1 5 7 11 13 17\n1 1 5 7 11 13 17\n5 5 7 17 1 11 13\n7 7 17 13 5 1 11\n11 11 1 5 13 17 7\n13 13 11 1 17 7 5\n17 17 13 11 7 5 1\n(a) (i) Find the order of elements 5 , 7 and 17 in {G , ×18} .\n(ii) State whether or not {G , ×18} is cyclic, justifying your answer. [6]\nThe subgroup of {G , ×18} of order two is denoted by {K , ×18}.\n(b) Write down the elements in set K . [1]\n(c) Find the left cosets of K in {G , ×18} . [4]",
+   "ms_text": "1. (a) (i) considering powers of elements (M1)\n5 has order 6 A1\n7 has order 3 A1\n17 has order 2 A1\n(ii) G is cyclic A1\nbecause there is an element (are elements) of order 6 R1\nNote: Accept “there is a generator”; allow A1R0.\n[6 marks]\n(b) {1, 17} A1\n[1 mark]\n(c) multiplying {1, 17} by each element of G (M1)\n{1, 17}, {5, 13}, {7, 11} A1A1A1\n[4 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.6",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 11]\nConsider the group $\\{G, \\times_{18}\\}$ defined on the set $\\{1, 5, 7, 11, 13, 17\\}$ where $\\times_{18}$ denotes multiplication modulo 18. The group $\\{G, \\times_{18}\\}$ is shown in the following Cayley table.\n[Table: Cayley table of $\\times_{18}$]\n$\\times_{18}$ | 1 | 5 | 7 | 11 | 13 | 17\n1 | 1 | 5 | 7 | 11 | 13 | 17\n5 | 5 | 7 | 17 | 1 | 11 | 13\n7 | 7 | 17 | 13 | 5 | 1 | 11\n11 | 11 | 1 | 5 | 13 | 17 | 7\n13 | 13 | 11 | 1 | 17 | 7 | 5\n17 | 17 | 13 | 11 | 7 | 5 | 1\n(a) (i) Find the order of elements $5$, $7$ and $17$ in $\\{G, \\times_{18}\\}$.\n(ii) State whether or not $\\{G, \\times_{18}\\}$ is cyclic, justifying your answer. [6]\nThe subgroup of $\\{G, \\times_{18}\\}$ of order two is denoted by $\\{K, \\times_{18}\\}$.\n(b) Write down the elements in set $K$. [1]\n(c) Find the left cosets of $K$ in $\\{G, \\times_{18}\\}$. [4]"
+  },
+  {
+   "id": "math-2017-N-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 8]\nA, B and C are three subsets of a universal set.\n(a) Represent each of the following sets on a Venn diagram,\n(i) A∆B, the symmetric difference of the sets A and B ;\n(ii) A ∩ (B ∪ C ) . [2]\nConsider the sets P = {1 , 2 , 3} , Q = {2 , 3 , 4} and R = {1 , 3 , 5} .\n(b) (i) For sets P , Q and R , verify that P ∪(Q∆R) ≠ (P ∪ Q)∆(P ∪ R) .\n(ii) In the context of the distributive law, describe what the result in part (b)(i)\nillustrates. [6]",
+   "ms_text": "2. (a) (i)\nA1\n(ii)\nA1\nNote: Accept alternative set configurations in both parts.\n[2 marks]\n(b) (i) LHS:\nQR Δ = {1,2,4, 5} (A1)\nP ∪ ( QR Δ ) = {1,2, 3,4, 5} A1\nRHS:\nP ∪ Q = {1,2, 3,4} and P ∪ R = {1,2, 3, 5} (A1)\n( P ∪ Q )( Δ P ∪ R ) = {4, 5} A1\nhence P ∪ ( QR Δ ) ≠ ( P ∪ Q )( Δ P ∪ R ) AG\n(ii) the result shows that union is not distributive over symmetric difference\nA1R1\nNotes: Award A1 for “union is not distributive” and R1 for “over\nsymmetric difference”. Condone use of ∪ and Δ.\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 8]\n$A$, $B$ and $C$ are three subsets of a universal set.\n(a) Represent each of the following sets on a Venn diagram,\n(i) $A \\Delta B$, the symmetric difference of the sets $A$ and $B$;\n(ii) $A \\cap (B \\cup C)$. [2]\nConsider the sets $P = \\{1, 2, 3\\}$, $Q = \\{2, 3, 4\\}$ and $R = \\{1, 3, 5\\}$.\n(b) (i) For sets $P$, $Q$ and $R$, verify that $P \\cup (Q \\Delta R) \\neq (P \\cup Q) \\Delta (P \\cup R)$.\n(ii) In the context of the distributive law, describe what the result in part (b)(i) illustrates. [6]"
+  },
+  {
+   "id": "math-2017-N-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 9]\nThe relation R is defined on ϒ × ϒ such that (x1 , y1)R(x2 , y2) if and only if x1y1=x2y2 .\n(a) Show that R is an equivalence relation. [5]\n(b) Determine the equivalence class of R containing the element (1 , 2) and illustrate this\ngraphically. [4]",
+   "ms_text": "3. (a) R is an equivalence relation if\nR is reflexive, symmetric and transitive A1\n( )( ) xy = xy ⇒ xy , Rxy , A1\n1 1 1 1 1 1 1 1\nso R is reflexive\n( xy , ) Rx ( , y ) ⇒ xy = xy ⇒ xy = xy ⇒ ( x , y )( Rxy , ) A1\n1 1 2 2 1 1 2 2 2 2 1 1 2 2 1 1\nso R is symmetric\n( xy , ) Rx ( , y ) and ( x , y )( Rxy , ) ⇒ xy = xy and xy = xy M1\n1 1 2 2 2 2 3 3 1 1 2 2 2 2 3 3\n⇒ x y = xy ⇒ ( xy , )( Rxy , ) A1\n1 1 3 3 1 1 3 3\nso R is transitive\nR is an equivalence relation AG\n[5 marks]\n(b) (, xyR )(1,2) (M1)\nthe equivalence class is {(, xy ) | xy= 2} A1\ncorrect graph A1\n(1,2) indicated on the graph A1\nNote: Award last A1 only if plotted on a curve representing the class.\n[4 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 9]\nThe relation $R$ is defined on $\\mathbb{R} \\times \\mathbb{R}$ such that $(x_1, y_1) R (x_2, y_2)$ if and only if $x_1 y_1 = x_2 y_2$.\n(a) Show that $R$ is an equivalence relation. [5]\n(b) Determine the equivalence class of $R$ containing the element $(1, 2)$ and illustrate this graphically. [4]"
+  },
+  {
+   "id": "math-2017-N-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 14]\nThe set S is defined as the set of real numbers greater than 1 .\nThe binary operation * is defined on S by x * y = (x - 1)(y -1) + 1 for all x , y ∈ S .\n(a) Show that x * y ∈ S for all x , y ∈ S . [2]\n(b) Show that the operation * on the set S is\n(i) commutative;\n(ii) associative. [7]\n(c) Show that 2 is the identity element. [2]\nLet a ∈ S .\n(d) Show that each element a ∈ S has an inverse. [3]",
+   "ms_text": "4. (a) x , y > 1 ⇒ ( x − 1)( y − 1) > 0 M1\n( x − 1)( y − 1) + 1 > 1 A1\nso x ∗∈ y S for all , x y ∈ S AG\n[2 marks]\n(b) (i) x ∗ y = ( x − 1)( y − 1) + 1 = ( y − 1)( x − 1) + 1 = yx ∗ M1A1\nso ∗ is commutative AG\n(ii) x ∗ ( yz ∗ ) = x ∗ ( ( y − 1)( z − 1) + 1 ) M1\n= ( x − 1)( ( y − 1)( z − 1) + 1 − 1 ) + 1 (A1)\n= ( x − 1)( y − 1)( z − 1) + 1 A1\n( xy ∗ ) ∗ z = ( ( x − 1)( y − 1) + 1 ) ∗ z M1\n= ( ( x − 1)( y − 1) + 1 − 1( ) z − 1) + 1\n= ( x − 1)( y − 1)( z − 1) + 1 A1\nso ∗ is associative AG\n[7 marks]\n(c) 2 ∗ x = (21)( − x − 1) += 1 x , x ∗ 2 = ( x − 1)(2 − 1) + 1 = x M1\n2 ∗ x = x ∗ 2 = 2 ( 2 ∈ S ) R1\nNote: Accept reference to commutativity instead of explicit expressions.\nso 2 is the identity element AG\n[2 marks]\n∗ − 1 = ⇒ − − 1 − += (d) aa 2 ( a 1)( a 1)1 2 M1\n1\n−=+ 1 so a 1 A1\na − 1\n1 − 1 − 1\nsince a − 1 > 0 ⇒ a− > 1 ( a ∗ a = aa ∗ ) R1\nNote:R1 dependent on M1.\nso each element, a ∈ S , has an inverse AG\n[3 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 14]\nThe set $S$ is defined as the set of real numbers greater than $1$.\nThe binary operation $*$ is defined on $S$ by $x * y = (x-1)(y-1) + 1$ for all $x, y \\in S$.\n(a) Show that $x * y \\in S$ for all $x, y \\in S$. [2]\n(b) Show that the operation $*$ on the set $S$ is\n(i) commutative;\n(ii) associative. [7]\n(c) Show that $2$ is the identity element. [2]\nLet $a \\in S$.\n(d) Show that each element $a \\in S$ has an inverse. [3]"
+  },
+  {
+   "id": "math-2017-N-P3-sets-relations-and-groups-q5",
+   "num": "5",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 8]\nLet f : G → H be a homomorphism between groups {G , *} and {H , ο} with identities eG\nand eH respectively.\nProve that f (eG)=eH . (a) [2]\n(b) Prove that Ker( f ) is a subgroup of {G , *} . [6]",
+   "ms_text": "5. (a) let a ∈ G and fa () ∈ H\n( ∗ ) = ( ) f is a homomorphism so fae fa () ο fe (M1)\nG G\n( ) fa () = fa () ο fe A1\nG\ne = fe ( ) AG\nH G\n[2 marks]\n(b) from part (a) e ∈ Ker( f ) and associativity follows from G R1\nG\nlet , ab ∈ Ker ( f )\nfab ( ∗ ) = fa () ο fb () = e ο e = e A1\nH H H\nhence closed since ab ∗∈ Ker( f ) R1\n( − 1 ) ( − 1 ) ( − 1 ) ( − 1 ) e = fa ∗ a = fa ο fa () = fa ο e = fa M1A1\nH H\n1\nhence a −∈ Ker( f ) R1\nhence Ker ( f ) is subgroup of G AG\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.8",
+    "7.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 8]\nLet $f: G \\to H$ be a homomorphism between groups $\\{G, *\\}$ and $\\{H, \\circ\\}$ with identities $e_G$ and $e_H$ respectively.\n(a) Prove that $f(e_G) = e_H$. [2]\n(b) Prove that $\\mathrm{Ker}(f)$ is a subgroup of $\\{G, *\\}$. [6]"
+  }
+ ],
+ "status": "done"
+}

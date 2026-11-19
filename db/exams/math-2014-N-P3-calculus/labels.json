@@ -1,0 +1,27 @@
+{
+  "exam_id": "math-2014-N-P3-calculus",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.L2", "5.L1"],
+      "text_clean": "1. [Maximum mark: 14]\n(a) Use the integral test to determine the convergence or divergence of $\\sum_{n=1}^{\\infty} \\frac{1}{n^{0.5}}$. [3]\n(b) Let $S = \\sum_{n=1}^{\\infty} \\frac{(x+1)^n}{2^n \\times n^{0.5}}$.\n(i) Use the ratio test to show that $S$ is convergent for $-3 < x < 1$.\n(ii) Hence find the interval of convergence for $S$. [11]"
+    },
+    "2": {
+      "topics": ["5"],
+      "subtopics": ["5.12", "5.18"],
+      "text_clean": "2. [Maximum mark: 14]\n(a) Use an integrating factor to show that the general solution for $\\frac{dx}{dt} - \\frac{x}{t} = -\\frac{2}{t}$, $t > 0$ is $x = 2 + ct$, where $c$ is a constant. [4]\nThe weight in kilograms of a dog, $t$ weeks after being bought from a pet shop, can be modelled by the following function:\n$w(t) = \\begin{cases} 2 + ct & 0 \\le t \\le 5 \\\\ 16 - \\frac{35}{t} & t > 5 \\end{cases}$.\n(b) Given that $w(t)$ is continuous, find the value of $c$. [2]\n(c) Write down\n(i) the weight of the dog when bought from the pet shop;\n(ii) an upper bound for the weight of the dog. [2]\n(d) Prove from first principles that $w(t)$ is differentiable at $t = 5$. [6]"
+    },
+    "3": {
+      "topics": ["5"],
+      "subtopics": ["5.18"],
+      "text_clean": "3. [Maximum mark: 10]\nConsider the differential equation $\\frac{dy}{dx} = f(x, y)$ where $f(x, y) = y - 2x$.\n(a) Sketch, on one diagram, the four isoclines corresponding to $f(x, y) = k$ where $k$ takes the values $-1, -0.5, 0$ and $1$. Indicate clearly where each isocline crosses the $y$ axis. [2]\nA curve, C, passes through the point $(0, 1)$ and satisfies the differential equation above.\n(b) Sketch C on your diagram. [3]\n(c) State a particular relationship between the isocline $f(x, y) = -0.5$ and the curve C, at their point of intersection. [1]\n(d) Use Euler's method with a step interval of 0.1 to find an approximate value for $y$ on C, when $x = 0.5$. [4]"
+    },
+    "4": {
+      "topics": ["5", "3", "1"],
+      "subtopics": ["5.L4", "5.15", "5.19", "3.9", "1.8"],
+      "add_flags": ["topic-uncertain"],
+      "note": "(b) term-by-term integration of geometric series for arctan tagged 5.19; (f) uses arctan(1/sqrt3)=pi/6 tagged 3.9.",
+      "text_clean": "4. [Maximum mark: 22]\nIn this question you may assume that $\\arctan x$ is continuous and differentiable for $x \\in \\mathbb{R}$.\n(a) Consider the infinite geometric series\n$1 - x^2 + x^4 - x^6 + \\dots \\quad |x| < 1$.\nShow that the sum of the series is $\\frac{1}{1+x^2}$. [1]\n(b) Hence show that an expansion of $\\arctan x$ is $\\arctan x = x - \\frac{x^3}{3} + \\frac{x^5}{5} - \\frac{x^7}{7} + \\dots$ [4]\n(c) $f$ is a continuous function defined on $[a, b]$ and differentiable on $]a, b[$ with $f'(x) > 0$ on $]a, b[$.\nUse the mean value theorem to prove that for any $x, y \\in [a, b]$, if $y > x$ then $f(y) > f(x)$. [4]\n(d) (i) Given $g(x) = x - \\arctan x$, prove that $g'(x) > 0$, for $x > 0$.\n(ii) Use the result from part (c) to prove that $\\arctan x < x$, for $x > 0$. [4]\n(e) Use the result from part (c) to prove that $\\arctan x > x - \\frac{x^3}{3}$, for $x > 0$. [5]\n(f) Hence show that $\\frac{16}{3\\sqrt{3}} < \\pi < \\frac{6}{\\sqrt{3}}$. [4]"
+    }
+  }
+}

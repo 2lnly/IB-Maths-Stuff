@@ -1,0 +1,129 @@
+{
+ "exam_id": "math-2010-N-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2010,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2010 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2010 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8810-7210; code N10/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches expected total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2010-N-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 14]\n(a) A hospital specializes in treating overweight patients. These patients have\nweights that are independently, normally distributed with mean 200 kg and\nstandard deviation 15 kg. The elevator in the hospital will break if the total\nweight of people inside it exceeds 1150 kg. Six patients enter the elevator.\nFind the probability that the elevator breaks. [7 marks]\n(b) A factory makes life size wax copies of famous people. These famous people\nhave weights that are independently, normally distributed with mean 80 kg and\nstandard deviation 10 kg. The life size copies all have exactly the same weight\nas the famous person they represent. Twelve copies of one particular famous\nperson are placed in the elevator in the factory. This elevator will also break\nif the total weight of the copies exceeds 1150 kg. Find the probability that the\nelevator breaks. [7 marks]",
+   "ms_text": "6\n1. (a) let W =∑ w (M1)\ni\ni = 1\n2\niw is N(200, 15)\n6\nE( W ) = ∑ E( w ) = 6 × 200 = 1200 A1\ni\ni = 1\n6\n= = × 2 = Var( W ) ∑ Var( w ) 615 1350 A2\ni\n= i 1\nW is N(1200, 1350) (M1)\nP( W> 1150) = 0.913 by GDC A1A1\nNote: Using 6 times the mean or a lower bound for the mean are acceptable methods.\n[7 marks]\n(b) let W = 12 w (M1)\n2 w is N(80, 10)\nE( W ) = 12E() w = 1280 × = 960 A1\n2 2 2 Var( W ) = 12Var() w = 12 × 10 = 14400 A2\n2 W is N(960, 120) (M1)\nP( W> 1150) = 0.0567 by GDC A1A1\nNote: Using a lower bound for one copy is an acceptable method.\n[7 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 14]\n(a) A hospital specializes in treating overweight patients. These patients have weights that are independently, normally distributed with mean 200 kg and standard deviation 15 kg. The elevator in the hospital will break if the total weight of people inside it exceeds 1150 kg. Six patients enter the elevator. Find the probability that the elevator breaks. [7 marks]\n(b) A factory makes life size wax copies of famous people. These famous people have weights that are independently, normally distributed with mean 80 kg and standard deviation 10 kg. The life size copies all have exactly the same weight as the famous person they represent. Twelve copies of one particular famous person are placed in the elevator in the factory. This elevator will also break if the total weight of the copies exceeds 1150 kg. Find the probability that the elevator breaks. [7 marks]"
+  },
+  {
+   "id": "math-2010-N-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 15]\nThe length of time, T , in months, that a football manager stays in his job before he\nis removed can be approximately modelled by a normal distribution with population\nmean µ and population variance σ2. An independent sample of five values of T is\ngiven below.\n6 512 418 23 75 4 ., ., .,.,.\n(a) Given that σ2 = 9 ,\n(i) use the above sample to find the 95 % confidence interval for µ ,\ngiving the bounds of the interval to two decimal places;\n(ii) find the smallest number of values of T that would be required in a sample\nfor the total width of the 90 % confidence interval for µ to be less than\n2 months. [10 marks]\n(b) If the value of σ2 is unknown, use the above sample to find the 95 % confidence\ninterval for µ , giving the bounds of the interval to two decimal places. [5 marks]",
+   "ms_text": "σ 2\n2 2. (a) (i) as σ is known x is N μ (M1)\n,n\nσ σ\n− ∗ < μ < + ∗ CI is x z x z (M1)\nn n\nx= 9.24 , z∗= 1.960 for 95 % CI (A1)\nCI is 6.61 < μ < 11.87 by GDC A1A1\nσ σ ∗ ∗\n(ii) CI is x − z < μ < x + z\nn n\n3\nrequire 21.645 × < 2 R1A1\nn\n4.935 < n (A1)\n24.35 < n A1\nso smallest value for n = 25 A1\nNote: Accept use of table.\n[10 marks]\n2 (b) as σ is not known x has the t distribution with ν= 4 (M1)(A1)\ns s ∗\n− ∗ − CI is x − t n 1 < μ < x + t n 1\nn n\nx= 5.984 t∗= 9.24 , ns−= , 2.776 for 95 % CI (A1)\n1\nCI is 1.81 < μ < 16.67 by GDC A1A1\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L6",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 15]\nThe length of time, $T$, in months, that a football manager stays in his job before he is removed can be approximately modelled by a normal distribution with population mean $\\mu$ and population variance $\\sigma^2$. An independent sample of five values of $T$ is given below.\n6.5, 12.4, 18.2, 3.7, 5.4\n(a) Given that $\\sigma^2 = 9$,\n(i) use the above sample to find the 95 % confidence interval for $\\mu$, giving the bounds of the interval to two decimal places;\n(ii) find the smallest number of values of $T$ that would be required in a sample for the total width of the 90 % confidence interval for $\\mu$ to be less than 2 months. [10 marks]\n(b) If the value of $\\sigma^2$ is unknown, use the above sample to find the 95 % confidence interval for $\\mu$, giving the bounds of the interval to two decimal places. [5 marks]"
+  },
+  {
+   "id": "math-2010-N-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 10]\nAs soon as Sarah misses a total of 4 lessons at her school an email is sent to\nher parents. The probability that she misses any particular lesson is constant with a\nvalue of 1 . Her decision to attend a lesson is independent of her previous decisions.\n3\n(a) Find the probability that an email is sent to Sarah’s parents after the 8th lesson\nthat Sarah was scheduled to attend. [3 marks]\n(b) If an email is sent to Sarah’s parents after the X th lesson that she was scheduled\nto attend, find E( X. ) [2 marks]\n(c) If after 6 of Sarah’s scheduled lessons we are told that she has missed exactly\n2 lessons, find the probability that an email is sent to her parents after a total of\n12 scheduled lessons. [3 marks]\n(d) If we know that an email was sent to Sarah’s parents immediately after\nher 6th scheduled lesson, find the probability that Sarah missed her 2nd\nscheduled lesson. [2 marks]",
+   "ms_text": "1\n3. (a) we are dealing with the Negative Binomial distribution: (M1)\nNB4,3\nlet X be the number of scheduled lessons before the email is sent\n4 4 7\n2 1\nP( X = 8) = = 0.0854 (M1)A1\n3 3 3\n[3 marks]\nr 4\n(b) E() X = = = 12 (M1)A1\np 1\n3\n[2 marks]\n(c) we are asking for 2 missed lessons in the second 6 lessons, with the last\n1\nlesson missed so this is (M1)\nNB2,3\n4 2 5\n2 1\nP( X = 6) = = 0.110 (M1)A1\n1 3 3\nNote: Accept solutions laid out in terms of conditional probabilities.\n[3 marks]\n(d) EITHER\nWe know that she missed the 6th lesson so she must have missed 3 from the\nfirst 5 lessons. All are equally likely so the probability that she missed the\n2nd lesson is 3 R1A1\n5.\nOR\nnd P(missed 2 and X = 6)\nnd = = require P(missed 2 X 6) R1\nP( X = 6)\nnd nd th P(missed 2 and X= 6) = P(missed 2 and 6 and 2 of remaining 4)\n2 2\n11 4 1 2 24\n= = γ γ\n6 33 2 3 3 3\n4 2 5\n1 2 40\nP( X = 6) = =\n3 3 3 3 6\n6 243 3\n= so required probability is γ A1\n6 3 40 5\n[2 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L2",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 10]\nAs soon as Sarah misses a total of 4 lessons at her school an email is sent to her parents. The probability that she misses any particular lesson is constant with a value of $\\frac{1}{3}$. Her decision to attend a lesson is independent of her previous decisions.\n(a) Find the probability that an email is sent to Sarah's parents after the 8th lesson that Sarah was scheduled to attend. [3 marks]\n(b) If an email is sent to Sarah's parents after the $X$th lesson that she was scheduled to attend, find $\\mathrm{E}(X)$. [2 marks]\n(c) If after 6 of Sarah's scheduled lessons we are told that she has missed exactly 2 lessons, find the probability that an email is sent to her parents after a total of 12 scheduled lessons. [3 marks]\n(d) If we know that an email was sent to Sarah's parents immediately after her 6th scheduled lesson, find the probability that Sarah missed her 2nd scheduled lesson. [2 marks]"
+  },
+  {
+   "id": "math-2010-N-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 9]\nA teacher has forgotten his computer password. He knows that it is either six of the\nletter J followed by two of the letter R (i.e. JJJJJJRR) or three of the letter J followed\nby four of the letter R (i.e. JJJRRRR). The computer is able to tell him at random just\ntwo of the letters in his password.\nThe teacher decides to use the following rule to attempt to find his password.\nIf the computer gives him a J and a J, he will accept the null hypothesis that his\npassword is JJJJJJRR.\nOtherwise he will accept the alternative hypothesis that his password is JJJRRRR.\n(a) Define a Type I error. [1 mark]\n(b) Find the probability that the teacher makes a Type I error. [4 marks]\n(c) Define a Type II error. [1 mark]\n(d) Find the probability that the teacher makes a Type II error. [3 marks]",
+   "ms_text": "4. (a) a Type Ιerror is when H is rejected, when H is actually true A1\n0 0\n[1 mark]\n(b) P(Hrejected | Htrue) = P(at least one R | 6 J and 2 R) M1\n0 0\nEITHER\n6 5 15\nP(no R | Htrue) = × = (A1)\n0\n8 7 28\nOR\nlet X count the number of R’s given by the computer\nunder H, X: Hyp(2, 2, 8)\n0\n2 6\n0 2 15\nP( X = 0) = = (A1)\n8 28\n2\nTHEN\n15\nP(atleastone R | Htrue) =− 1 (M1)\n0\n28\n13\nP(Type I error) = (0.464) = A1\n28\n[4 marks]\n(c) a Type II error is when H is accepted, when H is actually false A1\n0 0\n[1 mark]\n(d) P(Haccepted | Hfalse) = P(2 J |3 J and4 R) M1\n0 0\nEITHER\n3 2 1\nP(2 J | Hfalse) = × = (A1)\n0\n7 6 7\nOR\nlet Y count the number of R’s given by the computer.\nH false implies Y: Hyp(2, 4, 7)\n0\n4 3\n0 2 1\nP( Y = 0) = = (A1)\n7 7\n2\nTHEN\n1\n= = P(Type II error) (0.143) A1\n7\n[3 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 9]\nA teacher has forgotten his computer password. He knows that it is either six of the letter J followed by two of the letter R (i.e. JJJJJJRR) or three of the letter J followed by four of the letter R (i.e. JJJRRRR). The computer is able to tell him at random just two of the letters in his password.\nThe teacher decides to use the following rule to attempt to find his password.\nIf the computer gives him a J and a J, he will accept the null hypothesis that his password is JJJJJJRR.\nOtherwise he will accept the alternative hypothesis that his password is JJJRRRR.\n(a) Define a Type I error. [1 mark]\n(b) Find the probability that the teacher makes a Type I error. [4 marks]\n(c) Define a Type II error. [1 mark]\n(d) Find the probability that the teacher makes a Type II error. [3 marks]"
+  },
+  {
+   "id": "math-2010-N-P3-statistics-and-probability-q5",
+   "num": "5",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 12]\nThe (partially completed) contingency table of observed values when doing a χ2 test\nfor independence is as follows, where x∈∞.\nAbility at rugby\nGood Bad Totals\nAbility at Good x 75\nsoccer Bad 25\nTotals 60 40 100\n(a) Copy and complete this table, filling in the missing values in terms of x . [3 marks]\n(b) Complete a table for the expected values. [2 marks]\n2 ( f − f\n2 o e ) to find χcalc (c)\nUse the formula χcalc = ∑ 2 in terms of x .\nf\ne\n2 2\nGive your answer in the form χcalc = kx ( − 45 ) where k is a fraction that has to\nbe determined. [2 marks]\n(d) Let the null hypothesis be: “ability at soccer and ability at rugby are independent”.\nIf the null hypothesis is accepted at the 5 % significance level, find the possible\nvalues of x . [5 marks]",
+   "ms_text": "5. (a) observed table\nx 75 − x\nA1A1A1\n− x − 60 x 35\n[3 marks]\n(b) expected table\n45 30\nA1A1\n15 10\nNote: Award A1 for every 2 correct entries.\n[2 marks]\n2 2 2 2 ( x − 45) ( x − 45) ( x − 45) ( x − 45)\nχ 2 = + + + (c) (M1)\ncalc\n45 30 15 10\n2 ( 2 = − 45) A1\n9x\n[2 marks]\n(d) ν= 1 (M1)\n2 ( 2 H accepted at 5 % level implies 45) < 3.841 R1\n0 9x −\n( x − 45) 2 < 17.28\n− 4.157 < x − 45 < 4.157 A1A1\n40.8 < x < 49.2\nx = 41, 42, 43, 44, 45, 46, 47, 48, 49 A1\n[5 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "2"
+   ],
+   "subtopics": [
+    "4.L9",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 12]\nThe (partially completed) contingency table of observed values when doing a $\\chi^2$ test for independence is as follows, where $x \\in \\mathbb{N}$.\n[Table: rows = Ability at soccer, columns = Ability at rugby]\n| | Rugby Good | Rugby Bad | Totals\nSoccer Good | $x$ | | 75\nSoccer Bad | | | 25\nTotals | 60 | 40 | 100\n(a) Copy and complete this table, filling in the missing values in terms of $x$. [3 marks]\n(b) Complete a table for the expected values. [2 marks]\n(c) Use the formula $\\chi^2_{calc} = \\sum \\frac{(f_o - f_e)^2}{f_e}$ to find $\\chi^2_{calc}$ in terms of $x$.\nGive your answer in the form $\\chi^2_{calc} = k(x-45)^2$ where $k$ is a fraction that has to be determined. [2 marks]\n(d) Let the null hypothesis be: \"ability at soccer and ability at rugby are independent\". If the null hypothesis is accepted at the 5 % significance level, find the possible values of $x$. [5 marks]"
+  }
+ ],
+ "status": "done"
+}

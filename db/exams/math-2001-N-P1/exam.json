@@ -1,0 +1,498 @@
+{
+ "exam_id": "math-2001-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2001,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2001 November Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2001 November Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); marks not printed; assumed 3 per question (modal markscheme value)",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2001-N-P1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "2\n1. A coin is biased so that when it is tossed the probability of obtaining heads is .The coin is\n3 tossed 1800 times. Let Xbe the number of heads obtained. Find\n(a) the mean of X ;\n(b) the standard deviation of X .",
+   "ms_text": "2\n1. n = 1800, p =\n3\n(a) E( X ) = np = 1200 (A1) (C1)\n1\n(b) = − = × = (M1)(A1) (C2) SD( X ) np (1 p ) 1200 20\n3\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "1. A coin is biased so that when it is tossed the probability of obtaining heads is $\\frac{2}{3}$. The coin is tossed 1800 times. Let $X$ be the number of heads obtained. Find\n(a) the mean of $X$;\n(b) the standard deviation of $X$."
+  },
+  {
+   "id": "math-2001-N-P1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. The complex number zsatisfies i ( z + 2 ) = 1 − 2 z , where i = − 1 . Write zin the form\nz = a + bi , where aand bare real numbers.",
+   "ms_text": "2. i( z + 2) =− 1 2 z ⇒ (2 + i) z =− 1 2i\n1 − 2i\n⇒ z = (M1)\n2 + i\n− − 1 2i 2 i\n= × (M1)\n2 + i 2 − i\n− 5i\n=\n5\n= − i . (A1) (C3)\n( a = 0, b = − 1)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "2. The complex number $z$ satisfies $\\mathrm{i}(z+2) = 1 - 2z$, where $\\mathrm{i} = \\sqrt{-1}$. Write $z$ in the form $z = a + b\\mathrm{i}$, where $a$ and $b$ are real numbers."
+  },
+  {
+   "id": "math-2001-N-P1-q3",
+   "num": "3",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. The polynomial f (x) = x3+ 3x2+ ax + bleaves the same remainder when divided by (x – 2) as\nwhen divided by (x + 1). Find the value of a .",
+   "ms_text": "3. The remainder when divided by ( x − 2) is f (2) = 812 + + 2 a + b = 2 a + b + 20 (M1)\nand when divided by ( x + 1) , the remainder is f (1) − = −+ 1 3 − a + b = 2 − a + b . (M1)\nThese remainders are equal when 2 a + 20 = 2 − a\ngiving a = − 6 . (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "3. The polynomial $f(x) = x^3 + 3x^2 + ax + b$ leaves the same remainder when divided by $(x-2)$ as when divided by $(x+1)$. Find the value of $a$."
+  },
+  {
+   "id": "math-2001-N-P1-q4",
+   "num": "4",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "Consider the infinite geometric series 4.\n2 3\n2 x 2 x 2 x +\n1 + + ... .\n+\n3 3 3\n(a) For what values of xdoes the series converge?\n(b) Find the sum of the series if x = 1.2 .",
+   "ms_text": "2 x\n−< < 4. (a) The series converges provided 1 1 . (M1)\n3\n3\nThis gives − 1.5 < x < 1.5 or x < (A1) (C2)\n2\n1\n(b) When x = 1.2 , the common ratio is r = 0.8 and the sum is 5 (A1) (C1) 0.8=\n1 −\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "4. Consider the infinite geometric series\n$1 + \\left(\\frac{2x}{3}\\right) + \\left(\\frac{2x}{3}\\right)^2 + \\left(\\frac{2x}{3}\\right)^3 + \\ldots$\n(a) For what values of $x$ does the series converge?\n(b) Find the sum of the series if $x = 1.2$."
+  },
+  {
+   "id": "math-2001-N-P1-q5",
+   "num": "5",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "x + 1 a2\n5. The function fx : , x ∈ R , x≠1 .Find the inverse function, f–1, clearly stating its\nx − 1\ndomain.",
+   "ms_text": "2 y + 1\n= 5. Let x (M1)\ny − 1\n⇒ xy − x = 2 y + 1\n⇒ yx ( − 2) = x + 1\nx + 1 − 1\nTherefore, f : x ! , (A1) (C2)\nx − 2\nDomain x ∈ R , x ≠ 2 (A1) (C1)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "5. The function $f: x \\mapsto \\frac{2x+1}{x-1}$, $x \\in \\mathbb{R}$, $x \\neq 1$. Find the inverse function, $f^{-1}$, clearly stating its domain."
+  },
+  {
+   "id": "math-2001-N-P1-q6",
+   "num": "6",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "x 4 2 y = =\n6. If A and B , find the values of xand y , given that AB = BA.\n4 2 8 4",
+   "ms_text": "x 4 2 y 2 x + 32 xy + 16\n6. AB = = (A1)\n4 2 8 4 24 4 y + 8\n2 y x 4 2 x + 4 y 2 y + 8\nBA = = (A1)\n8 4 4 2 8 x + 16 40\nAB = BA ⇒ 8 x + 16 = 24and4 y + 8 = 40\n= = This gives x 1and y 8 . (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms"
+   ],
+   "text_clean": "6. If $\\boldsymbol{A} = \\begin{pmatrix} x & 4 \\\\ 4 & 2 \\end{pmatrix}$ and $\\boldsymbol{B} = \\begin{pmatrix} 2 & y \\\\ 8 & 4 \\end{pmatrix}$, find the values of $x$ and $y$, given that $\\boldsymbol{AB} = \\boldsymbol{BA}$."
+  },
+  {
+   "id": "math-2001-N-P1-q7",
+   "num": "7",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. The line y = 16x – 9 is a tangent to the curve y = 2x3+ ax2+ bx – 9 at the point (1, 7) .\nFind the values of aand b .",
+   "ms_text": "7. For the curve, y = 7when x = 1 ⇒ a + b = 14 , and (M1)\nd y 2\n6 x + 2 ax + b = 16when x = 1 ⇒ 2 a + b = 10 . (M1) x=\nd\nSolving gives = − = . (A1) (C3) a 4and b 18\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "7. The line $y = 16x - 9$ is a tangent to the curve $y = 2x^3 + ax^2 + bx - 9$ at the point $(1, 7)$.\nFind the values of $a$ and $b$."
+  },
+  {
+   "id": "math-2001-N-P1-q8",
+   "num": "8",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. A continuous random variable Xhas probability density function\n4\n, for 0 ≤ x ≤ 1 ,\n2\nfx () = π ( 1 + x )\n0 , elsewhere.\nFind E(X) .",
+   "ms_text": "8. METHOD 1\n1 4 x\nE( X ) = d x (M1) ∫\n0 π + 2 (1 x )\n= 0.441 . (G2) (C3)\nMETHOD 2\n1 4 x\nE( X ) = ∫ d x (M1)\n2 0 π (1 + x )\n1 2ln(1 2\n= + x ) (M1)\nπ 0\n2 ln 4\n= (ln2) or . (A1) (C3)\nπ π\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "8. A continuous random variable $X$ has probability density function\n$f(x) = \\begin{cases} \\frac{4}{\\pi(1+x^2)}, & \\text{for } 0 \\le x \\le 1, \\\\ 0, & \\text{elsewhere.} \\end{cases}$\nFind $\\mathrm{E}(X)$."
+  },
+  {
+   "id": "math-2001-N-P1-q9",
+   "num": "9",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "1 − 2 − 3\n9. The matrix 1 − k − 13 is singular.Find the values of k .\n− 3 5 k",
+   "ms_text": "9. The matrix is singular if its determinant is zero. (M1)\n1 − 2 − 3\n− k − 13 1 − 13 1 − k\nThen, 1 − k − 13 = + 2 − 3\n5 k − 3 k − 3 5\n− 3 5 k\n2 = − k + 65 + 2 k − 7815 − + 9 k\n2 = − ( k − 11 k + 28)\n(A1)\n= − ( k − 4)( k − 7) .\nTherefore, the matrix is singular if k = 4or k = 7 . (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "9. The matrix $\\begin{pmatrix} 1 & -2 & -3 \\\\ 1 & -k & -13 \\\\ -3 & 5 & k \\end{pmatrix}$ is singular. Find the values of $k$.",
+   "review_note": "Stage 2: qp crop override to include the top matrix row (1, -2, -3) that the auto crop cut off."
+  },
+  {
+   "id": "math-2001-N-P1-q10",
+   "num": "10",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. Consider the function y = tan x − 8 sin x .\nd y\n(a) Find .\nd x\nd y\n(b) Find the value of cos xfor which = 0 .\nd x",
+   "ms_text": "d y 2\n10. (a) sec x − 8cos x (A1) (C1) x=\nd\n3 d y 18cos − x\n(b) = (M1)\n2 d x cos x\nd y\n0 x=\nd\n1\n⇒ cos x = (A1) (C2)\n2\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.15",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "10. Consider the function $y = \\tan x - 8\\sin x$.\n(a) Find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$.\n(b) Find the value of $\\cos x$ for which $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 0$."
+  },
+  {
+   "id": "math-2001-N-P1-q11",
+   "num": "11",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. Find the values of xfor which 5 − 3 x ≤ x + 1 .",
+   "ms_text": "11. METHOD 1\n5 − 3 x ≤ x + 1\n⇒ 2 2 25 − 30 x + 9 x ≤ x + 2 x + 1 (M1)\n⇒ 2 8 x − 32 x + 24 ≤ 0\n⇒ 8( x − 1)( x − 3) ≤ 0 (M1)\n⇒ 1 ≤ x ≤ 3 (A1) (C3)\nMETHOD 2\ny = 5 − 3 x y\n5\nB\ny = x + 1 A\nx\n0\n5 (G1)\n3\n= = We obtain A (1, 2)and B (3, 4) (G1)\nTherefore, 1 ≤ x ≤ 3 . (A1) (C3)\nMETHOD 3\ny = 5 − 3 x − x + 1 Sketch the graph of .\ny\n= − − + 4 y 5 3 x x 1\nx\n0 1 3\n(G2)\n≤ ≤ ≤ From this graph we see that y 0 for1 x 3 . (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "11. Find the values of $x$ for which $|5 - 3x| \\le |x + 1|$."
+  },
+  {
+   "id": "math-2001-N-P1-q12",
+   "num": "12",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. A linear transformation Tmaps Triangle 1 to Triangle 2, as shown in the diagram.\ny y\n1 1\nT\n1 1\nx x\n0 1 0 1\nTriangle 1 Triangle 2\nFind a matrix which represents T .",
+   "ms_text": "1 3\n12. The uppermost vertex of triangle 2 has coordinates , . (A1)\n2 2\n1 3\nEither (0, 0) ! (0, 0), (1, 0) ! (1, 0)and(0,1) ! , , or\n2 2\n1 3\n(0, 0) ! (0, 0), (1, 0) ! , and(0,1) ! (1, 0) (M1)\n2 2\n1 1\n1 1\n2 2\nTherefore, a suitable matrix is either . (A1) (C3) or\n3 3\n0 0\n2 2\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.L1",
+    "3.5"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms"
+   ],
+   "text_clean": "12. A linear transformation $\\boldsymbol{T}$ maps Triangle 1 to Triangle 2, as shown in the diagram.\n[Diagram: Triangle 1 is the right-angled triangle with vertices (0,0), (1,0), (0,1); arrow labelled T; Triangle 2 is the equilateral triangle with vertices (0,0), (1,0) and an upper vertex, two slanted sides labelled 1]\nFind a matrix which represents $\\boldsymbol{T}$."
+  },
+  {
+   "id": "math-2001-N-P1-q13",
+   "num": "13",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. Consider the tangent to the curve y = x3+ 4x2+ x – 6 .\n(a) Find the equation of this tangent at the point where x = –1 .\n(b) Find the coordinates of the point where this tangent meets the curve again.",
+   "ms_text": "13. METHOD 1\n(a) The equation of the tangent is y = − 4 x − 8 . (G2) (C2)\n(b) The point where the tangent meets the curve again is − . (G1) (C1) (2, 0)\nMETHOD 2\nd y 2\n(a) y = − 4and = 3 x + 8 x += − 1 4at x = − 1 . (M1)\nd x\nTherefore, the tangent equation is y = − 4 x − 8 . (A1) (C2)\n3 2 (b) This tangent meets the curve when − 4 x − 8 = x + 4 x + x − 6 which gives\n3 2 2 x + 4 x + 5 x + 2 = 0 ⇒ ( x + 1)( x + 2) = 0 .\nThe required point of intersection is (2, 0) − . (A1) (C1)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.4",
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "13. Consider the tangent to the curve $y = x^3 + 4x^2 + x - 6$.\n(a) Find the equation of this tangent at the point where $x = -1$.\n(b) Find the coordinates of the point where this tangent meets the curve again."
+  },
+  {
+   "id": "math-2001-N-P1-q14",
+   "num": "14",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14. A point P(x , x2) lies on the curve y = x2. Calculate the minimum distance from the point\n1\nA2 ,− to the point P .\n2",
+   "ms_text": "14. METHOD 1\n2 2 2 2\nLet S = AP = ( x − 2) + ( x + 1 ) . (M1)\n2\nThe graph of S is as follows:\nS\n4¼\nx\n0 1\n2\nThe minimum value of S is 2.6686. (G1)\nTherefore the minimum distance = 2.6686 = 1.63 (3 s.f.) (A1)\nOR\nThe minimum point is (0.682, 1.63) (G1)\nThe minimum distance is 1.63 (3 s.f.) (G1) (C3)\nMETHOD 2\n2\n= 2 = − 2 + ( 2 + 1 ) Let S AP ( x 2) x . (M1)\n2\nd S 2\n1 3 2 = 2( x − 2) + 4 xx ( + ) = 4( x + x − 1)\n2 d x\n3\nSolving x + x −= 1 0gives x = 0.68233 (G1)\n2 2 2 Therefore the minimum distance = (0.68233 − 2) + (0.68233 + 0.5) = 1.63 (3 s.f.)(A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "14. A point $\\mathrm{P}(x, x^2)$ lies on the curve $y = x^2$. Calculate the minimum distance from the point $\\mathrm{A}\\left(2, -\\frac{1}{2}\\right)$ to the point P."
+  },
+  {
+   "id": "math-2001-N-P1-q15",
+   "num": "15",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "Point A(3, 0, –2) lies on the line r = 3i – 2k + λ(2i – 2j + k) , where λis a real parameter.Find 15.\nthe coordinates of onepoint which is 6 units from A , and on the line.",
+   "ms_text": "15. The direction of the line is v = 2 i − 2 j + k and v = 3 . (A1)\nTherefore, the position vector of any point on the line 6 units from A is\n3 i − 2 k ± 2 v = 7 i − 4 j or −+ i 4 j − 4 k , (M1)\ngiving the point (7, − 4, 0)or(1, 4, − − 4) . (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "15. Point A$(3, 0, -2)$ lies on the line $\\boldsymbol{r} = 3\\boldsymbol{i} - 2\\boldsymbol{k} + \\lambda(2\\boldsymbol{i} - 2\\boldsymbol{j} + \\boldsymbol{k})$, where $\\lambda$ is a real parameter. Find the coordinates of **one** point which is 6 units from A, and on the line."
+  },
+  {
+   "id": "math-2001-N-P1-q16",
+   "num": "16",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "Let θbe the angle between the unit vectors aand b , where 0 < θ < π .Express |a – b | in terms 16.\n1\nof sin θ .\n2",
+   "ms_text": "16. METHOD 1\nb\na − b\n1\na\n1\nθ\n2 2 a − b = 1 + 1 − 2(1)(1)cosθ\n(M1)\n= − θ 2(1 cos) (A1)\n21\n=\n4sin2θ\n1\n=\n2sin 2θ . (A1) (C3)\nMETHOD 2\nO\n1−2 θ\na b\nM →\nB AB = a − b A a − b\n1\nIn ∆ OAM, AM = . (M1)(A1) OAsin 2θ\n1\nTherefore, a − b = . (A1) (C3) 2sin 2θ\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.12",
+    "3.6",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "16. Let $\\theta$ be the angle between the unit vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$, where $0 < \\theta < \\pi$. Express $|\\boldsymbol{a} - \\boldsymbol{b}|$ in terms of $\\sin\\frac{1}{2}\\theta$."
+  },
+  {
+   "id": "math-2001-N-P1-q17",
+   "num": "17",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "How many four-digit numbers are there which contain at least one digit 3 ? 17.",
+   "ms_text": "= × × × = 17. The total number of four-digit numbers 9101010 9000 . (A1)\nThe number of four-digit numbers which do not contain a digit 3\n=××× 8999 = 5832 . (A1)\nThus, the number of four-digit numbers which contain at least one digit 3 is\n9000 − 5832 = 3168 . (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "17. How many four-digit numbers are there which contain at least one digit 3?"
+  },
+  {
+   "id": "math-2001-N-P1-q18",
+   "num": "18",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "1\n18. The probability that a man leaves his umbrella in any shop he visits is .After visiting two\n3\nshops in succession, he finds he has left his umbrella in one of them.What is the probability\nthat he left his umbrella in the second shop?",
+   "ms_text": "18. First shop Second shop Probability\nLeft umbrella 1\n3\n1–3\n2\nLeft umbrella\n9\n1–3\n2–3\nDid not\nleave umbrella\n2–3 4 Did not\nleave umbrella 9\n(M1)(A1)\n2\n2\n= 9 = Required probability . (A1) (C3)\n2 1 5\n+\n9 3\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "18. The probability that a man leaves his umbrella in any shop he visits is $\\frac{1}{3}$. After visiting two shops in succession, he finds he has left his umbrella in one of them. What is the probability that he left his umbrella in the second shop?"
+  },
+  {
+   "id": "math-2001-N-P1-q19",
+   "num": "19",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "A sample of radioactive material decays at a rate which is proportional to the amount of 19.\nmaterial present in the sample.Find the half-life of the material if 50 grams decay to 48 grams\nin 10 years.",
+   "ms_text": "d A\n19. If A g is present at any time, then kA where k is a constant. t=\nd\nd A\nThen, ∫ k ∫ d t A=\n⇒ ln A = kt + c\nktc + kt ⇒ A = e = c e\n1\n= = ⇒ = 10 k . (A1) When t 0, c 50, 48 50e\n1\nln0.96\n= k or k = − 0.00408(2) (A1)\n10\nFor half life, 25 = 50ekt\n⇒ ln0.5 = kt\n10ln0.5\n⇒ t = = 169.8 .\nln0.96\nTherefore, half-life = 170 years (3 s.f.) (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "19. A sample of radioactive material decays at a rate which is proportional to the amount of material present in the sample. Find the half-life of the material if 50 grams decay to 48 grams in 10 years."
+  },
+  {
+   "id": "math-2001-N-P1-q20",
+   "num": "20",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "x 2\n20. Find the area enclosed by the curves y = and y =e3 , given that –3 ≤x ≤3 .\n2\n1 + x",
+   "ms_text": "20. The curves meet when x = − 1.5247and x = 0.74757 . (G1)\n0.74757 2 x\n3 The required area = ∫ − e d x (M1)\n2 − 1.5247 1 + x\n= 1.22 . (G1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "20. Find the area enclosed by the curves $y = \\frac{2}{1+x^2}$ and $y = \\mathrm{e}^{\\frac{x}{3}}$, given that $-3 \\le x \\le 3$."
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2009-M-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2009,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2009 May Examination Session/Mathematics_paper_3_Discrete_mathematics_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2009 May Examination Session/Mathematics_paper_3_Discrete_mathematics_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2209-7207; code M09/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches expected total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2009-M-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 8]\nSameer is trying to design a road system to connect six towns, A, B, C, D, E and F.\nThe possible roads and the costs of building them are shown in the graph below.\nEach vertex represents a town, each edge represents a road and the weight of each edge\nis the cost of building that road. He needs to design the lowest cost road system that\nwill connect the six towns.\nB\n5\nA\n6\n8\nD\n3 4\nC\n7\n8\n7 4\n4 E F\n(a) Name an algorithm which will allow Sameer to find the lowest cost road system. [1 mark]\n(b) Find the lowest cost road system and state the cost of building it. Show clearly\nthe steps of the algorithm. [7 marks]",
+   "ms_text": "1. (a) EITHER\nPrim’s algorithm A1\nOR\nKruskal’s algorithm A1\n[1 mark]\n(b) EITHER\nusing Prim’s algorithm, starting at A\nEdge Cost\nAC 4 A1\nCD 3 A1\nCF 4 A1\nFE 4 A1\nAB 5 A1\nlowest cost road system contains roads AC, CD, CF, FE and AB A1\ncost is 20 A1\nOR\nusing Kruskal’s algorithm\nEdge Cost\nCD 3 A1\nCF 4 A1\nFE 4 A1\nAC 4 A1\nAB 5 A1\nlowest cost road system contains roads CD, CF, FE, AC and AB A1\ncost is 20 A1\nNote: Accept alternative correct solutions.\n[7 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "1. [Maximum mark: 8]\nSameer is trying to design a road system to connect six towns, A, B, C, D, E and F. The possible roads and the costs of building them are shown in the graph below. Each vertex represents a town, each edge represents a road and the weight of each edge is the cost of building that road. He needs to design the lowest cost road system that will connect the six towns.\n[Diagram: weighted graph with vertices A, B, C, D, E, F; edges AB = 5, AD = 8, AC = 4, AE = 7, BD = 6, CD = 3, CE = 7, CF = 4, DF = 8, EF = 4]\n(a) Name an algorithm which will allow Sameer to find the lowest cost road system. [1 mark]\n(b) Find the lowest cost road system and state the cost of building it. Show clearly the steps of the algorithm. [7 marks]"
+  },
+  {
+   "id": "math-2009-M-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 14]\n(a) Use the Euclidean algorithm to find gcd( 123062976. , ) [5 marks]\n(b) Hence give the general solution to the diophantine equation 12306 x + 2976 y = 996 . [9 marks]",
+   "ms_text": "2. (a) 12 306 = 4 × 2976 + 402 M1\n2976 = 7 × 402 + 162 M1\n402 = 2162 × + 78 A1\n162 = 2 × 78 + 6 A1\n= × 78 136\ntherefore gcd is 6 R1\n[5 marks]\n(b) 6996 means there is a solution\n6 = 162 − 2(78) (M1)(A1)\n= 162 − 2402 ( − 2(162) )\n= 5(162) − 2(402) (A1)\n= 52976 ( − 7(402) ) − 2(402)\n= − 5(2976) 37(402) (A1)\n( ) = 5(2976) − 3712 306 − 4(2976)\n= 153(2976) − 37(12 306) (A1)\n= − 996 25398(2976) 6142(12 306)\n⇒ =− = x 6142, y 25398 (A1)\n0 0\n2976\n⇒ =− + =− + x 6142 t 6142 496 t\n6\n12306\n⇒ = − = − y 25398 t 25398 2051 t M1A1A1\n6\n[9 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.3",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 14]\n(a) Use the Euclidean algorithm to find $\\gcd(12306, 2976)$. [5 marks]\n(b) Hence give the general solution to the diophantine equation $12306x + 2976y = 996$. [9 marks]"
+  },
+  {
+   "id": "math-2009-M-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 19]\nThe adjacency matrix of the graph G , with vertices P, Q, R, S, T is given by:\nPQR S T\nP 0 2 1 1 0\nQ 2 1 1 1 0\nR 1 1 1 0 2\nS 1 1 0 0 0\nT 0 0 2 0 0\n(a) Draw the graph G . [3 marks]\n(b) (i) Define an Eulerian circuit.\n(ii) Write down an Eulerian circuit in G starting at P. [3 marks]\n(c) (i) Define a Hamiltonian cycle.\n(ii) Explain why it is not possible to have a Hamiltonian cycle in G . [5 marks]\n(d) (i) Find the number of walks of length 5 from P to Q.\n(ii) Which pairs of distinct vertices have more than 15 walks of length 3\nbetween them? [8 marks]",
+   "ms_text": "3. (a)\nA3\nNote: Award A2 for one missing or misplaced edge,\nA1 for two missing or misplaced edges.\n[3 marks]\n(b) (i) an Eulerian circuit is one that contains every edge of the graph\nexactly once A1\n(ii) a possible Eulerian circuit is\n→ → → → → → → → → → P Q S P Q Q R T R R P A2\n[3 marks]\n(c) (i) a Hamiltonian cycle passes through each vertex of the graph A1\nexactly once A1\n(ii) to pass through T, you must have come from R and must return to R. R3\nhence there is no Hamiltonian cycle\n[5 marks]\n0 2 1 1 0\n2 1 1 1 0\n(d) (i) using the adjacency matrix A = 1 1 1 0 2 , (M1)\n1 1 0 0 0\n0 0 2 0 0\n5 we need the entry in the first row second column of the matrix A (M1)\n245 309 274 143126\n309 363 322 168156\n5 A = 274 322 295 141164 (A1)\n143 168 141 77 72\n126 156 164 72 72\nhence there are 309 ways A1\n13 2117 10 6\n21 22 19 11 8\n(ii) 3 = (M1) A 17 19 18 7 14\n10 11 7 5 4\n6 8 14 4 4\nhence the pairs of vertices are PQ, PR and QR A1A1A1\n[8 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.7",
+    "6.11",
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 19]\nThe adjacency matrix of the graph $G$, with vertices P, Q, R, S, T is given by:\n   P Q R S T\nP  0 2 1 1 0\nQ  2 1 1 1 0\nR  1 1 1 0 2\nS  1 1 0 0 0\nT  0 0 2 0 0\n(a) Draw the graph $G$. [3 marks]\n(b) (i) Define an Eulerian circuit.\n(ii) Write down an Eulerian circuit in $G$ starting at P. [3 marks]\n(c) (i) Define a Hamiltonian cycle.\n(ii) Explain why it is not possible to have a Hamiltonian cycle in $G$. [5 marks]\n(d) (i) Find the number of walks of length 5 from P to Q.\n(ii) Which pairs of distinct vertices have more than 15 walks of length 3 between them? [8 marks]"
+  },
+  {
+   "id": "math-2009-M-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 10]\nTwo mathematicians are planning their wedding celebration and are trying to arrange\nthe seating plan for the guests. The only restriction is that all tables must seat the same\nnumber of guests and each table must have more than one guest. There are fewer than\n350 guests, but they have forgotten the exact number. However they remember that\nwhen they try to seat them with two at each table there is one guest left over. The same\nhappens with tables of 3, 4, 5 and 6 guests. When there were 7 guests per table there\nwere none left over. Find the number of guests.",
+   "ms_text": "4. let x be the number of guests\nx ≡ 1(mod2)\nx ≡ 1(mod3)\nx ≡ 1(mod4)\nx ≡ 1(mod5)\nx ≡ 1(mod6)\nx ≡ 0(mod7) congruence (i) (M1)(A2)\nthe equivalent of the first five lines is\nx ≡ 1mod(lcm of2, 3, 4, 5, 6) ( ) ≡ 1(mod60) A1\n⇒ x = 60 t + 1\nt +≡ from congruence (i) 60 1 0(mod7) M1A1\n60 t ≡− 1(mod7)\n60 t ≡ 6(mod7)\n4 t ≡ 6(mod7)\nt ≡ 2 3(mod7) A1\n⇒= t 7 u + 5 (or equivalent) A1\nhence x = 420 u + 300 + 1 A1\n⇒ x = 420 u + 301\nsmallest number of guests is 301 A1 N6\nNote: Accept alternative correct solutions including exhaustion or formula from\nChinese remainder theorem.\n[10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.4",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 10]\nTwo mathematicians are planning their wedding celebration and are trying to arrange the seating plan for the guests. The only restriction is that all tables must seat the same number of guests and each table must have more than one guest. There are fewer than 350 guests, but they have forgotten the exact number. However they remember that when they try to seat them with two at each table there is one guest left over. The same happens with tables of 3, 4, 5 and 6 guests. When there were 7 guests per table there were none left over. Find the number of guests."
+  },
+  {
+   "id": "math-2009-M-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 9]\n(a) Using Fermat’s little theorem, show that, in base 10, the last digit of n is always\nequal to the last digit of n5. [7 marks]\n[2 marks] (b) Show that this result is also true in base 30.",
+   "ms_text": "5 5. (a) using Fermat’s little theorem n ≡ n (mod5) (M1)\n5 − ≡ n n 0(mod5) A1\n5 4 now n − n = nn ( − 1) (M1)\n2 2 = nn ( − 1)( n + 1)\n= nn ( − 1)( n + 1)( n 2 + 1) A1\nhence one of the first two factors must be even R1\n5 i.e. n − n ≡ 0(mod2)\n5 thus n − n is divisible by 5 and 2\nhence it is divisible by 10 R1\n5 5 in base 10, since n − n is divisible by 10, then n − n must end in zero and\n5 hence nand n must end with the same digit R1\n[7 marks]\n5 2 (b) consider n − n = nn ( − 1)( n + 1)( n + 1)\nthis is divisible by 3 since the first three factors are consecutive integers R1\n5 hence n − n is divisible by 3, 5 and 2 and therefore divisible by 30\n5 5 in base 30, since n − n is divisible by 30, then n − n must end in zero and\n5 hence nand n must end with the same digit R1\n[2 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.5",
+    "6.1",
+    "6.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 9]\n(a) Using Fermat's little theorem, show that, in base 10, the last digit of $n$ is always equal to the last digit of $n^5$. [7 marks]\n(b) Show that this result is also true in base 30. [2 marks]"
+  }
+ ],
+ "status": "done"
+}

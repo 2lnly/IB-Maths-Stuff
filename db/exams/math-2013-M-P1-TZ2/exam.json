@@ -1,0 +1,315 @@
+{
+ "exam_id": "math-2013-M-P1-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2013,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2013 May Examination Session/Mathematics_paper_1_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2013 May Examination Session/Mathematics_paper_1_TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); code M13/5/MATHL/HP1/ENG/TZ2/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2013-M-P1-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\n2 1 2\nFind the exact value of ∫ ( x − 2) + + sin π x d x .\n1 x",
+   "ms_text": "(2)\n1 1 3\n1. ( − 2) + ln x − cos π x A1A1A1\n3x π\n(1)\n1 3\n− 2 + 1 ( 3 Note: Accept 2 x 4 x in place of 2) .\n3x 3x −\n1 1 1\n= 0 + ln2 − cos2 π−− + ln1 − cos π (M1)\nπ π 3\n1 2\n= + ln 2 A1A1\n−π\n3\nNote: Award A1 for any two terms correct, A1 for the third correct.\nTotal[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nFind the exact value of $\\int_1^2 \\left((x-2)^2 + \\frac{1}{x} + \\sin \\pi x\\right) \\mathrm{d}x$."
+  },
+  {
+   "id": "math-2013-M-P1-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\n5 3 3 − 5\nConsider the matrices A = , B = .\n3 2 2 − 3\n− 1 (a) Find det A and hence write down the matrix A. [2 marks]\n− 1 (b) Find the matrix AB . [3 marks]",
+   "ms_text": "2. (a) det A = (52 × −× 33) = 1 (A1)\n2 − 3\n1 A−\n= A1\n− 3 5\n[2 marks]\n2 − 3 3 − 5\n(b)\n− 3 5 2 − 3\n23 ×+− (3)2 × 2(5) ×− +− (3)(3) ×−\n(M1) =\n− ×+× − ×− +×− (3)3 52 (3)(5) 5(3)\n0 − 1\n= A2\n1 0\n[3 marks]\nNote: Award A2 for all correct, A1 for one error, A0 otherwise.\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nConsider the matrices $A = \\begin{pmatrix} 5 & 3 \\\\ 3 & 2 \\end{pmatrix}$, $B = \\begin{pmatrix} 3 & -5 \\\\ 2 & -3 \\end{pmatrix}$.\n(a) Find $\\det A$ and hence write down the matrix $A^{-1}$. [2 marks]\n(b) Find the matrix $A^{-1}B$. [3 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 4]\n5 Expand (2 − 3) x in ascending powers of x , simplifying coefficients.",
+   "ms_text": "3. clear attempt at binomial expansion for exponent 5 M1\n54 × 543 ×× 5 4 3 2 2 3\n2 +× 52 ×− (3) x + × 2 ×− (3) x + × 2 ×− (3) x\n2 6\n5432 ××× 4 5\n+ ××− 2(3) x +− (3) x (A1)\n24\nNote: Only award M1 if binomial coefficients are seen.\n2 3 4 5 = 32 − 240 x + 720 x − 1080 x + 810 x − 243 x A2\nNote: Award A1 for correct moduli of coefficients and powers. A1 for correct signs.\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 4]\nExpand $(2-3x)^5$ in ascending powers of $x$, simplifying coefficients."
+  },
+  {
+   "id": "math-2013-M-P1-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nTim and Caz buy a box of 16 chocolates of which 10 are milk and 6 are dark.\nCaz randomly takes a chocolate and eats it. Then Tim randomly takes a chocolate\nand eats it.\n(a) Draw a tree diagram representing the possible outcomes, clearly labelling each\nbranch with the correct probability. [3 marks]\n(b) Find the probability that Tim and Caz eat the same type of chocolate. [2 marks]",
+   "ms_text": "4. (a)\nA1A1A1\n[3 marks]\nNote: Award A1 for the initial level probabilities, A1 for each of the second\nlevel branch probabilities.\n10 9 6 5\n(b) × + × (M1)\n16 15 16 15\n120 1\n= = A1\n240 2\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nTim and Caz buy a box of 16 chocolates of which 10 are milk and 6 are dark. Caz randomly takes a chocolate and eats it. Then Tim randomly takes a chocolate and eats it.\n(a) Draw a tree diagram representing the possible outcomes, clearly labelling each branch with the correct probability. [3 marks]\n(b) Find the probability that Tim and Caz eat the same type of chocolate. [2 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\nx cos x\nThe curve C is given by y = , for x ≥ 0 .\nx + cos x\n2 2 d y cos x − x sin x\n(a) Show that = , x ≥ 0 . [4 marks]\n2 d x ( x + cos) x\nπ\n(b) Find the equation of the tangent to C at the point , 0 . [3 marks]\n2",
+   "ms_text": "d y ( x + cos)(cos x x − x sin) x − x cos(1sin) x − x\n5. (a) = M1A1A1\n2 d x ( x + cos) x\nNote: Award M1 for attempt at differentiation of a quotient and a product\ncondoning sign errors in the quotient formula and the trig\ndifferentiations, A1 for correct derivative of “u”, A1 for correct\nderivative of “v”.\n+ 2 − 2 − − + x cos x cos x x sin x x cossin x x x cos x x cossin x x\n= A1\n( x + cos) x 2\n2 − 2 cos x x sin x\n= AG\n( x + cos) x 2\n[4 marks]\n(b) the derivative has value 1 − (A1)\nπ π\nthe equation of the tangent line is ( y − 0) =− (1) x − y = − x M1A1\n2 2\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nThe curve $C$ is given by $y = \\frac{x\\cos x}{x + \\cos x}$, for $x \\ge 0$.\n(a) Show that $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{\\cos^2 x - x^2 \\sin x}{(x+\\cos x)^2}$, $x \\ge 0$. [4 marks]\n(b) Find the equation of the tangent to $C$ at the point $\\left(\\frac{\\pi}{2}, 0\\right)$. [3 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nA geometric sequence has first term a , common ratio r and sum to infinity 76.\nA second geometric sequence has first term a , common ratio 3r and sum to infinity 36.\nFind r .",
+   "ms_text": "a\n6. for the first series 76 A1 r=\n− 1\na\nfor the second series 36 A1 r=\n3 1 −\n76(1 − r )\nattempt to eliminate a e.g. = 36 M1\n3 1 − r\n2 simplify and obtain 9 r + 9 r − 10 = 0 (M1)A1\nNote: Only award the M1 if a quadratic is seen.\n12 30\nobtain r = and − (A1)\n18 18\n12 2\nr = = = 0.666 A1\n18 3\nNote: Award A0 if the extra value of r is given in the final answer.\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.8",
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nA geometric sequence has first term $a$, common ratio $r$ and sum to infinity 76.\nA second geometric sequence has first term $a$, common ratio $r^3$ and sum to infinity 36.\nFind $r$."
+  },
+  {
+   "id": "math-2013-M-P1-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\nGiven the complex numbers z=+ 1 3i and z= −−. 1 i\n1 2\n(a) Write down the exact values of | z | and arg( z ) . [2 marks]\n1 2\n(b) Find the minimum value of | z + α z | , where α ∈�. [5 marks]\n1 2",
+   "ms_text": "3 π 5 π\n7. (a) | z | = 10; arg( z ) =− accept A1A1\n1 2\n4 4\n[2 marks]\n(b) | z + α z | = (1 − α ) 2 + (3 − α ) 2 or the squared modulus (M1)(A1)\n1 2\n2 attempt to minimise 2 α − 8 α + 10 or their quadratic or its half or its square root M1\nobtain α= 2 at minimum (A1)\nstate 2 as final answer A1\n[5 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.12",
+    "2.6",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nGiven the complex numbers $z_1 = 1 + 3\\mathrm{i}$ and $z_2 = -1 - \\mathrm{i}$.\n(a) Write down the exact values of $|z_1|$ and $\\arg(z_2)$. [2 marks]\n(b) Find the minimum value of $|z_1 + \\alpha z_2|$, where $\\alpha \\in \\mathbb{R}$. [5 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\n2 x\nThe curve C is given implicitly by the equation 2 x = ln y for y > 0 .\ny−\ny Express d\n(a) in terms of x and y . [4 marks]\nd x\ny Find the value of d\n(b) y = and 1 x > 0 . [2 marks]\nx at the point on C where\nd",
+   "ms_text": "8. (a) attempt at implicit differentiation M1\nEITHER\n2 2 x x d y 1 d y\n− − 2 = A1A1\n2 y y d x yx d\nNote: Award A1 for each side.\n2 x\n− 2\n2 d y y 2 xy − 2 y\n= = A1\n2 2 d x 1 x x + y\n+\n2 y y\nOR\nafter multiplication by y\nd y d y 1 d y\n2 x − 2 y − 2 x = ln y + y A1A1\nd x d x yx d\nNote: Award A1 for each side.\nd y 2( x − y )\n= A1\nd x 1 + 2 x + ln y\n[4 marks]\n2 − = (b) for y =, 1 x 2 x 0\nx = (0 or) 2 A1\nd y 2\nfor x = = A1\n2,d\nx 5\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nThe curve $C$ is given implicitly by the equation $\\frac{x^2}{y} - 2x = \\ln y$ for $y > 0$.\n(a) Express $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ in terms of $x$ and $y$. [4 marks]\n(b) Find the value of $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ at the point on $C$ where $y = 1$ and $x > 0$. [2 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\nx 3 + 1\nThe function f is given by fx () = , for x > 0 .\nx − − x 3 3\n(a) Show that fx> for all () 1 x > 0 . [3 marks]\n(b) Solve the equation fx= () 4 . [4 marks]",
+   "ms_text": "9. (a) EITHER\n− x 13 +\nfx ()1 −= M1A1\nx − x 3 − 3\n> 0 as both numerator and denominator are positive R1\nOR\nx x x − x 3 +> 1 3 > 3 − 3 M1A1\nNote: Accept a convincing valid argument the numerator is greater\nthan the denominator.\nnumerator and denominator are positive R1\nhence fx> () 1 AG\n[3 marks]\nx − x x (b) one line equation to solve, for example, 4(3 − 3) = 3 +, or equivalent 1 A1\n2 ( 3 y − y − 4 = 0 )\nattempt to solve a three-term equation M1\n4\nobtain y = A1\n3\n4\nx = log or equivalent A1\n3\n3\nNote: Award A0 if an extra solution for x is given.\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.10",
+    "2.9",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nThe function $f$ is given by $f(x) = \\frac{3^x + 1}{3^x - 3^{-x}}$, for $x > 0$.\n(a) Show that $f(x) > 1$ for all $x > 0$. [3 marks]\n(b) Solve the equation $f(x) = 4$. [4 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ2-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 6]\n1 1 1 +\n(a) Given that arctan + arctan = arctan , where p ∈�, find p. [3 marks]\n5 8 p\n1 1 1\n+ + (b) Hence find the value of arctan arctan arctan . [3 marks]\n2 5 8",
+   "ms_text": "tan() A + tan() B\n10. (a) attempt at use of tan( A + B ) M1 =−\n1tan()tan() A B\n1 1\n+\n1 1 5 8\n= = A1\np 1 1 3\n1 − ×\n5 8\np = 3 A1\nNote: the value of p needs to be stated for the final mark.\n[3 marks]\n1 1\n+\n1 1 1 2 3\ntanarctan + arctan + arctan = = 1 (b) M1A1\n1 1 2 5 8\n1 − ×\n2 3\n1 1 1 π\n+ + = arctan arctan arctan A1\n2 5 8 4\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 6]\n(a) Given that $\\arctan\\left(\\frac{1}{5}\\right) + \\arctan\\left(\\frac{1}{8}\\right) = \\arctan\\left(\\frac{1}{p}\\right)$, where $p \\in \\mathbb{Z}^+$, find $p$. [3 marks]\n(b) Hence find the value of $\\arctan\\left(\\frac{1}{2}\\right) + \\arctan\\left(\\frac{1}{5}\\right) + \\arctan\\left(\\frac{1}{8}\\right)$. [3 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 21]\nThe vertices of a triangle ABC have coordinates given by A(1,2, 3) − , B(4, 1, 1)\nand C(3, − 2,2) .\n(a) (i) Find the lengths of the sides of the triangle.\nˆ (ii) Find cos BAC . [6 marks]\n→ →\n(b) (i) Show that BCCA × = − 7 i − 3 j − 16 k .\nHence, show that the area of the triangle ABC is 1 (ii) 314 . [5 marks]\n2\n(c) Find the Cartesian equation of the plane containing the triangle ABC . [3 marks]\n(d) Find a vector equation of (AB) . [2 marks]\n→ →\nThe point D on (AB) is such that OD is perpendicular to BC where O is the origin.\n(e) (i) Find the coordinates of D.\n(ii) Show that D does not lie between A and B. [5 marks]",
+   "ms_text": "→ → →\n11. (a) (i) AB = OBOA − = 5 i − j − 2 k (or in column vector form) (A1)\nNote: Award A1 if any one of the vectors, or its negative,\nrepresenting the sides of the triangle is seen.\n→\n| AB| = |5 i − j − 2| k = 30\n→\n=−− + = | BC | | i 3 j k | 11\n→\n|CA | =− |4 i + 4 j + k | = 33 A2\nNote: Award A1 for two correct and A0 for one correct.\n(ii) METHOD 1\n20 + 4 + 2\ncosBAC = M1A1\n3033\nNote: Award M1 for an attempt at the use of the scalar product for\ntwo vectors representing the sides AB and AC, or their\nnegatives, A1 for the correct computation using their vectors.\n26 26\n= = A1\n990 3110\nNote: Candidates who use the modulus need to justify it – the angle\nis not stated in the question to be acute.\nMETHOD 2\nusing the cosine rule\n30 + 3311 −\ncosBAC = M1A1\n23033\n26 26\n= = A1\n990 3110\n[6 marks]\ni j k\n→ →\n(b) (i) BC × CA =− 1 − 3 1 A1\n− 4 4 1\n= ( (3)114 − ×−× ) i + ( 1(4) ×− −− (1)1 × ) j + ( (1)4 − ×−− (3)(4) ×− ) k M1A1\n=− 7 i − 3 j − 16 k AG\n1 → →\n(ii) the area of Δ ABC = BC × CA (M1)\n2\n1\n− 2 +− 2 +− 2 (7) (3) (16) A1\n2\n1\n= 314 AG\n2\n[5 marks]\n(c) attempt at the use of “( r � a ) � n � 0 ” (M1)\n�\nusing r x i y j z ka , OA and n 7 i 3 j 16 k (A1) � � � � �� � �\n7 x � 3 y � 16 z � 47 A1\nNote: Candidates who adopt a 2-parameter approach should be awarded, A1 for\ncorrect 2-parameter equations for x, y and z; M1 for a serious attempt at\nelimination of the parameters; A1 for the final Cartesian equation.\n[3 marks]\n� �\n(d) r � OA � t AB (or equivalent) M1\nr � ( �� i 2 j � 3) k � t (5 i � j � 2) k A1\nNote: Award M1A0 if “ r � ” is missing.\nNote: Accept forms of the equation starting with B or with the direction reversed.\n[2 marks]\n�\n(e) (i) OD ��� ( i 2 j � 3) k � t (5 i � j � 2) k\n� �\nstatement that ODBC 0 (M1) � �\n� �� 1 5 t �� � 1 �\n� �� �\n2 � t � � 3 � 0 A1\n� �� �\n� �� � 3 � 2 t 1\n� �� �\n1\n�� 2 4 t � 0 or t �� A1\n2\n� 75 �\ncoordinates of D are , , 4 A1 � � �\n� 22 �\n�\nNote: Different forms of OD give different values of t, but the same final answer.\n(ii) t � 0 �� D is not between Aand B R1\n[5 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.16",
+    "3.14",
+    "3.12",
+    "3.17"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 21]\nThe vertices of a triangle ABC have coordinates given by A$(-1, 2, 3)$, B$(4, 1, 1)$ and C$(3, -2, 2)$.\n(a) (i) Find the lengths of the sides of the triangle.\n(ii) Find $\\cos \\mathrm{B\\hat{A}C}$. [6 marks]\n(b) (i) Show that $\\overrightarrow{BC} \\times \\overrightarrow{CA} = -7\\boldsymbol{i} - 3\\boldsymbol{j} - 16\\boldsymbol{k}$.\n(ii) Hence, show that the area of the triangle ABC is $\\frac{1}{2}\\sqrt{314}$. [5 marks]\n(c) Find the Cartesian equation of the plane containing the triangle ABC. [3 marks]\n(d) Find a vector equation of (AB). [2 marks]\nThe point D on (AB) is such that $\\overrightarrow{OD}$ is perpendicular to $\\overrightarrow{BC}$ where O is the origin.\n(e) (i) Find the coordinates of D.\n(ii) Show that D does not lie between A and B. [5 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 21]\n2 x − 1\nThe function f is defined by fx () = , with domain D = {:1 x −≤ x ≤ 8} .\nx + 2\nB\n(a) Express fx in the form () A + , where A and B∈�. [2 marks]\nx + 2\n′ (b) Hence show that f () x > 0 on D . [2 marks]\n(c) State the range of f . [2 marks]\nf − 1() x (d) (i) Find an expression for .\n(ii) Sketch the graph of y = fx () , showing the points of intersection with\nboth axes.\n= − (iii) On the same diagram, sketch the graph of y f 1() x . [8 marks]\n(e) (i) On a different diagram, sketch the graph of y = f (| x |) where x ∈ D .\n1\n(ii) Find all solutions of the equation f (| x |) = − . [7 marks]\n4",
+   "ms_text": "12. (a) by division or otherwise\n5\nfx () = 2 − A1A1\nx + 2\n[2 marks]\n5\n′ = (b) f () x A1\n2 ( x + 2)\n2 > 0 as ( x + 2) > 0 (on D) R1AG\nNote: Do not penalise candidates who use the original form of the function to\ncompute its derivative.\n[2 marks]\n3\n(c) S =− A2\n3,2\nNote: Award A1A0 for the correct endpoints and an open interval.\n[2 marks]\n(d) (i) EITHER\n= rearrange y fx () to make x the subject M1\nobtain one-line equation, e.g.2 x −= 1 xy + 2 y A1\n2 y + 1\nx = A1\n2 − y\nOR\ninterchange x and y M1\nobtain one-line equation, e.g.2 y −= 1 xy + 2 x A1\n2 x + 1\ny = A1\n2 − x\nTHEN\n2 x + 1 − 1\nf () x = A1\n2 − x\n5\nNote: Accept 2 x−\n2 −\n(ii), (iii)\nA1A1A1A1\n[8 marks]\n= Note: Award A1 for correct shape of y fx () .\n1 Award A1 for x intercept 1\n− seen.\n2 seen. Award A1 for y intercept\n2\n− Award A1 for the graph of y = f 1() x being the reflection of y = fx ()\nin the line y = x . Candidates are not required to indicate the full\ndomain, but y = fx () should not be shown approaching x =− 2 .\nCandidates, in answering (iii), can FT on their sketch in (ii).\n(e) (i)\nA1A1A1\nNote: A1 for correct sketch x > , A1 for symmetry, A1 for 0\ncorrect domain (from 1 − to 8 +).\nNote: Candidates can FT on their sketch in (d)(ii).\n1\n(ii) attempt to solve fx=− () (M1)\n4\n2\nobtain x = A1\n9\nuse of symmetry or valid algebraic approach (M1)\n2\nobtain x =− A1\n9\n[7 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.16",
+    "2.13",
+    "5.6",
+    "2.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 21]\nThe function $f$ is defined by $f(x) = \\frac{2x-1}{x+2}$, with domain $D = \\{x : -1 \\le x \\le 8\\}$.\n(a) Express $f(x)$ in the form $A + \\frac{B}{x+2}$, where $A$ and $B \\in \\mathbb{Z}$. [2 marks]\n(b) Hence show that $f'(x) > 0$ on $D$. [2 marks]\n(c) State the range of $f$. [2 marks]\n(d) (i) Find an expression for $f^{-1}(x)$.\n(ii) Sketch the graph of $y = f(x)$, showing the points of intersection with both axes.\n(iii) On the same diagram, sketch the graph of $y = f^{-1}(x)$. [8 marks]\n(e) (i) On a different diagram, sketch the graph of $y = f(|x|)$ where $x \\in D$.\n(ii) Find all solutions of the equation $f(|x|) = -\\frac{1}{4}$. [7 marks]"
+  },
+  {
+   "id": "math-2013-M-P1-TZ2-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 18]\n(a) (i) Express each of the complex numbers z = 3 + i, z = − 3 + and i\n1 2\nz= − 2i in modulus-argument form.\n3\n(ii) Hence show that the points in the complex plane representing z , z\n1 2\nand 3z form the vertices of an equilateral triangle.\n3 n 3 n 3 n (iii) Show that z + z = 2 z where n∈�. [9 marks]\n1 2 3\n7 (b) (i) State the solutions of the equation z= for z ∈�, giving them in 1\nmodulus-argument form.\n7 (ii) If w is the solution to z= with least positive argument, determine the 1\n+ w . Express your answer in terms of π. argument of 1\n2 π 2 7\n(iii) Show that z − 2cos z + 1 is a factor of the polynomial z−. State the 1\n7\n[9 marks] two other quadratic factors with real coefficients.",
+   "ms_text": "π 5 π π 3π\n13. (a) (i) z = , z = 2cis , z = 2cis − or 2cis A1A1A1\n1 2cis6 2 3\n6 2 2\nNote: Accept modulus and argument given separately, or the use of\nexponential (Euler) form.\nNote: Accept arguments given in rational degrees, except where\nexponential form is used.\n(ii) the points lie on a circle of radius 2 centre the origin A1\nπ (mod 2π) differences are all 2\nA1\n3\n⇒ points equally spaced ⇒ triangle is equilateral R1AG\nNote: Accept an approach based on a clearly marked diagram.\nn π 5 n π 3 n 3 n 3 n 3 n\n(iii) z + z = 2cis + 2cis M1\n1 2\n2 2\nnπ\n3 n =× 22cis A1\n2\n9 n π n π 3 n 3 n 3 n\n2 z =× 22cis =× 22cis A1AG\n3\n2 2\n[9 marks]\n(b) (i) attempt to obtain seven solutions in modulus argument form M1\n2 k π\nz = cis , k= 0, 1 6 A1\n7\nw has argument 2 πand 1w + has argument φ, (ii)\n7\n2 π\nsin\n7\nφ = then tan() M1\nπ 2\n1cos +\n7\nπ π\n2sin cos\n7 7\n= A1\nπ\n2cos 2\n7\nπ π\n= ⇒ φ = A1\ntan7\n7\nNote: Accept alternative approaches.\n(iii) since roots occur in conjugate pairs, (R1)\n2 π 2 π 7\nz− has a quadratic factor 1 z − cis × z − cis − A1\n7 7\n2 π 2\n= z − 2cos z + 1 AG\n7\n4 π 2\nother quadratic factors are z − 2cos z + 1 A1\n7\n6 π 2\nand z − 2cos z + 1 A1\n7\n[9 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 18]\n(a) (i) Express each of the complex numbers $z_1 = \\sqrt{3} + \\mathrm{i}$, $z_2 = -\\sqrt{3} + \\mathrm{i}$ and $z_3 = -2\\mathrm{i}$ in modulus-argument form.\n(ii) Hence show that the points in the complex plane representing $z_1$, $z_2$ and $z_3$ form the vertices of an equilateral triangle.\n(iii) Show that $z_1^{3n} + z_2^{3n} = 2z_3^{3n}$ where $n \\in \\mathbb{N}$. [9 marks]\n(b) (i) State the solutions of the equation $z^7 = 1$ for $z \\in \\mathbb{C}$, giving them in modulus-argument form.\n(ii) If $w$ is the solution to $z^7 = 1$ with least positive argument, determine the argument of $1 + w$. Express your answer in terms of $\\pi$.\n(iii) Show that $z^2 - 2z\\cos\\left(\\frac{2\\pi}{7}\\right) + 1$ is a factor of the polynomial $z^7 - 1$. State the two other quadratic factors with real coefficients. [9 marks]"
+  }
+ ],
+ "status": "done"
+}

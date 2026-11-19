@@ -1,0 +1,271 @@
+{
+ "exam_id": "math-2005-M-P2-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2005,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2005 May Examination Session/Mathematics_paper_2_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2005 May Examination Session/Mathematics_paper_2_TZ2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2205-7208; code M05/5/MATHL/HP2/ENG/TZ2/XX; marks sum matches expected total 100",
+ "qp_pages": 11,
+ "questions": [
+  {
+   "id": "math-2005-M-P2-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 14]\n(a) Let R be a rotation through k degrees, centre (0, 0). R maps the point (5, 10) onto\nthe point (–2, 11). Find the matrix R. [6 marks]\n1 2\n(b) A transformation Tis represented by the matrix\n. Describe the − 1 − 1\ngeometric effect of applying transformation T four times in succession. [2 marks]\n(c) The matrix Q represents rotation R followed by transformation T. Show that\n2 1\n.\nQ =− [1 mark]\n1 4 . − 0 2 .\n(d) Under transformation Q, find\n(i) the set of points which are mapped onto themselves;\n(ii) the image of the line y = −. x [5 marks]",
+   "ms_text": "1. Note: Some candidates may transpose the matrices and use row vectors.\nDo not penalize this method.\n⎛ cos k − sin k ⎞ ⎛ 5 ⎞ ⎛ − 2 ⎞\n(a) = ⎜ (M1)(A1) ⎜ ⎟ ⎜ ⎟ ⎟\nsin k cos k 10 11 ⎝ ⎠ ⎝ ⎠ ⎝ ⎠\n5cos k − 10sin k = − 2\n+ = 10cos k 5sin k 11 (M1)\ncos k = 0.8 andsin k = 0.6 (A1)(A1)\n⎛ 0.8 − 0.6 ⎞\n⇒ R = ⎜ (Accept answers given in trigonometric form) (A1) (N3) ⎟\n0.6 0.8 ⎝ ⎠\n[6 marks]\n4\n⎛ 1 2 ⎞ ⎛ 1 0 ⎞\n(b) T 4 (M1) = ⎜ ⎟ = ⎜ ⎟\n− − ⎝ 1 1 ⎠ ⎝ 0 1 ⎠\n⇒ 4 successive applications of transformation T are equivalent to the\nidentity transformation, which maps a figure onto itself. (R1) (N1)\n[2 marks]\n⎛ 1 2 ⎞ ⎛ 0.8 − 0.6 ⎞\n(c) Q = TR = ⎜ ⎟ ⎜ ⎟ (M1)\n− 1 − 1 0.6 0.8 ⎝ ⎠ ⎝ ⎠\n⎛ 2 1 ⎞\n(AG) (N0) = ⎜ ⎟\n− − ⎝ 1.4 0.2 ⎠\n[1 mark]\n⎛ 2 1 ⎞⎛⎞ a ⎛⎞ a\n(d) (i) = (M1) ⎜ ⎟⎜⎟ ⎜⎟\n− 1.4 − 0.2 b b ⎝ ⎠⎝⎠ ⎝⎠\n2 a + b = a and − 1.4 a − 0.2 b = b ⇒ a = b = 0\nThe set of points which are mapped onto themselves is { } (0, 0). (A1) (N1)\n⎛ 2 1 ⎞ ⎛ x ⎞ ⎛ x ⎞\n(ii) = ⎜ (M1)(A1) ⎜ ⎟ ⎜ ⎟ ⎟\n− 1.4 − 0.2 − x − 1.2 x ⎝ ⎠ ⎝ ⎠ ⎝ ⎠\n6\nThe image of the line y = − is the line x y = − x . (A1) (N1)\n5\n[5 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 14]\n(a) Let $R$ be a rotation through $k$ degrees, centre $(0, 0)$. $R$ maps the point $(5, 10)$ onto the point $(-2, 11)$. Find the matrix $R$. [6 marks]\n(b) A transformation $T$ is represented by the matrix $\\begin{pmatrix}1 & 2\\\\ -1 & -1\\end{pmatrix}$. Describe the geometric effect of applying transformation $T$ four times in succession. [2 marks]\n(c) The matrix $Q$ represents rotation $R$ followed by transformation $T$. Show that $Q=\\begin{pmatrix}2 & 1\\\\ -1.4 & -0.2\\end{pmatrix}$. [1 mark]\n(d) Under transformation $Q$, find\n(i) the set of points which are mapped onto themselves;\n(ii) the image of the line $y=-x$. [5 marks]"
+  },
+  {
+   "id": "math-2005-M-P2-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 13]\npx The function f is defined by fx () = e ( x + 1 ), where p ∈ R .\npx\n(a) (i) Show that ′ f () x = e ( px ( + 1) + 1. )\n(ii) Let f ()() denote the result of differentiating fx n x () with respect to x,\nn times. Use mathematical induction to prove that\nn n px f ()() x = p −1e ( px ( + 1) + n ) , n∈Z+. [7 marks]\n(b) When p = 3 , there is a minimum point and a point of inflexion on the graph\nof f. Find the exact value of the x-coordinate of\n(i) the minimum point;\n(ii) the point of inflexion. [4 marks]\nLet p =1 (c) . Let R be the region enclosed by the curve, the x-axis and the lines\n2\nx = –2 and x= 2. Find the area of R. [2 marks]",
+   "ms_text": "2. (a) (i) f ′ () x = p e( px x + 1) + e px (A1)\n= pxpx ( + + ) e ( 1) 1 (AG) (N0)\n(ii) The result is true for n = since 1\n= pxpx ( + + ) LHS e ( 1) 1\n11 − px px and RHS = p e ( px ( + 1) + 1 ) = e ( px ( + 1) + 1 ) . (M1)\n() k k − 1 px ( ) Assume true for n = k : f () x = p e px ( + 1) + k (M1)\n′ ( k + 1)\n( () k ) k − 1 px k − 1 px f () x = f () x = p p e ( px ( + 1) + k ) + p e p (M1)(A1)\nk px = p e ( px ( + 1) + k + 1 ) (A1)\nTherefore, true for n = k ⇒ true for n = k + and the proposition 1\nis proved by induction. (R1)\n[7 marks]\n3 x ( ) (b) (i) f ′ () x = e 3( x + 1)1 + = 0 (M1)\n+ ⎛ + ⎞ 1 3 3 3\n⇒ x = − = − (A1) (N1) ⎜ ⎟\n⎜ ⎟\n3 ⎝ 3 ⎠\n3 x (ii) f ′′ () x = 3e ( 3( x + 1) + 2 ) = 0 (M1)\n⎛ ⎞ 2 + 3 23 + 3\n⇒ = − = − x ⎜ ⎟ (A1) (N1)\n⎜ ⎟\n3 ⎝ 3 ⎠\n[4 marks]\n0.5 x (c) fx () = e ( x + 1)\nEITHER\n− 1 2\narea = − ∫ fx ()d x + ∫ fx ()d x (M1)\n− 2 − 1\n= 8.08 (A1) (N2)\nOR\n2\n= ∫ area fx ()d x (M1)\n− 2\n= 8.08 (A1) (N2)\n[2 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.6",
+    "1.15",
+    "5.8",
+    "5.7",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 13]\nThe function $f$ is defined by $f(x)=e^{px}(x+1)$, where $p\\in\\mathbb{R}$.\n(a) (i) Show that $f'(x)=e^{px}(p(x+1)+1)$.\n(ii) Let $f^{(n)}(x)$ denote the result of differentiating $f(x)$ with respect to $x$, $n$ times. Use mathematical induction to prove that $f^{(n)}(x)=p^{n-1}e^{px}(p(x+1)+n)$, $n\\in\\mathbb{Z}^+$. [7 marks]\n(b) When $p=\\sqrt{3}$, there is a minimum point and a point of inflexion on the graph of $f$. Find the exact value of the $x$-coordinate of\n(i) the minimum point;\n(ii) the point of inflexion. [4 marks]\n(c) Let $p=\\frac{1}{2}$. Let $R$ be the region enclosed by the curve, the $x$-axis and the lines $x=-2$ and $x=2$. Find the area of $R$. [2 marks]"
+  },
+  {
+   "id": "math-2005-M-P2-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 12,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 12]\n2 − 2 1\n+λ +µ (a) The plane π1 has equation r= 1 1 − 3 .\n1 8 − 9\n2 1 1\nThe plane π 2 has the equation r= 0 +s 2 + t 1 .\n1 1 1\n(i) = µ . For points which lie in π1 and π 2 , show that, λ\n(ii) Hence, or otherwise, find a vector equation of the line of intersection of π1\nand π 2 . [5 marks]\nThe plane π 3 contains the line 2 −x= y (b) = z + 1 and is perpendicular to\n3 − 4\n3 i − 2 j + k [4 marks] . Find the cartesian equation of π 3 .\n(c) [3 marks] Find the intersection of π1, π 2 and π 3 .",
+   "ms_text": "3. (a) (i) For points which lie in π and π\n1 2\n(1) 2 − 2 λ + µ = 2 ++ s t\n(2) 1 + λ − 3 µ = 2s + t\n(3) 18 + λ − 9 µ =++ 1 s t (M1)(A1)\nsubtracting (3) from (1)\n110 − λ + 10 µ = 1 (M1)\n⇒ λ = µ (AG) (N0)\n(ii) On the line of intersection λ = µ\n⎛⎞ 2 ⎛ − 2 ⎞ ⎛ 1 ⎞\n⎜⎟ ⎜ ⎟ ⎜ ⎟\n⇒ an equation of the line is r 1 + λ 1 + λ − 3 (M1) = ⎜⎟\n⎜ ⎟ ⎜ ⎟\n⎜⎟ ⎜ ⎟ ⎜ ⎟\n1 8 − 9 ⎝⎠ ⎝ ⎠ ⎝ ⎠\n⎛⎞ 2 ⎛ − 1 ⎞\n⎜⎟ ⎜ ⎟\n= ⎜⎟ 1 + λ − 2 (A1) (N1) ⎜ ⎟\n⎜⎟ ⎜ ⎟\n1 − 1 ⎝⎠ ⎝ ⎠\n[5 marks]\n(b) The plane π contains, e.g. the point (2, 0, –1). (A1)\n3\n⎛⎞ x ⎛ 3 ⎞ ⎛ 2 ⎞ ⎛ 3 ⎞\n⎜⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\nThe equation of the plane is y i − 2 = 0 i − 2 = 5. (M1)(A1)\n⎜⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n⎜⎟ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n⎝⎠ z ⎝ 1 ⎠ ⎝ − 1 ⎠ ⎝ 1 ⎠\n− + = The cartesian equation of the plane is 3 x 2 y z 5 . (A1) (N1)\n[4 marks]\n⎛⎞ 2 ⎛ − 1 ⎞\n⎜⎟ ⎜ ⎟\n(c) Intersection between line r = ⎜⎟ 1 + λ − 2 and π.\n⎜ ⎟ 3\n⎜⎟ ⎜ ⎟\n⎝⎠ 1 ⎝ − 1 ⎠\n3 x − 2 y + z = 5 ⇒ 3(2 − λ ) − 2(12)1 − λ +− λ = 5 (M1)(A1)\nThis equation is satisfied by any real value of λ⇒ the 3 planes\n⎛⎞ 2 ⎛ − 1 ⎞\n⎜⎟ ⎜ ⎟\nintersect at the line r = ⎜⎟ 1 + λ − 2 . (R1) (N1)\n⎜ ⎟\n⎜⎟ ⎜ ⎟\n1 − 1 ⎝⎠ ⎝ ⎠\n[3 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.17",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 12]\n(a) The plane $\\pi_1$ has equation $\\mathbf{r}=\\begin{pmatrix}2\\\\1\\\\1\\end{pmatrix}+\\lambda\\begin{pmatrix}-2\\\\1\\\\8\\end{pmatrix}+\\mu\\begin{pmatrix}1\\\\-3\\\\-9\\end{pmatrix}$.\nThe plane $\\pi_2$ has the equation $\\mathbf{r}=\\begin{pmatrix}2\\\\0\\\\1\\end{pmatrix}+s\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}+t\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix}$.\n(i) For points which lie in $\\pi_1$ and $\\pi_2$, show that $\\lambda=\\mu$.\n(ii) Hence, or otherwise, find a vector equation of the line of intersection of $\\pi_1$ and $\\pi_2$. [5 marks]\n(b) The plane $\\pi_3$ contains the line $\\frac{2-x}{3}=\\frac{y}{-4}=z+1$ and is perpendicular to $3\\mathbf{i}-2\\mathbf{j}+\\mathbf{k}$. Find the cartesian equation of $\\pi_3$. [4 marks]\n(c) Find the intersection of $\\pi_1$, $\\pi_2$ and $\\pi_3$. [3 marks]"
+  },
+  {
+   "id": "math-2005-M-P2-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 16]\nA company buys 44 % of its stock of bolts from manufacturer A and the rest from\nmanufacturer B. The diameters of the bolts produced by each manufacturer follow a\nnormal distribution with a standard deviation of 0.16 mm.\nThe mean diameter of the bolts produced by manufacturer A is 1.56 mm.\n24.2 % of the bolts produced by manufacturer B have a diameter less than 1.52 mm.\n(a) Find the mean diameter of the bolts produced by manufacturer B. [3 marks]\nA bolt is chosen at random from the company’s stock.\n(b) Show that the probability that the diameter is less than 1.52 mm is 0.312, to three\nsignificant figures. [4 marks]\n(c) The diameter of the bolt is found to be less than 1.52 mm. Find the probability\nthat the bolt was produced by manufacturer B. [3 marks]\n(d) Manufacturer B makes 8000 bolts in one day. It makes a profit of $ 1.50 on each\nbolt sold, on condition that its diameter measures between 1.52 mm and 1.83 mm.\nBolts whose diameters measure less than 1.52 mm must be discarded at a loss of\n$ 0.85 per bolt.\nBolts whose diameters measure over 1.83 mm are sold at a reduced profit of\n$ 0.50 per bolt.\nFind the expected profit for manufacturer B. [6 marks]",
+   "ms_text": "4. (a) Let B be the random variable “diameter of the bolts produced by manufacturer B”.\n⇒ P( B < 1.52) = 0.242\n1.52 − µ ⎛ ⎞\n⇒ P Z < = 0.242 (M1) ⎜ ⎟\n⎝ 0.16 ⎠\n1.52 − µ\n= − 0.69988 (A1)\n0.16\n⇒ µ = 1.63 (A1) (N2)\n[3 marks]\n(b) Let A be the random variable “diameter of the bolts produced by manufacturer A”.\n⎛ 1.521.56 − ⎞\n⇒ P( A < 1.52) = P ⎜ Z < ⎟ (M1)\n⎝ 0.16 ⎠\n= P( Z < − 0.25) = 0.40129 (0.4013) (A1)\nP(diameter less than1.52 mm) = 0.440.40129 × + 0.560.242 × (M1)(A1)\n= 0.312 (3 s.f.) (AG) (N0)\n[4 marks]\n0.2420.56 ×\n( ) (c) Pbolt produced by B d < 1.52 = (M1)(A1)\n0.31209\n= 0.434 (A1) (N2)\n[3 marks]\n⎛ 1.831.63 − ⎞\n(d) P( B > 1.83) = P ⎜ Z > ⎟ = 0.10564 (M1)(A1)\n⎝ 0.16 ⎠\n< < =− − P(1.52 B 1.83) 1 0.242 0.10564 (M1)\n= 0.65236 (A1)\nExpected gain = $ 80000.242(0.85) ( ×− + 0.652361.50 × + 0.105640.50 × ) (M1)\n= $ 6605.28 (A1) (N2)\n[6 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9",
+    "4.13",
+    "4.6",
+    "4.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 16]\nA company buys 44 % of its stock of bolts from manufacturer A and the rest from manufacturer B. The diameters of the bolts produced by each manufacturer follow a normal distribution with a standard deviation of 0.16 mm.\nThe mean diameter of the bolts produced by manufacturer A is 1.56 mm.\n24.2 % of the bolts produced by manufacturer B have a diameter less than 1.52 mm.\n(a) Find the mean diameter of the bolts produced by manufacturer B. [3 marks]\nA bolt is chosen at random from the company's stock.\n(b) Show that the probability that the diameter is less than 1.52 mm is 0.312, to three significant figures. [4 marks]\n(c) The diameter of the bolt is found to be less than 1.52 mm. Find the probability that the bolt was produced by manufacturer B. [3 marks]\n(d) Manufacturer B makes 8000 bolts in one day. It makes a profit of \\$1.50 on each bolt sold, on condition that its diameter measures between 1.52 mm and 1.83 mm. Bolts whose diameters measure less than 1.52 mm must be discarded at a loss of \\$0.85 per bolt. Bolts whose diameters measure over 1.83 mm are sold at a reduced profit of \\$0.50 per bolt.\nFind the expected profit for manufacturer B. [6 marks]"
+  },
+  {
+   "id": "math-2005-M-P2-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 15]\nThe diagram shows a trapezium OABC in which OA is parallel to CB. O is the centre\nof a circle radius r cm. A, B and C are on its circumference. Angle OCB =θ .\nLet T denote the area of the trapezium OABC.\n2 r\n(a) Show that T = (sin θ + sin 2 θ. ) [4 marks]\n2\nFor a fixed value of r, the value of T varies as the value of θ varies.\n(b) Show that T takes its maximum value when θ satisfies the equation\n2 4 cos θ + cos θ − 2 = 0 , and verify that this value of T is a maximum. [5 marks]\n(c) Given that the perimeter of the trapezium is 75 cm, find the maximum value of T. [6 marks]",
+   "ms_text": "5.\nN\n(a) h = r sin θ CB = 2CN = 2cos r θ (A1)(A1)\nh\n= + Using T ( r (M1)\nCB) 2\n2 r\nT = (sin θ + 2sin θ cos) θ (A1)\n2\n2 r\n= θ + θ (sin sin 2) (AG) (N0)\n2\n[4 marks]\n2 d T r\n(b) (cos θ + 2cos2) θ = 0 (for max) (M1) θ=\nd 2\n2 2 ⇒ cos θ + 2(2cos θ − 1) = 4cos θ + cos θ − 2 = 0 (M1)(AG)\n⇒ cos θ = 0.5931 ( θ = 0.9359) (A1)\n2 2 d T r\n= (sin − θ − 4sin 2) θ (M1)\n2 d θ 2\n2 d T\nθ = 0.9359 ⇒ = − 2.313 r 2 < 0\nθ 2 d\n⇒ there is a maximum (when θ= 0.9359 ) (R1)\n[5 marks]\nθ\n= (c) In triangle AOB: AB r (M1)(A1)\n2sin 2\nθ\nPerimeter OABC = 2 r + 2cos r θ + 2sin r = 75 (M1)\n2\nWhen θ= 0.9359 , r = 18.35 cm (A1)\n2 2 r 18.35\n= θ + θ = + Area OABC (sin sin 2) (sin 0.9359 sin1.872) (M1)\n2 2\n= 296 cm 2 (A1) (N3)\n[6 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.6",
+    "5.8",
+    "5.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 15]\nThe diagram shows a trapezium OABC in which OA is parallel to CB. O is the centre of a circle radius $r$ cm. A, B and C are on its circumference. Angle $\\text{OCB}=\\theta$.\n[Diagram: circle centre O; trapezium OABC with OA = r parallel to CB, A, B, C on the circle, angle θ marked at C]\nLet $T$ denote the area of the trapezium OABC.\n(a) Show that $T=\\frac{r^2}{2}(\\sin\\theta+\\sin 2\\theta)$. [4 marks]\nFor a fixed value of $r$, the value of $T$ varies as the value of $\\theta$ varies.\n(b) Show that $T$ takes its maximum value when $\\theta$ satisfies the equation $4\\cos^2\\theta+\\cos\\theta-2=0$, and verify that this value of $T$ is a maximum. [5 marks]\n(c) Given that the perimeter of the trapezium is 75 cm, find the maximum value of $T$. [6 marks]"
+  },
+  {
+   "id": "math-2005-M-P2-TZ2-q6",
+   "num": "6",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 30]\n(i) Let X be a random variable with a Poisson distribution, such that P( X> 2 ) = 0 404. .\nFind P( X< 2. ) [4 marks]\n(ii) An urn contains a large number of black and white balls. It is claimed that\n2\ntwo-thirds\nof the balls are white. To check this claim, five balls are taken 3\nat random from the urn and the number of white balls recorded. This experiment\nis repeated 243 times, with the following results:\nNumber of white balls in the sample 0 1 2 3 4 5\nNumber of times this sample occurred 8 9 52 78 70 26\nAt the 5 % level of significance can the claim be accepted? [8 marks]\n(iii) Peter keeps two ducks Ann and Bet, of different breeds. He uses a test to\ndetermine whether or not the eggs laid by each duck have, on average, the same\nweight. He weighs the next 12 eggs laid by each duck, and obtains the following\nresults, where the weight is in grams.\nAnn 63.1 63.6 65.3 65.7 62.0 64.8 64.3 63.2 64.9 66.6 64.1 62.3\nBet 66.8 66.9 64.1 64.0 65.8 63.6 67.2 66.4 67.3 65.0 67.3 65.1\nIt may be assumed that the weights are normally distributed, with equal standard\ndeviation 2 grams.\n(a) Write down suitable hypotheses for the test required. [1 mark]\n(b) (i) Calculate an appropriate statistic to test the hypotheses.\n(ii) Using a 5 % level of significance, determine whether the eggs laid\nby each duck have the same mean weight. [6 marks]\n(c) Find the maximum level of significance at which you would conclude that\nthere is no difference between the mean weights of eggs laid by each duck. [2 marks]\n(iv) The random variable X is normally distributed with mean μ. A random sample\nof 12 observations is taken on X, and it is found that\n12\n2 ( x − x ) = 99 .\n=∑ i\ni 1\n(a) Determine a 95 % confidence interval forµ. [5 marks]\n(b) Another confidence interval [60.31, 65.69] is calculated for this sample.\nFind the confidence level for this interval. [4 marks]",
+   "ms_text": "6. (i) X∼ P o( m )\nEITHER\n2 −⎛ m ⎞\nm P( X ≤ 2) = e\n⎜ 1 + m + ⎟ (M1)\n2 ⎝ ⎠\n=− 10.404 = 0.596\n⇒ m = 2.30 (A1)\n− P( X < 2) = e 2.3 (1 + 2.3) (M1)\n= = 0.3309 0.331 (3 s.f.) (A1) (N4)\nOR\nSolving the equation cdf ( m , 2) =− 10.404 = 0.596 (M1)\nm = 2.30 (A1)\ncdf (2.3, 1) = 0.3309 = 0.331(3 s.f.) (M1)(A1) (N4)\n[4 marks]\n(ii) H: 2 H: proportion of white balls is not 2 (A1)\n3 of the balls are white. 3. 0 1\n2 χ is appropriate test distribution. (M1)\n⎛ 2 ⎞\nLet X be the number of white balls, then X ∼ (M1)\nB5, 3 ⎜ ⎟\n⎝ ⎠\nX 0 1 2 3 4 5\nObserved values 8 9 52 78 70 26\nExpected values 1 10 40 80 80 32 (A1)\nCombining the first two columns.\nX 0, 1 2 3 4 5\nObserved values 17 52 78 70 26\nExpected values 11 40 80 80 32 (A1)\n36 144 4 100 36\nχ 2 = + + + + = Then 9.298 (A1)\ncalc\n11 40 80 80 32\nThe number of degrees of freedom is 4 so χ 2 = 9.488 (A1)\n4, 0.95\n2 2 Since χ ≤ χ we must accept hypothesis H. (R1)\ncalc 4, 0.95 0\n[8 marks]\n(iii) (a) H: µ = µ H: µ ≠ µ (A1)\n0 1 2 1 1 2\n[1 mark]\n(b) EITHER\n12 12\n(i) ∑ = ∑ = = = (A1) x 769.9; y 789.5 x 64.158; y 65.792\ni i\n= = i 1 i 1\nThe test statistic for the normal distribution is\n789.5 769.9\n−\n12 12 z = (M1)(A1)\n⎛ 1 1 ⎞ 2\n+ 2 ⎜ ⎟\n⎝ 12 12 ⎠\n= 2.00 (Accept ± 2.00 ) (A1)\n(ii) The critical value is 1.96. (A1)\nHence we conclude that there is a difference in mean weight. (R1)\nOR\n(i) p = 0.0455 (accept p = 0.0454 ) (A4)\n(ii) Since p < 0.05 (may be implied) (A1)\nwe conclude that there is a difference in mean weight. (R1)\n[6 marks]\n(c) EITHER\nThe level of significance is ( 21 −Φ (2.00) ) = 2(1 − 0.9773) (M1)\n= 4.54 % (A1)\nOR\np-value ⇒ 4.55 % level of significance (accept 4.54 %) (A2)\n[2 marks]\n(iv) (a) A t-distribution with 11 degrees of freedom must be used. (M1)\n1 2 2\ns = ( ∑ ( x − x ) )\ni\nn − 1\n2 1(99) s= = 9.00 (A1)\n11\nt = 2.201 (A1)\n0.975,11\n2.201 s\nThe confidence interval is x ± (M1)\n12\nthat is [ x − 1.91, x + 1.91] (A1)\n[5 marks]\n(b) The length of the confidence interval is 5.38. (A1)\n5.3812\nTherefore = = 3.106 (A1) tα\n,11\n6\nα= 0.995 (M1)\nHence the level of confidence βis 99 % (A1)\n[4 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L6",
+    "4.L9",
+    "4.L1",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics",
+   "text_clean": "6. [Maximum mark: 30]\n(i) Let $X$ be a random variable with a Poisson distribution, such that $P(X>2)=0.404$. Find $P(X<2)$. [4 marks]\n(ii) An urn contains a large number of black and white balls. It is claimed that two-thirds $\\left(\\frac{2}{3}\\right)$ of the balls are white. To check this claim, five balls are taken at random from the urn and the number of white balls recorded. This experiment is repeated 243 times, with the following results:\nNumber of white balls in the sample | 0 | 1 | 2 | 3 | 4 | 5\nNumber of times this sample occurred | 8 | 9 | 52 | 78 | 70 | 26\nAt the 5 % level of significance can the claim be accepted? [8 marks]\n(iii) Peter keeps two ducks Ann and Bet, of different breeds. He uses a test to determine whether or not the eggs laid by each duck have, on average, the same weight. He weighs the next 12 eggs laid by each duck, and obtains the following results, where the weight is in grams.\nAnn | 63.1 | 63.6 | 65.3 | 65.7 | 62.0 | 64.8 | 64.3 | 63.2 | 64.9 | 66.6 | 64.1 | 62.3\nBet | 66.8 | 66.9 | 64.1 | 64.0 | 65.8 | 63.6 | 67.2 | 66.4 | 67.3 | 65.0 | 67.3 | 65.1\nIt may be assumed that the weights are normally distributed, with equal standard deviation 2 grams.\n(a) Write down suitable hypotheses for the test required. [1 mark]\n(b) (i) Calculate an appropriate statistic to test the hypotheses.\n(ii) Using a 5 % level of significance, determine whether the eggs laid by each duck have the same mean weight. [6 marks]\n(c) Find the maximum level of significance at which you would conclude that there is no difference between the mean weights of eggs laid by each duck. [2 marks]\n(iv) The random variable $X$ is normally distributed with mean $\\mu$. A random sample of 12 observations is taken on $X$, and it is found that $\\sum_{i=1}^{12}(x_i-\\bar{x})^2=99$.\n(a) Determine a 95 % confidence interval for $\\mu$. [5 marks]\n(b) Another confidence interval $[60.31, 65.69]$ is calculated for this sample. Find the confidence level for this interval. [4 marks]"
+  },
+  {
+   "id": "math-2005-M-P2-TZ2-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 30]\n(i) Define the operation # on the sets A and B by AB # = A ′∪ B ′.\nShow algebraically that\n[1 mark] (a) AA # = A ′ ;\n[2 marks] (b) (#)#( AA BB #) = A ∪ B ;\n(#)#(#) AB AB = A ∩ B [3 marks] (c) .\n(ii) Let S={ integers greater than1. The relation R is defined on S by }\nmR n ⇔ gcd( mn ,) > 1for , mn , ∈ S .\n(a) Show that R is reflexive. [1 mark]\n(b) Show that R is symmetric. [2 marks]\n(c) Show using a counter example that R is not transitive. [3 marks]\n(iii) Let T={ all real numbers except 1. The operation ∗ is defined on T by }\nab ∗ = ab − a − b + 2, for ab , ∈ T .\n(a) Show that T is closed under the operation ∗. [5 marks]\nYou may now assume that T is a group under ∗.\n(b) Find the identity element of T under ∗. [3 marks]\n(c) (i) Prove by mathematical induction that\nn times\n67 4 4 8\nn + aa\n∗∗ L ∗ a = ( a − 1 ) + 1 , n ∈ ¢ .\n5 times\n67 4 4 8\n(Note that a ∗ a ∗ L ∗ a = a ∗ a ∗ a ∗ a ∗ a ).\n(ii) Hence show that there is exactly one element in T which has finite\norder, apart from the identity element. Find this element and its\norder. [10 marks]",
+   "ms_text": "7. (i) (a) AA # = A ′ ∪ A ′ (A1)\n= A′ (AG)\n[1 mark]\n(b) ( AA #)#( BB #) = A ′ # B ′ (M1)\n= ( A ′′ ) ∪ ( B ′′ ) (A1)\n= A ∪ B (AG)\n[2 marks]\nAB=( ′ ∪ ′ ′ ∪ ′ (c) ( AB #)#( #) A B )#( A B ) (M1)(A1)\n= ′ ∪ ′′ ( A B ) (A1)\n= A ∩ B (by de Morgan’s law) (AG)\n[3 marks]\n(ii) (a) gcd(, aa ) = a >, since a 1 ∈ S . (A1)\nHence R is reflexive. (AG)\n[1 mark]\n(b) Since gcd(,) ab = gcd(, ba ) , (M1)\ngcd(,) ab >⇒ 1 gcd(, ba ) > 1 (A1)\nHence R is symmetric (AG)\n[2 marks]\n(c) Any correct counter example e.g.\ngcd(25, 15) = 5 ⇒ 25 R 15 (A1)\ngcd(15, 21) = 3 ⇒ 15 R 21 (A1)\ngcd(25, 21) =⇒ 1 25 not R 21 (A1)\nHence R is not transitive (AG)\n[3 marks]\n(iii) (a) ab , ∈ T ⇒ ab ∗∈� (A1)\nif ab ∗ = 1, ab − a − b + 2 = 1, ⇒ ab − a − b += 1 0 (M1)(A1)\n⇒ ( a − 1)( b − 1) = 0 ⇒ a = 1, or b = contradiction 1 (M1)(R1)\nso ab ∗∈ T , i.e. closed (AG)\n[5 marks]\n(b) ae ∗= a ⇒ ea ( − 1) = 2( a − 1) ⇒ e = 2 (since a ≠) 1 (M1)(A1)\nHence 2 is the identity element for this operation. (A1)\n[3 marks]\n1 (c) (i) The formula is true for n = since 1 a = ( a − 1) + . 1 (R1)\nk times\n�����\nAssume that it is true for n = k , i.e. aa ∗∗ � ∗ a = ( a − 1) k + 1 (M1)\nk + 1 times\n�����\nk k k aa ∗∗ � ∗ a = ( ( a − 1) + 1 ) ∗ a = ( ( a − 1) + 1 ) a − ( ( a − 1) + 1 ) − a + 2 (M1)\n= ( a − 1) k × a + a − ( a − 1) k −− 1 a + 2 (A1)\n= − k − + ( a 1)( a 1) 1 (A1)\nk + 1 = ( a − 1) + 1\nso the formula is proven by mathematical induction. (R1)\n[6 marks]\n(ii) We require aa ∗∗ ... ∗ a = 2 (M1)\nn n so that ( a − )1 + 1 = 2 or ( a − )1 = 1 (A1)\nApart from a = 2 , the identity, the only solution is a = 0 . (A1)\nSince 00 ∗ = 2 , the element 0 has order 2. (A1)\n[4 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.1",
+    "7.2",
+    "1.15",
+    "7.6",
+    "7.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, Relations and Groups",
+   "text_clean": "7. [Maximum mark: 30]\n(i) Define the operation # on the sets $A$ and $B$ by $A\\#B=A'\\cup B'$.\nShow algebraically that\n(a) $A\\#A=A'$; [1 mark]\n(b) $(A\\#A)\\#(B\\#B)=A\\cup B$; [2 marks]\n(c) $(A\\#B)\\#(A\\#B)=A\\cap B$. [3 marks]\n(ii) Let $S=\\{\\text{integers greater than } 1\\}$. The relation $R$ is defined on $S$ by $m R n \\Leftrightarrow \\gcd(m,n)>1$, for $m,n\\in S$.\n(a) Show that $R$ is reflexive. [1 mark]\n(b) Show that $R$ is symmetric. [2 marks]\n(c) Show using a counter example that $R$ is not transitive. [3 marks]\n(iii) Let $T=\\{\\text{all real numbers except } 1\\}$. The operation $*$ is defined on $T$ by $a*b=ab-a-b+2$, for $a,b\\in T$.\n(a) Show that $T$ is closed under the operation $*$. [5 marks]\nYou may now assume that $T$ is a group under $*$.\n(b) Find the identity element of $T$ under $*$. [3 marks]\n(c) (i) Prove by mathematical induction that $\\overbrace{a*a*\\cdots*a}^{n\\text{ times}}=(a-1)^n+1$, $n\\in\\mathbb{Z}^+$. (Note that $\\overbrace{a*a*\\cdots*a}^{5\\text{ times}}=a*a*a*a*a$.)\n(ii) Hence show that there is exactly one element in $T$ which has finite order, apart from the identity element. Find this element and its order. [10 marks]"
+  },
+  {
+   "id": "math-2005-M-P2-TZ2-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 30]\n(i) (a) Use the Euclidean algorithm to find the greatest common divisor, d, of 272\nand 656. [3 marks]\n(b) Hence express d in the form 272a+ 656b, where ab ,∈Z. [3 marks]\n(ii) A graph G has adjacency matrix given by\nA B C D E F\nA 0 1 0 1 0 0\nB 1 0 1 0 2 0\nC 0 1 0 1 0 0\nD 1 0 1 0 1 1\nE 0 2 0 1 0 1\nF 0 0 0 1 1 0\n(a) Draw the graph G. [2 marks]\n(b) Explain why G has a Eulerian circuit. Find such a circuit. [3 marks]\n(c) Find a Hamiltonian path. [1 mark]\n(iii) The terms of the sequence { un satisfy the difference equation }\n2 + u − 2 λ u + λ u = 0 , where n∈ Z and λ ∈R .\nn + 2 n + 1 n\nn n (a)\nShow that both un = λ and u =λ satisfy this difference equation. n\nn\nHence write down the general solution to this difference equation. [5 marks]\n(b) The terms of the sequence { vn satisfy the equation }\n+\nv − 6 v + 9 v = 0 for n∈ Z, and v = 2 , v = 9 .\nn + 2 n + 1 n 1 2\n[5 marks] Find an expression for vn in terms of n.\n(iv) The following diagram shows a weighted graph.\nQ 12 R 10 S\n5 4\nP T\n2 5 4 3 4\n7 10\nW 10 V 2 U\nUse Dijkstra’s Algorithm to find the length of the shortest path between the\nvertices P and T. Show all the steps used by the algorithm and write down the\nshortest path. [8 marks]",
+   "ms_text": "8. (i) (a) 656 = 2272112 × + (M1)\n272 = 2112 × + 48\n112 = 24816 × + (A1)\n48 =× 316\nd= Therefore, 16 . (A1) (N0)\n[3 marks]\n(b) 112 = 656 −× 2272 (M1)\n48 = 272 −× 2(656 −× 2272)\n=× 5272 −× 2656 (A1)\n= −× 16 112 248\n= 656 −× 2272 −× 2(5272 × −× 2656)\n= − × +× = − = 12272 5656 ( a 12, b 5) . (A1) (N0)\n[3 marks]\n(ii) (a) Any correct graph (A2)\ne.g.\n[2 marks]\n(b) All vertices are of even order (or equivalent). (R1)\nBEDABCDFEB (not unique). (A2)\n[3 marks]\n(c) ABCDEF (not unique). (A1)\n[1 mark]\nn (iii) (a) Let u = λ .\nn\n2 n + 2 n + 1 2 n u − 2 λ u + λ u = λ − 2 λ × λ + λ × λ (M1)(A1)\nn + 2 n + 1 n\n= 0 (AG)\nn Let u = nλ .\nn\n2 n + 2 n + 1 2 n u − 2 λ u + λ u = ( n + 2) λ − 2( λ n + 1) λ + λ × n λ (M1)\nn + 2 n + 1 n\nn + 2 n + 2 = nλ (1 − 21) + + λ (2 − 2) (A1)\n= 0 (AG)\nn n Hence the general solution is u = A λ + Bn λ . (A1)\nn\n[5 marks]\n(b) Here, λ = 3 so the general solution is\nn n\nnv = A 3 + Bn 3 (M1)\nn = 1 gives 3 A + 3 B = 2 (A1)\nn = 2 gives9 A + 18 B = 9 (A1)\n1\nThe solution is A = B = , so (A1)\n3\n1( n n − 1\nnv = n + 1)3 ( or ( n + 1)3 ) (A1)\n3\n[5 marks]\n(iv) Step Vertices labelled Working values\n1 P P(0), Q−4, W−7 (M1)\n2 P,Q P(0), Q(4), W−6, R−16 (A1)\n3 P,Q,W P(0), Q(4), W(6), R−11, V−16 (A1)\n4 P,Q,W,R P(0), Q(4), W(6), R(11), V−15, U−14, S−21 (A1)\n5 P,Q,W,R,U P(0), Q(4), W(6), R(11), U(14), V−15, S−18, T−24\n6 P,Q,W,R,U,V P(0), Q(4), W(6), R(11), U(14), V(15), S−18, T−24 (A1)\n7 P,Q,W,R,U,V,S P(0), Q(4), W(6), R(11), U(14), V(15), S(18), T−23\n8 P,Q,W,R,U,V,S,T P(0), Q(4), W(6), R(11), U(14), V(15), S(18), T(23) (A1)\nNote: Accept any correct way of recording Dijkstra’s algorithm.\nDo not accept any other algorithm.\nThe length of the shortest path is 23. (A1)\nThe shortest path is PQWRUST. (A1)\n[8 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.10",
+    "6.9",
+    "6.1",
+    "6.7",
+    "6.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete Mathematics",
+   "text_clean": "8. [Maximum mark: 30]\n(i) (a) Use the Euclidean algorithm to find the greatest common divisor, $d$, of 272 and 656. [3 marks]\n(b) Hence express $d$ in the form $272a+656b$, where $a,b\\in\\mathbb{Z}$. [3 marks]\n(ii) A graph $G$ has adjacency matrix given by\n  | A | B | C | D | E | F\nA | 0 | 1 | 0 | 1 | 0 | 0\nB | 1 | 0 | 1 | 0 | 2 | 0\nC | 0 | 1 | 0 | 1 | 0 | 0\nD | 1 | 0 | 1 | 0 | 1 | 1\nE | 0 | 2 | 0 | 1 | 0 | 1\nF | 0 | 0 | 0 | 1 | 1 | 0\n(a) Draw the graph $G$. [2 marks]\n(b) Explain why $G$ has a Eulerian circuit. Find such a circuit. [3 marks]\n(c) Find a Hamiltonian path. [1 mark]\n(iii) The terms of the sequence $\\{u_n\\}$ satisfy the difference equation $u_{n+2}-2\\lambda u_{n+1}+\\lambda^2 u_n=0$, where $n\\in\\mathbb{Z}^+$ and $\\lambda\\in\\mathbb{R}$.\n(a) Show that both $u_n=\\lambda^n$ and $u_n=n\\lambda^n$ satisfy this difference equation. Hence write down the general solution to this difference equation. [5 marks]\n(b) The terms of the sequence $\\{v_n\\}$ satisfy the equation $v_{n+2}-6v_{n+1}+9v_n=0$ for $n\\in\\mathbb{Z}^+$, and $v_1=2$, $v_2=9$. Find an expression for $v_n$ in terms of $n$. [5 marks]\n(iv) The following diagram shows a weighted graph.\n[Diagram: weighted graph with vertices P, Q, R, S, T, U, V, W; edges PQ=4, PW=7, QW=2, QR=12, WR=5, WV=10, RV=4, RS=10, RU=3, VU=2, SU=4, ST=5, UT=10]\nUse Dijkstra's Algorithm to find the length of the shortest path between the vertices P and T. Show all the steps used by the algorithm and write down the shortest path. [8 marks]"
+  },
+  {
+   "id": "math-2005-M-P2-TZ2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 30]\n2 3 2 3 4 x x x x x\n(i) Given that ex =+ 1 x + + + ... , and ln( 1 + x ) = x − + − + ... , find\n2 ! 3 ! 2 3 4\nx the first four non-zero terms of the Maclaurin series for e− ln( 1 + x ) . [6 marks]\n3 2 . ln x\n(ii) Let I = d. x ∫\n2 2 x\n(a) Use the trapezium rule with six sub-intervals to estimate the value of I. [4 marks]\n(b) How many sub-intervals are required so that the error in estimating I is\nless than 105 −? [8 marks]\n3 (iii) Let gx () = sin x + cos, x for 1 ≤ x ≤ 1 5 . .\nUse the Newton-Raphson method to find an approximation for a, with an error\nless than 108 −, such that ga () is a maximum. [7 marks]\n∞ ( 2 k − 2 )!\n(iv) Find the radius of convergence of the series ∑ xk . [5 marks]\nkk !( − 1 )! k = 1",
+   "ms_text": "x 2 x 3 x 4 x\n9. (i) e −=− 1 x + − + + ... (A1)\n2 6 24\n2 3 4 2 3 4 ⎛ x x x ⎞⎛ x x x ⎞\n− x e ln(1 + x ) =\n⎜ 1 − x + − + + ... ⎟⎜ x − + − + ... ⎟ (M1)\n2 6 24 2 3 4 ⎝ ⎠⎝ ⎠\n2 3 4 3 4 3 4 4 x x x\n2 x x x x x = x − + − − x + − + − −\n2 3 4 2 3 2 4 6\n2 3 3 x 4 x\n4 = x − + − x + ... (A1)(A1)(A1)(A1)\n2 3\n[6 marks]\n0.2\n(ii) (a) I ≈ ( f (2) + 2 f (2.2) + 2 f (2.4) + 2 f (2.6) + 2 f (2.8) + 2 f (3.0) + f (3.2) ) (M1)(A1)\n2\n0.2ln 2 ⎛ ln 2.2 ln 2.4 ln 2.6 ln 2.8 ln3 ln3.2 ⎞ ⎛ ⎞\nI ≈ + 2 + + + + + (A1) ⎜\n2 ⎜ 2 2 2 2 2 ⎟ 2 ⎟ 2 2\n⎝ 2.2 2.4 2.6 2.8 3 ⎠ 3.2 ⎝ ⎠\n= 0.170615654\n= 0.171 to 3 s.f. (A1) (N0)\n[4 marks]\nln x\n(b) Let fx () =\n2 x\n− 3 − 3 f ′ () x = x − 2 x ln x (A1)\n− 4 − 4 − 4 − 4 − 4 f ′′ () x = − 3 x − 2 x + 6 x ln x ( = − 5 x + 6 x ln) x (A1)\nUsing the GDC, we see that f ′′ () x is maximum when x = 2\nand f ′′ (2) = 0.052569807 (Accept bounds obtained by reasonable means) (A2)\nDividing the interval into n sub-intervals, the error is less than\n2\n1.2 ⎛ 1.2 ⎞\n× ⎜ ⎟ × 0.0525... (A1)\n12 ⎝ n ⎠\n2\n1.2 ⎛ 1.2 ⎞ −\nWe require × × 0.0525 ≤ 10 5 (M1) ⎜ ⎟\n12 ⎝ n ⎠\ngiving n ≥ 27.5 (A1)\nTake n = (Accept n ≥ ) (A1) 28 28\n[8 marks]\n(iii) gxmaximum when () gx ′ () = 0 (M1)\n′ 2 gx () = 3sin x cos x − sin x (A1)\n2 g ′′ () x = − 3sin x + 9cos x sin x − cos x (A1)\ngx ′ ( )\nn x=, 1 x = x − (M1)\n1 n + 1 n\ng ′′ ( x )\nn\nx = 1.35865477\n2\nx = 1.222842884\n3\nx = 1.206274735\n4\n= x 1.205932648\n5\nx = 1.205932499\n6\nx= 1.205932499 (at least 8 d.p. required) (A1)\n7\ng ′′ () x is negative in [1,1.5] (R1)\nHence gx ( ) is a maximum (and the only one in [1,1.5] )\n6\nso a = 1.205932499 (accept 1.2059325) (A1)\n[7 marks]\nk + 1 k + 1 x term ⎛ (2)! k x ⎞⎛ kk !( − 1)! ⎞\n(iv) = ⎜ ⎟⎜ ⎟ (M1)\nk k x term kk !( + 1)! (2 k − 2)! x\n⎝ ⎠ ⎝ ⎠\n⎛ 2(2 k k − 1) ⎞\n= ⎜ ⎟ x (A1)\n⎝ kk ( + 1) ⎠\nThis → 4x (as k →∞) (A1)\nUsing the ratio test, the series is convergent if 4 x< 1 (M1)\n1 1 So radius of convergence is 1\nx< , but not x < ) (A1)\n4 (Accept\n4 4\n[5 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.19",
+    "5.L2",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Analysis and Approximation",
+   "text_clean": "9. [Maximum mark: 30]\n(i) Given that $e^x=1+x+\\frac{x^2}{2!}+\\frac{x^3}{3!}+\\ldots$, and $\\ln(1+x)=x-\\frac{x^2}{2}+\\frac{x^3}{3}-\\frac{x^4}{4}+\\ldots$, find the first four non-zero terms of the Maclaurin series for $e^{-x}\\ln(1+x)$. [6 marks]\n(ii) Let $I=\\int_2^{3.2}\\left(\\frac{\\ln x}{x^2}\\right)dx$.\n(a) Use the trapezium rule with six sub-intervals to estimate the value of $I$. [4 marks]\n(b) How many sub-intervals are required so that the error in estimating $I$ is less than $10^{-5}$? [8 marks]\n(iii) Let $g(x)=\\sin^3 x+\\cos x$, for $1\\le x\\le 1.5$.\nUse the Newton-Raphson method to find an approximation for $a$, with an error less than $10^{-8}$, such that $g(a)$ is a maximum. [7 marks]\n(iv) Find the radius of convergence of the series $\\sum_{k=1}^{\\infty}\\frac{(2k-2)!}{k!(k-1)!}x^k$. [5 marks]"
+  },
+  {
+   "id": "math-2005-M-P2-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 30]\n(i) The line 3 x + y = 12 meets the y-axis at P, the x-axis at Q, the line y − x = 0 at R\nand the line y + x = 0 at S. Show that P, Q, R, S divide the line segment [PS] in\na harmonic ratio. [9 marks]\n(ii) The straight line l of gradient m passes through the point (1, 0).\n(a) Write down the equation of l. [1 mark]\n2 (b) A parabola has equation y = 2 x . The line l meets the parabola at U and V.\nThe midpoint of [UV] is denoted by W.\n1 1\n(i) Show that the coordinates of W are 1 + , .\n2 m m\n(ii) Show that the locus of W as m varies is a parabola. Find the\ncoordinates of its focus and the equation of its directrix. [10 marks]\n(iii)\nThe figure shows a triangle ABC inside a circle. The tangent to the circle at A\nmeets (BC) at D, the tangent at B meets (CA) at E and the tangent at C meets\n(AB) at F.\nCE AF Show that BD\n(a) × × = −1. [9 marks]\nDC EA FB\n(b) State briefly, with a reason, what conclusion can be drawn from this result. [1 mark]",
+   "ms_text": "10. (i)\ny\nP\nR\nQ\n0 x\nS\nCoordinates of P are (0, 12), Q is (4, 0) (A1)\nCoordinates of R are found by solving 3 x + y = 12 and y − x = 0 .\nThis gives (3, 3) (A1)\nCoordinates of S are found by solving 3 x + y = 12 and y + x = 0 .\nThis gives (6, –6) (A1)\nPR = 90 , RQ = 10 (A1)\nPS = 360 , QS = 40 (A1)\nPR PS\n= 3, = − 3 (A1)(A1)\nRQ SQ\nNote: These ratios may be found by considering only the x or y coordinates\nof the points.\nHarmonic division because ratios equal in magnitude, opposite in sign. (R2)\n[9 marks]\n= − (ii) (a) y mx ( 1) (A1)\n[1 mark]\n2 2 (b) (i) Line meets parabola where m ( x − 1) = 2 x (M1)\nmx 2 2 − 2(1 + m 2 ) x + m 2 = 0 (A1)\n2 2 2 4 2(1 + m ) ± 4(1 + m ) − 4 m\nx-coordinates of U and V are (M1)(A1)\n2 2 m\n1 1\nx-coordinate of W = (Sum of roots) =+ 1 (A1)\n2 2 m\n1 1\ny-coordinate of W = = (AG)\nm m 2\nm\n−= 2 2 = − (ii) Eliminating m, x 1 y or y x 1 (M1)(A1)\n⎛ 1 ⎞ ⎛ 5 ⎞\n+ The focus is ⎜ 1 , 0, i.e. ⎟ ⎜ , 0 ⎟ (M1)(A1)\n⎝ 4 ⎠ ⎝ 4 ⎠\n1 3\nThe directrix is x =− 1 , i.e. x = (A1)\n4 4\n[10 marks]\n(iii)\n(a) Consider\nBD CE AF\n= × × “Ratio”\nDC EA FB\nUsing the tangent - secant theorem,\n2 = × DA DBDC\n2 EB = ECEA × (M1)(A1)\nFC 2 = FA × FB\n2 2 2 DA EB FC\nso, ignoring signs, magnitude of “ratio” = × × (M1)(A1)\n2 2 2 DC EA FB\nNow ∆DAB is similar to ∆DCA, so (M1)\nDA AB\n= (A1)\nDC CA\nBC FC CA Similarly, EB\n= and = (A1)\nEA AB FB BC\n2 2 2 AB BC CA\nTherefore, magnitude of “ratio” = × × = 1 (M1)(A1)\n2 2 2 CA AB BC\nSince “Ratio” is clearly negative, it is equal to –1. (AG)\n[9 marks]\n(b) It follows by the converse of Menelaus’ Theorem that D, E and F\nare collinear. (R1)\n[1 mark]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "8",
+    "2"
+   ],
+   "subtopics": [
+    "8.1",
+    "8.2",
+    "8.3",
+    "2.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Euclidean Geometry and Conic Sections",
+   "text_clean": "10. [Maximum mark: 30]\n(i) The line $3x+y=12$ meets the $y$-axis at P, the $x$-axis at Q, the line $y-x=0$ at R and the line $y+x=0$ at S. Show that P, Q, R, S divide the line segment [PS] in a harmonic ratio. [9 marks]\n(ii) The straight line $l$ of gradient $m$ passes through the point $(1, 0)$.\n(a) Write down the equation of $l$. [1 mark]\n(b) A parabola has equation $y^2=2x$. The line $l$ meets the parabola at U and V. The midpoint of [UV] is denoted by W.\n(i) Show that the coordinates of W are $\\left(1+\\frac{1}{m^2}, \\frac{1}{m}\\right)$.\n(ii) Show that the locus of W as $m$ varies is a parabola. Find the coordinates of its focus and the equation of its directrix. [10 marks]\n(iii) [Diagram: triangle ABC inscribed in a circle; tangent at A meets line BC at D, tangent at B meets line CA at E, tangent at C meets line AB at F]\nThe figure shows a triangle ABC inside a circle. The tangent to the circle at A meets (BC) at D, the tangent at B meets (CA) at E and the tangent at C meets (AB) at F.\n(a) Show that $\\frac{BD}{DC}\\times\\frac{CE}{EA}\\times\\frac{AF}{FB}=-1$. [9 marks]\n(b) State briefly, with a reason, what conclusion can be drawn from this result. [1 mark]",
+   "review_note": "audit: (ii)(b) locus of chord midpoint W (8.3); aligned with twin TZ1-q10"
+  }
+ ],
+ "status": "done"
+}

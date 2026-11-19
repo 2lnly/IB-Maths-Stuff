@@ -1,0 +1,35 @@
+{
+  "exam_id": "math-2014-N-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.1", "6.5"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 14]\nLet $f(n) = n^5 - n$, $n \\in \\mathbb{Z}^+$.\n(a) Find the values of $f(3)$, $f(4)$ and $f(5)$. [2]\n(b) Use the Euclidean algorithm to find\n(i) $\\gcd(f(3), f(4))$;\n(ii) $\\gcd(f(4), f(5))$. [4]\n(c) Explain why $f(n)$ is always exactly divisible by 5. [1]\n(d) By factorizing $f(n)$ explain why it is always exactly divisible by 6. [4]\n(e) Determine the values of $n$ for which $f(n)$ is exactly divisible by 60. [3]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.12", "6.6"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 10]\n(a) Use the pigeon-hole principle to prove that for any simple graph that has two or more vertices and in which every vertex is connected to at least one other vertex, there must be at least two vertices with the same degree. [4]\nSeventeen people attend a meeting.\n(b) Each person shakes hands with at least one other person and no-one shakes hands with the same person more than once. Use the result from part (a) to show that there must be at least two people who shake hands with the same number of people. [4]\n(c) Explain why each person cannot have shaken hands with exactly nine other people. [2]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.9", "6.7"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 13]\nThe following graph represents the cost in dollars of travelling by bus between 10 towns in a particular province.\n[Diagram: weighted graph on towns A–J with edges AB 10, AD 18, AC 11, CD 9, BD 7, BE 11, BF 13, EI 9, FI 6, FG 5, GI 4, IJ 11, DG 7, GJ 8, DH 5, HJ 5]\n(a) Use Dijkstra's algorithm to find the cheapest route between A and J, and state its cost. [7]\nFor the remainder of the question you may find the cheapest route between any two towns by inspection.\nIt is given that the total cost of travelling on all the roads without repeating any is \\$139. A tourist decides to go over all the roads at least once, starting and finishing at town A.\n(b) Find the lowest possible cost of his journey, stating clearly which roads need to be travelled more than once. You must fully justify your answer. [6]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.4", "6.5"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 10]\n(a) Solve, by any method, the following system of linear congruences\n$x \\equiv 9 \\pmod{11}$\n$x \\equiv 1 \\pmod{5}$. [3]\n(b) Find the remainder when $41^{82}$ is divided by 11. [4]\n(c) Using your answers to parts (a) and (b) find the remainder when $41^{82}$ is divided by 55. [3]"
+    },
+    "5": {
+      "topics": ["6", "4"],
+      "subtopics": ["6.10", "4.6"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 13]\nAndy and Roger are playing tennis with the rule that if one of them wins a game when serving then he carries on serving, and if he loses then the other player takes over the serve.\nThe probability Andy wins a game when serving is $\\frac{1}{2}$ and the probability he wins a game when not serving is $\\frac{1}{4}$. Andy serves in the first game. Let $u_n$ denote the probability that Andy wins the $n^{th}$ game.\n(a) State the value of $u_1$. [1]\n(b) Show that $u_n$ satisfies the recurrence relation\n$u_n = \\frac{1}{4}u_{n-1} + \\frac{1}{4}$. [4]\n(c) Solve this recurrence relation to find the probability that Andy wins the $n^{th}$ game. [6]\n(d) After they have played many games, Pat comes to watch. Use your answer from part (c) to estimate the probability that Andy will win the game they are playing when Pat arrives. [2]"
+    }
+  }
+}

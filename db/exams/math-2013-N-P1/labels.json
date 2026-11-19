@@ -1,0 +1,147 @@
+{
+ "exam_id": "math-2013-N-P1",
+ "questions": {
+  "1": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "text_clean": "1. [Maximum mark: 5]\nThe cubic polynomial $3x^3+px^2+qx-2$ has a factor $(x+2)$ and leaves a remainder 4 when divided by $(x+1)$. Find the value of $p$ and the value of $q$.",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7",
+    "4.14"
+   ],
+   "text_clean": "2. [Maximum mark: 6]\nThe discrete random variable $X$ has probability distribution:\n$x$ | 0 | 1 | 2 | 3\n$\\mathrm{P}(X=x)$ | $\\frac{1}{6}$ | $\\frac{1}{2}$ | $\\frac{3}{10}$ | $a$\n(a) Find the value of $a$. [1]\n(b) Find $\\mathrm{E}(X)$. [2]\n(c) Find $\\mathrm{Var}(X)$. [3]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.9",
+    "2.5"
+   ],
+   "text_clean": "3. [Maximum mark: 7]\nThe diagram below shows a sketch of the graph of $y=f(x)$.\n[Graph: increasing logarithmic-type curve with vertical asymptote (dashed) at $x=1$, crossing the x-axis at $(4, 0)$; axes from $-5$ to $10$]\n(a) Sketch the graph of $y=f^{-1}(x)$ on the same axes. [2]\n(b) State the range of $f^{-1}$. [1]\n(c) Given that $f(x)=\\ln(ax+b)$, $x>1$, find the value of $a$ and the value of $b$. [4]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "text_clean": "4. [Maximum mark: 5]\nConsider the matrix $A=\\begin{pmatrix}1 & a(a+1)\\\\ 1 & b(b+1)\\end{pmatrix}$, $a\\neq b$. Given that $A$ is singular, find the value of $a+b$.",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.6"
+   ],
+   "text_clean": "5. [Maximum mark: 7]\nA curve has equation $x^3y^2+x^3-y^3+9y=0$. Find the coordinates of the three points on the curve where $\\frac{dy}{dx}=0$.",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "text_clean": "6. [Maximum mark: 7]\nProve by mathematical induction that $n^3+11n$ is divisible by 3 for all $n\\in\\mathbb{Z}^+$.",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3"
+   ],
+   "text_clean": "7. [Maximum mark: 7]\nThe sum of the first two terms of a geometric series is 10 and the sum of the first four terms is 30.\n(a) Show that the common ratio $r$ satisfies $r^2=2$. [4]\n(b) Given $r=\\sqrt{2}$\n(i) find the first term;\n(ii) find the sum of the first ten terms. [3]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.6",
+    "3.7",
+    "3.9"
+   ],
+   "text_clean": "8. [Maximum mark: 8]\n(a) Prove the trigonometric identity $\\sin(x+y)\\sin(x-y)=\\sin^2 x-\\sin^2 y$. [4]\n(b) Given $f(x)=\\sin\\left(x+\\frac{\\pi}{6}\\right)\\sin\\left(x-\\frac{\\pi}{6}\\right)$, $x\\in[0,\\pi]$, find the range of $f$. [2]\n(c) Given $g(x)=\\csc\\left(x+\\frac{\\pi}{6}\\right)\\csc\\left(x-\\frac{\\pi}{6}\\right)$, $x\\in[0,\\pi]$, $x\\neq\\frac{\\pi}{6}$, $x\\neq\\frac{5\\pi}{6}$, find the range of $g$. [2]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.10"
+   ],
+   "text_clean": "9. [Maximum mark: 8]\nSolve the following equations:\n(a) $\\log_2(x-2)=\\log_4\\left(x^2-6x+12\\right)$; [3]\n(b) $x^{\\ln x}=\\mathrm{e}^{(\\ln x)^3}$. [5]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.7",
+    "5.6",
+    "2.3",
+    "2.10",
+    "5.16",
+    "2.11"
+   ],
+   "text_clean": "10. [Maximum mark: 20]\nThe function $f$ is given by $f(x)=x\\mathrm{e}^{-x}$ $(x\\geq 0)$.\n(a) (i) Find an expression for $f'(x)$.\n(ii) Hence determine the coordinates of the point A, where $f'(x)=0$. [3]\n(b) Find an expression for $f''(x)$ and hence show the point A is a maximum. [3]\n(c) Find the coordinates of B, the point of inflexion. [2]\n(d) The graph of the function $g$ is obtained from the graph of $f$ by stretching it in the $x$-direction by a scale factor 2.\n(i) Write down an expression for $g(x)$.\n(ii) State the coordinates of the maximum C of $g$.\n(iii) Determine the $x$-coordinates of D and E, the two points where $f(x)=g(x)$. [5]\n(e) Sketch the graphs of $y=f(x)$ and $y=g(x)$ on the same axes, showing clearly the points A, B, C, D and E. [4]\n(f) Find an exact value for the area of the region bounded by the curve $y=g(x)$, the $x$-axis and the line $x=1$. [3]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.16",
+    "3.17",
+    "3.14"
+   ],
+   "text_clean": "11. [Maximum mark: 20]\nConsider the points $A(1, 0, 0)$, $B(2, 2, 2)$ and $C(0, 2, 1)$.\n(a) Find the vector $\\overrightarrow{CA}\\times\\overrightarrow{CB}$. [4]\n(b) Find an exact value for the area of the triangle ABC. [3]\n(c) Show that the Cartesian equation of the plane $\\Pi_1$, containing the triangle ABC, is $2x+3y-4z=2$. [3]\nA second plane $\\Pi_2$ is defined by the Cartesian equation $\\Pi_2: 4x-y-z=4$. $L_1$ is the line of intersection of the planes $\\Pi_1$ and $\\Pi_2$.\n(d) Find a vector equation for $L_1$. [5]\nA third plane $\\Pi_3$ is defined by the Cartesian equation $16x+\\alpha y-3z=\\beta$.\n(e) Find the value of $\\alpha$ if all three planes contain $L_1$. [3]\n(f) Find conditions on $\\alpha$ and $\\beta$ if the plane $\\Pi_3$ does not intersect with $L_1$. [2]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.9",
+    "5.17",
+    "5.11"
+   ],
+   "text_clean": "12. [Maximum mark: 20]\nConsider the complex number $z=\\cos\\theta+\\mathrm{i}\\sin\\theta$.\n(a) Use De Moivre's theorem to show that $z^n+z^{-n}=2\\cos n\\theta$, $n\\in\\mathbb{Z}^+$. [2]\n(b) Expand $\\left(z+z^{-1}\\right)^4$. [1]\n(c) Hence show that $\\cos^4\\theta=p\\cos 4\\theta+q\\cos 2\\theta+r$, where $p$, $q$ and $r$ are constants to be determined. [4]\n(d) Show that $\\cos^6\\theta=\\frac{1}{32}\\cos 6\\theta+\\frac{3}{16}\\cos 4\\theta+\\frac{15}{32}\\cos 2\\theta+\\frac{5}{16}$. [3]\n(e) Hence find the value of $\\int_0^{\\frac{\\pi}{2}}\\cos^6\\theta\\,d\\theta$. [3]\nThe region $S$ is bounded by the curve $y=\\sin x\\cos^2 x$ and the $x$-axis between $x=0$ and $x=\\frac{\\pi}{2}$.\n(f) $S$ is rotated through $2\\pi$ radians about the $x$-axis. Find the value of the volume generated. [4]\n(g) (i) Write down an expression for the constant term in the expansion of $\\left(z+z^{-1}\\right)^{2k}$, $k\\in\\mathbb{Z}^+$.\n(ii) Hence determine an expression for $\\int_0^{\\frac{\\pi}{2}}\\cos^{2k}\\theta\\,d\\theta$ in terms of $k$. [3]",
+   "answer_status": "ok"
+  }
+ }
+}

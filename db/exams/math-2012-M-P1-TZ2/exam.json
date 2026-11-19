@@ -1,0 +1,311 @@
+{
+ "exam_id": "math-2012-M-P1-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2012,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_1_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_1_TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); code M12/5/MATHL/HP1/ENG/TZ2/XX; marks sum matches paper total 120",
+ "qp_pages": 20,
+ "questions": [
+  {
+   "id": "math-2012-M-P1-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\n3 2 4 2 2 The same remainder is found when 2 x + kx + 6 x + 32 and x − 6 x − kx + are 9\ndivided by x +1. Find the possible values of k .",
+   "ms_text": "3 2 1. let fx () = 2 x + kx + 6 x + 32\n4 2 2 let gx () = x − 6 x − kx + 9\nf (1) − =−+ 2 k −+ 6 32(24 = + k ) A1\n2 2 g (1) − =−+ 16 k + 9(4 = + k ) A1\n2 ⇒ 24 + k = 4 + k M1\n2 ⇒ k − k − 20 = 0\n⇒ ( k − 5)( k + 4) = 0 (M1)\n⇒ k = 5, − 4 A1A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6] The same remainder is found when $2x^3+kx^2+6x+32$ and $x^4-6x^2-k^2x+9$ are divided by $x+1$. Find the possible values of $k$."
+  },
+  {
+   "id": "math-2012-M-P1-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\n1 − 1\nFind the values of x for which the vectors 2 cos x and 2 sin x are perpendicular,\n0 1\nπ . 0 ≤ x ≤\n2",
+   "ms_text": "1 − 1\n= 2. perpendicular when 2cos x\n• 2sin x 0 (M1)\n0 1\n⇒−+ 14sincos x x = 0 A1\n1\n⇒ sin2 x = M1\n2\nπ5π\n⇒ 2 x = ,\n6 6\nπ 5π\n⇒ x = , A1A1\n1212\nNote: Accept answers in degrees.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.6",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5] Find the values of $x$ for which the vectors $\\begin{pmatrix}1\\\\2\\cos x\\\\0\\end{pmatrix}$ and $\\begin{pmatrix}-1\\\\2\\sin x\\\\1\\end{pmatrix}$ are perpendicular, $0\\le x\\le\\frac{\\pi}{2}$."
+  },
+  {
+   "id": "math-2012-M-P1-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nOn a particular day, the probability that it rains is 2\n5. The probability that the “Tigers”\nsoccer team wins on a day when it rains is 2\n7 and the probability that they win on a\nday when it does not rain is 4\n7.\n(a) Draw a tree diagram to represent these events and their outcomes. [1 mark]\n(b) What is the probability that the “Tigers” soccer team wins? [2 marks]\n(c) Given that the “Tigers” soccer team won, what is the probability that it rained on\nthat day? [2 marks]",
+   "ms_text": "3. (a) let R be “it rains” and W be “the ‘Tigers’ soccer team win”\nA1\n[1 mark]\n2 2 3 4\n(b) P( W= ) × + × (M1)\n5 7 5 7\n16\n= A1\n35\n[2 marks]\n2 2\n×\n5 7\n(c) P( RW ) = (M1)\n16\n35\n1\n= A1\n4\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5] On a particular day, the probability that it rains is $\\frac{2}{5}$. The probability that the “Tigers” soccer team wins on a day when it rains is $\\frac{2}{7}$ and the probability that they win on a day when it does not rain is $\\frac{4}{7}$.\n(a) Draw a tree diagram to represent these events and their outcomes. [1 mark]\n(b) What is the probability that the “Tigers” soccer team wins? [2 marks]\n(c) Given that the “Tigers” soccer team won, what is the probability that it rained on that day? [2 marks]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\n4\n2\nExpand and simplify x − [3 marks] (a) .\nx\n4\n2 2\n(b) Hence determine the constant term in the expansion ( 2 x + 1 ) x − [2 marks]\n. x",
+   "ms_text": "4 2 3 4\n2 2 2 2 2\n4. (a) x − = x 4 + 4 x 3 − + 6 x 2 − + 4 x − +− (A2)\nx x x x x\nNote: Award (A1) for 3 or 4 correct terms.\n4for 6.\nNote: Accept combinatorial expressions, e.g.\n2\n32 16\n= 4 − 2 + − + x 8 x 24 A1\n2 4 x x\n[3 marks]\n4\n2 2\n(b) constant term from expansion of (2 x + 1) x − =− 64 + 24 =− 40 A2\nx\nNote: Award A1 for – 64 or 24 seen.\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\n(a) Expand and simplify $\\left(x-\\frac{2}{x}\\right)^4$. [3 marks]\n(b) Hence determine the constant term in the expansion $(2x^2+1)\\left(x-\\frac{2}{x}\\right)^4$. [2 marks]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nThree non-singular 22 × matrices A , B and X satisfy 4 A − 5 BX = B .\n(a) Find X in terms of A and B . [2 marks]\n(b) Given that A = 2, find X . B [3 marks]",
+   "ms_text": "5. (a) 4 A − 5 BX = B\n4 1\n⇒ BX = A − B M1\n5 5\n1 4 1 − 1 − 1\n⇒ X = B (4 A − B ) = BA − I A1\n5 5 5\n[2 marks]\n− 1 (b) if A = 2 B then BA = 2 I M1\n8 1\n⇒ X = I − I\n5 5\n7\n0\n7 5\n⇒ = = X I A2\n5 7\n0\n5\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5] Three non-singular $2\\times2$ matrices $\\boldsymbol{A}$, $\\boldsymbol{B}$ and $\\boldsymbol{X}$ satisfy $4\\boldsymbol{A}-5\\boldsymbol{BX}=\\boldsymbol{B}$.\n(a) Find $\\boldsymbol{X}$ in terms of $\\boldsymbol{A}$ and $\\boldsymbol{B}$. [2 marks]\n(b) Given that $\\boldsymbol{A}=2\\boldsymbol{B}$, find $\\boldsymbol{X}$. [3 marks]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nGiven that ( 4 − 5 i ) m + 4 n = 1615 + i , where i2 = −, find m and n if 1\n(a) m and n are real numbers; [3 marks]\n(b) m and n are conjugate complex numbers. [4 marks]",
+   "ms_text": "6. (a) attempt to equate real and imaginary parts M1\nequate real parts: 4 m + 4 n = 16 ; equate imaginary parts: 5 − m = 15 A1\n⇒ m =− 3, n = 7 A1\n[3 marks]\n= + = − (b) let m x i, yn x i y M1\n⇒ (4 − 5i)( x + i) y + 4( x − i) y = 1615i +\n⇒ 4 x − 5i x + 4i y + 5 y + 4 x − 4i y = 1615i +\nattempt to equate real and imaginary parts M1\n8 x + 5 y = 16 , 5 − x = 15 A1\n⇒ x =− 3, y = 8 A1\n⇒ =−+ =−− ( m 3 8i, n 38i)\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7] Given that $(4-5\\mathrm{i})m+4n=16+15\\mathrm{i}$, where $\\mathrm{i}^2=-1$, find $m$ and $n$ if\n(a) $m$ and $n$ are real numbers; [3 marks]\n(b) $m$ and $n$ are conjugate complex numbers. [4 marks]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nThe graph of y = fx () is shown below, where A is a local maximum point and D is a\nlocal minimum point.\ny\nA (–1, 4)\nB (0, 3)\nC (1, 0) E (3, 0)\nx\nD (2, –3)\n1\nOn the axes below, sketch the graph of y = (a)\n(), clearly showing the\nfx\ncoordinates of the images of the points A, B and D, labelling them A, ′ B, and ′\n′ [3 marks] D respectively, and the equations of any vertical asymptotes.\ny\nx\nOn the axes below, sketch the graph of the derivative y = f ′() , clearly showing x (b)\nthe coordinates of the images of the points A and D, labelling them A and ′′ D ′′\nrespectively. [3 marks]\ny\nx",
+   "ms_text": "7. (a)\nA1A1A1\nNote: Award A1 for correct shape.\nAward A1 for two correct asymptotes, x = and 1 x = 3 .\n1 1 1\n′− ′ − Award A1 for correct coordinates, A , ′ and D 2, .\n1,4 B0,3\n3\n[3 marks]\n(b)\nA1A1A1\nNote: Award A1 for correct general shape including the horizontal asymptote.\nAward A1 for recognition of 1 maximum point and 1 minimum point.\nAward A1 for correct coordinates, A(1, 0) ′′− and D(2, 0) ′′ .\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.16",
+    "5.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6] The graph of $y=f(x)$ is shown below, where A is a local maximum point and D is a local minimum point.\n[Graph: curve approaching the x-axis from above as $x\\to-\\infty$, rising to local maximum A$(-1,4)$, through B$(0,3)$, crossing the x-axis at C$(1,0)$, local minimum D$(2,-3)$, crossing at E$(3,0)$ and rising steeply]\n(a) On the axes below, sketch the graph of $y=\\frac{1}{f(x)}$, clearly showing the coordinates of the images of the points A, B and D, labelling them A′, B′, and D′ respectively, and the equations of any vertical asymptotes. [3 marks]\n[Blank axes]\n(b) On the axes below, sketch the graph of the derivative $y=f'(x)$, clearly showing the coordinates of the images of the points A and D, labelling them A″ and D″ respectively. [3 marks]\n[Blank axes]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\n3 Let xy = a sin nx . Using implicit differentiation, show that\n2 d y d y\n3 2 2 2 x + 6 x + ( nx + 6 ) xy = 0 .\n2 d x d x",
+   "ms_text": "3 8. xy = a sin nx\nattempt to differentiate implicitly M1\n3d y 2\n⇒ 3 xy + x = an cos nx A2\nd x\nNote: Award A1 for two out of three correct, A0 otherwise.\n2 d y d y d y\n⇒ + 2 + 2 + 3 =− 2 6 xy 3 x 3 x x an sin nx A2\n2 d x d x d x\nNote: Award A1 for three or four out of five correct, A0 otherwise.\n2 d y d y\n⇒ 6 xy + 6 x 2 + x 3 =− an 2 sin nx\n2 d x d x\n2 d y d y\n3 2 2 3 ⇒ x + 6 x + 6 xy + nxy = 0 A1\n2 d x d x\n2 d y d y\n⇒ x 3 + 6 x 2 + ( nx 2 2 + 6) xy = 0 AG\n2 d x d x\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6] Let $x^3y=a\\sin nx$. Using implicit differentiation, show that $x^3\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}+6x^2\\frac{\\mathrm{d}y}{\\mathrm{d}x}+(n^2x^2+6)xy=0$."
+  },
+  {
+   "id": "math-2012-M-P1-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 6]\nA + sin A Show that cos\n= sec 2 A + tan 2 A .\ncos A − sin A",
+   "ms_text": "9. METHOD 1\ncos A + sin A\n= sec2 A + tan2 A\ncos A − sin A\nconsider right hand side\n1 sin2 A\nsec2 A + tan2 A = + M1A1\ncos2 A cos2 A\n2 2 cos A + 2sin A cos A + sin A\n= A1A1\n2 2 cos A − sin A\nNote: Award A1 for recognizing the need for single angles and A1 for recognizing\ncos 2 A + sin 2 A =. 1\n2 (cos A + sin A )\n= M1A1\n+ − (cos A sin A )(cos A sin A )\ncos A + sin A\n= AG\n− cos A sin A\nMETHOD 2\n2 cos A + sin A (cos A + sin A )\n= M1A1\ncos A − sin A (cos A − sin A )(cos A + sin A )\ncos 2 A + 2sin A cos A + sin 2 A\n= A1A1\n2 2 cos A − sin A\nNote: Award A1 for correct numerator and A1 for correct denominator.\n1 + sin2 A\n= M1A1\ncos2 A\n= sec2 A + tan2 A AG\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.6",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 6] Show that $\\frac{\\cos A+\\sin A}{\\cos A-\\sin A}=\\sec 2A+\\tan 2A$."
+  },
+  {
+   "id": "math-2012-M-P1-TZ2-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 9]\nπ The function f is defined on the domain 03\nx , () = −e cos x .\nby fx\n2\n(a) State the two zeros of f . [1 mark]\n(b) Sketch the graph of f . [1 mark]\n(c) The region bounded by the graph, the x-axis and the y-axis is denoted by A and\nthe region bounded by the graph and the x-axis is denoted by B . Show that the\nratio of the area of A to the area of B is\nπ\nπ e e 2 + 1\n. [7 marks]\nπ e + 1",
+   "ms_text": "− 10. (a) e x cos x = 0\nπ 3 π\n⇒ = x , A1\n2 2\n[1 mark]\n(b)\nA1\nπ\nNote: Accept any form of concavity for x ∈ [ ,0 ] .\n2\nNote: Do not penalize unmarked zeros if given in part (a).\nNote: Zeros written on diagram can be used to allow the mark in part (a) to be\nawarded retrospectively.\n[1 mark]\n(c) attempt at integration by parts M1\nEITHER\n− x − x − x I =\n∫ e cosd xx =− e cosd xx − ∫ e sind xx A1\n⇒ I =− e − x cosd xx −− e − x sin x + e − x cosd xx A1 ∫\n− x e\n⇒ I = (sin x − cos) x + C A1\n2\nNote: Do not penalize absence of C.\nOR\n− x − x − x I =\n∫ e cosd xx = e sin x + ∫ e sind xx A1\n− x − x − x ⇒ I = e sin x − e cos x e cosd xx A1\n−∫\n− x e\n⇒ I = (sin x − cos) x + C A1\n2\nNote: Do not penalize absence of C.\nTHEN\nπ π −\nπ − x 2\ne 2 e 1\n2 − x = − = + ∫ e cosd xx (sin x cos) x A1\n0 2 2 2\n0\n3 π 3 π π − −\n3 π − x 2 2 e 2 e e\n2 − x = − =− − ∫ e cosd xx (sin x cos) x A1\nπ\n2 π 2 2\n2\n2\nπ −\n2 e 1\n+\n2 2\nratio of A:B is\n3 π π − −\ne 2 e 2\n+\n2 2\n3 π π −\ne 2 e 2 + 1\n= M1\nπ π π 3 − 3 −\ne 2 e 2 + e 2\nπ\nπ 2 e e + 1\n= AG\nπ e + 1\n[7 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.11",
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 9] The function $f$ is defined on the domain $\\left[0,\\frac{3\\pi}{2}\\right]$ by $f(x)=\\mathrm{e}^{-x}\\cos x$.\n(a) State the two zeros of $f$. [1 mark]\n(b) Sketch the graph of $f$. [1 mark]\n(c) The region bounded by the graph, the $x$-axis and the $y$-axis is denoted by $A$ and the region bounded by the graph and the $x$-axis is denoted by $B$. Show that the ratio of the area of $A$ to the area of $B$ is $\\frac{\\mathrm{e}^{\\pi}\\left(\\mathrm{e}^{\\frac{\\pi}{2}}+1\\right)}{\\mathrm{e}^{\\pi}+1}$. [7 marks]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 18]\nConsider the following functions:\n2 2 x + 3\nfx () = , x ≥ 0\n75\n3 x − 4\ngx () = , x ∈ �.\n10\n(a) State the range of f and of g . [2 marks]\n2 + bx c\n() in the form ax +, (b) Find an expression for the composite function f\n� gx\n3750\nwhere a , b and c∈�. [4 marks]\n(c) (i) Find an expression for the inverse function f −1() . x\n(ii) State the domain and range of f−1. [4 marks]\nThe domains of f and g are now restricted to {,, 01234. , ,}\n(d) By considering the values of f and g on this new domain, determine which of\nf and g could be used to find a probability distribution for a discrete random\nvariable X , stating your reasons clearly. [6 marks]\n(e) Using this probability distribution, calculate the mean of X . [2 marks]",
+   "ms_text": "1\n11. (a) fx≥ () A1\n25\nA1\n[2 marks]\n2\n3 x − 4 +\n2 3\n10\n(b) f gx () = M1A1\n75\n2 − + 2(9 x 24 x 16)\n+ 3\n100 =\n(A1)\n75\n2 9 x − 24 x + 166\n= A1\n3750\n[4 marks]\n(c) (i) METHOD 1\n2 2 x + 3\n= y\n75\n75 y − 3 2\nx = M1\n2\n75 y − 3\nx = (A1)\n2\n75 x − 3 − 1\n⇒ f () x = A1\n2\nNote: Accept ± in line 3 for the (A1) but not in line 4 for the A1.\n−\nAward the A1 only if written in the form f 1x ( ) = .\nMETHOD 2\n2 + 2 x 3\ny =\n75\n2 2 y + 3\nx = M1\n75\n75 x − 3\n= y (A1)\n2\n75 x − 3\n⇒ f − 1 () x = A1\n2\nNote: Accept ± in line 3 for the (A1) but not in line 4 for the A1.\n− =\nAward the A1 only if written in the form f 1x ( ) .\n1\nx ≥ − ≥ (ii) domain: ; range: f 1() x 0 A1\n25\n[4 marks]\n(d) probabilities from fx: ()\nX 0 1 2 3 4\nPX ( = x ) 3 5 11 21 35\n75 75 75 75 75\nA2\nNote: Award A1 for one error, A0 otherwise.\nprobabilities from gx: ()\nX 0 1 2 3 4\n= PX ( x ) 4 1 2 5 8\n10 10 10 10 10\nA2\nNote: Award A1 for one error, A0 otherwise.\nonly in the case of fx does () ∑ PX ( = x ) = 1 , hence only fx can be used ()\nas a probability mass function A2\n[6 marks]\n(e)\nM1\n5 22 63 140 230 46\n= + + + = = A1\n75 75 75 75 75 15\n[2 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "4"
+   ],
+   "subtopics": [
+    "2.5",
+    "4.7",
+    "2.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 18] Consider the following functions:\n$f(x)=\\frac{2x^2+3}{75}$, $x\\ge0$\n$g(x)=\\frac{|3x-4|}{10}$, $x\\in\\mathbb{R}$.\n(a) State the range of $f$ and of $g$. [2 marks]\n(b) Find an expression for the composite function $f\\circ g(x)$ in the form $\\frac{ax^2+bx+c}{3750}$, where $a$, $b$ and $c\\in\\mathbb{Z}$. [4 marks]\n(c) (i) Find an expression for the inverse function $f^{-1}(x)$.\n(ii) State the domain and range of $f^{-1}$. [4 marks]\nThe domains of $f$ and $g$ are now restricted to $\\{0,1,2,3,4\\}$.\n(d) By considering the values of $f$ and $g$ on this new domain, determine which of $f$ and $g$ could be used to find a probability distribution for a discrete random variable $X$, stating your reasons clearly. [6 marks]\n(e) Using this probability distribution, calculate the mean of $X$. [2 marks]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 29,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Total mark: 29]\nPart A [Maximum mark: 12]\n(a) Given that ( x + i y ) 2 = −+ 512 i, xy , ∈ �. Show that\n2 2 (i) x − y = −; 5\n(ii) xy = 6. [2 marks]\n(b) Hence find the two square roots of −+ 512i . [5 marks]\n2 2 (c) For any complex number z , show that ( z * ) = ( z ) * . [3 marks]\n(d) Hence write down the two square roots of −− 512i . [2 marks]\nPart B [Maximum mark: 17]\nThe graph of a polynomial function f of degree 4 is shown below.\ny\nx\n(–4, 0) (2, 0)\n(0, –32)\n(a) Explain why, of the four roots of the equation fx () = 0 , two are real and two\nare complex. [2 marks]\n(b) The curve passes through the point ( − 1 , − 18. Find fx ) () in the form\n2 fx () = ( x − a )( x − b )( x + cx + d ) , where abcd , , , ∈�. [5 marks]\n(c) Find the two complex roots of the equation fx () = 0 in Cartesian form. [2 marks]\n(d) Draw the four roots on the complex plane (the Argand diagram). [2 marks]\n(e) Express each of the four roots of the equation in the form reiθ. [6 marks]",
+   "ms_text": "12. Part A\n2 (a) (i) ( x + i) y =−+ 512i\n2 2 2 x + 2i xy + i y =−+ 512i A1\n(ii) equating real and imaginary parts M1\n2 2 x − y =− 5 AG\nxy = 6 AG\n[2 marks]\n(b) substituting M1\nEITHER\n2 36 x − =− 5\nx 2\n4 2 x + 5 x − 36 = 0 A1\n2 x= 4, − 9 A1\nx =± and y =± 2 3 (A1)\nOR\n36 2\ny =− 5\ny− 2\n4 2 y − 5 y − 36 = 0 A1\n2 y= 9,4 − A1\ny =± and 3 x =± 2 (A1)\nNote: Accept solution by inspection if completely correct.\nTHEN\nthe square roots are (2 + 3i) and (2 −− 3i) A1\n[5 marks]\n(c) EITHER\nconsider z = x + i y\n* = − z x i y\n2 2 2 ( z * ) = x − y − 2i xy A1\n2 2 2 ( z ) = x − y + 2i xy A1\n2 * 2 2 ( z ) = x − y − 2i xy A1\n2 ( z * ) = ( z 2* ) AG\nOR\n* i θ z =r e−\n* 2 2 − 2i θ ( z ) =r e A1\nz= 2 2 2i θ r e A1\n2 * 2 − 2 i θ ( z ) =r e A1\n* 2 = 2 * ( z ) ( z ) AG\n[3 marks]\n(d) (2 − 3i) and (2 −+ 3i) A1A1\n[2 marks]\nPart B\n(a) the graph crosses the x-axis twice, indicating two real roots R1\nsince the quartic equation has four roots and only two are real, the other\ntwo roots must be complex R1\n[2 marks]\nf ( x ) = ( x + 4 )( x − 2 )( x 2 + cx + d ) A1A1 (b)\n=− ⇒ = A1 f (0) 32 d 4\nSince the curve passes through (– 1, – 18),\n− 18 = 3 × ( − 3 )( 5 − c ) M1\nc = 3 A1\n2 Hence f ( x ) = ( x + 4 )( x − 2 )( x + 3 x + 4 )\n[5 marks]\n−± 3 9 − 16\n= (c) x (M1)\n2\n3 7\n⇒ x =− ± i A1\n2 2\n[2 marks]\n(d)\nA1A1\nNote: Accept points or vectors on complex plane.\nAward A1 for two real roots and A1 for two complex roots.\n[2 marks]\ni i0 (e) real roots are 4eπ and 2e A1A1\n3 7\nconsidering − ± i\n2 2\n9 7\nr = + = 2 A1\n4 4\n7\nfinding θ using arctan M1\n3\n7 7\nθ = arctan +π or θ = arctan − +π A1\n3 3\n7 +π − 7\niarctan iarctan +π\n3 3\n⇒ = ⇒ = z 2e or z 2e A1\nNote: Accept arguments in the range −π to π or 0 to 2π.\nAccept answers in degrees.\n[6 marks]\nTotal [29 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.12",
+    "1.13",
+    "2.12",
+    "1.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Total mark: 29]\nPart A [Maximum mark: 12]\n(a) Given that $(x+\\mathrm{i}y)^2=-5+12\\mathrm{i}$, $x,y\\in\\mathbb{R}$. Show that\n(i) $x^2-y^2=-5$;\n(ii) $xy=6$. [2 marks]\n(b) Hence find the two square roots of $-5+12\\mathrm{i}$. [5 marks]\n(c) For any complex number $z$, show that $(z^*)^2=(z^2)^*$. [3 marks]\n(d) Hence write down the two square roots of $-5-12\\mathrm{i}$. [2 marks]\nPart B [Maximum mark: 17]\nThe graph of a polynomial function $f$ of degree 4 is shown below.\n[Graph: quartic curve crossing the x-axis at $(-4,0)$ and $(2,0)$, with y-intercept $(0,-32)$; two local minima below the x-axis and a local maximum between them, also below the x-axis]\n(a) Explain why, of the four roots of the equation $f(x)=0$, two are real and two are complex. [2 marks]\n(b) The curve passes through the point $(-1,-18)$. Find $f(x)$ in the form $f(x)=(x-a)(x-b)(x^2+cx+d)$, where $a,b,c,d\\in\\mathbb{Z}$. [5 marks]\n(c) Find the two complex roots of the equation $f(x)=0$ in Cartesian form. [2 marks]\n(d) Draw the four roots on the complex plane (the Argand diagram). [2 marks]\n(e) Express each of the four roots of the equation in the form $r\\mathrm{e}^{\\mathrm{i}\\theta}$. [6 marks]"
+  },
+  {
+   "id": "math-2012-M-P1-TZ2-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 13]\nfx ( + h ) − fx ()\n(a) Using the definition of a derivative as f ′ () x = lim , show that\nh → 0 h\n1 − 2\nthe derivative of . [4 marks]\nx + is\n2 1 ( 2 x + 12 )\nn 2 n !\n1 n (b) Prove by induction that the nth derivative of ( 2 x + 1 ) − is ( − 1 ) . [9 marks]\nn + 1 ( 2 x + 1 )",
+   "ms_text": "1 fx ( + h ) − fx ()\n13. (a) let fx () = and using the result f ′ () x = lim\n2 x + 1 h → 0 h\n1 1\n−\n2( x + h ) + 1 2 x + 1\nf ′ () x = lim M1A1\nh → 0 h\n[2 x + 1][2( − x + h ) + 1]\n′ ⇒ f () x = lim A1\nh → 0 h [2( x + h ) + 1][2 x + 1]\n− 2\n⇒ ′ = f () x A1\nlim[2( → h 0\nx + h ) + 1][2 x + 1]\n− 2\n⇒ f ′ () x = AG\n2 (2 x + 1)\n[4 marks]\n1\n(b) let y =\n2 x + 1\nn n d y 2 n !\nn we want to prove that =− (1)\nn n + 1 d x (2 x + 1)\n1 d y 21!\n1 let n = 1 ⇒ =− (1) M1\n11 + d x (2 x + 1)\nd y − 2\n⇒ = which is the same result as part (a)\n2 d x (2 x + 1)\nhence the result is true for n = 1 R1\nk k d y 2 k !\nassume the result is true for n = k : =− (1) k M1\nk + k + 1 d x (2 x 1)\nk + 1 k d y d 2 k !\nk = (1) − M1\nk + 1 k + 1 d x d x (2 x + 1)\nk + 1 d y d\n⇒ = (1)2 − k k k !(2 x + 1) −− k 1 (A1)\nk + 1 d x d x\nk + 1 d y\nk k −− k 2 ⇒ =− (1)2 k !( −− k 1)(2 x + 1) × 2 A1\nk + 1 d x\nk + 1 d y\n⇒ =− (1) k + 1 2 k + 1 ( k + 1)!(2 x + 1) −− k 2 (A1)\nk + 1 d x\nk + 1 k + 1 d y 2 ( k + 1)!\nk + 1 ⇒ =− (1) A1\nk + 1 k + 2 d x (2 x + 1)\nhence if the result is true for n = k , it is true for n = k + 1\nsince the result is true for n =, the result is proved by mathematical induction R1 1\nNote: Only award final R1 if all the M marks have been gained.\n[9 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.15",
+    "5.12",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 13]\n(a) Using the definition of a derivative as $f'(x)=\\lim_{h\\to0}\\left(\\frac{f(x+h)-f(x)}{h}\\right)$, show that the derivative of $\\frac{1}{2x+1}$ is $\\frac{-2}{(2x+1)^2}$. [4 marks]\n(b) Prove by induction that the $n^{\\text{th}}$ derivative of $(2x+1)^{-1}$ is $(-1)^n\\frac{2^n n!}{(2x+1)^{n+1}}$. [9 marks]"
+  }
+ ],
+ "status": "done"
+}

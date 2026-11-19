@@ -1,0 +1,300 @@
+{
+ "exam_id": "math-2023-M-P2-TZ1",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2023,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2023 May Examination Session/Mathematics_analysis_and_approaches_paper_2__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2023 May Examination Session/Mathematics_analysis_and_approaches_paper_2__TZ1_HL_markscheme.pdf",
+ "notes": "3 duplicate copies (3 byte-identical size); paper number 2223-7107; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2023-M-P2-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nThe cities Lucknow (L ), Jaipur (J ) and Delhi (D ) are represented in the following diagram.\nLucknow lies 500 km directly east of Jaipur, and JLD =25°.\ndiagram not to scale\nNorth\nD\n25°\nJ 500km L\nThe bearing of D from J is 034° .\n(a) Find ˆ JDL .\b [2]\n(b) Find the distance between Lucknow and Delhi.\b [3]",
+   "ms_text": "1. (a) Let N be North\nˆ ˆ NJD = 34 °OR DJL = 56 °(must be labelled or indicated in diagram): (A1)\nˆ () JDL=99° A1\nNote: Accept 11π ,1.73 (radians).\n20\n[2 marks]\n(b) attempt to apply the sine rule (M1)\nDL 500 DL 500\n= OR = (A1)\n° ° sin56 sin99 sin0.977384... sin1.72787...\n419.685…\nDL = 420(km ) A1\nNote: Award M1A1A0 for 261 (km) from use of degrees with GDC set in radians\n(with or without working).\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nThe cities Lucknow $(\\mathrm{L})$, Jaipur $(\\mathrm{J})$ and Delhi $(\\mathrm{D})$ are represented in the following diagram. Lucknow lies $500\\text{ km}$ directly east of Jaipur, and $\\mathrm{J\\hat{L}D} = 25^\\circ$.\n[Diagram (not to scale): triangle JDL with J and L on a horizontal line, JL = 500 km, angle 25° at L, a North arrow drawn vertically at J, D above and between J and L]\nThe bearing of D from J is $034^\\circ$.\n(a) Find $\\mathrm{J\\hat{D}L}$. [2]\n(b) Find the distance between Lucknow and Delhi. [3]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nThe functions f and g are defined by f(x)=2x-x3 and g(x)=tanx .\n(a) Find (fοg)(x) .\b [2]\n(b) On the following grid, sketch the graph of y=(fοg)(x) for -1≤x≤1 . Write down and\nclearly label the coordinates of any local maximum or minimum points. \b [3]\ny\n2\n1\nx\n−1 −0.5 0 0.5 1\n−1\n−2",
+   "ms_text": "2. (a) attempt to substitute g into f (M1)\n( f gx )() = 2tan x − tan 3 x A1\n[2 marks]\n(b)\nA1A1A1\nNote: A1 for approximately correct odd function passing through the origin with a\ny = and a minimum below y = −. maximum above 1 1\nx = ±and y in the intervals [ 0.6,0.8and [ ] − − ] A1 for endpoints at 1 0.8,0.6\nA1 for maximum in approximately correct position and labelled\n( 0.685,1.09 AND minimum in approximately correct position and labelled )\n( ) − 0.685,1.09 − . For approximate position, allow 0.8 − ≤ x ≤− 0.6 ,\n− 1.2 ≤ y ≤− 1 for minimum and 0.6 ≤ x ≤ 0.8 , 1 ≤ y ≤ 1.2 for maximum. If\nthe candidate gives the coordinates of extrema below their sketch, only\naward this mark if extrema are marked in the correct interval (eg by a dot).\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.3",
+    "2.5",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nThe functions $f$ and $g$ are defined by $f(x) = 2x - x^3$ and $g(x) = \\tan x$.\n(a) Find $(f \\circ g)(x)$. [2]\n(b) On the following grid, sketch the graph of $y = (f \\circ g)(x)$ for $-1 \\le x \\le 1$. Write down and clearly label the coordinates of any local maximum or minimum points. [3]\n[Grid: x from -1 to 1 (marked -1, -0.5, 0, 0.5, 1), y from -2 to 2]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nThe total number of children, y , visiting a park depends on the highest temperature, T , in\ndegrees Celsius (°C). A park official predicts the total number of children visiting his park on\nany given day using the model y=-0.6T 2+23T+110 , where 10≤T≤35 .\n(a) Use this model to estimate the number of children in the park on a day when the\nhighest temperature is 25 °C .\b [2]\nAn ice cream vendor investigates the relationship between the total number of children\nvisiting the park and the number of ice creams sold, x . The following table shows the data\ncollected on five different days.\nTotal number\n81 175 202 346 360\nof children (y )\nIce creams\n15 27 23 35 46\nsold (x )\n(b) Find an appropriate regression equation that will allow the vendor to predict the number\nof ice creams sold on a day when there are y children in the park.\b [3]\n(c) Hence, use your regression equation to predict the number of ice creams that the\nvendor sells on a day when the highest temperature is 25 °C . \b [2]",
+   "ms_text": "3. (a) recognising to find (25) y (M1)\n2 y (25) = − 0.625 × + 2325110 × +\n= 310 (children) A1\n[2 marks]\n(b) recognizing x on y is required (M1)\n0.0935114… and 7.43053… (A1)\nx = 0.0935 y + 7.43 A1\n[3 marks]\n(c) attempt to substitute their answer to part (a) into their regression equation for either\nx or y (M1)\nx = 0.0935114...310 × + 7.43053... ( = 36.4190... )\n36 (accept 37 or 36.4) A1\nNote: Award (M1)A1FT for x = 37 found from using y = 9.39 x − 41.5 .\nAward(M1)A0FTfor a correct FT answer that lies outside[ ] 15,46.\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.10",
+    "4.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nThe total number of children, $y$, visiting a park depends on the highest temperature, $T$, in degrees Celsius (°C). A park official predicts the total number of children visiting his park on any given day using the model $y = -0.6T^2 + 23T + 110$, where $10 \\le T \\le 35$.\n(a) Use this model to estimate the number of children in the park on a day when the highest temperature is $25\\,^\\circ\\mathrm{C}$. [2]\nAn ice cream vendor investigates the relationship between the total number of children visiting the park and the number of ice creams sold, $x$. The following table shows the data collected on five different days.\nTotal number of children ($y$) | 81 | 175 | 202 | 346 | 360\nIce creams sold ($x$) | 15 | 27 | 23 | 35 | 46\n(b) Find an appropriate regression equation that will allow the vendor to predict the number of ice creams sold on a day when there are $y$ children in the park. [3]\n(c) Hence, use your regression equation to predict the number of ice creams that the vendor sells on a day when the highest temperature is $25\\,^\\circ\\mathrm{C}$. [2]",
+   "review_note": "audit: substituting into given quadratic model needs no 2.6 skill"
+  },
+  {
+   "id": "math-2023-M-P2-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nA company manufactures metal tubes for bicycle frames. The diameters of the tubes, D mm ,\nare normally distributed with mean 32 and standard deviation s . The interquartile range of\nthe diameters is 0.28 .\nFind the value of s .",
+   "ms_text": "4. METHOD 1\nQ =31.86 OR Q= 32.14 (A1)\n1 3\nrecognition that the area under the normal curve below Q or above Qis 0.25OR the\n1 3\narea between Q and Q is 0.5 (seen anywhere including on a diagram) (M1)\n1 3\nEITHER\nequating an appropriate correct normal CDF function to its correct probability (0.25 or 0.5\nor 0.75) (A2)\nOR\nz = − 0.674489... z = 0.674489... OR (seen anywhere) (A1)\n− − 31.86 32 32.14 32\n− 0.674489... = OR 0.674489... = (A1)\nσ σ\nTHEN\n0.207564...\nσ= 0.208 (mm) A1\nMETHOD 2\nrecognition that the area under the normal curve below Q or above Qis 0.25OR the\n1 3\narea between Q and Q is 0.5 (seen anywhere including on a diagram) (M1)\n1 3\nz = − 0.674489... OR z = 0.674489... (A1)\n( Q = ) 32 − 0.674489... σ OR ( Q = ) 32 + 0.674489... σ (A1)\n1 3\n( − = ) × σ Q Q 20.674489...\n3 1\n× σ= 20.674489... 0.28 (A1)\n0.207564...\nσ= 0.208 (mm) A1\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nA company manufactures metal tubes for bicycle frames. The diameters of the tubes, $D\\text{ mm}$, are normally distributed with mean $32$ and standard deviation $\\sigma$. The interquartile range of the diameters is $0.28$.\nFind the value of $\\sigma$."
+  },
+  {
+   "id": "math-2023-M-P2-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\nThe coefficient of x6 in the expansion of (ax3+b)8 is 448 .\nThe coefficient of x6 in the expansion of (ax3+b)10 is 2880 .\nFind the value of a and the value of b , where a , b>0 .",
+   "ms_text": "5. product of a binomial coefficient, a power of ax and a power of b seen 3 (M1)\nevidence of correct term chosen\nfor n = 8 : r = 2 (or r = 6 ) OR for n = 10 : r = 2 (or r = 8 ) (A1)\ncorrect equations (may include powers of x) A1A1\n8 2 6 ( 2 6 2 6 ) 10 2 8 ( 2 8 2 8 ) Cab = 448 28 ab = 448 ⇒ ab = 16 , C ab = 2880 4 5 a b = 28 8 0 ⇒ a b = 64\n2 2\nattempt to solve their system in a and b algebraically or graphically (M1)\n1\nb = 2 ; a = A1A1\n2\n1\nNote: Award a maximum of (M1)(A1)A1A1(M1)A1A0for b = ± 2 and/or a = ± .\n2\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.9",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nThe coefficient of $x^6$ in the expansion of $(ax^3 + b)^8$ is $448$.\nThe coefficient of $x^6$ in the expansion of $(ax^3 + b)^{10}$ is $2880$.\nFind the value of $a$ and the value of $b$, where $a, b > 0$."
+  },
+  {
+   "id": "math-2023-M-P2-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\n11 π 11 π\nConsider z = cos + i sin .\n18 18\n(a) Find the smallest value of n that satisfies zn=-i , where n∈′+ .\b [4]\n(b) Hence or otherwise, describe a single geometric transformation applied to z on the\nArgand diagram that results in z10 .\b [3]",
+   "ms_text": "6. (a) attempt to use De Moivre’s theorem (M1)\nn\nn 11πi n 11π 11π 11π n 11π\n18 ( ) ( ) cos + isin = cos + isin = e OR cos110 n + isin110 n\n18 18 18 18\nEITHER\nattempt to consider imaginary part (M1)\n11π n= −\nsin 1 OR sin110 ( n= − ) 1\n18\nOR\nattempt to consider argument of i − (M1)\n11π n 3π\ni i\ne 18 = e 2\nTHEN\n11π n 3π7π 11π 3π\n= , , ... = + 2π, kk ∈ OR\n18 2 2 2 2\n110 n = 270,630 ( ,990... )( = 270 + 360 kk , ∈ ) (A1)\n11 n = 27,63,99,...\nn = 9 A1\n[4 marks]\n(b) EITHER\n11π 55π π\n10 i i i π\n10 18 9 9 10 10 z = e = e =e OR arg( z ) = OR arg( z ) = 20 (A1)\n9\nNote: Accept equivalent arguments given in any interval, in degrees or radians.\nrecognising that the difference between arg( z 10 ) and arg()z is needed (M1)\nπ 11π π 10\narg( z ) − arg() z = − = −\n9 18 2\nOR\n10 9 recognising that z = z × z (M1)\n11π 11π 3π\n9 i i i 3π π\n9 18 2 2 9 9 z = e = e = e OR arg( z ) = or − OR arg( z ) = 270 or 90 − (A1)\n2 2\nNote: Accept equivalent arguments given in any interval, in degrees or radians.\nTHEN\nπ a rotation 3π\nOR − OR equivalent angle about the origin. A1\n2 2\nNote: Accept correct answer given in degrees.\nor ( 4 k − 1π ) Accept π clockwise or 11π\nfor k ∈ .\n2 2 2\nThe centre must be stated to gain the final A1.\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nConsider $z = \\cos\\frac{11\\pi}{18} + \\mathrm{i}\\sin\\frac{11\\pi}{18}$.\n(a) Find the smallest value of $n$ that satisfies $z^n = -\\mathrm{i}$, where $n \\in \\mathbb{Z}^+$. [4]\n(b) Hence or otherwise, describe a single geometric transformation applied to $z$ on the Argand diagram that results in $z^{10}$. [3]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nA new test has been developed to identify whether a particular gene, G , is present in a\npopulation of parrots. The test returns a correct positive result 95 % of the time for parrots\nwith the gene, and a false positive result 2 % of the time for parrots without the gene.\nThe proportion of the population with the gene is p .\n(a) Complete the tree diagram below.\b [2]\npositive\nG\np\nnegative\npositive\n0.02\nG′\n0.98\nnegative\n(b) A random sample of the population was tested. It was found that 150 tests returned\na positive result. Out of the 150 parrots with a positive test result, 18 did not actually\nhave the gene. Find an estimate for p .\b [4]",
+   "ms_text": "7. (a)\nA1A1\nNote: award A1 for branch correctly labelled 1 − p\nawardA1forbranches correctly labelled 0.95 and 0.05\naward A0 for Gbranch labelled p′ '\naward A0 for Gbranch labelled q unless explicitly defined as 1 ' − p\n[2 marks]\n(b) METHOD 1\nrecognizing conditional probability (M1)\nP ( Gpos ' ) OR ( PGpos )\n0.021 ( − p ) 18 0.95 p 132\n= OR = (A1)(A1)\n0.95 p + 0.021 ( − p ) 150 0.95 p + 0.021 ( − p ) 150\nNote: Award A1 for a correct numerator and A1 for a correct denominator.\np = 0.133738\np = 0.134 A1\nMETHOD 2\nattempt to set up a system of equations ( S = sample size) (M1)\np ( 0.95 S= ) 132 and( 1 − p )( 0.02 S ) = 18 (A1)\nattempt to solve for por S (M1)\n0.95 p 132\np=\n0.021 ( − ) 18\n132 18\nOR S = pS + ( 1 − pS ) = + = 138.947... + 900 = 1038.94.. .\n0.95 0.02\np = 0.133738...\np = 0.134 A1\nMETHOD 3\nattempt to find the number of parrots with the gene and the number without (M1)\n132\nnumber of parrots with the gene ≈ = 138.947... AND\n0.95\n18\n≈ = 900 number of parrots without the gene (A1)\n0.02\nnumber of parrots in the sample 138.947...90 ≈ + 0 = 1038 .94. . .\nattempt to find proportion of sample with the gene (M1)\n138.947... = p ≈ 0.1 3 3 7 38.. .\n1038. 9 4 .. .\np = 0.134 A1\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.13",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nA new test has been developed to identify whether a particular gene, $G$, is present in a population of parrots. The test returns a correct positive result $95\\%$ of the time for parrots with the gene, and a false positive result $2\\%$ of the time for parrots without the gene.\nThe proportion of the population with the gene is $p$.\n(a) Complete the tree diagram below. [2]\n[Tree diagram: first branches G (probability p) and G' (blank box); from G: positive (blank box), negative (blank box); from G': positive 0.02, negative 0.98]\n(b) A random sample of the population was tested. It was found that $150$ tests returned a positive result. Out of the $150$ parrots with a positive test result, $18$ did not actually have the gene. Find an estimate for $p$. [4]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nπ .\nThe angle between a line and a plane is a , where a∈ϒ , 0 < α <\n2\n1 y + 2 The equation of the line is x −=\n= 5 − z , and the equation of the plane is\n3 2\n4x+(cosa)y+(sina)z=1 .\nFind the value of a .",
+   "ms_text": "3\n8. direction vector of the line is 2 (seen anywhere) (A1)\n− 1\n4\ncos α normal vector of the plane is (seen anywhere) (A1)\nsin α\nEITHER\ncorrect scalar product 12 + 2cos α − sin α (seen anywhere) (A1)\nonecorrect magnitude (seen anywhere) (A1)\n2 2 16 + cos α + sin α ( = 17 ) , 9 + 41 + ( = 14 )\nrecognizing angle between normal and direction vector is π − α\n(seen anywhere) (M1)\n2\nNote: angle π − α may be implied by use ofsinαon the RHS of the step below\n2\nattempt to substitute into the formula for the angle between two vectors to form an\nequation in α (M1)\nπ\n12 + 2cos α − sin α − α OR 12 + 2cos α − sin α =1714sin α\n=1714 cos2\nOR\ncorrect expression for the magnitude of the vector product\n2sin α + cos α\n2 2 2\n−− 4 3sin α ( = ( 2sin α + cos α ) +−− ( 4 3sin α ) + ( 3cos α − 8 ) ) (seen anywhere) (A1)\n3cos α − 8\nonecorrect magnitude (seen anywhere) (A1)\n2 2 ( ) ( ) 16 + cos α + sin α = 17 , 9 + 41 + = 14\nrecognizing angle between normal and direction vector is π − α\n(seen anywhere) (M1)\n2\nNote: angle π − α may be implied by use ofcosαon the RHS of the step below\n2\nattempt to substitute into the formula for the angle between two vectors to form an\nequation in α (M1)\nπ 2 2 2\n( 2sin α + cos α ) +−− ( 4 3sin α ) + ( 3cos α − 8 ) − α OR\n=1714 sin2\n2 2 2\n( 2sin α + cos α ) +−− ( 4 3sin α ) + ( 3cos α − 8 ) =1714 cos α\nTHEN\nα= 0.932389...\nα= 0.932 A1\nNote: Award maximum (A1)(A1)(A1)(A1)(M1)(M1)A0 for a correct answer given\n°\nin degrees α = 54.4219... .\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.13",
+    "3.17",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nThe angle between a line and a plane is $\\alpha$, where $\\alpha \\in \\mathbb{R}$, $0 < \\alpha < \\frac{\\pi}{2}$.\nThe equation of the line is $\\frac{x-1}{3} = \\frac{y+2}{2} = 5 - z$, and the equation of the plane is $4x + (\\cos\\alpha)y + (\\sin\\alpha)z = 1$.\nFind the value of $\\alpha$."
+  },
+  {
+   "id": "math-2023-M-P2-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 6]\nProve by contradiction that p2-8q-11≠0 , for any p , q∈′ .",
+   "ms_text": "2 − − = , ( ,pq∈ ) 9. Assume p 8 q 11 0 M1\nNote: This M1 is dependent on the assumption of truth (implied by “assume” or\n“suppose that … is true”.)\nSubsequent marks should be awarded independently.\nEITHER\n2 2 p = 8 q + 11 ( = 2(4 q + 5)1 + )\nso podd ⇒ p odd R1\nOR\n2 peven ⇒ p − 8 q = 11 even which is a contradiction so pis odd R1\nNote: This R1 should be awarded for any valid reason to conclude that pmust be\nodd.\nTHEN\np = 2 k + 1, ( k ∈ ) M1\n2\n( 2 k + 1 ) = 8 q + 11\n2 + += + 4 k 4 k 1 8 q 11 (A1)\n2 + = + 4 k 4 k 8 q 10\n2 + = + 2 k 2 k 4 q 5 or equivalent with one side odd and one side even A1\na contradiction as LHS is even and RHS is odd R1\nNote: This R1 is dependent on all previous marks.\nAccept correct variations such as work based on p = 2 k −. 1\n2 ,pq∈ p − 8 q − 11 ≠ 0\ntherefore, if then AG\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 6]\nProve by contradiction that $p^2 - 8q - 11 \\ne 0$, for any $p, q \\in \\mathbb{Z}$."
+  },
+  {
+   "id": "math-2023-M-P2-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 15]\nAn engineer is designing a gutter to catch rainwater from the roof of a house.\nThe gutter will be open at the top and is made by folding a piece of sheet metal 45 cm wide\nand 600 cm long.\ndiagram not to scale\nsheet metal\n600 600\n45\nThe cross-section of the gutter is shaded in the following diagram.\ndiagram not to scale\nw\nO\n10\n12 θ\nB A\nThe height of both vertical sides is 10 cm . The width of the gutter is w cm .\nArc AB lies on the circumference of a circle with centre O and radius 12 cm .\nLet AÔB=q radians, where 0<q<p .\n(a) Show that q=2.08 , correct to three significant figures.\b [3]\n(b) Find the area of the cross-section of the gutter.\b [7]\nIn a storm, the total volume, in cm3 , of rainwater that enters the gutter can be modelled by a\nfunction R (t) , where t is the time, in seconds, since the start of the storm.\nIt was determined that the rate at which rainwater entered the gutter could be modelled by\n2 π t\nRt ′ () = 50 cos 3000 , t≥0 .\n+\n5\nDuring any 60-second period, if the volume of rainwater entering the gutter is greater than\nthe volume of the gutter, it will overflow.\n(c) Determine whether the gutter overflowed in this storm. Justify your answer.\b [5]",
+   "ms_text": "10. (a) recognition that 45 = 1010 + + arc length (M1)\narc length = 25(cm) (A1)\n25 = 12θ A1\nθ= 2.08 correct to 3 significant figures AG\n[3 marks]\n(b)\nNote: There are many different ways to dissect the cross-section to determine its\nw. Award the\narea. In all approaches, candidates will need to find w or 2\nfirst three marks for work seen anywhere.\nEITHER\nevidence of using the cosine rule OR sine rule (M1)\nw 12 2 2 2\nw= 12 + 12 −⋅ 21212cos2.08 ⋅ ( ) OR = (A1)\nsin(2.08) sin(0.530796...)\nw = w =\n20.6977 …or 10.3488... (A1)\n2\nOR\nw using trig ratios in a right triangle with angle 2.08\n(M1)\nand side length 2\n2\nw\n2.08 = 2\nsin (A1)\n2 12\nw = w =\n20.6977 …or 10.3488... (A1)\n2\n25 θ=\nNote: Accept w = 20.7179 …from use of .\n2 24\nTHEN\nLet the points A, B, C, D, E, F, G, H lie on the figure as follows:\nEITHER\n(segment AHB =) sector OAB – triangle OAB (M1)\n1 1\n= × 12 2 × 2.08 − × 12 2 × sin 2.08 ( = 149.76 − 62.8655... = 86.8944... ) (A1)\n2 2\nvalid approach to find total cross-sectional area (seen anywhere) (M1)\nsector OAB – triangle OAB + rectangle CDBA\n= 86.8944...10 + w ( = 86.8944... + 206.977... )\n25\nNote: Use of θ= throughout leads to segment OAB = 87.2517... and cross-sectional\n12\n= + area 87.2517...207.179... .\nOR\ntrapezium CGOA (= rectangle CGOE + triangle EOA) (M1)\n1 20.6977...\n= × ( 10 + ( 1012cos(1.04) − ) ) × (72.0557) = (A1)\n2 2\nvalid approach to find total cross-sectional area (seen anywhere) (M1)\n2 × trapezium CGOA + sector OAB\n1\n= 2(72.0557...) + × 2 × 2.08 ( = 144.111...149.76 + )\n212\n25\nθ= = 72.2154... Note: Use of leads to area of trapezium CGOA and cross-sectional\n12\narea 144.430...150 = + .\nOR\n2 x area of trapezium CGOA (= area of rectangle CDFE + 2 x triangle EOA) (M1)\n1\n20.6 977 ... × ( 1012cos(1.04) − ) +× 2 × 1 2cos(1.04)12sin(14 × . 0 ) (A1)\n2\n( = 81.2458... + 62.8655... )\nvalid approach to find total cross-sectional area (seen anywhere) (M1)\n2 x trapezium CGOA + sector OAB\n1 2\n= 144.111... + × 1 2 × 2.08 ( = 144.111...149.76 + )\n2\n25\nNote: Use of θ= leads to 2 x area of trapezium CGOA144.430... = and cross-sectional\n12\narea 144.430...150 = + .\nTHEN\narea of cross-section = 293.871... ( 294.430... from exact answer)\n= 294 (cm2) A1\n[7 marks]\n(c) METHOD 1\n− 4.71976... volume of gutter = 176323 OR 176658 (OR 600× their area) (seen\nanywhere) A1\nrecognising rainfall can be represented by an integral (M1)\næ ö 60 æ ö\n=250\n∫ Rt ′ ()d t 2psin2p ´ 60 (A1) ø÷ + 3000´ 60\n0 èç èç 5 ø÷\nNote:Accept any 60 second interval or any interval which is a multiple of 5\n5\nseconds (one period) scaled up to 60 seconds e.g. 12 ∫ Rt ′ ()d t .\n0\nrainfall over 60 seconds 180000 = (cm3) A1\nthe gutter will overflow because the rainfall > gutter volume A1\nMETHOD 2\nvolume of gutter 176323 = OR 176658 (OR 600× their area) (seen anywhere) A1\nrecognition that cosine has a minimum value of -1 (M1)\n3 − 1 Rt ′ () ≥−× 150 + 3000cms ( ) (A1)\nrainfall over 60 seconds177000 ≥ (A1)\nthe gutter will overflow because the rainfall > gutter volume A1\nMETHOD 3\nvolume of gutter 176323 = OR 176658 (OR 600× their area) (seen anywhere) A1\nrecognising rainfall can be represented by an integral (M1)\nT Rt\nattempt to solve 60 > 58.8 OR ′ ()d t = 176658 (M1) ∫\n0\ntime to reach overflow point = 58.7875...OR 58.8990... A1\nthe gutter will overflow because 60 > 58.8 OR 60 > 58.9 A1\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2",
+    "5.11",
+    "3.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 15]\nAn engineer is designing a gutter to catch rainwater from the roof of a house.\nThe gutter will be open at the top and is made by folding a piece of sheet metal $45\\text{ cm}$ wide and $600\\text{ cm}$ long.\n[Diagram (not to scale): a flat sheet of metal 45 by 600 is folded into an open gutter of length 600 with two vertical sides and a curved base]\nThe cross-section of the gutter is shaded in the following diagram.\n[Diagram (not to scale): shaded cross-section of width $w$ with vertical sides of height 10 ending at A and B; arc AB of a circle with centre O, radius 12, angle $\\theta$ at O between OA and OB]\nThe height of both vertical sides is $10\\text{ cm}$. The width of the gutter is $w\\text{ cm}$.\nArc AB lies on the circumference of a circle with centre O and radius $12\\text{ cm}$.\nLet $\\mathrm{A\\hat{O}B} = \\theta$ radians, where $0 < \\theta < \\pi$.\n(a) Show that $\\theta = 2.08$, correct to three significant figures. [3]\n(b) Find the area of the cross-section of the gutter. [7]\nIn a storm, the total volume, in $\\text{cm}^3$, of rainwater that enters the gutter can be modelled by a function $R(t)$, where $t$ is the time, in seconds, since the start of the storm.\nIt was determined that the rate at which rainwater entered the gutter could be modelled by\n$R'(t) = 50\\cos\\left(\\frac{2\\pi t}{5}\\right) + 3000$, $t \\ge 0$.\nDuring any $60$-second period, if the volume of rainwater entering the gutter is greater than the volume of the gutter, it will overflow.\n(c) Determine whether the gutter overflowed in this storm. Justify your answer. [5]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 19]\nA continuous random variable, X , has a probability density function defined by\n6\n≤ ≤ , 0 x 2\nfx () = π 16 − x 2\n0 , otherwise.\n(a) Find the exact value of E(X) .\b [5]\n(b) Find P(X < 0.5) .\b [2]\nA laboratory trial may require up to 2 millilitres of reagent. The amount of reagent used has\nbeen found to have a probability distribution that can be modelled by f(x) , where X is the\namount of reagent in millilitres.\nEach laboratory trial is independent. A trial is considered a success when X < 0.5 .\nDetermine the least number of trials required to be 99 % sure of at least one success.\b (c) [3]\nTen trials were conducted.\n(d) Find the probability that exactly three trials were successful.\b [2]\n(e) Write down the number of ways these three successful trials could have occurred\nconsecutively.\b [1]\nNow consider n trials where it is given that exactly three successes have occurred.\n(f) (i) \u0007Write down an expression for the number of ways these three successful trials\ncould have occurred consecutively.\nFind the greatest value of n such that the probability of three consecutive (ii)\nsuccessful trials is more than 0.05 .\b [6]",
+   "ms_text": "2 6 x\n11. (a) E ( X ) = ∫ d x (A1)\n0 2 π16 − x\nNote: Condone the absence of dx .\n2\nAccept ∫ xfx () d x\n0\n6 x\nattempt to integrate using inspection/substitution (M1)\n2 π16 − x\n6 1 2 −\n2 − − 2 x ( 16 − x ) 2 d x or let u = 16 − x\n∫\n2π\n2 12 1 1\n6 6\n( 2 ) 2 − 216 − x 2 OR − u A1\n2π π\n0 16\nNote: For this A1 condone absent or incorrect limits.\nattempt to substitute their limits and evaluate (M1)\n24 6 12\n( ) − 12 = 2 − 3 A1\nπ π π\nx\nNote: The substitution sin θ= may also be used, leading to\n4\nπ π\n24 24 24 π\n6 θθ = [ − θ ] 6 = − ∫ sind cos 1cos . Award marks as\n0 π 0 π π 6\nπ appropriate and accept 24\n1cos − for the final A1.\nπ 6\n[5 marks]\n0.5 0.5 6\n(b) ∫ fx () d x = ∫ d x (M1)\n0 0 2 π16 − x\n( ) PX< 0.5 = 0.239358...\n= 0.239 A1\n[2 marks]\n(c) EITHER\nrecognition P(at least one success after n trials) = 1 – P(no successes after n trials) (M1)\nn\n− ( − ) ≥ 1 10.239... 0.99 (A1)\nn = 16.8321...\nNote: Use of 0.239 results in n = 16.8612...\nOR\n( ) recognition that Y B n ,0.239... (M1)\nIf n = 16 P(at least one success after n trials) = 0.987443...\nand if n = 17 P(at least one success after n trials) = 0.990448... (A1)\nNote: Use of 0.239 results in the values 0.987348...and 0.990371...\nTHEN\n17 trials A1\n[3 marks]\nY B10,their part b) ( ) (d) recognition that (M1)\nB10,0.239... ( )\n( X= ) = P 3 0.242430...\n= 0.242 A1\n[2 marks]\n(e) 8 A1\n[1 mark]\n(f) (i) n − 2 A1\n(ii) nC(ways of 3 successes in n trials) (A1)\n3\nn − 2\n(A1)\nn C\n3\nn − 2 6\nAttempt to solve their > 0.05 > 0.05 (or equivalent) (M1)\nn OR ( C nn − 1 )\n3\nNote:Accept an equation.\nn = 11.4658... OR\nn − 2 n − 2\ntable values n = 11, = 0.0545454... and n = 12, = 0.0454545... (A1)\nn n C C\n3 3\nn = 11 A1\n[6 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.16",
+    "4.8",
+    "1.10",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 19]\nA continuous random variable, $X$, has a probability density function defined by\n$f(x) = \\begin{cases} \\frac{6}{\\pi\\sqrt{16-x^2}}, & 0 \\le x \\le 2 \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Find the exact value of $\\mathrm{E}(X)$. [5]\n(b) Find $\\mathrm{P}(X < 0.5)$. [2]\nA laboratory trial may require up to $2$ millilitres of reagent. The amount of reagent used has been found to have a probability distribution that can be modelled by $f(x)$, where $X$ is the amount of reagent in millilitres.\nEach laboratory trial is independent. A trial is considered a success when $X < 0.5$.\n(c) Determine the least number of trials required to be $99\\%$ sure of at least one success. [3]\nTen trials were conducted.\n(d) Find the probability that exactly three trials were successful. [2]\n(e) Write down the number of ways these three successful trials could have occurred consecutively. [1]\nNow consider $n$ trials where it is given that exactly three successes have occurred.\n(f) (i) Write down an expression for the number of ways these three successful trials could have occurred consecutively.\n(ii) Find the greatest value of $n$ such that the probability of three consecutive successful trials is more than $0.05$. [6]"
+  },
+  {
+   "id": "math-2023-M-P2-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 21]\ny xy 2 − y Consider the differential equation d\n= , where y>0 and y=3 when x=0 .\n2 + d x x 1\n(a) Use Euler’s method, with a step length of 0.03 , to find an approximate value for y\nwhen x=0.15 . Give your answer correct to six significant figures. [4]\ny \u0007Write down the value ofd\n(b) (i) when x=0 .\nd x\n2 y\nShow thatd\n(ii) 3 when x=0 .\b [5]\nx= 2\nd\n3 y\n\u0007Given that d\n(c) (i) 9 when x=0 , find the first four terms of the Maclaurin series for y .\nx= 3\nd\nUse the Maclaurin series to find an approximate value for y when x=0.15 . Give (ii)\nyour answer correct to six significant figures. [3]\n2 − 1 2\n\u0007It is given thatx\n(d) (i) 1 .\n2 +≡− 2 x 1 x + 1\n2 y xy − y\nSolve the differential equation d = , where y>0 and y=3 when x=0 .\n2 d x x + 1\nGive your answer in the form y=f(x) .\n(ii) Hence, find the value of y when x=0.15 . Give your answer correct to six\nsignificant figures. [7]\n(e) For 0≤x<1 , explain why the approximate value for y obtained using Euler’s method\nwill always be less than the actual value for y . [2]",
+   "ms_text": "12.\nNote: Penalise only once for an answer not given to six significant figures in parts\n(a), c(ii) and (d)(ii).\n(a) attempt to use Euler’s method (M1)\n2 xy − y 0 − 3\n= + n n n =+ y y 0.03 , y 3 0.03\nn + 1 n 2 1\nx + 1 01 +\nn\ny= 2.91 (A1)\n1\nat least one correct further intermediate value given to at least 3 significant figures (A1)\n3 0y\n1y 2.91\n2.82285... 2y\n2.73877... 3y\n4y 2.65793...\n2.58046... 5y\ny ( 0.15 ) ≈ y = 2.58046160...\n5\n= 2.58046 A1\nNote: Award final A1 for the correct answer seen as the last line in a table.\nIf the table goes beyond this value and the correct answer is not explicitly\nidentified award maximum (M1)(A1)(A1)A0\n[4 marks]\nd y\n(b) (i) 3 A1 x= −\nd\n(ii) METHOD 1\nattempt to use quotient (or product) rule on\n2 d y xy − y −\n1\n( 2 2 ) = = ( x + 1 )( xy − y ) (M1)\n2 d x x + 1\nattempt to use product rule and implicit differentiation on 2xy (M1)\nd d y d y 2 2\n( xy − y ) = x + ( 2 xy ) − (seen anywhere) A1\nd x d x d x\nd y\n= 3 (when x = 0, y = 3, = −) 3\nd x\nd y d y\n( 2 ) 2 ( 2 )( x + 1 x + ( 2 xy ) − − xy − y 2 x )\n2 d y\nd x d x\n=\n2 2 d x\n( 2 ) x + 1\n2 d y −\n1 d y d y − 2\n( 2 ) 2 ( 2 )( 2 ) OR = x + 1 x + ( 2 xy ) − − 2 xx + 1 xy − y A1\n2 d x d x d x\n2 d y d y\n3 (when x = 0, y = 3, = −) 3 AG\nx= 2\nd d x\nMETHOD 2\nd y\n( 2 ) 2 x + = xy − y A1\n1d\nx\nattempt to use product rule and implicit differentiation (M1)\n2 d y d y d y d y\n2 2 2 x + ( x + 1 ) = x + ( 2 xy ) − A1A1\nd x d x 2 d x d x\nNote: Award A1 for LHS and A1for RHS\n2 d y d y\n= = = −) 3 (when x 0, y 3, 3 AG\nx= 2\nd d x\n[5 marks]\n2 3 x x 3 3\n2 3 (c) (i) 33 − x + () 3 + () 9 + ... = 33 − x + x + x + ... A1A1\n2! 3! 2 2\nNote: Award A1 for first three terms, A1 for fourth term\n( ) = (ii) y 0.15 2.58881125...\n= 2.58881 A1\n[3 marks]\n(d) (i) EITHER\nattempt to separate variables M1\n2 1 x − 1\n1 2\n∫ d y = ∫ d x OR d y = 1 − d x ∫ ∫\n2 + 2 + y x 1 y x 1\nln y = x − 2arctan x + c A1A1\nNote: Award A1 for ln y or lny, A1 for x − 2arctan x .\nCondone missing c + at this stage.\nOR\nattempt to use integrating factor M1\nd y 2\n− y 1 − = 0\n2 d x x + 1\n2\n∫ − 1 − d x 2 −+\n= e x + 1 = e x 2arctan x IF\nA1\nd y 2 −+ x 2arctan x −+ x 2arctan x\ne − y e 1 − = 0\n2 d x x + 1\n−+ 2arctan ex xy =\nA A1\nTHEN\n− 2arctan x\nln y = x − 2arctan x + c OR y = A ex\nattempt to find c or A using x = 0, y = 3 (M1)\n02arctan0 − ln3 = 0 − 2arctan0 + c OR 3 = A e\nc = ln3 OR A = 3 (A1)\nNote: This A1 should not be awarded if a correct value of c or A is preceded by\nincorrect working.\nx − 2arctan x + ln3 ( x − 2arctan x ) y = e =3e A1\n(ii) y ( 0.15 ) = 2.58786288...\n= 2.58786 A1\n[7 marks]\n2 d y\n(e) the graph of y = fx () is concave up OR 0 (for0 ≤ x <) 1 A1 x>\n2 d\nNote: Allow positive curvature, opening upwards, increasing first derivative.\nhence tangents used (in Euler’s method) give an underestimate,\nso the approximate value for y when x = 1.5 is less than the actual value. R1\n[2 marks]\nNote: R1is dependent on A1, as well as reference to tangents, in words or on a\ndiagram.\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.14",
+    "5.19",
+    "5.15",
+    "5.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 21]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{x^2y - y}{x^2 + 1}$, where $y > 0$ and $y = 3$ when $x = 0$.\n(a) Use Euler's method, with a step length of $0.03$, to find an approximate value for $y$ when $x = 0.15$. Give your answer correct to six significant figures. [4]\n(b) (i) Write down the value of $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ when $x = 0$.\n(ii) Show that $\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2} = 3$ when $x = 0$. [5]\n(c) (i) Given that $\\frac{\\mathrm{d}^3y}{\\mathrm{d}x^3} = 9$ when $x = 0$, find the first four terms of the Maclaurin series for $y$.\n(ii) Use the Maclaurin series to find an approximate value for $y$ when $x = 0.15$. Give your answer correct to six significant figures. [3]\n(d) (i) It is given that $\\frac{x^2 - 1}{x^2 + 1} \\equiv 1 - \\frac{2}{x^2 + 1}$.\nSolve the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{x^2y - y}{x^2 + 1}$, where $y > 0$ and $y = 3$ when $x = 0$. Give your answer in the form $y = f(x)$.\n(ii) Hence, find the value of $y$ when $x = 0.15$. Give your answer correct to six significant figures. [7]\n(e) For $0 \\le x < 1$, explain why the approximate value for $y$ obtained using Euler's method will always be less than the actual value for $y$. [2]"
+  }
+ ],
+ "status": "done"
+}

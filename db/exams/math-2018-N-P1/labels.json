@@ -1,0 +1,146 @@
+{
+ "exam_id": "math-2018-N-P1",
+ "questions": {
+  "1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "text_clean": "1. [Maximum mark: 6]\nConsider two events, $A$ and $B$, such that $\\mathrm{P}(A) = \\mathrm{P}(A' \\cap B) = 0.4$ and $\\mathrm{P}(A \\cap B) = 0.1$.\n(a) By drawing a Venn diagram, or otherwise, find $\\mathrm{P}(A \\cup B)$. [3]\n(b) Show that the events $A$ and $B$ are not independent. [3]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nA team of four is to be chosen from a group of four boys and four girls.\n(a) Find the number of different possible teams that could be chosen. [3]\n(b) Find the number of different possible teams that could be chosen, given that the team must include at least one girl and at least one boy. [2]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.7",
+    "3.9",
+    "2.14",
+    "2.5"
+   ],
+   "text_clean": "3. [Maximum mark: 7]\nConsider the function $g(x) = 4\\cos x + 1$, $a \\le x \\le \\frac{\\pi}{2}$ where $a < \\frac{\\pi}{2}$.\n(a) For $a = -\\frac{\\pi}{2}$, sketch the graph of $y = g(x)$. Indicate clearly the maximum and minimum values of the function. [3]\n(b) Write down the least value of $a$ such that $g$ has an inverse. [1]\n(c) For the value of $a$ found in part (b),\n(i) write down the domain of $g^{-1}$;\n(ii) find an expression for $g^{-1}(x)$. [3]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.16"
+   ],
+   "text_clean": "4. [Maximum mark: 7]\nConsider the following system of equations where $a \\in \\mathbb{R}$.\n$2x + 4y - z = 10$\n$x + 2y + az = 5$\n$5x + 12y = 2a$.\n(a) Find the value of $a$ for which the system of equations does not have a unique solution. [2]\n(b) Find the solution of the system of equations when $a = 2$. [5]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.13",
+    "2.7"
+   ],
+   "text_clean": "5. [Maximum mark: 6]\nThe vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$ are defined by $\\boldsymbol{a} = \\begin{pmatrix}1\\\\1\\\\t\\end{pmatrix}$, $\\boldsymbol{b} = \\begin{pmatrix}0\\\\-t\\\\4t\\end{pmatrix}$, where $t \\in \\mathbb{R}$.\n(a) Find and simplify an expression for $\\boldsymbol{a} \\bullet \\boldsymbol{b}$ in terms of $t$. [2]\n(b) Hence or otherwise, find the values of $t$ for which the angle between $\\boldsymbol{a}$ and $\\boldsymbol{b}$ is obtuse. [4]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "text_clean": "6. [Maximum mark: 6]\nUse mathematical induction to prove that $\\sum_{r=1}^{n} r(r!) = (n+1)! - 1$, for $n \\in \\mathbb{Z}^+$.",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.14",
+    "2.1"
+   ],
+   "text_clean": "7. [Maximum mark: 6]\nConsider the curves $C_1$ and $C_2$ defined as follows\n$C_1: xy = 4,\\ x > 0$\n$C_2: y^2 - x^2 = 2,\\ x > 0$\n(a) Using implicit differentiation, or otherwise, find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ for each curve in terms of $x$ and $y$. [4]\nLet $\\mathrm{P}(a, b)$ be the unique point where the curves $C_1$ and $C_2$ intersect.\n(b) Show that the tangent to $C_1$ at P is perpendicular to the tangent to $C_2$ at P. [2]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "1.7",
+    "1.14"
+   ],
+   "text_clean": "8. [Maximum mark: 7]\nConsider the equation $z^4 + az^3 + bz^2 + cz + d = 0$, where $a, b, c, d \\in \\mathbb{R}$ and $z \\in \\mathbb{C}$.\nTwo of the roots of the equation are $\\log_2 6$ and $\\mathrm{i}\\sqrt{3}$ and the sum of all the roots is $3 + \\log_2 3$.\nShow that $6a + d + 12 = 0$.",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.16",
+    "3.17",
+    "3.14",
+    "2.7"
+   ],
+   "text_clean": "9. [Maximum mark: 15]\nConsider a triangle OAB such that O has coordinates $(0, 0, 0)$, A has coordinates $(0, 1, 2)$ and B has coordinates $(2b, 0, b-1)$ where $b < 0$.\n(a) Find, in terms of $b$, a Cartesian equation of the plane $\\Pi$ containing this triangle. [5]\nLet M be the midpoint of the line segment [OB].\n(b) Find, in terms of $b$, the equation of the line $L$ which passes through M and is perpendicular to the plane $\\Pi$. [3]\n(c) Show that $L$ does not intersect the $y$-axis for any negative value of $b$. [7]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.11",
+    "5.8",
+    "5.6",
+    "3.6",
+    "3.8",
+    "3.9"
+   ],
+   "text_clean": "10. [Maximum mark: 19]\n(a) Use integration by parts to show that $\\int \\mathrm{e}^x \\cos 2x\\,\\mathrm{d}x = \\frac{2\\mathrm{e}^x}{5}\\sin 2x + \\frac{\\mathrm{e}^x}{5}\\cos 2x + c$, $c \\in \\mathbb{R}$. [5]\n(b) Hence, show that $\\int \\mathrm{e}^x \\cos^2 x\\,\\mathrm{d}x = \\frac{\\mathrm{e}^x}{5}\\sin 2x + \\frac{\\mathrm{e}^x}{10}\\cos 2x + \\frac{\\mathrm{e}^x}{2} + c$, $c \\in \\mathbb{R}$. [3]\nThe function $f$ is defined by $f(x) = \\mathrm{e}^x \\cos^2 x$, where $0 \\le x \\le 5$. The curve $y = f(x)$ is shown on the following graph which has local maximum points at A and C and touches the $x$-axis at B and D.\n[Graph: y = f(x) for 0 ≤ x ≤ 5; small local maximum A, touches x-axis at B, large local maximum C, touches x-axis at D just before x = 5; region between curve and x-axis from B to D shaded]\n(c) Find the $x$-coordinates of A and of C, giving your answers in the form $a + \\arctan b$, where $a, b \\in \\mathbb{R}$. [6]\n(d) Find the area enclosed by the curve and the $x$-axis between B and D, as shaded on the diagram. [5]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.11",
+    "3.5",
+    "1.14",
+    "1.13",
+    "1.12"
+   ],
+   "text_clean": "11. [Maximum mark: 16]\n(a) Find the roots of $z^{24} = 1$ which satisfy the condition $0 < \\arg(z) < \\frac{\\pi}{2}$, expressing your answers in the form $r\\mathrm{e}^{\\mathrm{i}\\theta}$, where $r, \\theta \\in \\mathbb{R}^+$. [5]\n(b) Let $S$ be the sum of the roots found in part (a).\n(i) Show that $\\mathrm{Re}\\,S = \\mathrm{Im}\\,S$.\n(ii) By writing $\\frac{\\pi}{12}$ as $\\left(\\frac{\\pi}{4} - \\frac{\\pi}{6}\\right)$, find the value of $\\cos\\frac{\\pi}{12}$ in the form $\\frac{\\sqrt{a} + \\sqrt{b}}{c}$, where $a$, $b$ and $c$ are integers to be determined.\n(iii) Hence, or otherwise, show that $S = \\frac{1}{2}\\left(1 + \\sqrt{2}\\right)\\left(1 + \\sqrt{3}\\right)(1 + \\mathrm{i})$. [11]",
+   "answer_status": "ok",
+   "note": "Primary topic 3: part (b) (11 marks) is trig compound-angle/complementary identities; (a) is roots of unity."
+  }
+ }
+}

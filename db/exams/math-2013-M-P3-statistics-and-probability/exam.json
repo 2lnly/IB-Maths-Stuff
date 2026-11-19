@@ -1,0 +1,132 @@
+{
+ "exam_id": "math-2013-M-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2013,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2013 May Examination Session/Mathematics_paper_3_Statistics_and_probability_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2013 May Examination Session/Mathematics_paper_3_Statistics_and_probability_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2213-7210; code M13/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2013-M-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 10]\nThe random variable X is normally distributed with unknown mean µ and unknown\nvariance σ2. A random sample of 20 observations on X gave the following results.\n2\n∑ x = 280 , ∑ x = 3977 57 .\n(a) Find unbiased estimates of µ and σ2. [3 marks]\n(b) Determine a 95 % confidence interval for µ. [3 marks]\n(c) Given the hypotheses\nH : µ = 15 ; H : µ ≠ 15 ,\n0 1\nfind the p -value of the above results and state your conclusion at the 1 %\nsignificance level. [4 marks]",
+   "ms_text": "1. (a) x = 14 A1\n2 3977.57 280\nns−= 2 − (M1)\n1\n19 380\n= 3.03 A1\n[3 marks]\nNote: Accept any notation for these estimates including μ and σ2.\nNote: Award M0A0 for division by 20.\n(b) the 95% confidence limits are\n2\nns − 1\nx ± t (M1)\nn\nNote: Award M0 for use of z.\n3.03\nie, 14 ± 2.093 (A1)\n20\nNote : FT their mean and variance from (a).\ngiving [13.2, 14.8] A1\nNote : Accept any answers which round to 13.2 and 14.8.\n[3 marks]\n14 − 15\n(c) Use of t-statistic = (M1)\n3.03\n20\nNote : FT their mean and variance from (a).\nNote : Award M0 for use of z.\n−\nAccept 1514 Note: .\n3.03\n20\n=− 2.569 … (A1)\nNote: Accept 2.569…\np-value = 0.009392 …×= 2 0.0188 A1\nNote: Accept any answer that rounds to 0.019.\nNote : Award (M1)(A1)A0 for any answer that rounds to 0.0094.\ninsufficient evidence to reject H(or equivalent, eg accept H0 or reject H1) R1\n0\nNote: FT on their p-value.\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L5",
+    "4.L6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 10]\nThe random variable $X$ is normally distributed with unknown mean $\\mu$ and unknown variance $\\sigma^2$. A random sample of 20 observations on $X$ gave the following results.\n$\\sum x = 280, \\sum x^2 = 3977.57$\n(a) Find unbiased estimates of $\\mu$ and $\\sigma^2$. [3 marks]\n(b) Determine a 95 % confidence interval for $\\mu$. [3 marks]\n(c) Given the hypotheses\n$\\mathrm{H}_0: \\mu = 15;\\ \\mathrm{H}_1: \\mu \\neq 15$,\nfind the $p$-value of the above results and state your conclusion at the 1 % significance level. [4 marks]"
+  },
+  {
+   "id": "math-2013-M-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 12]\nA hockey team played 60 matches last season. The manager believes that the number\nof goals scored by the team in a match could be modelled by a Poisson distribution and\nhe produces the following table based on the season’s results.\nNumber of goals 0 1 2 3 4 5\nFrequency 8 9 17 14 7 5\n(a) State suitable hypotheses to test the manager’s belief. [1 mark]\n(b) The manager decides to carry out an appropriate χ2 goodness of fit test.\n(i) Construct a table of appropriate expected frequencies correct to four\ndecimal places.\n(ii) Determine the value of χ2 calc and the corresponding p -value.\n(iii) State whether or not your analysis supports the manager’s belief. [11 marks]",
+   "ms_text": "2. (a) H: number of goals can be modelled by a Poisson distribution\n0\nH: number of goals cannot be modelled by a Poisson distribution A1\n1\nNote: Do not award A1 if a value for the mean of the distribution is given.\n[1 mark]\nfx =∑\n(b) (i) sample mean (M1)\n∑ f\n= 2.3 A1\n− 2.3 × r e 2.3\nexp freq for r goals = 60 × ( r ≤ 4) (M1)\nr !\nNumber of goals 0 1 2 3 4 ≥5\nExpected Frequency 6.0155 13.8357 15.9111 12.1985 7.0141 5.0250\nA3\nNote: At this stage, accept tabular values correct to 3 significant figures.\nNote: Award A2 for 1 error, A1 for 2 errors and A0 for 3 or more errors.\n2 2\n( ) f f − f\nχ 2 = ∑ o − o e (ii) N or ∑ = 2.69 (M1)A1\ncalc\nf f\ne e\nNote: Do not FT from incorrect tabular values.\nNote: Accept any answer that rounds to 2.7.\nDF = 4 (A1)\nNote: FT the DF from the table, ie award the (A1) if the value given is\n2 less than the number of cells.\np-value = 0.612 A1\nNote: Accept any answer that rounds to 0.61.\nNote: Do not FT from incorrect tabular values.\n(iii) the manager’s belief is supported (at all reasonable significance levels) R1\n(or equivalent, eg accept H0 or reject H1)\n2 Note: Follow through their p-value or χ\ncrit .\n[11 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 12]\nA hockey team played 60 matches last season. The manager believes that the number of goals scored by the team in a match could be modelled by a Poisson distribution and he produces the following table based on the season's results.\nNumber of goals | 0 | 1 | 2 | 3 | 4 | 5\nFrequency | 8 | 9 | 17 | 14 | 7 | 5\n(a) State suitable hypotheses to test the manager's belief. [1 mark]\n(b) The manager decides to carry out an appropriate $\\chi^2$ goodness of fit test.\n(i) Construct a table of appropriate expected frequencies correct to four decimal places.\n(ii) Determine the value of $\\chi^2_{calc}$ and the corresponding $p$-value.\n(iii) State whether or not your analysis supports the manager's belief. [11 marks]"
+  },
+  {
+   "id": "math-2013-M-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 9]\nThe number of machine breakdowns occurring in a day in a certain factory may be\nassumed to follow a Poisson distribution with mean µ. The value of µ is known, from\npast experience, to be 1.2. In an attempt to reduce the value of µ, all the machines are\nfitted with new control units. To investigate whether or not this reduces the value of\nµ , the total number of breakdowns, x , occurring during a 30-day period following the\ninstallation of these new units is recorded.\n(a) State suitable hypotheses for this investigation. [1 mark]\n(b) It is decided to define the critical region by x ≤25.\n(i) Calculate the significance level.\n(ii) Assuming that the value of µ was actually reduced to 0.75, determine the\nprobability of a Type II error. [8 marks]",
+   "ms_text": "3. (a) H: μ = 1.2; H: μ < 1.2 A1\n0 1\nNote: Accept “ H: (30-day) mean = 36 ; H: (30-day) mean < 36 ”.\n0 1\n[1 mark]\n(b) (i) let X denote the number of breakdowns in 30 days\nthen under H, EX= ( ) 36 (A1)\n0\n= ≤ = sig level P( X 25|mean 36) (M1)(A1)\n= (3.45%) 0.0345 A1\nNote: Accept any answer that rounds to 0.035 (3.5%) .\nNote: Do not accept the use of a normal approximation.\nEX= (ii) under H, ( ) 22.5 (A1)\n1\nP (Type II error) = P( X ≥ 26|mean = 22.5) (M1)(A1)\n= 0.257 A1\nNote: Accept any answer that rounds to 0.26.\nNote: Do not accept the use of a normal approximation. [8 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 9]\nThe number of machine breakdowns occurring in a day in a certain factory may be assumed to follow a Poisson distribution with mean $\\mu$. The value of $\\mu$ is known, from past experience, to be 1.2. In an attempt to reduce the value of $\\mu$, all the machines are fitted with new control units. To investigate whether or not this reduces the value of $\\mu$, the total number of breakdowns, $x$, occurring during a 30-day period following the installation of these new units is recorded.\n(a) State suitable hypotheses for this investigation. [1 mark]\n(b) It is decided to define the critical region by $x \\le 25$.\n(i) Calculate the significance level.\n(ii) Assuming that the value of $\\mu$ was actually reduced to 0.75, determine the probability of a Type II error. [8 marks]"
+  },
+  {
+   "id": "math-2013-M-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 14]\nThe continuous random variable X has probability density function f given by\n3 x 2 + 2 x\n, for 1 ≤ x ≤ 2\nfx () = 10\n0, otherwise.\n(a) (i) Determine an expression for Fx (), valid for 1 ≤ x ≤ 2 , where F denotes\nthe cumulative distribution function of X .\n(ii) Hence, or otherwise, determine the median of X . [6 marks]\n(b) (i) State the central limit theorem.\n(ii) A random sample of 150 observations is taken from the distribution of X\nand X denotes the sample mean. Use the central limit theorem to find,\napproximately, the probability that X is greater than 1.6. [8 marks]",
+   "ms_text": "2 xu 3 + 2 u\n4. (a) (i) Fx () =∫ d u (M1)\n1 10\nx\nu 3 + u 2\n= A1\n10\n1\nNote: Do not penalise missing or wrong limits at this stage.\nAccept the use of x in the integrand.\nx 3 + x 2 − 2\n= A1\n10\n1\n(ii) the median m satisfies the equation Fm= () so (M1)\n2\n3 2 m + m − 7 = 0 (A1)\nNote: Do not FT from an incorrect F (x).\nm = 1.63 A1\nNote: Accept any answer that rounds to 1.6.\n[6 marks]\n(b) (i) the mean of a large sample from any distribution is approximately\nnormal A1\nNote: This is the minimum acceptable explanation.\n(ii) we require the mean μ and variance σ of X 2\n3 x 3 + 2 x 2 2\nμ = d x (M1) ∫\n1 10\n= 191(1.591666…) A1\n120\n3 x 4 + 2 x 3 2 2 2\nσ = ∫ d x − μ (M1)\n1 10\n= … 0.07659722 A1\nthe central limit theorem states that\n2 σ\nX ≈ N μ , , i.e. N (1.591666 … , 0.0005106481 … ) M1A1\nn\nP( X> 1.6) = 0.356 A1\nNote: Accept any answer that rounds to 0.36.\n[8 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.L3",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 14]\nThe continuous random variable $X$ has probability density function $f$ given by\n$f(x) = \\begin{cases} \\frac{3x^2+2x}{10}, & \\text{for } 1 \\le x \\le 2 \\\\ 0, & \\text{otherwise} \\end{cases}$\n(a) (i) Determine an expression for $F(x)$, valid for $1 \\le x \\le 2$, where $F$ denotes the cumulative distribution function of $X$.\n(ii) Hence, or otherwise, determine the median of $X$. [6 marks]\n(b) (i) State the central limit theorem.\n(ii) A random sample of 150 observations is taken from the distribution of $X$ and $\\bar{X}$ denotes the sample mean. Use the central limit theorem to find, approximately, the probability that $\\bar{X}$ is greater than 1.6. [8 marks]"
+  },
+  {
+   "id": "math-2013-M-P3-statistics-and-probability-q5",
+   "num": "5",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 15]\nWhen Ben shoots an arrow, he hits the target with probability 0.4. Successive shots\nare independent.\n(a) Find the probability that\n(i) he hits the target exactly 4 times in his first 8 shots;\n(ii) he hits the target for the 4th time with his 8th shot. [6 marks]\n(b) Ben hits the target for the 10th time with his X th shot.\n(i) Determine the expected value of the random variable X .\n(ii) Write down an expression for P( X = x ) and show that\nP ( X = x ) 3 ( x − 1 )\n=\n10.\nP ( X = x − 1 ) 5 ( x − )\n(iii) Hence, or otherwise, find the most likely value of X . [9 marks]",
+   "ms_text": "5. (a) (i) the number of hits, X: B(8, 0.4) (A1)\n8\n4 4 P( X = 4) = × 0.4 × 0.6 (M1)\n4\n= 0.232 A1\nNote: Accept any answer that rounds to 0.23.\n(ii) let the 4th hit occur on the Yth shot so that Y: NB(4, 0.4) (A1)\n7\n4 4 P( Y = 8) = × 0.4 × 0.6 (M1)\n3\n= 0.116 A1\nNote: Accept any answer that rounds to 0.12.\n[6 marks]\n(b) (i) X: NB(10, 0.4) (M1)\n10\nE( X= ) = 25 A1\n0.4\n(ii) let Px denote P( X = x )\nx − 1\n10 x − 10 P = × 0.4 × 0.6 A1\nx\n9\nx − 1 ×\n10 x − 10 0.4 × 0.6\nP 9\nx M1A1 =\nx 2 P − ×\nx − 1 0.4 10 0.6 x − 11 ×\n9\n( x − 1)! 9!( x − 11)!0.6 ×\nA1 = ×\n9!( x − 10)! ( x − 2)!\nNote: Award A1 for correct evaluation of combinatorial terms.\n3( x − 1)\n= AG\n5( x − 10)\n(iii) P > P as long as\nx x− 1\n3 x − 3 > 5 x − 50 (M1)\ni.e. x < 23.5 (A1)\nthe most likely value is 23 A1\nNote: Allow solutions based on creating a table of values of Px .\n[9 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.L2",
+    "4.8",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 15]\nWhen Ben shoots an arrow, he hits the target with probability 0.4. Successive shots are independent.\n(a) Find the probability that\n(i) he hits the target exactly 4 times in his first 8 shots;\n(ii) he hits the target for the 4th time with his 8th shot. [6 marks]\n(b) Ben hits the target for the 10th time with his $X$th shot.\n(i) Determine the expected value of the random variable $X$.\n(ii) Write down an expression for $\\mathrm{P}(X = x)$ and show that\n$\\frac{\\mathrm{P}(X = x)}{\\mathrm{P}(X = x-1)} = \\frac{3(x-1)}{5(x-10)}$.\n(iii) Hence, or otherwise, find the most likely value of $X$. [9 marks]"
+  }
+ ],
+ "status": "done"
+}

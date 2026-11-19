@@ -1,0 +1,53 @@
+{
+  "exam_id": "math-2021-N-P1",
+  "questions": {
+    "1": {
+      "topics": ["5"], "subtopics": ["5.10"],
+      "text_clean": "1. [Maximum mark: 4]\nGiven that $\\frac{dy}{dx} = \\cos\\left(x - \\frac{\\pi}{4}\\right)$ and $y = 2$ when $x = \\frac{3\\pi}{4}$, find $y$ in terms of $x$."
+    },
+    "2": {
+      "topics": ["2"], "subtopics": ["2.13", "2.14", "2.5"],
+      "text_clean": "2. [Maximum mark: 9]\nThe function $f$ is defined by $f(x) = \\frac{2x+4}{3-x}$, where $x \\in \\mathbb{R}$, $x \\neq 3$.\n(a) Write down the equation of\n(i) the vertical asymptote of the graph of $f$;\n(ii) the horizontal asymptote of the graph of $f$. [2]\n(b) Find the coordinates where the graph of $f$ crosses\n(i) the $x$-axis;\n(ii) the $y$-axis. [2]\n(c) Sketch the graph of $f$ on the axes below. [1]\n[Diagram: blank axes, $x$ from $-15$ to $15$, $y$ from $-15$ to $15$]\nThe function $g$ is defined by $g(x) = \\frac{ax+4}{3-x}$, where $x \\in \\mathbb{R}$, $x \\neq 3$ and $a \\in \\mathbb{R}$.\n(d) Given that $g(x) = g^{-1}(x)$, determine the value of $a$. [4]"
+    },
+    "3": {
+      "topics": ["1"], "subtopics": ["1.7"],
+      "text_clean": "3. [Maximum mark: 5]\nSolve the equation $\\log_3 \\sqrt{x} = \\frac{1}{2\\log_2 3} + \\log_3(4x^3)$, where $x > 0$."
+    },
+    "4": {
+      "topics": ["4"], "subtopics": ["4.6", "4.11"],
+      "text_clean": "4. [Maximum mark: 5]\nBox 1 contains 5 red balls and 2 white balls.\nBox 2 contains 4 red balls and 3 white balls.\n(a) A box is chosen at random and a ball is drawn. Find the probability that the ball is red. [3]\nLet $A$ be the event that \"box 1 is chosen\" and let $R$ be the event that \"a red ball is drawn\".\n(b) Determine whether events $A$ and $R$ are independent. [2]"
+    },
+    "5": {
+      "topics": ["5", "2"], "subtopics": ["5.4", "5.6", "2.5"],
+      "text_clean": "5. [Maximum mark: 7]\nThe function $f$ is defined for all $x \\in \\mathbb{R}$. The line with equation $y = 6x - 1$ is the tangent to the graph of $f$ at $x = 4$.\n(a) Write down the value of $f'(4)$. [1]\n(b) Find $f(4)$. [1]\nThe function $g$ is defined for all $x \\in \\mathbb{R}$ where $g(x) = x^2 - 3x$ and $h(x) = f(g(x))$.\n(c) Find $h(4)$. [2]\n(d) Hence find the equation of the tangent to the graph of $h$ at $x = 4$. [3]"
+    },
+    "6": {
+      "topics": ["3", "2"], "subtopics": ["3.8", "2.7"],
+      "text_clean": "6. [Maximum mark: 7]\n(a) Show that $2x - 3 - \\frac{6}{x-1} = \\frac{2x^2 - 5x - 3}{x-1}$, $x \\in \\mathbb{R}$, $x \\neq 1$. [2]\n(b) Hence or otherwise, solve the equation $2\\sin 2\\theta - 3 - \\frac{6}{\\sin 2\\theta - 1} = 0$ for $0 \\le \\theta \\le \\pi$, $\\theta \\neq \\frac{\\pi}{4}$. [5]"
+    },
+    "7": {
+      "topics": ["2"], "subtopics": ["2.7"],
+      "text_clean": "7. [Maximum mark: 7]\nThe equation $3px^2 + 2px + 1 = p$ has two real, distinct roots.\n(a) Find the possible values for $p$. [5]\n(b) Consider the case when $p = 4$. The roots of the equation can be expressed in the form $x = \\frac{a \\pm \\sqrt{13}}{6}$, where $a \\in \\mathbb{Z}$. Find the value of $a$. [2]"
+    },
+    "8": {
+      "topics": ["5"], "subtopics": ["5.18", "5.16"],
+      "text_clean": "8. [Maximum mark: 7]\nSolve the differential equation $\\frac{dy}{dx} = \\frac{\\ln 2x}{x^2} - \\frac{2y}{x}$, $x > 0$, given that $y = 4$ at $x = \\frac{1}{2}$.\nGive your answer in the form $y = f(x)$."
+    },
+    "9": {
+      "topics": ["1"], "subtopics": ["1.10"],
+      "text_clean": "9. [Maximum mark: 7]\nConsider the expression $\\frac{1}{\\sqrt{1+ax}} - \\sqrt{1-x}$ where $a \\in \\mathbb{Q}$, $a \\neq 0$.\nThe binomial expansion of this expression, in ascending powers of $x$, as far as the term in $x^2$ is $4bx + bx^2$, where $b \\in \\mathbb{Q}$.\n(a) Find the value of $a$ and the value of $b$. [6]\n(b) State the restriction which must be placed on $x$ for this expansion to be valid. [1]"
+    },
+    "10": {
+      "topics": ["5", "2"], "subtopics": ["5.9", "5.11", "2.6", "5.8"],
+      "text_clean": "10. [Maximum mark: 16]\nA particle $P$ moves along the $x$-axis. The velocity of $P$ is $v\\ \\text{m s}^{-1}$ at time $t$ seconds, where $v(t) = 4 + 4t - 3t^2$ for $0 \\le t \\le 3$. When $t = 0$, $P$ is at the origin O.\n(a) (i) Find the value of $t$ when $P$ reaches its maximum velocity.\n(ii) Show that the distance of $P$ from O at this time is $\\frac{88}{27}$ metres. [7]\n(b) Sketch a graph of $v$ against $t$, clearly showing any points of intersection with the axes. [4]\n(c) Find the total distance travelled by $P$. [5]"
+    },
+    "11": {
+      "topics": ["1", "5"], "subtopics": ["1.15", "5.13", "5.19", "5.6"],
+      "text_clean": "11. [Maximum mark: 14]\n(a) Prove by mathematical induction that $\\frac{d^n}{dx^n}(x^2 e^x) = [x^2 + 2nx + n(n-1)]e^x$ for $n \\in \\mathbb{Z}^+$. [7]\n(b) Hence or otherwise, determine the Maclaurin series of $f(x) = x^2 e^x$ in ascending powers of $x$, up to and including the term in $x^4$. [3]\n(c) Hence or otherwise, determine the value of $\\lim_{x \\to 0}\\left[\\frac{(x^2 e^x - x^2)^3}{x^9}\\right]$. [4]"
+    },
+    "12": {
+      "topics": ["1"], "subtopics": ["1.14", "1.13", "1.12"],
+      "text_clean": "12. [Maximum mark: 22]\nConsider the equation $(z-1)^3 = i$, $z \\in \\mathbb{C}$. The roots of this equation are $\\omega_1$, $\\omega_2$ and $\\omega_3$, where $\\text{Im}(\\omega_2) > 0$ and $\\text{Im}(\\omega_3) < 0$.\n(a) (i) Verify that $\\omega_1 = 1 + e^{i\\frac{\\pi}{6}}$ is a root of this equation.\n(ii) Find $\\omega_2$ and $\\omega_3$, expressing these in the form $a + e^{i\\theta}$, where $a \\in \\mathbb{R}$ and $\\theta > 0$. [6]\nThe roots $\\omega_1$, $\\omega_2$ and $\\omega_3$ are represented by the points A, B and C respectively on an Argand diagram.\n(b) Plot the points A, B and C on an Argand diagram. [4]\n(c) Find AC. [3]\nConsider the equation $(z-1)^3 = iz^3$, $z \\in \\mathbb{C}$.\n(d) By using de Moivre's theorem, show that $\\alpha = \\frac{1}{1 - e^{i\\frac{\\pi}{6}}}$ is a root of this equation. [3]\n(e) Determine the value of $\\text{Re}(\\alpha)$. [6]"
+    }
+  }
+}

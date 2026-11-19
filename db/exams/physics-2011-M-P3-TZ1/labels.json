@@ -1,0 +1,266 @@
+{
+ "exam_id": "physics-2011-M-P3-TZ1",
+ "questions": {
+  "E1": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "E1. This question is about some of the planets in the solar system.\nFour of the planets in the solar system are Mars, Venus, Jupiter and Neptune.\n(a) List these planets in order of increasing distance from the Sun. [2]\n[Table: four blank rows from \"Nearest the Sun\" to \"Furthest from the Sun\"]\n(b) List these planets in order of decreasing diameter. [2]\n[Table: four blank rows from \"Largest diameter\" to \"Smallest diameter\"]",
+   "add_flags": [],
+   "note": "Solar-system content (2009 Option E1) has no dedicated code; filed under E.5 (astrophysics). | audit: solar-system content is E.5 under Option D/E mapping (audit)"
+  },
+  "E2": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "E2. This question is about the Hertzsprung–Russell (HR) diagram and using it to determine some properties of stars.\nThe diagram below shows the grid of a HR diagram, on which the positions of selected stars are shown. ($L_S$ = luminosity of the Sun.)\n[Graph: HR diagram, luminosity $L/L_S$ (log scale, $1.0\\times10^{-3}$ to $1.0\\times10^{5}$) against surface temperature $T$/K (decreasing from left, marks at $3.0\\times10^4$, $1.2\\times10^4$, $3.0\\times10^3$); dots forming a main sequence, two dots at low luminosity bottom left, two dots upper right; star A at $10^5 L_S$, $1.2\\times10^4$ K; star B at about $10^5 L_S$, about $3\\times10^3$ K]\n(a) (i) Draw a circle around the stars that are red giants. Label this circle R. [1]\n(ii) Draw a circle around the stars that are white dwarfs. Label this circle W. [1]\n(iii) Draw a line through the stars that are main sequence stars. [1]\n(b) Explain, without doing any calculation, how astronomers can deduce that star B has a larger diameter than star A. [3]\n(c) Using the following data and information from the HR diagram, show that star A is at a distance of about 800 pc from Earth. [4]\nApparent brightness of the Sun $= 1.4\\times10^{3}\\ \\mathrm{W\\,m^{-2}}$\nApparent brightness of star A $= 4.9\\times10^{-9}\\ \\mathrm{W\\,m^{-2}}$\nMean distance of Sun from Earth $= 1.0$ AU\n$1\\ \\mathrm{pc} = 2.1\\times10^{5}$ AU\n(d) Explain why the distance of star A from Earth cannot be determined by the method of stellar parallax. [1]",
+   "qtype": "long"
+  },
+  "E3": {
+   "topics": [
+    "X",
+    "B"
+   ],
+   "subtopics": [
+    "X.12",
+    "B.1"
+   ],
+   "text_clean": "E3. This question is about cosmology.\n(a) State how the observed red-shift of many galaxies is explained. [1]\n(b) Explain how the cosmic microwave background (CMB) radiation is consistent with the Big Bang model. [2]\n(c) Calculate the temperature of the universe when the peak wavelength of the CMB was equal to the wavelength of red light ($7.0\\times10^{-7}$ m). [2]"
+  },
+  "E4": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "E4. This question is about the main sequence star Khad (Phi Orionis).\nThe luminosity of Khad is $2.0\\times10^{4} L_S$, where $L_S$ is the luminosity of the Sun.\n(a) Assuming that the exponent $n$ in the mass–luminosity relation is 3.5, show that the mass of Khad is about 17 solar masses. [2]\n(b) Outline the likely evolution of the star Khad after it leaves the main sequence. [3]"
+  },
+  "E5": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "text_clean": "E5. This question is about Hubble's law and the age of the universe.\n(a) (i) State Hubble's law. [1]\n(ii) State why Hubble's law cannot be used to determine the distance from Earth to nearby galaxies, such as Andromeda. [1]\n(b) (i) Show that $\\frac{1}{H_0}$ is an estimate of the age of the universe, where $H_0$ is the Hubble constant. [2]\n(ii) Assuming $H_0 = 80\\ \\mathrm{km\\,s^{-1}\\,Mpc^{-1}}$, estimate the age of the universe in seconds. [1]"
+  },
+  "F1": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "F1. This question is about modulation.\nIn order to test a temporary radio communication link, an audio signal is broadcast using amplitude modulation (AM). The power spectrum of the resulting carrier wave is shown below.\n[Graph: amplitude against frequency/kHz; a tall line at 100 kHz and two shorter lines at 96 kHz and 104 kHz]\n(a) Use the information in the power spectrum to determine the\n(i) frequency of the carrier wave. [1]\n(ii) frequency of the audio signal. [1]\n(iii) bandwidth of this signal. [1]\n(b) (i) Distinguish between AM and frequency modulation (FM). [2]\nAM:\nFM:\n(ii) Outline one advantage and one disadvantage of using FM as opposed to AM for the transmission. [2]\nAdvantage:\nDisadvantage:"
+  },
+  "F2": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.10",
+    "X.14"
+   ],
+   "text_clean": "F2. This question is about data transmission systems.\nThe block diagram below represents an electronic system, $S_1$, which converts an analogue input signal into a serial digital output signal ready for transmission. It involves three separate system blocks labelled A, B and C.\n[Diagram: System $S_1$ — analogue input signal → A → B, eight parallel lines from B to C, C → serial digital output signal]\n(a) State whether the signal between block A and block B is analogue, digital or multiplexed. [1]\n(b) State the function of system block A. [1]\n(c) A similar system, $S_2$, is based on the same system blocks as $S_1$, but has fewer signal lines between block B and block C, as shown below.\n[Diagram: System $S_2$ — same as $S_1$ but with four parallel lines between B and C]\nExplain what differences, if any, there are between $S_1$ and $S_2$ with respect to the maximum quality of the reproduction of the analogue signal after transmission. [2]\n(d) The serial digital output signal is transmitted using an optical fibre link. The attenuation per unit length of the optical fibre is $-4\\ \\mathrm{dB\\,km^{-1}}$.\n(i) Define attenuation. [1]\n(ii) The input power to the fibre optic cable is 100 mW and the output power at the end of the cable is 1 mW. Determine the length of the cable. [2]\n(iii) State two processes that must take place in order for this digital signal to be transmitted over a very long distance. [2]",
+   "qtype": "long"
+  },
+  "F3": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "F3. This question is about satellites.\nA geostationary satellite is used by one country to broadcast information to a different country.\n(a) State which part of the electromagnetic spectrum is used for this type of communication. [1]\n(b) Explain two disadvantages of using a polar satellite for this type of communication, when compared with using a geostationary satellite. [2]\n(c) Outline one possible ethical issue associated with this broadcast. [1]"
+  },
+  "F4": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "F4. This question is about a Schmitt trigger.\nThe diagram below shows a Schmitt trigger circuit based on an operational amplifier (op-amp).\n[Circuit: op-amp with +3 V on the inverting (−) input; input $V_{IN}$ connected through a 22 kΩ resistor to the non-inverting (+) input; 100 kΩ feedback resistor from output to the + input; output $V_{OUT}$ measured relative to 0 V (earth)]\nThe output of this Schmitt trigger is positive saturation (+13 V) or negative saturation (–13 V).\n(a) State two properties of an ideal op-amp. [2]\n(b) Determine the input value that will cause the output to switch from –13 V to +13 V. [3]\n(c) Explain how a Schmitt trigger can be used to reshape a digital pulse. [3]"
+  },
+  "F5": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "F5. This question is about a mobile phone network.\nErin is a passenger on a train making a call to a standard fixed telephone line (\"landline\") from her mobile phone. The train moves Erin between adjacent communication cells. Outline the changes, if any, that take place in the\n(a) cellular exchange. [1]\n(b) public switched telephone network (PSTN). [1]"
+  },
+  "G1": {
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.3"
+   ],
+   "text_clean": "G1. This question is about dispersion.\n(a) State an approximate value for the wavelength of visible light. [1]\n(b) Describe what is meant by dispersion. [2]\n(c) A narrow beam, consisting of a mixture of red and blue light, is incident upon a rectangular glass block. The normal to the incident surface is shown.\n[Diagram: incident red and blue beams striking the top surface of a rectangular glass block obliquely, with the normal drawn dashed; air above, glass below]\nOn the diagram above, draw labelled lines to show the paths of the red and blue beams, as they pass through the glass block and out to the air on the other side. [2]"
+  },
+  "G2": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "text_clean": "G2. This question is about a convex lens.\nThe diagram below, drawn to scale, shows a small object O placed in front of a thin convex (converging) lens. The focal points of the lens are shown, labelled F. The lens is represented by the straight line XY.\n[Diagram: principal axis with lens XY at centre, focal points F on each side; object O (upright arrow) placed between the left F and the lens]\n(a) (i) Define the term focal point. [2]\n(ii) On the diagram above, construct the paths of two rays in order to locate the position of the image formed by the lens. Label the image I. [3]\n(iii) Explain whether the image is real or virtual. [1]\n(b) A converging lens, of focal length 5.0 cm, is used as a simple magnifying glass to view an object of length 0.80 cm. The observer's eye is very close to the lens. The image is formed at the near point (25 cm).\n(i) Determine the distance of the object from the lens. [2]\n(ii) Determine the length of the image. [2]",
+   "qtype": "long"
+  },
+  "G3": {
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.3"
+   ],
+   "text_clean": "G3. This question is about using a diffraction grating to view the emission spectrum of sodium.\nLight from a sodium discharge tube is incident normally upon a diffraction grating having $8.00\\times10^{5}$ lines per metre. The spectrum contains a double yellow line of wavelengths 589 nm and 590 nm.\n(a) Determine the angular separation of the two lines when viewed in the second order spectrum. [4]\n(b) State why it is more difficult to observe the double yellow line when viewed in the first order spectrum. [1]"
+  },
+  "G4": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.2"
+   ],
+   "text_clean": "G4. This question is about X-rays.\nElectrons are accelerated through a potential difference of 25 kV and strike a molybdenum target. The resulting X-ray spectrum is shown below.\n[Graph: intensity/relative units (0–5) against wavelength/$\\times10^{-10}$ m (0–3.0); continuous spectrum starting at about $0.5\\times10^{-10}$ m, two sharp characteristic peaks near $0.6$–$0.7\\times10^{-10}$ m (highest about 4.8), broad maximum about 4 at about $1.1\\times10^{-10}$ m, falling to about 0.7 at $3.0\\times10^{-10}$ m]\nThe accelerating potential difference is changed to 15 kV.\n(a) Calculate the minimum wavelength of the X-rays produced. [2]\n(b) On the graph above, sketch the X-ray spectrum that would be produced. [3]",
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "X-ray production spectrum (2009 Option G4); no dedicated code, filed as photon energy E.2."
+  },
+  "G5": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.4"
+   ],
+   "text_clean": "G5. This question is about wedge film interference.\nOne flat, glass slide is placed at an angle on top of a second identical slide. The slides are in contact along one short edge and are separated at the other edge by a thin piece of paper, as shown below.\n[Diagram: two glass slides forming a thin air wedge of length L, separated at one end by paper; thickness t of the air wedge marked; light incident vertically from above (diagram not to scale)]\nA thin wedge of air of variable thickness, $t$, is trapped between the two slides. The arrangement is viewed normally from above, using light of wavelength 590 nm. The glass plates are coated, so that reflection only takes place at the bottom surface of the top plate and the top surface of the bottom plate.\nA series of straight bright and dark fringes, equally separated and parallel to the short edge of the slides, is seen.\n(a) Deduce that the thickness of the air wedge $t$ that gives rise to a bright fringe, is given by $2t = (m+\\frac{1}{2})\\lambda$. [2]\n(b) The length of the air wedge, $L$, is 8.2 cm. The bright fringes are each separated by a distance of 1.2 mm. Calculate the thickness of the paper. [3]"
+  },
+  "H1": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "H1. This question is about length contraction and simultaneity.\n(a) Define proper length. [1]\n(b) A spaceship is travelling to the right at speed 0.75c, through a tunnel which is open at both ends. Observer A is standing at the centre of one side of the tunnel. Observer A, for whom the tunnel is at rest, measures the length of the tunnel to be 240 m and the length of the spaceship to be 200 m. The diagram below shows this situation from the perspective of observer A.\n[Diagram: spaceship (200 m) with observer B at its centre moving right at 0.75c inside a tunnel (240 m) with observer A at the centre of the tunnel]\nObserver B, for whom the spaceship is stationary, is standing at the centre of the spaceship.\n(i) Calculate the Lorentz factor, $\\gamma$, for this situation. [1]\n(ii) Calculate the length of the tunnel according to observer B. [1]\n(iii) Calculate the length of the spaceship according to observer B. [1]\n(iv) According to observer A, the spaceship is completely inside the tunnel for a short time. State and explain whether or not, according to observer B, the spaceship is ever completely inside the tunnel. [2]\n(c) Two sources of light are located at each end of the tunnel. The diagram below shows this situation from the perspective of observer A.\n[Diagram: same as above with light 1 at the left end and light 2 at the right end of the tunnel]\nAccording to observer A, at the instant when observer B passes observer A, the two sources of light emit a flash. Observer A sees the two flashes simultaneously. Discuss whether or not observer B sees the two flashes simultaneously. [4]",
+   "qtype": "long"
+  },
+  "H2": {
+   "topics": [
+    "A",
+    "X"
+   ],
+   "subtopics": [
+    "A.5",
+    "X.7"
+   ],
+   "text_clean": "H2. This question is about relative velocities and energy at relativistic speeds.\nTwo identical rockets are moving along the same straight line as viewed from Earth. Rocket 1 is moving away from the Earth at speed 0.80c relative to the Earth and rocket 2 is moving away from rocket 1 at speed 0.60c relative to rocket 1.\n[Diagram: Earth, rocket 1 moving right at 0.80c relative to Earth, rocket 2 moving right at 0.60c relative to rocket 1]\n(a) Calculate the velocity of rocket 2 relative to the Earth, using the\n(i) Galilean transformation equation. [1]\n(ii) relativistic transformation equation. [2]\n(b) Comment on your answers in (a). [2]\n(c) The rest mass of rocket 1 is $1.0\\times10^{3}$ kg. Determine the relativistic kinetic energy of rocket 1, as measured by an observer on Earth. [3]"
+  },
+  "H3": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "H3. This question is about the Michelson–Morley experiment.\nThe diagram below shows the essential features of the apparatus used in the Michelson–Morley experiment.\n[Diagram: light source above a semi-transparent mirror at 45°; two perpendicular arms ending in mirrors (one to the left, one below); recombined beams travel to a telescope on the right]\n(a) State and explain how this apparatus was used to try and measure the speed of the Earth relative to the aether. [4]\n(b) State the result of this experiment and explain how this result supports the special theory of relativity. [2]"
+  },
+  "H4": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "H4. This question is about gravitational red-shift.\nTwo identical lasers are situated on the surface of the Earth. One is directed horizontally towards observer A, who measures the frequency to be $4.62\\times10^{14}$ Hz. The other is directed vertically upwards towards observer B, who is at a height of $1.00\\times10^{2}$ m.\n[Diagram: lasers on Earth's surface; one beam horizontal to observer A, one beam vertical to observer B at height $1.00\\times10^{2}$ m]\n(a) (i) State how the frequency as measured by observer B compares with the frequency as measured by observer A. [1]\n(ii) Calculate the difference in frequency between the laser light as measured by observers A and B. [2]\n(iii) State one assumption that you made in (a)(ii). [1]\n(b) The lasers are now placed on a spaceship, which is accelerating upwards at a constant rate of $9.81\\ \\mathrm{m\\,s^{-2}}$, far away from any other masses as shown below. The distance of observer D from the laser is $1.00\\times10^{2}$ m. Observer C is at the bottom of the spaceship.\n[Diagram: spaceship accelerating upwards at $9.81\\ \\mathrm{m\\,s^{-2}}$; lasers at the bottom, one beam horizontal to observer C, one beam vertical to observer D $1.00\\times10^{2}$ m above]\nExplain, with reference to the equivalence principle, the frequencies measured by observers C and D, as compared to observers A and B. [2]"
+  },
+  "I1": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "I1. This question is about sound intensity levels.\nAs part of a safety inspection of a new factory, a data logger measures the intensity of the sounds generated by the machines. The sound intensity levels need to be within acceptable limits.\n(a) Define intensity and intensity level. [2]\nIntensity:\nIntensity level:\n(b) The data logger is moved between five different locations in the factory (A → E). The readings are shown below.\nLocation | Reading on data logger / $\\mathrm{mW\\,m^{-2}}$\nA | 302\nB | 158\nC | 891\nD | 413\nE | 524\n(i) Determine the intensity level at the noisiest location. [3]\n(ii) Using your answer to (b)(i), discuss whether or not it is necessary for the machine operators to use ear protectors when working in this factory. [2]\n(iii) One possible effect on hearing of long-term exposure to noise is tinnitus. Outline what is meant by tinnitus. [1]"
+  },
+  "I2": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11",
+    "X.10"
+   ],
+   "text_clean": "I2. This question is about medical imaging.\nA patient is suspected of having a partial blockage in his intestine as it leads away from his stomach. Possible medical imaging techniques include X-ray photography, ultrasound and the use of an endoscope.\n(a) When producing the X-ray photograph, the dose is kept to a minimum by a technique called enhancement.\n(i) Outline why the dose needs to be kept to a minimum. [2]\n(ii) Describe one possible enhancement technique. [2]\n(iii) Discuss any extra procedures that are needed to get an appropriate image of the intestine in this situation. [2]\n(b) A successful ultrasound scan relies on changes of acoustic impedance around the structure being imaged.\n(i) Define acoustic impedance. [1]\n(ii) State the SI unit in which it is measured. [1]\n(iii) Explain, in terms of acoustic impedance, why gel needs to be applied on the surface of the skin before the ultrasound scan. [2]\n(c) The blockage is cut out and removed in a procedure which involves a laser and an endoscope.\n(i) Outline how it is possible to use a laser as a scalpel (knife). [2]\n(ii) By referring to the role played by optic fibres, discuss how an endoscope is used in this situation. [2]",
+   "qtype": "long",
+   "note": "audit: laser scalpel is medical application, not X.4"
+  },
+  "I3": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "I3. This question is about radiation in medicine.\nA nuclear stress test is used to investigate the blood flow within a patient's heart during exercise. The radioisotope thallium-201 is injected into the patient's blood and a gamma-ray detector is then used to record its distribution within the heart muscle.\nThe following information about this procedure is available.\nMass of patient = 75 kg\nDose equivalent for a nuclear stress test = 25 mSv\n(a) The quality factor of the gamma-rays is 1. Determine the energy absorbed by the patient as a result of the thallium injection. [3]\n(b) Suggest whether you would expect the energy calculated in (a) to result in a significant increase in the patient's temperature. [1]\n(c) On average, 1 in every 1000 patients who undertake a nuclear stress test go on to develop cancer as a result of the radioactive dose that they received during the test.\n(i) By referring to the concept of balanced risk, outline why the test may still be of benefit to the patient. [2]\n(ii) The hospital technician who administers the test could also receive an increased dose. Outline how film badges are used to protect technicians from receiving excessive doses of radiation. [2]"
+  },
+  "J1": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "J1. This question is about mesons.\n(a) State what is meant by an exchange particle. [1]\n(b) In 1935, the physicist Hideki Yukawa predicted that the strong interaction between nucleons was mediated by particles called mesons. Given that the range of the strong interaction is approximately $1.5\\times10^{-15}$ m, calculate a possible value for the rest mass of a meson. [2]\n(c) A meson called the pion was detected in cosmic ray reactions in 1947 by Powell and Occhialini. The pion comes in three possible charge states: $\\pi^+$, $\\pi^-$ and $\\pi^0$. The Feynman diagram below represents a possible reaction in which a pion participates.\n[Feynman diagram: upper vertex p in → n out; lower vertex n in → p out; a pion (dashed line) exchanged, arrow pointing from upper vertex to lower vertex]\nState and explain whether the meson produced is a $\\pi^+$, $\\pi^-$ or a $\\pi^0$. [2]\n(d) State the possible spin numbers of mesons and explain your answer. [3]\n(e) Explain why, according to the quark model, it is not possible for a particle to consist of two up quarks only. [2]",
+   "qtype": "long"
+  },
+  "J2": {
+   "topics": [
+    "X",
+    "D",
+    "E"
+   ],
+   "subtopics": [
+    "X.2",
+    "D.3",
+    "E.2"
+   ],
+   "text_clean": "J2. This question is about accelerating particles.\nThe diagram below shows the basic structure of a cyclotron.\n[Diagram: cyclotron — two D-shaped dees in a vacuum chamber with an alternating supply across the gap, magnetic field into the page (crosses), spiral particle path from the source at the centre out to a target]\nCharged particles are emitted from a source at the centre. They move in a vacuum through two D-shaped cavities or \"dees\". There is a uniform magnetic field directed into the page, within the region of the dees.\n(a) Outline why the voltage applied across the dees must change polarity every half revolution. [2]\n(b) Show that the frequency, $f$, of the applied potential difference is given by the expression\n$f = \\frac{qB}{2\\pi m}$\nwhere\n$q$ = charge of particle\n$m$ = mass of particle\n$B$ = magnetic field strength. [3]\n(c) State two disadvantages of using a cyclotron rather than a synchrotron to accelerate particles. [2]\n(d) Explain why it is necessary to accelerate particles to high speeds in order to create new particles of large mass. [2]\n(e) High energy particles are used to probe the nucleus. Explain why alpha particles would give better resolution than protons moving at the same speed. [3]",
+   "qtype": "long"
+  },
+  "J3": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "J3. This question is about energy and conservation laws.\nTwo protons moving at the same speed in opposite directions, collide with each other producing three protons and an anti-proton, as shown below.\n$\\mathrm{p} + \\mathrm{p} \\rightarrow \\mathrm{p} + \\mathrm{p} + \\bar{\\mathrm{p}} + \\mathrm{p}$\n(a) Calculate the minimum possible kinetic energy of one of the colliding protons. [2]\n(b) Explain why the following reaction is not possible, even if the colliding particles have enough energy.\n$\\mathrm{p} + \\mathrm{n} \\rightarrow \\mathrm{p} + \\mathrm{p} + \\bar{\\mathrm{p}}$ [2]"
+  },
+  "J4": {
+   "topics": [
+    "X",
+    "B"
+   ],
+   "subtopics": [
+    "X.12",
+    "X.2",
+    "B.3"
+   ],
+   "text_clean": "J4. This question is about cosmology and strings.\n(a) The binding energy of a helium nucleus is about 28 MeV. Calculate the temperature of the universe above which helium nuclei could not have existed. [2]\n(b) State two fundamental differences between the standard model and the theory of strings. [2]"
+  }
+ }
+}

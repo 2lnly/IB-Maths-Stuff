@@ -1,0 +1,287 @@
+{
+ "exam_id": "math-2025-M-P2-TZ3",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2025,
+ "session": "May",
+ "tz": "TZ3",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 2/M25 TZ3/Mathematics_analysis_and_approaches_paper_2_TZ3_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 2/M25 TZ3/Mathematics_analysis_and_approaches_paper_2_TZ3_HL_markscheme.pdf",
+ "notes": "3 duplicate copies (2 byte-identical size, 1 donated/scanned); duplicate /home/xiaohe/stuff/IB PAST PAPERS - YEAR/2025 Examination Session/DONATED PAPERS M25/Maths/AAHL P2 Zone C.pdf: time zone TZ3 assigned by distinctive-word overlap 0.98 (next TZ 0.17, 41 words) with Mathematics_analysis_and_approaches_paper_2_TZ3_HL.pdf; paper number 2225-7117; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2025-M-P2-TZ3-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\nThe following diagram shows a triangle ABC , with AB=7 , AC=12 and BÂC=116°.\ndiagram not to scale\nA\n7\n116˚\nB\n12\nC\n(a) Find BC .\b [3]\n(b) Find AĈB .\b [3]",
+   "ms_text": "(a) substituting into cosine rule 1. (M1)\n2 2 2 ο ( BC = ) 12 + 7 −× 2127cos116 ×× ( )\n(A1)\n266.646... = 16.3293...\n( BC = ) 16.3 A1\n[3 marks]\nˆ ˆ (b) substituting into sine rule or cosine rule for angle ACB or angle ABC\n(M1)\nˆ sinACB ( )\nsin116 ( ο )\n2 2 2 ˆ =\nOR 7 = 12 + 16.3293... −× 21216.3293...cos(ACB) × ×\n7 16.3293...\nˆ OR180 °− 116 °− 41.3 °from finding angle ABC (A1)\n22.6618…\n( ˆ ) ACB = 22.7 () ο(accept 22.8() οif using previous 3sf AND the cosine rule) A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nThe following diagram shows a triangle ABC, with $AB = 7$, $AC = 12$ and $B\\hat{A}C = 116^\\circ$.\n[Diagram: triangle ABC with AB = 7, AC = 12, angle 116° at A; diagram not to scale]\n(a) Find BC. [3]\n(b) Find $A\\hat{C}B$. [3]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ3-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nConsider the function f(x)=2x4−6x3+px2+qx−2 , where p , q∈ϒ .\nA factor of f(x) is (x-1) , and when f(x) is divided by (x-3) the remainder is -2 .\nFind the value of p and of q .",
+   "ms_text": "2. EITHER\nuse of the remainder or factor theorem (M1)\nf (1) = 0 OR f (3) = − 2\nf (1) = 2 −+ 6 p + q − 2 = 0( ⇒ p + q = 6) (A1)\nf (3) = 162162 − + 9 p + 3 q − 2 = − 2( ⇒ 3 p + q = 0) (A1)\nOR\nattempt to use synthetic division OR long division to find remainder (M1)\n4 3 2 2 x − 6 x + p x + qx − 2 p + q − 6\n= 2 3 − 4 2 + ( − 4 ) + + − 4 + ⇒ + − 6 = 0 x x p x p q p q (A1)\nx − 1 x − 1\n4 3 2 2 x − 6x + p x + qx − 2 9 p + 3 q − 2\n= 3 + + + + ⇒ + − = − 2 x px 3 p q 9 p 3 q 2 2 (A1)\nx − 3 x − 3\nTHEN\nsolving simultaneously their two equations in p and q (M1)\np = − 3, q = 9 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nConsider the function $f(x) = 2x^4 - 6x^3 + px^2 + qx - 2$, where $p, q \\in \\mathbb{R}$.\nA factor of $f(x)$ is $(x-1)$, and when $f(x)$ is divided by $(x-3)$ the remainder is $-2$.\nFind the value of $p$ and of $q$."
+  },
+  {
+   "id": "math-2025-M-P2-TZ3-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nA supermarket analyses the shopping habits of its customers.\nThe number of times, X , each customer visits the supermarket in a week is given by the\nfollowing probability distribution.\nx 1 2 3 4 5 ≥6\nP (X=x) 1.5a 2a 0.281 a 0.026 0\n(a) (i) Find the value of a .\n(ii) Write down the mode of X .\b [3]\n(b) Find the mean of X .\b [2]\nThe manager wants to know why customers come to their supermarket. They survey the\nfirst 50 customers to arrive at the supermarket on a particular day.\n(c) Identify which one of the following best describes the manager’s sampling method.\nCircle your answer.\b [1]\nSimple random / Systematic / Convenience / Quota / Stratified",
+   "ms_text": "3. (a) (i) summing probabilities and equating to 1 (M1)\n1.5 a + 2 a + 0.281 + a + 0.026 = 1\n( a = )0.154 A1\n(ii) 2 (days) A1\n[3 marks]\n(b) using expected value formula (M1)\n(mean =)2.44 (2.436 (exact)) A1\n[2 marks]\n(c) convenience (sampling) A1\n[1 mark]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7",
+    "4.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nA supermarket analyses the shopping habits of its customers.\nThe number of times, $X$, each customer visits the supermarket in a week is given by the following probability distribution.\n$x$ | 1 | 2 | 3 | 4 | 5 | $\\ge 6$\n$P(X=x)$ | $1.5a$ | $2a$ | 0.281 | $a$ | 0.026 | 0\n(a) (i) Find the value of $a$.\n(ii) Write down the mode of $X$. [3]\n(b) Find the mean of $X$. [2]\nThe manager wants to know why customers come to their supermarket. They survey the first 50 customers to arrive at the supermarket on a particular day.\n(c) Identify which one of the following best describes the manager's sampling method. Circle your answer. [1]\nSimple random / Systematic / Convenience / Quota / Stratified"
+  },
+  {
+   "id": "math-2025-M-P2-TZ3-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nThe following diagram shows a circle with centre O .\nPoints A , B and C lie on the circle.\ndiagram not to scale\nC\nO\n2.51\nA B\nThe area of triangle AOB is 26 cm2 and AÔB=2.51 radians.\nFind the length of arc ACB .",
+   "ms_text": "Attempts to use the area formula for triangle AOBAND equate it to 26 4. (M1)\n1\n×× sin(2.51) = 26 OR1 OAOBsin AOB × × = 26\n2ab\n2\n1\n2 × r × sin(2.51) = 26 or equivalent\n(A1)\n2\nr = 9.38462... (A1)\nuse of arc length formula to find the major arc ACB (M1)\n9.38462...(2π × − 2.51) OR2π9.38462... × − 9.38462...2.51 × OR9.38462...3.773185... ×\n35.4099…\n(arc length =) 35.4 (cm) A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nThe following diagram shows a circle with centre O.\nPoints A, B and C lie on the circle.\n[Diagram: circle centre O; chord AB with triangle AOB, angle 2.51 at O; C on the major arc; diagram not to scale]\nThe area of triangle AOB is $26\\text{ cm}^2$ and $A\\hat{O}B = 2.51$ radians.\nFind the length of arc ACB."
+  },
+  {
+   "id": "math-2025-M-P2-TZ3-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\n3 ( 2 x � a )\nConsider the function fx () � 2, where x≠-5 and a∈ϒ+ .\n( x � 5 )\n(a) Find an expression for f′(x) , in terms of a .\b [3]\nWhen x=1 , the tangent to the graph of f makes an angle of 70° to the horizontal.\nFind the two possible values of a .\b (b) [4]",
+   "ms_text": "5. (a) use of quotient rule or product rule (M1)\nEITHER\n2 2 3 3 ×× 2 (2 x + a )( x + 5) − 2(2 x + a )( x + 5)\nf ′ () x = (A1)\n2 2\n( ( x + 5) )\n2 2 3 2 6(2 x + a )( x + 5) − 2(2 x + a )( x + 5) 2( x − a + 15)(2 x + a )\nf ′ () x = = A1\n4 3 ( x + 5) ( x + 5)\nOR\n2 − 2 3 − 3 f ′ () x = 3 ×× 2 (2 x + a ) ( x + 5 ) − 2(2 x + a )( x + 5)\n(A1)\n′ 2 − 2 3 − 3 ( 2 − 3 ) f () x = 6(2 x + a ) ( x + 5 ) − 2(2 x + a )( x + 5) = 2 ( x − a + 15)(2 x + a ) ( x + 5) A1\n[3 marks]\n(b) recognizing f ′ (1) is equal to tan 70ο(=2.74747) (M1)\n6(2 + a )6 2 2 − 2(2 + a ) 3 × 6 2 − 2 3 − 3 ο\n= tan 70 ο OR 6(2 + a )6 − 2(2 + a ) × 6 = ta70 n (A1)\n4 6\n2.72844…, 14.96968…\n2.73,15.0 a = A1A1\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nConsider the function $f(x) = \\frac{(2x+a)^3}{(x+5)^2}$, where $x \\ne -5$ and $a \\in \\mathbb{R}^+$.\n(a) Find an expression for $f'(x)$, in terms of $a$. [3]\nWhen $x = 1$, the tangent to the graph of $f$ makes an angle of $70^\\circ$ to the horizontal.\n(b) Find the two possible values of $a$. [4]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ3-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 8]\n� 5 � � 8 � � p � Consider the vectors a �� , b ��\n, where p∈ϒ . and c ��\n�� 7 �� �� 9 �� �� 6 ��\n(a) Find an expression, in terms of p , for\n(i) a • c ;\nb • c .\b (ii) [3]\nThe angle between a and c is equal to the angle between b and c .\n(b) Find the value of p .\b [5]",
+   "ms_text": "6. (a) substituting into scalar product formula (M1)\n(i) ( ac γ =− ) 5 p − 42 A1\n(ii) ( bc =− ) 8 p − 54 γ A1\n[3 marks]\n(b) substituting into the angle between two vectors formula to find either γ ac or γ bc (M1)\n− 5 p − 42 − 8 p − 54\ncos θ = , cos θ = (A1)(A1)\n2 2 74 p + 36 145 p + 36\nequating their two expressions for cosθ (M1)\n− 5 p − 42 − 8 p − 54\n=\n74 145\np = 4.78727...\n( p = )4.79 A1\n[5 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 8]\nConsider the vectors $\\boldsymbol{a} = \\begin{pmatrix}-5\\\\7\\end{pmatrix}$, $\\boldsymbol{b} = \\begin{pmatrix}-8\\\\9\\end{pmatrix}$ and $\\boldsymbol{c} = \\begin{pmatrix}p\\\\-6\\end{pmatrix}$, where $p \\in \\mathbb{R}$.\n(a) Find an expression, in terms of $p$, for\n(i) $\\boldsymbol{a}\\cdot\\boldsymbol{c}$;\n(ii) $\\boldsymbol{b}\\cdot\\boldsymbol{c}$. [3]\nThe angle between $\\boldsymbol{a}$ and $\\boldsymbol{c}$ is equal to the angle between $\\boldsymbol{b}$ and $\\boldsymbol{c}$.\n(b) Find the value of $p$. [5]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ3-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\n1\nIn the expansion of , where q∈⁄+ , the coefficient of x6 is 5120 .\n2 q − x\nFind the value of q .",
+   "ms_text": "1\n− 1 2 1\n1 − x 2 1 −\n( 2 ) 2 7. = q 2 1 − OR = q − x (A1)\n2 q 2 q − x q − x\nsubstituting into extension of binomial theorem formula to find term in 6x (M1)\n3 3 1 2 2\n− 1 1 1 1 1 x 5 x −− 3 3\n2 ( 2 ) − ×− − 1 ×− − 2 × ×− = − ×− OR 2 × q ×− x (A1)\n2 2 2 3! q 16 q\nr\n3 1 7 7\n− 5 1 5 − 5 −\n2 2 2 6 q ×− ×− = q OR x (A1)\n16q\n16 q 1 6\n6 equating their coefficient to 5120 or their term in 6x to 5120x\n(M1)\n7 7 5 5\n−\n−= 2 2 6 6 5120 OR x = 5120 x\n16q 16q\n1\n= = q 0.0625 A1\n16\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nIn the expansion of $\\frac{1}{\\sqrt{q - x^2}}$, where $q \\in \\mathbb{Q}^+$, the coefficient of $x^6$ is 5120.\nFind the value of $q$."
+  },
+  {
+   "id": "math-2025-M-P2-TZ3-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 5]\nA class of students plays a tic-tac-toe competition among themselves. Each individual game\nin the competition involves only two students.\nEvery student in the class is to play every other student twice. However, Stephen left the\nclass after he had played only seven games. All other games, not involving Stephen, were played.\nBy the end of the competition a total of 513 games had been played.\nDetermine the number of students that were originally in the class.",
+   "ms_text": "8. METHOD 1\nEITHER\nnumber of games played by n − players 1 n− 1 OR( n − 1)( n − 2) C × 2 (A2)\n2\ntotal number of games is n− 1 C × 2 + 7 OR( n − 1)( n − 2) + 7 (A1)\n2\nOR\nn OR( nn − 1) total number of games that should have been played is 2 × C (A1)\n2\nStephen should have played 2( n − 1) so he missed 2( n − 1) − 7 games (A1)\ntotal number of games played is nn ( − 1) − ( 2( n − 1) − 7 ) (A1)\nTHEN\nequating their total number of games to 513 (M1)\nn = 24 A1\nMETHOD 2\nthere are N students other than Stephen\nnumber of games played by N students is 2 ( ( N − 1 )( + N − 2 ) + ... + 21 + )( = NN ( − 1) ) (A1)\nNN − ( 1) + 7 total number of games that are played (A1)\nequating their total number of games to 513 (M1)\nN= 23 (A1)\nnumber of students in class = 24 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 5]\nA class of students plays a tic-tac-toe competition among themselves. Each individual game in the competition involves only two students.\n[Diagram: sheet of paper with a tic-tac-toe game and a pencil]\nEvery student in the class is to play every other student twice. However, Stephen left the class after he had played only seven games. All other games, not involving Stephen, were played.\nBy the end of the competition a total of 513 games had been played.\nDetermine the number of students that were originally in the class."
+  },
+  {
+   "id": "math-2025-M-P2-TZ3-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 9]\nAn airplane, P , is flying over horizontal ground at a constant height of 6 km and travelling at\na constant speed. It is approaching a runway, [AB] , which is 2 km in length.\nLet G be the point on the ground directly below the airplane. When GA=xkm , the pilot’s\nviewing angle of the runway, AP̂ B , is q .\nThis is shown in the following diagram.\ndiagram not to scale\nP\nθ\n6\nG A B\nx 2\n� x � 2 � � x �\n(a) Show that �� arctan arctan .\b [2]\n��� ��\n6 �� 6 ��\nWhen the viewing angle is 0.178 radians, the rate at which the viewing angle is changing\nis 12.5 radians per hour.\n(b) Find the speed of the airplane.\b [7]",
+   "ms_text": "ˆ 9. (a) Let APG = α\nθ= ˆ − ˆ BPG APG (may be seen in diagram) (M1)\nx + 2 x + 2 x x\ntan ( θ + α ) = ⇒ θ + α = arctan AND tan α = ⇒ α = arctan A1\n6 6 6 6\nx + 2 x\nθ = arctan − arctan\n6 6\nAG\n[2 marks]\n(b) METHOD 1\nsetting θ= 0.178 (M1)\nx + 2 x\narctan − arctan = 0.178\n6 6\nx = 4.63047... (A1)\nNote: The following three marks are independent of the first two marks.\nEITHER\nd x + 2 6 d x 6 = =\narctan OR arctan (seen anywhere) (A1)\n2 2 d x 6 ( x + 2) + 3 6 d x 6 x + 3 6\nx + 2 x\nattempt to use the chain rule to differentiate arctan − arctan with respect to t(M1)\n6 6\nd θ 6 d x 6 d x θ d x OR d\n= × − × =− 0.0294199... × (or equivalent) (A1)\nd t ( x + 2) 2 + 3 6 d t x 2 + 3 6 d t d t d t\nsubstituting their x and d θ= 12.5\n(M1)\ndt\nd x\n12.5 = − 0.0294 199. .. ×\nd t\nOR\nd 12 12(2 x + 2)\n= −\n(seen anywhere) (A1)\n2 2 d x x + 2 x + 36\n( x 2 + 2 x + 36 )\n12\nattempt to use the chain rule to differentiate tan θ= with respect to t (M1)\n2 x + 2 x + 36\nd θ 12(2 x + 2) d x d θ d x\n2 se c θ = − sec 2 θ = − 0.030372. 1 . . ×\nOR (or equivalent) (A1)\n2 d t\n( 2 ) d t d t d t x + 2 x + 36\n, their x and d θ=\nsubstituting θ= 0.178 12.5 (M1)\ndt\nd x\n2 × = − × s e c (1 0 . 7 8 ) 12.5 0 . 0 3 0 37 21...\nd t\nTHEN\nd x\n424.881...\nt= −\nd\n(speed)425(kmhr) = − 1 A1\nMETHOD 2\nsetting θ= 0.178 (M1)\nx + 2 x\narctan − arctan = 0.178\n6 6\n4.63047... x = (A1)\nsubstitutes their value of x to find d θ when θ= 0.178\n(M1)\ndx\nd θ= −\n0.0294199...\ndx\nrecognition that chain rule required (seen anywhere) (M1)\nd x d x d θ\n= × (or equivalent, must include , and xt θ )\nd t d θ d t\nd θ θ= −\n( ) and d substituting their value for 0.0294199... = 12.5 (M1)\ndx dt\nd x 1\n= × 12.5\n− d t 0.0294199...\n= − 424.881...\n− 1 (speed)425(km hr) =\nA2\n[7 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.15",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 9]\nAn airplane, P, is flying over horizontal ground at a constant height of 6 km and travelling at a constant speed. It is approaching a runway, [AB], which is 2 km in length.\nLet G be the point on the ground directly below the airplane. When $GA = x$ km, the pilot's viewing angle of the runway, $A\\hat{P}B$, is $\\theta$.\nThis is shown in the following diagram.\n[Diagram: airplane P at height 6 above G; points G, A, B on the ground with GA = x and AB = 2; angle θ at P between PA and PB; diagram not to scale]\n(a) Show that $\\theta = \\arctan\\left(\\frac{x+2}{6}\\right) - \\arctan\\left(\\frac{x}{6}\\right)$. [2]\nWhen the viewing angle is 0.178 radians, the rate at which the viewing angle is changing is 12.5 radians per hour.\n(b) Find the speed of the airplane. [7]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ3-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 14]\nTwo athletes, Fiona and Lucy, compete in a 200 metres race along a straight track.\n8 14 . t\nFiona’s velocity, in m s-1 , during the race can be modelled by vt () � , where t≥0 .\n2\nTime, t , is measured in seconds from when the race starts. t � 0 2 .\n(a) (i) Write down the value of v(1) .\nFind the time when Fiona’s velocity is 5m s-1 .\b (ii) [3]\n(b) Find the time when Fiona’s acceleration is 4m s-2 .\b [2]\n(c) (i) Write down the limit of v(t ) as t approaches infinity.\n(ii) State a reason why the value in part (c)(i) is not valid in the context of this question.\b[3]\n8 t\nLucy’s velocity, in m s-1 , during the race can be modelled by wt () � , where t≥0 .\n2 � t 0 3 .\nFiona completes the race and crosses the finishing line in front of Lucy.\nFind the distance Lucy is from the finishing line when Fiona completes the 200 metres. \b (d) [6]",
+   "ms_text": "10. (a) (i) 7.43076…\n− 1 v (1) = 7.43(ms)\nA1\n(ii) equating () vt and 5 (M1)\n0.348114…\n0.348 (seconds) A1\n[3 marks]\n(b) recognizing a = vt ′ () (M1)\n0.590930...\n0.591 (seconds) A1\n[2 marks]\n(c) (i) considering large values of t (M1)\n( ) − 1 lim ( vt () ) = 8.14(ms) A1\nt →∞\n(ii) EITHER\nthe race lasts a finite time (e.g. it ends after (Fiona) crosses the line) R1\nOR\nthe graph approaches the limiting value but Fiona will never attain that speed R1\nOR\nFiona cannot maintain that speed for a long period of time R1\nNote: Award R1 for a valid reason that does not contradict their answer to part (c)(i).\n[3 marks]\n(d) Fiona takes ft seconds to travel 200 m\nEITHER\nrecognizing distance travelled by either athlete in the first t seconds is\nt t\n∫ vt () d t OR ∫ wt () d t (seen anywhere) (M1)\n0 0\nequating distance travelled by Fiona to 200 (m) (M1)\nft\n∫ vt () d t = 200\n0\nOR\nattempt to integrate () vt (M1)\n2 st () = 8.14 t + 0.2 − 3.64031...\nequating 200 to their() st (must include a constant of integration) (M1)\n2 8.14 t+ 0.2 − 3.64031... = 200\nTHEN\nft= 25.0132... (accept 25) (A1)\nrecognition that a definite integral of wtwith 0 and their () ftis required (M1)\n25.0132...\n= (Lucy’s distance =) ∫ wt () d t ( 195.772... )\n0\ndistance from finishing line = 200 – their Lucy’s distance (M1)\n4.22788…\n4.23 (m) A1\n[6 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.11",
+    "5.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 14]\nTwo athletes, Fiona and Lucy, compete in a 200 metres race along a straight track.\nFiona's velocity, in $\\text{m s}^{-1}$, during the race can be modelled by $v(t) = \\frac{8.14t}{\\sqrt{t^2 + 0.2}}$, where $t \\ge 0$. Time, $t$, is measured in seconds from when the race starts.\n(a) (i) Write down the value of $v(1)$.\n(ii) Find the time when Fiona's velocity is $5\\text{ m s}^{-1}$. [3]\n(b) Find the time when Fiona's acceleration is $4\\text{ m s}^{-2}$. [2]\n(c) (i) Write down the limit of $v(t)$ as $t$ approaches infinity.\n(ii) State a reason why the value in part (c)(i) is not valid in the context of this question. [3]\nLucy's velocity, in $\\text{m s}^{-1}$, during the race can be modelled by $w(t) = \\frac{8t}{\\sqrt{t^2 + 0.3}}$, where $t \\ge 0$.\nFiona completes the race and crosses the finishing line in front of Lucy.\n(d) Find the distance Lucy is from the finishing line when Fiona completes the 200 metres. [6]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ3-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 18]\nAmanda enters data from surveys into a database. It can be assumed that the accuracy of\nany survey entered is independent of all other surveys entered.\nFrom previous records, it is known that Amanda enters 8 % of the surveys inaccurately.\n(a) On a particular day Amanda enters data from 50 surveys.\n(i) Find the probability that Amanda entered at most six surveys inaccurately.\n(ii) Given that at most six surveys were entered inaccurately, find the probability that\nexactly four surveys were entered inaccurately.\b [5]\nOn a different day Amanda enters data from n surveys. On this day, the probability that at\nmost six surveys were entered inaccurately is approximately 0.367 .\n(b) Find the value of n .\b [3]\nBryce and Carmen also enter data from surveys into the same database. It is known that\nsurveys entered by Bryce and Carmen are inaccurate 6 % and 11 % of the time respectively.\nIt can again be assumed that the accuracy of any survey entered is independent of all other\nsurveys entered.\nFrom the surveys assigned to the three of them, Amanda enters 55 % , Bryce 25 % and\nCarmen 20 % .\n(c) Find the probability that a randomly selected survey was\n(i) entered inaccurately;\n(ii) entered by Amanda, given that the survey was entered inaccurately.\b [6]\nThe following year, the accuracy of Amanda’s and Bryce’s work remained the same, as did\nthe percentage of surveys entered by each of the three employees. However, Carmen’s\naccuracy had improved and the probability that she entered a survey inaccurately was now x% .\nThe probability that a randomly selected survey had been entered inaccurately was now the\nsame as the probability that Carmen made an error when entering a survey.\n(d) Find the value of x .\b [4]",
+   "ms_text": "11. (a) (i) recognizing binomial distribution (M1)\nE : B(50, 0.08) , where E is the number of inaccurate surveys\nP( E ≤ 6) = 0.898128...\n( P( E ≤ 6) = ) 0.898 (accept 89.8% ) A1\n(ii) recognition of conditional probability (M1)\nNote: Recognition must be shown in context either in words or symbols, not just P( AB. | )\n= P( E 4)\nP( E = 4 | E ≤ 6) =\nP( E ≤ 6)\n0.203654...\n= (A1)\n0.898128...\n= 0.227 (accept 22.7% ) A1\n[5 marks]\n(b) use of tables (M1)\nNote: Award (M1) for at least one correct value of P( E ≤ 6) for a value of n, where n ≠ 50 .\n( n = 94 ⇒ )P( E ≤ 6) = 0.366746...\nn = 94 A2\n[3 marks]\n(c) (i) P() I = P( I ∩ A ) + P( I ∩ B ) + P( I ∩ C ) (M1)\n= × + × + × 0.550.08 0.250.06 0.20.11 (A1)\n= 0.081 (accept 8.1% ) A1\nP( ∩ ) A I\nP( AI |) = (ii) (or use of Bayes’ formula) (M1)\nP() I\n× 0.550.08\n= P( AI |) (A1)\n0.081\n0.543209...\n= 0.543 (accept 54.3%) A1\n[6 marks]\n(d) METHOD 1\nx\nP ( I | C= ) (seen anywhere) (M1)\n1 0 0\nx\nP() I = 0.55 × 0.08 + 0.250.06 × + × (A1)\n0.2100\nx\n(M1) equating their expression for P()I to 100\nx x\n= 0.55 × 0.08 + 0.250.06 × + ×\n0.2100\n100\nx = 7.375\nx = 7.38 (accept 7.38% ) A1\nMETHOD 2\nP ( I ) = 0. 5 5 × 0.08 + 0 . 250.6 × 0 + 0. 2 × y (A1)\nequating their expression for P()I to y (M1)\ny = 0.55 × 0.08 + 0.250.06 × + 0.2 × y\ny = 0.07375\nrecognizing to multiply their y value by 100 (M1)\nx = 7.38 (accept 7.38% ) A1\n[4 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.6",
+    "4.11",
+    "4.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 18]\nAmanda enters data from surveys into a database. It can be assumed that the accuracy of any survey entered is independent of all other surveys entered.\nFrom previous records, it is known that Amanda enters 8% of the surveys inaccurately.\n(a) On a particular day Amanda enters data from 50 surveys.\n(i) Find the probability that Amanda entered at most six surveys inaccurately.\n(ii) Given that at most six surveys were entered inaccurately, find the probability that exactly four surveys were entered inaccurately. [5]\nOn a different day Amanda enters data from $n$ surveys. On this day, the probability that at most six surveys were entered inaccurately is approximately 0.367.\n(b) Find the value of $n$. [3]\nBryce and Carmen also enter data from surveys into the same database. It is known that surveys entered by Bryce and Carmen are inaccurate 6% and 11% of the time respectively. It can again be assumed that the accuracy of any survey entered is independent of all other surveys entered.\nFrom the surveys assigned to the three of them, Amanda enters 55%, Bryce 25% and Carmen 20%.\n(c) Find the probability that a randomly selected survey was\n(i) entered inaccurately;\n(ii) entered by Amanda, given that the survey was entered inaccurately. [6]\nThe following year, the accuracy of Amanda's and Bryce's work remained the same, as did the percentage of surveys entered by each of the three employees. However, Carmen's accuracy had improved and the probability that she entered a survey inaccurately was now $x$%.\nThe probability that a randomly selected survey had been entered inaccurately was now the same as the probability that Carmen made an error when entering a survey.\n(d) Find the value of $x$. [4]"
+  },
+  {
+   "id": "math-2025-M-P2-TZ3-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 21]\n(a) Find ∫ (x2−5)exdx .\b [6]\ny Consider the differential equation d\n� x 2 � y � 5 .\nd x\n(b) By solving the differential equation, show that its solution can be expressed in the\nform y=x2−2x−3+Ce−x , where C is a constant.\b [4]\n(c) Sketch the curve of the particular solution which passes through the point (-3 , 2) ,\nfor −4≤x≤4 , clearly labelling the coordinates of any local maximum and minimum\npoints.\b [5]\nConsider the family of curves that are solutions of the differential equation.\nThe tangent at x=-3 is drawn for each of these curves.\n(d) By considering the curve which passes through the point (-3 , p) and the curve which\npasses through the point (-3 , q) , where p , q∈ϒ , p≠q , show that all these tangents\nintersect at a common point, and state its coordinates.\b [6]\n\b",
+   "ms_text": "12. (a) attempt to use integration by parts (M1)\n( 2 − ) x − x − x + x − x x 5e 2 ∫ x e d x OR 5e x 2e 2 ∫ x ed x A1\nattempt to use integration by parts a second time (M1)\n2 x ( x x ) x x ( x x ) ( x − 5e ) − 2 x e −\n∫ ed x OR − 5e + x 2e − 2 x e − ∫ ed x A1\n( 2 ) x ( x x ) x − 5e − 2 x e − e (A1)\n2 x 2 x x x ( x − 2 x − 3e ) + c OR ( x − 5e ) − 2 ( x e − e ) + c\n(or equivalent) A1\n[6 marks]\nd y\n2\n(b) rearranging to y = x − 5 AND attempt to find integrating factor (M1)\nx+\nd\nd x ∫ x\ne = e (seen anywhere) A1\nd y\nx x ( 2 ) x e e y = x − 5 e\nx+\nd\nd\nx 2 x x 2 x ( e y )( = x − 5 ) e\nOR e y = ∫ ( x − 5ed ) x M1\nd x\nx 2 x x 2 x x x e y = ( x − 2 x − 3e ) + C e y = x e − 2 x e − 3e + C\nOR A1\n2 − x y = x − 2 x − 3 + C e\nAG\n[4 marks]\n2 − x\n(c) substituting x = − 3, y = 2 into y = x − 2 x − 3 + C e (M1)\n3 2 = 9 + 6 −+ 3 C e\n− 3 ⇒\nC = − 0.497870... ( = − 10e ) A1\n2 − 2 −− 3 y = x − 2 x − 30.498e − x y = x − 2 x − 310e − x\n(accept )\nA1A1A1\nNote: Award marks as follows:\nA1for approximately correct shape AND x-intercepts in approximately correct place\n(exactly two negative and one positive x-intercepts)\nA1 for maximum in approximately correct position and labelled (2.70,2.28) − AND\nminimum in approximately correct position and labelled (0.899, − 4.19)\nA1 for domain.\n[5 marks]\ny − and q into d\n(d) substituting 3 − and pOR3 (M1)\nd x\ngradient of tangent at (3, − p ) is 4 − p and at (3, − q ) is 4 − q\nfinding equation of tangents (M1)\ny − p = (4 − px )( + 3) AND y − q = (4 − qx )( + 3) A1\nsolving their equations simultaneously (M1)\n( )( ) q − p = ( x + 3)4 − p − (4 − q ) = ( x + 3)( q − p )\nx + 3 = (since p 1 ≠ q )\nx = − 2 A1\ny − p = 4 − p OR y − q = 4 − q\ny = 4 A1\n− hence all tangents intersect at (2,4) AG\n[6 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.18",
+    "5.4",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 21]\n(a) Find $\\int (x^2 - 5)e^x\\,dx$. [6]\nConsider the differential equation $\\frac{dy}{dx} = x^2 - y - 5$.\n(b) By solving the differential equation, show that its solution can be expressed in the form $y = x^2 - 2x - 3 + Ce^{-x}$, where $C$ is a constant. [4]\n(c) Sketch the curve of the particular solution which passes through the point $(-3, 2)$, for $-4 \\le x \\le 4$, clearly labelling the coordinates of any local maximum and minimum points. [5]\nConsider the family of curves that are solutions of the differential equation.\nThe tangent at $x = -3$ is drawn for each of these curves.\n(d) By considering the curve which passes through the point $(-3, p)$ and the curve which passes through the point $(-3, q)$, where $p, q \\in \\mathbb{R}$, $p \\ne q$, show that all these tangents intersect at a common point, and state its coordinates. [6]"
+  }
+ ],
+ "status": "done"
+}

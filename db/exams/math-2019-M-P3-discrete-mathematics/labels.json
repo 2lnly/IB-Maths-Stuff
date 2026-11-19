@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2019-M-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.9", "6.8", "6.6", "6.11"],
+      "text_clean": "1. [Maximum mark: 14]\nIn a housing complex a TV company is installing cables to five houses A, B, C, D and E. The possible routes for the cables are given by the following graph $G$ where each vertex represents a house and each edge represents a possible route for the cables. The weights of the edges represent the cost, in thousands of dollars, of installing the cables between the houses.\n[Diagram: complete weighted graph G on A, B, C, D, E with edge weights AB = 7, AC = 9, AD = 5, AE = 13, BC = 4, BD = 12, BE = 8, CD = 11, CE = 6, DE = 9]\nThe company wants to find the lowest installation cost that includes each house and returns to the start.\n(a) Starting at A, use the nearest-neighbour algorithm to find an upper bound for the lowest installation cost. [3]\n(b) By removing A, use the deleted vertex algorithm to find a lower bound for the lowest installation cost. [5]\n(c) (i) State a route which produces the lower bound.\n(ii) State why this is a solution to finding the lowest installation cost. [2]\nIn a second housing complex the design for installing cables between five houses P, Q, R, S and T is given in the following adjacency table.\n| | P | Q | R | S | T |\n| P | – | 1 | 0 | 0 | 1 |\n| Q | 1 | – | 1 | 1 | 0 |\n| R | 0 | 1 | – | 0 | 1 |\n| S | 0 | 1 | 0 | – | 1 |\n| T | 1 | 0 | 1 | 1 | – |\nIn the adjacency table 0 denotes no cable connecting the two houses and 1 denotes a cable connecting the two houses.\n(d) Draw a graph $H$ to represent the second housing complex. [2]\n(e) Explain why the graph $H$ is bipartite. [2]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.3", "6.1"],
+      "text_clean": "2. [Maximum mark: 16]\n(a) Use the Euclidean algorithm to find $\\gcd(564, 254)$. [5]\n(b) Find a general solution to the linear Diophantine equation $564x + 254y = 94$. [8]\n(c) Find the two solutions such that $x, y \\in [-300, 300]$. [3]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.10"],
+      "text_clean": "3. [Maximum mark: 12]\nOn the 1st March in a country there are 5000 environmentally contaminated sites requiring clean-up. By the 1st April 80% of these 5000 contaminated sites are cleaned up but 200 new sites requiring clean-up are identified. This situation is assumed to recur every month. Jim sets up a first-degree recurrence relation that represents this information.\n(a) (i) State Jim's first-degree recurrence relation for the number of sites, $u_n$, requiring clean-up after $n$ months in the form $u_n = Au_{n-1} + B$, where $A$ and $B$ are non-zero constants.\n(ii) State the value of $u_0$. [2]\n(b) Solve Jim's first-degree recurrence relation. [5]\nJim now sets up a second-degree recurrence relation that gives information regarding environmental clean-up in a different country.\nThe second model is $d_n = 0.6d_{n-1} - 0.09d_{n-2}$ with initial conditions $d_0 = d_1 = 4000$.\n(c) Solve Jim's second-degree recurrence relation. [5]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.5", "6.4"],
+      "text_clean": "4. [Maximum mark: 8]\n(a) Using Fermat's little theorem, show that the congruence $x^{22} + x^{11} \\equiv 2 \\pmod{11}$ can be expressed in the form $(x+6)^2 - 36 \\equiv 2 \\pmod{11}$. [4]\n(b) Hence solve $x^{22} + x^{11} \\equiv 2 \\pmod{11}$. [4]"
+    }
+  }
+}

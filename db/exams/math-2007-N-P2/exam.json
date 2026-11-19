@@ -1,0 +1,146 @@
+{
+ "exam_id": "math-2007-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2007,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2007 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2007 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8807-7202; code N07/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches expected total 120",
+ "qp_pages": 6,
+ "questions": [
+  {
+   "id": "math-2007-N-P2-q1",
+   "num": "1",
+   "section": null,
+   "marks": 20,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 20]\n2 2 (a) A curve is defined by the implicit equation 2 xy + 6 x − 3 y = 6 .\nShow that the tangent at the point A with coordinates 12 ,\nhas gradient 20 [6 marks] 3.\n3\nThe line x =1 cuts the curve at point A, with coordinates 12 ,\n(b)\n, and at point B. 3\na\nFind, in the form r = sc\n+\nb d\n(i) the equation of the tangent at A;\n(ii) the equation of the normal at B. [10 marks]\n[4 marks] (c) Find the acute angle between the tangent at A and the normal at B.",
+   "ms_text": "2 2 1. (a) 2 xy 6 x 3 y 6\nd y d y\n2 x 2 y 12 x 6 y 0 M1A1A1A1A1\nd x d x\nNote: Award A1 for each correctly differentiated term.\nd y 4 d y\n2 12 4 0 A1\nd x 3 d x\nd y 40 d y 20\nAG N0\n2 d\nx 3 d x 3\n[6 marks]\n1\n3\n(b) (i) The equation of the tangent at A is r 2 s (M1)A1A1 N3\n20\n3\nNote: Award M1A0A1 for omitting “ r ” or for writing “ L ”.\n2 (ii) Substituting x 1 2 y 6 3 y 6 M1\n2 3 y 2 y 0\ny (3 y 2) 0\n2\ny A1\n0,3\nd y\nGradient at B satisfies 2 0 12 0 M1\nd x\nd y\n6 (A1)\nd x\nGradient of the normal is 1 A1\n6\n1 6\nHence equation of the normal at B is r t M1A1 N0\n0 1\n[10 marks]\n18 20\n(c) M1A1A1 cos (0.309)\n40937\n1.26 rads or 72.0ο A1 N4\n[4 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "3.14",
+    "5.4",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 20]\n(a) A curve is defined by the implicit equation $2xy + 6x^2 - 3y^2 = 6$.\nShow that the tangent at the point A with coordinates $\\left(1, \\frac{2}{3}\\right)$ has gradient $\\frac{20}{3}$. [6 marks]\n(b) The line $x = 1$ cuts the curve at point A, with coordinates $\\left(1, \\frac{2}{3}\\right)$, and at point B.\nFind, in the form $\\boldsymbol{r} = \\begin{pmatrix} a \\\\ b \\end{pmatrix} + s\\begin{pmatrix} c \\\\ d \\end{pmatrix}$\n(i) the equation of the tangent at A;\n(ii) the equation of the normal at B. [10 marks]\n(c) Find the acute angle between the tangent at A and the normal at B. [4 marks]"
+  },
+  {
+   "id": "math-2007-N-P2-q2",
+   "num": "2",
+   "section": null,
+   "marks": 22,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Total mark: 22]\nPart A [Maximum mark: 13]\n2 (a) The function f is defined by fx () = ( x + 2 ) − 3 .\nThe function g is defined by gx () = ax + b , where a and b are constants.\nFind the value of a, a > 0 and the corresponding value of b, such that\n3 2\nfgx ( () ) = 4 x + 6 x − . [8 marks]\n4\n2 (b) The functions h and k are defined by hx () = 5 x + 2 and kx () = cx − x + 2\nrespectively. Find the value of c such that hkx ( () ) = 0 has equal roots. [5 marks]\nPart B [Maximum mark: 9]\niπ\nb + (a) Express the complex number 1+ i in the form a e , where ab , ∈ ′ . [2 marks]\nn\n+ i\nUsing the result from (a), show that 1\n(b) , where n∈′, has only eight distinct\n2\nvalues. [5 marks]\n(c) Hence solve the equation z8 −= 1 0 . [2 marks]",
+   "ms_text": "2. Part A\n2 (a) fgx () ( ax b 2) 3 M1A1\n2 2 2 ax abx 2 ax abx b 2 b 2 ax 2 b 4 3\n2 2 2 ax x (2 ab 4) a ( b 4 b 1) A1\n3\nax 2 2 x (2 ab 4) a ( b 2 4 b 1) 4 x 2 6 x (M1)\n4\n2 Equating coefficients of 2xgives a 4 M1\na 2 , since a 0 A1\nEquating coefficients of x gives 2 ab 4 a 6 M1\n2( ab 2) 6\n4( b 2) 6\n1\nb A1 N0\n2\n[8 marks]\n2 (b) hkx () 5( cx x 2) 2 0 M1A1\n2 5 cx 5 x 10 2 0\n2 5 cx 5 x 12 0 A1\n2 Condition for real equal roots is: b 4 ac 0 M1\n25 240 c 0\n5\nc A1 N0\n48\n[5 marks]\nSub-total [13 marks]\nPart B\ni\n(a) 1i a eb\n( a 1 2 1 2 2)\n1\ntan\n1 4\ni 4\n1 i 2e A1A1 N2\n[2 marks]\n(b) EITHER\nn i\nn i n\n1 i 2e 4\n4 e M1A1\n2 2\nLet n 0, 1, 2, 3, 4, 5, 6, 7 M1\ni i i3 i5 i3 i7\nHence the eight distinct values are 1, e,e 4 2 ,e 4 ,e,e 4 ,e 2 ,e 4 A1\ni2 There are only eight distinct answers since the next answer would be e which is 1\nand hence the arguments to all further answers would be the same as the first eight\nplus a multiple of 2. R1\nOR\ni n\nn i n\n1 i 2e 4\n4 e M1A1\n2 2\ni( 2) i Since e e M1\nn\n0 2 A1\nHence n can only take the values0, 1, 2, 3, 4, 5, 6 and 7. R1\n[5 marks]\n(c) From part (b) if we raise each of these roots to power 8 then the answer is 1. (M1)\nHence these are the eight roots to this equation.\ni i i3 i5 i3 i7\n4 2 4 4 2 4 z 1, e, e, e , e, e , e , e A1\n[2 marks]\nSub-total [9 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.5",
+    "1.14",
+    "2.7",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Total mark: 22]\nPart A [Maximum mark: 13]\n(a) The function $f$ is defined by $f(x) = (x+2)^2 - 3$.\nThe function $g$ is defined by $g(x) = ax + b$, where $a$ and $b$ are constants.\nFind the value of $a$, $a > 0$ and the corresponding value of $b$, such that $f(g(x)) = 4x^2 + 6x - \\frac{3}{4}$. [8 marks]\n(b) The functions $h$ and $k$ are defined by $h(x) = 5x + 2$ and $k(x) = cx^2 - x + 2$ respectively. Find the value of $c$ such that $h(k(x)) = 0$ has equal roots. [5 marks]\nPart B [Maximum mark: 9]\n(a) Express the complex number $1 + \\mathrm{i}$ in the form $\\sqrt{a}\\,\\mathrm{e}^{\\mathrm{i}\\frac{\\pi}{b}}$, where $a, b \\in \\mathbb{Z}^+$. [2 marks]\n(b) Using the result from (a), show that $\\left(\\frac{1+\\mathrm{i}}{\\sqrt{2}}\\right)^n$, where $n \\in \\mathbb{Z}$, has only eight distinct values. [5 marks]\n(c) Hence solve the equation $z^8 - 1 = 0$. [2 marks]"
+  },
+  {
+   "id": "math-2007-N-P2-q3",
+   "num": "3",
+   "section": null,
+   "marks": 30,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Total mark: 30]\nPart A [Maximum mark: 18]\nOn a particular road, serious accidents occur at an average rate of two per week and can be\nmodelled using a Poisson distribution.\n(a) (i) What is the probability of at least eight serious accidents occurring during\na particular four-week period?\n(ii) Assume that a year consists of thirteen periods of four weeks. Find the\nprobability that in a particular year, there are more than nine four-week\nperiods in which at least eight serious accidents occur. [10 marks]\n(b) Given that the probability of at least one serious accident occurring in a period\n+ of n weeks is greater than 0.99, find the least possible value of n, n∈\n′. [8 marks]\nPart B [Maximum mark: 12]\nA continuous random variable X has probability density function defined by\nc 2\n, for − ≤ x ≤ 23\n2 fx () = 4 + x\n3\n0 , otherwise.\n(a) Find the exact value of the constant c in terms of π. [5 marks]\n(b) Sketch the graph of fx () and hence state the mode of the distribution. [3 marks]\n(c) Find the exact value of E( X. ) [4 marks]",
+   "ms_text": "3. Part A\n(a) (i) X: Po(2) for one week\nX: Po(8) for 4 weeks (A1)\nP( X 8) 1 P( X 0) P( X 1) ... P( X 7) (M1)(A1)\n8 2 8 3 8 4 8 5 8 6 8 7 8\n1 e 1 8 (A1)\n2! 3! 4! 5! 6! 7!\n0.547 A1 N5\n(ii) X: B(13,0.547) (M1)(A1)\nP( X 9) P( X 10) P( X 11) P( X 12) P( X 13) (M1)\n13! 13! 13! 10 3 11 2 12 13\n0.547 0.453 0.547 0.453 0.547 0.453 0.547 (A1)\n10!3! 11! 2! 12!1!\n0.0894 A1 N5\n[10 marks]\n(b) X : Po(2) n (A1)\n2 n P (no serious accidents) e\n1P (no serious accidents) P (at least one serious accident)\n1 e 2 n (M1)(A1)\n1P (no serious accidents) 0.99\n2 n 1e 0.99 A1\n2 n e 0.01 (A1)\n2 n ln0.01 (A1)\nln0.01\nn\n2\nn 2.30 (M1)\nn 3 A1 N5\n[8 marks]\nSub-total [18 marks]\nPart B\n23 c\n(a) d x 1 M1 2\n2 4 x\n3\n23\nc x 1\ntan 1 M1A1\n2 2 2\n3\nc c\n1 A1\n2 3 2 6\n3 c\n1\n12\n4\nc A1 N0\n[5 marks]\n(b)\nA1A1\nNote: Award A1 for shape. Award A1 for correct domain.\nThe mode is zero. A1\n[3 marks]\n4 23 x\n(c) E( X ) d x M1 2\n2 4 x\n3\n23\n41 ln4 2 x M1A1 N0\n2 2\n3\n2 16 2\nln16 ln ln3 A1\n3\n[4 marks]\nSub-total [12 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.14",
+    "4.8",
+    "5.15",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Total mark: 30]\nPart A [Maximum mark: 18]\nOn a particular road, serious accidents occur at an average rate of two per week and can be modelled using a Poisson distribution.\n(a) (i) What is the probability of at least eight serious accidents occurring during a particular four-week period?\n(ii) Assume that a year consists of thirteen periods of four weeks. Find the probability that in a particular year, there are more than nine four-week periods in which at least eight serious accidents occur. [10 marks]\n(b) Given that the probability of at least one serious accident occurring in a period of $n$ weeks is greater than 0.99, find the least possible value of $n$, $n \\in \\mathbb{Z}^+$. [8 marks]\nPart B [Maximum mark: 12]\nA continuous random variable $X$ has probability density function defined by\n$f(x) = \\begin{cases} \\frac{c}{4+x^2}, & \\text{for } -\\frac{2}{\\sqrt{3}} \\le x \\le 2\\sqrt{3} \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Find the exact value of the constant $c$ in terms of $\\pi$. [5 marks]\n(b) Sketch the graph of $f(x)$ and hence state the mode of the distribution. [3 marks]\n(c) Find the exact value of $\\mathrm{E}(X)$. [4 marks]"
+  },
+  {
+   "id": "math-2007-N-P2-q4",
+   "num": "4",
+   "section": null,
+   "marks": 25,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 25]\nThe function f is defined by fx () = cosec x + tan 2. x\nπ π\n(a) Sketch the graph of f for − ≤ x ≤ .\n2 2\nHence state\n(i) the x-intercepts;\n(ii) the equations of the asymptotes;\n(iii) the coordinates of the maximum and minimum points. [8 marks]\n(b) Show that the roots of fx () = 0 satisfy the equation\n3 2 2 cos x − 2 cos x − 2 cos x += 1 0\n. [5 marks]\n(c) Show that the x-coordinates of the maximum and minimum points on the\n5 3 2 curve satisfy the equation 4 cos x − 4 cos x + 2 cos x + cos x − 2 =. 0 [8 marks]\n(d) Show that f ( π − x ) + f ( π + x ) = 0 . [4 marks]",
+   "ms_text": "4. (a)\nA1\nNote: Award A1 for shape.\n(i) x intercepts: 1.16 , 1.16 A1A1\n(ii) Asymptotes: x , 0, A1A1A1\n4 4\n(iii) Max. point (0.441, 3.56) A1\nMin. point (0.441, 3.56) A1\n[8 marks]\n(b) cosec x tan2 x 0 M1\n1 sin2 x\n0 A1\nsin x cos2 x\n1 2sincos x x\n0 A1\nsin x 2cos 2 x 1\n2 2 2cos x 1 2sin x cos x 0 A1\nNote: 2 of the above 4 marks may be implied.\n2 3 2cos x 1 2cos x 2cos x 0 A1\n3 2 2cos x 2cos x 2cos x 1 0 AG N0\n[5 marks]\n(c) y cosec x tan2 x\nd y 2\ncoseccot x x 2sec2 x 0 for max/min M1A1A1\nd x\n1 cos x 2\n0 A1\n2 sin x sin x cos2 x\n2 2 cos2cos x x 2sin x 0 A1\n2 2 2 cos(2cos x x 1) 2(1cos x ) 0 M1A1\n5 3 2 4cos x 4cos x cos x 2 2cos x 0 (or equivalent) A1\n5 3 2 4cos x 4cos x 2cos x cos x 2 0 AG N0\n[8 marks]\n1\n(d) f ( x ) tan(2 2) x M1\nsin( x )\n1\ntan2 x A1\nsin x\n1\nf ( x ) tan(2 2) x M1\nsin( x )\n1\ntan2 x A1\nsin x\n1 1\nHence f ( x ) f ( x ) tan2 x tan2 x 0 AG N0\nsin x sin x\n[4 marks]\nTotal [25 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "3.6",
+    "3.9",
+    "3.11",
+    "2.4",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 25]\nThe function $f$ is defined by $f(x) = \\operatorname{cosec} x + \\tan 2x$.\n(a) Sketch the graph of $f$ for $-\\frac{\\pi}{2} \\le x \\le \\frac{\\pi}{2}$.\nHence state\n(i) the $x$-intercepts;\n(ii) the equations of the asymptotes;\n(iii) the coordinates of the maximum and minimum points. [8 marks]\n(b) Show that the roots of $f(x) = 0$ satisfy the equation $2\\cos^3 x - 2\\cos^2 x - 2\\cos x + 1 = 0$. [5 marks]\n(c) Show that the $x$-coordinates of the maximum and minimum points on the curve satisfy the equation $4\\cos^5 x - 4\\cos^3 x + 2\\cos^2 x + \\cos x - 2 = 0$. [8 marks]\n(d) Show that $f(\\pi - x) + f(\\pi + x) = 0$. [4 marks]"
+  },
+  {
+   "id": "math-2007-N-P2-q5",
+   "num": "5",
+   "section": null,
+   "marks": 23,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Total mark: 23]\nPart A [Maximum mark: 11]\nThe acceleration in m s–2 of a particle moving in a straight line at time t seconds, t > 0, is\n1\ngiven by the formula a = −\n). When t =1, the velocity is 8 m s–1. 2\n( 1 + t\n[6 marks] (a) Find the velocity when t = 3 .\n(b) Find the limit of the velocity as t →∞. [1 mark]\nFind the exact distance travelled between t =1 and t = 3 . [4 marks] (c)\nPart B [Maximum mark: 12]\nGiven that y = x −e x ,\ny\nfind d [2 marks]\n(a)\nx;\nd\nn y\n′, d + n + 1 − x (b) use mathematical induction to prove that, for n∈ =− ( 1 ) e ( n − x ) . [10 marks]\nn d x",
+   "ms_text": "5. Part A\n(a) v at d M1\nd t\nA1\n2 (1 t )\n1\nv k A1\n1 t\n1\nWhen t 1, v 8 8 k M1\n2\n15\nk A1\n2\n1 15 31 1\nWhen t 3, v ms A1\n4 2 4\n[6 marks]\n15\n(b) When t , v ms 1 A1 N1\n2\n[1 mark]\n1 15\n(c) v\n1 t 2\ns vt d M1\n3\n15\ns ln1 t t A1A1\n2\n1\n45 15\nln4 ln2\n2 2\n(ln 2 15) metres A1\nNote: Do not penalise if units missing.\n[4 marks]\nSub-total [11 marks]\nPart B\n(a) y x ex\nd y x x x\ne x e e (1 x ) M1A1 N2\nd x\n[2 marks]\nd y 2 x\n(b) When n = 1, the formula gives (1)e(1 x )\nd x\ne x (1 x ) M1A1\nas demonstrated in part (a) A1\nAssume true for n k\nd k y k 1 x\n(1) e ( k x ) M1\nk d x\nk 1 d y d\nk 1 x Consider, (1) e ( k x ) M1A1\nk 1 d x d x\nk 1 x x (1) e( k x ) e A1\nk 2 (1) e( xk 1 x ) A1\nHence if it is true for k, then it is true for k 1 R1\nSince the result is true for n 1 and P() k P( k 1) the result is proved by\nmathematical induction n ′. R1 N0\n[10 marks]\nSub-total [12 marks]\nTotal [23 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.9",
+    "1.15",
+    "5.6",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Total mark: 23]\nPart A [Maximum mark: 11]\nThe acceleration in $\\mathrm{m\\,s^{-2}}$ of a particle moving in a straight line at time $t$ seconds, $t > 0$, is given by the formula $a = -\\frac{1}{(1+t)^2}$. When $t = 1$, the velocity is $8\\ \\mathrm{m\\,s^{-1}}$.\n(a) Find the velocity when $t = 3$. [6 marks]\n(b) Find the limit of the velocity as $t \\to \\infty$. [1 mark]\n(c) Find the exact distance travelled between $t = 1$ and $t = 3$. [4 marks]\nPart B [Maximum mark: 12]\nGiven that $y = x\\mathrm{e}^{-x}$,\n(a) find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$; [2 marks]\n(b) use mathematical induction to prove that, for $n \\in \\mathbb{Z}^+$, $\\frac{\\mathrm{d}^n y}{\\mathrm{d}x^n} = (-1)^{n+1}\\mathrm{e}^{-x}(n - x)$. [10 marks]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,148 @@
+{
+ "exam_id": "math-2023-M-P1-TZ2",
+ "questions": {
+  "1": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4"
+   ],
+   "text_clean": "1. [Maximum mark: 6]\nThe following diagram shows a circle with centre O and radius $4\\text{ cm}$.\n[Diagram (not to scale): circle centre O, radius OR = 4; points P, Q, R on the circumference; shaded sector POR containing Q, with angle $\\theta$ at O]\nThe points P, Q and R lie on the circumference of the circle and $\\hat{POR} = \\theta$, where $\\theta$ is measured in radians.\nThe length of arc PQR is $10\\text{ cm}$.\n(a) Find the perimeter of the shaded sector. [2]\n(b) Find $\\theta$. [2]\n(c) Find the area of the shaded sector. [2]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.8"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nA function $f$ is defined by $f(x) = 1 - \\frac{1}{x-2}$, where $x \\in \\mathbb{R}$, $x \\neq 2$.\n(a) The graph of $y = f(x)$ has a vertical asymptote and a horizontal asymptote.\nWrite down the equation of\n(i) the vertical asymptote;\n(ii) the horizontal asymptote. [2]\n(b) Find the coordinates of the point where the graph of $y = f(x)$ intersects\n(i) the $y$-axis;\n(ii) the $x$-axis. [2]\n(c) On the following set of axes, sketch the graph of $y = f(x)$, showing all the features found in parts (a) and (b). [1]\n[Grid: blank axes, $x$ from $-5$ to $5$, $y$ from $-5$ to $5$]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.6"
+   ],
+   "text_clean": "3. [Maximum mark: 5]\nEvents $A$ and $B$ are such that $P(A) = 0.4$, $P(A|B) = 0.25$ and $P(A \\cup B) = 0.55$.\nFind $P(B)$.",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.10",
+    "5.11",
+    "1.7"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\nThe following diagram shows part of the graph of $y = \\frac{x}{x^2+2}$ for $x \\geq 0$.\n[Diagram: curve rising from the origin to a maximum then decreasing; shaded region R between the curve and the $x$-axis from $x = 0$ to $x = c$]\nThe shaded region $R$ is bounded by the curve, the $x$-axis and the line $x = c$.\nThe area of $R$ is $\\ln 3$.\nFind the value of $c$.",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5"
+   ],
+   "text_clean": "5. [Maximum mark: 7]\nThe functions $f$ and $g$ are defined for $x \\in \\mathbb{R}$ by\n$f(x) = ax + b$, where $a, b \\in \\mathbb{Z}$\n$g(x) = x^2 + x + 3$.\nFind the two possible functions $f$ such that $(g \\circ f)(x) = 4x^2 - 14x + 15$.",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.14"
+   ],
+   "text_clean": "6. [Maximum mark: 5]\nA continuous random variable $X$ has probability density function $f$ defined by\n$f(x) = \\begin{cases} \\frac{1}{2a}, & a \\leq x \\leq 3a \\\\ 0, & \\text{otherwise} \\end{cases}$\nwhere $a$ is a positive real number.\n(a) State $E(X)$ in terms of $a$. [1]\n(b) Use integration to find $\\mathrm{Var}(X)$ in terms of $a$. [4]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "text_clean": "7. [Maximum mark: 7]\nUse mathematical induction to prove that $\\sum_{r=1}^{n} \\frac{r}{(r+1)!} = 1 - \\frac{1}{(n+1)!}$ for all integers $n \\geq 1$.",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "5",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.4",
+    "3.6",
+    "2.7"
+   ],
+   "text_clean": "8. [Maximum mark: 7]\nThe functions $f$ and $g$ are defined by\n$f(x) = \\cos x$, $0 \\leq x \\leq \\frac{\\pi}{2}$\n$g(x) = \\tan x$, $0 \\leq x < \\frac{\\pi}{2}$.\nThe curves $y = f(x)$ and $y = g(x)$ intersect at a point P whose $x$-coordinate is $k$, where $0 < k < \\frac{\\pi}{2}$.\n(a) Show that $\\cos^2 k = \\sin k$. [1]\n(b) Hence, show that the tangent to the curve $y = f(x)$ at P and the tangent to the curve $y = g(x)$ at P intersect at right angles. [3]\n(c) Find the value of $\\sin k$. Give your answer in the form $\\frac{a + \\sqrt{b}}{c}$, where $a, c \\in \\mathbb{Z}$ and $b \\in \\mathbb{Z}^+$. [3]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.8",
+    "3.12"
+   ],
+   "text_clean": "9. [Maximum mark: 9]\nThe following diagram shows parallelogram OABC with $\\vec{OA} = \\boldsymbol{a}$, $\\vec{OC} = \\boldsymbol{c}$ and $|\\boldsymbol{c}| = 2|\\boldsymbol{a}|$, where $|\\boldsymbol{a}| \\neq 0$.\n[Diagram: parallelogram OABC with M on [AB]; segments OM and MC drawn with a right angle at M; angle $\\theta$ at O]\nThe angle between $\\vec{OA}$ and $\\vec{OC}$ is $\\theta$, where $0 < \\theta < \\pi$.\nPoint M is on [AB] such that $\\vec{AM} = k\\vec{AB}$, where $0 \\leq k \\leq 1$ and $\\vec{OM} \\cdot \\vec{MC} = 0$.\n(a) Express $\\vec{OM}$ and $\\vec{MC}$ in terms of $\\boldsymbol{a}$ and $\\boldsymbol{c}$. [2]\n(b) Hence, use a vector method to show that $|\\boldsymbol{a}|^2 (1-2k)(2\\cos\\theta - (1-2k)) = 0$. [3]\n(c) Find the range of values for $\\theta$ such that there are two possible positions for M. [4]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.6",
+    "2.7"
+   ],
+   "text_clean": "10. [Maximum mark: 14]\nA circle with equation $x^2 + y^2 = 9$ has centre $(0, 0)$ and radius $3$.\nA triangle, PQR, is inscribed in the circle with its vertices at $P(-3, 0)$, $Q(x, y)$ and $R(x, -y)$, where Q and R are variable points in the first and fourth quadrants respectively. This is shown in the following diagram.\n[Diagram: circle centred at the origin; shaded triangle with vertices P(−3, 0), Q(x, y) in the first quadrant and R(x, −y) in the fourth quadrant]\n(a) For point Q, show that $y = \\sqrt{9 - x^2}$. [1]\n(b) Hence, find an expression for $A$, the area of triangle PQR, in terms of $x$. [3]\n(c) Show that $\\frac{dA}{dx} = \\frac{9 - 3x - 2x^2}{\\sqrt{9 - x^2}}$. [4]\n(d) Hence or otherwise, find the $y$-coordinate of R such that $A$ is a maximum. [6]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "2.12",
+    "1.13",
+    "1.12"
+   ],
+   "text_clean": "11. [Maximum mark: 22]\nConsider the complex number $u = -1 + \\sqrt{3}i$.\n(a) By finding the modulus and argument of $u$, show that $u = 2e^{i\\frac{2\\pi}{3}}$. [3]\n(b) (i) Find the smallest positive integer $n$ such that $u^n$ is a real number.\n(ii) Find the value of $u^n$ when $n$ takes the value found in part (b)(i). [5]\n(c) Consider the equation $z^3 + 5z^2 + 10z + 12 = 0$, where $z \\in \\mathbb{C}$.\n(i) Given that $u$ is a root of $z^3 + 5z^2 + 10z + 12 = 0$, find the other roots.\n(ii) By using a suitable transformation from $z$ to $w$, or otherwise, find the roots of the equation $1 + 5w + 10w^2 + 12w^3 = 0$, where $w \\in \\mathbb{C}$. [9]\n(d) Consider the equation $z^2 = 2z^*$, where $z \\in \\mathbb{C}$, $z \\neq 0$.\nBy expressing $z$ in the form $a + bi$, find the roots of the equation. [5]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "5",
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.11",
+    "1.2",
+    "3.5"
+   ],
+   "text_clean": "12. [Maximum mark: 17]\n(a) By using an appropriate substitution, show that $\\int \\cos\\sqrt{x}\\,dx = 2\\sqrt{x}\\sin\\sqrt{x} + 2\\cos\\sqrt{x} + C$. [6]\nThe following diagram shows part of the curve $y = \\cos\\sqrt{x}$ for $x \\geq 0$.\n[Diagram: oscillating curve $y = \\cos\\sqrt{x}$ crossing the $x$-axis at $x_1, x_2, x_3, x_4$; regions $R_1$ (below axis), $R_2$ (above), $R_3$ (below) between successive intercepts, each wider than the last]\nThe curve intersects the $x$-axis at $x_1, x_2, x_3, x_4, \\ldots$.\nThe $n$th $x$-intercept of the curve, $x_n$, is given by $x_n = \\frac{(2n-1)^2\\pi^2}{4}$, where $n \\in \\mathbb{Z}^+$.\n(b) Write down a similar expression for $x_{n+1}$. [1]\nThe regions bounded by the curve and the $x$-axis are denoted by $R_1, R_2, R_3, \\ldots$, as shown on the above diagram.\n(c) Calculate the area of region $R_n$.\nGive your answer in the form $kn\\pi$, where $k \\in \\mathbb{Z}^+$. [7]\n(d) Hence, show that the areas of the regions bounded by the curve and the $x$-axis, $R_1, R_2, R_3, \\ldots$, form an arithmetic sequence. [3]",
+   "answer_status": "ok"
+  }
+ }
+}

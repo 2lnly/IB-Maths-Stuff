@@ -1,0 +1,116 @@
+{
+ "exam_id": "math-2014-M-P3-calculus",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2014,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Calculus",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2014 May Examination Session/Mathematics_paper_3_Calculus_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2014 May Examination Session/Mathematics_paper_3_Calculus_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2214-7208; code M14/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches paper total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2014-M-P3-calculus-q1",
+   "num": "1",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 16]\nx − x x − x e + e e − e\nConsider the functions f and g given by fx () = and gx () = .\n2 2\n(a) Show that f ′ () x = gx () and gx ′ () = fx () . [2]\n(b) Find the first three non-zero terms in the Maclaurin expansion of fx. () [5]\n1 − fx ()\n(c) Hence find the value of lim . [3]\n2 x → 0 x\ngx ()\n(d) Find the value of the improper integral ∞∫ d. x [6]\n0 2 [ fx () ]",
+   "ms_text": "1. (a) any correct step before the given answer A1AG\nx − x ()( e ' + e ) ' x − x\ne − e\neg, f ′ () x = = = gx ()\n2 2\nany correct step before the given answer A1AG\n()( x − x ) x − x e ' − e ' e + e\neg, gx ′ () = = = fx ()\n2 2\n[2 marks]\n(b) METHOD 1\nstatement and attempted use of the general Maclaurin expansion formula (M1)\n=; = (or equivalent in terms of derivative values) A1A1 f (0) 1 g (0) 0\nf (x) = 1+x2\n2+x4 24 or f (x) = 1+x2 2!+x4 A1A1\n4!\nMETHOD 2\nex= 1+ x +x2\n2!+x3 3!+x4 A1 4!+…\n2 3 4 x x x\nx e −=− 1 x + − + +… A1\n2! 3! 4!\nadding and dividing by 2 M1\n2 4 x x\nor f (x) = 1+x2 fx=+\n() 1 + 2!+x4 A1A1\n4! 2 24\n2 4 2 4 x x\nx or x. Notes: Accept\n1, and 1, and\n2 24 2! 4!\nAward A1 if two correct terms are seen.\n[5 marks]\n(c) METHOD 1\nattempted use of the Maclaurin expansion from (b) M1\n⎛ 2 4 ⎞ x x\n− + + + 1 ⎜ 1 ... ⎟\n1 − fx () 2 24 ⎝ ⎠\nlim = lim\n2 2 x → 0 x x → 0 x\n⎛ 2 ⎞ 1 x\nlim − − − ... A1 ⎜ ⎟\nx → 0 2 24 ⎝ ⎠\n= −1 A1\n2\nMETHOD 2\nattempted use of L’Hôpital and result from (a) M1\n1 − fx () − gx ()\nlim = lim\n2 x → 0 x x → 0 2 x\n− fx ()\nlim A1\nx → 0 2\n= −1 A1\n2\n[3 marks]\n(d) METHOD 1\nuse of the substitution u = fx () and ( d u = gx ()d x ) (M1)(A1)\ndu\nattempt to integrate ∞∫ (M1)\n2 1 u\n∞ ∞\n⎡ 1 ⎤ ⎡ 1 ⎤\nobtain − or − A1\n⎢ ⎥ ⎢ ⎥\nu fx () ⎣ ⎦\n1 ⎣ ⎦ 0\nrecognition of an improper integral by use of a limit or statement\nsaying the integral converges R1\nobtain 1 A1 N0\nMETHOD 2\nx − x e − e\n( x − x ) ∞ ∞ 2e − e\n2\nd x = d x (M1) ∫ ∫\n0 x − x 2 0 x − x 2 ⎛\ne + e ⎞ ( e + e )\n⎜ ⎟\n⎝ 2 ⎠\n( ) use of the substitution u = ex+ e−x and du = ex−e−xdx (M1)\n2du\nattempt to integrate ∞∫ (M1)\n2 u2\n∞\n⎡ ⎤\nobtain −2 A1\n⎣⎢ u ⎦⎥\n2\nrecognition of an improper integral by use of a limit or\nstatement saying the integral converges R1\nobtain 1 A1 N0\n[6 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L5",
+    "5.19",
+    "5.13",
+    "5.16",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 16]\nConsider the functions $f$ and $g$ given by $f(x)=\\frac{e^{x}+e^{-x}}{2}$ and $g(x)=\\frac{e^{x}-e^{-x}}{2}$.\n(a) Show that $f'(x)=g(x)$ and $g'(x)=f(x)$. [2]\n(b) Find the first three non-zero terms in the Maclaurin expansion of $f(x)$. [5]\n(c) Hence find the value of $\\lim_{x\\to 0}\\frac{1-f(x)}{x^{2}}$. [3]\n(d) Find the value of the improper integral $\\int_{0}^{\\infty}\\frac{g(x)}{[f(x)]^{2}}\\,dx$. [6]"
+  },
+  {
+   "id": "math-2014-M-P3-calculus-q2",
+   "num": "2",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 17]\n2 ( ) (a) Consider the functions fx () = (ln) x , x > and 1 gx () = ln fx () , x >. 1\n(i) Find f ′ () x .\n(ii) Find gx ′ () .\ngx is increasing on ] [ [5] (iii) Hence, show that () 1, ∞.\n(b) Consider the differential equation\nd y 2 2 x − 1\n(ln) x + y = , x >. 1\nd x x (ln) x\n(i) Find the general solution of the differential equation in the form y = hx () .\n2 (ii) Show that the particular solution passing through the point with coordinates ( e, e )\n2 x − x + e\nis given by y = .\n2 (ln) x\n(iii) Sketch the graph of your solution for x >, clearly indicating any asymptotes and 1\nany maximum or minimum points. [12]",
+   "ms_text": "2. (a) (i) attempt at chain rule (M1)\n2ln x\n′ f () x = A1\nx\n(ii) attempt at chain rule (M1)\n2\ngx ′ () = A1\nx ln x\n′ is positive on ] [ (iii) gx () 1, ∞ A1\nso gx is increasing on ] () 1, ∞ [ AG\n[5 marks]\n(b) (i) rearrange in standard form:\nd y 2 2 x − 1\n+ y = , x > 1 (A1)\n2 d x x ln x (ln) x\nintegrating factor:\n2\n∫ d x\nx ln x e (M1)\n( 2 ) ln(ln) x\n= e\n2 = (ln) x (A1)\nmultiply by integrating factor (M1)\n2d y 2ln x\n(ln) x + y = 2 x − 1\nd x x\nd 2\n( y (ln) x ) = 2 x − (or y(ln x)2= 1 2x −1dx ) M1 ∫\nd x\nattempt to integrate: M1\n2 2 (ln) x y = x − x + c\n2 x − x + c\ny = A1\n2 (ln) x\n(ii) attempt to use the point e, e2 ( ) to determine c: M1\neg,(lne)2e2= e2−e + c or e2=e2 −e + c\nore2= e2−e + c\n(lne)2\nc = e A1\n2 x − x + e\ny = AG\n2 (ln) x\n(iii)\ngraph with correct shape A1\nminimum at x = 3.1 (accept answers to a minimum of 2 s.f ) A1\nasymptote shown at x = A1 1\nNote: y-coordinate of minimum not required for A1;\nEquation of asymptote not required for A1 if VA appears on the sketch.\nAward A0 for asymptotes if more than one asymptote are shown\n[12 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.6",
+    "5.2",
+    "5.8",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 17]\n(a) Consider the functions $f(x)=(\\ln x)^{2}$, $x>1$ and $g(x)=\\ln(f(x))$, $x>1$.\n(i) Find $f'(x)$.\n(ii) Find $g'(x)$.\n(iii) Hence, show that $g(x)$ is increasing on $]1,\\infty[$. [5]\n(b) Consider the differential equation\n$(\\ln x)\\frac{dy}{dx}+\\frac{2}{x}y=\\frac{2x-1}{(\\ln x)}$, $x>1$.\n(i) Find the general solution of the differential equation in the form $y=h(x)$.\n(ii) Show that the particular solution passing through the point with coordinates $(e, e^{2})$ is given by $y=\\frac{x^{2}-x+e}{(\\ln x)^{2}}$.\n(iii) Sketch the graph of your solution for $x>1$, clearly indicating any asymptotes and any maximum or minimum points. [12]"
+  },
+  {
+   "id": "math-2014-M-P3-calculus-q3",
+   "num": "3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 12]\n1 1 1 1\n+ x + x 2 + x 3 +… Each term of the power series has the form\n12 × 45 × 78 × 1011 ×\n1\nnx , where () bn and () cn are linear functions of n .\nbn () × cn ()\n(a) Find the functions () bn and () cn. [2]\n(b) Find the radius of convergence. [4]\n(c) Find the interval of convergence. [6]",
+   "ms_text": "3. (a) bn () = 3 n + 1 A1\nc(n) = 3n + 2 A1\nNote: bnand () () cn may be reversed.\n[2 marks]\nth and n th terms: (b) consider the ratio of the ( n + 1) M1\nn + 1 3 n + 1 3 n + 2 x\n× × A1\nn 3 n + 4 3 n + 5 x\n3n +1\nlim 3n + 4× 3n + 2 3n +5×xn+1 A1\nxn= x\nn→∞\nradius of convergence: R = 1 A1\n[4 marks]\n(c) any attempt to study the series for x = −1 or x = 1 (M1)\n1\nconverges for x = by comparing with p-series 1 ∑ R1\nn2\nattempt to use the alternating series test for x = −1 (M1)\nNote: At least one of the conditions below needs to be attempted for M1.\n1\nterms ≈ → 0 and terms decrease monotonically in absolute value A1\n2 9n\nseries converges for x = − 1 R1\ninterval of convergence: −1, 1 A1 ⎡⎣ ⎤⎦\nNote: Award the R1s only if an attempt to corresponding correct test is made;\naward the final A1 only if at least one of the R1s is awarded;\nAccept study of absolute convergence at end points.\n[6 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L2",
+    "5.L1",
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 12]\nEach term of the power series $\\frac{1}{1\\times 2}+\\frac{1}{4\\times 5}x+\\frac{1}{7\\times 8}x^{2}+\\frac{1}{10\\times 11}x^{3}+\\dots$ has the form $\\frac{1}{b(n)\\times c(n)}x^{n}$, where $b(n)$ and $c(n)$ are linear functions of $n$.\n(a) Find the functions $b(n)$ and $c(n)$. [2]\n(b) Find the radius of convergence. [4]\n(c) Find the interval of convergence. [6]"
+  },
+  {
+   "id": "math-2014-M-P3-calculus-q4",
+   "num": "4",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 15]\n− x 2 3 2 e ( − x + 2 x + x ) , x ≤ 1\nThe function f is defined by fx () = , where a and b are constants.\n+ > ax b , x 1\n(a) Find the exact values of a and b if f is continuous and differentiable at x =. 1 [8]\n4 3 2 (b) (i) Use Rolle’s theorem, applied to f, to prove that 2 x − 4 x − 5 x + 4 x += 1 0\nhas a root in the interval ] − 1, 1 [ .\nin the interval ] − 1, 1 [ . [7]",
+   "ms_text": "− x 2 3 2 4. (a) lime ( − x + 2 x + x ) = lim( ax + b ) (= a + b) M1\n− + x → 1 x → 1\n1 2e −= a + b A1\ndifferentiability: attempt to differentiate both expressions M1\n2 2 − x\n( 3 2 ) − x ( 2 ) f ′ () x = − 2e x − x + 2 x + x + e − 3 x + 4 x + 1 ( x <1) A1\n′f(x) = e−x22x4−4x3−5x2+ 4x +1 ( )) (or\nf ′ () x = a ( x >1) A1\nsubstitute x = in both expressions and equate 1\n− 1 − 2e = a A1\nsubstitute value of a and find b = 4e−1 M1A1\n[8 marks]\n(b) (i) ′f(x) = e−x22x4−4x3−5x2+ 4x +1 ( ) (for x ≤) 1 M1\nf (1) = f (1) − M1\nRolle’s theorem statement (A1)\nby Rolle’s Theorem, ′ has a zero in ] [ R1 f () x − 1, 1\nhence quartic equation has a root in ] − 1, 1 [ AG\n(ii) let = 4 − 3 − 2 + +. gx () 2 x 4 x 5 x 4 x 1\n− = < and > M1 g (1) g (1) 0 g (0) 0\nas g is a polynomial function it is continuous in −1,0 [ ] and 0,1 [ ]. R1\n(or g is a polynomial function continuous in any interval of\nreal numbers)\nthen the graph of g must cross the x-axis at least once in−1, 0 ⎤⎦ ⎡⎣ R1\nand at least once in 0, 1 ⎤⎦ ⎡⎣.\n[7 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.12",
+    "5.L4",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 15]\nThe function $f$ is defined by $f(x)=\\begin{cases} e^{-x^{2}}(-x^{3}+2x^{2}+x), & x\\le 1 \\\\ ax+b, & x>1 \\end{cases}$, where $a$ and $b$ are constants.\n(a) Find the exact values of $a$ and $b$ if $f$ is continuous and differentiable at $x=1$. [8]\n(b) (i) Use Rolle's theorem, applied to $f$, to prove that $2x^{4}-4x^{3}-5x^{2}+4x+1=0$ has a root in the interval $]-1,1[$.\n(ii) Hence prove that $2x^{4}-4x^{3}-5x^{2}+4x+1=0$ has at least two roots in the interval $]-1,1[$. [7]"
+  }
+ ],
+ "status": "done"
+}

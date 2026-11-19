@@ -1,0 +1,128 @@
+{
+ "exam_id": "math-2011-N-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2011,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2011 November Examination Session/Mathematics_paper_3_Discrete_mathematics_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2011 November Examination Session/Mathematics_paper_3_Discrete_mathematics_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8811-7207; code N11/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches expected total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2011-N-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 9]\nThe vertices of a graph L are A, B, C, D, E, F, G and H. The weights of the edges\nin L are given in the following table.\nA B C D E F G H\nA – 4 – – 1 4 1 5\nB 4 – 1 – – 1 – 13\nC – 1 – 11 2 – – –\nD – – 11 – 8 3 – 7\nE 1 – 2 8 – 10 – –\nF 4 1 – 3 10 – 6 –\nG 1 – – – – 6 – 7\nH 5 13 – 7 – – 7 –\n(a) Draw the graph L . [2 marks]\n(b) Starting at A, use Prim’s algorithm to find a minimum spanning tree for L ,\nclearly showing the order in which the edges are added. [7 marks]",
+   "ms_text": "1. (a)\nA2\nNote: Award A1 if one line missing or one line misplaced. Weights are not required.\n[2 marks]\n(b)\nA7\nNote: Award A1 for each edge added in the correct order.\nFirst two steps can be interchanged.\n[7 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8",
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 9]\nThe vertices of a graph $L$ are A, B, C, D, E, F, G and H. The weights of the edges in $L$ are given in the following table.\n\n| | A | B | C | D | E | F | G | H |\n| A | – | 4 | – | – | 1 | 4 | 1 | 5 |\n| B | 4 | – | 1 | – | – | 1 | – | 13 |\n| C | – | 1 | – | 11 | 2 | – | – | – |\n| D | – | – | 11 | – | 8 | 3 | – | 7 |\n| E | 1 | – | 2 | 8 | – | 10 | – | – |\n| F | 4 | 1 | – | 3 | 10 | – | 6 | – |\n| G | 1 | – | – | – | – | 6 | – | 7 |\n| H | 5 | 13 | – | 7 | – | – | 7 | – |\n\n(a) Draw the graph $L$. [2 marks]\n(b) Starting at A, use Prim's algorithm to find a minimum spanning tree for $L$, clearly showing the order in which the edges are added. [7 marks]"
+  },
+  {
+   "id": "math-2011-N-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 14]\n(a) Use the Euclidean algorithm to find gcd( 752352. , ) [4 marks]\n(b) A farmer spends £8128 buying cows of two different breeds, A and B,\nfor her farm. A cow of breed A costs £752 and a cow of breed B costs £352.\n(i) Set up a diophantine equation to show this.\n(ii) Using your working from part (a), find the general solution to this equation.\n(iii) Hence find the number of cows of each breed bought by the farmer. [10 marks]",
+   "ms_text": "2. (a) 752 = 2(352) + 48 M1\n352 = 7(48) + 16 A1\n48 = 3(16) A1\nR1 therefore gcd(752, 352) is 16\n[4 marks]\n(b) (i) let x be the number of cows of breed A\nlet y be the number of cows of breed B\n752 x + 352 y = 8128 A1\n(ii) 168128 means there is a solution\n16 = 352 − 7(48) (M1)(A1)\n16 = 352 − 7752 ( − 2(352) )\n16 = 15(352) − 7(752) (A1)\n= − 8128 7620(352) 3556(752)\n⇒ = − = x 3556, y 7620 (A1)\n0 0\n352\n⇒ = − + = − + x 3556 t 3556 22 t\n16\n752\n⇒ = − = − y 7620 t 7620 47 t M1A1A1\n16\n≥ t = M1 (iii) for x, y to be 0 , the only solution is 162\n⇒ x = 8, y = 6 A1\n[10 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.3",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 14]\n(a) Use the Euclidean algorithm to find $\\gcd(752, 352)$. [4 marks]\n(b) A farmer spends £8128 buying cows of two different breeds, A and B, for her farm. A cow of breed A costs £752 and a cow of breed B costs £352.\n(i) Set up a diophantine equation to show this.\n(ii) Using your working from part (a), find the general solution to this equation.\n(iii) Hence find the number of cows of each breed bought by the farmer. [10 marks]"
+  },
+  {
+   "id": "math-2011-N-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 17]\n(a) In any graph, show that\n(i) the sum of the degrees of all the vertices is even;\n(ii) there is an even number of vertices of odd degree. [5 marks]\n(b) Consider the following graph, M .\nA\nG\nB\nC\nF\nE D\n(i) Show that M is planar.\n(ii) Explain why M is not Eulerian.\n(iii) By adding one edge to M it is possible to make it Eulerian. State which\nedge must be added.\nThis new graph is called N .\n(iv) Starting at A, write down a possible Eulerian circuit for N .\n(v) Define a Hamiltonian cycle. If possible, write down a Hamiltonian cycle\nfor N , and if not possible, give a reason.\n(vi) Write down the adjacency matrix for N .\n(vii) Which pair of distinct vertices has exactly 30 walks of length 4\nbetween them? [12 marks]",
+   "ms_text": "3. (a) (i) When we sum over the degrees of all vertices, we count each edge\ntwice. Hence every edge adds two to the sum. Hence the sum of\nthe degrees of all the vertices is even. R2\n(ii) divide the vertices into two sets, those with even degree and those\nwith odd degree M1\nlet S be the sum of the degrees of the first set and let T be the sum\nof the degrees of the second set\nwe know S + T must be even\nsince S is the sum of even numbers, then it is even R1\nhence T must be even R1\nhence there must be an even number of vertices of odd degree AG\n[5 marks]\n(b) (i)\nA1\n(ii) the graph M is not Eulerian because vertices D and F are of odd degree A1\n(iii) the edge which must be added is DF A1\n(iv)\na possible Eulerian circuit is ABDFBCDEFGCA A2\nNote: award A1 for a correct Eulerian circuit not starting and finishing at A.\n(v) a Hamiltonian cycle is one that contains each vertex in N A1\nwith the exception of the starting and ending vertices, each vertex\nmust only appear once A1\na possible Hamiltonian cycle is ACGFEDBA A1\n(vi)\n0 1 1 0 0 0 0\n1 0 1 1 0 1 0\n1 1 0 1 0 0 1\n0 1 1 0 1 1 0 A2\n0 0 0 1 0 1 0\n0 1 0 1 1 0 1\n0 0 1 0 0 1 0\n(vii) using adjacency matrix to power 4 (M1)\nC and F A1\n[12 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.7",
+    "6.6",
+    "6.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 17]\n(a) In any graph, show that\n(i) the sum of the degrees of all the vertices is even;\n(ii) there is an even number of vertices of odd degree. [5 marks]\n(b) Consider the following graph, $M$.\n[Diagram: graph M with vertices A, B, C, D, E, F, G and edges AB, AC, BC, BD, BF, CD, CG, DE, EF, FG; edges GC and BF cross, edges AC and BD cross]\n(i) Show that $M$ is planar.\n(ii) Explain why $M$ is not Eulerian.\n(iii) By adding one edge to $M$ it is possible to make it Eulerian. State which edge must be added.\nThis new graph is called $N$.\n(iv) Starting at A, write down a possible Eulerian circuit for $N$.\n(v) Define a Hamiltonian cycle. If possible, write down a Hamiltonian cycle for $N$, and if not possible, give a reason.\n(vi) Write down the adjacency matrix for $N$.\n(vii) Which pair of distinct vertices has exactly 30 walks of length 4 between them? [12 marks]"
+  },
+  {
+   "id": "math-2011-N-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\nAnna is playing with some cars and divides them into three sets of equal size.\nHowever, when she tries to divide them into five sets of equal size, there are four\nleft over. Given that she has fewer than 50 cars, what are the possible numbers of cars\nshe can have?",
+   "ms_text": "4. METHOD 1\nlet x be the number of cars\nwe know x ≡ 0(mod3) (A1)\nalso x ≡ 4(mod5) (A1)\n⇒ so x = 3 t 3 t ≡ 4(mod5) M1\n⇒ 6 t ≡ 8(mod5)\n⇒≡ t 3(mod5)\n⇒= t 3 + 5 s\n⇒ x = 9 + 15 s A1\nx = A1A1A1 since there must be fewer than 50 cars, 9, 24, 39\nNote: Only award two of the final three A1 marks if more than three solutions are given.\n[7 marks]\nMETHOD 2\nR4 x is a multiple of 3 that ends in 4 or 9\ntherefore x = 9, 24, 39 A1A1A1 N3\nNote: Only award two of the final three A1 marks if more than three solutions are given.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\nAnna is playing with some cars and divides them into three sets of equal size. However, when she tries to divide them into five sets of equal size, there are four left over. Given that she has fewer than 50 cars, what are the possible numbers of cars she can have?"
+  },
+  {
+   "id": "math-2011-N-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 13]\nA version of Fermat’s little theorem states that when p is prime, a is a positive\n1 integer and a and p are relatively prime, then a p−≡ 1(mod p ) .\n(a) Use the above result to show that if p is prime then a p≡ a (mod p ) , where a is\nany positive integer. [4 marks]\n341 ≡ (b) Show that 2 2 (mod 341 ) . [7 marks]\n(c) (i) State the converse of the result in part (a).\n(ii) Show that this converse is not true. [2 marks]",
+   "ms_text": "5. (a) consider two cases M1\nlet a and pbe coprime\np 1 a −≡ 1(mod) p R1\np ⇒ a = a (mod) p\nlet a andp not be coprime\na ≡ 0(mod) p M1\np = a 0(mod) p R1\n⇒ p a = a (mod) p\np so a = a (mod) p in both cases AG\n[4 marks]\n(b) 3411131 = × (M1)\nwe know by Fermat’s little theorem\n10 2 ≡ 1(mod11) M1\n341 10 34 34 ⇒ 2 ≡ (2) × 2 ≡ 1 × 2 ≡ 2(mod11) A1\nalso 2 30 ≡ 1(mod31) M1\n⇒ 341 3011 11 2 ≡ (2) × 2 A1\n11 ≡ 1 × 2048 ≡ 2(mod31) A1\nsince 31 and 11 are coprime R1\n341 2 ≡ 2(mod341) AG\n[7 marks]\np (c) (i) converse: if a = a (mod) p then p is a prime A1\n341 (ii) from part (b) we know 2 ≡ 2(mod341)\nhowever, 341 is composite\nhence 341 is a counter-example and the converse is not true R1\n[2 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.5",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 13]\nA version of Fermat's little theorem states that when $p$ is prime, $a$ is a positive integer and $a$ and $p$ are relatively prime, then $a^{p-1} \\equiv 1 \\pmod{p}$.\n(a) Use the above result to show that if $p$ is prime then $a^p \\equiv a \\pmod{p}$, where $a$ is any positive integer. [4 marks]\n(b) Show that $2^{341} \\equiv 2 \\pmod{341}$. [7 marks]\n(c) (i) State the converse of the result in part (a).\n(ii) Show that this converse is not true. [2 marks]"
+  }
+ ],
+ "status": "done"
+}

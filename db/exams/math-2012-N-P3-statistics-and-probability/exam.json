@@ -1,0 +1,113 @@
+{
+ "exam_id": "math-2012-N-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2012,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2012 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2012 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8812-7210; code N12/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches paper total 60",
+ "qp_pages": 5,
+ "questions": [
+  {
+   "id": "math-2012-N-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 16]\nAnna has a box with 10 biscuits in it. 4 biscuits are chocolate and 6 are plain.\nAnna takes a biscuit from her box at random and eats it. She repeats this process until\nshe has eaten 5 biscuits in total.\nLet A be the number of chocolate biscuits that Anna eats.\n(a) State the distribution of A . [1 mark]\n(b) Find P( A = 3. ) [2 marks]\n(c) Find P( A = 5. ) [1 mark]\nBill also has a box with 10 biscuits in it. 4 biscuits are chocolate and 6 are plain.\nBill takes a biscuit from his box at random, looks at it and replaces it in the box.\nHe repeats this process until he has looked at 5 biscuits in total. Let B be the number\nof chocolate biscuits that Bill takes and looks at.\n(d) State the distribution of B . [1 mark]\n(e) Find P( B = 3. ) [2 marks]\n(f) Find P( B = 5. ) [2 marks]\nLet D = B − A .\n(g) Calculate E( D. ) [2 marks]\n(h) Calculate Var( D, justifying the validity of your method. ) [5 marks]",
+   "ms_text": "1. (a) A has the hypergeometric distribution � Hyp(5, 4, 10) � A1\n[1 mark]\n4 6 ����\n� ����\n3 2 ���� 415 � 5\n(b) P( A � 3) � � � (0.238) � (M1)A1\n10 252 21 � �\n� �\n5 � �\n[2 marks]\n(c) P( A � 5) � 0 (since there are only 4 chocolate biscuits) A1\n[1 mark]\n4 � � � �\n(d) B has the binomial distribution A1 �\nB5, 10 � � �\n� � � �\n[1 mark]\n� 5 3 2 � ��� 4 �� 6 � 144\n(e) P( B � 3) � � ��� �� � � � (0.2304) � (M1)A1\n� �\n�� 3 � 10 �� 10 � 625 � �\nNote: Accept 0.230.\n[2 marks]\n5 �\n4 � 32 � �\n(f) P( B � 5) � � � � (0.01024) � (M1)A1 � �\n� 10 � 3125\n� � � �\nNote: Accept 0.0102.\n[2 marks]\n(g) ED ( ) � EB () � EA () (M1)\n� 4 � � 4 �\n� 5 � 5 � 0 A1 � � � �\n� 10 � � 10 �\n[2 marks]\n2 2 (h) Var() D � Var( B � A ) � 1Var() B �� (1)Var() A � Var() B � Var() A M1\nsince B and A are independent R1\n� 4 �� 6 �� 10 � 5 � � 4 �� 6 �\n5 5 (A1)(A1) � � �� �� � � � �� �\n� 10 �� 10 �� 101 � � � 10 �� 10 �\n28(1.87) � � A1\n15\n[5 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.L10",
+    "1.10",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 16]\nAnna has a box with 10 biscuits in it. 4 biscuits are chocolate and 6 are plain. Anna takes a biscuit from her box at random and eats it. She repeats this process until she has eaten 5 biscuits in total.\nLet $A$ be the number of chocolate biscuits that Anna eats.\n(a) State the distribution of $A$. [1 mark]\n(b) Find $\\mathrm{P}(A=3)$. [2 marks]\n(c) Find $\\mathrm{P}(A=5)$. [1 mark]\nBill also has a box with 10 biscuits in it. 4 biscuits are chocolate and 6 are plain. Bill takes a biscuit from his box at random, looks at it and replaces it in the box. He repeats this process until he has looked at 5 biscuits in total. Let $B$ be the number of chocolate biscuits that Bill takes and looks at.\n(d) State the distribution of $B$. [1 mark]\n(e) Find $\\mathrm{P}(B=3)$. [2 marks]\n(f) Find $\\mathrm{P}(B=5)$. [2 marks]\nLet $D=B-A$.\n(g) Calculate $\\mathrm{E}(D)$. [2 marks]\n(h) Calculate $\\mathrm{Var}(D)$, justifying the validity of your method. [5 marks]",
+   "review_note": "Hypergeometric distribution (parts a-c) has no dedicated code; tagged 4.7 + 1.10 (combinations). | audit: A ~ Hyp(5,4,10) -> new 4.L10 (replaces stand-in 4.7/4.14)"
+  },
+  {
+   "id": "math-2012-N-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 11]\nThe n independent random variables X , X , … , all have the distribution N(, µσ2. ) X n\n1 2\n(a) Find the mean and the variance of\n(i) X + X ;\n1 2\n(ii) 3 X;\n1\n(iii) X + X − X ;\n1 2 3\nX + X +…+ X ( )\n(iv) X = 1 2 n . [8 marks]\nn\n(b) Find E( X1 2 in terms of µ and σ. ) [3 marks]",
+   "ms_text": "2. (a) (i) 2, 2 � � 2 A1A1\n2 (ii) 3, 9 � � A1A1\n2 (iii) � , 3 � A1A1\n2 �\n(iv) � A1A1\n,n\nNote: If candidate clearly and correctly gives the standard deviations\nrather than the variances, give A1 for 2 or 3 standard deviations\nand A1A1 for 4 standard deviations.\n[8 marks]\n2 2\n(b) Var( X ) � E( X ) � � E( X ) � (M1)\n1 1 1\n2 2 2 � � E( X ) � � (A1)\n1\nE( X 2 ) � � 2 � � 2 A1\n1\n[3 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.14",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 11]\nThe $n$ independent random variables $X_1, X_2, \\ldots, X_n$ all have the distribution $\\mathrm{N}(\\mu, \\sigma^2)$.\n(a) Find the mean and the variance of\n(i) $X_1 + X_2$;\n(ii) $3X_1$;\n(iii) $X_1 + X_2 - X_3$;\n(iv) $\\bar{X} = \\dfrac{(X_1 + X_2 + \\ldots + X_n)}{n}$. [8 marks]\n(b) Find $\\mathrm{E}(X_1^2)$ in terms of $\\mu$ and $\\sigma$. [3 marks]"
+  },
+  {
+   "id": "math-2012-N-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 19]\n(a) The random variable X represents the height of a wave on a particular surf beach.\nIt is known that X is normally distributed with unknown mean µ (metres) and\n1 2\nknown variance σ2 = ( metres ) . Sally wishes to test the claim made in a surf\n4\nguide that µ = 3 against the alternative that µ < 3. She measures the heights\nof 36 waves and calculates their sample mean x . She uses this value to test the\nclaim at the 5 % level.\n(i) Find a simple inequality, of the form x < A , where A is a number to\nbe determined to 4 significant figures, so that Sally will reject the null\nhypothesis, that µ = 3, if and only if this inequality is satisfied.\n(ii) Define a Type I error.\n(iii) Define a Type II error.\n(iv) Write down the probability that Sally makes a Type I error.\n(v) The true value of µ is 2.75. Calculate the probability that Sally makes a\nType II error. [11 marks]\n(b) The random variable Y represents the height of a wave on another surf beach.\nIt is known that Y is normally distributed with unknown mean µ (metres) and\n2 unknown variance σ2 ( metres ) . David wishes to test the claim made in a surf\nguide that µ = 3 against the alternative that µ < 3. He is also going to perform\nthis test at the 5 % level. He measures the heights of 36 waves and finds that the\nsample mean, y= 2 860 . and the unbiased estimate of the population variance,\n2\nsn−= 0 25 . .\n1\n(i) State the name of the test that David should perform.\n(ii) State the conclusion of David’s test, justifying your answer by giving\nthe p-value.\n(iii) Using David’s results, calculate the 90 % confidence interval for µ , giving\nyour answers to 4 significant figures. [8 marks]",
+   "ms_text": "3. (a) (i) H: � � 3, H: � � 3\n0 1\n1 tailed z test as � is known 2\n� 1 �\n1 � � 1 � � 4 � �\nunder H, X � � � so X � N3, � � � N3, � � (M1)\n0 N3,4\n� � � 36 � � 144 �\nx � 3\nz is N(0, 1) (A1) �\n1\n12\nP( z �� 1.64485 �� ) 0.05 (A1)\nx � 3\nso inequality is given by �� 1.64485 � giving x� 2.8629 � M1\n1\n12\nx� 2.863 (4sf) A1\n1 � �\nNote: Candidates can get directly to the answer from � �\nN3, 144 � they\n�\ndo not have to go via z is N(0, 1) . However they must give\nsome explanation of what they have done; they cannot just write\nthe answer down.\n(ii) a Type I error is accepting H when H is true A1\n1 0\n(iii) a Type II error is accepting H when H is true A1\n0 1\n(iv) 0.05 A1\nNote: Accept anything that rounds to 0.050 if they do the conditional\ncalculation.\n� 1 �\n(v) X � (M1)\nN2.75, 144 � �\n� �\nP( x� 2.8629 ) 0.0877 (3sf) (M1)A1 ��\nNote: Accept any answer between 0.0875 and 0.0877 inclusive.\nNote: Accept anything that rounded is between 0.087and 0.089 if there is\nevidence that the candidate has used tables.\n[11 marks]\n(b) (i) t-test A1\n(ii) H: � � 3, H: � � 3\n0 1\n2 1 tailed t test as � is unknown\ny � 3\nt � has the t-distribution with �� 35 (M1)\n1\n12\nthe p-value is 0.0509� A2\nthis is � 0.05 R1\nso we accept that the mean wave height is 3 R1\nNote: Allow “Accept H” provided Hhas been stated.\n0 0\nNote: Accept FT on the p-value for the R1s.\n(iii) 2.719 � � � 3.001 (4 sf) A1A1\n1\n2 Note: 2.8601.6896\n� �� would gain M1.\n6\nNote: Award A1A0 if answer are only given to 3sf. [8 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L6",
+    "4.L5",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 19]\n(a) The random variable $X$ represents the height of a wave on a particular surf beach. It is known that $X$ is normally distributed with unknown mean $\\mu$ (metres) and known variance $\\sigma^2 = \\frac{1}{4}$ (metres$^2$). Sally wishes to test the claim made in a surf guide that $\\mu = 3$ against the alternative that $\\mu < 3$. She measures the heights of 36 waves and calculates their sample mean $\\bar{x}$. She uses this value to test the claim at the 5 % level.\n(i) Find a simple inequality, of the form $\\bar{x} < A$, where $A$ is a number to be determined to 4 significant figures, so that Sally will reject the null hypothesis, that $\\mu = 3$, if and only if this inequality is satisfied.\n(ii) Define a Type I error.\n(iii) Define a Type II error.\n(iv) Write down the probability that Sally makes a Type I error.\n(v) The true value of $\\mu$ is 2.75. Calculate the probability that Sally makes a Type II error. [11 marks]\n(b) The random variable $Y$ represents the height of a wave on another surf beach. It is known that $Y$ is normally distributed with unknown mean $\\mu$ (metres) and unknown variance $\\sigma^2$ (metres$^2$). David wishes to test the claim made in a surf guide that $\\mu = 3$ against the alternative that $\\mu < 3$. He is also going to perform this test at the 5 % level. He measures the heights of 36 waves and finds that the sample mean, $\\bar{y} = 2.860$ and the unbiased estimate of the population variance, $s_{n-1}^2 = 0.25$.\n(i) State the name of the test that David should perform.\n(ii) State the conclusion of David's test, justifying your answer by giving the $p$-value.\n(iii) Using David's results, calculate the 90 % confidence interval for $\\mu$, giving your answers to 4 significant figures. [8 marks]"
+  },
+  {
+   "id": "math-2012-N-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 14]\nJenny and her Dad frequently play a board game. Before she can start Jenny has to\nthrow a “six” on an ordinary six-sided dice. Let the random variable X denote the\nnumber of times Jenny has to throw the dice in total until she obtains her first “six”.\n(a) If the dice is fair, write down the distribution of X , including the value of any\nparameter(s). [1 mark]\n(b) Write down E( X for the distribution in part (a). ) [1 mark]\nJenny has played the game with her Dad 216 times and the table below gives the\nrecorded values of X .\nValue of X 1 2 3 4 5 6 7 8 9 10 ≥11\nFrequency 40 34 26 24 16 14 12 10 6 4 30\n(c) Use this data to test, at the 10 % significance level, the claim that the probability\nthat the dice lands with a “six” uppermost is 1 [8 marks]\n6. Justify your conclusion.\nBefore Jenny’s Dad can start, he has to throw two “sixes” using a fair, ordinary\nsix-sided dice. Let the random variable Y denote the total number of times Jenny’s\nDad has to throw the dice until he obtains his second “six”.\n(d) Write down the distribution of Y , including the value of any parameter(s). [1 mark]\n=1 (e) Find the value of y such that P( Y = y ) [1 mark]\n36.\n(f) Find P( Y≤6. ) [2 marks]",
+   "ms_text": "1 1 � � � �\n4. (a) X � or A1\nGeo6 � � NB1,6 � �\n� � � �\n[1 mark]\n(b) E( X� ) 6 A1\n[1 mark]\nH: the probability that the dice lands with a “six” uppermost is 1 (c)\n0\n6\nH: the probability is not 1\n1\n6\nunder H, the expected values are given by the following table\n0\nValue of X 1 2 3 4 5 6 7\nFrequency 36 30 25 20.833… 17.361… 14.468… 12.056…\n8 9 10 11 �\n10.047… 8.372… 6.977… 34.885…\nA3\nNote: Award A2 for one error, A1 for two errors and A0 for more than\ntwo errors.\nNote: Accept answers that agree with the above to 1dp.\n�� 111 �� 10 A1\n2 (applying a � goodness of fit test)\nEITHER\np � 0.935 � A3\nNote: Accept answers within a tolerance of 0.004 � .\n0.935 �� 0.10 so we accept H R1\n0\nOR\n2 � � 4.248 � A2\ncalc\nNote: Accept answers within a tolerance of 0.02 � .\n2 15.987 A1 � � �\ncrit\n4.248 15.987 so we accept H R1 �\n0\nNote: Incorrect combination of cells (grouping 10 or more) leading to\np � 0.926 � or 2 3.77 � and 2 14.686 � or incorrect � � � �\ncalc crit\ncombination of cells (grouping 9 and 10) leading to p � 0.900 � or\n2 4.17 � and 2 14.686 �both with 9 would gain � � � � ��\ncalc crit\nA1 (rather than the full A3) A1 and then either A3R1 or A2A1R1\nrespectively. Use the same tolerances as in the main markscheme.\nNote: Allow follow through on their p-value or 2 value. �\ncalc\n[8 marks]\n1 � �\n(d) Y is A1\nNB2,6 � �\n� �\n[1 mark]\n1\n(e) P( Y � y ) � gives y � 2 A1\n36\n(as all other probabilities would have a factor of 5 in the numerator)\n[1 mark]\n2 2 2 2 3 2 4 2\n1 5 1 5 1 5 1 5 1 � � � �� � � �� � � �� � � �� �\n(f) P( Y � 6) � � 2 � 3 � 4 � 5 (M1) � � � �� � � �� � � �� � � �� �\n6 6 6 6 6 6 6 6 6 � � � �� � � �� � � �� � � �� �\n� 0.263 A1\n[2 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 14]\nJenny and her Dad frequently play a board game. Before she can start Jenny has to throw a “six” on an ordinary six-sided dice. Let the random variable $X$ denote the number of times Jenny has to throw the dice in total until she obtains her first “six”.\n(a) If the dice is fair, write down the distribution of $X$, including the value of any parameter(s). [1 mark]\n(b) Write down $\\mathrm{E}(X)$ for the distribution in part (a). [1 mark]\nJenny has played the game with her Dad 216 times and the table below gives the recorded values of $X$.\nValue of X | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | $\\geq 11$\nFrequency | 40 | 34 | 26 | 24 | 16 | 14 | 12 | 10 | 6 | 4 | 30\n(c) Use this data to test, at the 10 % significance level, the claim that the probability that the dice lands with a “six” uppermost is $\\frac{1}{6}$. Justify your conclusion. [8 marks]\nBefore Jenny's Dad can start, he has to throw two “sixes” using a fair, ordinary six-sided dice. Let the random variable $Y$ denote the total number of times Jenny's Dad has to throw the dice until he obtains his second “six”.\n(d) Write down the distribution of $Y$, including the value of any parameter(s). [1 mark]\n(e) Find the value of $y$ such that $\\mathrm{P}(Y=y) = \\frac{1}{36}$. [1 mark]\n(f) Find $\\mathrm{P}(Y \\leq 6)$. [2 marks]"
+  }
+ ],
+ "status": "done"
+}

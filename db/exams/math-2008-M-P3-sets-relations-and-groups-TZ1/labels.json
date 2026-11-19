@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2008-M-P3-sets-relations-and-groups-TZ1",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.4"],
+      "text_clean": "1. [Maximum mark: 12]\nThe binary operation $*$ is defined for $a, b \\in \\mathbb{Z}^+$ by\n$$a * b = a + b - 2.$$\n(a) Determine whether or not $*$ is\n(i) closed,\n(ii) commutative,\n(iii) associative. [7 marks]\n(b) (i) Find the identity element.\n(ii) Find the set of positive integers having an inverse under $*$. [5 marks]"
+    },
+    "2": {
+      "topics": ["7", "2"],
+      "subtopics": ["7.3", "2.2"],
+      "text_clean": "2. [Maximum mark: 10]\nThe function $f$ is defined by\n$$f(x) = \\frac{1 - \\mathrm{e}^{-x}}{1 + \\mathrm{e}^{-x}}, \\quad x \\in \\mathbb{R}.$$\n(a) Find the range of $f$. [2 marks]\n(b) Prove that $f$ is an injection. [3 marks]\n(c) Taking the codomain of $f$ to be equal to the range of $f$, find an expression for $f^{-1}(x)$. [5 marks]"
+    },
+    "3": {
+      "topics": ["7", "1"],
+      "subtopics": ["7.5", "1.14", "7.6", "7.9"],
+      "text_clean": "3. [Maximum mark: 17]\n(a) Find the six roots of the equation $z^6 - 1 = 0$, giving your answers in the form $r\\,\\mathrm{cis}\\,\\theta$, $r \\in \\mathbb{R}^+$, $0 \\le \\theta < 2\\pi$. [4 marks]\n(b) (i) Show that these six roots form a group $G$ under multiplication of complex numbers.\n(ii) Show that $G$ is cyclic and find all the generators.\n(iii) Give an example of another group that is isomorphic to $G$, stating clearly the corresponding elements in the two groups. [13 marks]"
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.2"],
+      "text_clean": "4. [Maximum mark: 9]\nThe relation $R$ is defined on ordered pairs by\n$(a, b)\\,R\\,(c, d)$ if and only if $ad = bc$ where $a, b, c, d \\in \\mathbb{R}^+$.\n(a) Show that $R$ is an equivalence relation. [6 marks]\n(b) Describe, geometrically, the equivalence classes. [3 marks]"
+    },
+    "5": {
+      "topics": ["7"],
+      "subtopics": ["7.6", "7.7", "7.8"],
+      "text_clean": "5. [Maximum mark: 12]\nLet $p = 2^k + 1$, $k \\in \\mathbb{Z}^+$ be a prime number and let $G$ be the group of integers $1, 2, \\ldots, p-1$ under multiplication defined modulo $p$.\nBy first considering the elements $2^1, 2^2, \\ldots, 2^k$ and then the elements $2^{k+1}, 2^{k+2}, \\ldots$, show that the order of the element 2 is $2k$.\nDeduce that $k = 2^n$ for $n \\in \\mathbb{N}$."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "exam_id": "math-2011-N-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.8", "6.6"],
+      "text_clean": "1. [Maximum mark: 9]\nThe vertices of a graph $L$ are A, B, C, D, E, F, G and H. The weights of the edges in $L$ are given in the following table.\n\n| | A | B | C | D | E | F | G | H |\n| A | – | 4 | – | – | 1 | 4 | 1 | 5 |\n| B | 4 | – | 1 | – | – | 1 | – | 13 |\n| C | – | 1 | – | 11 | 2 | – | – | – |\n| D | – | – | 11 | – | 8 | 3 | – | 7 |\n| E | 1 | – | 2 | 8 | – | 10 | – | – |\n| F | 4 | 1 | – | 3 | 10 | – | 6 | – |\n| G | 1 | – | – | – | – | 6 | – | 7 |\n| H | 5 | 13 | – | 7 | – | – | 7 | – |\n\n(a) Draw the graph $L$. [2 marks]\n(b) Starting at A, use Prim's algorithm to find a minimum spanning tree for $L$, clearly showing the order in which the edges are added. [7 marks]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.3", "6.1"],
+      "text_clean": "2. [Maximum mark: 14]\n(a) Use the Euclidean algorithm to find $\\gcd(752, 352)$. [4 marks]\n(b) A farmer spends £8128 buying cows of two different breeds, A and B, for her farm. A cow of breed A costs £752 and a cow of breed B costs £352.\n(i) Set up a diophantine equation to show this.\n(ii) Using your working from part (a), find the general solution to this equation.\n(iii) Hence find the number of cows of each breed bought by the farmer. [10 marks]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.7", "6.6", "6.11"],
+      "text_clean": "3. [Maximum mark: 17]\n(a) In any graph, show that\n(i) the sum of the degrees of all the vertices is even;\n(ii) there is an even number of vertices of odd degree. [5 marks]\n(b) Consider the following graph, $M$.\n[Diagram: graph M with vertices A, B, C, D, E, F, G and edges AB, AC, BC, BD, BF, CD, CG, DE, EF, FG; edges GC and BF cross, edges AC and BD cross]\n(i) Show that $M$ is planar.\n(ii) Explain why $M$ is not Eulerian.\n(iii) By adding one edge to $M$ it is possible to make it Eulerian. State which edge must be added.\nThis new graph is called $N$.\n(iv) Starting at A, write down a possible Eulerian circuit for $N$.\n(v) Define a Hamiltonian cycle. If possible, write down a Hamiltonian cycle for $N$, and if not possible, give a reason.\n(vi) Write down the adjacency matrix for $N$.\n(vii) Which pair of distinct vertices has exactly 30 walks of length 4 between them? [12 marks]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.4"],
+      "qtype": "short",
+      "text_clean": "4. [Maximum mark: 7]\nAnna is playing with some cars and divides them into three sets of equal size. However, when she tries to divide them into five sets of equal size, there are four left over. Given that she has fewer than 50 cars, what are the possible numbers of cars she can have?"
+    },
+    "5": {
+      "topics": ["6"],
+      "subtopics": ["6.5", "6.4"],
+      "text_clean": "5. [Maximum mark: 13]\nA version of Fermat's little theorem states that when $p$ is prime, $a$ is a positive integer and $a$ and $p$ are relatively prime, then $a^{p-1} \\equiv 1 \\pmod{p}$.\n(a) Use the above result to show that if $p$ is prime then $a^p \\equiv a \\pmod{p}$, where $a$ is any positive integer. [4 marks]\n(b) Show that $2^{341} \\equiv 2 \\pmod{341}$. [7 marks]\n(c) (i) State the converse of the result in part (a).\n(ii) Show that this converse is not true. [2 marks]"
+    }
+  }
+}

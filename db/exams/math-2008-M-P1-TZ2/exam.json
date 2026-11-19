@@ -1,0 +1,331 @@
+{
+ "exam_id": "math-2008-M-P1-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2008,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_1_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_1_TZ2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2208-7213; code M08/5/MATHL/HP1/ENG/TZ2/XX; marks sum matches expected total 120",
+ "qp_pages": 14,
+ "questions": [
+  {
+   "id": "math-2008-M-P1-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\nThe probability distribution of a discrete random variable X is defined by\nP( X = x ) = cx ( 5 − x ) , x =1234 , , , .\n(a) Find the value of c. [3 marks]\n(b) Find E( X. ) [3 marks]",
+   "ms_text": "1. (a) Using ∑ P( X = x ) = 1 (M1)\n4 c + 6 c + 6 c + 4 c = ( 20 1 c =) 1 A1\n1\nc = (0.05) = A1 N1\n20\n(b) Using E( X ) = ∑ x P( X = x ) (M1)\n= (10.2) × + (2 × 0.3) + (30.3) × + (4 × 0.2) (A1)\n= 2.5 A1 N1\nNotes: Only one of the first two marks can be implied.\nAward M1A1A1 if the x values are averaged only\nif symmetry is explicitly mentioned.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nThe probability distribution of a discrete random variable $X$ is defined by\n$\\mathrm{P}(X=x)=cx(5-x),\\ x=1,2,3,4$.\n(a) Find the value of $c$. [3 marks]\n(b) Find $\\mathrm{E}(X)$. [3 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\n3 2 The polynomial Px () = x + ax + bx + 2 is divisible by ( x +1 and by ( ) x −2. )\nFind the value of a and of b, where ab , ∈ϒ.",
+   "ms_text": "2. METHOD 1\nAs ( x + 1) is a factor of Px, then () P− (1) = 0 (M1)\n⇒ a − b += 1 0 (or equivalent) A1\nAs ( x − 2) is a factor of Px, then () P (2) = 0 (M1)\n⇒ 4 a + 2 b + 10 = 0 (or equivalent) A1\nAttempting to solve for a and b M1\na = − and 2 b = − 1 A1 N1\n[6 marks]\nMETHOD 2\nBy inspection third factor must be x − 1 . (M1)A1\n3 2 ( x + 1)( x − 2)( x − 1) = x − 2 x − x + 2 (M1)A1\nEquating coefficients a = − 2, b = − 1 (M1)A1 N1\n[6 marks]\nMETHOD 3\nPx ()\nConsidering or equivalent (M1)\n2 x − x − 2\nPx () ( a + b + 3) x + 2( a + 2)\n= ( x + a + 1) + A1A1\n2 2 x − x − 2 x − x − 2\nRecognising that ( a + b + 3) x + 2( a + 2) = 0 (M1)\nAttempting to solve for a and b M1\na 2 and b 1 A1 N1 = − = −\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nThe polynomial $P(x)=x^3+ax^2+bx+2$ is divisible by $(x+1)$ and by $(x-2)$.\nFind the value of $a$ and of $b$, where $a, b\\in\\mathbb{R}$."
+  },
+  {
+   "id": "math-2008-M-P1-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nIn the diagram below, AD is perpendicular to BC.\n∃ A∃ CD = 4, BD = 2 and AD = 3. CAD = α and BD = β .\nB\n2\nβ 3\nA D\nα\n4\nC\nα β Find the exact value of cos( − ) .",
+   "ms_text": "3. METHOD 1\nAC = 5 and AB = 13 (may be seen on diagram) (A1)\n3 4\ncos α= and sin α= (A1)\n5 5\n3 2\ncos β= and sin β= (A1)\n13 13\nNote: If only the two cosines are correctly given award(A1)(A1)(A0).\nUse of cos( α − β ) = cos α cos β + sin α sin β (M1)\n3 3 4 2\n= × + × (substituting) M1\n5 13 5 13\n17 ⎛ 1713 ⎞\n= ⎜ = ⎟ A1 N1\n⎜ ⎟\n513 ⎝ 65 ⎠\n[6 marks]\nMETHOD 2\nAC = 5 and AB = 13 (may be seen on diagram) (A1)\n2 2 2 AC + AB − BC\nUse of cos( α + β ) = (M1)\n2(AC)(AB)\n25 + 13 − 36 ⎛ 1 ⎞\n= = A1 ⎜ ⎟\n25 ×× 13 ⎝ 513 ⎠\nUse of cos( α + β ) + cos( α − β ) = 2cos α cos β (M1)\n3 3\ncos α= and cos β= (A1)\n5 13\n17 ⎛ 3 3 1 ⎞ ⎛ 1713 ⎞\ncos( α − β ) = = 2 × × − ⎜ = ⎟ A1 N1 ⎜ ⎟\n⎜ ⎟\n513 ⎝ 5 13 513 ⎠ 65 ⎝ ⎠\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nIn the diagram below, AD is perpendicular to BC.\n$\\mathrm{CD}=4$, $\\mathrm{BD}=2$ and $\\mathrm{AD}=3$. $\\mathrm{C\\hat{A}D}=\\alpha$ and $\\mathrm{B\\hat{A}D}=\\beta$.\n[Diagram: triangle ABC with D on BC, AD = 3 perpendicular to BC, BD = 2 above D, DC = 4 below D; angle beta between AB and AD, angle alpha between AD and AC]\nFind the exact value of $\\cos(\\alpha-\\beta)$."
+  },
+  {
+   "id": "math-2008-M-P1-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\n4\nLet fx () = () = x −1.\n2, x ≠−2 and gx\nx +\nIf h = g ο f , find\n(a) hx () ; [2 marks]\n(b) h −1() , where h−1 is the inverse of h. x [4 marks]",
+   "ms_text": "⎛ 4 ⎞\n4. (a) hx () = g ⎜ ⎟ (M1)\n⎝ x + 2 ⎠\n4 ⎛ 2 − x ⎞\n= − 1 = A1 ⎜ ⎟\nx + 2 ⎝ 2 + x ⎠\n(b) METHOD 1\n4\nx = − 1 (interchanging x and y) M1\ny + 2\nAttempting to solve for y M1\n⎛ 4 ⎞\n( y + 2)( x + 1) = 4 ⎜ y + 2 = ⎟ (A1)\n⎝ x + 1 ⎠\n4 − 1\nh () x = − 2 ( x ≠− 1) A1 N1\nx + 1\nMETHOD 2\n2 − y\nx = (interchanging x and y) M1\n2 + y\nAttempting to solve for y M1\nxy + y = 2 − 2 x ( yx ( + 1) = 2(1 − x ) ) (A1)\n2(1 − x ) − 1\nh () x = ( x ≠− 1) A1 N1\nx + 1\nNote: In either METHOD 1 or METHOD 2 rearranging first and\ninterchanging afterwards is equally acceptable.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nLet $f(x)=\\frac{4}{x+2},\\ x\\neq -2$ and $g(x)=x-1$.\nIf $h=g\\circ f$, find\n(a) $h(x)$; [2 marks]\n(b) $h^{-1}(x)$, where $h^{-1}$ is the inverse of $h$. [4 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\n2 2 Consider the curve with equation x + xy + y = 3 .\n(a) Find in terms of k, the gradient of the curve at the point ( −1k. , ) [5 marks]\n(b) Given that the tangent to the curve is parallel to the x-axis at this point, find the\nvalue of k. [1 mark]",
+   "ms_text": "5. (a) Attempting implicit differentiation M1\nd y d y\n2 x + y + x + 2 y = 0 A1\nd x d x\nEITHER\nd y d y\nSubstituting x = − 1, y = k e.g. −+ 2 k − + 2 k = 0 M1\nd x d x\ny Attempting to make d\nM1\nx the subject\nd\nOR\nAttempting to make d y y − (2 x + y ) = M1\nx the subject e.g.d\nd d x x + 2 y\ny into d\nSubstituting x = − 1, y = k M1\nd x\nTHEN\nd y 2 k −\n= A1 N1\nd x 2 k − 1\ny Solving d\n(b) 0 for k gives k= 2 A1\nx= d\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nConsider the curve with equation $x^2+xy+y^2=3$.\n(a) Find in terms of $k$, the gradient of the curve at the point $(-1, k)$. [5 marks]\n(b) Given that the tangent to the curve is parallel to the $x$-axis at this point, find the value of $k$. [1 mark]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nπ\n3 π\nShow that 6 x sin 2 xx d = − . ∫\n0 8 24",
+   "ms_text": "6. Using integration by parts (M1)\nu v , d 1 cos2\nu = x x=, d 1 sin2 x and v = − x (A1)\nx= d d 2\nπ\n⎡ ⎤ 6 π ⎛ 1 ⎞ ⎛ 1 ⎞\nx − cos2 x − 6 − cos2 x d x A1 ⎢ ⎜ ⎟ ⎥ ∫ ⎜ ⎟\n⎝ 2 ⎠ 0 ⎝ 2 ⎠ ⎣ ⎦\n0\nπ π\n⎡ ⎤ 6 ⎛ 1 ⎞ ⎡ 1 ⎤ 6\n= x − cos2 x + sin 2 x A1 ⎢ ⎜ ⎟ ⎥ ⎢ ⎥\n⎝ 2 ⎠ ⎣ 4 ⎦ ⎣ ⎦\n0 0\nNote: Award the A1A1 above if the limits are not included.\nπ\n⎡ ⎛ 1 ⎞ ⎤ 6 π\nx − cos2 x = − A1 ⎢ ⎜ ⎟ ⎥\n⎣ ⎝ 2 ⎠ ⎦ 24 0\nπ\n⎡ 1 ⎤ 6 3\nsin 2 x = A1 ⎢ ⎥\n⎣ 4 ⎦ 8 0\nπ 3 π\n6 ∫ x sin 2d xx = − AG N0\n0 8 24\nNote: Allow FT on the last two A1 marks if the expressions are the\nnegative of the correct ones.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nShow that $\\int_0^{\\frac{\\pi}{6}} x\\sin 2x\\,\\mathrm{d}x=\\frac{\\sqrt{3}}{8}-\\frac{\\pi}{24}$."
+  },
+  {
+   "id": "math-2008-M-P1-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nLet A and B be events such that P() A= 0 6, P( . A ∪ B ) = 0 8 and P( . AB= 0 6 . | ) .\nFind P() B.",
+   "ms_text": "7. EITHER\nP( A ∩ B )\nUsing P( AB ) = (M1)\nP() B\n0.6P() B = P( A ∩ B ) A1\nUsing P( A ∪ B ) = P() A + P() B − P( A ∩ B ) to obtain 0.8 = 0.6 + P() B − P( A ∩ B ) A1\nSubstituting 0.6P() B = P( A ∩ B ) into above equation M1\nOR\nAs P( AB ) = P() A then A and B are independent events M1R1\nUsing P( A ∪ B ) = P() A + P() B − P() A × P() B A1\nto obtain 0.8 = 0.6 + P() B − 0.6 × P() B A1\nTHEN\n0.8 = 0.6 + 0.4P() B A1\nP() B= 0.5 A1 N1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nLet $A$ and $B$ be events such that $\\mathrm{P}(A)=0.6$, $\\mathrm{P}(A\\cup B)=0.8$ and $\\mathrm{P}(A|B)=0.6$.\nFind $\\mathrm{P}(B)$."
+  },
+  {
+   "id": "math-2008-M-P1-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nA normal to the graph of y = arctan ( x − )1, for x > 0 , has equation y = − 2 x + c ,\nwhere c∈ϒ.\nFind the value of c.",
+   "ms_text": "d 1\n8. ( arctan( x − 1) ) = (or equivalent) A1\n2 d x 1 + ( x − 1)\n1\nm = − and so 2 m= (R1)\nN T 2\n1 1\nAttempting to solve = (or equivalent)for x M1\n2 1 + ( x − 1) 2\nx = 2 (as x > 0 ) A1\nπ\nSubstituting x = 2 and y = to find c M1\n4\nπ\nc 4 A1 N1 = +\n4\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nA normal to the graph of $y=\\arctan(x-1)$, for $x>0$, has equation $y=-2x+c$, where $c\\in\\mathbb{R}$.\nFind the value of $c$."
+  },
+  {
+   "id": "math-2008-M-P1-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 6]\nThe diagram below shows the boundary of the cross-section of a water channel.\ny\n–12 12\nx\nWater Depth\n–16\nx secπ\nThe equation that represents this boundary is y = 16 32 where x and y are\n−\n36\nboth measured in cm.\nThe top of the channel is level with the ground and has a width of 24 cm. The maximum\ndepth of the channel is 16 cm.\nFind the width of the water surface in the channel when the water depth is 10 cm.\nGive your answer in the form a arccos where ab b ,∈ϒ.",
+   "ms_text": "⎛ π x ⎞−\n9. 10 cm water depth corresponds to 16sec ⎜ ⎟ 32 = − 6 (A1)\n⎝ 36 ⎠\n⎛ π x ⎞=\nRearranging to obtain an equation of the form k or equivalent sec36 ⎜ ⎟\n⎝ ⎠\ni.e. making a trignometrical function the subject of the equation. M1\n⎛ π x 8 ⎞=\n⎜ ⎟ (A1) cos36\n⎝ ⎠ 13\nπ x 8\n= ± arccos M1\n36 13\n36 8\nx = ± arccos A1\nπ 13\nNote: Do not penalise the omission of ± .\n8 Width of water surface is 72\narccos R1 N1 13 (cm)\nπ\nNote:Candidate who starts with 10 instead of − has the potential to 6\ngain the two M1 marks and the R1 mark.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.9",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 6]\nThe diagram below shows the boundary of the cross-section of a water channel.\n[Diagram: U-shaped curve from (-12, 0) to (12, 0) with lowest point (0, -16); shaded water region with a horizontal surface, arrow labelled Water Depth]\nThe equation that represents this boundary is $y=16\\sec\\left(\\frac{\\pi x}{36}\\right)-32$ where $x$ and $y$ are both measured in cm.\nThe top of the channel is level with the ground and has a width of 24 cm. The maximum depth of the channel is 16 cm.\nFind the width of the water surface in the channel when the water depth is 10 cm.\nGive your answer in the form $a\\arccos b$ where $a, b\\in\\mathbb{R}$."
+  },
+  {
+   "id": "math-2008-M-P1-TZ2-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 6]\n2 2 2 2\nGiven any two non-zero vectors a and b , show that a × b = a b − ( ab γ ) .",
+   "ms_text": "10. METHOD 1\nUse of a × b = a b sinθ (M1)\n2 2 2 2\na × b = a b sinθ (A1)\nNote:Only one of the first two marks can be implied.\n2 2 2\n= a b (1 − cos θ ) A1\n2 2 2 2 2\n= a b − a b cosθ (A1)\n2 2 2\n= a b − ( a b cosθ ) (A1)\nNote:Only one of the above two A1 marks can be implied.\n2 2\na b ( ab i ) 2 A1 = −\nHence LHS = RHS AG N0\n[6 marks]\nMETHOD 2\nUse of ab i = a b cosθ (M1)\n2 2 2 2 2\na b ( ab i ) 2 a b a b cosθ (A1) − = − ( )\n2 2 2 2\na b a b cosθ 2 (A1) = −\nNote:Only one of the above two A1 marks can be implied.\n2 2 2\n= a b (1 − cos θ ) A1\n2 2 2\n=a b sinθ A1\n2\na b A1 = ×\nHence LHS = RHS AG N0\nNotes: Candidates who independently correctly simplify both sides and show that\nLHS = RHS should be awardedfull marks.\nIf the candidate starts off with expression that they are trying to prove and\nconcludes that sin 2 θ = (1 − cos 2 θ ) award M1A1A1A1A0A0.\nIf the candidate uses two general 3D vectors and explicitly finds the expressions\ncorrectly award full marks. Use of 2D vectors gains a maximum of 2 marks.\nIf two specific vectors are used no marks are gained.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.13",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 6]\nGiven any two non-zero vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$, show that $|\\boldsymbol{a}\\times\\boldsymbol{b}|^2=|\\boldsymbol{a}|^2|\\boldsymbol{b}|^2-(\\boldsymbol{a}\\cdot\\boldsymbol{b})^2$."
+  },
+  {
+   "id": "math-2008-M-P1-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\nConsider the points A(, 1 − 14 , ) , B(, 2 − 25 ,) and O(, 000. ,)\n→ →\n(a) Calculate the cosine of the angle between OA and AB . [5 marks]\n(b) Find a vector equation of the line L1 which passes through A and B. [2 marks]\nThe line L2 has equation r = 2 i + 4 j + 7 k + t ( 2 i + j + 3 k ), where t ∈ϒ.\n(c) Show that the lines L1 and L2 intersect and find the coordinates of their point\nof intersection. [7 marks]\n(d) Find the Cartesian equation of the plane which contains both the line L2 and\nthe point A. [6 marks]",
+   "ms_text": "→ →\nOAAB i\n11. (a) Use of cos θ = (M1)\n→ →\nOA AB\n→\nAB = i − j + k A1\n→ →\nAB = 3 and OA = 32 A1\n→ →\nOAAB i = 6 A1\n2 ⎛ 6 ⎞\nsubstituting gives cos θ = ⎜ = ⎟ or equivalent M1 N1\n⎜ ⎟\n6 3 ⎝ ⎠\n[5 marks]\n→ →\n(b) L 1: r = OA + s AB or equivalent (M1)\nL 1: r =− i j + 4 k + s ( i − j + k or equivalent ) A1\nNote: Award (M1)A0 for omitting “ r = ” in the final answer.\n[2 marks]\n(c) Equating components and forming equations involving s and t (M1)\n1 + s = 2 + 2 t , 1 −− s = 4 +, 4 t + s = 7 + 3 t\nHaving two of the above three equations A1A1\nAttempting to solve for s or t (M1)\nFinding either s = − or 3 t = − 2 A1\nExplicitly showing that these values satisfy the third equation R1\nPoint of intersection is (2, 2, 1) − A1 N1\nNote:Position vector is not acceptable for final A1.\n[7 marks]\n(d) METHOD 1\n⎛ 1 ⎞ ⎛⎞ 2 ⎛ 3 ⎞ −\n⎜ ⎟ ⎜⎟ ⎜ ⎟\nr =− 1 + λ 1 + µ 3 (A1) ⎜ ⎟ ⎜⎟ ⎜ ⎟\n⎜ ⎟ ⎜⎟ ⎜ ⎟\n4 3 − 3 ⎝ ⎠ ⎝⎠ ⎝ ⎠\nx =+ 1 2 λ − 3 µ , y = −+ 1 λ + 3 µ and z = 4 + 3 λ − 3 µ M1A1\nElimination of the parameters M1\nx + y = 3 λ so4( x + y ) = 12 λ and y + z = 4 λ + 3 so3( y + z ) = 12 λ + 9\n3( y + z ) = 4( x + y ) + 9 A1\nCartesian equation of plane is 4 x + y − 3 z = − (or equivalent) 9 A1 N1\n[6 marks]\nMETHOD 2\nEITHER\nThe point (2, 4, 7) lies on the plane.\nThe vector joining (2, 4, 7) and (1, − 1, 4) and 2 i + j + 3 k are\nparallel to the plane. So they are perpendicular to the normal to\nthe plane.\n( i − j + 4) k − (2 i + 4 j + 7) k = −− i 5 j − 3 k (A1)\ni j k\nn =− 1 − 5 − 3 M1\n2 1 3\n12 i 3 j 9 k or equivalent parallel vector A1 = − − +\nOR\n1L and L intersect at D (2, 2, 1) − 2\n→\nAD =− (2 i + 2 j + k ) − ( i − j + 4) k = − 3 i + 3 j − 3 k (A1)\ni j k\nn = 2 1 3 M1\n3 3 3 − −\n= − 12 i − 3 j + 9 k or equivalent parallel vector A1\nTHEN\nrn i = ( i − j + 4)(12 k i − i − 3 j + 9) k M1\n= 27 A1\nCartesian equation of plane is 4 x + y − 3 z = − (or equivalent) 9 A1 N1\n[6 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.17",
+    "3.13",
+    "3.16",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 20]\nConsider the points $\\mathrm{A}(1,-1,4)$, $\\mathrm{B}(2,-2,5)$ and $\\mathrm{O}(0,0,0)$.\n(a) Calculate the cosine of the angle between $\\vec{\\mathrm{OA}}$ and $\\vec{\\mathrm{AB}}$. [5 marks]\n(b) Find a vector equation of the line $L_1$ which passes through A and B. [2 marks]\nThe line $L_2$ has equation $\\boldsymbol{r}=2\\boldsymbol{i}+4\\boldsymbol{j}+7\\boldsymbol{k}+t(2\\boldsymbol{i}+\\boldsymbol{j}+3\\boldsymbol{k})$, where $t\\in\\mathbb{R}$.\n(c) Show that the lines $L_1$ and $L_2$ intersect and find the coordinates of their point of intersection. [7 marks]\n(d) Find the Cartesian equation of the plane which contains both the line $L_2$ and the point A. [6 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 10]\n(a) Find the sum of the infinite geometric sequence 27 , − 93 , , − 1 , ... . [3 marks]\n+ (b) Use mathematical induction to prove that for n∈\n′,\nn a ( 1 − r\n2 n − 1 ). a + ar + ar + ... + ar =\n[7 marks]\n1 − r",
+   "ms_text": "1\n12. (a) r = − (A1)\n3\n27\nM1 S∞=\n1\n1 +\n3\n81\n( 20.25) A1 N1 S∞= =\n4\n[3 marks]\n(b) Attempting to show that the result is true for n = 1 M1\na (1 − r )\nLHS = a and RHS = = a A1\n1 − r\nHence the result is true for n = 1\nAssume it is true for n k =\nk a (1 − r )\n2 k − 1 a + ar + ar + ... + ar = M1\n1 − r\nConsider n = k +: 1\nk a (1 − r )\n2 k − 1 k k a + ar + ar + ... + ar + ar = + ar M1\n1 − r\nk k a (1 − r ) + ar (1 − r )\n=\n1 − r\nk k k 1 a − ar + ar − ar +\n= A1\n1 − r\nNote: Award A1 for an equivalent correct intermediate step.\nk + 1 a − ar\n=\n1 − r\nk + 1 a (1 − r )\n= A1\n1 − r\nNote: Illogical attempted proofs that use the result to be proved\nwould gainM1A0A0for the last three above marks.\nThe result is true for n = k ⇒ it is true for n = k +and as it is true for 1 n =, 1\nthe result is proved by mathematical induction. R1 N0\nNote: To obtain the final R1 mark a reasonable attempt must have been made\nto prove the k + step. 1\n[7 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15",
+    "1.8",
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 10]\n(a) Find the sum of the infinite geometric sequence $27, -9, 3, -1, \\ldots$. [3 marks]\n(b) Use mathematical induction to prove that for $n\\in\\mathbb{Z}^+$,\n$a+ar+ar^2+\\ldots+ar^{n-1}=\\frac{a(1-r^n)}{1-r}$. [7 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ2-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 18]\nAndré wants to get from point A located in the sea to point Y located on a straight\nstretch of beach. P is the point on the beach nearest to A such that AP = 2 km and\nPY = 2 km . He does this by swimming in a straight line to a point Q located on the\nbeach and then running to Y.\nA\n2 km\nx km Q\nP 2 km Y\nWhen André swims he covers 1 km in 55 minutes. When he runs he covers 1 km\nin 5 minutes.\n(a) If PQ = x km , 0 ≤ x ≤ 2 , find an expression for the time T minutes taken by\nAndré to reach point Y. [4 marks]\nT 55 x Show that d\n(b) = − 5 . [3 marks]\nd x 2 x + 4\nT Solve d\n(c) (i)\nx= 0.\nd\n(ii) Use the value of x found in part (c) (i) to determine the time, T minutes,\ntaken for André to reach point Y.\n2T 205\n(iii) Show that d = and hence show that the time found in\n2 3 d x\n2 2 ( x + 4 )\npart (c) (ii) is a minimum. [11 marks]",
+   "ms_text": "2 13. (a) AQ = x + 4 (km) (A1)\nQY (2 )x (km) (A1) = −\nT= 55AQ + 5QY (M1)\n= 55 ( x 2 + 4) + 5(2 − x ) (mins) A1\n[4 marks]\n2 (b) Attempting to use the chain rule on 55 ( x+ 4) (M1)\n1 d 1\n−\n( 55 ( x 2 + 4) ) = 55 × ( x 2 + 4) 2 × 2 x A1\nd x 2\n⎛ 55 x ⎞\n⎜ = ⎟ ⎜ ⎟\nx 2 4 ⎝ + ⎠\nd5(2 ( − x ) ) = − 5 A1\nd x\nd T 55 x\n= − 5 AG N0\nd x 2 x + 4\n[3 marks]\n2 (c) (i) 5 x = x + 4 or equivalent A1\n2 2 Squaring both sides and rearranging to obtain 5 x = x + 4 M1\nx = 1 A1 N1\nNote: Do not award the final A1 for stating a negative solution in final answer.\n(ii) T= 551 + 4 + 5(2 − 1) M1\n= 30 (mins) A1 N1\nNote: Allow FTon incorrect x value.\n(iii) METHOD 1\nAttempting to use the quotient rule M1\nu d v 2 , d 2 − 1/ 2\nu = x , v = x + 4 1 = xx ( + 4) (A1) x= and\nd d x\n⎡ 1 ⎤ 2 2 − 1/ 2 2\n2 x + 4 − ( x + 4) × 2 x d T ⎢ ⎥\n2\n= 55 ⎢ ⎥ A1\n2 2 d x ( x + 4)\n⎢ ⎥\n⎣ ⎦\nAttempt to simplify (M1)\n55\n⎡ 2 2 ⎤ =\n⎣ x + 4 − x ⎦ or equivalent A1 2 3/ 2\n( x + 4)\n205\n= AG\n2 3/ 2 ( x + 4)\n205\nWhen x =, 1 > 0 and hence T= 30 is a minimum R1 N0\n2 3/ 2 ( x + 4)\nNote:Allow FT on incorrect x value,0 ≤ x ≤ 2 .\nMETHOD 2\nAttempting to use the product rule M1\nu d v 2 , d 2 − 1/ 2\nu = x , v = x + 4 1 = xx ( + 4) (A1) x= and\nd d x\n2 d T 55 x\n55 ( x 2 4) − 1/ 2 ( x 2 4) − 3/ 2 2 x A1 = + − + ×\nd x 2 2\n2 ⎛ 55 55 x ⎞\n⎜ = − ⎟ ⎜\n2 1/ 2 2 3/ 2 ⎟ ( x + 4) ( x + 4)\n⎝ ⎠\nAttempt to simplify (M1)\n2 2 ⎛ 2 2 ⎞ 55 ( x + 4) − 55 x 55 ( x + 4 − x )\n= ⎜ = ⎟ A1\n2 3/ 2 ⎜ 2 3/ 2 ⎟ ( x + 4)\n⎝ ( x + 4) ⎠\n205\n= AG\n2 3/ 2 ( x + 4)\n205\nWhen x =, 1 > 0 and hence T= 30 is a minimum R1 N0\n2 3/ 2 ( x + 4)\nNote:Allow FT on incorrect x value,0 ≤ x ≤ 2 .\n[11 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.6",
+    "5.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 18]\nAndré wants to get from point A located in the sea to point Y located on a straight stretch of beach. P is the point on the beach nearest to A such that $\\mathrm{AP}=2$ km and $\\mathrm{PY}=2$ km. He does this by swimming in a straight line to a point Q located on the beach and then running to Y.\n[Diagram: A is 2 km vertically above P on the beach line; Q on the beach between P and Y with PQ = x km; PY = 2 km; right angle at P; AQ drawn]\nWhen André swims he covers 1 km in $5\\sqrt{5}$ minutes. When he runs he covers 1 km in 5 minutes.\n(a) If $\\mathrm{PQ}=x$ km, $0\\le x\\le 2$, find an expression for the time $T$ minutes taken by André to reach point Y. [4 marks]\n(b) Show that $\\frac{\\mathrm{d}T}{\\mathrm{d}x}=\\frac{5\\sqrt{5}x}{\\sqrt{x^2+4}}-5$. [3 marks]\n(c) (i) Solve $\\frac{\\mathrm{d}T}{\\mathrm{d}x}=0$.\n(ii) Use the value of $x$ found in part (c) (i) to determine the time, $T$ minutes, taken for André to reach point Y.\n(iii) Show that $\\frac{\\mathrm{d}^2T}{\\mathrm{d}x^2}=\\frac{20\\sqrt{5}}{(x^2+4)^{\\frac{3}{2}}}$ and hence show that the time found in part (c) (ii) is a minimum. [11 marks]"
+  },
+  {
+   "id": "math-2008-M-P1-TZ2-q14",
+   "num": "14",
+   "section": "B",
+   "marks": 12,
+   "qtype": "long",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14. [Maximum mark: 12]\nπ 2 π cos 2\nLet w = + i sin .\n5 5\n(a) Show that w is a root of the equation z5 −= 1 0 . [3 marks]\n4 3 2 5 (b) Show that ( w − 1 )( w + w + w + w + 1 ) = w − 1 and deduce that\n4 3 2 w + w + w + w +=. 1 0 [3 marks]\nπ 4 π 1 Hence show that cos 2\n(c) + cos = − [6 marks]\n2.\n5 5",
+   "ms_text": "14. (a) EITHER\n5\n⎛ 2π 2π ⎞ 5\nw = ⎜ cos + isin ⎟ (M1)\n⎝ 5 5 ⎠\n= cos2π + isin 2π A1\n= 1 A1\n5 Hence w is a root of z−= 1 0 AG\nOR\n5 Solving z= 1 (M1)\n2 π 2 π\nz cos n isin n , n 0, 1, 2, 3, 4. A1 = + =\n5 5\n2 π 2 π\nn =gives 1 cos + isin which is w A1\n5 5\n[3 marks]\n2 3 4 2 3 4 5 2 3 4 (b) ( w − 1)(1 + w + w + w + w ) = w + w + w + w + w −− 1 w − w − w − w M1\n5 = w − 1 A1\n5 4 3 2 Since w−= 1 0 and w ≠ 1 , w + w + w + w += 1 0 . R1\n[3 marks]\n2 3 4 (c) 1 + w + w + w + w =\n2 3 4\n2 π 2 π ⎛ 2 π 2 π ⎞ ⎛ 2 π 2 π ⎞ ⎛ 2 π 2 π ⎞\n1 + cos + isin + cos + isin + cos + isin + cos + isin ⎜ ⎟ ⎜ ⎟ ⎜ ⎟\n5 5 ⎝ 5 5 ⎠ ⎝ 5 5 ⎠ ⎝ 5 5 ⎠\n(M1)\n2 π 2 π 4 π 4 π 6 π 6 π 8 π 8 π\n1 cos isin cos isin cos isin cos isin M1 =+ + + + + + + +\n5 5 5 5 5 5 5 5\n2 π 2 π 4 π 4 π 4π 4 π 2 π 2 π\n=+ 1 cos + isin + cos + isin + cos − isin + cos − isin M1A1A1\n5 5 5 5 5 5 5 5\nNote: Award M1 for attempting to replace 6π and 8π by 4π and 2π .\nAward A1 for correct cosine terms and A1 for correct sine terms.\n4 π 2 π\n=+ 1 2cos + 2cos = 0 A1\n5 5\nNote: Correct methods involving equating real parts, use of conjugates\nor reciprocals are also accepted.\n2 π 4 π 1\ncos + cos = − AG\n5 5 2\n[6 marks]\nNote:Use of cis notation is acceptable throughout this question.\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13",
+    "3.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "14. [Maximum mark: 12]\nLet $w=\\cos\\frac{2\\pi}{5}+\\mathrm{i}\\sin\\frac{2\\pi}{5}$.\n(a) Show that $w$ is a root of the equation $z^5-1=0$. [3 marks]\n(b) Show that $(w-1)(w^4+w^3+w^2+w+1)=w^5-1$ and deduce that $w^4+w^3+w^2+w+1=0$. [3 marks]\n(c) Hence show that $\\cos\\frac{2\\pi}{5}+\\cos\\frac{4\\pi}{5}=-\\frac{1}{2}$. [6 marks]"
+  }
+ ],
+ "status": "done"
+}

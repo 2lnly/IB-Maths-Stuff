@@ -1,0 +1,136 @@
+{
+ "exam_id": "math-2015-M-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2015,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2015 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2015 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2215-7209; code M15/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2015-M-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 13]\nConsider the set S3= { p , q , r , s , t , u} of permutations of the elements of the set {1 , 2 , 3} ,\ndefined by\n1 2 3 1 2 3 1 2 3\np = , q = , r =\n,\n1 2 3 1 3 2 3 2 1\n1 2 3 1 2 3 1 2 3\ns = , t = , u =\n.\n2 1 3 2 3 1 3 1 2\nLet ο denote composition of permutations, so aοb means b followed by a . You may\n( ) forms a group. assume that S3 , ο\n(a) Complete the following Cayley table\np q r s t u ο\np\nq t s\nr u t s q\ns t u r\nt s q r\nu r s q\n[5]\n(b) (i) State the inverse of each element.\n(ii) Determine the order of each element. [6]\n(c) Write down the subgroups containing\n(i) r ,\n(ii) u . [2]",
+   "ms_text": "1. (a)\nο p q r s t u\np p q r s t u\nq q p t u r s\nr r u p t s q\ns s t u p q r\nt t s q r u p\nu u r s q p t\n(M1)A4\nNote: Award M1 for use of Latin square property and/or attempted\nmultiplication, A1 for the first row or column, A1 for the squares\nof q , r and s , then A2 for all correct.\n[5 marks]\n− 1 − 1 − 1 − 1\n(b) (i) p = pq , = qr , = rs , = s A1\n− 1 − 1\nt = uu , = t A1\nNote: Allow FT from part (a) unless the working becomes simpler.\n(ii) using the table or direct multiplication (M1)\nthe orders of {, pqrstu are { , ,,,} 1, 2, 2, 2, 3, 3 } A3\nNote: Award A1 for two, three or four correct, A2 for five correct.\n[6 marks]\n(c) (i) {,}and( pr ( S ,) ο ) A1\n3\n(ii) {, put ,}and ( ( S ,) ο ) A1\n3\nNote: Award A0A1 if the identity has been omitted.\nAward A0 in (i) or (ii) if an extra incorrect “subgroup” has been included.\n[2 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.6",
+    "7.5",
+    "7.8",
+    "7.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 13]\nConsider the set $S_3=\\{p, q, r, s, t, u\\}$ of permutations of the elements of the set $\\{1, 2, 3\\}$, defined by\n$p=\\begin{pmatrix}1&2&3\\\\1&2&3\\end{pmatrix}$, $q=\\begin{pmatrix}1&2&3\\\\1&3&2\\end{pmatrix}$, $r=\\begin{pmatrix}1&2&3\\\\3&2&1\\end{pmatrix}$,\n$s=\\begin{pmatrix}1&2&3\\\\2&1&3\\end{pmatrix}$, $t=\\begin{pmatrix}1&2&3\\\\2&3&1\\end{pmatrix}$, $u=\\begin{pmatrix}1&2&3\\\\3&1&2\\end{pmatrix}$.\nLet $\\circ$ denote composition of permutations, so $a\\circ b$ means $b$ followed by $a$. You may assume that $(S_3, \\circ)$ forms a group.\n(a) Complete the following Cayley table [5]\n[Table: Cayley table with rows/columns p, q, r, s, t, u; given entries:]\n$\\circ$ | p | q | r | s | t | u\np | | | | | |\nq | | | t | | | s\nr | | u | | t | s | q\ns | | t | u | | | r\nt | | s | q | r | |\nu | | r | s | q | |\n(b) (i) State the inverse of each element.\n(ii) Determine the order of each element. [6]\n(c) Write down the subgroups containing\n(i) $r$,\n(ii) $u$. [2]"
+  },
+  {
+   "id": "math-2015-M-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\nThe binary operation * is defined for x , y∈S= {0 , 1 , 2 , 3 , 4 , 5 , 6} by\n( 3 ) x ∗ y = xy − xy mod 7 .\n(a) Find the element e such that e* y = y , for all y∈S . [2]\n(b) (i) Find the least solution of x* x = e .\nDeduce that (S , *) is not a group. (ii) [5]\nDetermine whether or not e is an identity element. (c) [3]",
+   "ms_text": "3 − ≡\n2. (a) attempt to solve ey ey y mod7 (M1)\ne= the only solution is 5 A1\n[2 marks]\nx 4 − x 2 ≡ 5mod7 (b) (i) attempt to solve (M1)\nx = 2 least solution is A1\n(ii) suppose (, *) S is a group with order 7 A1\n2 has order 2 A1\nsince 2 does not divide 7, Lagrange’s Theorem is contradicted R1\nhence, (, *) S is not a group AG\n[5 marks]\n(c) (5 is a left-identity), so need to test if it is a right-identity:\n∗ = ie, is y 5 y ? M1\n∗ = ≠ 15 0 1 A1\nso 5 is not an identity A1\n[3 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "6"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.8",
+    "7.5",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\nThe binary operation $*$ is defined for $x, y \\in S=\\{0, 1, 2, 3, 4, 5, 6\\}$ by\n$x*y=(x^3y-xy)\\bmod 7$.\n(a) Find the element $e$ such that $e*y=y$, for all $y\\in S$. [2]\n(b) (i) Find the least solution of $x*x=e$.\n(ii) Deduce that $(S, *)$ is not a group. [5]\n(c) Determine whether or not $e$ is an identity element. [3]"
+  },
+  {
+   "id": "math-2015-M-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 12]\nThe relation R is defined on ′ by xRy if and only if x2y ≡ y mod 6 .\n(a) Show that the product of three consecutive integers is divisible by 6. [2]\n(b) Hence prove that R is reflexive. [3]\n(c) Find the set of all y for which 5Ry . [3]\n(d) Find the set of all y for which 3Ry . [2]\n(e) Using your answers for (c) and (d) show that R is not symmetric. [2]",
+   "ms_text": "3. (a) in a product of three consecutive integers either one or two are even R1\nand one is a multiple of 3 R1\nso the product is divisible by 6 AG\n[2 marks]\n= (b) to test reflexivity, put y x M1\n2\nthen xx − x = ( x − 1) xx ( + 1) ≡ 0mod6 M1A1\nso xRx AG\n[3 marks]\n(c) if 5Ry then 25 y ≡ y mod6 (M1)\n24 y≡ 0mod6 (M1)\nthe set of solutions is ′ A1\nNote: Only one of the method marks may be implied.\n[3 marks]\n(d) if 3Ry then 9 y ≡ y mod6\n8 y ≡ 0mod6 ⇒ 4 y ≡ 0mod3 (M1)\nthe set of solutions is 3′ (ie multiples of 3) A1\n[2 marks]\n(e) from part (c) 53 R A1\nfrom part (d) 35 R is false A1\nR is not symmetric AG\nNote: Accept other counterexamples.\n[2 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "6"
+   ],
+   "subtopics": [
+    "7.2",
+    "6.4",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 12]\nThe relation $R$ is defined on $\\mathbb{Z}$ by $xRy$ if and only if $x^2y\\equiv y \\bmod 6$.\n(a) Show that the product of three consecutive integers is divisible by 6. [2]\n(b) Hence prove that $R$ is reflexive. [3]\n(c) Find the set of all $y$ for which $5Ry$. [3]\n(d) Find the set of all $y$ for which $3Ry$. [2]\n(e) Using your answers for (c) and (d) show that $R$ is not symmetric. [2]"
+  },
+  {
+   "id": "math-2015-M-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 9]\nLet X and Y be sets. The functions f : X → Y and g : Y → Xare such that g ο f is the\nidentity function on X .\n(a) Prove that\n(i) f is an injection,\n(ii) g is a surjection. [6]\nGiven that X =ϒ+ ∪{0} and Y =ϒ , choose a suitable pair of functions f and g to (b)\nshow that g is not necessarily a bijection. [3]",
+   "ms_text": "() = ( ) 4. (a) (i) to test injectivity, suppose fx fx M1\n1 2\napply g to both sides gfx ( () ) = gfx ( ( ) ) M1\n1 2\n⇒ x = x A1\n1 2\nso f is injective AG\nNote: Do not accept arguments based on “f has an inverse”.\n∈ (ii) to test surjectivity, suppose x X M1\ndefine y = fx () M1\n( ) then gy () = gfx () = x A1\nso g is surjective AG\n[6 marks]\n2\n(b) choose, for example, fx () = x and gy () = y A1\n2\n( ) then g ο fx () = x = x A1\nthe function g is not injective as gx () = g ( − x ) R1\n[3 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 9]\nLet $X$ and $Y$ be sets. The functions $f: X\\to Y$ and $g: Y\\to X$ are such that $g\\circ f$ is the identity function on $X$.\n(a) Prove that\n(i) $f$ is an injection,\n(ii) $g$ is a surjection. [6]\n(b) Given that $X=\\mathbb{R}^+\\cup\\{0\\}$ and $Y=\\mathbb{R}$, choose a suitable pair of functions $f$ and $g$ to show that $g$ is not necessarily a bijection. [3]"
+  },
+  {
+   "id": "math-2015-M-P3-sets-relations-and-groups-q5",
+   "num": "5",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 16]\nConsider the sets\nnn mm G = ∈\n� , i ∈ �, H = ∈ � , j ∈ �. 6| 3|\ni j\n(a) Show that (G , +) forms a group where + denotes addition on ⁄ . Associativity may be\nassumed. [5]\nAssuming that (H , +) forms a group, show that it is a proper subgroup of (G , +) . (b) [4]\nThe mapping φ: G → Gis given by φ ( g) = g + g , for g∈G .\n(c) Prove that φ is an isomorphism. [7]",
+   "ms_text": "i 2 + i 1 n n 6 n 6 n\n1 + 2 = 1 2 ∈ 5. (a) closure: G A1R1\ni i i + i 6 1 6 2 6 1 2\nNote: Award A1 for RHS of equation. R1 is for the use of two\ndifferent, but not necessarily most general elements, and\n∈ the result G or equivalent.\nidentity: 0 A1\n− n\nA1\ninverse: 6i\nsince associativity is given, ( G+ forms a group , ) R1AG\nNote: The R1 is for considering closure, the identity, inverses and associativity.\n[5 marks]\n(b) it is required to show that H is a proper subset of G (M1)\nn\n∈ H M1\nlet 3i\ni n 2 n\nthen = ∈ G hence H is a subgroup of G A1\ni i 3 6\nsince 1 but 1 H ≠ G ∈ G ∉ H\nA1\n6 6\nNote: The final A1 is only dependent on the first M1.\nhence, H is a proper subgroup of G AG\n[4 marks]\n(c) consider ( φ g + g ) = ( g + g )( + g + g ) M1\n1 2 1 2 1 2\n= ( g + g )( + g + g ) = φ ( g ) + φ ( g ) A1\n1 1 2 2 1 2\n(hence φ is a homomorphism)\ninjectivity: let ( φ g ) = φ ( g ) M1\n1 2\nworking within ⁄ we have 2 g = 2 g ⇒ g = g A1\n1 2 1 2\nsurjectivity: considering even and odd numerators M1\nn 2 n 3(2 n + 1) 2 n + 1 φ = =\nand φ A1A1\ni i i + 1 i 6 6 6 6\nhence φ is an isomorphism AG\n[7 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.9",
+    "7.5",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 16]\nConsider the sets\n$G=\\left\\{\\frac{n}{6^i} \\mid n\\in\\mathbb{Z}, i\\in\\mathbb{N}\\right\\}$, $H=\\left\\{\\frac{m}{3^j} \\mid m\\in\\mathbb{Z}, j\\in\\mathbb{N}\\right\\}$.\n(a) Show that $(G, +)$ forms a group where $+$ denotes addition on $\\mathbb{Q}$. Associativity may be assumed. [5]\n(b) Assuming that $(H, +)$ forms a group, show that it is a proper subgroup of $(G, +)$. [4]\nThe mapping $\\phi: G\\to G$ is given by $\\phi(g)=g+g$, for $g\\in G$.\n(c) Prove that $\\phi$ is an isomorphism. [7]"
+  }
+ ],
+ "status": "done"
+}

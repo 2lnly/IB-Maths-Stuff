@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2016-M-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.1", "6.3"],
+      "text_clean": "1. [Maximum mark: 9]\n(a) Use the Euclidean algorithm to show that $1463$ and $389$ are relatively prime. [4]\n(b) Find positive integers $a$ and $b$ such that $1463a - 389b = 1$. [5]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.9", "6.8"],
+      "text_clean": "2. [Maximum mark: 12]\nThe weights of the edges in the complete graph $G$ are shown in the following table.\n| | A | B | C | D | E | F |\n| A | – | 14 | 10 | 8 | 12 | 9 |\n| B | 14 | – | 9 | 12 | 10 | 13 |\n| C | 10 | 9 | – | 7 | 8 | 13 |\n| D | 8 | 12 | 7 | – | 9 | 11 |\n| E | 12 | 10 | 8 | 9 | – | 11 |\n| F | 9 | 13 | 13 | 11 | 11 | – |\n(a) Starting at $\\mathrm{A}$, use the nearest neighbour algorithm to find an upper bound for the travelling salesman problem for $G$. [5]\n(b) By first removing $\\mathrm{A}$, use the deleted vertex algorithm to find a lower bound for the travelling salesman problem for $G$. [7]"
+    },
+    "3": {
+      "topics": ["6", "2"],
+      "subtopics": ["6.2", "2.12"],
+      "text_clean": "3. [Maximum mark: 10]\nThroughout this question, $(abc\\ldots)_n$ denotes the number $abc\\ldots$ written with number base $n$. For example $(359)_n = 3n^2 + 5n + 9$.\n(a) (i) Given that $(43)_n \\times (56)_n = (3112)_n$, show that $3n^3 - 19n^2 - 38n - 16 = 0$.\n(ii) Hence determine the value of $n$. [3]\n(b) Determine the set of values of $n$ satisfying $(13)_n \\times (21)_n = (273)_n$. [3]\n(c) Show that there are no possible values of $n$ satisfying $(32)_n \\times (61)_n = (1839)_n$. [4]"
+    },
+    "4": {
+      "topics": ["6", "1"],
+      "subtopics": ["6.10", "1.15"],
+      "text_clean": "4. [Maximum mark: 17]\n(a) Solve the recurrence relation $v_n + 4v_{n-1} + 4v_{n-2} = 0$ where $v_1 = 0$, $v_2 = 1$. [6]\n(b) Use strong induction to prove that the solution to the recurrence relation $u_n - 4u_{n-1} + 4u_{n-2} = 0$ where $u_1 = 0$, $u_2 = 1$ is given by $u_n = 2^{n-2}(n-1)$. [8]\n(c) Find a simplified expression for $u_n + v_n$ given that,\n(i) $n$ is even.\n(ii) $n$ is odd. [3]"
+    },
+    "5": {
+      "topics": ["6", "2"],
+      "subtopics": ["6.6", "2.7"],
+      "text_clean": "5. [Maximum mark: 12]\nThe simple, connected graph $G$ has $e$ edges and $v$ vertices, where $v \\geq 3$.\n(a) Show that the number of edges in $G'$, the complement of $G$, is $\\frac{1}{2}v^2 - \\frac{1}{2}v - e$. [2]\nGiven that both $G$ and $G'$ are planar and connected,\n(b) show that the sum of the number of faces in $G$ and the number of faces in $G'$ is independent of $e$; [3]\n(c) show that $v^2 - 13v + 24 \\leq 0$ and hence determine the maximum possible value of $v$. [7]"
+    }
+  }
+}

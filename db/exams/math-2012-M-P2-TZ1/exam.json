@@ -1,0 +1,318 @@
+{
+ "exam_id": "math-2012-M-P2-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2012,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_2_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_2_TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); code M12/5/MATHL/HP2/ENG/TZ1/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2012-M-P2-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\n3 2 Given that the graph of y = x − 6 x + kx − 4 has exactly one point at which the\ngradient is zero, find the value of k .",
+   "ms_text": "d y 2\n1. 3 x − 12 x + k M1A1 x=\nd\n2 2\n− = or completing the square( − ) + − For use of discriminant b 4 ac 0 3 x 2 k 12 (M1)\n14412 − k = 0 (A1)\nNote: Accept trial and error, sketches of parabolas with vertex (2,0) or use of\nsecond derivative.\nk = 12 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.7",
+    "5.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nGiven that the graph of $y = x^3 - 6x^2 + kx - 4$ has exactly one point at which the gradient is zero, find the value of $k$."
+  },
+  {
+   "id": "math-2012-M-P2-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\nThe probability density function of the continuous random variable X is given by\n1\nx k 2 , 1 ≤ x ≤ 2\nfx () =\n0 , otherwise\nwhere k is a constant. Find the expected value of X .",
+   "ms_text": "1\n2 1\n2. k 2d x x =⇒ 1 k = (0.61556 = … ) (M1)(A1) ∫\n1 1 2\n2d x x ∫\n1\n1 2\nx E( X ) = k ∫ x 2d x = 2.39.... k or 1.47 M1A1\n1\nNote: Condone missing dx in any part of the question.\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nThe probability density function of the continuous random variable $X$ is given by\n$f(x) = \\begin{cases} k\\,2^{\\frac{1}{x}}, & 1 \\le x \\le 2 \\\\ 0, & \\text{otherwise} \\end{cases}$\nwhere $k$ is a constant. Find the expected value of $X$."
+  },
+  {
+   "id": "math-2012-M-P2-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nA team of 6 players is to be selected from 10 volleyball players, of whom 8 are boys\nand 2 are girls.\n(a) In how many ways can the team be selected? [2 marks]\n(b) In how many of these selections is exactly one girl in the team? [3 marks]\n(c) If the selection of the team is made at random, find the probability that exactly\none girl is in the team. [2 marks]",
+   "ms_text": "10 =\n3. (a) (M1)A1 210\n6\n[2 marks]\n8\n(b) 2 × = 112 (M1)A1A1\n5\nNote: Accept 210 – 28 – 70 = 112\n[3 marks]\n112 8\n(c) = = 0.533 (M1)A1\n210 15\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "4"
+   ],
+   "subtopics": [
+    "1.10",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nA team of 6 players is to be selected from 10 volleyball players, of whom 8 are boys and 2 are girls.\n(a) In how many ways can the team be selected? [2 marks]\n(b) In how many of these selections is exactly one girl in the team? [3 marks]\n(c) If the selection of the team is made at random, find the probability that exactly one girl is in the team. [2 marks]"
+  },
+  {
+   "id": "math-2012-M-P2-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nThe planes 2 x + 3 y − z = 5 and x − y + 2 z = k intersect in the line 5 x += 1 9 − 5 y = − 5 z .\nFind the value of k .",
+   "ms_text": "−− 15 λ 9 + 5 λ\n4. point on line is x = , y = , z = λ or similar M1A1\n5 5\nNote: Accept use of point on the line or elimination of one of the variables using\nthe equations of the planes\n−− 15 λ 9 + 5 λ\n− + 2 λ = k M1A1\n5 5\nNote: Award M1A1 if coordinates of point and equation of a plane is used to\nobtain linear equation in k or equations of the line are used in combination\nwith equation obtained by elimination to get linear equation in k.\nk =− 2 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nThe planes $2x + 3y - z = 5$ and $x - y + 2z = k$ intersect in the line $5x + 1 = 9 - 5y = -5z$.\nFind the value of $k$."
+  },
+  {
+   "id": "math-2012-M-P2-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nThe box and whisker plot below illustrates the IB grades obtained by 100 students.\n1 2 3 4 5 6 7\nGrade\nIB grades can only take integer values.\n(a) How many students obtained a grade of more than 4? [1 mark]\n(b) State, with reasons, the maximum possible number and minimum possible\nnumber of students who obtained a 4 in the exam. [4 marks]",
+   "ms_text": "5. (a) 50 A1\n[1 mark]\n(b) Lower quartile is 4 so at least 26 obtained a 4 R1\nLower bound is 26 A1\nMinimum is 2 but the rest could be 4 R1\nSo upper bound is 49 A1\nNote: Do not allow follow through for A marks.\nNote: If answers are incorrect award R0A0; if argument is correct but no clear\nlower/upper bound is stated award R1A0;award R0A1 for correct answer\nwithout explanation or incorrect explanation.\n[4 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.2",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\nThe box and whisker plot below illustrates the IB grades obtained by 100 students.\n[Diagram: box and whisker plot on a Grade axis from 1 to 7; minimum 2, lower quartile 4, median 4.5, upper quartile 6, maximum 7]\nIB grades can only take integer values.\n(a) How many students obtained a grade of more than 4? [1 mark]\n(b) State, with reasons, the maximum possible number and minimum possible number of students who obtained a 4 in the exam. [4 marks]"
+  },
+  {
+   "id": "math-2012-M-P2-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 5]\nLet fx () = ln x . The graph of f is transformed into the graph of the function g\n3\nby a translation of\n, followed by a reflection in the x-axis. Find an expression − 2\nfor gx (), giving your answer as a single logarithm.",
+   "ms_text": "6. hx () = fx ( − 3) − 2 = ln( x − 3) − 2 (M1)(A1)\ngx () =− hx () = 2 − ln( x − 3) M1\nNote: Award M1 only if it is clear the effect of the reflection in the x-axis:\nthe expression is correct OR\nthere is a change of signs of the previous expression OR\nthere’s a graph or an explanation making it explicit\n2 = lne − ln( x − 3) M1\n2e\n= ln A1\nx − 3\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.11",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 5]\nLet $f(x) = \\ln x$. The graph of $f$ is transformed into the graph of the function $g$ by a translation of $\\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix}$, followed by a reflection in the $x$-axis. Find an expression for $g(x)$, giving your answer as a single logarithm."
+  },
+  {
+   "id": "math-2012-M-P2-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 5]\nA fisherman notices that in any hour of fishing, he is equally likely to catch exactly\ntwo fish, as he is to catch less than two fish. Assuming the number of fish caught can\nbe modelled by a Poisson distribution, calculate the expected value of the number of\nfish caught when he spends four hours fishing.",
+   "ms_text": "7.\n= = < P( X 2) P( X 2) (M1)\n1 2 − m\n= − m + m e e (1 m ) (A1)(A1)\n2\n( ) m = 2.73 1 + 3 A1\nin four hours the expected value is 10.9 ( 4 + 43 ) A1\nNote:Value of m does not need to be rounded.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 5]\nA fisherman notices that in any hour of fishing, he is equally likely to catch exactly two fish, as he is to catch less than two fish. Assuming the number of fish caught can be modelled by a Poisson distribution, calculate the expected value of the number of fish caught when he spends four hours fishing."
+  },
+  {
+   "id": "math-2012-M-P2-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 9]\nA cone has height h and base radius r . Deduce the formula for the volume of\nh\nthis cone by rotating the triangular region, enclosed by the line y = h − and the\nrx\ncoordinate axes, through 2π about the y-axis.",
+   "ms_text": "r r\n8. x = r − y or x = ( h − y ) (or equivalent) (A1)\nh h\n2 d π∫ x y\n2\nh r\n=π r − y d y M1A1 ∫\n0 h\nNote:Award M1 for x 2 d y and A1 for correct expression. ∫\n2 2\nh r hry\nAccept π ∫ − r d y and π ∫ ± r − x d x\n0 h 0 h\n2 2 h 2 r r\n2 2 =π\n∫ r − y + y d y A1\n2 0 h h\nNote: Accept substitution method and apply markscheme to corresponding steps.\nh 2 2 2 3\nry ry\n=π 2 − + ry M1A1\n2 h 3 h\n0\nNote: Award M1 for attempted integration of any quadratic trinomial.\n1 2 2 2\n=π rh − rh + rh M1A1\n3\nNote: Award M1 for attempted substitution of limits in a trinomial.\n1 2\n= π A1\n3rh\nNote: Throughout the question do not penalize missing dx/dy as long as the integrations\nare done with respect to correct variable\n[9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.17",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 9]\nA cone has height $h$ and base radius $r$. Deduce the formula for the volume of this cone by rotating the triangular region, enclosed by the line $y = h - \\frac{h}{r}x$ and the coordinate axes, through $2\\pi$ about the $y$-axis."
+  },
+  {
+   "id": "math-2012-M-P2-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\n4 3\n2 2 2\nFind the constant term in the expansion of x − x + .\nx x",
+   "ms_text": "4\n2 32 16\n− = 4 − 2 + − + 9. x x 8 x 24 (M1)(A1)\n2 4 x x x\n3\n2 8 2 6 3\nx + = x + 6 x + 12 + (M1)(A1)\n3 x x\nNote: Accept unsimplified or uncalculated coefficients in\nthe constant term\n= 2412 × (M1)(A1)\n= 288 A1\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nFind the constant term in the expansion of $\\left(x - \\frac{2}{x}\\right)^4 \\left(x^2 + \\frac{2}{x}\\right)^3$."
+  },
+  {
+   "id": "math-2012-M-P2-TZ1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 8]\n= −1 , where m >1 A triangle is formed by the three lines y = 10 − 2, y x = mx and y\nm x 2.\nFind the value of m for which the area of the triangle is a minimum.",
+   "ms_text": "10. attempt to find intersections M1\n10 10 m 10 m 10\nintersections are , and , − A1A1\n+ + − − m 2 m 2 2 m 1 2 m 1\n+ 2 + 2 1 100100 m 100100 m\narea of triangle = × × M1A1A1\n+ − 2 ( m 2) (2 m 1)\n2 50(1 + m )\n=\n( m + 2)(2 m − 1)\nm = minimum when 3 (M1)A1\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "2.1",
+    "3.1",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 8]\nA triangle is formed by the three lines $y = 10 - 2x$, $y = mx$ and $y = -\\frac{1}{m}x$, where $m > \\frac{1}{2}$.\nFind the value of $m$ for which the area of the triangle is a minimum."
+  },
+  {
+   "id": "math-2012-M-P2-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 14]\nThe function fx () = 3 sin x + 4 cos x is defined for 0 < x < 2 π.\n(a) Write down the coordinates of the minimum point on the graph of f . [1 mark]\n(b) The points P(,) p3 and Q(,) q3, q > p , lie on the graph of y = fx () .\nFind p and q . [2 marks]\n(c) Find the coordinates of the point, on y = fx () , where the gradient of the\ngraph is 3. [4 marks]\n(d) Find the coordinates of the point of intersection of the normals to the graph at the\npoints P and Q. [7 marks]",
+   "ms_text": "11. (a) (3.79, − 5) A1\n[1 mark]\nπ\n(b) p = , q = 6.00 A1A1\n1.57 or2\n[2 marks]\n(c) f ′ () x = 3cos x − 4sin x (M1)(A1)\n3cos x − 4sin x =⇒ 3 x = 4.43 … (A1)\n( y =− 4) A1\n− 4) Coordinates are (4.43,\n[4 marks]\n1\n(d) m =− (M1)\nnormal\nm\ntangent\n− so gradient of normal at P is 1 gradient at P is 4 (A1)\n4\n1\ngradient at Q is 4 so gradient of normal at Q is − (A1)\n4\n1\nequation of normal at P is y −= 3 ( x − 1.570 …( ) or y = 0.25 x + 2.60... ) (M1)\n4\n1\nequation of normal at Q is y − 3 =− x − 5.999 … or y =− 0.25 x + 4.499... (M1)\n4\nNote: Award the previous two M1 even if the gradients are incorrect in\n( ) where ( ) y − b = mx − a ,ab are coordinates of P and Q\n(or in y = mx + c with c determined using coordinates of Pand Q.\nintersect at (3.79, 3.55) A1A1\nNote: Award N2 for 3.79 without other working.\n[7 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.4",
+    "5.6",
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 14]\nThe function $f(x) = 3\\sin x + 4\\cos x$ is defined for $0 < x < 2\\pi$.\n(a) Write down the coordinates of the minimum point on the graph of $f$. [1 mark]\n(b) The points $\\mathrm{P}(p, 3)$ and $\\mathrm{Q}(q, 3)$, $q > p$, lie on the graph of $y = f(x)$. Find $p$ and $q$. [2 marks]\n(c) Find the coordinates of the point, on $y = f(x)$, where the gradient of the graph is 3. [4 marks]\n(d) Find the coordinates of the point of intersection of the normals to the graph at the points P and Q. [7 marks]"
+  },
+  {
+   "id": "math-2012-M-P2-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 22]\nA ski resort finds that the mean number of accidents on any given weekday (Monday\nto Friday) is 2.2 . The number of accidents can be modelled by a Poisson distribution.\n(a) Find the probability that in a certain week (Monday to Friday only)\n(i) there are fewer than 12 accidents;\n(ii) there are more than 8 accidents, given that there are fewer than 12 accidents. [6 marks]\nDue to the increased usage, it is found that the probability of more than 3 accidents in\na day at the weekend (Saturday and Sunday) is 0.24.\n(b) Assuming a Poisson model,\n(i) calculate the mean number of accidents per day at the weekend (Saturday\nand Sunday);\n(ii) calculate the probability that, in the four weekends in February, there will\nbe more than 5 accidents during at least two of the weekends. [10 marks]\nIt is found that 20 % of skiers having accidents are at least 25 years of age and 40 %\nare under 18 years of age.\n(c) Assuming that the ages of skiers having accidents are normally distributed,\nfind the mean age of skiers having accidents. [6 marks]",
+   "ms_text": "12. (a) (i) X ~ Po(11) (M1)\nP( X≤ 11) = 0.579 (M1)A1\n(ii) P( X > 8 X < 12) = (M1)\nP(8 < X < 12) P( X ≤ 11) − P( X ≤ 8) 0.3472...\n= or or A1\nP( X < 12) P( X ≤ 11) 0.5792...\n= 0.600 A1 N2\n[6 marks]\n(b) (i) Y ~ Po() m\nP( Y > 3) = 0.24 (M1)\nP( Y ≤ 3) = 0.76 (M1)\n− 1 1 m 2 3\ne 1 + m + m + m = 0.76 (A1)\n2 6\nNote: At most two of the above lines can be implied.\nAttempt to solve equation with GDC (M1)\nm = 2.49 A1\n(ii) A ~ Po(4.98)\n> =− ≤ = … P( A 5) 1P( A 5) 0.380 M1A1\n… W ~ B(4, 0.380 ) (M1)\nP( W ≥ 2) =− 1P( W ≤ 1) = 0.490 M1A1\n[10 marks]\n(c) P( A< 25) = 0.8 , P( A< 18) = 0.4\n25 − μ\n= … 0.8416 (M1)(A1)\nσ\n18 − μ\n=− 0.2533 … (or − 0.2534 from tables) (M1)(A1)\nσ\nsolving these equations (M1)\nμ= 19.6 A1\nNote: Accept just 19.6, 19 or 20; award A0 to any other final answer.\n[6 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.12",
+    "4.8",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 22]\nA ski resort finds that the mean number of accidents on any given weekday (Monday to Friday) is 2.2. The number of accidents can be modelled by a Poisson distribution.\n(a) Find the probability that in a certain week (Monday to Friday only)\n(i) there are fewer than 12 accidents;\n(ii) there are more than 8 accidents, given that there are fewer than 12 accidents. [6 marks]\nDue to the increased usage, it is found that the probability of more than 3 accidents in a day at the weekend (Saturday and Sunday) is 0.24.\n(b) Assuming a Poisson model,\n(i) calculate the mean number of accidents per day at the weekend (Saturday and Sunday);\n(ii) calculate the probability that, in the four weekends in February, there will be more than 5 accidents during at least two of the weekends. [10 marks]\nIt is found that 20 % of skiers having accidents are at least 25 years of age and 40 % are under 18 years of age.\n(c) Assuming that the ages of skiers having accidents are normally distributed, find the mean age of skiers having accidents. [6 marks]",
+   "review_note": "QP image cuts off the last line of (c) ('find the mean age of skiers having accidents. [6 marks]'): segmenter treats hatched right-margin dashes at y>0.9H on page 12 as a barcode and sets body_bot ~757pt; overrides cannot extend past body_bot. Markscheme is complete and matching; text_clean has the full question. | fixed by segmenter update"
+  },
+  {
+   "id": "math-2012-M-P2-TZ1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 24,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 24]\nThe coordinates of points A, B and C are given as (, 5 − 25 ,) , (, 54 , − 1 ) and\n( − 1 , − 2 , − 1 respectively. )\n� (a) Show that AB = AC and that BAC = 60�. [4 marks]\n(b) Find the Cartesian equation of Π , the plane passing through A, B, and C. [4 marks]\n(c) (i) Find the Cartesian equation of Π1, the plane perpendicular to (AB) passing\nthrough the midpoint of [AB] .\n(ii) Find the Cartesian equation of Π2, the plane perpendicular to (AC) passing\nthrough the midpoint of [AC]. [4 marks]\n(d) Find the vector equation of L , the line of intersection of Π1 and Π2 , and show\nthat it is perpendicular to Π . [3 marks]\nA methane molecule consists of a carbon atom with four hydrogen atoms\nsymmetrically placed around it in three dimensions.\nThe positions of the centres of three of the hydrogen atoms are A, B and C as given.\nThe position of the centre of the fourth hydrogen atom is D.\n(e) Using the fact that AB = AD , show that the coordinates of one of the possible\n[3 marks] positions of the fourth hydrogen atom is ( −145. , ,)\n(f) Letting D be ( −145, show that the coordinates of G, the position of the , ,)\n� centre of the carbon atom, are (,, 212. Hence calculate DGA ) , the bonding\nangle of carbon. [6 marks]",
+   "ms_text": "0\n→\n13. (a) AB = 6 ⇒ AB = 72 A1\n− 6\n− 6\n→\nAC = 0 ⇒ AC = 72 A1\n− 6\nso they are the same AG\n(M1)\n36 1\ncos θ = = ⇒ θ = 60 A1AG\n( )( ) 2 72 72\nNote: Award M1A1 if candidates find BC and claim that triangle ABC is equilateral.\n[4 marks]\n(b) METHOD 1\ni j k\n→ →\nAB × AC = 0 6 − 6 =− 36 i + 36 j + 36 k (M1)A1\n− 6 0 − 6\n− − = equation of plane is x y z k (M1)\n⇒ x − y − z = 2 goes through A, B or C A1\n[4 marks]\nMETHOD 2\nx + by + cz = d (or similar) M1\n5 − 2 b + 5 c = d\n5 + 4b − c = d A1\n−− 12b − c = d\nsolving simultaneously M1\nb =−, 1 c =−, 1 d= 2\nso x − y − z = 2 A1\n[4 marks]\n(c) (i) midpoint is (5, 1, 2) , so equation of Π is y − z =− 1 A1A1\n1\n(ii) midpoint is (2, − 2, 2) , so equation of Π is x + z = 4 A1A1\n2\nNote: In each part, award A1 for midpoint and A1 for the equation of the plane.\n[4 marks]\n(d) EITHER\nsolving the two equations above M1\n4 − 1\nL : r =− 1 + λ 1 A1\n0 1\nOR\nL has the direction of the vector product of the normal vectors to the planes\nΠand Π (M1)\n1 2\ni j k\n0 1 − 1 =− i j − k\n1 0 1\n(or its opposite) A1\nTHEN\n− 1\ndirection is 1 as required R1\n1\n[3 marks]\n(e) D is of the form (4 − λ , −+ 1 λλ , ) M1\n+ λ 2 +−− λ 2 + − λ 2 = (1 ) (1 ) (5 ) 72 M1\n2 3 λ − 6 λ − 45 = 0\nλ= 5 or λ=− 3 A1\n− D(1, 4, 5) AG\nNote: AwardM0M0A0 if candidates just show that D(1, 4, 5) −\nsatisfies AB=AD;\nAward M1M1A0 if candidates also show that D is of the form\n(4 − λ , −+ 1 λλ , )\n[3 marks]\n(f) EITHER\nG is of the form (4 − λ , −+ 1 λλ , ) and DG = AG, BG or CG M1\n+ λ 2 +−− λ 2 + − λ 2 = − λ 2 + − λ 2 + − λ 2 e.g. (1 ) (1 ) (5 ) (5 ) (5 ) (5 ) M1\n2 2 (1 + λ ) = (5 − λ )\nλ= 2 A1\nG(2,1, 2) AG\nOR\nG is the centre of mass (barycentre) of the regular tetrahedron ABCD (M1)\n( )( ) ( ) ( ) ( ) 5 ++− 5 1 +− 1 −+ 2 4 +− 2 + 45 +− 1 +− 1 + 5\nG , , M1A1\n4 4 4\nTHEN\nNote: the following part is independent of previous work and candidates may\nuse AG to answer it (here it is possible to award M0M0A0A1M1A1)\n− 3 3\n→ →\nGD 3 and GA =− 3 A1 =\n3 3\n− 9 1\ncos θ = =− ⇒ θ = 109 (or 1.91 radians) M1A1\n( )( ) 3 33 33\n[6 marks]\nTotal [24 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.17",
+    "3.16",
+    "3.18",
+    "3.14",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 24]\nThe coordinates of points A, B and C are given as $(5, -2, 5)$, $(5, 4, -1)$ and $(-1, -2, -1)$ respectively.\n(a) Show that $\\mathrm{AB} = \\mathrm{AC}$ and that $\\mathrm{B\\hat{A}C} = 60^\\circ$. [4 marks]\n(b) Find the Cartesian equation of $\\Pi$, the plane passing through A, B, and C. [4 marks]\n(c) (i) Find the Cartesian equation of $\\Pi_1$, the plane perpendicular to (AB) passing through the midpoint of [AB].\n(ii) Find the Cartesian equation of $\\Pi_2$, the plane perpendicular to (AC) passing through the midpoint of [AC]. [4 marks]\n(d) Find the vector equation of $L$, the line of intersection of $\\Pi_1$ and $\\Pi_2$, and show that it is perpendicular to $\\Pi$. [3 marks]\nA methane molecule consists of a carbon atom with four hydrogen atoms symmetrically placed around it in three dimensions.\n[Diagram: ball-and-stick model of a methane molecule, a dark central carbon atom bonded to four white hydrogen atoms]\nThe positions of the centres of three of the hydrogen atoms are A, B and C as given. The position of the centre of the fourth hydrogen atom is D.\n(e) Using the fact that $\\mathrm{AB} = \\mathrm{AD}$, show that the coordinates of one of the possible positions of the fourth hydrogen atom is $(-1, 4, 5)$. [3 marks]\n(f) Letting D be $(-1, 4, 5)$, show that the coordinates of G, the position of the centre of the carbon atom, are $(2, 1, 2)$. Hence calculate $\\mathrm{D\\hat{G}A}$, the bonding angle of carbon. [6 marks]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,149 @@
+{
+ "exam_id": "math-2002-M-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.18",
+    "3.17",
+    "3.14"
+   ],
+   "text_clean": "1. [Maximum mark: 16]\nThe points A, B, C, D have the following coordinates\nA : $(1, 3, 1)$  B : $(1, 2, 4)$  C : $(2, 3, 6)$  D : $(5, -2, 1)$.\n(a) (i) Evaluate the vector product $\\vec{AB}\\times\\vec{AC}$, giving your answer in terms of the unit vectors $\\mathbf{i}, \\mathbf{j}, \\mathbf{k}$.\n(ii) Find the area of the triangle ABC. [6 marks]\nThe plane containing the points A, B, C is denoted by $\\Pi$ and the line passing through D perpendicular to $\\Pi$ is denoted by $L$. The point of intersection of $L$ and $\\Pi$ is denoted by P.\n(b) (i) Find the cartesian equation of $\\Pi$.\n(ii) Find the cartesian equation of $L$. [5 marks]\n(c) Determine the coordinates of P. [3 marks]\n(d) Find the perpendicular distance of D from $\\Pi$. [2 marks]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.11",
+    "2.9",
+    "2.4"
+   ],
+   "text_clean": "2. [Maximum mark: 12]\nThe function $y = f(x)$ satisfies the differential equation\n$2x^2\\frac{dy}{dx} = x^2 + y^2 \\quad (x > 0)$\n(a) (i) Using the substitution $y = vx$, show that $2x\\frac{dv}{dx} = (v-1)^2$.\n(ii) Hence show that the solution of the original differential equation is $y = x - \\frac{2x}{(\\ln x + c)}$, where $c$ is an arbitrary constant.\n(iii) Find the value of $c$ given that $y = 2$ when $x = 1$. [7 marks]\n(b) The graph of $y = f(x)$ is shown below. The graph crosses the $x$-axis at A.\n[Graph: y = f(x) for x > 0; left branch rising from the origin to a vertical asymptote, with the region under the curve between x = 1 and x = 5 shaded; right branch rising from below the x-axis, crossing it at A]\n(i) Write down the equation of the vertical asymptote.\n(ii) Find the exact value of the $x$-coordinate of the point A.\n(iii) Find the area of the shaded region. [5 marks]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.16",
+    "1.15",
+    "1.L1"
+   ],
+   "text_clean": "3. [Maximum mark: 14]\n(i) (a) Find the determinant of the matrix $\\begin{pmatrix}1&1&2\\\\1&2&1\\\\2&1&5\\end{pmatrix}$. [1 mark]\n(b) Find the value of $\\lambda$ for which the following system of equations can be solved.\n$\\begin{pmatrix}1&1&2\\\\1&2&1\\\\2&1&5\\end{pmatrix}\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}3\\\\4\\\\\\lambda\\end{pmatrix}$ [3 marks]\n(c) For this value of $\\lambda$, find the general solution to the system of equations. [3 marks]\n(ii) (a) Prove using mathematical induction that $\\begin{pmatrix}2&1\\\\0&1\\end{pmatrix}^n=\\begin{pmatrix}2^n&2^n-1\\\\0&1\\end{pmatrix}$, for all positive integer values of $n$. [5 marks]\n(b) Determine whether or not this result is true for $n = -1$. [2 marks]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7",
+    "4.6",
+    "4.5"
+   ],
+   "text_clean": "4. [Maximum mark: 13]\nTwo children, Alan and Belle, each throw two fair cubical dice simultaneously. The score for each child is the sum of the two numbers shown on their respective dice.\n(a) (i) Calculate the probability that Alan obtains a score of 9.\n(ii) Calculate the probability that Alan and Belle both obtain a score of 9. [2 marks]\n(b) (i) Calculate the probability that Alan and Belle obtain the same score.\n(ii) Deduce the probability that Alan's score exceeds Belle's score. [4 marks]\n(c) Let $X$ denote the largest number shown on the four dice.\n(i) Show that $P(X \\le x) = \\left(\\frac{x}{6}\\right)^4$, for $x = 1, 2, \\dots, 6$\n(ii) Copy and complete the following probability distribution table.\n$x$: 1 | 2 | 3 | 4 | 5 | 6\n$P(X = x)$: $\\frac{1}{1296}$ | $\\frac{15}{1296}$ | | | | $\\frac{671}{1296}$\n(iii) Calculate $E(X)$. [7 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.7",
+    "5.6",
+    "5.8",
+    "2.5",
+    "2.2"
+   ],
+   "text_clean": "5. [Maximum mark: 15]\nThe function $f$ is defined by $f(x) = \\frac{x^2 - x + 1}{x^2 + x + 1}$.\n(a) (i) Find an expression for $f'(x)$, simplifying your answer.\n(ii) The tangents to the curve of $f(x)$ at points A and B are parallel to the $x$-axis. Find the coordinates of A and of B. [5 marks]\n(b) (i) Sketch the graph of $y = f'(x)$.\n(ii) Find the $x$-coordinates of the three points of inflexion on the graph of $f$. [5 marks]\n(c) Find the range of\n(i) $f$;\n(ii) the composite function $f \\circ f$. [5 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L9",
+    "4.L1",
+    "4.L4",
+    "4.12",
+    "4.8"
+   ],
+   "text_clean": "6. [Maximum mark: 30]\n(i) The random variable $X$ is Poisson distributed with mean $\\mu$ and satisfies $P(X = 3) = P(X = 0) + P(X = 1)$.\n(a) Find the value of $\\mu$, correct to four decimal places. [3 marks]\n(b) For this value of $\\mu$ evaluate $P(2 \\le X \\le 4)$. [3 marks]\n(ii) The weights of male nurses in a hospital are known to be normally distributed with mean $\\mu = 72$ kg and standard deviation $\\sigma = 7.5$ kg. The hospital has a lift (elevator) with a maximum recommended load of 450 kg. Six male nurses enter the lift. Calculate the probability $p$ that their combined weight exceeds the maximum recommended load. [5 marks]\n(iii) It is known that the yield of any variety of corn (i.e. the weight of the corn harvested per area unit) is normally distributed.\nA farmer has planted eight fields with one variety of corn which has a yield in tons per hectare given in the following table.\nField: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8\nYield: 10.1 | 8.6 | 9.8 | 8.7 | 9.1 | 9.3 | 9.7 | 9.9\nHe has planted six other fields with a second variety of corn with a yield in tons per hectare given in the following table.\nField: A | B | C | D | E | F\nYield: 8.9 | 8.2 | 9.4 | 7.9 | 9.1 | 8.1\nYou may assume that the variances of the yield of both varieties are equal.\nAt the 5% level of significance, test the hypothesis that both varieties have the same yield, against the two sided alternative, clearly stating both hypotheses. [10 marks]\n(iv) Six coins are tossed simultaneously 320 times, with the following results.\n0 tail: 5 times\n1 tail: 40 times\n2 tails: 86 times\n3 tails: 89 times\n4 tails: 67 times\n5 tails: 29 times\n6 tails: 4 times\nAt the 5% level of significance, test the hypothesis that all the coins are fair. [9 marks]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2",
+    "7.8",
+    "7.1",
+    "7.5",
+    "7.9",
+    "7.6"
+   ],
+   "text_clean": "7. [Maximum mark: 30]\n(i) Let $A$, $B$ and $C$ be subsets of a given universal set.\n(a) Use a Venn diagram to show that $(A \\cap B) \\cup C = (A \\cup C) \\cap (B \\cup C)$. [2 marks]\n(b) Hence, and by using De Morgan's laws, show that $(A' \\cap B) \\cup C' = (A \\cap C)' \\cap (B' \\cap C)'$. [3 marks]\n(ii) Let $R$ be a relation on $\\mathbb{Z}$ such that for $m \\in \\mathbb{Z}^+$, $x R y$ if and only if $m$ divides $x - y$, where $x, y \\in \\mathbb{Z}$.\n(a) Prove that $R$ is an equivalence relation on $\\mathbb{Z}$. [4 marks]\n(b) Prove that this equivalence relation partitions $\\mathbb{Z}$ into $m$ distinct classes. [4 marks]\n(c) Let $\\mathbb{Z}_m$ be the set of all the equivalence classes found in part (b). Define a suitable binary operation $+_m$ on $\\mathbb{Z}_m$ and prove that $(\\mathbb{Z}_m, +_m)$ is an additive Abelian group. [5 marks]\n(d) Let $(K, \\Diamond)$ be a cyclic group of order $m$. Prove that $(K, \\Diamond)$ is isomorphic to $\\mathbb{Z}_m$. [4 marks]\n(iii) Let $(G, \\circ)$ be a group with subgroups $(H, \\circ)$ and $(K, \\circ)$. Prove that $(H \\cup K, \\circ)$ is a subgroup of $(G, \\circ)$ if and only if one of the sets $H$ and $K$ is contained in the other. [8 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8",
+    "6.7",
+    "6.3",
+    "6.1",
+    "6.12"
+   ],
+   "text_clean": "8. [Maximum mark: 30]\n(i) (a) Use the Euclidean algorithm to find the greatest common divisor of 568 and 208. [3 marks]\n(b) Hence or otherwise, find two integers $m$ and $n$ such that $568m - 208n = 8$. [4 marks]\n(ii) A graph is said to be coloured with $n$ colours if a colour can be assigned to each vertex in such a way that every vertex has a colour which is different from the colours of all its adjacent vertices. Show that the complete graph $K_n$ requires $n$ colours to be coloured. [3 marks]\n(iii) Let $G$ be a directed graph. The indegree of any vertex $V$ of $G$ is the number of directed edges coming in to $V$. The outdegree of $V$ is the number of directed edges going out of $V$.\nLet $S_1$ be the sum of the indegrees of all the vertices of $G$, $S_2$ the sum of the outdegrees of all the vertices, and $S_3$ the number of directed edges of $G$. Prove that $S_1 = S_2 = S_3$. [2 marks]\n(iv) (a) Define the isomorphism of two graphs $G$ and $H$. [3 marks]\n(b) Determine whether the two graphs below are isomorphic. Give a reason for your answer.\n[Diagram: Graph G with vertices A, B, C, D, E, F and edges AB, AE, BC, BE, CE, CF, CD, DF, EF; Graph H, a triangle with vertices U, X, Z, midpoints V (on UX), W (on UZ), Y (on XZ), with edges UV, UW, VW, VX, VY, WY, WZ, XY, YZ] [4 marks]\n(c) Find an Eulerian trail for the graph $G$ starting with vertex B. [3 marks]\n(d) State a result which shows that the graph $H$ has an Eulerian circuit. [2 marks]\n(v) The diagram below shows a weighted graph.\n[Diagram: weighted graph with vertices J, K, L, M, N, P, Q; edges JK = 5, JM = 8, JP = 7, KL = 5, KM = 5, KN = 4, MN = 2, MP = 2, MQ = 3, LN = 3, LQ = 3, NQ = 1, PQ = 2]\nUse Prim's algorithms to find a minimal spanning tree, starting at J. Draw the tree, and find its total weight. [6 marks]",
+   "answer_status": "ok",
+   "add_flags": [
+    "diagram-heavy"
+   ]
+  },
+  "9": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.11",
+    "5.L7",
+    "5.L4",
+    "5.15"
+   ],
+   "text_clean": "9. [Maximum mark: 30]\n(i) (a) Using the mean value theorem or otherwise show that for all positive integers $n$, $n\\ln\\left(1+\\frac{1}{n}\\right) \\le 1$. [3 marks]\n(b) Show that for all real numbers $s$ such that $0 < s < 4$, $\\frac{1}{s} + \\frac{1}{4-s} \\ge 1$. [2 marks]\n(c) By integrating the inequality of part (b) over the interval $[t, 2]$, or otherwise, show that for all real numbers $t$ such that $0 < t \\le 2$, $\\ln\\left(\\frac{4-t}{t}\\right) \\ge 2 - t$. [6 marks]\n(d) Hence or otherwise show that for all positive integers $n$, $n\\ln\\left(1+\\frac{1}{n}\\right) \\ge \\frac{2n}{2n+1}$. [4 marks]\n(e) Using parts (a) and (d), or otherwise, show that $\\lim_{n\\to\\infty}\\left(1+\\frac{1}{n}\\right)^n = e$. [4 marks]\n(ii) Consider the function $f(x) = \\ln x - 1$. Using the Newton-Raphson method, starting at $x_1 = 2$, find an approximate solution of the equation $f(x) = 0$. Hence calculate e giving your answer correct to seven decimal places. [5 marks]\n(iii) Let $g : \\mathbb{R}^+ \\to \\mathbb{R}$ be defined by $g(x) = x + 2.7 - 2.7\\ln x$.\n(a) Show that $g(e) = e$. [1 mark]\n(b) Hence, starting with $x = 2$ use fixed point iteration to evaluate e, giving your answer correct to seven decimal places. Justify your answer. [5 marks]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "8",
+    "5"
+   ],
+   "subtopics": [
+    "8.2",
+    "8.1",
+    "5.14"
+   ],
+   "text_clean": "10. [Maximum mark: 30]\n(i) The equation of an ellipse is $4x^2 + y^2 - 24x + 4y + 36 = 0$.\n(a) Determine its centre, its foci and its eccentricity. [3 marks]\n(b) If $y = mx$ is the equation of a line which is a tangent to the given ellipse, determine the exact values of $m$. [6 marks]\n(ii) Consider a hyperbola with foci $F_1$ and $F_2$ and vertices $A_1$ and $A_2$. Let $[F_1Y_1]$ and $[F_2Y_2]$ be the perpendiculars from the foci to the tangent to the hyperbola at any point P, as shown in the following diagram.\n[Diagram: hyperbola branch through $A_2$ with foci $F_1$, $F_2$ and vertices $A_1$, $A_2$ on the axis; tangent at P with feet of perpendiculars $Y_1$ (from $F_1$) and $Y_2$ (from $F_2$)]\n(a) Prove that $Y_1$ and $Y_2$ lie on the circle which has $[A_1A_2]$ as a diameter. [10 marks]\n(b) Prove that the product $F_1Y_1 \\times F_2Y_2$ is a constant, independent of the position of P. [6 marks]\n(iii) The following diagram shows a triangle ABD and a circle centre O. (BD) is a tangent to the circle at D, so that triangle ABD is isosceles. Also $A\\hat{D}B = D\\hat{B}A = 2D\\hat{A}B$. Let C be the point of intersection of the circle and the line (AB). Prove that AC = DC = DB. [5 marks]\n[Diagram: circle centre O with A and D on the circle, tangent line BD at D, line AB meeting the circle again at C; segments AD and CD drawn]",
+   "answer_status": "ok",
+   "add_flags": [
+    "diagram-heavy"
+   ]
+  }
+ }
+}

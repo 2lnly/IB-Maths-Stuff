@@ -1,0 +1,29 @@
+{
+  "exam_id": "math-2009-M-P3-series-and-differential-equations",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.13", "5.6", "5.15"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 11]\nFind\n(a) $\\lim_{x \\to 0} \\frac{\\tan x}{x + x^2}$; [4 marks]\n(b) $\\lim_{x \\to 1} \\frac{1 - x^2 + 2x^2 \\ln x}{1 - \\sin \\frac{\\pi x}{2}}$. [7 marks]"
+    },
+    "2": {
+      "topics": ["5", "3"],
+      "subtopics": ["5.18", "5.19", "5.15", "3.6"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 17]\nThe variables $x$ and $y$ are related by $\\frac{\\mathrm{d}y}{\\mathrm{d}x} - y \\tan x = \\cos x$.\n(a) Find the Maclaurin series for $y$ up to and including the term in $x^2$ given that $y = -\\frac{\\pi}{2}$ when $x = 0$. [7 marks]\n(b) Solve the differential equation given that $y = 0$ when $x = \\pi$. Give the solution in the form $y = f(x)$. [10 marks]"
+    },
+    "3": {
+      "topics": ["5"],
+      "subtopics": ["5.L1", "5.L5", "5.16"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 12]\n(a) Determine whether the series $\\sum_{n=1}^{\\infty} \\sin \\frac{1}{n}$ is convergent or divergent. [5 marks]\n(b) Show that the series $\\sum_{n=2}^{\\infty} \\frac{1}{n (\\ln n)^2}$ is convergent. [7 marks]"
+    },
+    "4": {
+      "topics": ["5"],
+      "subtopics": ["5.18", "5.10"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 20]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{y^2 + x^2}{2x^2}$ for which $y = -1$ when $x = 1$.\n(a) Use Euler's method with a step length of 0.25 to find an estimate for the value of $y$ when $x = 2$. [7 marks]\n(b) (i) Solve the differential equation giving your answer in the form $y = f(x)$.\n(ii) Find the value of $y$ when $x = 2$. [13 marks]"
+    }
+  }
+}

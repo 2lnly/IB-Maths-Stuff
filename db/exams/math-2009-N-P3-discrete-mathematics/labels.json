@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2009-N-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6", "1"],
+      "subtopics": ["6.3", "1.2"],
+      "text_clean": "1. [Maximum mark: 9]\nAn arithmetic sequence has first term 2 and common difference 4. Another arithmetic sequence has first term 7 and common difference 5. Find the set of all numbers which are members of both sequences."
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.11", "6.8", "6.7"],
+      "text_clean": "2. [Maximum mark: 16]\nThe diagram below shows the weighted graph $G$.\n[Diagram: weighted graph on vertices A, B, C, D, E, F with edges AB = 1, AF = 2, BF = 3, CE = 4, BC = 5, CF = 6, BE = 7, ED = 7, CD = 8, FE = 9]\n(a) (i) What feature of the graph enables you to deduce that $G$ contains an Eulerian circuit?\n(ii) Find an Eulerian circuit. [3 marks]\n(b) (i) Find the number of distinct walks of length 4 beginning and ending at F.\n(ii) Determine which of these walks has the minimum weight.\n(iii) Determine which of these walks has the maximum weight. [7 marks]\n(c) Use Kruskal's Algorithm to find the minimum spanning tree for $G$, showing the order in which the edges are added. [6 marks]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.6", "6.8"],
+      "text_clean": "3. [Maximum mark: 11]\n(a) The planar graph $G$ and its complement $G'$ are both simple and connected. Given that $G$ has 6 vertices and 10 edges, show that $G'$ is a tree. [5 marks]\n(b) Consider the following graphs.\n[Diagram: Graph 1 with vertices A, B, C, D, E, F and edges AB, BC, AC, AF, CF, CE, FE, ED; Graph 2 with vertices P, Q, R, S, T, U and edges PU, UT, TS, UQ, UR, QR, QS, RS]\n(i) Give a reason why these two graphs are not isomorphic.\n(ii) Show, however, that an isomorphism can be produced by removing the edge UQ in Graph 2 and replacing it by a different edge. In addition to stating the new edge, your solution should indicate the bijection between the two graphs. [6 marks]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.5", "6.1", "6.4", "6.2"],
+      "text_clean": "4. [Maximum mark: 16]\n(a) Show that a positive integer, written in base 10, is divisible by 9 if the sum of its digits is divisible by 9. [7 marks]\n(b) The representation of the positive integer $N$ in base $p$ is denoted by $(N)_p$. If $(5^{(126)_7})_7 = (a_n a_{n-1} \\ldots a_1 a_0)_7$, find $a_0$. [9 marks]"
+    },
+    "5": {
+      "topics": ["6"],
+      "subtopics": ["6.6", "6.7"],
+      "text_clean": "5. [Maximum mark: 8]\nShow that a graph is bipartite if and only if it contains only cycles of even length."
+    }
+  }
+}

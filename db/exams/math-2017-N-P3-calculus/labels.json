@@ -1,0 +1,31 @@
+{
+  "exam_id": "math-2017-N-P3-calculus",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.12"],
+      "qtype": "short",
+      "text_clean": "1. [Maximum mark: 5]\nThe function $f$ is defined by\n$f(x) = \\begin{cases} x^2 - 2, & x < 1 \\\\ ax + b, & x \\ge 1 \\end{cases}$\nwhere $a$ and $b$ are real constants.\nGiven that both $f$ and its derivative are continuous at $x = 1$, find the value of $a$ and the value of $b$."
+    },
+    "2": {
+      "topics": ["5"],
+      "subtopics": ["5.18", "5.16"],
+      "text_clean": "2. [Maximum mark: 10]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x} + \\frac{x}{x^2+1}y = x$ where $y = 1$ when $x = 0$.\n(a) Show that $\\sqrt{x^2+1}$ is an integrating factor for this differential equation. [4]\n(b) Solve the differential equation giving your answer in the form $y = f(x)$. [6]"
+    },
+    "3": {
+      "topics": ["5"],
+      "subtopics": ["5.L2", "5.L1"],
+      "text_clean": "3. [Maximum mark: 12]\n(a) Use the limit comparison test to show that the series $\\sum_{n=1}^{\\infty} \\frac{1}{n^2+2}$ is convergent. [3]\nLet $S = \\sum_{n=1}^{\\infty} \\frac{(x-3)^n}{n^2+2}$.\n(b) Find the interval of convergence for $S$. [9]"
+    },
+    "4": {
+      "topics": ["5", "2"],
+      "subtopics": ["5.L4", "5.6", "2.3"],
+      "text_clean": "4. [Maximum mark: 10]\nThe mean value theorem states that if $f$ is a continuous function on $[a, b]$ and differentiable on $]a, b[$ then $f'(c) = \\frac{f(b) - f(a)}{b - a}$ for some $c \\in ]a, b[$.\nThe function $g$, defined by $g(x) = x\\cos(\\sqrt{x})$, satisfies the conditions of the mean value theorem on the interval $[0, 5\\pi]$.\n(a) For $a = 0$ and $b = 5\\pi$, use the mean value theorem to find all possible values of $c$ for the function $g$. [6]\n(b) Sketch the graph of $y = g(x)$ on the interval $[0, 5\\pi]$ and hence illustrate the mean value theorem for the function $g$. [4]"
+    },
+    "5": {
+      "topics": ["5"],
+      "subtopics": ["5.19", "5.15", "5.13"],
+      "text_clean": "5. [Maximum mark: 13]\nConsider the function $f(x) = \\sin(p \\arcsin x)$, $-1 < x < 1$ and $p \\in \\mathbb{R}$.\n(a) Show that $f'(0) = p$. [2]\nThe function $f$ and its derivatives satisfy\n$(1 - x^2) f^{(n+2)}(x) - (2n+1) x f^{(n+1)}(x) + (p^2 - n^2) f^{(n)}(x) = 0$, $n \\in \\mathbb{N}$\nwhere $f^{(n)}(x)$ denotes the $n$th derivative of $f(x)$ and $f^{(0)}(x)$ is $f(x)$.\n(b) Show that $f^{(n+2)}(0) = (n^2 - p^2) f^{(n)}(0)$. [1]\n(c) For $p \\in \\mathbb{R} \\setminus \\{\\pm 1, \\pm 3\\}$, show that the Maclaurin series for $f(x)$, up to and including the $x^5$ term, is\n$px + \\frac{p(1-p^2)}{3!}x^3 + \\frac{p(9-p^2)(1-p^2)}{5!}x^5$. [4]\n(d) Hence or otherwise, find $\\lim_{x \\to 0} \\frac{\\sin(p \\arcsin x)}{x}$. [2]\n(e) If $p$ is an odd integer, prove that the Maclaurin series for $f(x)$ is a polynomial of degree $p$. [4]"
+    }
+  }
+}

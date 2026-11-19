@@ -1,0 +1,110 @@
+{
+ "exam_id": "math-2020-N-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2020,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2020 November Examination Session/Mathematics_paper_3_Statistics_and_probability__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2020 November Examination Session/Mathematics_paper_3_Statistics_and_probability__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8820-7210; code N20/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches paper total 50",
+ "qp_pages": 5,
+ "questions": [
+  {
+   "id": "math-2020-N-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 8]\nPeter, Dan and Eva decide to observe the colour of each car as it enters their school.\nThe colours of the cars are assumed to be independent of one another.\nThe probability that a car entering their school is red is 1\n.\n12\n(a) Peter observes 20 cars. Find the probability that at least three of these cars are red.\b [2]\n(b) Dan observes cars until a red one enters. Find the probability that he observes at\nleast six cars.\b [2]\n(c) Eva observes cars until three red cars enter.\n(i) Find the probability that Eva observes exactly 20 cars.\n(ii) Find the expected number of cars that Eva observes.\b [4]",
+   "ms_text": "1. (a) let X= number of red cars\n1\nX (M1)\n~ B20,12\nP ( X≥ 3 ) = 0.230 A1\nNote: Accept any answer that roundsto 0.23.\n[2 marks]\n(b) METHOD 1\nlet Y= number of cars observed\n1\nY (M1)\n~ Geo12\nP ( Y≥ 6 ) = 0.647 A1\nNote: Accept any answer that rounds to 0.65.\nMETHOD 2\nPfirstfive cars not red ( ) (M1)\n5\n11\n= = 0.647 A1\n12\nNote: Accept any answer that rounds to 0.65.\n[2 marks]\n(c) let Z= number of cars observed\n1\nZ (M1)\n~ NB3,12\n17 3\n19 11 1\n(i) P ( Z = 20 ) = (M1)\n2 12 12\n= 0.0225 A1\nNote:Accept any answer that rounds to 0.023.\n(ii) 36 A1\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L2",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 8]\nPeter, Dan and Eva decide to observe the colour of each car as it enters their school. The colours of the cars are assumed to be independent of one another.\nThe probability that a car entering their school is red is $\\frac{1}{12}$.\n(a) Peter observes $20$ cars. Find the probability that at least three of these cars are red. [2]\n(b) Dan observes cars until a red one enters. Find the probability that he observes at least six cars. [2]\n(c) Eva observes cars until three red cars enter.\n(i) Find the probability that Eva observes exactly $20$ cars.\n(ii) Find the expected number of cars that Eva observes. [4]"
+  },
+  {
+   "id": "math-2020-N-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 8]\n+ 2 t\nA discrete random variable X has a probability generating function given by G () t = .\nX\n3\nWrite down the value of P(X=1) .\b (a) [1]\nA discrete random variable Y has a probability generating function given by\nkt + 1\nG () t = , where k>0 .\nY 2 2\nk − t\n(b) Show that k=2 .\b [3]\n(c) Given that X and Y are independent, find\n(i) GX + Y (t ),the probability generating function for X + Y ;\n(ii) E(X + Y ).\b [4]",
+   "ms_text": "1\n2. (a) A1\n3\n[1 mark]\nG () 1 = 1 (b) (M1)\nY\nk + 1\n= 1 A1\n2 − k 1\nEITHER\n1\n= 1 because ( k + 1 ) can be cancelled since k >0 (or equivalent statement)A1\n− k 1\nOR\n2 k − k − 2 = 0\nso rejecting k=−1 since k > 0 (or equivalent statement) A1\nTHEN\nso k= 2 AG\nk = 2 to show thatGY1() =1. Note: Award (M1)A1A0 for using substitution of\n[3 marks]\n() = () () (c) (i) G t G tG t (M1)\nXY + X Y\n2 + t 2 t + 1 2 t + 1\nG () t = = A1\nXY + 2\n3 4 − t 32 ( − t )\nNote:Allow a correct expression with k in place of 2.\n(ii) METHOD 1\nattempt to find G'X+Y1() (GDC or quotient rule) (M1)\n5\n() = G ' 1 A1\nXY +\n3\nNote: Accept 1.67.\nMETHOD 2\n() () attempt to find G ' 1 and G ' 1 (M1)\nX Y\n1 4\n= +\n3 3\n5\n= A1\n3\nNote: Accept 1.67.\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 8]\nA discrete random variable $X$ has a probability generating function given by $G_X(t) = \\frac{2+t}{3}$.\n(a) Write down the value of $\\mathrm{P}(X=1)$. [1]\nA discrete random variable $Y$ has a probability generating function given by\n$G_Y(t) = \\frac{kt+1}{k^2-t^2}$, where $k>0$.\n(b) Show that $k=2$. [3]\n(c) Given that $X$ and $Y$ are independent, find\n(i) $G_{X+Y}(t)$, the probability generating function for $X+Y$;\n(ii) $\\mathrm{E}(X+Y)$. [4]"
+  },
+  {
+   "id": "math-2020-N-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 15]\nA shop sells carrots and broccoli. The weights of carrots can be modelled by a normal\ndistribution with variance 25 grams2 and the weights of broccoli can be modelled by a normal\ndistribution with variance 80 grams2. The shopkeeper claims that the mean weight of carrots\nis 130 grams and the mean weight of broccoli is 400 grams.\n(a) Assuming that the shopkeeper’s claim is correct, find the probability that the weight of\nsix randomly chosen carrots is more than two times the weight of one randomly\nchosen broccoli.\b [6]\nDong Wook decides to investigate the shopkeeper’s claim that the mean weight of carrots\nis 130 grams. He plans to take a random sample of n carrots in order to calculate a 98 %\nconfidence interval for the population mean weight.\n(b) Find the least value of n required to ensure that the width of the confidence interval is\nless than 2 grams. \b [3]\nAnjali thinks the mean weight, μ grams, of the broccoli is less than 400 grams. She decides\nto perform a hypothesis test, using a random sample of size 8. Her hypotheses are\nH0 : μ = 400 ; H1 : μ < 400.\nShe decides to reject H0 if the sample mean is less than 395 grams.\n(c) Find the significance level for this test.\b [3]\n(d) Given that the weights of the broccoli actually follow a normal distribution with mean\n392 grams and variance 80 grams2, find the probability of Anjali making a Type II error.\b [3]",
+   "ms_text": "6\n= ∑ − 3. (a) Let X C 2 B M1\ni\ni = 1\nE( X= ) 6130 × −× 2400 = − 20 (M1)(A1)\nVar( X=× ) 625 +× 480 = 470 (M1)(A1)\nP( X> 0) = 0.178 A1\nNote: Condone the notation 6 C − 2 B only if the (M1) is awarded for the variance.\n[6 marks]\n(b) z = 2.326... (A1)\n2 z σ<\n2 M1\nn\nn> 11.6...\nn > 135.2...\nn = 136 A1\nNote: Condone the use of equal signs.\n[3 marks]\n80\n= = 10 (c) variance (A1)\n8\nunder H B ~N400,10 ( ) 0 ,\nsignificance level =( P B < 395 ) (M1)\n= 0.0569or5.69% A1\nNote: Accept any answer that rounds to 0.057 or 5.7%.\n[3 marks]\n(d) Type II error probability= P(Accept HH true) (M1)\n0 1\n=P( B > 395 B ≈ N (392,10)) (A1)\n= 0.171 A1\nNote: Accept any answer that rounds to 0.17.\n[3 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.L7",
+    "4.L6",
+    "4.L5",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 15]\nA shop sells carrots and broccoli. The weights of carrots can be modelled by a normal distribution with variance $25$ grams$^2$ and the weights of broccoli can be modelled by a normal distribution with variance $80$ grams$^2$. The shopkeeper claims that the mean weight of carrots is $130$ grams and the mean weight of broccoli is $400$ grams.\n(a) Assuming that the shopkeeper's claim is correct, find the probability that the weight of six randomly chosen carrots is more than two times the weight of one randomly chosen broccoli. [6]\nDong Wook decides to investigate the shopkeeper's claim that the mean weight of carrots is $130$ grams. He plans to take a random sample of $n$ carrots in order to calculate a $98\\%$ confidence interval for the population mean weight.\n(b) Find the least value of $n$ required to ensure that the width of the confidence interval is less than $2$ grams. [3]\nAnjali thinks the mean weight, $\\mu$ grams, of the broccoli is less than $400$ grams. She decides to perform a hypothesis test, using a random sample of size $8$. Her hypotheses are\n$H_0: \\mu = 400$; $H_1: \\mu < 400$.\nShe decides to reject $H_0$ if the sample mean is less than $395$ grams.\n(c) Find the significance level for this test. [3]\n(d) Given that the weights of the broccoli actually follow a normal distribution with mean $392$ grams and variance $80$ grams$^2$, find the probability of Anjali making a Type II error. [3]"
+  },
+  {
+   "id": "math-2020-N-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 19]\nA discrete random variable X has a probability distribution given by\nx 0 1 2\nP ( X=x ) p 3p 1 − 4p\n1\nwhere 0 < p < .\n4\n(a) Find an expression for E(X) , in terms of p .\b [2]\n(b) Show that Var (X) = p(7 - 25p).\b [3]\nChristine and Sarah want to estimate the value of p . They take a random sample of n\nobservations of X .\n2 − X\n(c) Christine calculates the sample mean, X, and proposes C = as an estimator for p .\n5\n(i) Show that C is an unbiased estimator for p .\n(ii) Find Var (C ) .\b [5]\nY\n(d) Sarah counts the number of zeros, Y , in the sample of size n. She proposes S = as\nn an estimator for p .\n(i) Write down the distribution for Y .\n(ii) Show that S is an unbiased estimator for p .\np ( 1 − p )\n(iii) Show that Var () S = .\b [5]\nn\nVar () C 1\n(e) (i) \u0007Sketch a graph of the ratio for 0 < p < , indicating clearly the scale on\n() Var S 4\nthe y-axis.\n(ii) Hence determine, with a reason, which of C or S is the more efficient estimator.\b [4]\n\b",
+   "ms_text": "( ) = + ( − ) ( = − ) 4. (a) E X 3 p 21 4 p 2 5 p (M1)A1\n[2 marks]\n2 (b) EX ( ) = 3 p + 414 ( − p ) A1\n2 ( ) ( ) ( )\nVar X = 3 p + 41 − 4 p − 2 − 5 p M1\n= 3 p + 4 − 16 p − 4 + 20 p − 25 p 2 A1\nNote: AwardA1 for any correct expansion which leads to the correct answer.\n2 =\n7 p − 25 p\n( ) = p 7 − 25 p AG\n[3 marks]\n1\nE () C = E2 ( − X ) (c) (i) (M1)\n5\nNote: The E must be present.\n= 12 ( − ( − ) ) 2 5 p A1\n5\n=p AG\n1\n(ii) Var () C = Var2 ( − X ) (M1)\n25\n1Var () = X (A1)\n25\np ( 7 − 25 p )\n= A1\n25 n\n[5 marks]\n( ) (d) (i) Y ~ B np , A1\nNote:Condone missing parameters if used correctly subsequently.\n1\n(ii) E () S = E () Y M1\nn\nnp\n= A1\nn\n=p AG\n1\n() = () (iii) Var S Var Y M1\n2 n\n1\n= np ( 1 − p ) A1\n2 n\np ( 1 − p )\n= AG\nn\n[5 marks]\nVar () C p ( 7 − 25 p ) 7 − 25 p n\n(e) (i) = ⋅ =\n() ( ) ( − ) Var S 25 n p 1 − p 251 p\n(A1)\nNote: Do not FT if the ratio includes n.\ndecreasing curve over correct domain with at least 0.25 marked on the\np axis and some number marked on the y axis showing that the\ny intercept is significantly less than 1 A1\nNote: Condone an extension to the graph as far as p=0.28.\nVarC ()\n<1 (ii) (from the sketch we can see that) R1\nVarS()\nNote: Only award theR1 if the result does follow from the sketch.\nso C is a more efficient estimator (as it has lower variance) A1\nNote: Do not award R0A1.\n[4 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.14",
+    "4.7",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 19]\nA discrete random variable $X$ has a probability distribution given by\n$x$ | $0$ | $1$ | $2$\n$\\mathrm{P}(X=x)$ | $p$ | $3p$ | $1-4p$\nwhere $0 < p < \\frac{1}{4}$.\n(a) Find an expression for $\\mathrm{E}(X)$, in terms of $p$. [2]\n(b) Show that $\\mathrm{Var}(X) = p(7-25p)$. [3]\nChristine and Sarah want to estimate the value of $p$. They take a random sample of $n$ observations of $X$.\n(c) Christine calculates the sample mean, $\\overline{X}$, and proposes $C = \\frac{2-\\overline{X}}{5}$ as an estimator for $p$.\n(i) Show that $C$ is an unbiased estimator for $p$.\n(ii) Find $\\mathrm{Var}(C)$. [5]\n(d) Sarah counts the number of zeros, $Y$, in the sample of size $n$. She proposes $S = \\frac{Y}{n}$ as an estimator for $p$.\n(i) Write down the distribution for $Y$.\n(ii) Show that $S$ is an unbiased estimator for $p$.\n(iii) Show that $\\mathrm{Var}(S) = \\frac{p(1-p)}{n}$. [5]\n(e) (i) Sketch a graph of the ratio $\\frac{\\mathrm{Var}(C)}{\\mathrm{Var}(S)}$ for $0 < p < \\frac{1}{4}$, indicating clearly the scale on the $y$-axis.\n(ii) Hence determine, with a reason, which of $C$ or $S$ is the more efficient estimator. [4]"
+  }
+ ],
+ "status": "done"
+}

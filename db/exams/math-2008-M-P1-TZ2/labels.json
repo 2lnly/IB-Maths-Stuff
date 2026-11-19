@@ -1,0 +1,33 @@
+{
+  "exam_id": "math-2008-M-P1-TZ2",
+  "questions": {
+    "1": {"topics": ["4"], "subtopics": ["4.7"],
+      "text_clean": "1. [Maximum mark: 6]\nThe probability distribution of a discrete random variable $X$ is defined by\n$\\mathrm{P}(X=x)=cx(5-x),\\ x=1,2,3,4$.\n(a) Find the value of $c$. [3 marks]\n(b) Find $\\mathrm{E}(X)$. [3 marks]"},
+    "2": {"topics": ["2"], "subtopics": ["2.12"],
+      "text_clean": "2. [Maximum mark: 6]\nThe polynomial $P(x)=x^3+ax^2+bx+2$ is divisible by $(x+1)$ and by $(x-2)$.\nFind the value of $a$ and of $b$, where $a, b\\in\\mathbb{R}$."},
+    "3": {"topics": ["3"], "subtopics": ["3.10", "3.2"],
+      "text_clean": "3. [Maximum mark: 6]\nIn the diagram below, AD is perpendicular to BC.\n$\\mathrm{CD}=4$, $\\mathrm{BD}=2$ and $\\mathrm{AD}=3$. $\\mathrm{C\\hat{A}D}=\\alpha$ and $\\mathrm{B\\hat{A}D}=\\beta$.\n[Diagram: triangle ABC with D on BC, AD = 3 perpendicular to BC, BD = 2 above D, DC = 4 below D; angle beta between AB and AD, angle alpha between AD and AC]\nFind the exact value of $\\cos(\\alpha-\\beta)$."},
+    "4": {"topics": ["2"], "subtopics": ["2.5"],
+      "text_clean": "4. [Maximum mark: 6]\nLet $f(x)=\\frac{4}{x+2},\\ x\\neq -2$ and $g(x)=x-1$.\nIf $h=g\\circ f$, find\n(a) $h(x)$; [2 marks]\n(b) $h^{-1}(x)$, where $h^{-1}$ is the inverse of $h$. [4 marks]"},
+    "5": {"topics": ["5"], "subtopics": ["5.14", "5.4"],
+      "text_clean": "5. [Maximum mark: 6]\nConsider the curve with equation $x^2+xy+y^2=3$.\n(a) Find in terms of $k$, the gradient of the curve at the point $(-1, k)$. [5 marks]\n(b) Given that the tangent to the curve is parallel to the $x$-axis at this point, find the value of $k$. [1 mark]"},
+    "6": {"topics": ["5"], "subtopics": ["5.16", "5.11"],
+      "text_clean": "6. [Maximum mark: 6]\nShow that $\\int_0^{\\frac{\\pi}{6}} x\\sin 2x\\,\\mathrm{d}x=\\frac{\\sqrt{3}}{8}-\\frac{\\pi}{24}$."},
+    "7": {"topics": ["4"], "subtopics": ["4.11", "4.6"],
+      "text_clean": "7. [Maximum mark: 6]\nLet $A$ and $B$ be events such that $\\mathrm{P}(A)=0.6$, $\\mathrm{P}(A\\cup B)=0.8$ and $\\mathrm{P}(A|B)=0.6$.\nFind $\\mathrm{P}(B)$."},
+    "8": {"topics": ["5"], "subtopics": ["5.15", "5.4"],
+      "text_clean": "8. [Maximum mark: 6]\nA normal to the graph of $y=\\arctan(x-1)$, for $x>0$, has equation $y=-2x+c$, where $c\\in\\mathbb{R}$.\nFind the value of $c$."},
+    "9": {"topics": ["3"], "subtopics": ["3.9", "3.8"],
+      "text_clean": "9. [Maximum mark: 6]\nThe diagram below shows the boundary of the cross-section of a water channel.\n[Diagram: U-shaped curve from (-12, 0) to (12, 0) with lowest point (0, -16); shaded water region with a horizontal surface, arrow labelled Water Depth]\nThe equation that represents this boundary is $y=16\\sec\\left(\\frac{\\pi x}{36}\\right)-32$ where $x$ and $y$ are both measured in cm.\nThe top of the channel is level with the ground and has a width of 24 cm. The maximum depth of the channel is 16 cm.\nFind the width of the water surface in the channel when the water depth is 10 cm.\nGive your answer in the form $a\\arccos b$ where $a, b\\in\\mathbb{R}$."},
+    "10": {"topics": ["3"], "subtopics": ["3.16", "3.13", "3.6"],
+      "text_clean": "10. [Maximum mark: 6]\nGiven any two non-zero vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$, show that $|\\boldsymbol{a}\\times\\boldsymbol{b}|^2=|\\boldsymbol{a}|^2|\\boldsymbol{b}|^2-(\\boldsymbol{a}\\cdot\\boldsymbol{b})^2$."},
+    "11": {"topics": ["3"], "subtopics": ["3.15", "3.17", "3.13", "3.16", "3.14"],
+      "text_clean": "11. [Maximum mark: 20]\nConsider the points $\\mathrm{A}(1,-1,4)$, $\\mathrm{B}(2,-2,5)$ and $\\mathrm{O}(0,0,0)$.\n(a) Calculate the cosine of the angle between $\\vec{\\mathrm{OA}}$ and $\\vec{\\mathrm{AB}}$. [5 marks]\n(b) Find a vector equation of the line $L_1$ which passes through A and B. [2 marks]\nThe line $L_2$ has equation $\\boldsymbol{r}=2\\boldsymbol{i}+4\\boldsymbol{j}+7\\boldsymbol{k}+t(2\\boldsymbol{i}+\\boldsymbol{j}+3\\boldsymbol{k})$, where $t\\in\\mathbb{R}$.\n(c) Show that the lines $L_1$ and $L_2$ intersect and find the coordinates of their point of intersection. [7 marks]\n(d) Find the Cartesian equation of the plane which contains both the line $L_2$ and the point A. [6 marks]"},
+    "12": {"topics": ["1"], "subtopics": ["1.15", "1.8", "1.3"],
+      "text_clean": "12. [Maximum mark: 10]\n(a) Find the sum of the infinite geometric sequence $27, -9, 3, -1, \\ldots$. [3 marks]\n(b) Use mathematical induction to prove that for $n\\in\\mathbb{Z}^+$,\n$a+ar+ar^2+\\ldots+ar^{n-1}=\\frac{a(1-r^n)}{1-r}$. [7 marks]"},
+    "13": {"topics": ["5"], "subtopics": ["5.8", "5.6", "5.7"],
+      "text_clean": "13. [Maximum mark: 18]\nAndré wants to get from point A located in the sea to point Y located on a straight stretch of beach. P is the point on the beach nearest to A such that $\\mathrm{AP}=2$ km and $\\mathrm{PY}=2$ km. He does this by swimming in a straight line to a point Q located on the beach and then running to Y.\n[Diagram: A is 2 km vertically above P on the beach line; Q on the beach between P and Y with PQ = x km; PY = 2 km; right angle at P; AQ drawn]\nWhen André swims he covers 1 km in $5\\sqrt{5}$ minutes. When he runs he covers 1 km in 5 minutes.\n(a) If $\\mathrm{PQ}=x$ km, $0\\le x\\le 2$, find an expression for the time $T$ minutes taken by André to reach point Y. [4 marks]\n(b) Show that $\\frac{\\mathrm{d}T}{\\mathrm{d}x}=\\frac{5\\sqrt{5}x}{\\sqrt{x^2+4}}-5$. [3 marks]\n(c) (i) Solve $\\frac{\\mathrm{d}T}{\\mathrm{d}x}=0$.\n(ii) Use the value of $x$ found in part (c) (i) to determine the time, $T$ minutes, taken for André to reach point Y.\n(iii) Show that $\\frac{\\mathrm{d}^2T}{\\mathrm{d}x^2}=\\frac{20\\sqrt{5}}{(x^2+4)^{\\frac{3}{2}}}$ and hence show that the time found in part (c) (ii) is a minimum. [11 marks]"},
+    "14": {"topics": ["1", "3"], "subtopics": ["1.14", "1.13", "3.11"],
+      "text_clean": "14. [Maximum mark: 12]\nLet $w=\\cos\\frac{2\\pi}{5}+\\mathrm{i}\\sin\\frac{2\\pi}{5}$.\n(a) Show that $w$ is a root of the equation $z^5-1=0$. [3 marks]\n(b) Show that $(w-1)(w^4+w^3+w^2+w+1)=w^5-1$ and deduce that $w^4+w^3+w^2+w+1=0$. [3 marks]\n(c) Hence show that $\\cos\\frac{2\\pi}{5}+\\cos\\frac{4\\pi}{5}=-\\frac{1}{2}$. [6 marks]"}
+  }
+}

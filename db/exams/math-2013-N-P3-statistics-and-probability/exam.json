@@ -1,0 +1,133 @@
+{
+ "exam_id": "math-2013-N-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2013,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2013 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2013 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8813-7210; code N13/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2013-N-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 8]\nA traffic radar records the speed, v kilometres per hour (km h–1), of cars on a section of a road.\nThe following table shows a summary of the results for a random sample of 1000 cars whose\nspeeds were recorded on a given day.\nSpeed Number of cars\n50 ≤ v < 60 5\n60 ≤ v < 70 13\n70 ≤ v < 80 52\n80 ≤ v < 90 68\n90 ≤ v < 100 98\n100 ≤ v < 110 105\n110 ≤ v < 120 289\n120 ≤ v < 130 142\n130 ≤ v < 140 197\n140 ≤ v < 150 31\n(a) Using the data in the table,\n(i) show that an estimate of the mean speed of the sample is 113.21 km h–1;\n(ii) find an estimate of the variance of the speed of the cars on this section of the road. [4]\n(b) Find the 95 % confidence interval, I , for the mean speed. [2]\n(c) Let J be the 90 % confidence interval for the mean speed.\nWithout calculating J , explain why J ⊂ I . [2]",
+   "ms_text": "1\n1. (a) (i) v= (555 ×+ 6513 × +…+ 14531) × A1M1\n1000\nNote:A1 for mid-points, M1 for use of the formula.\n113210\n= = 113.21 AG\n1000\n2 2 2 (55113.21) − ×+ 5 (65113.21) − × 13 +…+ (145113.21) − × 31\n2 = (ii) s (M1)\n999\n362295.9\n= = 362.6585 …= 363 A1\n999\nNote:Award A1 if answer rounds to 362 or 363.\nNote:Condone division by 1000.\n[4 marks]\nt × s\n(b) v ± 0.025 (M1)\nn\nI= hence the confidence interval [112.028, 114.392] A1\nNote:Accept answers which round to 112 and 114.\nNote:Condone the use of z0.025 for t0.025 and σ for s.\n[2 marks]\n(c) less confidence implies narrower interval R2\nNote:Accept equivalent statements or arguments having a meaningful\ndiagram and/or relevant percentiles.\nhence the confidence interval I at the 95% level contains the confidence\ninterval J at the 90% level AG\n[2 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3",
+    "4.L6",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 8]\nA traffic radar records the speed, $v$ kilometres per hour (km h$^{-1}$), of cars on a section of a road. The following table shows a summary of the results for a random sample of 1000 cars whose speeds were recorded on a given day.\nSpeed | Number of cars\n$50 \\le v < 60$ | 5\n$60 \\le v < 70$ | 13\n$70 \\le v < 80$ | 52\n$80 \\le v < 90$ | 68\n$90 \\le v < 100$ | 98\n$100 \\le v < 110$ | 105\n$110 \\le v < 120$ | 289\n$120 \\le v < 130$ | 142\n$130 \\le v < 140$ | 197\n$140 \\le v < 150$ | 31\n(a) Using the data in the table,\n(i) show that an estimate of the mean speed of the sample is 113.21 km h$^{-1}$;\n(ii) find an estimate of the variance of the speed of the cars on this section of the road. [4]\n(b) Find the 95% confidence interval, $I$, for the mean speed. [2]\n(c) Let $J$ be the 90% confidence interval for the mean speed.\nWithout calculating $J$, explain why $J \\subset I$. [2]"
+  },
+  {
+   "id": "math-2013-N-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 14]\nA farmer is selling apples and oranges. The weights X and Y , in grams, of the apples and\n2 2 oranges respectively are normally distributed with X ~ N (180, 14) and Y ~ N (150, 12) .\n(a) Find the probability that the weight of a randomly chosen apple is more than 1.5 times the\nweight of a randomly chosen orange. [7]\n(b) Katharina buys 4 apples and 6 oranges. Find the probability that the total weight is\ngreater than 1.5 kilograms. [7]",
+   "ms_text": "2. (a) let W = X − 1.5 Y (M1)\nW= − × =− E( ) 1801.5150( 45) A1\n2 2 2 Var( W= ) 14 + 2.2512(520 or22.8) × = (M1)A1\nW : N(45, 520) − (M1)\nP( W> 0) = 0.0242 (M1)A1 N4\nNote:The penultimate (M1) is for recognising normality.\n[7 marks]\n(b) let T = X + X + X + X + Y + Y + Y + Y + Y + Y (grams) denote\n1 2 3 4 1 2 3 4 5 6\nthe total weight (M1)\nT= × +× = A1 E() 4180 6150 (1620)\nNote:Condone correct expected value from = + . T 4 X 6 Y\n2 2 2 Var() T= 414 × + 612(1648 or40.6) × = (M1)A1\nthen T : N (1620, 1648) (M1)\nP( T> 1500) = 0.998 (M1)A1 N4\nNote:Accept answers which round to 0.998.\nNote:The penultimate (M1) is for recognising normality.\n[7 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 14]\nA farmer is selling apples and oranges. The weights $X$ and $Y$, in grams, of the apples and oranges respectively are normally distributed with $X \\sim N(180, 14^2)$ and $Y \\sim N(150, 12^2)$.\n(a) Find the probability that the weight of a randomly chosen apple is more than 1.5 times the weight of a randomly chosen orange. [7]\n(b) Katharina buys 4 apples and 6 oranges. Find the probability that the total weight is greater than 1.5 kilograms. [7]"
+  },
+  {
+   "id": "math-2013-N-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 14]\nJenny tosses seven coins simultaneously and counts the number of tails obtained. She repeats\nthe experiment 750 times. The following frequency table shows her results.\nNumber of tails Frequency\n0 6\n1 19\n2 141\n3 218\n4 203\n5 117\n6 38\n7 8\n(a) It is claimed that all of these seven coins are fair and it is decided to test this claim using\n2 a suitable χ test.\n(i) State the null and alternative hypotheses.\n(ii) State a decision rule at the 5 % level of significance.\n(iii) Find the value of the test statistic.\n(iv) Write down your conclusion. [10]\n(b) Explain what can be done with this data to decrease the probability of making a\ntype I error. [2]\n(c) (i) State the meaning of a type II error.\n(ii) Write down how to proceed if it is required to decrease the probability of making\nboth a type I and type II error. [2]",
+   "ms_text": "3. (a) (i) H0: all coins are fair (or the data are represented by B(7, 0.5) ) A1\nH1: not all coins are fair (or the data are not represented by B(7, 0.5) ) A1\n2 2 (ii) χ > χ (14.067) or p-value < 0.05 ⇒ reject null hypothesis A1\ncal critical\n(iii) let T be the number of tails obtained, T is binomially distributed (M1)\nT: B(7, 0.5) (A1)\nT 0 1 2 3 4 5 6 7\nf0 6 19 141 218 203 117 38 8\nfe 5.859… 41.01… 123.0… 205.0… 205.0… 123.0… 41.01… 5.859…\nA2\nNote:Allow tabular values which are correct to 3 significant figures.\nNote:Award A1 for 6 or 7 correct values.\n2 χ = 16.576 … A1\ncalc\nNote:Accept answer which round to 16.6.\n(iv) ν= 7 (A1)\nsince 16.576 …> 14.067 or p = 0.02(034 …< ) 0.05 , H0 is rejected R1\n2 Note:Follow through their χ or p-value for the R1.\ncalc\n[10 marks]\n(b) reduce the significance level (or equivalent statement) R2\n[2 marks]\n(c) (i) A1 accepting H0 (or failing to reject H0) when it is false (or equivalent)\n(ii) increase the number of trials A1\n[2 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.8",
+    "4.L7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 14]\nJenny tosses seven coins simultaneously and counts the number of tails obtained. She repeats the experiment 750 times. The following frequency table shows her results.\nNumber of tails | Frequency\n0 | 6\n1 | 19\n2 | 141\n3 | 218\n4 | 203\n5 | 117\n6 | 38\n7 | 8\n(a) It is claimed that all of these seven coins are fair and it is decided to test this claim using a suitable $\\chi^2$ test.\n(i) State the null and alternative hypotheses.\n(ii) State a decision rule at the 5% level of significance.\n(iii) Find the value of the test statistic.\n(iv) Write down your conclusion. [10]\n(b) Explain what can be done with this data to decrease the probability of making a type I error. [2]\n(c) (i) State the meaning of a type II error.\n(ii) Write down how to proceed if it is required to decrease the probability of making both a type I and type II error. [2]"
+  },
+  {
+   "id": "math-2013-N-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 10]\nFrancisco and his friends want to test whether performance in running 400 metres improves\nif they follow a particular training schedule. The competitors are tested before and after the\ntraining schedule.\nThe times taken to run 400 metres, in seconds, before and after training are shown in the\nfollowing table.\nCompetitor A B C D E\nTime before training 75 74 60 69 69\nTime after training 73 69 55 72 65\nApply an appropriate test at the 1 % significance level to decide whether the training schedule\nimproves competitors’ times, stating clearly the null and alternative hypotheses. (It may be\nassumed that the distributions of the times before and after training are normal.)",
+   "ms_text": "4. H0: the training schedule does not help improve times (or μ= 0 ) A1\nH1: the training schedule does help improve times (or μ> 0 ) A1\nNote:Subsequent marks can be awarded even if the hypotheses are not stated.\n(Assuming difference of times is normally distributed.)\nlet d= time beforetraining − time aftertraining (M1)\nCompetitor A B C D E\nTime before training\n75 74 60 69 69\n(in seconds)\nTime after training\n73 69 55 72 65\n(in seconds)\nDifference d 2 5 5 –3 4\nA1\nEITHER\n1 169 2 2\nn = 5, ∑ d = 13, ∑ d = 79 ⇒ s− = 79 − = 11.3 (M1)\nn 1\n4 5\n(small sample) so use a one-sided t-test (M1)\nNote:The “one-sided” t-test may have been seen above when stating H1.\n2.6\nt = = 1.7 … A1\n11.3\n5\nv = 4 , A1\nat the 1% level the critical value is 3.7 A1\nsince 3.7 > 1.7 …\nH0 is accepted (insufficient evidence to reject H0) R1\nNote:Follow through their t-value.\nOR\n(small sample) so use a one-sided t-test (M1)\np = 0.079 … A4\nsince 0.079 …> 0.01\nH0 is accepted (insufficient evidence to reject H0) R1\nNote:Follow through their p-value.\nNote:Accept d= time after training – time before training throughout.\n[10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 10]\nFrancisco and his friends want to test whether performance in running 400 metres improves if they follow a particular training schedule. The competitors are tested before and after the training schedule.\nThe times taken to run 400 metres, in seconds, before and after training are shown in the following table.\nCompetitor | A | B | C | D | E\nTime before training | 75 | 74 | 60 | 69 | 69\nTime after training | 73 | 69 | 55 | 72 | 65\nApply an appropriate test at the 1% significance level to decide whether the training schedule improves competitors' times, stating clearly the null and alternative hypotheses. (It may be assumed that the distributions of the times before and after training are normal.)",
+   "review_note": "Paired t-test; markscheme ends with [10 marks] (no separate Total line)."
+  },
+  {
+   "id": "math-2013-N-P3-statistics-and-probability-q5",
+   "num": "5",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 14]\nLet X and Y be independent random variables with Y P X ∼ P (3) and ∼ (2) .\no o\nLet S = 2 X + 3 Y .\n(a) Find the mean and variance of S . [2]\n(b) Hence state with a reason whether or not S follows a Poisson distribution. [2]\nLet T = X + Y .\n(c) Find P( T= 3) . [4]\nt\n(d) Show that P( T = t ) = ∑ P( X = r )P( Y =− t r ) . [2]\nr = 0\n(e) Hence show that T follows a Poisson distribution with mean 5. [4]",
+   "ms_text": "5. (a) E() S = 2E( X ) + 3E() Y = 6 + 6 = 12 A1\nVar() S = 4Var( X ) + 9Var() Y = 1218 + = 30 A1\n[2 marks]\n(b) S does not have a Poisson distribution A1\n≠ because Var() S E() S R1\nNote:Follow through their E(S) and Var(S) if different.\n[2 marks]\n(c) EITHER\nP( T= 3) =( P( XY , ) = (3, 0) ) + P( ( XY , ) = (2, 1) ) +\n+ P( ( XY , ) = (1, 2) ) + P( ( XY , ) = (0, 3) ) (M1)\n= P( X = 3)P( Y = 0) + P( X = 2)P( Y = 1) +\n+P( X = 1)P( Y = 2) + P( X = 0)P( Y = 3) (M1)\n125 e− 5\n= (0.140) = A2\n6\nNote:Accept answers which round to 0.14.\nOR\nT is P(2 + 3) = P(5) (M1)(A1)\no o\n− 5\n125e\nP( T = 3) = (0.140) = A2\n6\nNote:Accept answers which round to 0.14.\n[4 marks]\n( ) ( ) ( ) (d) P( T = t ) = P( XY , ) = (0,) t + P( XY , ) = (1, t − 1) +… P( XY , ) = (, 0) t (M1)\n( ) = P( X = 0)P( Y = t ) + P( X = 1)P Y =− t 1 +…+ P( X = t )P( Y = 0) A1\nt\n= ∑ = =− P( X r )P( Y t r ) AG\nr = 0\n[2 marks]\nt\n(e) P( T = t ) = ∑ P( X = r )P( Y =− t r )\n= r 0\nt − 3 r − 2 tr − e 3 e 2\n= ∑ × M1A1\nr ! ( t − r )! r = 0\n− 5 e t t !\nr tr − = ∑ × 3 2 M1\nt ! rt !( − r )! r = 0\n− 5\ne\n= (3 + 2)t A1\nt !\n− t\ne 55\n=\nt !\nhence T follows a Poisson distribution with mean 5 AG\n[4 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.L4",
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 14]\nLet $X$ and $Y$ be independent random variables with $X \\sim P_o(3)$ and $Y \\sim P_o(2)$.\nLet $S = 2X + 3Y$.\n(a) Find the mean and variance of $S$. [2]\n(b) Hence state with a reason whether or not $S$ follows a Poisson distribution. [2]\nLet $T = X + Y$.\n(c) Find $\\mathrm{P}(T = 3)$. [4]\n(d) Show that $\\mathrm{P}(T = t) = \\sum_{r=0}^{t} \\mathrm{P}(X = r)\\mathrm{P}(Y = t - r)$. [2]\n(e) Hence show that $T$ follows a Poisson distribution with mean 5. [4]"
+  }
+ ],
+ "status": "done"
+}

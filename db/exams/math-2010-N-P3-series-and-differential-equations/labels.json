@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2010-N-P3-series-and-differential-equations",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.13", "5.6"],
+      "text_clean": "1. [Maximum mark: 7]\nFind $\\lim_{x \\to 0}\\left(\\frac{1-\\cos x^6}{x^{12}}\\right)$."
+    },
+    "2": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.L1", "1.8"],
+      "text_clean": "2. [Maximum mark: 16]\nDetermine whether or not the following series converge.\n(a) $\\sum_{n=0}^{\\infty}\\left(\\sin\\frac{n\\pi}{2} - \\sin\\frac{(n+1)\\pi}{2}\\right)$ [3 marks]\n(b) $\\sum_{n=1}^{\\infty}\\frac{e^n - 1}{\\pi^n}$ [7 marks]\n(c) $\\sum_{n=2}^{\\infty}\\frac{\\sqrt{n+1}}{n(n-1)}$ [6 marks]"
+    },
+    "3": {
+      "topics": ["5"],
+      "subtopics": ["5.19", "5.10", "5.11"],
+      "text_clean": "3. [Maximum mark: 9]\n(a) Using the Maclaurin series for the function $e^x$, write down the first four terms of the Maclaurin series for $e^{-\\frac{x^2}{2}}$. [3 marks]\n(b) Hence find the first four terms of the series for $\\int_0^x e^{-\\frac{u^2}{2}}\\,du$. [3 marks]\n(c) Use the result from part (b) to find an approximate value for $\\frac{1}{\\sqrt{2\\pi}}\\int_0^1 e^{-\\frac{x^2}{2}}\\,dx$. [3 marks]"
+    },
+    "4": {
+      "topics": ["5"],
+      "subtopics": ["5.18", "5.15"],
+      "text_clean": "4. [Maximum mark: 13]\nSolve the differential equation\n$(x-1)\\frac{dy}{dx} + xy = (x-1)e^{-x}$\ngiven that $y = 1$ when $x = 0$. Give your answer in the form $y = f(x)$."
+    },
+    "5": {
+      "topics": ["5"],
+      "subtopics": ["5.L1", "5.L5", "5.16"],
+      "text_clean": "5. [Maximum mark: 15]\nConsider the infinite series\n$\\frac{1}{2\\ln 2} - \\frac{1}{3\\ln 3} + \\frac{1}{4\\ln 4} - \\frac{1}{5\\ln 5} + \\dots$\n(a) Show that the series converges. [4 marks]\n(b) Determine if the series converges absolutely or conditionally. [11 marks]"
+    }
+  }
+}

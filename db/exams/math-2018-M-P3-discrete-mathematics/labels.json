@@ -1,0 +1,31 @@
+{
+  "exam_id": "math-2018-M-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.9", "6.7"],
+      "text_clean": "1. [Maximum mark: 10]\nConsider the following weighted graph $G$.\n[Diagram: weighted graph G with vertices A, B, C, D, E, F; edges AB = 7, AE = 8, BC = 7, BE = 9, CE = 5, CF = 9, CD = 6, DF = 8, EF = 6]\n(a) State what feature of $G$ ensures that\n(i) $G$ has an Eulerian trail;\n(ii) $G$ does not have an Eulerian circuit. [2]\n(b) Write down an Eulerian trail in $G$. [2]\n(c) (i) State the Chinese postman problem.\n(ii) Starting and finishing at B, find a solution to the Chinese postman problem for $G$.\n(iii) Calculate the total weight of the solution. [6]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.5", "6.4"],
+      "text_clean": "2. [Maximum mark: 8]\n(a) State Fermat's little theorem. [2]\n(b) Consider the linear congruence $ax \\equiv b \\pmod{p}$ where $a, b, p, x \\in \\mathbb{Z}^+$, $p$ is prime and $a$ is not a multiple of $p$.\n(i) Use Fermat's little theorem to show that $x \\equiv a^{p-2}b \\pmod{p}$.\n(ii) Hence solve the linear congruence $5x \\equiv 7 \\pmod{13}$. [6]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.6", "6.7", "6.8"],
+      "text_clean": "3. [Maximum mark: 11]\nConsider the complete bipartite graph $\\kappa_{3,3}$.\n(a) (i) Draw $\\kappa_{3,3}$.\n(ii) Show that $\\kappa_{3,3}$ has a Hamiltonian cycle.\n(iii) Draw $\\kappa_{3,2}$ and explain why it does not have a Hamiltonian cycle. [4]\n(b) (i) In the context of graph theory, state the handshaking lemma.\n(ii) Hence show that a graph $G$ with degree sequence 2, 3, 3, 4, 4, 5 cannot exist. [3]\nLet $T$ be a tree with $v$ vertices where $v \\geq 2$.\n(c) Use the handshaking lemma to prove that $T$ has at least two vertices of degree one. [4]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.1"],
+      "text_clean": "4. [Maximum mark: 6]\n(a) Show that $\\gcd(4k+2, 3k+1) = \\gcd(k-1, 2)$, where $k \\in \\mathbb{Z}^+$, $k > 1$. [4]\n(b) State the value of $\\gcd(4k+2, 3k+1)$ for\n(i) odd positive integers $k$;\n(ii) even positive integers $k$. [2]"
+    },
+    "5": {
+      "topics": ["6", "1"],
+      "subtopics": ["6.10", "1.15"],
+      "text_clean": "5. [Maximum mark: 15]\nThe Fibonacci sequence can be described by the recurrence relation $f_{n+2} = f_{n+1} + f_n$ where $f_0 = 0$, $f_1 = 1$.\n(a) Write down the auxiliary equation and use it to find an expression for $f_n$ in terms of $n$. [7]\nIt is known that $\\alpha^2 = \\alpha + 1$ where $\\alpha = \\frac{1+\\sqrt{5}}{2}$.\n(b) For integers $n \\geq 3$, use strong induction on the recurrence relation $f_{n+2} = f_{n+1} + f_n$ to prove that $f_n > \\alpha^{n-2}$. [8]",
+      "note": "6.10 listed first: both parts work with the recurrence relation; (b) strong induction (8 marks) tagged 1.15."
+    }
+  }
+}

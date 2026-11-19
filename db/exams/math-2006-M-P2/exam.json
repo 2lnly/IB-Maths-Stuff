@@ -1,0 +1,140 @@
+{
+ "exam_id": "math-2006-M-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2006,
+ "session": "May",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2006 May Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2006 May Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2206-7205; code M06/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches expected total 120",
+ "qp_pages": 5,
+ "questions": [
+  {
+   "id": "math-2006-M-P2-q1",
+   "num": "1",
+   "section": null,
+   "marks": 21,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 21]\nLet A be the point (, 2 − 10 ,) , B the point (, 301 and C the point (1, m , 2) , where ,)\nm ∈ ¢, m < 0.\n→ →\n(a) (i) Find the scalar product BABC . g\n2\n$ (ii) Hence, given that ABC = arccos [6 marks]\n3, show that m = −1.\n(b) Determine the Cartesian equation of the plane ABC. [4 marks]\n(c) Find the area of triangle ABC. [3 marks]\n(d) (i) The line L is perpendicular to plane ABC and passes through A. Find a\nvector equation of L.\n(ii) The point D(, 6 − 72 ,) lies on L. Find the volume of the pyramid\nABCD. [8 marks]",
+   "ms_text": "⎛ − 1 ⎞ ⎛ − 2 ⎞\n→ ⎜ ⎟ → ⎜ ⎟\n1. (a) (i) BA =− 1 BC = ⎜ m (A1)\n⎜ ⎟ ⎟\n⎜ ⎟ ⎜ ⎟ −\n1 1 ⎝ ⎠ ⎝ ⎠\n→ →\nBABC i =− 1 m A1 N2\n→ → → →\nˆ (ii) BABC i = BA BCcosABC (M1)\n2 2\n1 − m = 35 + m × A1\n3\nEITHER\n2 2 2 2\n(1 − m ) = (5 + m ) ( ⇒ m − 6 m − 7 = 0 ) M1\n3\nSolving (gives m = − or 1 m = 7 ) A1\n⇒ m = − 1 AG N0\nOR\nFor a correct GDC sketch M1\nShowing m = − is the point of intersection 1 A1\n⇒ = − m 1 AG N0\n[6 marks]\n(b) Using vector product (M1)\ni j k\n=− − − = − + − n 1 1 1 2 i 3 j k A1\n− 2 − 1 1\nSubstituting coordinates of a point (e.g. A(2, −1, 0)) (M1)\n⇒− 2( x − 2) + 3( y + 1) − z = 0 (2 − x + 3 y − z = − 7) A1 N2\n[4 marks]\n(c) METHOD 1\n2 ˆ\n= cosABC\n3\n7 �\n⇒ sin ABC ˆ = (ˆB = 61.87... , 1.0799 radians) A1\n3\n→ → 1\n= ˆ area ABC BA BCsin ABC (M1)\n2\n1 7 14\n= 3 6 = ( = 1.87 ) A1 N2\n2 3 2\nMETHOD 2\n→ → 1\nArea ABC = BABC × (M1)\n2\n⎛ − 2 ⎞\n1 ⎜ ⎟\n= 3 A1\n⎜ ⎟\n2 ⎜ ⎟\n− 1 ⎝ ⎠\n14\n= (1.87) = A1 N2\n2\n[3 marks]\nline perpendicular to plane ABC ⇒ line parallel to n (d) (i) (M1)\n⎛ 2 ⎞ ⎛ − 2 ⎞\n⎜ ⎟ ⎜ ⎟\nequation of line is r =− 1 + λ 3 M1A1A1\n⎜ ⎟ ⎜ ⎟\n⎜ ⎟ ⎜ ⎟\n0 − 1 ⎝ ⎠ ⎝ ⎠\n⎛ 4 ⎞\n→ ⎜ ⎟\n(ii) AD =− 6 (A1)\n⎜ ⎟\n⎜ ⎟\n2 ⎝ ⎠\n→ 1\nvolume of pyramid = area ABC AD (M1)\n3\n→ 1 14\n= 56 (FT from any numerical error inAD ) A1\n3 2\n14\n= ( = 4.67 , accept 4.66) A1 N2\n3\n[8 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.13",
+    "3.17",
+    "3.14",
+    "3.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 21]\nLet A be the point $(2, -1, 0)$, B the point $(3, 0, 1)$ and C the point $(1, m, 2)$, where $m \\in \\mathbb{Z}$, $m < 0$.\n(a) (i) Find the scalar product $\\overrightarrow{BA} \\cdot \\overrightarrow{BC}$.\n(ii) Hence, given that $A\\hat{B}C = \\arccos\\frac{\\sqrt{2}}{3}$, show that $m = -1$. [6 marks]\n(b) Determine the Cartesian equation of the plane ABC. [4 marks]\n(c) Find the area of triangle ABC. [3 marks]\n(d) (i) The line $L$ is perpendicular to plane ABC and passes through A. Find a vector equation of $L$.\n(ii) The point $D(6, -7, 2)$ lies on $L$. Find the volume of the pyramid ABCD. [8 marks]"
+  },
+  {
+   "id": "math-2006-M-P2-q2",
+   "num": "2",
+   "section": null,
+   "marks": 21,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 21]\nπ π\nLet z = cos θ + i sin θ , for − < θ < .\n4 4\n(a) (i) Find z3 using the binomial theorem.\n(ii) Use de Moivre´s theorem to show that\n3 3 cos 3 θ = 4 cos θ − 3 cos θ and sin 3 θ = 3 sin θ − 4 sin θ . [10 marks]\n3 θ − sin θ Hence prove that sin\n(b) = tan θ . [6 marks]\ncos 3 θ + cos θ\nGiven that sinθ=1 (c) [5 marks]\n3, find the exact value of tan3θ.",
+   "ms_text": "3 3 2 2 2 3 3 2. (a) (i) (cos θ + isin) θ = cos θ + 3cosisin θ + 3cos isin θ θ + isin θ A1A1A1A1\n( = 3 θ + 2 θ θ − θ 2 θ − 3 θ ) cos 3cos sini 3cos sin isin\n( 3 2 2 3 ) = cos θ − 3cos θ sin θ + (3cos θ sin θ − sin θ )i\nNote: Award A1 for each term in the expansion.\n3 (ii) (cos θ + isin) θ = cos3 θ + isin3 θ (A1)\nequating real and imaginary parts (M1)\n3 2 cos3 θ = cos θ − 3cos θ sin θ A1\n3 2 = cos θ − 3cos(1cos θ − θ ) A1\n= 3 θ − θ 4cos 3cos AG N0\nand sin3 θ = 3cos 2 θ sin θ − sin 3 θ A1\n2 3 = 3(1sin − θ )sin θ − sin θ A1\n3 = 3sin θ − 4sin θ AG N0\n[10 marks]\n3 sin3 θ − sin θ 3sin θ − 4sin θ − sin θ\n(b) = A1A1\n3 cos3 θ + cos θ 4cos θ − 3cos θ + cos θ\nθ − 2 θ 2sin (12sin )\n= A1A1\n2cos(2cos θ 2 θ − 1)\n2 2 Using 1 − 2sin θ = 2cos θ −= 1 cos2 θ M1\nsin3 θ − sin θ 2sin θ\n= A1\ncos3 θ + cos θ 2cos θ\n= tanθ AG\n[6 marks]\n(c) METHOD 1\n1 2\nθ = ⇒ θ = sin cos 2 A1\n3 3\n1 1\nsin3 θ=× 3 − 4 × M1\n3 27\n23\n= (A1)\n27\n3\n⎛ 2 ⎞ 2\ncos3 θ = 4 2 −× 3 2 M1 ⎜ ⎟\n⎝ 3 ⎠ 3\n10\n= 2\n27\n23 ⎛ 23 ⎞\ntan3 θ = = 2 A1 N0 ⎜ ⎟\n102 ⎝ 20 ⎠\nMETHOD 2\n1 1 1\nsin θ= ⇒ sin3 θ=× 3 − 4 × M1\n3 3 27\n23\n= (A1)\n27\n2 ⎛ ⎞ 23 102\nθ = − = cos3 1 ⎜ ⎟ M1A1\n2 ⎜ ⎟ 27\n⎝ 27 ⎠\n23\n27\ntan3 θ=\n102\n27\n23 ⎛ 23 ⎞\n= ⎜ = 2 ⎟ A1 N0\n102 ⎝ 20 ⎠\n[5 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.6",
+    "1.14",
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 21]\nLet $z = \\cos\\theta + i\\sin\\theta$, for $-\\frac{\\pi}{4} < \\theta < \\frac{\\pi}{4}$.\n(a) (i) Find $z^3$ using the binomial theorem.\n(ii) Use de Moivre's theorem to show that $\\cos 3\\theta = 4\\cos^3\\theta - 3\\cos\\theta$ and $\\sin 3\\theta = 3\\sin\\theta - 4\\sin^3\\theta$. [10 marks]\n(b) Hence prove that $\\frac{\\sin 3\\theta - \\sin\\theta}{\\cos 3\\theta + \\cos\\theta} = \\tan\\theta$. [6 marks]\n(c) Given that $\\sin\\theta = \\frac{1}{3}$, find the exact value of $\\tan 3\\theta$. [5 marks]"
+  },
+  {
+   "id": "math-2006-M-P2-q3",
+   "num": "3",
+   "section": null,
+   "marks": 23,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 23]\nParticle A moves in a straight line, starting from OA, such that its velocity in metres\nper second for 0 ≤≤ t 9 is given by\n1 3 2\nv A= − t + 3 t + .\n2 2\nParticle B moves in a straight line, starting from OB, such that its velocity in metres\nper second for 0 ≤≤ t 9 is given by\nt\nvB = e0 2..\n(a) Find the maximum value of vA , justifying that it is a maximum. [5 marks]\n(b) Find the acceleration of B when t = 4. [3 marks]\nThe displacements of A and B from OA and OB respectively, at time t are sA metres\nand sB metres. When t = 0, sA= 0, and sB= 5 .\n(c) Find an expression for sA and for sB , giving your answers in terms of t. [7 marks]\n(d) (i) Sketch the curves of sA and sB on the same diagram.\n(ii) Find the values of t at which s = s . [8 marks]\nA B",
+   "ms_text": "v maximum when d\n3. (a) t= 0 (or any correct method) (M1)\nd\nt = 3 (A2)\n2 d v\nt = 3 , A = −⇒ 1 maximum R1\nd t 2\n− 1 ⇒ maximum v = 6 (ms) A1 N3\nA\n[5 marks]\nd v\n(b) Using acceleration = M1\nd t\n= 1 e 0.2 t (A1)\n5\n− 2 when t = 4, a = 0.445 (ms) A1 N2\n[3 marks]\n(c) using s = ∫ v dor t s = ∫ v d t (M1)\nA A B B\n1 3 3 3 2\nAs = − t + t + t + c A1\n6 2 2\nwhen t = 0, s = 0 ⇒ c = 0 M1\nA\n0.2 t 0.2 t\nBs = ∫ e d t = 5e + d A1\n= = ⇒ = when t 0, s 5 d 0 (M1)\nB\n1 3 3\n= − 3 + 2 + As t t t A1 N1\n6 2 2\nBs= 5e 0.2 t A1 N1\n[7 marks]\n(d) (i)\nA1A1A1A1\nNote: For each curve, award A1 for the s intercept and A1for the correct shape.\n(ii) t = 1.95 and t = 7.81 A2A2\n[8 marks]\nTotal [23 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.10",
+    "5.8",
+    "2.3",
+    "2.10",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 23]\nParticle A moves in a straight line, starting from $O_A$, such that its velocity in metres per second for $0 \\le t \\le 9$ is given by $v_A = -\\frac{1}{2}t^2 + 3t + \\frac{3}{2}$.\nParticle B moves in a straight line, starting from $O_B$, such that its velocity in metres per second for $0 \\le t \\le 9$ is given by $v_B = e^{0.2t}$.\n(a) Find the maximum value of $v_A$, justifying that it is a maximum. [5 marks]\n(b) Find the acceleration of B when $t = 4$. [3 marks]\nThe displacements of A and B from $O_A$ and $O_B$ respectively, at time $t$ are $s_A$ metres and $s_B$ metres. When $t = 0$, $s_A = 0$, and $s_B = 5$.\n(c) Find an expression for $s_A$ and for $s_B$, giving your answers in terms of $t$. [7 marks]\n(d) (i) Sketch the curves of $s_A$ and $s_B$ on the same diagram.\n(ii) Find the values of $t$ at which $s_A = s_B$. [8 marks]"
+  },
+  {
+   "id": "math-2006-M-P2-q4",
+   "num": "4",
+   "section": null,
+   "marks": 31,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Total mark: 31]\nPart A [Maximum mark: 12]\nThe time, T minutes, required by candidates to answer a question in a mathematics\nexamination has probability density function\n1 2\n( t − t − 20 ), for 4 ≤≤ t 10\n7212 ft () =\n0 , otherwise.\n(a) Find\n(i) µ , the expected value of T ;\n(ii) σ2, the variance of T. [7 marks]\n(b) A candidate is chosen at random. Find the probability that the time taken by this\ncandidate to answer the question lies in the interval [ µ − σ , µ ] . [5 marks]\nPart B [Maximum mark: 19]\nAndrew shoots 20 arrows at a target. He has a probability of 0.3 of hitting the target.\nAll shots are independent of each other. Let X denote the number of arrows hitting\nthe target.\n(a) Find the mean and standard deviation of X. [5 marks]\n(b) Find\n(i) P( X= 5; )\n(ii) P( 4 ≤ X ≤ 8 ) . [6 marks]\nBill also shoots arrows at a target, with probability of 0.3 of hitting the target. All shots\nare independent of each other.\n(c) Calculate the probability that Bill hits the target for the first time on his\nthird shot. [3 marks]\n(d) Calculate the minimum number of shots required for the probability of at least\none shot hitting the target to exceed 0.99. [5 marks]",
+   "ms_text": "4. Part A\n1 10 2\n(a) (i) µ= t (12 t − t − 20)d t (using µ= ∫ tft ()d t ) M1 ∫\n72 4\n= 6.5 A1 N1\n1 10 2 2 2\n(ii) E( T ) = ∫ t (12 t − t − 20)d t (using ∫ tft 2()d t ) (M1)\n72 4\n= 44.4 (A1)\n2 2 σ = E(T ) − µ2 M1\n= 44.4 − 6.5 2 (A1)\n= 2.15 A1 N2\n[7 marks]\n⎡ ⎤ (b) [ µ − σµ , ] = 6.5 − 2.15, 6.5 ( = [5.03 ... , 6.5] ) (A1)(A1)\n⎣ ⎦\n1 6.5\n− 2 − required probability is ∫ (12 t t 20)d t M1A1\n5.03 ... 72\n= 0.321 (accept 0.322) A1 N2\n[5 marks]\nSub-total [12 marks]\nPart B\n(a) X∼ B(20, 0.3) (A1)\nMean = 200.3 × = 6 A1\n= × × Variance 200.30.7 (M1)\n= 4.2 (A1)\nStandard deviation = 2.05 A1\n[5 marks]\n⎛ 20 ⎞\n5 15 (b) (i) P( X = 5) =\n⎜ ⎟ × 0.3 × 0.7 (M1)\n⎝ 5 ⎠\n= 0.179 A2 N3\n(ii) P(4 ≤ X ≤ 8) = P( X ≤ 8) − P( X ≤ 3) M1\n= 0.780 (accept 0.779) A2 N2\n[6 marks]\n(c) Probability = 0.70.70.3 × × M1A1\n= 0.147 A1 N2\n[3 marks]\n(d) METHOD 1\nP(atleast 1 hit) =− 10.7n (A1)\nn n For solving 1 − 0.7 = 0.99 (or 1 − 0.7 > 0.99 ) M1\nn = 12.9... (A1)\nn > 12.9... (M1)\ni.e. n = 13 A1 N2\nMETHOD 2\n=− 10.7n P(atleast 1 hit) (A1)\nSubstituting either n = 12 or n = 13 (M1)\n12 1 − 0.7 = 0.986... A1\n1 − 0.7 13 = 0.990... A1\nn = 13 R1 N2\nNote: Award the final R1 only if the preceding two A marks have been awarded.\n[5 marks]\nSub-total [19 marks]\nTotal [31 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.8",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Total mark: 31]\nPart A [Maximum mark: 12]\nThe time, $T$ minutes, required by candidates to answer a question in a mathematics examination has probability density function\n$f(t) = \\begin{cases} \\frac{1}{72}(12t - t^2 - 20), & \\text{for } 4 \\le t \\le 10 \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Find\n(i) $\\mu$, the expected value of $T$;\n(ii) $\\sigma^2$, the variance of $T$. [7 marks]\n(b) A candidate is chosen at random. Find the probability that the time taken by this candidate to answer the question lies in the interval $[\\mu - \\sigma, \\mu]$. [5 marks]\nPart B [Maximum mark: 19]\nAndrew shoots 20 arrows at a target. He has a probability of 0.3 of hitting the target. All shots are independent of each other. Let $X$ denote the number of arrows hitting the target.\n(a) Find the mean and standard deviation of $X$. [5 marks]\n(b) Find\n(i) $P(X = 5)$;\n(ii) $P(4 \\le X \\le 8)$. [6 marks]\nBill also shoots arrows at a target, with probability of 0.3 of hitting the target. All shots are independent of each other.\n(c) Calculate the probability that Bill hits the target for the first time on his third shot. [3 marks]\n(d) Calculate the minimum number of shots required for the probability of at least one shot hitting the target to exceed 0.99. [5 marks]"
+  },
+  {
+   "id": "math-2006-M-P2-q5",
+   "num": "5",
+   "section": null,
+   "marks": 24,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 24]\nx 4 − 1 3 0\nConsider the system of equations T y = − 2 , where T= 0 2 r .\nz − 42 3 r 0 s\n(a) Find the solution of the system when r = 0 and s = 3. [4 marks]\n(b) The solution of the system is not unique.\n=9 2 . (i) Show that s r\n2\n(ii) When r = 2 and s =18, show that the system can be solved, and find the\ngeneral solution. [11 marks]\n(c) Use mathematical induction to prove that, when r = 0 ,\nn n n ( − 1 ) 2 −− ( 1 ) 0\nn + Tn = 0 2 0 , n ∈\n¢. [9 marks]\n0 0 ns",
+   "ms_text": "⎛ − 1 3 0 ⎞⎛ x ⎞ ⎛ 4 ⎞\n⎜ ⎟⎜ ⎟ ⎜ ⎟\n5. (a) 0 2 0 y = − 2\n⎜ ⎟⎜ ⎟ ⎜ ⎟\n⎜ ⎟⎜ ⎟ ⎜ ⎟\n0 0 3 z − 42 ⎝ ⎠⎝ ⎠ ⎝ ⎠\n⇒ − x + 3 y = 4 2 y = −and 3 2 z = − 42 (M1)\n⇒ x = − 7 y = − 1 z = − 14 A1A1A1 N4\n[4 marks]\n(b) (i) solution not unique ⇒ det T = 0 M1\n= − + 2 det T 2 s 9 r M1A1\n9 2\n⇒ s = r AG\n2\n⎛ − 1 3 0 ⎞⎛ x ⎞ ⎛ 4 ⎞\n⎜ ⎟⎜ ⎟ ⎜ ⎟\n(ii) 0 2 2 y = − 2 (A1)\n⎜ ⎟⎜ ⎟ ⎜ ⎟\n⎜ ⎟⎜ ⎟ ⎜ ⎟\n6 0 18 z − 42 ⎝ ⎠⎝ ⎠ ⎝ ⎠\nFor completing 1 set of relevant row operations. M1\n− 1 3 0 4 − 1 3 0 4\ne.g. 0 2 2 − 2 → 0 2 2 − 2 A1\n6 0 18 − 42 0 18 18 − 18\n⎛ 1 0 3 − 7 ⎞\n⎜ ⎟\n→ 0 1 1 − 1 ⎜ ⎟\n⎜ ⎟ 0 0 0 0\n⎝ ⎠\nSince R = 9 R or equivalent, (or the final row is all zeros) the\n3 2\nsystem can be solved. R1AG\nNote: Award (A1)M1A1R1 for attempting to solve the equations, for\n= showing that 0 0 and concluding that the system can be solved.\n= Let z t (M1)\n⇒ y = −− 1 t A1\n= − = −− and x 3 y 4 7 3 t M1A1\n(The general solution is (7, − − 1, 0) + t (3, − − 1, 1) ) N4\nOther correct solutions are:\ny = t ; z = −− 1 t ; x = 3 t − 4\n4 + t −− 7 t\nx = t ; y = ; z =\n3 3\nx + 7 y + 1\n= = z\n− 3 − 1\n[11 marks]\n⎛ n n n ⎞ (1) − 2 −− (1) 0\n⎜ ⎟\nn n (c) Let P(n) be the statement T\n= ⎜ 0 2 0 ⎟\n⎜ ⎟ 0 0 ns\n⎝ ⎠\nFirst show P(1) is true\n⎛ 1 1 1 ⎞ ⎛ − 1 3 0 ⎞ (1) − 2 −− (1) 0 ⎛ − 1 3 0 ⎞\n⎜ ⎟ ⎜ ⎟ ⎜ ⎟ 1 1\nT = ⎜ 0 2 0 and 0 2 0 = 0 2 0 M1A1\n⎟ ⎜ ⎟ ⎜ ⎟\n⎜ ⎟ ⎜ 1 ⎟ ⎜ ⎟\n0 0 s 0 0 s 0 0 s ⎝ ⎠ ⎝ ⎠ ⎝ ⎠\nk k k ⎛ (1) − 2 −− (1) 0 ⎞\n⎜ ⎟\nAssume P(k) is true, that is T k 0 2 k 0 M1 = ⎜ ⎟\n⎜ 0 0 ks ⎟\n⎝ ⎠\nEITHER\n⎛ k k k ⎞ (1) − 2 −− (1) 0 ⎛ − 1 3 0 ⎞\n⎜ ⎟⎜ ⎟\nk + 1 k k Consider T = TT\n= ⎜ 0 2 0 0 2 0 M1A1 ⎟⎜ ⎟\n⎜ ⎜ ⎟ 0 0 ks ⎟⎝ 0 0 s\n⎠ ⎝ ⎠\nk k k k ⎛ (1)(1) − − (1)3 − + 22 ( −− (1) ) 0 ⎞\n⎜ ⎟\nk = ⎜ 0 22 0 ⎟ A1\n⎜ ⎟ 1\n⎜ 0 0 ks+ ⎟\n⎝ ⎠\n+ ⎛ (1) − k 1 2(2) k +− (1) k 0 ⎞\n⎜ ⎟\nk + 1 (A1)\n= ⎜ 0 2 0 ⎟\n⎜ + 1 ⎟ 0 0 ks\n⎝ ⎠\nOR\n− ⎛ − k k −− k ⎞ ⎛ 1 3 0 (1) 2 (1) 0\n⎞⎜\n⎜ ⎟ ⎟ k + 1\n= k = k T T T 0 2 0 ⎜ 0 2 0 ⎟ M1A1\n⎜ ⎟\n⎜ ⎟⎜ k ⎟\n⎝ 0 0 s 0 0 s ⎠⎝ ⎠\nk k k k ⎛ (1)(1) − − (1)2 − ( −− (1) ) + 3(2) 0 ⎞\n⎜ ⎟\nk = ⎜ 0 2(2) 0 ⎟ A1\n⎜ ⎟ 1\n⎜ 0 0 ks+ ⎟\n⎝ ⎠\nk + 1 k k ⎛ (1) − 2(2) +− (1) 0 ⎞\n⎜ ⎟ +\n0 2 k 1 0 (A1) = ⎜ ⎟\n⎜ 0 0 ks + 1 ⎟\n⎝ ⎠\nTHEN\n⎛ − k + 1 k + 1 −− k + 1 ⎞ (1) 2 (1) 0\n⎜ ⎟\nk + 1 k + 1 T\n= ⎜ 0 2 0 ⎟ A1\n⎜ + 1 ⎟ 0 0 ks\n⎝ ⎠\n+ P(k) is true implies P( k + 1) is true and P(1) is true so P(n) is true ( ∀∈�). R1 n\n[9 marks]\nTotal [24 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.16",
+    "1.L1",
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 24]\nConsider the system of equations $T\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = \\begin{pmatrix} 4 \\\\ -2 \\\\ -42 \\end{pmatrix}$, where $T = \\begin{pmatrix} -1 & 3 & 0 \\\\ 0 & 2 & r \\\\ 3r & 0 & s \\end{pmatrix}$.\n(a) Find the solution of the system when $r = 0$ and $s = 3$. [4 marks]\n(b) The solution of the system is not unique.\n(i) Show that $s = \\frac{9}{2}r^2$.\n(ii) When $r = 2$ and $s = 18$, show that the system can be solved, and find the general solution. [11 marks]\n(c) Use mathematical induction to prove that, when $r = 0$,\n$T^n = \\begin{pmatrix} (-1)^n & 2^n - (-1)^n & 0 \\\\ 0 & 2^n & 0 \\\\ 0 & 0 & s^n \\end{pmatrix}$, $n \\in \\mathbb{Z}^+$. [9 marks]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,136 @@
+{
+ "exam_id": "math-2013-M-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2013,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2013 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2013 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2213-7209; code M13/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches paper total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2013-M-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 10]\nThe binary operation * is defined on � by ab * =+ 1 ab .\nDetermine whether or not *\n(a) is closed; [2 marks]\n(b) is commutative; [2 marks]\n(c) is associative; [3 marks]\n(d) has an identity element. [3 marks]",
+   "ms_text": "1. (a) ∗ is closed A1\nbecause 1 + ab ∈∞ (when ,ab∈∞) R1\n[2 marks]\n(b) consider\nab * =+ 1 ab =+ 1 ba = ba * M1A1\ntherefore ∗ is commutative\n[2 marks]\n(c) EITHER\na * ( bc * ) = a * (1 + bc ) =+ 1 a (1 + bc )(1 =+ a + abc ) A1\n( ab ) c (1 ab ) c 1 c (1 ab )(1 c abc ) A1 * * = + * =+ + =++\n(these two expressions are unequal when a ≠ c ) so * is not associative R1\nOR\nproof by counter example, for example\n1(23) * * = 17 * = 8 A1\n(12)3 * * = 33 * = 10 A1\n(these two numbers are unequal) so * is not associative R1\n[3 marks]\n(d) let e denote the identity element; so that\na − 1\nae =+ 1 ae = a gives e = (where a ≠ 0 ) M1 *\na\na 1 −∉∞ or e is not unique\nthen any valid statement such as: R1\na\nthere is therefore no identity element A1\nNote: Award the final A1 only if the previous R1 is awarded.\n[3 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 10]\nThe binary operation $*$ is defined on $\\mathbb{N}$ by $a*b=1+ab$.\nDetermine whether or not $*$\n(a) is closed; [2 marks]\n(b) is commutative; [2 marks]\n(c) is associative; [3 marks]\n(d) has an identity element. [3 marks]"
+  },
+  {
+   "id": "math-2013-M-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 16]\nConsider the set S={,, 135791113 under the binary operation multiplication , , , , }\nmodulo 14 denoted by ×14 .\n(a) Copy and complete the following Cayley table for this binary operation.\n1 3 5 7 9 1113 ×14\n1 1 3 5 7 9 1113\n3 3 13 5 11\n5 5 3 13 9\n7 7\n9 9 13 3\n1111 5 13\n131311 9 [4 marks]\n(b) Give one reason why {, S×14 is not a group. } [1 mark]\n(c) Show that a new set G can be formed by removing one of the elements of S\nsuch that {, } [5 marks] G×14 is a group.\n(d) Determine the order of each element of {, G×14. } [4 marks]\n(e) Find the proper subgroups of {, G×14. } [2 marks]",
+   "ms_text": "2. (a)\n× 1 3 5 7 9 11 13\n14\n1 1 3 5 7 9 11 13\n3 3 9 1 7 13 5 11\n5 5 1 11 7 3 13 9\n7 7 7 7 7 7 7 7\n9 9 13 3 7 11 1 5\n11 11 5 13 7 1 9 3\n13 13 11 9 7 5 3 1\nA4\nNote: Award A3 for one error, A2 for two errors, A1 for three errors, A0 for\nfour or more errors.\n[4 marks]\n(b) any valid reason, for example R1\nnot a Latin square\n7 has no inverse\n[1 mark]\n(c) delete 7 (sothat G = {1, 3, 5, 9, 11, 13}) A1\nclosure – evident from the table A1\nassociative because multiplication is associative A1\nthe identity is 1 A1\n13 is self-inverse, 3 and 5 form an inverse\npair and 9 and 11 form an inverse pair A1\nthe four conditions are satisfied so that {, G× } is a group AG\n14\n[5 marks]\n(d)\nElement Order\n1 1\n3 6\n5 6\n9 3\n11 3\n13 2\nA4\nNote: Award A3 for one error, A2 for two errors, A1 for three errors,\nA0 for four or more errors.\n[4 marks]\n(e) {1}\n{1, 13} {1, 9, 11} A1A1\n[2 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.4",
+    "7.6",
+    "7.8",
+    "7.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 16]\nConsider the set $S=\\{1, 3, 5, 7, 9, 11, 13\\}$ under the binary operation multiplication modulo 14 denoted by $\\times_{14}$.\n(a) Copy and complete the following Cayley table for this binary operation. [4 marks]\n[Table: Cayley table, rows/columns 1, 3, 5, 7, 9, 11, 13; given entries:]\n$\\times_{14}$ | 1 | 3 | 5 | 7 | 9 | 11 | 13\n1 | 1 | 3 | 5 | 7 | 9 | 11 | 13\n3 | 3 | | | | 13 | 5 | 11\n5 | 5 | | | | 3 | 13 | 9\n7 | 7 | | | | | |\n9 | 9 | 13 | 3 | | | |\n11 | 11 | 5 | 13 | | | |\n13 | 13 | 11 | 9 | | | |\n(b) Give one reason why $\\{S, \\times_{14}\\}$ is not a group. [1 mark]\n(c) Show that a new set $G$ can be formed by removing one of the elements of $S$ such that $\\{G, \\times_{14}\\}$ is a group. [5 marks]\n(d) Determine the order of each element of $\\{G, \\times_{14}\\}$. [4 marks]\n(e) Find the proper subgroups of $\\{G, \\times_{14}\\}$. [2 marks]"
+  },
+  {
+   "id": "math-2013-M-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 13]\nThe function f: � → is defined by �\n2 x + 1 for x ≤ 2\nfx () =\n2 x − 2 x + 5 for x > 2 .\n(a) (i) Sketch the graph of f .\n(ii) By referring to your graph, show that f is a bijection. [5 marks]\n[8 marks] (b) Find f −1(). x",
+   "ms_text": "3. (a) (i)\nA1A1\nNote: Award A1 for each part of the piecewise function. Award A1A0 if\nthe two parts of the graph are of the correct shape but f is not\ncontinuous at x = 2 . Do not penalise a discontinuity in the\nderivative at x = 2 .\n(ii) demonstrating the need to show that f is both an injection and a\nsurjection (seen anywhere) (R1)\nf is an injection by any valid reason eg horizontal line test, strictly\nincreasing function R1\nthe range of f is ϒ so that f is a surjection R1\nf is therefore a bijection AG\n[5 marks]\n(b) considering the linear section, put\ny = 2 x + or 1 x = 2 y + 1 (M1)\ny − 1 x − 1\nx = or y = A1\n2 2\n− − x 1\nso f 1 () x = , x ≤ 5 A1\n2\nEITHER\n2 y = ( x − 1) + 4 M1A1\n2 ( x − 1) = y − 4\nx =± 1 y − 4 A1\n=+ − x 1 y 4\ntaking the + sign to give the right hand half of the parabola R1\nso f − 1() x =+ 1 x − 4, x > 5 A1\nOR\nconsidering the quadratic section, put\n2 y = x − 2 x + 5\nx 2 − 2 x +− 5 y = 0 M1\n2 ± 4 − 4(5 − y )\nx = ( =± 1 y − 4 ) M1A1\n2\ntaking the + sign to give the right hand half of the parabola R1\n2 + 4 − 4(5 − x ) −\n1 − 1 so f () x = , x > 5 ( f () x =+ 1 x − 4, x > 5) A1\n2\n− Note: Award A0 for omission of f 1() x or omission of the domain. Penalise\nf − 1() x the omission of the notation only once. The domain must be seen\nin both cases.\n[8 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "2"
+   ],
+   "subtopics": [
+    "7.3",
+    "2.5",
+    "2.14",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 13]\nThe function $f:\\mathbb{R}\\to\\mathbb{R}$ is defined by\n$f(x)=\\begin{cases}2x+1 & \\text{for } x\\le 2\\\\ x^2-2x+5 & \\text{for } x>2.\\end{cases}$\n(a) (i) Sketch the graph of $f$.\n(ii) By referring to your graph, show that $f$ is a bijection. [5 marks]\n(b) Find $f^{-1}(x)$. [8 marks]",
+   "review_note": "audit: bijection+inverse: 7.3 primary as on 2010-M q1, 2009-N q2"
+  },
+  {
+   "id": "math-2013-M-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 13]\nThe relation R is defined on {, 123456789101112 by ab ,, , , , ,, , , , } R if and only\nif aa ( + 1 ) ≡ bb ( + 1 )(mod) 5.\n(a) Show that R is an equivalence relation. [6 marks]\n(b) Show that the equivalence defining R can be written in the form\n( a − b )( a + b + 1 ) ≡ 0 (mod) 5. [3 marks]\n(c) Hence, or otherwise, determine the equivalence classes. [4 marks]",
+   "ms_text": "4. (a) reflexive: ( aa + 1) ≡ aa ( + 1)(mod5) , therefore aRa R1\nsymmetric: aRb ⇒ aa ( + 1) = bb ( + 1) + 5 N M1\n⇒ + = + − ⇒ bb ( 1) aa ( 1) 5 N bRa A1\ntransitive:\nEITHER\naRb and bRc ⇒ aa ( + 1) = bb ( + 1) + 5 M and ( bb + 1) = cc ( + 1) + 5 N M1\nit follows that ( aa + 1) = cc ( + 1) + 5( M + N ) ⇒ aRc M1A1\nOR\naRb and bRc ⇒ aa ( + 1) ≡ bb ( + 1)(mod5) and\nbb ( + 1) ≡ cc ( + 1)(mod5) . M1\n+ − + ≡ + − + ≡ aa ( 1) bb ( 1) 0(mod5); ( bb 1) cc ( 1) 0(mod5) M1\naa ( + 1) − cc ( + 1) ≡ 0mod5 ⇒ aa ( + 1) ≡ cc ( + 1)mod5 ⇒ aRc A1\n[6 marks]\n(b) the equivalence can be written as\n2 + − 2 − ≡ a a b b 0(mod5) M1\n( a − b )( a + b ) + a − b ≡ 0(mod5) M1A1\n( a − b )( a + b + 1) ≡ 0(mod5) AG\n[3 marks]\n(c) the equivalence classes are\n{1, 3, 6, 8, 11}\n{2, 7, 12}\n{4, 5, 9, 10} A4\nNote: Award A3 for 2 correct classes, A2 for 1 correct class.\n[4 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "6"
+   ],
+   "subtopics": [
+    "7.2",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 13]\nThe relation $R$ is defined on $\\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\\}$ by $aRb$ if and only if $a(a+1)\\equiv b(b+1)\\pmod 5$.\n(a) Show that $R$ is an equivalence relation. [6 marks]\n(b) Show that the equivalence defining $R$ can be written in the form\n$(a-b)(a+b+1)\\equiv 0\\pmod 5$. [3 marks]\n(c) Hence, or otherwise, determine the equivalence classes. [4 marks]"
+  },
+  {
+   "id": "math-2013-M-P3-sets-relations-and-groups-q5",
+   "num": "5",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 8]\nH and K are subgroups of a group G . By considering the four group axioms, prove\nthat H ∩ K is also a subgroup of G .",
+   "ms_text": "5. closure: let , ab ∈ H ∩ K , so that , ab ∈ H and, ab ∈ K M1\ntherefore ab ∈ H and ab ∈ K so that ab ∈ H ∩ K A1\nassociativity: this carries over from G R1\nidentity: the identity e ∈ H ande ∈ K M1\n∈ ∩ thereforee H K A1\ninverse:\na ∈ H ∩ K implies a ∈ H anda ∈ K M1\n1 1 it follows that a −∈ H and a −∈ K A1\nand therefore that a −∈ 1 H ∩ K A1\nthe four group axioms are therefore satisfied AG\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.8",
+    "7.5",
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 8]\n$H$ and $K$ are subgroups of a group $G$. By considering the four group axioms, prove that $H\\cap K$ is also a subgroup of $G$."
+  }
+ ],
+ "status": "done"
+}

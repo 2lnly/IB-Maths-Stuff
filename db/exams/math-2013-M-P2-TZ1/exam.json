@@ -1,0 +1,314 @@
+{
+ "exam_id": "math-2013-M-P2-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2013,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2013 May Examination Session/Mathematics_paper_2_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2013 May Examination Session/Mathematics_paper_2_TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); code M13/5/MATHL/HP2/ENG/TZ1/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2013-M-P2-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nThe marks obtained by a group of students in a class test are shown below.\nMarks Frequency\n5 6\n6 k\n7 3\n8 1\n9 2\n10 1\nGiven the mean of the marks is 6.5, find the value of k .",
+   "ms_text": "56 ×+ 6 k + 7 ×+×+ 3 81 9 × 2 + 101 ×=\n1. 6.5 (or equivalent) (M1)(A1)(A1)\n13 + k\nNote: Award(M1)(A1)for correct numerator, and(A1)for correct denominator.\n0.5 k = 2.5 ⇒ k = 5 A1\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nThe marks obtained by a group of students in a class test are shown below.\nMarks | Frequency\n5 | 6\n6 | $k$\n7 | 3\n8 | 1\n9 | 2\n10 | 1\nGiven the mean of the marks is 6.5, find the value of $k$."
+  },
+  {
+   "id": "math-2013-M-P2-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nFind the value of k such that the following system of equations does not have a\nunique solution.\nkx + y + 2 z = 4\n− y + 4 z = 5\n3 x + 4 y + 2 z = 1",
+   "ms_text": "2. METHOD 1\ndeterminant = 0 M1\nk (2 −− 16) − (012) − + 2(0 + 3) = 0 (M1)(A1)\n− 18 k + 18 = 0 (A1)\nk = 1 A1\nMETHOD 2\nwrites in the form\nk 1 2 4\n0 − 1 4 5 (or attempts to solve simultaneous equations) (M1)\n3 4 2 1\nHaving two 0’s in first column (obtaining two equations in the same two variables) M1\nk 1 2 4\n− 0 1 4 5 (or isolating one variable) A1\n0 0 18 k − 18 21 k − 27\nk − . The final column may not be seen. Note: The A1 is to be awarded for the 18 18\nk = 1 (M1)A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nFind the value of $k$ such that the following system of equations does not have a unique solution.\n$kx + y + 2z = 4$\n$-y + 4z = 5$\n$3x + 4y + 2z = 1$"
+  },
+  {
+   "id": "math-2013-M-P2-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nEmily walks to school every day. The length of time this takes can be modelled by a\nnormal distribution with a mean of 11 minutes and a standard deviation of 3 minutes.\nShe is late if her journey takes more than 15 minutes.\n(a) Find the probability she is late next Monday. [2 marks]\n(b) Find the probability she is late at least once during the next week (Monday\nto Friday). [3 marks]",
+   "ms_text": "3. Let X represent the length of time a journey takes on a particular day.\n(a) PX ( > 15) = 0.0912112819 …= 0.0912 (M1)A1\n(b) Use of correct Binomial distribution (M1)\nN ~ B (5,0.091...)\n10.0912112819 − …= 0.9087887181 …\n5 1(0.9087887181 − … ) = 0.380109935 …= 0.380 (M1)A1\nNote: Allow answers to be given as percentages.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nEmily walks to school every day. The length of time this takes can be modelled by a normal distribution with a mean of 11 minutes and a standard deviation of 3 minutes. She is late if her journey takes more than 15 minutes.\n(a) Find the probability she is late next Monday. [2 marks]\n(b) Find the probability she is late at least once during the next week (Monday to Friday). [3 marks]"
+  },
+  {
+   "id": "math-2013-M-P2-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nLet f (x) x sin( 1) , 0 ≤ x ≤ π + 1 = −\n2\nFind the volume of the solid formed when the region bounded by y x = ƒ( ) , and the\nx = , 0 y = lines 0 and y = is rotated by 2π about the y-axis. 1",
+   "ms_text": "4. volume =π∫x 2d y (M1)\nx = arcsin y + 1 (M1)(A1)\n1\n=π + 2 volume ∫ 0(arcsin y 1)d y A1\nNote: A1 is for the limits, provided a correct integration of y.\n=2.608993…π= 8.20 A2 N5\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.17",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nLet $f(x) = \\sin(x-1)$, $0 \\le x \\le \\frac{\\pi}{2} + 1$.\nFind the volume of the solid formed when the region bounded by $y = f(x)$, and the lines $x = 0$, $y = 0$ and $y = 1$ is rotated by $2\\pi$ about the $y$-axis."
+  },
+  {
+   "id": "math-2013-M-P2-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nA rectangle is drawn around a sector of a circle as shown. If the angle of the sector\n2 is 1 radian and the area of the sector is 7cm, find the dimensions of the rectangle,\ngiving your answers to the nearest millimetre.\ndiagram not to scale",
+   "ms_text": "1 2\n5. r ×= 1 7 M1\n2\nr = …= ( ) 3.7 14 (or 37… mm) (A1)\nπ− 1 1\n= height 2cos r r (M1)(A1)\nor2sin 2\n2\n3.59 or anything that rounds to 3.6 A1\nso the dimensions are 3.7 by 3.6 (cm or 37 by 36 mm) A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nA rectangle is drawn around a sector of a circle as shown. If the angle of the sector is 1 radian and the area of the sector is $7\\text{ cm}^2$, find the dimensions of the rectangle, giving your answers to the nearest millimetre.\n[Diagram (not to scale): sector of a circle with its centre at the midpoint of the right side of a rectangle; the two radii go to the top-left and bottom-left corners and the arc touches the left side of the rectangle]"
+  },
+  {
+   "id": "math-2013-M-P2-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nA polynomial px with real coefficients is of degree five. The equation () px= () 0\ny = px has a complex root 2 +. The graph of i () has the x-axis as a tangent at (2, 0)\nand intersects the coordinate axes at (1, 0) − and (0, 4) .\nFind px in factorised form with real coefficients. ()",
+   "ms_text": "6. other root is2−i (A1)\na quadratic factor is therefore ( x − 2 + i )( x − 2 − i ) (M1)\n= x 2 − 4 x + 5 A1\nx + 1 is a factor A1\n( x − 2) 2 is a factor A1\n2 2 px () = ax ( + 1)( x − 2)( x − 4 x + 5) (M1)\n1\np (0) = 4 ⇒ a = A1\n5\n1\n= + − 2 2 − + px () ( x 1)( x 2)( x 4 x 5)\n5\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "1.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nA polynomial $p(x)$ with real coefficients is of degree five. The equation $p(x) = 0$ has a complex root $2 + \\mathrm{i}$. The graph of $y = p(x)$ has the $x$-axis as a tangent at $(2, 0)$ and intersects the coordinate axes at $(-1, 0)$ and $(0, 4)$.\nFind $p(x)$ in factorised form with real coefficients."
+  },
+  {
+   "id": "math-2013-M-P2-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nAn electricity station is on the edge of a straight coastline. A lighthouse is located in\nthe sea 200 m from the electricity station. The angle between the coastline and the\nline joining the lighthouse with the electricity station is 60°. A cable needs to be laid\nconnecting the lighthouse to the electricity station. It is decided to lay the cable in a\nstraight line to the coast and then along the coast to the electricity station. The length\nof cable laid along the coastline is x metres. This information is illustrated in the\ndiagram below.\nlighthouse\n200 m\nO 60\nx\nelectricity station\nThe cost of laying the cable along the sea bed is US$80 per metre, and the cost of\nlaying it on land is US$20 per metre.\n(a) Find, in terms of x , an expression for the cost of laying the cable. [4 marks]\n(b) Find the value of x , to the nearest metre, such that this cost is minimized. [2 marks]",
+   "ms_text": "7. (a) let the distance the cable is laid along the seabed be y\ny 2 = x 2 + 200 2 − 2 ×× x 200cos60 0 (M1)\n(or equivalent method)\n2 2 y = x − 200 x + 40000 (A1)\ncost = C = 80 y + 20 x (M1)\n1\n2 C = 80( x − 200 x + 40000) 2 + 20 x A1\n[4 marks]\n(b) x = 55.2786 = 55 (m to the nearest metre) (A1)A1 …\n( x = 100 − 2000 )\n[2 marks]\nTotal[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.2",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nAn electricity station is on the edge of a straight coastline. A lighthouse is located in the sea 200 m from the electricity station. The angle between the coastline and the line joining the lighthouse with the electricity station is $60^\\circ$. A cable needs to be laid connecting the lighthouse to the electricity station. It is decided to lay the cable in a straight line to the coast and then along the coast to the electricity station. The length of cable laid along the coastline is $x$ metres. This information is illustrated in the diagram below.\n[Diagram: straight coastline with the electricity station on it; line of length 200 m from the station to the lighthouse at $60^\\circ$ to the coastline; dashed cable from the lighthouse to a point on the coast a distance $x$ from the station]\nThe cost of laying the cable along the sea bed is US\\$80 per metre, and the cost of laying it on land is US\\$20 per metre.\n(a) Find, in terms of $x$, an expression for the cost of laying the cable. [4 marks]\n(b) Find the value of $x$, to the nearest metre, such that this cost is minimized. [2 marks]"
+  },
+  {
+   "id": "math-2013-M-P2-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nThree boys and three girls are to sit on a bench for a photograph.\n(a) Find the number of ways this can be done if the three girls must sit together. [3 marks]\n(b) Find the number of ways this can be done if the three girls must all sit apart. [4 marks]",
+   "ms_text": "8. (a) the three girls can sit together in 3! = 6 ways (A1)\nthis leaves 4 ‘objects’ to arrange so the number of ways this can be done is 4!(M1)\nso the number of arrangements is 64!144 × = A1\n[3 marks]\n(b) Finding more than one position that the girls can sit (M1)\nCounting exactly four positions (A1)\nnumber of ways = 4 × 3!3! × = 144 M1A1 N2\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nThree boys and three girls are to sit on a bench for a photograph.\n(a) Find the number of ways this can be done if the three girls must sit together. [3 marks]\n(b) Find the number of ways this can be done if the three girls must all sit apart. [4 marks]"
+  },
+  {
+   "id": "math-2013-M-P2-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\n2 (a) Prove that the equation 3 x + 2 kx + k −= 1 0 has two distinct real roots for all\n[4 marks] values of k ∈ϒ.\n(b) Find the value of k for which the two roots of the equation are closest together. [3 marks]",
+   "ms_text": "9. (a) Δ= b 2 − 4 ac = 4 k 2 −×× 43( k − 1) = 4 k 2 − 12 k + 12 M1A1\nNote: Award M1A1 if expression seen within quadratic formula.\nEITHER\n1444412 −×× < 0 M1\nΔ always positive, therefore the equation always has two distinct real roots R1\n(and cannot be always negative as a > 0 )\nOR\n2 2 sketch of y = 4 k − 12 k + 12 or y = k − 3 k + 3 not crossing the x-axis M1\nΔ always positive, therefore the equation always has two distinct real roots R1\nOR\n2 write Δas 4( k − 1.5) + 3 M1\nΔ always positive, therefore the equation always has two distinct real roots R1\n[4 marks]\n(b) closest together when Δ is least (M1)\nminimum value occurs when k = 1.5 (M1)A1\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.7",
+    "2.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\n(a) Prove that the equation $3x^2 + 2kx + k - 1 = 0$ has two distinct real roots for all values of $k \\in \\mathbb{R}$. [4 marks]\n(b) Find the value of $k$ for which the two roots of the equation are closest together. [3 marks]"
+  },
+  {
+   "id": "math-2013-M-P2-TZ1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 7]\nA ferry carries cars across a river. There is a fixed time of T minutes between crossings.\nThe arrival of cars at the crossing can be assumed to follow a Poisson distribution with\na mean of one car every four minutes. Let X denote the number of cars that arrive\nin T minutes.\n(a) Find T , to the nearest minute, if PX≤ ( 3) = 0.6 . [3 marks]\nIt is now decided that the time between crossings, T , will be 10 minutes. The ferry can\ncarry a maximum of three cars on each trip.\n(b) One day all the cars waiting at 13:00 get on the ferry. Find the probability that\nall the cars that arrive in the next 20 minutes will get on either the 13:10 or the\n13:20 ferry. [4 marks]",
+   "ms_text": ": 10. (a) X Po(0.25T) (A1)\nAttempt to solveP( X ≤ 3) = 0.6 (M1)\nT = 12.8453 …= 13 (minutes) A1\nNote: Award A1M1A0 if T found correctly but not stated to the nearest minute.\n[3 marks]\n(b) let X be the number of cars that arrive during the first interval and X\n1 2\nbe the number arriving during the second.\nX and X are Po(2.5) (A1)\n1 2\nP(all get on) = P( X ≤ 3) × P( X ≤ 3) + P( X = 4) × P( X ≤ 2)\n1 2 1 2\n+ P( X = 5) × P( X ≤ 1) + P( X = 6) × P( X = 0) (M1)\n1 2 1 2\n= …+ …+ …+ … 0.573922 0.072654 0.019192 0.002285 (M1)\n= 0.668 (053 … ) A1\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 7]\nA ferry carries cars across a river. There is a fixed time of $T$ minutes between crossings. The arrival of cars at the crossing can be assumed to follow a Poisson distribution with a mean of one car every four minutes. Let $X$ denote the number of cars that arrive in $T$ minutes.\n(a) Find $T$, to the nearest minute, if $P(X \\le 3) = 0.6$. [3 marks]\nIt is now decided that the time between crossings, $T$, will be 10 minutes. The ferry can carry a maximum of three cars on each trip.\n(b) One day all the cars waiting at 13:00 get on the ferry. Find the probability that all the cars that arrive in the next 20 minutes will get on either the 13:10 or the 13:20 ferry. [4 marks]"
+  },
+  {
+   "id": "math-2013-M-P2-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\nConsider the points P(3, − − 1, 2) and Q(5, 5, 6) .\n(a) Find a vector equation for the line, 1L, which passes through the points P and Q. [3 marks]\nThe line 2L has equation\n− 4 5\nr = 0 + s 2 .\n4 0\n(b) Show that 1L and 2L intersect at the point R (1,2,4) . [4 marks]\n(c) Find the acute angle between 1L and 2L. [3 marks]\n→ →\nLet S be a point on 2L such that RP = RS .\n(d) Show that one of the possible positions for S is S(4, 0, 4) − and find the\n1\ncoordinates of the other possible position, S. [6 marks]\n2\n(e) Find a vector equation of the line which passes through R and bisects ∝ PRS. [4 marks]\n1",
+   "ms_text": "8\n→\n11. (a) PQ = 6 (A1)\n4\n− 3 8\n=− + equation of line: r 1 t 6 (or equivalent) M1A1\n2 4\nNote: Award M1A0 if r= is omitted.\n[3 marks]\n(b) METHOD 1\nx : −+ 4 5 s =−+ 3 8 t\ny : 2 s =−+ 1 6 t\nz : 4 = 2 + 4t M1\nsolving any two simultaneously M1\nt = 0.5, s = 1 (or equivalent) A1\nverification that these values give R when substituted into both equations\n(or that the three equations are consistent and that one gives R) R1\nMETHOD 2\n= = (1, 2, 4)is given by t 0.5 for 1Land s 1 for 2L M1A1A1\nbecause (1, 2, 4) is on both lines it is the point of intersection of the\ntwo lines R1\n[4 marks]\n5 4\n= (c) 2 γ 3 26 = 29 × 29 cos θ M1\n0 2\n26\ncos θ= (A1)\n29\nθ= 0.459 or 26.3° A1\n[3 marks]\n− − 3 1 4\n→ →\n(d) RP =− 1 − 2 =− 3,RP = 29 (M1)A1\n2 4 − 2\n8\nNote: This could also be obtained from 0.56\n4\nEITHER\n− − 4 1 5\n→ →\nRS 1 = 0 − 2 =− 2, RS 1 = 29 A1\n4 4 0\n− 4 5\n→ → →\n∴ OS = OS + 2S R = 0 + 22 M1A1\n2 1 1\n4 0\n1 5\n→ → →\nor OS = ORS R + = 2 + 2\n2 1\n4 0\n6\n4 =\n4\nS is (6, 4, 4) A1\n2\nOR\n−+ − 4 5 s 1 5 s 5\n2 s − 2 = 2 s − 2 M1\n4 4 0\n(5 s − 5) 2 + (2 s − 2) 2 = 29 M1A1\n2 29 s − 58 s + 29 = 29\nss ( − 2) = 0 , s = 0, 2\n(6, 4, 4) (and (4, 0, 4) − ) A1\nNote: There are several geometrical arguments possible using information\nobtained in previous parts, depending on what forms the previous\nanswers had been given.\n[6 marks]\n(e) EITHER\nmidpoint of [ PS is M(3.5, ] − − 0.5, 3) M1A1\n1\n− 4.5\n→\n=− RM 2.5 A1\n− 1\nOR\n− 5\n→\nRS =− 2 M1\n1\n0\n→ →\nthe direction of the line is RS + RP\n1\n− 5 − 4 − 9\n− 2 +− 3 =− 5 M1A1\n0 − 2 − 2\nTHEN\nthe equation of the line is:\n1 9\nr = 2 + t 5 or equivalent A1\n4 2\nNote: Marks cannot be awarded for methods involving halving the\nangle, unless it is clear that the candidate considers also the\nequation of the plane of 1L and 2L to reduce the number of\nparameters involved to one (to obtain the vector equation of the\nrequired line).\n[4 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.15",
+    "3.12",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 20]\nConsider the points $\\mathrm{P}(-3, -1, 2)$ and $\\mathrm{Q}(5, 5, 6)$.\n(a) Find a vector equation for the line, $L_1$, which passes through the points P and Q. [3 marks]\nThe line $L_2$ has equation\n$\\boldsymbol{r} = \\begin{pmatrix}-4\\\\0\\\\4\\end{pmatrix} + s\\begin{pmatrix}5\\\\2\\\\0\\end{pmatrix}$.\n(b) Show that $L_1$ and $L_2$ intersect at the point $\\mathrm{R}(1, 2, 4)$. [4 marks]\n(c) Find the acute angle between $L_1$ and $L_2$. [3 marks]\nLet S be a point on $L_2$ such that $|\\vec{\\mathrm{RP}}| = |\\vec{\\mathrm{RS}}|$.\n(d) Show that one of the possible positions for S is $\\mathrm{S}_1(-4, 0, 4)$ and find the coordinates of the other possible position, $\\mathrm{S}_2$. [6 marks]\n(e) Find a vector equation of the line which passes through R and bisects $\\mathrm{P\\hat{R}S_1}$. [4 marks]"
+  },
+  {
+   "id": "math-2013-M-P2-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 21]\n1 A particle, A, is moving along a straight line. The velocity, v ms−, of A t seconds\nA\nafter its motion begins is given by\n3 2 v = t − 5 t + 6 t .\nA\n3 2 (a) Sketch the graph of v = t − 5 t + 6 t for t ≥ 0 , with v on the vertical\nA A\naxis and t on the horizontal. Show on your sketch the local maximum and\nminimum points, and the intercepts with the t-axis. [3 marks]\n(b) Write down the times for which the velocity of the particle is increasing. [2 marks]\n(c) Write down the times for which the magnitude of the velocity of the particle\nis increasing. [3 marks]\nAt t = 0 the particle is at point O on the line.\n(d) Find an expression for the particle’s displacement, xm, from O at time t. [3 marks]\nA\n− A second particle, B, moving along the same line, has position x m , velocity v ms 1\nB B\n2 and acceleration, a ms−, where a = − 2 v for t ≥ 0 . At t = 0 , x= 20 and v= − 20 .\nB B B B B\n(e) Find an expression for v in terms of t. [4 marks]\nB\n(f) Find the value of t when the two particles meet. [6 marks]",
+   "ms_text": "12. (a)\nA1A1A1\nNote: Award A1 for general shape, A1 for correct maximum and minimum,\nA1 for intercepts.\nNote: Follow through applies to (b) and (c).\n[3 marks]\n− 5 7\n(b) 0 ≤< t 0.785,or 0 ≤< t A1\n3\n(allow t < 0.785 )\n5 + 7\nand t > 2.55or t > A1\n3\n[2 marks]\n5 − 7\n(c) 0 ≤< t 0.785,or 0 ≤< t A1\n3\n(allow t < 0.785 )\n5 + 7\n2 << t 2.55,or 2 << t A1\n3\n> t 3 A1\n[3 marks]\n= 3 − 2 + (d) position of A: x ∫ t 5 t 6 d t t (M1)\nA\n1 5 4 3 2\nx = t − t + 3 t( +c ) A1\nA\n4 3\nwhen t = 0 , x = 0 so c = 0 R1\nA\n[3 marks]\nd v 1\n(e) B =− 2 v ⇒ ∫ d v = ∫ − 2d t (M1)\nB B\nd t v\nB\n=− + ln v 2 t c (A1)\nB\n− 2 t v = Ae (M1)\nB\n− 2 t v =− 20 when t = 0 so v =− 20 e A1\nB B\n[4 marks]\n− 2 t\n(f) x = 10 e ( + c ) (M1)(A1) B\n− x = 20 when t = 0 so x = 10 e 2 t + 10 (M1)A1\nB B\n1 5 4 3 2 − 2 t\nmeet when t − t + 3 t = 10 e + 10 (M1)\n4 3\nt = 4.41(290 … ) A1\n[6 marks]\nTotal: [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.18",
+    "5.2",
+    "2.3",
+    "5.10",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 21]\nA particle, A, is moving along a straight line. The velocity, $v_A\\text{ ms}^{-1}$, of A $t$ seconds after its motion begins is given by\n$v_A = t^3 - 5t^2 + 6t$.\n(a) Sketch the graph of $v_A = t^3 - 5t^2 + 6t$ for $t \\ge 0$, with $v_A$ on the vertical axis and $t$ on the horizontal. Show on your sketch the local maximum and minimum points, and the intercepts with the $t$-axis. [3 marks]\n(b) Write down the times for which the velocity of the particle is increasing. [2 marks]\n(c) Write down the times for which the magnitude of the velocity of the particle is increasing. [3 marks]\nAt $t = 0$ the particle is at point O on the line.\n(d) Find an expression for the particle's displacement, $x_A$ m, from O at time $t$. [3 marks]\nA second particle, B, moving along the same line, has position $x_B$ m, velocity $v_B\\text{ ms}^{-1}$ and acceleration, $a_B\\text{ ms}^{-2}$, where $a_B = -2v_B$ for $t \\ge 0$. At $t = 0$, $x_B = 20$ and $v_B = -20$.\n(e) Find an expression for $v_B$ in terms of $t$. [4 marks]\n(f) Find the value of $t$ when the two particles meet. [6 marks]"
+  },
+  {
+   "id": "math-2013-M-P2-TZ1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 19]\n1 The function f has inverse f− and derivative f ′ () x for all x∈ϒ. For all functions\nwith these properties you are given the result that for a∈ϒ with b = fa () and\n′ ≠ f () a 0\n1\nf −′ 1 b = ( ) () .\nf ′ () a\n3 (a) Verify that this is true for fx () = x + at 1 x = 2 . [6 marks]\n2\n(b) Given that gx () = x ex , show that g ′ () x > 0 for all values of x. [3 marks]\n(c) Using the result given at the start of the question, find the value of the gradient\n−\nfunction of y = g 1() x at x = 2 . [4 marks]\n(d) (i) With f and g as defined in parts (a) and (b), solve g ο fx= () 2 .\n− 1 (ii) Let hx () = ( g\nο f )() x . Find h′ (2) . [6 marks]",
+   "ms_text": "= 13. (a) f (2) 9 (A1)\n1\n− 1 3 f () x = ( x − 1) A1\n2 1 −\n1 ( f −′ ) () x = ( x − 1) 3 (M1)\n3\n1\n( f −′ 1 ) (9) = A1\n12\n2 f ′ () x = 3 x (M1)\n1 1 1\n= = A1\nf ′ (2) 34 × 12\nNote: The last M1 and A1 are independent of previous marks.\n[6 marks]\n2 2\n(b) gx ′ () = e x + 2 x 2 e x M1A1\ngx ′ () > 0 as each part is positive R1\n[3 marks]\n(c) to find the x-coordinate on y = gx solve ()\nx 2 2 = x e (M1)\nx = 0.89605022078… (A1)\n1\n−′ 1 = gradient = ( g ) (2) (M1)\n′ g (0.896 … )\n1\n= = 0.172 to 3sf A1\n2 (0.896 … ) ( 2 )\ne 1 + 2(0.896 × … )\ny (using the d\ng ′ (0.896 …= ) 5.7716028 …\nx function on gdc\nd\n1\n0.173 ) )=\ng ′ (0.896 …\n[4 marks]\n3 ( x 3 + 1) 2 (d) (i) ( x + 1)e = 2 A1\nx =− 0.470191 … A1\n(ii) METHOD 1\n2 ( x 3 + 1) 2 ( 3 2 ) ( g f ) () ′ x = 3 x e 2( x + 1) + 1 (M1)(A1)\n( g f )'(0.470191 − …= ) 3.85755 … (A1)\n1\nh ′ (2) = = 0.259 (232 … ) A1\n3.85755 …\nNote: The solution can be found without the student obtaining\nthe explicit form of the composite function.\nMETHOD 2\n− 1 − 1 hx () = ( f g )() x A1\n− 1 ′ ( − 1 ) − 1 ′ hx ′ () = ( f ) g () x × ( g ) () x M1\n2 1 −\n= ( − 1 − ) 3 × −′ 1 g ()1 x ( g ) () x M1\n3\n1 − 2 − 1\n−′ 1 h ′ (2) = ( g (2)1 − ) 3 × ( g ) (2)\n3\n2 −\n1(0.89605 3 = …− 1) × 0.171933 …\n3\n= 0.259 (232 … ) A1 N4\n[6 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.6",
+    "2.5",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 19]\nThe function $f$ has inverse $f^{-1}$ and derivative $f'(x)$ for all $x \\in \\mathbb{R}$. For all functions with these properties you are given the result that for $a \\in \\mathbb{R}$ with $b = f(a)$ and $f'(a) \\ne 0$\n$(f^{-1})'(b) = \\frac{1}{f'(a)}$.\n(a) Verify that this is true for $f(x) = x^3 + 1$ at $x = 2$. [6 marks]\n(b) Given that $g(x) = x\\mathrm{e}^{x^2}$, show that $g'(x) > 0$ for all values of $x$. [3 marks]\n(c) Using the result given at the start of the question, find the value of the gradient function of $y = g^{-1}(x)$ at $x = 2$. [4 marks]\n(d) (i) With $f$ and $g$ as defined in parts (a) and (b), solve $g \\circ f(x) = 2$.\n(ii) Let $h(x) = (g \\circ f)^{-1}(x)$. Find $h'(2)$. [6 marks]"
+  }
+ ],
+ "status": "done"
+}

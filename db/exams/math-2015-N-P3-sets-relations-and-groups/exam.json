@@ -1,0 +1,129 @@
+{
+ "exam_id": "math-2015-N-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2015,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2015 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2015 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL_markscheme.pdf",
+ "notes": "5 duplicate copies (5 byte-identical size); paper number 8815-7209; code N15/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2015-N-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nGiven the sets A and B , use the properties of sets to prove that A ∪(B' ∪ A)'=A ∪ B ,\njustifying each step of the proof.",
+   "ms_text": "1. A ∪ ( B ′ ∪ A ) ′ = A ∪ ( B ∩ A ′ ) De Morgan M1A1\n= ( A ∪ B ) ∩ ( A ∪ A′ ) Distributive property M1A1\n= ( A ∪ B ) ∩ U (Union of set and its complement) A1\nA B (Intersection with the universal set) AG = ∪\nNote:Accept double inclusion proofs: M1A1 for each inclusion, final A1 for conclusion of\nequality of sets.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nGiven the sets $A$ and $B$, use the properties of sets to prove that $A \\cup (B' \\cup A)' = A \\cup B$, justifying each step of the proof."
+  },
+  {
+   "id": "math-2015-N-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 14]\n, x ≥ 0\nThe function f: ϒ→ϒ is defined as f : x →1 .\n− 1 , x < 0\n(a) Prove that f is\n(i) not injective;\n(ii) not surjective. [4]\nThe relation R is defined for a , b ∈ϒ so that aRb if and only if f (a) × f (b) = 1 .\nShow that R is an equivalence relation. (b) [8]\n(c) State the equivalence classes of R . [2]",
+   "ms_text": "2. (a) (i) eg f (2) = f (3) M1\nfa () fb () ⇒ a b hence = = R1\nso not injective AG\n(ii) eg Codomain is ϒ and range is { − 1, 1 } M1\nthese not the same so not surjective R1AG\nNote:if counter example is given it must be stated it is not in the range to obtain the\nR1. Eg fx= () 2 has no solution as fx () ∈− { 1, 1 } ∀ x .\n[4 marks]\n(b) if a≥ 0 then fa () × fa () = 1 × 1 = 1 A1\nif a< 0 then fa () × fa () =−× −= 1 1 1 A1\nin either case aRa so R is reflexive R1\naRb ⇒ fa () fb () 1 ⇒ fb () fa () 1 ⇒ bRa × = × = A1\nso R is symmetric R1\nif aRb then either a≥ 0 and b ≥ 0 or a< 0 and b < 0\nif a≥ 0 and b ≥ 0 and bRc then c ≥ 0 so fa () × fc () = 1 × 1 = 1 and aRcA1\nif a< 0 and b < 0 and bRc then c < 0 so fa () × fc () =−× −= 1 1 1 and aRc A1\nin either case aRb and bRc ⇒ aRc so R is transitive R1\nNote:Accept\nfa () × fb () × fb () × fc () = 1 × 1 = 1 ⇒ fa () × 1 × fc () = 1 ⇒ fa () × fc () = 1\nNote: for each property just award R1 if at least one of the A marks is awarded.\nas R is reflexive, symmetric and transitive it is an equivalence relation AG\n[8 marks]\n(c) equivalence classes are [ 0, ∞ and ] [ −∞ ,0 [ A1A1\n[2 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2",
+    "7.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 14]\nThe function $f: \\mathbb{R} \\to \\mathbb{R}$ is defined as $f: x \\to \\begin{cases} 1, & x \\ge 0 \\\\ -1, & x < 0 \\end{cases}$.\n(a) Prove that $f$ is\n(i) not injective;\n(ii) not surjective. [4]\nThe relation $R$ is defined for $a, b \\in \\mathbb{R}$ so that $aRb$ if and only if $f(a) \\times f(b) = 1$.\n(b) Show that $R$ is an equivalence relation. [8]\n(c) State the equivalence classes of $R$. [2]"
+  },
+  {
+   "id": "math-2015-N-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 10]\nThe set of all permutations of the elements 1 , 2 , …10 is denoted by H and the binary\noperation ο represents the composition of permutations.\nThe permutation p =(1 2 3 4 5 6) (7 8 9 10) generates the subgroup {G , ο} of the\ngroup {H , ο} .\n(a) Find the order of {G , ο} . [2]\n(b) State the identity element in {G , ο} . [1]\n(c) Find\n(i) p οp ;\n(ii) the inverse of p οp . [4]\n(d) (i) Find the maximum possible order of an element in {H , ο} .\n(ii) Give an example of an element with this order. [3]",
+   "ms_text": "3. (a) the order of ( Gοis lcm(6, 4) ,) (M1)\n= 12 A1\n[2 marks]\n(b) (1)(2)(3)(4)(5)(6)(7)(8)(9)(10) A1\nNote:Accept ( ) or a word description.\n[1 mark]\n(c) (i) pp= ο (135)(2 4 6)(7 9)(810) (M1)A1\n(ii) its inverse = (153)(2 6 4)(7 9)(810) A1A1\nNote:Award A1 for cycles of 2, A1 for cycles of 3.\n[4 marks]\n(d) (i) considering LCM of length of cycles with length 2, 3 and 5 (M1)\n30 A1\n(ii) eg(1 2)(3 45)(6 7 8 9 10) A1\nNote: allow FT as long as the length of cycles adds to 10 and their LCM is\nconsistent with answer to part (i).\nNote:Accept alternative notation for each part\n[3 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.7",
+    "7.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 10]\nThe set of all permutations of the elements $1, 2, \\ldots 10$ is denoted by $H$ and the binary operation $\\circ$ represents the composition of permutations.\nThe permutation $p = (1\\,2\\,3\\,4\\,5\\,6)(7\\,8\\,9\\,10)$ generates the subgroup $\\{G, \\circ\\}$ of the group $\\{H, \\circ\\}$.\n(a) Find the order of $\\{G, \\circ\\}$. [2]\n(b) State the identity element in $\\{G, \\circ\\}$. [1]\n(c) Find\n(i) $p \\circ p$;\n(ii) the inverse of $p \\circ p$. [4]\n(d) (i) Find the maximum possible order of an element in $\\{H, \\circ\\}$.\n(ii) Give an example of an element with this order. [3]"
+  },
+  {
+   "id": "math-2015-N-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 18,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 18]\nThe binary operation ∗ is defined on the set T ={0 , 2 , 3 , 4 , 5 , 6} by\na ∗ b =(a + b − ab)(mod 7) , a , b ∈ T .\n(a) Copy and complete the following Cayley table for {T , ∗} . [4]\n∗ 0 2 3 4 5 6\n0 0 2 3 4 5 6\n2 2 0 6 5 4 3\n3 3 6\n4 4 5\n5 5 4\n6 6 3\n(b) Prove that {T , ∗} forms an Abelian group. [7]\n(c) Find the order of each element in T . [4]\n(d) Given that {H , ∗} is the subgroup of {T , ∗} of order 2, partition T into the left cosets\nwith respect to H . [3]",
+   "ms_text": "4. (a) Cayley table is\n0 2 3 4 5 6 ∗\n0 0 2 3 4 5 6\n2 2 0 6 5 4 3\n3 3 6 4 2 0 5\n4 4 5 2 6 3 0\n5 5 4 0 3 6 2\n6 6 3 5 0 2 4\nA4\naward A4 for all 16 correct, A3 for up to 2 errors, A2 for up to 4 errors,\nA1 for up to 6 errors\n[4 marks]\n(b) closed as no other element appears in the Cayley table A1\nsymmetrical about the leading diagonal so commutative R1\nhence it is Abelian\n0 is the identity\nas *0( x = 0*) x = x + 0 − 0 = x A1\n0 and 2 are self inverse, 3 and 5 is an inverse pair, 4 and 6 is an inverse pair A1\nNote:Accept “Every row and every column has a 0 so each element has an inverse”.\n( ab ∗ ) ∗ c = ( a + b − ab ) ∗ c = a + b − ab + c − ( a + b − abc ) M1\n= a + b + c − ab − ac − bc + abc A1\na ∗ ( bc ∗ ) = a ∗ ( b + c − bc ) = a + b + c − bc − ab ( + c − bc ) A1\n= a + b + c − ab − ac − bc + abc\nso ( ab ∗ ) ∗ c = a ∗ ( bc ∗ ) and ∗ is associative\nNote:Inclusion of mod 7 may be included at any stage.\n[7 marks]\n(c) 0 has order 1 and 2 has order 2 A1\n23 = 4 , 33 = 2 , 43 = 6 , 53 = 5 , 63 = 0 so 3 has order 6 A1\n2 4\n= 6 , 34 = 0 so 4 has order 3 A1\n5 has order 6 and 6 has order 3 A1\n[4 marks]\n(d) H= { 0,2 } A1\n0*0,2 { } = { 0,2 } , 2*0,2 { } = { 2, 0 } , 3*0,2 { } = { 3, 6 } , 4*0,2 { } = { 4, 5 } ,\n5*0,2 { } = { 5,4 } , 6*0,2 { } = { 6, 3 } M1\nNote:Award the M1 if sufficient examples are used to find at least two of the cosets.\nso the left cosets are { 0,2, { } 3, 6, { } 4, 5 } A1\n[3 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.4",
+    "7.6",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 18]\nThe binary operation $*$ is defined on the set $T = \\{0, 2, 3, 4, 5, 6\\}$ by $a * b = (a + b - ab) \\pmod 7$, $a, b \\in T$.\n(a) Copy and complete the following Cayley table for $\\{T, *\\}$. [4]\n[Table: Cayley table, partially filled]\n* | 0 | 2 | 3 | 4 | 5 | 6\n0 | 0 | 2 | 3 | 4 | 5 | 6\n2 | 2 | 0 | 6 | 5 | 4 | 3\n3 | 3 | 6 | | | |\n4 | 4 | 5 | | | |\n5 | 5 | 4 | | | |\n6 | 6 | 3 | | | |\n(b) Prove that $\\{T, *\\}$ forms an Abelian group. [7]\n(c) Find the order of each element in $T$. [4]\n(d) Given that $\\{H, *\\}$ is the subgroup of $\\{T, *\\}$ of order 2, partition $T$ into the left cosets with respect to $H$. [3]"
+  },
+  {
+   "id": "math-2015-N-P3-sets-relations-and-groups-q5",
+   "num": "5",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 13]\nA group {D , ×3} is defined so that D ={1 , 2} and ×3 is multiplication modulo 3.\n, x is even\nA function f : ′→D is defined as f : x α1\n.\n2 , x is odd\n(a) Prove that the function f is a homomorphism from the group {′ , +} to {D , ×3} . [6]\n(b) Find the kernel of f . [3]\n(c) Prove that {Ker ( f ) , +} is a subgroup of {′ , +} . [4]",
+   "ms_text": "5. (a) consider the cases, a and b both even, one is even and one is odd and\naand b are both odd (M1)\ncalculating fa ( + b ) and fa () × fb () in at least one case M1\n3\nif a is even and b is even, then a + b is even\nso fa ( + b ) = 1 . fa () × fb () = 1 × 1 = 1 A1\n3 3\nso fa ( + b ) = fa () × fb ()\n3\nif one is even and the other is odd, then a + b is odd\nso fa ( + b ) = 2 . fa () × fb () = 1 × 2 = 2 A1\n3 3\nfa ( b ) fa () fb () so + = ×\n3\nif a is odd and b is odd, then a + b is even\nfa ( b ) 1 fa () × fb () = 2 × 2 = 1 so + = . A1\n3 3\nso fa ( + b ) = fa () × fb ()\n3\nas fa ( + b ) = fa () × fb () in all cases, so f : ′ → D is a\n3\nhomomorphism R1AG\n[6 marks]\n(b) 1 is the identity of { D× , } (M1)(A1)\n3\nso Ker () f is all even numbers A1\n[3 marks]\n(c) METHOD 1\nsum of any two even numbers is even so closure applies A1\nassociative as it is a subset of {′,+} A1\nidentity is , which is in the kernel 0 A1\nthe inverse of any even number is also even A1\nMETHOD 2\nKer(f)≠∅\n1\n− ∈ Ker( f ) for any b b\n−1\nab∈ Ker(f) for any a and b\nNote: Allow a general proof that the Kernel is always a subgroup.\n[4 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.9",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 13]\nA group $\\{D, \\times_3\\}$ is defined so that $D = \\{1, 2\\}$ and $\\times_3$ is multiplication modulo 3.\nA function $f: \\mathbb{Z} \\to D$ is defined as $f: x \\mapsto \\begin{cases} 1, & x \\text{ is even} \\\\ 2, & x \\text{ is odd} \\end{cases}$.\n(a) Prove that the function $f$ is a homomorphism from the group $\\{\\mathbb{Z}, +\\}$ to $\\{D, \\times_3\\}$. [6]\n(b) Find the kernel of $f$. [3]\n(c) Prove that $\\{\\mathrm{Ker}(f), +\\}$ is a subgroup of $\\{\\mathbb{Z}, +\\}$. [4]"
+  }
+ ],
+ "status": "done"
+}

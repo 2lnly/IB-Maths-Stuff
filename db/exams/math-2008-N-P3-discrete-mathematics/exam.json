@@ -1,0 +1,114 @@
+{
+ "exam_id": "math-2008-N-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2008,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2008 November Examination Session/Mathematics_paper_3_Discrete_mathematics_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2008 November Examination Session/Mathematics_paper_3_Discrete_mathematics_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8808-7203; code N08/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches expected total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2008-N-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 19]\n(a) Convert the decimal number 51966 to base 16. [4 marks]\n(b) (i) Using the Euclidean algorithm, find the greatest common divisor, d ,\nof 901 and 612.\n(ii) Find integers p and q such that 901 p + 612 q = d .\n(iii) Find the least possible positive integers s and t such that 901 s − 612 t = 85 . [10 marks]\n(c) In each of the following cases find the solutions, if any, of the given linear\ncongruence.\n(i) 9 x ≡(mod18) 3\n(ii) 9 x ≡(mod15) 3 [5 marks]",
+   "ms_text": "1. (a) the relevant powers of 16 are 16, 256 and 4096\nthen\n51 966 = 12 × 4096 remainder 2814 M1A1\n2814 = 10 × 256 remainder 254\n254 = 1516 remainder 14 × A1\nthe hexadecimal number is CAFE A1\nNote: CAFE is produced using a standard notation, accept explained alternative notations.\n[4 marks]\n(b) (i) using the Euclidean Algorithm (M1)\n= + 901 612 289 (A1)\n612 = 2 × 289 + 34\n289 =× 834 + 17\ngcd(901, 612) = 17 A1\n(ii) working backwards (M1)\n17 = 289 −× 834\n= 289 −× 8(612 − 2 × 289)\n= 17 × (901 − 612) −× 8612\n= 17 × 901 − 25612 ×\n= = − so p 17, q 2 5 A1A1\n(iii) a particular solution is\ns = 5 p = 85, t = − 5 q = 125 (A1)\nthe general solution is\ns = 85 + 36, λ t = 125 + 53 λ M1A1\nby inspection the solution satisfying all conditions is\nλ = − = = ( 2), s 13, t 1 9 A1\n[10 marks]\n(c) (i) the congruence is equivalent to 9 x = 318 + λ (A1)\nthis has no solutions as 9 does not divide the RHS R1\n(ii) the congruence is equivalent to 3 x =+ 1 5,3 λ ( x ≡ 1(mod5) ) A1\none solution is x = 2 , so the general solution is x = 2 + 5 n ( x ≡ 2(mod5) ) M1A1\n[5 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1",
+    "6.4",
+    "6.2",
+    "6.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 19]\n(a) Convert the decimal number $51966$ to base 16. [4 marks]\n(b) (i) Using the Euclidean algorithm, find the greatest common divisor, $d$, of 901 and 612.\n(ii) Find integers $p$ and $q$ such that $901p + 612q = d$.\n(iii) Find the least possible positive integers $s$ and $t$ such that $901s - 612t = 85$. [10 marks]\n(c) In each of the following cases find the solutions, if any, of the given linear congruence.\n(i) $9x \\equiv 3 \\pmod{18}$\n(ii) $9x \\equiv 3 \\pmod{15}$ [5 marks]"
+  },
+  {
+   "id": "math-2008-N-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 12]\n(a) Use Kruskal’s algorithm to find the minimum spanning tree for the following\nweighted graph and state its length. [5 marks]\nA 20 B\n8 5 6 11\n9 D 4\nE C\n7 12 17\n16 13\nF 12 G\n(b) Use Dijkstra’s algorithm to find the shortest path from A to D in the following\nweighted graph and state its length. [7 marks]\nB\n11 13\nA C\n14 1\n9 2 3\nF 15 E 3 D",
+   "ms_text": "2. (a) Kruskal’s algorithm gives the following edges\nCD (4) M1A1\nAD (5)\nEF (7) A1\nEA (8)\nBC (11)\nFG (12) A1 N0\nlength of the spanning tree is 47 A1\n[5 marks]\n(b) for Dijkstra’s algorithm there are three things associated with a node:\norder; distance from the initial node as a permanent or temporary node M1\nA4\nNote: Deduct A1for each error or omission.\nthe shortest path is AFBCD A1\nthe length is 26 A1 N0\n[7 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "2. [Maximum mark: 12]\n(a) Use Kruskal's algorithm to find the minimum spanning tree for the following weighted graph and state its length. [5 marks]\n[Diagram: weighted graph on vertices A, B, C, D, E, F, G with edges AB 20, AE 8, AD 5, AC 6, BC 11, ED 9, DC 4, EF 7, DF 12, FC 16, DG 13, CG 17, FG 12]\n(b) Use Dijkstra's algorithm to find the shortest path from A to D in the following weighted graph and state its length. [7 marks]\n[Diagram: weighted graph on vertices A, B, C, D, E, F with edges AB 11, AF 9, BF 1, BE 14, BC 13, CE 2, CD 3, FE 15, ED 3]"
+  },
+  {
+   "id": "math-2008-N-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 12]\n(a) [4 marks] Write 457128 as a product of primes.\nn 2\n(b) Numbers of the form F = 2 + 1 , n ∈ ∞ are called Fermat numbers.\nn\nFind the smallest value of n for which the corresponding Fermat number has\nmore than a million digits. [4 marks]\n11 11 (c) Prove that 225 + 17 . [4 marks]",
+   "ms_text": "3. (a) 457128 = 2 × 228 564\n228 564 = 2114 282 ×\n114 282 = 257141 ×\n57 141 =× 319 047\n19 04 7 =× 36349\n6349 = 7907 × M1A1\ntrial division by 11, 13, 17, 19, 23 and 29 shows that 907 is prime R1\n3 2 therefore 457128 = 2 × 3 ×× 7 907 A1\n[4 marks]\n6 2 10\n(b) we require the least integer such that 2 n≥ 10\ntaking logs twice gives M1M1\nn 6 2ln 2 ≥ 10ln10\n6 ⎛ 10ln10 ⎞\n≥ n ln 2 ln ⎜ ⎟\n⎝ ln 2 ⎠\n= 6ln10 + lnln10 − lnln 2\nn ≥ 21.7 (A1)\nleast n is 22 A1\n[4 marks]\n(c) by a corollary to Fermat’s Last Theorem\n5 11 ≡ 5(mod11) and 17 11 ≡ 17(mod11) M1A1\n11 11 5 + 17 ≡ 5 + 17 ≡ 0(mod11) A1\n11 11 this combined with the evenness of LHS implies 255 + 17 R1AG\n[4 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.1",
+    "6.5",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 12]\n(a) Write $457128$ as a product of primes. [4 marks]\n(b) Numbers of the form $F_n = 2^{2^n} + 1$, $n \\in \\mathbb{N}$ are called Fermat numbers.\nFind the smallest value of $n$ for which the corresponding Fermat number has more than a million digits. [4 marks]\n(c) Prove that $22 \\mid 5^{11} + 17^{11}$. [4 marks]",
+   "review_note": "Markscheme typos: (c) final line reads '25 | 5^11+17^11' (should be 22) and cites 'Fermat's Last Theorem' (means Fermat's little theorem)."
+  },
+  {
+   "id": "math-2008-N-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 17]\n(a) Aconnected planar graph G has e edges and v vertices.\n(i) Prove that e ≥ v −1.\n(ii) Prove that e = v −1 if and only if G is a tree. [4 marks]\n(b) A tree has k vertices of degree 1, two of degree 2, one of degree 3 and one of\ndegree 4. Determine k and hence draw a tree that satisfies these conditions. [6 marks]\n(c) The graph H has the adjacency matrix given below.\n0 1 1 0 0 0\n1 0 0 1 1 0\n1 0 0 0 1 1\n0 1 0 0 0 0\n0 1 1 0 0 0\n0 0 1 0 0 0\n(i) Explain why H cannot be a tree.\n(ii) Draw the graph of H . [3 marks]\n(d) Prove that a tree is a bipartite graph. [4 marks]",
+   "ms_text": "4. (a) (i) Euler’s relation is\ne = v − 2 + f ≥ v − 1, as f ≥ 1 M1A1\n(ii) Gs a tree i ⇔ no cycles ⇔ f = 1 R1R1\n[4 marks]\n(b) the result from (a) (ii) gives\ne = k + 2 ++−= 111 k + 3 M1A1\nfor a tree we also have\n2 e = sum ofdegrees M1\n+ = + + + = + 2 k 6 k 4 3 4 k 11\nhence k = 5 A1\nA2\nNote: Accept alternative correct solutions.\n[6 marks]\n−= < = (c) (i) v 1 5 6 e by (a) (ii) M1A1\nG cannot be a tree AG\n(ii)\nA1\n[3 marks]\n(d) take any vertex in the tree and colour it black M1\ncolour all adjacent vertices white\ncolour all vertices adjacent to a white vertex black\ncontinue this procedure until all vertices are coloured M1\nwhich must happen since the graph is connected R1\nas the tree contains no cycles, no vertex can be both black\nand white and the graph is proved to be bipartite R1\n[4 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8",
+    "6.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 17]\n(a) A connected planar graph $G$ has $e$ edges and $v$ vertices.\n(i) Prove that $e \\geq v - 1$.\n(ii) Prove that $e = v - 1$ if and only if $G$ is a tree. [4 marks]\n(b) A tree has $k$ vertices of degree 1, two of degree 2, one of degree 3 and one of degree 4. Determine $k$ and hence draw a tree that satisfies these conditions. [6 marks]\n(c) The graph $H$ has the adjacency matrix given below.\n$\\begin{pmatrix} 0&1&1&0&0&0 \\\\ 1&0&0&1&1&0 \\\\ 1&0&0&0&1&1 \\\\ 0&1&0&0&0&0 \\\\ 0&1&1&0&0&0 \\\\ 0&0&1&0&0&0 \\end{pmatrix}$\n(i) Explain why $H$ cannot be a tree.\n(ii) Draw the graph of $H$. [3 marks]\n(d) Prove that a tree is a bipartite graph. [4 marks]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,277 @@
+{
+ "exam_id": "math-2019-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2019,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2019 November Examination Session/Mathematics_paper_1__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2019 November Examination Session/Mathematics_paper_1__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8819-7201; code N19/5/MATHL/HP1/ENG/TZ0/XX; marks sum matches paper total 100",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2019-N-P1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nThe probability distribution of a discrete random variable, X , is given by the following table,\nwhere N and p are constants.\nx 1 5 10 N\n1 1 1\nP(X =x) p\n2 5 5\n(a) Find the value of p .\b [2]\n(b) Given that E(X ) = 10 , find the value of N .\b [3]",
+   "ms_text": "1 1 1\n1. (a) p =− 1 − − (M1)\n2 5 5\n1\n= A1\n10\n[2 marks]\n(b) attempt to find ( EX ) (M1)\n1 N\n++ 12 + = 10 A1\n2 10\n⇒ N = 65 A1\n< Note: Do not allow FT in part (b) if their p is outside the range0 p <. 1\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nThe probability distribution of a discrete random variable, $X$, is given by the following table, where $N$ and $p$ are constants.\n| $x$ | 1 | 5 | 10 | $N$ |\n| $P(X=x)$ | $\\frac{1}{2}$ | $\\frac{1}{5}$ | $\\frac{1}{5}$ | $p$ |\n(a) Find the value of $p$. [2]\n(b) Given that $E(X)=10$, find the value of $N$. [3]"
+  },
+  {
+   "id": "math-2019-N-P1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nk\n2 e x d\nx = 12 , find the value of k . Given that ln∫\n0",
+   "ms_text": "1 e 2 x seen\n2. (A1)\n2\nln k\n1 1 1\nattempt at using limits in an integrated expression e 2 x = e 2 ln k − e 0 (M1)\n2 2 2\n0\n1 2 1\nln k 0 = e − e\n(A1)\n2 2\nSetting their equation = 12 M1\nNote: their equation must be an integrated expression with limits substituted.\n1 1\n2 k− = 12\nA1\n2 2\n( 2 ) k = 25 ⇒ k = 5 A1\nNote: Do not award final A1 for k= ±. 5\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.10",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nGiven that $\\int_0^{\\ln k} e^{2x}\\,dx = 12$, find the value of $k$."
+  },
+  {
+   "id": "math-2019-N-P1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nThree planes have equations:\n2x - y + z = 5\nx + 3y - z = 4 , where a , b ∈ϒ.\n3x - 5y + az =b\nFind the set of values of a and b such that the three planes have no points of intersection.",
+   "ms_text": "3. attempt to eliminate a variable (or attempt to find det A) M1\n2 − 1 15 2 − 1 1 5\n1 3 − 1 4 → 0 7 − 3 3 (or det A = 14( a − 3) )\n3 − 5 ab 0 − 14 a + 3 b − 12\n(or two correct equations in two variables) A1\n2 − 1 1 5\n→ 0 7 − 3 3 (or solving det A = 0 )\n0 0 a − 3 b − 6\n(or attempting to reduce to one variable, e.g. ( a − 3 ) z = b − 6 ) M1\na = 3, b ≠ 6 A1A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.16",
+    "3.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nThree planes have equations:\n$2x - y + z = 5$\n$x + 3y - z = 4$\n$3x - 5y + az = b$, where $a, b \\in \\mathbb{R}$.\nFind the set of values of $a$ and $b$ such that the three planes have no points of intersection."
+  },
+  {
+   "id": "math-2019-N-P1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\nA and B are acute angles such that cos A =2 and sin B =1\n.\n3 3\n22 45\n( + ) = − − Show that cos2 A B .\n27 27",
+   "ms_text": "4. attempt to use cos2 ( A + B ) = cos 2 A cos B − sin 2 A sin B (may be seen later) M1\nattempt to use any double angle formulae (seen anywhere) M1\nattempt to find either sin A or cos B (seen anywhere) M1\n2 4 5 A\ncos A = ⇒ sin = 1 − = (A1)\n3 9 3\n1 B 1 8 22\nsin B = ⇒ cos = 1 − = = A1\n3 9 3 3\n1\n( 2 ) cos2 A = 2cos A − 1 = − A1\n9\n45\nsin 2 A ( = 2sin A cos A ) = A1\n9\n1 22 45 1\nSo cos2 ( A + B ) =− −\n9 3 9 3\n22 45\n= − − AG\n27 27\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\n$A$ and $B$ are acute angles such that $\\cos A = \\frac{2}{3}$ and $\\sin B = \\frac{1}{3}$.\nShow that $\\cos(2A+B) = -\\frac{2\\sqrt{2}}{27} - \\frac{4\\sqrt{5}}{27}$."
+  },
+  {
+   "id": "math-2019-N-P1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\nConsider the equation z4=- 4, where z ∈≤ .\n(a) Solve the equation, giving the solutions in the form a + ib , where a , b ∈ϒ .\b [5]\n(b) The solutions form the vertices of a polygon in the complex plane. Find the area of the\npolygon.\b [2]",
+   "ms_text": "5. (a) METHOD 1\n( ) z= 44 = 2 (A1)\nπ\narg() z = (A1)\n1\n4\nfirst solution is 1 + i A1\nvalid attempt to find all roots (De Moivre or +/− their components) (M1)\nother solutions are 1 −+, 1 i −−, 1 i − i A1\n[5 marks]\nMETHOD 2\n4 z= − 4\n4\n( a + i b ) = − 4\nattempt to expand and equate both reals and imaginaries. (M1)\n4 3 2 2 3 4 a + 4 ab i − 6 ab − 4 ab i + b = − 4\n( 4 − 4 + 4 = −⇒ ) = ±and ( 3 − 3 = ⇒ ) = ± a 6 a a 4 a 1 4 ab 4 ab 0 a b (A1)\nfirst solution is 1 + i A1\nvalid attempt to find all roots (De Moivre or +/- their components) (M1)\nother solutions are 1 −+, 1 i −−, 1 i − i A1\n[5 marks]\n(b) complete method to find area of ‘rectangle’ (M1)\n= 4 A1\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13",
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nConsider the equation $z^4 = -4$, where $z \\in \\mathbb{C}$.\n(a) Solve the equation, giving the solutions in the form $a + ib$, where $a, b \\in \\mathbb{R}$. [5]\n(b) The solutions form the vertices of a polygon in the complex plane. Find the area of the polygon. [2]"
+  },
+  {
+   "id": "math-2019-N-P1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nConsider the function f (x) =x e2x, where x ∈ϒ . The nth derivative of f (x) is denoted by f (n)(x) .\nProve, by mathematical induction, that f (n)(x) = (2nx +n2n-1)e2x , n ∈′+ .",
+   "ms_text": "′ () = 2 x + 2 x 6. f x e 2e x A1\nNote: This must be obtained from the candidate differentiating fx. ()\n1 11 − 2 = ( 2 x +× 12 ) ex A1\n(hence true for n =) 1\nassume true for n = k : M1\n() () k ( k k − 1 ) 2 x f x = 2 x + k 2 e\nNote: Award M1 if truth is assumed. Do not allow “let n = k ”.\nconsider n = k +: 1\n( k + 1 ) () d\n= ( ( k + k − 1 ) 2 x ) f x 2 x k 2 e\nd x\n() () k\nattempt to differentiate f x M1\n( k + 1 ) () k 2 x k k − 1 2 x\nf x = 2e + 22 ( x + k 2 ) e A1\n( k + 1 ) ()( k k + 1 k 2 x\nf x = 2 + 2 x + k 2 ) e\n( k + 1 ) () ( k + 1\n( ) k ) 2 x f x = 2 x + k + 12 e A1\nk + 1 ( k + 1 ) − 1 2 x = ( 2 x + ( k + 12 ) ) e\nTrue for n = and n 1 = k true implies true for n = k +. 1\nTherefore the statement is true for all ( n + ) ∈′ R1\nNote: Do not award final R1 if the two previous M1s are not awarded.\nAllow full marks for candidates who use the base case n = 0 .\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.15",
+    "5.6",
+    "5.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nConsider the function $f(x) = xe^{2x}$, where $x \\in \\mathbb{R}$. The $n^{th}$ derivative of $f(x)$ is denoted by $f^{(n)}(x)$.\nProve, by mathematical induction, that $f^{(n)}(x) = (2^n x + n2^{n-1})e^{2x}$, $n \\in \\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2019-N-P1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\n(a) Write 2x-x2 in the form a(x - h)2+ k , where a , h , k ∈ϒ .\b [2]\n3\n1 2\n(b) Hence, find the value of ∫ d.\b x [5]\n1 2\n2 x − x\n2",
+   "ms_text": "7. (a) attempt to complete the square or multiplication and equating coefficients (M1)\n2 2 2 x − x = − ( x − 1 ) + 1 A1\na = − 1, h = 1, k = 1\n[2 marks]\n3\n1 2\n(b) use of their identity from part (a) d x (M1) ∫\n1 2\n− ( − ) 2 1 x 1\n3 1\n2 2 = arcsin ( x − 1 ) or arcsinu () A1\n1 1\n−\n2 2\nNote: Condone lack of, or incorrect limits up to this point.\n1 1\n= arcsin − arcsin − (M1)\n2 2\nπ π\n= −− (A1)\n6 6\nπ\n= A1\n3\n[5 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.11",
+    "2.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\n(a) Write $2x - x^2$ in the form $a(x-h)^2 + k$, where $a, h, k \\in \\mathbb{R}$. [2]\n(b) Hence, find the value of $\\int_{\\frac{1}{2}}^{\\frac{3}{2}} \\frac{1}{\\sqrt{2x - x^2}}\\,dx$. [5]"
+  },
+  {
+   "id": "math-2019-N-P1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\n5 5\nA straight line, Lθ , has vector equation r = 0 + λ sin θ ,λ, θ ∈ϒ .\n0 cos θ\nThe plane, Пp , has equation x = p,p ∈ϒ .\nShow that the angle between Lθ and Пp is independent of both θ and p .",
+   "ms_text": "1\n8. a vector normal to Π is 0 (A1)\np\n0\n1 p\nNote: Allow any scalar multiple of 0 , including 0\n0 0\nattempt to find scalar product (or vector product) of direction vector of line\n1\nwith any scalar multiple of 0 M1\n0\n1 5 1 5 0\n= 0\nγ sin θ 5 (or 0 × sin θ =− cos θ ) A1\n0 cos θ 0 cos θ sin θ\n(if α is the angle between the line and the normal to the plane)\n5 1\nα = α = cos ( or sin ) A1\n1 × 25 + sin 2 θ + cos 2 θ 1 × 25 + sin 2 θ + cos 2 θ\n5 1\n⇒ cos α = or sin α= A1\n26 26\nthis is independent of p and θ , hence the angle between the line and the\nplane, ( 90α − ) , is also independent of p and θ R1\nNote: The final R mark is independent, but is conditional on the candidate\nobtaining a value independent of p and θ .\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.17",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nA straight line, $L_\\theta$, has vector equation $\\mathbf{r} = \\begin{pmatrix}5\\\\0\\\\0\\end{pmatrix} + \\lambda\\begin{pmatrix}5\\\\\\sin\\theta\\\\\\cos\\theta\\end{pmatrix}$, $\\lambda, \\theta \\in \\mathbb{R}$.\nThe plane, $\\Pi_p$, has equation $x = p$, $p \\in \\mathbb{R}$.\nShow that the angle between $L_\\theta$ and $\\Pi_p$ is independent of both $\\theta$ and $p$."
+  },
+  {
+   "id": "math-2019-N-P1-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 14]\nGiven that cos 75û=q , show that cos 105û= - q .\b (a) [1]\nIn the following diagram, the points A , B , C and D are on the circumference of a circle with\ncentre O and radius r . [AC] is a diameter of the circle. BC = r , AD = CD and AB̂C = AD̂C = 90ο .\nB\nC\nA O\nD\nShow that BÂD = 75û .\b (b) [3]\n(c) (i) By considering triangle ABD , show that BD2= 5r2 -2r2q 6 .\n(ii) By considering triangle CBD , find another expression for BD2 in terms of r and q .\b[7]\n1\n(d) Use your answers to part (c) to show that cos75 ο= .\b [3]\n6 + 2",
+   "ms_text": "9. (a) cos105 ο = cos180 ( ο − 75 ο ) = − cos75 ο R1\n= − q AG\nNote: Accept arguments using the unit circle or graphical/diagrammatical\nconsiderations.\n[1 mark]\nˆ ο (b) AD = CD ⇒ CAD = 45\nA1\nBAC ˆ valid method to find (M1)\nˆ ο for example: BC = r ⇒ BCA = 60\nˆ ο ⇒ BAC = 30\nA1\nBAD ˆ = 45 ο + 30 ο = 75 ο hence AG\n[3 marks]\n(c) (i) AB = r 3 , AD ( = CD ) = r 2 A1A1\napplying cosine rule (M1)\n2 2\nBD 2 = ( r 3 ) + ( r 2 ) − 2 ( r 3 )( r 2cos75 ) ο A1\n2 2 2 ο = 3 r + 2 r − 2 r 6 cos75\n2 2 = 5 r − 2 rq 6\nAG\nˆ ο (ii) BCD = 105\n(A1)\nattempt to use cosine rule on BCD ∆ (M1)\n2\n2 2 ο BD = r + ( r 2 ) − 2 rr ( 2cos105 )\n2 2 = 3 r + 2 rq 2\nA1\n[7 marks]\n2 2 2 2 (d) 5 r − 2 rq 6 = 3 r + 2 rq 2\n(M1)(A1)\n2 2 ( ) 2 r = 2 rq 6 + 2\nA1\nNote: Award A1 for any correct intermediate step seen using only two terms.\n1\nq = AG\n6 + 2\nNote: Do not award the final A1 if follow through is being applied.\n[3 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 14]\n(a) Given that $\\cos 75^\\circ = q$, show that $\\cos 105^\\circ = -q$. [1]\nIn the following diagram, the points A, B, C and D are on the circumference of a circle with centre O and radius $r$. [AC] is a diameter of the circle. $BC = r$, $AD = CD$ and $A\\hat{B}C = A\\hat{D}C = 90^\\circ$.\n[Diagram: circle centre O with cyclic quadrilateral ABCD; AC a diameter through O; right angles at B and D; AD and CD marked equal]\n(b) Show that $B\\hat{A}D = 75^\\circ$. [3]\n(c) (i) By considering triangle ABD, show that $BD^2 = 5r^2 - 2r^2 q\\sqrt{6}$.\n(ii) By considering triangle CBD, find another expression for $BD^2$ in terms of $r$ and $q$. [7]\n(d) Use your answers to part (c) to show that $\\cos 75^\\circ = \\frac{1}{\\sqrt{6}+\\sqrt{2}}$. [3]"
+  },
+  {
+   "id": "math-2019-N-P1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 19]\n2 4 x −\nConsider fx () = , - 1 <x< 1 .\n2\nx − 1\n(a) (i) Find f '(x).\n(ii) Show that, if f '(x) = 0 , then x = 2 − 3 .\b [5]\n(b) For the graph of y = f (x) ,\nfind the coordinates of the y-intercept; (i)\n(ii) show that there are no x-intercepts;\n(iii) sketch the graph, showing clearly any asymptotic behaviour.\b [5]\n3 1 2 x − 4\n(c) Show that .\b [2] +− −= 2\nx 1 x 1 x − 1\n(d) The area enclosed by the graph of y = f (x) and the line y = 4 can be expressed\nas ln v . Find the value of v .\b [7]",
+   "ms_text": "10. (a) (i) attempt to use quotient rule (or equivalent) (M1)\n2 ( x − 1 )() 2 − ( 2 x − 4 )( 2 x )\n′ () = f x A1\n2\n( 2 ) x − 1\n2 − 2 x + 8 x − 2\n=\n2 2 ( x − 1 )\n(ii) f ′ () x = 0\nsimplifying numerator (may be seen in part (i)) (M1)\n2 ⇒ x − 4 x += 1 0\nor equivalent quadratic equation A1\nEITHER\nuse of quadratic formula\n4 ± 12\n⇒ x = A1\n2\nOR\nuse of completing the square\n2\n( x − 2 ) = 3 A1\nTHEN\nx = 2 − 3 (since 2 + 3 is outside the domain) AG\nNote:Do not condone verification that x = 2 − 3 ⇒ f ′ () x = 0 .\nDo not award the final A1 as follow through from part (i).\n[5 marks]\n(b) (i) (0, 4) A1\n(ii) 2 x − 4 = 0 ⇒ x = 2 A1\noutside the domain R1\n(iii)\nA1A1\naward A1 for concave up curve over correct domain with one minimum point in the first\nquadrant\naward A1 for approaching x = ± asymptotically 1\n[5 marks]\n(c) valid attempt to combine fractions (using common denominator) M1\n3 ( x − 1 )( − x + 1 )\nA1\n( x + 1 )( x − 1 )\n3 x − 3 − x − 1\n=\n2 x − 1\n2 x − 4\n= AG\nx 2 − 1\n[2 marks]\n(d)\n2 fx () = 4 ⇒ 2 x − 4 = 4 x − 4\nM1\n1\n( x = 0 or) x = A1\n2\n1\n2\narea under the curve is fx () d x ∫ M1\n0\n1\n3 1 2\n= − d ∫\n1x\n0 x + 1 x −\nNote: Ignore absence of, or incorrect limits up to this point.\n1\n= 3ln x + 1 − ln x − 1 2 A1\n0\n3 1\n( ) = 3ln − ln − 0\n2 2\n27\n= A1\nln4\n1 1 1\n2 2 2 ()\n− () area is 2 −∫ fx d x or ∫ 4 d x ∫ fx d x M1\n0 0 0\n27\n= 2 −\nln4\n2 4e\n= A1\nln27\n2 4e\n⇒ v =\n27\n[7 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.6",
+    "2.13",
+    "5.15",
+    "2.7",
+    "1.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 19]\nConsider $f(x) = \\frac{2x-4}{x^2-1}$, $-1 < x < 1$.\n(a) (i) Find $f'(x)$.\n(ii) Show that, if $f'(x) = 0$, then $x = 2 - \\sqrt{3}$. [5]\n(b) For the graph of $y = f(x)$,\n(i) find the coordinates of the $y$-intercept;\n(ii) show that there are no $x$-intercepts;\n(iii) sketch the graph, showing clearly any asymptotic behaviour. [5]\n(c) Show that $\\frac{3}{x+1} - \\frac{1}{x-1} = \\frac{2x-4}{x^2-1}$. [2]\n(d) The area enclosed by the graph of $y = f(x)$ and the line $y = 4$ can be expressed as $\\ln v$. Find the value of $v$. [7]"
+  },
+  {
+   "id": "math-2019-N-P1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 17]\nPoints A(0 , 0 , 10) , B(0 , 10 , 0) , C(10 , 0 , 0) , V(p , p , p) form the vertices of a tetrahedron.\n10 − 2p\nρρ ρρ\n(a) (i) \u0007Show that AB × AV = − 10 p and find a similar expression for AC × AV .\np\n(ii) Hence, show that, if the angle between the faces ABV and ACV is θ , then\n( 3 20 ) p p −\ncosθ= .\b [8]\n2 6\np − 40 p + 100\n(b) Consider the case where the faces ABV and ACV are perpendicular.\n(i) Find the two possible coordinates of V .\n(ii) Comment on the positions of V in relation to the plane ABC .\b [4]\n(c) The following diagram shows the graph of θ against p . The maximum point is shown by X.\nX\np\n(i) At X , find the value of p and the value of θ .\n(ii) Find the equation of the horizontal asymptote of the graph.\b [5]\n\b",
+   "ms_text": "p\nρ\n11. (a) (i) AV p A1 =\np − 10\n0 p 10 ( p − 10 ) + 10 p ρ\nρ\nAB × AV = 10 × p = − 10 p A1\n− 10 p − 10 − 10 p\n20 p − 100 10 − 2 p\n= − 10 p = − 10 p AG\n− 10 p p\n10 p 10 p p ρ\nρ\nAC × AV = 0 × p = 100 − 20 p = 1010 − 2 p A1\n− 10 p − 10 10 p p\n(ii) attempt to find a scalar product M1\n10 − 2 p p\n2 − 10 p • 1010 − 2 p = 1003 ( p − 20 p )\np p\n10 − 2 p p\n2 OR − p • 10 − 2 p = 3 p − 20 p\nA1\np p\nρ ×ρ ρ ×ρ\nattempt to find magnitude of either AB AV or AC AV M1\n10 − 2 p p\n2 2\n− 10 p = 1010 − 2 p = 10 ( 10 − 2 p ) + 2 p A1\np p\n2\n2 ( 2 2 ) 1003 ( p − 20 p ) = 100 ( 10 − 2 p ) + 2 p cos θ\n3 p 2 − 20 p\ncos θ = A1\n2 2\n( 10 − 2 p ) + 2 p\nNote: Award A1 for any intermediate step leading to the correct answer.\np ( 3 p − 20 )\n= AG\n2 6 p − 40 p + 100\nNote: Do not allow FT marks from part (a)(i).\n[8 marks]\n20\np ( 3 p − 20 ) = 0 ⇒ p = 0 p = (b) (i) or M1A1\n3\ncoordinates are ( 0,0,0and 202020 ) , , A1\n3 3 3\nNote: Do not allow column vectors for the final A mark.\n(ii) two points are mirror images in the plane\nor opposite sides of the plane\nor equidistant from the plane\nor the line connecting the two Vs is perpendicular to the plane R1\n[4 marks]\n( ) p 3 p − 20\n(c) (i) geometrical consideration or attempt to solve −= 1 (M1)\n2 6 p − 40 p + 100\n10, ο p = θ = π or θ= 180\nA1A1\n3\n1\np →∞⇒ cos θ → (ii) M1\n2\nπ\nθ= hence the asymptote has equation A1\n3\n[5 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.13",
+    "2.4",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 17]\nPoints A(0, 0, 10), B(0, 10, 0), C(10, 0, 0), V(p, p, p) form the vertices of a tetrahedron.\n(a) (i) Show that $\\overrightarrow{AB} \\times \\overrightarrow{AV} = -10\\begin{pmatrix}10-2p\\\\p\\\\p\\end{pmatrix}$ and find a similar expression for $\\overrightarrow{AC} \\times \\overrightarrow{AV}$.\n(ii) Hence, show that, if the angle between the faces ABV and ACV is $\\theta$, then $\\cos\\theta = \\frac{p(3p-20)}{6p^2 - 40p + 100}$. [8]\n(b) Consider the case where the faces ABV and ACV are perpendicular.\n(i) Find the two possible coordinates of V.\n(ii) Comment on the positions of V in relation to the plane ABC. [4]\n(c) The following diagram shows the graph of $\\theta$ against $p$. The maximum point is shown by X.\n[Graph: theta against p; curve rising to a cusp-like maximum point X at positive p, decreasing on both sides towards a dashed horizontal asymptote]\n(i) At X, find the value of $p$ and the value of $\\theta$.\n(ii) Find the equation of the horizontal asymptote of the graph. [5]"
+  }
+ ],
+ "status": "done"
+}

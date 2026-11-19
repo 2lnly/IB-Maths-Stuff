@@ -1,0 +1,138 @@
+{
+ "exam_id": "math-2001-M-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.16",
+    "1.2"
+   ],
+   "text_clean": "1. [Maximum mark: 11]\nLet $f(x)=x\\cos 3x$.\n(a) Use integration by parts to show that $\\int f(x)\\,dx=\\frac{1}{3}x\\sin 3x+\\frac{1}{9}\\cos 3x+c$. [3 marks]\n(b) Use your answer to part (a) to calculate the exact area enclosed by $f(x)$ and the $x$-axis in each of the following cases. Give your answers in terms of $\\pi$.\n(i) $\\frac{\\pi}{6}\\le x\\le\\frac{3\\pi}{6}$\n(ii) $\\frac{3\\pi}{6}\\le x\\le\\frac{5\\pi}{6}$\n(iii) $\\frac{5\\pi}{6}\\le x\\le\\frac{7\\pi}{6}$. [4 marks]\n(c) Given that the above areas are the first three terms of an arithmetic sequence, find an expression for the total area enclosed by $f(x)$ and the $x$-axis for $\\frac{\\pi}{6}\\le x\\le\\frac{(2n+1)\\pi}{6}$, where $n\\in\\mathbb{Z}^+$. Give your answers in terms of $n$ and $\\pi$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.13",
+    "3.16",
+    "3.14"
+   ],
+   "text_clean": "2. [Maximum mark: 16]\nThe triangle ABC has vertices at the points A$(-1,2,3)$, B$(-1,3,5)$ and C$(0,-1,1)$.\n(a) Find the size of the angle $\\theta$ between the vectors $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$. [4 marks]\n(b) Hence, or otherwise, find the area of triangle ABC. [2 marks]\nLet $l_1$ be the line parallel to $\\overrightarrow{AB}$ which passes through D$(2,-1,0)$ and $l_2$ be the line parallel to $\\overrightarrow{AC}$ which passes through E$(-1,1,1)$.\n(c) (i) Find the equations of the lines $l_1$ and $l_2$.\n(ii) Hence show that $l_1$ and $l_2$ do not intersect. [5 marks]\n(d) Find the shortest distance between $l_1$ and $l_2$. [5 marks]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.8",
+    "5.7",
+    "2.3"
+   ],
+   "text_clean": "3. [Maximum mark: 13]\nLet $f(x)=x\\left(\\sqrt[3]{(x^2-1)^2}\\right)$, $-1.4\\le x\\le 1.4$.\n(a) Sketch the graph of $f(x)$. (An exact scale diagram is not required.)\nOn your graph indicate the approximate position of\n(i) each zero;\n(ii) each maximum point;\n(iii) each minimum point. [4 marks]\n(b) (i) Find $f'(x)$, clearly stating its domain.\n(ii) Find the $x$-coordinates of the maximum and minimum points of $f(x)$, for $-1<x<1$. [7 marks]\n(c) Find the $x$-coordinate of the point of inflexion of $f(x)$, where $x>0$, giving your answer correct to four decimal places. [2 marks]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.15",
+    "5.12"
+   ],
+   "text_clean": "4. [Maximum mark: 17]\n(i) Using mathematical induction, prove that $\\frac{d^n}{dx^n}(\\cos x)=\\cos\\left(x+\\frac{n\\pi}{2}\\right)$, for all positive integer values of $n$. [7 marks]\n(ii) Let $T=\\begin{pmatrix}2&2\\\\10&3\\end{pmatrix}$ and P$(a,2a)$ be a point on the line with equation $y=2x$.\n(a) P$'(x',y')$ is the image of P$(a,2a)$ under the transformation $T$. Find the coordinates of P$'$. [2 marks]\n(b) $T$ maps the line with equation $y=2x$ onto another straight line with equation $y=kx$. Using your answer to part (a), or otherwise, find the equation of this straight line. [2 marks]\n(c) Let Q$(a,ma)$ be a point on the line with equation $y=mx$. Q$'(x',y')$ is the image of Q$(a,ma)$ under the transformation $T$. Find the coordinates of Q$'$. [2 marks]\n(d) Given that $T$ maps two lines of the form $y=mx$ onto themselves, use your answer to part (c), or otherwise, to find the two possible values of $m$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L2",
+    "4.7"
+   ],
+   "text_clean": "5. [Maximum mark: 13]\nIn a game, the probability of a player scoring with a shot is $\\frac{1}{4}$. Let $X$ be the number of shots the player takes to score, including the scoring shot. (You can assume that each shot is independent of the others.)\n(a) Find $P(X=3)$. [2 marks]\n(b) Find the probability that the player will have at least three misses before scoring twice. [6 marks]\n(c) Prove that the expected value of $X$ is 4.\n(You may use the result $(1-x)^{-2}=1+2x+3x^2+4x^3\\ldots\\ldots$) [5 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L9",
+    "4.L1",
+    "4.L6"
+   ],
+   "text_clean": "6. [Maximum mark: 30]\n(i) (a) Patients arrive at random at an emergency room in a hospital at the rate of 15 per hour throughout the day. Find the probability that 6 patients will arrive at the emergency room between 08:00 and 08:15. [3 marks]\n(b) The emergency room switchboard has two operators. One operator answers calls for doctors and the other deals with enquiries about patients. The first operator fails to answer 1% of her calls and the second operator fails to answer 3% of his calls. On a typical day, the first and second telephone operators receive 20 and 40 calls respectively during an afternoon session. Using the Poisson distribution find the probability that, between them, the two operators fail to answer two or more calls during an afternoon session. [5 marks]\n(ii) A television network wants to determine whether major sports events or movies attract more viewers in the evening hours between 19:00 and 22:00. In a random survey of 28 evenings, it is found that 13 evenings have programmes devoted to movies and 15 to sports. An independent television rating firm recorded the number of viewers per programme to test whether there is any difference between $\\mu_1$, the average number of movie viewers per evening, and $\\mu_2$, the average number of sports viewers per evening. The results for the samples are given in the following table:\nProgramme type | Movies | Sports\nNumber of evenings | $n=13$ | $m=15$\nMean number of viewers per evening | 6.8 million | 5.3 million\nStandard deviation of the number of viewers per evening | 1.8 million | 1.6 million\nAssume that both the sampled populations are normally distributed with equal population variances and both the samples are randomly selected independently of each other.\n(a) State clearly which test statistic and variance you would use, giving a reason for your choice of variance. [3 marks]\n(b) Does the above data provide enough evidence to indicate a difference between the mean number of viewers per evening for movies and sports at a significance level of 5%? Show the acceptance and rejection regions for your null hypothesis. [7 marks]\n(c) Find the 99% confidence interval for the difference of the two means and decide if there is evidence that there is a difference between the populations means. [2 marks]\n(iii) Dr. David Logan is conducting research to determine the effect on sleeping patterns of drinking coffee after dinner. A survey of a random sample of 60 persons chosen independently of each other was conducted to find if they sleep less soundly if they drink coffee after dinner. The results are shown below:\nNumber of cups of coffee after dinner | sleep is worse | sleep is the same | sleep is better\n1 | 5 | 7 | 3\n2 | 10 | 4 | 1\n3 | 25 | 5 | 0\nDr. Logan wants to test the above data to determine whether sleeping patterns are independent of the number of cups of coffee after dinner.\n(a) Explain how he should test the data, mentioning the kind of test and the test statistic that should be used. [1 mark]\n(b) Determine if the above data indicates that having coffee after dinner and sleeping soundly are independent at a 5% level of significance. [9 marks]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.2",
+    "7.8",
+    "7.5",
+    "7.9",
+    "7.6",
+    "7.1",
+    "7.7"
+   ],
+   "text_clean": "7. [Maximum mark: 30]\n(i) Let $A$ and $B$ be two non-empty sets, and $A-B$ be the set of all elements of $A$ which are not in $B$. Draw Venn diagrams for $A-B$ and $B-A$ and determine if $B\\cap(A-B)=B\\cap(B-A)$. [3 marks]\n(ii) Consider the set $\\mathbb{Z}\\times\\mathbb{Z}^+$. Let $R$ be the relation defined by the following:\nfor $(a,b)$ and $(c,d)$ in $\\mathbb{Z}\\times\\mathbb{Z}^+$, $(a,b)R(c,d)$ if and only if $ad=bc$, where $ab$ is the product of the two numbers $a$ and $b$.\n(a) Prove that $R$ is an equivalence relation on $\\mathbb{Z}\\times\\mathbb{Z}^+$. [4 marks]\n(b) Show how $R$ partitions $\\mathbb{Z}\\times\\mathbb{Z}^+$ and describe the equivalence classes. [2 marks]\n(iii) ABCD is a unit square with centre O. The midpoints of the line segments [CD], [AB], [AD], [BC] are M, N, P, Q, respectively. Let $L_1$ and $L_2$ denote the lines (MN) and (PQ), respectively. Consider the following symmetries of the square:\n$U$ is a clockwise rotation about O of $2\\pi$;\n$H$ is the reflection of the vertices of the square in the line $L_2$;\n$V$ is the reflection of the vertices of the square in the line $L_1$;\n$K$ is a clockwise rotation about O of $\\pi$.\n(a) Write down the table of operations for the set $S=\\{U,H,V,K\\}$ under $\\circ$, the composition of these geometric transformations. [4 marks]\n(b) Assuming that $\\circ$ is associative, prove that $(S,\\circ)$ forms a group. [4 marks]\nConsider the set $C=\\{1,-1,\\mathrm{i},-\\mathrm{i}\\}$ and the binary operation $\\diamond$ defined on $C$, where $\\diamond$ is the multiplication of complex numbers.\n(c) Find the operation table for the group $(C,\\diamond)$. [3 marks]\n(d) Determine whether the groups $(S,\\circ)$ and $(C,\\diamond)$ are isomorphic. Give reasons for your answer. [4 marks]\n(iv) Let $(G,*)$ be a group where $*$ is a binary operation on $G$. The identity element in $G$ is $e$, such that $G\\ne\\{e\\}$. The group $G$ is cyclic, and its only subgroups are $\\{e\\}$ and $G$. Prove that $G$ is a finite cyclic group of prime order. [6 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8",
+    "6.6",
+    "6.10",
+    "6.1"
+   ],
+   "text_clean": "8. [Maximum mark: 30]\n(i) Find the solution of the recurrence relation $a_{n+2}=a_{n+1}+2a_n$, $n=0,1,2,\\ldots$, with $a_0=1$, $a_1=5$. [6 marks]\n(ii) For any positive integers $a$ and $b$, let $\\gcd(a,b)$ and $\\mathrm{lcm}(a,b)$ denote the greatest common divisor and the least common multiple of $a$ and $b$, respectively. Prove that\n$a\\times b=(\\gcd(a,b))\\times(\\mathrm{lcm}(a,b))$. [5 marks]\n(iii) (a) If $G$ is a connected simple planar graph with $v$ vertices ($v\\ge 3$) and $e$ edges, prove that $e\\le 3v-6$. [5 marks]\n(b) Hence prove that $\\kappa_5$ is not a planar graph. [3 marks]\n(iv) Use the binary search tree algorithm on the list 5, 9, 8, 1, 2, 4, and show the construction of the binary tree, describing each step. [5 marks]\n(v) The diagram below shows graph $G$, with vertices A, B, C, D, E, F and edges $a,b,c,d,e,f,g,h,j$.\n[Diagram: graph G with edges a = AB, b = AC, c = BC, d = BD, e = CD, f = CE, g = DE, h = DF, j = EF]\nExplain the breadth-first search algorithm to find a spanning tree starting with the vertex A. Show all the steps and draw the spanning tree. [6 marks]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L4",
+    "5.L6",
+    "5.19",
+    "5.L3"
+   ],
+   "text_clean": "9. [Maximum mark: 30]\n(i) (a) State the mean value theorem. [2 marks]\n(b) Use the mean value theorem to prove the following.\nIf $k$ is a positive real number and $x\\ge 0$, then $(1+x)^k\\le 1+kx$, provided $0<k\\le 1$. [7 marks]\n(ii) Find the number $n$ and the step size $h$ required to evaluate the integral $\\int_2^7\\frac{dx}{x}$ by using Simpson's rule with $2n$ subintervals and with an accuracy $10^{-4}$.\n(The error term, $e$, in Simpson's rule, is given by\n$e=-\\frac{(b-a)h^4}{180}f^{(4)}(c)$, $c\\in\\,]a,b[$.) [5 marks]\n(iii) (a) Find Maclaurin's series expansion for $f(x)=\\ln(1+x)$, for $0\\le x<1$. [4 marks]\n(b) $R_n$ is the error term in approximating $f(x)$ by taking the sum of the first $(n+1)$ terms of its Maclaurin's series. Prove\n$|R_n|\\le\\frac{1}{n+1}$, $(0\\le x<1)$. [2 marks]\n(iv) Test the convergence or divergence of the following series\n(a) $\\sum_{n=1}^{\\infty}\\sin\\frac{1}{n}$; [5 marks]\n(b) $\\sum_{n=1}^{\\infty}(n+10)\\left(\\frac{\\cos n\\pi}{n^{1.4}}\\right)$. [5 marks]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "8"
+   ],
+   "subtopics": [
+    "8.1",
+    "8.2",
+    "8.3"
+   ],
+   "text_clean": "10. [Maximum marks: 30]\n(i) (a) State Ceva's theorem and its converse (or corollary). [3 marks]\n(b) Hence prove that the altitudes drawn from the vertices of a triangle to its opposite sides are concurrent. [6 marks]\n(ii) (a) State the conditions for the points A, B, C, D to divide the line segment [AB] in harmonic ratio. [2 marks]\n(b) Hence prove that the bisectors of the interior and exterior angles of a triangle at any vertex divide the opposite side in harmonic ratio. [5 marks]\n(iii) Let P be any point on the ellipse $9x^2+4y^2=36$. Let M be the midpoint of the line joining P to the vertex whose $x$-coordinate is negative. Find and describe the locus of the point M. [6 marks]\n(iv) A tangent to a hyperbola meets the tangents at its vertices at the points R and S. Prove that the points R, S, and the two foci lie on a circle. [8 marks]",
+   "answer_status": "ok"
+  }
+ }
+}

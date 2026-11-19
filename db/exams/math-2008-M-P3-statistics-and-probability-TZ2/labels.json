@@ -1,0 +1,31 @@
+{
+  "exam_id": "math-2008-M-P3-statistics-and-probability-TZ2",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.14", "4.L4", "4.9"],
+      "text_clean": "1. [Maximum mark: 12]\n(a) The random variable $Y$ is such that $\\mathrm{E}(2Y+3)=6$ and $\\mathrm{Var}(2-3Y)=11$.\nCalculate\n(i) $\\mathrm{E}(Y)$;\n(ii) $\\mathrm{Var}(Y)$;\n(iii) $\\mathrm{E}(Y^2)$. [6 marks]\n(b) Independent random variables $R$ and $S$ are such that\n$R \\sim \\mathrm{N}(5, 1)$ and $S \\sim \\mathrm{N}(8, 2)$.\nThe random variable $V$ is defined by $V = 3S - 4R$.\nCalculate $\\mathrm{P}(V > 5)$. [6 marks]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.8"],
+      "qtype": "short",
+      "text_clean": "2. [Maximum mark: 7]\nA factory makes wine glasses. The manager claims that on average 2 % of the glasses are imperfect. A random sample of 200 glasses is taken and 8 of these are found to be imperfect.\nTest the manager's claim at a 1 % level of significance using a one-tailed test."
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L7"],
+      "text_clean": "3. [Maximum mark: 11]\nA teacher wants to determine whether practice sessions improve the ability to memorize digits.\nHe tests a group of 12 children to discover how many digits of a twelve-digit number could be repeated from memory after hearing them once. He gives them test 1, and following a series of practice sessions, he gives them test 2 one week later. The results are shown in the table below.\nChild | A | B | C | D | E | F | G | H | I | J | K | L\nNumber of digits remembered on test 1 | 4 | 6 | 4 | 7 | 8 | 5 | 6 | 7 | 6 | 8 | 4 | 7\nNumber of digits remembered on test 2 | 7 | 8 | 5 | 5 | 10 | 7 | 7 | 10 | 8 | 6 | 3 | 9\n(a) State appropriate null and alternative hypotheses. [2 marks]\n(b) Test at the 5 % significance level whether or not practice sessions improve ability to memorize digits, justifying your choice of test. [9 marks]"
+    },
+    "4": {
+      "topics": ["4"],
+      "subtopics": ["4.L9", "4.L1", "4.3"],
+      "text_clean": "4. [Maximum mark: 14]\nThe number of telephone calls received by a helpline over 80 one-minute periods are summarized in the table below.\nNumber of calls | 0 | 1 | 2 | 3 | 4 | 5 | 6\nFrequency | 9 | 12 | 22 | 10 | 11 | 8 | 8\n(a) Find the exact value of the mean of this distribution. [2 marks]\n(b) Test, at the 5 % level of significance, whether or not the data can be modelled by a Poisson distribution. [12 marks]"
+    },
+    "5": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L5", "4.12"],
+      "text_clean": "5. [Maximum mark: 16]\nA population is known to have a normal distribution with a variance of 3 and an unknown mean $\\mu$. It is proposed to test the hypotheses $\\mathrm{H}_0: \\mu = 13$, $\\mathrm{H}_1: \\mu > 13$ using the mean of a sample of size 2.\n(a) Find the appropriate critical regions corresponding to a significance level of\n(i) 0.05;\n(ii) 0.01. [8 marks]\n(b) Given that the true population mean is 15.2, calculate the probability of making a Type II error when the level of significance is\n(i) 0.05;\n(ii) 0.01. [6 marks]\n(c) How is the change in the probability of a Type I error related to the change in the probability of a Type II error? [2 marks]"
+    }
+  }
+}

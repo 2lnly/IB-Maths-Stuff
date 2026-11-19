@@ -1,0 +1,153 @@
+{
+ "exam_id": "math-2023-M-P2-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.3"
+   ],
+   "text_clean": "1. [Maximum mark: 5]\nThe cities Lucknow $(\\mathrm{L})$, Jaipur $(\\mathrm{J})$ and Delhi $(\\mathrm{D})$ are represented in the following diagram. Lucknow lies $500\\text{ km}$ directly east of Jaipur, and $\\mathrm{J\\hat{L}D} = 25^\\circ$.\n[Diagram (not to scale): triangle JDL with J and L on a horizontal line, JL = 500 km, angle 25° at L, a North arrow drawn vertically at J, D above and between J and L]\nThe bearing of D from J is $034^\\circ$.\n(a) Find $\\mathrm{J\\hat{D}L}$. [2]\n(b) Find the distance between Lucknow and Delhi. [3]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.3",
+    "2.5",
+    "2.4"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nThe functions $f$ and $g$ are defined by $f(x) = 2x - x^3$ and $g(x) = \\tan x$.\n(a) Find $(f \\circ g)(x)$. [2]\n(b) On the following grid, sketch the graph of $y = (f \\circ g)(x)$ for $-1 \\le x \\le 1$. Write down and clearly label the coordinates of any local maximum or minimum points. [3]\n[Grid: x from -1 to 1 (marked -1, -0.5, 0, 0.5, 1), y from -2 to 2]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.10",
+    "4.4"
+   ],
+   "text_clean": "3. [Maximum mark: 7]\nThe total number of children, $y$, visiting a park depends on the highest temperature, $T$, in degrees Celsius (°C). A park official predicts the total number of children visiting his park on any given day using the model $y = -0.6T^2 + 23T + 110$, where $10 \\le T \\le 35$.\n(a) Use this model to estimate the number of children in the park on a day when the highest temperature is $25\\,^\\circ\\mathrm{C}$. [2]\nAn ice cream vendor investigates the relationship between the total number of children visiting the park and the number of ice creams sold, $x$. The following table shows the data collected on five different days.\nTotal number of children ($y$) | 81 | 175 | 202 | 346 | 360\nIce creams sold ($x$) | 15 | 27 | 23 | 35 | 46\n(b) Find an appropriate regression equation that will allow the vendor to predict the number of ice creams sold on a day when there are $y$ children in the park. [3]\n(c) Hence, use your regression equation to predict the number of ice creams that the vendor sells on a day when the highest temperature is $25\\,^\\circ\\mathrm{C}$. [2]",
+   "answer_status": "ok",
+   "note": "audit: substituting into given quadratic model needs no 2.6 skill"
+  },
+  "4": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9",
+    "4.3"
+   ],
+   "text_clean": "4. [Maximum mark: 5]\nA company manufactures metal tubes for bicycle frames. The diameters of the tubes, $D\\text{ mm}$, are normally distributed with mean $32$ and standard deviation $\\sigma$. The interquartile range of the diameters is $0.28$.\nFind the value of $\\sigma$.",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.9",
+    "2.10"
+   ],
+   "text_clean": "5. [Maximum mark: 7]\nThe coefficient of $x^6$ in the expansion of $(ax^3 + b)^8$ is $448$.\nThe coefficient of $x^6$ in the expansion of $(ax^3 + b)^{10}$ is $2880$.\nFind the value of $a$ and the value of $b$, where $a, b > 0$.",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13"
+   ],
+   "text_clean": "6. [Maximum mark: 7]\nConsider $z = \\cos\\frac{11\\pi}{18} + \\mathrm{i}\\sin\\frac{11\\pi}{18}$.\n(a) Find the smallest value of $n$ that satisfies $z^n = -\\mathrm{i}$, where $n \\in \\mathbb{Z}^+$. [4]\n(b) Hence or otherwise, describe a single geometric transformation applied to $z$ on the Argand diagram that results in $z^{10}$. [3]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.13",
+    "4.6"
+   ],
+   "text_clean": "7. [Maximum mark: 6]\nA new test has been developed to identify whether a particular gene, $G$, is present in a population of parrots. The test returns a correct positive result $95\\%$ of the time for parrots with the gene, and a false positive result $2\\%$ of the time for parrots without the gene.\nThe proportion of the population with the gene is $p$.\n(a) Complete the tree diagram below. [2]\n[Tree diagram: first branches G (probability p) and G' (blank box); from G: positive (blank box), negative (blank box); from G': positive 0.02, negative 0.98]\n(b) A random sample of the population was tested. It was found that $150$ tests returned a positive result. Out of the $150$ parrots with a positive test result, $18$ did not actually have the gene. Find an estimate for $p$. [4]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.13",
+    "3.17",
+    "3.14"
+   ],
+   "text_clean": "8. [Maximum mark: 7]\nThe angle between a line and a plane is $\\alpha$, where $\\alpha \\in \\mathbb{R}$, $0 < \\alpha < \\frac{\\pi}{2}$.\nThe equation of the line is $\\frac{x-1}{3} = \\frac{y+2}{2} = 5 - z$, and the equation of the plane is $4x + (\\cos\\alpha)y + (\\sin\\alpha)z = 1$.\nFind the value of $\\alpha$.",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "text_clean": "9. [Maximum mark: 6]\nProve by contradiction that $p^2 - 8q - 11 \\ne 0$, for any $p, q \\in \\mathbb{Z}$.",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2",
+    "5.11",
+    "3.1"
+   ],
+   "text_clean": "10. [Maximum mark: 15]\nAn engineer is designing a gutter to catch rainwater from the roof of a house.\nThe gutter will be open at the top and is made by folding a piece of sheet metal $45\\text{ cm}$ wide and $600\\text{ cm}$ long.\n[Diagram (not to scale): a flat sheet of metal 45 by 600 is folded into an open gutter of length 600 with two vertical sides and a curved base]\nThe cross-section of the gutter is shaded in the following diagram.\n[Diagram (not to scale): shaded cross-section of width $w$ with vertical sides of height 10 ending at A and B; arc AB of a circle with centre O, radius 12, angle $\\theta$ at O between OA and OB]\nThe height of both vertical sides is $10\\text{ cm}$. The width of the gutter is $w\\text{ cm}$.\nArc AB lies on the circumference of a circle with centre O and radius $12\\text{ cm}$.\nLet $\\mathrm{A\\hat{O}B} = \\theta$ radians, where $0 < \\theta < \\pi$.\n(a) Show that $\\theta = 2.08$, correct to three significant figures. [3]\n(b) Find the area of the cross-section of the gutter. [7]\nIn a storm, the total volume, in $\\text{cm}^3$, of rainwater that enters the gutter can be modelled by a function $R(t)$, where $t$ is the time, in seconds, since the start of the storm.\nIt was determined that the rate at which rainwater entered the gutter could be modelled by\n$R'(t) = 50\\cos\\left(\\frac{2\\pi t}{5}\\right) + 3000$, $t \\ge 0$.\nDuring any $60$-second period, if the volume of rainwater entering the gutter is greater than the volume of the gutter, it will overflow.\n(c) Determine whether the gutter overflowed in this storm. Justify your answer. [5]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "4",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.16",
+    "4.8",
+    "1.10",
+    "4.5"
+   ],
+   "text_clean": "11. [Maximum mark: 19]\nA continuous random variable, $X$, has a probability density function defined by\n$f(x) = \\begin{cases} \\frac{6}{\\pi\\sqrt{16-x^2}}, & 0 \\le x \\le 2 \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Find the exact value of $\\mathrm{E}(X)$. [5]\n(b) Find $\\mathrm{P}(X < 0.5)$. [2]\nA laboratory trial may require up to $2$ millilitres of reagent. The amount of reagent used has been found to have a probability distribution that can be modelled by $f(x)$, where $X$ is the amount of reagent in millilitres.\nEach laboratory trial is independent. A trial is considered a success when $X < 0.5$.\n(c) Determine the least number of trials required to be $99\\%$ sure of at least one success. [3]\nTen trials were conducted.\n(d) Find the probability that exactly three trials were successful. [2]\n(e) Write down the number of ways these three successful trials could have occurred consecutively. [1]\nNow consider $n$ trials where it is given that exactly three successes have occurred.\n(f) (i) Write down an expression for the number of ways these three successful trials could have occurred consecutively.\n(ii) Find the greatest value of $n$ such that the probability of three consecutive successful trials is more than $0.05$. [6]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.14",
+    "5.19",
+    "5.15",
+    "5.7"
+   ],
+   "text_clean": "12. [Maximum mark: 21]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{x^2y - y}{x^2 + 1}$, where $y > 0$ and $y = 3$ when $x = 0$.\n(a) Use Euler's method, with a step length of $0.03$, to find an approximate value for $y$ when $x = 0.15$. Give your answer correct to six significant figures. [4]\n(b) (i) Write down the value of $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ when $x = 0$.\n(ii) Show that $\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2} = 3$ when $x = 0$. [5]\n(c) (i) Given that $\\frac{\\mathrm{d}^3y}{\\mathrm{d}x^3} = 9$ when $x = 0$, find the first four terms of the Maclaurin series for $y$.\n(ii) Use the Maclaurin series to find an approximate value for $y$ when $x = 0.15$. Give your answer correct to six significant figures. [3]\n(d) (i) It is given that $\\frac{x^2 - 1}{x^2 + 1} \\equiv 1 - \\frac{2}{x^2 + 1}$.\nSolve the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{x^2y - y}{x^2 + 1}$, where $y > 0$ and $y = 3$ when $x = 0$. Give your answer in the form $y = f(x)$.\n(ii) Hence, find the value of $y$ when $x = 0.15$. Give your answer correct to six significant figures. [7]\n(e) For $0 \\le x < 1$, explain why the approximate value for $y$ obtained using Euler's method will always be less than the actual value for $y$. [2]",
+   "answer_status": "ok"
+  }
+ }
+}

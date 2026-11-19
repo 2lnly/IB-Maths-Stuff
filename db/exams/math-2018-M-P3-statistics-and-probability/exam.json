@@ -1,0 +1,136 @@
+{
+ "exam_id": "math-2018-M-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2018,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2018 May Examination Session/Mathematics_paper_3_Statistics_and_probability__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2018 May Examination Session/Mathematics_paper_3_Statistics_and_probability__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2218-7210; code M18/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches paper total 50",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2018-M-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 11]\nThe weights, X kg, of the males of a species of bird may be assumed to be normally\ndistributed with mean 4.8 kg and standard deviation 0.2 kg.\n(a) Find the probability that a randomly chosen male bird weighs between 4.75 kg and\n4.85 kg. [1]\nThe weights, Y kg, of female birds of the same species may be assumed to be normally\ndistributed with mean 2.7 kg and standard deviation 0.15 kg.\n(b) Find the probability that the weight of a randomly chosen male bird is more than twice\nthe weight of a randomly chosen female bird. [6]\n(c) Two randomly chosen male birds and three randomly chosen female birds are placed\non a weighing machine that has a weight limit of 18 kg. Find the probability that the\ntotal weight of these five birds is greater than the weight limit. [4]",
+   "ms_text": "< < = 1. (a) P(4.75 X 4.85) 0.197 A1\n[1 mark]\n(b) consider the random variable X − 2 Y (M1)\n− =− E( X 2) Y 0.6 (A1)\n− = + Var( X 2) Y Var( X ) 4Var() Y (M1)\n= 0.13 (A1)\nX − 2 Y ~N( − 0.6,0.13)\nP( X − 2 Y > 0) (M1)\n= 0.0480 A1\n[6 marks]\n(c) let W = X + X + Y + Y + Y be the total weight\n1 2 1 2 3\nE( W ) = 17.7 (A1)\nVar( W ) = 2Var( X ) + 3Var() Y = 0.1475 (M1)(A1)\nW ~N(17.7,0.1475)\nP( W> 18) = 0.217 A1\n[4 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 11]\nThe weights, $X$ kg, of the males of a species of bird may be assumed to be normally distributed with mean 4.8 kg and standard deviation 0.2 kg.\n(a) Find the probability that a randomly chosen male bird weighs between 4.75 kg and 4.85 kg. [1]\nThe weights, $Y$ kg, of female birds of the same species may be assumed to be normally distributed with mean 2.7 kg and standard deviation 0.15 kg.\n(b) Find the probability that the weight of a randomly chosen male bird is more than twice the weight of a randomly chosen female bird. [6]\n(c) Two randomly chosen male birds and three randomly chosen female birds are placed on a weighing machine that has a weight limit of 18 kg. Find the probability that the total weight of these five birds is greater than the weight limit. [4]"
+  },
+  {
+   "id": "math-2018-M-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 8]\nConsider an unbiased tetrahedral (four-sided) die with faces labelled 1, 2, 3 and 4\nrespectively.\nThe random variable X represents the number of throws required to obtain a 1.\n(a) State the distribution of X . [1]\nt\n(b) Show that the probability generating function, G(t) , for X is given by Gt ()= . [4]\n4 − 3 t\n(c) Find G'(t) . [2]\n(d) Determine the mean number of throws required to obtain a 1. [1]",
+   "ms_text": "2. (a) X is geometric (or negative binomial) A1\n[1 mark]\n2\n1 1 3 1 3\n= + 2 + 3 + (b) Gt () t t t ... M1A1\n4 44 44\n1 3\nrecognition of GP u = tr , = t (M1)\n1\n4 4\n1\nt\n4 =\nA1\n3\n1 − t\n4\nt\nleading to Gt () = AG\n4 − 3 t\n[4 marks]\n(c) attempt to use product or quotient rule M1\n4\nGt ′ () = A1\n2\n(4 − 3 ) t\n[2 marks]\n(d) 4 A1\nNote: Award A1FT to a candidate that correctly calculates the value of G′ (1) from their Gt ′ () .\n[1 mark]\nTotal [8 marks]\nNote: In question 3, accept answers that round correctly to 2 significant figures.",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "4.L3",
+    "4.L2",
+    "1.8",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 8]\nConsider an unbiased tetrahedral (four-sided) die with faces labelled 1, 2, 3 and 4 respectively.\nThe random variable $X$ represents the number of throws required to obtain a 1.\n(a) State the distribution of $X$. [1]\n(b) Show that the probability generating function, $G(t)$, for $X$ is given by $G(t)=\\frac{t}{4-3t}$. [4]\n(c) Find $G'(t)$. [2]\n(d) Determine the mean number of throws required to obtain a 1. [1]",
+   "review_note": "ms crop ends with a one-line general note for Q3 (accept 2 s.f.); harmless."
+  },
+  {
+   "id": "math-2018-M-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 12]\nA smartphone’s battery life is defined as the number of hours a fully charged battery can be\nused before the smartphone stops working. A company claims that the battery life of a model\nof smartphone is, on average, 9.5 hours. To test this claim, an experiment is conducted on a\nrandom sample of 20 smartphones of this model. For each smartphone, the battery life,\nb hours, is measured and the sample mean, b, calculated. It can be assumed the battery\nlives are normally distributed with standard deviation 0.4 hours.\n(a) State suitable hypotheses for a two-tailed test. [1]\n(b) Find the critical region for testing b at the 5 % significance level. [4]\nIt is then found that this model of smartphone has an average battery life of 9.8 hours.\n(c) Find the probability of making a Type II error. [3]\nAnother model of smartphone whose battery life may be assumed to be normally distributed\nwith mean µ hours and standard deviation 1.2 hours is tested. A researcher measures the\nbattery life of six of these smartphones and calculates a confidence interval of [10.2 , 11.4]\nfor µ .\n(d) Calculate the confidence level of this interval. [4]",
+   "ms_text": "3. (a) H: μ= 9.5 ; H: μ≠ 9.5 A1\n0 1\n[1 mark]\n0.4\n(b) the critical values are 9.51.95996... ± × (M1)(A1)\n20\ni.e. 9.3247 Κ , 9.6753 Κ\nthe critical region is b < 9.32, b > 9.68 A1A1\nNote: Award A1 for correct inequalities, A1 for correct values.\nNote: Award M0 if t-distribution used, note that t (19) = 2.093 …\n97.5\n[4 marks]\n2\n0.4\n(c) B ~ N9.8, (A1)\n20\n( ) P9.3247 Κ < B < 9.6753 Κ (M1)\n= 0.0816 A1\nNote: FT the critical values from (b). Note that critical values of 9.32 and 9.68 give 0.0899.\n[3 marks]\n(d) METHOD 1\n2\n1.2\nX ~ N10.8, (M1)(A1)\n6\nP(10.2 < X < 11.4) = 0.7793 Κ (A1)\nconfidence level is 77.9% A1\nNote: Accept 78%.\nMETHOD 2\n1.2\n11.4 − 10.2 = 2 z × (M1)\n6\nz = 1.224... (A1)\n− Κ < < Κ = Κ P( 1.224 Z 1.224 ) 0.7793 (A1)\nconfidence level is 77.9% A1\nNote: Accept 78%.\n[4 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L6",
+    "4.L5",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 12]\nA smartphone's battery life is defined as the number of hours a fully charged battery can be used before the smartphone stops working. A company claims that the battery life of a model of smartphone is, on average, 9.5 hours. To test this claim, an experiment is conducted on a random sample of 20 smartphones of this model. For each smartphone, the battery life, $b$ hours, is measured and the sample mean, $\\bar{b}$, calculated. It can be assumed the battery lives are normally distributed with standard deviation 0.4 hours.\n(a) State suitable hypotheses for a two-tailed test. [1]\n(b) Find the critical region for testing $\\bar{b}$ at the 5% significance level. [4]\nIt is then found that this model of smartphone has an average battery life of 9.8 hours.\n(c) Find the probability of making a Type II error. [3]\nAnother model of smartphone whose battery life may be assumed to be normally distributed with mean $\\mu$ hours and standard deviation 1.2 hours is tested. A researcher measures the battery life of six of these smartphones and calculates a confidence interval of $[10.2, 11.4]$ for $\\mu$.\n(d) Calculate the confidence level of this interval. [4]"
+  },
+  {
+   "id": "math-2018-M-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 11]\nThe random variables X , Y follow a bivariate normal distribution with product moment\ncorrelation coefficient ρ .\n(a) State suitable hypotheses to investigate whether or not a negative linear association\nexists between X and Y . [1]\nA random sample of 11 observations on X , Y was obtained and the value of the sample\nproduct moment correlation coefficient, r , was calculated to be -0.708 .\n(b) (i) Determine the p-value.\n(ii) State your conclusion at the 1 % significance level. [4]\nThe covariance of the random variables U , V is defined by\nCov(U , V) = E((U- E(U ))(V - E(V ))).\n(c) (i) Show that Cov(U , V) = E(UV ) - E(U )E(V ) .\n(ii) Hence show that if U , V are independent random variables then the population\nproduct moment correlation coefficient, ρ , is zero. [6]",
+   "ms_text": "4. (a) H: ρ= 0 ; H: ρ< 0 A1\n0 1\n[1 mark]\n11 − 2\n=− ( =− 3.0075... ) (b) (i) t (M1)\n0.7081 2 −−\n(0.708)\ndegrees of freedom = 9 (A1)\nP ( T<− 3.0075... ) = 0.00739 A1\nNote: Accept any answer that rounds to 0.0074.\nH or equivalent statement (ii) reject R1\n0\nNote: Apply follow through on the candidate’s p -value.\n[4 marks]\n= ( ( − )( − ) ) (c) (i) Cov( UV , ) E U E( U ) V E() V\n= ( − − + ) E UV E( UV ) E() VU E()E() U V M1\n( ) ( ) ( ) = E( UV ) − EE( UV ) − EE() VU + EE( U )E() V (A1)\n= E( UV ) − E( U )E() V − E()E( V U ) + E( U )E() V A1\nCov( UV , ) = E( UV ) − E( U )E() V AG\n(ii) E( UV ) = E( U )E() V (independent random variables) R1\n⇒ Cov( UV , ) = E( U )E() V − E( U )E() V = 0 A1\nCov( UV , )\nhence, ρ= = 0 A1AG\nVar( U )Var() V\nNote: Accept the statement that Cov(U,V) is the numerator of the formula for ρ.\nNote: Only award the first A1 if the R1 is awarded.\n[6 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L8",
+    "4.L7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 11]\nThe random variables $X, Y$ follow a bivariate normal distribution with product moment correlation coefficient $\\rho$.\n(a) State suitable hypotheses to investigate whether or not a negative linear association exists between $X$ and $Y$. [1]\nA random sample of 11 observations on $X, Y$ was obtained and the value of the sample product moment correlation coefficient, $r$, was calculated to be $-0.708$.\n(b) (i) Determine the $p$-value.\n(ii) State your conclusion at the 1% significance level. [4]\nThe covariance of the random variables $U, V$ is defined by\n$\\mathrm{Cov}(U,V)=\\mathrm{E}\\big((U-\\mathrm{E}(U))(V-\\mathrm{E}(V))\\big)$.\n(c) (i) Show that $\\mathrm{Cov}(U,V)=\\mathrm{E}(UV)-\\mathrm{E}(U)\\mathrm{E}(V)$.\n(ii) Hence show that if $U, V$ are independent random variables then the population product moment correlation coefficient, $\\rho$, is zero. [6]"
+  },
+  {
+   "id": "math-2018-M-P3-statistics-and-probability-q5",
+   "num": "5",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 8]\nThe random variable X has a binomial distribution with parameters n and p .\nX\n(a) Show that P = is an unbiased estimator of p . [2]\nn\nLet U =nP(1 -P) .\nShow that E(U ) = (n- 1)p(1 -p) . (b) (i)\n(ii) Hence write down an unbiased estimator of Var(X ) . [6]",
+   "ms_text": "X 1\n5. (a) E () P = E = E( X ) M1\nn n\n1np = ( ) =\np A1\nn\nso P is an unbiased estimator of p AG\n[2 marks]\nX X\n( ) (b) (i) E nP ( 1 − P ) = E n 1 −\nn n\n1\n= ( ) − ( 2 ) E X E X M1A1\nn\n2 use of ( 2 )\n= + ( ) E X Var() X E() X M1\nNote: Allow candidates to work with P rather than X for the above 3 marks.\n1\n( 2 ) = np − np (1 − p ) + ( np ) A1\nn\n2 = np − p (1 − p ) − np\n= np (1 − p ) − p (1 − p ) A1\nNote: Award A1 for the factor of (1 − p ) .\n= ( n − 1)(1 p − p ) AG\n2 ( − ) nP 1 P\nnU\n(ii) an unbiased estimator is = A1\nn − 1 n − 1\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.8",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 8]\nThe random variable $X$ has a binomial distribution with parameters $n$ and $p$.\n(a) Show that $P=\\frac{X}{n}$ is an unbiased estimator of $p$. [2]\nLet $U=nP(1-P)$.\n(b) (i) Show that $\\mathrm{E}(U)=(n-1)p(1-p)$.\n(ii) Hence write down an unbiased estimator of $\\mathrm{Var}(X)$. [6]"
+  }
+ ],
+ "status": "done"
+}

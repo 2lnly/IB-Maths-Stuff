@@ -1,0 +1,107 @@
+{
+ "exam_id": "math-2019-M-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2019,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2019 May Examination Session/Mathematics_paper_3_Discrete_mathematics__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2019 May Examination Session/Mathematics_paper_3_Discrete_mathematics__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2219-7207; code M19/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 50",
+ "qp_pages": 5,
+ "questions": [
+  {
+   "id": "math-2019-M-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 14]\nIn a housing complex a TV company is installing cables to five houses A, B, C, D and E.\nThe possible routes for the cables are given by the following graph G where each vertex\nrepresents a house and each edge represents a possible route for the cables. The weights of\nthe edges represent the cost, in thousands of dollars, of installing the cables between the houses.\nB\n7\nA\n9 4\n5\nC 12\n13\n8\n11\n6\nE\n9\nD\nThe company wants to find the lowest installation cost that includes each house and returns\nto the start.\n(a) Starting at A, use the nearest-neighbour algorithm to find an upper bound for the\nlowest installation cost.\b [3]\nBy removing A, use the deleted vertex algorithm to find a lower bound for the lowest (b)\ninstallation cost.\b [5]\n(c) (i) State a route which produces the lower bound.\n(ii) State why this is a solution to finding the lowest installation cost.\b [2]\nIn a second housing complex the design for installing cables between five houses P, Q, R, S\nand T is given in the following adjacency table.\nP Q R S T\nP – 1 0 0 1\nQ 1 – 1 1 0\nR 0 1 – 0 1\nS 0 1 0 – 1\nT 1 0 1 1 –\nIn the adjacency table 0 denotes no cable connecting the two houses and 1 denotes a cable\nconnecting the two houses.\n(d) Draw a graph H to represent the second housing complex.\b [2]\n(e) Explain why the graph H is bipartite.\b [2]",
+   "ms_text": "1. (a) attempt at nearest neighbour algorithm M1\nAD\nDE\nEC\nCB\nBA A1\nNote: Award M1 for a route that begins with AD and then DE .\nupper bound =5 + 9 + 6 + 4 + 7\n= = 31($31000) A1\n[3 marks]\n(b) removing vertex A and its adjacent edges produces\nminimal spanning tree is\nBC (4)\nCE (6)\nED (9) A1A1A1\nNote: Accept a correct drawing of the minimal spanning tree.\nadding in the weights of 2 deleted edges of least weight AB and AD (M1)\nlower bound = 19 + 7 + 5\n= 31($31000) = A1\n[5 marks]\neg.ABCEDA A1 (c) (i)\nNote: Accept any starting vertex.\n(ii) EITHER\nbecause the upper bound and lower bound are equal (and the\nlower bound is a cycle) R1\nOR\nbecause the route which gives the lower bound is a (Hamiltonian) cycleR1\n[2 marks]\n(d)\nA2\n[2 marks]\n(e) EITHER\nthe vertices are in two (disjoint) sets where every edge connects a vertex in one\nA1 set with a vertex in the other set\nOR\nthe vertices are in two sets such that no two vertices in the same set are adjacent\nTHEN\n{ P,R,S and { } Q,T } A1\nNote: Award the above A1 for { P,R,S and { } Q,T stated here or seen clearly as }\ntwo disjoint sets in part (d).\n[2 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.8",
+    "6.6",
+    "6.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 14]\nIn a housing complex a TV company is installing cables to five houses A, B, C, D and E. The possible routes for the cables are given by the following graph $G$ where each vertex represents a house and each edge represents a possible route for the cables. The weights of the edges represent the cost, in thousands of dollars, of installing the cables between the houses.\n[Diagram: complete weighted graph G on A, B, C, D, E with edge weights AB = 7, AC = 9, AD = 5, AE = 13, BC = 4, BD = 12, BE = 8, CD = 11, CE = 6, DE = 9]\nThe company wants to find the lowest installation cost that includes each house and returns to the start.\n(a) Starting at A, use the nearest-neighbour algorithm to find an upper bound for the lowest installation cost. [3]\n(b) By removing A, use the deleted vertex algorithm to find a lower bound for the lowest installation cost. [5]\n(c) (i) State a route which produces the lower bound.\n(ii) State why this is a solution to finding the lowest installation cost. [2]\nIn a second housing complex the design for installing cables between five houses P, Q, R, S and T is given in the following adjacency table.\n| | P | Q | R | S | T |\n| P | – | 1 | 0 | 0 | 1 |\n| Q | 1 | – | 1 | 1 | 0 |\n| R | 0 | 1 | – | 0 | 1 |\n| S | 0 | 1 | 0 | – | 1 |\n| T | 1 | 0 | 1 | 1 | – |\nIn the adjacency table 0 denotes no cable connecting the two houses and 1 denotes a cable connecting the two houses.\n(d) Draw a graph $H$ to represent the second housing complex. [2]\n(e) Explain why the graph $H$ is bipartite. [2]"
+  },
+  {
+   "id": "math-2019-M-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 16]\n(a) Use the Euclidean algorithm to find gcd (564 , 254) .\b [5]\n(b) Find a general solution to the linear Diophantine equation 564x+ 254y= 94 .\b [8]\n(c) Find the two solutions such that x , y ∈[–300 , 300] .\b [3]",
+   "ms_text": "= ( ) + 2. (a) 564 2254 56 M1\n= ( ) + 254 456 30 A1\n( ) 56 = 130 + 26 M1\n30 = 1(26) + 4\n() 26 = 64 + 2 A1\n4 = 22 () + 0\n⇒ gcd564,254 ( ) = 2 A1\n[5 marks]\n(b) METHOD 1\n2 = 26 − 64 () (M1)\n= 26 − 630 ( − 26 ) = 726 ( ) − 630 ( ) (A1)\n= 756 ( − 30 ) − 630 ( ) = 756 ( ) − 1330 ( ) (A1)\n= 756 ( ) − 13254 ( − 456 ( ) ) = 5956 ( ) − 13254 ( )\n2 = 59564 ( − 2254 ( ) ) − 13254 ( ) = 59564 ( ) − 131254 ( ) (A1)\n= ( ) − ( ) 94 2773564 6157254 (M1)\nx= 2773 y=− 6157 a solution is and (or equivalent) (A1)\n0 0\n254\n( ) (or equivalent) ( t ∈′ ) x = 2773 + t x = 2773127 + t A1\n2\n564\n(or equivalent) ( ) y =− 6157 − t ( y =− 6157 − 282 t ) t ∈′ A1\n2\n254\nNote: Award A1FTA1FT for a candidate’s x = x + t ( x = x + 127 t ) and\n0 0\n2\n564\ny = y − t ( y = y − 282 t ) .\n0 0\n2\nNote: Accept the tracking of linear combinations when applying the Euclidean\nalgorithm (could be displayed in part (a)).\n[8 marks]\nMETHOD 2\n= ( ) + 94 330 4 (M1)\n= ( ( ) + ) + = ( ) + () 3126 4 4 326 44 (A1)\n( ) ( ( ) ) ( ) ( ) = 326 + 430126 − = 430 − 126 (A1)\n( ) ( ( ) ) ( ) ( ) = 430 − 156130 − = 530 − 156\n( ) = 5254 − 456 ( ) − 156 ( ) = 5254 ( ) − 2156 ( ) (A1)\n= 5254 ( ) − 21564 ( − 2254 ( ) )\n94 =− 21564 ( ) + 47254 ( ) (M1)\nx=− 21 and y= 47 (A1)\n0 0\n254\nx =− 21 + t ( x =− 21127 + t ) (or equivalent) ( t ∈′ ) A1\n2\n564\ny = 47 − t ( y = 47 − 282 t ) (or equivalent) ( t ∈′ ) A1\n2\n254\nNote: Award A1FTA1FT for a candidate’s x = x + t ( x = x + 127 t ) and\n0 0\n2\n564\ny = y − t ( y = y − 282 t ) .\n0 0\n2\nNote: Accept the tracking of linear combinations when applying the Euclidean\nalgorithm (could be displayed in part (a)).\n[8 marks]\n(c) attempt to find a value of t to give ( ,xy in range ) (M1)\nx =− 21,106 A1\ny = 47,235 − A1\nNote:,- xyvalues do not have to be “paired” to gain either of the final two A marks.\nNote: Award A1A0 for one correct ( ,xy. )\n[3 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.3",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 16]\n(a) Use the Euclidean algorithm to find $\\gcd(564, 254)$. [5]\n(b) Find a general solution to the linear Diophantine equation $564x + 254y = 94$. [8]\n(c) Find the two solutions such that $x, y \\in [-300, 300]$. [3]"
+  },
+  {
+   "id": "math-2019-M-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 12]\nOn the 1st March in a country there are 5000 environmentally contaminated sites requiring\nclean-up. By the 1st April 80 % of these 5000 contaminated sites are cleaned up but 200 new\nsites requiring clean-up are identified. This situation is assumed to recur every month. Jim\nsets up a first-degree recurrence relation that represents this information.\n(a) (i) State Jim’s first-degree recurrence relation for the number of sites, un , requiring\nclean-up after n months in the form un=Aun-1+ B , where A and B are non-zero\nconstants.\n(ii) State the value of u0 .\b [2]\n(b) Solve Jim’s first-degree recurrence relation.\b [5]\nJim now sets up a second-degree recurrence relation that gives information regarding\nenvironmental clean-up in a different country.\nThe second model is dn= 0.6dn-1- 0.09dn-2 with initial conditions d0=d1= 4000 .\n(c) Solve Jim’s second-degree recurrence relation.\b [5]",
+   "ms_text": "3. (a) (i) u = 0.2 + 200 A1 u−\nn n 1\n(ii) u= 5000 A1\n0\n[2 marks]\nn\nu= ( ) + Note: In part (b), award full FT for 40000.8 1000 which is obtained from\nn\nu = 0.8 u− + 200 from part (a) (i).\nn n 1\n(b) METHOD 1\nn\nsolution is of the form u = C ( 0.2 ) + D M1\nn\nattempt to use both initial conditions ( u= 5000 and u= 1200 ) M1\n0 1\n= + = + 5000 C D ; 1200 C (0.2) D A1\nattempt to solve equations simultaneously\nC = 4750, D = 250\nn\nu= ( ) + 47500.2 250 A1\nn\n[5 marks]\nMETHOD 2\nn\nsolution is of the form u = C ( 0.2 ) + D M1\nn\nattempt to substitute nu into their recurrence relation M1\nn n − 1\nC ( 0.2 ) + D = 0.2 ( C ( 0.2 ) + D ) + 200\nD = 0.2 D + 200 ⇒ D = 250 M1\nu= ⇒) 5000 = + ( 5000 C 250 A1\n0\nC = 4750\nn\nu= 47500.2 ( ) + 250 A1\nn\n[5 marks]\nMETHOD 3\nn r − 1\nn b\nsolution is of the form u = cr + (M1)\nn\n= = = recognising thatu0 5000,r 0.2 andb 200 (M1)\n0.2 n − 1 n\nu = 50000.2 ( ) + 200 A1\nn\n0.21 −\nn n\nnu= 50000.2 ( ) − 2500.2 ( − 1 ) (M1)\nn n\nu= 47500.2 47500.2 ( ( ) ) + 250 250 A1\nn\n[5 marks]\nMETHOD 4\nu = 0.2 u + 200; u = 0.2 u + 200\n+ − n 1 n n n 1\nu − u = 0.2 u − 0.2 u and so u − 1.2 u + 0.2 u = 0\nn + 1 n n n − 1 n + 1 n n − 1\nλ 2 − λ + = auxiliary equation is 1.2 0.2 0\nn n\nλ= 0.2,1 and so u = C () 1 + D ( 0.2 ) M1\nn\nattempt to use both initial conditions ( u= 5000 and u= 1200 ) M1\n0 1\n5000 = C + D ; 1200 = C (0.2) + D A1\nattempt to solve equations simultaneously (M1)\nC = 4750, D = 250\nn\nu= 47500.2 ( ) + 250 A1\nn\n[5 marks]\nMETHOD 5\n= + let u h p\nn n n\nn\n( ) nh = C 0.2 M1\n= D there is a constant np that satisfies the recurrence relation M1\nD = 0.2 D + 200 ⇒ p = D = 250 M1\nn\nu= = + ( 5000 ⇒) 5000 C 250 A1\n0\nC = 4750\nn\nu= 47500.2 ( ) + 250 A1\nn\n[5 marks]\nMETHOD 6\nu = 0.2 u− + 200\nn n 1\n2 u = 0.20.2 ( u + 200 ) + 200 = 0.2 u + 0.2200 × + 200\n(M1)\nn n − 2 n − 2\n2 3 2 u = 0.2 ( 0.2 u + 200 ) + 0.2200 × + 200 = 0.2 u + 0.2 × 200 + 0.2200 × + 200\nn n − 3 n − 3\n(M1)\n= n − 1 + + ( n − 2 + n − 3 + + + ) u 0.2 (0.2 u 200) 2000.2 0.2 ... 0.2 1\nn 0\nn ( n − 1 n − 2 n − 3 ) u = 0.2 u + 2000.2 + 0.2 + 0.2 + ... + 0.2 + 1 (A1)\nn 0\n− n 10.2\n= ( n ) + nu 50000.2 M1\n20010.2\n−\nn\nu= 47500.2 ( ) + 250 A1\nn\n[5 marks]\n= − (c) d 0.6 d 0.09 d\nn n − 1 n − 2\n2 2 auxiliary equation is λ − 0.6 λ + 0.09 = 0 (or equivalent eg, ( λ− 0.3 ) = 0 ) A1\nλ= 0.3 (A1)\nn n n\nform of solution is d = A ( 0.3 ) + Bn ( 0.3 ) ( d = ( A + Bn )( 0.3 ) ) M1\nn n\nattempt to use both initial conditions ( d= 4000 and d= 4000 ) M1\n0 1\nNote: Award this M1 for using initial conditions on an incorrect solution form.\nd = 4000 ⇒ A = 4000\n0\n28000\nd = 4000 = 40000.3 ( ) + B ( 0.3 ) ⇒ B =\n1\n3\nn\n28000 n ( 0.3 ) 28000 n n n\nd = 40000.3 ( ) + d = 4000 + ( 0.3 ) A1\nn n\n3 3\n[5 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 12]\nOn the 1st March in a country there are 5000 environmentally contaminated sites requiring clean-up. By the 1st April 80% of these 5000 contaminated sites are cleaned up but 200 new sites requiring clean-up are identified. This situation is assumed to recur every month. Jim sets up a first-degree recurrence relation that represents this information.\n(a) (i) State Jim's first-degree recurrence relation for the number of sites, $u_n$, requiring clean-up after $n$ months in the form $u_n = Au_{n-1} + B$, where $A$ and $B$ are non-zero constants.\n(ii) State the value of $u_0$. [2]\n(b) Solve Jim's first-degree recurrence relation. [5]\nJim now sets up a second-degree recurrence relation that gives information regarding environmental clean-up in a different country.\nThe second model is $d_n = 0.6d_{n-1} - 0.09d_{n-2}$ with initial conditions $d_0 = d_1 = 4000$.\n(c) Solve Jim's second-degree recurrence relation. [5]"
+  },
+  {
+   "id": "math-2019-M-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 8]\n(a) Using Fermat’s little theorem, show that the congruence x22+x11 ≡ 2 (mod 11) can be\nexpressed in the form (x + 6)2- 36 ≡ 2 (mod 11) .\b [4]\n(b) Hence solve x22+x11 ≡ 2 (mod 11) .\b [4]\n\b",
+   "ms_text": "22 11\n4. (a) x + x ≡ 2(mod11)\nattempting to use Fermat’s little theorem or its corollary (can be\nseen anywhere) M1\n11\neg, x ≡ x (mod11)\n10 ≡\nor x 1(mod11) (as x cannot be a multiple of 11)\n22 11 2 ⇒ x + x ≡ ( x + x 1(mod11) ) A1\n≡ ( x 2 + 12 x ) (mod11) A1\n( 2 ) ≡ x + 12 x + 36 − 36(mod11) A1\n2\n⇒ ( x + 6 ) − 36 ≡ 2mod11 ( ) AG\nNote: Condone the absence of mod11 in the lines associated with A marks.\n[4 marks]\n(b) METHOD 1\n2\n( x + 6 ) ≡ 5(mod11) (or equivalent) A1\nfor example, attempting a (non-exhaustive) tabular solution (M1)\nEITHER\n2 (\nx + 6 ) ( x+ 6(mod11) )\n4 5\n7 5\nx + 6 ≡ 4(mod11) or x + 6 ≡ 7(mod11)\nOR\n2\nx ( x+ ) 6(mod11)\n1 5\n9 5\nTHEN\nx ≡ ( ) x ≡ ( ) 9mod11 or 1mod11 A1A1\nNote: Condone the absence of mod11 in the working but not in the final answers.\nNote: Accept x ≡− 2mod11 ( ) .\nNote: Accept x =+ 111 k , x = 911 + k (where k ∈′).\n[4 marks]\nMETHOD 2\n2 + ≡ x x 2(mod11)\n2 x + x − 2 ≡ 0(mod11)\nA1\n( )( ) x + 2 x − 1 ≡ 0(mod11) (M1)\nx + 2 ≡ 0(mod11) or x −≡ 1 0(mod11)\nx ≡ ( ) x ≡ ( ) 9mod11 or 1mod11 A1A1\nNote: Condone the absence of mod11 in the working but not in the final answers.\nNote: Accept x ≡− 2mod11 ( ) .\nNote: Accept x =+ 111 k , x = 911 + k (where k∈′).\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.5",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 8]\n(a) Using Fermat's little theorem, show that the congruence $x^{22} + x^{11} \\equiv 2 \\pmod{11}$ can be expressed in the form $(x+6)^2 - 36 \\equiv 2 \\pmod{11}$. [4]\n(b) Hence solve $x^{22} + x^{11} \\equiv 2 \\pmod{11}$. [4]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,297 @@
+{
+ "exam_id": "math-2022-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2022,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2022 May Examination Session/Mathematics_analysis_and_approaches_paper_1__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2022 May Examination Session/Mathematics_analysis_and_approaches_paper_1__TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2222-7106; marks sum matches paper total 110",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2022-M-P1-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\n9 3 x − 5\nFind the value of ∫ d. x\n1 x",
+   "ms_text": "1 3 x − −\n5d 1.\n∫ x = ∫ 3 − 5 x 2 d x (A1)\nx\n1\n3 x − 5d\n2 ∫ x = 3 x − 10 x ( + c ) A1A1\nx\nsubstituting limits into their integrated function and subtracting (M1)\n1 1\n2 2 − ×− − 3(9)10(9) − − 3(1)10(1) − OR 27103 (310)\n= 4 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nFind the value of $\\int_1^9 \\left(\\frac{3\\sqrt{x}-5}{\\sqrt{x}}\\right)\\mathrm{d}x$.",
+   "review_note": "audit: plain definite integral; 5.5 outlier replaced, as 2013-M-P1-TZ2-q1"
+  },
+  {
+   "id": "math-2022-M-P1-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nA survey at a swimming pool is given to one adult in each family. The age of the\nadult, a years old, and of their eldest child, c years old, are recorded.\nThe ages of the eldest child are summarized in the following box and whisker diagram.\ndiagram not to scale\nages of eldest child (years)\n2 67 10 18\n(a) Find the largest value of c that would not be considered an outlier.\b [3]\n7 1\nThe regression line of a on c is a = c + 20 . The regression line of c on a is c = a - 9 .\n4 2\n(b) (i) \u0007One of the adults surveyed is 42 years old. Estimate the age of their eldest child.\n(ii) Find the mean age of all the adults surveyed.\b [4]",
+   "ms_text": "2. (a) IQR = 10 − 6 ( = 4) (A1)\nattempt to find Q+ 1.5IQ × R (M1)\n3\n106 +\n16 A1\n[3 marks]\n1\n(b) (i) choosing c = a − 9 (M1)\n2\n1\n× 42 − 9\n2\n= 12(years old) A1\n(ii) attempt to solve system by substitution or elimination (M1)\n34 (years old) A1\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.10",
+    "4.2",
+    "4.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nA survey at a swimming pool is given to one adult in each family. The age of the adult, $a$ years old, and of their eldest child, $c$ years old, are recorded.\nThe ages of the eldest child are summarized in the following box and whisker diagram.\n[Diagram (not to scale): box and whisker plot of ages of eldest child (years): minimum 2, lower quartile 6, median 7, upper quartile 10, maximum 18]\n(a) Find the largest value of $c$ that would not be considered an outlier. [3]\nThe regression line of $a$ on $c$ is $a = \\frac{7}{4}c + 20$. The regression line of $c$ on $a$ is $c = \\frac{1}{2}a - 9$.\n(b) (i) One of the adults surveyed is 42 years old. Estimate the age of their eldest child.\n(ii) Find the mean age of all the adults surveyed. [4]"
+  },
+  {
+   "id": "math-2022-M-P1-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nConsider the functions fx () = 3sin x + c os x where 0≤x≤π and g(x)=2x where x∈ϒ .\n(a) Find (fοg)(x) .\b [2]\n(b) Solve the equation (fοg)(x)=2 cos 2x where 0≤x≤π .\b [5]",
+   "ms_text": "3. (a) ( f g )() x = f (2) x (A1)\nf (2) x = 3sin 2 x + c os2 x A1\n[2 marks]\n(b) 3sin2 x + cos2 x = 2cos2 x\n= 3sin2 x cos2 x\nrecognizing to use tanorcot M1\n1\ntan2 x = OR cot2 x = 3 (values may be seen in right triangle) (A1)\n3\n1 π =\n(seen anywhere) (accept degrees) (A1) arctan\n3 6\nπ7π\nx = 2 ,\n6 6\nπ7π\nx = , A1A1\n1212\nNote: Do not award the final A1 if any additional solutions are seen.\nAward A1A0 for correct answers in degrees.\nAward A0A0 for correct answers in degrees with additional values.\n[5 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.5",
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nConsider the functions $f(x) = \\sqrt{3}\\sin x + \\cos x$ where $0 \\le x \\le \\pi$ and $g(x) = 2x$ where $x \\in \\mathbb{R}$.\n(a) Find $(f \\circ g)(x)$. [2]\n(b) Solve the equation $(f \\circ g)(x) = 2\\cos 2x$ where $0 \\le x \\le \\pi$. [5]"
+  },
+  {
+   "id": "math-2022-M-P1-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nConsider the curve with equation y=(2x-1)ekx , where x∈ϒ and k∈⁄ .\nThe tangent to the curve at the point where x=1 is parallel to the line y=5ekx .\nFind the value of k .",
+   "ms_text": "4. evidence of using product rule (M1)\nd y\n− × ( kx ) +× kx ( = kx − + ) (2 x 1) k e 2e e(2 kx k 2) A1\nx=\nd\ncorrect working for one of (seen anywhere) A1\nd y\n=⇒ k + k at x 1 k e 2e\nd x\nOR\nslope of tangent is 5ek\ny theird\nx = k ( k ) at 1 equals the slope of y = 5e x = 5e (seen anywhere) (M1)\nd x\nk e k + 2e k = 5e k\nk = 3 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nConsider the curve with equation $y = (2x-1)\\mathrm{e}^{kx}$, where $x \\in \\mathbb{R}$ and $k \\in \\mathbb{Q}$.\nThe tangent to the curve at the point where $x = 1$ is parallel to the line $y = 5\\mathrm{e}^{k}x$.\nFind the value of $k$."
+  },
+  {
+   "id": "math-2022-M-P1-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\nπ 3\nConsider f(x)=4 sin x+2.5 and gx () = 4sin x - + 2.5 + q , where x∈ϒ and q>0 .\n2\nThe graph of g is obtained by two transformations of the graph of f .\n(a) Describe these two transformations.\b [2]\nThe y-intercept of the graph of g is at (0 , r) .\n(b) Given that g(x)≥7 , find the smallest value of r .\b [5]",
+   "ms_text": "translation (shift) by 3π to the right OR positive horizontal direction by 3π\n5. (a) A1\n2 2\ntranslation (shift) by qupwards OR positive vertical direction byq A1\nNote: accept translation by 3π\n2\nq\nDo not accept ‘move’ for translation/shift.\n[2 marks]\n(b) METHOD 1\n3π\nminimum of 4sin x − is 4 − (may be seen in sketch) (M1)\n2\n−+ 4 2.5 + q ≥ 7\nq ≥ (accept q = ) A1 8.5 8.5\nx = and their ( q= ) substituting 0 8.5 to find r (M1)\n− 3π\n+ (\nr = ) 4sin 2.58.5 +\n2\n+ + 4 2.58.5 (A1)\nsmallest value of ris 15 A1\nMETHOD 2\nx = 0 to find an expression (forr ) in terms of q substituting (M1)\n− 3π\n+ + (\ng (0) = r = ) 4sin 2.5 q\n2\n( r = )6.5 + q A1\n3π\nminimum of 4sin x − is 4 − (M1)\n2\n−+ 4 2.5 + q ≥ 7\n−+ 4 2.5 + ( r − 6.5) ≥ 7 (accept =) (A1)\nsmallest value of r is 15 A1\nMETHOD 3\n3π\n4sin x − + 2.5 + q = 4cos x + 2.5 + q A1\n2\ny-intercept of 4cos x + 2.5 + q is a maximum (M1)\namplitude of () gx is 4 (A1)\nattempt to find least maximum (M1)\nr =×+ 2 47\nsmallest value of ris 15 A1\n[5 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.7",
+    "2.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nConsider $f(x) = 4\\sin x + 2.5$ and $g(x) = 4\\sin\\left(x - \\frac{3\\pi}{2}\\right) + 2.5 + q$, where $x \\in \\mathbb{R}$ and $q > 0$.\nThe graph of $g$ is obtained by two transformations of the graph of $f$.\n(a) Describe these two transformations. [2]\nThe $y$-intercept of the graph of $g$ is at $(0, r)$.\n(b) Given that $g(x) \\ge 7$, find the smallest value of $r$. [5]"
+  },
+  {
+   "id": "math-2022-M-P1-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 5]\nn\n1\nConsider the expansion of 8 3x −\nwhere n∈′+ . Determine all possible values of n for\n2 x\nwhich the expansion has a non-zero constant term.",
+   "ms_text": "6. EITHER\nattempt to obtain the general term of the expansion\nr nr −\nnr − 1 r 1 n 3 n 3\nT = C ( 8 x ) − OR T = C ( 8 x ) − (M1)\nr + 1 r r + 1 nr −\n2 x 2 x\nOR\nrecognize power of x starts at 3n and goes down by 4 each time (M1)\nTHEN\nrecognizing the constant term when the power of x is zero (or equivalent) (M1)\n3 n 4\n= = or 3 n − 4 r = 0 r or n r OR 3 r − ( n − r ) = 0 (or equivalent) A1\n4 3\nris a multiple of 3 ( r = 3,6,9,... ) or one correct value of n (seen anywhere) (A1)\n+\nn = 4, kk ∈ A1\nn = Note: Accept n is a (positive) multiple of 4 or 4,8,12,...\nDo not accept n = 4,8,12\nNote: Award full marks for a correct answer using trial and error approach\nshowing n = 4,8,12,... and for recognizing that this pattern continues.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 5]\nConsider the expansion of $\\left(8x^3 - \\frac{1}{2x}\\right)^n$ where $n \\in \\mathbb{Z}^+$. Determine all possible values of $n$ for which the expansion has a non-zero constant term."
+  },
+  {
+   "id": "math-2022-M-P1-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 8]\nThe continuous random variable X has probability density function\nk\n, 0 ≤ x ≤ 1\n= 2 fx () 4 − 3 x\n0 , otherwise.\n(a) Find the value of k .\b [4]\n(b) Find E (X ) .\b [4]",
+   "ms_text": "k\n7. (a) attempt to integrate (M1)\n2 43 − x\n1 3\n= k arcsin x A1\n3 2\n3\nNote: Award (M1)A0 for arcsin .\n2x\nCondone absence of k up to this stage.\nequating their integrand to 1 M1\n1\n1 3\n= k arcsin x 1\n3 2\n0\n33\nk = A1\nπ\n[4 marks]\n33 1 x\n(b) E( X ) = d x A1 ∫\n0 2 π 4 − 3 x\nNote: Condone absence of limits if seen at a later stage.\nEITHER\nattempt to integrate by inspection (M1)\n1 33 1\n−\n( 2 ) 2 = ×− ∫ − 6 x 43 − x d x\nπ 6\n1\n33 1 2\n= − 4 − 3 x A1\nπ 3\n0\nNote: Condone the use of k up to this stage.\nOR\nd u\n= − 2 ⇒ = − for example, u 4 3 x 6 x\nd x\n2 Note: Other substitutions may be used. For example, u = − 3 x .\n1\n3 1 −\n= − ∫ u 2 d u M1\n4 2π\nNote: Condone absence of limits up to this stage.\n1\n32 = − u\nA1\n2π 4\nNote: Condone the use of k up to this stage.\nTHEN\n3\n= A1\nπ\n1\n2 k − 4 − 3 x\nk − 2 u Note: Award A0M1A1A0 for their or\nfor working with\n3\nincorrect or no limits.\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "4"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.16",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 8]\nThe continuous random variable $X$ has probability density function\n$f(x) = \\begin{cases} \\frac{k}{\\sqrt{4-3x^2}}, & 0 \\le x \\le 1 \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Find the value of $k$. [4]\n(b) Find $\\mathrm{E}(X)$. [4]"
+  },
+  {
+   "id": "math-2022-M-P1-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nConsider integers a and b such that a2+b2 is exactly divisible by 4 . Prove by contradiction\nthat a and b cannot both be odd.",
+   "ms_text": "8. Assume that a and b are both odd. M1\nNote: Award M0 for statements such as “let a and b be both odd”.\nNote: Subsequent marks after this M1 are independent of this mark and can be\nawarded.\nThen a = 2 m + and 1 b = 2 n + 1 A1\n2 2 2 2\na + b ≡ (2 m + 1) + (2 n + 1)\n2 2 = 4 m + 4 m ++ 1 4 n + 4 n + 1 A1\n= ( 2 + + 2 + ) + (A1) 4 m m n n 2\n2 2 (( 4m + m + n + n ) is always divisible by 4) but 2 is not divisible by 4. (or equivalent) R1\n2 2 ⇒ a + b is not divisible by 4, a contradiction. (or equivalent) R1\nhenceaand bcannot both be odd. AG\nNote: Award a maximum of M1A0A0(A0)R1R1 for considering identical or two\nconsecutive odd numbers for a and b .\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nConsider integers $a$ and $b$ such that $a^2 + b^2$ is exactly divisible by $4$. Prove by contradiction that $a$ and $b$ cannot both be odd."
+  },
+  {
+   "id": "math-2022-M-P1-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 6]\nConsider the complex numbers z1=1+bi and z2=(1-b2)-2bi , where b∈ϒ , b≠0 .\n(a) Find an expression for z1z2 in terms of b .\b [3]\n) =π, find the value of b .\b (b) Hence, given that argz z ( [3]\n12\n4",
+   "ms_text": "2\n9. (a) z z = ( 1 + b i )( ( 1 − b )( − 2 b ) i )\n12\n= ( − 2 − 2 2 ) + ( − + − 3 ) M1 1 b 2i b i 2 b b b\n2 3 = ( 1 + b ) + i ( −− b b ) A1A1\n2 3 Note: Award A1 for 1b + and A1 for − b i − b i .\n[3 marks]\n3 −− b b π\n(b) arg ( z z ) = arctan = (M1)\n12 2\n1 + b 4\nEITHER\nπ 2\narctan ( − b ) = (since 1 + b ≠ 0,for b ∈ ) A1\n4\nOR\n3 2 −− b b =+ 1 b (or equivalent) A1\nTHEN\nb = − 1 A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 6]\nConsider the complex numbers $z_1 = 1 + b\\mathrm{i}$ and $z_2 = (1 - b^2) - 2b\\mathrm{i}$, where $b \\in \\mathbb{R}$, $b \\ne 0$.\n(a) Find an expression for $z_1 z_2$ in terms of $b$. [3]\n(b) Hence, given that $\\arg(z_1 z_2) = \\frac{\\pi}{4}$, find the value of $b$. [3]"
+  },
+  {
+   "id": "math-2022-M-P1-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 18]\n1\nx + p x + x + Consider the series ln ln ln ... , where x∈ϒ , x>1 and p∈ϒ , p≠0 .\n3\n(a) Consider the case where the series is geometric.\nShow that p = ±1\n(i) .\n3\n(ii) Hence or otherwise, show that the series is convergent.\n3 + 3 , find the value of x .\b (iii) Given that p>0 and S∞= [6]\n(b) Now consider the case where the series is arithmetic with common difference d .\nShow that p =2\n(i) .\n3\n(ii) Write down d in the form k ln x , where k∈⁄ .\n1\n(iii) The sum of the first n terms of the series is ln\n. 3x\nFind the value of n .\b [12]",
+   "ms_text": "10. (a) (i) EITHER\nattempt to use a ratio from consecutive terms M1\n1ln x\np ln x 1 3 1ln 2\n= OR x = ( ln xr ) OR p ln x = ln x\nln x p ln x 3 3 p\n1\n1 p 3\nNote: Candidates may use ln x + ln x + ln x + ... and consider the powers ofx\nin geometric sequence.\n1\np 3\nAward M1 for = .\n1 p\nOR\n1 2\nr = p and r= M1\n3\nTHEN\n1 2 1\np= OR r = ± A1\n3 3\n1\np = ± AG\n3\n1 1 2 2\nNote: Award M0A0 for r= or p= with no other working seen.\n3 3\n(ii) EITHER\n1\nsince, and 1 R1 p= 1\n3<\n3\nOR\n1\nsince, and 1 −< p < 1 R1 p=\n3\nTHEN\n⇒ the geometric series converges. AG\nNote: Accept r instead of p .\nAward R0 if both values of p not considered.\nln x\n(iii) ( =+ 3 3 ) (A1)\n1\n1 −\n3\n3 3\nln x = 3 − + 3 − OR ln x = 3 − 3 + 3 − 1 ( ⇒ ln x = 2 ) A1\n3 3\nx = 2e A1\n[6 marks]\n(b) (i) METHOD 1\nattempt to find a difference from consecutive terms or from u M1\n2\ncorrect equation A1\n1 1ln\np ln x − ln x = ln x − p ln x OR x = ln x + 2 ( p ln x − ln x )\n3 3\n1\n1 + p + 3 +\nNote: Candidates may use ln x ln x ln x ... and consider the powers ofx\nin arithmetic sequence.\n1\nAward M1A1 for p −= 1 − p .\n3\n4 4\n2ln p x = ln x ⇒ 2 p = A1\n3 3\n2\np = AG\n3\nMETHOD 2\nu + u\n1 3 attempt to use arithmetic mean u = M1\n2\n2\n1\nln x + ln x\n3\np ln x = A1\n2\n4 4\n= ⇒ = 2ln p x ln x 2 p A1\n3 3\n2\np = AG\n3\nMETHOD 3\nattempt to find difference using 3u M1\n1ln 1ln\nx = ln x + 2 d ⇒ d = − x\n3 3\n11 1\nu = ln x + ln x − ln x OR p ln x − ln x = − ln x A1\n2\n23 3\n2\np ln x = ln x A1\n3\n2\np = AG\n3\n1 ln (ii) d = − x A1\n3\n(iii) METHOD 1\nn 1\n= + − ×− S 2ln x ( n 1) ln x\nn\n2 3\n1\nattempt to substitute into S and equate to (M1)\nn lnx 3\nn 1 1\n2ln x + ( n − 1) ×− ln x = ln\n3 2 3 x\n1 = −\n3 ( − 3 ) ln ln x = ln x\n(A1)\n3 x\n= − 3ln x (A1)\ncorrect working with S (seen anywhere) (A1) n\nn n 1 nn ( − 1 ) n 4 − n\n2 l n x − ln x + l n x OR n ln x − ln x OR ln x + ln x\n2 3 3 2 3 6\ncorrect equation without ln x A1\nn 7 n ( ) nn − 1\n− = − 3 OR − = − (or equivalent) n 3\n23 3 6\n1\nNote: Award as aboveif the series 1 + p + + ... is considered leading to\n3\nn 7 n\n− = − 3 .\n23 3\nattempt to form a quadratic = 0 (M1)\n2 − − = n 7 n 18 0\nattempt to solve their quadratic (M1)\n( n − 9)( n + 2) = 0\nn = 9 A1\nMETHOD 2\n1 = − −\nln ln x 3 ( = ln x 3 ) (A1)\n3 x\n= − 3ln x (A1)\nlisting the first 7 terms of the sequence (A1)\n2 1 1 2\nln x + ln x + ln x + 0 − ln x − ln x − ln x + ...\n3 3 3 3\nrecognizing first 7 terms sum to 0 M1\n4 ln 8th term is − x (A1)\n3\n− 5ln 9th term is x (A1)\n3\nsum of 8th and 9th terms = − 3ln x (A1)\nn = 9 A1\n[12 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.2",
+    "1.3",
+    "1.8",
+    "1.7",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 18]\nConsider the series $\\ln x + p\\ln x + \\frac{1}{3}\\ln x + \\dots$, where $x \\in \\mathbb{R}$, $x > 1$ and $p \\in \\mathbb{R}$, $p \\ne 0$.\n(a) Consider the case where the series is geometric.\n(i) Show that $p = \\pm\\frac{1}{\\sqrt{3}}$.\n(ii) Hence or otherwise, show that the series is convergent.\n(iii) Given that $p > 0$ and $S_\\infty = 3 + \\sqrt{3}$, find the value of $x$. [6]\n(b) Now consider the case where the series is arithmetic with common difference $d$.\n(i) Show that $p = \\frac{2}{3}$.\n(ii) Write down $d$ in the form $k\\ln x$, where $k \\in \\mathbb{Q}$.\n(iii) The sum of the first $n$ terms of the series is $\\ln\\left(\\frac{1}{x^3}\\right)$. Find the value of $n$. [12]"
+  },
+  {
+   "id": "math-2022-M-P1-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "[Maximum mark: 15] 11.\nConsider the three planes\n∏1 : 2x-y+z=4\n∏2 : x-2y+3z=5\n∏3 : -9x+3y-2z=32\n(a) Show that the three planes do not intersect.\b [4]\n(b) (i) \u0007Verify that the point P (1 , -2 , 0) lies on both ∏1 and ∏2 .\n(ii) Find a vector equation of L , the line of intersection of ∏1 and ∏2 .\b [5]\n(c) Find the distance between L and ∏3 .\b [6]",
+   "ms_text": "11. (a) METHOD 1\nattempt to eliminate a variable M1\nobtain a pair of equations in two variables\nEITHER\n− += − 3 x z 3 and A1\n− 3 x += z 44 A1\nOR\n− 5 x + y = − and 7 A1\n− 5 x + y = 40 A1\nOR\n−= 3 x z 3 and A1\n79\n3 x − z = − A1\n5\nTHEN\n79\nthe two lines are parallel ( −≠ 3 44 or − 7 ≠ 40 or 3 ≠− ) R1\n5\nNote: There are other possible pairs of equations in two variables.\nTo obtain the final R1, at least the initial M1 must have been awarded.\nhence the three planes do not intersect AG\n[4 marks]\nMETHOD 2\n− 1\nvector product of the two normals =− 5 (or equivalent) A1\n− 3\n1 1\nr =− 2 + λ 5 (or equivalent) A1\n0 3\nNote:Award A0 if “ r = ” is missing. Subsequent marks may still be awarded.\n∏ Attempt to substitute (1 + λ ,2 −+ 5,3) λ λ in M1\n3\n− + λ + −+ λ − λ = 9(1 ) 3(2 5) 2(3) 32\n− 15 = 32, a contradiction R1\nhence the three planes do not intersect AG\n[4 marks]\nMETHOD 3\nattempt to eliminate a variable M1\n− + = 3 y 5 z 6 A1\n− 3 y + 5 z = 100 A1\n0 = 94, a contradiction R1\nNote: Accept other equivalent alternatives. Accept other valid methods.\nTo obtain the final R1, at least the initial M1 must have been awarded.\nhence the three planes do not intersect AG\n[4 marks]\n∏ ++ = ∏ ++ = (b) (i) 1 :2 2 0 4 and 2 :14 0 5 A1\n(ii) METHOD 1\nattempt to find the vector product of the two normals M1\n2 1\n− 1 ×− 2\n1 3\n− 1\n=− 5 A1\n− 3\n1 1\nr =− 2 + λ 5 A1A1\n0 3\nNote:Award A1A0 if “r =” is missing.\nAccept any multiple of the direction vector.\nWorking for (b)(ii) may be seen in part (a) Method 2. In this case penalize\nlack of “r =” only once.\nMETHOD 2\nattempt to eliminate a variable from ∏ and ∏ M1\n1 2\n3 x − z = 3 OR 3 y − 5 z = − 6 OR 5 x − y = 7\nLet x = t\nsubstituting x = in 3 t − = x z 3 to obtain\n= −+ y = 5 t − 7 z 33 t and (for all three variables in parametric form) A1\n0 1\nr =− 7 + λ 5 A1A1\n− 3 3\nNote:Award A1A0 if “r =” is missing.\nAccept any multiple of the direction vector. Accept other position vectors\nwhich satisfy both the planes ∏ and ∏.\n1 2\n[5 marks]\n(c) METHOD 1\nthe line connecting L and ∏ is given by 1L\n3\nattempt to substitute position and direction vector to form (M1) 1L\n1 − 9\ns =− 2 + t 3 A1\n− 0 2\nsubstitute ( 19 ,2 − t −+ 3 ,2 t − t ) in ∏ M1\n3\n− 9(19) − t + 3(2 −+ 3 ) t − 2(2) − t = 32\n1\n94 t = 47 ⇒= t A1\n2\n7 1\nattempt to find distance between (1,2,0) − and their point − , − ,1 − (M1)\n2 2\n1 − 9 1\n1 1 2 2 2\n= − 2 + 3 −− 2 = ( − 9 ) + 3 +− (2)\n2 2\n0 − 2 0\n94\n= A1\n2\n[6 marks]\nMETHOD 2\n− 9 x\n3 ⋅ y\n2 z\n∏is given by unit normal vector equation of (M1)\n3\n819 + + 4\n32\n= A1\n94\nlet ∏ be the plane parallel to ∏and passing through P,\n4 3\n∏ then the normal vector equation of is given by\n4\n− 9 x − 9 1\n3 ⋅ y = 3 ⋅− 2 = − 15 M1\n2 z 2 0\nunit normal vector equation of ∏ is given by\n4\n− 9 x\n⋅ 3 y\n2 z − 15\n= A1\n819 + + 4 94\n− 15\ndistance between the planes is 32 −\n(M1)\n94 94\n47 94\n= = A1\n94 2\n[6 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.16",
+    "3.14",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 15]\nConsider the three planes\n$\\Pi_1 : 2x - y + z = 4$\n$\\Pi_2 : x - 2y + 3z = 5$\n$\\Pi_3 : -9x + 3y - 2z = 32$\n(a) Show that the three planes do not intersect. [4]\n(b) (i) Verify that the point $\\mathrm{P}(1, -2, 0)$ lies on both $\\Pi_1$ and $\\Pi_2$.\n(ii) Find a vector equation of $L$, the line of intersection of $\\Pi_1$ and $\\Pi_2$. [5]\n(c) Find the distance between $L$ and $\\Pi_3$. [6]"
+  },
+  {
+   "id": "math-2022-M-P1-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 21]\nThe function f is defined by f(x)=exsinx , where x∈ϒ .\n(a) Find the Maclaurin series for f(x) up to and including the x3 term. [4]\n1 x 2\nx 2 )d x (b) Hence, find an approximate value for ∫ 0esin( . [4]\nThe function g is defined by g (x)=excosx , where x∈ϒ .\n\u0007Show that g (x) satisfies the equation g ″(x)=2(g ′(x)-g (x)) . (c) (i)\n(ii) Hence, deduce that g(4)(x)=2(g ″′(x)-g ″(x)) . [5]\n(d) Using the result from part (c), find the Maclaurin series for g (x) up to and including\nthe x4 term. [5]\nx e cos x −− 1 x\n(e) Hence, or otherwise, determine the value of lim . [3]\n3 x → 0 x",
+   "ms_text": "12. (a) METHOD 1\nrecognition of both known series (M1)\n2 3 5 x x x x\nx e =+ 1 + + ... and sin x = x − + + ...\n1! 2! 3! 5!\nattempt to multiply the two series up to and including 3xterm (M1)\n2 3 5 x x x x\nesin x x = 1 + + + ... x − + + ...\n1! 2! 3! 5!\n3 3 x x\n2 = x − + x + + ... (A1)\n3! 2!\n1\nesin x x = x + x 2 + x 3 + ... A1\n3\n[4 marks]\nMETHOD 2\nx fx () = esin x\nx x f ′ () x = ecos x + esin x\nA1\n′′ x x x x ( x ) f () x = ecos x − esin x + esin x + ecos x = 2ecos x\n′′′ = x − x f () x 2ecos x 2esin x\n′′ = x ′′′ = x ( − ) f () x 2ecos x and f () x 2e cos x sin x A1\nsubstitute x = 0 into for its derivatives to obtain Maclaurin series (M1)\n2 3 x x x\nx esin x = 0 + ×+ 1 ×+ 2 ×+ 2...\n1! 2! 3!\n1 x 2 3\nesin x = x + x + x + ... A1\n3\n[4 marks]\n1 x 2 2 2 4 6\n(b) esin ( x ) = x + x + x + ... (A1)\n3\nsubstituting their expression and attempt to integrate M1\n1 2 1 1 x 2\n≈ 2 + 4 + 6 ∫ esin( x )d x ∫ x x x d x\n0 0 3\nNote: Condone absence of limits up to this stage.\n1\nx 3 x 5 x 7\n= + + A1\n3 5 21\n0\n61\n= A1\n105\n[4 marks]\n(c) (i) attempt to use product rule at least once M1\n′ = x − x gx () ecos x esin x A1\n′′ x x x x ( x ) g () x = ecos x − esin x − esin x − ecos x = − 2esin x A1\nEITHER\n2 ( gx ′ () − gx () ) = 2ecos ( x x − esin x x − ecos x x ) = − 2esin x x A1\nOR\nx x x g ′′ () x = 2ecos ( x − esin x − ecos x ) A1\nTHEN\n′′ = ( ′ − ) gx () 2 gx () gx () AG\nx Note: Accept working with each side separately to obtain 2esin − x\n.\n′′′ = ( ′′ − ′ ) (ii) g () x 2 gx () gx () A1\n()\ng 4() x = 2 ( g ′′′ () x − gx ′′ () ) AG\nx Note: Accept working with each side separately to obtain 4ecos − x\n.\n[5 marks]\n(d) attempt to substitute x = 0 into a derivative (M1)\ng (0) = 1, g ′ (0) = 1, g ′′ (0) = 0 A1\ng ′′′ (0) = − 2, g (4) (0) = − 4 (A1)\nattempt to substitute into Maclaurin formula (M1)\n2 4 1 1 3 4 3 4\ngx () =+ 1 x − x − x + ... =+ 1 x − x − x + ... A1\n3! 4! 3 6\nNote: Do not award any marks for approaches that do not use the part (c) result.\n[5 marks]\n(e) METHOD 1\n1 3 1 4\n1 + x − x − x + ... −− 1 x\necos x x −− 1 x 3 6\nlim = lim M1\n→ 3 → 3 x 0 x x 0 x\n1 1\n= lim − − x + ... (A1)\nx → 0 3 6\n1\n= − A1\n3\nNote: Condone the omission of ... + in their working.\nMETHOD 2\nx −− ecos x 1 x 0\n= lim indeterminate form, attempt to apply l'Hôpital's rule M1\n3 x → 0 x 0\necos x x − esin x x − 1 gx ′ ()1 −\n= lim = lim\n→ 2 → 2 x 0 3 x x 0 3 x\n0 , =\nusing l'Hôpital's rule again\n0\nx − 2esin x gx ′′ ()\n= lim = lim\nx → 0 6 x x → 0 6 x\n0 , =\nusing l'Hôpital's rule again\n0\n− x − x ′′′ 2esin x 2ecos x g () x\n= = lim lim A1\nx → 0 6 x → 0 6\n1\n= − A1\n3\n[3 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.12",
+    "5.6",
+    "5.13",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 21]\nThe function $f$ is defined by $f(x) = \\mathrm{e}^x\\sin x$, where $x \\in \\mathbb{R}$.\n(a) Find the Maclaurin series for $f(x)$ up to and including the $x^3$ term. [4]\n(b) Hence, find an approximate value for $\\int_0^1 \\mathrm{e}^{x^2}\\sin(x^2)\\,\\mathrm{d}x$. [4]\nThe function $g$ is defined by $g(x) = \\mathrm{e}^x\\cos x$, where $x \\in \\mathbb{R}$.\n(c) (i) Show that $g(x)$ satisfies the equation $g''(x) = 2(g'(x) - g(x))$.\n(ii) Hence, deduce that $g^{(4)}(x) = 2(g'''(x) - g''(x))$. [5]\n(d) Using the result from part (c), find the Maclaurin series for $g(x)$ up to and including the $x^4$ term. [5]\n(e) Hence, or otherwise, determine the value of $\\lim_{x \\to 0} \\frac{\\mathrm{e}^x\\cos x - 1 - x}{x^3}$. [3]"
+  }
+ ],
+ "status": "done"
+}

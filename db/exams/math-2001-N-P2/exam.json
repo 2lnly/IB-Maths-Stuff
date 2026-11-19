@@ -1,0 +1,278 @@
+{
+ "exam_id": "math-2001-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2001,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2001 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2001 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); marks sum matches expected total 100",
+ "qp_pages": 11,
+ "questions": [
+  {
+   "id": "math-2001-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 13]\n(a) Solve the following system of linear equations\nx + 3y – 2z = –6\n2x +y + 3z =7\n3x – y +z =6 . [3 marks]\n(b) Find the vector v = (i + 3j – 2k) × (2i + j + 3k) . [3 marks]\n(c) If a = i + 3j – 2k , b = 2i +j + 3kand u = ma + nbwhere m ,nare scalars,\nand u ≠0 , show that vis perpendicular to ufor all mand n . [3 marks]\n(d) The line llies in the plane 3x – y + z = 6 , passes through the point (1, –1, 2)\nand is perpendicular to v .Find the equation of l . [4 marks]",
+   "ms_text": "1 3 − 2 x − 6\n1. (a) The system is 2 1 3 y = 7\n3 − 1 1 z 6\n− 1\nx 1 3 − 2 − 6 1\n⇒ y = 2 1 3 7 =− 1 . (M1)\nz 3 − 1 1 6 2\nTherefore, the solution is x = 1, y = − 1, z = 2 . (G2)\nOR\nThe system of equations is:\n1 3 –2 –6\n2 1 3 7\n3 –1 1 6\n1 3 –2 –6\n← − 0 –5 7 19 R R 2 R\n2 2 1\n← − 0 –10 7 24 R R 3 R\n3 3 1\n1 3 –2 –6\n0 –5 7 19\nR ← R − 2 R 0 0 –7 –14 (M2)\n3 3 2\nBack substitution gives = = − = . x 1, y 1, z 2 (C1)\nOR\nx = 1, y = − 1, z = 2 . (G3)\n[3 marks]\ni j k\n3 − 2 1 − 2 1 3\n(b) v = 1 3 − 2 = i − j + k = 11 i − 7 j − 5 k . (M1)(C2)\n1 3 2 3 2 1\n2 1 3\n[3 marks]\n(c) u = m ( i + 3 j − 2) k + n (2 i + j + 3) k\n= + + + +− + ( m 2) n i (3 m n ) j (2 m 3) n k (C1)\nTherefore, vu ⋅ = 11( m + 2) n − 7(3 m + n ) − 5(2 − m + 3) n\n= 11 m + 22 n − 21 m − 7 n + 10 m − 15 n\n= 0 , for all m and n. (M1)(C1)\nThat is, v is perpendicular to u for all values of m and n. (AG)\nOR\nv is perpendicular to both a and b [from part (b)]. (M1)\nTherefore, va ⋅ = vb ⋅ = 0, so vu ⋅ = m ( va ⋅ ) + n ( vb ⋅ ) = 0 , and hence v\nis perpendicular to u for all values of m and n. (M1)(R1)(AG)\n[3 marks]\n(d) The normal to the plane, 3− i j + k , and v are both perpendicular to the required line, l.\nTherefore, the direction of l is given by\ni j k\n− 7 − 5 11 − 5 11 − 7\nv × (3 i − j + k ) = 11 − 7 − 5 = i − j + k\n− 1 1 3 1 3 − 1\n3 − 1 1\n= − 12 i − 26 j + 10 k (M1)(C2)\nThus, an equation for l is r =− i j + 2 k + λ (6 i + 13 j − 5) k , where λ is a scalar.\n[Any form of the correct answer is quite acceptable.] (C1)\n[4 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.13",
+    "3.14",
+    "3.17",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 13]\n(a) Solve the following system of linear equations\n$x + 3y - 2z = -6$\n$2x + y + 3z = 7$\n$3x - y + z = 6$. [3 marks]\n(b) Find the vector $\\mathbf{v} = (\\mathbf{i} + 3\\mathbf{j} - 2\\mathbf{k}) \\times (2\\mathbf{i} + \\mathbf{j} + 3\\mathbf{k})$. [3 marks]\n(c) If $\\mathbf{a} = \\mathbf{i} + 3\\mathbf{j} - 2\\mathbf{k}$, $\\mathbf{b} = 2\\mathbf{i} + \\mathbf{j} + 3\\mathbf{k}$ and $\\mathbf{u} = m\\mathbf{a} + n\\mathbf{b}$ where $m$, $n$ are scalars, and $\\mathbf{u} \\neq 0$, show that $\\mathbf{v}$ is perpendicular to $\\mathbf{u}$ for all $m$ and $n$. [3 marks]\n(d) The line $l$ lies in the plane $3x - y + z = 6$, passes through the point $(1, -1, 2)$ and is perpendicular to $\\mathbf{v}$. Find the equation of $l$. [4 marks]",
+   "review_note": "ms crop fixed via override (top row of matrix equation was cut off)"
+  },
+  {
+   "id": "math-2001-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\n(i) Let y = sin(kx) – kx cos(kx) , where kis a constant.\nd y 2\nShow that = kx sin( kx ) . [3 marks]\nd x\n(ii) A particle is moving along a straight line so that tseconds after passing\nthrough a fixed point O on the line, its velocity v(t) m s–1is given by\n() = sinπ vt t t .\n3\n(a) Find the values of tfor which v(t) = 0 , given that 0 ≤t ≤6 . [3 marks]\n(b) (i) Write down a mathematical expression for the totaldistance\ntravelled by the particle in the first six seconds after passing\nthrough O .\n(ii) Find this distance. [4 marks]",
+   "ms_text": "2. (i) y = sin( kx ) − kx cos( kx )\nd y\n{ } k cos( kx ) − k cos( kx ) + x [ − k sin( kx )] (M1)(C1)\nx=\nd\n2 = k cos( kx ) − k cos( kx ) + kx sin( kx ) (C1)\n= kx 2sin( kx ) (AG)\n[3 marks]\nπ\n(ii) (a) vt () = t sin t = 0when t = 0, t = 3 or t = 6 (C1)(C1)(C1)\n3\n[3 marks]\n3 π 6 π\n(b) (i) The required distance, d = t sin t d t − t sin t d t ∫ ∫ (M1)\n0 3 3 3\n(ii) d= 2.865 + 8.594 (G2)\n= 11.459\n= 11.5 m. (A1)\nOR\n6 π\n(i) The required distance, d = t sin t d t . (M1) ∫\n0 3\nd= (ii) 11.5 m. (G2)(A1)\nOR\n3 π 6 π\n(i) The required distance, d = ∫ t sin t d t − ∫ t sin t d t (M1)\n0 3 3 3\n2 2\n9 3 π π 6 π π\n= − (ii) d ∫ t sin t d t ∫ t sin t d t (C1)\n2 π 0 3 3 3 3 3\n3 6\n9 π π π π π π\n= sin t − t cos t − sin t − t cos t\n2 π 3 3 3 3 3 3\n0 3\n[from (i)] (C1)\n9(sin = π −π cos π − sin2 π +π 2cos2 π + sin π −π cos π)\n2 π\n36\nm (11.5 m). (A1) =π\n± 18 (5.73) ± Note: Award (A1) for which is obtained by integrating\nπ\nv from 0 to 6.\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.6",
+    "5.11",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\n(i) Let $y = \\sin(kx) - kx\\cos(kx)$, where $k$ is a constant.\nShow that $\\frac{dy}{dx} = k^2 x \\sin(kx)$. [3 marks]\n(ii) A particle is moving along a straight line so that $t$ seconds after passing through a fixed point O on the line, its velocity $v(t)$ m s$^{-1}$ is given by $v(t) = t\\sin\\left(\\frac{\\pi}{3}t\\right)$.\n(a) Find the values of $t$ for which $v(t) = 0$, given that $0 \\le t \\le 6$. [3 marks]\n(b) (i) Write down a mathematical expression for the total distance travelled by the particle in the first six seconds after passing through O.\n(ii) Find this distance. [4 marks]"
+  },
+  {
+   "id": "math-2001-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 13]\nThe line segment [AB] has length l , gradient m , (0 < m < 1) , and passes through\nthe point (0, 1) .It meets the x-axis at A and the line y = xat B , as shown in\nthe diagram.\ny\ny = x\nB\n(0, 1)\nx\nA O\n(a) Find the coordinates of A and B in terms of m . [4 marks]\n2\nm + 1 2\n(b) Show that l = . [3 marks]\n2 2\nm (– 1 m )\n2\nx + 1\n(c) Sketchthe graph of y = , for x ≠0 , x ≠1 , indicating any\n2 2\nx 1(– x )\nasymptotes and the coordinates of any maximum or minimum points. [4 marks]\n(d) Find the value of mfor which lis a minimum, and find this minimum value\nof l . [2 marks]",
+   "ms_text": "3. (a) The equation of (AB) is y = mx + 1 . (M1)(C1)\n1 1\nWhen y = 0, x = − , and when y = xy , = x .\n=−\nm 1 m\n1 1\n=− 1 , 0 Therefore, A , and B = , . (C2)\nm 1 − m 1 − m\n[4 marks]\n2 2\n1 1 1 2\n(b) l = + + (M1)\n1 − m m 1 − m\n2 2 1\n= + + (C1)\n2 2 (1 − m ) m (1 − m ) m\n2 + − + − 2 2 m 2 m (1 m ) (1 m )\n= (C1)\n2 − 2 m (1 m )\n2 m + 1\n= . (AG)\n2 2 m (1 − m )\n[3 marks]\n2 + x 1\n(c) The graph of y = is as follows:\n2 − 2 x (1 x )\ny\n20\n(0.453, 19.6)\n(A2)(A2)\nx 0 1\nx = 1\nNote: Award (A1) for both asymptotes at x = 0 and x = 1 , and (A1) for y = 0 .\nAward (A1) for each correct coordinate for the minimum point.\n[4 marks]\n(d) From part (c), l is a minimum when m = 0.453as0 < m < 1 , and then the minimum (C1)\n( ) (A1) value of l = 4.43 19.63 .\n[2 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.1",
+    "2.13",
+    "2.3",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 13]\nThe line segment [AB] has length $l$, gradient $m$, $(0 < m < 1)$, and passes through the point $(0, 1)$. It meets the $x$-axis at A and the line $y = x$ at B, as shown in the diagram.\n[Diagram: axes with origin O; line $y=x$ through O; segment from A on the negative x-axis through (0, 1) to B on $y=x$]\n(a) Find the coordinates of A and B in terms of $m$. [4 marks]\n(b) Show that $l^2 = \\frac{m^2+1}{m^2(1-m)^2}$. [3 marks]\n(c) Sketch the graph of $y = \\frac{x^2+1}{x^2(1-x)^2}$, for $x \\neq 0$, $x \\neq 1$, indicating any asymptotes and the coordinates of any maximum or minimum points. [4 marks]\n(d) Find the value of $m$ for which $l$ is a minimum, and find this minimum value of $l$. [2 marks]"
+  },
+  {
+   "id": "math-2001-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 17]\n(i) Consider the sequence {an} = {1, 1, 2, 3, 5, 8, 13, ...} where a1 = a2 = 1 and\nan+1 = an + an–1for all integers n ≥2 .\n1 1 Q=\nGiven the matrix , use the principle of mathematical induction\n1 0\na a = n +1 n\nto prove that Qn for all integers n ≥2 . [7 marks]\na a n n – 1\n(ii) (a) Express z5– 1 as a product of two factors, one of which is linear. [2 marks]\n(b) Find the zeros of z5– 1 , giving your answers in the form\nr(cos θ + i sin θ) where r > 0 and –π < θ ≤π . [3 marks]\nExpress z4+ z3+ z2+ z + 1 as a product of two real quadratic factors. (c) [5 marks]",
+   "ms_text": "a a\nn n + 1 n\n4. (i) Let P() n be the proposition: Q = .\na a\nn n − 1\n1 1 1 1 2 1 a a\n2 3 2 P(2) is true since Q = =\n= . (M1)(C1)\n1 0 1 0 1 1 a a 2 1\na a\nk k + 1 k Assume P() k is true for some integer k ≥ 2,that is Q\n= . (M1)\na a\nk k − 1\na a 1 1 +\nk + 1 = k = k 1 k Then, Q QQ\n(M1)\n1 0 a a k k − 1\na + a a + a\nk + 1 k k k − 1\n= (C1)\na a\nk + 1 k\na a\nk + 2 k + 1\n= (C1)\na a\nk + 1 k\nTherefore, P() k is true ⇒ P( k + 1) is true, and so P() n is true for all integers n ≥ 2 . (R1)\n[7 marks]\n5 4 3 2\n(ii) (a) z −= 1 ( z − 1)( z + z + z + z + 1) (C2)\n[2 marks]\n5\n(b) z−= 1 0\n⇒ z = cos0 + isin0(accept z = 1),\n2 π 2 π 4 π 4 π\n. cos ± + isin ± , cos ± ± isin ±\n5 5 5 5\n(C3)\n2 π 2 π 4 π 4 π\nAccept cos ± isin , cos ± isin\n5 5 5 5\n[3 marks]\n2 π 2 π 2 π 2π 2 π 2\n(c) z − cos − isin z − cos + isin = z − 2cos z + 1 (M1)(C1)\n5 5 5 5 5\n4 π 4 π 4 π 4π 4 π 2\nz − cos − isin z − cos + isin = z − 2cos z + 1 (M1)(C1)\n5 5 5 5 5\n2 π 4 π 4\n+ 3 + 2 + += 2 − + 2 − + Thus, z z z z 1 z 2cos z 1 z 2cos z 1 (C1)\n5 5\nOR\n2 π π 4 3 2 2 2\nz + z + z + z += 1 z − 2cos z + 1 z + 2cos z + 1 (C1)\n5 5\nOR\n4 3 2 2 2 z + z + z + z += 1 ( z − 0.618 z + 1 )( z + 1.618 z + 1 )\n(C1)\n[5 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.15",
+    "1.L1",
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 17]\n(i) Consider the sequence $\\{a_n\\} = \\{1, 1, 2, 3, 5, 8, 13, \\ldots\\}$ where $a_1 = a_2 = 1$ and $a_{n+1} = a_n + a_{n-1}$ for all integers $n \\ge 2$.\nGiven the matrix $Q = \\begin{pmatrix} 1 & 1 \\\\ 1 & 0 \\end{pmatrix}$, use the principle of mathematical induction to prove that $Q^n = \\begin{pmatrix} a_{n+1} & a_n \\\\ a_n & a_{n-1} \\end{pmatrix}$ for all integers $n \\ge 2$. [7 marks]\n(ii) (a) Express $z^5 - 1$ as a product of two factors, one of which is linear. [2 marks]\n(b) Find the zeros of $z^5 - 1$, giving your answers in the form $r(\\cos\\theta + i\\sin\\theta)$ where $r > 0$ and $-\\pi < \\theta \\le \\pi$. [3 marks]\n(c) Express $z^4 + z^3 + z^2 + z + 1$ as a product of two real quadratic factors. [5 marks]"
+  },
+  {
+   "id": "math-2001-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 17]\nTwo women, Ann and Bridget, play a game in which they take it in turns to\nthrow an unbiased six-sided die.The first woman to throw a ‘6’ wins the game.\nAnn is the first to throw.\n(a) Find the probability that\n(i) Bridget wins on her first throw;\n(ii) Ann wins on her second throw;\n(iii) Ann wins on her nththrow. [6 marks]\n1 25\n(b) Let pbe the probability that Ann wins the game.Show that p = + p . [4 marks]\n6 36\n(c) Find the probability that Bridget wins the game. [2 marks]\n(d) Suppose that the game is played six times.Find the probability that Ann\nwins more games than Bridget. [5 marks]",
+   "ms_text": "5. (a) (i) P(Bridget wins on her first throw)\n= P(Ann does not throw a ‘6’) × P(Bridget throws a ‘6’) (M1)\n5 1\n= ×\n6 6\n5\n= (C1)\n36\n(ii) P(Ann wins on her second throw)\n= P(Ann does not throw a ‘6’) × P(Bridget does not throw a ‘6’) ×\nP(Ann throws a ‘6’) (M1)\n5 5 1\n= × ×\n6 6 6\n25\n= (C1)\n216\n(iii) P(Ann wins on her nth throw)\n= P(neither Ann nor Bridget win on their first ( n − 1) throws) ×\nP(Ann throws a ‘6’ on her nth throw) (M1)\n2( n− 1)\n5 1\n= × . (C1)\n6 6\n[6 marks]\n(b) p= P(Ann wins)\n= P(Ann wins on her first throw) + P(both Ann and Bridget do not win on their first\nthrows) × P(Ann wins from then on) (M1)(R2)\n2\n1 5\n= + × p (C1)\n6 6\n1 25\n= + (AG)\n36p\n6\nOR\np= P(Ann wins on first throw) + P(Ann wins on second throw) + P(Ann wins on\nthird throw) + … . (M1)\n2 4\n1 5 1 5 1\n= + + + … (C2)\n6 6 6 6 6\n1\n2 4\n1 251 5 1 5 1 6\n= + + + + … (or ) (C1)\n6 366 6 6 6 6 25\n1 −\n36\n1 25\n= + , as required. (AG)\n36p\n6\n[4 marks]\n11 1 6\n(c) From part (b), p = ⇒ p = . (C1)\n36 6 11\n5\nTherefore, P(Bridget wins) =− = . 1 p (C1)\n11\n[2 marks]\n(d) P(Ann wins more games than Bridget)\n= P(Ann wins 4 games) + P(Ann wins 5 games) + P(Ann wins 6 games) (M2)\n4 2 5 6\n6 6 6 5 6 5 6\n= + + (M2)\n4 11 11 5 11 11 11\n4\n6(1525 = × + 365 ×+ 36)\n6 11\n= 0.432 . (A1)\n[5 marks]\nTotal [17 marks]\nNote: Different calculators may give answers which vary slightly from those obtained from tables.\nAccept these unless they need to be penalized under LAP or RP.",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.8",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 17]\nTwo women, Ann and Bridget, play a game in which they take it in turns to throw an unbiased six-sided die. The first woman to throw a '6' wins the game. Ann is the first to throw.\n(a) Find the probability that\n(i) Bridget wins on her first throw;\n(ii) Ann wins on her second throw;\n(iii) Ann wins on her $n^{\\text{th}}$ throw. [6 marks]\n(b) Let $p$ be the probability that Ann wins the game. Show that $p = \\frac{1}{6} + \\frac{25}{36}p$. [4 marks]\n(c) Find the probability that Bridget wins the game. [2 marks]\n(d) Suppose that the game is played six times. Find the probability that Ann wins more games than Bridget. [5 marks]"
+  },
+  {
+   "id": "math-2001-N-P2-q6",
+   "num": "6",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 30]\n(i) Roger uses public transport to go to school each morning.The time he\nwaits each morning for the transport is normally distributed with a mean\nof 15 minutes and a standard deviation of 3 minutes.\n(a) On a specific morning, what is the probability that Roger waits more\nthan 12 minutes? [3 marks]\n(b) During a particular week (Monday–Friday), what is the probability\nthat\n(i) his total waiting time does not exceed 65 minutes? [3 marks]\n(ii) he waits less than 12 minutes on at least three days of the week? [4 marks]\n(iii) his average daily waiting time is more than 13 minutes? [3 marks]\n(ii) An airline is considering banning smoking on its short-distance flights, but\nis concerned about losing customers.They therefore decide to introduce a\n‘no-smoking’ policy for a trial period of six months.\nRandom samples of 200 flights were chosen during the six months before the\ntrial and during the six month trial period, and the number of passengers (n)\non each flight was recorded.The results are given in the following table. (You\nmay assume that the number of passengers per flight is normally distributed).\nnumber of\npassengers 71 ≤n ≤75 76 ≤n ≤80 81 ≤n ≤85 86 ≤n ≤9091 ≤n ≤95 96 ≤n ≤100\n(n)\nnumber of\nflights 0 15 47 52 64 22\nbefore trial\nnumber of\nflights 2 20 50 74 43 11\nduring trial\n(a) Calculate a 95% confidence interval for the average reduction in the\nnumber of passengers after the introduction of the policy. [4 marks]\n(b) Is the new policy producing a reduction in the average number of\npassengers per flight?Use a 5% level of significance. [3 marks]\n(iii) In a computer assembly shop it is claimed that the quality of a part depends\non the day it is produced.To test this claim, a random sample of 500 parts\nis selected, and each part is classified according to the day it was produced\nand its quality rating.The data is shown in the table below.\nDay Produced\nMonday Tuesday Wednesday Thursday Friday\nQuality\nSuperior 44 74 79 72 31\nGood 14 25 27 24 10\nAverage 15 20 20 23 9\nMediocre 3 5 5 0 0\nTest at the 5% level of significance whether the claim is valid.Write down\nyour assumptions and mention any restrictions you may need to impose on\nthe data. [10 marks]",
+   "ms_text": "6. (i) Let W be the time Roger waits each morning W ~ N(15, 9) .\n1215 −\n(a) P( W > 12) = P Z > (M1)\n3\n= P( Z > − 1) = P( Z < 1) (A1)\n= 0.841 . (A1)\nOR\nW> = P( 12) 0.841 (G3)\n[3 marks]\n5\n(b) (i) ∑ W ~ N(75, 45) (A1)\n1\n− 10\nP ( ∑ W < 65 ) = P Z <\n35\n= P( Z < − 1.491) =− 1 P( Z < 1.491) (M1)\n=− 10.9319\n= 0.0681 (A1)\nOR\nP ( ∑ W< 65 ) = 0.0680 (G2)\n[3 marks]\n(ii) P( W< 12) = 0.159\nN− number of days on which he waits less than 12 minutes\nN ~ B(5, 0.159) (M1)(A1)\nP( N ≥ 3) = P( N = 3) + P( N = 4) + P( N = 5) (M1)\n= 0.02843 + 0.00269 + 0.000101\n= 0.0312 (A1)\nOR\nP( N ≥ 3) =− 1 P( N ≤ 2) (M1)\n=− 10.9687\n= 0.0312 (G1)\n[4 marks]\n9\n(iii) W\n~ N15, 5\n1315 −\nP( W > 13) = P Z >\n3 (M1)\n5\n= P( Z > − 1.49) = P( Z < 1.49) (M1)\n= 0.932 (A1)\nOR\nP( W> 13) = 0.932 (G3)\nOR\n> = ( ∑ > ) P( W 13) P W 65 (M1)\n=− 1 P ( ∑ W < 65 ) =− 1 0.068 (M1)\n= 0.932 (A1)\n[3 marks]\n(ii) (a) 95 % C.I. for the difference of 2 means. (C1)\n2 2 ( n − 1)( s ) + ( n − 1)( s ) 1 1\n− ± 1 2 + ( x x ) t (M1)\n1 2\nn + n − 2 n n\n= (88.775 − 87.225) ± 1.960.552 × (M1)\n95 % C.I. for average reduction is (0.469, 2.63) (C1)\n[4 marks]\n(b) H: there is no reduction in the number of passengers, that is, E( X ) − E() Y = 0 0\nH: there is a reduction, that is, E( X ) − E() Y > 0 (C1)\n1\n1-tailed test, with critical value 1.645 and test statistic 2.81. (M1)\nReject H and conclude that the new policy does result in a reduction in the\n0\nnumber of passengers. (R1)\n[3 marks]\n(iii) H: Day of production and quality rating are independent. 0\nH: Day of production and quality rating are not independent. (C1)\n1\nχ 2 This is a test of independence where the expected frequency for each cell is\ntotal of row × total column\n, (M1)\ntotal number\nExpected frequencies\nDay Produced\nQuality M T W Th F\nSuperior 45.6 74.4 78.6 71.4 30\nGood 15.2 24.8 26.2 23.8 10 (A2)\nAverage 13.2 21.6 22.8 20.7 8.7\nMediocre 2 3.2 3.4 3.1 1.3\nNote: Award (A1) if one result is incorrect, (A0) if more than three are incorrect.\nSince the last row contains cells with less than 5 observations, we combine the last\n(R1)\ntwo rows into one row:\nObserved frequencies ( f )\no\nDay Produced\nQuality M T W Th F\nSuperior 44 74 79 72 31\nGood 14 25 27 24 10\nPoor 18 25 25 23 9\nExpected frequencies ( f ) e\nDay Produced\nQuality M T W Th F\nSuperior 45.6 74.4 78.6 71.4 30\nGood 15.2 24.8 26.2 23.8 10\nPoor 15.2 24.8 26.2 23.8 10\n2 ∑ ( f − f )\ne o\nχ 2 = = 0.920 (M1)(A1)\nf\ne\n2 With 8 degrees of freedom, χ= 15.507 (A1)\nc\nSince 0.920 < 15.507 , we fail to reject the null hypothesis and conclude that there (R1)\n(R1) seems to be no association between the day of production and the quality of the part.\nNote: Do not award (R1) to candidates who fail to combine the last 2 rows.\nAllow ft as shown below.\n− 2 ∑ ( f f )\n2 e o χ = = 7.86\n(M1)(A1)\nf\ne\nχ= 2 With 12 degrees of freedom, 21.026 (A1)\nc\nSince 7.86 < 21.026 , we fail to reject the null hypothesis and conclude that there (R1)\nseems to be no association between the day of production and the quality of the part. (R1)\n[10 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L6",
+    "4.8",
+    "4.L4",
+    "4.L7",
+    "4.9",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics",
+   "text_clean": "6. [Maximum mark: 30]\n(i) Roger uses public transport to go to school each morning. The time he waits each morning for the transport is normally distributed with a mean of 15 minutes and a standard deviation of 3 minutes.\n(a) On a specific morning, what is the probability that Roger waits more than 12 minutes? [3 marks]\n(b) During a particular week (Monday–Friday), what is the probability that\n(i) his total waiting time does not exceed 65 minutes? [3 marks]\n(ii) he waits less than 12 minutes on at least three days of the week? [4 marks]\n(iii) his average daily waiting time is more than 13 minutes? [3 marks]\n(ii) An airline is considering banning smoking on its short-distance flights, but is concerned about losing customers. They therefore decide to introduce a 'no-smoking' policy for a trial period of six months.\nRandom samples of 200 flights were chosen during the six months before the trial and during the six month trial period, and the number of passengers ($n$) on each flight was recorded. The results are given in the following table. (You may assume that the number of passengers per flight is normally distributed).\nnumber of passengers ($n$) | $71 \\le n \\le 75$ | $76 \\le n \\le 80$ | $81 \\le n \\le 85$ | $86 \\le n \\le 90$ | $91 \\le n \\le 95$ | $96 \\le n \\le 100$\nnumber of flights before trial | 0 | 15 | 47 | 52 | 64 | 22\nnumber of flights during trial | 2 | 20 | 50 | 74 | 43 | 11\n(a) Calculate a 95% confidence interval for the average reduction in the number of passengers after the introduction of the policy. [4 marks]\n(b) Is the new policy producing a reduction in the average number of passengers per flight? Use a 5% level of significance. [3 marks]\n(iii) In a computer assembly shop it is claimed that the quality of a part depends on the day it is produced. To test this claim, a random sample of 500 parts is selected, and each part is classified according to the day it was produced and its quality rating. The data is shown in the table below.\nQuality \\ Day Produced | Monday | Tuesday | Wednesday | Thursday | Friday\nSuperior | 44 | 74 | 79 | 72 | 31\nGood | 14 | 25 | 27 | 24 | 10\nAverage | 15 | 20 | 20 | 23 | 9\nMediocre | 3 | 5 | 5 | 0 | 0\nTest at the 5% level of significance whether the claim is valid. Write down your assumptions and mention any restrictions you may need to impose on the data. [10 marks]"
+  },
+  {
+   "id": "math-2001-N-P2-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 30]\n1 a b\n(i) (a) Prove that the set of matrices of the form 0 1 c ,\n0 0 1\nwhere a , b , c �R , is a group under matrix multiplication. [7 marks]\n(b) Show that this group is Abelian if and only if there exists a real\nconstant ksuch that c = ka . [4 marks]\n(ii) Let A = {a , b , c , d , e , f } , and Rbe a relation on Adefined by the matrix\nbelow.\n1 0 1 0 1 0\n0 1 0 1 0 0\n1 0 1 0 1 0\n0 1 0 1 0 0\n1 0 1 0 1 0\n0 0 0 0 0 1\n(Note that a ‘1’ in the matrix signifies that the element in the corresponding\nrow is related to the element in the corresponding column, for example dRb\nbecause there is a ‘1’ on the intersection of the d-row and the b-column).\n(a) Assuming that Ris transitive, verify that Ris an equivalence relation. [3 marks]\n(b) Give the partition of Acorresponding to R . [4 marks]\n(iii) (a) In any group, show that if the elements x , y , and xyhave order 2,\nthen xy = yx . [5 marks]\n(b) Show that the inverse of each element in a group is unique. [3 marks]\n–1\n(c) Let Gbe a group. Show that the correspondence x ↔ x is an\nisomorphism from Gonto Gif and only if Gis abelian. [4 marks]",
+   "ms_text": "7. (i) (a) Since the operation is that of matrix muliplication, then the operation is\nassociative. (C1)\n1 a b 1 d e 1 a + d b + e + af\n0 1 c 0 1 f = 0 1 c + f which is of the same form. (M1)\n0 0 1 0 0 1 0 0 1\nThe set is closed under this operation. (C1)\n− 1\n1 a b 1 − a ac − b\n0 1 c 0 1 − c , which is again of the same form. (M2)\n0 0 1 0 0 1\nTherefore, every element has an inverse in the set. (C1)\n1 0 0\nis an element of the set and is of the same form, so the set contains\n0 1 0\nan identity element. (C1)\n0 0 1\nTherefore the set is a group under matrix multiplication.\n[7 marks]\n(b) For this group to be Abelian,\n1 a b 1 d e 1 d e 1 a b\n(M1)\n0 1 c 0 1 f = 0 1 f 0 1 c ,\n0 0 1 0 0 1 0 0 1 0 0 1\n1 a + d b ++ e af 1 a + d b ++ e cd\n⇒ 0 1 c + f = 0 1 c + f , ⇒ af = cd (M1)\n0 0 1 0 0 1\nLet f = k , and d = 1, then c = ka . (A1)\nConversely, if c = ka for every matrix in the group, and therefore f = kd , it\nfollows that af = cd . (A1)\n[4 marks]\n(ii) (a) Since the main diagonal of the matrix has ones, this means that every element\nis related to itself and consequently the relation is reflexive. (C1)\nAlso, the matrix is symmetric and hence, the relation is symmetric. (C2)\n[3 marks]\n(b) The partition of A is the set of all equivalent classes. (C1)\nThe three classes are { } {,,},{,},{} ace bd f (A3)\n[4 marks]\n2\n(iii) (a) ( xy ) = e Order of xy = 2 (M1)\n⇒ ( xy )( xy ) = e ⇒ xyxy ( ) = e Associative property (M1)(M1)\n⇒ xxyxyy ( ) = xey Left and right-multiply (M1)\n⇒ = eyxe ( ) xy Order of elements given (M1)\n⇒ yx = xy (AG)\nOR\n− − − x 1 = xy , 1 = y and ( xy ) 1 = xy\n(R1)(R1) Since xy , and xy are self-inverses,\n1 Consider xy = ( xy− ) (M1)\n= − 1 − 1 yx (M1)\n= yx (M1)(AG)\n[5 marks]\n1 (b) Let a be any element of a group, whose identity is e. Let a− be an inverse of\n1 a, and let b be another inverse of a different from a− .\n− 1 − 1 Now, b = be = baa ( ) = ( baa ) ; identity and associativity properties, (M1)\n= − 1 = − 1 ≠ a− 1 (M1) then, b ea a , which contradicts the assumption that b ,\na− 1 (R1) therefore there is only one inverse of a, namely .\nOR\nLet a be any element of a group whose identity is e. Let b and c be inverses of\na, so that ab = ba = e , and ac = ca = e . (M1)\nConsider b = bac ( )\n= ( bac )\n= c (M1)\nThus any two inverses are equal, so the inverse is unique. (R1)\n[3 marks]\n− 1 − 1 − 1 − 1 − 1 (c) If G is Abelian, then fxy ( ) = ( xy ) = yx = x y = fxfy () () and f is an\nisomorphism. (M1)(R1)\n− − − −\nIf f is an isomorphism, then fxy ( ) = fxfy () () , that is, ( xy ) 1 = x 1 y 1 = ( yx ) 1\nThen xy = yx (M1)\nand hence G is Abelian. (R1)\n[4 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.2",
+    "7.9",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, Relations and Groups",
+   "text_clean": "7. [Maximum mark: 30]\n(i) (a) Prove that the set of matrices of the form $\\begin{pmatrix} 1 & a & b \\\\ 0 & 1 & c \\\\ 0 & 0 & 1 \\end{pmatrix}$, where $a, b, c \\in \\mathbb{R}$, is a group under matrix multiplication. [7 marks]\n(b) Show that this group is Abelian if and only if there exists a real constant $k$ such that $c = ka$. [4 marks]\n(ii) Let $A = \\{a, b, c, d, e, f\\}$, and $R$ be a relation on $A$ defined by the matrix below.\n$\\begin{pmatrix} 1&0&1&0&1&0 \\\\ 0&1&0&1&0&0 \\\\ 1&0&1&0&1&0 \\\\ 0&1&0&1&0&0 \\\\ 1&0&1&0&1&0 \\\\ 0&0&0&0&0&1 \\end{pmatrix}$\n(Note that a '1' in the matrix signifies that the element in the corresponding row is related to the element in the corresponding column, for example $dRb$ because there is a '1' on the intersection of the $d$-row and the $b$-column).\n(a) Assuming that $R$ is transitive, verify that $R$ is an equivalence relation. [3 marks]\n(b) Give the partition of $A$ corresponding to $R$. [4 marks]\n(iii) (a) In any group, show that if the elements $x$, $y$, and $xy$ have order 2, then $xy = yx$. [5 marks]\n(b) Show that the inverse of each element in a group is unique. [3 marks]\n(c) Let $G$ be a group. Show that the correspondence $x \\leftrightarrow x^{-1}$ is an isomorphism from $G$ onto $G$ if and only if $G$ is abelian. [4 marks]"
+  },
+  {
+   "id": "math-2001-N-P2-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 30]\n(i) Use an appropriate sortingalgorithm to sort {4, 3, 2, 5, 1, 8, 7, 6} into\nascending order.Show all the steps used by the algorithm. [5 marks]\n(ii) The diagram shows a weighted graph with vertices A , B , C , D , E and F .\nB 6 D\n8\n3\n1\n2\n2 F\nA\n5\n7\n6 E C\nUse Dijkstra’s Algorithmto find the length of the shortest path between the\nvertices A and F . Show all the steps used by the algorithm and draw the\npath. [6 marks]\n(iii) Let an = pan–1 + qan–2 , n ≥2 , be a second-order difference equation with\nconstant coefficients pand q .\n(a) Show that if ris a root of the characteristic polynomial and kis any\nconstant, then an = krnsatisfies the given difference equation for n ≥2 . [5 marks]\n(b) Show that if bnand cnboth satisfy the given difference equation for\nn ≥2 , then an = bn + cnalso satisfies the given equation. [4 marks]\n(c) Use the results above to prove that if r1and r2are the zeros of the\npolynomial x2– px – q , where r1 ≠r2 , then the solution of the given\ndifference equation is\nn + k2r2 n . an = k1r1 [4 marks]\n(d) Solve the difference equation an = an–1 + 6an–2 , n ≥2 , with a0 = 1 , and\na1 = 3 . [6 marks]",
+   "ms_text": "8. (i) Appropriate algorithms include ‘merge sort’ and ‘bubble sort’, the following tree and\ninverted tree shows how the sequence is taken apart and then put together.\nCandidates may also use a descriptive method to explain the steps.\n43251876\n4325 1876\n43 18 76 25\n4 3 2 5 1 8 7 6\n34 25 18 67\n2345 1678\n12345678\nThe chart demonstrates the steps required:\nDescribe the algorithm (This may be implied by the set-up) (M1)\nSubdivide into smaller lists (M1)\nSort small lists (M1)\nMerge every two lists (M1)\nFinal merge (M1)\nOR\nUsing ‘bubble sort’, the successive steps are: (M1)\n32415768 (M1)\n23145678 (M1)\n21345678 (M1)\n12345678 (A1)\n[5 marks]\n(ii) Iteration: Vertices: Labels:\nFirst: A; A: 0, B: 3, C: 7, D: ∞, E: ∞, F: ∞ (M1)\nSecond: A, B; A: 0, B: 3, C: 5, D: 9, E: ∞, F: ∞ (M1)\nA: 0, B: 3, C: 5, D: 6, E: 11, F: ∞ Third: A, B, C;\nFourth: A, B, C, D; A: 0, B: 3, C: 5, D: 6, E: 8, F: 14 (M1)\nFifth: A, B, C, D, E; A: 0, B: 3, C: 5, D: 6, E: 8, F: 13\nOR\nA B C D E F Step\nvertex added\n1 0( ) 3(A) 7(A) ∞(A) ∞(A) ∞(A) A (M1)\n2 5(B) 9(B) B (M1)\n3 6(C) 11(C) C\n4 8(D) 14(D) D (M1)\n5 13(E) E\n6 F\nSince after this iteration F is a distinguished vertex, we conclude that the shortest\n(R1)(A1) path is A, B, C, D, E, F and has length 13.\nB D\n3\n1\n2 F (A1)\n2\nA\n5\nE C\n[6 marks]\nx 2 − px − q = 0 (C1) (iii) (a) The characteristic polynomial of this equation is of the form .\nSince r is a root of this equation, then\nn − 1 n − 2 pa + qa = pkr ( ) + qkr ( ) (M1)\nn − 1 n − 2\n= n − 2( + kr pr q ) (M1)\nn − 2 2 n = kr r = kr = a (M1)(R1)\nn\n[5 marks]\n(b) b = pb + qb\nn n − 1 n − 2\nc = pc + qc (C1)\nn n − 1 n − 2\n⇒ a = b + c = pb ( + c ) + qb ( + c ) (M1)(M1)\nn n n n − 1 n − 1 n − 2 n − 2\n= pa + qa (R1)\nn − 1 n − 2\nThat is, a = b + c satisfies the given equation. (AG)\nn n n\n[4 marks]\nn (c) Since\n1r is a zero of the characteristic polynomial, then from part (a) k r is a 11\nsolution of the difference equation. (R1)\nn Similarly kr is a solution. (R1)\n22\nBy part (b) the sum of the solutions is also a solution. (R1)\nWith two initial conditions a system of two equations in k and k will have a 1 2\nunique solution because r ≠ r . (R1)\n1 2\n[4 marks]\n2 − − (M1) (d) The characteristic polynomial of this equation is x x 6\nwith solutions r = 3 and r = − 2 . (A1)\n1 2\nThe general solution is then = n + − n . a k 3 k (2) (R1)\nn 1 2\nThe initial conditions will give\nk + k = 1\n1 2\n3 k − 2 k = 3 , which leads to (M1)\n1 2\nk = 1and k = 0 , and the solution is (A1)\n1 2\na= 3n (A1)\nn .\n[6 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.10",
+    "6.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "topic-uncertain"
+   ],
+   "option": "Discrete Mathematics",
+   "text_clean": "8. [Maximum mark: 30]\n(i) Use an appropriate sorting algorithm to sort $\\{4, 3, 2, 5, 1, 8, 7, 6\\}$ into ascending order. Show all the steps used by the algorithm. [5 marks]\n(ii) The diagram shows a weighted graph with vertices A, B, C, D, E and F.\n[Diagram: weighted graph with edges AB = 3, AC = 7, BC = 2, BD = 6, CD = 1, CE = 6, DE = 2, DF = 8, EF = 5]\nUse Dijkstra's Algorithm to find the length of the shortest path between the vertices A and F. Show all the steps used by the algorithm and draw the path. [6 marks]\n(iii) Let $a_n = pa_{n-1} + qa_{n-2}$, $n \\ge 2$, be a second-order difference equation with constant coefficients $p$ and $q$.\n(a) Show that if $r$ is a root of the characteristic polynomial and $k$ is any constant, then $a_n = kr^n$ satisfies the given difference equation for $n \\ge 2$. [5 marks]\n(b) Show that if $b_n$ and $c_n$ both satisfy the given difference equation for $n \\ge 2$, then $a_n = b_n + c_n$ also satisfies the given equation. [4 marks]\n(c) Use the results above to prove that if $r_1$ and $r_2$ are the zeros of the polynomial $x^2 - px - q$, where $r_1 \\neq r_2$, then the solution of the given difference equation is $a_n = k_1 r_1^n + k_2 r_2^n$. [4 marks]\n(d) Solve the difference equation $a_n = a_{n-1} + 6a_{n-2}$, $n \\ge 2$, with $a_0 = 1$, and $a_1 = 3$. [6 marks]",
+   "review_note": "(i) sorting algorithm (merge/bubble sort, 5 marks) has no taxonomy code; left untagged"
+  },
+  {
+   "id": "math-2001-N-P2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 30]\n1\n+\nConsider the function fx ()= x x , where x ∈ R .\n1 − ln x\n(i) (a) Show that the derivative f ′ () x = fx () . [3 marks] 2\nx\n(b) Sketch the function f (x) , showing clearly the local maximum of the\nfunction and its horizontal asymptote.You may use the fact that\nx limln\n=0 . [5 marks]\nx →∞ x\n(c) Find the Taylor expansion of f (x) about x = e , up to the second degree\nterm, and show that this polynomial has the same maximum value as\nf (x) itself. [5 marks]\n∞\n1\n(ii) Determine whether the series ∑ converges.\n1 [4 marks] 1 +\nn\nn = 1 n\nLet g(x) = xm(x – 1)n, where mand nare positive integers.Show using (iii)\nRolle’s theorem that there is a number c �]0 , 1[ which divides the interval\n[0 , 1] in the ratio m : n . [5 marks]\nLet h(x) = ecos x. (iv)\n(a) Show that the area Aenclosed by the curve h(x) , the x-axis, and the\n2 π\nlines x = –10πand x = 20πis equal to 15 () d . ∫ hx x [2 marks]\n0\n(b) Find the number of sub-intervals required for the trapezium rule to\nyield an error less than 0.15 when evaluating A .\nb\n(You may assume that the error in evaluating ∫ hx ()d x by the\na\n3\n( b − a )\ntrapezium rule with nsub-intervals is of the form h″(c) ,\n2\n12 n where a < c< b .)\n[6 marks]",
+   "ms_text": "9. (i) (a) The derivative can be found by logarithmic differentiation. Let y = fx () .\n1 1\nx y = x ⇒ ln y = ln x (M1)\nx\ny ′ − 1 1 1 1 − ln x\n⇒ = ln x + × = (M1)(M1)\n2 2 y x x x x\n1 − ln x\n⇒ y ′ = y\n2 x\n1 − ln x\nthat is, f ′ () x = fx () (AG)\n2 x\n[3 marks]\n(b) This function is defined for positive and real numbers only.\nTo find the exact value of the local maximum:\n′ = ⇒ =⇒ = y 0 ln x 1 x e (M1)\n1\n⇒ = (A1) y ee\nTo find the horizontal asymptote:\n1 ln x\nx lim ( y = x ) ⇒ lim ln y = lim = 0\nx →∞ x →∞ x →∞ x\n⇒ lim y = 1 (M1)(A1)\nx →∞\ny\n1 ( e() )\ne, e\ny=1\n(A1)\nx\n[5 marks]\n(c) By Taylor’s theorem we have\nf ′′ (e)\n′ 2 Px () = f (e) + f (e)( x − e) + ( x − e) (A1)\n2\n2\n1ln − x 2ln x − 3\nf ′′ () x = f ′ () x + fx () (M1)\n2 3 x x\n2 − 3 − 1 1 1 e3 −\nAlso, f ′ (e) = 0, and f ′′ (e) = 0 + f (e) = e e = − e (M1)(A1)\n3 3 e e\n1 − 3\n1 e e 2\nhence Px () = e e − ( x − e) which is a parabola with vertex at x = e and 2\n2\n1\nP = e e = f (e) (R1)(AG) 2(e)\n[5 marks]\n(ii) This can be done using comparison with the harmonic series. (R1)\n1\nLet = represent the harmonic series. nb\nn\na 1 n 1\nn lim = lim × = lim = 1 .\n(M1)(A1) 1 + 1 1\nn →∞ b n →∞ n n 1 n →∞ n n\nn\nSince nb diverges, so does a . (A1)\nn\n[4 marks]\n(iii) f (0) = f (1) = 0 and f is continuous and differentiable on [0, 1], hence by Rolle’s\n′ theorem, there is a number c∈ ]0,1[ such that f () c = 0 . (C1)\n− − − − f ′ () x = mx m 1 ( x − 1) n + nx m ( x − 1) n 1 = x m 1 ( x − 1) n 1 [ mx ( − 1) + nx ]\n, in ]0, 1[ (M1)\n′ f () c = 0 ⇔ mc ( − 1) + nc = 0 ⇔ cm ( + n ) = m (M1)\nm\n⇔ c = (A1)\n+ m n\nm\nc − 0 m m + n\n= = (R1)(AG)\nm 1 − c n\n1 −\nm + n\n[5 marks]\n(iv) (a) Since hx () is periodic with period 2π, the values will repeat every period, and\nhence the area under the curve equals the area under one cycle of the function\nmultiplied by the number of cycles covered. Hence the required result. (R2)\n[2 marks]\n− 3 ( b a ) cos x 2\nhc ′′ (), and hx ′′ () = e (sin x − cos). x (A1) (b) The maximum error is given by\n2 12 n\nf ′′ () x takes its maximum absolute value when x = 0 and h′′ (o) = e . (R1)(A1)\nFor the total error to be 0.15, the error over [0, 2π] must be less than 0.01. (M1)\nπ) 3 π 3 (2 e 2 800 e\n< 0.01 ⇒ n > ⇒ n > 74.96 (M1)\n12 n 2 12\n⇒ n = 75 (A1)\n[6 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L3",
+    "5.L4",
+    "5.L1",
+    "5.15",
+    "5.8",
+    "5.13",
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Analysis and Approximation",
+   "text_clean": "9. [Maximum mark: 30]\nConsider the function $f(x) = x^{\\frac{1}{x}}$, where $x \\in \\mathbb{R}^+$.\n(i) (a) Show that the derivative $f'(x) = f(x)\\left(\\frac{1 - \\ln x}{x^2}\\right)$. [3 marks]\n(b) Sketch the function $f(x)$, showing clearly the local maximum of the function and its horizontal asymptote. You may use the fact that $\\lim_{x\\to\\infty} \\frac{\\ln x}{x} = 0$. [5 marks]\n(c) Find the Taylor expansion of $f(x)$ about $x = e$, up to the second degree term, and show that this polynomial has the same maximum value as $f(x)$ itself. [5 marks]\n(ii) Determine whether the series $\\sum_{n=1}^{\\infty} \\left(\\frac{1}{n^{1+\\frac{1}{n}}}\\right)$ converges. [4 marks]\n(iii) Let $g(x) = x^m (x - 1)^n$, where $m$ and $n$ are positive integers. Show using Rolle's theorem that there is a number $c \\in \\,]0, 1[$ which divides the interval $[0, 1]$ in the ratio $m : n$. [5 marks]\n(iv) Let $h(x) = e^{\\cos x}$.\n(a) Show that the area $A$ enclosed by the curve $h(x)$, the $x$-axis, and the lines $x = -10\\pi$ and $x = 20\\pi$ is equal to $15\\int_0^{2\\pi} h(x)\\,dx$. [2 marks]\n(b) Find the number of sub-intervals required for the trapezium rule to yield an error less than 0.15 when evaluating $A$.\n(You may assume that the error in evaluating $\\int_a^b h(x)\\,dx$ by the trapezium rule with $n$ sub-intervals is of the form $\\frac{(b-a)^3}{12n^2} h''(c)$, where $a < c < b$.) [6 marks]"
+  },
+  {
+   "id": "math-2001-N-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 30]\nThe following diagram shows a circle, centre O and diameter [ED] . (CAX) and (FD) are\ntangents to the circle at A and D respectively.(AB) is perpendicular to (DE) .\nX\nA\nβ\nγ\nδ F θ\nµ\nλ\nα\nE\nO B D C\nLet AE^O = α , EA^X = β , EA^B = γ , BA^D = δ , DA^F = θ , BD ^A = λ , AD ^F = µ .\nAlso, BD = p , EB = q , where q > p .\n(a) Show that triangle AFD is isosceles. [2 marks]\n(b) Show that\n(i) (AD) bisects angle BAC ;\n(ii) (AE) bisects angle BAX . [6 marks]\n(c) Show that {E , D , B , C} is a harmonic division. [4 marks]\nBC=2pq\n(d) Prove that . [3 marks]\nq – p\n(e) Prove that the circle with diameter [AO] is the nine-point circle of triangle\nAED . [8 marks]\n(f) The lines joining the points D and E to the centre of the nine-point circle\nintersect the lines (AE) and (AD) at P and Q respectively.Show that (PQ)\nis parallel to (DE) . [7 marks]",
+   "ms_text": "10. X\nΑ\nβγ\nF\nδ θ\nµ\nλ α\nE\nO B D C\n(a) Since [FA] and [FD] are tangents from the same point, then they are equal. (M1)\nHence triangle FAD is isosceles. (R1)\n[2 marks]\nδ = µ (b) (i) From (a), θ = µ , also, since they are alternate interior angles for the\ntwo parallel lines (AB) and (FD). (M1)(R1)\nHence δ = θ and (AD) bisects angle BAC. (C1)\n[3 marks]\n(ii) Triangle EAD is right angled at A because it is inscribed in a semi circle, hence\nγ and δ are complementary. (R1)\nβ + γ + δ + θ = π⇒ , β + θ are complementary. (M1)\nHence β = γ since they are complements to the equal angles, θ and δ. (R1)\nSo, (AE) bisects angle BAX.\n[3 marks]\nBD AB\n= (c) Since (AD) bisects angle BAC, then by the bisector theorem. (R1)(C1)\nDC AC\nBE\nAlso, (AE) bisects angle BAX, then AB =\n(C1)\nAC EC\nBD BE\nHence = , and the result follows. (C1)\nDC EC\n[4 marks]\nBD BE p q\n(d) = ⇒ = (M1)\nDC EC BC − p q + BC\nq BC − pq = pq + p BC (M1)\n⇒ BC( q − p ) = 2 pq (A1)\n2 pq\n⇒ BC = (AG)\nq − p\n[3 marks]\n(e) The nine-point circle must pass through the midpoints of the sides, the feet of the\naltitudes and the midpoints of the segments joining the orthocentre to the vertices. (C1)\nLet G and H be the midpoints of [AE] and [AD] respectively.\nX\nA\nF\nG\nH\nE\nO B D C\nSince [AO] is the diameter, the midpoint O of one side of DAED is on this circle, the\nline joining the midpoints of two sides of a triangle is parallel to the third side. (C1)\nTherefore (OG)(DA) \" .\nˆ Hence OGA is a right angle, and G is on the circle. H is also on the circle for the\nsame reason. (R1)(C2)\nˆ Since OBA is a right angle, B is on the circle. The other two altitudes are [DA] and\n[EA] so their feet are both at A and therefore on the circle. (R1)(C1)\nSince A is the orthocentre, the midpoint of A and A is A, and hence is on the circle.\nThe other two midpoints coincide with H and G, and hence are on the circle. (R1)\nTherefore the circle passes through all nine points as required.\n[8 marks]\n(f) A\nQ P\nE\nO D\nThe centre of the circle is the midpoint of [OA]. (R1)\nBy drawing the lines as requested, the lines (AO), (DP), and (EQ) will be Cevians of\ntriangle AED. (R1)\nBy Ceva’s theorem,\nDO EP AQ EP AQ\n× × =⇒× 1 1 × = 1 , since O is the centre of circle.\nOE PA QD PA QD (R1)(M2)\nAQ AP\n⇒ = (C1)\nQD PE\nTherefore, (PQ) is parallel to (DE) (R1)\n[7 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "8"
+   ],
+   "subtopics": [
+    "8.1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "option": "Euclidean Geometry and Conic Sections",
+   "text_clean": "10. [Maximum mark: 30]\nThe following diagram shows a circle, centre O and diameter [ED]. (CAX) and (FD) are tangents to the circle at A and D respectively. (AB) is perpendicular to (DE).\n[Diagram: circle centre O, diameter [ED] extended to C; tangent line X–A–F–C touching circle at A; tangent at D meets it at F; AB perpendicular to ED with B between O and D; angles $\\alpha$ at E, $\\beta, \\gamma, \\delta, \\theta$ at A, $\\mu, \\lambda$ at D]\nLet $\\hat{AEO} = \\alpha$, $\\hat{EAX} = \\beta$, $\\hat{EAB} = \\gamma$, $\\hat{BAD} = \\delta$, $\\hat{DAF} = \\theta$, $\\hat{BDA} = \\lambda$, $\\hat{ADF} = \\mu$. Also, $BD = p$, $EB = q$, where $q > p$.\n(a) Show that triangle AFD is isosceles. [2 marks]\n(b) Show that\n(i) (AD) bisects angle BAC;\n(ii) (AE) bisects angle BAX. [6 marks]\n(c) Show that {E, D, B, C} is a harmonic division. [4 marks]\n(d) Prove that $BC = \\frac{2pq}{q-p}$. [3 marks]\n(e) Prove that the circle with diameter [AO] is the nine-point circle of triangle AED. [8 marks]\n(f) The lines joining the points D and E to the centre of the nine-point circle intersect the lines (AE) and (AD) at P and Q respectively. Show that (PQ) is parallel to (DE). [7 marks]"
+  }
+ ],
+ "status": "done"
+}

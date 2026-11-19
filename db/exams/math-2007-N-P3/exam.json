@@ -1,0 +1,411 @@
+{
+ "exam_id": "math-2007-N-P3",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2007,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2007 November Examination Session/Mathematics_paper_3_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2007 November Examination Session/Mathematics_paper_3_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8807-7203; code N07/5/MATHL/HP3/ENG/TZ0/XX; each option section sums to 60",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2007-N-P3-qA1",
+   "num": "A1",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "qA1.webp",
+   "ms_image": "qA1_ms.webp",
+   "text": "1. [Maximum mark: 11]\nJuan plays a quiz game. The scores he achieves on the separate topics may be modelled\nby independent normal distributions.\n(a) On the topic of sport, the scores have the distribution N( 75122. , )\nFind the probability that Juan scores less than 57 points on the topic of sport. [2 marks]\n(b) On the topic of literature, Juan’s scores have a mean of 45, and 30 % of his\nscores are greater than 50.\nFind the standard deviation of his scores on the topic of literature. [3 marks]\n(c) Juan claims that he scores better in current affairs than in sport. He achieves the\nfollowing scores on current affairs in 10 separate quizzes.\n91 84 75 92 88 71 83 90 85 78\nPerform a hypothesis test at the 5 % significance level to decide whether there is\nevidence to support his claim.\n[6 marks]",
+   "ms_text": "57 75\n1. (a) P( X 57) P Z (M1)\n12\nP( Z 1.50) 0.0668 A1\n(same value from tables)\n[2 marks]\n50 45\n(b) P Z 0.7 (M1)\n50 45\n0.5244 A1\n50 45\n0.5244\n9.53 A1\n[3 marks]\n(c) H: 75; H: > 75 A1\n0 current affairs 1 current affairs\nBy GDC for the sample x 83.7, s 7.08754... (A1)\nx\nfor small sample with n 10,\n83.7 75\nt 3.8817 (M1)(A1)\n7.08754...\n10\nEITHER\ncritical value at the 5 % level 9 is 1.833 . A1\n3.8817 1.833hence reject H and accept H R1\n0 1\nOR\np -value 0.00186 so reject Hsince 0.00186 0.05 A1R1\n0\n[6 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.12",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and Probability",
+   "text_clean": "1. [Maximum mark: 11]\nJuan plays a quiz game. The scores he achieves on the separate topics may be modelled by independent normal distributions.\n(a) On the topic of sport, the scores have the distribution $\\mathrm{N}(75, 12^2)$.\nFind the probability that Juan scores less than 57 points on the topic of sport. [2 marks]\n(b) On the topic of literature, Juan's scores have a mean of 45, and 30 % of his scores are greater than 50.\nFind the standard deviation of his scores on the topic of literature. [3 marks]\n(c) Juan claims that he scores better in current affairs than in sport. He achieves the following scores on current affairs in 10 separate quizzes.\n91 84 75 92 88 71 83 90 85 78\nPerform a hypothesis test at the 5 % significance level to decide whether there is evidence to support his claim. [6 marks]"
+  },
+  {
+   "id": "math-2007-N-P3-qA2",
+   "num": "A2",
+   "section": null,
+   "marks": 20,
+   "qtype": "long",
+   "image": "qA2.webp",
+   "ms_image": "qA2_ms.webp",
+   "text": "2. [Maximum mark: 20]\n(a) A horse breeder records the number of births for each of 100 horses during the\npast eight years. The results are summarized in the following table:\nNumber of births 0 1 2 3 4 5 6\nFrequency 1 5 26 37 18 12 1\nStating null and alternative hypotheses carry out an appropriate test at the 5 %\nsignificance level to decide whether the results can be modelled by B(,.) 60 5. [10 marks]\n(b) Without doing any further calculations, explain briefly how you would carry\nout a test, at the 5 % significance level, to decide if the data can be modelled by\nB(, 6p, where p is unspecified. ) [2 marks]\n(c) A different horse breeder collected data on the time and outcome of births.\nThe data are summarized in the following table:\nOutcome Day Night\nLive male 68 42\nLive female 103 57\nDead male 8 18\nDead female 6 12\nCarry out an appropriate test at the 5 % significance level to decide whether\nthere is an association between time and outcome. [8 marks]",
+   "ms_text": "2. (a) METHOD 1\nH:distribution is B(6,0.5); H:distribution is not B(6,0.5) A1\n0 1\n0 1 2 3 4 5 6\nObserved\n1 5 26 37 18 12 1\nfrequency\n25 150 375 500 375 150 25\nExpected\n16 16 16 16 16 16 16\nfrequency\n1.5625 9.375 23.4375 31.25 23.4375 9.375 1.5625\n6 25 E 100(0.5) 0.015625 A3\n0\n16\nCombining the first two columns and the last two columns: A1\n2 O\n2 E\nE\n2 2 2 2 2 6 26 37 18 13\n100 (M1)\n175 375 500 375 175\n16 16 16 16 16\n5.22 A1\n2 4 , so critical value of 9.488 A1A1\n5%\nSince 5.22 9.488 the result is not significant and we accept H R1\n0\n[10 marks]\nMETHOD 2\nH:distribution is B(6,0.5); H:distribution is not B(6,0.5) A1\n0 1\nBy GDC, p 0.266 A8\nSince 0.266 0.05 the result is not significant and we accept H. R1\n0\n[10 marks]\n(b) Estimate p from the data which would entail the loss of one degree of freedom A1A1\n[2 marks]\n(c) METHOD 1\nH: there is no association H: there is an association A1\n0 1\nOutcome O Day E O Night E\nLive males 68 64.8 42 45.2 110\nLive females 103 94.3 57 65.7 160\nDead males 8 15.3 18 10.7 26\nDead females 6 10.6 12 7.4 18\n185 129 314\nA2\n2 2 2 2 2 68 42 103 6 12\n2 ... 314 (M1)\n64.8 45.2 94.3 10.6 7.4\n15.7 A1\n3, 2(3) 7.815 A1A1\n5%\nSince 15.7 7.815 we reject R1 H\n0\n[8 marks]\nMETHOD 2\nH: there is no association H: there is an association A1\n0 1\nBy GDC, p 0.00129 A6\nSince 0.00129 0.05 we reject H. R1\n0\n[8 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and Probability",
+   "text_clean": "2. [Maximum mark: 20]\n(a) A horse breeder records the number of births for each of 100 horses during the past eight years. The results are summarized in the following table:\nNumber of births | 0 | 1 | 2 | 3 | 4 | 5 | 6\nFrequency | 1 | 5 | 26 | 37 | 18 | 12 | 1\nStating null and alternative hypotheses carry out an appropriate test at the 5 % significance level to decide whether the results can be modelled by $\\mathrm{B}(6, 0.5)$. [10 marks]\n(b) Without doing any further calculations, explain briefly how you would carry out a test, at the 5 % significance level, to decide if the data can be modelled by $\\mathrm{B}(6, p)$, where $p$ is unspecified. [2 marks]\n(c) A different horse breeder collected data on the time and outcome of births. The data are summarized in the following table:\nOutcome | Day | Night\nLive male | 68 | 42\nLive female | 103 | 57\nDead male | 8 | 18\nDead female | 6 | 12\nCarry out an appropriate test at the 5 % significance level to decide whether there is an association between time and outcome. [8 marks]"
+  },
+  {
+   "id": "math-2007-N-P3-qA3",
+   "num": "A3",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "qA3.webp",
+   "ms_image": "qA3_ms.webp",
+   "text": "3. [Maximum mark: 15]\n(a) The exponential distribution has the probability density function\nλ − λ x e , for x ≥ 0\nfx () =\n0 , for x < 0 .\nShow that the mean is greater than the median. [4 marks]\n(b) The time in seconds between arrivals of butterflies on a flowering bush can be\nmodelled by an exponential distribution with parameter λ = 0 1..\nA butterfly arrives on the bush.\n(i) Calculate the probability that no other butterfly arrives within 20 seconds.\n(ii) Given that no other butterfly has arrived within 20 seconds, calculate the\nprobability that the next butterfly arrives within 50 seconds of the first. [6 marks]\n(c) The number of goals scored by a soccer team in a period of duration t minutes\nfollows a Poisson distribution with mean t\n36.\n(i) Write down the probability that no goals are scored during a period of\nduration t minutes.\n(ii) The random variable T is defined as the length of time, in minutes, between\nsuccessive goals. Show that T follows an exponential distribution. [5 marks]",
+   "ms_text": "3. (a) EITHER\nMedian, m satisfies\nm m 1 x x\ne d x e M1A1\n0 0 2\n1 m\n1e\n2\nm 1 e A1\n2\nm e 2\nln2 1\nm ln2 m ; mean is A1\nHence mean > median AG\nOR\n1 1\nx P X e d x M1A1\n0\n1\nx e A1\n0\n1 1 e 0.6321 A1\nHence mean > median AG\n[4 marks]\n0.1 x (b) (i) fx () 0.1e\n0.1 x 0.1 x P( X 20) 0.1e d x e M1A1\n20 20\n2 e\n0.135 A1\n(ii) EITHER\nP(next butterfly within 50 seconds of first) 1e (0.1)(5020) M1A1\n3 1 e\n0.950 A1\nOR\nUsing the memoryless property,\nP( T 50 T 20) P(0 T 30) M1\n30 0.1 t\n00.1e d t A1\n3 1e 0.950 A1\nOR\nP(20 T 50)\nP( T 50 T 20) M1\nP( T 20)\n0.1 t 50\n0.1e d t\n20\nA1\n2 e\n2 5 e e\n0.950 A1\n2 e\n[6 marks]\nt\n36 (c) (i) e A1\n(ii) 1 Ft () P( T t ) M1\nP( no goals scored in 0, t ) R1\nt\n36 Ft () 1 e A1\n1 t\nft () e 36 A1\n36\nSo T follows an exponential distribution. AG\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.L1",
+    "4.L3",
+    "4.11",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and Probability",
+   "text_clean": "3. [Maximum mark: 15]\n(a) The exponential distribution has the probability density function\n$f(x) = \\begin{cases} \\lambda e^{-\\lambda x}, & \\text{for } x \\ge 0 \\\\ 0, & \\text{for } x < 0. \\end{cases}$\nShow that the mean is greater than the median. [4 marks]\n(b) The time in seconds between arrivals of butterflies on a flowering bush can be modelled by an exponential distribution with parameter $\\lambda = 0.1$.\nA butterfly arrives on the bush.\n(i) Calculate the probability that no other butterfly arrives within 20 seconds.\n(ii) Given that no other butterfly has arrived within 20 seconds, calculate the probability that the next butterfly arrives within 50 seconds of the first. [6 marks]\n(c) The number of goals scored by a soccer team in a period of duration $t$ minutes follows a Poisson distribution with mean $\\frac{t}{36}$.\n(i) Write down the probability that no goals are scored during a period of duration $t$ minutes.\n(ii) The random variable $T$ is defined as the length of time, in minutes, between successive goals. Show that $T$ follows an exponential distribution. [5 marks]"
+  },
+  {
+   "id": "math-2007-N-P3-qA4",
+   "num": "A4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "qA4.webp",
+   "ms_image": "qA4_ms.webp",
+   "text": "4. [Maximum mark: 14]\n(a) It was found that x people in a sample of 225 supported a smoking ban in public\nplaces. If the 95 % confidence interval for the proportion of people supporting\nthe ban in the population from which the sample was taken is 0 22970 3481 [ . ,. ]\ncalculate the value of x . [4 marks]\n(b) A coin is thought to be biased.\nTo test the coin for bias, Amanda suggests that it should be tossed three times.\nIf all three tosses are heads or all three tosses are tails, then we conclude that the\ncoin is biased.\nRoger suggests that it should be tossed eight times. If at least six tosses are heads\nor at least six tosses are tails, then we conclude that the coin is biased.\n(i) Determine which of the two methods has the smaller probability of making\na Type I error.\n(ii) Determine the probability that Roger will make a Type II error when the\nprobability of a head is actually 0 6.. [10 marks]",
+   "ms_text": "4. (a) METHOD 1\np ˆ (1 p ˆ )\nLower 95 % significance level value 0.2297 p ˆ 1.96 .\n225\nx\nwhere ˆ p M1A1\n225\np ˆ (1 p ˆ )\n(OR upper 95 % significance level value 0.3481 p ˆ 1.96 )\n225\np ˆ (1 p ˆ )\n0.2297 p ˆ 1.96\n225\n1.96\np ˆ 0.2297 p ˆ (1 p ˆ )\n15\nBy GDC p ˆ 0.28892... A1\nx 2250.2889...\nx 65 A1\n[4 marks]\nMETHOD 2\nx\nM1A1\nInterval is symmetric about 225\nx 0.2297 0.3481\nSo 0.2889 A1\n225 2\nx 65 A1\n[4 marks]\n(b) p is the probability of getting a head.\n1 1\nH: p ; H: p M1\n0 1\n2 2\n(i) For Amanda, X is the number of heads obtained when the coin is tossed.\nX : B(3, p )\nP(Type I error) P( X 0 or X 3) M1\n1 1 1\n0.250 A1\n8 8 4\nFor Roger Yis the number of heads, Y : B(8, p )\nP(Type I error) P( Y 6 or Y 2) M1\n8 8 8 8 8 8 8 8 8 8 8 8\n1 1 1 1 1 1\nA1\n6 2 7 2 8 2 2 2 1 2 0 2\n37\n0.2890625 0.289 A1\n128\nSo Amanda’s method has the smaller probability of making a Type I error. A1\n(ii) P(Type II error) P( 3 Y 5) when p 0.6 M1\n8 8 8\n(0.6)(0.4) 3 5 (0.6)(0.4) 4 4 (0.6)(0.4) 5 3 (A1)\n3 4 5\n0.63479808 0.635 A1\n[10 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.8",
+    "4.L6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and Probability",
+   "text_clean": "4. [Maximum mark: 14]\n(a) It was found that $x$ people in a sample of 225 supported a smoking ban in public places. If the 95 % confidence interval for the proportion of people supporting the ban in the population from which the sample was taken is $[0.2297, 0.3481]$ calculate the value of $x$. [4 marks]\n(b) A coin is thought to be biased.\nTo test the coin for bias, Amanda suggests that it should be tossed three times. If all three tosses are heads or all three tosses are tails, then we conclude that the coin is biased.\nRoger suggests that it should be tossed eight times. If at least six tosses are heads or at least six tosses are tails, then we conclude that the coin is biased.\n(i) Determine which of the two methods has the smaller probability of making a Type I error.\n(ii) Determine the probability that Roger will make a Type II error when the probability of a head is actually 0.6. [10 marks]"
+  },
+  {
+   "id": "math-2007-N-P3-qB1",
+   "num": "B1",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "qB1.webp",
+   "ms_image": "qB1_ms.webp",
+   "text": "1. [Maximum mark: 11]\n+ { + } For each n∈ ′, a subset of ′+ is defined by S\nn= x ∈ ′ n divides x .\n(a) Express in simplest terms the membership of the following sets:\n(i) S1 ;\n(ii) S2′;\n(iii) S ∩ S ;\n2 3\n(iv) S \\ S . [7 marks]\n6 3\n(b) Prove that AB ( \\ )∪( BA \\ ) = ( A ∪ B ) \\ ( A ∩ B ). [4 marks]",
+   "ms_text": "1. (a) (i) S x ′ 1 divides x\n1\n1, 2, 3, ... ′ A1\n(ii) S x ′ 2 divides x\n2\n2, 4, 6, ...\nhence S 1, 3, 5, ... A1\n2\n(iii) S x ′ 3 divides x\n3\n3, 6, 9, ... A1\nhence S S 6, 12, 18, ... A1\n2 3\nNote: Accept set descriptions such as ‘positive multiples of 6’.\n(iv) S x ′ 6 divides x\n6\n6, 12, 18, ... A1\nhence S\\ S S S M1A1\n6 3 6 3\n[7 marks]\n(b) ( AB \\ ) ( BA \\ ) ( A B ) ( B A ) M1\nA ( B A ) B ( B A ) A1\n( A B ) ( A A ) ( B B ) ( B A ) A1\n( A B ) ( B A )\n( A B ) ( B A )\n( A B ) ( A B ) A1\n( A B ) \\ ( A B ) AG\nNote: It is possible to start from the right-hand side.\n[4 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "1. [Maximum mark: 11]\nFor each $n \\in \\mathbb{Z}^+$, a subset of $\\mathbb{Z}^+$ is defined by $S_n = \\{x \\in \\mathbb{Z}^+ \\mid n \\text{ divides } x\\}$.\n(a) Express in simplest terms the membership of the following sets:\n(i) $S_1$;\n(ii) $S_2'$;\n(iii) $S_2 \\cap S_3$;\n(iv) $S_6 \\setminus S_3$. [7 marks]\n(b) Prove that $(A \\setminus B) \\cup (B \\setminus A) = (A \\cup B) \\setminus (A \\cap B)$. [4 marks]"
+  },
+  {
+   "id": "math-2007-N-P3-qB2",
+   "num": "B2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "qB2.webp",
+   "ms_image": "qB2_ms.webp",
+   "text": "2. [Maximum mark: 12]\nTwo relations, M and N, are defined on ϒ by:\nxMy if and only if || x ≤ || y ;\n2 2 xNy if and only if x − 2 x = y − 2 y .\n(a) Determine whether M is an equivalence relation. [2 marks]\n(b) (i) Prove that N is an equivalence relation.\n(ii) Determine the equivalence classes of N.\n(iii) Find the equivalence class containing only one element. [10 marks]",
+   "ms_text": "2. (a) M but not 2 M so Mis not symmetric\n1 2 1\nand is not therefore an equivalence relation. A1R1\n[2 marks]\n2 2 (b) (i) N as x 2 x x 2 x so reflexive. A1\nx x\n2 2 2 2 N as x 2 x y 2 y then y 2 y x 2 x so symmetric A1\nx x\nN x 2 2 x y 2 2 y A1\nx y\n2 2 N y 2 y z 2 z A1\ny z\n2 2 x 2 x z 2 z\nHence N is transitive and is therefore an equivalence relation. R1\n(ii) Suppose that y x is in the same equivalence class as x , then\n2 2 x 2 x y 2 y M1A1\n2 2 x y 2 x 2 y\n( x y )( x y ) 2( x y ) A1\nx y 2, x y\n(The equivalence classes are number pairs that add to two). A1\n(iii) If x 1 the class is 1. A1\n[10 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "2. [Maximum mark: 12]\nTwo relations, $M$ and $N$, are defined on $\\mathbb{R}$ by:\n$xMy$ if and only if $|x| \\le |y|$;\n$xNy$ if and only if $x^2 - 2x = y^2 - 2y$.\n(a) Determine whether $M$ is an equivalence relation. [2 marks]\n(b) (i) Prove that $N$ is an equivalence relation.\n(ii) Determine the equivalence classes of $N$.\n(iii) Find the equivalence class containing only one element. [10 marks]"
+  },
+  {
+   "id": "math-2007-N-P3-qB3",
+   "num": "B3",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "qB3.webp",
+   "ms_image": "qB3_ms.webp",
+   "text": "3. [Maximum mark: 15]\n2 Let Fx () = x − | x − 2. |\n(a) The function f is defined by\nf:] −∞ ,] 1 → ϒ where fx , () = Fx () .\nFind the range of f and determine whether it is an injection. [5 marks]\n(b) The function g is defined by\ng : [ 1 , ∞ [ → [ 0 , ∞ [ where gx , () = Fx () .\nShow that g has an inverse and find this inverse. [10 marks]",
+   "ms_text": "3. (a) On ] , 1], x 2 ( x 2) M1\n2 () fx x x 2\nf () x 2 x 1\n2\n1 9\nx A1\n2 4\n9\nRange is , A1\n4\nSince f (2) f (1) 0 ,fis not an injection. R1A1\n[5 marks]\n(b) ln[2, [ , x 2 x 2,\nso gx () x 2 x 2, gx () 2 x 1 and gx () 0 A1\nln[1, 2], x 2 2 x ,\nso gx () x 2 x 2, gx () 2 x 1 and gx () 0 A1\n1 So g is bijective and has an inverse g . R1AG\n2\n1 9 2\nln]1, 2[ , y x x 2 x M1A1\n2 4\n9 1\nx y A1\n4 2\n9 1\nHence g 1 () x x on [0, 4] A1\n4 2\n2\n1 9 2\nln]2, [ , y x x 2 x A1\n2 4\n9 1\nx y A1\n4 2\n9 1 1\nHence g () x x on [0, 4] A1\n4 2\n[10 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "7.3",
+    "2.5",
+    "2.16",
+    "2.6",
+    "5.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "3. [Maximum mark: 15]\nLet $F(x) = x^2 - |x-2|$.\n(a) The function $f$ is defined by\n$f: ]-\\infty, 1] \\to \\mathbb{R}$, where $f(x) = F(x)$.\nFind the range of $f$ and determine whether it is an injection. [5 marks]\n(b) The function $g$ is defined by\n$g: [1, \\infty[ \\to [0, \\infty[$, where $g(x) = F(x)$.\nShow that $g$ has an inverse and find this inverse. [10 marks]",
+   "review_note": "Official markscheme for (b) contains typos (second branch repeats the first branch's inverse; should be $\\sqrt{x-9/4}+1/2$ on ]4,∞[); kept as official."
+  },
+  {
+   "id": "math-2007-N-P3-qB4",
+   "num": "B4",
+   "section": null,
+   "marks": 22,
+   "qtype": "long",
+   "image": "qB4.webp",
+   "ms_image": "qB4_ms.webp",
+   "text": "4. [Maximum mark: 22]\n(a) { , , , } where S is the set of permutations PQRT\n1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4\nP =\n4, Q = 3, R = 2, T=\n1.\n1 2 3 4 1 2 3 4 1 2 3 4\nComplete a Cayley table for S under the operation ∗ (composition of\npermutations) and show that S , ∗ ( ) is a cyclic group. [9 marks]\n(b) A binary operation ⊗ is defined on ϒ by\nx ⊗ y = x + y + sxy\nwhere s is a fixed non-zero real number.\n(i) Show that ⊗ is commutative and associative on ϒ.\n(ii) Find the identity, and hence find the inverse, of the element x. Show, however,\nthat one particular value of x has no inverse. Call this value t.\n(iii) Determine whether or not ϒ\\,t⊗ { } is an Abelian group.\n[13 marks] Find a subset of ϒwhich forms a group of order two.",
+   "ms_text": "4. (a)\n* P Q R T\nP P Q R T\nQ Q R T P\nA3\nR R T P Q\nT T P Q R\nNote: Award A2 if one is wrong, A1 if two are wrong, A0 if three or more are wrong.\nThe table is closed. A1\nIdentity is P A1\nAssociativity follows from associativity of composition of permutations. A1\nInverse of P is P, of Q is T, of R is R and of T is Q A1\nT 1 T ; T 2 R ; T 3 Q ; T 4 P A2\nHence (,) S is a cyclic group. AG\nNote: Q is also a generator.\n[9 marks]\n(b) (i) x y x y sxy\ny x y x syx M1A1\nHence is commutative on ϒ\n( x y ) z ( x y sxy ) z\n2 x y sxy z sxy sxz syz sxyz\nSince this is symmetrical in , xyz then , is associative on ϒ. M1A1\n(ii) If e is the identity element\nx e x e sxe x M1\ne (1 sx ) 0\ne 0 A1\nx x 1 x x 1 sxx 1 0 M1\nx 1 (1 sx ) x\nx 1\nx A1\n1 sx\n1\nThere is no inverse for x t A1\ns\n(iii)Yes since ϒ \\,t is closed,\nassociative, has an identity element,\neach element has a unique inverse and\nis commutative. A1R1\nUsing\nx x 2 x sx 2 0 M1\n2\nx 0, A1\ns\n[13 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.5",
+    "7.7",
+    "7.6",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "4. [Maximum mark: 22]\n(a) $S$ is the set of permutations $\\{P, Q, R, T\\}$ where\n$P = \\begin{pmatrix}1&2&3&4\\\\1&2&3&4\\end{pmatrix}$, $Q = \\begin{pmatrix}1&2&3&4\\\\4&1&2&3\\end{pmatrix}$, $R = \\begin{pmatrix}1&2&3&4\\\\3&4&1&2\\end{pmatrix}$, $T = \\begin{pmatrix}1&2&3&4\\\\2&3&4&1\\end{pmatrix}$.\nComplete a Cayley table for $S$ under the operation $*$ (composition of permutations) and show that $(S, *)$ is a cyclic group. [9 marks]\n(b) A binary operation $\\otimes$ is defined on $\\mathbb{R}$ by\n$x \\otimes y = x + y + sxy$\nwhere $s$ is a fixed non-zero real number.\n(i) Show that $\\otimes$ is commutative and associative on $\\mathbb{R}$.\n(ii) Find the identity, and hence find the inverse, of the element $x$. Show, however, that one particular value of $x$ has no inverse. Call this value $t$.\n(iii) Determine whether or not $\\{\\mathbb{R} \\setminus t, \\otimes\\}$ is an Abelian group. Find a subset of $\\mathbb{R}$ which forms a group of order two. [13 marks]"
+  },
+  {
+   "id": "math-2007-N-P3-qC1",
+   "num": "C1",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "qC1.webp",
+   "ms_image": "qC1_ms.webp",
+   "text": "1. [Maximum mark: 19]\n(a) (i) State the domain and range of the function fx () = arcsin () x .\n[8 marks] (ii) Determine the first two non-zero terms in the Maclaurin series for fx () .\n(b) Use the small angle approximation\n2 4 y y\ncos() y ≈− 1 +\n2 24\nto find a series for cosarcsin () ( x ) up to and including the term in x4. [4 marks]\n2 r (c) (i) Find the Maclaurin series for ( p + qx ) up to and including the term in x4\nwhere p, q, r ∈ϒ.\n(ii) Find values of p, q, r such that your series in (c) (i) is identical to your\nanswer to (b). Comment on this result. [7 marks]",
+   "ms_text": "1 (a) (i) Domain 1, 1 A1\nRange , A1\n2 2\n(ii) fx () arcsin, x f (0) 0 A1\n1\nf () x , f (0) 1 A1\n1 x 2\n3 1\n2 f () x (1 x ) 2 (2), x f (0) 0 A1\n2\n5 3 3\n2 2 2 2 f () x x (1 x ) (2) x (1 x ) , A1\n2\nf (0) 1 A1\n3 x\nfx () x ... A1\n6\n[8 marks]\n2 4\nx 3 x 3\nx x\n6 6\n(b) cos(arcsin) x 1 M1A1\n2 24\n4 x\n2 x ...\nx 4 ... 3\n1 A1\n2 24\n2 4 x x\n=1 A1\n2 8\n[4 marks]\n2 q q rr ( 1) q\nr 2 r r 2 4 (c) (i) p (1 x ) p 1 r x x M1A1\n2 p p 2 p\n1 1 rr ( 1) 1 r 2\n(ii) Equating: p 1 p 1; rq q ; q M1\n2 2 r 2 8\nrr ( 1) 1 1 r 1\n1 M1\n2 2 4 r 8 r\nr 1 r\n1; r q 1 A1\n2\n21/2 Series is (1 x )\nThe same function is being considered in (b) and (c) R1\n2 21/2 since cos(arcsin) x cosarccos(1- x ) (1 x ) R1 [7 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "5.19",
+    "1.10",
+    "3.9",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "1. [Maximum mark: 19]\n(a) (i) State the domain and range of the function $f(x) = \\arcsin(x)$.\n(ii) Determine the first two non-zero terms in the Maclaurin series for $f(x)$. [8 marks]\n(b) Use the small angle approximation\n$\\cos(y) \\approx 1 - \\frac{y^2}{2} + \\frac{y^4}{24}$\nto find a series for $\\cos(\\arcsin(x))$ up to and including the term in $x^4$. [4 marks]\n(c) (i) Find the Maclaurin series for $(p + qx^2)^r$ up to and including the term in $x^4$ where $p, q, r \\in \\mathbb{R}$.\n(ii) Find values of $p, q, r$ such that your series in (c)(i) is identical to your answer to (b). Comment on this result. [7 marks]"
+  },
+  {
+   "id": "math-2007-N-P3-qC2",
+   "num": "C2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "qC2.webp",
+   "ms_image": "qC2_ms.webp",
+   "text": "2. [Maximum mark: 10]\n2 2 a + x )\nDetermine limln ( (a) , where a is a positive constant, not equal to 1. [3 marks]\n3 x → 0 ln ( a − x )\n2 1 + x )\n(b) Calculate limln ( . [3 marks]\n2 x → 0 ln ( 1 − x )\n2 2 + x − 2 cos x\n(c) Show that lim . [4 marks] = 1\nx − x x → 0 e + e − 2 cos x",
+   "ms_text": "2 2 2 ln( a x ) ln a\n2. (a) lim M1A1\nx 0 ln( a x 3 ) ln a\n2ln a\n2 A1\nln a\n[3 marks]\n2 x\n2 2 ln(1 x )\n1 x\n(b) lim lim M1A1\nx 0 2 x 0 2 x ln(1 x )\n2 1 x\n2 (1 x )\nlim 1 A1\n2 x 0 (1 x )\n[3 marks]\n2 x 2 2cos x 2 x 2sin x\n(c) lim lim M1A1\nx x x x x 0 e e 2cos x x 0 e e 2sin x\n2 2cos x\nA1\nlime x x x 0\ne 2cos x\n4\nA1\n4\n1 AG\n4 \" Note: The expression \"\nmust be shown to obtain the A1.\n4\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.13",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "2. [Maximum mark: 10]\n(a) Determine $\\lim_{x \\to 0}\\left(\\frac{\\ln(a^2 + x^2)}{\\ln(a - x^3)}\\right)$, where $a$ is a positive constant, not equal to 1. [3 marks]\n(b) Calculate $\\lim_{x \\to 0}\\left(\\frac{\\ln(1 + x^2)}{\\ln(1 - x^2)}\\right)$. [3 marks]\n(c) Show that $\\lim_{x \\to 0}\\left(\\frac{2 + x^2 - 2\\cos x}{e^x + e^{-x} - 2\\cos x}\\right) = 1$. [4 marks]"
+  },
+  {
+   "id": "math-2007-N-P3-qC3",
+   "num": "C3",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "qC3.webp",
+   "ms_image": "qC3_ms.webp",
+   "text": "3. [Maximum mark: 14]\n(a) A homogeneous differential equation has the form\nd y y\n= F\n.\nd x x\ny\nShow that the substitution v = leads to a differential equation which can be solved\nx\nby separation of variables. [3 marks]\n(b) Show that the linear change of variables X = x − 1 , Y = y − 2 , transforms\nthe equation\nd y x + 3 y − 7\n=\n1 to a homogeneous form.\nd x 3 x − y −\nHence solve this equation. [11 marks]",
+   "ms_text": "3. (a) y vx\nd y d v\nv x Fv () M1\nd x d x\nd v\nx Fv () v A1\nd x\nd v d x\nThis is separable, i.e. A1\nFv () v x\n[3 marks]\n(b) X x 1, Y y 2\nd y d Y ( X 1) 3( Y 2) 7\nM1A1\nd x d X 3( X 1) ( Y 2) 1\nY\n1 3\nd Y X 3 = Y X\nA1\nd X 3 X Y Y\n3\nX\nThis is a homogeneous differential equation.\nUsing Y vX\nY\n1 3\nd v 1 3 v X\nv X = A1\nd X Y 3 v\n3\nX\nd v 13 v\nX v\nd X 3 v\nd v 1 3 v 3 v v 2 1 v 2\nX M1A1\nd X 3 v 3 v\nd X 3 v\nd v A1\n2 X 1 v\n1 2\nln X 3arctan v ln(1 v ) C A1A1\n2\n1 ln(1 2 Note: Award A1 for 3arctanv and A1 for v ) .\n2\n2\ny 2 1 y 2\nln x 1 3arctan ln1 C A1A1\nx 1 2 x 1\nNote:Award A1 for each correct substitution.\n[11 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "3. [Maximum mark: 14]\n(a) A homogeneous differential equation has the form\n$\\frac{dy}{dx} = F\\left(\\frac{y}{x}\\right)$.\nShow that the substitution $v = \\frac{y}{x}$ leads to a differential equation which can be solved by separation of variables. [3 marks]\n(b) Show that the linear change of variables $X = x - 1, Y = y - 2$, transforms the equation\n$\\frac{dy}{dx} = \\frac{x + 3y - 7}{3x - y - 1}$ to a homogeneous form.\nHence solve this equation. [11 marks]"
+  },
+  {
+   "id": "math-2007-N-P3-qC4",
+   "num": "C4",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "qC4.webp",
+   "ms_image": "qC4_ms.webp",
+   "text": "4. [Maximum mark: 17]\n(a) (i) By considering the graph of y =1 between x = a and x = a +1, show\nx\nthat\n1 a + 1 1 1 1\n+ , for all a > 0. ln\n+< <\na 1 a 2 a a + 1\n(ii) Deduce that\n1 3\n< ln 2 < .\n2 4\n(iii) Using (i) find pq , ∈⁄ such that p < ln3 < q . [8 marks]\n(b) Given that Hn is the nth partial sum of the harmonic series, show that\n1 1\n, for n > 1. [5 marks] H −< 1 ln n < H − −\nn n\n2 2 n\n(c) = H −ln n , prove that the terms of the sequence { : } If γ n γ nn ≥1 decrease as\nn\nn increases. [4 marks]",
+   "ms_text": "4. (a) (i)\n(A1) for graph\nFrom consideration of relative areas of rectangle and trapezoid,\n1 a 1 d x 11 1\nM1A1\n( a 1) a x 2 a a 1\na 1 d x a 1 a 1\nln x ln A1\na x a a\n1 a 1 11 1\nln AG\na 1 a 2 a a 1\n(ii) Putting a 1 M1\n1 3\nln 2 AG\n2 4\n1 lna\n(iii) If ln3 M1\na\n3 a a 1\n1\na A1\n2\n2 1 2 4\np , q 2 A1\n3 2 3 3\n[8 marks]\n(b) From (a)(i)\n1 1 1 1\nln n ln( n 1) M1A1\nn 2 n 1 n\n1 1 1 1\nln( n 1) ln( n 2) A1\nn 1 2 n 2 n 1\n1 1 1 1\nln( n 2) ln( n 3)\nn 2 2 n 3 n 2\n1 11 1\nln2 ln1 A1\n2 21 2\nSumming\n1 1 1\nH 1 ln n H ( H 1) A1\nn n n\n2 n 2\n1 1\nH 1 ln n H AG\nn n\n2 2 n\n[5 marks]\n(c) M1A1 H ln n H ln( n 1)\nn n 1 n n 1\nn\nH H ln A1\nn n 1\nn 1\n1 n\nln 0 , using the result of (a) (i) A1\nn n 1\nHence the terms decrease as n increases.\n[4 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L5",
+    "5.15",
+    "5.L7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "topic-uncertain"
+   ],
+   "option": "Series and differential equations",
+   "text_clean": "4. [Maximum mark: 17]\n(a) (i) By considering the graph of $y = \\frac{1}{x}$ between $x = a$ and $x = a + 1$, show that\n$\\frac{1}{a+1} < \\ln\\left(\\frac{a+1}{a}\\right) < \\frac{1}{2}\\left(\\frac{1}{a} + \\frac{1}{a+1}\\right)$, for all $a > 0$.\n(ii) Deduce that\n$\\frac{1}{2} < \\ln 2 < \\frac{3}{4}$.\n(iii) Using (i) find $p, q \\in \\mathbb{Q}$ such that $p < \\ln 3 < q$. [8 marks]\n(b) Given that $H_n$ is the $n^{\\text{th}}$ partial sum of the harmonic series, show that\n$H_n - 1 < \\ln n < H_n - \\frac{1}{2} - \\frac{1}{2n}$, for $n > 1$. [5 marks]\n(c) If $\\gamma_n = H_n - \\ln n$, prove that the terms of the sequence $\\{\\gamma_n : n \\ge 1\\}$ decrease as $n$ increases. [4 marks]",
+   "review_note": "Area/trapezium bounds on integral -> 5.L5; monotone sequence in (c) tagged 5.L7 as closest fit."
+  },
+  {
+   "id": "math-2007-N-P3-qD1",
+   "num": "D1",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "qD1.webp",
+   "ms_image": "qD1_ms.webp",
+   "text": "1. [Maximum mark: 15]\n(a) (i) Find the base 8 representation of the decimal number 1001.\n(ii) Prove that a number is divisible by 7 if and only if the sum of the digits in\nits base 8 representation is also divisible by 7.\n(iii) Use the results from (i) and (ii) to show that the decimal number 1001 is\ndivisible by 7. [9 marks]\n(b) Solve the system of simultaneous congruences:\nx ≡ 4 (mod) 9\nx ≡ 3 (mod). 5 [6 marks]",
+   "ms_text": "1. (a) (i) EITHER\n1001\n1 rem 489\n512\n489\n7 rem 41\n64\n41\n5 rem 1\n8\n1001 1751 M1A1\nten 8\nOR\n8 1001 1\n8 125 5\n8 15 7\n1\n1001 1751 M1A1\nten 8\n(ii) Let the octal number be\nn n 1 n 2 0 a 8 a 8 a 8 ... a 8 M1A1\nn n 1 n 2 0\nn\nn n 1 0 a (8 1) a (8 1) ... a (8 1) a M1A1\nn n 1 0 i\ni 0\nn\nwhere a is the sum of the digits\ni\ni 0\nBut\n(8 n 1) (71) n 1 multiple of7 R1\nn n 1 n 2 n 3 OR (8 1) (81)(8 8 8 ...1) multiple of7\nHence the octal number is divisible by 7\nif and only if the sum of the digits is divisible by 7. R1\n(iii) 1001 1571 and 1 5 7 114\nten 8\nSince 14 is divisible by 7 then so is 1001ten . R1\n[9 marks]\n(b) Let m 95 45\nm m\nM 5; M 9 M1A1\n1 2\n9 5\nSolving 5 x 1(mod9) x 2(mod9) A1\n1 1\n9 x 1(mod5) x 4(mod5) A1\n2 2\nSo x 452 394(mod45) A1\n148(mod45)\n13(mod45) A1\n[6 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.2",
+    "6.4",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "1. [Maximum mark: 15]\n(a) (i) Find the base 8 representation of the decimal number 1001.\n(ii) Prove that a number is divisible by 7 if and only if the sum of the digits in its base 8 representation is also divisible by 7.\n(iii) Use the results from (i) and (ii) to show that the decimal number 1001 is divisible by 7. [9 marks]\n(b) Solve the system of simultaneous congruences:\n$x \\equiv 4 \\pmod{9}$\n$x \\equiv 3 \\pmod{5}$. [6 marks]"
+  },
+  {
+   "id": "math-2007-N-P3-qD2",
+   "num": "D2",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "qD2.webp",
+   "ms_image": "qD2_ms.webp",
+   "text": "2. [Maximum mark: 9]\nThe weights of the edges of a graph are given in the following table:\nA B C D E F G H I\nA 5 2\nB 5 4 3 5 6\nC 4 3\nD 2 3 7 6 8\nE 5 7 1 3\nF 6 3 1 4 4\nG 6 4\nH 8 3 4 4 2\nI 4 2\n(a) Starting at A, use Prim’s algorithm to find a minimum spanning tree for this\ngraph. [7 marks]\n(b) Draw this minimum spanning tree and state its weight. [2 marks]",
+   "ms_text": "2. (a)\nFor minimum spanning tree T :\nstart at A:\ndelete row A, choose least value in column A 2 in row D: AD is in T M1A1\ndelete row D, least value in column D 3 in row B: DB is in T\ndelete row B, least value in column B 4 in row C: BC is in T\ndelete row C, least value in column C 3 in row F: CF is in T\ndelete row F, least value in column F 1 in row E: FE is in T\ndelete row E, least value in column E 3 in row H: EH is in T\ndelete row H, least value in column H 2 in row I: HI is in T A4\nadd smallest edge to G 4 HG is in T A1\nNote: AwardA4 if all other edges are correct, A3 if one wrong, A2 if two wrong,\nA1 if three wrong, A0 if four wrong.\n[7 marks]\n(b)\nC\nD E\n3\n3 2 4 H\n1 3\n2 A\n4\nB\nF I\nG A1\nMinimum spanning tree T\nTotal weight 2 3 4 31 3 4 2 22 A1\n[2 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "2. [Maximum mark: 9]\nThe weights of the edges of a graph are given in the following table:\n | A | B | C | D | E | F | G | H | I\nA | | 5 | | 2 | | | | |\nB | 5 | | 4 | 3 | 5 | 6 | | |\nC | | 4 | | | | 3 | | |\nD | 2 | 3 | | | 7 | | 6 | 8 |\nE | | 5 | | 7 | | 1 | | 3 |\nF | | 6 | 3 | | 1 | | | 4 | 4\nG | | | | 6 | | | | 4 |\nH | | | | 8 | 3 | 4 | 4 | | 2\nI | | | | | | 4 | | 2 |\n(a) Starting at A, use Prim's algorithm to find a minimum spanning tree for this graph. [7 marks]\n(b) Draw this minimum spanning tree and state its weight. [2 marks]"
+  },
+  {
+   "id": "math-2007-N-P3-qD3",
+   "num": "D3",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "qD3.webp",
+   "ms_image": "qD3_ms.webp",
+   "text": "3. [Maximum mark: 19]\nA graph G has e edges and n vertices.\n(a) Show that the sum of the degrees of the vertices is twice the number of edges. [1 mark]\n(b) Deduce that G has an even number of vertices of odd degree. [4 marks]\n(c) (i) Graph G is connected, planar and divides the plane into exactly four regions.\nIf ( n −1 verticeshave degree three and exactly one vertex has degree d , )\ndetermine the possible values of (, nd. )\n(ii) For each possible (, nd, draw a graph which satisfies the conditions )\ndescribed in (c) (i). [14 marks]",
+   "ms_text": "3. (a) Since every edge has two ends it must contribute exactly 2 to the degree sum. A1\nHence the vertex sum of a graph is twice the number of edges. AG\n[1 mark]\n(b) Let 1V and Vbe the sets of even degree vertices and odd degree vertices inG respectively.\n2\nThen 2 e deg() v deg() v M1A1\nvV vV 1 2\nSince the right hand side is even and deg() v is even then deg() vmust be even. R1\nvV 1 vV 2\nBut each term of deg() vis odd so there must be an even number of such terms, R1\nvV 2\ni.e. G must have an even numbers of vertices of odd degree. AG\n[4 marks]\n(c) (i) For graph G with vertex set V\nand n vertices we have (with the usual notation),\nv e f 2 M1\nIf f 4\nn e 2 A1\ne n 2\n2 e 2 n 4 A1\nFrom part (a) deg() v 2 e\nvV\nSo deg() v 2 v 4 M1\nvV\nG has ( n 1) vertices degree 3 and one vertex degree d\n3( n 1) d 2 n 4 A1\nSo 3 n 3 d 2 n 4\nn d 7 A1\nHence\n(, nd ) (1, 6), (2, 5), (3, 4), (5, 2)or(6, 1) A1A1A1\nNote: (, nd ) (4, 3) not possible.\n(ii)\nn 1, d 6 n 2, d 5\nn 5, d 2 n 3, d 4\nn 6, d 1\nA1A1A1A1A1\n[14 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "3. [Maximum mark: 19]\nA graph $G$ has $e$ edges and $n$ vertices.\n(a) Show that the sum of the degrees of the vertices is twice the number of edges. [1 mark]\n(b) Deduce that $G$ has an even number of vertices of odd degree. [4 marks]\n(c) (i) Graph $G$ is connected, planar and divides the plane into exactly four regions. If $(n-1)$ vertices have degree three and exactly one vertex has degree $d$, determine the possible values of $(n, d)$.\n(ii) For each possible $(n, d)$, draw a graph which satisfies the conditions described in (c)(i). [14 marks]"
+  },
+  {
+   "id": "math-2007-N-P3-qD4",
+   "num": "D4",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "qD4.webp",
+   "ms_image": "qD4_ms.webp",
+   "text": "4. [Maximum mark: 17]\nn n + 2 + (a) Show that 10 +× 34 + 5 , n ∈\n′ is a multiple of 9. [8 marks]\np (b) (i) Use Fermat’s Little Theorem to show that x ≡ a −2(mod b p\n) is a solution\nto the linear congruence ax ≡ b (mod p ) where p is a prime number and\n+ ab , ∈\n′.\nHence solve 4 x ≡(mod) . 3 7\n(ii) Find the last digit in the base 9 expansion of 5155. [9 marks]",
+   "ms_text": "n n 2 4. (a) Let fn () 10 34 5\nf (1) 10192 5 207 239 M1A1\nfn ( 1) 10 n 1 34 n 3 5 A1\nn n 2 n 2 10(10 34 5)184 45 A1\nn 2 ( fn 1)10() fn 9(24 5) M1A1\nHence if fn is divisible by 9 then so is () fn ( 1) and since f (1) is divisible by 9 R2\n+ then fn is divisible by 9 () n ′. AG\n[8 marks]\n(b) (i) ax b (mod) p\na p 2 ax a p 2(mod) b p M1\np 1 p a x a 2(mod) b p A1\np 1 By Fermat’s Little Theorem a 1(mod) p R1\nHence\np x a 2(mod) b p AG\n4 x 3(mod7)\nx 54 3(mod7) A1\nx 3072(mod7)\nx 6(mod7) A1\n(ii) 65 1(mod9) M1\n6 25 (5) 1(mod9) A1\n6 25 5 5 (5) 5 5(mod9) A1\n155 5 (mod9) 2(mod9) A1\nso last digit is 2\n[9 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.4",
+    "1.15",
+    "6.5",
+    "6.1",
+    "6.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "4. [Maximum mark: 17]\n(a) Show that $10^n + 3 \\times 4^{n+2} + 5$, $n \\in \\mathbb{Z}^+$ is a multiple of 9. [8 marks]\n(b) (i) Use Fermat's Little Theorem to show that $x \\equiv a^{p-2}b \\pmod{p}$ is a solution to the linear congruence $ax \\equiv b \\pmod{p}$ where $p$ is a prime number and $a, b \\in \\mathbb{Z}^+$.\nHence solve $4x \\equiv 3 \\pmod{7}$.\n(ii) Find the last digit in the base 9 expansion of $5^{155}$. [9 marks]"
+  }
+ ],
+ "status": "done"
+}

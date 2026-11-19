@@ -1,0 +1,435 @@
+{
+ "exam_id": "physics-2018-M-P3-TZ1",
+ "subject": "physics",
+ "syllabus": "physics-legacy",
+ "year": 2018,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "3",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Physics HL/Paper 3/2018_May_Physics__TZ1/2018_May_Physics_paper_3__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Physics HL/Paper 3/2018_May_Physics__TZ1/2018_May_Physics_paper_3__TZ1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2218-6509; code M18/4/PHYSI/HP3/ENG/TZ1/XX",
+ "questions": [
+  {
+   "id": "physics-2018-M-P3-TZ1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 9,
+   "qtype": "data",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1.  A magnetized needle is oscillating on a string about a vertical axis in a horizontal magnetic\nfield B.  The time for 10 oscillations is recorded for different values of B.\nstring\nmagnetic field\nmagnetized needle\nThe graph shows the variation with B of the time for 10 oscillations together with the\nuncertainties in the time measurements.  The uncertainty in B is negligible.\n11\n10\ntime for 10 oscillations / s  9  8  7  6\n5\n4\n0  0.005  0.010  0.015  0.020\nB / T\n(a)  Draw on the graph the line of best fit for the data.  [1]\n(b)  (i)  Write down the time taken for one oscillation when B = 0.005 T with its absolute\nuncertainty.  [1]\n(ii)  A student forms a hypothesis that the period of one oscillation P is given by:\nP  =  K\nB\nwhere K is a constant.\nDetermine the value of K using the point for which B = 0.005 T.\nState the uncertainty in K to an appropriate number of significant figures.  [3]\n(iii)  State the unit of K.  [1]\n(c)  The student plots a graph to show how P 2 varies with 1  for the data.\nB\nSketch the shape of the expected line of best fit on the axes below assuming that the\nrelationship P  =  K  is verified.  You do not have to put numbers on the axes.  [2]\nB\nP 2\n0\n1\nB\n(d)  State how the value of K can be obtained from the graph.  [1]",
+   "ms_text": "1.  a  smooth line, not kinked, passing through all the error bars ✔  1\n1.  b  i  0.84    0.03  «s» ✔  Accept any value from the range: 0.81\nto 0.87.  1\nAccept uncertainty 0.03 OR 0.025.\n1.  b  ii  K   0.005    0.84    0.059  ✔  Allow ECF [3 max] if 10T is used.\n  K    P  Award [3] for BCA.\n«    »\nK  P\n  K    0.03    0.0594    0.002  ✔  3\n0.84\n«  K   (0.059    0.002)  »\nuncertainty given to 1sf ✔\n1.  b  iii  1  Accept s T  or in words.\nsT  2  ✔  1\n1.  c  straight AND ascending line ✔  2\nthrough origin ✔\n1.  d  K   slope  ✔  1",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. A magnetized needle is oscillating on a string about a vertical axis in a horizontal magnetic field $B$. The time for 10 oscillations is recorded for different values of $B$.\n[Diagram: magnetized needle suspended horizontally from a vertical string in a horizontal magnetic field (arrows)]\nThe graph shows the variation with $B$ of the time for 10 oscillations together with the uncertainties in the time measurements. The uncertainty in $B$ is negligible.\n[Graph: time for 10 oscillations / s (4 to 11) against B / T (0 to 0.020); eight data points with vertical error bars, decreasing from about 10.4 s at B = 0.003 T to about 4.4 s at B = 0.018 T]\n(a) Draw on the graph the line of best fit for the data. [1]\n(b) (i) Write down the time taken for one oscillation when $B = 0.005\\,\\text{T}$ with its absolute uncertainty. [1]\n(ii) A student forms a hypothesis that the period of one oscillation $P$ is given by: $P = \\frac{K}{\\sqrt{B}}$ where $K$ is a constant.\nDetermine the value of $K$ using the point for which $B = 0.005\\,\\text{T}$. State the uncertainty in $K$ to an appropriate number of significant figures. [3]\n(iii) State the unit of $K$. [1]\n(c) The student plots a graph to show how $P^2$ varies with $\\frac{1}{B}$ for the data.\nSketch the shape of the expected line of best fit on the axes below assuming that the relationship $P = \\frac{K}{\\sqrt{B}}$ is verified. You do not have to put numbers on the axes. [2]\n[Blank axes: $P^2$ against $\\frac{1}{B}$, origin 0]\n(d) State how the value of $K$ can be obtained from the graph. [1]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 6,
+   "qtype": "data",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2.  An experiment to find the internal resistance of a cell of known emf is to be set.\nThe following equipment is available:\none cell\none ammeter  A\n10 Ω resistor\n(a)  Draw a suitable circuit diagram that would enable the internal resistance to be determined.  [1]\n(b)  It is noticed that the resistor gets warmer.  Explain how this would affect the calculated\nvalue of the internal resistance.  [3]\n(c)  Outline how using a variable resistance could improve the accuracy of the value found\nfor the internal resistance.  [2]",
+   "ms_text": "2.  a\n1\ncell, ammeter and resistor in series ✔\n2.  b  resistance of resistor would increase / be greater than 10 Ω ✔\nR + r  «from    =  I  (R  +  r)  » would be overestimated / lower current ✔  3\ntherefore calculated r would be larger than real ✔  Award MP3 only if at least one previous\nmark has been awarded.\n2.  c  variable resistor would allow for multiple readings to be made ✔  Award [1 max] for taking average of\nmultiple.  2\ngradient of V-I graph could be found «to give r » ✔",
+   "mcq_answer": null,
+   "topics": [
+    "B",
+    "X"
+   ],
+   "subtopics": [
+    "B.5",
+    "X.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. An experiment to find the internal resistance of a cell of known emf is to be set. The following equipment is available:\n[Circuit symbols: one cell; one ammeter; 10 Ω resistor]\n(a) Draw a suitable circuit diagram that would enable the internal resistance to be determined. [1]\n(b) It is noticed that the resistor gets warmer. Explain how this would affect the calculated value of the internal resistance. [3]\n(c) Outline how using a variable resistance could improve the accuracy of the value found for the internal resistance. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3.  The diagram shows the motion of the electrons in a metal wire carrying an electric current\nas seen by an observer X at rest with respect to the wire.  The distance between adjacent\npositive charges is d.\n−  −  −  −  −\n+  d  +  +  +  +\n(a)  State whether the field around the wire according to observer X is electric, magnetic or\na combination of both.  [1]\n(b)  Observer Y is at rest with respect to the electrons.\n(i)  Discuss the change in d according to observer Y.  [2]\n(ii)  Deduce whether the overall field around the wire is electric, magnetic or a\ncombination of both according to observer Y.  [2]",
+   "ms_text": "3.  a  magnetic field ✔  1\n3.  b  i  «according to Y» the positive charges are moving «to the right» ✔  For MP1, movement of positive charges\nmust be mentioned explicitly.\nd decreases ✔\n2\n3.  b  ii  positive charges are moving, so there is a magnetic field ✔  The reason must be given for each\npoint to be awarded.\nthe density of positive charges is higher than that of negative charges,\nso there is an electric field ✔  2",
+   "mcq_answer": null,
+   "topics": [
+    "A",
+    "D"
+   ],
+   "subtopics": [
+    "A.5",
+    "D.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. The diagram shows the motion of the electrons in a metal wire carrying an electric current as seen by an observer X at rest with respect to the wire. The distance between adjacent positive charges is $d$.\n[Diagram: section of wire with a row of electrons (−) moving to the left above a row of stationary positive charges (+) separated by distance d]\n(a) State whether the field around the wire according to observer X is electric, magnetic or a combination of both. [1]\n(b) Observer Y is at rest with respect to the electrons.\n(i) Discuss the change in $d$ according to observer Y. [2]\n(ii) Deduce whether the overall field around the wire is electric, magnetic or a combination of both according to observer Y. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4.  Muons are created in the upper atmosphere of the Earth at an altitude of 10 km above the\nsurface.  The muons travel vertically down at a speed of 0.995c with respect to the Earth.\nWhen measured at rest the average lifetime of the muons is 2.1 μs.\n(a)  (i)  Calculate, according to Galilean relativity, the time taken for a muon to travel to\nthe ground.  [1]\n(ii)  Deduce why only a small fraction of the total number of muons created is\nexpected to be detected at ground level according to Galilean relativity.  [1]\n(b)  (i)  Calculate, according to the theory of special relativity, the time taken for a muon\nto reach the ground in the reference frame of the muon.  [2]\n(ii)  Discuss how your result in (b)(i) and the outcome of the muon decay experiment\nsupport the theory of special relativity.  [2]",
+   "ms_text": "4.  a  i  10  4  Do not accept 104/c = 33 s  .\n«  3 10   »34 « s  » ✔  1\n0.995      8\n4.  a  ii  time is much longer than 10 times the average life time «so only a small proportion\nwould not decay» ✔  1\n4.  b  i    10  ✔\n  0t  «    t  34  » 3.4 « s  » ✔  2\n  10\n4.  b  ii  the value found in (b)(i) is of similar magnitude to average life time ✔\nsignificant number of muons are observed on the ground ✔  2\n«therefore this supports the special theory»",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. Muons are created in the upper atmosphere of the Earth at an altitude of 10 km above the surface. The muons travel vertically down at a speed of $0.995c$ with respect to the Earth. When measured at rest the average lifetime of the muons is $2.1\\,\\mu\\text{s}$.\n(a) (i) Calculate, according to Galilean relativity, the time taken for a muon to travel to the ground. [1]\n(ii) Deduce why only a small fraction of the total number of muons created is expected to be detected at ground level according to Galilean relativity. [1]\n(b) (i) Calculate, according to the theory of special relativity, the time taken for a muon to reach the ground in the reference frame of the muon. [2]\n(ii) Discuss how your result in (b)(i) and the outcome of the muon decay experiment support the theory of special relativity. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 9,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5.  An observer on Earth watches rocket A travel away from Earth at a speed of 0.80c.\nThe spacetime diagram shows the worldline of rocket A in the frame of reference of the Earth\nobserver who is at rest at x = 0.\nct / km\n4\n3\nA\n2\n1\n0\n−2  −1  x / km\n0  1  2\nAnother rocket, B, departs from the same location as A but later than A at ct = 1.2 km\naccording to the Earth observer.  Rocket B travels at a constant speed of 0.60c in the\nopposite direction to A according to the Earth observer.\n(a)  Draw on the spacetime diagram the worldline of B according to the Earth observer\nand label it B.  [2]\nRocket A and rocket B both emit a flash of light that are received simultaneously by the Earth\nobserver.  Rocket A emits the flash of light at a time coordinate ct = 1.8 km according to the\nEarth observer.\n(b)  Deduce, showing your working on the spacetime diagram, the value of ct according to\nthe Earth observer at which the rocket B emitted its flash of light.  [3]\n(c)  Explain whether or not the arrival times of the two flashes in the Earth frame are\nsimultaneous events in the frame of rocket A.  [2]\n(d)  Calculate the velocity of rocket B relative to rocket A.  [2]",
+   "ms_text": "5.  a  straight line with negative gradient with vertical intercept at  ct   1.2  «km» ✔\nthrough (0.6, 2.2) ie gradient    1.67  ✔\nTolerance: Allow gradient from interval\n–2.0 to –1.4, (at ct  2.2, x from interval\n0.5 to 0.7).\nIf line has positive gradient from interval\n1.4 to 2.0 and intercepts at ct  1.2 km\nthen allow [1 max].\n2\n5.  b  line for the flash of light from A correctly drawn ✔\nline for the flash of light of B correctly drawn ✔\n3\ncorrect reading taken for time of intersection of flash of light and path of B,\nct  2.4 «km» ✔  Accept values in the range: 2.2 to 2.6.\n5.  b\n5.  c  the two events take place in the same point in space at the same time ✔\nso all observers will observe the two events to be simultaneous / so zero  Award the second MP only if the first  2\ndifference ✔  MP is awarded.\n5.  d  u      0.6    0.8  ✔\n1 ( 0.6)      0.8  2\n  « »  0.95  «c» ✔",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. An observer on Earth watches rocket A travel away from Earth at a speed of $0.80c$. The spacetime diagram shows the worldline of rocket A in the frame of reference of the Earth observer who is at rest at $x = 0$.\n[Spacetime diagram: ct / km (0 to 4) against x / km (−2 to 2); worldline of A is a straight line from the origin to about (2, 2.5)]\nAnother rocket, B, departs from the same location as A but later than A at $ct = 1.2\\,\\text{km}$ according to the Earth observer. Rocket B travels at a constant speed of $0.60c$ in the opposite direction to A according to the Earth observer.\n(a) Draw on the spacetime diagram the worldline of B according to the Earth observer and label it B. [2]\nRocket A and rocket B both emit a flash of light that are received simultaneously by the Earth observer. Rocket A emits the flash of light at a time coordinate $ct = 1.8\\,\\text{km}$ according to the Earth observer.\n(b) Deduce, showing your working on the spacetime diagram, the value of $ct$ according to the Earth observer at which the rocket B emitted its flash of light. [3]\n(c) Explain whether or not the arrival times of the two flashes in the Earth frame are simultaneous events in the frame of rocket A. [2]\n(d) Calculate the velocity of rocket B relative to rocket A. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6.  A positive pion decays into a positive muon and a neutrino.\nπ+  →  µ  +  +  v  µ\nThe momentum of the muon is measured to be 29.8 MeV c-1 in a laboratory reference frame\nin which the pion is at rest.  The rest mass of the muon is 105.7 MeV c-2 and the mass of the\nneutrino can be assumed to be zero.\n(a)  For the laboratory reference frame\n(i)  write down the momentum of the neutrino.  [1]\n(ii)  show that the energy of the pion is about 140 MeV.  [2]\n(b)  State the rest mass of the pion with an appropriate unit.  [1]",
+   "ms_text": "6.  a  i  « » 29.8 «MeVc-1»✔  1\n6.  a  ii  E    p c  2  2    m c  2  4    p c  OR  E  109.8 MeV  «  »✔  Final value to at least 3 sig figs required\n    v  for mark.\n» 139.6 «MeV» ✔  2\nE«  29.8  2    105.7  2    29.8\n6.  b  139.6MeVc✔  2  Units required.\nAccept 140 MeVc-2.  1",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. A positive pion decays into a positive muon and a neutrino.\n$\\pi^+ \\rightarrow \\mu^+ + \\nu_\\mu$\nThe momentum of the muon is measured to be $29.8\\,\\text{MeV}\\,c^{-1}$ in a laboratory reference frame in which the pion is at rest. The rest mass of the muon is $105.7\\,\\text{MeV}\\,c^{-2}$ and the mass of the neutrino can be assumed to be zero.\n(a) For the laboratory reference frame\n(i) write down the momentum of the neutrino. [1]\n(ii) show that the energy of the pion is about 140 MeV. [2]\n(b) State the rest mass of the pion with an appropriate unit. [1]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7.  An observer A is on the surface of planet X.  Observer B is in a stationary spaceship above\nthe surface of planet X.\nObserver A sends a beam of light with a frequency 500 THz towards observer B.\nWhen observer B receives the light he observes that the frequency has changed by ∆ f .\nobserver B\n500 THz\nobserver A\nplanet X\nObserver B then sends a signal with frequency 1500 THz towards observer A.\nobserver B\n1500 THz\nobserver A\nplanet X\n(a)  Calculate the shift in frequency observed by A in terms of ∆ f.  [2]\n(b)  Calculate the gravitational field strength on the surface of planet X.\nThe following data is given:\n∆ f  = 170 Hz.\nThe distance between observer A and B is 10 km.  [2]\n(c)  Observer A now sends a beam of light initially parallel to the surface of the planet.\nobserver A\nbeam of light\nplanet X\nExplain why the path of the light is curved.  [2]",
+   "ms_text": "7.  a    f  f ✔\nf ✔  2\ntherefore the change is  « »    3  \n7.  b  g «  2    f      8 2  170  ✔  If POT mistake, award [0].\nc  f    h  »  (3 10 ) 5.0 10    14    10000  Award [2] for BCA.\n2\ng   3.1  «  ms» ✔  2\n7.  c  the mass of the planet warps spacetime around itself ✔\nthe light will follow the shortest path in spacetime «which is curved» ✔  2",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. An observer A is on the surface of planet X. Observer B is in a stationary spaceship above the surface of planet X.\nObserver A sends a beam of light with a frequency 500 THz towards observer B. When observer B receives the light he observes that the frequency has changed by $\\Delta f$.\n[Diagram: observer A on the surface of planet X sends 500 THz light upwards to observer B in a spaceship above]\nObserver B then sends a signal with frequency 1500 THz towards observer A.\n[Diagram: observer B in the spaceship sends 1500 THz signal down to observer A on planet X]\n(a) Calculate the shift in frequency observed by A in terms of $\\Delta f$. [2]\n(b) Calculate the gravitational field strength on the surface of planet X.\nThe following data is given: $\\Delta f = 170\\,\\text{Hz}$.\nThe distance between observer A and B is 10 km. [2]\n(c) Observer A now sends a beam of light initially parallel to the surface of the planet.\n[Diagram: observer A on planet X with a beam of light directed horizontally]\nExplain why the path of the light is curved. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8.  A constant force of 50.0 N is applied tangentially to the outer edge of a merry-go-round.\nThe following diagram shows the view from above.\n50.0 N\n4.00 m\nThe merry-go-round has a moment of inertia of 450 kg m2 about a vertical axis.\nThe merry-go-round has a diameter of 4.00 m.\n(a)  Show that the angular acceleration of the merry-go-round is 0.2 rad s-2.  [2]\n(b)  The merry-go-round starts from rest and the force is applied for one complete revolution.\nCalculate, for the merry-go-round after one revolution,\n(i)  the angular speed.  [1]\n(ii)  the angular momentum.  [1]\nA child of mass 30.0 kg is now placed onto the edge of the merry-go-round.  No external\ntorque acts on the system.\n(c)  Calculate the new angular speed of the rotating system.  [2]\n(d)  The child now moves towards the centre.\n(i)  Explain why the angular speed will increase.  [2]\n(ii)  Calculate the work done by the child in moving from the edge to the centre.  [2]",
+   "ms_text": "8.  a  «    Fr    50 2    »    100  «Nm» ✔  Final value to at least 2 sig figs, OR\nclear working with substitution required\n«        100  »    0.22  «  rads» ✔  2  for mark.  2\nI  450\n8.  b  i  «  t  2      2    2    »  Accept BCA, values in the range: 1.57\n0\nto 1.70.\n«  t  2  0    2 0.22 2    »  1\n  t  1.7  «  rads» ✔  1\n8.  b  ii  «L  I      450 1.66    »  Accept BCA, values in the range: 710 to\n780.  1\n  750  «  kgm rads» ✔  2  1\n8.  c  «  I    450    mr  2  »  Watch for ECF from (a) and (b).\nI «    450    30 2    2  »    570  «  kgm » ✔  2  Accept BCA, values in the range: 1.25\nto 1.35.  2\n«  L    570        747  »\n  1.3  «  rads» ✔  1\n8.  d  i  moment of inertia will decrease ✔\nangular momentum will be constant «as the system is isolated» ✔  2\n«so the angular speed will increase»\n8.  d  ii    t  1.66  from bi AND  W    E  k  ✔  ECF from 8(b)(i).\nW   1    450 1.66    2    1    570 1.31    2    131  «J »  ✔  2\n2  2  Accept BCA, value depends on the\nanswers in previous questions.",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.4",
+    "A.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. A constant force of 50.0 N is applied tangentially to the outer edge of a merry-go-round. The following diagram shows the view from above.\n[Diagram: circle of diameter 4.00 m with a tangential force of 50.0 N at its edge]\nThe merry-go-round has a moment of inertia of $450\\,\\text{kg m}^2$ about a vertical axis. The merry-go-round has a diameter of 4.00 m.\n(a) Show that the angular acceleration of the merry-go-round is $0.2\\,\\text{rad s}^{-2}$. [2]\n(b) The merry-go-round starts from rest and the force is applied for one complete revolution.\nCalculate, for the merry-go-round after one revolution,\n(i) the angular speed. [1]\n(ii) the angular momentum. [1]\nA child of mass 30.0 kg is now placed onto the edge of the merry-go-round. No external torque acts on the system.\n(c) Calculate the new angular speed of the rotating system. [2]\n(d) The child now moves towards the centre.\n(i) Explain why the angular speed will increase. [2]\n(ii) Calculate the work done by the child in moving from the edge to the centre. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9.  The pressure–volume (pV) diagram shows a cycle ABCA of a heat engine.  The working\nsubstance of the engine is 0.221 mol of ideal monatomic gas.\ndiagram not to scale\nB  C\np\nA\n2.00  5.00\nV /10-3 m3\nAt A the temperature of the gas is 295 K and the pressure of the gas is 1.10 × 105 Pa.\nThe process from A to B is adiabatic.\n(a)  Show that the pressure at B is about 5 × 105 Pa.  [2]\n(b)  For the process BC, calculate, in J,\n(i)  the work done by the gas.  [1]\n(ii)  the change in the internal energy of the gas.  [1]\n(iii)  the thermal energy transferred to the gas.  [1]\n(c)  The process from B to C is replaced by an isothermal process in which the initial state\nis the same and the final volume is 5.00 × 10-3m3.\n(i)  Explain, without any calculation, why the pressure after this change would be\nlower if the process was isothermal.  [2]\n(ii)  Determine, without any calculation, whether the net work done by the engine\nduring one full cycle would increase or decrease.  [2]\n(d)  Outline why an efficiency calculation is important for an engineer designing a heat engine.  [1]",
+   "ms_text": "9.  a  5  5  Volume may be in litres or m3.\n«  pV  1 1  3    p V  2  2  3  »\n5  5\n1.1 10    5    5  3    p  2    2  3  ✔\nValue to at least 2 sig figs, OR clear  2\n5\n1.1 10    5    5  3  working with substitution required for\np «  2    5  »    5.066 10    5  «Pa » ✔  mark.\n2.5  3\n9.  b  i  «W    p V  »  Award [0] if POT mistake.\n«    5.07 10    5    (5 10      3    2 10 )      3  »\n1\n  1.52 10    3  «J» ✔\n9.  b  ii  3  3 5.07 10    «J» ✔  Accept alternative solution via Tc.\n  U    p V        5    3 10    3    2.28 10    3  1\n2  2\n9.  b  iii  Q   «  (1.5    2.28) 10    3    »  3.80 10    3  «J» ✔  Watch for ECF from (b)(i) and (b)(ii).  1\n9.  c  i  for isothermal process, PV    constant  / ideal gas laws mentioned ✔\nsince VC>VB, PC must be smaller than PB ✔  2\n9.  c  ii  the area enclosed in the graph would be smaller ✔  Award MP2 only if MP1 is awarded.\nso the net work done would decrease ✔\n2\n9.  d  to reduce energy loss; increase engine performance; improve mpg  Allow any sensible answer.\netc ✔  1",
+   "mcq_answer": null,
+   "topics": [
+    "B"
+   ],
+   "subtopics": [
+    "B.4",
+    "B.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. The pressure–volume ($pV$) diagram shows a cycle ABCA of a heat engine. The working substance of the engine is 0.221 mol of ideal monatomic gas.\n[pV diagram (not to scale): A at V = 5.00 × 10⁻³ m³ (low pressure); adiabatic curve from A to B at V = 2.00 × 10⁻³ m³; isobaric B to C at V = 5.00 × 10⁻³ m³; isochoric C to A]\nAt A the temperature of the gas is 295 K and the pressure of the gas is $1.10 \\times 10^5\\,\\text{Pa}$. The process from A to B is adiabatic.\n(a) Show that the pressure at B is about $5 \\times 10^5\\,\\text{Pa}$. [2]\n(b) For the process BC, calculate, in J,\n(i) the work done by the gas. [1]\n(ii) the change in the internal energy of the gas. [1]\n(iii) the thermal energy transferred to the gas. [1]\n(c) The process from B to C is replaced by an isothermal process in which the initial state is the same and the final volume is $5.00 \\times 10^{-3}\\,\\text{m}^3$.\n(i) Explain, without any calculation, why the pressure after this change would be lower if the process was isothermal. [2]\n(ii) Determine, without any calculation, whether the net work done by the engine during one full cycle would increase or decrease. [2]\n(d) Outline why an efficiency calculation is important for an engineer designing a heat engine. [1]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10.  The water supply for a hydroelectric plant is a reservoir with a large surface area.  An outlet\npipe takes the water to a turbine.\nreservoir\nH\noutlet pipe\nturbine\n(a)  State the difference in terms of the velocity of the water between laminar\nand turbulent flow.  [1]\n(b)  The water level is a height H above the turbine.  Assume that the flow is laminar in the\noutlet pipe.\nShow, using the Bernouilli equation, that the speed of the water as it enters the turbine\nis given by v  =  2  gH  .  [3]\n(c)  The following data are available:\ndensity of water  = 1.00 × 103 kg m-3\nviscosity of water  = 1.31 × 10-3 Pa s\ndiameter of the outlet pipe  = 0.600 m\nvelocity of water at outlet pipe  = 59.4 ms-1\n(i)  Calculate the Reynolds number for the water flow.  [1]\n(ii)  Outline whether it is reasonable to assume that flow is laminar in this situation.  [1]",
+   "ms_text": "10.  a  in laminar flow, the velocity of the fluid is constant «at any  Accept any similarly correct answers.\npoint in the fluid» «whereas it is not constant for turbulent  1\nflow» ✔\n10.  b  P  S    P  T  «as both are exposed to atmospheric pressure» ✔  MP1 and MP2 may be implied by the correct substitution\nshowing line 3 in the mark scheme.\nthen  V   T  0  «if the surface area of the reservoir is large» ✔\n1  Do not accept simple use of  v   2as  .\n«    v  S  2      gz  S      gz  T  »\n2  3\n1  v  2    g z  (    z  )    gH  ✔\n2  S  T  S\nand so  v  S    2  gH\n10.  c  i  59.4    0.6 1 10    3  Accept use of radius 0.3 m giving value 1.36 x 107.\nR        2.72 10    7  ✔\n1.31 10    3  1\n10.  c  ii  as  R   1000  it is not reasonable to assume laminar flow ✔  1",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. The water supply for a hydroelectric plant is a reservoir with a large surface area. An outlet pipe takes the water to a turbine.\n[Diagram: reservoir behind a dam; outlet pipe runs down to a turbine at height H below the water level]\n(a) State the difference in terms of the velocity of the water between laminar and turbulent flow. [1]\n(b) The water level is a height $H$ above the turbine. Assume that the flow is laminar in the outlet pipe.\nShow, using the Bernoulli equation, that the speed of the water as it enters the turbine is given by $v = \\sqrt{2gH}$. [3]\n(c) The following data are available:\ndensity of water $= 1.00 \\times 10^3\\,\\text{kg m}^{-3}$\nviscosity of water $= 1.31 \\times 10^{-3}\\,\\text{Pa s}$\ndiameter of the outlet pipe $= 0.600\\,\\text{m}$\nvelocity of water at outlet pipe $= 59.4\\,\\text{m s}^{-1}$\n(i) Calculate the Reynolds number for the water flow. [1]\n(ii) Outline whether it is reasonable to assume that flow is laminar in this situation. [1]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11.  The graph below represents the variation with time t of the horizontal displacement x of a\nmass attached to a vertical spring.\nx / m\n1\n0  0  t / s\n2  4  6  8  10  12\n−1\n(a)  Describe the motion of the spring-mass system.  [1]\n(b)  The total mass for the oscillating system is 30 kg.  For this system\n(i)  determine the initial energy.  [1]\n(ii)  calculate the Q at the start of the motion.  [2]",
+   "ms_text": "11.  a  damped oscillation / OWTTE✔  1\n11.  b  i    1      2  2    «J» ✔  Allow initial amplitude between 0.77 to 0.80, giving range\nE «  30  0.8  »  95  between: 88 to 95 J.  1\n2\n11.  b  ii        1      2  2    «J» ✔  Accept values between 0.70 and 0.73, giving a range of E  \nE  95  30  0.72  18  between 22 and 9, giving Q between 27 and 61.\n2\n95  Watch for ECF from (b)(i).  2\nQ «  2 18    »33  ✔",
+   "mcq_answer": null,
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.4",
+    "C.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. The graph below represents the variation with time $t$ of the horizontal displacement $x$ of a mass attached to a vertical spring.\n[Graph: x / m (−1 to 1) against t / s (0 to 13); oscillation of period 2 s whose amplitude decreases gradually from about 0.8 m at t = 0]\n(a) Describe the motion of the spring-mass system. [1]\n(b) The total mass for the oscillating system is 30 kg. For this system\n(i) determine the initial energy. [1]\n(ii) calculate the Q at the start of the motion. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q12",
+   "num": "12",
+   "section": "C",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12.  (a)  A converging (convex) lens forms an image of an object on a screen.\ndiagram not to scale\nobject  converging lens\nscreen\n(i)  Identify whether the image is real or virtual.  [1]\n(ii)  The lens is 18 cm from the screen and the image is 0.40 times smaller than\n  [3]\n(iii)  Light passing through this lens is subject to chromatic aberration.  Discuss the\neffect that chromatic aberration has on the image formed on the screen.  [3]\n(b)  A system consisting of a converging lens of focal length F1 (lens 1) and a diverging lens\n(lens 2) are used to obtain the image of an object as shown on the scaled diagram.\nThe focal length of lens 1 (F1) is 30 cm.\nscale:\n10 cm\nlens 1  lens 2\nobject\nF1  F1\nfinal image\nDetermine, using the ray diagram, the focal length of the diverging lens.  [3]",
+   "ms_text": "12.  a  i  image is real «as projected on a screen» ✔  1\n12.  a  ii  18  Accept answer 7.7«D».\n«      0.40  »\nu\nu   45  ✔\n1    1  1\n45  18  f\n3\nOR\nf    13  «cm» ✔\nP   1    «  1  »    0.078  «  cm» ✔  1\nf  13\n12.  a  iii  refractive index depends on wavelength ✔\nlight of different wavelengths have different focal points / refract differently ✔  3\nthere will be coloured fringes around the image / image will be blurred ✔\n12.  b  any 2 correct rays to find image from lens 1 ✔  Accept values in the range: 65cm to\n75cm.\nray to locate F2 ✔\nAccept correct MP3 from accepted  3\nFocal length = « –» 70«cm» ✔  range also if working is incorrect or\nunclear, award [1].\n12.  b",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "12. (a) A converging (convex) lens forms an image of an object on a screen.\n[Diagram (not to scale): object, converging lens and screen on a principal axis]\n(i) Identify whether the image is real or virtual. [1]\n(ii) The lens is 18 cm from the screen and the image is 0.40 times smaller than the object. Calculate the power of the lens, in $\\text{cm}^{-1}$. [3]\n(iii) Light passing through this lens is subject to chromatic aberration. Discuss the effect that chromatic aberration has on the image formed on the screen. [3]\n(b) A system consisting of a converging lens of focal length $F_1$ (lens 1) and a diverging lens (lens 2) are used to obtain the image of an object as shown on the scaled diagram. The focal length of lens 1 ($F_1$) is 30 cm.\n[Scaled ray diagram on a grid (scale: one square = 10 cm): object, lens 1 and lens 2 a short distance apart, focal points F1 either side of lens 1, inverted final image to the right]\nDetermine, using the ray diagram, the focal length of the diverging lens. [3]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q13",
+   "num": "13",
+   "section": "C",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13.  A ray of light travelling in an optic fibre undergoes total internal reflection at point P.\nP  cladding\ncore\nThe refractive index of the core is 1.56 and that of the cladding 1.34.\n(a)  Calculate the critical angle at the core−cladding boundary.  [1]\n(b)  The use of optical fibres has led to a revolution in communications across the globe.\nOutline two advantages of optical fibres over electrical conductors for the purpose\nof data transfer.  [2]\n(c)  The input signal in the fibre has a power of 15.0 mW and the attenuation per unit length\nis 1.24 dB km-1\n(i)  Draw on the axes an output signal to illustrate the effect of waveguide dispersion.  [1]\npower\ntime\ninput signal  output signal\n(ii)  Calculate the power of the output signal after the signal has travelled a distance\nof 3.40 km in the fibre.  [3]\n(iii)  Explain how the use of a graded-index fibre will improve the performance of this\nfibre optic system.  [3]",
+   "ms_text": "13.  a  1.34  Accept values in the range: 59.0 to\n«  sin  c   »  59.5.\n1.56  1\nc   59.  2«  o  »  ✔  Accept answer 1.0 rad.\n13.  b  optic fibres are not susceptible to earthing problems ✔\noptic fibres are very thin and so do not require the physical space of\nelectrical cables ✔\noptic fibres offer greater security as the lines can not be tapped ✔\noptic fibres are not affected by external electric/magnetic fields/interference ✔  2 max\noptic fibres have lower attenuation than electrical conductors / require less\nenergy✔\nthe bandwidth of an optic fibre is large and so it can carry many communications\nat once/in a shorter time interval /faster data transfer ✔\n13.  c  i  a signal that is wider and lower, not necessarily rectangular, but not a larger area ✔  1\n13.  c  ii  attenuation    1.24 3.4    «    4.216dB  » ✔  Need negative attenuation for MP1,\nmay be shown in MP2.\n  4.216    10log15  I  ✔  For MP3 answer must be less than\n15mW (even with ECF) to earn mark.  3\nI    5.68 mW  «  »  ✔  Allow [3] for BCA.\n13.  c  iii  refractive index near the edge of the core is less than at the centre ✔\nspeed of rays which are reflected from the cladding are greater than the speed of\nrays which travel along the centre of the core ✔\nthe time difference for the rays that reflect from the cladding layer compared to  3 max\nthose that travel along the centre of the core is less\nOR\nthe signal will remain more compact/be less spread out /dispersion is lower✔\nbit rate of the system may be greater ✔",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.10",
+    "C.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. A ray of light travelling in an optic fibre undergoes total internal reflection at point P.\n[Diagram: ray in the core of an optic fibre totally internally reflected at point P on the core–cladding boundary]\nThe refractive index of the core is 1.56 and that of the cladding 1.34.\n(a) Calculate the critical angle at the core−cladding boundary. [1]\n(b) The use of optical fibres has led to a revolution in communications across the globe. Outline two advantages of optical fibres over electrical conductors for the purpose of data transfer. [2]\n(c) The input signal in the fibre has a power of 15.0 mW and the attenuation per unit length is $1.24\\,\\text{dB km}^{-1}$.\n(i) Draw on the axes an output signal to illustrate the effect of waveguide dispersion. [1]\n[Axes: power against time, showing a rectangular input signal pulse; space labelled output signal]\n(ii) Calculate the power of the output signal after the signal has travelled a distance of 3.40 km in the fibre. [3]\n(iii) Explain how the use of a graded-index fibre will improve the performance of this fibre optic system. [3]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q14",
+   "num": "14",
+   "section": "C",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14.  (a)  Outline how ultrasound is generated for medical imaging.  [2]\n(b)  Describe one advantage and one disadvantage of using high frequencies ultrasound\nover low frequencies ultra sound for medical imaging.  [2]\nAdvantage:\nDisadvantage:\t .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n(c)  Suggest one reason why doctors use ultrasound rather than X-rays to monitor the\ndevelopment of a fetus.  [1]\n(d)  The table shows the speed of ultrasound and the acoustic impedance for different media.\nspeed of ultrasound / m s-1  acoustic impedance / kg m-2 s-1\nair  3.33 × 102  4.30 × 102\ngel  1.48 × 103  1.48 × 106\nskin  1.73 × 103  1.99 × 106\nThe fraction F of the intensity of an ultrasound wave reflected at the boundary between\n(  Z  −  Z  )  2\ntwo media having acoustic impedances Z1 and Z2 is given by F =  (  Z  1  +  Z  2  )  2 .\n1  2\n(i)  Calculate the density of skin.  [1]\n(ii)  Explain, with appropriate calculations, why a gel is used between the transducer\nand the skin.  [4]",
+   "ms_text": "14.  a  crystal vibration /piezo-electric effect ✔\ncaused by an alternating potential difference is applied across a crystal ✔  2\n14.  b  ADVANTAGES  [1] for advantages, [1] for\nthe wavelength must be less than the size of the object being imaged to avoid  disadvantages.\ndiffraction effects ✔\nthe frequency must be high to ensure several full wavelengths in the pulse ✔\n2 max\nDISADVANTAGES\nthe depth of the organ being imaged must be considered (no more than 200\nwavelengths) ✔\nattenuation increases at higher frequencies ✔\n14.  c  X-rays are an ionizing radiation and so might cause harm to the developing fetus.  Ignore “moving images by ultrasound”.\nOR  1\nthere are no known harmful effects when using ultrasound ✔\n14.  d  i  1.99 10    6\nρ      1.15 10    3  «  kgm» ✔  3  1\n1.73 10    3\n14.  d  ii  (1.99 10    6    4.3 10 )    2 2  Need to explain that more is transmitted\nF      1.0  ✔  through gel-skin surface for MP4.\n(1.99 10    6    4.3 10 )    2 2\nF    (1.48 10    6    1.99 10 )    6 2    0.02  ✔\n(1.48 10    6    1.99 10 )    6 2\n4\nalmost 100 % of the ultrasound will be reflected from the air-skin surface OR\nalmost none is transmitted ✔\nwhereas only 2 % will be reflected from the gel-skin surface and so a much greater\nproportion is transmitted ✔",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "14. (a) Outline how ultrasound is generated for medical imaging. [2]\n(b) Describe one advantage and one disadvantage of using high frequencies ultrasound over low frequencies ultra sound for medical imaging. [2]\nAdvantage:\nDisadvantage:\n(c) Suggest one reason why doctors use ultrasound rather than X-rays to monitor the development of a fetus. [1]\n(d) The table shows the speed of ultrasound and the acoustic impedance for different media.\n| medium | speed of ultrasound / m s⁻¹ | acoustic impedance / kg m⁻² s⁻¹ |\n| air | $3.33 \\times 10^2$ | $4.30 \\times 10^2$ |\n| gel | $1.48 \\times 10^3$ | $1.48 \\times 10^6$ |\n| skin | $1.73 \\times 10^3$ | $1.99 \\times 10^6$ |\nThe fraction F of the intensity of an ultrasound wave reflected at the boundary between two media having acoustic impedances $Z_1$ and $Z_2$ is given by $F = \\frac{(Z_1 - Z_2)^2}{(Z_1 + Z_2)^2}$.\n(i) Calculate the density of skin. [1]\n(ii) Explain, with appropriate calculations, why a gel is used between the transducer and the skin. [4]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q15",
+   "num": "15",
+   "section": "D",
+   "marks": 2,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "15.  (a)  Distinguish between\n(i)  the solar system and a galaxy.  [1]\n(ii)  a planet and a comet.  [1]",
+   "ms_text": "15.  a  i  a galaxy is much larger in size than a solar system ✔  Any other valid statement.\na galaxy contains more than one star system / solar system ✔  1 max\na galaxy is more luminous ✔\n15.  a  ii  a comet is a small icy body whereas a planet is mostly made of rock or gas ✔\na comet is often accompanied by a tail/coma whereas a planet is not ✔\ncomets (generally) have larger orbits than planets ✔  1 max\na planet must have cleared other objects out of the way in its orbital neighbourhood ✔",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "15. (a) Distinguish between\n(i) the solar system and a galaxy. [1]\n(ii) a planet and a comet. [1]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q16",
+   "num": "16",
+   "section": "D",
+   "marks": 12,
+   "qtype": "long",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "16.  The graph shows the observed spectrum from star X.\n1.25\nintensity /arbitrary units  0.75  0.25  0.5  1\n0\n100  200  300  400  500  600  700  800  900 1000\nwavelength /nm\nThe second graph shows the hydrogen emission spectrum in the visible range.\n1\nintensity /arbitrary units  0.8  0.6  0.4  0.2\n0\n400  425  450  475  500  525  550  575  600  625  650  675  700\nwavelength /nm\n(a)  (i)  Suggest, using the graphs, why star X is most likely to be a main sequence star.  [2]\n(ii)  Show that the temperature of star X is approximately 10 000 K.  [2]\n(b)  The following diagram shows the main sequence.\n1 000 000\n100 000\nluminosity / solar luminosity  10 000  1000  100  10  1\n0.1\n0.01\n0\n100 000  10 000  1000\ntemperature / K\n(i)  Write down the luminosity of star X (LX) in terms of the luminosity of the Sun (Ls).  [1]\n(ii)  Determine the radius of star X (RX) in terms of the radius of the Sun (Rs).  [3]\n(iii)  Estimate the mass of star X (MX) in terms of the mass of the Sun (Ms).  [2]\nStar X is likely to evolve into a stable white dwarf star.\n(c)  Outline why the radius of a white dwarf star reaches a stable value.  [2]",
+   "ms_text": "16.  a  i  the wavelengths of the dips correspond to the wavelength in the\nemission spectrum ✔\nthe absorption lines in the spectrum of star X suggest it contains predominantly\nhydrogen  2\nOR\nmain sequence stars are rich in hydrogen ✔\n16.  a  ii  peak wavelength: 290    10  «nm» ✔  Substitution in equation must be\n  seen.\nT    2.9 10    3    «  10000    400  K» ✔  2\n290 10      9  Allow ECF from MP1.\n16.  b  i  35    5  L  s  ✔  1\n16.  b  ii  L  R  2    T  4  Allow ECF from (b)(i).\nx    x  x\nL  s  R  s  2    T  s  4\nOR  Accept values in the range: 2.0 to  2.3R .  s\nL  T  4\nR  X    X  s    R  s  ✔\nL  s  T  X  4  3\nAllow TS in the range: 5500 K to 6500 K.\nR    35    6000  4    R  (mark for correct substitution) ✔\nX  10000  4  s\nR  X    2.1  R  s  ✔\n16.  b  iii  1  Allow ECF from (b)(i).\nM  X    (35)  3.5  M  s  ✔  1\nDo not accept  M  X    (35)  3.5  for first  2\nM  X    2.8  M  s  ✔  marking point.\nAccept values in the range:  2.6 to 2.9M .  s\n16.  c  the star «core» collapses until the «inward and outward» forces / pressures are\nbalanced ✔\n2\nthe outward force / pressure is due to electron degeneracy pressure «not\nradiation pressure» ✔",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5",
+    "E.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "16. The graph shows the observed spectrum from star X.\n[Graph: intensity / arbitrary units (0 to 1.25) against wavelength / nm (100 to 1000); continuous spectrum peaking at about 290 nm with small absorption dips near 410, 434, 486 and 656 nm]\nThe second graph shows the hydrogen emission spectrum in the visible range.\n[Graph: intensity / arbitrary units against wavelength / nm (400 to 700); emission lines at about 410, 434, 486 and 656 nm]\n(a) (i) Suggest, using the graphs, why star X is most likely to be a main sequence star. [2]\n(ii) Show that the temperature of star X is approximately 10 000 K. [2]\n(b) The following diagram shows the main sequence.\n[HR diagram: luminosity / solar luminosity (0.01 to 1 000 000, log scale) against temperature / K (100 000 to 1000, decreasing, log scale) showing the main sequence curve]\n(i) Write down the luminosity of star X ($L_X$) in terms of the luminosity of the Sun ($L_s$). [1]\n(ii) Determine the radius of star X ($R_X$) in terms of the radius of the Sun ($R_s$). [3]\n(iii) Estimate the mass of star X ($M_X$) in terms of the mass of the Sun ($M_s$). [2]\nStar X is likely to evolve into a stable white dwarf star.\n(c) Outline why the radius of a white dwarf star reaches a stable value. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q17",
+   "num": "17",
+   "section": "D",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "17.  The Hubble constant is accepted to be 70 km s-1 Mpc-1.  This value of the Hubble constant\ngives an age for the universe of 14.0 billion years.\nThe accepted value of the Hubble constant has changed over the past decades.\n(a)  Explain how international collaboration has helped to refine this value.  [1]\nThe redshift of a galaxy is measured to be z = 0.19.\n(b)  Estimate, in Mpc, the distance between the galaxy and the Earth.  [2]\n(c)  Determine, in years, the approximate age of the universe at the instant when the\ndetected light from the distant galaxy was emitted.  [3]",
+   "ms_text": "17.  a  experiments and collecting data are extremely costly ✔  OWTTE\ndata from many projects around the world can be collated ✔  1 max\n17.  b  v    «  zc    0.19    3 10    8    »  5.7 10    7  «  ms» ✔  1  Correct units must be present for MP2\nto be awarded.\nd    «  v    5.7 10    4  »    810Mpc  OR  8.1 10 pc    8  ✔  Award [2] for BCA.  2\nH  0  70\n17.  c  ALTERNATIVE 1\nR  now    1  z    1.19  ✔\nR  then\nso (assuming constant expansion rate)  t  now    1.19  ✔  MP1 can be awarded if MP2 clearly\nt  seen.\nt   14    11.7By    12  «By (billion years)» ✔\n1.19  3\nALTERNATIVE 2\nlight has travelled a distance:  (810 10    6    3.26    )2.6 10 ly    9  ✔  Accept  2.5 10    25  m  for MP1.\nso light was emitted: 2.6 billion years ago ✔  MP1 can be awarded if MP2 clearly\nso the universe was 11.4 billion years old ✔  seen.",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.12",
+    "C.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "17. The Hubble constant is accepted to be $70\\,\\text{km s}^{-1}\\,\\text{Mpc}^{-1}$. This value of the Hubble constant gives an age for the universe of 14.0 billion years.\nThe accepted value of the Hubble constant has changed over the past decades.\n(a) Explain how international collaboration has helped to refine this value. [1]\nThe redshift of a galaxy is measured to be $z = 0.19$.\n(b) Estimate, in Mpc, the distance between the galaxy and the Earth. [2]\n(c) Determine, in years, the approximate age of the universe at the instant when the detected light from the distant galaxy was emitted. [3]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q18",
+   "num": "18",
+   "section": "D",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "18.  (a)  Describe the formation of a type Ia supernova.  [2]\n(b)  Type Ia supernovae typically have a peak luminosity of around 5 × 105 Ls, where Ls\nis the luminosity of the Sun (3.8 × 1026 W).  A type Ia supernova is observed with an\napparent peak brightness of 1.6 × 10-6 W m-2.\n(i)  Show that the distance to the supernova is approximately 3.1 × 1018 m.  [2]\n(ii)  State one assumption made in your calculation.  [1]",
+   "ms_text": "18.  a  a white dwarf accretes mass «from a binary partner» ✔\nwhen the mass becomes more than the Chandrasekhar limit  (1.4M ) «then a  s  2\nsupernova explosion takes place» ✔\n18.  b  i  L  5 10    5    3.8 10    26  At least 3 sig fig required for MP2.\nd      ✔\n4 b    4    1.6 10    6  2\nd    3.07 10    18  « » ✔  m\n18.  b  ii  type Ia supernova can be used as standard candles ✔\nthere is no dust absorbing light between Earth and supernova ✔  1 max\ntheir supernova is a typical type Ia ✔",
+   "mcq_answer": null,
+   "topics": [
+    "E",
+    "X"
+   ],
+   "subtopics": [
+    "E.5",
+    "X.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "18. (a) Describe the formation of a type Ia supernova. [2]\n(b) Type Ia supernovae typically have a peak luminosity of around $5 \\times 10^5 L_s$, where $L_s$ is the luminosity of the Sun ($3.8 \\times 10^{26}\\,\\text{W}$). A type Ia supernova is observed with an apparent peak brightness of $1.6 \\times 10^{-6}\\,\\text{W m}^{-2}$.\n(i) Show that the distance to the supernova is approximately $3.1 \\times 10^{18}\\,\\text{m}$. [2]\n(ii) State one assumption made in your calculation. [1]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ1-q19",
+   "num": "19",
+   "section": "D",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "19.  A galaxy can be modelled as a sphere of radius R0.  The distance of a star from the centre of\nthe galaxy is r.\nmass\nenclosed\nM\nR0  r\nFor this model the graph is a simplified representation of the variation with r of the mass of\nvisible matter enclosed inside r.\n(a)  The mass of visible matter in the galaxy is M.\nShow that for stars where r > R0 the velocity of orbit is v  =  GM  .  [1]\nr\n(b)  Draw on the axes the observed variation with r of the orbital speed v of stars in a galaxy.  [2]\nv\nr\nR0\n(c)  Explain, using the equation in (a) and the graphs, why the presence of visible matter\nalone cannot account for the velocity of stars when r > R0.  [2]",
+   "ms_text": "19.  a  mv  2  GMm\n  2  and correct rearranging ✔  1\nr  r\n19.  b  linear /rising until R0 ✔\nthen «almost» constant ✔  2\n19.  c  for v to stay constant for r greater than R0, M has to be proportional to r ✔\nbut this contradicts the information from the M-r graph ✔\nOR  2 max\n  1\nif M is constant for r greater than R0, then we would expect  v    r  2  ✔\nbut this contradicts the information from the v-r graph ✔",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "D"
+   ],
+   "subtopics": [
+    "X.12",
+    "D.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "19. A galaxy can be modelled as a sphere of radius $R_0$. The distance of a star from the centre of the galaxy is $r$.\n[Graph: mass enclosed against r; rises from 0 to M at r = R0, then constant at M]\nFor this model the graph is a simplified representation of the variation with $r$ of the mass of visible matter enclosed inside $r$.\n(a) The mass of visible matter in the galaxy is $M$.\nShow that for stars where $r > R_0$ the velocity of orbit is $v = \\sqrt{\\frac{GM}{r}}$. [1]\n(b) Draw on the axes the observed variation with $r$ of the orbital speed $v$ of stars in a galaxy. [2]\n[Blank axes: v against r, with R0 marked]\n(c) Explain, using the equation in (a) and the graphs, why the presence of visible matter alone cannot account for the velocity of stars when $r > R_0$. [2]"
+  }
+ ],
+ "qp_pages": 36,
+ "status": "done"
+}

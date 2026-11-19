@@ -1,0 +1,133 @@
+{
+ "exam_id": "math-2015-N-P3-calculus",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2015,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Calculus",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2015 November Examination Session/Mathematics_paper_3_Calculus_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2015 November Examination Session/Mathematics_paper_3_Calculus_HL_markscheme.pdf",
+ "notes": "5 duplicate copies (5 byte-identical size); paper number 8815-7208; code N15/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches paper total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2015-N-P3-calculus-q1",
+   "num": "1",
+   "section": null,
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\n1 , x < 0\nThe function f : ϒ→ϒ is defined as f : x → .\n1 − x , x ≥ 0\nBy considering limits, prove that f is\n(a) continuous at x =0 ; [2]\n(b) not differentiable at x =0 . [3]",
+   "ms_text": "1. (a) consider upper or lower limits M1\nlim fx () = lim 1 = 1 ( = f (0) ) , lim fx () = lim(1 − x ) = 1 ( = f (0) ) A1\n− − + + x → 0 x → 0 x → 0 x → 0\nlim fx () = lim fx () so f is continuous AG\nx → 0 + x → 0 −\n[2 marks]\n1 − 1\n(b) lim = 0 M1A1\n− h → 0 h\n1 − h − 1\nlim = lim(1) − =− 1 A1\n+ + h → 0 h h → 0\nNote: Award M1 for an attempt to find limits in either case.\nf (0 + h ) − f (0) f (0 + h ) − f (0)\nlim ≠ lim so f is not differentiable AG\n+ − h → 0 h h → 0 h\nNote: Award M1A1A0 for correct differentiation of left and right sides, ONLY if limits then\nused to show that both functions have different limits.\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nThe function $f:\\mathbb{R}\\to\\mathbb{R}$ is defined as $f:x\\to\\begin{cases}1, & x<0\\\\ 1-x, & x\\ge 0\\end{cases}$.\nBy considering limits, prove that $f$ is\n(a) continuous at $x=0$; [2]\n(b) not differentiable at $x=0$. [3]"
+  },
+  {
+   "id": "math-2015-N-P3-calculus-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\nLet f (x) = exsin x .\n(a) Show that f '' (x) = 2 ( f ' (x) −f (x)) . [4]\n(b) By further differentiation of the result in part (a) , find the Maclaurin expansion of f (x) ,\nas far as the term in x5. [6]",
+   "ms_text": "′ x x 2. (a) f () x = esin x + ecos x M1A1\nx x x x x f ′′ () x\n= esin x + ecos x − esin x + ecos x = 2ecos x A1\nx x x = 2esin ( x + ecos x − esin x ) M1\n= 2 ( f ′ () x − fx ()) AG\n[4 marks]\n(b) f (0) = 0 , f ′ (0) = 1 , f ′′ (0) = 2(1 − 0) = 2 (M1)A1\nNote: Award M1 for attempt to find f (0) , f ′ (0) and f ′′ (0) .\nf ′′′ () x = 2( f ′′ () x − f ′ ()) x (M1)\nIV V f ′′′ (0) = 2(2 − 1) = 2 , f (0)\n= 2(2 − 2) = 0 , f (0) = 2(0 − 2) =− 4 A1\n2 2 4 2 3 5\nso fx () = x + x + x − x + … (M1)A1\n2! 3! 5!\n1 1 2 3 5\n= x + x + x − x + …\n3 30\n[6 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\nLet $f(x)=\\mathrm{e}^x\\sin x$.\n(a) Show that $f''(x)=2(f'(x)-f(x))$. [4]\n(b) By further differentiation of the result in part (a), find the Maclaurin expansion of $f(x)$, as far as the term in $x^5$. [6]"
+  },
+  {
+   "id": "math-2015-N-P3-calculus-q3",
+   "num": "3",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 11]\n(a) Prove by induction that n! > 3n , for n ≥7 , n ∈′ . [5]\n∞ r 2\n(b) Hence use the comparison test to prove that the series =∑ converges. [6]\nr ! r 1",
+   "ms_text": "n= 7 7 3. (a) if then 7! > 3 A1\nso true for n= 7\nassume true for n = k M1\nso k! > 3k\nconsider n = k + 1\n( k 1)! ( k 1)! k + = + M1\n> ( k + 1)3k\n3.3k k> 6 > (as ) A1\n1\n= 3k+\nhence if true for n = k then also true for n = k + 1 . As true for n= 7 ,\nso true for all n ≥ 7 . R1\nNote: Do not award the R1 if the two M marks have not been awarded.\n[5 marks]\n∞ 2 r\n(b) consider the series a where = R1 =∑ ra\nr\nr ! r 7\nNote: Award the R1 for starting at r= 7 .\n∞ r 2\ncompare to the series =∑ b where b= M1\nr r r\n3 r 7\n∞ 2\nb is an infinite Geometric Series with r= and hence converges A1 =∑\nr\n3 r 7\nNote: Award the A1 even if series starts at r= 1 .\nas r! > 3r so (0 < ) a < b for all r≥ 7 M1R1\nr r\n∞ ∞\nas b converges and a < b so a must converge =∑\nr r r =∑ r\nr 7 r 7\nNote: Award the A1 even if series starts at r= 1 .\n6 ∞\nas =∑ a is finite, so =∑ a must converge R1\nr r\nr 1 r 1\nNote: If the limit comparison test is used award marks to a maximum\nof R1M1A1M0A0R1.\n[6 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L1",
+    "1.15",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 11]\n(a) Prove by induction that $n!>3^n$, for $n\\ge 7$, $n\\in\\mathbb{Z}$. [5]\n(b) Hence use the comparison test to prove that the series $\\sum_{r=1}^{\\infty}\\frac{2^r}{r!}$ converges. [6]"
+  },
+  {
+   "id": "math-2015-N-P3-calculus-q4",
+   "num": "4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 14]\n1\nConsider the function fx ()= 2 ,x∈ϒ.\n1 + x\n5 4 1 r 1 1 r\n(a) Illustrate graphically the inequality, ∑ f < ∫ fx ()d x < ∑ f . [3]\n5 5 0 5 5 r = 1 r = 0\n(b) Use the inequality in part (a) to find a lower and upper bound for π . [5]\n− n − n n 1 1 +− (1) 1 x 2\nr 2 r\n(c) Show that ∑ (1) − x = . [2]\n2 1 + x\nr = 0\nn − 1 r 2 n (1) − 1 x\nn − 1\n(d) Hence show that π = 4 ∑ −− (1) d x . [4] ∫\nr + 0 + x 2 r = 0 2 1 1",
+   "ms_text": "4. (a)\nA1A1A1\nA1 for upper rectangles, A1 for lower rectangles, A1 for curve in between\nwith 0 ≤ x ≤ 1\n5 4 1 r 1 1 r\nhence ∑ f < ∫ fx ()d x < ∑ f AG\n5 5 0 5 5 r\n= 1 r = 0\n[3 marks]\n(b) attempting to integrate from 0 to 1 (M1)\n1 1\n∫ fx ()d x = [ arctan x ]\n0 0\nπ\n= A1\n4\nattempt to evaluate either summation (M1)\n5 4 1 r π 1 r\n∑ f < < ∑ f\n5 5 4 5 5 r\n= 1 r = 0\n5 4 4 r 4 r\nhence ∑ f < π < ∑ f\n5 5 5 5 r\n= 1 r = 0\nso 2.93 < π < 3.33 A1A1\nNote: Accept any answers that round to 2.9 and 3.3.\n[5 marks]\n(c) EITHER\nn − 1\nr 2 r 2 recognise ∑ (1)\n− x as a geometric series with r =− x M1\nr = 0\nn 2 n − 1\n2 n 1 −− ( x ) 1\n+− ( 1 ) x\n=\n2 2\nsum of n terms is 1 −− x 1 + x M1AG\nOR\nn − 1\nr 2 2 r 2 0 2 2 2 4 ∑ (1)\n− ( 1 + x ) x = ( 1 + x ) x − ( 1 + x ) x + ( 1 + x ) x + …\nr = 0\nn − 1 2 2 n − 2 +− (1) ( 1 + x ) x M1\ncancelling out middle terms M1\n(1)n − 1 2 n = 1 +− x AG\n[2 marks]\nn − 1 1 x 2 n\nr 2 r n 1 (d) ∑ (1)\n− x = +− (1) −\n2 2 1\n+ x 1 + x r = 0\nintegrating from 0 to 1 M1\n1\nn − 1 2 r + 1 2 n x 1 1 x\nr n − 1 ∑ (1)\n− = ∫ fx ()d x +− (1) ∫ d x A1A1\n2 2 r + 1 0 0 1 + x\nr = 0 0\n1 π\n∫ fx ()d x= A1\n0 4\nn − 1 r 2 n (1) − 1 x\nn − 1 so π\n= 4 ∑ −− (1) ∫ d x AG\n2 r 1 0 1 x 2 r = 0 + +\n[4 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L5",
+    "5.15",
+    "5.11",
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 14]\nConsider the function $f(x)=\\frac{1}{1+x^2}$, $x\\in\\mathbb{R}$.\n(a) Illustrate graphically the inequality, $\\frac{1}{5}\\sum_{r=1}^{5}f\\left(\\frac{r}{5}\\right)<\\int_0^1 f(x)\\,\\mathrm{d}x<\\frac{1}{5}\\sum_{r=0}^{4}f\\left(\\frac{r}{5}\\right)$. [3]\n(b) Use the inequality in part (a) to find a lower and upper bound for $\\pi$. [5]\n(c) Show that $\\sum_{r=0}^{n-1}(-1)^r x^{2r}=\\frac{1+(-1)^{n-1}x^{2n}}{1+x^2}$. [2]\n(d) Hence show that $\\pi=4\\left(\\sum_{r=0}^{n-1}\\frac{(-1)^r}{2r+1}-(-1)^{n-1}\\int_0^1\\frac{x^{2n}}{1+x^2}\\,\\mathrm{d}x\\right)$. [4]"
+  },
+  {
+   "id": "math-2015-N-P3-calculus-q5",
+   "num": "5",
+   "section": null,
+   "marks": 20,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 20]\nThe curves y = f (x) and y = g (x) both pass through the point (1 , 0) and are defined by the\ny y differential equations d 2 and d\n2 respectively. = x − y = y − x\nd x d x\nShow that the tangent to the curve y = f (x) at the point (1 , 0) is normal to the curve (a)\ny = g (x) at the point (1 , 0) . [2]\n(b) Find g (x) . [6]\n(c) Use Euler’s method with steps of 0.2 to estimate f(2) to 5 decimal places. [5]\n(d) Explain why y = f (x) cannot cross the isocline x − y2= 0 , for x >1 . [3]\n(e) (i) Sketch the isoclines x − y2=−2 , 0 , 1 .\n(ii) On the same set of axes, sketch the graph of f . [4]",
+   "ms_text": "gradient of fat (1, 0) is 2 and the gradient of g at (1, 0) 5. (a) 1 − 0 = 1\n2 is 0\n− 1 =− 1 A1\nso gradient of normal is 1 A1\n= Gradient of the tangent offat (1,0) AG\n[2 marks]\nd y 2\n(b) y =− x\nx−\nd\n∫ − 1d x − x\nintegrating factor is e = e M1\n− x 2 − x y e =\n∫ − x e d x A1\n2 e − x − x = x −∫ 2e x d x M1\n− x − x − x = x 2e + 2e x\n−∫ 2e d x\n− x − x − x = x 2e + 2e x + 2e + c A1\n2 ⇒ gx ()\n= x + 2 x + 2 + c ex\n5\ng (1) = 0 ⇒ c =− M1\ne\n2 − 1 ⇒ gx ()\n= x + 2 x + 2 − 5ex A1\n[6 marks]\n(c) use of y = y + hf ′ ( x , y ) (M1)\nn 1 n n n +\nx= 1 , y= 0\n0 0\nx= 1.2 , y= 0.2 A1\n1 1\nx= 1.4 , y= 0.432 (M1)(A1)\n2 2\nx= 1.6 , y= 0.67467 …\n3 3\nx= 1.8 , y= 0.90363 …\n4 4\nx= 2 , y= 1.1003255...\n5 5\nanswer = 1.10033 A1 N3\nNote: Award A0 or N1 if 1.10 given as answer.\n[5 marks]\n(d) at the point (1, 0), the gradient of fis positive so the graph of fpasses into the\nx> 1 first quadrant for\n2 in the first quadrant below the curve x\n− y = 0 the gradient of f is positive R1\n2 the curve x\n− y = 0 has positive gradient in the first quadrant R1\n2 if fwere to reach x\n− y = 0 it would have gradient of zero, and therefore\nwould not cross R1\n[3 marks]\n(e) (i) and (ii)\nA4\nNote: Award A1 for 3 correct isoclines.\n2 Award A1 for fnot reaching x\n− y = 0 .\nAward A1 for turning point of f on x y 2 0 − = .\nAward A1 for negative gradient to the left of the turning point.\nNote: Award A1 for correct shape and position if curve drawn without any isoclines.\n[4 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.16",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 20]\nThe curves $y=f(x)$ and $y=g(x)$ both pass through the point $(1,0)$ and are defined by the differential equations $\\frac{\\mathrm{d}y}{\\mathrm{d}x}=x-y^2$ and $\\frac{\\mathrm{d}y}{\\mathrm{d}x}=y-x^2$ respectively.\n(a) Show that the tangent to the curve $y=f(x)$ at the point $(1,0)$ is normal to the curve $y=g(x)$ at the point $(1,0)$. [2]\n(b) Find $g(x)$. [6]\n(c) Use Euler's method with steps of $0.2$ to estimate $f(2)$ to 5 decimal places. [5]\n(d) Explain why $y=f(x)$ cannot cross the isocline $x-y^2=0$, for $x>1$. [3]\n(e) (i) Sketch the isoclines $x-y^2=-2, 0, 1$.\n(ii) On the same set of axes, sketch the graph of $f$. [4]"
+  }
+ ],
+ "status": "done"
+}

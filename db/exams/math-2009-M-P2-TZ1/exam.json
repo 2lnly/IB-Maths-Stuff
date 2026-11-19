@@ -1,0 +1,300 @@
+{
+ "exam_id": "math-2009-M-P2-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2009,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2009 May Examination Session/Mathematics_paper_2_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2009 May Examination Session/Mathematics_paper_2_TZ1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2209-7204; code M09/5/MATHL/HP2/ENG/TZ1/XX; marks sum matches expected total 120",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2009-M-P2-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\nBob measured the heights of 63 students. After analysis, he conjectured that the\nheight, H , of the students could be modelled by a normal distribution with mean\n166.5 cm and standard deviation 5 cm.\n(a) Based on this assumption, estimate the number of these students whose height is\nat least 170 cm. [3 marks]\nLater Bob noticed that the tape he had used to measure the heights was faulty as it\nstarted at the 5 cm mark and not at the zero mark.\n(b) What are the correct values of the mean and variance of the distribution of the\nheights of these students? [3 marks]",
+   "ms_text": "2 1. (a) H N(166.5, 5)\nP( H≥ 170) = 0.242... (M1)(A1)\n0.242...63 × = 15.2 A1\nso, approximately 15 students\n(b) correct mean: 161.5 (cm) A1\n2 variance remains the same, i.e. 25 (cm) A2\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nBob measured the heights of 63 students. After analysis, he conjectured that the height, $H$, of the students could be modelled by a normal distribution with mean 166.5 cm and standard deviation 5 cm.\n(a) Based on this assumption, estimate the number of these students whose height is at least 170 cm. [3 marks]\nLater Bob noticed that the tape he had used to measure the heights was faulty as it started at the 5 cm mark and not at the zero mark.\n(b) What are the correct values of the mean and variance of the distribution of the heights of these students? [3 marks]"
+  },
+  {
+   "id": "math-2009-M-P2-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\n(a) Show that the complex number i is a root of the equation\n4 3 2 x − 5 x + 7 x − 5 x + 6 = 0 . [2 marks]\n(b) Find the other roots of this equation. [4 marks]",
+   "ms_text": "4 3 2 2. (a) i − 5i + 7i − 5i + 6 =+ 1 5i − 7 − 5i + 6 M1A1\n= 0 AG N0\n⇒− is second root (b) i root i (M1)A1\n4 3 2 moreover, x − 5 x + 7 x − 5 x + 6 = ( x − i)( x + i)() qx\n2 where qx () = x − 5 x + 6\nfinding roots of() qx\nthe other two roots are 2 and 3 A1A1\nNote:Final A1A1 is independent of previous work.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "2.12",
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\n(a) Show that the complex number $\\mathrm{i}$ is a root of the equation $x^4 - 5x^3 + 7x^2 - 5x + 6 = 0$. [2 marks]\n(b) Find the other roots of this equation. [4 marks]"
+  },
+  {
+   "id": "math-2009-M-P2-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\n1 x () =−\nLet fx and gx () = x + 1 , x > − 1.\n1 + x\nFind the set of values of x for which f ′ () x ≤ fx () ≤ gx () .",
+   "ms_text": "3.\n− 2\nf ′ () x = M1A1\n+ 2 (1 x )\nNote: Alternatively, award M1A1for correct sketch of the derivative.\nfind at least one point of intersection of graphs (M1)\n′ x = y = fx () and y = f () x for 3or 1.73 (A1)\ny = fx () and y = gx () for x = 0 (A1)\nforming inequality 0 ≤ x ≤ 3(or0 ≤ x ≤ 1.73) A1A1 N4\nNote: Award A1 for correct limits and A1 for correct inequalities.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.15",
+    "5.6",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nLet $f(x) = \\frac{1-x}{1+x}$ and $g(x) = \\sqrt{x+1}$, $x > -1$.\nFind the set of values of $x$ for which $f'(x) \\le f(x) \\le g(x)$."
+  },
+  {
+   "id": "math-2009-M-P2-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\nMr Lee is planning to go fishing this weekend. Assuming that the number of fish\ncaught per hour follows a Poisson distribution with mean 0.6, find\n(a) the probability that he catches at least one fish in the first hour; [2 marks]\n(b) the probability that he catches exactly three fish if he fishes for four hours; [2 marks]\n(c) the number of complete hours that Mr Lee needs to fish so that the probability\nof catching more than two fish exceeds 80 %. [3 marks]",
+   "ms_text": "X∼ 4. (a) Po(0.6)\nP( X ≥ 1) =− 1 P( X = 0) M1\n= 0.451 A1 N1\n(b) Y∼ Po(2.4) (M1)\nY= = P( 3) 0.209 A1\nZ ∼ Po(0.6) n (c) (M1)\nP( Z ≥ 3) =− 1 P( Z ≤ 2) > 0.8 (M1)\nNote: Only one of these M1 marks may be implied.\nn ≥ 7.132... (hours)\nso, Mr Lee needs to fish for at least 8 complete hours A1 N2\nNote: Accept a shown trial and error method that leads to a correct solution.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\nMr Lee is planning to go fishing this weekend. Assuming that the number of fish caught per hour follows a Poisson distribution with mean 0.6, find\n(a) the probability that he catches at least one fish in the first hour; [2 marks]\n(b) the probability that he catches exactly three fish if he fishes for four hours; [2 marks]\n(c) the number of complete hours that Mr Lee needs to fish so that the probability of catching more than two fish exceeds 80 %. [3 marks]"
+  },
+  {
+   "id": "math-2009-M-P2-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\n1 Find the angle between the lines x −=−\n1 y = 2 and x z = y = 3. z\n2",
+   "ms_text": "5. consider a vector parallel to each line,\n4 3\ne.g. u =− 2and v = 3 A1A1\n1 1\nlet θ be the angle between the lines\nuv 12 − 6 + 1\ncos θ = = M1A1\nuv 2119\n7\n= = 0.350... (A1)\n2119\n7\nso θ = 69.5 or 1.21 rad or arccos A1 N4\n2119\nNote:Allow FT from incorrect reasonable vectors.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nFind the angle between the lines $\\frac{x-1}{2} = 1 - y = 2z$ and $x = y = 3z$."
+  },
+  {
+   "id": "math-2009-M-P2-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 5]\nθ sin\nθ [3 marks] (a) Integrate ∫ d.\n1− cos θ\na sin θ 1 and π\n(b) Given that d θ = a < π , find the value of a . [2 marks] ∫π\n2<\n2− 1 cos θ 2",
+   "ms_text": "sin θ (1cos) − θ ′\n6. (a) ∫ d θ = ∫ d θ = ln(1cos) − θ + C (M1)A1A1\n1cos − θ 1cos − θ\nNote: Award A1 for ln(1cos) − θ and A1 for C.\nθ a sin 1 a 1\n(b) d θ = ⇒ [ ln(1 − cos) θ ] = M1 ∫ π π\n1 − cos θ 2 2 2\n2\n1\n2 1 − cos a = e ⇒ a = arccos(1 − e) or2.28 A1 N2\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.10",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 5]\n(a) Integrate $\\int \\frac{\\sin\\theta}{1-\\cos\\theta}\\,\\mathrm{d}\\theta$. [3 marks]\n(b) Given that $\\int_{\\frac{\\pi}{2}}^{a} \\frac{\\sin\\theta}{1-\\cos\\theta}\\,\\mathrm{d}\\theta = \\frac{1}{2}$ and $\\frac{\\pi}{2} < a < \\pi$, find the value of $a$. [2 marks]"
+  },
+  {
+   "id": "math-2009-M-P2-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 8]\nConsider the planes defined by the equations x + y + 2 z = 2, 2 x − y + 3 z = 2 and\n5 x − y + az = 5 where a is a real number.\n(a) If a = 4 find the coordinates of the point of intersection of the three planes. [2 marks]\n(b) (i) Find the value of a for which the planes do not meet at a unique point.\n(ii) For this value of a show that the three planes do not have any common\npoint. [6 marks]",
+   "ms_text": "1 1 2 x 2\n7. (a) let A = 2 − 1 3, X = y and B = 2 (M1)\n5 − 1 4 z 5\n11 7 1\npoint of intersection is , , or (0.917, 0.583, 0.25) ( ) A1\n12124\n(b) METHOD 1\n1 1 2\n(i) det 2 − 1 3 = 0 M1\n5 − 1 a\n− 3 a + 24 = 0 (A1)\na = 8 A1 N1\n1 1 22\n(ii) consider the augmented matrix 2 − 1 32 M1\n− 5 1 85\n5 1 1 2 2 1 0 0\n3\n1 use row reduction to obtain 0 − 3 − 1 − 2 or 0 1 0\n3\n0 0 0 − 1 0 0 01\n(or equivalent) A1\nany valid reason R1\n(e.g. as the last row is not all zeros, the planes do not meet) N0\nMETHOD 2\nuse of row reduction(or equivalent manipulation of equations) M1\n1 1 22 1 1 2 2\ne.g. 2 − 1 32 ⇒ 0 − 3 − 1 − 2 A1A1\n5 − 1 a 5 0 − 6 a − 10 − 5\nNote:Award an A1 for each correctly reduced row.\n(i) a − 10 =−⇒ 2 a = 8 M1A1 N1\n(ii) when a = 8 , row3 ≠ 2 × row 2 R1 N0\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.16",
+    "1.L1",
+    "3.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 8]\nConsider the planes defined by the equations $x + y + 2z = 2$, $2x - y + 3z = 2$ and $5x - y + az = 5$ where $a$ is a real number.\n(a) If $a = 4$ find the coordinates of the point of intersection of the three planes. [2 marks]\n(b) (i) Find the value of $a$ for which the planes do not meet at a unique point.\n(ii) For this value of $a$ show that the three planes do not have any common point. [6 marks]"
+  },
+  {
+   "id": "math-2009-M-P2-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\nx y d y Solve the differential equation cos2 e\n(a) − e = 0 , given that y = 0 when x = π. [7 marks]\ny e d x\n(b) Find the value of y when x =π . [1 mark]\n2",
+   "ms_text": "cos 2 x d y e y 2 y e y\n8. (a) rearrange − e = 0 to obtain cos xx d = eed y (M1)\ny e d x\n+\n2 1 cos(2) x 1 1 as cos xx d = d x = x + sin(2) x + C M1A1\n∫ ∫ 1\n2 2 4\ny y y e\n= e + and ∫ eed y e C A1\n2\nNote: The above two integrations are independent and should not\nbe penalized for missing Cs.\n2 cos x\ny d y 1 y e 1 sin(2) e\na general solution of − e = 0 is x + x − e = C A1\ny e d x 2 4\nπ π\n1 sin(2) e 0 given that y = 0 when x =π, C = + π− e = − (or 1.15 e − ) (M1)\n2 4 2\nso, the required solution is defined by the equation\n1 π 1 1 π 1 sin(2) e y\nx + x − e = − e or y = lnln x + sin(2) x + e − A1 N0\n2 4 2 2 4 2\n(or equivalent)\nπ π\n(b) for x = , y = lnlne − (or − 0.417 ) A1\n2 4\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.10",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\n(a) Solve the differential equation $\\frac{\\cos^2 x}{\\mathrm{e}^y} - \\mathrm{e}^{\\mathrm{e}^y}\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 0$, given that $y = 0$ when $x = \\pi$. [7 marks]\n(b) Find the value of $y$ when $x = \\frac{\\pi}{2}$. [1 mark]"
+  },
+  {
+   "id": "math-2009-M-P2-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\nThe diagram below shows a circle with centre at the origin O and radius r > 0 .\ny\nP\nr\nx O\nA point P(, xy, ( ) x > 0 , y > 0 is moving round the circumference of the circle. )\ny\nLet m = tanarcsin .\nr\n3\ny m r Given that d , show that d\n(a) = 0 001 . r = . [6 marks]\nd t d t 2 2 10 r − y\nState the geometrical meaning of d m (b) . [1 mark]\nd t",
+   "ms_text": "d m d my d\n9. (a) = (M1)\nd t d y d t\n′\ny y r 2\n= sec arcsin × arcsin ×\nr r 1000\n1\n1 r r\n= × × (or equivalent) A1A1A1\ny 2 2 1000\ncos arcsin y\n1 − r\nr\n1\n2 2 r − y\nr\n= (A1)\n2 2 r − y 1000\n2 r\nr 3\n= (or equivalent) A1\n3 2 23 10 ( r − y )\n3\nr\nAG N0 =\n10 r 2 − y 2\nd m\n(b) A1\nt represents the rate of change of the gradient of the line OP\nd\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.15",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nThe diagram below shows a circle with centre at the origin O and radius $r > 0$.\n[Diagram: circle centred at O on x-y axes; point P on the circle in the first quadrant joined to O by a line extended beyond P; angle at O between the x-axis and OP marked; radius r along the x-axis]\nA point $\\mathrm{P}(x, y)$, $(x > 0, y > 0)$ is moving round the circumference of the circle.\nLet $m = \\tan\\left(\\arcsin\\frac{y}{r}\\right)$.\n(a) Given that $\\frac{\\mathrm{d}y}{\\mathrm{d}t} = 0.001r$, show that $\\frac{\\mathrm{d}m}{\\mathrm{d}t} = \\left(\\frac{r}{10\\sqrt{r^2 - y^2}}\\right)^3$. [6 marks]\n(b) State the geometrical meaning of $\\frac{\\mathrm{d}m}{\\mathrm{d}t}$. [1 mark]"
+  },
+  {
+   "id": "math-2009-M-P2-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 18]\n1 1 1 1 0 0\nLet A = 0 1 1 and B = 1 1 0 .\n0 0 1 1 1 1\n−1 and Y −1 (a) Given that X = B − A = B − A ,\n(i) find X and Y ;\n− 1 − (ii) does X + Y 1 have an inverse? Justify your conclusion. [5 marks]\nnn ( + 1 )\n1 n\n2\n+ [7 marks] (b) Prove by induction that An = , for n∈ ′.\n0 1 n\n0 0 1\n1 x y\n1 + (c) Given that ( An ) −= 0 1 x , for n∈\n′,\n0 0 1\n(i) find x and y in terms of n ,\nn n − (ii) and hence find an expression for A + ( A )1. [6 marks]",
+   "ms_text": "1 0 0 1 − 1 0 0 1 0\n− 1 10. (a) (i) X = B − A = 1 1 0 − 0 1 − 1 = 1 0 1 A1\n1 1 1 0 0 1 1 1 0\n1 0 0 1 1 1 0 − 1 − 1\n− 1\nY = B − A = − 1 1 0 − 0 1 1 = − 1 0 − 1 A1\n0 − 1 1 0 0 1 0 − 1 0\n0 − 1 0\n− 1 − 1 (ii)\nX + Y = 1 0 − 1 (A1)\n0 1 0\n− − X 1 + Y 1 has no inverse A1\n− 1 − 1 as\ndet ( X + Y ) = 0 R1\n[5 marks]\n+ nn ( 1)\n1 n\n2\nn (b) if Pn (): A =\n0 1 n\n0 0 1\n1(11) +\n1 1\n2\nfor n = 1, P (1) : A = ⇒ P (1) is true A1\n0 1 1\n0 0 1\nkk ( + 1)\n1 k\n2\nk assume Pk is true () i e .. A = M1\n0 1 k\n0 0 1\nfor n = k + 1,\nk 1 k k A += AA or AA M1\nkk ( + 1)\n1 k 1 1 1\n2\n= 0 1 1\n0 1 k\n0 0 1\n0 0 1\nkk ( + 1)\n1 1 + k 1 + k +\n2\n= 0 1 1 + k M1A1\n0 0 1\n( k + 1)( k + 2)\n1 1 + k\n2\n= A1\n+ 0 1 1 k\n0 0 1\n+ hence Pk () ⇒ Pk ( + 1) and P (1) is true, so Pn is true for all n () ∈ R1 N0\n[7 marks]\nnn ( + 1)\n1 n 1 x y 1 0 0\n2\nn n − 1 (c) (i) A ( A ) = I ⇒ 0 1 x = 0 1 0 M1\n0 1 n\n0 0 1 0 0 1\n0 0 1\nnn ( + 1)\n+ + + 1 x n y nx 1 0 0\n2\n⇒ = 0 1 0 A1\n0 1 x + n\n0 0 1\n0 0 1\nsolve simultaneous equations to obtain\nnn ( + 1)\nx + n = 0 and y + nx + = 0 M1\n2\nnn ( − 1)\nx =− and n y = A1A1 N2\n2\nnn ( + 1) nn ( − 1)\n1 − n 2 1 n 2 0 n\n2 2\nn n − 1 (ii) A + ( A ) = + = 0 2 0 A1\n0 1 n 0 1 − n\n0 0 2 0 0 1 0 0 1\n[6 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 18]\nLet $\\boldsymbol{A} = \\begin{pmatrix} 1 & 1 & 1 \\\\ 0 & 1 & 1 \\\\ 0 & 0 & 1 \\end{pmatrix}$ and $\\boldsymbol{B} = \\begin{pmatrix} 1 & 0 & 0 \\\\ 1 & 1 & 0 \\\\ 1 & 1 & 1 \\end{pmatrix}$.\n(a) Given that $\\boldsymbol{X} = \\boldsymbol{B} - \\boldsymbol{A}^{-1}$ and $\\boldsymbol{Y} = \\boldsymbol{B}^{-1} - \\boldsymbol{A}$,\n(i) find $\\boldsymbol{X}$ and $\\boldsymbol{Y}$;\n(ii) does $\\boldsymbol{X}^{-1} + \\boldsymbol{Y}^{-1}$ have an inverse? Justify your conclusion. [5 marks]\n(b) Prove by induction that $\\boldsymbol{A}^n = \\begin{pmatrix} 1 & n & \\frac{n(n+1)}{2} \\\\ 0 & 1 & n \\\\ 0 & 0 & 1 \\end{pmatrix}$, for $n \\in \\mathbb{Z}^+$. [7 marks]\n(c) Given that $(\\boldsymbol{A}^n)^{-1} = \\begin{pmatrix} 1 & x & y \\\\ 0 & 1 & x \\\\ 0 & 0 & 1 \\end{pmatrix}$, for $n \\in \\mathbb{Z}^+$,\n(i) find $x$ and $y$ in terms of $n$,\n(ii) and hence find an expression for $\\boldsymbol{A}^n + (\\boldsymbol{A}^n)^{-1}$. [6 marks]"
+  },
+  {
+   "id": "math-2009-M-P2-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 23,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 23]\nThe position vector at time t of a point P is given by\n→\nOP = ( 1 + t ) i + ( 2 − 2 t ) j + ( 3 t − 1 ) k , t ≥ 0 .\n(a) Find the coordinates of P when t = 0. [2 marks]\n(b) Show that P moves along the line L with Cartesian equations\ny − 2 z + 1\nx −= 1 = . [2 marks]\n− 2 3\n(c) (i) Find the value of t when P lies on the plane with equation 2 x + y + z = 6 .\n(ii) State the coordinates of P at this time.\n(iii) Hence find the total distance travelled by P before it meets the plane. [6 marks]\nThe position vector at time t of another point, Q, is given by\n2 t\n→\nOQ = 1 − t , t ≥ 0.\n2 1 − t\n(d) (i) Find the value of t for which the distance from Q to the origin is minimum.\n(ii) Find the coordinates of Q at this time. [6 marks]\n(e) Let a , b and c be the position vectors of Q at times t = 0 , t = 1 and t = 2\nrespectively.\n(i) Show that the equation a − b = k ( b − c ) has no solution for k .\n(ii) Hence show that the path of Q is not a straight line. [7 marks]",
+   "ms_text": "→\n=+ − 11. (a) OP i 2 j k (M1)\nthe coordinates ofPare(1, 2, − 1) A1\n[2 marks]\n(b) EITHER\nx =+ 1 ty , = 2 − 2, tz = 3 t − 1 M1\ny − 2 z + 1\nx −= 1 t , = t , = t A1\n− 2 3\n− + y 2 z 1\nx −= 1 = AG N0\n− 2 3\nOR\nx 1 1\ny = 2 + t − 2 M1A1\nz − 1 3\ny − 2 z + 1\nx −= 1 = AG\n− 2 3\n[2 marks]\n(c) (i) 2(1 + t ) + (2 − 2) t + (3 t − 1) = 6 ⇒= t 1 M1A1 N1\n(ii) coordinates are (2, 0, 2) A1\nNote: Award A0 for position vector.\n(iii) distance travelled is the distance between the two points (M1)\n− 2 + − 2 + + 2 = = (M1)A1 (21) (0 2) (21) 14(3.74)\n[6 marks]\n(d) (i) distance from Q to the origin is given by\n4 2 22 dt ()= t + (1 − t ) + (1 − t ) (or equivalent) M1A1\ne.g. for labelled sketch of graph of d or d 2 (M1)(A1)\nor\nthe minimum value is obtained for t = 0.761 A1 N3\n(ii) the coordinates are (0.579, 0.239, 0.421) A1\nNote: Accept answers given as a position vector.\n[6 marks]\n0 1 4\n= = =− (e) (i) a 1, b 0and c 1 (M1)A1\n− 1 0 3\nsubstituting in the equation a − b = k ( b − c, we have ) (M1)\n0 1 1 4 − 1 − 3\n1 − 0 = k 0 −− 1 ⇔ 1 = k 1 A1\n1 0 0 − 3 1 3\n1\n⇒ k = and 1 k = which is impossible\n3\nso there is no solution for k R1\n→ →\n(ii) BA and CB are not parallel R2\n(hence A, B, and C cannot be collinear)\nNote: Only accept answers that follow from part (i).\n[7 marks]\nTotal [23 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.12",
+    "5.8",
+    "3.14",
+    "3.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 23]\nThe position vector at time $t$ of a point P is given by\n$\\overrightarrow{\\mathrm{OP}} = (1+t)\\boldsymbol{i} + (2-2t)\\boldsymbol{j} + (3t-1)\\boldsymbol{k}$, $t \\ge 0$.\n(a) Find the coordinates of P when $t = 0$. [2 marks]\n(b) Show that P moves along the line $L$ with Cartesian equations $x - 1 = \\frac{y-2}{-2} = \\frac{z+1}{3}$. [2 marks]\n(c) (i) Find the value of $t$ when P lies on the plane with equation $2x + y + z = 6$.\n(ii) State the coordinates of P at this time.\n(iii) Hence find the total distance travelled by P before it meets the plane. [6 marks]\nThe position vector at time $t$ of another point, Q, is given by\n$\\overrightarrow{\\mathrm{OQ}} = \\begin{pmatrix} t^2 \\\\ 1-t \\\\ 1-t^2 \\end{pmatrix}$, $t \\ge 0$.\n(d) (i) Find the value of $t$ for which the distance from Q to the origin is minimum.\n(ii) Find the coordinates of Q at this time. [6 marks]\n(e) Let $\\boldsymbol{a}$, $\\boldsymbol{b}$ and $\\boldsymbol{c}$ be the position vectors of Q at times $t = 0$, $t = 1$ and $t = 2$ respectively.\n(i) Show that the equation $\\boldsymbol{a} - \\boldsymbol{b} = k(\\boldsymbol{b} - \\boldsymbol{c})$ has no solution for $k$.\n(ii) Hence show that the path of Q is not a straight line. [7 marks]"
+  },
+  {
+   "id": "math-2009-M-P2-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 19]\nLet f be a function defined by fx () = x + 2 cos, xx ∈ [, 02π. The diagram below ]\nshows a region S bound by the graph of f and the line y = x .\ny\nC\nS A\nB\nx\nA and C are the points of intersection of the line y = x and the graph of f , and B is\nthe minimum point of f .\nπ π and cπ\n(a) If A, B and C have x-coordinates a , b , , ∈∞,\n2, where abc\n2 6\nfind the values of a , b and c . [4 marks]\n(b) Find the range of f . [3 marks]\n(c) Find the equation of the normal to the graph of f at the point C, giving your\nanswer in the form y = px + q . [5 marks]\n(d) The region S is rotated through 2π about the x-axis to generate a solid.\n(i) Write down an integral that represents the volume V of this solid.\n2 (ii) Show that V= 6 π. [7 marks]",
+   "ms_text": "12. (a) METHOD 1\nusing GDC\na = 1, b = 5, c = 3 A1A2A1\nMETHOD 2\n= + ⇒ = x x 2cos x cos x 0 M1\nπ3π\n⇒ x = , ...\n2 2\na = 1, c = 3 A1\n1 − 2sin x = 0 M1\n1 π 5π\n⇒ sin x = ⇒ x = or\n2 6 6\nb = 5 A1\nNote:Final M1A1 is independent of previous work.\n[4 marks]\n5 π 5 π =\n− (b) f 3(or 0.886) (M1)\n6 6\nf (2 π)=π+ 2 2(or 8.28) (M1)\nπ\nthe range is5 − 3, 2 π+ 2 ( or [0.886, 8.28] ) A1\n6\n[3 marks]\n′ (c) f () x =− 12sin x (M1)\n3 π\n′ f = 3 A1\n2\n1\ngradient of normal =− (M1)\n3\n3 π 1 3 π\nequation of the normal is y − =− x − (M1)\n2 3 2\n1\ny =− x +π(or equivalent decimal values) 2 A1 N4\n3\n[5 marks]\n3 π\n2 2 (d) (i) V =π\n∫ 2 ( x − ( x + 2cos) x ) d x (or equivalent) A1A1 π\n2\nNote:Award A1 for limits and A1 for π and integrand.\n3 π\n2 2 (ii) V =π\n∫ 2 ( x − ( x + 2cos) x ) d x π\n2\n3 π\n=−π 2 + 2 ∫ (4cos x x 4cos x )d x\nπ\n2\nusing integration by parts M1\nand the identity 4cos 2 x = 2cos2 x + 2 , M1\n3 π\nV =−π [ (4sin x x + 4cos) x + (sin2 x + 2) x ] 2 A1A1 π\n2\nNote: AwardA1for4sin x x + 4cos x andA1for sin 2 x + 2 x .\n3 π 3 π π π\n=−π 6π sin + 4cos + sin3 π+π−2π 3 sin + 4cos + sin π+π A1\n2 2 2 2\n=−π(−6π+π−2π−π 3 )\n=π 2 6 AG N0\nNote: Do not accept numerical answers.\n[7 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "5.17",
+    "5.16",
+    "5.4",
+    "5.8",
+    "3.8",
+    "2.2",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 19]\nLet $f$ be a function defined by $f(x) = x + 2\\cos x$, $x \\in [0, 2\\pi]$. The diagram below shows a region $S$ bound by the graph of $f$ and the line $y = x$.\n[Diagram: graph of y = f(x) and the line y = x; they intersect at A and C; B is the minimum point of f between A and C; shaded region S between the line and the curve from A to C]\nA and C are the points of intersection of the line $y = x$ and the graph of $f$, and B is the minimum point of $f$.\n(a) If A, B and C have $x$-coordinates $a\\frac{\\pi}{2}$, $b\\frac{\\pi}{6}$ and $c\\frac{\\pi}{2}$, where $a, b, c \\in \\mathbb{N}$, find the values of $a$, $b$ and $c$. [4 marks]\n(b) Find the range of $f$. [3 marks]\n(c) Find the equation of the normal to the graph of $f$ at the point C, giving your answer in the form $y = px + q$. [5 marks]\n(d) The region $S$ is rotated through $2\\pi$ about the $x$-axis to generate a solid.\n(i) Write down an integral that represents the volume $V$ of this solid.\n(ii) Show that $V = 6\\pi^2$. [7 marks]"
+  }
+ ],
+ "status": "done"
+}

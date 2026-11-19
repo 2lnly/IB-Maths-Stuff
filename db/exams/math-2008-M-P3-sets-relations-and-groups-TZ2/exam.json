@@ -1,0 +1,129 @@
+{
+ "exam_id": "math-2008-M-P3-sets-relations-and-groups-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2008,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_TZ2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2208-7217; code M08/5/MATHL/HP3/ENG/TZ2/SG; marks sum matches expected total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2008-M-P3-sets-relations-and-groups-TZ2-q1",
+   "num": "1",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 16]\n(a) Draw the Cayley table for the set of integers G ={ 012345 ,, , , , } under\n[3 marks] addition modulo 6, +6 .\n{ } [4 marks] (b) Show that G, + 6 is a group.\n(c) Find the order of each element. [3 marks]\n{ } [2 marks] (d) Show that G, + 6 is cyclic and state its generators.\n(e) Find a subgroup with three elements. [2 marks]\n(f) Find the other proper subgroups of G, + { } [2 marks] 6.",
+   "ms_text": "1. (a)\n+ 0 1 2 3 4 5\n6\n0 0 1 2 3 4 5\n1 1 2 3 4 5 0\n2 2 3 4 5 0 1\n3 3 4 5 0 1 2\n4 4 5 0 1 2 3\n5 5 0 1 2 3 4\nA3\nNote: Award A2 for 1 error, A1 for 2 errors and A0 for more than 2 errors.\n[3 marks]\n(b) The table is closed A1\nIdentity element is 0 A1\nEach element has a unique inverse (0 appears exactly once in each row and column) A1\nAddition mod 6 is associative A1\nHence { G+ } , forms a group AG\n6\n[4 marks]\n(c) 0 has order 1 (0 = 0),\n1 has order 6 (111111 +++++= 0),\n2 has order 3 (2 + 2 + 2 = 0),\n3 has order 2 (3 + 3 = 0),\n4 has order 3 (4 + 4 + 4 = 0),\n5 has order 6 (5 + 5 + 5 + 5 + 5 + 5 = 0). A3\nNote: Award A2 for 1 error, A1 for 2 errors and A0 for more than 2 errors.\n[3 marks]\n(d) Since 1 and 5 are of order 6 (the same as the order of the group) every element\ncan be written as sums of either 1 or 5. Hence the group is cyclic. R1\nThe generators are 1 and 5. A1\n[2 marks]\n(e) A subgroup of order 3 is { ( 0, 2, 4, + } ) A2\n6\nNote: Award A1 if only {0, 2, 4} is seen.\n[2 marks]\n(f) Other proper subgroups are {} ( 0 + ){ , ( 0, 3 } + ) A1A1\n6 6\nNote: Award A1 if only {0}, {0, 3} is seen.\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.6",
+    "7.5",
+    "7.8",
+    "7.4",
+    "7.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 16]\n(a) Draw the Cayley table for the set of integers $G=\\{0, 1, 2, 3, 4, 5\\}$ under addition modulo 6, $+_6$. [3 marks]\n(b) Show that $\\{G, +_6\\}$ is a group. [4 marks]\n(c) Find the order of each element. [3 marks]\n(d) Show that $\\{G, +_6\\}$ is cyclic and state its generators. [2 marks]\n(e) Find a subgroup with three elements. [2 marks]\n(f) Find the other proper subgroups of $\\{G, +_6\\}$. [2 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-sets-relations-and-groups-TZ2-q2",
+   "num": "2",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 13]\n(a) Below are the graphs of the two functions f : P → Q and gA : → B .\nB\nP\nA\nQ\nDetermine, with reference to features of the graphs, whether the functions are\ninjective and/or surjective. [4 marks]\n(b) Given two functions hX : → Y and kY : → Z .\nShow that\n(i) if both h and k are injective then so is the composite function kh ο;\n[9 marks] (ii) if both h and k are surjective then so is the composite function kh ο.",
+   "ms_text": "2. (a) f is surjective because every horizontal line through\nQ meets the graph somewhere R1\nf is not injective because it is a many-to-one function R1\ng is injective because it always has a positive gradient R1\n(accept horizontal line test reasoning)\ng is not surjective because a horizontal line through the\nnegative part of B would not meet the graph at all R1\n[4 marks]\n(b) (i) EITHER\nLet x , x ∈ X and y = hx ( ) and y = hx ( ) M1\n1 2 1 1 2 2\nThen\nk � ( hx ( ) ) = k � ( hx ( ) )\n1 2\n⇒ ky ( ) = ky ( ) A1\n1 2\n⇒ y = y ( k is injective ) A1\n1 2\n⇒ hx ( ) = hx ( ) ( hx ( ) = y and ( hx ) = y ) A1\n1 2 1 1 2 2\n⇒ x = x ( h is injective ) A1\n1 2\nHence k � h is injective AG\nOR\nx , x ∈ X , x ≠ x M1\n1 2 1 2\nsince h is an injection ⇒ hx ( ) ≠ hx ( ) A1\n1 2\nhx ( ), hx ( ) ∈ Y A1\n1 2\nsince k is an injection ⇒ khx ( ( ) ) ≠ khx ( ( ) ) A1\n1 2\n( ) ( ) khx ( ), khx ( ) ∈ Z A1\n1 2\nso k � h is an injection. AG\n(ii) h and k are surjections and let z ∈ Z\n∈ = Since k is surjective there exists y Y such that () ky z R1\nSince h is surjective there exists x ∈ X such that () hx = y R1\nTherefore there exists x ∈ X such that\nk � hx () = khx ( () )\n= ky () R1\n= z A1\nSo k � h is surjective AG\n[9 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 13]\n(a) Below are the graphs of the two functions $f: P \\to Q$ and $g: A \\to B$.\n[Graph f: cubic-shaped curve; domain P is a bold interval on the x-axis, codomain Q a bold interval on the y-axis; the curve rises, levels off below the x-axis, then rises steeply. Graph g: increasing concave curve over a bold interval A on the x-axis; codomain B a bold interval on the y-axis extending below the x-axis, while the curve stays above it.]\nDetermine, with reference to features of the graphs, whether the functions are injective and/or surjective. [4 marks]\n(b) Given two functions $h: X \\to Y$ and $k: Y \\to Z$.\nShow that\n(i) if both $h$ and $k$ are injective then so is the composite function $k \\circ h$;\n(ii) if both $h$ and $k$ are surjective then so is the composite function $k \\circ h$. [9 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-sets-relations-and-groups-TZ2-q3",
+   "num": "3",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nProve that ( A ∩ B ) \\ ( A ∩ C ) = A ∩ ( BC \\ ) where A, B and C are three subsets of the\nuniversal set U.",
+   "ms_text": "3. ( A ∩ B ) \\ ( A ∩ C ) = ( A ∩ B ) ∩ ( A ∩ C′ ) M1\n= ( A ∩ B ) ∩ ( A ′ ∪ C ′ ) A1\n= ( A ∩ B ∩ A ′ ) ∪ ( A ∩ B ∩ C ′ ) A1\n= ( A ∩ A ′ ∩ B ) ∪ ( A ∩ B ∩ C ′ ) A1\n=∅∩ ( B ) ∪ ( A ∩ B ∩ C′ ) (A1)\n= ∅∪ ( A ∩ B ∩ C′ )\n= ( A ∩ ( B ∩ C′ ) ) A1\n= A ∩ ( BC \\ ) AG\nNote: Do not accept proofs by Venn diagram.\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nProve that $(A \\cap B) \\setminus (A \\cap C) = A \\cap (B \\setminus C)$ where $A$, $B$ and $C$ are three subsets of the universal set $U$."
+  },
+  {
+   "id": "math-2008-M-P3-sets-relations-and-groups-TZ2-q4",
+   "num": "4",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 19]\n(a) The relation aRb is defined on {, 123456789 if and only if ab is the , , , , , , ,}\nsquare of a positive integer.\n(i) Show that R is an equivalence relation.\n(ii) Find the equivalence classes of R that contain more than one element. [10 marks]\n(b) Given the group ( G∗, a subgroup ( ,) H∗ and ab ,) , ∈ G , we define a b if :\n1 and only if ab −∈ H [9 marks]\n. Show that : is an equivalence relation.",
+   "ms_text": "4. (a) (i) aRa ⇒ aa ⋅ = a 2 so is reflexive R A1\n2 aRb = m ⇒ bRa so is symmetric R A1\naRb = ab = m 2 and bRc = bc = n 2 M1A1\n2 2 m n\nso a = and c =\nb b\n2 2 2 mn ⎛ mn ⎞\nac = = ⎜ , A1\n2 ⎟ b ⎝ b ⎠\n2\n⎛ mn ⎞\nac is an integer hence is an integer R1 ⎜ ⎟\n⎝ b ⎠\nso aRc , hence is transitive R R1\nR is therefore an equivalence relation AG\n(ii) 14 and 49 R Ror28 R M1\nso {1, 4, 9}is an equivalence class A1\nand {2, 8} is an equivalence class A1\n. [10 marks]\n1 (b) a ∼ a since aa −=∈ e H , the identity must be in H since it is a subgroup. M1\nHence reflexivity. R1\n⇔ − 1 ∈ − 1 − 1 = − 1 a ∼ b ab H but H is a subgroup so it must contain ( ab ) ba M1R1\n1 i.e. ba −∈ H so ∼is symmetric A1\n⇒ − 1 ∈ − 1 ∈ a ∼ b and b ∼ c ab H and bc H M1\nBut H is closed, so\n− 1 − 1 ∈ − 1 − 1 ∈ ( ab )( bc ) H or abbc ( ) H R1\n1 ac −∈ H ⇒ a ∼ c A1\nHence ∼is transitive and is thus an equivalence relation R1AG\n[9 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 19]\n(a) The relation $aRb$ is defined on $\\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$ if and only if $ab$ is the square of a positive integer.\n(i) Show that $R$ is an equivalence relation.\n(ii) Find the equivalence classes of $R$ that contain more than one element. [10 marks]\n(b) Given the group $(G, *)$, a subgroup $(H, *)$ and $a, b \\in G$, we define $a \\sim b$ if and only if $ab^{-1} \\in H$. Show that $\\sim$ is an equivalence relation. [9 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-sets-relations-and-groups-TZ2-q5",
+   "num": "5",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\n(a) Write down why the table below is a Latin square. [2 marks]\nd e b a c\nd c d e b a\ne d e b a c\nb a b d c e\na b a c e d\nc e c a d b\n(b) Use Lagrange’s theorem to show that the table is not a group table. [4 marks]",
+   "ms_text": "5. (a) Each row and column contains all the elements of the set. A1A1\n[2 marks]\n(b) There are 5 elements therefore any subgroup must be of an order that is a factor of 5 R2\ne a\nBut there is a subgroup ee ⎛ a ⎞ of order 2 so the table is not a group table R2\n⎜ ⎟\naa e ⎝ ⎠\nNote: Award R0R2 for “a is an element of order 2 which does not divide the order of the group”.\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.8",
+    "7.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\n(a) Write down why the table below is a Latin square. [2 marks]\n| | d | e | b | a | c |\n| d | c | d | e | b | a |\n| e | d | e | b | a | c |\n| b | a | b | d | c | e |\n| a | b | a | c | e | d |\n| c | e | c | a | d | b |\n(b) Use Lagrange's theorem to show that the table is not a group table. [4 marks]"
+  }
+ ],
+ "status": "done"
+}

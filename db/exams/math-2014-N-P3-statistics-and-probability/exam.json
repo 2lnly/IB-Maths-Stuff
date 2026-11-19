@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2014-N-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2014,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2014 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2014 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8814-7210; code N14/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches paper total 60",
+ "qp_pages": 5,
+ "questions": [
+  {
+   "id": "math-2014-N-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 9]\nA random variable X has probability density function\n< 0 x 0\n1\n0 ≤ x < 1\n2\nfx () = .\n1\n1 ≤ x < 3\n4\n0 x ≥ 3\n(a) Sketch the graph of y = fx () . [1]\n(b) Find the cumulative distribution function for X . [5]\n(c) Find the interquartile range for X . [3]",
+   "ms_text": "1 (a)\nA1\nNote: Ignore open / closed endpoints and vertical lines.\nNote: Award A1 for a correct graph with scales on both axes and a clear\nindication of the relevant values.\n[1 mark]\n(b) 0 x < 0\nx\n0 ≤ x < 1\n2\nFx () =\nx 1\n+ 1 ≤ x < 3\n4 4\n1 x ≥ 3\nconsidering the areas in their sketch or using integration (M1)\nFx= () 0 , x < 0 , Fx=, () 1 x ≥ 3 A1\nx\nFx= () , 0 ≤ x < 1 A1\n2\nx 1\nFx= () + , 1 ≤ x < 3 A1A1\n4 4\nNote: Accept < for ≤ in all places and also > for ≥first A1.\n[5 marks]\n(c) Q = 2, Q = 0.5 A1A1\n3 1\nIQR is 2 − 0.5 = 1.5 A1\n[3 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L3",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 9]\nA random variable $X$ has probability density function\n$f(x)=\\begin{cases}0 & x<0\\\\ \\frac{1}{2} & 0\\le x<1\\\\ \\frac{1}{4} & 1\\le x<3\\\\ 0 & x\\ge 3\\end{cases}$.\n(a) Sketch the graph of $y=f(x)$. [1]\n(b) Find the cumulative distribution function for $X$. [5]\n(c) Find the interquartile range for $X$. [3]"
+  },
+  {
+   "id": "math-2014-N-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 9]\nEric plays a game at a fairground in which he throws darts at a target. Each time he throws\na dart, the probability of hitting the target is 0.2. He is allowed to throw as many darts as\nhe likes, but it costs him $1 a throw. If he hits the target a total of three times he wins $10.\n[3] (a) Find the probability he has his third success of hitting the target on his sixth throw.\n(b) (i) Find the expected number of throws required for Eric to hit the target three times.\n(ii) Write down his expected profit or loss if he plays until he wins the $10. [3]\n(c) If he has just $8, find the probability he will lose all his money before he hits the target\nthree times. [3]",
+   "ms_text": "2. (a) METHOD 1\nlet X be the number of throws until Eric hits the target three times\nX: NB(3, 0.2) (M1)\n5\n3 3 P( X = 6) = 0.8 × 0.2 (A1)\n2\n128\n= 0.04096 = (exact) A1\n3125\nMETHOD 2\nlet X be the number of hits in five throws\nX is B(5, 0.2) (M1)\n5\n2 3 P( X = 2) = 0.2 × 0.8 (0.2048) (A1)\n2\n5 128\n2 3 P(3rd hit on 6th throw) = 0.2 × 0.8 × 0.2 = 0.04096 = (exact) A1\n2 3125\n[3 marks]\n3\n(b) (i) expected number of throws = = 15 (M1)A1\n0.2\nprofit ( = − ) =− (ii) 1015 $5 or loss = $5 A1\n[3 marks]\n(c) METHOD 1\nlet Y be the number of times the target is hit in 8 throws\nY: B(8, 0.2) (M1)\nP( Y≤ 2) (M1)\n= 0.797 A1\nMETHOD 2\nlet the 3rd hit occur on the Yth throw\nY is NB(3, 0.2) (M1)\nP(Y > 8) = 1 – P(Y ≤ 8) (M1)\n= 0.797 A1\n[3 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L2",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 9]\nEric plays a game at a fairground in which he throws darts at a target. Each time he throws a dart, the probability of hitting the target is 0.2. He is allowed to throw as many darts as he likes, but it costs him \\$1 a throw. If he hits the target a total of three times he wins \\$10.\n(a) Find the probability he has his third success of hitting the target on his sixth throw. [3]\n(b) (i) Find the expected number of throws required for Eric to hit the target three times.\n(ii) Write down his expected profit or loss if he plays until he wins the \\$10. [3]\n(c) If he has just \\$8, find the probability he will lose all his money before he hits the target three times. [3]"
+  },
+  {
+   "id": "math-2014-N-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 11]\n(a) If X and Y are two random variables such that E( X ) = µ and E() Y = µ then\nX Y\n( ) Cov( XY=E( , ) X − µ )( Y − µ ) .\nX Y\nProve that if X and Y are independent then Cov( XY= 0. , ) [3]\n(b) In a particular company, it is claimed that the distance travelled by employees to work is\nindependent of their salary. To test this, 20 randomly selected employees are asked about\nthe distance they travel to work and the size of their salaries. It is found that the product\nmoment correlation coefficient, r , for the sample is −0 35 . .\nYou may assume that both salary and distance travelled to work follow normal distributions.\nPerform a one-tailed test at the 5 % significance level to test whether or not the distance\ntravelled to work and the salaries of the employees are independent. [8]",
+   "ms_text": "3. (a) METHOD 1\n( ) Cov( XY , ) = E( X − μ )( Y − μ )\nX Y\n= ( E XY − X μ − Y μ + μμ ) (M1)\nY X X Y\n=E( XY ) − μ E( X ) − μ E() Y + μμ\nY X X Y\n= E( XY ) − μμ A1\nX Y\nas X and Y are independent E( XY ) = μμ R1\nX Y\nXY= Cov( , ) 0 AG\nMETHOD 2\nCov( XY ,) = E( ( X − μ )( Y − μ ) )\nx y\n= E( X − μ )E( Y − μ ) (M1)\nx y\nsince X,Y are independent R1\n= ( μ − μ )( μ − μ ) A1\nx x y y\n= 0 AG\n[3 marks]\n(b) H ρ= 0 H ρ< 0 A1 0: 1:\nNote: The hypotheses must be expressed in terms of ρ.\n20 − 2\n=− test statistic t 0.35 (M1)(A1)\ntest 2\n1 −− ( 0.35 )\n=–1.585… (A1)\ndegrees of freedom = 18 (A1)\nEITHER\np-value =0.0652 A1\nthis is greater than 0.05 M1\nOR\nt 5 %(18) =− 1.73 A1\nthis is less than –1.59 M1\nTHEN\nhence accept H or reject H or equivalent or contextual equivalent R1\n0 1\nNote: Allow follow through for the final R1 mark.\n[8 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 11]\n(a) If $X$ and $Y$ are two random variables such that $\\mathrm{E}(X)=\\mu_X$ and $\\mathrm{E}(Y)=\\mu_Y$ then $\\mathrm{Cov}(X,Y)=\\mathrm{E}\\big((X-\\mu_X)(Y-\\mu_Y)\\big)$.\nProve that if $X$ and $Y$ are independent then $\\mathrm{Cov}(X,Y)=0$. [3]\n(b) In a particular company, it is claimed that the distance travelled by employees to work is independent of their salary. To test this, 20 randomly selected employees are asked about the distance they travel to work and the size of their salaries. It is found that the product moment correlation coefficient, $r$, for the sample is $-0.35$.\nYou may assume that both salary and distance travelled to work follow normal distributions.\nPerform a one-tailed test at the 5% significance level to test whether or not the distance travelled to work and the salaries of the employees are independent. [8]"
+  },
+  {
+   "id": "math-2014-N-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 21,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 21]\nIf X is a random variable that follows a Poisson distribution with mean λ > 0 then the\nλ( t − ) probability generating function of X is Gt () = e 1.\n(a) (i) Prove that E() X= λ .\n(ii) Prove that Var ( X= λ . ) [6]\nY is a random variable, independent of X , that also follows a Poisson distribution with\nmean λ .\n= − (b) If S 2 X Y find\n(i) E() S;\n(ii) S. [3] Var ()\nX Y\nLet T = +\n2.\n2\n(c) (i) Show that T is an unbiased estimator for λ .\n(ii) Show that T is a more efficient unbiased estimator of λ than S . [3]\n(d) Could either S or T model a Poisson distribution? Justify your answer. [1]\n(e) By consideration of the probability generating function, G +() , of X t + Y , prove that\nXY\nX + Y follows a Poisson distribution with mean 2λ . [3]\n(f) Find\n(i) GXY +()1;\n(ii) ( − )1. [2] GXY\n+\n(g) Hence find the probability that X + Y is an even number. [3]",
+   "ms_text": "′ = λ eλ ( t − 1) 4. (a) (i) Gt () A1\nE ( X ) = G′ (1) M1\n= λ AG\n2 ( t − 1)\n(ii) Gt ′′ () = λ eλ M1\n2 ⇒ G ′′ (1) = λ\n(A1)\n2\nVar ( X ) = G ′′ (1) + G ′ (1) − ( G ′ (1) ) (M1)\n2 2 = λ + λ − λ\nA1\n= λ AG\n[6 marks]\n(b) (i) E () S = 2 λ − λ = λ A1\n(ii) Var () S = 4 λ + λ = 5 λ (A1)A1\nNote: First A1 can be awarded for either 4 λ or + λ.\n[3 marks]\nλ λ\n(c) (i) E() T = + = λ (so T is an unbiased estimator) A1\n2 2\n1 1 1\n(ii) Var () T = λ + λ = λ A1\n4 4 2\nthis is less than Var () S, therefore T is the more efficient\nestimator R1AG\nNote: Follow through their variances from (b)(ii) and (c)(ii).\n[3 marks]\n(d) no, mean does not equal the variance R1\n[1 mark]\nλ − λ − λ − (e)\nG () t = e ( t 1) × e ( t 1) = e 2( t 1) M1A1\n+ X Y\nwhich is the probability generating function for a Poisson with a mean\nof 2λ R1AG\n[3 marks]\n(f) (i) G+ (1) = 1 A1\nXY\n− 4 λ (ii) G (1) − = e A1\nXY +\n[2 marks]\n(g) G (1) = p (0) + p (1) + p (2) + p (3) …\nXY +\nG (1) − = p (0) − p (1) + p (2) − p (3) …\nXY +\nso 2P(even) = G (1) + G (1) − (M1)(A1)\n+ + XY XY\n1 − 4 λ\nP(even) = (1 + e ) A1\n2\n[3 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L3",
+    "4.L4",
+    "4.L5",
+    "4.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 21]\nIf $X$ is a random variable that follows a Poisson distribution with mean $\\lambda>0$ then the probability generating function of $X$ is $G(t)=e^{\\lambda(t-1)}$.\n(a) (i) Prove that $\\mathrm{E}(X)=\\lambda$.\n(ii) Prove that $\\mathrm{Var}(X)=\\lambda$. [6]\n$Y$ is a random variable, independent of $X$, that also follows a Poisson distribution with mean $\\lambda$.\n(b) If $S=2X-Y$ find\n(i) $\\mathrm{E}(S)$;\n(ii) $\\mathrm{Var}(S)$. [3]\nLet $T=\\frac{X}{2}+\\frac{Y}{2}$.\n(c) (i) Show that $T$ is an unbiased estimator for $\\lambda$.\n(ii) Show that $T$ is a more efficient unbiased estimator of $\\lambda$ than $S$. [3]\n(d) Could either $S$ or $T$ model a Poisson distribution? Justify your answer. [1]\n(e) By consideration of the probability generating function, $G_{X+Y}(t)$, of $X+Y$, prove that $X+Y$ follows a Poisson distribution with mean $2\\lambda$. [3]\n(f) Find\n(i) $G_{X+Y}(1)$;\n(ii) $G_{X+Y}(-1)$. [2]\n(g) Hence find the probability that $X+Y$ is an even number. [3]"
+  },
+  {
+   "id": "math-2014-N-P3-statistics-and-probability-q5",
+   "num": "5",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 10]\nTwo species of plant, A and B, are identical in appearance though it is known that the mean\nlength of leaves from a plant of species A is 5.2 cm, whereas the mean length of leaves from\na plant of species B is 4.6 cm. Both lengths can be modelled by normal distributions with\nstandard deviation 1.2 cm.\nIn order to test whether a particular plant is from species A or species B, 16 leaves are\ncollected at random from the plant. The length, x , of each leaf is measured and the mean\nlength evaluated. A one-tailed test of the sample mean, X, is then performed at the 5 % level,\nwith the hypotheses: H0 : µ = 5 2 . and H1 : µ < 5 2 . .\n(a) Find the critical region for this test. [3]\n(b) Find the probability of a Type II error if the leaves are in fact from a plant of species B. [2]\nIt is now known that in the area in which the plant was found 90 % of all the plants are of\nspecies A and 10 % are of species B.\n(c) Find the probability that X will fall within the critical region of the test. [2]\n(d) If, having done the test, the sample mean is found to lie within the critical region, find the\nprobability that the leaves came from a plant of species A. [3]",
+   "ms_text": "2\nN 1.2\n5. (a) X : (M1)\n5.2,16\n1.2\ncritical value is 5.21.64485 − …× = 4.70654 … (A1)\n4\ncritical region is ] −∞ , 4.71 ] A1\nNote: Allow follow through for the final A1 from their critical value.\n[3 marks]\nNote: Follow through previous values in (b), (c) and (d).\n2 1.2\nN\n(b) type II error probability = P( X > 4.70654...| X is (M1)\n4.6,16\n= 0.361 A1\n[2 marks]\n(c) 0.9 × 0.05 + 0.1(1 × − 0.361 …= ) 0.108875997 …= 0.109 M1A1\nNote: Award M1 for a weighted average of probabilities with weights 0.1, 0.9.\n[2 marks]\n(d) attempt to use conditional probability formula M1\n0.90.05 ×\n(A1)\n0.108875997 …\n= …= 0.41334 0.413 A1\n[3 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.13",
+    "4.6",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 10]\nTwo species of plant, A and B, are identical in appearance though it is known that the mean length of leaves from a plant of species A is 5.2 cm, whereas the mean length of leaves from a plant of species B is 4.6 cm. Both lengths can be modelled by normal distributions with standard deviation 1.2 cm.\nIn order to test whether a particular plant is from species A or species B, 16 leaves are collected at random from the plant. The length, $x$, of each leaf is measured and the mean length evaluated. A one-tailed test of the sample mean, $\\bar{X}$, is then performed at the 5% level, with the hypotheses: $H_0:\\mu=5.2$ and $H_1:\\mu<5.2$.\n(a) Find the critical region for this test. [3]\n(b) Find the probability of a Type II error if the leaves are in fact from a plant of species B. [2]\nIt is now known that in the area in which the plant was found 90% of all the plants are of species A and 10% are of species B.\n(c) Find the probability that $\\bar{X}$ will fall within the critical region of the test. [2]\n(d) If, having done the test, the sample mean is found to lie within the critical region, find the probability that the leaves came from a plant of species A. [3]"
+  }
+ ],
+ "status": "done"
+}

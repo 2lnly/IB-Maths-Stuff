@@ -1,0 +1,260 @@
+{
+ "exam_id": "physics-2015-N-P3",
+ "questions": {
+  "1": {
+   "topics": [
+    "E",
+    "X"
+   ],
+   "subtopics": [
+    "E.5",
+    "X.12"
+   ],
+   "text_clean": "1. This question is about determining the distance to a nearby star.\nTwo photographs of the night sky are taken, one six months after the other. When the photographs are compared, one star appears to have shifted from position A to position B, relative to the other stars.\n[Diagram: star field photograph; one star shifted from position A to position B, shown by an arrow]\n(a) Outline why the star appears to have shifted from position A to position B. [1]\n(b) The observed angular displacement of the star is $\\theta$ and the diameter of the Earth's orbit is $d$. The distance from the Earth to the star is $D$.\n(i) Draw a diagram showing $d$, $D$ and $\\theta$. [1]\n(ii) Explain the relationship between $d$, $D$ and $\\theta$. [2]\n(iii) One consistent set of units for $D$ and $\\theta$ are parsecs and arc-seconds. State one other consistent set of units for this pair of quantities. [1]\n(c) Discuss whether Hubble's Law can be used to determine reliably the distance from Earth to this star. [2]"
+  },
+  "2": {
+   "topics": [
+    "E",
+    "B"
+   ],
+   "subtopics": [
+    "E.5",
+    "B.1"
+   ],
+   "text_clean": "2. This question is about the Hertzsprung–Russell (HR) diagram and the Sun.\nA Hertzsprung–Russell (HR) diagram is shown.\n[Graph: HR diagram, absolute magnitude vs temperature / K (25 000, 10 000, 7500, 6000, 4500, 3000); main sequence, giant branch and white dwarfs; Sun marked on the main sequence]\n(a) Explain why absolute magnitude rather than apparent magnitude is used for the vertical axis on an HR diagram. [2]\n(b) Outline why the scale selected for temperature on the HR diagram is not linear. [2]\n(c) The following data are given for the Sun and a star Vega.\nLuminosity of the Sun $= 3.85\\times10^{26}$ W\nLuminosity of Vega $= 1.54\\times10^{28}$ W\nSurface temperature of the Sun $= 5800$ K\nSurface temperature of Vega $= 9600$ K\nDetermine, using the data, the radius of Vega in terms of solar radii. [3]\n(d) Outline how observers on Earth can determine experimentally the temperature of a distant star. [3]\n(e) The Sun will remain on the main sequence of the HR diagram for about another five billion years. After this time it will become a red giant, following the evolutionary path shown in the diagram.\n[Graph: same HR diagram with an arrow labelled \"evolutionary path\" from the Sun towards the red giant region]\n(i) Outline why the Sun will leave the main sequence, and describe the nuclear processes that occur as it becomes a red giant. [4]\n(ii) Describe two physical changes that the Sun will undergo as it enters the red giant stage. [2]"
+  },
+  "3": {
+   "topics": [
+    "X",
+    "B",
+    "C"
+   ],
+   "subtopics": [
+    "X.12",
+    "B.1",
+    "C.5"
+   ],
+   "text_clean": "3. This question is about cosmic microwave background (CMB) radiation.\n(a) One of Newton's assumptions was that the universe is static. The peak intensity of the cosmic microwave background (CMB) radiation has a wavelength of 1.06 mm.\n(i) Show that this corresponds to a temperature around 3 K. [2]\n(ii) Suggest how the discovery of the CMB in the microwave region contradicts Newton's assumption of the static universe. [2]\n(b) A line in the hydrogen spectrum is measured in the laboratory to have a wavelength of 656 nm. The same line from a distant galaxy is measured to have a wavelength of 730 nm. Assuming that the Hubble constant $H_0$ is 69.3 km s$^{-1}$ Mpc$^{-1}$,\n(i) calculate the distance of this galaxy from Earth. [2]\n(ii) discuss why different measurements of the Hubble constant do not agree with each other. [1]"
+  },
+  "4": {
+   "topics": [
+    "X",
+    "D"
+   ],
+   "subtopics": [
+    "X.14",
+    "D.1"
+   ],
+   "text_clean": "4. This question is about modulation and satellite communication.\n(a) State what is meant by modulation. [1]\n(b) A telephone call is transmitted as a radio signal from Europe to an explorer in South America.\n(i) Outline why amplitude modulation (AM) is most suitable for this transmission. [2]\n(ii) A carrier wave of frequency 2.5 MHz is used to transmit a signal wave of frequency 40 kHz. Sketch a power spectrum of the AM carrier wave. [2]\n[Graph: blank axes, power vs frequency / kHz]\n(iii) The radio signal must be broadcast within a frequency band between 2.4 MHz and 2.8 MHz. The radio transmits a maximum signal frequency of 40 kHz. Calculate the number of radio signals that can be transmitted within the band. [1]\n(iv) The explorer uses radio communication rather than mobile phone communication because of environmental issues. Discuss the environmental issues associated with the use of mobile phones. [2]\n(c) Signals can be transmitted using either geostationary or polar-orbiting satellites. Discuss one advantage for each type of satellite. [4]\nGeostationary:\nPolar-orbiting:",
+   "qtype": "long",
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "(c) satellite orbits tagged D.1 as secondary; mainly communications option F"
+  },
+  "5": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14",
+    "X.10"
+   ],
+   "text_clean": "5. This question is about sampling and fibre optics.\nTime-division multiplexing is used to transmit multiple signals along an optic fibre.\n(a) (i) Describe how time-division multiplexing is achieved. [2]\n(ii) Cost is one advantage of time-division multiplexing. State one other advantage of time-division multiplexing. [1]\n(b) An audio signal is sampled at a sampling frequency of 4.0 kHz. Each sample is converted to an 8-bit binary number. Each bit in the sample takes 8.0 $\\mu$s to input into the fibre. Determine the maximum number of signals that can be transmitted along the fibre using time-division multiplexing. [4]\n(c) An optic fibre has length $3.0\\times10^{4}$ m and attenuation per unit length 0.080 dB km$^{-1}$. Calculate the minimum input power of the signal if the output power is not to fall below 2.0 mW. [3]",
+   "qtype": "long"
+  },
+  "6": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "6. This question is about an amplifier circuit.\nThe diagram shows an amplifier circuit incorporating an ideal operational amplifier (op-amp).\n[Circuit: non-inverting amplifier; op-amp supplied by +15 V and −15 V; $V_{IN}$ to the + input; output $V_{OUT}$ across a potential divider of 20 kΩ (top) and 4 kΩ (to earth), junction fed back to the − input]\n(a) (i) Calculate the gain of the circuit. [2]\n(ii) Using the axis, sketch the variation with input voltage $V_{IN}$ of the output voltage $V_{OUT}$. [3]\n[Graph: blank grid, $V_{OUT}$ vs $V_{IN}$ with origin at centre]\n(b) The circuit is now rearranged to function as a Schmitt trigger.\n[Circuit: Schmitt trigger; +5 V to the − input; $V_{IN}$ through a 4 kΩ resistor to the + input; 20 kΩ feedback resistor from output to + input; output $V_{OUT}$]\nThe output of the Schmitt trigger is positive saturation (+15 V) or negative saturation (–15 V). Calculate the input value that will cause the output to switch from –15 V to +15 V. [3]"
+  },
+  "7": {
+   "topics": [
+    "C",
+    "B"
+   ],
+   "subtopics": [
+    "C.2",
+    "C.4",
+    "B.2"
+   ],
+   "text_clean": "7. This question is about some properties of light.\n(a) A space tourist travels from the surface of the Earth. When she leaves the Earth at 12:00 midday the sky appears blue. When she arrives at the limits of the atmosphere one hour later, she observes the sky to be black. Describe the reason for the change in colour of the sky during this journey. [3]\n(b) Carbon dioxide is a gas which occurs naturally in the atmosphere. One of the natural frequencies of vibration of carbon dioxide has a period of $5\\times10^{-14}$ s.\nFrequency of infrared radiation from the Sun = around 300 THz\nFrequency of infrared radiation emitted from the Earth = around 30 THz\nRadiated energy from the Sun is trapped within the system that consists of the Earth and its atmosphere. Using a calculation, outline the mechanisms that lead to this process. [3]",
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "(a) scattering of light (option G) has no dedicated code; tagged C.2. (b) resonance/greenhouse -> C.4 + B.2"
+  },
+  "8": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "text_clean": "8. This question is about a converging (convex) lens.\nAnna is unable to read small print in a newspaper. She uses a convex lens to read text more easily. Anna looks through the lens at an arrow on the page.\n[Diagram: convex lens on principal axis with focal points F on each side; object arrow between the left F and the lens]\n(a) (i) On the diagram, construct rays to locate the image of the arrow. The focal points of the lens are labelled F. [3]\n(ii) Anna places a screen at the image position. Outline why she cannot see an image on the screen. [2]\n(b) Anna uses the same lens with an illuminated object. She finds that a clear image of the object is formed when the lens is placed a distance of 20 cm from the screen. The lens has a focal length of 5 cm. Determine the magnification of the image. [3]"
+  },
+  "9": {
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.3"
+   ],
+   "text_clean": "9. This question is about interference of light.\nCoherent monochromatic light is incident on two narrow slits S$_1$ and S$_2$ a distance $d$ apart. A screen is placed a distance $D$ from the slits. An interference pattern of bright fringes and dark fringes appears on the screen. The central maximum is at Q.\n[Diagram: double slit S$_1$, S$_2$ separated by $d$, screen at distance $D$; central bright fringe at Q, dark fringe at P above it, dark fringe below]\n(a) State one way to ensure that the light incident on the slits is coherent. [1]\n(b) Light emerging from S$_1$ and S$_2$ reaches the screen. Explain why the screen appears dark at point P. [2]\n(c) When red light of wavelength 660 nm is used the first fringe at P subtends an angle 0.0045 rad from midpoint of S$_1$ and S$_2$.\n[Diagram: same arrangement; $\\theta_{red} = 0.0045$ rad from midpoint of slits to P, the first dark fringe for red light]\n(i) Determine the change in angle when blue light of wavelength 440 nm is used. [2]\n(ii) Using the diagram below, draw the approximate position of the first bright fringe using blue light. The position of the first dark fringe with red light is labelled P. [1]\n[Diagram: slits and screen with P and Q marked, no fringes shown]"
+  },
+  "10": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.2",
+    "E.1"
+   ],
+   "text_clean": "10. This question is about an X-ray spectrum.\nThe graph shows the spectrum of X-rays produced by an X-ray tube.\n[Graph: intensity vs frequency; continuous spectrum with two sharp characteristic peaks, falling to zero at $f_{max}$]\n(a) The electrons are accelerated through a potential difference of 50 kV. Calculate the maximum frequency $f_{max}$ of the X-rays emitted. [2]\n(b) The potential difference applied across the tube is increased.\n(i) Using the graph, sketch the resulting X-ray spectrum. [2]\n(ii) Explain why the potential difference increase leads to the changes you have sketched in (b)(i). [2]"
+  },
+  "11": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.4",
+    "C.3"
+   ],
+   "text_clean": "11. This question is about thin-film interference.\nMonochromatic light with wavelength 572 nm is incident from air on a thin soap film. The soap solution has a refractive index of 1.3.\n[Diagram: light incident from air on a soap film ($n = 1.3$); rays reflected from the top and bottom surfaces]\n(a) Calculate the wavelength of the light within the soap solution. [1]\n(b) Calculate the minimum thickness of the soap film that results in constructive interference for the reflected light. [1]\n(c) Without a calculation, explain why a soap film that is twice as thick as that calculated in (b) results in destructive interference. [2]"
+  },
+  "12": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "12. This question is about relativistic kinematics.\n(a) State what is meant by an inertial frame of reference. [2]\n(b) A spacecraft is flying in a straight line above a base station at a speed of 0.8$c$.\n[Diagram: spacecraft moving at 0.8$c$ above a base station on the surface of a planet]\nSuzanne is inside the spacecraft and Juan is on the base station.\n(i) A light on the base station flashes regularly. According to Suzanne, the light flashes every 3 seconds. Calculate how often the light flashes according to Juan. [2]\n(ii) As Suzanne moves away from the base station, another spacecraft travels towards her at a speed of 0.8$c$ measured in the frame of reference of the base station. Suzanne measures the other spacecraft to have a length of 8.00 m. Calculate the proper length of the other spacecraft. [3]\n(c) (i) Suzanne's spacecraft is on a journey to a star. According to Juan, the distance from the base station to the star is 11.4 ly. Show that Suzanne measures the time taken for her to travel from the base station to the star to be about 9 years. [2]\n(ii) Suzanne then returns to the base station at the same speed. The total time since leaving the base station as measured by Suzanne is around 18 years but the total time according to Juan is around 29 years. Explain how it is possible for Suzanne and Juan to have aged by different amounts. [2]",
+   "qtype": "long"
+  },
+  "13": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "13. This question is about mass and energy.\n(a) The positive kaon $K^+$ has a rest mass of 494 MeV c$^{-2}$.\n(i) Using the grid, sketch a graph showing how the energy of the kaon increases with speed. [2]\n[Graph: blank grid, $E$ / MeV vs $v$ / c from 0.0 to 1.0]\n(ii) The kaon is accelerated from rest through a potential difference so that its energy becomes three times its rest energy. Calculate the potential difference through which the kaon was accelerated. [2]\n(b) The neutral kaon is unstable and one of its possible modes of decay is\n$K^0 \\rightarrow \\pi^0 + \\pi^0$.\nThe $\\pi^0$ has a rest mass of 135 MeV c$^{-2}$. The $K^0$ has a rest mass of 498 MeV c$^{-2}$. The $K^0$ is at rest before it decays. The two $\\pi^0$ particles move apart in opposite directions along a straight line. Determine the momentum of one of the $\\pi^0$ particles. [2]"
+  },
+  "14": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "14. This question is about the Michelson–Morley experiment.\nThe diagram shows the basic features of the Michelson–Morley experiment.\n[Diagram: light source above a semi-transparent mirror S; beams to mirror M$_1$ (left) and mirror M$_2$ (below), recombining into a telescope (right); orbital speed of Earth $v$ to the right]\n(a) During the experiment, Michelson and Morley slowly rotated the apparatus through 90°. Discuss, with reference to Galilean transformations, the changes that Michelson and Morley expected to observe during the experiment. [4]\n(b) Describe how the observations made by Michelson and Morley differed from what was expected. [1]\n(c) Explain the importance of the outcome of the Michelson–Morley experiment in support of the special theory of relativity. [2]"
+  },
+  "15": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "15. This question is about general relativity.\nA spacecraft is at rest on the surface of a distant planet. A laser beam is fired from the base of the spacecraft to a sensor at the top of the spacecraft.\n[Diagram: spacecraft on planet surface with laser source at base, sensor at top, laser beam directed upwards]\n(a) The spacecraft has a height of 112 m. The laser beam emitted from the source has a frequency of $4.52\\times10^{14}$ Hz and the sensor detects a shift in the frequency of the laser beam of 3.20 Hz.\n(i) Show that the gravitational field strength at the surface of the planet is about 5.7 N kg$^{-1}$. [2]\n(ii) Discuss the shift in frequency of the laser beam. [2]\n(b) The spacecraft leaves the planet with an acceleration of 5.7 m s$^{-2}$. The same experiment is carried out by firing the laser beam from the base of the spacecraft to the sensor at the top of the spacecraft. Compare the shift in frequency of the laser beam with that detected in (a). [2]"
+  },
+  "16": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "16. This question is about hearing loss.\nThe diagram shows the audiogram of the hearing loss of an elderly person. For a person with normal hearing, the hearing loss is at zero decibels at all frequencies.\n[Graph: audiogram, hearing loss / dB (0 to 50, downwards) vs frequency / Hz (125 to 8000); loss about 10 dB at 125 Hz, about 32 dB at 500 Hz, about 45 dB from 1000 to 4000 Hz; normal hearing at 0 dB]\n(a) Describe how the elderly person's hearing compares with that of a person with normal hearing. [2]\n(b) The intensity at the threshold of normal hearing $I_0$ is taken as being $1.0\\times10^{-12}$ W m$^{-2}$.\n(i) State what is meant by the threshold of normal hearing. [2]\n(ii) Determine the minimum intensity of the sound required by the elderly person to hear a sound at a frequency of 500 Hz. [3]\n(c) Suggest why hearing loss may be considered to have social and economic implications for an individual. [2]",
+   "qtype": "long"
+  },
+  "17": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.11",
+    "E.3"
+   ],
+   "text_clean": "17. This question is about the use of radioactive tracers in medicine.\nA radioactive nuclide is introduced into a patient as a tracer. The physical half-life of the nuclide is 2.0 days and the biological half-life is 3.0 days.\n(a) State the difference between physical half-life and biological half-life. [2]\n(b) Determine what fraction of the original activity would be detected in the body 6.0 days after the tracer was introduced. [3]\n(c) For medical investigations, outline why it is desirable to use a tracer with a significantly longer physical half-life than biological half-life. [2]"
+  },
+  "18": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "18. This question is about the use of ultrasound.\n(a) (i) Define acoustic impedance. [1]\n(ii) State the significance of acoustic impedance in the use of ultrasound techniques. [1]\n(b) Medical practitioners select the frequency of the ultrasound depending on the diagnosis they are undertaking. Outline the importance of using ultrasound of the appropriate frequency. [3]"
+  },
+  "19": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "19. This question is about the attenuation of radiation.\nA particular material is used to prevent gamma radiation emitted by a source from reaching the surroundings. It has a half-value thickness of 3.0 cm.\n(a) State what is meant by half-value thickness. [1]\n(b) Sketch a graph to show the variation with material thickness $t$ of the gamma-ray intensity $I$. Show values of intensity for values of $t$ from 0 cm to 12 cm. [3]\n[Graph: blank grid, $I$ vs $t$ / cm from 0 to 12]\n(c) (i) Show that the attenuation coefficient $\\mu$ and the half-value thickness $x_{\\frac{1}{2}}$ are related by $\\mu x_{\\frac{1}{2}} = \\ln 2$. [3]\n(ii) Calculate the attenuation coefficient for this material giving an appropriate unit. [2]",
+   "qtype": "long"
+  },
+  "20": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.2",
+    "E.2"
+   ],
+   "text_clean": "20. This question is about interactions and quarks.\n(a) A lambda baryon $\\Lambda^0$ is composed of the three quarks uds. Show that the charge is 0 and the strangeness is –1. [2]\n(b) For the lambda baryon $\\Lambda^0$, a student proposes a possible decay of $\\Lambda^0$ as shown.\n$\\Lambda^0 \\rightarrow p + K^-$\nThe quark content of the $K^-$ meson is $\\bar{u}s$.\n(i) Discuss, with reference to strangeness and baryon number, why this proposal is feasible. [4]\nStrangeness:\nBaryon number:\n(ii) Another interaction is\n$\\Lambda^0 \\rightarrow p + \\pi^-$.\nIn this interaction strangeness is found not to be conserved. Deduce the nature of this interaction. [1]\n(iii) The exchange particle involved in the interaction has a rest mass 80.4 GeV c$^{-2}$. Calculate the range of the weak interaction. [2]",
+   "qtype": "long"
+  },
+  "21": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "21. This question is about particle accelerators.\nCyclotrons and synchrotrons can be used to accelerate charged particles.\n(a) Outline the key differences in terms of variation of the electric field and the variation of the magnetic field between the operation of the cyclotron and the synchrotron. [4]\nElectric field:\nMagnetic field:\n(b) In the future it is proposed that the Large Hadron Collider at CERN will be able to accelerate lead ions $^{207}_{82}$Pb to energies of 575 TeV. Estimate how much energy will be available when a 575 TeV lead ion undergoes a collision with a stationary lead ion. [3]"
+  },
+  "22": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "22. This question is about particle interactions.\nAn electron and a positron interact to produce a muon and antimuon through a weak interaction. The weak interaction involves one of the virtual particles W$^-$, W$^+$ or Z$^0$ boson.\n(a) (i) Describe what is meant by a virtual particle. [1]\n(ii) Draw a Feynman diagram which represents this interaction. [2]\n(iii) Explain whether this interaction involves the W$^-$, W$^+$ or Z$^0$ boson. [1]\n(b) It was initially thought that the particle involved in this interaction should be massless. However it was later found that it has a mass of around 100 GeV c$^{-2}$. Outline how the discovery of the Higgs particle (boson) helps to account for this. [2]"
+  },
+  "23": {
+   "topics": [
+    "E",
+    "X"
+   ],
+   "subtopics": [
+    "E.2",
+    "X.2"
+   ],
+   "text_clean": "23. This question is about deep inelastic scattering experiments.\n(a) Electrons are accelerated through a very high potential difference in order to probe the internal structure of nucleons. Explain why the electrons need to be accelerated in this way. [3]\n(b) Outline how the highest energy collisions provide evidence for asymptotic freedom. [2]"
+  },
+  "24": {
+   "topics": [
+    "B",
+    "X"
+   ],
+   "subtopics": [
+    "B.3",
+    "X.12"
+   ],
+   "text_clean": "24. This question is about nucleosynthesis.\nIn the early universe the average thermal energy of the particles was approximately 0.1 MeV. This allowed for the formation of helium.\n(a) Calculate the temperature of the early universe. [2]\n(b) The average temperature of the universe at present is 3 K. Suggest why it is still possible for nucleosynthesis to occur at such a low temperature. [1]"
+  }
+ }
+}

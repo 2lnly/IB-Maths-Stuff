@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2014-N-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.8", "7.4", "7.6", "7.7"],
+      "text_clean": "1. [Maximum mark: 12]\nA group with the binary operation of multiplication modulo 15 is shown in the following Cayley table.\n[Table: Cayley table for $\\times_{15}$]\n$\\times_{15}$ | 1 | 2 | 4 | 7 | 8 | 11 | 13 | 14\n1 | 1 | 2 | 4 | 7 | 8 | 11 | 13 | 14\n2 | 2 | 4 | 8 | 14 | 1 | 7 | 11 | 13\n4 | 4 | 8 | 1 | 13 | 2 | 14 | 7 | 11\n7 | 7 | 14 | 13 | 4 | 11 | 2 | 1 | 8\n8 | 8 | 1 | 2 | 11 | 4 | 13 | 14 | 7\n11 | 11 | 7 | 14 | 2 | 13 | $a$ | $b$ | $c$\n13 | 13 | 11 | 7 | 1 | 14 | $d$ | $e$ | $f$\n14 | 14 | 13 | 11 | 8 | 7 | $g$ | $h$ | $i$\n(a) Find the values represented by each of the letters in the table. [3]\n(b) Find the order of each of the elements of the group. [3]\n(c) Write down the three sets that form subgroups of order 2. [2]\n(d) Find the three sets that form subgroups of order 4. [4]"
+    },
+    "2": {
+      "topics": ["7"],
+      "subtopics": ["7.3"],
+      "text_clean": "2. [Maximum mark: 8]\nDefine $f:\\mathbb{R}\\setminus\\{0.5\\}\\to\\mathbb{R}$ by $f(x)=\\frac{4x+1}{2x-1}$.\n(a) Prove that $f$ is an injection. [4]\n(b) Prove that $f$ is not a surjection. [4]"
+    },
+    "3": {
+      "topics": ["7"],
+      "subtopics": ["7.7", "7.1", "7.6"],
+      "text_clean": "3. [Maximum mark: 11]\nConsider the set $A$ consisting of all the permutations of the integers $1, 2, 3, 4, 5$.\n(a) Two members of $A$ are given by $p=(1\\,2\\,5)$ and $q=(1\\,3)(2\\,5)$. Find the single permutation which is equivalent to $q\\circ p$. [4]\n(b) State a permutation belonging to $A$ of order\n(i) 4;\n(ii) 6. [3]\n(c) Let $P=\\{$all permutations in $A$ where exactly two integers change position$\\}$, and $Q=\\{$all permutations in $A$ where the integer 1 changes position$\\}$.\n(i) List all the elements in $P\\cap Q$.\n(ii) Find $n(P\\cap Q')$. [4]"
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.9", "7.6", "7.5"],
+      "text_clean": "4. [Maximum mark: 10]\nThe group $\\{G, *\\}$ has identity $e_G$ and the group $\\{H, \\circ\\}$ has identity $e_H$. A homomorphism $f$ is such that $f: G\\to H$. It is given that $f(e_G)=e_H$.\n(a) Prove that for all $a\\in G$, $f(a^{-1})=(f(a))^{-1}$. [4]\nLet $\\{H, \\circ\\}$ be the cyclic group of order seven, and let $p$ be a generator. Let $x\\in G$ such that $f(x)=p^2$.\n(b) Find $f(x^{-1})$. [2]\n(c) Given that $f(x*y)=p$, find $f(y)$. [4]"
+    },
+    "5": {
+      "topics": ["7"],
+      "subtopics": ["7.8", "7.2", "7.5"],
+      "text_clean": "5. [Maximum mark: 19]\n(a) State Lagrange's theorem. [2]\n$\\{G, *\\}$ is a group with identity element $e$. Let $a, b\\in G$.\n(b) Verify that the inverse of $a*b^{-1}$ is equal to $b*a^{-1}$. [3]\nLet $\\{H, *\\}$ be a subgroup of $\\{G, *\\}$. Let $R$ be a relation defined on $G$ by\n$aRb \\Leftrightarrow a*b^{-1}\\in H$.\n(c) Prove that $R$ is an equivalence relation, indicating clearly whenever you are using one of the four properties required of a group. [8]\n(d) Show that $aRb \\Leftrightarrow a\\in Hb$, where $Hb$ is the right coset of $H$ containing $b$. [3]\nIt is given that the number of elements in any right coset of $H$ is equal to the order of $H$.\n(e) Explain how this fact together with parts (c) and (d) prove Lagrange's theorem. [3]"
+    }
+  }
+}

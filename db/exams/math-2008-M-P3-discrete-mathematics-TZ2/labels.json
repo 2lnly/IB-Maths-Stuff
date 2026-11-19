@@ -1,0 +1,35 @@
+{
+  "exam_id": "math-2008-M-P3-discrete-mathematics-TZ2",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.3", "6.1"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 11]\n(a) Use the Euclidean algorithm to find the gcd of 324 and 129. [3 marks]\n(b) Hence show that $324x + 129y = 12$ has a solution and find both a particular solution and the general solution. [6 marks]\n(c) Show that there are no integers $x$ and $y$ such that $82x + 140y = 3$. [2 marks]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.6", "6.9", "6.7"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 11]\n(a) The matrix below shows the distances between towns A, B, C, D and E.\n[Distance matrix]\n  | A | B | C | D | E\nA | – | 5 | 7 | 10 | 6\nB | 5 | – | 2 | 9 | –\nC | 7 | 2 | – | 3 | 8\nD | 10 | 9 | 3 | – | –\nE | 6 | – | 8 | – | –\n(i) Draw the graph, in its planar form, that is represented by the matrix.\n(ii) Write down with reasons whether or not it is possible to find an Eulerian trail in this graph.\n(iii) Solve the Chinese postman problem with reference to this graph if A is to be the starting and finishing point. Write down the walk and determine the length of the walk. [9 marks]\n(b) Show that a graph cannot have exactly one vertex of odd degree. [2 marks]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.4", "6.5"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 14]\n(a) (i) Given that $a \\equiv d \\pmod{n}$ and $b \\equiv c \\pmod{n}$ prove that $(a+b) \\equiv (c+d) \\pmod{n}$.\n(ii) Hence solve the system\n$2x + 5y \\equiv 1 \\pmod{6}$\n$x + y \\equiv 5 \\pmod{6}$. [11 marks]\n(b) Show that $x^{97} - x + 1 \\equiv 0 \\pmod{97}$ has no solution. [3 marks]"
+    },
+    "4": {
+      "topics": ["6", "2"],
+      "subtopics": ["6.6", "6.11", "2.6"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 12]\n(a) (i) Let $M$ be the adjacency matrix of a bipartite graph. Show that the leading diagonal entries in $M^{37}$ are all zero.\n(ii) What does the $(i, j)^{\\text{th}}$ element of $M + M^2 + M^3$ represent? [4 marks]\n(b) Prove that a graph containing a triangle cannot be bipartite. [3 marks]\n(c) Prove that the number of edges in a bipartite graph with $n$ vertices is less than or equal to $\\frac{n^2}{4}$. [5 marks]"
+    },
+    "5": {
+      "topics": ["6"],
+      "subtopics": ["6.6", "6.8"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 12]\nLet $G$ be a simple, connected, planar graph.\n(a) (i) Show that Euler's relation $f - e + v = 2$ is valid for a spanning tree of $G$.\n(ii) By considering the effect of adding an edge on the values of $f$, $e$ and $v$ show that Euler's relation remains true. [7 marks]\n(b) Show that $K_5$ is not planar. [5 marks]"
+    }
+  }
+}

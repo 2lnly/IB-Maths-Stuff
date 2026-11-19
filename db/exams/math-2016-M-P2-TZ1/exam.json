@@ -1,0 +1,321 @@
+{
+ "exam_id": "math-2016-M-P2-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2016,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2016 May Examination Session/Mathematics_paper_2__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2016 May Examination Session/Mathematics_paper_2__TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2216-7204; code M16/5/MATHL/HP2/ENG/TZ1/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2016-M-P2-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\n1 1\n→ →\nThe points A and B have position vectors OA = 2 and OB = 0 .\n- 2 2\n→ →\n(a) Find OA × OB . [2]\n(b) Hence find the area of the triangle OAB . [2]",
+   "ms_text": "4\n→ →\n1. (a) OA × OB = − 4 (M1)A1\n2 −\nNote: M1A0 can be awarded for attempt at a correct method shown, or correct method implied\nby the digits 4, 4, 2 found in the correct order.\n[2 marks]\n1 2 2 2\n(b) area = 4 + 4 + 2 = 3 M1A1\n2\n[2 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nThe points A and B have position vectors $\\vec{OA}=\\begin{pmatrix}1\\\\2\\\\-2\\end{pmatrix}$ and $\\vec{OB}=\\begin{pmatrix}1\\\\0\\\\2\\end{pmatrix}$.\n(a) Find $\\vec{OA}\\times\\vec{OB}$. [2]\n(b) Hence find the area of the triangle OAB. [2]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\n(a) Express x2+ 4x- 2 in the form (x+a)2+b where a , b∈′ . [2]\n(b) If f (x) =x + 2 and ( g οf ) (x) =x2+ 4x- 2 write down g (x) . [2]",
+   "ms_text": "2\n2. (a) ( x+ 2) − 6 A1A1\n[2 marks]\n2 (b) ( g ο f )() x\n= ( x + 2) − 6 (M1)\n2 ⇒ gx ()\n= x − 6 A1\n[2 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.6",
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\n(a) Express $x^2+4x-2$ in the form $(x+a)^2+b$ where $a, b\\in\\mathbb{Z}$. [2]\n(b) If $f(x)=x+2$ and $(g\\circ f)(x)=x^2+4x-2$ write down $g(x)$. [2]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nThe displacement, s , in metres, of a particle t seconds after it passes through the origin is\n- t given by the expression s = ln2 ( - e )\n,t≥0 .\n(a) Find an expression for the velocity, v , of the particle at time t . [2]\nFind an expression for the acceleration, a , of the particle at time t . (b) [2]\n(c) Find the acceleration of the particle at time t=0. [1]",
+   "ms_text": "− t d s e 1 2\n3. (a) v = = = or 1 + − M1A1\n− t t − t d t 2 − e 2e − 1 2 − e\n[2 marks]\n2 − t − t − t − t − t d s − e ( 2 − e ) − e × e\n− 2e\n(b) a = = = M1A1\n2 − t 2 − t 2 d t\n( 2 − e ) ( 2 − e )\n2 t d s\n− 2e\nNote:If simplified in part (a) award (M1)A1 for a = = .\n2 2 d t t\n( 2e − 1 )\n− 2 − 1 − t − t − t − t − t\nNote: Award M1A1 for a = − e ( 2 − e )( e ) − e ( 2 − e ) .\n[2 marks]\n(c) a= –2 (ms–2) A1\n[1 mark]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nThe displacement, $s$, in metres, of a particle $t$ seconds after it passes through the origin is given by the expression $s=\\ln(2-e^{-t})$, $t\\geq 0$.\n(a) Find an expression for the velocity, $v$, of the particle at time $t$. [2]\n(b) Find an expression for the acceleration, $a$, of the particle at time $t$. [2]\n(c) Find the acceleration of the particle at time $t=0$. [1]",
+   "review_note": "audit: pure kinematics; 5.9 primary as on equivalents"
+  },
+  {
+   "id": "math-2016-M-P2-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nThe diagram below shows a fenced triangular enclosure in the middle of a large grassy field.\nThe points A and C are 3 m apart. A goat G is tied by a 5 m length of rope at point A on\nthe outside edge of the enclosure.\nGiven that the corner of the enclosure at C forms an angle of θ radians and the area of field\nthat can be reached by the goat is 44 m2 , find the value of θ .\nG\n5m\nA\n3m\nθ\nC",
+   "ms_text": "4. attempting to use the area of sector formula (including for a semicircle) M1\n1 25π 2\nsemi-circle π × 5 = = 39.26990817 … (A1)\n2 2\nangle in smaller sector is πθ − (A1)\n1 2\narea of sector 2 (π ) (A1) = × × − θ\n2\nattempt to total a sum of areas of regions to 44 (M1)\n2(π − θ ) = 44 − 39.26990817 …\n29π\nθ = 0.777 = − 22 A1\n4\nNote:Award all marks except the final A1for correct working in degrees.\nNote:Attempt to solve with goat inside triangle should lead to nonsense\nanswer and so should only receive a maximum of the two M marks.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nThe diagram below shows a fenced triangular enclosure in the middle of a large grassy field. The points A and C are 3 m apart. A goat G is tied by a 5 m length of rope at point A on the outside edge of the enclosure.\nGiven that the corner of the enclosure at C forms an angle of $\\theta$ radians and the area of field that can be reached by the goat is $44\\text{ m}^2$, find the value of $\\theta$.\n[Diagram: shaded triangular enclosure with corner C (angle $\\theta$); A lies on side from C, CA = 3 m; goat G tied at A by a 5 m rope, outside the enclosure]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\n2 3 x + 10\n, x ∈ϒ ,x ≠ 2 , x ≠- 2 . The function f is given by f (x) =x 2\n- 4\n(a) Prove that f is an even function. [2]\n(b) (i) Sketch the graph y= f (x) .\n(ii) Write down the range of f . [5]",
+   "ms_text": "2\n3 ( − x ) + 10\n5. (a) f ( − x ) = A1\n2\n( − x ) − 4\n2 3 x\n+ 10\n= = fx ()\n2 x\n− 4\nfx () = f ( − x ) R1\nhence this is an even function AG\nNote: Award A1R1 for the statement, all the powers are even hence fx () = f ( − x ) .\nNote: Just stating all the powers are even is A0R0.\nNote: Do not accept arguments based on the symmetry of the graph.\n[2 marks]\n(b) (i)\ncorrect shape in 3 parts which are asymptotic and symmetrical A1\ncorrect vertical asymptotes clear at 2 and −2 A1\ncorrect horizontal asymptote clear at 3 A1\n(ii) fx> () 3 A1\nfx≤− () 2.5 A1\n[5 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.14",
+    "2.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nThe function $f$ is given by $f(x)=\\dfrac{3x^2+10}{x^2-4}$, $x\\in\\mathbb{R}$, $x\\neq 2$, $x\\neq -2$.\n(a) Prove that $f$ is an even function. [2]\n(b) (i) Sketch the graph $y=f(x)$.\n(ii) Write down the range of $f$. [5]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nThe heights of students in a single year group in a large school can be modelled by a normal\ndistribution.\nIt is given that 40 % of the students are shorter than 1.62 m and 25 % are taller than 1.79 m .\nFind the mean and standard deviation of the heights of the students.",
+   "ms_text": "let the heights of the students be X 6.\nP( X< 1.62) = 0.4 , P( X> 1.79) = 0.25 M1\nNote: Award M1 for either of the probabilities above.\n1.62 − μ 1.79 − μ\nP Z < = 0.4 , P Z < = 0.75 M1\nσ σ\nNote: Award M1 for either of the expressions above.\n1.62 − μ …, 1.79 − μ\n=− 0.2533 = 0.6744 … M1A1\nσ σ\nNote:A1 for both values correct.\nμ = 1.67(m), σ = 0.183(m) A1A1\nNote: Accept answers that round to 1.7(m) and 0.18(m).\nNote: Accept answers in centimetres.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nThe heights of students in a single year group in a large school can be modelled by a normal distribution.\nIt is given that 40% of the students are shorter than 1.62 m and 25% are taller than 1.79 m.\nFind the mean and standard deviation of the heights of the students."
+  },
+  {
+   "id": "math-2016-M-P2-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 8]\nIt has been suggested that in rowing competitions the time, T seconds taken to complete a\n2000 m race can be modelled by an equation of the form T = aN b , where N is the number of\nrowers in the boat and a and b are constants for rowers of a similar standard.\nTo test this model the times for the finalists in all the 2000 m men’s races at a recent Olympic\ngames were recorded and the mean calculated.\nThe results are shown in the following table for N = 1 and N = 2 .\nN T (seconds)\n1 420.65\n2 390.94\n(a) Use these results to find estimates for the value of a and the value of b . Give your\nanswers to five significant figures. [4]\n(b) Use this model to estimate the mean time for the finalists in an Olympic race for boats\nwith 8 rowers. Give your answer correct to two decimal places. [1]\nIt is now given that the mean time in the final for boats with 8 rowers was 342.08 seconds.\n(c) Calculate the error in your estimate as a percentage of the actual value. [1]\n(d) Comment on the likely validity of the model as N increases beyond 8. [2]",
+   "ms_text": "7. (a) a= 420.65 A1\n390.94 = a × 2b M1\n390.94\n2 b = = 0.929... A1\n420.65\nb=− 0.10567 A1\n[4 marks]\n(b) N= 8 T= 337.67 A1\nNote: Accept 5sf answers between 337.44 and 337.67.\n[1 mark]\n(c) N= 8 Percentage error 1.29% A1\nNote: Accept negative values of the above.\n[1 mark]\n(d) likely not to be a good fit for larger values of N R1\nlikely to be quite a good fit for values close to 8 R1\n[2 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "topic-uncertain"
+   ],
+   "text_clean": "7. [Maximum mark: 8]\nIt has been suggested that in rowing competitions the time, $T$ seconds taken to complete a 2000 m race can be modelled by an equation of the form $T=aN^b$, where $N$ is the number of rowers in the boat and $a$ and $b$ are constants for rowers of a similar standard.\nTo test this model the times for the finalists in all the 2000 m men's races at a recent Olympic games were recorded and the mean calculated.\nThe results are shown in the following table for $N=1$ and $N=2$.\nN | T (seconds)\n1 | 420.65\n2 | 390.94\n(a) Use these results to find estimates for the value of $a$ and the value of $b$. Give your answers to five significant figures. [4]\n(b) Use this model to estimate the mean time for the finalists in an Olympic race for boats with 8 rowers. Give your answer correct to two decimal places. [1]\nIt is now given that the mean time in the final for boats with 8 rowers was 342.08 seconds.\n(c) Calculate the error in your estimate as a percentage of the actual value. [1]\n(d) Comment on the likely validity of the model as $N$ increases beyond 8. [2]",
+   "review_note": "power model T=aN^b; solved with logs (1.7) / equation solving; percentage error and model validity have no exact AA code"
+  },
+  {
+   "id": "math-2016-M-P2-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 5]\nWhen x2+ 4x -b is divided by x -a the remainder is 2 .\nGiven that a , b ∈ϒ , find the smallest possible value for b .",
+   "ms_text": "2\n8. a + 4 a − b = 2 M1A1\nEITHER\n2 a\n+ 4 a − ( b + 2) = 0\nas ais real ⇒16 + 4( b + 2) ≥ 0 M1A1\nOR\nb a 2 4 a 2 = + − M1\n2\n= ( a + 2) − 6 (A1)\nTHEN\nb≥− 6\nhence smallest possible value for b is −6 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.7",
+    "2.12",
+    "2.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 5]\nWhen $x^2+4x-b$ is divided by $x-a$ the remainder is 2.\nGiven that $a, b\\in\\mathbb{R}$, find the smallest possible value for $b$."
+  },
+  {
+   "id": "math-2016-M-P2-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\nTwo distinct roots for the equation z4- 10z3 + az2+bz+ 50 = 0 are c+ i and 2 + id where\na , b , c , d ∈ϒ, d >0 .\n(a) Write down the other two roots in terms of c and d . [1]\n(b) Find the value of c and the value of d . [6]",
+   "ms_text": "9. (a) other two roots are c – i and 2 − id A1\n[1 mark]\n(b) METHOD 1\nuse of sum of roots (M1)\n2 c+ 4 = 10\nc= 3 A1\nuse of product of roots M1\nproduct is ( c + i)( c − i)(2 + i)(2 d − i) d A1\n2 2 2 ( c\n+ 1 )( 4 + d ) = 104 ( + d ) = 50 A1\nNote: The line above can be awarded if they have used their value of c.\nd= 1 A1\nMETHOD 2\n4 3 2 2 2 2 2 z − 10 z + az + bz + 50 = ( z − 2 cz + c + 1 )( z − 4 z + 4 + d ) M1A1\ncompare constant terms or coefficients of 3z (M1)\n4 + 2 c = 10\n2 2 ( c + 1 )( 4 + d ) = 50 A1\nc = 3, d = 1 A1A1\n[6 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "1.14",
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nTwo distinct roots for the equation $z^4-10z^3+az^2+bz+50=0$ are $c+i$ and $2+id$ where $a, b, c, d\\in\\mathbb{R}$, $d>0$.\n(a) Write down the other two roots in terms of $c$ and $d$. [1]\n(b) Find the value of $c$ and the value of $d$. [6]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 8]\nStudents sign up at a desk for an activity during the course of an afternoon. The arrival of\neach student is independent of the arrival of any other student and the number of students\narriving per hour can be modelled as a Poisson distribution with a mean of λ .\nThe desk is open for 4 hours. If exactly 5 people arrive to sign up for the activity during that\ntime find the probability that exactly 3 of them arrived during the first hour.",
+   "ms_text": "3 −\nλ eλ\n10. P(3 in the first hour) = A1\n3!\nnumber to arrive in the four hours follows Po (4) λ M1\n5 − 4 λ\n( 4 λ ) e\nP(5 arrive in total) = A1\n5!\nattempt to find P(2 arrive in the next three hours) M1\n2 3\n( 3 λ ) e − λ\n= A1\n2!\nuse of conditional probability formula M1\n2 3 3 − λ\n( 3 ) e − λ λ e λ\n×\n3! 2!\nP(3 in the first hour given 5 in total) = A1\n5 − 4 λ\n( 4 λ ) e\n5!\n9\n2!3! 45 =\n= 0.0879 A1\n5 4 512\n5!\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 8]\nStudents sign up at a desk for an activity during the course of an afternoon. The arrival of each student is independent of the arrival of any other student and the number of students arriving per hour can be modelled as a Poisson distribution with a mean of $\\lambda$.\nThe desk is open for 4 hours. If exactly 5 people arrive to sign up for the activity during that time find the probability that exactly 3 of them arrived during the first hour."
+  },
+  {
+   "id": "math-2016-M-P2-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 22]\nLet f (x) =x4+ 0.2x3- 5.8x2-x + 4 , x ∈ϒ.\n(a) Find the solutions of f (x) > 0 . [3]\nFor the curve y =f (x) . (b)\n(i) Find the coordinates of both local minimum points.\nFind the x-coordinates of the points of inflexion. (ii) [5]\nThe domain of f is now restricted to [0 , a] .\nWrite down the largest value of a for which f has an inverse. Give your answer (c) (i)\ncorrect to 3 significant figures.\n(ii) For this value of a sketch the graphs of y =f (x) and y = f -1(x) on the same set\nof axes, showing clearly the coordinates of the end points of each curve.\n(iii) Solve f-1 (x) = 1 . [6]\nLet g (x) = 2 sin (x - 1) - 3 , -π\n2+ 1 ≤x≤π 2+ 1 .\n(d) (i) Find an expression for g-1 (x) , stating the domain.\n(ii) Solve (f -1ο g) (x) < 1 . [8]",
+   "ms_text": "11. (a) valid method eg, sketch of curve or critical values found (M1)\nx <− 2.24, x > 2.24, A1\n−< 1 x < 0.8 A1\nNote: Award M1A1A0 for correct intervals but with inclusive inequalities.\n[3 marks]\n(b) (i) (1.67, − 5.14),(1.74, − − 3.71) A1A1\nNote: Award A1A0 for any two correct terms.\n3 2\n(ii) f ′ () x = 4 x + 0.6 x − 11.6 x − 1\n2 f ′′ () x\n= 12 x + 1.2 x − 11.6 = 0 (M1)\n− 1.03,0.934 A1A1\nNote: M1 should be awarded if graphical method to find zeros of f ′′ () x or turning points of\nf ′ () x is shown.\n[5 marks]\n1.67 (c) (i) A1\n(ii)\nM1A1A1\nNote: Award M1 for reflection of their y = fx () in the line y x provided =\ntheir f is one-one.\nA1 for (0, 4), (4,0) (Accept axis intercept values) A1 for the other two sets of\ncoordinates of other end points\n(iii) x = f (1) M1\n=− 1.6 A1\n[6 marks]\n(d) (i) y = 2sin ( x − 1) − 3\nx = 2sin ( y − 1) − 3 (M1)\nx 3 1 +\n( g − () x = ) arcsin + 1 A1\n2\n− 5 ≤ x ≤− 1 A1A1\nNote: Award A1 for −5 and −1, and A1 for correct inequalities if numbers are\nreasonable.\n− 1 (ii) f ( gx () ) < 1\ngx>− () 1.6 (M1)\n1 (1.6) x > g− − = 1.78 (A1)\nNote: Accept = in the above.\nπ\n1.78 < x ≤ + 1 A1A1\n2\nπ\nNote:A1 for x >1.78 (allow ≥) and A1 for x ≤ +. 1\n2\n[8 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.14",
+    "2.15",
+    "5.8",
+    "5.7",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 22]\nLet $f(x)=x^4+0.2x^3-5.8x^2-x+4$, $x\\in\\mathbb{R}$.\n(a) Find the solutions of $f(x)>0$. [3]\n(b) For the curve $y=f(x)$.\n(i) Find the coordinates of both local minimum points.\n(ii) Find the $x$-coordinates of the points of inflexion. [5]\nThe domain of $f$ is now restricted to $[0, a]$.\n(c) (i) Write down the largest value of $a$ for which $f$ has an inverse. Give your answer correct to 3 significant figures.\n(ii) For this value of $a$ sketch the graphs of $y=f(x)$ and $y=f^{-1}(x)$ on the same set of axes, showing clearly the coordinates of the end points of each curve.\n(iii) Solve $f^{-1}(x)=1$. [6]\nLet $g(x)=2\\sin(x-1)-3$, $-\\frac{\\pi}{2}+1\\leq x\\leq\\frac{\\pi}{2}+1$.\n(d) (i) Find an expression for $g^{-1}(x)$, stating the domain.\n(ii) Solve $(f^{-1}\\circ g)(x)<1$. [8]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 16]\nConsider the curve, C defined by the equation y2- 2xy = 5 - ex. The point A lies on C and\nhas coordinates (0 , a) , a > 0 .\n(a) Find the value of a . [2]\nd y 2 y - e x\n= (b)\nShow that d [4] x\n- 2 _ y x i .\n(c) Find the equation of the normal to C at the point A. [3]\n(d) Find the coordinates of the second point at which the normal found in part (c)\nintersects C . [4]\nv Given that v = y3 , y > 0 , find d\n[3] (e) at x=0 .\nd x",
+   "ms_text": "2\n12. (a) a= 5 − 1 (M1)\na= 2 A1\n[2 marks]\nd y d y x\n(b) 2 y − 2 x + 2 y =− e M1A1A1A1\nd x d x\nNote: Award M1 for an attempt at implicit differentiation, A1 for each part.\nx d y 2 y\n− e\n= AG\nd x 2( y − x )\n[4 marks]\ny 3 at x= 0, d\n(c) (A1)\nx=\nd 4\nfinding the negative reciprocal of a number (M1)\n4\ngradient of normal is −\n3\n4\ny =− x + 2 A1\n3\n[3 marks]\n(d) substituting linear expression (M1)\n2\n4 4\nx 2 2 x x 2 e x 5 0 or equivalent − + − − + + − =\n3\nx = 1.56 (M1)A1\ny = – 0.0779 A1\n(1.56 , – 0.0779)\n[4 marks]\nd v d y\n3 y 2 (e) = M1A1\nd x d x\nd v 3\n3 × 4 × = 9 A1\nx=\nd 4\n[3 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 16]\nConsider the curve, $C$ defined by the equation $y^2-2xy=5-e^x$. The point A lies on $C$ and has coordinates $(0, a)$, $a>0$.\n(a) Find the value of $a$. [2]\n(b) Show that $\\dfrac{dy}{dx}=\\dfrac{2y-e^x}{2(y-x)}$. [4]\n(c) Find the equation of the normal to $C$ at the point A. [3]\n(d) Find the coordinates of the second point at which the normal found in part (c) intersects $C$. [4]\n(e) Given that $v=y^3$, $y>0$, find $\\dfrac{dv}{dx}$ at $x=0$. [3]"
+  },
+  {
+   "id": "math-2016-M-P2-TZ1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 22]\nSix balls numbered 1 , 2 , 2 , 3 , 3 , 3 are placed in a bag. Balls are taken one at a time from\nthe bag at random and the number noted. Throughout the question a ball is always replaced\nbefore the next ball is taken.\nA single ball is taken from the bag. Let X denote the value shown on the ball. (a)\nFind E (X) . [2]\n(b) Three balls are taken from the bag. Find the probability that\n(i) the total of the three numbers is 5 ;\nthe median of the three numbers is 1 . (ii) [6]\n(c) Ten balls are taken from the bag. Find the probability that less than four of the balls are\nnumbered 2 . [3]\n(d) Find the least number of balls that must be taken from the bag for the probability of\ntaking out at least one ball numbered 2 to be greater than 0.95 . [3]\n(e) Another bag also contains balls numbered 1 , 2 or 3 .\nEight balls are to be taken from this bag at random. It is calculated that the expected\nnumber of balls numbered 1 is 4.8 , and the variance of the number of balls numbered\n2 is 1.5 .\nFind the least possible number of balls numbered 3 in this bag. [8]",
+   "ms_text": "1 2 3 14 7\n13. (a) E( X ) 1 2 3 2.33 (M1)A1 = × + × + × = = =\n6 6 6 6 3\n[2 marks]\n(b) (i) 3 × P(113) + 3 × P(122) (M1)\n1 1 1 1 1 1 7\n3 × × × + 3 × × × = ( = 0.0972) A1\n6 6 2 6 3 3 72\nNote: Award M1 for attempt to find at least four of the cases.\n1\n(ii) recognising 111 as a possibility (implied by ) (M1)\n216\nrecognising 112 and 113 as possibilities (implied by 2 and 3 ) (M1)\n216 216\nseeing the three arrangements of 112 and 113 (M1)\nP(111) + 3 × P(112) + 3 × P(113)\n1 6 9 16 2\n0.0741 = + + = = = A1\n216 216 216 216 27\n[6 marks]\n1 B\n(c) let the number of twos be X, X ~ (M1)\n10,3\nP( X < 4) = P ( X ≤ 3) = 0.5 59 (M1)A1\n[3 marks]\n(d) let n be the number of balls drawn\nP( X ≥ 1) = 1 − P( X = 0) M1\nn\n2\n= 1 − > 0.95 M1\n3\nn\n2 <\n0.05\n3\nn = 8 A1\n[3 marks]\n3\n8 p 4.8 ⇒ p (e) = = (M1)A1\n1 1\n5\n8 p ( 1 − p ) = 1.5 (M1)\n2 2\n2 p\n− p − 0.1875 = 0 (M1)\n2 2\n3 1\np= or A1\n2\n4 4\nreject 3\nas it gives a total greater than one\n4\n17 3\nP(1 or 2) = or P(3) = (A1)\n20 20\nrecognising LCM as 20 so min total number is 20 (M1)\nthe least possible number of 3’s is 3 A1\n[8 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.6",
+    "4.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 22]\nSix balls numbered 1, 2, 2, 3, 3, 3 are placed in a bag. Balls are taken one at a time from the bag at random and the number noted. Throughout the question a ball is always replaced before the next ball is taken.\n(a) A single ball is taken from the bag. Let $X$ denote the value shown on the ball. Find $E(X)$. [2]\n(b) Three balls are taken from the bag. Find the probability that\n(i) the total of the three numbers is 5;\n(ii) the median of the three numbers is 1. [6]\n(c) Ten balls are taken from the bag. Find the probability that less than four of the balls are numbered 2. [3]\n(d) Find the least number of balls that must be taken from the bag for the probability of taking out at least one ball numbered 2 to be greater than 0.95. [3]\n(e) Another bag also contains balls numbered 1, 2 or 3.\nEight balls are to be taken from this bag at random. It is calculated that the expected number of balls numbered 1 is 4.8, and the variance of the number of balls numbered 2 is 1.5.\nFind the least possible number of balls numbered 3 in this bag. [8]",
+   "review_note": "qp crop override: removed trailing blank 'answers will not be marked' pages"
+  }
+ ],
+ "status": "done"
+}

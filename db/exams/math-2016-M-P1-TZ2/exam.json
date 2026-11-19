@@ -1,0 +1,299 @@
+{
+ "exam_id": "math-2016-M-P1-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2016,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2016 May Examination Session/Mathematics_paper_1__TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2016 May Examination Session/Mathematics_paper_1__TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2216-7205; code M16/5/MATHL/HP1/ENG/TZ2/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2016-M-P1-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\nThe following system of equations represents three planes in space.\nx + 3y +z = -1\nx + 2y - 2z = 15\n2x +y -z = 6\nFind the coordinates of the point of intersection of the three planes.",
+   "ms_text": "1. EITHER\neliminating a variable, x, for example to obtain y + 3 z =− 16 and 5 − y − 3 z = 8 M1A1\nattempting to find the value of one variable M1\npoint of intersection is (1,2, − − 6) A1A1A1\nOR\n2 1 − 16\nattempting row reduction of relevant matrix, eg. 1 3 1 − 1 M1\n1 2 − 2 15\n2 1 − 16\ncorrect matrix with two zeroes in a column, eg. 0 5 3 − 8 A1\n0 1 3 − 16\nfurther attempt at reduction M1\npoint of intersection is (1,2, − − 6) A1A1A1\nNote: Allow solution expressed as x = − , 1 y = 2 , z = − for final A marks. 6\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.16",
+    "3.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nThe following system of equations represents three planes in space.\n$x + 3y + z = -1$\n$x + 2y - 2z = 15$\n$2x + y - z = 6$\nFind the coordinates of the point of intersection of the three planes."
+  },
+  {
+   "id": "math-2016-M-P1-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nx + 2 The function f is defined as f (x) =3\n, x ∈ϒ, x≠-1 .\nx + 1\nSketch the graph of y = f (x) , clearly indicating and stating the equations of any asymptotes\nand the coordinates of any axes intercepts.",
+   "ms_text": "2. x=−1\nA1A1A1A1A1\nNote:Award A1 for correct shape, A1 for x=− clearly stated and asymptote shown, 1\n2 ,0 A1 for y= 3 clearly stated and asymptote shown, A1 for\n− and A1 for (0,2) .\n3\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nThe function $f$ is defined as $f(x) = \\frac{3x+2}{x+1}$, $x \\in \\mathbb{R}$, $x \\neq -1$.\nSketch the graph of $y = f(x)$, clearly indicating and stating the equations of any asymptotes and the coordinates of any axes intercepts."
+  },
+  {
+   "id": "math-2016-M-P1-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nShow that cot α= tan π αfor 0 <α<π\n(a) [1] 2−\n2.\ncot α\n1 , 0 <α<π\n(b) Hence find ∫ d x [4]\n2 2. 1 + x\ntan α",
+   "ms_text": "3. (a) EITHER\nuse of a diagram and trig ratios\neg,\nO A\ntan α = ⇒ cot α =\nA O\nπ A\nfrom diagram, tan − α = R1\n2 O\nOR\nπ\nsin − α\nπ 2 cos α\nuse of tan − α = = R1\nπ 2 sin α\n− α\ncos2\nTHEN\nπ\ncot α = − α AG\ntan2\n[1 mark]\ncot α\n1 cot α\n(b) ∫ d x = [ arctan x ] (A1)\n2 tan α 1\n+ x\ntan α\nNote: Limits (or absence of such) may be ignored at this stage.\narctan(cot ) arctan(tan ) (M1) = α − α\nπ\n(A1) = − α − α\n2\nπ\n= − 2 α A1\n2\n[4 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.15",
+    "3.9",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\n(a) Show that $\\cot\\alpha = \\tan\\left(\\frac{\\pi}{2} - \\alpha\\right)$ for $0 < \\alpha < \\frac{\\pi}{2}$. [1]\n(b) Hence find $\\int_{\\tan\\alpha}^{\\cot\\alpha} \\frac{1}{1+x^2}\\,dx$, $0 < \\alpha < \\frac{\\pi}{2}$. [4]"
+  },
+  {
+   "id": "math-2016-M-P1-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nThe function f is defined as f (x) = ax2+bx + c where a , b , c ∈ϒ.\n( )- () ′( )+ fx f x f x\nHayley conjectures that fx 2 1 2 ′() , x1≠x2. 1 =\nx - x 2\n2 1\nShow that Hayley’s conjecture is correct.",
+   "ms_text": "2 2\nfx ( ) − fx ( ) ax + bx + c − ( ax + bx + c )\n2 1 2 2 1 1\n4. = (M1)\nx − x x − x\n2 1 2 1\n( 2 2 ) ax − x + bx ( − x )\n2 1 2 1\n= A1\nx x −\n2 1\nax ( − x )( x + x ) + bx ( − x )\n2 1 2 1 2 1\n= (A1)\nx x −\n2 1\n= ax ( + x ) + b ( x ≠ x ) A1\n2 1 1 2\nf ′ ( x ) + f ′ () x ( 2 ax + b ) + ( 2 ax + b )\n2 1 2 1\n= M1\n2 2\n2 ax ( + x ) + 2 b\n2 1\n=\n2\n= ax ( + x ) + b A1\n2 1\nso Hayley’s conjecture is correct AG\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.6",
+    "5.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nThe function $f$ is defined as $f(x) = ax^2 + bx + c$ where $a, b, c \\in \\mathbb{R}$.\nHayley conjectures that $\\frac{f(x_2) - f(x_1)}{x_2 - x_1} = \\frac{f'(x_2) + f'(x_1)}{2}$, $x_1 \\neq x_2$.\nShow that Hayley's conjecture is correct."
+  },
+  {
+   "id": "math-2016-M-P1-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 8]\nA biased coin is tossed five times. The probability of obtaining a head in any one throw is p .\nLet X be the number of heads obtained.\nFind, in terms of p , an expression for P(X= 4) . (a) [2]\n(b) (i) Determine the value of p for which P(X= 4) is a maximum.\nFor this value of p , determine the expected number of heads. (ii) [6]",
+   "ms_text": "5. (a) X : B(5, p ) (M1)\n5\n4 P( X\n= 4) = p (1 − p ) (or equivalent) A1\n4\n[2 marks]\nd 4 5 3 4\n(b) (i) ( 5 p − 5 p ) = 20 p − 25 p M1A1\nd p\n4 3\n5 p (4 − 5) p = 0 ⇒ p = M1A1\n5\nNote:Do not award the final A1 if is included in the answer. p= 0\n4\n(ii) E( X ) = np = (M1)\n55\n= 4 A1\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.8",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 8]\nA biased coin is tossed five times. The probability of obtaining a head in any one throw is $p$.\nLet $X$ be the number of heads obtained.\n(a) Find, in terms of $p$, an expression for $P(X = 4)$. [2]\n(b) (i) Determine the value of $p$ for which $P(X = 4)$ is a maximum.\n(ii) For this value of $p$, determine the expected number of heads. [6]"
+  },
+  {
+   "id": "math-2016-M-P1-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 8]\nConsider the expansion of (1 +x)n in ascending powers of x , where n ≥ 3 .\n(a) Write down the first four terms of the expansion. [2]\nThe coefficients of the second, third and fourth terms of the expansion are consecutive terms\nof an arithmetic sequence.\n(b) (i) Show that n3- 9n2+ 14n = 0 .\n(ii) Hence find the value of n . [6]",
+   "ms_text": "nn ( − 1) nn ( − 1)( n − 2) 2 3\n6. (a) 1, nx , x , x A1A1\n2 6\nNote: Award A1 for the first two terms and A1 for the next two terms.\nNote: Accept n\nnotation.\nr\nNote: Allow the terms seen in the context of an arithmetic sum.\nNote: Allow unsimplified terms, eg, those including powers of 1 if seen.\n[2 marks]\n(b) (i) EITHER\nusing u − u = u − u (M1)\n3 2 4 3\nnn ( − 1) nn ( − 1)( n − 2) nn ( − 1)\nn A1 − = −\n2 6 2\nattempting to remove denominators and expanding (or vice versa) M1\n2 3 2 2 3 2 3 n\n− 9 n = n − 6 n + 5 n (or equivalent, eg, 6 n − 12 n = n − 3 n + 2 n ) A1\nOR\nusing u + u = 2 u (M1)\n2 4 3\nnn ( − 1)( n − 2)\nn + = nn ( − 1) (A1)\n6\nattempting to remove denominators and expanding (or vice versa) M1\n3 2 2 6 n\n+ n − 3 n + 2 n = 6 n − 6 n (or equivalent) (A1)\nTHEN\n3 2 n\n− 9 n + 14 n = 0 AG\n(ii) nn ( − 2)( n − 7) = 0 or ( n − 2)( n − 7) = 0 (A1)\nn= 7 only (as n≥ 3 ) A1\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9",
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 8]\nConsider the expansion of $(1+x)^n$ in ascending powers of $x$, where $n \\geq 3$.\n(a) Write down the first four terms of the expansion. [2]\nThe coefficients of the second, third and fourth terms of the expansion are consecutive terms of an arithmetic sequence.\n(b) (i) Show that $n^3 - 9n^2 + 14n = 0$.\n(ii) Hence find the value of $n$. [6]"
+  },
+  {
+   "id": "math-2016-M-P1-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nA and B are independent events such that P(A) = P(B) =p,p ≠0 .\n(a) Show that P(A ∪ B) = 2p -p2 . [2]\nFind P(A | A ∪ B) in simplest form. (b) [4]",
+   "ms_text": "7. (a) P( A ∪ B ) = P() A + P() B − P( A ∩ B )\n= P() A + P() B − P()P() A B (M1)\n2\n= p + p − p A1\n2\n= 2p − p AG\n[2 marks]\nP ( A ∩ ( A ∪ B ) )\n(b) P(| AA ∪ B ) = (M1)\nP( A ∪ B )\nNote:Allow ( PA ∩ A ∪ B ) if seen on the numerator.\nP() A\n= (A1)\nP( A ∪ B )\np\n= A1\n2 2 p\n− p\n1\n= A1\n2 p −\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\n$A$ and $B$ are independent events such that $P(A) = P(B) = p$, $p \\neq 0$.\n(a) Show that $P(A \\cup B) = 2p - p^2$. [2]\n(b) Find $P(A \\mid A \\cup B)$ in simplest form. [4]"
+  },
+  {
+   "id": "math-2016-M-P1-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\nUse mathematical induction to prove that n (n2+ 5) is divisible by 6 for n ∈′+ .",
+   "ms_text": "2 + 8. let P() n be the proposition that ( nn+ 5 ) is divisible by 6 for n ∈′\nconsider P(1) :\n2 2 when n= 1 , ( nn+ 5 )\n= 1 × ( 1 + 5 ) = 6 and so P(1) is true R1\n2 + assume P() k is true ie, ( kk\n+ 5 ) = 6 m where , km ∈′ M1\nNote: Do not award M1 for statements such as “let n = k ”.\nconsider P( k+ 1) :\n( k 1)( ( k 1) 2 5 ) M1 + + +\n2 = ( k + 1) ( k + 2 k + 6 )\n3 2\n= k + 3 k + 8 k + 6 (A1)\n3 2 = ( k + 5 k ) + ( 3 k + 3 k + 6 ) A1\n2 = kk ( + 5 ) + 3( kk + 1) + 6 A1\nkk+ ( 1) is even hence all three terms are divisible by 6 R1\nP( k+ 1) is true whenever P() k is true and P(1) is true, so P() n is true for n ∈′ + R1\nNote: To obtain the final R1, four of the previous marks must have been awarded.\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\nUse mathematical induction to prove that $n(n^2 + 5)$ is divisible by 6 for $n \\in \\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2016-M-P1-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\n3 − 1 3 + 1 ð π 6 − 2 π . Given that =\nConsider the equation + = 42 , 0 < x <\nsin12\nsin x cos x 2 4\nð π 6 + 2 =\nand cos12\n4\nverify that x=ϖ\n(a) is a solution to the equation; [3]\n12\nϖ .\n(b) hence find the other solution to the equation for 0 < x < [5]\n2",
+   "ms_text": "9. (a) EITHER\n3 − 1 3 + 1\nLHS M1 = +\n6 − 2 6 + 2\n4 4\n3 − 1 3 + 1\n= + A1\n3 − 1 3 + 1\n22 22\n= 22 + 22 A1\nπ\nLHS = 42 ⇒ x = is a solution AG\n12\nOR\n3 − 1 3 + 1\nLHS = + M1\n6 − 2 6 + 2\n4 4\n6 + 2 6 − 2\n( 3 1 ) ( 3 1 ) − + +\n4 4\n= A1\n6 − 2 6 + 2\n4 4\n= 218 − 22 (or equivalent) A1\nπ\nLHS = 42 ⇒ x = is a solution AG\n12\n[3 marks]\nπ π\nsin cos\n2 3 − 1 3 + 1 12 12\n(b) + = 2 ⇒ + = 2 M1\n4 sin x cos x sin x cos x\nπ π\nsin cos x + cos sin x\n12 12\n= 2 M1\nsincos x x\nπ π\nsin cos x + cos sin x = 2sin x cos x\n12 12\nπ\nsin + x = sin 2 x A1\n12\nπ π\n+ x = π − 2 x or π − + x = 2 x (M1)\n12 12\n11π\nx= A1\n36\n[5 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.8",
+    "3.6",
+    "3.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nConsider the equation $\\frac{\\sqrt{3}-1}{\\sin x} + \\frac{\\sqrt{3}+1}{\\cos x} = 4\\sqrt{2}$, $0 < x < \\frac{\\pi}{2}$. Given that $\\sin\\left(\\frac{\\pi}{12}\\right) = \\frac{\\sqrt{6}-\\sqrt{2}}{4}$ and $\\cos\\left(\\frac{\\pi}{12}\\right) = \\frac{\\sqrt{6}+\\sqrt{2}}{4}$\n(a) verify that $x = \\frac{\\pi}{12}$ is a solution to the equation; [3]\n(b) hence find the other solution to the equation for $0 < x < \\frac{\\pi}{2}$. [5]"
+  },
+  {
+   "id": "math-2016-M-P1-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 18]\n- 2 y - q\nA line L has equation x = = - z\n1 where p , q∈ϒ .\np 2\nA plane Π has equation x + y + 3z = 9 .\n(a) Show that L is not perpendicular to Π . [3]\n(b) Given that L lies in the plane Π , find the value of p and the value of q . [4]\nConsider the different case where the acute angle between L and Π is θ\n1\nwhere θ= arcsin .\n11\n(c) (i) Show that p =-2 .\n(ii) If L intersects Π at z =-1 , find the value of q . [11]",
+   "ms_text": "10. (a) EITHER\n1 p\nn = 1 and d = 2 A1A1\n3 1\nand n ≠ k d R1\nOR\n− 5\nn × d = 3 p − 1 M1A1\n2 − p\nthe vector product is non-zero for p∈ϒ R1\nTHEN\nL is not perpendicular to Π AG\n[3 marks]\n(b) METHOD 1\n(2 + p λ ) + ( q + 2) λ + 3(1 + λ ) = 9 M1\n( q + 5) + ( p + 5) λ = 9 (A1)\np=− 5 and q= 4 A1A1\nMETHOD 2\ndirection vector of line is perpendicular to plane, so\np 1\n2 ⋅ 1 = 0 M1\n1 3\np=− 5 A1\n(2, q , 1) is common to both L and Π\n2 1\neither q ⋅ 1 = 9 or by substituting into x + y + 3 z = 9 M1\n1 3\nq= 4 A1\n[4 marks]\n(c) (i) METHOD 1\nαis the acute angle between n and L\n1 1\nif sin θ= then cos α= (M1)(A1)\n11 11\n⋅ ⋅ =nd =nd\nattempting to use cosα or sinθ M1\nnd nd\np + 5 1\n= A1A1\n11 p 2 5 11 × +\n2 2 ( p\n+ 5) = p + 5 M1\n10 p=− 20 (or equivalent) A1\np=− 2 AG\nMETHOD 2\nαis the angle between n and L\n1 10\nsin θ= if then sin α= (M1)A1\n11 11\n× d =n\nattempting to use sinα M1\nnd\n2 2 2 (5)\n− + (3 p − 1) + (2 − p ) 10\n= A1A1\n11 p 2 5 11 × +\n2 2 p\n− p + 3 = p + 5 M1\n− p + 3 = 5 (or equivalent) A1\np=− 2 AG\nx − 2 y − q\n(ii) p =− 2 and z =−⇒ 1 = =− 2 (A1)\n− 2 2\nx= 6 and y = q − 4 (A1)\nthis satisfies Π so 6 + q − 4 − 3 = 9 M1\nq= 10 A1\n[11 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.14",
+    "3.13",
+    "3.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 18]\nA line $L$ has equation $\\frac{x-2}{p} = \\frac{y-q}{2} = z - 1$ where $p, q \\in \\mathbb{R}$.\nA plane $\\Pi$ has equation $x + y + 3z = 9$.\n(a) Show that $L$ is not perpendicular to $\\Pi$. [3]\n(b) Given that $L$ lies in the plane $\\Pi$, find the value of $p$ and the value of $q$. [4]\nConsider the different case where the acute angle between $L$ and $\\Pi$ is $\\theta$ where $\\theta = \\arcsin\\left(\\frac{1}{\\sqrt{11}}\\right)$.\n(c) (i) Show that $p = -2$.\n(ii) If $L$ intersects $\\Pi$ at $z = -1$, find the value of $q$. [11]"
+  },
+  {
+   "id": "math-2016-M-P1-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 19]\nThe following graph shows the relation x = 3 cos 2y + 4,0 ≤ y ≤π .\ny\nπ\nx\n0 −7 7\nThe curve is rotated 360û about the y-axis to form a volume of revolution.\n(a) Calculate the value of the volume generated. [8]\nA container with this shape is made with a solid base of diameter 14 cm . The container is\nfilled with water at a rate of 2 cm3 min-1. At time t minutes, the water depth is h cm ,0 ≤ h ≤ π\nand the volume of water in the container is V cm3 .\nV h Given that d , find an expression for d\n(b) (i) π 3 cos 2 h 42 ) .\nd h d t\nh Find the value of d π.\n(ii) when h = [4]\nd t 4\n2h\nFind d\n(c) (i)\nt2. d\n2h Find the values of h for which d\n(ii) = 0 .\nd t2\nh By making specific reference to the shape of the container, interpret d\n(iii) at the\nd t\nvalues of h found in part (c)(ii). [7]",
+   "ms_text": "b\n11. (a) use of π x 2 d y (M1) ∫\na\nNote: Condone any or missing limits.\nπ\n2\nV π 3cos2 y 4 d y (A1) = ∫ ( + )\n0\nπ\n( 2 ) A1 = π ∫ 9cos2 y + 24cos 2 y + 16d y\n0\n9 2\n9 cos2 y = (1 + cos 4) y (M1)\n2\nπ\n9 y 9\n= π + sin 4 y + 12sin 2 y + 16 y M1A1\n2 8\n0\n9π\n= π + 16π (A1)\n2\n2\n41π\n= 3 ( cm ) A1\n2\nNote: If the coefficient “ π ” is absent, or eg, “ 2π ” is used, only M marks are available.\n[8 marks]\nh d V d h V attempting to use d with d\n(b) (i) = × 2 M1\nt=\nd t d t d V d\nd h 2\n= A1\n2 d t π(3cos2 h\n+ 4)\nπ h into d\n(ii) substituting h= (M1)\n4 d t\nd h 1\n(cm min-1) A1\nt= d 8π\nNote: Do not allow FT marks for (b)(ii).\n[4 marks]\n2 d h d d h d h d d h\n(c) (i) = = × (M1)\nd t 2 d t d t d t d h d t\n2 24sin 2 h\nM1A1 = ×\n2 3 π(3cos2 h\n+ 4) π(3cos2 h + 4)\nd h\nNote: Award M1 for attempting to find d\n.\nd h d t\n48sin 2 h\n= A1\n2 5 π(3cos2 h\n+ 4)\nπ\n(ii) sin 2 h = 0 ⇒ h = 0, ,π A1\n2\n2 π d h\nNote: Award A1 for sin 2 h = 0 ⇒ h = 0, ,π from an incorrect .\n2 2 d t\n(iii) METHOD 1\nd h\nis a minimum at h= 0,π and the container is widest at these values\nd t\nR1\nd h π\nis a maximum at h= and the container is narrowest at this value\nd t 2\nR1\n[7 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.17",
+    "5.14",
+    "5.6",
+    "3.6",
+    "5.10",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 19]\nThe following graph shows the relation $x = 3\\cos 2y + 4$, $0 \\leq y \\leq \\pi$.\n[Graph: curve from (7, 0) curving in to x = 1 at y = π/2 and back out to (7, π); x-axis marked −7, 0, 7; y-axis marked π]\nThe curve is rotated $360^\\circ$ about the $y$-axis to form a volume of revolution.\n(a) Calculate the value of the volume generated. [8]\nA container with this shape is made with a solid base of diameter 14 cm. The container is filled with water at a rate of $2\\text{ cm}^3\\text{ min}^{-1}$. At time $t$ minutes, the water depth is $h$ cm, $0 \\leq h \\leq \\pi$ and the volume of water in the container is $V\\text{ cm}^3$.\n(b) (i) Given that $\\frac{dV}{dh} = \\pi(3\\cos 2h + 4)^2$, find an expression for $\\frac{dh}{dt}$.\n(ii) Find the value of $\\frac{dh}{dt}$ when $h = \\frac{\\pi}{4}$. [4]\n(c) (i) Find $\\frac{d^2h}{dt^2}$.\n(ii) Find the values of $h$ for which $\\frac{d^2h}{dt^2} = 0$.\n(iii) By making specific reference to the shape of the container, interpret $\\frac{dh}{dt}$ at the values of $h$ found in part (c)(ii). [7]"
+  },
+  {
+   "id": "math-2016-M-P1-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 23,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 23]\n2 π 2 π .\nLet w= cos + i sin\n7 7\n(a) Verify that w is a root of the equation z7- 1 = 0 , z ∈≤. [3]\nExpand (w - 1)(1 +w+w2+w3+w4+w5+w6). (b) (i)\n(ii) Hence deduce that 1 +w+w2+w3+w4+w5+w6= 0 . [3]\n(c) Write down the roots of the equation z7- 1 = 0 , z ∈≤ in terms of w and plot these\nroots on an Argand diagram. [3]\nConsider the quadratic equation z2+ bz + c = 0 whereb , c ∈ ϒ , z ∈≤ . The roots of this\nequation are α and α* where α* is the complex conjugate of α .\n(d) (i) Given that α=w +w2+w4,show that α*=w6+w5+w3.\n(ii) Find the value of b and the value of c . [10]\n(e) Using the values for b and c obtained in part (d)(ii), find the imaginary part of α ,\ngiving your answer in surd form. [4]",
+   "ms_text": "12. (a) EITHER\n7\n2π 2π 7\nw = cos + isin (M1)\n7 7\n= cos2π + isin 2π A1\n= 1 A1\nso w is a root AG\nOR\n7 z\n= 1 = cos(2π) k + i sin(2π) k (M1)\n2π k 2π k\nz = cos + i sin A1\n7 7\n2π 2π\nk = 1 ⇒ z = cos + i sin A1\n7 7\nso w is a root AG\n[3 marks]\n( 2 3 4 5 6 ) (b) (i) ( w − 1)1 + w + w + w + w + w + w\n2 3 4 5 6 7 2 3 4 5 6\n= w + w + w + w + w + w + w − 1 − w − w − w − w − w − w M1\n7\n= w − 1 ( = 0) A1\n7 (ii) w− 1\n= 0 and w − 1 ≠ 0 R1\n2 3 4 5 6\nso 1 + w + w + w + w + w + w = 0 AG\n[3 marks]\n2 3 4 5 6\n(c) the roots are 1, ww , , w , w , w and w A1\n7 points equidistant from the origin A1\n2 3 4 5 6 approximately correct angular positions for 1, ww , , w , w , w and w A1\nNote: Condone use of cis notation for the final two A marks.\nNote: For the final A mark there should be one root in the first quadrant, two in the\nsecond, two in the third, one in the fourth, and one on the real axis.\n[3 marks]\n* 2 4 ∗ (d) (i)\nα = ( w + w + w )\n∗ 2 ∗ 4 ∗ = w + ( w ) + ( w ) A1\n6 2 5 4 3\nsince w ∗= w , ( w ) ∗= w and ( w ) ∗= w R1\n⇒ * 6 5 3 α = w + w + w AG\n* (ii) b\n= − ( α + α ) (using sum of roots (or otherwise)) (M1)\n2 3 4 5 6 b\n=− ( w + w + w + w + w + w ) (A1)\n=−− (1)\n1 A1 =\n* c\n= αα (using product of roots (or otherwise)) (M1)\n2 4 6 5 3 c\n= ( w + w + w )( w + w + w )\nEITHER\n10 9 8 7 6 5 4\n= w + w + w + 3 w + w + w + w A1\n6 5 4 3 2\n= ( w + w + w + w + w + w ) + 3 M1\n= 3 − 1 (A1)\nOR\n10 9 8 7 6 5 4 4 3 3 2\n= w + w + w + 3 w + w + w + w ( = w ( 1 + w + w )( w + w + 1 ) ) A1\n4 6 5 4 2 3\n= w ( w + w + w + w + w + 1 + 3 w ) M1\n4 6 5 4 3 2 3\n= w ( w + w + w + w + w + w + 1 + 2 w )\n4 3\n= w ( 2 w ) (A1)\nTHEN\n= 2 A1\n[10 marks]\n1 i7 2 −±\n(e) z + z + 2 = 0 ⇒ z = M1A1\n2\n2 4 Im ( w\n+ w + w ) > 0 R1\n7\nIm α= A1\n2\nNote: Final A mark is independent of previous R mark.\n[4 marks]\nTotal [23 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "2.12",
+    "1.13",
+    "1.12",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 23]\nLet $w = \\cos\\frac{2\\pi}{7} + i\\sin\\frac{2\\pi}{7}$.\n(a) Verify that $w$ is a root of the equation $z^7 - 1 = 0$, $z \\in \\mathbb{C}$. [3]\n(b) (i) Expand $(w-1)(1 + w + w^2 + w^3 + w^4 + w^5 + w^6)$.\n(ii) Hence deduce that $1 + w + w^2 + w^3 + w^4 + w^5 + w^6 = 0$. [3]\n(c) Write down the roots of the equation $z^7 - 1 = 0$, $z \\in \\mathbb{C}$ in terms of $w$ and plot these roots on an Argand diagram. [3]\nConsider the quadratic equation $z^2 + bz + c = 0$ where $b, c \\in \\mathbb{R}$, $z \\in \\mathbb{C}$. The roots of this equation are $\\alpha$ and $\\alpha^*$ where $\\alpha^*$ is the complex conjugate of $\\alpha$.\n(d) (i) Given that $\\alpha = w + w^2 + w^4$, show that $\\alpha^* = w^6 + w^5 + w^3$.\n(ii) Find the value of $b$ and the value of $c$. [10]\n(e) Using the values for $b$ and $c$ obtained in part (d)(ii), find the imaginary part of $\\alpha$, giving your answer in surd form. [4]"
+  }
+ ],
+ "status": "done"
+}

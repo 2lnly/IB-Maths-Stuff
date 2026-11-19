@@ -1,0 +1,123 @@
+{
+ "exam_id": "math-1997-M-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "4",
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.8",
+    "4.12",
+    "4.L10",
+    "5.17",
+    "5.11",
+    "3.6"
+   ],
+   "note": "(ii) is hypergeometric E/Var (no dedicated code; tagged 4.7/4.14). | audit: (ii) hypergeometric E/Var -> new 4.L10 (replaces stand-in 4.7/4.14)",
+   "text_clean": "1. [Maximum mark: 17]\n(i) (a) Draw a diagram showing the region $R$ bounded by the curve $y=\\sin x$, the $x$-axis and the lines $x=0$ and $x=k$, $0<k<\\pi$. [1 mark]\n(b) Calculate the area of the region $R$. [2 marks]\n(c) Calculate the volume of the solid obtained by rotating the region $R$ through $360^\\circ$ about the $x$-axis. [4 marks]\n(ii) An accounting firm randomly selects three employees from ten applicants to attend a convention. Six of the applicants are men and four of them are women. Assume $X$ is the number of women selected and that each selection is independent of the others. Find the expected value, $E(X)$, and the variance, $\\mathrm{Var}(X)$. [4 marks]\n(iii) On average, 10% of light bulbs manufactured by a company are defective. Use the normal approximation to the binomial distribution to determine the probability that more than 12% of a random sample of 200 bulbs are defective. [6 marks]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.3",
+    "1.2",
+    "1.8",
+    "2.7"
+   ],
+   "text_clean": "2. [Maximum mark: 18]\n(i) A rubber ball is dropped from a height of 81 metres. Each time it strikes the ground it rebounds two thirds of the distance through which it has fallen.\n(a) Find the maximum height of the ball between the fifth bounce and the sixth bounce. [3 marks]\n(b) What is the total distance travelled by the ball from when it is dropped to the time it strikes the ground for the sixth time? [4 marks]\n(c) Assume that the ball continues to bounce indefinitely. What is the total distance travelled by the ball? [3 marks]\n(ii) The sum of the first three numbers in an arithmetic sequence is 24. If the first number is decreased by 1 and the second number is decreased by 2, then the third number and the two new numbers are in geometric sequence. Find all possible sets of three numbers which are in the arithmetic sequence. [8 marks]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.14",
+    "3.18",
+    "3.15",
+    "3.17",
+    "3.12"
+   ],
+   "text_clean": "3. [Maximum mark: 20]\n(a) The line $L_1$ is parallel to the vector $\\vec{v}=3\\vec{i}+\\vec{j}+3\\vec{k}$ and passes through the point $(2,3,7)$. Find a vector equation of the line. [3 marks]\n(b) The equation of a plane, $E$, is given by $2x+3y-4z+21=0$. Find the point of intersection of the line $L_1$ and the plane $E$. [3 marks]\n(c) Find the equation of a plane which passes through the point $(1,2,3)$ and is parallel to the plane $E$. [3 marks]\n(d) The parametric equations of another line $L_2$ are $x=t$, $y=t$, and $z=-t$, $-\\infty<t<\\infty$. Show that\n(i) $L_1$ is not parallel to $L_2$;\n(ii) $L_1$ does not intersect $L_2$. [4 marks]\n(e) Let $O$ be the origin and $P$ be the point $(-1,2,4)$.\n(i) Find a vector $\\vec{w}$ which is parallel to the line $L_2$.\n(ii) Find the vector $\\overrightarrow{PO}$.\n(iii) Find the shortest distance $d$ between the lines $L_1$ and $L_2$ by using the formula $d=\\left|\\dfrac{\\overrightarrow{PO}\\cdot(\\vec{v}\\times\\vec{w})}{|\\vec{v}\\times\\vec{w}|}\\right|$. [7 marks]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "1",
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "1.15",
+    "1.L1",
+    "1.11",
+    "5.7",
+    "5.6",
+    "5.2",
+    "2.13"
+   ],
+   "text_clean": "4. [Maximum mark: 25]\n(i) Let $A=\\begin{pmatrix}2&-1\\\\1&0\\end{pmatrix}$.\n(a) Calculate $A^2$ and $A^3$. [2 marks]\n(b) Conjecture a matrix for $A^n$, $n\\in\\mathbb{N}^*$, in terms of $n$. [3 marks]\n(c) Use mathematical induction to prove your conjecture in part (b). [5 marks]\n(ii) The diagram shows the graph of the function $y=f(x)$, where $f(x)=\\dfrac{ax+b}{cx^2+dx+e}$ with $f\\left(-\\frac{5}{2}\\right)=0$, $f(0)=\\frac{5}{4}$. The lines $x=-4$, $x=-1$ and the $x$-axis are all asymptotes.\n[Graph: rational function with vertical asymptotes $x=-4$ and $x=-1$, horizontal asymptote the $x$-axis; crosses the $x$-axis at $(-\\frac{5}{2},0)$ and the $y$-axis at $(0,\\frac{5}{4})$; decreasing on each branch]\n(a) Using the information given, find the values of $a$, $b$, $c$, $d$ and $e$. [4 marks]\n(b) Find the intervals for which $f'(x)<0$. [3 marks]\n(c) Using the values of $a$, $b$, $c$, $d$ and $e$ found in part (a), express $f(x)$ in partial fractions. [3 marks]\n(d) Prove that $\\left(-\\frac{5}{2},0\\right)$ is a point of inflexion. [3 marks]\n(e) Find the intervals for which $f''(x)>0$. [2 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.4",
+    "7.6",
+    "7.8"
+   ],
+   "text_clean": "5. [Maximum mark: 40]\n(i) Let $\\mathbb{R}^*$ be the set of real numbers excluding 0. A binary operation $\\#$ on $\\mathbb{R}^*$ is defined by $a\\#b=b|a|$, where $|a|$ is the absolute value of $a$.\n(a) Is the set $\\mathbb{R}^*$ closed under this binary operation? Justify your answer. [2 marks]\n(b) Prove that $\\#$ is an associative binary operation on $\\mathbb{R}^*$. [2 marks]\n(c) Find all numbers $k$ in $\\mathbb{R}^*$ so that $k\\#a=a$. [2 marks]\n(d) Let $a\\in\\mathbb{R}^*$. Corresponding to each $k$ obtained in part (c), find all numbers $m\\in\\mathbb{R}^*$ so that $a\\#m=k$. [2 marks]\n(e) Does $(\\mathbb{R}^*,\\#)$ form a group? Justify your answer. [2 marks]\n(f) Consider $(S,\\#)$ where $S=\\{x\\in\\mathbb{R}\\mid x<0\\}$ and $\\#$ is the binary operation defined above. Prove that $(S,\\#)$ is a group. [3 marks]\n(ii) Let $(G,\\bullet)$ be a group.\n(a) Let $a,b,c$ be elements of $G$. Prove that if $a\\bullet b=a\\bullet c$, then $b=c$. [4 marks]\n(b) Prove that the group $(G,\\bullet)$ has exactly one identity. [3 marks]\n(c) Prove that each element of the group $(G,\\bullet)$ has exactly one inverse. [3 marks]\n(iii) (a) Define a cyclic group and the term 'generator' of a cyclic group. [4 marks]\n(b) Let $H$ be the set $\\{a,b,c,d\\}$ and let $*$ be the binary operation on $H$ as given below.\n* | a b c d\na | a b c d\nb | b c d a\nc | c d a b\nd | d a b c\nAssuming associativity of the binary operation $*$ on $H$, prove that $(H,*)$ is a cyclic group. [5 marks]\n(c) Find the two generators of $(H,*)$. [2 marks]\n(d) Find all proper subgroups of $(H,*)$. [3 marks]\n(e) Can the group $(H,*)$ have a subgroup of order 3? Give a reason for your answer. [3 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.11",
+    "6.7",
+    "6.8"
+   ],
+   "text_clean": "6. [Maximum mark: 40]\n(i) Consider the following graph.\n[Diagram: multigraph with vertices $v_1,v_2,v_3,v_4$; edges $e_2,e_3$ both join $v_1$ and $v_2$; $e_4$ is a loop at $v_2$; $e_1$ joins $v_1$ and $v_3$; $e_5$ joins $v_2$ and $v_3$; $e_6$ is a loop at $v_3$; $e_7$ joins $v_3$ and $v_4$]\n(a) Write down the adjacency matrix of the graph above. [3 marks]\n(b) Write down the incidence matrix of the graph above. [3 marks]\n(c) How many ways are there to go from $v_1$ to $v_2$ traversing exactly four edges, not necessarily distinct? (Example: $v_1,e_1,v_3,e_6,v_3,e_1,v_1,e_3,v_2$) [4 marks]\n(d) What is an Eulerian circuit? Does the above graph contain an Eulerian circuit? Justify your answer. [3 marks]\n(e) What is a Hamiltonian circuit? Does the above graph contain a Hamiltonian circuit? Justify your answer. [3 marks]\n(ii) In the graph below, the vertices represent towns in a mountainous region, and the numbers on the edges represent the costs (in hundreds of thousands of dollars) of building roads between the towns. Where there is no edge connecting two vertices, a road connecting those two towns was judged not feasible.\n[Diagram: weighted graph with vertices A, B, C, D, E, F, G, H; edges AB 4, AG 9, AH 3, HB 1, BC 5, HC 2, HD 2, CD 6, HF 7, GF 8, FE 2, ED 4]\nBy using Prim's algorithm for obtaining a minimal spanning tree, draw a graph which represents the least expensive road network for the region starting from the town A. The network should be such that it is possible to travel between any two towns of the region, possibly passing through other towns on the way, using the roads of the network. [8 marks]\n(iii) (a) Prove that the sum of the degrees of vertices of a simple graph is equal to twice the number of its edges. [3 marks]\n(b) Let each set of natural numbers $\\{3,3,2,2,2,2,2,2,1\\}$ and $\\{2,2,2,2,1,1\\}$ represent the degrees of the vertices of a graph. Either draw a simple graph for each given degree sequence or explain why such a graph is not possible. (Note: A simple graph is a graph with no loops or multiple edges) [4 marks]\n(iv) (a) Define an isomorphism between two graphs. [3 marks]\n(b) Prove that if two graphs are isomorphic and one of them has a cycle of length $k$ then the other graph must have a cycle of length $k$. [3 marks]\n(c) Determine whether the following two graphs are isomorphic. Give a reason for your answer. [3 marks]\n[Diagram: two 8-vertex 3-regular graphs. G: outer rectangle and inner rectangle with each inner corner joined to the corresponding outer corner. G': outer rectangle with inner vertices on left and right sides joined crosswise (an X between the inner vertices)]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L7",
+    "4.L6",
+    "4.L1"
+   ],
+   "text_clean": "7. [Maximum mark: 40]\n(i) On a weekday morning a certain telephone switchboard receives an average of twenty five calls during a five minute period. Find the probabilities that\n(a) the switchboard will receive at least one telephone call between 10.31 and 10.32 next Thursday morning; [3 marks]\n(b) the switchboard will receive either two or three telephone calls between 10.31 and 10.32 next Thursday morning. [3 marks]\n(ii) A mathematics course is taught by three instructors, $X$, $Y$ and $Z$. The table below gives the numbers of students failed by each instructor.\nNumbers of students\n| X | Y | Z | Total\nPassed | 50 | 47 | 56 | 153\nFailed | 5 | 14 | 8 | 27\nTotal | 55 | 61 | 64 | 180\nThe headteacher claims that the proportions of students failed by the three instructors are the same. Test this claim carefully and give your conclusions for significance levels of both 10% and 5%. [14 marks]\n(iii) A certain company uses a machine to produce washers of thickness 0.50 mm. To determine whether the machine is in proper working order, a random sample of 10 washers is chosen which has a mean thickness of 0.53 mm and a standard deviation of 0.03 mm.\nTest the claim of the machine supervisor that the machine is in proper working order, using a significance level of 5%. [10 marks]\n(iv) A sample poll of 100 voters chosen at random from all voters in a given district showed that 55% of them were in favour of a particular candidate.\n(a) Find 95% confidence limits for the proportion of voters in favour of the candidate.\n(b) How large a sample of voters should be taken in order to be 95% confident that the candidate will be elected if 55% of the sample are in favour of the candidate? [10 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L5",
+    "5.L6",
+    "5.L4"
+   ],
+   "text_clean": "8. [Maximum mark: 40]\n(i) (a) Estimate the value of $\\int_0^1 e^{x^2}\\,dx$ by using the trapezium rule with 4 equal sub-intervals. [4 marks]\n(b) What is the maximum error of your estimate? [4 marks]\n(ii) Giving appropriate reasons, determine whether the following series converge or diverge. (Include the name of the test used to arrive at each answer.)\n(a) $\\sum_{k=1}^{\\infty} k\\left(\\frac{1}{2}\\right)^k$ [4 marks]\n(b) $\\sum_{k=2}^{\\infty} \\frac{10}{k\\ln k}$ [4 marks]\n(c) $\\sum_{k=1}^{\\infty} (-1)^k\\frac{k}{k^2+1}$ [4 marks]\n(iii) (a) Let $\\sum_{k=1}^{\\infty} a_k$ be a series of non-negative terms and suppose that $f(x)$ is a continuous monotonic decreasing function for $x\\ge 1$ such that $f(k)=a_k$ for all $k\\in\\mathbb{N}^*$. Let $S_n$ denote the partial sum $\\sum_{k=1}^{n} a_k$ for $n\\in\\mathbb{N}^*$.\nDeduce, with the aid of the diagram below, that $a_2+a_3+\\dots+a_n\\le\\int_1^n f(x)\\,dx\\le a_1+a_2+\\dots+a_{n-1}$. [4 marks]\n[Diagram: decreasing curve $f(x)$ with rectangles of heights $a_1,a_2,a_3,a_4,a_5,\\dots$ at $x=1,2,3,4,5,\\dots,n$]\n(b) Deduce further that $\\int_1^n f(x)\\,dx\\le S_n\\le\\int_1^n f(x)\\,dx+a_1$.\nUse this to show that the sum of the first ten thousand terms of the series $\\sum_{k=1}^{\\infty}\\frac{1}{k}$ is between 9.21 and 10.21. [8 marks]\n(iv) Suppose that $f(x)$ is continuous on the interval $3\\le x\\le 7$ and differentiable on the interval $3<x<7$. Suppose further that $f(3)=-16$ and $|f'(x)|\\le 4$ for $3<x<7$.\nUse the mean value theorem to find bounds for $f(x)$ on the interval $3\\le x\\le 7$. [8 marks]",
+   "answer_status": "ok"
+  }
+ }
+}

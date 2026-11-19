@@ -1,0 +1,109 @@
+{
+ "exam_id": "math-2019-N-P3-calculus",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2019,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Calculus",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2019 November Examination Session/Mathematics_paper_3_Calculus__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2019 November Examination Session/Mathematics_paper_3_Calculus__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8819-7208; code N19/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches paper total 50",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2019-N-P3-calculus-q1",
+   "num": "1",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 7]\nx − 3\n< , x 3\nThe function f is defined by fx () = x − 5 .\n( ) ln x − 2 , x ≥ 3\nShow that f is continuous at x =3.\b (a) [3]\n(b) Show that f is not differentiable at x =3.\b [4]",
+   "ms_text": "1. (a) attempt to substitute x= 3 in both parts of f (M1)\n3 − 3\nlim fx () = = 0 A1\nx → 3 − 3 − 5\n( ( ) ) lim fx () = ln3 − 2 = 0 A1\n+ x → 3\n(since lim fx () = 0 = lim fx () ), f is continuous at x= 3 AG\n− + x → 3 x → 3\n[3 marks]\n(b) METHOD 1\n− 2\n′ = for x < 3, f () x M1\n2\n( x − 5 )\n1\n⇒ lim f ′ () x = − (or equivalent) A1\n− x → 3 2\n1\nNote: Award A0 for f ′ () 3 = − .\n2\n1\n′ for x >3, f () x = M1\nx − 2\nNote: Condone x ≥ 3 .\n⇒ lim f ′ () x = (or equivalent) 1 A1\nx → 3 +\nf ′ () =. Note: Award A0 for 3 1\n1\n(since − ≠ 1 ), f is not differentiable at x=3 AG\n2\nMETHOD 2\nf (3 + h ) − f (3)\nlim M1\nh → 0 − h\nh\n− 0\n1 h − 2\n= lim = lim\n− − h → 0 h h → 0 h − 2\n1\n= − A1\n2\nf (3 + h ) − f (3)\nlim M1\n+ h → 0 h\nln(1 + h ) 1\n= lim = (by L’Hôpital)\nlim 1\nh → 0 + h → 0 + + h h\n= 1 A1\n1\n(since − ≠ 1 ), f is not differentiable at x= 3 AG\n2\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.12",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 7]\nThe function $f$ is defined by $f(x)=\\begin{cases}\\dfrac{x-3}{x-5}, & x<3\\\\ \\ln(x-2), & x\\ge 3\\end{cases}$.\n(a) Show that $f$ is continuous at $x=3$. [3]\n(b) Show that $f$ is not differentiable at $x=3$. [4]"
+  },
+  {
+   "id": "math-2019-N-P3-calculus-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\nDetermine whether each of the following infinite series converges or diverges.\n∞ n 3\n∑ (a) \b [4]\n2 2 n + 5\nn = 1\n∞ ( 2 n ) !\n∑ (b) \b [6]\nn 2\n3 () n ! n = 1",
+   "ms_text": "2. (a) METHOD 1\nattempt to use limit comparison test and choosing an appropriate nb M1\n3 n 1\nlet a = and nb =\nn 2\n2 n + 5 n\n3 n\na 2\nn 2 n + 5 lim = lim (A1)\nn →∞ b n →∞ 1\nn\nn\n3\n= lim\n5 n →∞\n2 +\n2 n\n3 ( = > 0)\nA1\n2\n∞ ∞ 1 3 n\nsince =∑ diverges, ∑ also diverges (by the limit comparison test) R1\n2 n 2 n + 5\nn 1 n = 1\nNOTE: Do not award R1 if candidates omit sigma.\nMETHOD 2\n∞\n3 x\nattempt to find ∫ d x M1\n2 2 x + 5\n1\nR\n3 x\n= lim ∫ d x\n2 R →∞ 2 x + 5\n1\nR\n3\n2 = lim ln(2 x + 5)\nR →∞ 4\n1 A1\nNOTE: Condone use of ∞ as the upper limit.\n3 3 2\n= lim ln(2 R + 5) − ln7\nR →∞ 4 4\n= ∞ (accept limit DNE) A1\n∞\n3 x ∞ 3 n\nsince d x diverges, ∑ also diverges (by the integral test.) R1 ∫\n2 + 2 + 2 x 5\n= 2 n 5 1 n 1\nMETHOD 3\nattempt to use comparison test and choosing an appropriate nb M1\nEITHER\nfor n > 2 A1\n3 n 1\n> A1\n2 2 n + 5 n\nOR\nfor n ≥ 1 (A1)\n3 n 1\n> A1\n2 2 n + 5 3 n\nTHEN\n∞ ∞ 1 3 n\n∑ since =∑ diverges, also diverges (by the comparison test.) R1\n2 n 2 n + 5\nn 1 n = 1\nNote: In both cases accept valid alternative inequalities.\nDo not award R1 if candidates omit sigma.\n[4 marks]\n(b) attempt to use ratio test\n+ n 2 a (2 n 2)! 3(!) n\nn + 1 = × (M1)\nn + 1 2 a 3 ( ( n + 1)! ) (2)! n\nn\nattempt to simplify factorials (M1)\n2 a (2 n + 2)(2 n + 1) 4 n + 6 n + 2\nn + 1 = = A1\n2 2 a 3( n + 1) 3 n + 6 n + 3\nn\n2 1\n2 + 2 +\na n n\nn + 1 lim = lim (M1)\n2 n →∞\na n →∞ 1\nn 31 +\nn\n4\n= A1\n3\n∞ (2)! n\nsince 4 1 diverges (by the ratio test)\n=∑ R1 3>, n 2\n3(!) n n 1\nNote: Award R1 for correct reasoning consistent with their limit.\n[6 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\nDetermine whether each of the following infinite series converges or diverges.\n(a) $\\sum_{n=1}^{\\infty}\\dfrac{3n}{2n^2+5}$ [4]\n(b) $\\sum_{n=1}^{\\infty}\\dfrac{(2n)!}{3^n(n!)^2}$ [6]"
+  },
+  {
+   "id": "math-2019-N-P3-calculus-q3",
+   "num": "3",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 11]\n1 1\nThe function f is defined by f (x) = arcsin (2x) , where − ≤ x ≤ .\n2 2\n(a) By finding a suitable number of derivatives of f , find the first two non-zero terms in the\nMaclaurin series for f .\b [8]\n2 x ) − 2 x\nHence or otherwise, find lim arcsin ( (b) .\b [3]\nx → 0 ( 2 x ) 3",
+   "ms_text": "3. (a) fx () = arcsin(2) x\n2\nf ′ () x = M1A1\n2 1 − 4 x\n1\n′ Note: Award M1A0 for f () x = .\n1 − 4 2 x\n8 x\nf ′′ () x = A1\n3\n( 1 − 4 x 2 ) 2\nEITHER\n3 1 3\n( 2 ) 2 )( 2 ) 2 3 1 814 − x − 8 x ( − 8 x 14 − x\n( 2 ) 2 2 ( 2 ) 2 2 814 − x + 96 x 14 − x\nf ′′′ () x = =\n3 3 2 2\n( 14 − x ) ( 14 − x )\nA1\nOR\n3 5 3 5\n− 3 − − −\n′′′ = ( − 2 ) 2 + − ( − 2 ) 2 − = ( − 2 ) 2 + 2 ( − 2 ) 2 f () x 814 x 8 x 14 x (8) x 814 x 96 x 14 x\n2\nA1\nTHEN\nsubstitute x = 0 into f or any of its derivatives (M1)\nf (0) = 0 , f ′ (0) = 2 and f ′′ (0) = 0 A1\n= f ′′′ (0) 8\nthe Maclaurin series is\n3 3 8 x 4 x\nfx () = 2 x + +…= 2 x + +… (M1)A1\n6 3\n[8 marks]\n(b) METHOD 1\n3 4 x\n2 x + +…− 2 x\narcsin(2) x − 2 x 3\nlim = lim M1\n3 3 x → 0 (2) x x → 0 8 x\n4\n+… terms with x\n3\n= lim (M1)\nx → 0 8\n1\n= A1\n6\nNote: Condone the omission of +… in their working.\nMETHOD 2\narcsin(2) x − 2 x 0\n= lim indeterminate form, using L’Hôpital’s rule\n3 x → 0 (2) x 0\n2\n− 2\n2 14 − x\n= lim M1\n2 x → 0 24 x\n0\n= indeterminate form, using L’Hôpital’s rule again\n0\n8 x\n3\n( 2 ) 2 1 − 4 x 1\n= lim = lim M1\nx → 0 x → 0 3 48 x\n2 61 ( − 4 x ) 2\nNote: Award M1 only if their previous expression is in indeterminate form.\n1\n= A1\n6\nNote: Award FT for use of their derivatives from part (a).\n[3 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.15",
+    "5.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 11]\nThe function $f$ is defined by $f(x)=\\arcsin(2x)$, where $-\\frac{1}{2}\\le x\\le\\frac{1}{2}$.\n(a) By finding a suitable number of derivatives of $f$, find the first two non-zero terms in the Maclaurin series for $f$. [8]\n(b) Hence or otherwise, find $\\lim_{x\\to 0}\\dfrac{\\arcsin(2x)-2x}{(2x)^3}$. [3]"
+  },
+  {
+   "id": "math-2019-N-P3-calculus-q4",
+   "num": "4",
+   "section": null,
+   "marks": 22,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 22]\n2 2 y 4 x + y − xy\nConsider the differential equation d = , with y = 2 when x = 1 .\n2 d x x\n(a) Use Euler’s method, with step length h = 0.1 , to find an approximate value of y\nwhen x = 1.4 .\b [5]\ny\nSketch the isoclines for d (b) [3]\nx= 4 .\b\nd\n(c) (i) Express m2- 2m + 4 in the form (m - a)2+b , where a , b ∈′ .\n(ii) Solve the differential equation, for x > 0 , giving your answer in the form y =f (x) .\n(iii) Sketch the graph of y = f (x) for 1 ≤ x ≤ 1.4 .\n(iv) With reference to the curvature of your sketch in part (c)(iii), and without further\ncalculation, explain whether you conjecture f (1.4) will be less than, equal to,\nor greater than your answer in part (a).\b [14]\n\b",
+   "ms_text": "4. (a)\nx y d y\nd x\n1 2 6 (M1)\n1.1 2.6 7.22 (A1)\n1.2 3.32 8.89652 (A1)\n1.3 4.21 11.26 (A1)\n1.4 5.34 A1\ny (1.4) ≈ 5.34\nNote: Award A1 for each correct y value.\nFor the intermediate y values, accept answers that are accurate to\n2 significant figures.\nThe final y value must be accurate to 3 significant figures or better.\n[5 marks]\n2 + 2 − 4 x y xy\n= (b) attempt to solve 4 (M1)\n2 x\n2 ⇒ y − xy = 0\nyy ( − x ) = 0\n0 y = ory = x\nA1A1\n[3 marks]\n2 2 m − 2 m + 4 = ( m − 1) + 3 ( )\n(c) (i) a = 1, b = 3 A1\n(ii) recognition of homogeneous equation,\nlet y = vx M1\nthe equation can be written as\nd v 2\nv + x = 4 + v − v (A1)\nd x\nd v 2\nx v − 2 v + 4\nx=\nd\n1 1\nd = d x ∫ ∫ M1\n2 4v v − 2 v + x\nNote: Award M1 for attempt to separate the variables.\n1 1\nd v = d x from part (c)(i) M1 ∫ ∫\n2\n( v − 1 ) + 3 x\n1 v − 1 =\narctan ln x ( + c ) A1A1\n3 3\n= = ⇒ = x 1, y 2 v 2\n1 1 =\narctan ln1 + c M1\n3 3\nNote: Award M1 for using initial conditions to find c.\nπ\n⇒ c = ( = 0.302 ) A1\n63\nv − 1 π =\narctan 3ln x +\n3 6\ny\nsubstituting v = M1\nx\nNote: This M1 may be awarded earlier.\nπ\ny = x 3 tan 3ln x + + 1 A1\n6\n(iii)\ncurve drawn over correct domain A1\n(iv) the sketch shows that f is concave up A1\nNote: Accept f ′ is increasing.\nthis means the tangent drawn using Euler’s method will give an\nunderestimate of the real value, so f (1.4) > estimate in part (a) R1\nNote:The R1 is dependent on the A1.\n[14 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15",
+    "5.7",
+    "2.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 22]\nConsider the differential equation $\\dfrac{dy}{dx}=\\dfrac{4x^2+y^2-xy}{x^2}$, with $y=2$ when $x=1$.\n(a) Use Euler's method, with step length $h=0.1$, to find an approximate value of $y$ when $x=1.4$. [5]\n(b) Sketch the isoclines for $\\dfrac{dy}{dx}=4$. [3]\n(c) (i) Express $m^2-2m+4$ in the form $(m-a)^2+b$, where $a,b\\in\\mathbb{Z}$.\n(ii) Solve the differential equation, for $x>0$, giving your answer in the form $y=f(x)$.\n(iii) Sketch the graph of $y=f(x)$ for $1\\le x\\le 1.4$.\n(iv) With reference to the curvature of your sketch in part (c)(iii), and without further calculation, explain whether you conjecture $f(1.4)$ will be less than, equal to, or greater than your answer in part (a). [14]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2020-N-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2020,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2020 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2020 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8820-7209; marks sum matches paper total 50",
+ "qp_pages": 5,
+ "questions": [
+  {
+   "id": "math-2020-N-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 5,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nConsider two subsets, A and B , of a universal set U .\n(a) Draw a Venn diagram to illustrate\n(A ∪ B)′ ; (i)\n(ii) A′ ∪ B′.\b [2]\n(b) Use the laws of set operations to show that A ∩ (A ∩ B)′ = A \\ B .\b [3]",
+   "ms_text": "( A ∪ B )' 1. (a) (i)\nA1\n∪ (ii) A ' B '\nA1\n[2 marks]\n(b) A ∩ ( A ∩ B ) ' = A ∩ ( A ' ∪ B ' ) M1\n= ( A ∩ A ' ) ∪ ( A ∩ B ' ) A1\n= ∅∪ ( A ∩ B )'\n= ( A ∩ B )' A1\n= AB \\ AG\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nConsider two subsets, $A$ and $B$, of a universal set $U$.\n(a) Draw a Venn diagram to illustrate\n(i) $(A \\cup B)'$;\n(ii) $A' \\cup B'$. [2]\n(b) Use the laws of set operations to show that $A \\cap (A \\cap B)' = A \\setminus B$. [3]"
+  },
+  {
+   "id": "math-2020-N-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "[Maximum mark: 10] 2.\nThe relation R is defined on ϒ× ϒ by (a , b) R (c , d ) , if and only if, b − a = d − c .\nProve that R is an equivalence relation.\b (a) [5]\n(b) (i) \u0007Find two elements of ϒ× ϒ in the same equivalence class as (1 , 3) .\n(ii) Describe geometrically the equivalence class containing (1 , 3) .\n(iii) Describe geometrically the equivalence classes of the relation R .\b [5]",
+   "ms_text": "b − a = b − a for all values of a and b, hence ( abRab⇒reflexive , )( , ) 2. (a) R1\nsuppose ( )( ) − = − abRcd, then b , , a d c\nso d − c = b − a , M1\nhence ( cdRab⇒symmetric )( ) , , R1\nsuppose ( abRcdand ( )( ) )( ) , , cdRef , ,\n− = − − = − then b a d c and d c f e M1\nb − a = f − e , hence ( abRef , )( , ) ⇒transitive R1\nsince R is reflexive, symmetric and transitive, it is an equivalence relation. AG\n[5 marks]\n(b) (i) any two elements of the form ( xx + , 2 ) eg ( 2,4,3,5 )( ) A1A1\n(ii) ( xyR , )( 1,3 ) ⇔ y − x = 2 (M1)\nall the points lying on the line y = x + 2 A1\n(iii) straight lines of gradient 1 A1\n[5 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\nThe relation $R$ is defined on $\\mathbb{R} \\times \\mathbb{R}$ by $(a, b) R (c, d)$, if and only if, $b - a = d - c$.\n(a) Prove that $R$ is an equivalence relation. [5]\n(b) (i) Find two elements of $\\mathbb{R} \\times \\mathbb{R}$ in the same equivalence class as $(1, 3)$.\n(ii) Describe geometrically the equivalence class containing $(1, 3)$.\n(iii) Describe geometrically the equivalence classes of the relation $R$. [5]"
+  },
+  {
+   "id": "math-2020-N-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 5,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nThe function g : ϒ× ϒ→ϒ× ϒ is defined by g(x , y) = (x y , x + y) .\n(a) Give an example to demonstrate that g is not injective.\b [2]\n(b) Show that g is not surjective.\b [3]",
+   "ms_text": "eg, ( g 3,2 ) = g ( 2,3 ) ( = ( 6,5 ) ) 3. (a) (M1)A1\nhence g is not injective AG\n[2 marks]\n(b) let xy = a and x + y = b M1\n2 eliminating y gives x − bx + a = 0 A1\n2 no real roots if b − 4 a < 0 R1\nhence g is not surjective AG\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "2"
+   ],
+   "subtopics": [
+    "7.3",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nThe function $g : \\mathbb{R} \\times \\mathbb{R} \\to \\mathbb{R} \\times \\mathbb{R}$ is defined by $g(x, y) = (xy, x + y)$.\n(a) Give an example to demonstrate that $g$ is not injective. [2]\n(b) Show that $g$ is not surjective. [3]"
+  },
+  {
+   "id": "math-2020-N-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 18,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 18]\nThe binary operation * is defined on the set S = ϒ \\ {1} by a * b = a + b − ab , for all a , b ∈ S .\n(a) Find the identity element.\b [2]\n(b) [3] Show that * is associative.\b\n(c) Solve x * x * x * x = − 8.\b [5]\nShow that every element of S has an inverse.\b (d) [2]\n(e) Hence show that {S ,*} is a group.\b [3]\nThe set H ={0 ,2} . {H ,*} is a subgroup of {S ,*} .\n(f) (i) \u0007Find 4 H , the left coset of H with respect to 4.\n(ii) Solve n H = 4 H .\b [3]",
+   "ms_text": "4. (a) let e be the identity element\na + e − ae = a (M1)\ne ( 1 − a ) = 0\ne = 0 ( since a ≠ 1 ) A1\n[2 marks]\n( ) ( ) (b) a ∗ bc ∗ = a ∗ b + c − bc M1\n= ++− − − + a b c bc ab ac abc A1\n( ) ( ) ab ∗ ∗= c a +− b ab ∗ c M1\n= a +− b ab +− c ac − bc + abc\nso ∗ is associative AG\n[3 marks]\n(c) METHOD 1\n2 let y = x ∗ x\nso x ∗∗∗ x x x = y ∗ y = 2 y − y M1\n2 2 y − y = − 8\nA1\ny = 4, y = − 2 A1\nattempt to solve either quadratic M1\n2 x ∗ x = 2 x − x = 4 ⇒no real solutions\n2 x ∗ x = 2 x − x = − 2\n⇒ x =± 1 3 ( = − 0.732,2.73 ) A1\nMETHOD 2\n2 x ∗ x = 2 x − x\nEITHER\nx ∗ x ∗ x = x + ( 2 x − x 2 ) − x ( 2 x − x 2 ) M1\n3 2 = x − 3 x + 3 x A1\nOR\nx ∗ x ∗ x ∗ x = ( x ∗ x )( ∗ x ∗ x ) (M1)\n= ( − 2 )( ∗ − 2 ) 2 x x 2 x x A1\nTHEN\n2 3 4 x ∗ x ∗ x ∗ x = 4 x − 6 x + 4 x − x A1\n2 3 4 attempt to solve 4 x − 6 x + 4 x − x + 8 = 0 (M1)\nx = − 0.732, 2.73 A1\n[5 marks]\n1 (d) a ∗ a− = 0\n− 1 − 1 a + a − aa = 0 M1\na 1\na −= A1\na − 1\n1 hence a−exists for alla ∈ S ( since a ≠ 1 ) AG\n[2 marks]\n(e) a +− b ab ∈ for all ,ab ∈ S R1\n( )( ) assume a + b − ab =⇒ 1 1 − a 1 − b = 0 M1\n⇒ a = 1or b = 1 a contradiction R1\nTherefore ab ∗∈ S ∈ for all ,ab S\nsince { S∗ is closed, has an identity, is associative and every element has an inverse , }\nit is a group AG\n[3 marks]\n(f) (i) { 4,2 − } (M1)A1\n(ii) n = − 2, ( n = 4 ) A1\n[3 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "2"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.5",
+    "7.8",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 18]\nThe binary operation $*$ is defined on the set $S = \\mathbb{R} \\setminus \\{1\\}$ by $a * b = a + b - ab$, for all $a, b \\in S$.\n(a) Find the identity element. [2]\n(b) Show that $*$ is associative. [3]\n(c) Solve $x * x * x * x = -8$. [5]\n(d) Show that every element of $S$ has an inverse. [2]\n(e) Hence show that $\\{S, *\\}$ is a group. [3]\nThe set $H = \\{0, 2\\}$. $\\{H, *\\}$ is a subgroup of $\\{S, *\\}$.\n(f) (i) Find $4H$, the left coset of $H$ with respect to 4.\n(ii) Solve $nH = 4H$. [3]"
+  },
+  {
+   "id": "math-2020-N-P3-sets-relations-and-groups-q5",
+   "num": "5",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 12]\nConsider the square ABCD with vertices at A (−1 , 1) , B (1 , 1), C (1 , −1) and D (−1 , −1)\nas shown in the following diagram.\ny\n2\nA B\n1\nx\n−2 −1 1 2\n−1\nD C\n−2\nThe set of vertices of the square is V={A , B , C , D}. A reflection of the square in the line x=0\ncan be represented by the permutation (AB)(CD) which gives the final position of the vertices.\n(a) Describe the single geometric transformation represented by the permutation\n(i) (ABCD) ;\n(AC) .\b (ii) [4]\n(b) Find the permutation that represents\na rotation of 180° about (0 , 0) ; (i)\n(ii) a reflection in the line y=0 .\b [2]\nThe permutations representing the eight symmetries of the square form a group {G , ο}\nwhere ο is the operation of composition of permutations.\n(c) Find the single permutation that represents (ABCD) ο(AC) .\b [2]\nLet the identity permutation be represented by e .\n(d) Find a cyclic subgroup of G of order 4.\b [2]\n(e) Find a non-cyclic subgroup of G of order 4.\b [2]\n\b",
+   "ms_text": "5. (a) (i) rotation, 90o clockwise about (0,0) A1A1\n(ii) reflection, in the line y = x A1A1\n[4 marks]\n(b) (i) ( AC )( BD ) A1\n( )( ) (ii) AD BC A1\nNote: Accept permutations given in alternative notation.\n[2 marks]\n( )( ) (c) AD BC (M1)A1\n[2 marks]\n(d) { e ,ABCD,ADCB,AC ( )( )( )( BD ) } (M1)A1\n[2 marks]\n(e) EITHER\n{ e ,AC ( )( BD,AC,BD )( )( ) } (M1)A1\nOR\n{ ( )( )( )( )( )( ) } e ,AC BD,AB CD,AD BC (M1)A1\n[2 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.7",
+    "7.6",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 12]\nConsider the square ABCD with vertices at $\\mathrm{A}(-1, 1)$, $\\mathrm{B}(1, 1)$, $\\mathrm{C}(1, -1)$ and $\\mathrm{D}(-1, -1)$ as shown in the following diagram.\n[Diagram: square ABCD on x-y axes from -2 to 2, A top-left, B top-right, C bottom-right, D bottom-left, centred at the origin]\nThe set of vertices of the square is $V = \\{\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}\\}$. A reflection of the square in the line $x = 0$ can be represented by the permutation $(\\mathrm{AB})(\\mathrm{CD})$ which gives the final position of the vertices.\n(a) Describe the single geometric transformation represented by the permutation\n(i) $(\\mathrm{ABCD})$;\n(ii) $(\\mathrm{AC})$. [4]\n(b) Find the permutation that represents\n(i) a rotation of $180^\\circ$ about $(0, 0)$;\n(ii) a reflection in the line $y = 0$. [2]\nThe permutations representing the eight symmetries of the square form a group $\\{G, \\circ\\}$ where $\\circ$ is the operation of composition of permutations.\n(c) Find the single permutation that represents $(\\mathrm{ABCD}) \\circ (\\mathrm{AC})$. [2]\nLet the identity permutation be represented by $e$.\n(d) Find a cyclic subgroup of $G$ of order 4. [2]\n(e) Find a non-cyclic subgroup of $G$ of order 4. [2]"
+  }
+ ],
+ "status": "done"
+}

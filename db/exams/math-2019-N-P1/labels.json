@@ -1,0 +1,27 @@
+{
+ "exam_id": "math-2019-N-P1",
+ "questions": {
+  "1": {"topics":["4"],"subtopics":["4.7"],
+   "text_clean":"1. [Maximum mark: 5]\nThe probability distribution of a discrete random variable, $X$, is given by the following table, where $N$ and $p$ are constants.\n| $x$ | 1 | 5 | 10 | $N$ |\n| $P(X=x)$ | $\\frac{1}{2}$ | $\\frac{1}{5}$ | $\\frac{1}{5}$ | $p$ |\n(a) Find the value of $p$. [2]\n(b) Given that $E(X)=10$, find the value of $N$. [3]"},
+  "2": {"topics":["5","1"],"subtopics":["5.11","5.10","1.7"],
+   "text_clean":"2. [Maximum mark: 6]\nGiven that $\\int_0^{\\ln k} e^{2x}\\,dx = 12$, find the value of $k$."},
+  "3": {"topics":["1","3"],"subtopics":["1.16","3.18"],
+   "text_clean":"3. [Maximum mark: 5]\nThree planes have equations:\n$2x - y + z = 5$\n$x + 3y - z = 4$\n$3x - 5y + az = b$, where $a, b \\in \\mathbb{R}$.\nFind the set of values of $a$ and $b$ such that the three planes have no points of intersection."},
+  "4": {"topics":["3"],"subtopics":["3.10","3.6"],
+   "text_clean":"4. [Maximum mark: 7]\n$A$ and $B$ are acute angles such that $\\cos A = \\frac{2}{3}$ and $\\sin B = \\frac{1}{3}$.\nShow that $\\cos(2A+B) = -\\frac{2\\sqrt{2}}{27} - \\frac{4\\sqrt{5}}{27}$."},
+  "5": {"topics":["1"],"subtopics":["1.14","1.13","1.12"],
+   "text_clean":"5. [Maximum mark: 7]\nConsider the equation $z^4 = -4$, where $z \\in \\mathbb{C}$.\n(a) Solve the equation, giving the solutions in the form $a + ib$, where $a, b \\in \\mathbb{R}$. [5]\n(b) The solutions form the vertices of a polygon in the complex plane. Find the area of the polygon. [2]"},
+  "6": {"topics":["1","5"],"subtopics":["1.15","5.6","5.12"],
+   "text_clean":"6. [Maximum mark: 7]\nConsider the function $f(x) = xe^{2x}$, where $x \\in \\mathbb{R}$. The $n^{th}$ derivative of $f(x)$ is denoted by $f^{(n)}(x)$.\nProve, by mathematical induction, that $f^{(n)}(x) = (2^n x + n2^{n-1})e^{2x}$, $n \\in \\mathbb{Z}^+$."},
+  "7": {"topics":["5","2"],"subtopics":["5.15","5.11","2.6"],
+   "text_clean":"7. [Maximum mark: 7]\n(a) Write $2x - x^2$ in the form $a(x-h)^2 + k$, where $a, h, k \\in \\mathbb{R}$. [2]\n(b) Hence, find the value of $\\int_{\\frac{1}{2}}^{\\frac{3}{2}} \\frac{1}{\\sqrt{2x - x^2}}\\,dx$. [5]"},
+  "8": {"topics":["3"],"subtopics":["3.18","3.17","3.13"],
+   "text_clean":"8. [Maximum mark: 6]\nA straight line, $L_\\theta$, has vector equation $\\mathbf{r} = \\begin{pmatrix}5\\\\0\\\\0\\end{pmatrix} + \\lambda\\begin{pmatrix}5\\\\\\sin\\theta\\\\\\cos\\theta\\end{pmatrix}$, $\\lambda, \\theta \\in \\mathbb{R}$.\nThe plane, $\\Pi_p$, has equation $x = p$, $p \\in \\mathbb{R}$.\nShow that the angle between $L_\\theta$ and $\\Pi_p$ is independent of both $\\theta$ and $p$."},
+  "9": {"topics":["3"],"subtopics":["3.2","3.11"],
+   "text_clean":"9. [Maximum mark: 14]\n(a) Given that $\\cos 75^\\circ = q$, show that $\\cos 105^\\circ = -q$. [1]\nIn the following diagram, the points A, B, C and D are on the circumference of a circle with centre O and radius $r$. [AC] is a diameter of the circle. $BC = r$, $AD = CD$ and $A\\hat{B}C = A\\hat{D}C = 90^\\circ$.\n[Diagram: circle centre O with cyclic quadrilateral ABCD; AC a diameter through O; right angles at B and D; AD and CD marked equal]\n(b) Show that $B\\hat{A}D = 75^\\circ$. [3]\n(c) (i) By considering triangle ABD, show that $BD^2 = 5r^2 - 2r^2 q\\sqrt{6}$.\n(ii) By considering triangle CBD, find another expression for $BD^2$ in terms of $r$ and $q$. [7]\n(d) Use your answers to part (c) to show that $\\cos 75^\\circ = \\frac{1}{\\sqrt{6}+\\sqrt{2}}$. [3]"},
+  "10": {"topics":["5","2","1"],"subtopics":["5.11","5.6","2.13","5.15","2.7","1.11"],
+   "text_clean":"10. [Maximum mark: 19]\nConsider $f(x) = \\frac{2x-4}{x^2-1}$, $-1 < x < 1$.\n(a) (i) Find $f'(x)$.\n(ii) Show that, if $f'(x) = 0$, then $x = 2 - \\sqrt{3}$. [5]\n(b) For the graph of $y = f(x)$,\n(i) find the coordinates of the $y$-intercept;\n(ii) show that there are no $x$-intercepts;\n(iii) sketch the graph, showing clearly any asymptotic behaviour. [5]\n(c) Show that $\\frac{3}{x+1} - \\frac{1}{x-1} = \\frac{2x-4}{x^2-1}$. [2]\n(d) The area enclosed by the graph of $y = f(x)$ and the line $y = 4$ can be expressed as $\\ln v$. Find the value of $v$. [7]"},
+  "11": {"topics":["3","2"],"subtopics":["3.16","3.13","2.4","3.9"],
+   "text_clean":"11. [Maximum mark: 17]\nPoints A(0, 0, 10), B(0, 10, 0), C(10, 0, 0), V(p, p, p) form the vertices of a tetrahedron.\n(a) (i) Show that $\\overrightarrow{AB} \\times \\overrightarrow{AV} = -10\\begin{pmatrix}10-2p\\\\p\\\\p\\end{pmatrix}$ and find a similar expression for $\\overrightarrow{AC} \\times \\overrightarrow{AV}$.\n(ii) Hence, show that, if the angle between the faces ABV and ACV is $\\theta$, then $\\cos\\theta = \\frac{p(3p-20)}{6p^2 - 40p + 100}$. [8]\n(b) Consider the case where the faces ABV and ACV are perpendicular.\n(i) Find the two possible coordinates of V.\n(ii) Comment on the positions of V in relation to the plane ABC. [4]\n(c) The following diagram shows the graph of $\\theta$ against $p$. The maximum point is shown by X.\n[Graph: theta against p; curve rising to a cusp-like maximum point X at positive p, decreasing on both sides towards a dashed horizontal asymptote]\n(i) At X, find the value of $p$ and the value of $\\theta$.\n(ii) Find the equation of the horizontal asymptote of the graph. [5]"}
+ }
+}

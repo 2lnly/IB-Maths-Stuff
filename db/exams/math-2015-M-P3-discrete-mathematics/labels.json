@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2015-M-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.8", "6.9", "6.6", "6.7"],
+      "text_clean": "1. [Maximum mark: 14]\n(a) The weights of the edges of a graph $H$ are given in the following table.\n| | A | B | C | D | E | F | G |\n| A | – | 5 | 4 | – | – | – | – |\n| B | 5 | – | – | – | 5 | – | – |\n| C | 4 | – | – | 5 | 2 | – | – |\n| D | – | – | 5 | – | 3 | – | 6 |\n| E | – | 5 | 2 | 3 | – | 5 | 4 |\n| F | – | – | – | – | 5 | – | 1 |\n| G | – | – | – | 6 | 4 | 1 | – |\n(i) Draw the weighted graph $H$.\n(ii) Use Kruskal's algorithm to find the minimum spanning tree of $H$. Your solution should indicate the order in which the edges are added.\n(iii) State the weight of the minimum spanning tree. [8]\n(b) Consider the following weighted graph.\n[Diagram: weighted graph with vertices P, Q, R, S, T; edges PQ = 3, QR = 1, QT = 7, RS = 2, ST = 5, a second curved edge RS = 4, a second curved edge ST = 4, and a curved edge RT = 5]\n(i) Write down a solution to the Chinese postman problem for this graph.\n(ii) Calculate the total weight of the solution. [3]\n(c) (i) State the travelling salesman problem.\n(ii) Explain why there is no solution to the travelling salesman problem for this graph. [3]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.6", "6.8"],
+      "text_clean": "2. [Maximum mark: 7]\nThe graph $K_{2,2}$ is the complete bipartite graph whose vertex set is the disjoint union of two subsets each of order two.\n(a) Draw $K_{2,2}$ as a planar graph. [2]\n(b) Draw a spanning tree for $K_{2,2}$. [1]\n(c) Draw the graph of the complement of $K_{2,2}$. [1]\n(d) Show that the complement of any complete bipartite graph does not possess a spanning tree. [3]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.10", "6.4"],
+      "text_clean": "3. [Maximum mark: 16]\nThe sequence $\\{u_n\\}$, $n \\in \\mathbb{N}$, satisfies the recurrence relation $u_{n+1} = 7u_n - 6$.\n(a) Given that $u_0 = 5$, find an expression for $u_n$ in terms of $n$. [5]\nThe sequence $\\{v_n\\}$, $n \\in \\mathbb{N}$, satisfies the recurrence relation $v_{n+2} = 10v_{n+1} + 11v_n$.\n(b) Given that $v_0 = 4$ and $v_1 = 44$, find an expression for $v_n$ in terms of $n$. [7]\n(c) Show that $v_n - u_n \\equiv 15 \\pmod{16}$, $n \\in \\mathbb{N}$. [4]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.6"],
+      "text_clean": "4. [Maximum mark: 12]\nA simple connected planar graph, has $e$ edges, $v$ vertices and $f$ faces.\n(a) (i) Show that $2e \\geq 3f$ if $v > 2$.\n(ii) Hence show that $K_5$, the complete graph on five vertices, is not planar. [6]\n(b) (i) State the handshaking lemma.\n(ii) Determine the value of $f$, if each vertex has degree 2. [4]\n(c) Draw an example of a simple connected planar graph on 6 vertices each of degree 3. [2]"
+    },
+    "5": {
+      "topics": ["6"],
+      "subtopics": ["6.1"],
+      "text_clean": "5. [Maximum mark: 11]\n(a) State the Fundamental theorem of arithmetic for positive whole numbers greater than 1. [2]\n(b) Use the Fundamental theorem of arithmetic, applied to 5577 and 99 099, to calculate $\\gcd(5577, 99099)$ and $\\text{lcm}(5577, 99099)$, expressing each of your answers as a product of prime numbers. [3]\n(c) Prove that $\\gcd(n, m) \\times \\text{lcm}(n, m) = n \\times m$ for all $n, m \\in \\mathbb{Z}^+$. [6]"
+    }
+  }
+}

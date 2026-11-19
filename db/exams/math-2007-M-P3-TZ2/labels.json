@@ -1,0 +1,221 @@
+{
+ "exam_id": "math-2007-M-P3-TZ2",
+ "questions": {
+  "A1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L2"
+   ],
+   "text_clean": "1. [Maximum mark: 8]\n(a) The random variable $X$ has a geometric distribution with parameter $p=\\frac{1}{4}$. What is the value of $\\mathrm{P}(X\\le 4)$? [3 marks]\n(b) A magazine publisher promotes his magazine by putting a concert ticket at random in one out of every four magazines. If you need 8 tickets to take friends to the concert, what is the probability that you will find your last ticket when you buy the 20th magazine? [3 marks]\n(c) How are the two distributions in parts (a) and (b) related? [2 marks]"
+  },
+  "A2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L6"
+   ],
+   "text_clean": "2. [Maximum mark: 14]\n(a) In a random sample of 1100 people in Switzerland it was found that 580 of them had a connection to the Internet. Calculate the 95 % confidence interval for the proportion of people in Switzerland having a connection to the Internet. [7 marks]\n(b) How large should the sample have been to make the width of the 95 % confidence interval less than 0.02? [7 marks]"
+  },
+  "A3": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.3"
+   ],
+   "text_clean": "3. [Maximum mark: 14]\nCompetitors at the Worlds Strongest Man contest have to hold an extremely heavy weight, with their arms held out straight, for as long as possible. It is claimed that a particular training schedule will improve the time, (i.e. increase it), that a competitor can hold the weight for. Competitors are tested before and after the training schedule.\nThe times, in seconds, before and after training are shown in the table below.\nCompetitor | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O\nTime before training | 80 | 62 | 45 | 73 | 65 | 53 | 61 | 48 | 81 | 50 | 50 | 29 | 52 | 33 | 71\nTime after training | 85 | 74 | 60 | 67 | 69 | 55 | 68 | 46 | 89 | 60 | 64 | 26 | 61 | 33 | 72\nStating the null and alternative hypotheses carry out an appropriate test at the 1 % significance level to decide if the claim is justified. [14 marks]"
+  },
+  "A4": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L1"
+   ],
+   "text_clean": "4. [Maximum mark: 14]\n(a) If $Y$ has a Poisson distribution $\\mathrm{Po}(\\mu)$, show that $\\mathrm{P}(Y=y+1)=\\frac{\\mu}{y+1}\\mathrm{P}(Y=y)$. [3 marks]\n(b) The number of cars passing a certain point in a road was recorded during 80 equal time intervals and summarized in the table below.\nNumber of cars | 0 | 1 | 2 | 3 | 4 | 5\nFrequency | 4 | 18 | 19 | 20 | 11 | 8\nCarry out a $\\chi^2$ goodness of fit test at the 5 % significance level to decide if the above data can be modelled by a Poisson distribution. [11 marks]"
+  },
+  "A5": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.14",
+    "4.12"
+   ],
+   "text_clean": "5. [Maximum mark: 10]\n(a) The independent variables $U$ and $V$ are such that $U\\sim \\mathrm{N}(66,5)$ and $V\\sim \\mathrm{N}(19,3)$. Calculate the probability that a randomly selected observation from $U$ is more than three times a randomly selected observation from $V$. [6 marks]\n(b) Let $X$ be a random variable. By expanding the expression $\\mathrm{E}(X-\\mathrm{E}(X))^2$ show that $\\mathrm{E}(X^2)\\ge(\\mathrm{E}(X))^2$. [4 marks]"
+  },
+  "B1": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.3"
+   ],
+   "text_clean": "1. [Maximum mark: 7]\nShow that the function $f:\\mathbb{Z}\\to\\mathbb{Z}$ defined below is a surjection but not an injection.\n$f(x)=\\begin{cases}\\frac{x+2}{2}, & \\text{if } x \\text{ is even}\\\\ \\frac{x+5}{2}, & \\text{if } x \\text{ is odd}\\end{cases}$ [7 marks]"
+  },
+  "B2": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "text_clean": "2. [Maximum mark: 10]\nWe define the relation $(x,y)R(p,q)$ if and only if $x^2-y^2=p^2-q^2$ where $(x,y),(p,q)\\in\\mathbb{R}^2$. Prove that $R$ is an equivalence relation on $\\mathbb{R}^2$. Describe geometrically the equivalence class of $(1,1)$. [10 marks]"
+  },
+  "B3": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "1.15"
+   ],
+   "text_clean": "3. [Maximum mark: 15]\n$a$ and $b$ are elements of the group $G$ whose binary operation is multiplication.\n(a) Use mathematical induction to prove that $(bab^{-1})^n=ba^nb^{-1}$, for all $n\\in\\mathbb{Z}^+$. [8 marks]\n(b) Show that $(bab^{-1})^{-1}=ba^{-1}b^{-1}$. [3 marks]\n(c) Use parts (a) and (b) to show that $(bab^{-1})^n=ba^nb^{-1}$ for all negative integers $n$. [4 marks]",
+   "note": "Markscheme crop: first line of (a) ('If P(n): (bab^-1)^n = ba^n b^-1') is half-clipped by the segmenter's header trim (body_top on ms page 11); override cannot recover it. Rest of markscheme complete. | fixed by segmenter update: the line noted above as missing is now in the crop",
+   "answer_status": "ok"
+  },
+  "B4": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.9",
+    "7.5",
+    "1.L1",
+    "1.12"
+   ],
+   "text_clean": "4. [Maximum mark: 14]\n(a) Show that the set $M=\\left\\{\\begin{pmatrix}a & -b\\\\ b & a\\end{pmatrix};\\ a,b\\in\\mathbb{R},\\ a^2+b^2\\ne 0\\right\\}$ together with matrix multiplication $(\\times)$ forms a group $\\{M,\\times\\}$. [6 marks]\n(b) Find an isomorphism from the multiplicative group of non-zero complex numbers to the group $\\{M,\\times\\}$. Justify your answer. [8 marks]"
+  },
+  "B5": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.6"
+   ],
+   "text_clean": "5. [Maximum mark: 6]\nShow that every cyclic group of order greater than or equal to three has at least two generators. [6 marks]"
+  },
+  "B6": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "text_clean": "6. [Maximum mark: 8]\nProve for sets $A$, $B$ and $C$ that $A\\times(B\\cup C)=(A\\times B)\\cup(A\\times C)$. [8 marks]"
+  },
+  "C1": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13"
+   ],
+   "text_clean": "1. [Maximum mark: 9]\nFind\n(a) $\\lim_{s\\to 4}\\left(\\frac{s-\\sqrt{3s+4}}{4-s}\\right)$ [4 marks]\n(b) $\\lim_{x\\to 0}\\left(\\frac{\\cos x-1}{x\\sin x}\\right)$ [5 marks]"
+  },
+  "C2": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.16"
+   ],
+   "text_clean": "2. [Maximum mark: 14]\n(a) Sketch on graph paper the slope field for the differential equation $\\frac{dy}{dx}=x-y$ at the points $(x,y)$ where $x\\in\\{0,1,2,3,4\\}$ and $y\\in\\{0,1,2,3,4\\}$. Use a scale of 2 cm for 1 unit on both axes. [3 marks]\n(b) On the slope field sketch the curve that passes through the point $(0,3)$. [1 mark]\n(c) Solve the differential equation to find the equation of this curve. Give your answer in the form $y=f(x)$. [10 marks]"
+  },
+  "C3": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L1",
+    "1.11"
+   ],
+   "text_clean": "3. [Maximum mark: 10]\n(a) Find constants $A$ and $B$ such that $\\frac{1}{16r^2+8r-3}=\\frac{A}{4r-1}+\\frac{B}{4r+3}$. [4 marks]\n(b) Find an expression for $S_n$, the $n$th partial sum of $\\sum_{r=1}^{\\infty}\\left(\\frac{1}{16r^2+8r-3}\\right)$. [4 marks]\n(c) Hence show that the series converges. [2 marks]"
+  },
+  "C4": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L5"
+   ],
+   "text_clean": "4. [Maximum mark: 7]\nFind the values of $p$ for which $\\int_1^{\\infty}\\frac{1}{x^p}\\,dx$ converges. [7 marks]"
+  },
+  "C5": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.18",
+    "5.6"
+   ],
+   "text_clean": "5. [Maximum mark: 20]\nConsider the differential equation $\\frac{dy}{dx}+(2x-1)y=0$ given that $y=2$ when $x=0$.\n(a) (i) Show that $\\frac{d^4y}{dx^4}=(1-2x)\\frac{d^3y}{dx^3}-6\\frac{d^2y}{dx^2}$.\n(ii) By finding the values of successive derivatives at $x=0$ obtain a Maclaurin series for $y$ up to and including the $x^4$ term. [10 marks]\n(b) A local maximum value of $y$ occurs when $x=0.5$. Use your series to calculate an approximation to this maximum value. [2 marks]\n(c) Use Euler's method with a step value of 0.1 to obtain a second approximation for the maximum value of $y$. Set out your solution in tabular form. [6 marks]\n(d) How can each of the approximations found in (b) and (c) be made more accurate? [2 marks]"
+  },
+  "D1": {
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.4",
+    "1.9",
+    "6.5"
+   ],
+   "text_clean": "1. [Maximum mark: 6]\nShow that $(x+y)^p\\equiv(x^p+y^p)\\pmod p$ where $x,y\\in\\mathbb{Z}^+$ and $p$ is a prime number. [6 marks]"
+  },
+  "D2": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1",
+    "6.3"
+   ],
+   "text_clean": "2. [Maximum mark: 17]\n(a) Use Euclid's algorithm to find $\\gcd(858,714)$ and hence write the gcd as a linear combination of 858 and 714. [12 marks]\n(b) A lattice point $(x,y)$ is a point on the Cartesian plane where $x,y\\in\\mathbb{Z}$. Find all the lattice points through which the line $5x+8y=1$ passes. [5 marks]"
+  },
+  "D3": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6"
+   ],
+   "text_clean": "3. [Maximum mark: 15]\n(a) Draw the graph $K_{3,3}$. [3 marks]\n(b) Prove that $K_{3,3}$ is not planar. [6 marks]\n(c) With the usual notation, Euler's formula $v-e+f=2$ applies to connected planar graphs. Find a formula connecting $v$, $e$ and $f$ for a non-connected planar graph that has $x$ components. [6 marks]"
+  },
+  "D4": {
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.8",
+    "6.7",
+    "6.9",
+    "1.10"
+   ],
+   "text_clean": "4. [Maximum mark: 12]\n[Diagram: weighted graph G with vertices A, B, C, D, E, F, H, K, P, Q, R; edges AB 6, AH 11, BC 5, BP 3, CD 6, CP 6, CR 6, DR 8, DE 7, HP 1, HK 5, PQ 5, QR 6, QK 2, QF 2, RF 5, RE 4, KF 6, FE 3]\nThe weighted graph $G$ is shown above. Graph $G'$ is produced by deleting vertex A from $G$.\n(a) Use Kruskal's algorithm to find the minimum spanning tree of graph $G'$ and state its weight. [5 marks]\n(b) Hence find the weight of a lower bound for the Hamiltonian cycle in $G$ beginning at vertex A. [2 marks]\n(c) Prove for a complete graph with $n$ vertices, that no more than $\\frac{(n-1)!}{2}$, $n\\ge 3$ Hamiltonian cycles have to be examined to find the Hamiltonian cycle of least weight. [4 marks]\n(d) How many cycles in $G$ would have to be examined to find the one with the least weight? [1 mark]"
+  },
+  "D5": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.5",
+    "6.1",
+    "6.4"
+   ],
+   "text_clean": "5. [Maximum mark: 10]\nProve that $42\\mid(n^7-n)$ where $n\\in\\mathbb{Z}^+$. [10 marks]"
+  }
+ }
+}

@@ -1,0 +1,35 @@
+{
+  "exam_id": "math-2008-M-P3-discrete-mathematics-TZ1",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.1", "6.3"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 7]\nUse the Euclidean Algorithm to find the greatest common divisor of 7854 and 3315.\nHence state the number of solutions to the diophantine equation $7854x + 3315y = 41$ and justify your answer."
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.4"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 9]\n(a) Define what is meant by the statement $x \\equiv y \\pmod{n}$ where $x, y, n \\in \\mathbb{Z}^+$. [1 mark]\n(b) Hence prove that if $x \\equiv y \\pmod{n}$ then $x^2 \\equiv y^2 \\pmod{n}$. [4 marks]\n(c) Determine whether or not $x^2 \\equiv y^2 \\pmod{n}$ implies that $x \\equiv y \\pmod{n}$. [4 marks]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.2", "6.1"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 11]\nThe positive integer $N$ is expressed in base $p$ as $(a_n a_{n-1} \\ldots a_1 a_0)_p$.\n(a) Show that when $p = 2$, $N$ is even if and only if its least significant digit, $a_0$, is 0. [5 marks]\n(b) Show that when $p = 3$, $N$ is even if and only if the sum of its digits is even. [6 marks]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.7", "6.6", "6.9"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 16]\nThe graph $G$ has the following cost adjacency matrix.\n| | A | B | C | D | E |\n| A | - | 9 | - | 8 | 4 |\n| B | 9 | - | 7 | - | 2 |\n| C | - | 7 | - | 7 | 3 |\n| D | 8 | - | 7 | - | 5 |\n| E | 4 | 2 | 3 | 5 | - |\n(a) Draw $G$ in a planar form. [2 marks]\n(b) Giving a reason, determine the maximum number of edges that could be added to $G$ while keeping the graph both simple and planar. [4 marks]\n(c) List all the distinct Hamiltonian cycles in $G$ beginning and ending at A, noting that two cycles each of which is the reverse of the other are to be regarded as identical. Hence determine the Hamiltonian cycle of least weight. [10 marks]"
+    },
+    "5": {
+      "topics": ["6"],
+      "subtopics": ["6.8", "6.6"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 17]\n(a) The weighted graph $H$ is shown below.\n[Diagram: weighted graph H with vertices A, B, C, D, E, F; edges AB = 7, AE = 9, BC = 4, BE = 5, CE = 3, CF = 1, CD = 6, EF = 2, DF = 8]\nUse Kruskal's Algorithm, indicating the order in which the edges are added, to find and draw the minimum spanning tree for $H$. [6 marks]\n(b) (i) A tree has $v$ vertices. State the number of edges in the tree, justifying your answer.\n(ii) We will call a graph with $v$ vertices a \"forest\" if it consists of $c$ components each of which is a tree.\nHere is an example of a forest with 4 components.\n[Diagram: four separate small trees drawn side by side]\nHow many edges will a forest with $v$ vertices and $c$ components have? [5 marks]\n(c) A graph has an odd number of vertices. Prove that the degree of at least one of the vertices must be even. [6 marks]"
+    }
+  }
+}

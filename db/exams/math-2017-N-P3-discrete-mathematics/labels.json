@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2017-N-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.9", "6.8", "6.6"],
+      "text_clean": "Mathilde delivers books to five libraries, A, B, C, D and E. She starts her deliveries at library D and travels to each of the other libraries once, before returning to library D. Mathilde wishes to keep her travelling distance to a minimum.\nThe weighted graph $H$, representing the distances, measured in kilometres, between the five libraries, has the following table.\n| | A | B | C | D | E |\n| A | – | 18 | 19 | 16 | 21 |\n| B | 18 | – | 15 | 22 | 17 |\n| C | 19 | 15 | – | 20 | 17 |\n| D | 16 | 22 | 20 | – | 19 |\n| E | 21 | 17 | 17 | 19 | – |\n(a) Draw the weighted graph $H$. [2]\n(b) Starting at library D use the nearest-neighbour algorithm, to find an upper bound for Mathilde's minimum travelling distance. Indicate clearly the order in which the edges are selected. [5]\n(c) By first removing library C, use the deleted vertex algorithm, to find a lower bound for Mathilde's minimum travelling distance. [4]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.10", "6.5"],
+      "text_clean": "Consider the recurrence relation\n$u_n = 5u_{n-1} - 6u_{n-2}$, $u_0 = 0$ and $u_1 = 1$.\n(a) Find an expression for $u_n$ in terms of $n$. [6]\n(b) For every prime number $p > 3$, show that $p \\mid u_{p-1}$. [4]"
+    },
+    "3": {
+      "topics": ["6", "4"],
+      "subtopics": ["6.6", "6.8", "4.5"],
+      "text_clean": "(a) (i) Draw the complete bipartite graph $\\kappa_{3,3}$.\n(ii) Prove that $\\kappa_{3,3}$ is not planar. [5]\n(b) A connected graph $G$ has $v$ vertices. Prove, using Euler's relation, that a spanning tree for $G$ has $v-1$ edges. [2]\nConsider $\\kappa_n$, a complete graph with $n$ vertices, $n \\ge 2$. Let $T$ be a fixed spanning tree of $\\kappa_n$.\n(c) If an edge $E$ is chosen at random from the edges of $\\kappa_n$, show that the probability that $E$ belongs to $T$ is equal to $\\frac{2}{n}$. [4]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.4"],
+      "text_clean": "Consider the system of linear congruences\n$x \\equiv 2 \\pmod{5}$\n$x \\equiv 5 \\pmod{8}$\n$x \\equiv 1 \\pmod{3}$.\n(a) With reference to the integers 5, 8 and 3, state why the Chinese remainder theorem guarantees a unique solution modulo 120 to this system of linear congruences. [2]\n(b) Hence or otherwise, find the general solution to the above system of linear congruences. [7]"
+    },
+    "5": {
+      "topics": ["6"],
+      "subtopics": ["6.2", "6.1"],
+      "text_clean": "(a) Convert the decimal number 1071 to base 12. [3]\n(b) Write the decimal number 1071 as a product of its prime factors. [1]\nThe decimal number 1071 is equal to $a060$ in base $b$, where $a > 0$.\n(c) (i) Using your answers to part (a) and (b), prove that there is only one possible value for $b$ and state this value.\n(ii) Hence state the value of $a$. [5]"
+    }
+  }
+}

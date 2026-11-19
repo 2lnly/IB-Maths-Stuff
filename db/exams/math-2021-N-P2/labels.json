@@ -1,0 +1,139 @@
+{
+ "exam_id": "math-2021-N-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.4"
+   ],
+   "text_clean": "1. [Maximum mark: 7]\nIn Lucy's music academy, eight students took their piano diploma examination and achieved scores out of 150. For her records, Lucy decided to record the average number of hours per week each student reported practising in the weeks prior to their examination. These results are summarized in the table below.\nAverage weekly practice time ($h$): 28, 13, 45, 33, 17, 29, 39, 36\nDiploma score ($D$): 115, 82, 120, 116, 79, 101, 110, 121\n(a) Find Pearson's product-moment correlation coefficient, $r$, for these data. [2]\n(b) The relationship between the variables can be modelled by the regression equation $D = ah + b$. Write down the value of $a$ and the value of $b$. [1]\n(c) One of these eight students was disappointed with her result and wished she had practised more. Based on the given data, determine how her score could have been expected to alter had she practised an extra five hours per week. [2]\n(d) Lucy asserts that the number of hours a student practises has a direct effect on their final diploma result. Comment on the validity of Lucy's assertion. [1]\nLucy suspected that each student had not been practising as much as they reported. In order to compensate for this, Lucy deducted a fixed number of hours per week from each of the students' recorded hours.\n(e) State how, if at all, the value of $r$ would be affected. [1]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nConsider a triangle ABC, where $\\mathrm{AC} = 12$, $\\mathrm{CB} = 7$ and $\\mathrm{B\\hat{A}C} = 25^\\circ$.\nFind the smallest possible perimeter of triangle ABC.",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.11"
+   ],
+   "text_clean": "3. [Maximum mark: 7]\nA factory manufactures lamps. It is known that the probability that a lamp is found to be defective is $0.05$. A random sample of $30$ lamps is tested.\n(a) Find the probability that there is at least one defective lamp in the sample. [3]\n(b) Given that there is at least one defective lamp in the sample, find the probability that there are at most two defective lamps. [4]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2",
+    "2.10"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\nThe following diagram shows a semicircle with centre O and radius $r$. Points P, Q and R lie on the circumference of the circle, such that $\\mathrm{PQ} = 2r$ and $\\mathrm{R\\hat{O}Q} = \\theta$, where $0 < \\theta < \\pi$.\n[Diagram: semicircle on diameter PQ with centre O; R on the arc; angle ROQ = $\\theta$; triangle PRO shaded and the segment between chord RQ and the arc RQ shaded]\n(a) Given that the areas of the two shaded regions are equal, show that $\\theta = 2\\sin\\theta$. [5]\n(b) Hence determine the value of $\\theta$. [1]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3",
+    "1.8"
+   ],
+   "text_clean": "5. [Maximum mark: 9]\nThe sum of the first $n$ terms of a geometric sequence is given by $S_n = \\sum_{r=1}^{n} \\frac{2}{3}\\left(\\frac{7}{8}\\right)^r$.\n(a) Find the first term of the sequence, $u_1$. [2]\n(b) Find $S_\\infty$. [3]\n(c) Find the least value of $n$ such that $S_\\infty - S_n < 0.001$. [4]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "1.6"
+   ],
+   "text_clean": "6. [Maximum mark: 8]\n(a) Prove the identity $(p+q)^3 - 3pq(p+q) \\equiv p^3 + q^3$. [2]\nThe equation $2x^2 - 5x + 1 = 0$ has two real roots, $\\alpha$ and $\\beta$.\nConsider the equation $x^2 + mx + n = 0$, where $m, n \\in \\mathbb{Z}$ and which has roots $\\frac{1}{\\alpha^3}$ and $\\frac{1}{\\beta^3}$.\n(b) Without solving $2x^2 - 5x + 1 = 0$, determine the values of $m$ and $n$. [6]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "text_clean": "7. [Maximum mark: 6]\nA continuous random variable $X$ has a probability density function given by\n$f(x) = \\begin{cases} \\arccos x & 0 \\le x \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$\nThe median of this distribution is $m$.\n(a) Determine the value of $m$. [2]\n(b) Given that $P(|X - m| \\le a) = 0.3$, determine the value of $a$. [4]",
+   "answer_status": "ok",
+   "note": "integration of arccos usually done on GDC; 5.11 for definite-integral setup"
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4",
+    "5.6"
+   ],
+   "text_clean": "8. [Maximum mark: 8]\nConsider the curve $C$ given by $y = x - xy\\ln(xy)$ where $x > 0$, $y > 0$.\n(a) Show that $\\frac{dy}{dx} + \\left(x\\frac{dy}{dx} + y\\right)\\left(1 + \\ln(xy)\\right) = 1$. [3]\n(b) Hence find the equation of the tangent to $C$ at the point where $x = 1$. [5]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.7",
+    "2.10",
+    "2.11"
+   ],
+   "text_clean": "9. [Maximum mark: 15]\nThe height of water, in metres, in Dungeness harbour is modelled by the function $H(t) = a\\sin(b(t-c)) + d$, where $t$ is the number of hours after midnight, and $a$, $b$, $c$ and $d$ are constants, where $a > 0$, $b > 0$ and $c > 0$.\nThe following graph shows the height of the water for 13 hours, starting at midnight.\n[Graph: $H(t)$ against $t$ for $0 \\le t \\le 13$; sinusoidal curve starting near 3.4, rising to a maximum near $t = 4.5$, falling to a minimum near $t = 10.5$, then rising; vertical axis marked 5 and 10, horizontal axis marked 5 and 10]\nThe first high tide occurs at 04:30 and the next high tide occurs 12 hours later. Throughout the day, the height of the water fluctuates between $2.2$ m and $6.8$ m.\nAll heights are given correct to one decimal place.\n(a) Show that $b = \\frac{\\pi}{6}$. [1]\n(b) Find the value of $a$. [2]\n(c) Find the value of $d$. [2]\n(d) Find the smallest possible value of $c$. [3]\n(e) Find the height of the water at 12:00. [2]\n(f) Determine the number of hours, over a 24-hour period, for which the tide is higher than 5 metres. [3]\nA fisherman notes that the water height at nearby Folkestone harbour follows the same sinusoidal pattern as that of Dungeness harbour, with the exception that high tides (and low tides) occur 50 minutes earlier than at Dungeness.\n(g) Find a suitable equation that may be used to model the tidal height of water at Folkestone harbour. [2]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "2",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "2.13",
+    "1.11",
+    "5.15",
+    "1.7"
+   ],
+   "text_clean": "10. [Maximum mark: 18]\nConsider the function $f(x) = \\frac{x^2 - x - 12}{2x - 15}$, $x \\in \\mathbb{R}$, $x \\ne \\frac{15}{2}$.\n(a) Find the coordinates where the graph of $f$ crosses the\n(i) $x$-axis;\n(ii) $y$-axis. [3]\n(b) Write down the equation of the vertical asymptote of the graph of $f$. [1]\n(c) The oblique asymptote of the graph of $f$ can be written as $y = ax + b$ where $a, b \\in \\mathbb{Q}$.\nFind the value of $a$ and the value of $b$. [4]\n(d) Sketch the graph of $f$ for $-30 \\le x \\le 30$, clearly indicating the points of intersection with each axis and any asymptotes. [3]\n(e) (i) Express $\\frac{1}{f(x)}$ in partial fractions.\n(ii) Hence find the exact value of $\\int_0^3 \\frac{1}{f(x)}\\,dx$, expressing your answer as a single logarithm. [7]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.17",
+    "3.16",
+    "3.14",
+    "3.12"
+   ],
+   "text_clean": "11. [Maximum mark: 21]\nThree points $\\mathrm{A}(3, 0, 0)$, $\\mathrm{B}(0, -2, 0)$ and $\\mathrm{C}(1, 1, -7)$ lie on the plane $\\Pi_1$.\n(a) (i) Find the vector $\\overrightarrow{\\mathrm{AB}}$ and the vector $\\overrightarrow{\\mathrm{AC}}$.\n(ii) Hence find the equation of $\\Pi_1$, expressing your answer in the form $ax + by + cz = d$, where $a, b, c, d \\in \\mathbb{Z}$. [7]\nPlane $\\Pi_2$ has equation $3x - y + 2z = 2$.\n(b) The line $L$ is the intersection of $\\Pi_1$ and $\\Pi_2$. Verify that the vector equation of $L$ can be written as $\\boldsymbol{r} = \\begin{pmatrix}0\\\\-2\\\\0\\end{pmatrix} + \\lambda\\begin{pmatrix}1\\\\1\\\\-1\\end{pmatrix}$. [2]\n(c) The plane $\\Pi_3$ is given by $2x - 2z = 3$. The line $L$ and the plane $\\Pi_3$ intersect at the point P.\n(i) Show that at the point P, $\\lambda = \\frac{3}{4}$.\n(ii) Hence find the coordinates of P. [3]\n(d) The point $\\mathrm{B}(0, -2, 0)$ lies on $L$.\n(i) Find the reflection of the point B in the plane $\\Pi_3$.\n(ii) Hence find the vector equation of the line formed when $L$ is reflected in the plane $\\Pi_3$. [9]",
+   "answer_status": "ok"
+  }
+ }
+}

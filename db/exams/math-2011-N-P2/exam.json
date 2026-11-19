@@ -1,0 +1,333 @@
+{
+ "exam_id": "math-2011-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2011,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2011 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2011 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8811-7202; code N11/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches expected total 120",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2011-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nConsider the graph of y = x + sin ( x − 3, −≤ ) π x ≤ π .\n(a) Sketch the graph, clearly labelling the x and y intercepts with their values. [3 marks]\n(b) Find the area of the region bounded by the graph and the x and y axes. [2 marks]",
+   "ms_text": "SECTION A\n1. (a)\nA1A1A1\nNote: Award A1 for shape,\nA1 for x-intercept is 0.820, accept sin(–3) or –sin(3)\nA1 for y-intercept is 0.141 − .\n0.8202\n= + − ≈ (b) A ∫ x sin( x 3)d x 0.0816 squnits (M1)A1\n0\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.3",
+    "2.4",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nConsider the graph of $y = x + \\sin(x-3)$, $-\\pi \\le x \\le \\pi$.\n(a) Sketch the graph, clearly labelling the $x$ and $y$ intercepts with their values. [3 marks]\n(b) Find the area of the region bounded by the graph and the $x$ and $y$ axes. [2 marks]",
+   "review_note": "ms crop fixed via overrides (Q2 determinant row had spilled into Q1 ms)"
+  },
+  {
+   "id": "math-2011-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nGiven the following system of linear equations,\nax + y + z = 1\nx + ay + z = a\n2 x + y + az = a\nfind the values of the real constant, a , for which the system has a unique solution.",
+   "ms_text": "a 1 1\n2. 1 a 1 (M1)\n1 1 a\na 1 1 1 1 a\n= a − +\n1 a 1 a 1 1\n= 2 − − − + − (A1) aa ( 1) ( a 1) (1 a )\n3 = a − 3 a + 2 A1\n3 − + = set a 3 a 2 0 M1\n⇒ a = −; 2 a = 1 A1A1\nhence the system has a unique solution for all reals such that\na ≠−; 2 a ≠ 1 R1\nNote: Award R1 for their values of a.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nGiven the following system of linear equations,\n$ax + y + z = 1$\n$x + ay + z = a$\n$x + y + az = a^2$\nfind the values of the real constant, $a$, for which the system has a unique solution.",
+   "review_note": "ms crop fixed via overrides; auto text had third equation wrong (2x+y+az=a), image shows x+y+az=a^2"
+  },
+  {
+   "id": "math-2011-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nThe number of vehicles passing a particular junction can be modelled using the\nPoisson distribution. Vehicles pass the junction at an average rate of 300 per hour.\n(a) Find the probability that no vehicles pass in a given minute. [2 marks]\n(b) Find the expected number of vehicles which pass in a given two minute period. [1 mark]\n(c) Find the probability that more than this expected number actually pass in a given\ntwo minute period. [2 marks]",
+   "ms_text": "300\n3. (a) m = = 5 (A1)\n60\nP( X= 0) = 0.00674 A1\ne− 5 or\n(b) E( X=× ) 5 2 = 10 A1\n(c) P( X > 10) =− 1 P( X ≤ 10) (M1)\n= 0.417 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nThe number of vehicles passing a particular junction can be modelled using the Poisson distribution. Vehicles pass the junction at an average rate of 300 per hour.\n(a) Find the probability that no vehicles pass in a given minute. [2 marks]\n(b) Find the expected number of vehicles which pass in a given two minute period. [1 mark]\n(c) Find the probability that more than this expected number actually pass in a given two minute period. [2 marks]"
+  },
+  {
+   "id": "math-2011-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\n1 1 +\n(a) Given that arctan − arctan = arctan a , a∈ ⁄, find the value of a . [3 marks]\n2 3\n(b) Hence, or otherwise, solve the equation arcsin x = arctan a . [2 marks]",
+   "ms_text": "1 1\n4. (a) tanarctan − arctan = tan(arctan) a (M1)\n2 3\n1\na = 0.14285 …= (A1)A1\n7\n1 1\n(b) arctan = arcsin() x ⇒ x = sinarctan ≈ 0.141 (M1)A1\n7 7\n1\nNote: Accept exact value of .\n50\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\n(a) Given that $\\arctan\\frac{1}{2} - \\arctan\\frac{1}{3} = \\arctan a$, $a \\in \\mathbb{Q}^+$, find the value of $a$. [3 marks]\n(b) Hence, or otherwise, solve the equation $\\arcsin x = \\arctan a$. [2 marks]"
+  },
+  {
+   "id": "math-2011-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nThe probability that the 08:00 train will be delayed on a work day (Monday to Friday)\nis 1\n10. Assuming that delays occur independently,\n(a) find the probability that the 08:00 train is delayed exactly twice during any\nperiod of five work days; [2 marks]\n(b) find the minimum number of work days for which the probability of the 08:00\ntrain being delayed at least once exceeds 90 %. [3 marks]",
+   "ms_text": "5. (a) X∼ B(5, 0.1) (M1)\nP( X= 2) = 0.0729 A1\n(b) P( X ≥ 1) =− 1 P( X = 0) (M1)\nn\n9\n0.9 <− 1 (M1)\n10\nln0.1\nn >\nln0.9\nn = 22 days A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\nThe probability that the 08:00 train will be delayed on a work day (Monday to Friday) is $\\frac{1}{10}$. Assuming that delays occur independently,\n(a) find the probability that the 08:00 train is delayed exactly twice during any period of five work days; [2 marks]\n(b) find the minimum number of work days for which the probability of the 08:00 train being delayed at least once exceeds 90 %. [3 marks]"
+  },
+  {
+   "id": "math-2011-N-P2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nThe complex numbers z1 and z2 have arguments between 0 and π radians. Given that\n+ i and z 1 z z = − 3\n=i , find the modulus and argument of z1 and of z2 . 2 12\nz\n2",
+   "ms_text": "6. METHOD 1\n5 π �\nzz = (A1) arg(\n1 2 ) (150)\n6\nz π\n1 � arg = (90) (A1)\nz 2\n2\n5 π π\n⇒ arg() z + arg( z ) = ; arg() z − arg( z ) = M1\n1 2 1 2\n6 2\nsolving simultaneously\n2π π\n�and � arg() z = (120) arg( z ) = (30) A1A1\n1 2\n3 6\nNote: Accept decimal approximations of the radian measures.\nz z\n⇒ 1 ⇒ 1 z z = 2 z z = 2 ; = 2 = 2 M1\n1 2 1 2\nz z\n2 2\nsolving simultaneously\nz = 2 ; z = 1 A1\n1 2\n[7 marks]\nMETHOD 2\n2 = −3 + i\nz1 = 2iz2 2iz2 (M1)\n2 = −3 + i\nz2 A1\n2i\nπ\n−3 + i 3 6i\nz2 = = 2+ 1 e (M1)(A1) 2i or\n2i\n0.524i (allow 0.866 + 0.5 or e i )\n2π\ni\nz = −+ i 3 − − 2.09i (A1) 1 3 or 2e (allow 1+1.73i or 2e )\n1\nmodulus = 2, argument = 2π\nA1 z1\n3\nmodulus = 1, argument = π\nz2 A1\n6\nNote: Accept degrees and decimal approximations to radian measure.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nThe complex numbers $z_1$ and $z_2$ have arguments between 0 and $\\pi$ radians. Given that $z_1 z_2 = -\\sqrt{3} + \\mathrm{i}$ and $\\frac{z_1}{z_2} = 2\\mathrm{i}$, find the modulus and argument of $z_1$ and of $z_2$."
+  },
+  {
+   "id": "math-2011-N-P2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nn ∞\n2 x\n(a) Find the set of values of x for which the series ∑ has a finite sum. [4 marks]\nx + 1 n = 1\n(b) Hence find the sum in terms of x . [2 marks]",
+   "ms_text": "2 x\n7. (a) for the series to have a finite sum, < 1 R1\nx + 1\n(sketch from gdc or algebraic method) M1\n1\nS∞ exists when − < x < 1 A1A1\n3\nNote: Award A1 for bounds and A1 for strict inequalities.\n2 x\n+ 2 x x 1\n(b) S = = M1A1 ∞\n2 x 1 − x\n1 −\nx + 1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.8",
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\n(a) Find the set of values of $x$ for which the series $\\sum_{n=1}^{\\infty} \\left(\\frac{2x}{x+1}\\right)^n$ has a finite sum. [4 marks]\n(b) Hence find the sum in terms of $x$. [2 marks]"
+  },
+  {
+   "id": "math-2011-N-P2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\n1\nGiven that fx ,\n() =+ − x\n1e\n(a) find f −1() , stating its domain; x [6 marks]\n(b) find the value of x such that fx () = f −1 () x . [1 mark]",
+   "ms_text": "1\n8. (a) y =\n+ ex − 1\n− x y\n(1 + e ) = 1 M1\n1 1 − x\n⇒ − x 1 + e = e = − 1 A1\ny y\n1\n⇒ x = − ln − 1 A1\ny\n1 x − 1\nf () x = − ln − 1 = A1\nln1\nx − x\ndomain: 0 < x < 1 A1A1\nNote: Award A1 for endpoints and A1 for strict inequalities.\n(b) 0.659 A1\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.9",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nGiven that $f(x) = \\frac{1}{1+\\mathrm{e}^{-x}}$,\n(a) find $f^{-1}(x)$, stating its domain; [6 marks]\n(b) find the value of $x$ such that $f(x) = f^{-1}(x)$. [1 mark]"
+  },
+  {
+   "id": "math-2011-N-P2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 6]\nA stalactite has the shape of a circular cone. Its height is 200 mm and is increasing\nat a rate of 3 mm per century. Its base radius is 40 mm and is decreasing at a rate of\n0.5 mm per century. Determine if its volume is increasing or decreasing, and the rate\nat which the volume is changing.",
+   "ms_text": "π 2\n9. V = rh\n3\nd V π d r d h\n= + 2 2 rh r M1A1A1\nd t 3 d t d t\nat the given instant\nd V π 1\n= − + 2 2(40)(200) 40(3) M1\nd t 3 2\n− 3200 π\n= = − …≈− 3351.03 3350 A1\n3\nhence, the volume is decreasing (at approximately 3350 mm3 per century) R1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 6]\nA stalactite has the shape of a circular cone. Its height is 200 mm and is increasing at a rate of 3 mm per century. Its base radius is 40 mm and is decreasing at a rate of 0.5 mm per century. Determine if its volume is increasing or decreasing, and the rate at which the volume is changing."
+  },
+  {
+   "id": "math-2011-N-P2-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 7]\n2 − i 6 + 8 i\nGiven that z = z = Im z .\n+− i, find the values of u , u ∈ϒ, such that Re\n1 i u +",
+   "ms_text": "10. METHOD 1\n− − 2 i 1 3i\n= A1\n1 + i 2\n6 + 8i u − i 6 u + 8 + (8 u − 6)i\n× = M1A1\n2 u + i u − i u + 1\n2 − i 6 + 8 u 1 6 u + 8 3 8 u − 6i\n⇒ − = − − +\n2 2 1 + i u + i 2 u + 1 2 u + 1\nIm z = Re z\n1 6 u + 8 3 8 u − 6\n⇒ − = − − A1\n2 2 2 u + 1 2 u + 1\n(sketch from gdc, or algebraic method) (M1)\nu = −; 3 u = 2 A1A1 N2\n[7 marks]\nMETHOD 2\n2 − i 6 + 8i (2 − i)( u + i) − (1 + i)(6 + 8i)\n− = M1A1\n1 + i u + i ( u − 1) + i( u + 1)\n(2 − i)( u + i) − (1 + i)(6 + 8i)( u − 1) − i( u + 1)\n= ⋅ M1\n( u − 1) + i( u + 1) ( u − 1) − i( u + 1)\nu 2 − 12 u − 15 + i(3 − u 2 − 16 u + 9)\n= A1\n2 2( u + 1)\n⇒ 2 2 Re z = Im z u − 12 u − 15 = − 3 u − 16 u + 9 M1\nu = −; 3 u = 2 A1A1 N2\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.12",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 7]\nGiven that $z = \\frac{2-\\mathrm{i}}{1+\\mathrm{i}} - \\frac{6+8\\mathrm{i}}{u+\\mathrm{i}}$, find the values of $u$, $u \\in \\mathbb{R}$, such that $\\mathrm{Re}\\, z = \\mathrm{Im}\\, z$."
+  },
+  {
+   "id": "math-2011-N-P2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 15]\nJan and Sia have been selected to represent their country at an international discus\nthrowing competition. Assume that the distance thrown by each athlete is normally\ndistributed. The mean distance thrown by Jan in the past year was 60.33 metres with\na standard deviation of 1.95 metres.\n(a) In the past year, 80 % of Jan’s throws have been longer than x metres. Find x\ncorrect to two decimal places. [2 marks]\n(b) In the past year, 80 % of Sia’s throws have been longer than 56.52 metres. If the\nmean distance of her throws was 59.39 metres, find the standard deviation of\nher throws. [3 marks]\n(c) This year, Sia’s throws have a mean of 59.50 metres and a standard deviation of\n3.00 metres. The mean and standard deviation of Jan’s throws have remained the\nsame. In the competition, an athlete must have at least one throw of 65 metres\nor more in the first round to qualify for the final round. Each athlete is allowed\nthree throws in the first round.\n(i) Determine whether Jan or Sia is more likely to qualify for the final on their\nfirst throw.\n(ii) Find the probability that both athletes qualify for the final. [10 marks]",
+   "ms_text": "2 11. (a) X∼ N(60.33, 1.95)\n< = ⇒ = P( X x ) 0.2 x 58.69 m (M1)A1\n[2 marks]\n(b) z = − 0.8416 … (A1)\n56.52 − 59.39\n− 0.8416 = (M1)\nσ\nσ≈ 3.41 A1\n[3 marks]\n2 2 (c) Jan X ~ N(60.33, 1.95) ; Sia X ~ N(59.50, 3.00)\n(i) Jan: P( X> 65) ≈ 0.00831 (M1)A1\nSia: P( Y> 65) ≈ 0.0334 A1\nSia is more likely to qualify R1\nNote: Only award R1 if (M1) has been awarded.\n≥ =− = (ii) Jan: P( X 1) 1 P( X 0) (M1)\n3 =− 1 (1 − 0.00831 … ) ≈ 0.0247 (M1)A1\n3 Sia: P( Y ≥ 1) =− 1 P( Y = 0) =− 1 (1 − 0.0334 … ) ≈ 0.0968 A1\nNote: Accept 0.0240 and 0.0969.\nhence, P( X ≥ 1 and Y ≥ 1) = 0.0247 × 0.0968 = 0.00239 (M1)A1\n[10 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.12",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 15]\nJan and Sia have been selected to represent their country at an international discus throwing competition. Assume that the distance thrown by each athlete is normally distributed. The mean distance thrown by Jan in the past year was 60.33 metres with a standard deviation of 1.95 metres.\n(a) In the past year, 80 % of Jan's throws have been longer than $x$ metres. Find $x$ correct to two decimal places. [2 marks]\n(b) In the past year, 80 % of Sia's throws have been longer than 56.52 metres. If the mean distance of her throws was 59.39 metres, find the standard deviation of her throws. [3 marks]\n(c) This year, Sia's throws have a mean of 59.50 metres and a standard deviation of 3.00 metres. The mean and standard deviation of Jan's throws have remained the same. In the competition, an athlete must have at least one throw of 65 metres or more in the first round to qualify for the final round. Each athlete is allowed three throws in the first round.\n(i) Determine whether Jan or Sia is more likely to qualify for the final on their first throw.\n(ii) Find the probability that both athletes qualify for the final. [10 marks]"
+  },
+  {
+   "id": "math-2011-N-P2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 16]\nIn an arithmetic sequence the first term is 8 and the common difference is 1 (a)\n4.\nIf the sum of the first 2n terms is equal to the sum of the next n terms, find n . [9 marks]\n(b) If a , a , a , … are terms of a geometric sequence with common ratio r ≠1,\n1 2 3\n2 2 n a ( 1 − r )( 1 − r )\n2 2 2 2 1 show that ( a − a ) + ( a − a ) + ( a − a ) + ... + ( a − a ) = . [7 marks]\n1 2 2 3 3 4 n n + 1\n+ r 1",
+   "ms_text": "2 n 1\n12. (a) S = 2(8) + (2 n − 1) (M1)\n2 n\n2 4\n− 2 n 1\n= n 16 + A1\n4\n3 n 1\nS = 28 ×+ (3 n − 1) (M1)\n3 n\n2 4\nn n − 3 3 1\n= 16 + A1\n2 4\nS = S − S ⇒ 2 S = S M1\n2 n 3 n 2 n 2 n 3 n\nsolve 2 S = S 2 n 3 n\n− − 2 n 1 3 n 3 n 1\n⇒ 2 n 16 + = 16 + A1\n4 2 4\n2 n − 1 3 3 n − 1\n⇒ + = + 216 16\n4 2 4\n(gdc or algebraic solution) (M1)\nn = 63 A2\n[9 marks]\n2 2 2 (b) ( a − a ) + ( a − a ) + ( a − a ) +…\n1 2 2 3 3 4\n2 2 2 2 3 = ( a − a r ) + ( a r − a r ) + ( a r − a r ) +… M1A1\n1 1 1 1 1 1\n2 2 2 2 2 n − 1\n= [ a (1 − r ) ] + [ a r (1 − r ) ] + a r (1 − r ) +…+ a r (1 − r ) (A1)\n1 1 1 1\nNote: This A1 is for the expression for the last term.\nn − = a 2 (1 − r ) 2 + ar 2 2 (1 − r ) 2 + ar 2 4 (1 − r ) 2 +…+ ar 2 2 2 (1 − r ) 2 A1\n1 1 1 1\n2 2 2 4 2 n − 2 = a\n1(1 − r )(1 + r + r +…+ r ) A1\n2 n 1 − r\n2 2 = a (1 − r ) M1A1\n1 2\n1 − r\n2 2 n a\n1(1 − r )(1 − r )\n= AG\n+ 1 r\n[7 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2",
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 16]\n(a) In an arithmetic sequence the first term is 8 and the common difference is $\\frac{1}{4}$. If the sum of the first $2n$ terms is equal to the sum of the next $n$ terms, find $n$. [9 marks]\n(b) If $a_1, a_2, a_3, \\ldots$ are terms of a geometric sequence with common ratio $r \\ne 1$, show that $(a_1-a_2)^2 + (a_2-a_3)^2 + (a_3-a_4)^2 + \\ldots + (a_n-a_{n+1})^2 = \\frac{a_1^2(1-r)(1-r^{2n})}{1+r}$. [7 marks]"
+  },
+  {
+   "id": "math-2011-N-P2-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 16]\nTwo planes Π1 and Π2 have equations 2 x + y + z = and 3 1 x + y − z = 2 respectively.\n(a) Find the vector equation of L , the line of intersection of Π1 and Π2. [6 marks]\n(b) Show that the plane Π3 which is perpendicular to Π1 and contains L , has\nequation x − 2 z = 1. [4 marks]\n(c) The point P has coordinates ( −241, the point Q lies on Π3 and PQ is , ,)\nperpendicular to Π2. Find the coordinates of Q. [6 marks]",
+   "ms_text": "13. (a) METHOD 1\nsolving simultaneously (gdc) (M1)\nx =+ 1 2 z ; y = −− 1 5 z A1A1\n1 2\nL : r =− 1 + λ − 5 A1A1A1\n0 1\nNote: 1stA1 is for r = .\n[6 marks]\nMETHOD 2\ni j k\ndirection of line = 3 1 − 1 (last two rows swapped) M1\n2 1 1\n= − + 2 i 5 j k A1\nputting z = 0 , a point on the line satisfies 2 x + y =, 3 1 x + y = 2 M1\ni.e. (1, − 1, 0) A1\nthe equation of the line is\nx 1 2\n=− + λ − A1A1 y 1 5\nz 0 1\nx\nNote: Award A0A1 if y is missing.\nz\n[6 marks]\n2 2\n(b) 1 ×− 5 M1\n1 1\n= 6 i − 12 k A1\n=− hence, n i 2 k\n1 1\nna i = 0 i − 1 = 1 M1A1\n− 2 0\ni = i ⇒ − = therefore rn an x 2 z 1 AG\n[4 marks]\n(c) METHOD 1\nP =− (2, 4, 1) , Q = (, xyz ,)\nx + 2\n→\nPQ = y − 4 A1\nz − 1\n→\nPQ is perpendicular to 3 x + y − z = 2\n→\n⇒ PQ is parallel to 3+ i j − k R1\n⇒ x + 2 = 3 t ; y − 4 =; t z −= − 1 t A1\n1 − z =⇒ t x + 2 = 3 − 3 z ⇒ x + 3 z = 1 A1\nsolving simultaneously x + 3 z =; 1 x − 2 z = 1 M1\n= ⇒ = 5 z 0 z 0 ; x =, 1 y = 5 A1\nhence, Q = (1, 5, 0)\n[6 marks]\nMETHOD 2\nLine passing through PQ has equation\n−2 3\nr = 4 + t 1 M1A1\n1 −1\nπ when: Meets\n3\n−+ 2 3 t − 2(1 − t ) = 1 M1A1\nt =1 A1\nQ has coordinates (1, 5, 0) A1\n[6 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.17",
+    "3.16",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 16]\nTwo planes $\\Pi_1$ and $\\Pi_2$ have equations $2x + y + z = 1$ and $3x + y - z = 2$ respectively.\n(a) Find the vector equation of $L$, the line of intersection of $\\Pi_1$ and $\\Pi_2$. [6 marks]\n(b) Show that the plane $\\Pi_3$ which is perpendicular to $\\Pi_1$ and contains $L$, has equation $x - 2z = 1$. [4 marks]\n(c) The point P has coordinates $(-2, 4, 1)$, the point Q lies on $\\Pi_3$ and PQ is perpendicular to $\\Pi_2$. Find the coordinates of Q. [6 marks]"
+  },
+  {
+   "id": "math-2011-N-P2-q14",
+   "num": "14",
+   "section": "B",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14. [Maximum mark: 13]\n(a) Show that eiθ=1. [1 mark]\n1 1 i θ 2 i θ\nConsider the geometric series 1 + e + e +… .\n3 9\nWrite down the common ratio, z , of the series, and show that z=1 (b) [2 marks]\n3.\n(c) Find an expression for the sum to infinity of this series. [2 marks]\n1 1 9 sin θ\n(d) Hence, show that sin θ + sin 2 θ + sin 3 θ +…= . [8 marks]\n3 9 10 − 6 cos θ",
+   "ms_text": "θ\n14. (a) e i ( = |cos θ + isin| θ ) = cos 2 θ + sin 2 θ = 1 M1AG\n[1 mark]\n1e i θ (b) z = A1\n3\n1 1 i θ\nz = e = A1AG\n3 3\n[2 marks]\na 1\n(c) S ∞= = (M1)A1\n1 − r 1 i θ\n1 − e\n3\n[2 marks]\n(d) EITHER\n1\nS ∞= A1\n1 1\n1 − cos θ − isin θ\n3 3\n1 1\n− θ + θ 1 cos isin\n3 3 =\nM1A1\n1 1 1 1\n1 − cos θ − isin θ 1 − cos θ + isin θ\n3 3 3 3\n1 1\n1 − cos θ + isin θ\n3 3 =\nA1\n2\n1 1 2\n1 − cos θ + sin θ\n3 9\n1 1\n1 − cos θ + isin θ\n= 3 3 A1\n2 1\n1 − cos θ +\n3 9\nOR\n1\nS ∞=\n1\n− i θ 1 e\n3\n1 − i θ\n1 − e\n3\n= M1A1\n1 1 i θ − i θ\n1 − e 1 − e\n3 3\n1\n− − i θ 1 e\n3\n= A1\n1 i θ − i θ 1\n1 − (e + e ) +\n3 9\n1\n− − i θ 1 e\n3\n= A1\n10 2 cos\n− θ\n9 3\n1\n− θ − θ 1 (cos isin)\n3\n= A1\n10 2 cos\n− θ\n9 3\nTHEN\ntaking imaginary parts on both sides\n1sin θ\n1 1 3\nsin θ + sin 2 θ +…= M1A1A1\n10 2 3 9\n− cos θ\n9 3\nsin θ\n=\n10 2 cos\n− θ\n9 3\n1 9sin θ\n⇒ sin θ + sin2 θ +…= AG\n3 10 − 6cos θ\n[8 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.8",
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "14. [Maximum mark: 13]\n(a) Show that $|\\mathrm{e}^{\\mathrm{i}\\theta}| = 1$. [1 mark]\nConsider the geometric series $1 + \\frac{1}{3}\\mathrm{e}^{\\mathrm{i}\\theta} + \\frac{1}{9}\\mathrm{e}^{2\\mathrm{i}\\theta} + \\ldots$.\n(b) Write down the common ratio, $z$, of the series, and show that $|z| = \\frac{1}{3}$. [2 marks]\n(c) Find an expression for the sum to infinity of this series. [2 marks]\n(d) Hence, show that $\\sin\\theta + \\frac{1}{3}\\sin 2\\theta + \\frac{1}{9}\\sin 3\\theta + \\ldots = \\frac{9\\sin\\theta}{10 - 6\\cos\\theta}$. [8 marks]"
+  }
+ ],
+ "status": "done"
+}

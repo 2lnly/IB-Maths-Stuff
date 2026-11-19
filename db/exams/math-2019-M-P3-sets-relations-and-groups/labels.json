@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2019-M-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.2"],
+      "text_clean": "1. [Maximum mark: 9]\nThe relation $R$ is defined on $\\mathbb{N}$ by $xRy \\Leftrightarrow x^2 + y^2 \\equiv 0 \\pmod{2}$.\n(a) Show that $R$ is an equivalence relation. [7]\n(b) Determine the equivalence classes. [2]"
+    },
+    "2": {
+      "topics": ["7"],
+      "subtopics": ["7.4"],
+      "text_clean": "2. [Maximum mark: 14]\nBinary operations $\\circ$ and $*$ are defined on the set of complex numbers such that $z_1 \\circ z_2 = A(z_1 + z_2)$ and $z_1 * z_2 = Bz_1z_2$ where $A$ and $B$ are real non-zero constants.\n(a) Determine the identity with respect to $*$. [2]\n(b) Show that every element of the set of complex numbers, apart from $z = 0$, has an inverse with respect to $*$. [3]\n(c) Find the value of $A$ for which the operation $\\circ$ is associative. [4]\n(d) Show that $*$ is distributive over $\\circ$ for all values of $A$ and $B$. [5]"
+    },
+    "3": {
+      "topics": ["7"],
+      "subtopics": ["7.5", "7.4", "7.9"],
+      "text_clean": "3. [Maximum mark: 9]\nA non-Abelian group, $\\{G, \\circ\\}$, has eight elements $e, a, a^2, a^3, b, ab, a^2b, a^3b$, where $e$ is the identity. The binary operation is $\\circ$ and, for example, $a \\circ b$ is denoted by $ab$.\nThe element $a$ has order 4, the element $b$ has order 2 and $ba = a^3b$.\n(a) Prove that\n(i) $ba^2 = a^2b$;\n(ii) $ba^3 = ab$. [4]\n(b) The group $\\{G, \\circ\\}$ has the following Cayley table. Find the elements $P, Q, R, S, T, U, V, W$ of the group. [4]\n[Table: Cayley table]\n$\\circ$ | $e$ | $a$ | $a^2$ | $a^3$ | $b$ | $ab$ | $a^2b$ | $a^3b$\n$e$ | $e$ | $a$ | $a^2$ | $a^3$ | $b$ | $ab$ | $a^2b$ | $a^3b$\n$a$ | $a$ | $a^2$ | $a^3$ | $e$ | $ab$ | $a^2b$ | $a^3b$ | $b$\n$a^2$ | $a^2$ | $a^3$ | $e$ | $a$ | $a^2b$ | $a^3b$ | $b$ | $ab$\n$a^3$ | $a^3$ | $e$ | $a$ | $a^2$ | $a^3b$ | $b$ | $ab$ | $a^2b$\n$b$ | $b$ | $a^3b$ | $a^2b$ | $ab$ | $e$ | $a^3$ | $a^2$ | $a$\n$ab$ | $ab$ | $b$ | $a^3b$ | $a^2b$ | $a$ | $e$ | $R$ | $U$\n$a^2b$ | $a^2b$ | $ab$ | $b$ | $P$ | $a^2$ | $a$ | $S$ | $V$\n$a^3b$ | $a^3b$ | $a^2b$ | $ab$ | $Q$ | $a^3$ | $a^2$ | $T$ | $W$\n(c) State why $\\{G, \\circ\\}$ is not isomorphic to the group $\\{\\{0, 1, 2, 3, 4, 5, 6, 7\\}, +_8\\}$, where $+_8$ denotes addition modulo 8. [1]"
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.5"],
+      "text_clean": "4. [Maximum mark: 7]\nLet $S$ be the set of real numbers of the form $a + b\\sqrt{5}$ where $a, b \\in \\mathbb{Q}$, $a^2$ cannot equal $5b^2$, and $a, b$ are not simultaneously zero. Show that $S$ is a group under the operation of multiplication. Associativity may be assumed. [7]"
+    },
+    "5": {
+      "topics": ["7"],
+      "subtopics": ["7.3"],
+      "text_clean": "5. [Maximum mark: 11]\nConsider the function $f: \\mathbb{R} \\times \\mathbb{R} \\to \\mathbb{R} \\times \\mathbb{R}$ defined by $f(x, y) = (x + y, x - y)$.\n(a) Prove that the function $f$ is a bijection. [9]\nConsider the function $g: \\mathbb{Z} \\times \\mathbb{Z} \\to \\mathbb{Z} \\times \\mathbb{Z}$ defined by $g(x, y) = (x + y, x - y)$.\n(b) Explain why the function $g$ is not a bijection. [2]"
+    }
+  }
+}

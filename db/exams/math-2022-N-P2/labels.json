@@ -1,0 +1,151 @@
+{
+ "exam_id": "math-2022-N-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.4"
+   ],
+   "text_clean": "1. [Maximum mark: 5]\nThe following table shows the Mathematics test scores $(x)$ and the Science test scores $(y)$ for a group of eight students.\nMathematics scores $(x)$: 64 | 68 | 72 | 75 | 80 | 82 | 85 | 86\nScience scores $(y)$: 67 | 72 | 77 | 76 | 84 | 83 | 89 | 91\nThe regression line of $y$ on $x$ for this data can be written in the form $y = ax + b$.\n(a) Find the value of $a$ and the value of $b$. [2]\n(b) Write down the value of the Pearson's product-moment correlation coefficient, $r$. [1]\n(c) Use the equation of your regression line to predict the Science test score for a student who has a score of 78 on the Mathematics test. Express your answer to the nearest integer. [2]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.4",
+    "5.11"
+   ],
+   "text_clean": "2. [Maximum mark: 6]\nThe function $f$ is defined as $f(x) = \\ln(x\\mathrm{e}^x + 1) - x^4$, for $0 \\le x \\le 2$. The graph of $f$ is shown in the following diagram.\n[Graph: curve of f from the origin rising to a local maximum A near x = 0.7, crossing the x-axis at B just after x = 1, then falling steeply to about y = -14 at x = 2]\nThe graph of $f$ has a local maximum at point A. The graph intersects the $x$-axis at the origin and at point B.\n(a) Find the coordinates of A. [2]\n(b) Find the $x$-coordinate of B. [1]\n(c) Find the total area enclosed by the graph of $f$, the $x$-axis and the line $x = 2$. [3]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3"
+   ],
+   "text_clean": "3. [Maximum mark: 5]\nA geometric sequence has a first term of 50 and a fourth term of 86.4.\nThe sum of the first $n$ terms of the sequence is $S_n$.\nFind the smallest value of $n$ such that $S_n > 33\\,500$.",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.9",
+    "1.7"
+   ],
+   "text_clean": "4. [Maximum mark: 7]\nThe population of a town $t$ years after 1 January 2014 can be modelled by the function\n$P(t) = 15\\,000\\mathrm{e}^{kt}$, where $k < 0$ and $t \\ge 0$.\nIt is known that between 1 January 2014 and 1 January 2022 the population decreased by 11%.\nUse this model to estimate the population of this town on 1 January 2041.",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "text_clean": "5. [Maximum mark: 6]\nConsider the expansion of $\\dfrac{(ax+1)^9}{21x^2}$, where $a \\ne 0$. The coefficient of the term in $x^4$ is $\\dfrac{8}{7}a^5$.\nFind the value of $a$.",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.16"
+   ],
+   "text_clean": "6. [Maximum mark: 8]\nThe continuous random variable $X$ has a probability density function given by\n$f(x) = \\begin{cases} ax\\mathrm{e}^x, & 0 \\le x \\le b \\\\ 0, & \\text{otherwise} \\end{cases}$\nwhere $a, b \\in \\mathbb{R}^+$.\n(a) Find an expression for $a$ in terms of $b$. [5]\n(b) In the case where $a = b = 1$, find the median of $X$. [3]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.13",
+    "5.13"
+   ],
+   "text_clean": "7. [Maximum mark: 6]\nConsider the vectors $\\boldsymbol{u} = \\boldsymbol{i} + \\boldsymbol{j}$ and $\\boldsymbol{v} = \\left(\\cos\\frac{1}{n}\\right)\\boldsymbol{i} + \\left(\\sin\\frac{1}{n}\\right)\\boldsymbol{j}$, where $n \\in \\mathbb{Z}^+$.\nLet $\\theta$ be the angle between $\\boldsymbol{u}$ and $\\boldsymbol{v}$.\n(a) Find an expression for $\\cos\\theta$ in terms of $n$. [3]\n(b) Find the exact value of the limit approached by $\\theta$ as $n \\to \\infty$. [3]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.14",
+    "2.10"
+   ],
+   "text_clean": "8. [Maximum mark: 6]\nThe following diagram shows liquid in a round-bottomed glass flask, which is made of a sphere and a cylindrical neck.\n[Diagram: spherical flask with a cylindrical neck, partly filled with liquid]\nInitially, the flask is empty. Liquid is poured into the flask at a rate of $2\\,\\text{cm}^3\\,\\text{s}^{-1}$. You may assume that the liquid does not reach the cylindrical neck.\nThe volume $V\\,\\text{cm}^3$ and the height $h\\,\\text{cm}$ of the liquid in the flask satisfy the equation\n$V = 5\\pi h^2 - \\frac{1}{3}\\pi h^3$.\nFind the rate of change of the height of the liquid in the flask at the instant when the volume of the liquid is $200\\,\\text{cm}^3$.",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.9",
+    "2.4"
+   ],
+   "text_clean": "9. [Maximum mark: 8]\nConsider a quadrilateral ABCD such that AB $= 2$, BC $= 4$, CD $= 6$ and DA $= 8$, as shown in the following diagram. Let $\\alpha = \\mathrm{A\\hat{B}C}$ and $\\beta = \\mathrm{A\\hat{D}C}$.\n[Diagram (not to scale): quadrilateral ABCD with AB = 2, BC = 4, CD = 6, DA = 8; angle alpha at B, angle beta at D]\n(a) (i) Find AC in terms of $\\alpha$.\n(ii) Find AC in terms of $\\beta$.\n(iii) Hence or otherwise, find an expression for $\\alpha$ in terms of $\\beta$. [4]\n(b) Find the maximum area of the quadrilateral ABCD. [4]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.11",
+    "4.12",
+    "4.8",
+    "4.6"
+   ],
+   "text_clean": "10. [Maximum mark: 16]\nThe time worked, $T$, in hours per week by employees of a large company is normally distributed with a mean of 42 and standard deviation 10.7.\n(a) Find the probability that an employee selected at random works more than 40 hours per week. [2]\n(b) A group of four employees is selected at random. Each employee is asked in turn whether they work more than 40 hours per week. Find the probability that the fourth employee is the only one in the group who works more than 40 hours per week. [3]\n(c) A large group of employees work more than 40 hours per week.\n(i) An employee is selected at random from this large group. Find the probability that this employee works less than 55 hours per week.\n(ii) Ten employees are selected at random from this large group. Find the probability that exactly five of them work less than 55 hours per week. [7]\nIt is known that $\\mathrm{P}(a \\le T \\le b) = 0.904$ and that $\\mathrm{P}(T > b) = 2\\mathrm{P}(T < a)$, where $a$ and $b$ are numbers of hours worked per week. An employee who works fewer than $a$ hours per week is considered to be a part-time employee.\n(d) Find the maximum time, in hours per week, that an employee can work and still be considered part-time. [4]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.17",
+    "5.4",
+    "2.5"
+   ],
+   "text_clean": "11. [Maximum mark: 15]\nThe function $f$ is defined by $f(x) = \\mathrm{e}^{2x}(3x - 4)$, where $x \\in \\mathbb{R}$.\n(a) Find $f'(x)$. [3]\n(b) Hence or otherwise, find the coordinates of the point on the graph of $y = f(x)$ where the tangent is parallel to the line $y = x$. [3]\nThe region enclosed by the curve $y = f(x)$, the $x$-axis and the $y$-axis is rotated through $2\\pi$ radians about the $x$-axis to form a solid of revolution.\n(c) Find the volume of this solid. [4]\nConsider a function $g$ such that $g(0) = 1$ and $g'(0) = 2$.\n(d) Find the value of\n(i) $(f \\circ g)(0)$;\n(ii) $(f \\circ g)'(0)$. [5]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.17",
+    "3.18",
+    "3.16",
+    "3.14",
+    "3.12"
+   ],
+   "text_clean": "12. [Maximum mark: 22]\nConsider the points A$(1, 2, 3)$, B$(k, -2, 1)$ and C$(5, 0, 2)$, where $k \\in \\mathbb{R}$.\n(a) Write down $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$. [2]\n(b) Given that the points A, B and C lie on a straight line, show that $k = 9$. [1]\n(c) For $k = 9$, let $L_1$ be the line passing through A, B and C.\n(i) Find a vector equation of the line $L_1$.\n(ii) Line $L_2$ has the equation $\\frac{x-1}{2} = \\frac{y}{3} = 1 - z$. Show that the lines $L_1$ and $L_2$ are skew. [10]\n(d) For $k \\ne 9$, let $\\Pi$ be the plane containing A, B and C.\n(i) Find the Cartesian equation of the plane $\\Pi$.\n(ii) Find the coordinates of the point on the plane $\\Pi$ which is closest to the origin $(0, 0, 0)$. [9]",
+   "answer_status": "ok"
+  }
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2010-M-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2010,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2010 May Examination Session/Mathematics_paper_3_Statistics_and_probability_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2010 May Examination Session/Mathematics_paper_3_Statistics_and_probability_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2210-7210; code M10/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches expected total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2010-M-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 12]\nAnna cycles to her new school. She records the times taken for the first ten days with\nthe following results (in minutes).\n12 4 . 13 7 . 12 5 . 13 4 . 13 8 . 12 314 . . 0 12 8 . 12 6 . 13 5 .\nAssume that these times are a random sample from the N(, µσ2 distribution. )\n2 . (a) Determine unbiased estimates for µ and σ [2 marks]\n(b) Calculate a 95 % confidence interval for µ . [3 marks]\nBefore Anna calculated the confidence interval she thought that the value of µ (c)\nwould be 12.5. In order to check this, she sets up the null hypothesis H0 : µ = 12 5 . .\n(i) Use the above data to calculate the value of an appropriate test statistic.\nFind the corresponding p-value using a two-tailed test.\n(ii) Interpret your p-value at the 1 % level of significance, justifying your\nconclusion. [7 marks]",
+   "ms_text": "1. (a) estimate of 13.1 A1\n2 estimate of 0.416 A1\n[2 marks]\n(b) using a GDC (or otherwise), the 95% confidence interval is (M1)\n[12.6, 13.6] A1A1\nNote: Accept open or closed intervals.\n[3 marks]\n13.112.5\n(c) (i) t 2.94 (M1)A1\n0.6446.../10\nv 9 (A1)\np-value 2P( T 2.9433...) (M1)\n0.0164 (accept 0.0165) A1\n(ii) we accept the null hypothesis (the mean travel time is 12.5 minutes) A1\nbecause 0.0164 (or 0.0165) 0.01 R1\nNote: Allow follow through on their p-value.\n[7 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L6",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 12]\nAnna cycles to her new school. She records the times taken for the first ten days with the following results (in minutes).\n12.4  13.7  12.5  13.4  13.8  12.3  14.0  12.8  12.6  13.5\nAssume that these times are a random sample from the $\\mathrm{N}(\\mu, \\sigma^2)$ distribution.\n(a) Determine unbiased estimates for $\\mu$ and $\\sigma^2$. [2 marks]\n(b) Calculate a 95 % confidence interval for $\\mu$. [3 marks]\n(c) Before Anna calculated the confidence interval she thought that the value of $\\mu$ would be 12.5. In order to check this, she sets up the null hypothesis $\\mathrm{H}_0 : \\mu = 12.5$.\n(i) Use the above data to calculate the value of an appropriate test statistic. Find the corresponding $p$-value using a two-tailed test.\n(ii) Interpret your $p$-value at the 1 % level of significance, justifying your conclusion. [7 marks]"
+  },
+  {
+   "id": "math-2010-M-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\nThe random variable X has a Poisson distribution with mean µ . The value of µ is\nknown to be either 1 or 2 so the following hypotheses are set up.\nH : µ = 1 ;H : µ = 2\n0 1\nA random sample x , x , ..., x of 10 observations is taken from the distribution of X\n1 2 10\nand the following critical region is defined.\n10\n≥ 15 i=∑ xi\n1\nDetermine the probability of\n(a) a Type I error; [5 marks]\n(b) a Type II error. [5 marks]",
+   "ms_text": "10\n2. (a) let T Xso that T is Po(10) under H0 (M1)\ni\ni 1\nP(Type I error) P T 15| 1 M1A1\n0.0835 A2 N3\nNote: Candidates who write the first line and only the correct answer\naward (M1)M0A0A2.\n[5 marks]\n10\n(b) let T Xso that T is Po(20) under H1 (M1)\ni\ni 1\nP(Type II error) P T 14| 2 M1A1\n0.105 A2 N3\nNote: Candidates who write the first line and only the correct answer\naward (M1)M0A0A2.\nNote: Award 5 marks to a candidate who confuses Type I and Type II errors and\nhas both answers correct.\n[5 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L1",
+    "4.L4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\nThe random variable $X$ has a Poisson distribution with mean $\\mu$. The value of $\\mu$ is known to be either 1 or 2 so the following hypotheses are set up.\n$\\mathrm{H}_0 : \\mu = 1;\\ \\mathrm{H}_1 : \\mu = 2$\nA random sample $x_1, x_2, \\ldots, x_{10}$ of 10 observations is taken from the distribution of $X$ and the following critical region is defined.\n$\\sum_{i=1}^{10} x_i \\geq 15$\nDetermine the probability of\n(a) a Type I error; [5 marks]\n(b) a Type II error. [5 marks]"
+  },
+  {
+   "id": "math-2010-M-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 13]\nThe random variable X is assumed to have probability density function f , where\nx\n, 0 ≤ x ≤ 6\nfx () = 18\n0 , otherwise .\n(a) Show that if the assumption is correct, then\n2 2 b − a\nP ( a ≤ X ≤ b ) = , for 0 ≤ a ≤ b ≤ 6 . [3 marks]\n36\n(b) A random sample of 180 values of X was obtained and the following table\nproduced.\nInterval [0 , 1[ [1 , 2[ [2 , 3[ [3 , 4[ [4 , 5[ [5 , 6]\nFrequency 8 18 24 37 44 49\nStating appropriate hypotheses, test the assumption at the 5 % level of significance\nusing a χ 2 test. [10 marks]",
+   "ms_text": "b x\n3. (a) P( a X b ) d x M1A1\na 18\n2 b x\nA1\n36\na\n2 2 b a\nAG\n36\n[3 marks]\n(b) H: X has the given distribution; H: it does not A1\n0 1\n2 2 expected number of values between a and b is 5( b a ) (M1)\nthe expected frequencies are\n5, 15, 25, 35, 45, 55 A2\nNote: Award A1 for 5 correct frequencies.\n2 2 2 2 2 2 8 18 24 37 44 49\n2 180 (M1)(A1)\ncalc\n5 15 25 35 45 55\n3.23... (A1)\n5 (A1)\nEITHER\ncritical value 11.07 A1\nOR\np-value 0.664 (accept 0.665) A1\nTHEN\naccept the assumption R1\nNote:Allow follow through from their previous working for the R1.\n[10 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 13]\nThe random variable $X$ is assumed to have probability density function $f$, where\n$f(x) = \\begin{cases} \\frac{x}{18}, & 0 \\leq x \\leq 6 \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Show that if the assumption is correct, then\n$\\mathrm{P}(a \\leq X \\leq b) = \\frac{b^2 - a^2}{36}$, for $0 \\leq a \\leq b \\leq 6$. [3 marks]\n(b) A random sample of 180 values of $X$ was obtained and the following table produced.\nInterval | [0, 1[ | [1, 2[ | [2, 3[ | [3, 4[ | [4, 5[ | [5, 6]\nFrequency | 8 | 18 | 24 | 37 | 44 | 49\nStating appropriate hypotheses, test the assumption at the 5 % level of significance using a $\\chi^2$ test. [10 marks]"
+  },
+  {
+   "id": "math-2010-M-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 8]\nA shop sells apples, pears and peaches. The weights, in grams, of these three types of\nfruit may be assumed to be normally distributed with means and standard deviations\nas given in the following table.\nFruit Mean Standard Deviation\nApples 115 5\nPears 110 4\nPeaches 105 3\nAlan buys 1 apple and 1 pear while Brian buys 1 peach. Calculate the probability\nthat the combined weight of Alan’s apple and pear is greater than twice the weight of\nBrian’s peach.",
+   "ms_text": "4. let XYZ denote respectively the weights, in grams, of a randomly chosen apple, , ,\npear, peach\n2 2 2 2 then U X Y – 2 Z isN(115110 – 2105, 5 4 2 3) (M1)(A1)(A1)\nNote: Award M1 for attempted use of U.\ni.e.N(15, 77) A1\nwe require\nP( X Y 2) Z P( U 0) M1A1\n0.956 A2\nNote: Award M0A0A2 for 0.956 only.\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 8]\nA shop sells apples, pears and peaches. The weights, in grams, of these three types of fruit may be assumed to be normally distributed with means and standard deviations as given in the following table.\nFruit | Mean | Standard Deviation\nApples | 115 | 5\nPears | 110 | 4\nPeaches | 105 | 3\nAlan buys 1 apple and 1 pear while Brian buys 1 peach. Calculate the probability that the combined weight of Alan's apple and pear is greater than twice the weight of Brian's peach."
+  },
+  {
+   "id": "math-2010-M-P3-statistics-and-probability-q5",
+   "num": "5",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 17]\n(a) A bag contains 20 coloured balls of which 12 are red and 8 are blue. A random\nsample of 6 of these balls is selected without replacement. Calculate the mean\nand the variance of the number of red balls in the sample. [7 marks]\n(b) The random variable X has the negative binomial distribution NB(5, p, )\nwhere p < 0 5., and P( X= 10 ) = 0 05. By first finding the value of p , find the .\n[10 marks] value of P( X=11. )",
+   "ms_text": "5. (a) p 12 / 20 (A1)\nmean np 3.6 A1\nsince the distribution of red balls is hypergeometric (M1)\nwith parameters (6, 12, 20) (A1)\nN n\nvariance np (1 p ) (M1)\nN 1\n14\n(A1)\n3.60.419\n1.06 A1\n[7 marks]\n9\n5 5 (b) P( X 10) p (1 p ) (0.05) (M1)A1A1\n4\nNote:First A1 is for the binomial coefficient. Second A1 is for the rest.\nsolving by any method, p 0.297 A4\nNotes:Award A2 for anything which rounds to 0.703.\nDo not apply any AP at this stage.\n10\n5 6 P( X 11) (0.297 ) (1 0.297 ) (M1)A1\n4\n0.0586 A1\nNote: Allow follow through for incorrect p-values.\n[10 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L2",
+    "4.L10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 17]\n(a) A bag contains 20 coloured balls of which 12 are red and 8 are blue. A random sample of 6 of these balls is selected without replacement. Calculate the mean and the variance of the number of red balls in the sample. [7 marks]\n(b) The random variable $X$ has the negative binomial distribution $\\mathrm{NB}(5, p)$, where $p < 0.5$, and $\\mathrm{P}(X = 10) = 0.05$. By first finding the value of $p$, find the value of $\\mathrm{P}(X = 11)$. [10 marks]",
+   "review_note": "(a) is the hypergeometric distribution (mean/variance), which has no dedicated taxonomy code; tagged 4.14/4.7. | audit: (a) hypergeometric mean/variance -> new 4.L10 (replaces stand-in 4.14/4.7)"
+  }
+ ],
+ "status": "done"
+}

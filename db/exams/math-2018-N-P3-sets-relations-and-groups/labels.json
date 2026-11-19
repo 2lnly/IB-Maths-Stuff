@@ -1,0 +1,35 @@
+{
+  "exam_id": "math-2018-N-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.4", "7.5"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 13]\nConsider the binary operation $*$ defined on the set of rational numbers, $\\mathbb{Q}$ by $a*b = a + b + ab$.\n(a) Show that the operation $*$ is\n(i) commutative;\n(ii) associative. [5]\n(b) Solve the equation $a*b = -1$. [3]\nLet $S = \\{x \\in \\mathbb{Q} \\mid x \\neq -1\\}$.\n(c) Show that $\\{S, *\\}$ is an Abelian group. [5]"
+    },
+    "2": {
+      "topics": ["7"],
+      "subtopics": ["7.1"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 8]\nConsider two subsets $X$ and $Y$ of a universal set $U$.\n(a) Use De Morgan's laws to prove that $\\left[(X' \\cup Y')' \\cap Y'\\right]' = U$. [4]\nLet $X = \\{(m, n) \\in \\mathbb{Z} \\times \\mathbb{Z} \\mid m = n^2\\}$ and $Y = \\{(m, n) \\in \\mathbb{Z} \\times \\mathbb{Z} \\mid 0 \\le m + n \\le 6\\}$.\n(b) List all elements of $X \\cap Y$. [4]"
+    },
+    "3": {
+      "topics": ["7"],
+      "subtopics": ["7.2"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 10]\nA relation $R$ is defined on $\\mathbb{R} \\times \\mathbb{R}$ by $(a, b)R(c, d) \\Leftrightarrow 3(a - c) = 2(b - d)$.\n(a) Show that $R$ is an equivalence relation. [8]\n(b) Find the equivalence class containing $(1, 2)$ and describe it geometrically. [2]"
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.3"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 9]\nConsider the functions $f, g : \\mathbb{R} \\times \\mathbb{R} \\to \\mathbb{R} \\times \\mathbb{R}$ defined by\n$f((x, y)) = (x + y, x - y)$ and $g((x, y)) = (xy, x + y)$.\n(a) Find\n(i) $(f \\circ g)((x, y))$;\n(ii) $(g \\circ f)((x, y))$. [5]\n(b) State with a reason whether or not $f$ and $g$ commute. [1]\n(c) Find the inverse of $f$. [3]"
+    },
+    "5": {
+      "topics": ["7"],
+      "subtopics": ["7.8", "7.3", "7.1"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 10]\nConsider a finite group $\\{G, *\\}$. Let $H$ be a subgroup of $G$ of order $m$ such that $G \\setminus H \\neq \\varnothing$. Let $a$ be a fixed element of $G \\setminus H$. Consider the set $A = \\{a*h \\mid h \\in H\\}$.\n(a) Show that $A \\cap H = \\varnothing$. [3]\nConsider the function $f : H \\to A$ defined by $f(h) = a*h$.\n(b) Show that $f$ is a bijection. [4]\n(c) Find the number of elements in the set $A \\cup H$. [3]"
+    }
+  }
+}

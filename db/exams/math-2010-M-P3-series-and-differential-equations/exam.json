@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2010-M-P3-series-and-differential-equations",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2010,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Series and differential equations",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2010 May Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2010 May Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2210-7208; code M10/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2010-M-P3-series-and-differential-equations-q1",
+   "num": "1",
+   "section": null,
+   "marks": 8,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 8]\ny Given that d\n2 x − 2 y = e and y =1 when x = 0 , use Euler’s method with a step length\nd x\nof 0.1 to find an approximation for the value of y when x = 0 4.. Give all intermediate\nvalues with maximum possible accuracy.",
+   "ms_text": "d y x 2\n1. e 2 y (A1)\nd x\nx y dy/dxδ y\n0 1 3 0.3 M1A1\n0.1 1.3 4.485170918 0.4485170918 A1\n0.2 1.7485170918 7.336026799 0.7336026799 A1\n0.3 2.482119772 13.67169593 1.367169593 A1\n0.4 3.849289365 A1\nrequired approximation 3.85 A1\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 8]\nGiven that $\\frac{dy}{dx} - 2y^2 = e^x$ and $y = 1$ when $x = 0$, use Euler's method with a step length of 0.1 to find an approximation for the value of $y$ when $x = 0.4$. Give all intermediate values with maximum possible accuracy."
+  },
+  {
+   "id": "math-2010-M-P3-series-and-differential-equations-q2",
+   "num": "2",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 11]\n∞ ∞ − x − x\n(a) Using integration by parts, show that ∫ e cos xx d = ∫ e sin xx d . [5 marks]\n0 0\n(b) Find the value of these two integrals. [6 marks]",
+   "ms_text": "d\n2. (a) e x cosd xx e x sin x sin x (e x )d x M1A1\n0 0 0 d x\nx x since e 0 as x and sin x is bounded esin x 0 as x R1\n(or alternative convincing argument)\nx e sin x 0 when x 0 R1\nx the second term\n0esind xx A1\nx x so e cosd xx esind xx AG\n0 0\n[5 marks]\n(b) continuing the process\nd x x x\ne cosd xx e cos x cos x (e )d x M1A1\n0 0 0 d x\nthe value of the first term is 1 A1\nx the second term cosd xx A1\n0e\nso 2 e x cosd xx 1 A1\n0\nthe common value of the integrals is 1 A1\n2\n[6 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 11]\n(a) Using integration by parts, show that $\\int_0^{\\infty} e^{-x}\\cos x\\,dx = \\int_0^{\\infty} e^{-x}\\sin x\\,dx$. [5 marks]\n(b) Find the value of these two integrals. [6 marks]"
+  },
+  {
+   "id": "math-2010-M-P3-series-and-differential-equations-q3",
+   "num": "3",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 9]\nSolve the differential equation\nd y 2 2 2\nx y + xy + 4 x ,\nd=\nx\ngiven that y = 2 when x =1. Give your answer in the form y = fx () .",
+   "ms_text": "y d v vx so that d\n3. put y v x (M1)\nd x d x\nd v 2\nthe equation becomes v x v v 4 A1\nd x\nd v d x\nA1\n2 v 4 x\nv 1 arctan\nln x C A1A1\n2 2\nsubstituting (,) xv (1, 2)\nC M1A1\n8\nthe solution is\ny\narctan 2ln x A1\n2 x 4\ny 2tan2ln x x A1\n4\n[9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 9]\nSolve the differential equation\n$x^2\\frac{dy}{dx} = y^2 + xy + 4x^2$,\ngiven that $y = 2$ when $x = 1$. Give your answer in the form $y = f(x)$."
+  },
+  {
+   "id": "math-2010-M-P3-series-and-differential-equations-q4",
+   "num": "4",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 17]\n(a) Using the Maclaurin series for ( 1+ xn, write down and simplify the Maclaurin )\n1\n− 2\nseries approximation for ( 1 − x ) 2 as far as the term in x4. [3 marks]\n(b) Use your result to show that a series approximation for arccos x is\nπ 1 3\n3 5 . arccos x ≈ − x − x − x [3 marks]\n2 6 40\nπ 2 2\n− arccos( x ) − x\n2\n(c) Evaluate lim . [5 marks]\n6 x → 0 x\n(d) Use the series approximation for arccos x to find an approximate value for\n0 2 .\n( ) ∫ arccos x d x ,\n0\ngiving your answer to 5 decimal places. Does your answer give the actual value\nof the integral to 5 decimal places? [6 marks]",
+   "ms_text": "nn ( 1)\n4. (a) using or obtaining (1 x ) n 1 nx x 2 ... (M1)\n2\n1 1 ( x 2 ) 2 1 3\n2 2 (1 x ) 2 1( x ) ... (A1)\n2 2 2 2\n1 3 2 4\n1 x x ... A1\n2 8\n[3 marks]\n(b) integrating, and changing sign\n1 3 3 5\narccos x x x x C ... M1A1\n6 40\nput x 0 ,\nC M1\n2\n1 3 3 5\narccos x x x x AG\n2 6 40\n[3 marks]\n(c) EITHER\n1 3 2 2 6 10\nusing arccos x x x x M1A1\n2 6 40\n6 x\n2 2 higher powers arccos x x\n6\nlim lim M1A1\n6 6 x 0 x x 0 x\n1\nA1\n6\nOR\nusing l’Hôpital’s Rule M1\n1\n2 x 2 x\n4 1 x\nlimit lim M1\n5 x 0 6 x\n1\n1\n4 1 x\nlim A1\nx 0 4 3 x\n1 1 3\n4 x\n4 3/2 2 (1 x )\nlim M1\nx 0 3 12 x\n1\nA1\n6\n[5 marks]\n1 3 5\n0.2 0.2 1 3\n(d) arccos xx d x 2 x 2 x 2 d x M1\n0 0 2 6 40\n0.2 3 5 7\n2 1 3\n2 2 2 x x x x (A1)\n2 3 15 140\n0\n3 5 7 2 1 3\n2 2 2 0.2 0.2 0.2 0.2 (A1)\n2 3 15 140\n0.25326 (to 5 decimal places) A1\nNote: Accept integration of the series approximation using a GDC.\nusing a GDC, the actual value is 0.25325 A1\nso the approximation is not correct to 5 decimal places R1\n[6 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.13",
+    "5.11",
+    "1.10",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 17]\n(a) Using the Maclaurin series for $(1+x)^n$, write down and simplify the Maclaurin series approximation for $(1-x^2)^{-\\frac{1}{2}}$ as far as the term in $x^4$. [3 marks]\n(b) Use your result to show that a series approximation for $\\arccos x$ is\n$\\arccos x \\approx \\frac{\\pi}{2} - x - \\frac{1}{6}x^3 - \\frac{3}{40}x^5$. [3 marks]\n(c) Evaluate $\\lim_{x\\to 0} \\frac{\\frac{\\pi}{2} - \\arccos(x^2) - x^2}{x^6}$. [5 marks]\n(d) Use the series approximation for $\\arccos x$ to find an approximate value for\n$\\int_0^{0.2} \\arccos(\\sqrt{x})\\,dx$,\ngiving your answer to 5 decimal places. Does your answer give the actual value of the integral to 5 decimal places? [6 marks]"
+  },
+  {
+   "id": "math-2010-M-P3-series-and-differential-equations-q5",
+   "num": "5",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 15]\n∞ k x\n(a) Consider the power series ∑ k .\n2 k = 1\n(i) Find the radius of convergence.\n(ii) Find the interval of convergence. [10 marks]\n∞ k\nk + 1 (b) Consider the infinite series\n∑ ( − 1 ) × .\n2 2 k + 1\nk = 1\n(i) Show that the series is convergent.\n(ii) Show that the sum to infinity of the series is less than 0.25. [5 marks]",
+   "ms_text": "n 1 ( n 1) x\n2 n 1 T\n5. (a) (i) consider n 1 M1\nn T nx\nn\nn 2\n( n 1) x\nA1\n2 n\nx\nas n A1\n2\nthe radius of convergence satisfies\nR\n1 , i.e. R 2 A1\n2\n(ii) the series converges for 2 x 2 , we need to consider x 2 (R1)\nwhen x 2 , the series is 1 2 3 A1\nthis is divergent for any one of several reasons e.g. finding an expression\nfor nSor a comparison test with the harmonic series or noting that\nlim u 0 etc. R1\nn n\nwhen x 2 , the series is 1 2 3 4... A1\nthis is divergent for any one of several reasons\ne.g. partial sums are\nu 0 1, 1, 2, 2, 3, 3... or noting that lim etc. R1\nn n\nthe interval of convergence is 2 x 2 A1\n[10 marks]\n(b) (i) this alternating series is convergent because the moduli of successive\nterms are monotonic decreasing R1\nand the nth term tends to zero as n R1\n(ii) consider the partial sums\n0.333, 0.111, 0.269, 0.148, 0.246 M1A1\nsince the sum to infinity lies between any pair of successive partial sums,\nit follows that the sum to infinity lies between 0.148 and 0.246 so that it\nis less than 0.25 R1\nNote: Accept a solution which looks only at 0.333, 0.269, 0.246 and\nstates that these are successive upper bounds.\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L2",
+    "5.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 15]\n(a) Consider the power series $\\sum_{k=1}^{\\infty} k\\left(\\frac{x}{2}\\right)^k$.\n(i) Find the radius of convergence.\n(ii) Find the interval of convergence. [10 marks]\n(b) Consider the infinite series $\\sum_{k=1}^{\\infty} (-1)^{k+1} \\times \\frac{k}{2k^2+1}$.\n(i) Show that the series is convergent.\n(ii) Show that the sum to infinity of the series is less than 0.25. [5 marks]"
+  }
+ ],
+ "status": "done"
+}

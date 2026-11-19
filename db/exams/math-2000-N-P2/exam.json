@@ -1,0 +1,294 @@
+{
+ "exam_id": "math-2000-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2000,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2000 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2000 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size, 1 donated/scanned); question paper is a scan (no text layer); question paper OCR'd (scan); marks sum matches expected total 100",
+ "qp_pages": 12,
+ "questions": [
+  {
+   "id": "math-2000-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [ Maximum mark: 14]\n(a) Sketch and label the curves\ny=x> for -2<x<2, and yz%lnx for O<x<2. [2 marks]\n(b) Find the x-coordinate of P, the point of intersection of the two curves. [2 marks]\n(c) If the tangents to the curves at P meet the y-axis at Q and R, calculate the\narea of the triangle PQR. [6 marks]\n(d) Prove that the two tangents at the points where x =a, a > 0, on each curve\n[4 marks] are always perpendicular.",
+   "ms_text": "1. (a)\nR P\nQ\n(C2)\n2 Note: Award (C1) for y = x , (C1) for y = −1\n2ln x\n[2 marks]\n2 1 (b) x +\n2ln x = 0 when x = 0.548217 .\nTherefore, the x-coordinate of P is 0.548…. (G2)\n[2 marks]\n2 y = 1.0964 x − 0.30054 (G2) (c) The tangent at P to y = x has equation ,\nand the tangent at P to y = −1 x has equation y = − 0.91205 x + 0.80054 . (G2) 2ln\n1 (M1) Thus, the area of triangle PQR = 2(0.30052 + 0.80054)(0.5482) .\n= 0.302 (3 s.f.) (A1)\nOR\nd y 2\ny = x ⇒ = 2 x (M1)\nd x\n(, pp2 ) 2 px − y = p 2 (C1) Therefore, the tangent at has equation .\nd y 1\n1 (M1) y = − ln x ⇒ = −\n2 d x 2 x\n3 Therefore, the tangent at (, pp2 ) has equation x + 2 py = p + 2 p . (C1)\n2 = (, 0 − p )\n= (, 0 p 2 + 1 ) Thus, Q and R .\n2\nThus, the area of the triangle PQR\n1 2 1 = ( 2 p + ) p (M1)\n2 2\n= 0 302 . (3 s.f.) (A1)\n[6 marks]\n2 d y (d) y = x ⇒ when x = a , = 2 a\n(C1)\nd x\nd y 1\n1 y = − ln x ⇒ when x = a , = − ( a > 0) (C1)\n2 d x 2 a\n1\nNow, ( 2 a ) −FHG IKJ= − 1 for all a > 0 . (M1)\n2 a\nTherefore, the tangents to the curve at x = a on each curve are always perpendicular. (R1)(AG)\n[4 marks]\n[Total: 14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.4",
+    "5.15",
+    "2.4",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "1. [Maximum mark: 14]\n(a) Sketch and label the curves $y = x^2$ for $-2 \\le x \\le 2$, and $y = -\\frac{1}{2}\\ln x$ for $0 < x \\le 2$. [2 marks]\n(b) Find the $x$-coordinate of P, the point of intersection of the two curves. [2 marks]\n(c) If the tangents to the curves at P meet the $y$-axis at Q and R, calculate the area of the triangle PQR. [6 marks]\n(d) Prove that the two tangents at the points where $x = a$, $a > 0$, on each curve are always perpendicular. [4 marks]"
+  },
+  {
+   "id": "math-2000-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [ Maximum mark: 10]\nA uniform rod of length / metres is placed with its ends on two supports A, B at\nthe same horizontal level.\nmetres\nA B\nA\ny(x) metres\n<X VV\nmetres\nIf y (x) metres is the amount of sag (ie the distance below [AB]) at a distance\nx metres from support A, then it is known that\ndzy 1 2\n—Ix).\ndx? 12513( )\n3 2 d 1\n(1) Let z= 1 X K +L. Show that — = < (x? = Ix).\n125°( 3 2 1500 dx 125/\n(i) Given that % =z and w(0) = 0, find w (x).\nX\n2\n(i) Show that w satisfies MZ— = : 3 (x* = Ix), and that w(J) = w(0) = 0. [8 marks]\ndx® 1251\n(b) Find the sag at the centre of a rod of length 2.4 metres. [2 marks]",
+   "ms_text": "d z 1 2\n2. (a) (i) = ( x − lx ) (M1)(AG)\n3 d x 125 l\n4 3 1 x lx x\n(ii) wx () = zx () d x + C = − + + C (M1)(A1) ∫\n3 125 l 12 6 1500\nHence, C = w (0) = 0 (A1)\n4 3 1 x lx x\nand therefore, wx () = − + (A1)\n3 125 l 12 6 1500\n2 d w d z 1\n2 (A1) (iii) = = ( x − lx )\n2 3 d x d x 125 l\nWe have seen above that w (0) = 0\n4 4 1 l l l l l\nwl () = − + = − + = 0 (A2)\n3 125 l 12 6 1500 1500 1500\n[8 marks]\n(b) When l = 2.4, x = 1.2 at the centre of the rod.\n4 3 1 1.2 2.4(1.2) 1.2\nNow, y (1.2) = − + (M1)\n3 125(2.4) 12 6 1500\n= 0.0005 m . (A1)\n[2 marks]\n[Total: 10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.10",
+    "5.18",
+    "5.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "2. [Maximum mark: 10]\nA uniform rod of length $l$ metres is placed with its ends on two supports A, B at the same horizontal level.\n[Diagram: rod AB of length $l$ metres sagging below the horizontal [AB]; sag $y(x)$ metres at distance $x$ metres from A]\nIf $y(x)$ metres is the amount of sag (ie the distance below [AB]) at a distance $x$ metres from support A, then it is known that\n$\\frac{d^2y}{dx^2} = \\frac{1}{125l^3}(x^2 - lx)$.\n(a) (i) Let $z = \\frac{1}{125l^3}\\left(\\frac{x^3}{3} - \\frac{lx^2}{2}\\right) + \\frac{1}{1500}$. Show that $\\frac{dz}{dx} = \\frac{1}{125l^3}(x^2 - lx)$.\n(ii) Given that $\\frac{dw}{dx} = z$ and $w(0) = 0$, find $w(x)$.\n(iii) Show that $w$ satisfies $\\frac{d^2w}{dx^2} = \\frac{1}{125l^3}(x^2 - lx)$, and that $w(l) = w(0) = 0$. [8 marks]\n(b) Find the sag at the centre of a rod of length 2.4 metres. [2 marks]"
+  },
+  {
+   "id": "math-2000-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [ Maximum mark: 16]\nA satellite relies on solar cells for its power and will operate provided that\nat least one of the cells is working. Cells fail independently of each other,\nand the probability that an individual cell fails within one year is 0.8.\n(a) For a satellite with ten solar cells, find the probability that all ten cells\nfail within one year. [2 marks]\n(b) For a satellite with ten solar cells, find the probability that the satellite\nis still operating at the end of one year. [2 marks]\n(c) For a satellite with »n solar cells, write down the probability that the\nsatellite is still operating at the end of one year. Hence, find the\nsmallest number of solar cells required so that the probability of the\nsatellite still operating at the end of one year is at least 0.95. [5 marks]\n(i) The lifetime of a particular component of a solar cell is Y years, where Y is\na continuous random variable with probability density function\n0 when y <0\n{O.Se\"\"/2 when y > 0.\n(a) Find the probability, correct to four significant figures, that a given\ncomponent fails within six months. [3 marks]\nEach solar cell has three components which work independently and the\ncell will continue to run if at least two of the components continue to work.\n(b) Find the probability that a solar cell fails within six months. [4 marks]",
+   "ms_text": "10 3. (i) (a) P(all ten cells fail) = 08 . = 0107 . . (M1)(A1)\n[2 marks]\n(b) P(satellite is still operating at the end of one year)\n=− 1 P (all ten cells fail within one year) (M1)\n=− 1 0.107\n= 0.893 . (A1)\n[2 marks]\n(c) P(satellite is still operating at the end of one year)\n=− 1 08.n . (C1)\nn We require the smallest n for which 1 − 08 . ≥ 0 95 . . (M1)\nThus, 08 n≤ . 0 05 .\nn\n5\nFHGIKJ≥ 20\n4\nlog 20\nn ≥ = 134 . (M1)(A1)\nlog. 125\nTherefore, 14 solar cells are needed. (C1)\n[5 marks]\n(ii) (a) Required probability\n= P( Y≤ 1 )\n2\n1 2 − y 2\n(M2) =\n∫ d y 00.5e\n= 0.2212. (G1)\nOR\n1 2 − y 2\nRequired probability d y (M1) =∫ 00.5e\n1 2\ney − 2 = − (M1)\n0\n− 1 4 =− 1 e\n= 0 2212 . (4 s.f.) (A1)\n[3 marks]\n(b) Required probability\n= P(2 or 3 of the components fail in six months) (M1)\n3\n= FHG IKJ 2 + 3 (. 0 2212 )(. 0 7788 ) (. 0 2212 ) (M2)\n2\n= 0.125. (G1)\n[4 marks]\n[Total: 16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.14",
+    "4.6",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "3. [Maximum mark: 16]\n(i) A satellite relies on solar cells for its power and will operate provided that at least one of the cells is working. Cells fail independently of each other, and the probability that an individual cell fails within one year is 0.8.\n(a) For a satellite with ten solar cells, find the probability that all ten cells fail within one year. [2 marks]\n(b) For a satellite with ten solar cells, find the probability that the satellite is still operating at the end of one year. [2 marks]\n(c) For a satellite with $n$ solar cells, write down the probability that the satellite is still operating at the end of one year. Hence, find the smallest number of solar cells required so that the probability of the satellite still operating at the end of one year is at least 0.95. [5 marks]\n(ii) The lifetime of a particular component of a solar cell is $Y$ years, where $Y$ is a continuous random variable with probability density function\n$f(y) = \\begin{cases} 0 & \\text{when } y < 0 \\\\ 0.5e^{-y/2} & \\text{when } y \\ge 0. \\end{cases}$\n(a) Find the probability, correct to four significant figures, that a given component fails within six months. [3 marks]\nEach solar cell has three components which work independently and the cell will continue to run if at least two of the components continue to work.\n(b) Find the probability that a solar cell fails within six months. [4 marks]"
+  },
+  {
+   "id": "math-2000-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [ Maximum mark: 13]\n(a) Given matrices A, B, C for which AB= C and det 4 # 0, express B in\nterms of A and C. [2 marks]\n1 2 3 -4 13 -7 5\n(b) Let4=(2 -1 2|,D=|{-2 7 —4jandC=|7|.\n3 -3 2 3 -9 5 10\n(1) Find the matrix DA;\n(i) Find B if AB=_C. [3 marks]\n(c) Find the coordinates of the point of intersection of the planes\nx+2y+3z=5,2x-y+2z=7and 3x -3y + 2z=10. [2 marks]\n(i) (a) If u=i+2j+ 3kand v=2i—j+ 2k, show that\nuXv=\"Ti+4j- 5k. [2 marks]\n(b) Let w=Au+puv where A and u are scalars. Show that w is\nperpendicular to the line of intersection of the planes x +2y +3z=5\nand 2x —y + 2z =17 for all values of A and u. [4 marks]",
+   "ms_text": "− 1 (M1) 4. (i) (a) Since det A ≠ 0, A exists.\n−1 (C1) Hence AB = C ⇒ B = AC\n[2 marks]\n1 0 0\n(b) (i) DA = 0 1 0 (A1)\n0 0 1\n− 1 (M1) (ii) B = AC = DC\n1\n=− 1 (A1)\n2\n[3 marks]\n(c) The system of equations is x + 2 y + 3 z = 5\n2 x − y + 2 z = 7\n3 x − 3 y + 2 z = 10\nF I x\nor A GG y JJ= C . (M1)\nH K z\nThe required point = (, 1 − 12 ,) . (A1)\n[2 marks]\ni j k\n2 3 1 3 1 2\n(ii) (a) u × v = 1 2 3 = i − j + k = 7 i + 4 j − 5 k . (M2)(AG)\n− 1 2 2 2 2 − 1\n2 − 1 2\n[2 marks]\nF I λ + 2 µ\n(b) w = GG 2 λ − µ JJ (C1)\nH K 3 λ + 2 µ\nThe line of intersection of the planes is parallel to u × v . (M1)\nNow, w ⋅ ( u × v ) = 7 λ + 14 µ + 8 λ − 4 µ − 15 λ − 10 µ = 0 for all λµ , . (M1)(C1)\nTherefore, w is perpendicular to the line of intersection of the given planes. (AG)\nOR\nThe line of intersection of the planes is perpendicular to u and to v, so it will (M2)\nbe perpendicular to the plane containing u and v, that is, to all vectors of the (R1)\nform λ u + µ v = w . (C1)\n[4 marks]\n[Total: 13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.16",
+    "3.16",
+    "3.18",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "4. [Maximum mark: 13]\n(i) (a) Given matrices $\\boldsymbol{A}, \\boldsymbol{B}, \\boldsymbol{C}$ for which $\\boldsymbol{AB} = \\boldsymbol{C}$ and $\\det \\boldsymbol{A} \\ne 0$, express $\\boldsymbol{B}$ in terms of $\\boldsymbol{A}$ and $\\boldsymbol{C}$. [2 marks]\n(b) Let $\\boldsymbol{A} = \\begin{pmatrix} 1 & 2 & 3 \\\\ 2 & -1 & 2 \\\\ 3 & -3 & 2 \\end{pmatrix}$, $\\boldsymbol{D} = \\begin{pmatrix} -4 & 13 & -7 \\\\ -2 & 7 & -4 \\\\ 3 & -9 & 5 \\end{pmatrix}$ and $\\boldsymbol{C} = \\begin{pmatrix} 5 \\\\ 7 \\\\ 10 \\end{pmatrix}$.\n(i) Find the matrix $\\boldsymbol{DA}$;\n(ii) Find $\\boldsymbol{B}$ if $\\boldsymbol{AB} = \\boldsymbol{C}$. [3 marks]\n(c) Find the coordinates of the point of intersection of the planes $x + 2y + 3z = 5$, $2x - y + 2z = 7$ and $3x - 3y + 2z = 10$. [2 marks]\n(ii) (a) If $\\boldsymbol{u} = \\boldsymbol{i} + 2\\boldsymbol{j} + 3\\boldsymbol{k}$ and $\\boldsymbol{v} = 2\\boldsymbol{i} - \\boldsymbol{j} + 2\\boldsymbol{k}$, show that $\\boldsymbol{u} \\times \\boldsymbol{v} = 7\\boldsymbol{i} + 4\\boldsymbol{j} - 5\\boldsymbol{k}$. [2 marks]\n(b) Let $\\boldsymbol{w} = \\lambda\\boldsymbol{u} + \\mu\\boldsymbol{v}$ where $\\lambda$ and $\\mu$ are scalars. Show that $\\boldsymbol{w}$ is perpendicular to the line of intersection of the planes $x + 2y + 3z = 5$ and $2x - y + 2z = 7$ for all values of $\\lambda$ and $\\mu$. [4 marks]"
+  },
+  {
+   "id": "math-2000-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 17]\n(a) Let y:m, where 0 <a < b.\nb+ asin x\n(i) Show that & _ (\" cosx [4 marks]\ndx (b+asinx)’\n(i1) Find the maximum and minimum values of y. [4 marks]\n(ii1) Show that the graph of y = m, 0 < a < b cannot have a vertical\nb+ asinx\nasymptote. [2 marks]\n4+5sinx\n(b) For the graph of y=———— for 0 < x<2m,\n5+4sinx\n(i) write down the y-intercept;\n(i1) find the x-intercepts m and n, (where m < n) correct to four significant\nfigures;\n(iii) sketch the graph. [5 marks]\n(c) The area enclosed by the graph of y= 443 sinx and the x-axis from\nS+4sinx\nx=0 to x=n is denoted by A. Write down, but do not evaluate, an\nexpression for the area A. [2 marks]",
+   "ms_text": "a + b sin x\n5. (a) (i) y = ,0 < a < b\nb + a sin x\nd y ( b + a sin)(cos) x b x − ( a + b sin)(cos) x a x\n= (M1)(C1)\nd x sin)2 ( b + a x\n2 2 b cos x + ab sincos x x − a cos x − ab sincos x x\n= (M1)(C1)\n2 ( b + a sin) x\n2 2 ( b − a )cos x\n(AG) =\n2 ( b + a sin) x\n[4 marks]\nd y\n(ii) = ⇒ = 2 − 2 ≠ . 0 cos x 0 since b a 0\nd x\nπ\nThis gives x = + π kk , ∈ Z ) (M1)(C1)\n2 (\nπ a + b 3π a − b\nWhen x = , y = = 1 , and when x = , y = = − 1 .\n2 b + a 2 b − a\nTherefore, maximum y = 1 and minimum y = −1 . (A2)\n[4 marks]\n(iii) A vertical asymptote at the point x exists if and only if b + a sin x = 0 . (R1)\nb\nThen, since 0 < a < b , sin x = − < − 1 , which is impossible. (R1)\na\nTherefore, no vertical asymptote exists. (AG)\n[2 marks]\n(b) (i) y-intercept = 08. (A1)\n4\n(A2) (ii) For x-intercepts, sin x = − ⇒ x = 4 0695356 . ,. .\n5\n(iii)\nm n\n(C2)\n[5 marks]\n4 .069 4 + 5 sin x 5 .356 4 + 5 sin x\nz z (c) Area = d − d (M1)(C1)\nxx xx\n0 5 + 4 sin 4 .069 5 + 4 sin\nOR\n5.356 4 + 5sin x\n= d x Area ∫ (M1)(C1)\n0 5 + 4sin x\n[2 marks]\n[Total: 17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.8",
+    "5.11",
+    "3.8",
+    "2.13",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "5. [Maximum mark: 17]\n(a) Let $y = \\frac{a + b\\sin x}{b + a\\sin x}$, where $0 < a < b$.\n(i) Show that $\\frac{dy}{dx} = \\frac{(b^2 - a^2)\\cos x}{(b + a\\sin x)^2}$. [4 marks]\n(ii) Find the maximum and minimum values of $y$. [4 marks]\n(iii) Show that the graph of $y = \\frac{a + b\\sin x}{b + a\\sin x}$, $0 < a < b$ cannot have a vertical asymptote. [2 marks]\n(b) For the graph of $y = \\frac{4 + 5\\sin x}{5 + 4\\sin x}$ for $0 \\le x \\le 2\\pi$,\n(i) write down the $y$-intercept;\n(ii) find the $x$-intercepts $m$ and $n$, (where $m < n$) correct to four significant figures;\n(iii) sketch the graph. [5 marks]\n(c) The area enclosed by the graph of $y = \\frac{4 + 5\\sin x}{5 + 4\\sin x}$ and the $x$-axis from $x = 0$ to $x = n$ is denoted by $A$. Write down, but do not evaluate, an expression for the area $A$. [2 marks]"
+  },
+  {
+   "id": "math-2000-N-P2-q6",
+   "num": "6",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [ Maximum mark: 30]\n(1) The distribution of lengths of rods produced by a machine is normal with\nmean 100 cm and standard deviation 15 cm.\n(a) What is the probability that a randomly chosen rod has a length of\n105 cm or more? [2 marks]\n(b) What is the probability that the average length of a randomly chosen\nset of 60 rods of this type is 105 cm or more? [3 marks]\n(i) In a study to check whether nicotine and alcohol consumption may be\nrelated, a survey of 452 women was conducted. The data below gives the\nalcohol consumption against the nicotine intake per day.\nNicotine (milligrams/day)\nAlcohol (cl/day) None 1-15 16 or more\nNone 105 7 11\n0.30-3.00 58 5 13\n3.10-30.00 84 37 42\nmore than 30 57 16 17\nInvestigate whether the consumption of nicotine and alcohol are related to\neach other. Use a 5% level of significance in your analysis and explain all\nyour steps and conclusions. [9 marks]\n(iii) Scientists have developed a type of corn whose protein quality may help\nchickens gain weight faster than the present type used. To test this new\ntype, 20 one-day-old chicks were fed a ration that contained the new corn\nwhile another control group of 20 chicks was fed the ordinary corn. The\ndata below gives the weight gains in grams, for each group after three\nweeks.\nOrdinary corn (Group A) New corn (Group B)\n380 321 366 356 | 361 447 401 375\n283 349 402 462 | 434 403 393 426\n356 410 329 399 | 406 318 467 407\n350 384 316 272 | 427 420 470 392\n345 455 360 431 | 430 339 410 326\n(a) The scientists wish to investigate the claim that Group B gain weight\nfaster than Group A. Test this claim at the 5% level of significance,\nnoting which hypothesis test you are using. You may assume that the\nweight gain for each group is normally distributed, with the same\nvariance, and independent from each other. [6 marks]\n(b) The data from the two samples above are combined to form a single\nset of data. The following frequency table gives the observed\nfrequencies for the combined sample. The data has been divided into\nfive intervals.\nWeight gain Observed\n271-310 2\n311-350 9\n351-390 8\n391430 15\n431-470 6\nTest, at the 5% level, whether the combined data can be considered to\nbe a sample from a normal population with a mean of 380. [10 marks]",
+   "ms_text": "6. (i) (a) Let X be the random variable representing the length of the rod.\n2 X is N(100,15)\n(M1) P( X> 105) =− 1 0.6306\n= 0.369 (3 s.f.) (A1)\n[2 marks]\n2 15\n(b) X (M1) is N100,60\n(M1)\nP( X> 105) =− 1 0.9951\n(A1) = 0.0049\n[3 marks]\n(ii) This is a χ2 -test for independence between two variables. The expected frequency\nrow total × column total\nin each cell is calculated by . The expected frequencies\ngrand total\n(R2) are given below\n82.726 17.688 22.586\n51.115 10.929 13.956\n109.63 23.44 29.931\n60.531 12.942 16.527 (G3)\nH : There is no association between alcohol and nicotine consumption.\n0\n: There is some association. (A1) H\n1\nThe critical number with 6 degrees of freedom and 5 % level of significance is\n12.5916. (A1)\n2 ( f − f )\nThe test statistic is χ 2 = e o = 42.252 .\ncalc ∑ (G1)\nf\ne\nSince 42.252 > 12.5916, we reject the null hypothesis and conclude that we have\nevidence that there is some association between nicotine and alcohol consumption. (R1)\n[9 marks]\n(iii) (a) This is a t-test of the difference of two means. Our assumptions are that the\ntwo populations are approximately normal, samples are random, and they are\nindependent from each other. (R1)\nµ − µ = H: 0\n0 1 2\nµ − µ < (A1) H: 0\n1 1 2\nt = − 2.460 , (A1)\ndegrees of freedom = 38 (A1)\n(A1) Since the value of critical t = −1686 . we reject H .\n0\nHence group B grows faster. (R1)\n[6 marks]\n(b) This is a χ2 goodness-of-fit test.\nTo finish the table, the frequencies of the respective cells have to be\ncalculated. Since the standard deviation is not given, it has to be estimated\nusing the data itself. s = 49 59 . ,\ne.g. the third expected frequency is , 400.308 × = 12.32\nsince P(350.5 < W < 390.5) = 0.3078 …\nThe table of observed and expected frequencies is:\nAmount of weight gain Observed Expected\n271 – 310 2 3.22\n311 – 350 9 7.82\n351 – 390 8 12.32\n391 – 430 15 10.48\n431 – 470 6 6.17 (M1)(A2)\nSince the first expected frequency is 3.22, we combine the two cells, so that\nthe first two rows become one row, that is,\n271 – 350 11 11.04 (M1)\nNumber of degrees of freedom is 411 −−= 2 (C1)\nH : The distribution is normal with mean 380 0\nH : The distribution is not normal with mean 380 (A1)\n1\nThe test statistic is\n( f − f ) 2 − 2 − 2 − 2 − 2 2\ne o (1111.04) (812.32) (1510.48) (6 6.17) χ = ∑ = + + +\ncalc\nf 11.04 12.32 10.48 6.17\ne\n= 3.469 (A1)\nWith 2 degrees of freedom, the critical number is χ2 =. 599 (A2)\nSo, we do not have enough evidence to reject the null hypothesis. Therefore,\nthere is no evidence to say that the distribution is not normal with mean 380. (R1)\n[10 marks]\n[Total: 30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L7",
+    "4.L5",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Statistics",
+   "text_clean": "6. [Maximum mark: 30]\n(i) The distribution of lengths of rods produced by a machine is normal with mean 100 cm and standard deviation 15 cm.\n(a) What is the probability that a randomly chosen rod has a length of 105 cm or more? [2 marks]\n(b) What is the probability that the average length of a randomly chosen set of 60 rods of this type is 105 cm or more? [3 marks]\n(ii) In a study to check whether nicotine and alcohol consumption may be related, a survey of 452 women was conducted. The data below gives the alcohol consumption against the nicotine intake per day.\nAlcohol (cl/day) | Nicotine (milligrams/day): None | 1–15 | 16 or more\nNone | 105 | 7 | 11\n0.30–3.00 | 58 | 5 | 13\n3.10–30.00 | 84 | 37 | 42\nmore than 30 | 57 | 16 | 17\nInvestigate whether the consumption of nicotine and alcohol are related to each other. Use a 5% level of significance in your analysis and explain all your steps and conclusions. [9 marks]\n(iii) Scientists have developed a type of corn whose protein quality may help chickens gain weight faster than the present type used. To test this new type, 20 one-day-old chicks were fed a ration that contained the new corn while another control group of 20 chicks was fed the ordinary corn. The data below gives the weight gains in grams, for each group after three weeks.\nOrdinary corn (Group A): 380 321 366 356 | 283 349 402 462 | 356 410 329 399 | 350 384 316 272 | 345 455 360 431\nNew corn (Group B): 361 447 401 375 | 434 403 393 426 | 406 318 467 407 | 427 420 470 392 | 430 339 410 326\n(a) The scientists wish to investigate the claim that Group B gain weight faster than Group A. Test this claim at the 5% level of significance, noting which hypothesis test you are using. You may assume that the weight gain for each group is normally distributed, with the same variance, and independent from each other. [6 marks]\n(b) The data from the two samples above are combined to form a single set of data. The following frequency table gives the observed frequencies for the combined sample. The data has been divided into five intervals.\nWeight gain | Observed\n271–310 | 2\n311–350 | 9\n351–390 | 8\n391–430 | 15\n431–470 | 6\nTest, at the 5% level, whether the combined data can be considered to be a sample from a normal population with a mean of 380. [10 marks]"
+  },
+  {
+   "id": "math-2000-N-P2-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [ Maximum mark: 30]\n(i) A-B is the set of all elements that belong to 4 but not to B.\n(a) Use Venn diagrams to verify that (4-B)U (B-A4)=(A U B)—- (AN B). [2 marks]\n(b) Use De Morgan’s laws to prove that\n(A-B)U(B-A)=(Av B)- (4N B). [4 marks]\nb\n(i) Show that the set H = {(g ) I a==l, and b EZ} forms a group under\n1\nmatrix multiplication. (You may assume that matrix multiplication is\nassociative). [6 marks]\n(ii1) (a) State Lagrange’s theorem.\n(b) Let (G, °) be a group of order 24 with identity element e. Let a € G,\nand suppose that a'?> # e and a® # e. Prove that (G, °) is a cyclic group\nwith generator a. [7 marks]\n(iv) LetS={x|x=a+b\\/5;a,b eQ,d’ - 20 ¢O}\n(a) Prove that S is a group under multiplication, X , of numbers.\n(b) For x=a+ b\\/g ,define f(x) =a— b\\/z Prove that f'is an isomorphism\nfrom (S, X) onto (S, X). [11 marks]",
+   "ms_text": "7. (i) (a)\nA B A B\nA-B B-A A ∩ B\nA ∪ B (A1)(A1)\n[2 marks]\n(b) ( A ∪ B ) − ( B ∩ A ) = ( A ∪ B ) ∩ ( B ∩ A′ )\n= [ A ∩ ( B ∩ A ) ] ′ ∪ [ B ∩ ( B ∩ A ) ] ′ (A1)\n= [ A ∩ ( B ′ ∪ A ′ )] ∪ [ B ∩ ( B ′ ∪ A ′ )] (M1)\n= ( A ∩ B ′ ) ∪ ( A ∩ A ′ ) ∪ ( B ∩ B ′ ) ∪ ( B ∩ A ′ ) = ( A ∩ B ′ ) ∪ ( B ∩ A ′ ) (M1)\n= ( A − B ) ∪ ( B − A ) (A1)\n[4 marks]\na b c d a b c d ac ad + b\n=FHG IKJ = .Then XY = =\n(ii) LetX and Y . (M1)\n0 1 0 1 0 1 0 1 0 1\nSince ac = ±1 and ad + b ∈Z , then XY ∈ H (R1)\nSince matrix multiplication is associative, so is the operation in this case. (A1)\n1 0\nSince FHG IKJ is of the required form, it is an element of H, and so the set has an\n0 1\nidentity element under this operation. (R1)\na b\n− 1 Let X\n= . Since det( X ) = a ≠ 0 , then X exists for every element of H.\n0 1\n1 1 − b a − b − 1\nX = = a ∈ H (M1)\na 0 a 0 1\n1 − b\nsince a = ± 1, = ±= 1 a , and = ±∈ b Z (R1)\na a\n[6 marks]\n(iii) (a) If G is a group and H is a subgroup of G then the order of H is a divisor of the\norder of G. (A2)\n[2 marks]\n(b) Since the order of G is 24, the order of a must be 1, 2, 3, 4, 6, 8, 12 or 24 (R2)\n12 (R1) The order cannot be 1, 2, 3, 6 or 12 since a ≠ e\n8 ≠ (R1)\nAlso a e so that the order of a must be 24\nTherefore, a is a generator of G, which must therefore be cyclic. (R1)\n[5 marks]\n(iv) (a) Since ( a + b 2)( c + d 2) = ac + 2 bd + ( ad + bc )2 ,\n2 2 2 2 2 2 and ( ac + 2 bd ) − 2( ad + bc ) = ( a − 2 b )( c − 2 d ) ≠ 0 ,\nS is closed under multiplication. (A2)\n(A1)\n1 =+ 1 02 is the neutral element.\na − b 2\nFinally, ∈ S (M1)\n2 2 a − 2 b\na − b 2\nand ( a + b 2) = 1 , so every element of S has an inverse. (A1)\n2 2 a − 2 b\n[5 marks]\n(b) To show that fx () is an isomorphism, we need to show that it is injective,\nsurjective and that it preserves the operation.\nInjection: Let x = a + b 2 , x = c + d 2\n1 2\nfx ( ) = fx ( ) ⇒ a − b 2 = c − d 2 ⇒ ( a − c ) + ( d − b ) 2 = 0 (M1)\n1 2\n⇒ a = c , and b = d ⇒ x = x (A1)\n1 2\nSurjection:For every y = a − b 2 there is x = a + b 2 (M1)(A1)\nPreserves operation:\n( ( )( ) ) ( ) fx x ( ) = f a + b 2 c + d 2 = fac + 2 bd + ( ad + bc )2 (M1)\n12\n= ac + 2 bd − ( ad + bc ) 2 = e a − b 2 je c − d 2 j (M1)\n( fa ( + b 2 ) ) ( fc ( + d 2 ) )( = fx ( ) )( fx ( ) )\n1 2\n[6 marks]\n[Total: 30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.8",
+    "7.6",
+    "7.1",
+    "7.9",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Sets, Relations and Groups",
+   "text_clean": "7. [Maximum mark: 30]\n(i) $A - B$ is the set of all elements that belong to $A$ but not to $B$.\n(a) Use Venn diagrams to verify that $(A - B) \\cup (B - A) = (A \\cup B) - (A \\cap B)$. [2 marks]\n(b) Use De Morgan's laws to prove that $(A - B) \\cup (B - A) = (A \\cup B) - (A \\cap B)$. [4 marks]\n(ii) Show that the set $H = \\left\\{ \\begin{pmatrix} a & b \\\\ 0 & 1 \\end{pmatrix} \\mid a = \\pm 1, \\text{ and } b \\in \\mathbb{Z} \\right\\}$ forms a group under matrix multiplication. (You may assume that matrix multiplication is associative). [6 marks]\n(iii) (a) State Lagrange's theorem.\n(b) Let $(G, \\circ)$ be a group of order 24 with identity element $e$. Let $a \\in G$, and suppose that $a^{12} \\ne e$ and $a^8 \\ne e$. Prove that $(G, \\circ)$ is a cyclic group with generator $a$. [7 marks]\n(iv) Let $S = \\{ x \\mid x = a + b\\sqrt{2};\\ a, b \\in \\mathbb{Q},\\ a^2 - 2b^2 \\ne 0 \\}$\n(a) Prove that $S$ is a group under multiplication, $\\times$, of numbers.\n(b) For $x = a + b\\sqrt{2}$, define $f(x) = a - b\\sqrt{2}$. Prove that $f$ is an isomorphism from $(S, \\times)$ onto $(S, \\times)$. [11 marks]"
+  },
+  {
+   "id": "math-2000-N-P2-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [ Maximum mark: 30]\n(i) Given the difference equation ¢, ,,=-8¢, , —16c ,c,=-1,¢,=8,n € Z*\n(a) write down the first five terms in the sequence; [2 marks]\n(b) write down the characteristic polynomial and find its solutions; [2 marks]\n(c) hence, find the solution to the difference equation. [4 marks]\n(i) (a) Use the Euclidean algorithm to prove that for » € N, (8» + 3) and\n(5n + 2) are relatively prime. [4 marks]\n(b) Any integer a with (n + 1) digits can be written as\na=10\"r, + 10’“rnf1 +...+10r, +r,, where 0< r,<9 for 0<i<n, and\nr,#0.\n(i) Show thata=(r,+r +...+r)mod 3. [3 marks]\n(1) Hence or otherwise, find all values of the single digit x such that the\nnumber a = 137486x225 is a multiple of 3. [6 marks]\n(iii)) Let G=(V, E) be a connected planar graph with v vertices and e edges,\nin which each cycle has a length of at least c.\n(a) Use Euler’s theorem and the fact that the degree of each face is the\nlength of the cycle enclosing it to prove that\nc\ne< v-2). [5 marks]\nc—2\n(b) Find the minimum cycle length in a «;; graph and use it to prove that\nthe graph is not planar. [4 marks]",
+   "ms_text": "8. (i) (a) c = − 1, c = 8, c = − 48, (A1) 1 2 3\nc = 256, c = − 1280 (A1) 4 5\n[2 marks]\n2 (b) The characteristic polynomial is x + 8 x + 16 = 0 (A1)\nIts solution is x = −4 (A1)\n[2 marks]\n(c) Since there is only one solution to the characteristic polynomial, the general\nn n solution is of the form: c = u ( − 4 ) + vn ( − 4 ) , with u and v to be determined. (R1)\nn\nSince c = −⇒− 1 4 u − 4 v = − 1\n1\nc = 8 ⇒ 16 u + 32 v = 8 (M1)\n2\n⇒ u = 0, and v = 14 (A1)\nTherefore nc = (14)(4)n n − (A1)\n[4 marks]\n(ii) (a) (8 n + 3) = (5 n + 2) + (3 n + 1)\n(5 n + 2) = (3 n + 1) + (2 n + 1)\n(3 n + 1) = (2 n + 1) + n\n(2 n + 1) = 2 n + 1 (M2)\nThe greatest common divisor of ( 8 n + 3 ) and ( 5 n + 2 ) is 1, and hence they are\nrelatively prime. (M1)(R1)\n[4 marks]\nn (M1)(A1) (b) (i) 10 ≡ 1 mod 3 ⇒ 10 ≡ 1 mod 3\nn n − 1 (M1)(AG) ⇒ (10 r + 10 r + … + r ) ≡ ( r + r + … + r )mod3\nn n − 1 0 n n − 1 0\n[3 marks]\nn n − 1\n(ii) From the previous result, (10 r + 10 r + … + r ) and n n − 1 0\n( r + r + … + r ) have the same remainder when divided by 3.\nn n − 1 0 (M1)(A1)\n⇒ if 3 divides ( r + r + … + r ) then it divides a. (C1)\nn n − 1 0\n1 + 3 + 7 + … + x = 3, kk ∈ Z\n⇒ + ≡ ⇒ + ≡ (38 x ) 0mod3, (2 x ) 0mod3 (M1)\n⇒ x = 14 ,, or 7 (A2)\n[6 marks]\n(iii) (a) Since every face is enclosed by at least c edges, Euler’s theorem: f = 2 + e − v (M1)\n2e ≥ cf (A1)\n⇒ 2 e ≥ c (2 + e − v ) ⇒ 2 e ≥ 2 c + ec − cv (M2)\n⇒ ec ( − 2) ≤ cv ( − 2) (A1)\n− cv ( 2 )\n⇒ e ≤ (AG)\nc − 2\n[5 marks]\n(b) In κ 3.3 the minimum length c is 4 (A1)\n46 ( − 2 )\n9 ≤ = 8 , which is a contradiction (M2)\n4 − 2\nHence the graph cannot be planar. (R1)\n[4 marks]\n[Total: 30marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.4",
+    "6.6",
+    "6.10",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Discrete Mathematics",
+   "text_clean": "8. [Maximum mark: 30]\n(i) Given the difference equation $c_{n+2} = -8c_{n+1} - 16c_n$, $c_1 = -1$, $c_2 = 8$, $n \\in \\mathbb{Z}^+$\n(a) write down the first five terms in the sequence; [2 marks]\n(b) write down the characteristic polynomial and find its solutions; [2 marks]\n(c) hence, find the solution to the difference equation. [4 marks]\n(ii) (a) Use the Euclidean algorithm to prove that for $n \\in \\mathbb{N}$, $(8n + 3)$ and $(5n + 2)$ are relatively prime. [4 marks]\n(b) Any integer $a$ with $(n + 1)$ digits can be written as $a = 10^n r_n + 10^{n-1} r_{n-1} + \\dots + 10r_1 + r_0$, where $0 \\le r_i \\le 9$ for $0 \\le i \\le n$, and $r_n \\ne 0$.\n(i) Show that $a \\equiv (r_0 + r_1 + \\dots + r_n) \\bmod 3$. [3 marks]\n(ii) Hence or otherwise, find all values of the single digit $x$ such that the number $a = 137486x225$ is a multiple of 3. [6 marks]\n(iii) Let $G = (V, E)$ be a connected planar graph with $v$ vertices and $e$ edges, in which each cycle has a length of at least $c$.\n(a) Use Euler's theorem and the fact that the degree of each face is the length of the cycle enclosing it to prove that $e \\le \\frac{c}{c-2}(v - 2)$. [5 marks]\n(b) Find the minimum cycle length in a $\\kappa_{3,3}$ graph and use it to prove that the graph is not planar. [4 marks]"
+  },
+  {
+   "id": "math-2000-N-P2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [ Maximum mark: 30]\nLet f be the function f(x) = (x> - 1)e*, k, x € R, and k #0.\n(a) (1) Prove that f(x) has exactly two zeros. [2 marks]\n(i1) Prove that f'(x) can have only two zeros, and prove that the product\nof these two zeros is —1. [5 marks]\n(b) (1) For k=2, sketch the graph of f(x), label its x and y-intercepts, and\ngive the exact coordinates of its local minimum and maximum points. [4 marks]\n(i) Starting with x,=1, use the Newton-Raphson method to find the\nx-coordinate of the point of intersection of f(x)=(x>—1)¢* and\ng (x) =e. Give your answer correct to five decimal places. [6 marks]\n(ii)) Find the Maclaurin series expansion for e, as far as the term in x>. [4 marks]\n(iv) Hence, find the expansion for f(x) = (x> — 1)e?*, as far as the term in x°. [3 marks]\nUse the trapezium rule with four equal intervals to estimate the area\nenclosed between the graphs of f'(x) = (x> — 1)e** and & (x) = ek*. [6 marks]",
+   "ms_text": "9. (a) (i) Since for any value of x ∈R , the only zeros possible are those of e kx≠ 0\nx2 −= 1 0 . (R1)\nThis equation clearly has two solutions x = ±1 (A1)\n[2 marks]\nf ′ () x = k e( kx x 2 − 1) + 2e x kx = e( kx kx 2 + 2 x − k ) (M1)(A1) (ii)\n′ = 2 f () x 0 if kx + 2 x − k = 0\n2 2 4 + 4 k 1\n=−± e 2 j (M1)(A1) ⇒ x = −± 1 1 + k\n2 k k\n1 1\n⇒ = e −+ + 2 je ⋅ −− + 2 j (M1) xx 1 1 k 1 1 k\n1 2\nk k\n1 2\n⇒ xx = d +−− 11 k i = − 1 (AG)\n1 2\nk 2\n[5 marks]\n2 2 fx () = ( x − 1)ex\n(b) (i)\n(C1)(A1)\nNote: Award (C1) for graph, and (A1) for the intercepts.\n2 x 2 f ′ () x = e ( 2 x + 2 x − 2 )\n(M1)\n2e 1 j ⇒ f ′ () x = 0 ⇒ x = −± 1 5\n1 5 ⇒ maximum at 1 ( −− 1 5is ) 1 ( 1 + 5e−− )\n2 2\n} (A1)\n1 1 1 5 ⇒ minimum at ( −+ 1 5is ) ( 1 − 5e−+ )\n2 2\n[4 marks]\n2 2 x\n(ii) ( x− 1)e − e = 0 . Let hx () = ( x 2 − 1)e 2 x − e\n2 2 hx ′ () = (2 x + 2 x − 2)ex (M1)\n( 2 ) 2 x n x − 1e − e\nn\nx = x − (A1)\nn − 1 n\n( 2 ) 2 x n 2 x + 2 x − 2e\nn n\n− e\nx =− 1 = 1.183939 …\n1 2\n2e\nh (1.18394)\nx = 1.18394 − = 1.375654 … 2\nh (1.18394)\nx= 1.132445 … (A1)\n3\nx= 1.132387 …= 1.13239 (5 d.p.) (A1)\n4\n(A1) x= 1.132387 …= 1.13239 (5 d.p.)\n5\nSince x = x to 5 d.p., x = 1.13239 (5 d.p.) (R1) 4 5\n[6 marks]\nkx\n(iii) hx () = e, h (0) = 1\n′ kx ′ hx () = k e, h (0) = k (M1)\n2 kx 2 h ′′ () x = k e, h ′′ (0) = k (M1)\n′′′ 3 kx ′′′ 3 h () x = k e, h (0) = k (M1)\n2 2 3 3 kx kx\n(C1) Px () =+ 1 kx + +\n2 6\n[4 marks]\n3 4 x\nFHG 2 IKJ 2 (iv) 1 + 2 x + 2 x + xd − 1 i =\n3\n5 3 4 x\n4 2 x 2 + 2 x + − x − 2 x − 1 (M2)\n3 3\n3 x\nTherefore, to degree 3, 2 2 (A1) − x − 2 x − 1\n3\n[3 marks]\n2 kx kx kx 2 (c) Points of intersection: ( x − 1)e = e ⇒ e( x − 2) = 0 ⇒ x = ± 2 (M1)(A1)\n2 kx 2\nArea: ( 2 − x ) d x (C1) ∫ 2e\n−\nk 2 k 2\n2 + − 20\n3 2 3 2 = + 0 + 2 e + 2 + e\n(M1)(A1) 2 2\n8\nk 2 k 2\n−\n23e = 2 + 3e 2 + 4\n(C1)\n4\n[6 marks]\n[Total: 30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.19",
+    "5.6",
+    "5.8",
+    "2.12",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Analysis and Approximation",
+   "text_clean": "9. [Maximum mark: 30]\nLet $f$ be the function $f(x) = (x^2 - 1)e^{kx}$, $k, x \\in \\mathbb{R}$, and $k \\ne 0$.\n(a) (i) Prove that $f(x)$ has exactly two zeros. [2 marks]\n(ii) Prove that $f'(x)$ can have only two zeros, and prove that the product of these two zeros is $-1$. [5 marks]\n(b) (i) For $k = 2$, sketch the graph of $f(x)$, label its $x$ and $y$-intercepts, and give the exact coordinates of its local minimum and maximum points. [4 marks]\n(ii) Starting with $x_0 = 1$, use the Newton-Raphson method to find the $x$-coordinate of the point of intersection of $f(x) = (x^2 - 1)e^{2x}$ and $g(x) = e$. Give your answer correct to five decimal places. [6 marks]\n(iii) Find the Maclaurin series expansion for $e^{kx}$, as far as the term in $x^3$. [4 marks]\n(iv) Hence, find the expansion for $f(x) = (x^2 - 1)e^{2x}$, as far as the term in $x^3$. [3 marks]\n(c) Use the trapezium rule with four equal intervals to estimate the area enclosed between the graphs of $f(x) = (x^2 - 1)e^{kx}$ and $h(x) = e^{kx}$. [6 marks]"
+  },
+  {
+   "id": "math-2000-N-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 30]\n(i) An octagon ABCDEFGH is inscribed in a circle, centre O, as shown.\nFigure is not to scale\nK and J are the feet of the perpendiculars from O to the sides [AB] and\n[DE] respectively.\nLet AB=BC=GH =HA =3 units, and CD =DE =EF = FG =2 units.\n(a) Show that E, O, and A are collinear. [2 marks]\n(b) Show that OK =7EB and OJ =3 AD. [4 marks]\n(c) Prove that ADCB is congruent to ADIB. [4 marks]\n(d) Prove that AIBA and ADIE are both isosceles right-angled triangles. [3 marks]\nShow that Al =32 and EI = 242\n[2 marks]\n(f) Express the area of the octagon as r + sv/2 where r and s are integers. [5 marks]\n(i) Consider the points P(-3, 9) and Q(1, 3) in the coordinate plane.\n(a) Find the equation of the circle with diameter [PQ)]. [3 marks]\n(b) Show that the locus of points M, such that MP =3 MQ, is a circle.\nFind its centre and radius. [4 marks]\nLet R and S be the points of intersection of (PQ) with the new circle\nfound in part (b). Show that the points P, Q, R, and S are in a\nharmonic ratio. [3 marks]",
+   "ms_text": "10. (i) (a) The arcs corresponding to [ED], [DC], [CB], and [BA] are half of the whole circle, (M1)\n⇒ ECA \" (R1)(AG) is a semicircle. ⇒ EOA =180, °⇒ E, O, and A are collinear.\n[2 marks]\n(b) [EA] is a diameter, ⇒ EBA = 90 and (OK)(AB) \" ° ⊥ (R1)\n⇒ (OK) parallel to (EB) (C1)\n⇒OK = ½ EB (line through midpoint of a side parallel to another side.) (R1)\nSimilarly, OJ½AD = (C1)\n[4 marks]\n(c) [DB] is common to both triangles. (R1)\nSince DC DE, the arcs corresponding to them are equal. = (R1)\nHence angles CBD and EBD are equal. (R1)\n∆ DCB ≅ ∆ DIB by ASA (R1)\n[4 marks]\nˆ (M1)(C1) (d) In ∆ IBA: IBA=90, CB=IB ° ⇒ IB=3 and BA=3 .\n⇒∆ IBA is an isosceles right-angled triangle.\nSimilar arguments for ∆DIE . (C1)\n[3 marks]\n(C1)(C1) (e) Using Pythagoras’ theorem, AI = 32 , and EI = 22\n[2 marks]\n(f) Since EB = EI + IB = 3 + 22 (M1)\n1 ( ) ⇒ OK = 3 + 22 (A1)\n2\n⇒∆ OAB = 1 ⋅⋅⋅ 3 1 ( 3 + 22 ) = 3 ( 3 + 22 )\n2 2 4\nAlso OJ = 1 AD = 1 (IA + ID) = 1 ( 2 + 32 ) (A1)\n2 2 2\n⇒∆ OED = 1 ⋅⋅ 2 1 ( 2 + 32 ) = 2 ( 2 + 32 )\n2 2 4\nArea of the octagon = 4 3 ( 3 + 22 ) + 2 ( 2 + 32 ) (M1)\n4 4\n= 13122 + (A1)\n[5 marks]\n(ii) (a) Let M(x, y) be any point on the circle.\n→ → → →\n(M1) MP ⊥ MQ ⇒ MP.MQ = 0\nSince ⇒ ( x − 1 )( x + 3 ) + ( y − 3 )( y − 9 ) = 0 (M1)\n2 2 ⇒ x + 2 x + y − 12 y + 24 = 0 (A1)\n[3 marks]\n2 2 2 2 2 2 (b) MP = 9MQ ⇒ ( x + 3) + ( y − 9) = 9( x − 1) + ( y − 3)\n(M1)\n⇒ 8 x 2 − 24 x + 8 y 2 − 36 y = 0 (M1)\n2 2\n3 9 117\n⇒ FHG x − IKJ+ FHG y − IKJ = (A1)\n2 4 16\n39 117\n, (C1) This a circle with centre , and radius\n24 4\n[4 marks]\n(c) Equation of PQ: y = − 3 x + 9 , therefore the point of intersection must also\n2 2\nsatisfy the equation of the circle, hence:\n117\n3 2 3 9 9 2 2 c x − hc +− x + − h = ⇒ x − 3 x = 0 (M1)(A1)\n2 2 2 4 16\n⇒ x = 0 , or x = 3\nLet P, Q, R, S ′ ′ ′ ′ be the projections of P, Q, R, S on to the x-axis (S = S )′\ny\nP\nR\nQ\nS\nR′ Q′ x P′ S′\nR P 3 S P ′′ 6 R P ′′ ′′ ′′= −\n= ⇒ = − S P( = − 3) (M1) ;\n′′ ′′ ′′ ′′ R Q 1 S Q 2 R Q S Q\n′ ′ ′ ′ ⇒ P , Q , R , and S are in a harmonic ratio\nTherefore, P, Q, R, and S are in a harmonic ratio. (AG)\n[3 marks]\n[Total: 30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "8"
+   ],
+   "subtopics": [
+    "8.1",
+    "8.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Euclidean Geometry and Conic Sections",
+   "text_clean": "10. [Maximum mark: 30]\n(i) An octagon ABCDEFGH is inscribed in a circle, centre O, as shown.\n[Diagram: octagon ABCDEFGH inscribed in a circle centre O; chords EB, EA, DA, DB, OB drawn; I is the intersection of EB and DA; J and K are feet of perpendiculars from O to [DE] and [AB]. Figure is not to scale]\nK and J are the feet of the perpendiculars from O to the sides [AB] and [DE] respectively.\nLet AB = BC = GH = HA = 3 units, and CD = DE = EF = FG = 2 units.\n(a) Show that E, O, and A are collinear. [2 marks]\n(b) Show that $OK = \\frac{1}{2}EB$ and $OJ = \\frac{1}{2}AD$. [4 marks]\n(c) Prove that $\\triangle DCB$ is congruent to $\\triangle DIB$. [4 marks]\n(d) Prove that $\\triangle IBA$ and $\\triangle DIE$ are both isosceles right-angled triangles. [3 marks]\n(e) Show that $AI = 3\\sqrt{2}$ and $EI = 2\\sqrt{2}$. [2 marks]\n(f) Express the area of the octagon as $r + s\\sqrt{2}$ where $r$ and $s$ are integers. [5 marks]\n(ii) Consider the points P(−3, 9) and Q(1, 3) in the coordinate plane.\n(a) Find the equation of the circle with diameter [PQ]. [3 marks]\n(b) Show that the locus of points M, such that MP = 3 MQ, is a circle. Find its centre and radius. [4 marks]\n(c) Let R and S be the points of intersection of (PQ) with the new circle found in part (b). Show that the points P, Q, R, and S are in a harmonic ratio. [3 marks]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,32 @@
+{
+  "exam_id": "math-2019-N-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.9", "6.8"],
+      "text_clean": "1. [Maximum mark: 10]\nA driver needs to make deliveries to five shops $A$, $B$, $C$, $D$ and $E$. The driver starts and finishes his journey at the warehouse $W$. The driver wants to find the shortest route to visit all the shops and return to the warehouse. The distances, in kilometres, between the locations are given in the following table.\n[Table: distances]\n| | A | B | C | D | E | W |\n| A | - | 11 | 28 | 15 | 20 | 40 |\n| B | 11 | - | 25 | 20 | 32 | 36 |\n| C | 28 | 25 | - | 16 | 22 | 39 |\n| D | 15 | 20 | 16 | - | 12 | 42 |\n| E | 20 | 32 | 22 | 12 | - | 41 |\n| W | 40 | 36 | 39 | 42 | 41 | - |\n(a) By deleting $W$, use the deleted vertex algorithm to find a lower bound for the length of a route that visits every shop, starting and finishing at $W$. [6]\n(b) Starting from $W$, use the nearest-neighbour algorithm to find a route which gives an upper bound for this problem and calculate its length. [4]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.2", "6.5", "6.4"],
+      "text_clean": "2. [Maximum mark: 15]\n(a) (i) State Fermat's little theorem.\n(ii) Find the remainder when $15^{1207}$ is divided by $13$. [7]\nIn parts (b) and (c), $(abc\\ldots)_n$ denotes the number $abc\\ldots$ written in base $n$, where $n \\in \\mathbb{Z}^+$. For example, $(359)_n = 3n^2 + 5n + 9$.\n(b) Convert $(7A2)_{16}$ to base $5$, where $(A)_{16} = (10)_{10}$. [4]\n(c) Consider the equation $(1251)_n + (30)_n = (504)_n + (504)_n$.\nFind the value of $n$. [4]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.10"],
+      "qtype": "short",
+      "text_clean": "3. [Maximum mark: 6]\nA linear recurrence relation is defined by\n$u_n = au_{n-1} + b$, where $a, b \\in \\mathbb{R}$.\nThe first two terms are $u_1 = 25$ and $u_2 = 16$.\n(a) Given that $\\lim_{n \\to \\infty} u_n = 10$, show that $a = \\frac{2}{5}$. [4]\n(b) Hence find the value of $u_3$. [2]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.6", "6.7"],
+      "text_clean": "4. [Maximum mark: 14]\n(a) $G$ is a simple, connected graph with eight vertices.\n(i) Write down the minimum number of edges in $G$.\n(ii) Find the maximum number of edges in $G$.\n(iii) Find the maximum number of edges in $G$, given that $G$ contains an Eulerian circuit. [5]\n(b) $H$ is a connected, planar graph, with $v$ vertices, $e$ edges and $f$ faces. Every face in $H$ is bounded by exactly $k$ edges.\n(i) Explain why $2e = kf$.\n(ii) Find the value of $f$ when $v = 9$ and $k = 3$.\n(iii) Find the possible values of $f$ when $v = 13$. [9]"
+    },
+    "5": {
+      "topics": ["6"],
+      "subtopics": ["6.12"],
+      "qtype": "short",
+      "text_clean": "5. [Maximum mark: 5]\nTen points are placed anywhere inside or on the perimeter of a square of side length $1$.\nUse the pigeon-hole principle to prove that at least two of these points have a distance between them that is less than or equal to $\\frac{\\sqrt{2}}{3}$."
+    }
+  }
+}

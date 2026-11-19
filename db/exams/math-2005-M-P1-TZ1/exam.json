@@ -1,0 +1,511 @@
+{
+ "exam_id": "math-2005-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2005,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2005 May Examination Session/Mathematics_paper_1_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2005 May Examination Session/Mathematics_paper_1_TZ1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2205-7204; code M05/5/MATHL/HP1/ENG/TZ1/XX; marks not printed; assumed 6 per question (modal markscheme value)",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2005-M-P1-TZ1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "3 1 2\n1. The vectors a, b and c are defined by a = 2 , b = 5 , and c = y.\n− 1 2 3\nGiven that c is perpendicular to 2a − b , find the value of y.",
+   "ms_text": "QUESTION 1\n⎛ 3 ⎞ ⎛⎞ 1\n⎜ ⎟ ⎜⎟\n2 a − b = 2 2 − 5 (M1)\n⎜ ⎟ ⎜⎟\n⎜ ⎟ ⎜⎟ −\n1 2 ⎝ ⎠ ⎝⎠\n⎛ 5 ⎞\n⎜ ⎟\n=− 1 (A1)\n⎜ ⎟\n⎜ ⎟ −\n4 ⎝ ⎠\n5 2 ⎛ ⎞⎛⎞\n⎜ ⎟⎜⎟\n− = 1 i y 0 (M1)(A1)\n⎜ ⎟⎜⎟\n⎜ ⎟⎜⎟\n⎝ − 4 ⎠⎝⎠ 3\n10 − y − 12 = 0 (A1)\ny = − 2 (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "1. The vectors $\\mathbf{a}$, $\\mathbf{b}$ and $\\mathbf{c}$ are defined by $\\mathbf{a} = \\begin{pmatrix}3\\\\2\\\\-1\\end{pmatrix}$, $\\mathbf{b} = \\begin{pmatrix}1\\\\5\\\\2\\end{pmatrix}$, and $\\mathbf{c} = \\begin{pmatrix}2\\\\y\\\\3\\end{pmatrix}$.\nGiven that $\\mathbf{c}$ is perpendicular to $2\\mathbf{a} - \\mathbf{b}$, find the value of $y$.",
+   "review_note": "q crop fixed via override (top row of column vectors was cut off)"
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "5\n2\n2. Find the coefficient of x in the expansion of 3 x −\n.\nx",
+   "ms_text": "QUESTION 2\n2\n⎛⎞ 5 −\n3 ⎛ 2 ⎞ (3) x (M1)\n⎜⎟ ⎜ ⎟\n2 x ⎝⎠ ⎝ ⎠\n⎛ 4 ⎞\n= 3 10(27 x ) ⎜ ⎟ (A1)(A1)(A1)\n2\n⎝ x ⎠\n= 1080x (A1)\nCoefficient is 1080 (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "2. Find the coefficient of $x$ in the expansion of $\\left(3x - \\frac{2}{x}\\right)^5$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q3",
+   "num": "3",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "− − z The line x 3 5\n3. = y += 1 and the plane 2 x − y + 3 z = 10 intersect at the point P. Find the\n2 3\ncoordinates of P.",
+   "ms_text": "QUESTION 3\nx = 2 λ + 3, y = λ − 1, z = − 3 λ + 5 (A1)(A1)(A1)\n2(2 λ + 3) − ( λ − 1) + 3(3 − λ + 5) = 10 (M1)\nλ = 2 (A1)\nPoint of intersection (7, 1, –1) (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "3. The line $\\frac{x-3}{2} = y+1 = \\frac{5-z}{3}$ and the plane $2x - y + 3z = 10$ intersect at the point P. Find the coordinates of P."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q4",
+   "num": "4",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "1 x − 2\n1 − 3\n4. The matrices A, B are such that det A = B where A = and B = − 2 1 0 det .\nx + 1 5\n0 − 1 x\nFind the values of x.",
+   "ms_text": "QUESTION 4\ndet A = 5 + 3( x + 1) = 8 + 3 x (A1)\n1 0 − 2 0 − 2 1\ndet B = 1 − x − 2 (M1)\n− 1 x 0 x 0 − 1\n= + 2 − x 2 x 4 (A1)\n8 + 3 x = x + 2 x 2 − 4 (M1)\n2 0 = 2 x − 2 x − 12\n0 = 2( x − 3)( x + 2)\nx = 3or x = − 2 (A1)(A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.L1",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "4. The matrices $\\mathbf{A}$, $\\mathbf{B}$ are such that $\\det \\mathbf{A} = \\det \\mathbf{B}$ where $\\mathbf{A} = \\begin{pmatrix}1 & -3\\\\ x+1 & 5\\end{pmatrix}$ and $\\mathbf{B} = \\begin{pmatrix}1 & x & -2\\\\ -2 & 1 & 0\\\\ 0 & -1 & x\\end{pmatrix}$.\nFind the values of $x$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q5",
+   "num": "5",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. Find the area of the region enclosed by the graphs of fx () = 4 − x 2and gx () = ( x + 1 )cos x .",
+   "ms_text": "QUESTION 5\n2 4 − x = ( x + 1)cos x\nx = − 1.92 or x = 2.72 (M1)(A1)\nEITHER\n2.72\n( 2 ) ∫ − x − ( x + 1)cos x d x (M1)(A1)\n1.924\n−\n= 9.4053... = 9.41 (A2) (C6)\nOR\n( 4 − x 2 − ( x + 1)cos x ) d x (M1) ∫\n3 x\n= 4 x − − ( x + 1)sin x − cos x (A1)(A1)\n3\n3 x\nNote: Award (A1) for 4 x − , and (A1) for − ( x + 1)sin x − cos x .\n3\n= = Area 9.4053 ... 9.41 (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "5. Find the area of the region enclosed by the graphs of $f(x) = 4 - x^2$ and $g(x) = (x+1)\\cos x$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q6",
+   "num": "6",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. Let X be a normal random variable with mean 25 and variance 4. Find P ( X− 25 < 3. )",
+   "ms_text": "QUESTION 6\nP ( X − 25 < 3 ) = P(22 < X < 28) (M1)(A1)(A1)\nstandard deviation = 2 (need not be seen) (A1)\n( X− < ) = P 25 3 0.866 (A2) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "6. Let $X$ be a normal random variable with mean 25 and variance 4. Find $\\mathrm{P}(|X - 25| < 3)$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q7",
+   "num": "7",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. In an examination of 20 multiple-choice questions each question has four possible answers, only one\nof which is correct. Robert randomly guesses the answer to each question.\n(a) Find his expected number of correct answers.\n(b) Find the probability that Robert obtains this expected number of correct answers.",
+   "ms_text": "QUESTION 7\n⎛ 1 ⎞\n(a) X ⎜ ⎟\n~ B20, 4\n⎝ ⎠\nE( X ) = np (M1)\n= 5 (A1) (C2)\n⎛ 20 ⎞\n5 15 (b) P( X = 5)\n= ⎜ (0.25)(0.75) (M1)(A1) ⎟\n5 ⎝ ⎠\n= 0.202 (A2) (C4)",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "7. In an examination of 20 multiple-choice questions each question has four possible answers, only one of which is correct. Robert randomly guesses the answer to each question.\n(a) Find his expected number of correct answers.\n(b) Find the probability that Robert obtains this expected number of correct answers."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q8",
+   "num": "8",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. The following diagram shows a circle centre O and radius r. The length of the arc ACB is 2r.\nThe area of the shaded segment may be expressed as kr2. Find the value of k.",
+   "ms_text": "QUESTION 8\nr θ= 2 r (M1)\nθ= 2 (A1)\nθ 1\n= 2 − 2 θ Area r r sin (M1)\n2 2\n1 ⎛ 1 ⎞ 2 2 2\nθ = 2 ⇒ area = r − r (sin 2) = r (1 − sin 2) (M1)(A1) ⎜ ⎟\n2 ⎝ 2 ⎠\n1\nk =− 1 sin 2 ( =− 1sin1cos1 ) ( = 0.545 ) (A1) (C6)\n2",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms"
+   ],
+   "text_clean": "8. The following diagram shows a circle centre O and radius $r$. The length of the arc ACB is $2r$.\n[Diagram: circle centre O with radii OA and OB; chord AB; minor segment between chord AB and arc ACB shaded]\nThe area of the shaded segment may be expressed as $kr^2$. Find the value of $k$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q9",
+   "num": "9",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "2 9. Consider the function fx () = ln x + 4 .\n(a) Find ′f (). x\n(b) Find f ′′ (). x",
+   "ms_text": "QUESTION 9\n(a) METHOD 1\n1 2\nfx () = ln( x + 4) (M1)\n2\n1 ⎛ 2 x ⎞\nf ′ () x = (M1) ⎜ ⎟\n2 x 2 + 4 ⎝ ⎠\nx\nf ′ () x = (A1) (C3)\n2 x + 4\nMETHOD 2\n− 1\n1 1\n′ = × 2 + 2 f () x ( x 4) (2) x (M1)(A1)\n2 x + 4 2\nx\n= (A1) (C3)\n2 x + 4\n2 + − x 4 x (2) x\n(b) f ′′ () x = (M1)(A1)\n( x 2 + 4) 2\n− 2 4 x\n= (A1) (C3)\n( x 2 + 4) 2",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.7",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "9. Consider the function $f(x) = \\ln\\sqrt{x^2+4}$.\n(a) Find $f'(x)$.\n(b) Find $f''(x)$.",
+   "review_note": "audit: f'' is 5.7 (not 5.12); ln derivative is SL 5.6 (not 5.15); as 2004-N-P1-q5"
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q10",
+   "num": "10",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. In a survey of 50 people it is found that 40 own a television and 21 own a computer. Four\ndo not own either a computer or a television. A person is chosen at random from this group.\n(a) Find the probability that this person owns both a television and a computer.\n(b) Given that this person owns a computer, find the probability that he also owns a television.",
+   "ms_text": "QUESTION 10\n(a) METHOD 1\nCT\n6 15 25\n4\n(M1)(A1)\n∩ = P( T C ) 0.3 (A1) (C3)\nMETHOD 2\nnT ( ∪ C ) = nT () + nC () − nT ( ∩ C ) (M1)\n46 = 40 + 21 − nT ( ∩ C )\nnT ( ∩ C ) = 15 (A1)\nP( T ∩ C ) = 0.3 (A1) (C3)\nP( T ∩ C )\n(b) P( TC ) = (M1)\nP() C\n0.3 5\n= ( = , 0.714 to 3 s.f.) (A2) (C3)\n0.42 7",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "10. In a survey of 50 people it is found that 40 own a television and 21 own a computer. Four do not own either a computer or a television. A person is chosen at random from this group.\n(a) Find the probability that this person owns both a television and a computer.\n(b) Given that this person owns a computer, find the probability that he also owns a television."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q11",
+   "num": "11",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. Solve the following equation for z, where z is a complex number.\nz z 1 5 −=\n+\n3 + 4 i 5 i 3 − 4 i\nGive your answer in the form a +i where ab b ,∈Z.",
+   "ms_text": "QUESTION 11\nMETHOD 1\n− − + z (3 4i) 5i( z 1) 5(3 4i)\n− = (M1)(A1)\n(3 + 4i)(3 − 4i) −× 55ii × (3 − 4i)(3 + 4i)\nz (3 − 4i) − 5i( z − 1) = 15 + 20i (A1)\nz (3 − 4i − 5i) = 15 + 20i − 5i (A1)\n1515i +\nz = (A1)\n3 − 9i\nz = −+ 1 2i (A1) (C6)\nMETHOD 2\n1 1 ⎞ ⎛ 5 1 ⎞ z⎛\n+ = + (M1)(A1) ⎜ ⎟ ⎜ ⎟\n+ − ⎝ 3 4i 5i ⎠ ⎝ 3 4i 5i ⎠\nz (0.12 − 0.36i) = 0.6 + 0.6i (A1)(A1)\nz = −+ 1 2i (A2) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "11. Solve the following equation for $z$, where $z$ is a complex number.\n$\\frac{z}{3+4\\mathrm{i}} + \\frac{z-1}{5\\mathrm{i}} = \\frac{5}{3-4\\mathrm{i}}$\nGive your answer in the form $a + b\\mathrm{i}$ where $a, b \\in \\mathbb{Z}$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q12",
+   "num": "12",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "xy= when y =1 12. Find the gradient of the curve 2 sin( ) 1 and π < x < 2. π\n2",
+   "ms_text": "QUESTION 12\n1 x\ny = ⇒ 2sin = 1 (M1)\n2 2\nx π x 5π\n= or = (A1)\n2 6 2 6\n5π\nx = (A1)\n3\n⎛ d y ⎞\n2cos( xy ) y + = 0 (M1) ⎜\nxx ⎟\n⎝ d ⎠\nd y y\n= − (A1)\nd x x\nd y 1 5π 3\n÷ = − (= –0.0955) (A1) (C6)\nx= −\nd 2 3 10π",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "12. Find the gradient of the curve $2\\sin(xy) = 1$ when $y = \\frac{1}{2}$ and $\\pi < x < 2\\pi$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q13",
+   "num": "13",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. In a rental property business, the profits in Euros per year for 50 properties are shown in the\nfollowing cumulative table.\nNumber of properties with\nProfit (x)\nprofit less than x\n– 10 000 0\n– 5 000 3\n0 7\n5 000 22\n10 000 39\n15 000 44\n20 000 50\nFor this population of 50 properties, calculate an estimate for the standard deviation of the profit.",
+   "ms_text": "QUESTION 13\nFor re-arranging the information (e.g. the following table) (M1)\nProfit −7500 −2500 2500 7500 12500 17500\n(A1)(A1) Frequency 3 4 15 17 5 6\nNote: Award (A1) for correct mid-class values, (A1) for correct frequencies.\nEITHER\nσ= 6422.61.....\nσ= 6420 (A3) (C6)\nOR\nµ= 6000 (A1)\nSubstituting into an appropriate formula for σ (M1)\nσ= 6422.61.....\nσ= 6420 (Do not accept 6490) (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3",
+    "4.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms"
+   ],
+   "text_clean": "13. In a rental property business, the profits in Euros per year for 50 properties are shown in the following cumulative table.\nProfit ($x$) | Number of properties with profit less than $x$\n$-10\\,000$ | 0\n$-5\\,000$ | 3\n0 | 7\n5 000 | 22\n10 000 | 39\n15 000 | 44\n20 000 | 50\nFor this population of 50 properties, calculate an estimate for the standard deviation of the profit."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q14",
+   "num": "14",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "x\n14. Consider the functions fx () = e 2 x and gx () = sin π.\n2\n(a) Find the period of the function f o g .\n(b) Find the intervals for which f ( o() gx ) > 4 .",
+   "ms_text": "QUESTION 14\n⎛ π x ⎞ 2sin\n⎜ ⎟\n(a) f � gx () = e ⎝ 2 ⎠ (A1)\n⎛ π x ⎞\nPeriod = period of sin (M1) ⎜ ⎟\n2 ⎝ ⎠\n�\n= 4 (Accept 720 = 229 �) (A1) (C3)\nπ\n(b)\n(M1)\n� � 720 720\n� � x ∈ (0.488 + 4, 1.51 k + 4) k (k ∈�) (Accept x ∈ (28.0 + k , 86.5 + k ) (A1)(A1) (C3)\nπ π\nNote: Award (A1) for any appropriate values and (A1) for “+ periodk ×”.",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.15",
+    "2.5",
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "14. Consider the functions $f(x) = \\mathrm{e}^{2x}$ and $g(x) = \\sin\\frac{\\pi x}{2}$.\n(a) Find the period of the function $f \\circ g$.\n(b) Find the intervals for which $(f \\circ g(x)) > 4$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q15",
+   "num": "15",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "15. ( ) + ( ) = Solve the equation 2 log x − 3 log x + 1 2 .\n3 1\n3",
+   "ms_text": "QUESTION 15\nMETHOD 1\n− − + = 2log( x 3) log( x 1) 2 (A1)\n3 3\n2 ( x − 3)\n= log 2 (A1)\n3\nx + 1\n2 ( x − 3)\n2 3 = (A1)\nx + 1\n2 9 x + 9 = x − 6 x + 9 (A1)\n= 2 − 0 x 15 x\nx = 15 (A2) (C6)\nNote: Award (A1) if x = 0 is also given.\nMETHOD 2\n− + + = 2log( x 3) log( x 1) 2\n3 1\n3\nUsing change of base formula (M1)\n2log( x − 3) log( x + 1)\n+ = 2 (A1)(A1)\nlog3 1\nlog 3\nx = 15 (A3) (C6)\nNote: Award (A2) for x = 0, x = 15 .",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "15. Solve the equation $2\\log_3(x-3) + \\log_{\\left(\\frac{1}{3}\\right)}(x+1) = 2$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q16",
+   "num": "16",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "x − 12\n16. (a) Sketch the graph of y = .\n2 x − 4\n(b) Write down\n(i) the x-intercept;\n(ii) the equations of all asymptotes.",
+   "ms_text": "QUESTION 16\n(a)\n(A1) (C1)\nNote: Award (A1) for both branches and the x-intercept.\n(b) (i) x-intercept is 12 ( x = 12) (A1) (C1)\n(ii) Asymptotes are x = − 2, x = 2 (A1)(A1) (C2)\ny = − 1, y = 1 (A1)(A1) (C2)",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.3",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "16. (a) Sketch the graph of $y = \\frac{x-12}{\\sqrt{x^2-4}}$.\n(b) Write down\n(i) the $x$-intercept;\n(ii) the equations of all asymptotes."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q17",
+   "num": "17",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "2 x + 3 x + 12\n17. Let fx () = . Find ∫ fx () d. x\n2\n( ) xx + 2",
+   "ms_text": "QUESTION 17\n2 A B C x + 3 x + 12\n+ + = (M1)\n2 2 x x + 2 ( x + 2) xx ( + 2)\nA = 3 B = − 2 C = − 5 (A1)(A1)(A1)\n3 2 5\n= − − ∫ fx ()d x ∫ d x\n2 x x + 2 ( x + 2)\n5\n= 3ln x − 2ln x + 2 + + C (A1)(A1) (C6)\n+ ( x 2)\nNote: Award (A1) for the first two terms and (A1) for the third term.",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.11",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "17. Let $f(x) = \\frac{x^2+3x+12}{x(x+2)^2}$. Find $\\int f(x)\\,\\mathrm{d}x$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q18",
+   "num": "18",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "18. A function f is defined by fx 3 2 where a, b and c are constants. The graph of f () = ax + bx + 30 x + c\nhas a maximum at (1, 7) and a point of inflexion when x = 3. Find the value of a, of b and of c.",
+   "ms_text": "QUESTION 18\n3 2 fx () = ax + bx + 30 x + c\n2 f ′ () x = 3 ax + 2 bx + 30 , f ′ (1) = 0 ⇒ 3 a + 2 b + 30 = 0 (M1)\nf ′′ () x = 6 ax + 2 b , f ′′ (3) = 0 ⇒ 18 a + 2 b = 0 (M1)\na = 2 (A1)\nb = − 18 (A1)\n= ⇒ − + + = f (1) 7 218 30 c 7 (M1)\nc = − 7 (A1)\n3 2 a = 2, b = − 18, c = − 7 (accept 2 x − 18 x + 30 x − 7) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.7",
+    "5.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "18. A function $f$ is defined by $f(x) = ax^3 + bx^2 + 30x + c$ where $a$, $b$ and $c$ are constants. The graph of $f$ has a maximum at $(1, 7)$ and a point of inflexion when $x = 3$. Find the value of $a$, of $b$ and of $c$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q19",
+   "num": "19",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "19. Let ABC be a right-angled triangle, where C$= 90o. The line (AD) bisects BAC $ , BD =, and 3\nDC = 2 , as shown in the diagram.\n$ Find angle DAC .",
+   "ms_text": "QUESTION 19\nLet DAC ˆ = θ ⇒ BAC ˆ = 2, θ t = tan, θ x = AC\nMETHOD 1\n⎛ 2 ⎞ 5\ntan θ = , tan 2 θ = (A1)(A1) ⎜ ⎟\n⎝ x ⎠ x\n2 t ⎛ 5 ⎞\ntan 2 θ = = (M1)\n2 ⎜ ⎟ 1 − t ⎝ x ⎠\n2 t 5 t\n(A1) t=\n2 1 − 2\n4 t = 5 t − 5 t 3\n2 0 = t (15) − t\n1\nt = 0, ±\n5\n1\nt = (A1)\n5\nθ= 24.1 �(0.421 radians) (A1) (C6)\nMETHOD 2\n⎛ 2 ⎞ 5\ntan θ = ⎜ ⎟ , tan 2 θ = (A1)(A1)\n⎝ x ⎠ x\n2 5\n= = x , x (A1)\nθ θ tan tan 2\n2 5\n= (M1)\ntan θ tan 2 θ\nθ= 24.1 � (0.421 radians) (A2) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "19. Let ABC be a right-angled triangle, where $\\hat{\\mathrm{C}} = 90^\\circ$. The line (AD) bisects $\\mathrm{B\\hat{A}C}$, BD = 3, and DC = 2, as shown in the diagram.\n[Diagram: right-angled triangle ABC with right angle at C; D on BC with BD = 3, DC = 2; AD bisects angle BAC]\nFind angle $\\mathrm{D\\hat{A}C}$."
+  },
+  {
+   "id": "math-2005-M-P1-TZ1-q20",
+   "num": "20",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "20. A conical tank with vertex down is 8 metres in diameter and 12 metres deep. Water flows into the tank\nat 10 m3 per minute. Find the rate of change of the depth of the water at the instant when the water is\n6 metres deep.",
+   "ms_text": "QUESTION 20\nr 4 h\n⇒ =\nh= r (A1)\n12 3\n2\nπ ⎛ h ⎞\n= V ⎜ ⎟ () h (M1)\n33 ⎝ ⎠\nπ 3\nV = h\n27\nd V π d h\n= 2 h (M1)(A1)\nd t 9 d t\nπ d h 2\n10 = (6)\n9 d t\nd h 90 ⎛ 5 ⎞\n= = = 0.796metres permin (A1)(A1) (C6) ⎜ ⎟\nd t 36π 2π ⎝ ⎠",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "3.1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "20. A conical tank with vertex down is 8 metres in diameter and 12 metres deep. Water flows into the tank at 10 m$^3$ per minute. Find the rate of change of the depth of the water at the instant when the water is 6 metres deep."
+  }
+ ],
+ "status": "done"
+}

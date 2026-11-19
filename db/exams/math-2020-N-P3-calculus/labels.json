@@ -1,0 +1,49 @@
+{
+ "exam_id": "math-2020-N-P3-calculus",
+ "questions": {
+  "1": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.6"
+   ],
+   "text_clean": "1. [Maximum mark: 7]\nUse l'Hôpital's rule to find\n$$\\lim_{x\\to 1}\\frac{\\cos(x^2-1)-1}{e^{x-1}-x}.$$"
+  },
+  "2": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L2",
+    "5.L1"
+   ],
+   "text_clean": "2. [Maximum mark: 10]\nConsider the series $\\sum_{n=1}^{\\infty}\\frac{(5-3x)^n}{n}$.\n(a) Show that the series is convergent for $\\frac{4}{3}<x<2$. [5]\n(b) Find the interval of convergence of the series. [5]",
+   "note": "Markscheme crop omits the final 'AG 4/3<x<2' line of (a) Method 2 (page-bottom line at y~768 on ms page 8 is dropped by the segmenter's footer detection even with a manual override); all marks are visible. | fixed by segmenter update: the line noted above as missing is now in the crop",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.16",
+    "5.8"
+   ],
+   "text_clean": "3. [Maximum mark: 18]\nThe curve $y=f(x)$ has a gradient function given by\n$$\\frac{dy}{dx}=x-y.$$\nThe curve passes through the point $(1,1)$.\n(a) (i) On the same set of axes, sketch and label isoclines for $\\frac{dy}{dx}=-1$, $0$ and $1$, and clearly indicate the value of each $y$-intercept.\n(ii) Hence or otherwise, explain why the point $(1,1)$ is a local minimum. [6]\n(b) Find the solution of the differential equation $\\frac{dy}{dx}=x-y$, which passes through the point $(1,1)$. Give your answer in the form $y=f(x)$. [8]\n(c) (i) Explain why the graph of $y=f(x)$ does not intersect the isocline $\\frac{dy}{dx}=1$.\n(ii) Sketch the graph of $y=f(x)$ on the same set of axes as part (a)(i). [4]"
+  },
+  "4": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L3",
+    "5.19",
+    "5.6"
+   ],
+   "text_clean": "4. [Maximum mark: 15]\nThe function $f$ is defined by $f(x)=\\ln(1+x^2)$ where $-1<x<1$.\n(a) (i) Use the Maclaurin series for $\\ln(1+x)$ to write down the first three non-zero terms of the Maclaurin series for $f(x)$.\n(ii) Hence find the first three non-zero terms of the Maclaurin series for $\\frac{x}{1+x^2}$. [6]\n(b) Use your answer to part (a)(i) to write down an estimate for $f(0.4)$. [1]\nThe seventh derivative of $f$ is given by $f^{(7)}(x)=\\frac{1440x(x^6-21x^4+35x^2-7)}{(1+x^2)^7}$.\n(c) (i) Use the Lagrange form of the error term to find an upper bound for the absolute value of the error in calculating $f(0.4)$, using the first three non-zero terms of the Maclaurin series for $f(x)$.\n(ii) With reference to the Lagrange form of the error term, explain whether your answer to part (b) is an overestimate or an underestimate for $f(0.4)$. [8]"
+  }
+ }
+}

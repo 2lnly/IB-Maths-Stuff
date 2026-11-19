@@ -1,0 +1,286 @@
+{
+ "exam_id": "math-2001-M-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2001,
+ "session": "May",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2001 May Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2001 May Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size, 1 donated/scanned); question paper is a scan (no text layer); question paper OCR'd (scan); marks sum matches expected total 100",
+ "qp_pages": 11,
+ "questions": [
+  {
+   "id": "math-2001-M-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 11,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 11]\nLet f(x)=xcos 3x.\n(a) Use integration by parts to show that\nIf(x)dx=}?;x sin 3x+écos3x+c. [3 marks]\n(b) Use your answer to part (a) to calculate the exact area enclosed by f(x) and\nthe x-axis in each of the following cases. Give your answers in terms of 7.\nL T 3n\n—<x<—\np\n(i1) 1) —<x<—\n(iii) 5?“ <x< 7—“ [4 marks]\n(c) Given that the above areas are the first three terms of an arithmetic\nsequence, find an expression for the total area enclosed by f(x) and the\nx-axis for =< x < (_2n+_l)n, where n € Z*. Give your answers in terms\nof nand [4 marks]",
+   "ms_text": "1. (a) Using integration by parts\n1 1\nx cos3d xx = x sin3 x − sin3d xx (M1)(A2) ∫ ∫\n3 3\n1 1\n= x sin3 x + cos3 x + C ( C not required) (AG)\n3 9\n[3 marks]\n3π\n6 1 1 2 π\n(b) (i) Area = x sin3 x + cos3 x = (M1)(A1)\n3 9 9 π\n6\n5π\n1 1 6 4 π\n(ii) Area = x sin3 x + cos3 x = (A1)\n3 9 9 3π\n6\n7π\n6 1 1 6 π\n= x sin3 x + cos3 x = (iii) Area (A1)\n3 9 9 5π\n6\nNote: Accept negative answers for part (b), as long as they are exact.\nDo not accept answers found using a calculator.\n[4 marks]\n(c) The above areas form an arithmetic sequence with\n2 π 2 π\nu = and d = (A1)\n1\n9 9\nn 4 π 2( π\nThe required area = S = + n − 1) n (M1)(A1)\n2 9 9\nn π\n= ( n + 1) (A1)\n9\n[4 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.16",
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "1. [Maximum mark: 11]\nLet $f(x)=x\\cos 3x$.\n(a) Use integration by parts to show that $\\int f(x)\\,dx=\\frac{1}{3}x\\sin 3x+\\frac{1}{9}\\cos 3x+c$. [3 marks]\n(b) Use your answer to part (a) to calculate the exact area enclosed by $f(x)$ and the $x$-axis in each of the following cases. Give your answers in terms of $\\pi$.\n(i) $\\frac{\\pi}{6}\\le x\\le\\frac{3\\pi}{6}$\n(ii) $\\frac{3\\pi}{6}\\le x\\le\\frac{5\\pi}{6}$\n(iii) $\\frac{5\\pi}{6}\\le x\\le\\frac{7\\pi}{6}$. [4 marks]\n(c) Given that the above areas are the first three terms of an arithmetic sequence, find an expression for the total area enclosed by $f(x)$ and the $x$-axis for $\\frac{\\pi}{6}\\le x\\le\\frac{(2n+1)\\pi}{6}$, where $n\\in\\mathbb{Z}^+$. Give your answers in terms of $n$ and $\\pi$. [4 marks]"
+  },
+  {
+   "id": "math-2001-M-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 16]\nThe triangle ABC has vertices at the points A(-1, 2, 3), B(-1, 3, 5) and\nCO,-1,1).\n(a) Find the size of the angle 6 between the vectors AB and AC. [4 marks]\n(b) Hence, or otherwise, find the area of triangle ABC. [2 marks]\n_.9\nLet /, be the line parallel to AB which passes through D(2, -1, 0) and /, be\nthe line parallel to AC which passes through E(-1,1, 1)\n(c) (i) Find the equations of the lines /, and [,\n(ii) Hence show that /, and /, do not intersect. [5 marks]\n[5 marks] (d) Find the shortest distance between /, and /, .",
+   "ms_text": "2. (a) Given the points A(−1, 2, 3), B(–1, 3, 5) and C(0, −1, 1),\n0 1\n→ →\nthen AB = 1, AC =− 3 (A1)\n2 − 2\n→ →\nand |AB| = 5,|AC| = 14 (A1)\n→ →\nThe size of the angle between the vectors ABand AC is given by\n→ →\nABAC ⋅ − 7\nθ = arccos = arccos (M1)\n→ →\n514\n|AB||AC|\n! θ= 147(3s.f.)or2.56 radians (A1)\n[4 marks]\n1 → → 1 → →\n(b) Area = |AB||AC| sin θ or |AB × AC| (M1)\n2 2\n21 2\nArea = 2.29 units accept 2.28, 2.30, and (A1)\n2\n[2 marks]\n(c) (i) The parametric equations of l and l are\n1 2\nl x = 2, y = −+ 1 λ , z = 2 λ 1: (A1)\nl x = −+ 1 µ , y =− 13, µ z =− 1 2 µ 2: (A1)\nNote: At this stage accept answers with the same parameter for both lines.\n(ii) To test for a point of intersection we use the system of equations:\n2 = −+ 1 µ !\n−+ 1 λ =− 13 µ \"\n2 λ =− 1 2 µ # (M1)\nThen µ = 3, λ = − 7from ! and \" (A1)\nSubstituting into # gives RHS = − 14,LHS = − 5 (M1)\nTherefore the system of equations has no solution and the lines do not intersect.\n[5 marks]\n( e − d )( ⋅ l × l )\n1 2\n(d) The shortest distance is given by where d and e are the position\n( l × l )\n1 2\nvectors for the points D and E and where l and l are the direction vectors for the\n1 2\nlines l and l .\n1 2\ni j k\n× = = + − Then 1 l l 0 1 2 4 i 2 j k (M1)(A1)\n2\n1 − 3 − 2\n( e − d )( ⋅ l × l ) (3 − i + 2 j + k )(4 ⋅ i + 2 j − k )\n1 2\nAnd = (M2)\n( l × l )\n1 2 21\n9\n= or 1.96 (A1)\n21\n[5 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.13",
+    "3.16",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "2. [Maximum mark: 16]\nThe triangle ABC has vertices at the points A$(-1,2,3)$, B$(-1,3,5)$ and C$(0,-1,1)$.\n(a) Find the size of the angle $\\theta$ between the vectors $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$. [4 marks]\n(b) Hence, or otherwise, find the area of triangle ABC. [2 marks]\nLet $l_1$ be the line parallel to $\\overrightarrow{AB}$ which passes through D$(2,-1,0)$ and $l_2$ be the line parallel to $\\overrightarrow{AC}$ which passes through E$(-1,1,1)$.\n(c) (i) Find the equations of the lines $l_1$ and $l_2$.\n(ii) Hence show that $l_1$ and $l_2$ do not intersect. [5 marks]\n(d) Find the shortest distance between $l_1$ and $l_2$. [5 marks]"
+  },
+  {
+   "id": "math-2001-M-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 13]\nLet f(x)= x(%/(x2 - 1)2), -14<x<14\n(a) Sketch the graph of f(x). (An exact scale diagram is not required.)\nOn your graph indicate the approximate position of\n(1) each zero;\n(ii) each maximum point;\n(iii) each minimum point. [4 marks]\n(b) (i) Find f'(x), clearly stating its domain.\n(ii) Find the x-coordinates of the maximum and minimum points of f(x),\nfor-1<x<1. [7 marks]\nFind the x-coordinate of the point of inflexion of f(x) , where x >0, giving\nyour answer correct to four decimal places . [2 marks]",
+   "ms_text": "2 2 fx () = x ( 3 ( x − 1) )\n3. (a)\n(A4)\nNotes: Award (A1) for the shape, including the two cusps (sharp points) at x = ± 1 .\n(i) Award (A1) for the zeros at x = ± 1and x = 0 .\n(ii) Award (A1) for the maximum at x = − 1and the minimum at x = 1.\n(iii) Award (A1) for the maximum at approx. x = 0.65 , and the minimum at\napprox. x = −0.65\nThere are no asymptotes.\nThe candidates are not required to draw a scale.\n[4 marks]\n2 2\n(b) (i) Let fx () = xx ( − 1) 3\n4 1 2 2 2 − 2\nThen f ′ () x = x ( x − 1) 3 + ( x − 1) 3 (M1)(A2)\n3\n− 1 4\nf ′ () x = ( x 2 − 1) 3 x 2 + ( x 2 − 1)\n3\n− 1 7\nf ′ () x = ( x 2 − 1) 3 x 2 − 1 (or equivalent)\n3\n2 7 x − 3\n′ f () x = (or equivalent)\n2 1 3( x − 1) 3\nThe domain is − 1.4 ≤ x ≤ 1.4, x ≠± 1 (accept − 1.4 < x < 1.4, x ≠± 1 ) (A1)\n2 (ii) For the maximum or minimum points let f ′ () x = 0 i.e. (7 x− 3) = 0 or use\nthe graph. (M1)\n3\nTherefore, the x-coordinate of the maximum point is x = (or 0.655) and (A1)\n7\n3 (A1)\nthe x-coordinate of the minimum point is x = − (or −0.655).\n7\nNotes: Candidates may do this using a GDC, in that case award (M1)(G2).\n[7 marks]\n(c) The x-coordinate of the point of inflexion is x = ± 1.1339 (G2)\nOR\n2 4(7 x x − 9)\nf ′′ () x = , x ≠± 1 (M1)\n3 2 4 9( x − 1)\n9\nFor the points of inflexion let f ′′ () x = 0 and use the graph, i.e. x = = 1.1339 . (A1)\n7\nNote: Candidates may do this by plotting f ′ () x and finding the x-coordinate of the\nminimum point. There are other possible methods.\n[2 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.8",
+    "5.7",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "3. [Maximum mark: 13]\nLet $f(x)=x\\left(\\sqrt[3]{(x^2-1)^2}\\right)$, $-1.4\\le x\\le 1.4$.\n(a) Sketch the graph of $f(x)$. (An exact scale diagram is not required.)\nOn your graph indicate the approximate position of\n(i) each zero;\n(ii) each maximum point;\n(iii) each minimum point. [4 marks]\n(b) (i) Find $f'(x)$, clearly stating its domain.\n(ii) Find the $x$-coordinates of the maximum and minimum points of $f(x)$, for $-1<x<1$. [7 marks]\n(c) Find the $x$-coordinate of the point of inflexion of $f(x)$, where $x>0$, giving your answer correct to four decimal places. [2 marks]"
+  },
+  {
+   "id": "math-2001-M-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 17]\nn\n(i) Using mathematical induction, prove that (cos x) = cos (x + _”22), for\nn\nall positive integer values of 7. [7 marks]\n(i) Let T = (1(2) i) and P(a, 2a) be a point on the line with equation y =2x.\n(a) P’'(x’, y\") is the image of P(a, 2a) under the transformation I. Find\nthe coordinates of P’ [2 marks]\n(b) T maps the line with equation y =2x onto another straight line with\nequation y=kx . Using your answer to part (a), or otherwise, find the\nequation of this straight line. [2 marks]\nLet Q(a, ma) be a point on the line with equation y=mx. Q'(x\", y’)\nis the image of Q(a, ma) under the transformation 7. Find the\ncoordinates of Q' [2 marks]\n(d Given that T maps two lines of the form y =mx onto themselves, use\nyour answer to part (c), or otherwise, to find the two possible values\nof m. [4 marks]",
+   "ms_text": "n d n π\n4. (i) Let p be the statement cos x = cos x + for all positive integer values of n. n\nn 2 d x\nd\nFor n = 1, (cos) x = − sin x (A1)\nd x\nπ\n= cosx + (A1)\n2\nTherefore 1p is true.\nAssume the formula is true for n = k,\nk k π\nthat is, d (cos) x = cos x + (M1)\nk d x 2\nk d d d k π\nThen (cos) x = cos x +\nk d x d x d x 2\nk + 1 d k π\n(cos) x = − sin x + (M1)\nk + 1 d x 2\n+ d k 1 k π π\n(cos) x = cos x + + (A1)\nk + 1 d x 2 2\nk + 1 d ( k + 1) π\n(cos) x = cos x + (A1)\nk + 1 d x 2\nwhich is p when n = k + 1 .\nn\n(So if p is true for n = k then it is true for n = k + 1 and by the principle of\nn\nmathematical induction p is true for all positive integer values of n.) (R1) n\n[7 marks]\nx ′ 2 2 a 6 a\n(ii) (a) = = (accept row vectors) (M1)\ny ′ 10 3 2 a 16 a\nTherefore the image point is P (6,16) ′ a a (A1)\n[2 marks]\n8 8\n(b) From part (a), y ′ = x ′ , therefore the equation of the image line is y = x . (A2)\n3 3\n[2 marks]\nx ′ 2 2 a 2 a + 2 ma\n(c) = = (M1)\ny ′ 10 3 ma 10 a + 3 ma\n′ Therefore the image point is Q (2 a + 2 ma ,10 a + 3 ma ) (A1)\n[2 marks]\n= (d) Since the image line has equation y mx\n2 10 a + 3 ma = 2 ma + 2 ma (M1)\n2 m 2 − m − 10 = 0\n(2 m − 5)( m + 2) = 0 (M1)\nm = 5 , m = − 2 (A2)\n2\n[4 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.15",
+    "5.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "4. [Maximum mark: 17]\n(i) Using mathematical induction, prove that $\\frac{d^n}{dx^n}(\\cos x)=\\cos\\left(x+\\frac{n\\pi}{2}\\right)$, for all positive integer values of $n$. [7 marks]\n(ii) Let $T=\\begin{pmatrix}2&2\\\\10&3\\end{pmatrix}$ and P$(a,2a)$ be a point on the line with equation $y=2x$.\n(a) P$'(x',y')$ is the image of P$(a,2a)$ under the transformation $T$. Find the coordinates of P$'$. [2 marks]\n(b) $T$ maps the line with equation $y=2x$ onto another straight line with equation $y=kx$. Using your answer to part (a), or otherwise, find the equation of this straight line. [2 marks]\n(c) Let Q$(a,ma)$ be a point on the line with equation $y=mx$. Q$'(x',y')$ is the image of Q$(a,ma)$ under the transformation $T$. Find the coordinates of Q$'$. [2 marks]\n(d) Given that $T$ maps two lines of the form $y=mx$ onto themselves, use your answer to part (c), or otherwise, to find the two possible values of $m$. [4 marks]"
+  },
+  {
+   "id": "math-2001-M-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 13]\nIn a game, the probability of a player scoring with a shot is % Let X be the\nnumber of shots the player takes to score, including the scoring shot. (You can\nassume that each shot is independent of the others.)\n[2 marks] (a) Find P(X=3).\n(b) Find the probability that the player will have at least three misses before\nscoring twice. [6 marks]\n(c) Prove that the expected value of X is 4.\n(You may use the result (1 -x)2=1+2x+3x2+4x3...... ) [5 marks]",
+   "ms_text": "2\n3 1 9\n5. (a) P( X = 3) = × = ( = 0.141 to 3 s.f. ) (M1)(A1)\n4 4 64\n[2 marks]\n= (b) Let the probability of at least three misses before scoring twice P(3 m)\nLet S mean “Score” and M mean “Miss”.\nP(3 m) =− 1[P(0 misses) + P(1miss) + P(2 misses)] (M1)\n=− 1[P(SS) + P(SMS or MSS) + P(MMSS or MSMS or SMMS)] (M2)\n2 2 2 2\n1 1 3 1 3\n=− 1 + 2 + 3 (A2)\n4 4 4 4 4\n189\n= ( = 0.738 to 3 s.f. ) (A1)\n256\n[6 marks]\n2\n1 1 3 1 3\n(c) E() x = ∑ x P() x =× 1 +× 2 × +× 3 × + … (M1)(A1)\n4 4 4 4 4\nfor all x\n2\n1 3 3\n= 1 +× 2 +× 3 + … (A1)\n4 4 4\n− 2\n1 3\n= 1 − (using the given result) (M1)\n4 4\n− 2\n11\n= = 1 (4) 2 = 4 (A1)(AG)\n44 4\n[5 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L2",
+    "4.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "5. [Maximum mark: 13]\nIn a game, the probability of a player scoring with a shot is $\\frac{1}{4}$. Let $X$ be the number of shots the player takes to score, including the scoring shot. (You can assume that each shot is independent of the others.)\n(a) Find $P(X=3)$. [2 marks]\n(b) Find the probability that the player will have at least three misses before scoring twice. [6 marks]\n(c) Prove that the expected value of $X$ is 4.\n(You may use the result $(1-x)^{-2}=1+2x+3x^2+4x^3\\ldots\\ldots$) [5 marks]"
+  },
+  {
+   "id": "math-2001-M-P2-q6",
+   "num": "6",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 30]\n(1) (a) Patients arrive at random at an emergency room in a hospital at the\nrate of 15 per hour throughout the day. Find the probability that 6\npatients will arrive at the emergency room between 08:00 and 08:15. [3 marks]\n(b) The emergency room switchboard has two operators. One operator\nanswers calls for doctors and the other deals with enquiries about\npatients. The first operator fails to answer 1% of her calls and the\nsecond operator fails to answer 3% of his calls. On a typical day, the\nfirst and second telephone operators receive 20 and 40 calls respectively\nduring an afternoon session. Using the Poisson distribution find the\nprobability that, between them, the two operators fail to answer two\nor more calls during an afternoon session. [5 marks]\n(ii) A television network wants to determine whether major sports events or\nmovies attract more viewers in the evening hours between 19:00 and 22:00.\nIn a random survey of 28 evenings, it is found that 13 evenings have\nprogrammes devoted to movies and 15 to sports. An independent television\nrating firm recorded the number of viewers per programme to test whether\nthere is any difference between u, , the average number of movie viewers\nper evening, and u, , the average number of sports viewers per evening. The\nresults for the samples are given in the following table:\nMovies Sports Programme type\nNumber of evenings n=13 m=15\nMean number of viewers per 6.8 million 5.3 million\nevening\nStandard deviation of the number of 1.8 million 1.6 million\nviewers per evening\nAssume that both the sampled populations are normally distributed with\nequal population variances and both the samples are randomly selected\nindependently of each other.\n(a) State clearly which test statistic and variance you would use, giving a\nreason for your choice of variance. [3 marks]\n(b) Does the above data provide enough evidence to indicate a difference\nbetween the mean number of viewers per evening for movies and sports\nat a significance level of 5%? Show the acceptance and rejection\nregions for your null hypothesis. [7 marks]\n(c) Find the 99% confidence interval for the difference of the two means\nand decide if there is evidence that there is a difference between the\npopulations means. [2 marks]\n(iif) Dr. David Logan is conducting research to determine the effect on sleeping\npatterns of drinking coffee after dinner. A survey of a random sample of\n60 persons chosen independently of each other was conducted to find if they\nsleep less soundly if they drink coffee after dinner. The results are shown\nbelow:\nNumber of cups of coffee | sleep is worse [sleep is the same| sleep is better\nafter dinner\n1 5 7 3\n2 10 4 1\n3 25 5 0\nDr. Logan wants to test the above data to determine whether sleeping\npatterns are independent of the number of cups of coffee after dinner.\n(a) Explain how he should test the data, mentioning the kind of test and\nthe test statistic that should be used. [1 mark]\n(b) Determine if the above data indicates that having coffee after dinner\nand sleeping soundly are independent at a 5% level of significance. [9 marks]",
+   "ms_text": "6. (i) (a) Let X be the number of patients arriving at the emergency room in a 15 minute\n15 (M1)\nperiod. Rate of arrival in a 15 minute period = = 3.75 .\n4\n6 (3.75)\n− 3.75 P( X = 6) = e (M1)\n6!\n= 0.0908 (A1)\nOR\nP(6 patients) = 0.0908 (G2)\n[3 marks]\n(b) Let FF , be random variables which represent the number of failures to 1 2\nanswer telephone calls by the first and the second operator, respectively.\nF ~ P(0.0120) × = P(0.2) . (A1) 1 0 0\nF ~ P(0.0340) × = P(1.2) . (A1) 2 0 0\nSince F and F are independent\n1 2\nF + F ~ P(0.2 + 1.2) = P(1.4) (M1)\n1 2 0 0\nP( F + F ≥ 2) =− 1 P( F + F = 0) − P( F + F = 1) (M1)\n1 2 1 2 1 2\n− 1.4 − 1.4 =− 1e − (1.4)e = 0.408 (A1)\nOR\nPF ( + F ≥ 2) = 0.408 (M0)(G2)\n1 2\n[5 marks]\n(ii) (a) Test statistics: Difference of two sample means t-test is used, as sample sizes\nare small. (M1)\n2 Variance: We use pooled variance, where\ns+ nm − 2\nns 2 + ms 2 2\nn m s =\n(A1) nm + − 2\nn + m − 2 .\nReason: The two sampled populations are normally distributed with equal\npopulation variances (and the sample is “small”). (R1)\n[3 marks]\n131.8 × 2 + 151.6 × 2 2\n(b) s+ = = 3.097 (A1) nm − 2\n1315 + − 2\nH: µ − µ = 0\n0 1 2\nH: µ − µ ≠ 0 (A1)\n1 1 2\n(6.8 − 5.3) − 0\nt =\n1 1 (M1)\n+\n(3.097)13\n15\n= 2.25 (A1)\nv= the number of degrees of freedom = 1315 + − 2 = 26 (A1)\nAt 5% level of significance, the acceptance and rejection regions are shown:\nt with 26 degrees of freedom is 2.056 0.025\n(M1)\nReject H Accept H Reject H 0\n0 0\n− .t .t\n025 025\nSince the computed value of t = 2.25 falls in the rejection region, we\nreject H and conclude that there is a difference between the\n0\n(R1) population means.\n[7 marks]\n1 1\n(c) 99% confidence interval is (6.8 − 5.3) ± +\n2.7793.09713\n15\n=− (0.353, 3.35) (M1)\nSince zero lies in the 99% confidence interval we accept the null hypothesis\nthat there is no significant difference. (R1)\n[2 marks]\n2\n(iii) (a) Test: χ test for independence, test statistic: Chisquare statistic (A1)\n[1 mark]\n(b) Combining the last two columns, we have the following table of information:\nNumber of cups sleep is worse sleep is the same or better Total\n1 5 10 15\n2 10 5 15\n3 25 5 30\nTotal 40 20 60\n(M1)(A1)\nH : There is no difference in sleeping pattern.\n0\nH : There is a difference in sleeping pattern. (A1)\n1\nTable of expected frequencies are:\nNumber of cups sleep is worse sleep is the same or better Total\n1 10 5 15\n2 10 5 15\n3 20 10 30\nTotal 40 20 60\n(A2)\nNote: Award (A2) for 5 or 6 correct bold entries.\nAward (A1) for 3 or 4 correct, (A0) for 2 or less.\nNumber of degrees of freedom = (21)(31) − − = 2 . (A1)\n2 χ\nwith 2 degrees of freedom = 5.99. (A1) 0.05\nComputed value of Chi-square is given by\n2 2 2 2 2 2\n2 (510) − (10 − 5) (1010) − (5 − 5) (25 − 20) (510) − χ = + + + + +\n10 5 10 5 20 10\n= 11.25 (M1)\n2 Since, 11.25, the calculated value of χ> 5.99 , the critical value, we reject\nthe null hypothesis. Hence there is evidence that drinking coffee has an effect\n(R1) on sleeping pattern.\n[9 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L9",
+    "4.L1",
+    "4.L6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Statistics",
+   "text_clean": "6. [Maximum mark: 30]\n(i) (a) Patients arrive at random at an emergency room in a hospital at the rate of 15 per hour throughout the day. Find the probability that 6 patients will arrive at the emergency room between 08:00 and 08:15. [3 marks]\n(b) The emergency room switchboard has two operators. One operator answers calls for doctors and the other deals with enquiries about patients. The first operator fails to answer 1% of her calls and the second operator fails to answer 3% of his calls. On a typical day, the first and second telephone operators receive 20 and 40 calls respectively during an afternoon session. Using the Poisson distribution find the probability that, between them, the two operators fail to answer two or more calls during an afternoon session. [5 marks]\n(ii) A television network wants to determine whether major sports events or movies attract more viewers in the evening hours between 19:00 and 22:00. In a random survey of 28 evenings, it is found that 13 evenings have programmes devoted to movies and 15 to sports. An independent television rating firm recorded the number of viewers per programme to test whether there is any difference between $\\mu_1$, the average number of movie viewers per evening, and $\\mu_2$, the average number of sports viewers per evening. The results for the samples are given in the following table:\nProgramme type | Movies | Sports\nNumber of evenings | $n=13$ | $m=15$\nMean number of viewers per evening | 6.8 million | 5.3 million\nStandard deviation of the number of viewers per evening | 1.8 million | 1.6 million\nAssume that both the sampled populations are normally distributed with equal population variances and both the samples are randomly selected independently of each other.\n(a) State clearly which test statistic and variance you would use, giving a reason for your choice of variance. [3 marks]\n(b) Does the above data provide enough evidence to indicate a difference between the mean number of viewers per evening for movies and sports at a significance level of 5%? Show the acceptance and rejection regions for your null hypothesis. [7 marks]\n(c) Find the 99% confidence interval for the difference of the two means and decide if there is evidence that there is a difference between the populations means. [2 marks]\n(iii) Dr. David Logan is conducting research to determine the effect on sleeping patterns of drinking coffee after dinner. A survey of a random sample of 60 persons chosen independently of each other was conducted to find if they sleep less soundly if they drink coffee after dinner. The results are shown below:\nNumber of cups of coffee after dinner | sleep is worse | sleep is the same | sleep is better\n1 | 5 | 7 | 3\n2 | 10 | 4 | 1\n3 | 25 | 5 | 0\nDr. Logan wants to test the above data to determine whether sleeping patterns are independent of the number of cups of coffee after dinner.\n(a) Explain how he should test the data, mentioning the kind of test and the test statistic that should be used. [1 mark]\n(b) Determine if the above data indicates that having coffee after dinner and sleeping soundly are independent at a 5% level of significance. [9 marks]"
+  },
+  {
+   "id": "math-2001-M-P2-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 30]\nLet 4 and B be two non-empty sets, and 4 — B be the set of all elements of\nA which are not in B. Draw Venn diagrams for 4— B and B— A4 and\n[3 marks] determine if BN (A-B)=BnNn(B—A4).\n(i) Consider the set Z xZ*. Let R be the relation defined by the following:\nfor (a, b) and (¢, d) in ZXZ*, (a, b)R(c, d) if and only if\nad = bc , where ab is the product of the two numbers a and b.\n(a) Prove that R is an equivalence relation on Z X Z\"*. [4 marks]\n(b) Show how R partitions Z x Z* and describe the equivalence classes. [2 marks]\n(1ii) ABCD is a unit square with centre O. The midpoints of the line segments\n[CD], [AB], [AD], [BC] are M, N, P, Q, respectively. Let L, and L,\ndenote the lines (MN) and (PQ), respectively. Consider the following\nsymmetries of the square:\nU is a clockwise rotation about O of 2x;\nH is the reflection of the vertices of the square in the line L,\nV is the reflection of the vertices of the square in the line L,\nK is a clockwise rotation about O of\n(a) Write down the table of operations for the set S={U, H, V, K}\nunder o, the composition of these geometric transformations. [4 marks]\n(b) Assuming that o is associative, prove that (S, o) forms a group. [4 marks]\nConsider the set C={1, -1, —i} and the binary operation < defined on\nC, where < is the multiplication of complex numbers.\n(c) Find the operation table for the group (C, <). [3 marks]\n(d) Determine whether the groups (S, o) and (C, <) are isomorphic. Give\nreasons for your answer. [4 marks]\n@iv) Let (G, *) be a group where * is a binary operation on G. The identity\nelement in G is e, such that G # {e} . The group G is cyclic, and its only\nsubgroups are {e} and G. Prove that G is a finite cyclic group of prime\norder. [6 marks]",
+   "ms_text": "7. (i) Venn diagrams are\nB\nB A\nA – B B – A\n(A1)\nA B – A\nA – B\nNote: Award (A1) if both the Venn diagrams are correct otherwise award (A0).\nFrom the Venn diagrams, we see that\nB ∩ ( A − B ) = φ and B ∩ ( B − A ) = B − A (M1)\nHence they are not equal. (C1)\nNote: Award (M0)(C1) if no reason is given. Accept other correct diagrams.\n[3 marks]\n+\n(ii) A relation R is defined on ZZ ZZ ZZ ZZ × by:\n+ (,), (, ab cd ) ∈ ZZ ZZ ZZ ZZ × , (,) abRcd (, ) ⇔ ad = bc\n.\n(a) To show that R is an equivalence relation, we show that it is reflexive,\nsymmetric and transitive.\nReflexivity: Since ab = ba for ab , ∈ Z , we have (,) abRab (,) . (A1)\nSymmetry: (,) abRcd (, ) ⇔ ad = bc ⇔ da = cb ⇔ cb = da\n⇔ (, cdRab ) (,) (A1)\nTransitivity: (,) abRcd (, )and(, cdRef ) (, ) ⇒ ad = bc and cf = ed .\nIf c = 0, ad = 0 and ed = 0.Since d ≠ 0, a = 0 and e = 0 . (M1)\n⇒ af = be ⇒ (,) abRef (, ) .\nIf c ≠ 0, adcf = bced i.e.( afdc ) = ( becd ) or( afcd ) = ( becd )\ni.e. af = be ⇒ (,) abRef (, ) , since cd≠ 0 (R1)\nNote: Award (M0)(R1) if cd≠ 0 is not mentioned.\n[4 marks]\n(b) ad = bc ⇔ ab : = cd : (M1)\nc )witha\ni.e. the classes are those pairs (,)and(, ab cd =\nb d\ni.e. the elements of those pairs are in the same ratio.\n(R1)\ni.e. the elements are on the same line going through the origin.\n[2 marks]\n(iii) 1L\nA N B\nL\n2\nP O Q\nD M C\n(a) ! U H V K\nU U H V K\nH H U K V\nV V K U H\n(A4)\nK K V H U\nNote: Award (A4) for 15 or 16 correct entries, (A3) for 13 or 14, (A2) for 11 or 12,\n(A1) for 9 or 10, (A0) for 8 or fewer.\n[4 marks]\n(b) Closure: U, H, K and V are the only entries in the table. So it is closed. (A1)\nIdentity: U, since UT = TU = T for all T in S. (A1)\n− 1 = − 1 = − 1 = − 1 = Inverses: U UH , HV , VK , K (A1)\nAssociativity: Given (AG)\nHence (,) S! forms a group. (R1)\n[4 marks]\n(c) C = {1, − 1, i, − i}\n◊ 1 –1 i − i\n− 1 1 –1 i i\n–1 –1 1 − i i\ni i − i –1 1\n− i − i i 1 –1\n(A3)\nNote: Award (A3) for 15 or 16 correct entries, (A2) for 13 or 14, (A1) for 11 or 12,\n(A0) for 10 or fewer.\n[3 marks]\n→ (d) Suppose f : S C is an isomorphism.\nThen fU= () 1 , the identity in C, since f preserves the group operation. (M1)(C1)\nAssume fH= ( ) i , 1 = fU () = fH ( ! H ) = fH ( ) ◊ fH ( ) . (A1)\nBut fH= ( ) i , and i is not its own inverse, so f is not an isomorphism. (R1)\nNote: Accept other correctly justified solutions.\n[4 marks]\n(iv) Given ( G∗ ,) is a cyclic group with identity e and G ≠ {} e and G has no proper\nsubgroups.\nIf G is of composite finite order and is cyclic, then there is ∈ such that x x G\ngenerates G. (R1)\np If G = p × q , pq , ≠ 1, then < x > is a subgroup of G of order q which is\n(M1)\n(R1) impossible since G has no non-trivial proper subgroup.\n2\nSuppose the order of G is infinite. Then < x > is a proper subgroup of G which (M1)\ncontradicts the fact that G has no proper subgroup. (A1)\nSo G is a finite cyclic group of prime order. (R1)\n[6 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.2",
+    "7.8",
+    "7.5",
+    "7.9",
+    "7.6",
+    "7.1",
+    "7.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Sets, Relations and Groups",
+   "text_clean": "7. [Maximum mark: 30]\n(i) Let $A$ and $B$ be two non-empty sets, and $A-B$ be the set of all elements of $A$ which are not in $B$. Draw Venn diagrams for $A-B$ and $B-A$ and determine if $B\\cap(A-B)=B\\cap(B-A)$. [3 marks]\n(ii) Consider the set $\\mathbb{Z}\\times\\mathbb{Z}^+$. Let $R$ be the relation defined by the following:\nfor $(a,b)$ and $(c,d)$ in $\\mathbb{Z}\\times\\mathbb{Z}^+$, $(a,b)R(c,d)$ if and only if $ad=bc$, where $ab$ is the product of the two numbers $a$ and $b$.\n(a) Prove that $R$ is an equivalence relation on $\\mathbb{Z}\\times\\mathbb{Z}^+$. [4 marks]\n(b) Show how $R$ partitions $\\mathbb{Z}\\times\\mathbb{Z}^+$ and describe the equivalence classes. [2 marks]\n(iii) ABCD is a unit square with centre O. The midpoints of the line segments [CD], [AB], [AD], [BC] are M, N, P, Q, respectively. Let $L_1$ and $L_2$ denote the lines (MN) and (PQ), respectively. Consider the following symmetries of the square:\n$U$ is a clockwise rotation about O of $2\\pi$;\n$H$ is the reflection of the vertices of the square in the line $L_2$;\n$V$ is the reflection of the vertices of the square in the line $L_1$;\n$K$ is a clockwise rotation about O of $\\pi$.\n(a) Write down the table of operations for the set $S=\\{U,H,V,K\\}$ under $\\circ$, the composition of these geometric transformations. [4 marks]\n(b) Assuming that $\\circ$ is associative, prove that $(S,\\circ)$ forms a group. [4 marks]\nConsider the set $C=\\{1,-1,\\mathrm{i},-\\mathrm{i}\\}$ and the binary operation $\\diamond$ defined on $C$, where $\\diamond$ is the multiplication of complex numbers.\n(c) Find the operation table for the group $(C,\\diamond)$. [3 marks]\n(d) Determine whether the groups $(S,\\circ)$ and $(C,\\diamond)$ are isomorphic. Give reasons for your answer. [4 marks]\n(iv) Let $(G,*)$ be a group where $*$ is a binary operation on $G$. The identity element in $G$ is $e$, such that $G\\ne\\{e\\}$. The group $G$ is cyclic, and its only subgroups are $\\{e\\}$ and $G$. Prove that $G$ is a finite cyclic group of prime order. [6 marks]"
+  },
+  {
+   "id": "math-2001-M-P2-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 30]\n(i) Find the solution of the recurrence relation a,,,=a, +2a,\nn=0,1,2,...,withag=1,a =5. [6 marks]\n(i1) For any positive integers a and b, let gcd (a, b) and lcm (a, b) denote the\ngreatest common divisor and the least common multiple of a and b,\nrespectively. Prove that\naxb=(ged(a, b)) x(cm (a, b)) . [5 marks]\n(iii) (a) If G is a connected simple planar graph with » vertices (v=3) and e\nedges, prove that e<3v-6. [5 marks]\n(b) Hence prove that x; is not a planar graph. [3 marks]\n(iv) Use the binary search tree algorithm on the list 5,9,8,1, 2, 4, and show\nthe construction of the binary tree, describing each step. [5 marks]\n(v) The diagram below shows graph G, with vertices A, B, C, D, E, F and\nedgesa,b,c,d,e,f,g,h,].\nExplain the breadth-first search algorithm to find a spanning tree starting\nwith the vertex A. Show all the steps and draw the spanning tree. [6 marks]",
+   "ms_text": "8. (i) Given a = a + 2 a ( n ≥ 2), a = 1, a = 5\nn + 2 n + 1 n 0 1\nThe characteristic equation is 2 r −− r 2 = 0 ⇒ ( r − 2)( r + 1) = 0 (M1)\nTherefore r = 2or r = − 1 (A1)\nThe general solution is given by\nn n a = A 2 + B (1) − (A1)\nn\nUsing a = 1 and a = 5 , we have,\n0 1\nA + B = 1\n(M1)\n2 A − B = 5\nA = 2and B = − 1 Hence, (A1)\nn + 1 n + 1 Required solution: a = 2 +− (1) (R1)\nn\n[6 marks]\n(ii) By prime factorization of the integers a and b, there are primes p , p , … , p and 1 2 n\nnon-negative integers a , a , … , a , bb , , … , b such that\n1 2 n 1 2 n\na a a b b b\na = p 1 × p 2 × … × p n , and b = p 1 × p 2 × … × p n (M1)\n1 2 n 1 2 n .\nmin ( ab 1 , 1 ) min ( ab 2 , 2 ) min( ab n , n )\nHence gcd(,) ab = p × p × … × p (A1) 1 2 n\nmax ( ab , ) max ( ab , ) max( ab , )\nand lcm(,) ab = p 1 1 × p 2 2 × … × p n n (M1)\n1 2 n\n( a 1 + b 1 ) ( a 2 + b 2 ) ( a n + b n )\nTherefore gcd(,)lcm(,) ab × ab = p × p × … × p (M1) 1 2 n\n( a 1 a 2 a n )( b 1 b 2 b n ) = p × p × … × p p × p × … × p (A1)\n1 2 n 1 2 n\n= ab × (AG)\n[5 marks]\n(iii) (a) Let f be the number of faces. By Euler’s formula v −+ e f = 2 . (M1)\nEvery edge bounds at most two faces and every face is bounded by at least\nthree edges.\n3\nHence, e ≥ f or3 f ≤ 2 e . (R1)(A1)\n2\n2\nFrom Euler’s formula and f ≤ e ,\n3\n2 1\n2 = v −+ e f ≤ v −+ e e = v − e (M1)\n3 3\ne\n⇒ 2 ≤ v − ⇒ 6 ≤ 3 v −⇒ e e ≤ 3 v − 6 . (A1)\n3\n[5 marks]\n(b) κ has 5 vertices and 10 edges. (C1) 5\nFrom e ≤ 3 v − 6 , we get, 10 ≤ 15 − 6 = 9 , which is impossible and hence (M1)\nκ\n5 is not a planar graph. (R1)\n[3 marks]\n(iv) 5 is the root of the tree.\nList Method Construction\n5\n(M1) 9 9 > 5, Root so we go right 5\n9\n5\n(M1) 8 8 < 9 but still > 5, go left\n9\n8\n1 1 < 5, so go left from 5 (M1) 5\n9\n1\n8\n(M1) 2 2 >1 but less than 5, go right from 1 5\n9\n1\n2\n8\n(A1) 4 4 > 2 but still < 5 and > 1, so go right\n5\nfrom 2\n9\n1\n2\n8 4\nNote: If candidates explain their working and then draw the final binary tree,\naward marks accordingly.\n[5 marks]\n(v)\nB\na d\nD c\nA h\ne\nF\nb\ng\nC j\nf\nE\nBreadth – first search algorithm from A\nVisit all ‘depth 1’ first, then ‘depth 2’ etc. (M1)\nL is a set of vertices, T is a set of edges.\nLabel Set L Set T\n0 {A} φ (M1)\n1 {A, B, C} {a, b} (M1)\n(M1) 2 {A, B, C, D, E} {a, b, e, f} or {a, b, d, f}\n(M1) 3 {A, B, C, D, E, F} {a, b, e, f, h} or {a, b, e, f, j}\nor {a, b, d, f, h} or {a, b, d, f, j}\nSpanning trees\nB (1) B (1)\na a\nD (2) D (2)\nOR A (o)\nA (o) h e\ne\nF (3) F (3) b\nb\nC (1) j C (1)\nf f\nE (2) E (2)\nDiagram 1 Diagram 2\nB (1)\nB (1)\na d\na d\nA (0) D (2)\nOR A (0) D (2)\nh\nF (3) F (3)\nb\nb\nC (1)\nC (1) j f\nf\nE(2)\nE (2)\nDiagram 3 Diagram 4\n(A1)\nNote: Award (A1) for any one correct diagram. Accept other correct solutions with reasoning.\n[6 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8",
+    "6.6",
+    "6.10",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Discrete Mathematics",
+   "text_clean": "8. [Maximum mark: 30]\n(i) Find the solution of the recurrence relation $a_{n+2}=a_{n+1}+2a_n$, $n=0,1,2,\\ldots$, with $a_0=1$, $a_1=5$. [6 marks]\n(ii) For any positive integers $a$ and $b$, let $\\gcd(a,b)$ and $\\mathrm{lcm}(a,b)$ denote the greatest common divisor and the least common multiple of $a$ and $b$, respectively. Prove that\n$a\\times b=(\\gcd(a,b))\\times(\\mathrm{lcm}(a,b))$. [5 marks]\n(iii) (a) If $G$ is a connected simple planar graph with $v$ vertices ($v\\ge 3$) and $e$ edges, prove that $e\\le 3v-6$. [5 marks]\n(b) Hence prove that $\\kappa_5$ is not a planar graph. [3 marks]\n(iv) Use the binary search tree algorithm on the list 5, 9, 8, 1, 2, 4, and show the construction of the binary tree, describing each step. [5 marks]\n(v) The diagram below shows graph $G$, with vertices A, B, C, D, E, F and edges $a,b,c,d,e,f,g,h,j$.\n[Diagram: graph G with edges a = AB, b = AC, c = BC, d = BD, e = CD, f = CE, g = DE, h = DF, j = EF]\nExplain the breadth-first search algorithm to find a spanning tree starting with the vertex A. Show all the steps and draw the spanning tree. [6 marks]"
+  },
+  {
+   "id": "math-2001-M-P2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 30]\n(i) (a) State the mean value theorem. [2 marks]\n(b) Use the mean value theorem to prove the following.\nIf k is a positive real number and x>0, then (1+x)*¥<1+kx,\nprovided 0 <k<1. [7 marks]\n(i) Find the number n and the step size & required to evaluate the integral\nby using Simpson’s rule with 2z subintervals and with an accuracy 10-#.\n2 X\n(The error term, e, in Simpson’s rule, is given by\nela, H). [5 marks]\n(i) (a) Find Maclaurin’s series expansion for f(x)=In(1+x), for 0<x<1. [4 marks]\n(b) R, is the error term in approximating f(x) by taking the sum\nof the first (n+ 1) terms of its Maclaurin’s series. Prove\n[2 marks]\n(iv) Test the convergence or divergence of the following series\n[5 marks] zsm—\nn=1\n[5 marks] (b) Z(n 10) (C\"S \"”).",
+   "ms_text": "9. (i) (a) Mean Value Theorem: If f is continuous on [a, b] and differentiable on ]a, b[, (A1)\nthen there exists c in (a, b) such that fb () − fa () = ( b − af ) ′ () c . (A1)\nNote: Award (A0) for any error on the assumptions of f .\nAward (A0) if there is any error in the conclusion.\nDo not penalise if c in ]a, b[ or a<c<b is not mentioned.\nAccept integral form of the mean value thereon.\n[2 marks]\nk (b) Consider fu () = u , u ≥ 0, 0 < k ≤ 1 . (M1)\nTake a = 1, b =+ 1 x .\nBy mean value theorem there exists ‘c’ between a and b so that\nk k (1 + x ) − 1\nk k − 1 fc ′ () = ⇒ (1 + x ) −= 1 xkc . (M1)\n1 + x − 1\nk k 1\nTherefore (1 + x ) =+ 1 kxc− . (A1)\nFor x ≥ 0 , c between 1 and 1 + x implies c ≥ 1 . (M1)\nFor . 0 < k ≤ 1, −< 1 k −≤ 1 0\n− 1 k − 1 0 k − 1\nHence, c < c ≤ c implies0 < c ≤ 1 , (A1)\nk −≤ 1 (R1) Therefore kxc kx\nk − 1 (A1) ⇒+ 1 kxc ≤+ 1 kx\nk ⇒ (1 + x ) ≤+ 1 kx (AG)\n[7 marks]\n4 ( b − ah )\nb − a 4\n(ii) Error term for Simpson’s rule is − f () c for some c in ]a, b[, h = .\n180 2 n\n7 dx\nFor , we have b − a = 5 , (M1) ∫\n2 x\n4! − 1 4 4\nfx () = x , f () x =− (1) (A1)\n5 x\n4\n5 5 24 − 5\n( −4 ) Maximum | error | = <× 510 accept10 (M1)\n5 2 n 180 2\n4\n5 1 24 1250 4 5 4\nTherefore n > × × × 10 = × 10 ⇒ n > 1.1310 × = 11.3 . (A1)\n5 2 180 2 768\nHence take n = 12 .\n5\nTherefore h, the step size, is 0.2083 s.f. ( ) (A1) 24=\n[5 marks]\n(iii) (a) fx () = ln(1 + x ), f (0) = 0\n1\nf ′ () x = , f ′ (0) = 1 (A1)\n1 + x\nf ′′ () x = − (1 + x ) − 2 , f ′′ (0) = − 1 (A1)\n− 3 f ′′′ () x =− (1)(2)(1 − + x ) , f ′′′ (0) = 2 (A1)\nf () n () x =− (1) n − 1 ( n − 1)!(1 + x ) − n , f () n (0) =− (1) n − 1 ( n − 1)!\nMaclaurin’s series for fx () = ln(1 + x ) is\n2 3 n x x x\nn − 1 ln(1 + x ) = x − + − … +− (1) + …\n2 3 n\n∞ n x\n= ∑ (1) − n − 1 (A1)\nn\nn = 1\nx n n − 1\nNote: Award (A0) if the general term (1) − is not written.\nn\n[4 marks]\n( n + 1) f () c\nn + 1 (b) First ( n + 1) terms give R = x for some c such that 0 < c < x .\nn\n( n + 1)!\n− n n + 1 − n n + 1 (1) nx ! (1) x\nOn substitution R = = , (M1)\nn + +\n( n + 1)!(1 + c ) n 1 ( n + 1)(1 + c ) n 1\nn + 1 x 1\nR = < for0 ≤ x < 1 , (AG)\nn n + 1\n( n + 1)(1 + c ) ( n + 1)\nsince 0 < c < x . (A1)\nNotes: Award (A0) if the reasons 0 < c < x ,0 ≤ x < 1 are not written.\nAccept an answer using estimation of error in an alternating series.\n[2 marks]\nNote: Do not accept unjustified answers, even if correct. (iv)\n∞ 1 (M1)\n(a) Compare the series with . =∑\nn\nn 1\n1\nsin\nsin x n\nlim = lim = 1 (M1)(A1)\nn →∞ 1 x → 0 x\nn\n∞ ∞ 1 1\nSince diverges, sin is divergent by the comparison test. =∑ =∑ (M1)(A1)\nn n\nn 1 n 1\n[5 marks]\n(b) cos nπ =− (1)n\n( n + 10)cos n π ( n + 10) n n\nHence u = =− (1) =− (1) v (C1)\nn 1.4 1.4 n\nn n\nn + 10\nwith v =\nn 1.4\nn\n∞ ∞\n⇒ ∑ u = ∑ (1)n − v , (M1)\nn n\nn = 1 n = 1\nn + 10\nv = is a decreasing sequence in n (M1)\nn 1.4\nn\nn + 10 1\nlim v = lim = lim = 0 , (A1)\nn 1.4 0.4\nn →∞ n →∞ n n →∞ n\n∞ ( n + 10)cos n π\nso the series ∑ is convergent, by the alternating series test. (R1)\n1.4 n\nn = 1\n[5 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L4",
+    "5.L6",
+    "5.19",
+    "5.L3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Analysis and Approximation",
+   "text_clean": "9. [Maximum mark: 30]\n(i) (a) State the mean value theorem. [2 marks]\n(b) Use the mean value theorem to prove the following.\nIf $k$ is a positive real number and $x\\ge 0$, then $(1+x)^k\\le 1+kx$, provided $0<k\\le 1$. [7 marks]\n(ii) Find the number $n$ and the step size $h$ required to evaluate the integral $\\int_2^7\\frac{dx}{x}$ by using Simpson's rule with $2n$ subintervals and with an accuracy $10^{-4}$.\n(The error term, $e$, in Simpson's rule, is given by\n$e=-\\frac{(b-a)h^4}{180}f^{(4)}(c)$, $c\\in\\,]a,b[$.) [5 marks]\n(iii) (a) Find Maclaurin's series expansion for $f(x)=\\ln(1+x)$, for $0\\le x<1$. [4 marks]\n(b) $R_n$ is the error term in approximating $f(x)$ by taking the sum of the first $(n+1)$ terms of its Maclaurin's series. Prove\n$|R_n|\\le\\frac{1}{n+1}$, $(0\\le x<1)$. [2 marks]\n(iv) Test the convergence or divergence of the following series\n(a) $\\sum_{n=1}^{\\infty}\\sin\\frac{1}{n}$; [5 marks]\n(b) $\\sum_{n=1}^{\\infty}(n+10)\\left(\\frac{\\cos n\\pi}{n^{1.4}}\\right)$. [5 marks]"
+  },
+  {
+   "id": "math-2001-M-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum marks: 30]\n(1) (a) State Ceva’s theorem and its converse (or corollary). [3 marks]\n(b) Hence prove that the altitudes drawn from the vertices of a triangle to\nits opposite sides are concurrent. [6 marks]\n(ii) (a) State the conditions for the points A, B, C, D to divide the line\nsegment [AB] in harmonic ratio. [2 marks]\n(b) Hence prove that the bisectors of the interior and exterior angles of a\ntriangle at any vertex divide the opposite side in harmonic ratio. [5 marks]\n(iii) Let P be any point on the ellipse 9x?> + 4y =36 Let M be the midpoint\nof the line joining P to the vertex whose x-coordinate is negative. Find and\ndescribe the locus of the point M [6 marks]\n(iv) A tangent to a hyperbola meets the tangents at its vertices at the points R\n[8 marks] and S. Prove that the points R, S, and the two foci lie on a circle.",
+   "ms_text": "10. (i) (a) Given a triangle ABC. Let [AD], [BE], [CF] be such that D lies on [BC], E\n(A1)\nlies on [CA] and F lies on [AB].\nCeva’s theorem: If [AD], [BE] and [CF] are concurrent, then\nAF BD CE\n× × = 1 (A1)\nFB DC EA\nConverse (corollary) of Ceva’s theorem:\nAF BD CE\n× × = 1 then [AD], [BE] and [CF] are concurrent. (A1)\nFB DC EA\n[3 marks]\n(b) B\nD\nF\nA\nE\nC\nLet (AD), (BE) and (CF) be the altitudes of ∆ABC.\nˆ ∆ADB and ∆CFB are similar, since ABC is common and the triangles are\nBF CF\nright angled triangles. So = (1) (M1)\nDB AD\nSimilarly, from right triangles AEB and AFC,\nAE EB\n= (2) (M1)\nFA CF\nAlso from right triangles CEB and CDA,\nCD AD\n= (M1) (3)\nEC EB\nFrom (1), (2), (3),\nBF AE CD CF EB AD\n× × = × × (M1)\nDB FA EC AD CF EB\nAE CD BF\n⇒ × × = 1 (A1) (4)\nEC DB FA\nBy the converse of Ceva’s theorem (AD), (BE) and (CF) are concurrent. (R1)\n[6 marks]\n(ii) (a)\nA C B D\nAC AD\nA, B, C, D divide the line [AB] in harmonic ratio if = . (A2)\nBC DB\nOR\nC and D divide [AB] internally and externally in the same ratio i.e.\nAC AD\n= − (A2)\nCB DB\n[2 marks]\n(b)\nC\nA\nX Y B\nGiven ∆ABC. Let (CX) and (CY) be the internal and external angle bisectors\nof the angle ACB. (M1)\nBy the angle bisector theorem AX AC AY AC = and = (M1)(M1)\nXB CB BY CB\nAY\nTherefore AX = − (R1)\nXB YB\nand A, X, B, Y are in harmonic ratio. (R1)\n[5 marks]\n(iii) y\nP\nM\nA 0 B x\n2 2 Ellipse is 9 x + 4 y = 36 .\nSo A is (–2, 0). (A1)\nLet P be (, xy ) and M be (, αβ ) .\n1 1\nα = (2 −+ x ), β = (0 + y ) Then, . (A1)(A1)\n2 2\nSince P is on the ellipse 9 x 2 + 4 y 2 = 36\n2 2 2 2 9(2 α + 2) + 4(2) β = 36 ⇒ 9( α + 1) + 4 β = 9 (M1)\nLocus of M is + 2 + 2 = (A1) 9( x 1) 4 y 9\n3 It is an ellipse with centre (–1, 0) and semiaxes 1 and (or equivalent). (R1)\n2\n[6 marks]\n(iv)\nP\nR\nF F1 2\nO\nS\nNote: Please note that O is not the origin. (RS) is not necessarily tangential to the\nright-hand branch of the hyperbola.\nx 2 y 2\nHyperbola is − = 1 . Let P be ( x , y ) , y , ≠ 0 1 1\na 2 b 2\nxx yy (A2)\nTangent to hyperbola at ( x , y ) is 1 − 1 = 1\n1 1 2 2\na b\n(A1)\nTangent at the vertices are x = ± a .\n2 (M1) x b\n1 Hence R and S have coordinates ± a , ± − 1 , respectively.\na y\n1\n2 b (A1)\nTherefore the midpoint of RS is 0, − .\ny\n1\n2 2 2 Take O as the midpoint of RS. Let the foci F and F be ( ± c , 0) with c = a + b .\n1 2\nWe shall show that OR = OS = OF = OF and conclude that R, S, F , F lie on a\n1 2 1 2\ncircle with centre O and radius OR.\nb 4 2 2 2\nNote that OF = OF = c + (1)\n1 2 2 (M1)\ny\n1\n2 2 2\nx b b 2 2\n1 Also OR = ( a − 0) + − 1 +\na y y\n1 1\n2 4\nxb\n= a 2 + 1 (2) (M1)\n2 2\nya\n1\n2 2 2\nx x y\nUsing 1 − 1 = 1 in (2), by substituting for 1 , we get\n2 2 a 2 a b\n2 4 4 4\n2 2 2 y b 2 2 b 2 b OS = OR = a + 1 + 1 = a + b + = c +\n. (A1) 2 2 2 2\nb y y y\n1 1 1\nand the points R, S, F , F lie on a circle.\n1 2 (AG)\nAward (R2) to candidates who worked out the case when P is on ( ) Note: FF\n12\nand the circle is a straight line.\n[8 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "8"
+   ],
+   "subtopics": [
+    "8.1",
+    "8.2",
+    "8.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Euclidean Geometry and Conic Sections",
+   "text_clean": "10. [Maximum marks: 30]\n(i) (a) State Ceva's theorem and its converse (or corollary). [3 marks]\n(b) Hence prove that the altitudes drawn from the vertices of a triangle to its opposite sides are concurrent. [6 marks]\n(ii) (a) State the conditions for the points A, B, C, D to divide the line segment [AB] in harmonic ratio. [2 marks]\n(b) Hence prove that the bisectors of the interior and exterior angles of a triangle at any vertex divide the opposite side in harmonic ratio. [5 marks]\n(iii) Let P be any point on the ellipse $9x^2+4y^2=36$. Let M be the midpoint of the line joining P to the vertex whose $x$-coordinate is negative. Find and describe the locus of the point M. [6 marks]\n(iv) A tangent to a hyperbola meets the tangents at its vertices at the points R and S. Prove that the points R, S, and the two foci lie on a circle. [8 marks]"
+  }
+ ],
+ "status": "done"
+}

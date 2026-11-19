@@ -1,0 +1,293 @@
+{
+ "exam_id": "math-2022-N-P1",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2022,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2022 November Examination Session/Mathematics_analysis_and_approaches_paper_1__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2022 November Examination Session/Mathematics_analysis_and_approaches_paper_1__HL_markscheme.pdf",
+ "notes": "3 duplicate copies (2 byte-identical size, 1 donated/scanned); paper number 8822-7101; marks sum matches paper total 110",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2022-N-P1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nThe function g is defined by g(x)=ex2 + 1 , where x∈ϒ .\nFind g′(-1) .",
+   "ms_text": "21 +\n1. g ′ () x = 2ex x (A2)\nsubstitute x = − into their derivative 1 (M1)\n( ) 2 g′ − 1 = − 2e A1\nNote: AwardA0M0A0in cases where candidate’s incorrect derivative is\n′ () 21 + g x = ex .\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nThe function $g$ is defined by $g(x)=\\mathrm{e}^{x^2+1}$, where $x \\in \\mathbb{R}$.\nFind $g'(-1)$."
+  },
+  {
+   "id": "math-2022-N-P1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nConsider a circle with a diameter AB , where A has coordinates (1 , 4 , 0) and B has\ncoordinates (-3 , 2 , -4) .\n(a) Find\n(i) the coordinates of the centre of the circle;\n(ii) the radius of the circle.\b [4]\nThe circle forms the base of a right cone whose vertex V has coordinates (-1 , -1 , 0) .\ndiagram not to scale\nV\nA B\n(b) Find the exact volume of the cone.\b [3]",
+   "ms_text": "2.\n(a) (i) attempt to find midpoint of A and B (M1)\ncentre ( − 1,3,2 − ) (accept vector notation and/or missing brackets) A1\n(ii) attempt to find AB or half of AB or distance between the centre and A (or B) (M1)\n2 2 2 4 + 2 +\n4 or 2 2 2 2 + 1 + 2\n2\n= 3 A1\n[4 marks]\n(b) attempt to find the distance between their centre and V\n(the perpendicular height of the cone) (M1)\n2 2\n0 2 + 4 2 + 2 2 OR ( ) − ( ) their slant height their radius\n= 20 ( = 25 ) (A1)\n= 1 π3 2 Volume 20\n3\n= 3π20 ( = 6π5 ) A1\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nConsider a circle with a diameter AB, where A has coordinates $(1, 4, 0)$ and B has coordinates $(-3, 2, -4)$.\n(a) Find\n(i) the coordinates of the centre of the circle;\n(ii) the radius of the circle. [4]\nThe circle forms the base of a right cone whose vertex V has coordinates $(-1, -1, 0)$.\n[Diagram (not to scale): right cone with vertex V above the centre of a circular base with diameter AB; dashed perpendicular height with right-angle mark]\n(b) Find the exact volume of the cone. [3]"
+  },
+  {
+   "id": "math-2022-N-P1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nLet a be a constant, where a>1 .\n2 2 2\n− 2 + a 1 a 1\nShow that a 2 + (a) [3]\n= .\b 2 2\n− 1 + 1\nConsider a right-angled triangle with sides of length a , a2\nand a2\n. 2 2\nFind an expression for the area of the triangle in terms of a .\b (b) [2]",
+   "ms_text": "3. (a)\nNote: Award a maximum of M1A0A0 if the candidate manipulates both sides of\nthe equation ( such as moving terms from one side to the other ).\nMETHOD 1 (working with LHS)\n2\nattempting to expand ( 2 ) 4 4 a− 1 (do not accept a+ or 1 a−) 1 (M1)\n4 2 2 4 2 a − 2 a + 1 4 a + a − 2 a + 1\n2 LHS = a + or\nA1\n4 4\n4 + 2 + a 2 a 1\n= A1\n4\n2 2\na + 1\n( ) = = RHS AG\n2\nNote: Do not award the final A1 if further working contradicts the AG.\nMETHOD 2 (working with RHS)\n2\nattempting to expand ( 2 ) a+ 1 (M1)\n4 2 a + 2 a + 1\nRHS =\n4\n2 4 2 4 a + a − 2 a + 1\n= A1\n4\n4 2 a − 2 a +\n2 1 = a +\nA1\n4\n2 2 a − 1\n2 = a\n+ (=LHS) AG\n2\nNote: Do not award the final A1 if further working contradicts the AG.\n[3 marks]\n2 a − 1\n(b) recognise base and height as a and (may be seen in diagram) (M1)\n2\ncorrect substitution into triangle area formula A1\n2 2 aa ( − 1 ) 3\naa − 1 a − a\nArea = (or equivalent) = =\n2 2 4 4\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.6",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nLet $a$ be a constant, where $a>1$.\n(a) Show that $a^2+\\left(\\frac{a^2-1}{2}\\right)^2=\\left(\\frac{a^2+1}{2}\\right)^2$. [3]\nConsider a right-angled triangle with sides of length $a$, $\\left(\\frac{a^2-1}{2}\\right)$ and $\\left(\\frac{a^2+1}{2}\\right)$.\n(b) Find an expression for the area of the triangle in terms of $a$. [2]"
+  },
+  {
+   "id": "math-2022-N-P1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\n6 x\nThe derivative of the function f is given by f′(x)= .\n2 + x 1\nThe graph of y=f(x) passes through the point (1 ,5) . Find an expression for f(x) .",
+   "ms_text": "4. recognizing need to integrate (M1)\n6 x u\n2 + OR d ∫ d x OR u = x 1 2 x\nx= 2\nx + 1 d\n2 x 3 du\n∫ OR 3 ∫ d x (A1)\n2 + u x 1\n( 2 )( = 3ln x + 1 + c ) or 3ln u ( + c ) A1\ncorrect substitution of x = 1 and () fx = 5 or x = 1 and u = 2 into equation\nusing their integrated expression (must involve c) (M1)\n5 = 3ln2 + c\n2 x + 1\n() ( 2 ) ( 2 ) fx = 3ln x + 1 +− 5 3ln2 = 3ln x + 1 +− 5 ln8 = 3ln + 5 (or equivalent) A1\n2\nNote: Accept the use of the modulus sign in working and the final answer.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nThe derivative of the function $f$ is given by $f'(x)=\\frac{6x}{x^2+1}$.\nThe graph of $y=f(x)$ passes through the point $(1, 5)$. Find an expression for $f(x)$."
+  },
+  {
+   "id": "math-2022-N-P1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\nConsider the equation z4+pz3+54z2-108z+80=0 where z∈≤ and p∈ϒ .\nThree of the roots of the equation are 3+i , a and a2 , where a∈ϒ .\n(a) By considering the product of all the roots of the equation, find the value of a .\b [4]\n(b) Find the value of p .\b [3]",
+   "ms_text": "5. (a) product of roots = 80 (A1)\n3 − is a root i (A1)\nattempt to set up an equation involving the product of their four roots and 80 ± (M1)\n3 3 ( 3 + i )( 3 − i ) α = 80 ⇒ 10 α = 80\nα= 2 A1\n[4 marks]\n(b) METHOD 1\nsum of roots = − p (A1)\n− p = 3 ++−+ i 3 i 2 + 4 (M1)\nNote: Accept p = 3 ++−+ i 3 i 2 + 4 for (M1)\np = − 12 A1\nMETHOD 2\n( z − ( 3 + i ) ) ( z − ( 3 − i ) )( z − 2 )( z − 4 ) (M1)\n( ( z − 3 ) − i )( ( z − 3) + i )( z − 2 )( z − 4 ) (A1)\n( 2 )( 2 ) 4 3 z − 6 z + 10 z − 6 z + 8 = z − 12 z +\np = − 12 A1\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "1.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nConsider the equation $z^4+pz^3+54z^2-108z+80=0$ where $z \\in \\mathbb{C}$ and $p \\in \\mathbb{R}$.\nThree of the roots of the equation are $3+\\mathrm{i}$, $\\alpha$ and $\\alpha^2$, where $\\alpha \\in \\mathbb{R}$.\n(a) By considering the product of all the roots of the equation, find the value of $\\alpha$. [4]\n(b) Find the value of $p$. [3]"
+  },
+  {
+   "id": "math-2022-N-P1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nEvents A and B are such that P(A)=0.3 and P(B)=0.8 .\n(a) Determine the value of P(A ∩ B ) in the case where the events A and B are independent.\b[1]\n(b) Determine the minimum possible value of P(A ∩ B ) .\b [3]\n(c) Determine the maximum possible value of P(A ∩ B ) , justifying your answer.\b [2]",
+   "ms_text": "P ( A ∩ B ) = 0.24 6. (a) A1\n[1 mark]\n(b) P ( A ∪ B ) = 1.1P − ( A ∩ B ) (A1)\n( 0 ≤ )( P A ∪ B ) ≤ 1 (M1)\nNote: This may be conveyed in a clearly labelled diagram or written explanation\nwhere ( ∪ ) = P A B 1\nthe minimum value of ( PA ∩ B ) is 0.1 A1\n[3 marks]\n(c) A is a subset of B (so ( P A ∩ B ) = P () A ). R1\nNote: This may be conveyed in a clearly labelled diagram where A is completely\ninside B , or in a written explanation indicating that ( ∩ ) = () P A B P A\nso the maximum value of ( PA ∩ B ) is 0.3 A1\nNote: Do not award R0A1.\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nEvents $A$ and $B$ are such that $\\mathrm{P}(A)=0.3$ and $\\mathrm{P}(B)=0.8$.\n(a) Determine the value of $\\mathrm{P}(A\\cap B)$ in the case where the events $A$ and $B$ are independent. [1]\n(b) Determine the minimum possible value of $\\mathrm{P}(A\\cap B)$. [3]\n(c) Determine the maximum possible value of $\\mathrm{P}(A\\cap B)$, justifying your answer. [2]"
+  },
+  {
+   "id": "math-2022-N-P1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\nConsider the curve with equation (x2+y2)y2=4x2 where x≥0 and -2<y<2 .\nShow that the curve has no local maximum or local minimum points for x>0 .",
+   "ms_text": "7. attempt at implicit differentiation, including use of the product rule (M1)\nEITHER\nd y d y 2\n( 2 2 ) 2 x + 2 y y + x + y 2 y = 8 x A1A1A1\nd x d x\nd y d y 2\n, ( 2 2 ) Note: Award A1 for each of 2 x + y y x + y and 8x .\n2d 2d yx\nx\nOR\n2 2 4 2 xy + y = 4 x\nd y d y\n2 xy 2 + 2 xy 2 + 4 y 3 = 8 x A1A1A1\nd x d x\n2d y 3d y 2\nNote: Award A1 for each of 2 xy + 2 , 4 y and 8x . xyx\nd d x\nTHEN\ny at a local maximum or minimum point, d\n0 (M1)\nx=\nd\n2 2 xy = 8 x\n= 2 = ( ⇒ = ± ) x 0 or y 4 y 2 A1\nNote: Award A0 for x = 0 or y = 2\nsince x > 0 and − 2 < y < 2 there are no solutions R1\nhence there are no local maximum or minimum points AG\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nConsider the curve with equation $(x^2+y^2)y^2=4x^2$ where $x\\ge 0$ and $-2<y<2$.\nShow that the curve has no local maximum or local minimum points for $x>0$."
+  },
+  {
+   "id": "math-2022-N-P1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 5]\nLet f(x)=cos(x-k) , where 0≤x≤a and a , k∈ϒ+ .\nConsider the case where k =π\n(a) .\n2\nBy sketching a suitable graph, or otherwise, find the largest value of a for which the\ninverse function f-1 exists.\b [2]\n(b) Find the largest value of a for which the inverse function f-1 exists in the case\nwhere k=π .\b [1]\n(c) Find the largest value of a for which the inverse function f-1 exists in the case\nwhere π<k<2π . Give your answer in terms of k .\b [2]",
+   "ms_text": "8. (a)\nπ\na = A2\n2\nNote: For sinusoidal graph through the origin seen with incorrect a , or use of\nhorizontal line test with incorrect a , award A1A0\n(b) a = π A1\n(c)\nsketch showing sinusoidal shape decreasing as it crosses the y-axis\n(below or above the origin) (A1)\na = k − π A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.14",
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 5]\nLet $f(x)=\\cos(x-k)$, where $0\\le x\\le a$ and $a, k \\in \\mathbb{R}^+$.\n(a) Consider the case where $k=\\frac{\\pi}{2}$.\nBy sketching a suitable graph, or otherwise, find the largest value of $a$ for which the inverse function $f^{-1}$ exists. [2]\n(b) Find the largest value of $a$ for which the inverse function $f^{-1}$ exists in the case where $k=\\pi$. [1]\n(c) Find the largest value of $a$ for which the inverse function $f^{-1}$ exists in the case where $\\pi<k<2\\pi$. Give your answer in terms of $k$. [2]"
+  },
+  {
+   "id": "math-2022-N-P1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 10,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 10]\n2 2 y y − 2 x\nConsider the homogeneous differential equation d = , where x , y≠0 .\nd x xy\nIt is given that y=2 when x=1 .\n(a) By using the substitution y=vx , solve the differential equation. Give your answer in the\nform y2=f (x) .\b [8]\nThe points of zero gradient on the curve y2=f (x) lie on two straight lines of the form y=mx\nwhere m∈ϒ .\n(b) Find the values of m .\b [2]",
+   "ms_text": "2 2 d y y − 2 x\n= 9. (a)\nd x xy\nlet y = vx\nd y d v\n⇒ = v + x (A1)\nd x d x\nd v vx 2 2 − 2 x 2\n⇒ v + = (M1)\nxx 2\nd vx\nd v − 2\n⇒ =\nxx (A1)\nd v\n2\n⇒ vv d = − d x M1 ∫ ∫\nx\n2 v\n( ) ⇒ = − 2ln x + c A1\n2\nNote: Condone the absence of the modulus sign up to this point.\n2 y\n⇒ = − 2ln x + c A1\n2 2 x\nattempt to substitute x = 1, y = 2 into their integrated expression to find c M1\n⇒ 2 = − 2ln 1 + c ⇒ c = 2\n2 y\n⇒ = − 2ln x + 2\n2 2 x\n2 2 ( ) ( 2 ( ) ) ⇒ y = 2 x − 2ln x + 2 = 4 x 1ln − x\nA1\n[8 marks]\ny attempt to setd\n(b) 0 in the differential equation (M1)\nx=\nd\ny = 2 and x y = − 2 x or m = ± 2 A1\n[2 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 10]\nConsider the homogeneous differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x}=\\frac{y^2-2x^2}{xy}$, where $x, y\\ne 0$.\nIt is given that $y=2$ when $x=1$.\n(a) By using the substitution $y=vx$, solve the differential equation. Give your answer in the form $y^2=f(x)$. [8]\nThe points of zero gradient on the curve $y^2=f(x)$ lie on two straight lines of the form $y=mx$ where $m\\in\\mathbb{R}$.\n(b) Find the values of $m$. [2]",
+   "review_note": "Section A question (10 marks); qtype set to short per section structure."
+  },
+  {
+   "id": "math-2022-N-P1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 20]\nThe function f is defined by f(x)=cos2x-3 sin2x , 0≤x≤π .\n(a) Find the roots of the equation f(x)=0 .\b [5]\n(b) (i) \u0007Find f′(x) .\n(ii) Hence find the coordinates of the points on the graph of y=f (x) where f′(x)=0 .\b [7]\n(c) Sketch the graph of y=|f (x)| , clearly showing the coordinates of any points\nwhere f′(x)=0 and any points where the graph meets the coordinate axes.\b [4]\n(d) Hence or otherwise, solve the inequality |f(x)|>1 .\b [4]",
+   "ms_text": "cos 2 x − 3sin 2 x = 0 10. (a)\nvalid attempt to reduce equation to one involving one trigonometric function (M1)\n2 sin x 1\n2 2 2 2 OR 1sin − x − 3sin x = 0 OR cos x − 31cos ( − x ) = 0\n2 x= cos 3\nOR cos2 x −+ 1cos2 x = 0\ncorrect equation (A1)\n1 3 1 1 2 2 2\ntan x = OR cos x = OR sin x = OR cos2 x =\n3 4 4 2\n1 3 π 5π\ntan x = ± cos x = ± sin x =± ()1 2 x = , OR OR OR (A1)\n3 2 2 3 3\nπ 5π\nx = , x = A1A1\n6 6\nNote: Award M1A1A0A1A0 for candidates who omit the ± (for tan or cos) and\nπ\ngive only x = .\n6\nAward M1A1A0A0A0 for candidates who omit the ± (for tan or cos) and\ngive only x = 30 °.\nAward M1A1A1A1A0 for candidates who give both answers in degrees.\nAward M1A1A1A1A0 for candidates who give both correct answers in\nradians, but who include additional solutions outside the domain.\nAward a maximum of M1A0A0A1A1 for correct answers with no working.\n[5 marks]\n(b) (i) attempt to use the chain rule (may be evidenced by at least onecossin x x term) (M1)\nf ′ () x = − 2cossin x x − 6sincos x x ( = − 8sincos x x = − 4sin2 x ) A1\n(ii) valid attempt to solve their f ′ () x = 0 (M1)\nat least 2 correctx-coordinates (may be seen in coordinates) (A1)\nπ\nx = 0 , x = , x = π\n2\nNote: Accept additional correct solutions outside the domain.\nAward A0 if any additional incorrect solutions are given.\ncorrect coordinates (may be seen in graph for part (c)) A1A1A1\n( 0,1, ( ) π,1, π ,3 ) −\n2\nNote: Awarda maximum of M1A1A1A1A0 if any additional solutions are given.\nNote: If candidates do not find at least two correct x-coordinates, it is possible to\naward the appropriate final marks for their correct coordinates, such as\nM1A0A0A1A0.\n[7 marks]\n(c)\nattempt to reflect the negative part of the graph off in the x-axis M1\nendpoints have coordinates ( 0,1, ( ) π,1 ) A1\nsmooth maximum at π ,3\nA1\n2\nsharp points ( cusps ) at x-intercepts π , 5π\nA1\n6 6\n[4 marks]\n(d) considers points of intersection of y = fx and () y = 1 on graph or algebraically (M1)\n2 2 2 2 − ( cos x − 3sin x ) = 1 or ( − 14sin − x ) = 1 or ( − 4cos x − 3 ) = 1 or ( − 2cos2 x − 1 ) = 1\n1 1\n2 2 2 tan x = 1 or sin x = or cos x = or cos2 x = 0 (A1)\n2 2\n3 π π ,\nx = (A1)\n4 4\n() > For fx 1\nπ 3π\n< < x A1\n4 4\n[4 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.6",
+    "5.6",
+    "5.8",
+    "2.16",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 20]\nThe function $f$ is defined by $f(x)=\\cos^2 x-3\\sin^2 x$, $0\\le x\\le \\pi$.\n(a) Find the roots of the equation $f(x)=0$. [5]\n(b) (i) Find $f'(x)$.\n(ii) Hence find the coordinates of the points on the graph of $y=f(x)$ where $f'(x)=0$. [7]\n(c) Sketch the graph of $y=|f(x)|$, clearly showing the coordinates of any points where $f'(x)=0$ and any points where the graph meets the coordinate axes. [4]\n(d) Hence or otherwise, solve the inequality $|f(x)|>1$. [4]"
+  },
+  {
+   "id": "math-2022-N-P1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 16]\nConsider a three-digit code abc , where each of a , b and c is assigned one of\nthe values 1 , 2 , 3 , 4 or 5 .\n(a) Find the total number of possible codes\nassuming that each value can be repeated (for example, 121 or 444); (i)\n(ii) assuming that no value is repeated.\b [4]\nLet P(x)=x3+ax2+bx+c , where each of a , b and c is assigned one of\nthe values 1 , 2 , 3 , 4 or 5 . Assume that no value is repeated.\nConsider the case where P(x) has a factor of (x2+3x+2) .\n(b) (i) \u0007Find an expression for b in terms of a .\nHence show that the only way to assign the values is a=4 , b=5 and c=2 . (ii)\n(iii) Express P(x) as a product of linear factors.\n(iv) Hence or otherwise, sketch the graph of y=P(x) , clearly showing the\ncoordinates of any intercepts with the axes.\b [12]",
+   "ms_text": "(a) (i) 5 3 11. (A1)\n= 125 A1\n5 P =×× 543\n(ii) (A1)\n3\n= 60 A1\n[4 marks]\n(b) (i) METHOD 1\n2 x + 3 x + 2 = ( x + 1 )( x + 2 )\n(A1)\ncorrect use of factor theorem for at least one of their factors (M1)\nP ( − )1 = or ( P − ) = 0 2 0\nattempt to find two equations in , and ab c (M1)\n3 2\n( − 1 ) + a ( − 1 ) + b ( − 1 ) + c = 0 ( ⇒−+ 1 a −+ b c = 0 )\n3 2\n( − 2 ) + a ( − 2 ) + b ( − 2 ) + c = 0\n−+ 8 4 a − 2 b + c = 0 and 1 −+ a − b + c = 0 A1\nattempt to combine their two equations in 8 −+ 4 a − 2 b + c = 0 to eliminate c (M1)\nb = 3 a − 7 A1\nb = − 3 a − 7 from () P 1 = P () 2 = 0 Note: Award at most A1M1M1A0M1A0for\nMETHOD 2\nPx () = x 3 + ax 2 + bx + c = ( x 2 + x + )( x + d ) 3 2 (M1)\n3 2 = x + ( 3 + dx ) + ( 2 + 3 dx ) + 2 d\n(A1)\nattempt to compare coefficients of 2x and x (M1)\n= + = + a 3 d and b 2 3 d A1\nattempt to eliminate d (M1)\n⇒ b = 3 a − 7 A1\nMETHOD 3\n3 2 2 attempt to divide x + ax + bx + c by x + 3 x + 2 M1\n3 2 x + ax + bx + c ( − 3 a + b + 7 ) x + ( c − 2 a + 6 )\n= ( x + a − 3 ) + A1A1A1\n2 2 x + 3 x + 2 x + 3 x + 2\n, A1 for ( ) Note: Award A1 for x + a − 3 − 3 a + b + 7 x and A1 for c − 2 a + 6\nrecognition that, if ( x 2 + x + ) − + + = 3 2 is a factor of Px, then 3 () a b 7 0 (M1)\nleading to b = 3 a − 7 A1\nMETHOD 4\n2 x + 3 x + 2 = ( x + 1 )( x + 2 )\n(A1)\nattempt to use Vieta’s formulae for a cubic with roots −1, −2 and “p” (M1)\n(1) − +− (2) + p = − a ( ⇒ p = 3 − a ) A1\n(1)(2) − − +− (1) p +− (2) p = b A1\nAttempt to eliminate “p” (M1)\n2 − (3 − a ) − 2(3 − a ) = b\nb = 3 a − 7 A1\nNote: Award at most A1M1A0A0M1A0for b = − 3 a − 7 from roots 1, 2 and “p”\n(ii) METHOD 1\na = 1,2,5 lead to invalid values for b R1\na = 3, b = 2 ⇒ c = 0 so not possible R1\nso a = 4, b = 5, c = 2 is the only solution AG\nMETHOD 2\nc = 2 a − 6 R1\ncorrectly argues a = 4 is the only possibility R1\nso a = 4, b = 5, c = 2 is the only solution AG\n3 2 ( 2 )(\n(iii) x + 4 x + 5 x + 2 = x + 3 x + 2 x + 1 )\n=( x + 2 )( x + 1 )( x + 1 ) A1\n(iv)\npositive cubic shape with y-intercept at ( 0,2 ) A1\nx-intercept at ( ) − 2,0 andlocal maximum point anywhere between x = − 2 and x = − 1 A1\nlocal minimum point at ( − 1,0 ) A1\nNote: Accept answers from an approach based on calculus.\n[12 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "1.10",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 16]\nConsider a three-digit code $abc$, where each of $a$, $b$ and $c$ is assigned one of the values $1, 2, 3, 4$ or $5$.\n(a) Find the total number of possible codes\n(i) assuming that each value can be repeated (for example, 121 or 444);\n(ii) assuming that no value is repeated. [4]\nLet $P(x)=x^3+ax^2+bx+c$, where each of $a$, $b$ and $c$ is assigned one of the values $1, 2, 3, 4$ or $5$. Assume that no value is repeated.\nConsider the case where $P(x)$ has a factor of $(x^2+3x+2)$.\n(b) (i) Find an expression for $b$ in terms of $a$.\n(ii) Hence show that the only way to assign the values is $a=4$, $b=5$ and $c=2$.\n(iii) Express $P(x)$ as a product of linear factors.\n(iv) Hence or otherwise, sketch the graph of $y=P(x)$, clearly showing the coordinates of any intercepts with the axes. [12]"
+  },
+  {
+   "id": "math-2022-N-P1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 18]\nLet zn be the complex number defined as zn=(n2+n+1)+i for n∈∞ .\n(a) (i) \u0007Find arg(z0) .\n(ii) Write down an expression for arg(zn) in terms of n .\b [3]\nLet wn=z0z1z2z3...zn-1zn for n∈∞ .\na + b\n(b) (i) \u0007Show that arctan () + a arctan () = b arctan for a , b∈ϒ+ , ab<1 .\n− 1 ab\n(ii) Hence or otherwise, show that arg(w1)=arctan(2) .\b [5]\n(c) Prove by mathematical induction that arg(wn)=arctan(n+1) for n∈∞ .\b [10]\n\b",
+   "ms_text": "z =+ 1i 12. (a) (i) (A1)\n0\nπ\narg ( z ) = arctan1 () = = 45 ° A1\n0\n4\nNote: Accept any of these three forms, including an answer marked on an\nArgand diagram.\n1\n(ii) arg ( nz ) = arctan A1\n2 n + n + 1\n[3 marks]\n(b) (i) attempt to use the compound angle formula for tan M1\ntanarctan ( () a ) +tanarctan ( () b )\ntanarctan ( () a + arctan () b )\n=− (\n() ) ( () ) 1 tanarctan a tanarctan b\na + b\nA1 =−\n1 ab\na + b\n⇒ arctan () a + arctan () b = AG\narctan1\n− ab\n(ii) METHOD 1\narg ( w ) = arg ( zz ) = arg ( z ) + arg () z M1\n1 01 0 1\n1\n= arctan1 () + (A1)\narctan3\n1\n1 +\n3 =\narctan A1\n1\n1 −\n3\n() = arctan2 AG\nMETHOD 2\nw = zz = ( 1i + )( 3 + i ) (M1)\n1 01\n= 2 + 4i A1\n4\n( ) arg w = or labelled Argand diagram A1\n1 arctan2\n() = arctan2 AG\n[5 marks]\n(c) let n = 0\nπ\nLHS = arg ( w ) = arg ( z ) = arctan1 () =\n0 0\n4\nπ\nRHS = arctan1 () = so LHS = RHS R1\n4\n= Note: Award R0 for not starting at n 0 , for example by referring to the result in\n(b) (ii) for n = 1 . Award subsequent marks.\nassume true for n = k , (so arg ( w ) = arctan ( k + 1 ) ) M1\nk\nNote: Do not award M1 for statements such as “let n = k ” or “ n = k is true”.\nSubsequent marks can still be awarded.\narg ( w )\nk + 1\n= arg ( wz ) ( = arg ( w ) + arg ( z ) ) (M1)\nk k + 1 k k + 1\n1\n= arctan ( k + 1 ) + arctan A1\n2\n( k + 1 ) + ( k + 1 ) + 1\n1\n( + ) + k 1\n2\n( k + 1 ) + ( k + 1 ) + 1\n= arctan M1\n1\n( 1 − k + 1\n)( 2\nk + 1 ) + ( k + 1 ) + 1\n1\n( k + 1 ) +\n2 k + 3 k + 3\n= arctan (A1)\n1\n1 − ( k + 1 )\n2 k + 3 k + 3\n( k + 1 )( k 2 + 3 k + 3 ) + 1\n= arctan\n( k 2 + 3 k + 3 )( − k + 1 )\n3 2 k + 4 k + 6 k + 4\n= arctan A1\nk 2 + k + 2 2\n2 ( k + 2 )( k + 2 k + 2 )\n= arctan A1\n2 k + 2 k + 2\n= arctan ( k + 2 ) ( = arctan ( ( k + 1 ) + 1 ) ) A1\nsince true for n = 0 , and true for n = k + 1 if true for n = k , the statement is\ntrue for all ∈ n Ν by mathematical induction R1\nNote: To obtain the final R1, four of the previous marks must have been\nawarded.\n[10 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.15",
+    "1.13",
+    "3.10",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 18]\nLet $z_n$ be the complex number defined as $z_n=(n^2+n+1)+\\mathrm{i}$ for $n\\in\\mathbb{N}$.\n(a) (i) Find $\\arg(z_0)$.\n(ii) Write down an expression for $\\arg(z_n)$ in terms of $n$. [3]\nLet $w_n=z_0z_1z_2z_3\\ldots z_{n-1}z_n$ for $n\\in\\mathbb{N}$.\n(b) (i) Show that $\\arctan(a)+\\arctan(b)=\\arctan\\left(\\frac{a+b}{1-ab}\\right)$ for $a, b\\in\\mathbb{R}^+$, $ab<1$.\n(ii) Hence or otherwise, show that $\\arg(w_1)=\\arctan(2)$. [5]\n(c) Prove by mathematical induction that $\\arg(w_n)=\\arctan(n+1)$ for $n\\in\\mathbb{N}$. [10]"
+  }
+ ],
+ "status": "done"
+}

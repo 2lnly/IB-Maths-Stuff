@@ -1,0 +1,113 @@
+{
+ "exam_id": "math-2019-N-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2019,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2019 November Examination Session/Mathematics_paper_3_Statistics_and_probability__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2019 November Examination Session/Mathematics_paper_3_Statistics_and_probability__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8819-7210; code N19/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches paper total 50",
+ "qp_pages": 5,
+ "questions": [
+  {
+   "id": "math-2019-N-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 7]\nPeter, the Principal of a college, believes that there is an association between the score in a\nMathematics test, X , and the time taken to run 500 m, Y seconds, of his students.\nThe following paired data are collected.\nMathematics test score X 70 75 76 66 60 61\nTime taken to run 500 mY 100 105 95 109 89 101\nIt can be assumed that (X , Y ) follow a bivariate normal distribution with product moment\ncorrelation coefficient ρ .\n(a) (i) State suitable hypotheses H0 and H1 to test Peter’s claim, using a two-tailed test.\n(ii) Carry out a suitable test at the 5 % significance level. With reference to the\np-value, state your conclusion in the context of Peter’s claim.\b [5]\n(b) Peter uses the regression line of y on x as y = 0.248x+ 83.0 and calculates that a\nstudent with a Mathematics test score of 73 will have a running time of 101 seconds.\nComment on the validity of his calculation.\b [2]",
+   "ms_text": "1. (a) (i) H : ρ = 0 H : ρ ≠ 0 A1\n0 1\nNote: It must be ρ .\n(ii) p = 0.649 A2\nNote: Accept anything that rounds to 0.65.\n0.649 > 0.05 R1\nhence, we accept H and conclude that Peter’s claim is wrong A1\n0\nNote: The A mark depends on the R mark and the answer must be given in context.\nFollow through the p-value in part (b).\n[5 marks]\n(b) a statement along along the lines of ‘(we have accepted that) the two\nvariables are independent’ or ‘the two variables are weakly correlated’ R1\na statement along the lines of ‘the use of the regression line is invalid’\nor ‘it would give an inaccurate result’ R1\nNote: Award the second R1 only if the first R1 is awarded.\nNote: FT the conclusion in(a)(ii). If a candidate concludes that the claim is\ncorrect, mark as follows: (as we have accepted H1) the 2 variables are\ndependent and 73 lies in the range of x values R1, hence the use of the\nregression line is valid R1.\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L8",
+    "4.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 7]\nPeter, the Principal of a college, believes that there is an association between the score in a Mathematics test, $X$, and the time taken to run 500 m, $Y$ seconds, of his students.\nThe following paired data are collected.\nMathematics test score $X$ | 70 | 75 | 76 | 66 | 60 | 61\nTime taken to run 500 m $Y$ | 100 | 105 | 95 | 109 | 89 | 101\nIt can be assumed that $(X, Y)$ follow a bivariate normal distribution with product moment correlation coefficient $\\rho$.\n(a) (i) State suitable hypotheses $H_0$ and $H_1$ to test Peter's claim, using a two-tailed test.\n(ii) Carry out a suitable test at the 5% significance level. With reference to the $p$-value, state your conclusion in the context of Peter's claim. [5]\n(b) Peter uses the regression line of $y$ on $x$ as $y = 0.248x + 83.0$ and calculates that a student with a Mathematics test score of 73 will have a running time of 101 seconds. Comment on the validity of his calculation. [2]"
+  },
+  {
+   "id": "math-2019-N-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 15]\n(a) Three independent random variables X1 , X2 , X3 are taken from a distribution with\nmean µ and variance σ 2 . Three estimators are proposed for µ .\nX � X � X X � 2 X � 3 X X � 2 X\n1 2 3 1 2 3 T � , T � , T � 1 2\n1 2 3\n3 3 3\n(i) Show that one of these estimators for µ is biased and show that the other two\nare unbiased.\n(ii) For the two unbiased estimators, determine, with a reason, which one is more\nefficient.\b [9]\n(b) Consider the random variable Y , which follows a negative binomial distribution\nY ~ NB(4 , p) . A random sample is taken from this distribution and the mean is denoted\nby Y .\n(i) Find E (Y ) .\nHence suggest an unbiased estimator for 1\n(ii) [2] p in terms of Y.\b\n(c) A discrete random variable W has a probability distribution given by the following table.\nw 1 2\nP (W = w) 0.5 0.5\n(i) Calculate E (W ) .\n� 1 �\n(ii) Calculate E\n��. ��\nW\nHence explain why your estimator for 1\n(iii)\np in (b)(ii) does not directly suggest an\nunbiased estimator for p .\b [4]",
+   "ms_text": "2. (a) (i) attempt to find expected values eg() ET (M1)\n1\n1 1\nE () T = E ( X + X + X ) = ( E ( X ) + E ( X ) + E ( X ) )\n1 1 2 3 1 2 3\n3 3\n= µ A1\n1 1\nE ( T ) = E ( X + 2 X + 3 X ) = ( E ( X ) + 2E ( X ) + 3E ( X ) )\n2 1 2 3 1 2 3\n3 3\n= 2µ A1\n1 1\n( ) E ( T ) = E ( X + 2 X ) = E ( X ) + 2E ( X )\n3 1 2 1 2\n3 3\n= µ A1\nNote: Order does not matter.\n(2 µ ≠ µ ) hence 2T is biased, 1T and 3T are unbiased\n(ii) use of variance of linear combinations (M1)\n1\nVar () T = ( Var ( X ) + Var ( X ) + Var ( X ) )\n1 1 2 3\n9\n2 3 σ\nσ 2\n= = A1\n9 3\n1\nVar ( T ) = ( Var ( X ) + 4Var ( X ) )\n3 1 2\n9\n5 2\n= A1\n9σ\n3 5 2 2\nσ < σ so 1T is the more efficient estimator R1A1\n9 9\nNote: Award A1only if theR1is awarded.\nNote:Follow through their variances and award R1 for a comparison and\nA1 if the M1 was awarded. [9 marks]\n4\n(b) (i) E() Y = E() Y = A1\np\nY\n(ii) A1\n4\n[2 marks]\n1 1 3\nW (c) (i) E( ) =× 1 +× 2 = A1\n2 2 2\n1 1 1 1 3\n(ii) E =× + × = (M1)A1\n12\nW 2 2 4\n1 1 ≠\n(iii) the above example shows that in general E (so that\nT E () T\n1 E4\nmay not equal = p). R1\nY E ( Y / 4 )\nNote: Do not award R1 if the statement is given only in terms ofW.\n[4 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.L4",
+    "4.L2",
+    "4.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 15]\n(a) Three independent random variables $X_1, X_2, X_3$ are taken from a distribution with mean $\\mu$ and variance $\\sigma^2$. Three estimators are proposed for $\\mu$.\n$T_1 = \\frac{X_1 + X_2 + X_3}{3}$, $T_2 = \\frac{X_1 + 2X_2 + 3X_3}{3}$, $T_3 = \\frac{X_1 + 2X_2}{3}$\n(i) Show that one of these estimators for $\\mu$ is biased and show that the other two are unbiased.\n(ii) For the two unbiased estimators, determine, with a reason, which one is more efficient. [9]\n(b) Consider the random variable $Y$, which follows a negative binomial distribution $Y \\sim \\mathrm{NB}(4, p)$. A random sample is taken from this distribution and the mean is denoted by $\\bar{Y}$.\n(i) Find $\\mathrm{E}(\\bar{Y})$.\n(ii) Hence suggest an unbiased estimator for $\\frac{1}{p}$ in terms of $\\bar{Y}$. [2]\n(c) A discrete random variable $W$ has a probability distribution given by the following table.\n$w$ | 1 | 2\n$\\mathrm{P}(W = w)$ | 0.5 | 0.5\n(i) Calculate $\\mathrm{E}(W)$.\n(ii) Calculate $\\mathrm{E}\\left(\\frac{1}{W}\\right)$.\n(iii) Hence explain why your estimator for $\\frac{1}{p}$ in (b)(ii) does not directly suggest an unbiased estimator for $p$. [4]"
+  },
+  {
+   "id": "math-2019-N-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 14]\n(a) State the central limit theorem as applied to a random sample of size n , taken from a\ndistribution with mean µ and variance σ 2 .\b [2]\nA random variable X has a distribution with mean µ and variance 4. A random sample of\nsize 100 is to be taken from the distribution of X .\n(b) Jack takes a random sample of size 100 and calculates that x= 60 2.. Find an\napproximate 90 % confidence interval for µ .\b [2]\n(c) Josie takes a different random sample of size 100 to test the null hypothesis that\nµ= 60 against the alternative hypothesis that µ> 60 at the 5 % level.\n(i) Find the critical region for Josie’s test, giving your answer correct to two decimal\nplaces.\n(ii) Write down the probability that Josie makes a Type I error.\n(iii) Given that the probability that Josie makes a Type II error is 0.25, find the value\nof µ , giving your answer correct to three significant figures.\b [10]",
+   "ms_text": "for n(sufficiently) large the sample mean X approximately 3. (a) A1\n2 σ\nµ : N A1\n,n\nNote: Award the first A1 for nlarge and reference to the sample mean( ) X,\nthe second A1 is for normal and the two parameters.\nNote: Award the secondA1 only if the firstA1is awarded.\nNote: Allow ‘n tends to infinity’ or‘n≥30’ in place of ‘large’.\n[2 marks]\n(b) [59.9,60.5] A1A1\nNote: Accept answers which round to the correct 3sf answers.\n[2 marks]\n4\n(c) (i) under H, X : (A1)\n0 N60, 100\nrequired to find k such that P ( X > k ) = .0 05 (M1)\nσ\nuse of any valid method, eg GDC Inv(Normal) or k = 60 + z (M1)\nn\nhence critical region is x> 60.33 A1\n(ii) 0.05 A1\n(iii) P(Type II error) =P( His accepted / H is false) (R1)\n0 0\nNote: Accept Type II error means H0 is accepted given H0is false.\n4\n⇒ < = P( X 60.33) 0.25 when X : N µ (M1)\n,100\nX − µ 60.33 − µ\n⇒ < = P 0.25 (M1)\n2 2\n10 10\n60.33 − µ 2\n⇒ P Z < = 0.25 where Z: N0,1 ( )\n2\n10\n60.33 − µ\n= − 0.6744... (A1)\n2\n10\n2\nµ= 60.33 + × 0.6744...\n10\nµ= 60.5 A1\n[10 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.12",
+    "4.L5",
+    "4.L6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 14]\n(a) State the central limit theorem as applied to a random sample of size $n$, taken from a distribution with mean $\\mu$ and variance $\\sigma^2$. [2]\nA random variable $X$ has a distribution with mean $\\mu$ and variance 4. A random sample of size 100 is to be taken from the distribution of $X$.\n(b) Jack takes a random sample of size 100 and calculates that $\\bar{x} = 60.2$. Find an approximate 90% confidence interval for $\\mu$. [2]\n(c) Josie takes a different random sample of size 100 to test the null hypothesis that $\\mu = 60$ against the alternative hypothesis that $\\mu > 60$ at the 5% level.\n(i) Find the critical region for Josie's test, giving your answer correct to two decimal places.\n(ii) Write down the probability that Josie makes a Type I error.\n(iii) Given that the probability that Josie makes a Type II error is 0.25, find the value of $\\mu$, giving your answer correct to three significant figures. [10]"
+  },
+  {
+   "id": "math-2019-N-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 14]\nConsider the random variable X , which follows a negative binomial distribution\nX ~NB (r , p) . The probability generating function for X is given by\npt rr\nG () t � , where q = 1 - p .\nX r\n( 1 � qt )\nUse this probability generating function to find and simplify E (X ) .\b (a) [5]\nConsider another independent random variable Y , where Y ~ NB (s , p) .\nLet W = X + Y .\n(b) (i) Find the probability generating function for W .\n(ii) Hence identify the distribution that W follows and state its parameters.\n(iii) Given that r = 2 and s = 3 , calculate P (X = 3 | W = 7) .\b [9]\n\b",
+   "ms_text": "r r − 1 − r − rr − r − 1 − prt (1 qt ) ptr (1 qt ) ( q )\n4. (a) Gt ′ () = M1A1\nx 2 r\n(1 − qt )\nuse of E() X = G′ (1) M1\nx\nr r r r − 1 rp (1 − q ) − rp (1 − q ) ( − q )\n′ = G (1) A1\nx 2 r\n(1 − q )\nNote: Accept correct substitution of t = in any correct form of 1 Gt ′ () .\nx\n2 r 2 r − 1 2 r rp + rp − rp\n= A1\n2 r p\nNote: Accept any equivalent simplified expression which leads\nq immediately to the final result r\n, for example r 1 + .\np p\nr\n=\np\n[5 marks]\n(b) (i) G () t = G () tG () t (M1)\nw x y\nrr ss rsrs + + pt pt p t\n= × = A1\nr s rs + (1 − qt ) (1 − qt ) (1 − qt )\n(ii) W : NB( r + s , p ) A1A1\nP( X = 3 ∩ W = 7)\n(iii) P( X = 3 W = 7) = (M1)\nP( W = 7)\n= × = PX ( 3) PY ( 4)\n= (A1)\nP W ( = 7)\n2 3\n2 3 pq pq\n1 2\n= M1A1\n6\n5 2 pq\n4\n2\n= A1\n5\n[9 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.L3",
+    "4.L2",
+    "4.11",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 14]\nConsider the random variable $X$, which follows a negative binomial distribution $X \\sim \\mathrm{NB}(r, p)$. The probability generating function for $X$ is given by\n$G_X(t) = \\frac{p^r t^r}{(1 - qt)^r}$, where $q = 1 - p$.\n(a) Use this probability generating function to find and simplify $\\mathrm{E}(X)$. [5]\nConsider another independent random variable $Y$, where $Y \\sim \\mathrm{NB}(s, p)$.\nLet $W = X + Y$.\n(b) (i) Find the probability generating function for $W$.\n(ii) Hence identify the distribution that $W$ follows and state its parameters.\n(iii) Given that $r = 2$ and $s = 3$, calculate $\\mathrm{P}(X = 3 \\mid W = 7)$. [9]"
+  }
+ ],
+ "status": "done"
+}

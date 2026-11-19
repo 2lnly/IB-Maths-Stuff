@@ -1,0 +1,289 @@
+{
+ "exam_id": "physics-2015-M-P3-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "1. This question is about planets.\nFour of the outer planets of the solar system are Jupiter, Neptune, Saturn and Uranus. List these planets in order of increasing mass. [1]\n[Table: column \"Planet\" with four empty rows, arrow from \"smallest mass\" (top) to \"largest mass\" (bottom)]",
+   "answer_status": "ok",
+   "add_flags": [],
+   "note": "Solar-system objects (Option E.1); no exact subtopic, E.5 closest. | audit: solar-system content is E.5 under Option D/E mapping (audit)"
+  },
+  "2": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "2. This question is about a particular star called Barnard's star.\nThe peak wavelength in the spectrum of Barnard's star is 940 nm. The following data are available.\n$\\frac{\\text{apparent brightness of Barnard's star}}{\\text{apparent brightness of the Sun}} = 2.5\\times10^{-14}$\n$\\frac{\\text{luminosity of Barnard's star}}{\\text{luminosity of the Sun}} = 3.8\\times10^{-3}$\n(a) (i) Show that the surface temperature of Barnard's star is about 3000 K. [2]\n(ii) Suggest why Barnard's star is not likely to be either a white dwarf or a red giant. [2]\n(b) (i) Determine, in astronomical units (AU), the distance between Earth and Barnard's star. [3]\n(ii) Calculate the parallax angle for Barnard's star as observed from Earth. [2]\n(iii) Outline how the parallax angle is measured. [3]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "3": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "text_clean": "3. This question is about the development of the universe.\nThe graph shows one possible way in which the universe is thought to change with time. This type of universe is known as a flat universe.\n[Graph: size of the universe against time; curve rising from zero and levelling off; dashed vertical line marking \"present\"]\n(a) On the graph, draw lines to show the variation with time of the size of the universe for both a closed universe and an open universe. Label your line for the closed universe C and your line for the open universe O. [2]\n(b) Explain how the open and closed outcomes for the universe depend on the critical density of matter in the universe. [3]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "4. This question is about the mass–luminosity relation.\nStar X is $1.5\\times10^{5}$ more luminous than the Sun and has a mass 30 times that of the Sun.\n(a) Identify whether star X is on the main sequence. Assume that $n = 3.5$ in the mass–luminosity relation. [2]\n(b) (i) State the evolution of star X. [1]\n(ii) Explain the eventual fate of star X. [2]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "text_clean": "5. This question is about Hubble's law.\n(a) The light from distant galaxies is red-shifted. Explain how this red-shift arises. [3]\n(b) The graph shows the variation of recession speed with distance from Earth for some galactic clusters.\n[Graph: recession speed / $10^{3}$ km s$^{-1}$ (0–18) against distance / $10^{24}$ m (0–7); straight line through origin reaching 16 at 6]\n(i) Calculate, in s$^{-1}$, the Hubble constant. [2]\n(ii) Estimate, in s, the age of the universe. [1]\n(iii) State the assumption that you made in your estimate in (b)(ii). [1]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "6. This question is about radio communication.\n(a) Distinguish between a carrier wave and a signal wave. [2]\n(b) The frequency spectrum of an amplitude-modulated wave transmitted by a radio station is shown.\n[Graph: wave power / arbitrary units against frequency / kHz; tall line at 1600 kHz; sidebands from 1570 to 1590 kHz and from 1610 to 1630 kHz]\n(i) Define bandwidth. [1]\n(ii) State the frequency of the carrier wave. [1]\n(iii) Determine the bandwidth of the transmitted (modulated) wave. [2]\n(c) State one disadvantage of using amplitude modulation (AM) rather than frequency modulation (FM) in radio communications. [1]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14",
+    "X.10"
+   ],
+   "text_clean": "7. This question is about optic fibre transmission and the Schmitt trigger.\n(a) A light pulse travelling along an optic fibre is dispersed.\n(i) Outline what is meant by dispersion. [1]\n(ii) Explain two mechanisms that produce dispersion in optic fibres. [3]\n(b) After travelling along the optic fibre, the signal in (a) is converted to an electric signal. Both signals contain noise.\n(i) State what is meant by noise. [1]\n(ii) The electric signal is then sent to a Schmitt trigger. Outline the reasons for using Schmitt triggers with a signal containing noise. [2]\n(iii) The Schmitt trigger in (b)(ii) operates between two switch-over voltages, $V_1$ and $V_2$. $V_1 = 1$ V and $V_2 = 4$ V.\nGraph 1 shows how the output voltage $V_{OUT}$ of the Schmitt trigger varies with the input voltage $V_{IN}$. The saturation voltages are $V_{low} = 0$ V and $V_{high} = 5$ V.\n[Graph 1: hysteresis loop of $V_{OUT}$ / V against $V_{IN}$ / V; output switches from 0 to 5 V at $V_{IN}$ = 4 V and from 5 to 0 V at $V_{IN}$ = 1 V]\nGraph 2 shows the variation with time of the amplitude $V_{IN}$ of the electrical signal sent to the Schmitt trigger.\n[Graph 2: voltage / V (0–6) against time; noisy sinusoidal $V_{in}$ rising to about 6.3 V, falling to about 0 V and rising again; horizontal lines at $V_{high}$ = 5, $V_2$ = 4, $V_1$ = 1, $V_{low}$ = 0]\nSketch, on Graph 2 above, the output of the Schmitt trigger. [4]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "8": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "8. This question is about mobile phone systems.\n(a) A geographical area is covered by one or more cells for the purpose of mobile phone systems. Outline the properties that a cell must have. [2]\n(b) Suggest two environmental issues that arise from the use of mobile phones. [2]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "9. This question is about satellite communications and time-division multiplexing.\n(a) Explain the advantages that polar-orbiting satellites have over geostationary satellites for communication. [2]\n(b) Many digital signals are transmitted from a satellite to a ground station. The signals appear to be sent along a single transmission channel at the same time.\n(i) Outline how the signals are sent along the transmission channel. [4]\n(ii) Each signal for this transmission channel is sampled at a frequency of 25 kHz. The duration of each sample is 9.0 µs. Determine the maximum number of signals that this transmission channel can carry. [2]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "C",
+    "X"
+   ],
+   "subtopics": [
+    "C.3",
+    "X.4"
+   ],
+   "text_clean": "10. This question is about a laser light on a diffraction grating.\n(a) With reference to population inversion, describe how laser light is produced. [4]\n(b) Two laser beams A and B are incident normally at the same position on a diffraction grating. The graph shows how the intensity of the light emerging from the grating varies with the diffraction angle $\\theta$. Beam A has wavelength 530 nm.\n[Graph: light intensity / arbitrary units against $\\theta$ / ° (0–60); central peak at 0°; beam A peaks at about 18° and 39°; beam B peaks at about 24° and 54°]\n(i) Show that the diffraction grating has approximately 600 lines per millimetre. [3]\n(ii) Calculate the wavelength of beam B. [2]\n(iii) Show that a third-order peak cannot be observed for beam B. [2]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "11": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "text_clean": "11. This question is about a converging (convex) lens.\nA small object is placed a distance 2.0 cm from a thin convex lens. The focal length of the lens is 5.0 cm.\n(a) State, in dioptres, a value for the power of the lens. [1]\n(b) (i) Deduce the magnification of the lens. [3]\n(ii) State and explain the nature of the image formed by this lens with the object at this position. [2]\n(c) The object is coloured and the image shows chromatic aberration. Explain what is meant by chromatic aberration. [2]\n(d) Describe how the effects of chromatic aberration may be reduced. [1]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "12": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.4",
+    "E.2"
+   ],
+   "text_clean": "12. This question is about X-ray diffraction.\nIn an experiment, X-rays of wavelength $\\lambda$ are used to determine the distance $d$ between atomic layers in a crystal. The diagram shows part of a crystal with incident and scattered X-rays.\n[Diagram: two parallel incident X-rays at angle $\\theta$ to rows of lattice ions, scattered from two crystal planes separated by $d$]\n(a) (i) On the diagram, construct two lines that enable the path difference between the rays scattered from different crystal planes to be shown. [1]\n(ii) Derive an equation, in terms of $d$ and $\\lambda$, for the minimum non-zero angle $\\theta$ at which the X-rays interfere constructively. [2]\n(b) The X-rays are produced when electrons in an X-ray tube are accelerated from rest through a potential difference of 15 kV. Calculate the minimum wavelength of the X-rays produced. [2]",
+   "answer_status": "ok",
+   "add_flags": [
+    "topic-uncertain"
+   ]
+  },
+  "13": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.4"
+   ],
+   "text_clean": "13. This question is about thin-film interference.\nA thin film of oil lies on a puddle of water. White light from above shines on the film at normal incidence.\n(a) Outline the process by which coloured fringes are formed. [3]\n(b) The following data are available:\nRefractive index of oil = 1.4\nRefractive index of water = 1.3\nThickness of the oil film = 250 nm\nCalculate the maximum wavelength of the incident light for which destructive interference occurs. [2]",
+   "answer_status": "ok"
+  },
+  "14": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "14. This question is about relativistic kinematics.\n(a) An observer at rest relative to Earth observes two spaceships. Each spaceship is moving with a speed of $0.85c$ but in opposite directions. The observer measures the rate of increase of distance between the spaceships to be $1.7c$.\n(i) Outline whether this observation contravenes the theory of special relativity. [2]\n(ii) Determine, according to an observer in one of the spaceships, the speed of the other spaceship. [3]\n(b) The observer on Earth in (a) watches one spaceship as it travels to a distant star at a speed of $0.85c$. According to observers on the spaceship, this journey takes 8.0 years.\n(i) Calculate, according to the observer on Earth, the time taken for the journey to the star. [3]\n(ii) Outline whether the time interval measured by the observer on Earth is a proper time interval. [1]\n(iii) Calculate, according to the observer on Earth, the distance from Earth to the star. [2]\n(iv) The observers in the spaceship send a message to Earth halfway through their journey. Determine how long it takes the message to arrive at Earth according to the observers on the spaceship. [3]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "15": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "15. This question is about relativistic energies.\n(a) Calculate the speed of an electron when its total energy is equal to five times its rest mass energy. [3]\n(b) The electron is accelerated from rest through a potential difference $V$. The graph shows how the speed $v$ of the electron after acceleration varies with $V$ assuming that Newtonian mechanics applies.\n[Graph: $v$ against $V$; Newtonian curve rising from origin and crossing the horizontal line $v = c$]\nOn the graph, sketch a line to show the variation with $V$ of $v$ according to relativistic mechanics. [2]",
+   "answer_status": "ok"
+  },
+  "16": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "16. This question is about general relativity.\n(a) Calculate the Schwarzschild radius for an astronomical object of mass $5.0\\times10^{30}$ kg. [2]\n(b) A spaceship is travelling towards the object in (a). The spaceship moves in a straight line such that its distance of closest approach would be about $10^{7}$ m. Discuss why the presence of the object in (a) will not significantly affect the motion of the spaceship. [2]\n(c) An observer, when viewing a distant galaxy, sees two images of the galaxy separated by a small angle. A massive star is positioned between the observer and the galaxy. Outline how these observations give support to the theory of general relativity. [3]",
+   "answer_status": "ok"
+  },
+  "17": {
+   "topics": [
+    "A",
+    "X"
+   ],
+   "subtopics": [
+    "A.5",
+    "X.7"
+   ],
+   "text_clean": "17. In the Hafele–Keating experiment a clock was flown around the world. Discuss the effects of this journey on the time registered by the clock compared to the time registered by a clock that remains on the Earth's surface. You should refer to both the special and general theories of relativity in your answer. [4]\nEffect of special relativity:\nEffect of general relativity:",
+   "answer_status": "ok"
+  },
+  "18": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "18. This question is about hearing loss.\n(a) Define sound intensity level (IL). [1]\n(b) The graph shows the variation with frequency $f$ of sound intensity level $IL$ for the threshold of hearing for three people A, B, and C. Person C has normal hearing.\n[Graph: $IL$ / dB (−25 to 200) against frequency / Hz on log scale (10 to $10^{5}$); threshold curves A (highest, about 65–130 dB), B (close to C at low frequency, rising steeply at high frequency) and C (normal, minimum about 0 dB near 2 kHz)]\n(i) Compare the hearing of persons A and B with that of person C. [2]\n(ii) Determine the intensity of a sound of frequency 100 Hz that can just be heard by person C. [3]",
+   "answer_status": "ok"
+  },
+  "19": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "19. This question is about ultrasound scanning.\n(a) Outline how ultrasound is generated for medical diagnostic purposes. [2]\n(b) When ultrasound of intensity $I_0$ travels in a medium of acoustic impedance $Z_1$ and is incident on a medium of acoustic impedance $Z_2$, the intensity $I_R$ that is reflected at the interface is given by the following equation.\n$I_R = \\left(\\frac{Z_1 - Z_2}{Z_1 + Z_2}\\right)^2 I_0$\nThe following data are available.\n| | Speed of sound / m s$^{-1}$ | Density / kg m$^{-3}$ |\n| air | 330 | 1.3 |\n| skin | 1500 | 1000 |\nUse the data to deduce why a layer of gel must be used between a transducer and the patient's skin in medical ultrasound imaging. [5]\n(c) In medical scanning, practitioners have the option of using A-scans or B-scans. Distinguish, with reference to the techniques used to produce the scans, between an A-scan and a B-scan. [3]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "20": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "20. This question is about X-rays.\n(a) Two parallel beams of monochromatic X-rays of the same intensity are incident on equal thicknesses of bone and fat in a patient.\n[Diagram: X-ray beam passing through 0.015 m of fat (emerging intensity $I_f$) and 0.015 m of bone (emerging intensity $I_b$)]\nThe attenuation coefficient for fat is 180 m$^{-1}$ and the attenuation coefficient for bone is 345 m$^{-1}$. The thickness of both materials is 0.0150 m.\nCalculate $\\frac{I_b}{I_f}$ where $I_b$ is the intensity of the beam leaving the bone and $I_f$ is the intensity of the beam leaving the fat. [3]\n(b) Explain how fluorescent emitters are used to enhance the image formed on a photographic X-ray plate. [3]",
+   "answer_status": "ok"
+  },
+  "21": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "21. This question is about exposure to radiation.\n(a) During a medical procedure, a patient of mass 80 kg receives radiation with a dose equivalent of 0.27 mSv. The quality factor (relative biological effectiveness) of the radiation is 5.0. Determine the total energy received by the patient. [2]\n(b) Practitioners using radiation often wear lead aprons to reduce their exposure to the radiation. Identify two other ways by which practitioners can minimize their exposure to X-rays. [2]\n(c) High-intensity X-rays are used in radiation therapy.\nOutline how knowledge of the response of malignant and normal cells to X-radiation is used to improve the effectiveness of radiation therapy. [4]",
+   "answer_status": "ok"
+  },
+  "22": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.2",
+    "E.2"
+   ],
+   "text_clean": "22. This question is about particles and interactions.\n(a) When a free neutron decays to a proton, an electron is one of the decay products.\n(i) State the name of the exchange particle and the interaction involved in this decay. [1]\n(ii) The interaction and the exchange particle in (a)(i) may arise when a quark decays. Describe the change in the quark structure of the neutron. [1]\n(b) Exchange particles and photons have been observed to be produced when a Higgs particle (boson) decays.\n(i) The suggested mass of the Higgs boson is 125 GeV c$^{-2}$. Determine the likely range of the interaction mediated by the Higgs boson. [3]\n(ii) The energy of the Higgs bosons produced in an experiment has been measured with an uncertainty of about 17 MeV. Determine the maximum time that Higgs bosons can spend in this state before decaying into other particles. [3]",
+   "answer_status": "ok"
+  },
+  "23": {
+   "topics": [
+    "X",
+    "D"
+   ],
+   "subtopics": [
+    "X.2",
+    "D.3"
+   ],
+   "text_clean": "23. This question is about particle accelerators.\nCharged particles in a cyclotron travel inside two D-shaped conductors (dees).\n(a) Outline, with reference to the motion of the particles, why an alternating potential difference is applied between the dees. [4]\n(b) A cyclotron accelerates protons. The radius of the dees in this machine is 0.50 m and the protons leave the machine with a total energy of 1.0 GeV. Determine the alternating frequency of this cyclotron. [4]\n(c) Synchrotrons can accelerate protons to higher energies than cyclotrons. Outline two differences in the design features of synchrotrons and cyclotrons that enable these higher energies to be reached. [2]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "24": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "24. This question is about quarks.\nAn interaction between an electron and a positron can lead to the production of hadrons via the reaction\n$e^{-} + e^{+} \\rightarrow u + \\bar{u}$\nwhere $u$ is an up quark. This process involves the electromagnetic interaction.\n(a) Draw a Feynman diagram for this interaction. [2]\n(b) Outline, with reference to the strong interaction, why hadrons are produced in the reaction. [2]\n(c) The electron–positron process can also proceed through a neutral current. Outline what is meant by a neutral current. [2]",
+   "answer_status": "ok"
+  },
+  "25": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "25. This question is about a K meson decay.\nThe positive kaon $K^{+}$ has a strangeness of +1. It can decay through the interaction\n$K^{+} \\rightarrow \\mu^{+} + \\nu_{\\mu}$.\nCharge, energy and momentum are conserved in this decay.\n(a) State the quark structure of the $K^{+}$. [1]\n(b) Deduce one further quantity in this decay that is\n(i) conserved. [1]\n(ii) not conserved. [1]",
+   "answer_status": "ok"
+  },
+  "26": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "26. This question is about string theory and the standard model.\n(a) State what is meant by an elementary particle. [1]\n(b) Outline how string theory describes particles that the standard model classifies as elementary. [2]",
+   "answer_status": "ok"
+  }
+ },
+ "exam_note": "Legacy HL P3 options E (Q1-5), F (Q6-9), G (Q10-13), H (Q14-17), I (Q18-21), J (Q22-26). ms overrides fix raised-numerator bleed between Q1/Q2, Q15/Q16, Q19/Q20, Q20/Q21."
+}

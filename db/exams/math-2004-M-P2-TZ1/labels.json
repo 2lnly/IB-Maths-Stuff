@@ -1,0 +1,139 @@
+{
+ "exam_id": "math-2004-M-P2-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.17",
+    "3.16",
+    "3.13"
+   ],
+   "text_clean": "1. [Maximum mark: 12]\n(a) The point $P(1, 2, 11)$ lies in the plane $\\pi_1$. The vector $3\\mathbf{i}-4\\mathbf{j}+\\mathbf{k}$ is perpendicular to $\\pi_1$. Find the Cartesian equation of $\\pi_1$. [2 marks]\n(b) The plane $\\pi_2$ has equation $x+3y-z=-4$.\n(i) Show that the point P also lies in the plane $\\pi_2$.\n(ii) Find a vector equation of the line of intersection of $\\pi_1$ and $\\pi_2$. [5 marks]\n(c) Find the acute angle between $\\pi_1$ and $\\pi_2$. [5 marks]"
+  },
+  "2": {
+   "topics": [
+    "4",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.6",
+    "1.8",
+    "5.11"
+   ],
+   "text_clean": "2. [Maximum mark: 14]\n(i) Jack and Jill play a game, by throwing a die in turn. If the die shows a 1, 2, 3 or 4, the player who threw the die wins the game. If the die shows a 5 or 6, the other player has the next throw. Jack plays first and the game continues until there is a winner.\n(a) Write down the probability that Jack wins on his first throw. [1 mark]\n(b) Calculate the probability that Jill wins on her first throw. [2 marks]\n(c) Calculate the probability that Jack wins the game. [3 marks]\n(ii) Let $f(x)$ be the probability density function for a random variable $X$, where\n$f(x)=\\begin{cases} kx^2, & \\text{for } 0\\le x\\le 2 \\\\ 0, & \\text{otherwise.}\\end{cases}$\n(a) Show that $k=\\frac{3}{8}$. [2 marks]\n(b) Calculate\n(i) $\\mathrm{E}(X)$;\n(ii) the median of $X$. [6 marks]",
+   "note": "audit: pdf integrals for k, E(X), median carry M/A marks; aligned with twin TZ2-q2"
+  },
+  "3": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.12",
+    "1.2",
+    "1.7"
+   ],
+   "text_clean": "3. [Maximum mark: 15]\n(i) A complex number $z$ is such that $|z|=|z-3\\mathrm{i}|$.\n(a) Show that the imaginary part of $z$ is $\\frac{3}{2}$. [2 marks]\n(b) Let $z_1$ and $z_2$ be the two possible values of $z$, such that $|z|=3$.\n(i) Sketch a diagram to show the points which represent $z_1$ and $z_2$ in the complex plane, where $z_1$ is in the first quadrant.\n(ii) Show that $\\arg z_1=\\frac{\\pi}{6}$.\n(iii) Find $\\arg z_2$. [4 marks]\n(c) Given that $\\arg\\left(\\frac{z_1^k z_2}{2\\mathrm{i}}\\right)=\\pi$, find a value of $k$. [4 marks]\n(ii) Find an expression for the sum of the first 35 terms of the series\n$\\ln x^2+\\ln\\frac{x^2}{y}+\\ln\\frac{x^2}{y^2}+\\ln\\frac{x^2}{y^3}+\\dots$\ngiving your answer in the form $\\ln\\frac{x^m}{y^n}$, where $m, n\\in\\mathbb{N}$. [5 marks]"
+  },
+  "4": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.18",
+    "1.7"
+   ],
+   "text_clean": "4. [Maximum mark: 10]\nThe temperature $T$ °C of an object in a room, after $t$ minutes, satisfies the differential equation\n$\\frac{\\mathrm{d}T}{\\mathrm{d}t}=k(T-22)$, where $k$ is a constant.\n(a) Solve this equation to show that $T=A\\mathrm{e}^{kt}+22$, where $A$ is a constant. [3 marks]\n(b) When $t=0$, $T=100$, and when $t=15$, $T=70$.\n(i) Use this information to find the value of $A$ and of $k$.\n(ii) Hence find the value of $t$ when $T=40$. [7 marks]"
+  },
+  "5": {
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.9",
+    "3.6",
+    "1.15"
+   ],
+   "text_clean": "5. [Maximum mark: 19]\n(a) Show that $\\cos(A+B)+\\cos(A-B)=2\\cos A\\cos B$. [2 marks]\n(b) Let $T_n(x)=\\cos(n\\arccos x)$ where $x$ is a real number, $x\\in[-1,1]$ and $n$ is a positive integer.\n(i) Find $T_1(x)$.\n(ii) Show that $T_2(x)=2x^2-1$. [5 marks]\n(c) (i) Use the result in part (a) to show that $T_{n+1}(x)+T_{n-1}(x)=2xT_n(x)$.\n(ii) Hence or otherwise, prove by induction that $T_n(x)$ is a polynomial of degree $n$. [12 marks]"
+  },
+  "6": {
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L7",
+    "4.L1",
+    "4.L6",
+    "4.L5",
+    "5.8"
+   ],
+   "text_clean": "6. [Maximum mark: 30]\n(i) Carlos drives to work every morning. He records the times taken, in minutes, to complete the journey over a 10-day period. The times are as follows:\n32.6 30.9 35.8 34.3 36.3 31.9 33.2 32.7 31.3 32.8\nAssuming that these times form a random sample from a normal population, calculate\n(a) unbiased estimates of the mean and variance of this population; [3 marks]\n(b) a 90% confidence interval for the mean. [3 marks]\n(ii) Students studying mathematics at a certain college took an examination at the end of the first term. Their performance was classified as \"Distinction\", \"Pass\" or \"Fail\". The numbers of male and female students in each category are given in the table below.\n| | Distinction | Pass | Fail |\n| Male | 26 | 75 | 12 |\n| Female | 28 | 42 | 10 |\nThe head of the mathematics department wishes to investigate whether or not there is any association between the classification obtained in the examination and gender.\n(a) State the null hypothesis. [1 mark]\n(b) Calculate the six expected frequencies under the null hypothesis. [4 marks]\n(c) Calculate the value of $\\chi^2$. [2 marks]\n(d) Write down the number of degrees of freedom and state your conclusion at the 5% level of significance. [3 marks]\n(iii) A motoring organisation wished to determine whether or not there is any difference between the petrol consumption of two car models of the same engine size. A trial was set up in which a number of cars of these models were given 5 litres of petrol and driven around a level track until they ran out of petrol. The distances covered, in kilometres, by each car were recorded and the following statistics were obtained.\n| Car Model | Number of cars tested | Mean distance | Unbiased variance estimate |\n| A | 30 | 64.27 | 4.85 |\n| B | 32 | 65.51 | 5.38 |\n(a) State the null hypothesis. [1 mark]\n(b) Assuming that these observations come from normal populations with equal variance, calculate the pooled estimate of this variance. [2 marks]\n(c) Determine whether or not the results are significant at\n(i) the 5% level;\n(ii) the 1% level. [4 marks]\n(iv) The random variable $X$ has a Poisson distribution with mean $\\lambda$. Let $p$ be the probability that $X$ takes the value 1 or 2.\n(a) Write down an expression for $p$. [1 mark]\n(b) Sketch the graph of $p$ for $0\\le\\lambda\\le 4$. [1 mark]\n(c) Find the exact value of $\\lambda$ for which $p$ is a maximum. [5 marks]"
+  },
+  "7": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.2",
+    "7.5",
+    "7.6",
+    "7.1",
+    "1.L1",
+    "7.8"
+   ],
+   "text_clean": "7. [Maximum mark: 30]\n(i) The difference, $A-B$, of two sets $A$ and $B$ is defined as the set of all elements of $A$ which do not belong to $B$.\n(a) Show by means of a Venn diagram that $A-B=A\\cap B'$. [1 mark]\n(b) Using set algebra, prove that $A-(B\\cup C)=(A-B)\\cap(A-C)$. [4 marks]\n(ii) The relation $R$ is defined on the non-negative integers $a$, $b$ such that $aRb$ if and only if\n$7^a\\equiv 7^b \\pmod{10}$.\n(a) Show that $R$ is an equivalence relation. [4 marks]\n(b) By considering powers of 7, identify the equivalence classes. [4 marks]\n(c) Find the value of $7^{503}$ (modulo 10). [1 mark]\n(iii) Let $S$ be the set of all $(2\\times 2)$ non-singular matrices each of whose elements is either 0 or 1. Two matrices belonging to $S$ are\n$\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$ and $\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}$.\n(a) Write down the other four members of $S$. [4 marks]\n(b) You are given that $S$ forms a group under matrix multiplication, when the elements of the matrix product are calculated modulo 2.\n(i) Find the order of all the members of $S$ whose determinant is negative.\n(ii) Hence find a subgroup of $S$ of order 3. [6 marks]\n(iv) The group $(G,*)$ is defined on the set $\\{e,a,b,c\\}$, where $e$ denotes the identity element. Prove that $a*b=b*a$. [6 marks]"
+  },
+  "8": {
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8",
+    "6.10",
+    "1.15",
+    "6.7"
+   ],
+   "text_clean": "8. [Maximum mark: 30]\n(i) Find the general solution of the difference equation,\n$x_{n+2}=3x_{n+1}+28x_n$, $x_0=7$, $x_1=-6$, for $n=0,1,2,\\dots$. [5 marks]\n(ii) (a) Define the following terms.\n(i) A bipartite graph.\n(ii) An isomorphism between two graphs, $M$ and $N$. [4 marks]\n(b) Prove that an isomorphism between two graphs maps a cycle of one graph into a cycle of the other graph. [3 marks]\n(c) The graphs $G$, $H$ and $J$ are drawn below.\n[Diagram: three graphs on 6 vertices each. G: hexagon-shaped vertex arrangement with outer edges and three crossing chords forming two interlaced triangles shape; H: outer trapezium with an inner horizontal edge joining two inner vertices and two crossing diagonals; J: rectangle with two inner vertices joined horizontally, each joined to two corners]\n(i) Giving a reason, determine whether or not $G$ is a bipartite graph.\n(ii) Giving a reason, determine whether or not there exists an isomorphism between graphs $G$ and $H$.\n(iii) Using the result in part (b), or otherwise, determine whether or not graph $H$ is isomorphic to graph $J$. [7 marks]\n(iii) The following diagram shows a weighted graph.\n[Diagram: weighted graph on vertices A, B, C, D, E, F with edges EC = 85, EF = 21, FC = 98, ED = 70, FA = 51, AD = 62, AC = 31, CD = 11, CB = 30, DB = 25, AB = 93]\n(a) Use Kruskal's algorithm to find a minimal spanning tree for the graph. [4 marks]\n(b) Draw the minimal spanning tree and find its weight. [2 marks]\n(iv) (a) State the well-ordering principle. [2 marks]\n(b) Use the well-ordering principle to prove that, given any two positive integers $a$ and $b$, $(a<b)$, there exists a positive integer $n$ such that $na>b$. [3 marks]"
+  },
+  "9": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.19",
+    "5.6",
+    "2.10"
+   ],
+   "text_clean": "9. [Maximum mark: 30]\n(i) Find the Maclaurin series of the function\n$f(x)=\\ln(1+\\sin x)$\nup to and including the term in $x^4$. [8 marks]\n(ii) (a) Use the trapezium rule with three ordinates to estimate the value of the integral\n$\\int_{0.5}^{1}\\sin(x^2)\\,\\mathrm{d}x$.\nGive your answer correct to six decimal places. [2 marks]\n(b) Calculate an upper bound for the error in this estimate. [5 marks]\n(c) Find the value of this integral to six decimal places. Verify that the error is less than your upper bound. [2 marks]\n(iii) Consider the equation $2\\sin x-x=0$.\n(a) By drawing a suitable sketch, determine the number of real roots of this equation. [2 marks]\n(b) Find the value, $\\alpha$, of the root between 1 and 2, giving your answer to the accuracy displayed on your calculator. [1 mark]\n(c) Using the Newton-Raphson method, with $x_0=2$, find successive approximations $x_1$ and $x_2$ to this root of the equation. Give your answers to the accuracy displayed on your calculator. [4 marks]\n(d) You are given that successive approximations satisfy, approximately, the equation\n$(x_{n+1}-\\alpha)=k(x_n-\\alpha)^N$, $(n\\ge 0)$\nwhere $k$ is a constant and $N$ is a positive integer. By putting $n=0$ and then $n=1$ and substituting your results from part (c), determine the value of $N$. Hence state the order of convergence of the Newton-Raphson method. [6 marks]"
+  },
+  "10": {
+   "topics": [
+    "8",
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "8.2",
+    "8.1",
+    "2.1",
+    "5.14"
+   ],
+   "text_clean": "10. [Maximum mark: 30]\n(i) The focus of the parabola $C$ is the point $F(a,b)$ and the equation of the directrix is $x=-a$.\n(a) (i) Find the equation of $C$ from first principles.\n(ii) Sketch $C$, marking the focus, directrix, axis of symmetry and vertex. [6 marks]\n(b) The point P with $x$-coordinate $\\frac{3a}{2}$ lies on the upper half of $C$. The tangent to $C$ at P intersects the axis of symmetry of $C$ at the point Q. The line through the vertex V of $C$ perpendicular to the tangent (PQ) intersects (PQ) at the point R. Prove that $\\mathrm{PR}:\\mathrm{RQ}=7:3$. [12 marks]\n(c) The line through F parallel to (VR) intersects the line (PQ) at the point S. Find the coordinates of S. [4 marks]\n(ii) The diagram shows a square ABCD of side $a$. A circle, centre O, radius $r$, passes through the vertices A and B. The length of the tangent to the circle from D is $2a$.\n[Diagram: square ABCD of side a with A, B on a circle centred O; tangent from D touches the circle at T, DT = 2a]\nFind an expression for $r$ in terms of $a$. [8 marks]"
+  }
+ }
+}

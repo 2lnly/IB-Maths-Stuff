@@ -1,0 +1,125 @@
+{
+ "exam_id": "math-1999-N-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.15",
+    "1.12",
+    "1.14",
+    "3.5"
+   ],
+   "text_clean": "1. [Maximum mark: 22]\n(i) (a) Evaluate $(1+i)^2$, where $i=\\sqrt{-1}$. [2 marks]\n(b) Prove, by mathematical induction, that $(1+i)^{4n}=(-4)^n$, where $n \\in \\mathbb{N}^*$. [6 marks]\n(c) Hence or otherwise, find $(1+i)^{32}$. [2 marks]\n(ii) Let $z_1=\\frac{\\sqrt{6}-i\\sqrt{2}}{2}$, and $z_2=1-i$.\n(a) Write $z_1$ and $z_2$ in the form $r(\\cos\\theta+i\\sin\\theta)$, where $r>0$ and $-\\frac{\\pi}{2}\\le\\theta\\le\\frac{\\pi}{2}$. [6 marks]\n(b) Show that $\\frac{z_1}{z_2}=\\cos\\frac{\\pi}{12}+i\\sin\\frac{\\pi}{12}$. [2 marks]\n(c) Find the value of $\\frac{z_1}{z_2}$ in the form $a+bi$, where $a$ and $b$ are to be determined exactly in radical (surd) form. Hence or otherwise find the exact values of $\\cos\\frac{\\pi}{12}$ and $\\sin\\frac{\\pi}{12}$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.16",
+    "3.17",
+    "3.14",
+    "3.12"
+   ],
+   "text_clean": "2. [Maximum mark: 21]\nConsider the points A(1, 2, 1), B(0, −1, 2), C(1, 0, 2), and D(2, −1, −6).\n(a) Find the vectors $\\vec{AB}$ and $\\vec{BC}$. [2 marks]\n(b) Calculate $\\vec{AB}\\times\\vec{BC}$. [3 marks]\n(c) Hence, or otherwise find the area of triangle ABC. [2 marks]\n(d) Find the equation of the plane $P$ containing the points A, B, and C. [3 marks]\n(e) Find a set of parametric equations for the line through the point D and perpendicular to the plane $P$. [2 marks]\n(f) Find the distance from the point D to the plane $P$. [3 marks]\n(g) Find a unit vector which is perpendicular to the plane $P$. [2 marks]\n(h) The point E is a reflection of D in the plane $P$. Find the coordinates of E. [4 marks]",
+   "answer_status": "ok",
+   "note": "Markscheme crop omits the final 'Total [21 marks]' line (trimmed by segmenter); all part marks present. | fixed by segmenter update: the line noted above as missing is now in the crop"
+  },
+  "3": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.11",
+    "5.6",
+    "5.8",
+    "5.2",
+    "5.4",
+    "1.3"
+   ],
+   "text_clean": "3. [Maximum mark: 20]\nConsider the function $f_k(x)=\\begin{cases} x\\ln x-kx, & x>0 \\\\ 0, & x=0\\end{cases}$, where $k\\in\\mathbb{N}$.\n(a) Find the derivative of $f_k(x)$, $x>0$. [2 marks]\n(b) Find the interval over which $f_0(x)$ is increasing. [2 marks]\nThe graph of the function $f_k(x)$ is shown below.\n[Graph: curve $y=f_k(x)$ starting at the origin O, dipping below the x-axis to a minimum and crossing the x-axis again at A; a straight line tangent to the curve at A meets the negative y-axis]\n(c) (i) Show that the stationary point of $f_k(x)$ is at $x=e^{k-1}$.\n(ii) One x-intercept is at (0, 0). Find the coordinates of the other x-intercept. [4 marks]\n(d) Find the area enclosed by the curve and the x-axis. [5 marks]\n(e) Find the equation of the tangent to the curve at A. [2 marks]\n(f) Show that the area of the triangular region created by the tangent and the coordinate axes is twice the area enclosed by the curve and the x-axis. [2 marks]\n(g) Show that the x-intercepts of $f_k(x)$ for consecutive values of $k$ form a geometric sequence. [3 marks]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.8",
+    "5.16"
+   ],
+   "text_clean": "4. [Maximum marks: 17]\nThe continuous random variable $X$ has probability density function $f(x)$ where\n$f(x)=\\begin{cases} e-ke^{kx}, & 0\\le x\\le 1 \\\\ 0, & \\text{otherwise}\\end{cases}$\n(a) Show that $k=1$. [3 marks]\n(b) What is the probability that the random variable $X$ has a value that lies between $\\frac{1}{4}$ and $\\frac{1}{2}$? Give your answer in terms of e. [2 marks]\n(c) Find the mean and variance of the distribution. Give your answers exactly, in terms of e. [6 marks]\nThe random variable $X$ above represents the lifetime, in years, of a certain type of battery.\n(d) Find the probability that a battery lasts more than six months. [2 marks]\nA calculator is fitted with three of these batteries. Each battery fails independently of the other two. Find the probability that at the end of six months\n(e) none of the batteries has failed; [2 marks]\n(f) exactly one of the batteries has failed. [2 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.6",
+    "7.8",
+    "7.4",
+    "7.7"
+   ],
+   "text_clean": "5. [Maximum mark: 40]\n(i) Consider the set $U=\\{1, 3, 5, 9, 11, 13\\}$ under the operation $*$, where $*$ is multiplication modulo 14. (In all parts of this problem, the general properties of multiplication modulo $n$ may be assumed.)\n(a) Show that $(3*9)*13=3*(9*13)$. [2 marks]\n(b) Show that $(U, *)$ is a group. [11 marks]\n(c) (i) Define a cyclic group. [2 marks]\n(ii) Show that $(U, *)$ is cyclic and find all its generators. [7 marks]\n(d) Show that there are only two non-trivial proper subgroups of this group, and find them. [7 marks]\n(ii) Consider a group $(G, \\circ)$ with identity $e$. Suppose that $H$ is a subset of $G$ such that $H=\\{x\\in G: x\\circ a=a\\circ x, \\text{ for all } a\\in G\\}$.\nShow that $(H, \\circ)$ is a subgroup of $(G, \\circ)$, by showing that\n(a) $e\\in H$; [2 marks]\n(b) if $x, y\\in H$, then $x\\circ y\\in H$, [i.e. show that $(x\\circ y)\\circ a=a\\circ(x\\circ y)$]; [5 marks]\n(c) if $x\\in H$, then $x^{-1}\\in H$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.11",
+    "6.8",
+    "6.6"
+   ],
+   "text_clean": "6. [Maximum mark: 40]\n(i) The network of cities in a certain region served by an airline is shown in the following diagram, with edges representing direct connections.\n[Diagram: graph on cities A, B, C, D, E, F with edges A–B, A–F, B–C, C–F, C–D, E–F, F–D]\n(a) Copy and complete the table below which shows the least number of edges connecting each pair of cities in this network. (Such a table gives the least number of stops required between cities in this region.) [4 marks]\n[Table: 6×6 grid with rows and columns A, B, C, D, E, F; entry (B, C) = 1 and (E, D) = 2 given, others blank]\n(b) The accessibility index is used to determine how easy it is to get to a particular city. To calculate the accessibility index for a given city, the total of each column is divided by the degree of the vertex representing it. The most accessible city is the one with the smallest accessibility index, and the least accessible city has the largest accessibility index.\n(i) Which city in this region is the most accessible and which city is the least accessible? Give your reasons. [4 marks]\n(ii) A new flight is added between cities A and C. With this change, which city is the most accessible and which city is the least accessible? Show your working. [3 marks]\n(ii) Below are two graphs U and V with 8 vertices each.\n[Diagram: graph U — vertices 1–8 on an octagon with the cycle 1-2-3-4-5-6-7-8-1 plus chords 1–4, 2–7, 3–6, 5–8; graph V — vertices A, B, C, D on top and E, F, G, H on bottom with crossing edges between the rows]\n(a) Set up an adjacency matrix for graph U. [3 marks]\n(b) By setting up an appropriate adjacency matrix for V, show that the two graphs are isomorphic. [6 marks]\n(c) Determine whether V is planar. [4 marks]\n(iii) In this part, marks will only be awarded if you show the correct application of the required algorithms, and show all your working.\nIn an offshore drilling site for a large oil company, the distances between the planned wells are given below in metres.\n[Table: lower-triangular distance table, wells 1–11]\n2: 30\n3: 40, 60\n4: 90, 190, 130\n5: 80, 200, 10, 160\n6: 70, 40, 20, 40, 130\n7: 60, 120, 50, 90, 30, 60\n8: 50, 140, 90, 70, 140, 70, 40\n9: 40, 170, 140, 60, 50, 90, 50, 70\n10: 200, 80, 150, 110, 90, 30, 190, 90, 100\n11: 150, 30, 200, 120, 190, 120, 60, 190, 150, 200\n(a) It is intended to construct a network of paths to connect the different wells in a way that minimises the sum of the distances between them. Use Prim's algorithm to find a network of paths of minimum total length that can span the whole site. [8 marks]\n(b) Pipes are laid under water. Well 1 has the largest amount of oil to be pumped per day, and Well 11 is designed to be the main transportation hub. The only possible connections to be made between wells are shown in the diagram below.\n[Diagram: network of wells 1–11 showing the possible pipe connections]\nThe associated cost for each pipe, in 100-thousand dollar figures, are given in the table below. Use Dijkstra's algorithm to find the path with minimum cost that can transport oil from Well 1 to Well 11. [8 marks]\n[Table: lower-triangular cost table, wells 1–11 (blank = no connection)]\n2: 6 (from 1)\n3: 3 (from 1)\n4: 8 (from 1), 7 (from 2), 2 (from 3)\n5: 14 (from 2), 12 (from 3), 6 (from 4)\n6: 16 (from 2), 19 (from 3), 7 (from 5)\n7: 24 (from 4), 20 (from 5), 29 (from 6)\n8: 23 (from 5), 15 (from 6)\n9: 56 (from 5), 30 (from 6), 41 (from 7), 50 (from 8)\n10: 42 (from 7), 25 (from 8), 40 (from 9)\n11: 32 (from 9), 22 (from 10)",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L6",
+    "4.9",
+    "4.12",
+    "4.L7",
+    "4.L5"
+   ],
+   "text_clean": "7. [Maximum mark: 40]\n(i) An automated coffee machine is set to dispense coffee into cups. The amount of coffee dispensed by the machine into each cup can be regarded as being normally distributed, with a mean of 330 ml and standard deviation of 6 ml.\n(a) What is the probability that the amount of coffee dispensed into a cup exceeds 327 ml? [2 marks]\n(b) What amount is exceeded by 95 % of the cups? [3 marks]\nThe vendor of this machine suspects that the machine is dispensing more than the desired amount. For that purpose, she collects data about 60 cups and finds that the average amount per cup was 332 ml.\n(c) What is the probability that this machine with its current settings can give a sample with average 332 ml or higher? [3 marks]\n(d) Hence or otherwise, test at the 5 % level of significance, the vendor's hypothesis that the machine is dispensing more than the desired amount of 330 ml. [3 marks]\nStill not convinced of the results, the vendor asks one of her managers to measure the amount of coffee in a random sample of 25 other cups. The results were as follows:\n334.993 342.237 327.654 336.643 326.982\n342.208 329.612 336.626 338.207 329.834\n330.679 331.704 330.974 334.564 324.996\n331.612 341.288 318.524 333.665 335.889\n324.537 337.487 335.379 330.758 332.540\n(e) Given that this sample has a mean of 332.78 ml (correct to 2 decimal places), find a 95 % confidence interval for the true population mean. Give your answer correct to 2 decimal places. [4 marks]\n(f) Hence or otherwise test, at the 5 % level of significance, the hypothesis that the machine is not dispensing the required amount. [2 marks]\n(g) Another objective of this second exercise is to determine whether the proportion of cups that are overfilled is more than 0.5. Find a 95 % confidence interval for the true proportion of cups that have more coffee than the vendor desires. [4 marks]\n(ii) In an effort to study the level of intelligence of students entering college, a psychologist collected data from 4000 students who were given a standard test. The predictive norms for this particular test were computed from a very large population of scores having a normal distribution with mean 100 and standard deviation of 10. The psychologist wishes to determine whether the 4000 test scores he obtained also came from a normal distribution with mean 100 and standard deviation 10. He prepared the following table (Expected frequencies are rounded to the nearest integer):\nScore | observed frequencies | expected frequencies\n$\\le 70.5$ | 20 | 6\n70.5–80.5 | 90 | 96\n80.5–90.5 | 575 | \n90.5–100.5 | 1282 | \n100.5–110.5 | 1450 | \n110.5–120.5 | 499 | 507\n120.5–130.5 | 80 | 76\n$\\ge 130.5$ | 4 | 4\n(a) Copy and complete the table, showing how you arrived at your answers. [5 marks]\n(b) Test the hypothesis at the 5 % level of significance. [6 marks]\n(iii) The International Medical Association claims that the proportion of people who do not suffer from colds during the winter months is higher for those who received flu immunisation injections than those who do not have flu immunisation injections. The following table gives data collected from a random sample of 100 people.\n | No flu immunisation injections | Flu immunisation injections\nColds | 35 | 5\nNo colds | 45 | 15\nDoes the claim appear to be justified at the 5 % level of significance? [8 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L1",
+    "5.19",
+    "5.16",
+    "5.11",
+    "5.6",
+    "5.12"
+   ],
+   "text_clean": "8. [Maximum mark: 40]\n(i) Consider the function $f(x)=2x^3-15x^2+36x-26$.\n(a) Evaluate $f(1)$ and $f(2)$. [2 marks]\n(b) Find $f'(x)$. [1 mark]\n(c) Show that $f(x)$ has exactly one zero for $1<x<2$. [3 marks]\n(d) Use the Newton-Raphson method to estimate this zero, giving your answer correct to 3 decimal places. Take $x_0=1.5$ as a first estimate. [4 marks]\n(e) Write the equation $2x^3-15x^2+36x-26=0$ in the form $x=g(x)=\\sqrt[3]{h(x)}$, where $h(x)$ is to be determined. Then use three iterations of $x_{n+1}=g(x_n)$ with $x_0=1.5$ to approximate the zero of this function. [4 marks]\n(ii) Discuss the convergence or divergence of the following series:\n(a) $\\sum_{n=0}^{\\infty}\\frac{n^2 2^{n+1}}{3^n}$ [4 marks]\n(b) $\\sum_{n=1}^{\\infty}\\frac{n^{k-1}}{n^k+k}$, $k$ is a positive integer. [5 marks]\n(iii) (a) Consider the function $f(x)=\\sqrt{2-x^2}$. Show that $f''(x)=\\frac{2}{(x^2-2)\\sqrt{2-x^2}}$. [3 marks]\n(b) The third and fourth derivatives of $f(x)$ with respect to $x$ are given by: $f'''(x)=\\frac{-6x}{(x^2-2)^2\\sqrt{2-x^2}}$ and $f^{(4)}(x)=\\frac{12(2x^2+1)}{(x^2-2)^3\\sqrt{2-x^2}}$.\nUse Maclaurin's series to expand $f(x)$, and to show that $\\sqrt{2-x^2}\\approx\\sqrt{2}\\left(1-\\frac{x^2}{4}+kx^4\\right)$. Find the value of $k$. [5 marks]\n(c) Hence or otherwise show that the value of $\\int_0^1 x^2\\sqrt{2-x^2}\\,dx$ is approximately 0.39438. [4 marks]\n(d) Use the substitution $x=\\sqrt{2}\\sin\\theta$ to show that the exact value of $\\int_0^1 x^2\\sqrt{2-x^2}\\,dx$ is $\\frac{\\pi}{8}$. Hence find an approximation of $\\pi$ to 4 decimal places. [5 marks]",
+   "answer_status": "ok",
+   "note": "audit: Newton-Raphson + fixed-point (i) carries most marks"
+  }
+ },
+ "exam_note": "Markscheme crops re-done via overrides (auto segmentation had misaligned ms boundaries)."
+}

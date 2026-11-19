@@ -1,0 +1,482 @@
+{
+ "exam_id": "math-2006-M-P3",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2006,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2006 May Examination Session/Mathematics_paper_3_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2006 May Examination Session/Mathematics_paper_3_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2206-7206; code M06/5/MATHL/HP3/ENG/TZ0/XX; each option section sums to 60",
+ "qp_pages": 11,
+ "questions": [
+  {
+   "id": "math-2006-M-P3-qA1",
+   "num": "A1",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "qA1.webp",
+   "ms_image": "qA1_ms.webp",
+   "text": "1. [Maximum mark: 8]\nA drug company claims that a new drug cures 75 % of patients suffering from a\ncertain disease. However, a medical committee believes that less than 75 %\nare cured. To test the drug company’s claim, a trial is carried out in which 100 patients\nsuffering from the disease are given the new drug. It is found that 68 of these patients\nare cured.\n(a) State suitable hypotheses. [2 marks]\n(b) Find the p-value of your test. [4 marks]\n(c) State your conclusion using a significance level of\n(i) 10 % ;\n(ii) 1 % . [2 marks]",
+   "ms_text": "= < 1. (a) H: p 0.75 H: p 0.75 A1A1\n0 1\n[2 marks]\n(b) EITHER\nUnder H, number of patients (X) cured is B(100, 0.75) (M1)(A1)\n0\np-value = P( X ≤ 68) = 0.0693 (M1)A1\nOR\n⎛ 0.75 × 0.25 ⎞\nUnder H, the proportion cured is approximately N0.75, ⎜ ⎟ (M1)(A1)\n0\n⎝ 100 ⎠\np-value = 0.0530 (M1)A1\n[4 marks]\n(c) (i) Accept H. A1\n1\n(ii) Accept H. A1\n0\nNote: Allow FT on incorrect p-value, but award A1A0 if both conclusions are the same.\n[2 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "1. [Maximum mark: 8]\nA drug company claims that a new drug cures 75 % of patients suffering from a certain disease. However, a medical committee believes that less than 75 % are cured. To test the drug company's claim, a trial is carried out in which 100 patients suffering from the disease are given the new drug. It is found that 68 of these patients are cured.\n(a) State suitable hypotheses. [2 marks]\n(b) Find the $p$-value of your test. [4 marks]\n(c) State your conclusion using a significance level of\n(i) 10 %;\n(ii) 1 %. [2 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qA2",
+   "num": "A2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "qA2.webp",
+   "ms_image": "qA2_ms.webp",
+   "text": "2. [Maximum mark: 12]\nA scientific expedition discovers a large colony of birds. The weights x kg of a random\nsample of 200 of these birds are measured and the following results obtained:\n2\n∑ x = 224 4 ., ∑ ( x − x ) = 5 823 .\n(a) Calculate unbiased estimates of the mean µ and the variance σ2 of the weights\nof these birds. [4 marks]\n(b) Find a 95 % confidence interval for µ. [6 marks]\n(c) State, with a reason, whether or not your answer requires the assumption that the\nweights are normally distributed. [2 marks]",
+   "ms_text": "224.4\nx= = 2. (a) 1.12(2) (M1)A1\n200\n5.823 2\nns−= = 0.0293 (M1)A1\n1\n199\nNote: (M1) depends on correct use of 199.\n[4 marks]\n(b) 95 % confidence limits are\n⎛ ⎞ 0.0292... 0.0292...\n1.12(2) ± 1.96 ⎜ or1.12(2) ± 1.97 ⎟ M1A1A1A1\n⎜ ⎟ 200 200\n⎝ ⎠\nNote: Award M1 for correct form, A1 for 1.12(2), A1 for 1.96 or 1.97, A1 for correct SE.\nleading to [1.10, 1.15] A1A1 N6\n[6 marks]\n(c) No A1\nThe Central Limit Theorem ensures the (approximate) normality ofX. R1\n[2 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.L6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "2. [Maximum mark: 12]\nA scientific expedition discovers a large colony of birds. The weights $x$ kg of a random sample of 200 of these birds are measured and the following results obtained:\n$\\sum x = 224.4,\\ \\sum (x-\\bar{x})^2 = 5.823$\n(a) Calculate unbiased estimates of the mean $\\mu$ and the variance $\\sigma^2$ of the weights of these birds. [4 marks]\n(b) Find a 95 % confidence interval for $\\mu$. [6 marks]\n(c) State, with a reason, whether or not your answer requires the assumption that the weights are normally distributed. [2 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qA3",
+   "num": "A3",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "qA3.webp",
+   "ms_image": "qA3_ms.webp",
+   "text": "3. [Maximum mark: 9]\nSarah cycles to work and she believes that the mean time taken to complete her journey\nis 30 minutes. To test her belief, she records the times (in minutes) taken to complete\nher journey over a 10-day period as follows:\n30.1 32.3 33.6 29.8 28.9 30.6 31.1 30.2 32.1 29.4\nYou may assume that the journey times are normally distributed with mean µ minutes.\n(a) State suitable hypotheses. [2 marks]\n(b) Test Sarah’s belief, at the 5 % significance level. [5 marks]\n(c) Justify your choice of test. [2 marks]",
+   "ms_text": "3. (a) H: µ = 30 H: µ ≠ 30 A1A1\n0 1\n[2 marks]\n(b) EITHER\nt = 1.75 (A2)\np-value = 0.114 or critical value = 2.26(2) A2\nAccept H or equivalent. A1 N0\n0\nNote: Allow FT on incorrect p-value or critical value.\nOR\n1.46...\n95 % confidence interval is 30.8(1) ± 2.26(2) × (A1)(A1)(A1)\n10\n[29.8, 31.9] A1\nAccept H or equivalent. A1 N0\n0\nNote: Allow FT on incorrect confidence interval.\n[5 marks]\n(c) (I used a t-test because)\nThe population is normal. R1\nThe variance is unknown. R1\n[2 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "3. [Maximum mark: 9]\nSarah cycles to work and she believes that the mean time taken to complete her journey is 30 minutes. To test her belief, she records the times (in minutes) taken to complete her journey over a 10-day period as follows:\n30.1  32.3  33.6  29.8  28.9  30.6  31.1  30.2  32.1  29.4\nYou may assume that the journey times are normally distributed with mean $\\mu$ minutes.\n(a) State suitable hypotheses. [2 marks]\n(b) Test Sarah's belief, at the 5 % significance level. [5 marks]\n(c) Justify your choice of test. [2 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qA4",
+   "num": "A4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "qA4.webp",
+   "ms_image": "qA4_ms.webp",
+   "text": "4. [Maximum mark: 14]\nBuses arrive at a bus-stop T minutes apart, where T may be assumed to have an\nexponential distribution with probability density function\nt\n1 −\n10 ft () = e for t ≥0 .\n10\n(a) Show that\nt\n−e (i) P( T > t ) = 10;\ns\n−\n(ii) P ( T ≤+ t sT > t )=− 1 e 10, where s > 0. [10 marks]\n(b) Bill arrives at the bus-stop five minutes after the previous bus arrived at the\nbus-stop. Find the probability that the next bus arrives within 10 minutes of his\narrival at the bus-stop. [4 marks]",
+   "ms_text": "x ∞ 1 −\n4. (a) (i) P( T > t ) =∫ e 10 d x M1A1\nt 10\n∞ x\n⎡ − ⎤\n10 = −⎢ e ⎥ A1\n⎣ ⎦ t\nt −\n= e 10 AG\n[ ≤+ ∩ > ] P( T t s ) ( T t )\n( ≤+ > ) = (ii) P T t sT t (M1)(A1)\nP( T > t )\nP( t < T ≤+ t s )\n= (A1)\nP( T > t )\nx\nts + 1 −\nNumerator = ∫ e 10 d x A1\nt 10\nts +\n⎡ x ⎤ −\n=− 10 ⎢ e ⎥ A1\n⎣ ⎦ t\nt ( ts + ) − −\n10 10 = e − e A1\nt ⎛ s ⎞ − −\n10 − 10 e ⎜ 1 e ⎟\n⎝ ⎠\n( ) ∴ P T ≤+ t sT > t = A1\nt −\n10 e\ns −\n=− 10 1 e AG N0\n[10 marks]\n(b) Here, t = 5 and s = 10 (A1)(A1)\n( ) − 1 P T ≤ 15 T > 5 =− 1 e (0.632) = M1A1 N2\n[4 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.11",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "4. [Maximum mark: 14]\nBuses arrive at a bus-stop $T$ minutes apart, where $T$ may be assumed to have an exponential distribution with probability density function\n$f(t) = \\frac{1}{10}e^{-\\frac{t}{10}}$ for $t \\ge 0$.\n(a) Show that\n(i) $P(T > t) = e^{-\\frac{t}{10}}$;\n(ii) $P(T \\le t+s \\mid T > t) = 1 - e^{-\\frac{s}{10}}$, where $s > 0$. [10 marks]\n(b) Bill arrives at the bus-stop five minutes after the previous bus arrived at the bus-stop. Find the probability that the next bus arrives within 10 minutes of his arrival at the bus-stop. [4 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qA5",
+   "num": "A5",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "qA5.webp",
+   "ms_image": "qA5_ms.webp",
+   "text": "5. [Maximum mark: 17]\nThe random variable X is thought to have a geometric distribution with probability\nmass function\n− + P( X = x ) = p ( 1 − px ) 1 for x∈\n¢,\nwhere p is an unknown parameter.\nThe value of X is recorded on 100 independent occasions with the following results.\nx Frequency\n1 45\n2 26\n3 16\n4 10\n5 or more 3\n(a) (i) Calculate the mean of these data.\nDeduce that the estimated value of p is 1\n(ii) [4 marks]\n2.\n(b) Calculate an appropriate value of χ2. Test, at the 5 % significance level,\nwhether or not these data can be modelled by a geometric distribution. [13 marks]",
+   "ms_text": "145...53 × + +×\n= = 5. (a) (i) Mean 2 A2\n100\nNote: The 5 or more row causes a problem in calculating the mean. The above\ncalculation assumes that all 3 values are equal to 5; this is not necessarily\nthe case. Allow candidates to assume any values greater than or equal to 5.\n(ii) The distribution is geometric so (M1)\n1 1\nEstimated p = = A1\nmean 2\n1\nNote: Award (M1)A1 for writing\ntheir mean.\n[4 marks]\n(b) Expected frequencies are\nx of ef\n1 45 50\n2 26 25\n3 16 12.5\n4 10 6.25\n5 or more 3 6.25 A1A1A1A1A1\n2 2 2 2 2 5 1 3.5 3.75 3.25\nχ= 2 + + + + (M1)(A1)\n50 25 12.5 6.25 6.25\n= 5.46 A1 N3\nNote: Allow FT from the values in the table.\nDF = 3 (A2)\nEITHER\nCritical value = 7.815 A1\nOR\np = 0.141 A1\nTHEN\nWe conclude, at the 5 % level, that the data fit the given distribution. R2\nNote: Allow FT for R2.\n[13 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "5. [Maximum mark: 17]\nThe random variable $X$ is thought to have a geometric distribution with probability mass function\n$P(X = x) = p(1-p)^{x-1}$ for $x \\in \\mathbb{Z}^+$,\nwhere $p$ is an unknown parameter.\nThe value of $X$ is recorded on 100 independent occasions with the following results.\nx | Frequency\n1 | 45\n2 | 26\n3 | 16\n4 | 10\n5 or more | 3\n(a) (i) Calculate the mean of these data.\n(ii) Deduce that the estimated value of $p$ is $\\frac{1}{2}$. [4 marks]\n(b) Calculate an appropriate value of $\\chi^2$. Test, at the 5 % significance level, whether or not these data can be modelled by a geometric distribution. [13 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qB1",
+   "num": "B1",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "qB1.webp",
+   "ms_image": "qB1_ms.webp",
+   "text": "1. [Maximum mark: 15]\nThe function f is defined by\nsin x\nf: ¡ → ¡ where fx () = e − 1.\n(a) Find the exact range, A , of f . [3 marks]\n(b) (i) Explain why f is not an injection.\n(ii) Giving a reason, state whether or not f is a surjection. [4 marks]\nsin x (c) The function g is now defined to be g : [ − kk , ] → A , where gx () = e − 1 and\nk> 0 .\n(i) Find the maximum value of k for which g is an injection.\nFor this value of k,\n−1 () ; (ii) find an expression for g x\n(iii) write down the domain of g−1. [8 marks]",
+   "ms_text": "1. (a) Because sin x takes values in the interval [1, − + 1] , (M1)\n− 1 A = [e − 1, e − 1] . A1A1 N3\nNote: Award A1A0 for an open interval with the exact values, or for [0.632, 1.72] − .\n[3 marks]\n(b) (i) Using for example f (0) = f () π= 0 or drawing a graph R1\nNote: Allow degrees instead of radians.\nEITHER\nf is not 1:1 R1\nOR\nfx () = fy () does not imply x = y R1\n(ii) It is not a surjection since it can only\n1 take values in [e −− 1, e − 1] (or equivalent reason). A1R1\n[4 marks]\nπ (or 90�).\n(c) (i) A2\nThe maximum value of k is 2\nsin x (ii) y = e − 1 M1\nsin x e =+ 1 y A1\nsin x = ln(1 + y ) A1\nx = arcsinln(1 + y ) A1\nNote: Allow two of the three above A1 marks to be implied.\n− so g 1() x = arcsinln(1 + x ) A1\n− 1 1 (iii) Domain of g is A or [e −− 1, e − 1] . A1\n[8 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "2"
+   ],
+   "subtopics": [
+    "7.3",
+    "2.2",
+    "2.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "1. [Maximum mark: 15]\nThe function $f$ is defined by\n$f: \\mathbb{R} \\to \\mathbb{R}$ where $f(x) = e^{\\sin x} - 1$.\n(a) Find the exact range, $A$, of $f$. [3 marks]\n(b) (i) Explain why $f$ is not an injection.\n(ii) Giving a reason, state whether or not $f$ is a surjection. [4 marks]\n(c) The function $g$ is now defined to be $g: [-k, k] \\to A$, where $g(x) = e^{\\sin x} - 1$ and $k > 0$.\n(i) Find the maximum value of $k$ for which $g$ is an injection.\nFor this value of $k$,\n(ii) find an expression for $g^{-1}(x)$;\n(iii) write down the domain of $g^{-1}$. [8 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qB2",
+   "num": "B2",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "qB2.webp",
+   "ms_image": "qB2_ms.webp",
+   "text": "2. [Maximum mark: 15]\nLet S={, 2468101214. The relation R is defined on S such that for , , , , , }\n2 2 ab , ∈ Sa Rb , if and only if a ≡ b (modulo 6).\n(a) Show that R is an equivalence relation. [6 marks]\n(b) Find all the equivalence classes. [9 marks]",
+   "ms_text": "2 2 (mod6) 2. (a) R is reflexive because a Ra since a ≡ a A1\nR is symmetric because a Rb ⇒ b Ra since a 2 ≡ b 2 (mod 6) ⇒ b 2 ≡ a 2 (mod6) A1\n2 − 2 = 2 − 2 = Let a Rb and bRc . It follows that a b 6 and m b c 6 n where\nm, n are integers. M1A1\n2 2 Then a − c = 6( m + n ) so a Rc so transitive. M1A1\n[6 marks]\n(b)\nx 2 (mod6) x\n2 4\n4 4\n6 0\n8 4\n10 4\n12 0\n14 4\nM1A4\nNote: Deduct 1 mark for each error.\nEquivalence classes are\n{2, 4, 8, 10, 14} (M1)A1\nand {6, 12} (M1)A1\n[9 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "6"
+   ],
+   "subtopics": [
+    "7.2",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "2. [Maximum mark: 15]\nLet $S = \\{2, 4, 6, 8, 10, 12, 14\\}$. The relation $R$ is defined on $S$ such that for $a, b \\in S$, $aRb$ if and only if $a^2 \\equiv b^2$ (modulo 6).\n(a) Show that $R$ is an equivalence relation. [6 marks]\n(b) Find all the equivalence classes. [9 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qB3",
+   "num": "B3",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "qB3.webp",
+   "ms_image": "qB3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nConsider the binary operation a divided by b defined on ¡+.Determine whether or not\neach of the four group axioms is satisfied. [7 marks]",
+   "ms_text": "∈�, a + + 3. Closure – yes because for , ab ∈�. A1\nb\n⎛ a ⎞\n⎜ ⎟\na ac ⎝ b ⎠ a\nAssociativity – consider = and = M1A1\n⎛ b ⎞ b c bc\n⎜ ⎟\n⎝ c ⎠\nThese are not equal so not associative A1\nNote: Accept a numerical counter example.\na 1\nIdentity – There is no identity because although = a , ≠ a in general. M1A1\n1 a\n(Or equivalent argument)\nInverse – Without an identity there can be no inverse. A1\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "3. [Maximum mark: 7]\nConsider the binary operation $a$ divided by $b$ defined on $\\mathbb{R}^+$. Determine whether or not each of the four group axioms is satisfied. [7 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qB4",
+   "num": "B4",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "qB4.webp",
+   "ms_image": "qB4_ms.webp",
+   "text": "4. [Maximum mark: 15]\nConsider the group G defined on the set S={, 124578 having the following , , , ,}\nCayley table.\n∗ 1 2 4 5 7 8\n1 1 2 4 5 7 8\n2 2 4 8 1 5 7\n4 4 8 7 2 1 5\n5 5 1 2 7 8 4\n7 7 5 1 8 4 2\n8 8 7 5 4 2 1\n(a) Explain what is meant by saying that this table is a Latin square. [1 mark]\n(b) Solve the equation\n2 ∗∗ x 7 = 4 where x ∈. S [4 marks]\n(c) (i) Show that G is cyclic and find the generators.\n(ii) List the proper subgroups of G. [10 marks]",
+   "ms_text": "4. (a) Each row and each column contains each element exactly once. R1\n[1 mark]\n(b) Use of a correct method (M1)\ne.g. pre and post multiply by the inverses of 2 and 7, namely 5 and 4\nor trial and error or use of Abelian property.\nx = ∗∗(or equivalent) 544 A1\n= 24 ∗ (or equivalent) A1\n= 8 A1 N2\n[4 marks]\n(c) (i) The group is cyclic AG\nbecause the element 2 (or 5) has order 6. M1A2\nSo 2 (or 5) is a generator. A1\n5 (or 2) is another generator. A1\nNo other elements are of order 6. R1\nNote : The two A1 marks for finding the generators and the R1 mark are not\ndependent upon the M1 mark being awarded.\n(ii) The proper subgroups are\n{1, 8} A2\n{1, 4, 7} A2\nNote: Ignore additional subgroups.\n[10 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.6",
+    "7.8",
+    "7.5",
+    "7.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "4. [Maximum mark: 15]\nConsider the group $G$ defined on the set $S = \\{1, 2, 4, 5, 7, 8\\}$ having the following Cayley table.\n* | 1 | 2 | 4 | 5 | 7 | 8\n1 | 1 | 2 | 4 | 5 | 7 | 8\n2 | 2 | 4 | 8 | 1 | 5 | 7\n4 | 4 | 8 | 7 | 2 | 1 | 5\n5 | 5 | 1 | 2 | 7 | 8 | 4\n7 | 7 | 5 | 1 | 8 | 4 | 2\n8 | 8 | 7 | 5 | 4 | 2 | 1\n(a) Explain what is meant by saying that this table is a Latin square. [1 mark]\n(b) Solve the equation $2 * x * 7 = 4$ where $x \\in S$. [4 marks]\n(c) (i) Show that $G$ is cyclic and find the generators.\n(ii) List the proper subgroups of $G$. [10 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qB5",
+   "num": "B5",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "qB5.webp",
+   "ms_image": "qB5_ms.webp",
+   "text": "5. [Maximum mark: 8]\n1 Suppose that G is a group and H is a non-empty subset of G. Show that if ab −∈ H\nwhenever ab , ∈ H then H is a subgroup of G. [8 marks]",
+   "ms_text": "5. Associativity in G⇒ associativity in H. A1\n1 Taking b = a ∈ H , it follows that aa −=∈ e H . M1A1\n− 1 Taking a =∈ e H , it follows that for b ∈ Hb , ∈ H . M1A1\n− For , ab ∈ H , we know that b −∈ 1 H so that ab ( 1 ) −= 1 ab ∈ H . M1A1\nThe group axioms are satisfied so H is a subgroup. R1\nNotes: The R1 mark can only be given if all three M1s are awarded.\nThe consideration of associativity is not necessary for R1.\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.8",
+    "7.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "5. [Maximum mark: 8]\nSuppose that $G$ is a group and $H$ is a non-empty subset of $G$. Show that if $ab^{-1} \\in H$ whenever $a, b \\in H$ then $H$ is a subgroup of $G$. [8 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qC1",
+   "num": "C1",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "qC1.webp",
+   "ms_image": "qC1_ms.webp",
+   "text": "1. [Maximum mark: 9]\ny y + 2\nGiven that d =\n1 and y =1 when x = 0 , use Euler’s method with interval\nd x xy +\nh = 0 5. to find an approximate value of y when x =1. [9 marks]",
+   "ms_text": "y At (0, 1) d\n1. 3 (M1)(A1) x=\nd\nIncrement =× 30.5 (1.5) = M1A1\ny = 2.5 (at x = 0.5 ) M1A1\nd y\nAt (0.5, 2.5), 2 (A1) x=\nd\nIncrement = 2 × 0.5 (1) = A1\nTherefore y ≈ 3.5 when x =. 1 A1 N0\nNote: Allow FT from their y value when x = 0.5 .\n[9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "1. [Maximum mark: 9]\nGiven that $\\frac{dy}{dx} = \\frac{y+2}{xy+1}$ and $y = 1$ when $x = 0$, use Euler's method with interval $h = 0.5$ to find an approximate value of $y$ when $x = 1$. [9 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qC2",
+   "num": "C2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "qC2.webp",
+   "ms_image": "qC2_ms.webp",
+   "text": "2. [Maximum mark: 12]\n(a) Show that tan ∫ xx d = lnsec x + C , where C is a constant. [2 marks]\n(b) Hence find an integrating factor for solving the differential equation\nd y\n+ y tan x = sec. x [2 marks]\nd x\n(c) Solve this differential equation given that y = 2 when x = 0.\nGive your answer in the form y = fx (). [8 marks]",
+   "ms_text": "sin x\n= = − + 2. (a) ∫ tand xx ∫ d x lncos x C M1A1\ncos x\n=lnsec x + C AG N0\nNote: Accept a solution showing that the derivative of lnsec x is tan x .\n[2 marks]\n∫ tand xx lnsec xk +\n(b) Integrating factor = e (e = ) (M1)\n= ()sec C x A1\n[2 marks]\n(c) Multiply by integrating factor (M1)\nd y 2\nsec x y sectan x x = sec x (A1) x+\nd\ngives y sec x = tan x + c A1A1A1\nSubstitute (0, 2) (2 = 0 + c ) (M1)\nSo c = 2 A1\ny sec x = tan x + 2\ntan x + 2\ny = ( y = sin x + 2cos) x A1\nsec x\n[8 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "2. [Maximum mark: 12]\n(a) Show that $\\int \\tan x\\,dx = \\ln \\sec x + C$, where $C$ is a constant. [2 marks]\n(b) Hence find an integrating factor for solving the differential equation\n$\\frac{dy}{dx} + y\\tan x = \\sec x$. [2 marks]\n(c) Solve this differential equation given that $y = 2$ when $x = 0$. Give your answer in the form $y = f(x)$. [8 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qC3",
+   "num": "C3",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "qC3.webp",
+   "ms_image": "qC3_ms.webp",
+   "text": "3. [Maximum mark: 9]\nFind the value of\n1 + x − 1\n(a) lim ; [3 marks]\nx → 0 x\n(b) lim x ln. x [6 marks]\nx →0",
+   "ms_text": "− 0.5 1 + x − 1 0.5(1 + x )\n3. (a) lim = lim M1A1\nx → 0 x x → 0 1\n= 0.5 A1 N1\n[3 marks]\nln x\n(b) lim x ln x = lim M1A1\nx → 0 x → 0 1\nx\n1\nx =\nlim M1A1\n→ 1 x 0\n−\n2 x\n= lim ( − x ) A1\nx → 0\n= 0 A1 N1\n[6 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "3. [Maximum mark: 9]\nFind the value of\n(a) $\\lim_{x \\to 0} \\frac{\\sqrt{1+x} - 1}{x}$; [3 marks]\n(b) $\\lim_{x \\to 0} x \\ln x$. [6 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qC4",
+   "num": "C4",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "qC4.webp",
+   "ms_image": "qC4_ms.webp",
+   "text": "4. [Maximum mark: 15]\n∞ ∞\n2 (a) (i) Given that ∑ un is convergent, where un≥0, prove that\n∑ un is\nn= 1 n = 1\nalso convergent.\n(ii) State, with a reason, whether or not the converseof this result is true. [5 marks]\n(b) Use the integral test to determine the set of values of k for which the series\n∞ 1\n∑\n2n (ln) nk n =\n(i) is convergent;\n(ii) is divergent. [10 marks]",
+   "ms_text": "4. (a) (i) For attempting to use the comparison test (could be in an example) M1\nIf u is convergent, it follows that there exists N\nn\nsuch that for n ≥ Nu , <. 1 M1\nn\n2 So, for n ≥ Nu , < u . A1\nn n\n2 It follows by the comparison test that ∑ u is convergent.\nn\n(ii) The converse is not true. A1\nA counterexample is\n1 1\n∑ is convergent but ∑ is not . A1\n2 n n\n[5 marks]\n(b) (i)(ii) Consider, for k ≠, 1\nd x\n∞∫ M1A1\n2 x (ln)k x\nRecognizing the substitution u = ln x or attempting integration by parts (M2)\n∞\n⎡ ⎤ 1\n= ⎢ M1A1 − ⎥\n(1 − k )(ln)k x 1 ⎣ ⎦\n2\nThis integral, and therefore the series,\nis convergent for k > and divergent for 1 k <. 1 A1\nFor k =, 1\n∞ d x ∞\n∫ = [ ln(ln) x ]2 M1A1\n2 x ln x\nThis integral, and therefore the series, is divergent for k =. 1 A1\nk > and divergent for k ≤.) (The series is therefore convergent for 1 1\n[10 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L5",
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "4. [Maximum mark: 15]\n(a) (i) Given that $\\sum_{n=1}^{\\infty} u_n$ is convergent, where $u_n \\ge 0$, prove that $\\sum_{n=1}^{\\infty} u_n^2$ is also convergent.\n(ii) State, with a reason, whether or not the converse of this result is true. [5 marks]\n(b) Use the integral test to determine the set of values of $k$ for which the series\n$\\sum_{n=2}^{\\infty} \\frac{1}{n(\\ln n)^k}$\n(i) is convergent;\n(ii) is divergent. [10 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qC5",
+   "num": "C5",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "qC5.webp",
+   "ms_image": "qC5_ms.webp",
+   "text": "5. [Maximum mark: 15]\nConsider the function f defined by\nfx () = arcsin x , for x≤1.\nThe derivatives of fx () satisfy the equation\n2 ( n + 2 ) ( n + 1 ) 2 () n ( 1 − x ) f () x − ( 2 n + 1 ) xf () x − nf () x = 0 , for n ≥1.\nThe coefficient of xn in the Maclaurin series for fx () is denoted by an . You may\nassume that the series contains only odd powers of x.\n2 (a) (i) Show that, for n ≥1, ( n + 1 )( n + 2 ) a = na .\nn + 2 n\n(ii) Given that a1 =, find an expression for an in terms of n, valid for odd 1\nn ≥3. [7 marks]\n(b) Find the radius of convergence of this Maclaurin series. [4 marks]\nFind an approximate value for π by putting x =1 (c)\n2 and summing the first three\nnon-zero terms of this series. Give your answer to four significant figures. [4 marks]",
+   "ms_text": "5. (a) (i) Consider\n() n f (0)\n() n a = or f (0) = na ! (M1)(A1)\nn n\nn !\nNote: Award M1A1 if this statement, or its equivalent with at least 2\nnumerical values of n, is seen anywhere in the candidate’s work.\nPutting x = 0 in the given relationship M1\n+ − 2 × = ( n 2)! a n na ! 0 A1\nn + 2 n\n2 So ( n + 1)( n + 2) a = na , n ≥ 1 AG\nn + 2 n\n2 1\n(ii) We find that a= (M1)\n3\n23 ×\n2 2 1 3\na= × (A1)\n5 × ×\n23 45\nand in general, for odd n ≥ 3 ,\n2 × 2 − 2 1 3 ...( n 2)\na = A1\nn\nn !\n[7 marks]\n(b) Using the ratio test. M1\nFor odd n,\nn + 2 2 x term n\n= × x 2 M1\nn + + x term ( n 1)( n 2)\n→ x 2 as n →∞ A1\nEITHER\nx<. The series is convergent for 1 A1\nOR\nRadius of convergence is 1. A1\n[4 marks]\n1 π ⎛ ⎞=\n(c) A1\narcsin2 ⎜ ⎟\n6 ⎝ ⎠\n3 5 ⎛\n⎛ 1 ⎞ 1 ⎛ 1 ⎞ 3 ⎛ 1 ⎞ ⎞\n≈ ⎜ 1 × + × + × ⎟ M1A1\n⎜ ⎜ ⎟ ⎜ ⎟ ⎜ ⎟ ⎟ ⎝ 2 ⎠ 6 ⎝ 2 ⎠ 40 ⎝ 2 ⎠\n⎝ ⎠\nπ ≈ A1 N0 3.139\n[4 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.L2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "5. [Maximum mark: 15]\nConsider the function $f$ defined by\n$f(x) = \\arcsin x$, for $|x| \\le 1$.\nThe derivatives of $f(x)$ satisfy the equation\n$(1-x^2) f^{(n+2)}(x) - (2n+1) x f^{(n+1)}(x) - n^2 f^{(n)}(x) = 0$, for $n \\ge 1$.\nThe coefficient of $x^n$ in the Maclaurin series for $f(x)$ is denoted by $a_n$. You may assume that the series contains only odd powers of $x$.\n(a) (i) Show that, for $n \\ge 1$, $(n+1)(n+2)a_{n+2} = n^2 a_n$.\n(ii) Given that $a_1 = 1$, find an expression for $a_n$ in terms of $n$, valid for odd $n \\ge 3$. [7 marks]\n(b) Find the radius of convergence of this Maclaurin series. [4 marks]\n(c) Find an approximate value for $\\pi$ by putting $x = \\frac{1}{2}$ and summing the first three non-zero terms of this series. Give your answer to four significant figures. [4 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qD1",
+   "num": "D1",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "qD1.webp",
+   "ms_image": "qD1_ms.webp",
+   "text": "1. [Maximum mark: 9]\n(a) Convert the number 95 from base 10 to base 6. [3 marks]\n(b) Working in base 6, square your answer to part (a). [4 marks]\n(c) Convert your answer to part (b) to a base 10 number. [2 marks]",
+   "ms_text": "1. (a) Using an appropriate method correctly M1A1\n6 ⎢95 5\n6 ⎢15 3\n2\nThe required base 6 number is 235. A1 N1\n[3 marks]\n(b) 235\n235\n51400 A1\n11530 A1\n2111 A1\n105 441 A1 N0\n[4 marks]\n(c) EITHER\n5 3 2 (105 441) = 6 + 5.6 + 4.6 + 4.6 + 1 M1\n6\n= 9025 A1 N0\nOR\nUsing Horner’s algorithm\n1 0 5 4 4 1 M1\n6 1 6 41 250 1504 9025 A1 N0\n[2 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "1. [Maximum mark: 9]\n(a) Convert the number 95 from base 10 to base 6. [3 marks]\n(b) Working in base 6, square your answer to part (a). [4 marks]\n(c) Convert your answer to part (b) to a base 10 number. [2 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qD2",
+   "num": "D2",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "qD2.webp",
+   "ms_image": "qD2_ms.webp",
+   "text": "2. [Maximum mark: 8]\nConsider the diophantine equation\nλx − 2 y = 1, where λ ∈¢ .\n(a) Explain briefly why this equation has no solution when λ = 4 . [2 marks]\n(b) Find the general solution to this equation when λ = 3. [6 marks]",
+   "ms_text": "λ = 2. (a) When 4 , gcd(2, 4) is not a divisor of the right hand side of the equation R2\nor equivalent e.g. the left hand side is even and the right hand side is odd.\n[2 marks]\n(b) EITHER\nWhen λ = 3 , solving 3 x − 2 y = is the same as solving the linear 1\ncongruence 3 x ≡ M1A1 1(mod2)\nSolutions by inspection are 1, 3, 5, ... and the general (A1)\nsolution is\nx = 2 n + 1 for n ∈� A1\nSubstituting,\n6 n + 3 − 2 y = 1 M1\ngiving y = 3 n + 1 A1\nOR\nAny particular solution e.g. x = 1 y = 1 (M1)A1\ngcd(3, 2) = 1 (M1)\n−⎫ 2\nx =+ 1 n ×\n1 ⎪⎪\nGeneral solution given by ⎬ for n ∈ � M1A1A1\n3\n=− × ⎪ y 1 n\n⎪⎭ 1\n(Giving x =− 1 2, ny =− 1 3 n )\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.3",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "2. [Maximum mark: 8]\nConsider the diophantine equation\n$\\lambda x - 2y = 1$, where $\\lambda \\in \\mathbb{Z}$.\n(a) Explain briefly why this equation has no solution when $\\lambda = 4$. [2 marks]\n(b) Find the general solution to this equation when $\\lambda = 3$. [6 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qD3",
+   "num": "D3",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "qD3.webp",
+   "ms_image": "qD3_ms.webp",
+   "text": "3. [Maximum mark: 16]\n(a) Show that the sum of the degrees of all the vertices of a graph is even. [3 marks]\n(b) There are nine men at a party. By considering an appropriate graph, show that it\nis impossible for each man to shake hands with exactly five other men. [4 marks]\n(c) For a connected planar graph, prove Euler’s relation, v −+ e f = 2 . [9 marks]",
+   "ms_text": "3. (a) Let a graph contain e edges. M1\nEach edge contributes 2 towards the sum of the degrees of the vertices\nwhich is therefore 2e. This is even. R2\n[3 marks]\n(b) Consider a graph in which each of the 9 vertices represents a man. M1\n2 vertices are joined by an edge if and only if the corresponding\nmen shake hands. M1\nEach vertex would be of order 5 and the sum of the orders of all the\nvertices would be 45. R1\nSince this is not even, the situation is impossible. R1\n[4 marks]\n(c) Start with\n• • M1A1\nFor this graph, v = 2, e = and 1 f=so Euler’s relation is satisfied. 1 A1\nNow add a vertex, which will require an extra edge – this will increase\nv and e by 1, f will remain unaffected. The relation will still be satisfied. M1R1\nNow add an edge between 2 existing vertices. This will increase e and f\nby 1, v will remain unaffected. The relation will still be satisfied. M1R1\nThus as the graph is constructed, Euler’s relation will remain satisfied. R2\nNote: Accept starting with one vertex but award M1A0A0M1R1M1R1R2 for\nstarting with more than two vertices.\n[9 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "3. [Maximum mark: 16]\n(a) Show that the sum of the degrees of all the vertices of a graph is even. [3 marks]\n(b) There are nine men at a party. By considering an appropriate graph, show that it is impossible for each man to shake hands with exactly five other men. [4 marks]\n(c) For a connected planar graph, prove Euler's relation, $v - e + f = 2$. [9 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qD4",
+   "num": "D4",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "qD4.webp",
+   "ms_image": "qD4_ms.webp",
+   "text": "4. [Maximum mark: 16]\nThe graphs G 1, G and G 3 are illustrated below.\n2\n(a)\nWrite down the adjacency matrix, AG , of G1 . Evaluate AG 2and hence state the\nnumber of paths of length 2 beginning and ending at C. [6 marks]\n(b)\n[4 marks] Determine whether or not G2 is bipartite.\n(c)\nExplain briefly why G3does not have an Eulerian circuit. Redraw G3 and add\nan edge so that the resulting graph does have an Eulerian circuit. Write down an\nEulerian circuit. [6 marks]",
+   "ms_text": "⎛ 0 2 2 ⎞\n⎜ ⎟\n4. (a) A 2 0 1 (M1)A1\nG = ⎜ ⎟\n⎜ ⎟\n2 1 0 ⎝ ⎠\nNote: This assumes that A, B and C are represented by rows 1, 2 and 3 respectively.\nAccept any other representation.\n⎛ 8 2 2 ⎞\n2 ⎜ ⎟ A 2 5 4 A2\nG = ⎜ ⎟\n⎜ ⎟\n2 4 5 ⎝ ⎠\nNote: Deduct 1 mark for each incorrect element.\nThere are 5 such paths (because the (3, 3) element of A 2 is 5). A2 N0\nG\n2 Note: FT from the candidate’s A .\nG\n[6 marks]\n(b) For an attempt to “label” the vertices or identify two disjoint sets of vertices. M1\nDisjoint sets of vertices are {H, J, L} and {I, K, M, N}. This can be inferred\nfrom a graph. A1A1\nThe graph is bipartite. R1\nNote: Award R1 only if the previous three marks are awarded.\n[4 marks]\n(c) Graph has vertices of odd degree so it cannot have an Eulerian circuit. R2\nA2\nCircuit is PQRSTRUQTUP. R2\nNote: There are other possible Eulerian circuits.\n[6 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.11",
+    "6.7",
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "4. [Maximum mark: 16]\nThe graphs $G_1$, $G_2$ and $G_3$ are illustrated below.\n(a) [Diagram: Graph $G_1$ with vertices A, B, C; two edges between A and B, two edges between A and C, one edge between B and C]\nWrite down the adjacency matrix, $A_G$, of $G_1$. Evaluate $A_G^2$ and hence state the number of paths of length 2 beginning and ending at C. [6 marks]\n(b) [Diagram: Graph $G_2$ with vertices H, M, I, L, N, J, K; edges HM, HI, ML, IL, LN, IJ, LK, JK]\nDetermine whether or not $G_2$ is bipartite. [4 marks]\n(c) [Diagram: Graph $G_3$ with vertices P, Q, R, S, T, U; edges PQ, PU, QR, QU, QT, RS, RT, ST, UT]\nExplain briefly why $G_3$ does not have an Eulerian circuit. Redraw $G_3$ and add an edge so that the resulting graph does have an Eulerian circuit. Write down an Eulerian circuit. [6 marks]"
+  },
+  {
+   "id": "math-2006-M-P3-qD5",
+   "num": "D5",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "qD5.webp",
+   "ms_image": "qD5_ms.webp",
+   "text": "5. [Maximum mark: 11]\nThe weights of the edges of a graph with vertices A, B, C, D and E are given in\nthe following table.\nA B C D E\nA - 10 15 11 16\nB 10 - 12 19 13\nC 15 12 - 18 14\nD 11 19 18 - 17\nE 16 13 14 17 -\n(a) Use any method to find an upper bound for the travelling salesman problem for\nthis graph. [2 marks]\n(b) (i) Use Kruskal’s algorithm to find and draw a minimum spanning tree for the\nsubgraph obtained by removing the vertex E from the graph.\n(ii) State the total weight of this minimum spanning tree and hence find a\nlower bound for the travelling salesman problem for this graph. [9 marks]",
+   "ms_text": "5. (a) One upper bound is the length of any cycle, e.g. ABCDEA gives 73.\nOther valid methods include:\ndouble the weight of the minimum spanning tree which gives 2 × 46 = 92 ;\n5× the maximum weight of the edges 519 × = 95 ;\ntwice the answer to (b)(ii). M1A1 N0\nNote: The other possible cycles are:\nABCEDA – 64\nABDECA – 75\nABDCEA – 77\nABECDA – 66\nABEDCA – 73\nACBDEA – 79\nACBEDA – 68\nACDBEA – 81\nACEBDA – 72\nADBCEA – 72\nADCBEA – 70\n[2 marks]\n(b) (i) Using Kruskal’s algorithm, the edges are introduced in the order\nAB, AD, BC. A1A1A1\nA1 N0\n(ii) Total weight of minimum spanning tree = 33 . A1\nWe rejoin E to the graph via the shortest edges, i.e. EB and EC. M1A1\nTherefore lower bound = 331314 + + = 60 . M1A1\n[9 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "5. [Maximum mark: 11]\nThe weights of the edges of a graph with vertices A, B, C, D and E are given in the following table.\n  | A | B | C | D | E\nA | - | 10 | 15 | 11 | 16\nB | 10 | - | 12 | 19 | 13\nC | 15 | 12 | - | 18 | 14\nD | 11 | 19 | 18 | - | 17\nE | 16 | 13 | 14 | 17 | -\n(a) Use any method to find an upper bound for the travelling salesman problem for this graph. [2 marks]\n(b) (i) Use Kruskal's algorithm to find and draw a minimum spanning tree for the subgraph obtained by removing the vertex E from the graph.\n(ii) State the total weight of this minimum spanning tree and hence find a lower bound for the travelling salesman problem for this graph. [9 marks]"
+  }
+ ],
+ "status": "done"
+}

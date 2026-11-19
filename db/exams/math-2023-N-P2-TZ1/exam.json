@@ -1,0 +1,288 @@
+{
+ "exam_id": "math-2023-N-P2-TZ1",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2023,
+ "session": "November",
+ "tz": "TZ1",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 2/N23 TZ1/Mathematics_analysis_and_approaches_paper_2__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 2/N23 TZ1/Mathematics_analysis_and_approaches_paper_2__TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8823-7107; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2023-N-P2-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\nThe following diagram shows a pyramid with vertex V and rectangular base OABC .\nPoint B has coordinates (6 , 8 , 0) , point C has coordinates (6 , 0 , 0) and point V has\ncoordinates (3 , 4 , 9) .\ndiagram not to scale\nz\nV(3, 4, 9)\nO C(6, 0, 0)\ny\nA\nx\nB(6, 8, 0)\n(a) Find BV .\b [2]\nFind the size of B ˆVC .\b (b) [4]",
+   "ms_text": "2 2 2 1. (a) B V = (6 − 3) + (8 − 4) + ( 0 − 9 ) (A1)\n= 10.2956...\n= 10.3 (=106) A1\n− 3\nNote: AwardSC(A0)A1for BV =− 4 where a candidate has misinterpreted notation.\n9\n[2 marks]\n(b) METHOD 1\nBV = VC AND BC = 8 (seen anywhere) (A1)\nattempt to use the cosine rule on triangle BVC for any angle (M1)\nNote: Recognition must be shown in context either in terms of labelled sides or in side lengths.\n2 + 2 − 2\n10.2... 10.2.. . 8\nˆ = c os BV C\nOR\n2 × 10 2 .. . . × 10.2 .. .\n2 2 2 ˆ 8 = 10.2.... + 10.2... − 210.2...10.2... × × cos BVC (A1)\nˆ = BVC 0.798037...\nˆ BVC = 0.798 (accept 45.7) A1\nNote: If no working shown, award (A0)(M1)(A0)A0 for ˆ = (or 46) (2sf). BVC 0.80\nMETHOD 2\nlet M be the midpoint of BC\nBM = 4 (seen anywhere) (A1)\nattempt to use sine or cosine in triangle BMV or CMV (M1)\n4 4\nOR π − arcsin arccos\nOR 0.399018 (A1)\n106 2 106\nˆ = BVC 0.798037...\nˆ BVC = 0.798 (accept 45.7) A1\nˆ Note: If no working shown, award (A0)(M1)(A0)A0 for BVC = 0.80 (or 46) (2sf).\nMETHOD 3\n3 3\nVC =− 4 and VB = 4 (A1)\n− 9 − 9\nattempt to use the cosine formula for an angle using two vectors representing the\nedges of triangle BVC (M1)\n3(3) − 4(4) − 9(9) − 74\nˆ cosBVC = = (A1)\n2 +− 2 +− 2 2 + 2 +− 2 106 3 (4) (9) 3 4 (9)\nˆ BVC = 0.798037...\nˆ = (accept 45.7) A1 BVC 0.798\nˆ Note: If no working shown, award (A0)(M1)(A0)A0 for BVC = 0.80 (or 46) (2sf).\nMETHOD 4\n3 3\n=− = VC 4 and VB 4 (A1)\n− 9 − 9\nattempt to use the cross product formula for an angle using two vectors representing\nthe edges of triangle BVC (M1)\n72\n0\n24 5760\nsin BVC ˆ = = (A1)\n2 2 2 2 2 2 3 +− (4) +− (9) 3 + 4 +− (9) 106\nˆ BVC = 0.798037...\nBVC ˆ = 0.798 (accept 45.7) A1\nˆ Note: If no working shown, award (A0)(M1)(A0)A0 for BVC = 0.80 (or 46) (2sf).\n72\n1 5760\nAwardSC(A1)(M1)(A0)A0for area = 0 = ( = 37.9 ) where a candidate has\n2 2\n24\nmisinterpreted notation.\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.1",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nThe following diagram shows a pyramid with vertex V and rectangular base OABC.\nPoint B has coordinates $(6, 8, 0)$, point C has coordinates $(6, 0, 0)$ and point V has coordinates $(3, 4, 9)$.\n[Diagram (not to scale): pyramid with apex V(3, 4, 9) above rectangular base OABC in the plane z = 0; O at origin, C(6, 0, 0) on the x-axis, A on the y-axis, B(6, 8, 0)]\n(a) Find BV. [2]\n(b) Find the size of $\\mathrm{B\\hat{V}C}$. [4]"
+  },
+  {
+   "id": "math-2023-N-P2-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nConsider the function f(x)=ex-3x-4 .\n(a) On the following axes, sketch the graph of f for -4≤x≤3 . \b [3]\ny\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\nx\n−4 −3 −2 −1 0 1 2 3\n−1\n−2\n−3\n−4\n−5\nThe function g is defined by g (x)=e2x-6x- 7 .\n(b) The graph of g is obtained from the graph of f by a horizontal stretch with scale\nfactor k , followed by a vertical translation of c units.\nFind the value of k and the value of c .\b [2]",
+   "ms_text": "2. (a)\nA1A1A1\nNote: Award marks as follows:\nA1 for approximately correct roots, in the intervals 2 −< x <− and 1\n2 < x < 3 .\nA1 for y-intercept AND local minimum in approximately correct positions. Allow for y-\nintercept 3.5 − < y <− 2.5 , and for local minimum 0.5 < x < 1.5 , 5 −< y <−. 4\nA1 for approximately correct endpoints, with the left end in the intervals\n− 4.5 < x <− 3.5,7.5 < y < 8.5 and the right end in the intervals 2.5< x < 3.5,6.5< y < 7.5\n[3 marks]\n1\n(b) k= A1\n2\nc = − 3 (accept translate/shift 3 (units) down) A1\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.3",
+    "2.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nConsider the function $f(x) = \\mathrm{e}^{x} - 3x - 4$.\n(a) On the following axes, sketch the graph of $f$ for $-4 \\le x \\le 3$. [3]\n[Grid: blank axes, x from -4 to 3, y from -5 to 10]\nThe function $g$ is defined by $g(x) = \\mathrm{e}^{2x} - 6x - 7$.\n(b) The graph of $g$ is obtained from the graph of $f$ by a horizontal stretch with scale factor $k$, followed by a vertical translation of $c$ units.\nFind the value of $k$ and the value of $c$. [2]"
+  },
+  {
+   "id": "math-2023-N-P2-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nA company is designing a new logo in the shape of a letter “C”.\nThe letter “C” is formed between two circles with centre O .\nThe point A lies on the circumference of the inner circle with radius rcm , where r<10 .\nThe point B lies on the circumference of the outer circle with radius 10 cm .\nThe reflex angle AÔB is 5.2 radians. The letter “C” is shown by the shaded area in the\nfollowing diagram.\ndiagram not to scale\nΑ\nΟ 5.2\nΒ\n(a) Show that the area of the “C” is given by 260-2.6r 2 .\b [2]\nThe area of the “C” is 64 cm2.\n(b) (i) Find the value of r .\n(ii) Find the perimeter of the “C”.\b [5]",
+   "ms_text": "3. (a) use of sector area formula to find area of at least one sector (M1)\n1 1 1 1 2 2\n− 2 × − − 2 − × − × 2 × 5.2100 × − × 5. 2r × OR 10π 10 (2π 5.2) π r (2π 5.2) r A1\n2 2 2 2\n2\n(area) = 2602.6r − AG\nNote: There are many different ways to find the area of the “C”. In all methods, the A mark is\nawarded for working which leads directly to the AG.\nMany candidates are working with rounded intermediate values. Award the A mark to correct\nwork with values that round to the 3sf value of 260 and the 2sf value of 2.6 eg\n2 259.99 − 2.6015r .\n[2 marks]\n2 (b) (i) 260 − 2.6 r = 64 (A1)\nr = 8.68243...\n(cm) 1465 exact\n= 8.68 A1\n13\n× × (ii) 105.2 OR 8.68...5.2 (A1)\nsubstituting their value of r into 10 × 5.2 +× r 5.2 + 2(10 − r ) (or equivalent) (M1)\nPerimeter = 10× 5.2 + 8.68...5.2 × + 2(10 − 8.68...)( = 52 + 45.1486... + 2.63513...)\n= 99.7837…\n= 99.8 (cm) A1\n[5 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nA company is designing a new logo in the shape of a letter “C”.\n[Diagram: shaded letter C shape]\nThe letter “C” is formed between two circles with centre O.\nThe point A lies on the circumference of the inner circle with radius $r$ cm, where $r < 10$.\nThe point B lies on the circumference of the outer circle with radius 10 cm.\nThe reflex angle $\\mathrm{A\\hat{O}B}$ is 5.2 radians. The letter “C” is shown by the shaded area in the following diagram.\n[Diagram (not to scale): two concentric circles centre O; shaded region between them over reflex angle 5.2 at O; A on inner circle, B on outer circle at the ends of the gap]\n(a) Show that the area of the “C” is given by $260 - 2.6r^2$. [2]\nThe area of the “C” is $64\\ \\text{cm}^2$.\n(b) (i) Find the value of $r$.\n(ii) Find the perimeter of the “C”. [5]"
+  },
+  {
+   "id": "math-2023-N-P2-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nA particle moves along a straight line. Its displacement, s metres, from a fixed point O after\n� � � � time t seconds is given by s (t ) 4 3 .sin 3 t 5, where 0≤t≤10 .\nThe particle first comes to rest after q seconds.\n(a) Find the value of q .\b [2]\n(b) Find the total distance that the particle travels in the first q seconds.\b [3]",
+   "ms_text": "s recognizing at rest when d\n4. (a) = 0 OR s is a minimum (M1)\nd t\nq = 5.73553...\n= 5.74 A1\nNote: If no working shown, award (M1)A0 for q = 5.7 (2sf).\n[2 marks]\n(b) METHOD 1\n(M1) recognizing that integral of () vt is required\n5.73... 5.73... 5.73...\nd() d 5.73... vt () d t\nst t vt ()d t ∫ OR ∫ OR ∫ vt ()d t OR −∫ (A1)\n0 0 d t 0 0\nNote: Condone absence of dt.\nOnly accept qvt t if their value of q does not result in the particle changing direction in ∫ 0() d\nthe first q seconds.\n= 7.68302...\n= 7.68 (m) A1\nNote: Special Cases:\nAward a maximum of (M1)(A1FT)A0FT if the candidate obtains q = 1.62320... in part (a), and\nuses that value to find the total distance to be 3.38302... (3.37644... from 3sf).\n5.73...\nAward (M1)(A0)A1 if the candidate writes ∫ vt ()d t followed by the correct answer.\n0\nMETHOD 2\nrecognition that total distance travelled is the difference between the initial\ndisplacement and the displacement at minimum (M1)\ninitial displacement is 3.38302...AND at minimum is 4.3 − (A1)\ntotal distance travelled = 3.38302... −− (4.3)\n= 7.68302...\n= 7.68 (m) A1\nNote: If no working shown, award (M1)(A0)A0 for 7.7 (2sf).\n[3 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nA particle moves along a straight line. Its displacement, $s$ metres, from a fixed point O after time $t$ seconds is given by $s(t) = 4.3\\sin\\left(\\sqrt{3t+5}\\right)$, where $0 \\le t \\le 10$.\nThe particle first comes to rest after $q$ seconds.\n(a) Find the value of $q$. [2]\n(b) Find the total distance that the particle travels in the first $q$ seconds. [3]"
+  },
+  {
+   "id": "math-2023-N-P2-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nThe following table shows the probability distribution of a discrete random variable X ,\nwhere a , k∈ϒ+ .\nx 1 2 3 4\nP(X=x) k k 2 a k 3\nGiven that E (X )=2.3 , find the value of a .",
+   "ms_text": "2 3\n5. E() X = k + 2 k + 3 a + 4 k = 2.3 (A1)\n+ k+ 2 + 3 = (A1) k a k 1\nNote: The first two A marks are independent of each other.\nEITHER (finding intersections of functions)\nattempt to make a the subject in both of their equations (M1)\n2 3 12 2 3 a =− 1 k − k − k and a = ( .3 − k − 2 k − 4 k )\n3\nuse of graph or table to attempt to find intersection (M1)\nOR (solving algebraically)\nattempt to solve their equations algebraically to find a cubic in k (M1)\n3 2 OR ( 2 3 ) 2 3 k − k − 2 k + 0.7 = 0 3 1 − k − k − k = 2 3 . − k − 2 k − 4 k (or equivalent)\nattempt to solve their cubic in k (M1)\nTHEN\na = 0.552839... OR k = 0.315870... (other solutions to cubic are k= − 1.18538...,1.86951... )\na = 0.553 A1\nNote: If no working shown, award (A1)(A1)(M1)(M1)A0 for a = 2.44587... OR a = − 10.8987... and\naward (A0)(A0)(M1)(M1)A0 for a = 0.55 (2sf) .\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "2"
+   ],
+   "subtopics": [
+    "4.7",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\nThe following table shows the probability distribution of a discrete random variable $X$, where $a, k \\in \\mathbb{R}^+$.\n$x$: 1 | 2 | 3 | 4\n$\\mathrm{P}(X=x)$: $k$ | $k^2$ | $a$ | $k^3$\nGiven that $\\mathrm{E}(X) = 2.3$, find the value of $a$."
+  },
+  {
+   "id": "math-2023-N-P2-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 5]\nThe random variable X is such that X∼B (25 , p) and Var (X )=5.75 .\n(a) Find the possible values of p . \b [3]\nThe random variable Y is such that Y=1-2X .\n(b) Find Var (Y ) .\b [2]",
+   "ms_text": "6. (a) 5.75 = 25 p ( 1 − p ) (A1)\np = 0.641421...,0.358578...\n5 ± 2\np = 0.641,0.359 = A1A1\n10\n[3 marks]\n2\n(b) Var () Y =− ( 2 ) Var ( X ) ( = 4Var ( X ) ) (A1)\n= 23 A1\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 5]\nThe random variable $X$ is such that $X \\sim B(25, p)$ and $\\mathrm{Var}(X) = 5.75$.\n(a) Find the possible values of $p$. [3]\nThe random variable $Y$ is such that $Y = 1 - 2X$.\n(b) Find $\\mathrm{Var}(Y)$. [2]"
+  },
+  {
+   "id": "math-2023-N-P2-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nA junior baseball team consists of six boys and three girls.\nThe team members are to be placed in a line to have their photograph taken.\n(a) In how many ways can the team members be placed if\n(i) there are no restrictions;\n(ii) the girls must be placed next to each other.\b [3]\n(b) Five members of the team are selected to attend a baseball summer camp. Find the\nnumber of possible selections that contain at least two girls. \b [3]",
+   "ms_text": "7. (a) (i) ( 9! = ) 362880 A1\nNote: Accept 9! or 363000.\n(ii) attempt to consider girls as a single object (M1)\n( ) 3! × 7! = 30240 A1\nNote: Accept 30200.\n[3 marks]\n(b) METHOD 1\nrecognition of the two different cases for 2 girls and 3 girls (M1)\n3 and exactly 3 girls ( 3 ) 6 exactly 2 girls is 6 C × C = 60 C × C = 15 (A1)\n3 2 3 2\ntotal ( = 6015 + ) = 75 A1\nMETHOD 2\nrecognition of the three different cases:total choices, 1 girl and no girls (M1)\ntotal choices9 C= 126 , one girl case3 C × 6 C = 45 , no girl case 6 C= 6 (A1)\n5 1 4 5\ntotal ( = 126 − 45 − 6 ) = 75 A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nA junior baseball team consists of six boys and three girls.\nThe team members are to be placed in a line to have their photograph taken.\n(a) In how many ways can the team members be placed if\n(i) there are no restrictions;\n(ii) the girls must be placed next to each other. [3]\n(b) Five members of the team are selected to attend a baseball summer camp. Find the number of possible selections that contain at least two girls. [3]"
+  },
+  {
+   "id": "math-2023-N-P2-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 9]\nThree points are given by A(0 , p , 2) , B(1 , 1 , 1) and C( p , 0 , 4) , where p is a positive constant.\n� 2 � 3 p �\n� � � �\n(a) Show that AB AC � � �� 2 p .\b [4]\n�� ��\n2 p � 2 p\n� �\n2 � �\n(b) Hence, find the smallest possible value of AB AC � .\b [3]\n(c) Hence, find the smallest possible area of triangle ABC .\b [2]",
+   "ms_text": "1\n8. (a) AB = 1 − p A1\n− 1\np\nAC =− p A1\n2\nattempt to evaluate their ABAC × by use of formula or determinant M1\n21 ( − p ) − p\n× = − ( + ) ( ( − ) − ) − ( + ) +− ( − ( − ) ) ABAC 2 p OR 21 p p i 2 p j p p 1 p k A1\n− p − p ( 1 − p )\n2 − 3 p\nABAC × = −− 2 p AG\n2 p − 2 p\n[4 marks]\n2\n(b) ABAC ×\n2 2 2 2 4 3 2\n= ( 2 − 3 p ) +−− ( 2 p ) + ( p − 2 p )( = p − 4 p + 14 p − 8 p + 8 ) (A1)\n2\nattempt to find minimum of their ABAC × (M1)\n6.75257...OR p = 0.3264...\nmin value is 6.75 A1\n[3 marks]\n(c) METHOD 1\n1\nvalid attempt to find area = ABAC × using their answer to part b) (M1)\n2\n1\narea = 6.75257...\n2\n= 1.299285...\n= 1.30 (units2) A1\n[2 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.12",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 9]\nThree points are given by $\\mathrm{A}(0, p, 2)$, $\\mathrm{B}(1, 1, 1)$ and $\\mathrm{C}(p, 0, 4)$, where $p$ is a positive constant.\n(a) Show that $\\vec{AB} \\times \\vec{AC} = \\begin{pmatrix} 2-3p \\\\ -2-p \\\\ p^2-2p \\end{pmatrix}$. [4]\n(b) Hence, find the smallest possible value of $\\left|\\vec{AB} \\times \\vec{AC}\\right|^2$. [3]\n(c) Hence, find the smallest possible area of triangle ABC. [2]"
+  },
+  {
+   "id": "math-2023-N-P2-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 9]\ny 4 � y Consider the differential equation d\n� , where y=2 when x=0 .\nd x 10\n(a) Use Euler’s method with a step size of 0.1 to find an approximation for y\nwhen x=0.5 . Give your answer correct to four significant figures. \b [3]\nx\n�\nBy solving the differential equation, show that y � � 10 (b) 4 2 e . \b [5]\n(c) Find the absolute value of the error in your approximation in part (a).\b [1]",
+   "ms_text": "4 − y\n− 9. (a) attempt to use recursive formula y = y + 0.1 n 1 (M1)\nn n − 1\n10\nn nx ny\n0 0 2\n1 0.1 2.02\n2 0.2 2.0398\n3 0.3 2.05940…\n4 0.4 2.07880…\n5 0.5 2.09801…\ny= 2.02 (A1)\n1\ny= 2.098 A1\n5\nNote: Accept any answer which rounds to the correct 4sf value.\nAward no marks for a final answer of 2.1 or 2.10 with no working.\n[3 marks]\n(b) METHOD 1\nNote: Condone absence of absolute value signs throughout\nd y d x\n∫ ∫ M1 y=\n4 − 10\nx\n− ln4 − y = ( + c ) A1\n10\nEITHER\nsubstituting initial conditions x = 0, y = 2 to find the value ofc M1\n( − ln 2 = 0 + c ⇒ ) c = − ln 2 A1\n− x 4 y x\n− ln4 − y = − ln 2 ⇒ ln = −\n10 2 10\nx −\n10 4 − y = 2e A1\nOR\nx x − −\nc − − c\n4 − y = e 10 (so 4 − y = ± ee 10 )\nx −\n4 − y = A e 10 A1\nsubstituting initial conditions x = 0 , y = 2 to find the value of A M1\n0 2 = A e ⇒ A = 2\nA1\nTHEN\nx −\ny = 4 − 2e 10 AG\nx x −\n− d y d x\nNote: Candidates may use − = and correctly obtain y − 4 = 2e 10 leading to 4 − y = 2e 10 ∫ ∫\n− y 4 10\nafter consideration of the boundary conditions. In this case, the absence of absolute value signs\nshould not be condoned until the sign has been resolved.\nMETHOD 2\nattempt to rearrange and find an integrating factor M1\n1 1\nd y 1 4 ∫ d x x\n10 10 y = so IF e = e\nx +\nd 10 10\n1 1 1\nx d y 1 x 4 x\ne 10 e 10 y = e 10 x +\nd 10 10\n1 1\nx x\ne 10 y = 4e 10 ( + c ) A1A1\nNote: Award A1 for LHS and A1 for RHS.\nsubstituting initial conditions x = 0, y = 2 to find the value ofc M1\n( 0 0 ) 2e = 4e + c ⇒ c = − 2 A1\n1 1\nx x\n10 10 e y = 4e − 2\nx −\ny = 4 − 2e 10 AG\n[5 marks]\n( 0.05 ) (c) absolute error = 2.0980199... − 4 − 2 e− = 0.000478749...\n4 = 0.000479 ( = 4.7910− × ) A1\n4 Note: Accept 0.000459 ( = 4.5910− × ) from use of 4sf value.\n[1 mark]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 9]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{4-y}{10}$, where $y = 2$ when $x = 0$.\n(a) Use Euler’s method with a step size of 0.1 to find an approximation for $y$ when $x = 0.5$. Give your answer correct to four significant figures. [3]\n(b) By solving the differential equation, show that $y = 4 - 2\\mathrm{e}^{-\\frac{x}{10}}$. [5]\n(c) Find the absolute value of the error in your approximation in part (a). [1]"
+  },
+  {
+   "id": "math-2023-N-P2-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 16]\nA farmer is growing a field of wheat plants. The height, H cm , of each plant can be modelled\nby a normal distribution with mean m and standard deviation s .\nIt is known that P (H<94.6)=0.288 and P (H>98.1)=0.434 .\n(a) Find the probability that the height of a randomly selected plant is between 94.6 cm\nand 98.1 cm .\b [2]\n(b) Find the value of m and the value of s .\b [5]\nThe farmer measures 100 randomly selected plants. Any plant with a height greater\nthan 98.1 cm is considered ready to harvest. Heights of plants are independent of each other.\n(c) (i) \u0007Find the probability that exactly 34 plants are ready to harvest.\n(ii) Given that fewer than 49 plants are ready to harvest, find the probability that\nexactly 34 plants are ready to harvest.\b [6]\nIn another field, the farmer is growing the same variety of wheat, but is using a different\nfertilizer. The heights of these plants, F cm , are normally distributed with mean 98.6 and\nstandard deviation d . The farmer finds the interquartile range to be 4.82 cm .\n(d) Find the value of d .\b [3]",
+   "ms_text": "10. (a) recognizing probabilities sum to 1 (M1)\n0.288 + P(94.6 < X < 98.1) + 0.434 = 1\nP(94.6 < X < 98.1) = 0.278 A1\nNote: If no working shown, award (M1)A0 for P(94.6 < < = (2sf). X 98.1) 0.28\n[2 marks]\n(b) METHOD 1\nrecognizing the need to use inverse normal with 0.288, (10.434) − or 0.434 (M1)\nNote: Accept use of calculator notation eg invNorm0.288 ( )= -0.559236... ( ).\nμ + invNorm(0.288) σ = 94.6, μ + invNorm(1 − 0.434) σ = 98.1 (or equivalent) (A1)(A1)\nattempt to solve their equations in two variables using the GDC (that involve\neither z-values or ‘invNorm’ rather than probabilities) (M1)\nμ = 97.2981..., σ = 4.82468...\nμ = 97.3, σ = 4.82 A1\nNote: Condone use of different variables throughout, but do not award the final A1 if they do\nnot clearly identify which variable is their mean and standard deviation.\nMETHOD 2\nuse of inverse normal to find at least one z-score for P ( Z < z ) = 0 28 . 8 or\nP( Z < z=− ) 1 0.434 (M1)\nz= − 0.559236... OR z = 0.166199...\n1 2\n− μ − μ 94.6 , 98.1\n= − 0.559236... = 0.166199... (or equivalent) (A1)(A1)\nσ σ\nattempt to solve their equations (that involve z-values rather than probabilities) (M1)\nμ = 97.2981..., σ = 4.82468...\nμ = 97.3, σ = 4.82 A1\nNote: Award marks as appropriate for work seen in part (a).\nNote: If no working shown, award (M1)(A0)(A0)(M1)A0 for μ = 97, σ = 4.8 (2sf).\n[5 marks]\n(c) (i) recognition of Binomial distribution (M1)\nX ~ B(100,0.434)\nP( X= 34) = 0.0133198...\n= 0.0133 A1\nNote: If no working shown, award (M1)A0 for P(X= 34) = 0.013 (2sf).\n(ii) P( X< 49) = 0.848218... (seen anywhere) (A1)\nrecognition of conditional probability (M1)\nNote: recognition must be shown in context, either in symbols eg ( ) P X = 34| X < 49 , or in\nwords eg ( ) P34 plants | less than 49 plants, not only as P( AB. | )\nP ( X = 34 ) P ( X = 34 ) 0.0133198...\n( P ( X = 34 | X < 49 ) = ) OR = (A1)\nP ( X < 49 ) P ( X ≤ 48 ) 0.848218...\n= 0.0157033.. .\nP ( X = 34| X < 49 ) = 0.0157 A1\nX≤ ( = ) Note: Exception to FT: If the candidate finds P( 49) 0.890474... and uses that to\ncalculate ( = ≤ ) = P X 34| X 49 0.0149581... award (A0)(M1)(A1)A0.\nNote: If no working shown, award (A0)(M1)(A0)A0 for ( P X = 34| X < 49 ) = 0.016 (2sf).\n[6 marks]\n(d) Q = 96.19 OR Q= 101.01 (may be seen on a labelled diagram with areas 1 3\nindicated) (A1)\nP(96.19 < F < 101.01) = 0.5 OR P( F< 96.19) = 0.25 OR P( F< 101.01) = 0.75\n(or equivalent)\nEITHER\nattempt to find d using graph or table (M1)\nOR\n2.41 2.41 2.41\n12P − Z <− = 0.5 OR P( Z <− ) = 0.25 OR P( Z < ) = 0.75\nd d d\n2.41 2.41\nOR P( − < Z < ) = 0.5 (or equivalent) (M1)\nd d\n2.41\n− = − OR 2.41 = 0.674489... 0.674489...\nd d\nTHEN\n3.57307...\nd = 3.57 A1\nNote: Accept3.56 using 96.2 or 101.\nNote: If no working shown, award (A0)(M1)A0 for d = 3.6 (2sf).\n[3 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.8",
+    "4.11",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 16]\nA farmer is growing a field of wheat plants. The height, $H$ cm, of each plant can be modelled by a normal distribution with mean $\\mu$ and standard deviation $\\sigma$.\nIt is known that $\\mathrm{P}(H < 94.6) = 0.288$ and $\\mathrm{P}(H > 98.1) = 0.434$.\n(a) Find the probability that the height of a randomly selected plant is between 94.6 cm and 98.1 cm. [2]\n(b) Find the value of $\\mu$ and the value of $\\sigma$. [5]\nThe farmer measures 100 randomly selected plants. Any plant with a height greater than 98.1 cm is considered ready to harvest. Heights of plants are independent of each other.\n(c) (i) Find the probability that exactly 34 plants are ready to harvest.\n(ii) Given that fewer than 49 plants are ready to harvest, find the probability that exactly 34 plants are ready to harvest. [6]\nIn another field, the farmer is growing the same variety of wheat, but is using a different fertilizer. The heights of these plants, $F$ cm, are normally distributed with mean 98.6 and standard deviation $d$. The farmer finds the interquartile range to be 4.82 cm.\n(d) Find the value of $d$. [3]"
+  },
+  {
+   "id": "math-2023-N-P2-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 19]\nx 2 � 14 x � 24\nConsider the function defined by fx ��� , where x∈ϒ , x≠-3 .\n� 2 x 6\n(a) State the equation of the vertical asymptote on the graph of f . \b [1]\nFind the coordinates of the points where the graph of f crosses the x-axis.\b (b) [2]\nThe graph of f also has an oblique asymptote of the form y=ax+b , where a , b∈⁄ .\n(c) Find the value of a and the value of b .\b [4]\n(d) Sketch the graph of f for -50≤x≤50 , showing clearly the asymptotes and any\nintersections with the axes. \b [4]\n(e) Find the range of f .\b [4]\nSolve the inequality f(x)>x .\b (f) [4]",
+   "ms_text": "11. (a) (vertical asymptote equation) x = − 3 A1\nNote: Accept 2 x + 6 = 0 or equivalent.\n[1 mark]\n( 2,0 ) and ( 12,0 ) (b) A1A1\nNote: Award A1 for ( 2,0 and A1 for ( ) 12,0. )\nAward A1A0 if only x values are given.\n[2 marks]\n(c) METHOD 1\n1\na = A1\n2\n2\nx − 14 x + 24\nattempt at ‘long division’ on (M1)\n2 x + 6\n2 x − 14 x + 24\n2 x + 6\n1 17 ...\n= x − + (A1)\n2 2 2 x + 6\n17\nb = − A1\n2\n1 17\nNote: Accept y = x − .\n2 2\nMETHOD 2\n1\na = A1\n2\n2\nx − 14 x + 24 1 c\n≡ x ++ b (A1)\n2 x + 6 2 2 x + 6\n1 2\n− + ≡ ( + ) + ( + ) + x 14 x 24 x 2 x 6 b 2 x 6 c\n2\n(M1) attempt to equate coefficients of x :\n− 14 =+ 3 2b\n17\nb = − A1\n2\n1 17\nNote: Accept y = x − .\n2 2\nMETHOD 3\n1\na = A1\n2\n2\nx − 14 x + 24 1 − 17 x + 24\n− x ≡ (A1)\n2 x + 6 2 2 x + 6\nas x →∞ attempt to find the limit of fx () − ax (M1)\n− 17 x + 24\nb = lim\nx →∞ 2 x + 6\n17\n= − A1\n2\n1 17\nNote: Accept y = x − .\n2 2\n[4 marks]\n(d)\ntwo branches with approximately correct shape (for 50 − ≤ x ≤ 50 ) A1\nNote: For this A1 the graph must be a function.\ntheir vertical and oblique asymptotes in approximately correct positions with both\nbranches showing correct asymptotic behaviour to these asymptotes A1A1\nNote: Award A1 for vertical asymptote and behaviour and A1 for oblique asymptote and\nbehaviour.\nIf only top half of the graph seen only award A1A0 if both asymptotes and behaviour are\nseen.\ntheir axes intercepts in approximately the correct positions A1\nNote: Points of intersection with the axes and the equations of asymptotes do not need to be\nlabelled. Ignore incorrect labels.\n[4 marks]\n(e) ( ) OR ( ) seen anywhere (A1) − 10 − 53 =− 18.6602.... − 10 + 53 =− 1.33974....\nattempt to write the range using at least one value in an interval or an inequality in y or fx ()\n(M1)\ny ≤− 18.7, y ≥− 1.34 A1A1\nNote: AwardA1for each inequality. Award A1A0 for strict inequalities in both.\nDo not award FT from (d).\nAccept equivalent set notation.\n[4 marks]\n(f) ( − − =− ) OR ( − + = ) seen anywhere (A1) 10 231 21.1355.... 10 231 1.13552....\nx <− 21.1, −< 3 x < 1.14 A1A1A1\nNote: AwardA1 for x <− 21.1 , A1 for correct endpoints of a single interval 3 − and 1.14 and A1 for\n−< 3 x < 1.14 .\nDo not award FT from (d).\nAccept equivalent set notation.\n[4 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.3",
+    "2.2",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 19]\nConsider the function defined by $f(x) = \\frac{x^2 - 14x + 24}{2x + 6}$, where $x \\in \\mathbb{R}$, $x \\ne -3$.\n(a) State the equation of the vertical asymptote on the graph of $f$. [1]\n(b) Find the coordinates of the points where the graph of $f$ crosses the $x$-axis. [2]\nThe graph of $f$ also has an oblique asymptote of the form $y = ax + b$, where $a, b \\in \\mathbb{Q}$.\n(c) Find the value of $a$ and the value of $b$. [4]\n(d) Sketch the graph of $f$ for $-50 \\le x \\le 50$, showing clearly the asymptotes and any intersections with the axes. [4]\n(e) Find the range of $f$. [4]\n(f) Solve the inequality $f(x) > x$. [4]"
+  },
+  {
+   "id": "math-2023-N-P2-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 18]\n� 1 � � 2 �\n� � � �\nLine L is given by the vector equation r1 � 2 � s 3 where s∈ϒ .\n�� �� �� ��\n� 3 6 � � � �\n� 9 � � 4 �\n� � � �\n� Line M is given by the vector equation r2� 9 t 1 where t∈ϒ .\n�� �� �� ��\n11 2 � � � �\nShow that lines L and M intersect at a point A and find the position vector of A .\b (a) [5]\n0\n(b) Verify that the lines L and M both lie in the plane P given by r γ 2 = 7 . \b [3]\n− 1\n� � 3 �\n� �\nPoint B has position vector 12 . A line through B perpendicular to P intersects P at point C .\n�� ��\n2 � �\n(c) (i) \u0007Find the position vector of C .\n→\n(ii) Hence, find BC . \b [7]\n(d) Find the reflection of the point B in the plane P . \b [3]\n\b",
+   "ms_text": "12. (a) attempt to set at least two components of Land M equal M1\n12 + s =+ 9 4 t\n2 + 3 s = 9 + t\n−+ 36 s = 112 + t\nattempt to solve two of their equations simultaneously (M1)\ns = 2 OR t = − 1 A1\nEITHER\ns = t = −into remaining component e.g. −+ 362 () = 112 + ( − 1 ) substitute 2 and 1 R1\nOR\nrecognition that 2nd and 3rd equations are equivalent R1\nTHEN\n5\nposition vector of A is 8 A1\n9\nNote: Accept a row vector and/or coordinates.\nThe finalA1 is independent of R1.\n[5 marks]\n(b) METHOD 1\nattempt to substitute at least one line into the equation of the plane (M1)\n12 + s 0\n2 + 3 s 2 = 22 ( + 3 s ) − 1 ( −+ 3 6 s ) = 7 A1\n−+ − 3 6 s 1\n9 + 4 t 0\n9 + t 2 = 29 ( + t ) − 1112 ( + t ) = 7 A1\n112 + t − 1\nMETHOD 2\nconsideration the direction of one line and a point on that line (M1)\n2 0 1 0 5 0\n= = =\ndirection 3.2 0 AND point 2.2 7 or 8.2 7 A1\n6 − 1 − 3 − 1 9 − 1\n4 0 9 0 5 0\n= = 1.2 0 9.2 7 =\ndirection AND point or 8.2 7 A1\n2 − 1 11 − 1 9 − 1\nMETHOD 3\nconsideration of direction of both lines (M1)\nEITHER\n2 0 4 0\n= = 3.2 0\nand 1.2 0 (hence Land M are parallel to the plane) A1\n− − 6 1 2 1\nOR\n2 4 0 0\n3 × 1 = 20 = k 2 (hence Land M are parallel to the plane) A1\n6 2 − 10 − 1\nTHEN\n5 0 1 0 9 0\n= = = 8.2 7\nOR 2.2 7 OR 9.2 7 A1\n9 − 1 − 3 − 1 11 − 1\n[3 marks]\n− 3 0 − 3\nposition vector of point on the line is ( = ) + λ (c) (i) r 12 2 = 12 + 2 λ (A1)\n2 − 1 2 − λ\nattempt to substitute position vector into equation of plane Π (M1)\n− 3 0\nmeets Π when 12 + 2 λ .2 = 7\n2 − λ − 1\n212 ( + 2 λ )( − 2 − λ ) = 7\n22 + 5 λ = 7\nλ= − 3 (A1)\n− 3 0 − 3 − 3\n6 position vector of r = 12 − 32 = 6 = A1\n2 − 1 5 5\nNote: Accept a row vector and/or coordinates.\n(ii) METHOD 1\nattempt to find BC using OCOB − (M1)\n− 3 − 3 0\nBC = OC − OB = 6 − 12 =− 6\n5 2 3\nattempt to use distance formula to find BC (M1)\n2\n( ) 2 BC = − 6 + 3\n( ) A1 = 6.71 = 45 = 35\nMETHOD 2\n0\nrecognition that BC =× 3 2 (M1)\n− 1\n0\nattempt to use distance formula to find 2 (M1)\n− 1\n2 2 BC = 32 +− ( 1 )\n= 6.71 ( = 45 = 35 ) A1\n[7 marks]\nlet B′ be the image of B (d)\nMETHOD 1\n− 3 0\nOB′= 12 + μ 2 (A1)\n2 − 1\nrecognition that μ = 2 λ ( = − 6 ) ORBC = CB′ ( may be seen in a diagram) (M1)\n− 3\nOB′= 0\n8\nso coordinates are B ′− ( 3,0,8 ) A1\nMETHOD 2\n0\nBC = CB ′ =− 6 (A1)\n3\n0\n1\nNote: This may come from BC = − 35 nusing the unit normal vector n = 2\n5\n− 1\nOB ′ = OC + CB ′ OR OB ′= OB + 2BC OR OB ′= 2OC − OB (M1)\n− 3 0 − 3 0 − 6 − 3\n= 6 +− 6 OR 12 + 2 − 6 OR 12 − 12\n5 3 2 3 10 2\n− 3\n0 B ′− ( 3,0,8 ) OB′= (so coordinates are ) A1\n8\n[3 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.15",
+    "3.17",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 18]\nLine $L$ is given by the vector equation $\\boldsymbol{r}_1 = \\begin{pmatrix} 1 \\\\ 2 \\\\ -3 \\end{pmatrix} + s\\begin{pmatrix} 2 \\\\ 3 \\\\ 6 \\end{pmatrix}$ where $s \\in \\mathbb{R}$.\nLine $M$ is given by the vector equation $\\boldsymbol{r}_2 = \\begin{pmatrix} 9 \\\\ 9 \\\\ 11 \\end{pmatrix} + t\\begin{pmatrix} 4 \\\\ 1 \\\\ 2 \\end{pmatrix}$ where $t \\in \\mathbb{R}$.\n(a) Show that lines $L$ and $M$ intersect at a point A and find the position vector of A. [5]\n(b) Verify that the lines $L$ and $M$ both lie in the plane $\\Pi$ given by $\\boldsymbol{r} \\cdot \\begin{pmatrix} 0 \\\\ 2 \\\\ -1 \\end{pmatrix} = 7$. [3]\nPoint B has position vector $\\begin{pmatrix} -3 \\\\ 12 \\\\ 2 \\end{pmatrix}$. A line through B perpendicular to $\\Pi$ intersects $\\Pi$ at point C.\n(c) (i) Find the position vector of C.\n(ii) Hence, find $\\left|\\vec{BC}\\right|$. [7]\n(d) Find the reflection of the point B in the plane $\\Pi$. [3]"
+  }
+ ],
+ "status": "done"
+}

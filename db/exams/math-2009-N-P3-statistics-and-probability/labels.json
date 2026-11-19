@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2009-N-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L5", "4.12"],
+      "text_clean": "1. [Maximum mark: 13]\nThe mean weight of a certain breed of bird is believed to be 2.5 kg. In order to test this belief, it is planned to determine the weights $x_1, x_2, x_3, \\ldots, x_{16}$ (in kg) of sixteen of these birds and then to calculate the sample mean $\\bar{x}$. You may assume that these weights are a random sample from a normal distribution with standard deviation 0.1 kg.\n(a) State suitable hypotheses for a two-tailed test. [2 marks]\n(b) Find the critical region for $\\bar{x}$ having a significance level of 5 %. [6 marks]\n(c) Given that the mean weight of birds of this breed is actually 2.6 kg, find the probability of making a Type II error. [5 marks]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L4", "4.L5", "4.L6", "4.9"],
+      "text_clean": "2. [Maximum mark: 19]\n(a) Alan and Brian are athletes specializing in the long jump. When Alan jumps, the length of his jump is a normally distributed random variable with mean 5.2 metres and standard deviation 0.1 metres. When Brian jumps, the length of his jump is a normally distributed random variable with mean 5.1 metres and standard deviation 0.12 metres. For both athletes, the length of a jump is independent of the lengths of all other jumps. During a training session, Alan makes four jumps and Brian makes three jumps. Calculate the probability that the mean length of Alan's four jumps is less than the mean length of Brian's three jumps. [9 marks]\n(b) Colin joins the squad and the coach wants to know the mean length, $\\mu$ metres, of his jumps. Colin makes six jumps resulting in the following lengths in metres.\n5.21, 5.30, 5.22, 5.19, 5.28, 5.18\n(i) Calculate an unbiased estimate of both the mean $\\mu$ and the variance of the lengths of his jumps.\n(ii) Assuming that the lengths of these jumps are independent and normally distributed, calculate a 90 % confidence interval for $\\mu$. [10 marks]"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L9", "4.L2"],
+      "text_clean": "3. [Maximum mark: 15]\nThe following table shows the result of 100 independent observations on the discrete random variable $X$.\nValue of $X$ | 3 | 4 | 5 | 6 | 7 | 8 or more\nFrequency | 25 | 21 | 20 | 15 | 12 | 7\nCharles believes that $X$ has a negative binomial distribution with parameters $r = 3$ and $p = 0.6$ and he asks you to carry out a $\\chi^2$ test to investigate his belief.\n(a) State suitable hypotheses. [1 mark]\n(b) Calculate the expected frequencies, giving your answers correct to two decimal places. [8 marks]\n(c) Calculate the value of the $\\chi^2$ statistic and determine its $p$-value. [5 marks]\n(d) State your conclusion. [1 mark]"
+    },
+    "4": {
+      "topics": ["4", "1"],
+      "subtopics": ["4.8", "1.10"],
+      "text_clean": "4. [Maximum mark: 13]\nThe random variable $X$ has the distribution $\\mathrm{B}(n, p)$.\n(a) (i) Show that $\\dfrac{\\mathrm{P}(X = x)}{\\mathrm{P}(X = x-1)} = \\dfrac{(n-x+1)p}{x(1-p)}$.\n(ii) Deduce that if $\\mathrm{P}(X = x) > \\mathrm{P}(X = x-1)$ then $x < (n+1)p$.\n(iii) Hence, determine the value of $x$ which maximizes $\\mathrm{P}(X = x)$ when $(n+1)p$ is not an integer. [9 marks]\n(b) Given that $n = 19$, find the set of values of $p$ for which $X$ has a unique mode of 13. [4 marks]"
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+ "exam_id": "math-2012-M-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2012,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_3_Discrete_mathematics_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2012 May Examination Session/Mathematics_paper_3_Discrete_mathematics_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2212-7207; code M12/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2012-M-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 15]\n(a) Use the Euclidean algorithm to express gcd( 1232347 in the form 123 , ) p + 2347 q ,\nwhere pq , ∈�. [8 marks]\n(b) Find the least positive solution of 123 x ≡(mod 2347) . 1 [3 marks]\n(c) Find the general solution of 123 z ≡(mod 2347). 5 [3 marks]\n(d) State the solution set of 123 y ≡(mod 2346) . 1 [1 mark]",
+   "ms_text": "1. (a) 2347 = 1912310 × + M1A1\n(1231210 = × + 3)\n10 =×+ 331 A1\n1(gcd) = 10 −×= 3310 −× 3(1231210) − × M1A1\n= 3710 × −× 3123 A1\n= 37(234719123) × − × −× 3123 (for continuation) M1\n= 372347 × − 706123 × A1\n[8 marks]\n(b) EITHER\n=− × 1(mod2347) (706123)(mod2347) M1A1\nOR\nx =− 706 + 2347 n M1A1\nsolution: 1641 A1\n[3 marks]\n(c) 5(mod2347) =− (3530123)(mod2347) × (M1)\nGS: z =− 3530 + k 2347 A1A1\nNote: Other common possibilities include 1164 + k 2347 and 8205 + k 2347 .\n[3 marks]\n(d) empty set (123 and 2346 both divisible by 3) A1\n[1 mark]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 15]\n(a) Use the Euclidean algorithm to express $\\gcd(123, 2347)$ in the form $123p + 2347q$, where $p, q \\in \\mathbb{Z}$. [8 marks]\n(b) Find the least positive solution of $123x \\equiv 1 \\pmod{2347}$. [3 marks]\n(c) Find the general solution of $123z \\equiv 5 \\pmod{2347}$. [3 marks]\n(d) State the solution set of $123y \\equiv 1 \\pmod{2346}$. [1 mark]"
+  },
+  {
+   "id": "math-2012-M-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nThe cost adjacency matrix for the weighted graph K is given below.\nA B C D E F G\nA 0 5 2 0 0 0 0\nB 5 0 0 0 7 0 0\nC 2 0 0 4 4 0 0\nD 0 0 4 0 2 0 9\nE 0 7 4 2 0 4 3\nF 0 0 0 0 4 0 1\nG 0 0 0 9 3 1 0\nUse Prim’s algorithm, starting at G, to draw two distinct minimal weight spanning\ntrees for K .",
+   "ms_text": "2. setting out the algorithm in a clear form, which could mean just giving the 3rd column. M1\nvertex set adjacent edge chosen length total length\nvertices\nG D, E, F GF 1 1\nG, F E, D GE 3 4\nG, F, E C, B, D ED 2 6\nG, F, E, D C, B EC 4 10\nG, F, E, D, C A, B CA 2 12\nG, F, E, D, C, A B AB 5 17 A4\nNote: Award A1 for each of the edges added in the first, second, fourth and sixth\nrows of the calculation. These marks are independent of one another.\nAlternatively, DC could be chosen in row four instead of EC. Columns 4 and\n5 are included for the benefit of examiners.\nthe two trees drawn A1A1 N2\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nThe cost adjacency matrix for the weighted graph $K$ is given below.\n| | A | B | C | D | E | F | G |\n| A | 0 | 5 | 2 | 0 | 0 | 0 | 0 |\n| B | 5 | 0 | 0 | 0 | 7 | 0 | 0 |\n| C | 2 | 0 | 0 | 4 | 4 | 0 | 0 |\n| D | 0 | 0 | 4 | 0 | 2 | 0 | 9 |\n| E | 0 | 7 | 4 | 2 | 0 | 4 | 3 |\n| F | 0 | 0 | 0 | 0 | 4 | 0 | 1 |\n| G | 0 | 0 | 0 | 9 | 3 | 1 | 0 |\nUse Prim's algorithm, starting at G, to draw two distinct minimal weight spanning trees for $K$."
+  },
+  {
+   "id": "math-2012-M-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 8]\nThe graph G has adjacency matrix M given below.\nABCDE F\nA 0 1 0 0 0 1\nB 1 0 1 0 1 0\nC 0 1 0 1 0 0\nD 0 0 1 0 1 0\nE 0 1 0 1 0 1\nF 1 0 0 0 1 0\n(a) Draw the graph G . [2 marks]\n(b) What information about G is contained in the diagonal elements of M2? [1 mark]\n(c) Find the number of walks of length 4 starting at A and ending at C. [2 marks]\n(d) List the trails of length 4 starting at A and ending at C. [3 marks]",
+   "ms_text": "3. (a)\nA2\nNote: Award A1 if only one error, A0 for two or more.\n[2 marks]\n(b) the (,) kk element of M is the number of vertices directly connected to 2\nvertex k A1\nNote: Accept comment about the number of walks of length 2, in which the\ninitial and final vertices coincide.\n[1 mark]\n4 (c) attempt to calculate the (1, 3) element of M (M1)\nobtain 8 (for the record M is given below) 4 A1\n9 0 8 0 12 0\n0 17 0 12 0 12\n8 0 9 0 12 0\n0 12 0 9 0 8\n12 0 12 0 17 0\n0 12 0 8 0 9\n[2 marks]\n(d) the trails of length 4 are ABEDC, AFEDC, AFEBC A1A1A1\nNote: A1A1A1 for three correct with no additions; A1A1A0 for all correct,\nbut with additions; A1A0A0 for two correct with or without additions.\n[3 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.11",
+    "6.7",
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 8]\nThe graph $G$ has adjacency matrix $M$ given below.\n| | A | B | C | D | E | F |\n| A | 0 | 1 | 0 | 0 | 0 | 1 |\n| B | 1 | 0 | 1 | 0 | 1 | 0 |\n| C | 0 | 1 | 0 | 1 | 0 | 0 |\n| D | 0 | 0 | 1 | 0 | 1 | 0 |\n| E | 0 | 1 | 0 | 1 | 0 | 1 |\n| F | 1 | 0 | 0 | 0 | 1 | 0 |\n(a) Draw the graph $G$. [2 marks]\n(b) What information about $G$ is contained in the diagonal elements of $M^2$? [1 mark]\n(c) Find the number of walks of length 4 starting at A and ending at C. [2 marks]\n(d) List the trails of length 4 starting at A and ending at C. [3 marks]"
+  },
+  {
+   "id": "math-2012-M-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 17]\n(a) Draw the complement of the following graph as a planar graph.\nA B\nE F\nC D [3 marks]\n′ (b) A simple graph G has v vertices and e edges. The complement G of G has\n′e edges.\n1\n(i) Prove that e ≤ vv ( − 1 ) .\n2\n(ii) Find an expression for e +′ in terms of v . e\n(iii) Given that G is isomorphic to G , prove that v is of the form 4n or 4 ′ n + 1\n+ for n∈ �.\n(iv) Prove that there is a unique simple graph with 4 vertices which is\nisomorphic to its complement.\n′ (v) Prove that if v ≥11, then G and G cannot both be planar. [14 marks]",
+   "ms_text": "4. (a) as a first step, form the following graph\n(M1)(A1)\nmake it planar\nA1\n[3 marks]\n(b) (i) an edge joins a pair of vertices R1\nν 1\n=\nthere is a maximum of νν ( − 1) possible unordered pairs of\n2 2\nvertices, hence displayed result A1AG\n(ii) an edge joins two vertices in G′ if it does not join them in G and\nvice versa; all possible edges are accounted for by the union of the\ntwo graphs R1\n1\ne + e ′ = νν ( − 1) A1\n2\n(iii) the two graphs have the same number of edges R1\n1\n⇒ = νν − e ( 1) A1\n4\nv and v − are consecutive integers, so only one can be divisible by 4, 1\nhence displayed result A1AG\n(iv) the required graphs have four vertices and three edges A1\nif one vertex is adjacent to the other three, that uses up the edges;\nthe resulting graph, necessarily connected, has a disconnected\ncomplement, and vice versa R1\nif one vertex is adjacent to two others, that uses up two edges; the\nfinal vertex cannot be adjacent to the first; the result is the linear\nconnected graph A1\nstate it is isomorphic to its complement A1 N2\nNote: Alternative proofs are possible, but should include the final\nstatement for full marks.\n(v) using e ≤ 3 ν − for planar graphs 6 M1\n1\n′ νν ( − 1) = e + e ≤ 6 ν − 12 A1\n2\nν 2 − 13 ν + 24 ≤ 0 is not possible for v ≥ 11 R1\n[14 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 17]\n(a) Draw the complement of the following graph as a planar graph. [3 marks]\n[Diagram: graph on vertices A, B, C, D, E, F with edges AB, AC, BD, CD, AF, BE, CE, DF]\n(b) A simple graph $G$ has $v$ vertices and $e$ edges. The complement $G'$ of $G$ has $e'$ edges.\n(i) Prove that $e \\le \\frac{1}{2}v(v-1)$.\n(ii) Find an expression for $e + e'$ in terms of $v$.\n(iii) Given that $G'$ is isomorphic to $G$, prove that $v$ is of the form $4n$ or $4n+1$ for $n \\in \\mathbb{Z}^+$.\n(iv) Prove that there is a unique simple graph with 4 vertices which is isomorphic to its complement.\n(v) Prove that if $v \\ge 11$, then $G$ and $G'$ cannot both be planar. [14 marks]"
+  },
+  {
+   "id": "math-2012-M-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 13]\n(a) Use the result 2003 = 6333 × + 5 and Fermat’s little theorem to show that\n2 2003≡ 4 (mod 7) . [3 marks]\n(b) Find 22003(mod11) and 22003(mod13). [3 marks]\n(c) Use the Chinese remainder theorem, or otherwise, to evaluate 22003(mod1001),\nnoting that 1001 = 71113 × × . [7 marks]",
+   "ms_text": "2003 5 6333 5. (a) 2 = 2 × (2) M1A1\n≡ 321(mod7) × by Fermat’s little theorem A1\n≡ 4(mod7) AG\n[3 marks]\n(b) 2003 =+ 310200 × (M1)\n2003 3 10200 2 = 2 × (2) ( ≡× 81(mod11) ) ≡ 8(mod11) A1\n2 2003 = 2 11 × (2) 12166 ≡ 7(mod13) A1\n[3 marks]\n1001 1001 1001\n(c) form M = = 143; M = = 91; M = = 77 M1\n1 2 3\n7 11 13\nsolve 143 x ≡ 1 (mod 7) ⇒ x = 5 M1A1\n1 1\nx = 4; x = 12 A1A1\n2 3\nx =× 41435 ×+× 8914 ×+× 77712 × = 12240 ≡ 228(mod1001) M1A1\n[7 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.4",
+    "6.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 13]\n(a) Use the result $2003 = 6 \\times 333 + 5$ and Fermat's little theorem to show that $2^{2003} \\equiv 4 \\pmod{7}$. [3 marks]\n(b) Find $2^{2003} \\pmod{11}$ and $2^{2003} \\pmod{13}$. [3 marks]\n(c) Use the Chinese remainder theorem, or otherwise, to evaluate $2^{2003} \\pmod{1001}$, noting that $1001 = 7 \\times 11 \\times 13$. [7 marks]"
+  }
+ ],
+ "status": "done"
+}

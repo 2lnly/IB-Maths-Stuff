@@ -1,0 +1,430 @@
+{
+ "exam_id": "physics-2018-M-P3-TZ2",
+ "subject": "physics",
+ "syllabus": "physics-legacy",
+ "year": 2018,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "3",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Physics HL/Paper 3/2018_May_Physics__TZ2/2018_May_Physics_paper_3__TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Physics HL/Paper 3/2018_May_Physics__TZ2/2018_May_Physics_paper_3__TZ2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2218-6515; code M18/4/PHYSI/HP3/ENG/TZ2/XX",
+ "questions": [
+  {
+   "id": "physics-2018-M-P3-TZ2-q1",
+   "num": "1",
+   "section": null,
+   "marks": 6,
+   "qtype": "data",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1.  To determine the acceleration due to gravity, a small metal sphere is dropped from rest and\nthe time it takes to fall through a known distance and open a trapdoor is measured.\nnot to scale\npoint of release\nsphere\ntrapdoor\nThe following data are available.\nDiameter of metal sphere  =  12.0 ! 0.1  mm\nDistance between the point of release and the trapdoor   =  654 ! 2  mm\nMeasured time for fall  =  0.363 ! 0.002  s\n(a)  Determine the distance fallen, in m, by the centre of mass of the sphere including an\nestimate of the absolute uncertainty in your answer.  [2]\n(b)  Using the following equation\nacceleration due to gravity  =  2  ×  distance fallen by centre of mass of sphere\n(measured time to fall)  2\ncalculate, for these data, the acceleration due to gravity including an estimate of\nthe absolute uncertainty in your answer.  [4]",
+   "ms_text": "1.  a  distance fallen    654 12      642 mm  «  »  ✓  Accept answers in mm or m\n2\nabsolute uncertainty    2    0.1 mm  «  »    2 10      3  «  m  »  or    2.1 10      3  «  m  »  or\n2.0 10      3  « »  ✓  m\n1.  b  «  a    2  s    2 0.642    »    9.744  «  ms    2  » ✓\nt  2  0.363  2\nfractional uncertainty in distance    2  AND fractional uncertainty in time    0.002  ✓  Accept working in % for MP2\n642  0.363  and MP3\ntotal fractional uncertainty      s      t      \ns  2  t «  0.00311 2 0.00551  » ✓\n4\ntotal absolute uncertainty 0.1 or 0.14 AND same number of decimal places in value  Final uncertainty must be the\nand uncertainty, ie: 9.7 0.1 or 9.74 0.14 ✓  absolute uncertainty",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "A"
+   ],
+   "subtopics": [
+    "X.1",
+    "A.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. To determine the acceleration due to gravity, a small metal sphere is dropped from rest and the time it takes to fall through a known distance and open a trapdoor is measured.\n[Diagram: sphere held at point of release falls vertically onto a trapdoor; not to scale]\nThe following data are available.\nDiameter of metal sphere = $12.0 \\pm 0.1$ mm\nDistance between the point of release and the trapdoor = $654 \\pm 2$ mm\nMeasured time for fall = $0.363 \\pm 0.002$ s\n(a) Determine the distance fallen, in m, by the centre of mass of the sphere including an estimate of the absolute uncertainty in your answer. [2]\n(b) Using the following equation\nacceleration due to gravity $= \\dfrac{2 \\times \\text{distance fallen by centre of mass of sphere}}{(\\text{measured time to fall})^2}$\ncalculate, for these data, the acceleration due to gravity including an estimate of the absolute uncertainty in your answer. [4]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q2",
+   "num": "2",
+   "section": null,
+   "marks": 9,
+   "qtype": "data",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2.  A student carries out an experiment to determine the variation of intensity of the light with\ndistance from a point light source.  The light source is at the centre of a transparent spherical\ncover of radius C.  The student measures the distance x from the surface of the cover to a\nsensor that measures the intensity I  of the light.\nC  x\ncover\nlight sensor\npoint light source\nThe light source emits radiation with a constant power P and all of this radiation is\ntransmitted through the cover.  The relationship between I  and x  is given by\nI  =  P\n4 (  π  C  +  x  )  2\n(a)  This relationship can also be written as follows.\n1  =  K  x  +  KC\nI\nShow that  K  =  2  π .  [1]\nP\n(b)  The student obtains a set of data and uses this to plot a graph of the variation of\n1  with x.\nI\n45\n40\n35\n30\n1  −  1  25\n/ W  2  m\nI  20\n15\n10\n5\n0\n– 5  0  5  10  15  20  25\nx / cm\n(i)  Estimate C.  [2]\n(ii)  Determine P, to the correct number of significant figures including its unit.  [4]\n(c)  Explain the disadvantage that a graph of I  versus  1\n(b)(i) and (b)(ii).  x  has for the analysis in  2  [2]",
+   "ms_text": "2.  a  combines the two equations to obtain result  There are many ways to answer the\n  question, look for a combination of\n«for example  1    K  2  (  C    x  )  2    4  (  C    x  ) »  ✓  2  two equations to obtain the third one\nI  P\nOR\n1\nreverse engineered solution – substitute  2    1    2  x  2\nK  P  into  I  K  (  C  )  to get\nI    P  ✓\n4 (    C    x  )  2\n2.  b  i  extrapolating line to cross x-axis / use of x-intercept  Award [1 max] for negative answers\nOR\nUse C y-intercept\ngradient\n2\nOR\nuse of gradient and one point, correctly substituted in one of the formulae ✓\naccept answers between 3.0 and 4.5 «cm» ✓\n2.  b  ii  ALTERNATIVE 1\nEvidence of finding gradient using two points on the line at least 10  For 3rd marking point if no unit given, assume\ncm apart ✓  answer is in W\nGradient found in range: 115–135 or 1.15–1.35 ✓\nAward [3 max] for an answer between 6.9W and\n9.5W (POT penalized in 3rd marking point)\nAlternative 2 is worth [3 max]\nUsing    4        4  9.5 10      4  «  W  »\nP  K  to get value between  2  6.9 10  and\nand POT correct ✓\nCorrect unit, W and answer to 1, 2 or 3 significant figures ✓  4\nALTERNATIVE 2\nFinds I    1    from use of one point (x and y) on the line with\n  y  2  \n  \nx 6cm and C from (b)(i) to use in I    P  or\n4 (    C    x  )  2\n1    K  x    KC   ✓\nI\nCorrect re-arrangement to get P between  6.9 10      4  and\n9.5 10      4  «  W  »  and POT correct ✓\nCorrect unit, W and answer to 1, 2 or 3 significant figures ✓\n2.  c  this graph will be a curve / not be a straight line ✓  OWTTE\nmore difficult to determine value of K\nOR  2\nmore difficult to determine value of C\nOR\nsuitable mathematical argument ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. A student carries out an experiment to determine the variation of intensity of the light with distance from a point light source. The light source is at the centre of a transparent spherical cover of radius C. The student measures the distance $x$ from the surface of the cover to a sensor that measures the intensity $I$ of the light.\n[Diagram: point light source at centre of spherical cover of radius C; light sensor at distance x from the surface of the cover]\nThe light source emits radiation with a constant power P and all of this radiation is transmitted through the cover. The relationship between $I$ and $x$ is given by\n$I = \\dfrac{P}{4\\pi(C+x)^2}$\n(a) This relationship can also be written as follows.\n$\\dfrac{1}{\\sqrt{I}} = Kx + KC$\nShow that $K = 2\\sqrt{\\dfrac{\\pi}{P}}$. [1]\n(b) The student obtains a set of data and uses this to plot a graph of the variation of $\\dfrac{1}{\\sqrt{I}}$ with $x$.\n[Graph: $\\frac{1}{\\sqrt{I}}$ / W$^{-1/2}$ m (0 to 45) against x / cm (−5 to 25); five data points with a straight best-fit line from about (5.8, 12) to (25, 36)]\n(i) Estimate C. [2]\n(ii) Determine P, to the correct number of significant figures including its unit. [4]\n(c) Explain the disadvantage that a graph of $I$ versus $\\dfrac{1}{x^2}$ has for the analysis in (b)(i) and (b)(ii). [2]",
+   "review_note": "audit: relation given; all marks are data analysis"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3.  Rocket A and rocket B are travelling in opposite directions from the Earth along the same\nstraight line.\nrocket A  Earth  rocket B\nIn the reference frame of the Earth, the speed of rocket A is 0.75c and the speed of rocket B\nis 0.50c.\n(a)  Calculate, for the reference frame of rocket A, the speed of rocket B according to the\n(i)  Galilean transformation.  [1]\n(ii)  Lorentz transformation.  [2]\n(b)  Outline, with reference to special relativity, which of your calculations in (a) is more\nlikely to be valid.  [1]",
+   "ms_text": "3.  a  i  1.25c ✓  1\n3.  a  ii  ALTERNATIVE 1\nu    (0.50    0.75)  c  ✓\n1 0.5      0.75\n0.91c ✓\n2\nALTERNATIVE 2\nu      0.50    0.75  c  ✓\n1 ( 0.5      0.75)\n0.91c ✓\n3.  b  nothing can travel faster than the speed of light (therefore (a)(ii) is the  OWTTE\nvalid answer) ✓  1",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. Rocket A and rocket B are travelling in opposite directions from the Earth along the same straight line.\n[Diagram: rocket A moving left, Earth in middle, rocket B moving right]\nIn the reference frame of the Earth, the speed of rocket A is 0.75c and the speed of rocket B is 0.50c.\n(a) Calculate, for the reference frame of rocket A, the speed of rocket B according to the\n(i) Galilean transformation. [1]\n(ii) Lorentz transformation. [2]\n(b) Outline, with reference to special relativity, which of your calculations in (a) is more likely to be valid. [1]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 11,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4.  When a spaceship passes the Earth, an observer on the Earth and an observer on the\nspaceship both start clocks.  The initial time on both clocks is 12 midnight.  The spaceship\nis travelling at a constant velocity with     =  1.25.  A space station is stationary relative to the\nEarth and carries clocks that also read Earth time.\n(a)  Calculate the velocity of the spaceship relative to the Earth.  [1]\n(b)  The spaceship passes the space station 90 minutes later as measured by the\nspaceship clock.  Determine, for the reference frame of the Earth, the distance\nbetween the Earth and the space station.  [3]\n(c)  As the spaceship passes the space station, the space station sends a radio signal\nback to the Earth.  The reception of this signal at the Earth is event A.  Determine the\ntime on the Earth clock when event A occurs.  [2]\n(d)  Some of the radio signal is reflected at the surface of the Earth and this reflected\nsignal is later detected at the spaceship.  The detection of this signal is event B.\nThe spacetime diagram is shown for the Earth, showing the space station and\nthe spaceship.  Both axes are drawn to the same scale.\nct  spaceship\nEarth  0\n0  space  x\nstation\n(i)  Construct event A and event B on the spacetime diagram.  [3]\n(ii)  Estimate, using the spacetime diagram, the time at which event B occurs for\nthe spaceship.  [2]",
+   "ms_text": "4.  a  0.60c\nOR  1\n1.8 10    8  «  m s  –1  » ✓\n4.  b  ALTERNATIVE 1\ntime interval in the Earth frame    90        112.5 minutes ✓\n«in Earth frame it takes 112.5 minutes for ship to reach station»\nso distance   112.5 60 0.60c  ✓    \n1.2 10    12  «  m  »  ✓\n3\nALTERNATIVE 2\nDistance travelled according in the spaceship frame   90    60 0.6c  ✓  \n  9.72 10    11  « »  ✓  m\nDistance in the Earth frame   «  9.72 10    11    1.25  »    1.2 10    12  « »  ✓  m\n4.  c  signal will take  «  112.5 0.60      »  67.5 minutes  «  » to reach Earth «as it travels\nat c»\nOR\n1.2 10    12  2\nsignal will take  «    »  4000  « »  ✓  s\n3 10    8\ntotal time   «  67.5 112.5    »    180  minutes or 3.00 h or 3:00am✓\n4.  d  i  line from event E to A, upward and to left with A on ct axis (approx correct) ✓  eg:\nline from event A to B, upward and to right with B on ct' axis (approx\ncorrect) ✓\nboth lines drawn with ruler at 45 (judge by eye) ✓\n3\n4.  d  ii  ALTERNATIVE 1  Alternative 1:\n«In spaceship frame»\nFinds the ratio OB  OE  (or by similar triangles on x or ct axes), value is\napproximately 4 ✓\nhence time elapsed   4 90mins      6h «so clock time is 6:00 » ✓\n2\nAllow similar triangles using x-axis or ct-axis,\nsuch as distance 2  distance 1  from diagrams below\n4.  d  ii\nALTERNATIVE 2  ALTERNATIVE 2:\n«In Earth frame»\nFinds the ratio\nct  coordinate of B  ,value is\nct  coordinate of A\napproximately 2.5 ✓\nhence time elapsed    2.5 3h      6h\n1.25\n«so clock time is 6:00 » ✓",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. When a spaceship passes the Earth, an observer on the Earth and an observer on the spaceship both start clocks. The initial time on both clocks is 12 midnight. The spaceship is travelling at a constant velocity with $\\gamma = 1.25$. A space station is stationary relative to the Earth and carries clocks that also read Earth time.\n(a) Calculate the velocity of the spaceship relative to the Earth. [1]\n(b) The spaceship passes the space station 90 minutes later as measured by the spaceship clock. Determine, for the reference frame of the Earth, the distance between the Earth and the space station. [3]\n(c) As the spaceship passes the space station, the space station sends a radio signal back to the Earth. The reception of this signal at the Earth is event A. Determine the time on the Earth clock when event A occurs. [2]\n(d) Some of the radio signal is reflected at the surface of the Earth and this reflected signal is later detected at the spaceship. The detection of this signal is event B. The spacetime diagram is shown for the Earth, showing the space station and the spaceship. Both axes are drawn to the same scale.\n[Spacetime diagram: ct vs x axes on grid; vertical worldline of space station; straight worldline of spaceship from origin]\n(i) Construct event A and event B on the spacetime diagram. [3]\n(ii) Estimate, using the spacetime diagram, the time at which event B occurs for the spaceship. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5.  (a)  Explain what is meant by the statement that the spacetime interval is an invariant\nquantity.  [1]\n(b)  Observer A detects the creation (event 1) and decay (event 2) of a nuclear particle.\nAfter creation, the particle moves at a constant speed relative to A.  As measured by A,\nthe distance between the events is 15  m and the time between the events is 9.0 × 10– 8  s.\nObserver B moves with the particle.\nFor event 1 and event 2,\n(i)  calculate the spacetime interval.  [1]\n(ii)  determine the time between them according to observer B.  [2]\n(c)  Outline why the observed times are different for A and B.  [1]",
+   "ms_text": "5.  a  quantity that is the same/constant in all inertial frames ✓  1\n5.  b  i  spacetime interval    27  2    15  2    504 m  «  2  »  ✓  1\n5.  b  ii  ALTERNATIVE 1\nEvidence of x     0  ✓\nt    «    504  »    7.5 10      8  « »  ✓  s\nc\nALTERNATIVE 2  2\n1.2  ✓\n9 10      8\nt «      »    7.5 10      8  « »  ✓  s\n1.2\n5.  c  observer B measures the proper time and this is the shortest time measured\nOR\ntime dilation occurs «for B's journey» according to A  1\nOR\nobserver B is stationary relative to the particle, observer A is not ✓",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. (a) Explain what is meant by the statement that the spacetime interval is an invariant quantity. [1]\n(b) Observer A detects the creation (event 1) and decay (event 2) of a nuclear particle. After creation, the particle moves at a constant speed relative to A. As measured by A, the distance between the events is 15 m and the time between the events is $9.0 \\times 10^{-8}$ s. Observer B moves with the particle.\nFor event 1 and event 2,\n(i) calculate the spacetime interval. [1]\n(ii) determine the time between them according to observer B. [2]\n(c) Outline why the observed times are different for A and B. [1]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6.  Two protons, travelling in opposite directions, collide.  Each has a total energy of 3.35  GeV.\n(a)  Calculate the gamma (   ) factor for one of the protons.  [1]\n(b)  As a result of the collision, the protons are annihilated and three particles, a proton,\na neutron, and a pion are created.  The pion has a rest mass of 140  MeV c– 2.\nThe total energy of the emitted proton and neutron from the interaction is 6.20  GeV.\n(i)  Determine, in terms of MeV  c– 1, the momentum of the pion.  [3]\n(ii)  The diagram shows the paths of the incident protons together with the proton and\nneutron created in the interaction.  On the diagram, draw the path of the pion.  [1]\ncreated neutron\nincident proton  incident proton\ncreated proton",
+   "ms_text": "6.  a  3350\n  «    »    3.57  ✓  1\n938\n6.  b  i  energy of pion    (3350 2)– 6200      500 MeV  «  » ✓\n500  2    p c  2  2    140  2  ✓  3\np    480 MeV c  «  1  »  ✓\n6.  b  ii  path of pion constructed in direction around 4–5 o’clock\nby eye ✓\neg:\n1",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. Two protons, travelling in opposite directions, collide. Each has a total energy of 3.35 GeV.\n(a) Calculate the gamma ($\\gamma$) factor for one of the protons. [1]\n(b) As a result of the collision, the protons are annihilated and three particles, a proton, a neutron, and a pion are created. The pion has a rest mass of 140 MeV c$^{-2}$. The total energy of the emitted proton and neutron from the interaction is 6.20 GeV.\n(i) Determine, in terms of MeV c$^{-1}$, the momentum of the pion. [3]\n(ii) The diagram shows the paths of the incident protons together with the proton and neutron created in the interaction. On the diagram, draw the path of the pion. [1]\n[Diagram: two incident protons meeting head-on horizontally; created neutron moving up-right, created proton moving down-left]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7.  (a)  It is believed that a non-rotating supermassive black hole is likely to exist near the\ncentre of our galaxy.  This black hole has a mass equivalent to 3.6 million times that of\nthe Sun.\n(i)  Outline what is meant by the event horizon of a black hole.  [1]\n(ii)  Calculate the distance of the event horizon of the black hole from its centre.  [2]\nMass of Sun  =  2 × 1030  kg\n(b)  Star S-2 is in an elliptical orbit around a black hole.  The distance of S-2 from the\ncentre of the black hole varies between a few light-hours and several light-days.\nA periodic event on S-2 occurs every 5.0  s.\nS-2\norbital path\nblack hole\nDiscuss how the time for the periodic event as measured by an observer on the Earth\nchanges with the orbital position of S-2.  [2]",
+   "ms_text": "7.  a  i  boundary inside which events cannot be communicated to an outside observer  OWTTE\nOR  1\ndistance/surface at which escape velocity c  ✓\n7.  a  ii  mass of black hole    7.2 10    36  «  kg  »  ✓\n2\n«  2  GM    »  1 10    10  «  m  »  ✓\nc  2\n7.  b  wherever S-2 is in orbit, time observed is longer than 5.0 s ✓\nwhen closest to the star S-2 periodic time dilated more than when at greatest distance ✓\nJustification using formula or time is more dilated in stronger gravitational fields ✓  2 max",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. (a) It is believed that a non-rotating supermassive black hole is likely to exist near the centre of our galaxy. This black hole has a mass equivalent to 3.6 million times that of the Sun.\n(i) Outline what is meant by the event horizon of a black hole. [1]\n(ii) Calculate the distance of the event horizon of the black hole from its centre. [2]\nMass of Sun = $2 \\times 10^{30}$ kg\n(b) Star S-2 is in an elliptical orbit around a black hole. The distance of S-2 from the centre of the black hole varies between a few light-hours and several light-days. A periodic event on S-2 occurs every 5.0 s.\n[Diagram: elliptical orbital path of star S-2 around a black hole near one end]\nDiscuss how the time for the periodic event as measured by an observer on the Earth changes with the orbital position of S-2. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 9,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8.  A wheel of mass 0.25  kg consists of a cylinder mounted on a central shaft.  The shaft has a\nradius of 1.2  cm and the cylinder has a radius of 4.0  cm.  The shaft rests on two rails with\nthe cylinder able to spin freely between the rails.\ncylinder\nrails\ncentral shaft\n(a)  The stationary wheel is released from rest and rolls down a slope with the shaft rolling\non the rails without slipping from point A to point B.\nA  not to scale\n0.36  m\nrail\nflat track\nB  C\n(i)  The moment of inertia of the wheel is 1.3 × 10– 4  kg  m2.  Outline what is meant by\nthe moment of inertia.  [1]\n(ii)  In moving from point A to point B, the centre of mass of the wheel falls through\na vertical distance of 0.36  m.  Show that the translational speed of the wheel is\nabout 1  m  s– 1 after its displacement.  [3]\n(iii)  Determine the angular velocity of the wheel at B.  [1]\n(b)  The wheel leaves the rails at point B and travels along the flat track to point C.\nFor a short time the wheel slips and a frictional force F  exists on the edge of the\nwheel as shown.\ndirection of rotation\nF\nDescribe the effect of F  on the\n(i)  linear speed of the wheel.  [2]\n(ii)  angular speed of the wheel.  [2]",
+   "ms_text": "8.  a  i  an object’s resistance to change in rotational motion  OWTTE\nOR  1\nequivalent of mass in rotational equations ✓\n8.  a  ii    KE    rotational KE    GPE\nOR\nv  2\n1  mv  2    1  I    mgh  ✓\n2  2  r  2\n2  3\n1    0.250    v  2    1    1.3 10      4    v    0.250 9.81 0.36      ✓\n2  2  1.44 10      4\nv    1.2  «  m s    1  » ✓\n8.  a  iii      1.2 »      1\n«  100  «  rad s  »  ✓\n0.012\n1\n8.  b  i  force in direction of motion ✓\n2\nso linear speed increases ✓\n8.  b  ii  force gives rise to anticlockwise/opposing torque on wheel ✓  OWTTE\n2\nso angular speed decreases ✓",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.4",
+    "A.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. A wheel of mass 0.25 kg consists of a cylinder mounted on a central shaft. The shaft has a radius of 1.2 cm and the cylinder has a radius of 4.0 cm. The shaft rests on two rails with the cylinder able to spin freely between the rails.\n[Diagram: cylinder on a central shaft resting on two parallel rails]\n(a) The stationary wheel is released from rest and rolls down a slope with the shaft rolling on the rails without slipping from point A to point B.\n[Diagram: rail sloping down from A (0.36 m high) to B, then flat track from B to C; not to scale]\n(i) The moment of inertia of the wheel is $1.3 \\times 10^{-4}$ kg m$^2$. Outline what is meant by the moment of inertia. [1]\n(ii) In moving from point A to point B, the centre of mass of the wheel falls through a vertical distance of 0.36 m. Show that the translational speed of the wheel is about 1 m s$^{-1}$ after its displacement. [3]\n(iii) Determine the angular velocity of the wheel at B. [1]\n(b) The wheel leaves the rails at point B and travels along the flat track to point C. For a short time the wheel slips and a frictional force F exists on the edge of the wheel as shown.\n[Diagram: wheel leaving the rail, rotating clockwise, frictional force F at the bottom edge pointing forward in the direction of travel]\nDescribe the effect of F on the\n(i) linear speed of the wheel. [2]\n(ii) angular speed of the wheel. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 11,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9.  A cylinder is fitted with a piston.  A fixed mass of an ideal gas fills the space above the piston.\ncylinder  ideal gas\npiston (free to move)\nThe gas expands isobarically.  The following data are available.\nAmount of gas  =  243  mol\nInitial volume of gas  =  47.1  m3\nInitial temperature of gas\t=  – 12.0  ˚C\nFinal temperature of gas\t =  + 19.0  ˚C\nInitial pressure of gas  =  11.2  kPa\n(a)  Show that the final volume of the gas is about 53  m3.  [2]\n(b)  Calculate, in J, the work done by the gas during this expansion.  [2]\n(c)  Determine the thermal energy which enters the gas during this expansion.  [3]\n(d)  The gas returns to its original state by an adiabatic compression followed by cooling at\nconstant volume.\n(i)  Sketch, on the pV diagram, the complete cycle of changes for the gas,\nlabelling the changes clearly.  The expansion shown in (a) and (b) is drawn\nfor you.  [2]\np\n00  V\n(ii)  Outline the change in entropy of the gas during the cooling at constant volume.  [1]\n(e)  There are various equivalent versions of the second law of thermodynamics.\nOutline the benefit gained by having alternative forms of a law.  [1]",
+   "ms_text": "9.  a  ALTERNATIVE 1\n«Using  V    V\nT  1  1  T »  2  2\nV    47.1 (273      19)  ✓\n2  (273    12)\nV   2  52.7 m  «  3  » ✓\n2\nALTERNATIVE 2\n«Using  PV    nRT »\nV    243    8.31 (273      19)  ✓\n11.2 10    3\nV    52.6  «  m  3  »  ✓\n9.  b  W  «    P V    »    11.2 10    3    (52.7    47.1)  ✓  Accept 66.1 103 J if 53 used  ×\n3  Accept 61.6 103 J if 52.6 used  ×\nW   62.7 10    « » ✓  J  2\n9.  c  3  4\n  U  «    nR T    »    1.5    243 8.31 (19        ( 12))    9.39 10    ✓\n2\nQ  «    U    W  »    9.39 10    4    6.27 10    4  ✓  Accept 1.60 105 if 66.1 103 J used  ×  ×\n3\nAccept 1.55 105 if 61.6 103 J used  ×  ×\nQ   1.57 10    5  « » ✓  J\n9.  d  i  concave curve from RHS of present line to point above LHS of\npresent line ✓\nvertical line from previous curve to the beginning ✓  eg: p\n2\n00  V\n9.  d  ii  energy is removed from the gas and so entropy decreases  OWTTE\nOR\n1\ntemperature decreases «at constant volume (less disorder)»\nso entropy decreases ✓\n9.  e  different paradigms/ways of thinking/modelling/views ✓  OWTTE\nallows testing in different ways ✓  1 max\nlaws can be applied different situations ✓",
+   "mcq_answer": null,
+   "topics": [
+    "B"
+   ],
+   "subtopics": [
+    "B.4",
+    "B.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. A cylinder is fitted with a piston. A fixed mass of an ideal gas fills the space above the piston.\n[Diagram: vertical cylinder with ideal gas above a piston that is free to move]\nThe gas expands isobarically. The following data are available.\nAmount of gas = 243 mol\nInitial volume of gas = 47.1 m$^3$\nInitial temperature of gas = −12.0 °C\nFinal temperature of gas = +19.0 °C\nInitial pressure of gas = 11.2 kPa\n(a) Show that the final volume of the gas is about 53 m$^3$. [2]\n(b) Calculate, in J, the work done by the gas during this expansion. [2]\n(c) Determine the thermal energy which enters the gas during this expansion. [3]\n(d) The gas returns to its original state by an adiabatic compression followed by cooling at constant volume.\n(i) Sketch, on the pV diagram, the complete cycle of changes for the gas, labelling the changes clearly. The expansion shown in (a) and (b) is drawn for you. [2]\n[Graph: p vs V axes with a horizontal arrow to the right representing the isobaric expansion]\n(ii) Outline the change in entropy of the gas during the cooling at constant volume. [1]\n(e) There are various equivalent versions of the second law of thermodynamics. Outline the benefit gained by having alternative forms of a law. [1]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10.  Two tubes, A and B, are inserted into a fluid flowing through a horizontal pipe of\ndiameter 0.50  m.  The openings X and Y of the tubes are at the exact centre of the pipe.\nThe liquid rises to a height of 0.10  m in tube A and 0.32  m in tube B.  The density of the\nfluid =  1.0 × 103  kg  m– 3.\ntube A  tube B\nair\n0.32  m\n0.10  m\ndirection of flow  0.50  m  X  Y\n(a)  Show that the velocity of the fluid at X is about 2  ms– 1, assuming that the flow\nis laminar.  [3]\n(b)  The viscosity of water is 8.9 × 10–  4  Pa  s.\n(i)  Estimate the Reynolds number for the fluid in your answer to (a).  [1]\n(ii)  Outline whether your answer to (a) is valid.  [1]",
+   "ms_text": "10.  a  1    2           ✓\nv  X  p  Y  p  X  g h\n2\nv    2 9.8 (0.32        0.10)  ✓  3\nX\nv    2.08 ms  «    1  » ✓\nX\n10.  b  i  vr    2.1 0.25 10      3  5\nR    «      »  5.9 10    ✓\n  8.9 10    4  1\n10.  b  ii  (  R   1000)  flow is not laminar, so assumption is invalid ✓  OWTTE  1",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. Two tubes, A and B, are inserted into a fluid flowing through a horizontal pipe of diameter 0.50 m. The openings X and Y of the tubes are at the exact centre of the pipe. The liquid rises to a height of 0.10 m in tube A and 0.32 m in tube B. The density of the fluid = $1.0 \\times 10^3$ kg m$^{-3}$.\n[Diagram: horizontal pipe of diameter 0.50 m with flow to the right; straight tube A with opening X facing sideways, liquid 0.10 m above pipe; bent tube B with opening Y facing the flow, liquid 0.32 m above pipe]\n(a) Show that the velocity of the fluid at X is about 2 m s$^{-1}$, assuming that the flow is laminar. [3]\n(b) The viscosity of water is $8.9 \\times 10^{-4}$ Pa s.\n(i) Estimate the Reynolds number for the fluid in your answer to (a). [1]\n(ii) Outline whether your answer to (a) is valid. [1]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11.  The natural frequency of a driven oscillating system is 6  kHz.  The frequency of the driver for\nthe system is varied from zero to 20  kHz.\n(a)  Draw a graph to show the variation of amplitude of oscillation of the system\nwith frequency.  [3]\namplitude\n0  2  4  6  8  10  12  14  16  18  20\nfrequency / kHz\n(b)  The Q factor for the system is reduced significantly.  Describe how the graph you drew\nin (a) changes.  [2]",
+   "ms_text": "11.  a  general shape as shown ✓\npeak at 6 kHz ✓\ngraph does not touch the f axis ✓\n3\n11.  b  peak broadens ✓\nreduced maximum amplitude / graph shifted down ✓  2 max\nresonant frequency decreases / graph shifted to the left ✓",
+   "mcq_answer": null,
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. The natural frequency of a driven oscillating system is 6 kHz. The frequency of the driver for the system is varied from zero to 20 kHz.\n(a) Draw a graph to show the variation of amplitude of oscillation of the system with frequency. [3]\n[Blank axes: amplitude vs frequency / kHz from 0 to 20]\n(b) The Q factor for the system is reduced significantly. Describe how the graph you drew in (a) changes. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q12",
+   "num": "12",
+   "section": "C",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12.  A ray diagram for a converging lens is shown.  The object is labelled O and the image is\nlabelled I.\n2.0 cm\nO\nI\nconverging lens\n(a)  Using the ray diagram,\n(i)  determine the focal length of the lens.  [2]\n(ii)  calculate the linear magnification.  [1]\n(b)  The diagram shows an incomplete ray diagram which consists of a red ray of light and\na blue ray of light which are incident on a converging glass lens.  In this glass lens the\nrefractive index for blue light is greater than the refractive index for red light.\nred light ray\nprincipal axis\nblue light ray\nconverging glass lens\nUsing the diagram, outline the phenomenon of chromatic aberration.  [2]",
+   "ms_text": "12.  a  i  constructs ray parallel to principal axis and then to  eg:  2.0 cm\nimage position\nOR\nu    8cm and  v    24cm and lens formula ✓  O\nI\n2\nconverging lens\n6 «cm» ✓  Allow answers in the range of 5.6 to 6.4 cm\n12.  a  ii  m «»3.0 ✓  1\n12.  b  completes diagram with blue focal point closer to lens ✓ First marking point can be explained in words or seen on diagram\nblue light/rays refracted/deviated more\nOR\nspeed of blue light is less than speed of red light ✓  2\nOR\ndifferent colors/wavelengths have different focal\npoints/converge at different points ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. A ray diagram for a converging lens is shown. The object is labelled O and the image is labelled I.\n[Ray diagram on grid (scale 2.0 cm): object O left of a converging lens, two rays drawn converging to an inverted real image I on the right]\n(a) Using the ray diagram,\n(i) determine the focal length of the lens. [2]\n(ii) calculate the linear magnification. [1]\n(b) The diagram shows an incomplete ray diagram which consists of a red ray of light and a blue ray of light which are incident on a converging glass lens. In this glass lens the refractive index for blue light is greater than the refractive index for red light.\n[Diagram: parallel red ray (above axis) and blue ray (below axis) incident on a converging glass lens; refracted red ray drawn crossing the principal axis]\nUsing the diagram, outline the phenomenon of chromatic aberration. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q13",
+   "num": "13",
+   "section": "C",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13.  The diagram represents a simple optical astronomical reflecting telescope with the path of\nsome light rays shown.\nprimary mirror\nsecondary mirror\nreflecting telescope\n(a)  Identify, with the letter X, the position of the focus of the primary mirror.  [1]\n(b)  This arrangement using the secondary mirror is said to increase the focal length of the\nprimary mirror.  State why this is an advantage.  [1]\n(c)  It is proposed to build an array of radio telescopes such that the maximum distance\nbetween them is 3800  km.  The array will operate at a wavelength of 2.1  cm.\nComment on whether it is possible to build an optical telescope operating at 580  nm\nthat is to have the same resolution as the array.  [3]",
+   "ms_text": "13.  a  where the extensions of the reflected rays from the primary mirror  eg:  primary mirror\nwould meet, with construction lines ✓\nsecondary mirror\n1\nX\nreflecting telescope\n13.  b  greater magnification ✓  1\n13.  c  «use of  1.22    to get» resolution of  6.7 10      9  «  rad  » ✓\nd\n5.8 10      7  5.8 10      7\n  87  «  m  »✓  Allow      105  «  m  »  3\n6.7 10      9  5.5 10    9\nsome reference to difficulty in making optical mirrors/lenses of this\nsize ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9",
+    "X.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. The diagram represents a simple optical astronomical reflecting telescope with the path of some light rays shown.\n[Diagram: reflecting telescope on grid with concave primary mirror on the right, convex secondary mirror on the left reflecting rays back through a hole in the primary to the eye]\n(a) Identify, with the letter X, the position of the focus of the primary mirror. [1]\n(b) This arrangement using the secondary mirror is said to increase the focal length of the primary mirror. State why this is an advantage. [1]\n(c) It is proposed to build an array of radio telescopes such that the maximum distance between them is 3800 km. The array will operate at a wavelength of 2.1 cm. Comment on whether it is possible to build an optical telescope operating at 580 nm that is to have the same resolution as the array. [3]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q14",
+   "num": "14",
+   "section": "C",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14.  (a)  An optic fibre of refractive index 1.4475 is surrounded by air.  The critical angle for\nthe core – air boundary interface is 44.  Suggest, with a calculation, why the use of\ncladding with refractive index 1.4444 improves the performance of the optic fibre.  [3]\n(b)  An optic fibre of length 185  km has an attenuation of 0.200  dB  km– 1.  The input power to\nthe cable is 400.0  mW.  The output power from the cable must not fall below 2.0  mW.\n(i)  Calculate the maximum attenuation allowed for the signal.  [2]\n(ii)  An amplifier can increase the power of the signal by 12  dB.  Determine the\nminimum number of amplifiers required.  [2]\n(iii)  The graph shows the variation with wavelength of the refractive index of the glass\nfrom which the optic fibre is made.\nrefractive index\n A   B  wavelength\nTwo light rays enter the fibre at the same instant along the axes.  Ray A has a\nwavelength of   A  and ray B has a wavelength of   B .  Discuss the effect that the\ndifference in wavelength has on the rays as they pass along the fibre.  [2]\n(c)  In many places clad optic fibres are replacing copper cables.  State one example of\nhow fibre optic technology has impacted society.  [1]",
+   "ms_text": "14.  a  1.4444  OWTTE\nsin  c   or sin  c   0.9978  ✓\n1.4475\ncritical angle 86.2« »  ✓\nwith cladding only rays travelling nearly parallel to fibre axis are  3\ntransmitted\nOR\npulse broadening/dispersion will be reduced ✓\n14.  b  i  I  2.0 10      6  400\nattenuation    «  10 log  »    10 log    ✓  Accept  10 log 2.0  for first marking point\nI  400 10    6\n0  2\nattenuation «»23 «dB» ✓\n14.  b  ii  1850.200 37 loss over length of cable ✓\n37    23  2\n«    1.17  »so two amplifiers are sufficient ✓\n12\n14.  b  iii  mention of material dispersion ✓\nmention that rays become separated in time\nOR\nmention that ray A travels slower/arrives later than ray B ✓  2\n14.  c  high bandwidth/data transfer rates ✓  Allow any other verifiable sensible advantage\nlow distortion/Low noise/Faithful reproduction ✓\nhigh security ✓\nfast «fibre» broadband/internet ✓  1 max\nhigh quality optical audio ✓\nmedical endoscopy ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.10",
+    "C.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "14. (a) An optic fibre of refractive index 1.4475 is surrounded by air. The critical angle for the core–air boundary interface is 44°. Suggest, with a calculation, why the use of cladding with refractive index 1.4444 improves the performance of the optic fibre. [3]\n(b) An optic fibre of length 185 km has an attenuation of 0.200 dB km$^{-1}$. The input power to the cable is 400.0 μW. The output power from the cable must not fall below 2.0 μW.\n(i) Calculate the maximum attenuation allowed for the signal. [2]\n(ii) An amplifier can increase the power of the signal by 12 dB. Determine the minimum number of amplifiers required. [2]\n(iii) The graph shows the variation with wavelength of the refractive index of the glass from which the optic fibre is made.\n[Graph: refractive index decreasing steeply then levelling off with wavelength; shaded band between $\\lambda_A$ and $\\lambda_B$]\nTwo light rays enter the fibre at the same instant along the axes. Ray A has a wavelength of $\\lambda_A$ and ray B has a wavelength of $\\lambda_B$. Discuss the effect that the difference in wavelength has on the rays as they pass along the fibre. [2]\n(c) In many places clad optic fibres are replacing copper cables. State one example of how fibre optic technology has impacted society. [1]",
+   "review_note": "audit: critical-angle calculation earns 2 marks"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q15",
+   "num": "15",
+   "section": "C",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "15.  (a)  Outline the formation of a B scan in medical ultrasound imaging.  [3]\n(b)  The attenuation values for fat and muscle at different X-ray energies are shown.\nEnergy of X-rays /  Fat attenuation  Muscle attenuation\nkeV  coefficient / cm– 1  coefficient / cm– 1\n1  2030.9767  3947.2808\n5  18.4899  43.8253\n10  2.3560  5.5720\n20  0.4499  0.8490\n(i)  State what is meant by half-value thickness in X-ray imaging.  [1]\n(ii)  A monochromatic X-ray beam of energy 20  keV and intensity  I0  penetrates\n5.00  cm of fat and then 4.00  cm of muscle.\nfat, 5.00  cm  muscle, 4.00  cm\nX-ray beam, I0\nCalculate, in terms of I 0, the final beam intensity that emerges from the muscle.  [3]\n(iii)  Compare the use of high and low energy X-rays for medical imaging.  [3]",
+   "ms_text": "15.  a  many/array of transducers send ultrasound through body/object ✓\nB scan made from many A scans in different directions ✓\nthe reflection from organ boundaries gives rise to position ✓  3 max\nthe amplitude/size gives brightness to the B scan ✓\n2D/3D image formed «by computer» ✓\n15.  b  i  the thickness of tissue that reduces the intensity «of the X-rays» by a half\nOR\n1\nln2  Symbols must be defined for mark to be\nx  1    where x1  2 is the half value thickness and  is attenuation coefficient ✓  awarded\n2  \n15.  b  ii  after fat layer,  I  fat    I  0  e  0.4499 5.00    ✓\nafter muscle layer,  I    I  fat  e  0.8490 4.00    ✓\n3\nI    0.003533  I0  or 0.35%  ✓\n15.  b  iii  «high energies factors:»\nless attenuation/more penetration ✓\nmore damage to the body ✓\n«so» stronger signal leaves the body\nOR\n«so» used in «most» medical imaging techniques ✓\n«low energy factors:»  3 max\nmust be used with enhancement techniques ✓\ngreater attenuation/less penetration ✓\n«so» more damage to the body «on surface layers»\nOR\n«so» unwanted in «most» medical imaging techniques ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "15. (a) Outline the formation of a B scan in medical ultrasound imaging. [3]\n(b) The attenuation values for fat and muscle at different X-ray energies are shown.\nEnergy of X-rays / keV | Fat attenuation coefficient / cm$^{-1}$ | Muscle attenuation coefficient / cm$^{-1}$\n1 | 2030.9767 | 3947.2808\n5 | 18.4899 | 43.8253\n10 | 2.3560 | 5.5720\n20 | 0.4499 | 0.8490\n(i) State what is meant by half-value thickness in X-ray imaging. [1]\n(ii) A monochromatic X-ray beam of energy 20 keV and intensity $I_0$ penetrates 5.00 cm of fat and then 4.00 cm of muscle.\n[Diagram: X-ray beam $I_0$ passing through fat, 5.00 cm, then muscle, 4.00 cm]\nCalculate, in terms of $I_0$, the final beam intensity that emerges from the muscle. [3]\n(iii) Compare the use of high and low energy X-rays for medical imaging. [3]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q16",
+   "num": "16",
+   "section": "D",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "16.  (a)  Main sequence stars are in equilibrium under the action of forces.  Outline how this\nequilibrium is achieved.  [2]\n(b)  A main sequence star P, is 1.3 times the mass of the Sun.  Calculate the luminosity of P\nrelative to the Sun.  [1]\n(c)  The following data apply to the star Gacrux.\nRadius  =  58.5 × 109  m\nTemperature =  3600  K\nDistance  =  88  ly\n(i)  The luminosity of the Sun      is 3.85 × 1026  W.  Determine the luminosity of Gacrux  L?\nrelative to the Sun.  [3]\n(ii)  The distance to Gacrux can be determined using stellar parallax.  Outline why\nthis method is not suitable for all stars.  [1]\n(d)  A Hertzsprung–Russell (HR) diagram is shown.\n106\n105\n104\n103\n102\nluminosity / L?  10\n1\n10– 1\n10– 2\n10– 3\n20 000  10 000  5000  2500\ntemperature / K\nOn the HR diagram,\n(i)  draw the main sequence.  [1]\n(ii)  plot the position, using the letter P, of the main sequence star P you calculated\nin (b).  [1]\n(iii)  plot the position, using the letter G, of Gacrux.  [1]\n(e)  Discuss, with reference to its change in mass, the evolution of star P from the\nmain sequence until its final stable phase.  [3]",
+   "ms_text": "16.  a  photon/fusion/radiation force/pressure balances gravitational  OWTTE\nforce/pressure ✓\ngives both directions correctly (outwards radiation, inwards gravity) ✓  2\n16.  b  «  L    M  3.5  for main sequence»\n1\nluminosity of P 2.5  «luminosity of the Sun» ✓\n16.  c  i  L  Gacrux    5.67 10      8    4    (58.5 10 )    9 2    3600  ✓  4\nL    4.1 10    29  «  W  »  ✓\nGacrux\n3\nL  4.1 10    29\nGacrux  «    »    1.1 10    3  ✓\nL  3.85 10    26\n16.  c  ii  if the star is too far then the parallax angle is too small to be measured  OWTTE\nOR  1\nstellar parallax is limited to closer stars ✓\n16.  d  i  line or area roughly inside shape shown – judge by eye ✓  Accept straight line or straight area at roughly 45°\n1\n16.  d  ii  P between 1L  and 101L  on main sequence drawn ✓\n1\n16.  d  iii  at 10  3L  , further to right than 5000 K and to the left of 2500 K\n(see shaded region)✓\n1\n16.  e  ALTERNATIVE 1  OWTTE for both alternatives\nMain sequence to red giant ✓\nplanetary nebula with mass reduction/loss\nOR\nplanetary nebula with mention of remnant mass ✓\nwhite dwarf ✓\nALTERNATIVE 2\nMain sequence to red supergiant region ✓  3\nSupernova with mass reduction/loss\nOR\nSupernova with mention of remnant mass ✓\nneutron star\nOR\nBlack hole ✓",
+   "mcq_answer": null,
+   "topics": [
+    "E",
+    "B"
+   ],
+   "subtopics": [
+    "E.5",
+    "B.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "16. (a) Main sequence stars are in equilibrium under the action of forces. Outline how this equilibrium is achieved. [2]\n(b) A main sequence star P, is 1.3 times the mass of the Sun. Calculate the luminosity of P relative to the Sun. [1]\n(c) The following data apply to the star Gacrux.\nRadius = $58.5 \\times 10^9$ m\nTemperature = 3600 K\nDistance = 88 ly\n(i) The luminosity of the Sun $L_\\odot$ is $3.85 \\times 10^{26}$ W. Determine the luminosity of Gacrux relative to the Sun. [3]\n(ii) The distance to Gacrux can be determined using stellar parallax. Outline why this method is not suitable for all stars. [1]\n(d) A Hertzsprung–Russell (HR) diagram is shown.\n[Blank HR diagram: luminosity / $L_\\odot$ from $10^{-3}$ to $10^6$ (log scale) against temperature / K (20 000, 10 000, 5000, 2500 decreasing to the right)]\nOn the HR diagram,\n(i) draw the main sequence. [1]\n(ii) plot the position, using the letter P, of the main sequence star P you calculated in (b). [1]\n(iii) plot the position, using the letter G, of Gacrux. [1]\n(e) Discuss, with reference to its change in mass, the evolution of star P from the main sequence until its final stable phase. [3]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q17",
+   "num": "17",
+   "section": "D",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "17.  Data from distant galaxies are shown on the graph.\n5.0\nA\n4.0\n3.0\nvelocity /\n×104  km  s– 1\n2.0\n1.0\n0.0\n0  100  200  300  400  500  600  700\ndistance / Mpc\n(a)  Estimate, using the data, the age of the universe.  Give your answer in seconds.  [3]\n(b)  Identify the assumption that you made in your answer to (a).  [1]\n(c)  On the graph, one galaxy is labelled A.  Determine the size of the universe, relative to\nits present size, when light from the galaxy labelled A was emitted.  [3]",
+   "ms_text": "17.  a  v  1  d  Allow final answers between\nuse of gradient or any coordinate pair to find  H  0  «    »  or  «    »  ✓\nd  H  0  v  3.7   1017 and 3.9   1017 «s»  or 4   1017 «s»  ×  ×  ×\nconvert Mpc to m and km to m «for example  82 10    3  » ✓\n10  6    3.26 9.46 10      15\nage of universe  «    1  »    3.8 10    17  « »  ✓  s\nH  3\n0\n17.  b  non-accelerated/uniform rate of expansion  OWTTE\nOR  1\nH0  constant over time ✓\n17.  c  v  4.6 10    4    10  3\nz  «    »    8    0.15  ✓\nc  3.00 10  \nR\nR   0  «  z    1  »    1.15  ✓\n3\nR  1\nR   0  «  1.15    »  0.87\nOR\n87 % of the present size ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.12",
+    "C.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "17. Data from distant galaxies are shown on the graph.\n[Graph: velocity / $\\times 10^4$ km s$^{-1}$ (0 to 5.0) against distance / Mpc (0 to 700); eight data points with horizontal error bars and a straight best-fit line through the origin; topmost point labelled A at about (560 Mpc, $4.6 \\times 10^4$ km s$^{-1}$)]\n(a) Estimate, using the data, the age of the universe. Give your answer in seconds. [3]\n(b) Identify the assumption that you made in your answer to (a). [1]\n(c) On the graph, one galaxy is labelled A. Determine the size of the universe, relative to its present size, when light from the galaxy labelled A was emitted. [3]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q18",
+   "num": "18",
+   "section": "D",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "18.  (a)  Outline, with reference to the Jeans criterion, why a cold dense gas cloud is more likely\nto form new stars than a hot diffuse gas cloud.  [2]\n(b)  Explain how neutron capture can produce elements with an atomic number greater\nthan iron.  [2]",
+   "ms_text": "18.  a  «For a star to form»:  magnitude of PE of gas cloud  KE of gas cloud  Accept  E  p    E  k    0\nOR\nMass of cloud  Jean's mass\nOR\nJean’s criterion is the critical mass ✓\nhence a hot diffuse cloud could have KE which is too large/PE too small\n2\nOR\nhence a cold dense cloud will have low KE/high PE\nOR\na cold dense cloud is more likely to exceed Jeans mass\nOR\na hot diffuse cloud is less likely to exceed the Jeans mass ✓\n18.  b  Neutron capture creates heavier isotopes / heavier nuclei / more unstable nucleus ✓  OWTTE\nβ- decay of heavy elements/iron increases atomic number «by 1» ✓  2",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "18. (a) Outline, with reference to the Jeans criterion, why a cold dense gas cloud is more likely to form new stars than a hot diffuse gas cloud. [2]\n(b) Explain how neutron capture can produce elements with an atomic number greater than iron. [2]"
+  },
+  {
+   "id": "physics-2018-M-P3-TZ2-q19",
+   "num": "19",
+   "section": "D",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "19.  (a)  Explain the evidence that indicates the location of dark matter in galaxies.  [3]\n(b)  Outline why a hypothesis of dark energy has been developed.  [3]",
+   "ms_text": "19.  a  «rotational» velocity of stars are expected to decrease as distance from centre of  OWTTE\ngalaxy increases ✓  1st and 2nd marking points can\nthe observed velocity of outer stars is constant/greater than predicted ✓  be awarded from an annotated\nimplying large mass on the edge «which is dark matter» ✓  sketch with similar shape as the\none below\n3\n19.  b  data from type 1a supernovae shows universe expanding at an accelerated rate ✓  OWTTE\ngravity was expected to slow down the expansion of the universe\nOR\nthis did not fit the hypotheses at that time ✓\n3\ndark energy counteracts/opposes gravity\nOR\ndark energy causes the acceleration ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "19. (a) Explain the evidence that indicates the location of dark matter in galaxies. [3]\n(b) Outline why a hypothesis of dark energy has been developed. [3]"
+  }
+ ],
+ "qp_pages": 40,
+ "status": "done"
+}

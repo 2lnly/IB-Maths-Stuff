@@ -1,0 +1,283 @@
+{
+ "exam_id": "physics-2013-M-P3-TZ1",
+ "questions": {
+  "E1": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "E1. This question is about asteroids.\n(a) State the nature of an asteroid. [1]\n(b) State the position of the asteroid belt in the solar system. [1]"
+  },
+  "E2": {
+   "topics": [
+    "E",
+    "B"
+   ],
+   "subtopics": [
+    "E.5",
+    "B.1"
+   ],
+   "text_clean": "E2. This question is about the properties of a star.\n(a) The peak in the radiation spectrum of a star X is at a wavelength of 300 nm.\nShow that the surface temperature of star X is about 10 000 K. [2]\n(b) (i) The radius of star X is $4.5R_S$ where $R_S$ is the radius of the Sun. The surface temperature of the Sun is $5.7\\times10^{3}$ K.\nDetermine the ratio $\\frac{\\text{luminosity of star X}}{\\text{luminosity of the Sun}}$. [3]\n(ii) Calculate, assuming that the power in the mass–luminosity relationship is 3.5, the ratio $\\frac{\\text{mass of star X}}{\\text{mass of Sun}}$. [3]\n(c) On the Hertzsprung–Russell diagram, label\n(i) the position of star X with the letter X. [1]\n(ii) the position of the Sun with the letter S. [1]\n[Graph: blank Hertzsprung–Russell grid; vertical axis relative luminosity (Sun = 1) on log scale from 0.01 to 1000; horizontal axis surface temperature / K from 40 000 to 2500 (decreasing, log scale, marks 40 000, 20 000, 10 000, 5000, 2500)]\n(d) Explain, with reference to the Chandrasekhar limit, whether or not star X will become a white dwarf. [2]",
+   "qtype": "long"
+  },
+  "E3": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "E3. This question is about variable stars.\nCepheid variable stars are used as \"standard candles\" by astronomers.\n(a) (i) State what is meant by a standard candle. [1]\n(ii) Outline the properties of a Cepheid star that allow it to be used as a standard candle. [2]\n(b) Explain how astronomers use their observations of a Cepheid star to determine the distance from the star to Earth. [3]"
+  },
+  "E4": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "text_clean": "E4. This question is about Newton's model of the universe.\nNewton suggested that the universe is infinite, uniform and static.\nFor each of Newton's three suggestions, outline one piece of current astronomical evidence that contradicts the suggestion. [3]\nInfinite: ...\nUniform: ...\nStatic: ..."
+  },
+  "E5": {
+   "topics": [
+    "E",
+    "C",
+    "X"
+   ],
+   "subtopics": [
+    "E.5",
+    "C.5",
+    "X.12"
+   ],
+   "text_clean": "E5. This question is about red-shift.\nThe wavelengths of radio signals from galaxy A are found to be red-shifted from the wavelengths that would be observed from sources at rest relative to Earth.\n(a) The fractional change in wavelength of the radio signals from galaxy A is $9.4\\times10^{-3}$.\nCalculate, in $\\text{km s}^{-1}$, the average velocity of galaxy A relative to Earth. [2]\n(b) A supernova was observed within galaxy A. At the peak of its emissions, the supernova had an absolute magnitude of –20 and an apparent magnitude of 13.\nShow that the distance from Earth to the supernova is about 40 Mpc. [3]\n(c) Estimate, using your answer to (a) and the result for (b), the age of the universe. ($1\\text{ pc} = 3.1\\times10^{13}$ km) [2]"
+  },
+  "F1": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "F1. This question is about amplitude modulation.\nThe graph shows the power spectrum of a carrier wave that has been amplitude modulated by a single-frequency information signal.\n[Graph: intensity against frequency / MHz, axis from 149.999 to 150.001; a tall line at 150.000 MHz and two shorter side lines symmetrically placed at about 149.9994 and 150.0006 MHz]\n(a) State the\n(i) frequency of the information signal. [1]\n(ii) bandwidth of the modulated signal. [1]\n(b) Frequency modulated (FM) radio transmission is preferred to amplitude modulated (AM) radio transmission when high audio quality is required. Explain, with reference to the amplitude of the frequency modulated signal, why this is true. [3]\n(c) Outline two disadvantages in the use of FM transmission compared to AM transmission. [2]"
+  },
+  "F2": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14",
+    "X.13"
+   ],
+   "text_clean": "F2. This question is about analogue-to-digital conversion.\nA 3-bit digital system for the conversion of an analogue signal into a digital signal is shown.\n[Block diagram: input signal → sample and hold → B → (three parallel lines) → C → output; block A feeds into the sample and hold]\n(a) Identify the blocks A, B and C. [2]\nA: ...\nB: ...\nC: ...\n(b) The graph shows the variation with time of an audio signal voltage that is being converted to digital form in a 3-bit system. The scale on the left-hand y-axis shows the analogue input to the converter. The scale on the right-hand y-axis shows the digital output equivalent to the analogue input. The signal is sampled every 1.0 ms, beginning at a sampling time $t = 0.0$ ms.\n[Graph: analogue input voltage / V (from –10 to about 7.5) and digital output equivalent (000 to 111) against time / ms from 0 to 6; the signal rises to about 3.8 V, peaks near 7.3 V at 1.5 ms, falls below zero after 3 ms, minimum about –7.5 V near 4.7 ms]\nThe conversion process rounds the signal down to the lower digital value. For example, when $t = 2.0$ ms the digital output value is 101.\nThe system is modified so that conversions are carried out at twice the original sampling rate.\n(i) A sample is taken at 3.0 ms. Deduce the next two sampling times and the digital output equivalent values at these times. Record your answers in the table below. [2]\nTime / ms | Digital output equivalent\n(blank) | (blank)\n(blank) | (blank)\n(ii) Outline why an increase in the number of bits per sample will improve the reproduction of the transmitted signal. [1]"
+  },
+  "F3": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.10",
+    "C.3"
+   ],
+   "text_clean": "F3. This question is about an optic fibre.\nMonochromatic light enters an optic fibre, from air, along direction A that is at an angle $\\theta$ to the axis of the fibre.\n[Diagram: optic fibre with core between two cladding layers; ray A incident on the end face of the core at angle $\\theta$ to the fibre axis]\nThe refractive index of the core is 1.62 and the refractive index of the cladding is 1.52. The critical angle at the core-cladding boundary is 70°.\n(a) Calculate the greatest angle of incidence $\\theta$ that can be used with this fibre. [3]\n(b) Sketch the path of the light in the core on the diagram above. [2]\n(c) Information is transmitted along the fibre in the form of pulsed light. Two rays of this light enter the core at the same instant as shown in the diagram below.\n[Diagram: fibre core and cladding; ray 1 enters along the axis, ray 2 enters at an angle]\nDiscuss the effect of modal dispersion on the subsequent transmission of the information along the fibre. [3]\n(d) Outline two advantages in the use of optic fibres over coaxial metal cables for the transmission of data between continents. [2]",
+   "qtype": "long"
+  },
+  "F4": {
+   "topics": [
+    "X",
+    "B"
+   ],
+   "subtopics": [
+    "X.14",
+    "B.5"
+   ],
+   "text_clean": "F4. This question is about the operational amplifier (op-amp).\n(a) State two properties of an ideal operational amplifier (op-amp). [2]\n(b) An operational amplifier circuit is designed to switch on a warning buzzer when the potential difference (pd) at point A drops below a voltage V. P is connected to the supply rails via resistances of 50 kΩ and 100 kΩ. The warning buzzer sounds when the pd across it is 30 V.\n[Circuit: 50 kΩ and 100 kΩ resistors in series between +15 V and –15 V rails; their junction connects to A, to the non-inverting input Q (+) and to the inverting input P (–) of an op-amp; the op-amp output R connects through a buzzer to the +15 V rail]\n(i) Show that the voltage at P is +5 V. [2]\n(ii) State the value of V. [1]\n(iii) Explain why the buzzer will switch on when point A drops below voltage V. [3]"
+  },
+  "G1": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.9",
+    "C.2"
+   ],
+   "text_clean": "G1. This question is about light and optical instruments.\nA thin converging glass lens has focal length $f = 0.20$ m.\n(a) An object is placed 0.10 m in front of the lens.\n(i) On the diagram, construct rays to locate the image of the object, O. The focal points of the lens are labelled F. [3]\n[Diagram: converging lens on a principal axis with focal points F on each side; object arrow O between the left F and the lens]\n(ii) Explain whether the image in (a)(i) is real or virtual. [1]\n(b) The object in (a) is now moved so that it is located 0.40 m from the lens. Calculate\n(i) the distance of the image from the lens. [2]\n(ii) the linear magnification. [2]\n(c) State typical wavelengths in a vacuum for\n(i) blue light. [1]\n(ii) red light. [1]\n(d) The refractive index of the glass in the lens is greater for blue wavelengths than for red wavelengths.\nThe diagram shows two rays of blue light incident on the lens.\n[Diagram: two parallel rays of blue light refracted by a converging lens to meet at a point on the principal axis]\nOn the diagram, sketch the paths of the rays if red light is used instead of blue light. [1]",
+   "qtype": "long"
+  },
+  "G2": {
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.3"
+   ],
+   "text_clean": "G2. This question is about laser light.\n(a) Laser light is monochromatic and coherent. Explain what is meant by\n(i) monochromatic. [1]\n(ii) coherent. [2]\n(b) A beam of laser light is incident normally on a diffraction grating which has 600 lines per millimetre. A fringe pattern is formed on a screen 2.0 m from the diffraction grating.\n[Diagram: laser light incident on a diffraction grating; screen 2.0 m away showing the centre of the pattern and diffracted beams]\nThe fringe pattern formed on the screen is shown below.\n[Diagram: three bright fringes at –0.65 m, 0 and 0.65 m; axis distance from centre of pattern / m]\nDetermine the wavelength of the laser light. [4]",
+   "note": "audit: coherent/monochromatic definitions + grating; no laser content"
+  },
+  "G3": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.4",
+    "E.2"
+   ],
+   "text_clean": "G3. This question is about X-ray production and diffraction.\n(a) Outline how X-rays are used to determine the atomic spacing in a crystal. [3]\n(b) Electrons are incident on the target of an X-ray tube after acceleration through a potential difference of 15 kV. Calculate the minimum wavelength of X-rays produced by the X-ray tube. [2]\n(c) X-rays are incident on a crystal which is thought to have an atomic spacing of $2.8\\times10^{-10}$ m. Calculate the maximum wavelength of X-rays that can be used to verify this value. [3]"
+  },
+  "G4": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.4"
+   ],
+   "text_clean": "G4. This question is about thin-film interference.\nThe anti-reflective coating of a lens consists of a thin layer of a suitable material placed between the air and the glass of the lens.\n[Diagram: ray incident at angle $\\theta$ to the normal on an air–coating–glass layer; reflected rays from the air-coating and coating-glass boundaries]\nThe following data are available.\nRefractive index of air = 1.0\nRefractive index of coating = 1.2\nRefractive index of glass = 1.5\n(a) State what phase change occurs on reflection at the air-coating boundary and at the coating-glass boundary. [1]\n(b) The thickness d of the coating layer is 110 nm.\nDetermine the wavelength for which there is no resultant reflection from the surface of the lens for light at normal incidence ($\\theta = 0°$). [3]"
+  },
+  "H1": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "H1. This question is about relativistic kinematics.\nSpeedy is in a spacecraft being chased by Police Officer Sylvester. In Officer Sylvester's frame of reference, Speedy is moving directly towards Officer Sylvester at 0.25c.\n[Diagram: Police Officer Sylvester's spacecraft (with two flashing lamps) behind Speedy's spacecraft, arrow between them]\n(a) Describe what is meant by a frame of reference. [2]\n(b) Officer Sylvester switches on the blue flashing lamps on his police spacecraft.\n(i) Calculate, assuming that a Galilean transformation applies to this situation, the value of the speed of the light that Speedy would measure using the flashing lamps. [1]\n(ii) Speedy measures the speed of the light emitted by the flashing lamps. Deduce, using the relativistic addition of velocities, that Speedy will obtain a value for the speed of light equal to c. [3]\n(c) At a later time the police spacecraft is alongside Speedy's spacecraft. The police spacecraft is overtaking Speedy's spacecraft at a constant velocity.\nOfficer Sylvester is at a point midway between the flashing lamps, both of which he can see. At the instant when Officer Sylvester and Speedy are opposite each other, Speedy observes that the blue lamps flash simultaneously.\n[Diagram: Speedy's spacecraft alongside the police spacecraft; back lamp and front lamp on the police spacecraft with Officer Sylvester midway between them, opposite Speedy]\nState and explain which lamp is observed to flash first by Officer Sylvester. [4]\n(d) The police spacecraft is travelling at a constant speed of 0.5c relative to Speedy's frame of reference. The light from a flash of one of the lamps travels across the police spacecraft and is reflected back to the light source. Officer Sylvester measures the time taken for the light to return to the source as $1.2\\times10^{-8}$ s.\n(i) Outline why the time interval measured by Officer Sylvester is a proper time interval. [1]\n(ii) Determine, as observed by Speedy, the time taken for the light to travel across the police spacecraft and back to its source. [3]",
+   "qtype": "long"
+  },
+  "H2": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "H2. This question is about relativistic dynamics.\nA proton is accelerated from rest by a potential difference V and reaches a speed of $2.5\\times10^{8}\\ \\text{m s}^{-1}$. Calculate V. [3]"
+  },
+  "H3": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "H3. This question is about gravitational red-shift.\nAn observer is in a space capsule moving at a constant speed in the absence of gravitational fields.\n[Diagram: space capsule moving at constant speed to the right; source of gamma rays on the rear wall, observer at the front]\nA monochromatic source of gamma rays is fixed to the rear wall of the capsule. An observer at the other end of the capsule measures the frequency of the gamma rays.\nThe capsule now starts to decelerate.\n(a) Deduce the change in the frequency of the gamma rays, as measured by the observer, when the deceleration begins. [3]\n(b) Outline, with reference to the principle of equivalence, how the situation in (a) relates to the concept of gravitational red-shift. [2]"
+  },
+  "H4": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "H4. This question is about spacetime.\nExplain, with reference to the warping of spacetime, the gravitational attraction between Earth and the Sun. [3]"
+  },
+  "H5": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "H5. This question is about the Michelson–Morley experiment.\nOutline the implications of the Michelson–Morley experiment for our understanding of the propagation of light. [3]"
+  },
+  "H6": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "H6. This question is about black holes.\nSirius B has a mass of $2.0\\times10^{30}$ kg.\nCalculate the minimum density required for Sirius B to become a black hole in the future. [2]"
+  },
+  "I1": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "I1. This question is about the human ear.\n(a) The diagram below is a schematic of a model to represent the ear.\n[Diagram: outer ear with piston A connected by a lever (ossicles, with pivot) to a smaller piston B]\n(i) Identify the parts of the ear represented by A and B. [1]\nA: ...\nB: ...\n(ii) Outline, with reference to the diagram, the mechanism by which amplification is carried out in the middle ear. [2]\n(b) Explain, with reference to the acoustic properties of the media concerned, why sound cannot be transmitted directly from air to the inner ear efficiently. [2]\n(c) Distinguish between loudness and intensity. [2]\n(d) As a result of exposure to noise, a person has suffered a hearing loss of 15 dB at 10 kHz. At low frequencies, the person's hearing remains normal.\nThe graph shows the variations with frequency of the threshold of hearing for this person.\n[Graph: intensity level / dB (–10 to 80) against frequency / Hz on log scale (10 to $10^5$); curve falls from about 58 dB at 20 Hz to a minimum of about 2 dB near 1 kHz and rises to about 26 dB at 20 kHz]\nDraw a line on the graph to show the threshold of hearing for a person with normal hearing. [2]",
+   "qtype": "long"
+  },
+  "I2": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "I2. This question is about the use of X-rays and ultrasound in medical imaging.\n(a) The diagram below shows X-rays being used to scan a sample of bone and muscle.\n[Diagram: X-ray tube above adjacent blocks of muscle and bone, each of thickness x, resting on a photographic plate]\n(i) Outline how the arrangement differentiates between bone and muscle. [2]\n(ii) Use the data below to determine the ratio $\\frac{I_b}{I_m}$ where $I_b$ and $I_m$ are the intensity of X-rays reaching the photographic plate through the bone and the muscle, respectively. [3]\nThickness x of sample = 10.0 cm\nLinear attenuation coefficient of bone $\\mu_b$ = 0.53 cm$^{-1}$\nLinear attenuation coefficient of muscle $\\mu_m$ = 0.30 cm$^{-1}$\n(iii) The half-value thickness of a material increases as the energy of the radiation increases.\nDiscuss, with reference to penetration and effect on tissue, why using low energy X-rays in medical imaging is highly desirable but is rare in practice. [2]\n(b) The same sample is now investigated with an ultrasound A-scan from the side as shown.\n[Diagram: ultrasound transducer with gel against the side of the muscle block; muscle thickness y, then bone]\n(i) State one advantage of ultrasound over X-ray imaging. [1]\n(ii) State why gel is needed at the transducer-muscle boundary. [1]\n(iii) A short pulse is directed from the transducer into the sample at time $t = 0$. The graph shows how the intensity of the reflected signal from the muscle-bone boundary varies as a function of time. The speed of sound in muscle is $1.6\\times10^{3}\\ \\text{m s}^{-1}$.\n[Graph: intensity / arbitrary units against time $t$ / $10^{-5}$ s; a tall pulse at t = 0 and a smaller reflected pulse at about $12\\times10^{-5}$ s]\nCalculate the thickness y of the sample of muscle. [2]",
+   "qtype": "long"
+  },
+  "I3": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.11",
+    "E.3"
+   ],
+   "text_clean": "I3. This question is about the effects of radiation on living organisms.\n(a) State what is meant by absorbed dose. [1]\n(b) An X-ray CT scan delivers a dose equivalent of 500 μSv to a 70 kg patient. The quality factor of this radiation is 1. Determine the energy that will be required to be absorbed from alpha particles of quality factor 20 to produce the same biological effect in the same patient. [3]\n(c) An isotope of technetium used in medicine has a physical half-life of 6 hours.\n(i) Define effective half-life. [2]\n(ii) A patient ingests some technetium. The biological half-life of the technetium is 12 hours. Determine the time required for the activity of the ingested dose to drop to 25 % of its value at the moment of ingestion. [3]\n(d) State the property of radiation that enables it to be used as a cancer treatment. [1]",
+   "qtype": "long"
+  },
+  "J1": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.2",
+    "E.2"
+   ],
+   "text_clean": "J1. This question is about elementary particles.\nThe quark is said to be an elementary particle.\n(a) (i) State what is meant by the term elementary particle. [1]\n(ii) Identify another elementary particle other than the quark. [1]\n(b) The strong interaction between two nucleons has a range of about $10^{-15}$ m.\n(i) Identify the boson that mediates the strong interaction. [1]\n(ii) Determine the approximate mass of the boson in (b)(i). [2]"
+  },
+  "J2": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "J2. This question is about the $\\Omega^-$ particle.\nThe $\\Omega^-$ particle is a baryon which contains only strange quarks.\n(a) Deduce the strangeness and spin of the $\\Omega^-$ particle. [2]\nStrangeness: ...\nSpin: ...\n(b) The Feynman diagram shows a quark change that gives rise to a possible decay of the $\\Omega^-$ particle.\n[Feynman diagram: s quark changes to u quark emitting exchange particle Y, which produces X and a d quark forming a $\\pi^-$]\n(i) Identify X. [1]\n(ii) Identify Y. [1]\n(c) Explain, with reference to the structure of the $\\Omega^-$ particle, why the concept of quark colour was introduced. [3]\n(d) The $\\Omega^-$ particle was discovered in a bubble chamber.\n(i) Outline how a bubble chamber is used to detect particles. [3]\n(ii) Explain how two properties of a particle can be estimated from data collected during bubble chamber experiments. [2]",
+   "qtype": "long"
+  },
+  "J3": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "J3. This question is about hadrons.\n(a) An electron and a positron can undergo an electromagnetic interaction resulting in the creation of a quark-antiquark pair according to\n$e^- + e^+ \\rightarrow q + \\bar{q}$\nwhere $q$ and $\\bar{q}$ are quark and antiquark.\nOutline, with reference to quark confinement, why hadrons are eventually observed in this reaction. [3]\n(b) State what is meant by a neutral current. [1]\n(c) The interaction in (a) can also occur via the weak interaction with neutral current mediation producing an up and anti-up quark pair.\n(i) Draw a labelled Feynman diagram for this interaction. Time on your diagram should go from left to right. [2]\n(ii) Outline how another neutral current can allow the exchange particle in the interaction to be detected. [2]"
+  },
+  "J4": {
+   "topics": [
+    "X",
+    "B"
+   ],
+   "subtopics": [
+    "X.12",
+    "B.3"
+   ],
+   "text_clean": "J4. This question is about the early universe.\nDetermine the threshold temperature of the early universe below which electron–positron pair production becomes unlikely. [3]",
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "Option J item; uses pair rest energy 1.02 MeV = (3/2)kT; tagged cosmology X.12 + kinetic theory B.3"
+  },
+  "J5": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "J5. This question is about string theory.\nSuggest the features of string theory that make it a more fundamental theory than the standard model. [2]"
+  }
+ },
+ "exam_note": "Legacy 2009-syllabus P3 with options E-J. ms crops for E1/E2, H5/H6, I2/I3 fixed via overrides (fraction numerators above question labels were cut)."
+}

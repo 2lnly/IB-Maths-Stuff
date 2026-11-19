@@ -1,0 +1,15 @@
+{
+  "exam_id": "math-2020-N-P3-discrete-mathematics",
+  "questions": {
+    "1": {"topics": ["6"], "subtopics": ["6.10"], "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 8]\nSolve the recurrence relation $u_{n+2} = 8u_{n+1} - 16u_n$, given that $u_1 = 4$ and $u_2 = 48$."},
+    "2": {"topics": ["6"], "subtopics": ["6.9"], "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 12]\nChristine and her friends live in Winnipeg, Canada. The weighted graph shows the location of their houses and the time, in minutes, to travel between each house.\n[Diagram: weighted graph with vertices A-H; edges CD 17, CH 12, CB 25, DE 24, DH 10, DG 32, EG 7, EF 15, HG 21, GF 25, HB 14, HA 32, GA 13, BA 11, AF 21]\nChristine's house is located at vertex C.\n(a) (i) Use Dijkstra's algorithm to find the shortest time to travel from C to F, clearly showing how the algorithm has been applied.\n(ii) Hence write down the shortest path from C to F. [7]\nA new road is constructed that allows Christine to travel from H to A in $t$ minutes. If Christine starts from home and uses this new road her minimum travel time to A is reduced, but her minimum travel time to F remains the same.\n(b) Find the possible values of $t$. [5]"},
+    "3": {"topics": ["6"], "subtopics": ["6.2", "6.4", "6.5"], "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 13]\n(a) (i) Write down the remainder when $14^{2022}$ is divided by $7$.\n(ii) Use Fermat's little theorem to find the remainder when $14^{2022}$ is divided by $17$. [5]\n(b) (i) Prove that a number in base $13$ is divisible by $6$ if, and only if, the sum of its digits is divisible by $6$.\n(ii) The base $13$ number $1y93y25$ is divisible by $6$. Find the possible values of the digit $y$. [8]"},
+    "4": {"topics": ["6"], "subtopics": ["6.4"], "answer_status": "ok", "qtype": "short",
+      "text_clean": "4. [Maximum mark: 6]\nSolve the system of linear congruences\n$x \\equiv 7 \\pmod{29}$ and $3x \\equiv 1 \\pmod{31}$."},
+    "5": {"topics": ["6"], "subtopics": ["6.6"], "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 11]\n$G$ is a simple, connected, planar graph with $9$ vertices and $e$ edges.\n(a) Find the maximum possible value of $e$. [2]\nThe complement of $G$ has $e'$ edges.\n(b) Find an expression for $e'$ in terms of $e$. [2]\n(c) Given that the complement of $G$ is also planar and connected, find the possible values of $e$. [2]\n$H$ is a simple graph with $v$ vertices and $e$ edges.\n(d) Given that both $H$ and its complement are planar and connected, find the maximum possible value of $v$. [5]"}
+  }
+}

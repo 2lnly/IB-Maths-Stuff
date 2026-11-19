@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2011-M-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2011,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2011 May Examination Session/Mathematics_paper_3_Discrete_mathematics_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2011 May Examination Session/Mathematics_paper_3_Discrete_mathematics_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2211-7207; code M11/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches expected total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2011-M-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 13]\n(a) Use the Euclidean algorithm to find the greatest common divisor of the numbers\n56 and 315. [4 marks]\n(b) (i) Find the general solution to the diophantine equation 56 x + 315 y = 21 .\n(ii) Hence or otherwise find the smallest positive solution to the congruence\n315 x ≡ 21modulo 56 ( ) . [9 marks]",
+   "ms_text": "1. (a) 315 �� 556 � 35 M1\n56 �� 135 � 21\n35 �� 12114 � A1\n21 �� 114 � 7\n14 � 2 � 7 A1\ntherefore gcd 7 A1 �\n[4 marks]\n(b) (i) 7 � 2114 � M1\n� 21 � (35 – 21)\n� 2 � 21– 35 (A1)\n� 2 � (56 – 35) – 35\n� 256 � �� 335 (A1)\n� 256 – 3(315 – 556) � � �\n� 17 � 56 – 3315 � (A1)\ntherefore 5651 � � 315(9) �� � 21 M1\nx � 51, y �� is a solution 9 (A1)\nthe general solution is x � 51 � 45 N , y ��� 9 8 NN , �� A1A1\n(ii) putting N� –2 gives y � 7 which is the required value of x A1\n[9 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.3",
+    "6.1",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 13]\n(a) Use the Euclidean algorithm to find the greatest common divisor of the numbers 56 and 315. [4 marks]\n(b) (i) Find the general solution to the diophantine equation $56x + 315y = 21$.\n(ii) Hence or otherwise find the smallest positive solution to the congruence $315x \\equiv 21 \\pmod{56}$. [9 marks]"
+  },
+  {
+   "id": "math-2011-M-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nThe complete graph H has the following cost adjacency matrix.\nA B C D E\nA – 19 17 10 15\nB 19 – 11 16 13\nC 17 11 – 14 13\nD 10 16 14 – 18\nE 15 13 13 18 –\nConsider the travelling salesman problem for H .\n(a) By first finding a minimum spanning tree on the subgraph of H formed\nby deleting vertex A and all edges connected to A, find a lower bound for\nthis problem. [5 marks]\n(b) Find the total weight of the cycle ADCBEA. [1 mark]\n(c) What do you conclude from your results? [1 mark]",
+   "ms_text": "2. (a) using any method, the minimum spanning tree is (M1)\nA2\nNote: Accept MST = {BC, EC, DC} or {BC, EB, DC}\nNote: In graph, line CE may be replaced by BE.\nlower bound � weight of minimum spanning tree � 2 smallest weights connected to A (M1)\n� 111314 � � � 10 � 15 � 63 A1\n[5 marks]\n(b) weight of ADCBEA � 10 � 14 � 111315 � � � 63 A1\n[1 mark]\n(c) the conclusion is that ADCBEA gives a solution to the travelling\nsalesman problem A1\n[1 mark]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nThe complete graph $H$ has the following cost adjacency matrix.\n| | A | B | C | D | E |\n| A | – | 19 | 17 | 10 | 15 |\n| B | 19 | – | 11 | 16 | 13 |\n| C | 17 | 11 | – | 14 | 13 |\n| D | 10 | 16 | 14 | – | 18 |\n| E | 15 | 13 | 13 | 18 | – |\nConsider the travelling salesman problem for $H$.\n(a) By first finding a minimum spanning tree on the subgraph of $H$ formed by deleting vertex A and all edges connected to A, find a lower bound for this problem. [5 marks]\n(b) Find the total weight of the cycle ADCBEA. [1 mark]\n(c) What do you conclude from your results? [1 mark]"
+  },
+  {
+   "id": "math-2011-M-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 12]\n+ (a) Given that ab , ∈\n� and c ∈ � , show that if a ≡1(mod) , then ab c ≡ b (mod) . c [2 marks]\n(b) Using mathematical induction, show that 9 n≡(mod) , for n∈∞. 1 4 [6 marks]\n(c) The positive integer M is expressed in base 9. Show that M is divisible by 4 if\nthe sum of its digits is divisible by 4. [4 marks]",
+   "ms_text": "3. (a) a � � c � 1 M1\nso ab � � bc � b � ab � b (mod) c A1AG\n[2 marks]\n0 (b) the result is true for n � 0 since 9 �� 11(mod4) A1\nassume the result is true for n � k , i.e.9 k� 1(mod4) M1\nconsider 9 k �� 1 99 k M1 �\nk �� 91(mod4) or19(mod4) � A1\n� 1(mod4) A1\nso true for n � k � true for n � k � and since true for 1 n � 0\nresult follows by induction R1\nNote: Do not award the final R1 unless both M1 marks have been awarded.\nNote: Award the final R1 if candidates state n � rather than 1 n � 0\n[6 marks]\n�\n�\n�\n(c) let M ( aa ... a ) (M1) �\nn n 1 0 9\nn n 1 0 � a � 9 � a � 9 � ... � a � 9 A1\nn n 1 0\n�\nEITHER\n� a (mod4) � a (mod4) � ... � a (mod4) A1\nn n 1 0\n(mod4) A1 �� ia\nso M is divisible by 4 if � ia � is divisible by 4 AG\n�\n�\nOR\nn n 1 1 � a (9 � 1) � a (9 � 1) � ...\nn � is divisible by 4, � a (9 � 1) n n 1 1\n� a � a � ... � a � a A1\nn n 1 1 0\nSince 9 n� 1(mod4) , it follows that 9 1 R1\nso M is divisible by 4 if � ia is divisible by 4 AG\n[4 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.4",
+    "1.15",
+    "6.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 12]\n(a) Given that $a, b \\in \\mathbb{N}$ and $c \\in \\mathbb{Z}^+$, show that if $a \\equiv 1 \\pmod{c}$, then $ab \\equiv b \\pmod{c}$. [2 marks]\n(b) Using mathematical induction, show that $9^n \\equiv 1 \\pmod{4}$, for $n \\in \\mathbb{N}$. [6 marks]\n(c) The positive integer $M$ is expressed in base 9. Show that $M$ is divisible by 4 if the sum of its digits is divisible by 4. [4 marks]"
+  },
+  {
+   "id": "math-2011-M-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 18,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 18]\nThe diagram below shows the graph G with vertices A, B, C, D, E and F.\nA B\nC\nD E\nF\n(a) (i) Determine if any Hamiltonian cycles exist in G . If so, write one down.\nOtherwise, explain what feature of G makes it impossible for a Hamiltonian\ncycle to exist.\n(ii) Determine if any Eulerian circuits exist in G . If so, write one down.\nOtherwise, explain what feature of G makes it impossible for an Eulerian\ncircuit to exist. [4 marks]\n(b) (i) Write down the adjacency matrix for G .\n(ii) Find the pair of distinct vertices that are linked by the smallest number of\nwalks of length 5.\n(iii) Write down four of these walks.\n(iv) Identify the vertex that is linked to itself by the largest number of walks of\nlength 5. [7 marks]\n(c) Prove that no more than 3 edges can be added to G while keeping it planar\nand simple. [4 marks]\n(d) Given that G (the complement of G ) is planar, find the number of faces in ′ G . ′ [3 marks]",
+   "ms_text": "4. (a) (i) any Hamiltonian circuit ACBEFDA A2\n(ii) no Eulerian circuit exists because the graph contains vertices of odd degree A2\n[4 marks]\n(b) (i) the adjacency matrix is\n� 0 1 1 1 0 0 �\n� �\n1 0 1 0 1 0\n� �\n� 1 1 0 1 0 0 �\n� � A2\n1 0 1 0 1 1 � �\n� � 0 1 0 1 0 1\n� �\n� � 0 0 0 1 1 0\n� �\nNote: Award A2 even if the zero is replaced by dashes.\n(ii) to find the number of walks of length 5, we need to raise this\nmatrix to the 5th power M1\ndoing this, we find that the smallest off-diagonal term corresponds\nto EF A1\n(iii) any 4 walks, for example:\nEBEBEF\nEDEDEF\nEFEFEF\nEBADEF A2\nNote: Award A1 for 3 correct walks\nNote:FT their answer to (b)(ii) even if their two vertices are the same.\n(iv) D A1\n[7 marks]\n(c) consider the inequality e 3 v 6 for simple planar graphs M1 � �\nhere, v � 6 so e � 12 M1A1\nthe graph G has 9 edges so the inequality permits no more than 3 extra\nedges to be added M1AG\n[4 marks]\n(d) METHOD 1\n�� 6\nfor G�, v � 6 and e � � 9 � 6 A1 ��\n2 ��\nusing Euler’s relation M1\nf � 2 � e � v\n� 2 A1\n[3 marks]\nMETHOD 2\nA2\n2 faces A1\nNote: Only award the final A1 if the previous A2 mark has been awarded.\n[3 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.11",
+    "6.6",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 18]\nThe diagram below shows the graph $G$ with vertices A, B, C, D, E and F.\n[Diagram: graph G with edges AB, AC, AD, BC, BE, CD, DE, DF, EF]\n(a) (i) Determine if any Hamiltonian cycles exist in $G$. If so, write one down. Otherwise, explain what feature of $G$ makes it impossible for a Hamiltonian cycle to exist.\n(ii) Determine if any Eulerian circuits exist in $G$. If so, write one down. Otherwise, explain what feature of $G$ makes it impossible for an Eulerian circuit to exist. [4 marks]\n(b) (i) Write down the adjacency matrix for $G$.\n(ii) Find the pair of distinct vertices that are linked by the smallest number of walks of length 5.\n(iii) Write down four of these walks.\n(iv) Identify the vertex that is linked to itself by the largest number of walks of length 5. [7 marks]\n(c) Prove that no more than 3 edges can be added to $G$ while keeping it planar and simple. [4 marks]\n(d) Given that $G'$ (the complement of $G$) is planar, find the number of faces in $G'$. [3 marks]"
+  },
+  {
+   "id": "math-2011-M-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 10]\n(a) Explaining your method fully, determine whether or not 1189 is a prime number. [4 marks]\n(b) (i) State the fundamental theorem of arithmetic.\n(ii) The positive integers M and N have greatest common divisor G and least\ncommon multiple L . Show that GL = MN . [6 marks]",
+   "ms_text": "5. (a) any clearly indicated method of dividing 1189 by successive numbers M1\nfind that 1189 has factors 29 and/or 41 A2\nit follows that 1189 is not a prime number A1\nNote: If no method is indicated, award A1 for the factors and A1 for the conclusion.\n[4 marks]\n(b) (i) every positive integer, greater than 1, is either prime or can be\nexpressed uniquely as a product of primes A1A1\nNote: Award A1 for “product of primes” and A1 for “uniquely”.\n(ii) METHOD 1\nlet M and N be expressed as a product of primes as follows\nM � AB and N � AC M1A1\nwhere A denotes the factors which are common and B, C the\ndisjoint factors which are not common\nit follows that G � A A1\nand L � GBC A1\nfrom these equations, it follows that\nGL � A � ABC � MN AG\nMETHOD 2\nx x x y y y Let M = 2 1 � 3 2 � ...\nnp n and N= 2 1 � 3 2 � ... np n where npdenotes\nthe nth prime M1\nmin( xy 1 , 1 ) � min( x 2 , y 2 ) � min( x n , y n ) Then G = 2 3 ...\nnp A1\nmax( xy , ) � max( x , y ) � max( x , y ) and L= 2 1 1 3 2 2 ...\nnp n n A1\nx y It follows that GL = 2 x 1 � 2 y 1 � 3 x 2 � 3 y 2 �� ... p n � p n A1\nn n\n=MN AG\n[6 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 10]\n(a) Explaining your method fully, determine whether or not 1189 is a prime number. [4 marks]\n(b) (i) State the fundamental theorem of arithmetic.\n(ii) The positive integers $M$ and $N$ have greatest common divisor $G$ and least common multiple $L$. Show that $GL = MN$. [6 marks]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,122 @@
+{
+ "exam_id": "physics-2015-M-P2-TZ2",
+ "questions": {
+  "1": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.1",
+    "C.1"
+   ],
+   "text_clean": "1. Data analysis question.\nA simple pendulum of length $l$ consists of a small mass attached to the end of a light string.\n[Diagram: small mass on a string of length $l$ hanging from a fixed support, displaced from the vertical]\nThe time $T$ taken for the mass to swing through one cycle is given by\n$T = 2\\pi\\sqrt{\\frac{l}{g}}$\nwhere $g$ is the acceleration due to gravity.\n(a) A student measures $T$ for one length $l$ to determine the value of $g$. Time $T = 1.9\\text{ s} \\pm 0.1\\text{ s}$ and length $l = 0.880\\text{ m} \\pm 0.001\\text{ m}$. Calculate the fractional uncertainty in $g$. [2]\n(b) The student modifies the simple pendulum of length $L$ so that, after release, it swings for a quarter of a cycle before the string strikes a horizontal thin edge. For the next half cycle, the pendulum swings with a shorter length $x$. The string then leaves the horizontal thin edge to swing with its original length $L$.\n[Diagram: before release – pendulum of length $L$ beside a horizontal thin edge; after release – motion of pendulum showing string catching on the thin edge so the lower section of length $x$ swings, then leaving the edge]\nThe length $L$ of the string is kept constant during the experiment. The vertical position of the horizontal thin edge is varied to change $x$.\nThe graph shows the variation of the time period with $\\sqrt{x}$ for data obtained by the student together with error bars for the data points. The error in $\\sqrt{x}$ is too small to be shown.\n[Graph: $T$ / s (0.8 to 2.0) against $\\sqrt{x}$ / m$^{1/2}$ (0.00 to 0.90); seven data points with error bars from about (0.51, 1.48) to (0.85, 1.84)]\n(i) Deduce that the time period for one complete oscillation of the pendulum is given by $T = \\frac{\\pi}{\\sqrt{g}}\\left(\\sqrt{L} + \\sqrt{x}\\right)$. [1]\n(ii) On the graph, draw the best-fit line for the data. [1]\n(iii) Determine the gradient of the graph. [3]\n(iv) State the value of the intercept on the $T$-axis. [1]\n(v) The equation of a straight line is $y = mx + c$. Determine, using your answers to (b)(iii) and (b)(iv), the intercept on the $\\sqrt{x}$-axis. [2]\n(vi) Calculate $L$. [1]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.3",
+    "E.4"
+   ],
+   "qtype": "long",
+   "text_clean": "2. This question is about nuclear energy.\nThe graph shows the variation of binding energy per nucleon with nucleon number. The position for uranium-235 (U-235) is shown.\n[Graph: axes binding energy per nucleon / MeV (0 to 10) against nucleon number (0 to 250); a single point marked U-235 at about (235, 7.6)]\n(a) State what is meant by the binding energy of a nucleus. [1]\n(b) (i) On the axes, sketch a graph showing the variation of nucleon number with the binding energy per nucleon. [2]\n(ii) Explain, with reference to your graph, why energy is released during fission of U-235. [3]\n(c) U-235 ($^{235}_{92}\\mathrm{U}$) can undergo alpha decay to form an isotope of thorium (Th).\n(i) State the nuclear equation for this decay. [1]\n(ii) A sample of rock contains a mass of 5.6 mg of U-235 at the present day. The half-life of U-235 is $7.0\\times10^{8}$ years. Determine the initial mass of the U-235 if the rock sample was formed $3.9\\times10^{9}$ years ago. [3]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "B"
+   ],
+   "subtopics": [
+    "B.1"
+   ],
+   "text_clean": "3. This question is about internal energy.\n(a) Distinguish between thermal energy (heat) and temperature. [3]\n(b) (i) Mathilde raises the temperature of water in a electric kettle to boiling point. Once the water is boiling steadily, she measures the change in the mass of the kettle and its contents over a period of time.\nThe following data are available.\nInitial mass of kettle and water = 1.880 kg\nFinal mass of kettle and water = 1.580 kg\nTime between mass measurements = 300 s\nPower dissipation in the kettle = 2.5 kW\nDetermine the specific latent heat of vaporization of water. [2]\n(ii) Outline why your answer to (b)(i) is an overestimate of the specific latent heat of vaporization of water. [2]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "C",
+    "X"
+   ],
+   "subtopics": [
+    "C.3",
+    "X.4",
+    "C.2"
+   ],
+   "qtype": "long",
+   "text_clean": "4. This question is about the properties of waves.\nMicrowaves from a microwave transmitter are reflected from two parallel sheets, A and B. Sheet A partially reflects microwave energy while allowing some to pass through. All of the microwave energy incident on sheet B is reflected.\n[Diagram: transmitter and receiver facing sheet A (partial reflector) and sheet B behind it; sheet B moves towards sheet A (not to scale)]\nSheet A is fixed and sheet B is moved towards it. While sheet B is moving, the intensity of the signal detected at the receiver goes through a series of maximum and minimum values.\n(a) Outline why a minimum in the intensity occurs for certain positions of sheet B. [3]\n(b) The microwaves used in the experiment have a wavelength of 32 mm. Sheet B moves at a constant velocity of $0.75\\text{ m s}^{-1}$. Determine the frequency at which the intensity maxima of the received signal will vary. [3]\n(c) The apparatus is re-arranged so as to demonstrate diffraction effects.\n[Diagram: transmitter facing receiver at P on the central axis; dashed line at angle $\\theta$ from the axis to the position of first minimum (not to scale)]\nThe microwaves emerge from the transmitter through an aperture that acts as a single slit.\n(i) Outline what is meant by diffraction. [2]\n(ii) A maximum signal strength is observed at P. When the receiver is moved through an angle $\\theta$, a first minimum is observed. The width of the aperture of the transmitter is 60 mm. Estimate the value of $\\theta$. [1]\n(d) The microwave apparatus can also be used to demonstrate polarization effects. Outline why an ultrasound receiver and transmitter cannot be used to demonstrate polarization. [2]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "D",
+    "A"
+   ],
+   "subtopics": [
+    "D.4",
+    "A.1"
+   ],
+   "text_clean": "5. This question is about changing magnetic fields.\nA single-turn conducting square coil is released and falls vertically from rest. At the instant it is released, the coil is at the boundary of a region of a uniform horizontal magnetic field directed into the plane of the paper as shown. The ends of the coil are not joined together.\n[Diagram: square coil of side 0.050 m resting just above the boundary of a shaded region of magnetic field directed into the plane of the paper; arrow showing downward fall]\nEach side of the coil is 0.050 m long. The dimensions of the magnetic field region are greater than that of the coil. The magnetic field strength is 25 mT.\n(a) Calculate the electromotive force (emf) induced in the coil at the instant just before the whole of the coil enters the magnetic field. [3]\n(b) Suggest why the time taken for the whole of the coil to enter the magnetic field increases if the coil is a continuous loop. [3]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "X",
+    "D",
+    "B",
+    "A"
+   ],
+   "subtopics": [
+    "X.3",
+    "D.1",
+    "B.2",
+    "A.3",
+    "A.1"
+   ],
+   "text_clean": "6. This question is in two parts. Part 1 is about renewable energy. Part 2 is about the motion of a rocket.\nPart 1 Renewable energy\nA small coastal community decides to use a wind farm consisting of five identical wind turbines to generate part of its energy. At the proposed site, the average wind speed is $8.5\\text{ m s}^{-1}$ and the density of air is $1.3\\text{ kg m}^{-3}$. The maximum power required from the wind farm is 0.75 MW. Each turbine has an efficiency of 30 %.\n(a) (i) Determine the diameter that will be required for the turbine blades to achieve the maximum power of 0.75 MW. [3]\n(ii) State one reason why, in practice, a diameter larger than your answer to (a)(i) is required. [1]\n(iii) Outline why the individual turbines should not be placed close to each other. [2]\n(iv) Some members of the community propose that the wind farm should be located at sea rather than on land. Evaluate this proposal. [2]\n(b) Currently, a nearby coal-fired power station generates energy for the community. Less coal will be burnt at the power station if the wind farm is constructed.\n(i) The energy density of coal is $35\\text{ MJ kg}^{-1}$. Estimate the minimum mass of coal that can be saved every hour when the wind farm is producing its full output. [2]\n(ii) One advantage of the reduction in coal consumption is that less carbon dioxide will be released into the atmosphere. State one other advantage and one disadvantage of constructing the wind farm. [2]\nAdvantage:\nDisadvantage:\n(iii) Suggest the likely effect on the Earth's temperature of a reduction in the concentration of atmospheric greenhouse gases. [3]\nPart 2 Motion of a rocket\nA rocket is moving away from a planet within the gravitational field of the planet. When the rocket is at position P a distance of $1.30\\times10^{7}$ m from the centre of the planet, the engine is switched off. At P, the speed of the rocket is $4.38\\times10^{3}\\text{ m s}^{-1}$.\n[Diagram: rocket at P moving at $4380\\text{ m s}^{-1}$; 60.0 s later rocket at Q moving at $4250\\text{ m s}^{-1}$]\nAt a time of 60.0 s later, the rocket has reached position Q. The speed of the rocket at Q is $4.25\\times10^{3}\\text{ m s}^{-1}$. Air resistance is negligible.\n(c) Outline, with reference to the energy of the rocket, why the speed of the rocket is changing between P and Q. [2]\n(d) Estimate the average gravitational field strength of the planet between P and Q. [2]\n(e) (i) An object is a distance $r$ from the centre of a planet. Show that the minimum speed required to escape the gravitational field is equal to $\\sqrt{2g'r}$ where $g'$ is the gravitational field strength at distance $r$ from the centre of a planet. [3]\n(ii) Discuss, using a calculation, whether the rocket at P can completely escape the gravitational field of the planet without further use of the engine. [2]\n(f) A space station is in orbit at a distance $r$ from the centre of the planet in (e)(i). A satellite is launched from the space station so as just to escape from the gravitational field of the planet. The launch takes place in the same direction as the velocity of the space station. Outline why the launch velocity relative to the space station can be less than your answer to (e)(i). [1]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "C",
+    "B"
+   ],
+   "subtopics": [
+    "C.1",
+    "B.4",
+    "B.3"
+   ],
+   "text_clean": "7. This question is in two parts. Part 1 is about simple harmonic motion (SHM). Part 2 is about gas in an engine.\nPart 1 Simple harmonic motion (SHM)\nAn object is placed on a frictionless surface. The object is attached by a spring fixed at one end and oscillates at the end of the spring with simple harmonic motion (SHM).\n[Diagram: mass–spring system on a horizontal surface shown at the equilibrium position and at the extended position, displacement $x$]\nThe tension $F$ in the spring is given by $F = kx$ where $x$ is the extension of the spring and $k$ is a constant.\n(a) Show that $\\omega^2 = \\frac{k}{m}$. [2]\n(b) One cycle of the variation of displacement with time is shown for two separate mass–spring systems, A and B.\n[Graph: displacement / m (−0.3 to 0.3) against time / s (0 to 1.2); sine curves A with amplitude 0.2 m and B with amplitude 0.1 m, both of period 1.2 s]\n(i) Calculate the frequency of the oscillation of A. [1]\n(ii) The springs used in A and B are identical. Show that the mass in A is equal to the mass in B. [2]\n(iii) Outline how you would use the graph to confirm that A is performing simple harmonic motion. [2]\n(c) The graph shows the variation of the potential energy of A with displacement.\n[Graph: potential energy / J against displacement / m (−0.2 to 0.2); parabola with minimum 0 at x = 0, reaching 0.16 J at ±0.2 m]\nOn the axes,\n(i) draw a graph to show the variation of kinetic energy with displacement for the mass in A. Label this A. [2]\n(ii) sketch a graph to show the variation of kinetic energy with displacement for the mass in B. Label this B. [3]\n(d) Using data from (b) and (c), calculate the mass in A. [3]\nPart 2 Gas in an engine\nA fixed mass of an ideal gas is used as the working substance in an engine. The graph shows the variation with volume $V$ of the pressure $P$ of the fluid.\n[Graph: $P$ / $10^5$ Pa against $V$ / $10^{-3}$ m$^3$; cycle WXYZ with X at (1.42, 1.0), Y at (0.44, 5.2), Z vertically above Y, W vertically above X; enclosed area shaded (not to scale)]\n(e) For the cycle identify, with the letter I, an isochoric (isovolumetric) change. [1]\n(f) The temperature at point X is 310 K. Calculate the temperature at point Y. [2]\n(g) The shaded area WXYZ is 610 J. The total thermal energy transferred out of the gas in one cycle is 1.3 kJ.\n(i) State what is represented by the shaded area WXYZ. [1]\n(ii) Determine the efficiency of cycle WXYZ. [2]\n(iii) Explain why the total thermal energy transferred out of the gas is degraded. [2]\n(h) The work done on the gas during the adiabatic compression XY is 210 J. Determine the change in internal energy during the change from X to Y. [2]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "A",
+    "X"
+   ],
+   "subtopics": [
+    "A.2",
+    "X.13",
+    "A.1"
+   ],
+   "text_clean": "8. This question is in two parts. Part 1 is about momentum. Part 2 is about a DVD.\nPart 1 Momentum\n(a) State the law of conservation of linear momentum. [2]\n(b) A toy car crashes into a wall and rebounds at right angles to the wall, as shown in the plan view.\n[Diagram: plan view of toy car moving towards a wall before the crash and moving away after the crash]\nThe graph shows the variation with time of the force acting on the car due to the wall during the collision.\n[Graph: force / N against time / s; triangular pulse rising from 0 at 0.00 s to 24 N at 0.08 s and back to 0 at 0.16 s]\nThe kinetic energy of the car is unchanged after the collision. The mass of the car is 0.80 kg.\n(i) Determine the initial momentum of the car. [3]\n(ii) Estimate the average acceleration of the car before it rebounds. [3]\n(iii) On the axes, draw a graph to show how the momentum of the car varies during the impact. You are not required to give values on the $y$-axis. [3]\n[Graph: blank axes momentum against time / s from 0.00 to 0.16 s, with zero line in the middle]\n(c) Two identical toy cars, A and B are dropped from the same height onto a solid floor without rebounding. Car A is unprotected whilst car B is in a box with protective packaging around the toy. Explain why car B is less likely to be damaged when dropped. [4]\nPart 2 DVD\n(d) With reference to binary numbers, explain what is meant by the term least-significant bit (LSB). [2]\n(e) Laser light is incident on a DVD. Outline how the laser beam is used to read the information on the DVD. [4]\n(f) On a DVD the average length of a land–pit pair is 2.2 μm. The sampling rate is 48 kHz and each sample consists of two 16-bit binary numbers. The total length of the track on the DVD is 12 km. Determine, in minutes, the total playing time of the track on the DVD. [4]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "B",
+    "E",
+    "D"
+   ],
+   "subtopics": [
+    "B.5",
+    "E.2",
+    "D.2"
+   ],
+   "text_clean": "9. This question is in two parts. Part 1 is about current electricity. Part 2 is about atoms.\nPart 1 Current electricity\n(a) A 24 Ω resistor is made from a conducting wire.\n(i) The diameter of the wire is 0.30 mm and the wire has a resistivity of $1.7\\times10^{-8}\\ \\Omega\\text{ m}$. Calculate the length of the wire. [2]\n(ii) A potential difference of 12 V is applied between the ends of the wire. Calculate the acceleration of a free electron in the wire. [3]\n(iii) Suggest why the average speed of the free electron does not keep increasing even though it is being accelerated. [3]\n(b) An electric circuit consists of a supply connected to a 24 Ω resistor in parallel with a variable resistor of resistance $R$. The supply has an emf of 12 V and an internal resistance of 11 Ω.\n[Circuit diagram: supply (12 V, 11 Ω) in parallel with a voltmeter V, a 24 Ω resistor and a variable resistor R]\nPower supplies deliver maximum power to an external circuit when the resistance of the external circuit equals the internal resistance of the power supply.\n(i) Determine the value of $R$ for this circuit at which maximum power is delivered to the external circuit. [3]\n(ii) Calculate the reading on the voltmeter for the value of $R$ you determined in (b)(i). [2]\n(iii) Calculate the power dissipated in the 24 Ω resistor when the maximum power is being delivered to the external circuit. [2]\nPart 2 Atoms\n(c) State what is meant by the wavefunction of an electron. [1]\n(d) An electron is confined in a length of $2.0\\times10^{-10}$ m.\n(i) Determine the uncertainty in the momentum of the electron. [2]\n(ii) The electron has a momentum of $2.0\\times10^{-23}$ N s. Determine the de Broglie wavelength of the electron. [2]\n(iii) On the axes, sketch the variation of the wavefunction $\\Psi$ of the electron in (d)(ii) with distance $x$. You may assume that $\\Psi = 0$ when $x = 0$. [3]\n[Graph: blank axes $\\Psi$ against $x$ / $10^{-10}$ m from 0 to 2]\n(iv) Identify the feature of your graph in (d)(iii) that gives the probability of finding the electron at a particular position and at a particular time. [2]",
+   "answer_status": "ok"
+  }
+ }
+}

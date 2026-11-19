@@ -1,0 +1,297 @@
+{
+ "exam_id": "math-2022-M-P2-TZ2",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2022,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2022 May Examination Session/Mathematics_analysis_and_approaches_paper_2__TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2022 May Examination Session/Mathematics_analysis_and_approaches_paper_2__TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2222-7112; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2022-M-P2-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\nThe following diagram shows a circle with centre O and radius 5 metres.\nˆ Points A and B lie on the circle and AOB = 1.9 radians.\ndiagram not to scale\nA\nO 1.9\nB\n(a) Find the length of the chord [AB] .\b [3]\n(b) Find the area of the shaded sector.\b [3]",
+   "ms_text": "1. (a) EITHER\nuses the cosine rule (M1)\n2 2 2 AB = 5 + 5 −××× 255cos1.9 (A1)\nOR\nuses right-angled trigonometry (M1)\nAB\n2\nsin0.95 (A1) 5=\nOR\nuses the sine rule (M1)\n1π1.9 α= ( − )( = 0.6207... )\n2\nAB 5\n= (A1)\nsin1.9 sin0.6207...\nTHEN\nAB = 8.1341...\nAB = 8.13 (m) A1\n[3 marks]\n(b) let the shaded area be A\nMETHOD 1\nAttempt at finding reflex angle (M1)\nˆ AOB = 2π1.9 − ( = 4.3831... )\nsubstitution into area formula (A1)\n1 2π1.9 − 2 ×\n() 2 A = × 5 × 4.3831... OR π5\n2 2π\n= 54.7898...\n= 54.8 (m2) A1\nMETHOD 2\nlet the area of the circle be A and the area of the unshaded sector be A\nC U\nA = A − A (M1)\nC U\n1\nA = × 2 − × 2 × ( = − ) π5 5 1.9 78.5398... 23.75 (A1)\n2\n= 54.7898...\n= 54.8 (m2) A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nThe following diagram shows a circle with centre O and radius 5 metres.\nPoints A and B lie on the circle and $\\hat{AOB} = 1.9$ radians.\n[Diagram: circle centre O with chord [AB]; angle AOB = 1.9 marked at O; the major sector (reflex angle side) is shaded; diagram not to scale]\n(a) Find the length of the chord [AB]. [3]\n(b) Find the area of the shaded sector. [3]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nThe derivative of a function g is given by g ′(x)=3x2+5ex , where x∈ϒ . The graph of g\npasses through the point (0 , 4) . Find g(x) .",
+   "ms_text": "2. METHOD 1\nrecognises that () gx = ( 3 x 2 + 5e x ) d x (M1) ∫\ngx () = x 3+5ex ( + C ) (A1)(A1)\nNote: Award A1 for each integrated term.\nsubstitutes x = 0 and y = 4 into their integrated function (must involveC + ) (M1)\n4 = 0 ++ 5 C ⇒ C = − 1\nx gx () = x 3+5e − 1 A1\nMETHOD 2\nattempts to write both sides in the form of a definite integral (M1)\nx x\n( 2 t ) ∫ g'() d t t = ∫ 3 t + 5e d t (A1)\n0 0\ngx () − 4 = x 3 + 5e x − 5e 0 (A1)(A1)\n3 x 0 Note: Award A1 for () gx− 4 and A1 for x+ 5e − 5e .\nx gx () = x 3+5e − 1 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nThe derivative of a function $g$ is given by $g'(x) = 3x^2 + 5e^x$, where $x \\in \\mathbb{R}$. The graph of $g$ passes through the point $(0, 4)$. Find $g(x)$."
+  },
+  {
+   "id": "math-2022-M-P2-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nEvents A and B are independent and P (A)=3P (B) .\nGiven that P (A∪B)=0.68 , find P (B) .",
+   "ms_text": "( ∪ ) = () + () − ( ∩ ) = 3. P A B P A P B P A B 0.68\nsubstitution of () P A ⋅ P () B for ( PA ∩ B ) in ( PA ∪ B ) (M1)\n() + () − ()()( = ) P A P B P A P B 0.68\nsubstitution of 3PB () for () PA (M1)\n() + () − ()() = 3P B P B 3P B P B 0.68 (or equivalent) (A1)\nNote: The first two marks are independent of each other.\nattempts to solve their quadratic equation (M1)\n117\nP () B = 0.2,1.133... ,\n515\n1\nP () B = 0.2 = A2\n5\nNote: Award A1 if both answers are given as final answers for () PB.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nEvents $A$ and $B$ are independent and $P(A) = 3P(B)$.\nGiven that $P(A \\cup B) = 0.68$, find $P(B)$."
+  },
+  {
+   "id": "math-2022-M-P2-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nA random sample of nine adults were selected to see whether sleeping well affected their\nreaction times to a visual stimulus. Each adult’s reaction time was measured twice.\nThe first measurement for reaction time was taken on a morning after the adult had\nslept well. The second measurement was taken on a morning after the same adult had not\nslept well.\nThe box and whisker diagrams for the reaction times, measured in seconds, are shown below.\n(s)\n0.24 0.30 0.36 0.42 0.48\nKey:\nfirst reaction time (slept well)\nsecond reaction time (not slept well)\nConsider the box and whisker diagram representing the reaction times after sleeping well.\n(a) State the median reaction time after sleeping well.\b [1]\n(b) Verify that the measurement of 0.46 seconds is not an outlier.\b [3]\n(c) State why it appears that the mean reaction time is greater than the median reaction time.\b [1]\nNow consider the two box and whisker diagrams.\n(d) Comment on whether these box and whisker diagrams provide any evidence that might\nsuggest that not sleeping well causes an increase in reaction time.\b [1]",
+   "ms_text": "4. (a) 0.28(s) A1\n[1 mark]\n= − ( = ) (b) IQR 0.35 0.27 0.08 (s) (A1)\nsubstituting their IQR into correct expression for upper fence (A1)\n( ) 0.351.50.08 + × = 0.47 (s)\n< 0.46 0.47 R1\nso 0.46(s) is not an outlier AG\n[3 marks]\n(c) EITHER\nthe median is closer to the lower quartile (positively skewed) R1\nOR\nthe distribution is positively skewed R1\nOR\nthe range of reaction times below the median is smaller than the range of reaction\ntimes above the median R1\nNote: These are sample answers from a range of acceptable correct answers.\nAward R1 for any correct statement that explains this.\nDo not award R1 if there is also an incorrect statement, even if another\nstatement in the answer is correct. Accept a correctly and clearly labelled\ndiagram.\n[1 mark]\n(d) EITHER\nthe distribution for ‘not sleeping well’ is centred at a higher reaction time R1\nOR\nthe median reaction time after not sleeping well is equal to the upper quartile\nreaction time after sleeping well R1\nOR\n75% of reaction times are <0.35 seconds after sleeping well, compared with\n50% after not sleeping well R1\nOR\nthe sample size of 9 is too small to draw any conclusions R1\nNote: These are sample answers from a range of acceptable correct answers.\nAccept any relevant correct statement that relates to the median and/or\nquartiles shown in the box plots. Do not accept a comparison of\nmeans.\nDo not award R1 if there is also an incorrect statement, even if another\nstatement in the answer is correct\nAward R0 to “correlation does not imply causation”.\n[1 mark]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.2",
+    "4.1",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nA random sample of nine adults were selected to see whether sleeping well affected their reaction times to a visual stimulus. Each adult's reaction time was measured twice.\nThe first measurement for reaction time was taken on a morning after the adult had slept well. The second measurement was taken on a morning after the same adult had not slept well.\nThe box and whisker diagrams for the reaction times, measured in seconds, are shown below.\n[Diagram: two box and whisker plots on a scale 0.24 to 0.48 s. First reaction time (slept well, white): min 0.24, Q1 0.27, median 0.28, Q3 0.35, max 0.46. Second reaction time (not slept well, shaded): min 0.27, Q1 0.29, median 0.35, Q3 0.39, max 0.48]\nConsider the box and whisker diagram representing the reaction times after sleeping well.\n(a) State the median reaction time after sleeping well. [1]\n(b) Verify that the measurement of 0.46 seconds is not an outlier. [3]\n(c) State why it appears that the mean reaction time is greater than the median reaction time. [1]\nNow consider the two box and whisker diagrams.\n(d) Comment on whether these box and whisker diagrams provide any evidence that might suggest that not sleeping well causes an increase in reaction time. [1]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\nA particle moves in a straight line such that its velocity, vms-1 , at time t seconds is given by\n2 ( t + 1 ) cos t\nv = , 0≤t≤3 .\n4\n(a) Determine when the particle changes its direction of motion.\b [2]\n(b) Find the times when the particle’s acceleration is -1.9ms-2 .\b [3]\n(c) Find the particle’s acceleration when its speed is at its greatest.\b [2]",
+   "ms_text": "5. (a) recognises the need to find the value of t when v = 0 (M1)\nπ\nt = 1.5707... =\n2\nπ\nt = 1.57 = (s) A1\n2\n[2 marks]\n(b) recognises that () at = vt '() (M1)\nt= 2.2627... , 2 t= 2.9573...\n1\nt= 2.26 , 2 t= 2.96 (s) A1A1\n1\nNote: Award M1A1A0 if the two correct answers are given with additional values\noutside 0 ≤≤ t 3 .\n[3 marks]\n(c) speed is greatest at t = 3 (A1)\na = − 1.8377...\na = − 1.84 (m s-2) A1\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nA particle moves in a straight line such that its velocity, $v\\ \\mathrm{m\\,s^{-1}}$, at time $t$ seconds is given by\n$v = \\frac{(t^2+1)\\cos t}{4}$, $0 \\le t \\le 3$.\n(a) Determine when the particle changes its direction of motion. [2]\n(b) Find the times when the particle's acceleration is $-1.9\\ \\mathrm{m\\,s^{-2}}$. [3]\n(c) Find the particle's acceleration when its speed is at its greatest. [2]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 5]\n2 2 ( y − 4 )\nThe following diagram shows the curve x + = 1 , where h≤y≤4 .\n36 16\ndiagram not to scale\ny\nB\n4\nP Q\nx\nO R\nThe curve from point Q to point B is rotated 360° about the y-axis to form the interior\nsurface of a bowl. The rectangle OPQR , of height hcm, is rotated 360° about the y-axis to\nform a solid base.\nThe bowl is assumed to have negligible thickness.\nGiven that the interior volume of the bowl is to be 285 cm3 , determine the height of the base.",
+   "ms_text": "2x 6. attempts to express in terms of y (M1)\n4 2 ( y − 4 )\nV = π361 − d y A1 ∫\n16\nh\nNote: Correct limits are required.\n4 2 ( y − 4 )\nAttempts to solve π361 ∫ − d y = 285 forh (M1)\n16\nh\n3 2 h h 8\n− + = Note: Award M1 for attempting to solve 36π 285 or equivalent\n48 4 3\nfor h .\nh = 0.7926...\nh = 0.793 (cm) A2\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.17"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 5]\nThe following diagram shows the curve $\\frac{x^2}{36} + \\frac{(y-4)^2}{16} = 1$, where $h \\le y \\le 4$.\n[Diagram: axes x and y; curve rising from Q (on the line y = h) to B at height y = 4; rectangle OPQR with P on the y-axis, R on the x-axis; dashed continuation of curve below Q to O; diagram not to scale]\nThe curve from point Q to point B is rotated $360^\\circ$ about the $y$-axis to form the interior surface of a bowl. The rectangle OPQR, of height $h$ cm, is rotated $360^\\circ$ about the $y$-axis to form a solid base.\nThe bowl is assumed to have negligible thickness.\nGiven that the interior volume of the bowl is to be $285\\ \\mathrm{cm^3}$, determine the height of the base."
+  },
+  {
+   "id": "math-2022-M-P2-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 8]\n( ) − x k\nConsider lim arctancos\n, where k∈ϒ .\n2 x → 0 x\nShow that a finite limit only exists for k =π\n(a) .\b [2]\n4\nUsing l’Hôpital’s rule, show algebraically that the value of the limit is -1\n(b) .\b [6]\n4",
+   "ms_text": "2 , the indeterminate form 0 7. (a) (as lim x = 0 is required for the limit to exist)\nx → 0 0\n( ( ) ) ⇒ limarctancos x − k = 0 M1\nx → 0\narctan1 − k = 0 ( k = arctan1 ) A1\nπ\nso k= AG\n4\nπ to show the limit is 0\nNote: Award M1A0 for using k= .\n4 0\n[2 marks]\nπ\n( ) arctancos x −\n0 4\n(b) lim =\nx → 0 x 2 0\n− sin x\n2 1cos + x\n= lim A1A1\nx → 0 2 x\nNote: AwardA1 for a correct numerator and A1 for a correct denominator.\nrecognises to apply l’Hôpital’s rule again (M1)\n− sin x\n2 0 1cos + x\n= lim =\nx → 0 2 x 0\nNote: Award M0 if their limit is not the indeterminate form 0\n.\n0\nEITHER\n2 2 − cos x ( 1cos + x ) − 2sin x cos x\n2\n( + 2 ) 1cos x\n= lim A1A1\nx → 0 2\nNote: AwardA1 for a correct first term in the numerator and A1 for a correct\nsecond term in the numerator.\nOR\n− cos x\nlim A1A1\nx → 0 ( + 2 ) − 21cos x 4sincos x x x\nNote: AwardA1 for a correct numerator and A1 for a correct denominator.\nTHEN\nx = substitutes 0 into the correct expression to evaluate the limit A1\nNote: The final A1 is dependent on all previous marks.\n1\n= − AG\n4\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.15",
+    "5.6",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 8]\nConsider $\\lim_{x \\to 0} \\frac{\\arctan(\\cos x) - k}{x^2}$, where $k \\in \\mathbb{R}$.\n(a) Show that a finite limit only exists for $k = \\frac{\\pi}{4}$. [2]\n(b) Using l'Hôpital's rule, show algebraically that the value of the limit is $-\\frac{1}{4}$. [6]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nRachel and Sophia are competing in a javelin-throwing competition.\nThe distances, R metres, thrown by Rachel can be modelled by a normal distribution with\nmean 56.5 and standard deviation 3 .\nThe distances, S metres, thrown by Sophia can be modelled by a normal distribution with\nmean 57.5 and standard deviation 1.8 .\nIn the first round of competition, each competitor must have five throws. To qualify for the\nnext round of competition, a competitor must record at least one throw of 60 metres or\ngreater in the first round.\nFind the probability that only one of Rachel or Sophia qualifies for the next round of competition.",
+   "ms_text": "( 2 ) 8. Rachel: R N56.5,3\nP ( R ≥ 60 ) = 0.1216... (A1)\n2 Sophia: S ~ N57.5,1.8 ( )\n( ) P S ≥ 60 = 0.0824... (A1)\nrecognises binomial distribution with n = 5 (M1)\nlet N represent the number of Rachel’s throws that are longer than60 metres\nR\nN ~ B5,0.1216... ( )\nR\neither ( ) or ( ) P N≥ 1 = 0.4772... P N= 0 = 0.5227... (A1)\nR R\nlet N represent the number of Sophia’s throws that are longer than60metres\nS\nN ~ B5,0.0824... ( )\nS\neither ( ) or ( ) P N≥ 1 = 0.3495... P N= 0 = 0.6504... (A1)\nS S\nEITHER\nuses ( P N ≥ 1P )( N = 0 ) + P ( N ≥ 1P )( N = 0 ) (M1)\nR S S R\nPone of Rachel or Sophia qualify ( ) = ( 0.4772...0.6504... × )( + 0.3495...0.5227... × )\nOR\nuses ( ≥ ) + ( ≥ ) −× ( ≥ ) × ( ≥ ) P N 1 P N 1 2P N 1 P N 1 (M1)\nR S R S\nPone of Rachel or Sophia qualify ( ) = 0.4772... + 0.3495... −× 20.4772...0.3495... ×\nTHEN\n= 0.4931...\n= 0.493 A1\n[7 marks]\nNote: M marks are not dependent on the previous A marks.",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.9",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nRachel and Sophia are competing in a javelin-throwing competition.\nThe distances, $R$ metres, thrown by Rachel can be modelled by a normal distribution with mean 56.5 and standard deviation 3.\nThe distances, $S$ metres, thrown by Sophia can be modelled by a normal distribution with mean 57.5 and standard deviation 1.8.\nIn the first round of competition, each competitor must have five throws. To qualify for the next round of competition, a competitor must record at least one throw of 60 metres or greater in the first round.\nFind the probability that only one of Rachel or Sophia qualifies for the next round of competition."
+  },
+  {
+   "id": "math-2022-M-P2-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 4]\nConsider the set of six-digit positive integers that can be formed from the\ndigits 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 and 9 .\nFind the total number of six-digit positive integers that can be formed such that\n(a) the digits are distinct;\b [2]\n(b) the digits are distinct and are in increasing order.\b [2]",
+   "ms_text": "( 9 ) 9. (a) 998765 ××××× =× 9 P (M1)\n5\n9!\n= 136080 =× 9 A1\n4!\n10!\n××××× = 10 = = Note: Award M1A0 for 1098765 P 151200 .\n6\n4!\nNote: Award M1A0 for 9 P= 60480\n6\n[2 marks]\n(b) METHOD 1\nEITHER\nevery unordered subset of 6 digits from the set of 9 non-zero digits can be\narranged in exactly one way into a 6-digit number with the digits in increasing order. A1\nOR\n9 C× ( 1 ) A1\n6\nTHEN\n= 84 A1\nMETHOD 2\nEITHER\nremoves 3 digits from the set of 9 non-zero digits and these 6 remaining digits can\nbe arranged in exactly one way into a 6-digit number with the digits in increasing\norder. A1\nOR\n9 C× ( ) 1\nA1\n3\nTHEN\n= 84 A1\n[2 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 4]\nConsider the set of six-digit positive integers that can be formed from the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9.\nFind the total number of six-digit positive integers that can be formed such that\n(a) the digits are distinct; [2]\n(b) the digits are distinct and are in increasing order. [2]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 15]\nA scientist conducted a nine-week experiment on two plants, A and B , of the same species.\nHe wanted to determine the effect of using a new plant fertilizer. Plant A was given fertilizer\nregularly, while Plant B was not.\nThe scientist found that the height of Plant A , hAcm , at time t weeks can be modelled by the\nfunction hA(t )=sin(2t+6)+9t+27 , where 0≤t≤9 .\nThe scientist found that the height of Plant B , hBcm , at time t weeks can be modelled by the\nfunction hB(t )=8t+32 , where 0≤t≤9 .\n(a) Use the scientist’s models to find the initial height of\n(i) Plant B;\nPlant A correct to three significant figures.\b (ii) [3]\n(b) Find the values of t when hA(t )=hB(t ) .\b [3]\n(c) For t>6 , prove that Plant A was always taller than Plant B.\b [3]\n(d) For 0≤t≤9 , find the total amount of time when the rate of growth of Plant B was\ngreater than the rate of growth of Plant A.\b [6]",
+   "ms_text": "10. (a) (i) 32(cm) A1\nh () 0 = sin6 () + 27 (ii) (M1)\nA\n= 26.7205...\n= 26.7 (cm) A1\n[3 marks]\n(b) attempts to solve h () t = h () t for t (M1)\nA B\nt = 4.0074...,4.7034...,5.88332...\nt = 4.01,4.70,5.88 (weeks) A2\n[3 marks]\nh () t − h () t = sin2 ( t + 6 ) +− t 5 (c) A1\nA B\nEITHER\nt > 6 t −> 51 for , A1\nand as sin2 ( t + 6 ) ≥− 1 ⇒ h () t − h () t > 0 R1\nA B\nOR\nthe minimum value of sin2 ( t + 6 ) = − 1 R1\nso for t > 6 , h () t − h () t =− t 6 > 0 A1\nA B\nTHEN\nhence for t > 6 , Plant A was always taller than Plant B AG\n[3 marks]\n′ ′ (d) recognises that h () t and h () t are required (M1)\nA B\nattempts to solve h ′ () t = h ′ () t for t (M1)\nA B\nt = 1.18879... and 2.23598... OR 4.33038... and 5.37758... OR7.47197... and 8.51917... (A1)\n4π 5π 7π 8π 10π 11π\nNote: Award full marks for t = − 3, − 3, − 3, − 3, − 3, − 3 .\n3 3 3 3 3 3\nAward subsequent marks for correct use of these exact values.\n<< << 1.18879... t 2.23598... OR 4.33038... t 5.37758... OR\n7.47197... << t 8.51917... (A1)\nattempts to calculate the total amount of time (M1)\n5π 4π\n( ) 32.2359...1.1887... − = 3 − 3 − − 3\n3 3\n= 3.14 ( = π ) (weeks) A1\n[6 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.7",
+    "2.10",
+    "2.2",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 15]\nA scientist conducted a nine-week experiment on two plants, $A$ and $B$, of the same species. He wanted to determine the effect of using a new plant fertilizer. Plant $A$ was given fertilizer regularly, while Plant $B$ was not.\nThe scientist found that the height of Plant $A$, $h_A$ cm, at time $t$ weeks can be modelled by the function $h_A(t) = \\sin(2t+6) + 9t + 27$, where $0 \\le t \\le 9$.\nThe scientist found that the height of Plant $B$, $h_B$ cm, at time $t$ weeks can be modelled by the function $h_B(t) = 8t + 32$, where $0 \\le t \\le 9$.\n(a) Use the scientist's models to find the initial height of\n(i) Plant $B$;\n(ii) Plant $A$ correct to three significant figures. [3]\n(b) Find the values of $t$ when $h_A(t) = h_B(t)$. [3]\n(c) For $t > 6$, prove that Plant $A$ was always taller than Plant $B$. [3]\n(d) For $0 \\le t \\le 9$, find the total amount of time when the rate of growth of Plant $B$ was greater than the rate of growth of Plant $A$. [6]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\nTwo airplanes, A and B, have position vectors with respect to an origin O given respectively by\n19 − 6\n1 + t 2 rA=−\n1 4\n1 4\nrB= 0 + t 2\n12 − 2\nwhere t represents the time in minutes and 0≤t≤2.5 .\nEntries in each column vector give the displacement east of O , the displacement north of O\nand the distance above sea level, all measured in kilometres.\nFind the three-figure bearing on which airplane B is travelling.\b (a) [2]\n(b) Show that airplane A travels at a greater speed than airplane B.\b [2]\n(c) Find the acute angle between the two airplanes’ lines of flight. Give your answer in\ndegrees.\b [4]\nThe two airplanes’ lines of flight cross at point P .\n(d) (i) \u0007Find the coordinates of P .\nDetermine the length of time between the first airplane arriving at P and the (ii)\nsecond airplane arriving at P .\b [7]\nLet D (t ) represent the distance between airplane A and airplane B for 0≤t≤2.5 .\n(e) Find the minimum value of D (t ) .\b [5]",
+   "ms_text": "11. (a) let φ be the required angle (bearing)\nEITHER\n1\nφ= 90 °− arctan ( = arctan2 ) (M1)\n2\nNote: Award M1 for a labelled sketch.\nOR\n0 4\n⋅\n1 2 1\ncos φ = = 0.4472..., = (M1)\n1 × 20 5\nφ= arccos0.4472... ( )\nTHEN\n063° A1\nNote: Do not accept 063.4° or 63.4° or 1.10 . c\n[2 marks]\n(b) Method 1\nlet b be the speed of A and let b be the speed of B\nA B\nattempts to find the speed of one of A or B (M1)\n2 2\n= ( − ) + 2 + 2 = 2 + 2 +− ( ) b 6 2 4 or b 4 2 2\nA B\n2 2\n( ) 2 2 2 2 Note: Award M0 for b = 19 +− 1 + 1 and b = 1 + 0 + 12 .\nA B\n= ( = ) = ( = ) b 7.48... 56 (km min-1) and b 4.89... 24 (km min-1) A1\nA B\nb > b so Atravels at a greater speed thanB AG\nA B\n[2 marks]\nMethod 2\ndistance\nattempts to use speed =\ntime\n− − rt () rt () rt () rt ()\nA 2 A 1 B 2 B 1 speed = and speed = (M1)\nA B\nt − t t − t\n2 1 2 1\nfor example:\nr (1) − r (0) r (1) − r (0)\nA A B B speed = and speed =\nA B\n1 1\n2 2 2 2 2 2 (6) − + 2 + 4 4 + 2 + 2\nspeed = and speed =\nA B\n1 1\nspeed = 7.48...214 ( ) and speed = 4.89... ( 24 ) A1\nA B\n> speed speed so Atravels at a greater speed thanB AG\nA B\n[2 marks]\n(c) attempts to use the angle between two direction vectors formula (M1)\n( − 6 )()()()()( 4 + 2 2 + 4 − 2 )\ncos θ = (A1)\n2 2 2 2 2 2\n( − 6 ) + 2 + 4 4 + 2 +− ( 2 )\n7\n( )( ) cos θ = − 0.7637... = − or θ= arccos − 0.7637... = 2.4399...\n84\nattempts to find the acute angle 180 °− θ using their value of θ (M1)\n= 40.2 ° A1\n[4 marks]\n(d) (i) for example, sets r () t = r () t and forms at least two equations (M1)\nA 1 B 2\n196 − t =+ 14 t\n1 2\n−+ 12 t = 2 t\n1 2\n14 + t = 122 − t\n1 2\nNote: Award M0 for equations involving t only.\nEITHER\nattempts to solve the system of equations for one of 1tor 2t (M1)\n3\nt= 2 or 2 t= A1\n1\n2\nOR\nattempts to solve the system of equations for 1tand 2t (M1)\n3\nt= 2 t= A1\n1 and 2\n2\nTHEN\nsubstitutes their 1tor 2t value into the corresponding Ar or Br (M1)\nP7,3,9 ( ) A1\n7\n→\nNote: Accept OP = 3 . Accept 7 km east of O, 3 km north of O and 9 km\n9\nabove sea level.\nt − t (ii) attempts to find the value of 1 (M1)\n2\n3\nt − t = 2 −\n1 2\n2\n0.5minutes (30 seconds) A1\n[7 marks]\n(e) EITHER\nattempts to find r − r (M1) B A\n− 18 10\nr − r = 1 + t 0\nB A\n11 − 6\nattempts to find their Dt () (M1)\n2 2\nDt () = ( 10 t − 18 ) ++ 1 ( 116 − t ) A1\nOR\nr − r attempts to find (M1)\nA B\n18 − 10\nr − r = − 1 + t 0\nA B\n− 11 6\nDt () attempts to find their (M1)\n2 2 2\nDt () = ( 1810 − t ) +− ( 1 ) +− ( 116 + t ) A1\nNote: Award M0M0A0 for expressions using two different time parameters.\nTHEN\n() either attempts to find the local minimum point of Dt or attempts to find the value\n′ () of t such that Dt = 0 (or equivalent) (M1)\n123\nt = 1.8088... =\n68\nDt= () 1.01459...\n1190\nminimum value of Dt is () 1.01 = (km) A1\n34\n[5 marks]\nNote: Award M0 for attempts at the shortest distance between two lines.\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.12",
+    "3.14",
+    "5.8",
+    "3.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 20]\nTwo airplanes, $A$ and $B$, have position vectors with respect to an origin O given respectively by\n$\\mathbf{r}_A = \\begin{pmatrix}19\\\\-1\\\\1\\end{pmatrix} + t\\begin{pmatrix}-6\\\\2\\\\4\\end{pmatrix}$\n$\\mathbf{r}_B = \\begin{pmatrix}1\\\\0\\\\12\\end{pmatrix} + t\\begin{pmatrix}4\\\\2\\\\-2\\end{pmatrix}$\nwhere $t$ represents the time in minutes and $0 \\le t \\le 2.5$.\nEntries in each column vector give the displacement east of O, the displacement north of O and the distance above sea level, all measured in kilometres.\n(a) Find the three-figure bearing on which airplane $B$ is travelling. [2]\n(b) Show that airplane $A$ travels at a greater speed than airplane $B$. [2]\n(c) Find the acute angle between the two airplanes' lines of flight. Give your answer in degrees. [4]\nThe two airplanes' lines of flight cross at point P.\n(d) (i) Find the coordinates of P.\n(ii) Determine the length of time between the first airplane arriving at P and the second airplane arriving at P. [7]\nLet $D(t)$ represent the distance between airplane $A$ and airplane $B$ for $0 \\le t \\le 2.5$.\n(e) Find the minimum value of $D(t)$. [5]"
+  },
+  {
+   "id": "math-2022-M-P2-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 21]\nThe population, P, of a particular species of marsupial on a small remote island can be\nmodelled by the logistic differential equation\nd P P\n= kP 1 −\nd t N\nwhere t is the time measured in years and k , N are positive constants.\nThe constant N represents the maximum population of this species of marsupial that the\nisland can sustain indefinitely.\nP In the context of the population model, interpret the meaning of d\n(a) .\b [1]\nd t\n2\nShow that d P P 2 P = kP 2 1 − 1 −\n(b) [4]\n2 .\b d t N N\n(c) Hence show that the population of marsupials will increase at its maximum rate\nN\nwhen P . Justify your answer.\b [5]\n=2\nP Hence determine the maximum value of d\n(d) in terms of k and N.\b [2]\nd t\nLet P0 be the initial population of marsupials.\n(e) By solving the logistic differential equation, show that its solution can be expressed in\nthe form\nP N − P\n0 kt = ln\n.\b [7]\nP N − P\n0\nAfter 10 years, the population of marsupials is 3P0 . It is known that N=4P0 .\n(f) Find the value of k for this population model.\b [2]\n\b",
+   "ms_text": "12. (a) rate of growth (change) of the (marsupial) population (with respect to time) A1\n[1 mark]\nNote: Do not accept growth (change) in the (marsupials) population per year.\n(b) METHOD 1\n2 P d P kP\nkP 1 − attempts implicit differentiation on = kP − by expanding (M1)\nd t N N\nd 2 P d P kPP d\n= k − 2 A1A1\nd t 2 d t N d t\nd P 2 P\n= − k 1 A1\nd t N\n2 d P P d P P 2 P\n2 = kP 1 −\nand so = kP 1 − 1 − AG\n2 d t N d t N N\nMETHOD 2\nP P\nattempts implicit differentiation (product rule) on d = kP 1 −\nM1\nd t N\n2 d P d P P 1 d P\n= k 1 − + kP − A1\n2 d t d t N N d t\nP P 2\nsubstitutes d d P = kP 1 −\ninto their M1\nd t N 2 d t\n2 d P P P 1 P\n= kkP 1 − 1 − + kP − kP 1 −\n2 d t N N N N\n2\nP P P 2 2\n= kP 1 − − kP 1 −\nN N N\nP P P\n2 = kP 1 − 1 − −\nA1\nN N N\n2 d P P 2 P\n2\nso = kP 1 − 1 − AG\nd t 2 N N\n[4 marks]\n2 d P P 2 P\n= 0 ⇒ kP 2 1 − 1 − = 0 (c) (M1)\n2 d t N N\nN\nP = 0, , N A2\n2\nN\nNote: Award A1 for P = only.\n2\nN\nP = uses the second derivative to show that concavity changes at or the first derivative\n2\nN\nto show a local maximum at P = M1\n2\nEITHER\n2 N d P\na clearly labelled correct sketch of versus P showing P = corresponding to\n2 d t 2\nP a local maximum point for d\nR1\nd t\nOR\nN\na correct and clearly labelled sign diagram (table) showing P = corresponding to\n2\nP a local maximum point for d\nR1\nd t\nOR\nd 2 P 3 kN 2 N d 2 P 3 kN 2 3 N\nfor example, = ( > 0 ) with P = and = − ( < 0 ) with P =\nd t 2 32 4 d t 2 32 4\nN P corresponds to a local maximum point for d\nshowing P = R1\n2 d t\nN\nso the population is increasing at its maximum rate when P = AG\n2\n[5 marks]\nN P into d\n(d) substitutes P = (M1)\n2 d t\nN\nd P N 2\n= k 1 −\nd t 2 N\nP kN the maximum value of d\nA1\nis 4\nd t\n[2 marks]\n(e) METHOD 1\nattempts to separate variables M1\nN\nd P = k d t ∫ ∫\n( − ) PN P\nN\nattempts to write in partial fractions form M1\nPN ( − P )\nN A B\n≡ + ⇒ N ≡ AN ( − P ) + BP\n( ) ( ) PN − P P N − P\nA=, 1 B = 1 A1\nN 1 1\n≡ +\n( − ) ( − ) PN P P N P\n1 1\n∫ + d P = ∫ k d t\nP ( N − P )\n⇒ ln P − ln ( N − P ) = kt ( + C ) A1A1\nNote: Award A1 for − lnN ( − P ) and A1 for ln Pand kt ( + C ) . Absolute value\nsigns are not required.\nattempts to find C in terms of N and 0P M1\nwhen t = 0 , P = P and so C = ln P − ln ( N − P ) 0\n0 0\nP\nP P N − P\n= − 0 = ln A1 kt ln ln\nP N − P N − P\n0 0\nN − P\n0\nN − P\n= lnP 0 so kt AG\nP N − P\n0\n[7 marks]\nMETHOD 2\nattempts to separate variables M1\n1\nd P = k d t ∫ ∫\nP\nP 1 −\nN\n1\nattempts to write in partial fractions form M1\nP\nP 1 −\nN\n1 A B P\n≡ + ⇒≡ 1 A 1 − + BP\nP P P N\nP 1 − 1 −\nN N\n1\nA=, 1 B = A1\nN\n1 1 1\n≡ +\nP P P\nP 1 − N 1 −\nN N\n1 1\n∫ + d P = ∫ k d t\nP P\nN 1 −\nN\nP\n( ) ⇒ ln P − ln1 − = kt + C A1A1\nN\nP\n− − ( ) Note: Award A1 for ln1 and A1 for lnP and kt + C . Absolute value\nN\nsigns are not required.\nP NP\nln = kt + C ⇒ ln = kt + C\nP N − P\n1 −\nN\nattempts to find C in terms of N and 0P M1\nNP\nwhen t = 0 , P = P and so 0\n0 C = ln\nN − P\n0\nP\nNP NP N − P\nkt = ln − ln 0 = ln A1\nN − P N − P P 0\n0\nN − P\n0\nN − P lnP\nkt = 0 AG\nP N − P\n0\n[7 marks]\nMETHOD 3\n1 d u 1d P\nlets u = and forms = − M1\n2 P d t P d t\n1\nmultiplies both sides of the differential equation by − and makes the above\n2 P\nsubstitutions M1\n1d P 1 1 d u 1\n− = k − ⇒ = k − u\n2 P d t N P d t N\nd u k\n+ ku = (linear first-order DE) A1\nd t N\n∫ k d t kt d u kt k kt\nIF = e = e kt ⇒ e + k e u = e (M1)\nd t N\nd k\n( kt ) = kt u e e\nd t N\n1 1 1\nkt kt kt kt u e = e ( + C ) e = e ( + C )\nA1\nN P N\nattempts to find C in terms of N and 0P M1\n1 1 1 N − P\nt = 0 P = P u = 0 when , , and so C = − =\n0\nP P N NP\n0 0 0\nN − P N − P =\n0 ekt\nNP NP\n0\nP N − P\n0 ekt = A1\nN − P P\n0\nN − P lnP\n0 kt = AG\n− P N P\n0\n[7 marks]\nN − P lnP\n0 (f) substitutes t = 10 , P = 3 P and N = 4 P into kt = M1\n0 0\nP N − P\n0\n4 P − P\n0 0 10 k = ln3 ( = ln9 )\n4 P − 3 P\n0 0\n1 1\nk = 0.220 = ln9, = ln3 A1\n10 5\n[2 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.8",
+    "5.14",
+    "5.15",
+    "5.7",
+    "1.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 21]\nThe population, $P$, of a particular species of marsupial on a small remote island can be modelled by the logistic differential equation\n$\\frac{dP}{dt} = kP\\left(1 - \\frac{P}{N}\\right)$\nwhere $t$ is the time measured in years and $k$, $N$ are positive constants.\nThe constant $N$ represents the maximum population of this species of marsupial that the island can sustain indefinitely.\n(a) In the context of the population model, interpret the meaning of $\\frac{dP}{dt}$. [1]\n(b) Show that $\\frac{d^2P}{dt^2} = k^2 P\\left(1 - \\frac{P}{N}\\right)\\left(1 - \\frac{2P}{N}\\right)$. [4]\n(c) Hence show that the population of marsupials will increase at its maximum rate when $P = \\frac{N}{2}$. Justify your answer. [5]\n(d) Hence determine the maximum value of $\\frac{dP}{dt}$ in terms of $k$ and $N$. [2]\nLet $P_0$ be the initial population of marsupials.\n(e) By solving the logistic differential equation, show that its solution can be expressed in the form\n$kt = \\ln\\frac{P}{P_0}\\left(\\frac{N - P_0}{N - P}\\right)$. [7]\nAfter 10 years, the population of marsupials is $3P_0$. It is known that $N = 4P_0$.\n(f) Find the value of $k$ for this population model. [2]"
+  }
+ ],
+ "status": "done"
+}

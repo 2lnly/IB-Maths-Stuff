@@ -1,0 +1,35 @@
+{
+  "exam_id": "math-2015-M-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L4", "4.9"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 13]\nEngine oil is sold in cans of two capacities, large and small. The amount, in millilitres, in each can, is normally distributed according to Large $\\sim \\mathrm{N}(5000, 40)$ and Small $\\sim \\mathrm{N}(1000, 25)$.\n(a) A large can is selected at random. Find the probability that the can contains at least $4995$ millilitres of oil. [2]\n(b) A large can and a small can are selected at random. Find the probability that the large can contains at least $30$ millilitres more than five times the amount contained in the small can. [6]\n(c) A large can and five small cans are selected at random. Find the probability that the large can contains at least $30$ millilitres less than the total amount contained in the small cans. [5]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L5"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 12]\nEleven students who had under-performed in a philosophy practice examination were given extra tuition before their final examination. The differences between their final examination marks and their practice examination marks were\n$10, -1, 6, 7, -5, -5, 2, -3, 8, 9, -2$.\nAssume that these differences form a random sample from a normal distribution with mean $\\mu$ and variance $\\sigma^2$.\n(a) Determine unbiased estimates of $\\mu$ and $\\sigma^2$. [4]\n(b) (i) State suitable hypotheses to test the claim that extra tuition improves examination marks.\n(ii) Calculate the $p$-value of the sample.\n(iii) Determine whether or not the above claim is supported at the $5\\%$ significance level. [8]"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L6", "4.12"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 9]\nA manufacturer of stopwatches employs a large number of people to time the winner of a $100$ metre sprint. It is believed that if the true time of the winner is $\\mu$ seconds, the times recorded are normally distributed with mean $\\mu$ seconds and standard deviation $0.03$ seconds.\nThe times, in seconds, recorded by six randomly chosen people are\n$9.765, 9.811, 9.783, 9.797, 9.804, 9.798$.\n(a) Calculate a $99\\%$ confidence interval for $\\mu$. Give your answer correct to three decimal places. [4]\n(b) Interpret the result found in (a). [2]\n(c) Find the confidence level of the interval that corresponds to halving the width of the $99\\%$ confidence interval. Give your answer as a percentage to the nearest whole number. [3]"
+    },
+    "4": {
+      "topics": ["4", "2"],
+      "subtopics": ["4.L5", "4.L4", "2.6"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 15]\nA random variable $X$ has a population mean $\\mu$.\n(a) Explain briefly the meaning of\n(i) an estimator of $\\mu$;\n(ii) an unbiased estimator of $\\mu$. [3]\n(b) A random sample $X_1, X_2, X_3$ of three independent observations is taken from the distribution of $X$.\nAn unbiased estimator of $\\mu$, $\\mu \\neq 0$, is given by $U = \\alpha X_1 + \\beta X_2 + (\\alpha - \\beta) X_3$, where $\\alpha, \\beta \\in \\mathbb{R}$.\n(i) Find the value of $\\alpha$.\n(ii) Show that $\\mathrm{Var}(U) = \\sigma^2\\left(2\\beta^2 - \\beta + \\frac{1}{2}\\right)$ where $\\sigma^2 = \\mathrm{Var}(X)$.\n(iii) Find the value of $\\beta$ which gives the most efficient estimator of $\\mu$ of this form.\n(iv) Write down an expression for this estimator and determine its variance.\n(v) Write down a more efficient estimator of $\\mu$ than the one found in (iv), justifying your answer. [12]"
+    },
+    "5": {
+      "topics": ["4"],
+      "subtopics": ["4.L3", "4.8"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 11]\n(a) Determine the probability generating function for $X \\sim \\mathrm{B}(1, p)$. [4]\n(b) Explain why the probability generating function for $\\mathrm{B}(n, p)$ is a polynomial of degree $n$. [2]\n(c) Two independent random variables $X_1$ and $X_2$ are such that $X_1 \\sim \\mathrm{B}(1, p_1)$ and $X_2 \\sim \\mathrm{B}(1, p_2)$. Prove that if $X_1 + X_2$ has a binomial distribution then $p_1 = p_2$. [5]"
+    }
+  }
+}

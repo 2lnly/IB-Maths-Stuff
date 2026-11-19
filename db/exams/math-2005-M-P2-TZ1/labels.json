@@ -1,0 +1,142 @@
+{
+ "exam_id": "math-2005-M-P2-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.17",
+    "3.16",
+    "3.18",
+    "3.12"
+   ],
+   "text_clean": "1. [Maximum mark: 13]\nA plane $\\pi_1$ has equation $\\mathbf{r}\\cdot\\begin{pmatrix}6\\\\5\\\\4\\end{pmatrix}=15$.\n(a) A point P $(p,-p,p)$ lies on plane $\\pi_1$ and Q is the point where the plane $\\pi_1$ meets the $y$-axis.\n(i) Find the coordinates of P and of Q.\n(ii) Show that $\\vec{PQ}$ is parallel to the vector $\\mathbf{u}$, where $\\mathbf{u}=\\mathbf{i}-2\\mathbf{j}+\\mathbf{k}$. [5 marks]\n(b) Another plane $\\pi_2$ intersects $\\pi_1$ in the line (PQ). The point T $(1,0,-1)$ lies on $\\pi_2$.\n(i) Find the equation of $\\pi_2$, giving your answer in the form $Ax+By+Cz=D$.\n(ii) Find the angle between $\\pi_1$ and $\\pi_2$. [8 marks]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "text_clean": "2. [Maximum mark: 14]\n(i) A transformation $\\mathbf{A}$ maps P$(2,-1)$ to R$(1,0)$ and Q$(-4,-3)$ to S$(0,1)$.\n(a) Find the matrix $\\mathbf{A}$. [3 marks]\n(b) (i) Find $\\det \\mathbf{A}$.\n(ii) Hence find the area of $\\Delta$OPQ, where O is the origin. [3 marks]\n(ii) Let $\\mathbf{C}=\\begin{pmatrix}1&1\\\\-1&0\\end{pmatrix}$ and $\\mathbf{D}=\\frac{1}{13}\\begin{pmatrix}-7&5\\\\17&12\\end{pmatrix}$. Given that $\\mathbf{D}$ is transformation $\\mathbf{C}$ followed by transformation $\\mathbf{M}$,\n(a) find the matrix $\\mathbf{M}$; [3 marks]\n(b) describe fully the geometric transformation represented by $\\mathbf{M}$. [5 marks]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "5",
+    "4"
+   ],
+   "subtopics": [
+    "5.16",
+    "4.14",
+    "5.15"
+   ],
+   "text_clean": "3. [Maximum mark: 13]\n(a) Use integration by parts to show that\n$\\int 2x\\arctan x\\,dx=(x^2+1)\\arctan x-x+C$, where $C$ is a constant. [6 marks]\n(b) The probability density function of the random variable $X$ is defined by\n$f(x)=\\begin{cases}\\frac{\\pi}{2}-2x\\arctan x, & 0\\le x\\le 1\\\\ 0, & \\text{otherwise.}\\end{cases}$\nThe value of $a$ is such that $P(X<a)=\\frac{3}{4}$.\n(i) Show that $a$ satisfies the equation $a(2\\pi+4)=3+4(a^2+1)\\arctan a$.\n(ii) Find the value of $a$. [7 marks]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15",
+    "1.3",
+    "1.2",
+    "1.8"
+   ],
+   "text_clean": "4. [Maximum mark: 15]\n(i) Using mathematical induction, prove that\n$\\sum_{r=1}^{n}(r+1)2^{r-1}=n(2^n)$ for all positive integers. [7 marks]\n(ii) The first three terms of a geometric sequence are also the first, eleventh and sixteenth term of an arithmetic sequence.\nThe terms of the geometric sequence are all different.\nThe sum to infinity of the geometric sequence is 18.\n(a) Find the common ratio of the geometric sequence, clearly showing all working. [5 marks]\n(b) Find the common difference of the arithmetic sequence. [3 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.4",
+    "5.6",
+    "2.3",
+    "2.1",
+    "5.8"
+   ],
+   "text_clean": "5. [Maximum mark: 15]\n(a) The function $g$ is defined by $g(x)=\\frac{e^x}{\\sqrt{x}}$, for $0<x\\le 3$.\n(i) Sketch the graph of $g$.\n(ii) Find $g'(x)$.\n(iii) Write down an expression representing the gradient of the normal to the curve at any point. [8 marks]\n(b) Let P be the point $(x,y)$ on the graph of $g$, and Q the point $(1,0)$.\n(i) Find the gradient of (PQ) in terms of $x$.\n(ii) Given that the line (PQ) is a normal to the graph of $g$ at the point P, find the minimum distance from the point Q to the graph of $g$. [7 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L7",
+    "4.L6",
+    "4.L1",
+    "4.L5",
+    "4.3"
+   ],
+   "text_clean": "6. [Maximum mark: 30]\n(i) The random variable $X$ has a standard deviation 3.5 and an unknown mean $\\mu$.\n(a) A random sample of 100 observations was taken on $X$ and it was found that $\\sum x=7204$. Determine a 95 % confidence interval for $\\mu$ giving the limits correct to two decimal places. State the Central Limit Theorem and explain briefly why your solution requires the use of this theorem. [5 marks]\n(b) Another random sample of 200 observations was taken on $X$ and the following confidence interval was calculated.\n$[71.71, 72.75]$\nFind the confidence level of this interval. [4 marks]\n(ii) John keeps two chickens, A and B, of different breeds. He wishes to determine whether or not the eggs laid by the two chickens have, on average, the same weight. He therefore weighs the next ten eggs laid by each chicken and he obtains the following results.\nChicken A eggs ($x$ grams) | 52.1 | 54.3 | 51.0 | 53.3 | 53.9 | 55.6 | 52.2 | 53.8 | 54.7 | 52.6\nChicken B eggs ($y$ grams) | 55.8 | 53.1 | 54.8 | 56.2 | 54.0 | 55.4 | 56.2 | 52.6 | 53.0 | 55.9\nAssume that the weights of eggs laid by the two chickens are normally distributed with equal variances $\\sigma^2$.\n(a) Write down suitable hypotheses. [1 mark]\n(b) Evaluate $\\sum x$, $\\sum x^2$, $\\sum y$ and $\\sum y^2$. Use your values to calculate the pooled unbiased estimate of $\\sigma^2$. [4 marks]\n(c) Determine an appropriate $t$-statistic to test your hypotheses. Using a significance level of 5 %, state whether or not the eggs laid by the two chickens have the same mean weight. [4 marks]\n(iii) A schoolgirl believes that the number of goals scored in soccer matches in a certain league can be modelled by a Poisson distribution. She consults the records for the past season and she obtains the following data from 132 matches.\nNumber of goals scored | 0 | 1 | 2 | 3 | 4 | 5 | 6\nFrequency | 14 | 36 | 33 | 21 | 12 | 12 | 4\n(a) Calculate the mean number of goals scored per match. [2 marks]\n(b) Carry out a $\\chi^2$-test at the 10 % significance level to determine whether or not these data can be modelled by a Poisson distribution. [10 marks]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.2",
+    "7.5",
+    "7.8",
+    "7.3",
+    "1.L1"
+   ],
+   "text_clean": "7. [Maximum mark: 30]\n(i) The operation # defined on the set $\\{a,b,c,d,e\\}$ has the following operation table.\n# | a | b | c | d | e\na | d | c | e | a | b\nb | e | d | a | b | c\nc | b | e | d | c | a\nd | a | b | c | d | e\ne | c | a | b | e | d\nShow that only three of the four group axioms are satisfied. [6 marks]\n(ii) Let $R$ be a relation defined on $2\\times2$ matrices such that, given the matrices $\\mathbf{A}$ and $\\mathbf{B}$, $\\mathbf{A}R\\mathbf{B}$ if and only if there exists a matrix $\\mathbf{H}$ such that $\\mathbf{A}=\\mathbf{H}\\mathbf{B}\\mathbf{H}^{-1}$.\n(a) Show that $R$ is an equivalence relation. [5 marks]\n(b) Show that all matrices in the same equivalence class have equal determinants. [2 marks]\n(c) Given the matrix $\\mathbf{M}=\\begin{pmatrix}1&2\\\\1&3\\end{pmatrix}$, find a $2\\times2$ matrix that is\n(i) related to $\\mathbf{M}$ (excluding $\\mathbf{M}$ itself);\n(ii) not related to $\\mathbf{M}$. [5 marks]\n(iii) Let $S=\\{1,2,3,4\\}$ and $f$ be a function, with domain and range $S$, defined by\n$f(x)=2x \\pmod 5$.\n(a) Prove that $f$ is a bijection. [3 marks]\n(b) Show that the composite function $f\\circ f$ is its own inverse. [3 marks]\n(iv) Let $(G,*)$ be a group, and $H$ a subset of $G$. Given that for all $a,b\\in H$, $a^{-1}*b\\in H$, prove that $(H,*)$ is a subgroup of $(G,*)$. [6 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.10",
+    "6.9",
+    "6.1",
+    "6.7",
+    "6.11"
+   ],
+   "text_clean": "8. [Maximum mark: 30]\n(i) (a) Use the Euclidean algorithm to find the greatest common divisor, $d$, of 256 and 688. [3 marks]\n(b) Hence express $d$ in the form $256a+688b$, where $a,b\\in\\mathbb{Z}$. [3 marks]\n(ii) A graph $G$ has adjacency matrix given by\n  | A | B | C | D | E | F\nA | 0 | 1 | 0 | 1 | 0 | 0\nB | 1 | 0 | 1 | 0 | 2 | 0\nC | 0 | 1 | 0 | 1 | 0 | 0\nD | 1 | 0 | 1 | 0 | 1 | 1\nE | 0 | 2 | 0 | 1 | 0 | 1\nF | 0 | 0 | 0 | 1 | 1 | 0\n(a) Draw the graph $G$. [2 marks]\n(b) Explain why $G$ has a Eulerian circuit. Find such a circuit. [3 marks]\n(c) Find a Hamiltonian path. [1 mark]\n(iii) The terms of the sequence $\\{u_n\\}$ satisfy the difference equation\n$u_{n+2}-2\\lambda u_{n+1}+\\lambda^2u_n=0$, where $n\\in\\mathbb{Z}^+$ and $\\lambda\\in\\mathbb{R}$.\n(a) Show that both $u_n=\\lambda^n$ and $u_n=n\\lambda^n$ satisfy this difference equation. Hence write down the general solution to this difference equation. [5 marks]\n(b) The terms of the sequence $\\{v_n\\}$ satisfy the equation\n$v_{n+2}-4v_{n+1}+4v_n=0$ for $n\\in\\mathbb{Z}^+$, and $v_1=1$, $v_2=3$.\nFind an expression for $v_n$ in terms of $n$. [5 marks]\n(iv) The following diagram shows a weighted graph.\n[Diagram: weighted graph with vertices P, Q, R, S, T, U, V, W; edges PQ=4, PW=7, QW=2, QR=12, WR=5, WV=10, RV=4, RU=3, VU=2, RS=10, SU=4, ST=5, UT=10]\nUse Dijkstra's Algorithm to find the length of the shortest path between the vertices P and T. Show all the steps used by the algorithm and write down the shortest path. [8 marks]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.19",
+    "5.L1",
+    "5.15",
+    "2.4"
+   ],
+   "text_clean": "9. [Maximum mark: 30]\n(i) (a) Show that the series $\\sum_{k=1}^{\\infty}\\frac{(k-1)}{k!}$ is convergent. [3 marks]\n(b) Find the sum of the series. [3 marks]\n(ii) The function $f$ is defined by $f(x)=e^{-x}\\cos 2x$.\n(a) (i) Show that $f''(x)+2f'(x)+5f(x)=0$.\n(ii) Show that $f^{(n+2)}(0)+2f^{(n+1)}(0)+5f^{(n)}(0)=0$, for $n\\in\\mathbb{Z}^+$. [6 marks]\n(b) Find the Maclaurin series for $f(x)$ up to and including the term in $x^4$. [4 marks]\n(iii) Consider the equation $\\ln(2x)=\\sin\\left(\\frac{x}{2}\\right)$ where $0.5<x<1$.\n(a) Sketch a graph to show that this equation has exactly one root. [2 marks]\nThe equation can be rearranged in two ways as follows.\n$x=h(x)$ where $h(x)=\\frac{1}{2}e^{\\sin\\left(\\frac{x}{2}\\right)}$\n$x=g(x)$ where $g(x)=2\\arcsin(\\ln(2x))$\n(b) Obtain expressions for $h'(x)$ and $g'(x)$. [4 marks]\n(c) (i) Show that, for $0.5<x<1$, $|h'(x)|<1$ and $|g'(x)|>1$.\n(ii) Hence state, with a reason, which of these rearrangements leads to a convergent fixed-point iteration. [5 marks]\n(d) Use this convergent fixed-point iteration with $x_0=0.7$ to solve the equation $\\ln(2x)=\\sin\\left(\\frac{x}{2}\\right)$. Give your answer correct to six decimal places. [3 marks]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "8",
+    "2"
+   ],
+   "subtopics": [
+    "8.1",
+    "8.2",
+    "8.3",
+    "2.1"
+   ],
+   "text_clean": "10. [Maximum mark: 30]\n(i) The line $2x+y=6$ meets the $y$-axis at P, the $x$-axis at Q, the line $y-x=0$ at R and the line $y+x=0$ at S. Show that P, Q, R, S divide the line segment [PS] in a harmonic ratio. [9 marks]\n(ii) The straight line $l$ of gradient $m$ passes through the point (2, 0).\n(a) Write down the equation of $l$. [1 mark]\n(b) A parabola has equation $y^2=4x$. The line $l$ meets the parabola at U and V. The midpoint of [UV] is denoted by W.\n(i) Show that the coordinates of W are $\\left(2+\\frac{2}{m^2},\\frac{2}{m}\\right)$.\n(ii) Show that the locus of W as $m$ varies is a parabola. Find the coordinates of its focus and the equation of its directix. [10 marks]\n(iii) [Diagram: triangle ABC inscribed in a circle; tangent at A meets line BC at D, tangent at B meets line CA at E, tangent at C meets line AB at F]\nThe figure shows a triangle ABC inscribed in a circle. The tangent to the circle at A meets (BC) at D, the tangent at B meets (CA) at E and the tangent at C meets (AB) at F.\n(a) Show that $\\frac{BD}{DC}\\times\\frac{CE}{EA}\\times\\frac{AF}{FB}=-1$. [9 marks]\n(b) State briefly, with a reason, what conclusion can be drawn from this result. [1 mark]",
+   "answer_status": "ok"
+  }
+ }
+}

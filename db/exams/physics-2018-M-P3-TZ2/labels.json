@@ -1,0 +1,215 @@
+{
+ "exam_id": "physics-2018-M-P3-TZ2",
+ "questions": {
+  "1": {
+   "topics": [
+    "X",
+    "A"
+   ],
+   "subtopics": [
+    "X.1",
+    "A.1"
+   ],
+   "text_clean": "1. To determine the acceleration due to gravity, a small metal sphere is dropped from rest and the time it takes to fall through a known distance and open a trapdoor is measured.\n[Diagram: sphere held at point of release falls vertically onto a trapdoor; not to scale]\nThe following data are available.\nDiameter of metal sphere = $12.0 \\pm 0.1$ mm\nDistance between the point of release and the trapdoor = $654 \\pm 2$ mm\nMeasured time for fall = $0.363 \\pm 0.002$ s\n(a) Determine the distance fallen, in m, by the centre of mass of the sphere including an estimate of the absolute uncertainty in your answer. [2]\n(b) Using the following equation\nacceleration due to gravity $= \\dfrac{2 \\times \\text{distance fallen by centre of mass of sphere}}{(\\text{measured time to fall})^2}$\ncalculate, for these data, the acceleration due to gravity including an estimate of the absolute uncertainty in your answer. [4]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.1"
+   ],
+   "text_clean": "2. A student carries out an experiment to determine the variation of intensity of the light with distance from a point light source. The light source is at the centre of a transparent spherical cover of radius C. The student measures the distance $x$ from the surface of the cover to a sensor that measures the intensity $I$ of the light.\n[Diagram: point light source at centre of spherical cover of radius C; light sensor at distance x from the surface of the cover]\nThe light source emits radiation with a constant power P and all of this radiation is transmitted through the cover. The relationship between $I$ and $x$ is given by\n$I = \\dfrac{P}{4\\pi(C+x)^2}$\n(a) This relationship can also be written as follows.\n$\\dfrac{1}{\\sqrt{I}} = Kx + KC$\nShow that $K = 2\\sqrt{\\dfrac{\\pi}{P}}$. [1]\n(b) The student obtains a set of data and uses this to plot a graph of the variation of $\\dfrac{1}{\\sqrt{I}}$ with $x$.\n[Graph: $\\frac{1}{\\sqrt{I}}$ / W$^{-1/2}$ m (0 to 45) against x / cm (−5 to 25); five data points with a straight best-fit line from about (5.8, 12) to (25, 36)]\n(i) Estimate C. [2]\n(ii) Determine P, to the correct number of significant figures including its unit. [4]\n(c) Explain the disadvantage that a graph of $I$ versus $\\dfrac{1}{x^2}$ has for the analysis in (b)(i) and (b)(ii). [2]",
+   "answer_status": "ok",
+   "add_flags": [],
+   "note": "audit: relation given; all marks are data analysis"
+  },
+  "3": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "3. Rocket A and rocket B are travelling in opposite directions from the Earth along the same straight line.\n[Diagram: rocket A moving left, Earth in middle, rocket B moving right]\nIn the reference frame of the Earth, the speed of rocket A is 0.75c and the speed of rocket B is 0.50c.\n(a) Calculate, for the reference frame of rocket A, the speed of rocket B according to the\n(i) Galilean transformation. [1]\n(ii) Lorentz transformation. [2]\n(b) Outline, with reference to special relativity, which of your calculations in (a) is more likely to be valid. [1]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "4. When a spaceship passes the Earth, an observer on the Earth and an observer on the spaceship both start clocks. The initial time on both clocks is 12 midnight. The spaceship is travelling at a constant velocity with $\\gamma = 1.25$. A space station is stationary relative to the Earth and carries clocks that also read Earth time.\n(a) Calculate the velocity of the spaceship relative to the Earth. [1]\n(b) The spaceship passes the space station 90 minutes later as measured by the spaceship clock. Determine, for the reference frame of the Earth, the distance between the Earth and the space station. [3]\n(c) As the spaceship passes the space station, the space station sends a radio signal back to the Earth. The reception of this signal at the Earth is event A. Determine the time on the Earth clock when event A occurs. [2]\n(d) Some of the radio signal is reflected at the surface of the Earth and this reflected signal is later detected at the spaceship. The detection of this signal is event B. The spacetime diagram is shown for the Earth, showing the space station and the spaceship. Both axes are drawn to the same scale.\n[Spacetime diagram: ct vs x axes on grid; vertical worldline of space station; straight worldline of spaceship from origin]\n(i) Construct event A and event B on the spacetime diagram. [3]\n(ii) Estimate, using the spacetime diagram, the time at which event B occurs for the spaceship. [2]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "5": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "5. (a) Explain what is meant by the statement that the spacetime interval is an invariant quantity. [1]\n(b) Observer A detects the creation (event 1) and decay (event 2) of a nuclear particle. After creation, the particle moves at a constant speed relative to A. As measured by A, the distance between the events is 15 m and the time between the events is $9.0 \\times 10^{-8}$ s. Observer B moves with the particle.\nFor event 1 and event 2,\n(i) calculate the spacetime interval. [1]\n(ii) determine the time between them according to observer B. [2]\n(c) Outline why the observed times are different for A and B. [1]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "6. Two protons, travelling in opposite directions, collide. Each has a total energy of 3.35 GeV.\n(a) Calculate the gamma ($\\gamma$) factor for one of the protons. [1]\n(b) As a result of the collision, the protons are annihilated and three particles, a proton, a neutron, and a pion are created. The pion has a rest mass of 140 MeV c$^{-2}$. The total energy of the emitted proton and neutron from the interaction is 6.20 GeV.\n(i) Determine, in terms of MeV c$^{-1}$, the momentum of the pion. [3]\n(ii) The diagram shows the paths of the incident protons together with the proton and neutron created in the interaction. On the diagram, draw the path of the pion. [1]\n[Diagram: two incident protons meeting head-on horizontally; created neutron moving up-right, created proton moving down-left]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "7. (a) It is believed that a non-rotating supermassive black hole is likely to exist near the centre of our galaxy. This black hole has a mass equivalent to 3.6 million times that of the Sun.\n(i) Outline what is meant by the event horizon of a black hole. [1]\n(ii) Calculate the distance of the event horizon of the black hole from its centre. [2]\nMass of Sun = $2 \\times 10^{30}$ kg\n(b) Star S-2 is in an elliptical orbit around a black hole. The distance of S-2 from the centre of the black hole varies between a few light-hours and several light-days. A periodic event on S-2 occurs every 5.0 s.\n[Diagram: elliptical orbital path of star S-2 around a black hole near one end]\nDiscuss how the time for the periodic event as measured by an observer on the Earth changes with the orbital position of S-2. [2]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.4",
+    "A.3"
+   ],
+   "text_clean": "8. A wheel of mass 0.25 kg consists of a cylinder mounted on a central shaft. The shaft has a radius of 1.2 cm and the cylinder has a radius of 4.0 cm. The shaft rests on two rails with the cylinder able to spin freely between the rails.\n[Diagram: cylinder on a central shaft resting on two parallel rails]\n(a) The stationary wheel is released from rest and rolls down a slope with the shaft rolling on the rails without slipping from point A to point B.\n[Diagram: rail sloping down from A (0.36 m high) to B, then flat track from B to C; not to scale]\n(i) The moment of inertia of the wheel is $1.3 \\times 10^{-4}$ kg m$^2$. Outline what is meant by the moment of inertia. [1]\n(ii) In moving from point A to point B, the centre of mass of the wheel falls through a vertical distance of 0.36 m. Show that the translational speed of the wheel is about 1 m s$^{-1}$ after its displacement. [3]\n(iii) Determine the angular velocity of the wheel at B. [1]\n(b) The wheel leaves the rails at point B and travels along the flat track to point C. For a short time the wheel slips and a frictional force F exists on the edge of the wheel as shown.\n[Diagram: wheel leaving the rail, rotating clockwise, frictional force F at the bottom edge pointing forward in the direction of travel]\nDescribe the effect of F on the\n(i) linear speed of the wheel. [2]\n(ii) angular speed of the wheel. [2]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "9": {
+   "topics": [
+    "B"
+   ],
+   "subtopics": [
+    "B.4",
+    "B.3"
+   ],
+   "text_clean": "9. A cylinder is fitted with a piston. A fixed mass of an ideal gas fills the space above the piston.\n[Diagram: vertical cylinder with ideal gas above a piston that is free to move]\nThe gas expands isobarically. The following data are available.\nAmount of gas = 243 mol\nInitial volume of gas = 47.1 m$^3$\nInitial temperature of gas = −12.0 °C\nFinal temperature of gas = +19.0 °C\nInitial pressure of gas = 11.2 kPa\n(a) Show that the final volume of the gas is about 53 m$^3$. [2]\n(b) Calculate, in J, the work done by the gas during this expansion. [2]\n(c) Determine the thermal energy which enters the gas during this expansion. [3]\n(d) The gas returns to its original state by an adiabatic compression followed by cooling at constant volume.\n(i) Sketch, on the pV diagram, the complete cycle of changes for the gas, labelling the changes clearly. The expansion shown in (a) and (b) is drawn for you. [2]\n[Graph: p vs V axes with a horizontal arrow to the right representing the isobaric expansion]\n(ii) Outline the change in entropy of the gas during the cooling at constant volume. [1]\n(e) There are various equivalent versions of the second law of thermodynamics. Outline the benefit gained by having alternative forms of a law. [1]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "10": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.8"
+   ],
+   "text_clean": "10. Two tubes, A and B, are inserted into a fluid flowing through a horizontal pipe of diameter 0.50 m. The openings X and Y of the tubes are at the exact centre of the pipe. The liquid rises to a height of 0.10 m in tube A and 0.32 m in tube B. The density of the fluid = $1.0 \\times 10^3$ kg m$^{-3}$.\n[Diagram: horizontal pipe of diameter 0.50 m with flow to the right; straight tube A with opening X facing sideways, liquid 0.10 m above pipe; bent tube B with opening Y facing the flow, liquid 0.32 m above pipe]\n(a) Show that the velocity of the fluid at X is about 2 m s$^{-1}$, assuming that the flow is laminar. [3]\n(b) The viscosity of water is $8.9 \\times 10^{-4}$ Pa s.\n(i) Estimate the Reynolds number for the fluid in your answer to (a). [1]\n(ii) Outline whether your answer to (a) is valid. [1]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.4"
+   ],
+   "text_clean": "11. The natural frequency of a driven oscillating system is 6 kHz. The frequency of the driver for the system is varied from zero to 20 kHz.\n(a) Draw a graph to show the variation of amplitude of oscillation of the system with frequency. [3]\n[Blank axes: amplitude vs frequency / kHz from 0 to 20]\n(b) The Q factor for the system is reduced significantly. Describe how the graph you drew in (a) changes. [2]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "text_clean": "12. A ray diagram for a converging lens is shown. The object is labelled O and the image is labelled I.\n[Ray diagram on grid (scale 2.0 cm): object O left of a converging lens, two rays drawn converging to an inverted real image I on the right]\n(a) Using the ray diagram,\n(i) determine the focal length of the lens. [2]\n(ii) calculate the linear magnification. [1]\n(b) The diagram shows an incomplete ray diagram which consists of a red ray of light and a blue ray of light which are incident on a converging glass lens. In this glass lens the refractive index for blue light is greater than the refractive index for red light.\n[Diagram: parallel red ray (above axis) and blue ray (below axis) incident on a converging glass lens; refracted red ray drawn crossing the principal axis]\nUsing the diagram, outline the phenomenon of chromatic aberration. [2]",
+   "answer_status": "ok"
+  },
+  "13": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9",
+    "X.4"
+   ],
+   "text_clean": "13. The diagram represents a simple optical astronomical reflecting telescope with the path of some light rays shown.\n[Diagram: reflecting telescope on grid with concave primary mirror on the right, convex secondary mirror on the left reflecting rays back through a hole in the primary to the eye]\n(a) Identify, with the letter X, the position of the focus of the primary mirror. [1]\n(b) This arrangement using the secondary mirror is said to increase the focal length of the primary mirror. State why this is an advantage. [1]\n(c) It is proposed to build an array of radio telescopes such that the maximum distance between them is 3800 km. The array will operate at a wavelength of 2.1 cm. Comment on whether it is possible to build an optical telescope operating at 580 nm that is to have the same resolution as the array. [3]",
+   "answer_status": "ok"
+  },
+  "14": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.10",
+    "C.3"
+   ],
+   "text_clean": "14. (a) An optic fibre of refractive index 1.4475 is surrounded by air. The critical angle for the core–air boundary interface is 44°. Suggest, with a calculation, why the use of cladding with refractive index 1.4444 improves the performance of the optic fibre. [3]\n(b) An optic fibre of length 185 km has an attenuation of 0.200 dB km$^{-1}$. The input power to the cable is 400.0 μW. The output power from the cable must not fall below 2.0 μW.\n(i) Calculate the maximum attenuation allowed for the signal. [2]\n(ii) An amplifier can increase the power of the signal by 12 dB. Determine the minimum number of amplifiers required. [2]\n(iii) The graph shows the variation with wavelength of the refractive index of the glass from which the optic fibre is made.\n[Graph: refractive index decreasing steeply then levelling off with wavelength; shaded band between $\\lambda_A$ and $\\lambda_B$]\nTwo light rays enter the fibre at the same instant along the axes. Ray A has a wavelength of $\\lambda_A$ and ray B has a wavelength of $\\lambda_B$. Discuss the effect that the difference in wavelength has on the rays as they pass along the fibre. [2]\n(c) In many places clad optic fibres are replacing copper cables. State one example of how fibre optic technology has impacted society. [1]",
+   "answer_status": "ok",
+   "qtype": "long",
+   "note": "audit: critical-angle calculation earns 2 marks"
+  },
+  "15": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "15. (a) Outline the formation of a B scan in medical ultrasound imaging. [3]\n(b) The attenuation values for fat and muscle at different X-ray energies are shown.\nEnergy of X-rays / keV | Fat attenuation coefficient / cm$^{-1}$ | Muscle attenuation coefficient / cm$^{-1}$\n1 | 2030.9767 | 3947.2808\n5 | 18.4899 | 43.8253\n10 | 2.3560 | 5.5720\n20 | 0.4499 | 0.8490\n(i) State what is meant by half-value thickness in X-ray imaging. [1]\n(ii) A monochromatic X-ray beam of energy 20 keV and intensity $I_0$ penetrates 5.00 cm of fat and then 4.00 cm of muscle.\n[Diagram: X-ray beam $I_0$ passing through fat, 5.00 cm, then muscle, 4.00 cm]\nCalculate, in terms of $I_0$, the final beam intensity that emerges from the muscle. [3]\n(iii) Compare the use of high and low energy X-rays for medical imaging. [3]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "16": {
+   "topics": [
+    "E",
+    "B"
+   ],
+   "subtopics": [
+    "E.5",
+    "B.1"
+   ],
+   "text_clean": "16. (a) Main sequence stars are in equilibrium under the action of forces. Outline how this equilibrium is achieved. [2]\n(b) A main sequence star P, is 1.3 times the mass of the Sun. Calculate the luminosity of P relative to the Sun. [1]\n(c) The following data apply to the star Gacrux.\nRadius = $58.5 \\times 10^9$ m\nTemperature = 3600 K\nDistance = 88 ly\n(i) The luminosity of the Sun $L_\\odot$ is $3.85 \\times 10^{26}$ W. Determine the luminosity of Gacrux relative to the Sun. [3]\n(ii) The distance to Gacrux can be determined using stellar parallax. Outline why this method is not suitable for all stars. [1]\n(d) A Hertzsprung–Russell (HR) diagram is shown.\n[Blank HR diagram: luminosity / $L_\\odot$ from $10^{-3}$ to $10^6$ (log scale) against temperature / K (20 000, 10 000, 5000, 2500 decreasing to the right)]\nOn the HR diagram,\n(i) draw the main sequence. [1]\n(ii) plot the position, using the letter P, of the main sequence star P you calculated in (b). [1]\n(iii) plot the position, using the letter G, of Gacrux. [1]\n(e) Discuss, with reference to its change in mass, the evolution of star P from the main sequence until its final stable phase. [3]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "17": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.12",
+    "C.5"
+   ],
+   "text_clean": "17. Data from distant galaxies are shown on the graph.\n[Graph: velocity / $\\times 10^4$ km s$^{-1}$ (0 to 5.0) against distance / Mpc (0 to 700); eight data points with horizontal error bars and a straight best-fit line through the origin; topmost point labelled A at about (560 Mpc, $4.6 \\times 10^4$ km s$^{-1}$)]\n(a) Estimate, using the data, the age of the universe. Give your answer in seconds. [3]\n(b) Identify the assumption that you made in your answer to (a). [1]\n(c) On the graph, one galaxy is labelled A. Determine the size of the universe, relative to its present size, when light from the galaxy labelled A was emitted. [3]",
+   "answer_status": "ok"
+  },
+  "18": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "18. (a) Outline, with reference to the Jeans criterion, why a cold dense gas cloud is more likely to form new stars than a hot diffuse gas cloud. [2]\n(b) Explain how neutron capture can produce elements with an atomic number greater than iron. [2]",
+   "answer_status": "ok"
+  },
+  "19": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "text_clean": "19. (a) Explain the evidence that indicates the location of dark matter in galaxies. [3]\n(b) Outline why a hypothesis of dark energy has been developed. [3]",
+   "answer_status": "ok"
+  }
+ }
+}

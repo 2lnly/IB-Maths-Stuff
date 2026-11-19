@@ -1,0 +1,159 @@
+{
+ "exam_id": "math-2024-M-P2-TZ2",
+ "questions": {
+  "1": {
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.4",
+    "5.11"
+   ],
+   "text_clean": "1. [Maximum mark: 6]\nThe functions $f$ and $g$ are both defined for $-1 \\le x \\le 0$ by\n$f(x) = 1 - x^2$\n$g(x) = \\mathrm{e}^{2x}$.\nThe graphs of $f$ and $g$ intersect at $x = a$ and $x = b$, where $a < b$.\n(a) Find the value of $a$ and the value of $b$. [3]\n(b) Find the area of the region enclosed by the graphs of $f$ and $g$. [3]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.4",
+    "4.3"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nConsider the following bivariate data set where $p, q \\in \\mathbb{Z}^+$.\nx | 5 | 6 | 6 | 8 | 10\ny | 9 | 13 | p | q | 21\nThe regression line of $y$ on $x$ has equation $y = 2.1875x + 0.6875$.\nThe regression line passes through the mean point $(\\bar{x}, \\bar{y})$.\n(a) Given that $\\bar{x} = 7$, verify that $\\bar{y} = 16$. [1]\n(b) Given that $q - p = 3$, find the value of $p$ and the value of $q$. [4]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.9"
+   ],
+   "text_clean": "3. [Maximum mark: 6]\nThe loudness of a sound, $L$, measured in decibels, is related to its intensity, $I$ units, by $L = 10\\log_{10}(I \\times 10^{12})$.\nConsider two sounds, $S_1$ and $S_2$.\n$S_1$ has an intensity of $10^{-6}$ units and a loudness of $60$ decibels.\n$S_2$ has an intensity that is twice that of $S_1$.\n(a) State the intensity of $S_2$. [1]\n(b) Determine the loudness of $S_2$. [2]\nThe maximum loudness of thunder in a thunderstorm was measured to be $115$ decibels.\n(c) Find the corresponding intensity, $I$, of the thunder. [3]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.8"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\nA particle moves in a straight line such that its velocity, $v\\,\\mathrm{m\\,s^{-1}}$, at time $t$ seconds is given by $v(t) = 1 + \\mathrm{e}^{-t} - \\mathrm{e}^{-\\sin 2t}$ for $0 \\le t \\le 2$.\n(a) Find the velocity of the particle at $t = 2$. [1]\n(b) Find the maximum velocity of the particle. [2]\n(c) Find the acceleration of the particle at the instant it changes direction. [3]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8"
+   ],
+   "text_clean": "5. [Maximum mark: 5]\nConsider a random variable $X$ such that $X \\sim \\mathrm{B}(n, 0.25)$.\nDetermine the least value of $n$ such that $\\mathrm{P}(X \\ge 1) > 0.99$.",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "3.1"
+   ],
+   "text_clean": "6. [Maximum mark: 6]\nThe volume of a spherical bubble increases at a constant rate of $5\\,\\mathrm{cm^3\\,s^{-1}}$.\nThe initial volume of the bubble can be assumed to be zero.\nFind the rate, in $\\mathrm{cm\\,s^{-1}}$, at which the radius of the bubble is increasing when the volume of the bubble is $20\\,\\mathrm{cm^3}$.",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.17",
+    "2.9"
+   ],
+   "text_clean": "7. [Maximum mark: 5]\nThe curve $y = 4\\ln(x-2)$ for $0 \\le y \\le 4$ is rotated $360^\\circ$ about the $y$-axis to form a solid of revolution.\nFind the volume of the solid formed.",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "1",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "1.13",
+    "3.6",
+    "1.12",
+    "2.10"
+   ],
+   "text_clean": "8. [Maximum mark: 10]\nLet $z = 1 + \\cos 2\\theta + \\mathrm{i}\\sin 2\\theta$, where $-\\frac{\\pi}{2} < \\theta < \\frac{\\pi}{2}$.\n(a) Show that\n(i) $\\arg z = \\theta$;\n(ii) $|z| = 2\\cos\\theta$. [7]\n(b) Hence or otherwise, find the value of $\\theta$ such that $\\arg(z^2) = |z^3|$. [3]",
+   "answer_status": "ok",
+   "qtype": "short",
+   "note": "Section A question (10 marks) -> short per paper structure"
+  },
+  "9": {
+   "topics": [
+    "5",
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.8",
+    "2.13",
+    "1.16"
+   ],
+   "text_clean": "9. [Maximum mark: 8]\nConsider the curve $y = \\dfrac{x-4}{ax^2+bx+c}$, where $a$, $b$ and $c$ are non-zero constants.\nThe curve has a local minimum point at $(2, 1)$ and a vertical asymptote with equation $x = 1$.\nFind the values of $a$, $b$ and $c$.",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11",
+    "5.8"
+   ],
+   "text_clean": "10. [Maximum mark: 15]\nA shop sells chocolates. The weight, in kilograms, of chocolates bought by a random customer can be modelled by a continuous random variable $X$ with probability density function $f$ defined by\n$f(x) = \\begin{cases} \\frac{6}{85}(4 + 3x - x^2), & 0.5 \\le x \\le 3 \\\\ 0, & \\text{otherwise} \\end{cases}$.\n(a) Find the mode of $X$. [2]\n(b) Find $\\mathrm{P}(1 \\le X \\le 2)$. [2]\n(c) Find the median of $X$. [3]\nThe shop sells chocolates to customers at $\\$25$ per kilogram.\nHowever, if the weight of chocolate bought by a customer is at least $0.75$ kilograms, the shop sells chocolate at a discounted rate of $\\$24$ per kilogram.\n(d) Find the probability that a randomly selected customer spends at most $\\$48$. [3]\n(e) Find the expected amount spent per customer. Give your answer correct to the nearest cent. [5]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.4",
+    "3.3",
+    "2.10"
+   ],
+   "text_clean": "11. [Maximum mark: 17]\nA rotating sprinkler is at a fixed point S.\nIt waters all points inside and on a circle of radius $20$ metres.\nPoint S is $14$ metres from the edge of a path which runs in a north-south direction.\nThe edge of the path intersects the circle at points A and B.\nThis information is shown in the following diagram.\n[Diagram: circle centre S radius 20 m; vertical path line cutting the circle at A (top) and B (bottom); perpendicular from S to the path of length 14 m; north arrow]\n(a) Show that $\\mathrm{AB} = 28.57$, correct to four significant figures. [3]\nThe sprinkler rotates at a constant rate of one revolution every $16$ seconds.\n(b) Show that the sprinkler rotates through an angle of $\\frac{\\pi}{8}$ radians in one second. [1]\nLet $T$ seconds be the time that [AB] is watered in each revolution.\n(c) Find the value of $T$. [4]\nConsider one clockwise revolution of the sprinkler.\nAt $t = 0$, the water crosses the edge of the path at A.\nAt time $t$ seconds, the water crosses the edge of the path at a movable point D which is a distance $d$ metres south of point A.\nLet $\\alpha = \\mathrm{A\\hat{S}D}$ and $\\beta = \\mathrm{S\\hat{A}B}$, where $\\alpha$, $\\beta$ are measured in radians.\nThis information is shown in the following diagram.\n[Diagram: same circle with clockwise arrow; point D on the path between A and B, d m south of A; angle alpha at S between SA and SD; angle beta at A between AS and the path; SA = 20 m, perpendicular distance 14 m]\n(d) Write down an expression for $\\alpha$ in terms of $t$. [1]\nIt is known that $\\beta = 0.7754$ radians, correct to four significant figures.\n(e) By using the sine rule in $\\Delta$ASD, show that the distance, $d$, at time $t$, can be modelled by $d(t) = \\dfrac{20\\sin\\left(\\frac{\\pi t}{8}\\right)}{\\sin\\left(2.37 - \\frac{\\pi t}{8}\\right)}$. [3]\nA turtle walks south along the edge of the path.\nAt time $t$ seconds, the turtle's distance, $g$ metres south of A, can be modelled by $g(t) = 0.05t^2 + 1.1t + 18$, where $t \\ge 0$.\n(f) At $t = 0$, state how far south the turtle is from A. [1]\nLet $w$ represent the distance between the turtle and point D at time $t$ seconds.\n(g) (i) Use the expressions for $g(t)$ and $d(t)$ to write down an expression for $w$ in terms of $t$.\n(ii) Hence find when and where on the path the water first reaches the turtle. [4]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15",
+    "5.7",
+    "3.6",
+    "3.9"
+   ],
+   "text_clean": "12. [Maximum mark: 21]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x} - y\\,\\mathrm{cosec}\\,2x = \\sqrt{\\tan x}$, where $0 < x < \\frac{\\pi}{2}$ and $y = \\frac{\\pi}{4}$ at $x = \\frac{\\pi}{4}$.\n(a) Use Euler's method with step length $\\frac{\\pi}{12}$ to find an approximate value of $y$ when $x = \\frac{5\\pi}{12}$. Give your answer correct to three significant figures. [3]\n(b) Show that $\\frac{\\mathrm{d}}{\\mathrm{d}x}\\left(\\frac{1}{2}\\ln(\\cot x)\\right) = -\\mathrm{cosec}\\,2x$. [4]\n(c) Show that $\\sqrt{\\cot x}$ is an integrating factor for this differential equation. [4]\n(d) Hence, by solving the differential equation, show that $y = x\\sqrt{\\tan x}$. [5]\n(e) Consider the curve $y = x\\sqrt{\\tan x}$ for $0 < x < \\frac{\\pi}{2}$ and the Euler's method approximation calculated in part (a).\n(i) Find the $y$-coordinate at $x = \\frac{5\\pi}{12}$. Give your answer correct to three significant figures.\n(ii) By considering the gradient of the curve, suggest a reason why Euler's method does not give a good approximation for the $y$-coordinate at $x = \\frac{5\\pi}{12}$.\n(iii) State why this approximation is less than the $y$-coordinate at $x = \\frac{5\\pi}{12}$. [3]\n(f) By considering $\\frac{\\mathrm{d}y}{\\mathrm{d}x} - y\\,\\mathrm{cosec}\\,2x = \\sqrt{\\tan x}$, deduce that the curve $y = x\\sqrt{\\tan x}$ has a positive gradient for $0 < x < \\frac{\\pi}{2}$. [2]",
+   "answer_status": "ok"
+  }
+ }
+}

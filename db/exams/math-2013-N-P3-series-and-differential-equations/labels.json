@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2013-N-P3-series-and-differential-equations",
+  "questions": {
+    "1": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.L1", "1.11"],
+      "text_clean": "1. [Maximum mark: 10]\nConsider the infinite series $\\sum_{n=1}^{\\infty} \\frac{2}{n^2+3n}$.\n(a) Use a comparison test to show that the series converges. [2]\n(b) (i) Express $\\frac{2}{n^2+3n}$ in partial fractions.\n(ii) Hence find the value of $\\sum_{n=1}^{\\infty} \\frac{2}{n^2+3n}$. [8]"
+    },
+    "2": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.L7", "1.7"],
+      "text_clean": "2. [Maximum mark: 9]\nThe general term of a sequence $\\{a_n\\}$ is given by the formula $a_n = \\frac{e^n + 2^n}{2e^n}$, $n \\in \\mathbb{Z}^+$.\n(a) Determine whether the sequence $\\{a_n\\}$ is decreasing or increasing. [3]\n(b) Show that the sequence $\\{a_n\\}$ is convergent and find the limit $L$. [2]\n(c) Find the smallest value of $N \\in \\mathbb{Z}^+$ such that $|a_n - L| < 0.001$, for all $n \\ge N$. [4]"
+    },
+    "3": {
+      "topics": ["5"],
+      "subtopics": ["5.18", "5.10"],
+      "text_clean": "3. [Maximum mark: 19]\nConsider the differential equation $\\frac{dy}{dx} = \\frac{y}{x + \\sqrt{xy}}$, for $x, y > 0$.\n(a) Use Euler's method starting at the point $(x, y) = (1, 2)$, with interval $h = 0.2$, to find an approximate value of $y$ when $x = 1.6$. [7]\n(b) Use the substitution $y = vx$ to show that $x\\frac{dv}{dx} = \\frac{v}{1+\\sqrt{v}} - v$. [3]\n(c) (i) Hence find the solution of the differential equation in the form $f(x, y) = 0$, given that $y = 2$ when $x = 1$.\n(ii) Find the value of $y$ when $x = 1.6$. [9]"
+    },
+    "4": {
+      "topics": ["5"],
+      "subtopics": ["5.L1", "5.13", "5.11", "5.19"],
+      "text_clean": "4. [Maximum mark: 13]\nLet $g(x) = \\sin x^2$, where $x \\in \\mathbb{R}$.\n(a) Using the result $\\lim_{t \\to 0} \\frac{\\sin t}{t} = 1$, or otherwise, calculate $\\lim_{x \\to 0} \\frac{g(2x) - g(3x)}{4x^2}$. [4]\n(b) Use the Maclaurin series of $\\sin x$ to show that $g(x) = \\sum_{n=0}^{\\infty} (-1)^n \\frac{x^{4n+2}}{(2n+1)!}$. [2]\n(c) Hence determine the minimum number of terms of the expansion of $g(x)$ required to approximate the value of $\\int_0^1 g(x)\\,dx$ to four decimal places. [7]"
+    },
+    "5": {
+      "topics": ["5"],
+      "subtopics": ["5.19", "5.7", "5.L2"],
+      "text_clean": "5. [Maximum mark: 9]\nA function $f$ is defined in the interval $]-k, k[$, where $k > 0$. The gradient function $f'$ exists at each point of the domain of $f$.\nThe following diagram shows the graph of $y = f(x)$, its asymptotes and its vertical symmetry axis.\n[Diagram: U-shaped curve symmetric about the y-axis, positive y-intercept, flat near the origin, rising steeply towards vertical asymptotes (dashed) at $x = -k$ and $x = k$]\n(a) Sketch the graph of $y = f'(x)$. [2]\nLet $p(x) = a + bx + cx^2 + dx^3 + \\dots$ be the Maclaurin expansion of $f(x)$.\n(b) (i) Justify that $a > 0$.\n(ii) Write down a condition for the largest set of possible values for each of the parameters $b$, $c$ and $d$. [5]\n(c) State, with a reason, an upper bound for the radius of convergence. [2]"
+    }
+  }
+}

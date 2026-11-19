@@ -1,0 +1,130 @@
+{
+ "exam_id": "math-2020-N-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2"
+   ],
+   "text_clean": "1. [Maximum mark: 5]\nThe following diagram shows a sector OAB of radius $15$ cm. The length of [AB] is $11$ cm.\n[Diagram (not to scale): sector OAB with centre O, OA = 15, chord AB = 11; the segment between chord [AB] and the arc is shaded]\nFind the area of the shaded region."
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.5"
+   ],
+   "text_clean": "2. [Maximum mark: 4]\nJenna is a keen book reader. The number of books she reads during one week can be modelled by a Poisson distribution with mean $2.6$.\nDetermine the expected number of weeks in one year, of $52$ weeks, during which Jenna reads at least four books."
+  },
+  "3": {
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.7",
+    "5.11"
+   ],
+   "text_clean": "3. [Maximum mark: 8]\nThe following diagram shows part of the graph of $y = p + q\\sin(rx)$. The graph has a local maximum point at $\\left(-\\frac{9\\pi}{4}, 5\\right)$ and a local minimum point at $\\left(-\\frac{3\\pi}{4}, -1\\right)$.\n[Graph: sinusoidal curve with maximum at $x=-\\frac{9\\pi}{4}$, $y=5$ and minimum at $x=-\\frac{3\\pi}{4}$, $y=-1$; the region between the curve and the x-axis around the minimum (below the axis) is shaded]\n(a) Determine the values of $p$, $q$ and $r$. [4]\n(b) Hence find the area of the shaded region. [4]",
+   "add_flags": [],
+   "note": "Markscheme crop omits the line 'so q = 3  A1' at the bottom of MS page 7: seg_math footer detection treats the lone digit '3' (y0 > 0.92H) as a page number (FOOTER_EXTRA_RES ^\\d{1,4}$), and overrides cannot bypass footer trimming. Rest of the markscheme is complete. | fixed by segmenter update",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\nFind the term independent of $x$ in the expansion of $\\frac{1}{x^3}\\left(\\frac{1}{3x^2} - \\frac{x}{2}\\right)^9$."
+  },
+  "5": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.5"
+   ],
+   "text_clean": "5. [Maximum mark: 7]\nA survey of British holidaymakers found that $15\\%$ of those surveyed took a holiday in the Lake District in 2019.\n(a) A random sample of $16$ British holidaymakers was taken. The number of people in the sample who took a holiday in the Lake District in 2019 can be modelled by a binomial distribution.\n(i) State two assumptions made in order for this model to be valid.\n(ii) Find the probability that at least three people from the sample took a holiday in the Lake District in 2019. [4]\n(b) From a random sample of $n$ holidaymakers, the probability that at least one of them took a holiday in the Lake District in 2019 is greater than $0.999$.\nDetermine the least possible value of $n$. [3]"
+  },
+  "6": {
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.15",
+    "5.6"
+   ],
+   "text_clean": "6. [Maximum mark: 7]\nUse mathematical induction to prove that $\\frac{\\mathrm{d}^n}{\\mathrm{d}x^n}\\left(x\\mathrm{e}^{px}\\right) = p^{n-1}(px+n)\\mathrm{e}^{px}$ for $n \\in \\mathbb{Z}^+$, $p \\in \\mathbb{Q}$."
+  },
+  "7": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "text_clean": "7. [Maximum mark: 7]\nAt a gathering of $12$ teachers, seven are male and five are female. A group of five of these teachers go out for a meal together. Determine the possible number of groups in each of the following situations:\n(a) There are more males than females in the group. [4]\n(b) Two of the teachers, Gary and Gerwyn, refuse to go out for a meal together. [3]"
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.14"
+   ],
+   "text_clean": "8. [Maximum mark: 6]\nA small bead is free to move along a smooth wire in the shape of the curve $y = \\frac{10}{3 - 2\\mathrm{e}^{-0.5x}}$ $(x \\ge 0)$.\n(a) Find an expression for $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$. [3]\nAt the point on the curve where $x = 4$, it is given that $\\frac{\\mathrm{d}y}{\\mathrm{d}t} = -0.1\\ \\mathrm{m\\,s^{-1}}$.\n(b) Find the value of $\\frac{\\mathrm{d}x}{\\mathrm{d}t}$ at this exact same instant. [3]"
+  },
+  "9": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.8",
+    "4.11",
+    "4.12"
+   ],
+   "text_clean": "9. [Maximum mark: 14]\nThe weights, in grams, of individual packets of coffee can be modelled by a normal distribution, with mean $102$ g and standard deviation $8$ g.\n(a) Find the probability that a randomly selected packet has a weight less than $100$ g. [2]\n(b) The probability that a randomly selected packet has a weight greater than $w$ grams is $0.444$. Find the value of $w$. [2]\n(c) A packet is randomly selected. Given that the packet has a weight greater than $105$ g, find the probability that it has a weight greater than $110$ g. [3]\n(d) From a random sample of $500$ packets, determine the number of packets that would be expected to have a weight lying within $1.5$ standard deviations of the mean. [3]\n(e) Packets are delivered to supermarkets in batches of $80$. Determine the probability that at least $20$ packets from a randomly selected batch have a weight less than $95$ g. [4]"
+  },
+  "10": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.17",
+    "3.16",
+    "3.13"
+   ],
+   "text_clean": "10. [Maximum mark: 16]\nThe plane $\\Pi_1$ has equation $3x - y + z = -13$ and the line $L$ has vector equation\n$\\boldsymbol{r} = \\begin{pmatrix}1\\\\2\\\\-2\\end{pmatrix} + \\lambda\\begin{pmatrix}-3\\\\-1\\\\4\\end{pmatrix}$, $\\lambda \\in \\mathbb{R}$.\n(a) Given that $L$ meets $\\Pi_1$ at the point P, find the coordinates of P. [4]\n(b) Find the shortest distance from the point $\\mathrm{O}(0, 0, 0)$ to $\\Pi_1$. [4]\nThe plane $\\Pi_2$ contains the point O and the line $L$.\n(c) Find the equation of $\\Pi_2$, giving your answer in the form $\\boldsymbol{r}\\cdot\\boldsymbol{n} = d$. [3]\n(d) Determine the acute angle between $\\Pi_1$ and $\\Pi_2$. [5]"
+  },
+  "11": {
+   "topics": [
+    "5",
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.9",
+    "5.6",
+    "3.8",
+    "1.3",
+    "5.8",
+    "5.11"
+   ],
+   "text_clean": "11. [Maximum mark: 20]\nA particle $P$ moves in a straight line such that after time $t$ seconds, its velocity, $v$ in $\\mathrm{m\\,s^{-1}}$, is given by $v = \\mathrm{e}^{-3t}\\sin 6t$, where $0 < t < \\frac{\\pi}{2}$.\n(a) Find the times when $P$ comes to instantaneous rest. [2]\nAt time $t$, $P$ has displacement $s(t)$; at time $t = 0$, $s(0) = 0$.\n(b) Find an expression for $s$ in terms of $t$. [7]\n(c) Find the maximum displacement of $P$, in metres, from its initial position. [2]\n(d) Find the total distance travelled by $P$ in the first $1.5$ seconds of its motion. [2]\nAt successive times when the acceleration of $P$ is $0\\ \\mathrm{m\\,s^{-2}}$, the velocities of $P$ form a geometric sequence. The acceleration of $P$ is zero at times $t_1, t_2, t_3$ where $t_1 < t_2 < t_3$ and the respective velocities are $v_1, v_2, v_3$.\n(e) (i) Show that, at these times, $\\tan 6t = 2$.\n(ii) Hence show that $\\frac{v_2}{v_1} = \\frac{v_3}{v_2} = -\\mathrm{e}^{-\\frac{\\pi}{2}}$. [7]"
+  }
+ },
+ "exam_note": "Overrides fix Q2/Q3 markscheme boundary ([4 marks] of Q2 was at top of Q3 crop)."
+}

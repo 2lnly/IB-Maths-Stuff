@@ -1,0 +1,152 @@
+{
+ "exam_id": "math-2025-M-P1-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.3"
+   ],
+   "text_clean": "1. [Maximum mark: 5]\nConsider the function $f(x)=\\frac{4x^3}{3}-16x$, where $x\\in\\mathbb{R}$.\nThe graph of $y=f(x)$ has a local minimum point at $(p,q)$ where $p>0$.\nFind the value of $p$ and the value of $q$.",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9",
+    "1.4"
+   ],
+   "text_clean": "2. [Maximum mark: 7]\nBob invests 1000 dinar in an account which pays a nominal annual interest rate of $4\\%$ compounded quarterly.\nThe amount of money in the account after one complete year can be written as $1000(1+k)^4$ where $k\\in\\mathbb{Q}$.\n(a) Write down the value of $k$. [1]\n(b) Expand and simplify $(1+x)^4$. [2]\n(c) Hence or otherwise, find the amount of money in the account after one complete year, giving your answer correct to the nearest dinar. [4]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.11"
+   ],
+   "text_clean": "3. [Maximum mark: 4]\nFind the area completely enclosed by the curves $y=e^x$, $y=-e^x$, and the lines $x=-1$ and $x=1$.",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.6"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\nConsider events $A$ and $B$ such that $P(A')=P(A\\cup B)=\\frac{3}{4}$ and $P(B|A)=\\frac{2}{3}$.\n(a) Find $P(A\\cap B)$. [3]\n(b) Show that events $A$ and $B$ are independent. [3]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "1",
+    "4"
+   ],
+   "subtopics": [
+    "1.3",
+    "4.3"
+   ],
+   "text_clean": "5. [Maximum mark: 8]\nConsider a sequence of ten rectangular picture frames $F_1, F_2, \\dots, F_9, F_{10}$.\nPicture frame $F_1$ has width 4 cm and height 5 cm.\nThe width and height of picture frame $F_n$, are each increased by $50\\%$ to generate the width and height of the next picture frame $F_{n+1}$, for $n\\in\\mathbb{Z}^+$, $1\\le n\\le 9$.\n(a) (i) Show that the area of picture frame $F_n$ is $20\\left(\\frac{9}{4}\\right)^{n-1}$ cm$^2$.\n(ii) Hence, find the mean area of the ten picture frames, giving your answer in the form $p\\left(\\left(\\frac{9}{4}\\right)^a-1\\right)$ cm$^2$, where $p\\in\\mathbb{Q}^+$, $a\\in\\mathbb{Z}^+$. [5]\n(b) Find the median area of the ten picture frames, giving your answer in the form $q\\left(\\frac{9}{4}\\right)^4$ cm$^2$, where $q\\in\\mathbb{Q}^+$. [3]",
+   "answer_status": "ok",
+   "note": "ms crop fixed via overrides (trailing fragment of next question removed)"
+  },
+  "6": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.15",
+    "3.13"
+   ],
+   "text_clean": "6. [Maximum mark: 6]\nThe line $L_1$ has vector equation $\\mathbf{r}=4\\mathbf{i}-\\mathbf{k}+\\lambda(a\\mathbf{j}+\\mathbf{k})$, where $a,\\lambda\\in\\mathbb{R}$.\nThe line $L_2$ has vector equation $\\mathbf{r}=\\mathbf{i}-b\\mathbf{k}+\\mu(\\mathbf{i}+2\\mathbf{j}+3\\mathbf{k})$, where $b,\\mu\\in\\mathbb{R}$.\nThe lines $L_1$ and $L_2$ are perpendicular and intersect at a unique point.\nFind the value of $a$ and the value of $b$.",
+   "answer_status": "ok",
+   "note": "ms crop fixed via overrides (boundary cut through first-line column vectors)"
+  },
+  "7": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.7"
+   ],
+   "text_clean": "7. [Maximum mark: 5]\nConsider the complex number $z=3^{i-1}$.\n(a) Write the integer 3 in the form $e^a$ where $a\\in\\mathbb{R}$. [1]\n(b) Hence, giving your answers in the form $p\\cos(\\ln q)$ where $p,q\\in\\mathbb{Q}^+$, find\n(i) $\\mathrm{Re}(z)$;\n(ii) $\\mathrm{Re}\\left(\\frac{1}{z}\\right)$. [4]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15",
+    "1.7"
+   ],
+   "text_clean": "8. [Maximum mark: 7]\nSeema claims that $n>\\log_2 n$ for $n\\in\\mathbb{Z}^+$.\n(a) Show that $1+\\log_2 n\\ge\\log_2(n+1)$ for $n\\in\\mathbb{Z}^+$. [2]\n(b) Use mathematical induction and the result from part (a) to prove that Seema's claim is valid. [5]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.10"
+   ],
+   "text_clean": "9. [Maximum mark: 8]\nConsider the homogeneous differential equation $\\frac{dy}{dx}=\\frac{x-y}{x+y}$, where $x>0$ and $y\\ne -x$.\nIt is given that $y=0$ when $x=2$.\nBy using the substitution $y=vx$, show that the solution of the differential equation is $x^2-2xy-y^2=4$.",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.6",
+    "2.5",
+    "2.7",
+    "2.3",
+    "2.9"
+   ],
+   "text_clean": "10. [Maximum mark: 18]\nThe function $f$ is defined by $f(x)=5(x+1)(x+3)$, where $x\\in\\mathbb{R}$.\n(a) Write $f(x)$ in the form $a(x-h)^2+k$, where $a,h,k\\in\\mathbb{Z}$. [4]\n(b) Sketch the graph of $y=f(x)$, showing the values of any intercepts with the axes and the coordinates of the vertex. [4]\n(c) Solve the inequality $f(x)\\le 40$. [4]\nThe function $g$ is defined by $g(x)=\\ln x$, where $x\\in\\mathbb{R}$, $x>0$.\n(d) (i) Write down an expression for $(f\\circ g)(x)$.\n(ii) Solve the inequality $(f\\circ g)(x)\\le 40$. [3]\n(e) Find the domain of $g\\circ f$. [3]",
+   "answer_status": "ok",
+   "note": "ms crop fixed via overrides (trailing fragment of next question removed)"
+  },
+  "11": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.2",
+    "3.10",
+    "3.16",
+    "3.17"
+   ],
+   "text_clean": "11. [Maximum mark: 17]\nThe plane $\\Pi_1$ has equation $x+2y+z=0$ and the plane $\\Pi_2$ has equation $x-y-2z=0$.\nThe acute angle between the planes $\\Pi_1$ and $\\Pi_2$ is $\\theta$.\n(a) Show that $\\theta=60^\\circ$. [6]\nA third plane $\\Pi_3$ is perpendicular to both $\\Pi_1$ and $\\Pi_2$.\nThe unique point of intersection of all three planes is the point $R(5,-5,5)$.\n(b) Find the Cartesian equation of $\\Pi_3$. [4]\nEach of the planes $\\Pi_1$ and $\\Pi_2$ contains a mirror.\nA ray of light is directed towards the mirror in $\\Pi_1$. The ray of light forms an angle of $45^\\circ$ with $\\Pi_1$ and meets it at the point P.\nThe ray of light is then reflected towards the mirror in $\\Pi_2$, and meets $\\Pi_2$ at the point Q. The points P and Q are contained in $\\Pi_3$.\nIt is given that PR $=5$ cm.\nThis information is shown on the following diagram.\n[Diagram: two intersecting mirror planes $\\Pi_1$ and $\\Pi_2$ meeting along a line through R; P on $\\Pi_1$ with RP = 5 cm; incoming ray of light meets P at $45^\\circ$ to $\\Pi_1$ and reflects at $45^\\circ$ to Q on $\\Pi_2$; angle PRQ = $60^\\circ$]\n(c) (i) Using an appropriate compound angle identity, show that $\\sin 75^\\circ=\\frac{\\sqrt{2}+\\sqrt{6}}{4}$.\n(ii) Find QR, giving your answer in the form $p(\\sqrt{q}-1)$ cm where $p,q\\in\\mathbb{Z}$. [7]",
+   "answer_status": "ok",
+   "note": "ms crop fixed via overrides (boundary cut through first-line column vectors)"
+  },
+  "12": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.19",
+    "5.17",
+    "5.13",
+    "3.6"
+   ],
+   "text_clean": "12. [Maximum mark: 19]\nConsider the family of functions $f_n(x)=\\cos^n x$, where $x\\in\\mathbb{R}$ and $n\\in\\mathbb{N}$.\n(a) By writing $\\cos^n x$ as $\\cos^{n-1}x\\cos x$, show that\n$\\int\\cos^n x\\,dx=\\cos^{n-1}x\\sin x+(n-1)\\int\\cos^{n-2}x\\,dx-(n-1)\\int\\cos^n x\\,dx$ for $n>1$. [4]\n(b) Hence, show that $\\int f_n(x)\\,dx=\\frac{1}{n}\\cos^{n-1}x\\sin x+\\frac{n-1}{n}\\int f_{n-2}(x)\\,dx$ for $n>1$. [2]\n(c) Hence, find an expression for $\\int\\cos^4 x\\,dx$, giving your answer in the form $p\\cos^3x\\sin x+q\\cos x\\sin x+rx+c$ where $p,q,r\\in\\mathbb{Q}^+$. [4]\nThe region R is enclosed by the graph of $y=\\cos^2 x$ and the $x$-axis where $-\\frac{\\pi}{2}\\le x\\le\\frac{\\pi}{2}$, as shown in the following diagram.\n[Diagram: graph of $y=\\cos^2 x$ touching the $x$-axis at $x=-\\frac{\\pi}{2}$ and $x=\\frac{\\pi}{2}$ with maximum 1 at $x=0$; shaded region R between the curve and the $x$-axis]\nThe region R is rotated by $2\\pi$ radians around the $x$-axis to form a solid of revolution.\n(d) Find the volume of the solid. [4]\n(e) (i) Find the Maclaurin series of $f_n(x)$ up to the term in $x^2$.\n(ii) Hence or otherwise, find $\\lim_{x\\to 0}\\frac{f_n(x)-1}{x^2}$ in terms of $n$. [5]",
+   "answer_status": "ok"
+  }
+ }
+}

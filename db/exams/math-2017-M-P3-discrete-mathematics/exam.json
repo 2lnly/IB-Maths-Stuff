@@ -1,0 +1,107 @@
+{
+ "exam_id": "math-2017-M-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2017,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2017 May Examination Session/Mathematics_paper_3_Discrete_mathematics__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2017 May Examination Session/Mathematics_paper_3_Discrete_mathematics__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2217-7207; code M17/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 50",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2017-M-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 16]\n(a) Use the Euclidean algorithm to find the greatest common divisor of 264 and 1365. [5]\n(b) (i) Hence, or otherwise, find the general solution of the Diophantine equation\n264x- 1365y= 3 .\n(ii) Hence find the general solution of the Diophantine equation\n264x- 1365y= 6 . [8]\n(c) By expressing each of 264 and 1365 as a product of its prime factors, determine the\nlowest common multiple of 264 and 1365. [3]",
+   "ms_text": "1. (a) 1365 = 5 × 264 + 45 M1\nA1 264 = 5 × 45 + 39\nA1 45 = 1 × 39 + 6\n39 = 6 × 6 + 3\nA1\n6 = 2 × 3\nA1\nso gcd is 3\n[5 marks]\n(b) (i) EITHER\n39 − 6 × 6 = 3 (M1)\n39 − 6 × (45 − 39) = 3 ⇒ 7 × 39 − 6 × 45 = 3 (A1)\n7 × (264 − 5 × 45) − 6 × 45 = 3 ⇒ 7 × 264 − 41 × 45 = 3 (A1)\n7 × 264 − 41 × (1365 − 5 × 264) = 3 ⇒ 212 × 264 − 41 × 1365 = 3 (A1)\nOR\ntracking the linear combinations when applying the Euclidean algorithm\n(could be displayed in (a))\n(1, 0) (0, 1)\n−5(0, 1)\n(−5, 1) (M1)\n−5(−5, 1)\n(26, −5) (A1)\n−(26, −5)\n(−31, 6) (A1)\n−6(−31, 6)\n(212, −41)\n212 × 264 − 41 × 1365 = 3 (A1)\nTHEN\na solution is x= 212, y= 41 (or equivalent eg x=−243, y=−47) (A1)\nΖ x= 212 + 455N, y= 41 + 88N(or equivalent) ( N ∈ ) A1\n(ii) a solution is x= 424, y= 82 (or equivalent egx = −31, y=−6) (A1)\nΖ x= 424 + 455N, y= 82 + 88N(or equivalent) ( N ∈ ) A1\nNote: Award A1A0 for x= 424 + 910N, y= 82 + 176N.\n[8 marks]\n(c) 264 = 2 × 2 × 2 × 3 × 11 A1\n1365 = 3 × 5 × 7 × 13 A1\nlcm =2 × 2 × 2 × 3 × 5 × 7 × 11 × 13 = 120120 A1\nNote: Only award marks if prime factorisation is used.\n[3 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1",
+    "6.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 16]\n(a) Use the Euclidean algorithm to find the greatest common divisor of $264$ and $1365$. [5]\n(b) (i) Hence, or otherwise, find the general solution of the Diophantine equation $264x - 1365y = 3$.\n(ii) Hence find the general solution of the Diophantine equation $264x - 1365y = 6$. [8]\n(c) By expressing each of $264$ and $1365$ as a product of its prime factors, determine the lowest common multiple of $264$ and $1365$. [3]"
+  },
+  {
+   "id": "math-2017-M-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 12]\nThe weights of the edges in the complete graph G are given in the following table.\nA B C D E F\nA 4 9 8 14 6 –\nB 4 – 1 14 9 3\nC 9 1 – 5 12 2\nD 8 14 5 – 11 12\nE 14 9 12 11 – 7\nF 6 3 2 12 7 –\n(a) Starting at A , use the nearest neighbour algorithm to find an upper bound for the\ntravelling salesman problem for G. [5]\n(b) By first deleting vertex A , use the deleted vertex algorithm together with Kruskal’s\nalgorithm to find a lower bound for the travelling salesman problem for G . [7]",
+   "ms_text": "2. (a) the edges are traversed in the following order\nAB A1\nBC\nCF A1\nFE\nED A1\nDA A1\nupper bound = weight of this cycle = 4 + 1 + 2 + 7 + 11 + 8 = 33 A1\n[5 marks]\n(b) having deleted A, the order in which the edges are added is\nBC A1\nCF A1\nCD A1\nEF A1\nNote: Accept indication of the correct order on a diagram.\nto find the lower bound, we now reconnect A using the two edges with\nthe lowest weights, that is AB and AF (M1)(A1)\nlower bound =1+2+5+7+4+6=25 A1\nNote: Award (M1)(A1)A1 for LB = 15 + 4 + 6 = 25 obtained either from an\nincorrect order of correct edges or where order is not indicated.\n[7 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 12]\nThe weights of the edges in the complete graph $G$ are given in the following table.\n| | A | B | C | D | E | F |\n| A | – | 4 | 9 | 8 | 14 | 6 |\n| B | 4 | – | 1 | 14 | 9 | 3 |\n| C | 9 | 1 | – | 5 | 12 | 2 |\n| D | 8 | 14 | 5 | – | 11 | 12 |\n| E | 14 | 9 | 12 | 11 | – | 7 |\n| F | 6 | 3 | 2 | 12 | 7 | – |\n(a) Starting at A, use the nearest neighbour algorithm to find an upper bound for the travelling salesman problem for $G$. [5]\n(b) By first deleting vertex A, use the deleted vertex algorithm together with Kruskal's algorithm to find a lower bound for the travelling salesman problem for $G$. [7]"
+  },
+  {
+   "id": "math-2017-M-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 9]\n(a) In the context of graph theory, explain briefly what is meant by\n(i) a circuit;\n(ii) an Eulerian circuit. [2]\n(b) The graph G has six vertices and an Eulerian circuit. Determine whether or not its\ncomplement G' can have an Eulerian circuit. [3]\n(c) Find an example of a graph H , with five vertices, such that H and its complement H'\nboth have an Eulerian trail but neither has an Eulerian circuit. Draw H and H' as your\nsolution. [4]",
+   "ms_text": "3. (a) (i) a circuit is a walk that begins and ends at the same vertex and has no\nrepeated edges A1\n(ii) an Eulerian circuit is a circuit that contains every edge of a graph A1\n[2 marks]\n(b) if G has an Eulerian circuit all vertices are even (are of degree 2 or 4) A1\nhence, G′ must have all vertices odd (of degree 1 or 3) R1\nhence, G′ cannot have an Eulerian circuit R1\nNote: Award A1 to candidates who begin by considering a specific G and\nG′(diagram). Award R1R1 to candidates who then consider a\ngeneral G and G′.\n[3 marks]\n(c) for example\nA2\nA2\nNotes: Each graph must have 3 vertices of order 2 and 2 odd vertices. Award A2\nif one of the graphs satisfies that and the final A2 if the other graph is its\ncomplement.\n[4 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.7",
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 9]\n(a) In the context of graph theory, explain briefly what is meant by\n(i) a circuit;\n(ii) an Eulerian circuit. [2]\n(b) The graph $G$ has six vertices and an Eulerian circuit. Determine whether or not its complement $G'$ can have an Eulerian circuit. [3]\n(c) Find an example of a graph $H$, with five vertices, such that $H$ and its complement $H'$ both have an Eulerian trail but neither has an Eulerian circuit. Draw $H$ and $H'$ as your solution. [4]"
+  },
+  {
+   "id": "math-2017-M-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 13]\nConsider the recurrence relation aun + 2+bun + 1+ cun= 0 , n ∈∞ where a , b and c are\nconstants. Let α and β denote the roots of the equation ax2+ bx + c = 0 .\n(a) Verify that the recurrence relation is satisfied by\nun=Aαn+ Bβ n ,\nwhere A and B are arbitrary constants. [4]\n(b) Solve the recurrence relation\n[9] un + 2 – 2un +1+ 5un= 0 given that u0= 0 and u1= 4 .",
+   "ms_text": "4. (a) attempt to substitute the given expression for M1 nu into the recurrence relation\nn + 2 n + 2 n + 1 n + 1 n n au + bu + cu = aA ( α + B β ) + bA ( α + B β ) + cA ( α + B β )\nA1\n+ + n 2 n 1 n\nn ( 2 ) n ( 2 ) = A α a α + b α + c + B β a β + b β + c\nA1\n2 = 0 because α and β both satisfy ax + bx + c = 0\nR1AG\nNote: AwardM1A0A1R0 for solutions that are set to zero throughout and\nconclude with 0=0. Award the R1 for any valid reason.\n[4 marks]\n2\n(b) the auxiliary equation is x − 2 x + 5 = 0 A1\nsolving their quadratic equation (M1)\nthe roots are 1 ± 2i A1\nthe general solution is\nn\nn n ( ( ) ( ) ) u = A (1 + 2i) + B (1 − 2i) u = 5 A cis ( n arctan2 ) + B cis ( − n arctan2 )\nn n\n(A1)\nattempt to substitute both boundary conditions M1\nA + B = 0; A (1 + 2i) + B (1 − 2i) = 4 A1\nattempt to solve their equations for A and B M1\n=− = A i, B i A1\nn\nn n u = i(1 − 2i) − i(1 + 2i) ( u = 2 ( 5 ) sin ( n arctan2 ) )\nA1\nn n\nNote: Accept the trigonometric form for un .\n[9 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.10",
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 13]\nConsider the recurrence relation $au_{n+2} + bu_{n+1} + cu_n = 0$, $n \\in \\mathbb{N}$ where $a$, $b$ and $c$ are constants. Let $\\alpha$ and $\\beta$ denote the roots of the equation $ax^2 + bx + c = 0$.\n(a) Verify that the recurrence relation is satisfied by $u_n = A\\alpha^n + B\\beta^n$, where $A$ and $B$ are arbitrary constants. [4]\n(b) Solve the recurrence relation $u_{n+2} - 2u_{n+1} + 5u_n = 0$ given that $u_0 = 0$ and $u_1 = 4$. [9]"
+  }
+ ],
+ "status": "done"
+}

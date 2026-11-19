@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2016-M-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2016,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2016 May Examination Session/Mathematics_paper_3_Discrete_mathematics__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2016 May Examination Session/Mathematics_paper_3_Discrete_mathematics__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2216-7207; code M16/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2016-M-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 9]\n(a) Use the Euclidean algorithm to show that 1463 and 389 are relatively prime. [4]\n(b) Find positive integers a and b such that 1463a - 389b = 1. [5]",
+   "ms_text": "1. (a) 1463 = 3 × 389 + 296 M1A1\n389 = 1 × 296 + 93\n296 = 3 × 93 + 17 A1\n93 = 5 × 17 + 8\n17 = 2 × 8 + 1 which shows that the gcd is 1 A1\nhence 1463 and389are relatively prime AG\n[4 marks]\n(b) EITHER\n1 = 17 − 2 × 8 (M1)\n= 17 − 2 × (93 − 5 × 17) = 11 × 17 − 2 × 93 (A1)\n= 11 × (296 − 3 × 93) − 2 × 93 = 11 × 296 − 35 × 93 (A1)\n= 11 × 296 − 35 × (389 − 296) = 46 × 296 − 35 × 389\n= 46 × (1463 − 3 × 389) − 35 × 389 (A1)\n46 1463 173 389 A1 = × − ×\n(a= 46, b= 173)\nOR\nmethod of keeping track of the linear combinations from the beginning (could be\nseen along -side the working in (a))\n(1, 0) (0, 1)\n−3(1, 0)\n(−3, 1) (M1)(A1)\n−(−3, 1)\n(4, −1)\n−3(4, −1)\n(−15, 4) (A1)\n−5(−15, 4)\n(79, −21) (A1)\n−2(79, −21)\n(−173, 46)\nso 173389 − × + 461463 × = giving 46 1 × 1463 − 173 × 389 = 1 A1\n( a 46, b 173) = =\nNote: Accept any positive answers of the form a = 46 + 389t, b = 173 + 1463t, t an integer.\n[5 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1",
+    "6.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 9]\n(a) Use the Euclidean algorithm to show that $1463$ and $389$ are relatively prime. [4]\n(b) Find positive integers $a$ and $b$ such that $1463a - 389b = 1$. [5]"
+  },
+  {
+   "id": "math-2016-M-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 12]\nThe weights of the edges in the complete graph G are shown in the following table.\nA B C D E F\nA - 14 10 8 12 9\nB 14 - 9 12 10 13\nC 10 9 - 7 8 13\nD - 8 12 7 9 11\n- E 12 10 8 9 11\nF 9 13 13 11 11 -\n(a) Starting at A , use the nearest neighbour algorithm to find an upper bound for the\ntravelling salesman problem for G. [5]\n(b) By first removing A , use the deleted vertex algorithm to find a lower bound for the\ntravelling salesman problem for G. [7]",
+   "ms_text": "2. (a) attempt to use the nearest neighbour algorithm M1\nthe nearest neighbour path isA → D → C A1\n→ E → B → F → A A1\nthe upper bound is the total weight of this path, ie (M1)\n8 + 7 + 8 + 10 + 13 + 9 = 55 A1\nNote: The (M1) is for adding 6 weights together.\n[5 marks]\n(b) attempt to use an appropriate algorithm, with A deleted, to determine the\nminimum spanning tree, eg Kruskal’s (M1)\nCD (7) A1\nCE, CB (8,9) A1\nDF or EF (11) A1\nthe weight of this minimum spanning tree is35 (A1)\nadding in the two smallest weights joining A (AD and AF) to this tree gives\na lower bound (M1)\nof 35 + 8 + 9 = 52 A1\nNote: Clear diagrams aiding solutions are acceptable in (a) and (b).\n[7 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 12]\nThe weights of the edges in the complete graph $G$ are shown in the following table.\n| | A | B | C | D | E | F |\n| A | – | 14 | 10 | 8 | 12 | 9 |\n| B | 14 | – | 9 | 12 | 10 | 13 |\n| C | 10 | 9 | – | 7 | 8 | 13 |\n| D | 8 | 12 | 7 | – | 9 | 11 |\n| E | 12 | 10 | 8 | 9 | – | 11 |\n| F | 9 | 13 | 13 | 11 | 11 | – |\n(a) Starting at $\\mathrm{A}$, use the nearest neighbour algorithm to find an upper bound for the travelling salesman problem for $G$. [5]\n(b) By first removing $\\mathrm{A}$, use the deleted vertex algorithm to find a lower bound for the travelling salesman problem for $G$. [7]"
+  },
+  {
+   "id": "math-2016-M-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 10]\nThroughout this question, (abc…)n denotes the number abc… written with number base n .\nFor example (359)n= 3n2+ 5n+ 9 .\n(a) (i) Given that (43)n× (56)n= (3112)n, show that 3n3- 19n2- 38n- 16 = 0 .\n(ii) Hence determine the value of n . [3]\n(b) Determine the set of values of n satisfying (13)n× (21)n= (273)n . [3]\n(c) Show that there are no possible values of n satisfying (32)n× (61)n= (1839)n. [4]",
+   "ms_text": "3 2\n3. (a) (i) nsatisfies the equation (4 n + 3)(5 n + 6) = 3 n + n + n + 2 M1A1\n3 2 3 n\n− 19 n − 38 n − 16 = 0 (AG)\n(ii) n= 8 A1\nNote: If extra solutions (-1,-2/3) are not rejected (them just not appearing\nis fine) do not award the final A1.\n[3 marks]\n2\n(b) nsatisfies the equation ( n + 3)(2 n + 1) = 2 n + 7 n + 3 A1\nthis is an identity satisfied by alln (A1)\nn > 7 or n ≥ 8 A1\n[3 marks]\n(3 n 2)(6 n 1) n 3 8 n 2 3 n 9 (c) nsatisfies the equation + + = + + + A1\n3 2 n\n− 10 n − 12 n + 7 = 0 A1\nroots are 11.03, 0.434 and –1.46 A1\nsince there are no integer roots therefore the product is not true in any\nnumber base R1AG\nNote: Accept an argument by contradiction that considers the equation\nmodulo n, with n >10.\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "2"
+   ],
+   "subtopics": [
+    "6.2",
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 10]\nThroughout this question, $(abc\\ldots)_n$ denotes the number $abc\\ldots$ written with number base $n$. For example $(359)_n = 3n^2 + 5n + 9$.\n(a) (i) Given that $(43)_n \\times (56)_n = (3112)_n$, show that $3n^3 - 19n^2 - 38n - 16 = 0$.\n(ii) Hence determine the value of $n$. [3]\n(b) Determine the set of values of $n$ satisfying $(13)_n \\times (21)_n = (273)_n$. [3]\n(c) Show that there are no possible values of $n$ satisfying $(32)_n \\times (61)_n = (1839)_n$. [4]"
+  },
+  {
+   "id": "math-2016-M-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 17]\n(a) Solve the recurrence relation vn + 4vn - 1 + 4vn - 2= 0 where v1= 0 , v2 = 1 . [6]\n(b) Use strong induction to prove that the solution to the recurrence relation\nun- 4un-1+ 4un-2= 0 where u1= 0 , u2= 1 is given by un= 2n-2 (n-1) . [8]\n(c) Find a simplified expression for un+vn given that,\n(i) n is even.\n(ii) n is odd. [3]",
+   "ms_text": "2 4. (a) the auxiliary equation is m\n+ 4 m + 4 = 0 M1\nm= – 2 A1\nthe general solution is\nn\nnv = ( A + Bn ) ×− (2) A1\nthe boundary conditions give\n0 = – 2(A + B)\n1 = 4(A + 2B) M1\nthe solution is A= – 1\n4, B=1 A1A1\n4\n1 ( n n 2 so that\n= n − 1)(2) (or ( − n − 1)(2) − − ) nv\n4\n[6 marks]\n1\n(b) n= 1 gives (1 − 1) × = 0 which is correct A1\n2\nn= 2gives(2 − 1) × 1 =which is correct 1 A1\nNote: Must be checked for n= 1 and 2, other values gain no marks.\nassume that the result is true for all positive integers ≤ k M1\nu = 4 u − 4 u (M1)\nk + 1 k k − 1\nk − 2 k − 3 4 × 2 ( k − 1) − 4 × 2 ( k − 2) A1\nku += 1\nk − 1\n= 2 (2 k − 2 − k + 2) or equivalent A1\nk − 1\n= k 2 A1\ntherefore true for n ≤ k ⇒true for n = k + 1 and since true for\nn= 1 andn= 2, the result is proved by strong induction R1\nNote: Only award the R1 if at least four of the above marks have been awarded.\nNote: Allow true for k and k −1 (in 2 places) instead of stronger statement.\nNote: First M1 does not have to be given for further marks to be gained but second (M1) does.\n[8 marks]\nn − 2 n − 2 (c) (i) u\n+ v = 2 ( n − 1) +− (2) ( n − 1)\nn n\nn − 2 n − 2\nwhen n is even u + v = 2 ( n − 1) + 2 ( n − 1) M1\nn n\nn − 1\n= 2 ( n − 1) A1\n(ii) when n is odd u + v = 0 A1\nn n\n[3 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.10",
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 17]\n(a) Solve the recurrence relation $v_n + 4v_{n-1} + 4v_{n-2} = 0$ where $v_1 = 0$, $v_2 = 1$. [6]\n(b) Use strong induction to prove that the solution to the recurrence relation $u_n - 4u_{n-1} + 4u_{n-2} = 0$ where $u_1 = 0$, $u_2 = 1$ is given by $u_n = 2^{n-2}(n-1)$. [8]\n(c) Find a simplified expression for $u_n + v_n$ given that,\n(i) $n$ is even.\n(ii) $n$ is odd. [3]"
+  },
+  {
+   "id": "math-2016-M-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 12]\nThe simple, connected graph G has e edges and v vertices, where v ≥ 3 .\n1v - e . (a)\nShow that the number of edges in G' , the complement of G , is 2 1v2- 2 [2]\nGiven that both G and G' are planar and connected,\n(b) show that the sum of the number of faces in G and the number of faces in G' is\nindependent of e ; [3]\n(c) show that v2- 13v + 24 ≤ 0 and hence determine the maximum possible value of v . [7]",
+   "ms_text": "vv− 1) the total number of edges inGandG′is (\n5. (a) (A1)\n2\nvv ( − 1)\nthe number of edges in G ′= − e A1\n2\n1 2 1\nv v e AG = − −\n2 2\n[2 marks]\nG e 2 v (b) using Euler’s formula, number of faces in = + − A1\n2 v v\nnumber of faces in G ′= − − e + 2 − v A1\n2 2\n2\n=v –5 v sum of these numbers +4 A1\n2 2\nthis is independent ofe AG\n[3 marks]\nforGto be planar, we require (c) (M1)\ne ≤ 3 v − 6 A1\nforG′to be planar, we require\n2 v v\n− − e ≤ 3 v − 6 A1\n2 2\nfor these two inequalities to be satisfied simultaneously, adding or\nsubstituting we require\n2 v v\n6 v 12 (M1)A1 − ≤ −\n2 2\n2\nleading to v − 13 v + 24 ≤ 0 AG\nthe roots of the equation are10.8 (and2.23) (A1)\nthe largest value ofvis therefore10 A1\n[7 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "2"
+   ],
+   "subtopics": [
+    "6.6",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 12]\nThe simple, connected graph $G$ has $e$ edges and $v$ vertices, where $v \\geq 3$.\n(a) Show that the number of edges in $G'$, the complement of $G$, is $\\frac{1}{2}v^2 - \\frac{1}{2}v - e$. [2]\nGiven that both $G$ and $G'$ are planar and connected,\n(b) show that the sum of the number of faces in $G$ and the number of faces in $G'$ is independent of $e$; [3]\n(c) show that $v^2 - 13v + 24 \\leq 0$ and hence determine the maximum possible value of $v$. [7]"
+  }
+ ],
+ "status": "done"
+}

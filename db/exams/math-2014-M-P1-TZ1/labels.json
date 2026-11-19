@@ -1,0 +1,148 @@
+{
+ "exam_id": "math-2014-M-P1-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "text_clean": "1. [Maximum mark: 5]\nWhen the polynomial $3x^3+ax+b$ is divided by $(x-2)$, the remainder is 2, and when divided by $(x+1)$, it is 5. Find the value of $a$ and the value of $b$."
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "text_clean": "2. [Maximum mark: 4]\nFour numbers are such that their mean is 13, their median is 14 and their mode is 15. Find the four numbers."
+  },
+  "3": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7"
+   ],
+   "text_clean": "3. [Maximum mark: 5]\nConsider $a=\\log_2 3\\times\\log_3 4\\times\\log_4 5\\times\\ldots\\times\\log_{31}32$. Given that $a\\in\\mathbb{Z}$, find the value of $a$."
+  },
+  "4": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\nThe equation $5x^3+48x^2+100x+2=a$ has roots $r_1$, $r_2$ and $r_3$.\nGiven that $r_1+r_2+r_3+r_1r_2r_3=0$, find the value of $a$."
+  },
+  "5": {
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.6",
+    "5.11",
+    "5.10"
+   ],
+   "text_clean": "5. [Maximum mark: 8]\n(a) Use the identity $\\cos 2\\theta=2\\cos^2\\theta-1$ to prove that $\\cos\\frac{1}{2}x=\\sqrt{\\frac{1+\\cos x}{2}}$, $0\\le x\\le\\pi$. [2]\n(b) Find a similar expression for $\\sin\\frac{1}{2}x$, $0\\le x\\le\\pi$. [2]\n(c) Hence find the value of $\\int_0^{\\frac{\\pi}{2}}\\left(\\sqrt{1+\\cos x}+\\sqrt{1-\\cos x}\\right)\\mathrm{d}x$. [4]",
+   "note": "(c) integrates cos(x/2)+sin(x/2) by inspection; tagged 5.15 as trig integration (could be 5.10/5.11) | audit: (c) integrates cos(x/2)+sin(x/2) by inspection: SL 5.10/5.11, not 5.15",
+   "add_flags": []
+  },
+  "6": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.8"
+   ],
+   "text_clean": "6. [Maximum mark: 6]\nThe first set of axes below shows the graph of $y=f(x)$ for $-4\\le x\\le 4$.\n[Diagram: two grids for $-4\\le x\\le 4$, $-4\\le y\\le 4$; first shows $y=f(x)$: horizontal line $y=-1$ from $x=-4$ to $x=0$, then straight line from $(0,-1)$ through $(1,0)$ to $(4,3)$; second set of axes is blank]\nLet $g(x)=\\int_{-4}^{x}f(t)\\,\\mathrm{d}t$ for $-4\\le x\\le 4$.\n(a) State the value of $x$ at which $g(x)$ is a minimum. [1]\n(b) On the second set of axes, sketch the graph of $y=g(x)$. [5]",
+   "note": "accumulation function / FTC sketch; 5.11 areas, 5.3 for gradient reasoning | audit: min of accumulation function g (5.8) + sketch from signed areas; no polynomial differentiation (5.3)",
+   "add_flags": [
+    "topic-uncertain"
+   ]
+  },
+  "7": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "text_clean": "7. [Maximum mark: 5]\nThe triangle ABC is equilateral of side 3 cm. The point D lies on [BC] such that BD = 1 cm.\nFind $\\cos \\mathrm{D\\hat{A}C}$."
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.6"
+   ],
+   "text_clean": "8. [Maximum mark: 6]\nA body is moving in a straight line. When it is $s$ metres from a fixed point O on the line its velocity, $v$, is given by $v=-\\frac{1}{s^2}$, $s>0$.\nFind the acceleration of the body when it is 50 cm from O."
+  },
+  "9": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.15"
+   ],
+   "text_clean": "9. [Maximum mark: 9]\nA curve has equation $\\arctan x^2+\\arctan y^2=\\frac{\\pi}{4}$.\n(a) Find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ in terms of $x$ and $y$. [4]\n(b) Find the gradient of the curve at the point where $x=\\frac{1}{\\sqrt{2}}$ and $y<0$. [5]",
+   "note": "(b) also uses compound-angle tan(A-B) to find y"
+  },
+  "10": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.6"
+   ],
+   "text_clean": "10. [Maximum mark: 6]\nGiven that $\\sin x+\\cos x=\\frac{2}{3}$, find $\\cos 4x$."
+  },
+  "11": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.8",
+    "5.7",
+    "5.4",
+    "5.6",
+    "5.16"
+   ],
+   "text_clean": "11. [Maximum mark: 21]\nConsider the function $f(x)=\\frac{\\ln x}{x}$, $x>0$.\nThe sketch below shows the graph of $y=f(x)$ and its tangent at a point A.\n[Diagram (not to scale): curve $y=\\ln x/x$ rising steeply from below through A on the x-axis, reaching maximum B then flattening; point of inflexion C to the right of B; straight tangent line at A]\n(a) Show that $f'(x)=\\frac{1-\\ln x}{x^2}$. [2]\n(b) Find the coordinates of B, at which the curve reaches its maximum value. [3]\n(c) Find the coordinates of C, the point of inflexion on the curve. [5]\nThe graph of $y=f(x)$ crosses the $x$-axis at the point A.\n(d) Find the equation of the tangent to the graph of $f$ at the point A. [4]\n(e) Find the area enclosed by the curve $y=f(x)$, the tangent at A, and the line $x=\\mathrm{e}$. [7]"
+  },
+  "12": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.13",
+    "3.17",
+    "3.14",
+    "3.12",
+    "3.16",
+    "3.1"
+   ],
+   "text_clean": "12. [Maximum mark: 22]\n(a) Show that the points O(0, 0, 0), A(6, 0, 0), B$(6,-\\sqrt{24},\\sqrt{12})$, C$(0,-\\sqrt{24},\\sqrt{12})$ form a square. [3]\n(b) Find the coordinates of M, the mid-point of [OB]. [1]\n(c) Show that an equation of the plane $\\Pi$, containing the square OABC, is $y+\\sqrt{2}z=0$. [3]\n(d) Find a vector equation of the line $L$, through M, perpendicular to the plane $\\Pi$. [3]\n(e) Find the coordinates of D, the point of intersection of the line $L$ with the plane whose equation is $y=0$. [3]\n(f) Find the coordinates of E, the reflection of the point D in the plane $\\Pi$. [3]\n(g) (i) Find the angle $\\mathrm{O\\hat{D}A}$.\n(ii) State what this tells you about the solid OABCDE. [6]"
+  },
+  "13": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3",
+    "1.13",
+    "1.12"
+   ],
+   "text_clean": "13. [Maximum mark: 17]\nA geometric sequence $\\{u_n\\}$, with complex terms, is defined by $u_{n+1}=(1+\\mathrm{i})u_n$ and $u_1=3$.\n(a) Find the fourth term of the sequence, giving your answer in the form $x+y\\mathrm{i}$, $x, y\\in\\mathbb{R}$. [3]\n(b) Find the sum of the first 20 terms of $\\{u_n\\}$, giving your answer in the form $a\\times(1+2^m)$ where $a\\in\\mathbb{C}$ and $m\\in\\mathbb{Z}$ are to be determined. [4]\nA second sequence $\\{v_n\\}$ is defined by $v_n=u_nu_{n+k}$, $k\\in\\mathbb{N}$.\n(c) (i) Show that $\\{v_n\\}$ is a geometric sequence.\n(ii) State the first term.\n(iii) Show that the common ratio is independent of $k$. [5]\nA third sequence $\\{w_n\\}$ is defined by $w_n=|u_n-u_{n+1}|$.\n(d) (i) Show that $\\{w_n\\}$ is a geometric sequence.\n(ii) State the geometrical significance of this result with reference to points on the complex plane. [5]"
+  }
+ }
+}

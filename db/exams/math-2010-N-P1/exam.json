@@ -1,0 +1,319 @@
+{
+ "exam_id": "math-2010-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2010,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2010 November Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2010 November Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8810-7201; code N10/5/MATHL/HP1/ENG/TZ0/XX; marks sum matches expected total 120",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2010-N-P1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nFind the set of values of x for which x − 1 > 2 x − 1.",
+   "ms_text": "1. EITHER\n2 2 x − 1 > 2 x − 1 ⇒ ( x − 1) > (2 x − 1) M1\n2 2 x − 2 x +> 1 4 x − 4 x + 1\n2 3 x − 2 x < 0 A1\n2\n0 < x < A1A1 N2\n3\nNote: Award A1A0 for incorrect inequality signs.\nOR\nx − 1 > 2 x − 1\nx −= 1 2 x − 1 x −=− 11 2 x M1A1\n−= x = x 0 3 2\n2\nx = 0 x =\n3\nNote: Award M1 for any attempt to find a critical value. If graphical methods\nare used, award M1 for correct graphs, A1 for correct values of x.\n2\n< < 0 x A1A1 N2\n3\nNote: Award A1A0 for incorrect inequality signs.\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nFind the set of values of $x$ for which $|x-1| > |2x-1|$."
+  },
+  {
+   "id": "math-2010-N-P1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nk 1 1\nConsider the matrix 0 2 k − 1 .\nk 0 k − 2\nFind all possible values of k for which the matrix is singular.",
+   "ms_text": "k 1 1\n− − 2 k 1 0 k 1 0 2\n− = − + 2. det0 2 k 1 k (M1)\n0 k − 2 k k − 2 k 0\nk 0 k − 2\n= 2( kk − 2) + kk ( − 1) − 2 k A1\nNote: Allow expansion about any row or column.\n2( kk − 2) + kk ( − 1) − 2 k = 0 M1\n2 3 k − 7 k = 0\nk − = k (3 7) 0\n7\nk = 0 or k = A1A1 N2\n3\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nConsider the matrix $\\begin{pmatrix} k & 1 & 1 \\\\ 0 & 2 & k-1 \\\\ k & 0 & k-2 \\end{pmatrix}$.\nFind all possible values of $k$ for which the matrix is singular."
+  },
+  {
+   "id": "math-2010-N-P1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 4]\n4\n2 2\nExpand and simplify x −\n. x",
+   "ms_text": "4 2 3 4\n2 2 2 2 2 2 2 4 2 3 2 2 2\n3. x − = ( x ) + 4( x ) − + 6( x ) − + 4( x ) − +− (M1)\nx x x x x\n32 16\n= 8 − 5 + 2 − + x 8 x 24 x A3\n4 x x\nNote: Deduct one A mark for each incorrect or omitted term.\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 4]\nExpand and simplify $\\left(x^2 - \\frac{2}{x}\\right)^4$."
+  },
+  {
+   "id": "math-2010-N-P1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\nJenny goes to school by bus every day. When it is not raining, the probability that\nthe bus is late is 3 . When it is raining, the probability that the bus is late is 7 .\n20 20\nThe probability that it rains on a particular day is 9 . On one particular day the bus\n20\nis late. Find the probability that it is not raining on that day.",
+   "ms_text": "4.\n(A1)\n11 3\nP( R ′∩ L ) = × A1\n20 20\n9 7 11 3\nP() L= × + × A1\n20 20 20 20\nP( R ′∩ L )\nP( R ′ |) L = (M1)\nP() L\n33 11\n= = A1\n96 32\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.13",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nJenny goes to school by bus every day. When it is not raining, the probability that the bus is late is $\\frac{3}{20}$. When it is raining, the probability that the bus is late is $\\frac{7}{20}$. The probability that it rains on a particular day is $\\frac{9}{20}$. On one particular day the bus is late. Find the probability that it is not raining on that day."
+  },
+  {
+   "id": "math-2010-N-P1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nThe mean of the first ten terms of an arithmetic sequence is 6. The mean of the first\ntwenty terms of the arithmetic sequence is 16. Find the value of the 15th term of\nthe sequence.",
+   "ms_text": "5. METHOD 1\n+ = + = 5(2 a 9) d 60 (or 2 a 9 d 12 ) M1A1\n10(2 a + 19) d = 320 (or 2 a + 19 d = 32 ) A1\nsolve simultaneously to obtain M1\na =−, 3 d= 2 A1\nthe 15th term is 314 −+ × 2 = 25 A1\nNote:FT the final A1 on the values found in the penultimate line.\nMETHOD 2\nwith an AP the mean of an even number of consecutive terms\nequals the mean of the middle terms (M1)\na + a\n10 11 = 16 (or a + a = 32 ) A1\n10 11\n2\na + a\n5 6 = 6 (or a + a = 12 ) A1\n5 6\n2\na − a + a − a = 20 M1\n10 5 11 6\n5 d + 5 d = 20\nd= 2 and a =− (or 3 a= 5 or a = 15 ) A1\n5 10\nthe 15th term is 314 −+ × = + × = +× = 2 25 (or 5 10 2 25 or 15 5 2 25 ) A1\nNote:FT the final A1 on the values found in the penultimate line.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nThe mean of the first ten terms of an arithmetic sequence is 6. The mean of the first twenty terms of the arithmetic sequence is 16. Find the value of the $15^{\\text{th}}$ term of the sequence."
+  },
+  {
+   "id": "math-2010-N-P1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 8]\nThe sum, Sn , of the first n terms of a geometric sequence, whose nth term is un ,\nis given by\nn n 7 − a\nS = , where a > 0 .\nn n\n7\n(a) [2 marks] Find an expression for un .\n(b) Find the first term and common ratio of the sequence. [4 marks]\n(c) Consider the sum to infinity of the sequence.\n(i) Determine the values of a such that the sum to infinity exists.\n(ii) Find the sum to infinity when it exists. [2 marks]",
+   "ms_text": "6. METHOD 1\n(a) u = S − S− (M1)\nn n n 1\nn n n − 1 n − 1 7 − a 7 − a\n= − A1\nn n − 1 7 7\n(b) EITHER\na\nu=− 1 A1\n1\n7\n2 a a\nu =− 1 − 1 − M1\n2 2\n7 7\na a\n= 1 − A1\n7 7\na\ncommon ratio = A1\n7\nOR\nn n − 1\na a\nu =− 1 −+ 1 M1\nn\n7 7\n− n 1\na a\n= − 1\n7 7\nn − 1\n7 − a a\n= A1\n7 7\n7 − a a\nu = , common ratio = A1A1\n1\n7 7\n(c) (i) 0 < a < 7 (accept a < 7 ) A1\n(ii) 1 A1\n[8 marks]\nMETHOD 2\nn − 1\n7 − a a\n= n − 1 (a) u br = A1A1\nn\n7 7\n(b) for a GP with first termb and common ratio r\nn b (1 − r ) b b\nn S = = − r M1\nn\n1 − r 1 − r 1 − r\nn n n\n7 − a a\nas S = 1 =−\nn n\n7 7\ncomparing both expressions M1\nb a\n1 and r = r=\n− 1 7\na 7 − a\n=− = b 1\n7 7\n7 − a a\nu = b = , common ratio = r = A1A1\n1\n7 7\nNote: Award method marks if the expressions for b and r are deduced in part (a).\n(c) (i) 0 < a < 7 (accept a < 7 ) A1\n(ii) 1 A1\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 8]\nThe sum, $S_n$, of the first $n$ terms of a geometric sequence, whose $n^{\\text{th}}$ term is $u_n$, is given by\n$S_n = \\frac{7^n - a^n}{7^n}$, where $a > 0$.\n(a) Find an expression for $u_n$. [2 marks]\n(b) Find the first term and common ratio of the sequence. [4 marks]\n(c) Consider the sum to infinity of the sequence.\n(i) Determine the values of $a$ such that the sum to infinity exists.\n(ii) Find the sum to infinity when it exists. [2 marks]",
+   "review_note": "ms crop fixed via overrides (previously included top of Q7 vectors)"
+  },
+  {
+   "id": "math-2010-N-P1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 8]\nConsider the plane with equation 4 x − 2 y − z = and the line given by the 1\nparametric equations\nx = 3 − 2 λ\ny = ( 2 k − 1 ) + λ\nz = −+ 1 k λ .\nGiven that the line is perpendicular to the plane, find\n(a) the value of k ; [4 marks]\n(b) the coordinates of the point of intersection of the line and the plane. [4 marks]",
+   "ms_text": "4 − 2\n7. (a) a =− 2 ⊥ to the plane e 1 is parallel to the line (A1)(A1) =\n− 1 k\nNote: Award A1 for each correct vector written down, even if not identified.\nline ⊥ plane ⇒e parallel to a\n− 4 2\n1\nsince − 2 = t 1 ⇒ k = (M1)A1\n2\n− 1 k\n1\n(b) 4(3 − 2) λ − 2 λ −−+ 1 λ = 1 (M1)(A1)\n2\nNote: FT their value of k as far as possible.\n8\nλ= A1\n7\n58 3\n− P , , A1\n77 7\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.17",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 8]\nConsider the plane with equation $4x - 2y - z = 1$ and the line given by the parametric equations\n$x = 3 - 2\\lambda$\n$y = (2k-1) + \\lambda$\n$z = -1 + k\\lambda$.\nGiven that the line is perpendicular to the plane, find\n(a) the value of $k$; [4 marks]\n(b) the coordinates of the point of intersection of the line and the plane. [4 marks]",
+   "review_note": "ms crop fixed via overrides (top row of vectors was cut off)"
+  },
+  {
+   "id": "math-2010-N-P1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nd y 3 2 and y =π\nFind y in terms of x , given that ( 1 + x ) = 2 x tan y\n2 when x = 0 .\nd x",
+   "ms_text": "2 d y d y 2 x\n+ 3 = 2 ⇒ = 8. (1 x ) 2 x tan y ∫ ∫ d x M1\n3 d x tan y 1 + x\n2 cos y 2 3 x\n∫ d y = ∫ d x (A1)(A1)\n3 sin y 31 + x\n2 3\nlnsin y = ln1 + x + C A1A1\n3\nNotes: Do not penalize omission of modulus signs.\nDo not penalize omission of constant at this stage.\nEITHER\n2 π=\nlnsin ln1 + C ⇒ C = 0 M1\n2 3\nOR\n2\n3 sin y = A 1 + x 3 , A = eC\n2\nπ= 3\nsin A 1 + 0 3 ⇒ A = 1 M1\n2\nTHEN\n2\n3 y = arcsin(1 + x ) 3 A1\nNote:Award M0A0 if constant omitted earlier.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nFind $y$ in terms of $x$, given that $(1+x^3)\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 2x^2 \\tan y$ and $y = \\frac{\\pi}{2}$ when $x = 0$."
+  },
+  {
+   "id": "math-2010-N-P1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\nπ\nConsider the function f : x → − arccos . x\n4\n(a) Find the largest possible domain of f . [4 marks]\n(b) Determine an expression for the inverse function, f−1, and write down\nits domain. [4 marks]",
+   "ms_text": "π−\n9. (a) arccos x ≥ 0\n4\nπ\narccos x ≤ (M1)\n4\n2 1\nx ≥ accept x ≥ (A1)\n2 2\nsince 1 −≤ x ≤ 1 (M1)\n2 1\n⇒ ≤ x ≤ 1 accept ≤ x ≤ 1 A1\n2 2\nNote: Penalize the use of < instead of ≤ only once.\nπ π\n(b) y = − arccos x ⇒ x = cos − y 2 M1A1\n4 4\nπ\nf − 1 : x → − x 2 A1\ncos4\nπ\n0 ≤ x ≤ A1\n4\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.2",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nConsider the function $f : x \\to \\sqrt{\\frac{\\pi}{4} - \\arccos x}$.\n(a) Find the largest possible domain of $f$. [4 marks]\n(b) Determine an expression for the inverse function, $f^{-1}$, and write down its domain. [4 marks]"
+  },
+  {
+   "id": "math-2010-N-P1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 5]\nLet α be the angle between the unit vectors a and b , where 0 ≤ α ≤ π .\n(a) Express a − b and a + b in terms of α . [3 marks]\n(b) Hence determine the value of cosα for which a + b = 3 a − b . [2 marks]",
+   "ms_text": "10. METHOD 1\n2 2\n(a) a − b = a + b − 2 a b cosα M1\n= 2 − 2cosα A1\n2 2\na + b = a + b − 2 a b cos( π− α )\n= 2 + 2cosα A1\nNote: Accept the use of a, b for a , b.\n(b) 2 + 2cos α = 32 − 2cos α M1\n4\nα= cos A1\n5\nMETHOD 2\nα\n(a) a − b = M1A1\n2sin2\nπ α α\na + b = 2sin − = 2cos A1\n2 2 2\nNote: Accept the use of a, b for a , b.\nα α\n(b) 2cos = 6sin\n2 2\nα 1 α 9\n2 tan = ⇒ cos = M1\n2 3 2 10\nα\n2 4 cos α= 2cos −= 1 A1\n2 5\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 5]\nLet $\\alpha$ be the angle between the unit vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$, where $0 \\le \\alpha \\le \\pi$.\n(a) Express $|\\boldsymbol{a} - \\boldsymbol{b}|$ and $|\\boldsymbol{a} + \\boldsymbol{b}|$ in terms of $\\alpha$. [3 marks]\n(b) Hence determine the value of $\\cos\\alpha$ for which $|\\boldsymbol{a} + \\boldsymbol{b}| = 3|\\boldsymbol{a} - \\boldsymbol{b}|$. [2 marks]"
+  },
+  {
+   "id": "math-2010-N-P1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 19]\nz + i\nConsider the complex number ω = = x + i and i = y −1 .\n2, where z\nz +\n(a) If ω = i , determine z in the form z =cisθ . r [6 marks]\n2 2 ( x + 2 x + y + y ) + i( x + 2 y + 2 )\n(b) Prove that ω = . [3 marks]\n2 2 ( x + 2 ) + y\n(c) Hence show that when Re() ω=1 the points (, xy lie on a straight line, l1, and )\nwrite down its gradient. [4 marks]\nπ\n(d) Given arg(z) = arg() ω = [6 marks]\n4, find z.",
+   "ms_text": "11. (a) METHOD 1\nz + i\n= i\nz + 2\nz += i i z + 2i M1\n− = A1 (1 i) z i\ni\nz = A1\n1 − i\nEITHER\nπ\ncis2\nz = M1\n3 π\n2 cis\n4\n2 3 π 1 3 π\nz = cis or cis A1A1\n2 4 2 4\nOR\n−+ 1 i 1 1\n= =− + z i M1\n2 2 2\n2 3 π 1 3 π\nz = cis or cis A1A1\n2 4 2 4\n[6 marks]\nMETHOD 2\n+ + x i( y 1)\ni = M1\nx + 2 + i y\nx + i( y + 1) =−+ y i( x + 2) A1\nx =− yx ; + 2 = y + 1 A1\n1 1\nsolving, x =− ; y = A1\n2 2\n1 1 i\nz =− +\n2 2\n2 3 π 1 3 π\nz = cis or cis A1A1\n2 4 2 4\nNote: Award A1 fort the correct modulus and A1 for the correct argument, but\nthe final answer must be in the form r cis θ. Accept 135οfor the\nargument.\n[6 marks]\nx + ( y + 1)i\n(b) substituting z = x + i y to obtain w = (A1)\n( x + 2) + y i\nuse of ( x + 2) − y i to rationalize the denominator M1\nxx ( + 2) + yy ( + 1) + i ( − xy + ( y + 1)( x + 2) )\nω = A1\n2 2 ( x + 2) + y\n2 + + 2 + + + + ( x 2 x y y ) i( x 2 y 2)\n= AG\n( x + 2) 2 + y 2\n[3 marks]\n2 2 x + 2 x + y + y\nω = = (c) Re 1 M1\n2 2 ( x + 2) + y\n2 2 2 2 ⇒ x + 2 x + y + y = x + 4 x + 4 + y A1\n⇒ y = 2 x + 4 A1\nwhich has gradient m = 2 A1\n[4 marks]\n(d) EITHER\nπ\narg() z = ⇒ x = y (and , xy > 0 ) (A1)\n4\n2 + + 2 x 3 x i(3 x 2)\nω = +\n( x + 2) 2 + x 2 ( x + 2) 2 + x 2\n+ 3 x 2\nif arg() ω = θ ⇒ tan θ = (M1)\n2 x 2 + 3 x\n3 x + 2\n= 1 M1A1\n2 + 2 x 3 x\nOR\nπ\narg() z = ⇒ x = y (and xy , > 0) A1\n4\nπ\n= ⇒ 2 + + 2 + = + + arg() w x 2 x y y x 2 y 2 M1\n4\nsolve simultaneously M1\n2 + + 2 + = + + x 2 x x x x 2 x 2 (or equivalent) A1\nTHEN\n2 x= 1\nx =(as 1 x > 0 ) A1\nNote: Award A0 for x =±. 1\nz= 2 A1\nNote: Allow FT from incorrect values of x.\n[6 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.12",
+    "1.13",
+    "2.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 19]\nConsider the complex number $\\omega = \\frac{z+\\mathrm{i}}{z+2}$, where $z = x + \\mathrm{i}y$ and $\\mathrm{i} = \\sqrt{-1}$.\n(a) If $\\omega = \\mathrm{i}$, determine $z$ in the form $z = r\\,\\mathrm{cis}\\,\\theta$. [6 marks]\n(b) Prove that $\\omega = \\frac{(x^2 + 2x + y^2 + y) + \\mathrm{i}(x + 2y + 2)}{(x+2)^2 + y^2}$. [3 marks]\n(c) Hence show that when $\\mathrm{Re}(\\omega) = 1$ the points $(x, y)$ lie on a straight line, $l_1$, and write down its gradient. [4 marks]\n(d) Given $\\arg(z) = \\arg(\\omega) = \\frac{\\pi}{4}$, find $|z|$. [6 marks]"
+  },
+  {
+   "id": "math-2010-N-P1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 18]\n(a) A particle P moves in a straight line with displacement relative to origin given by\ns = 2 sin ( π t ) + sin ( 2 π, t ≥0 , t )\nwhere t is the time in seconds and the displacement is measured in centimetres.\n(i) Write down the period of the function s .\n(ii) Find expressions for the velocity, v , and the acceleration, a , of P.\n(iii) Determine all the solutions of the equation v = 0 for 0 ≤≤ t 4 . [10 marks]\n(b) Consider the function\nfx () = A sin ( ax ) + B sin ( bx ), AaBbx , , , , ∈ ϒ.\nUse mathematical induction to prove that the ( 2nth derivative of f is given by )\nn n n n + f ( 2 )() x =− ( 1 ) ( Aa 2 sin ( ax ) + Bb 2 sin ( bx ) ), for all n∈ [8 marks]\n′.",
+   "ms_text": "12. (a) (i) the period is 2 A1\nd s\n(ii) v = =π 2cos( π t ) +π 2cos(2 π t ) (M1)A1\nd t\nd v\na = =−π 2 2 sin( π t ) −π 4 2 sin(2 π t ) (M1)A1\nd t\n(iii) v = 0\nπ ( π + π ) = 2 cos( t ) cos(2 t ) 0\nEITHER\n2 cos( π t ) + 2cos( π t ) −= 1 0 M1\n( 2cos( π t ) − 1cos( )( π t ) + 1 ) = 0 (A1)\n1\ncos( π t ) = or cos( π t ) =− 1 A1\n2\n1\nt = t = , 1 A1\n3\n5 7 11\nt = , t = , t = , t = 3 A1\n3 3 3\nOR\nπ t 3π t =\n2cos cos 0 M1\n2 2\nπ t 3π t\ncos = 0 orcos = 0 A1A1\n2 2\n1, 1 t = A1\n3\n57 11\nt = , , 3, A1\n33 3\n[10 marks]\n(2) n n ( 2 n 2 n ) (b) Pn: () f () x =− (1) Aa sin( ax ) + Bb sin( bx )\nP (1) : f ′′ () x = ( Aa cos( ax ) + Bb cos( bx′ ) ) M1\n=− 2 − 2 Aa sin( ax ) Bb sin( bx )\n2 2 =− 1 ( Aa sin( ax ) + Bb sin( bx ) ) A1\n∴ P (1) true\nassume that\nPk (): f (2) k () x =− (1) k ( Aa 2 k sin( ax ) + Bb 2 k sin( bx ) ) is true M1\nconsider Pk + ( 1)\nf (2 k + 1) () x =− (1) k ( Aa 2 k + 1 cos( ax ) + Bb 2 k + 1 cos( bx ) ) M1A1\n(2 k + 2) k ( 2 k + 2 2 k + 2 ) f () x =− (1) − Aa sin( ax ) − Bb sin( bx ) A1\nk + 1 2 k + 2 2 k + 2 =− (1) ( Aa sin( ax ) + Bb sin( bx ) ) A1\n+ Pk true implies () Pk + ( 1) true, P (1) true so Pn true () ∀∈′ n R1\nNote: Award the final R1 only if the previous three M marks have been awarded.\n[8 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "1.15",
+    "3.8",
+    "3.6",
+    "5.9",
+    "3.7",
+    "5.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 18]\n(a) A particle P moves in a straight line with displacement relative to origin given by\n$s = 2\\sin(\\pi t) + \\sin(2\\pi t)$, $t \\ge 0$,\nwhere $t$ is the time in seconds and the displacement is measured in centimetres.\n(i) Write down the period of the function $s$.\n(ii) Find expressions for the velocity, $v$, and the acceleration, $a$, of P.\n(iii) Determine all the solutions of the equation $v = 0$ for $0 \\le t \\le 4$. [10 marks]\n(b) Consider the function\n$f(x) = A\\sin(ax) + B\\sin(bx)$, $A, a, B, b, x \\in \\mathbb{R}$.\nUse mathematical induction to prove that the $(2n)^{\\text{th}}$ derivative of $f$ is given by $f^{(2n)}(x) = (-1)^n\\left(Aa^{2n}\\sin(ax) + Bb^{2n}\\sin(bx)\\right)$, for all $n \\in \\mathbb{Z}^+$. [8 marks]"
+  },
+  {
+   "id": "math-2010-N-P1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 23,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 23]\nConsider the curve y =e and the line y x x = kx , k ∈ϒ.\n(a) Let k= 0 .\n(i) Show that the curve and the line intersect once.\n(ii) Find the angle between the tangent to the curve and the line at the point\nof intersection. [5 marks]\n(b) Let k=1. Show that the line is a tangent to the curve. [3 marks]\nx (c) (i) Find the values of k for which the curve y =e and the line y x = kx meet\nin two distinct points.\n(ii) Write down the coordinates of the points of intersection.\n(iii) Write down an integral representing the area of the region A enclosed by\nthe curve and the line.\n(iv) Hence, given that 0 < k < 1 , show that A <1. [15 marks]",
+   "ms_text": "13. (a) (i) x e x = 0 ⇒ x = 0 A1\nso, they intersect only once at (0, 0)\nx x x (ii) y ′= e + x e = (1 + x )e M1A1\ny′ (0) = 1 A1\nπ\nο θ = arctan1 = ( θ= 45) A1\n4\n[5 marks]\n(b) when k =, y 1 = x\nx x x e = x ⇒ x (e − 1) = 0 M1\n⇒ = x 0 A1\ny′ (0) =which equals the gradient of the line y 1 = x R1\nso, the line is tangent to the curve at origin AG\nx Note: Award full credit to candidates who note that the equation x (e − 1) = 0 has\na double root x = 0 so y = x is a tangent.\n[3 marks]\nx x (c) (i) x e = kx ⇒ x (e − k ) = 0 M1\n⇒ x = 0 or x = ln k A1\nk > 0 and k ≠ 1 A1\n(ii) (0, 0) and (ln, kk ln) k A1A1\nln k\n= − x (iii) A ∫ kx x ed x M1A1\n0\nNote: Do not penalize the omission of absolute value.\nx (iv) attempt at integration by parts to find\n∫ x ed x M1\nx x x x\n∫ x ed x = x e − ∫ ed x = e( x − 1) A1\nas 0 < k <⇒ 1 ln k < 0 R1\n0\n0 k x 2 x\nA = ∫ kx − x e d x = x − ( x − 1)e A1\nln k 2\nln k\nk 2\n=− 1 (ln) k − (ln k − 1) k A1\n2\nk\n( 2 ) =− 1 (ln) k − 2ln k + 2\n2\nk 2\n=− 1 ( (ln k − 1) + 1 ) M1A1\n2\nk\nsince ( (ln k − 1) 2 + 1 ) > 0 R1\n2\nA < 1 AG\n[15 marks]\nTotal [23 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.16",
+    "5.4",
+    "5.6",
+    "2.10",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 23]\nConsider the curve $y = x\\mathrm{e}^x$ and the line $y = kx$, $k \\in \\mathbb{R}$.\n(a) Let $k = 0$.\n(i) Show that the curve and the line intersect once.\n(ii) Find the angle between the tangent to the curve and the line at the point of intersection. [5 marks]\n(b) Let $k = 1$. Show that the line is a tangent to the curve. [3 marks]\n(c) (i) Find the values of $k$ for which the curve $y = x\\mathrm{e}^x$ and the line $y = kx$ meet in two distinct points.\n(ii) Write down the coordinates of the points of intersection.\n(iii) Write down an integral representing the area of the region $A$ enclosed by the curve and the line.\n(iv) Hence, given that $0 < k < 1$, show that $A < 1$. [15 marks]"
+  }
+ ],
+ "status": "done"
+}

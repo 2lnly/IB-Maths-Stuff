@@ -1,0 +1,300 @@
+{
+ "exam_id": "math-2009-M-P1-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2009,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2009 May Examination Session/Mathematics_paper_1_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2009 May Examination Session/Mathematics_paper_1_TZ2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2209-7205; code M09/5/MATHL/HP1/ENG/TZ2/XX; marks sum matches expected total 120",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2009-M-P1-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\n3 2 When the function qx () = x + kx − 7 x + 3 is divided by ( x +1 the remainder is )\nseven times the remainder that is found when the function is divided by ( x + 2. )\nFind the value of k .",
+   "ms_text": "1. q (1) − = k + 9 M1A1\nq (2) − = 4 k + 9 A1\nk + 9 = 7(4 k + 9) M1\nk=− 2 A1\nNotes: The first M1 is for one substitution and the consequent equations.\nAccept expressions for (1) q− and (2) q− that are not simplified.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nWhen the function $q(x)=x^3+kx^2-7x+3$ is divided by $(x+1)$ the remainder is seven times the remainder that is found when the function is divided by $(x+2)$.\nFind the value of $k$."
+  },
+  {
+   "id": "math-2009-M-P1-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nThe test scores of a group of students are shown on the cumulative frequency\ngraph below.\n200\n180\n160\n140\n120\n100 Cumulative frequency\n80\n60\n40\n20\n0\n0 10 20 30 40 50 60 70 80 90 100\nTest Scores\n(a) Estimate the median test score. [1 mark]\n(b) The top 10 % of students receive a grade A and the next best 20 % of students\nreceive a grade B. Estimate\n(i) the minimum score required to obtain a grade A;\n(ii) the minimum score required to obtain a grade B. [4 marks]",
+   "ms_text": "2. (a) 64 A1\n90 percentile = 87 minimum mark = (b) (i) 87 (accept 88) (M1)A1\n(ii) 70 percentile = 74 minimum mark = 74 (accept 73) (M1)A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nThe test scores of a group of students are shown on the cumulative frequency graph below.\n[Graph: cumulative frequency curve; horizontal axis Test Scores 0 to 100, vertical axis Cumulative frequency 0 to 200; curve starts at (10, 0) and reaches 200 at a score of 100]\n(a) Estimate the median test score. [1 mark]\n(b) The top 10 % of students receive a grade A and the next best 20 % of students receive a grade B. Estimate\n(i) the minimum score required to obtain a grade A;\n(ii) the minimum score required to obtain a grade B. [4 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nA random variable has a probability density function given by\nkx ( 2 − x ), 0 ≤ x ≤ 2\nfx () =\n0 , elsewhere.\nShow that k=3 (a) [4 marks]\n4.\n(b) Find E( X. ) [2 marks]",
+   "ms_text": "2\n3. (a) kx (2 − x )d x = 1 M1A1 ∫\n0\nNote: Award M1 for LHS and A1 for setting = at any stage. 1\n2\n2 k k\nx 2 − x 3 = 1 A1\n2 3\n0\n8 k\n4 − = 1 A1\n3\n3\nk = AG\n4\n3 2 2\n(b) E( X ) = x (2 − x )d x (M1) ∫\n4 0\n= 1 A1\nNote: Accept answers that indicate use of symmetry.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nA random variable has a probability density function given by\n$f(x)=\\begin{cases} kx(2-x), & 0\\le x\\le 2 \\\\ 0, & \\text{elsewhere.}\\end{cases}$\n(a) Show that $k=\\frac{3}{4}$. [4 marks]\n(b) Find $\\mathrm{E}(X)$. [2 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\n3 2 5 x + 11\n= (a) Show that . [2 marks]\n++ 2\nx 1 x + 3 x + 4 x + 3\n2 5 x + 11\n(b) Hence find the value of k such that ∫ d x = ln k . [4 marks]\n2 0 x + 4 x + 3",
+   "ms_text": "3 2 3( x + 3) + 2( x + 1)\n4. (a) + = M1\nx + 1 x + 3 ( x + 1)( x + 3)\n3 x + 9 + 2 x + 2\n= A1\n2 x + 4 x + 3\n5 x + 11\n= AG\nx 2 + 4 x + 3\n(b)\n2 5 x + 11 2 3 2\n∫ d x = ∫ + d x M1\n2 0 x + 4 x + 3 0 x + 1 x + 3\n2\n= [ 3ln( x + 1) + 2ln( x + 3) ] A1\n0\n= 3ln3 + 2ln5 − 3ln1 − 2ln3 ( = 3ln3 + 2ln5 − 2ln3 ) A1\n= + ln3 2ln5\n= ln75( k = 75) A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.15",
+    "1.11",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\n(a) Show that $\\frac{3}{x+1}+\\frac{2}{x+3}=\\frac{5x+11}{x^2+4x+3}$. [2 marks]\n(b) Hence find the value of $k$ such that $\\int_0^2 \\frac{5x+11}{x^2+4x+3}\\,\\mathrm{d}x=\\ln k$. [4 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 8]\n2 2 Consider the part of the curve 4 x + y = 4 shown in the diagram below.\ny\n2\n1\n0 1 2 x\ny Find an expression for d\n(a) [3 marks]\nx in terms of x and y .\nd\n2 2\n(b) Find the gradient of the tangent at the point , [1 mark]\n.\n5 5\n(c) A bowl is formed by rotating this curve through 2π radians about the x-axis.\nCalculate the volume of this bowl. [4 marks]",
+   "ms_text": "d y\n5. (a) 8 x + 2 = 0 M1A1\nyx\nd\nd y\nNote: Award M1A0 for 8 x + 2 = 4 .\nyx\nd\nd y 4 x\n=− A1\nd x y\n(b) − 4 A1\n2 d (c) V =π∫ y x or equivalent M1\n1 2\nV =π ∫ − 4 x )d x A1 0(4\n1\n4 3\n=π 4 x − x A1\n3\n0\n8π\n= A1\n3\nNote: If it is correct except for the omission of π, award 2 marks.\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.17"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 8]\nConsider the part of the curve $4x^2+y^2=4$ shown in the diagram below.\n[Diagram: first-quadrant arc of the curve from (0, 2) on the y-axis to (1, 0) on the x-axis]\n(a) Find an expression for $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ in terms of $x$ and $y$. [3 marks]\n(b) Find the gradient of the tangent at the point $\\left(\\frac{2}{\\sqrt{5}},\\frac{2}{\\sqrt{5}}\\right)$. [1 mark]\n(c) A bowl is formed by rotating this curve through $2\\pi$ radians about the $x$-axis. Calculate the volume of this bowl. [4 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\na b\nLet M= where a and b are non-zero real numbers.\n− b a\n(a) Show that M is non-singular. [2 marks]\n(b) Calculate M2. [2 marks]\n(c) Show that det ( M2 is positive. ) [2 marks]",
+   "ms_text": "6. (a) det M = a 2 + b 2 A1\n2 2 a + b > 0 , therefore M is non-singular or equivalent statement R1\na b a b a 2 − b 2 2 ab\n2 (b) M = = M1A1\n− b a − b a − 2 − 2 2 ab a b\n(c) EITHER\n2 2 2 2 2 det( M ) = ( a − b )( a − b ) + (2 ab )(2 ab ) A1\ndet( M 2 ) = ( a 2 − b 22 ) + (2 ab ) 2 ( = ( a 2 + b 22 ) )\nsince the first term is non-negative and the second is positive R1\n2 > therefore det( M ) 0\nNote: Do not penalise first term stated as positive.\nOR\n2 2 det( M ) = (det M ) A1\n2 since det M is positive so too is det( M ) R1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nLet $\\boldsymbol{M}=\\begin{pmatrix} a & b \\\\ -b & a\\end{pmatrix}$ where $a$ and $b$ are non-zero real numbers.\n(a) Show that $\\boldsymbol{M}$ is non-singular. [2 marks]\n(b) Calculate $\\boldsymbol{M}^2$. [2 marks]\n(c) Show that $\\det(\\boldsymbol{M}^2)$ is positive. [2 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 8]\n= 2 =+ 1 3 i are roots of the cubic equation z 3 + bz 2 + cz + d = 0 Given that z1 and z2\nwhere bcd , , ∈ϒ,\n(a) write down the third root, z3, of the equation; [1 mark]\nfind the values of bc , and d ; [4 marks] (b)\n(c) [3 marks] write z2 and z3 in the form reiθ.",
+   "ms_text": "− 7. (a) 1 3i A1\n(b) EITHER\n2 ( z − (1 + 3i) )( z − (1 − 3i) ) = z − 2 z + 4 (M1)A1\n= − 2 − + pz () ( z 2)( z 2 z 4) (M1)\n3 2 = z − 4 z + 8 z − 8 A1\ntherefore b =− 4, c = 8, d =− 8\nOR\nrelating coefficients of cubic equations to roots\n−= b 2 ++ 1 3i +− 1 3i = 4 M1\nc = 2(1 + 3i) + 2(1 − 3i) + (1 + 3i)(1 − 3i) = 8\n− d = 2(1 + 3i)(1 − 3i) = 8\n=− = =− b 4, c 8, d 8 A1A1A1\ni π i π −\n3 3 (c) z = 2e , z = 2e A1A1A1\n2 3\nNote: Award A1 for modulus,\nA1 for each argument.\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.14",
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 8]\nGiven that $z_1=2$ and $z_2=1+\\sqrt{3}\\mathrm{i}$ are roots of the cubic equation $z^3+bz^2+cz+d=0$ where $b, c, d\\in\\mathbb{R}$,\n(a) write down the third root, $z_3$, of the equation; [1 mark]\n(b) find the values of $b$, $c$ and $d$; [4 marks]\n(c) write $z_2$ and $z_3$ in the form $r\\mathrm{e}^{\\mathrm{i}\\theta}$. [3 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\nn\n+ Prove by mathematical induction rr (!) = ( n + 1 )! − 1 , n∈\n′. =∑\nr 1",
+   "ms_text": "8. let n = 1\nLHS =× 11!1 =\n= + −= −= RHS (11)!1 211\nhence true for n = 1 R1\nassume true for n = k\nk\n∑ rr (!) = ( k + 1)!1 − M1\nr = 1\nk + 1\n∑ rr (!) = ( k + 1)!1 −+ ( k + 1)( × k + 1)! M1A1\nr = 1\n= ( k + 1)!(1 + k + 1)1 −\n= ( k + 1)!( k + 2)1 − A1\n= ( k + 2)!1 − A1\nhence if true for n = k , true for n = k + 1 R1\nsince the result is true for n = and P() 1 k ⇒ P( k + 1) the result is proved by\n+ mathematical induction ∀∈ n R1\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\nProve by mathematical induction $\\sum_{r=1}^{n} r(r!)=(n+1)!-1$, $n\\in\\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2009-M-P1-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\n2 A triangle has sides of length ( n + n + 1 ) , ( 2 n + 1 ) and ( n2 − 1 ) where n >1.\n(a) Explain why the side ( n 2 + n + 1 ) must be the longest side of the triangle. [3 marks]\n(b) Show that the largest angle, θ , of the triangle is 120ο. [5 marks]",
+   "ms_text": "2 9. (a) a reasonable attempt to show either that n + n +> 1 2 n + or 1\n2 2 n + n +> 1 n − 1 M1\ncomplete solution to each inequality A1A1\n2 2 2 2 2 (2 n + 1) + ( n − 1) − ( n + n + 1)\n(b) cos θ = M1A1\n2 2(2 n + 1)( n − 1)\n3 2 − 2 n − n + 2 n + 1\n= M1\n2 2(2 n + 1)( n − 1)\n( n − 1)( n + 1)(2 n + 1)\n=− A1\n2 2(2 n + 1)( n − 1)\n1\n=− A1\n2\nθ= 120 AG\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.2",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nA triangle has sides of length $(n^2+n+1)$, $(2n+1)$ and $(n^2-1)$ where $n>1$.\n(a) Explain why the side $(n^2+n+1)$ must be the longest side of the triangle. [3 marks]\n(b) Show that the largest angle, $\\theta$, of the triangle is $120^\\circ$. [5 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 22]\n(a) Show that a Cartesian equation of the line, l1, containing points A(, 1 − 12 , )\n−= 1 y += 1 z − 2 303 has the form x [2 marks]\nand B(, ,) .\n2 1 1\n1 y − 2 z − 3\nAn equation of a second line, l2, has the form x −= (b) = . Show that\n1 2 1\nthe lines l1 and l2 intersect, and find the coordinates of their point of intersection. [5 marks]\n(c) Given that direction vectors of l1 and l2 are d1 and d2 respectively,\ndetermine d × d . [3 marks]\n1 2\n(d) Show that a Cartesian equation of the plane, Π , that contains l1 and l2\nis −− x y + 3 z = 6 . [3 marks]\n(e) Find a vector equation of the line l3 which is perpendicular to the plane Π and\npasses through the point T(,, 31 − 4 ) . [2 marks]\n(f) (i) Find the point of intersection of the line l3 and the plane Π .\n(ii) Find the coordinates of ′ T, the reflection of the point T in the plane Π .\n→\n(iii) Hence find the magnitude of the vector TT′ . [7 marks]",
+   "ms_text": "− 2 2\n→ →\n10. (a) identifies a direction vector e.g. AB = 1 or BA =− 1 A1\n1 − 1\nidentifies the point (1, − 1, 2) A1\nx − 1 y + 1 z − 2\nline 1l: = = AG\n2 1 1\n[2 marks]\n1 2 1 1\n(b) r =− 1 + λ 1 r = 2 + μ 2\n2 1 3 1\n1 + 2 λ =+ 1 μ , −+ 1 λ = 2 + 2, 2 μ + λ = 3 + μ (M1)\nequating two of the three equations gives λ=− and 1 μ=− 2 A1A1\ncheck in the third equation\nsatisfies third equation therefore the lines intersect R1\ntherefore coordinates of intersection are (1, − − 2, 1) A1\n[5 marks]\n(c) = + + d=+ + A1 d 2 i j k , i 2 j k\n1 2\ni j k\nd × d = 2 1 1 =−− i j + 3 k M1A1\n1 2\n1 2 1\nNote: Accept scalar multiples of above vectors.\n[3 marks]\n−− + = (d) equation of plane is x y 3 z k M1A1\ncontains (1, 2, 3) ( or(1, − − 2, 1) or(1, − 1, 2) ) ∴ k =−− 1 2 +× 33 = 6 A1\n−− x y + 3 z = 6 AG\n[3 marks]\n− 1\n− (e) direction vector of the perpendicular line is 1 (M1)\n3\n3 − 1\nr = 1 + m − 1 A1\n− 4 3\nNote: Award A0 if r omitted.\n[2 marks]\n(f) (i) find point where line meets plane\n− (3 − m ) − (1 − m ) + 3(4 −+ 3) m = 6 M1\nm = 2 A1\n− point of intersection is (1, 1, 2) A1\n′ (ii) for T , m = 4 (M1)\n′=− − so T (1, 3, 8) A1\n→\n2 2 2 (iii) TT ′= (31) + + (1 + 3) +−− (4 8) (M1)\n= 176 ( = 411) A1\n[7 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.15",
+    "3.14",
+    "3.16",
+    "3.17",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 22]\n(a) Show that a Cartesian equation of the line, $l_1$, containing points $\\mathrm{A}(1,-1,2)$ and $\\mathrm{B}(3,0,3)$ has the form $\\frac{x-1}{2}=\\frac{y+1}{1}=\\frac{z-2}{1}$. [2 marks]\n(b) An equation of a second line, $l_2$, has the form $\\frac{x-1}{1}=\\frac{y-2}{2}=\\frac{z-3}{1}$. Show that the lines $l_1$ and $l_2$ intersect, and find the coordinates of their point of intersection. [5 marks]\n(c) Given that direction vectors of $l_1$ and $l_2$ are $\\boldsymbol{d}_1$ and $\\boldsymbol{d}_2$ respectively, determine $\\boldsymbol{d}_1\\times\\boldsymbol{d}_2$. [3 marks]\n(d) Show that a Cartesian equation of the plane, $\\Pi$, that contains $l_1$ and $l_2$ is $-x-y+3z=6$. [3 marks]\n(e) Find a vector equation of the line $l_3$ which is perpendicular to the plane $\\Pi$ and passes through the point $\\mathrm{T}(3,1,-4)$. [2 marks]\n(f) (i) Find the point of intersection of the line $l_3$ and the plane $\\Pi$.\n(ii) Find the coordinates of $\\mathrm{T}'$, the reflection of the point T in the plane $\\Pi$.\n(iii) Hence find the magnitude of the vector $\\overrightarrow{\\mathrm{TT}'}$. [7 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 16]\nA function is defined as fx () = k x , with k> 0 and x ≥0 .\n(a) Sketch the graph of y = fx () . [1 mark]\n(b) Show that f is a one-to-one function. [1 mark]\n(c) Find the inverse function, f −1() and state its domain. x [3 marks]\n(d) If the graphs of y = fx () and y = f −1() intersect at the point (, x 44 find the )\nvalue of k . [2 marks]\n(e) Consider the graphs of y = fx () and y = f −1() using the value of k found in x\npart (d).\n(i) Find the area enclosed by the two graphs.\n(ii) The line x = c cuts the graphs of y = fx () and y = f −1() at the points x\nP and Q respectively. Given that the tangent to y = fx () at point P is\nparallel to the tangent to y = f −1() at point Q find the value of c . x [9 marks]",
+   "ms_text": "11. (a)\nA1\nNote: Award A1 for correct concavity, passing through (0, 0) and increasing.\nScales need not be there.\n[1 mark]\n(b) a statement involving the application of the Horizontal Line Test or equivalent A1\n[1 mark]\n(c) y = k x\n2 y\nfor either x = k y or x = A1\n2 k\n2\n− x f 1 () x = A1\n2 k\n− dom ( f 1 () x )[ = 0, ∞ [ A1\n[3 marks]\n2 x\n(d) = k x or equivalent method M1\nk 2\nk = x\nk= 2 A1\n[2 marks]\nb\n(e) (i) A = ∫ ( y − y )d x (M1)\n1 2 a\n1\n4 1\n2 2 A = ∫ 2 x − x d x A1\n0 4\n3 4 4 1\n3 = x 2 − x A1\n3 12\n0\n16\n= A1\n3\n′ −′ 1 (ii) attempt to find either f () x or ( f ) () x M1\n1 x\n′ − 1 ′ = f () x = , ( f ) () x A1A1\nx 2\n1 c\n= M1\nc 2\n2\nc = 3 2 A1\n[9 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.4",
+    "2.5",
+    "2.4",
+    "2.3",
+    "2.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 16]\nA function is defined as $f(x)=k\\sqrt{x}$, with $k>0$ and $x\\ge 0$.\n(a) Sketch the graph of $y=f(x)$. [1 mark]\n(b) Show that $f$ is a one-to-one function. [1 mark]\n(c) Find the inverse function, $f^{-1}(x)$ and state its domain. [3 marks]\n(d) If the graphs of $y=f(x)$ and $y=f^{-1}(x)$ intersect at the point $(4, 4)$ find the value of $k$. [2 marks]\n(e) Consider the graphs of $y=f(x)$ and $y=f^{-1}(x)$ using the value of $k$ found in part (d).\n(i) Find the area enclosed by the two graphs.\n(ii) The line $x=c$ cuts the graphs of $y=f(x)$ and $y=f^{-1}(x)$ at the points P and Q respectively. Given that the tangent to $y=f(x)$ at point P is parallel to the tangent to $y=f^{-1}(x)$ at point Q find the value of $c$. [9 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 22]\nThe complex number z is defined as z = cos θ + i sin θ .\n(a) State de Moivre’s theorem. [1 mark]\n1 n\n(b) Show that z − = 2isin ( n θ. ) [3 marks]\nn z\n5\n1\n(c) Use the binomial theorem to expand z − giving your answer in\nz\nsimplified form. [3 marks]\n5 (d) Hence show that 16 sin θ = sin 5 θ − 5 sin 3 θ + 10 sin θ . [4 marks]\n(e) Check that your result in part (d) is true for θ=π [4 marks]\n4.\nπ\n(f) Find 2 sin5 θθ d . [4 marks] ∫\n0\nπ\n(g) Hence, with reference to graphs of circular functions, find 2 cos5 θθ d , ∫\n0\nexplaining your reasoning. [3 marks]",
+   "ms_text": "n 12. (a) any appropriate form, e.g.(cos θ + isin) θ = cos( n θ ) + isin( n θ ) A1\n[1 mark]\n(b) nz = cos n θ + isin n θ A1\n1\n= cos( − n θ ) + isin( − n θ ) (M1)\nz n\n= θ − θ cos n isin( n ) A1\nn 1 therefore z − = 2isin( n θ ) AG\nn z\n[3 marks]\n5 2 3 4 5\n1 5 1 5 1 5 1 5 1 1\n− = 5 + 4 − + 3 − + 2 − + − +− (c) z z z z z z (M1)(A1)\nz 1 z 2 z 3 z 4 z z\n10 5 1 5 3\n= z − 5 z + 10 z − + − A1\n3 5 z z z\n[3 marks]\n5\n1 1 1 1 5 3\n(d) z − = z − − 5 z − + 10 z − M1A1\n5 3 z z z z\n(2isin) θ 5 = 2isin5 θ − 10isin3 θ + 20isin θ M1A1\n5 16sin θ = sin5 θ − 5sin3 θ + 10sin θ AG\n[4 marks]\n5 (e) 16sin θ = sin5 θ − 5sin3 θ + 10sin θ\n5\nπ\nLHS =\n16sin 4\n5\n2\n= 16\n2\n4\n= = A1 22\n2\n5 π 3 π π\n= − + RHS sin 5sin 10sin\n4 4 4\n2 2 2\n=− − 5 + 10 M1A1\n2 2 2\nNote:Award M1 for attempted substitution.\n4\n= 22 = A1\n2\nπ\nhence this is true for θ = AG\n4\n[4 marks]\nπ π\n1\n2 5 2 (f) ∫ sin θθ d = ∫ (sin5 θ − 5sin3 θ + 10sin)d θ θ M1\n0 16 0\nπ\n1 cos5 θ 5cos3 θ 2\n= − + − θ 10cos A1\n16 5 3\n0\n1 1 5\n= 0 −− + − 10 A1\n16 5 3\n8\n= A1\n15\n[4 marks]\nπ\n5 8 (g) 2 cos θ d θ = , with appropriate reference to symmetry and graphs. A1R1R1\n∫\n0 15\nNote:Awardfirst R1 for partially correct reasoninge.g. sketches of graphs of sin and cos.\n5 5 Award second R1 for fully correct reasoning involving sin and cos.\n[3 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "1.14",
+    "3.5",
+    "5.10",
+    "1.9",
+    "3.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 22]\nThe complex number $z$ is defined as $z=\\cos\\theta+\\mathrm{i}\\sin\\theta$.\n(a) State de Moivre's theorem. [1 mark]\n(b) Show that $z^n-\\frac{1}{z^n}=2\\mathrm{i}\\sin(n\\theta)$. [3 marks]\n(c) Use the binomial theorem to expand $\\left(z-\\frac{1}{z}\\right)^5$ giving your answer in simplified form. [3 marks]\n(d) Hence show that $16\\sin^5\\theta=\\sin 5\\theta-5\\sin 3\\theta+10\\sin\\theta$. [4 marks]\n(e) Check that your result in part (d) is true for $\\theta=\\frac{\\pi}{4}$. [4 marks]\n(f) Find $\\int_0^{\\frac{\\pi}{2}}\\sin^5\\theta\\,\\mathrm{d}\\theta$. [4 marks]\n(g) Hence, with reference to graphs of circular functions, find $\\int_0^{\\frac{\\pi}{2}}\\cos^5\\theta\\,\\mathrm{d}\\theta$, explaining your reasoning. [3 marks]"
+  }
+ ],
+ "status": "done"
+}

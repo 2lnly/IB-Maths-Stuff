@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2009-M-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.8"],
+      "text_clean": "1. [Maximum mark: 8]\nSameer is trying to design a road system to connect six towns, A, B, C, D, E and F. The possible roads and the costs of building them are shown in the graph below. Each vertex represents a town, each edge represents a road and the weight of each edge is the cost of building that road. He needs to design the lowest cost road system that will connect the six towns.\n[Diagram: weighted graph with vertices A, B, C, D, E, F; edges AB = 5, AD = 8, AC = 4, AE = 7, BD = 6, CD = 3, CE = 7, CF = 4, DF = 8, EF = 4]\n(a) Name an algorithm which will allow Sameer to find the lowest cost road system. [1 mark]\n(b) Find the lowest cost road system and state the cost of building it. Show clearly the steps of the algorithm. [7 marks]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.3", "6.1"],
+      "text_clean": "2. [Maximum mark: 14]\n(a) Use the Euclidean algorithm to find $\\gcd(12306, 2976)$. [5 marks]\n(b) Hence give the general solution to the diophantine equation $12306x + 2976y = 996$. [9 marks]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.7", "6.11", "6.6"],
+      "text_clean": "3. [Maximum mark: 19]\nThe adjacency matrix of the graph $G$, with vertices P, Q, R, S, T is given by:\n   P Q R S T\nP  0 2 1 1 0\nQ  2 1 1 1 0\nR  1 1 1 0 2\nS  1 1 0 0 0\nT  0 0 2 0 0\n(a) Draw the graph $G$. [3 marks]\n(b) (i) Define an Eulerian circuit.\n(ii) Write down an Eulerian circuit in $G$ starting at P. [3 marks]\n(c) (i) Define a Hamiltonian cycle.\n(ii) Explain why it is not possible to have a Hamiltonian cycle in $G$. [5 marks]\n(d) (i) Find the number of walks of length 5 from P to Q.\n(ii) Which pairs of distinct vertices have more than 15 walks of length 3 between them? [8 marks]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.4", "6.1"],
+      "text_clean": "4. [Maximum mark: 10]\nTwo mathematicians are planning their wedding celebration and are trying to arrange the seating plan for the guests. The only restriction is that all tables must seat the same number of guests and each table must have more than one guest. There are fewer than 350 guests, but they have forgotten the exact number. However they remember that when they try to seat them with two at each table there is one guest left over. The same happens with tables of 3, 4, 5 and 6 guests. When there were 7 guests per table there were none left over. Find the number of guests."
+    },
+    "5": {
+      "topics": ["6"],
+      "subtopics": ["6.5", "6.1", "6.2"],
+      "text_clean": "5. [Maximum mark: 9]\n(a) Using Fermat's little theorem, show that, in base 10, the last digit of $n$ is always equal to the last digit of $n^5$. [7 marks]\n(b) Show that this result is also true in base 30. [2 marks]"
+    }
+  }
+}

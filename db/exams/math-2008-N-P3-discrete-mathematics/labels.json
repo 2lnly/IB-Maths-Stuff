@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2008-N-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.1", "6.4", "6.2", "6.3"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 19]\n(a) Convert the decimal number $51966$ to base 16. [4 marks]\n(b) (i) Using the Euclidean algorithm, find the greatest common divisor, $d$, of 901 and 612.\n(ii) Find integers $p$ and $q$ such that $901p + 612q = d$.\n(iii) Find the least possible positive integers $s$ and $t$ such that $901s - 612t = 85$. [10 marks]\n(c) In each of the following cases find the solutions, if any, of the given linear congruence.\n(i) $9x \\equiv 3 \\pmod{18}$\n(ii) $9x \\equiv 3 \\pmod{15}$ [5 marks]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.9", "6.8"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 12]\n(a) Use Kruskal's algorithm to find the minimum spanning tree for the following weighted graph and state its length. [5 marks]\n[Diagram: weighted graph on vertices A, B, C, D, E, F, G with edges AB 20, AE 8, AD 5, AC 6, BC 11, ED 9, DC 4, EF 7, DF 12, FC 16, DG 13, CG 17, FG 12]\n(b) Use Dijkstra's algorithm to find the shortest path from A to D in the following weighted graph and state its length. [7 marks]\n[Diagram: weighted graph on vertices A, B, C, D, E, F with edges AB 11, AF 9, BF 1, BE 14, BC 13, CE 2, CD 3, FE 15, ED 3]"
+    },
+    "3": {
+      "topics": ["6", "1"],
+      "subtopics": ["6.1", "6.5", "1.7"],
+      "answer_status": "ok",
+      "note": "Markscheme typos: (c) final line reads '25 | 5^11+17^11' (should be 22) and cites 'Fermat's Last Theorem' (means Fermat's little theorem).",
+      "text_clean": "3. [Maximum mark: 12]\n(a) Write $457128$ as a product of primes. [4 marks]\n(b) Numbers of the form $F_n = 2^{2^n} + 1$, $n \\in \\mathbb{N}$ are called Fermat numbers.\nFind the smallest value of $n$ for which the corresponding Fermat number has more than a million digits. [4 marks]\n(c) Prove that $22 \\mid 5^{11} + 17^{11}$. [4 marks]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.6", "6.8", "6.11"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 17]\n(a) A connected planar graph $G$ has $e$ edges and $v$ vertices.\n(i) Prove that $e \\geq v - 1$.\n(ii) Prove that $e = v - 1$ if and only if $G$ is a tree. [4 marks]\n(b) A tree has $k$ vertices of degree 1, two of degree 2, one of degree 3 and one of degree 4. Determine $k$ and hence draw a tree that satisfies these conditions. [6 marks]\n(c) The graph $H$ has the adjacency matrix given below.\n$\\begin{pmatrix} 0&1&1&0&0&0 \\\\ 1&0&0&1&1&0 \\\\ 1&0&0&0&1&1 \\\\ 0&1&0&0&0&0 \\\\ 0&1&1&0&0&0 \\\\ 0&0&1&0&0&0 \\end{pmatrix}$\n(i) Explain why $H$ cannot be a tree.\n(ii) Draw the graph of $H$. [3 marks]\n(d) Prove that a tree is a bipartite graph. [4 marks]"
+    }
+  }
+}

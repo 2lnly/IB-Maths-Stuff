@@ -1,0 +1,144 @@
+{
+ "exam_id": "math-2002-N-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "1",
+    "6"
+   ],
+   "subtopics": [
+    "1.15",
+    "6.10",
+    "1.L1"
+   ],
+   "text_clean": "1. [Maximum mark: 16]\n(i) A sequence $\\{u_n\\}$ is defined by $u_0=1, u_1=2, u_{n+1}=3u_n-2u_{n-1}$ where $n\\in\\mathbb{Z}^+$.\n(a) Find $u_2, u_3, u_4$. [3 marks]\n(b) (i) Express $u_n$ in terms of $n$.\n(ii) Verify that your answer to part (b)(i) satisfies the equation $u_{n+1}=3u_n-2u_{n-1}$. [3 marks]\n(ii) The matrix $M$ is defined as $M=\\begin{pmatrix}2&-1\\\\1&0\\end{pmatrix}$.\n(a) Find $M^2$, $M^3$ and $M^4$. [3 marks]\n(b) (i) State a conjecture for $M^n$, i.e. express $M^n$ in terms of $n$, where $n\\in\\mathbb{Z}^+$.\n(ii) Prove this conjecture using mathematical induction. [7 marks]",
+   "answer_status": "ok",
+   "note": "Pre-2006 Section A core question; recurrence part tagged 6.10 (solved by pattern/verification)."
+  },
+  "2": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13"
+   ],
+   "text_clean": "2. [Maximum mark: 11]\nConsider the complex number $z=\\dfrac{\\left(\\cos\\frac{\\pi}{4}-\\mathrm{i}\\sin\\frac{\\pi}{4}\\right)^2\\left(\\cos\\frac{\\pi}{3}+\\mathrm{i}\\sin\\frac{\\pi}{3}\\right)^3}{\\left(\\cos\\frac{\\pi}{24}-\\mathrm{i}\\sin\\frac{\\pi}{24}\\right)^4}$.\n(a) (i) Find the modulus of $z$.\n(ii) Find the argument of $z$, giving your answer in radians. [4 marks]\n(b) Using De Moivre's theorem, show that $z$ is a cube root of one, i.e. $z=\\sqrt[3]{1}$. [2 marks]\n(c) Simplify $(1+2z)(2+z^2)$, expressing your answer in the form $a+b\\mathrm{i}$, where $a$ and $b$ are exact real numbers. [5 marks]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.4",
+    "5.11",
+    "5.8",
+    "2.9"
+   ],
+   "text_clean": "3. [Maximum mark: 14]\n(a) On the same axes sketch the graphs of the functions $f(x)$ and $g(x)$, where\n$f(x)=4-(1-x)^2$, for $-2\\le x\\le 4$,\n$g(x)=\\ln(x+3)-2$, for $-3\\le x\\le 5$. [2 marks]\n(b) (i) Write down the equation of any vertical asymptotes.\n(ii) State the $x$-intercept and $y$-intercept of $g(x)$. [3 marks]\n(c) Find the values of $x$ for which $f(x)=g(x)$. [2 marks]\n(d) Let $A$ be the region where $f(x)\\ge g(x)$ and $x\\ge 0$.\n(i) On your graph shade the region $A$.\n(ii) Write down an integral that represents the area of $A$.\n(iii) Evaluate this integral. [4 marks]\n(e) In the region $A$ find the maximum vertical distance between $f(x)$ and $g(x)$. [3 marks]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.13",
+    "5.18"
+   ],
+   "text_clean": "4. [Maximum mark: 14]\n(i) Consider the points $A(1,3,-17)$ and $B(6,-7,8)$ which lie on the line $l$.\n(a) Find an equation of line $l$, giving the answer in parametric form. [4 marks]\n(b) The point P is on $l$ such that $\\vec{OP}$ is perpendicular to $l$. Find the coordinates of P. [3 marks]\n(ii) Consider the differential equation $\\dfrac{dy}{dx}=\\dfrac{3y^2+x^2}{2xy}$, for $x>0$.\n(a) Use the substitution $y=vx$ to show that $v+x\\dfrac{dv}{dx}=\\dfrac{3v^2+1}{2v}$. [3 marks]\n(b) Hence find the solution of the differential equation, given that $y=2$ when $x=1$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9",
+    "4.11",
+    "1.10"
+   ],
+   "text_clean": "5. [Maximum mark: 15]\n(a) At a building site the probability, $P(A)$, that all materials arrive on time is 0.85. The probability, $P(B)$, that the building will be completed on time is 0.60. The probability that the materials arrive on time and that the building is completed on time is 0.55.\n(i) Show that events $A$ and $B$ are not independent.\n(ii) All the materials arrive on time. Find the probability that the building will not be completed on time. [5 marks]\n(b) There was a team of ten people working on the building, including three electricians and two plumbers. The architect called a meeting with five of the team, and randomly selected people to attend. Calculate the probability that exactly two electricians and one plumber were called to the meeting. [2 marks]\n(c) The number of hours a week the people in the team work is normally distributed with a mean of 42 hours. 10% of the team work 48 hours or more a week. Find the probability that both plumbers work more than 40 hours in a given week. [8 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L6",
+    "4.L1",
+    "4.L7"
+   ],
+   "text_clean": "6. [Maximum mark: 30]\nGive your answers to four significant figures.\n(i) A machine produces cloth with some minor faults. The number of faults per metre is a random variable following a Poisson distribution with a mean 3. Calculate the probability that a metre of the cloth contains five or more faults. [4 marks]\n(ii) The following is a random sample of 16 measurements of the density of aluminium. Assume that the measurements are normally distributed.\n2.704 2.709 2.711 2.706\n2.708 2.705 2.709 2.701\n2.705 2.707 2.710 2.700\n2.703 2.699 2.702 2.701\nConstruct a 95% confidence interval for the density of aluminium, showing all steps clearly. [6 marks]\n(iii) A die is thrown 120 times with the following results.\nscore | 1 | 2 | 3 | 4 | 5 | 6\nfrequency | 27 | 12 | 16 | 25 | 26 | 14\n(a) Showing all steps clearly, test whether the die is fair\n(i) at the 5% level of significance.\n(ii) at the 1% level of significance. [7 marks]\n(b) Explain what is meant by \"level of significance\" in part (a). [3 marks]\n(iv) A sociologist wants to know whether the percentage of sons taking up the profession of their father is the same in every profession. She decides to investigate the situation in each of four professions. She obtained the following data.\n63 out of 136 sons of male medical doctors became doctors\n42 out of 118 sons of male engineers became engineers\n35 out of 96 sons of male lawyers became lawyers\n68 out of 150 sons of male businessmen became businessmen\nAt the 5% level of significance what should her conclusion be? [10 marks]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.7",
+    "7.2",
+    "7.8",
+    "7.9",
+    "7.4",
+    "7.1",
+    "1.10"
+   ],
+   "text_clean": "7. [Maximum mark: 30]\n(i) Let $(\\mathbb{Z}_4,+)$ denote the group whose elements are 0, 1, 2, 3, with the operation of addition of integers modulo 4. Let $(G,*)$ denote another group of order four whose elements are $a, b, c, d$. Let $\\Phi$ be an isomorphism of $(\\mathbb{Z}_4,+)$ onto $(G,*)$ defined as follows: $\\Phi(0)=b, \\Phi(1)=d, \\Phi(2)=a, \\Phi(3)=c$.\n(a) Write down the group table for $(\\mathbb{Z}_4,+)$. [1 mark]\n(b) Hence write down the group table for $(G,*)$. [4 marks]\n(ii) Let $Y$ be the set $\\{1,2,3,4,5,6,7,8,9,10\\}$. Define the relation $R$ on $Y$ by $aRb \\Leftrightarrow a^2-b^2\\equiv 0 \\pmod 5$, where $a,b\\in Y$.\n(a) Show that $R$ is an equivalence relation. [4 marks]\n(b) (i) What is meant by \"the equivalence class containing $a$\"?\n(ii) Write down all the equivalence classes. [5 marks]\n(iii) Let $X$ be a set containing $n$ elements (where $n$ is a positive integer). Show that the set of all subsets of $X$ contains $2^n$ elements. [6 marks]\n(iv) Let $(S,\\circ)$ be the group of all permutations of four elements $a, b, c, d$. The permutation that maps $a$ onto $c$, $b$ onto $d$, $c$ onto $a$ and $d$ onto $b$ is represented by $\\begin{pmatrix}a&b&c&d\\\\c&d&a&b\\end{pmatrix}$.\nThe identity element is represented by $\\begin{pmatrix}a&b&c&d\\\\a&b&c&d\\end{pmatrix}$.\nNote that $AB$ denotes the permutation obtained when permutation $B$ is followed by permutation $A$.\n(a) Find the inverse of the permutation $\\begin{pmatrix}a&b&c&d\\\\c&a&d&b\\end{pmatrix}$. [1 mark]\n(b) Find a subgroup of $S$ of order 2. [2 marks]\n(c) Find a subgroup of $S$ of order 4, showing that it is a subgroup of $S$. [7 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1",
+    "6.7",
+    "6.8",
+    "6.10",
+    "6.6"
+   ],
+   "text_clean": "8. [Maximum mark: 30]\n(i) (a) Explain how to use Euclid's algorithm to obtain the greatest common divisor (gcd) of two positive integers $a$, $b$ with $b<a$. [3 marks]\n(b) Let $d$ be the gcd of 364 and 154. Use Euclid's algorithm to find $d$, and hence find integers $x$ and $y$ so that $d=364x+154y$. [5 marks]\n(ii) Solve the recurrence relation $y_{n+2}-2y_{n+1}-2y_n=0$, where $y_1=1$, $y_2=3$, and $n\\in\\mathbb{Z}^+$. [5 marks]\n(iii) The floor plan of a certain building is shown below. There are four rooms A, B, C, D and doorways are indicated between the rooms and to the exterior O.\n[Diagram: floor plan with rooms A and B on top, D and C below, exterior O on the right; gaps in walls mark doorways between rooms and to the outside]\n(a) Draw a graph by associating a vertex with each room using the letters A, B, C, D, and O. If there is a door between the two rooms, draw an edge joining the corresponding two vertices. [2 marks]\n(b) Does the graph in part (a) possess an Eulerian trail? Give a reason for your answer. What does your answer mean about the floor plan? [4 marks]\n(c) Does the graph in part (a) possess a Hamiltonian cycle? Give a reason for your answer. What does your answer mean about the floor plan? [4 marks]\n(iv) Let $T=(V,E)$, denote a tree $T$, with $V$ being the set of the vertices and $E$ the set of the edges. Show that $|V|=|E|+1$, i.e. that the number of vertices is one more than the number of edges. [2 marks]\n(v) (a) Describe the depth-first search algorithm. [3 marks]\n(b) The diagram shows a graph $M$.\n[Diagram: graph M with vertices P, Q, R, S (top row), T, U (middle), W, X, Y (bottom); edges PQ, QR, RS (top line), PT, QU, RU, TU, TW, TX, UX, UY, WX, XY]\nUse the depth-first algorithm to find and sketch a spanning tree for $M$, starting at vertex P. [2 marks]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L1",
+    "5.11",
+    "3.8"
+   ],
+   "text_clean": "9. [Maximum mark: 30]\n(i) Consider the equation $\\tan x-1=0$.\n(a) Show that it has solutions $x=\\frac{\\pi}{4}+k\\pi$, where $k$ is any integer. [1 mark]\n(b) The Newton-Raphson method is to be used to find an appropriate solution of the equation, starting with $x=1$.\n(i) State two conditions that allow you to conclude that the sequence converges to $\\frac{\\pi}{4}$.\n(ii) Hence or otherwise, find $\\pi$ correct to 5 decimal places. [8 marks]\n(ii) Let $f(x)=2+\\cos x$, $x\\in\\left[0,\\frac{\\pi}{2}\\right]$.\n(a) Show that $|f^{(4)}(x)|$ is bounded above by 1, where $f^{(4)}(x)$ denotes the fourth derivative of $f$ with respect to $x$. [1 mark]\nLet $A$ denote the area enclosed by the graph of $f(x)$, the axes and $x=\\frac{\\pi}{2}$.\n(b) Show that $A=1+\\pi$. [2 marks]\n(c) (i) Use Simpson's rule with 10 subdivisions to calculate an approximate value of $A$. Give your answer in the form $k\\pi$, where $k\\in\\mathbb{R}^+$, and $k$ is correct to six decimal places.\n(ii) Given that $\\pi\\le 4$, prove the following inequality. $|1+\\pi-k\\pi|\\le\\left(\\frac{4}{20}\\right)^4\\left(\\frac{4}{2}\\right)\\left(\\frac{1}{180}\\right)$.\n(iii) Hence find an upper and lower bound for $\\pi$.\n(iv) Hence, as accurately as possible, give an approximation of $\\pi$. [11 marks]\n(iii) Consider the sequence of partial sums $\\{S_n\\}$ given by $S_n=\\sum_{k=1}^{n}\\frac{1}{k}$, $n=1,2,\\dots$\n(a) Show that for all positive integers $n$, $S_{2n}\\ge S_n+\\frac{1}{2}$. [2 marks]\n(b) Hence prove that the sequence $\\{S_n\\}$ is not convergent. [5 marks]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "8",
+    "5"
+   ],
+   "subtopics": [
+    "8.2",
+    "8.1",
+    "5.L8",
+    "5.4"
+   ],
+   "text_clean": "10. [Maximum mark: 30]\n(i) The equation of a conic is given by $4x^2-9x+y-5=0$.\n(a) Which conic section is described by this equation? Justify your answer. [3 marks]\n(b) Let $y=mx+c$ be the equation of a tangent to the conic. Find a relation between $m$ and $c$. [5 marks]\n(ii) (a) State Ceva's theorem and its converse (or corollary). [4 marks]\n(b) Using Ceva's theorem prove that the internal bisectors of the angles of a triangle are concurrent. [5 marks]\n(iii) The parametric equations of an ellipse with foci $F_1$ and $F_2$ are $x=a\\cos\\theta$ and $y=b\\sin\\theta$ where $a,b\\in\\mathbb{R}^+$ and $a>b$. The following diagram shows the tangent $\\ell$ to the ellipse at the point P. The line (PN) is perpendicular to $\\ell$ and meets the $x$-axis at N.\n[Diagram: ellipse centred at origin with semi-axes a and b; foci F1, F2 on x-axis; tangent line l at P in second quadrant; PN perpendicular to l meeting x-axis at N; segments PF1 and PF2 drawn]\nGive your answers to parts (a), (b) and (c) in terms of $\\theta$.\n(a) Find the coordinates of the point N. [5 marks]\n(b) Find $PF_1$ and $PF_2$. [3 marks]\n(c) Find $NF_1$ and $NF_2$. [2 marks]\n(d) Prove that (PN) bisects the angle $F_1\\hat{P}F_2$. [3 marks]",
+   "answer_status": "ok",
+   "note": "audit: (iii)(a) normal to parametric ellipse via dx/dtheta, dy/dtheta -> new 5.L8"
+  }
+ }
+}

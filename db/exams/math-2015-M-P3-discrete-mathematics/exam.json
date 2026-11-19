@@ -1,0 +1,128 @@
+{
+ "exam_id": "math-2015-M-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2015,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2015 May Examination Session/Mathematics_paper_3_Discrete_mathematics_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2015 May Examination Session/Mathematics_paper_3_Discrete_mathematics_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2215-7207; code M15/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2015-M-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 14]\n(a) The weights of the edges of a graph H are given in the following table.\nA B C D E F G\nA – 5 4 – – – –\nB 5 – – – 5 – –\nC 4 – – 5 2 – –\nD – – 5 – 3 – 6\nE – 5 2 3 – 5 4\nF – – – – 5 – 1\nG – – – 6 4 1 –\n(i) Draw the weighted graph H .\n(ii) Use Kruskal’s algorithm to find the minimum spanning tree of H . Your solution\nshould indicate the order in which the edges are added.\n(iii) State the weight of the minimum spanning tree. [8]\n(b) Consider the following weighted graph.\nP\n3\nQ\n1 7\n2 S 5\nR T\n4 4\n5\n(i) Write down a solution to the Chinese postman problem for this graph.\n(ii) Calculate the total weight of the solution. [3]\n(c) (i) State the travelling salesman problem.\n(ii) Explain why there is no solution to the travelling salesman problem for this graph. [3]",
+   "ms_text": "1. (a) (i)\nA2\nNote: Award A1 if one edge is missing. Award A1 if the edge\nweights are not labelled.\n(ii) the edges are added in the order:\nFG 1 M1A1\nCE 2 A1\nED 3\nEG 4 A1\nAC 4\nNote:EG and AC can be added in either order.\n(Reject EF)\n(Reject CD)\nEB 5 OR AB 5 A1\nNotes: The minimum spanning tree does not have to be seen.\nIf only a tree is seen, the order by which edges are added must\nbe clearly indicated.\n(iii) 19 A1\n[8 marks]\n(b) (i) eg, PQRSRTSTQP OR PQTSTRSRQP M1A1\nNote: Award M1 if in either (i) or (ii), it is recognised that edge PQ is needed\ntwice.\n(ii) total weight = 34 A1\n[3 marks]\n(c) (i) to determine a cycle where each vertex is visited once only\n(Hamiltonian cycle) A1\nof least total weight A1\n(ii) EITHER\nto reach P, Q must be visited twice which contradicts the definition\nof the TSP R1\nOR\nthe graph is not a complete graph and hence there is no solution to\nthe TSP R1\n[3 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8",
+    "6.9",
+    "6.6",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 14]\n(a) The weights of the edges of a graph $H$ are given in the following table.\n| | A | B | C | D | E | F | G |\n| A | – | 5 | 4 | – | – | – | – |\n| B | 5 | – | – | – | 5 | – | – |\n| C | 4 | – | – | 5 | 2 | – | – |\n| D | – | – | 5 | – | 3 | – | 6 |\n| E | – | 5 | 2 | 3 | – | 5 | 4 |\n| F | – | – | – | – | 5 | – | 1 |\n| G | – | – | – | 6 | 4 | 1 | – |\n(i) Draw the weighted graph $H$.\n(ii) Use Kruskal's algorithm to find the minimum spanning tree of $H$. Your solution should indicate the order in which the edges are added.\n(iii) State the weight of the minimum spanning tree. [8]\n(b) Consider the following weighted graph.\n[Diagram: weighted graph with vertices P, Q, R, S, T; edges PQ = 3, QR = 1, QT = 7, RS = 2, ST = 5, a second curved edge RS = 4, a second curved edge ST = 4, and a curved edge RT = 5]\n(i) Write down a solution to the Chinese postman problem for this graph.\n(ii) Calculate the total weight of the solution. [3]\n(c) (i) State the travelling salesman problem.\n(ii) Explain why there is no solution to the travelling salesman problem for this graph. [3]"
+  },
+  {
+   "id": "math-2015-M-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nThe graph K2 , 2 is the complete bipartite graph whose vertex set is the disjoint union of two\nsubsets each of order two.\n(a) Draw K2 , 2 as a planar graph. [2]\n(b) Draw a spanning tree for K2 , 2 . [1]\n(c) Draw the graph of the complement of K2 , 2 . [1]\n(d) Show that the complement of any complete bipartite graph does not possess a\nspanning tree. [3]",
+   "ms_text": "2. (a)\nor equivalent A1A1\nNote: Award A1 for a correct version of K and A1 for a correct planar\n2, 2\nrepresentation.\n[2 marks]\n(b)\nA1\n[1 mark]\n(c)\nA1\n[1 mark]\n(d) the complete bipartite graph K has two subsets of vertices A and B,\nmn ,\nsuch that each element of Ais connected to every element of B A1\nin the complement, no element of Ais connected to any element of B. The\ncomplement is not a connected graph A1\nby definition a tree is connected R1\nhence the complement of any complete bipartite graph does not possess\na spanning tree AG\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nThe graph $K_{2,2}$ is the complete bipartite graph whose vertex set is the disjoint union of two subsets each of order two.\n(a) Draw $K_{2,2}$ as a planar graph. [2]\n(b) Draw a spanning tree for $K_{2,2}$. [1]\n(c) Draw the graph of the complement of $K_{2,2}$. [1]\n(d) Show that the complement of any complete bipartite graph does not possess a spanning tree. [3]"
+  },
+  {
+   "id": "math-2015-M-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 16]\nThe sequence un {} , n ∈ ∞ , satisfies the recurrence relation un+ 1= 7un− 6 .\n(a) Given that u0= 5 , find an expression for un in terms of n . [5]\nThe sequence vn {}, n ∈ ∞ , satisfies the recurrence relation vn+ 2= 10vn + 1+ 11vn .\n(b) Given that v0= 4 and v1= 44 , find an expression for vn in terms of n . [7]\n(c) Show that vn− un≡ 15 (mod 16) , n ∈ ∞ . [4]",
+   "ms_text": "3. (a) METHOD 1\nattempting to find a solution in the form u = A 7n + B M1\nn\nEITHER\n= ⇒ = + = ⇒ = + eg, u 5 5 A B and u 29 29 7 A B A1\n0 1\nOR\nn + 1 n + 1 A 7 + B = A 7 + 7 B − 6 (or equivalent) A1\nTHEN\nattempting tosolve for Aand B (M1)\nn u= 47 × + 1 A1A1\nn\nNote: Accept A = 4 , B = provided the first M1 is awarded. 1\nMETHOD 2\nattempting an iterative method eg, u= 75 () − 6 and\n1\n2 u= 7 () 5 − 67 ( + 1 ) (etc) (M1)\n2\nn 7 − 1\nn u =× 57\n− 6 M1A1\nn\n71 −\nNote: Award M1 for attempting to express u in terms of n .\nn\nn u= 47 × + 1 A1A1\nn\nMETHOD 3\nattempting to find a solution in the form u = A 7n + B M1\nn\n( + ) + = ( + ) − An 1 B 7 An B 6\n7 B − 6 = B A1\nattempting tosolve for A (M1)\nn u= 47 × + 1 A1A1\nn\nMETHOD 4\n− + − ( − + ) = ⇒ − + = u 7 u 6 u 7 u 6 0 u 8 u 7 u 0\nn + 1 n n n − 1 n + 1 n n − 1\n2 − + = r 8 r 7 0\nr = 1,7\n= + attempting to find a solution in the form u A 7n B M1\nn\nEITHER\neg, u = 5 ⇒ 5 = A + B and u = 29 ⇒ 29 = 7 A + B A1\n0 1\nOR\nn + 1 n + 1 A 7 + B = A 7 + 7 B − 6 (or equivalent) A1\nTHEN\nattempting tosolve for Aand B (M1)\nu= 47 × n + 1 A1A1\nn\n[5 marks]\n(b) attempting to find the auxiliary equation M1\n2 r − 10 r − 11 = 0 ( ( r − 11)( r + 1) = 0 )\nA1\n= =− r 11, r 1 A1\nn n\nnv = A 11 + B (1) − (M1)\nattempting to use the initial conditions M1\n+ = − = A B 4,11 A B 44 A1\nnv= 411n × A1\n[7 marks]\nn n (c) v − u = 411 ( − 7 ) − 1 M1\nn n\nEITHER\n= ( − )( n − 1 + + n − 1 ) − 411711 ... 7 1 M1A1\nOR\n( n n ) = 4(7 + 4) − 7 − 1 A1\nsubtracting the 7 n from the expanded first bracket M1\nTHEN\nobtaining 16 times a whole number –1 A1\n− ≡ ∈ v u 15(mod16), n AG\nn n\n[4 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.10",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 16]\nThe sequence $\\{u_n\\}$, $n \\in \\mathbb{N}$, satisfies the recurrence relation $u_{n+1} = 7u_n - 6$.\n(a) Given that $u_0 = 5$, find an expression for $u_n$ in terms of $n$. [5]\nThe sequence $\\{v_n\\}$, $n \\in \\mathbb{N}$, satisfies the recurrence relation $v_{n+2} = 10v_{n+1} + 11v_n$.\n(b) Given that $v_0 = 4$ and $v_1 = 44$, find an expression for $v_n$ in terms of $n$. [7]\n(c) Show that $v_n - u_n \\equiv 15 \\pmod{16}$, $n \\in \\mathbb{N}$. [4]"
+  },
+  {
+   "id": "math-2015-M-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 12]\nA simple connected planar graph, has e edges, v vertices and f faces.\n(a) (i) Show that 2e ≥ 3 f if v >2 .\n(ii) Hence show that K5 , the complete graph on five vertices, is not planar. [6]\n(b) (i) State the handshaking lemma.\n(ii) Determine the value of f , if each vertex has degree 2. [4]\nDraw an example of a simple connected planar graph on 6 vertices each of degree 3. (c) [2]",
+   "ms_text": "4. (a) (i) METHOD 1\nattempting to use f = e − v + 2 and e ≤ 3 v − 6 (if v> 2 ) (M1)\n2 e ≤ 6 v − 12 = 6( e − f + 2) − 12 M1A1\nleading to 2 e ≥ 3 f AG\nMETHOD 2\neach face is bounded by at least three edges A1\nNote: Award A1 for stating e ≥ 3 f .\neach edge either separates two faces or, if an edge is interior to a\nface, it gets counted twice R1\nNote: Award R1 for stating that each edge contributes two to the sum of the\ndegrees of the faces (or equivalent) ie, ∑ deg( F ) = 2 e .\nadding up the edges around each face R1\nleading to 2 e ≥ 3 f AG\n(ii) K has e= 10 A1\n5\nf= if the graph is planar, 7 A1\nthis contradicts the inequality obtained above R1\nhence the graph is non-planar AG\n[6 marks]\n(b) (i) the sum of the vertex degrees = 2e (or is even) or equivalent A1\n(ii) if each vertex has degree 2, then 2 v = 2 e A1\nsubstituting v = e into Euler’s formula M1\nf= 2 A1\n[4 marks]\n(c) for example,\nA2\n[2 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 12]\nA simple connected planar graph, has $e$ edges, $v$ vertices and $f$ faces.\n(a) (i) Show that $2e \\geq 3f$ if $v > 2$.\n(ii) Hence show that $K_5$, the complete graph on five vertices, is not planar. [6]\n(b) (i) State the handshaking lemma.\n(ii) Determine the value of $f$, if each vertex has degree 2. [4]\n(c) Draw an example of a simple connected planar graph on 6 vertices each of degree 3. [2]"
+  },
+  {
+   "id": "math-2015-M-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 11]\n(a) State the Fundamental theorem of arithmetic for positive whole numbers greater\nthan 1. [2]\n(b) Use the Fundamental theorem of arithmetic, applied to 5577 and 99 099, to calculate\ngcd (5577 , 99 099) and lcm (5577 , 99 099) , expressing each of your answers as a\nproduct of prime numbers. [3]\n(c) Prove that gcd (n , m) × lcm (n , m) =n × m for all n , m ∈′+. [6]",
+   "ms_text": "5. (a) every positive integer, greater than 1, is either prime or can be expressed\nuniquely as a product of primes A1A1\nNote: Award A1 for “product of primes” and A1 for “uniquely”.\n[2 marks]\n= × × 2 = 2 × × 2 × (b) 5577 3 11 13 and 99099 3 7 11 13 M1\n2 2 2 gcd(5577, 99099) = 3 × 11 × 13 , lcm(5577, 99099) = 3 × 7 × 11 × 13 A1A1\n[3 marks]\n(c) METHOD 1\n= k 1 k 2 … k r = j 1 j 2 … j r n p p p and m p p p M1\n1 2 r 1 2 r\nemploying all the prime factors of n and m, and inserting zero exponents\nif necessary R1\ndefine g = min ( k , j ) and h = max ( k , j ) for i =… 1 r (M1)\ni i i i i i\ng 1 g 2 g r h 1 h 2 h r gcd(, nm ) = p p … p and lcm(, nm ) = p p … p A1A1\n1 2 r 1 2 r\nnoting that g + h = k + j for i =… 1 r R1\ni i i i\n+ gcd(, nm ) × 1cm (, nm ) = n × m\nfor all, nm ∈ AG\nMETHOD 2\nlet m and n be expressed as a product of primes where m = ab and\nn = ac M1\na denotes the factors that are common and , bc are the disjoint factors\nthat are not common R1\ngcd(, nm ) = a A1\nlcm(, nm ) = gcd(, nmbc ) A1\ngcd(, nm ) × lcm(, nm ) = a × ( abc ) M1\n= ab × ac and m = ab and n = ac so R1\n+ gcd(, nm ) × 1cm(, nm ) = n × m\nfor all, nm ∈ AG\n[6 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 11]\n(a) State the Fundamental theorem of arithmetic for positive whole numbers greater than 1. [2]\n(b) Use the Fundamental theorem of arithmetic, applied to 5577 and 99 099, to calculate $\\gcd(5577, 99099)$ and $\\text{lcm}(5577, 99099)$, expressing each of your answers as a product of prime numbers. [3]\n(c) Prove that $\\gcd(n, m) \\times \\text{lcm}(n, m) = n \\times m$ for all $n, m \\in \\mathbb{Z}^+$. [6]"
+  }
+ ],
+ "status": "done"
+}

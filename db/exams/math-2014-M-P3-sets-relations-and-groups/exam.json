@@ -1,0 +1,106 @@
+{
+ "exam_id": "math-2014-M-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2014,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2014 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2014 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2214-7209; code M14/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2014-M-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 12]\nThe binary operation ∆ is defined on the set S = {1, 2, 3, 4, 5} by the following Cayley table.\n∆ 1 2 3 4 5\n1 1 1 2 3 4\n2 1 2 1 2 3\n3 2 1 3 1 2\n4 3 2 1 4 1\n5 4 3 2 1 5\n(a) State whether S is closed under the operation ∆ and justify your answer. [2]\n(b) State whether ∆ is commutative and justify your answer. [2]\n(c) State whether there is an identity element and justify your answer. [2]\n(d) Determine whether ∆ is associative and justify your answer. [3]\n(e) Find the solutions of the equation ab ∆=∆, for 4 b a ≠ 4 . [3]",
+   "ms_text": "1. (a) yes A1\nbecause the Cayley table only contains elements of S R1\n[2 marks]\n(b) yes A1\nbecause the Cayley table is symmetric R1\n[2 marks]\n(c) no A1\nbecause there is no row (and column) with 1, 2, 3, 4, 5 R1\n[2 marks]\n(d) Δ Δ and Δ Δ ∈ M1 attempt to calculate ( a b ) c a ( b c ) for some ,, ab c S\ncounterexample: for example, (12) Δ Δ= 3 2\n1(2 Δ Δ 3) = 1 A1\nΔ is not associative A1\nNote: Accept a correct evaluation of ( a Δ b ) Δ and c\na Δ ( b Δ c ) for some ,, abc ∈ S for the M1.\n[3 marks]\n(e) for example, attempt to enumerate 4 Δ for b b = 1, 2, 3, 4, 5 and obtain\n(3, 2, 1, 4, 1) (M1)\nfind (,) ab∈ (2, 2), (2, 3) { } for a ≠ 4 (or equivalent) A1A1\nNote: Award M1A1A0 if extra ‘solutions’ are listed.\n[3 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 12]\nThe binary operation $\\Delta$ is defined on the set $S = \\{1, 2, 3, 4, 5\\}$ by the following Cayley table.\n$\\Delta$ | 1 | 2 | 3 | 4 | 5\n1 | 1 | 1 | 2 | 3 | 4\n2 | 1 | 2 | 1 | 2 | 3\n3 | 2 | 1 | 3 | 1 | 2\n4 | 3 | 2 | 1 | 4 | 1\n5 | 4 | 3 | 2 | 1 | 5\n(a) State whether $S$ is closed under the operation $\\Delta$ and justify your answer. [2]\n(b) State whether $\\Delta$ is commutative and justify your answer. [2]\n(c) State whether there is an identity element and justify your answer. [2]\n(d) Determine whether $\\Delta$ is associative and justify your answer. [3]\n(e) Find the solutions of the equation $a \\Delta b = 4 \\Delta b$, for $a \\neq 4$. [3]"
+  },
+  {
+   "id": "math-2014-M-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 19]\n= ∈ ∈ Consider the set S defined by S { s ⁄ : 2 s ′. }\nYou may assume that + (addition) and × (multiplication) are associative binary operations\non ⁄ .\n(a) (i) Write down the six smallest non-negative elements of S .\n(ii) Show that {, S+ is a group. }\n(iii) Give a reason why { S ,× is not a group. Justify your answer. } [9]\n(b) The relation R is defined on S by s Rs if 3 s + 5 s ∈′.\n1 2 1 2\n(i) Show that R is an equivalence relation.\n(ii) Determine the equivalence classes. [10]",
+   "ms_text": "1 3 5\n2. (a) (i) 0, , 1, , 2, A2\n2 2 2\nNotes: A2 for all correct, A1 for three to five correct.\n(ii) EITHER\nm n\nclosure: if s , s ∈ S , then s= and s= for some m, n∈¢ . M1\n1 2 1 2\n2 2\n1 1 3 Note:Accept two distinct examples (eg, 1\n+ = 1; += 1 ) for\n2 2 2 2\nthe M1.\nm + n\ns + s = ∈ S A1\n1 2\n2\nOR\nthe sum of two half-integers A1\nis a half-integer R1\nTHEN\nidentity: 0 is the (additive) identity A1\ninverse: s +− ( s ) =, where sS 0 −∈ A1\nit is associative (since S ⊂§) A1\nthe group axioms are satisfied AG\n(iii) EITHER\nthe set is not closed under multiplication, A1\n1 1 for example, 1 , but 1\n× = ∉ S R1\n2 2 4 4\nOR\nnot every element has an inverse, A1\nfor example, 3 does not have an inverse R1\n[9 marks]\n(b) (i) reflexive: consider 3 s + 5 s M1\n= 8s ∈ ¢ ⇒ reflexive A1\nsymmetric: if s Rs, consider 3 s + 5 s M1\n1 2 2 1\nfor example, = 3 s + 5 s + (2 s − 2) s ∈ ¢ ⇒ symmetric A1\n1 2 1 2\ntransitive: if s Rs and sR s, consider (M1)\n1 2 2 3\n3 s + 5 s = (3 s + 5) s + (3 s + 5) s − 8 s M1\n1 3 1 2 2 3 2\n∈ ¢ ⇒ transitive A1\nso R is an equivalence relation AG\n(ii) C= ¢ A1\n1\n⎧ 1 3 5 ⎫\nC =± , ± , ± , … A1A1\n2 ⎨ ⎬\n2 2 2 ⎩ ⎭\nNote: A1 for half odd integers and A1 for ± .\n[10 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2",
+    "7.5",
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 19]\nConsider the set $S$ defined by $S = \\{s \\in \\mathbb{Q} : 2s \\in \\mathbb{Z}\\}$.\nYou may assume that $+$ (addition) and $\\times$ (multiplication) are associative binary operations on $\\mathbb{Q}$.\n(a) (i) Write down the six smallest non-negative elements of $S$.\n(ii) Show that $\\{S, +\\}$ is a group.\n(iii) Give a reason why $\\{S, \\times\\}$ is not a group. Justify your answer. [9]\n(b) The relation $R$ is defined on $S$ by $s_1 R s_2$ if $3s_1 + 5s_2 \\in \\mathbb{Z}$.\n(i) Show that $R$ is an equivalence relation.\n(ii) Determine the equivalence classes. [10]"
+  },
+  {
+   "id": "math-2014-M-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 15]\nSets X and Y are defined by X = ] 0, 1; [ Y = {0, 1, 2, 3, 4, 5} .\n(a) (i) Sketch the set X × Y in the Cartesian plane.\n(ii) Sketch the set Y × X in the Cartesian plane.\n(iii) State ( X × Y ) ∩ ( Y × X ) . [5]\nConsider the function f: X × Y →ϒ defined by fxy (, ) = x + y\nand the function g : X × Y →ϒ defined by gxy (, ) = xy .\n(b) (i) Find the range of the function f.\n(ii) Find the range of the function g .\n(iii) Show that f is an injection.\n(iv) Find f− 1() π, expressing your answer in exact form.\n1\n(v) Find all solutions to gxy= (, ) . [10]\n2",
+   "ms_text": "3. (a) (i)\ncorrect horizontal lines A1\ncorrectly labelled axes A1\nclear indication that the endpoints are not included A1\n(ii)\nfully correct diagram A1\nNote:Do not penalize the inclusion of endpoints twice.\n(iii) the intersection is empty A1\n[5 marks]\n(b) (i) range () f= ] 0, 1 [ ∪ ] 1, 2 [ ∪ L ∪ ] 5, 6 [ A1A1\nNote: A1 for six intervals and A1 for fully correct notation.\nAccept 0 < x < 6 , x ≠ 0,1,2,3,4,5,6 .\n(ii) range () g= [ 0, 5 [ A1\n(iii) Attempt at solving\nfx ( , y ) = fx ( , y ) M1\n1 1 2 2\nfxy (, ) ∈ ] yy , + 1 [ ⇒ y = y M1\n1 2\nand then x = x A1\n1 2\nso f is injective AG\n(iv) f−π=π− 1() ( 3, 3) A1A1\n⎛ 1 ⎞\n(v) solutions: (0.5, 1), (0.25, 2), , 3, (0.125, 4), (0.1, 5) A2 ⎜ ⎟\n6 ⎝ ⎠\nNote: A2 for all correct, A1 for 2 correct.\n[10 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.3",
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 15]\nSets $X$ and $Y$ are defined by $X = ]0, 1[$; $Y = \\{0, 1, 2, 3, 4, 5\\}$.\n(a) (i) Sketch the set $X \\times Y$ in the Cartesian plane.\n(ii) Sketch the set $Y \\times X$ in the Cartesian plane.\n(iii) State $(X \\times Y) \\cap (Y \\times X)$. [5]\nConsider the function $f : X \\times Y \\to \\mathbb{R}$ defined by $f(x, y) = x + y$ and the function $g : X \\times Y \\to \\mathbb{R}$ defined by $g(x, y) = xy$.\n(b) (i) Find the range of the function $f$.\n(ii) Find the range of the function $g$.\n(iii) Show that $f$ is an injection.\n(iv) Find $f^{-1}(\\pi)$, expressing your answer in exact form.\n(v) Find all solutions to $g(x, y) = \\frac{1}{2}$. [10]"
+  },
+  {
+   "id": "math-2014-M-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 14]\nLet f : G → H be a homomorphism of finite groups.\n(a) Prove that fe ( ) = e , where e is the identity element in G and e is the identity\nG H G H\nelement in H . [2]\n= (b) (i) Prove that the kernel of f, K Ker() f , is closed under the group operation.\n(ii) Deduce that K is a subgroup of G . [6]\n1 (c) (i) Prove that gkg −∈ K for all g ∈ G , k ∈ K .\n(ii) Deduce that each left coset of K in G is also a right coset. [6]",
+   "ms_text": "4. (a) fg () = feg ( ) = fe ( )() fg for g ∈ G M1A1\nG G\n⇒ fe ( ) = e AG\nG H\n[2 marks]\n(b) (i) closure: let 1k and 2k ∈ K , then fk k ( ) = fk ()( fk ) M1A1\n12 1 2\n= = A1 ee e\nH H H\nhence k k ∈ K R1\n12\n(ii) K is non-empty because e belongs to K R1\nG\na closed non-empty subset of a finite group is a subgroup R1AG\n[6 marks]\n− 1 − 1 (c) (i) fgkg ( ) = fgfkfg () () ( ) M1\n= − 1 = − 1 A1 fgefg () ( ) fgg ( )\nH\n= fe ( ) = e A1\nG H\n− 1 ⇒ gkg ∈ K AG\n(ii) clear definition of both left and right cosets, seen somewhere. A1\nuse of part (i) to show gK ⊆ Kg M1\nsimilarly Kg ⊆ gK A1\nhence gK = Kg AG\n[6 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.9",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 14]\nLet $f : G \\to H$ be a homomorphism of finite groups.\n(a) Prove that $f(e_G) = e_H$, where $e_G$ is the identity element in $G$ and $e_H$ is the identity element in $H$. [2]\n(b) (i) Prove that the kernel of $f$, $K = \\mathrm{Ker}(f)$, is closed under the group operation.\n(ii) Deduce that $K$ is a subgroup of $G$. [6]\n(c) (i) Prove that $gkg^{-1} \\in K$ for all $g \\in G$, $k \\in K$.\n(ii) Deduce that each left coset of $K$ in $G$ is also a right coset. [6]"
+  }
+ ],
+ "status": "done"
+}

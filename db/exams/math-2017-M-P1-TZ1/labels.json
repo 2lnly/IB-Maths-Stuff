@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2017-M-P1-TZ1",
+  "questions": {
+    "1": {"topics": ["1"], "subtopics": ["1.7"],
+      "text_clean": "1. [Maximum mark: 4]\nFind the solution of $\\log_2 x - \\log_2 5 = 2 + \\log_2 3$."},
+    "2": {"topics": ["1"], "subtopics": ["1.13", "1.14"],
+      "text_clean": "2. [Maximum mark: 6]\nConsider the complex numbers $z_1 = 1 + \\sqrt{3}\\,\\mathrm{i}$, $z_2 = 1 + \\mathrm{i}$ and $w = \\frac{z_1}{z_2}$.\n(a) By expressing $z_1$ and $z_2$ in modulus-argument form write down\n(i) the modulus of $w$;\n(ii) the argument of $w$. [4]\n(b) Find the smallest positive integer value of $n$, such that $w^n$ is a real number. [2]"},
+    "3": {"topics": ["3"], "subtopics": ["3.8", "3.9"],
+      "text_clean": "3. [Maximum mark: 5]\nSolve the equation $\\sec^2 x + 2\\tan x = 0$, $0 \\le x \\le 2\\pi$."},
+    "4": {"topics": ["1", "4"], "subtopics": ["1.10", "4.5"],
+      "text_clean": "4. [Maximum mark: 5]\nThree girls and four boys are seated randomly on a straight bench. Find the probability that the girls sit together and the boys sit together."},
+    "5": {"topics": ["3"], "subtopics": ["3.13", "3.16"],
+      "text_clean": "5. [Maximum mark: 7]\nABCD is a parallelogram, where $\\vec{AB} = -\\boldsymbol{i} + 2\\boldsymbol{j} + 3\\boldsymbol{k}$ and $\\vec{AD} = 4\\boldsymbol{i} - \\boldsymbol{j} - 2\\boldsymbol{k}$.\n(a) Find the area of the parallelogram ABCD. [3]\n(b) By using a suitable scalar product of two vectors, determine whether $\\hat{ABC}$ is acute or obtuse. [4]"},
+    "6": {"topics": ["2"], "subtopics": ["2.16"],
+      "text_clean": "6. [Maximum mark: 5]\nConsider the graphs of $y = |x|$ and $y = -|x| + b$, where $b \\in \\mathbb{Z}^+$.\n(a) Sketch the graphs on the same set of axes. [2]\n(b) Given that the graphs enclose a region of area 18 square units, find the value of $b$. [3]"},
+    "7": {"topics": ["1"], "subtopics": ["1.2", "1.3"],
+      "text_clean": "7. [Maximum mark: 7]\nAn arithmetic sequence $u_1, u_2, u_3, \\ldots$ has $u_1 = 1$ and common difference $d \\ne 0$. Given that $u_2$, $u_3$ and $u_6$ are the first three terms of a geometric sequence\n(a) find the value of $d$. [4]\nGiven that $u_N = -15$\n(b) determine the value of $\\sum_{r=1}^{N} u_r$. [3]"},
+    "8": {"topics": ["1"], "subtopics": ["1.15"],
+      "text_clean": "8. [Maximum mark: 6]\nUse the method of mathematical induction to prove that $4^n + 15n - 1$ is divisible by 9 for $n \\in \\mathbb{Z}^+$."},
+    "9": {"topics": ["5"], "subtopics": ["5.16", "5.15"],
+      "text_clean": "9. [Maximum mark: 5]\nFind $\\int \\arcsin x \\, \\mathrm{d}x$."},
+    "10": {"topics": ["4", "5"], "subtopics": ["4.14", "5.11", "4.11"],
+      "text_clean": "10. [Maximum mark: 15]\nThe continuous random variable $X$ has a probability density function given by\n$f(x) = \\begin{cases} k\\sin\\left(\\frac{\\pi x}{6}\\right), & 0 \\le x \\le 6 \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Find the value of $k$. [4]\n(b) By considering the graph of $f$ write down\n(i) the mean of $X$;\n(ii) the median of $X$;\n(iii) the mode of $X$. [3]\n(c) (i) Show that $P(0 \\le X \\le 2) = \\frac{1}{4}$.\n(ii) Hence state the interquartile range of $X$. [6]\n(d) Calculate $P(X \\le 4 \\mid X \\ge 3)$. [2]"},
+    "11": {"topics": ["2", "5", "1"], "subtopics": ["2.13", "2.16", "2.6", "5.11", "5.15", "1.11", "1.7"],
+      "text_clean": "11. [Maximum mark: 17]\n(a) (i) Express $x^2 + 3x + 2$ in the form $(x + h)^2 + k$.\n(ii) Factorize $x^2 + 3x + 2$. [2]\nConsider the function $f(x) = \\frac{1}{x^2 + 3x + 2}$, $x \\in \\mathbb{R}$, $x \\ne -2$, $x \\ne -1$.\n(b) Sketch the graph of $f(x)$, indicating on it the equations of the asymptotes, the coordinates of the $y$-intercept and the local maximum. [5]\n(c) Show that $\\frac{1}{x+1} - \\frac{1}{x+2} = \\frac{1}{x^2 + 3x + 2}$. [1]\n(d) Hence find the value of $p$ if $\\int_0^1 f(x)\\,\\mathrm{d}x = \\ln(p)$. [4]\n(e) Sketch the graph of $y = f(|x|)$. [2]\n(f) Determine the area of the region enclosed between the graph of $y = f(|x|)$, the $x$-axis and the lines with equations $x = -1$ and $x = 1$. [3]"},
+    "12": {"topics": ["2", "5", "1"], "subtopics": ["2.12", "2.3", "5.7", "5.8", "1.14"],
+      "text_clean": "12. [Maximum mark: 18]\nConsider the polynomial $P(z) = z^5 - 10z^2 + 15z - 6$, $z \\in \\mathbb{C}$.\n(a) Write down the sum and the product of the roots of $P(z) = 0$. [2]\n(b) Show that $(z - 1)$ is a factor of $P(z)$. [2]\nThe polynomial can be written in the form $P(z) = (z - 1)^3(z^2 + bz + c)$.\n(c) Find the value of $b$ and the value of $c$. [5]\n(d) Hence find the complex roots of $P(z) = 0$. [3]\nConsider the function $q(x) = x^5 - 10x^2 + 15x - 6$, $x \\in \\mathbb{R}$.\n(e) (i) Show that the graph of $y = q(x)$ is concave up for $x > 1$.\n(ii) Sketch the graph of $y = q(x)$ showing clearly any intercepts with the axes. [6]",
+      "note": "QP crop trimmed via overrides.json to exclude the blank 'Answers written on this page will not be marked' pages."}
+  }
+}

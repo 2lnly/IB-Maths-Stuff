@@ -1,0 +1,29 @@
+{
+  "exam_id": "math-2018-N-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.3", "6.1"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 8]\n(a) Use the Euclidean algorithm to find the greatest common divisor of $77$ and $105$. [3]\n(b) Hence state a condition on $c$ for the Diophantine equation $77x + 105y = c$ to have a solution. [1]\n(c) Find all the solutions of the Diophantine equation $11x + 15y = 1$. [4]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.2", "6.4"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 12]\nLet $N = (d_n d_{n-1} \\ldots d_1 d_0)_5 = d_n \\times 5^n + d_{n-1} \\times 5^{n-1} + \\ldots + d_1 \\times 5 + d_0$ be the representation of a positive integer $N$ in base 5.\nLet $a = (143)_5$ and $b = (24)_5$.\n(a) Expressing your answers in base 5, calculate\n(i) $(a + b)_5$;\n(ii) $(ab)_5$. [5]\n(b) Show that $(d_n d_{n-1} \\ldots d_1 d_0)_5$ is exactly divisible by 4 if and only if $d_n + d_{n-1} + \\ldots + d_1 + d_0$ is exactly divisible by 4. [5]\n(c) Show that $(x12x)_5$ cannot be exactly divisible by 4. [2]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.10"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 13]\nA contagious virus affects the population of a small town with 5000 inhabitants.\nLet $I_n$ denote the total number of people who have been infected by the end of the $n^{th}$ week.\nIn the first week there were 10 cases of infection and by the end of the second week there was a total of 22 cases. A proposed model is that the number of cases is increasing in such a way that the number of new cases in any week is 1.2 times the number of new cases in the previous week.\n(a) Show that $I_n$ satisfies the recurrence relation $I_{n+2} - 2.2I_{n+1} + 1.2I_n = 0$. [2]\n(b) State appropriate initial conditions. [1]\n(c) Solve the recurrence relation to obtain an expression for $I_n$ in terms of $n$. [6]\n(d) Hence find during which week the whole town will become infected. [2]\n(e) State two limitations of the model. [2]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.9", "6.8", "6.7"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 17]\nConsider the graph $G$ represented in the following diagram.\n[Diagram: weighted graph G with vertices A, B, C, D, E, F, H, I. Edges: AF 6, AB 6, AI 7, FI 8, BI 5, FE 7, BC 10, EI 11, IH 9, IC 6, EH 10, HC 8, HD 5, ED 11, CD 7]\n(a) State, with a reason, whether or not $G$ has an Eulerian circuit. [1]\n(b) Use Kruskal's algorithm to find a minimum spanning tree for $G$, stating its total weight. Indicate clearly the order in which the edges are added. [4]\nThe graph $G$ is a plan of a holiday resort where each vertex represents a villa and the edges represent the roads between villas. The weights of the edges are the times, in minutes, Mr José, the security guard, takes to walk along each of the roads. Mr José is based at villa A.\n(c) Use a suitable algorithm to show that the minimum time in which Mr José can get from A to E is 13 minutes. [5]\n(d) Find the minimum time it takes Mr José to patrol the resort if he has to walk along every road at least once, starting and ending at A. State clearly which roads need to be repeated. [7]"
+    }
+  }
+}

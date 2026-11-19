@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2008-M-P3-discrete-mathematics-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2008,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_3_Discrete_mathematics_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_3_Discrete_mathematics_TZ2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2208-7215; code M08/5/MATHL/HP3/ENG/TZ2/DM; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2008-M-P3-discrete-mathematics-TZ2-q1",
+   "num": "1",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 11]\n(a) Use the Euclidean algorithm to find the gcd of 324 and 129. [3 marks]\n(b) Hence show that 324 x + 129 y = 12 has a solution and find both a particular\nsolution and the general solution. [6 marks]\n(c) Show that there are no integers x and y such that 82 x + 140 y = 3 . [2 marks]",
+   "ms_text": "1. (a) 324 = 2129 × + 66 M1\n129 =× 166 + 63\n66 =× 163 + 3 A1\nhence gcd(324, 129) = 3 A1\n[3 marks]\n(b) METHOD 1\nSince 3 12 the equation has a solution M1\n3 166163 M1 =× −×\n3 = −× 1129 + 2 × 66\n3 = 2(324 × −× 2129) − 129\n3 = 2324 × −× 5129 A1\n12 =× 8324 − 20129 × A1\n(, xy= ) (8, − 20) is a particular solution A1\nNote:A calculator solution may gain M1M1A0A0A1.\n129\nA general solution is x = 8 + t = 8 + 43, ty = − 20108, − tt ∈� A1\n3\nMETHOD 2\n324 x + 129 y = 12\n108 x + 43 y = 4 A1\n108 x ≡ 4(mod43) ⇒ 27 x ≡ 1(mod43) A1\nx = 8 + 43 t A1\n108(8 + 43 ) t + 43 y = 4 M1\n864 + 4644 t + 43 y = 4\n43 y = − 860 − 4644 t\ny = − 20 − 108 t A1\na particular solution (forexample t = 0) is (, xy= ) (8, − 20) A1\n[6 marks]\n(c) EITHER\nThe left side is even and the right side is odd so there are no solutions M1R1AG\n[2 marks]\nOR\ngcd(82, 140) = 2 A1\n2 does not divide 3 therefore no solutions R1AG\n[2 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.3",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 11]\n(a) Use the Euclidean algorithm to find the gcd of 324 and 129. [3 marks]\n(b) Hence show that $324x + 129y = 12$ has a solution and find both a particular solution and the general solution. [6 marks]\n(c) Show that there are no integers $x$ and $y$ such that $82x + 140y = 3$. [2 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-discrete-mathematics-TZ2-q2",
+   "num": "2",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 11]\n(a) The matrix below shows the distances between towns A, B, C, D and E.\nA B C D E\nA − 5 7 10 6\nB 5 − 2 9 −\nC 7 2 − 3 8\nD 10 9 3 − −\nE 6 − 8 − −\n(i) Draw the graph, in its planar form, that is represented by the matrix.\n(ii) Write down with reasons whether or not it is possible to find an Eulerian\ntrail in this graph.\n(iii) Solve the Chinese postman problem with reference to this graph if A is to\nbe the starting and finishing point. Write down the walk and determine the\nlength of the walk. [9 marks]\n[2 marks] (b) Show that a graph cannot have exactly one vertex of odd degree.",
+   "ms_text": "2. (a) (i)\nA1A1A1\nNote: Award A1 for the vertices, A1 for edges and A1 for planar form.\n(ii) It is possible to find an Eulerian trail in this graph since\nexactly two of the vertices have odd degree R1\n(iii) B and D are the odd vertices M1\nBC + CD = 3 + 2 = 5 and BD = 9, A1\nsince 5 < 9 , BC and CD must be traversed twice R1\nA possible walk by inspection is ACBDABCDCEA A1\nThis gives a total length of\n2(2 3) 8 9 5 7 10 6 55 for the walk A1 + + + + + + + =\n[9 marks]\n(b) The sum of all the vertex degrees is twice the number of edges, i.e. an even number.\nHence a graph cannot have exactly one vertex of odd degree. M1R1\n[2 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.9",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 11]\n(a) The matrix below shows the distances between towns A, B, C, D and E.\n[Distance matrix]\n  | A | B | C | D | E\nA | – | 5 | 7 | 10 | 6\nB | 5 | – | 2 | 9 | –\nC | 7 | 2 | – | 3 | 8\nD | 10 | 9 | 3 | – | –\nE | 6 | – | 8 | – | –\n(i) Draw the graph, in its planar form, that is represented by the matrix.\n(ii) Write down with reasons whether or not it is possible to find an Eulerian trail in this graph.\n(iii) Solve the Chinese postman problem with reference to this graph if A is to be the starting and finishing point. Write down the walk and determine the length of the walk. [9 marks]\n(b) Show that a graph cannot have exactly one vertex of odd degree. [2 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-discrete-mathematics-TZ2-q3",
+   "num": "3",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 14]\n(a) (i) Given that a ≡ d (mod) and b n ≡(mod) prove that c n\n( a + b ) ≡ ( c + d )(mod) n .\n(ii) Hence solve the system\n2 x + 5 y ≡ 1 (mod) 6\nx + y ≡ 5 (mod) . 6 [11 marks]\n97 (b) Show that x − x +≡ 1 0 (mod 97 ) has no solution. [3 marks]",
+   "ms_text": "3. (a) (i) a ≡ d (mod) and n b ≡ c (mod) n\nso a − d = pn and b − c = qn , M1A1\na − d + b − c = pn + qn\n( a b ) ( c d ) np ( + ) q A1 + − + =\n( a + b ) ≡ ( c + d )(mod) n AG\n⎧ 2 x + 5 y ≡ 1(mod6)\n(ii) ⎨\n⎩ x + y ≡ 5(mod6)\nadding 3 x + 6 y ≡ 0(mod6) M1\n6 y ≡ 0(mod6) so 3 x ≡ 0(mod6) R1\nx ≡ 0 or x ≡ 2 or x ≡ 4(mod6) A1A1A1\nfor x ≡ 0, 0 + y ≡ 5(mod6) so y ≡ 5(mod6) A1\nfor x ≡ 2, 2 + y ≡ 5(mod6) so y ≡ 3(mod6) A1\nA1 If x ≡ 4(mod6), 4 + y ≡ 5(mod6) so y ≡ 1(mod6)\n[11 marks]\n(b) Suppose x is a solution\n97 is prime so x 97 x (mod97) M1 ≡\nx 97 x 0(mod97) A1 − ≡\nx 97 x 11 0(mod97) − +≡≠\nHence there are no solutions R1\n[3 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.4",
+    "6.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 14]\n(a) (i) Given that $a \\equiv d \\pmod{n}$ and $b \\equiv c \\pmod{n}$ prove that $(a+b) \\equiv (c+d) \\pmod{n}$.\n(ii) Hence solve the system\n$2x + 5y \\equiv 1 \\pmod{6}$\n$x + y \\equiv 5 \\pmod{6}$. [11 marks]\n(b) Show that $x^{97} - x + 1 \\equiv 0 \\pmod{97}$ has no solution. [3 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-discrete-mathematics-TZ2-q4",
+   "num": "4",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 12]\n(a) (i) Let M be the adjacency matrix of a bipartite graph. Show that the leading\ndiagonal entries in M37 are all zero.\n2 (ii) What does the (,) ijth element of M + M + M 3 represent? [4 marks]\n(b) Prove that a graph containing a triangle cannot be bipartite. [3 marks]\n(c) Prove that the number of edges in a bipartite graph with n vertices is less than or\nequal to n2 .\n[5 marks]\n4",
+   "ms_text": "th 4. (a) (i) The (,) ii entry on the diagonal is the\nnumber of walks of length 37 from iv back to itself A1A1\nBut in a bipartite graph you can only get from\niv back to itself in an even number of steps. Hence the entry is 0. R1AG\n(ii) The number of paths from A1 ivto jvwith length at most 3.\n[4 marks]\n(b) At least two of the three vertices in the triangle must\nlie on one of the two disjoint sets M1R1\nThese two are joined by an edge so the graph cannot be bipartite R1\n[3 marks]\n(c) If there are x vertices in one of the two disjoint sets then there\nare ( n − x ) vertices in the other disjoint set M1\nThe greatest number of edges occurs when all vertices in one set are\njoined to all vertices in the other to give ( xn − x ) edges A1\nFunction fx () xn ( x ) has a parabolic graph. M1 = −\n⎛ 2 ⎞ nn\nThis graph has a unique maximum at , . A1 ⎜ ⎟\n2 4 ⎝ ⎠\n2 n\nso ( xn − x ) ≤ R1\n4\n[5 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "2"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.11",
+    "2.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 12]\n(a) (i) Let $M$ be the adjacency matrix of a bipartite graph. Show that the leading diagonal entries in $M^{37}$ are all zero.\n(ii) What does the $(i, j)^{\\text{th}}$ element of $M + M^2 + M^3$ represent? [4 marks]\n(b) Prove that a graph containing a triangle cannot be bipartite. [3 marks]\n(c) Prove that the number of edges in a bipartite graph with $n$ vertices is less than or equal to $\\frac{n^2}{4}$. [5 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-discrete-mathematics-TZ2-q5",
+   "num": "5",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 12]\nLet G be a simple, connected, planar graph.\n(a) (i) Show that Euler’s relation f −+ e v = 2 is valid for a spanning tree of G.\n(ii) By considering the effect of adding an edge on the values of f, e and v\nshow that Euler’s relation remains true. [7 marks]\n(b) [5 marks] Show that K5 is not planar.",
+   "ms_text": "5. (a) (i) A spanning tree with v vertices and ( v − 1) edges where f= 1 A1A1\nf − e + v =− 1 ( v − 1) + v = 2 M1\nSo the formula is true for the tree AG\n(ii) Adding one edge connects two different vertices, and hence\nan extra face is created M1R1\nThis leaves v unchanged but increases both e and f by 1\nleaving f − e + v unchanged. Hence f − e + v = 2 . R1R1\n[7 marks]\n(b) Using e ≤ 3 v − 6 , M1\n⎛⎞ 5\nfor K v = 5 and e = = 10 A1A1 5, ⎜⎟\n2 ⎝⎠\nbut 3 v − 6 = 3(5) − 6 = 9 A1\n9 is not greater or equal to 10 so K is not planar R1\n5\n[5 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 12]\nLet $G$ be a simple, connected, planar graph.\n(a) (i) Show that Euler's relation $f - e + v = 2$ is valid for a spanning tree of $G$.\n(ii) By considering the effect of adding an edge on the values of $f$, $e$ and $v$ show that Euler's relation remains true. [7 marks]\n(b) Show that $K_5$ is not planar. [5 marks]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,246 @@
+{
+ "exam_id": "physics-2012-M-P3-TZ2",
+ "questions": {
+  "E1": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "E1. This question is about some of the properties of the star Aldebaran and also about galactic distances.\n(a) Aldebaran is a red giant star in the constellation of Taurus.\n(i) Describe the differences between a constellation and a stellar cluster. [3]\n(ii) Define the luminosity of a star. [1]\n(iii) The apparent brightness of Aldebaran is $3.3\\times10^{-8}\\ \\mathrm{W\\,m^{-2}}$ and the luminosity of the Sun is $3.9\\times10^{26}$ W. The luminosity of Aldebaran is 370 times that of the Sun. Show that Aldebaran is at a distance of 19 pc from Earth. ($1\\ \\mathrm{pc}=3.1\\times10^{16}$ m) [3]\n(b) The apparent magnitude of Aldebaran is 0.75.\n(i) State what is meant by the apparent magnitude of a star. [1]\n(ii) Use the answer to (a)(iii) to determine the absolute magnitude of Aldebaran. [2]\n(c) Betelgeuse in the constellation of Orion is a red supergiant star.\n(i) Compare the fate of Aldebaran to that of Betelgeuse. [2]\nAldebaran:\nBetelgeuse:\n(ii) Outline, with reference to the Chandrasekhar limit, the circumstances under which the final state of Betelgeuse could be the same as the final state of Aldebaran. [3]\n(d) Distances to galaxies may be determined by using Cepheid variable stars.\nBy considering the nature and properties of Cepheid variable stars, explain how such stars are used to determine galactic distances. [5]",
+   "qtype": "long"
+  },
+  "E2": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "text_clean": "E2. This question is about the development of the universe.\n(a) Define, with reference to the flat model of the universe, critical density. [2]\n(b) The diagram represents how the universe might develop if its density were greater than the critical density.\n[Graph: radius of universe against time; a dotted straight line from the origin and a closed-universe curve rising from the time axis, touching the dotted line, then falling back to the time axis]\nThe dotted line represents the development of the universe if the density of the universe were zero.\nOn the diagram above,\n(i) label with the letter N the present time. [1]\n(ii) draw a line labelled F to represent the development of the universe corresponding to a flat universe. [1]\n(iii) draw a line labelled O to represent the development of the universe corresponding to the universe if its density were less than the critical density. [1]"
+  },
+  "E3": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.12",
+    "C.5"
+   ],
+   "text_clean": "E3. This question is about Hubble's law.\n(a) State Hubble's law. [1]\n(b) Measured values of the Hubble constant can vary between $40\\ \\mathrm{km\\,s^{-1}\\,Mpc^{-1}}$ and $90\\ \\mathrm{km\\,s^{-1}\\,Mpc^{-1}}$. State the reason for this wide variation in values. [1]\n(c) The blue line in the spectrum of atomic hydrogen as measured in the laboratory is 490 nm. The same line in the spectrum of light from a galaxy has a wavelength of 500 nm.\nDetermine the distance of the galaxy from Earth. You may assume that the Hubble constant $=70\\ \\mathrm{km\\,s^{-1}\\,Mpc^{-1}}$. [3]"
+  },
+  "F1": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "F1. This question is about radio transmission.\n(a) Describe, with reference to the amplitude of the signal wave, how the frequency of a carrier wave is varied in frequency modulation (FM) radio transmission. [2]\n(b) An amplitude-modulated (AM) carrier wave of frequency 190 kHz is modulated by a signal wave of frequency 5.0 kHz.\n(i) State the frequencies transmitted in the AM signal. [2]\n(ii) The frequency of this AM radio signal is within the European long wave radio band that is allocated frequencies between 149 kHz and 284 kHz.\nDetermine the maximum number of radio stations that can transmit this radio signal in this radio band. [2]\n(c) State and explain the role of block B and block C in the basic radio receiver shown. [5]\n[Block diagram: aerial A -> block B -> rf amplifier -> block C -> af amplifier -> loudspeaker]\nBlock B:\nExplanation:\nBlock C:\nExplanation:",
+   "qtype": "long"
+  },
+  "F2": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14",
+    "X.10"
+   ],
+   "text_clean": "F2. This question is about transmission of digital signals in an optic fibre.\n(a) The diagram shows digital signals A, B, C, … arriving simultaneously at a time-division multiplexer.\n[Diagram: inputs A, B, C -> time-division multiplexer -> amplifier -> optic fibre X -> amplifier -> demultiplexer -> outputs A, B, C]\nExplain how large numbers of sampled digital audio signals can be sent along the single optic fibre X. [3]\n(b) The input power to the single optic fibre X is 25 mW. The signal needs to be amplified when the power has been attenuated to $4.0\\times10^{-19}$ W. The attenuation loss in the optic fibre is $1.8\\ \\mathrm{dB\\,km^{-1}}$.\nCalculate the maximum distance between amplifiers in the system. [3]\n(c) In a time-division multiplex system, sampling is carried out at a rate of 32 kHz. The duration of each sample is 50 ns.\nDetermine the number of separate channels that the system can transmit. [3]",
+   "qtype": "long"
+  },
+  "F3": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "F3. This question is about an operational amplifier.\nThe diagram shows an operational amplifier circuit in a non-inverting configuration.\n[Circuit: op-amp with $V_{IN}$ to the non-inverting input (Y); inverting input X connected via an 800 kΩ feedback resistor to $V_{OUT}$ and via a 100 kΩ resistor to ground]\n(a) The values of the resistors in the circuit are 800 kΩ and 100 kΩ as shown in the diagram. Calculate the gain of the amplifier. [2]\n(b) Explain, in terms of the properties of an operational amplifier,\n(i) why there is no potential difference between points X and Y when the circuit is operating correctly. [3]\n(ii) why the electric current in the 800 kΩ and 100 kΩ resistors is the same. [1]",
+   "note": "ms crop fixed via override (top of fraction clipped)"
+  },
+  "F4": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "F4. This question is about the cellular exchange.\n(a) Outline the role of the cellular exchange in a mobile phone network. [3]\n(b) State one environmental issue that you consider arises from the use of cellular exchanges in a mobile phone network. [1]"
+  },
+  "G1": {
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.2"
+   ],
+   "text_clean": "G1. This question is about the nature of electromagnetic waves.\n(a) Outline what is meant by an electromagnetic wave. [2]\n(b) State two cases in which electrons may produce electromagnetic waves. [2]"
+  },
+  "G2": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "text_clean": "G2. This question is about an astronomical telescope.\nA particular astronomical telescope is being used to observe the Moon. The ray diagram shows the position P of the intermediate image of the Moon formed by the objective lens.\n[Ray diagram: rays from the Moon at angle θ to the principal axis pass through the objective lens and form intermediate image P 90 cm from the objective; eyepiece lens to the right of P (not to scale)]\nThe telescope is in normal adjustment.\n(a) On the diagram above,\n(i) label with the letter F the two focal points of the eyepiece lens. [1]\n(ii) draw rays to determine the location of the final image of the Moon. [3]\n(b) The diameter of the Moon subtends an angle of $8.7\\times10^{-3}$ rad at the unaided eye.\n(i) Determine the diameter of the image of the Moon formed by the objective lens. [2]\n(ii) The focal length of the eyepiece is 30 cm. Calculate the angle that the final image of the Moon subtends at the eyepiece. [2]"
+  },
+  "G3": {
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.3"
+   ],
+   "text_clean": "G3. This question is about two-source interference.\n(a) Light from a monochromatic source is incident at right angles to two slits. After passing through the slits the light is incident on a distant screen. Point M is the mid-point of the screen.\n[Diagram: monochromatic light source incident on two slits; screen with mid-point M and point Q above it; angle θ between the central line and the line to Q (not to scale)]\nThe separation of the slits is large compared to their width. A pattern of light and dark fringes is observed on the screen.\n(i) State the phenomenon that enables light to reach point M on the screen. [1]\n(ii) On the axes below, sketch the intensity of light as observed on the screen as a function of the angle θ. (You do not have to put any numbers on the axes.) [3]\n[Blank axes: intensity against θ, origin 0 at M]\n(iii) The distance of the screen from the slits is 1.8 m and the slit separation is 0.12 mm. The wavelength of the light is 650 nm. Point Q on the screen shows the position of the first dark fringe.\nCalculate the distance MQ. [2]\n(b) Suggest why, even though there are dark fringes in the pattern, no energy is lost. [2]"
+  },
+  "G4": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.4"
+   ],
+   "text_clean": "G4. This question is about X-ray diffraction.\nX-rays are incident on a single crystal of quartz. The diagram shows two adjacent atomic planes and X-rays that are incident at an angle θ to the crystal planes.\n[Diagram: two parallel rows of atoms separated by d (atomic spacing along a row also d); two parallel X-ray beams incident at angle θ to the planes]\n(a) An intense scattered beam is observed for certain values of the angle θ. Explain, with reference to the diagram, this observation. [3]\n(b) The smallest angle for which an intense scattered beam is observed is $\\theta=11.2^\\circ$. The wavelength of the X-rays is $8.24\\times10^{-10}$ m.\nCalculate the distance d between the atomic planes. [2]"
+  },
+  "G5": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.4"
+   ],
+   "text_clean": "G5. This question is about thin-film interference.\nA piece of glass of refractive index 1.62 is covered with a thin film of magnesium fluoride of thickness t and refractive index 1.38. The diagram shows a ray of monochromatic light incident on the film at an angle θ to the normal.\n[Diagram: ray incident at angle θ to the normal on a magnesium fluoride film (n = 1.38, thickness t) on glass (n = 1.62); reflected rays X (from film surface) and Y (from glass surface)]\nX is a ray reflected from the surface of the film and Y is reflected from the surface of the glass.\n(a) Show that when $\\theta=0$ the condition for destructive interference between rays X and Y is\n$2t=\\left(m+\\tfrac{1}{2}\\right)\\lambda$\nwhere m is an integer and λ is the wavelength of light in the magnesium fluoride film. [2]\n(b) Light of wavelength 640 nm in air is incident normally on the glass surface.\n(i) Show that the wavelength of light in the magnesium fluoride film is 464 nm. [1]\n(ii) Calculate the minimum thickness of the film for which no light will be reflected back into the air. [2]"
+  },
+  "H1": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "H1. This question is about simultaneity.\n(a) State the postulate of special relativity that is related to the speed of light. [1]\n(b) A rocket moving at a relativistic speed passes an observer who is at rest on the ground equidistant from two trees L and R. At the moment that an observer in the rocket is opposite the ground observer, lightning strikes L and R at the same time according to the ground observer. Light from the strikes reaches the observer in the rocket as well as the observer on the ground.\n[Diagram: rocket moving to the right above a ground observer standing midway between tree L and tree R, each struck by lightning]\n(i) Explain why, according to the observer in the rocket, light from the two strikes will reach the ground observer at the same time. [2]\n(ii) Using your answer to (a) and (b)(i), outline why, according to the rocket observer, tree R was hit by lightning before tree L. [2]"
+  },
+  "H2": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "H2. This question is about relativistic kinematics.\nA short pulse containing many nuclei of a radioactive isotope is emitted from a source S in a laboratory. The nuclei have speed $v=0.920c$ as measured with respect to the laboratory.\n[Diagram: source S, pulse of nuclei moving right at v = 0.920c with observer Q, detector D 250 m from S]\nThe pulse arrives at a detector D. The detector is 250 m away as measured by an observer in the laboratory.\n(a) Calculate the time it takes the pulse to travel from S to D, according to\n(i) an observer in the laboratory. [1]\n(ii) an observer Q moving along with the pulse. [2]\n(b) Calculate the distance between the source S and the detector D according to observer Q. [1]\n(c) A particular nucleus in the pulse decays by emitting an electron in the same direction as that of the nucleus. The speed of the electron measured in the laboratory is 0.985c.\nCalculate the speed of the electron as measured by observer Q. [2]\n(d) The laboratory observer and observer Q agree that by the time the pulse arrives at D, half of the nuclei in the pulse have decayed.\nOutline, without further calculation, how this is evidence in support of time dilation. [2]"
+  },
+  "H3": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "H3. This question is about mass and energy.\n(a) The graph shows the variation with the fraction $\\frac{v}{c}$, of the kinetic energy $E_K$ of a particle, where v is the speed of the particle.\n[Graph: $E_K$ / MeV (0 to 800) against $v/c$ (0.0 to 1.0); curve near zero at low v/c rising steeply towards v/c = 1]\nDetermine, using the value $E_K=360$ MeV from the graph, the rest mass of the particle in $\\mathrm{MeV\\,c^{-2}}$. [4]\n(b) Determine, using data from the graph, the potential difference required to accelerate the particle in (a) from a speed of 0.63c to a speed of 0.96c. The charge of the particle is +e. [2]"
+  },
+  "H4": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "H4. This question is about relativistic mechanics.\n(a) Show that the speed v of a particle of total energy E and momentum p is given by the following equation. [2]\n$v=\\frac{pc^2}{E}$\n(b) Determine, using the answer in (a), the speed of a particle whose rest mass is zero. [2]"
+  },
+  "H5": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "H5. This question is about the equivalence principle.\n(a) State the equivalence principle. [1]\n(b) The diagram shows two identical boxes in two different states of motion.\n[Diagram 1: box in free fall above a planet; Diagram 2: box accelerating upwards; each box has base B and top T with light emitted upwards from B (not to scale)]\nIn diagram 1 the box is in free fall close to the surface of a planet. In diagram 2 the box is accelerating in a region of space far from other masses.\nA ray of monochromatic light is emitted from the base B of each box and is received at the top T of each box.\nObservers at B measure the frequency of the emitted light to be $f_0$.\nState and explain, for each state of motion in diagram 1 and 2, if the frequency of light measured by an observer at T will be less than, equal to or greater than $f_0$. [4]\n1:\n2:\n(c) Radio signals, sent at the same time from Earth, reflect off two satellites X and Y as shown. The satellites are at the same distance from Earth.\n[Diagram: Earth with the Sun nearby; satellite X beyond the Sun, satellite Y on the opposite side (not to scale)]\nThe signal from Earth to satellite X and the reflected signal pass close to the Sun.\nCompare, using the theory of general relativity, the arrival times at Earth of the signal from X and the signal from Y. [2]",
+   "note": "ms crop fixed via override (included fragment of I1)"
+  },
+  "I1": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "I1. This question is about sound intensity levels (IL).\n(a) Define sound intensity level and state an appropriate unit for it. [3]\n(b) A drummer is seated close to a loudspeaker at a rock concert. The sound power at one of his ears is $1.5\\times10^{-5}$ W. This power is incident on one of his eardrums which has an area of $2.4\\times10^{-5}\\ \\mathrm{m^2}$.\nCalculate the sound intensity level at the drummer's eardrum. [3]\n(c) Discuss the short-term effects and long-term effects on the drummer's hearing of sound of this intensity level. [2]",
+   "note": "ms crop fixed via override (top clipped, (c) truncated)"
+  },
+  "I2": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "I2. This question is about nuclear magnetic resonance (NMR).\nIn nuclear magnetic resonance imaging, the patient is placed in a large uniform magnetic field. In addition, the part of the patient under investigation is subject to a weaker non-uniform (gradient) field.\nExplain the role of these two fields in the imaging process. [4]"
+  },
+  "I3": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "I3. This question is about X-ray absorption.\nA parallel beam of X-rays is incident on a section of tissue of thickness x. The constant incident intensity is $I_0$ and the transmitted intensity is $I_t$.\n[Diagram: beam of intensity $I_0$ passing through tissue of thickness x, emerging with intensity $I_t$]\n(a) The half-value thickness of the tissue is 4.0 cm.\nOn the axes below, sketch a graph to show the variation with tissue thickness x of $\\frac{I_t}{I_0}$. [2]\n[Blank grid: $I_t/I_0$ (0.0 to 1.0) against x / cm (0.0 to 15.0)]\n(b) Calculate the attenuation coefficient of X-rays for this tissue. [2]\n(c) For a different type of tissue, the ratio $\\frac{I_t}{I_0}$ is smaller for the same thickness x of material.\nCompare the attenuation coefficient of this tissue with that of the tissue in (b). [2]\n(d) Barium has an attenuation coefficient that is much larger than that for human tissue.\nExplain why a patient is asked to drink a liquid barium meal to help produce an X-ray image of the digestive system. [3]",
+   "qtype": "long"
+  },
+  "I4": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.11",
+    "E.3"
+   ],
+   "text_clean": "I4. This question is about radioactive isotopes used in medicine.\n(a) Outline what is meant by the effective half-life of a medical radioactive isotope. [1]\n(b) Iodine-131 (I-131) is a radioactive isotope that is injected into a patient to be used as a tracer. The physical radioactive half-life of I-131 is 8 days and the biological half-life is 12 days.\nDetermine the ratio $\\frac{\\text{activity of a sample 11 days after injection into the patient}}{\\text{initial activity when injected into the patient}}$. [4]\n(c) An isotope of technetium with a physical radioactive half-life of 0.25 days is an alternative to the iodine for this use.\nSuggest, with reference to the physical half-life, why the technetium is a better choice as a tracer. [2]\n(d) Outline two methods, other than exposure time, by which medical workers can be protected from the effects of these radioactive isotopes. [2]",
+   "qtype": "long"
+  },
+  "J1": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "J1. This question is about the decay of a kaon.\nA kaon ($K^+$) is a meson consisting of an up quark and an anti-strange quark.\n(a) Suggest why the kaon is classified as a boson. [2]\n(b) A kaon decays into an antimuon and a neutrino, $K^+\\to\\mu^++\\nu$. The Feynman diagram for the decay is shown below.\n[Feynman diagram: two quark lines meeting at a vertex (one labelled X), exchange particle A (dashed line), second vertex with two outgoing lepton lines (one labelled Y); time arrow to the right]\n(i) State the two particles labelled X and Y. [2]\nX:\nY:\n(ii) Explain how it can be deduced that this decay takes place through the weak interaction. [2]\n(iii) State the name and sign of the electric charge of the particle labelled A. [2]\nName:\nSign:\n(iv) The mass of the particle in (b)(iii) is $1.4\\times10^{-25}$ kg. Determine the range of the weak interaction involved in this decay. [2]\n(v) State, in terms of conservation laws, why a muon neutrino is produced in this decay. [1]",
+   "qtype": "long"
+  },
+  "J2": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.2",
+    "X.7",
+    "E.2"
+   ],
+   "text_clean": "J2. This question is about linear accelerators.\n(a) The diagram shows part of a linear accelerator in which protons are being accelerated.\n[Diagram: proton beam passing through a line of drift tubes of increasing length, alternate tubes connected to an alternating accelerating potential, others to earth]\n(i) Outline, with reference to the diagram, how protons are accelerated in a linear accelerator. [2]\n(ii) The frequency of the alternating potential is constant. Suggest why each tube is longer than the previous tube. [2]\n(b) After acceleration in the linear accelerator, a proton is incident on a stationary pion, producing a kaon (K meson) and an unknown hadron X according to the reaction given below.\n$p+\\pi^-\\to X+K^-$\n(i) State, with a reason, the electric charge of X. [1]\n(ii) State, with a reason, if X is a baryon or a meson. [1]\n(iii) The total energy of the proton in (b) is $5.20\\times10^3$ MeV.\nDetermine the mass of the heaviest hadron X that can be produced in the reaction. [3]\nMass of proton $=938\\ \\mathrm{MeV\\,c^{-2}}$\nMass of pion $=140\\ \\mathrm{MeV\\,c^{-2}}$\nMass of kaon $=494\\ \\mathrm{MeV\\,c^{-2}}$\n(c) In a deep inelastic scattering experiment, protons of momentum $2.70\\times10^{-18}$ N s are scattered by gold nuclei.\nGiven that the diameter of nucleons is of the order $10^{-15}$ m and the diameter of quarks is less than $10^{-18}$ m, determine if these protons will be able to resolve\n(i) nucleons within the gold nuclei. [2]\n(ii) quarks within the gold nuclei. [1]\n(d) Outline how deep inelastic scattering experiments led to the conclusion that gluons exist. [2]",
+   "qtype": "long"
+  },
+  "J3": {
+   "topics": [
+    "X",
+    "B"
+   ],
+   "subtopics": [
+    "X.12",
+    "B.3",
+    "X.2"
+   ],
+   "text_clean": "J3. This question is about the early universe and the Higgs boson.\nThe graph shows the variation of the logarithm of the temperature T of the universe with the logarithm of the time t after the Big Bang.\n[Graph: straight line of lg(T / K) (8 to 15) against lg(t / s) (−20 to 10), decreasing from about 14.5 at −20 to 8 at about 10]\n(a) In the very early universe, quarks existed as free particles and only combined into nucleons when the average thermal energy per particle in the universe dropped to below $3\\times10^{-11}$ J.\nEstimate, using the graph, the time after the Big Bang when quarks first formed nucleons. [3]\n(b) Evidence for the Higgs boson might be discovered at the Large Hadron Collider (LHC) at CERN. Outline why such a discovery would be of crucial significance to the standard model. [2]",
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "(a) converts energy to temperature via 3/2 kT (B.3) before reading early-universe graph; (b) Higgs (X.2)."
+  }
+ }
+}

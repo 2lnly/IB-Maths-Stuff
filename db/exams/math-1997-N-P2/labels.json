@@ -1,0 +1,129 @@
+{
+ "exam_id": "math-1997-N-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.8",
+    "1.3",
+    "1.2",
+    "2.12",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "note": "Segmenter flagged suspect; verified the ms crop (scan page 5) is exactly Q1 and complete. Page 6 (Q2) is absent from the scanned markscheme, so nothing of Q2 is in this crop.",
+   "text_clean": "1. [Maximum mark: 17]\n(a) Show that $p = 2$ is a solution to the equation $p^3 + p^2 - 5p - 2 = 0$.\nHence or otherwise, find the exact values of the other two solutions. [5 marks]\n(b) An arithmetic sequence has $p$ as its common difference. Also, a geometric sequence has $p$ as its common ratio. Both sequences have 1 as their first term.\n(i) Write down, in terms of $p$, the first four terms of each sequence. [2 marks]\n(ii) If the sum of the third and fourth terms of the arithmetic sequence is equal to the sum of the third and fourth terms of the geometric sequence, find the three possible values of $p$. [3 marks]\n(iii) (a) For which value of $p$ found in (b)(ii) does the sum to infinity of the terms of the geometric sequence exist? [2 marks]\n(b) For the value of $p$ found above, find the exact value of the sum to infinity of the terms of this geometric sequence. [3 marks]\n(c) For the same value $p$, find the sum of the first 20 terms of the arithmetic sequence writing your answer in the form $a + b\\sqrt{c}$, where $a, b, c \\in \\mathbb{Q}$. [2 marks]"
+  },
+  "2": {
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.9",
+    "4.12",
+    "1.10"
+   ],
+   "answer_status": "missing",
+   "note": "Markscheme page 6 (Q2) is missing from the scanned markscheme PDF (page 5 = Q1, next scanned page 7 = Q3).",
+   "text_clean": "2. [Maximum mark: 18]\n(i) A multiple choice test in chemistry consists of eight questions each with four possible answers. For each question only one answer is correct.\n(a) Assuming that every question is answered,\n(i) in how many different ways can the test be completed? [2 marks]\n(ii) in how many different ways can this test be completed so that exactly six questions are correct? [3 marks]\n(b) In order to pass this test, correct answers to at least six questions are required. If a student chooses to answer every question at random, what is the probability that the student passes the test? [4 marks]\n(ii) A multiple choice test in physics consists of 72 questions each with three possible answers. For each question only one answer is correct. A student chooses the answer to every question at random.\n(a) What is the expected number of correct answers? [2 marks]\n(b) Find the standard deviation of the number of correct answers. [2 marks]\n(c) Using the normal approximation, estimate the probability that a student actually obtains the expected number of correct answers. [5 marks]"
+  },
+  "3": {
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.16",
+    "1.L1",
+    "3.15",
+    "3.13",
+    "3.17",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "text_clean": "3. [Maximum mark: 23]\n(i) Consider the lines $L_1$ and $L_2$ given by the equations\n$L_1: \\frac{x-2}{3} = \\frac{1-y}{2} = \\frac{z}{4}$,\n$L_2: \\frac{x+2}{2} = y - 1 = 2 - z$.\n(a) Show that the vector $-2\\mathbf{i} + 11\\mathbf{j} + 7\\mathbf{k}$ is perpendicular to both $L_1$ and $L_2$. [3 marks]\n(b) Show that $L_1$ and $L_2$ do not intersect. [5 marks]\n(c) Find the equation of the plane which contains $L_1$ and which is parallel to $L_2$. Give your answer in the form $ax + by + cz = d$. [3 marks]\n(ii) The following system of equations is given:\n$-x + (k+1)y - z = 0$\n$x + y + (k-2)z = k + 2$\n$2x + 2y + kz = k^2 - 2k - 8$\n(a) Write the system in matrix form as $MX = B$ where $X = \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}$. [2 marks]\n(b) Find the two values of $k$ for which $\\det M = 0$. [3 marks]\n(c) (i) Find the value of $z$ in terms of $k$. [3 marks]\n(ii) By considering the values of $k$ found in (ii)(b), discuss the number of solutions that the system admits according to these and all other values of $k$. [4 marks]"
+  },
+  "4": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.17",
+    "5.16",
+    "5.6",
+    "5.13",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "text_clean": "4. [Maximum mark: 22]\n(i) (a) For the function $y = 2x\\sin 2x + \\cos 2x$ show that $\\frac{dy}{dx} = 4x\\cos 2x$. [2 marks]\n(b) Hence prove that the volume of the solid formed when the graph of $y = \\sqrt{x}\\cos x$, $0 \\le x \\le \\frac{\\pi}{2}$, is rotated through $360^\\circ$ about the $x$-axis is $\\frac{\\pi}{16}(\\pi^2 - 4)$. [5 marks]\n(ii) (a) The function $g$ is defined by $g(x) = x + 1 - e^x$.\nFind the maximum value of $g(x)$, and hence show that $x + 1 \\le e^x$, $x \\in \\mathbb{R}$. [6 marks]\n(b) The function $f(x)$ is defined by $f(x) = \\frac{e^x - 1}{xe^{2x}}$, $x \\ne 0$.\n(i) Use the previous result to show that, for $x > 0$, $f(x) > e^{-2x}$. [2 marks]\n(ii) Show that $f(x) = \\frac{1 - e^{-x}}{xe^x}$ for $x > 0$. [1 mark]\n(iii) Use the result of (ii)(a) to explain why $g(-x) \\le 0$. Hence show that $f(x) < e^{-x}$ for $x > 0$. [3 marks]\n(iv) Find $\\lim_{x \\to 0} f(x)$ for positive values of $x$. [3 marks]"
+  },
+  "5": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.8",
+    "7.6",
+    "7.9",
+    "7.4",
+    "1.L1",
+    "1.14"
+   ],
+   "answer_status": "ok",
+   "text_clean": "5. [Maximum mark: 40]\n(i) Let $S$ be the set of all matrices of the form $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ such that $a, b, c, d \\in \\mathbb{R}$ and $ad - bc = 1$.\n(a) Prove that $S$ forms a group under matrix multiplication. (Properties of matrix multiplication may be assumed.) [11 marks]\n(b) Let $G \\subset S$ such that $a = d$ and $c = -b$.\n(i) Prove that $G$ is a subgroup of $S$ under matrix multiplication. [6 marks]\n(ii) Let $k \\in G$ with $a = 0$ and $c = 1$. Find the order of $k$ in $G$. [3 marks]\n(iii) Let $H$ be the subgroup of $G$ generated by $k$. Write down all the elements of $H$ in terms of $k$. [2 marks]\n(iv) Write down the multiplication table for $H$. [2 marks]\n(c) Let $K = \\{1, i, -1, -i\\}$ where $i = \\sqrt{-1}$.\n(i) Show that $K$ forms an Abelian group under multiplication of complex numbers. [4 marks]\n(ii) Explain what is meant by stating that two groups are isomorphic.\nExamine whether $K$ and $H$ are isomorphic. Hence or otherwise, show that $H$ is Abelian. [4 marks]\n(ii) Define a cyclic group.\nGiven that the set of elements $\\{1, a, a^2, \\ldots, a^n\\}$, where $a = e^{\\frac{2\\pi i}{n+1}}$, forms a group. Show that it is cyclic of order $n + 1$. [4 marks]\n(iii) Show that if $(ab)^2 = a^2b^2$, for all $a$ and $b$ in a group, then the group is Abelian. [4 marks]"
+  },
+  "6": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.7",
+    "6.8",
+    "6.9",
+    "6.11"
+   ],
+   "answer_status": "ok",
+   "text_clean": "6. [Maximum mark: 40]\n(i) Consider the directed graphs $G$ and $H$ defined by the adjacency matrices below.\nG (rows/columns a b c d e f):\na: 0 0 0 1 0 1\nb: 1 0 1 0 1 1\nc: 1 0 0 1 0 1\nd: 0 1 0 0 1 0\ne: 0 0 1 0 0 1\nf: 0 0 0 1 0 0\nH (rows/columns u v w x y z):\nu: 0 1 1 1 0 0\nv: 0 0 1 1 0 0\nw: 0 0 0 0 1 1\nx: 0 0 1 0 0 0\ny: 1 0 0 1 0 0\nz: 1 1 0 1 1 0\n(a) Draw a graphical representation of $G$. (Each matrix is read from rows to columns). [4 marks]\n(b) By analyzing the matrices above, or otherwise, show that $G$ and $H$ are isomorphic. Find the isomorphism between the graphs, explaining your result. [5 marks]\n(c) Show that $G$ is not planar. [4 marks]\n(ii) In the following computer network, the weights of the edges represent the time in milliseconds it takes an instruction to move from one vertex to the other.\n[Diagram: weighted network on vertices A–H. Edges: AB 180, BC 240, AC 270, BD 320, AD 200, CD 240, CG 350, CF 230, DF 280, DE 280, GF 120, GH 220, FE 90, EH 360]\n(a) Use Prim's algorithm, starting with $F$, to find a minimal spanning tree for the given network. Sketch the tree. [8 marks]\n(b) Use Dijkstra's algorithm to find a shortest path from $A$ to $H$. [8 marks]\n(iii) An office has 5 rooms and 16 doors. There are no windows. $A, B, C, D, E$ represent the different rooms and $F$ represents the space outside the office.\n[Diagram: floor plan of the office with rooms A, B (top row) and C, D, E (bottom row), outside space F, doors shown as gaps in the walls]\n(a) Draw a graph to represent all possible movements around the office and to the outside of the office. [3 marks]\n(b) Is it possible to find a walk around the office through each door once only? If yes find the walk, if no explain why not.\nIf the door between $A$ and $B$ is locked, discuss how your answer to this question will change. [6 marks]\n(c) Why is a Hamiltonian circuit possible? Find such a circuit. [2 marks]"
+  },
+  "7": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L6",
+    "4.L9",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "add_flags": [],
+   "note": "Question image is missing the last sentence of part (e) ('Does this support the claim ... Test at the 5% level of significance. [9 marks]'); text_clean has it. Cause: seg_math classifies the table cells '140-150'/'191-200' on qp page index 9 as footer codes (like '887-282'), so body_bot is clamped at ~672pt and a qp override cannot extend past it. Markscheme crop is complete and correct. | fixed by segmenter update",
+   "text_clean": "7. [Maximum mark: 40]\nIt has been claimed that male students perform better than female students in mathematics examinations. To study this, a sample of 400 male students were given a test where the maximum score was 200. The scores obtained were approximately normal with a mean of 174 and a standard deviation of 12. A sample of 100 female students were given the same test under the same examination conditions. The mean score was 173 with a standard deviation of 11.\n(a) Briefly describe what is meant by a 95% confidence interval for the mean of a population.\nFind a 95% confidence interval for the mean of each group. Do the intervals provide any evidence on which to reject or not reject the claim? [8 marks]\n(b) Find a 95% confidence interval for the difference between the means of the two populations.\nDoes this interval confirm your findings in part (a)? Explain your answer. [6 marks]\n(c) Describe the process of testing the hypothesis in this problem. Test the hypothesis at the 5% level of significance. [8 marks]\n(d) To test the speed element involved in taking examinations, the best 10 students in each group were given an oral test in pairs. The one that answered the question correctly first received a point. The scores of the different pairs are given below.\nPair | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10\nMale | 23 | 31 | 19 | 24 | 13 | 25 | 23 | 18 | 30 | 21\nFemale | 22 | 29 | 21 | 25 | 13 | 27 | 24 | 17 | 29 | 23\nTest the claim that there is a significant difference in the speed between males and females. Use the 5% level of significance. [9 marks]\n(e) The distribution of scores of the male students is given below.\nScore | 140–150 | 151–160 | 161–170 | 171–180 | 181–190 | 191–200\nNumber of students | 10 | 40 | 102 | 120 | 96 | 32\nDoes this support the claim that the distribution is approximately normal with mean 174 and standard deviation 12? Test at the 5% level of significance. [9 marks]"
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L1",
+    "5.L3",
+    "5.19",
+    "5.17"
+   ],
+   "answer_status": "ok",
+   "text_clean": "8. [Maximum mark: 40]\n(i) Determine, with reasons, the convergence or divergence of the following series:\n(a) $\\sum_{n=1}^{\\infty} \\frac{n^{36}}{4^n}$\n(b) $\\sum_{n=1}^{\\infty} \\frac{(3n)!}{100^n n!}$ [12 marks]\n(ii) Consider the function $f(x)$ defined by the table below.\nx | 0 | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 | 1.0\nf(x) | 0 | 0.100 | 0.199 | 0.296 | 0.297 | 0.479 | 0.565 | 0.644 | 0.717 | 0.783 | 0.841\n(a) Use the trapezium rule to find the area of the region bounded by the curve and the $x$-axis between $x = 0$ and $x = 1$. [5 marks]\n(b) This region is rotated about the $x$-axis. Find the volume generated by using Simpson's rule. [7 marks]\n(iii) (a) Derive the Maclaurin series for $f(x) = \\sin x$ up to the term in $x^4$, and write down the error when the resulting polynomial is used as an approximation for $\\sin x$. [4 marks]\n(b) Show that $x_0 = \\sqrt{15} - 3$ is an approximation to the non-zero root of the equation $x^2 = \\sin x$.\nAlso, show that $\\left|\\sin x_0 - x_0^2\\right| < \\frac{1}{200}$.\nExplain clearly whether the expression $\\sin x_0 = x_0^2$ is positive or negative. [10 marks]\n(c) Use the Newton-Raphson method to obtain another approximation $x_1$ to the non-zero root of the equation $\\sin x = x^2$. [2 marks]"
+  }
+ },
+ "exam_note": "Scanned markscheme lacks page 6 (Q2). Q7 qp crop truncated by segmenter footer-detection bug (see q7 note)."
+}

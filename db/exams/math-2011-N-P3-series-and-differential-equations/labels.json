@@ -1,0 +1,79 @@
+{
+ "exam_id": "math-2011-N-P3-series-and-differential-equations",
+ "questions": {
+  "1": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.15"
+   ],
+   "text_clean": "1. [Maximum mark: 5]\nFind $\\lim_{x \\to \\frac{1}{2}} \\left( \\frac{\\left(\\frac{1}{4} - x^2\\right)}{\\cot \\pi x} \\right)$.",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L1",
+    "1.8",
+    "1.6"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\n(a) Show that $n! \\geq 2^{n-1}$, for $n \\geq 1$. [2 marks]\n(b) Hence use the comparison test to determine whether the series $\\sum_{n=1}^{\\infty} \\frac{1}{n!}$ converges or diverges. [3 marks]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L2",
+    "5.L1"
+   ],
+   "text_clean": "3. [Maximum mark: 11]\nConsider the series $\\sum_{n=1}^{\\infty} (-1)^n \\frac{x^n}{n \\times 2^n}$.\n(a) Find the radius of convergence of the series. [7 marks]\n(b) Hence deduce the interval of convergence. [4 marks]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L5",
+    "5.15"
+   ],
+   "text_clean": "4. [Maximum mark: 8]\n(a) Using the integral test, show that $\\sum_{n=1}^{\\infty} \\frac{1}{4n^2+1}$ is convergent. [4 marks]\n(b) (i) Show, by means of a diagram, that $\\sum_{n=1}^{\\infty} \\frac{1}{4n^2+1} < \\frac{1}{4 \\times 1^2 + 1} + \\int_1^{\\infty} \\frac{1}{4x^2+1}\\,dx$.\n(ii) Hence find an upper bound for $\\sum_{n=1}^{\\infty} \\frac{1}{4n^2+1}$. [4 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.6",
+    "5.14"
+   ],
+   "text_clean": "5. [Maximum mark: 16]\n(a) Given that $y = \\ln\\left(\\frac{1+e^{-x}}{2}\\right)$, show that $\\frac{dy}{dx} = \\frac{e^{-y}}{2} - 1$. [5 marks]\n(b) Hence, by repeated differentiation of the above differential equation, find the Maclaurin series for $y$ as far as the term in $x^3$, showing that two of the terms are zero. [11 marks]",
+   "answer_status": "ok",
+   "note": "Markscheme image: at the page break in (b) Method 1, the line 'when x=0, d2y/dx2 = 1/2 x 1/2 = 1/4 A1' is partly clipped (denominators cut) by the segmenter's automatic footer trim (fraction bars near the page bottom treated as footer rules); overrides cannot extend past it. Method 2 shows the same value in full, so the markscheme is still usable. | fixed by segmenter update: the line noted above as missing is now in the crop"
+  },
+  "6": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15",
+    "1.7",
+    "1.13"
+   ],
+   "text_clean": "6. [Maximum mark: 15]\nThe real and imaginary parts of a complex number $x + iy$ are related by the differential equation $(x+y)\\frac{dy}{dx} + (x-y) = 0$.\nBy solving the differential equation, given that $y = \\sqrt{3}$ when $x = 1$, show that the relationship between the modulus $r$ and the argument $\\theta$ of the complex number is $r = 2e^{\\frac{\\pi}{3} - \\theta}$.",
+   "answer_status": "ok"
+  }
+ }
+}

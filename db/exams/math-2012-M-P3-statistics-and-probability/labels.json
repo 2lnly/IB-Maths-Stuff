@@ -1,0 +1,32 @@
+{
+  "exam_id": "math-2012-M-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L6", "4.L5"],
+      "text_clean": "1. [Maximum mark: 14]\nA baker produces loaves of bread that he claims weigh on average 800 g each. Many customers believe the average weight of his loaves is less than this. A food inspector visits the bakery and weighs a random sample of 10 loaves, with the following results, in grams:\n783, 802, 804, 785, 810, 805, 789, 781, 800, 791.\nAssume that these results are taken from a normal distribution.\n(a) Determine unbiased estimates for the mean and variance of the distribution. [3 marks]\nIn spite of these results the baker insists that his claim is correct.\n(b) Stating appropriate hypotheses, test the baker's claim at the 10 % level of significance. [7 marks]\nThe inspector informs the baker that he must improve his quality control and reject any loaf that weighs less than 790 g. The baker changes his production methods and asserts that he has reduced the number of low weight loaves. On a subsequent visit to the bakery the inspector tests a random sample of loaves for sale. Of the 40 loaves tested, 5 should have been rejected.\n(c) Calculate a 95 % confidence interval for the proportion of loaves for sale that should be rejected. [4 marks]"
+    },
+    "2": {
+      "topics": ["4", "1"],
+      "subtopics": ["4.L2", "1.3"],
+      "qtype": "short",
+      "text_clean": "2. [Maximum mark: 6]\nThe random variable $X$ has a geometric distribution with parameter $p$.\n(a) Show that $\\mathrm{P}(X \\le n) = 1-(1-p)^n$, $n \\in \\mathbb{Z}^+$. [3 marks]\n(b) Deduce an expression for $\\mathrm{P}(m < X \\le n)$, $m, n \\in \\mathbb{Z}^+$ and $m < n$. [1 mark]\n(c) Given that $p = 0.2$, find the least value of $n$ for which $\\mathrm{P}(1 < X \\le n) > 0.5$, $n \\in \\mathbb{Z}^+$. [2 marks]"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L9", "4.L1", "4.3"],
+      "text_clean": "3. [Maximum mark: 13]\nEach week the management of a football club recorded the number of injuries suffered by their playing staff in that week. The results for a 52-week period were as follows:\nNumber of injuries per week | 0 | 1 | 2 | 3 | 4 | 5 | 6\nNumber of weeks | 6 | 14 | 15 | 9 | 5 | 2 | 1\n(a) Calculate the mean and variance of the number of injuries per week. [2 marks]\n(b) Explain why these values provide supporting evidence for using a Poisson distribution model. [1 mark]\n(c) Stating your hypotheses, test whether a Poisson distribution is a suitable model for the number of injuries per week at the 5 % level of significance using a $\\chi^2$ test. [10 marks]"
+    },
+    "4": {
+      "topics": ["4", "5"],
+      "subtopics": ["4.14", "4.L3", "4.L4", "5.11"],
+      "text_clean": "4. [Maximum mark: 19]\nThe continuous random variable $X$ has probability density function $f$ given by\n$f(x) = \\begin{cases} 2x, & 0 \\le x \\le 0.5, \\\\ \\frac{4}{3} - \\frac{2}{3}x, & 0.5 \\le x \\le 2, \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Sketch the function $f$ and show that the lower quartile is 0.5. [3 marks]\n(b) (i) Determine $\\mathrm{E}(X)$.\n(ii) Determine $\\mathrm{E}(X^2)$. [4 marks]\nTwo independent observations are made from $X$ and the values are added. The resulting random variable is denoted $Y$.\n(c) (i) Determine $\\mathrm{E}(Y-2X)$.\n(ii) Determine $\\mathrm{Var}(Y-2X)$. [5 marks]\n(d) (i) Find the cumulative distribution function for $X$.\n(ii) Hence, or otherwise, find the median of the distribution. [7 marks]"
+    },
+    "5": {
+      "topics": ["4"],
+      "subtopics": ["4.L1"],
+      "qtype": "short",
+      "text_clean": "5. [Maximum mark: 8]\nThe random variable $X \\sim \\mathrm{Po}(m)$. Given that $\\mathrm{P}(X = k-1) = \\mathrm{P}(X = k+1)$, where $k$ is a positive integer,\n(a) show that $m^2 = k(k+1)$; [2 marks]\n(b) hence show that the mode of $X$ is $k$. [6 marks]"
+    }
+  }
+}

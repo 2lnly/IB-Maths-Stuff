@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2011-M-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.3", "6.1", "6.4"],
+      "text_clean": "1. [Maximum mark: 13]\n(a) Use the Euclidean algorithm to find the greatest common divisor of the numbers 56 and 315. [4 marks]\n(b) (i) Find the general solution to the diophantine equation $56x + 315y = 21$.\n(ii) Hence or otherwise find the smallest positive solution to the congruence $315x \\equiv 21 \\pmod{56}$. [9 marks]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.9", "6.8"],
+      "text_clean": "2. [Maximum mark: 7]\nThe complete graph $H$ has the following cost adjacency matrix.\n| | A | B | C | D | E |\n| A | – | 19 | 17 | 10 | 15 |\n| B | 19 | – | 11 | 16 | 13 |\n| C | 17 | 11 | – | 14 | 13 |\n| D | 10 | 16 | 14 | – | 18 |\n| E | 15 | 13 | 13 | 18 | – |\nConsider the travelling salesman problem for $H$.\n(a) By first finding a minimum spanning tree on the subgraph of $H$ formed by deleting vertex A and all edges connected to A, find a lower bound for this problem. [5 marks]\n(b) Find the total weight of the cycle ADCBEA. [1 mark]\n(c) What do you conclude from your results? [1 mark]"
+    },
+    "3": {
+      "topics": ["6", "1"],
+      "subtopics": ["6.4", "1.15", "6.2"],
+      "text_clean": "3. [Maximum mark: 12]\n(a) Given that $a, b \\in \\mathbb{N}$ and $c \\in \\mathbb{Z}^+$, show that if $a \\equiv 1 \\pmod{c}$, then $ab \\equiv b \\pmod{c}$. [2 marks]\n(b) Using mathematical induction, show that $9^n \\equiv 1 \\pmod{4}$, for $n \\in \\mathbb{N}$. [6 marks]\n(c) The positive integer $M$ is expressed in base 9. Show that $M$ is divisible by 4 if the sum of its digits is divisible by 4. [4 marks]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.11", "6.6", "6.7"],
+      "text_clean": "4. [Maximum mark: 18]\nThe diagram below shows the graph $G$ with vertices A, B, C, D, E and F.\n[Diagram: graph G with edges AB, AC, AD, BC, BE, CD, DE, DF, EF]\n(a) (i) Determine if any Hamiltonian cycles exist in $G$. If so, write one down. Otherwise, explain what feature of $G$ makes it impossible for a Hamiltonian cycle to exist.\n(ii) Determine if any Eulerian circuits exist in $G$. If so, write one down. Otherwise, explain what feature of $G$ makes it impossible for an Eulerian circuit to exist. [4 marks]\n(b) (i) Write down the adjacency matrix for $G$.\n(ii) Find the pair of distinct vertices that are linked by the smallest number of walks of length 5.\n(iii) Write down four of these walks.\n(iv) Identify the vertex that is linked to itself by the largest number of walks of length 5. [7 marks]\n(c) Prove that no more than 3 edges can be added to $G$ while keeping it planar and simple. [4 marks]\n(d) Given that $G'$ (the complement of $G$) is planar, find the number of faces in $G'$. [3 marks]"
+    },
+    "5": {
+      "topics": ["6"],
+      "subtopics": ["6.1"],
+      "text_clean": "5. [Maximum mark: 10]\n(a) Explaining your method fully, determine whether or not 1189 is a prime number. [4 marks]\n(b) (i) State the fundamental theorem of arithmetic.\n(ii) The positive integers $M$ and $N$ have greatest common divisor $G$ and least common multiple $L$. Show that $GL = MN$. [6 marks]"
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+ "exam_id": "math-2010-N-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2010,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2010 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2010 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8810-7209; code N10/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2010-N-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 8,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 8]\nLet R be a relation on the set ′ such that aRb ⇔ ab ≥0, for ab , ∈′.\n(a) Determine whether R is\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [7 marks]\n(b) Write down with a reason whether or not R is an equivalence relation. [1 mark]",
+   "ms_text": "1. (a) (i) a≥ 2 0 for all a∈′, hence R is reflexive R1\n(ii) aRb ⇒ ab ≥ 0 M1\n⇒ ba ≥ 0 R1\n⇒ bRa , hence R is symmetric A1\n(iii) aRb and bRc ⇒ ab ≥ 0 and bc ≥ 0 , is aRc? M1\nno, for example, 30 − R and 05 R, but 35 − R is not true A1\naRc is not generally true, hence R is not transitive A1\n[7 marks]\n(b) R does not satisfy all three properties, hence R is not an equivalence relation R1\n[1 mark]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 8]\nLet $R$ be a relation on the set $\\mathbb{Z}$ such that $aRb \\Leftrightarrow ab \\geq 0$, for $a, b \\in \\mathbb{Z}$.\n(a) Determine whether $R$ is\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [7 marks]\n(b) Write down with a reason whether or not $R$ is an equivalence relation. [1 mark]"
+  },
+  {
+   "id": "math-2010-N-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 16]\nm (a) Let f:′ ×\nϒ → ϒ , fmx ( ,) =−1 ( ) x . Determine whether f is\n(i) surjective;\n(ii) injective. [4 marks]\nn\ni (b) P is the set of all polynomials such that P = a x n ∈\n∞. =∑\ni\ni 0\nLet gP : → P , gp () = xp . Determine whether g is\n(i) surjective;\n(ii) injective. [4 marks]\n2 xx , > 0\n(c) Let h :′ → + , hx () = ′\n0. Determine whether h is\n12 − xx , ≤\n(i) surjective;\n(ii) injective. [7 marks]\n(d) Write down which, if any, of the above functions are bijective. [1 mark]",
+   "ms_text": "2. (a) (i) let x∈ϒ\n= for example, f (0,) x x , M1\nhence f is surjective A1\n(ii) for example, f (2, 3) = f (4, 3) = 3, but(2, 3) ≠ (4, 3) M1\nhence f is not injective A1\n[4 marks]\n(b) (i) there is no element of P such that gp= () 7 , for example R1\nhence g is not surjective A1\n(ii) gp () = gq () ⇒ xp = xq ⇒ p = q , hence g is injective M1A1\n[4 marks]\n(c) (i) for x > 0, hx () = 2, 4, 6, 8... A1\nfor x ≤ 0, hx () = 1, 3, 5, 7... A1\ntherefore h is surjective A1\n(ii) for hx () = hy () , since an odd number cannot equal an even number,\nthere are only two possibilities: R1\nxy , > 0, 2 x = 2 y ⇒ x = y ; A1\nxy , ≤ 0, 1 − 2 x =− 1 2 y ⇒ x = y A1\ntherefore h is injective A1\nNote: This can be demonstrated in a variety of ways.\n[7 marks]\n(d) so h is the only bijection A1\n[1 mark]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 16]\n(a) Let $f: \\mathbb{Z} \\times \\mathbb{R} \\to \\mathbb{R}$, $f(m, x) = (-1)^m x$. Determine whether $f$ is\n(i) surjective;\n(ii) injective. [4 marks]\n(b) $P$ is the set of all polynomials such that $P = \\left\\{ \\sum_{i=0}^{n} a_i x^i \\,\\middle|\\, n \\in \\mathbb{N} \\right\\}$.\nLet $g: P \\to P$, $g(p) = xp$. Determine whether $g$ is\n(i) surjective;\n(ii) injective. [4 marks]\n(c) Let $h: \\mathbb{Z} \\to \\mathbb{Z}^+$, $h(x) = \\begin{cases} 2x, & x > 0 \\\\ 1 - 2x, & x \\leq 0 \\end{cases}$. Determine whether $h$ is\n(i) surjective;\n(ii) injective. [7 marks]\n(d) Write down which, if any, of the above functions are bijective. [1 mark]"
+  },
+  {
+   "id": "math-2010-N-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 8,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 8]\nProve that for sets A and B\nA × ( B ∩ C ) = ( AB × ) ∩ ( AC × ) .",
+   "ms_text": "3. to show that A × ( B ∩ C ) ⊆ ( A × B ) ∩ ( AC × )\nlet (,) ab ∈ A × ( B ∩ C ) (M1)\n⇒ ∈ ∈ ∩ a A and b B C A1\n⇒ a ∈ A , and b ∈ B and b ∈ C A1\n⇒ (,) ab ∈ A × B and (,) ab ∈ AC × A1\n⇒ (,) ab ∈ ( A × B ) ∩ ( AC × ) R1\nto show that( A × B ) ∩ ( AC × ) ⊆ A × ( B ∩ C )\nlet (,) ab ∈ ( A × B ) ∩ ( AC × )\n⇒ ∈ × ∈ × (,) ab A B , and (,) ab AC A1\n⇒ a ∈ A and b ∈ B , and a ∈ A and b ∈ C\n⇒ a ∈ A and b ∈ B ∩ C A1\n(,) ab ∈ A × ( B ∩ C ) R1\nhence the two sets are equal AG\nNote: The first five marks are awarded for the first half of the proof that the candidate attempts.\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 8]\nProve that for sets $A$ and $B$\n$A \\times (B \\cap C) = (A \\times B) \\cap (A \\times C)$."
+  },
+  {
+   "id": "math-2010-N-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 20,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 20]\nSet S ={ x , x , x , x , x , x } x = x , 5 and a binary operation ο on S is defined as x ο\n0 1 2 3 4 i j k\nwhere i + j ≡ k (mod) 6.\n(a) (i) Construct the Cayley table for {,} Sο and hence show that it is a group.\n(ii) Show that {,} Sο is cyclic. [11 marks]\n(b) G be an Abelian group of order 6. The element a ∈ G has order 2 and Let {, *}\nthe element b ∈ G has order 3.\n(i) Write down the six elements of {, *} G .\n(ii) Find the order of ab * and hence show that {, *} G is isomorphic to {,} Sο. [9 marks]",
+   "ms_text": "4. (a) (i) Cayley table for {,} Sο\nο 0x 1x x x 4x 5x\n2 3\n1x 2x 3x 4x 5x 0x 0x\n1x 1x 2x 3x 4x 5x 0x\nx 2x 3x 4x 5x 0x 1x\n2\nx 3x 4x 5x 0x 1x 2x\n3\n4x 4x 5x 0x 1x 2x 3x\n5x 5x 0x 1x 2x 3x 4x\nA4\nNote: Award A4for no errors, A3 for one error, A2 for two errors,\nA1 for three errors and A0 for four or more errors.\nS is closed under ο A1\nA1 0xis the identity\nA1 0x and 3x are self-inverses,\nA1 2x and 4x are mutual inverses and so are 1x and 5x\nmodular addition is associative A1\nhence, {,} Sο is a group AG\n(ii) the order of 1x (or 5x) is 6, hence there exists a generator, and {,} Sο\nis a cyclic group A1R1\n[11 marks]\n(b) (i) eabab , , , A1\nand b 2 , ab 2\nA1A1\n2 Note: Accept ba and ba .\n2 2 (ii) ( ab ) = b M1A1\n( ab ) 3 = a A1\n4 = ( ab ) b A1\nhence order is 6 A1\ngroups G and S have the same orders and both are cyclic R1\nhence isomorphic AG\n[9 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.6",
+    "7.5",
+    "7.4",
+    "7.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 20]\nSet $S = \\{x_0, x_1, x_2, x_3, x_4, x_5\\}$ and a binary operation $\\circ$ on $S$ is defined as $x_i \\circ x_j = x_k$, where $i + j \\equiv k \\pmod 6$.\n(a) (i) Construct the Cayley table for $\\{S, \\circ\\}$ and hence show that it is a group.\n(ii) Show that $\\{S, \\circ\\}$ is cyclic. [11 marks]\n(b) Let $\\{G, *\\}$ be an Abelian group of order 6. The element $a \\in G$ has order 2 and the element $b \\in G$ has order 3.\n(i) Write down the six elements of $\\{G, *\\}$.\n(ii) Find the order of $a * b$ and hence show that $\\{G, *\\}$ is isomorphic to $\\{S, \\circ\\}$. [9 marks]"
+  },
+  {
+   "id": "math-2010-N-P3-sets-relations-and-groups-q5",
+   "num": "5",
+   "section": null,
+   "marks": 8,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 8]\nG be a finite group that contains an element a (that is not the identity element) Let {, *}\nn + and H = { a | n ∈\n′ } , where a 2= aa *, a 3= aaa etc. **\nShow that { H G . , *} is a subgroup of {, *}",
+   "ms_text": "5. since G is closed, H will be a subset of G\n∈ ⇒ = r = s ∈′ + closure: pq , H p a , q a , rs , A1\nr s rs pq\n* = a * a = a+ A1\n+ r +∈ s ′ ⇒ pq ∈ H , hence H is closed R1\n*\nassociativity follows since * is associative on G (R1)\nEITHER\n+ identity: let the order of a in G be m ∈ ′ , m ≥ 2 M1\nm =∈ then a e H R1\nm − 1 m − 1 inverses: a a = e ⇒ a is the inverse of a A1\n*\nm − 1 n n n ( a\n)* a = e , showing that a has an inverse in H R1\nhence H is a subgroup of G AG\nOR\nsince ( G ,) is a finite group, and H is a non-empty closed subset of G, then ( H ,) is * *\na subgroup of ( G ,) * R4\nNote:To receive the R4, the candidate must explicitly state the theorem, i.e. the three\ngiven conditions, and conclusion.\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.8",
+    "7.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 8]\nLet $\\{G, *\\}$ be a finite group that contains an element $a$ (that is not the identity element) and $H = \\{a^n \\mid n \\in \\mathbb{Z}^+\\}$, where $a^2 = a * a$, $a^3 = a * a * a$ etc.\nShow that $\\{H, *\\}$ is a subgroup of $\\{G, *\\}$."
+  }
+ ],
+ "status": "done"
+}

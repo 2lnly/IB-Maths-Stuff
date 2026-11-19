@@ -1,0 +1,439 @@
+{
+ "exam_id": "physics-2023-M-P3-TZ1",
+ "subject": "physics",
+ "syllabus": "physics-legacy",
+ "year": 2023,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "3",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Physics HL/Paper 3/2023_May_Physics__TZ1/2023_May_Physics_paper_3__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Physics HL/Paper 3/2023_May_Physics__TZ1/2023_May_Physics_paper_3__TZ1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2223-6509",
+ "questions": [
+  {
+   "id": "physics-2023-M-P3-TZ1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 8,
+   "qtype": "data",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1.  A student attaches one end of a copper wire to an oscillator operating at a fixed frequency.\nThe other end of the wire passes over a pulley to weights that hang vertically. The first\nharmonic standing wave is established by using the slider to change the length of the wire.\nThe procedure is repeated for different weights.\nwire\nslider\noscillator  pulley\nweights\nThe mass m of the weights and the wavelength  λ  of the wave are related by\n    \n      \n\nwhere µ is a constant,  f  is the frequency of the wave and  g = 9.8 ms−2 .\n(a)  Deduce the unit of µ in terms of fundamental SI units.  [1]\n(b)  The graph shows the data obtained by the student, plotted to show the variation\nof m with  λ2 .\n150\n100\nm / g\n50\n0  0.2  0.4  0.6  0.8  1.0\nλ  2 / m2\n(i)  Draw the line of best fit for these data.  [1]\n(ii)  Identify the evidence for a systematic error in the data.  [1]\n(iii)  Suggest a possible reason for the systematic error.  [1]\n(iv)  Calculate the gradient of the graph.  [2]\n(c)  The percentage uncertainty of the gradient is 6.0 %. The frequency  f  of the wave is\n(60.0 ± 2.0 %) Hz.\nEstimate, using the answer to (b)(iv), µ for the string. Include the percentage\nuncertainty of µ in your answer.  [2]",
+   "ms_text": "1.  a  kg    ms  −  2  Accept kg/m .  1\n  =  «  s  −  2    m  2  =  »  kg    m  −  1  ✓  Do not accept g m-1.\n1.  b  i  straight line through all error bars ✓  1\n1.  b  ii  line does not go through the origin «and all error bars» ✓  1\n1.  b  iii  mass of tray of weights neglected/friction at pulley/friction at slider/thickness of  Do not allow vague answers like friction  1\nslider/zero off-set error ✓  neglected / error in length\nmeasurement.\n1.  b  iv  large enough triangle    m    50 g  ✓  Accept answers in g m-2.  2\nanswer in range  0.210  −  0.240 kgm−  «  2  »  ✓  Do not allow ECF from MP1.\n1.  c    =  g    gradient  =    −  4    −  1  Accept    in the range 5.7 to 6.6.  2\n«  »  6.229 10  «  kg m  »  ✓\nf  2  Allow answer in g m-1 .\npercentage uncertainty  =  6.0  +  2    2.0  =  10%  ✓  Allow ECF from (b).",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.1",
+    "C.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. A student attaches one end of a copper wire to an oscillator operating at a fixed frequency. The other end of the wire passes over a pulley to weights that hang vertically. The first harmonic standing wave is established by using the slider to change the length of the wire. The procedure is repeated for different weights.\n[Diagram: wire stretched from an oscillator over a slider and a pulley to hanging weights]\nThe mass $m$ of the weights and the wavelength $\\lambda$ of the wave are related by\n$m = \\frac{\\mu f^2}{g}\\lambda^2$\nwhere $\\mu$ is a constant, $f$ is the frequency of the wave and $g = 9.8\\ \\text{m s}^{-2}$.\n(a) Deduce the unit of $\\mu$ in terms of fundamental SI units. [1]\n(b) The graph shows the data obtained by the student, plotted to show the variation of $m$ with $\\lambda^2$.\n[Graph: m / g (0 to about 180) against $\\lambda^2$ / m$^2$ (0 to 1.0); six data points with vertical error bars from about (0.17, 29) to (0.82, 175)]\n(i) Draw the line of best fit for these data. [1]\n(ii) Identify the evidence for a systematic error in the data. [1]\n(iii) Suggest a possible reason for the systematic error. [1]\n(iv) Calculate the gradient of the graph. [2]\n(c) The percentage uncertainty of the gradient is 6.0%. The frequency $f$ of the wave is $(60.0 \\pm 2.0\\%)$ Hz.\nEstimate, using the answer to (b)(iv), $\\mu$ for the string. Include the percentage uncertainty of $\\mu$ in your answer. [2]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 7,
+   "qtype": "data",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2.  A student wants to verify the relation T  = 2π  L  between the period T of a simple pendulum\ng\nand the length L of the pendulum, where g is the acceleration of free fall. The student\noperates a stopwatch to measure one oscillation and a millimeter ruler to measure the length\nof the pendulum.\n(a)  State, for this experiment,\n(i)  one variable that must be controlled,  [1]\n(ii)  the main source of error in T.  [1]\n(b)  To determine T more precisely, the student measures the total time for 20 oscillations\nand divides by 20.\nSuggest why this is preferable to measuring the time for just one oscillation.  [2]\n(c)  (i)  The student plots a graph with L on the horizontal axis. State the variable that\nmust be plotted on the vertical axis in order to obtain a line of best fit that is straight. [1]\n(ii)  Calculations using the data of the experiment show that g = 9.71622 m s−2 with\na percentage uncertainty of 8 %. Determine the value of g that can be obtained\nfrom this experiment. Include the absolute uncertainty in g to one significant figure. [2]",
+   "ms_text": "2.  a  i  mass OR diameter OR material of bob OR « initial » amplitude/angle ✓  Do not allow statements about rulers,  1\nstopwatches, string, number of\noscillations, constant gravity.\n2.  a  ii  student’s reaction time «in starting and stopping stopwatch» / starting/stopping  1\nstopwatch ✓\n2.  b  it reduces «the random» error/uncertainty ✓  For MP1, allow increasing  2\nby a factor of 20 «compared to that in a single period measurement» ✓  accuracy/precision.\nAward [0] for answers related to\nnumber of trials, 20 measurements of\none period.\n2.  c  i  T2 ✓  1\n2.  c  ii  g  =  9.7 ms  «  −  2  »  ✓  2\n  g  =  0.8 ms  «  −  2  »  ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.1",
+    "C.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. A student wants to verify the relation $T = 2\\pi\\sqrt{\\frac{L}{g}}$ between the period $T$ of a simple pendulum and the length $L$ of the pendulum, where $g$ is the acceleration of free fall. The student operates a stopwatch to measure one oscillation and a millimeter ruler to measure the length of the pendulum.\n(a) State, for this experiment,\n(i) one variable that must be controlled, [1]\n(ii) the main source of error in $T$. [1]\n(b) To determine $T$ more precisely, the student measures the total time for 20 oscillations and divides by 20.\nSuggest why this is preferable to measuring the time for just one oscillation. [2]\n(c) (i) The student plots a graph with $L$ on the horizontal axis. State the variable that must be plotted on the vertical axis in order to obtain a line of best fit that is straight. [1]\n(ii) Calculations using the data of the experiment show that $g = 9.71622\\ \\text{m s}^{-2}$ with a percentage uncertainty of 8%. Determine the value of $g$ that can be obtained from this experiment. Include the absolute uncertainty in $g$ to one significant figure. [2]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 3,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3.  A proton is moving in a region of magnetic field of strength B. The speed of the proton\nrelative to the magnetic field is v.\nproton  v\nIn the reference frame in which the magnetic field is at rest, the proton experiences an initial\nmagnetic force evB upwards.\n(a)  Outline why there can be no magnetic force on the proton in the proton’s rest frame.  [1]\n(b)  Discuss the nature of the force in the proton’s rest frame.  [2]",
+   "ms_text": "3.  a  «in the proton rest frame » the speed of the proton is zero so force is zero ✓  1\n3.  b  the proton sees an electric field / experiences electric force✓  2\nupward force✓",
+   "mcq_answer": null,
+   "topics": [
+    "A",
+    "D"
+   ],
+   "subtopics": [
+    "A.5",
+    "D.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. A proton is moving in a region of magnetic field of strength $B$. The speed of the proton relative to the magnetic field is $v$.\n[Diagram: magnetic field into the page (crosses); proton moving to the right with velocity v]\nIn the reference frame in which the magnetic field is at rest, the proton experiences an initial magnetic force $evB$ upwards.\n(a) Outline why there can be no magnetic force on the proton in the proton's rest frame. [1]\n(b) Discuss the nature of the force in the proton's rest frame. [2]",
+   "review_note": "audit: relativity of magnetic force on moving charge; matches six A.5+D.3 equivalents"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 9,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4.  The diagram shows the axes of a coordinate system S at rest relative to the Earth. Earth is at\nthe origin of S.\n5  ct′\n4  x′\n3\nct / ly\n2\n1\n0  1  2  3  4  5\nx / ly\nx′  and  ct′  are the coordinates of a reference frame S′ in which a spacecraft is at rest. When\nthe origins of the two sets of axes coincide, all clocks in the frames show zero.\n(a)  Show that the speed of the spacecraft is 0.80c as measured in S.  [1]\n(b)  (i)  An event has coordinates  x = 0  and  ct = 0.60 ly  in S. Show, using a Lorentz\ntransformation, that the time coordinate of this event in S′ is  ct′ = 1.00 ly .  [2]\n(ii)  Label, on the diagram with the letter P, the point on the ct′ axis whose ct′\ncoordinate is 1.00 ly.  [2]\n(c)  At  ct = 0 , a light beam is sent from Earth to a space station at rest 4.0 ly away in S.\nEvent R is the arrival of the light beam at the space station.\n(i)  Draw lines to indicate R on the diagram.  [2]\n(ii)  Determine, using the diagram or otherwise, the space coordinate  x′\nof event R in S′.  [2]",
+   "ms_text": "4.  a  moves 4 ly in 5 years OR slope of angle with time axis is 0.8✓  Allow evidence for mark on the graph.  1\n4.  b  i  OR 5  1  For MP2, working should be seen.  2\n=  1.67  3   OR  ✓\n(1  −  0.8 )  2\nct  '  =  «    (  ct  −  vx  )  »  =  5    (0.60  +  0)\n✓\nc  3\n«=1.00 ly»\n4.  b  ii  identifies point with coordinates x = 0, ct = 0.60 on vertical axis ✓  Award [2] for correct position of P  2\nwithout working shown.\ndraws line parallel to the x prime axis until it intersects the prime ct axis ✓\n4.  c  i  2\nAllow MP2 even if one of the lines is not\ndrawn.\nR located at (4,4) ✓\n«as intersection of» vertical line through 4 ly and photon worldline at 45 degrees✓\n4.  c  ii  ALTERNATIVE 1  2\nUsing diagram:\nline from R parallel to prime ct axis until it intersects space axis ✓\nuse of scale from (b) to estimate coordinate to  x'  =  (1.3    0.2) ly  ✓\nALTERNATIVE 2\nUsing Lorentz transformation:\nevent R has coordinates  x =  ct  =  4.00  ly in S ✓\nso  x  =  «    (  x  −  vt  )  =  5    (4.00  −  0.80    4.00)  »  =  1.33  ly ✓\n3",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. The diagram shows the axes of a coordinate system S at rest relative to the Earth. Earth is at the origin of S.\n[Spacetime diagram: ct / ly (0 to 5) against x / ly (0 to 5); ct' axis through (4, 5) and x' axis through (5, 4)]\n$x'$ and $ct'$ are the coordinates of a reference frame S' in which a spacecraft is at rest. When the origins of the two sets of axes coincide, all clocks in the frames show zero.\n(a) Show that the speed of the spacecraft is $0.80c$ as measured in S. [1]\n(b) (i) An event has coordinates $x = 0$ and $ct = 0.60$ ly in S. Show, using a Lorentz transformation, that the time coordinate of this event in S' is $ct' = 1.00$ ly. [2]\n(ii) Label, on the diagram with the letter P, the point on the $ct'$ axis whose $ct'$ coordinate is 1.00 ly. [2]\n(c) At $ct = 0$, a light beam is sent from Earth to a space station at rest 4.0 ly away in S. Event R is the arrival of the light beam at the space station.\n(i) Draw lines to indicate R on the diagram. [2]\n(ii) Determine, using the diagram or otherwise, the space coordinate $x'$ of event R in S'. [2]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5.  A muon is an unstable particle with a half-life of 1.56 µs as measured in the muon’s rest\nframe. Muons are produced in a laboratory and are all directed at a speed 0.866c towards\na muon detector. The gamma factor (γ ) for this speed is 2.00. The detector, according to\nobservers in the laboratory, is a distance D from the muon source.\nmuon source  detector\nD\n(a)  According to laboratory observers  number of muons detected  =  1  .\nnumber of muons produced  2\nCalculate D.  [2]\n(b)  In the muon source rest frame (frame S), the detector is approaching at a speed 0.866c.\nIn frame S,\n(i)  show that the distance travelled by the detector when it meets the muon\nsource is 405 m.  [1]\n(ii)  determine the time taken for the detector to reach the muon source.  [1]\n(c)  Calculate, using the answers to (b)(i) and (b)(ii) the ratio number of muons detected  number of muons produced in S. [2]\n(d)  Comment on the ratios in (a) and (c).  [2]",
+   "ms_text": "5.  a  T  1  =  2.00 1.56 10  or 3.12 10      −  6    −  6  s  ✓  Award [2] for BCA  2\n2\nD  =  «  3.12 10    −  6    0.866    3    10  8  =  »  811 m  ✓\n5.  b  i  0.866  c    half life=0.866  c  ×  1.56    10  −  6  = «  405 m  »  Working must be seen.  1\nOR\ndistance travelled by detector =  D  =  D  = «405m» ✓\ny  2\n5.  b  ii  405  =    ✓  Award [1] for BCA.  1\ntransit time =  1.56  s\n0.866  c\n5.  c  transit time is one half life ✓  Award [2] for BCA.  2\nso ratio has to be  1  ✓\n2\n5.  d  the answers are the same ✓  Do not allow ECF from (c).  2\ncount rates cannot vary from frame to frame /OWTTE ✓  Award [2] for “count rates cannot vary” if student made\na mistake OR no answer in (c) and well discussed\nhere.",
+   "mcq_answer": null,
+   "topics": [
+    "A",
+    "E"
+   ],
+   "subtopics": [
+    "A.5",
+    "E.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. A muon is an unstable particle with a half-life of 1.56 μs as measured in the muon's rest frame. Muons are produced in a laboratory and are all directed at a speed $0.866c$ towards a muon detector. The gamma factor ($\\gamma$) for this speed is 2.00. The detector, according to observers in the laboratory, is a distance $D$ from the muon source.\n[Diagram: muon source and detector separated by distance D]\n(a) According to laboratory observers $\\frac{\\text{number of muons detected}}{\\text{number of muons produced}} = \\frac{1}{2}$.\nCalculate $D$. [2]\n(b) In the muon source rest frame (frame S), the detector is approaching at a speed $0.866c$.\nIn frame S,\n(i) show that the distance travelled by the detector when it meets the muon source is 405 m. [1]\n(ii) determine the time taken for the detector to reach the muon source. [1]\n(c) Calculate, using the answers to (b)(i) and (b)(ii) the ratio $\\frac{\\text{number of muons detected}}{\\text{number of muons produced}}$ in S. [2]\n(d) Comment on the ratios in (a) and (c). [2]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6.  A proton is accelerated from rest through a potential difference of 3.40 GV.\n(a)  Calculate, in GeV c-1, the momentum of the proton.  [3]\n(b)  Calculate, in terms of c, the speed of the proton.  [2]",
+   "ms_text": "6.  a  E =  T  «  0.938  +  3.40  =  »  4.34 GeV  ✓  Award [2] if omitted rest mass in MP1, the answer is  3\n3.27.\nattempted use of  p c  2  2  =  E  2  −  m c  0  2  4  «  pc =  4.34  2  −  0.938  2  » ✓\np  =  4.24 GeV c  −  1  ✓\n6.  b  =  4.34  =  Allow ECF from (a).  2\n«  »  4.63  ✓\n0.938\nv  =  0.976  c  ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. A proton is accelerated from rest through a potential difference of 3.40 GV.\n(a) Calculate, in GeV $c^{-1}$, the momentum of the proton. [3]\n(b) Calculate, in terms of $c$, the speed of the proton. [2]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7.  A gamma-ray photon of frequency  f0  is emitted from the top T of a tower towards the base B\nof the tower.\nT\nB\nEarth\n(a)  Explain, by reference to the equivalence principle, why the frequency of the photon\nmeasured at B will be larger than  f0.  [3]\n(b)  Two identical clocks at T and B use the period of a light wave to measure time intervals.\nExplain whether observers at T observe the clock at B to be running slower or faster.  [2]",
+   "ms_text": "7.  a  according to the EP the tower is equivalent to a frame accelerating away from  Award [1] for correct explanation  3\nEarth «with a = g» ✓  without principle of equivalence,\nan observer at B approaches the source of light ✓\nand so by the Doppler effect must measure a higher frequency ✓\n7.  b  «the clock at B» runs slower «than T» ✓  2\nthe period at B is shorter since frequency is higher\nOR\nClock B is in a stronger gravitational field than T\nOR\nthe wave red shift when travelling up ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.7",
+    "C.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. A gamma-ray photon of frequency $f_0$ is emitted from the top T of a tower towards the base B of the tower.\n[Diagram: tower on Earth; photon travels down from top T to base B]\n(a) Explain, by reference to the equivalence principle, why the frequency of the photon measured at B will be larger than $f_0$. [3]\n(b) Two identical clocks at T and B use the period of a light wave to measure time intervals. Explain whether observers at T observe the clock at B to be running slower or faster. [2]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8.  A uniform rod of length 1.20 m is at rest on a horizontal surface. The rod is pivoted at its\ncentre so that it is free to rotate about a vertical axis through the centre.\ntop view  12.0 m s−1\npivot  particle\nrod\n1.20 m\nA particle of mass 0.200 kg moving with speed 12.0 m s-1 collides with and sticks to one end\nof the rod.\n(a)  The moment of inertia of the rod about the axis is 0.180 kg m2. Show that the moment of\ninertia of the rod–particle system is about 0.25 kg m2.  [1]\n(b)  Show that the angular speed of the system immediately after the collision is\nabout 5.7 rad s-1.  [2]\n(c)  Calculate the energy lost during the collision.  [2]\n(d)  A frictional torque of magnitude 0.152 N m acts on the system just after it begins to\nrotate. Calculate\n(i)  the angular deceleration of the rod.  [1]\n(ii)  the number of revolutions made by the rod until it stops rotating.  [2]\n(e)  In another situation the rod rests on a horizontal frictionless surface with no pivot.\nPredict, without calculation, the motion of the rod–particle system after the collision.  [2]",
+   "ms_text": "8.  a  0.180  +  0.200    0.60  2  «  =  0.252 kg m  2  »  ✓  1\n8.  b  angular speed of particle = «12/0.6 = » 20 « rad s-1 »  2\nOR\nangular momentum of particle  «  0.200    12.0    0.60  »  =  1.44  «  Js  »  ✓\n«angular momentum of rod-particle system  0.252   »  For MP2, working or answer to at least\n  =  «  1.44  »  =  5.71rads  −  1  3 SF should be seen.\nequating  ✓\n0.252\n8.  c  1      2  −  1    2  Award [1] for answer 11.5 J that  2\n0.200 12.0  (0.252)  5.71  ✓  neglects moment of inertia of particle\n2  2\n10.3 J  ✓  but do not penalize this omission in\n(d)(i).\n8.  d  i    =  0.152  =  −  2  Accept negative values.  1\n0.603 rads  ✓\n0.252\n8.  d  ii  5.71  2  2\n=  =  27.0 rad  ✓\n2    0.603\nN  =  27.0  =  4.3  ✓\n2    \n8.  e  the rod will rotate «about centre of mass» ✓  2\n«centre of mass» will move along straight line  For MP2, mention of translational\nmotion is not enough.\n«parallel to the particle’s initial velocity» ✓",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.4",
+    "A.3",
+    "A.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. A uniform rod of length 1.20 m is at rest on a horizontal surface. The rod is pivoted at its centre so that it is free to rotate about a vertical axis through the centre.\n[Diagram (top view): rod of length 1.20 m pivoted at its centre; particle moving at 12.0 m s$^{-1}$ perpendicular to the rod towards one end]\nA particle of mass 0.200 kg moving with speed 12.0 m s$^{-1}$ collides with and sticks to one end of the rod.\n(a) The moment of inertia of the rod about the axis is 0.180 kg m$^2$. Show that the moment of inertia of the rod–particle system is about 0.25 kg m$^2$. [1]\n(b) Show that the angular speed of the system immediately after the collision is about 5.7 rad s$^{-1}$. [2]\n(c) Calculate the energy lost during the collision. [2]\n(d) A frictional torque of magnitude 0.152 N m acts on the system just after it begins to rotate. Calculate\n(i) the angular deceleration of the rod. [1]\n(ii) the number of revolutions made by the rod until it stops rotating. [2]\n(e) In another situation the rod rests on a horizontal frictionless surface with no pivot. Predict, without calculation, the motion of the rod–particle system after the collision. [2]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9.  The pV diagram shows a heat engine cycle consisting of adiabatic, isothermal and\nisovolumetric parts. The working substance of the engine is an ideal gas.\np  A\nB\nC\nV\nThe following data are available:\npA = 5.00 × 105 Pa\nVA = 2.00 × 10−3 m3\nTA = 602 K\npB = 3.00 × 104 Pa\npC = 4.60 × 103 Pa\n(a)  Suggest why AC is the adiabatic part of the cycle.  [2]\n(b)  Show that the volume at C is 3.33 × 10−2 m3.  [2]\n(c)  Suggest, for the change A ⇒ B, whether the entropy of the gas is increasing,\ndecreasing or constant.  [2]\n(d)  Calculate the thermal energy (heat) taken out of the gas from B to C.  [2]\n(e)  The highest and lowest temperatures of the gas during the cycle are 602 K and 92 K.\nThe efficiency of this engine is about 0.6. Outline how these data are consistent with\nthe second law of thermodynamics.  [2]",
+   "ms_text": "9.  a  ALTERNATIVE 1  2\n«considering expansions from A» an adiabatic process will reduce/change\ntemperature ✓\nand so curve AC must be the steeper ✓\nALTERNATIVE 2\ntemperature drop occurs for BC ✓\ntherefore CA must increase temperature «via adiabatic process». ✓\n9.  b  ALTERNATIVE 1  2\n3\n5  5    p    5\nUse of adiabatic formula  «  p V  A  A  3  =  p V  C  C  3    »  V  C  =   A    V  A  ✓\n  p  C  \n3\n=    5.00 10    5    5      −  3  =    −  2  3\nV  C      2.00 10  «  3.333 10  m  »  ✓  For MP2, working or answer to at least\n  4.60 10    3    4 SF must be seen.\nALTERNATIVE 2\nVC=VB AND pA VA = pB VB ✓\n5    10  5    2 10    −  3\nV  C  =  ✓\n3    10  4\nALTERNATIVE 3\nVC=VB AND n=0.2 mol ✓\nVC= (0.2 x 8.31 x 602) / 4 x 104 ✓\n9.  c  Increasing ✓  2\nbecause thermal energy/heat is being provided to the gas « and temperature is\n  S  =    Q\nconstant,  » ✓\nT\n9.  d  ALTERNATIVE 1  Award [2] for BCA.  2\nQ  =   U  =  3  V    P  ✓  Accept negative values.\n2  C\nQ  =  «  3    3.33 10    −  2    (3.00 10    4  −  4.60 10 )    3  »  =  1268.7    1270 J  « »  ✓\n2\nALTERNATIVE 2\n5 10    5    2 10    −  3\nRn  =  =  1.66  OR  T  =  4.6    10  3    3.33    10  −  2    1.66  =  92.2  ✓\n602  c  Award MP1 if Tc = 92 taken from (e)\n  U  =  3    1.661 (602    −  92.21)  =  1270 J  « » ✓\n2\n9.  e  e = −  92  =  Award [0] if no calculation shown.  2\nC  1  0.847  ✓\n602\nthis engine has  e    e  C  as it should ✓",
+   "mcq_answer": null,
+   "topics": [
+    "B"
+   ],
+   "subtopics": [
+    "B.4",
+    "B.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. The $pV$ diagram shows a heat engine cycle consisting of adiabatic, isothermal and isovolumetric parts. The working substance of the engine is an ideal gas.\n[pV diagram: cycle A → B (isothermal expansion), B → C (isovolumetric pressure drop), C → A (steeper adiabatic compression)]\nThe following data are available:\n$p_A = 5.00 \\times 10^5$ Pa\n$V_A = 2.00 \\times 10^{-3}$ m$^3$\n$T_A = 602$ K\n$p_B = 3.00 \\times 10^4$ Pa\n$p_C = 4.60 \\times 10^3$ Pa\n(a) Suggest why AC is the adiabatic part of the cycle. [2]\n(b) Show that the volume at C is $3.33 \\times 10^{-2}$ m$^3$. [2]\n(c) Suggest, for the change A ⇒ B, whether the entropy of the gas is increasing, decreasing or constant. [2]\n(d) Calculate the thermal energy (heat) taken out of the gas from B to C. [2]\n(e) The highest and lowest temperatures of the gas during the cycle are 602 K and 92 K.\nThe efficiency of this engine is about 0.6. Outline how these data are consistent with the second law of thermodynamics. [2]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10.  A sphere floats in water. The sphere is pushed downwards by a small amount and is then released.\ndiagram A  diagram B\nsphere in  sphere displaced\nequilibrium  downward\nwater  water\nsurface  surface\n(a)  Draw and label on diagram B the forces acting on the sphere just after it has\nbeen released.  [1]\n(b)  After it is released, the sphere performs damped oscillations. The graph shows the\nvariation with time t of the amplitude of oscillations A.\nA / cm\n2.0\n1.5\n1.0\n0.5\n0  1  2  3  4  5  t / s\n−0.5\n−1.0\n−1.5\n(i)  Calculate the Q factor for this system.  [2]\n(ii)  The water is replaced by another liquid of higher viscosity. State and explain the\neffect of this on the Q factor of the system.  [2]",
+   "ms_text": "10.  a  Award [1] for correct labeling AND  1\nrelative size.\nAllow any point, where the forces are\ndrawn.\nbuoyancy force greater than weight ✓\n10.  b  i  considering consecutive amplitudes ✓  2\n2.0  2\nQ =  «  2    »  =  14  ✓\n2.0  2  −  1.5  2\n10.  b  ii  Q will decrease ✓  2\nhigher viscosity provides more damping/higher energy dissipated per cycle ✓",
+   "mcq_answer": null,
+   "topics": [
+    "C",
+    "X"
+   ],
+   "subtopics": [
+    "C.4",
+    "X.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. A sphere floats in water. The sphere is pushed downwards by a small amount and is then released.\n[Diagram A: sphere in equilibrium at the water surface; Diagram B: sphere displaced downward]\n(a) Draw and label on diagram B the forces acting on the sphere just after it has been released. [1]\n(b) After it is released, the sphere performs damped oscillations. The graph shows the variation with time $t$ of the amplitude of oscillations $A$.\n[Graph: A / cm against t / s (0 to 5 s); damped oscillation with period about 1 s, peaks 2.0, 1.5, 1.1, 0.8, 0.6 cm]\n(i) Calculate the $Q$ factor for this system. [2]\n(ii) The water is replaced by another liquid of higher viscosity. State and explain the effect of this on the $Q$ factor of the system. [2]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11.  A siphon consists of a pipe AB of constant diameter that is used to empty a large tank of oil.\nThe depth of the oil in the tank is 5.0 m and the outlet B of the pipe is 8.0 m below the free\nsurface of the oil in the tank.\ndiagram not to scale\nlarge tank  h\n5.0 m\n8.0 m\nA\nsiphon\nB\n(a)  Show, using Bernoulli’s equation, that the speed of the oil as it leaves opening B\nis 12.5 m s-1.  [2]\n(b)  Suggest why the speed of the oil everywhere in the siphon is the same as that at B.  [1]\n(c)  Calculate the maximum height h for which the siphon will work. The density of oil\nis 915 kg m-3 and the atmospheric pressure is  1.01 × 105 Pa.  [2]",
+   "ms_text": "11.  a  «considering a streamline joining the surface of the oil to B»  Award 1 max for use of Torricelli  2\ntheorem.\n«  0  + +  0  »  P  = −    gH  +  P  +  1    v  2  ✓\natm  atm  2  Do not accept a BCA, MP1 must be\nseen.\nv  =  2  g    H  =  2 9.81 8.0      ✓\n«  =  12.53 m s−  1  »\n11.  b  «by the equation of continuity v = const» because the diameter/area is constant ✓  1\n11.  c  + +  =    +  +  1    2  2\nsetting pressure at highest point to zero gives  «  0  0  »  P  atm  gh  0  v  ✓\n2\nP  −  1    v  2  1.01 10    5  −  1    915 12.5    2\natm  2  2\nh  =  «  =  »  =  3.29 m  ✓\n  g  915    9.81",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. A siphon consists of a pipe AB of constant diameter that is used to empty a large tank of oil. The depth of the oil in the tank is 5.0 m and the outlet B of the pipe is 8.0 m below the free surface of the oil in the tank.\n[Diagram (not to scale): large tank of oil 5.0 m deep; siphon pipe from A in the tank rising a height h above the oil surface then descending to outlet B, 8.0 m below the oil surface]\n(a) Show, using Bernoulli's equation, that the speed of the oil as it leaves opening B is 12.5 m s$^{-1}$. [2]\n(b) Suggest why the speed of the oil everywhere in the siphon is the same as that at B. [1]\n(c) Calculate the maximum height $h$ for which the siphon will work. The density of oil is 915 kg m$^{-3}$ and the atmospheric pressure is $1.01 \\times 10^5$ Pa. [2]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q12",
+   "num": "12",
+   "section": "C",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12.  A converging lens is placed between an object and a screen. An image of the object is\nformed on the screen.\ndiagram not to scale\nscreen\nconverging lens\nobject\nimage\n(a)  Draw a ray to locate the focal point of the lens. Label this point with the letter F.  [1]\n(b)  The focal length of the lens is 4.0 cm and the height of the image is half the height of\nthe object. Determine the distance of the object from the lens.  [3]\n(c)  The lens suffers from spherical aberration.\n(i)  Draw lines to complete the rays in the diagram.  [1]\n(ii)  Describe the effect of spherical aberration on the image formed by the lens.  [1]\n(iii)  State how spherical aberration may be corrected.  [1]\n(d)  A simple optical astronomical refracting telescope consists of an objective lens of focal\nlength 75 cm and an eyepiece of focal length 4.0 cm. The telescope is used to view\nthe Moon. The Moon subtends an angle of 0.51 at the unaided eye.\n(i)  Calculate the angle subtended by the Moon when viewed through the telescope.  [2]\n(ii)  The telescope is now turned around so that the eye of the observer is behind the\nobjective lens. State the change, if any, in the image of the Moon.  [1]",
+   "ms_text": "12.  a  1\none of the two rays above ✓\n12.  b  v  1  u  Diagram is not to scale so award [0] if  3\n−  = −  OR  v  =  ✓  answer obtained by measurement.\nu  2  2\nAllow MP1 if mistake in negative sign.\n1  +  2  =  1  ✓  Do not allow ECF from MP1.\nu  u  4.0\nAward [3] for BCA.\nu=12«cm» ✓\n12.  c  i  1\nthe extreme ray crosses principal axis closer than paraxial ray ✓\n12.  c  ii  image is curved / blurred / distorted / poorly focused ✓  1\n12.  c  iii  block non-paraxial rays/ reduce aperture/use rays closer to axis/OWTTE  Allow parabolic lens.  1\nOR  Allow use of additional lens OR\nuse aspherical lens ✓  compensation plates.\n12.  d  i  75  2\nangular magnification is  4.0 =  18.75  ✓\nangle =  «  18.75    0.51  »  =  9.6  ✓\n12.  d  ii  It would be «much» smaller ✓  1",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. A converging lens is placed between an object and a screen. An image of the object is formed on the screen.\n[Diagram (not to scale): upright object, converging lens, inverted image on a screen]\n(a) Draw a ray to locate the focal point of the lens. Label this point with the letter F. [1]\n(b) The focal length of the lens is 4.0 cm and the height of the image is half the height of the object. Determine the distance of the object from the lens. [3]\n(c) The lens suffers from spherical aberration.\n(i) Draw lines to complete the rays in the diagram. [1]\n[Diagram: lens on a grid with two parallel rays incident, one far from and one close to the principal axis]\n(ii) Describe the effect of spherical aberration on the image formed by the lens. [1]\n(iii) State how spherical aberration may be corrected. [1]\n(d) A simple optical astronomical refracting telescope consists of an objective lens of focal length 75 cm and an eyepiece of focal length 4.0 cm. The telescope is used to view the Moon. The Moon subtends an angle of 0.51° at the unaided eye.\n(i) Calculate the angle subtended by the Moon when viewed through the telescope. [2]\n(ii) The telescope is now turned around so that the eye of the observer is behind the objective lens. State the change, if any, in the image of the Moon. [1]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q13",
+   "num": "13",
+   "section": "C",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13.  A ray of monochromatic light is incident on an optical fibre making an angle of θ  with the\nnormal. The refractive index of the core is 1.500 and the refractive index of the cladding is 1.489.\nair\nnormal\nθ\ncore\ncladding\n(a)  (i)  Calculate the critical angle θc at the core-cladding boundary.  [2]\n(ii)  Determine the maximum value of θ  such that the ray is incident on\nthe core-cladding boundary at an angle greater than the critical angle.  [2]\n(b)  The diagram shows two rays following different paths in the optical fibre. Ray 1\ntravels along the axis of the fibre. Ray 2 is incident on the core-cladding boundary at\nan angle ϕ  just greater than θc.\nϕ  ray 2\nray 1\nThe length of the optical fibre is 1 km. Show that the time delay between the arrival of\nthe two rays at the end of the optical fibre is about 37 ns.  [3]\n(c)  A signal transmitted by the optical fibre consists of very narrow digital pulses.\nThe pulses are 37 ns apart. The graph shows the variation with time of the amplitude\nof two consecutive pulses input to the optical fibre.\n(i)  Sketch, on the axes, the variation with time of the amplitude of the two pulses\nafter they have travelled by all possible ray paths along a 1 km length of the\noptical fibre.  [2]\namplitude  input pulses  received\n37 ns  37 ns  time\n(ii)  State what would happen when the input pulses are separated by less than 37 ns.  [1]",
+   "ms_text": "13.  a  i  1.500    sin    c  =  1.489 1    ✓  Allow  83  OR 1.45 rad.  2\n=  c  83.06  ✓\n13.  a  ii  1.00    sin    max  =  1.500    sin(90  −  83.06 )  ✓  Allow  11  2\n  =  10.4  ✓  Allow ECF from (a)(i).\nmax\n13.  b  1  Allow ECF from (a)(i).  3\n« when ray 1 travels a distance 1.00 km » ray 2 travels a distance  sin  =  c  1.0074  km✓  Time for ray 1 is 5000 ns , time\nc  −  for ray 2 is 5036.9 ns.\nspeed is  =  2.0 10    8  «  ms  1  »  ✓\n1.500  Do not allow ECF from MP2.\n10  3\nhence  =  t  «  0.0074    =  »  36.67 ns  «  »  ✓  For MP3, working or answer to\n2 10    8  at least 3 SF should be seen.\n13.  c  i  2\npulses rounded and of lower amplitude, symmetrical about dotted lines. ✓\njust starting to overlap ✓\n13.  c  ii  the pulses would overlap/the signal will be lost/OWTTE ✓  1",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.10",
+    "C.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. A ray of monochromatic light is incident on an optical fibre making an angle of $\\theta$ with the normal. The refractive index of the core is 1.500 and the refractive index of the cladding is 1.489.\n[Diagram: ray entering the end of an optical fibre from air at angle θ to the normal, refracting into the core and reflecting at the cladding]\n(a) (i) Calculate the critical angle $\\theta_c$ at the core-cladding boundary. [2]\n(ii) Determine the maximum value of $\\theta$ such that the ray is incident on the core-cladding boundary at an angle greater than the critical angle. [2]\n(b) The diagram shows two rays following different paths in the optical fibre. Ray 1 travels along the axis of the fibre. Ray 2 is incident on the core-cladding boundary at an angle $\\varphi$ just greater than $\\theta_c$.\n[Diagram: ray 1 along the fibre axis; ray 2 zig-zagging by reflection at angle φ]\nThe length of the optical fibre is 1 km. Show that the time delay between the arrival of the two rays at the end of the optical fibre is about 37 ns. [3]\n(c) A signal transmitted by the optical fibre consists of very narrow digital pulses. The pulses are 37 ns apart. The graph shows the variation with time of the amplitude of two consecutive pulses input to the optical fibre.\n(i) Sketch, on the axes, the variation with time of the amplitude of the two pulses after they have travelled by all possible ray paths along a 1 km length of the optical fibre. [2]\n[Graph: amplitude against time; two narrow rectangular input pulses 37 ns apart; \"received\" region with dashed lines 37 ns apart]\n(ii) State what would happen when the input pulses are separated by less than 37 ns. [1]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q14",
+   "num": "14",
+   "section": "C",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14.  (a)  Describe, in the context of medical diagnosis, how an ultrasound A scan is produced.  [2]\n(b)  The diagram shows a simplified view of the front of a human eye.\nlens\ntransducer\ncornea\nA transducer is placed at the cornea and an ultrasound pulse is emitted.\n(i)  Draw, on the axes, the expected A scan for just the part of the eye shown.  [2]\nsignal strength\nultrasound\npulse emitted\ntime\n(ii)  Demonstrate how the A scan in (b)(i) can be used to obtain a value for the\nthickness of the eye lens.  [2]\n(c)  In magnetic resonance imaging (MRI), a patient is exposed to a strong external\nmagnetic field and a radio frequency signal (RF) is emitted towards the patient.\n(i)  Explain the reason for using the RF signal.  [2]\n(ii)  Describe the subsequent measurements that can be used to distinguish between\ndifferent types of tissues.  [2]",
+   "ms_text": "14.  a  «pulses of» ultrasound are reflected « from organ boundaries» ✓  2\n«depth information is obtained from elapsed» times between transmission and\nreception of reflected waves ✓\n14.  b  i  Allow 3 reflected pulses because there  2\nmay be little reflection from the front of\nthe cornea due to the gel.\n4 reflected pulses ✓\nseparated in time and shorter than incident pulse ✓\n14.  b  ii  by measuring «the half» time «between the 2 pulses to the right» ✓  2\nand multiplying by the speed of sound «in eye lens» ✓\n14.  c  i  the RF signal is at the resonant frequency or Larmor frequency of the  2\n«precessing» protons ✓\nthe protons will «absorb the energy and» make a transition to the higher energy /\nspin down» state ✓\n14.  c  ii  ALTERNATIVE 1  2\nthe time taken for the nuclei to return to their original states/intensity of signal is\nmeasured ✓\nthese are different for different tissues✓\nALTERNATIVE 2\nuse of the gradient field «allows location of emitted signal» ✓\nmeasured intensity is dependent on different tissues ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "14. (a) Describe, in the context of medical diagnosis, how an ultrasound A scan is produced. [2]\n(b) The diagram shows a simplified view of the front of a human eye.\n[Diagram: front of a human eye showing cornea and lens, with a transducer placed at the cornea]\nA transducer is placed at the cornea and an ultrasound pulse is emitted.\n(i) Draw, on the axes, the expected A scan for just the part of the eye shown. [2]\n[Axes: signal strength against time, with the emitted ultrasound pulse shown near the origin]\n(ii) Demonstrate how the A scan in (b)(i) can be used to obtain a value for the thickness of the eye lens. [2]\n(c) In magnetic resonance imaging (MRI), a patient is exposed to a strong external magnetic field and a radio frequency signal (RF) is emitted towards the patient.\n(i) Explain the reason for using the RF signal. [2]\n(ii) Describe the subsequent measurements that can be used to distinguish between different types of tissues. [2]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q15",
+   "num": "15",
+   "section": "D",
+   "marks": 1,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "15.  Distinguish between open stellar clusters and globular stellar clusters.  [1]",
+   "ms_text": "15.  open clusters are irregular in shape OR globular clusters are spherical ✓  Open clusters are bigger / have stars  1 max\nfurther apart is not enough to award the\nopen clusters have few stars OR globular clusters have many ✓  mark.\nopen clusters have young stars OR globular clusters have old stars ✓  Globular clusters are round is not\nenough to award the mark.\nopen clusters have active stars OR globular clusters have mostly dead stars ✓\nopen clusters are less dense OR globular clusters are more dense ✓",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "15. Distinguish between open stellar clusters and globular stellar clusters. [1]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q16",
+   "num": "16",
+   "section": "D",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "16.  The graph shows an incomplete Hertzsprung–Russell (HR) diagram. The position of the Sun\nand three other stars, A, B and C, are shown.\nL / L\nA  B\n1  Sun\nC\n30.0  6.0  3.0  T / 103 K\nM, R and L are the mass, radius and luminosity of the Sun.\n(a)  The mass of star A is 52 M. Show that the luminosity of star A is about 106 L.  [1]\n(b)  Determine the radius of star B in terms of R.  [3]\n(c)  Describe the main stages in the evolution of star A after leaving the main sequence.  [3]\n(d)  The luminosity of star C is  2.4 × 1023 W  and its apparent brightness\nis  4.1 × 10-14 W m-2 . Determine the distance, in pc, to star C.  [2]\n(e)  Suggest whether the method of stellar parallax can be used to measure the distance\nto star C.  [1]",
+   "ms_text": "16  a  L  =  L    52  3.5  =  1.01 10    6  L  ✓  Accept back working.  1\nWorking should be seen.\n16.  b  LB=LA=106 Lsun   ✓  Award [3] for BCA  3\nL  4    R  2  3.0  R  2 1  Do not allow ECF from MP2 to MP3.\nB  =  (  B  )(  )  4  OR  1.0 10    6  =  (  B  ) 16  ✓\nL  4    R  2  6.0  R\nR  B  =    6    =    3\n1.0 10  16  4 10  ✓\nR\n16.  c  «star A will evolve into a» red supergiant star✓  For MP3, award the mark if only one of  3\nneutron star OR black hole is\nwill then explode/supernova ✓  mentioned.\ncreating a neutron star or black hole ✓\n« neutron star if core/remnant mass < the Oppenheimer–Volkoff limit/ a black hole\nif core more massive »\n16.  d  L  Award [2] for BCA.  2\nd  =  ✓\n4    b  For MP1, allow answer in unit m, value\n2.4 10    23  6.8 10    17  6.8 x 1017 m.\nd  =  −  «  =  »    22pc  ✓\n4      4.1 10    14  3.09 10    16\n16.  e  the distance is well within the limit of about 1000 pc for stellar parallax, so yes it  Accept 100 pc OR similar distance in  1\ncan✓  other units.\nAllow ECF from (d) (also converse\nargument).",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "16. The graph shows an incomplete Hertzsprung–Russell (HR) diagram. The position of the Sun and three other stars, A, B and C, are shown.\n[HR diagram: $L/L_\\odot$ against $T$ / $10^3$ K (30.0, 6.0, 3.0); main sequence through the Sun at (6.0, 1); A on the main sequence at 30.0 × 10³ K at the top; B at 3.0 × 10³ K at the same luminosity as A; C at 30.0 × 10³ K below the Sun's luminosity]\n$M_\\odot$, $R_\\odot$ and $L_\\odot$ are the mass, radius and luminosity of the Sun.\n(a) The mass of star A is $52 M_\\odot$. Show that the luminosity of star A is about $10^6 L_\\odot$. [1]\n(b) Determine the radius of star B in terms of $R_\\odot$. [3]\n(c) Describe the main stages in the evolution of star A after leaving the main sequence. [3]\n(d) The luminosity of star C is $2.4 \\times 10^{23}$ W and its apparent brightness is $4.1 \\times 10^{-14}$ W m$^{-2}$. Determine the distance, in pc, to star C. [2]\n(e) Suggest whether the method of stellar parallax can be used to measure the distance to star C. [1]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q17",
+   "num": "17",
+   "section": "D",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "17.  A distant galaxy emits light of wavelength 486 nm. The light received on Earth\nhas wavelength 512 nm.\n(a)  Determine the recession speed of the galaxy.  [2]\n(b)  Estimate the distance to the galaxy in pc. Take the Hubble constant as 72 km s-1 Mpc-1.  [1]\n(c)  Astrophysicists continue to seek an accurate value of the Hubble constant. State the\nimportance of this constant for cosmology.  [1]",
+   "ms_text": "17.  a  v  =  512  −  486  ✓  Accept 0.053 c.  2\nc  486  Accept answer in m s-1 .\n  v  =  1.6 10    4  «  kms  −  1  »  ✓\nAward [2] for BCA.\n17.  b  v  1.6 10    4  ECF from (a).  1\nd  =  =  =  222    220 Mpc  «  »  ✓\nH  72\n17.  c  it is important because it is related to the age of the universe ✓  1 max\nit is important in testing models of the universe ✓\nit is important for determining distances ✓",
+   "mcq_answer": null,
+   "topics": [
+    "C",
+    "X"
+   ],
+   "subtopics": [
+    "C.5",
+    "X.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "17. A distant galaxy emits light of wavelength 486 nm. The light received on Earth has wavelength 512 nm.\n(a) Determine the recession speed of the galaxy. [2]\n(b) Estimate the distance to the galaxy in pc. Take the Hubble constant as 72 km s$^{-1}$ Mpc$^{-1}$. [1]\n(c) Astrophysicists continue to seek an accurate value of the Hubble constant. State the importance of this constant for cosmology. [1]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q18",
+   "num": "18",
+   "section": "D",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "18.  (a)  Light from a distant intergalactic cloud shows a redshift of 1.74. Show that the size of\nthe universe when the light was emitted, relative to its present size, is 0.365.  [1]\n(b)  (i)  Demonstrate that the temperature of the cosmic microwave background (CMB)\nradiation is proportional to 1  R  where R is the cosmic scale factor of the universe.  [2]\n(ii)  The temperature of the CMB has been measured by studying carbon absorption\nlines in the intergalactic cloud in (a). The temperature measured is 7.4 K.\nCalculate the present value of the CMB temperature.  [2]",
+   "ms_text": "18.  a  R  R  1  1  1\n«  z  =  −  1  »  0  =  =  =  0.36496  ✓\nR  0  R  1  +  z  2.74\n18.  b  i  =    0  2\n«physical lengths are proportional to R so»  ✓\nR  R  0\nuse of Wien’s law    T  =  const  to get result✓\n18.  b  ii  =  R  T  R  =  2\nT  T R  0  0  OR  =  0  OR  TR  T R  0  0  ✓\nT  0  R\nT =  7.4    0.365  =  2.7 K  « »  ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "B"
+   ],
+   "subtopics": [
+    "X.12",
+    "B.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "18. (a) Light from a distant intergalactic cloud shows a redshift of 1.74. Show that the size of the universe when the light was emitted, relative to its present size, is 0.365. [1]\n(b) (i) Demonstrate that the temperature of the cosmic microwave background (CMB) radiation is proportional to $\\frac{1}{R}$ where $R$ is the cosmic scale factor of the universe. [2]\n(ii) The temperature of the CMB has been measured by studying carbon absorption lines in the intergalactic cloud in (a). The temperature measured is 7.4 K.\nCalculate the present value of the CMB temperature. [2]"
+  },
+  {
+   "id": "physics-2023-M-P3-TZ1-q19",
+   "num": "19",
+   "section": "D",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "19.  (a)  A spherical nebula has radius 9 × 1015 m and contains 1010 atoms of hydrogen\nper cubic metre. Show that the mass of the nebula is about 5 × 1031 kg.  [2]\n(b)  The Jeans mass MJ, in kg, for a nebula containing hydrogen at a Kelvin temperature T\nis given by\nT  1.5\nM  =  1.8 10  ×  33    \nJ    100  \nThe nebula in (a) has a temperature of 50 K. Suggest why this nebula will not collapse\nto form a star.  [2]\n(c)  (i)  The temperature of the nebula is decreasing. Estimate the temperature at which\nthe nebula will begin to collapse.  [2]\n(ii)  State one condition for the collapsed nebula in (c)(i) to form a star.  [1]\n(d)  The mass of the Sun is 2 × 1030 kg and the Sun will spend 8 × 109 years on the main\nsequence. The collapsed nebula in (c) also becomes a main sequence star. Estimate\nthe time this star will spend on the main sequence.  [3]",
+   "ms_text": "19.  a  V  =  4    R  3  «  =  4    (  9 10    15  )  3  =  3.05 10  m    48  3  » ✓  For MP2, values must be substituted to  show working.  2\n3  3\nM  =  3.05 10    48    10  10    1.67 10    −  27  =  5.1 10    31  «  kg  »  ✓\n19.  b    50    1.5  2\nM  J  =  «  1.8 10    33      =  »  6.4 10    32  kg  ✓\n  100  \naccording to the Jeans criterion collapse will start when the mass of the star is\ngreater than the Jeans mass✓\n«which is not the case here»\n19.  c  i    T    1.5  2\n1.8    10  33      =  5.1 10    31  ✓\n  100  \nT   9 K  ✓\n19.  c  ii  the temperature at the core must be high enough for fusion «of hydrogen» to take  1\nplace ✓\n19.  d  3.5    M  Award [3] for correct alternative  3\nM  ✓  solution OR BCA from interval 2.2 to\nt\n2.5  2.8.\nt    M  \nt  =   M    ✓\n  \n2.5\n=    2 10    30        9  =    6\nt      8  10  2.6  10 years  ✓\n  5    10  31  ",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "19. (a) A spherical nebula has radius $9 \\times 10^{15}$ m and contains $10^{10}$ atoms of hydrogen per cubic metre. Show that the mass of the nebula is about $5 \\times 10^{31}$ kg. [2]\n(b) The Jeans mass $M_J$, in kg, for a nebula containing hydrogen at a Kelvin temperature $T$ is given by\n$M_J = 1.8 \\times 10^{33}\\left(\\frac{T}{100}\\right)^{1.5}$\nThe nebula in (a) has a temperature of 50 K. Suggest why this nebula will not collapse to form a star. [2]\n(c) (i) The temperature of the nebula is decreasing. Estimate the temperature at which the nebula will begin to collapse. [2]\n(ii) State one condition for the collapsed nebula in (c)(i) to form a star. [1]\n(d) The mass of the Sun is $2 \\times 10^{30}$ kg and the Sun will spend $8 \\times 10^9$ years on the main sequence. The collapsed nebula in (c) also becomes a main sequence star. Estimate the time this star will spend on the main sequence. [3]"
+  }
+ ],
+ "qp_pages": 41,
+ "status": "done"
+}

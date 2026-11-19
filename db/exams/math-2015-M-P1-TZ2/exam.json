@@ -1,0 +1,320 @@
+{
+ "exam_id": "math-2015-M-P1-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2015,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2015 May Examination Session/Mathematics_paper_1_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2015 May Examination Session/Mathematics_paper_1_TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2215-7205; code M15/5/MATHL/HP1/ENG/TZ2/XX; marks sum matches paper total 120",
+ "qp_pages": 12,
+ "questions": [
+  {
+   "id": "math-2015-M-P1-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nA and B are two events such that P (A) = 0.25 , P (B) = 0.6 and P (A∪ B) = 0.7 .\n(a) Find P (A∩ B) . [2]\n(b) Determine whether events A and B are independent. [2]",
+   "ms_text": "1. (a) P( A ∪ B ) = P() A + P() B − P( A ∩ B )\nP( A ∩ B ) = 0.25 + 0.6 − 0.7 M1\n= 0.15 A1\n[2 marks]\n(b) EITHER\n( = × ) = P()P() A B 0.250.6 0.15 A1\n= P( A ∩ B ) so independent R1\nOR\n( ) PA ∩ B 0.15\n( ) PA B = = = 0.25 A1\nPB () 0.6\n= PA () so independent R1\nNote: Allow follow through for incorrect answer to (a) that will result in\nevents being dependent in (b).\n[2 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\n$A$ and $B$ are two events such that $P(A)=0.25$, $P(B)=0.6$ and $P(A\\cup B)=0.7$.\n(a) Find $P(A\\cap B)$. [2]\n(b) Determine whether events $A$ and $B$ are independent. [2]"
+  },
+  {
+   "id": "math-2015-M-P1-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\nExpand (3 - x)4 in ascending powers of x and simplify your answer.",
+   "ms_text": "− 4 = 4 + 3 − + 2 − 2 + − 3 + − 4 2. (3 x ) 1.3 4.3( x ) 6.3( x ) 4.3( x ) 1( x ) or equivalent (M1)(A1)\n2 3 4 = 81108 − x + 54 x − 12 x + x A1A1\nNote:A1 for ascending powers, A1 for correct coefficients including signs.\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nExpand $(3-x)^4$ in ascending powers of $x$ and simplify your answer."
+  },
+  {
+   "id": "math-2015-M-P1-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nο ο Find all solutions to the equation tan x + tan 2 x = 0 where 0 ≤ x < 360 .",
+   "ms_text": "3. tan x + tan 2 x = 0\n2tan x\ntan x + = 0 M1\n2 1 − tan x\ntan x − tan 3 x + 2tan x = 0 A1\n( 2 ) tan x 3 − tan x = 0 (M1)\nο tan x = 0 ⇒ x = 0, x = 180\nA1\nNote: If x = 360 ο seen anywhere award A0\nο ο tan x = 3 ⇒ x = 60,240\nA1\nο ο tan x =− 3 ⇒ x = 120, 300\nA1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nFind all solutions to the equation $\\tan x+\\tan 2x=0$ where $0^\\circ\\le x<360^\\circ$."
+  },
+  {
+   "id": "math-2015-M-P1-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\nConsider the function defined byf (x) = x3- 3x2+ 4 .\n(a) Determine the values ofxfor whichf (x) is a decreasing function. [4]\nThere is a point of inflexion,P, on the curvey = f (x) .\n(b) Find the coordinates ofP. [3]",
+   "ms_text": "fx () = x 3 − 3 x 2 + 4 4. (a) attempt to differentiate M1\n2 f ′ () x = 3 x − 6 x A1\n= 3( xx − 2)\n(Critical values occur at) x = 0 , x = 2 (A1)\nsofdecreasing on x∈ ] 0, 2 [ ( or 0 < x < 2) A1\n[4 marks]\n(b) f ′′ () x = 6 x − 6 (A1)\nsetting f ′′ () x = 0 M1\n⇒ x = 1\ncoordinate is (1, 2) A1\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.2",
+    "5.8",
+    "5.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\nConsider the function defined by $f(x)=x^3-3x^2+4$.\n(a) Determine the values of $x$ for which $f(x)$ is a decreasing function. [4]\nThere is a point of inflexion, P, on the curve $y=f(x)$.\n(b) Find the coordinates of P. [3]"
+  },
+  {
+   "id": "math-2015-M-P1-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\n2 15\nx 3 ln xx d= 4 ln 2 − Show that ∫ .\n1 16",
+   "ms_text": "5. anyattempt at integration by parts M1\nd u 1\nu = ln x ⇒ = (A1)\nd x x\n4 d v x\n3 x ⇒ v = (A1)\nx=\nd 4\n2 4 3\nx 2 x\n= ln x − ∫ d x A1\n4 1 4\n1\nNote: Condone absence of limits at this stage.\n2 2 4 4\nx x\n= − ln x A1\n4 16\n1 1\nNote: Condone absence of limits at this stage.\n1\n= 4ln 2 − − A1\n116\n15\n= 4ln 2 − AG\n16\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nShow that $\\int_1^2 x^3\\ln x\\,dx=4\\ln 2-\\frac{15}{16}$."
+  },
+  {
+   "id": "math-2015-M-P1-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 8]\nπ\nˆ ˆ In triangle ABCBC , = 3cmABC , = θ and BCA = .\n3\n3\n(a) Show that length AB = . [4]\n3 cos θ + sin θ\nGiven that AB has a minimum value, determine the value of θ for which this occurs. (b) [4]",
+   "ms_text": "6. (a) any attempt to use sine rule M1\nAB 3\n= A1\nπ 2π\nsin sin − θ\n3 3\n3\n= A1\n2π 2π\nsin cos θ − cos sin θ\n3 3\nNote: Condone use of degrees.\n3\n= A1\n3 1\ncos θ + sin θ\n2 2\nAB 3\n=\n3 3 1\ncos θ + sin θ\n2 2 2\n3\n∴ AB = AG\n3cos θ + sin θ\n[4 marks]\n(b) METHOD 1\n− 3 ( − 3sin θ + cos θ )\n′= (AB) M1A1\n2\n( 3cos θ + sin θ )\n′= setting (AB) 0 M1\n1\ntan θ=\n3\nπ\nθ = A1\n6\nMETHOD 2\nπ\n3sin 3\n= AB\n2π\n− θ sin\n3\n2π\nAB minimum when sin − θ is maximum M1\n3\n2π\n− θ = sin 1 (A1)\n3\n2π π\n− θ = M1\n3 2\nπ\nθ = A1\n6\nMETHOD 3\nshortest distance from B to AC is perpendicular to AC R1\nπ π π\nθ= − = M1A2\n2 3 6\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.10",
+    "5.8",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 8]\nIn triangle ABC, $BC=\\sqrt{3}$ cm, $A\\hat{B}C=\\theta$ and $B\\hat{C}A=\\frac{\\pi}{3}$.\n(a) Show that length $AB=\\frac{3}{\\sqrt{3}\\cos\\theta+\\sin\\theta}$. [4]\n(b) Given that AB has a minimum value, determine the value of $\\theta$ for which this occurs. [4]"
+  },
+  {
+   "id": "math-2015-M-P1-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 9]\n(a) Find three distinct roots of the equation 8z3+ 27 = 0 ,z ∈≤ giving your answers in\nmodulus-argument form. [6]\nThe roots are represented by the vertices of a triangle in an Argand diagram.\nShow that the area of the triangle is 273 (b) . [3]\n16",
+   "ms_text": "7. (a) METHOD 1\n27 3 27 (cos\nz=− = π+ isin π) M1(A1)\n8 8\n27cos( = ( π+2π)+ n isin( π+2π) n )\n(A1)\n8\n3 π+ 2 n π π+ 2 n π\nz = cos + isin M1\n2 3 3\nπ π\n3cos z = + isin ,\n1\n2 3 3\n3cos z= ( π+ isin π, )\n2\n2\n5π 5π\n3cos z = + isin .\nA2\n3\n2 3 3\nπ\nNote: Accept − as the argument for z3.\n3\nNote: Award A1 for 2 correct roots.\ni Note: Allow solutions expressed in Eulerian ( reθ form. )\nNote: Allow use of degrees in mod-arg (r-cis) form only.\n[6 marks]\nMETHOD 2\n3 8 z+ 27 = 0\n3\n⇒ z =− so ( 2 z + 3 ) is a factor\n2\nAttempt to use long division or factor theorem: M1\n3 ( )( 2 ) ⇒ 8 z + 27 ≡ 2 z + 3 4 z − 6 z + 9\n⇒ 4 z 2 − 6 z + 9 = 0 A1\nAttempt to solve quadratic: M1\n3 ± 33i\nz = A1\n4\nπ π\n3cos z = + isin\n,\n1\n2 3 3\nz= 3cos ( π+ π, ) isin\n2\n2\n5π 5π\n= 3cos + z isin . A2\n3\n2 3 3\nπ\n− Note: Accept as the argument for z3.\n3\nNote: Award A1 for 2 correct roots.\nNote: Allow solutions expressed in Eulerian ( reθ form. i )\nNote: Allow use of degrees in mod-arg (r-cis) form only.\n[6 marks]\nMETHOD 3\n3 8 z+ 27 = 0\nSubstitute z = x + i y M1\n8 ( x 3 + 3i xy 2 − 3 xy 2 − i y 3 ) + 27 = 0\n3 2 2 3 ⇒ 8 x − 24 xy + 27 = 0 and 24 xy − 8 y = 0 A1\nAttempt to solve simultaneously: M1\n2 2 8 y ( 3 x − y ) = 0\ny = 0, y = x 3, y =− x 3\n3 3 33\n⇒ x =− , y = 0, x = , y =± A1\n2 4 4\nπ π\n3cos z = + isin\n,\n1\n2 3 3\nz= 3cos ( π+ π, ) isin\n2\n2\n5π 5π\n= 3cos + z isin . A2\n3\n2 3 3\nπ\n− Note: Accept as the argument for z3.\n3\nNote: Award A1 for 2 correct roots.\nNote: Allow solutions expressed in Eulerian ( reθ form. i )\nNote: Allow use of degrees in mod-arg (r-cis) form only.\n[6 marks]\n(b) EITHER\n1\nValid attempt to use area 3 sin C M1 =\n2ab\n1 3 3 3\n=× 3 × × × A1A1\n2 2 2 2\nNote: Award A1 for correct sides, A1 for correct sin C.\nOR\n1\nValid attempt to use area = base × height M1\n2\n1 3 3 63\narea = × + × A1A1\n2 4 2 4\nNote:A1 for correct height, A1 for correct base.\nTHEN\n273\n= AG\n16\n[3 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 9]\n(a) Find three distinct roots of the equation $8z^3+27=0$, $z\\in\\mathbb{C}$ giving your answers in modulus-argument form. [6]\nThe roots are represented by the vertices of a triangle in an Argand diagram.\n(b) Show that the area of the triangle is $\\frac{27\\sqrt{3}}{16}$. [3]"
+  },
+  {
+   "id": "math-2015-M-P1-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\ndx\nBy using the substitution t = tan x , find ∫ .\n2 1 + sin x\nExpress your answer in the form m arctan (n tan x) +c,where m, n are constants to\nbe determined.",
+   "ms_text": "8. EITHER\nx = arctan t (M1)\nd x 1\nA1 =+\n2 d t 1 t\nOR\nt = tan x\ndt 2\nsec x (M1) dx=\n=+ 2 1 tanx A1\n=+ 2 1 t\nTHEN\nt\nsin x = (A1)\n2 1 + t\nNote:This A1 is independent of the first two marks\nd t\nd x 2 1 + t\n∫ = ∫ M1A1\n2 2 1sin + x\nt\n1 +\n2 1 + t\nNote: Award M1 for attempting to obtain integral in terms of t and dt\nd t d t\n= ∫ = ∫ A1\n2 2 2 ( 1 + t ) + t 1 + 2 t\n1 d t 1 t 1arctan\n= ∫ = × A1\n2 1 2 1 1\n+ 2 t\n2 2 2\n= 2 arctan ( )( + ) 2 tan x c A1\n2\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.15",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\nBy using the substitution $t=\\tan x$, find $\\int\\frac{dx}{1+\\sin^2 x}$.\nExpress your answer in the form $m\\arctan(n\\tan x)+c$, where $m$, $n$ are constants to be determined."
+  },
+  {
+   "id": "math-2015-M-P1-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\n(a) State the set of values of a for which the function x αlog x exists, for all x ∈ ϒ+. [2]\na\n(b) Given that log xy = 4 log yx , find all the possible expressions of y as a function ofx . [6]",
+   "ms_text": "9. (a) a > 0 A1\na ≠ 1 A1\n[2 marks]\n(b) METHOD 1\nln y ln x\nlog y = and log x = M1A1\nx y\nln x ln y\nNote: Use of any base is permissible here, not just “e”.\n2\nln y =\n4 A1\nln x\nln y =± 2ln x A1\n1 2\ny = x or A1A1\n2 x\nMETHOD 2\nlog x 1\n= x = log x M1A1\ny\nlog y log y\nx x\n2\n( log xy ) = 4 A1\nlog xy=± 2 A1\n1 2\ny = x or y = A1A1\nx 2\nNote: The final two Amarks are independent of the one\ncoming before.\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\n(a) State the set of values of $a$ for which the function $x\\mapsto\\log_a x$ exists, for all $x\\in\\mathbb{R}^+$. [2]\n(b) Given that $\\log_x y=4\\log_y x$, find all the possible expressions of $y$ as a function of $x$. [6]"
+  },
+  {
+   "id": "math-2015-M-P1-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 17]\n3 x\nThe function f is defined by fx () = , x ∈ ϒ , x ≠ 2 .\nx − 2\n(a) Sketch the graph of y =f (x) , indicating clearly any asymptotes and points of\nintersection with the x and y axes. [4]\n(b) Find an expression for f -1 (x) . [4]\n(c) Find all values of x for whichf (x) =f -1 (x) . [3]\n()<3 Solve the inequality fx\n(d) . [4]\n2\n( )<3 (e) Solve the inequality f x . [2]\n2",
+   "ms_text": "10. (a)\nNote: In the diagram, points marked A and B refer to part (d) and\ndo not need to be seen in part (a).\nshape of curve A1\nNote: This mark can only be awarded if there appear to be both\nhorizontal and vertical asymptotes.\nintersection at (0, 0) A1\nhorizontal asymptote at y = 3 A1\nvertical asymptote at x = 2 A1\n[4 marks]\n3 x\n(b) y =\nx − 2\nxy − 2 y = 3 x M1A1\nxy − 3 x = 2 y\n2 y\nx =\ny − 3\n2 x − 1\n( f () x ) = M1A1\nx − 3\nNote: Final M1 is for interchanging of x and y, which may be seen\nat any stage.\n[4 marks]\n(c) METHOD 1\nx 3 x attempt to solve 2\n= (M1)\nx − 3 x − 2\n2( xx − 2) = 3( xx − 3)\nx [ 2( x − 2) − 3( x − 3) ] = 0\nx (5 − x ) = 0\nx = 0 or x = 5 A1A1\nMETHOD 2\n3 x 2 x\nx = or x = (M1)\n− − x 2 x 3\nx = 0 or x = 5 A1A1\n[3 marks]\n(d) METHOD 1\n3 x 3 3 x 3\nat A : = AND at B: =− M1\nx − 2 2 x − 2 2\n6 x = 3 x − 6\nx =− 2 A1\n6 x = 6 − 3 x\n2\nx = A1\n3\n2\nsolution is −< 2 x < A1\n3\n[4 marks]\nMETHOD 2\n2 2\n3 x 3\n< M1\n− x 2 2\n9 2\n9 x 2 < ( x − 2 )\n4\n2 3 x + 4 x − 4 < 0\n( )( ) 3 x − 2 x + 2 < 0\nx =− 2 (A1)\n2\nx = (A1)\n3\n2\nsolution is −< 2 x < A1\n3\n[4 marks]\n−< 2 x < 2 (e) A1A1\nNote:A1 for correct end points, A1 for correct inequalities.\nNote: If working is shown, then A marks may only be awarded\nfollowing correct working.\n[2 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.16",
+    "2.8",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 17]\nThe function $f$ is defined by $f(x)=\\frac{3x}{x-2}$, $x\\in\\mathbb{R}$, $x\\ne 2$.\n(a) Sketch the graph of $y=f(x)$, indicating clearly any asymptotes and points of intersection with the $x$ and $y$ axes. [4]\n(b) Find an expression for $f^{-1}(x)$. [4]\n(c) Find all values of $x$ for which $f(x)=f^{-1}(x)$. [3]\n(d) Solve the inequality $|f(x)|<\\frac{3}{2}$. [4]\n(e) Solve the inequality $f(|x|)<\\frac{3}{2}$. [2]"
+  },
+  {
+   "id": "math-2015-M-P1-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 16]\nx + 1\nπ and gx Consider the functions fx () = tan x , 0 ≤ x < () =\n, x ∈ ϒ , x ≠ 1 .\n2 x − 1\n(a) Find an expression for gο f (x), stating its domain. [2]\n+ sin x cos x\nHence show that g fx () = (b) ο . [2]\nsin x − cos x\ny\nLet y = gο f (x), find an exact value for d\n(c) x at the point on the graph of y = gο f (x)\nd\nwhere x =π , expressing your answer in the form a + b 3, ab\n, ∈ ′. [6]\n6\n(d) Show that the area bounded by the graph of y = gο f (x), the x-axis and the lines\nx = 0 and x =π is ln1 ( + 3 ). [6]\n6",
+   "ms_text": "tan x + 1\n11. (a) g ο fx () = A1\ntan x − 1\nπ π\nx ≠ , 0 ≤ x < A1\n4 2\n[2 marks]\nsin x\n+ 1\ntan x 1 += cos x\n(b) M1A1\n− sin x tan x 1\n− 1\ncos x\nsin x + cos x\n= AG\nsin x − cos x\n[2 marks]\n(c) METHOD 1\n− − − + + d y (sin x cos)(cos x x sin) x (sin x cos)(cos x x sin) x\n= M1(A1)\n2 d x (sin x − cos) x\n2 2 2 2 ( 2sincos x x − cos x − sin x ) − ( 2sincos x x + cos x + sin x )\nd y\n=\n2 2 d x cos x + sin x − 2sincos x x\n− 2\n=\n1 − sin 2x\nSubstitute π into any formula for dy\nM1\n6 dx\n− 2\nπ 1 − sin\n3\n− 2\n= A1\n1 − 3\n2\n− 4\n=\n2 − 3\n− 4 2 + 3\n= M1\n2 − 3 2 + 3\n−− 8 43\n= =− − 8 43 A1\n1\nMETHOD 2\n2 2 d y (tan x − 1)sec x − (tan x + 1)sec x\n= M1A1\n2 d x (tan x − 1)\n2 − 2sec x\n= A1\n2 (tan x − 1)\n4 π\n2 − 2 − 2sec\n− 8 6 3\n= = = M1\n2 2 2\nπ 1 ( ) 1 − 3\ntan − 1 − 1\n6 3\nNote: Award M1 for substitution of π\n.\n6\n( 4 + 23 )\n− 8 − 8\n= =− 8 − 43 M1A1\n2 ( ) ( )\n( − ) 4 − 23 4 + 23 1 3\n[6 marks]\nπ\n6 sin x + cos\nxx (d) Area =\n∫ d M1\n− sin x cos x\n0\nπ\n6 = lnsin x − cos x A1\n0\nNote: Condone absence of limits and absence of modulus signs at\nthis stage.\nπ π\n= − − − lnsin cos ln sin 0 cos0 M1\n6 6\n1 3\n= ln − − 0\n2 2\n3 − 1\n= ln A1\n2\n3 − 1 2\n=− ln = ln A1\n2 3 − 1\n2 3 + 1\n= ln × M1\n3 − 1 3 + 1\n= ( + ) ln 3 1 AG\n[6 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.11",
+    "5.10",
+    "5.15",
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 16]\nConsider the functions $f(x)=\\tan x$, $0\\le x<\\frac{\\pi}{2}$ and $g(x)=\\frac{x+1}{x-1}$, $x\\in\\mathbb{R}$, $x\\ne 1$.\n(a) Find an expression for $g\\circ f(x)$, stating its domain. [2]\n(b) Hence show that $g\\circ f(x)=\\frac{\\sin x+\\cos x}{\\sin x-\\cos x}$. [2]\n(c) Let $y=g\\circ f(x)$, find an exact value for $\\frac{dy}{dx}$ at the point on the graph of $y=g\\circ f(x)$ where $x=\\frac{\\pi}{6}$, expressing your answer in the form $a+b\\sqrt{3}$, $a,b\\in\\mathbb{Z}$. [6]\n(d) Show that the area bounded by the graph of $y=g\\circ f(x)$, the $x$-axis and the lines $x=0$ and $x=\\frac{\\pi}{6}$ is $\\ln(1+\\sqrt{3})$. [6]"
+  },
+  {
+   "id": "math-2015-M-P1-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 14]\nThe cubic equation x3+ px2+ qx + c = 0 , has roots α , β , γ . By expanding\n(x - α) (x - β ) (x - γ ) show that\n(a) (i) p = -(α+ β + γ ) ;\n(ii) q = αβ+ βγ + γα ;\n(iii) c = -αβγ . [3]\nIt is now given that p = - 6 and q = 18 for parts (b) and (c) below.\n(b) (i) In the case that the three roots α , β , γ form an arithmetic sequence, show that\none of the roots is 2.\n(ii) Hence determine the value of c . [5]\n(c) In another case the three roots α , β , γ form a geometric sequence. Determine the\nvalue of c . [6]",
+   "ms_text": "12. (a) (i)–(iii) given the three roots αβγ, we have , ,\n3 + 2 + + = − α − β − γ x px qx c ( x )( x )( x ) M1\n2 = ( x − ( α + β ) x + αβ ) ( x − γ ) A1\n= 3 − α + β + γ 2 + αβ + βγ + γα − αβγ x ( ) x ( ) x A1\ncomparing coefficients:\np =− ( α + β + γ ) AG\nq = ( αβ + βγ + γα ) AG\nc =− αβγ AG\n[3 marks]\n(b) METHOD 1\ni) Given − α − β − γ =− 6\nAnd αβ + βγ + γα = 18\nLet the three roots be , αβγ. ,\nSo β − α = γ − β M1\nor 2β = α + γ\nAttempt to solve simultaneous equations: M1\nβ + 2 β = 6 A1\nβ= 2 AG\nii) α + γ = 4\n2 α + 2 γ + αγ = 18\n2 ⇒ γ − 4 γ + 10 = 0\n4 ± i 24\n⇒ γ = (A1)\n2\n4 + i 24 4 − i 242\nTherefore c =− αβγ =− =− 20 A1\n2 2\n[5 marks]\nMETHOD 2\nαα − α + (i) let the three roots be , d , d M1\nadding roots M1\nto give 3 α= 6 A1\nα= 2 AG\nα is a root, so 2 3 −× 62 2 + 182 ×+ c = 0 (ii) M1\n8 − 24 + 36 + c = 0\nc =− 20 A1\n[5 marks]\nMETHOD 3\n(i) let the three roots be αα , − d , α + d M1\nadding roots M1\nto give 3 α= 6 A1\nα= 2 AG\n(ii) q = 18 = 2(2 − d ) + (2 − d )(2 + d ) + 2(2 + d ) M1\nd 2 =− 6 ⇒ d = 6 i\n⇒ c =− 20 A1\n[5 marks]\n(c) METHOD 1\n− α − β − γ =− Given 6\nAnd αβ + βγ + γα = 18\nLet the three roots be , αβγ. ,\nγ So β\n= M1\nα β\n2 or β = αγ\nAttempt to solve simultaneous equations: M1\n2 αβ + γβ + β = 18\n( ) βα + β + γ = 18\n6 β= 18\nβ= 3 A1\n9\nα + γ = 3 , α =\nγ\n⇒ γ 2 − γ + = 3 9 0\n3 ± i 27\n⇒ γ = (A1)(A1)\n2\n3 + i 27 3 − i 273\nTherefore c =− αβγ =− =− 27 A1\n2 2\n[6 marks]\nMETHOD 2\n2 let the three roots be aarar , , M1\n2 attempt at substitution of aarar and p and q into equations from (a) , , M1\n2 2 6 = a + ar + ar ( = a ( 1 ++ r r ) ) A1\n2 2 3 2 2 2 2 18 = ar + ar + ar ( = ar ( 1 ++ r r ) ) A1\ntherefore 3 = ar A1\nc =− ar 3 3 =− 33 =− 27 therefore A1\n[6 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "1.3",
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 14]\nThe cubic equation $x^3+px^2+qx+c=0$, has roots $\\alpha,\\beta,\\gamma$. By expanding $(x-\\alpha)(x-\\beta)(x-\\gamma)$ show that\n(a) (i) $p=-(\\alpha+\\beta+\\gamma)$;\n(ii) $q=\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha$;\n(iii) $c=-\\alpha\\beta\\gamma$. [3]\nIt is now given that $p=-6$ and $q=18$ for parts (b) and (c) below.\n(b) (i) In the case that the three roots $\\alpha,\\beta,\\gamma$ form an arithmetic sequence, show that one of the roots is 2.\n(ii) Hence determine the value of $c$. [5]\n(c) In another case the three roots $\\alpha,\\beta,\\gamma$ form a geometric sequence. Determine the value of $c$. [6]"
+  },
+  {
+   "id": "math-2015-M-P1-TZ2-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 13]\n1\n(a) Show that = n +− 1 n where n ≥ 0 , n∈′ . [2]\nn + n + 1\n1\n(b) Hence show that 2 −< 1 . [2]\n2\nrn = 1\n∑ > n for n ≥ 2 , n∈′ . (c) Prove, by mathematical induction, that [9]\nr r = 1",
+   "ms_text": "1 1 n +− 1 n\n13. (a) = × M1\nn + n + 1 n + n + 1 n +− 1 n\nn +− 1 n\n= A1\n( n + 1) − n\n= n +− 1 n AG\n[2 marks]\n1\n(b) 2 −= 1 A2\n2 + 1\n1\n< AG\n2\n[2 marks]\n1\n(c) consider the case n = 2 : required to prove that 1 + > 2 M1\n2\nfrom part (b) 1 > 2 − 1\n2\n1\n+ > n = hence 1 2 is true for 2 A1\n2\nrk = 1\nnow assume true for n = k : ∑ > k M1\nr r = 1\n1 1\n+ Κ + > k\n1 k\n+: 1 1 1 attempt to prove true for n = k 1 + Κ + + > k + 1 (M1)\n1 k k + 1\n1 1 1 from assumption, we have that 1\n+ + + > + Κ k M1\n1 k k + 1 k + 1\n1\nso attempt to show that k + > k + 1 (M1)\nk + 1\nEITHER\n1\n> k +− 1 k A1\n+ k 1\n1 1\n> , (from part a), which is true A1\nk + 1 k + k + 1\nOR\n1 k + 1 k + 1\nk + = . A1\nk + 1 k + 1\nk k + 1\n> = k + 1 A1\nk + 1\nTHEN\nso true for n = 2 and n = k true ⇒ n = k + true. Hence true for all 1 n ≥ 2 R1\nNote: Award R1 only if all previous M marks have been awarded.\n[9 marks]\nTotal[13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15",
+    "1.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 13]\n(a) Show that $\\frac{1}{\\sqrt{n}+\\sqrt{n+1}}=\\sqrt{n+1}-\\sqrt{n}$ where $n\\ge 0$, $n\\in\\mathbb{Z}$. [2]\n(b) Hence show that $\\sqrt{2}-1<\\frac{1}{\\sqrt{2}}$. [2]\n(c) Prove, by mathematical induction, that $\\sum_{r=1}^{r=n}\\frac{1}{\\sqrt{r}}>\\sqrt{n}$ for $n\\ge 2$, $n\\in\\mathbb{Z}$. [9]"
+  }
+ ],
+ "status": "done"
+}

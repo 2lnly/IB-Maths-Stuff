@@ -1,0 +1,267 @@
+{
+ "exam_id": "math-2018-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2018,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2018 November Examination Session/Mathematics_paper_2__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2018 November Examination Session/Mathematics_paper_2__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8818-7202; code N18/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches paper total 100",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2018-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nConsider a geometric sequence with a first term of 4 and a fourth term of -2.916 .\n(a) Find the common ratio of this sequence. [3]\n(b) Find the sum to infinity of this sequence. [2]",
+   "ms_text": "3 3 1. (a) u = u r ⇒− 2.916 = 4 r (A1)\n4 1\nr =− 0.9 solving, (M1)A1\n[3 marks]\n4\n(b) S ∞= (M1)\n−− 1 (0.9)\n40 ( = = 2.11) A1\n19\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nConsider a geometric sequence with a first term of $4$ and a fourth term of $-2.916$.\n(a) Find the common ratio of this sequence. [3]\n(b) Find the sum to infinity of this sequence. [2]"
+  },
+  {
+   "id": "math-2018-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 7]\nA function f satisfies the conditions f (0) =-4 , f (1) = 0 and its second derivative is\n1\n′′ f () x = 15 x + x ≥ 0 .\n), 2\n( x + 1\nFind f (x) .",
+   "ms_text": "3\n1 1\n2. f ′ () x = 15 x + d x = 10 x 2 − ( + c ) (M1)A1A1 ∫\n2 ( x + 1) x + 1\nNote:A1 for first term, A1 for second term. Withhold one A1 if extra terms are seen.\n3 5\n1\n= 2 − + = 2 − + + + fx () ∫ 10 x c d x 4 x ln( x 1) cx d A1\nx + 1\n3\nB\nNote: Allow FT from incorrect f ′x ()if it is of the form f ′() = x Ax 2 + +c .\nx + 1\nAccept lnx+ 1 .\nfx () attempt to use at least one boundary condition in their (M1)\nx = 0, y =− 4\n⇒ d =− 4 A1\nx = 1, y = 0\n⇒ 0 = 4 − ln 2 + c − 4\n⇒ c = ln 2 ( = 0.693 ) A1\n5\nfx () = 4 x 2 − ln( x + 1) + x ln 2 − 4\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 7]\nA function $f$ satisfies the conditions $f(0)=-4$, $f(1)=0$ and its second derivative is $f''(x)=15\\sqrt{x}+\\frac{1}{(x+1)^2}$, $x \\geq 0$.\nFind $f(x)$.",
+   "review_note": "audit: power rule and 1/(x+1)->ln are SL 5.10; no 5.15 function"
+  },
+  {
+   "id": "math-2018-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 8]\nIt is known that 56 % of Infiglow batteries have a life of less than 16 hours, and 94 % have\na life less than 17 hours. It can be assumed that battery life is modelled by the normal\ndistribution N(µ , σ 2) .\n(a) Find the value of µ and the value of σ . [6]\n(b) Find the probability that a randomly selected Infiglow battery will have a life of at least\n15 hours. [2]",
+   "ms_text": "3. (a) use of inverse normal (implied by ±0.1509… or ±1.554…) (M1)\nP( X < 16) = 0.56\n− μ 16\n⇒ = 0.1509 … (A1)\nσ\nP( X < 17) = 0.94\n17 − μ\n⇒ = 1.554 … (A1)\nσ\nattempt to solve a pair of simultaneous equations (M1)\nμ = 15.9, σ = 0.712 A1A1\n[6 marks]\n(b) correctly shaded diagram or intent to find P( X ≥ 15) (M1)\n= 0.895 A1\nNote: Accept answers rounding to 0.89 or 0.90. Award M1A0 for the answer 0.9.\n[2 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 8]\nIt is known that 56% of Infiglow batteries have a life of less than 16 hours, and 94% have a life less than 17 hours. It can be assumed that battery life is modelled by the normal distribution $N(\\mu, \\sigma^2)$.\n(a) Find the value of $\\mu$ and the value of $\\sigma$. [6]\n(b) Find the probability that a randomly selected Infiglow battery will have a life of at least 15 hours. [2]"
+  },
+  {
+   "id": "math-2018-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\n5\n3 4\nFind the value of the constant term in the expansion of x x +\n. x 2",
+   "ms_text": "4. METHOD 1\n5 3\n3 5 3 2\nx + = Κ + x + Κ (M1)(A1)(A1)\n2 2 x 2 x\n3 , Note: Award M1 for a product of a binomial coefficient, a power of x , and a power of\n2 x\nA1 for correct binomial coefficient, A1 for correct powers.\n27 270\n= Κ + 10 × + Κ = Κ + + Κ (A1)\n4 4 x x\n270\n4\nconstant term is x\n4 x\n= 270 A1\nMETHOD 2\nEITHER\n5 − r 5\n3 4 r\nthe general term is x x (M1)(A1)\n2 r x\n3\nNote: Award M1 for a product of a binomial coefficient, power(s) of x , and a power of\nx. 2\nr + 4 5 x 5\n5 − r 5 − r 3 r − 6 = × 3 × = × 3 x\n102 − r r x r\nr = 2 constant term occurs when (A1)\nOR\nr 5\n3 4 5 − r\nthe general term is x x (M1)(A1)\n2 5 − r x\n3\nNote: Award M1 for a product of a binomial coefficient, power(s) of x , and a power of\nx. 2\n9 − r 5 x 5\nr r 93 − r = × 3 × = × 3 x\n2 r 5 − r x 5 − r\nconstant term occurs when r = 3 (A1)\nTHEN\n5 3\n() 3 (A1)\n2\n= 270 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nFind the value of the constant term in the expansion of $x^4\\left(x+\\frac{3}{x^2}\\right)^5$."
+  },
+  {
+   "id": "math-2018-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nDifferentiate from first principles the function f (x) = 3x3-x .",
+   "ms_text": "5. METHOD 1\nfx ( + h ) − fx ()\nh\n( + 3 − + ) − ( 3 − ) 3( x h ) ( x h ) 3 x x\n= M1\nh\n( 3 2 2 3 ) 3 3 x + 3 xh + 3 xh + h − x − h − 3 x + x\n= (A1)\nh\n2 2 3 9 xh + 9 xh + 3 h − h\n= A1\nh\ncancelling h M1\n= 2 + + 2 − 9 x 9 xh 3 h 1\n2 2 then lim9 ( x + 9 xh + 3 h − 1 )\nh → 0\n= 2 − 9 x 1 A1\nNote: Final A1 dependent on all previous marks.\nMETHOD 2\nfx ( + h ) − fx ()\nh\n( 3 ) ( 3 ) 3( x + h ) − ( x + h ) − 3 x − x\n= M1\nh\n3 3 3( ( x + h ) − x ) + ( x − ( x + h ) )\n= (A1)\nh\n2 (\n( + ) + ( + ) + 2 ) − 3 h x h xx h x h\n= A1\nh\ncancelling h M1\n2 2\n= 3 ( ( xh + ) + xxh ( + ) + x ) − 1\n2 ( (\n( ) ( ) 2 ) ) then lim3 x + h + xx + h + x − 1\nh → 0\n2 = 9 x − 1 A1\nNote: Final A1 dependent on all previous marks.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\nDifferentiate from first principles the function $f(x)=3x^3-x$."
+  },
+  {
+   "id": "math-2018-N-P2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nLet P(x) = 2x4- 15x3+ax2+bx + c , where a , b , c ∈ϒ .\n(a) Given that (x -5) is a factor of P(x) , find a relationship between a ,b and c . [2]\n(b) Given that (x -5)2 is a factor of P(x) , write down the value of P'(5) . [1]\n(c) Given that (x -5)2 is a factor of P(x) , and that a= 2 , find the values of b and c . [3]",
+   "ms_text": "6. (a) attempt to substitute x = 5 and set equal to zero, or use of long /\nsynthetic division (M1)\n4 3 2 2 × 5 − 15 × 5 + a × 5 + 5 b + c = 0 A1\n( ⇒ 25 a + 5 b + c = 625)\n[2 marks]\n0 (b) A1\n[1 mark]\n(c) EITHER\nattempt to solve P ′ (5) = 0 (M1)\n⇒ × 3 − × 2 + × + = 8 5 45 5 4 5 b 0\nOR\n2 2 4 3 2 ( x − 10 x + 25 )( 2 x + α x + β ) = 2 x − 15 x + 2 x + bx + c\n(M1)\ncomparing coefficients gives α = 5, β = 2\nTHEN\nb = 105 A1\n∴ c = 625 − 25 × 2 − 525\nc = 50 A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.12",
+    "5.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nLet $P(x)=2x^4-15x^3+ax^2+bx+c$, where $a, b, c \\in \\mathbb{R}$.\n(a) Given that $(x-5)$ is a factor of $P(x)$, find a relationship between $a$, $b$ and $c$. [2]\n(b) Given that $(x-5)^2$ is a factor of $P(x)$, write down the value of $P'(5)$. [1]\n(c) Given that $(x-5)^2$ is a factor of $P(x)$, and that $a=2$, find the values of $b$ and $c$. [3]"
+  },
+  {
+   "id": "math-2018-N-P2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nBoat A is situated 10km away from boat B, and each boat has a marine radio transmitter on\nboard. The range of the transmitter on boat A is 7km, and the range of the transmitter on\nboat B is 5km. The region in which both transmitters can be detected is represented by the\nshaded region in the following diagram. Find the area of this region.\nA B",
+   "ms_text": "7.\nuse of cosine rule (M1)\n49 + 100 − 25\nˆ ο CAB=arccos = 0.48276 …= ( 27.660...) (A1)\n2 × 7 × 10\n25 + 100 − 49\nˆ = …= ο CBA=arccos 0.70748 ( 40.535...) (A1)\n2 × 5 × 10\nattempt to subtract triangle area from sector area (M1)\n1 1\n= × 492CAB ( ˆ − sin 2CAB ˆ ) + × 252CBA ( ˆ − sin 2CBA ˆ ) area\n2 2\n= 3.5079... + 5.3385... (A1)\nNote: Award this A1 for either of these two values.\n( 2 ) = 8.85km A1\nNote: Accept all answers that round to 8.8 or 8.9.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nBoat A is situated 10km away from boat B, and each boat has a marine radio transmitter on board. The range of the transmitter on boat A is 7km, and the range of the transmitter on boat B is 5km. The region in which both transmitters can be detected is represented by the shaded region in the following diagram. Find the area of this region.\n[Diagram: circle centre A radius 7 and circle centre B radius 5, with AB = 10 drawn; the overlapping lens-shaped region is shaded]"
+  },
+  {
+   "id": "math-2018-N-P2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\nax + c 1\nConsider the function fx () = , x ≠− , where a , b , c ∈′ .\nbx + c b\nThe following graph shows the curve y = (f (x))2 . It has asymptotes at x =p and y =q and\nmeets the x-axis at A .\ny\ny = q\nx\nA 0\nx = p\n(a) On the following axes, sketch the two possible graphs of y =f (x) giving the equations\nof any asymptotes in terms of p and q . [4]\ny y\nx x\nA 0 A 0\n1\nGiven that p=4 (b)\n3 ,q=4 9 and A has coordinates − , , determine the possible 20\nsets of values for a , b and c . [4]",
+   "ms_text": "8. (a)\neither graph passing through (or touching) A A1\ncorrect shape and vertical asymptote with correct equation for either graph A1\ncorrect horizontal asymptote with correct equation for either graph A1\ntwo completely correct sketches A1\n[4 marks]\n1\n(b) a − + 1 = 0 ⇒ a = 2 A1\n2\n2\na = 4\nfrom horizontal asymptote, (M1)\nb 9\na 2\n⇒ b =± 3 A1\nb=±\n3\n4 +\nfrom vertical asymptote, b c = 0\n3\nb = 3, c =− 4 or b =− 3, c = 4 A1\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\nConsider the function $f(x)=\\frac{ax+1}{bx+c}$, $x \\neq -\\frac{c}{b}$, where $a, b, c \\in \\mathbb{Z}$.\nThe following graph shows the curve $y=(f(x))^2$. It has asymptotes at $x=p$ and $y=q$ and meets the $x$-axis at A.\n[Graph: curve $y=(f(x))^2$ with vertical asymptote $x=p$ (p>0), horizontal asymptote $y=q$, touching the x-axis at A (negative x), rising to infinity either side of $x=p$]\n(a) On the following axes, sketch the two possible graphs of $y=f(x)$ giving the equations of any asymptotes in terms of $p$ and $q$. [4]\n[Two blank sets of axes, each with point A marked on the negative x-axis]\n(b) Given that $p=\\frac{4}{3}$, $q=\\frac{4}{9}$ and A has coordinates $\\left(-\\frac{1}{2}, 0\\right)$, determine the possible sets of values for $a$, $b$ and $c$. [4]"
+  },
+  {
+   "id": "math-2018-N-P2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 19]\n2 ln x + 1\n= < < The function f is defined by fx () , 0 x 3.\nx − 3\n(a) Find f '(x) . [4]\n(b) Hence, or otherwise, find the coordinates of the point of inflexion on the graph\nof y =f (x) . [4]\n(c) Draw a set of axes showing x and y values between -3 and 3 . On these axes\n(i) sketch the graph of y =f (x) , showing clearly any axis intercepts and giving the\nequations of any asymptotes.\n(ii) sketch the graph of y =f -1(x) , showing clearly any axis intercepts and giving the\nequations of any asymptotes. [8]\nHence, or otherwise, solve the inequality f (x) >f -1(x) . (d) [3]",
+   "ms_text": "9. (a) METHOD 1\n2( x − 3)\n− (2ln x + 1)\n2( x − 3) − x ( 2ln x + 1 ) x\nf ′ () x = = (M1)A1A1A1\n− 2 − 2 ( x 3) xx ( 3)\nNote: Award M1 for attempt at quotient rule, A1A1 for numerator and A1 for denominator.\nMETHOD 2\n− 1\nfx () = ( 2ln x + 1 )( x − 3 ) (A1)\n− − ( + ) 2 − 1 − 2 2( x 3) x 2ln x 1\n′ ( ) ( )( ) f () x = x − 3 − 2ln x + 1 x − 3 = (M1)A1A1\n2 x xx ( − 3)\nNote: Award M1 for attempt at product rule, A1 for first term, A1 for second term.\n[4 marks]\n(b) finding turning point of y = f ′ () xor finding root of y = f ′′ () x (M1)\nx = 0.899 A1\ny = f (0.899048 …=− ) 0.375 (M1)A1\n(0.899, − 0.375)\nNote: Do not accept x= 0.9. Accept y-coordinates rounding to −0.37 or −0.375 but not −0.38.\n[4 marks]\n(c)\n(i) smooth curve over the correct domain which does not cross the y-axis\nand is concave down for x> 1 A1\nx-intercept at 0.607 A1\nequations of asymptotes given as x= 0 andx= 3 (the latter must\nbe drawn) A1A1\n[4 marks]\n(ii) attempt to reflect graph of f in y = x (M1)\nsmooth curve over the correct domain which does not cross the x-axis\nand is concave down for y > 1 A1\ny-intercept at 0.607 A1\nequations of asymptotes given as y= 0 andy= 3 (the latter must\nbe drawn) A1\nNote: For FT from (i) to (ii) award maxM1A0A1A0.\n[4 marks]\n− 1\n(d) solve fx () = f () x or fx ()= x to get x = 0.372 (M1)A1\n0 < x < 0.372 A1\nNote: Do not awardFTmarks.\n[3 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.3",
+    "2.5",
+    "5.6",
+    "5.7",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 19]\nThe function $f$ is defined by $f(x)=\\frac{2\\ln x+1}{x-3}$, $0<x<3$.\n(a) Find $f'(x)$. [4]\n(b) Hence, or otherwise, find the coordinates of the point of inflexion on the graph of $y=f(x)$. [4]\n(c) Draw a set of axes showing $x$ and $y$ values between $-3$ and $3$. On these axes\n(i) sketch the graph of $y=f(x)$, showing clearly any axis intercepts and giving the equations of any asymptotes.\n(ii) sketch the graph of $y=f^{-1}(x)$, showing clearly any axis intercepts and giving the equations of any asymptotes. [8]\n(d) Hence, or otherwise, solve the inequality $f(x)>f^{-1}(x)$. [3]"
+  },
+  {
+   "id": "math-2018-N-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 18]\nWillow finds that she receives approximately 70 emails per working day.\nShe decides to model the number of emails received per working day using the random\nvariable X , where X follows a Poisson distribution with mean 70.\n(a) Using this distribution model, find\n(i) P(X < 60)\n(ii) the standard deviation of X . [4]\n(b) In order to test her model, Willow records the number of emails she receives per\nworking day over a period of 6 months. The results are shown in the following table.\nNumber of emails received (x) Number of days\n40 ≤ x ≤49 2\n50 ≤ x ≤59 15\n60 ≤ x ≤69 40\n70 ≤ x ≤79 53\n80 ≤ x ≤89 0\n90 ≤ x ≤99 1\n100 ≤ x ≤109 3\n110 ≤ x ≤119 6\nFrom the table, calculate\n(i) an estimate for the mean number of emails received per working day;\n(ii) an estimate for the standard deviation of the number of emails received per\nworking day. [5]\n(c) Give one piece of evidence that suggests Willow’s Poisson distribution model is not a\ngood fit. [1]\nArchie works for a different company and knows that he receives emails according to a\nPoisson distribution, with a mean of λ emails per day.\n(d) Suppose that the probability of Archie receiving more than 10 emails in total on any one\nday is 0.99. Find the value of λ . [3]\n(e) Now suppose that Archie received exactly 20 emails in total in a consecutive two day\nperiod. Show that the probability that he received exactly 10 of them on the first day is\nindependent of λ . [5]",
+   "ms_text": "10. (a) (i) P( X < 60)\n= P( X ≤ 59) (M1)\n= 0.102 A1\n(ii) standard deviation = 70 ( = 8.37 ) (M1)A1\n[4 marks]\n(b) (i) use of midpoints (accept consistent use of 45, 55 etc.) (M1)\n44.5 × 2 + 54.5 × 15 + 64.5 × 40 + 74.5 × 53 + 94.5 + 104.5 × 3 + 114.5 × 6\n2 + 15 + 40 + 53 + 0 + 1 + 3 + 6\n(M1)\n8530 (71.1) = =\nA1\n120\nNote: If 45, 55, etc. are used consistently instead of midpoints (implied by the answer\n71.58…) awardM1M1A0.\n(ii) 13.9 (M1)A1\n[5 marks]\n(c) valid reason givento include the examples below R1\nvariance is 192 which is not close to the mean (accept not equal to)\nstandard deviation too high (using parts (a)(ii) and (b)(ii))\nrelative frequency of X ≤ 59 is 0.142 which is too high (using part (a)(i))\nPoisson would give a frequency of roughly 14 for 80 ≤ X ≤ 89\nNote: Reasons which do not use values found in previous parts must be backed up with\nnumerical evidence.\n[1 mark]\n> = (d) P( Y 10) 0.99\n− ≤ = ⇒ ≤ = 1 P( Y 10) 0.99 P( Y 10) 0.01 (M1)\nattempt to solve a correct equation (M1)\nλ = 20.1 A1\n[3 marks]\n(e) in 1 day, no of emails is X ~Po() λ\nin 2 days, no of emails is Y ~Po(2) λ (A1)\nP(10 on first day | 20 in 2 days) (M1)\nP( X = 10) × P( X = 10)\n= (M1)\n= P( Y 20)\n10 − λ 2 λ e\n10!\n= A1\n20 − 2 λ (2) λ e\n20!\n20 − 2 λ λ e 20!\n= × A1\n20 20 − 2 λ 2 2 λ e (10!)\n20!\n=\n20 2\n2(10!)\nwhich is independent of λ AG\n[5 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.3",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 18]\nWillow finds that she receives approximately 70 emails per working day.\nShe decides to model the number of emails received per working day using the random variable $X$, where $X$ follows a Poisson distribution with mean 70.\n(a) Using this distribution model, find\n(i) $P(X<60)$\n(ii) the standard deviation of $X$. [4]\n(b) In order to test her model, Willow records the number of emails she receives per working day over a period of 6 months. The results are shown in the following table.\nNumber of emails received ($x$) | Number of days\n$40 \\le x \\le 49$ | 2\n$50 \\le x \\le 59$ | 15\n$60 \\le x \\le 69$ | 40\n$70 \\le x \\le 79$ | 53\n$80 \\le x \\le 89$ | 0\n$90 \\le x \\le 99$ | 1\n$100 \\le x \\le 109$ | 3\n$110 \\le x \\le 119$ | 6\nFrom the table, calculate\n(i) an estimate for the mean number of emails received per working day;\n(ii) an estimate for the standard deviation of the number of emails received per working day. [5]\n(c) Give one piece of evidence that suggests Willow's Poisson distribution model is not a good fit. [1]\nArchie works for a different company and knows that he receives emails according to a Poisson distribution, with a mean of $\\lambda$ emails per day.\n(d) Suppose that the probability of Archie receiving more than 10 emails in total on any one day is 0.99. Find the value of $\\lambda$. [3]\n(e) Now suppose that Archie received exactly 20 emails in total in a consecutive two day period. Show that the probability that he received exactly 10 of them on the first day is independent of $\\lambda$. [5]"
+  },
+  {
+   "id": "math-2018-N-P2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 13]\nConsider the rectangle OABC such that AB = OC = 10 and BC = OA = 1 , with the points\nP , Q and R placed on the line OC such that OP =p , OQ =q and OR =r, such that\n0 <p<q<r< 10 .\nA 10 B\n1\nO P Q R C\nLet θp be the angle APO , θq be the angle AQO and θr be the angle ARO .\n(a) Find an expression for θp in terms of p . [3]\nConsider the case when θp= θq+ θr and QR = 1 .\n2 q + q −\n1\n(b) Show that p = . [6]\n2 q + 1\n(c) By sketching the graph of p as a function of q , determine the range of values of p for\nwhich there are possible values of q . [4]",
+   "ms_text": "11. (a) METHOD 1\nuse of tan (M1)\n1\ntan θ= (A1)\np\np\n1\nθ = arctan A1\np\np\nMETHOD 2\n2 AP = p + 1\n(A1)\nuse of sin, cos, sine rule or cosine rule using the correct length of AP (M1)\n1 p\nθ = arcsin or θ = arccos A1\np p 2 2\np + 1 p + 1\n[3 marks]\n(b) QR =⇒ 1 r = q + 1 (A1)\nNote: This may be seen anywhere.\ntan θ = tan ( θ + θ )\np q r\nattempt to use compound angle formula for tan M1\ntan θ + tan θ\nθ q r tan (A1)\np =−\n1 tan θ tan θ\nq r\n1 1\n+\n1 q r\n= (M1)\np 1 1\n1 −\nq r\n1 1 1 1\n+ 1 −\n1 q q + 1 q q + 1\n= or p = A1\np 1 1 1 1\n+ 1 −\nq q + 1 q q + 1\n1 q + q + 1\n= M1\np qq ( + 1) − 1\nNote: Award M1 for multiplying top and bottom by ( qq + 1) .\n2 q + q − 1\np = AG\n2 q + 1\n[6 marks]\n(c)\nincreasing function with positive q-intercept A1\nNote: Accept curves which extend beyond the domain shown above.\n( ) 0.618 < q < 9 (A1)\n⇒ range is ( 0 < ) p < 4.68 (A1)\n0 < p < 4.68 A1\n[4 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.2",
+    "3.9",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 13]\nConsider the rectangle OABC such that $AB=OC=10$ and $BC=OA=1$, with the points P, Q and R placed on the line OC such that $OP=p$, $OQ=q$ and $OR=r$, such that $0<p<q<r<10$.\n[Diagram: rectangle OABC with OA = 1, AB = 10; points P, Q, R on OC joined to A]\nLet $\\theta_p$ be the angle APO, $\\theta_q$ be the angle AQO and $\\theta_r$ be the angle ARO.\n(a) Find an expression for $\\theta_p$ in terms of $p$. [3]\nConsider the case when $\\theta_p=\\theta_q+\\theta_r$ and $QR=1$.\n(b) Show that $p=\\frac{q^2+q-1}{2q+1}$. [6]\n(c) By sketching the graph of $p$ as a function of $q$, determine the range of values of $p$ for which there are possible values of $q$. [4]"
+  }
+ ],
+ "status": "done"
+}

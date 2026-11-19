@@ -1,0 +1,910 @@
+{
+ "math": {
+  "topics": [
+   {
+    "code": "1",
+    "name": "Number and algebra",
+    "subtopics": [
+     {
+      "code": "1.1",
+      "name": "Scientific notation"
+     },
+     {
+      "code": "1.2",
+      "name": "Arithmetic sequences and series"
+     },
+     {
+      "code": "1.3",
+      "name": "Geometric sequences and series"
+     },
+     {
+      "code": "1.4",
+      "name": "Financial applications of geometric sequences"
+     },
+     {
+      "code": "1.5",
+      "name": "Laws of exponents (integer); introduction to logarithms"
+     },
+     {
+      "code": "1.6",
+      "name": "Simple deductive proof"
+     },
+     {
+      "code": "1.7",
+      "name": "Laws of exponents (rational) and laws of logarithms"
+     },
+     {
+      "code": "1.8",
+      "name": "Sum of infinite geometric series"
+     },
+     {
+      "code": "1.9",
+      "name": "Binomial theorem"
+     },
+     {
+      "code": "1.10",
+      "name": "Counting principles, permutations, combinations; extended binomial theorem"
+     },
+     {
+      "code": "1.11",
+      "name": "Partial fractions"
+     },
+     {
+      "code": "1.12",
+      "name": "Complex numbers: Cartesian form"
+     },
+     {
+      "code": "1.13",
+      "name": "Complex numbers: modulus-argument (polar) and Euler form"
+     },
+     {
+      "code": "1.14",
+      "name": "Complex conjugate roots; De Moivre's theorem; roots of complex numbers"
+     },
+     {
+      "code": "1.15",
+      "name": "Proof by induction, contradiction and counterexample"
+     },
+     {
+      "code": "1.16",
+      "name": "Systems of linear equations"
+     },
+     {
+      "code": "1.L1",
+      "name": "Matrices and determinants (legacy)"
+     }
+    ]
+   },
+   {
+    "code": "2",
+    "name": "Functions",
+    "subtopics": [
+     {
+      "code": "2.1",
+      "name": "Equations of straight lines"
+     },
+     {
+      "code": "2.2",
+      "name": "Concept of a function; domain, range, graph; inverse as reflection"
+     },
+     {
+      "code": "2.3",
+      "name": "Graph of a function; sketching"
+     },
+     {
+      "code": "2.4",
+      "name": "Key features of graphs; intersections of curves"
+     },
+     {
+      "code": "2.5",
+      "name": "Composite and inverse functions"
+     },
+     {
+      "code": "2.6",
+      "name": "Quadratic functions"
+     },
+     {
+      "code": "2.7",
+      "name": "Quadratic equations and inequalities; the discriminant"
+     },
+     {
+      "code": "2.8",
+      "name": "Reciprocal and simple rational functions"
+     },
+     {
+      "code": "2.9",
+      "name": "Exponential and logarithmic functions"
+     },
+     {
+      "code": "2.10",
+      "name": "Solving equations analytically and graphically"
+     },
+     {
+      "code": "2.11",
+      "name": "Transformations of graphs"
+     },
+     {
+      "code": "2.12",
+      "name": "Polynomial functions; factor and remainder theorems; sums and products of roots"
+     },
+     {
+      "code": "2.13",
+      "name": "Rational functions"
+     },
+     {
+      "code": "2.14",
+      "name": "Odd and even functions; self-inverse functions; domain restriction"
+     },
+     {
+      "code": "2.15",
+      "name": "Solving inequalities graphically and analytically"
+     },
+     {
+      "code": "2.16",
+      "name": "Graphs of |f(x)|, f(|x|), 1/f(x), f(ax+b), [f(x)]^2; modulus equations"
+     }
+    ]
+   },
+   {
+    "code": "3",
+    "name": "Geometry and trigonometry",
+    "subtopics": [
+     {
+      "code": "3.1",
+      "name": "3D solids: distance, midpoint, volume, surface area"
+     },
+     {
+      "code": "3.2",
+      "name": "Right-angled trigonometry; sine rule, cosine rule, area of a triangle"
+     },
+     {
+      "code": "3.3",
+      "name": "Applications of trigonometry; bearings, elevation and depression"
+     },
+     {
+      "code": "3.4",
+      "name": "Radian measure; arc length and sector area"
+     },
+     {
+      "code": "3.5",
+      "name": "Unit circle; exact trigonometric values"
+     },
+     {
+      "code": "3.6",
+      "name": "Pythagorean identity; double-angle identities"
+     },
+     {
+      "code": "3.7",
+      "name": "Circular functions and their graphs"
+     },
+     {
+      "code": "3.8",
+      "name": "Solving trigonometric equations"
+     },
+     {
+      "code": "3.9",
+      "name": "Reciprocal and inverse trigonometric functions"
+     },
+     {
+      "code": "3.10",
+      "name": "Compound-angle identities"
+     },
+     {
+      "code": "3.11",
+      "name": "Symmetry properties of trigonometric graphs"
+     },
+     {
+      "code": "3.12",
+      "name": "Vectors: concepts, components, magnitude, unit vectors"
+     },
+     {
+      "code": "3.13",
+      "name": "Scalar product; angle between vectors"
+     },
+     {
+      "code": "3.14",
+      "name": "Vector equation of a line; angle between lines"
+     },
+     {
+      "code": "3.15",
+      "name": "Coincident, parallel, intersecting and skew lines"
+     },
+     {
+      "code": "3.16",
+      "name": "Vector product; areas"
+     },
+     {
+      "code": "3.17",
+      "name": "Vector equations of a plane"
+     },
+     {
+      "code": "3.18",
+      "name": "Intersections and angles of lines and planes"
+     }
+    ]
+   },
+   {
+    "code": "4",
+    "name": "Statistics and probability",
+    "subtopics": [
+     {
+      "code": "4.1",
+      "name": "Population, sampling, data types, outliers"
+     },
+     {
+      "code": "4.2",
+      "name": "Presentation of data: histograms, cumulative frequency, box plots"
+     },
+     {
+      "code": "4.3",
+      "name": "Measures of central tendency and dispersion"
+     },
+     {
+      "code": "4.4",
+      "name": "Correlation and regression of y on x"
+     },
+     {
+      "code": "4.5",
+      "name": "Probability concepts; sample space; expected number of outcomes"
+     },
+     {
+      "code": "4.6",
+      "name": "Venn and tree diagrams; combined, mutually exclusive, conditional and independent events"
+     },
+     {
+      "code": "4.7",
+      "name": "Discrete random variables; expected value"
+     },
+     {
+      "code": "4.8",
+      "name": "Binomial distribution"
+     },
+     {
+      "code": "4.9",
+      "name": "Normal distribution"
+     },
+     {
+      "code": "4.10",
+      "name": "Regression of x on y"
+     },
+     {
+      "code": "4.11",
+      "name": "Conditional probability and independence (formal)"
+     },
+     {
+      "code": "4.12",
+      "name": "Standardization of normal variables; inverse normal"
+     },
+     {
+      "code": "4.13",
+      "name": "Bayes' theorem"
+     },
+     {
+      "code": "4.14",
+      "name": "Variance of discrete random variables; continuous random variables; E(aX+b), Var(aX+b)"
+     },
+     {
+      "code": "4.L1",
+      "name": "Poisson distribution (legacy)"
+     },
+     {
+      "code": "4.L2",
+      "name": "Geometric and negative binomial distributions (legacy)"
+     },
+     {
+      "code": "4.L3",
+      "name": "Cumulative distribution functions and probability generating functions (legacy)"
+     },
+     {
+      "code": "4.L4",
+      "name": "Linear combinations of random variables (legacy)"
+     },
+     {
+      "code": "4.L5",
+      "name": "Sampling distributions, unbiased estimators, central limit theorem (legacy)"
+     },
+     {
+      "code": "4.L6",
+      "name": "Confidence intervals (legacy)"
+     },
+     {
+      "code": "4.L7",
+      "name": "Hypothesis testing; type I and II errors (legacy)"
+     },
+     {
+      "code": "4.L8",
+      "name": "Bivariate distributions; correlation and regression inference (legacy)"
+     },
+     {
+      "code": "4.L9",
+      "name": "Chi-squared tests (legacy)"
+     },
+     {
+      "code": "4.L10",
+      "name": "Hypergeometric distribution (legacy)"
+     }
+    ]
+   },
+   {
+    "code": "5",
+    "name": "Calculus",
+    "subtopics": [
+     {
+      "code": "5.1",
+      "name": "Limits; derivative as gradient and rate of change"
+     },
+     {
+      "code": "5.2",
+      "name": "Increasing and decreasing functions"
+     },
+     {
+      "code": "5.3",
+      "name": "Derivatives of polynomial functions"
+     },
+     {
+      "code": "5.4",
+      "name": "Tangents and normals"
+     },
+     {
+      "code": "5.5",
+      "name": "Introduction to integration; area under a curve"
+     },
+     {
+      "code": "5.6",
+      "name": "Differentiation rules: chain, product, quotient; standard derivatives"
+     },
+     {
+      "code": "5.7",
+      "name": "Second derivative; behaviour of f, f', f''"
+     },
+     {
+      "code": "5.8",
+      "name": "Stationary points, points of inflexion, optimization"
+     },
+     {
+      "code": "5.9",
+      "name": "Kinematics"
+     },
+     {
+      "code": "5.10",
+      "name": "Indefinite integration; integration by inspection or substitution"
+     },
+     {
+      "code": "5.11",
+      "name": "Definite integrals; areas between curves"
+     },
+     {
+      "code": "5.12",
+      "name": "Continuity, differentiability; first principles; higher derivatives"
+     },
+     {
+      "code": "5.13",
+      "name": "Limits; L'Hopital's rule"
+     },
+     {
+      "code": "5.14",
+      "name": "Implicit differentiation; related rates; optimization"
+     },
+     {
+      "code": "5.15",
+      "name": "Derivatives and integrals of further functions (tan, sec, a^x, log, inverse trig); partial fractions"
+     },
+     {
+      "code": "5.16",
+      "name": "Integration by substitution and by parts"
+     },
+     {
+      "code": "5.17",
+      "name": "Area with the y-axis; volumes of revolution"
+     },
+     {
+      "code": "5.18",
+      "name": "First-order differential equations; Euler's method"
+     },
+     {
+      "code": "5.19",
+      "name": "Maclaurin series"
+     },
+     {
+      "code": "5.L1",
+      "name": "Convergence of infinite series and tests (legacy)"
+     },
+     {
+      "code": "5.L2",
+      "name": "Power series; radius and interval of convergence (legacy)"
+     },
+     {
+      "code": "5.L3",
+      "name": "Taylor series; Lagrange error term (legacy)"
+     },
+     {
+      "code": "5.L4",
+      "name": "Rolle's theorem, mean value theorem, fundamental theorem of calculus (legacy)"
+     },
+     {
+      "code": "5.L5",
+      "name": "Riemann sums, improper integrals, integral bounds (legacy)"
+     },
+     {
+      "code": "5.L6",
+      "name": "Numerical methods: Newton-Raphson, fixed-point iteration, numerical integration (legacy)"
+     },
+     {
+      "code": "5.L7",
+      "name": "Limits of sequences and epsilon-delta analysis (legacy)"
+     },
+     {
+      "code": "5.L8",
+      "name": "Parametric equations of curves; parametric differentiation (legacy)"
+     }
+    ]
+   },
+   {
+    "code": "6",
+    "name": "Discrete mathematics",
+    "subtopics": [
+     {
+      "code": "6.1",
+      "name": "Divisibility, primes, GCD and LCM; Euclidean algorithm"
+     },
+     {
+      "code": "6.2",
+      "name": "Representation of integers in different bases"
+     },
+     {
+      "code": "6.3",
+      "name": "Linear Diophantine equations"
+     },
+     {
+      "code": "6.4",
+      "name": "Modular arithmetic; linear congruences; Chinese remainder theorem"
+     },
+     {
+      "code": "6.5",
+      "name": "Fermat's little theorem"
+     },
+     {
+      "code": "6.6",
+      "name": "Graphs: terminology, degree, handshaking lemma, planar and bipartite graphs, Euler's relation"
+     },
+     {
+      "code": "6.7",
+      "name": "Walks, trails, paths, circuits; Eulerian and Hamiltonian graphs"
+     },
+     {
+      "code": "6.8",
+      "name": "Trees; minimum spanning trees (Kruskal, Prim)"
+     },
+     {
+      "code": "6.9",
+      "name": "Shortest paths, Chinese postman and travelling salesman problems"
+     },
+     {
+      "code": "6.10",
+      "name": "Recurrence relations"
+     },
+     {
+      "code": "6.11",
+      "name": "Adjacency matrices; counting walks"
+     },
+     {
+      "code": "6.12",
+      "name": "Pigeonhole principle; graph colouring and other combinatorics"
+     }
+    ]
+   },
+   {
+    "code": "7",
+    "name": "Sets, relations and groups",
+    "subtopics": [
+     {
+      "code": "7.1",
+      "name": "Sets, operations on sets, De Morgan's laws, Cartesian products"
+     },
+     {
+      "code": "7.2",
+      "name": "Relations; equivalence relations and classes; partitions"
+     },
+     {
+      "code": "7.3",
+      "name": "Functions: injections, surjections, bijections; composition and inverses"
+     },
+     {
+      "code": "7.4",
+      "name": "Binary operations; Cayley tables; operation properties"
+     },
+     {
+      "code": "7.5",
+      "name": "Groups; group axioms; Abelian groups"
+     },
+     {
+      "code": "7.6",
+      "name": "Order of elements; cyclic groups and generators"
+     },
+     {
+      "code": "7.7",
+      "name": "Permutation, symmetry (dihedral) and modular groups"
+     },
+     {
+      "code": "7.8",
+      "name": "Subgroups, cosets and Lagrange's theorem"
+     },
+     {
+      "code": "7.9",
+      "name": "Isomorphisms and homomorphisms; kernels"
+     }
+    ]
+   },
+   {
+    "code": "8",
+    "name": "Euclidean geometry and conic sections",
+    "subtopics": [
+     {
+      "code": "8.1",
+      "name": "Euclidean geometry: triangle and circle theorems, Ceva, Menelaus, Ptolemy, Apollonius"
+     },
+     {
+      "code": "8.2",
+      "name": "Conic sections: parabola, ellipse, hyperbola"
+     },
+     {
+      "code": "8.3",
+      "name": "Loci and coordinate geometry of circles"
+     }
+    ]
+   }
+  ]
+ },
+ "physics": {
+  "topics": [
+   {
+    "code": "A",
+    "name": "Space, time and motion",
+    "subtopics": [
+     {
+      "code": "A.1",
+      "name": "Kinematics"
+     },
+     {
+      "code": "A.2",
+      "name": "Forces and momentum"
+     },
+     {
+      "code": "A.3",
+      "name": "Work, energy and power"
+     },
+     {
+      "code": "A.4",
+      "name": "Rigid body mechanics"
+     },
+     {
+      "code": "A.5",
+      "name": "Galilean and special relativity"
+     }
+    ]
+   },
+   {
+    "code": "B",
+    "name": "The particulate nature of matter",
+    "subtopics": [
+     {
+      "code": "B.1",
+      "name": "Thermal energy transfers"
+     },
+     {
+      "code": "B.2",
+      "name": "Greenhouse effect"
+     },
+     {
+      "code": "B.3",
+      "name": "Gas laws"
+     },
+     {
+      "code": "B.4",
+      "name": "Thermodynamics"
+     },
+     {
+      "code": "B.5",
+      "name": "Current and circuits"
+     }
+    ]
+   },
+   {
+    "code": "C",
+    "name": "Wave behaviour",
+    "subtopics": [
+     {
+      "code": "C.1",
+      "name": "Simple harmonic motion"
+     },
+     {
+      "code": "C.2",
+      "name": "Wave model"
+     },
+     {
+      "code": "C.3",
+      "name": "Wave phenomena"
+     },
+     {
+      "code": "C.4",
+      "name": "Standing waves and resonance"
+     },
+     {
+      "code": "C.5",
+      "name": "Doppler effect"
+     }
+    ]
+   },
+   {
+    "code": "D",
+    "name": "Fields",
+    "subtopics": [
+     {
+      "code": "D.1",
+      "name": "Gravitational fields"
+     },
+     {
+      "code": "D.2",
+      "name": "Electric and magnetic fields"
+     },
+     {
+      "code": "D.3",
+      "name": "Motion in electromagnetic fields"
+     },
+     {
+      "code": "D.4",
+      "name": "Induction"
+     }
+    ]
+   },
+   {
+    "code": "E",
+    "name": "Nuclear and quantum physics",
+    "subtopics": [
+     {
+      "code": "E.1",
+      "name": "Structure of the atom"
+     },
+     {
+      "code": "E.2",
+      "name": "Quantum physics"
+     },
+     {
+      "code": "E.3",
+      "name": "Radioactive decay"
+     },
+     {
+      "code": "E.4",
+      "name": "Fission"
+     },
+     {
+      "code": "E.5",
+      "name": "Fusion and stars"
+     }
+    ]
+   },
+   {
+    "code": "X",
+    "name": "Experimental skills and legacy-only content",
+    "subtopics": [
+     {
+      "code": "X.1",
+      "name": "Measurements, units, uncertainties and vectors"
+     },
+     {
+      "code": "X.2",
+      "name": "Particle physics"
+     },
+     {
+      "code": "X.3",
+      "name": "Energy production and power stations"
+     },
+     {
+      "code": "X.4",
+      "name": "Polarization, resolution, thin films and lasers"
+     },
+     {
+      "code": "X.5",
+      "name": "Capacitance"
+     },
+     {
+      "code": "X.6",
+      "name": "Alternating current, transformers and rectification"
+     },
+     {
+      "code": "X.7",
+      "name": "Relativistic mechanics and general relativity"
+     },
+     {
+      "code": "X.8",
+      "name": "Fluids and fluid dynamics"
+     },
+     {
+      "code": "X.9",
+      "name": "Optics and imaging instruments (lenses, mirrors, telescopes)"
+     },
+     {
+      "code": "X.10",
+      "name": "Fibre optics"
+     },
+     {
+      "code": "X.11",
+      "name": "Medical imaging and medical physics"
+     },
+     {
+      "code": "X.12",
+      "name": "Cosmology"
+     },
+     {
+      "code": "X.13",
+      "name": "Digital technology and data storage"
+     },
+     {
+      "code": "X.14",
+      "name": "Communications and electronics"
+     }
+    ]
+   }
+  ]
+ },
+ "economics": {
+  "topics": [
+   {
+    "code": "1",
+    "name": "Introduction to economics",
+    "subtopics": [
+     {
+      "code": "1.1",
+      "name": "What is economics?"
+     },
+     {
+      "code": "1.2",
+      "name": "How do economists approach the world?"
+     }
+    ]
+   },
+   {
+    "code": "2",
+    "name": "Microeconomics",
+    "subtopics": [
+     {
+      "code": "2.1",
+      "name": "Demand"
+     },
+     {
+      "code": "2.2",
+      "name": "Supply"
+     },
+     {
+      "code": "2.3",
+      "name": "Competitive market equilibrium"
+     },
+     {
+      "code": "2.4",
+      "name": "Critique of the maximizing behaviour of consumers and producers"
+     },
+     {
+      "code": "2.5",
+      "name": "Elasticity of demand"
+     },
+     {
+      "code": "2.6",
+      "name": "Elasticity of supply"
+     },
+     {
+      "code": "2.7",
+      "name": "Role of government in microeconomics"
+     },
+     {
+      "code": "2.8",
+      "name": "Market failure: externalities and common pool resources"
+     },
+     {
+      "code": "2.9",
+      "name": "Market failure: public goods"
+     },
+     {
+      "code": "2.10",
+      "name": "Market failure: asymmetric information"
+     },
+     {
+      "code": "2.11",
+      "name": "Market failure: market power"
+     },
+     {
+      "code": "2.12",
+      "name": "The market's inability to achieve equity"
+     },
+     {
+      "code": "2.L1",
+      "name": "Theory of the firm: costs, revenues and profit (legacy)"
+     }
+    ]
+   },
+   {
+    "code": "3",
+    "name": "Macroeconomics",
+    "subtopics": [
+     {
+      "code": "3.1",
+      "name": "Measuring economic activity and illustrating its variations"
+     },
+     {
+      "code": "3.2",
+      "name": "Variations in economic activity: aggregate demand and aggregate supply"
+     },
+     {
+      "code": "3.3",
+      "name": "Macroeconomic objectives"
+     },
+     {
+      "code": "3.4",
+      "name": "Economics of inequality and poverty"
+     },
+     {
+      "code": "3.5",
+      "name": "Demand management: monetary policy"
+     },
+     {
+      "code": "3.6",
+      "name": "Demand management: fiscal policy"
+     },
+     {
+      "code": "3.7",
+      "name": "Supply-side policies"
+     }
+    ]
+   },
+   {
+    "code": "4",
+    "name": "The global economy",
+    "subtopics": [
+     {
+      "code": "4.1",
+      "name": "Benefits of international trade"
+     },
+     {
+      "code": "4.2",
+      "name": "Types of trade protection"
+     },
+     {
+      "code": "4.3",
+      "name": "Arguments for and against trade control and protection"
+     },
+     {
+      "code": "4.4",
+      "name": "Economic integration"
+     },
+     {
+      "code": "4.5",
+      "name": "Exchange rates"
+     },
+     {
+      "code": "4.6",
+      "name": "Balance of payments"
+     },
+     {
+      "code": "4.7",
+      "name": "Sustainable development"
+     },
+     {
+      "code": "4.8",
+      "name": "Measuring development"
+     },
+     {
+      "code": "4.9",
+      "name": "Barriers to economic growth and development"
+     },
+     {
+      "code": "4.10",
+      "name": "Economic growth and development strategies"
+     },
+     {
+      "code": "4.L1",
+      "name": "Terms of trade (legacy)"
+     }
+    ]
+   }
+  ]
+ }
+}

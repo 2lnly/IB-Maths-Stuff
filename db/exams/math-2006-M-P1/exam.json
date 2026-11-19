@@ -1,0 +1,501 @@
+{
+ "exam_id": "math-2006-M-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2006,
+ "session": "May",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2006 May Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2006 May Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2206-7204; code M06/5/MATHL/HP1/ENG/TZ0/XX; marks not printed; assumed 6 per question (modal markscheme value)",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2006-M-P1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. In an arithmetic sequence the second term is 7 and the sum of the first five terms is 50.\nFind the common difference of this arithmetic sequence.",
+   "ms_text": "QUESTION 1\nUsing u = u + d (M1)\n2 1\n⇒ u + d = 7 A1\n1\n5(2 Using S = u + 4) d = 50 (M1)\n5 1\n2\n⇒ 2 u + 4 d = 20 A1\n1\nAttempting to solve (M1)\nd= 3 A1 N3\nNote: Special case: u = 7, S = 50 ⇒ u = 10 ⇒ d = 3 gains full marks.\n2 5 3",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "1. In an arithmetic sequence the second term is 7 and the sum of the first five terms is 50. Find the common difference of this arithmetic sequence."
+  },
+  {
+   "id": "math-2006-M-P1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "π cosπ\n2. Let z = r + isin and z2 =+ 1 3 i .\n1\n4 4\n(a) Write z2 in modulus-argument form.\n3 (b) Find the value of r if zz = 2 .\n1 2",
+   "ms_text": "QUESTION 2\nπ\n(a) z = 1 + 3 = 2 arg z = arctan 3 = (A1)(A1)\n2 2\n3\nπ\n⎛ π π ⎞ ⎛ i ⎞\n3 1.05i ⇒ z = 2cos\n⎜ + i sin ⎟ ⎜ accept 2e , 2e ⎟ A1 2\n⎝ 3 3 ⎠ ⎝ ⎠\nNote: Accept 60� throughout.\n3 3 (b) zz = z × z or any alternate method (M1)\n1 2 1 2\nr ×= 8 2 A1\n1\nr = A1 N2\n4",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "2. Let $z_1 = r\\left(\\cos\\frac{\\pi}{4} + \\mathrm{i}\\sin\\frac{\\pi}{4}\\right)$ and $z_2 = 1 + \\sqrt{3}\\,\\mathrm{i}$.\n(a) Write $z_2$ in modulus-argument form.\n(b) Find the value of $r$ if $\\left|z_1 z_2^3\\right| = 2$."
+  },
+  {
+   "id": "math-2006-M-P1-q3",
+   "num": "3",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "2\n2 3. The graph of y = 2 x + 4 x + 7 is translated using the vector\n. Find the equation of the − 1\n2 translated graph, giving your answer in the form y = ax + bx + c .",
+   "ms_text": "QUESTION 3\n2 y = 2( x − 2) + 4( x − 2) + 7 − 1 M1A1A1\n2 = 2( x − 4 x + 4) + 4 x − 8 + 6 (A1)\n= 2 x 2 − 8 x ++ 8 4 x − 2 (A1)\n2 ⇒ y = 2 x − 4 x + 6 A1 N3\n2 Note: Award M1A1A0(A1)FT(A1)FTA1FTfor either 2 x + 12 x + 22 from substituting\nx + 2 − + from adding 1. ( 2) or 2 x 4 x 8\n2 Award M1A0A0A0A0A0 for y = 2( x + 2) + 4( x + 2) + 7 +. 1",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "3. The graph of $y = 2x^2 + 4x + 7$ is translated using the vector $\\begin{pmatrix}2\\\\-1\\end{pmatrix}$. Find the equation of the translated graph, giving your answer in the form $y = ax^2 + bx + c$."
+  },
+  {
+   "id": "math-2006-M-P1-q4",
+   "num": "4",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "2 4. Let fx () = 3 x − x + 4 . Find the values of m for which the line y = mx +1 is a tangent to the\ngraph of f .",
+   "ms_text": "QUESTION 4\nMETHOD 1\n2 Line and graph intersect when 3 x − x + 4 = mx + 1 M1\n2 i.e. 3 x − (1 + mx ) + 3 = 0 (A1)\ny = mx +tangent to graph ⇒ 1\n2 3 x − (1 + mx ) + 3 = 0 has equal roots (M1)\ni.e. b 2 − 4 ac = 0 (A1)\n2 ⇒ (1 + m ) − 36 = 0 A1\n⇒ m = 5 , m = − 7 A1 N3\nMETHOD 2\nf ′ () x = 6 x − 1 A1\n2 3 x − x + 4 = mx + 1 (M1)\nSubstitute m = 6 x − into above 1 M1\n2 2 3 x − 6 x + 3 = 0 (A1)\n⇒ x = ± 1 A1\n⇒ m = 5 , m = − 7 A1 N3",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.7",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "4. Let $f(x) = 3x^2 - x + 4$. Find the values of $m$ for which the line $y = mx + 1$ is a tangent to the graph of $f$."
+  },
+  {
+   "id": "math-2006-M-P1-q5",
+   "num": "5",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "3 2 5. The polynomial Px () = 2 x + ax − 4 x + b is divisible by ( x −1 and by ( ) x + 3. Find the )\nvalue of a and of b.",
+   "ms_text": "QUESTION 5\n( x − 1) is a factor of Px () ⇒ (1) P = 0 (M1)\n⇒ a + b = 2 A1\n( x + 3) is a factor of Px () ⇒ P (3) − = 0 (M1)\n⇒ 9 a + b = 42 A1\nSolving ⇒ a = 5 , b = − 3 (M1)A1 N4",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "5. The polynomial $P(x) = 2x^3 + ax^2 - 4x + b$ is divisible by $(x-1)$ and by $(x+3)$. Find the value of $a$ and of $b$."
+  },
+  {
+   "id": "math-2006-M-P1-q6",
+   "num": "6",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. The following is the cumulative frequency diagram for the heights of 30 plants given\nin centimetres.\n(a) Use the diagram to estimate the median height.\n(b) Complete the following frequency table.\nHeight (h) Frequency\n0≤h < 5 4\n5≤h < 10 9\n10≤h < 15\n15≤h < 20\n20≤h < 25\n(c) Hence estimate the mean height.",
+   "ms_text": "QUESTION 6\n(a) Median = 11 (accept any values in range 11 to 11.5 inclusive) A1\n(b)\nHeight Frequency\n0 ≤ h < 5 4\n5 ≤ h < 10 9\n10 ≤ h < 15 8 A1\n15 ≤ h < 20 5 A1\n20 ≤ h < 25 4 A1\n(c) Using mid values in calculation of the mean M1\n⎛ 355 ⎞\n= = � = ⎜ ⎟ 11.83 (11.8) A1 N1\n⎝ 30 ⎠",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.2",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "6. The following is the cumulative frequency diagram for the heights of 30 plants given in centimetres.\n[Graph: cumulative frequency (0 to 30) against height h (0 to 25 cm); smooth increasing curve from (0,0) through about (5,4), (10,13), (15,21), (20,26) to (25,30)]\n(a) Use the diagram to estimate the median height.\n(b) Complete the following frequency table.\nHeight ($h$) | Frequency\n$0 \\le h < 5$ | 4\n$5 \\le h < 10$ | 9\n$10 \\le h < 15$ | \n$15 \\le h < 20$ | \n$20 \\le h < 25$ | \n(c) Hence estimate the mean height."
+  },
+  {
+   "id": "math-2006-M-P1-q7",
+   "num": "7",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "$ 7. In the obtuse-angled triangle ABC, AC = 10.9 cm , BC = 8.71 cm and BAC = 50o.\nNot to\nscale\nFind the area of triangle ABC.",
+   "ms_text": "QUESTION 7\nMETHOD 1\n� sin50 sin B ˆ\n= (M1)\n8.71 10.9\nsin B = ˆ 0.958(65...) (A1)\nFinding the obtuse value of ˆB from the range 106 to 107 M1\nFinding ˆC from the range 23 to 24 (M1)\n1 ˆ\nArea ABC = × 10.98.71sin × × C M1\n2\n= 2 18.9 (cm) A1 N0\nMETHOD 2\nUsing cosine rule (M1)\n2 2 2 � 8.71 = AB + 10.9 − 2AB10.9cos50 × (A1)\nSolving a quadratic in AB (M1)\nchoosing AB = 4.52(7...) M1\n1 �\nAreatriangle ABC = × 10.9 × AB sin50 M1\n2\n= 2 18.9 (cm) A1 N0",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "7. In the obtuse-angled triangle ABC, AC = 10.9 cm, BC = 8.71 cm and $\\hat{BAC} = 50^\\circ$.\n[Diagram: triangle ABC, not to scale, with angle 50° at A, AC = 10.9 cm, BC = 8.71 cm]\nFind the area of triangle ABC."
+  },
+  {
+   "id": "math-2006-M-P1-q8",
+   "num": "8",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. The weights in grams of bread loaves sold at a supermarket are normally distributed with\nmean 200 g . The weights of 88 % of the loaves are less than 220 g .\nFind the standard deviation.",
+   "ms_text": "QUESTION 8\nFor writing P( W< 220) = 0.88 or sketching an appropriate diagram A1\nz = 1.17(499...) (accept 1.17 or 1.18) A2\nx − µ\nUsing z = (M1)\nσ\n220 − 200\nz = A1\nσ\n⇒ σ = 17.0 (grams) (accept 16.9 or 17.1) A1 N3",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "8. The weights in grams of bread loaves sold at a supermarket are normally distributed with mean 200 g. The weights of 88% of the loaves are less than 220 g. Find the standard deviation."
+  },
+  {
+   "id": "math-2006-M-P1-q9",
+   "num": "9",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. Solve ln( x + 3 ) = 1. Give your answers in exact form.",
+   "ms_text": "QUESTION 9\nFinding two equations M1\nx + =, ln( x + = − Correct equations ln( 3) 1 3) 1 (A1)\nln( x + 3) = 1 ⇒ x = e − 3 (M1)A1 N2\n1 − 1\nln( x + 3) = − 1 ⇒ x = − 3 (e = − 3) (M1)A1 N2\ne\nNote: Award M1A0 for decimal answer.",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "9. Solve $\\left|\\ln(x+3)\\right| = 1$. Give your answers in exact form."
+  },
+  {
+   "id": "math-2006-M-P1-q10",
+   "num": "10",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "5 . x − 0 5 . x\n10. Let fx () = 20 5 and gx () = 3 + . Let R be the region completely enclosed by the\n3\ngraphs of f and g, and the y-axis. Find the area of R.",
+   "ms_text": "QUESTION 10\nAttempting to find point of intersection (M1)\nIntersection at x = 2 (A1)\nNote: Award M1A1 if x = 2 is seen as upper limit of an integral.\nUsing appropriate definite integrals M2\nArea = 1.66 A2 N2",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "10. Let $f(x) = 2^{0.5x}$ and $g(x) = 3^{-0.5x} + \\frac{5}{3}$. Let $R$ be the region completely enclosed by the graphs of $f$ and $g$, and the $y$-axis. Find the area of $R$."
+  },
+  {
+   "id": "math-2006-M-P1-q11",
+   "num": "11",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "2 − 1 2\n11. and c =− 4 . Let a = 1 , b = p\n0 6 3\n(a) Find a ×. b\n(b) Find the value of p, given that a × is parallel to c. b",
+   "ms_text": "QUESTION 11\ni j k\n(a) × = a b 2 1 0 (M1)(A1)\n− 1 p 6\n= 6 i − 12 j + (2 p + 1) k A1 N3\n(b) METHOD 1\n× ⇒ a b parallel to c\n⎛ 6 ⎞ ⎛ 2 ⎞\n⎜ ⎟ ⎜ ⎟\n− 12 = k − 4 M1\n⎜ ⎟ ⎜ ⎟\n⎜ ⎟ ⎜ ⎟\n2 p + 1 3 ⎝ ⎠ ⎝ ⎠\nk = 3 (A1)\n⇒ p = 4 A1 N2\nMETHOD 2\nbperpendicular to c ⇒\n⎛ − 1 ⎞⎛ 2 ⎞\n⎜ ⎟⎜ ⎟\np i − 4 = 0 M1\n⎜ ⎟⎜ ⎟\n⎜ ⎟⎜ ⎟\n⎝ 6 ⎠⎝ 3 ⎠\n−− 2 4 p + 18 = 0 (A1)\n⇒ = p 4 A1 N2",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "11. Let $\\boldsymbol{a} = \\begin{pmatrix}2\\\\1\\\\0\\end{pmatrix}$, $\\boldsymbol{b} = \\begin{pmatrix}-1\\\\p\\\\6\\end{pmatrix}$ and $\\boldsymbol{c} = \\begin{pmatrix}2\\\\-4\\\\3\\end{pmatrix}$.\n(a) Find $\\boldsymbol{a} \\times \\boldsymbol{b}$.\n(b) Find the value of $p$, given that $\\boldsymbol{a} \\times \\boldsymbol{b}$ is parallel to $\\boldsymbol{c}$."
+  },
+  {
+   "id": "math-2006-M-P1-q12",
+   "num": "12",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "2x 12. Find e sin xx d .\n∫",
+   "ms_text": "QUESTION 12\nMETHOD 1\n2 x 2 x 2 x e sind xx = − e cos x + 2e cosd xx (M1)A1\n∫ ∫\n2 x ( 2 x 2 x ) = − e cos x + 2e sin x\n−∫ 2e sind xx (M1)A1\n2 x 2 x 2 x = − e cos x + 2e sin x 4e sind xx\n−∫\n⇒ 2 x = 2 x − 5e ∫ sind xx e(2sin x cos) x (M1)\n2 x e\ne 2 x sind xx = (2sin x − cos) x + C A1 N0 ∫\n5\nMETHOD 2\n1 1 2 x\n= 2 x − 2 x ∫ e sind xx e sin x ∫ e cosd xx (M1)A1\n2 2\n1 1 1 2 x 2 x 2 x\n= e sin x − ∫ e cos x − ∫ e sind xx (M1)A1\n2 4 4\n5 1 1 2 x 2 x 2 x\n⇒ ∫ e sind xx = e sin x − e cos x (M1)\n4 2 4\n2 x e\n2 x = − +\n∫ e sind xx (2sin x cos) x C A1\n5\nNote: Do not penalize the absence of constants of integration.",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "12. Find $\\int \\mathrm{e}^{2x} \\sin x \\, \\mathrm{d}x$."
+  },
+  {
+   "id": "math-2006-M-P1-q13",
+   "num": "13",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "A=1 BA=1 =7 13. Let A and B be events such that P() | ) A ∪ B )\n5, P( 4 and P( 10.\n(a) Find P( A ∩ B ) .\n(b) Find P() B.\n(c) Show that A and B are not independent.",
+   "ms_text": "QUESTION 13\n(a) P( A ∩ B ) = P()P( A × BA | ) (M1)\n1 1 ⎛ 1 ⎞\n= × ⎜ = ⎟ A1 N2\n5 4 ⎝ 20 ⎠\n(b) P( A ∪ B ) = P() A + P() B − P( A ∩ B ) (M1)\n7 1 1\n⇒ = − + P() B\n10 5 20\n11\n= A1 N2\n20\n(c) METHOD 1\n11 1\nP() B= and P( BA= | ) M1\n20 4\nP() B ≠ P( BA | ) R1\n⇒A and B are not independent AG N0\nMETHOD 2\n1 11 11 1\nP()P() A × B = × = and P( A ∩ B ) = M1\n5 20 100 20\n∩ ≠ × P( A B ) P()P() A B R1\n⇒A and B are not independent AG N0",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "13. Let $A$ and $B$ be events such that $\\mathrm{P}(A) = \\frac{1}{5}$, $\\mathrm{P}(B \\mid A) = \\frac{1}{4}$ and $\\mathrm{P}(A \\cup B) = \\frac{7}{10}$.\n(a) Find $\\mathrm{P}(A \\cap B)$.\n(b) Find $\\mathrm{P}(B)$.\n(c) Show that $A$ and $B$ are not independent."
+  },
+  {
+   "id": "math-2006-M-P1-q14",
+   "num": "14",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14. Let fx () = cos( 34 x + 1, 0 ) ≤ x ≤ 1 .\n(a) Find ′f (). x\n(b) Find the exact values of the three roots of f ′ () x = 0 .",
+   "ms_text": "QUESTION 14\n2 (a) f ′ () x = 3 cos(4 x + 1) ×− ( sin(4 x + 1) ) × 4 A1A1A1\n2 f ′ () x = − 12 cos(4 x + 1)sin(4 ( x + 1) )\n2 Note: Award A1 for 3 cos(4 x + 1) , A1 for sin(4 − x + 1) and A1 for 4.\n2 (b) f ′ () x = 0 ⇒ cos(4 x + 1) = 0 orsin(4 x + 1) = 0\nπ 1 3π 1 π − 1\n⇒ = − = − = x , x or x A1A1A1\n8 4 8 4 4\nNote: Do not penalise the inclusion of additional answers.",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.6",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "14. Let $f(x) = \\cos^3(4x+1)$, $0 \\le x \\le 1$.\n(a) Find $f'(x)$.\n(b) Find the exact values of the three roots of $f'(x) = 0$."
+  },
+  {
+   "id": "math-2006-M-P1-q15",
+   "num": "15",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "+1 15. Let f be the function fx () = x arccos x x for −≤ 1 x ≤ 1 and g the function\n2\ngx () = cos 2 for −≤ x 1 x ≤ 1 .\n(a) On the grid below, sketch the graph of f and of g .\n(b) Write down the solution of the equation fx () = gx () .\n(c) Write down the range of g .",
+   "ms_text": "QUESTION 15\n(a)\nf\ng\nA1A1\nNote: Award A0 for the graph of g if it goes significantly above 1.\n(b) x = 0.412 A2\n(c) Accept [−0.416, 1] or ]−0.416, 1] or [cos2, 1] , [cos(2), 1] − . A1A1",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.3",
+    "2.10",
+    "3.7",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "15. Let $f$ be the function $f(x) = x\\arccos x + \\frac{1}{2}x$ for $-1 \\le x \\le 1$ and $g$ the function $g(x) = \\cos 2x$ for $-1 \\le x \\le 1$.\n(a) On the grid below, sketch the graph of $f$ and of $g$.\n[Grid: x from -1 to 1, y from -4 to 2]\n(b) Write down the solution of the equation $f(x) = g(x)$.\n(c) Write down the range of $g$."
+  },
+  {
+   "id": "math-2006-M-P1-q16",
+   "num": "16",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "16. The number of car accidents occurring per day on a highway follows a Poisson distribution\nwith mean 1.5 .\n(a) Find the probability that more than two accidents will occur on a given Monday.\n(b) Given that at least one accident occurs on another day, find the probability that more\nthan two accidents occur on thatday.",
+   "ms_text": "QUESTION 16\n(a) Let A be the number of accidents which occur in a day\nUsing a Poisson distribution in an inequality M1\nP( A > 2) =− 1P( A ≤ 2)\n2 ⎛ 1.5 ⎞\n=− − 1.5 + + 1e ⎜ 11.5 ⎟ (A1)\n⎝ 2 ⎠\n= 0.191 A1 N2\n(b) P( A ≥ 1) =− 1 P( A = 0)\n= 0.776(869...) (A1)\nIndication of conditional probability as a ratio:\n> P( A 2)\nor 0.191(153...) M1\nP( A ≥ 1) 0.776(869...)\nP( A > 2 A ≥ 1) = 0.246 A1 N1",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "16. The number of car accidents occurring per day on a highway follows a Poisson distribution with mean 1.5.\n(a) Find the probability that more than two accidents will occur on a given Monday.\n(b) Given that at least one accident occurs on another day, find the probability that more than two accidents occur on that day."
+  },
+  {
+   "id": "math-2006-M-P1-q17",
+   "num": "17",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "2 6 h 3\n17. Let A = A = det B\nand B =− 7, where h and k are integers. Given that det\nk − 1 3\nand that det AB = 256h ,\n2 (a) show that h satisfies the equation 49 h − 130 h + 81 = 0 ;\n(b) hence find the value of k.",
+   "ms_text": "QUESTION 17\nMETHOD 1\n2 2 (a) det AB = det A × det B = (det ) B ⇒ (7 h + 9) = 256 h M1A1\n2 ⇒ 49 h − 130 h + 81 = 0 AG N0\n2 (b) 49 h − 130 h + 81 = 0 ⇒ h = 1 A1\ndet A = det B ⇒− 2 − 6 k = 7 h + 9 (M1)\n7 h + 6 k = − 11 A1\n− 117 − h\n⇒ = = − A1 N0 k 3\n6\nMETHOD 2\n(a) det A = det B ⇒− 2 − 6 k = 7 h + 9\n7 h + 6 k = − 11 or equivalent A1\n− 11 − 7 h\n⇒ k =\n6\ndet AB = − 42 hk − 14 h − 54 k − 18 M1A1\n− 11 − 7 h\nSubstituting k = into42 − − − − = A1 hk 14 h 54 k 18 256 h\n6\n2 ⇒ 49 h − 130 h + 81 = 0 AG\n(b) h = 1 A1\nk = − 3 A1",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.L1",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "17. Let $\\boldsymbol{A} = \\begin{pmatrix}2 & 6\\\\k & -1\\end{pmatrix}$ and $\\boldsymbol{B} = \\begin{pmatrix}h & 3\\\\-3 & 7\\end{pmatrix}$, where $h$ and $k$ are integers. Given that $\\det\\boldsymbol{A} = \\det\\boldsymbol{B}$ and that $\\det\\boldsymbol{AB} = 256h$,\n(a) show that $h$ satisfies the equation $49h^2 - 130h + 81 = 0$;\n(b) hence find the value of $k$."
+  },
+  {
+   "id": "math-2006-M-P1-q18",
+   "num": "18",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "xy 3 , find d y 18. Given that 3 += x + 3 y .\nd x",
+   "ms_text": "QUESTION 18\n+⎛ d y ⎞ d y xy 2\n(ln3)3 1 + = 3 x + 3 (M1)A1A1A1 ⎜ ⎟\n⎝ d x ⎠ d x\n⎛ d y ⎞ d y\n+, A1 for y + 2 + Note: Award A1 for (ln3)3x ⎜ 1 ⎟ and A1 for 3 x .\n3d\n⎝ d x ⎠ x\nd y xy + 2 xy +\n( (ln3)3 − 3 ) = 3 x − (ln3)3 M1\nd x\n2 xy + d y 3 x − (ln3)3\n= A1 N0\nxy + − d x (ln3)3 3",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "18. Given that $3^{x+y} = x^3 + 3y$, find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$."
+  },
+  {
+   "id": "math-2006-M-P1-q19",
+   "num": "19",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "19. There are 10 seats in a row in a waiting room. There are six people in the room.\n(a) In how many different ways can they be seated?\n(b) In the group of six people, there are three sisters who must sit next to each other.\nIn how many different ways can the group be seated?",
+   "ms_text": "QUESTION 19\n(a) A recognition of a permutation of six from ten in words or symbols (M1)\nTotal number of ways = 151200 A1 N2\n(b) Total number of ways =× 83!7 ××× 65 A1A1A1\n= 10 080 A1 N0\nNote: Award A1 for 8 A1 for 3! and A1 for 7 ×× 65 .",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "19. There are 10 seats in a row in a waiting room. There are six people in the room.\n(a) In how many different ways can they be seated?\n(b) In the group of six people, there are three sisters who must sit next to each other. In how many different ways can the group be seated?"
+  },
+  {
+   "id": "math-2006-M-P1-q20",
+   "num": "20",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "20. Each of the diagrams below shows the graph of a function f . Sketch on the given axes the\ngraph of\n(a) f ( − x ) ;\n1\n(b)\n().\nfx",
+   "ms_text": "QUESTION 20\n(a)\nA1A1A1\nNote: Award A1 for each branch.\n(b)\nA1A1A1\nNote: Award A1 for each branch.",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16",
+    "2.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms"
+   ],
+   "text_clean": "20. Each of the diagrams below shows the graph of a function $f$. Sketch on the given axes the graph of\n(a) $|f(-x)|$;\n[Graph: cubic-like curve f with a local maximum left of the y-axis, crossing the x-axis at a negative x, a local minimum just right of the y-axis, then crossing the x-axis at a positive x and rising steeply]\n(b) $\\frac{1}{f(x)}$.\n[Graph: same curve f on a second set of axes]"
+  }
+ ],
+ "status": "done",
+ "review_note": "Marks not printed on paper; 6 per question confirmed from markscheme totals. Q10/Q11 qp crops fixed via overrides (Q11 vector tops had been attached to Q10)."
+}

@@ -1,0 +1,282 @@
+{
+ "exam_id": "physics-2014-M-P3-TZ2",
+ "questions": {
+  "1": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "1. This question is about objects in the universe.\n(a) State one difference between\n(i) a main sequence star and a planet. [1]\n(ii) a stellar cluster and a constellation. [1]\n(b) State how\n(i) it is known that main sequence stars are made predominantly of hydrogen. [1]\n(ii) a main sequence star remains in equilibrium despite it having a great mass. [1]\n(c) The graph shows the variation with wavelength of the intensity of a main sequence star.\n[Graph: intensity against wavelength / nm from 100 to 800 nm; black-body curve peaking at about 400 nm]\nCalculate the surface temperature of this star. [2]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "2. This question is about a Cepheid star.\n(a) The graph shows the variation with time $t$ of the apparent magnitude $m$ of a particular Cepheid star.\n[Graph: $m$ (15.2 at top to 15.9 at bottom) against $t$ / days (0 to 9); data points with minimum $m$ = 15.2 at about 1.2 and 7.8 days and maximum $m$ = 15.9 at about 6 days]\nState\n(i) what apparent magnitude is a measure of. [1]\n(ii) the reason for the variation of the star's apparent magnitude. [1]\n(b) The period $T$, in days, of variation of the apparent magnitude is related to the average absolute magnitude $M$ of the star in (a) through the equation below.\n$M = -(2.81 \\times \\lg T) - 1.43$\nDetermine the distance to the star. [5]\n(c) The apparent brightness of the Cepheid star is $b = 1.5 \\times 10^{-14}\\ \\mathrm{W\\,m^{-2}}$. Determine the luminosity of the star. [3]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "3": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "text_clean": "3. This question is about the cosmic microwave background (CMB) radiation.\n(a) State two characteristics of the cosmic microwave background (CMB) radiation. [2]\n(b) Explain how CMB radiation is evidence for the Big Bang model of an expanding universe. [2]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "4. This question is about stellar evolution.\n(a) Achernar is a main sequence star with a mass that is eight times the mass of the Sun. Deduce that Achernar has a greater temperature than the Sun. [2]\n(b) Outline why Achernar will spend less time on the main sequence than the Sun. [2]\n(c) Achernar may evolve to become a neutron star.\n(i) State the condition relating to mass that must be satisfied for Achernar to become a neutron star. [2]\n(ii) Some neutron stars rotate about their axes and have strong magnetic fields. State how these stars may be detected. [1]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.12",
+    "C.5"
+   ],
+   "text_clean": "5. This question is about Hubble's law.\nThe spectrum of hydrogen from a source in the laboratory has a spectral line at wavelength 656 nm. The same line, viewed from Earth, in the spectrum of a distant galaxy has wavelength 682 nm.\n(a) Suggest why the two wavelengths are different. [1]\n(b) Determine the distance to this galaxy from Earth using a Hubble constant of $74\\ \\mathrm{km\\,s^{-1}\\,Mpc^{-1}}$. [2]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "6. This question is about modulation.\n(a) (i) Explain what is meant by frequency modulation (FM). [2]\n(ii) The graph shows the variation with time $t$ of the voltage $V$ of a frequency modulated carrier wave. The amplitude of the signal wave is 1.0 V.\n[Graph: $V$ / V from −1.5 to 1.5 against $t$ / μs from 0 to 2.5; FM carrier of amplitude 1.0 V whose oscillations bunch together and spread out periodically]\nOn the axes, draw a sketch graph to show the variation with time $t$ of the voltage of the signal wave. [2]\n(b) Using the graph in (a)(ii), determine the frequency of the\n(i) carrier wave. [1]\n(ii) signal wave. [2]\n(c) State one advantage and one disadvantage of FM modulation compared to amplitude modulation (AM). [2]\nAdvantage:\nDisadvantage:",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "7": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "7. This question is about sampling.\nAn analogue signal is sampled. The graph shows the variation with time $t$ of the voltage $V$ of each sample.\n[Graph: $V$ / V (0 to 12) against $t$ / ms (0 to 2.0); sample lines every 0.125 ms, starting at 12 V, falling to about 0.6 V near 1.4 ms and rising to 12 V at 2.0 ms]\nThe voltage in each sample is rounded to the nearest integer.\n(a) Determine the sampling frequency. [2]\n(b) The highest voltage in a sample is 12 V. Determine the minimum number of bits that are required in order to represent each sample. [2]\n(c) Calculate the binary equivalent of the seventh sample. [1]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.10",
+    "C.3"
+   ],
+   "text_clean": "8. This question is about digital transmission and optical fibres.\n(a) State what is meant by attenuation. [1]\n(b) A digital signal is to be transmitted along an optic fibre. The signal to noise ratio (that is $10\\lg\\frac{P_{\\text{signal}}}{P_{\\text{noise}}}$) in the fibre must not fall below 35 dB.\nThe following data are available.\nAttenuation per unit length of the optic fibre $= 2.6\\ \\mathrm{dB\\,km^{-1}}$\nPower of the input signal is $P_{\\text{signal}} = 88$ mW\nNoise power in the fibre is constant at $P_{\\text{noise}} = 52$ pW\n(i) Determine, using the data, the greatest distance the signal can travel before it must be amplified. [3]\n(ii) The optic fibre has a total length of 5600 km. The total transmission time along the length of the fibre is 28 ms. Estimate the refractive index of the core of the fibre. [2]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "9. This question is about operational amplifiers (op-amps).\n(a) The diagram shows an inverting amplifier.\n[Diagram: inverting op-amp amplifier; input $V_{IN}$ through resistor $R$ to the inverting (−) input, feedback resistor $R_F$ from output to − input, + input connected to the zero volt line, output $V_{OUT}$]\nThe op-amp operates with a power supply of ±6.0 V. The resistance of $R_F$ is 75 kΩ and the resistance of $R$ is 15 kΩ.\n(i) State one property of an ideal op-amp. [1]\n(ii) Determine the closed loop gain of the inverting amplifier. [1]\n(iii) Calculate the input voltage at which positive saturation is achieved. [1]\n(b) The input voltage $V$ to the inverting amplifier in (a) varies with time $t$ according to the graph.\n[Graph: $V$ / V from −6 to 6 against $t$ / ms from 0 to 4; straight line rising from −6 V at 0 ms through 0 V at 2 ms to +6 V at 4 ms]\nOn the axes, sketch a graph to show how the output voltage varies with time. [3]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "10. This question is about the mobile phone system.\nA train passenger in France has a 10 minute conversation on her mobile phone with a friend in Canada. Outline the role of base stations, the cellular exchange and the public switched telephone network (PSTN) in this phone call. [4]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "text_clean": "11. This question is about a magnifying glass and a telescope.\n(a) A thin converging (convex) lens is used as a magnifying glass. Object O is placed between a focal point of the lens and the centre of the lens. The focal points of the lens are shown, labelled F.\n[Diagram: convex lens on a principal axis with focal points F on either side; object O (upright arrow) between the left F and the lens]\n(i) Define the term focal point. [2]\n(ii) On the diagram, construct rays to locate the position of the image of the object. Label the image I. [3]\n(b) The position of the lens in (a) is changed so that a virtual image of the object is formed at the near point of the eye. The eye is very close to the lens.\n(i) Define the term near point. [1]\n(ii) Outline the advantage of having the image positioned at the near point of the eye. [1]\n(c) The lens in (a) has a focal length of 6.0 cm and is now used as the eyepiece of an astronomical telescope. The objective lens of the telescope has a focal length of 90 cm. The telescope is used in normal adjustment.\n(i) State the separation of the objective lens and the eyepiece lens. [1]\n(ii) Determine the angular magnification of the telescope. [2]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "12": {
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.3"
+   ],
+   "text_clean": "12. This question is about interference.\nLight from a laser is incident on two identical parallel slits. The light from the two slits produces a fringe pattern on a screen.\n[Diagram: light incident on two slits; screen with points A (bright fringe), B (dark fringe), C (bright fringe) on the central axis; not to scale]\nA central bright fringe is produced at C. The next bright fringe is produced at A. There is a dark fringe at B.\n(a) The light from the laser is coherent and monochromatic. Outline what is meant by the term\n(i) coherent. [1]\n(ii) monochromatic. [1]\n(b) State the phase difference between the light waves from the two slits that meet at B. [1]\n(c) The distance from the two slits to the screen is 1.5 m. The distance BC is 1.8 mm and the distance between the slits is 0.30 mm.\n(i) Show that the laser produces light of wavelength equal to 720 nm. [3]\n(ii) State the path difference, in metres, between the waves that meet at B. [1]\n(d) The light from the laser is now incident normally on a diffraction grating. The angle between the third-order intensity maxima is 78°.\n[Diagram: light, $\\lambda = 720$ nm, incident normally on a diffraction grating; the two third-order ($n = 3$) beams separated by 78°]\nDetermine the number of lines per metre of the diffraction grating. [3]",
+   "answer_status": "ok",
+   "qtype": "long",
+   "note": "audit: coherent/monochromatic definitions are C.3 interference ideas; no laser content"
+  },
+  "13": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.1",
+    "E.2"
+   ],
+   "text_clean": "13. This question is about X-rays.\n(a) Draw a labelled diagram of the apparatus that is used for the production of X-rays. [3]\n(b) The diagram shows the variation with wavelength of the intensity of a particular X-ray source.\n[Graph: intensity against wavelength; smooth continuous curve starting at a minimum wavelength, rising to a peak and decreasing, with no characteristic peaks]\nOutline the reason why a characteristic X-ray spectrum is not produced. [2]",
+   "answer_status": "ok",
+   "add_flags": [],
+   "note": "Option G X-ray production; tagged X.11 (X-rays) + E.1 (inner-shell energy levels for characteristic spectrum). | audit: Option G X-ray tube + characteristic spectrum, not medical"
+  },
+  "14": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.4"
+   ],
+   "text_clean": "14. This question is about thin-film interference.\nA thin layer of oil of refractive index 1.51 floats on water of refractive index 1.33. Light of wavelength 579 nm is incident normally to the surface.\n[Diagram: incident light, $\\lambda = 579$ nm, falling normally on a layer of oil (refractive index 1.51) above water (refractive index 1.33)]\n(a) Determine the minimum thickness of the oil layer that gives rise to the least amount of light being reflected. [3]\n(b) Describe the change in the intensity of the reflected light as the thickness of the oil layer in (a) is gradually increased. [2]",
+   "answer_status": "ok"
+  },
+  "15": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "text_clean": "15. This question is about relativistic kinematics.\nThe diagram shows a spaceship as it moves past Earth on its way to a planet P. The planet is at rest relative to Earth.\n[Diagram: spaceship moving at 0.60c to the right past Earth; planet P 12 ly from Earth]\nThe distance between the Earth and planet P is 12 ly as measured by observers on Earth. The spaceship moves with speed 0.60c relative to Earth.\nConsider two events:\nEvent 1: when the spaceship is above Earth\nEvent 2: when the spaceship is above planet P\nJudy is in the spaceship and Peter is at rest on Earth.\n(a) State the reason why the time interval between event 1 and event 2 is a proper time interval as measured by Judy. [1]\n(b) (i) Calculate the time interval between event 1 and event 2 according to Peter. [1]\n(ii) Calculate the time interval between event 1 and event 2 according to Judy. [2]\n(c) Judy considers herself to be at rest. According to Judy, the Earth and planet P are moving to the left.\n(i) Calculate, according to Judy, the distance separating the Earth and planet P. [1]\n(ii) Using your answers to (b)(ii) and (c)(i), determine the speed of planet P relative to the spaceship. [1]\n(iii) Comment on your answer to (c)(ii). [1]\n(d) At a point half-way between the Earth and planet P, the spaceship passes a space station that is at rest relative to the Earth and planet P. At that instant, radio signals are sent towards the spaceship from the Earth and planet P. The signals are emitted simultaneously according to an observer S at rest on the space station.\n[Diagram: spaceship at 0.60c above observer S on a space station midway between Earth and planet P; radio signals emitted from Earth and from P towards the spaceship]\nDetermine, according to Judy in the spaceship, which signal is emitted first. [3]\n(e) On reaching planet P, the spaceship circles the planet and begins the return trip back to Earth. This situation leads to the twin paradox.\n(i) Describe what is meant by the term twin paradox. [2]\n(ii) Suggest how this paradox is resolved. [2]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "16": {
+   "topics": [
+    "X",
+    "A"
+   ],
+   "subtopics": [
+    "X.7",
+    "A.5"
+   ],
+   "text_clean": "16. This question is about relativistic mechanics.\nA rho meson ($\\rho$) decays at rest in a laboratory into a pion ($\\pi^+$) and an anti-pion ($\\pi^-$) according to\n$\\rho \\to \\pi^+ + \\pi^-$.\nThe rest masses of the particles involved are:\n$m_{\\pi^+} = m_{\\pi^-} = 140\\ \\mathrm{MeV\\,c^{-2}}$\n$m_{\\rho} = 770\\ \\mathrm{MeV\\,c^{-2}}$\n(a) (i) Show that the initial momentum of the pion is $360\\ \\mathrm{MeV\\,c^{-1}}$. [3]\n(ii) Show that the speed of the pion relative to the laboratory is 0.932c. [2]\n(iii) Calculate, in $\\mathrm{MeV\\,c^{-2}}$, the mass that has been converted into energy in this decay. [1]\n(b) The pion ($\\pi^+$) emits a muon in the same direction as the velocity of the pion. The speed of the muon is 0.271c relative to the pion. Calculate the speed of the muon relative to the laboratory. [2]",
+   "answer_status": "ok"
+  },
+  "17": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "17. This question is about general relativity.\n(a) State the principle of equivalence. [1]\n(b) The diagram shows monochromatic light of frequency $f_0$ being emitted from the base of a box towards an observer C at the ceiling of the box. The box is in free fall above the surface of the planet. Light of the same frequency is also emitted from the surface of the planet towards an observer P at rest above the surface of the planet.\n[Diagram: box in free fall above a planet surface, light emitted from its base to observer C at the ceiling; light emitted from the planet surface up to observer P at rest beside the box]\nThe frequency of the light as measured by C is $f_C$ and the frequency of the light as measured by P is $f_P$.\nState and explain whether the frequencies $f_C$ and $f_P$ are less than, equal to or greater than $f_0$.\n(i) $f_C$ [2]\n(ii) $f_P$ [3]\n(c) Newton explained the motion of a planet around the Sun in terms of a force of gravitation between the Sun and the planet. Describe how Einstein's theory of general relativity explains the motion of the planet around the Sun. [2]",
+   "answer_status": "ok"
+  },
+  "18": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.11",
+    "C.2"
+   ],
+   "text_clean": "18. This question is about sound intensity.\n(a) Define intensity of a sound wave. [1]\n(b) A factory siren produces sound of power 25 W that is emitted uniformly in all directions. A person stands at a distance of 4.5 m from the siren.\n(i) Show that, at the position of the person, the sound intensity level is 110 dB. [3]\n(ii) Outline two possible effects on the person from long-term exposure to sound at this intensity level. [2]",
+   "answer_status": "ok"
+  },
+  "19": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "19. This question is about medical imaging.\n(a) Outline how an image is produced using computed tomography (CT). [5]\n(b) State one disadvantage of producing a CT image of a person rather than a standard X-ray image. [1]\n(c) The intensity of a parallel X-ray beam is reduced to 50% of its initial intensity when it passes through bone of thickness 1.2 cm. Determine the thickness of bone needed to reduce the intensity of the same X-ray beam to 15% of its initial value. [3]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "20": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "20. This question is about ultrasound.\n(a) Define acoustic impedance. [1]\n(b) An ultrasound pulse is transmitted into the body of a patient. The pulse is partially reflected at a fat–muscle boundary and then, deeper in the body, at a muscle–bone boundary. The graph shows the variation with time of the signal strength at the transducer.\n[Graph: signal strength against time / μs (0 to 70); transmitted pulse at 10 μs, reflected pulses at 20 μs and 60 μs]\nMuscle has density $1.08 \\times 10^3\\ \\mathrm{kg\\,m^{-3}}$ and acoustic impedance $1.70 \\times 10^6\\ \\mathrm{kg\\,m^{-2}\\,s^{-1}}$.\n(i) Calculate the speed of ultrasound in muscle. [1]\n(ii) Determine the thickness of the muscle layer in the patient. [3]\n(c) State one advantage and one disadvantage of using ultrasound of frequency 1 MHz, rather than 3 MHz, in medical diagnosis. [2]\nAdvantage:\nDisadvantage:",
+   "answer_status": "ok"
+  },
+  "21": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.11",
+    "E.3"
+   ],
+   "text_clean": "21. This question is about radiation therapy.\n(a) State what is meant by the term absorbed dose. [1]\n(b) A patient receives radiation therapy on a tumour of mass 15 g. A radioactive source is implanted into the tumour for a period of 5.0 days so that the tumour receives an absorbed dose of 55 Gy. The source emits beta particles of average energy $6.0 \\times 10^5$ eV. At the end of the therapy the source is removed.\n(i) Determine the average activity of the radioactive source. [3]\n(ii) Outline one precaution that should be taken by hospital staff who handle the radioactive source. [1]\n(c) Two different sources are considered for the treatment in (b). Both sources emit beta particles of the same average energy as in (b) and both have the same initial activity as the average activity calculated in (b). One source has a half-life of 10 days and the other has a half-life of 75 days.\n(i) State and explain which source is more suitable for providing the radiation therapy over the five-day period. [2]\n(ii) Suggest one advantage of implanting a beta source into the tumour rather than supplying gamma radiation to the tumour from outside the body. [1]",
+   "answer_status": "ok"
+  },
+  "22": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.2",
+    "E.2"
+   ],
+   "text_clean": "22. This question is about fundamental interactions.\n(a) The kaon is a hadron whose quark structure is $K^+ = u\\bar{s}$.\n(i) State and explain whether the Pauli exclusion principle applies to kaons. [2]\n(ii) Energy is supplied to the kaon in order to break up the particle into its constituent quarks. Predict, by reference to quark colour, what will happen as more and more energy is provided to the $K^+$. [3]\n(b) The kaon ($K^+ = u\\bar{s}$) decays into an antimuon and a neutrino as shown by the Feynman diagram.\n[Feynman diagram: u and $\\bar{s}$ annihilate into a virtual exchange particle (wavy line) which produces $\\mu^+$ and $\\nu_\\mu$]\n(i) Explain why the virtual particle in this Feynman diagram must be a weak interaction exchange particle. [2]\n(ii) The mass of the virtual particle in (b)(i) is approximately $80\\ \\mathrm{GeV\\,c^{-2}}$. Estimate the range of the weak interaction. [2]\n(c) A student claims that the $K^+$ is produced in neutron decays according to the reaction $n \\to K^+ + e^-$. State one reason why this claim is false. [1]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "23": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2",
+    "X.7"
+   ],
+   "text_clean": "23. This question is about particle production and detection.\n(a) (i) The mass of a top (t) quark is approximately $173\\ \\mathrm{GeV\\,c^{-2}}$. Pairs of $t\\bar{t}$ were first produced in proton–antiproton ($p\\bar{p}$) collisions in a synchrotron. Calculate the minimum total kinetic energy of the $p\\bar{p}$ pair needed to produce one $t\\bar{t}$ pair. [2]\n(ii) Pairs of $t\\bar{t}$ may also be produced when accelerated antiprotons collide with stationary protons. Calculate the required total energy of the accelerated antiproton in order to produce a $t\\bar{t}$ pair. [3]\n(iii) State one advantage and one disadvantage of $p\\bar{p}$ collisions in a synchrotron compared with collisions of antiprotons with stationary protons in a linear accelerator. [2]\nAdvantage:\nDisadvantage:\n(b) Wire chambers are used to detect particle tracks produced in collisions. Outline the operation of a wire chamber. [3]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "24": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "24. This question is about deep inelastic scattering.\n(a) State what is meant by deep inelastic scattering experiments. [1]\n(b) Suggest how deep inelastic scattering experiments have provided evidence for the existence of\n(i) gluons. [2]\n(ii) colour. [2]",
+   "answer_status": "ok"
+  },
+  "25": {
+   "topics": [
+    "X",
+    "B"
+   ],
+   "subtopics": [
+    "X.12",
+    "B.3"
+   ],
+   "text_clean": "25. This question is about cosmology.\n(a) Determine the temperature below which the production of electron–positron pairs out of the vacuum became impossible. [2]\n(b) Suggest, with reference to your answer to (a), why the universe today contains predominantly matter whereas the very early universe contained almost equal numbers of particles and antiparticles. [3]",
+   "answer_status": "ok"
+  }
+ }
+}

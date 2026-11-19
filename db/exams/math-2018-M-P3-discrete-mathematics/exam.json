@@ -1,0 +1,130 @@
+{
+ "exam_id": "math-2018-M-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2018,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2018 May Examination Session/Mathematics_paper_3_Discrete_mathematics__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2018 May Examination Session/Mathematics_paper_3_Discrete_mathematics__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2218-7207; code M18/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 50",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2018-M-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 10]\nConsider the following weighted graph G .\nB 7 C\n7 6\nA 9 9 D\n5\n8 8\nE 6 F\n(a) State what feature of G ensures that\nG has an Eulerian trail; (i)\n(ii) G does not have an Eulerian circuit. [2]\n(b) Write down an Eulerian trail in G . [2]\n(c) (i) State the Chinese postman problem.\nStarting and finishing at B , find a solution to the Chinese postman problem (ii)\nfor G .\n(iii) Calculate the total weight of the solution. [6]",
+   "ms_text": "1. (a) (i) G has an Eulerian trail because it has (exactly) two vertices (B and F)\nof odd degree R1\n(ii) G does not have an Eulerian circuit because not all vertices are of\neven degree R1\n[2 marks]\n(b) for example BAEBCEFCDF A1A1\nNote: Award A1 for start/finish at B/F, A1 for the middle vertices.\n[2 marks]\n(c) (i) to determine the shortest route (walk) around a weighted graph A1\nusing each edge (at least once, returning to the starting vertex) A1\nNote: Correct terminology must be seen. Do not accept trail, path, cycle or circuit.\n= (ii) we require the Eulerian trail in (b), (weight 65 ) (M1)\nand the minimum walk FEB(15) A1\nfor example BAEBCEFCDFEB A1\nNote:Accept EB added to the end or FE added to the start of their answer in (b) in particular\nfor follow through.\n(iii) total weight is (65+15=)80 A1\n[6 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 10]\nConsider the following weighted graph $G$.\n[Diagram: weighted graph G with vertices A, B, C, D, E, F; edges AB = 7, AE = 8, BC = 7, BE = 9, CE = 5, CF = 9, CD = 6, DF = 8, EF = 6]\n(a) State what feature of $G$ ensures that\n(i) $G$ has an Eulerian trail;\n(ii) $G$ does not have an Eulerian circuit. [2]\n(b) Write down an Eulerian trail in $G$. [2]\n(c) (i) State the Chinese postman problem.\n(ii) Starting and finishing at B, find a solution to the Chinese postman problem for $G$.\n(iii) Calculate the total weight of the solution. [6]"
+  },
+  {
+   "id": "math-2018-M-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 8]\n(a) State Fermat’s little theorem. [2]\n(b) Consider the linear congruence ax ≡ b(mod p) where a , b , p , x ∈′+ , p is prime and\na is not a multiple of p .\nUse Fermat’s little theorem to show that x ≡ a p-2b(mod p) . (i)\n(ii) Hence solve the linear congruence 5x ≡ 7(mod 13) . [6]",
+   "ms_text": "2. (a) EITHER\np\nif p is prime (and a is any integer) then a ≡ a (mod) p A1A1\np\nNote: Award A1 for p prime and A1 for the congruence or for stating that pa | − a .\nOR\np 1\n−≡ if p is prime (and a ≡ 0(mod p ) ) then a 1(mod p ) A1A1\np 1\n−−. Note: Award A1 for p prime and A1 for the congruence or for stating that pa | 1\nNote: Condone use of equals sign provided (mod p) is seen.\n[2 marks]\np − 2\n(b) (i) multiplying both sides of the linear congruence by a (M1)\np − 1 p −\na x ≡ a 2(mod) b p A1\np 1\n−≡ as a 1(mod p ) R1\np −\nx ≡ a 2(mod) b p AG\n11\nx ≡ × (ii) 5 7(mod13) M1\n≡ 341796875(mod13) (A1)\nNote: Accept equivalent calculation eg, using 25 ≡− 1mod13 .\n≡ 4(mod13) A1\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.5",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 8]\n(a) State Fermat's little theorem. [2]\n(b) Consider the linear congruence $ax \\equiv b \\pmod{p}$ where $a, b, p, x \\in \\mathbb{Z}^+$, $p$ is prime and $a$ is not a multiple of $p$.\n(i) Use Fermat's little theorem to show that $x \\equiv a^{p-2}b \\pmod{p}$.\n(ii) Hence solve the linear congruence $5x \\equiv 7 \\pmod{13}$. [6]"
+  },
+  {
+   "id": "math-2018-M-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 11]\nConsider the complete bipartite graph κ3, 3 .\n(a) (i) Draw κ3, 3 .\n(ii) Show that κ3, 3 has a Hamiltonian cycle.\n(iii) Draw κ3, 2 and explain why it does not have a Hamiltonian cycle. [4]\n(b) (i) In the context of graph theory, state the handshaking lemma.\n(ii) Hence show that a graph G with degree sequence 2, 3, 3, 4, 4, 5 cannot exist. [3]\nLet T be a tree with v vertices where v ≥ 2 .\n(c) Use the handshaking lemma to prove that T has at least two vertices of degree one. [4]",
+   "ms_text": "3. (a) (i)\nA1\n(ii) for example ADBECFA A1\nNote: Accept drawing the cycle on their diagram.\nNote: Accept Dirac’s theorem (although it is not on the syllabus for (a)(ii). There is no\nconverse that could be applied for (a)(iii).\n(iii)\nA1\na Hamiltonian cycle would have to alternate between the two vertex\nsubsets which is impossible as 2 ≠ 3 R1\nNote: Award R1 for an attempt to construct a Hamiltonian cycle and an explanation\nof why it fails, eg, ADBEC but there is no route from C to A without re-using D\nor E so no cycle. There are other proofs eg, have to go in and out of A,\nsimilarly B and C giving all edges leading to a contradiction.\n[4 marks]\n(b) (i) the sum of the vertex degrees is twice the number of edges A1\n(ii) assume G exists\nthe sum 2 +++++ 33 4 4 5 = 21 A1\nthis is odd (not even) R1\nthis contradicts the handshaking lemma\nso G does not exist AG\n[3 marks]\n(c) T has v−1 edges A1\nEITHER\nif k vertices have degree 1 then v − k vertices have degree ≥ 2 R1\nby the handshaking lemma\n2 v − 2 ≥ 1 × k + 2( v − k )( = 2 v − k ) M1\nthis gives k≥ 2 A1\nOR\nlet S be the sum of vertex degrees\nconsider T having either no or one vertex of degree 1 R1\ncase 1 suppose T has no vertices of degree 1 (eg, all vertices have degrees ≥ 2 )\nby the handshaking lemma\nS ≥ 2 v ≠ 2( v − 1) (not possible) A1\ncase 2 suppose T has one vertex of degree 1 (eg, v − vertices have degrees 1 ≥ 2 )\nby the handshaking lemma\nS ≥ 2( v − 1) + 1 ≠ 2( v − 1) (not possible) A1\nTHEN\nso T has at least two vertices of degree 1 AG\n[4 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.7",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 11]\nConsider the complete bipartite graph $\\kappa_{3,3}$.\n(a) (i) Draw $\\kappa_{3,3}$.\n(ii) Show that $\\kappa_{3,3}$ has a Hamiltonian cycle.\n(iii) Draw $\\kappa_{3,2}$ and explain why it does not have a Hamiltonian cycle. [4]\n(b) (i) In the context of graph theory, state the handshaking lemma.\n(ii) Hence show that a graph $G$ with degree sequence 2, 3, 3, 4, 4, 5 cannot exist. [3]\nLet $T$ be a tree with $v$ vertices where $v \\geq 2$.\n(c) Use the handshaking lemma to prove that $T$ has at least two vertices of degree one. [4]"
+  },
+  {
+   "id": "math-2018-M-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 6,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\n(a) Show that gcd(4k+ 2 , 3k+ 1) = gcd(k- 1 , 2) , where k∈′+ , k> 1 . [4]\nState the value of gcd(4k+ 2 , 3k+ 1) for (b)\n(i) odd positive integers k ;\n(ii) even positive integers k . [2]",
+   "ms_text": "4. (a) METHOD 1\nattempting to use the Euclidean algorithm M1\n4 k + 2 = 13 ( k + 1 )( + k + 1 ) A1\n( )( ) 3 k += 1 2 k + 1 + k − 1 A1\n+= ( − ) + k 1 k 1 2 A1\n= gcd( k − 1,2) AG\nMETHOD 2\ngcd(4 k + 2, 3 k + 1)\n= gcd(4 k + 2 − (3 k + 1), 3 k + 1) M1\n= gcd(3 k + 1, k + 1) ( = gcd( k + 1, 3 k + 1) ) A1\n= +− + + ( = gcd( k − 1, k + 1) ) gcd(3 k 1 2( k 1), k 1) A1\n= gcd( k +− 1 ( k − 1), k − 1) ( = gcd(2, k − 1) ) A1\n= gcd( k − 1,2) AG\n[4 marks]\n(b) (i) (for k odd), gcd(4 k + 2, 3 k + 1) = 2 A1\n(for k even), gcd(4 + + = (ii) k 2, 3 k 1) 1 A1\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\n(a) Show that $\\gcd(4k+2, 3k+1) = \\gcd(k-1, 2)$, where $k \\in \\mathbb{Z}^+$, $k > 1$. [4]\n(b) State the value of $\\gcd(4k+2, 3k+1)$ for\n(i) odd positive integers $k$;\n(ii) even positive integers $k$. [2]"
+  },
+  {
+   "id": "math-2018-M-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 15]\nThe Fibonacci sequence can be described by the recurrence relation fn+2=fn+1+fn where\nf0= 0 ,f1= 1 .\n(a) Write down the auxiliary equation and use it to find an expression for fn in terms of n . [7]\n1 + 5\nIt is known that α2 =α+ 1 where α= .\n2\n(b) For integers n ≥ 3 , use strong induction on the recurrence relation fn+2=fn+1+fn to\nprove that fn> αn-2. [8]",
+   "ms_text": "2\nλ λ 5. (a) attempt to find the auxiliary equation ( − − 1 = 0 ) M1\n± 1 5\nλ = (A1)\n2\nn n\n1 + 5 1 − 5\nthe general solution is nf = A + B (M1)\n2 2\nn = imposing initial conditions (substituting 0,1 ) M1\n1 + 5 1 − 5\n+ = + = A B 0 and A B 1 A1\n2 2\n1 1\nA = , B =− A1\n5 5\nn n\n+ − 1 1 5 1 1 5\n= − nf A1\n5 2 5 2\n[7 marks]\nNote: Condone use of decimal numbers rather than exact answers.\nn − 2\nlet P() n be > α n ≥ 3 (b) nf for integers\nconsideration of two consecutive values of f R1\n32 − 1 + 5 (1.618\nf= 2 and α = Κ ) ⇒ P(3) is true A1\n3\n2\n3 + 42 − 5 (2.618\nf= 3 and α = Κ ) ⇒ P(4) is true A1\n4\n2\nNote: Do not award A marks for values of n other than n = 3 and n = 4 .\nk ≥ (for 4 ), assume that P() k and P( k − 1) are true M1\nk + required to prove that P( 1) is true\nNote: Accept equivalent notation. Needs to start with 2 general consecutive integers\nand then prove for the next integer. This will affect the powers of the alphas.\nk − 2 k − 3\nf = f + f (and kf > α , kf −> α ) M1\nk + 1 k k − 1 1\nk − 2 k − 3 k −\nα + α = α 3( α + 1) kf +> A1\n1\nk − 3 2 k − 1 ( k + 1)2 −\n= α α = α = α A1\nas P(3) and P(4) are true, and P() k, P( k − 1) true ⇒P( k + 1) true\nthen P() k is true for k ≥ 3 by strong induction R1\nNote: To obtain the final R1, at least five of the previous marks must have been awarded.\n[8 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.10",
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 15]\nThe Fibonacci sequence can be described by the recurrence relation $f_{n+2} = f_{n+1} + f_n$ where $f_0 = 0$, $f_1 = 1$.\n(a) Write down the auxiliary equation and use it to find an expression for $f_n$ in terms of $n$. [7]\nIt is known that $\\alpha^2 = \\alpha + 1$ where $\\alpha = \\frac{1+\\sqrt{5}}{2}$.\n(b) For integers $n \\geq 3$, use strong induction on the recurrence relation $f_{n+2} = f_{n+1} + f_n$ to prove that $f_n > \\alpha^{n-2}$. [8]",
+   "review_note": "6.10 listed first: both parts work with the recurrence relation; (b) strong induction (8 marks) tagged 1.15."
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,153 @@
+{
+ "exam_id": "math-2010-M-P1-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "text_clean": "1. [Maximum mark: 5]\nGiven that $Ax^3 + Bx^2 + x + 6$ is exactly divisible by $(x+1)(x-2)$, find the value of $A$ and the value of $B$.",
+   "note": "audit: 2-unknown factor/remainder; 1.16 incidental, as on equivalents"
+  },
+  "2": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.4"
+   ],
+   "text_clean": "2. [Maximum mark: 4]\nShown below are the graphs of $y = f(x)$ and $y = g(x)$.\n[Graph: two downward parabolas on a grid for $-2 \\le x \\le 5$; $y=f(x)$ passes through $(-1,0)$, $(0,3)$, $(4,0)$ with maximum about 4.8; $y=g(x)$ passes through $(-1,0)$, $(0,2)$, $(4,0)$ with maximum about 3.1; both meet at $x=-1$ and $x=4$]\nIf $(f \\circ g)(x) = 3$, find all possible values of $x$."
+  },
+  "3": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.17",
+    "3.16",
+    "3.13"
+   ],
+   "text_clean": "3. [Maximum mark: 7]\n(a) Show that the two planes\n$\\pi_1: x + 2y - z = 1$\n$\\pi_2: x + z = -2$\nare perpendicular. [3 marks]\n(b) Find the equation of the plane $\\pi_3$ that passes through the origin and is perpendicular to both $\\pi_1$ and $\\pi_2$. [4 marks]"
+  },
+  "4": {
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.10",
+    "2.7",
+    "1.5"
+   ],
+   "text_clean": "4. [Maximum mark: 5]\nSolve the equation $4^{x-1} = 2^x + 8$.",
+   "note": "audit: 2^x=8 via quadratic, no logs needed; matches 2024-M-P1-TZ2-q2"
+  },
+  "5": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.16"
+   ],
+   "text_clean": "5. [Maximum mark: 8]\nThe graph of $y = \\dfrac{a+x}{b+cx}$ is drawn below.\n[Graph: rational function on axes $-10 \\le x \\le 10$, $-10 \\le y \\le 10$, with dashed vertical asymptote $x=-2$ and dashed horizontal asymptote $y=2$; curve crosses the x-axis at $x=2$ and the y-axis at $y=-2$]\n(a) Find the value of $a$, the value of $b$ and the value of $c$. [4 marks]\n(b) Using the values of $a$, $b$ and $c$ found in part (a), sketch the graph of $y = \\left|\\dfrac{b+cx}{a+x}\\right|$ on the axes below, showing clearly all intercepts and asymptotes. [4 marks]\n[Blank x-y axes for sketch]"
+  },
+  "6": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.12"
+   ],
+   "text_clean": "6. [Maximum mark: 4]\nConsider the vectors $\\vec{OA} = \\boldsymbol{a}$, $\\vec{OB} = \\boldsymbol{b}$ and $\\vec{OC} = \\boldsymbol{a} + \\boldsymbol{b}$. Show that if $|\\boldsymbol{a}| = |\\boldsymbol{b}|$ then $(\\boldsymbol{a}+\\boldsymbol{b}) \\cdot (\\boldsymbol{a}-\\boldsymbol{b}) = 0$. Comment on what this tells us about the parallelogram OACB."
+  },
+  "7": {
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.6",
+    "1.8"
+   ],
+   "text_clean": "7. [Maximum mark: 7]\nTwo players, A and B, alternately throw a fair six-sided dice, with A starting, until one of them obtains a six. Find the probability that A obtains the first six.",
+   "note": "audit: setting up event probabilities ~4/7 marks; matches 2015-N-P1-q6, 2014-N-P2-q12"
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.17",
+    "5.16"
+   ],
+   "text_clean": "8. [Maximum mark: 7]\nThe region enclosed between the curves $y = \\sqrt{x}\\,e^x$ and $y = e\\sqrt{x}$ is rotated through $2\\pi$ about the $x$-axis. Find the volume of the solid obtained."
+  },
+  "9": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.15",
+    "3.9"
+   ],
+   "text_clean": "9. [Maximum mark: 7]\n(a) Given that $\\alpha > 1$, use the substitution $u = \\dfrac{1}{x}$ to show that\n$\\displaystyle\\int_1^{\\alpha} \\frac{1}{1+x^2}\\,dx = \\int_{\\frac{1}{\\alpha}}^{1} \\frac{1}{1+u^2}\\,du$. [5 marks]\n(b) Hence show that $\\arctan\\alpha + \\arctan\\dfrac{1}{\\alpha} = \\dfrac{\\pi}{2}$. [2 marks]"
+  },
+  "10": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "text_clean": "10. [Maximum mark: 6]\nThe ten numbers $x_1, x_2, \\ldots, x_{10}$ have a mean of 10 and a standard deviation of 3.\nFind the value of $\\displaystyle\\sum_{i=1}^{10} (x_i - 12)^2$."
+  },
+  "11": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.6",
+    "2.13",
+    "2.3",
+    "2.4",
+    "5.7"
+   ],
+   "text_clean": "11. [Maximum mark: 20]\nConsider $f(x) = \\dfrac{x^2 - 5x + 4}{x^2 + 5x + 4}$.\n(a) Find the equations of all asymptotes of the graph of $f$. [4 marks]\n(b) Find the coordinates of the points where the graph of $f$ meets the $x$ and $y$ axes. [2 marks]\n(c) Find the coordinates of\n(i) the maximum point and justify your answer;\n(ii) the minimum point and justify your answer. [10 marks]\n(d) Sketch the graph of $f$, clearly showing all the features found above. [3 marks]\n(e) Hence, write down the number of points of inflexion of the graph of $f$. [1 mark]"
+  },
+  "12": {
+   "topics": [
+    "4",
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.11",
+    "5.10",
+    "1.7"
+   ],
+   "text_clean": "12. [Maximum mark: 20]\nA continuous random variable $X$ has probability density function\n$f(x) = \\begin{cases} 0, & x < 0 \\\\ a e^{-ax}, & x \\ge 0. \\end{cases}$\nIt is known that $P(X < 1) = 1 - \\dfrac{1}{\\sqrt{2}}$.\n(a) Show that $a = \\dfrac{1}{2}\\ln 2$. [6 marks]\n(b) Find the median of $X$. [5 marks]\n(c) Calculate the probability that $X < 3$ given that $X > 1$. [9 marks]"
+  },
+  "13": {
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.15",
+    "3.10",
+    "3.8"
+   ],
+   "text_clean": "13. [Maximum mark: 20]\n(a) Show that $\\sin 2nx = \\sin((2n+1)x)\\cos x - \\cos((2n+1)x)\\sin x$. [2 marks]\n(b) Hence prove, by induction, that\n$\\cos x + \\cos 3x + \\cos 5x + \\ldots + \\cos((2n-1)x) = \\dfrac{\\sin 2nx}{2\\sin x}$,\nfor all $n \\in \\mathbb{Z}^+$, $\\sin x \\ne 0$. [12 marks]\n(c) Solve the equation $\\cos x + \\cos 3x = \\dfrac{1}{2}$, $0 < x < \\pi$. [6 marks]"
+  }
+ }
+}

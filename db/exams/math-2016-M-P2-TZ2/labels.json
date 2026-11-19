@@ -1,0 +1,143 @@
+{
+ "exam_id": "math-2016-M-P2-TZ2",
+ "questions": {
+  "1": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "text_clean": "1. [Maximum mark: 5]\nABCD is a quadrilateral where $\\mathrm{AB} = 6.5$, $\\mathrm{BC} = 9.1$, $\\mathrm{CD} = 10.4$, $\\mathrm{DA} = 7.8$ and $\\mathrm{C\\hat{D}A} = 90^\\circ$.\nFind $\\mathrm{A\\hat{B}C}$, giving your answer correct to the nearest degree."
+  },
+  "2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.12"
+   ],
+   "text_clean": "2. [Maximum mark: 7]\nA random variable $X$ is normally distributed with mean $3$ and variance $2^2$.\n(a) Find $\\mathrm{P}(0 \\le X \\le 2)$. [2]\n(b) Find $\\mathrm{P}(|X| > 1)$. [3]\n(c) If $\\mathrm{P}(X > c) = 0.44$, find the value of $c$. [2]"
+  },
+  "3": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7",
+    "1.16"
+   ],
+   "text_clean": "3. [Maximum mark: 6]\nSolve the simultaneous equations\n$\\ln \\frac{y}{x} = 2$\n$\\ln x^2 + \\ln y^3 = 7$."
+  },
+  "4": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.3",
+    "1.8",
+    "2.12"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\nThe sum of the second and third terms of a geometric sequence is $96$.\nThe sum to infinity of this sequence is $500$.\nFind the possible values for the common ratio, $r$."
+  },
+  "5": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.2"
+   ],
+   "text_clean": "5. [Maximum mark: 6]\nThe function $f$ is defined as $f(x) = \\sqrt{\\frac{1-x}{1+x}}$, $-1 < x \\le 1$.\nFind the inverse function, $f^{-1}$ stating its domain and range."
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.7"
+   ],
+   "text_clean": "6. [Maximum mark: 8]\nA company produces rectangular sheets of glass of area $5$ square metres. During manufacturing these glass sheets flaws occur at the rate of $0.5$ per $5$ square metres. It is assumed that the number of flaws per glass sheet follows a Poisson distribution.\n(a) Find the probability that a randomly chosen glass sheet contains at least one flaw. [3]\nGlass sheets with no flaws earn a profit of \\$5. Glass sheets with at least one flaw incur a loss of \\$3.\n(b) Find the expected profit, $P$ dollars, per glass sheet. [3]\nThis company also produces larger glass sheets of area $20$ square metres. The rate of occurrence of flaws remains at $0.5$ per $5$ square metres.\nA larger glass sheet is chosen at random.\n(c) Find the probability that it contains no flaws. [2]"
+  },
+  "7": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4"
+   ],
+   "text_clean": "7. [Maximum mark: 8]\nConsider the curve with equation $x^3 + y^3 = 4xy$.\n(a) Use implicit differentiation to show that $\\frac{dy}{dx} = \\frac{4y - 3x^2}{3y^2 - 4x}$. [3]\nThe tangent to this curve is parallel to the $x$-axis at the point where $x = k$, $k > 0$.\n(b) Find the value of $k$. [5]"
+  },
+  "8": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.15",
+    "2.10"
+   ],
+   "text_clean": "8. [Maximum mark: 6]\nA particle moves such that its velocity $v\\,\\mathrm{m\\,s^{-1}}$ is related to its displacement $s\\,\\mathrm{m}$, by the equation $v(s) = \\arctan(\\sin s)$, $0 \\le s \\le 1$. The particle's acceleration is $a\\,\\mathrm{m\\,s^{-2}}$.\n(a) Find the particle's acceleration in terms of $s$. [4]\n(b) Using an appropriate sketch graph, find the particle's displacement when its acceleration is $0.25\\,\\mathrm{m\\,s^{-2}}$. [2]"
+  },
+  "9": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.12"
+   ],
+   "text_clean": "9. [Maximum mark: 8]\nOACB is a parallelogram with $\\vec{OA} = \\boldsymbol{a}$ and $\\vec{OB} = \\boldsymbol{b}$, where $\\boldsymbol{a}$ and $\\boldsymbol{b}$ are non-zero vectors.\n(a) Show that\n(i) $|\\vec{OC}|^2 = |\\boldsymbol{a}|^2 + 2\\boldsymbol{a}\\cdot\\boldsymbol{b} + |\\boldsymbol{b}|^2$;\n(ii) $|\\vec{AB}|^2 = |\\boldsymbol{a}|^2 - 2\\boldsymbol{a}\\cdot\\boldsymbol{b} + |\\boldsymbol{b}|^2$. [4]\n(b) Given that $|\\vec{OC}| = |\\vec{AB}|$, prove that OACB is a rectangle. [4]"
+  },
+  "10": {
+   "topics": [
+    "4",
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.16",
+    "2.3"
+   ],
+   "text_clean": "10. [Maximum mark: 15]\nA continuous random variable $T$ has probability density function $f$ defined by\n$f(t) = \\begin{cases} \\frac{t|\\sin 2t|}{\\pi}, & 0 \\le t \\le \\pi \\\\ 0, & \\text{otherwise} \\end{cases}$\n(a) Sketch the graph of $y = f(t)$. [2]\n(b) Use your sketch to find the mode of $T$. [1]\n(c) Find the mean of $T$. [2]\n(d) Find the variance of $T$. [3]\n(e) Find the probability that $T$ lies between the mean and the mode. [2]\n(f) (i) Find $\\int_0^T f(t)\\,dt$ where $0 \\le T \\le \\frac{\\pi}{2}$.\n(ii) Hence verify that the lower quartile of $T$ is $\\frac{\\pi}{2}$. [5]"
+  },
+  "11": {
+   "topics": [
+    "5",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.7",
+    "5.6",
+    "3.10",
+    "3.2",
+    "2.15"
+   ],
+   "text_clean": "11. [Maximum mark: 22]\nPoints A, B and T lie on a line on an indoor soccer field. The goal, [AB], is $2$ metres wide. A player situated at point P kicks a ball at the goal. [PT] is perpendicular to (AB) and is $6$ metres from a parallel line through the centre of [AB]. Let PT be $x$ metres and let $\\alpha = \\mathrm{A\\hat{P}B}$ measured in degrees. Assume that the ball travels along the floor.\n[Diagram: goal AB (2 m wide) on a line through A, B, T; dashed line through the centre of AB perpendicular to it; P at distance x m below T with PT perpendicular to the line; horizontal distance 6 m from the dashed centre line to P; angle alpha at P between PA and PB]\n(a) Find the value of $\\alpha$ when $x = 10$. [4]\n(b) Show that $\\tan\\alpha = \\frac{2x}{x^2 + 35}$. [4]\nThe maximum for $\\tan\\alpha$ gives the maximum for $\\alpha$.\n(c) (i) Find $\\frac{d}{dx}(\\tan\\alpha)$.\n(ii) Hence or otherwise find the value of $\\alpha$ such that $\\frac{d}{dx}(\\tan\\alpha) = 0$.\n(iii) Find $\\frac{d^2}{dx^2}(\\tan\\alpha)$ and hence show that the value of $\\alpha$ never exceeds $10^\\circ$. [11]\n(d) Find the set of values of $x$ for which $\\alpha \\ge 7^\\circ$. [3]"
+  },
+  "12": {
+   "topics": [
+    "5",
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.15",
+    "5.6",
+    "2.7",
+    "1.7",
+    "2.9"
+   ],
+   "text_clean": "12. [Maximum mark: 23]\nThe functions $f$ and $g$ are defined by\n$f(x) = \\frac{e^x + e^{-x}}{2}$, $x \\in \\mathbb{R}$\n$g(x) = \\frac{e^x - e^{-x}}{2}$, $x \\in \\mathbb{R}$\n(a) (i) Show that $\\frac{1}{4f(x) - 2g(x)} = \\frac{e^x}{e^{2x} + 3}$.\n(ii) Use the substitution $u = e^x$ to find $\\int_0^{\\ln 3} \\frac{1}{4f(x) - 2g(x)}\\,dx$. Give your answer in the form $\\frac{\\pi\\sqrt{a}}{b}$ where $a, b \\in \\mathbb{Z}^+$. [9]\nLet $h(x) = nf(x) + g(x)$ where $n \\in \\mathbb{R}$, $n > 1$.\n(b) (i) By forming a quadratic equation in $e^x$, solve the equation $h(x) = k$, where $k \\in \\mathbb{R}^+$.\n(ii) Hence or otherwise show that the equation $h(x) = k$ has two real solutions provided that $k > \\sqrt{n^2 - 1}$ and $k \\in \\mathbb{R}^+$. [8]\nLet $t(x) = \\frac{g(x)}{f(x)}$.\n(c) (i) Show that $t'(x) = \\frac{[f(x)]^2 - [g(x)]^2}{[f(x)]^2}$ for $x \\in \\mathbb{R}$.\n(ii) Hence show that $t'(x) > 0$ for $x \\in \\mathbb{R}$. [6]"
+  }
+ }
+}

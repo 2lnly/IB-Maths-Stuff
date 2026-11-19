@@ -1,0 +1,516 @@
+{
+ "exam_id": "math-2000-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2000,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2000 November Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2000 November Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size, 1 donated/scanned); question paper is a scan (no text layer); question paper OCR'd (scan); marks not printed; assumed 3 per question (modal markscheme value)",
+ "qp_pages": 15,
+ "questions": [
+  {
+   "id": "math-2000-N-P1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "-4 3\n1. Find the values of the real number k for which the determinant of the matrix (k 5 i J\nis equal to zero.",
+   "ms_text": "k − 4 3\n1. = 0\n− 2 k + 1\n⇒ ( k − 4 )( k + 1 ) + 6 = 0 (M1)\n⇒ 2 k − 3 k + 2 = 0 (M1)\n⇒ ( k − 2 )( k − 1 ) = 0\n⇒ k = 2 or k = 1 (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.L1",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "1. Find the values of the real number $k$ for which the determinant of the matrix $\\begin{pmatrix} k-4 & 3 \\\\ -2 & k+1 \\end{pmatrix}$ is equal to zero."
+  },
+  {
+   "id": "math-2000-N-P1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. Given functions f: x+ 1 and g: x+— x3, find the function (fog)™'.",
+   "ms_text": "2. ( f ! g ): x \" x 3 + 1 (M1)\n− 1 1 3 ( f ! g ): x \" ( x − 1) (M1)(A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "2. Given functions $f: x \\mapsto x+1$ and $g: x \\mapsto x^3$, find the function $(f \\circ g)^{-1}$."
+  },
+  {
+   "id": "math-2000-N-P1-q3",
+   "num": "3",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. For the function f: x— x?>In x, x>0, find the function f’, the derivative of f/ with respect\nto x.",
+   "ms_text": "2 ln 3. fx () = x x\n1 2\nf ′ () x = 2ln x x + x (M1)(M1)\nx\n= 2ln x x + x (A1) (C3)\nf ′ : x \" 2ln x x + x\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "3. For the function $f: x \\mapsto x^2 \\ln x$, $x > 0$, find the function $f'$, the derivative of $f$ with respect to $x$.",
+   "review_note": "audit: product rule + SL derivative of ln x; no 5.15"
+  },
+  {
+   "id": "math-2000-N-P1-q4",
+   "num": "4",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. The box-and-whisker plots shown represent the heights of female students and the heights of\nmale students at a certain school.\nFemales — —]\nMales F—\nI | I | I T\n150 160 170 180 190 200 210 Height(cm)\n(a) What percentage of female students are shorter than any male students?\n(b) What percentage of male students are shorter than some female students?\n(c) From the diagram, estimate the mean height of the male students.\nWo rking.\nAnswers:",
+   "ms_text": "4. (a) Required percentage = 25% (A1) (C1)\n(b) Required percentage (A1) (C1) = 75%\n(c) Mean height of the male students is ≈ 172 cm ± 1 cm (A1) (C1)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.2",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "4. The box-and-whisker plots shown represent the heights of female students and the heights of male students at a certain school.\n[Diagram: box-and-whisker plots on a height axis 150-210 cm. Females: whiskers 150 to 175, box 160 to 170, median 166. Males: whiskers 160 to 190, box 165 to 175, median 170.]\n(a) What percentage of female students are shorter than any male students?\n(b) What percentage of male students are shorter than some female students?\n(c) From the diagram, estimate the mean height of the male students."
+  },
+  {
+   "id": "math-2000-N-P1-q5",
+   "num": "5",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. Calculate the area bounded by the graph of y = x sin (x?) and the x-axis, between x =0 and the\nsmallest positive x-intercept.",
+   "ms_text": "2 2 5. x sin( x ) = 0 when x = 0( +π k , k ∈Z ) , i.e. x = 0( + k π ) (A1)\nπ\n2 The required area\n=∫ x sin( x )d x (M1)\n0\n= (G1) (C3) 1\nOR\nπ\nArea x sin( x 2 )d x =∫\n0\nπ 1cos( 2\n= − x ) (M1)\n2 0\n= − 1 (11) −−\n2\n= 1 (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "5. Calculate the area bounded by the graph of $y = x\\sin(x^2)$ and the $x$-axis, between $x = 0$ and the smallest positive $x$-intercept."
+  },
+  {
+   "id": "math-2000-N-P1-q6",
+   "num": "6",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. Given that events 4 and B are independent with P(4 N B)=0.3 and P(4 n B')=0.3, find\nP(4 U B).",
+   "ms_text": "6. Method 1: (Venn diagram) (M1)\nU\nA B\n0.3 0.3\nP ( A ∩ B ) = P () A P () B (M1)\n0 3 . = 0 6 . × PB ()\nP() B= 05 .\nTherefore, P( A ∪ B ) = 08 . (A1) (C3)\nMethod 2: P( A ∩ B ′ ) = P () A − P ( A ∩ B )\n0.3= P() A − 0 3 .\nP() A= 0 6. (A1)\nP( A ∩ B ) = P ()() A P B since AB , are independent\n0.3= 0 6. × PB ()\nP() B = 05. (A1)\nP( A ∪ B ) = P () A + P () B − P ( A ∩ B )\n= 0 6 . + 05 . − 0 3 .\n= 08. (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "6. Given that events $A$ and $B$ are independent with $P(A \\cap B) = 0.3$ and $P(A \\cap B') = 0.3$, find $P(A \\cup B)$."
+  },
+  {
+   "id": "math-2000-N-P1-q7",
+   "num": "7",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. Find the sum of the positive terms of the arithmetic sequence 85, 78, 71,",
+   "ms_text": "7. Arithmetic progression: 85, 78, 71, ...\nu = 85, d = − 7 1\nu = u + ( n − 1) d = 85 − 7( n − 1) = 92 − 7 n n 1 (M1)\nThus, u> 0 provided n ≤13 .\nn\n13 13\nThe required sum = S = ( u + u ) = (851) + . (M1) 13 1 13\n2 2\n= 559 (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "7. Find the sum of the positive terms of the arithmetic sequence $85, 78, 71, \\ldots$."
+  },
+  {
+   "id": "math-2000-N-P1-q8",
+   "num": "8",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. For the function f :x % sin 2x + cos x , find the possible values of sin x for which f'(x)=0.",
+   "ms_text": "8. fx () = 1 sin 2 x + cos x\n2\nf ′ ()= x cos 2x − sin x (M1)\n2 =− 1 2 sin x − sin x\n= ( 1 + sin)( x 1 − 2 sin) x (M1)\n1 =\n0 when sin x = − (A1) (C3) 1 or 2\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.6",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "8. For the function $f: x \\mapsto \\frac{1}{2}\\sin 2x + \\cos x$, find the possible values of $\\sin x$ for which $f'(x) = 0$."
+  },
+  {
+   "id": "math-2000-N-P1-q9",
+   "num": "9",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. (a) Describe the transformation of the plane whose matrix is\n13\n2 2\nM\n2 2\n(b) Find the smallest positive integer n for which M\" = ((1) O] i",
+   "ms_text": "π π\ncos − sin\n3 3\n9. (a) M = (M1)\nπ π\nsin cos\n3 3\nπ !\nM represents a rotation about the origin through or 60 . (A1) (C2)\n3\n(b) The smallest value of n is 6. (A1) (C1)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.L1",
+    "3.5"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "9. (a) Describe the transformation of the plane whose matrix is $M = \\begin{pmatrix} \\frac{1}{2} & -\\frac{\\sqrt{3}}{2} \\\\ \\frac{\\sqrt{3}}{2} & \\frac{1}{2} \\end{pmatrix}$.\n(b) Find the smallest positive integer $n$ for which $M^n = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$."
+  },
+  {
+   "id": "math-2000-N-P1-q10",
+   "num": "10",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. Find the real number k for which 1+ ki, (i = N ), is a zero of the polynomial z2 + kz + 5.",
+   "ms_text": "2 10. ( 1 + k i ) + k ( 1 + k i ) + 5 = 0 (M1)\n2 2 1 + 2 k i − k + k + k i + 5 = 0\n2 ( 6 + k − k ) + k i ( 2 + k ) = 0\n2 Thus, k ( 2 + k ) = 0 and 6 + k − k = 0 (M1)\nThis gives k= −2 (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "10. Find the real number $k$ for which $1 + k\\mathrm{i}$, $(\\mathrm{i} = \\sqrt{-1})$, is a zero of the polynomial $z^2 + kz + 5$."
+  },
+  {
+   "id": "math-2000-N-P1-q11",
+   "num": "11",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. Let o be the angle between the vectors a and b, where a=(cos 6)i+ (sin 0)j,\nb = (sin )i + (cos 6)j and 0<9<§.\nExpress o in terms of 6.",
+   "ms_text": "⋅ ab\n11. Method 1:Let the angle be α, then cosα= (M1)\nab\nsincos θ θ =2\n()() 11\n= sin2θ (M1)\nπ\n= cos − 2 θ\n2\nπ\nα = − 2 θ or α = arccos(sin2) θ (A1) (C3)\n2\nMethod 2:\ny Q is the image of P under a\nreflection in y = x (M1)\nα π (A1) Q(sin, cos) θ θ\nθ + =\n2 4\ny = x\n(A1) (C3) π\nv α = − θ 1 2\n2\nP(cos, sin) θ θ\n1\nu\nα\n✕\n[3 marks] x\nO",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "11. Let $\\alpha$ be the angle between the vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$, where $\\boldsymbol{a} = (\\cos\\theta)\\boldsymbol{i} + (\\sin\\theta)\\boldsymbol{j}$, $\\boldsymbol{b} = (\\sin\\theta)\\boldsymbol{i} + (\\cos\\theta)\\boldsymbol{j}$ and $0 < \\theta < \\frac{\\pi}{4}$.\nExpress $\\alpha$ in terms of $\\theta$."
+  },
+  {
+   "id": "math-2000-N-P1-q12",
+   "num": "12",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. The coefficient of x in the expansion of (x + Lz] is % Find the possible values of a\nax",
+   "ms_text": "r r\n7 1 7 1\n7 − r 73 − r 12. Method 1:\nrT = x = x (M1) + 1\n2 r ax r a\n7 − 3 r = 1\nr = 2 (A1)\n7 1 7\nNow, =\n2 2 a 3\n⇒ a2 = 9\n⇒ a = ±3 . (A1) (C3)\n7 7\n1 1 7\nMethod 2: x + = x 1 + (M1)\n2 3 ax ax\n2\n7 1\nCoefficient of x (A1) =\n2 a\n21 7\nThus, which leads to a = ±3 (A1) (C3) a=\n2 3\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "12. The coefficient of $x$ in the expansion of $\\left(x + \\frac{1}{ax^2}\\right)^7$ is $\\frac{7}{3}$. Find the possible values of $a$."
+  },
+  {
+   "id": "math-2000-N-P1-q13",
+   "num": "13",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. For what values of m is the line y =mx + 5 a tangent to the parabola y =4 —x??",
+   "ms_text": "2 13. Method 1: y = 4 − x\nd y m\n= − 2 x = m when x = − (M1)\nd x 2\n2 m m\nFHG IKJ Thus, − , − lies on y = mx + 5 . (R1)\n24\n4\n2 2 m m\nThen, − = − + 2 = 4 5, so m 4\n4 2\nm = ± 2 . (A1) (C3)\n2 2\nMethod 2:For intersection: mx + 5 = 4 − x or x + mx += 1 0 . (M1)\nFor tangency: discriminant = 0 (M1)\n2\nThus, m− 4 = 0\nm = ± 2 (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.7",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "13. For what values of $m$ is the line $y = mx + 5$ a tangent to the parabola $y = 4 - x^2$?"
+  },
+  {
+   "id": "math-2000-N-P1-q14",
+   "num": "14",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14. The tangent to the curve y? = x3 at the point P(1 , 1) meets the x-axis at Q and the y-axis at R..\nFind the ratio PQ : QR",
+   "ms_text": "d 2 3 yy 2\n14. y = x so 2 = 3 x .\nd x\nd y 3\nAt P (,), 11 . (M1) x=\nd 2\n1 1\nThe tangent is 3 x − 2 y = 1, giving Q = , 0 and R = 0, − . (A1)\n3 2\n2 1 1\n= : Therefore, PQ : QR or\n1: 2 3 3\n= 2 :1 . (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4",
+    "3.1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "14. The tangent to the curve $y^2 = x^3$ at the point P$(1, 1)$ meets the $x$-axis at Q and the $y$-axis at R. Find the ratio PQ : QR."
+  },
+  {
+   "id": "math-2000-N-P1-q15",
+   "num": "15",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "15. The sum of an infinite geometric sequence is 134, and the sum of the first three terms is 13. Find\nthe first term.",
+   "ms_text": "u\n1 27 and 2\n15. u + u r + u r = 13 (M1) r= 1 1 1\n1 − 2\n27 2\n( − r )( 1 ++ r r ) = 13 (M1)\n21\n26 1 3\n1 − r = giving r =\n27 3\nTherefore, u= 9 . (A1) (C3)\n1\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.8",
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "15. The sum of an infinite geometric sequence is $13\\frac{1}{2}$, and the sum of the first three terms is 13. Find the first term."
+  },
+  {
+   "id": "math-2000-N-P1-q16",
+   "num": "16",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "16. In a triangle ABC, ABC = 30° , AB=6cm and AC =3«/§ cm. Find the possible lengths\nof [BC].",
+   "ms_text": "16. Note: Award full marks for exact answers or answers given to three significant figures.\nMethod 1:\n! sin30\nUsing the sine rule: sinC =\n6 32\n1\nsin C =\n2\n! ! C = 45,135 . (M1)\nBC BC\nAgain, 32 = or\n! ! ! sin30 sin105 sin15\n! ! Thus, BC = 62 sin105 or 62 sin15\nBC = 8.20 cm or BC = 2.20 cm. (A1)(A1) (C3)\nMethod 2:\n2 2 2 Using the cosine rule: AC = 6 + BC − 2(6)(BC)cos30 °\n2 18 = 36 + BC − 63BC (M1)\nTherefore, BC 2 − (63)BC + 18 = 0\n2 Therefore, (BC − 33) = 27 − 18 = 9\nBC = 33 ± 3 = Therefore, , i.e. BC 8.20 cm or BC = 2.20 cm. (A1)(A1) (C3)\nMethod 3:\nA\n6\n32 32\n30!\nB C D C\n1 2\nIn ∆ABD, AD = 3 cm,\n(A1)\nand BD = 27 = 33 cm.\nIn ∆ AC D , C D = 3 (A1)\n1 1\nAlso, CD = 3 .\n2\nTherefore BC = (33 ± 3) cm, i.e. BC = 8.20 cm or BC = 2.20 cm. (A1) (C3)\nNote: If only one answer is given, award a maximum of (M1)(A1).\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "16. In a triangle ABC, $\\hat{ABC} = 30^\\circ$, AB $= 6$ cm and AC $= 3\\sqrt{2}$ cm. Find the possible lengths of [BC]."
+  },
+  {
+   "id": "math-2000-N-P1-q17",
+   "num": "17",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "17. Solve the differential equation xy Ey =1+ given that y=0 when x=2.",
+   "ms_text": "d y 1 xyy 2 z z\n17. =+ 1 y ⇒ d y = d (M1)\n2 xx d x 1 + y\n1 ln(1 2 + y ) = ln x + ln c\n(M1)\n2\n2 2 2 1 + y = kx ( k = c )\ny = 0 when x = 2 , and so 1 = 4 k\n1 2 2 2 2\nThus, 1 + y = x or x − 4 y = 4 . (A1) (C3)\n4\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "17. Solve the differential equation $xy\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 1 + y^2$, given that $y = 0$ when $x = 2$."
+  },
+  {
+   "id": "math-2000-N-P1-q18",
+   "num": "18",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "18. If z is a complex number and |z +16|=4|z+ 1|, find the value of |z|.",
+   "ms_text": "18. Let z = x + i, yxy , ∈ R .\n2 2\nThen, z + 16 = 16 z + 1\n⇒ 2 2 n 2 2 s ( x + 16 ) + y = 16 ( x + 1 ) + y (M1)\n2 2 2 2 ⇒ x + 32 x + 256 + y = 16 x + 32 x + 16 + 16 y\n2 2 ⇒ 15 x + 15 y = 240\n2 2 ⇒ x + y = 16\n(A1)\nTherefore, z= 4 . (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "18. If $z$ is a complex number and $|z + 16| = 4|z + 1|$, find the value of $|z|$.",
+   "review_note": "audit: Cartesian modulus only; no polar/Euler form needed"
+  },
+  {
+   "id": "math-2000-N-P1-q19",
+   "num": "19",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "19. In how many ways can six different coins be divided between two students so that each\nstudent receives at least one coin?",
+   "ms_text": "6\nxFHGIKJ 19. The first student can receive x coins in ways, 1 ≤ x ≤ 5 . (M1)\n[The second student then receives the rest.]\n6 6 6 6 6\nTherefore, the number of ways =FHG IKJ +FHG IKJ +FHG IKJ +FHG IKJ +FHG IKJ (A1)\n1 2 3 4 5\n6 = 2 − 2\n= 62 . (A1) (C3)\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "19. In how many ways can six different coins be divided between two students so that each student receives at least one coin?"
+  },
+  {
+   "id": "math-2000-N-P1-q20",
+   "num": "20",
+   "section": null,
+   "marks": 3,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "20. The following graph is that part of the graph of y =f(x) for which f(x)>0.\noA\n-2 -1 0 1 2\nSketch, on the axes provided below, the graph of y?>=f (x) for 2<x<2.",
+   "ms_text": "20.\n(A1)(A1)(A1) (C3)\nNote: Award (A1) for maxima and minima, (A1) for symmetry, (A1) for zeros.\n[3 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms",
+    "text-ocr"
+   ],
+   "text_clean": "20. The following graph is that part of the graph of $y = f(x)$ for which $f(x) \\geq 0$.\n[Graph: curve on $-2 \\le x \\le 2$, zero at $x=-2$, $0$, $2$, maxima of 4 at about $x=\\pm1.5$, minimum 0 at origin, symmetric about the y-axis]\nSketch, on the axes provided below, the graph of $y^2 = f(x)$ for $-2 \\leq x \\leq 2$.\n[Blank grid: $x$ from $-2$ to $2$, $y$ from $-4$ to $4$]"
+  }
+ ],
+ "status": "done"
+}

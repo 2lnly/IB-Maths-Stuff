@@ -1,0 +1,113 @@
+{
+ "exam_id": "math-2014-N-P3-calculus",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2014,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Calculus",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2014 November Examination Session/Mathematics_paper_3_Calculus_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2014 November Examination Session/Mathematics_paper_3_Calculus_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8814-7208; code N14/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2014-N-P3-calculus-q1",
+   "num": "1",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 14]\n(a) Use the integral test to determine the convergence or divergence of\n∞ 1\n∑ .\n0 5 . [3] 1n\nn =\n∞ n ( x + 1 )\n(b) Let S = ∑ .\nn 0 5 . 2 × n\nn = 1\n(i) Use the ratio test to show that S is convergent for −< 3 x < 1 .\n(ii) Hence find the interval of convergence for S . [11]",
+   "ms_text": "∞ −\n0.5 1. (a)\n∫ x d x M1\n1\nH 0.5\n= lim2 x A1 →∞\nH 1\n∞ 0.5\nNote: Accept 2x .\n1\nthis is not finite so series is divergent R1\n[3 marks]\nNote: Accept equivalent eg →∞, or “limit does not exist”.\nIf lower limit is not equal to 1 award M0A0, but the R1 can still be awarded if the\nfinal reasoning is correct.\n(b) (i) applying the ratio test M1\nn + 1 n 0.5 ( x + 1) 2 n\n× A1\nlim2 n + 1 0.5 n\nn →∞ ( n + 1) ( x + 1)\n( x + 1) n 0.5 ( x + 1)\n= A1\nlim2( 0.5\nn →∞ n + 1) 2\nNote: Do not penalize the absence of limits and modulus signs.\nx + 1 ( x + 1)\n<⇒−< < converges if 1 1 1 M1\n2 2\n⇒−3<x <1 A1\nNote: Accept 2 −< x +< 1 2 .\n(ii) considering end points M1\n∞ (1) − n\nwhen x =− 3 , series is ∑ A1\n0.5\n= n n 1\n1\nis a decreasing sequence with limit zero, R1\n0.5 n\nso series converges by alternating series test R1\n∞ 1\nwhen x =, series is 1 which diverges by part (a) or =∑\n0.5 n\nn 1\np-series A1\nNote: This A1 is for both the reasoning and the statement it diverges.\n−≤ < interval of convergence is 3 x 1 A1\n[11 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L2",
+    "5.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 14]\n(a) Use the integral test to determine the convergence or divergence of $\\sum_{n=1}^{\\infty} \\frac{1}{n^{0.5}}$. [3]\n(b) Let $S = \\sum_{n=1}^{\\infty} \\frac{(x+1)^n}{2^n \\times n^{0.5}}$.\n(i) Use the ratio test to show that $S$ is convergent for $-3 < x < 1$.\n(ii) Hence find the interval of convergence for $S$. [11]"
+  },
+  {
+   "id": "math-2014-N-P3-calculus-q2",
+   "num": "2",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 14]\nx x 2 Use an integrating factor to show that the general solution for d\n− = − t > (a) , 0 is\nd t t t\nx = 2 + ct , where c is a constant. [4]\nThe weight in kilograms of a dog, t weeks after being bought from a pet shop, can be\nmodelled by the following function:\n2 + ct 0 ≤≤ t 5\nwt () = . 35\n16 − t > 5\nt\n(b) Given that wt() is continuous, find the value of c . [2]\n(c) Write down\n(i) the weight of the dog when bought from the pet shop;\n(ii) an upper bound for the weight of the dog. [2]\n(d) Prove from first principles that wt() is differentiable at t = 5 . [6]",
+   "ms_text": "1d ∫ − t\n− 1\ne t = e ln t = 2. (a) integrating factor M1A1\nt\nx 2 2\n=− ∫ d t = + c A1A1\n2 t t t\nNote: Award A1 for x\ntand A1 for2 c . t+\nx = 2 + ct AG\n[4 marks]\nx = (b) given continuity at 5\n35 7\n5 c + 2 = 16 − ⇒ c = M1A1\n5 5\n[2 marks]\n(c) (i) 2 A1\n(ii) any value ≥16 A1\nNote: Accept values less than 16 if fully justified by reference to the maximum\nage for a dog.\n[2 marks]\n7 7\n(5 + h ) + 2 − (5) − 2\n5 5 = 7\n(d) lim M1A1\nh →− 0 h 5\n35 35 −35\n16 − − 16 +\n5+h+7\n5 + h 5 =lim\nlim M1\nh →+ 0 h h→0+ h\n−35+35+7h\n(5+h) 7\n=lim =lim M1A1 =7\nh→0+ h→0+ 5+h h 5\nboth limits equal so differentiable at t = 5 R1AG\nNote: The limits t→ 5 could also be used.\nFor each value of 7\n5 obtained by standard differentiation award A1.\nTo gain the other 4 marks a rigorous explanation must be given on how\nyou can get from the left and right hand derivatives to the derivative.\nNote: If the candidate works with t and then substitutes t = 5 at the end award\nas follows\nFirst M1 for using formula with t in the linear case, A1 for 7\n5\nAward next 2 method marks even if t = 5 not substituted, A1 for 7\n5\n[6 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.12",
+    "5.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 14]\n(a) Use an integrating factor to show that the general solution for $\\frac{dx}{dt} - \\frac{x}{t} = -\\frac{2}{t}$, $t > 0$ is $x = 2 + ct$, where $c$ is a constant. [4]\nThe weight in kilograms of a dog, $t$ weeks after being bought from a pet shop, can be modelled by the following function:\n$w(t) = \\begin{cases} 2 + ct & 0 \\le t \\le 5 \\\\ 16 - \\frac{35}{t} & t > 5 \\end{cases}$.\n(b) Given that $w(t)$ is continuous, find the value of $c$. [2]\n(c) Write down\n(i) the weight of the dog when bought from the pet shop;\n(ii) an upper bound for the weight of the dog. [2]\n(d) Prove from first principles that $w(t)$ is differentiable at $t = 5$. [6]"
+  },
+  {
+   "id": "math-2014-N-P3-calculus-q3",
+   "num": "3",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 10]\ny Consider the differential equation d\n= fxy (,) where fxy (,) = y −2. x\nd x\n(a) Sketch, on one diagram, the four isoclines corresponding to fxy (,) = k where k takes\nthe values − 1 , − 0 50 ., and 1. Indicate clearly where each isocline crosses the y axis. [2]\nA curve, C, passes through the point (,) 01 and satisfies the differential equation above.\n(b) Sketch C on your diagram. [3]\n(c) State a particular relationship between the isocline fxy (,) = −0 5 and the curve C, .\nat their point of intersection. [1]\n(d) Use Euler’s method with a step interval of 0.1 to find an approximate value for y on C,\nwhen x = 0 5.. [4]",
+   "ms_text": "3. (a) and (b)\n(a) A1 for 4 parallel straight lines with a positive gradient A1\nA1 for correct y intercepts A1\n[2 marks]\n(b) A1for passing through (0,1) with positive gradient less than 2\nA1for stationary point on y = 2 x\nA1for negative gradient on both of the other 2 isoclines A1A1A1\n[3 marks]\n(c) the isocline is perpendicular to C R1\n[1mark]\n(d) y += y + 0.1( y − 2 x )( = 1.1 y − 0.2 x ) (M1)(A1)\nn 1 n n n n n\nNote: Also award M1A1 if no formula seen but 2yis correct.\ny = 1, y = 1.1, y = 1.19, y = 1.269, y = 1.3359 (M1)\n0 1 2 3 4\ny = 1.39 to 3sf A1\n5\nNote: M1 is for repeated use of their formula, with steps of 0.1.\nNote: Accept 1.39 or 1.4 only.\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 10]\nConsider the differential equation $\\frac{dy}{dx} = f(x, y)$ where $f(x, y) = y - 2x$.\n(a) Sketch, on one diagram, the four isoclines corresponding to $f(x, y) = k$ where $k$ takes the values $-1, -0.5, 0$ and $1$. Indicate clearly where each isocline crosses the $y$ axis. [2]\nA curve, C, passes through the point $(0, 1)$ and satisfies the differential equation above.\n(b) Sketch C on your diagram. [3]\n(c) State a particular relationship between the isocline $f(x, y) = -0.5$ and the curve C, at their point of intersection. [1]\n(d) Use Euler's method with a step interval of 0.1 to find an approximate value for $y$ on C, when $x = 0.5$. [4]"
+  },
+  {
+   "id": "math-2014-N-P3-calculus-q4",
+   "num": "4",
+   "section": null,
+   "marks": 22,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 22]\nIn this question you may assume that arctan x is continuous and differentiable for x∈ϒ.\n(a) Consider the infinite geometric series\n2 4 6 1 − x + x − x +… x<1.\n1\nShow that the sum of the series is [1] + x.\n2 1\n3 5 7 x x x\n(b) Hence show that an expansion of arctan x is arctan x = x − + − +… [4]\n3 5 7\n(c) f is a continuous function defined on [,] ab and differentiable on ],[ ab with f ′ () x > 0\non ],[ ab.\n> Use the mean value theorem to prove that for any x , y∈[,] ab, if y x\nthen fy () > fx () . [4]\n(d) (i) Given gx () = x − arctan x , prove that ′ g () x > 0 , for x > 0 .\n(ii) Use the result from part (c) to prove that arctan x < x , for x > 0 . [4]\n3 x\n(e) Use the result from part (c) to prove that arctan x > x − [5]\n3, for x > 0 .\n6 Hence show that 16\n(f) < π < . [4]\n33 3",
+   "ms_text": "1\n2 4. (a) r =− x, S A1AG\n=+ 2\n1 x\n[1 mark]\n1 2 4 6\n(b) 1 x + x − x +…\nx=− 2\n1 +\nEITHER\n1 2 4 6\n∫ d x = ∫ 1 − x + x − x +… d x M1\n1 + x 2\nx 3 x 5 x 7\narctan x = c + x − + − +… A1\n3 5 7\nNote: Do not penalize the absence of c at this stage.\nwhen x = 0 we have arctan0 = c hence c = 0 M1A1\nOR\nx 1 x\nd t = 1 − t 2 + t 4 − t 6 +… d t M1A1A1 ∫ ∫\n0 2 0 1 + t\nNote: Allow x as the variable as well as the limit.\nM1 for knowing to integrate, A1 for each of the limits.\nx 3 5 7\nx t t t\n[ ] t arctan t = − + − +… A1\n0 3 5 7\n0\n3 5 7 x x x\nhence arctan x = x − + − +… AG\n3 5 7\n[4 marks]\n(c) applying the MVT to the function f on the interval [, x y ] M1\n− fy () fx ()\n= f ′ () c (for some c ∈ ] xy , [ ) A1\ny − x\nfy () − fx ()\n′ > 0 (as fc () > 0 ) R1\ny − x\nfy () − fx () > 0 as y > x R1\n⇒ fy () > fx () AG\n[4 marks]\nNote: If they use x rather than c they should be awarded M1A0R0, but could get\nthe next R1.\n1\n′ (d) (i) gx () = x − arctan x ⇒ gx () A1\n=−+ 11 2\nx\n1\nthis is greater than zero because R1\n1+x2<1\nso g ′ () x > 0 AG\n(ii) (g is a continuous function defined on [0,] b and differentiable\non ] 0, bwith g '(x) >0 on ] [ [ 0, b for all b∈ϒ)\n[ ] (If x ∈ 0, b then) from part (c) gx () > g (0) M1\nx − arctan x > 0 ⇒ arctan x < x M1\n(as b can take any positive value it is true for all x > 0) AG\n[4 marks]\nx 3\n(e) let hx () = arctan x − x − M1\n3\nb and differentiable on ] [ (h is a continuous function defined on [0,] 0, b\nwith h'(x) >0 on ] [ 0, b)\n1 2\nhx ′ () = − (1 − x ) A1\n2 1 + x\n1(1 − − x 2 )(1 + x 2 ) x 4\n= = M1A1\n2 2 1 + x 1 + x\n′ > ∈ [ ] ) () hx > h (0)(0) = hx () 0 hence (for x 0, b R1\n⇒arctan x >x −x3\nAG\n3\n[5 marks]\n3 x\n= − − Note: Allow correct working with hx () x arctan x .\n3\nx 3\n(f) use of x − < arctan x < x M1\n3\n1\nchoice of x = A1\n3\n1 1 π 1\n− < < M1\n3 93 6 3\n8 π 1\n< < A1\n93 6 3\nNote: Award final A1 for a correct inequality with a single fraction on\neach side that leads to the final answer.\n16 6\n< π < AG\n33 3\n[4 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "5.L4",
+    "5.15",
+    "5.19",
+    "3.9",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "topic-uncertain"
+   ],
+   "text_clean": "4. [Maximum mark: 22]\nIn this question you may assume that $\\arctan x$ is continuous and differentiable for $x \\in \\mathbb{R}$.\n(a) Consider the infinite geometric series\n$1 - x^2 + x^4 - x^6 + \\dots \\quad |x| < 1$.\nShow that the sum of the series is $\\frac{1}{1+x^2}$. [1]\n(b) Hence show that an expansion of $\\arctan x$ is $\\arctan x = x - \\frac{x^3}{3} + \\frac{x^5}{5} - \\frac{x^7}{7} + \\dots$ [4]\n(c) $f$ is a continuous function defined on $[a, b]$ and differentiable on $]a, b[$ with $f'(x) > 0$ on $]a, b[$.\nUse the mean value theorem to prove that for any $x, y \\in [a, b]$, if $y > x$ then $f(y) > f(x)$. [4]\n(d) (i) Given $g(x) = x - \\arctan x$, prove that $g'(x) > 0$, for $x > 0$.\n(ii) Use the result from part (c) to prove that $\\arctan x < x$, for $x > 0$. [4]\n(e) Use the result from part (c) to prove that $\\arctan x > x - \\frac{x^3}{3}$, for $x > 0$. [5]\n(f) Hence show that $\\frac{16}{3\\sqrt{3}} < \\pi < \\frac{6}{\\sqrt{3}}$. [4]",
+   "review_note": "(b) term-by-term integration of geometric series for arctan tagged 5.19; (f) uses arctan(1/sqrt3)=pi/6 tagged 3.9."
+  }
+ ],
+ "status": "done"
+}

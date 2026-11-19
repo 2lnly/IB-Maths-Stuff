@@ -1,0 +1,35 @@
+{
+  "exam_id": "math-2014-N-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L3", "4.14"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 9]\nA random variable $X$ has probability density function\n$f(x)=\\begin{cases}0 & x<0\\\\ \\frac{1}{2} & 0\\le x<1\\\\ \\frac{1}{4} & 1\\le x<3\\\\ 0 & x\\ge 3\\end{cases}$.\n(a) Sketch the graph of $y=f(x)$. [1]\n(b) Find the cumulative distribution function for $X$. [5]\n(c) Find the interquartile range for $X$. [3]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L2", "4.8"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 9]\nEric plays a game at a fairground in which he throws darts at a target. Each time he throws a dart, the probability of hitting the target is 0.2. He is allowed to throw as many darts as he likes, but it costs him \\$1 a throw. If he hits the target a total of three times he wins \\$10.\n(a) Find the probability he has his third success of hitting the target on his sixth throw. [3]\n(b) (i) Find the expected number of throws required for Eric to hit the target three times.\n(ii) Write down his expected profit or loss if he plays until he wins the \\$10. [3]\n(c) If he has just \\$8, find the probability he will lose all his money before he hits the target three times. [3]"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L8"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 11]\n(a) If $X$ and $Y$ are two random variables such that $\\mathrm{E}(X)=\\mu_X$ and $\\mathrm{E}(Y)=\\mu_Y$ then $\\mathrm{Cov}(X,Y)=\\mathrm{E}\\big((X-\\mu_X)(Y-\\mu_Y)\\big)$.\nProve that if $X$ and $Y$ are independent then $\\mathrm{Cov}(X,Y)=0$. [3]\n(b) In a particular company, it is claimed that the distance travelled by employees to work is independent of their salary. To test this, 20 randomly selected employees are asked about the distance they travel to work and the size of their salaries. It is found that the product moment correlation coefficient, $r$, for the sample is $-0.35$.\nYou may assume that both salary and distance travelled to work follow normal distributions.\nPerform a one-tailed test at the 5% significance level to test whether or not the distance travelled to work and the salaries of the employees are independent. [8]"
+    },
+    "4": {
+      "topics": ["4"],
+      "subtopics": ["4.L3", "4.L4", "4.L5", "4.L1"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 21]\nIf $X$ is a random variable that follows a Poisson distribution with mean $\\lambda>0$ then the probability generating function of $X$ is $G(t)=e^{\\lambda(t-1)}$.\n(a) (i) Prove that $\\mathrm{E}(X)=\\lambda$.\n(ii) Prove that $\\mathrm{Var}(X)=\\lambda$. [6]\n$Y$ is a random variable, independent of $X$, that also follows a Poisson distribution with mean $\\lambda$.\n(b) If $S=2X-Y$ find\n(i) $\\mathrm{E}(S)$;\n(ii) $\\mathrm{Var}(S)$. [3]\nLet $T=\\frac{X}{2}+\\frac{Y}{2}$.\n(c) (i) Show that $T$ is an unbiased estimator for $\\lambda$.\n(ii) Show that $T$ is a more efficient unbiased estimator of $\\lambda$ than $S$. [3]\n(d) Could either $S$ or $T$ model a Poisson distribution? Justify your answer. [1]\n(e) By consideration of the probability generating function, $G_{X+Y}(t)$, of $X+Y$, prove that $X+Y$ follows a Poisson distribution with mean $2\\lambda$. [3]\n(f) Find\n(i) $G_{X+Y}(1)$;\n(ii) $G_{X+Y}(-1)$. [2]\n(g) Hence find the probability that $X+Y$ is an even number. [3]"
+    },
+    "5": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.13", "4.6", "4.L5"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 10]\nTwo species of plant, A and B, are identical in appearance though it is known that the mean length of leaves from a plant of species A is 5.2 cm, whereas the mean length of leaves from a plant of species B is 4.6 cm. Both lengths can be modelled by normal distributions with standard deviation 1.2 cm.\nIn order to test whether a particular plant is from species A or species B, 16 leaves are collected at random from the plant. The length, $x$, of each leaf is measured and the mean length evaluated. A one-tailed test of the sample mean, $\\bar{X}$, is then performed at the 5% level, with the hypotheses: $H_0:\\mu=5.2$ and $H_1:\\mu<5.2$.\n(a) Find the critical region for this test. [3]\n(b) Find the probability of a Type II error if the leaves are in fact from a plant of species B. [2]\nIt is now known that in the area in which the plant was found 90% of all the plants are of species A and 10% are of species B.\n(c) Find the probability that $\\bar{X}$ will fall within the critical region of the test. [2]\n(d) If, having done the test, the sample mean is found to lie within the critical region, find the probability that the leaves came from a plant of species A. [3]"
+    }
+  }
+}

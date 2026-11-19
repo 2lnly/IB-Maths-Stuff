@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2008-N-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2008,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2008 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2008 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8808-7206; code N08/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2008-N-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 12]\nThe hens on a farm lay either white or brown eggs. The eggs are put into boxes\nof six. The farmer claims that the number of brown eggs in a box can be modelled\nby the binomial distribution, B(, 6p. By inspecting the contents of 150 boxes of )\neggs she obtains the following data.\nNumber of\n0 1 2 3 4 5 6\nbrown eggs\nNumber of\n7 32 35 50 22 4 0\nboxes\n(a) Show that this data leads to an estimated value of p = 0 4.. [1 mark]\n(b) Stating null and alternative hypotheses, carry out an appropriate test at the\n5 % level to decide whether the farmer’s claim can be justified. [11 marks]",
+   "ms_text": "1. (a) from the sample, the probability of a brown egg is\n07 × +× 132 + Λ 360\n= = 0.4 A1\n6150 × 900\np = 0.4 AG\n[1 mark]\n(b) if the data can be modelled by a binomial distribution with p = 0.4 ,the expected\nfrequencies of boxes are given in the table\nNumber of brown eggs 0 1 2 3 4 5 6\nNumber of boxes 7 32 35 50 22 4 0\nNumber of boxes 7.0 28.0 46.7 41.5 20.7 5.5 0.6 A3\nNotes: Deduct one mark for each error or omission.\nAccept any rounding to at least one decimal place.\nnull hypothesis: the distribution is binomial A1\nalternative hypothesis: the distribution is not binomial A1\nfor a chi-squared test the last two columns should be combined R1\nNumber of brown eggs 0 1 2 3 4 5, 6\nNumber of boxes 7 32 35 50 22 4\nNumber of boxes 7.0 28.0 46.7 41.5 20.7 6.1\n2 2 (7 − 7) (32 − 28)\nχ 2 = + + = Λ 6.05(Accept6.06) (M1)A1\ncalc\n7 28\ndegrees of freedom = 4 A1\ncritical value = 9.488 A1\nwe conclude that the farmer’s claim can be justified R1\n[11 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 12]\nThe hens on a farm lay either white or brown eggs. The eggs are put into boxes of six. The farmer claims that the number of brown eggs in a box can be modelled by the binomial distribution, $\\mathrm{B}(6, p)$. By inspecting the contents of 150 boxes of eggs she obtains the following data.\nNumber of brown eggs | 0 | 1 | 2 | 3 | 4 | 5 | 6\nNumber of boxes | 7 | 32 | 35 | 50 | 22 | 4 | 0\n(a) Show that this data leads to an estimated value of $p = 0.4$. [1 mark]\n(b) Stating null and alternative hypotheses, carry out an appropriate test at the 5 % level to decide whether the farmer's claim can be justified. [11 marks]"
+  },
+  {
+   "id": "math-2008-N-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 9]\nThe apple trees in a large orchard have, for several years, suffered from a disease for\nwhich the outward sign is a red discolouration on some leaves.\nThe fruit grower knows that the mean number of discoloured leaves per tree is 42.3.\nThe fruit grower suspects that the disease is caused by an infection from a nearby\ngroup of cedar trees. He cuts down the cedar trees and, the following year, counts the\nnumber of discoloured leaves on a random sample of seven apple trees. The results\nare given in the table below.\nTree A B C D E F G\nNumber of\n32 16 57 28 55 12 45\nred leaves\n(a) From these data calculate an unbiased estimate of the population variance. [3 marks]\n(b) Stating null and alternative hypotheses, carry out an appropriate test at the\n10 % level to justify the cutting down of the cedar trees. [6 marks]",
+   "ms_text": "2. (a) n = 7, sample mean = 35 (A1)\n2 ∑ ( x − 35)\n2 = = 322 (M1)A1\ns− n 1\n6\n[3 marks]\n(b) null hypothesis H: μ= 42.3 A1\n0\nalternative hypothesis H: μ< 42.3 A1\n1\nusing one-sided t-test\n42.3 − 35\n| t | = 7 = 1.076 (M1)(A1)\ncalc\n322\nwith 6 degrees of freedom , crit t = 1.4401.076 >\n(or p-value = 0.162 > 0.1 ) A1\nwe conclude that there is no justification for cutting down the cedar trees R1 N0\nNote: FTon their t or p-value.\n[6 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 9]\nThe apple trees in a large orchard have, for several years, suffered from a disease for which the outward sign is a red discolouration on some leaves.\nThe fruit grower knows that the mean number of discoloured leaves per tree is 42.3. The fruit grower suspects that the disease is caused by an infection from a nearby group of cedar trees. He cuts down the cedar trees and, the following year, counts the number of discoloured leaves on a random sample of seven apple trees. The results are given in the table below.\nTree | A | B | C | D | E | F | G\nNumber of red leaves | 32 | 16 | 57 | 28 | 55 | 12 | 45\n(a) From these data calculate an unbiased estimate of the population variance. [3 marks]\n(b) Stating null and alternative hypotheses, carry out an appropriate test at the 10 % level to justify the cutting down of the cedar trees. [6 marks]"
+  },
+  {
+   "id": "math-2008-N-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 12]\n(a) The heating in a residential school is to be increased on the third frosty day\nduring the term. If the probability that a day will be frosty is 0.09, what is the\nprobability that the heating is increased on the 25th day of the term? [5 marks]\n(b) On which day is the heating most likely to be increased? [7 marks]",
+   "ms_text": "3. (a) the distribution is NB(3, 0.09) (M1)(A1)\n240.91 22 3 the probability is ×\n0.09 = 0.0253 (M1)(A1)A1\n2\n[5 marks]\nth (b) P(Heating increased on n day)\nn −\n10.91 n − 3 3 ×\n0.09 (M1)(A1)(A1)\n2\nby trial and error n = 23 gives the maximum probability (M1)A3\n(neighbouring values: 0.02551 ( n = 22) ; 0.02554 ( n = 23) ; 0.02545 ( n = 24) )\n[7 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 12]\n(a) The heating in a residential school is to be increased on the third frosty day during the term. If the probability that a day will be frosty is 0.09, what is the probability that the heating is increased on the $25^{\\text{th}}$ day of the term? [5 marks]\n(b) On which day is the heating most likely to be increased? [7 marks]"
+  },
+  {
+   "id": "math-2008-N-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 15]\n(a) A random variable, X, has probability density function defined by\n100 , for − 0 005 . ≤ x < 0 005 .\nfx () =\n0 , otherwise.\nDetermine E(X ) and Var (X ) . [5 marks]\n(b) When a real number is rounded to two decimal places, an error is made.\nShow that this error can be modelled by the random variable X. [2 marks]\n(c) A list contains 20 real numbers, each of which has been given to two\ndecimal places. The numbers are then added together.\n(i) Write down bounds for the resulting error in this sum.\n(ii) Using the central limit theorem, estimate to two decimal places the\nprobability that the absolute value of the error exceeds 0.01.\n(iii) State clearly any assumptions you have made in your calculation. [8 marks]",
+   "ms_text": "4. (a) fxis even (symmetrical about the origin) () (M1)\nE( X= ) 0 A1\n0.005 2 2\nVar() X = E( X ) =∫ 100 x d x (M1)(A1)\n− 0.005\n1\n= × − 6 & × − 5 8.3310 accept0.8310 A1\nor 120 000\n[5 marks]\n(b) rounding errors to 2 decimal places are uniformly distributed R1\nand lie within the interval − 0.005 ≤ x< 0.005. R1\nthis defines X AG\n[2 marks]\n(c) (i) using the symbol y to denote the error in the sum of 20 real numbers each\nrounded to 2 decimal places\n− 0.1 ≤ y (20 = × x ) < 0.1 A1\n(ii) Y ≈ N(200, 208.310) × × & × − 6 = N(0, 0.00016) & (M1)(A1)\nP ( Y > 0.01 ) = 21 ( − P( Y < 0.01) ) (M1)(A1)\n0.01\n= 21 − P Z <\n0.0129\n= 0.44 to 2 decimal places A1 N4\n(iii) it is assumed that the errors in rounding the 20 numbers are independent R1\nand, by the central limit theorem, the sum of the errors can be\nmodelled approximately by a normaldistribution R1\n[8 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.L5",
+    "4.L4",
+    "4.12",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 15]\n(a) A random variable, $X$, has probability density function defined by\n$f(x) = \\begin{cases} 100, & \\text{for } -0.005 \\le x < 0.005 \\\\ 0, & \\text{otherwise.} \\end{cases}$\nDetermine $\\mathrm{E}(X)$ and $\\mathrm{Var}(X)$. [5 marks]\n(b) When a real number is rounded to two decimal places, an error is made. Show that this error can be modelled by the random variable $X$. [2 marks]\n(c) A list contains 20 real numbers, each of which has been given to two decimal places. The numbers are then added together.\n(i) Write down bounds for the resulting error in this sum.\n(ii) Using the central limit theorem, estimate to two decimal places the probability that the absolute value of the error exceeds 0.01.\n(iii) State clearly any assumptions you have made in your calculation. [8 marks]"
+  },
+  {
+   "id": "math-2008-N-P3-statistics-and-probability-q5",
+   "num": "5",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 12]\nA drinks machine sells cans of Ecoglug and Glucofizz. The number of cans\nof Ecoglug and Glucofizz sold during a fixed period of time have Poisson\ndistributions with means 8 per hour and 12 per hour, respectively.\n(a) Find the probability that in a given 15 minute period fewer than 3 cans of\nEcoglug are sold. [2 marks]\n(b) Find the probability that in a given 30 minute period more than 12 cans of drinks\nare sold. [3 marks]\n(c) In a given 5 minute period, exactly 2 cans are sold. Find the probability that\nthey are both Glucofizz. [7 marks]",
+   "ms_text": "5. (a) E : Po(2) M1\n2 − 2 2e\n− 2 − 2 P( E < 3) = e + 2e + = 0.677 A1\n2!\n[2 marks]\n(b) E + G : Po(10) M1A1\nP( E + G > 12) =− 1 P( E + G ≤ 12) = 0.208 A1\n[3 marks]\n2\n(c) E ∼ Po , G ∼ Po(1)\n3\n5\nE + G = M1\nPo3\nP( G = 2 E + G = 2) M1\nP( G = 2) × P( E = 0)\n= A1\nP( E + G = 2)\n0.18390.5134 ×\n= (A1)(A1)(A1)\n0.2623\nNote: Award these A1marks independently of the second M1.\n9\n= 0.360 accept 0.36 or as the exact answer. A1\n25\n[7 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 12]\nA drinks machine sells cans of Ecoglug and Glucofizz. The number of cans of Ecoglug and Glucofizz sold during a fixed period of time have Poisson distributions with means 8 per hour and 12 per hour, respectively.\n(a) Find the probability that in a given 15 minute period fewer than 3 cans of Ecoglug are sold. [2 marks]\n(b) Find the probability that in a given 30 minute period more than 12 cans of drinks are sold. [3 marks]\n(c) In a given 5 minute period, exactly 2 cans are sold. Find the probability that they are both Glucofizz. [7 marks]"
+  }
+ ],
+ "status": "done"
+}

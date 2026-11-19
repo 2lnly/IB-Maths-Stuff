@@ -1,0 +1,113 @@
+{
+ "exam_id": "math-2009-M-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2009,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2009 May Examination Session/Mathematics_paper_3_Statistics_and_probability_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2009 May Examination Session/Mathematics_paper_3_Statistics_and_probability_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2209-7210; code M09/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches expected total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2009-M-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 11]\nAhmed and Brian live in the same house. Ahmed always walks to school and Brian\nalways cycles to school. The times taken to travel to school may be assumed to be\nindependent and normally distributed. The mean and the standard deviation for these\ntimes are shown in the table below.\nMean (minutes) Standard Deviation (minutes)\nAhmed Walking 30 3\nBrian Cycling 12 2\n(a) Find the probability that on a particular day Ahmed takes more than 35 minutes\nto walk to school. [2 marks]\n(b) Brian cycles to school on five successive mornings. Find the probability that the\ntotal time taken is less than 70 minutes. [4 marks]\n(c) Find the probability that, on a particular day, the time taken by Ahmed to walk\nto school is more than twice the time taken by Brian to cycle to school. [5 marks]",
+   "ms_text": "2 1. (a) A ∼ N(30, 3)\nP( A > 35) = 0.0478 (M1)A1\n[2 marks]\n(b) let = + + + + X B B B B B\n1 2 3 4 5\nE( X ) = 5E() B = 60 A1\nVar( X ) = 5Var() B = 20 (M1)A1\nP( X< 70) = 0.987 A1\n[4 marks]\n(c) let Y = A − 2 B (M1)\nE() Y = E() A − 2E() B = 6 A1\nVar() Y = Var() A + 4Var() B = 25 (M1)A1\nP( Y> 0) = 0.885 A1\n[5 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 11]\nAhmed and Brian live in the same house. Ahmed always walks to school and Brian always cycles to school. The times taken to travel to school may be assumed to be independent and normally distributed. The mean and the standard deviation for these times are shown in the table below.\n| | Mean (minutes) | Standard Deviation (minutes) |\n| Ahmed Walking | 30 | 3 |\n| Brian Cycling | 12 | 2 |\n(a) Find the probability that on a particular day Ahmed takes more than 35 minutes to walk to school. [2 marks]\n(b) Brian cycles to school on five successive mornings. Find the probability that the total time taken is less than 70 minutes. [4 marks]\n(c) Find the probability that, on a particular day, the time taken by Ahmed to walk to school is more than twice the time taken by Brian to cycle to school. [5 marks]"
+  },
+  {
+   "id": "math-2009-M-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 13]\n(a) After a chemical spillage at sea, a scientist measures the amount, x units, of the\nchemical in the water at 15 randomly chosen sites. The results are summarised\nin the form ∑ x =18 and ∑ x2 = 28 94 . . Before the spillage occurred the mean\nlevel of the chemical in the water was 1.1. Test at the 5 % significance level\nthe hypothesis that there has been an increase in the amount of the chemical in\nthe water. [8 marks]\n(b) Six months later the scientist returns and finds that the mean amount of the\nchemical in the water at the 15 randomly chosen sites is 1.18. Assuming that\nthis sample came from a normal population with variance 0.0256, find a 90 %\nconfidence interval for the mean level of the chemical. [5 marks]",
+   "ms_text": "∑ x\n2. (a) x = = 1.2 (A1)\nn\n2 ns−= 0.524... (A1)\n1\nit is a one tailed test\nH: μ= 1.1 , H: μ> 1.1 A1\n0 1\nEITHER\n1.21.1 −\nt = = 0.535 (M1) A1\n0.524...\n15\nν= 14 (A1)\nt = 1.761 A1\ncrit\nsince 0.535 < t we accept Hthat there is no increase in the amount of the chemical\ncrit 0\nR1\nOR\np = 0.301 A4\nsince p > 0.05 we accept Hthat there is no increase in the amount of the chemical\n0\nR1\n[8 marks]\n0.0256\n(b) 90 % confidence interval = 1.181.645 ± (M1)A1A1A1\n15\n= [1.11, 1.25] A1 N5\n[5 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L6",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 13]\n(a) After a chemical spillage at sea, a scientist measures the amount, $x$ units, of the chemical in the water at 15 randomly chosen sites. The results are summarised in the form $\\sum x = 18$ and $\\sum x^2 = 28.94$. Before the spillage occurred the mean level of the chemical in the water was 1.1. Test at the 5 % significance level the hypothesis that there has been an increase in the amount of the chemical in the water. [8 marks]\n(b) Six months later the scientist returns and finds that the mean amount of the chemical in the water at the 15 randomly chosen sites is 1.18. Assuming that this sample came from a normal population with variance 0.0256, find a 90 % confidence interval for the mean level of the chemical. [5 marks]"
+  },
+  {
+   "id": "math-2009-M-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 22,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 22]\nThe January rainfall, in cm, in the town Alphaville is recorded every year. This rainfall\nmay be assumed to be a continuous random variable X , with a probability density\nfunction given by\nλ − λ x fx () = e , 0 ≤ x < ∞ .\nx (a) Show that P ( X ≥ x ) ise −λ. [3 marks]\n(b) (i) In a thirty year period a total of 270 cm of rain fell during January.\nEstimate a value for λ .\n(ii) Using this value of λ estimate the probability that at least 40 cm of rain\n−a\nb where falls in Alphaville next January. Give your answer in the form e\na and b are integers.\n(iii) If the probability that less than d cm of rain will fall next January is 0.35,\n20\nshow that d= 9 ln . [7 marks]\n13\n(c) The January rainfall over the thirty year period is summarised in the table below.\nRainfall (cm) Number of Januaries\nx ≤6 18\n6 < x ≤ 13 9\n13 < x ≤ 35 2\nx > 35 1\nPaul assumes that the data follows an exponential distribution with λ = 0 1..\nTest this assumption at the 5 % level of significance. [12 marks]",
+   "ms_text": "x − λ\n3. (a) P( X ≥ x ) 1 λ e t dt (M1) =−∫\n0\nx\n=−− − λ t 1 e A1\n0\n− λ x =+ 1 e − 1 A1\n− λ x = e AG\n[3 marks]\n270 1\n(b) (i) estimate of mean = = 9 = (M1)\nλ 30\n1\nλ= A1\n9\n40 −\n9 (ii) using part (a) a = 40 and b = 9 e A1A1\n(iii) P( X ≥ d ) =− 1 P( X < d ) (M1)\nd −\n⇒ e 9 = 0.65 A1\n1\n⇒− = ln0.65 A1\n9d\n20\n⇒ d =− 9ln0.65 = AG\n9ln 13\n[7 marks]\n(c) H:the data follows an exponential distribution with λ= 0.1\n0\nH:the data does not follow an exponential distribution with λ= 0.1 A1\n1\nNote: λ= 0.1 must be seen.\nany attempt to use the exponential distribution to calculate expected probabilities\nM1\nRainfall (cm) Observed Expected\nx ≤ 6 18 13.536\n< ≤ 6 x 13 9 8.288\n13 < x ≤ 35 2 7.270\nx > 35 1 0.906\nA1A1A1A1\nwe need to combine last two classes M1\nRainfall (cm) Observed Expected\nx ≤ 6 18 13.536\n6 < x ≤ 13 9 8.288\nx > 13 3 8.176\nEITHER\n2 ( f − f )\n2 o e χ = ∑ = 4.81 (accept answers which are between 4.8 and 4.9) (M1)A1\ncalc\nf\ne\ndegrees of freedom = ν = 31 −= 2 (A1)\ncritical value is 5.991 A1\n2 since χ < 5.991 we accept H and hence the data follows an exponential\ncalc 0\nλ= 0.1 distribution with R1\nOR\np = 0.0903 (accept answers which are between 0.086 and 0.091) A4\nsince p > 0.05 we accept H and hence the data follows an exponential\n0\nλ= distribution with 0.1 R1\n[12 Marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.14",
+    "4.L3",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 22]\nThe January rainfall, in cm, in the town Alphaville is recorded every year. This rainfall may be assumed to be a continuous random variable $X$, with a probability density function given by\n$f(x) = \\lambda \\mathrm{e}^{-\\lambda x}, \\ 0 \\le x < \\infty$.\n(a) Show that $\\mathrm{P}(X \\ge x)$ is $\\mathrm{e}^{-\\lambda x}$. [3 marks]\n(b) (i) In a thirty year period a total of 270 cm of rain fell during January. Estimate a value for $\\lambda$.\n(ii) Using this value of $\\lambda$ estimate the probability that at least 40 cm of rain falls in Alphaville next January. Give your answer in the form $\\mathrm{e}^{-\\frac{a}{b}}$ where $a$ and $b$ are integers.\n(iii) If the probability that less than $d$ cm of rain will fall next January is 0.35, show that $d = 9\\ln\\frac{20}{13}$. [7 marks]\n(c) The January rainfall over the thirty year period is summarised in the table below.\n| Rainfall (cm) | Number of Januaries |\n| $x \\le 6$ | 18 |\n| $6 < x \\le 13$ | 9 |\n| $13 < x \\le 35$ | 2 |\n| $x > 35$ | 1 |\nPaul assumes that the data follows an exponential distribution with $\\lambda = 0.1$. Test this assumption at the 5 % level of significance. [12 marks]"
+  },
+  {
+   "id": "math-2009-M-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 14]\nIn a game there are n players, where n > 2 . Each player has a disc, one side of which\nis red and one side blue. When thrown, the disc is equally likely to show red or blue.\nAll players throw their discs simultaneously. A player wins if his disc shows a\ndifferent colour from all the other discs. Players throw repeatedly until one player wins.\nLet X be the number of throws each player makes, up to and including the one on\nwhich the game is won.\n(a) State the distribution of X . [1 mark]\n(b) Find P( X = x ) in terms of n and x . [4 marks]\n(c) Find E( X in terms of n . ) [1 mark]\n(d) Given that n = 7 , find the least number, k , such that P( X ≤ k ) > 0 5 . . [8 marks]",
+   "ms_text": "4. (a) geometric distribution A1\n[1 mark]\n(b) let R be the event throwing the disc and it landing on red and\nlet B be the event throwing the disc and it landing on blue\nP( X = 1) = p = P1 ( B and ( n − 1) R or 1 R and ( n − 1) B ) (M1)\nn − 1 n − 1\n1 1 1 1\n= n × × + n × × (A1)\n2 2 2 2\nn\n= A1\n− 1 2n\nx − 1\nn n\nhence P( X = x ) = 1 − , ( x ≥ 1) A1\nn − 1 n − 1 2 2\nNotes: x ≥ not required for final A1. 1\nAllow FT for final A1.\n[4 marks]\n1\n(c) E( X ) =\np\n− 1 2n\n= A1\nn\n[1 mark]\nx − 1\n7 7\n(d) when n = 7 , P( X = x ) = 1 − × (M1)\n64 64\nx− 1\n7 57\n= ×\n64 64\nx − 1 k\n7 57\nP( X ≤ k ) = ∑ × (M1)(A1)\n64 64 x = 1\nk\n57\n1 −\n7 64\n⇒ × > 0.5 (M1)(A1)\n57 64\n1 −\n64\nk\n57\n⇒− 1 > 0.5\n64\nk\n57\n⇒ < 0.5\n64\nlog0.5\n⇒ k > (M1)\n57\nlog 64\n⇒ k > 5.98 (A1)\n⇒ k = 6 A1\nNote: Tabular and other GDC methods are acceptable.\n[8 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.L2",
+    "1.3",
+    "4.6",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 14]\nIn a game there are $n$ players, where $n > 2$. Each player has a disc, one side of which is red and one side blue. When thrown, the disc is equally likely to show red or blue. All players throw their discs simultaneously. A player wins if his disc shows a different colour from all the other discs. Players throw repeatedly until one player wins. Let $X$ be the number of throws each player makes, up to and including the one on which the game is won.\n(a) State the distribution of $X$. [1 mark]\n(b) Find $\\mathrm{P}(X = x)$ in terms of $n$ and $x$. [4 marks]\n(c) Find $\\mathrm{E}(X)$ in terms of $n$. [1 mark]\n(d) Given that $n = 7$, find the least number, $k$, such that $\\mathrm{P}(X \\le k) > 0.5$. [8 marks]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,121 @@
+{
+ "exam_id": "math-1996-N-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.15",
+    "3.16",
+    "3.14",
+    "5.16"
+   ],
+   "text_clean": "1. [Maximum mark: 22]\n(i) Let two lines $L$, $M$ and a plane $P$ be given by\n$L: \\frac{x-3}{2}=\\frac{y+1}{4}=\\frac{z-2}{-1}$,\n$M: \\frac{x-6}{-4}=\\frac{y}{2}=z+10$, and\n$P: x+3y-2z=4$.\n(a) Find the coordinates of the point of intersection of line $L$ and plane $P$. [2 marks]\n(b) Calculate the acute angle between $L$ and $P$, giving your answer correct to the nearest one-tenth of a degree. [3 marks]\n(c) Show that line $M$ is parallel to plane $P$. [2 marks]\n(d) Show that lines $L$ and $M$ do not meet. [4 marks]\n(e) Calculate the shortest distance between lines $L$ and $M$. [5 marks]\n(ii) Let $I_n(x)=\\int_0^x t^n e^{-t}\\,dt$ where $n\\in\\mathbb{N}$.\n(a) Find $I_0(x)$. [1 mark]\n(b) Show that $I_n(x)=-x^n e^{-x}+nI_{n-1}(x)$ for $n\\geq 1$. [3 marks]\n(c) Evaluate $I_3(1)$. [2 marks]",
+   "answer_status": "ok",
+   "note": "audit: line-plane parts (7 marks) are 3.18 -> primary"
+  },
+  "2": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.7",
+    "5.4",
+    "5.11",
+    "5.10",
+    "1.3"
+   ],
+   "text_clean": "2. [Maximum mark: 24]\nThe graph of $f(x)=\\frac{1+\\ln x}{x}$ is given below.\n[Graph: curve $f(x)=\\frac{1+\\ln x}{x}$ crossing the x-axis at A, rising to a maximum at B, with point of inflexion C; line through the origin O tangent to the curve at T; D is the foot of the perpendicular from T to the x-axis; vertical lines from T, B, C to the x-axis]\nThe line (OT), where O is the origin and $T$ is on the curve, is the tangent at $T$. The graph of $f(x)$ meets the $x$-axis at $A$.\n(a) Find the coordinates of $A$. [2 marks]\n(b) Find the coordinates of the point $B$ where $f(x)$ attains its maximum value. [4 marks]\n(c) Find the coordinates of $C$, the point of inflexion of $f(x)$. [5 marks]\n(d) If the $x$-coordinate of $T$ is $x_0$, find, in terms of $x_0$, the equation of the tangent line (OT). [2 marks]\n(e) Find the value of $x_0$. [3 marks]\n(f) Prove that the $x$-coordinates of the points $A$, $T$, $B$ and $C$, as defined above (and shown in the diagram), are four consecutive terms of a geometric sequence. State the common ratio of this sequence. [3 marks]\n(g) Calculate the area of the region $OTA$. [5 marks]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.9",
+    "4.12",
+    "1.7"
+   ],
+   "text_clean": "3. [Maximum mark: 16]\n(i) A particular experiment has two possible outcomes, a success which occurs with probability $p$, $(0<p<1)$, and a failure which occurs with probability $(1-p)$. The outcomes of successive performances of this experiment are independent.\n(a) Find the value of $p$ if the probability of obtaining exactly two successes in six experiments is three times the probability of obtaining exactly three successes in six experiments. [4 marks]\n(b) In another similar experiment the value of $p$ was found to be $\\frac{1}{5}$. Find the least number of times the experiment must be performed in order that the probability of obtaining at least one success is greater than 0.99. [5 marks]\n(ii) Six per cent (6%) of electric bulbs produced in a given factory are defective. The manufacturer chooses 200 bulbs from a day's production.\n(a) If $X$ represents the number of defective bulbs found in the sample, find the mean and standard deviation of $X$. [2 marks]\n(b) Determine the probability that 20 or more defective bulbs are found in the sample of 200 bulbs. [5 marks]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.12",
+    "3.8",
+    "3.6"
+   ],
+   "text_clean": "4. [Maximum marks: 18]\n(i) Let $z_1$ and $z_2$ be the roots of the equation $2z^2-(2-2i)z-5i=0$.\n(a) Using the quadratic formula, show that $z_1=\\frac{1}{2}(1-i)+\\sqrt{2i}$ and $z_2=\\frac{1}{2}(1-i)-\\sqrt{2i}$. [3 marks]\n(b) Express each of $z_1$ and $z_2$ in the form $a+ib$, where $a$ and $b$ are real numbers. [4 marks]\n(ii) (a) If $z=\\cos\\theta+i\\sin\\theta$, show that $z^n+\\frac{1}{z^n}=2\\cos n\\theta$. [3 marks]\n(b) Given that each of the four roots of the equation $5z^4-11z^3+16z^2-11z+5=0$ has a modulus equal to 1, find these roots.\n[Hint: Divide the equation through by $z^2$.] [8 marks]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.6",
+    "7.9",
+    "7.4",
+    "7.5",
+    "7.7",
+    "1.L1"
+   ],
+   "text_clean": "5. [Maximum mark: 40]\n(i) On a set $S=\\{a,b,c,d\\}$, the operations $\\otimes$ and $*$ are defined by the following tables:\n$\\otimes$ | a b c d\na | a c d a\nb | b a c d\nc | d b a c\nd | c d b a\n$*$ | a b c d\na | b c d a\nb | c d a b\nc | d a b c\nd | a b c d\nSolve for $x$ in each of the following:\n(a) $a*(x\\otimes b)=c$;\n(b) $(a\\otimes x)*b=d$. [6 marks]\n(ii) Given a multiplicative group in which $a^3=b^2=e$, where $e$ is the identity element and $ab=ba^2$, show that\n(a) $a^2ba^2b=e$;\n(b) $a^2ba=ab$. [6 marks]\n(iii) Let G be the group of all non-singular $2\\times2$ matrices of the form $\\begin{pmatrix}a&-b\\\\b&a\\end{pmatrix}$, $a,b\\in\\mathbb{R}$, under multiplication of matrices. Let H be the group of all non-zero complex numbers under multiplication of complex numbers. Show that G and H are isomorphic. [10 marks]\n(iv) Let $\\mathbb{Z}_n$ denote the group of integers $\\{0,1,\\ldots,n-1\\}$ with binary operation addition modulo $n$.\nNow, $\\mathbb{Z}_n\\times\\mathbb{Z}_m=\\{(e,f)\\mid e\\in\\mathbb{Z}_n \\text{ and } f\\in\\mathbb{Z}_m\\}$ forms a group under a binary operation $*$ defined by\n$(e_1,f_1)*(e_2,f_2)=(e_1+_n e_2,\\ f_1+_m f_2)$\nwhere $+_n$ and $+_m$ denote addition of integers modulo $n$ and $m$, respectively.\n(a) State the order of $(\\mathbb{Z}_4\\times\\mathbb{Z}_5,*)$ and evaluate $(3,2)*(1,4)$. [5 marks]\n(b) Show that $(\\mathbb{Z}_2\\times\\mathbb{Z}_3,*)$ is cyclic, and list all possible generators. [6 marks]\n(c) How many elements of $(\\mathbb{Z}_2\\times\\mathbb{Z}_4,*)$ have order 4? [7 marks]",
+   "answer_status": "ok",
+   "note": "Q5(i)(a) markscheme reads table as row*column (x=c); notes alternative reading."
+  },
+  "6": {
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.11",
+    "6.8",
+    "1.10"
+   ],
+   "text_clean": "6. [Maximum mark: 40]\n(i) (a) Write down the adjacency matrix $A$ and the incidence matrix $B$ of the following graph.\n[Diagram: graph with vertices $v_1,\\ldots,v_5$ and edges $e_1$ ($v_1v_3$), $e_2$ ($v_1v_5$), $e_3$ ($v_1v_2$), $e_4$ ($v_2v_5$), $e_5$ ($v_2v_3$), $e_6$ ($v_2v_4$), $e_7$ (loop at $v_5$), $e_8$ ($v_3v_4$), $e_9$ ($v_4v_5$), $e_{10}$ ($v_3v_5$), $e_{11}$ (loop at $v_3$)] [4 marks]\n(b) Evaluate $A^2$, and explain what the entries of this matrix reveal about the given graph. [3 marks]\n(c) What does the sum of the entries in each column of $A$ reveal about the given graph? [2 marks]\n(d) What does the sum of the entries in each column of $B$ reveal about the given graph? [2 marks]\n(ii) (a) Let $G=(V,E)$ be an undirected, simple (no loops and no multiple edges) graph with a set of vertices $V$ and edges $E$. If $v$ and $e$ denote the number of vertices and the number of edges of the graph $G$, respectively, show that $2e\\leq v^2-v$. [4 marks]\n(b) Find the corresponding inequality for the case where $G$ is a loop-free, directed graph. [2 marks]\n(iii) (a) A complete graph with $n$ vertices, $\\kappa_n$, is a loop-free, undirected graph with an edge joining every pair of vertices. How many paths of length 4 are there in the complete graph $\\kappa_n$, $n>4$?\n[Note that paths such as $v_1\\to v_2\\to v_3\\to v_4\\to v_5$ and $v_5\\to v_4\\to v_3\\to v_2\\to v_1$ are the same path.] [2 marks]\n(b) An undirected, simple graph $G$ with $n$ vertices is said to be self-complementary if it is isomorphic to its own complement $\\bar{G}$. If $G$ is self-complementary then how many edges must it have? [4 marks]\n(c) Give an example of a self-complementary graph on four vertices. [2 marks]\n(d) If $G$ is a self-complementary graph on $n$ vertices, where $n>1$, show that $n=4k$ or $n=4k+1$, for some positive integer $k$. [4 marks]\n(iv) Explain why it is not possible to draw a loop-free, connected, undirected graph with 8 vertices, where the degrees of the vertices are 1, 1, 1, 2, 3, 4, 5, and 7. [5 marks]\n(v) The following graph represents nine cities $a, b, c, \\ldots, i$ which are to be connected by a system of highways. The numbers represent the cost in millions of dollars for constructing each section. Use Prim's algorithm, or any other suitable algorithm, to find the minimum cost of constructing a road system which provides a route connecting any two of the cities.\n[Diagram: 3x3 grid of cities a b c / d e f / g h i with weighted edges: ab 2, bc 2, ad 3, be 3, cf 3, ae 3, bf 3, de 2, ef 2, dg 3, eh 1, fi 3, dh 4, ei 4, gh 3, hi 3] [6 marks]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L6",
+    "4.L7",
+    "4.L1",
+    "4.L5"
+   ],
+   "text_clean": "7. [Maximum mark: 40]\n(i) On weekdays at a certain small airport, airplanes arrive at an average rate of three per hour for the one-hour period between 13:00 and 14:00. If these arrivals are distributed according to a Poisson probability distribution, determine the probabilities that\n(a) no airplanes will arrive between 13:00 and 14:00 pm next Tuesday; [4 marks]\n(b) either one or two airplanes will arrive between 13:00 and 14:00 next Tuesday. [4 marks]\n(ii) A testing service has designed a new aptitude test for insurance companies to screen applicants for vacant positions within the organisations. To estimate the mean score achieved by all future applicants who will eventually take the test, a psychologist associated with the testing service administered it to 9 persons. The sample mean $\\bar{x}$, and the sample standard deviation $s$ were found to be $\\bar{x}=83.7$ and $s=12.9$, respectively. Determine a 95% confidence interval for the mean score. [10 marks]\n(iii) A career-counselling group claims that at least 40% of all engineers employed by aerospace firms change jobs within three years of being hired. The alternative hypothesis is that the rate of changing jobs is below 40%. At a significance level of 0.01, should the claim be accepted or rejected if the sample results show that 25 out of 100 engineers changed their jobs? [10 marks]\n(iv) A researcher wants to estimate the mean lifetime of a new type of tyre compared with an existing tyre. In a test, ten taxis from the same company were equipped with two of each type of tyre. Each taxi's total mileage was recorded until both tyres of the same type had to be replaced. For each car, the replacement mileage for the present tyre ($B$) was subtracted from the corresponding figure for the new tyre ($A$). The mean difference between mileages was 2000 miles, with a standard deviation of 2000 miles.\n(a) Construct a 95% confidence interval estimate for the difference between mean tyre-lifetimes. [10 marks]\n(b) Should the null hypothesis, that the mean tyre-lifetimes are identical, be accepted or rejected at the 5% significance level? [2 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L1",
+    "5.11"
+   ],
+   "text_clean": "8. [Maximum mark: 40]\n(i) The diagram below shows the graphs of $y=e^x$ and $y=x^4$.\n(Note that the graphs meet a third time when $x\\approx 8$.)\n[Graph: $y=e^x$ and $y=x^4$ for $-3\\le x\\le 3$, intersecting near $x=-1$ and near $x=1.4$]\n(a) Show that the iteration formula $x_{n+1}=4\\ln x_n$ can be used to estimate the $x$-coordinate of the point of intersection near $x=8$, and that the iteration formula $x_{n+1}=e^{x_n/4}$ can be used to estimate the $x$-coordinate of the point of intersection near $x=1$.\nUse one of these formulae with $x_0=8$ or $x_0=1$, respectively, to find the $x$-coordinate of one point of intersection correct to three decimal places. [8 marks]\n(b) The $x$-coordinate of the point of intersection near $x=-1$, can be approximated using the Newton-Raphson method with an initial approximation $x_0=-1$. Find, in simplified form and in terms of e, the value of the next approximation $x_1$. [4 marks]\n(c) Find the exact value of the area between the curves and the lines $x=0$ and $x=1$. [3 marks]\n(d) Use Simpson's Rule with 4 subintervals to estimate the area between the curves and the lines $x=0$ and $x=1$. Give your answer correct to four decimal places. [3 marks]\n(e) Write down an expression for the error if $\\int_a^b f(x)\\,dx$ is approximated using Simpson's Rule with $n$ subintervals of equal length, where $n$ is even.\nUse this to find the maximum error, correct to four decimal places, if the area in part (c) is approximated by Simpson's Rule with $n=4$. Show that your answers to parts (c) and (d) are consistent with this maximum error. [7 marks]\n(f) Using Simpson's Rule, what value of $n$ is needed to approximate $\\int_0^1 (e^x-x^4)\\,dx$ to an accuracy of 0.000 005? [5 marks]\n(ii) (a) Using the integral test, show that $\\sum_{n=2}^{\\infty}\\frac{1}{n(\\ln n)^2}$ is convergent. [6 marks]\n(b) Show that the series $\\sum_{n=1}^{\\infty}(-1)^n\\frac{1}{n}$ is conditionally convergent. [4 marks]",
+   "answer_status": "ok"
+  }
+ }
+}

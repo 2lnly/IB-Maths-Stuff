@@ -1,0 +1,114 @@
+{
+ "exam_id": "math-2014-M-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2014,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2014 May Examination Session/Mathematics_paper_3_Discrete_mathematics_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2014 May Examination Session/Mathematics_paper_3_Discrete_mathematics_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2214-7207; code M14/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2014-M-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 10]\nThe weighted graph K , representing the travelling costs between five customers, has the\nfollowing adjacency table.\nA B C D E\nA 0 1 6 7 4\nB 1 0 9 8 10\nC 6 9 0 11 3\nD 7 8 11 0 12\nE 4 10 3 12 0\n(a) Draw the graph K . [2]\n(b) Starting from customer D, use the nearest-neighbour algorithm, to determine an upper\nbound to the travelling salesman problem for K . [4]\n(c) By removing customer A, use the method of vertex deletion, to determine a lower bound\nto the travelling salesman problem for K . [4]",
+   "ms_text": "1. (a)\ncomplete graph on five vertices A1\nweights correctly marked on graph A1\n[2 marks]\n(b) clear indication that the nearest-neighbour algorithm has been applied M1\nDA(or 7) A1\nAB(or 1)BC(or 9) A1\nCE(or 3) , ED(or 12), giving UB = 32 A1\n[4 marks]\n(c) attempt to use the vertex deletion method M1\nminimum spanning tree is ECBD A1\n(EC 3, BD 8, BC 9 total 20)\nreconnect A with the two edges of least weight, namely AB (1)and AE (4) M1\nlower bound is 25 A1\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.8",
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 10]\nThe weighted graph $K$, representing the travelling costs between five customers, has the following adjacency table.\n| | A | B | C | D | E |\n| A | 0 | 1 | 6 | 7 | 4 |\n| B | 1 | 0 | 9 | 8 | 10 |\n| C | 6 | 9 | 0 | 11 | 3 |\n| D | 7 | 8 | 11 | 0 | 12 |\n| E | 4 | 10 | 3 | 12 | 0 |\n(a) Draw the graph $K$. [2]\n(b) Starting from customer D, use the nearest-neighbour algorithm, to determine an upper bound to the travelling salesman problem for $K$. [4]\n(c) By removing customer A, use the method of vertex deletion, to determine a lower bound to the travelling salesman problem for $K$. [4]"
+  },
+  {
+   "id": "math-2014-M-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 23,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 23]\na = b = (a) Consider the integers 871 and 1157 , given in base 10.\n(i) Express a and b in base 13.\n(ii) Hence show that gcd(,) ab= 13 . [7]\n(b) A list L contains n + distinct positive integers. Prove that at least two members 1\nof L leave the same remainder on division by n . [4]\n(c) Consider the simultaneous equations\n4 x + y + 5 z = a\n+ = 2 x z b\n3 x + 2 y + 4 z = c\nwhere , , xyz∈′.\n(i) Show that 7 divides 2a + b − c .\n(ii) Given that a = 3 , b = 0 and c = −, find the solution to the system of equations 1\nmodulo 2. [6]\n2 (d) Consider the set P of numbers of the form n − n + 41 , n∈∞.\n(i) Prove that all elements of P are odd.\n(ii) List the first six elements of P for n = 0, 1, 2, 3, 4, 5 .\n(iii) Show that not all elements of P are prime. [6]",
+   "ms_text": "2. (a) (i) METHOD 1\nusing a relevant list of powers of 13: (1), 13, 169, (2197) M1\n2 871 =× 513 + 213 × A1\n871 = 520 A1\n13\n2 1157 = 613 × + 1113 × A1\n1157 = 6B0 A1\n13\nMETHOD 2\nattempted repeated division by 13 M1\n87113 ÷ = 67 ; 6713 ÷ = 5rem2 A1\n= 871 520 A1\n13\n1157 ÷ 13 = 89 ; 89 ÷ 13 = 6rem11 A1\n1157 = 6B0 A1\n13\nNote: Allow (11) for B only if brackets or equivalent are present.\n= × = × (ii) 871 1367 ; 1157 1389 (M1)\n67 and 89 are primes (base 10) or they are co-prime A1\n= So gcd(871, 1157) 13 AG\nNote: Must be done by hence not Euclid’s algorithm on 871 and 1157.\n[7 marks]\n(b) let K be the set of possible remainders on division by n (M1)\nthen K = {0, 1, 2, …− n 1} has n members A1\nbecause n < n + 1 ( = nL () ) A1\nby the pigeon-hole principle (appearing anywhere and not necessarily\nmentioned by name as long as is explained) R1\nat least two members of L correspond to one member of K AG\n[4 marks]\n(c) (i) form the appropriate linear combination of the equations: (M1)\n+ − = + 2 a b c 7 x 7 z A1\n= 7( x + z ) R1\nso 7 divides 2a + b − c AG\n(ii) modulo 2, the equations become M1\ny + z = 1\nz = 0 A1\nx = 1\nsolution: (1, 1, 0) A1\nNote: Award full mark to use of GDC (or done manually) to solve the\nsystem giving x =−, 1 y =−, 3 z = 2 and then converting mod 2.\n[6 marks]\n(d) (i) separate consideration of even and odd n M1\n2 even − even + odd is odd A1\n2 odd − odd + odd is odd A1\nall elements of P are odd AG\n2 Note: Allow other methods eg, n − n = nn ( − 1) which must be even.\n(ii) the list is [41, 41, 43, 47, 53, 61] A1\n2 2 (iii) 41 − 41 + 41 = 41 divisible by 41 A1\nbut is not a prime R1\nthe statement is disproved (by counterexample) AG\n[6 marks]\nTotal [23 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.1",
+    "6.4",
+    "6.2",
+    "6.12",
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 23]\n(a) Consider the integers $a = 871$ and $b = 1157$, given in base 10.\n(i) Express $a$ and $b$ in base 13.\n(ii) Hence show that $\\gcd(a, b) = 13$. [7]\n(b) A list $L$ contains $n+1$ distinct positive integers. Prove that at least two members of $L$ leave the same remainder on division by $n$. [4]\n(c) Consider the simultaneous equations\n$4x + y + 5z = a$\n$2x + z = b$\n$3x + 2y + 4z = c$\nwhere $x, y, z \\in \\mathbb{Z}$.\n(i) Show that 7 divides $2a + b - c$.\n(ii) Given that $a = 3$, $b = 0$ and $c = -1$, find the solution to the system of equations modulo 2. [6]\n(d) Consider the set $P$ of numbers of the form $n^2 - n + 41$, $n \\in \\mathbb{N}$.\n(i) Prove that all elements of $P$ are odd.\n(ii) List the first six elements of $P$ for $n = 0, 1, 2, 3, 4, 5$.\n(iii) Show that not all elements of $P$ are prime. [6]"
+  },
+  {
+   "id": "math-2014-M-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 10]\n(a) Draw a spanning tree for\n(i) the complete graph, K;\n4\n(ii) the complete bipartite graph, K . [2]\n4,4\n(b) Prove that a simple connected graph with n vertices, where n >, must have two vertices 1\nof the same degree. [3]\n(c) Prove that every simple connected graph has at least one spanning tree. [5]",
+   "ms_text": "3. (a) (i)\nor\nA1\nNote: Or equivalent not worrying about the orientation.\n(ii)\nA1\nNote: Other trees are possible, but must clearly come from the bipartite graph,\nso, for example, a straight line graph is not acceptable unless the\nbipartite nature is clearly shown eg, with black and white vertices.\n[2 marks]\n(b) graph is simple implies maximum degree is n − 1 A1\ngraph is connected implies minimum degree is 1 A1\nby a pigeon-hole principle two vertices must have the same degree R1\n[3 marks]\n(c) if the graph is not a tree it contains a cycle A1\nremove one edge of this cycle M1\nthe graph remains connected A1\nrepeat until there are no cycles M1\nthe final graph is connected and has no cycles A1\nso is a tree AG\nNote: Allow other methods eg, induction, reference to Kruskal’s algorithm.\n[5 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8",
+    "6.6",
+    "6.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 10]\n(a) Draw a spanning tree for\n(i) the complete graph, $K_4$;\n(ii) the complete bipartite graph, $K_{4,4}$. [2]\n(b) Prove that a simple connected graph with $n$ vertices, where $n > 1$, must have two vertices of the same degree. [3]\n(c) Prove that every simple connected graph has at least one spanning tree. [5]"
+  },
+  {
+   "id": "math-2014-M-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 17]\n(a) (i) Write down the general solution of the recurrence relation u + 2 u = 0, n ≥. 1\nn n − 1\n(ii) Find a particular solution of the recurrence relation u + 2 u = 3 n − 2, n ≥, 1\nn n − 1\nin the form = An + B , where , nu AB∈′.\n(iii) Hence, find the solution to u + 2 u = 3 n − 2, n ≥ where 1 u= 7 . [10]\nn n − 1 1\n(b) Find the solution of the recurrence relation u = 2 u − 2 u , n ≥ 2 , where u= 2 ,\nn n − 1 n − 2 0\nfn () ( ) u= 2 . Express your solution in the form 2 cos gnπ, where the functions ()\n1\nf and map to g ∞ ϒ. [7]",
+   "ms_text": "4. (a) (i) use of auxiliary equation or recognition of a geometric sequence (M1)\nn − 1\nnu =− (2)n u or = A(2) − or u 1(2)n − A1 0\n(ii) substitute suggested solution M1\n+ + ( − + ) = − An B 2 An ( 1) B 3 n 2 A1\nequate coefficients of powers of n and attempt to solve (M1)\nA =, B = 1 0 A1\n(so particular solution is u = n )\nn\n(iii) use of general solution = particular solution + homogeneous solution (M1)\nnu = C(2)n − + n A1\nattempt to find C using u= 7 M1\n1\nnu =− 3(2)n − + n A1\n[10 marks]\n2 − + = (b) the auxiliary equation is r 2 r 2 0 A1\nrr=± , 1 i A1 solutions:1\n2\nn n general solution of the recurrence: nu= A(1 + i) + B(1i) − or trig form A1\nattempt to impose initial conditions M1\nA = B = or corresponding constants for trig form 1 A1\nn +\n1 n π\n2 u = 2 × cos\nn A1A1\n4\n[7 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.10",
+    "1.14",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 17]\n(a) (i) Write down the general solution of the recurrence relation $u_n + 2u_{n-1} = 0$, $n \\ge 1$.\n(ii) Find a particular solution of the recurrence relation $u_n + 2u_{n-1} = 3n - 2$, $n \\ge 1$, in the form $u_n = An + B$, where $A, B \\in \\mathbb{Z}$.\n(iii) Hence, find the solution to $u_n + 2u_{n-1} = 3n - 2$, $n \\ge 1$ where $u_1 = 7$. [10]\n(b) Find the solution of the recurrence relation $u_n = 2u_{n-1} - 2u_{n-2}$, $n \\ge 2$, where $u_0 = 2$, $u_1 = 2$. Express your solution in the form $2^{f(n)}\\cos(g(n)\\pi)$, where the functions $f$ and $g$ map $\\mathbb{N}$ to $\\mathbb{R}$. [7]"
+  }
+ ],
+ "status": "done"
+}

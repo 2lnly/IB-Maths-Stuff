@@ -1,0 +1,125 @@
+{
+ "exam_id": "math-2020-N-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2020,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2020 November Examination Session/Mathematics_paper_3_Discrete_mathematics__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2020 November Examination Session/Mathematics_paper_3_Discrete_mathematics__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8820-7207; marks sum matches paper total 50",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2020-N-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 8]\nSolve the recurrence relation un+2=8un +1−16 un, given that u1=4 and u2=48 .",
+   "ms_text": "λ 2 − λ + = 1. the auxiliary equation is 8 16 0 (or equivalent) A1\nattempts to solve their quadratic equation (M1)\nλ= 4 A1\n( )4n the general solution is of the form nu = A + Bn (or equivalent) M1\n( ) n Note: Only award M1 for general solutions of the form nu = A + Bnλ (or equivalent).\n( ) n Award M1 for nu = A + Bnλ .\napplies two (initial) conditions, eg substitutes n = 1,2 , into their nuto form\ntwo equations M1\nA + B = 1 and A + 2 B = 3 (or equivalent eg4 A + 4 B = 4 and 16 A + 32 B = 48 ) A1\nattempts to solve their two simultaneous equations (M1)\nA = − 1, B = 2\n= ( − 14n ) nu 2 n (or equivalent) A1\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 8]\nSolve the recurrence relation $u_{n+2} = 8u_{n+1} - 16u_n$, given that $u_1 = 4$ and $u_2 = 48$."
+  },
+  {
+   "id": "math-2020-N-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 12]\nChristine and her friends live in Winnipeg, Canada. The weighted graph shows the location of\ntheir houses and the time, in minutes, to travel between each house.\nD 24 E\n32 7 15\n17 10\n25\n21 F\n12 H G\nC\n13\n32\n14 21\n25\nB 11 A\nChristine’s house is located at vertex C.\n(a) (i) \u0007Use Dijkstra’s algorithm to find the shortest time to travel from C to F, clearly\nshowing how the algorithm has been applied.\n(ii) Hence write down the shortest path from C to F.\b [7]\nA new road is constructed that allows Christine to travel from H to A in t minutes.\nIf Christine starts from home and uses this new road her minimum travel time to A\nis reduced, but her minimum travel time to F remains the same.\n(b) Find the possible values of t .\b [5]",
+   "ms_text": "2. (a) (i) attempts to construct a graph or table to represent Dijkstra’s algorithm M1\nEITHER\nOR\nStep A B C D E F G H\n1 ∞ 25 0 17 ∞ ∞ ∞ 12\n2 44 25 - 17 33 - ∞ ∞\n3 44 25 - - 41 ∞ 33 -\n4 36 - - - 41 ∞ 33 -\n5 36 - - - 40 58 - -\n6 - - - - 40 57 - -\n7 - - - - - 55 - -\na clear attempt at Step 1 (C,D,H and B considered) M1\nSteps 2 and 3 correctly completed A1\nStep 4 (A : 44 → 36 ) correctly completed A1\nSteps 5 and 6 (E: 41 → 40 and F: 58 → 57 or 57 → 55 or 58 → 55 )\ncorrectly completed A1\nshortest time = 55 (mins) A1\n(ii) CHGEF A1\nNote: Award A1 only if it is clear that Dijkstra’s algorithm has been attempted in part\n(a) (i). This A1 can be awarded if the candidate attempts to use Dijkstra’s\nalgorithm but neglects to state 55 (mins).\n[7 marks]\n(b) minimum travel time from C to A is reduced\nCHA is now 12 + (mins) t (M1)\n+ CBA is still 2511 (mins)\nso 12 +< t 36 ( t < 24 ) (A1)\nNote: Condone t ≤ 24 .\ntravel time from C to F remains the same (55 mins)\nCHAF is now 12 ++ t 21 (mins) (M1)\n12 ++ t 21 ≥ 55 ( t ≥ 22 ) (A1)\nso 22 ≤< t 24 A1\nNote: Accept t = 22, 23.\n[5 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 12]\nChristine and her friends live in Winnipeg, Canada. The weighted graph shows the location of their houses and the time, in minutes, to travel between each house.\n[Diagram: weighted graph with vertices A-H; edges CD 17, CH 12, CB 25, DE 24, DH 10, DG 32, EG 7, EF 15, HG 21, GF 25, HB 14, HA 32, GA 13, BA 11, AF 21]\nChristine's house is located at vertex C.\n(a) (i) Use Dijkstra's algorithm to find the shortest time to travel from C to F, clearly showing how the algorithm has been applied.\n(ii) Hence write down the shortest path from C to F. [7]\nA new road is constructed that allows Christine to travel from H to A in $t$ minutes. If Christine starts from home and uses this new road her minimum travel time to A is reduced, but her minimum travel time to F remains the same.\n(b) Find the possible values of $t$. [5]"
+  },
+  {
+   "id": "math-2020-N-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 13]\n(a) (i) \u0007Write down the remainder when 142022 is divided by 7.\n(ii) Use Fermat’s little theorem to find the remainder when 142022 is divided by 17.\b [5]\n(b) (i) \u0007Prove that a number in base 13 is divisible by 6 if, and only if, the sum of its digits\nis divisible by 6.\n(ii) The base 13 number 1y93y25 is divisible by 6. Find the possible values of\nthe digit y .\b [8]",
+   "ms_text": "3. (a) (i) the remainder is 0 A1\n16 (ii) 14 ≡ 1mod17 ( ) (from Fermat’s little theorem) (A1)\n2022 161266 × + 14 = 14\n(M1)\nNote: Award M1 for a RHS exponent consistent with the correct use of Fermat’s little\ntheorem.\n2022 6 14 ≡ 14 ( mod17 ) ( ≡ 15mod17 ( ) )\nA1\nthe remainder is 15 A1\n[5 marks]\n(b) (i) METHOD 1\n−\nlet N = a 13 n + a 13 n 1 + ... + a 13 + a M1\nn n − 1 1 0\nNote: The above M1 is independent of the A marks below.\n13 ≡ 1mod6 ( ) A1\nEITHER\n( ) 13 x≡ 1mod6 (for all x∈ ) A1\nOR\n−\nN ≡ a 1 n + a 1 n 1 + ... + a 1 + a ( mod6 ) ( N ≡ a + a + ... + a + a ( mod6 ) )\nn n − 1 1 0 n n − 1 1 0\nA1\nTHEN\nso N≡ 0mod6 ( ) if and only if a + a + ... + a + a ≡ 0mod6 ( ) R1\nn n − 1 1 0\nso 6 | N if and only if 6| ( a + a + ... + a + a ) AG\nn n − 1 1 0\nMETHOD 2\nn n − 1 let N = a 13 + a 13 + ... + a 13 + a (M1)\nn n − 1 1 0\n= ( + + + + ) N a a ... a a\nn n − 1 1 0\nM1A1\nn − 1 0 n − 2 0 0 + ( 131 − ) ( a ( 13 + ...13 + ) + a ( 13 + ...13 + ) + ... + a 13 )\nn n − 1 1\nNote: Award M1 for attempting to express N in the form\nN = ( a + a + ... + a + a )( + 131 − ) M .\nn n − 1 1 0\nas 6|131M ( − ) R1\nso 6 | N if and only if 6| ( a + a + ... + a + a ) AG\nn n − 1 1 0\n(ii) METHOD 1\nthe sum of the digits is 2 y + 20 (A1)\nuses 2 y + 20 = 6 k (or equivalent) to attempt to find a valid value of y (M1)\n() y = 2,5,8,11 B A1A1\n() Note: AwardA1 for y = 2,5,8 and A1 for y = 11 B .\nMETHOD 2\n6 5 4 3 2 1 0 ( 19325 y y ) =× 113 + y × 13 +× 913 +× 313 + y × 13 +× 213 +× 513 (A1)\n13\n= 371462 y + 5090480\nattempts to find a valid value of y such that\n371462 y + 5090480 ≡ 0mod6 ( ) (M1)\ny = 2,5,8,11 () B A1A1\nNote: AwardA1 for y = 2,5,8 and A1 for y = 11 () B .\n[8 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.2",
+    "6.4",
+    "6.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 13]\n(a) (i) Write down the remainder when $14^{2022}$ is divided by $7$.\n(ii) Use Fermat's little theorem to find the remainder when $14^{2022}$ is divided by $17$. [5]\n(b) (i) Prove that a number in base $13$ is divisible by $6$ if, and only if, the sum of its digits is divisible by $6$.\n(ii) The base $13$ number $1y93y25$ is divisible by $6$. Find the possible values of the digit $y$. [8]"
+  },
+  {
+   "id": "math-2020-N-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "[Maximum mark: 6] 4.\nSolve the system of linear congruences\nx≡7(mod 29) and 3x≡1(mod31) .",
+   "ms_text": "4. METHOD 1\n3 x ≡ 1mod31 ( ) ⇒ x ≡ 21mod31 ( ) (A1)\n= + = + x 29 a 7 and x 31 b 21 (M1)\nuses a table of values for their two equations in an attempt to find x (M1)\nx = 703 (A2)\nx ≡ 703mod899 ( )( x = 703899 + k ) A1\nMETHOD 2\nx = 29 a + 7 (A1)\nsubstitutes their equation into the other congruence (M1)\n( ) ( ) 329 a + 7 ≡ 1mod31\na valid attempt to solve their form of the above congruence (M1)\na ≡ 24mod31 ( ) (A1)\ncorrectly substitutes a = 31 b + 24 into x = 29 a + 7 (A1)\nx = 2931 ( b + 24 ) + 7\nx ≡ 703mod899 ( )( x = 703899 + b ) A1\nMETHOD 3\n3 x ≡ 1mod31 ( ) ⇒ x ≡ 21mod31 ( ) (A1)\nM= 31 and M= 29 (A1)\n1 2\n≡ ( )( = ) attempts to use Mx 1mod m i 1,2 (M1)\ni i i\nx≡ ( ) x≡ ( ) 31 1mod29 and 29 1mod31\n1 2\n( ) ( ) x≡ 15mod29 and x≡ 15mod31 (A1)\n1 2\nattempts to use x = a x M + axM 2mod ( M ) (M1)\n11 1 2 2\nx ≡× 71531212915mod899 × + × × ( )\n( ) ( ( ) )( ) x ≡ 703mod899 x ≡ 12390mod899 x = 703899 + k A1\nMETHOD 4\nx = 29 k + 7 and 3 x = 31 t + 1 (M1)\npis a multiple of31 and = + p 29 k 7 (1) and\nqis a multiple of29and 3 q = 31 t + 1 (2) (M1)\np = 31 x 31 x ≡ 7mod29 ( ) ⇒ x ≡ 18mod29 ( ) from (1): and (A1)\n1 1 1\n= and ( ) ≡ ( ) ⇒ ≡ ( ) from (2): q 29 x 329 x 1mod31 x 5mod31 (A1)\n2 2 2\np = 558 and q = 145\nuses x = p + q to obtain x = 703 (A1)\nx ≡ 703mod899 ( )( x = 703899 + b ) A1\nMETHOD 5\n3 x ≡ 1mod31 ( ) ⇒ x ≡ 21mod31 ( ) (A1)\n= + = + x 29 a 7 and x 31 b 21 (M1)\n29 a + 7 = 31 b + 21 ⇒ 29 a − 31 b = 14\n( ) = − = gcd29,31 1 and so29 a 31 b 1\na valid attempt to solve either 29 a − 31 b = 14 or 29 a − 31 b = 1\n(eg uses the Euclidean algorithm and reverses the process) (M1)\n2921031196 × − × = 14 (A1)\na = 210 (and b = 196 ) (A1)\nx ≡ 703mod899 ( ) ( x ≡ 6097mod899 ( ) )( x = 703899 + k ) A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nSolve the system of linear congruences\n$x \\equiv 7 \\pmod{29}$ and $3x \\equiv 1 \\pmod{31}$."
+  },
+  {
+   "id": "math-2020-N-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 11]\nG is a simple, connected, planar graph with 9 vertices and e edges.\nFind the maximum possible value of e .\b (a) [2]\nThe complement of G has e ′ edges.\nFind an expression for e ′ in terms of e .\b (b) [2]\n(c) Given that the complement of G is also planar and connected, find the possible\nvalues of e .\b [2]\nH is a simple graph with v vertices and e edges.\nGiven that both H and its complement are planar and connected, find the maximum (d)\npossible value of v .\b [5]\n\b",
+   "ms_text": "5. (a) substitutes v = 9 into either e = 3 v − 6 or e ≤ 3 v − 6 (M1)\nthe maximum number of edges is 21 ( e ≤ 21 ) A1\n[2 marks]\n9\n=\n(b) κ has 36 edges (A1)\n9\n2\n9\nso e ′= 36 − e = − e A1\n2\n[2 marks]\ne ′≤ 21 ⇒ 36 −≤ e 21 (c) (M1)\n15 ≤ e ≤ 21 (the possible values are 15, 16, 17, 18, 19, 20 and 21) A1\n[2 marks]\nvv ( − 1 )\n(d) recognises that e + e ′ = (or equivalent) (A1)\n2\nuses e ≤ 3 v − 6 and e ′≤ 3 v − 6 M1\nvv − 1 to form ( )(\n− − ) ≤ − 3 v 6 3 v 6 A1\n2\nNote: Award A1 for ( vv − 1 )(\n) − 3 v − 6 = 3 v − 6 .\n2\nattempts to solve their quadratic inequality (equality) (M1)\n2 v − 13 v + 24 ≤ 0 ⇒ 2.228... ≤ v ≤ 10.77...\nthe maximum possible value of vis 10 ( v ≤ 10 ) A1\n[5 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 11]\n$G$ is a simple, connected, planar graph with $9$ vertices and $e$ edges.\n(a) Find the maximum possible value of $e$. [2]\nThe complement of $G$ has $e'$ edges.\n(b) Find an expression for $e'$ in terms of $e$. [2]\n(c) Given that the complement of $G$ is also planar and connected, find the possible values of $e$. [2]\n$H$ is a simple graph with $v$ vertices and $e$ edges.\n(d) Given that both $H$ and its complement are planar and connected, find the maximum possible value of $v$. [5]"
+  }
+ ],
+ "status": "done"
+}

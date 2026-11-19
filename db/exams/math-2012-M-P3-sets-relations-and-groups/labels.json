@@ -1,0 +1,31 @@
+{
+  "exam_id": "math-2012-M-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.4", "7.5", "7.8"],
+      "text_clean": "1. [Maximum mark: 17]\n(a) Associativity and commutativity are two of the five conditions for a set $S$ with the binary operation $*$ to be an Abelian group; state the other three conditions. [2 marks]\n(b) The Cayley table for the binary operation $\\odot$ defined on the set $T = \\{p, q, r, s, t\\}$ is given below.\n[Table: Cayley table of $\\odot$]\n$\\odot$ | p | q | r | s | t\np | s | r | t | p | q\nq | t | s | p | q | r\nr | q | t | s | r | p\ns | p | q | r | s | t\nt | r | p | q | t | s\n(i) Show that exactly three of the conditions for $\\{T, \\odot\\}$ to be an Abelian group are satisfied, but that neither associativity nor commutativity are satisfied.\n(ii) Find the proper subsets of $T$ that are groups of order 2, and comment on your result in the context of Lagrange's theorem.\n(iii) Find the solutions of the equation $(p \\odot x) \\odot x = x \\odot p$. [15 marks]"
+    },
+    "2": {
+      "topics": ["7", "1"],
+      "subtopics": ["7.1", "1.10"],
+      "text_clean": "2. [Maximum mark: 8]\nThe elements of sets $P$ and $Q$ are taken from the universal set $\\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$. $P = \\{1, 2, 3\\}$ and $Q = \\{2, 4, 6, 8, 10\\}$.\n(a) Given that $R = (P \\cap Q')'$, list the elements of $R$. [3 marks]\n(b) For a set $S$, let $S^*$ denote the set of all subsets of $S$,\n(i) find $P^*$;\n(ii) find $n(R^*)$. [5 marks]"
+    },
+    "3": {
+      "topics": ["7", "6"],
+      "subtopics": ["7.2", "6.4"],
+      "text_clean": "3. [Maximum mark: 14]\nThe relation $R$ is defined on the set $\\mathbb{N}$ such that for $a, b \\in \\mathbb{N}$, $aRb$ if and only if $a^3 \\equiv b^3 \\pmod 7$.\n(a) Show that $R$ is an equivalence relation. [6 marks]\n(b) Find the equivalence class containing 0. [2 marks]\nDenote the equivalence class containing $n$ by $C_n$.\n(c) List the first six elements of $C_1$. [3 marks]\n(d) Prove that $C_n = C_{n+7}$ for all $n \\in \\mathbb{N}$. [3 marks]"
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.3"],
+      "text_clean": "4. [Maximum mark: 7]\n(a) The function $g: \\mathbb{Z} \\to \\mathbb{Z}$ is defined by $g(n) = |n| - 1$ for $n \\in \\mathbb{Z}$. Show that $g$ is neither surjective nor injective. [2 marks]\n(b) The set $S$ is finite. If the function $f: S \\to S$ is injective, show that $f$ is surjective. [2 marks]\n(c) Using the set $\\mathbb{Z}^+$ as both domain and codomain, give an example of an injective function that is not surjective. [3 marks]",
+      "qtype": "short"
+    },
+    "5": {
+      "topics": ["7", "1"],
+      "subtopics": ["7.6", "7.5", "7.8", "1.L1", "1.12"],
+      "text_clean": "5. [Maximum mark: 14]\nThe group $G$ has a unique element, $h$, of order 2.\n(a) (i) Show that $ghg^{-1}$ has order 2 for all $g \\in G$.\n(ii) Deduce that $gh = hg$ for all $g \\in G$. [5 marks]\nConsider the group $G$ under matrix multiplication consisting of four $2 \\times 2$ matrices, containing a unique element, $h$, of order 2, where $h = \\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix}$.\n(b) (i) Show that $G$ is cyclic.\n(ii) Given the identity $e = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$, find a pair of matrices representing the other two elements of $G$, where each element is of the form $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, $a, b, c, d \\in \\mathbb{C}$. [9 marks]"
+    }
+  }
+}

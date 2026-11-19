@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2015-N-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L6"],
+      "text_clean": "1. [Maximum mark: 7]\nIt is known that the standard deviation of the heights of men in a certain country is $15.0$ cm.\n(a) One hundred men from that country, selected at random, had their heights measured. The mean of this sample was $185$ cm. Calculate a $95\\%$ confidence interval for the mean height of the population. [3]\n(b) A second random sample of size $n$ is taken from the same population. Find the minimum value of $n$ needed for the width of a $95\\%$ confidence interval to be less than $3$ cm. [4]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L8", "4.10", "4.4"],
+      "text_clean": "2. [Maximum mark: 11]\nThe strength of beams compared against the moisture content of the beam is indicated in the following table. You should assume that strength and moisture content are each normally distributed.\nStrength | 21.1 | 22.7 | 23.1 | 21.5 | 22.4 | 22.6 | 21.1 | 21.7 | 21.0 | 21.4\nMoisture content | 11.1 | 8.9 | 8.8 | 8.9 | 8.8 | 9.9 | 10.7 | 10.5 | 10.5 | 10.7\n(a) Determine the product moment correlation coefficient for these data. [2]\n(b) Perform a two-tailed test, at the $5\\%$ level of significance, of the hypothesis that strength is independent of moisture content. [5]\n(c) If the moisture content of a beam is found to be $9.5$, use the appropriate regression line to estimate the strength of the beam. [4]"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L4", "4.9", "4.6"],
+      "text_clean": "3. [Maximum mark: 9]\nTwo students are selected at random from a large school with equal numbers of boys and girls. The boys' heights are normally distributed with mean $178$ cm and standard deviation $5.2$ cm, and the girls' heights are normally distributed with mean $169$ cm and standard deviation $5.4$ cm.\nCalculate the probability that the taller of the two students selected is a boy."
+    },
+    "4": {
+      "topics": ["4", "1", "5"],
+      "subtopics": ["4.L3", "4.L2", "4.L4", "1.8", "5.6"],
+      "text_clean": "4. [Maximum mark: 22]\nA discrete random variable $U$ follows a geometric distribution with $p=\\frac{1}{4}$.\n(a) Find $F(u)$, the cumulative distribution function of $U$, for $u=1,2,3\\ldots$ [3]\n(b) Hence, or otherwise, find the value of $P(U>20)$. [2]\n(c) Prove that the probability generating function of $U$ is given by $G_u(t)=\\frac{t}{4-3t}$. [4]\n(d) Given that $U_i\\sim\\mathrm{Geo}\\left(\\frac{1}{4}\\right)$, $i=1,2,3$, and that $V=U_1+U_2+U_3$, find\n(i) $\\mathrm{E}(V)$;\n(ii) $\\mathrm{Var}(V)$;\n(iii) $G_v(t)$, the probability generating function of $V$. [6]\nA third random variable $W$, has probability generating function $G_w(t)=\\frac{1}{(4-3t)^3}$.\n(e) By differentiating $G_w(t)$, find $\\mathrm{E}(W)$. [4]\n(f) Prove that $V=W+3$. [3]"
+    },
+    "5": {
+      "topics": ["4"],
+      "subtopics": ["4.L5", "4.7", "4.L4"],
+      "text_clean": "5. [Maximum mark: 11]\nA biased cubical die has its faces labelled $1, 2, 3, 4, 5$ and $6$. The probability of rolling a $6$ is $p$, with equal probabilities for the other scores.\nThe die is rolled once, and the score $X_1$ is noted.\n(a) (i) Find $\\mathrm{E}(X_1)$.\n(ii) Hence obtain an unbiased estimator for $p$. [4]\nThe die is rolled a second time, and the score $X_2$ is noted.\n(b) (i) Show that $k(X_1-3)+\\left(\\frac{1}{3}-k\\right)(X_2-3)$ is also an unbiased estimator for $p$ for all values of $k\\in\\mathbb{R}$.\n(ii) Find the value for $k$, which maximizes the efficiency of this estimator. [7]"
+    }
+  }
+}

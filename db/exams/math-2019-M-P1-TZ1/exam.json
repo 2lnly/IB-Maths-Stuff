@@ -1,0 +1,269 @@
+{
+ "exam_id": "math-2019-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2019,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2019 May Examination Session/Mathematics_paper_1__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2019 May Examination Session/Mathematics_paper_1__TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2219-7203; code M19/5/MATHL/HP1/ENG/TZ1/XX; marks sum matches paper total 100",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2019-M-P1-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\n� 2 � � � 3 �\n� � � �\n2 Let a � k and b � k � , k ∈ϒ .\n�� �� �� ��\n� 1 k � � � �\nGiven that a and b are perpendicular, find the possible values of k .",
+   "ms_text": "2 −3\n1. a •b = k • k +2\n−1 k\n=−6 +k(k +2) −k A1\nab • = 0 (M1)\n2 +k −6 =0 k\nattempt at solving their quadratic equation (M1)\n+ − = ( k 3)( k 2) 0\nk=− 3,2 A1\nNote: Attempt at solving using ab=a ×b will be M1A0A0A0 if neither answer found M1(A1)A1A0\nfor one correct answer and M1(A1)A1A1 for two correct answers.\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nLet $\\boldsymbol{a} = \\begin{pmatrix} 2 \\\\ k \\\\ -1 \\end{pmatrix}$ and $\\boldsymbol{b} = \\begin{pmatrix} -3 \\\\ k+2 \\\\ k \\end{pmatrix}$, $k \\in \\mathbb{R}$.\nGiven that $\\boldsymbol{a}$ and $\\boldsymbol{b}$ are perpendicular, find the possible values of $k$."
+  },
+  {
+   "id": "math-2019-M-P1-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\nDetermine the first three terms of (1 - 2x)11 in ascending powers of x , giving each term in its\nsimplest form.",
+   "ms_text": "2. attempt at binomial expansion M1\n11 11 2\n1 + ( − 2 x ) + ( − 2 x ) + ... (A1)\n1 2\n11\n=\n55\n2\n2 122 − x + 220 x\nA1A1\nNote:A1 for first two terms, A1 for final term.\n11 + 11 10 + 11 9 +...,\nNote: Award M1(A1)A0A0 for −2x ( ) ( ) ( )\n−2x −2x\n10 9\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nDetermine the first three terms of $(1 - 2x)^{11}$ in ascending powers of $x$, giving each term in its simplest form."
+  },
+  {
+   "id": "math-2019-M-P1-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 4]\nA sector of a circle with radius r cm , where r > 0 , is shown on the following diagram.\nThe sector has an angle of 1 radian at the centre.\nr\n1\nr\nLet the area of the sector be A cm2 and the perimeter be P cm . Given that A = P , find the\nvalue of r .",
+   "ms_text": "3. A = P\nuse of the correct formula for area and arc length (M1)\nθ+ perimeter is r 2 r (A1)\nNote:A1 independent of previous M1.\n1\n2 () () 1 = r 1 + 2 r\nA1\n2r\n2 r − 6 r = 0\nr= 6 (as r > 0) A1\nNote: Do not award final A1 if r= 0 is included.\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 4]\nA sector of a circle with radius $r$ cm, where $r > 0$, is shown on the following diagram. The sector has an angle of 1 radian at the centre.\n[Diagram: sector with two radii labelled r and angle 1 at the centre]\nLet the area of the sector be $A\\text{ cm}^2$ and the perimeter be $P$ cm. Given that $A = P$, find the value of $r$."
+  },
+  {
+   "id": "math-2019-M-P1-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\nThe lengths of two of the sides in a triangle are 4cm and 5 cm . Let θ be the angle between\nthe two given sides. The triangle has an area of 515 cm2.\n2\n15\n(a) Show that sin�� .\b [1]\n4\n(b) Find the two possible values for the length of the third side.\b [6]",
+   "ms_text": "4. (a) EITHER\n515 1\n= × 4 × 5sin θ A1\n2 2\nOR\nheight of triangle is 515\nif using 4 as the base or 15 if using 5 as the base A1\n4\nTHEN\n15\nsin θ= AG\n4\n[1 mark]\n(b) let the third side be x\n2 2 2 x = 4 + 5 − 2 × 4 × 5 × cos θ M1\nvalid attempt to find cosθ (M1)\n15\nNote: Do not accept writing cosarcsin as a valid method.\n4\n15\ncos θ=± −\n116\n1 1\n= , − A1A1\n4 4\n1 2\nx= 16 + 25 − 2 × 4 × 5 ×±\n4\nx = 31 51 or A1A1\n[6 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\nThe lengths of two of the sides in a triangle are 4 cm and 5 cm. Let $\\theta$ be the angle between the two given sides. The triangle has an area of $\\frac{5\\sqrt{15}}{2}\\text{ cm}^2$.\n(a) Show that $\\sin\\theta = \\frac{\\sqrt{15}}{4}$. [1]\n(b) Find the two possible values for the length of the third side. [6]"
+  },
+  {
+   "id": "math-2019-M-P1-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nA camera at point C is 3 m from the edge of a straight section of road as shown in the\nfollowing diagram. The camera detects a car travelling along the road at t = 0. It then rotates,\nalways pointing at the car, until the car passes O , the point on the edge of the road closest to\nthe camera.\n3m\nC O\nθ\nX\nA car travels along the road at a speed of 24 ms-1. Let the position of the car be X and let OĈX = θ .\nθ\nFind d\nt, the rate of rotation of the camera, in radians per second, at the instant the car d\npasses the point O .",
+   "ms_text": "5. let OX = x\nMETHOD 1\nd x\n24 (or -24) (A1)\nt=\nd\nd q d x d q\n= ´ (M1)\nd t d t d x\n3tan q = x A1\nEITHER\nd x 2\n3sec q = A1\nd q\nd q 24\n=\n2 d t 3sec q\nattempt to substitute for q = 0 into their differential equation M1\nOR\næö÷ x ç\nq = ÷\narctan3 ç÷ çèø\nd 1 1 q=\n´ A1\n2 d x 3 x\n1 +\n9\nd 1 q =\n24 ´æ\n2 d t x ö÷\nç 31\nç + ÷\nç ÷ çè 9 ø ÷\nx = attempt to substitute for 0 into their differential equation M1\nTHEN\nd 24 q=\n(rad s-1) = 8 A1\nd t 3\n− 8rads− 1 Note: Accept .\nMETHOD 2\nd x\n24 (or -24) (A1)\nt=\nd\n3tan q = x A1\nattempt to differentiate implicitly with respect to t M1\nd q d x 2\nq´ = 3sec A1\nd t d t\nd q 24\n=\n2 d t 3sec q\nattempt to substitute for q = 0 into their differential equation M1\nd q = 24\n= (rad s-1) 8 A1\nd t 3\n− 8rads− 1 Note: Accept .\nNote: Can be done by consideration of CX, use of Pythagoras.\nMETHOD 3\nlet the position of the car be at time tbe d −24t from O (A1)\ntanθ=d −24t =d\nM1 3−8t\n3\n24 t\ntan θ= Note: For award A0M1 and follow through.\n3\nEITHER\nM1 attempt to differentiate implicitly with respect to t\nsec2θdθ\nA1 dt=−8\nattempt to substitute for into their differential equation M1\nOR\nθ=arctand\nM1 3−8t\ndθ 8\ndt=− A1 2\n1+d\n3−8t\nat O, t =d\nA1\n24\nTHEN\ndθ\ndt=−8 A1\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nA camera at point C is 3 m from the edge of a straight section of road as shown in the following diagram. The camera detects a car travelling along the road at $t = 0$. It then rotates, always pointing at the car, until the car passes O, the point on the edge of the road closest to the camera.\n[Diagram: vertical road through O and X; camera C 3 m from O perpendicular to the road; angle θ at C between CO and CX]\nA car travels along the road at a speed of $24\\text{ m s}^{-1}$. Let the position of the car be X and let $\\hat{OCX} = \\theta$.\nFind $\\frac{d\\theta}{dt}$, the rate of rotation of the camera, in radians per second, at the instant the car passes the point O."
+  },
+  {
+   "id": "math-2019-M-P1-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nLet X be a random variable which follows a normal distribution with mean µ . Given that\nP (X <µ- 5) = 0.2 , find\n(a) P (X >µ+ 5) ;\b [2]\n(b) P (X <µ+ 5 | X > µ- 5) .\b [5]",
+   "ms_text": "6. (a) use of symmetry eg diagram (M1)\n( > μ + ) = P X 5 0.2 A1\n[2 marks]\n(b) EITHER\nP ( X > μ −∩ 5 X < μ + 5 )\nP ( X < μ + 5| X > μ − 5 ) = (M1)\n( ) P X > μ − 5\nP ( μ − 5 < X < μ + 5 )\n= (A1)\nP ( X > μ − 5 )\n0.6\n= A1A1\n0.8\nNote:A1 for denominator is independent of the previous A marks.\nOR\nuse of diagram (M1)\nNote: Only award (M1) if the region μ−5 <X<μ+5 is indicated and used.\nPX>μ−5 ( )=0.8Pμ−5 <X<μ+5 ( )=0.6 (A1)\nNote: Probabilities can be shown on the diagram.\n0.6\n=\n0.8 M1A1\nTHEN\n3\n= = (0.75) A1\n4\n[5 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nLet $X$ be a random variable which follows a normal distribution with mean $\\mu$. Given that $P(X < \\mu - 5) = 0.2$, find\n(a) $P(X > \\mu + 5)$; [2]\n(b) $P(X < \\mu + 5 \\mid X > \\mu - 5)$. [5]"
+  },
+  {
+   "id": "math-2019-M-P1-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 9]\ny Find the coordinates of the points on the curve y3+ 3xy2-x3= 27 at which d\nx= 0 . d",
+   "ms_text": "7. attempt at implicit differentiation M1\nd y d y 2 2 2\n3 y + 3 y + 6 xy − 3 x = 0 A1A1\nd x d x\nNote: Award A1 for the second & third terms, A1 for the first term, fourth term & RHS equal to zero.\ndy\nsubstitution of M1 dx=0\n3y2−3x2=0\n⇒ y =± x A1\nsubstitute either variable into original equation M1\n3 y = x ⇒ x 3 = 9 ⇒ x = 3 9 (or y3=9 ⇒y = 9 ) A1\n3 3 =−27 ⇒y =−3) y =−⇒ x x = 27 ⇒ x = 3 (or y A1\n( 3 9,9, (3, −3) 3 ) A1\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 9]\nFind the coordinates of the points on the curve $y^3 + 3xy^2 - x^3 = 27$ at which $\\frac{dy}{dx} = 0$."
+  },
+  {
+   "id": "math-2019-M-P1-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 9]\nThe graph of y =f '(x) , 0 ≤ x ≤ 5 is shown in the following diagram. The curve intercepts the\nx-axis at (1 , 0) and (4 , 0) and has a local minimum at (3 ,-1) .\ny\n3\n2\n1\n0\nx\n0\n1 2 3 4 5\n-1\n(a) Write down the x-coordinate of the point of inflexion on the graph of y = f (x) .\b [1]\nThe shaded area enclosed by the curve y = f '(x) , the x-axis and the y-axis is 0.5 .\nGiven that f (0) = 3 ,\n(b) find the value of f (1) .\b [3]\nThe area enclosed by the curve y = f '(x) and the x-axis between x = 1 and x = 4 is 2.5 .\n(c) Find the value of f (4) .\b [2]\n(d) Sketch the curve y =f (x), 0 ≤ x ≤ 5 indicating clearly the coordinates of the maximum\nand minimum points and any intercepts with the coordinate axes.\b [3]",
+   "ms_text": "8. (a) 3 A1\n[1 mark]\n′ (b) attempt to use definite integral of f () x (M1)\n1\n∫ f ′ ()d x x = 0.5\n0\nf (1) − f (0) = 0.5 (A1)\nf (1) = 0.5 + 3\n= 3.5 A1\n[3 marks]\n4\n′ (c) ∫ f ()d x x =− 2.5 (A1)\n1\nNote:(A1) is for −2.5.\nf (4) − f (1) =− 2.5\nf (4) = 3.5 − 2.5\n= 1 A1\n[2 marks]\n(d)\nA1A1A1\nA1 for correct shape over approximately the correct domain\nA1 for maximum and minimum (coordinates or horizontal lines from 3.5 and 1 are required),\nA1 for y-intercept at 3\n[3 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.8",
+    "5.7",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 9]\nThe graph of $y = f'(x)$, $0 \\le x \\le 5$ is shown in the following diagram. The curve intercepts the $x$-axis at $(1, 0)$ and $(4, 0)$ and has a local minimum at $(3, -1)$.\n[Graph: y = f'(x) starting at (0, 1), decreasing through (1, 0) to minimum (3, -1), rising through (4, 0) to about (5, 3); region between curve and axes from x = 0 to 1 shaded]\n(a) Write down the $x$-coordinate of the point of inflexion on the graph of $y = f(x)$. [1]\nThe shaded area enclosed by the curve $y = f'(x)$, the $x$-axis and the $y$-axis is 0.5. Given that $f(0) = 3$,\n(b) find the value of $f(1)$. [3]\nThe area enclosed by the curve $y = f'(x)$ and the $x$-axis between $x = 1$ and $x = 4$ is 2.5.\n(c) Find the value of $f(4)$. [2]\n(d) Sketch the curve $y = f(x)$, $0 \\le x \\le 5$ indicating clearly the coordinates of the maximum and minimum points and any intercepts with the coordinate axes. [3]"
+  },
+  {
+   "id": "math-2019-M-P1-TZ1-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 15]\n(a) Show that (sin x+ cos x)2= 1 + sin 2x .\b [2]\n� sin x x\nShow that sec 2x+ tan 2x=cos\n(b) .\b [4]\ncos sin x � x\n�\n(c) Hence or otherwise find 6 ( sec 2 x + tan 2 x ) d x in the form lna � � b � where a , b∈′ .\b [9] ∫\n0",
+   "ms_text": "2 2 2\n9. (a) ( sin x + cos x ) = sin x + 2sin x cos x + cos x M1A1\n2 + 2 . Note: Do not award the M1 for just sin x cos x\nNote: Do not award A1 if correct expression is followed by incorrect working.\n=+ 1sin 2x AG\n[2 marks]\n1 sin 2 x\n(b) sec2 x + tan 2 x = + M1\ncos2 x cos2 x\nNote:M1 is for an attempt to change both terms into sine and cosine forms (with the same\nargument) or both terms into functions of tan x.\n1sin 2 + x\n=\ncos2 x\n2\n( sin x + cos x )\n= A1A1\n2 − 2 cos x sin x\nNote: Award A1 for numerator, A1 for denominator.\n2\n( sin x + cos x )\n= M1\n( − )( + ) cos x sin x cos x sin x\ncos x + sin x\n= AG\ncos x − sin x\nNote: Apply MS in reverse if candidates have worked from RHS to LHS.\nNote: Alternative method using tan 2x and sec2x in terms of tan x .\n[4 marks]\n(c) METHOD 1\nπ\ncos x + sin x\n6 ∫ d x A1\n0 cos x − sin x\nNote: Award A1 for correct expression with or without limits.\nEITHER\nπ\n0\n=− lncos ( x − sin x ) 6 lncos ( x − sin x ) (M1)A1A1 or π\n0\n6\n( ) Note: Award M1 for integration by inspection or substitution, A1 for lncos x − sin x ,\nA1 for completely correct expression including limits.\nπ π\n=− lncos − sin + lncos0sin0 ( − ) M1\n6 6\nNote: Award M1 for substitution of limits into their integral and subtraction.\n3 1\n=− ln − (A1)\n2 2\nOR\nlet u = cos x − sin x M1\nd u\n− =− + sin x cos x (sin x cos) x\nx=−\nd\n3 1\n− 1du\n− 2 2 A1A1 ∫\n1 u\nNote: Award A1 for correct limits even if seen later, A1 for integral.\n3 1 −\n1\n=− [ lnu ] 2 2 or [ lnu ] A1\n1 3 1 −\n2 2\n3 1\n=− ln − ( + ln1 ) M1\n2 2\nTHEN\n2\n= ln M1\n3 − 1\nNote: Award M1 for both putting the expression over a common denominator and for correct use of\nlaw of logarithms.\n( ) = ln1 + 3 (M1)A1\n[9 marks]\nMETHOD 2\np\né ù 1 1 6\nê ( + ) - ( ) ú lntan 2 x sec2 x lncos2 x A1A1\nê ë 2 2 ú û\n0\n1 1 1 æö÷\n= ln ( 3 + 2 ) - ln ç - 0 A1A1(A1)\nç÷ ÷ çèø\n2 2 2\n1 ln4 ( ) = + 23\nM1\n2\n2\n= 1 ln1 ( ( + 3 ) ) M1A1\n2\n= ln1 ( + 3 ) A1\n[9 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "3.6",
+    "5.16",
+    "3.5",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 15]\n(a) Show that $(\\sin x + \\cos x)^2 = 1 + \\sin 2x$. [2]\n(b) Show that $\\sec 2x + \\tan 2x = \\frac{\\cos x + \\sin x}{\\cos x - \\sin x}$. [4]\n(c) Hence or otherwise find $\\int_0^{\\frac{\\pi}{6}} (\\sec 2x + \\tan 2x)\\,dx$ in the form $\\ln(a + \\sqrt{b})$ where $a, b \\in \\mathbb{Z}$. [9]"
+  },
+  {
+   "id": "math-2019-M-P1-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 15]\nThe function p (x) is defined by p (x) =x3- 3x2+ 8x - 24 where x∈ϒ .\n(a) Find the remainder when p (x) is divided by\n(x- 2) (i)\n(ii) (x- 3) .\b [3]\n(b) Prove that p (x) has only one real zero.\b [4]\n(c) Write down the transformation that will transform the graph of y = p (x) onto the graph\nof y = 8x3- 12x2+ 16x- 24 .\b [2]\nThe random variable X follows a Poisson distribution with a mean of λ and\n6P (X =3) = 3P (X = 2) - 2P (X = 1) + 3P (X = 0) .\n(d) Find the value of λ .\b [6]",
+   "ms_text": "10. (a) (i) p (2) = 81216 − + − 24 (M1)\nNote: Award M1 for a valid attempt at remainder theorem or polynomial division.\n=− 12 A1\nremainder =− 12\n(ii) p (3) = 27 − 27 + 24 − 24 = 0 A1\nremainder =0\n[3 marks]\nx = (b) 3 (is a zero) A1\nNote: Can be seen anywhere.\nEITHER\n− ( 2 + ) factorise to get ( x 3) x 8 (M1)A1\n2 x+ 8 ≠ 0 (for x∈ϒ) (or equivalent statement)\nR1\nNote: Award R1 if correct two complex roots are given.\nOR\n2 px ′ () = 3 x − 6 x + 8 A1\nattempting to show px ′ () ≠ 0 M1\neg discriminant = 36 – 96 < 0, completing the square\nno turning points R1\nTHEN\nonly one real zero (as the curve is continuous) AG\n[4 marks]\n(c) new graph is y = p (2) x (M1)\nstretch parallel to the x-axis (with x = 0 invariant), scale factor 0.5 A1\n[2 marks]\nNote: Accept “horizontal” instead of “parallel to the x-axis”.\n3 − λ 2 − λ 6 λ e 3 λ e\n− λ − λ\n(d) = − 2 λ e + 3 e M1A1\n6 2\nNote: Allow factorials in the denominator for A1.\n3 2 2 λ − 3 λ + 4 λ − 6 = 0\nA1\nNote: Accept any correct cubic equation without factorials and eλ −.\nEITHER\n( 3 2 ) 3 2 42 λ − 3 λ + 4 λ − 6 = 8 λ − 12 λ + 16 λ − 24 = 0 (M1)\nλ= 2 3 (A1)\nOR\n( 2 ) (2 λ − 3) λ + 2 = 0 (M1)(A1)\nTHEN\nλ= 1.5 A1\n[6 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "4"
+   ],
+   "subtopics": [
+    "2.12",
+    "4.L1",
+    "2.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 15]\nThe function $p(x)$ is defined by $p(x) = x^3 - 3x^2 + 8x - 24$ where $x \\in \\mathbb{R}$.\n(a) Find the remainder when $p(x)$ is divided by\n(i) $(x - 2)$\n(ii) $(x - 3)$. [3]\n(b) Prove that $p(x)$ has only one real zero. [4]\n(c) Write down the transformation that will transform the graph of $y = p(x)$ onto the graph of $y = 8x^3 - 12x^2 + 16x - 24$. [2]\nThe random variable $X$ follows a Poisson distribution with a mean of $\\lambda$ and $6P(X = 3) = 3P(X = 2) - 2P(X = 1) + 3P(X = 0)$.\n(d) Find the value of $\\lambda$. [6]"
+  },
+  {
+   "id": "math-2019-M-P1-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\nTwo distinct lines, l1 and l2 , intersect at a point P . In addition to P , four distinct points are\nmarked out on l1 and three distinct points on l2. A mathematician decides to join some of\nthese eight points to form polygons.\n(a) (i) Find how many sets of four points can be selected which can form the vertices of\na quadrilateral.\n(ii) Find how many sets of three points can be selected which can form the vertices\nof a triangle.\b [6]\n� 1 � � 1 �\n� � � �\n0 2 The line l1 has vector equation r1 � � � ,λ∈ϒ and the line l2 has vector equation\n�� �� �� ��\n1 1\n� � � �\n1 5 � � � � �\n� � � �\n0 � � 6 ,µ∈ϒ . r2 �\n�� �� �� ��\n2 2\n� � � �\nThe point P has coordinates (4 , 6 , 4) .\n(b) Verify that P is the point of intersection of the two lines.\b [3]\nThe point A has coordinates (3 , 4 , 3) and lies on l1 .\nWrite down the value of λ corresponding to the point A .\b (c) [1]\nThe point B has coordinates (-1 , 0 , 2) and lies on l2 .\n→ →\n(d) Write down PA and PB .\b [2]\nLet C be the point on l1 with coordinates (1 , 0 , 1) and D be the point on l2 with\nparameter µ= -2 .\n(e) Find the area of the quadrilateral CDBA .\b [8]\n\b",
+   "ms_text": "11. (a) (i) appreciation that two points distinct from P need to be chosen\nfrom each line M1\n4 3 C × C\n2 2\n= 18 A1\n(ii) EITHER\nconsider cases for triangles including Por triangles not including P M1\n3 4 34 ×+× 4 C +× 3 C (A1)(A1)\n2 2\nNote: Award A1 for 1st term, A1 for 2nd & 3rd term.\nOR\nconsider total number of ways to select 3 points and subtract those\nwith 3 points on the same line M1\n8C3 − 5C3 − 4C3 (A1)(A1)\nNote: Award A1 for 1st term, A1 for 2nd & 3rd term.\n56−10−4\nTHEN\n= 42 A1\n[6 marks]\n(b) METHOD 1\nsubstitution of (4,6,4)into both equations (M1)\nλ= μ= 3 and 1 A1A1\n(4,6,4) AG\nMETHOD 2\nattempting to solve two of the three parametric equations M1\nμ= λ= 3 or 1 A1\ncheck both of the above give (4,6,4) M1AG\nNote: If they have shown the curve intersects for all three coordinates they only need\nto check (4,6,4) with one of “λ” or “ μ”.\n[3 marks]\n(c) λ= 2 A1\n[1 mark]\n− 1 − 5\n→ →\n(d) PA =− 2 , PB =− 6 A1A1\n− 1 − 2\nNote: Award A1A0 if both are given as coordinates.\n[2 marks]\n(e) METHOD 1\n→ →\narea triangle ABP =1 ×PA\nM1\n2PB\n−5 −1 2\n=1 −6 × −2 =1 −3\nA1\n2 2\n−2 −1 4\n29\n= A1\n2\nEITHER\n→ → → →\nPC = 3PA,PD = 3PB (M1)\narea triangle PCD = 9 ×area triangle ABP (M1)A1\n929\n= A1\n2\nOR\nD has coordinates (11, − − 12, − 2) A1\n− 15 − 3\n→ → 1 1\nPCD = PD × PC = − 18 ×− 6 area triangle M1A1\n2 2\n− 6 − 3\nNote:A1 is for the correct vectors in the correct formula.\n929\n= A1\n2\nTHEN\n929 29\narea of CDBA= −\n2 2\n= 429 A1\n[8 marks]\nMETHOD 2\nD has coordinates(11, − − 12, − 2) A1\n1 → → 1 → →\narea = CB × CA + BC × BD M1\n2 2\nNote: Award M1 for use of correct formula on appropriate non-overlapping triangles.\nNote: Different triangles or vectors could be used.\n−2 2\n→ →\nCB = 0 ,CA= 4 A1\n1 2\n−4\n→ →\nCB ×CA = 6 A1\n−8\n2 − 10\n→ →\n= =− BC 0 ,BD 12 A1\n− 1 − 4\n−12\n→ →\nBC ×BD = 18 A1\n−24\n14 4 12\n→ → →\nNote: Other vectors which might be used are DA = 16 ,BA = 4 ,DC = 12 .\n5 1 3\nNote: Previous A1A1A1A1 are all dependent on the first M1.\n1\nvalid attempt to find a value of M1 2a ×b\nNote: M1 independent of triangle chosen.\n1 1\narea = ×× 2 29 + ×× 6 29\n2 2\n= 429 A1\n1\nNote: Accept 2116 +1\n21044 or equivalent.\n[8 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.16",
+    "1.10",
+    "3.15",
+    "3.12",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 20]\nTwo distinct lines, $l_1$ and $l_2$, intersect at a point P. In addition to P, four distinct points are marked out on $l_1$ and three distinct points on $l_2$. A mathematician decides to join some of these eight points to form polygons.\n(a) (i) Find how many sets of four points can be selected which can form the vertices of a quadrilateral.\n(ii) Find how many sets of three points can be selected which can form the vertices of a triangle. [6]\nThe line $l_1$ has vector equation $\\boldsymbol{r}_1 = \\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix} + \\lambda \\begin{pmatrix} 1 \\\\ 2 \\\\ 1 \\end{pmatrix}$, $\\lambda \\in \\mathbb{R}$ and the line $l_2$ has vector equation $\\boldsymbol{r}_2 = \\begin{pmatrix} -1 \\\\ 0 \\\\ 2 \\end{pmatrix} + \\mu \\begin{pmatrix} 5 \\\\ 6 \\\\ 2 \\end{pmatrix}$, $\\mu \\in \\mathbb{R}$.\nThe point P has coordinates $(4, 6, 4)$.\n(b) Verify that P is the point of intersection of the two lines. [3]\nThe point A has coordinates $(3, 4, 3)$ and lies on $l_1$.\n(c) Write down the value of $\\lambda$ corresponding to the point A. [1]\nThe point B has coordinates $(-1, 0, 2)$ and lies on $l_2$.\n(d) Write down $\\overrightarrow{PA}$ and $\\overrightarrow{PB}$. [2]\nLet C be the point on $l_1$ with coordinates $(1, 0, 1)$ and D be the point on $l_2$ with parameter $\\mu = -2$.\n(e) Find the area of the quadrilateral CDBA. [8]"
+  }
+ ],
+ "status": "done"
+}

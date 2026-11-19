@@ -1,0 +1,303 @@
+{
+ "exam_id": "math-2024-M-P2-TZ2",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2024,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 2/M24 TZ2/Mathematics_analysis_and_approaches_paper_2__TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 2/M24 TZ2/Mathematics_analysis_and_approaches_paper_2__TZ2_HL_markscheme.pdf",
+ "notes": "3 duplicate copies (3 byte-identical size); paper number 2224-7107; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2024-M-P2-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\nThe functions f and g are both defined for -1≤x≤0 by\nf(x)=1-x2\ng(x)=e2x .\nThe graphs of f and g intersect at x=a and x=b , where a<b .\n(a) Find the value of a and the value of b .\b [3]\n(b) Find the area of the region enclosed by the graphs of f and g .\b [3]",
+   "ms_text": "1. (a) attempts to find an intersection point (M1)\n0.916562... 0 a = − or b =\na = − 0.917 , b = 0 A1A1\n[3 marks]\n(b) let A be the area of the region\nEITHER\nattempts to form the required integral involving subtraction (in any order). Accept\nabsence of limits or incorrect limits. Accept absence of dx. (M1)\nOR\nshows a graph with the required area shaded (M1)\nTHEN\nb 0\n2 2 x A =\n∫ ( fx () − gx ()d ) x = ∫ ( 1 − x − e ) d x (or equivalent) (A1)\na − 0.916562...\nA = 0.239855...\nA = 0.240 A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.4",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nThe functions $f$ and $g$ are both defined for $-1 \\le x \\le 0$ by\n$f(x) = 1 - x^2$\n$g(x) = \\mathrm{e}^{2x}$.\nThe graphs of $f$ and $g$ intersect at $x = a$ and $x = b$, where $a < b$.\n(a) Find the value of $a$ and the value of $b$. [3]\n(b) Find the area of the region enclosed by the graphs of $f$ and $g$. [3]"
+  },
+  {
+   "id": "math-2024-M-P2-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nConsider the following bivariate data set where p , q∈′+ .\nx 5 6 6 8 10\ny 9 13 p q 21\nThe regression line of y on x has equation y=2.1875x+0.6875 .\nThe regression line passes through the mean point (¯x, ¯y ).\n(a) Given that ¯x=7 , verify that ¯y=16 .\b [1]\n(b) Given that q-p=3 , find the value of p and the value of q .\b [4]",
+   "ms_text": "2. (a) EITHER\ny= 2.18757 × + 0.6875 A1\nOR\ny= 15.3125 + 0.6875 A1\nTHEN\ny= 16 AG\n[1 mark]\n=∑ y\n(b) attempts to use 16 to form a linear equation in p and q (M1)\nn\n913 + + p + q + 21\n( ) 16 = 80 = p + q + 43 ⇒ p + q = 37 (A1)\n5\nattempts to solve two linear equations simultaneously for p and q (one of which is\nq = p + 3 ) (M1)\n913 + + + ++ 3 21 p p\n16 = ( 80 = 2 p + 46 )\n5\np = 17 and q = 20 A1\n[4 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.4",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nConsider the following bivariate data set where $p, q \\in \\mathbb{Z}^+$.\nx | 5 | 6 | 6 | 8 | 10\ny | 9 | 13 | p | q | 21\nThe regression line of $y$ on $x$ has equation $y = 2.1875x + 0.6875$.\nThe regression line passes through the mean point $(\\bar{x}, \\bar{y})$.\n(a) Given that $\\bar{x} = 7$, verify that $\\bar{y} = 16$. [1]\n(b) Given that $q - p = 3$, find the value of $p$ and the value of $q$. [4]"
+  },
+  {
+   "id": "math-2024-M-P2-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nThe loudness of a sound, L , measured in decibels, is related to its intensity, I units,\nby L=10log10(I × 1012) .\nConsider two sounds, S1 and S2 .\nS1 has an intensity of 10-6 units and a loudness of 60 decibels.\nS2 has an intensity that is twice that of S1 .\n(a) State the intensity of S2 .\b [1]\n(b) [2] Determine the loudness of S2 .\b\nThe maximum loudness of thunder in a thunderstorm was measured to be 115 decibels.\nFind the corresponding intensity, I , of the thunder.\b (c) [3]",
+   "ms_text": "− 1 6\n3. (a) I = 210 × = (units) A1\n500000\n[1 mark]\n(b) substitutes their doubled -Ivalue from part (a) into L (M1)\n− 6 12 L = 10log ( 210 × × 10 )( = 63.0102... )\n10\n= 63.0 (decibels) A1\nNote: Accept 6010log2 + (decibels) as a final answer.\n10\n− 12\nDo not award the final A1 for L = 0 (from I = 10 ).\n[2 marks]\n( 12 ) (c) 115 = 10log I × 10 (A1)\n10\nattempts to solve for I (M1)\n10 11.5\nI= (or equivalent) ( = 0.316227... )\n12 10\nI= 0.316 (units) A1\n0.5 1 Note: Accept exact final answers such as 10− and .\n10\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nThe loudness of a sound, $L$, measured in decibels, is related to its intensity, $I$ units, by $L = 10\\log_{10}(I \\times 10^{12})$.\nConsider two sounds, $S_1$ and $S_2$.\n$S_1$ has an intensity of $10^{-6}$ units and a loudness of $60$ decibels.\n$S_2$ has an intensity that is twice that of $S_1$.\n(a) State the intensity of $S_2$. [1]\n(b) Determine the loudness of $S_2$. [2]\nThe maximum loudness of thunder in a thunderstorm was measured to be $115$ decibels.\n(c) Find the corresponding intensity, $I$, of the thunder. [3]"
+  },
+  {
+   "id": "math-2024-M-P2-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nA particle moves in a straight line such that its velocity, vm s-1, at time t seconds is given\nby v(t )=1+e-t-e-sin2t for 0≤t≤2 .\n(a) Find the velocity of the particle at t=2 .\b [1]\n(b) Find the maximum velocity of the particle.\b [2]\n(c) Find the acceleration of the particle at the instant it changes direction.\b [3]",
+   "ms_text": "4. (a) v = − 0.996114...\nv = − 0.996 (ms-1) A1\n[1 mark]\n(b)\nconsiders () vt ′ = 0 (M1)\nt = 0.405833...\nv = 1.18230...\nmax\nv = 1.18 (ms-1) A1\nmax\n[2 marks]\n(c) recognizes that the particle changes direction when v = 0 (M1)\nNote: Award (M1) for t = 1.65840... seen.\nfinds acceleration for their value of t for which () vt= 0 (M1)\nv '1.65840... ( )\na = − 2.53487...\na = − 2.53 (ms-2) A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nA particle moves in a straight line such that its velocity, $v\\,\\mathrm{m\\,s^{-1}}$, at time $t$ seconds is given by $v(t) = 1 + \\mathrm{e}^{-t} - \\mathrm{e}^{-\\sin 2t}$ for $0 \\le t \\le 2$.\n(a) Find the velocity of the particle at $t = 2$. [1]\n(b) Find the maximum velocity of the particle. [2]\n(c) Find the acceleration of the particle at the instant it changes direction. [3]"
+  },
+  {
+   "id": "math-2024-M-P2-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nConsider a random variable X such that X∼B(n , 0.25) .\nDetermine the least value of n such that P(X≥1)>0.99 .",
+   "ms_text": "5.\nMETHOD 1\ncorrect inequality or equation involving ( P X= 0 ) (A1)\n1P − ( X = 0 ) > 0.99 OR ( P X= 0 ) < 0.01 OR 1P − ( X = 0 ) = 0.99 OR ( P X= 0 ) = 0.01\nattempts to solve their inequality (equality) involving 0.75n for n (M1)\nn n 10.75 − > 0.99 OR0.75 n< 0.01 OR 0.75 n= 0.01 OR 10.75 − = 0.99\nNote: Valid solving attempts include graphical, use of logarithms, tabular or trial\nand error.\nEITHER\nn > 16.0078... OR n = 16.0078... (A2)\nthe least value of n is 17 A1\nOR\nP ( X= 0 ) = 0.010022... ( > 0.01 ) (corresponding to n = 16 ) (A1)\nP ( X= 0 ) = 0.0075169... ( < 0.01 ) (A1)\ncorresponding to n = 17 (which is the least value of n ) A1\nMETHOD 2 (TABLE ONLY APPROACH)\nattempts to use binomial cdf to calculate a correct value of ( P X≥ 1 ) for one value of n (M1)\ncalculates correct values of ( P X≥ 1 ) for at least one value of n (A1)\nP ( X≥ 1 ) = 0.989977... ( < 0.99 ) (corresponding to n = 16 ) (A1)\nP ( X≥ 1 ) = 0.992483... ( > 0.99 ) (A1)\ncorresponding to n = 17 (which is the least value of n ) A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\nConsider a random variable $X$ such that $X \\sim \\mathrm{B}(n, 0.25)$.\nDetermine the least value of $n$ such that $\\mathrm{P}(X \\ge 1) > 0.99$."
+  },
+  {
+   "id": "math-2024-M-P2-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nThe volume of a spherical bubble increases at a constant rate of 5 cm3s-1 .\nThe initial volume of the bubble can be assumed to be zero.\nFind the rate, in cms-1 , at which the radius of the bubble is increasing when the volume of\nthe bubble is 20 cm3 .",
+   "ms_text": "4 π 3\n6. attempts to solve ( V = ) r = 20 for r (M1)\n3\n1\n15 3\nr = 1.68389... = (seen anywhere) A1\nπ\nattempts to use the chain rule (M1)\nd V d V d r r d r d V\n= × OR d = × (or equivalent)\nd t d r d t d t d V d t\nEITHER\n2\nd V d r d r 15 3 d r\n2 2 = 4π r = 4π1.68389... ( ) = 4π\nA1\nd t d t d t π d t\nOR\nd r 1 d V 1 d V 1 d V\n= = = A1\n2 2 2 d t 4π r d t\n( ) d t d t 4π1.68389...\n15 3\n4π\nπ\nTHEN\nr V attempts to find d when d\n= 5 (M1)\nd t d t\nd r\n0.140324...\nt=\nd\n2\nd r 5 π 3\n= 0.140 = (cm s-1) (accept 0.14) A1\nd 4π15 t\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "3.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nThe volume of a spherical bubble increases at a constant rate of $5\\,\\mathrm{cm^3\\,s^{-1}}$.\nThe initial volume of the bubble can be assumed to be zero.\nFind the rate, in $\\mathrm{cm\\,s^{-1}}$, at which the radius of the bubble is increasing when the volume of the bubble is $20\\,\\mathrm{cm^3}$."
+  },
+  {
+   "id": "math-2024-M-P2-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 5]\nThe curve y=4 ln (x-2) for 0≤y≤4 is rotated 360 ° about the y-axis to form a solid\nof revolution.\nFind the volume of the solid formed.",
+   "ms_text": "2 7. attempts to express x (or x) in terms of y (M1)\nNote: Only award (M1) if base e is applied to both sides.\n2 y y y y\n4 2 4 2 4 x = e + 2 x = e + 2 = e + 4e + 4 (A1)\nlet V be the volume of the solid formed\nd\n2 x in terms of y 2 forms a definite integral of the form π\n∫ x d y with their expression for (M1)\nc\n2 4 y 4 y y\n= 4 + = 2 + 4 + V π ∫ e 2 d y π ∫ e 4e 4d y (A1)\n0 0\n= 176.779...\n2 = 177 ( = 2πe ( + 8e1 − ) )\n(cubic units) A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.17",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 5]\nThe curve $y = 4\\ln(x-2)$ for $0 \\le y \\le 4$ is rotated $360^\\circ$ about the $y$-axis to form a solid of revolution.\nFind the volume of the solid formed."
+  },
+  {
+   "id": "math-2024-M-P2-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 10,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 10]\n� �\nLet z=1+cos2q+isin2q , where � � � � .\n2 2\n(a) Show that\n(i) argz=q ;\n(ii) |z|=2 cosq .\b [7]\nHence or otherwise, find the value of q such that arg (z2)=| z3 | .\b (b) [3]",
+   "ms_text": "8. (a) METHOD 1\nsin2 θ sin2 θ\n= ( ) = (i) arg z arctan tanarg z A1\n1cos2 + θ 1cos2 + θ\nuses 2sincos θ θ in the numerator and any double angle identity for cos2θ in\nthe denominator M1\nθ θ θ θ 2sincos 2sincos\narg = arctan tanarg ( ) = z z\n2 2 2cos θ 2cos θ\nπ π\n⇒ arg = arctantan ( θ ) − < θ < z A1\n2 2\n= θ AG\n[3 marks]\n2 2\n(ii) attempts to express z in the form ( Re z ) + ( Im z ) (M1)\n2 2\nz = ( 1 + cos2 θ ) + sin2 θ\n2\nattempts to expand ( 1 + cos2θ ) and then uses\ncos2 2 θ + sin2 2 θ = in an attempt to simplify 1 (M1)\nz = 2 + 2cos2 θ A1\n= 2 θ ( = θ ) z 4cos 2 cos A1\nπ π\n= 2cos θ − < θ < AG\n2 2\n[4 marks]\nMETHOD 2 (i) and (ii)\nz =+ 1 2cos 2 θ −+ 1 2sin θ cosi θ M1A1A1\n2 z = 2cos θ + 2sin θ cosi θ\nA1\nattempt to formz = r cisθ M1\nz = 2cos θ (cos θ + isin) θ A1A1\n∴ = θ = θ z 2cos andarg z . AG\n3\n( ) (b) 2 θ = 2cos θ (A1)\nattempts to solve for θ (M1)\nθ= 0.913236...\nθ= 0.913 A1\nθ= Note: Award all marks for 0.913 found directly without using part (a).\nθ= 3.97 ο. Note: Award (A1)(M1)A0 for\n[3 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "1.13",
+    "3.6",
+    "1.12",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 10]\nLet $z = 1 + \\cos 2\\theta + \\mathrm{i}\\sin 2\\theta$, where $-\\frac{\\pi}{2} < \\theta < \\frac{\\pi}{2}$.\n(a) Show that\n(i) $\\arg z = \\theta$;\n(ii) $|z| = 2\\cos\\theta$. [7]\n(b) Hence or otherwise, find the value of $\\theta$ such that $\\arg(z^2) = |z^3|$. [3]",
+   "review_note": "Section A question (10 marks) -> short per paper structure"
+  },
+  {
+   "id": "math-2024-M-P2-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\nx � 4\nConsider the curve y � , where a , b and c are non-zero constants.\n2 � � ax bx c\nThe curve has a local minimum point at (2 , 1) and a vertical asymptote with equation x=1 .\nFind the values of a , b and c .",
+   "ms_text": "2 9. recognizes that x =⇒ 1 ax + bx + c = 0 (M1)\na + b + c = 0 (seen anywhere) A1\npasses through ( 2,1 so: )\n2 − 4\n( ) 1 = 4 a + 2 b + c = − 2 (seen anywhere) A1\n4 a + 2 b + c\nlocal minimum point at ( 2,1 so: )\ny attempts to find d\nusing quotient or product rule M1\nd x\n2 ( ax + bx + c )( − x − 4 )( 2 ax + b )\nd y\n=\n2\nd x 2 ( ax + bx + c )\nd y\nsubstitutes x = 2 into the numerator of their ( 0 ) (M1)\nx=\nd\n( 4 a + 2 b + c )( − 2 − 4 )( 4 a + b )\n( 4 a + 2 b + c )( − 2 − 4 )( 4 a + b ) = 0 = 0 A1\n2\n( 4 a + 2 b + c )\n( + + = ) 12 a 4 b c 0\nNote: An incorrect numerator may lead to a correct equation.\nIn this instance, award A0 here and do not award the final A mark.\nattempts to solve their 3 linear equations in , ab and c (M1)\n= 3, = − 11 and c = 8 a b A1\nNote: Three linear equations and a value for each of , ab and c need to be\nseen to gain the last M mark.\ny Note: The last M mark is dependent on an equation formed from the numerator of d\n.\nd x\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.8",
+    "2.13",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nConsider the curve $y = \\dfrac{x-4}{ax^2+bx+c}$, where $a$, $b$ and $c$ are non-zero constants.\nThe curve has a local minimum point at $(2, 1)$ and a vertical asymptote with equation $x = 1$.\nFind the values of $a$, $b$ and $c$."
+  },
+  {
+   "id": "math-2024-M-P2-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 15]\nA shop sells chocolates. The weight, in kilograms, of chocolates bought by a random\ncustomer can be modelled by a continuous random variable X with probability density\nfunction f defined by\n� 6\n� � 3 x � x 2, � 0 5 . � x � 3\n�� 854 fx ��� .\n�� 0 , otherwise\n(a) Find the mode of X .\b [2]\n(b) Find P(1≤X≤2) .\b [2]\n(c) Find the median of X .\b [3]\nThe shop sells chocolates to customers at $25 per kilogram.\nHowever, if the weight of chocolate bought by a customer is at least 0.75 kilograms, the shop\nsells chocolate at a discounted rate of $24 per kilogram.\n(d) Find the probability that a randomly selected customer spends at most $48 .\b [3]\n(e) Find the expected amount spent per customer. Give your answer correct to the nearest\ncent.\b [5]",
+   "ms_text": "10. (a) recognizes that the mode is a value of x at which f has a maximum value (M1)\nf ′ () x = 0 a clearly labelled graph of f OR states OR considers the axis of\nsymmetry\nmode is 1.5 (kg) A1\nNote: Award M1A0 for ( ) 1.5,0.441 or 0.441 stated as the final answer.\n[2 marks]\n2\n() (b) attempts to find ∫ fx d x (M1)\n1\n= 0.435294...\n37\n= 0.435 = A1\n85\n[2 marks]\n(c) METHOD 1\nm\nrecognizes that fx () d x = 0.5 (M1) ∫\n0.5\nm = 1.68701...\nm = 1.69 (kg) A2\nMETHOD 2\nm\nrecognizes that fx () d x = 0.5 (M1) ∫\n0.5\n6 3 1 6 3 1\n2 3 4 m + m − m − 2 + − = 0.5\nA1\n85 2 3 85 8 24\nm = 1.68701...\nm = 1.69 (kg) A1\n[3 marks]\n(d) 0.5 ≤ x ≤ 2 (can be seen in a definite integral) (A1)\nattempts to evaluate their definite integral (M1)\n2\n∫ fx () d x = 0.635294...\n0.5\n= 0.635 A1\n[3 marks]\nx 2\n(e) an attempt at forming an expected value integral ∫ xfxdx () (M1)\nx 1\n0.75 0.75\n∫ xfx () d x ( = 0.060592... ) OR ∫ 25 xfx () d x ( = 1.51482... ) (A1)\n0.5 0.5\n3 3\n() ( = ) () ( = ) ∫ xfx d x 1.64345... OR ∫ 24 xfx d x 39.4428... (A1)\n0.75 0.75\nsums their two definite integrals (M1)\n0.75 3\n(expected amount spent per customer is) = ∫ 25 xfx () d x + ∫ 24 xfx () d x\n0.5 0.75\n= 40.9576...\n(expected amount spent per customer is) $40.96 A1\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 15]\nA shop sells chocolates. The weight, in kilograms, of chocolates bought by a random customer can be modelled by a continuous random variable $X$ with probability density function $f$ defined by\n$f(x) = \\begin{cases} \\frac{6}{85}(4 + 3x - x^2), & 0.5 \\le x \\le 3 \\\\ 0, & \\text{otherwise} \\end{cases}$.\n(a) Find the mode of $X$. [2]\n(b) Find $\\mathrm{P}(1 \\le X \\le 2)$. [2]\n(c) Find the median of $X$. [3]\nThe shop sells chocolates to customers at $\\$25$ per kilogram.\nHowever, if the weight of chocolate bought by a customer is at least $0.75$ kilograms, the shop sells chocolate at a discounted rate of $\\$24$ per kilogram.\n(d) Find the probability that a randomly selected customer spends at most $\\$48$. [3]\n(e) Find the expected amount spent per customer. Give your answer correct to the nearest cent. [5]"
+  },
+  {
+   "id": "math-2024-M-P2-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 17]\nA rotating sprinkler is at a fixed point S .\nIt waters all points inside and on a circle of radius 20 metres.\nPoint S is 14 metres from the edge of a path which runs in a north-south direction.\nThe edge of the path intersects the circle at points A and B .\nThis information is shown in the following diagram.\nnorth\nA\n20m\nS\n14m\nB\npath\n(a) Show that AB=28.57 , correct to four significant figures.\b [3]\nThe sprinkler rotates at a constant rate of one revolution every 16 seconds.\nShow that the sprinkler rotates through an angle of π\n(b) radians in one second.\b [1]\n8\nLet T seconds be the time that [AB] is watered in each revolution.\nFind the value of T .\b (c) [4]\nConsider one clockwise revolution of the sprinkler.\nAt t=0 , the water crosses the edge of the path at A .\nAt time t seconds, the water crosses the edge of the path at a movable point D which is a\ndistance d metres south of point A .\nLet a=AŜD and b=SÂB , where a , b are measured in radians.\nThis information is shown in the following diagram.\nnorth\nA\n20m β dm\nα D\nS\n14m\nB\npath\n(d) Write down an expression for a in terms of t .\b [1]\nIt is known that b=0.7754 radians, correct to four significant figures.\n(e) By using the sine rule in DASD, show that the distance, d , at time t , can be modelled by\n� � t �\n20 sin\n�� �� 8\ndt ��� .\b [3]\n� � t �\nsin 2 37 . �\n�� �� 8\nA turtle walks south along the edge of the path.\nAt time t seconds, the turtle’s distance, g metres south of A , can be modelled by\ng(t )=0.05t 2+1.1t+18 , where t≥0 .\nAt t=0 , state how far south the turtle is from A .\b (f) [1]\nLet w represent the distance between the turtle and point D at time t seconds.\n(g) (i) \u0007Use the expressions for g(t ) and d(t ) to write down an expression for w in terms of t .\n(ii) Hence find when and where on the path the water first reaches the turtle.\b [4]",
+   "ms_text": "11. (a) METHOD 1\nlet M be the midpoint of [ ] AB and so AB = 2AM\n2\nattempts to use Pythagoras’ theorem to find AM OR AM (M1)\n2 2 2 AM = 20 − 14 ( = 204 ) AM = 20 2 − 14 2 ( = 14.2828... = 204 = 251 )\nOR\nrecognizes that AB = 2AM (A1)\n)( ) AB = 214.2828... × ( = 28.5657... = 2204 = 451 A1\nAB = 28.5657...\nAB = 28.57 (m) AG\nMETHOD 2\nlet M be the midpoint of [ AB and so AB ] = 2AM\nθ= ˆ let ASM\n114 −\nθ = 0.795398... = cos (A1)\n20\nattempts to use a valid trigonometric ratio M1\nEITHER\n− 114 AM = 14tan0.795398... ( ) = 14.2828... = 14tancos\nA1\n20\nOR\n114 −\nAM = 20sin0.795398... ( ) = 14.2828... = 20sincos A1\n20\nTHEN\nAB = 28.5657...\n= AB 28.57 (m) AG\n[3 marks]\n(b) EITHER\nthe sprinkler rotates through (an angle of) 2π (radians) every 16 seconds and\nhence rotates through 2π (radians) in 1 second\nA1\n16\nOR\n2π 2π π\n= 16 ⇒ n = = A1\nn 16 8\nTHEN\nsprinkler rotates through an angle of π\nradians in one second AG\n8\n[1 mark]\n(c)\nNote: For candidates that used Method 2 in part (a) apply full FT from their value of θ .\nˆ attempts to find 2θ where θ= ASM\n(M1)\n114 −\n= 20.795398... 1.59079... ( ) = 2cos\n20\nθ (rad/s) or similar to form an equation involving T\n(M1)\nuses t\n114 −\n2cos\n2π 1.59079... 2π 20\n= = (A1)\n16 T 16 T\n114 −\n2cos\n1.59079... 20\nT= 4.05093... = =\n2π 2π\n16 16\nT= 4.05 (s) A1\n[4 marks]\nπ t\n(d) α= A1\n8\n[1 mark]\n∆ (e) applies sine rule in ASD A1\nd 20\nα=\nsin ˆ sinADS\nˆ attempts to find ADS in terms of α\nM1\nˆ ADS = π − β − α ( = π − 0.7754 − α )( = 2.366... − α )( = 2.37 − α )\n20sin α 20sin α 20sin α\n= = = d (accept d ) A1\nsin2.366... ( − α ) sin2.37 ( − α ) sinπ ( − β − α )\nπ t\n20sin\n8\nd = AG\nπ t\nsin2.37 −\n8\n[3 marks]\n(f) 18 (m) A1\n[1 mark]\nπ t\n20sin\n2 8 w = 0.05 t + 1.1 t + 18 −\n(g) (i) A1\nπ t\nsin2.37 −\n8\n(ii) attempts to solve w = 0 for t (M1)\nt = 3.34880...12.7765... ( )\nt = 3.35 (s) A1\n22.2444...\n22.2 (m) (south of A ) A1\n[4 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.4",
+    "3.3",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 17]\nA rotating sprinkler is at a fixed point S.\nIt waters all points inside and on a circle of radius $20$ metres.\nPoint S is $14$ metres from the edge of a path which runs in a north-south direction.\nThe edge of the path intersects the circle at points A and B.\nThis information is shown in the following diagram.\n[Diagram: circle centre S radius 20 m; vertical path line cutting the circle at A (top) and B (bottom); perpendicular from S to the path of length 14 m; north arrow]\n(a) Show that $\\mathrm{AB} = 28.57$, correct to four significant figures. [3]\nThe sprinkler rotates at a constant rate of one revolution every $16$ seconds.\n(b) Show that the sprinkler rotates through an angle of $\\frac{\\pi}{8}$ radians in one second. [1]\nLet $T$ seconds be the time that [AB] is watered in each revolution.\n(c) Find the value of $T$. [4]\nConsider one clockwise revolution of the sprinkler.\nAt $t = 0$, the water crosses the edge of the path at A.\nAt time $t$ seconds, the water crosses the edge of the path at a movable point D which is a distance $d$ metres south of point A.\nLet $\\alpha = \\mathrm{A\\hat{S}D}$ and $\\beta = \\mathrm{S\\hat{A}B}$, where $\\alpha$, $\\beta$ are measured in radians.\nThis information is shown in the following diagram.\n[Diagram: same circle with clockwise arrow; point D on the path between A and B, d m south of A; angle alpha at S between SA and SD; angle beta at A between AS and the path; SA = 20 m, perpendicular distance 14 m]\n(d) Write down an expression for $\\alpha$ in terms of $t$. [1]\nIt is known that $\\beta = 0.7754$ radians, correct to four significant figures.\n(e) By using the sine rule in $\\Delta$ASD, show that the distance, $d$, at time $t$, can be modelled by $d(t) = \\dfrac{20\\sin\\left(\\frac{\\pi t}{8}\\right)}{\\sin\\left(2.37 - \\frac{\\pi t}{8}\\right)}$. [3]\nA turtle walks south along the edge of the path.\nAt time $t$ seconds, the turtle's distance, $g$ metres south of A, can be modelled by $g(t) = 0.05t^2 + 1.1t + 18$, where $t \\ge 0$.\n(f) At $t = 0$, state how far south the turtle is from A. [1]\nLet $w$ represent the distance between the turtle and point D at time $t$ seconds.\n(g) (i) Use the expressions for $g(t)$ and $d(t)$ to write down an expression for $w$ in terms of $t$.\n(ii) Hence find when and where on the path the water first reaches the turtle. [4]"
+  },
+  {
+   "id": "math-2024-M-P2-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 21]\ny Consider the differential equation d � and y �� at x ��\n� y cosec 2 x � tan x , where 0 � x � .\nd x 2 4 4\nUse Euler’s method with step length π to find an approximate value of y when x �5�\n(a) .\n12 12\nGive your answer correct to three significant figures.\b [3]\n� 1 � Show that d\n(b) lncot � x � cosec 2 x .\b [4]\n����\nd x �� 2\n(c) Show that cot x is an integrating factor for this differential equation.\b [4]\n(d) Hence, by solving the differential equation, show that y = x tan x .\b [5]\n� and the Euler’s method approximation Consider the curve y = x tan x for 0 � x �\n(e)\n2\ncalculated in part (a).\nFind the y-coordinate at x �5�\n(i) . Give your answer correct to three significant figures.\n12\n(ii) By considering the gradient of the curve, suggest a reason why Euler’s method\ndoes not give a good approximation for the y-coordinate at x �5�\n.\n12\nState why this approximation is less than the y-coordinate at x �5�\n(iii) .\b [3]\n12\ny By considering d\n(f) � y cosec 2 x � tan x , deduce that the curve y = x tan x has a\nd x\n�.\b positive gradient for 0 � x �\n[2]\n2\n\b",
+   "ms_text": "12. (a) attempts to use Euler’s method (M1)\nπ π d y y where d\nx += x + ; y += y + × y cosec2 x + tan x\nn 1 n n 1 n x=\n12 12 d x d\nπ π π\ny = 1.25281... = + + 1 (A1)\n1\n4 124\ny= 1.97608...\n2\ny = 1.98 A1\n[3 marks]\n(b) attempts chain rule differentiation with multiplication of two derivatives (M1)\nd u 1 d y 1\n= ⇒ = − 2 = ⇒ = u cot x cosec x and y ln u OR\nd x 2 d u 2 u\ncos x d u 1 1 d y 1\nu = ⇒ = − and y = ln u ⇒ = OR\n2 sin x d x sin x 2 d u 2 u\ndu 1 dy 1 2\nu = cot () x ⇒ = ×− cosec x and = OR\ndx du 2cot () x cot () x\nf ′ () x d\n1 ln () = fx\nd x 2 2 fx ()\nTHEN\n2 cosec x\n1 sin x\n= − − × OR A1\n2 2cot x sin x 2cos x\n1\n= − (A1)\n2sincos x x\n1\n= − A1\nsin2x\n= − cosec2x AG\n[4 marks]\n(c) METHOD 1\n∫ Px ()d x\nattempts to use () Ix = e (M1)\n−∫ cosec2 xx d\ne A1\n1 lncot ( x )\n= 2e (A1)\nln ( cot x )\n= e A1\n= cot x AG\nMETHOD 2\nd\n( ) attempts product rule differentiation on y cot x M1\nd x\n2 d y y cosec x\n= cot x − A1\nd x 2cot x\n2 d y cosec x\n= cot x − y A1\nd x 2cot x\nd y\n= cot x − y cosec2 x A1\nd x\nso cot x is an integrating factor AG\n[4 marks]\nd y\n(d) cot x y cosec2 x cot x = tan x cot x (or equivalent) (M1)\nx−\nd\nd\n( y cot x ) = 1 (A1)\nd x\ny cot x = ∫ 1d x A1\ny cot x = x ( + C ) or equivalent A1\nπ π\nsubstitutes x = , y = ⇒ C = 0 M1\n4 4\nNote: Award M1 for attempting to find their value of C .\ny = x tan x AG\n[5 marks]\n(e) (i) y = 2.52878...\ny = 2.53 A1\n5π\n(ii) the gradient changes substantially (in the neighbourhood of x = ) R1\n12\n5π\nNote: Award R0 for saying the gradient is very large at x =\n12\n(iii) EITHER\nthe curve is concave up (over the interval) A1\nOR\n2 d y\n> 0 (over the interval) A1\nd 2 x\n[3 marks]\nd y\n( ) (f) y cosec2 x + tan x = x tan x cosec2 x + tan x\nx=\nd\nπ\ncosec2, x tan x> 0 0 < < (for x ) R1\n2\nd y\n⇒ > 0 A1\nd x\nπ\nso the curve has a positive gradient for 0 < x < AG\n2\nNote: Do not award R0A1.\n[2 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15",
+    "5.7",
+    "3.6",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 21]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x} - y\\,\\mathrm{cosec}\\,2x = \\sqrt{\\tan x}$, where $0 < x < \\frac{\\pi}{2}$ and $y = \\frac{\\pi}{4}$ at $x = \\frac{\\pi}{4}$.\n(a) Use Euler's method with step length $\\frac{\\pi}{12}$ to find an approximate value of $y$ when $x = \\frac{5\\pi}{12}$. Give your answer correct to three significant figures. [3]\n(b) Show that $\\frac{\\mathrm{d}}{\\mathrm{d}x}\\left(\\frac{1}{2}\\ln(\\cot x)\\right) = -\\mathrm{cosec}\\,2x$. [4]\n(c) Show that $\\sqrt{\\cot x}$ is an integrating factor for this differential equation. [4]\n(d) Hence, by solving the differential equation, show that $y = x\\sqrt{\\tan x}$. [5]\n(e) Consider the curve $y = x\\sqrt{\\tan x}$ for $0 < x < \\frac{\\pi}{2}$ and the Euler's method approximation calculated in part (a).\n(i) Find the $y$-coordinate at $x = \\frac{5\\pi}{12}$. Give your answer correct to three significant figures.\n(ii) By considering the gradient of the curve, suggest a reason why Euler's method does not give a good approximation for the $y$-coordinate at $x = \\frac{5\\pi}{12}$.\n(iii) State why this approximation is less than the $y$-coordinate at $x = \\frac{5\\pi}{12}$. [3]\n(f) By considering $\\frac{\\mathrm{d}y}{\\mathrm{d}x} - y\\,\\mathrm{cosec}\\,2x = \\sqrt{\\tan x}$, deduce that the curve $y = x\\sqrt{\\tan x}$ has a positive gradient for $0 < x < \\frac{\\pi}{2}$. [2]"
+  }
+ ],
+ "status": "done"
+}

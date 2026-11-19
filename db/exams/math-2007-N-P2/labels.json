@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2007-N-P2",
+  "questions": {
+    "1": {
+      "topics": ["5", "3"],
+      "subtopics": ["5.14", "3.14", "5.4", "3.13"],
+      "text_clean": "1. [Maximum mark: 20]\n(a) A curve is defined by the implicit equation $2xy + 6x^2 - 3y^2 = 6$.\nShow that the tangent at the point A with coordinates $\\left(1, \\frac{2}{3}\\right)$ has gradient $\\frac{20}{3}$. [6 marks]\n(b) The line $x = 1$ cuts the curve at point A, with coordinates $\\left(1, \\frac{2}{3}\\right)$, and at point B.\nFind, in the form $\\boldsymbol{r} = \\begin{pmatrix} a \\\\ b \\end{pmatrix} + s\\begin{pmatrix} c \\\\ d \\end{pmatrix}$\n(i) the equation of the tangent at A;\n(ii) the equation of the normal at B. [10 marks]\n(c) Find the acute angle between the tangent at A and the normal at B. [4 marks]"
+    },
+    "2": {
+      "topics": ["2", "1"],
+      "subtopics": ["2.5", "1.14", "2.7", "1.13"],
+      "text_clean": "2. [Total mark: 22]\nPart A [Maximum mark: 13]\n(a) The function $f$ is defined by $f(x) = (x+2)^2 - 3$.\nThe function $g$ is defined by $g(x) = ax + b$, where $a$ and $b$ are constants.\nFind the value of $a$, $a > 0$ and the corresponding value of $b$, such that $f(g(x)) = 4x^2 + 6x - \\frac{3}{4}$. [8 marks]\n(b) The functions $h$ and $k$ are defined by $h(x) = 5x + 2$ and $k(x) = cx^2 - x + 2$ respectively. Find the value of $c$ such that $h(k(x)) = 0$ has equal roots. [5 marks]\nPart B [Maximum mark: 9]\n(a) Express the complex number $1 + \\mathrm{i}$ in the form $\\sqrt{a}\\,\\mathrm{e}^{\\mathrm{i}\\frac{\\pi}{b}}$, where $a, b \\in \\mathbb{Z}^+$. [2 marks]\n(b) Using the result from (a), show that $\\left(\\frac{1+\\mathrm{i}}{\\sqrt{2}}\\right)^n$, where $n \\in \\mathbb{Z}$, has only eight distinct values. [5 marks]\n(c) Hence solve the equation $z^8 - 1 = 0$. [2 marks]"
+    },
+    "3": {
+      "topics": ["4", "5"],
+      "subtopics": ["4.L1", "4.14", "4.8", "5.15", "5.10"],
+      "text_clean": "3. [Total mark: 30]\nPart A [Maximum mark: 18]\nOn a particular road, serious accidents occur at an average rate of two per week and can be modelled using a Poisson distribution.\n(a) (i) What is the probability of at least eight serious accidents occurring during a particular four-week period?\n(ii) Assume that a year consists of thirteen periods of four weeks. Find the probability that in a particular year, there are more than nine four-week periods in which at least eight serious accidents occur. [10 marks]\n(b) Given that the probability of at least one serious accident occurring in a period of $n$ weeks is greater than 0.99, find the least possible value of $n$, $n \\in \\mathbb{Z}^+$. [8 marks]\nPart B [Maximum mark: 12]\nA continuous random variable $X$ has probability density function defined by\n$f(x) = \\begin{cases} \\frac{c}{4+x^2}, & \\text{for } -\\frac{2}{\\sqrt{3}} \\le x \\le 2\\sqrt{3} \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Find the exact value of the constant $c$ in terms of $\\pi$. [5 marks]\n(b) Sketch the graph of $f(x)$ and hence state the mode of the distribution. [3 marks]\n(c) Find the exact value of $\\mathrm{E}(X)$. [4 marks]"
+    },
+    "4": {
+      "topics": ["3", "2", "5"],
+      "subtopics": ["3.6", "3.9", "3.11", "2.4", "5.15"],
+      "text_clean": "4. [Maximum mark: 25]\nThe function $f$ is defined by $f(x) = \\operatorname{cosec} x + \\tan 2x$.\n(a) Sketch the graph of $f$ for $-\\frac{\\pi}{2} \\le x \\le \\frac{\\pi}{2}$.\nHence state\n(i) the $x$-intercepts;\n(ii) the equations of the asymptotes;\n(iii) the coordinates of the maximum and minimum points. [8 marks]\n(b) Show that the roots of $f(x) = 0$ satisfy the equation $2\\cos^3 x - 2\\cos^2 x - 2\\cos x + 1 = 0$. [5 marks]\n(c) Show that the $x$-coordinates of the maximum and minimum points on the curve satisfy the equation $4\\cos^5 x - 4\\cos^3 x + 2\\cos^2 x + \\cos x - 2 = 0$. [8 marks]\n(d) Show that $f(\\pi - x) + f(\\pi + x) = 0$. [4 marks]"
+    },
+    "5": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.9", "1.15", "5.6", "5.10"],
+      "text_clean": "5. [Total mark: 23]\nPart A [Maximum mark: 11]\nThe acceleration in $\\mathrm{m\\,s^{-2}}$ of a particle moving in a straight line at time $t$ seconds, $t > 0$, is given by the formula $a = -\\frac{1}{(1+t)^2}$. When $t = 1$, the velocity is $8\\ \\mathrm{m\\,s^{-1}}$.\n(a) Find the velocity when $t = 3$. [6 marks]\n(b) Find the limit of the velocity as $t \\to \\infty$. [1 mark]\n(c) Find the exact distance travelled between $t = 1$ and $t = 3$. [4 marks]\nPart B [Maximum mark: 12]\nGiven that $y = x\\mathrm{e}^{-x}$,\n(a) find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$; [2 marks]\n(b) use mathematical induction to prove that, for $n \\in \\mathbb{Z}^+$, $\\frac{\\mathrm{d}^n y}{\\mathrm{d}x^n} = (-1)^{n+1}\\mathrm{e}^{-x}(n - x)$. [10 marks]"
+    }
+  }
+}

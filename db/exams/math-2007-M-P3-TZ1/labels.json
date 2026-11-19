@@ -1,0 +1,214 @@
+{
+ "exam_id": "math-2007-M-P3-TZ1",
+ "questions": {
+  "A1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L1",
+    "4.3"
+   ],
+   "text_clean": "1. [Maximum mark: 18]\nA zoologist believes that the number of eggs laid in the Spring by female birds of a certain breed follows a Poisson law. She observes 100 birds during this period and she produces the following table.\nNumber of eggs laid | Frequency\n0 | 10\n1 | 19\n2 | 34\n3 | 23\n4 | 10\n5 | 4\n(a) Calculate the mean number of eggs laid by these birds. [2 marks]\n(b) The zoologist wishes to determine whether or not a Poisson law provides a suitable model.\n(i) Write down appropriate hypotheses.\n(ii) Carry out a test at the 1 % significance level, and state your conclusion. [16 marks]"
+  },
+  "A2": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L5"
+   ],
+   "text_clean": "2. [Maximum mark: 12]\nThe ten children in a class were each given two puzzles and the times taken, in seconds, to solve them were recorded as follows.\nChild | A | B | C | D | E | F | G | H | I | J\nPuzzle 1 | 66.3 | 71.9 | 62.8 | 69.8 | 64.6 | 74.9 | 68.8 | 72.6 | 70.4 | 74.2\nPuzzle 2 | 64.8 | 71.6 | 59.9 | 68.1 | 66.0 | 72.4 | 67.7 | 70.9 | 69.8 | 74.6\nIt is claimed that, on average, a child takes the same time to solve each puzzle. Treating the data as matched pairs, use a two-tailed test at the 5 % significance level to determine whether or not this claim is justified. [12 marks]"
+  },
+  "A3": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.L5",
+    "4.9"
+   ],
+   "text_clean": "3. [Maximum mark: 9]\nThe daily rainfall in a holiday resort follows a normal distribution with mean $\\mu$ mm and standard deviation $\\sigma$ mm. The rainfall each day is independent of the rainfall on other days.\nOn a randomly chosen day, there is a probability of 0.05 that the rainfall is greater than 10.2 mm.\nIn a randomly chosen 7-day week, there is a probability of 0.025 that the **mean** daily rainfall is less than 6.1 mm.\nFind the value of $\\mu$ and of $\\sigma$. [9 marks]"
+  },
+  "A4": {
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.6",
+    "1.10"
+   ],
+   "text_clean": "4. [Maximum mark: 11]\nAn urn contains 15 marbles, $b$ of which are blue and $(15-b)$ are red. Peter knows that the value of $b$ is either 5 or 9 but he does not know which. He therefore sets up the hypotheses\n$\\mathrm{H}_0: b=5$, $\\mathrm{H}_1: b=9$.\nTo choose which hypothesis to accept, he selects 3 marbles at random without replacement. Let $X$ denote the number of blue marbles selected. He decides to accept $\\mathrm{H}_1$ if $X\\ge 2$ and to accept $\\mathrm{H}_0$ otherwise.\n(a) State the name given to the region $X\\ge 2$. [1 mark]\n(b) Find the probability of making\n(i) a Type I error;\n(ii) a Type II error. [10 marks]"
+  },
+  "A5": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L2"
+   ],
+   "text_clean": "5. [Maximum mark: 10]\nLet $X_1, X_2, \\ldots, X_{20}$ be independent random variables each having a geometric distribution with probability of success $p$ equal to 0.6.\nLet $Y=\\sum_{i=1}^{20} X_i$.\n(a) Explain why the random variable $Y$ has a negative binomial distribution. [2 marks]\n(b) Find the mean and variance of $Y$. [4 marks]\n(c) Calculate $\\mathrm{P}(Y=30)$. [4 marks]"
+  },
+  "B1": {
+   "topics": [
+    "7",
+    "6"
+   ],
+   "subtopics": [
+    "7.2",
+    "6.4"
+   ],
+   "text_clean": "1. [Maximum mark: 10]\nLet $a, b\\in\\mathbb{Z}^+$ and define $aRb \\Leftrightarrow a^2\\equiv b^2$ (modulo 3).\n(a) Show that $R$ is an equivalence relation. [6 marks]\n(b) Find all the equivalence classes. [4 marks]"
+  },
+  "B2": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.4"
+   ],
+   "text_clean": "2. [Maximum mark: 14]\nLet $*$ be a binary operation defined on $\\mathbb{R}$ as follows:\n$a*b=a+b-1$\n(a) Determine whether or not the operation $*$ is commutative. [2 marks]\n(b) Show that $\\{\\mathbb{R}, *\\}$ is a group. [12 marks]"
+  },
+  "B3": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.7",
+    "7.6"
+   ],
+   "text_clean": "3. [Maximum mark: 12]\nThe permutations $p_1$ and $p_2$ of the integers $\\{1,2,3,4,5\\}$ are given by\n$p_1=\\begin{pmatrix}1&2&3&4&5\\\\3&1&2&5&4\\end{pmatrix}$; $p_2=\\begin{pmatrix}1&2&3&4&5\\\\2&3&4&5&1\\end{pmatrix}$.\n(a) Find the order of $p_1$. [4 marks]\n(b) (i) Find $p_2p_1$, the composite permutation $p_1$ followed by $p_2$.\n(ii) Determine whether or not $p_1$ and $p_2$ commute under composition of permutations. [4 marks]\n(c) Find $(p_1^2p_2)^{-1}$. [4 marks]"
+  },
+  "B4": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.6",
+    "7.8",
+    "7.4"
+   ],
+   "text_clean": "4. [Maximum mark: 18]\nThe set $S$ contains the four elements $a, b, c, d$. The groups $\\{S,\\circ\\}$ and $\\{S,\\times\\}$ have the following Cayley tables.\n$\\circ$ | a | b | c | d\na | c | d | a | b\nb | d | c | b | a\nc | a | b | c | d\nd | b | a | d | c\n\n$\\times$ | a | b | c | d\na | c | a | d | b\nb | a | b | c | d\nc | d | c | b | a\nd | b | d | a | c\n(a) For each group,\n(i) state the identity,\n(ii) find the order of each of the elements. [6 marks]\n(b) Write down all the proper subgroups of\n(i) $\\{S,\\circ\\}$;\n(ii) $\\{S,\\times\\}$. [4 marks]\n(c) Solve the equation $(a\\circ(x\\times x))\\times d=c$. [8 marks]"
+  },
+  "B5": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "text_clean": "5. [Maximum mark: 6]\nLet $A$ and $B$ be sets such that $A\\cap B=A\\cup B$. Prove that $A=B$. [6 marks]"
+  },
+  "C1": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.15"
+   ],
+   "text_clean": "1. [Maximum mark: 10]\n(a) Use l'Hôpital's Rule to find\n(i) $\\lim_{x\\to 1}\\frac{\\ln x^2}{x-1}$;\n(ii) $\\lim_{x\\to 0}\\frac{\\tan^2 x}{1-\\cos x}$. [8 marks]\n(b) Giving a reason, state whether the following argument is correct or incorrect.\n\"Using l'Hôpital's Rule, $\\lim_{x\\to 3}\\frac{x-3}{x^2-3}=\\lim_{x\\to 3}\\frac{1}{2x}=\\frac{1}{6}$.\" [2 marks]"
+  },
+  "C2": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.6"
+   ],
+   "text_clean": "2. [Maximum mark: 8]\nGiven that the Maclaurin series for $\\mathrm{e}^{\\sin x}$ is $a+bx+cx^2+dx^3+\\ldots$, find the values of $a$, $b$, $c$ and $d$. [8 marks]"
+  },
+  "C3": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L1",
+    "1.11"
+   ],
+   "text_clean": "3. [Maximum mark: 12]\nConsider the infinite series $\\sum_{n=1}^{\\infty}\\frac{1}{n(n+2)}$.\n(a) Show that the series is convergent. [3 marks]\n(b) (i) Express $\\frac{1}{n(n+2)}$ in partial fractions.\n(ii) Hence find $\\sum_{n=1}^{\\infty}\\frac{1}{n(n+2)}$. [9 marks]"
+  },
+  "C4": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.16"
+   ],
+   "text_clean": "4. [Maximum mark: 16]\n(a) Use integration by parts to show that\n$\\int \\sin x\\cos x\\,\\mathrm{e}^{-\\sin x}\\,\\mathrm{d}x=-\\mathrm{e}^{-\\sin x}(1+\\sin x)+C$. [4 marks]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x}-y\\cos x=\\sin x\\cos x$.\n(b) Find an integrating factor. [3 marks]\n(c) Solve the differential equation, given that $y=-2$ when $x=0$. Give your answer in the form $y=f(x)$. [9 marks]",
+   "note": "Markscheme crop omits its first line '4. (a) I = ∫ sin x cos x e^{-sin x} dx' (restated integral, no marks): seg_math treats a small embedded equation image at y≈74-82 on ms page 15 as a header logo, so body_top clips it and overrides cannot bypass it. All marking content present. | fixed by segmenter update: the line noted above as missing is now in the crop",
+   "answer_status": "ok"
+  },
+  "C5": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L2",
+    "5.L1"
+   ],
+   "text_clean": "5. [Maximum mark: 14]\nFind the interval of convergence of the series $\\sum_{n=1}^{\\infty}\\sin\\left(\\frac{\\pi}{n}\\right)x^n$. [14 marks]"
+  },
+  "D1": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8",
+    "6.9"
+   ],
+   "text_clean": "1. [Maximum mark: 14]\nThe weights of the edges in a simple graph $G$ are given in the following table.\nVertices | A | B | C | D | E | F\nA | - | 4 | 6 | 16 | 15 | 17\nB | 4 | - | 5 | 17 | 9 | 16\nC | 6 | 5 | - | 15 | 8 | 14\nD | 16 | 17 | 15 | - | 15 | 7\nE | 15 | 9 | 8 | 15 | - | 18\nF | 17 | 16 | 14 | 7 | 18 | -\n(a) Use Prim's Algorithm, starting with vertex F, to find and draw the minimum spanning tree for $G$. Your solution should indicate the order in which the edges are introduced. [12 marks]\n(b) Use your tree to find an upper bound for the travelling salesman problem for $G$. [2 marks]"
+  },
+  "D2": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.3",
+    "6.1"
+   ],
+   "text_clean": "2. [Maximum mark: 16]\n(a) Use the Euclidean algorithm to find the greatest common divisor of 43 and 73. [5 marks]\nConsider the equation $43x+73y=7$, where $x, y\\in\\mathbb{Z}$.\n(b) (i) Find the general solution of this equation.\n(ii) Find the solution which minimises $|x|+|y|$. [11 marks]"
+  },
+  "D3": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.6",
+    "6.7"
+   ],
+   "text_clean": "3. [Maximum mark: 13]\nLet $H$ be the weighted graph drawn below.\n[Diagram: weighted graph H with vertices A, B, C, D, E, F, G; edges AB=4, AC=1, BC=3, BD=1, BE=3, CF=6, CG=2, DF=4, DG=2, EF=1, EG=3, FG=2]\n(a) (i) Name the two vertices of odd degree.\n(ii) State the shortest path between these two vertices.\n(iii) Using the route inspection algorithm, or otherwise, find a walk, starting and ending at A, of minimum total weight which includes every edge at least once.\n(iv) Calculate the weight of this walk. [11 marks]\n(b) Write down a Hamiltonian cycle in $H$. [2 marks]"
+  },
+  "D4": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.5",
+    "6.4"
+   ],
+   "text_clean": "4. [Maximum mark: 9]\nConsider the equation $x^{12}+1=7y$, where $x, y\\in\\mathbb{Z}^+$.\nUsing Fermat's little theorem, show that this equation has no solution. [9 marks]"
+  },
+  "D5": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.7"
+   ],
+   "text_clean": "5. [Maximum mark: 8]\nLet $K$ be a simple graph.\n(a) Define the complement, $K'$, of $K$. [1 mark]\n(b) Given that $K$ has six vertices, show that $K$ and $K'$ cannot both contain an Eulerian trail. [7 marks]"
+  }
+ }
+}

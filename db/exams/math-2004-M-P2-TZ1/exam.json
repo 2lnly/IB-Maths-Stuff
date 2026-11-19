@@ -1,0 +1,277 @@
+{
+ "exam_id": "math-2004-M-P2-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2004,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2004 May Examination Session/Mathematics_paper_2_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2004 May Examination Session/Mathematics_paper_2_TZ1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); marks sum matches expected total 100",
+ "qp_pages": 12,
+ "questions": [
+  {
+   "id": "math-2004-M-P2-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 12,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 12]\n(a) The point lies in the plane π . The vector 3 i − 4 j + k is P(1, 2,11)\n1\nperpendicular to π . Find the Cartesian equation of π . [2 marks]\n1 1\n(b) The plane π has equation x + 3 y − z = − 4 . 2\n(i) Show that the point P also lies in the plane π . 2\nπ π (ii) Find a vector equation of the line of intersection of and . [5 marks]\n1 2\n(c) Find the acute angle between π and π . 2 [5 marks]\n1",
+   "ms_text": "x 3 1 3\n1. (a) y i − 4 = 2 i − 4 (M1)\nz 1 11 1\n3 x − 4 y + z = 6 (A1)\n[2 marks]\n(b) (i) 13211 +× − = − 4 (A1)\n⇒ P lies in π (AG)\n2\n3 1 1\n(ii) − 4 × 3 = 4 (M1)(A1)\n1 − 1 13\n1 1\n= + λ r 2 4 (M1)(A1) (N2)\n11 13\nNote: Award (M1)(A0) if equation given in incorrect form.\n[5 marks]\n(c) METHOD 1\n1 3 1 3\n3 i − 4 = 3 − 4 cos θ\n− 1 1 − 1 1\n1 3\n3 i − 4 = − 10 (A1)\n− 1 1\n1 3\n3 = 11 − 4 = 26 (A1)\n− 1 1\n− 10\ncos θ = ( = − 0.5913) (M1)\n11 26\n� θ = 2.2035 radians(or θ = 126.3) (A1)\nThe angle between the planes is\n� � � π − 2.2035 = 0.938 radians (or180 − 126.3 = 53.7) (A1) (N2)\nMETHOD 2\n1 3 1 3\n3 ×− 4 = 3 − 4sin θ (M1)\n− 1 1 − 1 1\n1 3 1\n3 ×− 4 = 4 = 186 (A1)\n− 1 1 13\n1 3\n= 3 11 − 4 = 26\n, (A1)\n− 1 1\n186\nsin θ= ( = 0.8064 ) (M1)\n11 26\n� θ = 0.938 radiansor ( θ = 53.7 ) (A1)\n(N2)\n[5 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.17",
+    "3.16",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 12]\n(a) The point $P(1, 2, 11)$ lies in the plane $\\pi_1$. The vector $3\\mathbf{i}-4\\mathbf{j}+\\mathbf{k}$ is perpendicular to $\\pi_1$. Find the Cartesian equation of $\\pi_1$. [2 marks]\n(b) The plane $\\pi_2$ has equation $x+3y-z=-4$.\n(i) Show that the point P also lies in the plane $\\pi_2$.\n(ii) Find a vector equation of the line of intersection of $\\pi_1$ and $\\pi_2$. [5 marks]\n(c) Find the acute angle between $\\pi_1$ and $\\pi_2$. [5 marks]"
+  },
+  {
+   "id": "math-2004-M-P2-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 14]\n(i) Jack and Jill play a game, by throwing a die in turn. If the die shows a\n1, 2, 3 or 4, the player who threw the die wins the game. If the die\nshows a 5 or 6, the other player has the next throw. Jack plays first and\nthe game continues until there is a winner.\n(a) Write down the probability that Jack wins on his first throw. [1 mark]\n(b) Calculate the probability that Jill wins on her first throw. [2 marks]\n(c) Calculate the probability that Jack wins the game. [3 marks]\n(ii) Let fx () be the probability density function for a random variable X, where\nkx 2,for 0 ≤ x ≤ 2\nfx () =\n0,otherwise.\n3\n(a) Show that k = . [2 marks]\n8\n(b) Calculate\n(i) E( X ) ;\n(ii) the median of X. [6 marks]",
+   "ms_text": "2\n2. (i) (a) Probability that Jack wins on his first throw = ( or0.667 ) . (A1)\n3\n[1 mark]\n1 2\n(b) Probability that Jill wins on her first throw: × (M1)\n3 3\n2\n= ( or0.222 ) . (A1) (N2)\n9\n[2 marks]\n(c) EITHER\nProbability that Jack wins the game:\n2 1 1 2\n+ × × + … (M1)\n3 3 3 3\n2 1\n= × (A1)\n3 1\n1 −\n9\n3\n= (A1) (N2)\n4\nOR\nIf p is the probability that Jack wins the game then\n2 1 1\np = + × p , (M1)\n3 3 3\n2\n3\nso that p = (A1)\n1\n1 −\n9\n3\n= (A1) (N2)\n4\n[3 marks]\n2 2\n(ii) (a) k ∫ x d x = 1 (M1)\n0\n2 3\nx k 8 k\n⇒ = = 1 (A1)\n3 3\n0\n3\n⇒ k = (AG)\n8\n[2 marks]\n2 3 2 4\n2 3 x (b) (i) E( X )\n=∫ x x . d x ( = ) (M1)\n8 0 8 4\n0\n3\n=\n2 (A1)\n(N2)\n(ii) The median m must be a number such that\n3 m 1 3 2\nx 2 d x = or x 2 d x ∫ ∫ (M1)(A1)\n0 m 8 2 8\nm\n3 x 3 3 m 3 1\n= − 0 = (A1)\n8 3 8 3 2\n0\n3 m 1\n= ⇒ 3 = m 4 .\n8 2\n⇒ = 3 4 (1.59 to 3s.f.) = m . (A1) (N4)\n[6 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.6",
+    "1.8",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 14]\n(i) Jack and Jill play a game, by throwing a die in turn. If the die shows a 1, 2, 3 or 4, the player who threw the die wins the game. If the die shows a 5 or 6, the other player has the next throw. Jack plays first and the game continues until there is a winner.\n(a) Write down the probability that Jack wins on his first throw. [1 mark]\n(b) Calculate the probability that Jill wins on her first throw. [2 marks]\n(c) Calculate the probability that Jack wins the game. [3 marks]\n(ii) Let $f(x)$ be the probability density function for a random variable $X$, where\n$f(x)=\\begin{cases} kx^2, & \\text{for } 0\\le x\\le 2 \\\\ 0, & \\text{otherwise.}\\end{cases}$\n(a) Show that $k=\\frac{3}{8}$. [2 marks]\n(b) Calculate\n(i) $\\mathrm{E}(X)$;\n(ii) the median of $X$. [6 marks]",
+   "review_note": "audit: pdf integrals for k, E(X), median carry M/A marks; aligned with twin TZ2-q2"
+  },
+  {
+   "id": "math-2004-M-P2-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 15]\n(i) A complex number z is such that z = z − 3i .\n3\n(a) Show that the imaginary part of z is . [2 marks]\n2\n(b) Let z and z be the two possible values of z, such that z= 3 .\n1 2\n(i) Sketch a diagram to show the points which represent\nz and z in the complex plane, where is in the first\n1 2 1z\nquadrant.\nπ\nz= (ii) Show that arg .\n1\n6\n(iii) Find arg z .\n2 [4 marks]\nkzz =\n(c) Given that arg 1 2 π , find a value of k. [4 marks]\n2i\n(ii) Find an expression for the sum of the first 35 terms of the series\n2 2 2 x x x\n2 ln x + ln + ln + ln + …\n2 3 y y y\nm x\nln , where mn , ∈N giving your answer in the form . [5 marks]\nn y",
+   "ms_text": "2 2 2 2 3. (i) (a) z = a + b i ⇒ a + b i = a + ( b − 3)i ⇒ a + b = a + ( b − 3 ) (M1)\n⇒ − = (A1) 6 b 9 0\n3\n⇒ b = (AG)\n2\n[2 marks]\n(b) (i)\nz2 1.5 z1\n– – – – – – – – – – – – – – – –\n(A1)\n(A1)\nNote: Award (A1) for the sketch and (A1) for the labels.\n3\n(ii) arg z = arcsin ÷ 3 (A1)\n1\n2\nπ\n(AG) =\n6\n5\n(iii) arg z = π − arg z = π (A1)\n2 1\n6\n[4 marks]\n(c) k arg z + arg z − arg2i = π (M1)(A1)\n1 2\nπ 5 π\nk + π − = π (A1)\n6 6 2\nk = 4 (accept k = 412) ± n (A1)\n[4 marks]\n(ii) METHOD 1\n2 2 2 x x x\nln x 2 + ln + ln + ln +…\n2 3 y y y\n2 2 2 2 = ln x + (ln x − ln) y + (ln x − 2ln) y + (ln x − 3ln) y +… (M1)\nn 35\n( ) 2 2 S = 2 u + ( n − 1)d = (2ln x − 34ln) y = 35ln x − 595ln y (M1)(A1)\n35 1\n2 2\n= ln x 70 − ln y 595\n70 x\n= ln (Accept m = 70, n = 595) (A1)(A1) (N2)\n595 y\nMETHOD 2\n2 2 2 2 2 2 x x x xx … x\n2 ln x + ln + ln + ln +…= (M1)(A1)\n2 3 ln1 34 y y y y … y\n35\nIn the denominator, the sum of the powers of y is (0 + 34) = 595 (A1)\n2\nThe required expression is\n70 x\n= = ln (Accept m 70, n 595) (A1)(A1) (N2)\n595 y\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.12",
+    "1.2",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 15]\n(i) A complex number $z$ is such that $|z|=|z-3\\mathrm{i}|$.\n(a) Show that the imaginary part of $z$ is $\\frac{3}{2}$. [2 marks]\n(b) Let $z_1$ and $z_2$ be the two possible values of $z$, such that $|z|=3$.\n(i) Sketch a diagram to show the points which represent $z_1$ and $z_2$ in the complex plane, where $z_1$ is in the first quadrant.\n(ii) Show that $\\arg z_1=\\frac{\\pi}{6}$.\n(iii) Find $\\arg z_2$. [4 marks]\n(c) Given that $\\arg\\left(\\frac{z_1^k z_2}{2\\mathrm{i}}\\right)=\\pi$, find a value of $k$. [4 marks]\n(ii) Find an expression for the sum of the first 35 terms of the series\n$\\ln x^2+\\ln\\frac{x^2}{y}+\\ln\\frac{x^2}{y^2}+\\ln\\frac{x^2}{y^3}+\\dots$\ngiving your answer in the form $\\ln\\frac{x^m}{y^n}$, where $m, n\\in\\mathbb{N}$. [5 marks]"
+  },
+  {
+   "id": "math-2004-M-P2-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 10]\nThe temperature T° C of an object in a room, after t minutes, satisfies the\ndifferential equation\nd T\nkT ( − 22) , where k is a constant. t=\nd\nkt\n(a) Solve this equation to show that T = A e + 22 , where A is a constant. [3 marks]\n(b) When t= 0, T= 100, and when t= 15, T= 70.\n(i) Use this information to find the value of A and of k.\n(ii) Hence find the value of t when T= 40. [7 marks]",
+   "ms_text": "d T d T\n4. (a) = kT ( − 22) ⇒ ∫ = ∫ kt d (M1)\nd t T − 22\n− = + ( − ) (A1) ln T 22 kt c acceptln( T 22)\nT − 22 = A ekt (A1)\nkt T = A e + 22 (AG)\n[3 marks]\n= = ⇒ = 0 + (b) (i) When t 0, T 100 100 A e 22 (M1)\nA = 78 (A1)\n15 k When t = 15, T = 70 ⇒ 70 = 78e + 22 (M1)\n1 48\n⇒ k = ln ( = − 0.0324 ) (A1)\n15 78\n40 = 78e − 0.0324 t + 22 (ii) (A1)\n18 − 0.0324 t\ne =\n78 (A1)\n1 18\nt = − ln ( = 45.3 ) (A1)\n0.0324 78\n[7 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.18",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 10]\nThe temperature $T$ °C of an object in a room, after $t$ minutes, satisfies the differential equation\n$\\frac{\\mathrm{d}T}{\\mathrm{d}t}=k(T-22)$, where $k$ is a constant.\n(a) Solve this equation to show that $T=A\\mathrm{e}^{kt}+22$, where $A$ is a constant. [3 marks]\n(b) When $t=0$, $T=100$, and when $t=15$, $T=70$.\n(i) Use this information to find the value of $A$ and of $k$.\n(ii) Hence find the value of $t$ when $T=40$. [7 marks]"
+  },
+  {
+   "id": "math-2004-M-P2-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 19]\n(a) Show that cos( A + B ) + cos( A − B ) = 2cos A cos B . [2 marks]\n= x∈− (b) Let nTx () cos(arccos) n x where x is a real number, [1,1] and n is\na positive integer.\n(i) Find Tx 1() .\n2 (ii) Show that Tx\n2() = 2 x − 1 . [5 marks]\n(c) (i) Use the result in part (a) to show that T () x + T () x = 2 xTx () .\nn + 1 n − 1 n\n(ii) Hence or otherwise, prove by induction that nTx () is a polynomial\nof degree n. [12 marks]",
+   "ms_text": "5. (a) cos( A + B ) = cos A cos B − sin A sin B , cos( A − B ) = cos A cos B + sin A sin B (M1)(A1)\nHence cos( A + B ) + cos( A − B ) = 2cos A cos B (AG)\n[2 marks]\n(b) (i) Tx 1() = cos(arccos) x (M1)\n= x (A1)\n(ii) T 2() x = cos(2arccos) x (A1)\n= 2cos(arccos) 2 x − 1 (A2)\n2 = 2 x − 1 (AG)\n[5 marks]\n(c) (i) + = [ + ] + [ − ] (A1) T\n+ () x T − () x cos( n 1)arccos x cos( n 1)arccos x n 1 n 1\nA = n arccos, xB = arccos x Using part (a) with (M1)\n(A1) T () x + T () x = 2cos(arccos)cos(arccos) n x x\nn + 1 n − 1\n= 2cos(arccos) x n x (A1)\n= 2 xTx () (AG)\nn\n+ (ii) Let be the statement: () is a polynomial of degree, n ∈�\nnP nTx\nTx 1() = x , a polynomial of degree one. (A1)\nSo 1P is true.\n= 2 − Tx 2() 2 x 1, is a polynomial of degree two. (A1)\nSo 2P is true.\nAssume that kP is true. (M1)\n= − From part (c)(i), T\n+ () x 2 xT () x T − () x (M1) k 1 k k 1\nAssume kP− is true as well. (M1) 1\nhas degree kT () x k\n⇒ + 2 xT () has degree ( x k 1) (A1)\nk\n( )1 and as kT 1() x has degree k −\n−\n⇒ kT 1() has degree ( x k + 1) (A1)\n+\nBy the principle of mathematical induction, nP is true for all positive\nintegers n. (R1)\nNotes: These arguments may be in a different order.\nThere is a maximum of 6 marks in part (ii) for candidates\nwho do not consider a two stage process.\n[12 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.9",
+    "3.6",
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 19]\n(a) Show that $\\cos(A+B)+\\cos(A-B)=2\\cos A\\cos B$. [2 marks]\n(b) Let $T_n(x)=\\cos(n\\arccos x)$ where $x$ is a real number, $x\\in[-1,1]$ and $n$ is a positive integer.\n(i) Find $T_1(x)$.\n(ii) Show that $T_2(x)=2x^2-1$. [5 marks]\n(c) (i) Use the result in part (a) to show that $T_{n+1}(x)+T_{n-1}(x)=2xT_n(x)$.\n(ii) Hence or otherwise, prove by induction that $T_n(x)$ is a polynomial of degree $n$. [12 marks]"
+  },
+  {
+   "id": "math-2004-M-P2-TZ1-q6",
+   "num": "6",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 30]\n(i) Carlos drives to work every morning. He records the times taken, in\nminutes, to complete the journey over a 10-day period. The times are\nas follows:\n32.6 30.9 35.8 34.3 36.3 31.9 33.2 32.7 31.3 32.8\nAssuming that these times form a random sample from a normal\npopulation, calculate\n(a) unbiased estimates of the mean and variance of this population; [3 marks]\n(b) a 90 % confidence interval for the mean. [3 marks]\n(ii) Students studying mathematics at a certain college took an examination\nat the end of the first term. Their performance was classified as\n“Distinction”, “Pass” or “Fail”. The numbers of male and female\nstudents in each category are given in the table below.\nDistinction Pass Fail\nMale 26 75 12\nFemale 28 42 10\nThe head of the mathematics department wishes to investigate whether\nor not there is any association between the classification obtained in the\nexamination and gender.\n(a) State the null hypothesis. [1 mark]\n(b) Calculate the six expected frequencies under the null hypothesis. [4 marks]\n2 χ [2 marks]\n(c) Calculate the value of .\n(d) Write down the number of degrees of freedom and state your\nconclusion at the 5 % level of significance. [3 marks]\n(iii) A motoring organisation wished to determine whether or not there is\nany difference between the petrol consumption of two car models of the\nsame engine size. A trial was set up in which a number of cars of these\nmodels were given 5 litres of petrol and driven around a level track until\nthey ran out of petrol. The distances covered, in kilometres, by each car\nwere recorded and the following statistics were obtained.\nCar Model Number of cars Mean distance Unbiased variance\ntested estimate\nA 30 64.27 4.85\nB 32 65.51 5.38\n(a) State the null hypothesis. [1 mark]\n(b) Assuming that these observations come from normal populations\nwith equal variance, calculate the pooled estimate of this variance. [2 marks]\n(c) Determine whether or not the results are significant at\n(i) the 5 % level;\n(ii) the 1% level. [4 marks]\n(iv) The random variable X has a Poisson distribution with mean λ. Let p\nbe the probability that X takes the value 1 or 2.\n(a) Write down an expression for p. [1 mark]\n≤ λ ≤ (b) Sketch the graph of p for 0 4 . [1 mark]\n(c) Find the exact value of λ for which p is a maximum. [5 marks]",
+   "ms_text": "6. Note: In this question do not penalize accuracy for more than 3 s.f.\n331.8\n(i) (a) Unbiased estimate of mean = = 33.18 (accept 33.2) (A1)\n10\n= Unbiased estimate of variance 3.22 (3 s.f.) (A2)\nNote: Award (A1) for 3.21.\n[3 marks]\n331.8 3.215\n± (b) 90 % confidence limits are 1.833 (M1)(A1)\n10 10\ngiving [32.1, 34.2] (A1) (N3)\n[3 marks]\n(ii) (a) The null hypothesis is:\nH: There is no association between classification in exams and gender. (A1)\n0\n[1 mark]\n54113 ×\n(b) Under H , the expected frequencies are: = 31.62 etc. 0\n193\nThe table of expected frequencies is\nDistinction Pass Fail\nMale 31.6 68.5 12.9\nFemale 22.4 48.5 9.12\n(A4)\nNote: Award (A4) for all 6 correct, (A2) for 5, (A0) otherwise.\n[4 marks]\n(26 − 31.6) 2 2\n(c) χ = + …= 4.03 (accept 4.04) (M1)(A1) (N2)\n31.6\n[2 marks]\n(d) Degrees of freedom = 2 (A1)\nCritical value = 5.991 (or p-value = 0.133) (A1)\nThere is insufficient evidence, at the 5 % level, to conclude that there is any\nassociation between classification and gender (or equivalent statement,\neg accept H0). (R1)\n[3 marks]\nµ = µ (iii) (a) H: ; (Accept equivalent in words.) (A1)\n0 A B\n[1 mark]\n294.85 × + 315.38 ×\n(b) Pooled estimate = = 5.12 (M1)(A1) (N2)\n60\n[2 marks]\n(c) METHOD 1\n65.5164.27 −\nt-statistic = = 2.16 (M1)(A1) (N2)\n1 1\n+\n5.1230\n32\n(i) 5 % critical value = 2.000 so significant at 5 % level (A1)\n(ii) 1 % critical value = 2.660 so not significant at 1 % level. (A1)\nMETHOD 2\np-value = 0.035(1) (A2)\n(i) significant at 5 % level (A1)\n(ii) not significant at 1 % level (A1)\n[4 marks]\nλ 2 − λ − λ\n(iv) (a) p = λ e + e (A1)\n2\n[1 mark]\n(b)\n(A1)\nNote: Award (A1) for a maximum point in [0, 4]; sketch need not be accurate.\n[1 mark]\n2 d p λ\n= − λ + λ − − λ + − λ × λ + − − λ (c) e (e ) e (e ) (M1)(A1)\nd λ 2\n− λ 2 λ\n= e 1 − (A1)\n2\n2 d p λ\np when = 0 ⇒ 1 − = 0 (M1)\nmax d λ 2\n2 ⇒ λ = 2\n⇒ λ = 2 (do not accept 1.41) (A1)\nNote: If no working shown, award (A2) for an answer of 1.41 obviously obtained from a\nGDC.\n[5 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L7",
+    "4.L1",
+    "4.L6",
+    "4.L5",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics",
+   "text_clean": "6. [Maximum mark: 30]\n(i) Carlos drives to work every morning. He records the times taken, in minutes, to complete the journey over a 10-day period. The times are as follows:\n32.6 30.9 35.8 34.3 36.3 31.9 33.2 32.7 31.3 32.8\nAssuming that these times form a random sample from a normal population, calculate\n(a) unbiased estimates of the mean and variance of this population; [3 marks]\n(b) a 90% confidence interval for the mean. [3 marks]\n(ii) Students studying mathematics at a certain college took an examination at the end of the first term. Their performance was classified as \"Distinction\", \"Pass\" or \"Fail\". The numbers of male and female students in each category are given in the table below.\n| | Distinction | Pass | Fail |\n| Male | 26 | 75 | 12 |\n| Female | 28 | 42 | 10 |\nThe head of the mathematics department wishes to investigate whether or not there is any association between the classification obtained in the examination and gender.\n(a) State the null hypothesis. [1 mark]\n(b) Calculate the six expected frequencies under the null hypothesis. [4 marks]\n(c) Calculate the value of $\\chi^2$. [2 marks]\n(d) Write down the number of degrees of freedom and state your conclusion at the 5% level of significance. [3 marks]\n(iii) A motoring organisation wished to determine whether or not there is any difference between the petrol consumption of two car models of the same engine size. A trial was set up in which a number of cars of these models were given 5 litres of petrol and driven around a level track until they ran out of petrol. The distances covered, in kilometres, by each car were recorded and the following statistics were obtained.\n| Car Model | Number of cars tested | Mean distance | Unbiased variance estimate |\n| A | 30 | 64.27 | 4.85 |\n| B | 32 | 65.51 | 5.38 |\n(a) State the null hypothesis. [1 mark]\n(b) Assuming that these observations come from normal populations with equal variance, calculate the pooled estimate of this variance. [2 marks]\n(c) Determine whether or not the results are significant at\n(i) the 5% level;\n(ii) the 1% level. [4 marks]\n(iv) The random variable $X$ has a Poisson distribution with mean $\\lambda$. Let $p$ be the probability that $X$ takes the value 1 or 2.\n(a) Write down an expression for $p$. [1 mark]\n(b) Sketch the graph of $p$ for $0\\le\\lambda\\le 4$. [1 mark]\n(c) Find the exact value of $\\lambda$ for which $p$ is a maximum. [5 marks]"
+  },
+  {
+   "id": "math-2004-M-P2-TZ1-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 30]\n(i) The difference, A – B, of two sets A and B is defined as the set of all\nelements of A which do not belong to B.\n(a) Show by means of a Venn diagram that A − B = A ∩ B ′ . [1 mark]\nA − ( B ∪ C ) = ( A − B ) ∩ ( A − C ) (b) Using set algebra, prove that . [4 marks]\n(ii) The relation R is defined on the non-negative integers a, b such that aRb\nif and only if\na ≡ b 7 7(modulo 10) .\n(a) Show that R is an equivalence relation. [4 marks]\n(b) By considering powers of 7, identify the equivalence classes. [4 marks]\n503 (c) Find the value of 7 (modulo 10). [1 mark]\n(iii) Let S be the set of all (2 × 2) non-singular matrices each of whose\nelements is either 0 or 1. Two matrices belonging to S are\n0 1 1 1\n. and\n1 0 0 1\n(a) Write down the other four members of S. [4 marks]\n(b) You are given that S forms a group under matrix multiplication,\nwhen the elements of the matrix product are calculated modulo 2.\n(i) Find the order of all the members of S whose determinant is\nnegative.\n(ii) Hence find a subgroup of S of order 3. [6 marks]\n(iv) The group ( G∗ ,) is defined on the set {, eabc ,,} , where e denotes the\nidentity element. Prove that ab ∗ = ba ∗ . [6 marks]",
+   "ms_text": "7. (i) (a)\nA\nB\nA ∩ B′ The shaded area denotes A – B and (A1)\nconfirming that A − B = A ∩ B′ . (AG)\n[1 mark]\nA − ( B ∪ C ) = A ∩ ( B ∪ C′ ) (b) (M1)\n= A ∩ ( B ′ ∩ C ′ )\n= A ∩ B ′ ∩ C ′ (A1)\n( A − B ) ∩ ( A − C ) = ( A ∩ B ′ ) ∩ ( A ∩ C ′ ) (M1)\n= A ∩ B ′ ∩ A ∩ C ′\n= A ∩ A ∩ B ′ ∩ C ′\n= A ∩ B ′ ∩ C ′ (A1)\n[4 marks]\na a (ii) (a) Reflexive: 7 ≡ 7 (modulo 10) so aRa (A1)\nSymmetric: 7 a ≡ 7 b (modulo 10) ⇒ 7 b ≡ 7 a (modulo 10) so aRb ⇒ bRa (A1)\nTransitive: Let 7 a ≡ 7 b (modulo 10) and 7 b ≡ 7 c (modulo 10) (M1)\na b b c Then, 7 = 7 + 10 λ and 7 = 7 + 10 µ\nso 7 a = 7 c + 10(+) so λµ aRb and bRc ⇒ aRc (A1)\n[4 marks]\n0 1 2 3 4 (b) We note that 7 = 1, 7 = 7, 7 = 49, 7 = 343, 7 = 2401\nThe equivalence classes are therefore\n0, 4, 8, … (A1)\n1, 5, 9, … (A1)\n2, 6, 10, … (A1)\n3, 7, 11, … (A1)\n[4 marks]\n503 3 (c) 7 (modulo 10) ≡ 7(modulo 10) = 3 . (A1)\n[1 mark]\n1 0 0 1 1 0 1 1\n(iii) (a) , , , . (A1)(A1)(A1)(A1)\n0 1 1 1 1 1 1 0\n[4 marks]\n1 0 1 1 1 Negative determinants 0\n(b) (i) , ,\n1 0 1 1 1 0\n2\n0 1 1 0\n=\n1 0 0 1\n0 1\nhas order 2 (A1)\n1 0\n2\n0 1 1 1\n= (A1)\n1 1 1 0\n3\n0 1 1 1 0 1 1 0\n= =\n1 1 1 0 1 1 0 1\n0 1\nso has order 3 (A1)\n1 1\n2\n1 1 0 1\n= (A1)\n1 0 1 1\n3\n1 1 0 1 1 1 1 0\n= =\n1 0 1 1 1 0 0 1\n1 1\nso has order 3 (A1)\n1 0\n1 0 0 1 1 1\n(ii) Subgroup is , , (A1)\n0 1 1 1 1 0\n[6 marks]\n(iv) Consider ab ∗ . This cannot be a or b since ab ∗ = a ⇒ b = e which is not the (M1)\ncase and similarly for b. So ab ∗ = either e or c . (R1)\nIf ab ∗ = e , then a,b form an inverse pair so ba ∗ = e . (R1)\nSuppose ab ∗ = c . Consider ba ∗ . As before, this cannot equal a or b and it\n∗ = cannot equal e either because that would imply that ab e which it is not.\n(R1)\nIt follows that ba ∗ = c .\n(R1)\nThus in both cases, ab ∗ = ba ∗ .\n(R1)\n[6 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.2",
+    "7.5",
+    "7.6",
+    "7.1",
+    "1.L1",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, Relations and Groups",
+   "text_clean": "7. [Maximum mark: 30]\n(i) The difference, $A-B$, of two sets $A$ and $B$ is defined as the set of all elements of $A$ which do not belong to $B$.\n(a) Show by means of a Venn diagram that $A-B=A\\cap B'$. [1 mark]\n(b) Using set algebra, prove that $A-(B\\cup C)=(A-B)\\cap(A-C)$. [4 marks]\n(ii) The relation $R$ is defined on the non-negative integers $a$, $b$ such that $aRb$ if and only if\n$7^a\\equiv 7^b \\pmod{10}$.\n(a) Show that $R$ is an equivalence relation. [4 marks]\n(b) By considering powers of 7, identify the equivalence classes. [4 marks]\n(c) Find the value of $7^{503}$ (modulo 10). [1 mark]\n(iii) Let $S$ be the set of all $(2\\times 2)$ non-singular matrices each of whose elements is either 0 or 1. Two matrices belonging to $S$ are\n$\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$ and $\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}$.\n(a) Write down the other four members of $S$. [4 marks]\n(b) You are given that $S$ forms a group under matrix multiplication, when the elements of the matrix product are calculated modulo 2.\n(i) Find the order of all the members of $S$ whose determinant is negative.\n(ii) Hence find a subgroup of $S$ of order 3. [6 marks]\n(iv) The group $(G,*)$ is defined on the set $\\{e,a,b,c\\}$, where $e$ denotes the identity element. Prove that $a*b=b*a$. [6 marks]"
+  },
+  {
+   "id": "math-2004-M-P2-TZ1-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 30]\n(i) Find the general solution of the difference equation,\nx = 3 x + 28 x , x = 7, x = − 6 , for n = 0,1, 2, … .\n+ + [5 marks] n 2 n 1 n 0 1\n(ii) (a) Define the following terms.\n(i) A bipartite graph.\n(ii) An isomorphism between two graphs, M and N. [4 marks]\n(b) Prove that an isomorphism between two graphs maps a cycle of\none graph into a cycle of the other graph. [3 marks]\n(c) The graphs G, H and J are drawn below.\nG H J\n(i) Giving a reason, determine whether or not G is a bipartite\ngraph.\n(ii) Giving a reason, determine whether or not there exists an\nisomorphism between graphs G and H.\n(iii) Using the result in part (b), or otherwise, determine whether\nor not graph H is isomorphic to graph J. [7 marks]\n(iii) The following diagram shows a weighted graph.\nE 85 C\n21\nF\n98 70\n11\n30 D\n31 62 25\n51\nA 93 B\n(a) Use Kruskal’s algorithm to find a minimal spanning tree for the\ngraph. [4 marks]\n(b) Draw the minimal spanning tree and find its weight. [2 marks]\n(iv) (a) State the well-ordering principle. [2 marks]\n(b) Use the well-ordering principle to prove that, given any two\npositive integers a and b , ( a < b ) , there exists a positive integer n\nsuch that > . na b [3 marks]",
+   "ms_text": "2 8. (i) The characteristic equation is r − 3 r − 28 = 0 (M1)\nso that r = − 4, or r = 7 (A1)\nn n The general solution is\nnx = A (4) − + B (7) (A1)\nSetting n = 0,1 we obtain\n+ = − + = − A B 7 , 4 A 7 B 6 (M1)\nA= 5, B= 2\nn n So nx= 5(4) − + 2(7) (Accept A= 5, B= 2.) (A1)\n[5 marks]\n(ii) (a) (i) A bipartite graph is a graph whose vertices can be divided into\ntwo sets and in which edges always connect a vertex from one set\nto a vertex from the other set. (A2)\nNote: Accept equivalent definitions, e.g. chromatic number = 2.\n(ii) An isomorphism between two graphs M and N is a one-to-one\ncorrespondence between vertices which maps the adjacency (A1)\nmatrix of M onto the adjacency matrix of N. (A1)\nNote: This definition can be simplified when M and N are simple graphs.\n[4 marks]\n(b) Let M contain a cycle ( xx , )( ; x , x ) ; ... ( x , x ) (M1) 1 2 2 3 n 1\nLetΦ denote an isomorphism between M and N.\nConsider Φ ( xx , ) ; Φ ( xx , ) ; ... Φ ( x , x ) (M1) 1 2 2 3 n 1\nThe adjacency property shows that this is a cycle, proving the result. (R1)\nNote: Accept less formal proofs in which the above statements are made verbally\nrather than mathematically.\n[3 marks]\n(c) (i) 6 1\n5 2\n4 3\nThe graph is bipartite (A1)\nbecause by putting A = { 1, 3, 5 } and B = { 2, 4, 6 } , the conditions\nin (ii) (a) (i) are satisfied. (R1)\n(ii) U X\nY V\nW Z\nThe graphs are isomorphic (A1)\nConsider the mapping\n1 → U, 2 → X, 3 → V, 4 → Y, 5 → W, 6 → Z (M1)\nSince adjacency is preserved, the graphs are isomorphic. (R1)\nNote: Other isomorphisms exist – please check any answer carefully.\n(iii) The graphs are not isomorphic (A1)\nbecause\nEITHER\nJ contains a cycle or order 3 but H does not. (R1)\nOR\nH is bipartite but J is not (R1)\n[7 marks]\n(iii) (a) Let S be a set of vertices and T be a set of edges. The algorithm is\norganised as follows:\nChoice Edge Weight T S\n1 CD 11 {CD} {C,D} (M1)(A1)\n2 EF 21 {CD, EF} {C,D,E,F}\n3 BD 25 {CD, EF, BD} {C,D,E,F,B}\n(A1) 4 AC 31 {CD, EF, BD, AC} {A,B,C,D,E,F}\n(A1) 5 AF 51 {CD, EF, BD, AC, AF,} {A,B,C,D,E,F}\nNote: Accept any solution which indicates the order in which the edges\nare selected.\n[4 marks]\n(b) The minimal spanning tree is (weights not needed)\nE C\n21\nF 11 31\n51\nD\n25\nA B (A1)\nTotal weight = 139 (A1)\n[2 marks]\n(iv) (a) Every non-empty set of positive integers (or subset of �+ ) contains\na least element. (A1)(A1)\nNote: Award (A1) for “non-empty” set and (A1) for “positive integers or ( �+ )”.\n[2 marks]\n(b) Assume that the statement is not true, i.e. for some integers ,, abna < b\nfor every positive integer n. Let\nS = { b − nan is a positive integer} (M1)\nThen S consists entirely of positive integers. By the well-ordering\nprinciple, S has a least element, say b – ma. (M1)\nBut b − ( m + 1) a < b − ma showing that b – ma is not the smallest element\nin S, resulting in a contradiction. Hence the given statement is true. (R1)\n[3 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8",
+    "6.10",
+    "1.15",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete Mathematics",
+   "text_clean": "8. [Maximum mark: 30]\n(i) Find the general solution of the difference equation,\n$x_{n+2}=3x_{n+1}+28x_n$, $x_0=7$, $x_1=-6$, for $n=0,1,2,\\dots$. [5 marks]\n(ii) (a) Define the following terms.\n(i) A bipartite graph.\n(ii) An isomorphism between two graphs, $M$ and $N$. [4 marks]\n(b) Prove that an isomorphism between two graphs maps a cycle of one graph into a cycle of the other graph. [3 marks]\n(c) The graphs $G$, $H$ and $J$ are drawn below.\n[Diagram: three graphs on 6 vertices each. G: hexagon-shaped vertex arrangement with outer edges and three crossing chords forming two interlaced triangles shape; H: outer trapezium with an inner horizontal edge joining two inner vertices and two crossing diagonals; J: rectangle with two inner vertices joined horizontally, each joined to two corners]\n(i) Giving a reason, determine whether or not $G$ is a bipartite graph.\n(ii) Giving a reason, determine whether or not there exists an isomorphism between graphs $G$ and $H$.\n(iii) Using the result in part (b), or otherwise, determine whether or not graph $H$ is isomorphic to graph $J$. [7 marks]\n(iii) The following diagram shows a weighted graph.\n[Diagram: weighted graph on vertices A, B, C, D, E, F with edges EC = 85, EF = 21, FC = 98, ED = 70, FA = 51, AD = 62, AC = 31, CD = 11, CB = 30, DB = 25, AB = 93]\n(a) Use Kruskal's algorithm to find a minimal spanning tree for the graph. [4 marks]\n(b) Draw the minimal spanning tree and find its weight. [2 marks]\n(iv) (a) State the well-ordering principle. [2 marks]\n(b) Use the well-ordering principle to prove that, given any two positive integers $a$ and $b$, $(a<b)$, there exists a positive integer $n$ such that $na>b$. [3 marks]"
+  },
+  {
+   "id": "math-2004-M-P2-TZ1-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 30]\n(i) Find the Maclaurin series of the function\nfx () = ln(1 + sin) x\nup to and including the term in 4x . [8 marks]\n(ii) (a) Use the trapezium rule with three ordinates to estimate the value\nof the integral\n1 2\n∫ x )d x . 0.5sin(\nGive your answer correct to six decimal places. [2 marks]\n(b) Calculate an upper bound for the error in this estimate. [5 marks]\n(c) Find the value of this integral to six decimal places. Verify that\nthe error is less than your upper bound. [2 marks]\n(iii) Consider the equation 2sin x − x = 0 .\n(a) By drawing a suitable sketch, determine the number of real roots\nof this equation. [2 marks]\n(b) Find the value, α, of the root between 1 and 2, giving your answer\nto the accuracy displayed on your calculator. [1 mark]\n(c) Using the Newton-Raphson method, with x= 2 , find successive\n0\napproximations x and x to this root of the equation. Give your\n1 2\nanswers to the accuracy displayed on your calculator. [4 marks]\n(d) You are given that successive approximations satisfy, approximately,\nthe equation\nN ( x +− α ) = kx ( − α ),( n ≥ 0)\nn 1 n\nwhere k is a constant and N is a positive integer. By putting n= 0\nand then n= 1 and substituting your results from part (c), determine\nthe value of N. Hence state the order of convergence of the\nNewton-Raphson method. [6 marks]",
+   "ms_text": "9. Note: In this question do not penalize accuracy for more than 3 s.f.\n(i) METHOD 1\nWe note first that f (0) = 0 . (A1)\ncos x\n′ f () x ; (M1)\n=+\n1sin x\nf ′ (0) = 1 (A1)\n− + − 2 − sin(1sin) x x cos x 1\nf ′′ () x = = , f ′′ (0) = − 1 (A1)\n(1sin) + x 2 (1sin) + x\ncos x\nf ′′′ () x = , f ′′′ (0) = 1 (A1)\n2 (1 + sin) x\n− sin(1 x + sin) x 2 − 2(1 + sin)cos x 2 x\n(4) f ′′′′ () x = , f (0) = − 2 (A1)\n(1 + sin) x 4\nNote: Award full marks for numerical derivatives obtained from a GDC.\n2 3 4 x x 2 x\nThe series is fx () = x − + − + ... (M1)(A1)\n2! 3! 4!\nMETHOD 2\n2 3 4 sin x sin x sin x\n( + ) = − + − + ln1 sin x sin x ... (M1)(A1)\n2 3 4\n3 3 2 x 1 x 1 1\n3 4 = x − + ... − x − + ... + ( x + ...) − ( x + ...)\n6 2 6 3 4\n(M1)(A1)\n3 x 1 1 1 1\n2 4 3 4 = x − + ... − x + x + ... + x − x + ...\n6 2 6 3 4\nx 2 x 3 1 4\n= x − + − x + ... (A1)(A1)(A1)(A1)\n2 6 12\n[8 marks]\n(ii) (a) Using the trapezium rule,\n0.25 2 2\nInt ≅ (sin0.5 + 2sin0.75 + sin1) = 0.269435 (M1)(A1) (N2)\n2\n[2 marks]\n(b) To find an error bound, consider\n2 f ′ () x = 2cos( x x ) (A1)\nf ′′ () x = 2cos( x 2 ) − 4 x 2 sin( x 2 ) (A1)\n′′ Graphing f () x , it is clear that its maximum absolute value is when\nx= 1, or from graph maximum absolute value is 2.285279327 . (A1)\n2 0.50.25 ×\nError bound = 2cos1 − 4sin1 × = 0.00595 (M1)(A1)\n12\n[5 marks]\n(c) Using a calculator, the value of the integral is 0.268787 . (A1)\nActual error = 0.269435 − 0.268787 = 0.000648 < error bound. (A1)\n[2 marks]\n(iii) (a)\n(A1)\nThe sketch indicates 3 real roots. (A1)\n1\nNote: Other sketches are possible, e.g. y = sin, xy = x and y = 2sin x − x .\n2\n[2 marks]\nα= (b) Using the GDC, 1.8954942670 . (A1)\n[1 mark]\n(c) The Newton-Raphson iteration is\n(2sin x − x )\n→ − x x (M1)(A1)\n(2cos x − 1)\nSuccessive iterates are\nx= 2\n0\nx= 1.900995594 (A1)\n1\nx= 1.895511645 (A1)\n2\n[4 marks]\n(d) Substituting, we obtain\n0.005501327 = k × 0.104505733N (A1)\n= × 0.000017378 k 0.005501327N (A1)\nDividing,\n316.5684774 = 18.99645904N (A1)\nSo that\nln316.5684774\nN= = 1.96 (A1)\nln18.99645904\nSo take N= 2. (R1)\nThe order of convergence is 2. (R1)\n[6 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.19",
+    "5.6",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Analysis and Approximation",
+   "text_clean": "9. [Maximum mark: 30]\n(i) Find the Maclaurin series of the function\n$f(x)=\\ln(1+\\sin x)$\nup to and including the term in $x^4$. [8 marks]\n(ii) (a) Use the trapezium rule with three ordinates to estimate the value of the integral\n$\\int_{0.5}^{1}\\sin(x^2)\\,\\mathrm{d}x$.\nGive your answer correct to six decimal places. [2 marks]\n(b) Calculate an upper bound for the error in this estimate. [5 marks]\n(c) Find the value of this integral to six decimal places. Verify that the error is less than your upper bound. [2 marks]\n(iii) Consider the equation $2\\sin x-x=0$.\n(a) By drawing a suitable sketch, determine the number of real roots of this equation. [2 marks]\n(b) Find the value, $\\alpha$, of the root between 1 and 2, giving your answer to the accuracy displayed on your calculator. [1 mark]\n(c) Using the Newton-Raphson method, with $x_0=2$, find successive approximations $x_1$ and $x_2$ to this root of the equation. Give your answers to the accuracy displayed on your calculator. [4 marks]\n(d) You are given that successive approximations satisfy, approximately, the equation\n$(x_{n+1}-\\alpha)=k(x_n-\\alpha)^N$, $(n\\ge 0)$\nwhere $k$ is a constant and $N$ is a positive integer. By putting $n=0$ and then $n=1$ and substituting your results from part (c), determine the value of $N$. Hence state the order of convergence of the Newton-Raphson method. [6 marks]"
+  },
+  {
+   "id": "math-2004-M-P2-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 30]\n(i) The focus of the parabola C is the point F(,) ab and the equation of the\ndirectrix is x = − a .\n(a) (i) Find the equation of C from first principles.\n(ii) Sketch C, marking the focus, directrix, axis of symmetry\nand vertex. [6 marks]\n3 a\n(b) The point P with x-coordinate lies on the upper half of C. The\n2\ntangent to C at P intersects the axis of symmetry of C at the point\nQ. The line through the vertex V of C perpendicular to the tangent\nPR :RQ = 7 :3 (PQ) intersects (PQ) at the point R. Prove that . [12 marks]\n(c) The line through F parallel to (VR) intersects the line (PQ) at the\npoint S. Find the coordinates of S. [4 marks]\n(ii) The diagram shows a square ABCD of side a. A circle, centre O, radius r,\npasses through the vertices A and B. The length of the tangent to the\ncircle from D is 2a.\nT 2 a\nA D\na\nO\nB C\nFind an expression for r in terms of a. [8 marks]",
+   "ms_text": "10. (i) (a) (i) Let (x, y) be on C. Then, using the focus-directrix definition,\n− 2 + − 2 = + 2 ( x a ) ( y b ) ( x a ) (M1)\n2 2 2 ( y − b ) = ( x + a ) − ( x − a ) = 4 ax (A1)\n(ii)\n(A1)(A1)(A1)(A1)\nNote: Award (A1) for graph, (A1) for vertex, (A1) for axis of symmetry and\n(A1) for focus and directrix.\n[6 marks]\n(b)\n3 a 2 2\nx = ⇒ ( y − b ) = 6 a ⇒ y = a 6 + b\n2\n3, aa\nSo P is the point 6 + b . (A1)\n2\nWe now need the gradient of the tangent:\nd y\n2( y − b ) = 4 a\nd x\nd y 2\nAt P, x= (M1)(A1)\nd 6\nEquation of PQ is\n2 3 a\ny − a 6 − b = x − (I) (M1)(A1)\n6 2\nTo find the coordinates of Q, put y=b.\nQuestion 10 (i) (b) continued\n3 a 3 a\nThis gives = − − . (A1) x so Q is , b\n2 2\n6\nThe gradient of RV is − . (A1)\n2\nThe equation of RV is\n6\ny − b = − x (II) (A1)\n2\nThe coordinates of R are found by solving (I) and (II) simultaneously.\n3 a\nIt follows that the x-coordinate of R is − . (M1)(A1)\n5\n3 a 3 a\n+\nPR 2 5 7\n= = (M1)(A1)\nRQ 3 a 3 a 3\n− +\n5 2\n[12 marks]\n(c) The equation of FS is\n6 ( y − b = − x − a )\n(III) (M1)(A1)\n2\nThe coordinates of S are found by solving (I) and (III) simultaneously.\na 6\nThis gives S0, + b . (A1)(A1)\n2\n[4 marks]\n(ii)\nT\nN M D\nA\n(A2)\nO\nB C\n2 2 a a\n2 2 AM = r − so AN = 2 r − (M1)(A1)\n4 4\n2 Use the result DT = DA × DN . (M1)\n2\n2 2 a (2) a = a × a + 2 r −\n(A1)\n4\n10 a\nr = leading to . (M1)(A1)\n2\n[8 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "8",
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "8.2",
+    "8.1",
+    "2.1",
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Euclidean Geometry and Conic Sections",
+   "text_clean": "10. [Maximum mark: 30]\n(i) The focus of the parabola $C$ is the point $F(a,b)$ and the equation of the directrix is $x=-a$.\n(a) (i) Find the equation of $C$ from first principles.\n(ii) Sketch $C$, marking the focus, directrix, axis of symmetry and vertex. [6 marks]\n(b) The point P with $x$-coordinate $\\frac{3a}{2}$ lies on the upper half of $C$. The tangent to $C$ at P intersects the axis of symmetry of $C$ at the point Q. The line through the vertex V of $C$ perpendicular to the tangent (PQ) intersects (PQ) at the point R. Prove that $\\mathrm{PR}:\\mathrm{RQ}=7:3$. [12 marks]\n(c) The line through F parallel to (VR) intersects the line (PQ) at the point S. Find the coordinates of S. [4 marks]\n(ii) The diagram shows a square ABCD of side $a$. A circle, centre O, radius $r$, passes through the vertices A and B. The length of the tangent to the circle from D is $2a$.\n[Diagram: square ABCD of side a with A, B on a circle centred O; tangent from D touches the circle at T, DT = 2a]\nFind an expression for $r$ in terms of $a$. [8 marks]"
+  }
+ ],
+ "status": "done"
+}

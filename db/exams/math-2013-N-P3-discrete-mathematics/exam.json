@@ -1,0 +1,133 @@
+{
+ "exam_id": "math-2013-N-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2013,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2013 November Examination Session/Mathematics_paper_3_Discrete_mathematics_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2013 November Examination Session/Mathematics_paper_3_Discrete_mathematics_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8813-7207; code N13/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 60",
+ "qp_pages": 5,
+ "questions": [
+  {
+   "id": "math-2013-N-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 7]\nThe following diagram shows a weighted graph.\nC 4\nB\n10\n5\n1\nA 2 D\nG 12\n7\n5\n6\n3 E\nH 9\n11\nF\n(a) Use Kruskal’s algorithm to find a minimum spanning tree, clearly showing the order in\nwhich the edges are added. [5]\n(b) Sketch the minimum spanning tree found, and write down its weight. [2]",
+   "ms_text": "1. (a) use Kruskal’s algorithm: begin by choosing the shortest edge and then select\na sequence of edges of non-decreasing weights, checking at each stage that no\ncycle is completed (M1)\nchoice edge weight\n1 BG 1 A1\n2 AG 2\n3 FG 3\n4 BC 4\n5 DE 5\n6 AH 6\n7 EG 7\nA3\nNote:A1 for steps 2–4, A1 for step 5 and A1 for steps 6, 7.\nAward marks only if it is clear that Kruskal’s algorithm is being used.\n[5 marks]\n=+ ++ ++ + = (b) weight 1 2 3 4 5 6 7 28 A1\nC\nB 4\n1\nA 2 D\nG\n7\n5\n6 3\nE\nH\nF\nA1\nNote: Award FT only if it is a spanning tree.\n[2 marks]\nTotal[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "1. [Maximum mark: 7]\nThe following diagram shows a weighted graph.\n[Diagram: weighted graph with vertices A, B, C, D, E, F, G, H; edges AB 5, AG 2, AH 6, BC 4, BG 1, CD 10, CE 12, DE 5, GE 7, GF 3, EF 9, HF 11]\n(a) Use Kruskal's algorithm to find a minimum spanning tree, clearly showing the order in which the edges are added. [5]\n(b) Sketch the minimum spanning tree found, and write down its weight. [2]"
+  },
+  {
+   "id": "math-2013-N-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 11]\nThe following figure shows the floor plan of a museum.\n11 10 9 1 8 7 6\n12 13 2 3 4 5\nentrance\nfoyer\n(a) (i) Draw a graph G that represents the plan of the museum where each exhibition\nroom is represented by a vertex labelled with the exhibition room number and each\ndoor between exhibition rooms is represented by an edge. Do not consider the\nentrance foyer as a museum exhibition room.\n(ii) Write down the degrees of the vertices that represent each exhibition room.\n(iii) Virginia enters the museum through the entrance foyer. Use your answers to\n(i) and (ii) to justify why it is possible for her to visit the thirteen exhibition rooms\ngoing through each internal doorway exactly once. [4]\n(b) Let G and H be two graphs whose adjacency matrices are represented below.\nG H\nA B C D E F P Q R S T U\nA 0 2 0 2 0 0 P 0 1 3 0 1 2\nB 2 0 1 1 0 1 Q 1 0 1 3 2 0\nC 0 1 0 1 2 1 R 3 1 0 2 1 3\nD 2 1 1 0 2 0 S 0 3 2 0 2 0\nE 0 0 2 2 0 2 T 1 2 1 2 0 1\nF 0 1 1 0 2 0 U 2 0 3 0 1 0\nUsing the adjacency matrices,\n(i) find the number of edges of each graph;\n(ii) show that exactly one of the graphs has a Eulerian trail;\n(iii) show that neither of the graphs has a Eulerian circuit. [7]",
+   "ms_text": "2. (a) (i)\n6\n11 10 9 8 7\n1\n3 5 2 4\n12 13\n(M1)A1\nNote: Do not penalize candidates who include the entrance foyer.\n(ii) the degrees of the vertices are 4, 2, 4, 4, 2, 2, 4, 2, 2, 2, 2, 2, 2 A1\n(iii) the degree of all vertices is even and hence a Eulerian circuit exists, A1\nhence it is possible to enter the museum through the foyer and visit each\nroom 1–13 going through each internal doorway exactly once AG\nNote: The connected graph condition is not required.\n[4 marks]\n(b) (i)\nG H\ntotal total\nA B C D E F P Q R S T U\nA 0 2 0 2 0 0 4 P 0 1 3 0 1 2 7\nB 2 0 1 1 0 1 5 Q 1 0 1 3 2 0 7\nC 0 1 0 1 2 1 5 R 3 1 0 2 1 3 10\nD 2 1 1 0 2 0 6 S 0 3 2 0 2 0 7\nE 0 0 2 2 0 2 6 T 1 2 1 2 0 1 7\nF 0 1 1 0 2 0 4 U 2 0 3 0 1 0 6\ntotal 30 total 44\n(M1)\ngraph G has 15 edges and graph H has 22 edges A1A1\n(ii) the degreeof every vertex is equal to the sum of the numbers in the\ncorresponding row (or column) of the adjacency table\nexactly two of the vertices of G have an odd degree (B and C) A1\nH has four vertices with odd degree A1\nG is the graph that has a Eulerian trail (and H does not) R1\n(iii) neither graph has all vertices of even degree R1\ntherefore neither of them has a Eulerian circuit AG\n[7 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.7",
+    "6.6",
+    "6.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 11]\nThe following figure shows the floor plan of a museum.\n[Diagram: floor plan of a museum with exhibition rooms numbered 1 to 13 connected by doorways, and an entrance foyer leading into room 1]\n(a) (i) Draw a graph $G$ that represents the plan of the museum where each exhibition room is represented by a vertex labelled with the exhibition room number and each door between exhibition rooms is represented by an edge. Do not consider the entrance foyer as a museum exhibition room.\n(ii) Write down the degrees of the vertices that represent each exhibition room.\n(iii) Virginia enters the museum through the entrance foyer. Use your answers to (i) and (ii) to justify why it is possible for her to visit the thirteen exhibition rooms going through each internal doorway exactly once. [4]\n(b) Let $G$ and $H$ be two graphs whose adjacency matrices are represented below.\nG: | A | B | C | D | E | F\nA | 0 | 2 | 0 | 2 | 0 | 0\nB | 2 | 0 | 1 | 1 | 0 | 1\nC | 0 | 1 | 0 | 1 | 2 | 1\nD | 2 | 1 | 1 | 0 | 2 | 0\nE | 0 | 0 | 2 | 2 | 0 | 2\nF | 0 | 1 | 1 | 0 | 2 | 0\nH: | P | Q | R | S | T | U\nP | 0 | 1 | 3 | 0 | 1 | 2\nQ | 1 | 0 | 1 | 3 | 2 | 0\nR | 3 | 1 | 0 | 2 | 1 | 3\nS | 0 | 3 | 2 | 0 | 2 | 0\nT | 1 | 2 | 1 | 2 | 0 | 1\nU | 2 | 0 | 3 | 0 | 1 | 0\nUsing the adjacency matrices,\n(i) find the number of edges of each graph;\n(ii) show that exactly one of the graphs has a Eulerian trail;\n(iii) show that neither of the graphs has a Eulerian circuit. [7]"
+  },
+  {
+   "id": "math-2013-N-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 15]\nn n − 1 Consider an integer a with ( n + 1) digits written as a = 10 a + 10 a +…+ 10 a + a , where\nn n − 1 1 0\n0 ≤ ia ≤ 9 for 0 ≤≤ i n , and na≠ 0 .\n(a) Show that a ≡ ( a + a +…+ a )(mod9) . [3]\nn n − 1 0\n(b) Hence find all pairs of values of the single digits x and y such that the number\na = 476212 x y is a multiple of 45. [6]\n(c) (i) If b = 34390 in base 10, show that b is 52151 written in base 9.\n2 (ii) Hence find b in base 9, by performing all the calculations without changing base. [6]",
+   "ms_text": "3. (a) 10 ≡ 1(mod9) ⇒ 10 i ≡ 1(mod9), i = 1, … , n M1A1\ni ⇒ 10 a ≡ a (mod9), i = 1, … , n M1\ni i\nNote: Allow i = 0 but do not penalize its omission.\nn n − 1 ⇒ (10 a + 10 a +…+ a ) ≡ ( a + a + + a )(mod9) AG\nn n − 1 0 n n − 1 0\n[3 marks]\n(b) 4 + 7 + 6 + x + 21 ++ 2 + y = 9, kk ∈′ (M1)\n⇒ (22 + x + y ) ≡ 0(mod9), ⇒ ( x + y ) ≡ 5(mod9)\n⇒ x + y = 5 or 14 A1\nif 5 divides a , then y = 0 or 5 M1\n, ( ) so y = 0 ⇒ x = 5 iexy= (, ) (5, 0) A1\n, ( ) y = 5 ⇒ x = 0 or x = 9 iexy (, ) = (0, 5) or (, xy ) = (9, 5) A1A1\n[6 marks]\n(c) (i)\n34390 1\n3821 5\n424 1\n47 2\n5\n(M1)A1\nb = (52151) AG\n9\n(ii)\n5 2 1 5 1\n5 2 1 5 1 ×\n5 2 1 5 1\n2 8 1 7 7 5\n5 2 1 5 1\n1 1 4 3 1 2\n2 8 1 7 7 5\n3 0 4 2 3 5 8 1 1 1\nM1A3\n[6 marks]\nNote:M1 for attempt, A1 for two correct lines of multiplication, A2 for\ntwo correct lines of multiplication and a correct addition, A3 for all\ncorrect.\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.4",
+    "6.2",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 15]\nConsider an integer $a$ with $(n+1)$ digits written as $a = 10^n a_n + 10^{n-1} a_{n-1} + \\ldots + 10 a_1 + a_0$, where $0 \\le a_i \\le 9$ for $0 \\le i \\le n$, and $a_n \\ne 0$.\n(a) Show that $a \\equiv (a_n + a_{n-1} + \\ldots + a_0) \\pmod 9$. [3]\n(b) Hence find all pairs of values of the single digits $x$ and $y$ such that the number $a = 476x212y$ is a multiple of 45. [6]\n(c) (i) If $b = 34390$ in base 10, show that $b$ is 52151 written in base 9.\n(ii) Hence find $b^2$ in base 9, by performing all the calculations without changing base. [6]"
+  },
+  {
+   "id": "math-2013-N-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 14]\nThe following diagram shows a weighted graph G with vertices A, B, C, D and E.\nA\n5 9\n4 6\n5\nE B\n8 10 8 6\nD 7 C\n(a) Show that graph G is Hamiltonian. Find the total number of Hamiltonian cycles in G ,\ngiving reasons for your answer. [3]\n(b) State an upper bound for the travelling salesman problem for graph G . [1]\n(c) Use Prim’s algorithm to draw a minimum spanning tree for the subgraph obtained by\ndeleting C from G . [5]\n(d) Hence find a lower bound for the travelling salesman problem for G . [2]\n(e) Show that the lower bound found in (d) cannot be the length of an optimal solution for the\ntravelling salesman problem for the graph G . [3]",
+   "ms_text": "4. (a) eg the cycle A → B → C → D → E → A is Hamiltonian A1\nstarting from any vertex there are four choices\nfrom the next vertex there are three choices, etc … R1\nso the number of Hamiltonian cycles is 4!( = 24) A1\nNote: Allow 12 distinct cycles (direction not considered) or 60 (if different\nstarting points count as distinct). In any case, just award the second A1 if\nR1 is awarded.\n[3 marks]\n(b) total weight of any Hamiltonian cycles stated\neg A → B → C → D → E → A has weight5 + 6 + 7 ++ 8 9 = 35 A1\n[1 mark]\n(c) consider the graph obtained from G after removing the vertex C\nA\n9 5\n4\n5\nE B\n8\n8\nD\nstart (for instance) at A, using Prim’s algorithm M1\nthen D is the nearest vertex (add AD to the tree) A1\nnext B is the nearest vertex (add AB to the tree) A1\nfinally E is the nearest vertex (add BE to the tree) A1\nso a minimum spanning tree (of weight 4 ++ 5 5 = 14 ) is\nA\n5\n4\n5\nB E\nD\nA1\n[5 marks]\n(d) a lower bound for the travelling salesman problem is then obtained by adding\nthe weights of CA and CB to the weight of the minimum spanning tree (M1)\nA\n5\n4 6\n5\nB E\n6\nC D\na lower bound is then 14 + 6 + 6 = 26 A1\n[2 marks]\n(e) METHOD 1\neg eliminating A from G, a minimum spanning tree of weight 18 is (M1)\n5\nB E\n6\n7 C D\nA1\nadding AD and AB to the spanning tree gives a lower bound of\n18 + 4 + 5 = 27 > 26 A1\nA\n5\n4\n5\nE B\n6\nC D 7\nso 26 is not the best lower bound AG\nNote: Candidates may delete other vertices and the lower bounds obtained are\nB-28, D-27 and E-28.\nMETHOD 2\nthere are 12 distinct cycles (ignoring direction) with the following lengths\nCycle Length\nABCDEA 35 M1\nABCEDA 33\nABDCEA 39\nABDECA 37\nABECDA 31\nABEDCA 31\nACBDEA 37\nACBEDA 29\nACDBEA 35\nACEBDA 33\nAEBCDA 31\nAECBDA 37 A1\nas the optimal solution has length 29 A1\n26 is not the best possible lower bound AG\nNote: Allow answers where candidates list the 24 cycles obtained by allowing\nboth directions.\n[3 marks]\nTotal[14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.8",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 14]\nThe following diagram shows a weighted graph $G$ with vertices A, B, C, D and E.\n[Diagram: complete graph on A, B, C, D, E with edge weights AB 5, AC 6, AD 4, AE 9, BC 6, BD 8, BE 5, CD 7, CE 10, DE 8]\n(a) Show that graph $G$ is Hamiltonian. Find the total number of Hamiltonian cycles in $G$, giving reasons for your answer. [3]\n(b) State an upper bound for the travelling salesman problem for graph $G$. [1]\n(c) Use Prim's algorithm to draw a minimum spanning tree for the subgraph obtained by deleting C from $G$. [5]\n(d) Hence find a lower bound for the travelling salesman problem for $G$. [2]\n(e) Show that the lower bound found in (d) cannot be the length of an optimal solution for the travelling salesman problem for the graph $G$. [3]"
+  },
+  {
+   "id": "math-2013-N-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 13]\n5 (a) Show that 30 is a factor of n − n for all n∈�. [5]\nm ≡\n(b) (i) Show that 33 3(mod4) for all m∈�.\nHence show that there is exactly one pair ( mn where , ) mn∈�, satisfying the (ii) ,\n3 m 2 n 2 equation 3 = 2 + 5 . [8]",
+   "ms_text": "5. (a) METHOD 1\n5 2 n − n = nn ( − 1)( n + 1)( n + 1) ≡ 0(mod6) M1\n1442443\n3 consecutive integers\nat least a factor is multiple of 3 and at least a factor is multiple of 2 R1\n5 4 4 n − n = nn ( − 1) ≡ 0(mod5) as n≡ 1(mod5) by FLT R1\ntherefore, as (5, 6) =, 1 R1\n5 n − n ≡ 0mod56 × A1\n{\n30\n5 ie 30 is a factor of n − n AG\nMETHOD 2\n5 let P() n be the proposition: n − n = 30 α\nfor some α ∈′\n50 − 0 = 300 × , so P(0) is true A1\nassume P() k is true for some k and consider P( k + 1)\n5 5 4 3 2 ( k + 1) − ( k + 1) = k + 5 k + 10 k + 10 k + 5 k +− 1 k − 1 M1\n5 3 2 2 = ( k − k ) + 5 kk + 3 k + 3 k +− 1( k + k )\n1442443\n3 ( k + 1)\n5 3 = ( k − k ) + 5 k ( ( k + 1) − kk ( + 1) )\n2 = 30 α + 5( kk + 1) k + k + 1 M1\n14243\nkk ( + 1)1 +\n144424443\nmultiple of 6\n= 30 α + 30 β A1\nas P(0) is true and P() k true implies P( k + 1) true, by PMI P() n is true for\nall valuesn∈∞ R1\nNote: Award the first M1 only if the correct induction procedure is followed\nand the correct first line is seen.\nNote: Award R1 only if both M marks have been awarded.\nMETHOD 3\n5 4 n − n = nn ( − 1) M1\n= 2 − 2 + nn ( 1)( n 1) A1\n2 = ( n − 1)( nn + 1)( n − 4 + 5) R1\n= ( n − 2)( n − 1)( nn + 1)( n + 2) + 5( n − 1)( nn + 1) A1\neach term is multiple of 2, 3 and 5 R1\ntherefore is divisible by 30 AG\n[5 marks]\n(b) (i) METHOD 1\n0\ncase 1: m = 0 and 33 ≡ 3mod4 is true A1\ncase 2: m > 0\nm ≥ let N= 3 3 and consider the binomial expansion M1\nN N N N\nN = + N = k =+ + k ≡+ 3 (1 2) ∑ 2 1 2 N ∑ 2 1 2 N (mod4) A1\nk k k =\n0 k = 2\n14243\n≡ 0(mod4)\nm m m 3 ≡− (1)(mod4) ⇒+ 1 2 N ≡+ 1 2(1)(mod4) − R1\nas {\nN\nm\n3 3 ≡+ 1 2(mod 4) for even m {{\nN 3 m m 3 3\n3 ≡+ 1 2(1)(mod4) − ⇒ R1 therefore {\n3 m N 3 ≡ 1 − 2(mod 4) for odd m\n3 { {\nN −≡ 13(mod4) 3\nm ≡\nwhich proves that 33 3(mod4) for anym∈∞ AG\nMETHOD 2\nn −\nlet P() n be the proposition: 33 3 ≡ 0(mod 4, or24)\n0\n33 − 3 = 3 − 3 ≡ 0(mod4 or24) , so P(0) is true A1\nk is true for some k M1 assume P()\n1 k×\n33 k+− = 3 3 − M1 consider 3 3 3\n3 = (3 + 24) r − 3\n≡ 27 + 24 t − 3 R1\n≡ 0 (mod 4 or 24)\nas P(0) is true and P() k true implies P( k + 1) true, by PMI P() n is true\nfor all valuesn∈∞ R1\nMETHOD 3\nm 3 3 m− 1\n3 − 3 = 3(3 − 1) M1A1\n2 k = 3(3 − 1) R1\nk = 3(9 − 1)\n= ( + k − ) R1 3(81) 1\n14243\nmultiple of 8\n≡ 0(mod24) A1\nm ≡\nwhich proves that 33 3(mod4) for anym∈∞ AG\nm ≡ 2 n ≡\n(ii) for m∈∞, 33 3(mod4) and, as 2 0(mod4) and 25 ≡ 1(mod4) then\n2 n + 2 + 2 5 ≡ 1(mod4) for n\n∈′\nm n 3 2 2 +\nthere is no solution to 3 = 2 + 5 for pairs ( mn ,) ∈ ∞′ × R1\nm 0 m 3 2 2 3\nwhen n = 0 , we have 3 = 2 + 5 ⇒ 3 = 27 ⇒ m = 1 M1\ntherefore ( mn= ,) (1, 0) A1\nis the only pair of non-negative integers that satisfies the equation AG\n[8 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.4",
+    "6.1",
+    "6.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 13]\n(a) Show that 30 is a factor of $n^5 - n$ for all $n \\in \\mathbb{N}$. [5]\n(b) (i) Show that $3^{3^m} \\equiv 3 \\pmod 4$ for all $m \\in \\mathbb{N}$.\n(ii) Hence show that there is exactly one pair $(m, n)$ where $m, n \\in \\mathbb{N}$, satisfying the equation $3^{3^m} = 2^{2^n} + 5^2$. [8]"
+  }
+ ],
+ "status": "done"
+}

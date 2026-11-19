@@ -1,0 +1,506 @@
+{
+ "exam_id": "math-2007-M-P3-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2007,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "3",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2007 May Examination Session/Mathematics_paper_3_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2007 May Examination Session/Mathematics_paper_3_TZ2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2207-7209; code M07/5/MATHL/HP3/ENG/TZ2/XX; each option section sums to 60",
+ "qp_pages": 9,
+ "questions": [
+  {
+   "id": "math-2007-M-P3-TZ2-qA1",
+   "num": "A1",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "qA1.webp",
+   "ms_image": "qA1_ms.webp",
+   "text": "1. [Maximum mark: 8]\n(a) The random variable X has a geometric distribution with parameter p =1 .\n4\nWhat is the value of P(X≤4) ? [3 marks]\n(b) A magazine publisher promotes his magazine by putting a concert ticket at\nrandom in one out of every four magazines. If you need 8 tickets to take friends\nto the concert, what is the probability that you will find your last ticket when you\nbuy the 20th magazine? [3 marks]\n(c) How are the two distributions in parts (a) and (b) related? [2 marks]",
+   "ms_text": "2 3\n1 1 1 1 1 1 1\n1. (a) P( X 4) 1 1 1 M1A1\n4 4 4 4 4 4 4\n175\n0.684 A1 N3\naccept 256\n[3 marks]\n1\n(b) This is a negative binomial distribution\nNB8,4\n8 12 19\n1 3\nP( X 20) M1A1\n7 4 4\n0.0244 A1 N3\n[3 marks]\n(c) EITHER\nThe geometric distribution in (a) is the same as the negative binomial\ndistribution in (b) when X is the number of trials to get one success. A2\nOR\n1\nNB8,4is the sum of 8 geometric distributions with the same p value of 1 . A2\n4\n[2 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "1. [Maximum mark: 8]\n(a) The random variable $X$ has a geometric distribution with parameter $p=\\frac{1}{4}$. What is the value of $\\mathrm{P}(X\\le 4)$? [3 marks]\n(b) A magazine publisher promotes his magazine by putting a concert ticket at random in one out of every four magazines. If you need 8 tickets to take friends to the concert, what is the probability that you will find your last ticket when you buy the 20th magazine? [3 marks]\n(c) How are the two distributions in parts (a) and (b) related? [2 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qA2",
+   "num": "A2",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "qA2.webp",
+   "ms_image": "qA2_ms.webp",
+   "text": "2. [Maximum mark: 14]\n(a) In a random sample of 1100 people in Switzerland it was found that 580 of them\nhad a connection to the Internet. Calculate the 95 % confidence interval for the\nproportion of people in Switzerland having a connection to the Internet. [7 marks]\n(b) How large should the sample have been to make the width of the 95 % confidence\ninterval less than 0.02 ? [7 marks]",
+   "ms_text": "2. (a) Since the sample is large we can use a normal approximation (R1)\n580 ∝\np 0.527... (M1)(A1)\n1100\nA 95 % confidence interval is\n0.5273(1 0.5273)\n0.52731.96 M1(A1)\n1100\n0.52730.0295\n0.498, 0.557 Accept0.497, 0.557 A1A1 N4\n[7 marks]\n0.52730.4727\n(b) The interval width is 21.96 M1A1A1\nn\n0.52730.4727\n21.96 0.02 M1\nn\n0.2493\n21.96 0.02\nn\nso\n2\n21.960.2493\nn A1\n0.02\n9575.4 n A1\nSo n must be at least 9576 or 9580 (to 3 s.f.) R1 N3\n[7 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "2. [Maximum mark: 14]\n(a) In a random sample of 1100 people in Switzerland it was found that 580 of them had a connection to the Internet. Calculate the 95 % confidence interval for the proportion of people in Switzerland having a connection to the Internet. [7 marks]\n(b) How large should the sample have been to make the width of the 95 % confidence interval less than 0.02? [7 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qA3",
+   "num": "A3",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "qA3.webp",
+   "ms_image": "qA3_ms.webp",
+   "text": "3. [Maximum mark: 14]\nCompetitors at the Worlds Strongest Man contest have to hold an extremely heavy\nweight, with their arms held out straight, for as long as possible. It is claimed that a\nparticular training schedule will improve the time, (i.e. increase it), that a competitor\ncan hold the weight for. Competitors are tested before and after the training schedule.\nThe times, in seconds, before and after training are shown in the table below.\nCompetitor A B C D E F G H I J K L M N O\nTime before\n80 62 45 73 65 53 61 48 81 50 50 29 52 33 71\ntraining\nTime after\n85 74 60 67 69 55 68 46 89 60 64 26 61 33 72\ntraining\nStating the null and alternative hypotheses carry out an appropriate test at the 1 %\nsignificance level to decide if the claim is justified. [14 marks]",
+   "ms_text": "3. Finding the differences M1\nCompetitor A B C D E F G H I J K L M N O\nTime before\n80 62 45 73 65 53 61 48 81 50 50 29 52 33 71\ntraining\nTime after\n85 74 60 67 69 55 68 46 89 60 64 26 61 33 72\ntraining\n5 12 15 –6 4 2 7 –2 8 10 14 –3 9 0 1 Difference d\nA2\nH: the training schedule does not help improve times. Or 0. Accept . A1\n0 1 2\nH: the training schedule does help improve times. Or 0. Accept . A1\n1 2 1\nEITHER\n76 2\nn 15, d 76, d 954 OR d 5.07 (A1)\n15\n1 76 2 2\nns 954 40.638 OR ns 6.37 (M1)(A1) 1 1\n14 15\n(Small sample) so use a one-sided t-test. (A1)\n76\n15\nt 3.078 M1A1 N6\n40.638\n15\n14, A1\nAt the 1 % level the critical value is 2.624 . A1\nSince 2.624 3.078 H is rejected and there is evidence to support the claim. R1 N0\n0\nOR\np 0.00409 A8\nSince 0.00409 < 0.01 H is rejected and there is evidence to support the claim. R1 N0\n0\n[14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "3. [Maximum mark: 14]\nCompetitors at the Worlds Strongest Man contest have to hold an extremely heavy weight, with their arms held out straight, for as long as possible. It is claimed that a particular training schedule will improve the time, (i.e. increase it), that a competitor can hold the weight for. Competitors are tested before and after the training schedule.\nThe times, in seconds, before and after training are shown in the table below.\nCompetitor | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O\nTime before training | 80 | 62 | 45 | 73 | 65 | 53 | 61 | 48 | 81 | 50 | 50 | 29 | 52 | 33 | 71\nTime after training | 85 | 74 | 60 | 67 | 69 | 55 | 68 | 46 | 89 | 60 | 64 | 26 | 61 | 33 | 72\nStating the null and alternative hypotheses carry out an appropriate test at the 1 % significance level to decide if the claim is justified. [14 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qA4",
+   "num": "A4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "qA4.webp",
+   "ms_image": "qA4_ms.webp",
+   "text": "4. [Maximum mark: 14]\nµ\n(a) If Y has a Poisson distribution Po (µ), show that P ( Y = y + 1 ) = P ( Y = y ) . [3 marks]\ny + 1\n(b) The number of cars passing a certain point in a road was recorded during 80\nequal time intervals and summarized in the table below.\nNumber of cars 0 1 2 3 4 5\nFrequency 4 18 19 20 11 8\nCarry out a χ 2 goodness of fit test at the 5 % significance level to decide if the\nabove data can be modelled by a Poisson distribution. [11 marks]",
+   "ms_text": "y\n4. (a) P( Y y ) e\ny !\ny 1\nP( Y y 1) e (A1)\n( y 1)!\ny 1\ne\ny 1 P( Y y 1) ( y 1)! e y !\nM1\ny y P( Y y ) e ( y 1)!\ne\ny !\nA1\n( y 1)\nP( Y y 1) P( Y y ) AG\n( y 1)\n[3 marks]\n(b) H : The data can be modeled by a Poisson distribution.\n0\nH: The data cannot be modeled by a Poisson distribution.\n1\nfx 0 4 118 219 ... 58 200\nf 80, 2.5 A1\nf 80 80\nTheoretical frequencies are\n2.5 f (0) 80.e 6.5668 (M1)A1\n2.5\nf (1) 6.5668 16.4170 A1\n1\n2.5\nf (2) 16.4170 20.5212\n2\n2.5\nf (3) 20.5212 17.1010\n3\n2.5\nf (4) 17.1010 10.6882 A1\n4\nNote: Award A1 for f (2), f (3), f (4) .\nf (5 or more) 80 (6.566816.4170 20.521217.101010.6882) A1\n8.7058\nNumber of cars 0 1 2 3 4 5 or more\nO 4 18 19 20 11 8\nE 6.5668 16.4170 20.5212 17.1010 10.6882 8.7058\n2 2 2 2 2 2 (4 6.5668) (1816.4170) (19 20.5212) (2017.1010) (1110.6882) (8 8.7058)\n2\n6.5668 16.4170 20.5212 17.1010 10.6882 8.7058\n1.83(accept 1.82) (M1)A1\n4 (six frequencies and two restrictions) (A1)\n2(4) 9.488 at the 5 % level. A1\nSince 1.839.488 we accept H and conclude that the distribution can be\n0\nmodeled by a Poisson distribution. R1 N0\n[11 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "4. [Maximum mark: 14]\n(a) If $Y$ has a Poisson distribution $\\mathrm{Po}(\\mu)$, show that $\\mathrm{P}(Y=y+1)=\\frac{\\mu}{y+1}\\mathrm{P}(Y=y)$. [3 marks]\n(b) The number of cars passing a certain point in a road was recorded during 80 equal time intervals and summarized in the table below.\nNumber of cars | 0 | 1 | 2 | 3 | 4 | 5\nFrequency | 4 | 18 | 19 | 20 | 11 | 8\nCarry out a $\\chi^2$ goodness of fit test at the 5 % significance level to decide if the above data can be modelled by a Poisson distribution. [11 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qA5",
+   "num": "A5",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "qA5.webp",
+   "ms_image": "qA5_ms.webp",
+   "text": "5. [Maximum mark: 10]\n(a) The independent variables U and V are such that U:N(665 ,) and\n,) V:N( 193. Calculate the probability that a randomly selected observation\nfrom U is more than three times a randomly selected observation from V . [6 marks]\n(b) Let X be a random variable. By expanding the expression E ( X − E ( X ) ) 2 show\n2 2 that E ( X ) ≥( E ( X ) ).\n[4 marks]",
+   "ms_text": "5. (a) E( U 3) V E() U 3E() V\n6657 9 A1\nVar( U 3) V Var() U 9Var() V M1\n5 27 32 A1\nP( U 3) V P( U 3 V 0) M1\n0 9\nP Z (M1)\n32\nP( Z 1.5909...)\n1 (1.5909...)\nA1 N0 0.944\n[6 marks]\n2 2 2\n(b) E X E( X ) E X 2 X E( X ) E( X ) M1\n2 2 E( X ) 2E( X )E( X ) E( X ) A1\n2 2 E( X ) E( X ) A1\n2\nSince E X E( X ) 0 M1\n2 2 E( X ) E( X ) AG\n[4 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.14",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "5. [Maximum mark: 10]\n(a) The independent variables $U$ and $V$ are such that $U\\sim \\mathrm{N}(66,5)$ and $V\\sim \\mathrm{N}(19,3)$. Calculate the probability that a randomly selected observation from $U$ is more than three times a randomly selected observation from $V$. [6 marks]\n(b) Let $X$ be a random variable. By expanding the expression $\\mathrm{E}(X-\\mathrm{E}(X))^2$ show that $\\mathrm{E}(X^2)\\ge(\\mathrm{E}(X))^2$. [4 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qB1",
+   "num": "B1",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "qB1.webp",
+   "ms_image": "qB1_ms.webp",
+   "text": "1. [Maximum mark: 7]\nShow that the function f:′ → ′ defined below is a surjection but not an injection.\nx + 2\n, if is even x\n2\nfx () =\nx + 5\n, if is odd x [7 marks]\n2",
+   "ms_text": "1. Consider,for example M1\nf (1) 3\nf (4) 3 A1\nSince f (1) f (4) , f is not an injection. R1\nLet a ′, and suppose that there is an even x such that fx () a . M1\nx 2\nThen A1 a\n2\nx 2 a 2 A1\nThis x is even (and x ′) and fx () a R1\nthus f is a surjection. AG\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "1. [Maximum mark: 7]\nShow that the function $f:\\mathbb{Z}\\to\\mathbb{Z}$ defined below is a surjection but not an injection.\n$f(x)=\\begin{cases}\\frac{x+2}{2}, & \\text{if } x \\text{ is even}\\\\ \\frac{x+5}{2}, & \\text{if } x \\text{ is odd}\\end{cases}$ [7 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qB2",
+   "num": "B2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "qB2.webp",
+   "ms_image": "qB2_ms.webp",
+   "text": "2. [Maximum mark: 10]\n2 2 2 2 We define the relation (, xyRpq if and only if x ) (, ) − y = p − q where\n(, xy ) , ( pq , ) ∈ϒ2. Prove that R is an equivalence relation on ϒ2. Describe\ngeometrically the equivalence class of (1 , 1). [10 marks]",
+   "ms_text": "2 2 2 2 2 2 2. Reflexive: If (, xy ) ϒ then x y x y so (, xyRxy ) (, ), (, xy ) ϒ A1\nSymmetric:\n2 2 2 2 If (, xyRpq then ) (,) x y p q, M1\n2 2 2 2 so p q x y and (,) pqRxy (, ) A1\nTransitive:\nIf (, xyRpq ) (,) and (,) pqRvw, (, )\n2 2 2 2 2 2 2 2 2 2 2 2 then x y p qand p q v w so x y v w. M1\nHence (, xyRvw ) (, ) A1\n(1,1) (,)(,) xy xyR (1,1)\n2 2 2 2 (, xy ) x y 1 1 0 M1A1\n(, xy ) y x A1\nThus the equivalence class of (1, 1) is a pair of straight lines through the origin, A1\nwith slopes1 (or perpendicular). A1\n[10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "2. [Maximum mark: 10]\nWe define the relation $(x,y)R(p,q)$ if and only if $x^2-y^2=p^2-q^2$ where $(x,y),(p,q)\\in\\mathbb{R}^2$. Prove that $R$ is an equivalence relation on $\\mathbb{R}^2$. Describe geometrically the equivalence class of $(1,1)$. [10 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qB3",
+   "num": "B3",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "qB3.webp",
+   "ms_image": "qB3_ms.webp",
+   "text": "3. [Maximum mark: 15]\na and b are elements of the group G whose binary operation is multiplication.\n− 1 n n − +\n(a) Use mathematical induction to prove that ( bab ) = bab 1, for all n∈ ′. [8 marks]\n− 1 − 1 − 1 − (b) Show that ( bab ) = bab 1. [3 marks]\n− 1 n n −\n(c) Use parts (a) and (b) to show that ( bab ) = bab 1 for all negative integers n . [4 marks]",
+   "ms_text": "1\n)n n 1 3. (a) If Pn ():( bab bab\n1 1\nfor n 1 , P (1): bab bab so P (1) is true A1\n1 k 1\nassume Pk is true, i.e. () ( bab )k bab M1\nfor n k 1 ,\n1 k 1 1 k 1\n( bab ) ( bab )( bab ) M1A1\nk 1 1 babbab A1\nk 1 k 1 baeab baab A1\nk 1 1 ba b A1\nHence Pk () Pk ( 1) and P (1) is true, so Pnis true for all n () ′. R1\n[8 marks]\n(b) EITHER\n1 1 1 ( bab )( bab ) M1\n1 1 1 babbab using associativity ( )\n1 1 baeab\n1 1 baab e A1\n1 1 1 1 Therefore by definition of inverse ( bab ) bab R1\n[3 marks]\nOR\nUsing the reversal rule (M1)\n1 1 1 1 1 1 ( bab ) ( b ) ab A2\nbab 1 1 AG\n[3 marks]\n(c) Let n m , where m ′ M1\n1 n 1 m Then ( bab ) ( bab )\n1 1 m ( bab ) M1\n1 1 ( bab )m using part (b) A1\n( ba m b 1 ) using part (a) A1\nn 1 bab AG\n[4 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "1.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "3. [Maximum mark: 15]\n$a$ and $b$ are elements of the group $G$ whose binary operation is multiplication.\n(a) Use mathematical induction to prove that $(bab^{-1})^n=ba^nb^{-1}$, for all $n\\in\\mathbb{Z}^+$. [8 marks]\n(b) Show that $(bab^{-1})^{-1}=ba^{-1}b^{-1}$. [3 marks]\n(c) Use parts (a) and (b) to show that $(bab^{-1})^n=ba^nb^{-1}$ for all negative integers $n$. [4 marks]",
+   "review_note": "Markscheme crop: first line of (a) ('If P(n): (bab^-1)^n = ba^n b^-1') is half-clipped by the segmenter's header trim (body_top on ms page 11); override cannot recover it. Rest of markscheme complete. | fixed by segmenter update: the line noted above as missing is now in the crop"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qB4",
+   "num": "B4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "qB4.webp",
+   "ms_image": "qB4_ms.webp",
+   "text": "4. [Maximum mark: 14]\na − b\n2 2\n(a) Show that the set M= ; a , b ∈ ϒ , a + b ≠ 0 together with matrix\nb a\nmultiplication (×) forms a group M , × { }. [6 marks]\n(b) Find an isomorphism from the multiplicative group of non-zero complex\nnumbers to the group M , × { }. Justify your answer. [8 marks]",
+   "ms_text": "4. (a) Matrices are associative under multiplication. A1\n0\nwe have 1 Using\na 1, b 0 A1 1 as the identity element (for M).\n0\n1\na b a ( b ) 1\nso each element has an\nb a a 2 b 2 b a\n2 2 inverse (belonging to M) since a b 0 M1A1\na b s t as bt ( at bs ) p q\nA1\nb a t s bs at as bt q p\np q\n2 2 2 2 2 2 and ( p q ) ( a b ) ( s t ) 0 showing closure. A1\nq p\nHence { M ,} forms a group. AG\n[6 marks]\n(b) Let G be the multiplicative group of non-zero complex numbers\na b\nDefine :G M by ( a i) b where a i b G M1A1\nb a\nis a bijection R1\nLet x a i b and y c i d then\n( xy ) ( a i)( bc i) d M1\n( ac bd ) i( bc bd ) A1\nac bd bc bd\nA1\nbc bd ac bd\na b c d\nA1\nb a d c\n() x () y A1\nand hence is an isomorphism. AG\n[8 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.9",
+    "7.5",
+    "1.L1",
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "4. [Maximum mark: 14]\n(a) Show that the set $M=\\left\\{\\begin{pmatrix}a & -b\\\\ b & a\\end{pmatrix};\\ a,b\\in\\mathbb{R},\\ a^2+b^2\\ne 0\\right\\}$ together with matrix multiplication $(\\times)$ forms a group $\\{M,\\times\\}$. [6 marks]\n(b) Find an isomorphism from the multiplicative group of non-zero complex numbers to the group $\\{M,\\times\\}$. Justify your answer. [8 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qB5",
+   "num": "B5",
+   "section": null,
+   "marks": 6,
+   "qtype": "long",
+   "image": "qB5.webp",
+   "ms_image": "qB5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nShow that every cyclic group of order greater than or equal to three has at least two\ngenerators. [6 marks]",
+   "ms_text": "5. EITHER\nSuppose the group is G ,\n1 n 1 n If g is a generator then so is g (since if x G then x g ( g ) for n ′) M1A1\nIf G , has only one generator then g g 1 and M1\n1 g g g g e A1\nHence G is of order two which is less than three. R1\nThis contradiction shows that G must have more than one generator. R1\nOR\nConsider a cyclic group of order n. M1\n1 n 1 n If g is a generator then so is g (since if x G then x g ( g ) for n ′) M1A1\n1 Since n 3 , g is not equal to g . M1A1\nTherefore there are at least two generators, g and g 1 . R1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "5. [Maximum mark: 6]\nShow that every cyclic group of order greater than or equal to three has at least two generators. [6 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qB6",
+   "num": "B6",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "qB6.webp",
+   "ms_image": "qB6_ms.webp",
+   "text": "6. [Maximum mark: 8]\nProve for sets A , B and C that A × ( B ∪ C ) = ( AB × ) ∪ ( AC × ). [8 marks]",
+   "ms_text": "6. If x A ( B C, then ) x (, ap where ) a A and p B or C M1\ni.e. x AB or x AC A1\nA ( B C ) ( AB ) ( AC ) A1\nIf x ( AB ) ( AC, then ) x (,) ab or x (,) ac M1\ni.e. x has the form (element of A, element of ( B C) ) A1\ni.e. x A ( B C )\n( AB ) ( AC ) A ( B C ) A1\nSince A ( B C ) ( AB ) ( AC and ( ) AB ) ( AC ) A ( B C )\nthen A ( B C ) ( AB ) ( AC ) R2\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "6. [Maximum mark: 8]\nProve for sets $A$, $B$ and $C$ that $A\\times(B\\cup C)=(A\\times B)\\cup(A\\times C)$. [8 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qC1",
+   "num": "C1",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "qC1.webp",
+   "ms_image": "qC1_ms.webp",
+   "text": "1. [Maximum mark: 9]\nFind\ns − 3 s + 4\n(a) lim [4 marks]\ns → 4 4 − s\nx − 1 limcos\n(b) [5 marks]\nx → 0 x sin x",
+   "ms_text": "s 3 s 4\n1. (a) lim\ns 4 (4 s )\n1 3\n1 (3 s 4) 2\n2\nlim using l’Hôpital’s Rule M1A1 A1\ns 4 1\n1 3\n2 1 (16)\n2\n1\n3\n1\n8\n1\n5\nA1 N1\n8\n[4 marks]\n(b) EITHER\ncos x 1\nlim\nx 0 x sin x\nsin x\nlim M1A1\nx 0 x cos x sin x\ncos x\nM1A1\nlimcos x 0\nx x sin x cos x\n1\nA1 N1\n2\n[5 marks]\nOR\n2 x 1 2sin 1\ncos x 1 2\nlim lim M1A1\nx 0 x 0 x x x sin x\n2sin x cos\n2 2\nx x\nsin tan\n2 2\nlim lim M1A1\nx x 0 x 0 x\nx\ncos 2\nx 1 sec 2\n1 2 2\nlim A1 N1\nx 0 1 2\n[5 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "1. [Maximum mark: 9]\nFind\n(a) $\\lim_{s\\to 4}\\left(\\frac{s-\\sqrt{3s+4}}{4-s}\\right)$ [4 marks]\n(b) $\\lim_{x\\to 0}\\left(\\frac{\\cos x-1}{x\\sin x}\\right)$ [5 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qC2",
+   "num": "C2",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "qC2.webp",
+   "ms_image": "qC2_ms.webp",
+   "text": "2. [Maximum mark: 14]\ny Sketch on graph paper the slope field for the differential equation d\n(a) = x − y at\nd x\nthe points (, xy where x∈{ ) 01234 ,, , , } and y∈{ 01234 ,, , , } . Use a scale\nof 2 cm for 1 unit on both axes. [3 marks]\n(b) On the slope field sketch the curve that passes through the point (,) 03. [1 mark]\n(c) Solve the differential equation to find the equation of this curve.\nGive your answer in the form y = fx () .\n[10 marks]",
+   "ms_text": "2. (a)\nA1A1A1\nNote: Award A1 for attempt of slope field, A1 for parallel line segments at\nappropriate points, A1 for completely correct.\n[3 marks]\n(b) For curve (candidate’s minimum should be approximately on the line y x ). A1\n[1 mark]\nd y\n(c) x y\nd x\nd y\ny x (A1)\nd x\nd x x\nintegrating factor is e e M1A1\nso\nd y x x x\ne e y e x (A1)\nd x\nx x e y x ed x A1\nx x x e ed x M1A1\nx x x e e c A1\n(0, 3) belongs to the curve so\n3 1c\nc 4 A1\n4ex and y x 1 A1\n[10 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "2. [Maximum mark: 14]\n(a) Sketch on graph paper the slope field for the differential equation $\\frac{dy}{dx}=x-y$ at the points $(x,y)$ where $x\\in\\{0,1,2,3,4\\}$ and $y\\in\\{0,1,2,3,4\\}$. Use a scale of 2 cm for 1 unit on both axes. [3 marks]\n(b) On the slope field sketch the curve that passes through the point $(0,3)$. [1 mark]\n(c) Solve the differential equation to find the equation of this curve. Give your answer in the form $y=f(x)$. [10 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qC3",
+   "num": "C3",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "qC3.webp",
+   "ms_image": "qC3_ms.webp",
+   "text": "3. [Maximum mark: 10]\n1 A B\n= (a) Find constants A and B such that . [4 marks]\n−+\n16 2r + 8 r − 3 4 r 1 4 r + 3\n∞ 1\n∑ (b) Find an expression for Sn , the nth partial sum of\n2 . [4 marks] 16 r + 8 r − 3\nr = 1\n(c) Hence show that the series converges. [2 marks]",
+   "ms_text": "1 A B\n3. (a) Let\n2 16 r 8 r 3 4 r 1 4 r 3\nsubstituting values of r (M1)\n1 1\nA B M1A1A1 N4\n4 4\n[4 marks]\n1 1 1 1\n(b)\n2 16 r 8 r 3 44 r 1 4 r 3\nsubstituting values of r 1, 2, 3, ..., n gives\n11 1 1 1 1 1 1 1\nS + + ... M1A1A1\nn\n43 7 7 11 11 15 4 n 1 4 n 3\n11 1\nA1\n43 4 n 3\n[4 marks]\n1 11 1\n(c) lim M1\n2 16 r 8 r 3 n 43 4 n 3\nr 1\n1\nA1\n12\nHence the series is convergent. AG\n[2 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L1",
+    "1.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "3. [Maximum mark: 10]\n(a) Find constants $A$ and $B$ such that $\\frac{1}{16r^2+8r-3}=\\frac{A}{4r-1}+\\frac{B}{4r+3}$. [4 marks]\n(b) Find an expression for $S_n$, the $n$th partial sum of $\\sum_{r=1}^{\\infty}\\left(\\frac{1}{16r^2+8r-3}\\right)$. [4 marks]\n(c) Hence show that the series converges. [2 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qC4",
+   "num": "C4",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "qC4.webp",
+   "ms_image": "qC4_ms.webp",
+   "text": "4. [Maximum mark: 7]\n1\nFind the values of p for which x [7 marks] ∞∫ d converges.\np 1 x",
+   "ms_text": "1 a 1\n4. d x lim d x M1\np p 1 x a 1 x\na\n1 (1 p )\nlim x ,( p 1) A1\na 1 p\n1\n1 (1 p )\nlim a 1 A1\na 1 p\n1 (1 p )\nif p 1, 1 p 0 and a 1 R1\n1 p\n1 1 (1 p ) 1 p\nif p 1, a 0 as a so lim a 1 A1\na 1 p p 1\n1\nif p 1, d =ln x x A1\n1 1 x\n1d Hence\npx converges for p 1 . A1\n1 x\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "4. [Maximum mark: 7]\nFind the values of $p$ for which $\\int_1^{\\infty}\\frac{1}{x^p}\\,dx$ converges. [7 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qC5",
+   "num": "C5",
+   "section": null,
+   "marks": 20,
+   "qtype": "long",
+   "image": "qC5.webp",
+   "ms_image": "qC5_ms.webp",
+   "text": "5. [Maximum mark: 20]\ny Consider the differential equation d\n+ ( 2 x − 1 ) y = 0 given that y = 2 when x = 0 .\nd x\n4 y d 3 y d 2 y\nShow that d (a) (i) = ( 12 − x ) − 6 .\n4 3 2 d x d x d x\n(ii) By finding the values of successive derivatives at x = 0 obtain a Maclaurin\nseries for y up to and including the x4 term. [10 marks]\n(b) A local maximum value of y occurs when x = 0 5.. Use your series to calculate\nan approximation to this maximum value. [2 marks]\n(c) Use Euler’s method with a step value of 0.1 to obtain a second approximation\nfor the maximum value of y . Set out your solution in tabular form. [6 marks]\n(d) How can each of the approximations found in (b) and (c) be made more\naccurate? [2 marks]",
+   "ms_text": "d y\n5. (a) (i) (1 2) xy\nd x\nd 2 y d y\n(1 2) x 2 y M1A1\n2 d x d x\n3 2 d y d y d y\n(1 2) x 4 A1\n3 2 d x d x d x\nd 4 y d 3 y d 2 y d 2 y\n(1 2) x 2 4 A1\n4 3 2 2 d x d x d x d x\n3 2 d y d y\n(1 2) x 6 AG\n3 2 d x d x\n(ii) y (0) 2\ny 1(0) 2 A1\n2(0) y 2 4 2 A1\ny 3(0) 2 8 10 A1\ny 4(0) 10 12 2 A1\n2 3 4 2 x 2 x 10 x 2 x\ny 2 ... M1A1\n1! 2! 3! 4!\nNote: Award M1 if at least three terms are given.\n[10 marks]\n(b) y (0.5) 210.25 0.208333 0.005208 2.55 (M1)A1\n[2 marks]\nd y\n(c) (1 2), xyh 0.1\nd x\ny y h fx ( , y )\nn 1 n n n\nd y\nix iy\ny\nd x\n0 2 2 0.2 M1\n0.1 2.2 1.76 0.176 A1\n0.2 2.376 1.4256 (0.14256) A1\n0.3 2.51856 1.007424 (0.1007424) A1\nA1 0.4 2.6193024 0.52386048 (0.052386048)\n0.5 2.6716884\ny (0.5) 2.67 A1 N0\n[6 marks]\n(d) The Maclaurin method can be made more accurate by taking more terms. A1\nEuler’s method can be made more accurate by decreasing the step value. A1\n[2 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.18",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "5. [Maximum mark: 20]\nConsider the differential equation $\\frac{dy}{dx}+(2x-1)y=0$ given that $y=2$ when $x=0$.\n(a) (i) Show that $\\frac{d^4y}{dx^4}=(1-2x)\\frac{d^3y}{dx^3}-6\\frac{d^2y}{dx^2}$.\n(ii) By finding the values of successive derivatives at $x=0$ obtain a Maclaurin series for $y$ up to and including the $x^4$ term. [10 marks]\n(b) A local maximum value of $y$ occurs when $x=0.5$. Use your series to calculate an approximation to this maximum value. [2 marks]\n(c) Use Euler's method with a step value of 0.1 to obtain a second approximation for the maximum value of $y$. Set out your solution in tabular form. [6 marks]\n(d) How can each of the approximations found in (b) and (c) be made more accurate? [2 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qD1",
+   "num": "D1",
+   "section": null,
+   "marks": 6,
+   "qtype": "long",
+   "image": "qD1.webp",
+   "ms_image": "qD1_ms.webp",
+   "text": "1. [Maximum mark: 6]\np p p + Show that ( x + y ) ≡ ( x + y )(mod p ) where xy , ∈ ′ and p is a prime number. [6 marks]",
+   "ms_text": "1. METHOD 1\np p p\np p p 1 p 2 2 p 3 3 p ( x y ) x x y x y x y ... y M1A1\n1 2 3\np p p\nEach of the coefficients , , , ... is an integer R1\n1 2 3\nand is a multiple of p R1\nbecause p is a prime R1\np p ( x y )p x y a multiple of p R1\np p p ( x y ) ( x y )(mod) p AG\n[6 marks]\nMETHOD 2\np By Fermat’s little theorem: ( x y ) ( x y )(mod) p M1A1\np p x x (mod), p y y (mod) p A1A1\np ( x y ) ( x y )(mod) p\nx (mod) p y (mod) p M1\np p x (mod) p y (mod) p A1\n( x p y p )(mod) p AG\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.4",
+    "1.9",
+    "6.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "1. [Maximum mark: 6]\nShow that $(x+y)^p\\equiv(x^p+y^p)\\pmod p$ where $x,y\\in\\mathbb{Z}^+$ and $p$ is a prime number. [6 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qD2",
+   "num": "D2",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "qD2.webp",
+   "ms_image": "qD2_ms.webp",
+   "text": "2. [Maximum mark: 17]\n(a) Use Euclid’s algorithm to find gcd( 858714 and hence write the gcd as a , )\nlinear combination of 858 and 714. [12 marks]\n(b) A lattice point (, xy is a point on the Cartesian plane where xy ) , ∈′. Find all\nthe lattice points through which the line 5 x + 8 y = passes. 1 [5 marks]",
+   "ms_text": "2. (a) 8581714144 M1A1\n714 4144138 A1\nA1 14411386\n138 236 0 A1\nso gcd(858, 714) 6 A1\n61441138 M1A1\n144(714 4144) M1A1\n5144714\n5(8581714) 714 (A1)\n58586714 A1\n[12 marks]\n(b) gcd(5, 8) 1 so 12835 (M1)(A1)\nso one solution i.e. lattice point is (3, 2) A1\nA complete solution is x 3 8, n y 2 5,( n n ′. ) (M1)A1\n[5 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1",
+    "6.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "2. [Maximum mark: 17]\n(a) Use Euclid's algorithm to find $\\gcd(858,714)$ and hence write the gcd as a linear combination of 858 and 714. [12 marks]\n(b) A lattice point $(x,y)$ is a point on the Cartesian plane where $x,y\\in\\mathbb{Z}$. Find all the lattice points through which the line $5x+8y=1$ passes. [5 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qD3",
+   "num": "D3",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "qD3.webp",
+   "ms_image": "qD3_ms.webp",
+   "text": "3. [Maximum mark: 15]\n(a) Draw the graph K33 ,. [3 marks]\n(b) [6 marks] Prove that K33 , is not planar.\n(c) With the usual notation, Euler’s formula v −+ e f = 2 applies to connected planar\ngraphs. Find a formula connecting v , e and f for a non-connected planar graph\nthat has x components. [6 marks]",
+   "ms_text": "3. (a)\nA3\nor equivalent\ne.g.\n[3 marks]\n(b) For K , v 6 and e 9 A1\n3, 3\nSuppose a simple planar form exists for K . M1\n3, 3\nK has no triangles. R1\n3, 3\ne 2 v 4 A1\nThis relation does not hold for K because 9 2(6) 4 R1\n3,3\nThis contradiction shows that K is not planar. R1\n3,3\n[6 marks]\n(c) For component i, v e f 2 M1\ni i i\nAdding for x components gives v e f 2 x M1\ni i i\nv , e , A1\ni i\nand total number of faces is the sum of the faces of the individual components\nminus ( x 1) , the number of faces counted twice. (R1)\nf f ( x 1) A1\ni\nso\nv e f x 1 2 x\nv e f x 1 A1\n[6 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "3. [Maximum mark: 15]\n(a) Draw the graph $K_{3,3}$. [3 marks]\n(b) Prove that $K_{3,3}$ is not planar. [6 marks]\n(c) With the usual notation, Euler's formula $v-e+f=2$ applies to connected planar graphs. Find a formula connecting $v$, $e$ and $f$ for a non-connected planar graph that has $x$ components. [6 marks]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qD4",
+   "num": "D4",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "qD4.webp",
+   "ms_image": "qD4_ms.webp",
+   "text": "4. [Maximum mark: 12]\nThe weighted graph G is shown above. Graph G is produced by deleting vertex A ′\nfrom G .\n(a) Use Kruskal’s algorithm to find the minimum spanning tree of graph G and ′\nstate its weight. [5 marks]\n(b) Hence find the weight of a lower bound for the Hamiltonian cycle in G beginning\nat vertex A . [2 marks]\nn − 1\nProve for a complete graph with n vertices, that no more than ( )!,\n(c) n ≥ 3\n2\nHamiltonian cycles have to be examined to find the Hamiltonian cycle of least\nweight. [4 marks]\n(d) How many cycles in G would have to be examined to find the one with the least\nweight? [1 mark]",
+   "ms_text": "4. (a) (10 vertices so 9 choices)\nChoice Edge Weight\n1 HP 1 M1\n=2 KQ 2\n=2 QF 2\n=4 FE 3\n=4 PB 3\n6 ER 4\n=7 PQ 5\n=7 BC 5\n9 CD 6 A2\nNote: Award A1 for one error and A0 for more than one error.\nTotal weight 31 A1\nC 6 D\n5\nB\n3\nP\nR\n1 5\nQ\n4\nH\n2 2 E\n3\nK\nF\nA1\n[5 marks]\n(b) Replacing A gives a lower bound 31611 48 M1A1\n[2 marks]\n(c) Given n 3 to ensure that cycles are possible, from the starting point\nthere are ( n 1) choices for the second vertex, ( n 2) choices for\nthe third vertex, etc. M1A1\nTotal number of choices is ( n 1)( n 2)( n 3)...1 ( n 1)! A1\nBut since each Hamiltonian cycle can be traversed in reverse we need\nn 1)! only examine (\ncycles. R1AG\n2\n[4 marks]\n(111)!\n(d) Number of cycles 1814400 (accept in place of ) R1\n2\n[1 mark]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.8",
+    "6.7",
+    "6.9",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "4. [Maximum mark: 12]\n[Diagram: weighted graph G with vertices A, B, C, D, E, F, H, K, P, Q, R; edges AB 6, AH 11, BC 5, BP 3, CD 6, CP 6, CR 6, DR 8, DE 7, HP 1, HK 5, PQ 5, QR 6, QK 2, QF 2, RF 5, RE 4, KF 6, FE 3]\nThe weighted graph $G$ is shown above. Graph $G'$ is produced by deleting vertex A from $G$.\n(a) Use Kruskal's algorithm to find the minimum spanning tree of graph $G'$ and state its weight. [5 marks]\n(b) Hence find the weight of a lower bound for the Hamiltonian cycle in $G$ beginning at vertex A. [2 marks]\n(c) Prove for a complete graph with $n$ vertices, that no more than $\\frac{(n-1)!}{2}$, $n\\ge 3$ Hamiltonian cycles have to be examined to find the Hamiltonian cycle of least weight. [4 marks]\n(d) How many cycles in $G$ would have to be examined to find the one with the least weight? [1 mark]"
+  },
+  {
+   "id": "math-2007-M-P3-TZ2-qD5",
+   "num": "D5",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "qD5.webp",
+   "ms_image": "qD5_ms.webp",
+   "text": "5. [Maximum mark: 10]\n7 + Prove that 42 ( n − n ) where n∈ ′. [10 marks]",
+   "ms_text": "5. EITHER\nBy Fermat’s little theorem\n7 n n (mod7) M1\nn 7 n is divisible by 7 A1\n7 6 n n nn ( 1) M1A1\n23 2 4 2 nn ( ) 1 nn ( 1)( n n 1) (A1)A1\n4 2 ( n 1)( nn 1)( n n 1) A1\n6( n 1)( nn 1) because ( n 1), n ,( n 1) are consecutive integers. R2\n7 7 As n n is divisible by 6 and 7 then 42n n . R1\n7 Note:The factors( n 1), n ,( n 1) of ( n n could be obtained by using the remainder theorem. )\n[10 marks]\nOR\nBy Fermat’s little theorem\n2 n n (mod2) M1A1\n3 n n (mod3) A1\nand\n7 32 2 3 n ( n ) n nn (mod3) n (mod3) n (mod3) M1A1\n7 23 3 4 2 2 2 n ( n ) n nn n ( n ) n (mod2) n (mod2) M1A1\n7 but n n (mod7) R1\n7 since 42 237 then n n (mod42) R1\n7 Therefore 42( n n. ) R1\n[10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.5",
+    "6.1",
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "5. [Maximum mark: 10]\nProve that $42\\mid(n^7-n)$ where $n\\in\\mathbb{Z}^+$. [10 marks]"
+  }
+ ],
+ "status": "done"
+}

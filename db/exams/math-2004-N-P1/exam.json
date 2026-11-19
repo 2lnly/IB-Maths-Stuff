@@ -1,0 +1,499 @@
+{
+ "exam_id": "math-2004-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2004,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2004 November Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2004 November Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8804-7401; code N04/5/MATHL/HP1/ENG/TZ0/XX; marks not printed; assumed 6 per question (modal markscheme value)",
+ "qp_pages": 15,
+ "questions": [
+  {
+   "id": "math-2004-N-P1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "3 2 1. Consider fx () = x − 2 x − 5 x + k . Find the value of k if ( x + 2) is a factor of\nfx () .",
+   "ms_text": "QUESTION 1\nIf x + 2 is a factor of fx () then f− (2) = 0 (M1)(A1)\n⇒ − = −−+ + = f (2) 8 810 k 0 (M1)(A1)\n⇒ k = 6 (A2) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "1. Consider $f(x) = x^3 - 2x^2 - 5x + k$. Find the value of $k$ if $(x+2)$ is a factor of $f(x)$."
+  },
+  {
+   "id": "math-2004-N-P1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "⎛ 1 − 1 2 ⎞\n⎜ ⎟\nA 2 p 3 2. Given that the matrix = ⎜ is singular, find the value of p.\n⎟\n⎜ ⎟\n1 − 2 5 ⎝ ⎠",
+   "ms_text": "QUESTION 2\ndet A = 0 (A1)\np 3 2 3 2 p\n⇒ −− (1) + 2 = 0 (M1)(A1)\n− 2 5 1 5 1 − 2\n⇒ 5 p + 6 + (10 − 3) + 2(4 −− p ) = 0 (A1)\n⇒ 3 p = − 5 (A1)\n5\n⇒ p = − (A1) (C6)\n3",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "2. Given that the matrix $A = \\begin{pmatrix} 1 & -1 & 2 \\\\ 2 & p & 3 \\\\ 1 & -2 & 5 \\end{pmatrix}$ is singular, find the value of $p$."
+  },
+  {
+   "id": "math-2004-N-P1-q3",
+   "num": "3",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. The sum of the first n terms of a series is given by\n= 2 − ∈Z + S 2 n n ,where n .\nn\n(a) Find the first three terms of the series.\n(b) Find an expression for the nth term of the series, giving your answer in terms of n.",
+   "ms_text": "QUESTION 3\n2 (a) S = 2 n − n\nn\nn = 1 ⇒ S = u = 21 −= 1 (A1)\n1 1\nn = 2 ⇒ S = u + u = 8 − 2 = 6 ⇒ u = 5 (A1)\n2 1 2 2\nn = 3 ⇒ S = u + u + u = 18 − 3 = 15 ⇒ u = 9 (A1) (C3)\n3 1 2 3 3\n(b) u = S − S− (M1)\nn n n 1\n⇒ = 2 − − ( − 2 − − ) (A1) u 2 n n 2( n 1) ( n 1)\nn\n⇒ = 2 − − 2 − + − + u 2 n n (2 n 4 n 2 n 1)\nn\n⇒ u = 4 n − 3 (A1) (C3)\nn",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "3. The sum of the first $n$ terms of a series is given by\n$S_n = 2n^2 - n$, where $n \\in \\mathbb{Z}^+$.\n(a) Find the first three terms of the series.\n(b) Find an expression for the $n^{\\text{th}}$ term of the series, giving your answer in terms of $n$."
+  },
+  {
+   "id": "math-2004-N-P1-q4",
+   "num": "4",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. Given that ( a + i)(2 − b i) = 7 − i , find the value of a and of b, where ab∈Z , .",
+   "ms_text": "QUESTION 4\n2 ( a + i)(2 − b i) = 7 −⇒ i 2 a − ab i + 2i − b i = 7 − i (M1)\n⇒ 2 a − ab i + 2i + b = 7 − i (A1)\nEquating real and imaginary parts ⇒ 2 a + b = 7 and 2 − ab = − 1 (A1)(A1)\n2 Substitution ⇒ 2 a − 7 a + 3 = 0\n⇒ (2 a − 1)( a − 3) = 0\n⇒ a = 3 and b = 1 (A1)(A1) (C6)\nAward (A1)(A0) if a= 0.5, b= 6 also given. Note:",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "4. Given that $(a + \\mathrm{i})(2 - b\\mathrm{i}) = 7 - \\mathrm{i}$, find the value of $a$ and of $b$, where $a, b \\in \\mathbb{Z}$."
+  },
+  {
+   "id": "math-2004-N-P1-q5",
+   "num": "5",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "d 2 y\n5. If y = ln(2 x − .\n1), findd 2\nx",
+   "ms_text": "QUESTION 5\ny = ln(2 x − 1)\nd y 2\n⇒ = (M1)(A1)\nd x 2 x − 1\nd y − 1\n⇒ = 2(2 x − 1) (A1)\nd x\nd 2 y − 2\n⇒ = − 2(2 x − 1)(2) (M1)(A1)\nd x 2\n2 d y − 4\n− 2 ⇒ = or − 4(2 x − 1)\n(A1) (C6)\n2 2 d x (2 x − 1)",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "5. If $y = \\ln(2x - 1)$, find $\\frac{\\mathrm{d}^2 y}{\\mathrm{d}x^2}$."
+  },
+  {
+   "id": "math-2004-N-P1-q6",
+   "num": "6",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. A fair six-sided die, with sides numbered 1, 1, 2, 3, 4, 5 is thrown. Find the mean and\nvariance of the score.",
+   "ms_text": "QUESTION 6\n1\n⇒ E( X ) = (11 ++ 2 + 3 + 4 + 5) (M1)(A1)\n6\n8 ⎛ 2 ⎞\n⇒ = E( X ) ⎜ or 2 or 2.67 ⎟ (A1) (C3)\n3 ⎝ 3 ⎠\n1 64\n⇒ Var( X ) = (11 ++ 4 + 916 + + 25) − (M1)(A1)\n6 9\n56 64 40\n⇒ = − = Var( X )\n6 9 18\n20 ⎛ 2 ⎞\n= or 2 or 2.22 (A1) (C3) ⎜ ⎟\n9 ⎝ 9 ⎠\nNote: Apply the (AP) to the answer 2.20 obtained by using 2.67",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "6. A fair six-sided die, with sides numbered 1, 1, 2, 3, 4, 5 is thrown. Find the mean and variance of the score."
+  },
+  {
+   "id": "math-2004-N-P1-q7",
+   "num": "7",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "1\n7. (a) Find the largest set S of values of x such that the function fx () = takes real\n2 3 − x\nvalues.\n(b) Find the range of the function f defined on the domain S.",
+   "ms_text": "QUESTION 7\n2 (a) For fx () to be real we need 3 − x > 0 (M1)\n⇒ x 2 < 3\n⇒− < < = ⎤ − ⎡ (A1)(A1) (C3) 3 x 3or S 3, 3\n⎦ ⎣\n⎡ ⎤ Note: Award (A1)(A0) if interval is given as − 3 ≤ x ≤ 3or − 3, 3 .\n⎣ ⎦\n(b) A sketch of fx () over this interval is\n(M1)\nHence range of fx () is given by\n1 1\n≤ < ∞ ≥ ≥ . (A1)(A1) (C3) fx () , or fx () , or fx () 0.577\n3 3\n1 1\nNote: Award (A1)(A0) for < fx () < ∞ , or fx () > , or fx () > 0.577 .\n3 3",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.2",
+    "2.15"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "7. (a) Find the largest set $S$ of values of $x$ such that the function $f(x) = \\frac{1}{\\sqrt{3 - x^2}}$ takes real values.\n(b) Find the range of the function $f$ defined on the domain $S$."
+  },
+  {
+   "id": "math-2004-N-P1-q8",
+   "num": "8",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. (a) Find the expansion of (2 + x ) 5 , giving your answer in ascending powers of x.\n(b) By letting x = 0.01 or otherwise, find the exact value of 2.01 5 .",
+   "ms_text": "QUESTION 8\n(a) (2 + x ) 5 = 2 5 + 5(2)() 4 x + 10(2) 3 x 2 + 10(2) 2 x 3 + 5(2) x 4 + x 5 (M1)(A1)\n= + + 2 + 3 + 4 + 5 32 80 x 80 x 40 x 10 x x (A1) (C3)\nNote: Award (C2) for 5 correct terms, (C1) for 4 correct terms.\n− 2 (b) Let x = 0.0110 =\n5 ⇒ (2.01) = 32 + 0.8 + 0.008 + 0.000 04 + 0.000 0001 + 0.000 000 0001 (M1)(A1)\n= 32.808 0401001 (A1) (C3)",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "8. (a) Find the expansion of $(2 + x)^5$, giving your answer in ascending powers of $x$.\n(b) By letting $x = 0.01$ or otherwise, find the exact value of $2.01^5$."
+  },
+  {
+   "id": "math-2004-N-P1-q9",
+   "num": "9",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. The diagram below shows a circle centre O and radius OA = 5 cm. The angle AOB = 135 o .\nA\nB\nO\nFind the area of the shaded region.",
+   "ms_text": "QUESTION 9\n13π ⎛ ⎞ 75 2\nArea sector OAB = (5) = π (M1)(A1) ⎜ ⎟\n2 ⎝ 4 ⎠ 8\n1 3π 252\nArea of ∆ OAB = (5)(5)sin = (M1)(A1)\n2 4 4\n⇒Shaded area = area of sector OAB – area of ∆OAB (M1)\n2 = 20.6 (cm) (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "9. The diagram below shows a circle centre O and radius OA = 5 cm. The angle $\\text{AOB} = 135^\\circ$.\n[Diagram: circle centre O with radii OA and OB and chord AB; the minor segment between chord AB and the arc is shaded]\nFind the area of the shaded region."
+  },
+  {
+   "id": "math-2004-N-P1-q10",
+   "num": "10",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "e −= x cos2, for0 x ≤ x ≤ 2π 10. Consider the equation .\n(a) How many solutions are there to this equation?\n(b) Find the solution closest to 2π, giving your answer to four decimal places.",
+   "ms_text": "QUESTION 10\n(a) A sketch of both functions gives\n(A1)(A1)\nNote: Award (A1) for each curve.\nHence there are 5 solutions. (A1) (C3)\n(b) Using gdc x = 5.499830 … (A2)\n= 5.4998 (4 d.p.) (A1) (C3)",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.10",
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "10. Consider the equation $\\mathrm{e}^{-x} = \\cos 2x$, for $0 \\le x \\le 2\\pi$.\n(a) How many solutions are there to this equation?\n(b) Find the solution closest to $2\\pi$, giving your answer to four decimal places."
+  },
+  {
+   "id": "math-2004-N-P1-q11",
+   "num": "11",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "− − 11. Consider the four points A(1, 4, 1), B(2, 5, 2), C(5, 6, 3) and D(8, 8, 4) . Find the point of\nintersection of the lines (AB) and (CD).",
+   "ms_text": "QUESTION 11\n⎛⎞ x ⎛ 1 ⎞ ⎛ 1 ⎞\n⎜⎟ ⎜ ⎟ ⎜ ⎟\nEquation of (AB) is y = 4 + λ 1 (A1) ⎜⎟ ⎜ ⎟ ⎜ ⎟\n⎜⎟ ⎜ ⎟ ⎜ ⎟\nz − 1 − 1 ⎝⎠ ⎝ ⎠ ⎝ ⎠\n⎛⎞ x ⎛⎞ 5 ⎛⎞ 3\n⎜⎟ ⎜⎟ ⎜⎟\n= + µ and of (CD) is y 6 2 (A1)\n⎜⎟ ⎜⎟ ⎜⎟\n⎜⎟ ⎜⎟ ⎜⎟\n⎝⎠ z ⎝⎠ 3 ⎝⎠ 1\nat point of intersection of two lines\n1 + λ = 5 + 3 µ\n4 + λ = 6 + 2 µ\n−− 1 λ = 3 + µ (M1)\nsolving simultaneously any two of these three equations gives\nλ = − µ = − 2 and 2 (only one value required). (A2)\n⇒ point of intersection (–1, 2, 1) (A1) (C6)\nNote: Since question states that lines intersect, there is no need to check the\nsolution in the third equation.",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.15"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "11. Consider the four points A$(1, 4, -1)$, B$(2, 5, -2)$, C$(5, 6, 3)$ and D$(8, 8, 4)$. Find the point of intersection of the lines (AB) and (CD)."
+  },
+  {
+   "id": "math-2004-N-P1-q12",
+   "num": "12",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. A continuous random variable X has probability density function given by\n= − 2 ≤ ≤ fx () k (2 x x ), for 0 x 2\nfx () = 0, elsewhere.\n(a) Find the value of k.\n(b) Find P(0.25 ≤ x ≤ 0.5) .",
+   "ms_text": "QUESTION 12\n2 2\n(a) Since X is a continuous r.v. ⇒ k (2 x − x )d x = 1 (M1) ∫\n0\n2\n⎡ 3 ⎤\n2 x ⇒ kx − = 1 (A1)\n⎢ ⎥\n3 ⎣ ⎦\n0\nk⎧ ⎡ 8 ⎤ ⎫ ⇒ − − =\n⎨ ⎢ 4 ⎥ [0] ⎬ 1\n⎩ ⎣ 3 ⎦ ⎭\n3\n⇒ = k (A1) (C3)\n4\n0.5\n(b) ≤ ≤ = ∫ (M1) P(0.25 x 0.5) fx ()d x\n0.25\n29\n= = 0.113 (A2) (C3)\n256",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "12. A continuous random variable $X$ has probability density function given by\n$f(x) = k(2x - x^2)$, for $0 \\le x \\le 2$\n$f(x) = 0$, elsewhere.\n(a) Find the value of $k$.\n(b) Find $\\mathrm{P}(0.25 \\le x \\le 0.5)$."
+  },
+  {
+   "id": "math-2004-N-P1-q13",
+   "num": "13",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. Given that z∈C , solve the equation z− 3 8i = 0 , giving your answers in the form\nz = r (cos θ + isin) θ .",
+   "ms_text": "QUESTION 13\n⎛ π π ⎞ 3 3\nz = 8i ⇒ z = 8cos + isin (A1) ⎜ ⎟\n⎝ 2 2 ⎠\n⇒ z = r (cos θ + isin) θ\nπ\nwhere = 3 θ = + (A1)(A1) r 8 and 3 n (2π)\n2\n⎛ π π ⎞\n⇒ z = 2cos + isin (A1)\n1 ⎜ ⎟\n⎝ 6 6 ⎠\n⎛ 5π 5π ⎞\n⇒ z = 2cos + isin (A1)\n2 ⎜ ⎟\n⎝ 6 6 ⎠\n⎛ 3π 3π ⎞ ⎛ π π ⎞\n⇒ z = 2cos + isin or z = 2cos − + isin − (A1) (C6)\n3 ⎜ ⎟ 3 ⎜ ⎟\n⎝ 2 2 ⎠ ⎝ 2 2 ⎠",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "13. Given that $z \\in \\mathbb{C}$, solve the equation $z^3 - 8\\mathrm{i} = 0$, giving your answers in the form $z = r(\\cos\\theta + \\mathrm{i}\\sin\\theta)$."
+  },
+  {
+   "id": "math-2004-N-P1-q14",
+   "num": "14",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "3 2 14. Find the total area of the two regions enclosed by the curve y = x − 3 x − 9 x + 27 and the line\ny = x + 3 .",
+   "ms_text": "QUESTION 14\nMETHOD 1\nRegion required is given by\nfrom gdc outer intersections are at x = − 3 and x = 4 (A1)(A1)\n4\n⇒ = − Area ∫ y y d x (M1)\n− 3 1 2\n= 101.75 (A3) (C6)\nMETHOD 2\nFrom gdc intersections are at x = − 3, x = 2, x = 4 . (A1)(A1)(A1)\n2 4 3 2 3 2\nArea = ∫ ( x − 3 x − 9 x + 27 − ( x + 3)d ) x + ∫ ( x + 3 − ( x − 3 x − 9 x + 27)d ) x (M1)(M1)\n− 3 2\n= 101.75 (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "14. Find the total area of the two regions enclosed by the curve $y = x^3 - 3x^2 - 9x + 27$ and the line $y = x + 3$."
+  },
+  {
+   "id": "math-2004-N-P1-q15",
+   "num": "15",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "15. Find the range of values of m such that for all x\n+ ≤ 2 mx ( 1) x .",
+   "ms_text": "QUESTION 15\n2 2 mx ( + 1) ≤ x ⇒ x − mx − m ≥ 0 (A1)\nHence ∆= b 2 − 4 ac ≤ 0 (M1)\n2 ⇒ m + 4 m ≤ 0 (A1)\nNow using a sketch of quadratic\n(M1)\nHence −≤ 4 m ≤ 0 (A1)(A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "15. Find the range of values of $m$ such that for all $x$\n$m(x + 1) \\le x^2$."
+  },
+  {
+   "id": "math-2004-N-P1-q16",
+   "num": "16",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "16. Find the equation of the normal to the curve x 3 + y 3 − 9 xy = 0 at the point (2, 4).",
+   "ms_text": "QUESTION 16\n3 3 x + y − 9 xy = 0\nDifferentiating w.r.t. x\n2d y d y 2\n⇒ 3 x + 3 y − 9 y − 9 x = 0 (A1)(A1)\nd x d x\n2d y d y 2\n+ − − Note: Award (A1) for 3 x 3 y , and (A1) for 9 y .\n9d xx\nd x\nd y 9 y − 3 x 2\n⇒ = (A1)\n2 d x 3 y − 9 x\nEITHER\nat point (2, 4) gradient = 0.8. (A1)\n⇒ Gradient of normal = –1.25 (A1)\nOR\n2 − 3 y + 9 x\nGradient of normal = (A1)\n2 9 y − 3 x\nat point (2, 4), gradient is –1.25 (A1)\nTHEN\nEquation of normal is given by\n− = − − = − + y 4 1.25( x 2) or y 1.25 x 6.5 (A1) (C6)",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "16. Find the equation of the normal to the curve $x^3 + y^3 - 9xy = 0$ at the point (2, 4)."
+  },
+  {
+   "id": "math-2004-N-P1-q17",
+   "num": "17",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "2 ) 17. Using the substitution 2 x = sin θ , or otherwise, find\n∫ ( 1 − 4 x d x .",
+   "ms_text": "QUESTION 17\n2\n∫ ( 1 − 4 x ) d x\nLet 2 x = sin θ\nd x 1\n⇒ 2 = cos θ ⇒ d x = cosd θθ\nθ d 2\n1\n( 2 ) 2 ⇒ ∫ 1 − 4 x d x = ∫ 1sin − θ cosd θθ\n2\n1 cos 2 = ∫ θθ d (A1)\n2\n1 (cos2 =\n∫ θ + 1)d θ (A1)\n4\nθ\n= 1sin2 θ + + C (A1)(A1)\n8 4\n12 ⎡ 2 ⎤ = x 1 − 4 x + arcsin2 x + C (A1)(A1) (C6)\n⎣ ⎦ 4",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "3.6",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "17. Using the substitution $2x = \\sin\\theta$, or otherwise, find $\\int \\left(\\sqrt{1 - 4x^2}\\right) \\mathrm{d}x$."
+  },
+  {
+   "id": "math-2004-N-P1-q18",
+   "num": "18",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "500 cm 3 18. A closed cylindrical can has a volume of . The height of the can is h cm and the radius\nof the base is r cm.\n(a) Find an expression for the total surface area A of the can, in terms of r.\nr > (b) Given that there is a minimum value of A for 0 , find this value of r.",
+   "ms_text": "QUESTION 18\n3 2 500 (a) V = 500 cm ⇒ π rh = 500 ⇒ h = (A1)\nπ r 2\n1000\n= 2 + ⇒ = 2 + Now S 2π r 2π rh S 2π r (M1)(A1) (C3)\nr\nd S 1000\n(b) = 4π r − (A1)\n2 d r r\nd S\nfor min S we need 0 (A1)\nr=\nd\n3250(or ⇒ r = r = 4.30)\n(A1) (C3)\nπ",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.8",
+    "3.1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "18. A closed cylindrical can has a volume of $500\\ \\text{cm}^3$. The height of the can is $h$ cm and the radius of the base is $r$ cm.\n(a) Find an expression for the total surface area $A$ of the can, in terms of $r$.\n(b) Given that there is a minimum value of $A$ for $r > 0$, find this value of $r$."
+  },
+  {
+   "id": "math-2004-N-P1-q19",
+   "num": "19",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "19. (a) Find the cartesian equation of the plane that contains the origin O and the two points\nA(1,1,1) and B(2,1, 3) − .\n(b) Find the distance from the point C(10, 5,1) to the plane OAB.",
+   "ms_text": "QUESTION 19\n(a) Normal to plane OAB is given by\n→ →\nn = OA × OB (M1)\ni j k\n= 1 1 1\n2 − 1 3\n= 4 i − j − 3 k (A1)\nHence equation of plane is 4 x − y − 3 z = 0 . (A1) (C3)\n(b) EITHER\nGeneral point on line through C, perpendicular to plane OAB is\n(10 + 4, 5 λ − λ ,13) − λ\nHence at point of intersection of perpendicular and plane\n4(10 + 4) λ − (5 − λ ) − 3(13) − λ = 0 (A1)\n− 16\n⇒ λ =\n13\n16\n⇒ distance = 4 i − j − 3 k (M1)\n13\n16\n= = 26 6.28 (A1) (C3)\n13\nOR\n(4)(10) +− (1)(5) +− (3)(1) 32\n= = (M1) d\n2 2 2 4 +− (1) +− (3) 26\n= 6.28 (A2) (C3)",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.17",
+    "3.16",
+    "3.18"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "marks-from-ms"
+   ],
+   "text_clean": "19. (a) Find the cartesian equation of the plane that contains the origin O and the two points A$(1, 1, 1)$ and B$(2, -1, 3)$.\n(b) Find the distance from the point C$(10, 5, 1)$ to the plane OAB."
+  },
+  {
+   "id": "math-2004-N-P1-q20",
+   "num": "20",
+   "section": null,
+   "marks": 6,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "20. The following diagram shows the lines x − 2 y − 4 = 0, x + y = 5 and the point P(1,1) . A line\nis drawn from P to intersect with x − 2 y − 4 = 0 at Q, and with x + y = 5 at R, so that P is the\nmidpoint of [QR].\ny\n10\n8\n6\n4\n2\nP(1, 1)\n–10 –8 –6 –4 –2 0 2 4 6 8 10 x\n–2\n–4\n–6\n–8\n–10\nFind the exact coordinates of Q and of R.",
+   "ms_text": "QUESTION 20\ny\n10\n8\n6\n4\n2\nP(1, 1)\n–10 –8 –6 –4 –2 0 2 4 6 8 10 x\n–2\n–4\n–6\n–8\n–10\nLet the coordinate of point R be − (A1) ( x , 5 x )\n1 1\n⎛ 1 ⎞\n− and of point Q be ⎜ x , x 2 ⎟ (A1)\n2 2\n⎝ 2 ⎠\nSince P is the mid-point of [QR]\n1\n− + − 5 x x 2\nx + x 1 2\n1 2 = 2 = 1and 1 (M1)(A1)\n2 2\n⇒ x + x = 2 and − 2 x + x = − 2\n1 2 1 2\nNow solving for x and x\n1 2\n4 2\n⇒ x = and x =\n1 2\n3 3\n− ⎛ 411 ⎞ ⎛ 2 5 ⎞\n⇒ R is , and Q is , (A1)(A1) (C6) ⎜ ⎟ ⎜ ⎟\n⎝ 3 3 ⎠ ⎝ 3 3 ⎠",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy",
+    "marks-from-ms"
+   ],
+   "text_clean": "20. The following diagram shows the lines $x - 2y - 4 = 0$, $x + y = 5$ and the point P$(1, 1)$. A line is drawn from P to intersect with $x - 2y - 4 = 0$ at Q, and with $x + y = 5$ at R, so that P is the midpoint of [QR].\n[Graph: axes $-10 \\le x \\le 10$, $-10 \\le y \\le 10$ on a grid, showing the lines $x - 2y - 4 = 0$ and $x + y = 5$ and the point P(1, 1)]\nFind the exact coordinates of Q and of R."
+  }
+ ],
+ "status": "done"
+}

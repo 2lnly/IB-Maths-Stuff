@@ -1,0 +1,286 @@
+{
+ "exam_id": "math-2024-N-P1",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2024,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 1/N24/Mathematics_analysis_and_approaches_paper_1__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Math AA/Paper 1/N24/Mathematics_analysis_and_approaches_paper_1__HL_markscheme.pdf",
+ "notes": "3 duplicate copies (2 byte-identical size, 1 donated/scanned); paper number 8824-9700; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2024-N-P1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nPoints A and B lie on a circle with centre O and radius rcm , where AÔB=1.5 radians.\nThis is shown on the following diagram.\ndiagram not to scale\nB\n1.5\nO A\nThe area of sector OAB is 48cm2.\n(a) Find the value of r .\b [3]\n(b) Hence, find the perimeter of sector OAB . \b [2]",
+   "ms_text": "1 1\nrθ= 2 48 2 ( ) 1. (a) OR 1.5 = 48 (A1)\n2r 2\nattempt to solve their equation to find r or r2 (M1)\n2rand Note: To award the M1, candidate’s equation must include θ= 1.5 , and\nthey must attempt to isolate 2r or r .\n2 r= 64\nr = 8 (cm) A1\n[3 marks]\n(b) evidence of summing the two radii and the arc length (M1)\nperimeter = 2r + rθ\n= 16 + 81.5 ( )\n= 28 (cm) A1\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nPoints A and B lie on a circle with centre O and radius $r$ cm, where $\\hat{AOB} = 1.5$ radians.\nThis is shown on the following diagram.\n[Diagram (not to scale): sector OAB with angle 1.5 at O]\nThe area of sector OAB is $48\\text{ cm}^2$.\n(a) Find the value of $r$. [3]\n(b) Hence, find the perimeter of sector OAB. [2]"
+  },
+  {
+   "id": "math-2024-N-P1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nTwo events A and B are such that P (A )=0.65 , P (B )=0.45 and P (A ∪ B )=0.85 .\n(a) Find P (A ∩ B ) .\b [3]\n(b) Find P (A′ | B′ ).\b [3]",
+   "ms_text": "2. (a) use of ( P A ∪ B ) = P () A + P () B − P ( A ∩ B ) (M1)\nPA ( ∩ B ) = 0.65 + 0.45 − 0.85 (or equivalent) (A1)\n= 0.25 A1\n[3 marks]\n(b) P ( A ′ ∩ B ′ ) = 0.15 (may be seen in Venn diagram) (A1)\n( ′ ∩ ′ ) P A B\nattempt to substitute their values into ( ′ ′= ) P AB | (M1)\nP ( B ′ )\n0.15\nP ( AB ′ | ′= )\n0.55\n15 3\n= = A1\n55 11\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nTwo events $A$ and $B$ are such that $P(A) = 0.65$, $P(B) = 0.45$ and $P(A \\cup B) = 0.85$.\n(a) Find $P(A \\cap B)$. [3]\n(b) Find $P(A' \\mid B')$. [3]"
+  },
+  {
+   "id": "math-2024-N-P1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 4]\nProve that (3n + 2)2-(3n- 2)2 is a multiple of 12 for all n∈′+ .",
+   "ms_text": "3. METHOD 1\n2 2\nattempt to expand ( ) ( ) 3 n + 2 − 3 n − 2 M1\n2 2\nNote: Award M0 for invalid attempts such as ( 3 n + 2 ) = 9 n + 4 .\n2 2 = 9\nn + 12 n + 4 − ( 9 n − 12 n + 4 ) or equivalent A1\n= 24n OR 12 n + 12 n A1\nn OR 24 OR 24\n= 122n ( ) 2 = 12 n OR 12 n + 12 n = 12 ( n + n ) (or equivalent) R1\n12=\n2\nso is a multiple of 12 AG\nNote: Do not award the R1 unless both A marks have been awarded.\nMETHOD 2\n2 2 use of a − b = ( a + b )( a − b ) where a = 3 n + 2, b = 3 n − 2 M1\n= ( 3 n + 2 + 3 n − 2 )( 3 n + 2 − 3 n + 2 )\n= 6 n × 4 A1\n= 24n A1\nn n\n( ) OR 24 OR 24 ( ) = 122n = 2 n = 12 n OR 12 n + 12 n = 12 n + n (or equivalent)\n12 2\nR1\nso is a multiple of 12 AG\nNote: Do not award the R1 unless both A marks have been awarded.\nMETHOD 3\n2 2\nbase case n = 1: 31 ( () + 2 ) − ( 31 () − 2 ) = 251 −= 24\nso true for n = 1 A1\n2 2\n= ( + ) − ( − ) assume true for n k i.e. 3 k 2 3 k 2 is a multiple of 12 M1\nconsider n = k +: 1\n2 2\n( 3 ( k + 1 ) + 2 ) − ( 3 ( k + 1 ) − 2 )\n2 2\n( ( 3 k + 2 ) + 3 ) − ( ( 3 k − 2 ) + 3 )\n2 2\n( ) ( ) ( ( ) ( ) ) 3 k + 2 + 63 k + 2 + 9 − 3 k − 2 + 63 k − 2 + 9\n2 2\n( 3 k + 2 ) − ( 3 k − 2 ) + 24\n2 2\nusing the assumption( + ) − ( − ) = 3 k 2 3 k 2 12 M\n12 M+ 24\n12 ( M+ 2 )\nwhich is a multiple of 12, hence true for n = k + 1 A1\nsince true for n =, and true for n 1 = k implies true for n = k + 1\n+ therefore, true for all n\n∈′ R1\nNote: Do not award the R1 unless both A marks have been awarded.\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 4]\nProve that $(3n+2)^2 - (3n-2)^2$ is a multiple of $12$ for all $n \\in \\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2024-N-P1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nThe following diagram shows triangle ABC , where AB=4 cm , BC=6 cm , AC=5 cm and\nAB̂C=2q .\ndiagram not to scale\nB\n2 θ 4cm\n6cm\nA\n5cm\nC\nFind the exact value of cosq , giving your answer in the form p 2, where p , q∈′+ .\nq",
+   "ms_text": "4. attempt to substitute into cosine rule (M1)\n2 2 2 4 + 6 − 5\n2 2 2 ( cos2 θ = ) 5 = 4 + 6 −××× 246cos2θ\nOR\n246 ××\n9\n)27 ( cos2 θ = =\n(A1)\n48 16\n2\nattempt to use cos2 θ = 2cos θ − 1 (M1)\n27 9\n1 + 1 +\n48 16 2\ncos θ = =\n2 2\n75 25\n2 cos θ = =\nA1\n96 32\n75 25 5\n() cos θ=± = =\n(A1)\n96 32 32\n5\n=\n42\n52\n= ( ) p = 5, q = 8 A1\n8\nNote: The final answer must be positive.\n[ 6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nThe following diagram shows triangle ABC, where AB = 4 cm, BC = 6 cm, AC = 5 cm and $\\hat{ABC} = 2\\theta$.\n[Diagram (not to scale): triangle ABC with AB = 4 cm, BC = 6 cm, AC = 5 cm, angle $2\\theta$ at B]\nFind the exact value of $\\cos\\theta$, giving your answer in the form $\\frac{p\\sqrt{2}}{q}$, where $p, q \\in \\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2024-N-P1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nFor a particular arithmetic sequence, u10=16 and S25=100 .\nFind the value of k such that uk=0 .",
+   "ms_text": "n n\n( ) [ ] 5. attempt to use u = u + ( n − 1 ) d or S = 2 u + n − 1 d or S = u + u to\nn 1 n 1 n 1 n 2 2\nset up at least one equation in 1u and d (M1)\n25\n16 = u + 9 d and 100 = [ 2 u + 24 d ] (A1)\n1 1\n2\nattempt to solve their two linear equations in 1u and dsimultaneously(must eliminate\none variable) (M1)\nd = − 4 ( ⇒ u = 52 ) A1\n1\nattempt to solve 0 ku= with their d (or with their d and 1u) (M1)\n⇒ k = 14 A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nFor a particular arithmetic sequence, $u_{10} = 16$ and $S_{25} = 100$.\nFind the value of $k$ such that $u_k = 0$."
+  },
+  {
+   "id": "math-2024-N-P1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 5]\n(a) Solve 2x2-15x+18<0 .\b [3]\n2\n(b) The function f is defined by fx ��� 2 x � 15 x � 18 , where x∈ϒ , x≤k .\nFind the greatest value of k for which f-1 exists, justifying your answer.\b [2]",
+   "ms_text": "6. (a) attempt to find critical values (M1)\n3, x = x = 6\n(A1)\n2\n3\n< x < 6 A1\n2\nNote: Allow equivalent, and/or interval notation.\n[3 marks]\n3\n(b) k= A1\n2\n2\nsince we require 2 x − 15 x + 18 ≥ 0 (and f must be one to one) R1\nOR\n3\nDoes not obey horizontal line test for x ≥ R1\n2\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.7",
+    "2.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 5]\n(a) Solve $2x^2 - 15x + 18 < 0$. [3]\n(b) The function $f$ is defined by $f(x) = \\sqrt{2x^2 - 15x + 18}$, where $x \\in \\mathbb{R}$, $x \\le k$.\nFind the greatest value of $k$ for which $f^{-1}$ exists, justifying your answer. [2]"
+  },
+  {
+   "id": "math-2024-N-P1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\n� � � �.\nConsider the function fx ��� sec x � , for 0 � x �\n�� �� 4 2\nDetermine the range of f .\b (a) [3]\nThe region bounded by the graph of y=f(x) , the x-axis and the lines x=0 and x ��\n2 is rotated 2p radians about the x-axis.\n(b) Find the volume of revolution generated.\b [4]",
+   "ms_text": "π π\nf f = f () 0 = 2, = 1 2\n7. (a) attempt to find or or sketch of graph (M1)\n4 2\n1 ≤ fx () ≤ 2 A1A1\nNote: AwardA1A0 for strong inequality seen. Allow equivalent, and/or interval notation.\n[3 marks]\nπ\n2 π\n2\n(b) consider πsec ∫ x − d x M1\n4\n0\nNote: For the M1, condone incorrect or missing limits and omission of π .\nπ\nπ 2\n= πtan x − A1\n4\n0\nπ π\n= πtan − tan − (A1)\n4 4\n= π1 ( −− ( 1 ) )\n= 2π A1\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.17",
+    "5.15",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nConsider the function $f(x) = \\sec\\left(x - \\frac{\\pi}{4}\\right)$, for $0 \\le x \\le \\frac{\\pi}{2}$.\n(a) Determine the range of $f$. [3]\nThe region bounded by the graph of $y = f(x)$, the $x$-axis and the lines $x = 0$ and $x = \\frac{\\pi}{2}$ is rotated $2\\pi$ radians about the $x$-axis.\n(b) Find the volume of revolution generated. [4]"
+  },
+  {
+   "id": "math-2024-N-P1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\n� �\nThe following diagram shows two points A and B such that OA �a , OB �b .\nB\nP\nA\nb\na\nO\n� �\n�� The point P lies on (AB) so that AP AB where 0<l<1 .\n�\n(a) Show that OP � � 1� � �� a � b .\b [1]\n�1\nIt is given that |a|=1 , |b|=2 and ab � .\n4\n→ →\n(b) In the case that OP is perpendicular to AB , find the value of l . \b [7]",
+   "ms_text": "→\n= + λ ( − ) 8. (a) OP a b a A1\n= ( 1λ − ) a + λ b AG\n[1 mark]\n(b) METHOD 1\n→ →\nrecognition that OPAB ⋅ = 0 (may be seen anywhere) (M1)\n( 1 − λ ) a + λ b . [ b − a ]( = 0 ) A1\nattempt to multiply out scalar product M1\n( 1 − λ ) a b . + λ b b . − ( 1 − λ ) a a . − λ b a . ( = 0 ) (A1)\nattempt to substitute for .a b and aand b(M1)\nλ\n11 ( − λ ) + 4 λ − ( 1 − λ ) − ( = 0 )\n(A1)\n4 4\n1 − λ + 16 λ −+ 4 4 λ − λ = 0\n18 λ − 3 = 0\n1\nλ = A1\n6\nMETHOD 2\na b . 1\ncos AOB = = A1\nab 8\nattempt to use cosine rule to find AB M1\n1 2 2 2\nAB = 1 + 2 − 21 ()() 2\n8\n32\nAB = A1\n2\nattempt to apply Pythagoras’ Theorem twice: M1\n2\n2 32\nOP + λ = 1 and\n2\n2\n2 321\nOP + ( − λ ) = 4 A1\n2\nattempt to solve simultaneously: M1\n9 9 2\n2 ( 1 − λ ) − λ = 3\n2 2\n1\nλ = A1\n6\n[7 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\nThe following diagram shows two points A and B such that $\\vec{OA} = \\boldsymbol{a}$, $\\vec{OB} = \\boldsymbol{b}$.\n[Diagram: O with vectors a to A and b to B; line (AB) with point P between A and B]\nThe point P lies on (AB) so that $\\vec{AP} = \\lambda\\vec{AB}$ where $0 < \\lambda < 1$.\n(a) Show that $\\vec{OP} = (1-\\lambda)\\boldsymbol{a} + \\lambda\\boldsymbol{b}$. [1]\nIt is given that $|\\boldsymbol{a}| = 1$, $|\\boldsymbol{b}| = 2$ and $\\boldsymbol{a}\\cdot\\boldsymbol{b} = \\frac{1}{4}$.\n(b) In the case that $\\vec{OP}$ is perpendicular to $\\vec{AB}$, find the value of $\\lambda$. [7]"
+  },
+  {
+   "id": "math-2024-N-P1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 9]\n� � � � � sin 2 � � 1 2 n � 1\n�, n∈′ .\b\n(a) Prove that tan � � , where �� [6]\n�� ��� 4 cos 2 � 4\nx 1 Hence, or otherwise, solve sin ��\n(b) 3 for 0≤x≤2p . \b [3]\ncos x",
+   "ms_text": "9. (a) METHOD 1\ntan A − tan B\ntan ( A − B ) attempt to use identity\n≡+ M1\n1 tan A tan B\nπ tan θ − 1\ntan θ − = A1\n4 1tan + θ\nattempt to write their RHS in terms of sinθand cosθ M1\nsin θ\n− 1\ncos θ θ − cos θ OR sin\nsin θ cos θ + sin θ\n1 +\ncos θ\nθ − sin θ\nmultiply through by the conjugate of the denominator cos\nM1\ncos θ − sin θ\n− sin 2 θ − cos 2 θ + 2sin θ cos θ\n= A1\n2 2 cos θ − sin θ\n( 2 2 ) − sin θ + cos θ − 2sin θ cos θ\n=\n2 2 cos θ − sin θ\n− ( 1sin 2 − θ )\n= A1\n2 2 cos θ − sin θ\nsin 2 θ − 1\n= AG\ncos2 θ\nMETHOD 2\nπ\ntan θ − attempt to write in terms of sin and cos: M1\n4\nπ\nsin θ −\nπ 4\ntan θ − =\n4 π\ncos θ −\n4\nattempt to use both sin and cos addition formulae: M1\nπ π\nsin θ cos − cos θ sin\n4 4\n=\nπ π\ncos θ cos + sin θ sin\n4 4\nθ − θ sin cos\n= A1\ncos θ + sin θ\nθ − sin θ\nmultiply through by the conjugate of the denominator cos\nM1\ncos θ − sin θ\n− sin 2 θ − cos 2 θ + 2sin θ cos θ\n= A1\ncos 2 θ − sin 2 θ\n( 2 2 ) − sin θ + cos θ − 2sin θ cos θ\n=\n2 2 cos θ − sin θ\n− ( 1sin 2 − θ )\n= A1\n2 2 cos θ − sin θ\nsin 2 θ − 1\n= AG\ncos2 θ\nMETHOD 3\ntan A − tan B\n( ) attempt to use given identity tan A − B M1\n≡+\n1 tan A tan B\nπ tan θ − 1\ntan θ − = A1\n4 1tan + θ\n− θ\nmultiply through by the conjugate of the denominator 1tan\nM1\n1tan − θ\n( tan θ − 1 ) ( 1 − tan θ )\n⋅ A1\n( 1 + tan θ ) ( 1 − tan θ )\n2 2 2tan θ − tan θ − 1 2tan θ − sec θ\n=\n2 2 1tan − θ 1tan − θ\nattempt to write their RHS in terms of sinθand cosθ M1\nsin θ 1\n−\n2 cos\nθ cos 2 θ\n=\n2 sin θ\n1 −\n2 cos θ\n2sin θ cos θ − 1\n= A1\n2 2 cos θ − sin θ\nsin 2 θ − 1\n= AG\ncos2 θ\n[6 marks]\nx\nx = 2 θ ⇒ θ = (b) recognition that M1\n2\nx π\ntan − = 3\n2 4\nx π π 4π\n− = , A1\n2 4 3 3\n7π\nx = A1\n6\nNote: Award A0 if extra solutions outside the domain are seen.\n[3 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.6",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 9]\n(a) Prove that $\\tan\\left(\\theta - \\frac{\\pi}{4}\\right) \\equiv \\frac{\\sin 2\\theta - 1}{\\cos 2\\theta}$, where $\\theta \\ne \\frac{(2n+1)\\pi}{4}$, $n \\in \\mathbb{Z}$. [6]\n(b) Hence, or otherwise, solve $\\frac{\\sin x - 1}{\\cos x} = \\sqrt{3}$ for $0 \\le x \\le 2\\pi$. [3]"
+  },
+  {
+   "id": "math-2024-N-P1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 17]\nConsider a cylinder of radius 4r and height h . A smaller cylinder of radius r is removed from\nthe centre to form a hollow cylinder. This is shown in the following diagram.\nAll lengths are measured in centimetres.\ndiagram not to scale\nr 3r\nh\nThe total surface area of the hollow cylinder, in cm2 , is given by S .\nThe volume of the hollow cylinder, in cm3 , is given by V .\n(a) Show that S=30pr2+10prh .\b [3]\n(b) The total surface area of the hollow cylinder is 240pcm2 .\nShow that V=360pr-45pr3 .\b [6]\nV Find an expression for d\n(c) .\b [2]\nd r\n2\nThe hollow cylinder has its maximum volume when r = p , where p∈′+ .\n3\n(d) Find the value of p .\b [3]\nHence, find this maximum volume, giving your answer in the form qp2\n(e) , where q∈′+ .\b[3]\n3",
+   "ms_text": "π ( ) 10. (a) outer curved surface area is 2 4rh AND inner curved surface area is 2rh π\n(A1)\n2 2\narea of each base (top and bottom) is π ( 4r ) − π r (A1)\n2 2\nS = 2 π ( 4 r ) − π r + 2 π ( 4 rh ) + 2 π rh A1\n2 = 30 π r + 10 π rh\nAG\n[3 marks]\n2\n(b) 30 π r + 10 π rh = 240 π\nattempt to solve their equation for h or rh in terms of r (must isolate h or rh )\n(M1)\n2 2 2 240 − 30 r 24 − 3 r\n240 − 30 r 2\nh = = OR rh = ( = 24 − 3 r ) (or equivalent)\n10 r r 10\nA1\nuses volume = large cylinder – small cylinder (M1)\n2 2 ( 2 2 2 )\nV = π ( 4 r ) h −π rh = 16 π rh − π rh = 15 π rh A1\nattempt to substitute in for h or rh (M1)\n2 2 224 − 3 r 240 − 30 r\n2 V = 15 π r\nOR V = 15 π r ( = 15 π r ( 24 − 3 r ) ) OR\nr 10\n3 3 384 π r − 48 π r − 24 π r + 3 π r\nA1\n3 = 360 π− r 45 π r\nAG\n[6 marks]\nd V\n(c) 360 π − 135 π 2 r A1A1\nr=\nd\n[2 marks]\n(d) METHOD 1 (working with r)\nV recognition that (for a maximum) d\n0 M1\nr=\nd\n2 360 π − 135 π r = 0\n360 8\n2 r = =\n135 3\n360 8\nr = = A1\n135 3\n2\np = 2 OR r = A1\n23\n2\nMETHOD 2 (working with p )\n3\nV recognition that (for a maximum) d\n0 M1\nr=\nd\n2\n2\n360 π − 135 π p = 0\n3\n2\n36090 − = 0 p\n2 p= 4\nA1\n2\np = 2 r = OR\n23 A1\n[3 marks]\nattempt to substitute their value of r into 3 (e) V = 360 π− r 45 π r M1\n3\n2 2\nV = 360π2 × − 45π 2 ×\n3 3\n2 2 2\n= 360π2 × − 45π8 ×× ×\n3 3 3\n2 2\n= 720π − 240π (A1)\n3 3\n2\n=\n480π3 A1\n[3 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.1",
+    "5.8",
+    "5.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 17]\nConsider a cylinder of radius $4r$ and height $h$. A smaller cylinder of radius $r$ is removed from the centre to form a hollow cylinder. This is shown in the following diagram.\nAll lengths are measured in centimetres.\n[Diagram (not to scale): hollow cylinder of height h, inner radius r, wall thickness 3r]\nThe total surface area of the hollow cylinder, in $\\text{cm}^2$, is given by $S$.\nThe volume of the hollow cylinder, in $\\text{cm}^3$, is given by $V$.\n(a) Show that $S = 30\\pi r^2 + 10\\pi rh$. [3]\n(b) The total surface area of the hollow cylinder is $240\\pi\\text{ cm}^2$.\nShow that $V = 360\\pi r - 45\\pi r^3$. [6]\n(c) Find an expression for $\\frac{dV}{dr}$. [2]\nThe hollow cylinder has its maximum volume when $r = p\\sqrt{\\frac{2}{3}}$, where $p \\in \\mathbb{Z}^+$.\n(d) Find the value of $p$. [3]\n(e) Hence, find this maximum volume, giving your answer in the form $q\\pi\\sqrt{\\frac{2}{3}}$, where $q \\in \\mathbb{Z}^+$. [3]"
+  },
+  {
+   "id": "math-2024-N-P1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 17]\nx e 2 � 1\nA curve is given by the equation y � , x∈ϒ .\n2 x � e 1\n� 2 x � e � 1\n(a) By applying l’Hôpital’s rule or otherwise, show that lim 1. \b [2]\n�� 2 x ��� x �� e � 1\n2 x y 4 e\nShow that d\n(b) (i) � 2.\nd x � 2 x � e � 1\nd y 2\n(ii) Hence, show that 1 � y � .\b [6]\nd x\n2 y\nBy using implicit differentiation and the result in part (b)(ii), show that d 3\n(c) (i) � 2 y � 2 y .\n2 d x\n3 y\nHence, find an expression for d\n(ii) in terms of y .\b [5]\n3 d x\n2 x � 1\nBy using your results from parts (b) and (c), find the Maclaurin series for e\n(d) up to\n2 x e � 1\nand including the term in x3 .\b [4]",
+   "ms_text": "11. (a) EITHER\nattempt to usel’Hôpital’s (M1)\n2 x 2 x e − 1 2e\nlim = lim A1\nx →∞ 2 x + x →∞ 2 x e 1 2e\nOR\nattempt to divide each term by 2ex (M1)\n2 x − 2 x e − 1 1 − e\nlim = lim A1\n2 x − 2 x x →∞ e + 1 x →∞ 1 + e\nTHEN\n= 1 AG\n[2 marks]\n(b) (i) attempt to use quotient rule or product rule M1\n( 2 x ) 2 x ( 2 x ) 2 x\nd e + 12e − e − 12e y\n= A1A1\n2 d\nx ( 2 x ) e + 1\nNote: AwardA1 for first term in numerator, A1 for second term in numerator.\nIf denominator is incorrect award A1A0.\n2 x 4e\n= AG\n2 2 x\n( e + 1 )\n(ii) attempt to substitute for y and express as a single fraction M1\n2 2 x\n( e − 1 )\n− 2 =− 1 y 1\n2\n( 2 x ) e + 1\n2 2\n( e 2 x + 1 ) − ( e 2 x − 1 )\n= or equivalent (A1)\n2 2 x\n( e + 1 )\n4 x 2 x 4 x 2 x e + 2e +− 1 ( e − 2e + 1 )\n2 x 2e × 2\n= OR A1\n2 2 x 2\n( e + 1 ) ( e 2 x + 1 )\n2 x 4e\n= AG\n2 2 x\n( e + 1 )\n[6 marks]\n(c) (i) attempt to use implicit differentiation M1\n2 d y d y\n=− 2 y A1\n2 d x d x\n2 = − 2 y ( 1 − y ) A1\n3 =\n2 y − 2 y AG\n3 d y d y\n( 2 ) (ii) = 6 y − 2 A1\n3 d x d x\n= ( 6 y 2 − 21 )( − y 2 )( = 8 y 2 − 6 y 4 − 2 ) A1\n[5 marks]\n(d) attempt to evaluate at least three of , yyyy ′ , ′′ , ′′′ at x = 0 (M1)\ny () 0 = 0 , y′ () 0 = 1 , y′′ () 0 = 0 , y′′′ () 0 = − 2 A1\ny ′′ () 0 y ′′′ () 0\n2 3 attempt to use Maclaurin series y ≈ y () 0 + y ′ () 0 x + x + x +Κ\n2! 3!\nM1\n( − ) 2\ny ≈ 0 + 1 x + 0 x 2 + x 3 +Κ\n3!\n3 x\ny ≈ x − A1 +Κ\n3\n[4 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.14",
+    "5.19",
+    "5.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 17]\nA curve is given by the equation $y = \\frac{e^{2x} - 1}{e^{2x} + 1}$, $x \\in \\mathbb{R}$.\n(a) By applying l'Hôpital's rule or otherwise, show that $\\lim_{x \\to \\infty}\\left(\\frac{e^{2x} - 1}{e^{2x} + 1}\\right) = 1$. [2]\n(b) (i) Show that $\\frac{dy}{dx} = \\frac{4e^{2x}}{(e^{2x} + 1)^2}$.\n(ii) Hence, show that $1 - y^2 = \\frac{dy}{dx}$. [6]\n(c) (i) By using implicit differentiation and the result in part (b)(ii), show that $\\frac{d^2y}{dx^2} = 2y^3 - 2y$.\n(ii) Hence, find an expression for $\\frac{d^3y}{dx^3}$ in terms of $y$. [5]\n(d) By using your results from parts (b) and (c), find the Maclaurin series for $\\frac{e^{2x} - 1}{e^{2x} + 1}$ up to and including the term in $x^3$. [4]"
+  },
+  {
+   "id": "math-2024-N-P1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 20]\nConsider the equation z4=16i , where z∈≤ .\nThe equation has four roots z1 , z2 , z3 , z4 , where zi=r (cos qi+i sin qi ) , r>0\nand 0≤q1<q2<q3<q4<2p .\n(a) Find z1 , z2 , z3 and z4 .\b [6]\nThe roots z1 , z2 , z3 and z4 form a geometric sequence.\n(b) Find the common ratio of the sequence, expressing your answer in Cartesian form.\b [3]\nThe roots z1 , z2 , z3 and z4 are represented by the points A , B , C and D respectively on an\nArgand diagram.\n(c) Plot the points A , B , C and D on an Argand diagram.\b [3]\nThe equation v4=a+bi , where v∈≤ and a , b∈ϒ has roots z1 * , z2 * , z3 * and z4 * .\n(d) Determine the value of a and the value of b . \b [3]\nThe midpoint of [AB] is A′ , the midpoint of [BC] is B′ , the midpoint of [CD] is C′ and the\nmidpoint of [DA] is D′ .\nConsider the equation w p=2q , where w∈≤ and p , q∈′+ .\nFour of the roots of w p=2q are represented by the points A′ , B′ , C′ and D′ .\nFind the least possible value of p and the corresponding value of q .\b (e) [5]\n\b",
+   "ms_text": "π\n( ) 12. (a) 16i = 16 and arg16i = (A1)\n2\nattempt to use De Moivre’s Theorem (M1)\nπ π\nz = 2cos + isin A1\n1\n8 8\nπ π k π π k\nattempts to find other solutions using z = 2cos + + isin + or\n8 2 8 2\nequivalent (M1)\n5π 5π\n= 2cos + isin z (or any other root) A1\n2\n8 8\n9π 9π 13π 13π\nz = 2cos + isin and z = 2cos + isin A1\n3 4\n8 8 8 8\nNote: Award a maximum of (A1)(M1)A1(M1)A1A0 for more than four roots or any\nroots outside the range.\nNote:Allow use of r-cis form throughout.\n[6 marks]\nz\n2 (b) attempt to evaluate a ratio with their roots eg\n(M1)\nz\n1\n5π 5π\n+ 2cos isin\nz 8 8\n2 = or equivalent\nz π π\n1 + 2cos isin\n8 8\nπ π\n= cos + isin (A1)\n2 2\n= i A1\n[3 marks]\n(c)\npoint A in approximately correct place in first quadrant A1\npoints A, B, C and D approximately the same distance from the origin A1\napproximate angular separation of π\nA1\n2\nNote: Dotted lines not required.\n[3 marks]\n(d) EITHER\n4 * * 4\n( z ) = ( z )\ni i (A1)\n*\n= ( ) 16i (A1)\nOR\nπ π *\nz = 2cos − +isin − (A1)\n1\n8 8\n4π 4π * 4 4\n() z = 2 cos − +isin −\n1 (A1)\n8 8\nOR\nz zzz= − 16i (A1)\n12 3 4\n* *\n( z zzz ) =− ( 16i )\n12 3 4\nzzzz * * * * = 16i (A1)\n1 2 3 4\nTHEN\n4 ( z=− ) 16i A1\n( ) a = 0, b = − 16\n[3 marks]\nπ π 3π\nw (e) arg = + = A1\n1\n8 4 8\n2 2 AB = 2 + 2 = 8 = 22\n⇒ AA ′ = 2\n⇒ OA ′ = w = 2 A1\n1\n3π\n∴ w =\n1 2cis8\n+ considers when arg ( w p ) ∈′ (multiple of 2π ) (M1)\n1\n⇒ p = 16 A1\n⇒ q = 8 A1\n[5 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 20]\nConsider the equation $z^4 = 16i$, where $z \\in \\mathbb{C}$.\nThe equation has four roots $z_1, z_2, z_3, z_4$, where $z_i = r(\\cos\\theta_i + i\\sin\\theta_i)$, $r > 0$ and $0 \\le \\theta_1 < \\theta_2 < \\theta_3 < \\theta_4 < 2\\pi$.\n(a) Find $z_1, z_2, z_3$ and $z_4$. [6]\nThe roots $z_1, z_2, z_3$ and $z_4$ form a geometric sequence.\n(b) Find the common ratio of the sequence, expressing your answer in Cartesian form. [3]\nThe roots $z_1, z_2, z_3$ and $z_4$ are represented by the points A, B, C and D respectively on an Argand diagram.\n(c) Plot the points A, B, C and D on an Argand diagram. [3]\nThe equation $v^4 = a + bi$, where $v \\in \\mathbb{C}$ and $a, b \\in \\mathbb{R}$ has roots $z_1^*, z_2^*, z_3^*$ and $z_4^*$.\n(d) Determine the value of $a$ and the value of $b$. [3]\nThe midpoint of [AB] is A′, the midpoint of [BC] is B′, the midpoint of [CD] is C′ and the midpoint of [DA] is D′.\nConsider the equation $w^p = 2^q$, where $w \\in \\mathbb{C}$ and $p, q \\in \\mathbb{Z}^+$.\nFour of the roots of $w^p = 2^q$ are represented by the points A′, B′, C′ and D′.\n(e) Find the least possible value of $p$ and the corresponding value of $q$. [5]"
+  }
+ ],
+ "status": "done"
+}

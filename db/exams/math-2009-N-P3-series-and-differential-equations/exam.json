@@ -1,0 +1,130 @@
+{
+ "exam_id": "math-2009-N-P3-series-and-differential-equations",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2009,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Series and differential equations",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2009 November Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2009 November Examination Session/Mathematics_paper_3_Series_and_differential_equations_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8809-7208; code N09/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2009-N-P3-series-and-differential-equations-q1",
+   "num": "1",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 13]\nSolve the differential equation\n2 d y y y\n= + 2 (where x > 0 )\nd x x x\ngiven that y = 2when x =1. Give your answer in the form y = fx () .",
+   "ms_text": "y d v vx so that d\n1. put y v x M1A1\nd x d x\nd v 2\nthe equation becomes v x v v (A1)\nd x\nd v\nleading to x v 2 A1\nd x\nd x d v\nseparating variables, M1A1\n2 x v\n1 hence ln x v C A1A1\nx\nsubstituting for v, ln x C M1\ny\nNote: Do not penalise absence of C at the above stages.\nsubstituting the boundary conditions,\n1\n0 C M1\n2\n1\nC A1\n2\nx 1\nthe solution is ln x (A1)\ny 2\n2 x\nleading to y A1\nx (or equivalent form)\n1 2ln\nNote: Candidates are not required to note that x e .\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 13]\nSolve the differential equation\n$\\frac{dy}{dx} = \\frac{y}{x} + \\frac{y^2}{x^2}$ (where $x > 0$)\ngiven that $y = 2$ when $x = 1$. Give your answer in the form $y = f(x)$."
+  },
+  {
+   "id": "math-2009-N-P3-series-and-differential-equations-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\n( x − ) The function f is defined by fx () = ee 1.\n(a) Assuming the Maclaurin series for ex, show that the Maclaurin series for fx ()\n5 2 3\nis 1 + x + x + x + [5 marks]\n6\nfx () − 1\n[5 marks] (b) Hence or otherwise find the value of lim\n1. x →\n0 f ′ () x −",
+   "ms_text": "x 2 x 3 x\n2. (a) e 1 x ... A1\n2 6\n2 3 2 3 2 3\nx x x x\nx x\n2 3 2 6 2 6\nx x x\ne e 1 1 x ... M1A1\n2 6 2 6\n2 3 2 3 3 x x x x x\n1 x ... M1A1\n2 6 2 2 6\n5 2 3\n1 x x x ... AG\n6\n[5 marks]\n(b) EITHER\n2 5 x\nf () x 1 2 x ... A1\n2\n2 3 fx ()1 x x 5 x /6 ...\nM1A1\n2 f ()1 x 2 x 5 x /2 ...\n1 x ...\nA1\n2 5/ 2 x ...\n1as x 0 A1\n2\n[5 marks]\nOR\nusing l’Hopital’s rule, M1\n(e x 1) (e x 1) e 1 e 1\nlim lim M1A1\nx x 0 x 0 (e x 1)\n(e x 1) e 1 e 1 1\nx (e x 1)\ne\nlim A1\n(e x x 1) x x 0 e (e 1)\n1\nA1\n2\n[5 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\nThe function $f$ is defined by $f(x) = e^{(e^x - 1)}$.\n(a) Assuming the Maclaurin series for $e^x$, show that the Maclaurin series for $f(x)$ is $1 + x + x^2 + \\frac{5}{6}x^3 + \\ldots$. [5 marks]\n(b) Hence or otherwise find the value of $\\lim_{x \\to 0} \\frac{f(x) - 1}{f'(x) - 1}$. [5 marks]"
+  },
+  {
+   "id": "math-2009-N-P3-series-and-differential-equations-q3",
+   "num": "3",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 9]\n2 2 n\n+ The sequence {\nun is defined for n∈ } ′ by u n= .\nn 2 + 1\n(a) Find the value L of lim u . [2 marks]\nn n →∞\n(b) Use the formal ε, N definition of convergence to prove that lim u = L . [7 marks]\nn n →∞",
+   "ms_text": "2\n3. (a) nu M1\n1\n1\n2 n\n2 as n A1\nL 2\n[2 marks]\n(b) for 2 u then 2 M1\nn nu\n2 2 n\nand so we require 2 M1\n2 n 1\n2\nA1\n2 n 1\n2\nn 1 (M1)A1\n2\nwe have shown that, given 0 , there exists an integer N 1 such\nthat 2 for n N, which establishes the limit R2 nu\n2\nNote: Do not penalise N 1 .\n[7 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 9]\nThe sequence $\\{u_n\\}$ is defined for $n \\in \\mathbb{Z}^+$ by $u_n = \\frac{2n^2}{n^2 + 1}$.\n(a) Find the value $L$ of $\\lim_{n \\to \\infty} u_n$. [2 marks]\n(b) Use the formal $\\varepsilon$, $N$ definition of convergence to prove that $\\lim_{n \\to \\infty} u_n = L$. [7 marks]"
+  },
+  {
+   "id": "math-2009-N-P3-series-and-differential-equations-q4",
+   "num": "4",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 13]\n∞ 1\nConsider the infinite series ∑ .\n1nn ( + 3 ) n =\n(a) Using one of the standard tests for convergence, show that the series is convergent. [3 marks]\n1\n(b) (i) Express in partial fractions.\nnn ( + 3 )\n(ii) Hence find the sum of the above infinite series. [10 marks]",
+   "ms_text": "1\n4. (a) use the comparison test with M1\nn, 2\n(which we know is convergent as it is a p-series with p 2 )\n1 1\nM1A1\n2 nn ( 3) n\nhence the given series is convergent AG\n[3 marks]\n(b) (i) let\n1 A B An ( 3) Bn\nM1A1\nnn ( 3) n n 3 nn ( 3)\n1\nn 0 gives A A1\n3\n1\nn 3 gives B A1\n3\n1 1\n1 3 3\nSo\nnn ( 3) n n 3\n1 1\n1 3 3\n(ii) (M1)(A1)\nnn ( 3) n n 3 n 1 n 1\n1 1\n3 3\nM1\n1 4\n1 1\n3 3\nA1\n2 5\n1 1\n3 3\n3 6\n1 1\n3 3\n4 7\n...\n1 1 11 all terms cancel except 1\nM1A1\n18 the required sum to infinity\n3 6 9\nNote: AwardM1 for attempting to find an expression for nS in the form\n1 1 1 1\nterms oforder\nn.\n3 6 9\n[10 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L1",
+    "1.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 13]\nConsider the infinite series $\\sum_{n=1}^{\\infty} \\frac{1}{n(n+3)}$.\n(a) Using one of the standard tests for convergence, show that the series is convergent. [3 marks]\n(b) (i) Express $\\frac{1}{n(n+3)}$ in partial fractions.\n(ii) Hence find the sum of the above infinite series. [10 marks]",
+   "review_note": "b(ii) telescoping sum of series tagged under 5.L1; partial fractions 5.15 | audit: partial fractions for telescoping sum (1.11), no integration; as 2013-N-P3-q1"
+  },
+  {
+   "id": "math-2009-N-P3-series-and-differential-equations-q5",
+   "num": "5",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 15]\n(a) Find the radius of convergence of the infinite series\n1 13 135 1357 ××× +× 2 +×× 3 4\nx x x + x +... . [7 marks]\n2 25 × 258 ×× 25811 ×××\n∞\nsin1 (b) Determine whether the series\n∑ + n π is convergent or divergent. [8 marks]\nn = n 1",
+   "ms_text": "5. (a) the nth term is\n135...(2 n 1) n\nu x M1A1\nn\n258...(3 n 1)\n(using the ratio test to test for absolute convergence)\nu (2 n 1)\nn 1 x M1A1\nu (3 n 2)\nn\nu 2 x\nn 1 lim A1\nn u 3\nn\nlet R denote the radius of convergence\nR 3 then 2\n1 so R M1A1\n3 2\nNote: Do not penalise the absence of absolute value signs.\n[7 marks]\n(b) using the compound angle formula or a graphical method the series can\nbe written in the form (M1)\nn 1 u where u (1)sin A2\nn n\nn n 1\nsince 1 i.e. an angle in the first quadrant, R1\nn 2\nit is an alternating series R1\nnu 0 as n R1\nand u u R1\nn 1 n\nit follows that the series is convergent R1\n[8 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L2",
+    "3.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 15]\n(a) Find the radius of convergence of the infinite series\n$\\frac{1}{2}x + \\frac{1\\times 3}{2\\times 5}x^2 + \\frac{1\\times 3\\times 5}{2\\times 5\\times 8}x^3 + \\frac{1\\times 3\\times 5\\times 7}{2\\times 5\\times 8\\times 11}x^4 + \\ldots$. [7 marks]\n(b) Determine whether the series $\\sum_{n=1}^{\\infty} \\sin\\left(\\frac{1}{n} + n\\pi\\right)$ is convergent or divergent. [8 marks]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,330 @@
+{
+ "exam_id": "math-2009-M-P1-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2009,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2009 May Examination Session/Mathematics_paper_1_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2009 May Examination Session/Mathematics_paper_1_TZ1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2209-7203; code M09/5/MATHL/HP1/ENG/TZ1/XX; marks sum matches expected total 120",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2009-M-P1-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\nConsider the complex numbers z =+ 1 2i and w = 2 + a i , where a∈ϒ.\nFind a when\n(a) w = 2 z ; [3 marks]\n(b) Re( zw ) = 2 Im( zw ) . [3 marks]",
+   "ms_text": "1. (a) z= 5 and w = 4 + a 2\nw = 2 z\n2 4 + a = 25\nattempt to solve equation M1\nNote: Award M0if modulus is not used.\na =± 4 A1A1 N0\n(b) zw = (2 − 2) a + (4 + a )i A1\nforming equation 2 − = + M1 2 a 2(4 a )\n3\na =− A1 N0\n2\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nConsider the complex numbers $z=1+2\\mathrm{i}$ and $w=2+a\\mathrm{i}$, where $a\\in\\mathbb{R}$.\nFind $a$ when\n(a) $|w|=2|z|$; [3 marks]\n(b) $\\mathrm{Re}(zw)=2\\,\\mathrm{Im}(zw)$. [3 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nThe diagram below shows a curve with equation y =+ 1 k sin x , defined for 0 ≤ x ≤ 3 π.\ny\nB\nx\nA\nThe point Aπ ,− 2 ,) is the maximum point.\nlies on the curve and B(ab\n6\n(a) Show that k= −6. [2 marks]\n(b) Hence, find the values of a and b . [3 marks]",
+   "ms_text": "π\n2. (a) −=+ 2 1 k M1\nsin6\n1\n−= 3 A1\n2k\nk=− 6 AG N0\n(b) METHOD 1\nmaximum ⇒ sin x =− 1 M1\nπ 3\na = A1\n2\nb =− − 1 6(1)\n= 7 A1 N2\nMETHOD 2\ny′= 0 M1\nπ3π\n= ⇒ = k cos x 0 x , , ...\n2 2\n3 π\na = A1\n2\nb =− 1 6(1) −\n= 7 A1 N2\nπ\nNote: Award A1A1 for 3, 7 .\n2\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.7",
+    "3.5"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nThe diagram below shows a curve with equation $y=1+k\\sin x$, defined for $0\\le x\\le 3\\pi$.\n[Diagram: sine-type curve starting above the x-axis at x = 0, dipping to a minimum, rising to a maximum point B, then down to a second minimum and back up; point A marked on the first descending section below the x-axis]\nThe point $\\mathrm{A}\\left(\\frac{\\pi}{6},-2\\right)$ lies on the curve and $\\mathrm{B}(a,b)$ is the maximum point.\n(a) Show that $k=-6$. [2 marks]\n(b) Hence, find the values of $a$ and $b$. [3 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nLet gx () = log 2 log x . Find the product of the zeros of g .\n5 3",
+   "ms_text": "3. gx= () 0\nlog 2log x= 0 (M1)\n5 3\nx= 2log 1 A1\n3\n1\nlog x =± (A1)\n3\n2\n1 ±\nx = 3 2 A1\n1 1 −\nso the product of the zeros of g is 3 2 × 3 2 = 1 A1 N0\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nLet $g(x)=\\log_5|2\\log_3 x|$. Find the product of the zeros of $g$."
+  },
+  {
+   "id": "math-2009-M-P1-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\ne x e − x\nConsider the matrix A = , where x∈ϒ.\nx 2 + e 1\nFind the value of x for which A is singular.",
+   "ms_text": "− 4. finding det A = e x − e(2 x + e) x or equivalent A1\nA is singular ⇒ det A = 0 (R1)\nx − x x e − e(2 + e) = 0\nx x 2e − e − 2 = 0 A1\nsolving for ex (M1)\nase x> 0 (or equivalent explanation) (R1)\ne x= 2\nx = ln 2 (only) A1 N0\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.L1",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nConsider the matrix $A=\\begin{pmatrix}\\mathrm{e}^x & \\mathrm{e}^{-x}\\\\ 2+\\mathrm{e}^x & 1\\end{pmatrix}$, where $x\\in\\mathbb{R}$.\nFind the value of $x$ for which $A$ is singular."
+  },
+  {
+   "id": "math-2009-M-P1-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\n1 1\n(a) Show that arctan arctan =π . [2 marks]\n+\n2 3 4\n(b) Hence, or otherwise, find the value of arctan () 2 + arctan () 3 . [3 marks]",
+   "ms_text": "5. (a) METHOD 1\n1 1 1 1\n= ⇒ = = ⇒ = let x arctan tan x and y arctan tan y\n2 2 3 3\n1 1\n+\ntan x + tan y 2 3\ntan( x + y ) = = = 1 M1\n1 − tantan x y 1 1\n− × 1\n2 3\nπ\nso, x + y = arctan1 = A1AG\n4\nMETHOD 2\nx + y\nfor, xy > ,arctan x + arctan y = if xy < 1 M1 0\narctan1 −\nxy\n1 1\n+\nπ 1 1 2 3\nso, arctan + arctan = arctan = A1AG\n2 3 1 1 4\n1 − ×\n2 3\nMETHOD 3\nan appropriate sketch M1\ne.g.\nπ\ncorrectreasoningleadingto R1AG\n4\n(b) METHOD 1\nπ 1 π 1\narctan(2) + arctan(3) = − arctan + − arctan (M1)\n2 2 2 3\n1 1\n=π− arctan + arctan (A1)\n2 3\nNote: Only one of the previous two marks may be implied.\nπ π 3\n=π− = A1 N1\n4 4\nMETHOD 2\nx = arctan2 ⇒ tan x = 2 = ⇒ = let and y arctan3 tan y 3\n+ + tan x tan y 2 3\ntan( x + y ) = = =− 1 (M1)\n1 − tantan x y 1 −× 23\nπ π π\n< < accept0 < x < x\nas 4\n2 2\nπ π π\n< < accept0 < y < y\nand 4\n2 2\nπ<\nx + y <π (accept 0 < x + y <π) (R1)\n2\nNote: Only one of the previous two marks may be implied.\n3 π\nso, x + y = A1 N1\n4\nMETHOD 3\nx + y\nfor, xy > 0 ,arctan x + arctan y = +π if xy > 1 (M1)\narctan1 −\nxy\n2 + 3\nso, arctan 2 + arctan3 = +π (A1)\narctan1 −×\n23\nNote: Only one of the previous two marks may be implied.\n3 π\n= A1 N1\n4\nMETHOD 4\nan appropriate sketch M1\ne.g.\nπ\ncorrectreasoningleadingto3 R1A1\n4\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\n(a) Show that $\\arctan\\left(\\frac{1}{2}\\right)+\\arctan\\left(\\frac{1}{3}\\right)=\\frac{\\pi}{4}$. [2 marks]\n(b) Hence, or otherwise, find the value of $\\arctan(2)+\\arctan(3)$. [3 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 5]\nThe diagram below shows two straight lines intersecting at O and two circles, each\nwith centre O. The outer circle has radius R and the inner circle has radius r .\nO\nA B\ndiagram not to\nscale\nConsider the shaded regions with areas A and B . Given that AB : = 21, find the :\nexact value of the ratio Rr :.",
+   "ms_text": "θ\n2 2 6. A = ( R − r ) A1\n2\nθ\n2 B = r A1\n2\nAB = 2 2 2 from : 2:1 , we have R − r = 2 r M1\nR = 3 r (A1)\nhence exact value of the ratio Rr : is 3 :1 A1 N0\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 5]\nThe diagram below shows two straight lines intersecting at O and two circles, each with centre O. The outer circle has radius $R$ and the inner circle has radius $r$.\n[Diagram: two concentric circles centre O cut by two straight lines through O; shaded region A is the part of the annulus between the lines on the left, shaded region B is the sector of the inner circle between the lines on the right (vertically opposite angle); diagram not to scale]\nConsider the shaded regions with areas $A$ and $B$. Given that $A:B=2:1$, find the exact value of the ratio $R:r$.",
+   "review_note": "ms crop fixed via override (previously ended with Q7's exponent fragment); Q7 ms top restored"
+  },
+  {
+   "id": "math-2009-M-P1-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\n1 1\nConsider the functions f and g defined by fx () = 2 x and gx () = 4 − 2 x , x ≠ 0 .\n(a) Find the coordinates of P, the point of intersection of the graphs of f and g . [3 marks]\n(b) Find the equation of the tangent to the graph of f at the point P. [4 marks]",
+   "ms_text": "1 1\nx = − x 7. (a) 2 4 2\nattempt to solve the equation M1\nx = 1 A1\nso P is (1, 2) , as f (1) = 2 A1 N1\n1 1\n′ x (b) f () x =− 2ln2 A1\n2 x\nattempt to substitute x-value found in part (a) into their f ′ () x M1\nf ′ (1) =− 2ln2\ny − 2 =− 2ln2( x − 1) (or equivalent) M1A1 N0\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.4",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nConsider the functions $f$ and $g$ defined by $f(x)=2^{\\frac{1}{x}}$ and $g(x)=4-2^{\\frac{1}{x}}$, $x\\ne 0$.\n(a) Find the coordinates of P, the point of intersection of the graphs of $f$ and $g$. [3 marks]\n(b) Find the equation of the tangent to the graph of $f$ at the point P. [4 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nA triangle has vertices A (, 1 − 11 ,), B (,,) 110 and C( − 11 ,, − 1. )\nShow that the area of the triangle is 6 .",
+   "ms_text": "8. METHOD 1\nfor finding two of the following three vectors (or their negatives)\n0 − 2 − 2\n→ → →\nAB = 2, AC = 2, BC = 0 (A1)(A1)\n− 1 − 2 − 1\nand calculating\nEITHER\ni j k − 2\n→ →\nAB × AC = 0 2 − 1 2 M1A1 =\n− − 2 2 2 4\n1 → →\narea Δ ABC = AB × AC M1\n2\nOR\ni j k 2\n→ →\nBA × BC = 0 − 2 1 =− 2 M1A1\n− 2 0 − 1 − 4\n→ → 1\nΔ = × area ABC BA BC M1\n2\nOR\ni j k − 2\n→ →\nCA × CB = 2 − 2 2 2 M1A1 =\n2 0 1 4\n→ → 1\narea Δ ABC = CA × CB M1\n2\nTHEN\n24\narea Δ ABC = A1\n2\n= 6 AG N0\nMETHOD 2\nfor finding two of the following three vectors (or their negatives)\n0 − 2 − 2\n→ → →\n= = = AB 2, AC 2, BC 0 (A1)(A1)\n− 1 − 2 − 1\nEITHER\n→ →\nABAC\ncos A = M1\n→ →\nAB AC\n6 6 3\n= = or\n512 60 15\n2\nsin A = A1\n5\n→ → 1\narea Δ ABC = AB ACsin A M1\n2\n1 2\n= 512\n2 5\n1\n= 24 A1\n2\n= 6 AG N0\nOR\n→ →\nBABC\ncos B = M1\n→ →\nBA BC\n1 1\n=− =−\n5 55\n24 24\nsin B = or A1\n25 5\n1 → →\narea Δ ABC = BA BCsin B M1\n2\n1 24\n= 55\n2 25\n1\n= 24 A1\n2\n= 6 AG N0\nOR\n→ →\nCACB\ncos C = M1\n→ →\nCA CB\n6 6 3\n= = or\n125 60 15\n2\nsin C = A1\n5\n1 → →\narea Δ ABC = CA CBsin C M1\n2\n1 2\n= 125\n2 5\n1\n= 24 A1\n2\n= 6 AG N0\nMETHOD 3\nfor finding two of the following three vectors (or their negatives)\n0 − 2 − 2\n→ → →\nAB = 2, AC = 2, BC = 0 (A1)(A1)\n− 1 − 2 − 1\nAB = 5 = c , AC = 12 = 23 = b , BC = 5 = a M1A1\n5 + 23 + 5\ns = = 3 + 5 M1\n2\narea ABC Δ = ss ( − as )( − bs )( − c )\n= (3 + 5)(3)(5 − 3)(3)\n= 3(5 − 3) A1\n= 6 AG N0\nMETHOD 4\nfor finding two of the following three vectors (or their negatives)\n0 − 2 − 2\n→ → →\n= = = AB 2, AC 2, BC 0 (A1)(A1)\n− 1 − 2 − 1\n= = = = AB BC 5 and AC 12 23 M1A1\nΔ ABC is isosceles\nlet M be the midpoint of [AC], the height BM = 5 − 3 = 2 M1\n23 × 2\narea Δ ABC = A1\n2\n= 6 AG N0\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nA triangle has vertices $\\mathrm{A}(1,-1,1)$, $\\mathrm{B}(1,1,0)$ and $\\mathrm{C}(-1,1,-1)$.\nShow that the area of the triangle is $\\sqrt{6}$."
+  },
+  {
+   "id": "math-2009-M-P1-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\na\n(a) Let a > 0 . Draw the graph of y = x a x ≤ a on the grid below. [2 marks]\n−2 for −≤\na a 0 a\n(b) Find k such that x − d x = k x − d. x [5 marks] −∫ ∫\na 0 2 2",
+   "ms_text": "9. (a)\nA1A1\nNote: Award A1for the correct x-intercept,\nA1 for completely correct graph.\n(b) METHOD 1\na\nthe area under the graph of y = x − for a −≤ x ≤ a , can be divided into\n2\nten congruent triangles; M1A1\n0 a\nthe area of eight of these triangles is given by ∫ x − d x and the areas of\n− a 2\na a\nthe other two by ∫ x − d x M1A1\n0 2\n0 a a a\nso, ∫ x − d x = 4 ∫ x − d x ⇒ k = 4 A1 N0\n− a 2 0 2\nMETHOD 2\nuse area of trapezium to calculate M1\n0 a 13 a a 2\n∫ x − d x = a × + = a A1\n− a 2 2 2 2\nand area of two triangles to obtain M1\n2 2\na a 1 a a\n∫ x − d x = 2 × = A1\n0 2 22 4\nso, k= 4 A1 N0\nMETHOD 3\nuse integration to find the area under the curve\n0 a 0 a\nx − d x = −+ x d x M1 ∫ ∫\n− a 2 − a 2\n2 0 2 2 x a a a\n2 =− + x = + = a A1\n2 2 2 2\n− a\nand\na\na a a a a\n2 ∫ x − d x = ∫ −+ x d x + ∫ x − d x M1\na\n0 2 0 2 2\n2\na\na 2\n2 2 2 2 2 2 2 2 2 x a x a a a a a a a a\n=− + x + − x =− + + − − + = A1\n2 2 2 2 a 8 4 2 2 8 4 4\n0\n2\nso, k= 4 A1 N0\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "9. [Maximum mark: 7]\n(a) Let $a>0$. Draw the graph of $y=\\left|x-\\frac{a}{2}\\right|$ for $-a\\le x\\le a$ on the grid below. [2 marks]\n[Grid: blank square graph-paper grid for sketching]\n(b) Find $k$ such that $\\int_{-a}^{0}\\left|x-\\frac{a}{2}\\right|\\mathrm{d}x=k\\int_{0}^{a}\\left|x-\\frac{a}{2}\\right|\\mathrm{d}x$. [5 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 8]\nThe diagram below shows a solid with volume V , obtained from a cube with edge\n1\na >1 when a smaller cube with edge a is removed.\n1\na\ndiagram not to\nscale\na\n−1. Let x = a\na\n(a) Find V in terms of x . [4 marks]\n1 5 = 4 is a =+\n(b) Hence or otherwise, show that the only value of a for which V x . [4 marks]\n2",
+   "ms_text": "10. (a) METHOD 1\n1\n= 3 − V a A1\n3 a\n3\n1 3\n= − x a M1\na\n3 1\n= a 3 − 3 a + −\n3 a a\n1 1 3\n= a − − 3 a − (or equivalent) (A1)\n3 a a\n1\n⇒ 3 − = 3 + a x 3 x\n3 a\n3 V = x + 3 x A1 N0\nMETHOD 2\n1\n= 3 − V a A1\n3 a\nattempt to use difference of cubes formula, x 3 − y 3 = ( x − y )( x 2 + xy + y 2 ) M1\n2\n1 1 2\nV = a − a ++ 1\na a\n2\n1 1\n= − − + a a 3 (A1)\na a\n= 2 + 3 + xx ( 3) or x 3 x A1 N0\nMETHOD 3\ndiagram showing that the solid can be decomposed M1\n1\ninto three congruent x ×× a cuboids with volume x A1\na\nand a cube with edge x with volume 3x A1\n= 3 + so, V x 3 x A1 N0\n(b)\nNote: Do not accept any method where candidate substitutes the\n1\ngiven value of a into x = a − .\na\nMETHOD 1\n3 3 V = 4 x ⇔ x + 3 x = 4 x ⇔ x − x = 0 M1\n⇔ xx ( − 1)( x + 1) = 0\n⇒ x =as 1 x > 0 A1\n1 1 ± 5 2\nso, a − =⇒ 1 a − a −= 1 0 ⇒ a = M1A1\na 2\n1 + 5\nas a >, 1 a = AG N0\n2\nMETHOD 2\n1 1 3 6 4 2 2 4 2\na − = 4 a − ⇒ a − 4 a + 4 a −= 1 0 ⇔ ( a − 1)( a − 3 a + 1) = 0 M1A1\n3 a a\n2\n3 + 5 1 + 5 2 2 2\nas a >⇒ 1 a > 1, a = ⇔ a = M1A1\n2 2\n1 + 5\n⇒ a = AG N0\n2\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.1",
+    "2.12",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "topic-uncertain"
+   ],
+   "text_clean": "10. [Maximum mark: 8]\nThe diagram below shows a solid with volume $V$, obtained from a cube with edge $a>1$ when a smaller cube with edge $\\frac{1}{a}$ is removed.\n[Diagram: cube of edge a with a small cube of edge 1/a removed from one top corner; diagram not to scale]\nLet $x=a-\\frac{1}{a}$.\n(a) Find $V$ in terms of $x$. [4 marks]\n(b) Hence or otherwise, show that the only value of $a$ for which $V=4x$ is $a=\\frac{1+\\sqrt{5}}{2}$. [4 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\nLet f be a function defined by fx () = x − arctan x , x∈ϒ.\n(a) Find f ()1 and f−( 3. ) [2 marks]\n(b) Show that f ( − x ) = − fx () , for x∈ϒ. [2 marks]\nπ π\n(c) Show that x − < fx () < x + , for x∈ϒ. [2 marks]\n2 2\n(d) Find expressions for ′f () and x f ′′ () . Hence describe the behaviour of the x\ngraph of f at the origin and justify your answer. [8 marks]\n(e) Sketch a graph of f , showing clearly the asymptotes. [3 marks]\n(f) [3 marks] Justify that the inverse of f is defined for all x∈ϒ and sketch its graph.",
+   "ms_text": "π\n11. (a) f (1) =− 1 arctan11 =− A1\n4\nπ\nf ( − 3) =− 3 − arctan( − 3) =− 3 + A1\n3\n[2 marks]\n(b) f ( − x ) =−− x arctan( − x ) M1\n=−+ x arctan x A1\n=− ( x − arctan) x\n=− fx () AG N0\n[2 marks]\nπ π\n(c) as − < arctan x < , for any x∈ A1\n2 2\nπ π\n⇒− <− arctan x < , for any x∈\n2 2\nthen by adding x (or equivalent) R1\nπ π\nwe have x − < x − arctan x < x + AG N0\n2 2\n[2 marks]\n2 1 x\nf ′ () x 1 or (d) =−+ A1A1\n2 + 2 1 x 1 x\n2 3 2(1 x + x ) − 2 x 2 x\nf ′′ () x = or M1A1\n2 2 2 2 (1 + x ) (1 + x )\nf ′ (0) = f ′′ (0) = 0 A1A1\nEITHER\nas f ′ () x ≥ for all values of x∈ 0\n( (0, 0) is not an extreme of the graph of f (or equivalent )) R1\nOR\nas f ′′ () x > 0 for positive values ofx and f ′′ () x < 0 for negative values\nof x R1\nTHEN\n(0, 0) is a point of inflexion of the graph of f (with zero gradient) A1 N2\n[8 marks]\n(e)\nA1A1A1\nNote: Award A1 for both asymptotes.\nA1 for correct shape (concavities) x < 0 .\nx > A1 for correct shape (concavities) 0 .\n[3 marks]\n(f) (see sketch above)\nas f is increasing (and therefore one-to-one) and its range is ,\nf− is defined for all x∈ 1 R1\n− use the result that the graph of y = f 1() x is the reflection\n1 in the line y = x of the graph of y = fx () to draw the graph of f− (M1)A1\n[3 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.7",
+    "5.8",
+    "2.14",
+    "2.3",
+    "2.5",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 20]\nLet $f$ be a function defined by $f(x)=x-\\arctan x$, $x\\in\\mathbb{R}$.\n(a) Find $f(1)$ and $f(-\\sqrt{3})$. [2 marks]\n(b) Show that $f(-x)=-f(x)$, for $x\\in\\mathbb{R}$. [2 marks]\n(c) Show that $x-\\frac{\\pi}{2}<f(x)<x+\\frac{\\pi}{2}$, for $x\\in\\mathbb{R}$. [2 marks]\n(d) Find expressions for $f'(x)$ and $f''(x)$. Hence describe the behaviour of the graph of $f$ at the origin and justify your answer. [8 marks]\n(e) Sketch a graph of $f$, showing clearly the asymptotes. [3 marks]\n(f) Justify that the inverse of $f$ is defined for all $x\\in\\mathbb{R}$ and sketch its graph. [3 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 17]\n(a) Consider the set of numbers a , 2 a , 3 a , ..., na , where a and n are positive\nintegers.\n( +1 ) Show that the expression for the mean of this set is an\n(i) .\n2\n(ii) Let a = 4 . Find the minimum value of n for which the sum of these\nnumbers exceeds its mean by more than 100. [6 marks]\n(b) Consider now the set of numbers x , ... , x , y , ... , y where xi= 0 for\n1 m 1 n\ni =1, ... , m and yi=1 for i =1, ... , n .\nn\n(i) Show that the mean M of this set is given by and the standard\nm + n\nmn\ndeviation S by .\nm + n\n(ii) Given that M = S , find the value of the median. [11 marks]",
+   "ms_text": "12. (a) (i) a , 2, 3, ..., a a na are n consecutive terms of an AP\nwith first term a and common difference a\nnn ( + 1)\na\na + 2 a + 3 a + ... + na 2\nso their mean is = M1A1\nn n\nan + ( 1)\n= AG N0\n2\n4( n + 1)\n(ii) 4 +× 24 +× 34 + ... + 4 n > + 100 M1\n2\n4( nn + 1)\n> 2( n + 1) + 100 A1\n2\n2 n 2 + 2 n > 2 n + 102\nattempt to solve (M1)\nn> 2 51\nso the minimum value of n that satisfies the condition is 8 A1 N0\nNote: Award M1A1(M1)A1 for use of equations if there is\na clear conversion to an inequality.\n. [6 marks]\nx + ... + x + y + ... + y\n= 1 m 1 n (b) (i) M M1\nm + n\n0 × m +× 1 n\n= A1\nm + n\nn\n= AG N0\nm + n\nEITHER\n2 2\nn n\n− × + − × 0 m 1 n\nm + n m + n\nS = M1A1\nm + n\nattempt to simplify M1\n2 2 mn + nm\n2 ( m + n ) mnm ( + n )\n= = S\n3 m + n ( m + n )\nmn\n= A1\n+ 2 ( m n )\nmn\n= AG N0\nm + n\nQuestion 12(b)(i) continued\nOR\nm n\n∑ 2 + ∑ 2 x y\ni i\n= = 2 Var() x = i 1 i 1 − M M1A1\nm + n\nattempt to simplify M1\n2 n n\nVar() x = −\n2 m + n ( m + n )\nn n\n= 1 −\nm + n m + n\nn m\n= ×\nm + n m + n\nmn\n= A1\n2 ( m + n )\nmn\n∴ S = AG N0\nm + n\nn mn\n= ⇒ = (ii) M S A1\nm + n m + n\nattempt to solve M1\n⇒ n = mn\n⇒ n = m , as n > 0 A1\nso, then the set has 2nnumbers, x , ..., x , y , ..., y\n1 n 1 n\nfrom which the first n are all 0 and the last n are all 1 (M1)\n+ y 1 nx\n1 hence the value of the median is = A1 N0\n2 2\n[11 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "4.3",
+    "1.2",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 17]\n(a) Consider the set of numbers $a, 2a, 3a, \\ldots, na$, where $a$ and $n$ are positive integers.\n(i) Show that the expression for the mean of this set is $\\frac{a(n+1)}{2}$.\n(ii) Let $a=4$. Find the minimum value of $n$ for which the sum of these numbers exceeds its mean by more than 100. [6 marks]\n(b) Consider now the set of numbers $x_1,\\ldots,x_m,y_1,\\ldots,y_n$ where $x_i=0$ for $i=1,\\ldots,m$ and $y_i=1$ for $i=1,\\ldots,n$.\n(i) Show that the mean $M$ of this set is given by $\\frac{n}{m+n}$ and the standard deviation $S$ by $\\frac{\\sqrt{mn}}{m+n}$.\n(ii) Given that $M=S$, find the value of the median. [11 marks]"
+  },
+  {
+   "id": "math-2009-M-P1-TZ1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 23,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Total Mark: 23]\nPart A [Maximum mark: 9]\nIf z is a non-zero complex number, we define Lz() by the equation\nLz () = ln z + i arg(), z 0 ≤ arg() z < 2π.\n(a) Show that when z is a positive real number, Lz () = ln z . [2 marks]\n(b) Use the equation to calculate\n(i) L( −1; )\n(ii) L( 1−i; )\n(iii) L( −+ 1i. ) [5 marks]\n(c) Hence show that the property Lz z ( ) = Lz () + Lz ( ) does not hold for all\n12 1 2\n[2 marks] values of z1 and z2 .\nPart B [Maximum mark: 14]\nLet f be a function with domain ϒ that satisfies the conditions,\nfx ( + y ) = fxfy ()() , for all x and y and f () 0 ≠ 0 .\n(a) Show that f () 0 =. 1 [3 marks]\n(b) Prove that fx [3 marks] () ≠0 , for all x∈ϒ.\n(c) Assuming that ′f () exists for all x∈ϒ, use the definition of derivative to show x\nthat fx () satisfies the differential equation ′ f () x = kfx ′() [4 marks] (), where k = f 0.\n(d) Solve the differential equation to find an expression for fx () . [4 marks]",
+   "ms_text": "13. Part A\n(a) z = z , arg() z= 0 A1A1\nso Lz () = ln z AG N0\n[2 marks]\n(b) (i) L− (1) = ln1 +π=π i i A1A1 N2\n7 π\n(ii) L (1i) − = ln 2 + A1A1 N2\ni4\n3 π\n(iii) L (1 −+ i) = ln 2 + A1 N1\ni4\n[5 marks]\n(c) for comparing the product of two of the above results with the third M1\nfor stating the result 1 −+=−× i 1(1i) and − L (1 −+ i) ≠ L (1) − + L (1i) − R1\nhence, the property Lz z ( ) = Lz () + Lz ( )\n12 1 2\ndoes not hold for all values of 1z and 2z AG N0\n[2 marks]\nSub-total [9 marks]\nPart B\n(a) from fx ( + y ) = fxfy ()()\nfor x = y = 0 M1\n2\nwe have f (0 + 0) = f (0)(0) f ⇔ f (0) = ( f (0) ) A1\nas f (0) ≠ 0 , this implies that f (0) = 1 R1AG N0\n[3 marks]\n(b) METHOD1\nfrom fx ( + y ) = fxfy ()()\n=−, we have − = − ⇔ = − for y x fx ( x ) fxf ()( x ) f (0) fxf ()( x ) M1A1\nas f (0) ≠ 0 this implies that fx≠ () 0 R1AG N0\nMETHOD 2\nsuppose that, for a value of x, fx= () 0 M1\nfrom fx ( + y ) = fxfy ()()\nfor y =−, we have x fx ( − x ) = fxf ()( − x ) ⇔ f (0) = fxf ()( − x ) A1\n= substituting fx by 0 gives () f (0) 0 which contradicts part (a) R1\ntherefore fx≠ () 0 for all x. AG N0\n[3 marks]\n(c) by the definition of derivative\nfx ( + h ) − fx ()\nf ′ () x = lim (M1)\nh → 0 h\nfxfh ()() − fxf ()(0)\n= lim A1(A1)\nh → 0 h\nfh () − f (0)\n= lim fx () A1\nh → 0 h\n= (0)() f ′ fx ( = kfx () ) AG N0\n[4 marks]\n′ f x\n(d) () d x = kx d ⇒ ln fx () = kx + C M1A1 ∫ ∫\nfx ()\nln f (0) = C ⇒ C = 0 A1\nfx= () ekx A1 N1\nNote: AwardM1A0A0A0 if no arbitrary constant C .\n[4 marks]\nSub-total [14 marks]\nTotal [23 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.6",
+    "5.12",
+    "5.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Total Mark: 23]\nPart A [Maximum mark: 9]\nIf $z$ is a non-zero complex number, we define $L(z)$ by the equation\n$L(z)=\\ln|z|+\\mathrm{i}\\arg(z),\\ 0\\le\\arg(z)<2\\pi$.\n(a) Show that when $z$ is a positive real number, $L(z)=\\ln z$. [2 marks]\n(b) Use the equation to calculate\n(i) $L(-1)$;\n(ii) $L(1-\\mathrm{i})$;\n(iii) $L(-1+\\mathrm{i})$. [5 marks]\n(c) Hence show that the property $L(z_1z_2)=L(z_1)+L(z_2)$ does not hold for all values of $z_1$ and $z_2$. [2 marks]\nPart B [Maximum mark: 14]\nLet $f$ be a function with domain $\\mathbb{R}$ that satisfies the conditions,\n$f(x+y)=f(x)f(y)$, for all $x$ and $y$ and $f(0)\\ne 0$.\n(a) Show that $f(0)=1$. [3 marks]\n(b) Prove that $f(x)\\ne 0$, for all $x\\in\\mathbb{R}$. [3 marks]\n(c) Assuming that $f'(x)$ exists for all $x\\in\\mathbb{R}$, use the definition of derivative to show that $f(x)$ satisfies the differential equation $f'(x)=k\\,f(x)$, where $k=f'(0)$. [4 marks]\n(d) Solve the differential equation to find an expression for $f(x)$. [4 marks]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,32 @@
+{
+  "exam_id": "math-2013-M-P3-series-and-differential-equations",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.L3", "5.13"],
+      "text_clean": "1. [Maximum mark: 9]\nThe Taylor series of $\\sqrt{x}$ about $x=1$ is given by\n$a_0 + a_1(x-1) + a_2(x-1)^2 + a_3(x-1)^3 + \\ldots$\n(a) Find the values of $a_0$, $a_1$, $a_2$ and $a_3$. [6 marks]\n(b) Hence, or otherwise, find the value of $\\lim_{x \\to 1} \\frac{\\sqrt{x}-1}{x-1}$. [3 marks]"
+    },
+    "2": {
+      "topics": ["5"],
+      "subtopics": ["5.18", "5.15"],
+      "text_clean": "2. [Maximum mark: 15]\nConsider the differential equation $\\frac{dy}{dx} + y\\tan x = \\cos^2 x$, given that $y=2$ when $x=0$.\n(a) Use Euler's method with a step length of 0.1 to find an approximation to the value of $y$ when $x=0.3$. [5 marks]\n(b) (i) Show that the integrating factor for solving the differential equation is $\\sec x$.\n(ii) Hence solve the differential equation, giving your answer in the form $y=f(x)$. [10 marks]"
+    },
+    "3": {
+      "topics": ["5"],
+      "subtopics": ["5.L2", "5.L1"],
+      "text_clean": "3. [Maximum mark: 11]\nConsider the infinite series $\\sum_{n=1}^{\\infty} \\frac{n^2}{2^n} x^n$.\n(a) Find the radius of convergence. [4 marks]\n(b) Find the interval of convergence. [3 marks]\n(c) Given that $x=-0.1$, find the sum of the series correct to three significant figures. [4 marks]"
+    },
+    "4": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.L1", "1.11"],
+      "add_flags": ["topic-uncertain"],
+      "note": "Telescoping sum S_n and its limit tagged 5.L1 (series/limit of partial sums); partial fractions 1.11.",
+      "text_clean": "4. [Maximum mark: 11]\n(a) Express $\\frac{1}{r(r+2)}$ in partial fractions. [3 marks]\n(b) Let $S_n = \\sum_{r=1}^{n} \\frac{1}{r(r+2)}$.\n(i) Show that $S_n = \\frac{an^2+bn}{4(n+1)(n+2)}$, where $a$ and $b$ are positive integers whose values should be determined.\n(ii) Write down the value of $\\lim_{n \\to \\infty} S_n$. [8 marks]"
+    },
+    "5": {
+      "topics": ["5"],
+      "subtopics": ["5.L5", "5.15"],
+      "text_clean": "5. [Maximum mark: 14]\n(a) [Figure 1: graph of $y=\\frac{1}{x}$ for $x>0$ with rectangles of width 1 on $[a-1,a]$ and $[a,a+1]$; upper rectangles touch the curve at their left ends, lower rectangles at their right ends; x-axis marked $a-1$, $a$, $a+1$]\nFigure 1 shows part of the graph of $y=\\frac{1}{x}$ together with line segments parallel to the coordinate axes.\n(i) By considering the areas of appropriate rectangles, show that\n$\\frac{2a+1}{a(a+1)} < \\ln\\left(\\frac{a+1}{a-1}\\right) < \\frac{2a-1}{a(a-1)}$.\n(ii) Hence find lower and upper bounds for $\\ln(1.2)$. [9 marks]\n(b) [Figure 2: graph of $y=\\frac{1}{x}$ with a trapezium on $[a-1,a]$ whose top is the chord joining the curve at $x=a-1$ and $x=a$]\nAn improved upper bound can be found by considering Figure 2 which again shows part of the graph of $y=\\frac{1}{x}$.\n(i) By considering the areas of appropriate regions, show that\n$\\ln\\left(\\frac{a}{a-1}\\right) < \\frac{2a-1}{2a(a-1)}$.\n(ii) Hence find an upper bound for $\\ln(1.2)$. [5 marks]"
+    }
+  }
+}

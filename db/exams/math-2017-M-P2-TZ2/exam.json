@@ -1,0 +1,267 @@
+{
+ "exam_id": "math-2017-M-P2-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2017,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2017 May Examination Session/Mathematics_paper_2__TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2017 May Examination Session/Mathematics_paper_2__TZ2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2217-7206; code M17/5/MATHL/HP2/ENG/TZ2/XX; marks sum matches paper total 100",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2017-M-P2-TZ2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nThere are 75 players in a golf club who take part in a golf tournament. The scores obtained\non the 18th hole are as shown in the following table.\nScore 2 3 4 5 6 7\nFrequency 3 15 28 17 9 3\n(a) One of the players is chosen at random. Find the probability that this player’s score\nwas 5 or more. [2]\n(b) Calculate the mean score. [2]",
+   "ms_text": "29\n= = 1. (a) P(5 or more) (0.387) (M1)A1\n75\n[2 marks]\n2 × 3 + 3 × 15 + 4 × 28 + 5 × 17 + 6 × 9 + 7 × 3\n(b) mean score = (M1)\n75\n323\n( ) = = 4.31 A1\n75\n[2 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.5",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nThere are $75$ players in a golf club who take part in a golf tournament. The scores obtained on the $18$th hole are as shown in the following table.\nScore | 2 | 3 | 4 | 5 | 6 | 7\nFrequency | 3 | 15 | 28 | 17 | 9 | 3\n(a) One of the players is chosen at random. Find the probability that this player's score was $5$ or more. [2]\n(b) Calculate the mean score. [2]"
+  },
+  {
+   "id": "math-2017-M-P2-TZ2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 9]\nConsider the curve defined by the equation 4x2+y2= 7 .\nFind the equation of the normal to the curve at the point (1 , 3 ) . (a) [6]\n(b) Find the volume of the solid formed when the region bounded by the curve, the x-axis\nfor x ≥0 and the y-axis for y ≥0 is rotated through 2π about the x-axis. [3]",
+   "ms_text": "2. (a) METHOD 1\n2 + 2 = 4 x y 7\nd y\n+ = 8 x 2 0 (M1)(A1)\nyx\nd\nd y 4 x\n=−\nd x y\ny Note: Award M1A1 for finding d\n2.309 … using any alternative method. x=−\nd\ny\nhence gradient of normal = (M1)\n4 x\nhence gradient of normal at ( ) 3 (0.433) 1,3 is = (A1)\n4\n3\nhence equation of normal is y − 3 = ( x − 1) (M1)A1\n4\n3 33\ny = x + ( y = 0.433 x + 1.30 )\n4 4\nMETHOD 2\n2 + 2 = 4 x y 7\n2 y = 7 − 4 x\n(M1)\nd y 4 x\n=− (A1)\nd x 2 7 − 4 x\ny Note: Award M1A1 for finding d\n2.309 … using any alternative method. x=−\nd\n2 7 − 4 x\nhence gradient of normal = (M1)\n4 x\nhence gradient of normal at ( ) 3 (0.433) 1,3 is = (A1)\n4\n3\nhence equation of normal is y − 3 = ( x − 1) (M1)A1\n4\n3 33\ny = x + ( y = 0.433 x + 1.30 )\n4 4\n[6 marks]\n7\n2\n2 (b) Use of V\n=∫ π y d x\n0\n7\n2\n2 V = π ( 7 − 4 x ) d x (M1)(A1)\n∫\n0\nNote: Condone absence of limits or incorrect limits for M mark.\nDo not condone absence of or multiples of π.\n77 π\n= = 19.4 A1\n3\n[3 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4",
+    "5.17"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 9]\nConsider the curve defined by the equation $4x^2 + y^2 = 7$.\n(a) Find the equation of the normal to the curve at the point $(1, \\sqrt{3})$. [6]\n(b) Find the volume of the solid formed when the region bounded by the curve, the $x$-axis for $x \\ge 0$ and the $y$-axis for $y \\ge 0$ is rotated through $2\\pi$ about the $x$-axis. [3]"
+  },
+  {
+   "id": "math-2017-M-P2-TZ2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nPackets of biscuits are produced by a machine. The weights X , in grams, of packets of\nbiscuits can be modelled by a normal distribution where X ~ N(µ , σ 2) . A packet of biscuits is\nconsidered to be underweight if it weighs less than 250 grams.\n(a) Given that µ= 253 and σ= 1.5 find the probability that a randomly chosen packet of\nbiscuits is underweight. [2]\nThe manufacturer makes the decision that the probability that a packet is underweight should\nbe 0.002 . To do this µ is increased and σ remains unchanged.\n(b) Calculate the new value of µ giving your answer correct to two decimal places. [3]\nThe manufacturer is happy with the decision that the probability that a packet is underweight\nshould be 0.002 , but is unhappy with the way in which this was achieved. The machine is\nnow adjusted to reduce σ and return µ to 253 .\n(c) Calculate the new value of σ . [2]",
+   "ms_text": "3. (a) P( X< 250) = 0.0228 (M1)A1\n[2 marks]\n250 − μ\n(b) =− 2.878 … (M1)(A1)\n1.5\n⇒ μ = 254.32 A1\nNotes: Only award A1 here if the correct 2dp answer is seen.\nAward M0 for use of 1.5. 2\n[3 marks]\n− 250 253\n=− 2.878 … (c) (A1)\nσ\n⇒ σ = 1.04 A1\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nPackets of biscuits are produced by a machine. The weights $X$, in grams, of packets of biscuits can be modelled by a normal distribution where $X \\sim \\mathrm{N}(\\mu, \\sigma^2)$. A packet of biscuits is considered to be underweight if it weighs less than $250$ grams.\n(a) Given that $\\mu = 253$ and $\\sigma = 1.5$ find the probability that a randomly chosen packet of biscuits is underweight. [2]\nThe manufacturer makes the decision that the probability that a packet is underweight should be $0.002$. To do this $\\mu$ is increased and $\\sigma$ remains unchanged.\n(b) Calculate the new value of $\\mu$ giving your answer correct to two decimal places. [3]\nThe manufacturer is happy with the decision that the probability that a packet is underweight should be $0.002$, but is unhappy with the way in which this was achieved. The machine is now adjusted to reduce $\\sigma$ and return $\\mu$ to $253$.\n(c) Calculate the new value of $\\sigma$. [2]"
+  },
+  {
+   "id": "math-2017-M-P2-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nFind the set of values of k that satisfy the inequality k2-k - 12 < 0 . (a) [2]\nThe triangle ABC is shown in the following diagram. Given that cos B<1\n(b) , find the\n4\nrange of possible values for AB. [4]\nA\n4\nB C\n2",
+   "ms_text": "2 − − < 4. (a) k k 12 0\n− + < ( k 4)( k 3) 0 (M1)\n−< < 3 k 4 A1\n[2 marks]\n2 2 + c 2 − 4 2 2 2\n(b) cos B = or 16 ( = 2 + c − 4cos c B ) M1\n4 c\n2 c − 12 1\n⇒ < A1\n4 c 4\n2 ⇒ c − c − 12 < 0\nfrom result in (a)\n0 < AB < 4 or 3 −< AB < 4 (A1)\nbut AB must be at least 2\n⇒ < < 2 AB 4 A1\nNote: Allow ≤ AB for either of the final two A marks.\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.7",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\n(a) Find the set of values of $k$ that satisfy the inequality $k^2 - k - 12 < 0$. [2]\n(b) The triangle ABC is shown in the following diagram. Given that $\\cos B < \\frac{1}{4}$, find the range of possible values for AB. [4]\n[Diagram: triangle ABC with BC = 2 and AC = 4; AB unknown]"
+  },
+  {
+   "id": "math-2017-M-P2-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 9]\nJohn likes to go sailing every day in July. To help him make a decision on whether it is safe\nto go sailing he classifies each day in July as windy or calm. Given that a day in July is\ncalm, the probability that the next day is calm is 0.9 . Given that a day in July is windy, the\nprobability that the next day is calm is 0.3 . The weather forecast for the 1st July predicts that\nthe probability that it will be calm is 0.8 .\n(a) Draw a tree diagram to represent this information for the first three days of July. [3]\n(b) Find the probability that the 3rd July is calm. [2]\n(c) Find the probability that the 1st July was calm given that the 3rd July is windy. [4]",
+   "ms_text": "5. (a)\nM1A2\nNote: Award M1 for 3 stage tree-diagram, A2 for 0.8,0.9,0.3 probabilities correctly placed.\n[3 marks]\n(b) 0.2 × 0.7 × 0.3 + 0.2 × 0.3 × 0.9 + 0.8 × 0.1 × 0.3 + 0.8 × 0.9 × 0.9 = 0.768\n(M1)A1\n[2 marks]\nP(1stJuly is calm and 3rdJuly is windy)\n(c) P(1stJuly is calm | 3rdJuly is windy) =\nP(3rdJuly is windy)\n(M1)\n0.8 × 0.1 × 0.7 + 0.8 × 0.9 × 0.1\n=\n1 − 0.768\n0.8 × 0.1 × 0.7 + 0.8 × 0.9 × 0.1\nOR\n0.20.70.7 × × + 0.20.30.10.80.10.7 × × + × × + 0.80.90.1 × ×\nOR0.128 (A1)(A1)\n0.232\nNote: Award A1 for correct numerator, A1 for correct denominator.\n= 0.552 A1\n[4 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 9]\nJohn likes to go sailing every day in July. To help him make a decision on whether it is safe to go sailing he classifies each day in July as windy or calm. Given that a day in July is calm, the probability that the next day is calm is $0.9$. Given that a day in July is windy, the probability that the next day is calm is $0.3$. The weather forecast for the 1st July predicts that the probability that it will be calm is $0.8$.\n(a) Draw a tree diagram to represent this information for the first three days of July. [3]\n(b) Find the probability that the 3rd July is calm. [2]\n(c) Find the probability that the 1st July was calm given that the 3rd July is windy. [4]"
+  },
+  {
+   "id": "math-2017-M-P2-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 5]\n1 1\n( ) , p > 0 , q > 0 , find p in terms of q . Given that log ( p + 2 q ) log p + log q\n10 = 10 10\n22 2",
+   "ms_text": "1 1\n6. log ( p + 2) q = ( log p + log q )\n10 10 10\n2 22\n1 1\nlog ( p + 2) q = log pq (M1)\n10 10\n22 2\n1\n1\nlog ( p + 2) q = log( pq ) 2 (M1)\n10 10\n22\n1\n1\n2 ( p + 2) q = ( pq ) (A1)\n22\n2 ( p + 2) q = 8 pq\n2 2 p + 4 pq + 4 q = 8 pq\n2 2 p − 4 pq + 4 q = 0\n2 ( p − 2) q = 0 M1\nhence p = 2 q A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 5]\nGiven that $\\log_{10}\\left(\\frac{1}{2\\sqrt{2}}(p + 2q)\\right) = \\frac{1}{2}(\\log_{10} p + \\log_{10} q)$, $p > 0$, $q > 0$, find $p$ in terms of $q$."
+  },
+  {
+   "id": "math-2017-M-P2-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 4]\nGiven that a×b=b×c≠0 prove that a+c=sb where s is a scalar.",
+   "ms_text": "7. METHOD 1\na × b = b × c\n( a × b ) − ( b × c ) = 0\n( a × b ) + ( c × b ) = 0 M1A1\n( a + c ) × b = 0 A1\n( a + c ) is parallel to b ⇒ a + c = s b R1AG\nNote: Condone absence of arrows, underlining, or other otherwise “correct” vector\nnotation throughout this question.\nNote: Allow “is in the same direction to”, for the final R mark.\nMETHOD 2\na b − a b b c − b c\n23 32 23 32\na × b = bc ×⇒ a b − a b = b c − b c M1A1\n31 13 31 13\na b − a b b c − b c\n12 21 12 21\na b − a b = b c − b c ⇒ ba ( + c ) = b ( a + c )\n23 32 23 32 3 2 2 2 3 3\na b − a b = b c − b c ⇒ ba ( + c ) = ba ( + c )\n31 13 31 13 1 3 3 3 1 1\na b − a b = b c − b c ⇒ b ( a + c ) = ba ( + c )\n12 21 12 21 2 1 1 1 2 2\n( ) ( ) ( ) a + c a + c a + c\n1 1 2 2 3 3 = = = s A1\nb b b\n1 2 3\n⇒ a + c = sb\n1 1 1\n⇒ + = a c sb\n2 2 2\n⇒ a + c = sb\n3 3 3\na c b\n1 1 1\n⇒ a + c = sb A1\n2 2 2\na c b\n3 3 3\n⇒ a + c = s b AG\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 4]\nGiven that $\\boldsymbol{a} \\times \\boldsymbol{b} = \\boldsymbol{b} \\times \\boldsymbol{c} \\ne \\boldsymbol{0}$ prove that $\\boldsymbol{a} + \\boldsymbol{c} = s\\boldsymbol{b}$ where $s$ is a scalar."
+  },
+  {
+   "id": "math-2017-M-P2-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nIn a trial examination session a candidate at a school has to take 18 examination papers\nincluding the physics paper, the chemistry paper and the biology paper. No two of these\nthree papers may be taken consecutively. There is no restriction on the order in which the\nother examination papers may be taken.\nFind the number of different orders in which these 18 examination papers may be taken.",
+   "ms_text": "8. METHOD 1\nconsideration of all papers\nall papers may be sat in 18! ways A1\nnumber of ways of positioning “pairs” of science subjects = 3! × 17! A1\nbut this includes two copies of each “triple” (R1)\n= × number of ways of positioning “triplets” of science subjects 3! 16! A1\nhence number of arrangements is 18! − 3! × 17! + 3! × 16! M1A1\n( 15 ) = 4.3910 ×\nMETHOD 2\nconsideration of all the non-science papers (M1)\nhence all non-science papers can be sat in 15! ways A1\nthere are 16 × 15 × 14 (3360) = ways of positioning the three science papers (M1)A1\n( 15 ) hence the number of arrangements is 16 × 15 × 1 4 × 15! = 4.39 × 10 (M1)A1\nMETHOD 3\nconsideration of all papers\nall papers may be sat in 18! ways A1\nnumber of ways of positioning exactly two science subjects = 3! × 15! × 1615 × M1A1\nnumber of ways of positioning “triplets” of science subjects = 3! × 16! A1\n− × − × × × hence number of arrangements is 18! 3! 16! 3! 15! 1615 M1A1\n15 ( = 4.3910 × )\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nIn a trial examination session a candidate at a school has to take $18$ examination papers including the physics paper, the chemistry paper and the biology paper. No two of these three papers may be taken consecutively. There is no restriction on the order in which the other examination papers may be taken.\nFind the number of different orders in which these $18$ examination papers may be taken."
+  },
+  {
+   "id": "math-2017-M-P2-TZ2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 22]\nThe points A , B and C have the following position vectors with respect to an origin O .\n→\nOA = 2 i + j − 2 k\n→\nOB = 2 i − j + 2 k\n→\nOC = i + 3 j + 3 k\n(a) Find the vector equation of the line (BC) . [3]\n(b) Determine whether or not the lines (OA) and (BC) intersect. [6]\n(c) Find the Cartesian equation of the plane Π1 , which passes through C and is\n→\nperpendicular to OA . [3]\n(d) Show that the line (BC) lies in the plane Π1 . [2]\nThe plane Π2 contains the points O , A and B and the plane Π3 contains the points O , A\nand C .\n(e) Verify that 2j + k is perpendicular to the plane Π2 . [3]\n(f) Find a vector perpendicular to the plane Π3 . [1]\n(g) Find the acute angle between the planes Π2 and Π3 . [4]",
+   "ms_text": "→\n9. (a) BC = ( i + 3 j + 3) k − (2 i − j + 2) k =−+ i 4 j + k (A1)\nr = (2 i − j + 2) k + λ ( −+ i 4 j + k )\n(or r = ( i + 3 j + 3) k + λ ( −+ i 4 j + k ) (M1)A1\nNote: Do not award A1 unless r = or equivalent correct notation seen.\n[3 marks]\n(b) attempt to write in parametric form using two different\nparameters AND equate M1\n2 μ = 2 − λ\nμ =−+ 1 4 λ\n− 2 μ = 2 + λ A1\nattempt to solve first pair of simultaneous equations for two parameters M1\n4 7\nsolving first two equations gives λ = , μ = (A1)\n9 9\nsubstitution of these two values in third equation (M1)\nsince the values do not fit, the lines do not intersect R1\nNote:Candidates may note that adding the first and third equations immediately leads to a\ncontradiction and hence they can immediately deduce that the lines do not intersect.\n[6 marks]\n(c) METHOD 1\n+ − = plane is of the form γr (2 i j 2) k d (A1)\nd= + + + − =− ( i 3 j 3)(2 k γ i j 2) k 1 (M1)\nhence Cartesian form of plane is 2 x + y − 2 z =− 1 A1\nMETHOD 2\n+ − = plane is of the form 2 x y 2 z d (A1)\nsubstituting ( 1, 3, 3 (to find gives 2 ) +− 3 6 =−) 1 (M1)\n+ − =− hence Cartesian form of plane is 2 x y 2 z 1 A1\n[3 marks]\n(d) METHOD 1\nattempt scalar product of direction vector BC with normal to plane M1\n−+ + γ + − =− + − ( i 4 j k )(2 i j 2) k 2 4 2\n= 0 A1\nhence BC lies in Π AG\n1\nMETHOD 2\nsubstitute eqn of line into plane M1\n2 − 1\n=− + λ π x + y − 2 z =− 1 line r 1 4 .Plane 1: 2\n2 1\n22 ( − λ )( +−+ 1 4 λ ) − 22 ( + λ )\n=− 1 A1\nhence BC lies in Π AG\n1\nNote:Candidates may also just substitute 2 i − j + 2 k into the plane since they are told C lies on π.\nNote:Do not award A1FT.\n[2 marks]\n(e) METHOD 1\nυυυρ υυυρ\napplying scalar product to OA and OB M1\n+ γ + − = (2 j k )(2 i j 2) k 0 A1\n+ γ − + = (2 j k )(2 i j 2) k 0 A1\nMETHOD 2\n→ →\nattempt to find cross product of OA and OB M1\n→ →\nplane Π has normal OAOB × =− 8 j − 4 k A1\n2\nsince 8 − j − 4 k =− 4(2 j + k, 2+ ) j k is perpendicular to the plane Π R1\n2\n[3 marks]\n→ →\n(f) plane Π has normal OA × OC = 9 i − 8 j + 5 k A1\n3\n[1 mark]\n(g) attempt to use dot product of normal vectors (M1)\n+ − + (2 j k )(9 γ i 8 j 5) k\ncos θ = (M1)\n2 j + k 9 i − 8 j + 5 k\n− 11\n= ( =− 0.377... ) (A1)\n5170\n11\nNote: Accept .\n5170\n= 67.8 ο ( = 1.18c ) acute angle between planes A1\n[4 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.18",
+    "3.14",
+    "3.17",
+    "3.13",
+    "3.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 22]\nThe points A, B and C have the following position vectors with respect to an origin O.\n$\\vec{OA} = 2\\boldsymbol{i} + \\boldsymbol{j} - 2\\boldsymbol{k}$\n$\\vec{OB} = 2\\boldsymbol{i} - \\boldsymbol{j} + 2\\boldsymbol{k}$\n$\\vec{OC} = \\boldsymbol{i} + 3\\boldsymbol{j} + 3\\boldsymbol{k}$\n(a) Find the vector equation of the line (BC). [3]\n(b) Determine whether or not the lines (OA) and (BC) intersect. [6]\n(c) Find the Cartesian equation of the plane $\\Pi_1$, which passes through C and is perpendicular to $\\vec{OA}$. [3]\n(d) Show that the line (BC) lies in the plane $\\Pi_1$. [2]\nThe plane $\\Pi_2$ contains the points O, A and B and the plane $\\Pi_3$ contains the points O, A and C.\n(e) Verify that $2\\boldsymbol{j} + \\boldsymbol{k}$ is perpendicular to the plane $\\Pi_2$. [3]\n(f) Find a vector perpendicular to the plane $\\Pi_3$. [1]\n(g) Find the acute angle between the planes $\\Pi_2$ and $\\Pi_3$. [4]"
+  },
+  {
+   "id": "math-2017-M-P2-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 15]\nA continuous random variable X has probability density function f given by\n2 x\n+ b , 0 ≤ x ≤ 4\nfx () = a where a and b are positive constants.\n0 otherwise\nIt is given that P(X ≥ 2) = 0.75 .\nShow that a = 32 and b=1\n(a) . [5]\n12\n(b) Find E(X ) . [2]\n(c) Find Var(X ) . [2]\n(d) Find the median of X . [3]\nEight independent observations of X are now taken and the random variable Y is the\nnumber of observations such that X ≥2 .\n(e) Find E(Y ) . [2]\nFind P(Y ≥3) . (f) [1]",
+   "ms_text": "4 2 3 4\nx x 64\n10. (a) + b d x =⇒ 1 + bx =⇒ 1 + 4 b = 1 M1A1 ∫\na 3 a 3 a\n0 0\n4 2\nx 56\n∫ + b d x = 0.75 ⇒ + 2 b = 0.75 M1A1\na 3 a\n2\n2 2\nx 8\nNote: ∫ + b d x = 0.25 ⇒ + 2 b = 0.25 could be seen/used in place of either of\na 3 a\n0\nthe above equations.\nevidence of an attempt to solve simultaneously\n(or check given , ab values are consistent) M1\n1\na = 32, b = AG\n12\n[5 marks]\n4 2\nx 1\n(b) E( X ) = x + d x (M1) ∫\n32 12\n0\n8\nE( X= ) ( = 2.67 ) A1\n3\n[2 marks]\n4 2\nx 1\n( 2 ) 2 (c) E X = ∫ x + d x (M1)\n32 12\n0\n2 16\n= ( 2 ) − [ ] = ( = ) Var(X) E X E( X ) 1.07 A1\n15\n[2 marks]\n2 mx\n1d\n(d) ∫ + x = 0.5 (M1)\n32 12\n0\nm 3 m 3\n+ = 0.5 ( ⇒ m + 8 m − 48 = 0 ) (A1)\n96 12\nm = 2.91 A1\n[3 marks]\nY : B (8, 0.75) (e) (M1)\nEY= () 8 × 0.75 = 6 A1\n[2 marks]\n(f) P( Y≥ 3) = 0.996 A1\n[1 mark]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.8",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 15]\nA continuous random variable $X$ has probability density function $f$ given by\n$f(x) = \\begin{cases} \\frac{x^2}{a} + b, & 0 \\le x \\le 4 \\\\ 0 & \\text{otherwise} \\end{cases}$ where $a$ and $b$ are positive constants.\nIt is given that $\\mathrm{P}(X \\ge 2) = 0.75$.\n(a) Show that $a = 32$ and $b = \\frac{1}{12}$. [5]\n(b) Find $\\mathrm{E}(X)$. [2]\n(c) Find $\\mathrm{Var}(X)$. [2]\n(d) Find the median of $X$. [3]\nEight independent observations of $X$ are now taken and the random variable $Y$ is the number of observations such that $X \\ge 2$.\n(e) Find $\\mathrm{E}(Y)$. [2]\n(f) Find $\\mathrm{P}(Y \\ge 3)$. [1]"
+  },
+  {
+   "id": "math-2017-M-P2-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 13]\nIt is given that f (x) = 3x4+ax3+bx2- 7x - 4 where a and b are positive integers.\n(a) Given that x2- 1 is a factor of f (x) find the value of a and the value of b . [4]\n(b) Factorize f (x) into a product of linear factors. [3]\n(c) Sketch the graph of y =f (x) , labelling the maximum and minimum points and the\nx and y intercepts. [3]\n(d) Using your graph state the range of values of c for which f (x) = c has exactly two\ndistinct real roots. [3]",
+   "ms_text": "4 3 2 11. (a) gx () = 3 x + ax + bx − 7 x − 4\ng (1) = 0 ⇒ a + b = 8 M1A1\ng (1) − = 0 ⇒− a + b =− 6 A1\n⇒ a = 7, b = 1 A1\n[4 marks]\n3 x 4 + 7 x 3 + x 2 − 7 x − 4 = ( x 2 − 1 )( px 2 + qx + r ) (b)\nattempt to equate coefficients (M1)\np = 3, q = 7, r = 4 (A1)\n4 3 2 2 2 3 x + 7 x + x − 7 x − 4 = ( x − 13 )( x + 7 x + 4 )\n2 = ( x − 1)( x + 1)(3 x + 4) A1\nNote: Accept any equivalent valid method.\n[3 marks]\n(c)\nA1 for correct shape (ie with correct number of max/min points)\nA1 for correct x and y intercepts\nA1 for correct maximum and minimum points\n[3 marks]\n(d) c> 0 A1\n− 6.20 < c <− 0.0366 A1A1\nNote: Award A1 for correct end points and A1 for correct inequalities.\nNote: If the candidate has misdrawn the graph and omitted the first\nminimum point, the maximum mark that may be awarded\nis A1FTA0A0 for c>–6.20 seen.\n[3 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12",
+    "2.3",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 13]\nIt is given that $f(x) = 3x^4 + ax^3 + bx^2 - 7x - 4$ where $a$ and $b$ are positive integers.\n(a) Given that $x^2 - 1$ is a factor of $f(x)$ find the value of $a$ and the value of $b$. [4]\n(b) Factorize $f(x)$ into a product of linear factors. [3]\n(c) Sketch the graph of $y = f(x)$, labelling the maximum and minimum points and the $x$ and $y$ intercepts. [3]\n(d) Using your graph state the range of values of $c$ for which $f(x) = c$ has exactly two distinct real roots. [3]",
+   "review_note": "qp crop trimmed via overrides to exclude three blank 'Answers written on this page will not be marked' pages"
+  }
+ ],
+ "status": "done"
+}

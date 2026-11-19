@@ -1,0 +1,171 @@
+{
+ "exam_id": "math-2009-M-P1-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12",
+    "1.13"
+   ],
+   "text_clean": "1. [Maximum mark: 6]\nConsider the complex numbers $z=1+2\\mathrm{i}$ and $w=2+a\\mathrm{i}$, where $a\\in\\mathbb{R}$.\nFind $a$ when\n(a) $|w|=2|z|$; [3 marks]\n(b) $\\mathrm{Re}(zw)=2\\,\\mathrm{Im}(zw)$. [3 marks]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.7",
+    "3.5"
+   ],
+   "text_clean": "2. [Maximum mark: 5]\nThe diagram below shows a curve with equation $y=1+k\\sin x$, defined for $0\\le x\\le 3\\pi$.\n[Diagram: sine-type curve starting above the x-axis at x = 0, dipping to a minimum, rising to a maximum point B, then down to a second minimum and back up; point A marked on the first descending section below the x-axis]\nThe point $\\mathrm{A}\\left(\\frac{\\pi}{6},-2\\right)$ lies on the curve and $\\mathrm{B}(a,b)$ is the maximum point.\n(a) Show that $k=-6$. [2 marks]\n(b) Hence, find the values of $a$ and $b$. [3 marks]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.7",
+    "2.16"
+   ],
+   "text_clean": "3. [Maximum mark: 5]\nLet $g(x)=\\log_5|2\\log_3 x|$. Find the product of the zeros of $g$.",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.L1",
+    "2.9"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\nConsider the matrix $A=\\begin{pmatrix}\\mathrm{e}^x & \\mathrm{e}^{-x}\\\\ 2+\\mathrm{e}^x & 1\\end{pmatrix}$, where $x\\in\\mathbb{R}$.\nFind the value of $x$ for which $A$ is singular.",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.9"
+   ],
+   "text_clean": "5. [Maximum mark: 5]\n(a) Show that $\\arctan\\left(\\frac{1}{2}\\right)+\\arctan\\left(\\frac{1}{3}\\right)=\\frac{\\pi}{4}$. [2 marks]\n(b) Hence, or otherwise, find the value of $\\arctan(2)+\\arctan(3)$. [3 marks]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4"
+   ],
+   "text_clean": "6. [Maximum mark: 5]\nThe diagram below shows two straight lines intersecting at O and two circles, each with centre O. The outer circle has radius $R$ and the inner circle has radius $r$.\n[Diagram: two concentric circles centre O cut by two straight lines through O; shaded region A is the part of the annulus between the lines on the left, shaded region B is the sector of the inner circle between the lines on the right (vertically opposite angle); diagram not to scale]\nConsider the shaded regions with areas $A$ and $B$. Given that $A:B=2:1$, find the exact value of the ratio $R:r$.",
+   "answer_status": "ok",
+   "note": "ms crop fixed via override (previously ended with Q7's exponent fragment); Q7 ms top restored"
+  },
+  "7": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.4",
+    "2.10"
+   ],
+   "text_clean": "7. [Maximum mark: 7]\nConsider the functions $f$ and $g$ defined by $f(x)=2^{\\frac{1}{x}}$ and $g(x)=4-2^{\\frac{1}{x}}$, $x\\ne 0$.\n(a) Find the coordinates of P, the point of intersection of the graphs of $f$ and $g$. [3 marks]\n(b) Find the equation of the tangent to the graph of $f$ at the point P. [4 marks]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.12"
+   ],
+   "text_clean": "8. [Maximum mark: 6]\nA triangle has vertices $\\mathrm{A}(1,-1,1)$, $\\mathrm{B}(1,1,0)$ and $\\mathrm{C}(-1,1,-1)$.\nShow that the area of the triangle is $\\sqrt{6}$.",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.16"
+   ],
+   "text_clean": "9. [Maximum mark: 7]\n(a) Let $a>0$. Draw the graph of $y=\\left|x-\\frac{a}{2}\\right|$ for $-a\\le x\\le a$ on the grid below. [2 marks]\n[Grid: blank square graph-paper grid for sketching]\n(b) Find $k$ such that $\\int_{-a}^{0}\\left|x-\\frac{a}{2}\\right|\\mathrm{d}x=k\\int_{0}^{a}\\left|x-\\frac{a}{2}\\right|\\mathrm{d}x$. [5 marks]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.1",
+    "2.12",
+    "2.7"
+   ],
+   "text_clean": "10. [Maximum mark: 8]\nThe diagram below shows a solid with volume $V$, obtained from a cube with edge $a>1$ when a smaller cube with edge $\\frac{1}{a}$ is removed.\n[Diagram: cube of edge a with a small cube of edge 1/a removed from one top corner; diagram not to scale]\nLet $x=a-\\frac{1}{a}$.\n(a) Find $V$ in terms of $x$. [4 marks]\n(b) Hence or otherwise, show that the only value of $a$ for which $V=4x$ is $a=\\frac{1+\\sqrt{5}}{2}$. [4 marks]",
+   "answer_status": "ok",
+   "add_flags": [
+    "topic-uncertain"
+   ]
+  },
+  "11": {
+   "topics": [
+    "5",
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "5.15",
+    "5.7",
+    "5.8",
+    "2.14",
+    "2.3",
+    "2.5",
+    "3.9"
+   ],
+   "text_clean": "11. [Maximum mark: 20]\nLet $f$ be a function defined by $f(x)=x-\\arctan x$, $x\\in\\mathbb{R}$.\n(a) Find $f(1)$ and $f(-\\sqrt{3})$. [2 marks]\n(b) Show that $f(-x)=-f(x)$, for $x\\in\\mathbb{R}$. [2 marks]\n(c) Show that $x-\\frac{\\pi}{2}<f(x)<x+\\frac{\\pi}{2}$, for $x\\in\\mathbb{R}$. [2 marks]\n(d) Find expressions for $f'(x)$ and $f''(x)$. Hence describe the behaviour of the graph of $f$ at the origin and justify your answer. [8 marks]\n(e) Sketch a graph of $f$, showing clearly the asymptotes. [3 marks]\n(f) Justify that the inverse of $f$ is defined for all $x\\in\\mathbb{R}$ and sketch its graph. [3 marks]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "4",
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "4.3",
+    "1.2",
+    "2.7"
+   ],
+   "text_clean": "12. [Maximum mark: 17]\n(a) Consider the set of numbers $a, 2a, 3a, \\ldots, na$, where $a$ and $n$ are positive integers.\n(i) Show that the expression for the mean of this set is $\\frac{a(n+1)}{2}$.\n(ii) Let $a=4$. Find the minimum value of $n$ for which the sum of these numbers exceeds its mean by more than 100. [6 marks]\n(b) Consider now the set of numbers $x_1,\\ldots,x_m,y_1,\\ldots,y_n$ where $x_i=0$ for $i=1,\\ldots,m$ and $y_i=1$ for $i=1,\\ldots,n$.\n(i) Show that the mean $M$ of this set is given by $\\frac{n}{m+n}$ and the standard deviation $S$ by $\\frac{\\sqrt{mn}}{m+n}$.\n(ii) Given that $M=S$, find the value of the median. [11 marks]",
+   "answer_status": "ok"
+  },
+  "13": {
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.13",
+    "1.6",
+    "5.12",
+    "5.18"
+   ],
+   "text_clean": "13. [Total Mark: 23]\nPart A [Maximum mark: 9]\nIf $z$ is a non-zero complex number, we define $L(z)$ by the equation\n$L(z)=\\ln|z|+\\mathrm{i}\\arg(z),\\ 0\\le\\arg(z)<2\\pi$.\n(a) Show that when $z$ is a positive real number, $L(z)=\\ln z$. [2 marks]\n(b) Use the equation to calculate\n(i) $L(-1)$;\n(ii) $L(1-\\mathrm{i})$;\n(iii) $L(-1+\\mathrm{i})$. [5 marks]\n(c) Hence show that the property $L(z_1z_2)=L(z_1)+L(z_2)$ does not hold for all values of $z_1$ and $z_2$. [2 marks]\nPart B [Maximum mark: 14]\nLet $f$ be a function with domain $\\mathbb{R}$ that satisfies the conditions,\n$f(x+y)=f(x)f(y)$, for all $x$ and $y$ and $f(0)\\ne 0$.\n(a) Show that $f(0)=1$. [3 marks]\n(b) Prove that $f(x)\\ne 0$, for all $x\\in\\mathbb{R}$. [3 marks]\n(c) Assuming that $f'(x)$ exists for all $x\\in\\mathbb{R}$, use the definition of derivative to show that $f(x)$ satisfies the differential equation $f'(x)=k\\,f(x)$, where $k=f'(0)$. [4 marks]\n(d) Solve the differential equation to find an expression for $f(x)$. [4 marks]",
+   "answer_status": "ok"
+  }
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "exam_id": "math-2009-N-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2009,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2009 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2009 November Examination Session/Mathematics_paper_3_Statistics_and_probability_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8809-7210; code N09/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2009-N-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 13]\nThe mean weight of a certain breed of bird is believed to be 2.5 kg. In order to\ntest this belief, it is planned to determine the weights x , x , x , ..., x (in kg) of\n1 2 3 16\nsixteen of these birds and then to calculate the sample mean x . You may assume\nthat these weights are a random sample from a normal distribution with standard\ndeviation 0.1 kg.\n(a) State suitable hypotheses for a two-tailed test. [2 marks]\n(b) Find the critical region for x having a significance level of 5 %. [6 marks]\n(c) Given that the mean weight of birds of this breed is actually 2.6 kg, find the\nprobability of making a Type II error. [5 marks]",
+   "ms_text": "1. (a) H: 2.5 A1\n0\nH: 2.5 A1\n1\n[2 marks]\n0.1\n(b) the critical values are 2.51.96 , (M1)(A1)(A1)\n16\ni.e. 2.45, 2.55 (A1)\nthe critical region is x 2.45 x 2.55 A1A1\nNote: Accept , .\n[6 marks]\n(c) X is now N(2.6, 0.025) 2 A1\na Type II error is accepting H when H is true (R1)\n0 1\nthus we require\nP(2.45 X 2.55) M1A1\n0.0228 (Accept 0.0227 ) A1\nNote: If critical values of 2.451 and 2.549 are used, accept 0.0207.\n[5 marks]\nTotal[13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L5",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 13]\nThe mean weight of a certain breed of bird is believed to be 2.5 kg. In order to test this belief, it is planned to determine the weights $x_1, x_2, x_3, \\ldots, x_{16}$ (in kg) of sixteen of these birds and then to calculate the sample mean $\\bar{x}$. You may assume that these weights are a random sample from a normal distribution with standard deviation 0.1 kg.\n(a) State suitable hypotheses for a two-tailed test. [2 marks]\n(b) Find the critical region for $\\bar{x}$ having a significance level of 5 %. [6 marks]\n(c) Given that the mean weight of birds of this breed is actually 2.6 kg, find the probability of making a Type II error. [5 marks]"
+  },
+  {
+   "id": "math-2009-N-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 19]\n(a) Alan and Brian are athletes specializing in the long jump. When Alan jumps,\nthe length of his jump is a normally distributed random variable with mean\n5.2 metres and standard deviation 0.1 metres. When Brian jumps, the length\nof his jump is a normally distributed random variable with mean 5.1 metres\nand standard deviation 0.12 metres. For both athletes, the length of a jump is\nindependent of the lengths of all other jumps. During a training session, Alan\nmakes four jumps and Brian makes three jumps. Calculate the probability that\nthe mean length of Alan’s four jumps is less than the mean length of Brian’s\nthree jumps. [9 marks]\n(b) Colin joins the squad and the coach wants to know the mean length, µ metres,\nof his jumps. Colin makes six jumps resulting in the following lengths in metres.\n5.21, 5.30, 5.22, 5.19, 5.28, 5.18\n(i) Calculate an unbiased estimate of both the mean µ and the variance of the\nlengths of his jumps.\n(ii) Assuming that the lengths of these jumps are independent and normally\n[10 marks] distributed, calculate a 90 % confidence interval for µ .",
+   "ms_text": "2. (a) let AB denote the means of Alan’s and Brian’s jumps ,\nattempting to find the distributions of AB , (M1)\n2 0.1\nA isN5.2, A1\n4\n2 0.12\nB isN5.1, A1\n3\nattempting to find the distribution of A B (M1)\n2 2 0.1 0.12\nA B isN5.2 5.1, (A1)(A1)\n4 3\ni.e.N(0.1, 0.0073) A1\nP( A B ) P( A B 0) M1\n0.121 A1\n[9 marks]\n2 (b) (i) x 31.38, x 164.1294\n31.38\nx 5.23 (M1)A1\n6\nEITHER\n2 164.1294 31.38\n2\nns 0.00240 (M1)(A1)A1 1\n5 56\nOR\n2 s 0.04899 s 0.00240 (M1)(A1)A1\nn 1 n 1\nNote: Accept the exact answer 0.0024 without an arithmetic penalty.\n(ii) using the t-distribution with DF 5 (A1)\ncritical value of t 2.015 A1\n0.0024\n90 % confidence limits are 5.23 2.015 M1A1\n6\ngiving [5.19, 5.27] A1 N5\n[10 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.L5",
+    "4.L6",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 19]\n(a) Alan and Brian are athletes specializing in the long jump. When Alan jumps, the length of his jump is a normally distributed random variable with mean 5.2 metres and standard deviation 0.1 metres. When Brian jumps, the length of his jump is a normally distributed random variable with mean 5.1 metres and standard deviation 0.12 metres. For both athletes, the length of a jump is independent of the lengths of all other jumps. During a training session, Alan makes four jumps and Brian makes three jumps. Calculate the probability that the mean length of Alan's four jumps is less than the mean length of Brian's three jumps. [9 marks]\n(b) Colin joins the squad and the coach wants to know the mean length, $\\mu$ metres, of his jumps. Colin makes six jumps resulting in the following lengths in metres.\n5.21, 5.30, 5.22, 5.19, 5.28, 5.18\n(i) Calculate an unbiased estimate of both the mean $\\mu$ and the variance of the lengths of his jumps.\n(ii) Assuming that the lengths of these jumps are independent and normally distributed, calculate a 90 % confidence interval for $\\mu$. [10 marks]"
+  },
+  {
+   "id": "math-2009-N-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 15]\nThe following table shows the result of 100 independent observations on the discrete\nrandom variable X .\nValue of X 3 4 5 6 7 8 or more\nFrequency 25 21 20 15 12 7\nCharles believes that X has a negative binomial distribution with parameters r = 3\nand p = 0 6. and he asks you to carry out a χ 2 test to investigate his belief.\n(a) State suitable hypotheses. [1 mark]\n(b) Calculate the expected frequencies, giving your answers correct to two\ndecimal places. [8 marks]\nCalculate the value of the χ 2 statistic and determine its p-value. (c) [5 marks]\n[1 mark] (d) State your conclusion.",
+   "ms_text": "3. (a) H : X has the negative binomial distribution with r 3 and p 0.6\n0\nH : X does not have the above distribution A1\n1\n[1 mark]\n(b) the expected frequency corresponding to the value x for 3 x 7 is\nx 1\n3 x 3 E 0.6 0.4 100 (M1)\nx\n2\nthis gives\nE 21.60 A1\n3\nE 25.92 A1\n4\nE 20.736 20.74 A1\n5\nE 13.82413.82 A1\n6\nE 8.2944 8.29 A1\n7\nfinally,\nE 100 (above frequencies) 9.6256 9.63 (M1)A1\n8\nNote: Accept exact values.\n[8 marks]\n2 2 25 7\n2 (c) ... 100 (M1)(A1)\ncalc\n21.6 9.63\n3.97 A1\nDF 5 (A1)\np -value 0.554 (accept 0553) A1\n[5 marks]\n(d) strong evidence to support Charles’ belief or equivalent statement\nthat accepts H R1\n0\n[1 mark]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 15]\nThe following table shows the result of 100 independent observations on the discrete random variable $X$.\nValue of $X$ | 3 | 4 | 5 | 6 | 7 | 8 or more\nFrequency | 25 | 21 | 20 | 15 | 12 | 7\nCharles believes that $X$ has a negative binomial distribution with parameters $r = 3$ and $p = 0.6$ and he asks you to carry out a $\\chi^2$ test to investigate his belief.\n(a) State suitable hypotheses. [1 mark]\n(b) Calculate the expected frequencies, giving your answers correct to two decimal places. [8 marks]\n(c) Calculate the value of the $\\chi^2$ statistic and determine its $p$-value. [5 marks]\n(d) State your conclusion. [1 mark]"
+  },
+  {
+   "id": "math-2009-N-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 13]\nThe random variable X has the distribution B(, np. )\nP ( X = x ) ( n − x + 1 ) p\n(a) (i) Show that = .\nX = x − x − p P ( 1 ) ( 1 )\n(ii) Deduce that if P ( X = x ) > P ( X = x −1 then x ) < ( n + )1 p .\n(iii) Hence, determine the value of x which maximizes P( X = x ) when\n( n +1 ) p is not an integer. [9 marks]\n(b) Given that n =19 , find the set of values of p for which X has a unique\nmode of 13. [4 marks]",
+   "ms_text": "n ! x nx\np (1 p )\n( n x )!! x P( X x )\n4. (a) (i) M1A1\nP( X x 1) n !\nx 1 nx 1 p (1 p )\n( n x 1)!( x 1)!\n( n x 1) p\nAG\nx (1 p )\n(ii) if P( X x ) P( X x 1) then\n( n x 1) p x (1 p ) (M1)A1\nnp xp p x px A1\nx ( n 1) p AG\n(iii) to maximise the probability we also need\nP( X x ) P( X x 1) (M1)\nn ( x 1) 1 p\n1\n( x 1)(1 p )\nnp xp x xp 1 p\npn ( 1) x 1 A1\nhence pn ( 1) x pn ( 1)1 (A1)\nso x is the integer part of ( n 1) pi.e. the largest integer less\nthan ( n 1) p A1\n[9 marks]\n(b) the mode is the value which maximises the probability (R1)\n20 p 13 20 p 1 M1\n13 7\np 0.65, and p 0.70 A1A1\n20 10\n(it follows that 0.65 p 0.7 )\n[4 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.8",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 13]\nThe random variable $X$ has the distribution $\\mathrm{B}(n, p)$.\n(a) (i) Show that $\\dfrac{\\mathrm{P}(X = x)}{\\mathrm{P}(X = x-1)} = \\dfrac{(n-x+1)p}{x(1-p)}$.\n(ii) Deduce that if $\\mathrm{P}(X = x) > \\mathrm{P}(X = x-1)$ then $x < (n+1)p$.\n(iii) Hence, determine the value of $x$ which maximizes $\\mathrm{P}(X = x)$ when $(n+1)p$ is not an integer. [9 marks]\n(b) Given that $n = 19$, find the set of values of $p$ for which $X$ has a unique mode of 13. [4 marks]"
+  }
+ ],
+ "status": "done"
+}

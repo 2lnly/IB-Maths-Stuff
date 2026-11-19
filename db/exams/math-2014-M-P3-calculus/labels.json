@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2014-M-P3-calculus",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.L5", "5.19", "5.13", "5.16", "5.6"],
+      "text_clean": "1. [Maximum mark: 16]\nConsider the functions $f$ and $g$ given by $f(x)=\\frac{e^{x}+e^{-x}}{2}$ and $g(x)=\\frac{e^{x}-e^{-x}}{2}$.\n(a) Show that $f'(x)=g(x)$ and $g'(x)=f(x)$. [2]\n(b) Find the first three non-zero terms in the Maclaurin expansion of $f(x)$. [5]\n(c) Hence find the value of $\\lim_{x\\to 0}\\frac{1-f(x)}{x^{2}}$. [3]\n(d) Find the value of the improper integral $\\int_{0}^{\\infty}\\frac{g(x)}{[f(x)]^{2}}\\,dx$. [6]"
+    },
+    "2": {
+      "topics": ["5", "2"],
+      "subtopics": ["5.18", "5.6", "5.2", "5.8", "2.4"],
+      "text_clean": "2. [Maximum mark: 17]\n(a) Consider the functions $f(x)=(\\ln x)^{2}$, $x>1$ and $g(x)=\\ln(f(x))$, $x>1$.\n(i) Find $f'(x)$.\n(ii) Find $g'(x)$.\n(iii) Hence, show that $g(x)$ is increasing on $]1,\\infty[$. [5]\n(b) Consider the differential equation\n$(\\ln x)\\frac{dy}{dx}+\\frac{2}{x}y=\\frac{2x-1}{(\\ln x)}$, $x>1$.\n(i) Find the general solution of the differential equation in the form $y=h(x)$.\n(ii) Show that the particular solution passing through the point with coordinates $(e, e^{2})$ is given by $y=\\frac{x^{2}-x+e}{(\\ln x)^{2}}$.\n(iii) Sketch the graph of your solution for $x>1$, clearly indicating any asymptotes and any maximum or minimum points. [12]"
+    },
+    "3": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.L2", "5.L1", "1.2"],
+      "text_clean": "3. [Maximum mark: 12]\nEach term of the power series $\\frac{1}{1\\times 2}+\\frac{1}{4\\times 5}x+\\frac{1}{7\\times 8}x^{2}+\\frac{1}{10\\times 11}x^{3}+\\dots$ has the form $\\frac{1}{b(n)\\times c(n)}x^{n}$, where $b(n)$ and $c(n)$ are linear functions of $n$.\n(a) Find the functions $b(n)$ and $c(n)$. [2]\n(b) Find the radius of convergence. [4]\n(c) Find the interval of convergence. [6]"
+    },
+    "4": {
+      "topics": ["5"],
+      "subtopics": ["5.12", "5.L4", "5.6"],
+      "text_clean": "4. [Maximum mark: 15]\nThe function $f$ is defined by $f(x)=\\begin{cases} e^{-x^{2}}(-x^{3}+2x^{2}+x), & x\\le 1 \\\\ ax+b, & x>1 \\end{cases}$, where $a$ and $b$ are constants.\n(a) Find the exact values of $a$ and $b$ if $f$ is continuous and differentiable at $x=1$. [8]\n(b) (i) Use Rolle's theorem, applied to $f$, to prove that $2x^{4}-4x^{3}-5x^{2}+4x+1=0$ has a root in the interval $]-1,1[$.\n(ii) Hence prove that $2x^{4}-4x^{3}-5x^{2}+4x+1=0$ has at least two roots in the interval $]-1,1[$. [7]"
+    }
+  }
+}

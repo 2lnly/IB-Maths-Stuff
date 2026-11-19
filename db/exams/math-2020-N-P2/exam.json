@@ -1,0 +1,275 @@
+{
+ "exam_id": "math-2020-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2020,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2020 November Examination Session/Mathematics_paper_2__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2020 November Examination Session/Mathematics_paper_2__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8820-7202; code N20/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches paper total 100",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2020-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nThe following diagram shows a sector OAB of radius 15 cm. The length of [AB] is 11 cm.\ndiagram not to scale\nO\n15\n11\nA B\nFind the area of the shaded region.",
+   "ms_text": "ˆ 1. attempt to find AOB by right-angled trigonometry or the cosine rule (M1)\nEITHER\n5.5\nˆ AOB = A1\n2arcsin15\nOR\n2 + 2 − 2 15 15 11\nAOB ˆ = arccos A1\n21515 × ×\nTHEN\n= 0.750847... ( = 43.0204... )\nAOB or1 ˆ ˆ\nNote: Award (M1)A1 for correct calculation of AOB\n2\n1 2\nshaded area = area of sector- area of triangle = ( θ − sin θ ) (M1)\n2 r\n115 2 ( ) = × × 0.750847...sin0.750847... − (A1)\n2\n= 7.72 (cm2) A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nThe following diagram shows a sector OAB of radius $15$ cm. The length of [AB] is $11$ cm.\n[Diagram (not to scale): sector OAB with centre O, OA = 15, chord AB = 11; the segment between chord [AB] and the arc is shaded]\nFind the area of the shaded region."
+  },
+  {
+   "id": "math-2020-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\nJenna is a keen book reader. The number of books she reads during one week can be\nmodelled by a Poisson distribution with mean 2.6 .\nDetermine the expected number of weeks in one year, of 52 weeks, during which Jenna\nreads at least four books.",
+   "ms_text": "2. let X be the random variable “number of books Jenna reads per week.”\nthen X ~ Po2.6 ( )\nP ( X≥ 4 ) = 0.264 (0.263998…) (M1)(A1)\n0.263998...52 × (M1)\n= 13.7 A1\nNote: Accept 14 weeks.\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nJenna is a keen book reader. The number of books she reads during one week can be modelled by a Poisson distribution with mean $2.6$.\nDetermine the expected number of weeks in one year, of $52$ weeks, during which Jenna reads at least four books."
+  },
+  {
+   "id": "math-2020-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 8]\nThe following diagram shows part of the graph of y=p+qsin(r x) . The graph has a local\nπ π\n9,5 3,1\nmaximum point at - and a local minimum point at - - .\n4 4\ny\n5\n9π 3π\n− −\n4 4\nx\n−1\n(a) Determine the values of p , q and r .\b [4]\n(b) Hence find the area of the shaded region.\b [4]",
+   "ms_text": "5 +− ( 1 )(\n3. (a) the principal axis is = 2 )\n2\nso p = 2 A1\n5 −− ( 1 ) (\nthe amplitude is = 3 )\n2\nso q = 3 A1\nEITHER\n3π 9π\none period is 2 − −− (M1)\n4 4\n= 3π\n2π\n⇒ = 3π\nr\nOR\n3π\nSubstituting a point eg −= 1 2 + sin −\n4r\n3π 3π 5π π3π\nsin − r = −⇒− 1 r = ... − , − , ,...\n4 4 2 2 2\n3π π\nChoice of correct solution − r = − (M1)\n4 2\nTHEN\n2\n⇒ r = A1\n3\n2 x\n⇒ y = 2 + 3sin\n3\nNote:q and r can be both given as negatives for full marks\n[4 marks]\n(b) roots are x = − 1.09459 , x = − 3.617797 (A1)\n− 1.09459... 2 x\n2 + 3sin d x (M1) ∫\n− 3.617797... 3\n= − ( = − ) 1.66 1.66179... (A1)\nso area 1.66 = (units2) A1\n[4 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.7",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "3. [Maximum mark: 8]\nThe following diagram shows part of the graph of $y = p + q\\sin(rx)$. The graph has a local maximum point at $\\left(-\\frac{9\\pi}{4}, 5\\right)$ and a local minimum point at $\\left(-\\frac{3\\pi}{4}, -1\\right)$.\n[Graph: sinusoidal curve with maximum at $x=-\\frac{9\\pi}{4}$, $y=5$ and minimum at $x=-\\frac{3\\pi}{4}$, $y=-1$; the region between the curve and the x-axis around the minimum (below the axis) is shaded]\n(a) Determine the values of $p$, $q$ and $r$. [4]\n(b) Hence find the area of the shaded region. [4]",
+   "review_note": "Markscheme crop omits the line 'so q = 3  A1' at the bottom of MS page 7: seg_math footer detection treats the lone digit '3' (y0 > 0.92H) as a page number (FOOTER_EXTRA_RES ^\\d{1,4}$), and overrides cannot bypass footer trimming. Rest of the markscheme is complete. | fixed by segmenter update"
+  },
+  {
+   "id": "math-2020-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\n9\n1 1 x\nFind the term independent of x in the expansion of - .\n3 2 x 3 x 2",
+   "ms_text": "9\n9 23\n1 x 1 x\n4. use of Binomial expansion to find a term in either − , − ,\n2 73 3 x 2 2\n3 x\n9 3 9\n1 x 1 1 9 3\n− , − or ( 2 − 3x ) (M1)(A1)\n3 3 2 3 x 2\nNote: Award M1 for a product of three terms including a binomial coefficient and\npowers of the two terms, and A1 for a correct expression of a term in the expansion.\nfinding the powers required to be 2 and 7 (M1)(A1)\n2 7\n1 1 9\n× ×− constant term is C (M1)\n2\n3 2\nNote: Ignore all x’s in student’s expression.\n1\ntherefore term independent of x is − (= − 0.03125) A1\n32\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nFind the term independent of $x$ in the expansion of $\\frac{1}{x^3}\\left(\\frac{1}{3x^2} - \\frac{x}{2}\\right)^9$."
+  },
+  {
+   "id": "math-2020-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 7]\nA survey of British holidaymakers found that 15 % of those surveyed took a holiday in the\nLake District in 2019.\n(a) A random sample of 16 British holidaymakers was taken. The number of people\nin the sample who took a holiday in the Lake District in 2019 can be modelled by\na binomial distribution.\n(i) State two assumptions made in order for this model to be valid.\n(ii) Find the probability that at least three people from the sample took a holiday in\nthe Lake District in 2019.\b [4]\n(b) From a random sample of n holidaymakers, the probability that at least one of them\ntook a holiday in the Lake District in 2019 is greater than 0.999.\nDetermine the least possible value of n .\b [3]",
+   "ms_text": "5. (a) (i) people’s holidays are independent of each other R1\nthe proportion is constant (at 0.15) R1\n(ii) X ~ B16,0.15 ( )\nP ( X≥ 3 ) = 0.439 (M1)A1\n[4 marks]\n(b) probability of at least one 1 =−probability of none\nn ⇒− 1 0.85 > 0.999 OR0.85 n< 0.001 (A1)\nattempt to solve inequality (M1)\nn ≥ 42.503...\nso least possible n = 43 A1\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 7]\nA survey of British holidaymakers found that $15\\%$ of those surveyed took a holiday in the Lake District in 2019.\n(a) A random sample of $16$ British holidaymakers was taken. The number of people in the sample who took a holiday in the Lake District in 2019 can be modelled by a binomial distribution.\n(i) State two assumptions made in order for this model to be valid.\n(ii) Find the probability that at least three people from the sample took a holiday in the Lake District in 2019. [4]\n(b) From a random sample of $n$ holidaymakers, the probability that at least one of them took a holiday in the Lake District in 2019 is greater than $0.999$.\nDetermine the least possible value of $n$. [3]"
+  },
+  {
+   "id": "math-2020-N-P2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nn d\n( px ) n - 1 ( ) px Use mathematical induction to prove that nx e = p px + n e\nd x\nfor n∈′+, p∈⁄.",
+   "ms_text": "( px ) d x e\npx px px 0 px 6. n = 1: LHS = = xp e + e = ( px + 1e, RHS ) = p ( px + 1e )\nd x\n= n = 1: LHS RHS so true for A1\nn = 0 Note: Award A1 if is proved.\nk d\nassume proposition true for n = k px k − 1 px , i.e. ( x e ) = p ( px + k ) e M1\nk d x\nNotes: Do not award M1 if using n instead of k.\nAssumption of truth must be present.\nSubsequent marks are not dependent on this M1 mark.\nk + 1 k d d d\n( x e px ) = ( x e px ) (M1)\nk + 1 k d x d x d x\nd k − 1 px\n= ( p ( px + k ) e ) M1\nd x\n− = p k 1 ( px + kp ) e px + e px ( p k )\n= k ( + ) px + px ( k ) A1 p px k e e p\nNote:Award A1 for correct derivative.\n= k ( + + ) px p px k 1e A1\n( ( k +− 11 ) )\n= ( + ( + ) ) px p px k 1e\nNote: The final A1 can be awarded for either of the two lines above.\nhence true for n = and n 1 = k true ⇒ n = k + true 1 R1\n+\ntherefore true for all n ∈\nNote: Only award the final R1 if the three method marks have been awarded.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.15",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nUse mathematical induction to prove that $\\frac{\\mathrm{d}^n}{\\mathrm{d}x^n}\\left(x\\mathrm{e}^{px}\\right) = p^{n-1}(px+n)\\mathrm{e}^{px}$ for $n \\in \\mathbb{Z}^+$, $p \\in \\mathbb{Q}$."
+  },
+  {
+   "id": "math-2020-N-P2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\nAt a gathering of 12 teachers, seven are male and five are female. A group of five of these\nteachers go out for a meal together. Determine the possible number of groups in each of the\nfollowing situations:\n(a) There are more males than females in the group.\b [4]\n(b) Two of the teachers, Gary and Gerwyn, refuse to go out for a meal together.\b [3]",
+   "ms_text": "7. (a) identifying two or three possible cases (M1)\n7 5 7 5\ntotal number of possible groups is 7 + +\n(A1)(A1)\n5 4 1 3 2\nNote: Award A1 for any two correct cases, A1 for the other one.\n( )( ) = 21 + 355 × + 3510 ×\n= 546 A1\n[4 marks]\n(b) METHOD 1\nidentifying at least two of the three possible cases- Gary goes,\nGerwyn goes or neither goes (M1)\n10 10\ntotal number of possible groups is 10 + +\n(A1)\n5 4 4\n= 252 + 210 + 210\n= 672 A1\n[3 marks]\nMETHOD 2\nidentifying the overall number of groups and no. of cases where both\nGary and Gerwyn go. (M1)\n10\ntotal number of possible groups is 12 −\n(A1)\n5 3\n= 792120 −\n= 672 A1\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nAt a gathering of $12$ teachers, seven are male and five are female. A group of five of these teachers go out for a meal together. Determine the possible number of groups in each of the following situations:\n(a) There are more males than females in the group. [4]\n(b) Two of the teachers, Gary and Gerwyn, refuse to go out for a meal together. [3]"
+  },
+  {
+   "id": "math-2020-N-P2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\n10\nA small bead is free to move along a smooth wire in the shape of the curve y = (x≥ 0 ).\n- 3 - 2e 0.5 x\ny Find an expression for d\n(a) .\b [3]\nd x\ny At the point on the curve where x=4 , it is given that d\n0.1 m s-1.\nt= -\nd\nx Find the value of d\n(b) at this exact same instant.\b [3]\nd t",
+   "ms_text": "8. (a)valid attempt to use chain rule or quotient rule (M1)\n− 0.5 x\nd y − 10e d y − 2 − 0.5 x\n( − 0.5 x ) = OR = − 10e 3 − 2e A1A1\n2 d x\n( − 0.5 x ) d x 3 − 2e\n[3 marks]\nNote: Award A1 for numerator and A1 for denominator, or A1 for each part if the\nsecond alternative given.\nd y d y d x\n(b) valid attempt to use chain rule = × (M1)\negd\nt d x d t\n− 2\nd x − 10e\n= − 0.1 ÷ ( = − 0.1 ÷− 0.181676... ) or equivalent (A1)\nd t − 2 2 ( 3 − 2e )\n= 0.550428...\nd x\n0.550 (ms-1) A1\nt=\nd\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nA small bead is free to move along a smooth wire in the shape of the curve $y = \\frac{10}{3 - 2\\mathrm{e}^{-0.5x}}$ $(x \\ge 0)$.\n(a) Find an expression for $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$. [3]\nAt the point on the curve where $x = 4$, it is given that $\\frac{\\mathrm{d}y}{\\mathrm{d}t} = -0.1\\ \\mathrm{m\\,s^{-1}}$.\n(b) Find the value of $\\frac{\\mathrm{d}x}{\\mathrm{d}t}$ at this exact same instant. [3]"
+  },
+  {
+   "id": "math-2020-N-P2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 14]\nThe weights, in grams, of individual packets of coffee can be modelled by a normal distribution,\nwith mean 102 g and standard deviation 8 g.\n(a) Find the probability that a randomly selected packet has a weight less than 100 g.\b [2]\n(b) The probability that a randomly selected packet has a weight greater than w grams\nis 0.444. Find the value of w .\b [2]\n(c) A packet is randomly selected. Given that the packet has a weight greater than 105 g,\nfind the probability that it has a weight greater than 110 g.\b [3]\nFrom a random sample of 500 packets, determine the number of packets that would be (d)\nexpected to have a weight lying within 1.5 standard deviations of the mean.\b [3]\n(e) Packets are delivered to supermarkets in batches of 80. Determine the probability that\nat least 20 packets from a randomly selected batch have a weight less than 95 g.\b [4]",
+   "ms_text": "2 9. (a) X ~ N102,8 ( )\n( X< ) = P 100 0.401 (M1)A1\n[2 marks]\n(b) P ( X > w ) = 0.444 (M1)\n⇒ w = 103 (g) A1\n[2 marks]\nP ( X > 110 ∩ X > 105 )\n( > > ) = (c) P X 110 | X 105 (M1)\n( ) P X > 105\n( > ) P X 110\n= (A1)\nP ( X > 105 )\n0.15865...\n=\n0.35383...\n= 0.448 A1\n[3 marks]\n(d) EITHER\nP90 ( < X < 114 ) = 0.866... (A1)\nOR\n( ) P − 1.5 < Z < 1.5 = 0.866... (A1)\nTHEN\n0.866...500 × (M1)\n= 433 A1\n[3 marks]\n(e) p = P ( X < 95 ) = 0.19078... (A1)\nrecognising Y ~ B80, ( p ) (M1)\n( ) now using Y ~ B80,0.19078... (M1)\nP ( Y≥ 20 ) = 0.116 A1\n[4 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.8",
+    "4.11",
+    "4.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 14]\nThe weights, in grams, of individual packets of coffee can be modelled by a normal distribution, with mean $102$ g and standard deviation $8$ g.\n(a) Find the probability that a randomly selected packet has a weight less than $100$ g. [2]\n(b) The probability that a randomly selected packet has a weight greater than $w$ grams is $0.444$. Find the value of $w$. [2]\n(c) A packet is randomly selected. Given that the packet has a weight greater than $105$ g, find the probability that it has a weight greater than $110$ g. [3]\n(d) From a random sample of $500$ packets, determine the number of packets that would be expected to have a weight lying within $1.5$ standard deviations of the mean. [3]\n(e) Packets are delivered to supermarkets in batches of $80$. Determine the probability that at least $20$ packets from a randomly selected batch have a weight less than $95$ g. [4]"
+  },
+  {
+   "id": "math-2020-N-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 16]\nThe plane Π1 has equation 3x − y +z =−13 and the line L has vector equation\n1 - 3\nr = 2 + λ - 1 , λ ∈ϒ .\n- 2 4\n(a) Given that L meets Π1 at the point P, find the coordinates of P.\b [4]\n(b) Find the shortest distance from the point O ( 0 , 0 , 0 ) to Π1.\b [4]\nThe plane Π2 contains the point O and the line L .\n(c) Find the equation of Π2 , giving your answer in the form r.n =d .\b [3]\n(d) Determine the acute angle between Π1 and Π2.\b [5]",
+   "ms_text": "( )( )( ) 10. (a) 31 − 3 λ − 2 − λ +−+ 2 4 λ = − 13 (M1)\nλ= 3 (A1)\n1 − 3 − 8\nr = 2 + 3 − 1 =− 1 (M1)\n− 2 4 10\nso ( − − ) P 8,1,10 A1\nNote:Do not award the final A1 if a vector given instead of coordinates\n[4 marks]\n(b) METHOD 1\n3\nr= μ − 1\n1\nsubstituting into equation of the plane M1\n9 μ + μ + μ = − 13\n13\nμ= − ( = − 1.18... ) A1\n11\n2 2\n+− ( ) + 2 133 1 1\ndistance = (M1)\n11\n13 1311\n= = = 3.92 A1\n11 11\n[4 marks]\nMETHOD 2\nchoice of any point on the plane, eg ( − 8, − 1, 10 ) to use in distance formula (M1)\n− 8 − 3\n− 1. 1\n10 − 1\nso distance = A1A1\n2 2 2\n( − 3 ) + 1 +− ( 1 )\nNote: Award A1 for numerator, A1 for denominator.\n24 −− 110\n=\n11\n13 1311\n= = = 3.92 A1\n11 11\n[4 marks]\n(c) EITHER\nidentify two vectors (A1)\n1 − 3\neg, 2 and − 1\n− 2 4\n− 1 3 6\nn = 2 ×− 1 = 2 (M1)\n− 2 4 5\nOR\nidentify three points in the plane (A1)\n1 − 2\neg λ= 0,1 gives 2 and 1\n− 2 2\nsolving system of equations (M1)\nTHEN\n6\nΠ :.2 r = 0 A1\n2\n5\n+ + = Note: Accept 6 x 2 y 5 z 0 .\n[3 marks]\n3\n(d) vector normal to Πis eg n =− 1\n1 1\n1\n6\nvector normal to Π is eg n 2 (A1)\n2 = 2\n5\n3 6\n− 1.2\n1 5\nrequired angle is θ, where cos θ = M1A1\n1165\n21\ncos θ= = 0.785... (A1)\n1165\nθ= 0.667526...\nθ= 0.668 ( = 38.2 ) A1\nNote:Award the penultimate (A1) but not the final A1 for the obtuse angle2.47406…\nor 142.\n[5 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.17",
+    "3.16",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 16]\nThe plane $\\Pi_1$ has equation $3x - y + z = -13$ and the line $L$ has vector equation\n$\\boldsymbol{r} = \\begin{pmatrix}1\\\\2\\\\-2\\end{pmatrix} + \\lambda\\begin{pmatrix}-3\\\\-1\\\\4\\end{pmatrix}$, $\\lambda \\in \\mathbb{R}$.\n(a) Given that $L$ meets $\\Pi_1$ at the point P, find the coordinates of P. [4]\n(b) Find the shortest distance from the point $\\mathrm{O}(0, 0, 0)$ to $\\Pi_1$. [4]\nThe plane $\\Pi_2$ contains the point O and the line $L$.\n(c) Find the equation of $\\Pi_2$, giving your answer in the form $\\boldsymbol{r}\\cdot\\boldsymbol{n} = d$. [3]\n(d) Determine the acute angle between $\\Pi_1$ and $\\Pi_2$. [5]"
+  },
+  {
+   "id": "math-2020-N-P2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\nA particle P moves in a straight line such that after time t seconds, its velocity, v in m s-1,\nπ\nis given by v=e−3tsin 6 t, where 0 << t .\n2\n(a) Find the times when P comes to instantaneous rest.\b [2]\nAt time t, P has displacement s (t);at time t = 0, s (0) = 0.\n(b) Find an expression for s in terms of t .\b [7]\n(c) Find the maximum displacement of P , in metres, from its initial position.\b [2]\n(d) Find the total distance travelled by P in the first 1.5 seconds of its motion.\b [2]\nAt successive times when the acceleration of P is 0m s−2 , the velocities of P form a\ngeometric sequence. The acceleration of P is zero at times t1 , t2 , t3 where t1<t2<t3\nand the respective velocities are v1 , v2 , v3 .\n\u0007Show that, at these times, tan 6 t= 2 . (e) (i)\nπ\nv v -\n2 = 3 = - e 2 (ii) Hence show that .\b [7]\nv v\n1 2\n\b",
+   "ms_text": "π\n11. (a) ( 0.524 ) A1 6=\nπ\n( ) 1.05 A1\n3=\n[2 marks]\n(b) attempt to use integration by parts M1\n− 3 t s = ∫ e sin 6 d t t\nEITHER\n− 3 t e sin6 t\n− 3 t = −\n−−∫ 2e cos6 d t t A1\n3\n− 3 t − 3 t e sin6 t 2e cos6 t\n− 3 t = − − −−\n∫ 4e sin6 d t t A1\n3 3\n− − e 3 t sin6 t 2e 3 t cos6 t\n= − − + 4 s\n3 3\n− 3 t − 3 t − 3e sin6 t − 6e cos6 t\n5 s = M1\n9\nOR\n− 3 t e cos6 t\n1 e − 3 t = −\n−∫ cos6 d t t A1\n6 2\n− 3 t − 3 t e cos6 t e sin6 t\n1 e − 3 t = − − +\n∫ sin6 d t t A1\n6 12 4\n− − e 3 t cos6 t e 3 t sin6 t 1\n= − − + s\n6 12 4\n− 3 t − 3 t 5 − 2e cos6 t − e sin6 t\ns = M1\n4 12\nTHEN\n− 3 t ( +\ne sin6 t 2cos6 t )(\n) s = − + c A1\n15\n2\nat t = 0, s = 0 ⇒ 0 = − + c M1\n15\n2\nc = A1\n15\n− 3 t ( )\n2 e sin6 t + 2cos6 t\ns = −\n15 15\n[7 marks]\n(c) EITHER\nπ\nsubstituting t = into their equation for s (M1)\n6\nπ −\ne 2 ( sin π + 2cos π ) 2\n= − s\n15 15\nOR\nusing GDC to find maximum value (M1)\nOR\nπ\nevaluating ∫ 6 v (M1) 0dt\nTHEN\n2 π\n( − ) = 0.161 = 1e + 2 A1\n15\n[2 marks]\n(d) METHOD 1\nEITHER\n1.5\ndistance required = ∫ − 3 t (M1) e sin6 d t t\n0\nOR\nπ π\n1.5 6 3\n− − − =\ne 3 t sin 6 d t t + e 3 t sin 6 d t t + e 3 t sin 6 d t t distance required ∫ ∫ ∫ (M1)\n0 π π\n6 3\n= + + ( 0.16105... 0.033479... 0.006806... )\nTHEN\n= 0.201 (m) A1\nMETHOD 2\nusing successive minimum and maximum values on the displacement graph (M1)\n0.16105... + (0.16105... − 0.12757...) + (0.13453... − 0.12757...)\n= 0.201 (m) A1\n[2 marks]\nv v valid attempt to find d using product rule and set d\n(e) (i) 0 M1 t=\nd t d\nd v − 3 t − 3 t\n= e 6cos6 t − 3e sin 6 t A1\nd t\nd v\n⇒ = 0 tan 6 t 2 AG\nt=\nd\n(ii) attempt to evaluate 1 ttt in exact form ,, M1\n2 3\n1\n= ⇒ = 6 t arctan 2 t arctan 2\n1 1\n6\nπ 1\n6 t = π + arctan 2 ⇒ t = + arctan 2\n2 2\n6 6\nπ 1\n6 t = 2π + arctan 2 ⇒ t = + arctan 2 A1\n3 3\n3 6\nNote: The A1 is for any two consecutive correct, or showing that 6 t = π + 6 t or\n2 1\n= + 6 t π 6 t .\n3 2\nshowing that sin6 t += − sin6 t\nn 1 n\n2\neg tan6 t = 2 ⇒ sin6 t = ± M1A1\n5\n− 3 t π\ne n + 1 −\n2 showing that = e M1\n− 3 t\ne n\nπ −\n3 + k π −\n6 ÷ − 3 k = 2 eg e e e\nNote: Award the A1 for any two consecutive terms.\nπ\nv v −\n3 2 2 = = − e AG\nv v\n2 1\n[7 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.9",
+    "5.6",
+    "3.8",
+    "1.3",
+    "5.8",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 20]\nA particle $P$ moves in a straight line such that after time $t$ seconds, its velocity, $v$ in $\\mathrm{m\\,s^{-1}}$, is given by $v = \\mathrm{e}^{-3t}\\sin 6t$, where $0 < t < \\frac{\\pi}{2}$.\n(a) Find the times when $P$ comes to instantaneous rest. [2]\nAt time $t$, $P$ has displacement $s(t)$; at time $t = 0$, $s(0) = 0$.\n(b) Find an expression for $s$ in terms of $t$. [7]\n(c) Find the maximum displacement of $P$, in metres, from its initial position. [2]\n(d) Find the total distance travelled by $P$ in the first $1.5$ seconds of its motion. [2]\nAt successive times when the acceleration of $P$ is $0\\ \\mathrm{m\\,s^{-2}}$, the velocities of $P$ form a geometric sequence. The acceleration of $P$ is zero at times $t_1, t_2, t_3$ where $t_1 < t_2 < t_3$ and the respective velocities are $v_1, v_2, v_3$.\n(e) (i) Show that, at these times, $\\tan 6t = 2$.\n(ii) Hence show that $\\frac{v_2}{v_1} = \\frac{v_3}{v_2} = -\\mathrm{e}^{-\\frac{\\pi}{2}}$. [7]"
+  }
+ ],
+ "status": "done",
+ "review_note": "Overrides fix Q2/Q3 markscheme boundary ([4 marks] of Q2 was at top of Q3 crop)."
+}

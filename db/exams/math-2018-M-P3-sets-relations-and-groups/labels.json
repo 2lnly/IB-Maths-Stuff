@@ -1,0 +1,62 @@
+{
+ "exam_id": "math-2018-M-P3-sets-relations-and-groups",
+ "questions": {
+  "1": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.6",
+    "7.4"
+   ],
+   "answer_status": "ok",
+   "text_clean": "1. [Maximum mark: 13]\nThe binary operation multiplication modulo $10$, denoted by $\\times_{10}$, is defined on the set $T=\\{2,4,6,8\\}$ and represented in the following Cayley table.\n[Table: Cayley table]\n$\\times_{10}$ | 2 | 4 | 6 | 8\n2 | 4 | 8 | 2 | 6\n4 | 8 | 6 | 4 | 2\n6 | 2 | 4 | 6 | 8\n8 | 6 | 2 | 8 | 4\n(a) Show that $\\{T,\\times_{10}\\}$ is a group. (You may assume associativity.) [4]\n(b) By making reference to the Cayley table, explain why $T$ is Abelian. [1]\n(c) (i) Find the order of each element of $\\{T,\\times_{10}\\}$.\n(ii) Hence show that $\\{T,\\times_{10}\\}$ is cyclic and write down all its generators. [6]\nThe binary operation multiplication modulo $10$, denoted by $\\times_{10}$, is defined on the set $V=\\{1,3,5,7,9\\}$.\n(d) Show that $\\{V,\\times_{10}\\}$ is not a group. [2]"
+  },
+  "2": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.1",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "text_clean": "2. [Maximum mark: 8]\n(a) Consider the sets $A=\\{1,3,5,7,9\\}$, $B=\\{2,3,5,7,11\\}$ and $C=\\{1,3,7,15,31\\}$.\n(i) Find $(A\\cup B)\\cap(A\\cup C)$.\n(ii) Verify that $A\\setminus C\\neq C\\setminus A$. [5]\nLet $S$ be a set containing $n$ elements where $n\\in\\mathbb{N}$.\n(b) Show that $S$ has $2^n$ subsets. [3]",
+   "note": "audit: (b) 2^n subsets by counting/binomial sum (1.10)"
+  },
+  "3": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "text_clean": "3. [Maximum mark: 8]\nThe relation $R$ is defined such that $xRy$ if and only if $|x|+|y|=|x+y|$ for $x,y\\in\\mathbb{R}$.\n(a) Show that $R$ is\n(i) reflexive;\n(ii) symmetric. [4]\n(b) Show, by means of an example, that $R$ is not transitive. [4]"
+  },
+  "4": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.7",
+    "7.9",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "text_clean": "4. [Maximum mark: 12]\nThe set of all permutations of the list of the integers $1,2,3,4$ is a group, $S_4$, under the operation of function composition.\n(a) Determine the order of $S_4$. [2]\nIn the group $S_4$ let $p_1=\\begin{pmatrix}1&2&3&4\\\\2&3&1&4\\end{pmatrix}$ and $p_2=\\begin{pmatrix}1&2&3&4\\\\2&1&3&4\\end{pmatrix}$.\n(b) Find the proper subgroup $H$ of order 6 containing $p_1, p_2$ and their compositions. Express each element of $H$ in cycle form. [5]\nLet $f:S_4\\to S_4$ be defined by $f(p)=p\\circ p$ for $p\\in S_4$.\n(c) Using $p_1$ and $p_2$, explain why $f$ is not a homomorphism. [5]"
+  },
+  "5": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.3"
+   ],
+   "answer_status": "ok",
+   "text_clean": "5. [Maximum mark: 9]\nThe function $f:\\mathbb{Z}\\to\\mathbb{Z}$ is defined by $f(n)=n+(-1)^n$.\n(a) Prove that $f\\circ f$ is the identity function. [6]\n(b) Show that\n(i) $f$ is injective;\n(ii) $f$ is surjective. [3]"
+  }
+ }
+}

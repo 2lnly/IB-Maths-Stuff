@@ -1,0 +1,274 @@
+{
+ "exam_id": "math-2004-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2004,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2004 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2004 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8804-7402; code N04/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches expected total 100",
+ "qp_pages": 14,
+ "questions": [
+  {
+   "id": "math-2004-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 11,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 11]\nConsider the complex number z = cos θ + isin θ .\n(a) Using De Moivre’s theorem show that\n1 n\nz + = 2cos n θ . [2 marks]\nn z\n4\n⎛ 1 ⎞\n(b) By expanding + show that ⎜ z ⎟\n⎝ z ⎠\n1 4\ncos θ = (cos4 θ + 4cos2 θ + 3) . [4 marks]\n8\na 4\n(c) Let ga () = ∫ cos θθ d .\n0\n(i) Find ga () .\n(ii) Solve ga= () 1 . [5 marks]",
+   "ms_text": "1. (a) nz = cos n θ + isin n θ\n1\n= − θ + − θ cos( n ) isin( n ) (M1)\nn z\n= cos n θ − isin( n θ ) (A1)\n1 n\nTherefore z + = 2cos n θ (AG)\nn z\n[2 marks]\n4\n⎛ 1 ⎞ ⎛ 1 ⎞ ⎛ 1 ⎞ ⎛ 1 ⎞ 1 4 3 2\n(b) ⎜ z + ⎟ = z + 4 z ⎜ ⎟ + 6( z ) ⎜ ⎟ + 4 z ⎜ ⎟ + (M1)\n2 3 4 ⎝ z ⎠ ⎝ z ⎠ ⎝ z ⎠ ⎝ z ⎠ z\n1 ⎛ 1 ⎞ 4 2\n= z + + 4 ⎜ z + ⎟ + 6 (M1)\n4 2 z ⎝ z ⎠\n4 (2cos) θ = 2cos4 θ + 8cos2 θ + 6 (A1)\n1 4\ncos θ = (2cos4 θ + 8cos2 θ + 6) (A1)\n16\n1(cos4 = θ + 4cos2 θ + 3) (AG)\n8\n[4 marks]\na 4 1 a\n(c) (i) cos θθ d = (cos4 θ + 4cos2 θ + 3)d θ (M1) ∫ ∫\n0 8 0\na\n11 sin4 ⎡ ⎤ = θ + 2sin2 θ + 3 θ\n⎢ ⎥ (A1)\n84 ⎣ ⎦\n0\n11 ⎛ ⎞\n= + + ga () ⎜ sin4 a 2sin2 a 3 a ⎟ (A1)\n84 ⎝ ⎠\n11 ⎛ ⎞\n(ii) 1 = ⎜ sin4 a + 2sin2 a + 3 a ⎟\n84 ⎝ ⎠\na = 2.96 (A1)\nSince cos 4 θ≥ 0 then ga () is an increasing function so there is only\none root. (R1)\n[5 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.9",
+    "5.11",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 11]\nConsider the complex number $z = \\cos\\theta + \\mathrm{i}\\sin\\theta$.\n(a) Using De Moivre's theorem show that $z^n + \\frac{1}{z^n} = 2\\cos n\\theta$. [2 marks]\n(b) By expanding $\\left(z + \\frac{1}{z}\\right)^4$ show that $\\cos^4\\theta = \\frac{1}{8}(\\cos 4\\theta + 4\\cos 2\\theta + 3)$. [4 marks]\n(c) Let $g(a) = \\int_0^a \\cos^4\\theta \\, \\mathrm{d}\\theta$.\n(i) Find $g(a)$.\n(ii) Solve $g(a) = 1$. [5 marks]"
+  },
+  {
+   "id": "math-2004-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 16]\nx + 2 y z − 9\nA line has equation 1l = .\n=−\n3 1 2\n(a) Let M be a point on with parameter µ. Express the coordinates of M 1l\nin terms of µ. [1 mark]\n(b) The line is parallel to and passes through − . 2l 1l P(4, 0, 3)\n(i) Write down an equation for . 2l\n→\n(ii) Express PM in terms of µ. [4 marks]\n→\n(c) The vector PM is perpendicular to . 1l\n(i) Find the value of µ.\n(ii) Find the distance between l and l . [5 marks]\n1 2\n(d) The plane contains l and l . Find an equation for , giving your π1 1π\n1 2\nanswer in the form Ax + By + Cz = D . [4 marks]\nπ (e) The plane has equation x − 5 y − z = − 11 . Verify that is the line of 1l\n2\nintersection of the planes π and π . [2 marks]\n1 2",
+   "ms_text": "2. (a) M(3 µ − 2, µ , 9 − 2) µ (A1)\n[1 mark]\n⎛ 4 ⎞ ⎛ 3 ⎞\nx − 4 y z + 3or ⎜ ⎟ ⎜ ⎟\n= = r = 0 + λ 1 (b) (i)\n⎜ ⎟ ⎜ ⎟ (M1)(A1)\n3 1 − 2 ⎜ ⎟ ⎜ ⎟\n− 3 − 2 ⎝ ⎠ ⎝ ⎠\n⎛ 3 µ − 2 − 4 ⎞\n→ ⎜ ⎟\n(ii) PM µ (M1) = ⎜ ⎟\n⎜ ⎟\n9 − 2 µ + 3 ⎝ ⎠\n⎛ 3 µ − 6 ⎞\n⎜ ⎟\n= ⎜ µ (A1) ⎟\n⎜ ⎟\n12 − 2 µ ⎝ ⎠\n[4 marks]\nµ − ⎛ 3 6 ⎞⎛ 3 ⎞\n⎜ ⎟⎜ ⎟\n(c) (i) µ ⋅ 1 = 0 (M1)\n⎜ ⎟⎜ ⎟\n⎜ ⎟⎜ ⎟\n⎝ 12 − 2 µ ⎠⎝ − 2 ⎠\n9 µ − 18 + µ − 24 + 4 µ = 0\nµ= 3 (A1)\n⎛⎞ 3\n→ ⎜⎟\n(ii) PM = ⎜⎟ 3 (A1)\n⎜⎟\n⎝⎠ 6\n→\n⎜ ⎟= 2 + 2 + 2 PM 3 3 6 (M1)\n= 36 (accept 54 or 7.35) (A1)\n[5 marks]\ni j k\n(d) n = 3 3 6 = − 12 i + 24 j − 6 k (M1)(A1)\n3 1 − 2\n= − 6(2 i − 4 j + k )\n⎛ 2 ⎞ ⎛ 2 ⎞⎛ 4 ⎞\n⎜ ⎟ ⎜ ⎟⎜ ⎟\n− 4 i r =− 4 i 0 (M1)\n⎜ ⎟ ⎜ ⎟⎜ ⎟\n⎜ ⎟ ⎜ ⎟⎜ ⎟\n1 1 − 3 ⎝ ⎠ ⎝ ⎠⎝ ⎠\n2 x − 4 y + z = 5 (A1)\n[4 marks]\n(e) EITHER\nl is on π from part (d).\n1 1\nTesting l on π gives (3 µ − 2) − 5() µ − (9 − 2) µ = − 11 . (M1)\n1 2\nTherefore l is also on π and is therefore the line of intersection. (R1)\n1 2\nOR\n− + = 2 x 4 y z 5\nx − 5 y − z = − 11\n3 x − 9 y = − 6 (M1)\nx − 3 y = − 2\nIf y = λ , x = −+ 2 3, λ z = − 2 λ + 9 (A1)\nx + 2 y z − 9\nor = which is 1l . =−\n3 1 2\n[2 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.13",
+    "3.16",
+    "3.17",
+    "3.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 16]\nA line $l_1$ has equation $\\frac{x+2}{3} = \\frac{y}{1} = \\frac{z-9}{-2}$.\n(a) Let M be a point on $l_1$ with parameter $\\mu$. Express the coordinates of M in terms of $\\mu$. [1 mark]\n(b) The line $l_2$ is parallel to $l_1$ and passes through $P(4, 0, -3)$.\n(i) Write down an equation for $l_2$.\n(ii) Express $\\vec{PM}$ in terms of $\\mu$. [4 marks]\n(c) The vector $\\vec{PM}$ is perpendicular to $l_1$.\n(i) Find the value of $\\mu$.\n(ii) Find the distance between $l_1$ and $l_2$. [5 marks]\n(d) The plane $\\pi_1$ contains $l_1$ and $l_2$. Find an equation for $\\pi_1$, giving your answer in the form $Ax + By + Cz = D$. [4 marks]\n(e) The plane $\\pi_2$ has equation $x - 5y - z = -11$. Verify that $l_1$ is the line of intersection of the planes $\\pi_1$ and $\\pi_2$. [2 marks]"
+  },
+  {
+   "id": "math-2004-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 15]\n(a) Let be a rotation about the origin through angle A, and T be a 1T\n2\nrotation about the origin through angle B. By considering the matrices\nTT , , and the product T T , prove that\n1 2 1 2\nsin( A + B ) = sin A cos B + cos A sin B ,\ncos( A + B ) = cos A cos B − sin A sin B . [4 marks]\n2tan A\n(b) Hence prove that tan 2 A . [5 marks]\n=− 2\n1 tan A\n⎛ 5 − 12 ⎞\n⎜ ⎟\n13 13\n⎜ ⎟ (c) The matrix represents a reflection in a line through the\n⎜ − 12 − 5 ⎟\n⎜ ⎟\n⎝ 13 13 ⎠\norigin. Using the result in part (b), find the equation of the line. [6 marks]",
+   "ms_text": "3. (a) Rotation through B followed by a rotation through A can be represented as\n+ − + ⎛ cos( A B ) sin( A B ) ⎞\nTT = ⎜ ⎟ (M1)\n1 2\n⎝ sin( A + B ) cos( A + B ) ⎠\n⎛ cos A − sin A ⎞⎛ cos B − sin B ⎞\nBut TT = ⎜ (A1) 1 2 ⎟⎜ ⎟\nsin A cos A sin B cos B ⎝ ⎠⎝ ⎠\n− − − ⎛ cos A cos B sin A sin B cos A sin B sin A cos B ⎞\n= ⎜ ⎟ (A1)(A1)\n⎝ sin A cos B + cos A sin B − sin A sin B + cos A cos B ⎠\nTherefore sin( A + B ) = sin A cos B + cos A sin B (AG)\n+ = − cos( A B ) cos A cos B sin A sin B (AG)\n[4 marks]\nsin2 A\n(b) tan2 A = (M1)\ncos2 A\nputting B=A\n2sin A cos A\ntan2 A = (A1)(A1)\n2 2 cos A − sin A\n2 Dividing numerator and denominator by cosA\n2tan A\ntan2 A (M1)(A1) =−\n2 1 tan A\n[5 marks]\n⎛ 5 12 ⎞\n− ⎜ ⎟\n13 13\n(c) The transformation ⎜ ⎟ is a reflection in y = x tan θ\n12 5 ⎜ ⎟\n⎜ − − ⎟\n⎝ 13 13 ⎠\n5 12\nwith cos2 θ = and sin2 θ = − . (M1)\n13 13\n12\nθ= − tan2 (A1)\n5\n2tan θ 12\n(M1)\n2 θ= − 1 − tan 5\n= 2 θ − θ − 0 6tan 5tan 6\n0 = (3tan θ + 2)(2tan θ − 3)\n2 3\ntan θ = − or tan θ = (A1)\n3 2\nπ\nAs sin2 θ < 0, < θ < π, therefore tan θ < 0 . (R1)\n2\n2\nSo the equation of the line of reflection is y = − x . (A1)\n3\n3\nNotes: Accept any reasonable justification for the exclusion of y = x .\n2\nAward (R0)(A1) if both equations are given.\n[6 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.10",
+    "3.6",
+    "1.L1",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 15]\n(a) Let $T_1$ be a rotation about the origin through angle $A$, and $T_2$ be a rotation about the origin through angle $B$. By considering the matrices $T_1$, $T_2$, and the product $T_1T_2$, prove that\n$\\sin(A+B) = \\sin A\\cos B + \\cos A\\sin B$,\n$\\cos(A+B) = \\cos A\\cos B - \\sin A\\sin B$. [4 marks]\n(b) Hence prove that $\\tan 2A = \\frac{2\\tan A}{1-\\tan^2 A}$. [5 marks]\n(c) The matrix $\\begin{pmatrix} \\frac{5}{13} & \\frac{-12}{13} \\\\ \\frac{-12}{13} & \\frac{-5}{13} \\end{pmatrix}$ represents a reflection in a line through the origin. Using the result in part (b), find the equation of the line. [6 marks]"
+  },
+  {
+   "id": "math-2004-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 17]\nIan and Karl have been chosen to represent their countries in the Olympic\ndiscus throw. Assume that the distance thrown by each athlete is normally\ndistributed. The mean distance thrown by Ian in the past year was 60.33 m\nwith a standard deviation of 1.95 m.\n(a) In the past year, 80 % of Ian’s throws have been longer than x metres.\nFind x, correct to two decimal places. [3 marks]\n(b) In the past year, 80 % of Karl’s throws have been longer than 56.52 m. If\nthe mean distance of his throws was 59.39 m, find the standard deviation\nof his throws, correct to two decimal places. [3 marks]\n(c) This year, Karl’s throws have a mean of 59.50 m and a standard deviation\nof 3.00 m. Ian’s throws still have a mean of 60.33 m and standard\ndeviation 1.95 m. In a competition an athlete must have at least one\nthrow of 65 m or more in the first round to qualify for the final round.\nEach athlete is allowed three throws in the first round.\n(i) Determine which of these two athletes is more likely to qualify for\nthe final on their first throw.\n(ii) Find the probability that both athletes qualify for the final. [11 marks]",
+   "ms_text": "4. (a) X= length of Ian’s throw.\n2 X ∼ N (60.33,1.95)\n> = ⇒ = − P( X x ) 0.80 z 0.8416 (A1)\nx − 60.33\n− 0.8416 = (M1)\n1.95\nx = 58.69 m (A1) (N3)\n[3 marks]\n(b) Y= length of Karl’s throw.\nσ 2 Y ∼ N (59.39, )\nP( Y > 56.52) = 0.80 ⇒ z = − 0.8416 (A1)\n56.52 − 59.39\n− 0.8416 = (M1)\nσ\nσ= (A1) 3.41(accept 3.42)\n[3 marks]\n2 (c) (i) Y ∼ N (59.50, 3.00)\n2 X ∼ N (60.33,1.95)\nEITHER\nP( Y ≥ 65) = 0.0334 P( X ≥ 65) = 0.00831 (no (AP) here) (A2)(A2)\nOR\n⎛ 65 − 59.50 ⎞\n≥ = ≥ P( Y 65) P ⎜ Z ⎟ (M1)\n⎝ 3.00 ⎠\n= P( Z ≥ 1.833)\n= 0.0334 (accept 0.0336) (A1)\n− ⎛ 65 60.33 ⎞\nP( X ≥ 65) = P Z ≥ (M1) ⎜ ⎟\n1.95 ⎝ ⎠\n= P( Z ≥ 2.395)\n= 0.0083 (accept 0.0084) (A1)\nTHEN\nKarl is more likely to qualify since P( Y ≥ 65) > P( X ≥ 65) . (R1)\nNote: Award full marks if probabilities are not calculated but the correct\nconclusion is reached with the reason 1.833 < 2.395.\n(ii) If p represents the probability that an athlete throws 65 metres or\nmore then with 3 throws the probability of qualifying for the final is\n3 1 − (1 − p )\n, or p + (1 − pp ) + (1 − p ) 2 p ,\n3 + − 2 + − 2\nor p 3(1 pp ) 3(1 p ) p . (M1)\n=− − 3 Therefore P(Ian qualifies) 1 (1 0.00831)\n= 0.0247 (A1)\n3 P(Karl qualifies) =− 1(10.0334) −\n= 0.0969 (A1)\nAssuming independence (R1)\n= P(both qualify) (0.0247)(0.0969) (M1)\n= (A1) 0.00239\nNote: Depending on use of tables or gdc answers may vary from 0.00239 to 0.00244.\n[11 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 17]\nIan and Karl have been chosen to represent their countries in the Olympic discus throw. Assume that the distance thrown by each athlete is normally distributed. The mean distance thrown by Ian in the past year was 60.33 m with a standard deviation of 1.95 m.\n(a) In the past year, 80 % of Ian's throws have been longer than $x$ metres. Find $x$, correct to two decimal places. [3 marks]\n(b) In the past year, 80 % of Karl's throws have been longer than 56.52 m. If the mean distance of his throws was 59.39 m, find the standard deviation of his throws, correct to two decimal places. [3 marks]\n(c) This year, Karl's throws have a mean of 59.50 m and a standard deviation of 3.00 m. Ian's throws still have a mean of 60.33 m and standard deviation 1.95 m. In a competition an athlete must have at least one throw of 65 m or more in the first round to qualify for the final round. Each athlete is allowed three throws in the first round.\n(i) Determine which of these two athletes is more likely to qualify for the final on their first throw.\n(ii) Find the probability that both athletes qualify for the final. [11 marks]"
+  },
+  {
+   "id": "math-2004-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 11,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 11]\nd y y\nConsider the differential equation . θ=\nθ d (e 2 + 1)\nθ\n(a) Use the substitution x = e to show that\nd y d x\n= . ∫ ∫ [3 marks]\n2 y xx ( + 1)\nd x\n(b) Find . ∫ [4 marks]\n2 xx+ ( 1)\n(c) Hence find y in terms of θ, if y = 2when θ = 0 . [4 marks]",
+   "ms_text": "2 θ 5. (a) (e + 1)d y = y d θ\nd y d θ\nSeparating variables yields ∫ = ∫ (M1)\n2 θ y e + 1\n= θ ⇒ 2 θ += 2 + x e e 1 x 1 (A1)\nd x θ\ne (A1) θ=\nd\nd x\nd θ=\nx\nd y d x\n= ∫ ∫ (AG)\ny xx ( 2 + 1)\n[3 marks]\n(b) Using partial fractions let\n1 A Bx + C\n= + (M1)\n2 2 xx ( + 1) x x + 1\n2 2 Ax ( + 1) + Bx + Cx = 1\nA = 1, B = − 1, C = 0 (A1)\n1 ⎛ 1 x ⎞\n∫ d x = ∫ − d x\n2 ⎜ 2 ⎟ xx ( + 1)\n⎝ x x + 1 ⎠\n1 2\n= ln x − ln( x + 1) + C (A1)(A1)\n2\n[4 marks]\n1 2\n(c) Therefore ln y = ln x − ln( x + 1) + ln k\n2\n⎛ ⎞ kx\nln y = ln (A1) ⎜ ⎟\n2 ⎝ x + 1 ⎠\nkx\ny =\n2 x + 1\nk\nWhen θ= 0, x = 1, y = 2 ⇒ 2 = ⇒ k = 2 . (M1)\n2\nθ 2e\nTherefore y = . (A2)\n2 θ e + 1\n[4 marks]\nTotal [11 marks]\nNote: In this question do not penalize answers given to more than three significant figures.",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.16",
+    "5.15",
+    "1.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 11]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}\\theta} = \\frac{y}{(\\mathrm{e}^{2\\theta}+1)}$.\n(a) Use the substitution $x = \\mathrm{e}^{\\theta}$ to show that $\\int \\frac{\\mathrm{d}y}{y} = \\int \\frac{\\mathrm{d}x}{x(x^2+1)}$. [3 marks]\n(b) Find $\\int \\frac{\\mathrm{d}x}{x(x^2+1)}$. [4 marks]\n(c) Hence find $y$ in terms of $\\theta$, if $y = \\sqrt{2}$ when $\\theta = 0$. [4 marks]"
+  },
+  {
+   "id": "math-2004-N-P2-q6",
+   "num": "6",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 30]\n(i) Let X be a random variable with a Poisson distribution such that\n2\nVar( X ) = ( E( X ) ) − 6 .\n(a) Show that the mean of the distribution is 3. [3 marks]\n(b) Find P( X≤ 3) . [1 mark]\nLet Y be another random variable, independent of X, with a Poisson\ndistribution such that E() Y= 2 .\n(c) Find P( X + Y < 4) . [2 marks]\n= + (d) Let U X 2 Y .\n(i) Find the mean and variance of U.\n(ii) State with a reason whether or not U has a Poisson distribution. [4 marks]\n(ii) A chicken farmer wishes to find a confidence interval for the mean\nweight of his chickens. He therefore randomly selects n chickens and\nweighs them. Based on his results, he obtains the following 95 %\nconfidence interval.\n[2148 grams , 2188 grams]\nThe weights of the chickens are known to be normally distributed with a\nstandard deviation of 100 grams.\n(a) Find the value of n. [5 marks]\n(b) Assuming that the same confidence interval had been obtained\nfrom weighing 166 chickens, what would be its level of\nconfidence? [3 marks]\n3 z\n= − (iii) The random variable Z has probability density function fz () z\n4\nfor z∈ [0, 2] and 0 elsewhere. A physicist assumes that the lifetime of\na certain particle can be modelled by this random variable. The interval\n[0, 2] is divided into the following equal intervals:\nI = [0, 0.4[\n1\n= I [0.4, 0.8[\n2\nI = [0.8,1.2[\n3\nI = [1.2,1.6[\n4\nI = [1.6, 2]\n5\nThe physicist carried out 40 experiments and recorded the number of\ntimes the value of Z lay in each of the intervals kI where k = 1, 2, 3, 4, 5\nas shown in the following table:\n1I 2I 3I 4I 5I\n2 12 9 8 9\n(a) Assuming that the physicist’s assumption is correct, for each value\n= ∈ of k find p P( Z I ) . [4 marks]\nk k\n(b) At the 5 % significance level can his assumption be accepted? [8 marks]",
+   "ms_text": "2 6. (i) (a) Let λ = E( X ) = Var( X ) . Then λ = λ − 6 . (M1)\n1 ± 25\nTherefore λ = (M1)\n2\nand since λ must be positive λ = 3. (A1)\n[3 marks]\n(b) Then P( X≤ 3) = 0.647 . (A1) (N1)\n[1 mark]\n(c) E( X + Y ) = 3 + 2 = 5 . Since X and Y are independent X + Y has a\nPoisson distribution with mean = 5. (M1)\nHence P( X + Y < 4) = 0.265 . (A1) (N1)\nNote: Award (N0) if P( X + Y ≤ 4) is given instead.\n[2 marks]\nE() U = E( X ) + 2E() Y = 7 (d) (i) (A1)\nVar( U ) = Var( X ) + 4Var() Y = 11 (A1)\n(ii) U does not have a Poisson distribution (A1)\n≠ because Var() U E() U . (R1)\n[4 marks]\n(ii) (a) This is a two-tailed interval so we need z = 1.96 . (M1)(A1)\n0.975\n1.96 σ=\nWe must have 20 . (M1)\nn\nTherefore 1.96100 × = 20n . (A1)\nThis yields n ≥ 9.8 ⇒ n ≥ 9.8 2 = 96 (Accept 97). (A1)\n[5 marks]\n166\n= = 2.577 so α = 0.995 (b) In this case zα (A1)\n5\nand since this is a two-tailed test the level of confidence is given by\n− = . (M1) 0.995 0.005 0.99\ni.e.99.0% (Accept 99%) (A1)\n[3 marks]\np= (iii) (a) 0.0784\n1\np= 0.2160\n2\np= 0.2960\n3\np= 0.280\n4\n(A4) p= 0.1296\n5\nNote: Award [4 marks] if all answers are correct, [3 marks] if one answer is wrong,\n[2 marks] if two answers are wrong and [0 marks] if three or more answers are wrong.\n[4 marks]\n(b) This is a test of the hypothesis :\nH: The assumption of the physicist is correct.\n0\nH: The assumption of the physicist is not correct. (R1)\n1\nIt calls for a 2 test. (M1) χ\nFrom (a) we can compute the expected values e = p × 40 (M1)\nj j\ne= 3.136\n1\ne= 8.64\n2\ne= 11.84\n3\ne= 11.2\n4\ne= 5.184 (A1) (N1)\n5\nNote: Award [0 marks] if at least one answer is incorrect.\nThe first two intervals must be combined. (M1)\nNote: If the first two intervals are not combined award (M0) and ft marks\n2 according to the markscheme, χ = 9.488 .\n4, 0.95\n2 2 2 2 (1411.776) − (911.84) − (811.2) − (9 − 5.184)\nχ 2 = + + + = 4.8245 (A1)\ncalc\n11.776 11.84 11.2 5.184\n2 χ = 7.815\n3, 0.95 (A1)\n2 2 χ < χ\nThe hypothesis H can be accepted because calc 3, 0.95 . (R1)\n0\n[8 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.L6",
+    "4.L9",
+    "4.14",
+    "4.L4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics",
+   "text_clean": "6. [Maximum mark: 30]\n(i) Let $X$ be a random variable with a Poisson distribution such that $\\mathrm{Var}(X) = (\\mathrm{E}(X))^2 - 6$.\n(a) Show that the mean of the distribution is 3. [3 marks]\n(b) Find $P(X \\le 3)$. [1 mark]\nLet $Y$ be another random variable, independent of $X$, with a Poisson distribution such that $\\mathrm{E}(Y) = 2$.\n(c) Find $P(X + Y < 4)$. [2 marks]\n(d) Let $U = X + 2Y$.\n(i) Find the mean and variance of $U$.\n(ii) State with a reason whether or not $U$ has a Poisson distribution. [4 marks]\n(ii) A chicken farmer wishes to find a confidence interval for the mean weight of his chickens. He therefore randomly selects $n$ chickens and weighs them. Based on his results, he obtains the following 95 % confidence interval.\n[2148 grams, 2188 grams]\nThe weights of the chickens are known to be normally distributed with a standard deviation of 100 grams.\n(a) Find the value of $n$. [5 marks]\n(b) Assuming that the same confidence interval had been obtained from weighing 166 chickens, what would be its level of confidence? [3 marks]\n(iii) The random variable $Z$ has probability density function $f(z) = z - \\frac{z^3}{4}$ for $z \\in [0, 2]$ and 0 elsewhere. A physicist assumes that the lifetime of a certain particle can be modelled by this random variable. The interval [0, 2] is divided into the following equal intervals:\n$I_1 = [0, 0.4[$\n$I_2 = [0.4, 0.8[$\n$I_3 = [0.8, 1.2[$\n$I_4 = [1.2, 1.6[$\n$I_5 = [1.6, 2]$\nThe physicist carried out 40 experiments and recorded the number of times the value of $Z$ lay in each of the intervals $I_k$ where $k = 1, 2, 3, 4, 5$ as shown in the following table:\n$I_1$ | $I_2$ | $I_3$ | $I_4$ | $I_5$\n2 | 12 | 9 | 8 | 9\n(a) Assuming that the physicist's assumption is correct, for each value of $k$ find $p_k = P(Z \\in I_k)$. [4 marks]\n(b) At the 5 % significance level can his assumption be accepted? [8 marks]"
+  },
+  {
+   "id": "math-2004-N-P2-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 30]\n(i) The relation R on C is defined as follows\n⇔ = ∈C zRz z z for z , z .\n1 2 1 2 1 2\n(a) Show that R is an equivalence relation on C. [3 marks]\n(b) Describe the equivalence classes under the relation R. [2 marks]\n(ii) Consider the set S= {1, 3, 4, 9, 10, 12} on which the operation ∗ is\ndefined as multiplication modulo 13.\n(a) Write down the operation table for S under . ∗ [4 marks]\n(b) Assuming multiplication modulo 13 is associative, show that\nS∗ is a commutative group. (,) [4 marks]\n(c) State the order of each element. [3 marks]\n(d) Find all the subgroups of (,) S∗ . [3 marks]\n(iii) Let ( H× ,) be a group and let a be one of its elements such that a × a = a .\nShow that a must be the identity element of the group. [4 marks]\n(iv) (a) Explain what is meant by a cyclic group. [2 marks]\nLet ( G , #) be a finite group such that its order p is a prime number.\n(b) Show that ( G , #) is cyclic. [5 marks]",
+   "ms_text": "7. (i) (a) R is reflexive because z = z ⇒ zRz . (A1)\nR is symmetric because ( z = z ⇒ z = z ) ⇒ ( z Rz ⇒ zRz ) (A1) 1 2 2 1 1 2 2 1\nR is transitive because ( z = z and z = z ⇒ z = z )\n1 2 2 3 1 3\n⇒ ( z Rz and zRz ⇒ z Rz ) (A1)\n1 2 2 3 1 3\n[3 marks]\n(b) In the Argand diagram this corresponds to the concentric circles (A1)\ncentered at the origin. (A1)\n[2 marks]\n(ii) (a) The operation table is thus:\n* 1 3 4 9 10 12\n1 1 3 4 9 10 12\n3 3 9 12 1 4 10\n4 4 12 3 10 1 9\n9 9 1 10 3 12 4\n10 10 4 1 12 9 3\n12 12 10 9 4 3 1 (A4)\nNote: Award (A3) if one entry is incorrect, (A2) if two entries are incorrect,\n(A1) if three are incorrect, (A0) if four or more are incorrect.\n[4 marks]\n(b) ∗ is associative and commutative since multiplication modulo 13 is\nassociative and commutative (A1)\nThe set is closed under ∗ (A1)\n1 is the identity element (A1)\nEvery element has an inverse because 1 is on each row (or on each column). (A1)\n[4 marks]\n(c) 1 is of order 1\n12 is of order 2 (A1)\n3 and 9 are of order 3 (A1)\n4 and 10 are of order 6 (A1)\nNote: If one answer is wrong, award (A1), if two or more answers are wrong award (A0).\n[3 marks]\n(d) There are four subgroups:\n{1}\n{1, 12} (A1)\n{1, 3, 9} (A2)\n{1, 3, 4, 9, 10, 12}\n[3 marks]\n1 (iii) Let a −= b (M1)\nThen e = b × a = b ×× a a (M1)\nso that = × × =× (M1) e ( b a ) a ea\nand therefore e=a (M1)(AG)\nNote: There are other correct solutions.\n[4 marks]\n(iv) (a) A cyclic group is a group which is generated by one of its elements\n(or words to that effect). (M2)\n[2 marks]\n(b) We can assume that (G, #) has at least two elements and hence\ncontains an element, say b, which is different from e, its identity. (R1)\nThe order of b is equal to the order q of the subgroup it generates. (M1)\nBy Lagrange’s theorem q must be a factor of p and since p is prime\neither q= 1 or q=p. (R1)\nSince b ≠ e we see that q ≠ 1 and therefore q=p. (R1)\nBut if the order of b is p then b generates (G, #) which is therefore cyclic. (R1)\n[5 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.4",
+    "7.6",
+    "7.8",
+    "7.2",
+    "7.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, Relations and Groups",
+   "text_clean": "7. [Maximum mark: 30]\n(i) The relation $R$ on $\\mathbb{C}$ is defined as follows\n$z_1 R z_2 \\Leftrightarrow |z_1| = |z_2|$ for $z_1, z_2 \\in \\mathbb{C}$.\n(a) Show that $R$ is an equivalence relation on $\\mathbb{C}$. [3 marks]\n(b) Describe the equivalence classes under the relation $R$. [2 marks]\n(ii) Consider the set $S = \\{1, 3, 4, 9, 10, 12\\}$ on which the operation $*$ is defined as multiplication modulo 13.\n(a) Write down the operation table for $S$ under $*$. [4 marks]\n(b) Assuming multiplication modulo 13 is associative, show that $(S, *)$ is a commutative group. [4 marks]\n(c) State the order of each element. [3 marks]\n(d) Find all the subgroups of $(S, *)$. [3 marks]\n(iii) Let $(H, \\times)$ be a group and let $a$ be one of its elements such that $a \\times a = a$. Show that $a$ must be the identity element of the group. [4 marks]\n(iv) (a) Explain what is meant by a cyclic group. [2 marks]\nLet $(G, \\#)$ be a finite group such that its order $p$ is a prime number.\n(b) Show that $(G, \\#)$ is cyclic. [5 marks]"
+  },
+  {
+   "id": "math-2004-N-P2-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 30]\n(i) Let G be a weighted graph with 6 vertices L, M, N, P, Q, and R. The\nweight of the edges joining the vertices is given in the table below:\nL M N P Q R\nL – 4 3 5 1 4\nM 4 – 4 3 2 7\nN 3 4 – 2 4 3\nP 5 3 2 – 3 4\nQ 1 2 4 3 – 5\nR 4 7 3 4 5 –\nFor example the weight of the edge joining the vertices L and N is 3.\n(a) Use Prim’s algorithm to draw a minimum spanning tree starting at M. [5 marks]\n(b) What is the total weight of the tree? [1 mark]\n(ii) Let G and G be two graphs whose adjacency matrices are represented\n1 2\nbelow.\nG G\n1 2\na b c d e f A B C D E F\nA 0 2 0 2 0 0 a 0 1 3 0 1 2\nB 2 0 1 1 0 1 b 1 0 1 3 2 0\nc 3 1 0 2 1 3 C 0 1 0 1 2 1\nD 2 1 1 0 2 0 d 0 3 2 0 2 0\nE 0 0 2 2 0 2 e 1 2 1 2 0 1\nf 2 0 3 0 1 0 F 0 1 1 0 2 0\n(a) Which one of them does not have an Eulerian trail? Give a reason\nfor your answer. [2 marks]\n(b) Find an Eulerian trail for the other graph. [4 marks]\nx = 2 x − 2 x (iii) Let\n+ + be a difference equation for all positive integers n. n 2 n 1 n\n(a) Show that 1 + i and1 − i are the roots of the characteristic\nequation. [2 marks]\n(b) Hence write down the general solution to the difference equation. [1 mark]\nn n π\n(c) If x = 1and x = 2 , show that x= ( 2 ) .\n1 2 n sin4\n[8 marks]\n+\n(iv) Let p, q and r ∈Z with p and q relatively prime.\nShow that r ≡ p (mod) q and r ≡ q (mod) p if and only if\nr ≡ p + q (mod pq ) . [7 marks]",
+   "ms_text": "8. (i) (a) M → Q (M1)\nQ → L (A1)\nM → P (A1)\nP → N → R (A1)\nQ L\nM\n(A1)\nP N R\nNote: There are other correct answers.\n[5 marks]\n(b) The total weight is 2 + 1 + 3 + 2 + 3 = 11. (A1)\n[1 mark]\n(ii) (a) G does not have an Eulerian trail because four vertices have an odd 2\norder. (A1)(R1)\nNote: There are other correct answers (e.g. only two vertices have an even order).\n[2 marks]\n(b) The Eulerian trail must start and end at a vertex with odd order, here\nB and C (or C and B). (R1)\nB → A → B → C → E → C → F → E → F → B → D → E → D\n→ A → D → C (A3)\nNotes: Award (A2) if there is one mistake, (A1) if there are two mistakes\nand (A0) if there are more than two mistakes.\nThere are many other correct answers.\n[4 marks]\n2 (iii) (a) r − 2 r + 2 = 0 (A1)\n2 ± i4\nr = (A1)\n2\n=± 1 i (AG)\n[2 marks]\n= + n + − n (b) nx C (1 i) C (1 i) (A1)\n1 2\n[1 mark]\n+ + − = (c) C (1 i) C (1i) 1 (A1)\n1 2\n2 2 C (1 + i) + C (1i) −\n1 2\n= 2i C − 2i C = 2 (A1)\n1 2\ni i\n= − = (M1)(A1) C C\n1 2\n2 2\ni n n\nnx = ⎡ − (1i) + + (1i) − ⎤ (A1) ⎣ ⎦\n2\nn\n( ) 2\n⎡ iπ n iπ n ⎤ −\n= i e 4 − e 4 ⎢ ⎥ (M1)(A1)\n2 ⎣ ⎦\ni n ⎛ n π ⎞\n( ) = 2\n⎜ − 2isin ⎟ (A1)\n2 ⎝ 4 ⎠\nn n π\n= ( ) 2 (AG)\nsin4\nNote: There are other equivalent correct approaches.\n[8 marks]\n(iv) (if) r = kpq + p + q ⇒ r = ( kp + 1) q + p ⇔ r ≡ p (mod) q (A1)\n⇒ r = ( hq + 1) p + q ⇔ r ≡ q (mod) p (A1)\n(only if) r = mp + q = nq + p (A1)\nHence ( m − 1) p = ( n − 1) q and since p and q are relatively prime, p divides\nn – 1. (M1)(A1)\nTherefore n=sp +1. (A1)\nConsequently = + + = + + ⇔ ≡ + . (A1) r ( sp 1) q p spq p q r p q (mod pq )\n[7 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.10",
+    "6.4",
+    "6.8",
+    "6.7",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete Mathematics",
+   "text_clean": "8. [Maximum mark: 30]\n(i) Let $G$ be a weighted graph with 6 vertices L, M, N, P, Q, and R. The weight of the edges joining the vertices is given in the table below:\n | L | M | N | P | Q | R\nL | – | 4 | 3 | 5 | 1 | 4\nM | 4 | – | 4 | 3 | 2 | 7\nN | 3 | 4 | – | 2 | 4 | 3\nP | 5 | 3 | 2 | – | 3 | 4\nQ | 1 | 2 | 4 | 3 | – | 5\nR | 4 | 7 | 3 | 4 | 5 | –\nFor example the weight of the edge joining the vertices L and N is 3.\n(a) Use Prim's algorithm to draw a minimum spanning tree starting at M. [5 marks]\n(b) What is the total weight of the tree? [1 mark]\n(ii) Let $G_1$ and $G_2$ be two graphs whose adjacency matrices are represented below.\n$G_1$:\n | A | B | C | D | E | F\nA | 0 | 2 | 0 | 2 | 0 | 0\nB | 2 | 0 | 1 | 1 | 0 | 1\nC | 0 | 1 | 0 | 1 | 2 | 1\nD | 2 | 1 | 1 | 0 | 2 | 0\nE | 0 | 0 | 2 | 2 | 0 | 2\nF | 0 | 1 | 1 | 0 | 2 | 0\n$G_2$:\n | a | b | c | d | e | f\na | 0 | 1 | 3 | 0 | 1 | 2\nb | 1 | 0 | 1 | 3 | 2 | 0\nc | 3 | 1 | 0 | 2 | 1 | 3\nd | 0 | 3 | 2 | 0 | 2 | 0\ne | 1 | 2 | 1 | 2 | 0 | 1\nf | 2 | 0 | 3 | 0 | 1 | 0\n(a) Which one of them does not have an Eulerian trail? Give a reason for your answer. [2 marks]\n(b) Find an Eulerian trail for the other graph. [4 marks]\n(iii) Let $x_{n+2} = 2x_{n+1} - 2x_n$ be a difference equation for all positive integers $n$.\n(a) Show that $1 + i$ and $1 - i$ are the roots of the characteristic equation. [2 marks]\n(b) Hence write down the general solution to the difference equation. [1 mark]\n(c) If $x_1 = 1$ and $x_2 = 2$, show that $x_n = (\\sqrt{2})^n \\sin\\frac{n\\pi}{4}$. [8 marks]\n(iv) Let $p, q$ and $r \\in \\mathbb{Z}^+$ with $p$ and $q$ relatively prime.\nShow that $r \\equiv p \\pmod{q}$ and $r \\equiv q \\pmod{p}$ if and only if $r \\equiv p + q \\pmod{pq}$. [7 marks]"
+  },
+  {
+   "id": "math-2004-N-P2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 30]\n(i) Find the range of values of x for which the following series is convergent.\n∞ x n\n∑ [7 marks]\n= n + 1 n 0\n4 ⎡ ⎤\n(ii) Let f be the function defined on the interval by\n⎢ ⎥ 1, 3\n⎣ ⎦\n3 (2 + 3 x − x )\nfx () = .\n3\n(a) Show that the range of f is a subset of its domain. [5 marks]\nfa () = a (b) Find the exact value of a such that . [1 mark]\nThe sequence {}, n = 0,1,2, … is defined as follows nx\n= = . x 1, x fx ( )\n0 n + 1 n\n(c) Using the mean value theorem or otherwise, show that\n7 x − a\n− ≤ n x a for all values of n. [5 marks]\nn + 1\n9\n(d) Hence or otherwise show that the sequence {} nx converges to a. [4 marks]\n∞ 2π\n(iii) (a) Show that the series sin is convergent. [3 marks] =∑\n2\nn 1 n\n∞ 2π\nLet S =∑ sin .\n2\nn = 1 n\n(b) Show that for positive integers n ≥ 2,\n1 1 1\n< − . [1 mark]\n2 n n − 1 n\n(c) Hence or otherwise show that 1 ≤ S < 2π . [4 marks]",
+   "ms_text": "9. (i) The ratio test must be used. (M1)\nThe series must converge if for n sufficiently large\nn + 1 (\nx n + 1) x ( n + 1)\n= < 1\nn\n++ n ++ 11 x ( n 11)\nthat is to say if for n sufficiently large\nn + 1\nx < (M1)\nn ++ 11\nThis will be the case if x< 1 . (A1)\nThe series is divergent when x= 1 because it is equivalent to the harmonic\nseries. (M1)(A1)\nThe series is convergent when x =– 1 because it is alternating with a\ngeneral term whose absolute value decreases to 0. (M1)\nTherefore range [1,1[ − (A1)\n[7 marks]\n′ 2 (ii) (a) f () x =− 1 x so that it is negative in the interval and hence fx () is\ndecreasing in the interval. (M1)\n⎡ 4 ⎤ 4\nHence the maximum of f in the interval 1, is f (1) = . (M1)(A1) ⎢ ⎥\n⎣ 3 ⎦ 3\n⎡ 4 ⎤ ⎛ 4 98 ⎞=\nThe minimum of f in the interval 1, is f > 1 . (M1)(A1) ⎢ ⎥ ⎜ ⎟\n⎣ 3 ⎦ ⎝ 3 ⎠ 81\n[5 marks]\n1 3\n3 (b) fx () = x ⇔ 2 − x = 0 ⇔ a = 2 (A1)\n[1 mark]\n4\n≤ ≤ (c) It follows from (a) that for all n, 1 nx . (M1)\n3\n⎡ 4 ⎤\nf is continuous and differentiable on the interval . (M1) ⎢\n1, 3 ⎥\n⎣ ⎦\nHence from the mean value theorem it follows that\n4\nx − a = fx ( ) − fa () = ( x − afξ ) ′ () with 1 ≤ ξ ≤ . (M1)\nn + 1 n n\n3\n⎡ 4 ⎤ 7\n′ 2 In 1, , fξ () =− 1 ξ is bounded in absolute value by . (A1)\n⎢ ⎥ 9\n⎣ 3 ⎦\n7\nTherefore x − a ≤ x − a f ′ () ξ ≤ x − a × . (A1) +\nn 1 n n\n9\n[5 marks]\n(d) x − a = 1 − a < 1 (A1)\n0\nn\n⎛ 7 ⎞\nHence it follows from (c) that for all positive integers n, nx − a ≤⎜ ⎟ . (A1)\n⎝ 9 ⎠\nn\n⎛ 7 ⎞\nSince ⎜ ⎟ goes to 0 when n goes to infinity (A1)\n⎝ 9 ⎠\nit follows that nx − a goes to 0 as n goes to infinity which means\nthat nx converges to a. (A1)\n[4 marks]\n2π 2π\n(iii) (a) For all n, < so using the comparison test (M1) sin n\n2 n 2\n∞ 1\nsince the series =∑ is convergent (M1)\n2 n\nn 1\nthen the series under consideration is also convergent. (A1)\n[3 marks]\n1 1 1 1\n(b) < = − (M1)(AG)\n2 n nn ( − 1) n − 1 n\n[1 mark]\n(c) All the terms of the series are non negative. (A1)\nThe first term is = 0 and the second is = 1. Hence the sum of the\nseries is ≥ 1 . (A1)\nSince every term of the series from n= 2 on are bounded by\n⎛ 1 1 ⎞\n2π ⎜ − ⎟ , the sum of the series will be bounded by the sum of\n⎝ n − 1 n ⎠\n⎛ 1 1 1 1 1 ⎞\nthese terms, i.e. by 2π × ⎜ 1 − + − + − + … ⎟ = 2π .\n⎝ 2 2 3 3 4 ⎠\n2 π 2 π ⎛ 1 1 ⎞\nSo 0 ≤ sin ≤ <π 2 −\n2 2 ⎜ ⎟ n n\n⎝ n − 1 n ⎠ (M1)(A1)\n≤ <π So 1 S 2 (AG)\n[4 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L2",
+    "5.L4",
+    "5.2",
+    "5.L7",
+    "5.L6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Analysis and Approximation",
+   "text_clean": "9. [Maximum mark: 30]\n(i) Find the range of values of $x$ for which the following series is convergent.\n$\\sum_{n=0}^{\\infty} \\frac{x^n}{n+1}$ [7 marks]\n(ii) Let $f$ be the function defined on the interval $\\left[1, \\frac{4}{3}\\right]$ by $f(x) = \\frac{(2 + 3x - x^3)}{3}$.\n(a) Show that the range of $f$ is a subset of its domain. [5 marks]\n(b) Find the exact value of $a$ such that $f(a) = a$. [1 mark]\nThe sequence $\\{x_n\\}, n = 0, 1, 2, \\ldots$ is defined as follows\n$x_0 = 1, x_{n+1} = f(x_n)$.\n(c) Using the mean value theorem or otherwise, show that $|x_{n+1} - a| \\le \\frac{7|x_n - a|}{9}$ for all values of $n$. [5 marks]\n(d) Hence or otherwise show that the sequence $\\{x_n\\}$ converges to $a$. [4 marks]\n(iii) (a) Show that the series $\\sum_{n=1}^{\\infty} \\sin\\frac{2\\pi}{n^2}$ is convergent. [3 marks]\nLet $S = \\sum_{n=1}^{\\infty} \\sin\\frac{2\\pi}{n^2}$.\n(b) Show that for positive integers $n \\ge 2$, $\\frac{1}{n^2} < \\frac{1}{n-1} - \\frac{1}{n}$. [1 mark]\n(c) Hence or otherwise show that $1 \\le S < 2\\pi$. [4 marks]"
+  },
+  {
+   "id": "math-2004-N-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 30]\n2 (i) A parabola has equation 4py = x , where p> 0.\n(a) Find the real numbers a and b such that for every point P on the\nparabola the distance from P to the point A(0,) a is equal to the\ndistance from P to the line y=b. [6 marks]\n(b) Show that at every point P on the parabola the tangent to the\nparabola bisects the angle between (AP) and the line through P\nparallel to the y-axis. [6 marks]\n(ii) In the triangle ABC let D be the point of intersection of the line (AC)\nand the bisector of the angle ABC.\nAD AB\nProve the bisector theorem, that is = . [4 marks]\nDC BC\n(iii) Let A, B and C be three points on a circle of centre O such that B is on\nthe longest arc joining A to C as shown below.\nB\nO\nA\nC\n(a) Show that the angle AOC is twice the angle ABC. [4 marks]\nLet D be another point on the arc CA as shown below.\nB\nA\nC\nD\n(b) Using part (a) or otherwise show that the sum of any two opposite\nangles of the quadrilateral is equal to 180° . [3 marks]\n(iv) Let M and N be any two points on a circle of centre O and let R be\nanother point on the circle, equidistant from M and N.\nShow that (NR) bisects the angle between (MN) and the tangent to the\ncircle at N. [7 marks]",
+   "ms_text": "2 2 2 10. (i) (a) The equality of the distances gives: ( y − a ) + x = ( y − b ) . (M1)(A1)\nHence − + + 2 = − + 2 and since this must be true for 2 ay 4 py a 2 by b\n2 2 all values of y it follows that: − 2 a + 4 p = − 2and b a − b = 0 .\n(M1)(A1)\nSince p > 0 the second condition leads to a+b= 0 so that finally\na=p and b= – p. (M1)(A1)\n[6 marks]\n(b)\nThe equation of the tangent to the parabola at the point P( x , y ) is 0 0\n− xx ( x )\ny − y = 0 0 . (M1)(A1)\n0\n2 p\nTherefore the tangent intersects the y-axis at the point B(0, − y ) . (A1)\n0\nˆ ˆ If C is the point ( x , 0) then ABP = BPC . (A1)\n0\n2 2 2 2 AB = ( y + p ) = ( y − p ) + 4 py = AP and hence the triangle\n0 0 0\nˆ = ˆ = ˆ ∆APB is isosceles so that APB ABP BPC which establishes\nthe result. (M1)(A1)\nNote: There are many other solutions.\n[6 marks]\n(ii)\nLet E be the intersection of (BC) and of a line parallel to (AB) passing\nˆ ˆ ˆ through D. Then BDE = DBA = DBE so that ∆BDE is isosceles and\nhence BE = DE. (M1)(A1)\nAD BE DE AB\nThen = = = (M1)(A1)\nDC EC EC BC\nNote: There are other solutions.\n[4 marks]\n(iii) (a)\nLet E be the point of the circle such that [EB] is a diameter.\nThen ∆BCO and ∆ABO are isosceles so that ˆ = ˆ = ˆ EBC OBC BCO and\nˆ = ˆ = ˆ ABE ABO OAB . (A1)\nˆ = ˆ + ˆ = ˆ Hence EOA OBA OAB 2ABE\nˆ = ˆ + ˆ = ˆ and EOC BCO OBC 2EBC . (A1)\nAdding (or substracting, according to whether O is inside or outside\nˆ ˆ ∆ABC) we see that AOC = 2ABC . (M1)(A1)\n[4 marks]\n(b)\nO\nFrom (a) ˆ = ˆ + ˆ = ˆ + ˆ 2ABC ( 2ABD 2DBC) AOD DOC\nˆ ˆ ˆ ˆ ˆ and 2CDA ( = 2CDB + 2BDA) = COB + BOA . (M1)(A1)\nNote: The expressions inside of the parenthesis are only there to identify\nwhich of the two possible angles AOC ˆ are considered and need not\nbe included in the candidate script.\nˆ ˆ ˆ ˆ ˆ ˆ � Finally 2ABC + 2CDA = AOD + DOC + COB + BOA = 360 (A1)\nˆ ˆ � so that ABC + CDA = 180 . (AG)\n[3 marks]\n(iv)\nLet S be any point on the tangent, different from N, as shown in the figure\nabove. Then\nˆ ˆ ˆ RON = 2RMN = 2RNM (M1)(A1)\nˆ � But RON = 180 − 2RNO since ˆ ∆ RNO is isosceles (M1)\nˆ RON\nso that RNO ˆ = 90 � − = 90 � − RNM ˆ . (A1)\n2\nAlso RNS ˆ = 90 � − RNO ˆ . (A1)\nTherefore RNM ˆ = 90 � − RNO ˆ = RNS ˆ . (M1)(A1)\nNote: There are other solutions.\n[7 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "8",
+    "5"
+   ],
+   "subtopics": [
+    "8.1",
+    "8.2",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Euclidean Geometry and Conic Sections",
+   "text_clean": "10. [Maximum mark: 30]\n(i) A parabola has equation $4py = x^2$, where $p > 0$.\n(a) Find the real numbers $a$ and $b$ such that for every point P on the parabola the distance from P to the point A$(0, a)$ is equal to the distance from P to the line $y = b$. [6 marks]\n(b) Show that at every point P on the parabola the tangent to the parabola bisects the angle between (AP) and the line through P parallel to the $y$-axis. [6 marks]\n(ii) In the triangle ABC let D be the point of intersection of the line (AC) and the bisector of the angle ABC.\nProve the bisector theorem, that is $\\frac{AD}{DC} = \\frac{AB}{BC}$. [4 marks]\n(iii) Let A, B and C be three points on a circle of centre O such that B is on the longest arc joining A to C as shown below.\n[Diagram: circle with centre O; points A, B, C on the circle with B on the major arc; chords BA, BC and radii OA, OC drawn]\n(a) Show that the angle AOC is twice the angle ABC. [4 marks]\nLet D be another point on the arc CA as shown below.\n[Diagram: cyclic quadrilateral ABCD inscribed in a circle, D on the minor arc CA]\n(b) Using part (a) or otherwise show that the sum of any two opposite angles of the quadrilateral is equal to $180°$. [3 marks]\n(iv) Let M and N be any two points on a circle of centre O and let R be another point on the circle, equidistant from M and N.\nShow that (NR) bisects the angle between (MN) and the tangent to the circle at N. [7 marks]"
+  }
+ ],
+ "status": "done"
+}

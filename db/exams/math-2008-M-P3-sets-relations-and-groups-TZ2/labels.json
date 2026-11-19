@@ -1,0 +1,32 @@
+{
+  "exam_id": "math-2008-M-P3-sets-relations-and-groups-TZ2",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.6", "7.5", "7.8", "7.4", "7.7"],
+      "text_clean": "1. [Maximum mark: 16]\n(a) Draw the Cayley table for the set of integers $G=\\{0, 1, 2, 3, 4, 5\\}$ under addition modulo 6, $+_6$. [3 marks]\n(b) Show that $\\{G, +_6\\}$ is a group. [4 marks]\n(c) Find the order of each element. [3 marks]\n(d) Show that $\\{G, +_6\\}$ is cyclic and state its generators. [2 marks]\n(e) Find a subgroup with three elements. [2 marks]\n(f) Find the other proper subgroups of $\\{G, +_6\\}$. [2 marks]"
+    },
+    "2": {
+      "topics": ["7"],
+      "subtopics": ["7.3"],
+      "text_clean": "2. [Maximum mark: 13]\n(a) Below are the graphs of the two functions $f: P \\to Q$ and $g: A \\to B$.\n[Graph f: cubic-shaped curve; domain P is a bold interval on the x-axis, codomain Q a bold interval on the y-axis; the curve rises, levels off below the x-axis, then rises steeply. Graph g: increasing concave curve over a bold interval A on the x-axis; codomain B a bold interval on the y-axis extending below the x-axis, while the curve stays above it.]\nDetermine, with reference to features of the graphs, whether the functions are injective and/or surjective. [4 marks]\n(b) Given two functions $h: X \\to Y$ and $k: Y \\to Z$.\nShow that\n(i) if both $h$ and $k$ are injective then so is the composite function $k \\circ h$;\n(ii) if both $h$ and $k$ are surjective then so is the composite function $k \\circ h$. [9 marks]"
+    },
+    "3": {
+      "topics": ["7"],
+      "subtopics": ["7.1"],
+      "qtype": "short",
+      "text_clean": "3. [Maximum mark: 6]\nProve that $(A \\cap B) \\setminus (A \\cap C) = A \\cap (B \\setminus C)$ where $A$, $B$ and $C$ are three subsets of the universal set $U$."
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.2", "7.8"],
+      "text_clean": "4. [Maximum mark: 19]\n(a) The relation $aRb$ is defined on $\\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$ if and only if $ab$ is the square of a positive integer.\n(i) Show that $R$ is an equivalence relation.\n(ii) Find the equivalence classes of $R$ that contain more than one element. [10 marks]\n(b) Given the group $(G, *)$, a subgroup $(H, *)$ and $a, b \\in G$, we define $a \\sim b$ if and only if $ab^{-1} \\in H$. Show that $\\sim$ is an equivalence relation. [9 marks]"
+    },
+    "5": {
+      "topics": ["7"],
+      "subtopics": ["7.8", "7.4"],
+      "qtype": "short",
+      "text_clean": "5. [Maximum mark: 6]\n(a) Write down why the table below is a Latin square. [2 marks]\n| | d | e | b | a | c |\n| d | c | d | e | b | a |\n| e | d | e | b | a | c |\n| b | a | b | d | c | e |\n| a | b | a | c | e | d |\n| c | e | c | a | d | b |\n(b) Use Lagrange's theorem to show that the table is not a group table. [4 marks]"
+    }
+  }
+}

@@ -1,0 +1,318 @@
+{
+ "exam_id": "math-2009-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2009,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2009 November Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2009 November Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8809-7201; code N09/5/MATHL/HP1/ENG/TZ0/XX; marks sum matches expected total 120",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-2009-N-P1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 5]\nWhen 3 5x − ax + b is divided by x −1 and x +1 the remainders are equal. Given that\nab , ∈ϒ, find\n(a) the value of a ; [4 marks]\n(b) the set of values of b . [1 mark]",
+   "ms_text": "1. (a) f (1) 3 a b (A1)\nf (1) 3 a b (A1)\n3 a b 3 a b M1\n2 a 6\na 3 A1 N4\n(b) b is any real number A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 5]\nWhen $3x^5 - ax + b$ is divided by $x-1$ and $x+1$ the remainders are equal. Given that $a, b \\in \\mathbb{R}$, find\n(a) the value of $a$; [4 marks]\n(b) the set of values of $b$. [1 mark]"
+  },
+  {
+   "id": "math-2009-N-P1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nn\nFind the values of n such that 1 ( + 3 )i is a real number.",
+   "ms_text": "2. EITHER\nchanging to modulus-argument form\nr 2\narctan3 (M1)A1\n3\nn n n\nn 1 3 2 cos isin M1\n3 3\nn\nif sin 0 n {0, 3, 6,...} (M1)A1 N2\n3\nOR\narctan3 (M1)(A1)\n3\nM1\nn\nn k k M1\n3\nn 3, kk A1 N2\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nFind the values of $n$ such that $\\left(1+\\sqrt{3}\\,\\mathrm{i}\\right)^n$ is a real number."
+  },
+  {
+   "id": "math-2009-N-P1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nMatrices A , B and C are defined as\n1 5 1 1 2 − 1 8\nA = 3 − 1 3 , B = 3 − 1 0 , C = 0 .\n− 9 3 7 0 3 1 − 4\na 0 0\n(a) Given that AB = 0 a 0 , find a . [1 mark]\n0 0 a\n(b) Hence, or otherwise, find A−1. [2 marks]\n(c) Find the matrix X, such that AX = C . [2 marks]",
+   "ms_text": "3. (a) a 16 A1\n1 2 1\n1 1\n(b) A 3 1 0 (M1)A1\n160 3 1\n1 (c) AX C X AC (M1)\n1 2 1 8\n1\n3 1 0 0\n160 3 1 4\n12 0.75\n1\n= 24 1.5 A1\n16\n4 0.25\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nMatrices $\\boldsymbol{A}$, $\\boldsymbol{B}$ and $\\boldsymbol{C}$ are defined as\n$\\boldsymbol{A} = \\begin{pmatrix} 1 & 5 & 1 \\\\ 3 & -1 & 3 \\\\ -9 & 3 & 7 \\end{pmatrix}$, $\\boldsymbol{B} = \\begin{pmatrix} 1 & 2 & -1 \\\\ 3 & -1 & 0 \\\\ 0 & 3 & 1 \\end{pmatrix}$, $\\boldsymbol{C} = \\begin{pmatrix} 8 \\\\ 0 \\\\ -4 \\end{pmatrix}$.\n(a) Given that $\\boldsymbol{AB} = \\begin{pmatrix} a & 0 & 0 \\\\ 0 & a & 0 \\\\ 0 & 0 & a \\end{pmatrix}$, find $a$. [1 mark]\n(b) Hence, or otherwise, find $\\boldsymbol{A}^{-1}$. [2 marks]\n(c) Find the matrix $\\boldsymbol{X}$, such that $\\boldsymbol{AX} = \\boldsymbol{C}$. [2 marks]"
+  },
+  {
+   "id": "math-2009-N-P1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nConsider the function f , where fx () = arcsin (ln) x .\n(a) Find the domain of f . [3 marks]\n(b) Find f −1() . x [3 marks]",
+   "ms_text": "4. (a) 1 ln x 1 (M1)\n1\nx e A1A1\ne\n(b) y arcsin(ln) x ln x sin y (M1)\nsin x ln y sin x y e (M1)\n1 sin x f () x e A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.2",
+    "2.5",
+    "3.9",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nConsider the function $f$, where $f(x) = \\arcsin(\\ln x)$.\n(a) Find the domain of $f$. [3 marks]\n(b) Find $f^{-1}(x)$. [3 marks]"
+  },
+  {
+   "id": "math-2009-N-P1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\n3 The real root of the equation x − x + 4 = 0 is −1 796 . to three decimal places.\nDetermine the real root for each of the following.\n3 (a) ( x − 1 ) − ( x − 1 ) + 4 = 0 [2 marks]\n(b) 8 3x − 2 x + 4 = 0 [3 marks]",
+   "ms_text": "5. (a) EITHER\ngraph of the cubic is shifted horizontally one unit to the right (M1)\nx 0.796 A1\nOR\n( x 1) 1.796 (M1)\nx 0.796 A1\n(b) EITHER\nstretch factor of 0.5 in the x-direction (M1)\n2 x 1.796 (M1)\nNote: At least one of the above lines must be seen to award the M marks.\nx 0.898 A1\nOR\n3 3 8 x 2 x 4 (2) x 2 x 4 0 (M1)\n2 x 1.796 (M1)\nNote: At least one of the above lines must be seen to award the M marks.\nx 0.898 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\nThe real root of the equation $x^3 - x + 4 = 0$ is $-1.796$ to three decimal places. Determine the real root for each of the following.\n(a) $(x-1)^3 - (x-1) + 4 = 0$ [2 marks]\n(b) $8x^3 - 2x + 4 = 0$ [3 marks]"
+  },
+  {
+   "id": "math-2009-N-P1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 5]\nAt a nursing college, 80 % of incoming students are female. College records show that\n70 % of the incoming females graduate and 90 % of the incoming males graduate.\nA student who graduates is selected at random. Find the probability that the student is\nmale, giving your answer as a fraction in its lowest terms.",
+   "ms_text": "P( M G )\n6. P MG (M1)\nP() G\n0.20.9\nM1A1A1\n0.20.9 0.80.7\n0.18\n0.74\n9\nA1\n37\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.13",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 5]\nAt a nursing college, 80 % of incoming students are female. College records show that 70 % of the incoming females graduate and 90 % of the incoming males graduate. A student who graduates is selected at random. Find the probability that the student is male, giving your answer as a fraction in its lowest terms."
+  },
+  {
+   "id": "math-2009-N-P1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 9]\nπ 2\nsec x\n(a) Calculate 3 d. x [6 marks] ∫\nπ 3\ntan x 4\n(b) Find tan3xx ∫ d. [3 marks]",
+   "ms_text": "7. (a) EITHER\n2 let u tan; d x u sec xx d (M1)\nconsideration of change of limits (M1)\n2 sec x 1\n3 3 d x d u (A1)\n3 1 tan x\n4 4 3 u\nNote: Do not penalize lack of limits.\n3 2\n3 3 u\nA1\n2 1\n2\n3 3 3 3 3 33 3\nA1A1 N0\n2 2 2\nOR\n2 3\nsec 2 x 3(tan) x 3\n3 d x M2A2\n3 2 tan x\n4 4\n2\n3 3 3\n3 33 3 3\nA1A1 N0\n2 2 2\n3 2 (b) tan xx d tan(sec x x 1)d x M1\n2 (tan x sec x tan)d x x\n1 tan 2 x lnsec x C A1A1\n2\nNote: Do not penalize the absence of absolute value or C.\n[9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.15",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 9]\n(a) Calculate $\\displaystyle\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}} \\frac{\\sec^2 x}{\\sqrt[3]{\\tan x}}\\,\\mathrm{d}x$. [6 marks]\n(b) Find $\\displaystyle\\int \\tan^3 x\\,\\mathrm{d}x$. [3 marks]"
+  },
+  {
+   "id": "math-2009-N-P1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\ny A certain population can be modelled by the differential equation d\n= k y cos kt ,\nd t\nwhere y is the population at time t hours and k is a positive constant.\n(a) Given that y = y 0 when t = 0, express y in terms of k , t and y0. [5 marks]\n(b) Find the ratio of the minimum size of the population to the maximum size of\nthe population. [2 marks]",
+   "ms_text": "d y\n8. (a) ky cos() kt\nd t\nd y\nk cos( kt )d t (M1)\ny\nd y\nk cos()d kt t M1\ny\nln y sin( kt ) c A1\ny A e sin( kt )\nt 0 y A (M1)\n0\nsin kt y y\n0e A1\n(b) 1 sin kt 1 (M1)\ny e 1 y y e 1\n0 0\n1 :e 2 so the ratio is or 1:e A1\ne\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.18",
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nA certain population can be modelled by the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}t} = ky\\cos kt$, where $y$ is the population at time $t$ hours and $k$ is a positive constant.\n(a) Given that $y = y_0$ when $t = 0$, express $y$ in terms of $k$, $t$ and $y_0$. [5 marks]\n(b) Find the ratio of the minimum size of the population to the maximum size of the population. [2 marks]"
+  },
+  {
+   "id": "math-2009-N-P1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 5]\nThe diagram below shows a sketch of the gradient function ′f () of the curve fx x () .\ny\n3\ny = f ′() x\n2\n1\nx 0\n1 2 3 4\nOn the graph below, sketch the curve y = fx () given that f () 0 = 0 . Clearly indicate\non the graph any maximum, minimum or inflexion points.\ny\nx",
+   "ms_text": "9.\nA5\nNote: Award A1 for origin\nA1 for shape\nA1 for maximum\nA1 for each point of inflexion.\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.7",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "9. [Maximum mark: 5]\nThe diagram below shows a sketch of the gradient function $f'(x)$ of the curve $f(x)$.\n[Graph: y = f'(x) for x from 0 to about 3.3; starts near y = 3 left of the y-axis, crosses the y-axis at 2, decreases to touch the x-axis at x = 1 (minimum), rises to a maximum of about 2.5 at x = 2, then decreases, crossing the x-axis at x = 3 and becoming negative]\nOn the graph below, sketch the curve $y = f(x)$ given that $f(0) = 0$. Clearly indicate on the graph any maximum, minimum or inflexion points.\n[Blank axes for the sketch]"
+  },
+  {
+   "id": "math-2009-N-P1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 8]\nx A drinking glass is modelled by rotating the graph of y = e about the y-axis,\nfor 1 ≤ y ≤ 5 . Find the volume of the glass.",
+   "ms_text": "x 10. y e x ln y\n5 2\nvolume 1(ln)d y y (M1)A1\nusing integration by parts (M1)\n5 2 2 5 5\nln() y d y y (ln) y 2 ln yy d A1A1\n1 1 1\n5 2\ny (ln) y 2ln y y 2 y A1A1\n1\nNote: Award A1 marks if is present in at least one of the above lines.\n2 2\n1(ln)d y y 5(ln5) 10ln5 8 A1\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.17",
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 8]\nA drinking glass is modelled by rotating the graph of $y = \\mathrm{e}^x$ about the $y$-axis, for $1 \\le y \\le 5$. Find the volume of the glass."
+  },
+  {
+   "id": "math-2009-N-P1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 21]\n(a) The sum of the first six terms of an arithmetic series is 81. The sum of its first\neleven terms is 231. Find the first term and the common difference. [6 marks]\n(b) The sum of the first two terms of a geometric series is 1 and the sum of its\nfirst four terms is 5. If all of its terms are positive, find the first term and the\ncommon ratio. [5 marks]\n(c) The rth term of a new series is defined as the product of the rth term of the\narithmetic series and the rth term of the geometric series above. Show that the\nr − 1 . rth term of this new series is ( r + 12 ) [3 marks]\n(d) Using mathematical induction, prove that\nn\nr − 1 n +\n∑ ( r + 12 ) = n 2 , n ∈ ′. [7 marks]\nr = 1",
+   "ms_text": "6\n11. (a) S 81 81 (2 a 5) d M1A1\n6\n2\n27 2 a 5 d\n11\nS 231 231 (2 a 10) d M1A1\n11\n2\n21 a 5 d\nsolving simultaneously, a 6, d 3 A1A1\n[6 marks]\n(b) a ar 1 A1\n2 3 a ar ar ar 5 A1\n2 ( a ar ) ar (1 r ) 5\n1 2\n1 ar 5\na\nobtaining r 2 4 0 M1\nr 2\nr 2 (since all terms are positive) A1\n1\na A1\n3\n[5 marks]\nth (c) AP r term is 3 r 3 A1\n1 2 GP r term is th r 1 A1\n3\n1 r 1 r 1\n3( r 1) 2 ( r 1)2 M1AG\n3\n[3 marks]\nn\nr 1 n (d) prove: P : ( r 1) 2 n 2, n\nn\nr 1\nshow true for n 1 , i.e.\n0 LHS 22 2 RHS A1\nassume true for n k , i.e. M1\nk\nr 1 k ( r 1)2 k 2, k\nr 1\nconsider n k 1\nk 1\n( r 1)2 r 1 k 2 k ( k 2)2 k M1A1\nr 1\n2( kk k 2)\n2( k 1)2k A1\n1 ( k 1)2k A1\nhence true for n k 1\nis true whenever R1 kP kP is true, and 1P is true, therefore nP is true\n1\nfor n\n[7 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.15",
+    "1.2",
+    "1.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 21]\n(a) The sum of the first six terms of an arithmetic series is 81. The sum of its first eleven terms is 231. Find the first term and the common difference. [6 marks]\n(b) The sum of the first two terms of a geometric series is 1 and the sum of its first four terms is 5. If all of its terms are positive, find the first term and the common ratio. [5 marks]\n(c) The $r^{\\text{th}}$ term of a new series is defined as the product of the $r^{\\text{th}}$ term of the arithmetic series and the $r^{\\text{th}}$ term of the geometric series above. Show that the $r^{\\text{th}}$ term of this new series is $(r+1)2^{r-1}$. [3 marks]\n(d) Using mathematical induction, prove that\n$\\displaystyle\\sum_{r=1}^{n} (r+1)2^{r-1} = n2^n,\\ n \\in \\mathbb{Z}^+$. [7 marks]"
+  },
+  {
+   "id": "math-2009-N-P1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 17,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 17]\nA tangent to the graph of y = ln x passes through the origin.\n(a) Sketch the graphs of y = ln x and the tangent on the same set of axes, and hence\nfind the equation of the tangent. [11 marks]\nx\n(b) Use your sketch to explain why ln x [1 mark]\n≤e for x > 0 .\ne x (c) Show that x ≤ e for x > 0 . [3 marks]\n(d) Determine which is larger, πe or eπ. [2 marks]",
+   "ms_text": "12. (a)\nA3\nNote: Award A1 for each graph\nA1 for the point of tangency.\npoint on curve and line is (, ln) a a (M1)\ny ln() x\nd y 1 d y 1(when\nx a ) (M1)A1\nd x x d x a\nEITHER\na is ln a gradient of line, m, through (0, 0) and (, ln) a (M1)A1\na\nln a 1 1\nln a 1 a e m M1A1\na a e\nOR\n1\ny ln a ( x a ) (M1)A1\na\npasses through 0 if\nln a 1 0 M1\n1\na e m A1\ne\nTHEN\n1\ny x A1\ne\n[11 marks]\n1 x\n(b) the graph of ln x never goes above the graph of y x , hence ln x R1\ne e\n[1 mark]\nx\n(c) ln x eln x x ln x e x M1A1\ne\ne e exponentiate both sides of ln x x x ex R1AG\n[3 marks]\n(d) equality holds when x e R1\ne letting x e A1 N0\n[2 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "5.4",
+    "2.9",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 17]\nA tangent to the graph of $y = \\ln x$ passes through the origin.\n(a) Sketch the graphs of $y = \\ln x$ and the tangent on the same set of axes, and hence find the equation of the tangent. [11 marks]\n(b) Use your sketch to explain why $\\ln x \\le \\frac{x}{\\mathrm{e}}$ for $x > 0$. [1 mark]\n(c) Show that $x^{\\mathrm{e}} \\le \\mathrm{e}^x$ for $x > 0$. [3 marks]\n(d) Determine which is larger, $\\pi^{\\mathrm{e}}$ or $\\mathrm{e}^{\\pi}$. [2 marks]"
+  },
+  {
+   "id": "math-2009-N-P1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 22,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 22]\nLet z = x y (a) + i be any non-zero complex number.\nExpress 1 (i) + i. v\nz in the form u\n1\n(ii) If z + = kk , ∈ , 2 + y 2 =. 1 ϒ show that either y = 0 or x\nz\n(iii) Show that if x 2 + y 2 = then k≤2. 1 [8 marks]\n(b) Let w = cos θ + i sin θ .\nn − n (i) Show that w + w = 2cosθ, n∈′. n\n2 − 1 − 2 (ii) Solve the equation 3 w − w + 2 − w + 3 w = 0 , giving the roots in the\nform x + i. y [14 marks]",
+   "ms_text": "1 1 x i y x y\n13. (a) (i) i (M1)A1\n2 2 2 2 z x i y x i y x y x y\n1 x y\n(ii) z x i y k (A1)\n2 2 2 2 z x y x y\ny\nfor k to be real, y 0 yx ( 2 y 2 1) 0 M1A1\n2 2 x y\n2 2 2 2 hence, y 0 or x y 1 0 x y 1 AG\n1 2 2\n(iii) when x y 1, z 2 x (M1)A1\nz\nx 1 R1\nk 2 AG\n[8 marks]\nn (b) (i) w cos( n ) isin( n ) cos n isin n M1A1\nw n w n (cos n isin n ) (cos n isin n ) 2cos n M1AG\n(ii) (rearranging)\n2 2 1 3( w w ) ( w w ) 2 0 (M1)\n3(2cos2) 2cos 2 0 A1\n2(3cos2 cos 1) 0\n2 3(2cos 1) cos 1 0 M1\n2 6cos cos 2 0 A1\n(3cos 2)(2cos 1) 0 M1\n2 1\ncos , cos A1A1\n3 2\n2 5\ncos sin A1\n3 3\n1 3\ncos sin A1\n2 2\n2 i5 1 i3\nw , A1A1\n3 3 2 2\nNote: Allow FT from incorrect cos and/or sin .\n[14 marks]\nTotal [22 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.12",
+    "3.6",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 22]\n(a) Let $z = x + \\mathrm{i}y$ be any non-zero complex number.\n(i) Express $\\frac{1}{z}$ in the form $u + \\mathrm{i}v$.\n(ii) If $z + \\frac{1}{z} = k$, $k \\in \\mathbb{R}$, show that either $y = 0$ or $x^2 + y^2 = 1$.\n(iii) Show that if $x^2 + y^2 = 1$ then $|k| \\le 2$. [8 marks]\n(b) Let $w = \\cos\\theta + \\mathrm{i}\\sin\\theta$.\n(i) Show that $w^n + w^{-n} = 2\\cos n\\theta$, $n \\in \\mathbb{Z}$.\n(ii) Solve the equation $3w^2 - w + 2 - w^{-1} + 3w^{-2} = 0$, giving the roots in the form $x + \\mathrm{i}y$. [14 marks]"
+  }
+ ],
+ "status": "done"
+}

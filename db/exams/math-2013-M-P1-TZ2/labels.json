@@ -1,0 +1,31 @@
+{
+  "exam_id": "math-2013-M-P1-TZ2",
+  "questions": {
+    "1": {"topics": ["5"], "subtopics": ["5.11", "5.10"],
+      "text_clean": "1. [Maximum mark: 6]\nFind the exact value of $\\int_1^2 \\left((x-2)^2 + \\frac{1}{x} + \\sin \\pi x\\right) \\mathrm{d}x$."},
+    "2": {"topics": ["1"], "subtopics": ["1.L1"],
+      "text_clean": "2. [Maximum mark: 5]\nConsider the matrices $A = \\begin{pmatrix} 5 & 3 \\\\ 3 & 2 \\end{pmatrix}$, $B = \\begin{pmatrix} 3 & -5 \\\\ 2 & -3 \\end{pmatrix}$.\n(a) Find $\\det A$ and hence write down the matrix $A^{-1}$. [2 marks]\n(b) Find the matrix $A^{-1}B$. [3 marks]"},
+    "3": {"topics": ["1"], "subtopics": ["1.9"],
+      "text_clean": "3. [Maximum mark: 4]\nExpand $(2-3x)^5$ in ascending powers of $x$, simplifying coefficients."},
+    "4": {"topics": ["4"], "subtopics": ["4.6"],
+      "text_clean": "4. [Maximum mark: 5]\nTim and Caz buy a box of 16 chocolates of which 10 are milk and 6 are dark. Caz randomly takes a chocolate and eats it. Then Tim randomly takes a chocolate and eats it.\n(a) Draw a tree diagram representing the possible outcomes, clearly labelling each branch with the correct probability. [3 marks]\n(b) Find the probability that Tim and Caz eat the same type of chocolate. [2 marks]"},
+    "5": {"topics": ["5"], "subtopics": ["5.6", "5.4"],
+      "text_clean": "5. [Maximum mark: 7]\nThe curve $C$ is given by $y = \\frac{x\\cos x}{x + \\cos x}$, for $x \\ge 0$.\n(a) Show that $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{\\cos^2 x - x^2 \\sin x}{(x+\\cos x)^2}$, $x \\ge 0$. [4 marks]\n(b) Find the equation of the tangent to $C$ at the point $\\left(\\frac{\\pi}{2}, 0\\right)$. [3 marks]"},
+    "6": {"topics": ["1", "2"], "subtopics": ["1.8", "2.12"],
+      "text_clean": "6. [Maximum mark: 7]\nA geometric sequence has first term $a$, common ratio $r$ and sum to infinity 76.\nA second geometric sequence has first term $a$, common ratio $r^3$ and sum to infinity 36.\nFind $r$."},
+    "7": {"topics": ["1", "2"], "subtopics": ["1.12", "2.6", "1.13"],
+      "text_clean": "7. [Maximum mark: 7]\nGiven the complex numbers $z_1 = 1 + 3\\mathrm{i}$ and $z_2 = -1 - \\mathrm{i}$.\n(a) Write down the exact values of $|z_1|$ and $\\arg(z_2)$. [2 marks]\n(b) Find the minimum value of $|z_1 + \\alpha z_2|$, where $\\alpha \\in \\mathbb{R}$. [5 marks]"},
+    "8": {"topics": ["5"], "subtopics": ["5.14", "5.15"],
+      "text_clean": "8. [Maximum mark: 6]\nThe curve $C$ is given implicitly by the equation $\\frac{x^2}{y} - 2x = \\ln y$ for $y > 0$.\n(a) Express $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ in terms of $x$ and $y$. [4 marks]\n(b) Find the value of $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ at the point on $C$ where $y = 1$ and $x > 0$. [2 marks]"},
+    "9": {"topics": ["2", "1"], "subtopics": ["2.10", "2.9", "1.7"],
+      "text_clean": "9. [Maximum mark: 7]\nThe function $f$ is given by $f(x) = \\frac{3^x + 1}{3^x - 3^{-x}}$, for $x > 0$.\n(a) Show that $f(x) > 1$ for all $x > 0$. [3 marks]\n(b) Solve the equation $f(x) = 4$. [4 marks]"},
+    "10": {"topics": ["3"], "subtopics": ["3.10", "3.9"],
+      "text_clean": "10. [Maximum mark: 6]\n(a) Given that $\\arctan\\left(\\frac{1}{5}\\right) + \\arctan\\left(\\frac{1}{8}\\right) = \\arctan\\left(\\frac{1}{p}\\right)$, where $p \\in \\mathbb{Z}^+$, find $p$. [3 marks]\n(b) Hence find the value of $\\arctan\\left(\\frac{1}{2}\\right) + \\arctan\\left(\\frac{1}{5}\\right) + \\arctan\\left(\\frac{1}{8}\\right)$. [3 marks]"},
+    "11": {"topics": ["3"], "subtopics": ["3.13", "3.16", "3.14", "3.12", "3.17"],
+      "text_clean": "11. [Maximum mark: 21]\nThe vertices of a triangle ABC have coordinates given by A$(-1, 2, 3)$, B$(4, 1, 1)$ and C$(3, -2, 2)$.\n(a) (i) Find the lengths of the sides of the triangle.\n(ii) Find $\\cos \\mathrm{B\\hat{A}C}$. [6 marks]\n(b) (i) Show that $\\overrightarrow{BC} \\times \\overrightarrow{CA} = -7\\boldsymbol{i} - 3\\boldsymbol{j} - 16\\boldsymbol{k}$.\n(ii) Hence, show that the area of the triangle ABC is $\\frac{1}{2}\\sqrt{314}$. [5 marks]\n(c) Find the Cartesian equation of the plane containing the triangle ABC. [3 marks]\n(d) Find a vector equation of (AB). [2 marks]\nThe point D on (AB) is such that $\\overrightarrow{OD}$ is perpendicular to $\\overrightarrow{BC}$ where O is the origin.\n(e) (i) Find the coordinates of D.\n(ii) Show that D does not lie between A and B. [5 marks]"},
+    "12": {"topics": ["2", "5"], "subtopics": ["2.5", "2.16", "2.13", "5.6", "2.2"],
+      "text_clean": "12. [Maximum mark: 21]\nThe function $f$ is defined by $f(x) = \\frac{2x-1}{x+2}$, with domain $D = \\{x : -1 \\le x \\le 8\\}$.\n(a) Express $f(x)$ in the form $A + \\frac{B}{x+2}$, where $A$ and $B \\in \\mathbb{Z}$. [2 marks]\n(b) Hence show that $f'(x) > 0$ on $D$. [2 marks]\n(c) State the range of $f$. [2 marks]\n(d) (i) Find an expression for $f^{-1}(x)$.\n(ii) Sketch the graph of $y = f(x)$, showing the points of intersection with both axes.\n(iii) On the same diagram, sketch the graph of $y = f^{-1}(x)$. [8 marks]\n(e) (i) On a different diagram, sketch the graph of $y = f(|x|)$ where $x \\in D$.\n(ii) Find all solutions of the equation $f(|x|) = -\\frac{1}{4}$. [7 marks]"},
+    "13": {"topics": ["1", "3"], "subtopics": ["1.14", "1.13", "3.6"],
+      "text_clean": "13. [Maximum mark: 18]\n(a) (i) Express each of the complex numbers $z_1 = \\sqrt{3} + \\mathrm{i}$, $z_2 = -\\sqrt{3} + \\mathrm{i}$ and $z_3 = -2\\mathrm{i}$ in modulus-argument form.\n(ii) Hence show that the points in the complex plane representing $z_1$, $z_2$ and $z_3$ form the vertices of an equilateral triangle.\n(iii) Show that $z_1^{3n} + z_2^{3n} = 2z_3^{3n}$ where $n \\in \\mathbb{N}$. [9 marks]\n(b) (i) State the solutions of the equation $z^7 = 1$ for $z \\in \\mathbb{C}$, giving them in modulus-argument form.\n(ii) If $w$ is the solution to $z^7 = 1$ with least positive argument, determine the argument of $1 + w$. Express your answer in terms of $\\pi$.\n(iii) Show that $z^2 - 2z\\cos\\left(\\frac{2\\pi}{7}\\right) + 1$ is a factor of the polynomial $z^7 - 1$. State the two other quadratic factors with real coefficients. [9 marks]"}
+  }
+}

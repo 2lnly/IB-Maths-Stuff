@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2017-M-P3-calculus",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2017,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Calculus",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2017 May Examination Session/Mathematics_paper_3_Calculus__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2017 May Examination Session/Mathematics_paper_3_Calculus__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2217-7208; code M17/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches paper total 50",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2017-M-P3-calculus-q1",
+   "num": "1",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 7]\nUse l’Hôpital’s rule to determine the value of\n2 sin x\nlim .\nx → 0 x ln( 1 + x )",
+   "ms_text": "1. attempt to use l’Hôpital’s rule, M1\n2sincos x x sin 2 x\nlimit = lim or A1A1\nx → 0 x x\nln(1 + x ) + ln(1 + x ) ++\n1 + x 1 x\nNote: Award A1 for numerator A1 for denominator.\nthis gives 0/0 so use the rule again (M1)\n2 2 lim 2cos x − 2sin x 2cos2 x\n= or A1A1\n→ 1 1 + x − x 2 + x x 0\n+\n2 2 1 + x (1 + x ) (1 + x )\nNote: Award A1 for numerator A1 for denominator.\n= 1 A1\nNote: This A1 is dependent on all previous marks being awarded, except when the first\napplication of L'Hopital's does not lead to 0/0, when it should be awarded for the\ncorrect limit of their derived function.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 7]\nUse l'Hôpital's rule to determine the value of\n$$\\lim_{x \\to 0} \\frac{\\sin^2 x}{x\\ln(1+x)}.$$"
+  },
+  {
+   "id": "math-2017-M-P3-calculus-q2",
+   "num": "2",
+   "section": null,
+   "marks": 6,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nLet the Maclaurin series for tan x be\ntan x =a1 x + a3 x3+a5 x5+ …\nwhere a1 , a3 and a5 are constants.\n(a) Find series for sec2x , in terms of a1 , a3 and a5 , up to and including the x4 term\n(i) by differentiating the above series for tan x ;\n(ii) by using the relationship sec2x= 1 + tan2x . [3]\n(b) Hence, by comparing your two series, determine the values of a1 , a3 and a5 . [3]",
+   "ms_text": "2 2 4\n2. (a) (i) (sec x = ) a + 3 ax + 5 ax +… A1\n1 3 5\n2 2 3 5\n(ii) sec x =+ 1 ( a x + ax + ax +… )\n1 3 5\n2 2 4 =+ 1 ax + 2 a ax +… M1A1\n1 1 3\nNote: Condone the presence of terms with powers greater than four.\n[3 marks]\n(b) equating constant terms: a= 1 A1\n1\n1\n2x terms: = 2 = ⇒ = equating 3 a a 1 a A1\n3 1 3\n3\n2 2\nequating 4x terms: 5 a = 2 a a = ⇒ a = A1\n5 1 3 5\n3 15\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nLet the Maclaurin series for $\\tan x$ be\n$$\\tan x = a_1 x + a_3 x^3 + a_5 x^5 + \\ldots$$\nwhere $a_1$, $a_3$ and $a_5$ are constants.\n(a) Find series for $\\sec^2 x$, in terms of $a_1$, $a_3$ and $a_5$, up to and including the $x^4$ term\n(i) by differentiating the above series for $\\tan x$;\n(ii) by using the relationship $\\sec^2 x = 1 + \\tan^2 x$. [3]\n(b) Hence, by comparing your two series, determine the values of $a_1$, $a_3$ and $a_5$. [3]"
+  },
+  {
+   "id": "math-2017-M-P3-calculus-q3",
+   "num": "3",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 9]\n∞ 1\nUse the integral test to determine whether the infinite series is convergent or =∑\nn ln n n 2\ndivergent.",
+   "ms_text": "N\nd x\n3. consider I M1A1 =∫\nx ln x\n2\nNote: Do not award A1 if n is used as the variable or if lower limit equal to 1,\nbut some subsequent A marks can still be awarded. Allow ∞as\nupper limit.\nlet y = ln x (M1)\nd x\nd y = , (A1)\nx\n[2, N ] ⇒ [ln 2, ln N ]\nln N\nd y\nI =∫ (A1)\ny\nln 2\nNote: Condone absence of limits, or wrong limits.\nln N\n= 2 y A1\nln2\nNote: A1 is for the correct integral, irrespective of the limits used.\nAccept correct use of integration by parts.\n= 2ln N − 2ln 2 (M1)\nNote: M1 is for substituting their limits into their integral and subtracting.\n→∞ as N →∞ A1\nNotes: Allow “= ∞ ”, “limit does not exist”, “diverges” or equivalent.\nDo not award if wrong limits substituted into the integral but allow N or ∞ as\nan upper limit in place of lnN.\n(by the integral test) the series is divergent (because the integral is divergent) A1\nNotes: Do not award this mark if ∞ used as upper limit throughout.\n[9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.16",
+    "5.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 9]\nUse the integral test to determine whether the infinite series $\\sum_{n=2}^{\\infty} \\frac{1}{n\\sqrt{\\ln n}}$ is convergent or divergent."
+  },
+  {
+   "id": "math-2017-M-P3-calculus-q4",
+   "num": "4",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 13]\n(a) Consider the differential equation\nd y y\n= f , x > 0 .\nd x x\nUse the substitution y = vx to show that the general solution of this differential\nequation is\nd v\n∫ = ln x + Constant . [3]\nfv () − v\n(b) Hence, or otherwise, solve the differential equation\n2 2 d y x + 3 xy + y\n= , x > 0 ,\n2 d x x\ngiven that y =1 when x =1 . Give your answer in the form y=g(x) . [10]",
+   "ms_text": "d y d v\n4. (a) y = vx ⇒ = v + x M1\nd x d x\nthe differential equation becomes\nd v\nv + x = fv () A1\nd x\nd v d x\n∫ = ∫ A1\nfv () − v x\nd v\nintegrating, ln x + Constant AG ∫ v=\nfv () −\n[3 marks]\n(b) EITHER\nfv () = 1 + 3 v + v 2 (A1)\nd v d v\n= = ln x + C M1A1 ∫ ∫\nfv () − v 1 + 3 v + v 2 − v\nd v\n∫ = ( ln x + C ) A1 2\n( + ) 1 v\nNote: A1 is for correct factorization.\n1\n− ( = ln x + C ) A1\n+ 1 v\nOR\nd v 2\nv + x =+ 13 v + v A1\nd x\nd v 1 d\n∫ = ∫ x M1\n2 1 + 2 v + v x\nd v 1 d\n∫ = ∫ x (A1) 2\n( + ) x 1 v\nNote: A1 is for correct factorization.\n1\n− = ln x ( + C ) A1A1\n1 + v\nTHEN\nsubstitute y= 1 or v= 1 when x= 1 (M1)\n1\ntherefore C=− A1\n2\nNote: This A1 can be awarded anywhere in their solution.\nsubstituting for v,\n1 1\n− = ln x − M1\ny 2\n1 +\nx\nNote: Award for correct substitution of y\ninto their expression.\nx\ny 1\n1 + = (A1)\nx 1\n− ln x\n2\nNote: Award for any rearrangement of a correct expression that has y in the numerator.\n1\n= − y x 1 (or equivalent) A1\n1\n− ln x\n2\n1 + 2ln x\n= x\n1 − 2ln x\n[10 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 13]\n(a) Consider the differential equation\n$$\\frac{dy}{dx} = f\\left(\\frac{y}{x}\\right), x > 0.$$\nUse the substitution $y = vx$ to show that the general solution of this differential equation is\n$$\\int \\frac{dv}{f(v) - v} = \\ln x + \\text{Constant}.$$ [3]\n(b) Hence, or otherwise, solve the differential equation\n$$\\frac{dy}{dx} = \\frac{x^2 + 3xy + y^2}{x^2}, x > 0,$$\ngiven that $y = 1$ when $x = 1$. Give your answer in the form $y = g(x)$. [10]"
+  },
+  {
+   "id": "math-2017-M-P3-calculus-q5",
+   "num": "5",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 15]\n=1, x > 0 . Consider the curve y\nx\n(a) By drawing a diagram and considering the area of a suitable region under the curve,\nshow that for r> 0 ,\n1 r + 1 1\n< ln . [4]\n<\nr + 1 r r\n(b) Hence, given that n is a positive integer greater than one, show that\nn 1\n(i) > ln( 1 + n ); =∑\n1r r\nn 1\n(ii) < 1 +ln n . =∑\n[6]\n1r r\nn 1\nLet U = − ln n .\nn =∑\nr r 1\nHence, given that n is a positive integer greater than one, show that (c)\n(i) Un> 0 ;\n(ii) Un + 1<Un. [4]\n(d) Explain why these two results prove that {Un} is a convergent sequence. [1]",
+   "ms_text": "5. (a)\nA1\nNote: Curve, both rectangles and correct x- values required.\narea of rectangles 1 and 1\nA1\nr 1 + r\nNote: Correct values on the y-axis are sufficient evidence for this mark if not\notherwise indicated.\nin the above diagram, the area below the curve between x = r and x = r + 1\nis between the areas of the larger and smaller rectangle\nr + 1\n1 d x 1\nor < < (R1) ∫\nr + 1 x r\nr\nr + 1 d x r + 1\n( ) integrating, ∫ = [ ln x ] = ln ( r + 1 ) − ln () r A1\nr r x\n1 r + 1 1\n< ln < AG\nr + 1 r r\n[4 marks]\n(b) (i) summing the right-hand part of the above inequality from r= 1 to r = n,\nn n + 1 r 1\n∑ > ∑ ln M1\nr r r = 1 r = 1\n2 3 n n + 1\n= ln + ln +…+ ln + ln (A1)\n1 2 n − 1 n\nEITHER\n2 3 n n + 1\n= × ×…× × A1\nln1\n2 n − 1 n\nOR\nln 2 − ln1ln3 + − ln 2 +…+ ln( n + 1) − ln() n A1\n= ln( n + 1) AG\nn (ii) 1 1 1 1 2 3 n\n∑ =+ 1 + + ... + <+ 1ln + ln + ... + ln M1A1A1\nr 2 3 n 1 2 n − 1 r = 1\nn − 1 n − 1 1 r + 1\n1 + ∑ <+ 1 ∑ ln\nr + 1 r r = 1 r = 1\nNote: M1 is for using the correct inequality from (a), A1 for both sides beginning\nwith 1, A1 for completely correct expression.\nNote: The 1 might be added after the sums have been calculated.\n=+ 1ln n AG\n[6 marks]\n(c) (i) from (b)(i) U > ln(1 + n ) − ln n > 0 A1\nn\nn + 1 n 1 1\n(ii) U − U = ∑ − ln( n + 1) − ∑ + ln n M1\nn + 1 n\nr r r = 1 r = 1\n1 n + 1\n= − ln A1\nn + 1 n\n< 0 (using the result proved in (a)) A1\nU +< U AG\nn 1 n\n[4 marks]\n(d) it follows from the two results that { U } cannot be divergent either in the\nn\nsense of tending to −∞ or oscillating therefore it must be convergent R1\n[1 mark]\nNote:Accept the use of the result that a bounded (monotonically) decreasing\nsequence is convergent (allow “positive, decreasing sequence”).\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L5",
+    "5.L7",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 15]\nConsider the curve $y = \\frac{1}{x}, x > 0$.\n(a) By drawing a diagram and considering the area of a suitable region under the curve, show that for $r > 0$,\n$$\\frac{1}{r+1} < \\ln\\left(\\frac{r+1}{r}\\right) < \\frac{1}{r}.$$ [4]\n(b) Hence, given that $n$ is a positive integer greater than one, show that\n(i) $\\sum_{r=1}^{n} \\frac{1}{r} > \\ln(1+n)$;\n(ii) $\\sum_{r=1}^{n} \\frac{1}{r} < 1 + \\ln n$. [6]\nLet $U_n = \\sum_{r=1}^{n} \\frac{1}{r} - \\ln n$.\n(c) Hence, given that $n$ is a positive integer greater than one, show that\n(i) $U_n > 0$;\n(ii) $U_{n+1} < U_n$. [4]\n(d) Explain why these two results prove that $\\{U_n\\}$ is a convergent sequence. [1]"
+  }
+ ],
+ "status": "done"
+}

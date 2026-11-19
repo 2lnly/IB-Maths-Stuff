@@ -1,0 +1,30 @@
+{
+  "exam_id": "math-2007-M-P2-TZ1",
+  "questions": {
+    "1": {
+      "topics": ["3"],
+      "subtopics": ["3.18", "3.17", "3.16", "3.13", "3.14"],
+      "text_clean": "1. [Maximum mark: 23]\nTwo planes $\\pi_1$ and $\\pi_2$ are represented by the equations\n$\\pi_1: \\boldsymbol{r} = \\begin{pmatrix}3\\\\1\\\\5\\end{pmatrix} + \\lambda\\begin{pmatrix}-2\\\\2\\\\3\\end{pmatrix} + \\mu\\begin{pmatrix}2\\\\1\\\\0\\end{pmatrix}$\n$\\pi_2: 2x - y - 2z = 4$.\n(a) (i) Find $\\begin{pmatrix}-2\\\\2\\\\3\\end{pmatrix} \\times \\begin{pmatrix}2\\\\1\\\\0\\end{pmatrix}$.\n(ii) Show that the equation of $\\pi_1$ can be written as $x - 2y + 2z = 11$. [4 marks]\n(b) Show that $\\pi_1$ is perpendicular to $\\pi_2$. [4 marks]\n(c) The line $l_1$ is the line of intersection of $\\pi_1$ and $\\pi_2$. Find the vector equation of $l_1$, giving the answer in parametric form. [5 marks]\n(d) The line $l_2$ is parallel to both $\\pi_1$ and $\\pi_2$, and passes through $P(3, -5, -1)$. Find an equation for $l_2$ in Cartesian form. [3 marks]\n(e) Let Q be the foot of the perpendicular from P to the plane $\\pi_2$.\n(i) Find the coordinates of Q.\n(ii) Find PQ. [7 marks]"
+    },
+    "2": {
+      "topics": ["5", "3"],
+      "subtopics": ["5.17", "5.10", "5.15", "3.10", "3.6", "3.8", "3.9"],
+      "text_clean": "2. [Maximum mark: 24]\n(a) Using the formula for $\\cos(A+B)$ prove that $\\cos^2\\theta = \\frac{\\cos 2\\theta + 1}{2}$. [3 marks]\n(b) Hence, find $\\int \\cos^2 x\\,dx$. [4 marks]\nLet $f(x) = 4\\cos x$ and $g(x) = \\sec x$ for $x \\in \\left]-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right[$.\nLet $R$ be the region enclosed by the two functions.\n(c) Find the exact values of the $x$-coordinates of the points of intersection. [4 marks]\n(d) Sketch the functions $f$ and $g$ and clearly shade the region $R$. [3 marks]\nThe region $R$ is rotated through $2\\pi$ about the $x$-axis to generate a solid.\n(e) (i) Write down an integral which represents the volume of this solid.\n(ii) Hence find the exact value of the volume. [10 marks]"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L1", "4.3", "4.12", "4.9", "4.8", "4.11"],
+      "text_clean": "3. [Total Mark: 26]\nPart A [Maximum mark: 18]\nThe time, $T$ minutes, spent each day by students in Amy's school sending text messages may be modelled by a normal distribution.\n30 % of the students spend less than 10 minutes per day.\n35 % spend more than 15 minutes per day.\n(a) Find the mean and standard deviation of $T$. [6 marks]\nThe number of text messages received by Amy during a fixed time interval may be modelled by a Poisson distribution with a mean of 6 messages per hour.\n(b) Find the probability that Amy will receive exactly 8 messages between 16:00 and 18:00 on a random day. [3 marks]\n(c) Given that Amy has received at least 10 messages between 16:00 and 18:00 on a random day, find the probability that she received 13 messages during that time. [5 marks]\n(d) During a 5-day week, find the probability that there are exactly 3 days when Amy receives no messages between 17:45 and 18:00. [4 marks]\nPart B [Maximum mark: 8]\nTwenty candidates sat an examination in French. The sum of their marks was 826 and the sum of the squares of their marks was 34 132. Two candidates sat the examination late and their marks were $a$ and $b$. The new mean and variance were calculated, giving the following results:\nmean $= 42$ and variance $= 32$.\nFind a set of possible values of $a$ and $b$. [8 marks]"
+    },
+    "4": {
+      "topics": ["1", "4"],
+      "subtopics": ["1.2", "1.15", "4.5"],
+      "text_clean": "4. [Total Mark: 21]\nPart A [Maximum mark: 11]\n(a) Find the probability that a number, chosen at random between 200 and 800 inclusive, will be a multiple of 9. [3 marks]\n(b) Find the sum of the numbers between 200 and 800 inclusive, which are multiples of 6, but not multiples of 9. [8 marks]\nPart B [Maximum mark: 10]\nProve by induction that $12^n + 2(5^{n-1})$ is a multiple of 7 for $n \\in \\mathbb{Z}^+$. [10 marks]"
+    },
+    "5": {
+      "topics": ["3", "1", "2"],
+      "subtopics": ["3.8", "3.10", "1.14", "1.9", "2.12"],
+      "text_clean": "5. [Maximum mark: 26]\n(a) (i) Factorize $t^3 - 3t^2 - 3t + 1$, giving your answer as a product of a linear factor and a quadratic factor.\n(ii) Hence find all the exact solutions to the equation $t^3 - 3t^2 - 3t + 1 = 0$. [5 marks]\n(b) Using de Moivre's theorem and the binomial expansion\n(i) show that $\\cos 3\\theta = \\cos^3\\theta - 3\\cos\\theta\\sin^2\\theta$;\n(ii) write down a similar expression for $\\sin 3\\theta$. [7 marks]\n(c) (i) Hence show that $\\tan 3\\theta = \\frac{3\\tan\\theta - \\tan^3\\theta}{1 - 3\\tan^2\\theta}$.\n(ii) Find the values of $\\theta$, $0^\\circ \\le \\theta \\le 180^\\circ$, for which this identity is not valid. [7 marks]\n(d) Using the results from parts (a) and (c), find the exact values of $\\tan 15^\\circ$ and $\\tan 75^\\circ$. [7 marks]"
+    }
+  }
+}

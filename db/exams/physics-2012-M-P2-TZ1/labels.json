@@ -1,0 +1,126 @@
+{
+ "exam_id": "physics-2012-M-P2-TZ1",
+ "questions": {
+  "A1": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.1"
+   ],
+   "note": "Data analysis: graph linearisation, error bars, uncertainty propagation, gradient; rolling-sphere context only.",
+   "text_clean": "A1. Data analysis question.\nA small sphere rolls down a track of constant length AB. The sphere is released from rest at A. The time $t$ that the sphere takes to roll from A to B is measured for different values of height $h$.\n[Diagram: sphere at A at top of an inclined track of height $h$ above the ground, rolling down to B]\nA student suggests that $t$ is proportional to $\\frac{1}{h}$. To test this hypothesis a graph of $t$ against $\\frac{1}{h}$ is plotted as shown on the axes below. The uncertainty in $t$ is shown and the uncertainty in $\\frac{1}{h}$ is negligible.\n[Graph: $t$/s (0.0 to 2.0) against $\\frac{1}{h}$/m$^{-1}$ (0 to 12); data points with error bars of ±0.1 s from about (1.1, 0.6) rising to (10, 1.7)]\n(a) (i) Draw the straight line that best fits the data. [1]\n(ii) State why the data do not support the hypothesis. [1]\n(b) Another student suggests that the relationship between $t$ and $h$ is of the form\n$t = k\\sqrt{\\frac{1}{h}}$\nwhere $k$ is a constant.\nTo test whether or not the data support this relationship, a graph of $t^2$ against $\\frac{1}{h}$ is plotted as shown below.\nThe best-fit line takes into account the uncertainties for all data points.\n[Graph: $t^2$/s$^2$ (0 to 3.5) against $\\frac{1}{h}$/m$^{-1}$ (0 to 12); straight best-fit line through the origin; error bar shown on the point at $\\frac{1}{h}$ = 10.0 m$^{-1}$, $t^2$ ≈ 2.9 s$^2$]\nThe uncertainty in $t^2$ for the data point where $\\frac{1}{h} = 10.0\\,\\text{m}^{-1}$ is shown as an error bar on the graph.\n(i) State the value of the uncertainty in $t^2$ for $\\frac{1}{h} = 10.0\\,\\text{m}^{-1}$. [1]\n(ii) Calculate the uncertainty in $t^2$ when $t = 0.8 \\pm 0.1$ s. Give your answer to an appropriate number of significant digits. [4]\n(iii) Use the graph to determine the value of $k$. Do not calculate its uncertainty. [3]\n(iv) State the unit of $k$. [1]",
+   "answer_status": "ok"
+  },
+  "A2": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.3"
+   ],
+   "text_clean": "A2. This question is about radioactive decay.\n(a) Describe the phenomenon of natural radioactive decay. [3]\n(b) A nucleus of americium-241 (Am-241) decays into a nucleus of neptunium-237 (Np-237) in the following reaction.\n$^{241}_{95}\\text{Am} \\rightarrow {}^{237}_{X}\\text{Np} + {}^{4}_{2}\\alpha$\n(i) State the value of $X$. [1]\n(ii) Explain in terms of mass why energy is released in the reaction in (b). [2]\n(iii) Define binding energy of a nucleus. [1]\n(iv) The following data are available.\nNuclide | Binding energy per nucleon / MeV\namericium-241 | 7.54\nneptunium-237 | 7.58\nhelium-4 | 7.07\nDetermine the energy released in the reaction in (b). [3]",
+   "answer_status": "ok"
+  },
+  "A3": {
+   "topics": [
+    "B"
+   ],
+   "subtopics": [
+    "B.1"
+   ],
+   "text_clean": "A3. This question is about thermal energy transfer.\nA hot piece of iron is placed into a container of cold water. After a time the iron and water reach thermal equilibrium. The heat capacity of the container is negligible.\n(a) Define specific heat capacity. [2]\n(b) The following data are available.\nMass of water = 0.35 kg\nMass of iron = 0.58 kg\nSpecific heat capacity of water = 4200 J kg$^{-1}$ K$^{-1}$\nInitial temperature of water = 20 °C\nFinal temperature of water = 44 °C\nInitial temperature of iron = 180 °C\n(i) Determine the specific heat capacity of iron. [3]\n(ii) Explain why the value calculated in (b)(i) is likely to be different from the accepted value. [2]",
+   "answer_status": "ok"
+  },
+  "A4": {
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.5"
+   ],
+   "text_clean": "A4. This question is about the Doppler effect.\nA source emits sound of frequency 100 Hz. The speed of sound in air is 330 m s$^{-1}$.\n(a) Calculate the frequency measured by an observer when\n(i) the observer is stationary and the source is moving towards the observer at 120 m s$^{-1}$. [2]\n(ii) the source is stationary and the observer is moving towards the source at 120 m s$^{-1}$. [2]\n(b) When both source and observer are stationary the wavelength is $\\lambda_0$ and the wavespeed is $v_0$.\nIn the table below, compare the values of measured wavelength and measured wavespeed, as measured by the observer, with respect to $\\lambda_0$ and $v_0$. One of the values is given for you. [3]\n | Measured wavelength | Measured wavespeed\nMoving source as in (a)(i) | less than $\\lambda_0$ |\nMoving observer as in (a)(ii) | |",
+   "answer_status": "ok"
+  },
+  "A5": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.4"
+   ],
+   "text_clean": "A5. This question is about polarization.\nUnpolarized light is directed towards two polarizers. The dashed lines represent the transmission axes of the polarizers. The angle $\\theta$ between the transmission axes of the polarizers is initially 0°.\n[Diagram: unpolarized light passes through a first polarizer then a second polarizer, emerging with transmitted intensity $I$]\n(a) On the axes below, sketch a graph to show how the intensity $I$ of the light emerging from the second polarizer varies with $\\theta$. [2]\n[Axes: transmitted intensity $I$ against angle $\\theta$/° with marks at 90 and 180]\n(b) Outline how two polarizers can be used to compare the concentrations of different sugar solutions. [3]",
+   "answer_status": "ok"
+  },
+  "A6": {
+   "topics": [
+    "D"
+   ],
+   "subtopics": [
+    "D.4"
+   ],
+   "text_clean": "A6. This question is about electromagnetic induction.\n(a) State Lenz's law. [1]\n(b) Two identical aluminium balls are dropped simultaneously from the same height. Ball P falls through a region with no magnetic field. Ball Q falls through a region of uniform horizontal magnetic flux density $B$.\n[Diagram: balls P and Q at height $h$ above the ground; below Q is a region of magnetic field $B$ directed into the page]\nExplain why ball Q takes longer than ball P to reach the ground. [4]",
+   "answer_status": "ok"
+  },
+  "B1": {
+   "topics": [
+    "A",
+    "X"
+   ],
+   "subtopics": [
+    "A.1",
+    "X.3",
+    "A.3"
+   ],
+   "note": "Part 1 wind power (15: X.3 with A.3 KE/Sankey), Part 2 projectiles (10).",
+   "text_clean": "B1. This question is in two parts. Part 1 is about wind power. Part 2 is about projectile motion.\nPart 1 Wind power\n(a) Outline in terms of energy changes how electrical energy is obtained from the energy of wind. [2]\n(b) Air of density $\\rho$ and speed $v$ passes normally through a wind turbine of blade length $r$ as shown below.\n[Diagram: wind turbine on a tower with wind incident on blades of length $r$]\n(i) Deduce that the kinetic energy per unit time of the air incident on the turbine is $\\frac{1}{2}\\pi\\rho r^2 v^3$. [3]\n(ii) State two reasons why it is impossible to convert all the available energy of the wind to electrical energy. [2]\n(c) Air is incident normally on a wind turbine and passes through the turbine blades without changing direction. The following data are available.\nDensity of air entering turbine = 1.1 kg m$^{-3}$\nDensity of air leaving turbine = 2.2 kg m$^{-3}$\nSpeed of air entering turbine = 9.8 m s$^{-1}$\nSpeed of air leaving turbine = 4.6 m s$^{-1}$\nBlade length = 25 m\nDetermine the power extracted from the air by the turbine. [3]\n(d) A different wind turbine has a mechanical input power of $3.0 \\times 10^5$ W and generates an electrical power output of $1.0 \\times 10^5$ W. On the grid below, construct and label a Sankey diagram for this wind turbine. [3]\n[Grid for Sankey diagram]\n(e) Outline one advantage and one disadvantage of using wind turbines to generate electrical energy, as compared to using fossil fuels. [2]\nAdvantage:\nDisadvantage:\nPart 2 Projectile motion\nA ball is projected horizontally at 5.0 m s$^{-1}$ from a vertical cliff of height 110 m. Assume that air resistance is negligible and use $g = 10$ m s$^{-2}$.\n[Diagram: ball leaving the top of a 110 m vertical cliff horizontally at 5.0 m s$^{-1}$ (not to scale)]\n(a) (i) State the magnitude of the horizontal component of acceleration of the ball after it leaves the cliff. [1]\n(ii) On the axes below, sketch graphs to show how the horizontal and vertical components of the velocity of the ball, $v_x$ and $v_y$, change with time $t$ until just before the ball hits the ground. It is not necessary to calculate any values. [2]\n[Two blank axes: horizontal component $v_x$ against $t$; vertical component $v_y$ against $t$]\n(b) (i) Calculate the time taken for the ball to reach the ground. [2]\n(ii) Calculate the horizontal distance travelled by the ball until just before it reaches the ground. [2]\n(c) Another projectile is launched at an angle to the ground. In the absence of air resistance it follows the parabolic path shown below.\n[Diagram: symmetric parabolic trajectory from launch point on the ground]\nOn the diagram above, sketch the path that the projectile would follow if air resistance were not negligible. [3]",
+   "answer_status": "ok"
+  },
+  "B2": {
+   "topics": [
+    "C",
+    "B"
+   ],
+   "subtopics": [
+    "C.1",
+    "B.4",
+    "C.3",
+    "B.3"
+   ],
+   "note": "Part 1 SHM + superposition (15), Part 2 thermodynamics pV cycle, first law, entropy (10).",
+   "text_clean": "B2. This question is in two parts. Part 1 is about simple harmonic motion and the superposition of waves. Part 2 is about thermodynamics.\nPart 1 Simple harmonic motion and the superposition of waves\nAn object of mass $m$ is placed on a frictionless surface and attached to a light horizontal spring. The other end of the spring is fixed.\n[Diagram: mass $m$ on a horizontal spring attached to a wall; positions A, B, C marked; direction B to C is positive]\nThe equilibrium position is at B. The direction B to C is taken to be positive. The object is released from position A and executes simple harmonic motion between positions A and C.\n(a) Define simple harmonic motion. [2]\n(b) (i) On the axes below, sketch a graph to show how the acceleration of the mass varies with displacement from the equilibrium position B. [2]\n[Axes: acceleration against displacement]\n(ii) On your graph, label the points that correspond to the positions A, B and C. [1]\n(c) (i) On the axes below, sketch a graph to show how the velocity of the mass varies with time from the moment of release from A until the mass returns to A for the first time. [2]\n[Axes: velocity against time]\n(ii) On your graph, label the points that correspond to the positions A, B and C. [1]\n(d) The period of oscillation is 0.20 s and the distance from A to B is 0.040 m. Determine the maximum speed of the mass. [3]\n(e) A long spring is stretched so that it has a length of 10.0 m. Both ends are made to oscillate with simple harmonic motion so that transverse waves of equal amplitude but different frequency are generated.\nWave X, travelling from left to right, has wavelength 2.0 m, and wave Y, travelling from right to left, has wavelength 4.0 m. Both waves move along the spring at speed 10.0 m s$^{-1}$.\nThe diagram below shows the waves at an instant in time.\n[Diagram: displacement against position/m from 0 to 10.0; wave X (wavelength 2.0 m) occupies 0 to 4.0 m moving right, wave Y (wavelength 4.0 m) occupies 6.0 to 10.0 m moving left]\n(i) State the principle of superposition as applied to waves. [2]\n(ii) By drawing on the diagram or otherwise, calculate the position at which the resultant wave will have maximum displacement 0.20 s later. [2]\nPart 2 Thermodynamics\nA fixed mass of an ideal gas undergoes the three thermodynamic processes, AB, BC and CA, represented in the P–V graph below.\n[Graph: $P$/×10$^5$ Pa against $V$/×10$^{-3}$ m$^3$; A (2.0, 9.0) to B (5.0, 9.0) horizontal, B to C (5.0, about 3.6) vertical, C back to A along a curve]\n(a) State which of the processes is isothermal, isochoric (isovolumetric) or isobaric. [3]\nProcess AB:\nProcess BC:\nProcess CA:\n(b) The temperature of the gas at A is 300 K. Calculate the temperature of the gas at B. [2]\n(c) The increase in internal energy of the gas during process AB is 4100 J. Determine the heat transferred to the gas from the surroundings during the process AB. [2]\n(d) The gas is compressed at constant temperature. Explain what changes, if any, occur to the entropy of\n(i) the gas. [1]\n(ii) the surroundings. [1]\n(iii) the universe. [1]",
+   "answer_status": "ok"
+  },
+  "B3": {
+   "topics": [
+    "A",
+    "X"
+   ],
+   "subtopics": [
+    "A.2",
+    "A.3",
+    "A.1",
+    "X.13"
+   ],
+   "note": "Part 1 collision: kinematics, KE loss, Newton III, impulse (15); Part 2 digital data storage incl. CD/DVD pit depth (10).",
+   "text_clean": "B3. This question is in two parts. Part 1 is about a collision. Part 2 is about digital data storage.\nPart 1 A collision\nTwo identical blocks of mass 0.17 kg and length 0.050 m are travelling towards each other along a straight line through their centres as shown below. Assume that the surface is frictionless.\n[Diagram: block A and block B, each 0.050 m long, centres 0.900 m apart, each moving towards the other at 0.18 m s$^{-1}$]\nThe initial distance between the centres of the blocks is 0.900 m and both blocks are moving at a speed of 0.18 m s$^{-1}$ relative to the surface.\n(a) Determine the time taken for the blocks to come into contact with each other. [3]\n(b) As a result of the collision, the blocks reverse their direction of motion and travel at the same speed as each other. During the collision, 20% of the kinetic energy of the blocks is given off as thermal energy to the surroundings.\n(i) State and explain whether the collision is elastic or inelastic. [2]\n(ii) Show that the final speed of the blocks relative to the surface is 0.16 m s$^{-1}$. [3]\n(c) (i) State Newton's third law of motion. [1]\n(ii) During the collision of the blocks, the magnitude of the force that block A exerts on block B is $F_{AB}$ and the magnitude of the force that block B exerts on block A is $F_{BA}$. On the diagram below, draw labelled arrows to represent the magnitude and direction of the forces $F_{AB}$ and $F_{BA}$. [3]\n[Diagram: block A and block B in contact on a surface]\n(iii) The duration of the collision between the blocks is 0.070 s. Determine the average force one block exerted on the other. [3]\nPart 2 Digital data storage\n(a) On the axes below, draw an example of an analogue signal and a digital signal. [2]\n[Two blank axes of voltage against time: analogue signal; digital signal]\n(b) The binary number 00101 contains five bits. Explain what is meant by the most-significant bit of a binary number. [2]\n(c) (i) Outline how digital information is stored on a CD. [2]\n(ii) Outline why a DVD can store more information than a CD even though they are the same physical size. [2]\n(iii) The laser of a DVD player has a wavelength in air of 630 nm. The coating of the DVD has a refractive index of 1.53. Calculate a suitable pit depth for this DVD. [2]",
+   "answer_status": "ok"
+  },
+  "B4": {
+   "topics": [
+    "E",
+    "D",
+    "B"
+   ],
+   "subtopics": [
+    "E.2",
+    "D.1",
+    "B.5",
+    "E.1"
+   ],
+   "note": "Part 1 gravitation (7), Part 2 filament lamp I-V (7), Part 3 de Broglie, spectra, electron in a box, uncertainty principle (11).",
+   "text_clean": "B4. This question is in three parts. Part 1 is about gravitational fields. Part 2 is about electric current and resistance. Part 3 is about atomic energy levels.\nPart 1 Gravitational fields\n(a) State Newton's universal law of gravitation. [3]\n(b) Deduce that the gravitational field strength $g$ at the surface of a spherical planet of uniform density is given by\n$g = \\frac{GM}{R^2}$\nwhere $M$ is the mass of the planet, $R$ is its radius and $G$ is the gravitational constant. You can assume that spherical objects of uniform density act as point masses. [2]\n(c) The gravitational field strength at the surface of Mars $g_M$ is related to the gravitational field strength at the surface of the Earth $g_E$ by\n$g_M = 0.38 \\times g_E$.\nThe radius of Mars $R_M$ is related to the radius of the Earth $R_E$ by\n$R_M = 0.53 \\times R_E$.\nDetermine the mass of Mars $M_M$ in terms of the mass of the Earth $M_E$. [2]\nPart 2 Electric current and resistance\nThe graph below shows how the current $I$ in a tungsten filament lamp varies with potential difference $V$ across the lamp.\n[Graph: $I$/A (0.00 to 0.60) against $V$/V (0.0 to 6.0); curve rising steeply from the origin then flattening, reaching about 0.52 A at 6.0 V]\n(a) (i) Define the electrical resistance of a component. [1]\n(ii) Explain whether or not the filament obeys Ohm's law. [2]\n(b) Calculate the resistance of the filament lamp when the potential difference across it is 2.8 V. [2]\n(c) Two identical filament lamps are connected in series with a cell of emf 6.0 V and negligible internal resistance. Using the graph opposite, calculate the total power dissipated in the circuit. [2]\nPart 3 Atomic energy levels\n(a) Describe the de Broglie hypothesis. [2]\n(b) Outline how atomic emission spectra provide evidence for the quantization of energy in atoms. [2]\n(c) Consider an electron confined in a one-dimensional \"box\" of length $L$. The de Broglie waves associated with the electron are standing waves with wavelengths given by $\\frac{2L}{n}$, where $n = 1, 2, 3, \\ldots$\nShow that the energy $E_n$ of the electron is given by\n$E_n = \\frac{n^2h^2}{8m_eL^2}$\nwhere $h$ is Planck's constant and $m_e$ is the mass of the electron. [3]\n(d) An electron is confined in a \"box\" of length $L = 1.0 \\times 10^{-10}$ m in the $n = 1$ energy level. Its position as measured from one end of the box is $(0.5 \\pm 0.5) \\times 10^{-10}$ m. Determine\n(i) the momentum of the electron. [2]\n(ii) the uncertainty in the momentum. [2]",
+   "answer_status": "ok"
+  }
+ }
+}

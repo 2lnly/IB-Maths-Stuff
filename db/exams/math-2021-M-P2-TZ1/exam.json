@@ -1,0 +1,300 @@
+{
+ "exam_id": "math-2021-M-P2-TZ1",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2021,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2021 May Examination Session/Mathematics_analysis_and_approaches_paper_2__TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2021 May Examination Session/Mathematics_analysis_and_approaches_paper_2__TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2221-7107; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2021-M-P2-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 7]\nThe following table shows the data collected from an experiment.\nx 3.3 6.9 11.9 13.4 17.8 19.6 21.8 25.3\ny 6.3 8.1 8.4 11.6 10.3 12.9 13.1 17.3\nThe data is also represented on the following scatter diagram.\ny\n25\n20\n15\n10\n5\nx\n0 5 10 15 20 25 30\nThe relationship between x and y can be modelled by the regression line of y on x with\nequation y=ax+b , where a ,b∈ϒ .\n(a) Write down the value of a and the value of b .\b [2]\n(b) Use this model to predict the value of y when x =18 .\b [2]\n(c) Write down the value of x and the value of y .\b [1]\n(d) Draw the line of best fit on the scatter diagram.\b [2]",
+   "ms_text": "1. (a) a = 0.433156...b = 4.50265... ,\na = 0.433 , b = 4.50 A1A1\n[2 marks]\n(b) attempt to substitute x = 18 into their equation (M1)\ny = 0.43318 ´ + 4.50\n= 12.2994...\n= 12.3 A1\n[2 marks]\n(c) x = 15 , y = 11 A1\n[1 mark]\n(d)\nA1A1\nNote: Award marks as follows:\nA1 for a straight line going through (15, 11)\nA1 for intercepting the y-axis between their b ±1.5 (when their line is\nextended), which includes all the data for 3.3≤x ≤25.3 .\nIf the candidate does not use a ruler, award A0A1 where appropriate.\n[2 marks]\nTotal[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 7]\nThe following table shows the data collected from an experiment.\n$x$: 3.3, 6.9, 11.9, 13.4, 17.8, 19.6, 21.8, 25.3\n$y$: 6.3, 8.1, 8.4, 11.6, 10.3, 12.9, 13.1, 17.3\nThe data is also represented on the following scatter diagram.\n[Diagram: scatter diagram of the eight data points on a grid, x from 0 to 30, y from 0 to 25]\nThe relationship between $x$ and $y$ can be modelled by the regression line of $y$ on $x$ with equation $y = ax + b$, where $a, b \\in \\mathbb{R}$.\n(a) Write down the value of $a$ and the value of $b$. [2]\n(b) Use this model to predict the value of $y$ when $x = 18$. [2]\n(c) Write down the value of $\\bar{x}$ and the value of $\\bar{y}$. [1]\n(d) Draw the line of best fit on the scatter diagram. [2]"
+  },
+  {
+   "id": "math-2021-M-P2-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nA company produces bags of sugar whose masses, in grams, can be modelled by a normal\ndistribution with mean 1000 and standard deviation 3.5. A bag of sugar is rejected for sale if\nits mass is less than 995 grams.\n(a) Find the probability that a bag selected at random is rejected. \b [2]\n(b) Estimate the number of bags which will be rejected from a random sample of 100 bags.\b [1]\n(c) Given that a bag is not rejected, find the probability that it has a mass greater than\n1005 grams.\b [3]",
+   "ms_text": "2.\nNote: In this question, do not penalise incorrect use of strict inequality signs.\nLet = mass of a bag of sugar X\n(a) evidence of identifying the correct area (M1)\nP(X< 995) = 0.0765637...\n= 0.0766 A1\n[2 marks]\n(b) 0.0766100 ´\n» 8 A1\n[1 mark]\nNote: Accept 7.66 .\n(c) recognition that P ( X > 1005| X ³ 995 ) is required (M1)\nP ( X ³ 995 Ç X > 1005 )\nP ( X ³ 995 )\nP( X > 1005)\n(A1)\nP( X ³ 995)\n0.07656… ⎛ ⎞\n1−0.07656…=0.07656…\n⎝⎜ 0.9234… ⎠⎟\nA1 = 0.0829\n[3 marks]\nTotal[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.11",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nA company produces bags of sugar whose masses, in grams, can be modelled by a normal distribution with mean $1000$ and standard deviation $3.5$. A bag of sugar is rejected for sale if its mass is less than $995$ grams.\n(a) Find the probability that a bag selected at random is rejected. [2]\n(b) Estimate the number of bags which will be rejected from a random sample of $100$ bags. [1]\n(c) Given that a bag is not rejected, find the probability that it has a mass greater than $1005$ grams. [3]"
+  },
+  {
+   "id": "math-2021-M-P2-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nA Ferris wheel with diameter 110 metres rotates at a constant speed. The lowest point on\nthe wheel is 10 metres above the ground, as shown on the following diagram. P is a point on\nthe wheel. The wheel starts moving with P at the lowest point and completes one revolution\nin 20 minutes.\ndiagram not to scale\n110m\nP\n10m\nThe height, h metres, of P above the ground after t minutes is given by h(t )=acos(bt )+c ,\nwhere a ,b ,c ∈ϒ .\nFind the values of a , b and c .",
+   "ms_text": "110\n3. Amplitude is 55 (A1)\n2=\na = - 55 A1\nc = 65 A1\n2 p=\nOR −55cos(20b) + 65 = 10 (M1) 20\nb\np\nb = ( = 0.314 ) A1\n10\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nA Ferris wheel with diameter $110$ metres rotates at a constant speed. The lowest point on the wheel is $10$ metres above the ground, as shown on the following diagram. P is a point on the wheel. The wheel starts moving with P at the lowest point and completes one revolution in $20$ minutes.\n[Diagram (not to scale): Ferris wheel of diameter 110 m on supports, lowest point 10 m above the ground, point P on the rim, arrow showing direction of rotation]\nThe height, $h$ metres, of P above the ground after $t$ minutes is given by $h(t) = a\\cos(bt) + c$, where $a, b, c \\in \\mathbb{R}$.\nFind the values of $a$, $b$ and $c$."
+  },
+  {
+   "id": "math-2021-M-P2-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nA particle moves in a straight line. The velocity, v ms-1, of the particle at time t seconds is\ngiven by v(t )=tsint-3 , for 0≤t≤10 .\nThe following diagram shows the graph of v .\nv\n6\n4\n2\nt\n0 2 4 6 8 10\n−2\n−4\n−6\n−8\n(a) Find the smallest value of t for which the particle is at rest.\b [2]\n(b) Find the total distance travelled by the particle.\b [2]\n(c) Find the acceleration of the particle when t =7 .\b [2]",
+   "ms_text": "(M1) 4. (a) recognising v = 0\nt = 6.74416...\n= 6.74 (sec) A1\nNote: Do not award A1 if additional values are given.\n[2 marks]\n10 6.74416... 9.08837...\n(b) ò vt () d t OR − ∫ v(t) dt + ∫ v(t) dt − 10∫ v(t) dt (A1)\n0 0 6.74416... 9.08837...\n= 37.0968...\n= 37.1 (m) A1\n[2 marks]\n(c) recognising acceleration at t = is given by (M1) 7 v '(7)\nacceleration = 5.93430...\n= 5.93 (ms-2) A1\n[2 marks]\nTotal[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nA particle moves in a straight line. The velocity, $v\\ \\mathrm{m\\,s^{-1}}$, of the particle at time $t$ seconds is given by $v(t) = t\\sin t - 3$, for $0 \\le t \\le 10$.\nThe following diagram shows the graph of $v$.\n[Graph: v against t for 0 ≤ t ≤ 10; starts at v = −3, local max near t = 2 (v ≈ −1), min near t = 5 (v ≈ −8), crosses zero near t = 6.7, max near t = 8 (v ≈ 5), crosses zero near t = 9.1 and falls steeply]\n(a) Find the smallest value of $t$ for which the particle is at rest. [2]\n(b) Find the total distance travelled by the particle. [2]\n(c) Find the acceleration of the particle when $t = 7$. [2]"
+  },
+  {
+   "id": "math-2021-M-P2-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nConsider the expansion of (3+x2)n+1, where n∈′+ .\nGiven that the coefficient of x4 is 20 412, find the value of n .",
+   "ms_text": "5. METHOD 1\n2 product of a binomial coefficient, a power of 3 (and a power of x ) seen (M1)\nevidence of correct term chosen (A1)\n2 ⎛ ⎞\nn+1C2 × 3n+1−2 ×x2 () =n(n +1) × 3n−1× x4 OR n −r = 1\n⎝⎜ ⎠⎟ 2\n4 equating their coefficient to 20412 or their term to 20412x (M1)\nEITHER\nn + 1 n - 1\nC 23 ´ = 20412 (A1)\nOR\nr + 2 r\nC ´ 3 = 20412 Þ r = 6 (A1)\nr\nTHEN\nn = 7 A1\nMETHOD 2\nn+1\n⎛ ⎞\n3n+11+x2\n⎝⎜ ⎠⎟ 3\n2 x 1\nproduct of a binomial coefficient and a power of OR seen (M1)\n3 3\nevidence of correct term chosen (A1)\n2 2\næ x ö æ n ( n + 1) ö\nn + 1 n + 1 n - 1 4 3 ´ C ´ = 3 x\n2 ç ÷ ç ÷\n3 2 è ø è ø\n4 equating their coefficient to 20412 or their term to 20412x (M1)\n3n−1×n(n +1) = 20412\n(A1)\n2\nn = A1 7\nTotal[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\nConsider the expansion of $(3 + x^2)^{n+1}$, where $n \\in \\mathbb{Z}^+$.\nGiven that the coefficient of $x^4$ is $20\\,412$, find the value of $n$."
+  },
+  {
+   "id": "math-2021-M-P2-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 5]\nConsider the planes Π1 and Π2 with the following equations.\nΠ1: 3x+2y+z=6\nΠ2: x-2y+z=4\n(a) Find a Cartesian equation of the plane Π3 which is perpendicular to Π1 and Π2 and\npasses through the origin (0,0,0).\b [3]\n(b) Find the coordinates of the point where Π1, Π2 and Π3 intersect.\b [2]",
+   "ms_text": "Π Π 6 (a) attempt to find a vector perpendicular to and\n1 2\nusing a cross product (M1)\næöæ 3 1 ö\nç÷ç ÷\n2 ´- 2 = ( 2 -- ( 2 ) ) i + ( 13 - ) j +-- ( 6 2 ) k\nç÷ç ÷\nç÷ç ÷\n1 1 èøè ø\næ 4 ö æ æ 2 ö ö\nç ÷ ç ÷ ç ÷\n=- 2 = 2 - 1 (A1)\nç ÷ ç ç ÷ ÷\nç ÷ ç ç ÷ ÷\nè - 8 ø è - 4 ø è ø\nequation is 4 x - 2 y - 8 z = 0 ( Þ 2 x - y - 4 z = 0 ) A1\n[3 marks]\n(b) attempt to solve 3 simultaneous equations in 3 variables (M1)\næ 41 1023 ö\n, - , ( = ( 1.95, 0.476,1 .10 - ) ) A1 ç ÷\nè 21 2121 ø\n[2 marks]\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.17",
+    "3.18",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 5]\nConsider the planes $\\Pi_1$ and $\\Pi_2$ with the following equations.\n$\\Pi_1: 3x + 2y + z = 6$\n$\\Pi_2: x - 2y + z = 4$\n(a) Find a Cartesian equation of the plane $\\Pi_3$ which is perpendicular to $\\Pi_1$ and $\\Pi_2$ and passes through the origin $(0, 0, 0)$. [3]\n(b) Find the coordinates of the point where $\\Pi_1$, $\\Pi_2$ and $\\Pi_3$ intersect. [2]"
+  },
+  {
+   "id": "math-2021-M-P2-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\nA continuous random variable X has the probability density function f given by\n� x\n0 � x � 4\n�� 3\n��� � 2 � fx � x � k\n�\n� 0 otherwise �\nwhere k∈ϒ+.\n(a) Show that 16 + k − k = k 16 + k .\b [5]\n(b) Find the value of k.\b [2]",
+   "ms_text": "x\n7. (a) recognition of the need to integrate (M1)\n3\n( 2 + ) x k\nx\n( = ) ò d x 1\n3\n( 2 + ) x k\nEITHER\nd u 2\n(or equivalent) (A1) u = x + k Þ = 2 x\nd x\n3\nx 1 -\n2 ò d x = ò u d u\n3 2\n( 2 ) x + k\n- 1 æ 1 ö 2 - A1\n= - u 2 ( + c ) = - ( x + k ) 2 ( + c ) ç ÷\nè ø\nOR\nx 1 2 x\nò d x = ò d x (A1)\n3 2 3\n( 2 ) ( 2 ) x + k x + k\n1 -\n2 = - ( x + k ) 2 ( + c ) A1\nTHEN\nattempt to use correct limits for their integrand and set equal to 1 M1\n+ 4 1 16 k 1\né - ù é - ù\n2 -\nu 2 = 1 OR - ( x + k ) 2 = 1 ê ú ê ú\në û ë û\nk 0\n1 1\n- æ 1 1 ö -\n- ( 16 + k ) 2 + k 2 = 1 Þ - = 1 A1 ç ÷\nè k 16 + k ø\n16 + k - k = k 16 + k AG\n[5 marks]\n16 + k - k = k 16 + k (b) attempt to solve (M1)\nk= 0.645038...\n= 0.645 A1\n[2 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "4"
+   ],
+   "subtopics": [
+    "5.16",
+    "4.14",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nA continuous random variable $X$ has the probability density function $f$ given by\n$f(x) = \\begin{cases} \\dfrac{x}{\\sqrt{(x^2+k)^3}} & 0 \\le x \\le 4 \\\\ 0 & \\text{otherwise} \\end{cases}$\nwhere $k \\in \\mathbb{R}^+$.\n(a) Show that $\\sqrt{16+k} - \\sqrt{k} = \\sqrt{k}\\sqrt{16+k}$. [5]\n(b) Find the value of $k$. [2]"
+  },
+  {
+   "id": "math-2021-M-P2-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nπ π π π 2 k 2 k\nz = 2cos + isin w = 8cos − isin Consider the complex numbers and ,\n5 5 5 5\nwhere k∈′+.\n(a) Find the modulus of zw.\b [1]\n(b) Find the argument of zw in terms of k.\b [2]\nSuppose that zw ∈′.\n(c) (i) \u0007Find the minimum value of k.\n(ii) For the value of k found in part (i), find the value of zw.\b [4]",
+   "ms_text": "( zw= )16 8. (a) A1\n[1 mark]\n() () (b) attempt to find arg z + arg w (M1)\narg ( zw ) = arg () z + arg () w\nkæ ( - ) ö π 2π 12 k π\nA1 = - ç = ÷\n5 5 5 è ø\n[2 marks]\n(c) (i) zw Î Z Þ arg ( zw ) is a multiple of π (M1)\nÞ- 12k is a multiple of 5 (M1)\nk = 3 A1\n(ii) zw = 16cos ( ( - π ) + isin ( - π ) )\n- 16 A1\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\nConsider the complex numbers $z = 2\\left(\\cos\\frac{\\pi}{5} + \\mathrm{i}\\sin\\frac{\\pi}{5}\\right)$ and $w = 8\\left(\\cos\\frac{2k\\pi}{5} - \\mathrm{i}\\sin\\frac{2k\\pi}{5}\\right)$, where $k \\in \\mathbb{Z}^+$.\n(a) Find the modulus of $zw$. [1]\n(b) Find the argument of $zw$ in terms of $k$. [2]\nSuppose that $zw \\in \\mathbb{Z}$.\n(c) (i) Find the minimum value of $k$.\n(ii) For the value of $k$ found in part (i), find the value of $zw$. [4]"
+  },
+  {
+   "id": "math-2021-M-P2-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 7]\nTwo boats A and B travel due north.\nInitially, boat B is positioned 50 metres due east of boat A.\nThe distances travelled by boat A and boat B, after t seconds, are x metres and y metres\nrespectively. The angle θ is the radian measure of the bearing of boat B from boat A.\nThis information is shown on the following diagram.\ndiagram not to scale\nN\nN\nboatB\nθ\nboatA\ny m\nx m\n50m\n(a) Show that y=x+50cotθ.\b [1]\nAt time T, the following conditions are true.\nBoat B has travelled 10 metres further than boat A.\nBoat B is travelling at double the speed of boat A.\nThe rate of change of the angle θ is -0.1 radians per second.\n(b) Find the speed of boat A at time T.\b [6]",
+   "ms_text": "50 y - x\n9. (a) OR A1 tan q= cot q =\ny - x 50\ny = x + 50cot q AG\nNote: 𝑦−𝑥 may be identified as a length on a diagram, and not written explicitly.\n[1 mark]\n(b) attempt to differentiate with respect to t (M1)\nq d y d x 2 d\n= - 50cosec ( q ) A1\nd t d t d t\nattempt to set speed of B equal to double the speed of A (M1)\nd x d x d q 2\n2 = - 50cosec ( q )\nd t d t d t\nd x 2 d q\n( ) A1 = - 50cosec q\nd t d t\n2\næ 1 ö 26\nq = arctan5 ( = 1.373 …= 78.69 …° ) OR 2 q = + 2 q =+ = (A1) cose c 1 co t 1\nçè ÷ø 5 2 5\nNote: This A1 can be awarded independently of previous marks.\nd x æ 26 ö\n= - 50 ´- 0.1 ç\n÷ø d t è 25\nSo the speed of boat A is 5.2 (ms-1) A1\nNote: Accept 5.20 from the use of inexact values.\n[6 marks]\nTotal [7 marks]\nSection B.",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.15",
+    "3.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 7]\nTwo boats A and B travel due north.\nInitially, boat B is positioned $50$ metres due east of boat A.\nThe distances travelled by boat A and boat B, after $t$ seconds, are $x$ metres and $y$ metres respectively. The angle $\\theta$ is the radian measure of the bearing of boat B from boat A.\nThis information is shown on the following diagram.\n[Diagram (not to scale): boats A and B start 50 m apart on an east-west line and travel north x m and y m; θ is the angle at boat A between north and the line AB]\n(a) Show that $y = x + 50\\cot\\theta$. [1]\nAt time $T$, the following conditions are true.\nBoat B has travelled $10$ metres further than boat A.\nBoat B is travelling at double the speed of boat A.\nThe rate of change of the angle $\\theta$ is $-0.1$ radians per second.\n(b) Find the speed of boat A at time $T$. [6]"
+  },
+  {
+   "id": "math-2021-M-P2-TZ1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 15]\nConsider the function f defined by f(x)=90e-0.5x for x∈ϒ+.\nThe graph of f and the line y=x intersect at point P.\n(a) Find the x-coordinate of P.\b [2]\nThe line L has a gradient of -1 and is a tangent to the graph of f at the point Q.\n(b) Find the exact coordinates of Q.\b [4]\n(c) Show that the equation of L is y=-x+2 ln 45+2 .\b [2]\nThe shaded region A is enclosed by the graph of f and the lines y=x and L.\ny\nf\nL\nP\nA\nQ\ny = x\nx\n(d) (i) \u0007Find the x-coordinate of the point where L intersects the line y=x.\nHence, find the area of A.\b (ii) [5]\nThe line L is tangent to the graphs of both f and the inverse function f-1.\ny\n1 f f−\nL\nx\n(e) Find the shaded area enclosed by the graphs of f and f-1 and the line L. [2]",
+   "ms_text": "10. (a) attempt to find the point of intersection of the graph of f and the line = (M1) y x\nx = 5.56619...\n= 5.57 A1\n[2 marks]\n- 0.5 x\nfx ¢ () = - 45e (b) A1\nattempt to set the gradient of f equal to - 1 (M1)\n- - 0.5 x = -\n45e 1\n1\nQ has coordinates ( 2ln45,2 ) (accept (2ln - ,2) A1A1\n45\nNote: Award A1 for each value, even if the answer is not given as a coordinate pair.\n1\nln\nln 45\nDo not accept 45 or as a final value for x . Do not accept 2.0 or 2.00\n- 0.5 0.5\nas a final value for y .\n[4 marks]\n(c) attempt to substitute coordinates of Q ( in any order)\ninto an appropriate equation (M1)\n-= - ( - ) = - + y 2 x 2ln45 OR 2 2ln 45 c A1\nequation of L is y = -+ x 2ln 45 + 2 AG\n[2 marks]\n(d) (i) x = ln451 + ( = 4.81 ) A1\n(ii) appropriate method to find the sum of two areas using integrals of the difference\nof two functions (M1)\nNote: Allow absent or incorrect limits.\n5.566... 7.613... -\n( x --+ ( x 2ln 45 + 2 ) ) d x + ( 90e 0.5 x --+ ( x 2ln 45 + 2 ) ) d x (A1)(A1) ò ò\n4.806... 5.566...\nNote: Award A1 for one correct integral expression including correct limits\nand integrand.\nAward A1 for a second correct integral expression including correct limits and\nintegrand.\n= 1.51965...\n= 1.52 A1\n[5 marks]\n21.52 ´ (e) by symmetry (M1)\n= 3.03930...\n= 3.04 A1\nNote: Accept any answer that rounds to 3.0 (but do not accept 3).\n[2 marks]\nTotal[15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.4",
+    "5.6",
+    "2.4",
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 15]\nConsider the function $f$ defined by $f(x) = 90\\mathrm{e}^{-0.5x}$ for $x \\in \\mathbb{R}^+$.\nThe graph of $f$ and the line $y = x$ intersect at point P.\n(a) Find the $x$-coordinate of P. [2]\nThe line $L$ has a gradient of $-1$ and is a tangent to the graph of $f$ at the point Q.\n(b) Find the exact coordinates of Q. [4]\n(c) Show that the equation of $L$ is $y = -x + 2\\ln 45 + 2$. [2]\nThe shaded region $A$ is enclosed by the graph of $f$ and the lines $y = x$ and $L$.\n[Diagram: graph of f, the line y = x meeting f at P, and line L tangent to f at Q; shaded region A bounded by f, y = x and L]\n(d) (i) Find the $x$-coordinate of the point where $L$ intersects the line $y = x$.\n(ii) Hence, find the area of $A$. [5]\nThe line $L$ is tangent to the graphs of both $f$ and the inverse function $f^{-1}$.\n[Diagram: graphs of f and f^{-1} with line L tangent to both; shaded region enclosed by f, f^{-1} and L]\n(e) Find the shaded area enclosed by the graphs of $f$ and $f^{-1}$ and the line $L$. [2]"
+  },
+  {
+   "id": "math-2021-M-P2-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\n3 x + 2\nThe function f is defined by f(x)= , for x∈ϒ ,x≠p ,x≠q.\n2 − 4 x 1\n(a) Find the value of p and the value of q. [2]\n(b) Find an expression for f ′(x). [3]\nThe graph of y=f(x) has exactly one point of inflexion.\nFind the x-coordinate of the point of inflexion. (c) [2]\n(d) Sketch the graph of y=f(x) for -3≤x≤3 , showing the values of any axes intercepts,\nthe coordinates of any local maxima and local minima, and giving the equations of\nany asymptotes. [5]\n2 4 x − 1 2\nThe function g is defined by g(x)= , for x∈ϒ , x ≠− .\n3 x + 2 3\n(e) Find the equations of all the asymptotes on the graph of y=g(x). [4]\n(f) By considering the graph of y=g(x)-f(x), or otherwise, solve f (x)<g(x) for x∈ϒ.\b [4]",
+   "ms_text": "2 2 11. (a) attempt to solve 4 x-= 1 0 e.g. by factorising 4 x- 1 (M1)\n1 1\np = , q = - or vice versa A1\n2 2\n[2 marks]\n(b) attempt to use quotient rule or product rule (M1)\nEITHER\næ ö ( 2\n- ) - ( + ) 2 34 x 1 8 x 3 x 2 - 12 x - 16 x - 3\nç ÷\nf ' () x = = A1A1\n2 2 ç 2 2 ÷ ( 4 x - 1 ) ( 4 x - 1 )\nè ø\nNote: AwardA1 for each term in the numerator with correct signs, provided correct\ndenominator is seen.\nOR\n- 2 - 1\n() ( )( 2 ) ( 2 ) f ' x = - 8 x 3 x + 2 4 x - 1 + 34 x - 1 A1A1\nNote: AwardA1 for each term.\n[3 marks]\n¢ () ¢¢ () (c) attempt to find the local min point on y = f x OR solve f x = 0 (M1)\nx = - 1.60 A1\n[2 marks]\n(d)\nA1A1A1A1A1\nNote: Award A1 for both vertical asymptotes with their equations, award A1 for\nhorizontal asymptote with equation, award A1 for each correct branch including\nasymptotic behaviour, coordinates of minimum and maximum points (may be\nseen next to the graph) and values of axes intercepts.\nIf vertical asymptotes are absent (or not vertical) and the branches overlap as a\nconsequence, award maximum A0A1A0A1A1.\n[5 marks]\n2\n( ) e) x = - = - 0.667 A1\n3\n4\n(oblique asymptote has) gradient ( ) (A1) 1.33\n3=\nappropriate method to find complete equation of oblique asymptote M1\n4 8\nx -\n3 9\n2 3 x + 24 x + 0 x - 1\n8 2\n4 x + x\n3\n8\n- x - 1\n3\n8 16\n- x -\n3 9\n7\n9\n4 8\n= - ( = - ) A1 y x 1.33 x 0.889\n3 9\nNote: Do not award the final A1 if the answer is not given as an equation.\n[4 marks]\n( ) f) attempting to find at least one critical value x = - 0.568729..., x = 1.31872... (M1)\n2\n- < < - OR - 0.5 < x < 0.5 OR x > 1.32 A1A1A1 x 0.569\n3\nNote: Only penalize once for use of £ rather than < .\n[4 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.15",
+    "2.3",
+    "5.6",
+    "5.7",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 20]\nThe function $f$ is defined by $f(x) = \\dfrac{3x+2}{4x^2-1}$, for $x \\in \\mathbb{R}$, $x \\ne p$, $x \\ne q$.\n(a) Find the value of $p$ and the value of $q$. [2]\n(b) Find an expression for $f'(x)$. [3]\nThe graph of $y = f(x)$ has exactly one point of inflexion.\n(c) Find the $x$-coordinate of the point of inflexion. [2]\n(d) Sketch the graph of $y = f(x)$ for $-3 \\le x \\le 3$, showing the values of any axes intercepts, the coordinates of any local maxima and local minima, and giving the equations of any asymptotes. [5]\nThe function $g$ is defined by $g(x) = \\dfrac{4x^2-1}{3x+2}$, for $x \\in \\mathbb{R}$, $x \\ne -\\frac{2}{3}$.\n(e) Find the equations of all the asymptotes on the graph of $y = g(x)$. [4]\n(f) By considering the graph of $y = g(x) - f(x)$, or otherwise, solve $f(x) < g(x)$ for $x \\in \\mathbb{R}$. [4]"
+  },
+  {
+   "id": "math-2021-M-P2-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 20]\n1\nThe function f has a derivative given by f ���� x ,x∈ϒ ,x≠0 ,x≠k where k is\nxk � � x �\na positive constant.\nb The expression for f ′(x) can be written in the form a\n(a) + , where a ,b∈ϒ.\nx k − x Find a and b in terms of k.\b\n[3]\nHence, find an expression for f (x).\b (b) [3]\nConsider P , the population of a colony of ants, which has an initial value of 1200.\nP Pk � � P � The rate of change of the population can be modelled by the differential equation d\n� ,\nd t 5 k\nwhere t is the time measured in days, t≥0 , and k is the upper bound for the population.\n1200 k\n(c) By solving the differential equation, show that P � .\b [8]\nt\n�\n� k � 1200 � e 5 � 1200\nAt t =10 the population of the colony has doubled in size from its initial value.\n(d) Find the value of k , giving your answer correct to four significant figures.\b [3]\n(e) Find the value of t when the rate of change of the population is at its maximum.\b [3]\n\b",
+   "ms_text": "1 a b\n12. (a) º +\n( - ) - xk x x k x\n( - ) + = ak x bx 1 (A1)\n= x = attempt to compare coefficients OR substitute x k and 0 and solve (M1)\n1 1\na = and b = A1\nk k\n1 1\nf ' () x = +\nkx kk ( - x )\n[3 marks]\na b\n(b) attempt to integrate their + (M1)\nx k - x\n1 æ 1 1 ö\nfx () = + d x ò ç ÷\nk è x k - x ø\n1 æ 1 x ö\n( )( = ln x - ln k - x + c ) = ln ( + c ) A1A1\nç ÷\nk k k - x è ø\n[3 marks]\nNote: Award A1 for each correct term. Award A1A0 for a correct answer without modulus\nsigns.Condone the absence of +c.\n(c) attempt to separate variables and integrate both sides M1\n1\n5 k d=1d P t ò ò\n( - ) Pk P\n( ( ) ) 5ln P - ln k - P =+ t c A1\nNote: There are variations on this which should be accepted, such as\n1 1\n( - ( - ) ) = + ln P ln k P t c . Subsequent marks for these variations should be awarded as\nk 5 k\nappropriate.\nEITHER\nattempt to substitute t = 0 , P = 1200 into an equation involving c M1\næ ö æ 1200 ö\n= ( - ( - ) ) = c 5ln1200 ln k 1200 ç 5ln ç ÷ ÷ A1\nè k - 1200 ø è ø\n5ln ( P - ln ( k - P ) ) =+ t 5ln1200ln ( - ( k - 1200 ) ) A1\næ Pk ( - 1200 ) ö t\n= ç ÷\nln1200 ç ( ) ÷\nk - P 5 è ø\nt Pk ( - 1200 )\n= e 5 A1\n( - ) 1200 k P\nOR\næ P t + c ö =\nln ç ÷\nè k - P ø 5\nt\nP\nA e 5 A1 P=\nk -\nattempt to substitute t = 0 , P = 1200 M1\n1200\n= A1 A\nk - 1200\nt\n5 P 1200e\n= A1\nk - P k - 1200\nTHEN\nattempt to rearrange and isolate P M1\nt t t t - -\n5 5 5 5 Pk - 1200 P = 1200e k - 1200e P OR Pk e - 1200e P = 1200 k - 1200 P\nk k - 1200\nOR -= 1\nt\nP\n5 1200e\næ t ö t æ t t ö - -\nPk - 12001200e + 5 = 1200e k 5 OR Pk e 5 - 120 0e 5 + 120 0 = 12 00 k A1 ç ÷ ç ÷\nè ø è ø\n1200 k\n= AG P\nt -\n5 ( k - 1200e ) + 1200\n[8 marks]\n(d) attempt to substitute t = 10 , P = 2400 (M1)\n1200 k\n= (A1) 2400\n2 ( k - 1200e ) -+ 1200\nk = 2845.34...\nk = 2845 A1\nNote: Award (M1)(A1)A0 for any other value of k which rounds to 2850\n[3 marks]\n(e) attempt to find the maximum of the first derivative graph OR zero\nk\nof the second derivative graph OR that P = ( = 1422.67... ) (M1)\n2\nt = 1.57814...\n= 1.58 (days) A2\nNote: Accept any value which rounds to 1.6.\n[3 marks]\nTotal[20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15",
+    "1.11",
+    "5.8",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 20]\nThe function $f$ has a derivative given by $f'(x) = \\dfrac{1}{x(k-x)}$, $x \\in \\mathbb{R}$, $x \\ne 0$, $x \\ne k$ where $k$ is a positive constant.\n(a) The expression for $f'(x)$ can be written in the form $\\dfrac{a}{x} + \\dfrac{b}{k-x}$, where $a, b \\in \\mathbb{R}$. Find $a$ and $b$ in terms of $k$. [3]\n(b) Hence, find an expression for $f(x)$. [3]\nConsider $P$, the population of a colony of ants, which has an initial value of $1200$.\nThe rate of change of the population can be modelled by the differential equation $\\dfrac{\\mathrm{d}P}{\\mathrm{d}t} = \\dfrac{P(k-P)}{5k}$, where $t$ is the time measured in days, $t \\ge 0$, and $k$ is the upper bound for the population.\n(c) By solving the differential equation, show that $P = \\dfrac{1200k}{(k-1200)\\mathrm{e}^{-\\frac{t}{5}} + 1200}$. [8]\nAt $t = 10$ the population of the colony has doubled in size from its initial value.\n(d) Find the value of $k$, giving your answer correct to four significant figures. [3]\n(e) Find the value of $t$ when the rate of change of the population is at its maximum. [3]"
+  }
+ ],
+ "status": "done"
+}

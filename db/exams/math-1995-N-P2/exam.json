@@ -1,0 +1,248 @@
+{
+ "exam_id": "math-1995-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 1995,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/1995 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/1995 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "identity from filename only (no readable cover); session from path only; question paper is a scan (no text layer); markscheme is a scan (no text layer); question paper OCR'd (scan); markscheme OCR'd (scan); markscheme: q1 heading not found, crop guessed; marks sum matches paper total 120",
+ "qp_pages": 13,
+ "questions": [
+  {
+   "id": "math-1995-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 18]\n(i) For a function y, :lixy represents the nth derivative of y with respect to x\nIf y=e*sin x, show that -ax—4=_4y\n8\n(b) Hence, find the expression for -:7}; in terms of y, and conjecture a\n4n\nformula for ':x—4':\"-, ne N*.\nUse mathematical induction to prove your conjecture. [10 marks]\n(i) ‘A rectangular fish tank, of width w, length / and height A as shown, is full\nof water and is tipped along its length by an angle 6 to the horizontal.\nw\nw?ltan 6\nIf tan6 < —’i, show that the volume of water spilled is\nw\n(b) Find an expression for the volume spilled when tané > L3 . [8 marks]\nw",
+   "ms_text": "y =e\"sin x MARKS\n3% =€ (smx + COs\n32\nd—%=c(smx+cosx +cos x—sinx) = 2¢e\" cos x Ci\nCT% =2¢\" ( cos x —sin x)\ng—% 2¢e* (cosx —sinx —sinXx-—cos x) = -4exsinx=—-4y Ci\n{b) Hence\ndy _df rddy \\ _ 4t L AP\ndx8 dx4 ( dx4 ) W = dad = Ay =16y C\nand the conjecture P(n) is that\ndény n\nC2 dx4“ = (-4) y -\n(c) The statement P(n) : a——‘% (—4)\"y is true for n = 1 from above. C1\n4k\nAssume P(k) is true, k e N, i e g;‘% = (—4)ky. Then\nd4(k+l)}{ d4 d4k]: d4 k kd4\ndxdk+1) T gxd (dXAk) =ga yl= (4 _}L = (-4y)\nd4k+1) k+1\nand so d_zx\"'(k*') = (-4) y\nHence P(k) = P(k+1) and so by induction P(n) is true foralln ¢ N. R4\n(ii) The tank has dimensions L (length), w (widzth) and h (height)\n(a) (o)\nw\nw\nwtan 6 5\nh 0\n0\nhcot 8\nh\n(a) Iftan © <% the volume of water spilled is L X Area upper triangle\n2L 6\n=LX 3 w.wuang =——3\" R3 (AG)\n(b) Iftan 0 >% the volume of water spilled is L X Area trapezium\n—LX {wh- > h.hcot®} (2w —hcot8}. | R3,C2",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.1",
+    "1.15",
+    "5.6",
+    "5.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "1. [Maximum mark: 18]\n(i) For a function $y$, $\\frac{d^n y}{dx^n}$ represents the $n$th derivative of $y$ with respect to $x$.\n(a) If $y = e^x \\sin x$, show that $\\frac{d^4 y}{dx^4} = -4y$.\n(b) Hence, find the expression for $\\frac{d^8 y}{dx^8}$ in terms of $y$, and conjecture a formula for $\\frac{d^{4n} y}{dx^{4n}}$, $n \\in \\mathbb{N}^*$.\n(c) Use mathematical induction to prove your conjecture. [10 marks]\n(ii) A rectangular fish tank, of width $w$, length $l$ and height $h$ as shown, is full of water and is tipped along its length by an angle $\\theta$ to the horizontal.\n[Diagram: cuboid tank with length l, height h, width w; second view shows the end face tipped by angle θ to the horizontal, with sides w and h and a dashed water line]\n(a) If $\\tan\\theta < \\frac{h}{w}$, show that the volume of water spilled is $\\frac{w^2 l \\tan\\theta}{2}$.\n(b) Find an expression for the volume spilled when $\\tan\\theta > \\frac{h}{w}$. [8 marks]",
+   "review_note": "Markscheme on ms page 1 only (heading OCR missed; fixed via ms override). Final line of (ii)(b) (= hL/2 (2w - h cot θ), R3,C2) is cut at the bottom of the source scan/page body band. | fixed by segmenter update"
+  },
+  {
+   "id": "math-1995-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 20]\nConsider the two lines LandL,.\nX -1_y-3 z-1\n3-x _2y-3_ z+1\nL,\n4 3 2\n(2) Write the vector equation of each line in the form r = r,+ Au.\n(b) Show that the two lines do not intersect, and state whether or not they\nare parallel.\nFind, in the form ax+by+cz=d, the equation of a plane that is\nperpendicular to L, and intersects L,\n(d) Find a vector that is perpendicular to both' lines.\nHence or otherwise, find the qlistance between L'l and L2 [12 marks]\n(i) An aeroplane is flying in a stranght line at an altitude of 5000 m. It passes\nover a point on the ground that is 6000 m due south of a radio beacon at\nground level, and then over a point that is 8000 m due east of the beacon.\nBy taking a coordinate system whose origin is at the beacon, derive a vector\nin the direction of the flight path.\nHence, or otherwise, calculate how close the aeroplane gets to the beacon. [8 marks]",
+   "ms_text": "-3 z-1 3 - 2y~ 3\net VIV\n(a) Li: x=1+2A Ly: x=3-4u\n3.3\ny= y= i + i L\nz=1+2A z=-1+2y\nand so\nN 1 2 - 3 -4\nr,:( 3]+x( 3) r2=(3/2)+u( 3/2) cL.cl\n1 2 -1 2\n(b) For !/} and L7 to intersect we must have\n2A+4pu=2: 3A - %u= —%; 2A - 2pu= -2,\nAdding the first and the third equations gives A = % and hence u = —% which do\nnot satisfy the second equation. Hence the lines do not intersect. M1, R1(AG)\nThe lines are not parallel as the dirction vectors are not in the same direction. C1\n(c) A plane that is perpendicular to Lz has the equation\n—4x + % y +2z=d\nand d can be chosen so that the plane contains (1, 3, 1). For example d = % and the\nplane is then\nM1, Al 8 -3y ~42+5=0\n2 -4 1 ? g 3 1\n3)x(3/2}= s oo [F12]) =3¢ M1, Al\n2 2 15 ) 5\n32 2\n(e) The distanceis 1(r; — rz ). where isa unitvector inthe\ndirection (1, - 4.5). Hence 5\n1\nL 32| (-4 |=2=3%2. M2, Al\nV12 + 42 452 2 5 V42\n(it) Taking a coordinate system with origin at the beacon then the vector\nrepresenting the path of the aeroplane is shown in the diagram below.\nA vector in the direction of the flight path is\nV= 0-6)i+@B8-0)j+(5-5k=-6i+38j R1, Cl1\nIPX VI\n‘The distance from the origin to the line is— where P is any point\n.on the line. Taking P as 6i + 5k then\ni j k\nPX V=1 6 0 5 = -40i - 30§ + 48k M1, Al\n-6 8 0\n“and s0 IPX Vi= V402 + 302 + 482 = V4804 C2\nSince | VI=+v36 +64 =10 then MARKS\nVI 4804\nVT =—1— = 693L\nHence the closest the plane comes to the beacon is 693 1 metres. M1, Al\nZ\n0.0.0)\n6.0, 5) /\\ ©.8.5)\ny\nX",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.15",
+    "3.16",
+    "3.17",
+    "3.13",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "2. [Maximum mark: 20]\n(i) Consider the two lines $L_1$ and $L_2$.\n$L_1: \\frac{x-1}{2} = \\frac{y-3}{3} = \\frac{z-1}{2}$\n$L_2: \\frac{3-x}{4} = \\frac{2y-3}{3} = \\frac{z+1}{2}$\n(a) Write the vector equation of each line in the form $\\vec{r} = \\vec{r_0} + \\lambda\\vec{u}$.\n(b) Show that the two lines do not intersect, and state whether or not they are parallel.\n(c) Find, in the form $ax + by + cz = d$, the equation of a plane that is perpendicular to $L_2$ and intersects $L_1$.\n(d) Find a vector that is perpendicular to both lines.\n(e) Hence or otherwise, find the distance between $L_1$ and $L_2$. [12 marks]\n(ii) An aeroplane is flying in a straight line at an altitude of 5000 m. It passes over a point on the ground that is 6000 m due south of a radio beacon at ground level, and then over a point that is 8000 m due east of the beacon.\nBy taking a coordinate system whose origin is at the beacon, derive a vector in the direction of the flight path.\nHence, or otherwise, calculate how close the aeroplane gets to the beacon. [8 marks]"
+  },
+  {
+   "id": "math-1995-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 18]\nA continuous probability distribution is defined as follows:\n(l)’ x<0,\np(x) = — O0sx<k,\n1+\n0, x>k.\nFind k, the mean u, and the standard deviation & of p(x) [8 marks]\n(i) Two versions of an electric heater are made, one with four heating\ncomponents and one with two heating components. There is a probability\ng that any component will fail when a heater is switched on, independent of\nthe other components. Heaters will not operate if more than half of their\ncomponents fail.\n(a) Deduce that the probability that the two component heater will\noperate is 1 - ¢* and derive an expression for the probability that the\nfour component heater will operate.\n“(b) What values of g makes the heaters equally reliable?\nWhat values of ¢ will make the two component heater more reliable\nthan the four component heater? [10 marks]",
+   "ms_text": "3.() 0, x<0,\n1\n0sxsk p(x) =\n0, x>k\nTo be a probability density function,\noo k\nR1, Cl\njp(x)dx=(j & -1 >actnk=l=k=tunl=\no 1+x\nThen,\ntzmlx . . @nl\nu=J1+x2k- 5 log, (1+x)0 - 0.616 M1, Al\nand\ntanl\n2 2 —p2 e 0.17841\nc ——Ofl+x2 -11—(7c-arctan'x)0 - =0\nThus o = 0.422. M2, A2\n(ii) (a) The two component heater will operate if one or both of its components MARKS\nwork when the heater is switched on. Thus\nP ( two component heater works )\n=(1-q)+2q(l -q)\n=1-q2=(1-q) (1 +q). R1 (AG)\nThe four component heater will operate if two, three or four of its components\nwork when the heater is switched on. Thus\nP ( four component heater works )\n=(1-q)* +4q(1 -q)3 + 692 (1\n=(1-q?{1-2q+q?+4q-4q? + 6q2)\n=(1-q)2(1+2q +3q?}\n=1-4q3 +3¢* R1, C1\n(b) The heaters are equally likely to operate when\n1-q2 = 1-4q¢3 +3¢*\nor when\n1-g> - 1-493 +3¢* =0,\nie\n(3q2-4q+ =0. R2,C1\nBut the heaters are equally likely to operate if q = 1 and so (1 —q) must be a\nfactor of the above polynomial and so it can be written as\n(@-1)(q- 1)q2=0.\nThus-the heaters are equally likely to work if =0, % orl. C2\n(c) For% <q<l. 1-g2>1-4g3 +3q* and so the two component heater\nis more reliable. For the remaining values, 0 < q <% , the four component heater\nis more reliable. R1,C1",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.8",
+    "2.12",
+    "2.15",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "3. [Maximum mark: 18]\n(i) A continuous probability distribution is defined as follows:\n$p(x) = \\begin{cases} 0, & x < 0, \\\\ \\frac{1}{1+x^2}, & 0 \\le x \\le k, \\\\ 0, & x > k. \\end{cases}$\nFind $k$, the mean $\\mu$, and the standard deviation $\\sigma$ of $p(x)$. [8 marks]\n(ii) Two versions of an electric heater are made, one with four heating components and one with two heating components. There is a probability $q$ that any component will fail when a heater is switched on, independent of the other components. Heaters will not operate if more than half of their components fail.\n(a) Deduce that the probability that the two component heater will operate is $1 - q^2$ and derive an expression for the probability that the four component heater will operate.\n(b) What values of $q$ makes the heaters equally reliable?\n(c) What values of $q$ will make the two component heater more reliable than the four component heater? [10 marks]"
+  },
+  {
+   "id": "math-1995-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 24,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 24]\nSketch the region enclosed between the curves of y= «/; y=6-x\nand y=c,wherel <c<2.\n~(b) Find, in terms of ¢, the area of this region.\n(c) Verify that your answer to (b) is correct by considering the case when\nc=2.\n[12 marks]\n(i) A manufacturer of cans for soft drinks is asked to supply cans which hold\n500 cm? (one half of a litre) of the drink. The cans, when full, are closed\ncylinders made from very thin sheet metal. For economic reasons the\ndimensions of the can are such that the amount of sheet metal used to\nmake each can is a ‘minimum.\n(a) Denoting the radius and the height of a can by rcm and hem\nrespectively, write down an expression for A, the area of sheet metal\n‘required to make one can.\n(b) Express 4 in terms of r only and deduce that your expression has no\nmaximum value.\n10\n(c) Show that the radius of the required can is mcm, and find the\nheight of the can.\n[12 marks]",
+   "ms_text": "4 (i) (a). The curvesof y =vx,andy= 6— x intersect when\nVx = 6-x =x =dorx = 9.\nThe curves of ¥ =X, and y = ¢ intersect when x = ¢2 and the curves of\ny=6-x andy=cintersectatx = 6 - c. Hence the region is\nc C3, one mark\nfor each\nboundary\n(b) The required :trea is then\n4\nL{v.‘r —¢}dx + % 2-c)(6-c—4)\no\n4\n(V8\nFYINIS] CX (ST [3S] 0 [}S]\nc2\n(8- cH-c@-c2)+ 5 Q2-c)?\nVI w“j TSI\nLE,.2\nM3, A3 273\nWhen ¢ = 2 the line y = ¢ goes through the point of intersection of the other\ntwo curves and so the area is zero. Setting ¢ = 2 in the above expression gives\n22 4 3 44 - 72+ 12+ 16 __72—72_O R3\nT—6X2+§+§= 3\n(ii)(a) The arca of sheet metal required for one can is equal to the surface area of\nthe can and the surface area is\nA = area of ends of can plus area of rectangle used to form cylinder\n2ar2 + 2nrh. Cl1\n(b) Now the volume of the can is equal to area of base times the height and this is\n500cm3. Thus\nm2h=500 = h= 300\nnr2\nand substituting for h into A = 27r (r + h) gives\nA= 21tr{r+ 52%}=2m2+ 1000, M2, A2\nNow r must be is positive and S is a continuous function of r. It is seen that as\nr—=0,A 5o, andasr—o o0, A — o,\nHence A has no maximum value, any stationary point of A will be a minimum. R1\n(c) Differentiate A with respecttorto give\n1000\nand setting this to zero gives\n4rrd = 1000 = r= 10 M2, Al\n3\n\\j47c\nRl This is the only stationary point and so it must be a minimum™*.\n2/3\n3(4)\nThen, sinceh:—S-O—O.it follows that h=LOQ— (41[)2/3 =13 = 20\n2 100w 00 3\n\\]471:\nAlternatively,\ndr?\n2000 X 4=\nand when r= L\nthis has the value 4x 1000 12w\n3\n4n\nand since this is positive, the point is a minimum.",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.8",
+    "2.4",
+    "3.1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "4. [Maximum mark: 24]\n(i) (a) Sketch the region enclosed between the curves of $y = \\sqrt{x}$, $y = 6 - x$ and $y = c$, where $1 \\le c \\le 2$.\n(b) Find, in terms of $c$, the area of this region.\n(c) Verify that your answer to (b) is correct by considering the case when $c = 2$. [12 marks]\n(ii) A manufacturer of cans for soft drinks is asked to supply cans which hold 500 cm$^3$ (one half of a litre) of the drink. The cans, when full, are closed cylinders made from very thin sheet metal. For economic reasons the dimensions of the can are such that the amount of sheet metal used to make each can is a minimum.\n(a) Denoting the radius and the height of a can by $r$ cm and $h$ cm respectively, write down an expression for $A$, the area of sheet metal required to make one can.\n(b) Express $A$ in terms of $r$ only and deduce that your expression has no maximum value.\n(c) Show that the radius of the required can is $\\frac{10}{\\sqrt[3]{4\\pi}}$ cm, and find the height of the can. [12 marks]",
+   "review_note": "ms crop fixed to start at the q4 heading on ms page 4; one closing sentence (\"and since this is positive, the point is a minimum\", no marks) at the very bottom of ms page 5 is excluded by the segmenter's scan body band."
+  },
+  {
+   "id": "math-1995-N-P2-q5",
+   "num": "5",
+   "section": "B",
+   "marks": 40,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [ Maximum mark: 40]\nLet M be the set of 2 X 2 matrices {I, 4, B, C, D, E} where 1 is the 1dent1ty\nmatrix and the other matrices are:\nGiven that matrix multiplication is associative show, by presenting the\noperation table, that M is a group under matrix multiplication. (Use the\nletters I, 4, B, C, D-and E for the elements of the table)\nShow by example that the group is not abelian. ’ [12 marks]\n(b) Let S, be the set of all permutations of the elements of the set {1, 2, 3}\nTwo of the elements of S, are thus:\n(12 3). (123\nP=ly23) PTlasg)\nWnte down the remammg elements, denoting the elements by\np,i=3,4.\nGiven that S; is a group under the operation of composition, write down\nthe group table. (Again, use letters p, for the elements.) [8 marks]\nExplain what is meant by saying that two groups are isomorphic.\nShow, by finding an isomorphism, that the groups in (a) and (b) are\nisomorphic. [6 marks]\n.\nQuestion 5 continues on the next page]\nLet S, be the set of all permutations of the set {1, 2, 3, ..., n} where\nn=3.\nBy considering the two elements of S,\n123... 123...\n132... 321...\nin which each number after 3 is unchanged, deduce that S, under the\noperation of composition is not abelian.\nHence verify that the group in (a) is not abelian. [6 marks]\n(e) Using either of the group tables in (a) and (b), find an example to suggest\nan expression for the inverse of (x * y) in terms. of the inverse of x and y,\nwhere x and y-are group elements and * denotes the relevant operation.\nProve that your result is true for any group. [8 marks]",
+   "ms_text": "MARKS 5.(a) Given M be the set of 2 X 2 matrices {I, A, B.C, D E} where lis the\nidentity matrix and the others are\na=(V0)8=( 1) c=(on)o=( 70\nthen by matrix multiplication the operation table is\nA B C D E\n1 A B C D E\nA A | C B E D\nB B E D A I Cc\nC C D E I A B C4, less 1 per\nD D C I E B A €ITOr.\nE E B A D C I\nTo be a group under matrix multiplication the operation has to be associative,\nC3 given, there has to be an identity element and each element must have an inverse.\nClearly I is the identity element and from the operation table the elements [, A, D,\nR2 C, B and E are the inverses of I, A, B, C, D and E respectively.\nFrom the table it is clear that AB = C but BA = E and as C = E the group is not\nR3 abelian.\n(b)There are six (3!) permutations of the numbers 1,2 and 3 and so0 S3 has six\nclements. These are the given ones\n123 123\nP1=[123 P2=[231]\nand the others are\n123] m=[133] ws=[331] ms=[ C4\nThe group table is p1 P2 P3 pa ps\nP1 P1 P2 P3 pa ps5 Pé\np2 | P2 P3 P1 ps pé P4\nP3 P3 22 P2 p6 pa Ps\nC4 less 1 per p4 P4 P5 p1 p3 | 273\nerror P5 P5 P4 P6 223 P1 P3\npé P6 %] p4 p3 p2 P1\n(c) Two groups G| and G are isomorphic if there is a one to one correspondence\nGy — Gz. satisfying f(a+ b) = f(a) ® f(b) foralla, b € Gy where = and\nare the operations associated with G} and Gz respectively.\nFrom the two group tables above an isomorphism between the group in (a) and the\ngroup in (b) is\nc3 pir=[L p2o—=B, p3—>D ps—A, ps—E ps — C.\n(Markers : See note at end of solution on next page )\n(d) Denoting the operation of composition by v and considering the two clements MARKS\n123 ... _ 123\ns= [132 i]ewn= [337\nin which each number after 3 is unchanged, we obutain\n123\nS1°82= 231 ] Cl1\nwith all other elemnts unchanged but\n123\nC1 52751 = 312\nHence sy # sacs) and so the group is not Abelian. R2\nIn particular S3 is not abelian and as S3 is isomorphic to the set M in (a) under\nmultiplication, that group is not abelian either. R2\n(e) From the group table in (a) it is seen that\nAE=DandD ' = B =EA = E-l A-l.\nThis suggests that if x and y are elements of a group G then\neyl =yl R2\nConsider the operation\n)yl x71) = x(yyhHxl\nby associativity,\n=xe xl= x xl=e\nand so the suggested result is true for all groups. R4, split at\ndiscretion\nNote\nIt is possible that some candidates will have a group table that is the mirror\nimage of the one given, mirrored about the main diagonal, as a result of taking the\ncompositions in the reverse order. For example, in the above table pops is pa first\nthen p2, to give pg . In the other order the result would be ps. Award the marks\nprovided the same approach is consistently applied.",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.7",
+    "7.5",
+    "7.4",
+    "7.9",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Abstract Algebra",
+   "text_clean": "5. [Maximum mark: 40]\n(a) Let $M$ be the set of $2 \\times 2$ matrices $\\{I, A, B, C, D, E\\}$ where $I$ is the identity matrix and the other matrices are:\n$A = \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$; $B = \\begin{pmatrix} 0 & 1 \\\\ -1 & -1 \\end{pmatrix}$; $C = \\begin{pmatrix} -1 & -1 \\\\ 0 & 1 \\end{pmatrix}$; $D = \\begin{pmatrix} -1 & -1 \\\\ 1 & 0 \\end{pmatrix}$; $E = \\begin{pmatrix} 1 & 0 \\\\ -1 & -1 \\end{pmatrix}$.\nGiven that matrix multiplication is associative show, by presenting the operation table, that $M$ is a group under matrix multiplication. (Use the letters $I, A, B, C, D$ and $E$ for the elements of the table.)\nShow by example that the group is not abelian. [12 marks]\n(b) Let $S_3$ be the set of all permutations of the elements of the set $\\{1, 2, 3\\}$.\nTwo of the elements of $S_3$ are thus:\n$p_1 = \\begin{pmatrix} 1 & 2 & 3 \\\\ 1 & 2 & 3 \\end{pmatrix}$; $p_2 = \\begin{pmatrix} 1 & 2 & 3 \\\\ 2 & 3 & 1 \\end{pmatrix}$.\nWrite down the remaining elements, denoting the elements by $p_i$, $i = 3, 4, \\ldots$\nGiven that $S_3$ is a group under the operation of composition, write down the group table. (Again, use letters $p_i$ for the elements.) [8 marks]\n(c) Explain what is meant by saying that two groups are isomorphic.\nShow, by finding an isomorphism, that the groups in (a) and (b) are isomorphic. [6 marks]\n(d) Let $S_n$ be the set of all permutations of the set $\\{1, 2, 3, \\ldots, n\\}$ where $n \\ge 3$.\nBy considering the two elements of $S_n$\n$s_1 = \\begin{pmatrix} 1 & 2 & 3 & \\ldots \\\\ 1 & 3 & 2 & \\ldots \\end{pmatrix}$ and $s_2 = \\begin{pmatrix} 1 & 2 & 3 & \\ldots \\\\ 3 & 2 & 1 & \\ldots \\end{pmatrix}$\nin which each number after 3 is unchanged, deduce that $S_n$ under the operation of composition is not abelian.\nHence verify that the group in (a) is not abelian. [6 marks]\n(e) Using either of the group tables in (a) and (b), find an example to suggest an expression for the inverse of $(x * y)$ in terms of the inverse of $x$ and $y$, where $x$ and $y$ are group elements and $*$ denotes the relevant operation.\nProve that your result is true for any group. [8 marks]",
+   "review_note": "ms crop loses the bottom line of ms page 6: the explicit isomorphism p1->I, p2->B, p3->D, p4->A, p5->E, p6->C (C3) and a 'Markers: see note' line, cut by the segmenter's scan body band. | fixed by segmenter update"
+  },
+  {
+   "id": "math-1995-N-P2-q6",
+   "num": "6",
+   "section": "B",
+   "marks": 40,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. . [Maximum mark: 40]\n(i) Nine intersections in the road system of an American city are connected by\n“unpaved roads. The distances between the intersections, in kilometres, are\ngiven in the diagram below.\nWhat is the minimum length of road that should be paved so that there is a\npaved route between any two intersections? [10 marks]\n(ii) (a) Write down the adjacency matrix of the graph below.\nY |¢)\nV4 V3\nHence, or otherwise, calculate the number of ways of getting from v,\nto v, in the graph above using either 2 or 4 edges in the path.\n(b) State clearly a prbperty of the adjacency matrix of a graph with n\nvertices, that you possibly used to obtain your answer to (a).\nExplain how this property allows the number of edges in the shortest\npath between two vertices to be calculated. [10 marks]\n[Question 6 continues on the next page]\no (i) Draw a graph with incidence matrix B , given by\nI 1.1 1 0 o\n110 0 0 1 1\nB=lo 1 1 0 0o of,\n0 0 0 0 0 1\n0 0 01 00\nexplaining clearly the relationship between the matrix and the graph. [10 marks]\n(iv) The column totals 6f the adjacency matrix of a connected graph with no\nloops are:\nS 4 1 2 6 4 4 8 6 2\nDoes the graph have either an Eulerian path or a Hamiltonian circuit?\nExplain your answers.\nDeduce the number of édges in the graph, and the number of regions in any\nplanar representation of the graph. - '\n(10 marks]",
+   "ms_text": "6 (i) Starting at E, though any junction could be the starting point, use the edge MARKS\nEF, the one of minimum length. Then take the edge of minimum length from E or\nF, other than EF. This is EH (or it could be FC). Then take HI, the edge of\nminimum length from E, F or H.\nIn this way we obuin the minimum spanning wee\nEF, EH, HI, FC, HG, CB, BD, DA M5, Cs split\nwith a total length of 1+3+2+3+4+4+3+2 = 22 at discretion\nA B 4 C\n2 3 o\n3\nD\nE T F\n3\n4 4 H 2 ;.I\nC1\nThere are thus two ways of getting fro 3 PN [1] [31 I Rl\nSquaring again\ngives\nand there are thus eight ways of getting from v to v4 using four edges. Rl\nHence the total is ten ways. C1\n(b) If the adjacency mamix A is raised to the power k then the number al(j) in the\nmatrix AK is the number of ways of getting from the vertex v; to the vertex v;\nusing exactly ¢ edges. This result can be used to find the shortest path from the\nvertex v; to the vertex v; by successively calculating the matrices A, A2, R4, split at\nA3, ....., until there is a non zero number in the (i, j)th place in the marix. discretion.\n(iii) Since the mamix is 5 X 6, there are 5 vertices and 6 edges. The element bij MARKS\nin B is 1 if the edge ¢; is incident with the vertex v; and zero if not. Hence the\ngraph is of the form C4\nC6, splitat\ndiscreton\n(iv) There is an Eulerian path since there are exactly two vertices with odd degree,\nnamely those with the totals 5 and 1. The rest are even. C3\nThere is no Hamiltonian circuit since there is only one edge from v3, so a circuit\nC3 cannot continue beyond there.\nThe sum of the column totals is 42, and this is twice the number of edges. Hence\nthe numiber is 21. N\nThen, there are 10 columns corresponding to 10 vertices and from Eulers formula,\nif the graph is planar,\nV-E +F=2= 10-21+F=2=F=13. R2",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.11",
+    "6.8",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Graphs and Trees",
+   "text_clean": "6. [Maximum mark: 40]\n(i) Nine intersections in the road system of an American city are connected by unpaved roads. The distances between the intersections, in kilometres, are given in the diagram below.\n[Diagram: 3x3 grid of intersections A B C / D E F / G H I with weighted edges AB=5, BC=4, AD=2, BD=3, BE=5, BF=6, CF=3, DE=7, EF=1, DG=6, DH=8, EH=3, FH=4, FI=4, GH=4, HI=2]\nWhat is the minimum length of road that should be paved so that there is a paved route between any two intersections? [10 marks]\n(ii) (a) Write down the adjacency matrix of the graph below.\n[Diagram: graph on v1, v2, v3, v4 with edges v1v2, v1v3, v2v4, v4v3 (crossing diagonals)]\nHence, or otherwise, calculate the number of ways of getting from $v_1$ to $v_4$ in the graph above using either 2 or 4 edges in the path.\n(b) State clearly a property of the adjacency matrix of a graph with $n$ vertices, that you possibly used to obtain your answer to (a).\nExplain how this property allows the number of edges in the shortest path between two vertices to be calculated. [10 marks]\n(iii) Draw a graph with incidence matrix $B$, given by\n$B = \\begin{pmatrix} 1 & 1 & 1 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 & 1 & 1 \\\\ 0 & 1 & 1 & 0 & 0 & 0 \\\\ 0 & 0 & 0 & 0 & 0 & 1 \\\\ 0 & 0 & 0 & 1 & 0 & 0 \\end{pmatrix}$,\nexplaining clearly the relationship between the matrix and the graph. [10 marks]\n(iv) The column totals of the adjacency matrix of a connected graph with no loops are:\n5 4 1 2 6 4 4 8 6 2\nDoes the graph have either an Eulerian path or a Hamiltonian circuit? Explain your answers.\nDeduce the number of edges in the graph, and the number of regions in any planar representation of the graph. [10 marks]",
+   "review_note": "ms crop fixed via override (was running into Q7's markscheme)."
+  },
+  {
+   "id": "math-1995-N-P2-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 40,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "Statistics\n1. [ Maxtmum mark: 40]\n.(a) The number X of a particular model of bicycle sold per week by a shop\nhas a Poisson d:stnbutmn with mean 5. Determine the probablhty of the\nfollowing events:\n(i) none of the bicycles of that type are sold in a given week;\n(ii) more than ten such bicycles are sold in a given week.\nIf each bicycle is sold for $200, determine the mean and variance of the\ntotal weekly amount in sales on that model. (Results on means and\nvariances for Poisson distributions may be stated without proof.)\nFor a second model of bicycle the number X, sold per week is Poisson with\nmean 3 and is independent of X . The cost of this second type of bicycle is\n$250 . Determine the mean and the standard deviation for the total\ncombined weekly sales of the two models. (Again, any results used to\nderive your answer must be clearly stated but need not be proved.) [13 marks]\n(b) A record was kept' of the time taken for a particular mechanic, 4, to\nservice each bicycle before sale. In a sample of n, = 25 bicycles the mean\n‘and standard deviation of the service times were 57.5 and 3.7 minutes\nrespectively.\nOn the assumption that service times are normally distributed, explain how\nto obtain a 95% confidence interval for.y,, the mean service time.\nDistributive results used in your answer should be clearly stated.\nCalculate the end points of the 95% confidence interval from the above\ndata. Would your results lead to the assumption of a mean service time of\n60 minutes when testing against a two-tailed alternative hypothesis at the\n5% significance level? [12 marks]\n(c) For mechanic B a sample of n, = 20 service times had a mean and standard\ndeviation of 61.7 and 3.1 minutes respectively.\nObtain a 95%.confidence interval for u, —Hg» the difference in mean service\ntimes for the two mechanics. Any assumptions made and distributive results\nused in your answer should be clearly stated.\nState, with reasons, whether or not you would accept that pu, is equal to\n[15 marks] Hg",
+   "ms_text": "7(a) Model - X1 is Poissan with mean MARKS\nPr(X; =0) = e =0.0067 c2\n(i) Pr(Xy > 10)=Pr(X; 2 11)= 0.0137\nThe total weekly amount in sales is where a; is 200.\nThe mean is ay E[X{] = 200 X 5= 1000 c2\nThe variance is a:l)' Var [X;]' = (200)= X 5= 200,000 Cc2\nFor both models the mean is E[(X;] + E[X3] =(200 X 5) + (250 X 3)\n1750 C2\nand the variance is a‘l2 Var [X;] + ag Var [X2]'= 200,000 + 187,500\n387,500\ngiving a standard deviation of 622.49. All results in dollars. Cl\n(b) Model : X, isNQ,, c,3)\n.2\nC3\nYA isN(].LA,—n—).\nA\nNow X = 57.5 is a reading of XA and S,2 is unknown estimate using\ns, =3.7. Then\nLT\nt=s=———=\nSA/\\/“A\nis a reading of t with n, - 1 = 24 degrees of freedom. c3\nThe 95% confidence interval for Ha is\nSa\n4 * 1o2s (24 4.1)\nA\nV\nand for the given values this is\n3.7\n575 £ 206 X\nV25\n=575%£ 152\nand so the confidence interval is (55.98, 59.02). C4\nSince the value of 60 is not included in this 95% interval the assumption of a\nc2 mean service time of 60 minutes is not accepted.\nNote to markers : Candidates may have been taught to use the unbiased estimat\nT\nfor the variance, namely (3.7)2 X %—3— . If this is used the interval becomes\n(55.94, 59.06) and full marks should be awarded.\n(c) Assume that XA is N(uA , ) and that XB is N(uB\nn n\nA B\nAssume further a common variance o2,\n52 2\nThen XA - XB is N(;,LA Mg,\nLN ng\nEstimate the unknown 62 by the pooled variance estimate\n2 2\n2. (nA - l)sA + (nB - 1)53.\nnA+nB—2\nThe 95% conﬁdencg: interval for is\n1 1\nXA - XB to.ozs(nA + rh-?.)x s,\\/ n—-\nA B\nand for the given data this becomes\n57.5-61.7% 2.02s X w/% + 55\n3\n~42+2 2025 X 10\nwhere\n2 = 24 X (3.7 + 19X (3.1)? = 11.887\n43\nand so s = 3.45. M3, A2\nHence the interval is\n~42 £ 202X 345X 75 = —4.2£2.09\nor (-6.29, -2.11). Cc2\nThe postulated value of B —H = 0 does not lie in this 95% interval and so\nthe hypothesis that = Hy is rejected at the 5% significance level.",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L6",
+    "4.L4",
+    "4.L1",
+    "4.L5",
+    "4.L7"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "option": "Statistics",
+   "text_clean": "Statistics\n7. [Maximum mark: 40]\n(a) The number $X_1$ of a particular model of bicycle sold per week by a shop has a Poisson distribution with mean 5. Determine the probability of the following events:\n(i) none of the bicycles of that type are sold in a given week;\n(ii) more than ten such bicycles are sold in a given week.\nIf each bicycle is sold for \\$200, determine the mean and variance of the total weekly amount in sales on that model. (Results on means and variances for Poisson distributions may be stated without proof.)\nFor a second model of bicycle the number $X_2$ sold per week is Poisson with mean 3 and is independent of $X_1$. The cost of this second type of bicycle is \\$250. Determine the mean and the standard deviation for the total combined weekly sales of the two models. (Again, any results used to derive your answer must be clearly stated but need not be proved.) [13 marks]\n(b) A record was kept of the time taken for a particular mechanic, $A$, to service each bicycle before sale. In a sample of $n_A = 25$ bicycles the mean and standard deviation of the service times were 57.5 and 3.7 minutes respectively.\nOn the assumption that service times are normally distributed, explain how to obtain a 95% confidence interval for $\\mu_A$, the mean service time. Distributive results used in your answer should be clearly stated.\nCalculate the end points of the 95% confidence interval from the above data. Would your results lead to the assumption of a mean service time of 60 minutes when testing against a two-tailed alternative hypothesis at the 5% significance level? [12 marks]\n(c) For mechanic $B$ a sample of $n_B = 20$ service times had a mean and standard deviation of 61.7 and 3.1 minutes respectively.\nObtain a 95% confidence interval for $\\mu_A - \\mu_B$, the difference in mean service times for the two mechanics. Any assumptions made and distributive results used in your answer should be clearly stated.\nState, with reasons, whether or not you would accept that $\\mu_A$ is equal to $\\mu_B$. [15 marks]",
+   "review_note": "ms crop fixed via override (two ms pages, previously split across q6/q7 crops); qp crop fixed to exclude the next option heading."
+  },
+  {
+   "id": "math-1995-N-P2-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 40,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8 [Maximum mark: 40]\n(i} .(a) State clearly the conditions for the integral test to be applied to the\nseries 20,,\nn=l\nn\nApply the integral test to the series Z\nP+l\nn=|\n4\n- 1\n(b) State clearly the values of p > 0 for which the series 27 converges.\nSetting p = -;-,.what does the comparison tell you about the convergence\n1\nor divergence of the series ZT\nn=] 2++n\nUse an-alternative value of P, if necessary, to establish whether the series\nconverges or diverges. A\n(16 marks]\n(i) (a) Write down the first two terms of the Taylor seﬁcs fbr Jf(x) about.a\npoint x,, and denote the expression by p(x). Let x,,, be a real\nnumber such that p(x,,)=0.\nFind an expression for x_,, in terms of x,,' and so, by letting\nn=0,1,2,..., derive the Newton-Raphson iterative method for\nsolving f(x) =0.\n(b) Show that when the result in (a) is applied to the equation x2—c =0 it\nbecomes\n1 c\nx,,+,=—{x,,+—}, n=0,12,...\n2 X,\nShow further that\nX4l 4_-\\/; = L (x, i-\\/c_')z\n2x,\nforn=0,1,2,...\nQuestion 8 continues on the next page]\n[Question 8 continued]\nDeduce that\n2n+|\nX,,“'-‘\\[C. = xo“[‘:\n\"n-:-l\"“/Z J\"o\"\"[‘-:\nHence show that for any x,>0, the sequence of iterates converges\nto+c. L\n[24 marks] .",
+   "ms_text": "oQ\n3(i)(a) Given the series Z“n , let f(x) be such that f(n) = ¢ forallnel MARKS\nn=1\nIf f(x ) is positive, continuous and decreasing for x 2 | then the series converges\nif [ f(x) dx is finite and diverges otherwise. C2\nTaking the function to be\nX\nt(x)\nx2 + 1\nthen clearly it is positive for x 2 1, it is continuous and\noo o t\nX l 2x 1 limit 2x\nr(12+ldx If12+1dx T2 t—oo 12+1d‘x\n1\n1 limit U limit 1\nlog, (t2+ 1) =3 logt - 3 log2 M2, Al 2 tsoo\n1_2t—-)°° & 2 k-\nThe natural logarithm tends to infinity as x tends to infinity and so the integral\ndoes not exist. Hence the series diverges. Cl\n(b) The series Z Lp converges if p> 1 and divergesif 0 <p < 1.\nn=i n\no0\nSetting p = % yields the series 2 ‘7}.— which diverges.\nn=] V1\no0 [~\n1 1\nB Yy comparmnson, n;l 2 -\\jn < ngl\n1 1\nsince 0< — < —, nelN,\nv ST\no\nbut even though Z —= diverges this tells us nothing about the series. M2,C2\nn=l1 Vn\no0 (> -]\n2' L — . However, setiing p = 1, and comparing Z 1 — with\n++n ~ 2+ vn\nn=1 n=1\noo\n1 1\nit that 2 + <n= > =forn > 4. ngl o itisseen tha vn\n1 1\nZ = > Z Hence,\nn=1 2 + \\/n n=1 n\n1 . 1\nand as the series = diverges, so does\ne B =12++n\nAlternatively, the comparison test with p = 1/2 can be used by considering R4, split at\nINn < 2/(2+Vn)forn>4. discredon\n(ii)(a) The first two terms of the Taylor series for f(x) about a point are\nf(x) = t(xn) + (x - xp) (xXa)\nand if we denote this by p(x) we obtin\np(x) = f(xg) + (x - xp) f'lxg) = 0.\nIf xq+1 is a real number such that p(xp+1) =0 then\nf(xa) + (xn+e1 — Xa) = 0\nand solving for x 5, yields\nEN)\nXnp+l=Xn\n£(xn)\nGiven a value xg, the above expression generates the sequence X0, X[, X2,\nR2,C2 This is the Newton Raphson iterative method for approximating a root of f(x)\n(b) Applying the above method to the equation x2— c¢=0gives\n2\nIn—-C_l Cc3\nXn+l=xn“'—'2—xn__\"§xn +K-\nThen, adding or submacting V¢ from each side gives\n1 2 1 c\nXge1 EVC = i{xn + ﬂ}iﬁ =Tx—;{xnt2ﬁxn\n1 2\nc3\n7\nTaking the ratdo of the above expressions gives\nan.l\"\"J_E:x_n—‘jzz\nCc2\nXn+1 + '\\I-E Xn + JE\nand similarly\n2\n(xp-1 - Ve 2\nxap + Ve Xxp-1 + V¢\nand so putting these together yields\nXp+l = V¢ _ Xoa-1 — V€ 2]2\nC2\nXn+1 + Ve Xp-1 + V¢\nRepeating this process eventually gives\nC3 Xael = VC _ (xo -~ JE)ZnH\nXge1 + xo + Ve©\nThen, if xg > O, the ratio 59—-—\"—:}/—_6: < 1 and so as n increases the right hand\nxg + V¢\nside of the above tends to zero. Hence the left hand side tends to zero and so\nR3\nXp+l — \\[E.",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L1",
+    "5.L7",
+    "5.L3"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "text-ocr"
+   ],
+   "text_clean": "8. [Maximum mark: 40]\n(i) (a) State clearly the conditions for the integral test to be applied to the series $\\sum_{n=1}^{\\infty} a_n$.\nApply the integral test to the series $\\sum_{n=1}^{\\infty} \\frac{n}{n^2+1}$.\n(b) State clearly the values of $p > 0$ for which the series $\\sum_{n=1}^{\\infty} \\frac{1}{n^p}$ converges.\nSetting $p = \\frac{1}{2}$, what does the comparison tell you about the convergence or divergence of the series $\\sum_{n=1}^{\\infty} \\frac{1}{2+\\sqrt{n}}$?\nUse an alternative value of $p$, if necessary, to establish whether the series converges or diverges. [16 marks]\n(ii) (a) Write down the first two terms of the Taylor series for $f(x)$ about a point $x_n$, and denote the expression by $p(x)$. Let $x_{n+1}$ be a real number such that $p(x_{n+1}) = 0$.\nFind an expression for $x_{n+1}$ in terms of $x_n$ and so, by letting $n = 0, 1, 2, \\ldots$, derive the Newton–Raphson iterative method for solving $f(x) = 0$.\n(b) Show that when the result in (a) is applied to the equation $x^2 - c = 0$ it becomes\n$x_{n+1} = \\frac{1}{2}\\left\\{x_n + \\frac{c}{x_n}\\right\\}$, $n = 0, 1, 2, \\ldots$\nShow further that\n$x_{n+1} \\pm \\sqrt{c} = \\frac{1}{2x_n}(x_n \\pm \\sqrt{c})^2$\nfor $n = 0, 1, 2, \\ldots$\n(c) Deduce that\n$\\frac{x_{n+1} - \\sqrt{c}}{x_{n+1} + \\sqrt{c}} = \\left(\\frac{x_0 - \\sqrt{c}}{x_0 + \\sqrt{c}}\\right)^{2^{n+1}}$.\nHence show that for any $x_0 > 0$, the sequence of iterates converges to $\\sqrt{c}$. [24 marks]",
+   "review_note": "ms was missing (heading OCR'd as '3'); added via override (ms pages 12-13). The last lines of ms page 12 (end of (i)(b): 'diverges, so does sum 1/(2+sqrt n)', alternative comparison with p=1/2, R4 split at discretion) are cut by the segmenter's scan body band. | fixed by segmenter update"
+  }
+ ],
+ "status": "done"
+}

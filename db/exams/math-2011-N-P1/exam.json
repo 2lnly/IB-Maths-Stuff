@@ -1,0 +1,323 @@
+{
+ "exam_id": "math-2011-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2011,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2011 November Examination Session/Mathematics_paper_1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2011 November Examination Session/Mathematics_paper_1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8811-7201; code N11/5/MATHL/HP1/ENG/TZ0/XX; marks sum matches expected total 120",
+ "qp_pages": 12,
+ "questions": [
+  {
+   "id": "math-2011-N-P1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\nFrom a vertex of an equilateral triangle of side 2x , a circular arc is drawn to divide the\ntriangle into two regions, as shown in the diagram below.\ndiagram not to\nscale\n2x\nGiven that the areas of the two regions are equal, find the radius of the arc in terms\nof x .",
+   "ms_text": "π\n1 (2)sin 2 1. area of triangle = x (M1)\n2 3\n= x 23 A1\nNote: A 0.5 × base × height calculation is acceptable.\nθ π 2 2\narea of sector = r = r (M1)A1\n2 6\narea of triangle is twice the area of the sector\nπ 2 2\n⇒ 2 = x 3 M1\n6r\n33\n⇒ r = x or equivalent A1\nπ\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nFrom a vertex of an equilateral triangle of side $2x$, a circular arc is drawn to divide the triangle into two regions, as shown in the diagram below.\n[Diagram: equilateral triangle with base $2x$; a circular arc centred at the top vertex cuts the two sloping sides; diagram not to scale]\nGiven that the areas of the two regions are equal, find the radius of the arc in terms of $x$."
+  },
+  {
+   "id": "math-2011-N-P1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 6]\nFind the cube roots of i in the form a +i , where ab b , ∈ϒ.",
+   "ms_text": "π π\n2. i = cos + isin (A1)\n2 2\n1\n1 π π 3 π π\n3\n3 1 i z = i = cos + isin = cos + isin = + M1A1\n1\n2 2 6 6 2 2\n5 π 5 π 3 1\nz = cos + isin = − + i (M1)A1\n2\n6 6 2 2\nπ π\nz = cos − + isin − = − i A1\n3\n2 2\nNote: Accept exponential and cis forms for intermediate results, but not the\nfinal roots.\n+ 3 Note: Accept the method based on expanding (a b) . M1 for attempt,\nM1 for equating real and imaginary parts, A1 for finding a = 0 and\n1\nb = , then A1A1A1 for the roots.\n2\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 6]\nFind the cube roots of $\\mathrm{i}$ in the form $a+b\\mathrm{i}$, where $a, b \\in \\mathbb{R}$."
+  },
+  {
+   "id": "math-2011-N-P1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nIn a particular city 20 % of the inhabitants have been immunized against a certain\ndisease. The probability of infection from the disease among those immunized is 1\n10,\nand among those not immunized the probability is 3\n4. If a person is chosen at random\nand found to be infected, find the probability that this person has been immunized.",
+   "ms_text": "3. tree diagram (M1)\nP(D|I) × P(I)\nP(I|D) = (M1)\nP(D)\n0.10.2 ×\n= A1A1A1\n0.10.2 × + 0.80.75 ×\n0.02 1\n= = A1\n0.62 31\nNote: Alternative presentation of results: M1 for labelled tree; A1 for initial\nbranching probabilities, 0.2 and 0.8; A1 for at least the relevant\nsecond branching probabilities, 0.1 and 0.75; A1 for the ‘infected’\nend-point probabilities, 0.02 and 0.6; M1A1 for the final conditional\nprobability calculation.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.13",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nIn a particular city 20 % of the inhabitants have been immunized against a certain disease. The probability of infection from the disease among those immunized is $\\frac{1}{10}$, and among those not immunized the probability is $\\frac{3}{4}$. If a person is chosen at random and found to be infected, find the probability that this person has been immunized."
+  },
+  {
+   "id": "math-2011-N-P1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\n3 π ,\nGiven that fx () =+ 1 sin x , 0 ≤ x ≤\n2\n(a) sketch the graph of f ; [1 mark]\ny\n2\n1\n0 π π 3π x\n2 2\n2 3 1\n(b) show that fx ( () )= + 2 sin x − cos 2; x [1 mark]\n2 2\n(c) find the volume of the solid formed when the graph of f is rotated through 2π\nradians about the x-axis. [4 marks]",
+   "ms_text": "4. (a)\nA1\n2 2 (b) (1 + sin) x =+ 1 2sin x + sin x\n1\n+ + − = 1 2sin x (1 cos2) x A1\n2\n3 1\n= + 2sin x − cos2 x AG\n2 2\n3 π\n2 2 (c) V = π ∫\n0(1 + sin)d x x (M1)\n3 π\n3 1\n= π ∫ 2 + 2sin x − cos2 x d x\n0 2 2\n3 π\n3 sin 2 x 2\n= π x − 2cos x − A1\n2 4 0\n2 9 π\n= +π 2 A1A1\n4\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.17",
+    "5.11",
+    "3.7",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nGiven that $f(x)=1+\\sin x$, $0 \\le x \\le \\frac{3\\pi}{2}$,\n(a) sketch the graph of $f$; [1 mark]\n[Graph: blank axes, $y$ from 0 to 2, $x$ marked at $\\frac{\\pi}{2}$, $\\pi$, $\\frac{3\\pi}{2}$]\n(b) show that $(f(x))^2 = \\frac{3}{2} + 2\\sin x - \\frac{1}{2}\\cos 2x$; [1 mark]\n(c) find the volume of the solid formed when the graph of $f$ is rotated through $2\\pi$ radians about the $x$-axis. [4 marks]"
+  },
+  {
+   "id": "math-2011-N-P1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nA target consists of three concentric circles of radii 1 m, 3 m and 5 m respectively,\nas shown in the diagram.\n1\n3 a B c\n5\ndiagram not to\nscale\nNina shoots an arrow at the target. She has a probability of 1\n2 of hitting the target.\nIf the arrow hits the target it does so at a random point on the target. Ten points are\nscored for hitting region A, six points for hitting region B, and three points for hitting\nregion C. Find the expected number of points Nina scores each time she shoots an\narrow at the target.",
+   "ms_text": "π 1 1\n5. P() A = × = (M1)A1\n25 π 2 50\n8 π 1 4\nP() B = × = A1\n25 π 2 25\n16 π 1 8\nP() C = × = A1\nπ 25 2 25\nNote: The M1 is for the use of 3 areas\n1 4 8 106\nE( X= ) (0.5 × 0) + × 10 + × 6 + × 3 = ( = 2.12) M1A1\n50 25 25 50\nNote: The final M1 is available if the probabilities are incorrect\nbut sum to 1 or\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nA target consists of three concentric circles of radii 1 m, 3 m and 5 m respectively, as shown in the diagram.\n[Diagram: three concentric circles of radii 1, 3, 5; inner disc region A, middle ring region B, outer ring region C; diagram not to scale]\nNina shoots an arrow at the target. She has a probability of $\\frac{1}{2}$ of hitting the target. If the arrow hits the target it does so at a random point on the target. Ten points are scored for hitting region A, six points for hitting region B, and three points for hitting region C. Find the expected number of points Nina scores each time she shoots an arrow at the target."
+  },
+  {
+   "id": "math-2011-N-P1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\nn 1 y n !\n, use mathematical induction to prove that d + Given that y =\n′.\n=− 1, n∈ n n +\n1 x d x ( 1 − x )",
+   "ms_text": "d y 1\n6. proposition is true for n = since 1 = M1\n2 d x (1 − x )\n1!\n= A1\n2 (1 − x )\nNote: Must see the 1! for the A1.\nk\n+ d y k !\nassume true for n = k , k ∈�, i.e. = M1\nk − k + 1 d x (1 x )\nk d y\nk + 1 dd k d y x\nconsider = (M1)\nk + 1 d x d x\n( k + 1)1 − = ( k + 1)!(1 k − x− ) A1\n( k + 1)!\n= A1\n− )k + 2 (1 x\nhence, Pk+is true whenever Pk is true, and 1P is true, and therefore the proposition is\n1\ntrue for all positive integers R1\nNote: The final R1 is only available if at least 4 of the previous\nmarks have been awarded.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "1.15",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nGiven that $y=\\frac{1}{1-x}$, use mathematical induction to prove that $\\frac{\\mathrm{d}^n y}{\\mathrm{d}x^n} = \\frac{n!}{(1-x)^{n+1}}$, $n \\in \\mathbb{Z}^+$."
+  },
+  {
+   "id": "math-2011-N-P1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\n2 3 2 The graphs of fx () = − x + 2 and gx () = x − x − bx + 2, b > 0, intersect and create\ntwo closed regions. Show that these two regions have equal areas.\ny\nx",
+   "ms_text": "7. to find the points of intersection of the two curves\n− 2 + = 3 − 2 − + x 2 x x bx 2 M1\n3 2 x − bx = xx ( − b ) = 0\n⇒ x = 0 ; x = ± b A1A1\n0 0 3 2 2 3\nA = ∫ ( x − x − bx + 2) −− ( x + 2)d x ( = ∫ ( x − bx )d x ) M1\n1 − b − b\n0 4 2\nx bx\n= −\n4 2\n− b\n( − b ) 4 b ( − b ) 2 b 2 b 2 b 2\n= − − = − + = A1\n4 2 4 2 4\nb\nA = ∫ ( − x 2 + 2) − ( x 3 − x 2 − bx + 2)d x M1\n2 0\nb 3\n= ∫ − x + bx )d x 0(\nb 4 2 2\nx bx b\n=− + = A1\n4 2 4\n0\n2 b\n= = therefore A A AG\n1 2\n4\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.11",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nThe graphs of $f(x)=-x^2+2$ and $g(x)=x^3-x^2-bx+2$, $b>0$, intersect and create two closed regions. Show that these two regions have equal areas.\n[Graph: a downward parabola and a cubic intersecting at three points, one on the $y$-axis, enclosing two regions]"
+  },
+  {
+   "id": "math-2011-N-P1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\nThe diagram below shows a circular lake with centre O, diameter AB and radius 2km .\nP\nθ 2θ\nA B\nO\nJorg needs to get from A to B as quickly as possible. He considers rowing to point\n1 1 P and then walking to point B. He can row at 3 kmh− and walk at 6 kmh−.\n∃ Let PAB =θ radians, and t be the time in hours taken by Jorg to travel from A to B.\n2\n(a) Show that t = (cos θ + θ. ) [3 marks]\n32\nt Find the value of θ for which d\n(b) [2 marks]\nθ= 0 .\nd\n(c) What route should Jorg take to travel from A to B in the least amount of time?\nGive reasons for your answer. [3 marks]",
+   "ms_text": "8. (a) angle APB is a right angle\nAP\n⇒ ⇒ cos θ = AP = 4cos θ A1\n4\nNote: Allow correct use of cosine rule.\n= × θ = θ A1 arc PB 2 2 4\nAP PB\nt = + M1\n3 6\nNote: Allow use of their AP and their PB for the M1.\n4cos θ 4 θ 4cos θ 2 θ\n⇒= t + = + = 2 (2cos θ + θ ) AG\n3 6 3 3 3\nd t 2 (2sin\n(b) − θ + 1) A1 θ=\nd 3\n2 1 π\n(2sin − θ + 1) = 0 ⇒ sin θ = ⇒ θ = (or 30 degrees) A1\n3 2 6\n2 d t π\n4 cos (c) = − θ < 0 at θ = M1\n2 d θ 3 6\nπ\n⇒ is maximized at t θ = R1\n6\ntime needed to walk along arc AB is 2 π≈ (1 hour)\n6\ntime needed to row from A to B is 4(1.33 hour)\n3≈\nhence, time is minimized in walking from A to B R1\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.8",
+    "3.4",
+    "3.2",
+    "5.6",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\nThe diagram below shows a circular lake with centre O, diameter AB and radius 2 km.\n[Diagram: circle centre O, diameter AB; chord AP making angle $\\theta$ with AB at A; angle POB $= 2\\theta$; route rows along AP then walks along arc PB]\nJorg needs to get from A to B as quickly as possible. He considers rowing to point P and then walking to point B. He can row at $3\\ \\text{km h}^{-1}$ and walk at $6\\ \\text{km h}^{-1}$. Let $\\mathrm{P\\hat{A}B} = \\theta$ radians, and $t$ be the time in hours taken by Jorg to travel from A to B.\n(a) Show that $t = \\frac{2}{3}(2\\cos\\theta + \\theta)$. [3 marks]\n(b) Find the value of $\\theta$ for which $\\frac{\\mathrm{d}t}{\\mathrm{d}\\theta} = 0$. [2 marks]\n(c) What route should Jorg take to travel from A to B in the least amount of time? Give reasons for your answer. [3 marks]"
+  },
+  {
+   "id": "math-2011-N-P1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\n2 Consider the equation yx + ( y − 1 ) x + ( y − 1 ) = 0 .\n(a) Find the set of values of y for which this equation has real roots. [4 marks]\nx + 1\n(b) Hence determine the range of the function f : x → . [3 marks]\n2 x + x + 1\n(c) Explain why f has no inverse. [1 mark]",
+   "ms_text": "9. (a) for the equation to have real roots\n2 ( y − 1) − 4( yy − 1) ≥ 0 M1\n2 ⇒ 3 y − 2 y −≤ 1 0\n(by sign diagram, or algebraic method) M1\n1\n− ≤ y ≤ 1 A1A1\n3\n1\nNote: Award firstA1 for − and 1, and second A1 for inequalities.\n3\nThese are independent marks.\nx + 1\nf x → ⇒ x += yx 2 + yx + y (M1) (b) : 1\n2 x + x + 1\n2 ⇒ 0 = yx + ( y − 1) x + ( y − 1) A1\n1\nhence, from (a) range is − ≤ y ≤ 1 A1\n3\n(c) a value for y would lead to 2 values for x from (a) R1\nNote: Do not award R1 if (b) has not been tackled.\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.7",
+    "2.2",
+    "2.13",
+    "2.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nConsider the equation $yx^2 + (y-1)x + (y-1) = 0$.\n(a) Find the set of values of $y$ for which this equation has real roots. [4 marks]\n(b) Hence determine the range of the function $f: x \\to \\frac{x+1}{x^2+x+1}$. [3 marks]\n(c) Explain why $f$ has no inverse. [1 mark]"
+  },
+  {
+   "id": "math-2011-N-P1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 10]\nA continuous random variable X has the probability density function\nπ\nk sin, x 0 ≤ x ≤\nfx () = 2\n0 , otherwise.\n(a) Find the value of k . [2 marks]\n(b) Find E( X. ) [5 marks]\n(c) Find the median of X . [3 marks]",
+   "ms_text": "π\n2 10. (a) k ∫\n0sind xx = 1 M1\nπ\nk [ − cos x ]2 = 1\n0\nk = 1 A1\n[2 marks]\nπ\n2 (b) E( X ) = ∫ x sind xx M1\n0\nintegration by parts M1\nπ π\n− 2 2 [ x cos x ] +∫ cosd xx A1A1\n0 0\n= 1 A1\n[5 marks]\nM 1\n(c) ∫ sind xx = M1\n0 2\nM 1\n[ − cos x = A1 ]0\n2\n1\ncos M=\n2\nπ\nM = A1\n3\n1\nNote: accept\narccos2\n[3 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.16",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 10]\nA continuous random variable $X$ has the probability density function\n$f(x) = \\begin{cases} k\\sin x, & 0 \\le x \\le \\frac{\\pi}{2} \\\\ 0, & \\text{otherwise.} \\end{cases}$\n(a) Find the value of $k$. [2 marks]\n(b) Find $\\mathrm{E}(X)$. [5 marks]\n(c) Find the median of $X$. [3 marks]"
+  },
+  {
+   "id": "math-2011-N-P1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 11,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 11]\nAt 12:00 a boat is 20km due south of a freighter. The boat is travelling due east\n1 1 at 20 kmh−, and the freighter is travelling due south at 40 kmh−.\n(a) Determine the time at which the two ships are closest to one another, and justify\nyour answer. [8 marks]\n(b) If the visibility at sea is 9 km, determine whether or not the captains of the two\nships can ever see each other’s ship. [3 marks]",
+   "ms_text": "11. (a)\n(M1)\n2 2 2 s = (20) t + (20 − 40) t M1\n2 2 s = 2000 t − 1600 t + 400 A1\nto minimize s it is enough to minimize 2s\nf ′ () t = 4000 t − 1600 A1\nsetting f ′ () t equal to 0 M1\n2\n4000 t − 1600 = 0 ⇒= t or 24 minutes A1\n5\n′′ = > M1 f () t 4000 0\n2\n⇒ at t = , ft is minimized ()\n5\nhence, the ships are closest at 12:24 A1\nNote: accept solution based on s.\n[8 marks]\n2 f =\n(b) 80 M1A1\n5\n< since 80 9 , the captains can see one another R1\n[3 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.8",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 11]\nAt 12:00 a boat is 20 km due south of a freighter. The boat is travelling due east at $20\\ \\text{km h}^{-1}$, and the freighter is travelling due south at $40\\ \\text{km h}^{-1}$.\n(a) Determine the time at which the two ships are closest to one another, and justify your answer. [8 marks]\n(b) If the visibility at sea is 9 km, determine whether or not the captains of the two ships can ever see each other's ship. [3 marks]"
+  },
+  {
+   "id": "math-2011-N-P1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 15]\n(a) For non-zero vectors a and b , show that\n(i) if a − b = a + b , then a and b are perpendicular;\n2 2 2\n(ii) a × b = a b − ( ab ) 2 . [8 marks] γ\n(b) The points A, B and C have position vectors a , b and c .\nShow that the area of triangle ABC is 1 (i) ×+×+× b bc c a .\n2a\n(ii) Hence, show that the shortest distance from B to AC is\na ×+×+× b bc c a\n. [7 marks]\nc − a",
+   "ms_text": "− = + 12. (a) (i) a b a b\n⇒ − i − = + i + ( a b )( a b ) ( a b )( a b ) (M1)\n2 2 2 2 ⇒\na − 2 ab i + b = a + 2 ab i + b A1\n⇒ 4 ab i = 0 ⇒ ab i = 0 A1\ntherefore a and b are perpendicular R1\nNote: Allow use of 2-d components.\nNote: Do not condone sloppy vector notation, so we must see\nsomething to the effect that |c|2 = c.c is clearly being used for\nthe M1.\nNote: Allow a correct geometric argument, for example that the\ndiagonals of a parallelogram have the same length only if it\nis a rectangle.\n2 2 2 2 2\n(ii) a × b = ( a b sin θ ) = a b sin θ M1A1\n2 2 2 2 2 2 i 2 2\na b − ( ab ) = a b − a b cosθ M1\n2 2 2\n= a b (1 − cos θ ) A1\n2 2 2\n=a b sinθ\n2 2 2 ⇒ i 2\na × b = a b − ( ab ) AG\n[8 marks]\n→ →\n1 |AB (b) (i) area of triangle = × AC| (M1)\n2\n1( = b − a ) × ( c − a ) A1\n2\n1\n= b × c + b × −+ −× a a c + −× − a a A1\n2\nb × −= a a × b ; × c a = −× a c ; −× −= a a 0 M1\nhence, area of triangle is 1 a × b + b × c +× c a AG\n2\n(ii) D is the foot of the perpendicular from B to AC\n→ → 1\n= area of triangle ABC |AC||BD| A1\n2\ntherefore\n1 → → 1 → →\n|AC||BD| = |AB × AC| M1\n2 2\n→ →\n→ |AB × AC|\nhence, |BD| = A1\n→\n|AC|\na × b + b × c +× c a\n= AG\nc − a\n[7 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 15]\n(a) For non-zero vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$, show that\n(i) if $|\\boldsymbol{a}-\\boldsymbol{b}| = |\\boldsymbol{a}+\\boldsymbol{b}|$, then $\\boldsymbol{a}$ and $\\boldsymbol{b}$ are perpendicular;\n(ii) $|\\boldsymbol{a}\\times\\boldsymbol{b}|^2 = |\\boldsymbol{a}|^2|\\boldsymbol{b}|^2 - (\\boldsymbol{a}\\cdot\\boldsymbol{b})^2$. [8 marks]\n(b) The points A, B and C have position vectors $\\boldsymbol{a}$, $\\boldsymbol{b}$ and $\\boldsymbol{c}$.\n(i) Show that the area of triangle ABC is $\\frac{1}{2}|\\boldsymbol{a}\\times\\boldsymbol{b} + \\boldsymbol{b}\\times\\boldsymbol{c} + \\boldsymbol{c}\\times\\boldsymbol{a}|$.\n(ii) Hence, show that the shortest distance from B to AC is $\\frac{|\\boldsymbol{a}\\times\\boldsymbol{b} + \\boldsymbol{b}\\times\\boldsymbol{c} + \\boldsymbol{c}\\times\\boldsymbol{a}|}{|\\boldsymbol{c}-\\boldsymbol{a}|}$. [7 marks]"
+  },
+  {
+   "id": "math-2011-N-P1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 24,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 24]\nThe curve C with equation y = fx ()satisfies the differential equation\nd y y\n= ( + 2, y >1, )\nyx\nd x ln\nand y = e when x = 2 .\n(a) Find the equation of the tangent to C at the point (,) 2e. [3 marks]\n(b) Find fx () . [11 marks]\n(c) Determine the largest possible domain of f . [6 marks]\n(d) Show that the equation fx () = f ′ () x has no solution. [4 marks]",
+   "ms_text": "d y e(2\n13. (a) + 2) = 4e A1\nx=\nd lne\nat (2, e) the tangent line is y − e = 4e( x − 2) M1\nhence y = 4e x − 7e A1\n[3 marks]\nd y y ln y\n(b) = ( x + 2) ⇒ d y = ( x + 2)d x M1\nd x ln y y\nln yy\n∫ d = ∫ ( x + 2)d x\ny\n1\nusing substitution u = ln y ; d u = d y (M1)(A1)\ny\nln 1 yy 2\n⇒ ∫ d = ∫ uu d = u (A1)\ny 2\n2 2 (ln) y x\n⇒ = + 2 x + c A1A1\n2 2\n2 (lne)\nat (2, e) , = 6 + c M1\n2\n11\n⇒ c = − A1\n2\n2 2 (ln) y x 11\n⇒ ⇒ 2 2 = + 2 x − (ln) y = x + 4 x − 11\n2 2 2\n2 ± x 2 + 4 x − 11 ln y = ± x + 4 x − 11 ⇒ y = e M1A1\n2 + 4 x − 11\nsince y >, 1 fx () = ex R1\n[11 marks]\nNote: M1 for attempt to make y the subject.\nEITHER (c)\n2 x + 4 x − 11 > 0 A1\nusing the quadratic formula M1\n−± 4 60\ncritical values are ( = −± 2 15 ) A1\n2\nusing a sign diagram or algebraic solution M1\nx < −− 2 15 ; x > −+ 2 15 A1A1\nOR\n2 x + 4 x − 11 > 0 A1\nby methods of completing the square M1\n2 > ( x + 2) 15 A1\n⇒ x + 2 < − 15or x + 2 > 15 (M1)\nx < −− 2 15 ; x > −+ 2 15 A1A1\n[6 marks]\nfx ()\n(d) fx () = f ′ () x ⇒ fx () = ( x + 2) M1\nfx ln ()\n⇒ ⇒ 2 ln ( fx () ) = x + 2 ( x + 2 = x + 4 x − 11 ) A1\n2 2 2 2 ⇒ ( x + 2) = x + 4 x − 11 ⇒ x + 4 x + 4 = x + 4 x − 11 A1\n⇒ 4 = − 11 , hence fx () ≠ f ′ () x R1AG\n[4 marks]\nTotal [24 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.16",
+    "2.7",
+    "2.2",
+    "5.4",
+    "2.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 24]\nThe curve C with equation $y=f(x)$ satisfies the differential equation\n$\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{y}{\\ln y}(x+2)$, $y>1$,\nand $y=\\mathrm{e}$ when $x=2$.\n(a) Find the equation of the tangent to C at the point $(2, \\mathrm{e})$. [3 marks]\n(b) Find $f(x)$. [11 marks]\n(c) Determine the largest possible domain of $f$. [6 marks]\n(d) Show that the equation $f(x) = f'(x)$ has no solution. [4 marks]"
+  }
+ ],
+ "status": "done"
+}

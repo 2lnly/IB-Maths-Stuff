@@ -1,0 +1,111 @@
+{
+ "exam_id": "math-2016-N-P3-calculus",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2016,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Calculus",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2016 November Examination Session/Mathematics_paper_3_Calculus__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2016 November Examination Session/Mathematics_paper_3_Calculus__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8816-7208; code N16/5/MATHL/HP3/ENG/TZ0/SE; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2016-N-P3-calculus-q1",
+   "num": "1",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 11]\ny 2 x Consider the differential equation d\n2 , given that y = 2 when x= 0 . + y = x\n2 d x 1 + x\n(a) Show that 1 +x2 is an integrating factor for this differential equation. [5]\n(b) Hence solve this differential equation. Give the answer in the form y=f (x) . [6]",
+   "ms_text": "1. (a) METHOD 1\nattempting to find an integrating factor (M1)\n2 x\n� 2 � � d x � ln1 � x (M1)A1\n2 1 � x\n� 2 � ln1 � x\nIF is e (M1)A1\n2 � 1 � x\nAG\nMETHOD 2\nmultiply by the integrating factor\nd y 2 2 2\n� 1 � x � � 2 xy � x � 1 � x � M1A1\nd x\nleft hand side is equal to the derivative of1�x2 � �y A3\n[5 marks]\nd y 2 2 2\n� 1 � x � � 2 xy � � 1 � x � x (b) (M1)\nd x\nd\n2 2 4 � � 1 � x � y � � x � x\n� �\nd x\n3 5 x x\n� � 2 � � � 2 � 4 � � � � � � 1 x y � x x d x c A1A1\n3 5\n3 5 1 � x x �\ny � � � � c �\n2 1 � x 3 5\n� �\n� � � � x 0, y 2 c 2 M1A1\n� 3 5 � 1 x x\ny � � � 2 A1 � �\n2 1 � x\n� 3 5 �\n[6 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 11]\nConsider the differential equation $\\frac{dy}{dx} + \\left(\\frac{2x}{1+x^2}\\right)y = x^2$, given that $y = 2$ when $x = 0$.\n(a) Show that $1 + x^2$ is an integrating factor for this differential equation. [5]\n(b) Hence solve this differential equation. Give the answer in the form $y = f(x)$. [6]"
+  },
+  {
+   "id": "math-2016-N-P3-calculus-q2",
+   "num": "2",
+   "section": null,
+   "marks": 18,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 18]\n(a) By successive differentiation find the first four non-zero terms in the Maclaurin series\nfor f (x) = (x + 1)ln(1 +x) -x . [11]\n1 n\n(b) Deduce that, for n ≥ 2 , the coefficient of xn in this series is ( - 1 ) . [1]\nnn ( - 1 )\n(c) By applying the ratio test, find the radius of convergence for this Maclaurin series. [6]",
+   "ms_text": "2. (a) fx () � ( x � 1) ln(1 � x ) � x f (0) � 0 A1\n�f(x) �ln(1�x) �x �1 �1�ln(1�x) � � f �\n(0) � 0 M1A1A1\n1�x\n�� � � x� 1 f �� � f () x (1 ) (0) 1 A1A1\n2 f ��� () x �� (1 � x� ) f ���\n(0) �� 1 A1\n(4) 3 f () x � 2(1 � x� ) f (4)(0) � 2\nA1\n(5) 4 f () x ��� 32(1 � x� ) f (5)(0) ��� 3 2\nA1\nf (x) �x2\n2!�1x3 3!�2x4 4!�6x5 M1A1 5!�\n2 3 4 5 x x x x\nfx� � � � � ()\n1 � 2 2 � 3 3 � 4 4 � 5\n2 3 4 5 x x x x\nfx� () � � � �\n2 6 12 20\nNote: Allow follow through from the first error in a derivative (provided future derivatives\nalso include the chain rule), no follow through after a second error in a derivative.\n[11 marks]\nnn ( � 2)! n n n\n(b) f ()(0) �� (1)( n � 2)! So coefficient of x �� (1) A1\nn !\n1 n n\ncoefficient of x is (1) � AG\nnn ( � 1)\n[1 mark]\n(c) applying the ratio test to the series of absolute terms\nn � 1\nx\n( n � 1) n\nlim M1A1\nn n ��\nx\nnn ( � 1)\n( n � 1)\n� lim A1\nxn n �� �\n( 1)\n� x A1\nx� so for convergence 1, giving radius of convergence as 1 (M1)A1\n[6 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.L2",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 18]\n(a) By successive differentiation find the first four non-zero terms in the Maclaurin series for $f(x) = (x+1)\\ln(1+x) - x$. [11]\n(b) Deduce that, for $n \\ge 2$, the coefficient of $x^n$ in this series is $(-1)^n \\frac{1}{n(n-1)}$. [1]\n(c) By applying the ratio test, find the radius of convergence for this Maclaurin series. [6]"
+  },
+  {
+   "id": "math-2016-N-P3-calculus-q3",
+   "num": "3",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 15]\n1\narcsin\n( x + 1)\nlim (a) Using l’Hôpital’s rule, find . [6]\n→∞ 1 x\nx\nConsider the infinite spiral of right angle triangles as shown in the following diagram.\n1\na3 1\na2\na1\nθ3 1\nθ2\nθ1\n1\nThe nth triangle in the spiral has central angle θn , hypotenuse of length an and opposite side\nof length 1 , as shown in the diagram. The first right angle triangle is isosceles with the two\nequal sides being of length 1 .\n(b) (i) Find a1 and a2 and hence write down an expression for an.\n1\n(ii) Show that θn = arcsin . [3]\n( n + 1 )\n∞\nConsider the series θ . =∑\nn\nn 1\n(c) Using a suitable test, determine whether this series converges or diverges. [6]",
+   "ms_text": "� � � �\n1\n� arcsin � � �\n� �\n� ( x � 1) � � �\nis of the form 0\n3. (a) lim � �\nx �� 1 0\n� �\n� x �\n� �\n�1 �3\n2\n2(x �1)\n� � 1\n1 �\n�� �� x �1\nand so will equal the limit of M1M1A1A1\n�3 �1\n2\n2x\nNote: M1 for attempting differentiation of the top and bottom, M1A1 for derivative of top\n(only award M1 if chain rule is used), A1 for derivative of bottom.\n3\n� x � 2\n� �\n( x � 1) � x � � �\n� lim � lim M1 � �\nx �� x �� � x � x 1 �\nx � 1\nNote: Accept any intermediate tidying up of correct derivative for the method mark.\n� 1 A1\n[6 marks]\n(b) (i) a � 2 , a � 3 A1\n1 2\nna � n � 1 A1\n1 1\n�� � (ii) sin A1\nn\nna n � 1\n� 1 �\nNote: Allow � � arcsin if an � n�1 in b(i).\nn � �\n� na �\n1\n�� arcsin so AG\nn\n( n � 1)\n[3 marks]\n(c) � 1\nfor � arcsin apply the limit comparison test (since both series of\n( n � 1) n � 1\npositive terms) M1\n� 1\nwith A1 ��\nn n 1\n1\narcsin\n( n � 1)\nfrom (a) lim � 1 , so the two series either both converge or\nn �� 1\nn\nboth diverge M1R1\n� 1 1\np� �� diverges (as is a p-series with ) A1\nn 2 n 1\n�\nhence � diverges A1 ��\nn\nn 1\n[6 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.L1",
+    "5.15",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 15]\n(a) Using l'Hôpital's rule, find $\\lim_{x \\to \\infty} \\left( \\frac{\\arcsin\\left(\\frac{1}{\\sqrt{(x+1)}}\\right)}{\\frac{1}{\\sqrt{x}}} \\right)$. [6]\nConsider the infinite spiral of right angle triangles as shown in the following diagram.\n[Diagram: spiral of right-angled triangles sharing a common vertex; first triangle has legs 1 and 1 with hypotenuse $a_1$ and central angle $\\theta_1$; each subsequent triangle has the previous hypotenuse as adjacent side, opposite side 1, hypotenuse $a_2$, $a_3$, ... and central angles $\\theta_2$, $\\theta_3$, ...]\nThe $n$th triangle in the spiral has central angle $\\theta_n$, hypotenuse of length $a_n$ and opposite side of length 1, as shown in the diagram. The first right angle triangle is isosceles with the two equal sides being of length 1.\n(b) (i) Find $a_1$ and $a_2$ and hence write down an expression for $a_n$.\n(ii) Show that $\\theta_n = \\arcsin\\frac{1}{\\sqrt{(n+1)}}$. [3]\nConsider the series $\\sum_{n=1}^{\\infty} \\theta_n$.\n(c) Using a suitable test, determine whether this series converges or diverges. [6]"
+  },
+  {
+   "id": "math-2016-N-P3-calculus-q4",
+   "num": "4",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 16]\n(a) State the mean value theorem for a function that is continuous on the closed interval\n[a , b] and differentiable on the open interval ]a , b[ . [2]\nLet f (x) be a function whose first and second derivatives both exist on the closed interval\n[0 , h] .\n2 ( h − x )\nLet gx () = fh () − fx () − ( h − xf ) ′ () x − ( fh () − f () 0 − hf ′ () 0 ) .\n2 h\n(b) (i) Find g(0) .\n(ii) Find g(h) .\n(iii) Apply the mean value theorem to the function g(x) on the closed interval [0 , h]\nto show that there exists c in the open interval ]0 , h[ such that g'(c) = 0 .\n(iv) Find g'(x) .\n2 ( h − c )\n(v) Hence show that − ( h − cf ) ′′ () c + ( fh () − f () 0 − hf ′ () 0 )= 0 .\n2 h\n2 h\n(vi) Deduce that fh () = f () 0 + hf ′ () 0 + f ′′ () c . [9]\n2\nHence show that, for h > 0 (c)\n2\n− ≤ h. 1 cos() h [5]\n2",
+   "ms_text": "there exists cin the open interval � � 4. (a) ab such that , A1\nfb () � fa ()\n� fc � () A1\nb � a\nNote: Open interval is required for the A1.\n[2 marks]\n2 h\n(b) (i) g (0) � fh () � f (0) � hf � (0) � � fh () � f (0) � hf � (0) �\n2 h\n� 0 A1\n(ii) gh () � fh () � fh () � 0 � 0\n� 0 A1\n(iii) (() gx is a differentiable function since it is a combination of other\ndifferentiable functions f , f � and polynomials.)\nthere exists cin the open interval � 0,h such that �\n� gh () g (0)\n� � gc () A1\nh\n� gh () g (0)\n� 0 A1\nh\ngc � () � 0 hence AG\n2( h � x )\n� � � �� � � � (iv) gx () �� f () x � f () x � ( h � xf ) () x � fh () � f (0) � hf (0)\n2 h\nA1A1\nNote:A1 for the second and third terms and A1 for the other terms\n(all terms must be seen).\n2( h � x )\n�� ( h � xf ) �� () x � � fh () � f (0) � hf � (0) �\n2 h\n(v) putting x � c and equating to zero M1\n� 2( h c )\n� � �� � � � � � � � � � ( h cf ) () c fh () f (0) hf (0) gc () 0 AG\n2 h\n2\n� �� � � � � � � � (vi) f () c fh () f (0) hf (0) 0 A1\n2 h\n� � since h c 0 R1\n2 h\nf �� () c � fh () � f (0) � hf � (0)\n2\n2 h\nfh () � f (0) � hf � (0) � f �� () c AG\n2\n[9 marks]\nfx () � cos() x (c) letting M1\n� �� �� �� f () x sin() x f () x cos() x A1\n2 h\ncos() h � 1 � 0 � cos() c A1\n2\n2 h\n1 � cos() h � cos() c (A1)\n2\nsince cos() c� 1 R1\n2 h\n1 � cos() h � AG\n2\n[5 marks]\nNote: Allow f (x) �a�bcosx.\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L4",
+    "5.L3",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 16]\n(a) State the mean value theorem for a function that is continuous on the closed interval $[a, b]$ and differentiable on the open interval $]a, b[$. [2]\nLet $f(x)$ be a function whose first and second derivatives both exist on the closed interval $[0, h]$.\nLet $g(x) = f(h) - f(x) - (h-x)f'(x) - \\frac{(h-x)^2}{h^2}\\left(f(h) - f(0) - hf'(0)\\right)$.\n(b) (i) Find $g(0)$.\n(ii) Find $g(h)$.\n(iii) Apply the mean value theorem to the function $g(x)$ on the closed interval $[0, h]$ to show that there exists $c$ in the open interval $]0, h[$ such that $g'(c) = 0$.\n(iv) Find $g'(x)$.\n(v) Hence show that $-(h-c)f''(c) + \\frac{2(h-c)}{h^2}\\left(f(h) - f(0) - hf'(0)\\right) = 0$.\n(vi) Deduce that $f(h) = f(0) + hf'(0) + \\frac{h^2}{2}f''(c)$. [9]\n(c) Hence show that, for $h > 0$\n$1 - \\cos(h) \\le \\frac{h^2}{2}$. [5]"
+  }
+ ],
+ "status": "done"
+}

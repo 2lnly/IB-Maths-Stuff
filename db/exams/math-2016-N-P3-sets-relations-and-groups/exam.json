@@ -1,0 +1,106 @@
+{
+ "exam_id": "math-2016-N-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2016,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2016 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2016 November Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8816-7209; code N16/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2016-N-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 13]\nLet {G , ο} be the group of all permutations of 1 , 2 , 3 , 4 , 5 , 6 under the operation of\ncomposition of permutations.\n1 2 3 4 5 6\nWrite the permutation α=\n(a) (i) as a composition of disjoint cycles.\n3 4 6 2 1 5\n(ii) State the order of α . [3]\n1 2 3 4 5 6\nWrite the permutation β=\n(b) (i) as a composition of disjoint cycles.\n6 4 3 5 1 2\n(ii) State the order of β . [2]\n(c) Write the permutation αο β as a composition of disjoint cycles. [2]\n(d) Write the permutation βο α as a composition of disjoint cycles. [2]\n(e) State the order of {G , ο} . [2]\nConsider the following Venn diagram, where A= {1 , 2 , 3 , 4} , B= {3 , 4 , 5 , 6} .\nA B\n1 3 5\n2 4 6\n(f) Find the number of permutations in {G , ο} which will result in A , B and A ∩ B\nremaining unchanged. [2]",
+   "ms_text": "1. (a) (i) (1 3 6 5)(24) A1A1\n(ii) 4 A1\n[3 marks]\nNote: In (b) (c) and (d) single cycles can be omitted.\n(b) (i) (1 624 5)(3) A1\n(ii) 5 A1\n[2 marks]\n1 2 3 4 5 6\n=\n(c) (1 5 3 6 4)(2) (M1)A1\n5 2 6 1 3 4\n[2 marks]\n1 2 3 4 5 6\n=\n(d) (1 3 2 5 6)(4) (M1)A1\n3 5 2 4 6 1\nNote: Award A2A0 for (c) and (d) combined, if answers are the wrong way round.\n[2 marks]\n= (e) 6! 720 A2\n[2 marks]\n(f) any composition of the cycles (1 2), (3 4) and (5 6) (M1)\nso 32 = 8 A1\n[2 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.7",
+    "7.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 13]\nLet $\\{G, \\circ\\}$ be the group of all permutations of $1, 2, 3, 4, 5, 6$ under the operation of composition of permutations.\n(a) (i) Write the permutation $\\alpha = \\begin{pmatrix} 1 & 2 & 3 & 4 & 5 & 6 \\\\ 3 & 4 & 6 & 2 & 1 & 5 \\end{pmatrix}$ as a composition of disjoint cycles.\n(ii) State the order of $\\alpha$. [3]\n(b) (i) Write the permutation $\\beta = \\begin{pmatrix} 1 & 2 & 3 & 4 & 5 & 6 \\\\ 6 & 4 & 3 & 5 & 1 & 2 \\end{pmatrix}$ as a composition of disjoint cycles.\n(ii) State the order of $\\beta$. [2]\n(c) Write the permutation $\\alpha \\circ \\beta$ as a composition of disjoint cycles. [2]\n(d) Write the permutation $\\beta \\circ \\alpha$ as a composition of disjoint cycles. [2]\n(e) State the order of $\\{G, \\circ\\}$. [2]\nConsider the following Venn diagram, where $A = \\{1, 2, 3, 4\\}$, $B = \\{3, 4, 5, 6\\}$.\n[Diagram: Venn diagram of two overlapping sets A and B; 1, 2 in A only; 3, 4 in $A \\cap B$; 5, 6 in B only]\n(f) Find the number of permutations in $\\{G, \\circ\\}$ which will result in $A$, $B$ and $A \\cap B$ remaining unchanged. [2]"
+  },
+  {
+   "id": "math-2016-N-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 21,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 21]\n(a) Let A be the set {x | x∈ϒ , x≠ 0} . Let B be the set {x | x∈]-1 , +1[ , x≠ 0} .\n=2\nA function f : A → B is defined by fx () arctan () x .\nÀ\n(i) Sketch the graph of y=f (x) and hence justify whether or not f is a bijection.\n(ii) Show that A is a group under the binary operation of multiplication.\n(iii) Give a reason why B is not a group under the binary operation of multiplication.\n(iv) Find an example to show that f (a × b) =f (a) ×f (b) is not satisfied for all\na , b∈A . [13]\n(b) Let D be the set {x | x ∈ϒ, x> 0} .\nA function g : ϒ→D is defined by g(x) = ex .\nSketch the graph of y =g(x) and hence justify whether or not g is a bijection. (i)\n(ii) Show that g(a + b) =g(a) ×g(b) for all a , b ∈ϒ .\n(iii) Given that {ϒ , +} and {D , ×} are both groups, explain whether or not they are\nisomorphic. [8]",
+   "ms_text": "2. (a) (i)\nA1\nNotes: Award A1 for general shape, labelled asymptotes, and\nx ≠ showing that 0 .\ngraph shows that it is injective since it is increasing or by the\nhorizontal line test R1\ngraph shows that it is surjective by the horizontal line test R1\nNote: Allow any convincing reasoning.\nso f is a bijection A1\n(ii) closed since non-zero real times non-zero real equals non-zero real A1R1\nwe know multiplication is associative R1\nidentity is 1 A1\ninverse of xis 1 ( x ≠ 0)\nA1\nx\nhence it is a group AG\n(iii) B does not have an identity A2\nhence it is not a group AG\n1 1 1 1\n(iv) f (1 × 1) = f (1) = whereas f (1) × f (1) = × = is one\n2 2 2 4\ncounterexample A2\nhence statement is not satisfied AG\n[13marks]\n(b) (i)\naward A1 for general shape going through (0,1) and with domain ϒ A1\ngraph shows that it is injective since it is increasing or by the\nhorizontal line test and graph shows that it is surjective by the\nhorizontal line test R1\nNote: Allow any convincing reasoning.\nso g is a bijection A1\n+ = + b × = a × b = a + b (ii) ga ( b ) ea and ga () gb () e e e M1A1\n+ = × hence ga ( b ) ga () gb () AG\n(iii) since g is a bijection and the homomorphism rule is obeyed R1R1\nthe two groups are isomorphic A1\n[8 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.3",
+    "7.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 21]\n(a) Let $A$ be the set $\\{x \\mid x \\in \\mathbb{R}, x \\neq 0\\}$. Let $B$ be the set $\\{x \\mid x \\in ]-1, +1[, x \\neq 0\\}$.\nA function $f: A \\to B$ is defined by $f(x) = \\frac{2}{\\pi}\\arctan(x)$.\n(i) Sketch the graph of $y = f(x)$ and hence justify whether or not $f$ is a bijection.\n(ii) Show that $A$ is a group under the binary operation of multiplication.\n(iii) Give a reason why $B$ is not a group under the binary operation of multiplication.\n(iv) Find an example to show that $f(a \\times b) = f(a) \\times f(b)$ is not satisfied for all $a, b \\in A$. [13]\n(b) Let $D$ be the set $\\{x \\mid x \\in \\mathbb{R}, x > 0\\}$.\nA function $g: \\mathbb{R} \\to D$ is defined by $g(x) = e^x$.\n(i) Sketch the graph of $y = g(x)$ and hence justify whether or not $g$ is a bijection.\n(ii) Show that $g(a + b) = g(a) \\times g(b)$ for all $a, b \\in \\mathbb{R}$.\n(iii) Given that $\\{\\mathbb{R}, +\\}$ and $\\{D, \\times\\}$ are both groups, explain whether or not they are isomorphic. [8]"
+  },
+  {
+   "id": "math-2016-N-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 15]\nAn Abelian group, {G , *} , has 12 different elements which are of the form ai * bj where\ni ∈{1 , 2 , 3 , 4} and j ∈{1 , 2 , 3} . The elements a and b satisfy a4=e and b3=e where\ne is the identity.\n(a) State the possible orders of an element of {G , *} and for each order give an example\nof an element of that order. [8]\nLet {H , *} be the proper subgroup of {G , *} having the maximum possible order.\n(b) (i) State a generator for {H , *} .\n(ii) Write down the elements of {H , *} .\nWrite down the elements of the coset of H containing a . (iii) [7]",
+   "ms_text": "3. (a) orders are 1 2 3 4 6 12 A2\nNote:A1 for four or five correct orders.\nNote: For the rest of this question condone absence of ∗ and accept\nequivalent expressions.\norder: 1 element: e A1\n2 a2 A1\n3 b or b2 A1\n4 a or a3 A1\n6 a2∗b or a2∗b2 A1\n12 a∗b or a∗b2 or a3∗b or a3∗b2 A1\n[8 marks]\n(b) (i) H has order 6 (R1)\ngenerator is a2∗b or a2∗b2 A1\n2 2 2 2 2 (ii) H = { ea , ∗ bb , , a , ba , ∗ b } A3\nNote:A2 for 4 or 5 correct. A1 for 2 or 3 correct.\n(iii) required coset is Ha ( or aH ) (R1)\n{ 3 2 3 3 2 } Ha = aa , ∗ bab , ∗ , a , aba ∗ , ∗ b A1\n[7 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.6",
+    "7.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 15]\nAn Abelian group, $\\{G, *\\}$, has 12 different elements which are of the form $a^i * b^j$ where $i \\in \\{1, 2, 3, 4\\}$ and $j \\in \\{1, 2, 3\\}$. The elements $a$ and $b$ satisfy $a^4 = e$ and $b^3 = e$ where $e$ is the identity.\n(a) State the possible orders of an element of $\\{G, *\\}$ and for each order give an example of an element of that order. [8]\nLet $\\{H, *\\}$ be the proper subgroup of $\\{G, *\\}$ having the maximum possible order.\n(b) (i) State a generator for $\\{H, *\\}$.\n(ii) Write down the elements of $\\{H, *\\}$.\n(iii) Write down the elements of the coset of $H$ containing $a$. [7]"
+  },
+  {
+   "id": "math-2016-N-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 11]\nA relation S is defined on ϒ by aSb if and only if ab> 0 .\n(a) Show that S is\n(i) not reflexive;\n(ii) symmetric;\n(iii) transitive. [4]\nA relation R is defined on a non-empty set A . R is symmetric and transitive but not reflexive.\n(b) Explain why there exists an element a ∈ A that is not related to itself. [1]\nHence prove that there is at least one element of A that is not related to any other (c)\nelement of A . [6]",
+   "ms_text": "4. (a) (i) 00 S is not true so S is not reflexive A1AG\n(ii) aSb ⇒ ab > 0 ⇒ ba > 0 ⇒ bSa so S is symmetric R1AG\n2 (iii) aSb and bSc ⇒ ab > 0 and bc > 0 ⇒ abc > 0 ⇒ ac > 0 M1\n2 since b> 0 (as b could not be 0) ⇒ aSc so S is transitive R1AG\n2 Note:R1 is for indicating that b> 0 .\n[4 marks]\n(b) since Ris not reflexive there is at least one element a belonging to Asuch\nthata is not related to a R1AG\n[1 mark]\n(c) argue by contradiction: suppose that a is related to some other element b,\nie, aRb M1\nsince Ris symmetric aRbimplies bRa R1A1\nsince Ris transitive aRband bRaimplies aRa R1A1\ngiving the required contradiction R1\nhence there is at least one element of Athat is not related to any other\nmember of A AG\n[6 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 11]\nA relation $S$ is defined on $\\mathbb{R}$ by $aSb$ if and only if $ab > 0$.\n(a) Show that $S$ is\n(i) not reflexive;\n(ii) symmetric;\n(iii) transitive. [4]\nA relation $R$ is defined on a non-empty set $A$. $R$ is symmetric and transitive but not reflexive.\n(b) Explain why there exists an element $a \\in A$ that is not related to itself. [1]\n(c) Hence prove that there is at least one element of $A$ that is not related to any other element of $A$. [6]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,31 @@
+{
+  "exam_id": "math-2009-M-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.5", "7.6", "7.4", "7.9"],
+      "text_clean": "1. [Maximum mark: 17]\n(a) Show that $\\{1, -1, \\mathrm{i}, -\\mathrm{i}\\}$ forms a group of complex numbers $G$ under multiplication. [4 marks]\n(b) Consider $S = \\{e, a, b, a*b\\}$ under an associative operation $*$ where $e$ is the identity element. If $a*a = b*b = e$ and $a*b = b*a$, show that\n(i) $a*b*a = b$,\n(ii) $a*b*a*b = e$. [2 marks]\n(c) (i) Write down the Cayley table for $H = \\{S, *\\}$.\n(ii) Show that $H$ is a group.\n(iii) Show that $H$ is an Abelian group. [6 marks]\n(d) For the above groups, $G$ and $H$, show that one is cyclic and write down why the other is not. Write down all the generators of the cyclic group. [4 marks]\n(e) Give a reason why $G$ and $H$ are not isomorphic. [1 mark]"
+    },
+    "2": {
+      "topics": ["7"],
+      "subtopics": ["7.4"],
+      "text_clean": "2. [Maximum mark: 11]\nThe binary operation $*$ is defined on $\\mathbb{R}$ as follows. For any elements $a, b \\in \\mathbb{R}$\n$a*b = a+b+1$.\n(a) (i) Show that $*$ is commutative.\n(ii) Find the identity element.\n(iii) Find the inverse of the element $a$. [5 marks]\n(b) The binary operation $\\bullet$ is defined on $\\mathbb{R}$ as follows. For any elements $a, b \\in \\mathbb{R}$, $a \\bullet b = 3ab$. The set $S$ is the set of all ordered pairs $(x, y)$ of real numbers and the binary operation $\\odot$ is defined on the set $S$ as\n$(x_1, y_1) \\odot (x_2, y_2) = (x_1 * x_2, y_1 \\bullet y_2)$.\nDetermine whether or not $\\odot$ is associative. [6 marks]"
+    },
+    "3": {
+      "topics": ["7"],
+      "subtopics": ["7.2"],
+      "text_clean": "3. [Maximum mark: 14]\nThe relation $R$ is defined on $\\mathbb{Z} \\times \\mathbb{Z}$ such that $(a, b) R (c, d)$ if and only if $a - c$ is divisible by 3 and $b - d$ is divisible by 2.\n(a) Prove that $R$ is an equivalence relation. [7 marks]\n(b) Find the equivalence class for $(2, 1)$. [2 marks]\n(c) Write down the five remaining equivalence classes. [5 marks]"
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.3"],
+      "text_clean": "4. [Maximum mark: 11]\n(a) Show that $f: \\mathbb{R} \\times \\mathbb{R} \\to \\mathbb{R} \\times \\mathbb{R}$ defined by $f(x, y) = (2x + y, x - y)$ is a bijection. [10 marks]\n(b) Find the inverse of $f$. [1 mark]"
+    },
+    "5": {
+      "topics": ["7"],
+      "subtopics": ["7.1"],
+      "qtype": "short",
+      "text_clean": "5. [Maximum mark: 7]\nProve that set difference is not associative."
+    }
+  }
+}

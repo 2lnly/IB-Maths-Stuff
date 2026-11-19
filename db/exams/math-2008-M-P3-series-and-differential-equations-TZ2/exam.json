@@ -1,0 +1,131 @@
+{
+ "exam_id": "math-2008-M-P3-series-and-differential-equations-TZ2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2008,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "3",
+ "option": "Series and differential equations",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_3_Series_and_differential_equations_TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_3_Series_and_differential_equations_TZ2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2208-7216; code M08/5/MATHL/HP3/ENG/TZ2/SE; marks sum matches expected total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2008-M-P3-series-and-differential-equations-TZ2-q1",
+   "num": "1",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 10]\nln x\n(a) Find the value of lim . [3 marks]\nx → 1 sin 2π x\n2 x\n1 − e\n(b) By using the series expansions for ex2 and cos x evaluate lim . [7 marks]\nx → 0 1 − cos x",
+   "ms_text": "1. (a) Using l’Hopital’s rule,\n⎛ 1 ⎞\n⎜ ⎟ ⎛ ln x\n⎞= x\nlim ⎜ ⎟ lim ⎜ ⎟ M1A1\nx 1 x 1 → ⎝ sin 2 π x ⎠ → ⎜ 2cos2 π π x ⎟\n⎝ ⎠\n1\n= A1\n2 π\n[3 marks]\n⎛ ⎛ 4 6 ⎞ ⎞ x x\n1 − 1 + x 2 + + + ... 2 ⎜ ⎜ ⎟ ⎟\n⎛ 1 e x ⎞ 2! 3! −\n⎜ ⎝ ⎠ ⎟\n(b) lim ⎜ ⎟ = lim M1A1A1\n⎜ ⎟ x → 0 1 − cos x x → 0 ⎜ ⎛ x 2 x 4 ⎞ ⎟\n⎝ ⎠\n⎜ 1 − ⎜ 1 − + − ... ⎟ ⎟ ⎜ ⎟\n⎝ 2! 4! ⎠ ⎝ ⎠\nNote: Award M1 for evidence of using the two series.\n⎛ ⎛ 4 6 ⎞ ⎞\n2 x x − x − − − ...\n⎜ ⎜ ⎟ ⎟\n2! 3! ⎜ ⎝ ⎠ ⎟\n= lim A1\n⎜ 2 4 ⎟ x → 0 ⎛ x x ⎞\n⎜ ⎜ − + ... ⎟ ⎟ ⎜ ⎟\n⎝ 2! 4! ⎠ ⎝ ⎠\nEITHER\n⎛ ⎛ 2 4 ⎞ ⎞ x x\n⎜ −− 1 − − ... ⎟ ⎜ ⎟\n2! 3! ⎜ ⎝ ⎠ ⎟\n= lim M1A1\n⎜ 2 ⎟ x → 0 ⎛ 1 x ⎞\n⎜ ⎜ − + ... ⎟ ⎟ ⎜ ⎟\n⎝ ⎝ 2! 4! ⎠ ⎠\n− 1\n2 A1 = = −\n1\n2\nOR\n⎛ ⎛ 3 5 ⎞ ⎞ 4 x 6 x\n⎜ − 2 x − − − ... ⎟ ⎜ ⎟\n2! 3! ⎜ ⎝ ⎠ ⎟\n= lim M1A1\n⎜ 3 ⎟ x → 0 ⎛ 2 x 4 x ⎞\n⎜ ⎜ − + ... ⎟ ⎟ ⎜ ⎟\n⎝ ⎝ 2! 4! ⎠ ⎠\n⎛ ⎛ 4 x 2 6 x 4 ⎞ ⎞\n⎜ −− 2 − − ... ⎟ ⎜ ⎟\n2! 3! ⎜ ⎝ ⎠ ⎟\n= lim\n⎜ 2 ⎟ x → 0 ⎛ 4 x ⎞\n⎜ ⎜ 1 − + ... ⎟ ⎟ ⎜ ⎟\n⎝ ⎝ 4! ⎠ ⎠\n− 2\n2 A1 = = −\n1\n[7 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.19"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 10]\n(a) Find the value of $\\lim_{x\\to 1}\\left(\\frac{\\ln x}{\\sin 2\\pi x}\\right)$. [3 marks]\n(b) By using the series expansions for $e^{x^2}$ and $\\cos x$ evaluate $\\lim_{x\\to 0}\\left(\\frac{1-e^{x^2}}{1-\\cos x}\\right)$. [7 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-series-and-differential-equations-TZ2-q2",
+   "num": "2",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 9]\ndx\nFind the exact value of ∞∫ .\n0 ( x + 2 )( 2 x + 1 )",
+   "ms_text": "1 A B A (2 x + 1) + Bx ( + 2)\n2. Let = + = M1A1\n( x + 2)(2 x + 1) x + 2 2 x + 1 ( x + 2)(2 x + 1)\n1\nx = −→ 2 A = − A1\n3\n1 2\nx = − → B = A1 N3\n2 3\n⎡ ⎤ 1 h 2 1\nI = ∫ − d x M1 ⎢ ⎥\n3 0 (2 x + 1) ( x + 2) ⎣ ⎦\nh 1ln(2\n= [ x + 1) − ln( x + 2) ] 0 A1\n3\n1 ⎡ ⎛ ⎛ 2 h + 1 ⎞ ⎞ 1 ⎤\n= ⎢ limln − ln ⎥ A1 ⎜ ⎜ ⎟ ⎟\n3 h →∞ ⎝ ⎝ h + 2 ⎠ ⎠ 2 ⎣ ⎦\n1 ⎛ 1 ⎞\n= ln 2 − ln A1 ⎜ ⎟\n3 ⎝ 2 ⎠\n2 ln 2 = A1\n3\nNote: If the logarithms are not combined in the third from last line the\nlast three A1 marks cannot be awarded.\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L5",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 9]\nFind the exact value of $\\int_0^{\\infty}\\frac{\\mathrm{d}x}{(x+2)(2x+1)}$."
+  },
+  {
+   "id": "math-2008-M-P3-series-and-differential-equations-TZ2-q3",
+   "num": "3",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 14]\nA curve that passes through the point (, 12 is defined by the differential equation )\nd y 2\n= 2 x ( 1 + x − y ) .\nd x\n(a) (i) Use Euler’s method to get an approximate value of y when x =1 3., taking\nsteps of 0.1. Show intermediate steps to four decimal places in a table.\n(ii) How can a more accurate answer be obtained using Euler’s method? [5 marks]\n(b) Solve the differential equation giving your answer in the form y = fx () . [9 marks]",
+   "ms_text": "d y 2\n3. (a) (i) 2(1 x + x − y )\nx= d\nix iy iy′ ∆ y M1\n1 2 0 0\n1.1 2 0.4620 0.0462\n1.2 2.0462 0.9451 0.0945\n1.3 2.1407 A2\nNote: Award A2 for complete table.\nAward A1 for a reasonable attempt.\nf (1.3) = 2.14(accept 2.141) A1\n(ii) Decrease the step size A1\n[5 marks]\nd y 2\n(b) 2(1 x + x − y )\nx= d\nd y 2\n2 xy = 2(1 x + x ) M1\nx+ d\n∫ 2d xx x 2\nIntegrating factor is e = e M1A1\nx 2 x 2 x 2 2 So, e y =\n∫ (2e x + 2e x x )d x A1\n2 2 2\n= e x + x 2 e x 2e x x d x M1A1 −∫\n2 2 2 x 2 x x\n= e + x e − e + k\n2\n2ex = x + k A1\n2 2\nex − y = x + k\n− 1 x = 1, y = 2 → 2 =+ 1 k e M1\nk= e\n2 − x 2 y = x + 1e A1\n[9 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 14]\nA curve that passes through the point $(1, 2)$ is defined by the differential equation\n$$\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 2x(1+x^2-y).$$\n(a) (i) Use Euler's method to get an approximate value of $y$ when $x = 1.3$, taking steps of $0.1$. Show intermediate steps to four decimal places in a table.\n(ii) How can a more accurate answer be obtained using Euler's method? [5 marks]\n(b) Solve the differential equation giving your answer in the form $y = f(x)$. [9 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-series-and-differential-equations-TZ2-q4",
+   "num": "4",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 14]\n(a) Given that y = ln cos, show that the first two non-zero terms of the Maclaurin x\n2 4 x x\n[8 marks] series for y are − −\n12.\n2\n(b) Use this series to find an approximation in terms of π for ln 2 . [6 marks]",
+   "ms_text": "4. (a) fx () = lncos x\n− sin x\nf ′ () x = = − tan x M1A1\ncos x\n2 f ′′ () x = − sec x M1\nf ′′′ () x = − 2secsectan x x x A1\niv 2 2 2 f () x = − 2sec x (sec x ) − 2tan(2sec x x tan) x\n4 2 2 = − 2sec x − 4sec x tan x A1\nx 2 x 3 x 4 iv\nfx () = f (0) + xf ′ (0) + f ′′ (0) + f ′′′ (0) + f (0) + ...\n2! 3! 4!\nf (0) = 0, M1\nf ′ (0) = 0,\nf ′′ (0) = − 1,\nf ′′′ (0) 0, =\nf iv (0) 2, A1 = −\nNotes:Award the A1 if all the substitutions are correct.\nAllow FT from their derivatives.\nx 2 2 x 4\nln(cos) x≈− − A1\n2! 4!\nx 2 x 4\n= − − AG\n2 12\n[8 marks]\n(b) Some consideration of the manipulation of ln2 (M1)\nAttempt to find an angle (M1)\nEITHER\nπ\nTaking x = A1\n3\n2 4\n⎛ π ⎞ ⎛ π ⎞\n⎜ ⎟ 2 ⎜ ⎟\n1 ⎝ 3 ⎠ ⎝ 3 ⎠\nln ≈− − A1\n2 2! 4!\nπ 2 π 4\n2\n9 81\n− ln 2 ≈− − A1\n2! 4!\n2 4 2 2 π π π ⎛ 1 π ⎞\nln2 ≈ + = ⎜ + ⎟ A1\n18 972 9 ⎝ 2 108 ⎠\nOR\nπ\nTaking x A1 =\n4\n2 4\n⎛ ⎞ ⎛ ⎞ π π\n2 ⎜ ⎟ ⎜ ⎟\n1 ⎝ 4 ⎠ ⎝ 4 ⎠\nln A1 ≈− −\n2 2! 4!\n2 4 π π\n2\n1 16 256\n− ln 2 ≈− − A1\n2 2! 4!\n2 4 2 ⎛ 2 ⎞ π π π 1 π\nln2 ≈ + = + A1 ⎜ ⎟\n16 1536 8 2 192 ⎝ ⎠\n[6 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.19",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 14]\n(a) Given that $y = \\ln\\cos x$, show that the first two non-zero terms of the Maclaurin series for $y$ are $-\\frac{x^2}{2}-\\frac{x^4}{12}$. [8 marks]\n(b) Use this series to find an approximation in terms of $\\pi$ for $\\ln 2$. [6 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-series-and-differential-equations-TZ2-q5",
+   "num": "5",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 13]\n∞ n n ( − 1 ) x\n(a) Find the radius of convergence of the series ∑ . [6 marks]\nn ( n + 13 )\nn = 0\n∞\n( 3 3 ) (b) Determine whether the series ∑ n +− 1 n is convergent or divergent. [7 marks]\nn = 0",
+   "ms_text": "5. (a) The ratio test gives\nu (1) − n + 1 x n + 1 ( n + 1)3 n\nn + 1 lim = M1A1\nlim( n + 1 n n n →∞ u n →∞ n\n+ 2)3 (1) − x n\n( n + 1) x\n= A1 lim3(\nn →∞ n + 2)\nx\nA1 =\n3\nx< So the series converges for 1, A1\n3\nthe radius of convergence is 3 A1\nNote: Do not penalise lack of modulus signs.\n[6 marks]\n3 3 (b) u = n +− 1 n\nn\n⎛ 1 ⎞\n= n ⎜ 3 1 + − 1 ⎟ M1A1\n⎜ 3 ⎟ n\n⎝ ⎠\n⎛ 1 1 5 ⎞\n= n 1 + − + − ...1 − A1 ⎜\n3 6 9 ⎟ ⎝ 3 n 9 n 81 n ⎠\n1\nusing nv = as the auxilliary series, M1\n2 n\nu 1 1 1 1 1\nsince lim n = and + + + + ... converges M1A1\nn →∞ v 3 1 2 2 2 3 2 4 2\nn\nthen ∑ converges A1 nu\nNote:AwardM1A1A1M0M0A0A0 to candidates attempting to use the integral test.\n[7 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L2",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 13]\n(a) Find the radius of convergence of the series $\\sum_{n=0}^{\\infty}\\frac{(-1)^n x^n}{(n+1)3^n}$. [6 marks]\n(b) Determine whether the series $\\sum_{n=0}^{\\infty}\\left(\\sqrt[3]{n^3+1}-n\\right)$ is convergent or divergent. [7 marks]",
+   "review_note": "(b) uses extended binomial expansion of (1+1/n^3)^(1/3) then limit comparison with 1/n^2."
+  }
+ ],
+ "status": "done"
+}

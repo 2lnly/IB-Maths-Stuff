@@ -1,0 +1,133 @@
+{
+ "exam_id": "physics-2024-N-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.1"
+   ],
+   "qtype": "short",
+   "text_clean": "1. A train starting from rest travels from A to B with acceleration $0.20\\,\\text{m s}^{-2}$ and then decelerates to rest from B to C. The total distance from A to C is 1800 m. The graph shows the variation with time of the speed of the train.\n[Graph (diagram not to scale): speed against time; speed rises linearly from A at time 0 to a maximum at B at time $0.80T$, then falls linearly to zero at C at time $T$]\nThe time of travel from A to C is $T$ and the time from A to B is $0.80T$.\n(a) Write down the speed of the train when at point B in terms of $T$. [1]\n(b) Determine $T$. [2]"
+  },
+  "2": {
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.2",
+    "A.3"
+   ],
+   "qtype": "long",
+   "text_clean": "2. (a) In a “loop-the-loop” toy, a car of mass 0.12 kg is released from rest. The initial position of the car is 45 cm above level ground. The radius of the circular loop is 15 cm. The car reaches the top of the loop at position P. Frictional and air resistance forces are negligible.\n[Diagram (not to scale): car at initial position on a curved track 45 cm above level ground; track descends into a vertical circular loop of radius 15 cm; P is the top of the loop]\n(i) Show that the speed of the car at P is $1.7\\,\\text{m s}^{-1}$. [2]\n(ii) Determine the normal force exerted by the loop on the car at P. [3]\n(iii) State why the car stays in contact with the loop. [1]\n(b) At point A the car collides with a block of mass 0.18 kg and sticks to it. After the collision, the car and the block move together with speed $1.2\\,\\text{m s}^{-1}$.\n[Diagram (not to scale): after the loop, the car moves towards a block at A on level ground; a rough surface extends 0.20 m from A to B where car and block stop]\n(i) Calculate the speed of the car just before it collides with the block. [2]\n(ii) The surface from A to B is rough and the combined car and block come to rest at B. The distance AB is 0.20 m. Determine the rate of change of momentum of the combined car and block from A to B. [3]\n(iii) Calculate the dynamic coefficient of friction between the rough surface and the combined car and block. [2]"
+  },
+  "3": {
+   "topics": [
+    "B"
+   ],
+   "subtopics": [
+    "B.3"
+   ],
+   "qtype": "short",
+   "text_clean": "3. (a) Outline, by reference to Newton’s third law, how a gas in a container exerts pressure on the container walls. [2]\n(b) State one difference between an ideal gas and a real gas. [1]\n(c) Two containers of volume $0.20\\,\\text{m}^3$ and $0.10\\,\\text{m}^3$ are filled with an ideal gas. The pressure in the larger container is $3.0\\times10^4$ Pa. The pressure in the smaller container is $9.0\\times10^4$ Pa. The temperature of the gas in both containers is the same. A thin tube with a valve joins the containers. The valve is initially closed.\n[Diagram: container of $0.20\\,\\text{m}^3$ at $3.0\\times10^4$ Pa joined by a thin tube with a valve to a container of $0.10\\,\\text{m}^3$ at $9.0\\times10^4$ Pa]\nThe valve is opened so that gas can move from one container to the other. The temperature remains unchanged.\nDetermine the new pressure of the gas. [3]"
+  },
+  "4": {
+   "topics": [
+    "C",
+    "X"
+   ],
+   "subtopics": [
+    "C.2",
+    "C.1",
+    "C.4",
+    "X.1"
+   ],
+   "qtype": "long",
+   "answer_status": "ok",
+   "add_flags": [],
+   "note": "MS crop for (a)(iv) is missing the working line 'v = 0.16/1.936e-2 = 8.3 m s-1' at the bottom of MS page 7 (index 6): segmenter treats the superscript '-1' text line (y0 > 0.86h) as a page-number header and sets P.bottom above it, so overrides cannot recover it. Rest of MS complete; the 8.3/8.4 answer is still visible in the notes. Fix needs HDR_RE page-number rule tightening in seg_physics.py. | fixed by segmenter update",
+   "text_clean": "4. (a) (i) State what is meant by a transverse wave. [1]\nA transverse wave is travelling to the right on a string. The graph shows, at one particular time, the variation of the displacement $y$ with distance $x$ along the string. Two points, P and Q, on the string have been marked.\n[Graph: $y$/cm from −4 to 4 against $x$/m from 0 to 3.0; sinusoidal wave of amplitude 4 cm and wavelength 1.2 m, $y = 4$ cm at $x = 0$; P at a trough ($x \\approx 0.6$ m, $y = -4$ cm); Q on the axis at $x \\approx 0.9$ m ($y = 0$)]\n(ii) Explain whether P or Q has the greater acceleration. [2]\n(iii) The speed of the wave is $62\\,\\text{m s}^{-1}$. Calculate the period of the wave giving your answer to the correct number of significant figures. [2]\n(iv) Calculate the average speed of P during one complete oscillation. [2]\n(b) The string is now stretched between an oscillator and a fixed point. When the oscillator is set to a frequency of 120 Hz the standing wave shown in the diagram is observed on the string.\n[Diagram: standing wave between two fixed end points with one node in the middle (two loops, second harmonic), shown as solid and dashed extreme positions]\nDraw the standing wave that would be observed on the same string when the oscillator is set to a frequency of 180 Hz. [1]\n[Answer box with the two end points marked]\n(c) Physicists and engineers study simple harmonic oscillations even though most oscillations are not simple harmonic. Suggest why this is a useful thing to do. [1]"
+  },
+  "5": {
+   "topics": [
+    "B"
+   ],
+   "subtopics": [
+    "B.5"
+   ],
+   "qtype": "long",
+   "text_clean": "5. (a) Two resistors, X and Y, are connected in series to a cell of emf $E$ and negligible internal resistance. The resistances of X and Y are constant.\n[Circuit: cell of emf $E$ in series with resistors X and Y]\nThe power dissipated in X is greater than that in Y.\nState and explain how the resistance of X compares with the resistance of Y. [2]\n(b) X and Y are now connected in parallel to the same cell.\n[Circuit: cell of emf $E$ connected across X and Y in parallel]\nState and explain which resistor has the greater power dissipation. [2]\n(c) A lamp Z and a resistor R have the $I$-$V$ characteristics shown in the graph.\n[Graph: $I$/mA from 0 to 100 against $V$/V from 0 to 10; R is a straight line through the origin reaching about 62 mA at 10 V; Z is a curve through the origin, concave down, reaching 100 mA at 10 V (about 50 mA at 4 V)]\n(i) Describe the variation with voltage of the resistance of Z. [2]\n(ii) R and Z are connected in series to a cell of emf 12 V and negligible internal resistance.\n[Circuit: 12 V cell in series with resistor R and lamp Z]\nDetermine, using the graph, the power dissipated in lamp Z. [3]"
+  },
+  "6": {
+   "topics": [
+    "E",
+    "X"
+   ],
+   "subtopics": [
+    "E.3",
+    "E.1",
+    "X.2"
+   ],
+   "qtype": "long",
+   "text_clean": "6. The binding energy of the stable nuclide $^{131}_{54}\\text{Xe}$ is 1.105 GeV.\n(a) (i) Outline what is meant by binding energy. [1]\n(ii) Calculate, in $\\text{GeV c}^{-2}$, the mass of a nucleus of $^{131}_{54}\\text{Xe}$. [2]\n(b) $^{133}_{54}\\text{Xe}$ and $^{131}_{54}\\text{Xe}$ are two isotopes of xenon.\n(i) Outline what is meant by isotopes. [2]\n(ii) $^{133}_{54}\\text{Xe}$ is radioactive. Suggest how the binding energy per nucleon for $^{131}_{54}\\text{Xe}$ compares with that of $^{133}_{54}\\text{Xe}$. [1]\n(iii) Determine the number of up quarks (u quarks) in the nucleus of $^{131}_{54}\\text{Xe}$. [2]\n(c) The graph shows the variation with time of the activity of a pure sample of $^{133}_{54}\\text{Xe}$.\n[Graph: $A$/$10^7$ Bq from 0 to 10 against $t$/days from 0 to 10; exponential decay from 9.0 at $t = 0$ to about 2.4 at $t = 10$ days]\n(i) Estimate the half-life of $^{133}_{54}\\text{Xe}$. [1]\n(ii) Calculate the activity of the sample after 25 days as a fraction of the initial activity. [3]"
+  },
+  "7": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.3"
+   ],
+   "qtype": "short",
+   "text_clean": "7. (a) Describe the energy transfers taking place in a wind generator. [2]\n(b) The maximum power that can be extracted from a wind generator is given by $P = \\frac{1}{2}\\rho A v^3$.\nState one assumption made in deriving this equation. [1]\n(c) The following data are available for a wind generator:\nBlade radius = 2.5 m\nAir density = $1.2\\,\\text{kg m}^{-3}$\nWind speed incident on blades = $6.8\\,\\text{m s}^{-1}$\nWind speed after leaving blades = $2.6\\,\\text{m s}^{-1}$\nDetermine the maximum power, stating the correct unit, produced by this wind generator. [2]"
+  },
+  "8": {
+   "topics": [
+    "C",
+    "X"
+   ],
+   "subtopics": [
+    "C.3",
+    "X.4"
+   ],
+   "qtype": "long",
+   "text_clean": "8. (a) Light of wavelength $6.0\\times10^{-7}$ m is incident on two parallel slits.\nThe graph shows the variation with diffraction angle $\\theta$ of the intensity $I$ of light observed on a screen far from the slits. $I_0$ is the intensity of light on the screen due to one slit only.\n[Graph: $I$ (axis marked $I_0$, $2I_0$, $3I_0$, $4I_0$) against $\\theta$/rad from −0.06 to 0.06; two-slit interference fringes spaced 0.01 rad apart, central maximum $4I_0$ at $\\theta = 0$, fringe heights decreasing under a single-slit envelope with minima at about $\\pm0.05$ rad and small secondary maxima beyond]\n(i) Identify a feature of this graph that suggests that the slit width is not negligible. [1]\n(ii) Estimate the slit width. [2]\n(iii) Outline how the central maximum is formed. [3]\n(iv) Explain why the intensity of the central maximum is equal to $4I_0$. [2]\n(b) The spectrum of sodium contains two lines at wavelengths 589.0 nm and 589.6 nm.\n400 slits of a diffraction grating are illuminated. Determine whether these lines are resolved in the second order. [2]"
+  },
+  "9": {
+   "topics": [
+    "D"
+   ],
+   "subtopics": [
+    "D.1"
+   ],
+   "qtype": "short",
+   "text_clean": "9. (a) The gravitational potential due to an isolated point mass is zero at infinity. Explain why the gravitational potential at all other points is negative. [2]\n(b) A probe is launched from the surface of a planet with a speed $0.9v_{\\text{esc}}$ where $v_{\\text{esc}}$ is the escape speed from the planet.\n(i) State what is meant by escape speed. [1]\n(ii) The radius of the planet is $R$. Determine, in terms of $R$, the maximum height above the surface the probe can reach. [3]"
+  },
+  "10": {
+   "topics": [
+    "X",
+    "D"
+   ],
+   "subtopics": [
+    "X.6",
+    "D.4"
+   ],
+   "qtype": "long",
+   "text_clean": "10. The diagram shows an ideal transformer with an iron core. A resistor R is connected to the secondary coil.\n[Diagram: square iron core with a primary coil connected to an ac supply on the left limb and a secondary coil connected to resistor R on the right limb]\n(a) Describe the function of the iron core. [1]\n(b) An alternating voltage is applied to the primary coil. Explain, using Faraday’s law, why a voltage is induced in the secondary coil. [3]\n(c) The graph shows the variation with time $t$ of the voltage $V$ in the primary coil.\n[Graph: $V$/V from −40 to 40 against $t$/ms from 0 to 30; sinusoidal voltage of peak 40 V and period 20 ms]\nThe number of turns in the primary coil is 600. The peak value of the voltage in the secondary coil is 120 V.\n(i) Calculate the number of turns in the secondary coil. [2]\n(ii) Calculate the frequency of voltage in the secondary coil. [1]\n(d) For the input voltage in (c) the average power dissipated in the resistor R is 2.5 W.\nDetermine\n(i) the root mean square (rms) current in R. [2]\n(ii) the resistance of R. [1]"
+  },
+  "11": {
+   "topics": [
+    "E",
+    "D"
+   ],
+   "subtopics": [
+    "E.2",
+    "D.2"
+   ],
+   "qtype": "short",
+   "note": "(b)(ii) carries 3 marks on energy change of electrons crossing a 0.60 V retarding p.d. (tagged D.2).",
+   "text_clean": "11. (a) Electrons are emitted from a metal surface when very low intensity light is incident on it. This emission occurs with no observable time delay.\nOutline why this observation is not consistent with the wave theory of light. [2]\n(b) Light of wavelength $5.2\\times10^{-7}$ m is incident on a metal surface and causes the emission of electrons of maximum kinetic energy 1.8 eV.\n[Diagram: evacuated tube containing an illuminated metal plate emitting an electron $e^-$ towards a collecting plate; the plates are connected to a variable power supply]\n(i) Estimate, in eV, the work function of the metal surface. [2]\n(ii) The emf of the power supply is set at 0.60 V. Determine the speed of the electrons as they arrive at the collecting plate. [3]"
+  }
+ }
+}

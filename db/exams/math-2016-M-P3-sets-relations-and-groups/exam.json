@@ -1,0 +1,129 @@
+{
+ "exam_id": "math-2016-M-P3-sets-relations-and-groups",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2016,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Sets relations and groups",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2016 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2016 May Examination Session/Mathematics_paper_3_Sets_relations_and_groups__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2216-7209; code M16/5/MATHL/HP3/ENG/TZ0/SG; marks sum matches paper total 60",
+ "qp_pages": 3,
+ "questions": [
+  {
+   "id": "math-2016-M-P3-sets-relations-and-groups-q1",
+   "num": "1",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 19]\nThe following Cayley table for the binary operation multiplication modulo 9 , denoted by * ,\nis defined on the set S = {1 , 2 , 4 , 5 , 7 , 8} .\n* 1 2 4 5 7 8\n1 1 2 4 5 7 8\n2 2 4 8 1 5 7\n4 4 8\n5 5 1\n7 7 5\n8 8 7\n(a) Copy and complete the table. [3]\n(b) Show that {S , *} is an Abelian group. [5]\n(c) [3] Determine the orders of all the elements of {S , *} .\n(d) (i) Find the two proper subgroups of {S , *} .\n(ii) Find the coset of each of these subgroups with respect to the element 5 . [4]\n(e) Solve the equation 2 * x * 4 * x * 4 = 2 . [4]",
+   "ms_text": "1. (a)\n* 1 2 4 5 7 8\n1 1 2 4 5 7 8\n2 2 4 8 1 5 7\n4 4 8 7 2 1 5\n5 5 1 2 7 8 4\n7 7 5 1 8 4 2\n8 8 7 5 4 2 1 A3\nNote: Award A3 for correct table, A2 for one or two errors, A1 for three or four\nerrors and A0 otherwise.\n[3 marks]\n(b) the table contains only elements ofS, showing closure R1\nthe identity is 1 A1\nevery element has an inverse since1 appears in every row and column, or a\ncomplete list of elements and their correct inverses A1\nmultiplication of numbers is associative A1\nthe four axioms are satisfied therefore {S, *} is a group\nthe group is Abelian because the table is symmetric (about the leading\ndiagonal) A1\n[5 marks]\n(c)\nElement Order\n1 1\n2 6\n4 3\n5 6\n7 3\n8 2\nA3\nNote: Award A3 for all correct values, A2 for 5 correct, A1 for 4 correct and A0 otherwise.\n[3 marks]\n(d) (i) the subgroups are {1,8};{1,4,7} A1A1\n(ii) the cosets are {4,5};{2,5,8} A1A1\n[4 marks]\n(e) METHOD 1\nuse of algebraic manipulations M1\nand at least one result from the table, used correctly A1\nx= 2 A1\nx= 7 A1\nMETHOD 2\ntesting at least one value in the equation M1\nobtain x= 2 A1\nobtain x= 7 A1\nexplicit rejection of all other values A1\n[4 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.5",
+    "7.8",
+    "7.6",
+    "7.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 19]\nThe following Cayley table for the binary operation multiplication modulo $9$, denoted by $*$, is defined on the set $S = \\{1, 2, 4, 5, 7, 8\\}$.\n[Table, partially completed:]\n$*$ | 1 | 2 | 4 | 5 | 7 | 8\n1 | 1 | 2 | 4 | 5 | 7 | 8\n2 | 2 | 4 | 8 | 1 | 5 | 7\n4 | 4 | 8 |  |  |  | \n5 | 5 | 1 |  |  |  | \n7 | 7 | 5 |  |  |  | \n8 | 8 | 7 |  |  |  | \n(a) Copy and complete the table. [3]\n(b) Show that $\\{S, *\\}$ is an Abelian group. [5]\n(c) Determine the orders of all the elements of $\\{S, *\\}$. [3]\n(d) (i) Find the two proper subgroups of $\\{S, *\\}$.\n(ii) Find the coset of each of these subgroups with respect to the element $5$. [4]\n(e) Solve the equation $2 * x * 4 * x * 4 = 2$. [4]"
+  },
+  {
+   "id": "math-2016-M-P3-sets-relations-and-groups-q2",
+   "num": "2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "[Maximum mark: 12] 2.\nThe relation R is defined on ′+ such that aRb if and only if bn - an≡ 0(mod p) where n , p\nare fixed positive integers greater than 1 .\n(a) Show that R is an equivalence relation. [7]\n(b) Given that n= 2 and p= 7 , determine the first four members of each of the four\nequivalence classes of R . [5]",
+   "ms_text": "n n 2. (a) since a\n− a = 0 , A1\nit follows that (aRa)andRis reflexive R1\nn n ifaRbso that b\n− a ≡ 0(mod p ) M1\nn n then, a\n− b ≡ 0(mod p ) so thatbRaandRissymmetric A1\nn n n n ifaRbandbRcso that b\n− a ≡ 0(mod p ) and c − b ≡ 0(mod p ) M1\nn n adding, (it follows that c\n− a ≡ 0(mod p ) ) M1\nso that aRcandRis transitive A1\nNote: Only accept the correct use of the terms “reflexive, symmetric, transitive”.\n[7 marks]\n2 2 (b) we are now given thataRbif b\n− a ≡ 0(mod7)\nattempt to find at least one equivalence class (M1)\nthe equivalence classes are\n{1, 6, 8, 13, …} A1\n{2, 5, 9, 12, …} A1\n{3, 4, 10, 11, …} A1\n{7, 14, 21, 28, …} A1\n[5 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 12]\nThe relation $R$ is defined on $\\mathbb{Z}^+$ such that $aRb$ if and only if $b^n - a^n \\equiv 0 \\pmod{p}$ where $n, p$ are fixed positive integers greater than $1$.\n(a) Show that $R$ is an equivalence relation. [7]\n(b) Given that $n = 2$ and $p = 7$, determine the first four members of each of the four equivalence classes of $R$. [5]"
+  },
+  {
+   "id": "math-2016-M-P3-sets-relations-and-groups-q3",
+   "num": "3",
+   "section": null,
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nThe group {G , *} is Abelian and the bijection f : G→G is defined by f (x) =x-1 , x ∈ G .\nShow that f is an isomorphism.",
+   "ms_text": "3. we need to show that fab ( ∗ ) = fa () ∗ fb () R1\nNote: This R1 may be awarded at any stage.\nlet, abG ∈ (M1)\nconsider fa () ∗ fb () M1\n− 1 − 1 = a ∗ b A1\n− 1 consider fab ( ∗ ) = ( ab ∗ ) M1\n− 1 − 1 = b ∗ a A1\n− 1 − 1 = a ∗ b sinceGis Abelian R1\nhence f is an isomorphism AG\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.9",
+    "7.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nThe group $\\{G, *\\}$ is Abelian and the bijection $f: G \\to G$ is defined by $f(x) = x^{-1}$, $x \\in G$.\nShow that $f$ is an isomorphism."
+  },
+  {
+   "id": "math-2016-M-P3-sets-relations-and-groups-q4",
+   "num": "4",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 13]\nx\nThe function f is defined by f : ϒ+ × ϒ+ → ϒ+×ϒ+ where f (x , y) = xy ,\n. y\n(a) Prove that f is an injection. [5]\nProve that f is a surjection. (b) (i)\n(ii) Hence, or otherwise, write down the inverse function f -1 . [8]",
+   "ms_text": "+ + 4. (a) let (,) ab and (, cd ) ∈ ϒ × ϒ\nsuppose that fab (, ) = fcd (, ) (M1)\nc and a\nso that ab = cd = A1\nb d\n2 2 2 2\nleading to either a = c or b = d or equivalent M1\nstate a c and b d A1 = =\nthis shows that f is an injection since fab (,) = fcd (,) ⇒ (,) ab = (,) cd R1AG\nNote: Accept final statement seen anywhere for R1.\n[5 marks]\nnow let (u, v) ϒ + ϒand suppose that + fxy (, ) (,) uv (b) (i) ∈ × = (M1)\nx\nu xyv , then, = = A1\ny\nattempt to eliminate x or y M1\n⇒ 1/2 − 1/2 x = uv ; y = uv A1A1\nthis shows that f is a surjection since, given(u, v), there\nexists(x, y)such thatf (x, y) = (u, v) R1AG\nNote: Accept final statement, seen anywhere, for R1.\n− 1 1/2 − 1/2 (ii) f (, xy ) = ( xy , xy ) A1A1\n[8 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 13]\nThe function $f$ is defined by $f: \\mathbb{R}^+ \\times \\mathbb{R}^+ \\to \\mathbb{R}^+ \\times \\mathbb{R}^+$ where $f(x, y) = \\left(\\sqrt{xy}, \\frac{x}{y}\\right)$.\n(a) Prove that $f$ is an injection. [5]\n(b) (i) Prove that $f$ is a surjection.\n(ii) Hence, or otherwise, write down the inverse function $f^{-1}$. [8]"
+  },
+  {
+   "id": "math-2016-M-P3-sets-relations-and-groups-q5",
+   "num": "5",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 9]\nThe group {G , *} is defined on the set G with binary operation * . H is a subset of G\ndefined by H= {x : x∈G , a * x * a-1=x for all a ∈ G} . Prove that {H , *} is a subgroup\nof {G , *} .",
+   "ms_text": "5. associativity: This follows from associativity in{G, ∗} R1\n− 1 − 1 the identity e∈Hsince aea ** = a * a = e (for all a∈G) R1\nNote: Condone the use of the commutativity of e if that is involved in an alternative\nsimplification of the LHS.\n− 1 − 1 closure: Letx,y∈Hso that axa ∗∗ = x and aya ∗∗ = y for alla∈G (M1)\n− 1 − 1 multiplying, xy ∗ = axa ∗∗ ∗∗∗ a ya (for all a∈G) A1\n− 1 = axya ∗ ∗ ∗ A1\nthereforex∗y∈H(proving closure) R1\n− 1 inverse: Letx∈Hso that axa ∗∗ = x (for alla∈G)\n1 − 1 − 1 −\nx = ( ax ∗ ∗ a ) M1\nax − 1 a − 1 A1 = ∗ ∗\n1 therefore x −∈ H R1\nhence { H∗ is a subgroup of { ,} G∗ ,} AG\nNote: Accuracy marks cannot be awarded if commutativity is assumed for general elements of G.\n[9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.8",
+    "7.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 9]\nThe group $\\{G, *\\}$ is defined on the set $G$ with binary operation $*$. $H$ is a subset of $G$ defined by $H = \\{x : x \\in G,\\ a * x * a^{-1} = x \\text{ for all } a \\in G\\}$. Prove that $\\{H, *\\}$ is a subgroup of $\\{G, *\\}$."
+  }
+ ],
+ "status": "done"
+}

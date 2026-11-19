@@ -1,0 +1,442 @@
+{
+ "exam_id": "math-2006-N-P3",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2006,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2006 November Examination Session/Mathematics_paper_3_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2006 November Examination Session/Mathematics_paper_3_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8806-7203; code N06/5/MATHL/HP3/ENG/TZ0/XX; each option section sums to 60",
+ "qp_pages": 10,
+ "questions": [
+  {
+   "id": "math-2006-N-P3-qA1",
+   "num": "A1",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "qA1.webp",
+   "ms_image": "qA1_ms.webp",
+   "text": "1. [Maximum mark: 11]\nDoctor Tosco claims to have found a diet that will reduce a person’s weight, on\naverage, by 5 kg in a month. Doctor Crocci claims that the average weight loss is\nless than this. Ten people use this diet for a month. Their weights before and after are\nshown below.\nPerson A B C D E F G H I J\nWeight before (kg) 82.6 78.8 83.1 69.9 74.2 79.5 80.3 76.2 77.8 84.1\nWeight after (kg) 75.8 74.1 79.2 65.6 72.2 73.6 76.7 72.9 75.0 79.9\n(a) State suitable hypotheses to test the doctors’ claims. [2 marks]\n(b) Use an appropriate test to analyse these data. State your conclusion at\n(i) the 1 % significance level;\n(ii) the 10 % significance level. [8 marks]\n(c) What assumption do you have to make about the data? [1 mark]",
+   "ms_text": "1. (a) H: Mean loss = 5 kg A1\n0\nH: Mean loss 5 kg A1\n1 <\n[2 marks]\n(b) The losses are\n6.8 4.7 3.9 4.3 2.0 5.9 3.6 3.3 2.8 4.2 (M1)(A1)\nUsing a one-sided t-test on difference between weights before and after\nt = 1.90 (accept + or −) A1A1\np-value = 0.0447 A2 N4\n(i) At 1 %, insufficient evidence to reject H (critical value 2.821) A1\n0\n(ii) At 10 % , reject H(critical value 1.383) A1\n0\n[8 marks]\n(c) The differences are a random sample from a normal distribution. R1\n[1 mark]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "1. [Maximum mark: 11]\nDoctor Tosco claims to have found a diet that will reduce a person's weight, on average, by 5 kg in a month. Doctor Crocci claims that the average weight loss is less than this. Ten people use this diet for a month. Their weights before and after are shown below.\nPerson | A | B | C | D | E | F | G | H | I | J\nWeight before (kg) | 82.6 | 78.8 | 83.1 | 69.9 | 74.2 | 79.5 | 80.3 | 76.2 | 77.8 | 84.1\nWeight after (kg) | 75.8 | 74.1 | 79.2 | 65.6 | 72.2 | 73.6 | 76.7 | 72.9 | 75.0 | 79.9\n(a) State suitable hypotheses to test the doctors' claims. [2 marks]\n(b) Use an appropriate test to analyse these data. State your conclusion at\n(i) the 1 % significance level;\n(ii) the 10 % significance level. [8 marks]\n(c) What assumption do you have to make about the data? [1 mark]"
+  },
+  {
+   "id": "math-2006-N-P3-qA2",
+   "num": "A2",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "qA2.webp",
+   "ms_image": "qA2_ms.webp",
+   "text": "2. [Maximum mark: 12]\nThe random variable X is normally distributed with mean µ and standard deviation 2.5.\nA random sample of 25 observations of X gave the result\n∑ x = 315 .\n(a) Find a 90 % confidence interval for µ . [6 marks]\n(b) It is believed that P( X≤ 14 ) = 0 55 . Determine whether or not this is consistent .\nwith your confidence interval for µ . [6 marks]",
+   "ms_text": "2. (a) x= 12.6 (A1)\n2.5\nSE = = 0.5 (A1)\n5\n90 % confidence limits are using 1.645 (A1)\n12.6 ± 1.6450.5 × M1A1\ngiving [11.8, 13.4] A1 N6\n[6 marks]\n⎛ 14 ⎞ − µ\n(b) P( X ≤ 14) = Φ = 0.55 M1A1 ⎜ ⎟\n⎝ 2.5 ⎠\n14 − µ\n= 0.1256... M1A1\n2.5\nµ= 13.7 A1\nNot consistent because outside confidence interval. A1\n[6 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L6",
+    "4.12",
+    "4.L5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "2. [Maximum mark: 12]\nThe random variable $X$ is normally distributed with mean $\\mu$ and standard deviation 2.5. A random sample of 25 observations of $X$ gave the result\n$\\sum x = 315$.\n(a) Find a 90 % confidence interval for $\\mu$. [6 marks]\n(b) It is believed that $\\mathrm{P}(X \\le 14) = 0.55$. Determine whether or not this is consistent with your confidence interval for $\\mu$. [6 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qA3",
+   "num": "A3",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "qA3.webp",
+   "ms_image": "qA3_ms.webp",
+   "text": "3. [Maximum mark: 14]\nA toy manufacturer makes a cubical die with the numbers 1, 2, 3, 4, 5, 6 respectively\nmarked on the six faces. The manufacturer claims that, when it is thrown, the\nprobability distribution of the score X obtained is given by\nx\nP( X = x ) , , , , , .\n=21 for x =123456\nTo check this claim, Pierre throws the die 420 times with the following results.\nx Frequency\n1 25\n2 46\n3 64\n4 82\n5 99\n6 104\nState suitable hypotheses and using an appropriate test determine whether or not the\nmanufacturer’s claim can be accepted at the 5 % significance level. [14 marks]",
+   "ms_text": "3. The hypotheses are\nH: The model fits the data A1\n0\nH: The model does not fit the data A1\n1\nx\nExpected frequencies are given by E( X x ) 420 (M1)(A1) = = ×\n21\nx of ef\n1 25 20\n2 46 40\n3 64 60\n4 82 80\n5 99 100\n6 104 120 A4\n5 2 6 2 4 2 2 2 1 2 16 2 2\nχ= + + + + + M1A1\n20 40 60 80 100 120\n= 4.61 A1\nDF = 5 A1\nCritical value = 11.07 at the 5 % level. A1\nWe conclude that the claim is accepted. R1\n[14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "3. [Maximum mark: 14]\nA toy manufacturer makes a cubical die with the numbers 1, 2, 3, 4, 5, 6 respectively marked on the six faces. The manufacturer claims that, when it is thrown, the probability distribution of the score $X$ obtained is given by\n$\\mathrm{P}(X = x) = \\frac{x}{21}$ for $x = 1, 2, 3, 4, 5, 6$.\nTo check this claim, Pierre throws the die 420 times with the following results.\nx | Frequency\n1 | 25\n2 | 46\n3 | 64\n4 | 82\n5 | 99\n6 | 104\nState suitable hypotheses and using an appropriate test determine whether or not the manufacturer's claim can be accepted at the 5 % significance level. [14 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qA4",
+   "num": "A4",
+   "section": null,
+   "marks": 23,
+   "qtype": "long",
+   "image": "qA4.webp",
+   "ms_image": "qA4_ms.webp",
+   "text": "4. [Maximum mark: 23]\nA chocolate manufacturer puts gift vouchers at random into 15 % of all chocolate\nbars produced. A customer must collect five vouchers to qualify for a gift.\n(a) Barry goes into a shop and buys 20 of these bars. Find the probability that he\nqualifies for a gift. [3 marks]\n(b) John goes into a shop and buys n of these bars. Find the smallest value of n for\nwhich the probability of qualifying for a gift exceeds1 . [4 marks]\n2\n(c) Martina goes into a shop and buys these bars one at a time: she opens them to see\nif they contain a voucher. She obtains her 5th voucher on the Xth bar bought.\n(i) Write down an expression for P( X = x ) , valid for x ≥5.\n(ii) Calculate E( X. )\nP( X = x ) 0 85 . ( x − 1 )\n(iii) Show that = .\nP ( X = x − 1 ) x − 5\n−1 then x <83 (iv) Show that if P ( X = x ) > P ( X = x )\n3. Deduce the most\nprobable value of X. [16 marks]",
+   "ms_text": "4. (a) X∼ B(20, 0.15) (M1)\nUsing gdc, P( X≥ 5) = 0.170 A2 N2\n[3 marks]\n(b) By trial and error around sensible values of n, M1\nP( X≥ 530 bought) = 0.476 A1\nP( X≥ 531 bought) = 0.506 A1\n∴ Minimum number = 31 A1 N4\n[4 marks]\n⎛ x − 1 ⎞\n5 x − 5 (c) (i) P( X = x ) =\n⎜ ⎟ 0.15 × 0.85 A2\n⎝ 4 ⎠\n(ii) X is negative binomial with r = 5, p = 0.15 (A1)\nr\nE( X ) = = 33.3 M1A1\np\n⎛ x − ⎞ 10.150.85\n5 x − 5\n⎜ ⎟\nP( X = x ) ⎝ 4 ⎠\n(iii) = M1A1\nP( X x 1) ⎛ x − 2 ⎞ = − 5 x − 6\n0.150.85 ⎜ ⎟\n4 ⎝ ⎠\n( x − 1)!( x − 6)! 0.85\n= M1A1\n( x − 5)!( x − 2)!\n0.85( x − 1)\n= AG\nx − 5\nx − 1) as long as 0.85(\n(iv) P( X = x ) > P( X = x − 1) > 1 M1A1\nx − 5\n4.15\nx < A1\n0.15\n83\n= AG\n3\nIt follows that p > p M1A1\n27 26\nbut p p A1\n28 ≤ 27\nIt follows that the most probable value of X is 27. R1\n[16 marks]\nTotal [23 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.L2",
+    "4.8",
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics and probability",
+   "text_clean": "4. [Maximum mark: 23]\nA chocolate manufacturer puts gift vouchers at random into 15 % of all chocolate bars produced. A customer must collect five vouchers to qualify for a gift.\n(a) Barry goes into a shop and buys 20 of these bars. Find the probability that he qualifies for a gift. [3 marks]\n(b) John goes into a shop and buys $n$ of these bars. Find the smallest value of $n$ for which the probability of qualifying for a gift exceeds $\\frac{1}{2}$. [4 marks]\n(c) Martina goes into a shop and buys these bars one at a time: she opens them to see if they contain a voucher. She obtains her 5th voucher on the $X$th bar bought.\n(i) Write down an expression for $\\mathrm{P}(X = x)$, valid for $x \\ge 5$.\n(ii) Calculate $\\mathrm{E}(X)$.\n(iii) Show that $\\frac{\\mathrm{P}(X = x)}{\\mathrm{P}(X = x-1)} = \\frac{0.85(x-1)}{x-5}$.\n(iv) Show that if $\\mathrm{P}(X = x) > \\mathrm{P}(X = x-1)$ then $x < \\frac{83}{3}$. Deduce the most probable value of $X$. [16 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qB1",
+   "num": "B1",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "qB1.webp",
+   "ms_image": "qB1_ms.webp",
+   "text": "1. [Maximum mark: 9]\nLet A and B be subsets of the set U and let C = A ∩ BD , = A ′∪ B and E = A ∪ B .\n(a) Draw separate Venn diagrams to represent the sets C, D and E. [3 marks]\n(b) Using de Morgan’s laws, show that A = D ′∪ C . [3 marks]\n[3 marks] (c) Prove that B = D ∩ E .",
+   "ms_text": "1. (a)\nU U U\nA1A1A1\nC D E\n[3 marks]\n(b) D ′∪ C\n= ( A ′ ∪ B ) ′ ∪ ( A ∩ B ) M1A1\n= ( A ∩ B ′ ) ∪ ( A ∩ B ) A1\n= A AG\n[3 marks]\n(c) D E ∩\n= ( A ′ ∪ B ) ∩ ( A ∪ B ) M1\n( A ′ A ) ( A ′ B ) ( B A ) ( B B ) A1 = ∩ ∪ ∩ ∪ ∩ ∪ ∩\n= B ∪ ( A ′ ∩ A ) (A1)\n= B ∪∅\n= B AG\n[3 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "1. [Maximum mark: 9]\nLet $A$ and $B$ be subsets of the set $U$ and let $C = A \\cap B$, $D = A' \\cup B$ and $E = A \\cup B$.\n(a) Draw separate Venn diagrams to represent the sets $C$, $D$ and $E$. [3 marks]\n(b) Using de Morgan's laws, show that $A = D' \\cup C$. [3 marks]\n(c) Prove that $B = D \\cap E$. [3 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qB2",
+   "num": "B2",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "qB2.webp",
+   "ms_image": "qB2_ms.webp",
+   "text": "2. [Maximum mark: 11]\nConsider the following groups of order 4:\nG = ( {, 1357 , ,}, • ) where • is multiplication modulo 8.\nH = ( {, 36912 , , }, ∗ ) where ∗ is multiplication modulo 15.\n(a) (i) Copy and complete the Cayley table for G.\n• 1 3 5 7\n1\n3 7\n5 5\n7 1\n(ii) Draw the Cayley table for H. [6 marks]\n(b) Determine whether or not they are isomorphic, giving appropriate reasons. [5 marks]",
+   "ms_text": "2. (a) (i)\n• 8 1 3 5 7\n1 1 3 5 7\n3 3 1 7 5\n5 5 7 1 3\n7 7 5 3 1 A4\nG\nNote: Award A3 for 1 error, A2 for 2 errors and A0 for 3 or more errors.\n(ii)\n∗15 3 6 9 12\n3 9 3 12 6\n6 3 6 9 12\n9 12 9 6 3\n12 6 12 3 9 A2\nH\nNote: Award A1 for 1 error, A0 for 2 or more errors.\n[6 marks]\n(b) H: Identity is 6: order of 3 is 4 A2\norder of 9 is 2\norder of 12 is 4\nG: Identity is 1: order of 3 is 2 A1\norder of 5 is 2\norder of 7 is 2\nThe orders of G and H are not comparable. (M1)\nHence the two groups are not isomorphic. A1\n[5 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.6",
+    "7.9",
+    "7.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "2. [Maximum mark: 11]\nConsider the following groups of order 4:\n$G = (\\{1, 3, 5, 7\\}, \\bullet)$ where $\\bullet$ is multiplication modulo 8.\n$H = (\\{3, 6, 9, 12\\}, *)$ where $*$ is multiplication modulo 15.\n(a) (i) Copy and complete the Cayley table for $G$.\n• | 1 | 3 | 5 | 7\n1 |  |  |  | \n3 |  |  | 7 | \n5 | 5 |  |  | \n7 |  |  |  | 1\n(ii) Draw the Cayley table for $H$. [6 marks]\n(b) Determine whether or not they are isomorphic, giving appropriate reasons. [5 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qB3",
+   "num": "B3",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "qB3.webp",
+   "ms_image": "qB3_ms.webp",
+   "text": "3. [Maximum mark: 17]\nConsider the relations R , R , R and R4 , represented by the following tables\n1 2 3\nd e f g D E F G\na b c A B C d 1 1 1 D 1 1\na 1 1 A 1 1 e 1 1 E 1 1\nb 1 1 1 B 1 1 f 1 1 1 1 F 1 1\nc 1 1 1 C 1 1 G 1 1 g 1 1 1\nR1 R2 R3 R4\n(Note that a “1” in the table means that the element in that row is related to the element\nin that column, e.g. in R2, B is related to A,but A is not related to B.)\n(a) For each relation, determine whether or not it is an equivalence relation. In each\ncase, justify your answer. [15 marks]\n(b) For those which are equivalence relations, describe the corresponding\nequivalence classes. [2 marks]",
+   "ms_text": "3. (a) R is not an equivalence relation A1\n1\nbecause it is not reflexive (aRa does not hold). R1\nR is not an equivalence relation A1\n2\nbecause it is not symmetric R1\nBRA is true whereas ARB does not hold. A1\nRis not an equivalence relation A1\n3\nbecause it is not transitive R1\ndRf and fRe are true, whereas dRe does not hold. A2\nNote: For all 3 conditions, accept any counter example.\nRis an equivalence relation A1\n4\nbecause it is reflexive (there are only 1s on the diagonal), A1\nsymmetric (the table is symmetric with respect to the diagonal) A1\ntransitive (all the 0 on the square of the matrix are also 0 on the matrix) A3\n(other method: checking all the cases).\n[15 marks]\n(b) The equivalence classes are { DF and {, , } EG. } A1A1\n[2 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "3. [Maximum mark: 17]\nConsider the relations $R_1$, $R_2$, $R_3$ and $R_4$, represented by the following tables\nR1: | a | b | c\na |  | 1 | 1\nb | 1 | 1 | 1\nc | 1 | 1 | 1\nR2: | A | B | C\nA | 1 |  | 1\nB | 1 | 1 | \nC | 1 |  | 1\nR3: | d | e | f | g\nd | 1 |  | 1 | 1\ne |  | 1 | 1 | \nf | 1 | 1 | 1 | 1\ng | 1 |  | 1 | 1\nR4: | D | E | F | G\nD | 1 |  | 1 | \nE |  | 1 |  | 1\nF | 1 |  | 1 | \nG |  | 1 |  | 1\n(Note that a \"1\" in the table means that the element in that row is related to the element in that column, e.g. in $R_2$, $B$ is related to $A$, but $A$ is not related to $B$.)\n(a) For each relation, determine whether or not it is an equivalence relation. In each case, justify your answer. [15 marks]\n(b) For those which are equivalence relations, describe the corresponding equivalence classes. [2 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qB4",
+   "num": "B4",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "qB4.webp",
+   "ms_image": "qB4_ms.webp",
+   "text": "4. [Maximum mark: 16]\nConsider the following functions.\n2 + + where fx () = x + 3 x + 2\nf: ϒ → ϒ\ng : ϒ × ϒ → ϒ × ϒ where gxy (, ) = ( 3 x + 2 y , 2 x + y )\n+ + + + h : ϒ ×\nϒ → ϒ × ϒ where hxy (, ) = ( x + yxy , )\n(a) Explain why f is not surjective. [2 marks]\n(b) Explain why g has an inverse, and find g−1. [9 marks]\n(c) Determine, with reasons, whether h is\n(i) injective;\n(ii) surjective. [5 marks]",
+   "ms_text": "+ 4. (a) Range of f is y > 2 therefore f is not surjective on � R2\n[2 marks]\n(b) If gab (,) = gcd (, )\nthen 3 a + 2 b = 3 c + 2 d (1)\nand 2 a + b = 2 c + d (2) M1\n(1) 2 (2) gives a c A1 −× =\nhence b = d A1\ntherefore g is injective\nlet gxy (,) = (,) uv\nthen u = 3 x + 2 y\nv = 2 x + y M1\nsolving simultaneous equations gives\nx = −+ u 2 v A1\ny = 2 u − 3 v A1\ntherefore g is surjective R1\n− and hence g 1(,) uv =−+ ( u 2, 2 v u − 3) v A2\n[9 marks]\n(c) (i) h is not injective A1\nbecause, (,) xy and (,) yx have the same image, x ≠ y R1\n(ii) h is not surjective A1\n2 Any counter example satisfying { (,) xy x < 4 y } A2\n[5 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.3",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "4. [Maximum mark: 16]\nConsider the following functions.\n$f: \\mathbb{R}^+ \\to \\mathbb{R}^+$ where $f(x) = x^2 + 3x + 2$\n$g: \\mathbb{R} \\times \\mathbb{R} \\to \\mathbb{R} \\times \\mathbb{R}$ where $g(x, y) = (3x + 2y, 2x + y)$\n$h: \\mathbb{R}^+ \\times \\mathbb{R}^+ \\to \\mathbb{R}^+ \\times \\mathbb{R}^+$ where $h(x, y) = (x + y, xy)$\n(a) Explain why $f$ is not surjective. [2 marks]\n(b) Explain why $g$ has an inverse, and find $g^{-1}$. [9 marks]\n(c) Determine, with reasons, whether $h$ is\n(i) injective;\n(ii) surjective. [5 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qB5",
+   "num": "B5",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "qB5.webp",
+   "ms_image": "qB5_ms.webp",
+   "text": "5. [Maximum mark: 7]\nThe order of each of the elements of the group ( G , *) is either 1 or 2. Show that G is\nan Abelian group. [7 marks]",
+   "ms_text": "5. Let e be the identity element of G.\nLet , ab ∈ G M1\n2 Then a = e\n2 b = e A1\nabab = e A1\nHence ( aababb ) = aeb M1A1\nabab 2 2 = ab A1\nba = ab A1\nSo G is abelian AG\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, relations and groups",
+   "text_clean": "5. [Maximum mark: 7]\nThe order of each of the elements of the group $(G, *)$ is either 1 or 2. Show that $G$ is an Abelian group. [7 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qC1",
+   "num": "C1",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "qC1.webp",
+   "ms_image": "qC1_ms.webp",
+   "text": "1. [Maximum mark: 9]\n∞ 1\nConsider the series S = ∑\n!.\nn n = 1\n(a) Use the ratio test to prove that this series is convergent. [4 marks]\nUse a comparison test to show that S < 2 . [4 marks] (b)\n(c) Write down the exact value of S. [1 mark]",
+   "ms_text": "u n !\nn + 1 1. (a) = M1A1\nu ( n + 1 )!\nn\n1\n= → 0 as n →∞ A1A1\nn + 1\nTherefore series convergent by ratio test. AG\n[4 marks]\n2 n\n(b) 1 , ∀> n 3 (M1)\nn< !\n2 n < n !, ∀> n 3\n1 1 1 1 1 1\n1 + + + + … <+ 1 + + + … M1A1\n2 6 24 2 4 8\n1\nso S∞< ( = 2) A1\n1\n1 −\n2\nthat is S∞< 2 AG\n[4 marks]\n(c) e1 − A1\n[1 mark]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.L1",
+    "1.8",
+    "5.19"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "1. [Maximum mark: 9]\nConsider the series $S = \\sum_{n=1}^{\\infty} \\frac{1}{n!}$.\n(a) Use the ratio test to prove that this series is convergent. [4 marks]\n(b) Use a comparison test to show that $S < 2$. [4 marks]\n(c) Write down the exact value of $S$. [1 mark]"
+  },
+  {
+   "id": "math-2006-N-P3-qC2",
+   "num": "C2",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "qC2.webp",
+   "ms_image": "qC2_ms.webp",
+   "text": "2. [Maximum mark: 17]\n(a) Show that the polynomial approximation for ln x in the interval [0.5 , 1.5]\nobtained by taking the first three non-zero terms of the Taylor series about x =1\nis given by\n3 2 x 3 x 11\nln x ≈ − + 3 x − [7 marks]\n6.\n3 2\n(b) Given ln xx d = x ln x − x + C , show by integrating the above series that another ∫\napproximation to ln x is given by\nx 3 x 2 3 x 5 1\nln x ≈ − + − − [6 marks]\n4.\n12 2 2 6 x\n(c) Which is the better approximation when x =1 5.? [4 marks]",
+   "ms_text": "2. (a) Putting fx () = ln x\nf (1) = 0 A1\n1\nf ′ () x = , f ′ (1) = 1 A1\nx\n1\nf ′′ () x , f ′′ (1) 1 A1 = − = −\nx 2\n2\nf ′′′ () x = , f ′′′ (1) = 2 A1\nx 3\n2 3 ( x − 1) ( x − 1)\nln x ≈ ( x − 1) + ×− (1) + × 2 M1A1\n2 6\n1 1 2 3 2\n= x −− 1 ( x − 2 x + 1) + ( x − 3 x + 3 x − 1) A1\n2 3\n3 2 x 3 x 11\n= − + 3 x − AG\n3 2 6\n[7 marks]\n(b) Integrating both sides of the above result\n4 3 2 x x 3 x 11 x\nx ln x − x ≈ − + − + C M1A1\n12 2 2 6\n1\nPutting ln1 0 gives so (M1)A1 = C = −\n4\n3 2 x x 3 x 5 1\nln x ≈ − + − − A2\n12 2 2 6 4 x\n[6 marks]\n(c) When x = 1.5\nln x = 0.4054... A1\nx 3 3 x 2 11\n− + 3 x − = 0.4166... A1\n3 2 6\nx 3 x 2 3 x 5 1\n− + − − = 0.4062... A1\n12 2 2 6 4 x\nThe second approximation is nearer the time value and therefore better. A1\n[4 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L3",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "2. [Maximum mark: 17]\n(a) Show that the polynomial approximation for $\\ln x$ in the interval $[0.5, 1.5]$ obtained by taking the first three non-zero terms of the Taylor series about $x = 1$ is given by\n$\\ln x \\approx \\frac{x^3}{3} - \\frac{3x^2}{2} + 3x - \\frac{11}{6}$. [7 marks]\n(b) Given $\\int \\ln x \\, \\mathrm{d}x = x \\ln x - x + C$, show by integrating the above series that another approximation to $\\ln x$ is given by\n$\\ln x \\approx \\frac{x^3}{12} - \\frac{x^2}{2} + \\frac{3x}{2} - \\frac{5}{6} - \\frac{1}{4x}$. [6 marks]\n(c) Which is the better approximation when $x = 1.5$? [4 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qC3",
+   "num": "C3",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "qC3.webp",
+   "ms_image": "qC3_ms.webp",
+   "text": "3. [Maximum mark: 19]\n1 + x 2\nShow that d\n(a) ln ,|| x <. 1 [3 marks]\n=− 2 dx 1 − x 1 x\n(b) Find the solution to the homogeneous differential equation\nd y 2 2 2 , given that y =1\nx x + xy − y\nd= 2 when x =1.\nx\nGive your answer in the form y = gx () . [16 marks]",
+   "ms_text": "3. (a) METHOD 1\nd ⎛ ⎛ 1 + x ⎞ (1 − x ) (1 − x ++ 1 x ) ⎞=\n⎜ ln ⎜ ⎟ ⎟ M1A2 2\nd x ⎝ ⎝ 1 − x ⎠ ⎠ (1 + x ) (1 − x )\n2\nAG\n=− 1 x 2\nMETHOD 2\nd 1 1\n( ln(1 + x ) − ln(1 − x ) ) = + M1A2\nd x 1 + x 1 − x\n2\nAG\n=− 2 1 x\n[3 marks]\nd y d v\n(b) Put y = vx so that = v + x (M1)A1\nd x d x\nSubstituting\n2 ⎛ d v ⎞ 2 2 x v + x = x (1 + v − v ) (M1)(A1)\n⎜ ⎟\n⎝ d x ⎠\nd v\nx 1 v 2 A1\nd x=−\nd x d v\nA1\n=− 2 x 1 v\nd v\nln x = ∫ + C M1A1\n2 1 − v\n1 ⎛ 1 + v ⎞\n= ln ⎜ ⎟ + C A1\n2 ⎝ 1 − v ⎠\n1 ⎛ ⎞\nSubstituting ⎜ 1,2 ⎟\n⎝ ⎠\n1\n0 = ln3 + C giving C = − 1 ln3 (M1)A1\n2 2\n⎛ x + y ⎞\n2 ln x =\n⎜ ⎟ M1A1 ln3(\n⎝ x − y ) ⎠\nx + y 2\n3 x = A1\nx − y\n3 3 x − x\ngiving y A2 =\n3 x 2 1 +\n[16 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "3. [Maximum mark: 19]\n(a) Show that $\\frac{\\mathrm{d}}{\\mathrm{d}x}\\left(\\ln\\left(\\frac{1+x}{1-x}\\right)\\right) = \\frac{2}{1-x^2}$, $|x| < 1$. [3 marks]\n(b) Find the solution to the homogeneous differential equation\n$x^2 \\frac{\\mathrm{d}y}{\\mathrm{d}x} = x^2 + xy - y^2$, given that $y = \\frac{1}{2}$ when $x = 1$.\nGive your answer in the form $y = g(x)$. [16 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qC4",
+   "num": "C4",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "qC4.webp",
+   "ms_image": "qC4_ms.webp",
+   "text": "4. [Maximum mark: 15]\nα n xx d\n(a) (i) Find I = , where α is a positive constant and n is a positive\nn −∫\n1 + x 2 n\ninteger.\n(ii) Determine lim . [6 marks] nI\nn →∞\n(b) Using l’Hôpital’s Rule find\nβ x − β tan x\nlimtan\n,\nx → 0 sin β x − β sin x\nwhere β is a non-zero constant different from ±1. [9 marks]",
+   "ms_text": "α n xx d α n\n4. (a) (i) 1ln(1 ⎡ x 2 ) ⎤ M1A1 ∫ = ⎣ + ⎦\n2 − n\n− n 1 + x 2\n1 ⎛ 1 + α 2 n 2 ⎞\n= ln ⎜ ⎟ M1A1\n2 2 1 + n\n⎝ ⎠\n1 ln 2 (ii) → α or ln α as n →∞ M1A1\n2\n[6 marks]\n2 2 ⎛ β sec β x − β sec x ⎞\n(b) Limit = lim ⎜ ⎟ M1A1A1\nx → 0 ⎝ β cos β x − β cos x ⎠\n2 2 ⎛ 2 β sec β x tan β x − 2sec x tan x ⎞\n= lim ⎜ ⎟ A1A1\nx → 0 ⎝ − β sin β x + sin x ⎠\n2 4 2 2 2 4 2 2 ⎛ 2 β sec β x + 4 β sec β x tan β x − 2sec x − 4sec x tan x ⎞\n= lim ⎜ ⎟ A1A1\n2 x → 0\n⎝ − β cos β x + cos x ⎠\n2 2 β − 2\nA1\n=− 2\nβ + 1\n= − 2 A1\n[9 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.15",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Series and differential equations",
+   "text_clean": "4. [Maximum mark: 15]\n(a) (i) Find $I_n = \\int_{-n}^{\\alpha n} \\frac{x \\, \\mathrm{d}x}{1 + x^2}$, where $\\alpha$ is a positive constant and $n$ is a positive integer.\n(ii) Determine $\\lim_{n \\to \\infty} I_n$. [6 marks]\n(b) Using l'Hôpital's Rule find\n$\\lim_{x \\to 0}\\left(\\frac{\\tan \\beta x - \\beta \\tan x}{\\sin \\beta x - \\beta \\sin x}\\right)$,\nwhere $\\beta$ is a non-zero constant different from $\\pm 1$. [9 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qD1",
+   "num": "D1",
+   "section": null,
+   "marks": 18,
+   "qtype": "long",
+   "image": "qD1.webp",
+   "ms_image": "qD1_ms.webp",
+   "text": "1. [Maximum mark: 18]\nConsider the following adjacency matrices for the graphs G1 and G2:\np q r s t PQRS T\np 0 1 0 1 0 P 0 0 0 1 1\nq 1 0 2 0 1 Q 0 0 0 1 0\nr 0 2 0 1 0 R 0 0 0 1 0\ns 1 0 1 0 1 S 1 1 1 0 0\nt 0 1 0 1 0 T 1 0 0 0 0\nG1 G2\n(a) Draw the graphs of G1 and G2. [4 marks]\n(b) For each graph, giving a reason, determine whether or not it\n(i) is simple;\n(ii) is connected;\n(iii) is bipartite;\n(iv) is a tree;\n(v) has an Eulerian trail, giving an example of a trail if one exists. [14 marks]",
+   "ms_text": "1. (a)\nG1 G2 A2A2\n[4 marks]\n(b) (i) G1 is not simple (some entries are “2”s) R1\nG2 is simple (no entries on the diagonal and no double edge) R1\n(ii) G1 is connected\n(p connected to q connected to r connected to s connected to t) R1\nG2 is connected (E connected to H connected to F and H connected to G;\nand E connected to K) R1\n(iii) G1 is bipartite (take {p, r, t} and {q, s}) M1A1\nG2 is bipartite (take {P, R, Q} and {T, S}) M1A1\n(iv) G1 is not a tree (it contains two edges)\nP → S → Q\nG2 is a tree ↓ ↓ R1R1\nT R\n(v) G1 contains a Eulerian trail (only two vertices have an odd degree) M1\nExample: r → q → p → s → r → q →→ t s A1\nG2 does not contain an Eulerian trail (it has more than two vertices\nof odd degree) M1A1\n[14 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.7",
+    "6.8",
+    "6.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "1. [Maximum mark: 18]\nConsider the following adjacency matrices for the graphs $G_1$ and $G_2$:\nG1: | p | q | r | s | t\np | 0 | 1 | 0 | 1 | 0\nq | 1 | 0 | 2 | 0 | 1\nr | 0 | 2 | 0 | 1 | 0\ns | 1 | 0 | 1 | 0 | 1\nt | 0 | 1 | 0 | 1 | 0\nG2: | P | Q | R | S | T\nP | 0 | 0 | 0 | 1 | 1\nQ | 0 | 0 | 0 | 1 | 0\nR | 0 | 0 | 0 | 1 | 0\nS | 1 | 1 | 1 | 0 | 0\nT | 1 | 0 | 0 | 0 | 0\n(a) Draw the graphs of $G_1$ and $G_2$. [4 marks]\n(b) For each graph, giving a reason, determine whether or not it\n(i) is simple;\n(ii) is connected;\n(iii) is bipartite;\n(iv) is a tree;\n(v) has an Eulerian trail, giving an example of a trail if one exists. [14 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qD2",
+   "num": "D2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "qD2.webp",
+   "ms_image": "qD2_ms.webp",
+   "text": "2. [Maximum mark: 10]\nSolve the equation − 38 x + 26 y = 8 , where xy , ∈′. [10 marks]",
+   "ms_text": "2. This is equivalent to solving 19 − x + 13 y = 4 (R1)\nUsing Euclid’s algorithm 19 = 13 + 6 M1A1\n13 = 261 ×+ A1\nHence1 13 2 6 13 2(19 13) (A1) = − × = − −\n=× 313 −× 219 A1\nTherefore 198 − ×+ 1312 × = 4 A1\nThe general solution is x = 813 − k\ny = 12 − 19 k k ∈� M1A2\n[10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.3",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "2. [Maximum mark: 10]\nSolve the equation $-38x + 26y = 8$, where $x, y \\in \\mathbb{Z}$. [10 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qD3",
+   "num": "D3",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "qD3.webp",
+   "ms_image": "qD3_ms.webp",
+   "text": "3. [Maximum mark: 11]\nThe following diagram shows a graph H.\n(a) Use Kruskal’s algorithm to find a minimum spanning tree for H. [9 marks]\n(b) Write down the weight of the minimum spanning tree found. [2 marks]",
+   "ms_text": "3. (a) There are 7 vertices so 6 choices must be made (A1)\nEdge Weight Choice\nBG 1 1st M2A1\n2nd EF 1\n3rd ED 2 A1\nAB 4 4th A1\nBC 5 5th A1\nGC 5 Reject\nDF 5 Reject A1\nCF 6 6th A1\n[9 marks]\n(b) Total weight 11 2 4 5 6 19 A2 ++ + + + =\n[2 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "3. [Maximum mark: 11]\nThe following diagram shows a graph $H$.\n[Diagram: weighted graph H with vertices A, B, C, D, E, F, G; edges AB 4, AG 12, AE 9, BG 1, BC 5, GC 5, GF 7, GE 8, CF 6, EF 1, ED 2, DF 3]\n(a) Use Kruskal's algorithm to find a minimum spanning tree for $H$. [9 marks]\n(b) Write down the weight of the minimum spanning tree found. [2 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qD4",
+   "num": "D4",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "qD4.webp",
+   "ms_image": "qD4_ms.webp",
+   "text": "4. [Maximum mark: 8]\n(a) Prove that a tree is a simple graph. [3 marks]\n(b) (i) G isa complete bipartite graph and graph W is the complement of G.\nProve that W is not connected.\n(ii) Show by giving an example that the converseis not true. [5 marks]",
+   "ms_text": "4. (a) If a graph is not simple then it must contain either a loop or a double\nedge and therefore contains a cycle so that it cannot be a tree. Hence\nif it is a tree it must be simple. M1A1R1\n[3 marks]\n(b) (i) Let A and B be the two subsets of vertices of the bipartite\ngraph G. Then in the complement of G, A will have no edge\nlinking any of its elements to B. Hence the complement of G\nis not connected since it contains two unconnected subgraphs. M1A2\n(ii) Let H be the graph consisting of three vertices and no edge.\nIts complement is obviously not bipartite. A2\n[5 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "4. [Maximum mark: 8]\n(a) Prove that a tree is a simple graph. [3 marks]\n(b) (i) $G$ is a complete bipartite graph and graph $W$ is the complement of $G$. Prove that $W$ is not connected.\n(ii) Show by giving an example that the converse is not true. [5 marks]"
+  },
+  {
+   "id": "math-2006-N-P3-qD5",
+   "num": "D5",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "qD5.webp",
+   "ms_image": "qD5_ms.webp",
+   "text": "5. [Maximum mark: 13]\np − p − Fermat’s theorem states that a prime number p is a divisor of x x and y y ,\n+ p p 2 p p where xy , ∈\n′. Show that if px + y , p > 2 then p x + y . [13 marks]",
+   "ms_text": "p p p p 5. Since p divides x + y , x − x and y − y ,\np p p p then p divides ( x − x ) + ( y − y ) + ( x + y ) = x + y R2A1\nSo x + y = kp where k is an integer M1A1\nand y = kp − x M1A1\np p p p p 2 p 1 p Therefore x + y = x + ( kp − x ) = x + Ap + pkpx − − x\nwhere A is an integer. M1A3\np p p − 1 2 2 So x + y = ( A + kx ) p and therefore is divisible by p. M1A1\n[13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.5",
+    "1.9",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete mathematics",
+   "text_clean": "5. [Maximum mark: 13]\nFermat's theorem states that a prime number $p$ is a divisor of $x^p - x$ and $y^p - y$, where $x, y \\in \\mathbb{Z}^+$. Show that if $p \\mid x^p + y^p$, $p > 2$ then $p^2 \\mid x^p + y^p$. [13 marks]"
+  }
+ ],
+ "status": "done",
+ "review_note": "D1 markscheme crop extended upward to include vertex Q of G2 drawing (override)."
+}

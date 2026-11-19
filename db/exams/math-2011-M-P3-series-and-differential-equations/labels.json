@@ -1,0 +1,35 @@
+{
+  "exam_id": "math-2011-M-P3-series-and-differential-equations",
+  "questions": {
+    "1": {
+      "topics": ["5"],
+      "subtopics": ["5.19", "5.13"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 10]\n(a) Find the first three terms of the Maclaurin series for $\\ln(1+\\mathrm{e}^x)$. [6 marks]\n(b) Hence, or otherwise, determine the value of $\\lim_{x\\to 0}\\frac{2\\ln(1+\\mathrm{e}^x)-x-\\ln 4}{x^2}$. [4 marks]"
+    },
+    "2": {
+      "topics": ["5"],
+      "subtopics": ["5.18"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 8]\nConsider the differential equation $\\frac{\\mathrm{d}y}{\\mathrm{d}x}=x^2+y^2$ where $y=1$ when $x=0$.\n(a) Use Euler's method with step length 0.1 to find an approximate value of $y$ when $x=0.4$. [7 marks]\n(b) Write down, giving a reason, whether your approximate value for $y$ is greater than or less than the actual value of $y$. [1 mark]"
+    },
+    "3": {
+      "topics": ["5"],
+      "subtopics": ["5.18", "5.15"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 11]\nSolve the differential equation\n$x^2\\frac{\\mathrm{d}y}{\\mathrm{d}x}=y^2+3xy+2x^2$\ngiven that $y=-1$ when $x=1$. Give your answer in the form $y=f(x)$."
+    },
+    "4": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.16", "5.L5", "1.8"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 15]\nThe integral $I_n$ is defined by $I_n=\\int_{n\\pi}^{(n+1)\\pi}\\mathrm{e}^{-x}|\\sin x|\\,\\mathrm{d}x$, for $n\\in\\mathbb{N}$.\n(a) Show that $I_0=\\frac{1}{2}(1+\\mathrm{e}^{-\\pi})$. [6 marks]\n(b) By letting $y=x-n\\pi$, show that $I_n=\\mathrm{e}^{-n\\pi}I_0$. [4 marks]\n(c) Hence determine the exact value of $\\int_0^{\\infty}\\mathrm{e}^{-x}|\\sin x|\\,\\mathrm{d}x$. [5 marks]"
+    },
+    "5": {
+      "topics": ["5", "1"],
+      "subtopics": ["5.L1", "5.L2", "5.19", "1.8"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 16]\nThe exponential series is given by $\\mathrm{e}^x=\\sum_{n=0}^{\\infty}\\frac{x^n}{n!}$.\n(a) Find the set of values of $x$ for which the series is convergent. [4 marks]\n(b) (i) Show, by comparison with an appropriate geometric series, that $\\mathrm{e}^x-1<\\frac{2x}{2-x}$, for $0<x<2$.\n(ii) Hence show that $\\mathrm{e}<\\left(\\frac{2n+1}{2n-1}\\right)^n$, for $n\\in\\mathbb{Z}^+$. [6 marks]\n(c) (i) Write down the first three terms of the Maclaurin series for $1-\\mathrm{e}^{-x}$ and explain why you are able to state that $1-\\mathrm{e}^{-x}>x-\\frac{x^2}{2}$, for $0<x<2$.\n(ii) Deduce that $\\mathrm{e}>\\left(\\frac{2n^2}{2n^2-2n+1}\\right)^n$, for $n\\in\\mathbb{Z}^+$. [4 marks]\n(d) Letting $n=1000$, use the results in parts (b) and (c) to calculate the value of e correct to as many decimal places as possible. [2 marks]"
+    }
+  }
+}

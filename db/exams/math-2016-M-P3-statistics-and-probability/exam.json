@@ -1,0 +1,137 @@
+{
+ "exam_id": "math-2016-M-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2016,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2016 May Examination Session/Mathematics_paper_3_Statistics_and_probability__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2016 May Examination Session/Mathematics_paper_3_Statistics_and_probability__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2216-7210; code M16/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2016-M-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 12]\nAdam does the crossword in the local newspaper every day. The time taken by Adam,\nX minutes, to complete the crossword is modelled by the normal distribution N(22, 52).\n(a) Given that, on a randomly chosen day, the probability that he completes the crossword\nin less than a minutes is equal to 0.8 , find the value of a. [3]\n(b) Find the probability that the total time taken for him to complete five randomly chosen\ncrosswords exceeds 120 minutes. [3]\nBeatrice also does the crossword in the local newspaper every day. The time taken by Beatrice,\nY minutes, to complete the crossword is modelled by the normal distribution N(40, 62) .\n(c) Find the probability that, on a randomly chosen day, the time taken by Beatrice to\ncomplete the crossword is more than twice the time taken by Adam to complete the\ncrossword. Assume that these two times are independent. [6]",
+   "ms_text": "1. (a) z= 0.841 … (A1)\na = μ + z σ (M1)\n= 26.2 A1\n[3 marks]\n(b) let Tdenote the total time taken to complete 5 crosswords.\nTisN(110, 125) (A1)(A1)\nNote:A1 for the mean and A1 for the variance.\nP( T> 120) = 0.186 A1\n[3 marks]\n(c) consider the random variable U = Y − 2 X (M1)\nE ( U ) 4 =− A1\nVar ( U ) Var () Y 4Var ( X ) (M1) = +\n= 136 A1\nP(Y > 2X) = P(U > 0) (M1)\n= 0.366 A1\n[6 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L4",
+    "4.12",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 12]\nAdam does the crossword in the local newspaper every day. The time taken by Adam, $X$ minutes, to complete the crossword is modelled by the normal distribution $\\mathrm{N}(22, 5^2)$.\n(a) Given that, on a randomly chosen day, the probability that he completes the crossword in less than $a$ minutes is equal to $0.8$, find the value of $a$. [3]\n(b) Find the probability that the total time taken for him to complete five randomly chosen crosswords exceeds $120$ minutes. [3]\nBeatrice also does the crossword in the local newspaper every day. The time taken by Beatrice, $Y$ minutes, to complete the crossword is modelled by the normal distribution $\\mathrm{N}(40, 6^2)$.\n(c) Find the probability that, on a randomly chosen day, the time taken by Beatrice to complete the crossword is more than twice the time taken by Adam to complete the crossword. Assume that these two times are independent. [6]"
+  },
+  {
+   "id": "math-2016-M-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\nThe random variables X , Y follow a bivariate normal distribution with product moment\ncorrelation coefficient ρ .\n(a) State suitable hypotheses to investigate whether or not X , Y are independent. [2]\nA random sample of 10 observations on X , Y was obtained and the value of r , the sample\nproduct moment correlation coefficient, was calculated to be 0.486 .\nDetermine the p-value. (b) (i)\n(ii) State your conclusion at the 5% significance level. [7]\nExplain why the equation of the regression line of y on x should not be used to predict (c)\nthe value of y corresponding to x = x0 , where x0 lies within the range of values of x in\nthe sample. [1]",
+   "ms_text": "H : 0 ; H : 0 2. (a) ρ = ρ ≠ A1A1\n0 1\n[2 marks]\n10 − 2\n(b) (i) t = 0.486 × (M1)\n2\n1 − 0.486\n= 1.572… (A1)\ndegrees of freedom = 8 (A1)\nP(T> 1.5728…) (M1)\n= 0.0772 (A1)\np-value= 0.154 A1\nNote: Do not follow through for the final A1 if their H1is one-sided.\n(ii) accept H or equivalent statement involving H0 or H1\n0\n(at the 5% significance level) R1\nNote: Follow through the candidate’s p -value.\n[7 marks]\n(c) EITHER\nbecause the above analysis suggests thatX, Yare independent R1\nOR\nthe value of r suggests that X and Y are weakly correlated R1\n[1 mark]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L8",
+    "4.L7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\nThe random variables $X, Y$ follow a bivariate normal distribution with product moment correlation coefficient $\\rho$.\n(a) State suitable hypotheses to investigate whether or not $X, Y$ are independent. [2]\nA random sample of $10$ observations on $X, Y$ was obtained and the value of $r$, the sample product moment correlation coefficient, was calculated to be $0.486$.\n(b) (i) Determine the $p$-value.\n(ii) State your conclusion at the $5\\%$ significance level. [7]\n(c) Explain why the equation of the regression line of $y$ on $x$ should not be used to predict the value of $y$ corresponding to $x = x_0$, where $x_0$ lies within the range of values of $x$ in the sample. [1]"
+  },
+  {
+   "id": "math-2016-M-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 15,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 15]\nThe continuous random variable X takes values in the interval [0 , θ] and\nθ θ 2\n. E(X ) = 2and Var(X ) = 24\nTo estimate the unknown parameter θ , a random sample of size n is obtained from the\ndistribution of X . The sample mean is denoted by X and U =kX is an unbiased estimator\nfor θ .\n(a) Find the value of k . [3]\n(b) (i) Calculate an unbiased estimate for θ , using the random sample,\n8.3 , 4.2 , 6.5 , 10.3 , 2.7 , 1.2 , 3.3 , 4.3 .\n(ii) Explain briefly why this is not a good estimate for θ . [4]\n2 θ\nVarU = (c) (i) Show that ( ) .\n6 n\n(ii) Show that U 2 is not an unbiased estimator for θ 2 .\nFind an unbiased estimator for θ 2 in terms of U and n . (iii) [8]",
+   "ms_text": "3. (a) E() U = k E( X ) = k E( X ) (M1)\nkθ\n= (A1)\n2\nunbiased when k= 2 A1\n[3 marks]\n(b) (i) for the data, Σx= 40.8 (A1)\n⇒ x = 5.1 (A1)\nso that unbiased estimate for θ= 10.2 A1\n(ii) this is impossible because of the sample value 10.3 R1\n[4 marks]\nVar() U 4 Var( X ) (c) (i) = × (M1)\n2\nθ\n= 4 × A1\n24 n\n2\nθ\nAG\n=n\n6\n2 2 (ii) E( U ) = Var( U ) + ( E( U ) ) M1\n2\nθ 2\n= + θ A1\n6n\n2 2 E( U )\n≠ θ R1\nso not unbiased AG\n2\nθ 2\n(iii) E( U ) = (1 + 6) n (A1)\n6 n\n6 n\n2 2 E U\n= θ (A1)\n1 + 6 n\n6 n 2 2\ntherefore U is an unbiased estimator for θ A1\n1 + 6 n\n[8 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 15]\nThe continuous random variable $X$ takes values in the interval $[0, \\theta]$ and\n$\\mathrm{E}(X) = \\frac{\\theta}{2}$ and $\\mathrm{Var}(X) = \\frac{\\theta^2}{24}$.\nTo estimate the unknown parameter $\\theta$, a random sample of size $n$ is obtained from the distribution of $X$. The sample mean is denoted by $\\bar{X}$ and $U = k\\bar{X}$ is an unbiased estimator for $\\theta$.\n(a) Find the value of $k$. [3]\n(b) (i) Calculate an unbiased estimate for $\\theta$, using the random sample,\n$8.3, 4.2, 6.5, 10.3, 2.7, 1.2, 3.3, 4.3$.\n(ii) Explain briefly why this is not a good estimate for $\\theta$. [4]\n(c) (i) Show that $\\mathrm{Var}(U) = \\frac{\\theta^2}{6n}$.\n(ii) Show that $U^2$ is not an unbiased estimator for $\\theta^2$.\n(iii) Find an unbiased estimator for $\\theta^2$ in terms of $U$ and $n$. [8]"
+  },
+  {
+   "id": "math-2016-M-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 11]\nThe owner of a factory is asked to produce bricks of weight 2.2 kg . The quality control\nmanager wishes to test whether or not, on a particular day, the mean weight of bricks being\nproduced is 2.2 kg .\n(a) State hypotheses to enable the quality control manager to test the mean weight using a\ntwo-tailed test. [2]\nHe therefore collects a random sample of 20 of these bricks and determines the weight,\nxkg , of each brick. He produces the following summary statistics.\n/ = / 2 = x 42 0 ., x 89 2 .\n(b) (i) Calculate unbiased estimates of the mean and the variance of the weights of the\nbricks being produced.\n(ii) Assuming that the weights of the bricks are normally distributed, determine the\np-value of the above results and state the conclusion in context using a 5 %\nsignificance level. [7]\n(c) The owner is more familiar with using confidence intervals. Determine a 95 %\nconfidence interval for the mean weight of bricks produced on that particular day. [2]",
+   "ms_text": "4. (a) H : μ = 2.2 ; H : μ ≠ 2.2 A1A1\n0 1\n[2 marks]\nUE of mean =42.0 (b) (i) 2.1 A1\n20=\n2 89.2 20\n× 2.1 1\nUEof variance = − = 0.0526 (M1)A1\n19 19 19\nNote: Award (M0) for division by 20 where there is no subsequent use of 20\n.\n19\n(ii) t=− 1.95 (A1)\nDF = 19 (A1)\np-value= 0.0662 A1\nNote: Allow follow through from (b)(i). In particular, 0.05 for the variance gives\nt=− 2 and p-value 0.0600.\naccept H , or equivalent statement involving H0or H1, indicating that the mean weight\n0\nis 2.2kg R1\nNote: Follow through the candidate’s p-value.\n[7 marks]\n(c) [1.99, 2.21] A1A1\nNote: Allow follow through from (b)(i). In particular, 0.05 for the variance gives [2.00,2.20].\n[2 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L5",
+    "4.L6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 11]\nThe owner of a factory is asked to produce bricks of weight $2.2\\,\\mathrm{kg}$. The quality control manager wishes to test whether or not, on a particular day, the mean weight of bricks being produced is $2.2\\,\\mathrm{kg}$.\n(a) State hypotheses to enable the quality control manager to test the mean weight using a two-tailed test. [2]\nHe therefore collects a random sample of $20$ of these bricks and determines the weight, $x\\,\\mathrm{kg}$, of each brick. He produces the following summary statistics.\n$\\sum x = 42.0, \\sum x^2 = 89.2$\n(b) (i) Calculate unbiased estimates of the mean and the variance of the weights of the bricks being produced.\n(ii) Assuming that the weights of the bricks are normally distributed, determine the $p$-value of the above results and state the conclusion in context using a $5\\%$ significance level. [7]\n(c) The owner is more familiar with using confidence intervals. Determine a $95\\%$ confidence interval for the mean weight of bricks produced on that particular day. [2]",
+   "review_note": "ms crop fixed via overrides (stray 'y+1' from Q5 ms removed)"
+  },
+  {
+   "id": "math-2016-M-P3-statistics-and-probability-q5",
+   "num": "5",
+   "section": null,
+   "marks": 12,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 12]\nThe continuous random variable X has probability density function\nx -e x ≥ 0\nfx ()= .\n0 x < 0\nThe discrete random variable Y is defined as the integer part of X , that is the largest integer\nless than or equal to X .\n(a) Show that the probability distribution of Y is given by P(Y =y) = e- y(1 - e- 1) , y ∈ ∞ . [4]\n(b) (i) Show that G(t) , the probability generating function of Y , is given by\n- 1\n1 - e\nG(t) = - .\n- 1 1 e t\n(ii) Hence determine the value of E(Y ) correct to three significant figures. [8]",
+   "ms_text": "y + 1\n− x\n5. (a) P( Y = y ) =∫ ed x M1A1\ny\ny + 1 − x\n= − e A1\ny\ne − ( y + 1) e − y A1 =− +\n− y − 1 =e (1 − e) AG\n[4 marks]\ny\n(b) (i) attempt to use Gt () = ∑ PY ( = yt ) (M1)\n∞\n− y − 1 y = ∑ e (1 − e) t A1\ny 0 =\nNote: Accept a listing of terms without the use of Σ .\n− 1 this is an infinite geometric series with first term 1 − e and\ncommon ratio et − 1 M1\n1 e − 1 −\nGt () = AG\n− 1 1 − e t\n(ii) E() Y = G′ (1) M1\n1 e − 1 −\n1 Gt ′ ()\n= × e − (M1)(A1)\n− 1 2 (1 − e t )\n− 1 e\nE() Y = (A1)\n− 1 (1 − e)\n= 0.582 A1\nNote: Allow the use of GDC to determine G′ (1) .\n[8 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "4.L3",
+    "4.14",
+    "5.11",
+    "5.6",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 12]\nThe continuous random variable $X$ has probability density function\n$f(x) = \\begin{cases} \\mathrm{e}^{-x} & x \\ge 0 \\\\ 0 & x < 0 \\end{cases}$.\nThe discrete random variable $Y$ is defined as the integer part of $X$, that is the largest integer less than or equal to $X$.\n(a) Show that the probability distribution of $Y$ is given by $\\mathrm{P}(Y = y) = \\mathrm{e}^{-y}(1 - \\mathrm{e}^{-1}), y \\in \\mathbb{N}$. [4]\n(b) (i) Show that $G(t)$, the probability generating function of $Y$, is given by\n$G(t) = \\frac{1 - \\mathrm{e}^{-1}}{1 - \\mathrm{e}^{-1}t}$.\n(ii) Hence determine the value of $E(Y)$ correct to three significant figures. [8]",
+   "review_note": "ms crop fixed via overrides (integral upper limit y+1 was cut off)"
+  }
+ ],
+ "status": "done"
+}

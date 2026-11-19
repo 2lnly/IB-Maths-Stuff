@@ -1,0 +1,536 @@
+{
+ "exam_id": "physics-2020-N-P3",
+ "subject": "physics",
+ "syllabus": "physics-legacy",
+ "year": 2020,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Physics HL/Paper 3/2020_November_Physics_/2020_November_Physics_paper_3__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Physics HL/Paper 3/2020_November_Physics_/2020_November_Physics_paper_3__HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 8820-6503",
+ "questions": [
+  {
+   "id": "physics-2020-N-P3-q1",
+   "num": "1",
+   "section": null,
+   "marks": 9,
+   "qtype": "data",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1.  A spherical soap bubble is made of a thin film of soapy water. The bubble has an internal air\npressure Pi and is formed in air of constant pressure Po. The theoretical prediction for the\nvariation of (Pi - Po) is given by the equation\n(  P  −  P  )  =  4  g\ni  o  R\nwhere γ is a constant for the thin film and R is the radius of the bubble.\nData for (Pi - Po) and R were collected under controlled conditions and plotted as a graph\nshowing the variation of (Pi - Po) with 1  R .\n3.00\n2.50\n2.00\n(Pi  − Po)\n/ Pa\n1.50\n1.00\n0.50\n0.00\n10.00  12.50  15.00  17.50  20.00  22.50  25.00\nR –1 / m–1\n(a)  Suggest whether the data are consistent with the theoretical prediction.  [2]\n(b)  (i)  Show that the value of γ  is about 0.03.  [2]\n(ii)  Identify the fundamental units of γ .  [1]\n(iii)  In order to find the uncertainty for γ , a maximum gradient line would be drawn.\nOn the graph, sketch the maximum gradient line for the data.  [1]\n(iv)  The percentage uncertainty for γ  is 15 %. State γ , with its absolute uncertainty.  [2]\n(v)  The expected value of γ  is 0.027. Comment on your result.  [1]",
+   "ms_text": "1.  a  «theory suggests» Pi-Po is proportional to 1  ✓  MP1: Accept ‘linear’\nR  MP2 do not award if there is any contradiction  2\neg: graph not proportional, does not pass\nthrough origin.\ngraph/line of best fit is straight/linear «so yes»\nOR\ngraph/line of best fit passes through the origin «so yes» ✓\n1  b  i  gradient = «4γ» = 0.10  MP1 allow gradients in range 0.098 to 0.102\nOR  MP2 allow a range 0.024 to 0.026 for \nuse of equation with coordinates of a point✓  2\n = 0.025 ✓\n1  b  ii  kg s–2 ✓  Accept  kg  1\ns  2\n1  b  iii  straight line, gradient greater than line of best fit, and within the error\nbars ✓\n1\n1  b  iv  «15% of 0.025» = 0.00375  Allow ECF from (b)(i)\nOR\n«15% of 0.030» = 0.0045 ✓  Award [2] marks for a bald correct answer\nrounds uncertainty to 1sf  2\n±0.004\nOR\n±0.005 ✓\n1  b  v  Experimental value matches this/correct, as expected value within the\nrange ✓\nOR  1\nexperimental value does not match/incorrect, as it is not within range ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. A spherical soap bubble is made of a thin film of soapy water. The bubble has an internal air pressure $P_i$ and is formed in air of constant pressure $P_o$. The theoretical prediction for the variation of $(P_i - P_o)$ is given by the equation\n$(P_i - P_o) = \\frac{4\\gamma}{R}$\nwhere $\\gamma$ is a constant for the thin film and $R$ is the radius of the bubble.\nData for $(P_i - P_o)$ and $R$ were collected under controlled conditions and plotted as a graph showing the variation of $(P_i - P_o)$ with $\\frac{1}{R}$.\n[Graph: $(P_i - P_o)$ / Pa (0.00 to 3.00) against $R^{-1}$ / m$^{-1}$ (10.00 to 25.00); six data points with vertical error bars from about (11.1, 1.11) to (25.0, 2.50) with a straight line of best fit]\n(a) Suggest whether the data are consistent with the theoretical prediction. [2]\n(b) (i) Show that the value of $\\gamma$ is about 0.03. [2]\n(ii) Identify the fundamental units of $\\gamma$. [1]\n(iii) In order to find the uncertainty for $\\gamma$, a maximum gradient line would be drawn. On the graph, sketch the maximum gradient line for the data. [1]\n(iv) The percentage uncertainty for $\\gamma$ is 15 %. State $\\gamma$, with its absolute uncertainty. [2]\n(v) The expected value of $\\gamma$ is 0.027. Comment on your result. [1]"
+  },
+  {
+   "id": "physics-2020-N-P3-q2",
+   "num": "2",
+   "section": null,
+   "marks": 6,
+   "qtype": "data",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2.  A student studies the relationship between the centripetal force applied to an object\nundergoing circular motion and its period T.\nThe object (mass m) is attached by a light inextensible string, through a tube, to a weight\nW which hangs vertically. The string is free to move through the tube. A student swings the\nmass in a horizontal, circular path, adjusting the period T of the motion until the radius r\nis constant. The radius of the circle and the mass of the object are measured and remain\nconstant for the entire experiment.\nr  hollow\nm  plastic\ntube\nW\nThe student collects the measurements of T fi ve times, for weight W. The weight is then\ndoubled (2W) and the data collection repeated. Then it is repeated with 3W and 4W.\nThe results are expected to support the relationship\n2\nW  4    mr  2  .\nT\n(a)  State why the experiment is repeated with different values of W.  [1]\nIn reality, there is friction in the system, so in this case W is less than the total centripetal\nforce in the system. A suitable graph is plotted to determine the value of mr experimentally.\nThe value of mr was also calculated directly from the measured values of m and r.\n(b)  Predict from the equation whether the value of mr found experimentally will be larger,\nthe same or smaller than the value of mr calculated directly.  [2]\n(c)  (i)  The measurements of T were collected five times. Explain how repeated\nmeasurements of T reduced the random error in the final experimental value of mr. [2]\n(ii)  Outline why repeated measurements of T would not reduce any systematic\nerror in T.  [1]",
+   "ms_text": "2.  a  1  OWTTE.\nIn order to draw a graph« of W versus  2  »\nT\nOR\nto confirm proportionality between «W and T -2 »\nOR  1\nto confirm relationship between «W and T »\nOR\nbecause W is the independent variable in the experiment ✓\n2  b  ALTERNATIVE 1  MP2 awarded only with correct justification.\nCandidates can gain zero, MP1 alone or full\n=  4    2mr  marks.\nW + friction  2\nT\nOR  OWTTE\ncentripetal force is larger «than W» / W is smaller «than centripetal» ✓\n2\n«so» experimental mr is smaller «than calculated value» ✓\nALTERNATIVE 2 (refers to graph)\nreference to «friction force is» a systematic error «and does not affect\ngradient» ✓\n«so» mr is the same    ✓\n2  c  i  mention of mean/average value «of T» ✓  Reference to “random errors average out”\nscores MP1\nAccept “closer to true value”, “more reliable\nthis reduces uncertainty in T / result  value” OWTTE for MP2  2\nOR\nmore accurate/precise ✓\n2  c  ii  systematic errors «usually» constant/always present/not influenced by  OWTTE\nrepetition ✓  1",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "A"
+   ],
+   "subtopics": [
+    "X.1",
+    "A.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. A student studies the relationship between the centripetal force applied to an object undergoing circular motion and its period $T$.\nThe object (mass $m$) is attached by a light inextensible string, through a tube, to a weight $W$ which hangs vertically. The string is free to move through the tube. A student swings the mass in a horizontal, circular path, adjusting the period $T$ of the motion until the radius $r$ is constant. The radius of the circle and the mass of the object are measured and remain constant for the entire experiment.\n[Diagram: mass m whirled in a horizontal circle of radius r on a string passing through a hollow plastic tube, with weight W hanging from the lower end of the string]\nThe student collects the measurements of $T$ five times, for weight $W$. The weight is then doubled ($2W$) and the data collection repeated. Then it is repeated with $3W$ and $4W$.\nThe results are expected to support the relationship\n$W = \\frac{4\\pi^2 mr}{T^2}$.\n(a) State why the experiment is repeated with different values of $W$. [1]\nIn reality, there is friction in the system, so in this case $W$ is less than the total centripetal force in the system. A suitable graph is plotted to determine the value of $mr$ experimentally. The value of $mr$ was also calculated directly from the measured values of $m$ and $r$.\n(b) Predict from the equation whether the value of $mr$ found experimentally will be larger, the same or smaller than the value of $mr$ calculated directly. [2]\n(c) (i) The measurements of $T$ were collected five times. Explain how repeated measurements of $T$ reduced the random error in the final experimental value of $mr$. [2]\n(ii) Outline why repeated measurements of $T$ would not reduce any systematic error in $T$. [1]"
+  },
+  {
+   "id": "physics-2020-N-P3-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3.  (a)  Maxwell’s equations led to the constancy of the speed of light. Identify what Maxwell’s\nequations describe.  [1]\n(b)  State a postulate that is the same for both special relativity and Galilean relativity.  [1]\n(c)  Two parallel current-carrying wires have equal currents in the same direction. There is\nan attractive force between the wires.\n(i)  Identify the nature of the attractive force recorded by an observer stationary with\nrespect to the wires.  [1]\n(ii)  A second observer moves at the drift velocity of the electron current in the wires.\nDiscuss how this observer accounts for the force between the wires.  [3]",
+   "ms_text": "3.  a  mention of electric AND magnetic fields ✓\nOR  1\nmention of electromagnetic radiation/wave/fields ✓\n3  b  the laws of physics are the same in all «inertial» frames of reference/for all «inertial»  OWTTE\nobservers ✓  1\n3  c  i  magnetic ✓  1\n3  c  ii  «In observer frame» protons «in the two wires» move in same/parallel direction ✓  OWTTE\nthese moving protons produce magnetic attraction ✓  3\nthere is also a smaller electrostatic repulsion due to wires appearing positive due to length\ncontraction «of proton spacing» ✓",
+   "mcq_answer": null,
+   "topics": [
+    "A",
+    "D"
+   ],
+   "subtopics": [
+    "A.5",
+    "D.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. (a) Maxwell's equations led to the constancy of the speed of light. Identify what Maxwell's equations describe. [1]\n(b) State a postulate that is the same for both special relativity and Galilean relativity. [1]\n(c) Two parallel current-carrying wires have equal currents in the same direction. There is an attractive force between the wires.\n(i) Identify the nature of the attractive force recorded by an observer stationary with respect to the wires. [1]\n(ii) A second observer moves at the drift velocity of the electron current in the wires. Discuss how this observer accounts for the force between the wires. [3]"
+  },
+  {
+   "id": "physics-2020-N-P3-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4.  (a)  The Lorentz transformations assume that the speed of light is constant. Outline what\nthe Galilean transformations assume.  [1]\n(b)  A spaceship is travelling at 0.80c, away from Earth. It launches a probe away from\nEarth, at 0.50c relative to the spaceship. An observer on the probe measures the\nlength of the probe to be 8.0 m.\nEarth\nspaceship  probe\n(i)  Deduce the length of the probe as measured by an observer in the spaceship.  [2]\n(ii)  Explain which of the lengths is the proper length.  [2]\n(c)  Calculate the speed of the probe in terms of c, relative to Earth.  [2]",
+   "ms_text": "4.  a  constancy of time  OWTTE.\nOR  1\nspeed of light > c is possible ✓\n4  b  i   = 1.15 ✓  Allow length in the range 6.7\nto 7.0 m.\nlength = 6.9 «m» ✓\nAllow ECF from wrong   2\nAward [2] marks for a bald\ncorrect answer in the range\nindicated above.\n4  b  ii  8.0 m / measurement made on the probe ✓\n2\nthe measurement made by an observer at rest in the frame of the probe ✓\n4  c  u  =  0.5  c  +  0.8  c  Allow all negative signs for\n0.5  c    0.8  c  velocities\n1  +  2  2\nc  ✓  Award [2] marks for a bald\ncorrect answer\nu = 0.93c ✓",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. (a) The Lorentz transformations assume that the speed of light is constant. Outline what the Galilean transformations assume. [1]\n(b) A spaceship is travelling at $0.80c$, away from Earth. It launches a probe away from Earth, at $0.50c$ relative to the spaceship. An observer on the probe measures the length of the probe to be 8.0 m.\n[Diagram: Earth on the left; spaceship and probe moving to the right, away from Earth]\n(i) Deduce the length of the probe as measured by an observer in the spaceship. [2]\n(ii) Explain which of the lengths is the proper length. [2]\n(c) Calculate the speed of the probe in terms of $c$, relative to Earth. [2]"
+  },
+  {
+   "id": "physics-2020-N-P3-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5.  The spacetime diagram is in the reference frame of an observer O on Earth. Observer O and\nspaceship A are at the origin of the spacetime diagram when time t = t' = 0. The worldline for\nspaceship A is shown.\n10  ct'\n8\n6\nct / ly\n4\n2\n0\n0  2  4  6  8  10\nx / ly\n(a)  (i)  Calculate in terms of c the velocity of spaceship A relative to observer O.  [1]\n(ii)  Draw the x' axis for the reference frame of spaceship A.  [1]\n(b)  Event E is the emission of a flash of light. Observer O sees light from the flash when\nt = 9 years and calculates that event E is 4 ly away, in the positive x direction.\n(i)  Plot the event E on the spacetime diagram and label it E.  [2]\n(ii)  Determine the time, according to spaceship A, when light from event E was\nobserved on spaceship A.  [3]",
+   "ms_text": "5.  a  i  0.6c ✓  Accept 1.8 x108 ms-1 if unit  1\ngiven.\n5  a  ii  line through origin and through (5, 3) ± one small square at this coordinate ✓  Answers shown for 5(a)(ii)\nand (b)(i) and (b)(ii).\n1\n5  b  i  X value of E at 4 «ly» ✓\n2\nY value of E at 5 «y» ✓\n5.  b  ii  light cone from E «crosses ct at 9 so» intersection on ct'= 5.6 ± 0.2 y «on ct scale» ✓  MP1 accept use of linear\nequations to find t = 5.625\n = 1.25 ✓\nAllow ECF from (b)(i) and  3\nso t’=« 5.6  =  »  4.5  «y after leaving Earth» ✓  (a)\n1.25",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. The spacetime diagram is in the reference frame of an observer O on Earth. Observer O and spaceship A are at the origin of the spacetime diagram when time $t = t' = 0$. The worldline for spaceship A is shown.\n[Spacetime diagram: $ct$ / ly (0 to 10) against $x$ / ly (0 to 10); worldline $ct'$ of spaceship A drawn from the origin through (6, 10)]\n(a) (i) Calculate in terms of $c$ the velocity of spaceship A relative to observer O. [1]\n(ii) Draw the $x'$ axis for the reference frame of spaceship A. [1]\n(b) Event E is the emission of a flash of light. Observer O sees light from the flash when $t$ = 9 years and calculates that event E is 4 ly away, in the positive $x$ direction.\n(i) Plot the event E on the spacetime diagram and label it E. [2]\n(ii) Determine the time, according to spaceship A, when light from event E was observed on spaceship A. [3]"
+  },
+  {
+   "id": "physics-2020-N-P3-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6.  A deuterium ( 1  2  H) nucleus (rest mass 2.014 u) is accelerated by a potential difference of\n2.700 × 102 MV.\n(a)  Define rest mass.  [1]\n(b)  Calculate the total energy of the deuterium particle in MeV.  [2]\n(c)  In relativistic reactions the mass of the products may be less than the mass of the\nreactants. Suggest what happens to the missing mass.  [2]",
+   "ms_text": "6.  a  invariant mass\nOR  1\nmass of object when not in motion/in object’s rest frame ✓\n6  b  «rest energy =» (2.014 x 931.5) «MeV» ✓  Final answer accept\n3.443x10-10J if unit given\n«ET = KE + rest energy = 270.0 + (2.014 x 931.5) =» 2146 «MeV» ✓  2\nAward [2] marks for a bald\ncorrect answer.\n6  c  is converted to energy ✓\n2\nas kinetic energy of the products ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. A deuterium ($^2_1$H) nucleus (rest mass 2.014 u) is accelerated by a potential difference of $2.700 \\times 10^2$ MV.\n(a) Define rest mass. [1]\n(b) Calculate the total energy of the deuterium particle in MeV. [2]\n(c) In relativistic reactions the mass of the products may be less than the mass of the reactants. Suggest what happens to the missing mass. [2]"
+  },
+  {
+   "id": "physics-2020-N-P3-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7.  In the Pound–Rebka–Snider experiment, a source of gamma rays was placed 22.6 m\nvertically above a gamma ray detector, in a tower on Earth.\nsource\n22.6 m\ndetector\n(a)  Calculate the fractional change in frequency of the gamma rays at the detector.  [1]\n(b)  Explain the cause of the frequency shift for the gamma rays in your answer in (a)\n(i)  in the Earth’s gravitational field.  [2]\n(ii)  if the tower and detector were accelerating towards the gamma rays in free space. [2]",
+   "ms_text": "7.  a  «    f  =  g h    =  9.81 22.6    »  =  f  2.46 10    −  15  ✓\n2  2  1\nf  c  c  f\n7  b  i  GPE gained by photons so E increases ✓\n2\nE = hf, so frequency increases ✓\n7  b  ii  gamma rays travel at c ✓  Award [1 max] for reference\nto principle of equivalence  2\ndetector accelerates towards source so «by Doppler effect»  reduced so frequency  without further explanation.\nincreases ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.7",
+    "C.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. In the Pound–Rebka–Snider experiment, a source of gamma rays was placed 22.6 m vertically above a gamma ray detector, in a tower on Earth.\n[Diagram: tower with source at the top and detector at the bottom, separated vertically by 22.6 m]\n(a) Calculate the fractional change in frequency of the gamma rays at the detector. [1]\n(b) Explain the cause of the frequency shift for the gamma rays in your answer in (a)\n(i) in the Earth's gravitational field. [2]\n(ii) if the tower and detector were accelerating towards the gamma rays in free space. [2]"
+  },
+  {
+   "id": "physics-2020-N-P3-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8.  A bar rotates horizontally about its centre, reaching a maximum angular velocity in six\ncomplete rotations from rest. The bar has a constant angular acceleration of 0.110 rad s–2.\nThe moment of inertia of the bar about the axis of rotation is 0.0216 kg m2.\n(a)  Show that the final angular velocity of the bar is about 3 rad s–1.  [2]\n(b)  Draw the variation with time t of the angular displacement θ of the bar during the\nacceleration.  [1]\nθ  / rad\nt / s\n(c)  Calculate the torque acting on the bar while it is accelerating.  [1]\n(d)  The torque is removed. The bar comes to rest in 30 complete rotations with constant\nangular deceleration. Determine the time taken for the bar to come to rest.  [2]",
+   "ms_text": "8.  a    f  2  =  0  +  2    0.110    6  ✓  2  Other methods are possible.\nAt least 2 sig figs for MP2.  2\n= 2.88  f  «rad s–1»✓\n8  b  concave up from origin ✓\n1\n8  c  =« I  so =0.110 x 0.0216 =» 2.38 x 10–3 «N m» ✓  1\n8  d    2.9  2  OR  – 0.022 «rad s–2 ✓  Other methods are possible.\n=  =\n2    2  30  Award [2] marks for a bald\ncorrect answer  2\n=    −    −  2.9  » = 130 «s» ✓\nt «  f    i  = −  0.0220",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. A bar rotates horizontally about its centre, reaching a maximum angular velocity in six complete rotations from rest. The bar has a constant angular acceleration of 0.110 rad s$^{-2}$. The moment of inertia of the bar about the axis of rotation is 0.0216 kg m$^2$.\n[Diagram: horizontal bar rotating about a vertical axis through its centre]\n(a) Show that the final angular velocity of the bar is about 3 rad s$^{-1}$. [2]\n(b) Draw the variation with time $t$ of the angular displacement $\\theta$ of the bar during the acceleration. [1]\n[Blank axes: $\\theta$ / rad against $t$ / s]\n(c) Calculate the torque acting on the bar while it is accelerating. [1]\n(d) The torque is removed. The bar comes to rest in 30 complete rotations with constant angular deceleration. Determine the time taken for the bar to come to rest. [2]"
+  },
+  {
+   "id": "physics-2020-N-P3-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9.  The first diagram shows a person standing on a turntable which can rotate freely. The person\nis stationary and holding a bicycle wheel. The wheel rotates anticlockwise when seen from above.\nA\nB\nturntable can\nrotate freely\nThe wheel is flipped, as shown in the second diagram, so that it rotates clockwise when seen\nfrom above.\nB\nA\n(a)  Explain the direction in which the person-turntable system starts to rotate.  [3]\n(b)  Explain the changes to the rotational kinetic energy in the person-turntable system.  [2]",
+   "ms_text": "9.  a  «person rotates» anticlockwise ✓  OWTTE\nthe person gains angular momentum «in the opposite direction to the new wheel  Award [1 max] for a bald\nmotion» ✓  statement of conservation of  3\nangular momentum.\nso that the total angular momentum is conserved ✓\n9  b  the rotational kinetic energy has increased ✓\nenergy is provided by the person doing work «flipping the wheel» ✓  OWTTE  2",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. The first diagram shows a person standing on a turntable which can rotate freely. The person is stationary and holding a bicycle wheel. The wheel rotates anticlockwise when seen from above.\n[Diagram: person on a freely rotating turntable holding a spinning bicycle wheel by its vertical axle, end A at top and B at bottom]\nThe wheel is flipped, as shown in the second diagram, so that it rotates clockwise when seen from above.\n[Diagram: the wheel flipped, end B at top and A at bottom]\n(a) Explain the direction in which the person-turntable system starts to rotate. [3]\n(b) Explain the changes to the rotational kinetic energy in the person-turntable system. [2]"
+  },
+  {
+   "id": "physics-2020-N-P3-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 3,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10.  A solid sphere of radius r and mass m is released from rest and rolls down a slope, without\nslipping. The vertical height of the slope is h. The moment of inertia I of this sphere about an\naxis through its centre is 2  mr .  2\n5\nr\nh\nShow that the linear velocity v of the sphere as it leaves the slope is  10  gh .  [3]\n7",
+   "ms_text": "10.  conservation of rotational and linear energy\nOR\nmgh  =  1  mv  2  +  1  I  2  ✓\n2  2\n3\nusing  I  =  2  mr  2  AND  =  v  ✓\n5  r\nwith correct manipulation to find the requested relationship ✓",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.4",
+    "A.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. A solid sphere of radius $r$ and mass $m$ is released from rest and rolls down a slope, without slipping. The vertical height of the slope is $h$. The moment of inertia $I$ of this sphere about an axis through its centre is $\\frac{2}{5}mr^2$.\n[Diagram: sphere of radius r at the top of a slope of vertical height h]\nShow that the linear velocity $v$ of the sphere as it leaves the slope is $\\sqrt{\\frac{10gh}{7}}$. [3]"
+  },
+  {
+   "id": "physics-2020-N-P3-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11.  The diagram represents an ideal, monatomic gas that first undergoes a compression, then\nan increase in pressure.\n5\n4\n3\nPressure / 105 Pa\n2\n1\n0\n0  1  2  3  4  5  6\nVolume / 10–2 m3\n(a)  Calculate the work done during the\n(i)  compression.  [1]\n(ii)  increase in pressure.  [1]\n(b)  An adiabatic process then increases the volume of the gas to 5.0 × 10–2 m3.\n(i)  Calculate the pressure following this process.  [2]\n(ii)  Outline how an approximate adiabatic change can be achieved.  [2]",
+   "ms_text": "11.  a  i  «–» 3x103 «J» ✓  1\n11  a  ii  0 «J» ✓  OWTTE  1\n11  b  i  5  5  5  Award [2] marks for a bald\nuse of  PV  3  is constant «  4.0    10  5    (2.0    10  −  2  )  3  =  P  2    (5.0    10  −  2  )  3  » ✓  correct answer\n2\nP2 = 8.7x104 «Pa» OR 87 «kPa» ✓\n11  b  ii  adiabatic means no transfer of heat in or out of the system ✓  OWTTE\nshould be fast ✓  2 max\n«can be slow if» the system is insulated ✓",
+   "mcq_answer": null,
+   "topics": [
+    "B"
+   ],
+   "subtopics": [
+    "B.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. The diagram represents an ideal, monatomic gas that first undergoes a compression, then an increase in pressure.\n[Graph: Pressure / $10^5$ Pa against Volume / $10^{-2}$ m$^3$; isobaric compression at $1 \\times 10^5$ Pa from 5 to 2 ($\\times 10^{-2}$ m$^3$), then isochoric increase in pressure at $2 \\times 10^{-2}$ m$^3$ from 1 to 4 ($\\times 10^5$ Pa)]\n(a) Calculate the work done during the\n(i) compression. [1]\n(ii) increase in pressure. [1]\n(b) An adiabatic process then increases the volume of the gas to $5.0 \\times 10^{-2}$ m$^3$.\n(i) Calculate the pressure following this process. [2]\n(ii) Outline how an approximate adiabatic change can be achieved. [2]"
+  },
+  {
+   "id": "physics-2020-N-P3-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12.  (a)  State two properties of an ideal fluid.  [2]\n(b)  A sphere is dropped into a container of oil.\nThe following data are available.\nDensity of oil = 915 kg m-3\nViscosity of oil = 37.9 × 10-3 Pa s\nVolume of sphere = 7.24 × 10-6 m3\nMass of sphere = 12.6 g\nDetermine the terminal velocity of the sphere.  [3]\n(c)  The sphere is now suspended from a spring so that the sphere is below the surface of the oil.\n(i)  Determine the force exerted by the spring on the sphere when the sphere is at rest. [2]\n(ii)  The sphere oscillates vertically within the oil at the natural frequency of the\nsphere-spring system. The energy is reduced in each cycle by 10 %. Calculate\nthe Q factor for this system.  [1]\n(iii)  Outline the effect on Q of changing the oil to one with greater viscosity.  [2]",
+   "ms_text": "12.  a  incompressible ✓\nnon-viscous ✓  2 max\nlaminar/streamlined flow ✓\n12  b  radius of sphere = 0.012 «m» ✓  Accept use of g = 10 leading\nto v = 7.0 «m s–1»\nAllow implicit calculation of\nweight of sphere = 6      rv  +    Vg  radius for MP1\nOR  Do not allow ECF for MP3 if\nbuoyant force omitted.  3\nv = (  1.26 10    −  2  −  915    −  7.24 10    −  6  −  )    9.81  ✓\n6    37.9 10    3    1.2 10    2\nv = 6.84 «m s–1» ✓\n12.  c  i  F = mg – Vg  Accept use of g = 10 leading to F= 6.0 x\n10-2 N\nOR\n2\nF = (0.0126 x 9.81) – (915 x 7.24 x10-6 x 9.81) ✓\nF = 5.86 x 10-2 «N» ✓\n12  c  ii  Q = «  2    energy stored  =  2    100  = » 63 ✓\nenergy lost  10  1\n12  c  iii  drag force increases OR damping increases OR more energy lost per\ncycle ✓  2\nQ will decrease ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.8",
+    "C.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. (a) State two properties of an ideal fluid. [2]\n(b) A sphere is dropped into a container of oil.\nThe following data are available.\nDensity of oil = 915 kg m$^{-3}$\nViscosity of oil = $37.9 \\times 10^{-3}$ Pa s\nVolume of sphere = $7.24 \\times 10^{-6}$ m$^3$\nMass of sphere = 12.6 g\nDetermine the terminal velocity of the sphere. [3]\n(c) The sphere is now suspended from a spring so that the sphere is below the surface of the oil.\n(i) Determine the force exerted by the spring on the sphere when the sphere is at rest. [2]\n(ii) The sphere oscillates vertically within the oil at the natural frequency of the sphere-spring system. The energy is reduced in each cycle by 10 %. Calculate the Q factor for this system. [1]\n(iii) Outline the effect on Q of changing the oil to one with greater viscosity. [2]"
+  },
+  {
+   "id": "physics-2020-N-P3-q13",
+   "num": "13",
+   "section": "C",
+   "marks": 3,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13.  The diagram represents a diverging mirror being used to view an object.\ncentre of the mirror\neye\nobject\n(a)  Construct a single ray showing one path of light between the eye, the mirror and the\nobject, to view the object.  [2]\n(b)  The image observed is virtual. Outline the meaning of virtual image.  [1]",
+   "ms_text": "13. a  attempt to connect object and eye with ray showing equal angles of reflection such that  Allow rays that are drawn\nreflection occurs within 1 hatch mark of position shown ✓  freehand without a ruler - use\njudgement.\nconstruction showing normal at point of reflection ✓\n2\n13  b  light rays do not pass through the image  OWTTE.\nOR\ndo not form an image on a screen\nOR  1\nappear to have come from a point\nOR\nformed by extension of rays ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. The diagram represents a diverging mirror being used to view an object.\n[Diagram: curved (convex-side-down) mirror with its centre marked above it; object (circle) at lower left and eye (cross) at lower right]\n(a) Construct a single ray showing one path of light between the eye, the mirror and the object, to view the object. [2]\n(b) The image observed is virtual. Outline the meaning of virtual image. [1]"
+  },
+  {
+   "id": "physics-2020-N-P3-q14",
+   "num": "14",
+   "section": "C",
+   "marks": 9,
+   "qtype": "long",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14.  A beam of monochromatic light from infinity is incident on a converging lens A. The diagram\nshows three wavefronts of the light and the focal point  f  of the lens.\ndirection of travel of wavefronts\nf\nA\n(a)  Draw on the diagram the three wavefronts after they have passed through the lens.  [2]\n(b)  Lens A has a focal length of 4.00 cm. An object is placed 4.50 cm to the left of A.\nShow by calculation that a screen should be placed about 0.4 m from A to display a\nfocused image.  [2]\n(c)  The screen is removed and the image is used as the object for a second diverging\nlens B, to form a final image. Lens B has a focal length of 2.00 cm and the final real\nimage is 8.00 cm from the lens. Calculate the distance between lens A and lens B.  [3]\n(d)  Calculate the total magnification of the object by the lens combination.  [2]",
+   "ms_text": "14. a  wavefront separation identical and equal to separation before the lens ✓  By eye.\nwavefronts converging, approximately centered on f ✓  Dotted construction lines are not required,\nallow wavefronts to extend beyond or be\ninside the dotted lines here.\nAllow [1max] if only two wavefronts\ndrawn.\n2\n14  b  1  =  1  −  1  ✓\nv  4.00  4.50  2\nv = 36.0 «cm» ✓\n14. c  1  =  1  +  1  ✓  Allow [2 max] for ECF for no negative\nA:  in MP1. Gives u=2.7 and distance of\n−  2.0  8  u\n38.7«cm»  3\nu = – 1.6 «cm» ✓\nAllow ECF from (b) in MP3.EG use of\ndistance necessary= «36.0−1.6 =» 34.4 «cm» ✓  0.4m / 40cm.\n14  d  «  m  = −  i  =  −  36  for A or  −  8  for B»  Allow [2] marks for a bald correct\no  4.5  −  1.6  answer\nmA = «–» 8 OR mB = «+» 5 ✓  Allow ECF from (b) and (c).  2\ntotal magnification = «–» 40 ✓  Eg if u=2.7cm in (c) then mB = 3 and\ntotal m=24",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "14. A beam of monochromatic light from infinity is incident on a converging lens A. The diagram shows three wavefronts of the light and the focal point $f$ of the lens.\n[Diagram: three parallel plane wavefronts travelling to the right towards converging lens A on a principal axis, with focal point f marked to the right of the lens]\n(a) Draw on the diagram the three wavefronts after they have passed through the lens. [2]\n(b) Lens A has a focal length of 4.00 cm. An object is placed 4.50 cm to the left of A. Show by calculation that a screen should be placed about 0.4 m from A to display a focused image. [2]\n(c) The screen is removed and the image is used as the object for a second diverging lens B, to form a final image. Lens B has a focal length of 2.00 cm and the final real image is 8.00 cm from the lens. Calculate the distance between lens A and lens B. [3]\n(d) Calculate the total magnification of the object by the lens combination. [2]"
+  },
+  {
+   "id": "physics-2020-N-P3-q15",
+   "num": "15",
+   "section": "C",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "15.  (a)  Outline the meaning of normal adjustment for a compound microscope.  [1]\n(b)  Sketch a ray diagram to find the position of the images for both lenses in the compound\nmicroscope at normal adjustment. The object is at O and the focal lengths of the\nobjective and eyepiece lenses are shown.  [4]\nfe  fe\nO  fo  fo",
+   "ms_text": "15. a  the final image lies at the near point «often assumed to be 25 cm» ✓  1\n15 b  any 2 correct rays from O for objective lens ✓  Allow ECF for MP2, MP3 & MP4 for\nbadly drawn rays.\nforming an intermediate image at approximate position shown\nMP4 allow final image to be off the\nOR  page\nuse of image from objective lens as object for eyepiece lens ✓\nany 2 correct rays for eyepiece lens from intermediate image ✓\nray extension to form a final image ✓\n4",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "15. (a) Outline the meaning of normal adjustment for a compound microscope. [1]\n(b) Sketch a ray diagram to find the position of the images for both lenses in the compound microscope at normal adjustment. The object is at O and the focal lengths of the objective and eyepiece lenses are shown. [4]\n[Diagram: grid with principal axis, small objective lens with focal points $f_o$ either side and object O just beyond $f_o$; larger eyepiece lens to the right with focal points $f_e$ either side]"
+  },
+  {
+   "id": "physics-2020-N-P3-q16",
+   "num": "16",
+   "section": "C",
+   "marks": 3,
+   "qtype": "short",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "16.  A single pulse of light enters an optic fi bre which contains small impurities that scatter the\nlight. Explain the effect of these impurities on the pulse.  [3]",
+   "ms_text": "16.  mention of attenuation ✓\nmention of dispersion or pulse broadening ✓  3\ngives explanation for at least one of above ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "16. A single pulse of light enters an optic fibre which contains small impurities that scatter the light. Explain the effect of these impurities on the pulse. [3]"
+  },
+  {
+   "id": "physics-2020-N-P3-q17",
+   "num": "17",
+   "section": "C",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "17.  The photograph shows an X-ray image of a hand.\n(a)  Explain how attenuation causes the contrast between soft tissue and bone in the image.  [3]\n(b)  X-ray images of other parts of the body require the contrast to be enhanced. State one\ntechnique used in X-ray medical imaging to enhance contrast.  [1]",
+   "ms_text": "17.  a  bone «denser so» absorb rays «and appear white in the negative» ✓  Accept the reversed argument\nlarger attenuation for bone ✓  3\nmuscles have less attenuation, so rays pass through «and appear darker» ✓\n17  b  collimation✓\nfluorescent screens «each side of photographic plate» ✓  1 max\nbarium/magnesium meal ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "17. The photograph shows an X-ray image of a hand.\n[Photograph: X-ray image of a hand showing bones]\n(a) Explain how attenuation causes the contrast between soft tissue and bone in the image. [3]\n(b) X-ray images of other parts of the body require the contrast to be enhanced. State one technique used in X-ray medical imaging to enhance contrast. [1]"
+  },
+  {
+   "id": "physics-2020-N-P3-q18",
+   "num": "18",
+   "section": "C",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "18.  (a)  Explain the cause of the radio-frequency emissions from a patient’s body during\nnuclear magnetic resonance (NMR) imaging.  [3]\n(b)  Outline how a gradient field allows NMR to be used in medical resonance imaging.  [2]\n(c)  Identify one advantage of NMR over ultrasound in medical situations.  [1]",
+   "ms_text": "18.  a  use of strong magnetic field ✓\nprotons are aligned ✓\nradio wave at «nuclear» resonant frequency flips «some of» them into higher energy state ✓  3 max\nproton de-excites emitting energy at known «radio» wavelength/frequency/Larmor\nfrequency ✓\n«which can be located and detected»\n18  b  mention of gradient field «added to the NMR uniform magnetic field» ✓\nreference to «the total field that determines» the output «Larmor» frequency from the de-\nexcitation ✓  2 max\ndifferent positions «in the body» give rise to different frequencies ✓\n«and this can be mapped»\n18  c  NMR higher resolution ✓  Accept the reverse argument  1 max\nNMR less attenuation ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "18. (a) Explain the cause of the radio-frequency emissions from a patient's body during nuclear magnetic resonance (NMR) imaging. [3]\n(b) Outline how a gradient field allows NMR to be used in medical resonance imaging. [2]\n(c) Identify one advantage of NMR over ultrasound in medical situations. [1]"
+  },
+  {
+   "id": "physics-2020-N-P3-q19",
+   "num": "19",
+   "section": "D",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "19.  (a)  The astronomical unit (AU) and light year (ly) are convenient measures of distance in\nastrophysics. Define each unit.  [2]\nAU:\t \nly:\n(b)  An image of a comet is shown.\n(i)  Comets develop a tail as they approach the Sun. Identify one other characteristic\nof comets.  [1]\n(ii)  Identify one object visible in the image that is outside our Solar System.  [1]",
+   "ms_text": "19.  a  AU: «average» distance from the Earth to the Sun ✓\n2\nly: distance light travels in one year ✓\n19  b  i  made of ice «and dust» ✓\n«highly» eccentric/elliptical orbit around the Sun ✓  1 max\nformed in the Oort Cloud ✓\n19  b  ii  star / named star / stellar cluster/ galaxy/ constellation ✓  Answer may be indicated on the  1\nphotograph.",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "19. (a) The astronomical unit (AU) and light year (ly) are convenient measures of distance in astrophysics. Define each unit. [2]\nAU:\nly:\n(b) An image of a comet is shown.\n[Photograph: a comet with a bright head and long tail against a background of stars]\n(i) Comets develop a tail as they approach the Sun. Identify one other characteristic of comets. [1]\n(ii) Identify one object visible in the image that is outside our Solar System. [1]",
+   "review_note": "qp crop override: trimmed bleed of Q20 formula from page 26"
+  },
+  {
+   "id": "physics-2020-N-P3-q20",
+   "num": "20",
+   "section": "D",
+   "marks": 3,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "4\n20.  (a)  Show that the apparent brightness b ∝AT  2 , where d is the distance of the object from\nd\nEarth, T is the surface temperature of the object and A is the surface area of the object.  [1]\n(b)  Two of the brightest objects in the night sky seen from Earth are the planet Venus and\n4\nthe star Sirius. Explain why the equation b ∝AT  2  is applicable to Sirius but not to Venus. [2]\nd",
+   "ms_text": "20.  a  L    AT  4  Removal of constants σ and   4\nsubstitution of  L  =    AT  4  into  b  =  giving  b  =  ✓  is optional  1\n4    d  2  4    d  2\n20  b  equation applies to Sirius/stars that are luminous/emit light «from fusion» ✓  OWTTE\n2\nbut Venus reflects the Sun’s light/does not emit light «from fusion» ✓",
+   "mcq_answer": null,
+   "topics": [
+    "E",
+    "B"
+   ],
+   "subtopics": [
+    "E.5",
+    "B.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "20. (a) Show that the apparent brightness $b \\propto \\frac{AT^4}{d^2}$, where $d$ is the distance of the object from Earth, $T$ is the surface temperature of the object and $A$ is the surface area of the object. [1]\n(b) Two of the brightest objects in the night sky seen from Earth are the planet Venus and the star Sirius. Explain why the equation $b \\propto \\frac{AT^4}{d^2}$ is applicable to Sirius but not to Venus. [2]"
+  },
+  {
+   "id": "physics-2020-N-P3-q21",
+   "num": "21",
+   "section": "D",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q21.webp",
+   "ms_image": "q21_ms.webp",
+   "text": "21.  (a)  The light from a distant galaxy shows that z = 0.11.\nCalculate the ratio size of the universe when the light was emitted  .   [1]\nsize of the universe at present\n(b)  Outline how Hubble’s law is related to z.  [1]\n(c)  Hubble originally linked galactic redshift to a Doppler effect arising from galactic\nrecession. Hubble’s law is now regarded as being due to cosmological redshift, not the\nDoppler effect. Explain the observed galactic redshift in cosmological terms.  [3]",
+   "ms_text": "21.  a  R\n«  R = »  0\n1\n1  OR 0.90 OR 90% ✓\n1.11\n21  b  «Hubble’s » measure of v/recessional speed uses redshift which is z  OWTTE\nOR\nredshift (z) of galaxies is proportional to distance «from earth»\n1\nOR\nv  Hd  ✓\ncombines v = Hd AND  z = c  into one expression, e.g.  z = c\n21  c  reference to «redshift due to» expansion of the universe, «not recessional speed» ✓\nexpansion of universe stretches spacetime / increases distance between objects ✓  3\n«so» wavelength stretches / increases leading to observed redshift ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.12",
+    "C.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "21. (a) The light from a distant galaxy shows that $z = 0.11$.\nCalculate the ratio $\\frac{\\text{size of the universe when the light was emitted}}{\\text{size of the universe at present}}$. [1]\n(b) Outline how Hubble's law is related to $z$. [1]\n(c) Hubble originally linked galactic redshift to a Doppler effect arising from galactic recession. Hubble's law is now regarded as being due to cosmological redshift, not the Doppler effect. Explain the observed galactic redshift in cosmological terms. [3]"
+  },
+  {
+   "id": "physics-2020-N-P3-q22",
+   "num": "22",
+   "section": "D",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q22.webp",
+   "ms_image": "q22_ms.webp",
+   "text": "22.  The data for the star Eta Aquilae A are given in the table.\nValue\nMean luminosity  2630 L\nMass  5.70 M\nParallax angle  2.36 × 10-3 arcsec\nApparent brightness  7.20 × 10-10 W m-2\nL is the luminosity of the Sun and M is the mass of the Sun.\n(a)  Show by calculation that Eta Aquilae A is not on the main sequence.  [2]\n(b)  Estimate, in pc, the distance to Eta Aquilae A\n(i)  using the parallax angle in the table.  [1]\n(ii)  using the luminosity in the table, given that L = 3.83 × 1026 W.  [3]\n(c)  Suggest why your answers to (b)(i) and (b)(ii) are different.  [2]\n(d)  Eta Aquilae A is a Cepheid variable. Explain why the brightness of Eta Aquilae A varies.  [3]\n(e)  Eta Aquilae A was on the main sequence before it became a variable star. Compare,\nwithout calculation, the time Eta Aquilae A spent on the main sequence to the total time\nthe Sun is likely to spend on the main sequence.  [2]",
+   "ms_text": "22. a  L  M  3.5  1\n«  =  3.5  =  5.70  3.5  =  » 442 ✓  Allow calculation of  L  3.5  to give M = 9.5\nL  M  M  so not main sequence  2\nthe luminosity of Eta (2630L  ) is very different «so it is not main sequence» ✓  OWTTE\n22  b  i  d «  =  1  » = 424 «pc »✓\n1\n2.36 10−    3\n22  b  ii  L  Award [3] marks for a bald correct\nUse of  d  =  b  ✓  answer between 340 and 344 «pc»\n4  \n2630    3.83 10    26  3\n=  −  ✓\n4    7.20 10    10\n«  =  1.055    10  19  » = 342 «pc » ✓ (\n3.26    9.46    10  15\n22. c  parallax angle in milliarc seconds/very small/at the limits of measurement ✓  Accept answers where MP1\nand MP2 both refer to parallax\nuncertainties/error in measuring L οr b or θ ✓  angle  2 max\nvalues same order of magnitude, so not significantly different ✓  OWTTE\n22  d  reference to change in size ✓\nreference to change in temperature ✓  3 max\nreference to periodicity of the process ✓\nreference to transparency / opaqueness ✓\n22  e  shorter time ✓\nstar more massive and mass related to luminosity\nOR  2\nstar more massive and mass related to time in main sequence\nOR\nposition on HR diagram to the left and above shows that will reach red giant region sooner ✓",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "22. The data for the star Eta Aquilae A are given in the table.\n| | Value |\n| Mean luminosity | $2630\\,L_\\odot$ |\n| Mass | $5.70\\,M_\\odot$ |\n| Parallax angle | $2.36 \\times 10^{-3}$ arcsec |\n| Apparent brightness | $7.20 \\times 10^{-10}$ W m$^{-2}$ |\n$L_\\odot$ is the luminosity of the Sun and $M_\\odot$ is the mass of the Sun.\n(a) Show by calculation that Eta Aquilae A is not on the main sequence. [2]\n(b) Estimate, in pc, the distance to Eta Aquilae A\n(i) using the parallax angle in the table. [1]\n(ii) using the luminosity in the table, given that $L_\\odot = 3.83 \\times 10^{26}$ W. [3]\n(c) Suggest why your answers to (b)(i) and (b)(ii) are different. [2]\n(d) Eta Aquilae A is a Cepheid variable. Explain why the brightness of Eta Aquilae A varies. [3]\n(e) Eta Aquilae A was on the main sequence before it became a variable star. Compare, without calculation, the time Eta Aquilae A spent on the main sequence to the total time the Sun is likely to spend on the main sequence. [2]"
+  },
+  {
+   "id": "physics-2020-N-P3-q23",
+   "num": "23",
+   "section": "D",
+   "marks": 2,
+   "qtype": "short",
+   "image": "q23.webp",
+   "ms_image": "q23_ms.webp",
+   "text": "23.  In 2017, two neutron stars were observed to merge, forming a black hole. The material\nreleased included chemical elements produced by the r process of neutron capture. Describe\ntwo characteristics of the elements produced by the r process.  [2]",
+   "ms_text": "23.  higher atomic number than iron ✓  Allow heavier than iron for MP1\nexcess of neutrons ✓  2 max\nradioactive/undergoing beta decay ✓",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "23. In 2017, two neutron stars were observed to merge, forming a black hole. The material released included chemical elements produced by the r process of neutron capture. Describe two characteristics of the elements produced by the r process. [2]"
+  },
+  {
+   "id": "physics-2020-N-P3-q24",
+   "num": "24",
+   "section": "D",
+   "marks": 3,
+   "qtype": "short",
+   "image": "q24.webp",
+   "ms_image": "q24_ms.webp",
+   "text": "24.  The cosmic microwave background (CMB) radiation is observed to have anisotropies.\n(a)  State the nature of the anisotropies observed in the CMB radiation.  [1]\n(b)  Identify two possible causes of the anisotropies in (a).  [2]",
+   "ms_text": "24  a  the temperature/«peak» wavelength/intensity «of the CMBR» varies «slightly» / is not\nconstant in different directions ✓  1\nb  quantum fluctuations «that have expanded» ✓\ndensity perturbations «that resulted in galaxies and clusters of galaxies» ✓  2 max\ndipole distortion «due to the motion of the Earth» ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "24. The cosmic microwave background (CMB) radiation is observed to have anisotropies.\n(a) State the nature of the anisotropies observed in the CMB radiation. [1]\n(b) Identify two possible causes of the anisotropies in (a). [2]"
+  }
+ ],
+ "qp_pages": 33,
+ "status": "done"
+}

@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2017-M-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.1", "6.3"],
+      "text_clean": "1. [Maximum mark: 16]\n(a) Use the Euclidean algorithm to find the greatest common divisor of $264$ and $1365$. [5]\n(b) (i) Hence, or otherwise, find the general solution of the Diophantine equation $264x - 1365y = 3$.\n(ii) Hence find the general solution of the Diophantine equation $264x - 1365y = 6$. [8]\n(c) By expressing each of $264$ and $1365$ as a product of its prime factors, determine the lowest common multiple of $264$ and $1365$. [3]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.9", "6.8"],
+      "text_clean": "2. [Maximum mark: 12]\nThe weights of the edges in the complete graph $G$ are given in the following table.\n| | A | B | C | D | E | F |\n| A | – | 4 | 9 | 8 | 14 | 6 |\n| B | 4 | – | 1 | 14 | 9 | 3 |\n| C | 9 | 1 | – | 5 | 12 | 2 |\n| D | 8 | 14 | 5 | – | 11 | 12 |\n| E | 14 | 9 | 12 | 11 | – | 7 |\n| F | 6 | 3 | 2 | 12 | 7 | – |\n(a) Starting at A, use the nearest neighbour algorithm to find an upper bound for the travelling salesman problem for $G$. [5]\n(b) By first deleting vertex A, use the deleted vertex algorithm together with Kruskal's algorithm to find a lower bound for the travelling salesman problem for $G$. [7]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.7", "6.6"],
+      "text_clean": "3. [Maximum mark: 9]\n(a) In the context of graph theory, explain briefly what is meant by\n(i) a circuit;\n(ii) an Eulerian circuit. [2]\n(b) The graph $G$ has six vertices and an Eulerian circuit. Determine whether or not its complement $G'$ can have an Eulerian circuit. [3]\n(c) Find an example of a graph $H$, with five vertices, such that $H$ and its complement $H'$ both have an Eulerian trail but neither has an Eulerian circuit. Draw $H$ and $H'$ as your solution. [4]"
+    },
+    "4": {
+      "topics": ["6", "1"],
+      "subtopics": ["6.10", "1.12"],
+      "text_clean": "4. [Maximum mark: 13]\nConsider the recurrence relation $au_{n+2} + bu_{n+1} + cu_n = 0$, $n \\in \\mathbb{N}$ where $a$, $b$ and $c$ are constants. Let $\\alpha$ and $\\beta$ denote the roots of the equation $ax^2 + bx + c = 0$.\n(a) Verify that the recurrence relation is satisfied by $u_n = A\\alpha^n + B\\beta^n$, where $A$ and $B$ are arbitrary constants. [4]\n(b) Solve the recurrence relation $u_{n+2} - 2u_{n+1} + 5u_n = 0$ given that $u_0 = 0$ and $u_1 = 4$. [9]"
+    }
+  }
+}

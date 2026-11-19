@@ -1,0 +1,128 @@
+{
+ "exam_id": "math-2008-M-P3-discrete-mathematics-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2008,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_3_Discrete_mathematics_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2008 May Examination Session/Mathematics_paper_3_Discrete_mathematics_TZ1_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2208-7209; code M08/5/MATHL/HP3/ENG/TZ1/DM; marks sum matches expected total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2008-M-P3-discrete-mathematics-TZ1-q1",
+   "num": "1",
+   "section": null,
+   "marks": 7,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 7]\nUse the Euclidean Algorithm to find the greatest common divisor of 7854 and 3315.\nHence state the number of solutions to the diophantine equation 7854 x + 3315 y = 41\nand justify your answer.",
+   "ms_text": "1. 7854 = 233151224 × + M1A1\n3315 = 21224 × + 867 A1\n1224 =× 1867 + 357\n867 = 2357 × + 153\n357 = 2153 × + 51\n153 =× 351 A1\nThe gcd is 51. A1\nSince 51 does not divide 41, R1\nthere are no solutions. A1\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1",
+    "6.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 7]\nUse the Euclidean Algorithm to find the greatest common divisor of 7854 and 3315.\nHence state the number of solutions to the diophantine equation $7854x + 3315y = 41$ and justify your answer."
+  },
+  {
+   "id": "math-2008-M-P3-discrete-mathematics-TZ1-q2",
+   "num": "2",
+   "section": null,
+   "marks": 9,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 9]\n+ (a) Define what is meant by the statement x ≡ y (mod) where xyn n , , ∈\n′. [1 mark]\n2 2 (b) Hence prove that if x ≡ y (mod) then x n ≡ y (mod) . n [4 marks]\n2 2 (c) Determine whether or not x ≡ y ( mod n ) implies that x ≡ y (mod). n [4 marks]",
+   "ms_text": "2. (a) x ≡ y (mod) n ⇒ x = y + kn , ( k ∈� ) A1\n[1 mark]\n(b) x ≡ y (mod) n\n⇒ x = y + kn M1\n2 2 2 2 x = y + 2 kny + kn A1\n2 2 2 ⇒ x = y + (2 ky + knn ) M1A1\n2 ⇒ x ≡ y 2 (mod) n AG\n[4 marks]\n(c) EITHER\n2 2 (mod) x ≡ y n\n⇒ 2 2 x − y = 0(mod) n M1\n⇒ ( x − y )( x + y ) = 0(mod) n A1\nThis will be the case if\nx + y = 0(mod) n or x = − y (mod) n R1\nso x ≠ y (mod) n in general R1\n[4 marks]\nOR\nAny counter example, e.g. n = 5, x = 3, y = 2, in which case R2\nx 2 ≡ y 2 (mod) but n x y (mod). n (false) R1R1 ≡/\n[4 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 9]\n(a) Define what is meant by the statement $x \\equiv y \\pmod{n}$ where $x, y, n \\in \\mathbb{Z}^+$. [1 mark]\n(b) Hence prove that if $x \\equiv y \\pmod{n}$ then $x^2 \\equiv y^2 \\pmod{n}$. [4 marks]\n(c) Determine whether or not $x^2 \\equiv y^2 \\pmod{n}$ implies that $x \\equiv y \\pmod{n}$. [4 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-discrete-mathematics-TZ1-q3",
+   "num": "3",
+   "section": null,
+   "marks": 11,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 11]\nThe positive integer N is expressed in base p as ( aa ... a a ) .\nn n −1 1 0 p\n(a) Show that when p = 2 , N is even if and only if its least significant digit, a0, is 0. [5 marks]\n(b) Show that when p = 3, N is even if and only if the sum of its digits is even. [6 marks]",
+   "ms_text": "n n − 1 3. (a) N = a × 2 + a × 2 + ... + a × 2 + a M1\nn n − 1 1 0\nIf a= 0 , then N is even because all the terms are even. R1\n0\nNow consider\nn\nr a = N − ∑ a × 2 M1\n0 r\nr = 1\nIf N is even, then 0ais the difference of two even numbers and is therefore even. R1\nIt must be zero since that is the only even digit in binary arithmetic. R1\n[5 marks]\nn n − 1 (b) N = a × 3 + a × 3 + ... + a ×+ 3 a\nn n − 1 1 0\nn n − 1 = a × (3 − 1) + a × (3 − 1) + ... + a × (31) − + a + a + ... + a + a M1A1\nn n − 1 1 n n − 1 1 0\n+ n − is even. Since 3nis odd for all n ∈�, it follows that 3 1 R1\nTherefore if the sum of the digits is even, N is the sum of even numbers and is even. R1\nNow consider\nn\nr a + a + ... + a + a = N − ∑ a (3 − 1) M1\nn n − 1 1 0 r\nr = 1\nIf N is even, then the sum of the digits is the difference of even\nnumbers and is therefore even. R1\n[6 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.2",
+    "6.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 11]\nThe positive integer $N$ is expressed in base $p$ as $(a_n a_{n-1} \\ldots a_1 a_0)_p$.\n(a) Show that when $p = 2$, $N$ is even if and only if its least significant digit, $a_0$, is 0. [5 marks]\n(b) Show that when $p = 3$, $N$ is even if and only if the sum of its digits is even. [6 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-discrete-mathematics-TZ1-q4",
+   "num": "4",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 16]\nThe graph G has the following cost adjacency matrix.\nA B C D E\nA - 9 - 8 4\nB 9 - 7 - 2\nC - 7 - 7 3\nD 8 - 7 - 5\nE 4 2 3 5 -\nDraw G in a planar form. [2 marks] (a)\n(b) Giving a reason, determine the maximum number of edges that could be added\nto G while keeping the graph both simple and planar. [4 marks]\n(c) List all the distinct Hamiltonian cycles in G beginning and ending at A,\nnoting that two cycles each of which is the reverse of the other are to be regarded\nas identical. Hence determine the Hamiltonian cycle of least weight. [10 marks]",
+   "ms_text": "4. (a)\nA2\n[2 marks]\n(b) For a simple planar graph containing triangles, e ≤ 3 v − 6. M1\nHere v = 5 , so e ≤ 9 . A1\nThere are already 8 edges so the maximum number of edges that could be added is 1. R1\nThis can be done e.g. AC or BD R1\n[4 marks]\n(c) The distinct Hamiltonian cycles are\nABCDEA A2\nABCEDA A2\nABECDA A2\nAEBCDA A2\nNote: Do not penalise extra cycles.\nThe weights are 32, 32, 29, 28 respectively. A1\nThe Hamiltonian cycle of least weight is AEBCDA. R1\n[10 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.7",
+    "6.6",
+    "6.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 16]\nThe graph $G$ has the following cost adjacency matrix.\n| | A | B | C | D | E |\n| A | - | 9 | - | 8 | 4 |\n| B | 9 | - | 7 | - | 2 |\n| C | - | 7 | - | 7 | 3 |\n| D | 8 | - | 7 | - | 5 |\n| E | 4 | 2 | 3 | 5 | - |\n(a) Draw $G$ in a planar form. [2 marks]\n(b) Giving a reason, determine the maximum number of edges that could be added to $G$ while keeping the graph both simple and planar. [4 marks]\n(c) List all the distinct Hamiltonian cycles in $G$ beginning and ending at A, noting that two cycles each of which is the reverse of the other are to be regarded as identical. Hence determine the Hamiltonian cycle of least weight. [10 marks]"
+  },
+  {
+   "id": "math-2008-M-P3-discrete-mathematics-TZ1-q5",
+   "num": "5",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 17]\n(a) The weighted graph H is shown below.\n4 C B\n6 7\nA 5 1 D\n3\n8 9\nE 2 F\nUse Kruskal’s Algorithm, indicating the order in which the edges are added,\nto find and draw the minimum spanning tree for H. [6 marks]\n(b) (i) A tree has v vertices. State the number of edges in the tree, justifying\nyour answer.\n(ii) We will call a graph with v vertices a “forest” if it consists of c components\neach of which is a tree.\nHere is an example of a forest with 4 components.\nHow many edges will a forest with v vertices and c components have? [5 marks]\n(c) A graph has an odd number of vertices. Prove that the degree of at least one of\nthe vertices must be even. [6 marks]",
+   "ms_text": "5. (a) The edges are included in the order\nCF A1\nEF A1\nBC A1\nCD A1\nAB A1\nA1\n[6 marks]\n(b) (i) A tree with v vertices has v − edges. 1 A1\nUsing v + f = e + 2 with f =,the result follows. 1 R1\n(ii) Each of the c trees will have one less edge than the number of vertices. R1\nThus the forest will have v − c edges. A2\n[5 marks]\n(c) Suppose that all v vertices have odd order. M1\nThen ∑ degree = the sum of v odd numbers, A1\nwhich will be an odd number. R1\nBut ∑ degree = 2E (as each edge will contribute two to the sum of degrees) A1\nwhich is even. R1\nThis contradiction shows that at least one vertex must have even order. R1\n[6 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.8",
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 17]\n(a) The weighted graph $H$ is shown below.\n[Diagram: weighted graph H with vertices A, B, C, D, E, F; edges AB = 7, AE = 9, BC = 4, BE = 5, CE = 3, CF = 1, CD = 6, EF = 2, DF = 8]\nUse Kruskal's Algorithm, indicating the order in which the edges are added, to find and draw the minimum spanning tree for $H$. [6 marks]\n(b) (i) A tree has $v$ vertices. State the number of edges in the tree, justifying your answer.\n(ii) We will call a graph with $v$ vertices a \"forest\" if it consists of $c$ components each of which is a tree.\nHere is an example of a forest with 4 components.\n[Diagram: four separate small trees drawn side by side]\nHow many edges will a forest with $v$ vertices and $c$ components have? [5 marks]\n(c) A graph has an odd number of vertices. Prove that the degree of at least one of the vertices must be even. [6 marks]"
+  }
+ ],
+ "status": "done"
+}

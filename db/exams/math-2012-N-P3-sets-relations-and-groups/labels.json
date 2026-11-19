@@ -1,0 +1,25 @@
+{
+  "exam_id": "math-2012-N-P3-sets-relations-and-groups",
+  "questions": {
+    "1": {
+      "topics": ["7"],
+      "subtopics": ["7.2"],
+      "text_clean": "1. [Maximum mark: 19]\nAll of the relations in this question are defined on $\\mathbb{Z}\\setminus\\{0\\}$.\n(a) Decide, giving a proof or a counter-example, whether $xRy \\Leftrightarrow x+y>7$ is\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [4 marks]\n(b) Decide, giving a proof or a counter-example, whether $xRy \\Leftrightarrow -2<x-y<2$ is\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [4 marks]\n(c) Decide, giving a proof or a counter-example, whether $xRy \\Leftrightarrow xy>0$ is\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [4 marks]\n(d) Decide, giving a proof or a counter-example, whether $xRy \\Leftrightarrow \\frac{x}{y}\\in\\mathbb{Z}$ is\n(i) reflexive;\n(ii) symmetric;\n(iii) transitive. [4 marks]\n(e) One of the relations from parts (a), (b), (c) and (d) is an equivalence relation. For this relation, state what the equivalence classes are. [3 marks]"
+    },
+    "2": {
+      "topics": ["7", "1"],
+      "subtopics": ["7.3", "1.L1"],
+      "text_clean": "2. [Maximum mark: 9]\nLet $A$ be the set of $2\\times 1$ matrices defined as follows: $A=\\left\\{\\begin{pmatrix}x\\\\y\\end{pmatrix} \\middle| x, y\\in\\mathbb{R}\\right\\}$. A function $f$ is defined from $A$ to $A$ by $f\\left(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\right)=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix}$.\n(a) Evaluate $f\\left(\\begin{pmatrix}5\\\\6\\end{pmatrix}\\right)$. [1 mark]\n(b) Prove that $f$ is an injection. [2 marks]\n(c) Prove that $f$ is a surjection. [2 marks]\n(d) Find $f^{-1}\\left(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\right)$. [2 marks]\nAnother function $g$ is defined from $A$ to $A$ by $g\\left(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\right)=\\begin{pmatrix}1&2\\\\3&6\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix}$.\n(e) Is $g$ a bijection? Justify your answer. [2 marks]"
+    },
+    "3": {
+      "topics": ["7"],
+      "subtopics": ["7.5", "7.4", "7.9", "7.1", "7.6"],
+      "text_clean": "3. [Maximum mark: 15]\nLet $A=\\{a, b\\}$.\n(a) Write down all four subsets of $A$. [1 mark]\nLet the set of all these subsets be denoted by $P(A)$. The binary operation symmetric difference, $\\Delta$, is defined on $P(A)$ by $X\\Delta Y=(X\\setminus Y)\\cup(Y\\setminus X)$ where $X, Y\\in P(A)$.\n(b) Construct the Cayley table for $P(A)$ under $\\Delta$. [3 marks]\n(c) Prove that $\\{P(A), \\Delta\\}$ is a group. You are allowed to assume that $\\Delta$ is associative. [3 marks]\nLet $\\mathbb{Z}_4=\\{0, 1, 2, 3\\}$ and $+_4$ denote addition modulo 4.\n(d) Is $\\{P(A), \\Delta\\}$ isomorphic to $\\{\\mathbb{Z}_4, +_4\\}$? Justify your answer. [2 marks]\nLet $S$ be any non-empty set. Let $P(S)$ be the set of all subsets of $S$. For the following parts, you are allowed to assume that $\\Delta$, $\\cup$ and $\\cap$ are associative.\n(e) (i) State the identity element for $\\{P(S), \\Delta\\}$.\n(ii) Write down $X^{-1}$ for $X\\in P(S)$.\n(iii) Hence prove that $\\{P(S), \\Delta\\}$ is a group. [4 marks]\n(f) Explain why $\\{P(S), \\cup\\}$ is not a group. [1 mark]\n(g) Explain why $\\{P(S), \\cap\\}$ is not a group. [1 mark]"
+    },
+    "4": {
+      "topics": ["7"],
+      "subtopics": ["7.4", "7.5"],
+      "text_clean": "4. [Maximum mark: 17]\nLet $c$ be a positive, real constant. Let $G$ be the set $\\{x\\in\\mathbb{R} \\mid -c<x<c\\}$. The binary operation $*$ is defined on the set $G$ by $x*y=\\frac{x+y}{1+\\frac{xy}{c^2}}$.\n(a) Simplify $\\frac{c}{2}*\\frac{3c}{4}$. [2 marks]\n(b) State the identity element for $G$ under $*$. [1 mark]\n(c) For $x\\in G$ find an expression for $x^{-1}$ (the inverse of $x$ under $*$). [1 mark]\n(d) Show that the binary operation $*$ is commutative on $G$. [2 marks]\n(e) Show that the binary operation $*$ is associative on $G$. [4 marks]\n(f) (i) If $x, y\\in G$ explain why $(c-x)(c-y)>0$.\n(ii) Hence show that $x+y<c+\\frac{xy}{c}$. [2 marks]\nYou are also told that $-c-\\frac{xy}{c}<x+y$.\n(g) Show that $G$ is closed under $*$. [2 marks]\n(h) Explain why $\\{G, *\\}$ is an Abelian group. [2 marks]\n(i) State what happens to the group $\\{G, *\\}$ as $c\\to\\infty$. [1 mark]"
+    }
+  }
+}

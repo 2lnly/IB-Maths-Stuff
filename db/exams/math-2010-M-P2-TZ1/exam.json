@@ -1,0 +1,340 @@
+{
+ "exam_id": "math-2010-M-P2-TZ1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2010,
+ "session": "May",
+ "tz": "TZ1",
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2010 May Examination Session/Mathematics_paper_2_TZ1_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2010 May Examination Session/Mathematics_paper_2_TZ1_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2210-7204; code M10/5/MATHL/HP2/ENG/TZ1/XX; marks sum matches expected total 120",
+ "qp_pages": 14,
+ "questions": [
+  {
+   "id": "math-2010-M-P2-TZ1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nThe graph below shows y = a cos( bx ) + c .\ny\n4\n2\nx\n–2 0 2 4 6\n–2\n–4\nFind the value of a , the value of b and the value of c .",
+   "ms_text": "1. a 3 A1\nc 2 A1\n2π\nperiod 3 (M1)\nb\n2π(2.09) b A1\n3\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.7",
+    "2.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nThe graph below shows $y = a\\cos(bx) + c$.\n[Graph: cosine curve on grid, x from -2 to 6, y from -4 to 4; maxima at y = 5 at x = 0, 3, 6; minima at y = -1]\nFind the value of $a$, the value of $b$ and the value of $c$."
+  },
+  {
+   "id": "math-2010-M-P2-TZ1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nThe system of equations\n2 x − y + 3 z = 2\n3 x + y + 2 z = − 2\n−+ x 2 y + az = b\nis known to have more than one solution. Find the value of a and the value of b .",
+   "ms_text": "2. EITHER\nusing row reduction (or attempting to eliminate a variable) M1\n2 1 3 2\n3 1 2 2 22 R 31 R\n1 2 a b 23 R R 1\n2 1 3 2\n0 5 5 10 R 2 / 5 A1\n0 3 2 a 3 2 b 2\nNote: For an algebraic solution award A1 for two correct equations in two variables.\n2 1 3 2\n0 1 1 2\n0 3 2 a 3 2 b 2 R 3 32 R\n2 1 3 2\n0 1 1 2\n0 0 2 a 6 2 b 8\nNote: Accept alternative correct row reductions.\nrecognition of the need for 4 zeroes M1\nso for multiple solutions a 3 and b 4 A1A1\n[5 marks]\nOR\n2 1 3\n3 1 2 0 M1\n1 2 a\n2( a 4) (3 a 2) 3(6 1) 0\n5 a 15 0\na 3 A1\n2 1 2\n3 1 2 0 M1\n1 2 b\n2( b 4) (3 b 2) 2(6 1) 0 A1\n5 b 20 0\nb 4 A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.16",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nThe system of equations\n$2x - y + 3z = 2$\n$3x + y + 2z = -2$\n$-x + 2y + az = b$\nis known to have more than one solution. Find the value of $a$ and the value of $b$."
+  },
+  {
+   "id": "math-2010-M-P2-TZ1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nIn the right circular cone below, O is the centre of the base which has radius 6 cm.\nThe points B and C are on the circumference of the base of the cone. The height AO\nof the cone is 8 cm and the angle BOC ∃ is 60ο.\nA\ndiagram not\nto scale\nC O\nB\n∃ Calculate the size of the angle BAC .",
+   "ms_text": "3. AC AB 10 (cm) A1\ntriangle OBC is equilateral (M1)\nBC 6 (cm) A1\nEITHER\n3 ˆ\nBAC M1A1\n2arcsin10\nˆ BAC 34.9 (accept0.609 radians) A1\nOR\n2 2 2\nˆ 10 10 6 164 cosBAC M1A1\n21010 200\nˆ BAC 34.9 (accept0.609 radians) A1\nNote: Other valid methods may be seen.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nIn the right circular cone below, O is the centre of the base which has radius 6 cm. The points B and C are on the circumference of the base of the cone. The height AO of the cone is 8 cm and the angle $\\hat{BOC}$ is $60^\\circ$.\n[Diagram: right circular cone with apex A above base centre O; B and C on base circumference; diagram not to scale]\nCalculate the size of the angle $\\hat{BAC}$.",
+   "review_note": "ms crop fixed via overrides (Q4's first line had leaked into Q3 ms)"
+  },
+  {
+   "id": "math-2010-M-P2-TZ1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\n(a) Solve the equation z3 = −+i , giving your answers in modulus-argument form. 2 2 [6 marks]\n(b) Hence show that one of the solutions is 1+ i when written in Cartesian form. [1 mark]",
+   "ms_text": "3πi\n3 4 4. (a) z 22 e (M1)(A1)\nπi\n4 z 2 e A1\n1\nadding or subtracting2πi M1\n3\nπi 2πi 11πi\nz 2 e 4 3 2 e 12 A1\n2\nπi 2πi 5πi\n4 3 12 z 2 e 2 e A1\n3\n19πi\nNotes: Accept equivalent solutions e.g. z 2 e 12\n3\n3 Award marks as appropriatefor solving ( a b i) 2 2i .\nAccept answers in degrees.\nπi 1 i\n4 (b) 2e 2 A1\n2 2\n1i AG\nNote: Accept geometrical reasoning.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\n(a) Solve the equation $z^3 = -2 + 2\\mathrm{i}$, giving your answers in modulus-argument form. [6 marks]\n(b) Hence show that one of the solutions is $1 + \\mathrm{i}$ when written in Cartesian form. [1 mark]",
+   "review_note": "ms crop fixed via overrides (first line was cut)"
+  },
+  {
+   "id": "math-2010-M-P2-TZ1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nLet A , B and C be non-singular 22 × matrices, I the 22 × identity matrix and k\na scalar. The following statements are incorrect. For each statement, write down the\ncorrect version of the right hand side.\n(a) ( A + B ) 2 = A 2 + 2 AB + B 2 [2 marks]\n3 3 2 2 3 (b) ( A − k I ) = A − 3 k A + 3 k A − k [2 marks]\nB\n(c) CA = B ⇒ C = [2 marks]\nA",
+   "ms_text": "2 2 2 5. (a) ( A B ) A AB BA B A2\n3 3 2 2 3 (b) ( A k I ) A 3 k A 3 k A k I A2\n1 (c) CA B C BA A2\nNote: Award A1 in parts (a) to (c) if error is correctly identified, but not corrected.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nLet $\\boldsymbol{A}$, $\\boldsymbol{B}$ and $\\boldsymbol{C}$ be non-singular $2\\times2$ matrices, $\\boldsymbol{I}$ the $2\\times2$ identity matrix and $k$ a scalar. The following statements are incorrect. For each statement, write down the correct version of the right hand side.\n(a) $(\\boldsymbol{A}+\\boldsymbol{B})^2 = \\boldsymbol{A}^2 + 2\\boldsymbol{AB} + \\boldsymbol{B}^2$ [2 marks]\n(b) $(\\boldsymbol{A}-k\\boldsymbol{I})^3 = \\boldsymbol{A}^3 - 3k\\boldsymbol{A}^2 + 3k^2\\boldsymbol{A} - k^3$ [2 marks]\n(c) $\\boldsymbol{CA} = \\boldsymbol{B} \\Rightarrow \\boldsymbol{C} = \\frac{\\boldsymbol{B}}{\\boldsymbol{A}}$ [2 marks]"
+  },
+  {
+   "id": "math-2010-M-P2-TZ1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 5]\nFind the sum of all three-digit natural numbers that are not exactly divisible by 3.",
+   "ms_text": "6. (100 101102 ... 999) (102 105 ... 999) (M1)\n900 300\n(100 999) (102 999) M1A1A1\n2 2\n329 400 A1 N5\nNote: A variety of other acceptable methods may be seen including\nfor example 300 (2011995) or 600 (100 998) .\n2 2\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 5]\nFind the sum of all three-digit natural numbers that are not exactly divisible by 3."
+  },
+  {
+   "id": "math-2010-M-P2-TZ1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 7]\nThree Mathematics books, five English books, four Science books and a dictionary are\nto be placed on a student’s shelf so that the books of each subject remain together.\n(a) In how many different ways can the books be arranged? [4 marks]\n(b) In how many of these will the dictionary be next to the Mathematics books? [3 marks]",
+   "ms_text": "7. (a) There are 3! ways of arranging the Mathematics books, 5! ways of arranging\nthe English books and 4! ways of arranging the Science books. (A1)\nThen we have 4 types of books which can be arranged in 4! ways. (A1)\n3!5!4 4! 414 720 (M1)A1\n(b) There are 3! ways of arranging the subject books, and for each of these there\nare 2 ways of putting the dictionary next to the Mathematics books. (M1)(A1)\n3!5!4!3!2 207 360 A1\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 7]\nThree Mathematics books, five English books, four Science books and a dictionary are to be placed on a student's shelf so that the books of each subject remain together.\n(a) In how many different ways can the books be arranged? [4 marks]\n(b) In how many of these will the dictionary be next to the Mathematics books? [3 marks]"
+  },
+  {
+   "id": "math-2010-M-P2-TZ1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nIn a factory producing glasses, the weights of glasses are known to have a mean of\n160 grams. It is also known that the interquartile range of the weights of glasses\nis 28 grams. Assuming the weights of glasses to be normally distributed, find the\nstandard deviation of the weights of glasses.",
+   "ms_text": "8. weight of glass X\n2 X ~ N(160, )\nP( X 160 14) P( X 174) 0.75 (M1)(A1)\nNote: P( X 16014) P( X 146) 0.25 can also be used.\n14\nP Z 0.75 (M1)\n14\n0.6745... (M1)(A1)\n20.8 A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nIn a factory producing glasses, the weights of glasses are known to have a mean of 160 grams. It is also known that the interquartile range of the weights of glasses is 28 grams. Assuming the weights of glasses to be normally distributed, find the standard deviation of the weights of glasses."
+  },
+  {
+   "id": "math-2010-M-P2-TZ1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 6]\n2 4 − x\nLet fx () = .\n4 − x\n(a) State the largest possible domain for f . [2 marks]\n[4 marks] (b) Solve the inequality fx () ≥1.",
+   "ms_text": "9. (a) x 0 and x 16 A1A1\n(b)\ngraph not to scale\nfinding crossing points (M1)\n2 e.g. 4 x 4 x\nx 0 or x 1 (A1)\n0 x 1 or x 16 A1A1\nNote: Award M1A1A1A0 forsolving the inequality only for the case x 16 .\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.15",
+    "2.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 6]\nLet $f(x) = \\frac{4 - x^2}{4 - \\sqrt{x}}$.\n(a) State the largest possible domain for $f$. [2 marks]\n(b) Solve the inequality $f(x) \\ge 1$. [4 marks]"
+  },
+  {
+   "id": "math-2010-M-P2-TZ1-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 8]\n3\nThe diagram below shows the graphs of y = x − 3, y = 3 and a quadratic function,\n2\nthat all intersect in the same two points.\ny\n3\nx\n–3\nGiven that the minimum value of the quadratic function is −3, find an expression\nt 2\nfor the area of the shaded region in the form ∫ ( ax + bx + c ) d, where the constants x\n0\na, b, c and t are to be determined. (Note: The integral does not need to be evaluated.)",
+   "ms_text": "3\n10. 3 0 when x 2 (A1)\n2x\nthe equation of the parabola is y px ( 2) 2 3 (M1)\n3\nthrough (0, 3) 3 4 p 3 p (M1)\n2\n3 3 2 2\nthe equation of the parabola is y ( x 2) 3 x 6 x 3 A1\n2 2\n2 3 3 2\narea 2 3 x x 6 x 3d x M1M1A1\n0 2 2\n2\nNote: Award M1for recognizing symmetry to obtain 2 ,\n0\nM1 for the difference,\nA1 for getting all parts correct.\n2 2\nx 9)d x x A1 0(3\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.6",
+    "5.11",
+    "2.16"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "10. [Maximum mark: 8]\nThe diagram below shows the graphs of $y = \\left|\\frac{3}{2}x - 3\\right|$, $y = 3$ and a quadratic function, that all intersect in the same two points.\n[Diagram: V-shaped graph of the modulus function with vertex on the x-axis, horizontal line y = 3, and an upward parabola with minimum -3, all meeting at (0, 3) and a second point on y = 3; region between the V-graph and the parabola shaded]\nGiven that the minimum value of the quadratic function is $-3$, find an expression for the area of the shaded region in the form $\\int_0^t (ax^2 + bx + c)\\,\\mathrm{d}x$, where the constants $a$, $b$, $c$ and $t$ are to be determined. (Note: The integral does not need to be evaluated.)"
+  },
+  {
+   "id": "math-2010-M-P2-TZ1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 20]\nA plane π has vector equation r =− ( 2 i + 3 j − 2 k ) + λ ( 2 i + 3 j + 2 k ) + µ ( 6 i − 3 j + 2 k ) .\n[6 marks] (a) Show that the Cartesian equation of the plane π is 3 x + 2 y − 6 z = 12 .\n(b) The plane π meets the x , y and z axes at A, B and C respectively. Find the\ncoordinates of A, B and C. [3 marks]\n(c) Find the volume of the pyramid OABC. [3 marks]\n(d) Find the angle between the plane π and the x-axis. [4 marks]\n(e) Hence, or otherwise, find the distance from the origin to the plane π . [2 marks]\n(f) Using your answers from (c) and (e), find the area of the triangle ABC. [2 marks]",
+   "ms_text": "11. (a) EITHER\nnormal to plane given by\ni j k\n2 3 2 M1A1\n6 3 2\n12 i 8 j 24 k A1\nequation of is 3 x 2 y 6 z d (M1)\nas goes through (2, 3, 2) so d 12 M1A1\n:3 x 2 y 6 z 12 AG\nOR\nx 2 2 6\ny 3 3 3\nz 2 2 2\neliminating\nx 2 y 4 8\n2 y 3 z 12 M1A1A1\neliminating\n3( x 2) y 2(2 y 3) z 12 M1A1A1\n:3 x 2 y 6 z 12 AG\n[6 marks]\n(b) therefore A(4, 0, 0), B(0, 6, 0) and C(0, 0, 2) A1A1A1\nNote: Award A1A1A0 if position vectors given instead of coordinates.\n[3 marks]\n1\n(c) area of base OAB 46 12 M1\n2\n1122 V 8 M1A1\n3\n[3 marks]\n3 1\n(d) 2 0 3 71cos M1A1\n6 0\n3\narccos 7\n3\nso 90 arccos 25.4 (accept0.443 radians) M1A1\n7\n[4 marks]\n12\n(e) d 4sin (1.71) (M1)A1\n7\n[2 marks]\n1 12\n(f) 8 area area 14 M1A1\n3 7\nNote: If answer to part (f) is found in an earlier part, award M1A1, regardless of\nthe fact that it has not come from their answers to part (c) and part (e).\n[2 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.17",
+    "3.18",
+    "3.16",
+    "3.1",
+    "3.13",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 20]\nA plane $\\pi$ has vector equation $\\boldsymbol{r} = (-2\\boldsymbol{i} + 3\\boldsymbol{j} - 2\\boldsymbol{k}) + \\lambda(2\\boldsymbol{i} + 3\\boldsymbol{j} + 2\\boldsymbol{k}) + \\mu(6\\boldsymbol{i} - 3\\boldsymbol{j} + 2\\boldsymbol{k})$.\n(a) Show that the Cartesian equation of the plane $\\pi$ is $3x + 2y - 6z = 12$. [6 marks]\n(b) The plane $\\pi$ meets the $x$, $y$ and $z$ axes at A, B and C respectively. Find the coordinates of A, B and C. [3 marks]\n(c) Find the volume of the pyramid OABC. [3 marks]\n(d) Find the angle between the plane $\\pi$ and the $x$-axis. [4 marks]\n(e) Hence, or otherwise, find the distance from the origin to the plane $\\pi$. [2 marks]\n(f) Using your answers from (c) and (e), find the area of the triangle ABC. [2 marks]"
+  },
+  {
+   "id": "math-2010-M-P2-TZ1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 15]\nCasualties arrive at an accident unit with a mean rate of one every 10 minutes.\nAssume that the number of arrivals can be modelled by a Poisson distribution.\n(a) Find the probability that there are no arrivals in a given half hour period. [3 marks]\n(b) A nurse works for a two hour period. Find the probability that there are fewer\nthan ten casualties during this period. [3 marks]\n(c) Six nurses work consecutive two hour periods between 8am and 8pm.\nFind the probability that no more than three nurses have to attend to less than ten\ncasualties during their working period. [4 marks]\n(d) Calculate the time interval during which there is a 95 % chance of there being at\n[5 marks] least two casualties.",
+   "ms_text": "12. (a) number of patients in 30 minute period X\n(A1) X ~ Po(3)\nP( X 0) 0.0498 (M1)A1\n[3 marks]\n(b) number of patients in working period Y\nY ~ Po(12) (A1)\nP( X 10) P( X 9) 0.242 (M1)A1\n[3 marks]\n(c) number of working period with less than 10 patients W\nW ~ B(6, 0.2424...) (M1)(A1)\nP( W 3) 0.966 (M1)A1\n[4 marks]\nNote: Accept exact answers in parts (a) to (c).\n(d) number of patients in t minute interval X\nX ~ Po() T\nP( X 2) 0.95\nP( X 0) P( X 1) 0.05 (M1)(A1)\nT e (1 T ) 0.05 (M1)\nT 4.74 (A1)\nt 47.4 minutes A1\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L1",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 15]\nCasualties arrive at an accident unit with a mean rate of one every 10 minutes. Assume that the number of arrivals can be modelled by a Poisson distribution.\n(a) Find the probability that there are no arrivals in a given half hour period. [3 marks]\n(b) A nurse works for a two hour period. Find the probability that there are fewer than ten casualties during this period. [3 marks]\n(c) Six nurses work consecutive two hour periods between 8am and 8pm. Find the probability that no more than three nurses have to attend to less than ten casualties during their working period. [4 marks]\n(d) Calculate the time interval during which there is a 95 % chance of there being at least two casualties. [5 marks]"
+  },
+  {
+   "id": "math-2010-M-P2-TZ1-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 11,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 11]\nPoints A, B and C are on the circumference of a circle, centre O and radius r .\n∃ A trapezium OABC is formed such that AB is parallel to OC, and the angle AOC\nis θ , π θ < π .\n2≤\nB\nC\nA\nr θ\nO\ndiagram not\nto scale\n∃ [3 marks] (a) Show that angle BOC is π −θ.\n(b) Show that the area, T , of the trapezium can be expressed as\n1 1 2 2\nT = r sin θ − r sin 2 θ. [3 marks]\n2 2\n(c) (i) Show that when the area is maximum, the value of θ satisfies\ncos θ = 2 cos 2. θ\n(ii) Hence determine the maximum area of the trapezium when r =1.\n(Note: It is not required to prove that it is a maximum.) [5 marks]",
+   "ms_text": "ˆ 13. (a) OAB π (allied) A1\nrecognizing OAB as an isosceles triangle M1\nˆ so ABO π A1\nˆ BOC π (alternate) AG\nNote: This can be done in many ways, including a clear diagram.\n[3 marks]\n(b) area of trapezium is T area area (M1)\nBOC AOB\n1 1 2 2\nr sin(π ) r sin(2 π) M1A1\n2 2\n1 1 2 2\nr sin r sin2 AG\n2 2\n[3 marks]\nd T 1\n(c) (i) r 2 cos r 2 cos2 M1A1\nd 2\n1 2 2\nfor maximum area cos r cos2 0 M1\n2r\ncos 2cos2 AG\n(ii) 2.205... (A1)\nmax\n1 1\nsin sin2 0.880 A1\nmax max\n2 2\n[5 marks]\nTotal [11 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.2",
+    "5.8",
+    "5.6",
+    "3.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 11]\nPoints A, B and C are on the circumference of a circle, centre O and radius $r$. A trapezium OABC is formed such that AB is parallel to OC, and the angle $\\hat{AOC}$ is $\\theta$, $\\frac{\\pi}{2} \\le \\theta < \\pi$.\n[Diagram: circle centre O with points A, B, C on the circumference; trapezium OABC with AB parallel to OC; OA = r, angle AOC = θ; diagram not to scale]\n(a) Show that angle $\\hat{BOC}$ is $\\pi - \\theta$. [3 marks]\n(b) Show that the area, $T$, of the trapezium can be expressed as $T = \\frac{1}{2}r^2\\sin\\theta - \\frac{1}{2}r^2\\sin 2\\theta$. [3 marks]\n(c) (i) Show that when the area is maximum, the value of $\\theta$ satisfies $\\cos\\theta = 2\\cos 2\\theta$.\n(ii) Hence determine the maximum area of the trapezium when $r = 1$. (Note: It is not required to prove that it is a maximum.) [5 marks]"
+  },
+  {
+   "id": "math-2010-M-P2-TZ1-q14",
+   "num": "14",
+   "section": "B",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14. [Maximum mark: 14]\nA body is moving through a liquid so that its acceleration can be expressed as\nv2\n− 2 − − 32 ms ,\n200\nwhere vms−1 is the velocity of the body at time t seconds.\n1 The initial velocity of the body was known to be 40 ms−.\n(a) Show that the time taken, T seconds, for the body to slow to Vms−1 is given by\n40 1\nT = d. v 200 ∫ [4 marks]\nV 2 2 v + 80\nd Explain why acceleration can be expressed as vv\n(b) (i) , where s is\nd s\ndisplacement, in metres, of the body at time t seconds.\n(ii) Hence find a similar integral to that shown in part (a) for the distance,\n[7 marks] S metres, travelled as the body slows to Vms−1.\n(c) Hence, using parts (a) and (b), find the distance travelled and the time taken until\nthe body momentarily comes to rest. [3 marks]",
+   "ms_text": "2 2 d v v v 6400\n14. (a) 32 (M1)\nd t 200 200\nT V 200\nd t d v M1A1A1\n0 40 2 2 v 80\n40 1\nT 200 d v AG\n2 2 V v 80\n[4 marks]\nd v d v d s\n(b) (i) a R1\nd t d s d t\nd v\nAG\nvs\nd\nd v v 2 80 2\n(ii) (M1)\nvs\nd 200\nS V 200 v\nd s d v M1A1A1\n0 40 2 2 v 80\nS 40 200 v\nd s d v M1\n2 2 0 V v 80\n40 v\nS 200 d v A1\n2 2 V v 80\n[7 marks]\n(c) letting V 0 (M1)\n40 v\ndistance 200 d v 22.3 metres A1\n2 2 0 v 80\n40 1\ntime 200 d v 1.16 seconds A1\n2 2 0 v 80\n[3 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.9",
+    "5.11",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "14. [Maximum mark: 14]\nA body is moving through a liquid so that its acceleration can be expressed as $\\left(-\\frac{v^2}{200} - 32\\right)\\,\\mathrm{m\\,s^{-2}}$, where $v\\,\\mathrm{m\\,s^{-1}}$ is the velocity of the body at time $t$ seconds.\nThe initial velocity of the body was known to be $40\\,\\mathrm{m\\,s^{-1}}$.\n(a) Show that the time taken, $T$ seconds, for the body to slow to $V\\,\\mathrm{m\\,s^{-1}}$ is given by $T = 200\\int_V^{40} \\frac{1}{v^2 + 80^2}\\,\\mathrm{d}v$. [4 marks]\n(b) (i) Explain why acceleration can be expressed as $v\\frac{\\mathrm{d}v}{\\mathrm{d}s}$, where $s$ is displacement, in metres, of the body at time $t$ seconds.\n(ii) Hence find a similar integral to that shown in part (a) for the distance, $S$ metres, travelled as the body slows to $V\\,\\mathrm{m\\,s^{-1}}$. [7 marks]\n(c) Hence, using parts (a) and (b), find the distance travelled and the time taken until the body momentarily comes to rest. [3 marks]"
+  }
+ ],
+ "status": "done"
+}

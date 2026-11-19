@@ -1,0 +1,138 @@
+{
+ "exam_id": "math-2021-M-P1-TZ2",
+ "questions": {
+  "1": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.6"
+   ],
+   "text_clean": "1. [Maximum mark: 4]\nConsider two consecutive positive integers, $n$ and $n+1$.\nShow that the difference of their squares is equal to the sum of the two integers."
+  },
+  "2": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.6"
+   ],
+   "text_clean": "2. [Maximum mark: 7]\nSolve the equation $2\\cos^2 x + 5\\sin x = 4$, $0 \\le x \\le 2\\pi$."
+  },
+  "3": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "text_clean": "3. [Maximum mark: 5]\nIn the expansion of $(x+k)^7$, where $k \\in \\mathbb{R}$, the coefficient of the term in $x^5$ is $63$.\nFind the possible values of $k$."
+  },
+  "4": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.4",
+    "2.9"
+   ],
+   "text_clean": "4. [Maximum mark: 9]\nConsider the function $f$ defined by $f(x) = \\ln(x^2 - 16)$ for $x > 4$.\nThe following diagram shows part of the graph of $f$ which crosses the $x$-axis at point A, with coordinates $(a, 0)$. The line $L$ is the tangent to the graph of $f$ at the point B.\n[Diagram: graph of f with vertical asymptote x = 4, crossing the x-axis at A(a, 0); line L tangent to the curve at B]\n(a) Find the exact value of $a$. [3]\n(b) Given that the gradient of $L$ is $\\frac{1}{3}$, find the $x$-coordinate of B. [6]",
+   "note": "audit: chain rule on ln is SL 5.6, not 5.15"
+  },
+  "5": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.13",
+    "3.6"
+   ],
+   "text_clean": "5. [Maximum mark: 4]\nGiven any two non-zero vectors, $\\boldsymbol{a}$ and $\\boldsymbol{b}$, show that $|\\boldsymbol{a} \\times \\boldsymbol{b}|^2 = |\\boldsymbol{a}|^2 |\\boldsymbol{b}|^2 - (\\boldsymbol{a} \\cdot \\boldsymbol{b})^2$."
+  },
+  "6": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.6"
+   ],
+   "text_clean": "6. [Maximum mark: 7]\nThe following diagram shows triangle ABC, with AB $= 10$, BC $= x$ and AC $= 2x$.\n[Diagram: triangle ABC (not to scale) with AB = 10, BC = x, AC = 2x]\nGiven that $\\cos \\hat{C} = \\frac{3}{4}$, find the area of the triangle.\nGive your answer in the form $\\frac{p\\sqrt{q}}{2}$ where $p, q \\in \\mathbb{Z}^+$."
+  },
+  "7": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12"
+   ],
+   "text_clean": "7. [Maximum mark: 5]\nThe cubic equation $x^3 - kx^2 + 3k = 0$ where $k > 0$ has roots $\\alpha$, $\\beta$ and $\\alpha + \\beta$.\nGiven that $\\alpha\\beta = -\\frac{k^2}{4}$, find the value of $k$."
+  },
+  "8": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.15",
+    "3.16",
+    "3.14"
+   ],
+   "text_clean": "8. [Maximum mark: 8]\nThe lines $l_1$ and $l_2$ have the following vector equations where $\\lambda, \\mu \\in \\mathbb{R}$.\n$l_1: \\boldsymbol{r}_1 = \\begin{pmatrix} 3 \\\\ 2 \\\\ -1 \\end{pmatrix} + \\lambda \\begin{pmatrix} 2 \\\\ -2 \\\\ 2 \\end{pmatrix}$\n$l_2: \\boldsymbol{r}_2 = \\begin{pmatrix} 2 \\\\ 0 \\\\ 4 \\end{pmatrix} + \\mu \\begin{pmatrix} 1 \\\\ -1 \\\\ 1 \\end{pmatrix}$\n(a) Show that $l_1$ and $l_2$ do not intersect. [3]\n(b) Find the minimum distance between $l_1$ and $l_2$. [5]"
+  },
+  "9": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.16",
+    "1.11",
+    "5.15"
+   ],
+   "text_clean": "9. [Maximum mark: 7]\nBy using the substitution $u = \\sin x$, find $\\int \\frac{\\sin x \\cos x}{\\sin^2 x - \\sin x - 2} \\, dx$."
+  },
+  "10": {
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.1",
+    "5.11",
+    "3.8"
+   ],
+   "text_clean": "10. [Maximum mark: 15]\nConsider the function $f$ defined by $f(x) = 6 + 6\\cos x$, for $0 \\le x \\le 4\\pi$.\nThe following diagram shows the graph of $y = f(x)$.\n[Graph: y = f(x) touching the x-axis at A and B; region between the curve and the x-axis from A to B shaded]\nThe graph of $f$ touches the $x$-axis at points A and B, as shown. The shaded region is enclosed by the graph of $y = f(x)$ and the $x$-axis, between the points A and B.\n(a) Find the $x$-coordinates of A and B. [3]\n(b) Show that the area of the shaded region is $12\\pi$. [5]\nThe right cone in the following diagram has a total surface area of $12\\pi$, equal to the shaded area in the previous diagram.\nThe cone has a base radius of 2, height $h$, and slant height $l$.\n[Diagram: right cone (not to scale) with base radius 2, height h, slant height l]\n(c) Find the value of $l$. [3]\n(d) Hence, find the volume of the cone. [4]"
+  },
+  "11": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.9",
+    "1.7",
+    "1.6"
+   ],
+   "text_clean": "11. [Maximum mark: 20]\nThe acceleration, $a$ m s$^{-2}$, of a particle moving in a horizontal line at time $t$ seconds, $t \\ge 0$, is given by $a = -(1+v)$ where $v$ m s$^{-1}$ is the particle's velocity and $v > -1$.\nAt $t = 0$, the particle is at a fixed origin O and has initial velocity $v_0$ m s$^{-1}$.\n(a) By solving an appropriate differential equation, show that the particle's velocity at time $t$ is given by $v(t) = (1+v_0)e^{-t} - 1$. [6]\n(b) Initially at O, the particle moves in the positive direction until it reaches its maximum displacement from O. The particle then returns to O.\nLet $s$ metres represent the particle's displacement from O and $s_{\\max}$ its maximum displacement from O.\n(i) Show that the time $T$ taken for the particle to reach $s_{\\max}$ satisfies the equation $e^T = 1 + v_0$.\n(ii) By solving an appropriate differential equation and using the result from part (b)(i), find an expression for $s_{\\max}$ in terms of $v_0$. [7]\nLet $v(T-k)$ represent the particle's velocity $k$ seconds before it reaches $s_{\\max}$, where\n$v(T-k) = (1+v_0)e^{-(T-k)} - 1$.\n(c) By using the result to part (b)(i), show that $v(T-k) = e^k - 1$. [2]\nSimilarly, let $v(T+k)$ represent the particle's velocity $k$ seconds after it reaches $s_{\\max}$.\n(d) Deduce a similar expression for $v(T+k)$ in terms of $k$. [2]\n(e) Hence, show that $v(T-k) + v(T+k) \\ge 0$. [3]"
+  },
+  "12": {
+   "topics": [
+    "1",
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "1.15",
+    "3.10",
+    "3.9",
+    "2.11"
+   ],
+   "text_clean": "12. [Maximum mark: 19]\nThe following diagram shows the graph of $y = \\arctan(2x+1) + \\frac{\\pi}{4}$ for $x \\in \\mathbb{R}$, with asymptotes at $y = -\\frac{\\pi}{4}$ and $y = \\frac{3\\pi}{4}$.\n[Graph: increasing curve between horizontal asymptotes y = -π/4 and y = 3π/4]\n(a) Describe a sequence of transformations that transforms the graph of $y = \\arctan x$ to the graph of $y = \\arctan(2x+1) + \\frac{\\pi}{4}$ for $x \\in \\mathbb{R}$. [3]\n(b) Show that $\\arctan p + \\arctan q \\equiv \\arctan\\left(\\frac{p+q}{1-pq}\\right)$ where $p, q > 0$ and $pq < 1$. [4]\n(c) Verify that $\\arctan(2x+1) = \\arctan\\left(\\frac{x}{x+1}\\right) + \\frac{\\pi}{4}$ for $x \\in \\mathbb{R}$, $x > 0$. [3]\n(d) Using mathematical induction and the result from part (b), prove that $\\sum_{r=1}^{n} \\arctan\\left(\\frac{1}{2r^2}\\right) = \\arctan\\left(\\frac{n}{n+1}\\right)$ for $n \\in \\mathbb{Z}^+$. [9]"
+  }
+ }
+}

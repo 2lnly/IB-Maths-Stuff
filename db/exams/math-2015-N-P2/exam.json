@@ -1,0 +1,312 @@
+{
+ "exam_id": "math-2015-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2015,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2015 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2015 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "4 duplicate copies (4 byte-identical size); paper number 8815-7202; code N15/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches paper total 120",
+ "qp_pages": 16,
+ "questions": [
+  {
+   "id": "math-2015-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nThe events A and B are such that P(A) = 0.65 , P (B) = 0.48 and P (A ∪ B) = 0.818 .\n(a) Find P (A ∩ B) . [2]\n(b) Hence show that the events A and B are independent. [2]",
+   "ms_text": "= + − ∩ 1. (a) 0.818 0.65 0.48 P( A B ) (M1)\n∩ = P( A B ) 0.312 A1\n[2 marks]\nB= ( = × ) (b) P()P() A 0.312 0.480.65 A1\nsince P()P() A B = P( A ∩ B ) then A and B are independent R1\nNote: Only award the R1 if numerical values are seen. Award A1R1 for a correct conditional\nprobability approach.\n[2 marks]\nTotal [4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nThe events $A$ and $B$ are such that $\\mathrm{P}(A) = 0.65$, $\\mathrm{P}(B) = 0.48$ and $\\mathrm{P}(A \\cup B) = 0.818$.\n(a) Find $\\mathrm{P}(A \\cap B)$. [2]\n(b) Hence show that the events $A$ and $B$ are independent. [2]"
+  },
+  {
+   "id": "math-2015-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\nThe three planes having Cartesian equations 2x +3y − z =11 , x +2y + z =3\nand 5x − y − z =10 meet at a point P . Find the coordinates of P .",
+   "ms_text": "2. using technology and/or by elimination (eg ref on GDC) (M1)\n17 5 − 20\nx = 1.89 = , y = 1.67 = , z =− 2.22 = A1A1A1\n9 3 9\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.16",
+    "3.18"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nThe three planes having Cartesian equations $2x + 3y - z = 11$, $x + 2y + z = 3$ and $5x - y - z = 10$ meet at a point P. Find the coordinates of P.",
+   "review_note": "audit: 3x3 system solve primary 1.16, as 2016-M-P1-TZ2-q1, 2019-N-P1-q3"
+  },
+  {
+   "id": "math-2015-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 6]\nThe data of the goals scored by players in a football club during a season are given in the\nfollowing table.\nGoals Frequency\n0 4\n1 k\n2 3\n3 2\n4 3\n8 1\n(a) Given that the mean number of goals scored per player is 1.95 , find the value of k . [3]\nIt is discovered that there is a mistake in the data and that the top scorer, who scored\n22 goals, has not been included in the table.\n(b) (i) Find the correct mean number of goals scored per player.\n(ii) Find the correct standard deviation of the number of goals scored per player. [3]",
+   "ms_text": "04 ⋅ +⋅ 1 k + 23 ⋅ + 32 ⋅ + 43 ⋅ + 81 ⋅ k + 32\n3. (a) = 1.95 = 1.95 (M1)\n13 + k k + 13\nattempting to solve for k (M1)\nk= 7 A1\n[3 marks]\n7 + 32 + 22 61\n(b) (i) = 2.90 = (M1)A1\n7 + 13 + 1 21\n= 4.66 (ii) standard deviation A1\nNote: Award A0 for 4.77.\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 6]\nThe data of the goals scored by players in a football club during a season are given in the following table.\nGoals | Frequency\n0 | 4\n1 | $k$\n2 | 3\n3 | 2\n4 | 3\n8 | 1\n(a) Given that the mean number of goals scored per player is $1.95$, find the value of $k$. [3]\nIt is discovered that there is a mistake in the data and that the top scorer, who scored $22$ goals, has not been included in the table.\n(b) (i) Find the correct mean number of goals scored per player.\n(ii) Find the correct standard deviation of the number of goals scored per player. [3]"
+  },
+  {
+   "id": "math-2015-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nA function is defi ned by f (x) =A sin (Bx) +C , −π ≤ x ≤π, where A , B , C ∈′ . The following\ndiagram represents the graph of y = f (x).\ny\n6\nπ\n– , 5\n4\n5\n4\n3\n2\n1\n0 x\nπ π π π π 3π 3π π\n4 2 4 4 2 4\n–1\nπ\n, –1\n4 –2\n(a) Find the value of\n(i) A ;\n(ii) B ;\n(iii) C . [4]\nSolve f (x) = 3 for 0 ≤ x ≤π . (b) [2]",
+   "ms_text": "4. (a) (i) A =− 3 A1\n2π\n(ii) period = (M1)\nB\nB= 2 A1\nNote: Award as above for A = 3 and B=− 2 .\n(iii) C= 2 A1\n[4 marks]\n1 1 1 1\n(b) x= 1.74, 2.97 x = π + arcsin , 2π − arcsin (M1)A1\n2 3 2 3\n[2 marks]\nNote: Award (M1)A0 if extra correct solutions eg(1.40, − − 0.170) are given\noutside the domain 0x ≤≤π.\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.7",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 6]\nA function is defined by $f(x) = A\\sin(Bx) + C$, $-\\pi \\le x \\le \\pi$, where $A, B, C \\in \\mathbb{Z}$. The following diagram represents the graph of $y = f(x)$.\n[Graph: sinusoidal curve on $-\\pi \\le x \\le \\pi$ with maximum at $\\left(-\\frac{\\pi}{4}, 5\\right)$, minimum at $\\left(\\frac{\\pi}{4}, -1\\right)$, y-intercept 2; x-axis marked in multiples of $\\frac{\\pi}{4}$]\n(a) Find the value of\n(i) $A$;\n(ii) $B$;\n(iii) $C$. [4]\n(b) Solve $f(x) = 3$ for $0 \\le x \\le \\pi$. [2]"
+  },
+  {
+   "id": "math-2015-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 6]\nA function is defined by f (x) =x2+ 2 , x ≥ 0 . A region R is enclosed by y = f (x) , the y-axis\nand the line y =4 .\n(a) (i) Express the area of the region R as an integral with respect to y .\n(ii) Determine the area of R , giving your answer correct to four significant figures. [3]\n(b) Find the exact volume generated when the region R is rotated through 2π radians\nabout the y-axis. [3]",
+   "ms_text": "4\n5. (a) (i) area = y − 2 d y M1A1 ∫\n2\n= 1.886 (ii) (4 sf only) A1\n[3 marks]\n4\n(b) volume = π ∫ ( y − 2d ) y (M1)\n2\n4 2\ny\n= π − 2 y (A1)\n2\n2\n= 2π (exact only) A1\n[3 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.17"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 6]\nA function is defined by $f(x) = x^2 + 2$, $x \\ge 0$. A region $R$ is enclosed by $y = f(x)$, the $y$-axis and the line $y = 4$.\n(a) (i) Express the area of the region $R$ as an integral with respect to $y$.\n(ii) Determine the area of $R$, giving your answer correct to four significant figures. [3]\n(b) Find the exact volume generated when the region $R$ is rotated through $2\\pi$ radians about the $y$-axis. [3]"
+  },
+  {
+   "id": "math-2015-N-P2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 6]\nJosie has three ways of getting to school. 30 % of the time she travels by car, 20 % of the\ntime she rides her bicycle and 50 % of the time she walks.\nWhen travelling by car, Josie is late 5 % of the time. When riding her bicycle she is\nlate 10 % of the time. When walking she is late 25 % of the time. Given that she was on\ntime, find the probability that she rides her bicycle.",
+   "ms_text": "6. EITHER\nM1A1A1\nNote: Award M1for a two-level tree diagram, A1 for correct first level\nprobabilities, and A1 for correct second level probabilities.\nOR\n′ ′ P( L | B )P() B P( B ∩ L )\n′= P( BL | ) = (M1)(A1)(A1)\nP( L ′ | B )P() B + P( LC ′ | )P() C + P( LW ′ | )P( W ) P( L ′ )\nTHEN\n× 0.9 0.2 0.18\nP( BL | ′= ) = M1A1\n0.9 × 0.2 + 0.95 × 0.3 + 0.75 × 0.5 0.84\n3\n= 0.214 = A1\n14\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.13",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 6]\nJosie has three ways of getting to school. $30\\%$ of the time she travels by car, $20\\%$ of the time she rides her bicycle and $50\\%$ of the time she walks.\nWhen travelling by car, Josie is late $5\\%$ of the time. When riding her bicycle she is late $10\\%$ of the time. When walking she is late $25\\%$ of the time. Given that she was on time, find the probability that she rides her bicycle."
+  },
+  {
+   "id": "math-2015-N-P2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nTriangle ABC has area 21 cm2 . The sides AB and AC have lengths 6 cm and 11 cm\nrespectively. Find the two possible lengths of the side BC .",
+   "ms_text": "1\n7. 21 = ⋅⋅ 611sin ⋅ A (M1)\n2\n7\nsin A = (A1)\n11\nEITHER\n) ) 7 7\nο ο A =0.6897..., 2.452… A = arcsin ,π − arcsin = 39.521... ,140.478... (A1)\n11 11\nOR\n62\ncos A = ± ( =± 0.771 ... ) (A1)\n11\nTHEN\n2 = 2 + 2 −⋅⋅ BC 6 11 2611 cos A (M1)\n= BC 16.1 or 7.43 A1A1\nNote: AwardM1A1A0M1A1A0 if only one correct solution is given.\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nTriangle ABC has area $21\\text{ cm}^2$. The sides AB and AC have lengths $6\\text{ cm}$ and $11\\text{ cm}$ respectively. Find the two possible lengths of the side BC."
+  },
+  {
+   "id": "math-2015-N-P2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 6]\nThe continuous random variable X has the probability distribution function\nf (x) =A sinln (x) ( ), 1 ≤ x ≤ 5 .\n(a) Find the value of A to three decimal places. [2]\n(b) Find the mode of X . [2]\n(c) Find the value P (X ≤ 3 | X ≥2). [2]",
+   "ms_text": "5\n8. (a) A ∫ x x= 1 (M1) 1sin (ln)d\nA = 0.323 (3 dp only) A1\n[2 marks]\ncos(ln) x\n′ = = (b) either a graphical approach or f () x 0 (M1)\nx\nπ\nx = 4.81 = e 2 A1\nNote: Do not awardA1FT for a candidate working in degrees.\n[2 marks]\n3\n∫ sin (ln ())d x x P(2 ≤ X ≤ 3)\n≤ ≥ = = 2 (c) P( X 3 X 2) (M1)\n5 P( X ≥ 2)\n∫ sin (ln ())d x x\n2\n= 0.288 A1\nNote: Do not awardA1FT for a candidate working in degrees.\n[2 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 6]\nThe continuous random variable $X$ has the probability distribution function $f(x) = A\\sin(\\ln(x))$, $1 \\le x \\le 5$.\n(a) Find the value of $A$ to three decimal places. [2]\n(b) Find the mode of $X$. [2]\n(c) Find the value $\\mathrm{P}(X \\le 3 \\mid X \\ge 2)$. [2]"
+  },
+  {
+   "id": "math-2015-N-P2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\nA particle can move along a straight line from a point O . The velocity v , in m s−1 , is given by\nthe function v (t) = 1 − e−sin t 2 where time t ≥0 is measured in seconds.\n(a) Write down the first two times t1 , t2> 0 , when the particle changes direction. [2]\n(b) (i) Find the time t < t2 when the particle has a maximum velocity.\n(ii) Find the time t < t2 when the particle has a minimum velocity. [4]\n(c) Find the distance travelled by the particle between times t = t1 and t = t2 . [2]",
+   "ms_text": "( ) ( ) 9. (a) t= 1.77(s) = π(s) and 2 t= 2.51(s) = 2π(s) A1A1\n1\n[2 marks]\n(b) (i) attempting to find (graphically or analytically) the first max t (M1)\nπ (s) t= 1.25(s) = A1\n2\nt (ii) attempting to find (graphically or analytically) the first min (M1)\nt= 3π (s) 2.17(s) = A1\n2\n[4 marks]\n2.506 … 2 − sin t\n(c) distance travelled = ∫ 1.7721 − e d t (or equivalent) (M1)\n…\n= 0.711(m) A1\n[2 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nA particle can move along a straight line from a point O. The velocity $v$, in $\\text{m s}^{-1}$, is given by the function $v(t) = 1 - \\mathrm{e}^{-\\sin t^2}$ where time $t \\ge 0$ is measured in seconds.\n(a) Write down the first two times $t_1, t_2 > 0$, when the particle changes direction. [2]\n(b) (i) Find the time $t < t_2$ when the particle has a maximum velocity.\n(ii) Find the time $t < t_2$ when the particle has a minimum velocity. [4]\n(c) Find the distance travelled by the particle between times $t = t_1$ and $t = t_2$. [2]"
+  },
+  {
+   "id": "math-2015-N-P2-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 8]\nEd walks in a straight line from point P (−1 , 4) to point Q (4 , 16) with constant speed.\nEd starts from point P at time t =0 and arrives at point Q at time t =3 , where t is\nmeasured in hours.\nGiven that, at time t , Ed’s position vector, relative to the origin, can be given in the form,\nr=a +tb ,\n(a) find the vectors a and b . [3]\nRoderick is at a point C (11 , 9) . During Ed’s walk from P to Q Roderick wishes to signal\nto Ed. He decides to signal when Ed is at the closest point to C .\n(b) Find the time when Roderick signals to Ed. [5]",
+   "ms_text": "− 1\n10. (a) a = A1\n4\n5\n4 − 1 1\n= − = b 3 (M1)A1\n3 16 4\n4\n[3 marks]\n(b) METHOD 1\nRoderick must signal in a direction vector perpendicular to Ed’s path. (M1)\n11 12 λ−\nthe equation of the signal is s = + (or equivalent) A1\n9 5\n− 1 t 5 11 − 12\n+ = + λ M1\n4 3 12 9 5\n5\n+ λ = − λ = 12 12 and 4 t 5 5 M1\n3t\n360\nt = 2.13 = A1\n169\n[5 marks]\nMETHOD 2\n5\n5 11 −+ 1 t\n⋅ − 3 = 0 (or equivalent) M1A1A1\n12 9\n4 + 4 t\nNote: Award the M1for an attempt at a scalar product equated to zero, A1 for\nthe first factor and A1 for the complete second factor.\nattempting to solve for t (M1)\n360\n= = t 2.13 A1\n169\n[5 marks]\nMETHOD 3\n2 2\n5 t 2 5 t 2\n= − + ( − ) 2 = − + ( − ) x 12 5 4 t (or equivalent) x 12 5 4 t M1A1A1\n3 3\n2\n5 t\nNote: Award M1for use of Pythagoras’ theorem, A1 for 12 − and A1\n3\n2\nfor ( 5 − 4t ) .\nd ( x 2 ) d x\nattempting (graphically or analytically) to find t such that = 0 = 0\nd t d t\n(M1)\n360\nt = 2.13 = A1\n169\n[5 marks]\nMETHOD 4\n12 5\n⋅\n5 12 120\nθ = = cos M1A1\n12 5 169\n5 12\nNote: Award M1for attempting to calculate the scalar product.\n5 120 t\n= (or equivalent) (A1)\n13 3 12\nattempting to solve for t (M1)\n360\nt = 2.13 = A1\n169\n[5 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.14",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 8]\nEd walks in a straight line from point $\\mathrm{P}(-1, 4)$ to point $\\mathrm{Q}(4, 16)$ with constant speed. Ed starts from point P at time $t = 0$ and arrives at point Q at time $t = 3$, where $t$ is measured in hours.\nGiven that, at time $t$, Ed's position vector, relative to the origin, can be given in the form, $\\boldsymbol{r} = \\boldsymbol{a} + t\\boldsymbol{b}$,\n(a) find the vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$. [3]\nRoderick is at a point $\\mathrm{C}(11, 9)$. During Ed's walk from P to Q Roderick wishes to signal to Ed. He decides to signal when Ed is at the closest point to C.\n(b) Find the time when Roderick signals to Ed. [5]"
+  },
+  {
+   "id": "math-2015-N-P2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 18]\nA survey is conducted in a large office building. It is found that 30 % of the office workers\nweigh less than 62 kg and that 25 % of the office workers weigh more than 98 kg.\nThe weights of the office workers may be modelled by a normal distribution with mean µ and\nstandard deviation σ .\n(a) (i) Determine two simultaneous linear equations satisfied by µ and σ .\n(ii) Find the values of µ and σ . [6]\n(b) Find the probability that an office worker weighs more than 100 kg. [1]\nThere are elevators in the office building that take the office workers to their offices.\nGiven that there are 10 workers in a particular elevator,\n(c) find the probability that at least four of the workers weigh more than 100 kg. [2]\nGiven that there are 10 workers in an elevator and at least one weighs more than 100 kg,\n(d) find the probability that there are fewer than four workers exceeding 100 kg. [3]\nThe arrival of the elevators at the ground floor between 08:00 and 09:00 can be modelled by\na Poisson distribution. Elevators arrive on average every 36 seconds.\n(e) Find the probability that in any half hour period between 08:00 and 09:00 more\nthan 60 elevators arrive at the ground floor. [3]\nAn elevator can take a maximum of 10 workers. Given that 400 workers arrive in a half\nhour period independently of each other,\n(f) find the probability that there are sufficient elevators to take them to their offices. [3]",
+   "ms_text": "( 2 ) 11. (a) (i) let W be the weight of a worker and W ~N μσ ,\n62 − μ 98 − μ\nP Z < = 0.3 and P Z < = 0.75 (M1)\nσ σ\n− μ 62\n− =Φ 1 =− …and\n(0.3) ( 0.524 )\nσ\n98 − μ − 1\n=Φ (0.75) ( = 0.674 … )\nσ\nor linear equivalents A1A1\n(ii) attempting to solve simultaneously (M1)\nμ = 77.7, σ = 30.0 A1A1\n[6 marks]\n(b) P( W> 100) = 0.229 A1\n[1 mark]\n(c) let X represent the number of workers over 100kg in a lift of ten\npassengers\nX ~B(10, 0.229 … ) (M1)\nP( X≥ 4) = 0.178 A1\n[2 marks]\nP(1 ≤ X ≤ 3)\n(d) P( X < 4| X ≥ 1) = M1(A1)\n≥ P( X 1)\nNote: Award the M1for a clear indication of conditional probability.\n= 0.808 A1\n[3 marks]\n(e) L ~Po(50) (M1)\nP( L > 60) = 1 − P( L ≤ 60) (M1)\n= 0.0722 A1\n[3 marks]\n(f) 400 workers require at least 40 elevators (A1)\nP( L ≥ 40) = 1 − P( L ≤ 39) (M1)\n= 0.935 A1\n[3 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.L1",
+    "4.8",
+    "4.11",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 18]\nA survey is conducted in a large office building. It is found that $30\\%$ of the office workers weigh less than $62$ kg and that $25\\%$ of the office workers weigh more than $98$ kg.\nThe weights of the office workers may be modelled by a normal distribution with mean $\\mu$ and standard deviation $\\sigma$.\n(a) (i) Determine two simultaneous linear equations satisfied by $\\mu$ and $\\sigma$.\n(ii) Find the values of $\\mu$ and $\\sigma$. [6]\n(b) Find the probability that an office worker weighs more than $100$ kg. [1]\nThere are elevators in the office building that take the office workers to their offices.\nGiven that there are $10$ workers in a particular elevator,\n(c) find the probability that at least four of the workers weigh more than $100$ kg. [2]\nGiven that there are $10$ workers in an elevator and at least one weighs more than $100$ kg,\n(d) find the probability that there are fewer than four workers exceeding $100$ kg. [3]\nThe arrival of the elevators at the ground floor between $08{:}00$ and $09{:}00$ can be modelled by a Poisson distribution. Elevators arrive on average every $36$ seconds.\n(e) Find the probability that in any half hour period between $08{:}00$ and $09{:}00$ more than $60$ elevators arrive at the ground floor. [3]\nAn elevator can take a maximum of $10$ workers. Given that $400$ workers arrive in a half hour period independently of each other,\n(f) find the probability that there are sufficient elevators to take them to their offices. [3]",
+   "review_note": "MS crop fixed: removed Q12 note that had been appended to the end."
+  },
+  {
+   "id": "math-2015-N-P2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 21]\nThe following graph represents a function y = f (x) , where −3 ≤x≤ 5 .\nThe function has a maximum at (3 , 1) and a minimum at (−1 , −1) .\ny\n3\n2\n1\nx 0\n–3 –2 –1 0 1 2 3 4 5\n–1\n(a) The functions u and v are defi ned as u (x) =x− 3 , v (x) = 2x where x∈ϒ.\n(i) State the range of the function u ο f .\n(ii) State the range of the function u ο v ο f .\n(iii) Find the largest possible domain of the function f ο v ο u . [7]\n(b) (i) Explain why f does not have an inverse.\n(ii) The domain of f is restricted to defi ne a function g so that it has an inverse g−1 .\nState the largest possible domain of g .\n(iii) Sketch a graph of y = g−1 (x) , showing clearly the y-intercept and stating the\ncoordinates of the endpoints. [6]\n2 x −\n5 , x ≠ − d and d ∈ ϒ . Consider the function defi ned by hx ()=\nx + d\n(c) (i) Find an expression for the inverse function h−1 (x) .\n(ii) Find the value of d such that h is a self-inverse function.\n2 x\nFor this value of d , there is a function k such that h ο kx ()= , x≠−1 .\nx + 1\n(iii) Find k (x) . [8]",
+   "ms_text": "Note: For Q12(a) (i) – (iii) and (b) (ii), award A1 for correct endpoints\nand , if correct, award A1 for a closed interval.\nFurther, award A1A0 for one correct endpoint and a closed\ninterval.\n−≤ ≤− 12. (a) (i) 4 y 2 A1A1\n(ii) −≤ 5 y ≤− 1 A1A1\n(iii) −≤ 3 2 x − 6 ≤ 5 (M1)\nf ( 2 x− 6 ) Note: Award M1 for .\n3 ≤ 2 x ≤ 11\n3 11\n≤ x ≤ A1A1\n2 2\n[7 marks]\n(b) (i) any valid argument egf is not one to one, f is many to one,\nfails horizontal line test, not injective R1\n(ii) largest domain for the function gx to have an inverse is [ () − 1, 3 ] A1A1\n(iii)\ny-intercept indicated (coordinates not required) A1\ncorrect shape A1\ncoordinates of end points (1, 3) and (1, − − 1) A1\nNote: Do not award any of the above marks for a graph that is not one to one.\n[6 marks]\n2 x − 5\n(c) (i) y =\n+ x d\n( x + d ) y = 2 x − 5 M1\nNote: Award M1 for attempting to rearrange x and y in a linear\nexpression.\nxy ( − 2) =− dy − 5 (A1)\n− dy − 5\nx = (A1)\ny − 2\nNote: x and y can be interchanged at any stage\n− dx − 5\n− 1\nh () x = A1\nx − 2\n− 1 ()\nNote: Award A1 only if h x is seen.\n− 1\n(ii) self Inverse ⇒ hx () = h () x\n2 x − 5 − dx − 5\n≡ (M1)\nx + d x − 2\nd=− 2 A1\n(iii) METHOD 1\n2() kx − 5 2 x\n= (M1)\nkx () − 2 x + 1\n+ x 5\nkx () = A1\n2\nMETHOD 2\n2 x −\n2 5\n2 x x + 1 − 1\nh = (M1)\nx + 1 2 x\n− 2\nx + 1\nx + 5\n= kx () A1\n2\n[8 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.14",
+    "2.2",
+    "2.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 21]\nThe following graph represents a function $y = f(x)$, where $-3 \\le x \\le 5$. The function has a maximum at $(3, 1)$ and a minimum at $(-1, -1)$.\n[Graph: smooth curve from $(-3, 0)$ down to minimum $(-1, -1)$, through $(1, 0)$ up to maximum $(3, 1)$ and down to $(5, 0)$]\n(a) The functions $u$ and $v$ are defined as $u(x) = x - 3$, $v(x) = 2x$ where $x \\in \\mathbb{R}$.\n(i) State the range of the function $u \\circ f$.\n(ii) State the range of the function $u \\circ v \\circ f$.\n(iii) Find the largest possible domain of the function $f \\circ v \\circ u$. [7]\n(b) (i) Explain why $f$ does not have an inverse.\n(ii) The domain of $f$ is restricted to define a function $g$ so that it has an inverse $g^{-1}$. State the largest possible domain of $g$.\n(iii) Sketch a graph of $y = g^{-1}(x)$, showing clearly the $y$-intercept and stating the coordinates of the endpoints. [6]\nConsider the function defined by $h(x) = \\dfrac{2x - 5}{x + d}$, $x \\ne -d$ and $d \\in \\mathbb{R}$.\n(c) (i) Find an expression for the inverse function $h^{-1}(x)$.\n(ii) Find the value of $d$ such that $h$ is a self-inverse function.\nFor this value of $d$, there is a function $k$ such that $h \\circ k(x) = \\dfrac{2x}{x + 1}$, $x \\ne -1$.\n(iii) Find $k(x)$. [8]",
+   "review_note": "Question image is missing its final line '(iii) Find k(x). [8]' (page 14, y~755-771): seg_math sets body_bot=757 from a tiny crop-mark drawing at x~1,y~758.8, and render_piece clamps override regions to body_bot, so overrides cannot fix it. text_clean includes the missing line. MS crop fixed to include the Q12 note that had been attached to Q11. | fixed by segmenter update"
+  },
+  {
+   "id": "math-2015-N-P2-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 21]\nThe following diagram shows a vertical cross section of a building. The cross section of the\nx 2\n−\nroof of the building can be modelled by the curve fx ()= 30 e 400 , where −20 ≤x≤ 20 .\nGround level is represented by the x-axis.\ny\n30 2 x\n−\n400 fx () = 30e\nF E\n0 x\n–20 C 0 D 20\n(a) Find f '' (x) . [4]\n(b) Show that the gradient of the roof function is greatest when x=− 200 . [3]\nThe cross section of the living space under the roof can be modelled by a rectangle CDEF\nwith points C (−a , 0) and D (a , 0) , where 0 < a≤ 20 .\n1\n−\n(c) Show that the maximum area A of the rectangle CDEF is 6002 e 2 . [5]\n(d) A function I is known as the Insulation Factor of CDEF . The function is defined\nPa ()\nas Ia () = where P = Perimeter and A = Area of the rectangle.\nAa ()\n(i) Find an expression for P in terms of a .\n(ii) Find the value of a which minimizes I .\n(iii) Using the value of a found in part (ii) calculate the percentage of the cross\nsectional area under the whole roof that is not included in the cross section of the\nliving space. [9]",
+   "ms_text": "x 2 x 2 −\n2 x 3 x −\n13. (a) f 'x () = 30e 400 ⋅− =− e 400 M1A1\n400 20\nNote: Award M1 for attempting to use the chain rule.\nx 2 2 x 2 x 2 2\n3 − 3 x − 3 − x\nf ''x () =− e 400 + e 400 = e 400 − 1 M1A1\n20 4000 20 200\nNote: Award M1 for attempting to use the product rule.\n[4 marks]\n(b) the roof function has maximum gradient when f ''x= () 0 (M1)\n( ) Note: Award (M1) for attempting to find f ''− 200 .\nEITHER\n= 0 A1\nOR\nf ''x () = 0 ⇒ x =± 200 A1\nTHEN\nvalid argument for maximum such as reference to an appropriate graph or\nf ''x () f ′′− = > change in the sign of eg (15) 0.010...( 0) and\nf ′′− =− < (14) 0.001...(0) R1\n⇒ x =− 200 AG\n[3 marks]\na 2 a 2 − −\n(c) A = 2 a ⋅ 30e 400 = 60e a 400 =− 400 f ′ () a (M1)(A1)\nEITHER\na 2 a 2\nd A − a −\n= 60e a 400 ⋅− + 60e 400 = 0 ⇒ a = 200 ( − 400 f ′′ () a = 0 ⇒ a = 200 )\nd a 200\nM1A1\nOR\nby symmetry eg a=− 200 found in (b) or A coincides with f ′′ () a = 0 R1\nmax\n⇒ a = 200 A1\nTHEN\n200 −\nA = 60 ⋅ 200e 400 M1\nmax\n1 −\n= 6002e 2 AG\n[5 marks]\na 2 −\n(d) (i) perimeter = 4 a + 60e 400 A1A1\nNote: Condone use of x .\n2 a\n−\n+ 400 4 a 60e\nIa () = (ii) (A1)\na 2 −\n60e a 400\ngraphing () Ia or other valid method to find the minimum (M1)\na= 12.6 A1\nx 2 −\n20\n(iii) area under roof 400 d x M1 =∫ 2030e\n−\n= 896.18 … (A1)\n… 2 (12.6 )\n−\n= ⋅ ( …⋅ ) 400 = … area of living space 6012.6 e 508.56 (A1)\npercentage of empty space = 43.3% A1\n[9 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.8",
+    "5.6",
+    "5.7",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 21]\nThe following diagram shows a vertical cross section of a building. The cross section of the roof of the building can be modelled by the curve $f(x) = 30\\mathrm{e}^{-\\frac{x^2}{400}}$, where $-20 \\le x \\le 20$.\nGround level is represented by the $x$-axis.\n[Diagram: bell-shaped curve $f(x) = 30\\mathrm{e}^{-x^2/400}$ with maximum 30 on the y-axis, from $x=-20$ to $20$; shaded rectangle CDEF with C and D on the x-axis and F, E on the curve]\n(a) Find $f''(x)$. [4]\n(b) Show that the gradient of the roof function is greatest when $x = -\\sqrt{200}$. [3]\nThe cross section of the living space under the roof can be modelled by a rectangle CDEF with points $\\mathrm{C}(-a, 0)$ and $\\mathrm{D}(a, 0)$, where $0 < a \\le 20$.\n(c) Show that the maximum area $A$ of the rectangle CDEF is $600\\sqrt{2}\\mathrm{e}^{-\\frac{1}{2}}$. [5]\n(d) A function $I$ is known as the Insulation Factor of CDEF. The function is defined as $I(a) = \\dfrac{P(a)}{A(a)}$ where $P$ = Perimeter and $A$ = Area of the rectangle.\n(i) Find an expression for $P$ in terms of $a$.\n(ii) Find the value of $a$ which minimizes $I$.\n(iii) Using the value of $a$ found in part (ii) calculate the percentage of the cross sectional area under the whole roof that is not included in the cross section of the living space. [9]"
+  }
+ ],
+ "status": "done"
+}

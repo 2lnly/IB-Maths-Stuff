@@ -1,0 +1,203 @@
+{
+ "exam_id": "math-2000-N-P1",
+ "questions": {
+  "1": {
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.L1",
+    "2.7"
+   ],
+   "text_clean": "1. Find the values of the real number $k$ for which the determinant of the matrix $\\begin{pmatrix} k-4 & 3 \\\\ -2 & k+1 \\end{pmatrix}$ is equal to zero."
+  },
+  "2": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.5"
+   ],
+   "text_clean": "2. Given functions $f: x \\mapsto x+1$ and $g: x \\mapsto x^3$, find the function $(f \\circ g)^{-1}$."
+  },
+  "3": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6"
+   ],
+   "text_clean": "3. For the function $f: x \\mapsto x^2 \\ln x$, $x > 0$, find the function $f'$, the derivative of $f$ with respect to $x$.",
+   "note": "audit: product rule + SL derivative of ln x; no 5.15"
+  },
+  "4": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.2",
+    "4.3"
+   ],
+   "text_clean": "4. The box-and-whisker plots shown represent the heights of female students and the heights of male students at a certain school.\n[Diagram: box-and-whisker plots on a height axis 150-210 cm. Females: whiskers 150 to 175, box 160 to 170, median 166. Males: whiskers 160 to 190, box 165 to 175, median 170.]\n(a) What percentage of female students are shorter than any male students?\n(b) What percentage of male students are shorter than some female students?\n(c) From the diagram, estimate the mean height of the male students."
+  },
+  "5": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.11",
+    "5.10"
+   ],
+   "text_clean": "5. Calculate the area bounded by the graph of $y = x\\sin(x^2)$ and the $x$-axis, between $x = 0$ and the smallest positive $x$-intercept."
+  },
+  "6": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6"
+   ],
+   "text_clean": "6. Given that events $A$ and $B$ are independent with $P(A \\cap B) = 0.3$ and $P(A \\cap B') = 0.3$, find $P(A \\cup B)$."
+  },
+  "7": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.2"
+   ],
+   "text_clean": "7. Find the sum of the positive terms of the arithmetic sequence $85, 78, 71, \\ldots$."
+  },
+  "8": {
+   "topics": [
+    "3",
+    "5"
+   ],
+   "subtopics": [
+    "3.6",
+    "5.6"
+   ],
+   "text_clean": "8. For the function $f: x \\mapsto \\frac{1}{2}\\sin 2x + \\cos x$, find the possible values of $\\sin x$ for which $f'(x) = 0$."
+  },
+  "9": {
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.L1",
+    "3.5"
+   ],
+   "text_clean": "9. (a) Describe the transformation of the plane whose matrix is $M = \\begin{pmatrix} \\frac{1}{2} & -\\frac{\\sqrt{3}}{2} \\\\ \\frac{\\sqrt{3}}{2} & \\frac{1}{2} \\end{pmatrix}$.\n(b) Find the smallest positive integer $n$ for which $M^n = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$."
+  },
+  "10": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "text_clean": "10. Find the real number $k$ for which $1 + k\\mathrm{i}$, $(\\mathrm{i} = \\sqrt{-1})$, is a zero of the polynomial $z^2 + kz + 5$."
+  },
+  "11": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.6"
+   ],
+   "text_clean": "11. Let $\\alpha$ be the angle between the vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$, where $\\boldsymbol{a} = (\\cos\\theta)\\boldsymbol{i} + (\\sin\\theta)\\boldsymbol{j}$, $\\boldsymbol{b} = (\\sin\\theta)\\boldsymbol{i} + (\\cos\\theta)\\boldsymbol{j}$ and $0 < \\theta < \\frac{\\pi}{4}$.\nExpress $\\alpha$ in terms of $\\theta$."
+  },
+  "12": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.9"
+   ],
+   "text_clean": "12. The coefficient of $x$ in the expansion of $\\left(x + \\frac{1}{ax^2}\\right)^7$ is $\\frac{7}{3}$. Find the possible values of $a$."
+  },
+  "13": {
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.7",
+    "5.4"
+   ],
+   "text_clean": "13. For what values of $m$ is the line $y = mx + 5$ a tangent to the parabola $y = 4 - x^2$?"
+  },
+  "14": {
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4",
+    "3.1"
+   ],
+   "text_clean": "14. The tangent to the curve $y^2 = x^3$ at the point P$(1, 1)$ meets the $x$-axis at Q and the $y$-axis at R. Find the ratio PQ : QR."
+  },
+  "15": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.8",
+    "1.3"
+   ],
+   "text_clean": "15. The sum of an infinite geometric sequence is $13\\frac{1}{2}$, and the sum of the first three terms is 13. Find the first term."
+  },
+  "16": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "text_clean": "16. In a triangle ABC, $\\hat{ABC} = 30^\\circ$, AB $= 6$ cm and AC $= 3\\sqrt{2}$ cm. Find the possible lengths of [BC]."
+  },
+  "17": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.10"
+   ],
+   "text_clean": "17. Solve the differential equation $xy\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 1 + y^2$, given that $y = 0$ when $x = 2$."
+  },
+  "18": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "text_clean": "18. If $z$ is a complex number and $|z + 16| = 4|z + 1|$, find the value of $|z|$.",
+   "note": "audit: Cartesian modulus only; no polar/Euler form needed"
+  },
+  "19": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "text_clean": "19. In how many ways can six different coins be divided between two students so that each student receives at least one coin?"
+  },
+  "20": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.16"
+   ],
+   "text_clean": "20. The following graph is that part of the graph of $y = f(x)$ for which $f(x) \\geq 0$.\n[Graph: curve on $-2 \\le x \\le 2$, zero at $x=-2$, $0$, $2$, maxima of 4 at about $x=\\pm1.5$, minimum 0 at origin, symmetric about the y-axis]\nSketch, on the axes provided below, the graph of $y^2 = f(x)$ for $-2 \\leq x \\leq 2$.\n[Blank grid: $x$ from $-2$ to $2$, $y$ from $-4$ to $4$]"
+  }
+ }
+}

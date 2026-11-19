@@ -1,0 +1,108 @@
+{
+ "exam_id": "math-2016-N-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2016,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2016 November Examination Session/Mathematics_paper_3_Discrete_mathematics__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2016 November Examination Session/Mathematics_paper_3_Discrete_mathematics__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8816-7207; code N16/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2016-N-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 17,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 17]\nIn this question the notation (anan-1…a2a1a0)b is used to represent a number in base b ,\nthat has unit digit of a0 . For example (2234)5 represents 2 × 53+ 2 × 52 + 3 × 5 + 4 = 319\nand it has a unit digit of 4 .\n(a) Let x be the cube root of the base 7 number (503231)7 .\n(i) By converting the base 7 number to base 10 , find the value of x , in base 10 .\n(ii) Express x as a base 5 number. [7]\n(b) Let y be the base 9 number (anan-1…a1a0)9 . Show that y is exactly divisible by 8 if\nn\na , is also exactly divisible by 8 . and only if the sum of its digits, =∑ [7]\ni\ni 0\n(c) Using the method from part (b), find the unit digit when the base 9 number\n[3] (321321321)9is written as a base 8 number.",
+   "ms_text": "1. (a) (i) converting to base 10\n5 3 2 (503231) = 5 × 7 + 3 × 7 + 2 × 7 + 3 × 7 + 1 = 85184\nM1A1A1\n7\nso x= 44 A1\n(ii) repeated division by 5 gives (M1)\n44 remainder\n8 4\n1 3\n1\n(A1)\nso base 5 value for x is (134) A1\n5\nNotes: Alternative method is to successively subtract the largest multiple of 25\nand then 5.\nFollow through if they forget to take the cube root and obtain (10211214)\n5\nthen award (M1)(A1)A1.\n[7 marks]\n(b) 9 ≡ 1(mod8) A1\ni i 9 ≡ 1 ≡ 1(mod8) i∈∞ (M1)(A1)\n= n + n − 1 +…+ + ≡ n + n − 1 +…+ + ≡ y a 9 a 9 a 9 a a 1 a 1 a 1 a\nn n − 1 1 0 n n − 1 1 0\nn\na + a +…+ a + a ≡∑ a (mod8) M1A1A1\nn n − 1 1 0 i\ni = 0\nn\nso y≡ 0(mod8) and hence divisible by 8 if and only if ∑ a ≡ 0(mod8)\ni\ni = 0\nand hence divisible by 8 R1AG\n[7 marks]\nNote: Accept alternative valid methods eg binomial expansion of (81)i + ,\nfactorization of ( ia− 1) if they have sufficient explanation.\n(c) using part (b), (321321321) ≡ 3 + 2 + 1 + 3 + 2 + 1 + 3 + 2 + 1 = 18 ≡ 2(mod8)\n9\nM1A1\nso the unit digit is 2 A1\n[3 marks]\nTotal [17 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.4",
+    "6.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 17]\nIn this question the notation $(a_n a_{n-1} \\ldots a_2 a_1 a_0)_b$ is used to represent a number in base $b$, that has unit digit of $a_0$. For example $(2234)_5$ represents $2 \\times 5^3 + 2 \\times 5^2 + 3 \\times 5 + 4 = 319$ and it has a unit digit of $4$.\n(a) Let $x$ be the cube root of the base 7 number $(503231)_7$.\n(i) By converting the base 7 number to base 10, find the value of $x$, in base 10.\n(ii) Express $x$ as a base 5 number. [7]\n(b) Let $y$ be the base 9 number $(a_n a_{n-1} \\ldots a_1 a_0)_9$. Show that $y$ is exactly divisible by 8 if and only if the sum of its digits, $\\sum_{i=0}^{n} a_i$, is also exactly divisible by 8. [7]\n(c) Using the method from part (b), find the unit digit when the base 9 number $(321321321)_9$ is written as a base 8 number. [3]"
+  },
+  {
+   "id": "math-2016-N-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 8,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 8]\nIn this question no graphs are required to be drawn. Use the handshaking lemma and other\nresults about graphs to explain why,\na graph cannot exist with a degree sequence of 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ; (a) [2]\n(b) a simple, connected, planar graph cannot exist with a degree sequence of\n4 , 4 , 4 , 4 , 5 , 5 ; [3]\n(c) a tree cannot exist with a degree sequence of 1 , 1 , 2 , 2 , 3 , 3 . [3]",
+   "ms_text": "2. (a) assume such a graph exists\nby the handshaking lemma the sum of the degrees equals twice the\nnumber of edges R1\nbut 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45 which is odd R1\nthis is a contradiction so graph does not exist AG\n[2 marks]\n(b) assume such a graph exists\nsince the graph is simple and connected (and v= 6 > 2 ) then e ≤ 3 v − 6 R1\nby the handshaking lemma 4 + 4 + 4 + 4 + 5 + 5 = 2e so e= 13 A1\nhence 13 ≤ 3 × 6 − 6 = 12 A1\nthis is a contradiction so graph does not exist AG\n[3 marks]\n(c) assume such a graph exists\na tree with 6 vertices must have 5 edges (since V-E+1=2 for a tree) R1\nusing the Handshaking Lemma 1 + 1 + 2 + 2 + 3 + 3 = 2 × 5 implies\n12 = 10 M1A1\nthis is a contradiction so graph does not exist AG\n[3 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 8]\nIn this question no graphs are required to be drawn. Use the handshaking lemma and other results about graphs to explain why,\n(a) a graph cannot exist with a degree sequence of $1, 2, 3, 4, 5, 6, 7, 8, 9$; [2]\n(b) a simple, connected, planar graph cannot exist with a degree sequence of $4, 4, 4, 4, 5, 5$; [3]\n(c) a tree cannot exist with a degree sequence of $1, 1, 2, 2, 3, 3$. [3]"
+  },
+  {
+   "id": "math-2016-N-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 16]\nIn a computer game, Fibi, a magic dragon, is climbing a very large staircase. The steps are\nlabelled 0 , 1 , 2 , 3 … .\nShe starts on step 0 . If Fibi is on a particular step then she can either jump up one step or\nfly up two steps. Let un represent the number of different ways that Fibi can get to step n .\nWhen counting the number of different ways, the order of Fibi’s moves matters, for example\njump, fly, jump is considered different to jump, jump, fly. Let u0= 1 .\n(a) Find the values of u1 , u2 , u3 . [3]\n(b) Show that un+2= un+1 + un . [2]\n(c) (i) Write down the auxiliary equation for this recurrence relation.\n(ii) Hence find the solution to this recurrence relation, giving your answer in the form\nun=Aαn + Bβ n where α and β are to be determined exactly in surd form and\nα > β . The constants A and B do not have to be found at this stage. [5]\n+ 1 1 5\nGiven that A = (d) (i) , use the value of u0 to determine B.\n5 2\n(ii) Hence find the explicit formula for un . [3]\n(e) Find the value of u20 . [1]\n(f) Find the smallest value of n for which un> 100 000 . [2]",
+   "ms_text": "3. (a) u = 1, u = 2, u = 3 A1A1A1\n1 2 3\n[3 marks]\n(b) to get to step n+ 2 she can either fly from step n or jump from step n+ 1 R2\nso u = u + u AG\nn + 2 n + 1 n\n[2 marks]\n2 (c) (i) auxiliary equation λ − λ − 1 = 0 M1A1\nNote: Award M1 for attempting to write down a relevant quadratic.\n1 ± 1 + 4\n(ii) λ = M1A1\n2\nn n\n+ − 1 5 1 5\n= + nu A B A1\n2 2\n[5 marks]\n1 1 − 5\n(d) (i) u= 1 implies A + B = 1 . So B =− M1A1\n0\n5 2\nn + 1 n + 1\n1 1 + 5 1 1 − 5\n(ii) u = − A1\nn\n5 2 5 2\nNote: Accept equivalent expressions in parts (i) and (ii).\n[3 marks]\nu = 10946 (e) A1\n20\n[1 mark]\n(f) using table, smallest value for n is 25 (gives 121393) (M1)A1\nNote: Accept other methods, eg, logs on the dominant term.\n[2 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 16]\nIn a computer game, Fibi, a magic dragon, is climbing a very large staircase. The steps are labelled $0, 1, 2, 3, \\ldots$.\nShe starts on step $0$. If Fibi is on a particular step then she can either jump up one step or fly up two steps. Let $u_n$ represent the number of different ways that Fibi can get to step $n$. When counting the number of different ways, the order of Fibi's moves matters, for example jump, fly, jump is considered different to jump, jump, fly. Let $u_0 = 1$.\n(a) Find the values of $u_1, u_2, u_3$. [3]\n(b) Show that $u_{n+2} = u_{n+1} + u_n$. [2]\n(c) (i) Write down the auxiliary equation for this recurrence relation.\n(ii) Hence find the solution to this recurrence relation, giving your answer in the form $u_n = A\\alpha^n + B\\beta^n$ where $\\alpha$ and $\\beta$ are to be determined exactly in surd form and $\\alpha > \\beta$. The constants $A$ and $B$ do not have to be found at this stage. [5]\n(d) (i) Given that $A = \\frac{1}{\\sqrt{5}}\\left(\\frac{1+\\sqrt{5}}{2}\\right)$, use the value of $u_0$ to determine $B$.\n(ii) Hence find the explicit formula for $u_n$. [3]\n(e) Find the value of $u_{20}$. [1]\n(f) Find the smallest value of $n$ for which $u_n > 100\\,000$. [2]"
+  },
+  {
+   "id": "math-2016-N-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 19,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 19]\nThe simple, complete graph κn(n> 2) has vertices A1 , A2 , A3 , … , An. The weight of the\nedge from Ai to Aj is given by the number i+j .\n(a) (i) Draw the graph κ4 including the weights of all the edges.\n(ii) Use the nearest-neighbour algorithm, starting at vertex A1, to find a Hamiltonian\ncycle.\n(iii) Hence, find an upper bound to the travelling salesman problem for this weighted\ngraph. [4]\n(b) Consider the graph κ5 . Use the deleted vertex algorithm, with A5 as the deleted\nvertex, to find a lower bound to the travelling salesman problem for this weighted\ngraph. [5]\nConsider the general graph κn .\n(c) (i) Use the nearest-neighbour algorithm, starting at vertex A1, to find a Hamiltonian\ncycle.\n(ii) Hence find and simplify an expression in n , for an upper bound to the travelling\nsalesman problem for this weighted graph. [7]\n(d) By splitting the weight of the edge AiAj into two parts or otherwise, show that all\nHamiltonian cycles of κn have the same total weight, equal to the answer found in\n(c)(ii). [3]",
+   "ms_text": "4. (a) (i)\nA1A1\nNote:A1 for the graph, A1 for the weights.\n(ii) cycle is A AAAA A1\n1 2 3 4 1\n(iii) upper bound is 3 + 5 + 7 + 5 = 20 A1\n[4 marks]\n(b) with A5 deleted, (applying Kruskal’s Algorithm) the minimum spanning tree\nwill consist of the edges A A,A A,A A, of weights 3, 4, 5 (M1)A1\n1 2 1 3 1 4\nthe two edges of smallest weight from A5 are A5A1 and A5A2 of weights\n6 and 7 (M1)A1\nso lower bound is 3 + 4 + 5 + 6 + 7 = 25 A1\n[5 marks]\n(c) (i) starting at A1 we go A2, A3 … An\nwe now have to take AnA1\nthus the cycle is A1A2A3…An-1AnA1 A1A1\nNote: Final A1 is for AnA1.\n(ii) smallest edge from A1 is A1A2 of weight 3, smallest edge from A2\n(to a new vertex) is A2A3 of weight 5, smallest edge from An-1(to a\nnew vertex) is An-1Anof weight 2n−1 (M1)\nweight of AA isn+ 1\nn 1\nweight is 3 + 5 + 7 +…+ (2 n − 1) + ( n + 1) A1\n( n − 1) (2\n= n + 2) + ( n + 1) M1A1\n2\n= nn ( + 1) (which is an upper bound) A1\nNote: Follow through is not applicable.\n[7 marks]\n(d) put a marker on each edge AiAj so that iof the weight belongs to vertex Ai\nand j of the weight belongs to vertex Aj M1\nthe Hamiltonian cycle visits each vertex once and only once and for vertex\nAithere will be weight i(belonging to vertex Ai) both going in andcoming\nout R1\nn n\nso the total weight will be ∑ 2 i = 2 ( n + 1) = nn ( + 1) A1AG\ni = 1 2\nNote: Accept other methods for example induction.\n[3 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.7",
+    "6.8",
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 19]\nThe simple, complete graph $\\kappa_n$ $(n > 2)$ has vertices $A_1, A_2, A_3, \\ldots, A_n$. The weight of the edge from $A_i$ to $A_j$ is given by the number $i + j$.\n(a) (i) Draw the graph $\\kappa_4$ including the weights of all the edges.\n(ii) Use the nearest-neighbour algorithm, starting at vertex $A_1$, to find a Hamiltonian cycle.\n(iii) Hence, find an upper bound to the travelling salesman problem for this weighted graph. [4]\n(b) Consider the graph $\\kappa_5$. Use the deleted vertex algorithm, with $A_5$ as the deleted vertex, to find a lower bound to the travelling salesman problem for this weighted graph. [5]\nConsider the general graph $\\kappa_n$.\n(c) (i) Use the nearest-neighbour algorithm, starting at vertex $A_1$, to find a Hamiltonian cycle.\n(ii) Hence find and simplify an expression in $n$, for an upper bound to the travelling salesman problem for this weighted graph. [7]\n(d) By splitting the weight of the edge $A_iA_j$ into two parts or otherwise, show that all Hamiltonian cycles of $\\kappa_n$ have the same total weight, equal to the answer found in (c)(ii). [3]"
+  }
+ ],
+ "status": "done"
+}

@@ -1,0 +1,275 @@
+{
+ "exam_id": "math-2021-N-P2",
+ "subject": "math",
+ "syllabus": "math-aa-hl",
+ "year": 2021,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2021 November Examination Session/Mathematics_analysis_and_approaches_paper_2__HL (1).pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2021 November Examination Session/Mathematics_analysis_and_approaches_paper_2__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8821-7102; marks sum matches paper total 110",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2021-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 7]\nIn Lucy’s music academy, eight students took their piano diploma examination and achieved\nscores out of 150. For her records, Lucy decided to record the average number of hours per\nweek each student reported practising in the weeks prior to their examination. These results\nare summarized in the table below.\nAverage weekly practice\n28 13 45 33 17 29 39 36\ntime (h)\nDiploma score (D) 115 82 120 116 79 101 110 121\n(a) Find Pearson’s product-moment correlation coefficient, r , for these data.\b [2]\n(b) The relationship between the variables can be modelled by the regression\nequation D=ah+b . Write down the value of a and the value of b .\b [1]\n(c) One of these eight students was disappointed with her result and wished she had\npractised more. Based on the given data, determine how her score could have been\nexpected to alter had she practised an extra five hours per week.\b [2]\n(d) Lucy asserts that the number of hours a student practises has a direct effect on their\nfinal diploma result. Comment on the validity of Lucy’s assertion.\b [1]\nLucy suspected that each student had not been practising as much as they reported. In order\nto compensate for this, Lucy deducted a fixed number of hours per week from each of the\nstudents’ recorded hours.\n(e) State how, if at all, the value of r would be affected.\b [1]",
+   "ms_text": "1. (a) use of GDC to give (M1)\nr = 0.883529...\nr = 0.884 A1\n2 Note: Award the(M1) for any correct value of r,a, bor r= 0.780624...\nseen in part (a) or part (b).\n[2 marks]\n(b) a = 1.36609... , b = 64.5171...\na = 1.37 , b = 64.5 A1\n[1 mark]\n(c) attempt to find their difference (M1)\n51.36609... × OR 1.36609... ( h + 5 ) + 64.5171... − ( 1.36609... h + 64.5171... )\n6.83045...\n= 6.83 (6.85 from 1.37)\nthe student could have expected her score to increase by 7 marks. A1\nNote:Accept an increase of 6, 6.83 or 6.85.\n[2 marks]\n(d) Lucy is incorrect in suggesting there is a causal relationship.\nThis might be true, but the data can only indicate a correlation. R1\nNote:Accept ‘Lucy is incorrect as correlation does not imply causation’ or equivalent.\n[1 mark]\n(e) no effect A1\n[1 mark]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 7]\nIn Lucy's music academy, eight students took their piano diploma examination and achieved scores out of 150. For her records, Lucy decided to record the average number of hours per week each student reported practising in the weeks prior to their examination. These results are summarized in the table below.\nAverage weekly practice time ($h$): 28, 13, 45, 33, 17, 29, 39, 36\nDiploma score ($D$): 115, 82, 120, 116, 79, 101, 110, 121\n(a) Find Pearson's product-moment correlation coefficient, $r$, for these data. [2]\n(b) The relationship between the variables can be modelled by the regression equation $D = ah + b$. Write down the value of $a$ and the value of $b$. [1]\n(c) One of these eight students was disappointed with her result and wished she had practised more. Based on the given data, determine how her score could have been expected to alter had she practised an extra five hours per week. [2]\n(d) Lucy asserts that the number of hours a student practises has a direct effect on their final diploma result. Comment on the validity of Lucy's assertion. [1]\nLucy suspected that each student had not been practising as much as they reported. In order to compensate for this, Lucy deducted a fixed number of hours per week from each of the students' recorded hours.\n(e) State how, if at all, the value of $r$ would be affected. [1]"
+  },
+  {
+   "id": "math-2021-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nˆ Consider a triangle ABC , where AC=12 , CB=7 and BAC = 25º .\nFind the smallest possible perimeter of triangle ABC .",
+   "ms_text": "2. EITHER\nattempt to use cosine rule (M1)\n2 + 2 −× × × = 2 2 − + = 12 AB 212cos25ºAB 7 OR AB 21.7513...AB95 0 (A1)\nat least one correct value for AB (A1)\nAB = 6.05068... OR AB = 15.7007...\nusing their smaller value forABto find minimum perimeter (M1)\n12 + 7 + 6.05068...\nOR\nattempt to use sine rule (M1)\nsinB sin25º\n= = OR ˆB = ORˆB = OR sinB 0.724488... 133.573...º 46.4263...º (A1)\n12 7\nat least one correct value for ˆC\nC = ˆ 21.4263...º OR ˆ C = 108.573...º (A1)\nusing their acute value for ˆC to find minimum perimeter (M1)\n7sin21.4263...º\n1 2 + 7 + 12 2 + 7 2 − 2 × 127cos21.423.. × 6 . + + OR 12 7\nsin25º\nTHEN\n25.0506…\nminimum perimeter = 25.1. A1\nTotal [5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nConsider a triangle ABC, where $\\mathrm{AC} = 12$, $\\mathrm{CB} = 7$ and $\\mathrm{B\\hat{A}C} = 25^\\circ$.\nFind the smallest possible perimeter of triangle ABC."
+  },
+  {
+   "id": "math-2021-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nA factory manufactures lamps. It is known that the probability that a lamp is found to be\ndefective is 0.05 . A random sample of 30 lamps is tested.\n(a) Find the probability that there is at least one defective lamp in the sample.\b [3]\n(b) Given that there is at least one defective lamp in the sample, find the probability that\nthere are at most two defective lamps.\b [4]",
+   "ms_text": "3. (a) recognize that the variable has a Binomial distribution (M1)\n( ) X B30,0.05\nattempt to find ( P X≥ 1 ) (M1)\n− ( = ) − 30 1P X 0 OR 10.95 OR 10.214638... − OR0.785361...\nNote: The two M marks are independent of each other.\nP ( X≥ 1 ) = 0.785 A1\n[3 marks]\n(b) recognition of conditional probability (M1)\n( ≤ ≥ ) OR ( ) P X 2| X 1 Pat most 2 defective | at least 1 defective\nNote:Recognition must be shown in context either in words or symbols but\nnot just ( ) P AB. |\nP1 ( ≤ X ≤ 2 ) P ( X = 1 ) + P ( X = 2 )\nOR (A1)\nP ( X ≥ 1 ) P ( X ≥ 1 )\n0.597540... − 0.214638... + 0.258636... OR 0.812178... OR 0.338903...\n(A1)\n0.785361... 0.785361... 0.785361...\n= 0.760847...\nP ( X ≤ 2| X ≥ 1 ) = 0.761 A1\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nA factory manufactures lamps. It is known that the probability that a lamp is found to be defective is $0.05$. A random sample of $30$ lamps is tested.\n(a) Find the probability that there is at least one defective lamp in the sample. [3]\n(b) Given that there is at least one defective lamp in the sample, find the probability that there are at most two defective lamps. [4]"
+  },
+  {
+   "id": "math-2021-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 6]\nThe following diagram shows a semicircle with centre O and radius r . Points P , Q and R\nˆ lie on the circumference of the circle, such that PQ=2r and ROQ =θ , where 0<θ<π .\nR\nθ\nP O Q\n(a) Given that the areas of the two shaded regions are equal, show that θ=2 sinθ .\b [5]\n(b) Hence determine the value of θ .\b [1]",
+   "ms_text": "4. (a) attempt to find the area of either shaded region in terms ofr andθ (M1)\nNote: Do not award M1 if they have only copied from the booklet and not\napplied to the shaded area.\n1 1 2 2\nArea of segment = r θ − r sin θ A1\n2 2\n1 2\nArea of triangle = sinπ ( − θ ) A1\n2 r\ncorrect equation in terms ofθonly (A1)\nθ − θ = ( − θ ) sin sinπ\nθ − sin θ = sin θ A1\nθ = 2sin θ AG\nNote: Award a maximum of M1A1A0A0A0 if a candidate uses degrees\n1 2\n(i.e., sin180 ( °− θ ) ), even if later work is correct.\n2 r\nNote: If a candidate directly states that the area of the triangle is\n1 2\nsin θ, award a maximum of M1A1A0A1A1.\n2 r\n[5 marks]\nθ= (b) 1.89549...\nθ= 1.90 A1\nNote: AwardA0if there is more than one solution. AwardA0for an answer\nin degrees.\n[1 mark]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "text_clean": "4. [Maximum mark: 6]\nThe following diagram shows a semicircle with centre O and radius $r$. Points P, Q and R lie on the circumference of the circle, such that $\\mathrm{PQ} = 2r$ and $\\mathrm{R\\hat{O}Q} = \\theta$, where $0 < \\theta < \\pi$.\n[Diagram: semicircle on diameter PQ with centre O; R on the arc; angle ROQ = $\\theta$; triangle PRO shaded and the segment between chord RQ and the arc RQ shaded]\n(a) Given that the areas of the two shaded regions are equal, show that $\\theta = 2\\sin\\theta$. [5]\n(b) Hence determine the value of $\\theta$. [1]"
+  },
+  {
+   "id": "math-2021-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 9,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 9]\nn r 2 7\nThe sum of the first n terms of a geometric sequence is given by Sn = . =∑\n3 8 r 1\n(a) Find the first term of the sequence, u1 .\b [2]\n(b) Find S∞ .\b [3]\n(c) Find the least value of n such that S∞-Sn<0.001 .\b [4]",
+   "ms_text": "2 7\n5. (a) u = S = × (M1)\n1 1\n3 8\n14 7\n= = = 0.583333 A1\n24 12\n[2 marks]\n7\n(b) r = ( = 0.875 ) (A1)\n8\nu\n1 substituting their values for 1uand rinto S (M1)\n∞=−\n1 r\n14\n= ( = 4.66666 ) A1\n3\n[3 marks]\n(c) attempt to substitute their values into the inequality or formula for (M1) nS\nn\n7 7\n1 −\nn r 14 27 12 8\n− ∑ < 0.001 OR S =\nn\n3 38 7 r= 1\n1 −\n8\nattempt to solve their inequality using a table, graph or logarithms\n(must be exponential) (M1)\nNote: Award (M0) if the candidate attempts to solve S ∞− u < 0.001 .\nn\ncorrect critical value or at least one correct crossover value (A1)\n= = 63.2675 OR S ∞− S 0.001036... OR S ∞− S 0.000906...\n63 64\nOR S ∞− S − 0.001 = 0.0000363683... OR S ∞− S − 0.001 = − 0.0000931777...\n63 64\nn = least value is 64 A1\n[4 marks]\nTotal [9 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.3",
+    "1.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 9]\nThe sum of the first $n$ terms of a geometric sequence is given by $S_n = \\sum_{r=1}^{n} \\frac{2}{3}\\left(\\frac{7}{8}\\right)^r$.\n(a) Find the first term of the sequence, $u_1$. [2]\n(b) Find $S_\\infty$. [3]\n(c) Find the least value of $n$ such that $S_\\infty - S_n < 0.001$. [4]"
+  },
+  {
+   "id": "math-2021-N-P2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 8]\n(a) Prove the identity (p+q)3-3pq (p+q)≡p3+q3 .\b [2]\nThe equation 2x2-5x+1=0 has two real roots, a and b .\nand 1 Consider the equation x2+mx+n=0 , where m , n∈′ and which has roots 1\n.\n3 3 a b\n(b) Without solving 2x2-5x+1=0 , determine the values of m and n .\b [6]",
+   "ms_text": "6. (a) METHOD 1\n3\n( + ) − ( + ) ≡ 3 + 3 p q 3 pqp q p q\n3\nattempts to expand ( p + q ) M1\n3 2 2 3 p + 3 pq + 3 pq + q\n3 3 2 2 3\n( p + q ) − 3 pqp ( + q ) ≡ p + 3 pq + 3 pq + q − 3 pqp ( + q )\n3 2 2 3 2 2 ≡ p + 3 pq + 3 pq + q − 3 pq − 3 pq\nA1\n3 3 ≡ p + q\nAG\nNote: Condone the use of equals signs throughout.\nMETHOD 2\n3\n( + ) − ( + ) ≡ 3 + 3 p q 3 pqp q p q\n3\nattempts to factorise ( p + q ) − 3 pqp ( + q ) M1\n2\n≡ ( + )( ( + ) − ) ( ≡ ( + )( 2 − + 2 ) ) p q p q 3 pq p q p pq q\n3 2 2 2 2 3 ≡ p − pq + pq + pq − pq + q A1\n3 3 ≡ p + q\nAG\nNote: Condone the use of equals signs throughout.\nMETHOD 3\n3 3\n+ 3 ≡ ( + ) − ( + ) p q p q 3 pqp q\n3 3\nattempts to factorise p + q M1\n2 2 ≡ ( p + q )( p − pq + q )\n2\n( )( ( ) ) ≡ p + q p + q − 3 pq A1\n3\n≡ ( p + q ) − 3 pqp ( + q ) AG\nNote: Condone the use of the equals sign throughout.\n[2 marks]\n(b)\nNote: Award a maximum of A1M0A0A1M0A0 for m = − 95 and n = 8 found\n5 ± 17\nby using αβ , = ( αβ , = 0.219...,2.28... ) .\n4\nCondone, as appropriate, solutions that state but clearly do not use the\nvalues of α and β.\nSpecial case: Award a maximum of A1M1A0A1M0A0 for m = − 95 and\nn = 8 obtained by solving simultaneously for α and β from product of\nroots and sum of roots equations.\n5 1 2\nproduct of roots of x − x + = 0\n2 2\n1\nαβ= (seen anywhere) A1\n2\n1 1 1\nconsiders by stating = n ) M1\n)(\nα 3 β 3 3 ( αβ\n1\nNote: Award M1 for attempting to substitute their value of αβ into .\n3\n( αβ )\n1 1\n=\n3 3\n( αβ ) 1\n2\nn = 8 A1\n5 1 2\nsum of roots of x − x + = 0\n2 2\n5\nα + β = (seen anywhere) A1\n2\n3 3\n1 1 α + β ) − 3 αβα ( + β ) α + β 3 ( α + β ) by stating(\nconsiders + − = − ( m ) M1\nα 3 β 3 3 αβ 2 ( αβ ) ( αβ )\nNote: Award M1 for attempting to substitute their values of α + β and αβ into their\n3\nexpression.Award M0 for use of ( α + β ) − 3 αβα ( + β ) only.\n3\n5 3 5\n−\n2 2 2\n= ( = − = ) 125 30 95\n1\n8\nm = − 95 A1\n( x 2 − 95 x + 8 = 0 )\n[6 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1"
+   ],
+   "subtopics": [
+    "2.12",
+    "1.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 8]\n(a) Prove the identity $(p+q)^3 - 3pq(p+q) \\equiv p^3 + q^3$. [2]\nThe equation $2x^2 - 5x + 1 = 0$ has two real roots, $\\alpha$ and $\\beta$.\nConsider the equation $x^2 + mx + n = 0$, where $m, n \\in \\mathbb{Z}$ and which has roots $\\frac{1}{\\alpha^3}$ and $\\frac{1}{\\beta^3}$.\n(b) Without solving $2x^2 - 5x + 1 = 0$, determine the values of $m$ and $n$. [6]"
+  },
+  {
+   "id": "math-2021-N-P2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nA continuous random variable X has a probability density function given by\narccos x 0 ≤ x ≤ 1\nfx () =\n0 otherwise\nThe median of this distribution is m .\n(a) Determine the value of m .\b [2]\n(b) Given that P (| X-m |≤a)=0.3 , determine the value of a .\b [4]",
+   "ms_text": "m\n7. (a) recognises that arccos d x x = 0.5 (M1) ∫\n0\n2 m arccos m − 1 − m − ( 0 − 1 ) = 0.5\nm = 0.360034...\nm = 0.360 A1\n[2 marks]\n(b) METHOD 1\nattempts to find at least one endpoint (limit) both in terms of m (or their m ) and a (M1)\nP ( m − a ≤ X ≤ m + a ) = 0.3\n0.360034... + a\narccos d x x = 0.3 (A1) ∫\n0.360034... − a\nma +\nNote: Award (A1) for arccos d x x = 0.3 . ∫\nma −\n0.360034... + a\n− − 2 x arccos x 1 x\n0.360034... − a\nattempts to solve their equation for a (M1)\nNote: The above (M1) is dependent on the first (M1).\na = 0.124861...\na = 0.125 A1\nMETHOD 2\na\n∫ arccos x − 0.360034... d x ( = 0.3 ) (M1)(A1)\n− a\nNote:Only award (M1) if at least one limit has been translated\ncorrectly.\na\n( ) Note: Award (M1)(A1) for ∫ arccos x − m d x = 0.3 .\n− a\nattempts to solve their equation for a (M1)\na = 0.124861...\na = 0.125 A1\nMETHOD 3\nEITHER\na\n( ) ( ) ∫ arccos x + 0.360034... d x = 0.3 (M1)(A1)\n− a\nNote:Only award (M1) if at least one limit has been translated\ncorrectly.\na\nNote: Award (M1)(A1) for arccos ( x + m ) d x ( = 0.3 ) . ∫\n− a\nOR\n20.360034... ( ) + a\n( − ) ( = ) ∫ arccos x 0.360034... d x 0.3 (M1)(A1)\n20.360034... ( ) − a\nNote:Only award (M1) if at least one limit has been translated\ncorrectly.\n2 ma +\n( ) ( ) Note: Award (M1)(A1) for ∫ arccos x − m d x = 0.3 .\n2 ma −\nTHEN\nattempts to solve their equation for a (M1)\nNote: The above (M1) is dependent on the first (M1).\na = 0.124861...\na = 0.125 A1\n[4 marks]\nTotal [6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nA continuous random variable $X$ has a probability density function given by\n$f(x) = \\begin{cases} \\arccos x & 0 \\le x \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$\nThe median of this distribution is $m$.\n(a) Determine the value of $m$. [2]\n(b) Given that $P(|X - m| \\le a) = 0.3$, determine the value of $a$. [4]",
+   "review_note": "integration of arccos usually done on GDC; 5.11 for definite-integral setup"
+  },
+  {
+   "id": "math-2021-N-P2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 8]\nConsider the curve C given by y=x-xy ln (xy) where x>0 , y>0 .\ny d Show that d xy\n(a) + + y ( 1 + ln ( xy ) )= 1 .\b [3]\nd x d x\n(b) Hence find the equation of the tangent to C at the point where x=1 .\b [5]",
+   "ms_text": "8. (a) METHOD 1\nattempts to differentiate implicitly including at least one application of the product rule (M1)\nu d y v d y 1\n= v = ln ( xy ) , d = + , d = + u xy , x y x y\nd x d x d x d x xy\nd y xy d y d y\n( ) =− 1 x + y + x + y ln xy A1\nd x xy d x d x\n( ( ) ) Note: Award (M1)A1 for implicitly differentiating y = x 1 − y ln xy and obtaining\nd y xy d y d y\n=− 1 x + y + x ln ( xy ) + y ln ( xy ) .\nd x xy d x d x\nd y d y d y\n=− 1 x + y + x + y ln ( xy )\nd x d x d x\nd y d y\n=− 1 x + y ( 1ln + ( xy ) ) A1\nd x d x\nd y d y\n+ x + y ( 1ln + ( xy ) ) = 1 AG\nd x d x\nMETHOD 2\ny = x − xy ln x − xy ln y\nattempts to differentiate implicitly including at least one application of the product rule (M1)\nd y xy d y xyy d d y\n=− 1 + x + y ln x − + x + y ln y A1\nd x x d x y d x d x\nor equivalent to the above, for example\nd y d y d y d y\n=− 1 x ln x + ( 1ln + xy ) − y ln y + x ln y +\nd x d x d x d x\nd y d y\n=− 1 x ( ln x + ln y + 1 ) − y ( ln x + ln y + 1 ) A1\nd x d x\nor equivalent to the above, for example\nd y d y\n( ( ) ) ( ( ) ) =− 1 x ln xy + 1 − y ln xy + 1\nd x d x\nd y d y\n+ x + y ( 1ln + ( xy ) ) = 1 AG\nd x d x\nMETHOD 3\nattempt to differentiate implicitly including at least one application of the product rule M1\nd u d y x v d y\nu = x ln ( xy ) = = ( ) + + , d = , v y , ln xy x y\nd x d x xy d x d x\nd y d y xy d y\n( ) ( ) =− 1 x ln xy + y ln xy + x + y A1\nd x d x xy d x\nd y d y\n( ( ) ) ( ( ) ) =− 1 x ln xy + 1 − y ln xy + 1 A1\nd x d x\nd y d y\n+ x + y ( 1ln + ( xy ) ) = 1 AG\nd x d x\nMETHOD 4\ny and attempts to find d\nlets w = xy where y = x − w ln w M1\nd x\nd y d w d w d w\n=− 1 + ln w =− 1 ( 1ln + w ) A1\nd x d x d x d x\nd w d y\n= + x y A1\nd x d x\nd y d y d y d y\n=− 1 x + y + x + y ln ( xy ) =− 1 x + y ( 1ln + ( xy ) )\nd x d x d x d x\nd y d y\n+ + ( + ( ) ) = x y 1ln xy 1 AG\nd x d x\n[3 marks]\n(b) METHOD 1\nsubstitutes x = 1 into y = x − xy ln ( xy ) (M1)\ny =− 1 y ln y ⇒ y = 1 A1\nd y d y\n( ) substitutes x = 1 and their non-zerovalue of yinto + x + y 1ln + ( xy ) = 1 (M1)\nd x d x\nd y d y\n2 = 0 = 0 A1\nd x d x\ny = equation of the tangent is 1 A1\nMETHOD 2\nd y d y\nx = + + ( + ( ) ) = substitutes 1 into x y 1ln xy 1 (M1)\nd x d x\nd y d y\n+ + ( + () ) = y 1ln y 1\nd x d x\nEITHER\n− 1 y d y d y\ncorrectly substitutes ln y = into + + y ( 1ln + () y ) = 1 A1\ny d x d x\nd y 1 d y\n( ) 1 + = 0 ⇒ = 0 y = 1 A1\nd x y d x\nOR\nd y d y\ncorrectly substitutes y + y ln y = into 1 + + y ( 1ln + () y ) = 1 A1\nd x d x\nd y d y\n( ) ( ) 2 + ln y = 0 ⇒ = 0 y = 1 A1\nd x d x\nTHEN\nsubstitutes x = 1 into y = x − xy ln ( xy ) (M1)\ny =− 1 y ln y ⇒ y = 1\ny = equation of the tangent is 1 A1\n[5 marks]\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 8]\nConsider the curve $C$ given by $y = x - xy\\ln(xy)$ where $x > 0$, $y > 0$.\n(a) Show that $\\frac{dy}{dx} + \\left(x\\frac{dy}{dx} + y\\right)\\left(1 + \\ln(xy)\\right) = 1$. [3]\n(b) Hence find the equation of the tangent to $C$ at the point where $x = 1$. [5]"
+  },
+  {
+   "id": "math-2021-N-P2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 15]\nThe height of water, in metres, in Dungeness harbour is modelled by the\nfunction H (t)=asin(b (t-c))+d , where t is the number of hours after midnight,\nand a , b , c and d are constants, where a>0 , b>0 and c>0 .\nThe following graph shows the height of the water for 13 hours, starting at midnight.\nH(t)\n10\n5\nt\n0 5 10\nThe first high tide occurs at 04:30 and the next high tide occurs 12 hours later. Throughout\nthe day, the height of the water fluctuates between 2.2 m and 6.8 m .\nAll heights are given correct to one decimal place.\nShow that b =π (a) .\b [1]\n6\n(b) Find the value of a .\b [2]\n(c) Find the value of d .\b [2]\n(d) Find the smallest possible value of c .\b [3]\n(e) Find the height of the water at 12:00.\b [2]\n(f) Determine the number of hours, over a 24-hour period, for which the tide is higher\nthan 5 metres.\b [3]\nA fisherman notes that the water height at nearby Folkestone harbour follows the same\nsinusoidal pattern as that of Dungeness harbour, with the exception that high tides (and low\ntides) occur 50 minutes earlier than at Dungeness.\n(g) Find a suitable equation that may be used to model the tidal height of water at\nFolkestone harbour.\b [2]",
+   "ms_text": "2π 2π\n9. (a) 12 = OR b = A1\nb 12\nπ\nb = AG\n6\n[1 mark]\n6.8 − 2.2 maxmin −\n(b) a = OR a = (M1)\n2 2\n= 2.3 (m) A1\n[2 marks]\n6.8 + 2.2 maxmin +\n(c) d = OR d = (M1)\n2 2\n= 4.5 (m) A1\n[2 marks]\n(d) METHOD 1\nsubstituting t = 4.5 and H= 6.8 for example into their equation for H (A1)\nπ\n6.8 = 2.3sin ( 4.5 − c ) + 4.5\n6\nattempt to solve their equation (M1)\nc = 1.5 A1\nMETHOD 2\nusing horizontal translation of 12\n(M1)\n4\n4.5 −= c 3 (A1)\nc = 1.5 A1\nMETHOD 3\nπ π\nHt ′ () = ( 2.3 ) cos ( t − c ) (A1)\n6 6\nattempts to solve their H′ ( 4.5 ) = 0 for c (M1)\nπ π\n( 2.3 ) cos ( 4.5 − c ) = 0\n6 6\nc = 1.5 A1\n[3 marks]\n(e) attempt to find H when t = 12 or t = 0 , graphically or algebraically (M1)\nH= 2.87365...\nH= 2.87m ( ) A1\n[2 marks]\ncontinue…\nπ\n= ( − ) + (f) attempt to solve 5 2.3sin 1.5 4.5 (M1)\n6t\ntimes are t = 1.91852... and t = 7.08147... , ( t = 13.9185..., t = 19.0814... ) (A1)\ntotal time is 2 × ( 7.081...1.919... − )\n10.3258...\n= 10.3 (hours) A1\nNote: Accept10.\n[3 marks]\n(g) METHOD 1\n11\nsubstitutes t = and H= 6.8 into their equation for H and attempts to solve for c (M1)\n3\nπ11 2\n6.8 = 2.3sin − c + 4.5 ⇒ c =\n6 3 3\nπ 2\nHt () = 2.3sin t − + 4.5 A1\n6 3\nMETHOD 2\nuses their horizontal translation 12 = 3\n(M1)\n4\n11 2\n− c = 3 ⇒ c =\n3 3\nπ 2\nHt () = 2.3sin t − + 4.5 A1\n6 3\n[2 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.7",
+    "2.10",
+    "2.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 15]\nThe height of water, in metres, in Dungeness harbour is modelled by the function $H(t) = a\\sin(b(t-c)) + d$, where $t$ is the number of hours after midnight, and $a$, $b$, $c$ and $d$ are constants, where $a > 0$, $b > 0$ and $c > 0$.\nThe following graph shows the height of the water for 13 hours, starting at midnight.\n[Graph: $H(t)$ against $t$ for $0 \\le t \\le 13$; sinusoidal curve starting near 3.4, rising to a maximum near $t = 4.5$, falling to a minimum near $t = 10.5$, then rising; vertical axis marked 5 and 10, horizontal axis marked 5 and 10]\nThe first high tide occurs at 04:30 and the next high tide occurs 12 hours later. Throughout the day, the height of the water fluctuates between $2.2$ m and $6.8$ m.\nAll heights are given correct to one decimal place.\n(a) Show that $b = \\frac{\\pi}{6}$. [1]\n(b) Find the value of $a$. [2]\n(c) Find the value of $d$. [2]\n(d) Find the smallest possible value of $c$. [3]\n(e) Find the height of the water at 12:00. [2]\n(f) Determine the number of hours, over a 24-hour period, for which the tide is higher than 5 metres. [3]\nA fisherman notes that the water height at nearby Folkestone harbour follows the same sinusoidal pattern as that of Dungeness harbour, with the exception that high tides (and low tides) occur 50 minutes earlier than at Dungeness.\n(g) Find a suitable equation that may be used to model the tidal height of water at Folkestone harbour. [2]"
+  },
+  {
+   "id": "math-2021-N-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 18,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 18]\n2 x − x − 12 15\nConsider the function fx () = , x ∈ ϒ , x ≠ .\n2 x − 15 2\n(a) Find the coordinates where the graph of f crosses the\n(i) x-axis;\n(ii) y-axis.\b [3]\n(b) Write down the equation of the vertical asymptote of the graph of f .\b [1]\n(c) The oblique asymptote of the graph of f can be written as y=ax+b where a , b∈⁄ .\nFind the value of a and the value of b .\b [4]\n(d) Sketch the graph of f for -30≤x≤30 , clearly indicating the points of intersection with\neach axis and any asymptotes.\b [3]\n1\n(e) (i) \u0007Express in partial fractions.\nfx()\n3\n1\n(ii) Hence find the exact value of d, expressing your answer as a x ∫\n() fx\n0\nsingle logarithm.\b [7]",
+   "ms_text": "10. (a) (i)\nNote: In part (a), penalise once only, if correct values are given instead of\ncorrect coordinates.\n2 attempts to solve x − x − 12 = 0 (M1)\n( − 3,0 ) and ( 4,0 ) A1\n4\n(ii) A1\n0, 5\n[3 marks]\n15\n(b) x = A1\n2\n15\nx ≠ Note: Award A0 for .\n2\n15\nAward A1 in part (b), if x = is seen on their graph in part (d).\n2\n[1 mark]\n(c) METHOD 1\n2 ( ax + b )( 2 x − 15 ) ≡ x − x − 12\nattempts to expand ( ax + b )( 2 x − 15 ) (M1)\n2 2 2 ax − 15 ax + 2 bx − 15 b ≡ x − x − 12\n1\na = A1\n2\nequates coefficients ofx (M1)\n15\n−= − 1 + 2 b\n2\n13\nb = A1\n4\nx 13\ny = +\n2 4\nMETHOD 2\n2 x − x − 12\nattempts division on M1\n2 x − 15\n13 x +\n+ ... M1\n2 4\n1\na = A1\n2\n13\nb = A1\n4\nx 13\ny = +\n2 4\nMETHOD 3\n1\na = A1\n2\n2 x − x − 12 x c\n≡ + b + M1\n2 x − 15 2 2 x − 15\n( − ) 2 x 15 x\n2 − − ≡ + ( − ) + x x 12 2 x 15 b c\n2\nequates coefficients of x : (M1)\n15\n−= − 1 + 2 b\n2\n13\nb = A1\n4\nx 13\n= + y\n2 4\nMETHOD 4\n2 x − x − 12\nattempts division on M1\n− 2 x 15\n13 x\n− 2 12\nx − x − 12 x 2\n= +\n2 x − 15 2 2 x − 15\n1\na = A1\n2\n13 x\n− 12\n13 2\n= + ... M1\n2 x − 15 4\n13\nb = A1\n4\nx 13\ny = +\n2 4\n[4 marks]\n(d)\ntwo branches with approximately correct shape ( for 30 − ≤ x ≤ 30 ) A1\ntheir vertical and oblique asymptotes in approximately correct positions with both branches\nshowing correct asymptotic behaviour to these asymptotes A1\ntheir axes intercepts in approximately the correct positions A1\nNote: Points of intersection with the axes and the equations of asymptotes\nare not required to be labelled.\n[3 marks]\n(e) (i) attempts to split into partial fractions: (M1)\n2 x − 15 A B\n≡ +\n( x + 3 )( x − 4 ) x + 3 x − 4\n2 x − 15 ≡ Ax ( − 4 ) + Bx ( + 3 )\nA = 3 A1\nB = − 1 A1\n3 1\n−\nx + 3 x − 4\n3\n3 1\n− d x (ii) ∫\nx + 3 x − 4\n0\nattempts to integrate and obtains two terms involving ‘ln’ (M1)\n3\n= 3ln x + 3 − ln x − 4 A1\n0\n= 3ln6ln13ln3ln4 − − + A1\n= + ( = + ) 3ln 2 ln 4 ln8 ln 4\n= ln32 ( = 5ln 2 ) A1\nNote: The final A1 is dependent on the previous two A marks.\n[7 marks]\nTotal [18 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "2.13",
+    "1.11",
+    "5.15",
+    "1.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 18]\nConsider the function $f(x) = \\frac{x^2 - x - 12}{2x - 15}$, $x \\in \\mathbb{R}$, $x \\ne \\frac{15}{2}$.\n(a) Find the coordinates where the graph of $f$ crosses the\n(i) $x$-axis;\n(ii) $y$-axis. [3]\n(b) Write down the equation of the vertical asymptote of the graph of $f$. [1]\n(c) The oblique asymptote of the graph of $f$ can be written as $y = ax + b$ where $a, b \\in \\mathbb{Q}$.\nFind the value of $a$ and the value of $b$. [4]\n(d) Sketch the graph of $f$ for $-30 \\le x \\le 30$, clearly indicating the points of intersection with each axis and any asymptotes. [3]\n(e) (i) Express $\\frac{1}{f(x)}$ in partial fractions.\n(ii) Hence find the exact value of $\\int_0^3 \\frac{1}{f(x)}\\,dx$, expressing your answer as a single logarithm. [7]"
+  },
+  {
+   "id": "math-2021-N-P2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 21]\nThree points A (3 , 0 , 0) , B (0 , -2 , 0) and C (1 , 1 , -7) lie on the plane ∏1.\n→ →\n(a) (i) \u0007Find the vector AB and the vector AC .\n(ii) Hence find the equation of ∏1, expressing your answer in the\nform ax+by+cz=d , where a , b , c , d∈′ . [7]\nPlane ∏2 has equation 3x-y +2z=2 .\n(b) The line L is the intersection of ∏1 and ∏2. Verify that the vector equation of L can be\n0 1\nwritten as r =− 2 + λ 1 . [2]\n0 − 1\n(c) The plane ∏3 is given by 2x-2z=3 . The line L and the plane ∏3 intersect at the point P .\nShow that at the point P , λ =3\n(i) .\n4\n(ii) Hence find the coordinates of P . [3]\n(d) The point B (0 , -2 , 0) lies on L .\n(i) Find the reflection of the point B in the plane ∏3.\n(ii) Hence find the vector equation of the line formed when L is reflected in the\nplane ∏3. [9]",
+   "ms_text": "→ →\n11. (a) (i) attempts to find either AB or AC (M1)\n− − 3 2\n→ →\nAB =− 2 and AC 1 A1 =\n− 0 7\n(ii) METHOD 1\n→ →\nattempts to find AB AC × (M1)\n14\n→ →\nABAC × =− 21 A1\n− 7\nEITHER\nequation of plane is of the form 14 x − 21 y − 7 z = d ( 2 x − 3 y − z = d ) (A1)\nsubstitutes a valid point e.g ( ) 3,0,0 to obtain a value ofd M1\nd = 42 ( d = 6 )\nOR\nattempts to use ⋅ rn = an ⋅ (M1)\n14 3 14 14\nr ⋅− 21 = 0 ⋅− 21 r ⋅− 21 = 42 A1\n− 7 0 − 7 − 7\n2 3 2 2\nr ⋅− 3 = 0 ⋅− 3 r ⋅− 3 = 6\n− 1 0 − 1 − 1\nTHEN\n− − = ( − − = ) 14 x 21 y 7 z 42 2 x 3 y z 6 A1\nMETHOD 2\n− − x 3 3 2\nequation of plane is of the form y = 0 + s − 2 + t 1 A1\n− z 0 0 7\nattempts to form equations for ,, xyz in terms of their parameters (M1)\nx =− 33 s − 2 t , y = − 2 s +, t z = − 7 t\nA1\neliminates at least one of their parameters (M1)\nfor example, 2 x − 3 y = 6 − 7 t ( ⇒ 2 x − 3 y = 6 + z )\n2 x − 3 y − z = 6 A1\n[7 marks]\n(b) METHOD 1\n0 1\nsubstitutes r =− 2 + λ 1 into their Π and Π(given) (M1)\n1 2\n0 − 1\n( )( ) ( ) ( ) Π: 2 λ − 3 −+ 2 λ −− λ = 6 and Π: 3 λ −−+ 2 λ + 2 − λ = 2 A1\n1 2\nNote: Award (M1)A0 for correct verification using a specific value of λ.\n0 1\nso the vector equation of L can be written as r =− 2 + λ 1 AG\n0 − 1\nMETHOD 2\nEITHER\n2 3\nattempts to find − 3 ×− 1 M1\n− 1 2\n− 7\n=− 7\n7\nOR\n2 1 3 1\n( ) ( ) − 3 ⋅ 1 = 2 −+ 31 = 0 and − 1 ⋅ 1 = 312 −− = 0 M1\n− 1 − 1 2 − 1\nTHEN\nsubstitutes ( 0,2,0 − ) Π and Π into\n1 2\nΠ: () 20 − 3 ( − 2 )() − 0 = 6 and Π: ()( 30 −− 2 ) + 20 () = 2 A1\n1 2\n0 1\nso the vector equation of L can be written as r =− 2 + λ 1 AG\n− 0 1\nMETHOD 3\nattempts to solve 2 x − 3 y − z = 6 and 3 x − y + 2 z = 2 (M1)\nfor example, x = − λ , y = −− 2 λ , z = λ A1\nx = z = Note: Award A1 for substituting 0 (or y = − or 2 0 ) into Π and Π\n1 2\nand solving simultaneously. For example, solving 3 − y − z = 6 and\n−+ y 2 z = 2 to obtain y = − 2 and z = 0 .\n0 1\nso the vector equation of L can be written as r =− 2 + λ 1 AG\n0 − 1\n[2 marks]\nΠ (c) (i) substitutes the equation of L into the equation of (M1)\n3\n2 λ + 2 λ =⇒ 3 4 λ = 3 A1\n3\nλ= AG\n4\n5 3\nPhas coordinates 3\n(ii) , − , − A1\n4 4 4\n[3 marks]\n2\nΠ (d) (i) normal to is n = 0 (A1)\n3\n− 2\nNote:May be seen or used anywhere.\npassing through ( ) considers the line normal to Π B0,2,0 − (M1)\n3\n0 2\nr =− 2 + μ 0 A1\n0 − 2\nEITHER\nfinding the point on the normal line that intersects Π\n3\nattempts to solve simultaneously with plane 2 x − 2 z = 3 (M1)\n4 μ + 4 μ = 3\n3\nμ= A1\n8\n3 point is 3\n,2, − −\n4 4\nOR\n3 2 μ 2\n4\n− 2 −− 5 ⋅ 0 = 0 (M1)\n4\n3 − 2 μ − − 2\n4\n3 3\nμ − + μ − = 4 4 0\n2 2\n3\nμ= A1\n8\nOR\nattempts to find the equation of the plane parallel to Π containing B′( x − z = 3 ) and\n3\nsolve simultaneously with L (M1)\n′ ′ 2 μ + 2 μ = 3\n3\nμ′= A1\n4\nTHEN\nso, another point on the reflected line is given by\n0 2\n3\nr =− 2 + 0 (A1)\n4\n− 0 2\n3 3\n⇒ B ′ ,2, − − A1\n2 2\n(ii) EITHER\nattempts to find the direction vector of the reflected line using theirP and B′(M1)\n3\n4 →\n3 PB ′=−\n4\n− 3\n4\nOR\nattempts to find their direction vector of the reflected line using a vector approach (M1)\n1 1\n→ → → 3 3\n′ ′ PB = PBBB + = − 1 + 0\n4 2\n− 1 − 1\nTHEN\n3 3\n2 4\n3 r =− 2 + λ − (or equivalent) A1\n4\n− 3 − 3\n2 4\nx\n=\nNote:Award A0 for either ‘ r = ’ or ‘ y ’ not stated. Award A0 for ‘ L′= ’.\nz\n[9 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.17",
+    "3.16",
+    "3.14",
+    "3.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 21]\nThree points $\\mathrm{A}(3, 0, 0)$, $\\mathrm{B}(0, -2, 0)$ and $\\mathrm{C}(1, 1, -7)$ lie on the plane $\\Pi_1$.\n(a) (i) Find the vector $\\overrightarrow{\\mathrm{AB}}$ and the vector $\\overrightarrow{\\mathrm{AC}}$.\n(ii) Hence find the equation of $\\Pi_1$, expressing your answer in the form $ax + by + cz = d$, where $a, b, c, d \\in \\mathbb{Z}$. [7]\nPlane $\\Pi_2$ has equation $3x - y + 2z = 2$.\n(b) The line $L$ is the intersection of $\\Pi_1$ and $\\Pi_2$. Verify that the vector equation of $L$ can be written as $\\boldsymbol{r} = \\begin{pmatrix}0\\\\-2\\\\0\\end{pmatrix} + \\lambda\\begin{pmatrix}1\\\\1\\\\-1\\end{pmatrix}$. [2]\n(c) The plane $\\Pi_3$ is given by $2x - 2z = 3$. The line $L$ and the plane $\\Pi_3$ intersect at the point P.\n(i) Show that at the point P, $\\lambda = \\frac{3}{4}$.\n(ii) Hence find the coordinates of P. [3]\n(d) The point $\\mathrm{B}(0, -2, 0)$ lies on $L$.\n(i) Find the reflection of the point B in the plane $\\Pi_3$.\n(ii) Hence find the vector equation of the line formed when $L$ is reflected in the plane $\\Pi_3$. [9]"
+  }
+ ],
+ "status": "done"
+}

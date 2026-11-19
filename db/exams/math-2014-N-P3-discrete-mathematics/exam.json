@@ -1,0 +1,129 @@
+{
+ "exam_id": "math-2014-N-P3-discrete-mathematics",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2014,
+ "session": "November",
+ "tz": null,
+ "paper": "3",
+ "option": "Discrete mathematics",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2014 November Examination Session/Mathematics_paper_3_Discrete_mathematics_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2014 November Examination Session/Mathematics_paper_3_Discrete_mathematics_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8814-7207; code N14/5/MATHL/HP3/ENG/TZ0/DM; marks sum matches paper total 60",
+ "qp_pages": 4,
+ "questions": [
+  {
+   "id": "math-2014-N-P3-discrete-mathematics-q1",
+   "num": "1",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 14]\n5 + Let fn () = n − n , n∈\n′.\n(a) Find the values of f () 3, f () 4 and f () 5. [2]\n(b) Use the Euclidean algorithm to find\n(i) gcd ( f (), 3 f () 4 );\n(ii) gcd ( f (), 4 f () 5 ). [4]\n(c) Explain why fn () is always exactly divisible by 5. [1]\n(d) By factorizing fn () explain why it is always exactly divisible by 6. [4]\n(e) Determine the values of n for which fn () is exactly divisible by 60. [3]",
+   "ms_text": "1. (a) 240, 1020, 3120 A2\nNote: Award A2 for three correct answers, A1 for two correct answers.\n[2 marks]\n(b) (i) 1020 = 240 × 4 + 60 (M1)\n= × 240 60 4\ngcd (1020,240) = 60 A1\n= ×+ (ii) 3120 10203 60 (M1)\n1020 = 6017 ×\ngcd (1020, 3120) = 60 A1\n[4 marks]\nNote: Must be done by Euclid’s algorithm.\np = (c) by Fermat’s little theorem with 5 R1\n5 n ≡ n (mod 5)\nso 5 divides fn ()\n[1 mark]\n(d) fn () = nn ( 2 − 1)( n 2 + 1) = nn ( − 1)( n + 1)( n 2 + 1) (A1)A1\nn − 1, n , n + are consecutive integers and so contain a multiple 1\nof 2 and 3 R1R1\nNote: Award R1 for justification of 2 and R1 for justification of 3.\nAnd therefore fn is a multiple of 6. () AG\n[4 marks]\n(e) from (c) and (d) fnis always divisible by 30 () R1\nconsidering the factorization, it is divisible by 60 when n is an odd number A1\nor when n is a multiple of 4 A1\nNote: Accept answers such as when n is not congruent to 2 (mod 4).\n[3 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.1",
+    "6.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 14]\nLet $f(n) = n^5 - n$, $n \\in \\mathbb{Z}^+$.\n(a) Find the values of $f(3)$, $f(4)$ and $f(5)$. [2]\n(b) Use the Euclidean algorithm to find\n(i) $\\gcd(f(3), f(4))$;\n(ii) $\\gcd(f(4), f(5))$. [4]\n(c) Explain why $f(n)$ is always exactly divisible by 5. [1]\n(d) By factorizing $f(n)$ explain why it is always exactly divisible by 6. [4]\n(e) Determine the values of $n$ for which $f(n)$ is exactly divisible by 60. [3]"
+  },
+  {
+   "id": "math-2014-N-P3-discrete-mathematics-q2",
+   "num": "2",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 10]\n(a) Use the pigeon-hole principle to prove that for any simple graph that has two or more\nvertices and in which every vertex is connected to at least one other vertex, there must be\nat least two vertices with the same degree. [4]\nSeventeen people attend a meeting.\n(b) Each person shakes hands with at least one other person and no-one shakes hands with\nthe same person more than once. Use the result from part (a) to show that there must be\nat least two people who shake hands with the same number of people. [4]\n(c) Explain why each person cannot have shaken hands with exactly nine other people. [2]",
+   "ms_text": "2. (a) let there be v vertices in the graph; because the graph is simple the degree\nof each vertex is ≤ v − 1 A1\nthe degree of each vertex is 1 ≥ A1\nv − possible values for the degree of each vertex there are therefore 1 A1\ngiven there are v vertices by the pigeon-hole principle there must be at\nleast two with the same degree R1\n[4 marks]\n(b) consider a graph in which the people at the meeting are represented by\nthe vertices and two vertices are connected if the two people shake hands M1\nthe graph is simple as no-one shakes hands with the same person more\nthan once (nor can someone shake hands with themselves) A1\nevery vertex is connected to at least one other vertex as everyone shakes\nat least one hand A1\nthe degree of each vertex is the number of handshakes so by the proof\nabove there must be at least two who shake the same number of hands R1\n[4 marks]\nNote: Accept answers starting afresh rather than quoting part (a).\n(c) (the handshaking lemma tells us that) the sum of the degrees of the\nvertices must be an even number A1\nthe degree of each vertex would be 9 and 917 × is an odd number (giving\na contradiction) A1\n[2 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.12",
+    "6.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 10]\n(a) Use the pigeon-hole principle to prove that for any simple graph that has two or more vertices and in which every vertex is connected to at least one other vertex, there must be at least two vertices with the same degree. [4]\nSeventeen people attend a meeting.\n(b) Each person shakes hands with at least one other person and no-one shakes hands with the same person more than once. Use the result from part (a) to show that there must be at least two people who shake hands with the same number of people. [4]\n(c) Explain why each person cannot have shaken hands with exactly nine other people. [2]"
+  },
+  {
+   "id": "math-2014-N-P3-discrete-mathematics-q3",
+   "num": "3",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 13]\nThe following graph represents the cost in dollars of travelling by bus between 10 towns in a\nparticular province.\nE\n11 9\nF B 13 6 I\n10 11\n7 5\n4\n18\nA J\n7 8 D G\n11 9\n5 5\nC\nH\n(a) Use Dijkstra’s algorithm to find the cheapest route between A and J, and state its cost. [7]\nFor the remainder of the question you may find the cheapest route between any two towns\nby inspection.\nIt is given that the total cost of travelling on all the roads without repeating any is $139.\nA tourist decides to go over all the roads at least once, starting and finishing at town A.\n(b) Find the lowest possible cost of his journey, stating clearly which roads need to be\ntravelled more than once. You must fully justify your answer. [6]",
+   "ms_text": "3. (a) M1A1A1A1\nA B C D E F G H I J\nA 0 10 11 18\nB 10 17 21 23\nC 11\nD 17 24 22\nE 21 30\nH 27 22\nF 23 29\nG 24 28\nJ 27\n(M1 for an attempt at Dijkstra’s)\n(A1 for value of D = 17 )\n(A1 for value of H = 22 )\n(A1 for value of G = 24 )\nroute is ABDHJ (M1)A1\ncost is $27 A1\n[7 marks]\nNote: Accept other layouts.\n(b) there are 4 odd vertices A, D, F and J A1\nthese can be joined up in 3 ways with the following extra costs\nAD and FJ 17 + 13 = 30\n+ = AF and DJ 2310 33\nAJ and DF 2712 + = 39 M1A1A1\nNote: Award M1 for an attempt to find different routes.\nAward A1A1 for correct values for all three costs A1 for one correct.\nneed to repeat AB, BD, FG and GJ A1\ntotal cost is 139 + 30 = $169 A1\n[6 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.9",
+    "6.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 13]\nThe following graph represents the cost in dollars of travelling by bus between 10 towns in a particular province.\n[Diagram: weighted graph on towns A–J with edges AB 10, AD 18, AC 11, CD 9, BD 7, BE 11, BF 13, EI 9, FI 6, FG 5, GI 4, IJ 11, DG 7, GJ 8, DH 5, HJ 5]\n(a) Use Dijkstra's algorithm to find the cheapest route between A and J, and state its cost. [7]\nFor the remainder of the question you may find the cheapest route between any two towns by inspection.\nIt is given that the total cost of travelling on all the roads without repeating any is \\$139. A tourist decides to go over all the roads at least once, starting and finishing at town A.\n(b) Find the lowest possible cost of his journey, stating clearly which roads need to be travelled more than once. You must fully justify your answer. [6]"
+  },
+  {
+   "id": "math-2014-N-P3-discrete-mathematics-q4",
+   "num": "4",
+   "section": null,
+   "marks": 10,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 10]\n(a) Solve, by any method, the following system of linear congruences\nx ≡9 (mod 11 )\nx ≡1 (mod) . 5 [3]\n(b) Find the remainder when 4182 is divided by 11 . [4]\n(c) Using your answers to parts (a) and (b) find the remainder when 4182 is divided by 55 . [3]",
+   "ms_text": "4. (a) METHOD 1\nlisting 9, 20, 31,Κ and 1, 6,11,16, 21, 26, 31,Κ M1\none solution is 31 (A1)\nby the Chinese remainder theorem the full solution is\nx ≡ 31(mod 55) A1 N2\nMETHOD 2\nx ≡ 9(mod11) ⇒ x = 911 + t M1\n⇒ 911 + t ≡ 1(mod5)\n⇒≡ t 2(mod5) A1\n⇒ t = 2 + 5 s\n⇒ x = 911(2 + + 5) s\n⇒ x = 3155 + s ( ⇒ x ≡ 31mod55 ( ) ) A1\nNote: Accept other methods eg formula, Diophantine equation.\nNote: Accept other equivalent answers e.g. -79(mod55).\n[3 marks]\n82 82 (b) 41 ≡ 8(mod11)\n10 10 by Fermat’s little theorem 8 ≡ 1(mod11) (or 41 ≡ 1(mod11) ) M1\n82 2 8 ≡ 8(mod11) M1\n≡ 9(mod11) (A1)\nremainder is 9 A1\n[4 marks]\nNote: Accept simplifications done without Fermat.\n82 82 (c) 41 ≡ 1 ≡ 1(mod5) A1\n82 so 41 has a remainder 1 when divided by 5 and a remainder 9 when\ndivided by 11 R1\nhence by part (a) the remainder is 31 A1\n[3 marks]\nTotal [10 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.4",
+    "6.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 10]\n(a) Solve, by any method, the following system of linear congruences\n$x \\equiv 9 \\pmod{11}$\n$x \\equiv 1 \\pmod{5}$. [3]\n(b) Find the remainder when $41^{82}$ is divided by 11. [4]\n(c) Using your answers to parts (a) and (b) find the remainder when $41^{82}$ is divided by 55. [3]"
+  },
+  {
+   "id": "math-2014-N-P3-discrete-mathematics-q5",
+   "num": "5",
+   "section": null,
+   "marks": 13,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 13]\nAndy and Roger are playing tennis with the rule that if one of them wins a game when serving\nthen he carries on serving, and if he loses then the other player takes over the serve.\nThe probability Andy wins a game when serving is 1 and the probability he wins a game when\n2\nnot serving is 1\n. Andy serves in the first game. Let un denote the probability that Andy wins\n4\nthe nth game.\n[1] (a) State the value of u1 .\n(b) Show that un satisfies the recurrence relation\n1 1\nu = u + . [4]\nn n − 1\n4 4\n(c) Solve this recurrence relation to find the probability that Andy wins the nth game. [6]\n(d) After they have played many games, Pat comes to watch. Use your answer from part (c)\nto estimate the probability that Andy will win the game they are playing when Pat arrives. [2]",
+   "ms_text": "1\n5. (a) A1\n2\n[1 mark]\nth (b) Andy could win the nth game by winning the n − 1 and then winning the\nth nth game or by losing the n − 1 and then winning the nth (M1)\n1\nu = u + 1 (1 − u ) A1A1M1\nn n − 1 n − 1\n2 4\nNote: Award A1 for each term and M1 for addition of two probabilities.\n1 1\nu = + AG u−\nn n 1\n4 4\n[4 marks]\nn\n1\n(c) general solution is nu = A + pn () (M1)\n4\n= for a particular solution try pn () b (M1)\n1 1\n= + b b (A1)\n4 4\n1\nb =\n3\nn\n1 1 A\nhence nu = + (A1)\n4 3\n1\nusing u= M1\n1\n2\n1 1 1 2\n= A + ⇒ A =\n2 4 3 3\nn\n21 1\nhence nu = + A1\n34 3\nNote: Accept other valid methods.\n[6 marks]\n1\n(d) for large n nu≈ (M1)A1\n3\n[2 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "4"
+   ],
+   "subtopics": [
+    "6.10",
+    "4.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 13]\nAndy and Roger are playing tennis with the rule that if one of them wins a game when serving then he carries on serving, and if he loses then the other player takes over the serve.\nThe probability Andy wins a game when serving is $\\frac{1}{2}$ and the probability he wins a game when not serving is $\\frac{1}{4}$. Andy serves in the first game. Let $u_n$ denote the probability that Andy wins the $n^{th}$ game.\n(a) State the value of $u_1$. [1]\n(b) Show that $u_n$ satisfies the recurrence relation\n$u_n = \\frac{1}{4}u_{n-1} + \\frac{1}{4}$. [4]\n(c) Solve this recurrence relation to find the probability that Andy wins the $n^{th}$ game. [6]\n(d) After they have played many games, Pat comes to watch. Use your answer from part (c) to estimate the probability that Andy will win the game they are playing when Pat arrives. [2]"
+  }
+ ],
+ "status": "done"
+}

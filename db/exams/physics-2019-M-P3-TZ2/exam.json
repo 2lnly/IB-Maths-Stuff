@@ -1,0 +1,496 @@
+{
+ "exam_id": "physics-2019-M-P3-TZ2",
+ "subject": "physics",
+ "syllabus": "physics-legacy",
+ "year": 2019,
+ "session": "May",
+ "tz": "TZ2",
+ "paper": "3",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Physics HL/Paper 3/2019_May_Physics__TZ2/2019_May_Physics_paper_3__TZ2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/IB PAST PAPERS - YEAR/Physics HL/Paper 3/2019_May_Physics__TZ2/2019_May_Physics_paper_3__TZ2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); paper number 2219-6515; code M19/4/PHYSI/HP3/ENG/TZ2/XX",
+ "questions": [
+  {
+   "id": "physics-2019-M-P3-TZ2-q1",
+   "num": "1",
+   "section": null,
+   "marks": 6,
+   "qtype": "data",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1.  A student investigates the electromotive force (emf) ε and internal resistance r of a cell.\nε\nr\nA\nV\nThe current I and the terminal potential difference V are measured.\nFor this circuit V = ε - Ir .\nThe table shows the data collected by the student. The uncertainties for each measurement\nare shown.\nI / mA  V / V\n± 1 mA  ± 0.02 V\n97  1.55\n193  1.50\n304  1.45\n395  1.40\n487  1.35\n598  1.30\nThe graph shows the data plotted.\n1.70\n1.60\n1.50\nV / V\n1.40\n1.30\n1.20\n0  100  200  300  400  500  600\nI / mA\n(a)  The student has plotted error bars for the potential difference. Outline why no error bars\nare shown for the current.  [1]\n(b)  Determine, using the graph, the emf of the cell including the uncertainty for this value.\nGive your answer to the correct number of significant figures.  [3]\n(c)  Outline, without calculation, how the internal resistance can be determined from this graph. [2]",
+   "ms_text": "1.  a  ∆ is too small to be shown/seen  I\nOR  1\nError bar of negligible size compared to error bar in V ✔\n1.  b  evidence that ε can be determined from the y-intercept of the line of\nbest-fit or lines of min and max gradient  ✔\nstates ε = 1.59  OR 1.60 OR 1.61 V  « »  ✔  3\nstates uncertainty in ε  is 0.02 V  « »  OR 0.03«V» ✔\n1.  c  determine the gradient «of the line of best-fit» ✔\nr is the negative of this gradient ✔\n2",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "B"
+   ],
+   "subtopics": [
+    "X.1",
+    "B.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. A student investigates the electromotive force (emf) $\\varepsilon$ and internal resistance $r$ of a cell.\n[Diagram: cell of emf $\\varepsilon$ with internal resistance $r$ (dashed box) connected in series with an ammeter A and a variable resistor; a voltmeter V is connected across the cell terminals]\nThe current $I$ and the terminal potential difference $V$ are measured.\nFor this circuit $V = \\varepsilon - Ir$.\nThe table shows the data collected by the student. The uncertainties for each measurement are shown.\n$I$ / mA ($\\pm 1$ mA) | $V$ / V ($\\pm 0.02$ V)\n97 | 1.55\n193 | 1.50\n304 | 1.45\n395 | 1.40\n487 | 1.35\n598 | 1.30\nThe graph shows the data plotted.\n[Graph: V / V (1.20 to 1.70) against I / mA (0 to 600); six data points with vertical error bars of ±0.02 V, decreasing linearly from (97, 1.55) to (598, 1.30)]\n(a) The student has plotted error bars for the potential difference. Outline why no error bars are shown for the current. [1]\n(b) Determine, using the graph, the emf of the cell including the uncertainty for this value. Give your answer to the correct number of significant figures. [3]\n(c) Outline, without calculation, how the internal resistance can be determined from this graph. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q2",
+   "num": "2",
+   "section": null,
+   "marks": 5,
+   "qtype": "data",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2.  An experiment is conducted to determine how the fundamental frequency  f  of a vibrating wire\nvaries with the tension T in the wire.\nThe data are shown in the graph, the uncertainty in the tension is not shown.\n400\n300\nf / Hz\n200\n100\n0\n0  5  10  15\nT / N\n(a)  Draw the line of best fit for the data.  [1]\n(b)  It is proposed that the frequency of oscillation is given by  f 2 = kT where k is a constant.\n(i)  Determine the fundamental SI unit for k.  [1]\n(ii)  Write down a pair of quantities that, when plotted, enable the relationship  f 2 = kT\nto be verified.  [1]\n(iii)  Describe the key features of the graph in (b)(ii) if it is to support this relationship.  [2]",
+   "ms_text": "2.  a  Any curve that passes through ALL the error bars ✔\n1\n2.  b  i  kg–1 m–1 ✔  1\n2.  b  ii  f 2  AND T\nOR\nf  AND T\nOR  1\nlog f AND log T\nOR\nln f AND ln T ✔\n2.  b  iii  graph would be a straight line/constant gradient/linear ✔\npassing through the origin ✔\n2",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.1",
+    "C.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. An experiment is conducted to determine how the fundamental frequency $f$ of a vibrating wire varies with the tension $T$ in the wire.\nThe data are shown in the graph, the uncertainty in the tension is not shown.\n[Graph: f / Hz (0 to 400) against T / N (0 to 15); six data points with vertical error bars at T = 2.5, 5, 7.5, 10, 12.5, 15 N, with f rising from about 90 Hz to about 305 Hz, increasing at a decreasing rate]\n(a) Draw the line of best fit for the data. [1]\n(b) It is proposed that the frequency of oscillation is given by $f^2 = kT$ where $k$ is a constant.\n(i) Determine the fundamental SI unit for $k$. [1]\n(ii) Write down a pair of quantities that, when plotted, enable the relationship $f^2 = kT$ to be verified. [1]\n(iii) Describe the key features of the graph in (b)(ii) if it is to support this relationship. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q3",
+   "num": "3",
+   "section": null,
+   "marks": 4,
+   "qtype": "data",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3.  A student uses a Young’s double-slit apparatus to determine the wavelength of light emitted by a\nmonochromatic source. A portion of the interference pattern is observed on a screen.\ns\nThe distance D from the double slits to the screen is measured using a ruler with a smallest\nscale division of 1 mm.\nThe fringe separation s is measured with uncertainty ± 0.1 mm.\nThe slit separation d has negligible uncertainty.\nThe wavelength is calculated using the relationship  λ =  sd  .\nD\n(a)  When d = 0.200 mm, s = 0.9 mm and D = 280 mm, determine the percentage uncertainty\nin the wavelength.  [2]\n(b)  Explain how the student could use this apparatus to obtain a more reliable value for λ.  [2]",
+   "ms_text": "3.  a  Evidence of ∆s  AND ∆D  used ✔\ns  D\n«add fractional/% uncertainties»\nobtains 11 % (or 0.11)  OR  10 % (or 0.1) ✔  2\n3.  b  ALTERNATIVE 1:  Do not accept answers which suggest using different\nmeasure the combined width for several fringes  apparatus.\nOR\nrepeat measurements ✓\ntake the average\nOR\nso the «percentage» uncertainties are reduced ✓  2\nALTERNATIVE 2:\nincrease D «hence s»\nOR\nDecrease d ✓\nso the «percentage» uncertainties are reduced ✓",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.1",
+    "C.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. A student uses a Young's double-slit apparatus to determine the wavelength of light emitted by a monochromatic source. A portion of the interference pattern is observed on a screen.\n[Diagram: a row of bright fringes; the separation between adjacent fringes is labelled $s$]\nThe distance $D$ from the double slits to the screen is measured using a ruler with a smallest scale division of 1 mm.\nThe fringe separation $s$ is measured with uncertainty $\\pm 0.1$ mm.\nThe slit separation $d$ has negligible uncertainty.\nThe wavelength is calculated using the relationship $\\lambda = \\frac{sd}{D}$.\n(a) When $d = 0.200$ mm, $s = 0.9$ mm and $D = 280$ mm, determine the percentage uncertainty in the wavelength. [2]\n(b) Explain how the student could use this apparatus to obtain a more reliable value for $\\lambda$. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4.  (a)  The speed of a spaceship is measured to be 0.50c by an observer at rest in the Earth’s\nreference frame.\n(i)  Define an inertial reference frame.  [1]\n(ii)  As the spaceship passes the Earth it emits a flash of light that travels in the same\ndirection as the spaceship with speed c as measured by an observer on the\nspaceship. Calculate, according to the Galilean transformation, the speed of the\nlight in the Earth’s reference frame.  [1]\n(b)  Use your answer to (a)(ii) to describe the paradigm shift that Einstein’s theory of\nspecial relativity produced.  [2]",
+   "ms_text": "4.  a  i  a coordinate system which is not accelerating/has constant velocity/Newtons 1st law  OWTTE\napplies ✔  Both “inertial” and “reference  frame” need to be defined  1\n4.  a  ii  1.5c ✔  1\n4.  b  c is the same in all frames\nOR\nc is maximum velocity possible ✔\nvelocity addition frame dependent ✔  2 max\nlength/time/mass/fields relative measurements ✔\nNewtonian/Galilean mechanics valid only at low speed ✔",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. (a) The speed of a spaceship is measured to be $0.50c$ by an observer at rest in the Earth's reference frame.\n(i) Define an inertial reference frame. [1]\n(ii) As the spaceship passes the Earth it emits a flash of light that travels in the same direction as the spaceship with speed $c$ as measured by an observer on the spaceship. Calculate, according to the Galilean transformation, the speed of the light in the Earth's reference frame. [1]\n(b) Use your answer to (a)(ii) to describe the paradigm shift that Einstein's theory of special relativity produced. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5.  Two protons are moving to the right with the same speed v with respect to an observer at rest\nin the laboratory frame.\nv\nv\n(a)  Outline why there is an attractive magnetic force on each proton in the laboratory frame.  [1]\n(b)  Explain why there is no magnetic force on each proton in its own rest frame.  [1]\n(c)  Explain why there must be a resultant repulsive force on the protons in all reference\nframes.  [2]",
+   "ms_text": "5.  a  moving charges give rise to magnetic fields\nOR  1\nmagnetic attraction between parallel currents ✔\n5.  b  protons at rest produce no magnetic field\nOR  1\nmention of  F  =  Bev  where B and/or  v  = 0  ✔\n5.  c  there is a repulsive electric/electrostatic force «in both frames» ✔\nthe attractive magnetic force «in the lab frame» is smaller than the repulsive electric force ✔\nin all frames the net force is repulsive as all must agree that protons move apart  2 max\nOR\nmention of the first postulate of relativity ✔",
+   "mcq_answer": null,
+   "topics": [
+    "A",
+    "D"
+   ],
+   "subtopics": [
+    "A.5",
+    "D.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. Two protons are moving to the right with the same speed $v$ with respect to an observer at rest in the laboratory frame.\n[Diagram: two protons (+), one above the other, each with an arrow to the right labelled $v$]\n(a) Outline why there is an attractive magnetic force on each proton in the laboratory frame. [1]\n(b) Explain why there is no magnetic force on each proton in its own rest frame. [1]\n(c) Explain why there must be a resultant repulsive force on the protons in all reference frames. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6.  A train of proper length 85 m moves with speed 0.60c relative to a stationary observer on\na platform.\n(a)  Define proper length.  [1]\n(b)  In the reference frame of the train a ball travels with speed 0.50c from the back to the\nfront of the train, as the train passes the platform. Calculate the time taken for the ball\nto reach the front of the train in\n(i)  the reference frame of the train.  [1]\n(ii)  the reference frame of the platform.  [3]",
+   "ms_text": "6.  a  the length measured «in a reference frame» where the object is at rest ✔  1\n6.  b  i  ∆=  t  «  85  =  »  5.7 10  ×  −  7  « »  ✔  s\n0.5  ×  3 10  ×  8  1\n6.  b  ii  ALTERNATIVE 1:\n«for  v  = 0.6  c »γ = 1.25   ✔\n«uses LT with ∆’t  from 6(b)(i)»\n∆=  t  1.25 5.7 10    ×  −  7  +  0.6  ×  85    ✔\n    3 10  ×  8    \n9.2 10  ×  −  7  « »  OR  s  9.3  ×  10  −  7  « »  ✔  s\nALTERNATIVE 2:\nv of ball is 0.846c for platform ✔\nlength of train is 68m for platform ✔  3\ntime  =  «  68  =  »  9.2 10  ×  −  7  « »  OR  s  9.3  ×  10  −  7  « »  ✔  s\n0.846  c  −  0.6  c\nALTERNATIVE 3:\n«γ = 1.154  for ball in train, so proper time for ball»\n5.7 10  ×  −  7\n∆  t  0  =  «  1.154  =  »  4.9 10  ×  −  7  « »  ✔  s\nv of ball is 0.846c for platform ORγ = 1.876  ✔\n∆=  t  «  γ  ∆  t  0  =  1.876  ×  4.9 10  ×  −  7  =  »  9.2 10  ×  −  7  « » OR  s  9.3  ×  10  −  7  « »  ✔  s",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. A train of proper length 85 m moves with speed $0.60c$ relative to a stationary observer on a platform.\n(a) Define proper length. [1]\n(b) In the reference frame of the train a ball travels with speed $0.50c$ from the back to the front of the train, as the train passes the platform. Calculate the time taken for the ball to reach the front of the train in\n(i) the reference frame of the train. [1]\n(ii) the reference frame of the platform. [3]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7.  A spaceship moves away from the Earth in the direction of a nearby planet. An observer on\nthe Earth determines the planet is 4 ly from the Earth. The spacetime diagram for the Earth’s\nreference frame shows the worldline of the spaceship. Assume the clock on the Earth, the\nclock on the planet, and the clock on the spaceship were all synchronized when ct = 0.\nspaceship worldline\n10\nct / ly  5\n0\n0  5  10\nx / ly\n(a)  Show, using the spacetime diagram, that the speed of the spaceship relative to the\nEarth is 0.80c.  [1]\n(b)  Label, with the letter E, the event of the spaceship going past the planet.  [1]\n(c)  Determine, according to an observer on the spaceship as the spaceship passes the planet,\n(i)  the time shown by the clock on the spaceship.  [2]\n(ii)  the time shown by the clock on the planet.  [1]\n(d)  On passing the planet a probe containing the spaceship’s clock and an astronaut is\nsent back to Earth at a speed of 0.80c relative to Earth. Suggest, for this situation,\nhow the twin paradox arises and how it is resolved.  [2]",
+   "ms_text": "7.  a  Evidence of finding 1/gradient such as:  Answer 0.8c given, so check coordinate\nvalues carefully.\nuse of any correct coordinate pair to find v - eg 4  or 6\n5  7.5  1\nOR\nmeasures tan of angle between ct and ct’ as about 39° AND  tan 39  ≈  0.8  ✔\n7.  b  E labelled at x = 4 ,  ct  = 5  ✔  Check that E is placed on the worldline  of S.\n1\n7.  c  i  γ =  5  =  1.67  ✔  Allow solutions involving the use of\n3  Lorentz equations.\nt  ′ =  5  =  3 years\nγ\nOR  2\nct  ’  =  3ly  ✔\n7.  c  ii  t  = 5  years OR  ct  = 5ly  ✔  1\n7.  d  On return to Earth the astronaut will have aged less than Earthlings «by 4 years»  OWTTE\nOR\nTreat as neutral any mention of both the\ntime passed on Earth is greater than time passed for the astronaut «by 4  Earth and astronaut seeing each other’s\nyears» ✓  clock as running slow.  2\nastronaut accelerated/changed frames but Earth did not\nOR\nfor astronaut the Earth clock jumps forward at turn- around ✔",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. A spaceship moves away from the Earth in the direction of a nearby planet. An observer on the Earth determines the planet is 4 ly from the Earth. The spacetime diagram for the Earth's reference frame shows the worldline of the spaceship. Assume the clock on the Earth, the clock on the planet, and the clock on the spaceship were all synchronized when $ct = 0$.\n[Spacetime diagram: ct / ly (0 to 10) against x / ly (0 to 10); straight spaceship worldline from the origin with gradient ct/x = 1.25, e.g. passing through (4, 5)]\n(a) Show, using the spacetime diagram, that the speed of the spaceship relative to the Earth is $0.80c$. [1]\n(b) Label, with the letter E, the event of the spaceship going past the planet. [1]\n(c) Determine, according to an observer on the spaceship as the spaceship passes the planet,\n(i) the time shown by the clock on the spaceship. [2]\n(ii) the time shown by the clock on the planet. [1]\n(d) On passing the planet a probe containing the spaceship's clock and an astronaut is sent back to Earth at a speed of $0.80c$ relative to Earth. Suggest, for this situation, how the twin paradox arises and how it is resolved. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8.  A proton has a total energy 1050 MeV after being accelerated from rest through a\npotential difference V.\n(a)  Define total energy.  [1]\n(b)  (i)  Determine the momentum of the proton.  [1]\n(ii)  Determine the speed of the proton.  [2]\n(iii)  Calculate the potential difference V.  [1]",
+   "ms_text": "8.  a  total energy is the sum of the rest energy and the kinetic energy ✔  1\n8.  b  i  «  p c  2  2  =  1050  2  −  938 therefore  2  »  p  =  472  «  MeVc »  −  1  ✔  1\n8.  b  ii  γ =  1050  =  1.12  ✔\n938\nv  = 0.45  c\nOR  2\nV  =  1.35  ×  10  8  «  ms  −  1  »  ✔\n8.  b  iii  V  = 112 MV  «  »  ✔  1",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. A proton has a total energy 1050 MeV after being accelerated from rest through a potential difference $V$.\n(a) Define total energy. [1]\n(b) (i) Determine the momentum of the proton. [1]\n(ii) Determine the speed of the proton. [2]\n(iii) Calculate the potential difference $V$. [1]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9.  A rocket is accelerating upwards at 9.8 ms-2 in deep space. A photon of energy 14.4 keV is\nemitted upwards from the bottom of the rocket and travels to a detector in the tip of the rocket\n52.0 m above.\ndetector\n52.0 m\nphoton\n(a)  Explain why a change in frequency is expected for the photon detected at the top\nof the rocket.  [3]\n(b)  Calculate the frequency change.  [2]",
+   "ms_text": "9.  a  ALTERNATIVE 1\ndetector accelerates/moves away from point of photon emission ✔\nso Doppler effect / redshift ✔\nso  f  decreases ✔\n3\nALTERNATIVE 2\nequivalent to stationary rocket on earth’s surface ✔\nphotons lose «gravitational» energy as they move upwards ✔\nh f  OR  f decreases ✔\n9.  b  «  Using  E  =  hf  »  f  =  14.4 10  ×  3  ×  1.6 10  ×  −  19  =  3.48 10  ×  18  «  Hz  »  ✔\n6.63 10  ×  −  34\n«  ∆=  f  f  g h  ∆  »\nc  2\n2\n∆=  f  3.48 10  ×  18  9.81 52  ×  =  1.97 10  ×  4  «  Hz  »  ✔\n(  3 10  ×  8  )  2",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. A rocket is accelerating upwards at $9.8\\ \\text{m s}^{-2}$ in deep space. A photon of energy 14.4 keV is emitted upwards from the bottom of the rocket and travels to a detector in the tip of the rocket 52.0 m above.\n[Diagram: rocket with a photon emitted at the bottom and a detector at the tip, 52.0 m above]\n(a) Explain why a change in frequency is expected for the photon detected at the top of the rocket. [3]\n(b) Calculate the frequency change. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10.  A uniform ladder of weight 50.0 N and length 4.00 m is placed against a frictionless wall\nmaking an angle of 60.0° with the ground.\nladder\nwall\nground  60.0°\n(a)  Outline why the normal force acting on the ladder at the point of contact with the wall is\nequal to the frictional force F between the ladder and the ground.  [1]\n(b)  Calculate F.  [2]\n(c)  The coefficient of friction between the ladder and the ground is 0.400. Determine whether\nthe ladder will slip.  [2]",
+   "ms_text": "10.  a  «translational equilibrium demands that the»  Equality of forces is given, look for reason why.\nresultant force in the horizontal direction must be zero✔  «hence  1\nN  W  =  F »\n10.  b  «clockwise moments  =  anticlockwise moments»\n50  ×  2cos60  =  N  W  ×  4sin60  ✔\n«  N  =  F  =  50  ×  2cos60  »\nW  4sin60\nF  = 14.4 N  « »  ✔  2\n10.  c  maximum friction force =  «  0.4  ×  50N  »  =  20 N  « »  ✔\n14.4  <  20  AND so will not slip ✔  2",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.4",
+    "A.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. A uniform ladder of weight 50.0 N and length 4.00 m is placed against a frictionless wall making an angle of $60.0^\\circ$ with the ground.\n[Diagram: ladder leaning against a vertical wall, making $60.0^\\circ$ with the horizontal ground]\n(a) Outline why the normal force acting on the ladder at the point of contact with the wall is equal to the frictional force $F$ between the ladder and the ground. [1]\n(b) Calculate $F$. [2]\n(c) The coefficient of friction between the ladder and the ground is 0.400. Determine whether the ladder will slip. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11.  The moment of inertia of a solid sphere is  I  =  2  2  where m is the mass of the sphere and r\nis the radius.  5 mr\n(a)  Show that the total kinetic energy Ek of the sphere when it rolls, without slipping,\nat speed v is\nE  =  7  mv  2  .  [2]\nK  10\n(b)  A solid sphere of mass 1.5 kg is rolling, without slipping, on a horizontal surface with\na speed of 0.50 m s-1. The sphere then rolls, without slipping, down a ramp to reach a\nhorizontal surface that is 45 cm lower.\n0.50 m s−1\n45 cm\nCalculate the speed of the sphere at the bottom of the ramp.  [3]",
+   "ms_text": "11.  a  E  k  =  E  linear +  k  E rotational  k  Answer is given in the question so check working is correct at each\nstage.\nOR\nEk  =  1  mv  2  +  1  Iω  2  ✔\n2  2  2\n1  1  2    v    2\n=  2  mv  2  +  2  ×  5  mr  2  ×    r      ✔\n«  =  7  2  »\n10 mv\n11.  b  Initial  E  =  7  ×  1.50  ×  0.5  2  «  =  0.26J  » ✔  Other solution methods are possible.\nK  10\nFinal  E  K  =  0.26  +  1.5  ×  9.81 0.45  ×  «  =  6.88J  »  ✔\nv  =  «  10  ×  6.88  =  »  2.56 m s  «  −  1  » ✔  3\n7  1.5",
+   "mcq_answer": null,
+   "topics": [
+    "A"
+   ],
+   "subtopics": [
+    "A.4",
+    "A.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. The moment of inertia of a solid sphere is $I = \\frac{2}{5}mr^2$ where $m$ is the mass of the sphere and $r$ is the radius.\n(a) Show that the total kinetic energy $E_K$ of the sphere when it rolls, without slipping, at speed $v$ is $E_K = \\frac{7}{10}mv^2$. [2]\n(b) A solid sphere of mass 1.5 kg is rolling, without slipping, on a horizontal surface with a speed of $0.50\\ \\text{m s}^{-1}$. The sphere then rolls, without slipping, down a ramp to reach a horizontal surface that is 45 cm lower.\n[Diagram: sphere moving at $0.50\\ \\text{m s}^{-1}$ on an upper horizontal surface, a ramp descending 45 cm to a lower horizontal surface]\nCalculate the speed of the sphere at the bottom of the ramp. [3]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12.  A heat pump is modelled by the cycle A→B→C→A.\n4\nA\n3\nP / 10⁵ Pa\n2\n1  B  C\n0\n0  1  2  3  4\nV / 10-3 m3\nThe heat pump transfers thermal energy to the interior of a building during processes\nC→A and A→B and absorbs thermal energy from the environment during process B→C.\nThe working substance is an ideal gas.\n(a)  Show that the work done on the gas for the isothermal process C→A is approximately 440 J. [2]\n(b)  Calculate the\n(i)  change in internal energy of the gas for the process A→B.  [2]\n(ii)  temperature at A if the temperature at B is -40°C.  [1]\n(c)  Determine, using the first law of thermodynamics, the total thermal energy transferred\nto the building during the processes C→A and A→B.  [3]\n(d)  Suggest why this cycle is not a suitable model for a working heat pump.  [2]",
+   "ms_text": "12.  a  evidence of work done equals area between AC and the Volume  Answer 440 J is given, check for valid working.\naxis ✓\nreasonable method to estimate area giving a value 425 to 450 J ✓  Examples of acceptable methods for MP2:\n- estimates 17to18 small squares x 25J per square =\n425 to 450 J.\n- 250 J for area below BC plus a triangle of  2\ndimensions 5 × 3, 3 × 5, or 4 × 4 small square\nedges giving 250J + 187.5 J or 250 J + 200 J.\nAccurate integration value is 438 J - if method seen\naward [2].\n12.  b  i  «use of U = 3  Another method is possible: eg realisation that ΔU\n2 nRT and pV =  nRT to give»  for BC has same magnitude, so ΔU = 3/2 PΔV.\n∆  U  =  3  ∆  pV  ✔\n2  2\n«  =  3  × −  2.5 10  ×  5  ×  1 10  ×  −  3  »\n2\n= −375 J  « »  « »  ✔\n12.  b  ii  T  A  =  816 K  « »  OR  543 °C  «  »  ✔  1\n12.  c  for CA  ∆  U  =  0  so  Q  =  W  = −440 J  « »  ✔  Must use the first law of thermodynamics for MP1  and MP2.\nfor AB  W  = 0  so  Q  =  ∆  U  =−  375 J  « »  ✔\n815 «J» transferred to the building ✔\n3\n12.  d  the temperature changes in the cycle are too large ✔\nthe cycle takes too long «because it contains an isothermal stage» ✔  2 max\nenergy/power output would be too small ✔",
+   "mcq_answer": null,
+   "topics": [
+    "B"
+   ],
+   "subtopics": [
+    "B.4",
+    "B.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. A heat pump is modelled by the cycle A→B→C→A.\n[Graph: P / $10^5$ Pa (0 to 4) against V / $10^{-3}$ m$^3$ (0 to 4); A at (1, 3.5), B at (1, 1), C at (3.5, 1); A→B vertical (constant volume), B→C horizontal (constant pressure), C→A an isothermal curve]\nThe heat pump transfers thermal energy to the interior of a building during processes C→A and A→B and absorbs thermal energy from the environment during process B→C. The working substance is an ideal gas.\n(a) Show that the work done on the gas for the isothermal process C→A is approximately 440 J. [2]\n(b) Calculate the\n(i) change in internal energy of the gas for the process A→B. [2]\n(ii) temperature at A if the temperature at B is $-40^\\circ$C. [1]\n(c) Determine, using the first law of thermodynamics, the total thermal energy transferred to the building during the processes C→A and A→B. [3]\n(d) Suggest why this cycle is not a suitable model for a working heat pump. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13.  A solid sphere is released from rest below the surface of a fluid and begins to fall.\n(a)  Draw and label the forces acting on the sphere at the instant when it is released.  [1]\n(b)  Explain why the sphere will reach a terminal speed.  [2]\n(c)  The weight of the sphere is 6.16 mN and the radius is 5.00 × 10-3 m. For a fluid of\ndensity 8.50 × 102 kg m-3, the terminal speed is found to be 0.280 m s-1. Calculate the\nviscosity of the fluid.  [2]",
+   "ms_text": "13.  a  Both forces must be suitably labeled.\nDo not accept just ‘gravity’\nAward [0] if a third force is shown.\n1\n13.  b  «as the ball falls» there is a drag force ✔\nwhen drag force + buoyant force/upthrust  = «-» weight  OWTTE\nOR  2\nWhen net/resultant force  = 0  ✔  Terminal speed is mentioned in the  question, so no additional marks for\n«terminal speed occurs»  reference to it.\n13.  c  any evidence (numerical or algebraic) of a realisation that\n6  π  η  rv  +  ρ  gV  =  W   ✔\n6.16 10  ×  −  3  −  4.366 10  ×  −  3\n«  η  =  »  2\n6  π  ×  0.005  ×  0.280\nη = 0.0680 Pas  «  »  ✔",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. A solid sphere is released from rest below the surface of a fluid and begins to fall.\n(a) Draw and label the forces acting on the sphere at the instant when it is released. [1]\n[Diagram: a sphere in a box for drawing forces]\n(b) Explain why the sphere will reach a terminal speed. [2]\n(c) The weight of the sphere is 6.16 mN and the radius is $5.00 \\times 10^{-3}$ m. For a fluid of density $8.50 \\times 10^{2}\\ \\text{kg m}^{-3}$, the terminal speed is found to be $0.280\\ \\text{m s}^{-1}$. Calculate the viscosity of the fluid. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q14",
+   "num": "14",
+   "section": "B",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q14.webp",
+   "ms_image": "q14_ms.webp",
+   "text": "14.  A railway track passes over a bridge that has a span of 20 m.\nbridge  train\n25 m  25 m  25 m\n20 m\nThe bridge is subject to a periodic force as a train crosses, this is caused by the weight of the\ntrain acting through the wheels as they pass the centre of the bridge.\nThe wheels of the train are separated by 25 m.\n(a)  Show that, when the speed of the train is 10 m s-1, the frequency of the periodic force\nis 0.4 Hz.  [1]\n(b)  The graph shows the variation of the amplitude of vibration A of the bridge with driving\nfrequency  fD, when the damping of the bridge system is small.\nA\n0  1  2  fD / Hz\nOutline, with reference to the curve, why it is unsafe to drive a train across the bridge\nat 30 m s-1 for this amount of damping.  [2]\n(c)  The damping of the bridge system can be varied. Draw, on the graph, a second curve\nwhen the damping is larger.  [2]",
+   "ms_text": "14.  a  Answer 0.4 Hz is given, check correct working is\ntime period  T  =  «  10  25  »  =  2.5s  AND f = 1  T  shown.\nOR  1\nevidence of f = 10  25 ✔\n14.  b  30 m s–1 corresponds to  f  = 1.2  Hz ✔\nthe amplitude of vibration is a maximum for this speed\nOR  2\ncorresponds to the resonant frequency ✔\n14.  c  similar shape with lower amplitude ✔  Amplitude must be lower than the original, but allow\nthe amplitude to be equal at the extremes.\nmaximum shifted slightly to left of the original curve ✔\n2",
+   "mcq_answer": null,
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "14. A railway track passes over a bridge that has a span of 20 m.\n[Diagram: bridge of span 20 m with a train approaching; train wheels separated by 25 m]\nThe bridge is subject to a periodic force as a train crosses, this is caused by the weight of the train acting through the wheels as they pass the centre of the bridge.\nThe wheels of the train are separated by 25 m.\n(a) Show that, when the speed of the train is $10\\ \\text{m s}^{-1}$, the frequency of the periodic force is 0.4 Hz. [1]\n(b) The graph shows the variation of the amplitude of vibration $A$ of the bridge with driving frequency $f_D$, when the damping of the bridge system is small.\n[Graph: amplitude A against $f_D$ / Hz (0 to about 2.4); resonance curve with peak at about 1.2 Hz]\nOutline, with reference to the curve, why it is unsafe to drive a train across the bridge at $30\\ \\text{m s}^{-1}$ for this amount of damping. [2]\n(c) The damping of the bridge system can be varied. Draw, on the graph, a second curve when the damping is larger. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q15",
+   "num": "15",
+   "section": "C",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q15.webp",
+   "ms_image": "q15_ms.webp",
+   "text": "15.  (a)  A student places an object 5.0 cm from a converging lens of focal length 10.0 cm.\n10 cm  10 cm\n(i)  Construct rays, on the diagram, to locate the image of this object formed by the lens.\nLabel this with the letter I.  [2]\n(ii)  Determine, by calculation, the linear magnification produced in the above diagram.  [2]\n(iii)  Suggest an application for the lens used in this way.  [1]\n(b)  The student mounts the same lens on a ruler and light from a distant object is incident\non the lens.\nlight\n0  2  4  6  8  10  12  14  16  18  20  22  24  26  28  30 (cm)\nlens\n(i)  Identify, with a vertical line, the position of the focussed image. Label the position I. [1]\n(ii)  The image at I is the object for a second converging lens. This second lens forms\na final image at infinity with an overall angular magnification for the two lens\narrangement of 5. Calculate the distance between the two converging lenses.  [2]\n(iii)  A new object is placed a few meters to the left of the original lens. The student\nadjusts spacing of the lenses to form a virtual image at infinity of the new object.\nOutline, without calculation, the required change to the lens separation.  [2]",
+   "ms_text": "15.  a  i  any two correct rays with extensions ✔\nextensions converging to locate an upward virtual image labelled I\nwith position within shaded region around focal point on diagram ✔\n2\n15.  a  ii  v  =  « »  − 10 cm  «  »  ✔\nM  «  = −    v    = −    −  10    »  =  « »  +  2  ✔  2\n    u          5    \n15.  a  iii  magnifying glass\nOR\nSimple microscope  1\nOR\neyepiece lens ✔\n15.  b  i  I labelled at 25 cm mark ✔  1\n15.  b  ii  10\nthe second lens has f  «  =  5  »  =  2 cm  «  »  ✔\n«so for telescope image to be at infinity»\nthe second lens is placed at 27 «cm»  2\nOR\nseparation becomes 12 «cm» ✔\n15.  b  iii  image formed by 10 cm lens is greater than 10 cm/further to the right  Award [1 max] for bald “separation increases”.\nof the first lens ✔  2\nso second lens must also move to the right OR lens separation\nincreases ✔",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "15. (a) A student places an object 5.0 cm from a converging lens of focal length 10.0 cm.\n[Diagram: converging lens on a principal axis with focal points marked 10 cm on each side; upright object arrow 5.0 cm from the lens]\n(i) Construct rays, on the diagram, to locate the image of this object formed by the lens. Label this with the letter I. [2]\n(ii) Determine, by calculation, the linear magnification produced in the above diagram. [2]\n(iii) Suggest an application for the lens used in this way. [1]\n(b) The student mounts the same lens on a ruler and light from a distant object is incident on the lens.\n[Diagram: ruler from 0 to 30 cm with the lens at the 15 cm mark; light incident from the left]\n(i) Identify, with a vertical line, the position of the focussed image. Label the position I. [1]\n(ii) The image at I is the object for a second converging lens. This second lens forms a final image at infinity with an overall angular magnification for the two lens arrangement of 5. Calculate the distance between the two converging lenses. [2]\n(iii) A new object is placed a few meters to the left of the original lens. The student adjusts spacing of the lenses to form a virtual image at infinity of the new object. Outline, without calculation, the required change to the lens separation. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q16",
+   "num": "16",
+   "section": "C",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q16.webp",
+   "ms_image": "q16_ms.webp",
+   "text": "16.  (a)  Outline the differences between step-index and graded-index optic fibres.  [2]\n(b)  The refractive index n of a material is the ratio of the speed of light in a vacuum c, to\nthe speed of light in the material v or  n  =  c  .\nv\nThe speed of light in a vacuum c is 2.99792 × 108 m s-1. The following data are\navailable for the refractive indices of the fibre core for two wavelengths of light:\nWavelength (λ)  Refractive index (n)\n1299 nm  1.45061\n1301 nm  1.45059\n(i)  Determine the difference between the speed of light corresponding to these two\nwavelengths in the core glass.  [2]\n(ii)  An input signal to the fibre consists of wavelengths that range from 1299 nm\nto 1301 nm. The diagram shows the variation of intensity with time of the input signal.\nintensity\ninput signal  later signal  time\nSketch, on the axes, the variation of signal intensity with time after the signal has\ntravelled a long distance along the fibre.  [2]\n(iii)  Explain the shape of the signal you sketched in (b)(ii).  [2]\n(iv)  A signal consists of a series of pulses. Outline how the length of the fibre optic\ncable limits the time between transmission of pulses in a practical system.  [2]",
+   "ms_text": "16.  a  refractive index of step index fibre is constant ✔  For MP2 do not accept vague statements such as  “index increases/varies with distance from centre”.\nrefractive index of graded index fibre decreases with distance from\naxis/centre ✔\ngraded index fibres have less dispersion ✔  2 max\nstep index fibre: path of rays is in a zig-zag manner ✔\ngraded index fibre: path of rays is in curved path ✔\n16.  b  i  c  2.99792 10  ×  8  8  −  1\nv  =  n  =  v  1299  =  1.45061  =  2.06666 10  ×  «  ms  » AND\n2.99792 10  ×  8\nv  =  =  2.06669 10  ×  8  «  ms  −  1  »\n1301  1.45059\nOR\n2\n∆  v  =    1  −  1    ×  2.99792 10  ×  8  ✔\n    1.45059  1.45061    \n∆  v  =  2.85 10  ×  3  OR  3 10  ×  3  «  ms  −  1  » ✔\n16.  b  ii  pulse wider ✔  For MP2 do not accept lower amplitude unless pulse  area is also smaller.  2\npulse area smaller ✔\n16.  b  iii  reference to dispersion\nOR\nreference to time/speed/path difference ✔  2\nreference to power loss/energy loss/scattering/attenuation ✔\n16.  b  iv  longer cables give wider pulses ✔  OWTTE  2\nwhich overlap/interfere if T too small/f too high ✔",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "16. (a) Outline the differences between step-index and graded-index optic fibres. [2]\n(b) The refractive index $n$ of a material is the ratio of the speed of light in a vacuum $c$, to the speed of light in the material $v$ or $n = \\frac{c}{v}$.\nThe speed of light in a vacuum $c$ is $2.99792 \\times 10^{8}\\ \\text{m s}^{-1}$. The following data are available for the refractive indices of the fibre core for two wavelengths of light:\nWavelength ($\\lambda$) | Refractive index ($n$)\n1299 nm | 1.45061\n1301 nm | 1.45059\n(i) Determine the difference between the speed of light corresponding to these two wavelengths in the core glass. [2]\n(ii) An input signal to the fibre consists of wavelengths that range from 1299 nm to 1301 nm. The diagram shows the variation of intensity with time of the input signal.\n[Graph: intensity against time; a rectangular input pulse, with space labelled \"later signal\" for the output]\nSketch, on the axes, the variation of signal intensity with time after the signal has travelled a long distance along the fibre. [2]\n(iii) Explain the shape of the signal you sketched in (b)(ii). [2]\n(iv) A signal consists of a series of pulses. Outline how the length of the fibre optic cable limits the time between transmission of pulses in a practical system. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q17",
+   "num": "17",
+   "section": "C",
+   "marks": 10,
+   "qtype": "long",
+   "image": "q17.webp",
+   "ms_image": "q17_ms.webp",
+   "text": "17.  (a)  An ultrasound A-scan is performed on a patient.\n(i)  State one advantage and one disadvantage of using ultrasound imaging in\nmedicine compared to using x-ray imaging.  [2]\nAdvantage:\nDisadvantage: \t \n(ii)  Suggest why ultrasound gel is necessary during an ultrasound examination.  [2]\n(iii)  Ultrasound of intensity 50 mWm-2 is incident on a muscle. The reflected intensity\nis 10 mWm-2. Calculate the relative intensity level between the reflected and\ntransmitted signals.  [1]\n(b)  The graph shows a received signal incident upon a transducer to produce an A-scan.\nThe density of the soft tissue being examined is approximately 1090 kg m-3.\nsignal strength\n0  3.0  6.0  9.0  12.0  time / 10−5 s\n(i)  The acoustic impedance of soft tissue is 1.65 × 106 kg m-2 s-1. Show that the\nspeed of sound in the soft tissue is approximately 1500 m s–1.  [1]\n(ii)  Estimate, using data from the graph, the depth of the organ represented by\nthe dashed line.  [1]\n(iii)  In the ultrasound scan the frequency is chosen so that the distance between\nthe transducer and the organ is at least 200 ultrasound wavelengths. Estimate,\nbased on your response to (b)(ii), the minimum ultrasound frequency that is used.  [2]\n(iv)  A physician has a range of frequencies available for ultrasound. Comment on the\nuse of higher frequency sound waves in an ultrasound imaging study.  [1]",
+   "ms_text": "17.  a  i  Advantage of ultrasound compared to X-rays:\nno exposure to radiation  Accept any reasonable advantage.\nOR\nrelatively harmless\nOR\ncan be performed in a doctor’s office\nOR\ncan be used to measure blood flow rate\nOR  2\nVideo image possible <<eg heart, foetus>> ✔\nDisadvantage:  Accept any reasonable disadvantage.\nlimited resolution\nOR  Do not allow answers that contradict each other.\ndifficulty imaging lungs or gastrointestinal system\nOR\ndifficulty imaging any body part with a gas in it ✔\n17.  a  ii  gel has similar Z to skin  OWTTE\nOR\ngel prevents acoustic mismatch ✔  2\nwithout gel much ultrasound is reflected at skin\nOR\ngel increases ultrasound transmission ✔\n17.  a  iii    10  \nIL  =  10log  «      40      = −  »  6 dB  «  » ✔\n1\n17.  b  i  c  =  «  Z  =  1.65 10  ×  6  =  »  1514 ms  «  −  1  » ✔  Answer 1500 is given, check working or look for at\nρ  1090kgm  −  3  least 3 significant figures.\n1\n«  ≈  1500ms  −  1  »\n17.  b  ii  4.5  ×  10  −  2  «  m  »✔\n1\n17.  b  iii  4.5 10  ×  −  2\nλ  =  200  =  2.25 10  ×  −  4  « »  ✔  m\nf  =  v  =  1500  =  6.7 10  ×  6  «  Hz  »  ✔\nλ  2.25 10  ×  −  4  2\n17.  b  iv  «compared to lower frequencies, higher frequencies»  OWTTE\nhave better resolution ✔  incorrect comment  Award [0] for contradictory comments or for any\nhave greater attenuation ✔  1 max\nused for superficial structures/organs ✔\nhave greater heating effect ✔",
+   "mcq_answer": null,
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "17. (a) An ultrasound A-scan is performed on a patient.\n(i) State one advantage and one disadvantage of using ultrasound imaging in medicine compared to using x-ray imaging. [2]\nAdvantage:\nDisadvantage:\n(ii) Suggest why ultrasound gel is necessary during an ultrasound examination. [2]\n(iii) Ultrasound of intensity $50\\ \\text{mW m}^{-2}$ is incident on a muscle. The reflected intensity is $10\\ \\text{mW m}^{-2}$. Calculate the relative intensity level between the reflected and transmitted signals. [1]\n(b) The graph shows a received signal incident upon a transducer to produce an A-scan. The density of the soft tissue being examined is approximately $1090\\ \\text{kg m}^{-3}$.\n[Graph: signal strength against time / $10^{-5}$ s; peaks at 3.0, 6.0, 9.0 and 12.0; dashed line through the peak at 6.0]\n(i) The acoustic impedance of soft tissue is $1.65 \\times 10^{6}\\ \\text{kg m}^{-2}\\,\\text{s}^{-1}$. Show that the speed of sound in the soft tissue is approximately $1500\\ \\text{m s}^{-1}$. [1]\n(ii) Estimate, using data from the graph, the depth of the organ represented by the dashed line. [1]\n(iii) In the ultrasound scan the frequency is chosen so that the distance between the transducer and the organ is at least 200 ultrasound wavelengths. Estimate, based on your response to (b)(ii), the minimum ultrasound frequency that is used. [2]\n(iv) A physician has a range of frequencies available for ultrasound. Comment on the use of higher frequency sound waves in an ultrasound imaging study. [1]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q18",
+   "num": "18",
+   "section": "D",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q18.webp",
+   "ms_image": "q18_ms.webp",
+   "text": "18.  (a)  (i)  Outline the processes that produce the change of luminosity with time of\nCepheid variables.  [2]\n(ii)  Explain how Cepheid variables are used to determine distances.  [2]\n(b)  The following data are available for the Cepheid variable δ-Cephei.\nPeak luminosity  = 7.70 × 1029 W\nDistance from Earth  = 273 pc\nPeak wavelength of light\t= 4.29 × 10–7 m\n(i)  Determine the peak apparent brightness of δ-Cephei as observed from Earth.  [2]\n(ii)  Calculate the peak surface temperature of δ-Cephei.  [1]\n(c)  Astronomers claim to know the properties of distant stars. Outline how astronomers\ncan be certain that their measurement methods yield correct information.  [1]",
+   "ms_text": "18.  a  i  Cepheid variables expand and contract  OWTTE\nOR  Do not reward ‘change in\nRadius increases and decreases  luminosity/brightness’ as this is\nOR  given in the question.  2 max\nSurface area increases and decreases ✔  Accept changes in reverse\nSurface temperature decreases then increases✔  order\nSurface becomes transparent then opaque ✔\n18.  a  ii  the «peak» luminosity/actual brightness depends on the period  OWTTE\nOR\nMore luminous Cepheid variables have greater period✔\nmeasurements of apparent brightness allow distance determination  2\nOR\nMention of  b  =  L  ✔\n4  π  d  2\n18.  b  i  d  =  «273  ×  3.26  ×  9.46  ×  10  15  =  » 8.42 10 «m»  ×  18  ✔\nL  7.70 10  ×  29\nb  =  «  4  π  d  2  =  4  π  (  8.42 10  ×  18  )  2  =  »  8.6 10  ×  −  10  «  Wm  −  2  » ✔\n2\n18.  b  ii  2.9 10  ×  −  3\n«  T  =  4.29 10  ×  −  7  »\n1\n= 6800 «K» ✔\n18.  c  Data subject to peer review/checks by others ✔  OWTTE\nCompare light from stars with Earth based light sources ✔  1max\nmeasurements are corroborated by different instruments/methods from different\nteams ✔",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "18. (a) (i) Outline the processes that produce the change of luminosity with time of Cepheid variables. [2]\n(ii) Explain how Cepheid variables are used to determine distances. [2]\n(b) The following data are available for the Cepheid variable $\\delta$-Cephei.\nPeak luminosity $= 7.70 \\times 10^{29}$ W\nDistance from Earth $= 273$ pc\nPeak wavelength of light $= 4.29 \\times 10^{-7}$ m\n(i) Determine the peak apparent brightness of $\\delta$-Cephei as observed from Earth. [2]\n(ii) Calculate the peak surface temperature of $\\delta$-Cephei. [1]\n(c) Astronomers claim to know the properties of distant stars. Outline how astronomers can be certain that their measurement methods yield correct information. [1]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q19",
+   "num": "19",
+   "section": "D",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q19.webp",
+   "ms_image": "q19_ms.webp",
+   "text": "19.  The Hubble constant is 2.3 × 10-18 s-1.\n(a)  (i)  A galaxy is 1.6 × 108 ly from Earth. Show that its recessional speed as measured\nfrom Earth is about 3.5 × 106 m s-1.  [2]\n(ii)  A line in the hydrogen spectrum when measured on Earth has a wavelength\nof 486 nm. Calculate, in nm, the wavelength of the same hydrogen line when\nobserved in the galaxy’s emission spectrum.  [2]\n(b)  Outline how observations of spectra from distant galaxies provide evidence that the\nuniverse is expanding.  [1]",
+   "ms_text": "19.  a  i  d = «1.6   108  ×  ×9.46×1015 =» 1.51×1024    m  «  » ✔  needed for MP2.  Answer given, correct working required or at least 3sf\nv = «H d  2.  0  =  3 10  ×  −18     1.51  ×  ×1024     »  =  3.48  10  ×  6«ms–1» ✔\n2\n19.  a  ii  λ  v  4.86 10  ×  −  7  ×  3.48 10  ×  6\n∆  λ  =  «  c  0  =  3 10  ×  8  =  »  5.64 nm  «  »  ✔\nobserved λ =  «  486  +  5.64  =  »  492 nm  «  » ✔\n2\n19.  b  all distant galaxies exhibit red-shift ✔  OWTTE  1",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.12",
+    "C.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "19. The Hubble constant is $2.3 \\times 10^{-18}\\ \\text{s}^{-1}$.\n(a) (i) A galaxy is $1.6 \\times 10^{8}$ ly from Earth. Show that its recessional speed as measured from Earth is about $3.5 \\times 10^{6}\\ \\text{m s}^{-1}$. [2]\n(ii) A line in the hydrogen spectrum when measured on Earth has a wavelength of 486 nm. Calculate, in nm, the wavelength of the same hydrogen line when observed in the galaxy's emission spectrum. [2]\n(b) Outline how observations of spectra from distant galaxies provide evidence that the universe is expanding. [1]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q20",
+   "num": "20",
+   "section": "D",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q20.webp",
+   "ms_image": "q20_ms.webp",
+   "text": "20.  The Hertzsprung-Russell (HR) diagram shows several star types. The luminosity of the Sun is L.\n1 000 000\n10 000\n100\nluminosity / L\n1\n1\n100\n1\n10000  25 000  10 000  6000  3000\neffective temperature / K\n(a)  Identify, on the HR diagram, the position of the Sun. Label the position S.  [1]\n(b)  Suggest the conditions that will cause the Sun to become a red giant.  [3]\n(c)  Outline why the Sun will maintain a constant radius after it becomes a white dwarf.  [1]\n(d)  During its evolution, the Sun is likely to be a red giant of surface temperature 3000 K\nand luminosity 104 L. Later it is likely to be a white dwarf of surface temperature\n10 000 K and luminosity 10-4 L. Calculate the radius of the Sun as a white dwarf  radius of the Sun as a red giant .  [2]",
+   "ms_text": "20.  a  the letter S should be in the region of the shaded area ✔\n1\n20.  b  the fusion of hydrogen in the core eventually stops  Ignore any mention of the evolution past the red\ngiant stage\nOR\ncore contracts ✔\nthe hydrogen in a layer around the core will begin to fuse ✔\n3max\nSun expands AND the surface cools ✔\nhelium fusion begins in the core ✔\nSun becomes more luminous/brighter✔\n20.  c  electron degeneracy <<prevents further compression>> ✔  Ignore mention of the Chandrasekhar limit.\nAward [0] for answer mentioning radiation pressure  1\nor fusion reactions.\n20.  d  «use of  L  =  σ  AT »  4\n−  4      2  4\n10  =  R  D  ×    10000    ✔\n10  4    R      3000  \n  G      \nR  D  =  9 10  ×  −  6  ✔  2\nR  G",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "20. The Hertzsprung-Russell (HR) diagram shows several star types. The luminosity of the Sun is $L_\\odot$.\n[HR diagram: luminosity / $L_\\odot$ (1/10000 to 1000000, logarithmic) against effective temperature / K (25000, 10000, 6000, 3000, decreasing to the right); main sequence, giant branch and white dwarf region shown as dots]\n(a) Identify, on the HR diagram, the position of the Sun. Label the position S. [1]\n(b) Suggest the conditions that will cause the Sun to become a red giant. [3]\n(c) Outline why the Sun will maintain a constant radius after it becomes a white dwarf. [1]\n(d) During its evolution, the Sun is likely to be a red giant of surface temperature 3000 K and luminosity $10^{4} L_\\odot$. Later it is likely to be a white dwarf of surface temperature 10000 K and luminosity $10^{-4} L_\\odot$. Calculate the $\\frac{\\text{radius of the Sun as a white dwarf}}{\\text{radius of the Sun as a red giant}}$. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q21",
+   "num": "21",
+   "section": "D",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q21.webp",
+   "ms_image": "q21_ms.webp",
+   "text": "21.  (a)  Explain the formation of a type I a supernova which enables the star to be used as a\nstandard candle.  [3]\n(b)  Describe the r process which occurs during type II supernovae nucleosynthesis.  [2]",
+   "ms_text": "21.  a  white dwarf attracts mass from another star ✔  OWTTE\nexplodes/becomes supernova when mass equals/exceeds the\nChandrasekhar limit / 1.4MSUN ✔  3\nhence luminosity of all type I a supernova is the same ✔\n21.  b  «successive» rapid neutron capture ✔  OWTTE\nfaster than «β» decay can occur ✔  2 max\nresults in formation of heavier/neutron rich isotopes ✔",
+   "mcq_answer": null,
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "21. (a) Explain the formation of a type Ia supernova which enables the star to be used as a standard candle. [3]\n(b) Describe the r process which occurs during type II supernovae nucleosynthesis. [2]"
+  },
+  {
+   "id": "physics-2019-M-P3-TZ2-q22",
+   "num": "22",
+   "section": "D",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q22.webp",
+   "ms_image": "q22_ms.webp",
+   "text": "22.  The homogeneous model of the universe predicts that it may be considered as a spherical\ncloud of matter of radius r and uniform density ρ. Consider a particle of mass m at the edge\nof the universe moving with velocity v and obeying Hubble’s law.\nv\nm\nr\n(a)  Justify that the total energy of this particle is  E  =  1  mv  2  −  4  π  G r m  r  2  .  [2]\n2  3\n(b)  At critical density there is zero total energy. Show that the critical density of the universe is:\n3  H  2\nr  c  =  π  0  .  [2]\n8  G\n(c)  The accepted value for the Hubble constant is 2.3 × 10-18 s-1. Estimate the critical density\nof the universe.  [1]",
+   "ms_text": "22.  a  total energy = kinetic energy + potential energy  Answer given so for MP2 look for clear evidence\nOR  that MUniverse (  4  π  r  3  ρ  ) is stated and substituted.\n1  GMm  3\ntotal energy =  2  mv  2  −  r  ✔  2\nsubstitution of  M  =  4  π  r  3  ρ  ✔\n3\n«Hence answer given»\n22.  b  substitutes  H r  for v ✔  0  Answer given, check working carefully.\n«total energy = 0»\n1  mH r  2  2  =  4  π  G r m ✔  ρ  2  2\n2  0  3\n3  H  2\n«hence ρ =  c  8  π  G »  0\n22.  c  9.5   10 –27 « kgm–3» ✔  ×  1",
+   "mcq_answer": null,
+   "topics": [
+    "X",
+    "D"
+   ],
+   "subtopics": [
+    "X.12",
+    "D.1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "22. The homogeneous model of the universe predicts that it may be considered as a spherical cloud of matter of radius $r$ and uniform density $\\rho$. Consider a particle of mass $m$ at the edge of the universe moving with velocity $v$ and obeying Hubble's law.\n[Diagram: sphere of radius $r$ with a particle of mass $m$ on its surface moving outward with velocity $v$]\n(a) Justify that the total energy of this particle is $E = \\frac{1}{2}mv^2 - \\frac{4}{3}\\pi G\\rho r^2 m$. [2]\n(b) At critical density there is zero total energy. Show that the critical density of the universe is: $\\rho_c = \\frac{3H_0^2}{8\\pi G}$. [2]\n(c) The accepted value for the Hubble constant is $2.3 \\times 10^{-18}\\ \\text{s}^{-1}$. Estimate the critical density of the universe. [1]",
+   "review_note": "In the source PDF the Greek rho in (a) and (b) renders as a plain r glyph; transcribed as rho."
+  }
+ ],
+ "qp_pages": 41,
+ "status": "done"
+}

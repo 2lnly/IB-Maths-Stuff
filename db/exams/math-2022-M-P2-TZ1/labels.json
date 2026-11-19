@@ -1,0 +1,146 @@
+{
+ "exam_id": "math-2022-M-P2-TZ1",
+ "questions": {
+  "1": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.3"
+   ],
+   "text_clean": "1. [Maximum mark: 4]\nThe number of hours spent exercising each week by a group of students is shown in the following table.\nExercising time (in hours) | Number of students\n2 | 5\n3 | 1\n4 | 4\n5 | 3\n6 | $x$\nThe median is $4.5$ hours.\n(a) Find the value of $x$. [2]\n(b) Find the standard deviation. [2]",
+   "answer_status": "ok"
+  },
+  "2": {
+   "topics": [
+    "3",
+    "2"
+   ],
+   "subtopics": [
+    "3.4",
+    "3.2",
+    "2.10"
+   ],
+   "text_clean": "2. [Maximum mark: 6]\nA company is designing a new logo. The logo is created by removing two equal segments from a rectangle, as shown in the following diagram.\n[Diagram: shaded rectangle with two circular segments removed from its left and right sides; not to scale]\nThe rectangle measures $5\\text{ cm}$ by $4\\text{ cm}$. The points A and B lie on a circle, with centre O and radius $2\\text{ cm}$, such that $A\\hat{O}B=\\theta$, where $0<\\theta<\\pi$. This information is shown in the following diagram.\n[Diagram: rectangle 4 wide by 5 high; points A and B on left side, O outside to the left with OA = 2 and angle $\\theta$ at O; shaded segments between chord AB and arc on each side; not to scale]\n(a) Find the area of one of the shaded segments in terms of $\\theta$. [3]\n(b) Given that the area of the logo is $13.4\\text{ cm}^2$, find the value of $\\theta$. [3]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "4",
+    "2"
+   ],
+   "subtopics": [
+    "4.7",
+    "2.7"
+   ],
+   "text_clean": "3. [Maximum mark: 6]\nA discrete random variable, $X$, has the following probability distribution:\n$x$ | 0 | 1 | 2 | 3\n$\\mathrm{P}(X=x)$ | 0.41 | $k-0.28$ | 0.46 | $0.29-2k^2$\n(a) Show that $2k^2-k+0.12=0$. [1]\n(b) Find the value of $k$, giving a reason for your answer. [3]\n(c) Hence, find $\\mathrm{E}(X)$. [2]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.9",
+    "5.11"
+   ],
+   "text_clean": "4. [Maximum mark: 7]\nA particle moves along a straight line so that its velocity, $v\\text{ m s}^{-1}$, after $t$ seconds is given by $v(t)=\\mathrm{e}^{\\sin t}+4\\sin t$ for $0\\le t\\le 6$.\n(a) Find the value of $t$ when the particle is at rest. [2]\n(b) Find the acceleration of the particle when it changes direction. [3]\n(c) Find the total distance travelled by the particle. [2]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.11",
+    "4.6"
+   ],
+   "text_clean": "5. [Maximum mark: 6]\nLet $A$ and $B$ be two independent events such that $\\mathrm{P}(A\\cap B')=0.16$ and $\\mathrm{P}(A'\\cap B)=0.36$.\n(a) Given that $\\mathrm{P}(A\\cap B)=x$, find the value of $x$. [4]\n(b) Find $\\mathrm{P}(A'|B')$. [2]",
+   "answer_status": "ok"
+  },
+  "6": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.15",
+    "2.14"
+   ],
+   "text_clean": "6. [Maximum mark: 6]\nConsider the function $f(x)=2^x-\\frac{1}{2^x}$, $x\\in\\mathbb{R}$.\n(a) Show that $f$ is an odd function. [2]\nThe function $g$ is given by $g(x)=\\frac{x-1}{x^2-2x-3}$, where $x\\in\\mathbb{R}$, $x\\ne-1$, $x\\ne3$.\n(b) Solve the inequality $f(x)\\ge g(x)$. [4]",
+   "answer_status": "ok"
+  },
+  "7": {
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.12",
+    "3.13"
+   ],
+   "text_clean": "7. [Maximum mark: 9]\nConsider the vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$ such that $\\boldsymbol{a}=\\begin{pmatrix}12\\\\-5\\end{pmatrix}$ and $|\\boldsymbol{b}|=15$.\n(a) Find the possible range of values for $|\\boldsymbol{a}+\\boldsymbol{b}|$. [2]\nConsider the vector $\\boldsymbol{p}$ such that $\\boldsymbol{p}=\\boldsymbol{a}+\\boldsymbol{b}$.\n(b) Given that $|\\boldsymbol{a}+\\boldsymbol{b}|$ is a minimum, find $\\boldsymbol{p}$. [2]\nConsider the vector $\\boldsymbol{q}$ such that $\\boldsymbol{q}=\\begin{pmatrix}x\\\\y\\end{pmatrix}$, where $x,y\\in\\mathbb{R}^+$.\n(c) Find $\\boldsymbol{q}$ such that $|\\boldsymbol{q}|=|\\boldsymbol{b}|$ and $\\boldsymbol{q}$ is perpendicular to $\\boldsymbol{a}$. [5]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.12",
+    "2.15"
+   ],
+   "text_clean": "8. [Maximum mark: 4]\nConsider the equation $kx^2-(k+3)x+2k+9=0$, where $k\\in\\mathbb{R}$.\n(a) Write down an expression for the product of the roots, in terms of $k$. [1]\n(b) Hence or otherwise, determine the values of $k$ such that the equation has one positive and one negative real root. [3]",
+   "answer_status": "ok"
+  },
+  "9": {
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.10"
+   ],
+   "text_clean": "9. [Maximum mark: 7]\nMary, three female friends, and her brother, Peter, attend the theatre. In the theatre there is a row of 10 empty seats. For the first half of the show, they decide to sit next to each other in this row.\n(a) Find the number of ways these five people can be seated in this row. [3]\nFor the second half of the show, they return to the same row of 10 empty seats. The four girls decide to sit at least one seat apart from Peter. The four girls do not have to sit next to each other.\n(b) Find the number of ways these five people can now be seated in this row. [4]",
+   "answer_status": "ok"
+  },
+  "10": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.17",
+    "5.14",
+    "2.5",
+    "2.3"
+   ],
+   "text_clean": "10. [Maximum mark: 20]\nConsider the function $f(x)=\\sqrt{x^2-1}$, where $1\\le x\\le 2$.\n(a) Sketch the curve $y=f(x)$, clearly indicating the coordinates of the endpoints. [2]\n(b) (i) Show that the inverse function of $f$ is given by $f^{-1}(x)=\\sqrt{x^2+1}$.\n(ii) State the domain and range of $f^{-1}$. [5]\nThe curve $y=f(x)$ is rotated $2\\pi$ about the $y$-axis to form a solid of revolution that is used to model a water container.\n(c) (i) Show that the volume, $V\\text{ m}^3$, of water in the container when it is filled to a height of $h$ metres is given by $V=\\pi\\left(\\frac{1}{3}h^3+h\\right)$.\n(ii) Hence, determine the maximum volume of the container. [5]\nAt $t=0$, the container is empty. Water is then added to the container at a constant rate of $0.4\\text{ m}^3\\text{ s}^{-1}$.\n(d) Find the time it takes to fill the container to its maximum volume. [2]\n(e) Find the rate of change of the height of the water when the container is filled to half its maximum volume. [6]",
+   "answer_status": "ok"
+  },
+  "11": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.9",
+    "4.12",
+    "4.6",
+    "4.11",
+    "4.8"
+   ],
+   "text_clean": "11. [Maximum mark: 16]\nA bakery makes two types of muffins: chocolate muffins and banana muffins.\nThe weights, $C$ grams, of the chocolate muffins are normally distributed with a mean of $62\\text{ g}$ and standard deviation of $2.9\\text{ g}$.\n(a) Find the probability that a randomly selected chocolate muffin weighs less than $61\\text{ g}$. [2]\n(b) In a random selection of 12 chocolate muffins, find the probability that exactly 5 weigh less than $61\\text{ g}$. [2]\nThe weights, $B$ grams, of the banana muffins are normally distributed with a mean of $68\\text{ g}$ and standard deviation of $3.4\\text{ g}$.\nEach day $60\\%$ of the muffins made are chocolate.\nOn a particular day, a muffin is randomly selected from all those made at the bakery.\n(c) (i) Find the probability that the randomly selected muffin weighs less than $61\\text{ g}$.\n(ii) Given that a randomly selected muffin weighs less than $61\\text{ g}$, find the probability that it is chocolate. [7]\nThe machine that makes the chocolate muffins is adjusted so that the mean weight of the chocolate muffins remains the same but their standard deviation changes to $\\sigma\\text{ g}$. The machine that makes the banana muffins is not adjusted. The probability that the weight of a randomly selected muffin from these machines is less than $61\\text{ g}$ is now $0.157$.\n(d) Find the value of $\\sigma$. [5]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.15",
+    "1.11"
+   ],
+   "text_clean": "12. [Maximum mark: 19]\nConsider the differential equation $x^2\\frac{\\mathrm{d}y}{\\mathrm{d}x}=y^2-2x^2$ for $x>0$ and $y>2x$. It is given that $y=3$ when $x=1$.\n(a) Use Euler's method, with a step length of $0.1$, to find an approximate value of $y$ when $x=1.5$. [4]\n(b) Use the substitution $y=vx$ to show that $x\\frac{\\mathrm{d}v}{\\mathrm{d}x}=v^2-v-2$. [3]\n(c) (i) By solving the differential equation, show that $y=\\frac{8x+x^4}{4-x^3}$.\n(ii) Find the actual value of $y$ when $x=1.5$.\n(iii) Using the graph of $y=\\frac{8x+x^4}{4-x^3}$, suggest a reason why the approximation given by Euler's method in part (a) is not a good estimate to the actual value of $y$ at $x=1.5$. [12]",
+   "answer_status": "ok"
+  }
+ }
+}

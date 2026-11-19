@@ -1,0 +1,121 @@
+{
+ "exam_id": "math-1998-M-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "5",
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "5.17",
+    "1.11",
+    "2.12",
+    "5.15"
+   ],
+   "text_clean": "1. [Maximum mark: 18]\n(i) Let $f(x) = x^3 - 3x^2 + 4$.\n(a) Show that $(x-2)$ is a factor of $f(x)$. [1 mark]\n(b) Hence completely factorise $f(x)$. [2 marks]\n(c) Express $\\frac{3}{x^3 - 3x^2 + 4}$ in partial fractions. [4 marks]\n(d) Hence find $\\int \\frac{3}{x^3 - 3x^2 + 4}\\,dx$. [2 marks]\n(ii) (a) Find the coordinates of the points of intersection of the curve $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ with the $x$-axis (where $a$ and $b$ are positive constants). [2 marks]\n(b) Find a simplified expression, in terms of $a$ and $b$, for the volume of the solid formed when the region enclosed by the curve is rotated through $360^\\circ$ about the $x$-axis. [5 marks]\n(c) Describe fully the solid formed when $b = a$. [2 marks]"
+  },
+  "2": {
+   "topics": [
+    "5",
+    "1",
+    "8",
+    "2"
+   ],
+   "subtopics": [
+    "5.7",
+    "5.6",
+    "5.14",
+    "1.13",
+    "8.3",
+    "2.1"
+   ],
+   "text_clean": "2. [Maximum mark: 26]\n(i) A drop of ink is placed on a piece of absorbent paper. The ink makes a circular mark which starts to increase in size. The radius of the circular mark is given by the formula\n$r = \\frac{4(1+t^4)}{8+t^4}$,\nwhere $r$ is the radius in centimetres of the circular mark and $t$ is the time in minutes after the ink is placed on the paper.\n(a) Find $t$ when $r = \\frac{17}{6}$. [2 marks]\n(b) Find a simplified expression, in terms of $t$, for the rate of change of the radius. [3 marks]\n(c) Find the rate of change of the area of the circular mark when $r = \\frac{17}{6}$. [3 marks]\n(d) Find the value of $t$ when the rate of change of the radius starts to decrease, that is, find the value of $t$, $t > 0$, at the point of inflection on the curve $r = \\frac{4(1+t^4)}{8+t^4}$. [5 marks]\n(ii) Note: Answer this part of the question on millimetre square graph paper.\nLet $(x, y)$ be the point in the complex plane representing the complex number $z = x + iy$. The points A and B in the complex plane represent the complex numbers $z_1 = 4 + 5i$ and $z_2 = 1 + i$ respectively.\n(a) Draw $x$ and $y$ axes, to represent the complex plane, from 0 to 6, with 2 cm = 1 unit and plot the points A and B. [2 marks]\n(b) On the same diagram, draw the two loci (lines or curves) defined by\n(i) $\\arg(z - 4 - 5i) = \\arctan(-2)$;\n(ii) $\\arg(z - 1 - i) = \\arctan\\frac{1}{2}$. [4 marks]\n(c) Let $\\theta$ be the angle, at the point of intersection, between the two loci in part (b). Show that $\\theta = \\frac{\\pi}{2}$. [2 marks]\n(d) Hence, or otherwise, describe fully and sketch on your diagram, the locus defined by\n$\\arg(z - 4 - 5i) + \\arg(z - 1 - i) = \\frac{\\pi}{2}$. [5 marks]",
+   "note": "Complex loci: arg lines (1.13) and semicircle locus (8.3)."
+  },
+  "3": {
+   "topics": [
+    "3",
+    "1"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.16",
+    "3.14",
+    "3.17",
+    "1.16"
+   ],
+   "text_clean": "3. [Maximum mark: 18]\nThe equations of the planes $P_1$ and $P_2$ are given by\n$P_1: \\vec{r}\\cdot(3\\vec{i} - \\vec{j} + 2\\vec{k}) = -1$\n$P_2: \\vec{r}\\cdot(-2\\vec{i} + \\vec{j} - 5\\vec{k}) = 4$\nwhere $\\vec{r} = x\\vec{i} + y\\vec{j} + z\\vec{k}$ is the position vector for a point on the plane.\n(a) Let $L$ be the line of intersection of the two planes $P_1$ and $P_2$.\n(i) Show that $L$ is parallel to $3\\vec{i} + 11\\vec{j} + \\vec{k}$. [3 marks]\n(ii) Show that the point A$(0, -1, -1)$ lies on the line $L$. Hence, or otherwise, find the equation of $L$. [4 marks]\nThe equation of a third plane $P_3$ is given by\n$P_3: \\vec{r}\\cdot(-4\\vec{i} + \\vec{j} + \\vec{k}) = c$.\n(b) Determine the value of $c$ for which the three planes, $P_1$, $P_2$ and $P_3$, intersect and deduce whether this value of $c$ gives a point of intersection or a line of intersection. [5 marks]\n(c) For $c = 5$,\n(i) show that plane $P_3$ is parallel to the line $L$; [2 marks]\n(ii) find the distance between the line $L$ and the plane $P_3$. [4 marks]",
+   "note": "Ms crop fixed (previously included Q4(i))."
+  },
+  "4": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.8",
+    "4.9",
+    "4.12",
+    "4.7",
+    "4.6",
+    "4.13"
+   ],
+   "text_clean": "4. [Maximum mark: 18]\n(i) A student travels to school by bus, train or taxi. She rolls an unbiased six-sided die to decide which method of transport to use. If she gets a 1, 2 or 3 on the die, she travels by bus and the probability of being late for school is 10%. If she gets a 4 or 5 on the die, she travels by train and the probability of being late is 5%. If she gets a 6 on the die, she travels by taxi and the probability of being late is 2%. The cost of each method of transport for a journey to school is: bus \\$0.50; train \\$1.80; and taxi \\$9.00. This information is shown in the table below.\nNumber on die | Method of transport | Probability of being late | Cost\n1, 2 or 3 | Bus | 10% | \\$0.50\n4 or 5 | Train | 5% | \\$1.80\n6 | Taxi | 2% | \\$9.00\n(a) Find the probability that the student is late for school on a day chosen at random. [3 marks]\n(b) On a day chosen at random, it is found that the student was late for school. Find the probability that she travelled to school by bus on that day. [3 marks]\n(c) In one year the student makes 180 journeys to school. Find the expected total cost of these 180 journeys. [4 marks]\n(ii) An airline finds that 8% of people who book a seat on an airplane do not turn up for the flight. The airline has an airplane with 300 seats and allows 317 people to book a seat for a flight on this airplane.\nUse the normal approximation to the binomial distribution to find an estimate for the percentage of flights that are over-booked (that is, flights for which more than 300 people turn up). [8 marks]",
+   "note": "Ms crop fixed to include part (i) (previously in Q3 crop) and exclude Q5 start. | audit: normal approximation to binomial: add 4.9 as on 1996-N-P2-q3, 1997-N-P2-q2"
+  },
+  "5": {
+   "topics": [
+    "7",
+    "1"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.6",
+    "7.4",
+    "7.9",
+    "1.L1"
+   ],
+   "text_clean": "5. [Maximum mark: 40]\n(i) Let $T$ be the set containing the six matrices:\n$I = \\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}$; $A = \\begin{pmatrix}0&1&0\\\\0&0&1\\\\1&0&0\\end{pmatrix}$; $B = \\begin{pmatrix}1&0&0\\\\0&0&1\\\\0&1&0\\end{pmatrix}$;\n$C = \\begin{pmatrix}0&0&1\\\\0&1&0\\\\1&0&0\\end{pmatrix}$; $D = \\begin{pmatrix}0&0&1\\\\1&0&0\\\\0&1&0\\end{pmatrix}$; $E = \\begin{pmatrix}0&1&0\\\\1&0&0\\\\0&0&1\\end{pmatrix}$.\n(a) (i) Copy and complete the table below for $(T, \\bullet)$, where $\\bullet$ denotes the operation of matrix multiplication. [4 marks]\n$\\bullet$ | I A B C D E\nI | I A B C D E\nA | A D C E\nB | B E I D\nC | C B A I\nD | D I E\nE | E C . . . I\n(ii) Show that $(T, \\bullet)$ forms a group. [4 marks]\n(iii) Find the order of each element of $(T, \\bullet)$. [3 marks]\n(b) On a set $U = \\{I, R_1, R_2, L, M, N\\}$, the operation $*$, is defined by the following table.\n$*$ | I R1 R2 L M N\nI | I R1 R2 L M N\nR1 | R1 R2 I M N L\nR2 | R2 I R1 N L M\nL | L N M I R2 R1\nM | M L N R1 I R2\nN | N M L R2 R1 I\nBy rearranging the operation table for $(T, \\bullet)$, or otherwise, show that $(T, \\bullet)$ is isomorphic to $(U, *)$ and write down the one-to-one mapping of elements of $T$ onto the elements of $U$ that defines the isomorphism. [6 marks]\n(ii) On a set $S = \\{p, q, r, s, t\\}$, the operation $\\circ$ is defined by the following table.\n$\\circ$ | p q r s t\np | p q r s t\nq | q r s t p\nr | r t p q s\ns | s p t r q\nt | t s q p r\n(a) (i) Find $r \\circ r$. Use this result to explain why $(S, \\circ)$ is not a group. [3 marks]\n(ii) Find $q \\circ (t \\circ s)$ and show that the operation $\\circ$ is not associative on the set $S$. [3 marks]\n(iii) For each element $x \\in S$, find an element $y \\in S$, such that $x \\circ y = p$. Hence show that $(S, \\circ)$ does not satisfy another of the axioms of a group. [4 marks]\n(b) (i) Copy and complete the table below so that $(S, \\#)$ forms a group and show that all the axioms of a group are satisfied. (You may assume that # is associative on the set $S$.) [6 marks]\n# | p q r s t\np | p q r s t\nq | q r\nr | r . . s\ns | s . . . t\nt | t\n(ii) Show that $(S, \\#)$ is cyclic and state which elements are generators. [3 marks]\n(c) Prove that every finite cyclic group is Abelian. [4 marks]",
+   "note": "Section B option: Abstract Algebra. Ms crop fixed to include part (i) (was missing)."
+  },
+  "6": {
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.7",
+    "6.9",
+    "6.8"
+   ],
+   "text_clean": "6. [Maximum mark: 40]\n(i) The connected planar graphs $G_1$, $G_2$ and $G_3$ are shown below.\n[Diagram: three planar graphs — $G_1$ a triangle subdivided into four triangles; $G_2$ a square with a triangle on each side; $G_3$ a pentagram-like star graph]\n(a) Copy and complete the table below for the graphs $G_1$, $G_2$ and $G_3$, where $f$ is the number of faces, $e$ is the number of edges, $v$ is the number of vertices and $k = \\frac{f}{e}$. [2 marks]\nGraph | f | e | v | k\n$G_1$ | 5 | | |\n$G_2$ | | 12 | |\n$G_3$ | | | 10 |\n(b) State Euler's formula for connected planar graphs and verify that $G_1$, $G_2$ and $G_3$ satisfy this formula. [2 marks]\n(c) Let $G$ be a connected planar simple graph, with $v \\geq 3$, show that $k \\leq \\frac{2}{3}$. [4 marks]\n(d) Hence, for a connected planar simple graph $G$ with $v \\geq 3$, show that $e \\leq 3v - 6$. [3 marks]\n(e) Hence show that a connected planar simple graph $G$ must contain at least one vertex whose degree is 5 or less. [4 marks]\n(ii) Let $G_4$ be the simple graph shown in the diagram below.\n[Diagram: graph $G_4$ with vertices $v_1,\\dots,v_6$; outer cycle $v_1v_2v_3v_4v_5$ and centre $v_6$ joined to all others]\nDirac's Theorem states that, for a simple graph $G$ with $v$ vertices: if $v \\geq 3$ and $\\deg(v_i) \\geq \\frac{1}{2}v$, for every vertex $v_i$, then $G$ is Hamiltonian (where $\\deg(v_i)$ is the degree of vertex $v_i$ and $v_i$ is the $i$th vertex, $i = 1$ to $v$).\n(a) Use Dirac's Theorem to show that $G_4$ is Hamiltonian and state a Hamiltonian circuit. [4 marks]\n(b) Let $G_5$ be the simple graph shown in the diagram below.\n[Diagram: graph $G_5$ with vertices $v_1,\\dots,v_7$; rectangle $v_6v_5v_3v_2$ with diagonals meeting at $v_7$, $v_1$ joined to $v_6,v_2$ and $v_4$ joined to $v_5,v_3$]\n(i) For $G_5$, evaluate $\\deg(v_i)$ for each vertex $v_i$, and state whether $G_5$ is Hamiltonian. If $G_5$ is Hamiltonian, write down a Hamiltonian circuit. [4 marks]\n(ii) Determine if $G_5$ is Eulerian. If $G_5$ is Eulerian, write down an Eulerian circuit. [3 marks]\n(iii) For a connected graph $G$, give the definition of a tree and a spanning tree. Draw a spanning tree for $G_5$ that contains vertices of degree 1, 1, 1, 1, 2, 2 and 4, that is, draw a spanning tree with degree sequence (1, 1, 1, 1, 2, 2, 4). [4 marks]\n(iii) The diagram shows the graph of an airport terminal. The vertices represent gates and the weights represent the time (in minutes) it takes to walk between adjacent gates.\n[Diagram: weighted graph with vertices A–J; edges AJ 2.0, AB 2.1, JB 0.5, IJ 1.8, IH 1.6, BC 3.1, CD 3.5, JH 5.5, JD 7.1, JF 11.4, HB 7.8, BF 12.0, BD 6.9, HD 4.9, HG 2.9, HF 7.5, DF 7.3, DE 8.0, GF 4.8, FE 1.5]\nFind the quickest path from A to E. State the path clearly and how long it takes to walk this path. [10 marks]",
+   "note": "Section B option: Graphs and Trees. Edge endpoints of crossing diagonals in (iii) read from markscheme Dijkstra labels."
+  },
+  "7": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L9",
+    "4.L6",
+    "4.12",
+    "4.L5"
+   ],
+   "text_clean": "7. [Maximum mark: 40]\n(i) (a) If a sample of size $n$ is drawn from a population which is normally distributed with a mean of $\\mu$ and a variance of $\\sigma^2$, describe completely how the sample mean is distributed. [2 marks]\nA machine that packages boxes of soap powder is designed to produce boxes which weigh 1 kg. Settings on the machine give boxes with weights that are normally distributed with a mean weight of 1.006 kg and a standard deviation of 0.003 kg. A sample of 10 boxes was taken and weighed with the following results (in kg):\n0.994, 1.000, 1.006, 1.012, 1.006\n1.000, 0.994, 1.000, 1.012, 1.012\n(b) Perform a significance test (at the 5% level) on the sample mean to determine whether the machine settings may have been altered, causing a change in the mean weight. Show all the necessary steps in your solution. [10 marks]\n(c) Assume that a change of settings has taken place and that the variance in the production process remains unchanged.\n(i) Find the 95% confidence interval for the population mean, correct to three decimal places. [3 marks]\n(ii) Estimate the number of underweight boxes that would be sent out in a delivery of 10 000 boxes. [4 marks]\n(ii) A bag contains blue, red, green, yellow and black balls. It is thought that there is an equal number of each colour of ball in the bag. A ball is drawn at random from the bag, its colour is recorded and it is replaced in the bag. In 200 trials the results are as follows.\nColour | Blue | Red | Green | Yellow | Black\nFrequency | 38 | 49 | 35 | 34 | 44\nPerform a test at the 10% level to investigate the claim that there is an equal number of each colour of ball and state your conclusion clearly. [9 marks]\n(iii) Five candidates attended a special training course to improve their job skills. They were tested before the course started and were tested again at the end of the course. The results were as follows.\nCandidate | 1 | 2 | 3 | 4 | 5\nTest Score before course | 107 | 93 | 105 | 96 | 92\nTest Score at end of course | 115 | 94 | 107 | 94 | 98\nAssuming that the test does measure the necessary skills taught in the course, determine whether the course improved the candidates test performance. Show all the necessary steps in your solution. [12 marks]",
+   "note": "Section B option: Statistics."
+  },
+  "8": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L1",
+    "5.11"
+   ],
+   "text_clean": "8. [Maximum mark: 40]\n(i) (a) Write down the trapezium rule estimate $T_n$ of the definite integral $\\int_a^b f(x)\\,dx$ when the interval, $a \\leq x \\leq b$, is divided into $n$ equal subintervals of width $h$. [3 marks]\n(b) Write down an expression for the error, $\\int_a^b f(x)\\,dx - T_n$, and hence deduce that the trapezium rule is exact, whatever the value of $n$, if $f(x) = Ax + B$. [4 marks]\n(c) By considering the integral $\\int_1^{2n+1} x\\,dx$, and the trapezium rule estimate using steps of $h = 2$, show that the sum of the first $n+1$ odd natural numbers is equal to $(n+1)^2$, that is, $1 + 3 + 5 + \\dots + (2n+1) = (n+1)^2$. [10 marks]\n(ii) Determine whether each of the following series converges or diverges. State clearly which test of convergence or divergence you use.\n(a) $\\sum_{k=1}^{\\infty} (-1)^k \\frac{2k}{4k-3}$ [4 marks]\n(b) $\\sum_{k=1}^{\\infty} \\frac{1}{3k^2 - 2k}$ [5 marks]\n(c) $\\sum_{k=1}^{\\infty} \\frac{(k+1)!}{(k+1)^3}$ [6 marks]\n(iii) The first positive solution of the equation $x = \\tan x$ lies inside the interval $\\frac{\\pi}{2} \\leq x \\leq \\frac{3\\pi}{2}$.\nBy writing the equation as $x = \\tan(x - \\pi)$ and transforming it to one involving $\\arctan x$ find the solution correct to six decimal places. [8 marks]",
+   "note": "Section B option: Analysis and Approximation."
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "exam_id": "math-2018-N-P3-calculus",
+ "questions": {
+  "1": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L1",
+    "5.L2"
+   ],
+   "text_clean": "1. [Maximum mark: 10]\n(a) Use the limit comparison test to determine whether the series $\\sum_{n=1}^{\\infty} \\frac{2n+1}{3n^2}$ converges or diverges. [5]\n(b) Show that the series $\\sum_{n=1}^{\\infty} \\frac{n^2}{n!}(x-1)^n$ converges for all $x \\in \\mathbb{R}$. [5]",
+   "note": "audit: (b) ratio test on power series, infinite radius (5.L2)"
+  },
+  "2": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.13",
+    "5.L4"
+   ],
+   "text_clean": "2. [Maximum mark: 8]\n(a) Use L'Hôpital's rule to determine the value of $\\lim_{x \\to 0} \\left( \\frac{e^{-3x^2} + 3\\cos(2x) - 4}{3x^2} \\right)$. [5]\n(b) Hence find $\\lim_{x \\to 0} \\left( \\frac{\\int_0^x \\left( e^{-3t^2} + 3\\cos(2t) - 4 \\right) dt}{\\int_0^x 3t^2 \\, dt} \\right)$. [3]"
+  },
+  "3": {
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L3",
+    "5.14",
+    "5.6"
+   ],
+   "text_clean": "3. [Maximum mark: 14]\nConsider the differential equation\n$(x+2)^2 \\frac{dy}{dx} = (x+1)y$, where $x \\neq -2$\nwith initial condition $y = 2$ when $x = 1$.\n(a) Show that $\\frac{d^3y}{dx^3} = -\\frac{3x+7}{(x+2)^2} \\frac{d^2y}{dx^2}$. [5]\nTaylor polynomials, about $x = 1$, are used to approximate $y(x)$.\n(b) Find the Taylor polynomial of\n(i) degree 2;\n(ii) degree 3. [7]\n(c) Find the difference between the approximated values of $y(1.05)$ that is obtained using the two answers to part (b). [2]"
+  },
+  "4": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.4",
+    "2.7"
+   ],
+   "text_clean": "4. [Maximum mark: 18]\nConsider the differential equation $\\frac{dy}{dx} = 1 + \\frac{y}{x}$, where $x \\neq 0$.\n(a) Given that $y(1) = 1$, use Euler's method with step length $h = 0.25$ to find an approximation for $y(2)$. Give your answer to two significant figures. [4]\n(b) Solve the equation $\\frac{dy}{dx} = 1 + \\frac{y}{x}$ for $y(1) = 1$. [6]\n(c) Find the percentage error when $y(2)$ is approximated by the final rounded value found in part (a). Give your answer to two significant figures. [3]\nConsider the family of curves which satisfy the differential equation $\\frac{dy}{dx} = 1 + \\frac{y}{x}$, where $x \\neq 0$.\n(d) (i) Find the equation of the isocline corresponding to $\\frac{dy}{dx} = k$, where $k \\neq 0, k \\in \\mathbb{R}$.\n(ii) Show that such an isocline can never be a normal to any of the family of curves that satisfy the differential equation. [5]"
+  }
+ }
+}

@@ -1,0 +1,320 @@
+{
+ "exam_id": "math-2010-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2010,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2010 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2010 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8810-7202; code N10/5/MATHL/HP2/ENG/TZ0/XX; marks sum matches expected total 120",
+ "qp_pages": 14,
+ "questions": [
+  {
+   "id": "math-2010-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 6]\nTriangle ABC has AB = 5 cm , BC = 6 cm and area 10 cm2.\n(a) Find sinB�. [2 marks]\n(b) Hence, find the two possible values of AC, giving your answers correct to\ntwo decimal places. [4 marks]",
+   "ms_text": "1\n1. (a) area = × BCABsin × × B (M1)\n2\n1\n10 = ××× 56sin B\n2\n2 ∃\nsin B = A1\n3\n5\n(b) cos B =± ( =± 0.7453...) or B = 41.8... and 138.1... (A1)\n3\n2 = 2 + 2 − × × × AC BC AB 2 BC ABcos B (M1)\n2 2 2 2 AC = 5 + 6 − 256 ××× 0.7453... or 5 + 6 + 256 ××× 0.7453...\n= AC 4.03 or 10.28 A1A1\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.2",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 6]\nTriangle ABC has $\\text{AB} = 5\\text{ cm}$, $\\text{BC} = 6\\text{ cm}$ and area $10\\text{ cm}^2$.\n(a) Find $\\sin\\hat{B}$. [2 marks]\n(b) Hence, find the two possible values of AC, giving your answers correct to two decimal places. [4 marks]"
+  },
+  {
+   "id": "math-2010-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 4]\nThe company Fresh Water produces one-litre bottles of mineral water. The company\nwants to determine the amount of magnesium, in milligrams, in these bottles.\nA random sample of ten bottles is analysed and the results are as follows:\n6 77 26 76 86 97 .,.,.,.,.,.,.,.,.,. 0 6 86 67 17 3 .\nFind unbiased estimates of the mean and variance of the amount of magnesium in the\none-litre bottles.",
+   "ms_text": "+ + + 6.7 7.2 ... 7.3\n2. m = = 6.91 (M1)A1\n10\n2 1(6.7 ( − 2 + + − 2 ) ns−= 6.91) ... (7.3 6.91) (M1)\n1\n9\n0.489\n= = 0.0543 (3 sf) A1\n9\nNote: AwardM1A0for 0.233.\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 4]\nThe company Fresh Water produces one-litre bottles of mineral water. The company wants to determine the amount of magnesium, in milligrams, in these bottles.\nA random sample of ten bottles is analysed and the results are as follows:\n$6.7,\\ 7.2,\\ 6.7,\\ 6.8,\\ 6.9,\\ 7.0,\\ 6.8,\\ 6.6,\\ 7.1,\\ 7.3$.\nFind unbiased estimates of the mean and variance of the amount of magnesium in the one-litre bottles."
+  },
+  {
+   "id": "math-2010-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 5]\nThe weight loss, in kilograms, of people using the slimming regime SLIM3M for\na period of three months is modelled by a random variable X . Experimental data\nshowed that 67 % of the individuals using SLIM3M lost up to five kilograms and\n12.4 % lost at least seven kilograms. Assuming that X follows a normal distribution,\nfind the expected weight loss of a person who follows the SLIM3M regime for\nthree months.",
+   "ms_text": "2 3. X ∼ N(, μσ )\n5 − μ\n≤ = ⇔ = … P( X 5) 0.670 0.4399 M1A1\nσ\n7 − μ\nP( X > 7) = 0.124 ⇔ = 1.155 … A1\nσ\nsolve simultaneously\nμ + 0.4399 σ = 5 and μ + 1.1552 σ = 7 M1\nμ= 3.77 (3 sf) A1 N3\nthe expected weight loss is 3.77 kg\nNote: Award A0for μ= 3.78 (answer obtained due to early rounding).\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 5]\nThe weight loss, in kilograms, of people using the slimming regime SLIM3M for a period of three months is modelled by a random variable $X$. Experimental data showed that 67% of the individuals using SLIM3M lost up to five kilograms and 12.4% lost at least seven kilograms. Assuming that $X$ follows a normal distribution, find the expected weight loss of a person who follows the SLIM3M regime for three months."
+  },
+  {
+   "id": "math-2010-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 7]\n3 3 Find the equation of the normal to the curve xy − xy = 0 at the point (,) 11.",
+   "ms_text": "4. xy 3 3 − xy = 0\n2 3 + 3 2 ′ − − ′ = 3 xy 3 xyy y xy 0 M1A1A1\nNote: Award A1 for correctly differentiating each term.\nx =, 1 y =3 1 + 3 y ′ −− 1 y ′ = 0\n2 y′=− 2\ny′=− 1 (M1)A1\ngradient of normal = 1 (A1)\nequation of the normal y −= 1 x − 1 A1 N2\ny = x\nNote: Award A2R5 for correct answer and correct justification.\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.14",
+    "5.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 7]\nFind the equation of the normal to the curve $x^3y^3 - xy = 0$ at the point $(1, 1)$."
+  },
+  {
+   "id": "math-2010-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nSolve the equations\nx\nln = 1\ny\n3 2 ln x + ln y = 5 .",
+   "ms_text": "5. EITHER\nx\nln = 1 ln x − ln y = 1\ny ⇔ M1A1\n3ln x + 2ln y = 5\nln x 3 + ln y 2 = 5\nsolve simultaneously M1\n7\nln x =\n5\n2\nln y =\n5\n7 2\nx = e 5 ( = 4.06) and y = e 5 (1.49) = A1A1\nOR\nx\nln 1 y=\n⇒ x = e y A1\nln x 3 + ln y 2 = 5\nxy= 3 2 ln 5\n3 2 xy= 5e M1\n3 5 5 e y= e\ny= 5 2e M1\n2 7\n= 5 = 5 y e, x e A1A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\nSolve the equations\n$\\ln\\frac{x}{y} = 1$\n$\\ln x^3 + \\ln y^2 = 5$."
+  },
+  {
+   "id": "math-2010-N-P2-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 7]\n4 3 2 Consider the polynomial px () = x + ax + bx + cx + d , where abcd , , , ∈ϒ.\nGiven that 1+ i and 12 −i are zeros of px () , find the values of a , b , c and d .",
+   "ms_text": "6. METHOD 1\n+ is a zero ⇒ 1 − is a zero 1 i i (A1)\n1 − 2i is a zero ⇒ 1 + 2i is a zero (A1)\n( )( ) 2 x − (1 − i) x − (1 + i) = ( x − 2 x + 2) (M1)A1\n2 ( x − (1 − 2i) )( x − (1 + 2i) ) = ( x − 2 x + 5) A1\n2 2 px () = ( x − 2 x + 2)( x − 2 x + 5) M1\n4 3 2 = x − 4 x + 11 x − 14 x + 10 A1\na =− 4, b = 11, c =− 14, d = 10\n[7 marks]\nMETHOD 2\np (1 + i) =−+−+ 4 (2 2i) a + (2i) b + (1 + i) c + d M1\n−− 4 2 a + c + d = 0\np (1 + i) = 0 ⇒ M1A1A1\n2 a + 2 b + c = 0\np (1 − 2i) =−+ 7 24i +− (11 + 2i) a +−− (3 4i) b + (1 − 2i) c + d\n−− − + + = 7 11 a 3 b c d 0\n− = p (1 2i) 0 ⇒ A1\n24 + 2 a − 4 b − 2 c = 0\n− 1\na − 2 0 1 1 4 − 4\nb 2 2 1 0 0 11\n= = M1A1\nc − 11 − 3 1 1 7 − 14\nd 2 − 4 − 2 0 − 24 10\na =− 4, b = 11, c =− 14, d = 10\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "2"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.12",
+    "2.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 7]\nConsider the polynomial $p(x) = x^4 + ax^3 + bx^2 + cx + d$, where $a, b, c, d \\in \\mathbb{R}$.\nGiven that $1 + \\mathrm{i}$ and $1 - 2\\mathrm{i}$ are zeros of $p(x)$, find the values of $a$, $b$, $c$ and $d$."
+  },
+  {
+   "id": "math-2010-N-P2-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 6,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 6]\nThe random variable X follows a Poisson distribution with mean m and satisfies\nP ( X = 1 ) + P ( X = 3 ) = P ( X = 0 ) + P ( X = 2. )\n(a) Find the value of m correct to four decimal places. [4 marks]\n(b) For this value of m , calculate P( 1 ≤ X ≤ 2 ) . [2 marks]",
+   "ms_text": "= + = = = + = 7. (a) P( X 1) P( X 3) P( X 0) P( X 2)\n3 − m 2 − m m e m e\n− m + = − m + m e e (M1)(A1)\n6 2\nm 3 − 3 m 2 + 6 m − 6 = 0 (M1)\nm = 1.5961 (4 decimal places) A1\n− m\n− m 2e (b) m = 1.5961 ⇒ P(1 ≤ X ≤ 2) = m e m + = 0.582 (M1)A1\n2\n[6 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "2"
+   ],
+   "subtopics": [
+    "4.L1",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 6]\nThe random variable $X$ follows a Poisson distribution with mean $m$ and satisfies\n$\\mathrm{P}(X = 1) + \\mathrm{P}(X = 3) = \\mathrm{P}(X = 0) + \\mathrm{P}(X = 2)$.\n(a) Find the value of $m$ correct to four decimal places. [4 marks]\n(b) For this value of $m$, calculate $\\mathrm{P}(1 \\le X \\le 2)$. [2 marks]"
+  },
+  {
+   "id": "math-2010-N-P2-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 5]\nThe diagram shows the graphs of a linear function f and a quadratic function g.\ny\ny = fx ()\nx\ny = gx ()\nOn the same axes sketch the graph of f . Indicate clearly where the x-intercept and\ng\nthe asymptotes occur.",
+   "ms_text": "8.\ny\nx\ncorrect concavities A1A1\nNote: Award A1 for concavity of each branch of the curve.\ncorrect x-intercept of f A1\ng (which is EXACTLY the x-intercept of f )\ncorrect vertical asymptotes of f\ng (which ONLY occur when xequals the x-intercepts of g)A1A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 5]\nThe diagram shows the graphs of a linear function $f$ and a quadratic function $g$.\n[Diagram: x-y axes; straight line $y = f(x)$ with negative y-intercept and positive gradient crossing the x-axis; parabola $y = g(x)$ through the origin, dipping below the x-axis and crossing it again further right, beyond the x-intercept of $f$]\nOn the same axes sketch the graph of $\\frac{f}{g}$. Indicate clearly where the $x$-intercept and the asymptotes occur."
+  },
+  {
+   "id": "math-2010-N-P2-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\nConsider the vectors a = sin ( 2 α ) i − cos( 2 α ) j + k and b = cos α i − sin α j − k ,\nwhere 0 < α < 2 π .\nLet θ be the angle between the vectors a and b .\n(a) Express cosθ in terms of α . [2 marks]\n(b) Find the acute angle α for which the two vectors are perpendicular. [2 marks]\nFor α=7π (c)\n6, determine the vector product of a and b and comment on the\ngeometrical significance of this result. [4 marks]",
+   "ms_text": "ab sin 2cos α α + sin α cos2 α − 1 sin3 α − 1\n9. (a) cos θ = = = M1A1\na b 2 × 2 2\n⊥ ⇒ θ = (b) a b cos 0 M1\nsin 2cos α α + sin α cos2 α −= 1 0\nπ\nα = 0.524 = A1\n6\n(c) METHOD 1\ni j k\nα − α sin 2 cos2 1 (M1)\ncos α − sin α − 1\n7π\nassuming α =\n6\nNote: Allow substitution at any stage.\ni j k\n3 1\n− 1 A1\n2 2\n3 1\n− − 1\n2 2\n1 1 3 3 3 1 1 3\n= i − − j − + + k × − ×\n2 2 2 2 2 2 2 2\n= 0 A1\naand b are parallel R1\nNote: Accept decimal equivalents.\nMETHOD 2\nfrom (a) cos θ=− (and sin 1 θ= 0 ) M1A1\na × b = 0 A1\na and b are parallel R1\n[8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.13",
+    "3.16",
+    "3.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nConsider the vectors $\\boldsymbol{a} = \\sin(2\\alpha)\\boldsymbol{i} - \\cos(2\\alpha)\\boldsymbol{j} + \\boldsymbol{k}$ and $\\boldsymbol{b} = \\cos\\alpha\\,\\boldsymbol{i} - \\sin\\alpha\\,\\boldsymbol{j} - \\boldsymbol{k}$, where $0 < \\alpha < 2\\pi$.\nLet $\\theta$ be the angle between the vectors $\\boldsymbol{a}$ and $\\boldsymbol{b}$.\n(a) Express $\\cos\\theta$ in terms of $\\alpha$. [2 marks]\n(b) Find the acute angle $\\alpha$ for which the two vectors are perpendicular. [2 marks]\n(c) For $\\alpha = \\frac{7\\pi}{6}$, determine the vector product of $\\boldsymbol{a}$ and $\\boldsymbol{b}$ and comment on the geometrical significance of this result. [4 marks]"
+  },
+  {
+   "id": "math-2010-N-P2-q10",
+   "num": "10",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 7]\nThe line y = mx ( − m ) is a tangent to the curve ( 1 − xy ) = 1 .\nDetermine m and the coordinates of the point where the tangent meets the curve.",
+   "ms_text": "10. EITHER\n1 1\n= ⇒ ′ = y y M1A1\n2 1 − x (1 − x )\nsolve simultaneously M1\n1 1\nmx ( − m ) and = m x=\n2 1 − (1 − x )\n1 1 1\n= x − A1\n1 − x (1 − x ) 2 (1 − x ) 2\nNote: Accept equivalent forms.\n3 2 (1 − x ) − x (1 − x ) += 1 0, x ≠ 1\n1\nx = 1.65729... ⇒ y = =− 1.521379...\n11.65729... −\ntangency point(1.66, − 1.52) A1A1\nm =− 2 = (1.52137...) 2.31 A1\nOR\n(1 − xy ) = 1\nm (1 − x )( x − m ) = 1 M1\n2 mx ( − x − m + mx ) = 1\n2 − + 2 + 2 + = mx xm ( m ) ( m 1) 0 A1\n2 b − 4 ac = 0 (M1)\n+ 2 2 − 2 + = ( m m ) 4 mm ( 1) 0\nm = 2.31 A1\n2 2 2 substituting m = 2.31... into mx − xm ( + m ) + ( m + 1) = 0 (M1)\nx = 1.66 A1\n1\ny = =− 1.52 A1\n11.65729 −\n− tangency point(1.66, 1.52)\n[7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.4",
+    "5.6",
+    "2.10",
+    "2.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 7]\nThe line $y = m(x - m)$ is a tangent to the curve $(1 - x)y = 1$.\nDetermine $m$ and the coordinates of the point where the tangent meets the curve."
+  },
+  {
+   "id": "math-2010-N-P2-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 21,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 21]\nTim throws two identical fair dice simultaneously. Each die has six faces: two faces\nnumbered 1, two faces numbered 2 and two faces numbered 3. His score is the sum of\nthe two numbers shown on the dice.\n(a) (i) Calculate the probability that Tim obtains a score of 6.\n(ii) Calculate the probability that Tim obtains a score of at least 3. [3 marks]\nTim plays a game with his friend Bill, who also has two dice numbered in the\nsame way. Bill’s score is the sum of the two numbers shown on his dice.\n(b) (i) Calculate the probability that Tim and Bill both obtain a score of 6.\n(ii) Calculate the probability that Tim and Bill obtain the same score. [4 marks]\n(c) Let X denote the largest number shown on the four dice.\n16\n(i) Show that P(X≤ 2 ) = .\n81\n(ii) Copy and complete the following probability distribution table.\nx 1 2 3\n1\nP( X = x )\n81\n[10 marks] (iii) Calculate E(X ) and E(X2) and hence find Var (X ) .\n(d) Given that X= 3, find the probability that the sum of the numbers shown on the\nfour dice is 8. [4 marks]",
+   "ms_text": "11.\n+ 1 2 3\n1 2 3 4\n2 3 4 5\n3 4 5 6\n(a) let T be Tim’s score\n1\n(i) P( T= 6) = (0.1113 sf) = A1\n9\n1 8\n(ii) P( T ≥ 3) =− 1 P( T ≤ 2) =− 1 = (0.8893 sf) = (M1)A1\n9 9\n[3 marks]\n(b) let B be Bill’s score\n1 1 1\n(i) P( T = 6 and B = 6) = × = (0.0123 sf) = (M1)A1\n9 9 81\n(ii) P( B = T ) = P(2)P(2) + P(3)P(3) + ... + P(6)P(6)\n1 1 2 2 3 3 2 2 1 1\n= × + × + × + × + × M1\n9 9 9 9 9 9 9 9 9 9\n19(0.2353 sf) = = A1\n81\n[4 marks]\n(c) (i) EITHER\n2 2 2 2\nP( X≤ 2) = × × × M1A1\n3 3 3 3\n( ) because P( X ≤ 2) = P(, abcd , , ) abcd , , , = 1, 2 R1\nor equivalent\n16\nP( X≤ 2) = AG\n81\nOR\nthere are sixteen possible permutations which are\nCombinations Number\n1111 1\n1112 4\n1122 6\n1222 4\n2222 1\nM1A1\nNote: This information may be presented in a variety of forms.\n1 + 4 + 6 + 4 + 1\nP( X ≤ 2) = A1\n81\n16\n= AG\n81\n(ii)\nx 1 2 3\n1 15 65\n= P( X x )\n81 81 81\nA1A1\n3\n= = (iii) E() X ∑ x P( X x ) (M1)\nx = 1\n1 30 195\n= + +\n81 81 81\n226\n= (2.79 to 3 sf) A1\n81\n3\n2 2 E( X ) = ∑ x P( X = x )\nx = 1\n1 60 585\n= + +\n81 81 81\n646\n= (7.98 to 3 sf) A1\n81\n2 2 Var() X = E( X ) − ( E() X ) (M1)\n= 0.191 (3 sf) A1\nNote: Award M1A0 for answers obtained using rounded values ( X= ) e g .. Var( ) 0.196 .\n[10 marks]\n(d)\nCombinations Number\n3311 6\n3221 12\n18\n( ) Ptotal is 8 ∩ ( X = 3) = M1A1\n81\n65\nsince P( X= 3) =\n81\n( ) P(total is 8) ∩ ( X = 3)\n( ) Ptotal is 8( X = 3) = M1\nP( X = 3)\n18(0.277) = = A1\n65\n[4 marks]\nTotal [21 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7",
+    "4.14",
+    "4.6",
+    "4.11",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 21]\nTim throws two identical fair dice simultaneously. Each die has six faces: two faces numbered 1, two faces numbered 2 and two faces numbered 3. His score is the sum of the two numbers shown on the dice.\n(a) (i) Calculate the probability that Tim obtains a score of 6.\n(ii) Calculate the probability that Tim obtains a score of at least 3. [3 marks]\nTim plays a game with his friend Bill, who also has two dice numbered in the same way. Bill's score is the sum of the two numbers shown on his dice.\n(b) (i) Calculate the probability that Tim and Bill both obtain a score of 6.\n(ii) Calculate the probability that Tim and Bill obtain the same score. [4 marks]\n(c) Let $X$ denote the largest number shown on the four dice.\n(i) Show that $\\mathrm{P}(X \\le 2) = \\frac{16}{81}$.\n(ii) Copy and complete the following probability distribution table.\n$x$ | 1 | 2 | 3\n$\\mathrm{P}(X = x)$ | $\\frac{1}{81}$ | | \n(iii) Calculate $\\mathrm{E}(X)$ and $\\mathrm{E}(X^2)$ and hence find $\\mathrm{Var}(X)$. [10 marks]\n(d) Given that $X = 3$, find the probability that the sum of the numbers shown on the four dice is 8. [4 marks]"
+  },
+  {
+   "id": "math-2010-N-P2-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 20]\nThe diagram shows a cube OABCDEFG.\nz\nD\nE\nG\nF\nO\nA\nx\nC\nB\ny\nLet O be the origin, (OA) the x-axis, (OC) the y-axis and (OD) the z-axis.\nLet M, N and P be the midpoints of [FG], [DG] and [CG], respectively.\nThe coordinates of F are (, 222. , )\n→ → →\n(a) Find the position vectors OM , ON and OP in component form. [3 marks]\n→ →\n(b) Find MP × MN . [4 marks]\n(c) Hence,\n(i) calculate the area of the triangle MNP;\n(ii) show that the line (AG) is perpendicular to the plane MNP;\n(iii) find the equation of the plane MNP. [7 marks]\n(d) Determine the coordinates of the point where the line (AG) meets the\n[6 marks] plane MNP.",
+   "ms_text": "12.\n1 0 0\n→ → →\n(a) OM 2 , ON 1 and OP 2 A1A1A1 = = =\n2 2 1\n[3 marks]\n− 1 − 1\n→ →\n=− (b) MP = 0 and MN 1 A1A1\n− 1 0\ni j k − 1\n→ →\nMP × MN =− 1 0 − 1 = 1 (M1)A1\n− 1 − 1 0 1\n[4 marks]\n→ →\n1MP (c) (i) area of MNP = × MN M1\n2\n− 1\n1\n= 1\n2\n1\n3\n= A1\n2\n2 0\n→ →\n(ii) OA 0 , OG 2 = =\n0 2\n− 2\n→\nAG = 2 A1\n2\n→ → →\nsince AG = 2(MP × MN) AG is perpendicular to MNP R1\n− 1 1 − 1\n(iii) r γ 1 = 2 γ 1 M1A1\n1 2 1\n− 1\n= r γ 1 3 (accept −+ x y + z = 3 ) A1\n1\n[7 marks]\n− 2 2\n(d) r = 0 + λ 2 A1\n0 2\n2 − 2 λ − 1\n2 λ γ 1 = 3 M1A1\nλ 2 1\n−+ 2 2 λ + 2 λ + 2 λ = 3\n5\nλ= A1\n6\n− 2 2\n5\nr = 0 + 2 M1\n6\n0 2\ncoordinates of point 155 , , A1\n333\n[6 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.17",
+    "3.18",
+    "3.12",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 20]\nThe diagram shows a cube OABCDEFG.\n[Diagram: cube OABCDEFG with O at the origin, A on the x-axis, C on the y-axis, D on the z-axis; top face DEFG with E above A, F above B, G above C]\nLet O be the origin, (OA) the $x$-axis, (OC) the $y$-axis and (OD) the $z$-axis.\nLet M, N and P be the midpoints of [FG], [DG] and [CG], respectively.\nThe coordinates of F are $(2, 2, 2)$.\n(a) Find the position vectors $\\vec{\\text{OM}}$, $\\vec{\\text{ON}}$ and $\\vec{\\text{OP}}$ in component form. [3 marks]\n(b) Find $\\vec{\\text{MP}} \\times \\vec{\\text{MN}}$. [4 marks]\n(c) Hence,\n(i) calculate the area of the triangle MNP;\n(ii) show that the line (AG) is perpendicular to the plane MNP;\n(iii) find the equation of the plane MNP. [7 marks]\n(d) Determine the coordinates of the point where the line (AG) meets the plane MNP. [6 marks]"
+  },
+  {
+   "id": "math-2010-N-P2-q13",
+   "num": "13",
+   "section": "B",
+   "marks": 19,
+   "qtype": "long",
+   "image": "q13.webp",
+   "ms_image": "q13_ms.webp",
+   "text": "13. [Maximum mark: 19]\nx a + b e\nLet fx () = , where 0 < b < a .\na e x + b\n2 2 x ( b − a ) e\n(a) Show that f ′ () x = 2. [3 marks]\n( a e x + b )\n(b) Hence justify that the graph of f has no local maxima or minima. [2 marks]\n(c) Given that the graph of f has a point of inflexion, find its coordinates. [6 marks]\n(d) Show that the graph of f has exactly two asymptotes. [3 marks]\n(e) Let a = 4 and b =1. Consider the region R enclosed by the graph of y = fx () ,\nthe y-axis and the line with equation y =1\n2.\nFind the volume V of the solid obtained when R is rotated through 2π about\nthe x-axis. [5 marks]",
+   "ms_text": "b e(e x a x + b ) − a e( x a + b e) x\n13. (a) f ′ () x = M1A1\nx 2 (e a + b )\n2 x + 2 x − 2 x − 2 x ab e b e a e ab e\n= A1\n(e a x + b ) 2\n2 2 x ( b − a )e\n= AG\nx 2 (e a + b )\n[3 marks]\n(b) EITHER\n2 2 x x f ′ () x = 0 ⇒ ( b − a )e = 0 ⇒ b =± a ore = 0 A1\n< < x> for all x∈ϒ which is impossible as 0 b a and e 0 R1\nOR\nf ′ () x < 0 for all x∈ϒ since 0 < b < a and e x> 0 for all x∈ϒ A1R1\nOR\n′ f () x cannot be equal to zero because ex is never equal to zero A1R1\n[2 marks]\n(c) EITHER\n2 2 x x 2 x x 2 2 x ( b − a )e(e a + b ) − 2e(e a a + bb )( − a )e\nf ′′ () x = M1A1A1\nx 4 (e a + b )\nNote: Award A1 for each term in the numerator.\n2 2 x x x ( b − a )e(e a + b − 2e) a\n=\nx 3 (e a + b )\n2 2 x x ( b − a )( b − a e)e\n=\nx 3 (e a + b )\nOR\n2 2 x x 2 f ′ () x = ( b − a )e(e a + b− )\n′′ = 2 − 2 x x + − 2 + 2 − 2 x − x x + − 3 f () x ( b a )e(e a b ) ( b a )e(2e)(e a a b ) M1A1A1\nNote: Award A1 for each term.\n= 2 − 2 x x + − 3 ( x + − x ) ( b a )e(e a b ) (e a b ) 2e a\n= 2 − 2 x x + − 3 − x ( b a )e(e a b )( b a e)\nTHEN\nb\n′′ = ⇒ − x = ⇒ = f () x 0 b a e 0 x ln M1A1\na\nb a 2 + b 2 =\nf ln A1\na 2 ab\n2 + 2 b a b\ncoordinates are ln ,\na 2 ab\n[6 marks]\na a\n(d) lim fx () = ⇒ y = horizontal asymptote A1\nx →−∞ b b\nb b\nlim fx () = ⇒ y = horizontal asymptote A1\nx →+∞ a a\nx x 0 < b < a ⇒ a e + b > 0 for allx∈ϒ(accept e a + b ≠ 0 )\nso no vertical asymptotes R1\nNote: Statement on vertical asymptote must be seen for R1.\n[3 marks]\nx 4 + e\n= (e) y\nx 4e + 1\n1 7\ny = ⇔ x = ln (or 1.25 to 3 sf) (M1)(A1)\n2 2\n2 7\n+ x ln 2 4 e\nV =π − 1d x (M1)A1 ∫\n0 x + 4e 1 4\n= 1.09 (3 sf) A1 N4\n[5 marks]\nTotal [19 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.7",
+    "5.17",
+    "5.13",
+    "5.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "13. [Maximum mark: 19]\nLet $f(x) = \\frac{a + b\\mathrm{e}^x}{a\\mathrm{e}^x + b}$, where $0 < b < a$.\n(a) Show that $f'(x) = \\frac{(b^2 - a^2)\\mathrm{e}^x}{(a\\mathrm{e}^x + b)^2}$. [3 marks]\n(b) Hence justify that the graph of $f$ has no local maxima or minima. [2 marks]\n(c) Given that the graph of $f$ has a point of inflexion, find its coordinates. [6 marks]\n(d) Show that the graph of $f$ has exactly two asymptotes. [3 marks]\n(e) Let $a = 4$ and $b = 1$. Consider the region $R$ enclosed by the graph of $y = f(x)$, the $y$-axis and the line with equation $y = \\frac{1}{2}$.\nFind the volume $V$ of the solid obtained when $R$ is rotated through $2\\pi$ about the $x$-axis. [5 marks]"
+  }
+ ],
+ "status": "done"
+}

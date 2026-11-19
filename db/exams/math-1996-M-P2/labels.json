@@ -1,0 +1,116 @@
+{
+ "exam_id": "math-1996-M-P2",
+ "questions": {
+  "1": {
+   "topics": [
+    "3",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.14",
+    "5.8",
+    "1.14",
+    "1.13",
+    "1.12"
+   ],
+   "text_clean": "1. [Maximum mark: 20]\n(i) The line $L$ passes through the point $P(2, 3, 1)$ and has direction $\\vec{u} = \\vec{i} + 2\\vec{j} - 3\\vec{k}$. A second line $M$ passes through the point $Q(4, 2, 0)$ and has direction $\\vec{v} = 3\\vec{i} - \\vec{j} + \\vec{k}$.\n(a) Write down, in parametric form and using $t$ as the parameter, the equation of the line $M$.\n(b) Find the vector $\\vec{w} = \\overrightarrow{RP}$, where $R$ is any point on the line $M$.\n(c) Write down the vector $\\vec{u} \\times \\vec{w}$ and hence express $|\\vec{u} \\times \\vec{w}|$ in terms of $t$.\n(d) Deduce that $|\\vec{u} \\times \\vec{w}|$ is minimised when $t = -\\frac{3}{5}$ and find this minimum value. [12 marks]\n(ii) Write down, in polar form, the cube roots of $-\\mathrm{i}$. Hence, or otherwise, solve the equation\n$[(1-\\mathrm{i})z]^3 + \\mathrm{i} = 0$,\nexpressing your answers in algebraic form (that is, in the form $a + \\mathrm{i}b$). [8 marks]"
+  },
+  "2": {
+   "topics": [
+    "5",
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "5.6",
+    "5.7",
+    "1.3",
+    "1.2",
+    "3.8",
+    "1.7"
+   ],
+   "text_clean": "2. [Maximum mark: 22]\n(a) Let the function $x(t)$ be defined by\n$x(t) = \\mathrm{e}^{-\\lambda t}\\sin(pt + \\alpha)$,\nwhere $\\lambda$, $p$ and $\\alpha$ are constants. Show that\n$\\frac{\\mathrm{d}^2x}{\\mathrm{d}t^2} + 2\\lambda\\frac{\\mathrm{d}x}{\\mathrm{d}t} + (\\lambda^2 + p^2)x = 0$. [6 marks]\n(b) Given that $\\frac{\\mathrm{d}x}{\\mathrm{d}t} = -2p$ and $\\frac{\\mathrm{d}^2x}{\\mathrm{d}t^2} = -3p$, when $\\alpha = 0$ and $t = \\frac{\\pi}{p}$, calculate the value of $\\lambda$ and show that\n$p = \\frac{3\\pi}{4\\ln 2}$. [4 marks]\n(c) Now consider the different case when $\\frac{\\mathrm{d}x}{\\mathrm{d}t} = 0$ at $t = 0$, and $\\alpha$ is not specified. Show that\n(i) $\\lambda = p\\cot\\alpha$;\n(ii) the values of $t$ when $\\frac{\\mathrm{d}x}{\\mathrm{d}t} = 0$ are in arithmetic progression, and find the common difference;\n(iii) the values of $x$ when $\\frac{\\mathrm{d}x}{\\mathrm{d}t} = 0$ are in geometric progression, and find the common ratio in terms of $\\alpha$. [12 marks]"
+  },
+  "3": {
+   "topics": [
+    "5",
+    "1"
+   ],
+   "subtopics": [
+    "5.16",
+    "5.11",
+    "1.16"
+   ],
+   "text_clean": "3. [Maximum mark: 20]\n(i) Find the area enclosed by the curve $y = x^2\\sin x$ and the $x$-axis for $0 \\le x \\le 2\\pi$, giving your answer exactly in terms of $\\pi$. [10 marks]\n(ii) (a) Derive an equation that $a$, $b$ and $c$ must satisfy for the system of equations\n$-3x + y + 2z = a$\n$-11x + 2y + 6z = b$\n$7x + y - 2z = c$\nto have a solution.\n(b) Derive a solution when $a = 2$ and $b = 7$. Is the solution unique? Explain your answer clearly. [10 marks]"
+  },
+  "4": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11",
+    "4.13"
+   ],
+   "text_clean": "4. [Maximum mark: 18]\nNote: In this question all answers must be given exactly as rational numbers.\n(a) A man can invest in at most one of two companies, $A$ and $B$. The probability that he invests in $A$ is $\\frac{3}{7}$ and the probability that he invests in $B$ is $\\frac{2}{7}$, otherwise he makes no investment.\nThe probability that an investment yields a dividend is $\\frac{1}{2}$ for company $A$ and $\\frac{2}{3}$ for company $B$.\nThe performances of the two companies are totally unrelated.\nDraw a probability tree to illustrate the various outcomes and their probabilities. What is the probability that the investor receives a dividend and, given that he does, what is the probability that it was from his investment in company $A$? [8 marks]\n(b) Suppose that a woman must decide whether or not to invest in each company. The decisions she makes for each company are independent and the probability of her investing in company $A$ is $\\frac{3}{10}$ while the probability of her investing in company $B$ is $\\frac{6}{10}$. Assume that there are the same probabilities of the investments yielding a dividend as in (a).\n(i) Draw a probability tree to illustrate the investment choices and whether or not a dividend is received. Include the probabilities for the various outcomes on your tree.\n(ii) If she decides to invest in both companies, what is the probability that she receives a dividend from at least one of her investments?\n(iii) What is the probability that she decides not to invest in either company?\n(iv) If she does not receive a dividend at all, what is the probability that she made no investment? [10 marks]"
+  },
+  "5": {
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.5",
+    "7.9",
+    "7.6",
+    "7.7",
+    "7.8"
+   ],
+   "text_clean": "5. [Maximum mark: 40]\n(i) Show that $\\mathbb{R}$, the set of real numbers, forms a group under the operation $*$ where\n$a * b = \\sqrt[3]{a^3 + b^3}$\nfor all $a$, $b$ in $\\mathbb{R}$. [11 marks]\n(ii) Consider the three points $(2, 0)$, $(1, \\sqrt{3})$ and $(-1, \\sqrt{3})$ in the $x$-$y$ plane.\nLet $R_\\theta$ denote the anticlockwise rotation about the origin through the angle $\\theta$, $0 \\le \\theta < 2\\pi$.\nLet $S$ be the set of anticlockwise rotations about the origin which map any one of the these points either onto itself or onto one of the other points.\n(a) List the elements of the set $S$.\n(b) Show that $S$ is not a group under the composition of rotations.\n(c) Find a rotation $R_\\alpha$, such that $S \\cup R_\\alpha$ does form a group under the composition of rotations. Show that this group is cyclic and find a generator for it. Write down all of the proper subgroups of this group. [14 marks]\n(iii) (a) Explain what is meant by stating that two groups are isomorphic.\n(b) Consider two isomorphic groups $\\{G_1, *\\}$ and $\\{G_2, \\circ\\}$ with identity elements $e_1$ in $G_1$ and $e_2$ in $G_2$. Let $f: G_1 \\mapsto G_2$ be an isomorphism, $a_1$ any element of $G_1$ and write $a_2 = f(a_1)$. Prove that\n1. $e_2 = f(e_1)$;\n2. $a_2^{-1} = f(a_1^{-1})$. [15 marks]"
+  },
+  "6": {
+   "topics": [
+    "6",
+    "1"
+   ],
+   "subtopics": [
+    "6.7",
+    "6.6",
+    "6.9",
+    "1.15"
+   ],
+   "text_clean": "6. [Maximum mark: 40]\n(i) Consider the five graphs below\n[Diagram: five graphs I-V on vertices A, B, C, D, E arranged as a house shape (B at top, A and C at sides, E and D at bottom). I: complete graph K5; II: 5-cycle A-B-C-D-E-A; III: A-B, B-C, C-D, D-E, E-B (A joined only to B); IV: A-B, B-C, C-D, D-E, E-C, A-C; V: 5-cycle A-B-C-D-E-A plus edge A-C]\n(a) By copying, and then completing the table below, write down the degrees of the vertices $A$, $B$, $C$, $D$ and $E$ in each graph and state whether the graph is Eulerian or not, and whether it is Hamiltonian or not. Whenever your answer is yes, give a circuit that verifies your answer.\n| | Graph I | Graph II | Graph III | Graph IV | Graph V |\n| Degrees | 4, 4, 4, 4, 4 | | | | |\n| Eulerian? | Yes, ABCDEACEBDA | | | | |\n| Hamiltonian? | Yes, ABCDE | | | | |\n(b) Which of the following statements are true? (No proofs or counter examples are required.)\nA graph is Hamiltonian $\\Rightarrow$ it is Eulerian.\nA graph is Eulerian $\\Rightarrow$ it is Hamiltonian.\nA graph is not Hamiltonian $\\Rightarrow$ it is Eulerian.\nA graph is not Eulerian $\\Rightarrow$ it is Hamiltonian.\n(c) Write down a necessary and sufficient condition for a connected graph to be Eulerian and explain why your condition is necessary. [16 marks]\n(ii) Use Dijkstra's Algorithm to find the shortest path, and its length, from $A$ to $H$ in the directed graph below, showing your working clearly in tabular fashion.\n[Diagram: weighted directed graph with vertices A, B, C, D, E, F, G, H; edges A->B 4, A->C 5, A->D 6, D->C 2, B->F 14, C->E 7, E->F 3, F->H 5, D->F 15, C->G 9, D->G 7, G->H 8]\nWhat is the length of the shortest path from $A$ to $G$? [12 marks]\n(iii) Let $G$ be a connected planar graph that is not a tree which has $v$ vertices, $e$ edges and divides the plane into $f$ faces or regions. State Euler's formula connecting $v$, $e$ and $f$ and verify the formula when $e = 0$.\nHence, assuming that the formula is true when there are $n - 1$ edges, use mathematical induction to prove that the formula is true. [12 marks]",
+   "note": "Edge list in diagram description reconstructed from the image and markscheme Dijkstra table (shortest A-H path A,C,E,F,H = 20; A-G = 13)."
+  },
+  "7": {
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L6",
+    "4.L7",
+    "4.L1"
+   ],
+   "answer_status": "ok",
+   "text_clean": "7. [Maximum mark: 40]\n(i) The data in the table below shows the number of telephone calls received per minute at a business office over a forty minute period.\n| Calls per minute | 0 | 1 | 2 | 3 | 4 | 5 | >5 |\n| Frequency | 1 | 8 | 12 | 7 | 8 | 4 | 0 |\nPerform a $\\chi^2$ test at the 5% level of significance to determine whether or not the above data can be modelled by a Poisson distribution with mean given by the sample mean. [12 marks]\n(ii) Systolic blood pressures were recorded for a sample of 25 diabetic males in a given age group. The sample mean and standard deviation were 147.60 and 13.92 respectively. From a sample of 30 non-diabetic males in the same age group the corresponding values were 139.61 and 12.59 respectively. (The units are mm Hg.)\n(a) Explain in detail how to obtain a 95% confidence interval for the difference in mean blood pressure in diabetic and non-diabetic males in the population from which the samples were drawn. The distributional results and assumptions required for the derivation of such an interval should be carefully stated.\nGiven that $t_{0.025} = 2.01$ for a $t$ distribution with 53 degrees of freedom, calculate the end points of the interval. Carry out a test of the null hypothesis of equal population means for diabetic and non-diabetic males against a two sided alternative hypothesis, using a 5% significance level. [15 marks]\n(b) In a separate study it was found that 43 out of 200 diabetic males and 41 out of 300 non-diabetic males were classified as having high blood pressure. Use a $\\chi^2$ test to investigate independence of the two classifications diabetic and high blood pressure.\n[Full details of your working should be included.] [13 marks]",
+   "note": "Markscheme crop fixed via overrides (ms pages 13-15); previously contained Q8's markscheme. Final line of the trailing Yates' note ('d.f. = 1.') is partly clipped in the ms image; all marks present. | fixed by segmenter update: the line noted above as missing is now in the crop"
+  },
+  "8": {
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L1",
+    "5.L3",
+    "2.10"
+   ],
+   "answer_status": "ok",
+   "text_clean": "8. [Maximum mark: 40]\n(i) (a) The curves of the functions $y = x^3 - 21$ and $y = x^2 + 2$ intersect at the point $(x^*, y^*)$. Find the integer $m$ such that $m < x^* < m + 1$.\n(b) The value $x^*$ satisfies both of the two equations\n$x = \\sqrt[3]{x^2 + 23}$; $x = \\sqrt{x^3 - 23}$.\nWhich, if any, of these two can be used as an iterative scheme of the form $x_{n+1} = g(x_n)$, with $x_0 = m$, to approximate the value $x^*$? Explain clearly your decision about each scheme.\nFind $x^*$ to 3 decimal places. [18 marks]\n(ii) (a) For $x > 0$ and $n \\in \\mathbb{N}$, the exponential function $\\mathrm{e}^x$ can be written as\n$\\mathrm{e}^x = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\dots + \\frac{x^n}{n!} + \\frac{x^{n+1}}{(n+1)!}\\mathrm{e}^\\theta$\nwhere $0 < \\theta < x$.\nDeduce that $\\mathrm{e}^x > \\frac{x^n}{n!}$ for any $n \\in \\mathbb{N}$.\n(b) By considering the case when $n = 1$, deduce that $\\ln t < \\frac{t^p}{p}$ for $t > 1$ and $p \\in \\mathbb{R}$, $p > 0$.\n(c) Deduce that\n$\\ln k < 4k^{\\frac{1}{4}}$, $k = 1, 2, 3, 4, 5, \\dots$\nand hence use the comparison test to determine whether or not the series\n$\\sum_{n=1}^{\\infty} \\frac{\\ln n}{1 + n^{\\frac{3}{2}}}$\nconverges. You may state, without proof, the condition for the series $\\sum_{n=1}^{\\infty} \\frac{1}{n^p}$ to converge. [22 marks]",
+   "note": "Markscheme crop added via overrides (ms pages 16-17); segmenter had lost the Q8 heading."
+  }
+ }
+}

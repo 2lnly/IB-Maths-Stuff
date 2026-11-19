@@ -1,0 +1,36 @@
+{
+  "exam_id": "math-2018-M-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.L4", "4.9"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 11]\nThe weights, $X$ kg, of the males of a species of bird may be assumed to be normally distributed with mean 4.8 kg and standard deviation 0.2 kg.\n(a) Find the probability that a randomly chosen male bird weighs between 4.75 kg and 4.85 kg. [1]\nThe weights, $Y$ kg, of female birds of the same species may be assumed to be normally distributed with mean 2.7 kg and standard deviation 0.15 kg.\n(b) Find the probability that the weight of a randomly chosen male bird is more than twice the weight of a randomly chosen female bird. [6]\n(c) Two randomly chosen male birds and three randomly chosen female birds are placed on a weighing machine that has a weight limit of 18 kg. Find the probability that the total weight of these five birds is greater than the weight limit. [4]"
+    },
+    "2": {
+      "topics": ["4", "1", "5"],
+      "subtopics": ["4.L3", "4.L2", "1.8", "5.6"],
+      "answer_status": "ok",
+      "note": "ms crop ends with a one-line general note for Q3 (accept 2 s.f.); harmless.",
+      "text_clean": "2. [Maximum mark: 8]\nConsider an unbiased tetrahedral (four-sided) die with faces labelled 1, 2, 3 and 4 respectively.\nThe random variable $X$ represents the number of throws required to obtain a 1.\n(a) State the distribution of $X$. [1]\n(b) Show that the probability generating function, $G(t)$, for $X$ is given by $G(t)=\\frac{t}{4-3t}$. [4]\n(c) Find $G'(t)$. [2]\n(d) Determine the mean number of throws required to obtain a 1. [1]"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.L6", "4.L5", "4.12"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 12]\nA smartphone's battery life is defined as the number of hours a fully charged battery can be used before the smartphone stops working. A company claims that the battery life of a model of smartphone is, on average, 9.5 hours. To test this claim, an experiment is conducted on a random sample of 20 smartphones of this model. For each smartphone, the battery life, $b$ hours, is measured and the sample mean, $\\bar{b}$, calculated. It can be assumed the battery lives are normally distributed with standard deviation 0.4 hours.\n(a) State suitable hypotheses for a two-tailed test. [1]\n(b) Find the critical region for testing $\\bar{b}$ at the 5% significance level. [4]\nIt is then found that this model of smartphone has an average battery life of 9.8 hours.\n(c) Find the probability of making a Type II error. [3]\nAnother model of smartphone whose battery life may be assumed to be normally distributed with mean $\\mu$ hours and standard deviation 1.2 hours is tested. A researcher measures the battery life of six of these smartphones and calculates a confidence interval of $[10.2, 11.4]$ for $\\mu$.\n(d) Calculate the confidence level of this interval. [4]"
+    },
+    "4": {
+      "topics": ["4"],
+      "subtopics": ["4.L8", "4.L7"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 11]\nThe random variables $X, Y$ follow a bivariate normal distribution with product moment correlation coefficient $\\rho$.\n(a) State suitable hypotheses to investigate whether or not a negative linear association exists between $X$ and $Y$. [1]\nA random sample of 11 observations on $X, Y$ was obtained and the value of the sample product moment correlation coefficient, $r$, was calculated to be $-0.708$.\n(b) (i) Determine the $p$-value.\n(ii) State your conclusion at the 1% significance level. [4]\nThe covariance of the random variables $U, V$ is defined by\n$\\mathrm{Cov}(U,V)=\\mathrm{E}\\big((U-\\mathrm{E}(U))(V-\\mathrm{E}(V))\\big)$.\n(c) (i) Show that $\\mathrm{Cov}(U,V)=\\mathrm{E}(UV)-\\mathrm{E}(U)\\mathrm{E}(V)$.\n(ii) Hence show that if $U, V$ are independent random variables then the population product moment correlation coefficient, $\\rho$, is zero. [6]"
+    },
+    "5": {
+      "topics": ["4"],
+      "subtopics": ["4.L5", "4.8", "4.14"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 8]\nThe random variable $X$ has a binomial distribution with parameters $n$ and $p$.\n(a) Show that $P=\\frac{X}{n}$ is an unbiased estimator of $p$. [2]\nLet $U=nP(1-P)$.\n(b) (i) Show that $\\mathrm{E}(U)=(n-1)p(1-p)$.\n(ii) Hence write down an unbiased estimator of $\\mathrm{Var}(X)$. [6]"
+    }
+  }
+}

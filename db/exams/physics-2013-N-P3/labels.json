@@ -1,0 +1,254 @@
+{
+ "exam_id": "physics-2013-N-P3",
+ "questions": {
+  "1": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.5"
+   ],
+   "text_clean": "1. This question is about stars in the constellation Canis Minor.\n(a) An astronomer in the northern hemisphere on Earth sees Canis Minor rise above the eastern horizon and subsequently set in the west. Explain this motion of Canis Minor as observed by the astronomer. [2]\n(b) Define absolute magnitude. [2]\n(c) Luyten's star and Gomeisa are two stars associated with the constellation Canis Minor. The table gives data for these stars and for the Sun.\n| | Apparent magnitude | Absolute magnitude | Surface temperature / K |\n| Luyten's star | +9.9 | +11.9 | 3100 |\n| Gomeisa | +2.9 | −0.7 | 11000 |\n| Sun | −26.7 | +4.8 | 5800 |\n(i) Explain, with reference to magnitude data from the table, why it is possible to use the stellar parallax technique to determine the distance of Luyten's star from Earth. [3]\n(ii) State, in parsecs, the distance range over which it is possible to use the spectroscopic parallax technique to measure galactic distances. [1]\n(d) (i) Using the data in (c), calculate, in parsecs, the distance from Earth to Gomeisa. [3]\n(ii) Gomeisa has a radius four times that of the Sun. Use the data in (c) to show that the ratio $\\frac{\\text{luminosity of Gomeisa}}{\\text{luminosity of Sun}}$ is about 200. [3]\n(iii) Assuming the value of $n$ in the mass–luminosity equation to be 3.5, calculate $\\frac{\\text{mass of Gomeisa}}{\\text{mass of Sun}}$. [2]\n(iv) Outline, with reference to the Chandrasekhar limit, the likely eventual fate of Gomeisa. [2]\n(e) Gomeisa, Luyten's star and the Sun are main sequence stars. On the grid of the Hertzsprung–Russell (HR) diagram, identify the position of\n(i) Gomeisa, with the letter G. [1]\n(ii) Luyten's star, with the letter L. [1]\n[Diagram: HR diagram grid; relative luminosity (log scale, $10^{-6}$ to $10^{6}$) against surface temperature / K (40 000, 10 000, 6000, 4000, 3000, decreasing to the right); the Sun is marked at luminosity 1]\n(f) On the HR diagram above, sketch the likely evolutionary path of Luyten's star. [1]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "2": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.12"
+   ],
+   "text_clean": "2. This question is about Newton's model of the universe.\nNewton assumed a model of the universe that is static and infinite.\n(a) State the other assumption about the universe that Newton made. [1]\n(b) Explain, with reference to red-shift, why the universe is not believed to be static. [3]",
+   "answer_status": "ok"
+  },
+  "3": {
+   "topics": [
+    "X",
+    "C"
+   ],
+   "subtopics": [
+    "X.12",
+    "C.5"
+   ],
+   "text_clean": "3. This question is about red-shift.\n(a) (i) On the axes, sketch a graph to show how the recessional speed $v$ of a galaxy varies with distance $d$ from the Earth. [1]\n[Graph: blank axes, $v$ against $d$, both from 0]\n(ii) Outline how the graph in (a)(i) can be used to determine the age of the universe. [2]\n(b) Astronomers use the factor $z$ to report the red-shift of an object relative to Earth where\n$z = \\frac{\\text{shift in wavelength detected by Earth observer}}{\\text{wavelength of light emitted by object}}$.\nQuasar 3C273 is thought to be the closest quasar to Earth and has $z = 0.18$. Assuming that the Hubble constant is $70\\ \\text{km s}^{-1}\\,\\text{Mpc}^{-1}$, determine the distance of this object from Earth. [2]",
+   "answer_status": "ok"
+  },
+  "4": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "4. This question is about frequency modulation.\n(a) State what is meant by modulation. [2]\n(b) A sinusoidal carrier wave is frequency modulated by a signal wave in a radio transmitter. The table gives data about the two waves.\n| | Frequency of wave / Hz | Wave amplitude / V |\n| Carrier wave | $9.4\\times10^{7}$ | 9.0 |\n| Signal wave | $6.0\\times10^{3}$ | 1.5 |\nThe frequency of the carrier wave is changed by 12 kHz when the amplitude of the signal wave changes by 1.0 V.\nFor the modulated carrier wave,\n(i) state how the amplitude varies with time. [1]\n(ii) determine how the frequency varies with time. [3]\n(c) Calculate the bandwidth of the transmitted signal in (b). [1]",
+   "answer_status": "ok"
+  },
+  "5": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14",
+    "X.10"
+   ],
+   "text_clean": "5. This question is about the transmission of signals.\n(a) A single digital pulse is transmitted along an optic fibre. The graph shows the variation with time of the input power to the optic fibre and also the corresponding power output when the pulse has reached the end of the fibre.\n[Graph: power against time; a tall narrow rectangular input power pulse, followed later by a lower, wider, irregular output power pulse]\n(i) Suggest, with reference to effects occurring in the fibre, why the output pulse has a longer duration than the input pulse. [3]\n(ii) Outline why the graph indicates that the pulse is attenuated as it travels through the fibre. [2]\n(b) Optic fibre communication channels often utilize time-division multiplexing. Outline why time-division multiplexing can be used to make the channel more cost-effective. [3]\n(c) Optic fibres and satellites are used as channels of communication between continents.\n(i) State one additional channel of communication that can be used for this purpose. [1]\n(ii) State one advantage of the channel you chose in (c)(i) over a channel involving satellite communication. [1]\n(iii) Suggest two advantages of communication using a polar-orbiting satellite compared to that using a geostationary satellite. [2]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "6": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "6. This question is about the Schmitt trigger.\nThe diagram shows the circuit of a Schmitt trigger.\n[Diagram: op-amp with $V_{IN}$ to the inverting (−) input; non-inverting (+) input at point X, connected to earth through $R_1$ and to the output $V_{OUT}$ through feedback resistor $R_2$]\nThe supply voltages to the operational amplifier are +15 V and −15 V. The resistors have the values $R_1 = 47\\ \\text{k}\\Omega$ and $R_2 = 420\\ \\text{k}\\Omega$.\n(a) State a use for this circuit. [1]\n(b) Explain, with reference to the voltages $V_{IN}$ and $V_{OUT}$ and the voltage at X, the operation of this circuit. [4]\n(c) Determine the switching voltages for this circuit. [3]",
+   "answer_status": "ok",
+   "note": "audit: Schmitt trigger is op-amp content"
+  },
+  "7": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.14"
+   ],
+   "text_clean": "7. This question is about mobile phones.\nA passenger on a train uses a mobile phone to talk to a friend. During the conversation the phone moves between several cells in the phone network. There is no break in the communication. Outline, with reference to the cellular exchange and the base stations, how this is achieved. [3]",
+   "answer_status": "ok"
+  },
+  "8": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.9"
+   ],
+   "text_clean": "8. This question is about an optical microscope.\nA compound microscope in normal adjustment consists of two lenses, an objective lens of focal length $f_o$ and an eyepiece lens of focal length $f_e$. The diagram shows the position of the intermediate image I formed by the objective lens of the microscope.\n[Diagram: principal axis with objective lens (focal points $f_o$ either side) and eyepiece lens (focal points $f_e$ either side); intermediate image I drawn as an inverted arrow with tip O, just inside the eyepiece focal point]\n(a) Construct rays on the diagram to show how the final image is formed. [2]\n(b) The intermediate image forms 14.8 cm from the objective lens. The distance between the lenses is 18.1 cm. The focal length of the eyepiece lens is 3.8 cm.\n(i) Determine the distance of the final image from the eyepiece lens. [3]\n(ii) The angular magnification of the objective lens is ×6. Calculate the angular magnification of the microscope. [2]\n(c) Outline how the effects of chromatic aberration in the microscope eyepiece can be reduced by illuminating the object with light that has a narrow range of wavelengths. [2]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "9": {
+   "topics": [
+    "C"
+   ],
+   "subtopics": [
+    "C.3"
+   ],
+   "text_clean": "9. This question is about waves.\n(a) State the principle of superposition. [2]\n(b) The diagram shows a plan view of a harbour with a floating barrier that has two openings of equal width.\n[Diagram: plane waves from the open sea travel towards a barrier with two openings; far beyond the barrier is a line XOY parallel to it, O on the axis between the openings (not to scale)]\nPlane water waves from the open sea are incident on the barrier and the openings act as point sources of waves. The distance from the openings to XOY is much greater than the wavelength of the wave. O is equidistant from the openings.\nThe graph shows the variation of the magnitude of the wave amplitude that is observed along the line XOY.\n[Graph: wave amplitude / relative units along X–O–Y; equal maxima at O and either side, point A marked at the maximum to the left of O]\n(i) Explain how the disturbance at point A arises. You may draw on the diagram of the harbour to illustrate your answer. [3]\n(ii) The wavelength of the waves is doubled. State and explain the effect that this change will have on the graph. [3]\n(c) The harbour in (b) is modified to have many narrower openings. The total width of the openings remains the same. Outline two ways in which the variation of wave amplitude along XY changes from that shown on the graph in (b). [2]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "10": {
+   "topics": [
+    "E"
+   ],
+   "subtopics": [
+    "E.1",
+    "E.2"
+   ],
+   "text_clean": "10. This question is about X-rays.\n(a) In an X-ray tube, electrons are accelerated from rest through a potential difference of 50 kV to strike the metal target.\n(i) Determine the minimum wavelength of the X-rays produced. [2]\n(ii) Using the axes, draw and annotate the spectrum of the X-rays produced. The accelerating potential is large enough to produce a characteristic spectrum. [2]\n[Graph: blank axes, X-ray intensity against wavelength, both from 0]\n(b) Explain the origins of the characteristic spectrum. [3]",
+   "answer_status": "ok",
+   "add_flags": [
+    "topic-uncertain"
+   ],
+   "note": "Option G X-ray production: classified by content (photon energy / energy levels); no dedicated X-ray-production code."
+  },
+  "11": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.4"
+   ],
+   "text_clean": "11. This question is about wedge fringes.\nA glass microscope slide of length 6.0 cm is placed on a glass plate and illuminated using a monochromatic source of light of wavelength 590 nm. A hair is trapped at one end of the slide forming an air wedge between the glass plate and the slide.\n[Diagram: slide of length 6.0 cm resting on a plate, raised at one end by a hair, forming an air wedge (not to scale)]\n(a) An observer viewing the microscope slide at near-normal incidence measures the fringe spacing to be 0.29 mm. Calculate the thickness of the hair. [3]\n(b) The observer depresses the middle of the slide as shown so that the slide bends slightly.\n[Diagram: view from above of the slide with a finger pressing its middle; hair at the right-hand end]\nOn the diagram, sketch the new pattern of fringes that the observer will see. [1]",
+   "answer_status": "ok"
+  },
+  "12": {
+   "topics": [
+    "A",
+    "X"
+   ],
+   "subtopics": [
+    "A.5",
+    "X.7"
+   ],
+   "text_clean": "12. This question is about time dilation and relativistic mass.\n(a) Two space stations X and Y are at rest relative to each other. The separation of X and Y as measured in their frame of reference is $1.80\\times10^{11}$ m.\n[Diagram: stations X and Y separated by $1.80\\times10^{11}$ m]\nState what is meant by a frame of reference. [1]\n(b) A radio signal is sent to both space stations in (a) from a point midway between them. On receipt of the signal a clock in X and a clock in Y are each set to read zero. A spaceship S travels between X and Y at a speed of 0.750c as measured by X and Y. In the frame of reference of S, station X passes S at the instant that X's clock is set to zero. A clock in S is also set to zero at this instant.\n(i) Calculate the time interval, as measured by the clock in X, that it takes S to travel from X to Y. [2]\n(ii) Calculate the time interval, as measured by the clock in S, that it takes S to travel from X to Y. [2]\n(iii) Explain whether the clock in X or the clock in S measures the proper time. [2]\n(iv) Explain why, according to S, the setting of the clock in X and the setting of the clock in Y does not occur simultaneously. [3]\n(c) The spaceship S in (b) is moving with speed 0.750c as measured by X and Y and has a total energy of $2.72\\times10^{20}$ J as measured by X and Y.\n(i) Determine the rest mass of spaceship S. [2]\n(ii) Using the axes, sketch a graph to show how the mass $m$ of spaceship S changes with its speed $v$. Your graph should identify the rest mass $m = m_0$ and the speed $v = c$. [2]\n[Graph: blank axes, $m$ against $v$, both from 0]\n(d) Muons are produced in the upper atmosphere of Earth and travel towards the surface of Earth where they are detected. Explain how, with reference to the situation described in (b), the production and detection of muons provide evidence for time dilation. [3]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "13": {
+   "topics": [
+    "X",
+    "A"
+   ],
+   "subtopics": [
+    "X.7",
+    "A.5"
+   ],
+   "text_clean": "13. This question is about relativistic energy and momentum.\n(a) A proton is accelerated from rest through a potential difference $V$. After acceleration the mass of the proton is equal to four times its rest mass. Determine the value of $V$. [3]\n(b) For the proton in (a) calculate, after acceleration, its\n(i) speed. [2]\n(ii) momentum. [1]",
+   "answer_status": "ok"
+  },
+  "14": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.7"
+   ],
+   "text_clean": "14. (a) Describe what is meant by spacetime. [2]\n(b) Outline how the concept of spacetime accounts for the\n(i) orbiting of Earth about the Sun. [3]\n(ii) nature of a black hole. [2]",
+   "answer_status": "ok"
+  },
+  "15": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "15. This question is about hearing.\n(a) Define sound intensity level. [1]\n(b) Claudia and her grandfather take hearing tests. Graphs A and B show the variation of their sound intensity level with frequency for the threshold of hearing.\n[Graph: intensity level / dB (−10 to 70) against frequency / Hz (250 to 8000, log scale); solid curve A has a minimum of about −5 dB near 2000 Hz and is about 0 dB at 4000 Hz; dashed curve B lies higher, minimum about 2 dB near 2000 Hz, about 15 dB at 4000 Hz, rising steeply to about 50 dB near 8000 Hz]\n(i) Explain which graph most likely shows the results of the grandfather's hearing test. [2]\n(ii) A sound of frequency 4.0 kHz is emitted by a point source. The sound is heard by Claudia at the threshold of her hearing when she stands 30 m from the source. Use the graph to determine the distance at which her grandfather should stand in order for the sound to be at his threshold of hearing. The intensity of sound $I$ at a distance $d$ from a point source of power $P$ is given below. [4]\n$I = \\frac{P}{4\\pi d^2}$",
+   "answer_status": "ok"
+  },
+  "16": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "16. This question is about medical imaging.\n(a) Define attenuation coefficient. [2]\n(b) X-rays are used in dentistry to reveal decay inside teeth. In a research study, a tooth is partially filled with a new glass-based material to replace decayed tissue. X-ray photographs are taken of the tooth.\n[Diagram: cross-section of a tooth with enamel walls; a parallel X-ray beam passes horizontally through enamel and filling (emerging at A) and through enamel and tissue (emerging at B); filling/tissue width 2.5 mm]\nAttenuation coefficient of filling $= 6.3\\ \\text{mm}^{-1}$\nAttenuation coefficient of enamel $= 0.46\\ \\text{mm}^{-1}$\nAttenuation coefficient of tissue $= 0.30\\ \\text{mm}^{-1}$\nWidth of the tissue $= 2.5$ mm\nWidth of the filling $= 2.5$ mm\nA parallel beam of X-rays is incident on the tooth. X-rays emerging at A have travelled through enamel and filling only, X-rays emerging at B have travelled through enamel and tooth tissue only.\n(i) Show that the ratio $\\frac{\\text{intensity of X-rays at A}}{\\text{intensity of X-rays at B}}$ is approximately $3\\times10^{-7}$. [4]\n(ii) The X-ray exposure time is such as to enable fine detail in the enamel to be revealed by X-rays emerging at B. Suggest, with reference to the ratio in (b)(i), why the contrast at B is much greater than the contrast at A. [2]\n(c) A complete dental record of all the teeth in a patient's mouth requires about 20 separate X-ray exposures. Image intensifiers are now used in dentistry to allow a single image to be made of all the teeth with one exposure. Outline the advantages of this for the patient. [2]\n(d) The table shows data about the acoustic impedance of some materials that would be involved in the transmission of ultrasound through a tooth.\n| Material | Acoustic impedance / relative units |\n| tissue | 1.7 |\n| decayed tissue | 1.6 |\n| enamel | 7.8 |\n| air | $4.0\\times10^{-4}$ |\nWithout carrying out a calculation, outline two reasons why ultrasound is not used to detect the presence of decay inside a tooth. [2]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "17": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.11"
+   ],
+   "text_clean": "17. This question is about the use of lasers.\nOutline how laser light can be used to determine the percentage of oxygen in the blood. [3]",
+   "answer_status": "ok",
+   "note": "audit: pulse oximetry; no laser physics"
+  },
+  "18": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.11",
+    "E.3"
+   ],
+   "text_clean": "18. This question is about radiation used in medicine.\nIn one type of radiation therapy, bismuth-213 is placed in or near a tumour in the body. Bismuth-213 is an unstable nuclide that decays both by the emission of alpha particles and by the emission of low-energy beta particles. The nuclide has a physical half-life of 45 minutes and a biological half-life of 5 days.\n(a) (i) State why the biological half-life of bismuth-213 is of little medical importance. [1]\n(ii) Outline the advantages of a nuclide such as bismuth-213 in radiation therapy. [2]\n(b) Bismuth-213 is used to irradiate cancerous tumours.\nThe following data are available.\nMass of tumour $= 4.5\\times10^{-2}$ kg\nInitial activity of source $= 7.2\\times10^{8}$ Bq\nEnergy of emitted alpha particles $= 6.0$ MeV\nQuality factor of alpha radiation $= 10$\n(i) Show that about $10^{12}$ decays will take place in the first 45 minutes after the bismuth is inserted into the tumour. [2]\n(ii) Determine the dose equivalent during the first 45 minutes after the bismuth is inserted into the tumour. [3]",
+   "answer_status": "ok"
+  },
+  "19": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "19. This question is about particles.\n(a) The $\\Sigma^+$ particle can decay into a $\\pi^0$ particle and another particle Y as shown in the Feynman diagram.\n[Diagram: Feynman diagram; $\\Sigma^+$ (quarks s, u, u) on the left; the s quark emits exchange particle X and becomes a u quark; X produces $\\bar{u}$ and d; u and $\\bar{u}$ form the $\\pi^0$; d, u, u form Y]\n(i) Identify the exchange particle X. [1]\n(ii) Identify particle Y. [1]\n(iii) Outline the nature of the $\\pi^0$. [2]\n(b) The exchange particle X in (a) has a range of 1.2 fm. Determine, in $\\text{MeV c}^{-2}$, the mass of X. [2]\n(c) The $\\pi^0$ particle can decay with the emission of two gamma rays, each one of which can subsequently produce an electron and a positron.\n(i) State the process by which the electron and the positron are produced. [1]\n(ii) Sketch the Feynman diagram for the process in (c)(i). [2]\n(d) Discuss whether strangeness is conserved in the\n(i) decay of the $\\Sigma^+$ particle in (a). [1]\n(ii) creation of an electron and positron in (c). [1]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "20": {
+   "topics": [
+    "X",
+    "D"
+   ],
+   "subtopics": [
+    "X.2",
+    "D.3"
+   ],
+   "text_clean": "20. This question is about a synchrotron.\n(a) The diagram shows part of a synchrotron.\n[Diagram: circular evacuated tube ringed by deflecting magnets, with an accelerating cavity; injected particles enter and extracted particles leave tangentially]\n(i) Outline the role of the electric fields and the magnetic fields in the operation of this part of the synchrotron. [2]\n(ii) Explain why the electric and magnetic fields must vary as the particles accelerate. [4]\n(b) The magnetic flux density $B$ required to maintain a particle of mass $m$ and charge $q$ in a circular path of radius $r$ at a speed $v$ is given below.\n$B = \\frac{mv}{qr}$\nThe radius of the main ring of a synchrotron has a circumference of 27 km. Protons of energy 400 GeV travel around the main ring at close to the speed of light. Estimate the magnetic flux density required to maintain protons in this orbit. [3]\n(c) State two advantages of international cooperation for research using facilities such as that at CERN in Geneva. [2]",
+   "answer_status": "ok",
+   "qtype": "long"
+  },
+  "21": {
+   "topics": [
+    "X"
+   ],
+   "subtopics": [
+    "X.2"
+   ],
+   "text_clean": "21. This question is about scattering experiments.\nExplain how high-energy protons can be used to provide evidence about the nature of quarks in scattering experiments. [4]",
+   "answer_status": "ok"
+  },
+  "22": {
+   "topics": [
+    "X",
+    "E"
+   ],
+   "subtopics": [
+    "X.12",
+    "E.5"
+   ],
+   "text_clean": "22. This question is about nucleosynthesis.\nNucleosynthesis occurred for a time of about 17 minutes in the early universe.\n(a) Explain what is meant by nucleosynthesis. [1]\n(b) Outline the conditions that determine the time scale for nucleosynthesis. [3]",
+   "answer_status": "ok"
+  }
+ },
+ "exam_note": "Options E-J (2009 syllabus). MS crops for Q9,10,11,14,15 fixed via overrides (boundary slivers)."
+}

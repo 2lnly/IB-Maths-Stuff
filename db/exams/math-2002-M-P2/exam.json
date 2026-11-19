@@ -1,0 +1,275 @@
+{
+ "exam_id": "math-2002-M-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2002,
+ "session": "May",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2002 May Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2002 May Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); marks sum matches expected total 100",
+ "qp_pages": 12,
+ "questions": [
+  {
+   "id": "math-2002-M-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 16]\nThe points A, B, C, D have the following coordinates\nA : (1, 3, 1) B : (1, 2, 4) C : (2, 3, 6) D : (5, – 2, 1) .\n→ →\n(a) (i)Evaluate the vector product AB �AC , giving your answer in terms of\nthe unit vectors i , j , k .\n(ii)Find the area of the triangle ABC . [6 marks]\nThe plane containing the points A, B, C is denoted by Πand the line passing\nthrough D perpendicular to Πis denoted by L .The point of intersection of\nLand Πis denoted by P .\n(b) (i)Find the cartesian equation of Π .\n(ii)Find the cartesian equation of L . [5 marks]\n(c) Determine the coordinates of P . [3 marks]\n(d) Find the perpendicular distance of D from Π . [2 marks]",
+   "ms_text": "→ →\n(A1)(A1) 1. (a) (i) AB = −+ j 3 k andAC =+ i 5 k\ni j k\n→ →\nAB × AC = 0 − 1 3 (M1)\n1 0 5\n= − 5 i + 3 j + k (A1)\n1\n= ×− 5 i + 3 j + k (ii) Area (M1)\n2\n35\n= (A1) (accept 2.96)\n2\n[6 marks]\n(b) (i) The equation of the plane Π is\n(, xyz ,).(5, 3,1) − = c, that is, − 5 x + 3 y + z = c (M1)(A1)\nwhere c = −+ 5 91 += 5, that is, − 5 x + 3 y + z = 5 (A1)\nNote: Award (M1)(A1)(A0) if answer not given in Cartesian form.\n(ii) Equations of L are\nx − 5 y + 2\n= = − z 1 (M1)(A1)\n− 5 3\nNote: Award (M1)(A0) if answer not given in Cartesian form.\n[5 marks]\n(c) L meets Π where\n− − λ + λ − + λ += 5(5 5) 3(3 2) 1 5 (M1)\n⇒ λ = 1 (A1)\nPoint of intersection is (0, 1, 2). (Accept j + 2 k .) (A1)\n[3 marks]\n2 2 2 (M1) (d) Perpendicular distance is 5 + 3 + 1\n= 35(Accept ± 35 or ± 5.92) (A1)\n[2 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.16",
+    "3.18",
+    "3.17",
+    "3.14"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 16]\nThe points A, B, C, D have the following coordinates\nA : $(1, 3, 1)$  B : $(1, 2, 4)$  C : $(2, 3, 6)$  D : $(5, -2, 1)$.\n(a) (i) Evaluate the vector product $\\vec{AB}\\times\\vec{AC}$, giving your answer in terms of the unit vectors $\\mathbf{i}, \\mathbf{j}, \\mathbf{k}$.\n(ii) Find the area of the triangle ABC. [6 marks]\nThe plane containing the points A, B, C is denoted by $\\Pi$ and the line passing through D perpendicular to $\\Pi$ is denoted by $L$. The point of intersection of $L$ and $\\Pi$ is denoted by P.\n(b) (i) Find the cartesian equation of $\\Pi$.\n(ii) Find the cartesian equation of $L$. [5 marks]\n(c) Determine the coordinates of P. [3 marks]\n(d) Find the perpendicular distance of D from $\\Pi$. [2 marks]"
+  },
+  {
+   "id": "math-2002-M-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 12,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 12]\nThe function y= f (x) satisfies the differential equation\nd y 2 2 2\n2 x = x + y ( x > 0 )\nd x\n(a) (i)Using the substitution y= �x , show that\nd �\n2 x =(–). � 12\nd x\n(ii)Hence show that the solution of the original differential equation is\n2 x\ny = x – , where c is an arbitrary constant.\n(ln x + c )\n(iii)Find the value of cgiven that y = 2 when x = 1 . [7 marks]\n(b) The graph of y = f (x) is shown below.The graph crosses the x-axis at A .\ny\n0\nA x 1 5\n(i)Write down the equation of the vertical asymptote.\n(ii)Find the exact value of the x-coordinate of the point A .\n(iii)Find the area of the shaded region. [5 marks]",
+   "ms_text": "d v 2 2 2 2\n2 x v + x = x + vx (M1) 2. (a) (i)\nd x\n+ 2 d v 1 v\nv + =\nxx\nd 2\nd v\n⇒ = − 2 2 x ( v 1) (A1)(AG)\nd x\nd v d x\n(ii) ∫ ∫\n2( 1)= 2 (M1)\nv − x\n− 2\n= ln x + c (A1)\nv − 1\n− 2\n= ln x + c\ny (A1)\n− 1\nx\n− 2 y − 2 x\n= −⇒ 1 = y − x (A1)\nln x + c x ln x + c\n2 x\n⇒ y = x − (AG)\nln x + c\nNote: For other approaches award marks as follows\n(M1) for separation of variables; (A1) for correct integration;\n(A1) for substitution; (A1) for solving for y.\n(iii) y = 2, x =→ 1 c = − 2 (A1)\n[7 marks]\n(b) (i) x = 2e or x = 7.39\n2 (A1) Note: Award (A0) if answer is not given as an equation (just eor 7.39)\n2 x\n(ii) x = ⇒ ln x = 4 (M1)\nln x − 2\n4 ⇒ x = e\n(must be exact) (A1)\nNote: Award (M0)(G1) for x= 54.6.\n(iii) Area = 46.7 (G2)\nOR\n5\nArea =∫yx d (M1)\n1\n= 46.7 (G1)\n[5 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.11",
+    "2.9",
+    "2.4"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 12]\nThe function $y = f(x)$ satisfies the differential equation\n$2x^2\\frac{dy}{dx} = x^2 + y^2 \\quad (x > 0)$\n(a) (i) Using the substitution $y = vx$, show that $2x\\frac{dv}{dx} = (v-1)^2$.\n(ii) Hence show that the solution of the original differential equation is $y = x - \\frac{2x}{(\\ln x + c)}$, where $c$ is an arbitrary constant.\n(iii) Find the value of $c$ given that $y = 2$ when $x = 1$. [7 marks]\n(b) The graph of $y = f(x)$ is shown below. The graph crosses the $x$-axis at A.\n[Graph: y = f(x) for x > 0; left branch rising from the origin to a vertical asymptote, with the region under the curve between x = 1 and x = 5 shaded; right branch rising from below the x-axis, crossing it at A]\n(i) Write down the equation of the vertical asymptote.\n(ii) Find the exact value of the $x$-coordinate of the point A.\n(iii) Find the area of the shaded region. [5 marks]"
+  },
+  {
+   "id": "math-2002-M-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 14]\n(i) (a) Find the determinant of the matrix\n1 1 2\n1 2 1\n2 1 5\n[1 mark]\n(b) Find the value of λ for which the following system of equations can be\nsolved.\n1 1 2 x 3\n1 2 1 y 4 =\n2 1 5 z λ\n[3 marks]\n(c) For this value of λ , find the general solution to the system of\nequations. [3 marks]\n(ii) (a) Prove using mathematical induction that\nn n\n2 1 2 2 n– 1 =\n, forall positive integer values of n . [5 marks]\n0 1 0 1\n(b) Determine whether or not this result is true for n = –1 . [2 marks]",
+   "ms_text": "3. (i) (a) Determinant = 0 (A1)\n[1 mark]\n(b) Using row operations,\n1 1 2 x 3\n0 1 − 1 y = 1 (M1)(M1)\n0 − 1 1 z λ − 6\nwhence λ = 5 . (A1)\nNote: There are other methods.\n[3 marks]\n= µ =+ µ = − µ (c) Put z , so that y 1 and x 2 3, (M1)(A1)(A1)\nor y = µ so that z = µ − 1and x = 5 − 3 µ .\nNote: Award (M1) for any correct method and (A1) for each correct equation\n(ignore the equation that identifies the parameter).\nAward no marks for particular solutions.\n[3 marks]\n1 1 1\n2 1 2 1 2 2 − 1\n(ii) (a) Let n = = = (A1)\n1,0\n1 0 1 0 1\nThus true for n = 1 .\nAssume true for n = k , that is,\nk k k\n2 1 2 2 − 1\n= (M1)\n0 1 0 1\nConsider\nk + 1 k k k + 1 k + 1\n2 1 2 2 − 1 2 1 2 2 − 1 (M1)\n= =\n(A1) 0 1 0 1 0 1 0 1\nTrue for k ⇒ true for k + 1 . (Or some correct concluding statement.) (A1)\n[5 marks]\n1 1\n2 1 −\n−1\n(b) A = A = 2 2 (A1)\n0 1\n0 1\n1 1 − 1 − 1\n2 2 − 1 − −1\nn = −1⇒ = 2 2 = Α (R1)\n0 1\n0 1\n[2 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.16",
+    "1.15",
+    "1.L1"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 14]\n(i) (a) Find the determinant of the matrix $\\begin{pmatrix}1&1&2\\\\1&2&1\\\\2&1&5\\end{pmatrix}$. [1 mark]\n(b) Find the value of $\\lambda$ for which the following system of equations can be solved.\n$\\begin{pmatrix}1&1&2\\\\1&2&1\\\\2&1&5\\end{pmatrix}\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}3\\\\4\\\\\\lambda\\end{pmatrix}$ [3 marks]\n(c) For this value of $\\lambda$, find the general solution to the system of equations. [3 marks]\n(ii) (a) Prove using mathematical induction that $\\begin{pmatrix}2&1\\\\0&1\\end{pmatrix}^n=\\begin{pmatrix}2^n&2^n-1\\\\0&1\\end{pmatrix}$, for all positive integer values of $n$. [5 marks]\n(b) Determine whether or not this result is true for $n = -1$. [2 marks]"
+  },
+  {
+   "id": "math-2002-M-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 13]\nTwo children, Alan and Belle, each throw two fair cubical dice simultaneously.The score for\neach child is the sum of the two numbers shown on their respective dice.\n(a) (i)Calculate the probability that Alan obtains a score of 9 .\n(ii)Calculate the probability that Alan and Belle both obtain a score of 9 . [2 marks]\n(b) (i)Calculate the probability that Alan and Belle obtain the same score.\n(ii)Deduce the probability that Alan’s score exceeds Belle’s score. [4 marks]\n(c) Let Xdenote the largest number shown on the four dice.\n4\n= x\n(i)Show that P( X ≤ x ) , for x= 1, 2, .... 6\n6\n(ii)Copy and complete the following probability distribution table.\nx 1 2 3 4 5 6\n1 15 671\nP(X= x)\n1296 1296 1296\n(iii)Calculate E(X) . [7 marks]",
+   "ms_text": "1(0.111) 4. (a) (i) P(Alan scores 9) = = (A1)\n9\n2\n1 1\n(ii) P(Alan scores 9 and Belle scores 9) = = (0.0123) = (A1)\n9 81\n[2 marks]\n2 2 2 2 2\n1 2 6 2 1\n(b) (i) P(Same score) = + + …+ +…+ + (M1)\n36 36 36 36 36\n73(0.113) = = (A1)\n648\n1 73\n(ii) P( A > B ) = 1 − (M1)\n2 648\n575(0.444) = = (A1)\n1296\n[4 marks]\n=x (c) (i) P(One number ≤ x ) (with some explanation) (R1)\n6\n4\nx\nP( X ≤ x ) = P(All four numbers ≤ x ) = (M1)(AG)\n6\n4 4\nx x − 1\n(ii) P( X = x ) = P( X ≤ x ) − P( X ≤ x − 1) = −\n6 6\nx 1 2 3 4 5 6\n1 15 65 175 369 671\n= P( X x )\n1296 1296 1296 1296 1296 1296 (A1)(A1)(A1)\nNote: Award (A3) if table is not completed but calculation of E(X) in part (iii) is correct.\n1 15 671\n(iii) E( X ) =× 1 +× 2 + …+× 6 (M1)\n1296 1296 1296\n6797(5.24) = = (A1)\n1296\n[7 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7",
+    "4.6",
+    "4.5"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 13]\nTwo children, Alan and Belle, each throw two fair cubical dice simultaneously. The score for each child is the sum of the two numbers shown on their respective dice.\n(a) (i) Calculate the probability that Alan obtains a score of 9.\n(ii) Calculate the probability that Alan and Belle both obtain a score of 9. [2 marks]\n(b) (i) Calculate the probability that Alan and Belle obtain the same score.\n(ii) Deduce the probability that Alan's score exceeds Belle's score. [4 marks]\n(c) Let $X$ denote the largest number shown on the four dice.\n(i) Show that $P(X \\le x) = \\left(\\frac{x}{6}\\right)^4$, for $x = 1, 2, \\dots, 6$\n(ii) Copy and complete the following probability distribution table.\n$x$: 1 | 2 | 3 | 4 | 5 | 6\n$P(X = x)$: $\\frac{1}{1296}$ | $\\frac{15}{1296}$ | | | | $\\frac{671}{1296}$\n(iii) Calculate $E(X)$. [7 marks]"
+  },
+  {
+   "id": "math-2002-M-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 15]\nThe function fis defined by\n2\nx – x + 1\n= fx () .\n2\nx + x + 1\n(a) (i)Find an expression for f �(x) , simplifying your answer.\n(ii)The tangents to the curve of f (x) at points A and B are parallel to the\nx-axis.Find the coordinates of A and of B . [5 marks]\n(b) (i)Sketch the graph of y= f �(x) .\n(ii)Find the x-coordinates of the three points of inflexion on the graph of f . [5 marks]\n(c) Find the range of\n(i)f ;\n(ii)the composite function f �f . [5 marks]",
+   "ms_text": "− 2 + + − + 2 − + (2 x 1)( x x 1) (2 x 1)( x x 1)\n5. (a) (i) f ′ () x = (M1)(A1)\n2 + + 2 ( x x 1)\n2 2( x − 1)\n= (A1)\n2 2 ( x + x + 1)\n(ii) f ′ () x = 0 ⇒ x = ± 1\n1 1\n− − A1, B(1, 3) or A(1, 3) B1, (A1)(A1)\n3 3\n[5 marks]\n(b) (i) y\n–1 1 x\n–2\n(G2)\nNote: Award (G1) for general shape and (G1) for indication of scale.\n(ii) The points of inflexion can be found by locating the max/min on the graph of .′f\nThis gives x = − 1.53, − 0.347,1.88 . (G3)\nOR\n3 − 4( x − 3 x − 1)\nf ′′ () x = (M1)\n2 3 ( x + x + 1)\n3 f ′′ () x = 0 ⇒ x − 3 x −= 1 0 (A1)\n⇒ x = 1.53, − 0.347,1.88 (G1)\n[5 marks]\n(c) The graph of y = f(x) helps:\n3\n1/3\n–1 +1\n1, 3 (i) Range of f is .\n(A1)(A1)\n3\n1, 3 (ii) We require the image set of .\n3\n1 1\n− + 1\n1 7 9 −+ 31 7 = 9 3\nf = , f (3) = = (M1)\n1 1 3 13 9 + 31 + 13\n+ + 1\n9 3\n1 7\nRange of g is , . (A1)(A1)\n313\nNote: Since the question did not specify exact ranges accept open intervals\nor numerical approximations (e.g. [0.333, 0.538]).\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.7",
+    "5.6",
+    "5.8",
+    "2.5",
+    "2.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 15]\nThe function $f$ is defined by $f(x) = \\frac{x^2 - x + 1}{x^2 + x + 1}$.\n(a) (i) Find an expression for $f'(x)$, simplifying your answer.\n(ii) The tangents to the curve of $f(x)$ at points A and B are parallel to the $x$-axis. Find the coordinates of A and of B. [5 marks]\n(b) (i) Sketch the graph of $y = f'(x)$.\n(ii) Find the $x$-coordinates of the three points of inflexion on the graph of $f$. [5 marks]\n(c) Find the range of\n(i) $f$;\n(ii) the composite function $f \\circ f$. [5 marks]"
+  },
+  {
+   "id": "math-2002-M-P2-q6",
+   "num": "6",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 30]\n(i) The random variable Xis Poisson distributed with mean µand satisfies\nP(X = 3) = P(X = 0) + P(X = 1) .\n(a) Find the value of µ , correct to four decimal places. [3 marks]\n(b) For this value of µevaluate P(2 ≤X ≤4) . [3 marks]\n(ii) The weights of male nurses in a hospital are known to be normally\ndistributed with mean µ = 72 kg and standard deviation σ = 7.5 kg .The\nhospital has a lift (elevator) with a maximum recommended load of 450 kg.\nSix male nurses enter the lift. Calculate the probability pthat their\ncombined weight exceeds the maximum recommended load. [5 marks]\n(iii) It is known that the yield of any variety of corn (i.e. the weight of the corn\nharvested per area unit) is normally distributed.\nA farmer has planted eight fields with one variety of corn which has a yield\nin tons per hectare given in the following table.\nField 1 2 3 4 5 6 7 8\nYield 10.1 8.6 9.8 8.7 9.1 9.3 9.7 9.9\nHe has planted six other fields with a second variety of corn with a yield in\ntons per hectare given in the following table.\nField A B C D E F\nYield 8.9 8.2 9.4 7.9 9.1 8.1\nYou may assume that the variances of the yield of both varieties are equal.\nAt the 5% level of significance, test the hypothesis that both varieties have\nthe same yield, against the two sided alternative, clearly stating both\nhypotheses. [10 marks]\n(iv) Six coins are tossed simultaneously 320 times, with the following results.\n0 tail 5 times\n1 tail 40 times\n2 tails 86 times\n3 tails 89 times\n4 tails 67 times\n5 tails 29 times\n6 tails 4 times\nAt the 5% level of significance, test the hypothesis that all the coins are fair. [9 marks]",
+   "ms_text": "6. (i) (a) The given condition implies that\n3 µ\n− µ = − µ + µ − µ (M1) e e e\n6\n⇒ µ 3 − µ − = 6 6 0 (A1)\n⇒ µ \" 2.8473 (G1)\n[3 marks]\n(b) P(2 ≤ X ≤ 4) = P( X = 2) + P( X = 3) + P( X = 4) (M1)\n2 − µ 3 − µ 4 − µ µ e µ e µ e\nP( X = 2) = = 0.235, P( X = 3) = = 0.223, P( X = 4) = = 0.159 (G1)\n2 6 24\nHence P(2 ≤ X ≤ 4) = 0.617 (A1)\nOR\nP(2 ≤ X ≤ 4) = P( X ≤ 4) − P( X ≤ 1) (M1)\n= 0.8402 − 0.2231 (G1)\n= 0.617 (G1)\n[3 marks]\n2\n(ii) Let W be the weight of a male nurse, W ~ N(72, 7.5)\n2 (7.5)\nσ 2 = = (A1)(A1) W is normally distributed with mean µ= 72 , and variance 9.375 .\n6\n450\nHence p = P(6 W > 450) = P W ≥ . (M1)\n6\n450\n− 72\n6 (A1)\n=−Φ = p 1 ()where t t \" 0.980\n9.375\nso that p \" 0.164 (A1)\nOR\np = 0.164 (G2)\n[5 marks]\n(iii) H both varieties have the same mean yield, H varieties have a different mean yield. (C1)\n0 1\nThe mean of the yield of the first sample is 9.4. (A1)\nThe unbiased estimate for the variance of the yield of the first sample is (0.563) 2 = 0.317 . (A1)\nThe mean of the yield of the second sample is 8.6. (A1)\n2 The unbiased estimate for the variance of the yield of the second sample is (0.613) = 0.376 . (A1)\nIn this case the t-test (with 12 degrees of freedom) must be used. (C1)\n9.4 − 8.6\n= = Then t 2.534\n7 × (0.563) 2 +× 5(0.613) 2 1 1 (M1)(A1)\n+\n12 8 6\nt = 2.179 (A1)\n0.025,12\nSince 2.534 > 2.179 there is ground to reject the hypothesis H\n0 (R1)\nOR\nH both varieties have the same mean yield, H varieties have a different mean yield. (C1)\n0 1\nFor stating that a 2-sample t-test must be used (C1)\nFor correct value of p-number (0.0262) (G6)\nSince 0.0262 < 0.5 there is ground to reject the hypothesis H (R2) 0\nNote: If p-number is incorrect but the work shows intermediate values for mean and\nvariance award marks according to the first method.\n[10 marks]\n(iv) Let H be the hypothesis that all coins are fair, (C1) 0\nand let H be the hypothesis that not all coins are fair. (C1) 1\nLet T be the number of tails obtained, T is binomially distributed. (M1)\nT 0 1 2 3 4 5 6\nof 5 40 86 89 67 29 4\nef 5 30 75 100 75 30 5 (A3)\nNotes: Award (A2) if one entry on the third row is incorrect.\nAward (A1) if two entries on the third row are incorrect.\nAward (A0) if three or more entries on the third row are incorrect.\n2 2 2 2 2 2 2 (5 − 5) (40 − 30) (86 − 75) (89 − 100) (67 − 75) (29 − 30) (4 − 5)\nχ 2 = + + + + + +\ncalc\n5 30 75 100 75 30 5\n= 7.24 (A1)\n2 Also χ = 12.592\n(A1) 0.05, 6\nSince 7.24 < 12.592 , H cannot be rejected.\n0 (R1)\n[9 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L7",
+    "4.L9",
+    "4.L1",
+    "4.L4",
+    "4.12",
+    "4.8"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics",
+   "text_clean": "6. [Maximum mark: 30]\n(i) The random variable $X$ is Poisson distributed with mean $\\mu$ and satisfies $P(X = 3) = P(X = 0) + P(X = 1)$.\n(a) Find the value of $\\mu$, correct to four decimal places. [3 marks]\n(b) For this value of $\\mu$ evaluate $P(2 \\le X \\le 4)$. [3 marks]\n(ii) The weights of male nurses in a hospital are known to be normally distributed with mean $\\mu = 72$ kg and standard deviation $\\sigma = 7.5$ kg. The hospital has a lift (elevator) with a maximum recommended load of 450 kg. Six male nurses enter the lift. Calculate the probability $p$ that their combined weight exceeds the maximum recommended load. [5 marks]\n(iii) It is known that the yield of any variety of corn (i.e. the weight of the corn harvested per area unit) is normally distributed.\nA farmer has planted eight fields with one variety of corn which has a yield in tons per hectare given in the following table.\nField: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8\nYield: 10.1 | 8.6 | 9.8 | 8.7 | 9.1 | 9.3 | 9.7 | 9.9\nHe has planted six other fields with a second variety of corn with a yield in tons per hectare given in the following table.\nField: A | B | C | D | E | F\nYield: 8.9 | 8.2 | 9.4 | 7.9 | 9.1 | 8.1\nYou may assume that the variances of the yield of both varieties are equal.\nAt the 5% level of significance, test the hypothesis that both varieties have the same yield, against the two sided alternative, clearly stating both hypotheses. [10 marks]\n(iv) Six coins are tossed simultaneously 320 times, with the following results.\n0 tail: 5 times\n1 tail: 40 times\n2 tails: 86 times\n3 tails: 89 times\n4 tails: 67 times\n5 tails: 29 times\n6 tails: 4 times\nAt the 5% level of significance, test the hypothesis that all the coins are fair. [9 marks]"
+  },
+  {
+   "id": "math-2002-M-P2-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 30]\n(i) Let A , Band Cbe subsets of a given universal set.\n(a) Use a Venn diagram to show that (A ∩B) ∪C= (A ∪C) ∩(B ∪C) . [2 marks]\n(b) Hence, and by using De Morgan’s laws, show that\n(A�∩B) ∪C�= (A ∩C)�∩(B�∩C)�. [3 marks]\n(ii) Let Rbe a relation on Zsuch that for m �Z+, xRyif and only if m\ndivides x – y , where x , y�Z .\n(a) Prove that Ris an equivalence relation on Z . [4 marks]\n(b) Prove that this equivalence relation partitions Zinto mdistinct classes. [4 marks]\n(c) Let Zmbe the set of all the equivalence classes found in part (b).\nDefine a suitable binary operation +mon Zmand prove that (Zm , +m)\nis an additive Abelian group. [5 marks]\n(d) Let (K , ◊) be a cyclic group of order m . Prove that (K , ◊) is\n[4 marks] isomorphic to Zm.\n(iii) Let (G , �) be a group with subgroups (H , �) and (K , �) .Prove that\n(H ∪K , �) is a subgroup of (G , �) if and only if one of the sets Hand Kis\ncontained in the other. [8 marks]",
+   "ms_text": "7. (i) (a)\nA ∪ C ( ) ( A ∩ B ) ∪ C A\nA ( )\nC A ∩ B\nC\n( )\nB\nB B ∪ C ( A ∪ C ) ∩ ( B ∪ C )\n( ) ( )\n∩ ∪ = ∪ ∩ ∪ That is, ( A B ) C ( A C ) ( B C ) (M1)(A1)\n[2 marks]\n(b) From part (a) ( A ′ ∩ B ) ∪ C ′ = ( A ′ ∪ C ′ ) ∩ ( B ∪ C ′ ) . (A1)\nFrom De Morgan’s laws ( A ∩ C ) ′ = A ′ ∪ C ′ , and ( B ′ ∩ C ) ′ = B ∪ C ′ (A1)(A1)\nSo ( A ′ ∩ B ) ∪ C ′ = ( A ∩ C ) ′ ∩ ( B ′ ∩ C ) ′ (AG)\n[3 marks]\n(ii) (a) ∀∈Z a , a R a (A1)\n∀ ab , ∈ Z , a R b ⇒ m divides a − b ⇒ m divides b − a ⇒ b R a (A1)\n∀ ∈ ⇒ − − abc ,, Z , a R b and b R c m divides ( a b ) and m divides ( b c )\n⇒ m divides ( a − b ) + ( b − c ) ⇒ m divides ( a − c ) ⇒ a R c (A1)\nHence R is an equivalence relation. (C1)\n[4 marks]\n(b) For any reasonable attempt to explain that the equivalence relation partitions\nthe set. (C2)\nFor either the list of equivalence classes that partition Z or an attempt to\nexplain that there are m equivalence classes. (C2)\n[4 marks]\n(c) For an attempt to establish closure. (M1)\nAssociativity : comes from the associativity of + in Z. (A1)\nCommutativity : comes from the commutativity of + in Z. (A1)\nThere is an identity element : [0]. (A1)\nEvery element has an inverse k = 1, … , m − 1 the inverse of [k], is [m – k] and\n(A1)\n[0] is its own inverse\nNotes: If a reasonable attempt on the general case is made to prove any of the above,\naward the corresponding mark.\nAward a maximum of (A4) if the properties above are established for a specific\nvalue of m.\nAward (A1) if all five properties are listed without any further amplification.\n[5 marks]\n(d) For indicating knowledge of what a cyclic group is (C1)\nFor stating ( Z ; + )\nm m (A1)\nFor identifying [1] as the generator of ( Z ; + )\nm m (C1)\nFor stating that two cyclic groups of the same order are isomorphic or for\n(C1)\nattempting to identify an isomorphism.\n[4 marks]\n(iii) If one of the sets H and K is contained in the other then either H ∪ K = H or H ∪ K = K .\nIn either case it is a subgroup of ( G ,)# . (C2)\nOnly if:\nConversely, suppose that ( H ∪ K ,) # is a subgroup of ( G ,)# and that H is not\ncontained in K. (M1)\nThen there exists an element b of H which is not included in K. (C1)\nLet a be any element of K.\nThen ab ∈ H ∪ K (since ( H ∪ K ,) # is a group). (C1)\n− 1 If ab ∈ K then b = aab ∈ K which is a contradiction of our hypothesis. (C1)\n−1 ∈ Hence ab ∉ K and therefore ab ∉ H so that abb H (C1)\nwhich shows that K ⊆ H since a was any element of K. (C1)\nTherefore H ⊆ K or K ⊆ H . (AG)\nOR\nProof by contradiction: (M1)\n⊄ ∈ , ∉ K H then there exists m Km H (C1)\nAnd\n⊄ H K then there exists n ∈ Hn , ∉ K . (C1)\n−1 ∈ Suppose m # n ∈ H then m # n # n H is a contradiction (C1)\n−1 Suppose m # n ∈ K then n = m # mn # ∈ K is a contradiction (C1)\n∉ ∪ Hence m # n H K a contradiction (C1)\nTherefore H ⊆ K or K ⊆ H (AG)\n[8 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.2",
+    "7.8",
+    "7.1",
+    "7.5",
+    "7.9",
+    "7.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, Relations and Groups",
+   "text_clean": "7. [Maximum mark: 30]\n(i) Let $A$, $B$ and $C$ be subsets of a given universal set.\n(a) Use a Venn diagram to show that $(A \\cap B) \\cup C = (A \\cup C) \\cap (B \\cup C)$. [2 marks]\n(b) Hence, and by using De Morgan's laws, show that $(A' \\cap B) \\cup C' = (A \\cap C)' \\cap (B' \\cap C)'$. [3 marks]\n(ii) Let $R$ be a relation on $\\mathbb{Z}$ such that for $m \\in \\mathbb{Z}^+$, $x R y$ if and only if $m$ divides $x - y$, where $x, y \\in \\mathbb{Z}$.\n(a) Prove that $R$ is an equivalence relation on $\\mathbb{Z}$. [4 marks]\n(b) Prove that this equivalence relation partitions $\\mathbb{Z}$ into $m$ distinct classes. [4 marks]\n(c) Let $\\mathbb{Z}_m$ be the set of all the equivalence classes found in part (b). Define a suitable binary operation $+_m$ on $\\mathbb{Z}_m$ and prove that $(\\mathbb{Z}_m, +_m)$ is an additive Abelian group. [5 marks]\n(d) Let $(K, \\Diamond)$ be a cyclic group of order $m$. Prove that $(K, \\Diamond)$ is isomorphic to $\\mathbb{Z}_m$. [4 marks]\n(iii) Let $(G, \\circ)$ be a group with subgroups $(H, \\circ)$ and $(K, \\circ)$. Prove that $(H \\cup K, \\circ)$ is a subgroup of $(G, \\circ)$ if and only if one of the sets $H$ and $K$ is contained in the other. [8 marks]"
+  },
+  {
+   "id": "math-2002-M-P2-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 30]\n(i) (a) Use the Euclidean algorithm to find the greatest common divisor of\n568 and 208 . [3 marks]\n(b) Hence or otherwise, find two integers m and n such that\n568m– 208n= 8 . [4 marks]\n(ii) A graph is said to be coloured with ncolours if a colour can be assigned\nto each vertex in such a way that every vertex has a colour which is different\nfrom the colours of all its adjacent vertices.Show that the complete graph\nKnrequires ncolours to be coloured. [3 marks]\n(iii) Let Gbe a directed graph. The indegreeof any vertex Vof Gis the number\nof directed edges coming in to V. The outdegreeof Vis the number of\ndirected edges going out of V.\nLet S1be the sum of the indegrees of all the vertices of G, S2the sum of\nthe outdegrees of all the vertices, and S3the number of directed edges of G.\nProve that S1= S2= S3 . [2 marks]\n(iv) (a) Define the isomorphism of two graphs G and H . [3 marks]\n(b) Determine whether the two graphs below are isomorphic. Give a\nreason for your answer.\nU\nB C\nD V W A\nE F X Y Z\nGraph G Graph H\n[4 marks]\n(c) Find an Eulerian trail for the graph Gstarting with vertex B . [3 marks]\n(d) State a result which shows that the graph Hhas an Eulerian circuit. [2 marks]\n(v) The diagram below shows a weighted graph.\nK 5 L\n5 5 4 3\n8 2\nJ N 3\nM\n3 7 2 1\n2\nP Q\nUse Prim’s algorithms to find a minimal spanning tree, starting at J .Draw\nthe tree, and find its total weight. [6 marks]",
+   "ms_text": "8. (i) (a) 568 = 2208152; 208 × + = 152 + 56;152 = 256 × + 40; 56 = 4016; + (M1)\n= × + = × 40 216 8;16 28 (M1)\nHence 8 is the greatest common divisor of 568 and 208. (A1)\n[3 marks]\n(b) 8 = 40 −× 216 = −× 256 +× 340 =× 3152 −× 856\n= −× 820811152 + × = 11568 × − 30208 × (M1)(M1)\nHence m = 11and n = 30 . (A1)(A1)\n[4 marks]\n(ii) Any vertex of K has n − 1 adjacent vertices and therefore its colour must be\nn\ndifferent from the colour of every other vertex. (M1)\nSince there are n vertices, the colouring of K requires n colours.\nn (R2)\n[3 marks]\n(iii) Each directed edge leaves one vertex and goes into another so each edge contributes\none “ins “ and one “out”, (M1)\nso the total number of “outs” = total number of “ins” = total number of edges (C1)\nHence S = S = S .\n1 2 3 (AG)\n[2 marks]\n(iv) (a) Two graphs G and H are isomorphic if :\n(1) there exists a bijection Φ between the set of all vertices of H onto the set\nof all vertices of G (C1)\n(2) whenever there are k edges between two vertices, say a and b of G there are\nk edges between Φa () and Φb () . (C2)\nOR\nThey have the same adjacency matrix. (C3)\n[3 marks]\n(b) When two graphs are isomorphic, the isomorphism preserves the degree of\neach vertex. (C2)\nIn this case they cannot be isomorphic because G has a vertex,\n{B}, of degree 3 while H has no vertex of degree 3. (A2)\n[4 marks]\n(c) B → A → E → B → C → E → F → C → D → F (C3)\nNote: There are alternative correct answers.\n[3 marks]\n(d) H has an Eulerian circuit because all the vertices of H have an even degree. (C2)\n[2 marks]\n(v) K\nL\n4 5\nM N 3\nJ\n1 2\n2\nP Q (C4) 3\nL\nOR\nK L\n4 3 5\n2\nJ M\nN\n2\n1\nQ (C4) P\nTotal weight = 17 (A2)\nNote: There are other possible spanning trees.\n[6 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6"
+   ],
+   "subtopics": [
+    "6.6",
+    "6.8",
+    "6.7",
+    "6.3",
+    "6.1",
+    "6.12"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "option": "Discrete Mathematics",
+   "text_clean": "8. [Maximum mark: 30]\n(i) (a) Use the Euclidean algorithm to find the greatest common divisor of 568 and 208. [3 marks]\n(b) Hence or otherwise, find two integers $m$ and $n$ such that $568m - 208n = 8$. [4 marks]\n(ii) A graph is said to be coloured with $n$ colours if a colour can be assigned to each vertex in such a way that every vertex has a colour which is different from the colours of all its adjacent vertices. Show that the complete graph $K_n$ requires $n$ colours to be coloured. [3 marks]\n(iii) Let $G$ be a directed graph. The indegree of any vertex $V$ of $G$ is the number of directed edges coming in to $V$. The outdegree of $V$ is the number of directed edges going out of $V$.\nLet $S_1$ be the sum of the indegrees of all the vertices of $G$, $S_2$ the sum of the outdegrees of all the vertices, and $S_3$ the number of directed edges of $G$. Prove that $S_1 = S_2 = S_3$. [2 marks]\n(iv) (a) Define the isomorphism of two graphs $G$ and $H$. [3 marks]\n(b) Determine whether the two graphs below are isomorphic. Give a reason for your answer.\n[Diagram: Graph G with vertices A, B, C, D, E, F and edges AB, AE, BC, BE, CE, CF, CD, DF, EF; Graph H, a triangle with vertices U, X, Z, midpoints V (on UX), W (on UZ), Y (on XZ), with edges UV, UW, VW, VX, VY, WY, WZ, XY, YZ] [4 marks]\n(c) Find an Eulerian trail for the graph $G$ starting with vertex B. [3 marks]\n(d) State a result which shows that the graph $H$ has an Eulerian circuit. [2 marks]\n(v) The diagram below shows a weighted graph.\n[Diagram: weighted graph with vertices J, K, L, M, N, P, Q; edges JK = 5, JM = 8, JP = 7, KL = 5, KM = 5, KN = 4, MN = 2, MP = 2, MQ = 3, LN = 3, LQ = 3, NQ = 1, PQ = 2]\nUse Prim's algorithms to find a minimal spanning tree, starting at J. Draw the tree, and find its total weight. [6 marks]"
+  },
+  {
+   "id": "math-2002-M-P2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 30]\n(i) (a) Using the mean value theorem or otherwise show that for all positive\n1\nintegers n , n ln 1 + 1 . ≤\nn [3 marks]\n(b) Show that for all real numbers ssuch that 0 < s < 4 ,\n1 1\n+ ≥ 1 . [2 marks]\ns 4 – s\n(c) By integrating the inequality of part (b) over the interval [t, 2], or\notherwise, show that for all real numbers tsuch that 0 < t ≤2 ,\n4 – t\n[6 marks] ln 2 – t .\n≥\nt\n(d) Hence or otherwise show that for all positive integers n ,\n1 2 n\n+ [4 marks] n ln 1 .\n≥\nn 2 n + 1\n(e) Using parts (a) and (d), or otherwise, show that\nn\n1\nlim 1 + = e . [4 marks]\nn →∞ n\n(ii) Consider the function f (x)= lnx – 1 .Using the Newton-Raphson method,\nstarting at x1 = 2 , find an approximate solution of the equation f (x) = 0 .\nHence calculate e giving your answer correct to seven decimal places. [5 marks]\nLet g : R+→Rbe defined by g (x) = x +2.7 – 2.7 lnx . (iii)\n(a) Show that g (e) = e . [1 mark]\n(b) Hence, starting with x= 2 use fixed point iteration to evaluate e, giving\nyour answer correct to seven decimal places.Justify your answer. [5 marks]",
+   "ms_text": "1\n1 1 + nt d 1 1\n+ = = + 9. (i) (a) n ln1 n ∫ n with1<c<1 (M1)(A1)\nn 1 t c n\n1\nhence 1 < + < 1 sothat n 1n1 1\n(A1)(AG)\nc n\nOR\n1\n1 1 + nt d 1 1\n+ = = + n 1n1 n ∫ n with1< c < 1 (M1)(A1)\nn 1 t c n\n1\n1 +\n≤ n ∫ n d t ≤ 1 (A1)(AG)\n1\n[3 marks]\n2 2 (b) Since ∀∈ s ]0, 4[, s − 4 s + 4 = ( s − 2) ≥ 0 (A1)\n1 1 4\n+ = ≥ 1 (A1)\ns 4 − s s (4 − s )\nNote: Award (G1) if the inequality is shown by calculator.\n[2 marks]\n(c) From part (b)\n2 d s 2 d s 2\n+ ≥ ∫ ∫ ∫ d s (M1)(A1)\nt s t 4 − s t\n2 d s\n∫t = ln2 − ln t (A1)\ns\n2d s\n∫t = ln(4 − t ) − ln 2 (A1)\n4 − s\n2\n∫ d s = 2 − t (A1)\nt\nHence ln2 − ln t + ln(4 − t ) − ln2 ≥ 2 − t\n4 − t ≥\nso that ln 2 − t (A1)\nt\n[6 marks]\n2\n(d) Let 2 −= t ⇒ 4 n + 2 − 2 tn −= t 2\n2 n + 1\n⇒ 4 n = t (2 n + 1) , where n is a positive integer. (M1)\n4 n\n⇒= t ∈ ]0, 2] . (R1)\n2 n + 1\nHence replacing this value of t in the inequality obtained in part (c) :\n1 2\nln1 + ≥ (A1)(A1)\nn 2 n + 1\n1 2 n\nMultiplying both sides by n, ⇒ n ln1 + ≥ (AG)\nn 2 n + 1\n[4 marks]\n2 n 1\n≤ + ≤ (e) From parts (a) and (d), n ln1 1 (C1)\n2 n + 1 n\n2 n\nand ⇒ =1 (A1) lim 2\nn →∞ n +1\n1\nHence ⇒ lim nn 1 1 + =1 . (M1)\nn →∞ n\nn\n1\nlim1n1 + = 1\nn →∞ n\nn\n1\nlim1 + = e (A1)(AG)\nn →∞ n\n[4 marks]\nNote: Different calculators may give slightly different sequences in parts (ii) and (iii),\nbut the final answer should be the same.\nfx ( )\nn (ii) x = 2; x = x −\n1 n + 1 n\nf ′ ( x )\nn\nx = 2; x = x (2 −1 n x )\n1 n + 1 n n .\nFor all x> 0 we see that f ′ () x > 0 and f ′′ () x < 0 . Since f (2) < 0 , the method will\nyield an increasing sequence which converges to the solution.\nIn this case we get : x = 2; x = x (2 − log x ) .\n1 n + 1 n n\nHence : x = 2 1\nx = 2.613705639 (G1)\n2\nx = 2.716243926 (G1)\n3\nx= 2.718281064 (G1)\n4\nx = 2.718281828\n5\nx= 2.718281828\n6\n−1= 0 ⇒ = In x x e (A1)\nHence e ≈ 2.7182818 (A1)\n[5 marks]\n(iii) (a) g (e) = e + 2.7 − 2.7 = e (A1)\n[1 mark]\n′ < (b) For all x > 1.35 we see that gx () 1 so that the method will yield a\nconvergent sequence. (M1)(R1)\nx = 2\n1\nx = 2.828502612 (G1)\n2\nx = 2.721184472 (G1)\n3\nx = 2.718302888\n4\nx = 2.718281897\n5\nx = 2.718281829\n6\nx = 2.718281828\n7\nHence e ≈ 2.7182818 (A1)\nOR\nx= 2.718281828 (G4)\n5\n⇒ e = 2.7182818 (A1)\n[5 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.11",
+    "5.L7",
+    "5.L4",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Analysis and Approximation",
+   "text_clean": "9. [Maximum mark: 30]\n(i) (a) Using the mean value theorem or otherwise show that for all positive integers $n$, $n\\ln\\left(1+\\frac{1}{n}\\right) \\le 1$. [3 marks]\n(b) Show that for all real numbers $s$ such that $0 < s < 4$, $\\frac{1}{s} + \\frac{1}{4-s} \\ge 1$. [2 marks]\n(c) By integrating the inequality of part (b) over the interval $[t, 2]$, or otherwise, show that for all real numbers $t$ such that $0 < t \\le 2$, $\\ln\\left(\\frac{4-t}{t}\\right) \\ge 2 - t$. [6 marks]\n(d) Hence or otherwise show that for all positive integers $n$, $n\\ln\\left(1+\\frac{1}{n}\\right) \\ge \\frac{2n}{2n+1}$. [4 marks]\n(e) Using parts (a) and (d), or otherwise, show that $\\lim_{n\\to\\infty}\\left(1+\\frac{1}{n}\\right)^n = e$. [4 marks]\n(ii) Consider the function $f(x) = \\ln x - 1$. Using the Newton-Raphson method, starting at $x_1 = 2$, find an approximate solution of the equation $f(x) = 0$. Hence calculate e giving your answer correct to seven decimal places. [5 marks]\n(iii) Let $g : \\mathbb{R}^+ \\to \\mathbb{R}$ be defined by $g(x) = x + 2.7 - 2.7\\ln x$.\n(a) Show that $g(e) = e$. [1 mark]\n(b) Hence, starting with $x = 2$ use fixed point iteration to evaluate e, giving your answer correct to seven decimal places. Justify your answer. [5 marks]"
+  },
+  {
+   "id": "math-2002-M-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 30]\nThe equation of an ellipse is 4x2+ y2– 24x + 4y + 36= 0 . (i)\n(a) Determine its centre, its foci and its eccentricity. [3 marks]\n(b) If y = mxis the equation of a line which is a tangent to the given\nellipse, determine the exactvalues of m . [6 marks]\n(ii) Consider a hyperbola with foci F1and F2and vertices A1and A2 .Let\n[F1Y1] and [F2Y2] be the perpendiculars from the foci to the tangent to the\nhyperbola at any point P, as shown in the following diagram.\nP\ntangent\nY2\nF1 A1 A2 F2\nhyperbola\nY1\n(a) [10 marks] Prove that Y1and Y2lie on the circle which has [A1A2] as a diameter.\n(b) Prove that the product F1Y1 �F2Y2is a constant, independent of the\nposition of P. [6 marks]\n(iii) The following diagram shows a triangle ABD and a circle centre O .(BD)\nis a tangent to the circle at D , so that triangle ABD is isosceles.Also\nAD^B = DB^A = 2DA ^B .Let C be the point of intersection of the circle and\nthe line (AB) .Prove that AC = DC = DB . [5 marks]\nA\nO\nC\nB D",
+   "ms_text": "− 2 + 2 ( x 3) ( y 2)\n+ = 1 10. (i) (a) The given equation is equivalent to\n1 4\n= − Hence : centre (3, 2) ; (A1)\n3 ; eccentricity =\n(A1)\n2\nfoci = ( 3, − 2 ± 3 )\n(A1)\n[3 marks]\nd y 4(3 − x )\n(b) Since m = =\nd x y + 2\n2 ⇒ yy ( + 2) = 12 x − 4 x (1) (M1)(A1)\n2 2 4 x + y − 24 x + 4 y + 36 = 0 (2) (A1)\n⇒ 2 y − 12 x + 36 = 0 ⇒ y = 6( x − 3)\n2 ⇒ 40 x − 216 x + 288 = 0 (A1)\n12 18\n− Hence x = 3 and x = ; the corresponding values of y are 0 and .\n5 5\n3\nTherefore, the values of m are 0, − . (A2)\n2\nNote: Award (G1) for approximate values of m.\n[6 marks]\n(ii) (a)\nF2\nDraw through Y a line parallel to ( 1FP ) that intersects ( PF) at Q, (FF) at O\n2 2 12\nand ( FY ) at R. 1 1\n(PY) is the bisector of F PF (property of the tangent to a conic) (A1)\n2 1 2\nˆ ˆ ˆ QY P = Y PF = Y PQ so that ∆ QY P is isosceles (C1)\n2 2 1 2 2\nand hence Y Q = PQ\n2\nπ\nˆ ˆ ˆ ∆ QF Y = − QPY = QY F so that QY F is isosceles (C1)\n2 2 2 22 22\n2\nand hence Y Q = QF 2 2 (A1)\nTherefore PQ = QF so that Q is the midpoint of [ PF ]. 2 2 (A1)\n∆ FPF is similar to ∆ so that O is the midpoint of [ FF ] and hence of\n1 2 OQF 12 2\n(A1) [ AA ].\n1 2\nConsequently ∆ ∆ so that = . FRO is congruent to F Y O OR OY (A1)\n1 2 2 2\nHence ∆ OY Yis isosceles so that OY = Ο Y . (A1)\n1 2 1 2\nPF PF A A\nFinally OY = OQ − Y Q = 1 − 2 = 1 2\n2 2 (A1)\n2 2 2\nso that OY = OY = OA = OA . (A1)\n1 2 1 2\nTherefore Yand Y lie on the circle which has [ AA ] as diameter. (AG)\n1 2 1 2\n[10 marks]\n[ ] [ ] (b) Draw the segments A RandAY .\n1 2 1\nγ = ˆ δ = ˆ Set ROAand OAR\n1 1\n− γ (π )\n∆ ROA is isosceles (since OR = OA ) so that δ = (C1)\n1 1\n2\n(π − γ ) (π + γ ) ˆ\n= − δ = − = Then F AR π π (C1)\n1 1\n2 2\nπ γ ˆ ˆ ˆ ˆ\nand AY F = AY A + AY F = + = F AR (C1)\n2 11 2 1 1 1 11 1 1\n2 2\nHence ∆ FA R is similar to ∆ FY A 1 1 1 1 2 (C1)\nFR FA\n1 1 2 and therefore =\n(C1)\nFA FY\n1 1 1 1\nSince, as seen previously, ∆ FRO is congruent to ∆ F Y O it follows that\n1 2 2\nF Y = FR (C1)\n2 2 1\nHence FY × F Y = FY × FR = FA × FA , which is a constant, independent\n1 1 2 2 1 1 1 1 1 1 2\nof the position of P. (AG)\nNote: There are other possible solutions, using analytic geometry.\n[6 marks]\n(iii) Draw [OC] and [OD].\nπ\nˆ ˆ ˆ ˆ ˆ = Then DAB + ABD + BDA = 5DAB = π , so that DAB (A1)\n5\n2π\nˆ ˆ Also, DOC = 2DAB =\n5\nˆ ˆ ˆ ˆ ˆ And CDO = OCD and CDO + DOC + OCD = π\n3 π ˆ\n= Hence CDO (A1)\n10\nπ π\nˆ ˆ Therefore BDC = − CDO = so that\n2 5\nπ\nˆ ˆ ˆ ˆ CDA = BDA − BDC = = DAB\n5\nso that the triangle CDA is isosceles and consequently AC = DC . (A1)\n2 π\nFinally ˆ = π −Β ˆ − ˆ = = ˆ so that the triangle BDC is DCB DC ABD CBD (A1)\n5\nisosceles and therefore DC = DB (A1)\ni.e.AC = DC = DB (AG)\nA\nC O\nD B\n[5 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "8",
+    "5"
+   ],
+   "subtopics": [
+    "8.2",
+    "8.1",
+    "5.14"
+   ],
+   "answer_status": "ok",
+   "flags": [
+    "diagram-heavy"
+   ],
+   "option": "Euclidean Geometry and Conic Sections",
+   "text_clean": "10. [Maximum mark: 30]\n(i) The equation of an ellipse is $4x^2 + y^2 - 24x + 4y + 36 = 0$.\n(a) Determine its centre, its foci and its eccentricity. [3 marks]\n(b) If $y = mx$ is the equation of a line which is a tangent to the given ellipse, determine the exact values of $m$. [6 marks]\n(ii) Consider a hyperbola with foci $F_1$ and $F_2$ and vertices $A_1$ and $A_2$. Let $[F_1Y_1]$ and $[F_2Y_2]$ be the perpendiculars from the foci to the tangent to the hyperbola at any point P, as shown in the following diagram.\n[Diagram: hyperbola branch through $A_2$ with foci $F_1$, $F_2$ and vertices $A_1$, $A_2$ on the axis; tangent at P with feet of perpendiculars $Y_1$ (from $F_1$) and $Y_2$ (from $F_2$)]\n(a) Prove that $Y_1$ and $Y_2$ lie on the circle which has $[A_1A_2]$ as a diameter. [10 marks]\n(b) Prove that the product $F_1Y_1 \\times F_2Y_2$ is a constant, independent of the position of P. [6 marks]\n(iii) The following diagram shows a triangle ABD and a circle centre O. (BD) is a tangent to the circle at D, so that triangle ABD is isosceles. Also $A\\hat{D}B = D\\hat{B}A = 2D\\hat{A}B$. Let C be the point of intersection of the circle and the line (AB). Prove that AC = DC = DB. [5 marks]\n[Diagram: circle centre O with A and D on the circle, tangent line BD at D, line AB meeting the circle again at C; segments AD and CD drawn]"
+  }
+ ],
+ "status": "done"
+}

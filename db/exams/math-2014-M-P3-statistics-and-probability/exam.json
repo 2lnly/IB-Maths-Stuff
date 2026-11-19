@@ -1,0 +1,115 @@
+{
+ "exam_id": "math-2014-M-P3-statistics-and-probability",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2014,
+ "session": "May",
+ "tz": null,
+ "paper": "3",
+ "option": "Statistics and probability",
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2014 May Examination Session/Mathematics_paper_3_Statistics_and_probability_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2014 May Examination Session/Mathematics_paper_3_Statistics_and_probability_HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 2214-7210; code M14/5/MATHL/HP3/ENG/TZ0/SP; marks sum matches paper total 60",
+ "qp_pages": 5,
+ "questions": [
+  {
+   "id": "math-2014-M-P3-statistics-and-probability-q1",
+   "num": "1",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 14]\nThe random variable X has probability distribution Po(8) .\n(a) (i) Find P( X= 6) .\n(ii) Find P( X = 6 |5 ≤ X ≤ 8) . [5]\n(b) X denotes the sample mean of n > independent observations from X . 1\n(i) Write down ( EX and ) VarX. ( )\n(ii) Hence, give a reason why X is not a Poisson distribution. [3]\n(c) A random sample of 40 observations is taken from the distribution for X .\n(i) Find ( P7.1 < X < 8.5 ) .\n(ii) Given that ( P| X − 8| ≤ k ) = 0.95 , find the value of k . [6]",
+   "ms_text": "1. (a) (i) P( X = 6) = 0.122 (M1)A1\n= P( X 6) 0.122…\n(ii) P( X = 6 |5 ≤ X ≤ 8) = = (M1)(A1)\nP(5 ≤ X ≤ 8) 0.592 Κ − 0.0996 Κ\n= 0.248 A1\n[5 marks]\n(b) (i) E ( X= ) 8 A1\n8\nVarX ( ) = A1\nn\n( ) ( ) (ii) E X ≠ Var X (for n > 1) R1\nNote: Only award the R1 if the two expressions in (b)(i) are\ndifferent.\n[3 marks]\n(c) (i) EITHER\nX: N(8, 0.2) (M1)A1\nNote: M1 for normality, A1 for parameters.\n( ) P7.1 < X < 8.5 = 0.846 A1\nOR\nThe expression is equivalent to\nP ( 283 ≤ ∑ X ≤ 339 ) where ∑X is Po(320) M1A1\n= 0.840 A1\nNote: Accept 284, 340 instead of 283, 339\nAccept any answer that rounds correctly to 0.84 or 0.85.\n(ii) EITHER\nσ\nk = 1.96 or 1.96 std( X ) (M1)(A1)\nn\nk= 0.877 or 1.96 0.2 A1\nOR\nThe expression is equivalent to\nP ( 320 − 40 k ≤ ∑ X ≤ 320 + 40 k ) = .0 95 (M1)\nk= 0.875 A2\nNote: Accept any answer that rounds to 0.87 or 0.88.\nAward M1A0 if modulus sign ignored and answer\nobtained rounds to 0.74 or 0.75\n[6 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L5",
+    "4.L1",
+    "4.12",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 14]\nThe random variable $X$ has probability distribution $\\mathrm{Po}(8)$.\n(a) (i) Find $\\mathrm{P}(X=6)$.\n(ii) Find $\\mathrm{P}(X=6 \\mid 5 \\le X \\le 8)$. [5]\n(b) $\\bar{X}$ denotes the sample mean of $n>1$ independent observations from $X$.\n(i) Write down $\\mathrm{E}(\\bar{X})$ and $\\mathrm{Var}(\\bar{X})$.\n(ii) Hence, give a reason why $\\bar{X}$ is not a Poisson distribution. [3]\n(c) A random sample of 40 observations is taken from the distribution for $X$.\n(i) Find $\\mathrm{P}(7.1<\\bar{X}<8.5)$.\n(ii) Given that $\\mathrm{P}(|\\bar{X}-8| \\le k)=0.95$, find the value of $k$. [6]"
+  },
+  {
+   "id": "math-2014-M-P3-statistics-and-probability-q2",
+   "num": "2",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 16]\nThe following table gives the average yield of olives per tree, in kg, and the rainfall, in cm,\nfor nine separate regions of Greece. You may assume that these data are a random sample from\na bivariate normal distribution, with correlation coefficient ρ .\nRainfall (x) 11 10 15 13 7 18 22 20 28\nYield (y) 56 53 67 61 54 78 86 88 78\nA scientist wishes to use these data to determine whether there is a positive correlation\nbetween rainfall and yield.\n(a) State suitable hypotheses. [2]\n(b) Determine the product moment correlation coefficient for these data. [2]\n(c) Determine the associated p-value and comment on this value in the context of the question. [2]\n(d) Find the equation of the regression line of y on x . [2]\n(e) Hence, estimate the yield per tree in a tenth region where the rainfall was 19 cm. [2]\n(f) Determine the angle between the regression line of y on x and that of x on y . Give your\nanswer to the nearest degree. [6]",
+   "ms_text": "2. (a) H: ρ= 0 A1\n0\nH: ρ> 0 A1\n1\n[2 marks]\n(b) 0.853 A2\nNote: Accept any answer that rounds to 0.85.\n[2 marks]\n= (c) p -value 0.00173 (1-tailed) A1\nNote: Accept any answer that rounds to 0.0017.\nAccept any answer that rounds to 0.0035 obtained from 2-tailed test.\nstrong evidence to reject the hypothesis that there is no correlation between\nrainfall and yield or to accept the hypothesis that there is correlation\nbetween rainfall and yield R1\nNote: Follow through the p-value for the conclusion.\n[2 marks]\n(d) y = 1.78 x + 40.5 A1A1\nNote: Accept numerical coefficients that round to 1.8 and 41.\n[2 marks]\ny = … + … (e) 1.77 (19) 40.5 M1\n74.3 A1\nNote: Accept any answer that rounds to 74 or 75.\n[2 marks]\n(f) the gradient of the regression line y on x is 1.78 or equivalent A1\n= − the regression line of x on y is x 0.409 y 12.2 (A1)\n1\n= the gradient of the regression line x on y is ( 2.44) (M1)A1\n0.409\ncalculate arctan (2.44) − arctan (1.78) (M1)\nangle between regression lines is 7 degrees A1\nNote: Accept any answer which rounds to ±7 degrees.\n[6 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L8",
+    "4.4",
+    "4.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 16]\nThe following table gives the average yield of olives per tree, in kg, and the rainfall, in cm, for nine separate regions of Greece. You may assume that these data are a random sample from a bivariate normal distribution, with correlation coefficient $\\rho$.\nRainfall ($x$): 11, 10, 15, 13, 7, 18, 22, 20, 28\nYield ($y$): 56, 53, 67, 61, 54, 78, 86, 88, 78\nA scientist wishes to use these data to determine whether there is a positive correlation between rainfall and yield.\n(a) State suitable hypotheses. [2]\n(b) Determine the product moment correlation coefficient for these data. [2]\n(c) Determine the associated $p$-value and comment on this value in the context of the question. [2]\n(d) Find the equation of the regression line of $y$ on $x$. [2]\n(e) Hence, estimate the yield per tree in a tenth region where the rainfall was 19 cm. [2]\n(f) Determine the angle between the regression line of $y$ on $x$ and that of $x$ on $y$. Give your answer to the nearest degree. [6]"
+  },
+  {
+   "id": "math-2014-M-P3-statistics-and-probability-q3",
+   "num": "3",
+   "section": null,
+   "marks": 14,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 14]\nConsider the random variable X for which E( X = a λ + b , where a and b are constants (a) )\nand λ is a parameter.\n− b Show that X\nis an unbiased estimator for λ . [3]\na\n(b) The continuous random variable Y has probability density function\n2 (3 + − λ λ − ≤ ≤ λ y ), for 3 y\nfy () = 9\n0, otherwise\nwhere λ is a parameter.\n(i) Verify that f ( y) is a probability density function for all values of λ .\n(ii) Determine E() Y.\n(iii) Write down an unbiased estimator for λ . [11]",
+   "ms_text": "− b a λ + b − b\nEX = 3. (a) M1A1\na a\n= λ A1\nX− b\n(Therefore is an unbiased estimator for λ) AG\na\n[3 marks]\n(b) (i) fy≥ () 0 R1\nNote: Only award R1 if this statement is made explicitly.\nrecognition or showing that integral of f is 1 (seen anywhere) R1\nEITHER\nλ\n2 (3 + y − λ )d y M1\n∫\nλ − 3 9\nλ\n2 1 2\n= (3 − λ ) y + y A1\n9 2\nλ − 3\n2 1 1 2 2\n= λ ( 3 − λ ) + λ − ( 3 − λ )( λ − 3 ) − ( λ − 3 ) or equivalent A1\n9 2 2\n= 1\nOR\nthe graph of the probability density is a triangle with base length\n3 and height 2 M1A1\n3\n2 its area is therefore 1\n×× 3 A1\n2 3\n= 1\nλ 2\n= + − λ (ii) E() Y ∫ y (3 y )d y M1\nλ − 3 9\nλ\n2 1 1 2 3\n= (3 − λ ) y + y A1\n9 2 3\nλ − 3\n2 1 1\n( 2 2 ) ( 3 3 ) = (3 − λ ) λ − ( λ − 3) + λ − ( λ − 3) M1\n9 2 3\n= λ − 1 A1A1\nNote: Award 3 marks for noting that the mean is 2\n3rds the way along\nthe base and then A1A1 for λ– 1\nNote: Award A1 for λ and A1 for 1 −.\n(iii) unbiased estimator: Y+ 1 A1\nNote: Accept Y+. 1\nFollow through their E(Y) if linear.\n[11 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "5"
+   ],
+   "subtopics": [
+    "4.14",
+    "4.L5",
+    "5.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 14]\n(a) Consider the random variable $X$ for which $\\mathrm{E}(X)=a\\lambda+b$, where $a$ and $b$ are constants and $\\lambda$ is a parameter.\nShow that $\\frac{X-b}{a}$ is an unbiased estimator for $\\lambda$. [3]\n(b) The continuous random variable $Y$ has probability density function\n$f(y)=\\begin{cases}\\frac{2}{9}(3+y-\\lambda), & \\text{for } \\lambda-3 \\le y \\le \\lambda \\\\ 0, & \\text{otherwise}\\end{cases}$\nwhere $\\lambda$ is a parameter.\n(i) Verify that $f(y)$ is a probability density function for all values of $\\lambda$.\n(ii) Determine $\\mathrm{E}(Y)$.\n(iii) Write down an unbiased estimator for $\\lambda$. [11]"
+  },
+  {
+   "id": "math-2014-M-P3-statistics-and-probability-q4",
+   "num": "4",
+   "section": null,
+   "marks": 16,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 16]\nX Geo() p Consider the random variable ∼: .\n(a) State P( X< 4) . [2]\npt\n(b) Show that the probability generating function for X is given by G () t = ,\nX\n1 − qt\nwhere q =− 1 p . [3]\nLet the random variable Y = 2 X .\n= () 2 (c) (i) Show that the probability generating function for Y is given by G () t G t .\nY X\n(ii) By considering G′ (1) , show that E() Y = 2E() X . [6]\nY\nLet the random variable W = 2 X +. 1\n(d) (i) Find the probability generating function for W in terms of the probability generating\nfunction of Y .\n(ii) Hence, show that E( W ) = 2E( X ) +. 1 [5]",
+   "ms_text": "n 1 4. (a) use of P( X = n ) = pq− ( q =− 1 p ) (M1)\n2 3 3 2 3 P( X < 4) = p + pq + pq ( =− 1 q ) ( =− 1(1 − p ) ) (3 = p − 3 p + p ) A1\n[2 marks]\n2 (b) G () t = P( X = 1) t + P( X = 2) t + … (M1)\nX\n2 23 = pt + pqt + pqt + … A1\nsumming an infinite geometric series M1\npt\n= AG\n1 − qt\n[3 marks]\n(c) (i) EITHER\n= = + = 2 + G () t P( Y 1) t P( Y 2) t … A1\nY\n2 3 4 = 0 ×+ t P( X = 1) t +× 0 t + P( X = 2) t + … M1A1\n2 = G () t AG\nX\nOR\nY 2 X G ( t ) = E ( t ) = E ( t ) M1A1\nY\n= E ( ()X t 2 ) A1\n2 = G () t AG\nX\n(ii) E() Y = G′ (1) A1\nY\nEITHER\n= ′ () 2 t = 2 tG t evaluated at 1 M1A1\nX\n= 2E( X ) AG\nOR\n2 − 2 + 3 d pt 2 pt (1 qt ) 2 pqt\n= = evaluated at t = 1 A1\n2 2 2 d x (1 − qt ) (1 − qt )\np (1 − qt ) + pqt 2)\n= 2 × evaluated at 1 A1\nt = (or p\n− 2 (1 qt )\n= 2E( X ) AG\n[6 marks]\n(d) (i) G () t = tG () t (or equivalent) A2\nW Y\n′ (ii) attempt to evaluate G () t M1\nW\nEITHER\n× +× ′ obtain 1 G () t t G () t A1\nY Y\nsubstitute t = to obtain 111 1 ×+× G′ (1) A1\nY\nOR\n3 2 − 2 + 4 d pt 3 pt (1 qt ) 2 pqt\n= = A1\n2 2 2 d x (1 − qt ) (1 − qt )\n2\nsubstitute t = to obtain 1 1+ A1\np\n=+ 1 2E() X AG\n[5 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1",
+    "5"
+   ],
+   "subtopics": [
+    "4.L3",
+    "4.L2",
+    "1.8",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 16]\nConsider the random variable $X \\sim \\mathrm{Geo}(p)$.\n(a) State $\\mathrm{P}(X<4)$. [2]\n(b) Show that the probability generating function for $X$ is given by $G_X(t)=\\frac{pt}{1-qt}$, where $q=1-p$. [3]\nLet the random variable $Y=2X$.\n(c) (i) Show that the probability generating function for $Y$ is given by $G_Y(t)=G_X(t^2)$.\n(ii) By considering $G_Y'(1)$, show that $\\mathrm{E}(Y)=2\\mathrm{E}(X)$. [6]\nLet the random variable $W=2X+1$.\n(d) (i) Find the probability generating function for $W$ in terms of the probability generating function of $Y$.\n(ii) Hence, show that $\\mathrm{E}(W)=2\\mathrm{E}(X)+1$. [5]"
+  }
+ ],
+ "status": "done"
+}

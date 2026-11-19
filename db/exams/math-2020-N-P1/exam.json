@@ -1,0 +1,294 @@
+{
+ "exam_id": "math-2020-N-P1",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2020,
+ "session": "November",
+ "tz": null,
+ "paper": "1",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2020 November Examination Session/Mathematics_paper_1__HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2020 November Examination Session/Mathematics_paper_1__HL_markscheme.pdf",
+ "notes": "2 duplicate copies (2 byte-identical size); paper number 8820-7201; code N20/5/MATHL/HP1/ENG/TZ0/XX; marks sum matches paper total 100",
+ "qp_pages": 17,
+ "questions": [
+  {
+   "id": "math-2020-N-P1-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 4]\nA discrete random variable X has the probability distribution given by the following table.\nx 0 1 2 3\n1 1\nP ( X = x ) p q\n4 6\n19\nGiven that ( E X= ) , determine the value of p and the value of q .\n12",
+   "ms_text": "1 1 19\n( ) ( ) 1. E X = 0 × p + 1 × + 2 × + 3 q = (M1)\n4 6 12\n1 1 19\n⇒ + + 3 q =\n4 3 12\n1\nq = A1\n3\n1 1\np + + + q = 1 (M1)\n4 6\n7\n⇒ p + q =\n12\n1\np = A1\n4\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 4]\nA discrete random variable $X$ has the probability distribution given by the following table.\n$x$: 0 | 1 | 2 | 3\n$\\mathrm{P}(X=x)$: $p$ | $\\frac{1}{4}$ | $\\frac{1}{6}$ | $q$\nGiven that $\\mathrm{E}(X)=\\frac{19}{12}$, determine the value of $p$ and the value of $q$."
+  },
+  {
+   "id": "math-2020-N-P1-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 5]\nFind the equation of the tangent to the curve y= e2x– 3x at the point where x=0 .",
+   "ms_text": "2. ( x = 0 ⇒ ) y = 1 (A1)\nappreciate the need to findd y\n(M1)\nd x\nd y\n= 2 x − 2e 3 A1\nd x\ny\n) d ( x = 0 ⇒ = − 1 A1\nd x\ny − 1\n= − 1 ( y =− 1 x ) A1\nx − 0\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.4",
+    "5.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 5]\nFind the equation of the tangent to the curve $y=\\mathrm{e}^{2x}-3x$ at the point where $x=0$."
+  },
+  {
+   "id": "math-2020-N-P1-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 7]\nAt Nusaybah’s Breakfast Diner, three types of omelette are available to order: chicken,\nvegetarian and steak. Each omelette is served with either a portion of fries or hash browns.\nIt is known that 20% of customers choose a chicken omelette, 70% choose a vegetarian\nomelette and 10% choose a steak omelette.\nIt is also known that 65% of those ordering the chicken omelette, 70% of those ordering the\nvegetarian omelette and 60% of those ordering the steak omelette, order fries.\nThe following tree diagram represents the orders made by each customer.\nFries\nChicken\nHash browns\nFries\nVegetarian\nHash browns\nFries\nSteak\nHash browns\n(a) Complete the tree diagram by adding the respective probabilities to each branch.\b [2]\n(b) Find the probability that a randomly selected customer orders fries.\b [2]\n(c) Find the probability that a randomly selected customer orders fries, given that they do\nnot order a chicken omelette.\b [3]",
+   "ms_text": "3. (a)\nA1A1\nNote: AwardA1 for probabilities for type of omelette and A1 for probabilities for\nfries / hash browns.\n[2 marks]\n(b) ( 0.20.65 × )( + 0.70.7 × )( + 0.10.6 × ) (M1)\n17\n= 0.68 = A1\n25\n[2 marks]\nP ( ordered fries and did not order chicken omelette )\n(c) (M1)\nP ( did not order chicken omelette )\n0.70.7 × + 0.10.6 × 0.49 + 0.06 0.55\n= = (A1)\n0.7 + 0.1 0.8 0.8\n55 11\n= = A1\n80 16\n[3 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.6",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 7]\nAt Nusaybah's Breakfast Diner, three types of omelette are available to order: chicken, vegetarian and steak. Each omelette is served with either a portion of fries or hash browns. It is known that $20\\%$ of customers choose a chicken omelette, $70\\%$ choose a vegetarian omelette and $10\\%$ choose a steak omelette.\nIt is also known that $65\\%$ of those ordering the chicken omelette, $70\\%$ of those ordering the vegetarian omelette and $60\\%$ of those ordering the steak omelette, order fries.\nThe following tree diagram represents the orders made by each customer.\n[Diagram: tree diagram with first branches Chicken, Vegetarian, Steak, each splitting into Fries and Hash browns; no probabilities shown]\n(a) Complete the tree diagram by adding the respective probabilities to each branch. [2]\n(b) Find the probability that a randomly selected customer orders fries. [2]\n(c) Find the probability that a randomly selected customer orders fries, given that they do not order a chicken omelette. [3]"
+  },
+  {
+   "id": "math-2020-N-P1-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 5]\n2 z\nConsider the equation =i , where z =x +i y and x , y ∈ ϒ.\n3 − z *\nFind the value of x and the value of y .",
+   "ms_text": "= + * = − 4. substituting z x i y and z x i y M1\n2 ( x + i y )\n= i\n3 − ( x − i y )\n2 x + 2i y = −+ y i3 ( − x )\nequate real and imaginary: M1\ny = − 2 x AND 2 y = 3 − x A1\nNote: If they multiply top and bottom by the conjugate, the equations\n2 2 2 2 6 x − 2 x + 2 y = 0 and 6 y − 4 xy = (3 − x ) + y may be seen. Allow for A1.\nsolving simultaneously:\n( ) x = − 1, y = 2 z = −+ 12i A1A1\n[5 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.12"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 5]\nConsider the equation $\\frac{2z}{3-z^*}=\\mathrm{i}$, where $z=x+\\mathrm{i}y$ and $x, y \\in \\mathbb{R}$.\nFind the value of $x$ and the value of $y$."
+  },
+  {
+   "id": "math-2020-N-P1-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 5]\nThe first term in an arithmetic sequence is 4 and the fifth term is log2 625.\nFind the common difference of the sequence, expressing your answer in the form log2p ,\nwhere p ∈ ⁄.",
+   "ms_text": "5. u = 4 + 4 d = log625 (A1)\n5 2\n4 d = log625 − 4\n2\nattempt to write an integer (eg 4 or 1) in terms of log M1\n2\n4 d = log625log16 −\n2 2\nattempt to combine two logs into one M1\n625\n4 d = log\n2\n16\n1 625\nd = log\n2\n4 16\nattempt to use power rule for logs M1\n1\n625 4\n= d log\n2\n16\n5\nd = log A1\n2\n2\n[5 marks]\nNote: Award method marks in any order.",
+   "mcq_answer": null,
+   "topics": [
+    "1"
+   ],
+   "subtopics": [
+    "1.7",
+    "1.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 5]\nThe first term in an arithmetic sequence is 4 and the fifth term is $\\log_2 625$.\nFind the common difference of the sequence, expressing your answer in the form $\\log_2 p$, where $p \\in \\mathbb{Q}$."
+  },
+  {
+   "id": "math-2020-N-P1-q6",
+   "num": "6",
+   "section": "A",
+   "marks": 4,
+   "qtype": "short",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 4]\nConsider the equation ax2+ bx + c =0 , where a ≠ 0 . Given that the roots of this equation\nare x =sin θ and x = cos θ , show that b2=a2+ 2ac .",
+   "ms_text": "6. METHOD 1\nc b\nsin θ cos θ= and sin θ + cos θ = − A1\na a\nattempt to square sin θ + cos θ M1\n2 b\n2\n( ) = sin θ + cos θ =+ 12sin θ cos θ A1\n2 a\n2 b 2 c\n( =+ 12sin θ cos θ ) =+ 1 A1\n2 a a\n2 2 b = a + 2 ac AG\n[4 marks]\nMETHOD 2\n2 2 a sin θ + b sin θ + c = 0 and a cos θ + b cos θ + c = 0 A1\nadding the two equations M1\na + b ( sin θ + cos θ ) + 2 c = 0 A1\nb\na +×− b + 2 c = 0 A1\na\na 2 − b 2 + 2 ac = 0\n2 2 b = a + 2 ac AG\n[4 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "3"
+   ],
+   "subtopics": [
+    "2.12",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "6. [Maximum mark: 4]\nConsider the equation $ax^2+bx+c=0$, where $a \\neq 0$. Given that the roots of this equation are $x=\\sin\\theta$ and $x=\\cos\\theta$, show that $b^2=a^2+2ac$."
+  },
+  {
+   "id": "math-2020-N-P1-q7",
+   "num": "7",
+   "section": "A",
+   "marks": 5,
+   "qtype": "short",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 5]\n11π 11π π π\nConsider the complex numbers z = cos + isin and z = cos + isin .\n1 2\n12 12 6 6\nz\n1 (a) (i) \u0007Find\nz\n2\nz\n2 (ii) Find \b [3]\nz\n1\nz z\n(b) 0 , 1 and 2 are represented by three points O, A and B respectively on an\nz z\n2 1\nArgand diagram. Determine the area of the triangle OAB. \b [2]",
+   "ms_text": "z 11π π 11π π\n7. (a) (i) 1 = cos − + isin − (M1)\nz 12 6 12 6\n2\n3π 3π\n= cos + isin A1\n4 4\nz 3π 3π\n2 (ii) cos − isin A1\nz=\n4 4\n1\n3 π\nNote: Allow equivalent forms in part (a), e.g. cis − .\n4\nNote: Ignore subsequent work once correct answer(s) are seen.\n[3 marks]\n(b) valid attempt to calculate area of their triangle (M1)\n1 1 (angle between OA and OB is π\n)⇒ area = ×× 11 = A1\n2 2 2\n[2 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.13",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "7. [Maximum mark: 5]\nConsider the complex numbers $z_1=\\cos\\frac{11\\pi}{12}+\\mathrm{i}\\sin\\frac{11\\pi}{12}$ and $z_2=\\cos\\frac{\\pi}{6}+\\mathrm{i}\\sin\\frac{\\pi}{6}$.\n(a) (i) Find $\\frac{z_1}{z_2}$\n(ii) Find $\\frac{z_2}{z_1}$ [3]\n(b) $0$, $\\frac{z_1}{z_2}$ and $\\frac{z_2}{z_1}$ are represented by three points O, A and B respectively on an Argand diagram. Determine the area of the triangle OAB. [2]"
+  },
+  {
+   "id": "math-2020-N-P1-q8",
+   "num": "8",
+   "section": "A",
+   "marks": 7,
+   "qtype": "short",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 7]\nx tan x 1 Show that sin\n(a) ≡+ 1 , x≠2nπ , n ∈ ′.\b [3]\n1cos − x cos x\nx tan x Hence determine the range of values of k for which sin\n(b) k has no real solutions.\b[4]\nx=\n1cos −",
+   "ms_text": "8. (a) METHOD 1\nsin x\nattempt to replace tan x = M1\ncos x\n2 sin x tan x sin x\n≡\n( ) 1cos − x cos x 1cos − x\n2 2 attempt to use sin x + cos x = 1 M1\n2 1cos − x\n=\ncos x ( 1cos − x )\n( 1cos + x )( 1cos − x )\n= A1\ncos x ( 1cos − x )\n( 1cos + x )\n=\ncos x\n1\n=+ 1 AG\ncos x\nNote: Awardmarks in reverse for working from RHS to LHS.\n[3 marks]\nMETHOD 2\nsin x\nattempt to replace tan x = M1\ncos x\n2 sin x tan x sin x\n≡\n( ) 1cos − x cos x 1cos − x\n2 2 sin x ( 1cos + x ) sin x ( 1cos + x )\n≡ ≡\ncos x ( 1cos − x )( 1cos + x ) ( 2 ) cos x 1cos − x\n2 2 attempt to use sin x + cos x = 1 M1\n2 sin x ( 1cos + x )\n≡ A1\n2 cossin x x\n( ) 1cos + x\n=\ncos x\n1\n=+ 1 AG\ncos x\nNote: Awardmarks in reverse for working from RHS to LHS.\n[3 marks]\n(b) METHOD 1\n1 1\nconsider 1 + = k , leading to cos x = (M1)\n− cos x k 1\n1\nconsider graph of y = or range of solutions for y = cos x (M1)\n− x 1\n(no solutions if y <− 1 or y > 1 ⇒) 0 < k < 2 A1A1\nNote: Award A1 for 0 and 2 seen as critical values, A1 for correct inequalities. These\nmay also be expressed as ‘ k > 0 and k < 2 ’.\n[4 marks]\nMETHOD 2\nconsider graph of y =+ 1sec x M1\nA1\nno real solutions if 0 < k < 2 A1A1\nNote: Award A1 for 0 and 2 seen as critical values, A1 for correct inequalities. These\nk > k < may also be expressed as ‘ 0 and 2 ’.\n[4 marks]\nMETHOD 3\nconsider 1 −≤ cos x ≤ , 1 (M1)\n1 1\n≤− 1 or ≥ 1 (M1)\ncos x cos x\n1 1\n1 + ≤ 0 or 1+ ≥ 2\ncos x cos x\nno solutions if 0 < k < 2 A1A1\nNote: Award A1 for 0 and 2 seen as critical values, A1 for correct inequalities.\nThese may also be expressed as ‘ k > 0 and k < 2 ’.\n[4 marks]\nTotal [7 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.6",
+    "3.9",
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "8. [Maximum mark: 7]\n(a) Show that $\\frac{\\sin x\\tan x}{1-\\cos x}\\equiv 1+\\frac{1}{\\cos x}$, $x \\neq 2n\\pi$, $n \\in \\mathbb{Z}$. [3]\n(b) Hence determine the range of values of $k$ for which $\\frac{\\sin x\\tan x}{1-\\cos x}=k$ has no real solutions. [4]"
+  },
+  {
+   "id": "math-2020-N-P1-q9",
+   "num": "9",
+   "section": "A",
+   "marks": 8,
+   "qtype": "short",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 8]\n2 1 x\nBy using the substitution x=tanu , find the value of ∫ d x .\n3 0\n( 2 ) 1 + x",
+   "ms_text": "d x d u 1 2\n9. x = tan u ⇒ = sec u OR u = arctan x ⇒ A1 =+\n2 d u d x 1 x\nattempt to write the integral in terms of u M1\nπ 2 2\ntan u sec u d u\n∫ 4\n3 0 2\n( 1 + tan u )\nπ 2 2\ntan u sec u d u\n4 ∫ (A1)\n3 0 2\n( sec u )\nπ\n= ∫ 4 2 2 0sin u cos u d u A1\nπ\n1 2\n4 sin2 d u u M1 =∫\n0 4\nπ\n1\n= 4 ( 1cos4 − u ) d u M1 ∫\n0 8\nπ\n1 sin 4 u 4\n= u − A1\n8 4\n0\n1π sin π\n= − −− 0 0\n84 4\nπ\n= A1\n32\nTotal [8 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.16",
+    "3.6",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "9. [Maximum mark: 8]\nBy using the substitution $x=\\tan u$, find the value of $\\int_0^1 \\frac{x^2}{(1+x^2)^3}\\,\\mathrm{d}x$."
+  },
+  {
+   "id": "math-2020-N-P1-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 20,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 20]\nConsider the function f ( x )=ax3+bx2+cx +d , where x ∈ ϒ and a , b , c , d∈ ϒ.\n(a) (i) \u0007Write down an expression for f′( x ).\nHence, given that f−1 does not exist, show that b2−3ac>0 .\b (ii) [4]\n1\n3 2\n(b) Consider the function g( x ) = − 3 x + 6 x − 8 , where x ∈ ϒ.\n2x\n(i) Show that g−1 exists.\n(ii) g( x ) can be written in the form p( x−2 )3+q , where p , q ∈ ϒ.\nFind the value of p and the value of q .\n(iii) Hence find g−1( x ).\b [8]\nThe graph of y=g( x ) may be obtained by transforming the graph of y=x3 using a\nsequence of three transformations.\n(c) State each of the transformations in the order in which they are applied.\b [3]\n(d) Sketch the graphs of y=g( x ) and y=g−1( x ) on the same set of axes, indicating the\npoints where each graph crosses the coordinate axes.\b [5]",
+   "ms_text": "2 10. (a) (i) f ′ () x = 3 ax + 2 bx + c A1\nf−does not exist, there must be two turning points 1 (ii) since R1\n( ⇒ f ′ () x = 0 has more than one solution)\nusing the discriminant Δ> 0 M1\n2 4 b − 12 ac > 0 A1\n2 b − 3 ac > 0 AG\n[4 marks]\n(b) (i) METHOD 1\n1 2 2\nb − 3 ac =− ( 3 ) −× 3 × 6 M1\n2\n= 99 −\n= 0 A1\n1 hence g −exists AG\nMETHOD 2\n3 2\ng ′ () x = x − 6 x + 6 M1\n2\n3 2\nΔ=− ( 6 ) −× 4 × 6\n2\nΔ= 3636 − = 0 ⇒there is (only) one point with gradient of 0\nand this must be a point of inflexion (since gx () is a cubic.) R1\n1 hence g −exists AG\n1\np = (ii) A1\n2\n3 3 2\n( x − 2 ) = x − 6 x + 12 x − 8 (M1)\n1 1 3 2 3 2\n( x − 6 x + 12 x − 8 ) = x − 3 x + 6 x − 4\n2 2\n1 3\ngx () = ( x − 2 ) − 4 ⇒ q = − 4 A1\n2\n1 3\n(iii) x = ( y − 2 ) − 4 (M1)\n2\nNote: Interchanging x and y can be done at any stage.\n3\n2 ( x + 4 ) = ( y − 2 ) (M1)\n3 2 ( ) x + 4 = y − 2\ny = 3 2 ( x + 4 ) + 2\n− 1 g () x = 3 2 ( x + 4 ) + 2 A1\n− 1\nNote: g () x = must be seen for the final A mark.\n[8 marks]\ntranslation through 2\n(c) , A1\n0\nNote: This can be seen anywhere.\nEITHER\n0\na stretch scale factor 1 parallel to the y-axis then a translation through\nA2\n2 − 4\nOR\n0\nthen a stretch scale factor 1 parallel to the y-axis A2\na translation through\n− 8 2\nNote: Accept ‘shift’ for translation, but do not accept ‘move’. Accept ‘scaling’ for\n‘stretch’.\n[3 marks]\n(d)\nA1A1A1\nM1A1\nNote: Award A1 for correct ‘shape’ of g (allow non-stationary point of inflexion)\nAward A1 for each correct intercept of g\n= Award M1 for attempt to reflect their graph in y x , A1 for completely correct\n1 g−including intercepts\n[5 marks]\nTotal [20 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.5",
+    "2.11",
+    "2.3",
+    "2.7",
+    "5.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "10. [Maximum mark: 20]\nConsider the function $f(x)=ax^3+bx^2+cx+d$, where $x \\in \\mathbb{R}$ and $a, b, c, d \\in \\mathbb{R}$.\n(a) (i) Write down an expression for $f'(x)$.\n(ii) Hence, given that $f^{-1}$ does not exist, show that $b^2-3ac>0$. [4]\n(b) Consider the function $g(x)=\\frac{1}{2}x^3-3x^2+6x-8$, where $x \\in \\mathbb{R}$.\n(i) Show that $g^{-1}$ exists.\n(ii) $g(x)$ can be written in the form $p(x-2)^3+q$, where $p, q \\in \\mathbb{R}$. Find the value of $p$ and the value of $q$.\n(iii) Hence find $g^{-1}(x)$. [8]\nThe graph of $y=g(x)$ may be obtained by transforming the graph of $y=x^3$ using a sequence of three transformations.\n(c) State each of the transformations in the order in which they are applied. [3]\n(d) Sketch the graphs of $y=g(x)$ and $y=g^{-1}(x)$ on the same set of axes, indicating the points where each graph crosses the coordinate axes. [5]"
+  },
+  {
+   "id": "math-2020-N-P1-q11",
+   "num": "11",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q11.webp",
+   "ms_image": "q11_ms.webp",
+   "text": "11. [Maximum mark: 15]\nConsider the curve C defined by y2=sin( xy ) , y≠0 .\n( ) d y y cos xy\n(a) Show that = .\b [5]\nd x 2 y − x cos ( xy )\ny Prove that, when d\n(b) 0 , y=±1 .\b [5]\nx=\nd\ny Hence find the coordinates of all points on C , for 0<x<4π , where d\n(c) 0 .\b [5]\nx=\nd",
+   "ms_text": "11. (a) attempt at implicit differentiation M1\nd y d y\n= ( ) + 2 y cos xy x y A1M1A1\nd x d x\nNote: Award A1 for LHS, M1 for attempt at chain rule, A1 for RHS.\nd y d y\n2 y = x cos ( xy ) + y cos ( xy )\nd x d x\nd y d y\n( ) ( ) 2 y − x cos xy = y cos xy\nd x d x\nd y\n( ( ) ) ( ) 2 y − x cos xy = y cos xy M1\nd x\nNote: Award M1 for collecting derivatives and factorising.\n( ) d y y cos xy\n= AG\nd x 2 y − x cos ( xy )\n[5 marks]\ny settingd\n(b) 0 x=\nd\ny cos ( xy= ) 0 (M1)\n( ≠ ) ⇒ ( ) = y 0 cos xy 0 A1\nπ\n( 2 ) ⇒ sin ( xy ) = ± 1cos − ( xy ) = ± 10 − = ± 1 OR xy = ( 2 n + ) ( n∈ )\n12\nπ 3 π\nOR xy = , , A1\n2 2\nNote: If they offer values for xy , award A1 for at least two correct values in two\ndifferent ‘quadrants’ and no incorrect values.\n2 y ( = sin ( xy ) ) > 0 R1\n2 ⇒ y = 1 A1\n⇒ y = ± 1 AG\n[5 marks]\n= ±⇒= ( ± ) ⇒ = ±OR y = ±⇒ 1 0 = cos ( ± x ) ⇒ cos x = 0 (c) y 1 1 sin x sin x 1 (M1)\n5π\n( sin x 1 )π ,1, ,1 A1A1 =⇒\n2 2\n7π\n)3π ( sin x = −⇒ 1 ,1, − ,1 − A1A1\n2 2\nπ\nx = , y = 1 Note: Allow ‘coordinates’ expressed as for example.\n2\nNote: Each of the A marks may be awarded independently and are not dependent on\n(M1) being awarded.\nNote: Mark only the candidate’s first two attempts for each case of sin x.\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "5.14",
+    "3.8",
+    "3.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "11. [Maximum mark: 15]\nConsider the curve $C$ defined by $y^2=\\sin(xy)$, $y \\neq 0$.\n(a) Show that $\\frac{\\mathrm{d}y}{\\mathrm{d}x}=\\frac{y\\cos(xy)}{2y-x\\cos(xy)}$. [5]\n(b) Prove that, when $\\frac{\\mathrm{d}y}{\\mathrm{d}x}=0$, $y=\\pm 1$. [5]\n(c) Hence find the coordinates of all points on $C$, for $0<x<4\\pi$, where $\\frac{\\mathrm{d}y}{\\mathrm{d}x}=0$. [5]"
+  },
+  {
+   "id": "math-2020-N-P1-q12",
+   "num": "12",
+   "section": "B",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q12.webp",
+   "ms_image": "q12_ms.webp",
+   "text": "12. [Maximum mark: 15]\nkx − 5\nConsider the function defined by f ( x ) = , where x∈ ϒ \\ {k} and k2≠5 .\nx − k\n(a) State the equation of the vertical asymptote on the graph of y=f( x ) .\b [1]\n(b) State the equation of the horizontal asymptote on the graph of y=f( x ) .\b [1]\n(c) Use an algebraic method to determine whether f is a self-inverse function.\b [4]\nConsider the case where k=3 .\nSketch the graph of y=f( x ) , stating clearly the equations of any asymptotes and the (d)\ncoordinates of any points of intersections with the coordinate axes. \b [3]\n(e) The region bounded by the x-axis, the curve y=f( x ) , and the lines x=5 and x=7 is\nrotated through 2π about the x-axis. Find the volume of the solid generated, giving your\nanswer in the form π ( a + bln2 ) , where a , b ∈ ′.\b [6]\n\b",
+   "ms_text": "12. (a) x = k A1\n[1 mark]\n(b) y = k A1\n[1 mark]\n(c) METHOD 1\n− kx 5\n− k 5\n− x k\n( f f )() x = M1\n− kx 5\n− k\n− x k\nkkx ( − 5 ) − 5 ( x − k )\n= A1\nkx −− 5 kx ( − k )\n2 − − + kx 5 k 5 x 5 k\n=\n2 kx −− 5 kx + k\n2 kx − 5 x\n= A1\n2 k − 5\n2 xk ( − 5 )\n=\n2 k − 5\n= x\n( f f )() x = x , (hencefis self-inverse) R1\nNote: The statement f (f (x)) = x could be seen anywhere in the candidate’s working to\naward R1.\n[4 marks]\nMETHOD 2\nkx − 5\nfx () =\n− x k\nky − 5\nx = M1\ny − k\nNote: Interchanging x and y can be done at any stage.\nxy ( − k ) = ky − 5 A1\nxy − xk = ky − 5\nxy − ky = xk − 5\nyx ( − k ) = kx − 5 A1\nkx − 5 − 1\ny = f () x = (hence f is self-inverse.) R1\nx − k\n[4 marks]\n(d)\n[\nattempt to draw both branches of a rectangular hyperbola M1\n= = A1 x 3 and y 3\n5 5\n0, and ,0 A1\n3 3\n[3 marks]\n(e) METHOD 1\n2\n− 7 3 x 5\nvolume = π d x (M1) ∫\n5 x − 3\nEITHER\nx − 5 q attempt to express 3\nin the form p + M1\nx − 3 x − 3\n3 x − 5 4\n= + 3 A1\nx − 3 x − 3\nOR\n2\n3 x − 5 2\nor ( x − ) attempt to expand 3 5 and divide out M1\nx − 3\n2\n3 x − 5 24 x − 56 =\n9 + A1\n2 x − 3\n( − ) x 3\nTHEN\n2\n3 x − 5 24 16 =\n9 + + A1\n2 x − 3 x − 3\n( x − 3 )\n7\n24 16\nvolume = π 9 + + d x ∫\n2 x − 3\n( x − 3 )\n5\n7\n16\n= π9 x + 24ln ( x − 3 ) − A1\n− x 3\n5\n= π ( 63 + 24ln 4 − 4 )( − 45 + 24ln 2 − 8 )\n= π22 ( + 24ln 2 ) A1\n[6 marks]\nMETHOD 2\n2\n7 3 x − 5\nvolume = π d x (M1) ∫\n5 − x 3\nd u\n= −⇒ = substituting u x 3 1 A1\nd x\n3 x − 5 = 3( u + 3) − 5 = 3 u + 4\n2\n3 u + 4 4\nvolume = π d u M1 ∫\n2 u\n4 16 24\n= π ∫ 9 + + du A1\n2 2 u u\n4\n16\n= π9 u − + 24ln u A1\nu\n2\nNote: Ignore absence of or incorrect limits seen up to this point.\n( ) = π22 + 24ln 2 A1\n[6 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "2",
+    "5"
+   ],
+   "subtopics": [
+    "2.13",
+    "2.14",
+    "5.17",
+    "5.15"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "12. [Maximum mark: 15]\nConsider the function defined by $f(x)=\\frac{kx-5}{x-k}$, where $x \\in \\mathbb{R}\\setminus\\{k\\}$ and $k^2 \\neq 5$.\n(a) State the equation of the vertical asymptote on the graph of $y=f(x)$. [1]\n(b) State the equation of the horizontal asymptote on the graph of $y=f(x)$. [1]\n(c) Use an algebraic method to determine whether $f$ is a self-inverse function. [4]\nConsider the case where $k=3$.\n(d) Sketch the graph of $y=f(x)$, stating clearly the equations of any asymptotes and the coordinates of any points of intersections with the coordinate axes. [3]\n(e) The region bounded by the $x$-axis, the curve $y=f(x)$, and the lines $x=5$ and $x=7$ is rotated through $2\\pi$ about the $x$-axis. Find the volume of the solid generated, giving your answer in the form $\\pi(a+b\\ln 2)$, where $a, b \\in \\mathbb{Z}$. [6]"
+  }
+ ],
+ "status": "done"
+}

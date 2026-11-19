@@ -1,0 +1,278 @@
+{
+ "exam_id": "math-2003-N-P2",
+ "subject": "math",
+ "syllabus": "math-hl-legacy",
+ "year": 2003,
+ "session": "November",
+ "tz": null,
+ "paper": "2",
+ "option": null,
+ "level": "HL",
+ "qp_pdf": "/home/xiaohe/stuff/Math AA HL/2003 November Examination Session/Mathematics_paper_2_HL.pdf",
+ "ms_pdf": "/home/xiaohe/stuff/Math AA HL/2003 November Examination Session/Mathematics_paper_2_HL_markscheme.pdf",
+ "notes": "1 duplicate copies (1 byte-identical size); marks sum matches expected total 100",
+ "qp_pages": 11,
+ "questions": [
+  {
+   "id": "math-2003-N-P2-q1",
+   "num": "1",
+   "section": "A",
+   "marks": 12,
+   "qtype": "long",
+   "image": "q1.webp",
+   "ms_image": "q1_ms.webp",
+   "text": "1. [Maximum mark: 12]\nThe point A(2, 5, –1) is on the line L, which is perpendicular to the plane\nwith equation x + y + z −= 1 0 .\n(a) Find the Cartesian equation of the line L . [2 marks]\n(b) Find the point of intersection of the line L and the plane. [4 marks]\n(c) The point A is reflected in the plane. Find the coordinates of the image\nof A. [2 marks]\n(d) Calculate the distance from the point B(2, 0, 6) to the line L. [4 marks]",
+   "ms_text": "1\nx − 2 y − 5 z + 1\n1. (a) n 1 , hence equation of L through A (2, 5, − 1) is given by = = . = (M1)(A1)\n1 1 1\n1\n[2 marks]\n(b) A general point on L is (2 + λ , 5 + λ , −+ 1 λ ) . (A1)\nAt intersection of line L and the plane\n(2 + λ ) + (5 + λ ) +−+ (1 λ )1 −= 0 (M1)\n⇒ 3 λ = − 5\n5\n⇒ λ = − (A1)\n3\n110 8\n⇒ point ofintersection , , − (A1)\n3 3 3\n[4 marks]\nA (c)\nλ= 0\nPlane\nλ= – –5\n3\n10\nλ = – —\nA ' 3\nLet Axyz ′ (, ,) be the reflection of A.\nNote: Diagram does not have to be given.\nEITHER\n10\nAλ ′ = − At (M1)\n3\n45 13\n⇒ A ′ =− , , − (A1)\n33 3\nOR\nSince point of intersection of L and the plane is midpoint of AA′\n1\n3\n2 x\n10\n+ = 5 y 2 (M1)\n3\n− 1 z\n8\n−\n3\n45 13\n⇒ ′ =− − A , , (A1)\n33 3\n[2 marks]\n(d) A\nX B(2, 0, 6)\nPlane\n→\nLet X be foot of perpendicular from B to ⇒ = L d BX\n→ → →\nBX = OX − OB\n2 + λ 2 λ\n= 5 + λ − 0 = 5 + λ (A1)\n−+ 1 λ 6 −+ 7 λ\n→\n(M1) NowBX ⋅ n = 0\n⇒ λ + (5 + λ ) +−+ (7 λ ) = 0\n⇒ 3 λ = 2\n2\n3\n2 → 17\n⇒ λ = ⇒ BX = (A1)\n3 3\n19\n−\n3\n4 289 361\nHence d= + +\n9 9 9\n654\n= = 8.52 (units) (A1)\n3\nOR\n→ 0\nAB × n →\nd = where AB =− 5 (M1)(A1)\nn\n7\ni j k\n→\nAB × n = 0 − 5 7 = − 12 i + 7 j + 5 k (A1)\n1 1 1\n144 + 49 + 25\n⇒ d = = 8.52 (units) (A1)\n3\n[4 marks]\nTotal [12 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.18",
+    "3.14",
+    "3.16",
+    "3.13"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "1. [Maximum mark: 12]\nThe point $A(2, 5, -1)$ is on the line $L$, which is perpendicular to the plane with equation $x+y+z-1=0$.\n(a) Find the Cartesian equation of the line $L$. [2 marks]\n(b) Find the point of intersection of the line $L$ and the plane. [4 marks]\n(c) The point A is reflected in the plane. Find the coordinates of the image of A. [2 marks]\n(d) Calculate the distance from the point $B(2, 0, 6)$ to the line $L$. [4 marks]"
+  },
+  {
+   "id": "math-2003-N-P2-q2",
+   "num": "2",
+   "section": "A",
+   "marks": 16,
+   "qtype": "long",
+   "image": "q2.webp",
+   "ms_image": "q2_ms.webp",
+   "text": "2. [Maximum mark: 16]\n(a) Use mathematical induction to prove De Moivre’s theorem\n+\n(cos θ + isin)n θ = cos ( n θ ) + isin ( n θ ) , n ∈Z . [7 marks]\nz− 5 = (b) Consider 32 0 .\n2π 2π\n(i) Show that z = 2cos + isin is one of the complex\n1\n5 5\nroots of this equation.\n2 3 4 5\nz , z , z , z (ii) Find , giving your answer in the modulus argument\n1 1 1 1\nform.\n2 3 4 5\nz , z , z , z and z (iii) Plot the points that represent\n1 1 1 1 1 , in the complex\nplane.\nn n + 1\n(iv) The point z is mapped to z by a composition of two linear\n1 1\ntransformations, where n = 1, 2, 3, 4 . Give a full geometric\ndescription of the two transformations. [9 marks]",
+   "ms_text": "+ 2. (a) (cos θ + isin) θ n = cos( n θ ) + isin( n θ ), n ∈Z\nLet n =⇒ 1 cos θ + isin θ = cos θ + isin θ which is true. (A1)\nk Assume true for n = k ⇒ (cos θ + isin) θ = cos( k θ ) + isin( k θ ) . (M1)\nNow show n=k true implies n=k+ 1 also true. (M1)\nθ + θ k + 1 = θ + θ k θ + θ (cos isin) (cos isin)(cos isin) (M1)\n= ( cos( k θ ) + isin( k θ )(cos ) θ + isin) θ\n= cos( k θ )cos θ − sin( k θ )sin θ + isin( ( k θ )cos θ + cos( k θ )sin θ ) (A1)\n= cos( k θ + θ ) + isin( k θ + θ )\n= cos( k + 1) θ + isin( k + 1) θ ⇒ n = k + 1 is true. (A1)\nTherefore by mathematical induction statement is true for n ≥ 1 . (R1)\n[7 marks]\n2π 2π\n(b) (i) z = 2cos + isin\n1\n5 5\n5 5 ⇒ z = 2(cos2π + isin2π) (M1)\n1\n= 32\n5 Therefore\n1z is a root of z− 32 = 0 . (AG)\n2 4π 4π (ii) z = 4cos + isin\n1\n5 5\n3 6π 6π z = 8cos + isin\n1\n5 5\n8π 8π 4\nz = 16cos + isin\n1\n5 5\n5 z= 32(cos2π + isin2π) ( = 32(cos0 + isin0) = 32 )\n(A2) 1\nNote: Award (A2) for all 4 correct, (A1) for 3 correct, (A0) otherwise.\n(iii) Im\n6\n4\n2 z1 z1\n2 5 z1\nRe\n–8–6–4–2 2 4 6 8 101214161820222426283032\n–2\n–4 3\nz1\n–6\n–8\n–10\n–12\n–14\n4 z1\n–16 (A1)(A3)\nNote: Award (A1) for graph of reasonable size, scale, axes marked,\n(A3) for all 5 points correctly plotted, (A2) for 4 points correctly plotted.\n(A1) for 3 points correctly plotted.\n(iv) Composite transformation is a combination of (in any order)\nan enlargement scale factor 2, centre (0, 0) ; (A1)\n8π 2π(72), centre (0, 0) � �\na rotation (anti-clockwise) of or clockwise (288) . (A1)\n5 5\nNote: Do not penalize if centre of enlargement or rotation not given.\n[9 marks]\nTotal [16 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "1",
+    "3"
+   ],
+   "subtopics": [
+    "1.14",
+    "1.15",
+    "1.13",
+    "3.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "2. [Maximum mark: 16]\n(a) Use mathematical induction to prove De Moivre's theorem\n$(\\cos\\theta+\\mathrm{i}\\sin\\theta)^n=\\cos(n\\theta)+\\mathrm{i}\\sin(n\\theta),\\ n\\in\\mathbb{Z}^+$. [7 marks]\n(b) Consider $z^5-32=0$.\n(i) Show that $z_1=2\\left(\\cos\\left(\\frac{2\\pi}{5}\\right)+\\mathrm{i}\\sin\\left(\\frac{2\\pi}{5}\\right)\\right)$ is one of the complex roots of this equation.\n(ii) Find $z_1^2, z_1^3, z_1^4, z_1^5$, giving your answer in the modulus argument form.\n(iii) Plot the points that represent $z_1, z_1^2, z_1^3, z_1^4$ and $z_1^5$, in the complex plane.\n(iv) The point $z_1^n$ is mapped to $z_1^{n+1}$ by a composition of two linear transformations, where $n=1,2,3,4$. Give a full geometric description of the two transformations. [9 marks]"
+  },
+  {
+   "id": "math-2003-N-P2-q3",
+   "num": "3",
+   "section": "A",
+   "marks": 15,
+   "qtype": "long",
+   "image": "q3.webp",
+   "ms_image": "q3_ms.webp",
+   "text": "3. [Maximum mark: 15]\n(i) (a) Express 3cos θ − sin θ in the form r cos( θ + α ) , where r > 0 and\nπ\n0 < α < , giving r and α as exact values. [3 marks]\n2\n(b) Hence, or otherwise, for 0 ≤ θ ≤ 2π , find the range of values of\n3cos θ − sin θ . [2 marks]\n(c) Solve 3cos θ − sin θ = − 1,for 0 ≤ θ ≤ 2π , giving your answers as\nexact values. [5 marks]\nsin 4 θ ( 1cos 2 − θ ) π π\n(ii) Prove that = tan θ , for 0 < θ < , and θ ≠ . [5 marks]\n( ) cos2 θ 1cos 4 − θ 2 4",
+   "ms_text": "θ − θ = θ + α 3. (i) (a) 3cos sin r cos( )\nwhere r = 31 += 2 (A1)\n1 π\nand α= = � arctan (or 30) (M1)(A1)\n3 6\nπ\n⇒ 3cos θ − sin θ = 2cos θ +\n6\n[3 marks]\nπ\n(b) Since 3cos θ − sin θ = 2cos θ + (M1)\n6\nrange will be [2, 2] − . (A1)\n[2 marks]\n(c) 3cos θ − sin θ = − 1\nπ\n⇒ 2cos θ + = − 1\n6\nπ 1\n⇒ cos θ + = − (M1)\n6 2\nπ 2π4π\n⇒ θ + = , (A1)(A1)\n6 3 3\nπ7π\n⇒ θ = , (A1)(A1)\n2 6\nNote: Answers must be multiples of π.\n[5 marks]\n( 2 2 ) sin 4 θ ( 1 − cos2 θ ) 2sin 2cos2 θ θ 1 − (cos θ − sin θ ) (M1)\n(ii) ≡\ncos2 θ ( 1 − cos4 θ ) ( 2 2 ) cos2 θ 1 − (cos2 θ − sin2) θ (M1)\n2 2 2sin2(1cos θ − θ + sin θ )\n≡ (A1)\n2 2 1cos2 − θ + sin2 θ\n2 2sin 2(2sin θ θ )\n≡ (A1)\n2 2sin2 θ\n2 2sin θ\n≡\nθ sin 2\n2sin 2 θ\n≡\n2sin θ cos θ\nsin θ\n≡ (A1)\ncos θ\n≡ tanθ (AG)\n[5 marks]\nTotal [15 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "3"
+   ],
+   "subtopics": [
+    "3.8",
+    "3.6",
+    "3.10",
+    "3.7"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "3. [Maximum mark: 15]\n(i) (a) Express $\\sqrt{3}\\cos\\theta-\\sin\\theta$ in the form $r\\cos(\\theta+\\alpha)$, where $r>0$ and $0<\\alpha<\\frac{\\pi}{2}$, giving $r$ and $\\alpha$ as exact values. [3 marks]\n(b) Hence, or otherwise, for $0\\le\\theta\\le2\\pi$, find the range of values of $\\sqrt{3}\\cos\\theta-\\sin\\theta$. [2 marks]\n(c) Solve $\\sqrt{3}\\cos\\theta-\\sin\\theta=-1$, for $0\\le\\theta\\le2\\pi$, giving your answers as exact values. [5 marks]\n(ii) Prove that $\\frac{\\sin4\\theta(1-\\cos2\\theta)}{\\cos2\\theta(1-\\cos4\\theta)}=\\tan\\theta$, for $0<\\theta<\\frac{\\pi}{2}$, and $\\theta\\ne\\frac{\\pi}{4}$. [5 marks]"
+  },
+  {
+   "id": "math-2003-N-P2-q4",
+   "num": "4",
+   "section": "A",
+   "marks": 14,
+   "qtype": "long",
+   "image": "q4.webp",
+   "ms_image": "q4_ms.webp",
+   "text": "4. [Maximum mark: 14]\n(i) Use the substitution y = xv to show that the general solution to the\nd y 2 2\n, x> 0 is differential equation ( x + y ) + 2 = 0\nxyx\nd\n3 2 x + 3 xy = k ,where is a constant. k\n[6 marks]\na\n= ≠ > > (ii) A curve has equation fx () , a 0, b 0, c 0 .\n−\nb + ecx\n2 − cx ( − cx − ) ac e e b\n(a) Show that f ′′ () x = .\n3 [4 marks] − cx\n( b + e )\n′′ (b) Find the coordinates of the point on the curve where f () x = 0 . [2 marks]\n(c) Show that this is a point of inflexion. [2 marks]",
+   "ms_text": "d y d v\n4. (i) y = xv ⇒ = v + x (A1)\nd x d x\nd y 2 2\nNow x + y + 2 = 0\nxyx\nd\nd v\n⇒ 2 + 2 2 + 2 + = x xv 2 xvv 0 (A1)\nxx\nd\n2 2 d v 2 ⇒+ 1 v + 2 v + 2 xv = 0(since x > 0)\nd x\nd v\n⇒ = − + 2 2 xv (1 3 v )\nd x\n2 v 1\n⇒ ∫ d v =− ∫ d x (M1)\n2 13 + v x\n1ln13 2 ⇒ + v = − ln x + ln k (A1)(A1)\n3\n2 ⇒ ln13 + v = − 3ln x + ln k\n2 3 y k\n⇒+ 1 = (A1)\n2 3 x x\n⇒ 3 + 2 = x 3 xy k (AG)\n[6 marks]\na\n(ii) fx () = , a ≠ 0, b > 0, c > 0\n+ ecx − b\n− cx − cx ( b + e )(0) − ()( a − c e )\n(a) ′ = f () x (M1)\n− cx 2 ( b + e )\n− cx ac e\n= (A1)\n− cx 2 ( b + e )\n+ − cx 2 − 2 − cx − − cx + − cx − − cx ( b e )( ac e ) ( ac e )2( b e )( c e )\nf ′′ () x = (M1)\n+ − cx 4 ( b e )\n2 − cx 2 − cx 2 2 − cx 2 − bac e − ac (e ) + 2 ac (e )\n=\n− cx 3 ( b + e )\n2 − cx 2 − 2 − cx ac (e ) bac e\n= (A1)\n+ − cx 3 ( b e )\n2 − cx − cx ac e (e − b )\n= (AG)\n− cx 3\n( b + e )\n[4 marks]\n′′ = ⇒ ecx − = (b) f () x 0 b\n⇒− cx = ln b\na a 1 ln\n⇒ x = − b ⇒ y = =\nln b c b + e 2 b\na\nSo coordinate =− 1 ln, 2 b (A1)(A1)\nc b\n[2 marks]\n− 1 ln − (c) Now ecx > b on one side of x = − b and ecx < b on the other side.\n(R1)\nc\n′′ ⇒ f () x changes sign at this point. (R1)\n⇒ It is a point of inflexion. (AG)\n[2 marks]\nTotal [14 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5"
+   ],
+   "subtopics": [
+    "5.18",
+    "5.6",
+    "5.8",
+    "5.7",
+    "5.10"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "4. [Maximum mark: 14]\n(i) Use the substitution $y=xv$ to show that the general solution to the differential equation $(x^2+y^2)+2xy\\frac{\\mathrm{d}y}{\\mathrm{d}x}=0,\\ x>0$ is $x^3+3xy^2=k$, where $k$ is a constant. [6 marks]\n(ii) A curve has equation $f(x)=\\frac{a}{b+\\mathrm{e}^{-cx}},\\ a\\ne0, b>0, c>0$.\n(a) Show that $f''(x)=\\frac{ac^2\\mathrm{e}^{-cx}(\\mathrm{e}^{-cx}-b)}{(b+\\mathrm{e}^{-cx})^3}$. [4 marks]\n(b) Find the coordinates of the point on the curve where $f''(x)=0$. [2 marks]\n(c) Show that this is a point of inflexion. [2 marks]"
+  },
+  {
+   "id": "math-2003-N-P2-q5",
+   "num": "5",
+   "section": "A",
+   "marks": 13,
+   "qtype": "long",
+   "image": "q5.webp",
+   "ms_image": "q5_ms.webp",
+   "text": "5. [Maximum mark: 13]\n(i) A random variable X is normally distributed with mean µ and standard\ndeviation σ, such that P( X > 50.32) = 0.119, and P( X < 43.56) = 0.305.\n(a) Find µ and σ. [5 marks]\n(b) Hence find P ( X − µ < 5 ) .\n[2 marks]\n(ii) Consider the following system of equations where b is a constant.\n+ + = 3 x y z 1\n2 x + y − z = 4\n+ + = 5 x y bz 1\n(a) Solve for z in terms of b. [4 marks]\n(b) Hence write down, with a reason, the range of values of b for\nwhich this system of equations has a unique solution. [2 marks]",
+   "ms_text": "5. (i) (a)\n30.5 %\n11.9 %\n43.56 50.32\nµ\nφ () z = 0.305 ⇒ z = − 0.51 (A1)\nand () φ z = 0.881 ⇒ z = 1.18 (A1)\n50.32 − µ 43.56 − µ\n= 1.18 and = − 0.51 (M1)\nσ σ\nSolving simultaneously\n⇒ 50.32 = µ + 1.18 σ and43.56 = µ − 0.51 σ\n⇒ 1.69 σ = 6.76\n⇒ σ = ⇒ µ = 4 45.6 (A1)(A1)\n[5 marks]\n(b) P ( X − µ < 5 ) = P(40.6 < x < 50.6) (M1)\n= 0.789 (G1)\n[2 marks]\n(ii) (a) 3 x + y + z = 1 �\n+ − = � 2 x y z 4\n+ + = 5 x y bz 1 �\n− ⇒ + + = − Solving for z �� 3 x bz z 3 � (M1)\nalso �� − ⇒− x − 2 z = 3 � (M1)\n3 × �� + ⇒ bz − 5 z = 6 (A1)\n6\n⇒ z = (A1)\nb − 5\n[4 marks]\n(b) If b= 5, z is undefined. (R1)\nb ≠ Hence equation has unique solution if 5 . (A1)\n[2 marks]\nTotal [13 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4",
+    "1"
+   ],
+   "subtopics": [
+    "4.12",
+    "4.9",
+    "1.16"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "text_clean": "5. [Maximum mark: 13]\n(i) A random variable $X$ is normally distributed with mean $\\mu$ and standard deviation $\\sigma$, such that $P(X>50.32)=0.119$, and $P(X<43.56)=0.305$.\n(a) Find $\\mu$ and $\\sigma$. [5 marks]\n(b) Hence find $P(|X-\\mu|<5)$. [2 marks]\n(ii) Consider the following system of equations where $b$ is a constant.\n$3x+y+z=1$\n$2x+y-z=4$\n$5x+y+bz=1$\n(a) Solve for $z$ in terms of $b$. [4 marks]\n(b) Hence write down, with a reason, the range of values of $b$ for which this system of equations has a unique solution. [2 marks]"
+  },
+  {
+   "id": "math-2003-N-P2-q6",
+   "num": "6",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q6.webp",
+   "ms_image": "q6_ms.webp",
+   "text": "6. [Maximum mark: 30]\nThe random variable X has a Poisson distribution with mean λ. (i)\n(a) Given that P( X = 4) = P( X = 2) + P( X = 3) , find the value of λ. [3 marks]\nGiven that λ= 3.2, find the value of (b)\n(i) P( X≥ 2) ;\n(ii) P ( X ≤ 3 X ≥ 2 ) . [5 marks]\n(ii) A medical statistician is studying the weights, x kg, of new-born babies\nin a hospital. She finds that, in one month, 15 babies were born.\n2 For these babies, ∑ x = 55.5 and ∑ x = 215.8 .\nAssuming that weights of babies are normally distributed, calculate a\n99 % confidence interval for the mean weight of babies born in this\nhospital. [5 marks]\n(iii) A farmer grows tomatoes using plants of two varieties, I and II. He\nbelieves that the mean yield from Variety II plants exceeds the mean\nyield from Variety I plants. He keeps a record of the yield from each\nplant and he obtains the following results.\nVariety I II\nNumber of plants 150 100\nMean yield (kg) 3.51 3.56\nStandard deviation of yield (kg) 0.21 0.23\nAssume that the two samples are drawn from normal populations with\nequal variance. Using a 5 % significance level, determine whether or\nnot these results support the farmer’s belief. [7 marks]\n(iv) Eggs at a farm are sold in boxes of six. Each egg is either brown or\nwhite. The owner believes that the number of brown eggs in a box can\nbe modelled by a binomial distribution. He examines 100 boxes and\nobtains the following data.\nNumber of brown eggs in a box Frequency\n0 10\n1 29\n2 31\n3 18\n4 8\n5 3\n6 1\n(a) (i) Calculate the mean number of brown eggs in a box.\n(ii) Hence estimate p, the probability that a randomly chosen egg\nis brown. [2 marks]\n2 (b) By calculating an appropriate χ statistic, test, at the 5 %\nsignificance level, whether or not the binomial distribution gives a\ngood fit to these data. [8 marks]",
+   "ms_text": "− λ − λ − λ e × λ 4 e × λ 2 e × λ 3\n6. (i) (a) = + (M1)\n4! 2! 3!\n2 λ − 4 λ − 12 = 0 ⇒ λ = 6 (A1)(A1)\n[3 marks]\n≥ =− − 3.2 − − 3.2 × = (b) (i) P( X 2) 1e e 3.2 0.829 (M1)(A1)\nOR\nP( X≥ 2) = 0.829 (G2)\nP(2 ≤ X ≤ 3)\n(ii) P ( X ≤ 3 X ≥ 2 ) = (M1)\nP( X ≥ 2)\n− 3.2 × 2 − 3.2 × 3 e 3.2 e 3.2\n+\n2 6 (A1) =\n− − 3.2 1 4.2e\n= 0.520 (A1)\nOR\nP ( X ≤ 3 X ≥ 2 ) = 0.520 (G3)\n[5 marks]\n2 55.5 215.8 55.5\n2 (ii) µ ˆ = = 3.7; σ ˆ = − = 0.746428 … (A1)(A1)\n15 14 1415 ×\n0.746428 …\n99 % ± confidence limits are 3.7 2.977 (M1)(A1)\n15\ngiving [3.04, 4.36]. (A1)\nOR\n99 % C.I. is [3.04, 4.36]. (G3)\n[5 marks]\nNote: Candidates may obtain slightly different numerical answers depending on the\ncalculator and approach used. Use discretion in marking.\n(iii) EITHER\nµ = µ µ < µ (R1) Let H: and H:\n0 I II 1 I II\n2 2 1500.21 × + 1000.23 ×\nPooled variance = = … 0.048004 (M1)(A1)\n248\n3.56 − 3.51\nTest statistics = = 1.77\n1 1 (M1)(A1)\n0.048004 … +\n150 100\nCritical value = 1.645 (A1)\nWe conclude that the farmer’s belief is supported by these results. (A1)\nOR\nLet H: µ = µ , H: µ < µ (R1)\n0 I II 1 I II\nUsing GDC, p-value = 0.0392. (G5)\nAward (G4) for p= 0.0386. Note:\nWe conclude that the farmer’s belief is supported by these results. (A1)\nThere are several other methods of solution which, for various reasons, do not merit\nfull credit. Possibilities are:\nMETHOD 1\nSome candidates may use a GDC facility which does not require the assumption of\nequality of variance as required in the question. The results obtained (on a TI 83) are\nt= 1.74, p-value = 0.0421\nNote: Award only (G3) (and not (G5)) for this solution.\nMETHOD 2\nOther candidates might think that, in view of the large samples involved, a 2-sample\nz-test can be used with variances replaced by their estimates. This is a valid\napproach but not in line with the syllabus which states that “if the population\nvariance is unknown, the t-distribution should be used regardless of sample size”.\nThis method gives\n− 3.56 3.51\nTest stat = = 1.74\n2 2 0.21 0.23\n+\n150 100\nCritical value = 1.645 or using a GDC, p-value = 0.0407\nNote: Award only (G3) (and not (G5)) for this solution.\n[7 marks]\n× +…+× 129 61\n(iv) (a) (i) Mean = = 1.98 (A1)\n100\n1.98\n(ii) p = ˆ = 0.33 (A1)\n6\n[2 marks]\n(b) The calculated values are\n− 2 of ef ( f f )\no e\n10 9.046 0.910 (M1)\n29 26.732 5.14\n(A1)\n31 32.917 3.675\n(A1)\n18 21.617 13.083\n(A1) 12 9.688 5.345\nNote: Award (M1) for the attempt to calculate expected values, (A1) for correct\n2 expected values, (A1) for correct ( f − f ) values, (A1) for combining cells.\n0 e\n0.910 5.345 2\nχ= + …+ = 1.56 (A1)\n9.046 9.688\nOR\nχ= 2 1.56 (G5)\nDegrees of freedom = 3; Critical value = 7.815 ( or -value p = 0.668 (or 0.669) ) (A1)(A1)\nWe conclude that the binomial distribution does provide a good fit. (R1)\n[8 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "4"
+   ],
+   "subtopics": [
+    "4.L9",
+    "4.L1",
+    "4.L7",
+    "4.L6",
+    "4.8",
+    "4.11"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Statistics",
+   "text_clean": "6. [Maximum mark: 30]\n(i) The random variable $X$ has a Poisson distribution with mean $\\lambda$.\n(a) Given that $P(X=4)=P(X=2)+P(X=3)$, find the value of $\\lambda$. [3 marks]\n(b) Given that $\\lambda=3.2$, find the value of\n(i) $P(X\\ge2)$;\n(ii) $P(X\\le3 \\mid X\\ge2)$. [5 marks]\n(ii) A medical statistician is studying the weights, $x$ kg, of new-born babies in a hospital. She finds that, in one month, 15 babies were born. For these babies, $\\sum x=55.5$ and $\\sum x^2=215.8$. Assuming that weights of babies are normally distributed, calculate a 99 % confidence interval for the mean weight of babies born in this hospital. [5 marks]\n(iii) A farmer grows tomatoes using plants of two varieties, I and II. He believes that the mean yield from Variety II plants exceeds the mean yield from Variety I plants. He keeps a record of the yield from each plant and he obtains the following results.\nVariety | I | II\nNumber of plants | 150 | 100\nMean yield (kg) | 3.51 | 3.56\nStandard deviation of yield (kg) | 0.21 | 0.23\nAssume that the two samples are drawn from normal populations with equal variance. Using a 5 % significance level, determine whether or not these results support the farmer's belief. [7 marks]\n(iv) Eggs at a farm are sold in boxes of six. Each egg is either brown or white. The owner believes that the number of brown eggs in a box can be modelled by a binomial distribution. He examines 100 boxes and obtains the following data.\nNumber of brown eggs in a box | Frequency\n0 | 10\n1 | 29\n2 | 31\n3 | 18\n4 | 8\n5 | 3\n6 | 1\n(a) (i) Calculate the mean number of brown eggs in a box.\n(ii) Hence estimate $p$, the probability that a randomly chosen egg is brown. [2 marks]\n(b) By calculating an appropriate $\\chi^2$ statistic, test, at the 5% significance level, whether or not the binomial distribution gives a good fit to these data. [8 marks]"
+  },
+  {
+   "id": "math-2003-N-P2-q7",
+   "num": "7",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q7.webp",
+   "ms_image": "q7_ms.webp",
+   "text": "7. [Maximum mark: 30]\n(i) (a) Use a Venn diagram to show that ( A ∪ B ) ′ = A ′ ∩ B ′ . [2 marks]\n′\n(b) Prove that [ ( A ′ ∪ B ) ∩ ( A ∪ B ′ ) ] = ( A ∩ B ) ′ ∩ ( A ∪ B ) . [4 marks]\n(ii) Let S= {f, g, h, j} be the set of functions defined by\n1 1\n= = − = = − ≠ fx () x , gx () xhx , () , () jx ,where x 0 .\nx x\n(a) Construct the operation table for the group {,} S� , where is the �\ncomposition of functions. [3 marks]\n(b) The following are the operation tables for the groups {0,1, 2, 3}\nunder addition modulo 4, and {1, 2, 3, 4} under multiplication\nmodulo 5.\n+ 0 1 2 3 × 1 2 3 4\n0 0 1 2 3 1 1 2 3 4\n1 1 2 3 0 2 2 4 1 3\n2 2 3 0 1 3 3 1 4 2\n3 3 0 1 2 4 4 3 2 1\nBy comparing the elements in the two tables given plus the table\nconstructed in part (a), find which groups are isomorphic. Give\nreasons for your answers. State clearly the corresponding elements. [6 marks]\n(iii) (a) The binary operation # is defined on the set of real numbers by\n= + + # ab a b 1 .\nShow that the binary operation # is both commutative and associative. [4 marks]\n(b) Show that the set of real numbers forms a group under the\noperation #. [4 marks]\n(iv) (a) Determine with reasons which of the following functions is a\nbijection from R to R.\n2 x + 1\n2 3 px () = x + 1, qx () = x , rx () = [4 marks]\n2 x + 2\n(b) Let t be a function from set A to set B, and s be a function from\nset B to set C. Show that if both s and t are bijective then st � is\nalso bijective. [3 marks]",
+   "ms_text": "7. (i) (a) ( A ∪ B′ ) is given by\nB\nA\n(A1)\n′ ′ A ∩ B is given by\nB\nA\n(A1)\nHence ( A ∪ B ) ′ = A ′ ∩ B ′ . (AG)\n[2 marks]\n′ (b) [\n( A ′ ∪ B ) ∩ ( A ∪ B ′ ) ] = ( A ′ ∪ B ) ′ ∪ ( A ∪ B ′′ ) (A1)\n′ ′ = ( A ∩ B ) ∪ ( A ∩ B ) (A1)\n= [ ( A ∩ B ′ ) ∪ A ′ ] ∩ [ ( A ∩ B ′ ) ∪ B ] (M1)\n= [ ( A ∪ A ′ ) ∩ ( B ′ ∪ A ′ ] ∩ [ ( A ∪ B ) ∩ ( B ′ ∪ B ) ]\n′ ′ = ( B ∪ A ) ∩ ( A ∪ B ) (A1)\n′ = ( A ∩ B ) ∩ ( A ∪ B ) (AG)\n[4 marks]\n(ii) (a) o f g h j\nf f g h j\ng g f j h\nh h j f g\nj j h g f\n(A3)\nNote: Award (A3) for all correct, (A2) for 1 error, (A1) for 2 errors, (A0) otherwise.\n[3 marks]\n(b) +4 0 1 2 3 x5 1 2 3 4\n0 0 1 2 3 1 1 2 3 4\n1 1 2 3 0 2 2 4 1 3\n2 2 3 0 1 3 3 1 4 2\n3 3 0 1 2 4 4 3 2 1\nTo investigate which may be isomorphic we can consider the order of elements (M1)\nfor + , the identity is 0, 1 has order 4, 2 has order 2 and 3 has order 4, (A1) 4\nfor x , the identity is 1, 2 has order 4, 3 has order 4 and 4 has order 2, (A1) 5\n� for , the identity is f, and g, h and j all have order 2. (A1)\nHence + is isomorphic with x . (A1) 4 5\nCorresponding elements are\n0 ↔ 1,1 ↔ 2, 2 ↔ 4, 3 ↔ 3, OR 0 ↔ 1,1 ↔ 3, 2 ↔ 4, 3 ↔ 2 . (A1)\nNote: Corresponding elements must be correct for final (A1).\n[6 marks]\n(iii) (a) ab # = a + b + 1\n= + + Now # ba b a 1 (M1)\nSince + is commutative # ab = ba # (A1)\n⇒ # is also a commutative operation. (AG)\n(#)# ab c = ( a + b + 1)# c\n= a + b ++ 1 c + 1\n= a + b + c + 2 (A1)\n= + + a #(#) bc a #( b c 1)\n= a + b + c ++ 11\n= a + b + c + 2 (A1)\n⇒ # is also associative operation. (AG)\n[4 marks]\nTo show (R, #) is a group we need to show closure, identity element exists, (b)\ninverses exist and it is associative (already shown).\nIt is closed since a + b +∈ 1 R for ab , ∈ R . (A1)\nThere is a unique element ee∈R ( ) such that pe # = e # p = p where p ∈R\n⇒ p ++= e 1 e + p += 1 p\n⇒ e = − 1 as identity element (A1)\nThere are unique inverse elements for each element in R such that\n− 1 − 1 p # p = p # p = − 1\n(M1)\n− − ⇒ p + p 1 += 1 p 1 + p += − 1 1\n⇒ − 1 = − − p p 2 (A1)\nHence (R, #) forms a group. (AG)\n[4 marks]\n(iv) (a) A bijection is both one-to-one and onto,\nso by considering a sketch of each function\ny y y\nx x x\n2 3 y = x + 1 y = x (A1)(A1)(A1)\nwe can see that for R to R only 3 y = x is one-to-one and onto. (R1)\n[4 marks]\n(b) t and s are bijections\nso under t each element in set A has a unique image in set B and similarly\nunder s each element in set B has a unique image in set C.\nHence A t B s C\n. . .\n. . .\n. . . (M1)\n. . .\n. . .\nand under the composite function st � each element of set A has a unique\n(R1)\nimage in set C.\nThis is both one-to-one and onto (R1)\n⇒� st is bijective. (AG)\n[3 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "7"
+   ],
+   "subtopics": [
+    "7.4",
+    "7.3",
+    "7.1",
+    "7.9",
+    "7.5",
+    "7.6"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Sets, Relations and Groups",
+   "text_clean": "7. [Maximum mark: 30]\n(i) (a) Use a Venn diagram to show that $(A\\cup B)'=A'\\cap B'$. [2 marks]\n(b) Prove that $[(A'\\cup B)\\cap(A\\cup B')]'=(A\\cap B)'\\cap(A\\cup B)$. [4 marks]\n(ii) Let $S=\\{f,g,h,j\\}$ be the set of functions defined by $f(x)=x,\\ g(x)=-x,\\ h(x)=\\frac{1}{x},\\ j(x)=-\\frac{1}{x}$, where $x\\ne0$.\n(a) Construct the operation table for the group $\\{S,\\circ\\}$, where $\\circ$ is the composition of functions. [3 marks]\n(b) The following are the operation tables for the groups $\\{0,1,2,3\\}$ under addition modulo 4, and $\\{1,2,3,4\\}$ under multiplication modulo 5.\n+ | 0 1 2 3\n0 | 0 1 2 3\n1 | 1 2 3 0\n2 | 2 3 0 1\n3 | 3 0 1 2\n× | 1 2 3 4\n1 | 1 2 3 4\n2 | 2 4 1 3\n3 | 3 1 4 2\n4 | 4 3 2 1\nBy comparing the elements in the two tables given plus the table constructed in part (a), find which groups are isomorphic. Give reasons for your answers. State clearly the corresponding elements. [6 marks]\n(iii) (a) The binary operation # is defined on the set of real numbers by $a\\#b=a+b+1$. Show that the binary operation # is both commutative and associative. [4 marks]\n(b) Show that the set of real numbers forms a group under the operation #. [4 marks]\n(iv) (a) Determine with reasons which of the following functions is a bijection from $\\mathbb{R}$ to $\\mathbb{R}$.\n$p(x)=x^2+1,\\ q(x)=x^3,\\ r(x)=\\frac{x^2+1}{x^2+2}$ [4 marks]\n(b) Let $t$ be a function from set $A$ to set $B$, and $s$ be a function from set $B$ to set $C$. Show that if both $s$ and $t$ are bijective then $s\\circ t$ is also bijective. [3 marks]"
+  },
+  {
+   "id": "math-2003-N-P2-q8",
+   "num": "8",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q8.webp",
+   "ms_image": "q8_ms.webp",
+   "text": "8. [Maximum mark: 30]\n+\n(i) (a) The relation R is defined on Z by aRb if a ≡ b (mod m ), where m ∈Z .\nShow that R is an equivalence relation. [5 marks]\n(b) (i) If k , (0 ≤ k 8) < is a solution of the congruence\n5x ≡ 3 (mod 8) find the value of k.\n(ii) Show that all solutions of 5x ≡ 3 (mod 8) are congruent to k. [5 marks]\n(ii) Solve the recurrence relation\nu = 3 u + 4 u ; u = 1, u = 2 [7 marks]\nn n − 1 n − 2 1 2 .\n(iii) Consider the graph G with vertices VVV , , ,...... V as shown in the\n1 2 3 11\ndiagram given below.\nV2\nV1\nV3\nV4 V10\nV9\nV5\nV6\nV7 V11\nV8\n(a) Find the chromatic number for G, justifying your answer. [4 marks]\n(b) Find the number of distinct Hamiltonian paths between V and V\n1 11\nand give their vertex sequence. [3 marks]\n(iv) Consider the graph K, with vertices U , UU , ,...... U .\n0 1 2 6\nU1\nU6\nU2\nU0\nU5\nU3\nU4\nU (a) Starting at , carry out a breadth-first search of graph K, to\n0\nobtain a spanning tree. Draw the current tree rT for r= 1 to 6, at\neach stage of search.\n(b) Starting at U , carry out a depth-first search of graph K, to obtain\n0\na spanning tree. Draw the current tree rT , for r= 1 to 6, at each\nstage of search. [6 marks]",
+   "ms_text": "a − b\n8. (i) (a) a ≡ b (mod) c ⇒ = kk , ∈Z\nc\na − a\nNow a ≡ a (mod)since c = 0\nc\n⇒ R is reflexive. (A1)\nIf a ≡ b (mod)then c b ≡ a (mod) c is true,\nb − a\nsince = −⇒ k R is also symmetric. (A1)\nc\na − b b − d\n≡ ≡ If a b (mod) and c b d (mod) c then = k and = k\n1 2\nc c\n⇒ a − b = ck b − d = ck\n1 2\n⇒ a − b + b − d = ck + ck\n1 2\n⇒ a − d = ( k + k ) c\n1 2 (M1)\na − d\n⇒ = k + k ⇒ a ≡ d (mod) c\n1 2\nc\n⇒ R is transitive. (A1)\nSince R is reflexive, symmetric and transitive, (A1)\nR is an equivalence relation. (AG)\n[5 marks]\n(b) (i) 5 x ≡ 3 (mod 8)\n5 x − 3\n⇒ = t ( t ∈Z )\n8\n8 t + 3\n⇒ x = (M1)\n5\nBy trial and error a solution is t= 4 and x= 7.\n⇒ Required value k = 7. (A1)\n(ii) Other solutions for t and x are\nt = 9, x = 15\n(M1)\n= = t 14, x 23\nand in general t takes the form 5 n + 4 ( n ∈Z ) (A1)\n8(5 n + 4) + 3\n⇒ x =\n5\n= 8 n + 7 . (A1)\nHence all solutions are congruent to k= 7. (AG)\nOR\nIf k and k are two solutions\n1 2\nthen 5 k≡ 3 1\n5 k≡ 3 (M1)\n2\n⇒ 5( k − k ) ≡ 0 (mod8) (A1)\n1 2\nAs 5 is not a factor of 8, k − k must be a multiple of 8. 1 2\n⇒ k ≡ k (mod8) (A1)\n1 2\nHence all solutions are congruent to k= 7. (AG)\n[5 marks]\nn n n − 1 n − 2 (ii) u = r ⇒ r = 3 r + 4 r (M1)(A1)\nn\nn n − 1 n − 2 r 3 r 4 r\n⇒ = +\nn − 2 n − 2 n − 2 r r r\n⇒ 2 = + r 3 r 4\n2 ⇒ r − 3 r − 4 = 0 (A1)\nThis is the Characteristic Equation of the Recurrence Relation.\nSolving for r ⇒ ( r − 4)( r + 1) = 0\n= = − r 4, r 1 (A1)\nn n general solution u = A 4 + B (1) − (A1)\nn\nn = 1 ⇒ 1 = 4 A − B\n= ⇒ = + n 2 2 16 A B\n⇒ 3 = 20A\n3 2 3 2 n n\n⇒ A = ⇒ B = − ⇒ u = (4) − (1) − (A1)(A1)\nn\n20 5 20 5\n[7 marks]\n(iii) (a) EITHER\nDenoting different colours by the numbers �,�,�… the diagram below\nshows the need to use 4 colours, otherwise two adjacent vertices would have\nequal numbers (same colour). (R1)\n2 V2\n1\nV1\nV3 2\n1 V4 V10\n2\n1 V9\n(M1)(A1)\n1 V5\n3\nV7 V6 1\nV11\n4 2 V8\n⇒ χ = Chromatic number of graph () G 4 .\n(A1)\nOR\nThe chromatic number is ≤ 4 since G is planar and the chromatic number is (A1)\n≥ 4 , since G contains κ as a sub graph ( V , VVV , , ) .\n4 4 5 6 7 (A1)(A1)\n⇒ Chromatic number of graph χ () G = 4 . (A1)\n[4 marks]\n(b) Hamiltonian paths (all vertices appear once) between V and V .\n1 11\nVV , , VV , , VVVVVV , , , , , , V (A1)\n1 2 3 4 5 7 6 8 9 10 11\nVV , , VV , , VVVVVV , , , , , , V (A1)\n1 2 3 4 7 5 6 8 9 10 11\nHence there are two district Hamiltonian paths in G. (A1)\n[3 marks]\n(iv) (a) For breadth-first search starting at U .\n0\nU 1 U 1 U1 U 1\nU2 U2\nU2\nU 0 U0\nU 0 U 0\nU3 U3\nU 4\nU 1 U 1\nU6\nU2 U2\nU0 U 0\nU5 U5\nU 3 U 3 (M1)(A2)\nU 4 U4\nNote: Award (M1) for demonstration of breadth-first technique.\nAward (A2) for all correct, (A1) for 1 error, (A0) otherwise.\n(b) For depth-first search starting at U .\n0\nU 1 U 1 U1 U 1\nU2 U2\nU2\nU 0 U0\nU 0 U 0\nU3 U3\nU 4\nU 1 U 1\nU6\nU2 U2\nU 0 U 0 U 0\nU5 U5\nU 3 U 3 (M1)(A2)\nU 4 U4\nNote: Award (M1) for depth-first pattern.\nAward (A2) for all correct, (A1) for 1 error, (A0) otherwise.\n[6 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "6",
+    "7"
+   ],
+   "subtopics": [
+    "6.10",
+    "6.8",
+    "6.4",
+    "6.12",
+    "6.7",
+    "7.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Discrete Mathematics",
+   "text_clean": "8. [Maximum mark: 30]\n(i) (a) The relation $R$ is defined on $\\mathbb{Z}$ by $aRb$ if $a\\equiv b\\pmod{m}$, where $m\\in\\mathbb{Z}^+$. Show that $R$ is an equivalence relation. [5 marks]\n(b) (i) If $k$, $(0\\le k<8)$ is a solution of the congruence $5x\\equiv3\\pmod 8$ find the value of $k$.\n(ii) Show that all solutions of $5x\\equiv3\\pmod 8$ are congruent to $k$. [5 marks]\n(ii) Solve the recurrence relation $u_n=3u_{n-1}+4u_{n-2}$; $u_1=1, u_2=2$. [7 marks]\n(iii) Consider the graph $G$ with vertices $V_1, V_2, V_3, \\ldots, V_{11}$ as shown in the diagram given below.\n[Diagram: graph G with edges V1V2, V2V3, V3V4, V4V5, V4V6, V4V7, V4V9, V5V6, V5V7, V6V7, V6V9, V6V8, V8V9, V9V10, V10V11, V11V8]\n(a) Find the chromatic number for $G$, justifying your answer. [4 marks]\n(b) Find the number of distinct Hamiltonian paths between $V_1$ and $V_{11}$ and give their vertex sequence. [3 marks]\n(iv) Consider the graph $K$, with vertices $U_0, U_1, U_2, \\ldots, U_6$.\n[Diagram: wheel-like graph K: outer cycle U1U2U3U4U5U6U1 (hexagon) with hub U0 joined to U1, U2, U3, U4, U5, U6]\n(a) Starting at $U_0$, carry out a breadth-first search of graph $K$, to obtain a spanning tree. Draw the current tree $T_r$ for $r=1$ to 6, at each stage of search.\n(b) Starting at $U_0$, carry out a depth-first search of graph $K$, to obtain a spanning tree. Draw the current tree $T_r$, for $r=1$ to 6, at each stage of search. [6 marks]"
+  },
+  {
+   "id": "math-2003-N-P2-q9",
+   "num": "9",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q9.webp",
+   "ms_image": "q9_ms.webp",
+   "text": "9. [Maximum mark: 30]\n(i) (a) Consider the curve fx () = x sin,for0 x ≤ x ≤ 2π .\n(i) Sketch the graph of y = fx () .\n(ii) Find the smallest positive root for fx= () 0 , and give your\nanswer as an exact value.\n(iii) Using the Newton-Raphson method for finding the root of\n2 x cos x\nn n fx= () 0 , show that x += . [6 marks]\nn 1\nx cos x + sin x\nn n n\n(b) Find the area enclosed between the curve y = x sin x , and the line\ny = 0, for0 ≤ x ≤ π . Give your answer to six decimal places. [2 marks]\n(c) If the area of part (b) were to be calculated using the trapezium rule\nwith 10 intervals, find an upper bound for the error in the estimate\nof the area. (Do not calculate the area using the trapezium rule,\njust find the upper bound for the error involved in the calculation). [6 marks]\n(ii) (a) Describe how the integral test is used to show that a series is\nconvergent. Clearly state all the necessary conditions. [3 marks]\n∞ n\n(b) Test the series for convergence. =∑ [5 marks]\n2\n1 en n\n(iii) (a) Find the first four non-zero terms of the Maclaurin series for\n(i) sin x ;\n2\n(ii) ex . [4 marks]\n2 x\n(b) Hence find the Maclaurin series for esin x , up to the term\ncontaining 5x . [2 marks]\n2 x\nesin x − x\n(c) Use the result of part (b) to find lim . [2 marks]\n3 x → 0 x",
+   "ms_text": "9. (i) (a) (i) fx( )\n(A1)(A1)\n(π, 0) x\n0 (2π, 0)\nNote: Award (A1) for shape, (A1) for correct x-intercepts.\n(ii) Smallest positive root = π. (A1)\nfx ( )\n(iii) Newton-Raphson x += x − n\nn 1 n\nf ′ ( x )\nn\nfx () = x sin x ⇒ f ′ () x = sin x + x cos x (A1)\nx sin x\n⇒ x = x − n n\nn + 1 n (M1)\nsin x + x cos x\nn n n\nx (sin x + x cos x ) − x sin x\n= n n n n n n (A1)\nsin x + x cos x\nn n n\n2 cos x x\n= n n (AG)\n+ sin x x cos x\nn n n\n[6 marks]\nπ\n(b) Area = ∫ x sind xx = 3.141593(6 d.p.) (G2)\n0\nOR\nπ π\n∫ x sind xx =− [ x cos x + sin] x (M1) 0\n0\n= π\n= 3.141593 (6 d.p.) (A1)\n[2 marks]\n( b − a ) 3\n(c) Max error = f ′′ ()where c f ′′ () ismaxof c f ′′ on [,] ab\n2 12 n\n′′ = + + − = − f () x cos x cos x x (sin) x 2cos x x sin x (M1)(A1)\nfrom sketch of f ′′ ()use GDCmax x f ′′ () c = 3.103 (M1)(A1)\n(π − 0) 3\n⇒ error ≤ (3.103) (M1)\n2 12(10)\n= 0.0802 (3 s.f.) (A1)\n[6 marks]\n(ii) (a) The integral test for ∑ na .\nLet = fn ()where fx () is a continuous and positive decreasing function for na\nall x ≥ some positive integer, N. (R1)(R1)\n∞\nThen the series a and the integral ∞∫ ()d x =∑\nn Nfx\nnN\nboth diverge or both converge. (R1)\n(i.e. if the integral is finite then ∑ na is finite, if the integral is infinite then\n∑ is infinite) na\n[3 marks]\nx\n(b) Let fx= () which satisfies the above conditions since from GDC we get\n2\nex\n′ for x > 1, fx () > 0 and f () x < 0 . (R1)\n∞ x t 2\n= − x Now ∫ d x lim ∫ x e d x (M1)\n1 x 2 →∞ 1 e t\nt\n1 − x 2\n= lim − e (A1)\nt →∞ 2\n1\n1 2 1 1\n= − − t −− − 1 = lim e e (A1)\n→∞ t 2 2 2e\n∞ n\nSince the integral converges so the series =∑ converges. (A1)\nn 2 e\nn 1\n[5 marks]\n2 f ′′ (0) x\n= + ′ + +… (iii) (a) (i) fx () f (0) f (0) x\n2!\nfx () = sin x f (0) = 0\nf ′ () x = cos x f ′ (0) = 1\nf ′′ () x = − sin x f ′′ (0) = 0\nf ′′′ () x = − cos x f ′′′ (0) = − 1\niv iv f () x = sin x f (0) = 0\nv = v = f () x cos x f (0) 1\nvi vi f () x = − sin x f (0) = 0\nvii vii f () x = − cos x f (0) = − 1 (M1)\n3 5 7 x x x\nHence sin x = x − + − (A1)\n3! 5! 7!\nNote: Award (A2) if series is quoted as a standard result.\nQuestion 9 (iii) (a) continued\n2 3 x x\nx =+ + + +… (ii) e 1 x (a standard result)\n2! 3!\n2 2 2 3 ( x ) ( x )\nx 2 2 e =+ 1 x + + (M1)\n2! 3!\n4 6 x x\n=+ 2 + + + … 1 x (A1)\n2! 3!\n[4 marks]\n4 6 3 5 7\nx 2 2 x x x x x (b) esin x = 1 + x + + x − + −\n(M1)\n2! 3! 3! 5! 7!\n3 5 5 5 x x x x\n3 = x − + + x − +\n(neglecting terms after 5x )\n3! 5! 3! 2!\n3 5 5 5\n3 x x x x = x + x − + − +\n6 2 6 120\n5 41\n= + 3 + 5 x x x (A1)\n6 120\n[2 marks]\n(c) Using above result (part (iii) (b)) we get\nx 2 esin x − x 5 41\n2 = + x (M1)\n3 x 6 120\n2\nesin x x − x 5\nHence lim = (A1)\n3 x → 0 x 6\n[2 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "5",
+    "2"
+   ],
+   "subtopics": [
+    "5.L6",
+    "5.L1",
+    "5.19",
+    "5.13",
+    "5.11",
+    "5.L5",
+    "2.3"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Analysis and Approximation",
+   "text_clean": "9. [Maximum mark: 30]\n(i) (a) Consider the curve $f(x)=x\\sin x$, for $0\\le x\\le2\\pi$.\n(i) Sketch the graph of $y=f(x)$.\n(ii) Find the smallest positive root for $f(x)=0$, and give your answer as an exact value.\n(iii) Using the Newton-Raphson method for finding the root of $f(x)=0$, show that $x_{n+1}=\\frac{x_n^2\\cos x_n}{x_n\\cos x_n+\\sin x_n}$. [6 marks]\n(b) Find the area enclosed between the curve $y=x\\sin x$, and the line $y=0$, for $0\\le x\\le\\pi$. Give your answer to six decimal places. [2 marks]\n(c) If the area of part (b) were to be calculated using the trapezium rule with 10 intervals, find an upper bound for the error in the estimate of the area. (Do not calculate the area using the trapezium rule, just find the upper bound for the error involved in the calculation). [6 marks]\n(ii) (a) Describe how the integral test is used to show that a series is convergent. Clearly state all the necessary conditions. [3 marks]\n(b) Test the series $\\sum_{n=1}^{\\infty}\\frac{n}{\\mathrm{e}^{n^2}}$ for convergence. [5 marks]\n(iii) (a) Find the first four non-zero terms of the Maclaurin series for\n(i) $\\sin x$;\n(ii) $\\mathrm{e}^{x^2}$. [4 marks]\n(b) Hence find the Maclaurin series for $\\mathrm{e}^{x^2}\\sin x$, up to the term containing $x^5$. [2 marks]\n(c) Use the result of part (b) to find $\\lim_{x\\to0}\\left(\\frac{\\mathrm{e}^{x^2}\\sin x-x}{x^3}\\right)$. [2 marks]"
+  },
+  {
+   "id": "math-2003-N-P2-q10",
+   "num": "10",
+   "section": "B",
+   "marks": 30,
+   "qtype": "long",
+   "image": "q10.webp",
+   "ms_image": "q10_ms.webp",
+   "text": "10. [Maximum mark: 30]\n(i) In a ∆ABC, D and E are points on the sides [BC] and [CA] such that\nDC = 2BD and EA = 2CE. If the lines (DE) and (AB) intersect at the\npoint F, then prove that AB = 3BF. [4 marks]\n(ii) (a) In a ∆ABC, let D be the midpoint of the segment [BC] and [AD]\nbe a median. Prove Apollonius’ theorem, that\n2 2 2 2 AB + AC = 2(AD + BD) . [5 marks]\n(b) In a quadrilateral ABCD, X and Y are the midpoints of [AC] and\n[BD], respectively. Prove that\n2 2 2 2 2 2 2 AB + BC + CD + DA = AC + BD + 4XY . [6 marks]\n(iii) Let Fand F be the foci of the ellipse whose equation is given by\n1 2\n2 2 x y\n+ = 1, a > b .\n2 2 a b\nLet P be the point on the ellipse with coordinates ( x , y ) with x , y> 0 .\n0 0 0 0\n(a) Show that the equation of the tangent to the ellipse at the point P\nis given by\nxx yy\n0 + 0 = 1 . [5 marks]\n2 2 a b\n(b) The tangent at P meets the x-axis at the point M. Find the\ncoordinates of point M. [2 marks]\n(c) Find the lengths PF , PF, MF , MF . [4 marks]\n1 2 1 2\n(d) Use the converse of the angle bisector theorem to prove that [PM]\nis the external bisector of F PF ˆ . [4 marks]\n2 1",
+   "ms_text": "10. (i) A\nE\nD\nB C\nF\nBy Menelaus’ Theorem on ∆ABC\nAF BD CE\n× × = − 1 (M1)\nFB DC EA\nAF 1 1\n⇒ × × = − 1 (A1)\nFB 2 2\nAF\n⇒ = − 4 (A1)\nFB\n⇒ AF = − 4FB and B divides AF in ratio 3 : 1 (R1)\n⇒ AB = 3BF (AG)\nOR\n= − AF 4FB\n⇒ AB − FB = − 4FB (Since AB = AF + FB ⇒ AF = AB − FB) (R1)\n⇒ AB = − 3FB ⇒ AB = 3BF (AG)\n[4 marks]\n(ii) (a) A\nθ\nB D C\n2 2 2 2 Prove AB + AC = 2(AD + BD)\nUsing cosine rule we obtain\n2 2 2 AB = AD + BD − 2AD BDcosθ � (M1)(A1)\n2 = 2 + 2 − − θ and AC AD DC 2AD DCcos(180 )\n2 2 2 ⇒ AC = AD + DC + 2AD DCcosθ � (M1)(A1)\nSince BD = DC add � and � (R1)\n⇒ AB 2 + AC 2 = 2(AD 2 + BD) 2 (AG)\n[5 marks]\n(b) A B\nY\nX\nD C\n2 2 2 2 In ∆ABC AB + BC = 2(BX + AX) from part (a) (M1)\nIn ∆ADC AD 2 + DC 2 = 2(DX 2 + AX) 2 from part (a) (M1)\n2 2 2 2 2 2 2\nAddition ⇒ AB + BC + CD + DA = 4AX + 2BX + 2DX (M1)\n2 2 2 2 Now in ∆BXD, BX + DX = 2(XY + BY) (M1)\n2 2 2 2 2 2 2 ⇒ AB + BC + CD + DA = 4AX + 4XY + 4BY (A1)\nAlso 2AX = AC and 2BY = BD (M1)\n2 2 2 2 2 2 2\nHence AB + BC + CD + DA = AC + BD + 4XY (AG)\n[6 marks]\na a\n(iii) x = − x =\ne e\ny\ne is eccentricity\nP( x , y )\n0 0\nM\nx\n2F( − ae , 0) 1F ( ae , 0)\n2 2 x y\n(a) + = 1\n2 2 a b\n1 2 x 2 yy\nDifferentiate with respect to x ⇒ + = 0 (M1)\na 2 b 2\n2 − bx\n1 ⇒ y =\n(A1) 2\nay\n− 2 2 bx − bx\n⇒ at P( x , y ) Slope = 0 ⇒ equation of tangent is y − y = 0 ( x − x )\n0 0 (M1)(A1)\nay 2 0 2 0 ay\n0 0\n2 2 2 2 2 2 ⇒ ayy − ay = − bxx + bx\n0 0 0 0\n2 2 2 2 2 2 ⇒ xx b + yy = ay + bx\n0 0 0 0\nxx yy x 2 y 2\n⇒ 0 + 0 = 0 + 0 (A1)\na 2 b 2 a 2 b 2\nxx yy\n⇒ 0 + 0 = 1 (AG)\n2 2 a b\n[5 marks]\n2 a\n(b) At M y= 0 ⇒ x = (M1)\nx\n0\n2 a\n⇒ M , 0 Coordinate of = (A1)\nx\n0\n[2 marks]\n(c)\ny\na a\n= − x = x\ne e\nP( x , y ) E\n0 0 D\nM\nx\n2F( − ae , 0) ae , 0) 1F (\na\nPF = e (PD) = e − x = a − ex (A1)\n1 0 0\ne\na\nPF = e (PE) = e + x = a + ex (A1)\n2 0 0\ne\n2 a a\nMF = − ae = ( a − ex ) (A1)\n1 0\nx x\n0 0\n2 a a\nMF = + ae = ( a + ex )\n2 0 (A1)\nx x\n0 0\nNote: Award (A1) marks for either form.\n[4 marks]\nF M F P\n(d) Using the converse of the angle bisector theorem we need to show 2 = 2 . (M1)\nFM FP\n1 1\nPF a + ex\n2 = 0 Now from part (c)\n(A1)\nPF a − ex\n1 0\naa ( + ex )\n0\nMF x a + ex\n2 0 0\nand = = (A1)\nMF a a − ex\n1 ( a − ex ) 0\n0 x\n0\nF M F P\n⇒ 2 = 2 (A1)\nFM FP\n1 1\nˆ So PM is the external bisector of F PF . (AG)\n2 1\n[4 marks]\nTotal [30 marks]",
+   "mcq_answer": null,
+   "topics": [
+    "8",
+    "5",
+    "3"
+   ],
+   "subtopics": [
+    "8.1",
+    "8.2",
+    "5.14",
+    "3.2"
+   ],
+   "answer_status": "ok",
+   "flags": [],
+   "option": "Euclidean Geometry and Conic Sections",
+   "text_clean": "10. [Maximum mark: 30]\n(i) In a $\\triangle ABC$, D and E are points on the sides [BC] and [CA] such that DC = 2BD and EA = 2CE. If the lines (DE) and (AB) intersect at the point F, then prove that AB = 3BF. [4 marks]\n(ii) (a) In a $\\triangle ABC$, let D be the midpoint of the segment [BC] and [AD] be a median. Prove Apollonius' theorem, that $AB^2+AC^2=2(AD^2+BD^2)$. [5 marks]\n(b) In a quadrilateral ABCD, X and Y are the midpoints of [AC] and [BD], respectively. Prove that $AB^2+BC^2+CD^2+DA^2=AC^2+BD^2+4XY^2$. [6 marks]\n(iii) Let $F_1$ and $F_2$ be the foci of the ellipse whose equation is given by $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1,\\ a>b$. Let P be the point on the ellipse with coordinates $(x_0, y_0)$ with $x_0, y_0>0$.\n(a) Show that the equation of the tangent to the ellipse at the point P is given by $\\frac{xx_0}{a^2}+\\frac{yy_0}{b^2}=1$. [5 marks]\n(b) The tangent at P meets the $x$-axis at the point M. Find the coordinates of point M. [2 marks]\n(c) Find the lengths $PF_1, PF_2, MF_1, MF_2$. [4 marks]\n(d) Use the converse of the angle bisector theorem to prove that [PM] is the external bisector of $F_2\\hat{P}F_1$. [4 marks]"
+  }
+ ],
+ "status": "done"
+}

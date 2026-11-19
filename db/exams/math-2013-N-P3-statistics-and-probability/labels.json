@@ -1,0 +1,31 @@
+{
+  "exam_id": "math-2013-N-P3-statistics-and-probability",
+  "questions": {
+    "1": {
+      "topics": ["4"],
+      "subtopics": ["4.3", "4.L6", "4.L5"],
+      "text_clean": "1. [Maximum mark: 8]\nA traffic radar records the speed, $v$ kilometres per hour (km h$^{-1}$), of cars on a section of a road. The following table shows a summary of the results for a random sample of 1000 cars whose speeds were recorded on a given day.\nSpeed | Number of cars\n$50 \\le v < 60$ | 5\n$60 \\le v < 70$ | 13\n$70 \\le v < 80$ | 52\n$80 \\le v < 90$ | 68\n$90 \\le v < 100$ | 98\n$100 \\le v < 110$ | 105\n$110 \\le v < 120$ | 289\n$120 \\le v < 130$ | 142\n$130 \\le v < 140$ | 197\n$140 \\le v < 150$ | 31\n(a) Using the data in the table,\n(i) show that an estimate of the mean speed of the sample is 113.21 km h$^{-1}$;\n(ii) find an estimate of the variance of the speed of the cars on this section of the road. [4]\n(b) Find the 95% confidence interval, $I$, for the mean speed. [2]\n(c) Let $J$ be the 90% confidence interval for the mean speed.\nWithout calculating $J$, explain why $J \\subset I$. [2]"
+    },
+    "2": {
+      "topics": ["4"],
+      "subtopics": ["4.L4", "4.9"],
+      "text_clean": "2. [Maximum mark: 14]\nA farmer is selling apples and oranges. The weights $X$ and $Y$, in grams, of the apples and oranges respectively are normally distributed with $X \\sim N(180, 14^2)$ and $Y \\sim N(150, 12^2)$.\n(a) Find the probability that the weight of a randomly chosen apple is more than 1.5 times the weight of a randomly chosen orange. [7]\n(b) Katharina buys 4 apples and 6 oranges. Find the probability that the total weight is greater than 1.5 kilograms. [7]"
+    },
+    "3": {
+      "topics": ["4"],
+      "subtopics": ["4.L9", "4.8", "4.L7"],
+      "text_clean": "3. [Maximum mark: 14]\nJenny tosses seven coins simultaneously and counts the number of tails obtained. She repeats the experiment 750 times. The following frequency table shows her results.\nNumber of tails | Frequency\n0 | 6\n1 | 19\n2 | 141\n3 | 218\n4 | 203\n5 | 117\n6 | 38\n7 | 8\n(a) It is claimed that all of these seven coins are fair and it is decided to test this claim using a suitable $\\chi^2$ test.\n(i) State the null and alternative hypotheses.\n(ii) State a decision rule at the 5% level of significance.\n(iii) Find the value of the test statistic.\n(iv) Write down your conclusion. [10]\n(b) Explain what can be done with this data to decrease the probability of making a type I error. [2]\n(c) (i) State the meaning of a type II error.\n(ii) Write down how to proceed if it is required to decrease the probability of making both a type I and type II error. [2]"
+    },
+    "4": {
+      "topics": ["4"],
+      "subtopics": ["4.L7", "4.3"],
+      "text_clean": "4. [Maximum mark: 10]\nFrancisco and his friends want to test whether performance in running 400 metres improves if they follow a particular training schedule. The competitors are tested before and after the training schedule.\nThe times taken to run 400 metres, in seconds, before and after training are shown in the following table.\nCompetitor | A | B | C | D | E\nTime before training | 75 | 74 | 60 | 69 | 69\nTime after training | 73 | 69 | 55 | 72 | 65\nApply an appropriate test at the 1% significance level to decide whether the training schedule improves competitors' times, stating clearly the null and alternative hypotheses. (It may be assumed that the distributions of the times before and after training are normal.)",
+      "note": "Paired t-test; markscheme ends with [10 marks] (no separate Total line)."
+    },
+    "5": {
+      "topics": ["4", "1"],
+      "subtopics": ["4.L1", "4.L4", "1.9"],
+      "text_clean": "5. [Maximum mark: 14]\nLet $X$ and $Y$ be independent random variables with $X \\sim P_o(3)$ and $Y \\sim P_o(2)$.\nLet $S = 2X + 3Y$.\n(a) Find the mean and variance of $S$. [2]\n(b) Hence state with a reason whether or not $S$ follows a Poisson distribution. [2]\nLet $T = X + Y$.\n(c) Find $\\mathrm{P}(T = 3)$. [4]\n(d) Show that $\\mathrm{P}(T = t) = \\sum_{r=0}^{t} \\mathrm{P}(X = r)\\mathrm{P}(Y = t - r)$. [2]\n(e) Hence show that $T$ follows a Poisson distribution with mean 5. [4]"
+    }
+  }
+}

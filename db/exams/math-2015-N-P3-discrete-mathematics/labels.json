@@ -1,0 +1,35 @@
+{
+  "exam_id": "math-2015-N-P3-discrete-mathematics",
+  "questions": {
+    "1": {
+      "topics": ["6"],
+      "subtopics": ["6.7", "6.8"],
+      "answer_status": "ok",
+      "text_clean": "1. [Maximum mark: 11]\n(a) The distances by road, in kilometres, between towns in Switzerland are shown in the following table.\n| | Basel | Berne | Geneva | Lugano | Sion | Zurich |\n| Basel | – | 100 | 260 | 260 | 250 | 85 |\n| Berne | 100 | – | 170 | 275 | 155 | 125 |\n| Geneva | 260 | 170 | – | 440 | 160 | 290 |\n| Lugano | 260 | 275 | 440 | – | 255 | 210 |\n| Sion | 250 | 155 | 160 | 255 | – | 275 |\n| Zurich | 85 | 125 | 290 | 210 | 275 | – |\nA cable television company wishes to connect the six towns placing cables along the road system.\nUse Kruskal's algorithm to find the minimum length of cable needed to connect the six towns. [5]\n(b) Visitors to Switzerland can visit some principal locations for tourism by using a network of scenic railways as represented by the following graph:\n[Graph: vertices Zurich, Berne, Luzern, Interlaken, Geneva, Montreux, St Moritz, Lugano, Zermatt; edges Berne–Zurich, Zurich–Luzern, Luzern–Interlaken, Berne–Interlaken, Interlaken–St Moritz, Interlaken–Montreux, Geneva–Montreux, Montreux–St Moritz, Montreux–Zermatt, Zermatt–Lugano, Lugano–St Moritz]\n(i) State whether the graph has any Hamiltonian paths or Hamiltonian cycles, justifying your answers.\n(ii) State whether the graph has any Eulerian trails or Eulerian circuits, justifying your answers.\n(iii) The tourist board would like to make it possible to arrive in Geneva, travel all the available scenic railways, exactly once, and depart from Zurich. Find which locations would need to be connected by a further scenic railway in order to make this possible. [6]"
+    },
+    "2": {
+      "topics": ["6"],
+      "subtopics": ["6.10"],
+      "answer_status": "ok",
+      "text_clean": "2. [Maximum mark: 13]\nA recurrence relation is given by $u_{n+1} + 2u_n + 1 = 0$, $u_1 = 4$.\n(a) Use the recurrence relation to find $u_2$. [1]\n(b) Find an expression for $u_n$ in terms of $n$. [6]\nA second recurrence relation, where $v_1 = u_1$ and $v_2 = u_2$, is given by $v_{n+1} + 2v_n + v_{n-1} = 0$, $n \\geq 2$.\n(c) Find an expression for $v_n$ in terms of $n$. [6]"
+    },
+    "3": {
+      "topics": ["6"],
+      "subtopics": ["6.3", "6.5", "6.4", "6.1"],
+      "answer_status": "ok",
+      "text_clean": "3. [Maximum mark: 13]\n(a) Show that there are exactly two solutions to the equation $1982 = 36a + 74b$, with $a, b \\in \\mathbb{N}$. [8]\n(b) Hence, or otherwise, find the remainder when $1982^{1982}$ is divided by $37$. [5]"
+    },
+    "4": {
+      "topics": ["6"],
+      "subtopics": ["6.6"],
+      "answer_status": "ok",
+      "text_clean": "4. [Maximum mark: 13]\nThe following diagram shows the graph $G$.\n[Diagram: graph G with vertices A, B, C, D, E, F; edges A–B, A–C, A–F, C–D, D–B, D–F, B–E, E–F]\n(a) Show that $G$ is bipartite. [2]\n(b) State which two vertices should be joined to make $G$ equivalent to $K_{3,3}$. [1]\nIn a planar graph the degree of a face is defined as the number of edges adjacent to that face.\n(c) (i) Write down the degree of each of the four faces of $G$.\n(ii) Explain why the sum of the degrees of all the faces is twice the number of edges. [2]\n$H$ is a simple connected planar bipartite graph with $e$ edges, $f$ faces, $v$ vertices and $v \\geq 3$.\n(d) Explain why there can be no face in $H$ of degree\n(i) one;\n(ii) two;\n(iii) three. [3]\n(e) Hence prove that for $H$\n(i) $e \\geq 2f$;\n(ii) $e \\leq 2v - 4$. [3]\n(f) Hence prove that $K_{3,3}$ is not planar. [2]"
+    },
+    "5": {
+      "topics": ["6"],
+      "subtopics": ["6.2", "6.4"],
+      "answer_status": "ok",
+      "text_clean": "5. [Maximum mark: 10]\n(a) Given a sequence of non negative integers $\\{a_r\\}$ show that\n(i) $\\sum_{r=0}^{n} a_r (x+1)^r \\pmod{x} = \\sum_{r=0}^{n} a_r \\pmod{x}$ where $x \\in \\{2, 3, 4, \\ldots\\}$.\n(ii) $\\sum_{r=0}^{n} (3a_{2r+1} + a_{2r}) 9^r = \\sum_{r=0}^{2n+1} a_r 3^r$. [5]\n(b) Hence determine whether the base 3 number $22010112200201$ is divisible by $8$. [5]"
+    }
+  }
+}
